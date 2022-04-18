@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-latte"]
+	path = themes/hugo-theme-latte
+	url = https://github.com/EduardoZepeda/hugo-theme-latte
