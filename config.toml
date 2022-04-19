@@ -18,6 +18,30 @@ summaryLength = 40
     name = "Categories"
     url = "/categories/"
     weight = 3
+  [[menu.footer]]
+    name = "Politica de privacidad"
+    url = "/politica-de-privacidad/"
+    weight = 4
+  [[menu.footer]]
+    name = "Politica de cookies"
+    url = "/politica-de-cookies/"
+    weight = 5
+  [[menu.social]]
+    name = "Twitter"
+    pre = "twitter"
+    url = "/politica-de-privacidad/"
+    weight = 6
+  [[menu.social]]
+    name = "Instagram"
+    pre = "instagram"
+    url = "/politica-de-privacidad/"
+    weight = 6
+  [[menu.social]]
+    name = "Linkedin"
+    pre = "linkedin-in"
+    url = "/politica-de-privacidad/"
+    weight = 6
+
 
 [permalinks]
   posts = ":title"
