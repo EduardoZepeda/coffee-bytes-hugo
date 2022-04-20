@@ -56,7 +56,7 @@ Lo que debes recordar acerca de los contenedores es que **son muy ligeros, se en
 
 Lo importante a recordar de las máquinas virtuales es que, en comparación con los contenedores, **ocupan mucho espacio y, como deben cargar un sistema operativo completo, pueden demorar mucho más tiempo en arrancar** y, a diferencia de los contenedores, **virtualizan el funcionamiento de la parte del hardware.**
 
-![](https://coffeebytes.dev/wp-content/uploads/2020/09/Diferencias-entre-maquina-virtual-y-docker.png)
+![](images/Diferencias-entre-maquina-virtual-y-docker.png)
 
 Hice los diágramas usando HTML y CSS, pero al final me decidí por usar una imagen, el código fuente esta comentado en esta página, puedes tomarlo si quieres. O mandame un DM por twitter y te lo paso.
 

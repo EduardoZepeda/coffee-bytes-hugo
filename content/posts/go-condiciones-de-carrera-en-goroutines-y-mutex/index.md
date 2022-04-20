@@ -28,7 +28,7 @@ Mientras que la segunda goroutine, casi al mismo tiempo que la primera, dijo: "Y
 
 Ambas goroutines están estableciendo el total de créditos en 140, porque leyeron, casi al mismo tiempo, que había 120.
 
-![Ejemplo de una race condition o condición de carrera en go](https://coffeebytes.dev/wp-content/uploads/2022/02/race-conditions-go-1024x1024.png)
+![Ejemplo de una race condition o condición de carrera en go](images/race-conditions-go.png)
 
 Ejemplo de una race condition o condición de carrera en go.
 
@@ -126,7 +126,7 @@ lock.Lock()
 lock.Unlock()
 ```
 
-![El método Lock de Mutex bloquea el acceso del código, mientras que el método Unlock lo libera.](https://coffeebytes.dev/wp-content/uploads/2022/02/mutex-lock-en-go-1024x691.png)
+![El método Lock de Mutex bloquea el acceso del código, mientras que el método Unlock lo libera.](images/mutex-lock-en-go.png)
 
 Funcionamiento del Mutex en go
 

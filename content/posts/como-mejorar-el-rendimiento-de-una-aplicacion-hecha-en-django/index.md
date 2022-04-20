@@ -24,7 +24,7 @@ Identifica que consultas se están haciendo en tu aplicación usando [django-deb
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
 
-![Django debug tool bar mostrando las queries SQL de una petición en Django](https://coffeebytes.dev/wp-content/uploads/2020/12/django-debug-tool-bar-numero-queries.png)
+![Django debug tool bar mostrando las queries SQL de una petición en Django](images/django-debug-tool-bar-numero-queries.png)
 
 Django debug tool bar mostrando las queries SQL de una petición en Django
 

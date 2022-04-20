@@ -32,7 +32,7 @@ tesseract -v
 tesseract 5.0.0-alpha-20201224-3-ge1a3
 ```
 
-![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](https://coffeebytes.dev/wp-content/uploads/2021/08/OCRTesseractVersion5vsVersion3-2-1024x538.png)
+![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](images/OCRTesseractVersion5vsVersion3-2.png)
 
 Comparación entre el OCR de tesseract 3 y tesseract 5
 
@@ -61,7 +61,7 @@ Verás que ahora el español ya se encuentra instalado y podemos usarlo para det
 
 Ahora pongámoslo a prueba para reconocer texto en imágenes, directo de la terminal. Yo voy a usar la siguiente imagen:
 
-![Imagen con texto a procesar](https://coffeebytes.dev/wp-content/uploads/2021/09/imagen_con_texto.jpg)
+![Imagen con texto a procesar](images/imagen_con_texto.jpg)
 
 imagen\_con\_texto.jpg
 
@@ -143,6 +143,6 @@ data = pytesseract.image_to_data(img)
 print(data)
 ```
 
-![Retorno del método image_to_data en tesseract](https://coffeebytes.dev/wp-content/uploads/2021/09/dataTesseract.png)
+![Retorno del método image_to_data en tesseract](images/dataTesseract.png)
 
 Si quieres profundizar más visita la [documentación completa de tesseract](https://github.com/tesseract-ocr/tesseract).

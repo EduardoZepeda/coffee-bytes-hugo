@@ -78,7 +78,7 @@ api/authentication/ password/change/ [name='rest_password_change']
 
 Si lees la lista anterior, te darás cuenta de que se agregaron endpoints para reiniciar contraseñas, login, logout, detalles de usuario y cambiar password. Y si accedemos a esas urls en el navegador ya veremos la interfaz de DRF.
 
-![Pantalla de Loggeo en Django REST framework](https://coffeebytes.dev/wp-content/uploads/2021/08/DjangoRestFrameworkEndpointLogin-1024x709.png)
+![Pantalla de Loggeo en Django REST framework](images/DjangoRestFrameworkEndpointLogin.png)
 
 El endpoint de login nos devuelve una key que usaremos como token
 
@@ -138,13 +138,13 @@ INSTALLED_APPS = [
 
 Ahora tendremos un endpoint extra que permite el registro de usuarios.
 
-![Pantalla de registro en Django REST Framework](https://coffeebytes.dev/wp-content/uploads/2021/08/DjangoRestFrameworkEndpointRegistro-1024x640.png)
+![Pantalla de registro en Django REST Framework](images/DjangoRestFrameworkEndpointRegistro.png)
 
 Pantalla de registro de un usuario en la interfaz de DRF
 
 Si nos registramos mediante el navegador, llenando el formulario, recibiremos un token como respuesta:
 
-![Token de sesión de DRF Obtenidas tras el logueo de un usuario.](https://coffeebytes.dev/wp-content/uploads/2021/08/DjangoRestFrameworkEndpointToken-1024x414.png)
+![Token de sesión de DRF Obtenidas tras el logueo de un usuario.](images/DjangoRestFrameworkEndpointToken.png)
 
 Token de sesión obtenida tras el logueo de un usuario
 
@@ -193,7 +193,7 @@ JWT_AUTH_REFRESH_COOKIE = 'jwt-refresh-token'
 
 Tras obtener las tokens de refresco y autenticación, haciendo login en nuestro endpoint, podemos usarlas para autenticarnos con el header "Authorization: Bearer <Access token>".
 
-![Tras el logueo de un usuario obtenemos el  JWT de refresco y de autenticación o acceso.](https://coffeebytes.dev/wp-content/uploads/2021/08/DjangoRestFrameworkJWT-1024x841.png)
+![Tras el logueo de un usuario obtenemos el  JWT de refresco y de autenticación o acceso.](images/DjangoRestFrameworkJWT.png)
 
 Tras el logueo de un usuario obtenemos el JWT de refresco y de autenticación o acceso.
 

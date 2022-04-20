@@ -9,7 +9,7 @@ coverImage: "mi_experiencia_con_easy_wp.jpg"
 
 Hace unas semanas mi SO decidió empezar un blog sobre cafeterías en Wordpress. Tras una corta plática sobre las ventajas y desventajas de las plataformas de registro más populares y resistirse a mi insistentes recomendaciones de usar [DigitalOcean](https://m.do.co/c/a22240ebb8e7) o [AWS](https://aws.amazon.com/), se dirigió a registrar su dominio en namecheap. Pasados unos minutos de iniciado el proceso de registro en namecheap un banner capturó su atención: [EasyWP](https://www.easywp.com/). En las siguientes lineas te cuento mi experiencia usando namecheap con EasyWP
 
-![Imagen publicitaria de easywp](https://coffeebytes.dev/wp-content/uploads/2019/04/EasyWP-1024x234.png)
+![Imagen publicitaria de easywp](images/EasyWP.png)
 
 EasyWP prometía un despliegue de WordPress sencillo y sin problemas:
 
@@ -17,7 +17,7 @@ EasyWP prometía un despliegue de WordPress sencillo y sin problemas:
 
 ¿Suena bastante convincente no? Ya no más terminals por SSH, instalación de paquetes en GNU/Linux ni bases de datos. Un simple click en la página web de namecheap y todo quedaría listo.
 
-![El menu del servicio en namecheap](https://coffeebytes.dev/wp-content/uploads/2019/04/whyEasyWP-1024x497.jpg)
+![El menu del servicio en namecheap](images/whyEasyWP.jpg)
 
 Menú de servicio en easyWP
 
@@ -37,7 +37,7 @@ El siguiente problema ocurrió cuando mi SO decidió personalizar la apariencia 
 
 Para empeorar aún más la situación, unos días después del reclamo, el día 23 de abril, los servidores que usaban wordpress y easywp estaban teniendo problemas. No se podía acceder al sitio. El problema se solucionó en menos de 24 horas, pero dejó numerosos errores en la instalación nuevamente, esta vez en el los archivos css de la instalación.
 
-![Problema de carga de archivos css en easywp](https://coffeebytes.dev/wp-content/uploads/2019/05/errorEasywpNamecheap-1024x576.png)
+![Problema de carga de archivos css en easywp](images/errorEasywpNamecheap.png)
 
 Error de carga de archvios css en easywp
 

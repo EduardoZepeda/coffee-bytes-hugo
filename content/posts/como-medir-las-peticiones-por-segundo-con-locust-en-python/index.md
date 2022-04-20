@@ -40,7 +40,7 @@ locust
 
 Tras ejecutarlo tendremos un servidor corriendo en _http://localhost:8089/_. Si entramos veremos una pantalla como esta:
 
-![Pantalla inicial locust](https://coffeebytes.dev/wp-content/uploads/2021/09/PantallaInicialLocust.png)
+![Pantalla inicial locust](images/PantallaInicialLocust.png)
 
 Aquí colocamos, en orden, el número de usuarios totales, la velocidad a la que locust creará usuarios por segundo, y el host a testear. Llenamos los datos, yo usaré 200 usuarios, 2 usuarios creados por segundos y http://localhost:1323, que dirige a un servidor web local.
 
@@ -48,13 +48,13 @@ Presionamos el botón "start swarming" y locust se encargará del resto, increme
 
 Observa el monitoreo en tiempo real. Para detenerlo presiona el botón stop de la esquina superior derecha.
 
-![Locust soporta monitoreo en tiempo real](https://coffeebytes.dev/wp-content/uploads/2021/09/MonitoreoTiempoRealLocust.gif)
+![Locust soporta monitoreo en tiempo real](images/MonitoreoTiempoRealLocust.gif)
 
 ## Métricas en locust
 
 La pestaña de estadísticas nos nuestra información la siguiente información.
 
-![Estadísticas en Locust](https://coffeebytes.dev/wp-content/uploads/2021/09/EstadisticasLocust-1024x129.png)
+![Estadísticas en Locust](images/EstadisticasLocust.png)
 
 - Tipo de petición
 - Nombre de la ruta
@@ -73,15 +73,15 @@ Cuando detengamos el test, tendremos gráficos descargables en la pestaña chart
 
 El primero con el número de peticiones por segundo en el eje de las Y.
 
-![Peticiones totales por segundo](https://coffeebytes.dev/wp-content/uploads/2021/09/PeticionesPorSegundo-1024x200.png)
+![Peticiones totales por segundo](images/PeticionesPorSegundo.png)
 
 El segundo con el tiempo de respuesta en el eje de las Y.
 
-![Tiempo de respuesta](https://coffeebytes.dev/wp-content/uploads/2021/09/TiempoDeRespuesta-1024x200.png)
+![Tiempo de respuesta](images/TiempoDeRespuesta.png)
 
 Por último, el tercero, con el número de usuarios en el eje de las Y.
 
-![Número de usuarios](https://coffeebytes.dev/wp-content/uploads/2021/09/NumeroDeUsuarios-1024x200.png)
+![Número de usuarios](images/NumeroDeUsuarios.png)
 
 ## Añadir más peticiones por usuario
 
@@ -219,7 +219,7 @@ class HelloWorldUser(HttpUser):
 
 En el ejemplo anterior al intentar acceder a una ruta que no existe, la primera condicional se ejecutará y creará un fallo con el texto "Respuesta equivocada", el cual podremos ver en la sección de fallos de la interfaz.
 
-![Error personalizado](https://coffeebytes.dev/wp-content/uploads/2021/09/ErrorPersonalizadoLocust-1024x124.png)
+![Error personalizado](images/ErrorPersonalizadoLocust.png)
 
 Además de probar el texto en la respuesta es posible probar las otras propiedades del objeto response, tales como el código de respuesta o el tiempo que demora en devolver una respuesta.
 

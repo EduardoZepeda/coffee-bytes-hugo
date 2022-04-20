@@ -21,7 +21,7 @@ El efecto que tendrá la caché depende de muchos factores. Sin embargo, solo pa
 
 Como puedes observar la diferencia es de casi 10 veces el tiempo.
 
-![Comparación del tiempo de respuesta con caché y sin caché para una aplicación de django.](https://coffeebytes.dev/wp-content/uploads/2021/08/ComparacionCache1000filasDjango.jpg)
+![Comparación del tiempo de respuesta con caché y sin caché para una aplicación de django.](images/ComparacionCache1000filasDjango.jpg)
 
 ## Instalando memcached
 
@@ -137,7 +137,7 @@ Cache-Control: max-age=600
 
 Si en lugar de usar la terminal entramos al navegador, veremos como la _django\_debug\_toolbar_ ya nos muestra que la caché está siendo usada.
 
-![Django_debug_toolbar con caché y sin caché, comparación.](https://coffeebytes.dev/wp-content/uploads/2021/08/CacheDebugToolBar.png)
+![Django_debug_toolbar con caché y sin caché, comparación.](images/CacheDebugToolBar.png)
 
 Mira como en la columna caché, ya nos aparecen dos llamadas.
 

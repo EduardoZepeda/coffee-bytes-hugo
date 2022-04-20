@@ -19,7 +19,7 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 
 Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de python vs javascript, por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
-![Comparación entre un lenguaje interpretado y uno compilado.](https://coffeebytes.dev/wp-content/uploads/2021/10/codigo-compilado-vs-interpretado-go-vs-python.png)
+![Comparación entre un lenguaje interpretado y uno compilado.](images/codigo-compilado-vs-interpretado-go-vs-python.png)
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 
@@ -262,7 +262,7 @@ Go, a la fecha de escritura de este artículo, requiere instalarse en el sistema
 
 Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra instalado generalmente en todas las distribuciones de GNU/Linux y basta con que abras una terminal y teclees la palabra Python para empezar a usarlo.
 
-![Python ejecutándose en una terminal](https://coffeebytes.dev/wp-content/uploads/2021/05/PythonConsola.gif)
+![Python ejecutándose en una terminal](images/PythonConsola.gif)
 
 ## Usos
 
@@ -270,7 +270,7 @@ Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra ins
 
 Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, servidores de backend y en blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/11/traeffik-y-kubernetes-1024x505-1.jpg)
+![](images/traeffik-y-kubernetes-1024x505-1.jpg)
 
 Traefik, docker, kubernetes, influxdb y terraform están escritos en Go
 
@@ -282,19 +282,19 @@ Python es un lenguaje multipropósito, permite crear básicamente de todo, desde
 
 A la fecha Python es mucho más popular que Go. Puedes observar que Go ganó popularidad entre el periodo comprendido entre 2011 y 2015, pero se estabilizó para quedar por debajo de Python.
 
-![Google trends comparando Go vs Python. Python es más popular a la fecha.](https://coffeebytes.dev/wp-content/uploads/2021/10/Python-vs-go-popularidad-1024x525.png)
+![Google trends comparando Go vs Python. Python es más popular a la fecha.](images/Python-vs-go-popularidad.png)
 
 ### Popularidad entre los desarrolladores en 2021
 
 Go es un lenguaje bastante popular entre los desarrolladores, mucho más apreciado que Javascript, pero menos querido que Python y Typescript.
 
-![Encuesta de stackoverflow 2021 con lso lenguajes más queridos y odiados. Go es más querido que Python.](https://coffeebytes.dev/wp-content/uploads/2021/10/go-vs-python-stackoverflow-2021-1024x686.png)
+![Encuesta de stackoverflow 2021 con lso lenguajes más queridos y odiados. Go es más querido que Python.](images/go-vs-python-stackoverflow-2021.png)
 
 ## Salarios de desarrolladores en 2021
 
 Los desarrolladores de Go suelen ganar más dinero que los desarrolladores de Python. De hecho Go se encuentra dentro de los 10 lenguajes mejor pagados según la encuesta de stackoverflow del 2021.
 
-![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go está en el top 10](https://coffeebytes.dev/wp-content/uploads/2021/10/go-vs-python-salarios-1024x851.png)
+![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go está en el top 10](images/go-vs-python-salarios.png)
 
 ## Baterías incluidas
 
@@ -312,7 +312,7 @@ Go no cuenta con un repositorio oficial de paquetes como sí lo tiene Python. Lo
 
 El [manejo de los modulos y paquetes en Go](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto extraño, no existen las importaciones relativas, como en Python o en Javascript.
 
-![Awesome Go página.](https://coffeebytes.dev/wp-content/uploads/2021/10/AwesomeGo.png)
+![Awesome Go página.](images/AwesomeGo.png)
 
 Awesome Go cuenta con enlaces a una gran cantidad de paquetes de Go ordenados por tema
 
@@ -326,7 +326,7 @@ Python cuenta con 336,000 en pypi, muchos de ellos están disponibles para ser u
 
 Python tiene una comunidad gigantesca, comparada con la de go, y tienen paquetes para casi todo lo que te puedas imaginar.
 
-![Captura de pantalla del índice de paquetes de Python Pypi](https://coffeebytes.dev/wp-content/uploads/2021/10/Pypi-1024x368.png)
+![Captura de pantalla del índice de paquetes de Python Pypi](images/Pypi.png)
 
 El índice de paquetes de Python Pypi
 
@@ -338,7 +338,7 @@ La comparación aquí va a tornarse algo injusta, pero la haré de todas formas:
 
 ¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
 
-![Python vs go en fibonacci por recursión](https://coffeebytes.dev/wp-content/uploads/2021/10/fibo-go-vs-python-velocidad.png)
+![Python vs go en fibonacci por recursión](images/fibo-go-vs-python-velocidad.png)
 
 Fibonacci por recursión, entre menos mejor. Go es descomunalmente más rápido que Python.
 
@@ -348,7 +348,7 @@ Fibonacci por recursión, entre menos mejor. Go es descomunalmente más rápido 
 
 Los frameworks disponibles para Go se centran en velocidad. Dado que el lenguaje es nuevo son tecnologías relativamente jóvenes pero extremadamente rápidas y eficientes, pudiendo servir muchísimas peticiones por segundo. Si la velocidad es un requerimiento para tu proyecto, considéralos muy seriamente.
 
-![Frameworks de Go más conocidos: Hugo, Beego, Echo, Buffalo, Go revel](https://coffeebytes.dev/wp-content/uploads/2021/10/Frameworks-web-Go-1024x538.jpg)
+![Frameworks de Go más conocidos: Hugo, Beego, Echo, Buffalo, Go revel](images/Frameworks-web-Go.jpg)
 
 ### ¿Qué tan rápido son los web frameworks de Go comparados con los de Python?
 
@@ -356,7 +356,7 @@ Mira estás pruebas de rendimiento de techempower. Las barras verdes corresponde
 
 Encerrado en negro están las peticiones por segundo que soporta cada framework (mientras más mejor). Como puedes apreciar, Go supera a Python en rendimiento.
 
-![Comparación del rendimiento de varios frameworks web en techempower](https://coffeebytes.dev/wp-content/uploads/2021/10/Velocidad-frameworks-go-vs-python.png)
+![Comparación del rendimiento de varios frameworks web en techempower](images/Velocidad-frameworks-go-vs-python.png)
 
 Pruebas de rendimiento para frameworks de Python (morado) y Go (verde)
 
@@ -366,7 +366,7 @@ Mientras que en Python ya contamos con algunas **soluciones bastante probadas, c
 
 Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
-![Frameworks web más populares de Python: Django, Fastapi, flask, bottle](https://coffeebytes.dev/wp-content/uploads/2020/12/python-frameworks.jpg)
+![Frameworks web más populares de Python: Django, Fastapi, flask, bottle](images/python-frameworks.jpg)
 
 A pesar de que la mayoría de frameworks en Python son antiguos, no significa que no estén apareciendo nuevos frameworks últimamente. [Fastapi](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/), del que ya hice un tutorial también es un nuevo framework muy veloz que gana popularidad día con día.
 

@@ -20,7 +20,7 @@ Conociendo las dos situaciones anteriores tendremos dos casos principales:
 
 ¿Qué pasa si una operación está esperando recibir información de un canal, pero ese canal no va a mandar nada jamás?
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/01/deadlock-sender-go-1024x1024.jpg)
+![](images/deadlock-sender-go.jpg)
 
 No hay una operación que envie datos a través de un canal.
 
@@ -41,7 +41,7 @@ func main() {
 
 ¿Y si una operación manda información a un canal pero ya no hay ninguna otra goroutine que reciba la información de ese canal?
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/01/deadlock-receiver-go-1024x1024.jpg)
+![](images/deadlock-receiver-go.jpg)
 
 No hay una operación que reciba texto a través de un canal.
 
@@ -112,7 +112,7 @@ Si un canal no tiene buffer, el valor queda "retenido" hasta que se reciba, bloq
 
 Por otro lado, si el canal tiene buffer, entonces la ejecución se bloquea hasta que el valor se haya copiado al buffer, por lo que no obtendremos un error, incluso si ninguna goroutine lo recibe.
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/01/deadlocks-prevencion-go-1-1024x1024.jpg)
+![](images/deadlocks-prevencion-go-1.jpg)
 
 En un canal con buffer no importa si el valor no se lee pues ya ha sido copiado al buffer
 

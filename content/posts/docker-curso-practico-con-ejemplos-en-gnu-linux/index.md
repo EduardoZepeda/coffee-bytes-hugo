@@ -60,7 +60,7 @@ richarvey/nginx-php-fpm            Container running Nginx + PHP-FPM capable of�
 
 Por otro lado, si prefieres hacerlo de una manera más visual puedes visitar [Docker hub](https://hub.docker.com/). Ahí se puede conseguir cualquier tipo de imagen que te imagines, incluso subir las tuyas. Date una vuelta y mira todas las opciones que están disponibles para descargar. Por ahora no descargaremos ninguna otra.
 
-![Captura de pantalla de Dockerhub, el repositorio oficial de imágenes de Docker.](https://coffeebytes.dev/wp-content/uploads/2020/09/Docker-hub-1024x469.png)
+![Captura de pantalla de Dockerhub, el repositorio oficial de imágenes de Docker.](images/Docker-hub.png)
 
 ### Ver las imágenes
 
@@ -270,7 +270,7 @@ docker restart nombre_o_id_del_contenedor
 
 Hasta ahora hemos creado contenedores con los cuales no podemos interaccionar desde el exterior. Si intentamos abrir localhost del veremos que nuestro contenedor de Nginx no nos devuelve nada.
 
-![Página de error de conexión en Firefox](https://coffeebytes.dev/wp-content/uploads/2020/10/ErrorFirefox.png)
+![Página de error de conexión en Firefox](images/ErrorFirefox.png)
 
 Error de Firefox al intentar acceder al contenedor de Nginx
 
@@ -282,7 +282,7 @@ docker run -d --name servidorNginx -p 8080:80 nginx
 
 El comando anterior creó una instancia del servidor web Nginx, por lo que redireccionaremos lo que sale de SU puerto 80, a NUESTRO puerto 8080. Al terminar de ejecutar este comando puedes abrir tu navegador y comprobar que, ahora sí, está corriendo un servidor en Nginx.
 
-![Mensaje de bienvenida de un servidor Nginx](https://coffeebytes.dev/wp-content/uploads/2020/09/nginx-corriendo-sobre-docker.png)
+![Mensaje de bienvenida de un servidor Nginx](images/nginx-corriendo-sobre-docker.png)
 
 ## Persistencia de datos con volúmenes en Docker
 
@@ -556,6 +556,6 @@ curl localhost:8000
 
 Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 veremos el cohete de Django indicando que todo funcionó perfectamente. Gunicorn está sirviendo nuestra aplicación de Django en el puerto 8000, al que podemos acceder a través de nuestro puerto del mismo número.
 
-![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](https://coffeebytes.dev/wp-content/uploads/2020/09/djangoRocketNoCursor.gif)
+![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)
 
 Este tutorial cubrió solo lo básico sobre Docker. [Entra en la siguiente entrada](https://coffeebytes.dev/docker-compose-tutorial-con-comandos-en-gnu-linux/) que tratará sobre docker compose, una herramienta para crear aplicaciones con multiples contenedores.

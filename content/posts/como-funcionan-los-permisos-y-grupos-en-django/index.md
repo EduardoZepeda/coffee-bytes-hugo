@@ -161,7 +161,7 @@ Como ya sabes, usar grupos es una manera bastante cómoda de asignar una serie d
 
 ### Crear grupos de permisos
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/04/django-group-permissions.gif)
+![](images/django-group-permissions.gif)
 
 También podemos crearlos directo de la terminal de Python
 

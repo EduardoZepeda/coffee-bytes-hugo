@@ -10,7 +10,7 @@ coverImage: "Django-channels-tutorial.jpg"
 
 Django channels coloca una capa intermedia que se encarga de procesar las peticiones http a las vistas de django y las conexiones websocket a un consumer http o un consumer websocket.
 
-![Esquema simplificado del funcionamiento de Django channels](https://coffeebytes.dev/wp-content/uploads/2021/11/djangoWsgiChannels.png)
+![Esquema simplificado del funcionamiento de Django channels](images/djangoWsgiChannels.png)
 
 ## ¿Qué es un channel y un websocket?
 
@@ -103,7 +103,7 @@ En esta app radicarán los encargados de manejar las conexiones websocket que cr
 
 Los eventos son las acciones que realizarán nuestros usuarios, como conectarse, desconectarse o mandar información al websocket y el consumer responderá a estos. Además de estos eventos podemos crear eventos personalizados (no te preocupes por eso ahora) y asignarlos a funciones.
 
-![Esquema simplificado de un websocket y un consumer](https://coffeebytes.dev/wp-content/uploads/2021/11/websocketYConsumer-1-1024x1024.png)
+![Esquema simplificado de un websocket y un consumer](images/websocketYConsumer-1.png)
 
 El web socket manda información con el método send, el consumer la recibe con su método receive, y posteriormente manda una respuesta con send, que el websocket procesará con onmessage
 
@@ -232,7 +232,7 @@ Todas las conexiones a la url _ws://localhost:8000/ws/chat/_ crearán una instan
 
 Posteriormente, modifiquemos el archivo _asgi.py_ dentro de nuestro proyecto de manera que cada petición que se haga a un websocket sea redirigida a nuestro consumer.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/11/ProtocolTyperouter-2-1024x853.png)
+![](images/ProtocolTyperouter-2.png)
 
 ```python
 # mychannels/asgi.py
@@ -297,7 +297,7 @@ chatSocket.send(JSON.stringify({
 
 Si todo salió bien deberíamos obtener una respuesta con el mensaje que mandamos.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/11/djangoChannelsWebSockets-1.png)
+![](images/djangoChannelsWebSockets-1.png)
 
 Manejando websockets en la consola de Javascript
 

@@ -20,7 +20,7 @@ Wordpress es un sistema bastante popular en internet y ya cuenta con miles de so
 
 A decir verdad esta es la primera vez que creo algo con wordpress. Instalarlo en [Digital Ocean](https://coffeebytes.dev/digital-ocean-analisis-y-mi-experiencia/) fue bastante sencillo y en menos de 5 minutos tuve un blog en linea y perfectamente funcional, listo para empezar a publicar en él y con un arsenal de herramientas para facilitar mi trabajo. Mis únicos dos problemas (si es que se les puede llamar así) fueron dos; el primero, el alto contenido de spam; el segundo, apache2 no sirve contenido usando http2 de manera predeterminada, por lo que necesité ir a la terminal para modificar la configuración de Apache2. A parte de eso, no he tenido problema alguno con Wordpress, ni perdida de datos, ni bugs en el código; mi sitio web corre relativamente bien, con muy buenos indicadores en [lighthouse](https://web.dev).
 
-![](https://coffeebytes.dev/wp-content/uploads/2020/08/web_core_vitals_de_mi_blog.png)
+![](images/web_core_vitals_de_mi_blog.png)
 
 ## El odio de los desarrolladores hacia wordpress
 
@@ -28,7 +28,7 @@ He escuchado que odiar Wordpress entre los desarrolladores está de moda y entie
 
 Por otro lado, le doy la razón totalmente a los desarrolladores cuando dicen que usar Wordpress para ecommerce, galerías de fotografías o cualquier otra aplicación es una pésima idea, yo comparto totalmente su sentir. Como escribí anteriormente, creo que en aquellas situaciones donde se requiere una solución mucho más personalizada hay que pasar de Wordpress por completo. Sin embargo es trabajo del desarrollador explicarle al cliente el valor agregado que puede aportar un sitio web personalizado y programado desde cero totalmente a su medida a su marca.
 
-![Meme de wordpress del rapero](https://coffeebytes.dev/wp-content/uploads/2021/04/wordpress-meme.jpg)
+![Meme de wordpress del rapero](images/wordpress-meme.jpg)
 
 ## TLDR;
 

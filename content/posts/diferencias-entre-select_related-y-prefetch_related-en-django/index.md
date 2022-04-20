@@ -14,7 +14,7 @@ El método _select\_related_ se **usa para seguir una relación de tipo ForeignK
 
 Al usar _select\_related_ tendremos una consulta más larga, sin embargo, la ventaja consiste en que ya no será necesario acceder nuevamente a la base de datos para obtener los objetos del modelo relacionado.
 
-![Esquema del funcionamiento de select_related ](https://coffeebytes.dev/wp-content/uploads/2022/03/select_related-1024x683.png)
+![Esquema del funcionamiento de select_related ](images/select_related.png)
 
 Esquema simplificado del funcionamiento de select\_related
 
@@ -99,7 +99,7 @@ SELECT "my_app_derivado"."id",
 
 Si el método _select\_related_ recupera un único objeto a partir de un campo de relación única, **el método _prefetch\_related_ se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo **_ManyToMany_ o un _ForeignKey_ inverso**.
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/03/prefetch_related-1024x683.png)
+![](images/prefetch_related.png)
 
 Esquema simplificado del funcionamiento de prefetch\_related
 

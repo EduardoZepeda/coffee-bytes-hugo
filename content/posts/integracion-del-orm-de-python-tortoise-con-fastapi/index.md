@@ -158,7 +158,7 @@ async def create_job(name=Form(...), description=Form(...)):
 
 Si ahora hacemos una petición web usando la interfaz de documentación que crea fastAPI, en _/docs/_, veremos que seremos capaces de crear un objeto Job usando un nombre y una descripción.
 
-![Creación de un objeto usando fastAPI y tortoise ORM](https://coffeebytes.dev/wp-content/uploads/2021/08/CreacionDeUnObjetoTortoise-1024x702.png)
+![Creación de un objeto usando fastAPI y tortoise ORM](images/CreacionDeUnObjetoTortoise.png)
 
 ## Serializar objetos con pydantic y tortoise
 
@@ -216,7 +216,7 @@ async def get_jobs():
     return await job_pydantic.from_queryset(Job.all())
 ```
 
-![Obtenciónd e una lista de objetos usando fastAPI y tortoise ORM](https://coffeebytes.dev/wp-content/uploads/2021/08/ListadoDeObjetosTortoise-1024x535.png)
+![Obtenciónd e una lista de objetos usando fastAPI y tortoise ORM](images/ListadoDeObjetosTortoise.png)
 
 ## Actualizar un objeto con tortoise
 
@@ -239,7 +239,7 @@ async def update_job(job_id: int, job: job_pydantic):
     return await job_pydantic_no_ids.from_queryset_single(Job.get(id=job_id))
 ```
 
-![Actualización de un objeto usando tortoise y fastAPI](https://coffeebytes.dev/wp-content/uploads/2021/08/ActualizacionDeUnObjetoTortoise-1024x677.png)
+![Actualización de un objeto usando tortoise y fastAPI](images/ActualizacionDeUnObjetoTortoise.png)
 
 ## Obtener un objeto con tortoise
 
@@ -255,7 +255,7 @@ async def get_job(job_id: int):
     return await job_pydantic_no_ids.from_queryset_single(Job.get(id=job_id))
 ```
 
-![Obtención de un objeto usando fastAPI y swagger](https://coffeebytes.dev/wp-content/uploads/2021/08/ObtenerUnObjetoTortoise-1024x534.png)
+![Obtención de un objeto usando fastAPI y swagger](images/ObtenerUnObjetoTortoise.png)
 
 ## Eliminar un objeto con tortoise
 
@@ -277,6 +277,6 @@ async def delete_job(job_id: int):
 
 Filtramos por el id que obtenemos en la url y, si encontramos el objeto, lo borramos, en caso de que no exista el id de ese objeto devolveremos un error 404 por medio de una excepción. En caso de que sí, ya no vamos a devolver el objeto, sino que bastará con que devolvamos un mensaje avisando que el id fue borrado.
 
-![Eliminación de un objeto usando fastAPI y swagger](https://coffeebytes.dev/wp-content/uploads/2021/08/BorrarUnObjetoTortoise-1024x705.png)
+![Eliminación de un objeto usando fastAPI y swagger](images/BorrarUnObjetoTortoise.png)
 
 Y con eso podemos realizar las operaciones básicas de CRUD en fastAPI usando tortoise como ORM. En esta entrada no he tratado las llaves foráneas, ni los campos de llave foránea, ni los many to many, ni otro tipo de relaciones entre modelos. Probablemente haga una entrada en un futuro sobre eso, mientras tanto puedes leerte [la documentación oficial de tortoise.](https://tortoise-orm.readthedocs.io)

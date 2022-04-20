@@ -22,19 +22,19 @@ Antes de empezar con los comandos quiero mencionar un par de pequeños tips o fu
 
 Si hay un conflicto basta con presionar dos veces la tecla TAB y nos mostrará las opciones disponibles. Una función perfecta para los perezosos que no nos gusta teclear innecesariamente.
 
-![Función de autocompletado del comando tabular en una terminal de GNU/Linux](https://coffeebytes.dev/wp-content/uploads/2020/09/tabular.gif)
+![Función de autocompletado del comando tabular en una terminal de GNU/Linux](images/tabular.gif)
 
 ### Presiona arriba para acceder a comandos anteriormente ejecutados
 
 Mientras nos encontremos en la terminal, si presionamos la tecla arriba de nuestro pad GNU/Linux nos mostrará el último comando que ejecutamos. Una función ideal para esos momentos cuando repetimos el mismo comando una y otra vez, esperando que, mágicamente, cambie el resultado.
 
-![Función de acceso a comandos anteriores de una terminal de GNU/Linux usando la tecla de arriba](https://coffeebytes.dev/wp-content/uploads/2020/09/up.gif)
+![Función de acceso a comandos anteriores de una terminal de GNU/Linux usando la tecla de arriba](images/up.gif)
 
 ### Usa CTRL + C para cancelar interrumpir procesos de la terminal.
 
 Si cometimos alguna tontería como ejecutar un bucle infinito, o simplemente queremos detener algo que ejecutamos, usaremos CTRL + C, sí, como si fueras a hacer un copy paste, pero con la terminal abierta. Esto cancelará la ejecución del comando.
 
-![](https://coffeebytes.dev/wp-content/uploads/2020/09/ctrl_c.gif)
+![](images/ctrl_c.gif)
 
 Una vez explicado esto empecemos con los comandos.
 

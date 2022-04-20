@@ -139,7 +139,7 @@ Al realizar una búsqueda no tendría sentido buscar artículos y preposiciones,
 
 Otro aspecto que estaría genial para nuestras búsquedas sería devolver palabras que coinciden con la misma lexema o base. Es decir, si nuestro usuario busca "gato", probablemente querremos devolverme también aquellos datos que coincidan con derivados de esa palabra: gato, gata, gatos, gatas, gatuno o cualquier otra palabra que empiece con "gat".
 
-![Creación de un tsvector en postgres](https://coffeebytes.dev/wp-content/uploads/2021/12/tsvector-en-postgres-1024x538.png)
+![Creación de un tsvector en postgres](images/tsvector-en-postgres.png)
 
 Todo lo anterior es bastante común en Postgres y ya está cubierto por la funcionalidad search de Django. Django incorpora búsqueda de texto completo o full text searching.
 
@@ -163,7 +163,7 @@ Videogame.objects.filter(name__search="dutchman revenge")
 
 Mira la consulta SQL del último bloque de código y observa las funciones _to\_tsvector_ y _plainto\_tsquery_
 
-![Esquema de full text search en Postgres](https://coffeebytes.dev/wp-content/uploads/2021/08/FullTextSearchEsquema-1024x538.png)
+![Esquema de full text search en Postgres](images/FullTextSearchEsquema.png)
 
 Esquema de full text search en Postgres
 
@@ -182,7 +182,7 @@ Así mismo, aprecia como especificamos el idioma. Postgres debe recibir el idiom
 
 Por otro lado, la función _plainto\_tsquery_ transforma su argumento a un _tsquery_, que es la representación de las palabras de una frase de manera booleana.
 
-![Transformación de una cadena de texto en un tsquery en Postgres](https://coffeebytes.dev/wp-content/uploads/2021/12/tsquery-postgres-1024x538.png)
+![Transformación de una cadena de texto en un tsquery en Postgres](images/tsquery-postgres.png)
 
 ```sql
 SELECT plainto_tsquery('english', 'dutchman revenge');

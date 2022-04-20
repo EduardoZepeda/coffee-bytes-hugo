@@ -53,3 +53,13 @@ summaryLength = 40
 [permalinks]
   posts = ":title"
 
+[related]
+  includeNewer = false
+  threshold = 50
+  toLower = true
+[[related.indices]]
+  name = 'categories'
+  weight = 60
+[[related.indices]]
+  name = 'date'
+  weight = 10

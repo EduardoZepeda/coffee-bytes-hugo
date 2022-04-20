@@ -22,7 +22,7 @@ Algo que desanima a muchos desarrolladores es que go **no cuenta con soporte par
 
 Otra de las cosas no tan queridas de este lenguaje es que **no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores se hacen por medio de bloques if. Aunque otros lenguajes como Rust también han prescindido del manejo de errores tradicionales.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/11/ManejoErroresGo.png)
+![](images/ManejoErroresGo.png)
 
 Los errores se manejan comprobando que la variable err no es nula (nil)
 
@@ -32,7 +32,7 @@ A la fecha no existen argumentos por defecto en go, lo que aumenta la cantidad d
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/11/ErrorCompilacionGo.png)
+![](images/ErrorCompilacionGo.png)
 
 La compilación no es permitida si hay variables sin usar
 
@@ -40,7 +40,7 @@ La compilación no es permitida si hay variables sin usar
 
 La mascota oficial es una ardilla de tierra y es muy común entre la comunidad usarla para ilustrar el contenido relacionado con go. Este Sartre en versión roedor azul es tan popular entre los desarrolladores que existen herramientas, como [Gopherizme](https://gopherize.me), para crear avatares personalizados. El impacto de la mascota es tal, que muchos desarrolladores la usan a manera de logo, aunque el [logo oficial de go](https://blog.golang.org/go-brand) ya ha sido definido.
 
-![Mascota y logo de go](https://coffeebytes.dev/wp-content/uploads/2021/11/GoMascotAndLogo.png)
+![Mascota y logo de go](images/GoMascotAndLogo.png)
 
 A la izquierda la mascota de Go. A la derecha el logo oficial
 

@@ -12,21 +12,21 @@ Me topé con Ngrok intentando redirigir la notificación de un pago de Mercado P
 
 Lo que hace Ngrok es servir como un túnel que redirige cualquier petición web, a través de sus propias urls, a tu localhost. Esto puede usarse para probar un webhook o recibir notificaciones, una tarea bastante común en pasarelas de pago, compartir tu localhost con colaboradores sin necesidad de un dominio propio, etc.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/04/EsquemaNgrok.png)
+![](images/EsquemaNgrok.png)
 
 ## Instalación de Ngrok
 
 Para instalar Ngrok entremos en [su sitio web](https://ngrok.com/) y creemos una cuenta o iniciemos sesión. Puedes usar Github o Gmail si no quieres registrarte.
 
-![Pantalla de loggeo de la página web de Ngrok](https://coffeebytes.dev/wp-content/uploads/2021/04/LoginNgrok.png)
+![Pantalla de loggeo de la página web de Ngrok](images/LoginNgrok.png)
 
 Ahora descarguemos el programa, hay que tener cuidado de elegir el adecuado para nuestro sistema operativo, yo usaré el de GNU/Linux.
 
-![Enlace de descarga de la página web de Ngrok](https://coffeebytes.dev/wp-content/uploads/2021/04/DownloadNgrok.png)
+![Enlace de descarga de la página web de Ngrok](images/DownloadNgrok.png)
 
 Tener el programa no es suficiente, necesitamos un Token para poder usarlo.
 
-![Token de acceso de la página web de Ngrok](https://coffeebytes.dev/wp-content/uploads/2021/04/TokenNgrok-1024x339.png)
+![Token de acceso de la página web de Ngrok](images/TokenNgrok.png)
 
 Ahora que ya tenemos el token y el programa descargado vamos a usar Ngrok y usemos el token para crear un archivo de configuración de manera automática. En algunos casos puedes saltar este paso.
 
@@ -45,7 +45,7 @@ Para ejecutar ngrok en GNU/Linux basta con correr el ejecutable, seguido de la o
 
 Si todo funcionó correctamente verás la siguiente información en tu terminal
 
-![Información de Ngrok en la terminal](https://coffeebytes.dev/wp-content/uploads/2021/04/NgrokTerminal.png)
+![Información de Ngrok en la terminal](images/NgrokTerminal.png)
 
 ¿Qué significa la pantalla de arriba? Significa que todas las peticiones que se hagan a http://fc2ca35fd170.ngrok.io; es decir, al subdominio fc2ca35fd170 del dominio de ngrok, se redirigirán a tu localhost, específicamente al puerto 8080. Y es todo, así de simple y fácil de usar.
 
@@ -74,10 +74,10 @@ Si ahora ejecutamos ngrok, especificamos el puerto 8000 y accedemos a la direcci
 ngrok http 8000
 ```
 
-![Información de la información de Ngrok para el ejemplo de Django](https://coffeebytes.dev/wp-content/uploads/2021/04/NgrokEjemploDjango.png)
+![Información de la información de Ngrok para el ejemplo de Django](images/NgrokEjemploDjango.png)
 
 Observa el dominio en el que se ejecuta nuestra aplicación de Django.
 
-![Aplicación de Django corriendo en el dominio de Ngrok](https://coffeebytes.dev/wp-content/uploads/2021/04/NgrokTunnel-1-1024x583.png)
+![Aplicación de Django corriendo en el dominio de Ngrok](images/NgrokTunnel-1.png)
 
 ¡Logramos poner nuestra aplicación al acceso de cualquier persona que tenga la url que ngrok nos provee!

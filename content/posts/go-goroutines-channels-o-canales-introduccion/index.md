@@ -42,7 +42,7 @@ go write("hey again")
 
 Considera que, en el caso anterior, dado que la goroutine no detiene la ejecución del código, pues se ejecuta de manera asíncrona, por lo que el cuerpo de la función _main_ continua su ejecución y **nuestra goroutine nunca llega a ejecutarse.**
 
-![Funcionamiento de las goroutines en go](https://coffeebytes.dev/wp-content/uploads/2022/01/golang-goroutine-3-1024x683.jpg)
+![Funcionamiento de las goroutines en go](images/golang-goroutine-3.jpg)
 
 Created with GIMP
 
@@ -88,7 +88,7 @@ func write(texto string, wg *sync.WaitGroup) {
 }
 ```
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/01/golang-goroutine-wait-2-1024x683.jpg)
+![](images/golang-goroutine-wait-2.jpg)
 
 Una vez que el contador de wg.Wait se vuelve cero, se continua la ejecución del programa.
 
@@ -125,7 +125,7 @@ Los channels o canales son conductos, que aceptan un único tipo de dato, a trav
 
 Las goroutines pueden enviar datos a los canales y también leer datos de ellos, logrando comunicarse entre si.
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/01/channels-en-go-1024x683.jpg)
+![](images/channels-en-go.jpg)
 
 Esquema básico del funcionamiento de los channels o canales en Go
 

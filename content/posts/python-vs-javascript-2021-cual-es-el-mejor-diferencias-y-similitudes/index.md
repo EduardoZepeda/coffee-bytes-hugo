@@ -21,7 +21,7 @@ Si quieres aprender como funciona el motor de Javascript a un nivel más profund
 
 Observa este esquema súper simplificado que compara los lenguajes compilados e interpretados.
 
-![Esquema súper simplificado de las diferencias entre código compilado e interpretado](https://coffeebytes.dev/wp-content/uploads/2021/05/codigo-compilado-vs-interpretado.png)
+![Esquema súper simplificado de las diferencias entre código compilado e interpretado](images/codigo-compilado-vs-interpretado.png)
 
 En este esquema me refiero a Javascript al momento de su creación, como lenguaje interpretado.
 
@@ -162,17 +162,17 @@ Javascript se encuentra en todos los navegadores de manera nativa, basta con que
 
 Abajo puedes ver la terminal de javascript del navegador web Firefox
 
-![terminal del navegador web ejecutando javascript](https://coffeebytes.dev/wp-content/uploads/2021/05/ConsolaJavascript.gif)
+![terminal del navegador web ejecutando javascript](images/ConsolaJavascript.gif)
 
 Además puedes usar node para ejecutarlo en tu computadora.
 
-![terminal de Nodejs en GNU/Linux ejecutando javascript](https://coffeebytes.dev/wp-content/uploads/2021/05/ConsolaDeNodeJs.gif)
+![terminal de Nodejs en GNU/Linux ejecutando javascript](images/ConsolaDeNodeJs.gif)
 
 ### Soporte para Python
 
 Python no se encuentra en los navegadores, sin embargo está instalado en la mayoría de los sistemas GNU/Linux de manera predeterminada, si usas una distribución de GNU/Linux y abres la terminal de tu sistema operativo y ejecutas el comando Python verás que ya se encuentra instalado.
 
-![terminal de Python en GNU/Linux](https://coffeebytes.dev/wp-content/uploads/2021/05/PythonConsola.gif)
+![terminal de Python en GNU/Linux](images/PythonConsola.gif)
 
 ## Usos
 
@@ -190,13 +190,13 @@ Python es un lenguaje multipropósito, te permite crear aplicaciones nativas con
 
 Javascript empezó siendo mucho más popular que Python, probablemente debido al auge de los navegadores web. Sin embargo, en algún punto cercano al 2017, Python ganó relevancia en comparación con Javascript y la tendencia se mantiene hasta mediados de agosto del 2021.
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/08/GoogleTrendsJavascriptVsPython-1024x523.png)
+![](images/GoogleTrendsJavascriptVsPython.png)
 
 ### Popularidad entre los desarrolladores en 2021
 
 Stackoverflow muestra en sus encuestas que, entre los desarrolladores, Python es mucho más popular que Javascript. Sin embargo, Typescript (el super set de Javascript con tipado fuerte que mencioné anteriormente) es ligeramente más popular que Python.
 
-![Resultados de la encuesta de StackOverflow para los lenguajes más apreciados por desarrolladores. Python se encuentra por arriba de Javascript](https://coffeebytes.dev/wp-content/uploads/2021/08/SueldosDesarrolladores2021-1024x706.png)
+![Resultados de la encuesta de StackOverflow para los lenguajes más apreciados por desarrolladores. Python se encuentra por arriba de Javascript](images/SueldosDesarrolladores2021.png)
 
 Python supera a Javascript en popularidad
 
@@ -204,7 +204,7 @@ Python supera a Javascript en popularidad
 
 Según la última encuesta de Stackoverflow (2021), los profesionales que usan Python son ligeramente mejor pagados que aquellos que usan Javascript. Sin embargo la diferencia no es tan significativa. Typescript también se encuentra por encima de Javascript.
 
-![Salarios de los desarrolladores de acuerdo al lenguaje de programación usado.](https://coffeebytes.dev/wp-content/uploads/2021/08/SalariosDeLosDesarrolladores-1024x667.png)
+![Salarios de los desarrolladores de acuerdo al lenguaje de programación usado.](images/SalariosDeLosDesarrolladores.png)
 
 Pyhton supera a Javascript en salarios
 
@@ -220,7 +220,7 @@ Al ser lenguajes interpretados son mucho más lentos que lenguajes compilados, p
 
 El gráfico de abajo compara el tiempo de ejecución promedio de diez repeticiones del problema de las N-Reinas (mientras más bajo mejor), usé los respectivos códigos de javascript y python que se encuentran [aquí](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (todos los créditos al autor) y el programa [multitime](https://tratt.net/laurie/src/multitime/) para el cálculo del tiempo promedio.
 
-![Gráfico del tiempo de ejecución del problema de las N-Reinas entre Javascript y Python. Javascript tiene mejor rendimiento.](https://coffeebytes.dev/wp-content/uploads/2021/06/problema-de-las-n-reinas-1024x661.jpg)
+![Gráfico del tiempo de ejecución del problema de las N-Reinas entre Javascript y Python. Javascript tiene mejor rendimiento.](images/problema-de-las-n-reinas.jpg)
 
 Rendimiento del problema de las n-Reinas. Tiempo de ejecución en eje de las Y y número de reinas en el eje de las X. (Menor es mejor)
 
@@ -265,7 +265,7 @@ Javascript y Python tienen bastantes frameworks para elegir cuando se trata de d
 
 Existen muchísimos frameworks de **Javascript para desarrollo web tanto para el backend como para el frontend**; para el backend, express, nustjs, meteor, sails; para el frontend, vue, react, svelte, angular.
 
-![Frameworks de desarrollo web para Javascript](https://coffeebytes.dev/wp-content/uploads/2020/12/javascript-frameworks.jpg)
+![Frameworks de desarrollo web para Javascript](images/javascript-frameworks.jpg)
 
 Incluso aún a pesar de la abundancia de opciones que hay salen nuevos frameworks de Javascript más frecuentemente que para Python.
 
@@ -273,7 +273,7 @@ Incluso aún a pesar de la abundancia de opciones que hay salen nuevos framework
 
 Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como Django, del cual tengo una [entrada donde explico sus ventajas](https://coffeebytes.dev/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
 
-![Frameworks de desarrollo web de Python](https://coffeebytes.dev/wp-content/uploads/2020/12/python-frameworks.jpg)
+![Frameworks de desarrollo web de Python](images/python-frameworks.jpg)
 
 Puedes escribir código HTML y CSS usando Python para el frontend, pero nunca tendrás la misma versatilidad que ejecutar código javascript directamente en el navegador del usuario.
 
@@ -287,15 +287,15 @@ Tanto la comunidad de Python, como la de Javascript, tienen librerías disponibl
 
 Javascript usa npm para el manejo de paquetes y hay bastantes de donde elegir. En junio del 2019 npm [superó el millón de paquetes publicados](https://snyk.io/blog/npm-passes-the-1-millionth-package-milestone-what-can-we-learn/). ¡Muchísima variedad para elegir! Aunque también te encuentras cosas como esta:
 
-![Paquete is-odd de NPM](https://coffeebytes.dev/wp-content/uploads/2020/12/IsOddPackageNpm-1-1024x580.png)
+![Paquete is-odd de NPM](images/IsOddPackageNpm-1.png)
 
-![Meme del rapero usando el paquete is-odd en lugar de el operador modulo.](https://coffeebytes.dev/wp-content/uploads/2021/05/meme-is-odd-js.jpg)
+![Meme del rapero usando el paquete is-odd en lugar de el operador modulo.](images/meme-is-odd-js.jpg)
 
 ### Paquetes en Python
 
 Pypi es la plataforma principal encargada del manejo de paquetes en Python. En la fecha en la que se actualizó este artículo [Pypi tiene 348,000 paquetes publicados](https://pypi.org/), ¡solo una quinta parte de la cantidad que tiene Javascript! Y como son menos paquetes podemos esperar paquetes más relevantes ¿no? A ver...
 
-![Paquete is-odd de pip](https://coffeebytes.dev/wp-content/uploads/2020/12/IsOddPythonPackage-1024x762.png)
+![Paquete is-odd de pip](images/IsOddPythonPackage.png)
 
 ## Para finalizar
 

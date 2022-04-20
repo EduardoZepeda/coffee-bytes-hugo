@@ -14,11 +14,11 @@ Pero, antes de empezar, veamos de donde viene el modelo User de Django.
 
 El modelo _User_ de Django hereda de _AbstractUser_ que, a su vez, hereda de la clase _AbstractBaseUser_.
 
-![Esquema de las clases padre del modelo User de Django. AbstractBaseUser, AbstractUser y User](https://coffeebytes.dev/wp-content/uploads/2022/03/DeDondeVieneAbstractUser.png)
+![Esquema de las clases padre del modelo User de Django. AbstractBaseUser, AbstractUser y User](images/DeDondeVieneAbstractUser.png)
 
 Si miras el código fuente de Django, verás que el **modelo _User_ que usas normalmente no tiene prácticamente ninguna funcionalidad propia**, sino que hereda toda su funcionalidad de _AbstractUser_.
 
-![](https://coffeebytes.dev/wp-content/uploads/2022/03/UserDjango.png)
+![](images/UserDjango.png)
 
 Captura de pantalla del código de Django version 4.0
 
@@ -55,7 +55,7 @@ Y es todo, podemos usarlo exactamente igual que si usaramos el modelo _User_ que
 
 Observa como la clase _AbstractUser_ hereda de _AbstractBaseUse_r y tiene múltiples campos disponibles para perfilar un usuario. Además, no puede instanciarse directamente, por ser una clase abstracta.
 
-![Código fuente de la clase AbstractUser  de Django](https://coffeebytes.dev/wp-content/uploads/2022/03/AbstractUserDjango-1-1024x865.png)
+![Código fuente de la clase AbstractUser  de Django](images/AbstractUserDjango-1.png)
 
 Captura de pantalla del código de Django version 4.0
 
@@ -100,7 +100,7 @@ La siguiente imagen es una captura de pantalla directo del código de Django en 
 
 Como puedes ver, solo cuenta con los 3 campos mencionados, hereda directamente de _models.Model_ y su clase Meta le indica a Python que es un modelo abstracto; no puedes crear instancias directamente de este.
 
-![Código fuente de la clase AbstractBaseUser de Django](https://coffeebytes.dev/wp-content/uploads/2022/03/AbstractBaseUserDjango-1-1024x245.png)
+![Código fuente de la clase AbstractBaseUser de Django](images/AbstractBaseUserDjango-1.png)
 
 Captura de pantalla del código de Django version 4.0
 

@@ -24,7 +24,7 @@ def slowResponseView(request):
 
 Observa como tras acceder a la url, **la respuesta no aparece hasta transcurridos los 3 segundos**. Durante ese tiempo nuestra aplicación está ocupada. Ese _time.sleep()_ que causa el retraso podría representar un envío de correo electrónico, el tiempo de espera a una API externa, un cálculo muy costoso a nivel computacional o cualquier otra tarea que requiera mucho tiempo en llevarse a cabo.
 
-![Tarea costosa en tiempo retrasa la respuesta del servidor](https://coffeebytes.dev/wp-content/uploads/2021/08/slowResponseView-1.gif)
+![Tarea costosa en tiempo retrasa la respuesta del servidor](images/slowResponseView-1.gif)
 
 La respuesta a la url demora 3 segundos
 
@@ -48,7 +48,7 @@ También necesitaremos RabbitMQ, que se encargará de servir como intermediario 
 sudo apt install rabbitmq-server
 ```
 
-![Esquema básico del funcionamiento de RabbitMQ y Celery](https://coffeebytes.dev/wp-content/uploads/2021/08/RabbitMQEsquema-1024x538.jpg)
+![Esquema básico del funcionamiento de RabbitMQ y Celery](images/RabbitMQEsquema.jpg)
 
 Esquema básico del funcionamiento de RabbitMQ y celery
 
@@ -99,7 +99,7 @@ celery -A celeryApp worker -l info
 
 La opción _\-A_, de App, le indica a celery el nombre de la aplicación, es decir, el nombre que le acabamos de asignar en el archivo _celery.py_
 
-![Celery ejecutándose en la consola](https://coffeebytes.dev/wp-content/uploads/2021/08/CeleryEjecutandoseEnConsola.png)
+![Celery ejecutándose en la consola](images/CeleryEjecutandoseEnConsola.png)
 
 Celery ejecutándose en la termina. Mira como la opción transport en \[config\] apunta al puerto 5672, característico de rabbitmq
 
@@ -176,7 +176,7 @@ Si ahora accedemos a la vista que acabamos de crear, veremos que nos **devuelve 
 
 Celery se encarga de nuestra tarea, de manera que no interrumpa el flujo de nuestra aplicación en Django.
 
-![Celery evitando que tarea costosa en tiempo retrase la respuesta del servidor](https://coffeebytes.dev/wp-content/uploads/2021/08/DjangoEjecutandoTareaAsincrona.gif)
+![Celery evitando que tarea costosa en tiempo retrase la respuesta del servidor](images/DjangoEjecutandoTareaAsincrona.gif)
 
 Celery manejando la tarea que se ejecuta con cada petición web de manera asíncrona.
 
@@ -202,13 +202,13 @@ Tras ejecutar el comando Flower estará disponible en el puerto 5555.
 
 Flower nos mostrará las tareas activas, procesadas, con fallo e información de cada una de ellas.
 
-![Aplicación de flower, panel principal](https://coffeebytes.dev/wp-content/uploads/2021/08/FlowerParaCelery-1024x264.png)
+![Aplicación de flower, panel principal](images/FlowerParaCelery.png)
 
 Panel principal de Flower disponible en el puerto 5555
 
 También podremos ver información específica de cada tarea, como su identificador, los argumentos, la hora y el tiempo de ejecución.
 
-![Panel de tareas específicas de flower](https://coffeebytes.dev/wp-content/uploads/2021/08/FlowerParaCeleryTareas-1024x231.png)
+![Panel de tareas específicas de flower](images/FlowerParaCeleryTareas.png)
 
 Flower nos muestra los detalles de cada tarea
 

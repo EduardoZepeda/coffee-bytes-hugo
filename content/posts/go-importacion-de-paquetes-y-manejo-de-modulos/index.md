@@ -8,7 +8,7 @@ coverImage: "Golang-paquetes-y-modulos.jpg"
 
 En go **puedes considerar un paquete como todos los archivos que contenga un directorio y un modulo como una colección de paquetes**. Para usar el código de un paquete necesitamos importarlo, sin embargo, en Go no existen las importaciones de módulos relativas. Antes de Go 1.8, para importar paquetes (no había modulos) era necesario usar la ruta absoluta, considerando como base la ruta a la que apuntaba la variable de entorno $_GOPATH_ o. A partir de Go 1.11, la manera más sencilla de trabajar con paquetes es usar go mod. Te explicaré esta última.
 
-![Diferencias entre modulos y paquetes en go](https://coffeebytes.dev/wp-content/uploads/2022/01/modulo-y-paquetes-en-go.png)
+![Diferencias entre modulos y paquetes en go](images/modulo-y-paquetes-en-go.png)
 
 Diferencia entre modulos y paquetes en go
 
@@ -34,7 +34,7 @@ Recuerda que las [reglas de privacidad de los structs](https://coffeebytes.dev/g
 
 Una vez creado terminaremos con una structura similar a esta
 
-![Estructura de archivos del proyecto, una carpeta llamada videogame, con un archivo del mismo nombre en el interior.](https://coffeebytes.dev/wp-content/uploads/2022/01/goModule.png)
+![Estructura de archivos del proyecto, una carpeta llamada videogame, con un archivo del mismo nombre en el interior.](images/goModule.png)
 
 Localización del archivo principal y nuestro modulo en go
 
@@ -44,7 +44,7 @@ Localización del archivo principal y nuestro modulo en go
 
 Un archivo de go.mod **define un modulo y nos permite establecer el directorio que usaremos como base para importar los paquetes.**
 
-![Archivo go.mod en la raiz del proyecto](https://coffeebytes.dev/wp-content/uploads/2022/01/goModFile.png)
+![Archivo go.mod en la raiz del proyecto](images/goModFile.png)
 
 Archivo go.mod que contiene el nombre del modulo
 
@@ -70,7 +70,7 @@ go mod init mimodulo
 
 Por ejemplo, si le pasamos como nombre _mimodulo_, todas las carpetas **que estén al mismo nivel que el archivo _go.mod_ y que declaren un package al inicio de su archivo**, se considerarán paquetes.
 
-![Múltiples directorios para importar como paquetes con go.mod](https://coffeebytes.dev/wp-content/uploads/2022/01/multiplesModulos.png)
+![Múltiples directorios para importar como paquetes con go.mod](images/multiplesModulos.png)
 
 Y podremos importarlos directo desde nuestro archivo _main.go_
 

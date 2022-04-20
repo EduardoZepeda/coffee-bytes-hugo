@@ -12,11 +12,11 @@ Normalmente graphql se utiliza en conjunto con Nodejs y express, u otros framewo
 
 Graphql permite integrar peticiones de múltiples fuentes en una sola llamada a la API. A diferencia de REST consiste de un único endpoint al que podemos hacerle determinadas queries o consultas (definidas por nosotros mismos en un schema, sí, como esquema) y obtener una respuesta.
 
-![Diferencias entre REST y Graphql](https://coffeebytes.dev/wp-content/uploads/2021/10/RestVsGraphQL.png)
+![Diferencias entre REST y Graphql](images/RestVsGraphQL.png)
 
 El schema le dice a graphql que tipo de objetos retornaremos y que campos de estos objetos, graphql utilizará un resolver para obtener esa información de una base de datos o cualquier otra referencia.
 
-![Esquema del funcionamiento de graphql en Javascript](https://coffeebytes.dev/wp-content/uploads/2021/10/EsquemaGraphqlSimplificado-1024x281.png)
+![Esquema del funcionamiento de graphql en Javascript](images/EsquemaGraphqlSimplificado.png)
 
 Esquema simplificado de graphql en Javascript
 
@@ -84,11 +84,11 @@ urlpatterns = [
 
 El parámetro _graphiql_ le indica a django si debe servir o no la interfaz graphiql.
 
-![Diferencia en la interfaz al poner graphiql como True o False](https://coffeebytes.dev/wp-content/uploads/2021/10/graphiqlTrueOrFalse-1024x414.png)
+![Diferencia en la interfaz al poner graphiql como True o False](images/graphiqlTrueOrFalse.png)
 
 Si ahora intentamos acceder a la url que acabamos de crear, django nos devolverá un error avisándonos que **necesitamos un _schema_ de graphql**.
 
-![Error por no definir un schema en graphene](https://coffeebytes.dev/wp-content/uploads/2021/10/aSchemaIsRequired-1024x652.png)
+![Error por no definir un schema en graphene](images/aSchemaIsRequired.png)
 
 Error por falta de un schema en graphene
 
@@ -103,7 +103,7 @@ GRAPHENE = {
 
 Nuestro schema será un objeto llamado _schema_ que se encuentrará dentro de un archivo llamado _schema_.py en la carpeta de nuestro proyecto.
 
-![Localización del objeto schema](https://coffeebytes.dev/wp-content/uploads/2021/10/ubicacionDeSchema.png)
+![Localización del objeto schema](images/ubicacionDeSchema.png)
 
 Yo lo he puesto aquí, pero tú puedes ponerlo donde consideres mejor y ajustar la ruta a tu ubicación.
 
@@ -183,7 +183,7 @@ schema = graphene.Schema(query=Query, auto_camelcase=False)
 
 Con el camel case activado, la query llamada _allAnimes_ nos retornará el resultado del queryset _Anime.objects.all()_
 
-![Resultado de la query allAnimes en graphql](https://coffeebytes.dev/wp-content/uploads/2021/10/QuerysetGraphene.png)
+![Resultado de la query allAnimes en graphql](images/QuerysetGraphene.png)
 
 ## Retornando consultas con parámetros
 
@@ -213,7 +213,7 @@ class Query(graphene.ObjectType):
 schema = graphene.Schema(query=Query)
 ```
 
-![Resultado de la query animeByTitle en graphql ](https://coffeebytes.dev/wp-content/uploads/2021/10/busquedaGraphqlParametros-1.png)
+![Resultado de la query animeByTitle en graphql ](images/busquedaGraphqlParametros-1.png)
 
 ## Paginación en graphql usando relays
 
@@ -255,7 +255,7 @@ Si estás confundido piensa en los cursores como identificadores. En el query le
 
 Además de los objetos podemos obtener información de la paginación, como el cursor de inicio, del final y si hay páginas previas o posteriores a nuestra consulta.
 
-![Paginación en graphql usando django graphene](https://coffeebytes.dev/wp-content/uploads/2021/10/GrapheneQueryRelay-1.png)
+![Paginación en graphql usando django graphene](images/GrapheneQueryRelay-1.png)
 
 ## Mutaciones en graphene
 
@@ -312,6 +312,6 @@ schema = graphene.Schema(query=Query, mutation=Mutation)
 
 Es todo, el mutation _createAnime_ recibe los tres parámetros que le indicamos y retorna un objeto anime y la palabra ok como respuesta.
 
-![Equivalencia entre el código de graphene y el query de Graphql.](https://coffeebytes.dev/wp-content/uploads/2021/10/mutationDeGraphqlEnGraphene.png)
+![Equivalencia entre el código de graphene y el query de Graphql.](images/mutationDeGraphqlEnGraphene.png)
 
 La [documentación de graphene](https://docs.graphene-python.org/en/latest/) es bastante amplia y hay muchos temas más, yo solo te he puesto lo básico y probablemente lo que más utilices, pero date una vuelta y lee todo lo que graphene tiene para ofrecerte.

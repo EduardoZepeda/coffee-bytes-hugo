@@ -20,7 +20,7 @@ var array [4]int
 
 En el ejemplo anterior, tenemos un _array_ con espacio para 4 enteros. Los valores que no asignemos se asignarán como zero values.
 
-![Estructura de un array en go](https://coffeebytes.dev/wp-content/uploads/2021/12/arrayGolang-1.png)
+![Estructura de un array en go](images/arrayGolang-1.png)
 
 ### Asignar valores a un array
 
@@ -51,7 +51,7 @@ slice[0] = 1
 
 Internamente un _slice_ es un _struct_ con un apuntador al verdadero array. Además del pointer o apuntador, cuenta con| la propiedad llamada _cap_ y _len_, que se refieren a la capacidad y longitud del array, respectivamente.
 
-![Estructura de un slice en go](https://coffeebytes.dev/wp-content/uploads/2021/12/sliceGolang.png)
+![Estructura de un slice en go](images/sliceGolang.png)
 
 Para crear un slice no vacío tenemos dos maneras de hacerlo:
 

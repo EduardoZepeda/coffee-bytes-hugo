@@ -111,7 +111,7 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 "access":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzMzYwMDM2LCJqdGkiOiIzYzY2MDI3YzhiMjE0NmM4OGQ5NTY0MGUxYzc1ODAxYSIsInVzZXJfaWQiOjJ9.juG7sbemKUOTEnzNv4XiXCfChrG3q9wBw4Sj0g1L9EM"}
 ```
 
-![Pantalla de Django Rest Framework que pide username y Password](https://coffeebytes.dev/wp-content/uploads/2021/06/JWTApiEndPoint-1024x710.png)
+![Pantalla de Django Rest Framework que pide username y Password](images/JWTApiEndPoint.png)
 
 ### Token de acceso
 
@@ -125,7 +125,7 @@ El token de acceso **tiene una fecha de caducidad, una vez que esta fecha llegue
 
 El token que recibimos está dividido por puntos en tres partes. La primera parte tiene el algoritmo que se usó, la segunda es la información que contiene el token, el último es la firma.
 
-![Partes de un JWT: encabezado, contenido y firma.](https://coffeebytes.dev/wp-content/uploads/2021/06/JWTDjango-1024x538.png)
+![Partes de un JWT: encabezado, contenido y firma.](images/JWTDjango.png)
 
 Observa como en la parte de contenido (data) se aprecia que el _user\_id_ es igual a 2, el cual es el id o primary key del usuario que obtuvo el token. El primer usuario en mi caso es el superusuario.
 

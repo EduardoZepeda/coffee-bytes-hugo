@@ -50,7 +50,7 @@ Su única desventaja es su velocidad, pues se queda corto frente a otras alterna
 
 Django cuenta con el django admin panel, un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
-![Panel de administración de Django](https://coffeebytes.dev/wp-content/uploads/2021/03/Django-panel-admin-1024x648.png)
+![Panel de administración de Django](images/Django-panel-admin.png)
 
 ### Ofrece seguridad ante los ataques más comunes
 

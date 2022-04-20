@@ -12,7 +12,7 @@ Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en cas
 
 Si estás aquí porque quieres mejorar el rendimiento de tu aplicación en Django, tengo una [serie de consejos que puedes implementar en esta entrada.](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/)
 
-![Imagen comparativa de las diferencias entre Django annotate y Django aggregate.](https://coffeebytes.dev/wp-content/uploads/2021/07/DjangoAggregateAnnotate-1-1024x512.png)
+![Imagen comparativa de las diferencias entre Django annotate y Django aggregate.](images/DjangoAggregateAnnotate-1.png)
 
 ## Preparación
 

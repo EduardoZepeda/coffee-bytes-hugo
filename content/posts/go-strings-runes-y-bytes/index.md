@@ -20,7 +20,7 @@ Entonces, ¿cómo sabe la computadora que número corresponde a cada letra? Pues
 
 Este tema es bastante extenso y ya hay suficiente información en internet, por lo que solo quédate con que detrás de cada carácter hay un número que la representa y que ese carácter depende de la tabla que usemos para representarlo.
 
-![Tabla ASCII](https://coffeebytes.dev/wp-content/uploads/2021/12/ASCII-Table-wide.jpg)
+![Tabla ASCII](images/ASCII-Table-wide.jpg)
 
 Tabla ASCII con colores modificados tomada de [wikimedia](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg).
 
@@ -54,7 +54,7 @@ fmt.Println(string(ch))
 // 'A'
 ```
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/12/ByteEnGo.jpg)
+![](images/ByteEnGo.jpg)
 
 Representación de la letra 'A' en notación decimal. El cuadrado representa un byte u 8 bits.
 
@@ -110,7 +110,7 @@ fmt.Printf("type:%T, value:%v\n", runa, runa)
 
 Aprecia como el tipo sigue siendo el mismo, pero su valor ahora es 20154, pues al ser un int32 tenemos acceso hasta 2³¹-1 (recuerda que un bit se usa para el signo positivo o negativo).
 
-![](https://coffeebytes.dev/wp-content/uploads/2021/12/RuneEnGo-2.jpg)
+![](images/RuneEnGo-2.jpg)
 
 Representación del caracter '人' en notación decimal. El cuadrado representa un 32 bits.
 
@@ -148,7 +148,7 @@ fmt.Println(len(s))
 // 23
 ```
 
-![Diferencia de tamaño en los caracteres de un string en go](https://coffeebytes.dev/wp-content/uploads/2021/12/runesEnGo.png)
+![Diferencia de tamaño en los caracteres de un string en go](images/runesEnGo.png)
 
 Al momento de iterar sobre nuestro string, estaremos iterando byte por byte, por lo que imprimiremos 23 bytes, cada byte expresado en notación octadecimal.
 

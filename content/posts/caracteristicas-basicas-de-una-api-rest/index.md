@@ -75,7 +75,7 @@ Probablemente haya algunos estados que no usarás nunca, pero sí deberías memo
 
 Hay muchos más [estados HTTP que probablemente quieras conocer](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Asegúrante de revisarlos.
 
-![Respuesta de código 418 en google.](https://coffeebytes.dev/wp-content/uploads/2022/03/GoogleStatus418.png)
+![Respuesta de código 418 en google.](images/GoogleStatus418.png)
 
 Código 418: Soy una tetera
 
@@ -205,7 +205,7 @@ Las siglas HATEOAS corresponden a **Hypermedia As The Engine Of Applicaton State
 
 ¿Qué es eso? Cuando entras en una página web, esta cuenta con enlaces internos hacia otras páginas del sitio web, generalmente relacionadas entre sí, ya sea video, audio, imágenes, de manera que la navegación sea más fluida.
 
-![Captura de pantalla de Viajando por ahí con enlaces internos.](https://coffeebytes.dev/wp-content/uploads/2022/04/HTTPHypermedia.jpg)
+![Captura de pantalla de Viajando por ahí con enlaces internos.](images/HTTPHypermedia.jpg)
 
 Ejemplo de enlaces internos en una página web
 
@@ -243,7 +243,7 @@ Considera implementarlas en tu proyecto.
 
 Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/)
 
-![Captura de imagen de Open API, documentación automática para API REST](https://coffeebytes.dev/wp-content/uploads/2020/10/Documentacion_swagger-1024x165.png)
+![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png)
 
 Así luce Open API funcionando
 
@@ -253,7 +253,7 @@ Cada endpoint de tu API debería estar sometido a pruebas, asegúrate de que dev
 
 Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad de uso considera el uso herramientas especializadas, tales como Postman, Insomnia o Hoppscotch.
 
-![GUI, de insomnia, una aplicación para el testeo de una API REST](https://coffeebytes.dev/wp-content/uploads/2022/03/InsomniaGUI-1024x595.png)
+![GUI, de insomnia, una aplicación para el testeo de una API REST](images/InsomniaGUI.png)
 
 Insomnia nos permite testear APIs
 

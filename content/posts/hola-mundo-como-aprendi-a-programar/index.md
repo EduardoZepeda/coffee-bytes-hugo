@@ -30,7 +30,7 @@ Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.s
 
 Mientras más leía sobre Miku Hatsune más quería saber, estaba estupefacto; la compañía que había programado a Vocaloid estaba, literalmente, dándoles una voz a todos aquellos artistas que, por una u otra razón, no contaban con una voz que le diera vida a sus letras. En ese momento entendí el verdadero potencial que tenía el código y me dije: "yo también usar las computadoras y el código para crear".
 
-![Figura de plástico de Miku Hatsune](https://coffeebytes.dev/wp-content/uploads/2021/08/FiguraDeMikuHatsune-1024x682.jpg)
+![Figura de plástico de Miku Hatsune](images/FiguraDeMikuHatsune.jpg)
 
 Figura de plástico de Miku Hatsune. Créditos de la imagen a [南menghua](https://pixabay.com/es/users/%E5%8D%97menghua-19298964/)
 
@@ -48,7 +48,7 @@ PHP fue mi primera experiencia con un lenguaje de programación, y también la m
 
 Tras meses evadiendo toda aquella información relacionada con Python **por la simplona razón de deberle su nombre a 'Monty Python'**, un grupo de humoristas británicos con los cuales no estaba familiarizado, decidí dejar atrás mis prejuicios y darle una oportunidad. Me apunté al curso en linea de Python [code.org](https://code.org/) y me enamoré, quedé fascinado con su sencilla sintaxis, la simplicidad de las funciones y lo elegante de su construcción.
 
-![El grupo de comediantes conocido como Monty Python](https://coffeebytes.dev/wp-content/uploads/2021/07/ElGrupoDeComediantesMontyPython-1024x768.jpg)
+![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg)
 
 Integrantes de Monthy Python
 
@@ -68,7 +68,7 @@ Por último, dado que a muchas empresas les encanta tener un papel que respalde 
 
 Aún con el riesgo de que pecar de soberbia, diré que el bootcamp fue pan comido gracias a todo lo que había practicado y leído anteriormente, realmente no aprendí muchas cosas nuevas. Sin embargo fue gracias a Bedu conocí personas bastante interesantes y talentosas entre mis compañeros y profesores. Además gracias a Bedu probé Platzi, la plataforma de aprendizaje en linea que usan de prework para sus clases presenciales. La verdad solamente la comunidad hizo que valiera cada centavo que pagué.
 
-![Colobora Coworking en Chapultepec, Guadalajara.](https://coffeebytes.dev/wp-content/uploads/2021/08/ColaboraCoworking-1024x683.jpg)
+![Colobora Coworking en Chapultepec, Guadalajara.](images/ColaboraCoworking.jpg)
 
 Tomé el bootcamp de Bedu en Colabora Coworking. Imagen tomada del sitio web de Colabora.
 
