@@ -1,5 +1,5 @@
 ---
-title: "Aprende Docker, curso práctico con ejemplos en GNU/Linux"
+title: "Aprende Docker, curso práctico con ejemplos en GNU Linux"
 date: "2020-10-07"
 categories: 
   - "docker"

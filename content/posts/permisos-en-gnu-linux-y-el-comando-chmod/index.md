@@ -1,5 +1,5 @@
 ---
-title: "Entiende los permisos en GNU/Linux y el comando chmod"
+title: "Entiende los permisos en GNU Linux y el comando chmod"
 date: "2019-05-29"
 categories: 
   - "gnu-linux-y-devops"
