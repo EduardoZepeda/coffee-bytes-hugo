@@ -9,7 +9,7 @@ summaryLength = 40
 
 [params]
   author = "Eduardo Zepeda"
-  description = "Frontend and backend web development blog"
+  description = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
 
 
 [menu]
