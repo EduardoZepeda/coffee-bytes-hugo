@@ -5,7 +5,7 @@ enableRobotsTXT = true
 
 theme = "hugo-theme-latte"
 summaryLength = 40
-
+googleAnalytics = "UA-112824408-2"
 
 [params]
   author = "Eduardo Zepeda"
