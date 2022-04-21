@@ -13,7 +13,7 @@ My preferred programming languages are:
 
 - **Python**
 - **Javascript, Typescript**
-- **Currently learning Go**
+- **Go**
 
 Yes, in that particular order
 
@@ -22,13 +22,12 @@ My favorite web frameworks are:
 - **Django and DRF**
 - **FastAPI (I love its simplicity but I haven't used it in a project, yet)**
 - **React, Nextjs and related**
+- **Trying Hugo these days**
 
 I feel very comfortable developing web applications in GNU/Linux environments (I use Debian distribution since end of 2010)
 
-My personal projects, including this blog, use [Digital Ocean](https://m.do.co/c/a22240ebb8e7) for the hosting, however I've deployed on other platforms like Vercel or Netifly.
+My personal projects, including this blog, use [Digital Ocean](https://m.do.co/c/a22240ebb8e7) VM (called droplets) for the hosting, however I've deployed on other platforms like Vercel or Netifly.
 
-When it comes to IDEs I prefer [VSCodium](https://vscodium.com/), Sublime Text (Text Editor disguised as IDE) and [Vim](https://www.vim.org/).
-
-I'm a big fan of art films, anime and manga, specially horror and sci fi genres, I usually watch a few art films, carefully chosen (maybe not so much) every week, on mubi. I love to play videogames, nevertheless I'm very selective about those I decide to play. I love reading, specially sci fi, but I still enjoy scientific essays, blogs, technology, business and philosophy books . I'm into speciality coffee and coffee shops.
+I'm a big fan of art films, anime and manga, specially horror and sci fi genres, I usually watch a few art films, carefully chosen (maybe not so much) every week, on mubi. I love to play videogames, nevertheless I'm very selective about those I decide to play. I love reading, specially sci fi, and also scientific essays, blogs, technology. I'm into speciality coffee and coffee shops.
 
 I don't drink alcohol or smoke. I guess you could say I'm your classic bookworm.

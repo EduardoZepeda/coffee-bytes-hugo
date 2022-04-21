@@ -10,8 +10,6 @@ coverImage: "TypesChildrenTypescript.jpg"
 
 Typescript requiere que especifiquemos los types para las diferentes variables y argumentos de funciones en React. Cuando son tipos nativos no es muy complicado, pero para componentes de React puede llegar a ser diferente. Aquí dejo 3 maneras de especificar los types para componentes de React que contienen children como parte de sus props.
 
-Revisa mis [otras entradas de React](https://coffeebytes.dev/?s=react).
-
 ## Types Con ReactNode
 
 La manera más sencilla es de manera manual, especificando a children como un nodo de React opcional.

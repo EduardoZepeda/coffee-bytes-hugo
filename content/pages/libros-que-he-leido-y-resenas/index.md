@@ -8,12 +8,12 @@ Leyendo actualmente:
 - Refactoring por Martin Fowler
 - Serious Cryptography: A Practical Introduction to Modern Encryption de JeanPhilippe Aumasson
 
-Esta es la lista de libros que he leído sobre desarrollo web o programación. Sí, cuando hablo de leer un libro **me refiero a leerlos completos, de principio a fin** y realizando algunos ejercicios de práctica en los libros que los contienen. Intentaré reseñar la mayoría con el paso del tiempo.
+Esta es la lista de libros que he leído para aprender sobre desarrollo web y programación. Tengo reseñas de algunos disponibles y estoy constantemente actualizando esta lista.
 
 Los libros no están en ningún orden en particular
 
 - Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf
-- [Build APIs You Won't Hate de Phil Sturgeon](/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/):
+- [Build APIs You Won't Hate de Phil Sturgeon](/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/)
 - REST API Design Rulebook por Mark Masse
 - A Philosophy of Software Design de John Ousterhout
 - Software Architecture Patterns de Mark Richards
