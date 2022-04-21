@@ -3,7 +3,7 @@ title: "Sobre mi, Eduardo Zepeda"
 date: "2018-09-12"
 ---
 
-¡Hola, soy Eduardo Zepeda! Desarrollador web. Aprendí casi todo lo que sé sobre desarrollo web [a través de estos libros,](https://coffeebytes.dev/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también uso plataformas de cursos en linea, especialmente [Udemy](https://www.udemy.com/) y Platzi. Puedes ver mis certificados en [mi perfil de Platzi.](https://platzi.com/@eduardo-zepeda/)
+¡Hola, soy Eduardo Zepeda! Desarrollador web. Aprendí casi todo lo que sé sobre desarrollo web [a través de estos libros,](libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también uso plataformas de cursos en linea, especialmente [Udemy](https://www.udemy.com/) y Platzi. Puedes ver mis certificados en [mi perfil de Platzi.](https://platzi.com/@eduardo-zepeda/)
 
 A veces practico katas en Codewars.
 

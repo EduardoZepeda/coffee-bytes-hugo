@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo funcionan los permisos y grupos en Django?"
+title: "¿Como funcionan los permisos y grupos en Django?"
 date: "2021-04-17"
 categories: 
   - "django"
@@ -10,7 +10,7 @@ La primera vez que me enteré de que Django tenía un sistema de permisos, hace 
 
 Si aún no te decides a usar Django y estás investigando sus características revisa [mi entrada sobre las ventajas y desventajas del framework de desarrollo web Django.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
-Por otro lado, si ya tienes un poco de práctica con Django quizá te convenga profundizar lo que sabes con este libro gratuito, y en español, llamado [la guía definitiva de Django](https://coffeebytes.dev/el-libro-definitivo-de-django/)
+Por otro lado, si ya tienes un poco de práctica con Django quizá te convenga profundizar lo que sabes con este libro gratuito, y en español, llamado [la guía definitiva de Django](https://coffeebytes.dev/la-guia-definitiva-de-django/)
 
 ## ¿Cómo se crean los permisos en Django?
 

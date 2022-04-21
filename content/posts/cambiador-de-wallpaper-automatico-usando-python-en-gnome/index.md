@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo crear un cambiador de wallpaper automático usando Python en Gnome?"
+title: "¿Como crear un cambiador de wallpaper automatico usando Python en Gnome?"
 date: "2020-02-15"
 categories: 
   - "python"
@@ -10,7 +10,7 @@ En esta entrada vamos a crear un cambiador de wallpaper automático, aleatorio y
 
 **Nota:** Este código lo estoy ejecutando en GNOME 3.22.3 y en Python 3.5.3
 
-Si no estas familiarizado con la sintaxis de Python, lee sobre uno de los mejores libros para adentrarte en Python en [mi entrada sobre el libro Inmersion en Python](https://coffeebytes.dev/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/).
+Si no estas familiarizado con la sintaxis de Python, lee sobre uno de los mejores libros para adentrarte en Python en [mi entrada sobre el libro Inmersion en Python](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/).
 
 Para empezar primero cambiemos de directorio a _home_/
 
@@ -24,7 +24,7 @@ Una vez aquí vamos a crear un archivo Python con el nombre _.change\_wallpaper\
 touch .change_wallpaper_randomly.py
 ```
 
-Si en este punto sientes que no estás familiarizado con estos comandos GNU/Linux puedes leer [mi entrada sobre los comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/) para refrescar tu memoria.
+Si en este punto sientes que no estás familiarizado con estos comandos GNU/Linux puedes leer [mi entrada sobre los comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
 
 ## Cambiar wallpaper automáticamente con Python
 
@@ -113,4 +113,4 @@ Si todo salió correctamente tu wallpaper habrá cambiado por una imagen al azar
 
 Pero tener que correr este comando cada vez que queremos cambiar de wallpaper es bastante engorroso, ¿no sería genial poder programarlo para que se ejecutara cada cierto tiempo?
 
-Si ya leiste [mi post donde hablo de crontab y cron](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/) ya tienes una idea de como conseguirlo. [Entra en la siguiente entrada](https://coffeebytes.dev/como-programar-un-cambiador-de-wallpaper-periodico-en-python/) para programar la ejecución periódica de este script usando _crontab_.
+Si ya leiste [mi post donde hablo de crontab y cron](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/) ya tienes una idea de como conseguirlo. [Entra en la siguiente entrada](https://coffeebytes.dev/como-programar-un-cambiador-de-wallpaper-automatico-en-python/) para programar la ejecución periódica de este script usando _crontab_.

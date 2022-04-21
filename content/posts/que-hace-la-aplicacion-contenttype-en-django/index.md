@@ -1,5 +1,5 @@
 ---
-title: "¿Qué hace la aplicación ContentType en Django?"
+title: "¿Que hace la aplicacion ContentType en Django?"
 date: "2021-02-16"
 categories: 
   - "django"
@@ -10,7 +10,7 @@ coverImage: "ContentTypeDjango2.jpg"
 
 ¡Perdón por tardar tanto en escribir! He estado ocupado mudando el frontend de mi blog a Frontity, un framework de React para Wordpress, y también mudándome a un nuevo departamento. Quizás hable un poco al respecto de Frontity en alguna entrada futura. Por ahora continuemos con el tema.
 
-Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [uno de los mejores libros para comenzar con Django.](https://coffeebytes.dev/el-libro-definitivo-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
+Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [uno de los mejores libros para comenzar con Django.](https://coffeebytes.dev/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
 
 ## ContentType y los modelos
 
@@ -26,7 +26,7 @@ Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido;
 
 Para ejemplificar como funciona ContentType vamos a crear un projecto de django, con un modelo:
 
-Primero creemos un entorno virtual con pipenv. Si no sabes como se usa pipenv puedes visitar [mi entrada donde hablo de Pipenv.](https://coffeebytes.dev/pipenv-administrador-de-entornos-virtuales/)
+Primero creemos un entorno virtual con pipenv. Si no sabes como se usa pipenv puedes visitar [mi entrada donde hablo de Pipenv.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 
 ```bash
 pipenv shell

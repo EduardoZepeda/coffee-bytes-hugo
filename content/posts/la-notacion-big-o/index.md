@@ -1,5 +1,5 @@
 ---
-title: "La notación Big O"
+title: "La notacion Big O"
 date: "2019-08-15"
 categories: 
   - "gnu-linux-y-devops"
@@ -109,4 +109,4 @@ Si buscas algo más visual para introducirte en el mundo de los algoritmos mira 
 
 <iframe src="https://www.youtube.com/embed/Q9HjeFD62Uk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315" frameborder="0"></iframe>
 
-Si quieres practicar tus capacidades de resolución de problemas usando algoritmos tengo una entrada al respecto [entra aquí para saber más.](https://coffeebytes.dev/un-problema-de-codigo-al-dia/)
+Si quieres practicar tus capacidades de resolución de problemas usando algoritmos tengo una entrada al respecto [entra aquí para saber más.](https://coffeebytes.dev/un-problema-de-algoritmos-al-dia/)

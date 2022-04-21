@@ -1,5 +1,5 @@
 ---
-title: "Full text search y búsquedas con Django y Postgres"
+title: "Full text search y busquedas con Django y Postgres"
 date: "2021-05-06"
 categories: 
   - "django"
@@ -51,7 +51,7 @@ Si cuando ejecutaste la búsqueda anterior te saltó un error es porque te falta
 
 ### Prerrequisitos
 
-Tener instalado psycopg2 y sus dependencias en [tu entorno virtual.](https://coffeebytes.dev/pipenv-administrador-de-entornos-virtuales/)
+Tener instalado psycopg2 y sus dependencias en [tu entorno virtual.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 
 ```python
 pipenv install psycopg2 # también sirve con pip install psycopg2

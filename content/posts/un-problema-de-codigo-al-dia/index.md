@@ -1,5 +1,5 @@
 ---
-title: "Un problema de algoritmos al día"
+title: "Un problema de algoritmos al dia"
 date: "2019-06-04"
 categories: 
   - "gnu-linux-y-devops"

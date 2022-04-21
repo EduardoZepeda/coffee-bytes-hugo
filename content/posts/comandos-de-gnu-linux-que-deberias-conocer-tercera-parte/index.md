@@ -1,12 +1,12 @@
 ---
-title: "Comandos de Linux que deberías conocer (tercera parte)"
+title: "Comandos de Linux que deberias conocer (tercera parte)"
 date: "2019-05-21"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "comandos_GNU_Linux_3.jpg"
 ---
 
-Esta es la tercera parte de la lista de los comandos que más utilizo de GNU/Linux. Si quieres ver las dos primeras partes de esta serie de entradas por favor [haz click aquí para la primera parte](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/) o [click acá para la segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer-2/).
+Esta es la tercera parte de la lista de los comandos que más utilizo de GNU/Linux. Si quieres ver las dos primeras partes de esta serie de entradas por favor [haz click aquí para la primera parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) o [click acá para la segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/).
 
 ## printenv
 
@@ -376,7 +376,7 @@ chroot /mi-nuevo-directorio-root
 
 ## chown
 
-Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los permisos **ingresa como super usuario**, si no sabes como hacerlo revisa la [segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer-2/) de esta serie de entradas.
+Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los permisos **ingresa como super usuario**, si no sabes como hacerlo revisa la [segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) de esta serie de entradas.
 
 ```bash
 ls -la
@@ -479,4 +479,4 @@ Ahora el propietario, llamado _usuario_, puede escribir, leer y ejecutar ambos a
 
 ## Aún más sobre el comando chmod
 
-El sistema de permisos de GNU/Linux es un tema bastante complejo, por lo que hablaré de él con más detalle en la siguiente entrada. [Entra aquí para ver el tutorial de permisos con chmod.](https://coffeebytes.dev/permisos-en-gnu-linux-y-el-comando-chmod/)
+El sistema de permisos de GNU/Linux es un tema bastante complejo, por lo que hablaré de él con más detalle en la siguiente entrada. [Entra aquí para ver el tutorial de permisos con chmod.](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)

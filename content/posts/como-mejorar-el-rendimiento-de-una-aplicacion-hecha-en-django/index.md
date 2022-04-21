@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo mejorar el rendimiento de una aplicación hecha en Django?"
+title: "¿Como mejorar el rendimiento de una aplicacion hecha en Django?"
 date: "2020-12-30"
 categories: 
   - "arquitectura-de-software"
@@ -17,9 +17,9 @@ Es bastante común escribir código que ocasiones múltiples consultas a la base
 
 Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) y redúcelas, usa:
 
-- **select\_related()** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](https://coffeebytes.dev/diferencias-entre-select_related-y-prefetch_related-en-django/)
+- **select\_related()** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](https://coffeebytes.dev/diferencias-entre-select-related-y-prefetch-related-en-django/)
 - **prefetch\_related()** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
-- **django\_annotate()** para agregar información a cada objecto de una consulta. [Tengo una entrada donde explico annotate y aggregate](https://coffeebytes.dev/cuando-usar-annotate-y-aggregate-en-django/)
+- **django\_annotate()** para agregar información a cada objecto de una consulta. [Tengo una entrada donde explico annotate y aggregate](https://coffeebytes.dev/django-annotate-y-aggregate-explicados/)
 - **django\_aggregate()** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
@@ -194,7 +194,7 @@ Pero no todo es maravilloso; los intérpretes de terceros, incluido [pypy](https
 
 Si has probado todo lo anterior y aún así tienes una aplicación con cuellos de botella, probablemente estás exprimiendo demasiado a Python y necesites de la velocidad de otro lenguaje. Pero no te preocupes, no tienes que rehacer toda tu aplicación en C o C++. [Swig](http://www.swig.org/) te permite crear módulos en C, C++, Java, Go u otros lenguajes de más bajo nivel para importarlos directamente desde Python.
 
-¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](https://coffeebytes.dev/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/)
+¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/)
 
 Si tienes un cuello de botella causado por algún cálculo matemático muy costoso, que pone en evidencia la falta de velocidad de Python al ser un lenguaje interpretado, quizás te convenga reescribir el cuello de botella en algún lenguaje de bajo nivel para luego llamarlo usando Python. De esta manera tendrás la facilidad de uso de Python con la velocidad de un lenguaje de bajo nivel.
 
@@ -204,7 +204,7 @@ Dependiendo del avance de tu aplicación quizás te convenga migrar a otro frame
 
 O, si tu aplicación no es muy compleja a nivel de base de datos, quizás quieras escribir tus propias consultas sql y combinarlas con algún otro framework.
 
-La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi [entrada donde te explico las maravillas que tiene para ofrecer FastAPI.](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/)
+La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi [entrada donde te explico las maravillas que tiene para ofrecer FastAPI.](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/)
 
 ## Bonus: aplicaciones con más de 63 000 modelos
 

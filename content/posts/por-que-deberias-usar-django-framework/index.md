@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué deberías usar Django Framework?"
+title: "¿Por que deberias usar Django Framework?"
 date: "2021-03-24"
 categories: 
   - "django"
@@ -85,7 +85,7 @@ Solo por nombrar algunos:
 - Django-storage (AWS storage)
 - Django-braces (Funciones comunes)
 
-Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la creación de una API, permisos y [throttling](https://coffeebytes.dev/como-limitar-peticiones-con-throttling-en-nginx/), una tarea mucho más corta** que en otros lenguajes. La autenticación con DRF también es bastante sencilla usando los paquetes anteriores. La librería Graphene también es destacable, permite implementar graphql en Django con pocas lineas de código.
+Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la creación de una API, permisos y [throttling](https://coffeebytes.dev/throttling-en-nginx/), una tarea mucho más corta** que en otros lenguajes. La autenticación con DRF también es bastante sencilla usando los paquetes anteriores. La librería Graphene también es destacable, permite implementar graphql en Django con pocas lineas de código.
 
 Otro paquete bastante útil y que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](https://coffeebytes.dev/django-channels-consumers-scope-y-eventos/)
 
@@ -117,7 +117,7 @@ La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frame
 
 Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de python vs go comparo el rendimiento de ambos, solo para que te des una idea.
 
-Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
+Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
 
 ### Su ORM no es asíncrono ni tampoco el más veloz
 

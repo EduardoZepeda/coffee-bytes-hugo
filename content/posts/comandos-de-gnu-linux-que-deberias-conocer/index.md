@@ -1,5 +1,5 @@
 ---
-title: "Comandos de GNU Linux basicos que deberías conocer"
+title: "Comandos de GNU Linux basicos que deberias conocer"
 date: "2019-05-08"
 categories: 
   - "gnu-linux-y-devops"
@@ -12,7 +12,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer-2/) y acá para [la tercera parte de esta serie.](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/)
+Entra aquí para la [segunda parte de esta serie de comandos](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) y acá para [la tercera parte de esta serie.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/)
 
 ## Pequeños tips de la terminal de Linux
 
@@ -144,7 +144,7 @@ cd ..
 
 Este comando sirve para concatenar el contenido de un archivo y mostrarlo en pantalla.
 
-Existe una herramienta que ofrece más funciones que cat, checa mi [entrada donde hablo sobre bat para conocerla.](https://coffeebytes.dev/conoce-bat-el-cat-con-resaltado-de-sintaxis/)
+Existe una herramienta que ofrece más funciones que cat, checa mi [entrada donde hablo sobre bat para conocerla.](https://coffeebytes.dev/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
 
 ```bash
 cat archivo
@@ -288,4 +288,4 @@ ip
 
 El comando ip tiene muchas opciones que te sugiero que revises con calma, usa el comando man si quieres ahondar más en las funcionalidades.
 
-Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [entra en la siguiente entrada](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer-2/) para la segunda parte.
+Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [entra en la siguiente entrada](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) para la segunda parte.

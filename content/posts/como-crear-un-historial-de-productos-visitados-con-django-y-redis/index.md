@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo crear un historial de productos visitados con django y redis?"
+title: "¿Como crear un historial de productos visitados con django y redis?"
 date: "2020-11-28"
 categories: 
   - "django"
@@ -24,7 +24,7 @@ Hay muchas maneras de abordar ese problema, puedes asociar un usuario (y su hist
 
 ## Instalar redis en GNU/Linux
 
-Antes de empezar a usar django y redis hay que instalar este último en nuestro sistema operativo GNU/Linux. Si no tienes ni idea de los comandos básicos en un entorno linux te sugiero [visitar mi entrada que habla de los comandos más comunes.](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/)
+Antes de empezar a usar django y redis hay que instalar este último en nuestro sistema operativo GNU/Linux. Si no tienes ni idea de los comandos básicos en un entorno linux te sugiero [visitar mi entrada que habla de los comandos más comunes.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 sudo apt install redis-server
@@ -71,7 +71,7 @@ class Product(models.Model):
     # ...
 ```
 
-Si has llegado hasta aquí, pero no tienes idea de como funciona Django tengo unas entradas donde reseño un par de libros que pueden servirte: [El libro definitivo de Django (Gratuito)](https://coffeebytes.dev/el-libro-definitivo-de-django/) o [Django by example](https://coffeebytes.dev/aprender-django-resena-django-by-example/)
+Si has llegado hasta aquí, pero no tienes idea de como funciona Django tengo unas entradas donde reseño un par de libros que pueden servirte: [El libro definitivo de Django (Gratuito)](https://coffeebytes.dev/la-guia-definitiva-de-django/) o [Django by example](https://coffeebytes.dev/aprender-django-con-django-by-example-mi-resena/)
 
 ## Eligiendo el valor que usaremos como llave en django y redis
 

@@ -1,5 +1,5 @@
 ---
-title: "Caché en Django REST Framework con memcached"
+title: "Cache en Django REST Framework con memcached"
 date: "2021-09-07"
 categories: 
   - "django"

@@ -59,7 +59,7 @@ Ahora que ya viste porque vale la pena usarlo, ¿por qué no probarlo?
 
 Para instalarlo vamos a crear un entorno virtual con Pipenv. Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
 
-Si no sabes usar Pipenv date una vuelta por la [entrada donde explico como usar esta herramienta de manejo de entornos virtuales.](https://coffeebytes.dev/pipenv-administrador-de-entornos-virtuales/) También puedes usar poetry, [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico/), conda o cualquier otro gestor de entornos virtuales que prefieras.
+Si no sabes usar Pipenv date una vuelta por la [entrada donde explico como usar esta herramienta de manejo de entornos virtuales.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/) También puedes usar poetry, [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico-en-linux/), conda o cualquier otro gestor de entornos virtuales que prefieras.
 
 ```bash
 pipenv install fastapi uvicorn
@@ -506,7 +506,7 @@ async def create_upload_file(file: UploadFile = File(...)):
 
 Para este ejemplo vamos a crear un archivo sencillo de texto.
 
-El siguiente comando creará un archivo de extensión txt en nuestra carpeta actual. Si no te sientes cómodo usando la terminal de GNU/Linux visita [mi serie de entradas donde explico los comandos básicos.](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/)
+El siguiente comando creará un archivo de extensión txt en nuestra carpeta actual. Si no te sientes cómodo usando la terminal de GNU/Linux visita [mi serie de entradas donde explico los comandos básicos.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 printf "texto" > archivo.txt

@@ -8,7 +8,7 @@ coverImage: "ReactuseCallbackuseMemoMemo.jpg"
 
 Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de React usando memoización, evitando renderizaciones inútiles, cada uno con sus diferencias, similitudes y casos de uso. Estas tres funciones no deben ser usadas de manera indiscriminada, sino exclusivamente en aquellas situaciones en las que su impacto sea mucho menor que los beneficios que ofrecen.
 
-Visita mi entrada donde comparto [5 librerías que no puedes perderte](https://coffeebytes.dev/librerias-de-react-que-debes-conocer/) para aprender un poco más del mundo de React.
+Visita mi entrada donde comparto [5 librerías que no puedes perderte](https://coffeebytes.dev/5-librerias-geniales-de-react-que-debes-conocer/) para aprender un poco más del mundo de React.
 
 Antes de empezar a ver las funciones hay dos conceptos que tienes que entender primero: memoización y el manejo de objetos por parte de Javascript. Pasa a la parte de useCallback si ya los dominas.
 

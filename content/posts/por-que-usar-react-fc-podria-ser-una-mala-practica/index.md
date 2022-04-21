@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué usar React.FC podría ser una mala práctica?"
+title: "¿Por que usar React.FC podria ser una mala practica?"
 date: "2022-02-23"
 categories: 
   - "opiniones"

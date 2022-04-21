@@ -1,5 +1,5 @@
 ---
-title: "El 4chan sobre tecnología y programación"
+title: "El 4chan sobre tecnologia y programacion"
 date: "2019-09-16"
 categories: 
   - "opiniones"

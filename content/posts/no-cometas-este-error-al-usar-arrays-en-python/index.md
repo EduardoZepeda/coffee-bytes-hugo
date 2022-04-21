@@ -13,7 +13,7 @@ arr = [0]*5
 #[0, 0, 0, 0, 0]
 ```
 
-Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que puede servirte muchísimo: ["Inmersion en Python", totalmente gratuito y en español.](https://coffeebytes.dev/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/)
+Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que puede servirte muchísimo: ["Inmersion en Python", totalmente gratuito y en español.](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/)
 
 ## La manera incorrecta de crear matrices en Python
 

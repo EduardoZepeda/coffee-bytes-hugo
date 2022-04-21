@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué deberías usar un entorno virtual en python?"
+title: "¿Por que deberias usar un entorno virtual en python?"
 date: "2019-07-10"
 categories: 
   - "python"
@@ -37,6 +37,6 @@ Sobra decir que los entornos virtuales solucionan bastantes problemas. Y es una 
 Hay muchas opciones de entornos virtuales disponibles aquí te dejo algunos de los más populares:
 
 - virtualenv
-- [pipenv](https://coffeebytes.dev/pipenv-administrador-de-entornos-virtuales/)
+- [pipenv](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 - conda
 - poetry

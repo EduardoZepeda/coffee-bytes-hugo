@@ -1,5 +1,5 @@
 ---
-title: "Go: Structs, herencia, polimorfismo y encapsulación"
+title: "Go: Structs, herencia, polimorfismo y encapsulacion"
 date: "2022-01-04"
 categories: 
   - "golang"

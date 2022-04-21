@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo hacer un switch en Python?"
+title: "¿Como hacer un switch en Python?"
 date: "2021-03-06"
 categories: 
   - "python"
@@ -8,7 +8,7 @@ coverImage: "PythonYatiene.jpg"
 
 Se anunció Python 3.10 y viene con algo que muchos desarrolladores echaban de menos de otros lenguajes: el switch statement. Sí, ese trozo de código que evalúa una expresión y la compara con múltiples casos para decidir que ejecutar. Python no lo tenía implementado y muchos desarrolladores recurrían a ciertos trucos para imitarlo.
 
-Te recuerdo que si no sabes nada de Python tengo una [entrada donde hablo de "Inmersion en Python"](https://coffeebytes.dev/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/); uno de los mejores libros gratuitos para aprender Python desde cero.
+Te recuerdo que si no sabes nada de Python tengo una [entrada donde hablo de "Inmersion en Python"](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/); uno de los mejores libros gratuitos para aprender Python desde cero.
 
 ## Switch en Python antes de su versión 3.10
 

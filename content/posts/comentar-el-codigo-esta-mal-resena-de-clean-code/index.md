@@ -1,5 +1,5 @@
 ---
-title: "¿Comentar el código está mal? Reseña de Clean Code"
+title: "¿Comentar el codigo esta mal? Resena de Clean Code"
 date: "2020-05-16"
 categories: 
   - "gnu-linux-y-devops"

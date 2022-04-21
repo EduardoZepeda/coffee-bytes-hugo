@@ -8,7 +8,7 @@ coverImage: "Tutorial-de-pipenv.jpg"
 
 Desde que empecé a usar Python uso virtualenv y pip para manejar los entornos virtuales. Pero al leer [Django for Professionals](https://coffeebytes.dev/resena-de-django-for-professionals/) me enteré de que existía una herramienta mejor que pip y virtualenv, llamada Pipenv (no se complicaron mucho con el nombre). Pipenv tiene características que la hacen mucho más robusta y sencilla de utilizar que virtualenv. En este tutorial de Pipenv paso a paso, te voy a explicar la instalación, uso, manejo de archivos y comandos básicos de esta herramienta.
 
-Primero, si ya has oído hablar de los entornos virtuales pero no sabes para que sirven [dale una leída a esta entrada.](https://coffeebytes.dev/por-que-usar-un-entorno-virtual-en-python/) Por otro lado, si el nombre de _virtualenv_ te suena medio esotérico [dale una revisada a esta entrada](https://coffeebytes.dev/python-virtualenv-tutorial-basico/) y te lo explico.
+Primero, si ya has oído hablar de los entornos virtuales pero no sabes para que sirven [dale una leída a esta entrada.](https://coffeebytes.dev/por-que-deberias-usar-un-entorno-virtual-en-python/) Por otro lado, si el nombre de _virtualenv_ te suena medio esotérico [dale una revisada a esta entrada](https://coffeebytes.dev/python-virtualenv-tutorial-basico-en-linux/) y te lo explico.
 
 ## Pipenv vs virtualenv
 
@@ -49,7 +49,7 @@ Pipfile  Pipfile.lock
 
 ## Pipfile
 
-Empecemos viendo el contenido del archivo _Pipfile_. Si tienes alguna dificultado con el uso de la linea de comandos te sugiero revisar [las entradas donde hablo de los comandos más comunes de GNU/Linux.](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/)
+Empecemos viendo el contenido del archivo _Pipfile_. Si tienes alguna dificultado con el uso de la linea de comandos te sugiero revisar [las entradas donde hablo de los comandos más comunes de GNU/Linux.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 cat Pipfile
@@ -201,13 +201,13 @@ pipenv --venv
 /home/usuario/.local/share/virtualenvs/proyecto-HHqROqC2
 ```
 
-Y ahora, en lugar de localizar el archivo activate manualmente en la ruta anterior, como hacíamos con [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico/), podemos activar el entorno virtual usando el comando _pipenv shell_ y esto se hará por nosotros automáticamente
+Y ahora, en lugar de localizar el archivo activate manualmente en la ruta anterior, como hacíamos con [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico-en-linux/), podemos activar el entorno virtual usando el comando _pipenv shell_ y esto se hará por nosotros automáticamente
 
 ```bash
 pipenv shell
 ```
 
-De igual manera que con [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico/) podemos apreciar que el prompt cambiará, indicándonos que estamos dentro del entorno virtual
+De igual manera que con [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico-en-linux/) podemos apreciar que el prompt cambiará, indicándonos que estamos dentro del entorno virtual
 
 ## Variables de entorno con Pipenv
 

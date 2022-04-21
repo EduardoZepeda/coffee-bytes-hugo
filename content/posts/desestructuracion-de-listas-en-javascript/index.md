@@ -1,12 +1,12 @@
 ---
-title: "Desestructuración de listas en Javascript"
+title: "Desestructuracion de listas en Javascript"
 date: "2019-11-03"
 categories: 
   - "javascript"
 coverImage: "desestructuracion_de_listas.jpg"
 ---
 
-En la [entrada anterior](https://coffeebytes.dev/desestructuracion-en-javascript/) expliqué un poco sobre el tema de la desestructuración de objetos en javascript. Además de la desestructuración de objetos, Javascript también permite desestructurar listas. En esta entrada hablaré sobre la destructuración de listas en Javascript.
+En la [entrada anterior](https://coffeebytes.dev/desestructuracion-de-variables-en-javascript/) expliqué un poco sobre el tema de la desestructuración de objetos en javascript. Además de la desestructuración de objetos, Javascript también permite desestructurar listas. En esta entrada hablaré sobre la destructuración de listas en Javascript.
 
 Imaginemos que tenemos una lista con valores numéricos.
 

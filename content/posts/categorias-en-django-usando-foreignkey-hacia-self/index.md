@@ -1,5 +1,5 @@
 ---
-title: "Categorías en Django usando ForeignKey hacia self"
+title: "Categorias en Django usando ForeignKey hacia self"
 date: "2022-03-30"
 categories: 
   - "django"

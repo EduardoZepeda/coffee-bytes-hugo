@@ -1,5 +1,5 @@
 ---
-title: "Aprender Python con criptografía reseña de Cracking Codes with Python"
+title: "Aprender Python con criptografia resena de Cracking Codes with Python"
 date: "2020-07-16"
 categories: 
   - "python"
@@ -46,4 +46,4 @@ Por otro lado, independientemente de lo anterior, te **recomiendo leer el [capí
 **Recomendado para leerlo:** 6/10  
 **Idiomas:** Inglés
 
-Entra en [mi entrada sobre inmersión en Python](https://coffeebytes.dev/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/) para leer sobre otro libro genial para aprender Python desde cero.
+Entra en [mi entrada sobre inmersión en Python](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/) para leer sobre otro libro genial para aprender Python desde cero.

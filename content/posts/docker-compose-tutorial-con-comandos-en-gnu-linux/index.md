@@ -1,12 +1,12 @@
 ---
-title: "Conoce los comandos básicos de Docker Compose"
+title: "Conoce los comandos basicos de Docker Compose"
 date: "2020-10-14"
 categories: 
   - "docker"
 coverImage: "DockerCompose.jpg"
 ---
 
-Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita [mi entrada de los comandos y uso básico de Docker.](https://coffeebytes.dev/docker-curso-practico-con-ejemplos-en-gnu-linux/)
+Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita [mi entrada de los comandos y uso básico de Docker.](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/)
 
 ## ¿Qué es docker compose?
 
@@ -78,7 +78,7 @@ services:
 
 ### build
 
-En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. Si no sabes que es un Dockerfile por favor recuerda que puedes visitar [mi entrada donde explico el funcionamiento básico de Docker.](https://coffeebytes.dev/docker-curso-practico-con-ejemplos-en-gnu-linux/)
+En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. Si no sabes que es un Dockerfile por favor recuerda que puedes visitar [mi entrada donde explico el funcionamiento básico de Docker.](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/)
 
 ```docker
 version: "3.8"
@@ -172,7 +172,7 @@ En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya est�
 
 ### environment
 
-La configuración environment nos permite establecer una lista de [variables de entorno](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
+La configuración environment nos permite establecer una lista de [variables de entorno](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
 
 ```docker
 version: '3.8'

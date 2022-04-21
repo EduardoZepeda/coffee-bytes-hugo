@@ -1,5 +1,5 @@
 ---
-title: "API códigos postales de México con Django"
+title: "API codigos postales de Mexico con Django"
 date: "2021-07-22"
 categories: 
   - "django"
@@ -12,7 +12,7 @@ Para este ejemplo uso Python 3.8, Django 3.2.5 y Pipenv version 2020.5.28
 
 ## Instalación
 
-Para instalarla vamos a usar [Pipenv](https://coffeebytes.dev/pipenv-administrador-de-entornos-virtuales/), pero puedes usar Poetry, [pip](https://coffeebytes.dev/python-virtualenv-tutorial-basico/) o cualquier otro gestor de entornos virtuales.
+Para instalarla vamos a usar [Pipenv](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), pero puedes usar Poetry, [pip](https://coffeebytes.dev/python-virtualenv-tutorial-basico-en-linux/) o cualquier otro gestor de entornos virtuales.
 
 ```bash
 pipenv shell

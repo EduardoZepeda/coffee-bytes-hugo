@@ -1,5 +1,5 @@
 ---
-title: "¿Qué es Docker y para que sirve?"
+title: "¿Que es Docker y para que sirve?"
 date: "2020-09-29"
 categories: 
   - "docker"
@@ -10,7 +10,7 @@ Si llevas usando computadoras desde hace tiempo, probablemente te encuentres má
 
 ## ¿Qué es Docker?
 
-Docker es una herramienta que permite empaquetar una aplicación y sus dependencias en un contenedor muy ligero. Es como si tomaras una aplicación completa con absolutamente todo lo que necesita para funcionar para poder transportarla sin problema a cualquier otro servidor con Docker instalado, ya sea para seguir desarrollándola o para hacer deploy. ¿Y? ¿es todo? ¿transportar código? De seguro me dirás que eso ya lo hacen las máquinas virtuales, [los entornos virtuales](https://coffeebytes.dev/por-que-usar-un-entorno-virtual-en-python/), los archivos zip y prácticamente cualquier herramienta. Bueno sí, pero voy a intentar explicar de manera sencilla que problemática hay.
+Docker es una herramienta que permite empaquetar una aplicación y sus dependencias en un contenedor muy ligero. Es como si tomaras una aplicación completa con absolutamente todo lo que necesita para funcionar para poder transportarla sin problema a cualquier otro servidor con Docker instalado, ya sea para seguir desarrollándola o para hacer deploy. ¿Y? ¿es todo? ¿transportar código? De seguro me dirás que eso ya lo hacen las máquinas virtuales, [los entornos virtuales](https://coffeebytes.dev/por-que-deberias-usar-un-entorno-virtual-en-python/), los archivos zip y prácticamente cualquier herramienta. Bueno sí, pero voy a intentar explicar de manera sencilla que problemática hay.
 
 ## ¿Para qué sirve Docker?
 
@@ -78,4 +78,4 @@ Al final Docker es una herramienta más que debería usarse para solucionar un p
 
 ## TLDR
 
-Para fines prácticos, Docker nos va a permitir crear aplicaciones que vamos a poder transportar de un entorno a otro fácilmente, que van a ejecutarse en un contenedores aislados dentro de nuestro sistema operativo y que, además, se **van a comportar exactamente igual en cualquier máquina con Docker instalado**. Todo lo anterior nos librará del "funcionaba perfecto en mi máquina" y evitará errores causados por diferencias de entorno o configuración al momento de desarrollo. Entra en la siguiente entrada que trata de [los comandos básicos de Docker.](https://coffeebytes.dev/docker-curso-practico-con-ejemplos-en-gnu-linux/)
+Para fines prácticos, Docker nos va a permitir crear aplicaciones que vamos a poder transportar de un entorno a otro fácilmente, que van a ejecutarse en un contenedores aislados dentro de nuestro sistema operativo y que, además, se **van a comportar exactamente igual en cualquier máquina con Docker instalado**. Todo lo anterior nos librará del "funcionaba perfecto en mi máquina" y evitará errores causados por diferencias de entorno o configuración al momento de desarrollo. Entra en la siguiente entrada que trata de [los comandos básicos de Docker.](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/)

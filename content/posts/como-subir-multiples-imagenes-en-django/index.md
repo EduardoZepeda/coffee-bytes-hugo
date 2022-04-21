@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo subir múltiples imágenes en Django?"
+title: "¿Como subir multiples imagenes en Django?"
 date: "2021-03-30"
 categories: 
   - "django"
@@ -12,7 +12,7 @@ Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y 
 
 Creemos primero un entorno virtual y entrémos en él.
 
-Si no conoces Pipenv o no sabes como usarlo, revisa [mi entrada sobre Pipenv.](https://coffeebytes.dev/pipenv-administrador-de-entornos-virtuales/)
+Si no conoces Pipenv o no sabes como usarlo, revisa [mi entrada sobre Pipenv.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 
 ```bash
 pipenv shell
@@ -28,7 +28,7 @@ pipenv install django Pillow
 
 A continuación vamos a crear un nuevo proyecto y entraremos en la carpeta recién creada.
 
-Si no conoces los comandos de GNU/Linux tengo [una serie de entradas donde puedes aprender los más populares.](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/)
+Si no conoces los comandos de GNU/Linux tengo [una serie de entradas donde puedes aprender los más populares.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 django-admin startproject yourproject

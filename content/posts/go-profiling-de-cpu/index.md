@@ -1,5 +1,5 @@
 ---
-title: "Go: profiling o perfilado básico del uso del CPU"
+title: "Go: profiling o perfilado basico del uso del CPU"
 date: "2022-02-16"
 categories: 
   - "golang"

@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo personalizar el modelo User en Django?"
+title: "¿Como personalizar el modelo User en Django?"
 date: "2022-03-16"
 categories: 
   - "django"

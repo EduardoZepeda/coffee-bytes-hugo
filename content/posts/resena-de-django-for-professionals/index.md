@@ -1,5 +1,5 @@
 ---
-title: "Reseña de Django for Professionals"
+title: "Resena de Django for Professionals"
 date: "2020-04-15"
 categories: 
   - "django"
@@ -24,7 +24,7 @@ Una característica del libro que me gustaría destacar es la escritura de tests
 
 Con respecto al contenido, me parece que le falta profundizar un poco más en el deploy y tomar en cuenta otras opciones, a parte de Heroku. Tampoco menciona a Django Rest Framework o Graphene, aunque esto podría deberse a que son tratados en su otro libro: Django for APIS. Yo siento que, para ser un libro de Django para profesionales, no ahonda lo suficiente en el framework.  
   
-Si buscas un libro que ahonde en el funcionamiento de Django a profundidad a nivel código, este no es tu libro, intenta con [The definitive guide to Django](https://coffeebytes.dev/el-libro-definitivo-de-django/) (incluso a pesar de estar desactualizado). En cambio, si estás buscando una aproximación más centrada en el rápido desarrollo y despliegue de aplicaciones este es, probablemente, el libro que necesitas leer.
+Si buscas un libro que ahonde en el funcionamiento de Django a profundidad a nivel código, este no es tu libro, intenta con [The definitive guide to Django](https://coffeebytes.dev/la-guia-definitiva-de-django/) (incluso a pesar de estar desactualizado). En cambio, si estás buscando una aproximación más centrada en el rápido desarrollo y despliegue de aplicaciones este es, probablemente, el libro que necesitas leer.
 
 En resumen, me han gustado un montón de cosas de este libro. En primer lugar, ver ejemplos en Docker (aún en nivel básico) con Django es bastante útil, ya que muchos de los libros lo dejan de lado. En segundo lugar, la incorporación de tests al final de cada capítulo también lo considero un acierto por parte del escritor.
 

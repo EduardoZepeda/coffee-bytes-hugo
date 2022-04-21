@@ -3,7 +3,7 @@ title: "About me, Eduardo Zepeda"
 date: "2020-11-05"
 ---
 
-Hi, I'm Eduardo Zepeda, self-taught web developer. I learned all I know about programming from [these books, which I've read and reviewed](https://coffeebytes.dev/en/books-ive-read-and-reviews/). Lately, I've been taking online courses on Udemy and Platzi (Check out my [platzi certificates](https://platzi.com/@eduardo-zepeda/)).
+Hi, I'm Eduardo Zepeda, self-taught web developer. I learned all I know about programming from [these books, which I've read and reviewed](en/books-ive-read-and-reviews/). Lately, I've been taking online courses on Udemy and Platzi (Check out my [platzi certificates](https://platzi.com/@eduardo-zepeda/)).
 
 I'm a huge fan of Codewars, sometimes I solve some Katas there. I reached 2 kyu a few months ago!
 

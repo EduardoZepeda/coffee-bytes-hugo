@@ -1,5 +1,5 @@
 ---
-title: "Aprender python desde cero Reseña de Beginning Python"
+title: "Aprender python desde cero Resena de Beginning Python"
 date: "2019-07-02"
 categories: 
   - "python"
@@ -32,4 +32,4 @@ Yo lo considero una excelente libro para aprender Python desde cero. Es muy dif�
 
 ****Conocimientos previos recomendados:**** HTML******Recomendado para leerlo:****** 8/10
 
-Si prefieres un libro en español y que además **sea gratuito** [visita mi entrada donde hablo de Inmersión en Python](https://coffeebytes.dev/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/).
+Si prefieres un libro en español y que además **sea gratuito** [visita mi entrada donde hablo de Inmersión en Python](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/).

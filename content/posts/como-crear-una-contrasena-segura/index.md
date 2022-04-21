@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo crear una contraseña segura?"
+title: "¿Como crear una contrasena segura?"
 date: "2020-07-02"
 categories: 
   - "gnu-linux-y-devops"

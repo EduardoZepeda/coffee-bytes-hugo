@@ -1,5 +1,5 @@
 ---
-title: "Desestructuración de objetos anidados"
+title: "Desestructuracion de objetos anidados"
 date: "2019-11-16"
 categories: 
   - "javascript"

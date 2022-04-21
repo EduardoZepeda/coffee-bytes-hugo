@@ -1,12 +1,12 @@
 ---
-title: "Aprende Docker, curso práctico con ejemplos en GNU Linux"
+title: "Aprende Docker, curso practico con ejemplos en GNU Linux"
 date: "2020-10-07"
 categories: 
   - "docker"
 coverImage: "DockerCursoPractico.jpg"
 ---
 
-Si te leíste [la entrada anterior donde explico para que sirve Docker](https://coffeebytes.dev/que-es-y-para-que-me-sirve-docker/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
+Si te leíste [la entrada anterior donde explico para que sirve Docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
 
 ## Las imágenes y los contenedores son diferentes
 
@@ -182,7 +182,7 @@ docker run -it ubuntu
 
 Intenta ejecutar un _ls_ o un _pwd_. Podrás notar que estás dentro de un sistema operativo GNU/Linux. Puedes crear archivos, modificarlos, crear carpetas, etc.
 
-Si no sabes nada sobre comandos de GNU/Linux puedes revisar [mi entrada de los comandos básicos](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/) para refrescar tu memoria.
+Si no sabes nada sobre comandos de GNU/Linux puedes revisar [mi entrada de los comandos básicos](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
 
 ```bash
 ls
@@ -288,7 +288,7 @@ El comando anterior creó una instancia del servidor web Nginx, por lo que redir
 
 Los cambios que hacemos dentro de los contenedores de Docker, tales como crear archivos, modificar configuraciones y otros, se quedan ahí, si nosotros borramos el contenedor la información se pierde para siempre.
 
-Los volúmenes almacenan información que se encuentra fuera de los contenedores y que, por lo tanto, permanece aunque los borremos. Docker almacena estos contenedores en la ubicación "_/var/lib/docker/volumes/nombre\_del\_volumen/\_data_". **Estas carpetas son solo accesibles para docker y el usuario root**, por lo que no tenemos los permisos para modificar su contenido directamente, usando nuestro usuario normal. Si tienes dudas sobre los permisos en GNU/Linux tengo una [entrada donde los explico.](https://coffeebytes.dev/permisos-en-gnu-linux-y-el-comando-chmod/)
+Los volúmenes almacenan información que se encuentra fuera de los contenedores y que, por lo tanto, permanece aunque los borremos. Docker almacena estos contenedores en la ubicación "_/var/lib/docker/volumes/nombre\_del\_volumen/\_data_". **Estas carpetas son solo accesibles para docker y el usuario root**, por lo que no tenemos los permisos para modificar su contenido directamente, usando nuestro usuario normal. Si tienes dudas sobre los permisos en GNU/Linux tengo una [entrada donde los explico.](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)
 
 Vamos a tratar de dejarlo más claro con un ejemplo:
 
@@ -558,4 +558,4 @@ Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 ve
 
 ![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)
 
-Este tutorial cubrió solo lo básico sobre Docker. [Entra en la siguiente entrada](https://coffeebytes.dev/docker-compose-tutorial-con-comandos-en-gnu-linux/) que tratará sobre docker compose, una herramienta para crear aplicaciones con multiples contenedores.
+Este tutorial cubrió solo lo básico sobre Docker. [Entra en la siguiente entrada](https://coffeebytes.dev/conoce-los-comandos-basicos-de-docker-compose/) que tratará sobre docker compose, una herramienta para crear aplicaciones con multiples contenedores.

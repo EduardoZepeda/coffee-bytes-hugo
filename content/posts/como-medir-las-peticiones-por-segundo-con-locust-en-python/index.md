@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo medir las peticiones por segundo con locust en python?"
+title: "¿Como medir las peticiones por segundo con locust en python?"
 date: "2021-10-12"
 categories: 
   - "python"

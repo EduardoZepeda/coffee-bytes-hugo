@@ -1,5 +1,5 @@
 ---
-title: "Cron y Crontab programa tareas periódicas"
+title: "Cron y Crontab programa tareas periodicas"
 date: "2020-02-01"
 categories: 
   - "gnu-linux-y-devops"
@@ -140,4 +140,4 @@ Para evitarnos disgustos existe una herramienta bastante útil llamada [crontab.
 
 ![](images/crontab_guru.gif)
 
-Si quieres aplicar cron y crontab, tengo [una entrada donde los uso para cambiar de wallpaper automáticamente usando Python.](https://coffeebytes.dev/como-programar-un-cambiador-de-wallpaper-periodico-en-python/)
+Si quieres aplicar cron y crontab, tengo [una entrada donde los uso para cambiar de wallpaper automáticamente usando Python.](https://coffeebytes.dev/como-programar-un-cambiador-de-wallpaper-automatico-en-python/)

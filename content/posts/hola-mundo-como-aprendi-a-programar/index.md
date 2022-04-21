@@ -1,5 +1,5 @@
 ---
-title: "Hello World, ¿cómo aprendí a programar?"
+title: "Hello World, ¿como aprendi a programar?"
 date: "2019-03-31"
 categories: 
   - "opiniones"
@@ -52,7 +52,7 @@ Tras meses evadiendo toda aquella información relacionada con Python **por la s
 
 Integrantes de Monthy Python
 
-Un mes más tarde leí el libro [Beginning Python from novice to Professional](https://coffeebytes.dev/aprender-python-desde-cero-resena-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer Hello World a cosas más complicadas.
+Un mes más tarde leí el libro [Beginning Python from novice to Professional](https://coffeebytes.dev/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer Hello World a cosas más complicadas.
 
 ## Usando Python para facilitarme la vida
 

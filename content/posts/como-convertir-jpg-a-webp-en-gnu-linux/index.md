@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo convertir jpg a webp en GNU Linux?"
+title: "¿Como convertir jpg a webp en GNU Linux?"
 date: "2020-09-10"
 categories: 
   - "gnu-linux-y-devops"
@@ -20,7 +20,7 @@ Menor peso en nuestras imágenes significa mejor rendimiento. Un sitio web que c
 
 El primer paso para transformar nuestras imágenes a formato webp es descargar las librerías apropiadas. El paquete que necesitamos para transformar nuestras imágenes se llama webp y se encuentra en los repositorios de las distribuciones populares de GNU/Linux. Instalémoslo.
 
-Si el siguiente comando no te suena o quieres repasar los comandos básicos de GNU/Linux por favor [visita mis entradas donde hablo de los comandos más usuales](https://coffeebytes.dev/comandos-de-gnu-linux-que-deberias-conocer/).
+Si el siguiente comando no te suena o quieres repasar los comandos básicos de GNU/Linux por favor [visita mis entradas donde hablo de los comandos más usuales](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/).
 
 ```bash
 sudo apt install webp

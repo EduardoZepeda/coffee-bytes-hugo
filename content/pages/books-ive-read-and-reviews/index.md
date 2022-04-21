@@ -19,19 +19,19 @@ By the way, the books are not in any particular order.
 - A Philosophy of Software Design by John Ousterhout
 - REST API Design Rulebook by Mark Masse
 - Software Architecture Patterns by Mark Richards
-- [Dive into Python by Mark Pilgrim (Translated by José Miguel González Aguilera)](https://coffeebytes.dev/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/)
-- [Beginning Python: From Novice to Professional by Magnues Lie Hetland](https://coffeebytes.dev/aprender-python-desde-cero-resena-beginning-python)
-- [Cracking Codes with Python: An Introduction to Building and Breaking Ciphers by Al Sweigart](https://coffeebytes.dev/aprender-python-con-criptografia-resena-de-cracking-codes-with-python/)
-- [Practical Python Design Patterns by Wessel Badenhorst](https://coffeebytes.dev/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/)
+- [Dive into Python by Mark Pilgrim (Translated by José Miguel González Aguilera)](aprende-python-desde-cero-con-este-libro-gratuito/)
+- [Beginning Python: From Novice to Professional by Magnues Lie Hetland](aprender-python-desde-cero-resena-de-beginning-python)
+- [Cracking Codes with Python: An Introduction to Building and Breaking Ciphers by Al Sweigart](aprender-python-con-criptografia-resena-de-cracking-codes-with-python/)
+- [Practical Python Design Patterns by Wessel Badenhorst](patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/)
 - Python tricks the book by Dan Bader
 - Web Development with Django Cookbook by Aidas Bendoraitis
-- [Two scoops of Django by Daniel Roy Greenfeld & Audrey Roy Greenfeld](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
-- [Eloquent JavaScript: A Modern Introduction to Programming by Marijin Haverbeke](https://coffeebytes.dev/el-mejor-libro-para-aprender-javascript-moderno/)
-- [Definitive Guide to Django: Web Development Done Right by Adrian Holovaty & Jacob Kaplan Moss (Translated by Saul Garcia M.)](https://coffeebytes.dev/el-libro-definitivo-de-django/)
-- [Django by Example by Antonio Melé](https://coffeebytes.dev/aprender-django-resena-django-by-example/)
+- [Two scoops of Django by Daniel Roy Greenfeld & Audrey Roy Greenfeld](el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
+- [Eloquent JavaScript: A Modern Introduction to Programming by Marijin Haverbeke](el-mejor-libro-para-aprender-javascript-moderno/)
+- [Definitive Guide to Django: Web Development Done Right by Adrian Holovaty & Jacob Kaplan Moss (Translated by Saul Garcia M.)](la-guia-definitiva-de-django/)
+- [Django by Example by Antonio Melé](aprender-django-con-django-by-example-mi-resena/)
 - Building APIS With Django and Django Rest Framework by Agiliq
-- [Clean Code by Robert C. Marin](https://coffeebytes.dev/comentar-el-codigo-esta-mal-resena-de-clean-code/)
-- [Django for Professionals by William S. Vincent](https://coffeebytes.dev/resena-de-django-for-professionals/)
+- [Clean Code by Robert C. Marin](comentar-el-codigo-esta-mal-resena-de-clean-code/)
+- [Django for Professionals by William S. Vincent](resena-de-django-for-professionals/)
 - The algorithm design manual by Steven S. SKiena
 - JavaScript the good parts by Douglas CrockFord
 - Python Pocket Reference by Mark Lutz

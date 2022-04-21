@@ -1,5 +1,5 @@
 ---
-title: "Estás usando mal console.log en javascript"
+title: "Estas usando mal console.log en javascript"
 date: "2020-01-15"
 categories: 
   - "javascript"

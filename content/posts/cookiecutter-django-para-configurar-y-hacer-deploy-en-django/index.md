@@ -11,7 +11,7 @@ Escribí las entradas anteriores como una introducción para el tema de esta sem
 
 Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual [tengo una reseña que puedes leer en este blog.](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
-¿No sabes que es Docker? Visita mi [entrada donde hablo de Docker](https://coffeebytes.dev/docker-curso-practico-con-ejemplos-en-gnu-linux/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a compose, entra en mi tutorial de Docker Compose.
+¿No sabes que es Docker? Visita mi [entrada donde hablo de Docker](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a compose, entra en mi tutorial de Docker Compose.
 
 Si dudas sobre si deberías usar Django visita mi [entrada donde te explico algunas ventajas y desventajas de este framework de desarrollo web.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
@@ -505,4 +505,4 @@ El siguiente paso es agregar nuestro servicio a algún controlador de procesos, 
 
 Teóricamente puedes realizar este procedimiento en cualquier PAAS, tal como [Digital Ocean](https://coffeebytes.dev/digital-ocean-analisis-y-mi-experiencia/), Linode, etc. Yo he hecho el procedimiento usando un Droplet de Docker en Digital Ocean y ha salido bien. El autor tiene instrucciones para otras plataformas que puedes consultar en [la documentación oficial de cookiecutter-django](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
-Visita mi siguiente entrada, donde hablo [de uno de los frameworks más nuevos de Python para crear APIs](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/).
+Visita mi siguiente entrada, donde hablo [de uno de los frameworks más nuevos de Python para crear APIs](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/).
