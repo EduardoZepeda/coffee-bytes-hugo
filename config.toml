@@ -11,6 +11,11 @@ googleAnalytics = "UA-112824408-2"
   author = "Eduardo Zepeda"
   description = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 
 [menu]
   [[menu.main]]
