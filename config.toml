@@ -10,12 +10,16 @@ googleAnalytics = "UA-112824408-2"
 [params]
   author = "Eduardo Zepeda"
   description = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
+  toc = true
+  disablesearch = false
 
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
 
+[outputs]
+    section = ["JSON", "HTML"]
 
 [menu]
   [[menu.main]]
@@ -68,8 +72,8 @@ googleAnalytics = "UA-112824408-2"
   posts = ":title"
 
 [related]
-  includeNewer = false
-  threshold = 50
+  includeNewer = true
+  threshold = 70
   toLower = true
 [[related.indices]]
   name = 'categories'
@@ -77,3 +81,16 @@ googleAnalytics = "UA-112824408-2"
 [[related.indices]]
   name = 'date'
   weight = 10
+
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+    [markup.goldmark.parser]
+      # id tag in table content don't work unluess they're unaccented
+      # github-ascii allows only ascii characters which are unaccented
+      autoHeadingIDType = 'github-ascii'
+
+
