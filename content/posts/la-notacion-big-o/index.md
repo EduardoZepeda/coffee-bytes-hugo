@@ -3,7 +3,12 @@ title: "La notacion Big O"
 date: "2019-08-15"
 categories: 
   - "gnu-linux-y-devops"
+  - "rendimiento"
 coverImage: "BigO_notacion.jpg"
+keywords:
+  - bigo
+  - rendimiento
+  - algoritmos
 ---
 
 Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que suceden; ya sean cosas triviales, como el descubrimiento de un nuevo planeta; o significativas, como las hipotéticas esferas de Dyson que juran encontrar cada mes. Pero el descubrimiento de esta ocasión fue fantástico. El pasado abril del 2019 se publicó la [primera fotografía de un agujero negro](https://www.bbc.com/mundo/noticias-47880446). La fotografía anterior requirió 5 petabytes de datos, lo que son 5000 terabytes de datos (aproximadamente el equivalente a 5000 discos duros de un terabyte de capacidad). Aquí los científicos se enfrentaron con un gran dilema, ¿qué método usar para enviar tanta información?

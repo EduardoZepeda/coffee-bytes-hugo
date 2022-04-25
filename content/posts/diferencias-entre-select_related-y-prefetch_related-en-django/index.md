@@ -4,6 +4,12 @@ date: "2022-03-09"
 categories: 
   - "django"
 coverImage: "django-select-related-prefetch-related.jpg"
+coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
+keywords:
+  - django
+  - python
+  - rendimiento
+  - orm
 ---
 
 Los métodos _select\_related_ y _prefetch\_relate_d **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/)

@@ -4,6 +4,12 @@ date: "2020-04-15"
 categories: 
   - "django"
 coverImage: "Django_for_professionals.jpg"
+keywords:
+  - "django"
+  - "python"
+  - "libros"
+  - "opinion"
+  - "reseña"
 ---
 
 Hace algo de tiempo, mientras buscaba información sobre Django por internet me encontré con un [podcast semanal muy bueno llamado Django chats](https://djangochat.com/). El autor, llamado William S. Vincent, habla de Django y entrevista desarrolladores relacionados con este framework de desarrollo web. Además de llevar su podcast religiosamente, William S. Vincent también escribe libros sobre Django. Uno de ellos es Django for Professionals, el cual es **uno de los mejores libros de Django moderno** que he leído hasta el momento. Este libro forma parte de una trilogía sobre Django. Si sabes inglés date una vuelta por el podcast de Django del autor, encontrarás mucho contenido genial sobre Django y enlaces de compra a sus tres libros:

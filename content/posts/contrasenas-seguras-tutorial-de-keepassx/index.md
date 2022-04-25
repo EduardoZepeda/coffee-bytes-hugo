@@ -4,6 +4,8 @@ date: "2020-07-15"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "chico_con_mascara_de_gas.jpg"
+keywords:
+  - linux
 ---
 
 En la entrada anterior hablé acerca de algunas buenas practicas usando contraseñas, si no la has leído [entra y léela en este enlace](https://coffeebytes.dev/como-crear-una-contrasena-segura/) . Uno de las recomendaciones era usar una contraseña diferente para cada sitio web. Sin embargo recordar muchas contraseñas es complicado y guardar las contraseñas en texto plano es algo impensable si valoramos un poco nuestra seguridad informática. Hay bastante gestores de contraseñas disponibles, esta entrada es un tutorial de keepassx, un gestor de contraseñas **gratuito, open source y súper seguro.**

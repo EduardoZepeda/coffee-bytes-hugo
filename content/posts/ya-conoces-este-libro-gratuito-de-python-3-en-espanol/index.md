@@ -4,6 +4,11 @@ date: "2019-07-31"
 categories: 
   - "python"
 coverImage: "DSC_3818.jpg"
+keywords:
+  - "libros"
+  - "python"
+  - "opinion"
+  - "reseña"
 ---
 
 La mayor parte del contenido en internet sobre el lenguaje de programación Python está en ingles; lo anterior no es nada nuevo, solo basta con darse una vuelta por nuestra librería favorita y preguntar por los libros disponibles en ambos idiomas. El material sobre Python en inglés, además de ser abundante, también es bastante bueno y se encuentra mucho más actualizado que su contraparte en español. Sin embargo, hay un par de excelentes libros para aprender Python en español y uno que otro gratuito, hoy escribiré sobre uno de ellos.

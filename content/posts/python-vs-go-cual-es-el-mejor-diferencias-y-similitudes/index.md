@@ -5,6 +5,10 @@ categories:
   - "golang"
   - "python"
 coverImage: "Python-vs-go.jpg"
+keywords:
+  - "python"
+  - "golang"
+  - "opinion"
 ---
 
 Estos últimos meses he estado aprendiendo go. ¿Por qué? La primera razón es bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2022.

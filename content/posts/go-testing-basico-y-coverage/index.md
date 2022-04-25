@@ -4,6 +4,9 @@ date: "2022-02-09"
 categories: 
   - "golang"
 coverImage: "go-testing-coverage.jpg"
+keywords:
+  - golang
+  - testing
 ---
 
 Go ya cuenta con un modulo de testing en su librería estándar que está lista para nuestro uso, solo hace falta importarlo y usarlo.

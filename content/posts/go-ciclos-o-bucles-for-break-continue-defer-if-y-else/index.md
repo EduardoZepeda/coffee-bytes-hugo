@@ -4,6 +4,8 @@ date: "2021-12-07"
 categories: 
   - "golang"
 coverImage: "go-funciones-defer-break-continue-if-else.jpg"
+keywords:
+  - golang
 ---
 
 Esta entrada tratará sobre los bucles en el lenguaje de programación go.

@@ -4,6 +4,8 @@ date: "2020-08-25"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "bat-el-cat-con-resaltado-de-sintaxis.jpg"
+keywords:
+  - linux
 ---
 
 El otro día estaba buscando herramientas de resaltado de sintaxis y me topé con una herramienta bastante interesante llamada [bat](https://github.com/sharkdp/bat) (Sí, como murciélago en inglés), es básicamente el comando _cat_ de linux, pero con colores y otras funciones bastante interesantes. Y, como cereza del pastel, **está programado en Rust.** En esta entrada te explico de forma corta como funciona y que es lo que puede hacer por ti.

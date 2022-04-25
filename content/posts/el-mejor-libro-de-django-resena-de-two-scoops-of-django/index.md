@@ -4,6 +4,12 @@ date: "2020-05-02"
 categories: 
   - "django"
 coverImage: "Two_scoops_of_django.jpg"
+keywords:
+  - django
+  - python
+  - libros
+  - opinion
+  - reseña
 ---
 
 Esta entrada es una reseña de Two scoops of Django, el que yo considero **el mejor libro de Django**. Es un libro totalmente imprescindible si te dedicas al desarrollo de aplicaciones usando Django. Probablemente ya lo has escuchado nombrar, ya que es un libro bastante popular entre los desarrolladores angloparlantes.

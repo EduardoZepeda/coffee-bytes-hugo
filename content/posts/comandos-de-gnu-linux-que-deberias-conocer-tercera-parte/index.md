@@ -4,6 +4,8 @@ date: "2019-05-21"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "comandos_GNU_Linux_3.jpg"
+keywords:
+  - linux
 ---
 
 Esta es la tercera parte de la lista de los comandos que más utilizo de GNU/Linux. Si quieres ver las dos primeras partes de esta serie de entradas por favor [haz click aquí para la primera parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) o [click acá para la segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/).

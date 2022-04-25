@@ -4,6 +4,10 @@ date: "2021-08-24"
 categories: 
   - "django"
 coverImage: "TareasAsincronasDjangoYCelery.jpg"
+keywords:
+  - celery
+  - python
+  - django
 ---
 
 Celery, en combinación con Django sirven para resolver un problema: la falta de asincronía en nuestra aplicación. El envío de un correo electrónico, el procesamiento de algún archivo o la respuesta al servicio de un tercero mantendrán nuestra ejecución en espera de que la tarea se finalice y, como consecuencia, a nuestro usuario esperando.

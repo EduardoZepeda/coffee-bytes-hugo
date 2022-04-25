@@ -5,6 +5,10 @@ categories:
   - "javascript"
   - "python"
 coverImage: "PythonVSJavascript.jpg"
+keywords:
+  - "python"
+  - "javascript"
+  - "opinion"
 ---
 
 Si has usado solamente Python o solamente Javascript, seguramente te de un poco de curiosidad saber como es el otro. Yo he usado ambos y te puedo platicar un poco sobre las diferencias y algunas cosas en común que tienen ambos lenguajes, para que encuentres el mejor para ti en este 2022.

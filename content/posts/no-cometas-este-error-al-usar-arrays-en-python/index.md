@@ -4,6 +4,9 @@ date: "2021-04-07"
 categories: 
   - "python"
 coverImage: "NoCometasEsteError.jpg"
+keywords:
+  - python
+  - rendimiento
 ---
 
 El otro día estaba resolviendo una kata en [codewars](http://www.codewars.com/r/qsX8Ww), uno de los pasos del problema necesitaba de una matriz bidimensional, en palabras más mundanas: un array de arrays. En Python es súper sencillo crear una matriz bidimensional usando el operador de multiplicación, como si se tratara de números.

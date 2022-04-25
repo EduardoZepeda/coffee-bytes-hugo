@@ -4,6 +4,9 @@ date: "2020-01-15"
 categories: 
   - "javascript"
 coverImage: "estas_usando_console_mal.jpg"
+keywords:
+  - javascript
+  - opinion
 ---
 
 Te apuesto a que alguna vez has usado _console.log()_ para depurar los errores al programar en javascript. Pero quizás no sepas que _console_ tiene otros métodos muy útiles a parte de _log()_. En esta entrada voy a colocar algunos de los métodos más útiles que he encontrado en la web. En esta entrada voy a colocar algunos de los métodos más útiles que he encontrado en la web.

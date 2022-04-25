@@ -4,6 +4,10 @@ date: "2021-11-16"
 categories: 
   - "django"
 coverImage: "djangochannels.jpg"
+keywords:
+  - django
+  - python
+  - websockets
 ---
 
 Los channel layers te permiten interactuar y compartir información con diferentes consumers en django channels. Lo que permite a cada consumer comunicarse con el resto. Por ejemplo, cuando en un chat un usuario envía un mensaje, todos pueden leer el mensaje, cuando un usuario abandona una sala, todos pueden saber que la abandonó. Con esta capacidad es posible crear una aplicación distribuida en la que se comparta información entre los diferentes usuarios.

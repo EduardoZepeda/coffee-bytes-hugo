@@ -4,6 +4,8 @@ date: "2019-10-16"
 categories: 
   - "javascript"
 coverImage: "Desestructuracion_objetos_javascript.jpg"
+keywords:
+  - javascript
 ---
 
 Para aquellos como yo, cuyo primer lenguage no tuvo la suerte (o desgracia) de ser javascript, la desestructuración puede llegar a tener tintes esotéricos. En esta entrada voy a tratar de explicar de una manera sencilla la desestructuración de objetos en javascript. La destructuración es un proceso que, a diferencia de lo que se cree, es bastante simple en realidad y, además, puede mejorar bastante la legibilidad del código.

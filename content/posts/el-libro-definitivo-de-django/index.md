@@ -4,6 +4,12 @@ date: "2020-04-01"
 categories: 
   - "django"
 coverImage: "DSC_3822.jpg"
+keywords:
+  - django
+  - python
+  - libros
+  - opinion
+  - reseña
 ---
 
 Django es **mi framework de desarrollo web favorito**, es maduro, su documentación y su comunidad son excelentes. Con Django puedes pasar de una idea a un prototipo funcional en muy poco tiempo y sin escribir casi código. Aprendí gran parte de lo que sé respecto a este framework hace años, leyendo y practicando el contenido de un libro llamado **Definitive Guide to Django: Web Development Done Right** de los autores [Adrian Holovaty](http://www.holovaty.com/) , [Jacob Kaplan-Moss](https://jacobian.org/) (co-creadores de Django) y traducido impecablemente al español por Saul García bajo el título de La guía definitiva de Django: Desarrolla aplicaciones web de forma rápida y sencilla.

@@ -4,6 +4,8 @@ date: "2019-05-08"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "comandos_GNU_Linux_1.jpg"
+keywords:
+  - linux
 ---
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.

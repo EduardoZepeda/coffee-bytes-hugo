@@ -4,6 +4,9 @@ date: "2020-09-10"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "Convierte-a-webp.jpg"
+keywords:
+  - linux
+  - frontend
 ---
 
 Hace un par de semanas quería convertir las imágenes de mi ecommerce de jpg a webp. Normalmente para modificar imágenes en GNU/Linux uso GIMP o imageMagick, pero ninguno de estos dos tienen soporte nativo para webp, o si lo tienen soy tan despistado que no me he dado cuenta.

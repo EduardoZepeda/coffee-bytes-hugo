@@ -4,6 +4,12 @@ date: "2019-06-26"
 categories: 
   - "opiniones"
 coverImage: "porque_decidi_usar_wordpress.jpg"
+keywords:
+  - "wordpress"
+  - "opinion"
+  - "hugo"
+  - "react"
+  - "frontity"
 ---
 
 El otro día una persona me preguntó que porqué use Wordpress para mi blog si podía desarrollar un sitio web por mi mismo. En [la entrada donde explico como aprendí a programar](https://coffeebytes.dev/hola-mundo/) incluso hablé brevemente de mi pésima experiencia con PHP. Entonces, ¿por qué elegí Wordpress en lugar de desarrollar mi propio blog desde cero? La respuesta a esto es simplemente que, **para este blog, quiero escribir texto, no código**. No quiero que este blog se convierta en un proyecto a desarrollar a la par de crear entradas. Quiero algo que funcione con un par de clicks y olvidarme de ello por completo. No hay que perder de vista que el objetivo de un blog personal es escribir en él constantemente, no programarlo constantemente. Es triste ver tantos blogs de desarrolladores usando las tecnologías más nuevas y súper actualizados, pero con muy pocas entradas.
@@ -34,8 +40,10 @@ Por otro lado, le doy la razón totalmente a los desarrolladores cuando dicen qu
 
 En resumen, yo usaría wordpress solo para blogs personales. Sin embargo evitaría usar wordpress para galerías de fotos, ecommerce o cualquier otro tipo de página web que requiera un poco más de personalización.
 
-## Edición
+## Actualización
 
-Edición 18-Feb-2021: Decidí combinar lo mejor de los dos mundos; un frontend escrito usando las nuevas tecnologías de Javascript y un backend robusto en wordpress. Para hacerlo usé [Frontity, un framework de React para Wordpress](https://frontity.org/). La navegación es mucho más fluida y puedo personalizarlo a mi gusto. Y, dado que el backend de mi blog sigue siendo wordpress, aún puedo usar Yoast SEO y el editor de entradas de wordpress, desde el cual estoy escribiendo esta entrada.
+Actualización 18-Feb-2021: Decidí combinar lo mejor de los dos mundos; un frontend escrito usando las nuevas tecnologías de Javascript y un backend robusto en wordpress. Para hacerlo usé [Frontity, un framework de React para Wordpress](https://frontity.org/). La navegación es mucho más fluida y puedo personalizarlo a mi gusto. Y, dado que el backend de mi blog sigue siendo wordpress, aún puedo usar Yoast SEO y el editor de entradas de wordpress, desde el cual estoy escribiendo esta entrada.
+
+Actualización de Abr-2022: Me cambié a Hugo, un SSG escrito casi por completo en Go, genera sitios estáticos en apróximadamente 1ms por página, utiliza Markdown para generar las páginas y cuenta con muchísimas características incorporadas. ¡La verdad me encanta!. Hugo me permite olvidarme de múltiples problemas de seguridad, y mantener actualizadas las versiones de paquetes en npm y demás. Llevo poco tiempo usándolo pero me ha encantado, lo único malo es la curva de aprendizaje. Pero no te confundas, aún considero que Wordpress es la mejor opción para la mayoría de los blogueros, Hugo requiere demasiado conocimiento técnico como para serle útil a todo el mundo.
 
 El código está en mi github, por lo que si tienes curiosidad puedes revisarlo cuando gustes.

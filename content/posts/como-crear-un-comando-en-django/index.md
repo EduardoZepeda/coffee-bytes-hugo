@@ -4,6 +4,9 @@ date: "2021-01-21"
 categories: 
   - "django"
 coverImage: "Como-crear-comando-django.jpg"
+keywords:
+  - django
+  - python
 ---
 
 Has usado Django antes ¿no? Entonces, ya usaste algún comando de Django, pudo haber sido makemigrations, migrate, startproject, startapp algún otro. Pero, ¿alguna vez has creado alguno? Quizás no. Sigue leyendo para aprender como.

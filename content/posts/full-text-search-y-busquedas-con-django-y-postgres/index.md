@@ -4,6 +4,11 @@ date: "2021-05-06"
 categories: 
   - "django"
 coverImage: "Full-text-search-django.jpg"
+keywords:
+  - django
+  - postgres
+  - orm
+  - rendimiento
 ---
 
 Algunas veces cuando tecleamos nos equivocamos en una letra, podemos repetirla, omitirla o cambiarla por otra. Ese error puede arrojar una serie de resultados diferentes en una búsqueda web, o incluso carecer de resultados. Quizás para un blog no represente una amenaza, pero para un ecommerce puede significar la perdida de una venta, y para aquellas tiendas con un tráfico gigantesco, una búsqueda de texto exitosa, ya sea usando full text search o algo más complejo, en Django u otro framework, puede representar la diferencia entre perdidas o ganancias enormes.

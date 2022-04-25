@@ -4,6 +4,8 @@ date: "2019-05-13"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "comandos_GNU_Linux_2.jpg"
+keywords:
+  - linux
 ---
 
 Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/).

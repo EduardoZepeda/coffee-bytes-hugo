@@ -4,6 +4,9 @@ date: "2019-03-31"
 categories: 
   - "opiniones"
 coverImage: "Figura-de-miku-hatsune-de-vinsky2002.jpg"
+keywords:
+  - opinion
+  - internet
 ---
 
 La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.

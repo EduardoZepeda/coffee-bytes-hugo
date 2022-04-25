@@ -4,6 +4,9 @@ date: "2019-09-16"
 categories: 
   - "opiniones"
 coverImage: "el_4chan_sobre_programacion.jpg"
+keywords:
+  - opinion
+  - internet
 ---
 
 Muchas de las personas que pasan gran parte de su día en contacto con internet, ya sea por placer o por trabajo, han llegado eventualmente a terminar en un image board, generalmente en el más popular que existe entre personas angloparlantes: [4chan.](https://4chan.org)

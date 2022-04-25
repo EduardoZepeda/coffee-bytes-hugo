@@ -4,6 +4,10 @@ date: "2022-03-16"
 categories: 
   - "django"
 coverImage: "pin-961667.jpg"
+coverImageCredits: "Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667"
+keywords:
+  - "django"
+  - "python"
 ---
 
 En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios que ya incluye Django.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)

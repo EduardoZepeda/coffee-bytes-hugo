@@ -4,6 +4,8 @@ date: "2021-04-17"
 categories: 
   - "django"
 coverImage: "Permisos-en-django.jpg"
+keywords:
+  - linux
 ---
 
 La primera vez que me enteré de que Django tenía un sistema de permisos, hace ya muchos años, me pareció algo bastante esotérico, sin mucha utilidad y fácil de replicar, que equivocado estaba en aquel entonces. Después me di cuenta de que el sistema de permisos integrado era una maravilla y ahorraba muchísimo código, además de ser bastante sólido y puesto a prueba por algunas de las empresas más grandes del mundo.

@@ -4,6 +4,11 @@ date: "2020-05-16"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "clean_code.jpg"
+keywords:
+  - libros
+  - reseñas
+  - opinion
+  - buenas practicas
 ---
 
 Hay dos tipos de programadores, los que odian Clean Code y los que lo aman. Este libro desata discusiones acaloradas en internet; unos lo consideran una biblia, otros lo consideran un manual desactualizado escrito por un autoproclamado dictador pedante sobre como escribir código? ¿Y yo? Pues para ser sincero un poco de ambos. Esta entrada es mi humilde reseña del libro Clean Code de Robert C. Martín, el **creador del acrónimo SOLID.**

@@ -4,6 +4,8 @@ date: "2021-11-23"
 categories: 
   - "golang"
 coverImage: "golanga.jpg"
+keywords:
+  - golang
 ---
 
 Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de python vs go, donde también comparo lo bueno, lo malo y lo feo de este lenguaje.

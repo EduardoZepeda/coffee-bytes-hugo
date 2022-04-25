@@ -4,6 +4,9 @@ date: "2021-03-02"
 categories: 
   - "react"
 coverImage: "LibreriasDeReact.jpg"
+keywords:
+  - javascript
+  - react
 ---
 
 Después de varias semanas publicando sobre Django escribí una entrada corta de React, sobre librerías, porque no solo de Python vive el hombre. Estás son algunas de las librerías que considero más útiles de React. Por razones obvias están excluidas React-router, Redux y otras demasiado conocidas. Así como también algunos Frameworks de React tales como Gatsby, Nextjs, Frontity y otros.

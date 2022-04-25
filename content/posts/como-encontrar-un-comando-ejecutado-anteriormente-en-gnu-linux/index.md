@@ -4,6 +4,8 @@ date: "2019-09-01"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "como_recuperar_comando_gnu_linux.jpg"
+keywords:
+  - linux
 ---
 
 A veces ejecutamos comandos que resuelven una tarea muy específica en nuestro sistema. Puede ser que hayamos hecho una búsqueda de un archivo usando expresiones regulares o quizás accedimos a un servidor por medio de ssh y ya no recordamos la dirección IP. Volver a crear la expresión regular desde cero puede consumir mucho tiempo y quizás volver a encontrar la IP también puede consumir más tiempo que si simplemente pudiéramos recuperar el comando. Podemos encontrar un comando ejecutado anteriormente en GNU/Linux de manera sencilla, aquí te expongo como.

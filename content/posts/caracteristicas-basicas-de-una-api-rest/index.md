@@ -5,6 +5,12 @@ categories:
   - "arquitectura-de-software"
   - "opiniones"
 coverImage: "CaracteristicasBasicasDeUnaAPIREST.jpg"
+coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
+keywords:
+  - REST
+  - arquitectura de software
+  - API
+  - buenas practicas
 ---
 
 Esta publicación es una guia muy corta de consejos prácticos sobre diseño de APIs REST, no profundizo demasiado en la teoría. Encima, puedo sobre simplificar muchos conceptos en aras de mantener el texto lo más corto y sencillo posible.

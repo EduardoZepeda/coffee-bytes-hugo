@@ -4,6 +4,10 @@ date: "2020-09-29"
 categories: 
   - "docker"
 coverImage: "Fotografia-contenedores-Kaique-Rocha.jpg"
+keywords:
+  - "docker"
+  - "docker compose"
+  - "opinion"
 ---
 
 Si llevas usando computadoras desde hace tiempo, probablemente te encuentres más familiarizado con una máquina virtual que con un contenedor, ¿no es así? Docker resuelve el mismo problema que las máquinas virtuales pero de una manera diferente a estas últimas. Pero vamos por partes, empecemos por responder: ¿qué es Docker?

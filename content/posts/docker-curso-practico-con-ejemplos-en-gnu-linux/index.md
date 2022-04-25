@@ -4,6 +4,8 @@ date: "2020-10-07"
 categories: 
   - "docker"
 coverImage: "DockerCursoPractico.jpg"
+keywords:
+  - docker
 ---
 
 Si te leíste [la entrada anterior donde explico para que sirve Docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.

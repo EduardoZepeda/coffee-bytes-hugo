@@ -4,6 +4,9 @@ date: "2020-02-01"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "programa_tareas_periodicas_con_cron.jpg"
+keywords:
+  - linux
+  - crontab
 ---
 
 Muchas veces queremos ejecutar un script o un comando cada cierto tiempo, por ejemplo cuando queremos realizar backups periódicos de una base de datos, enviar a tus suscriptores un correo electrónico de recordatorio, o quizás eliminar archivos de cache cada cierta cantidad de tiempo. Cron, en conjunción con Crontab te permiten correr una tarea cada cierto tiempo.

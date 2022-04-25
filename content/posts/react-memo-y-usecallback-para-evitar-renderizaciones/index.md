@@ -4,6 +4,10 @@ date: "2021-08-10"
 categories: 
   - "react"
 coverImage: "useCallbackyMemo.jpg"
+keywords:
+  - "javascript"
+  - "react"
+  - "rendimiento"
 ---
 
 Podemos usar react memo y useCallback para evitar que un componente se renderice, inútilmente, múltiples veces por medio de la memoización. Si no sabes que es memoización o no entiendes para que sirven los componentes de react, useCallback y memo, tengo [una entrada donde explico useCallback, useMemo y memo, para que sirven, así como sus diferencias y similitudes.](https://coffeebytes.dev/react-usecallback-usememo-y-memo-diferencias-y-usos/)

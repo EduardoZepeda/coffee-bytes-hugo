@@ -4,6 +4,9 @@ date: "2021-03-30"
 categories: 
   - "django"
 coverImage: "como-usar-django-para-subir-multiples-imagenes.jpg"
+keywords:
+  - python
+  - django
 ---
 
 Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y si no queremos subir una sino múltiples imágenes?

@@ -4,6 +4,10 @@ date: "2019-06-18"
 categories: 
   - "python"
 coverImage: "porque_deberias_usar_tox.jpg"
+keywords:
+  - "tox"
+  - "python"
+  - "testing"
 ---
 
 Si crees que el testeo es una perdida de tiempo visita [mi entrada donde intento convencerte de las razones por las cuales el testeo es importante](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/), en ella hablé brevemente sobre las pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo. Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.

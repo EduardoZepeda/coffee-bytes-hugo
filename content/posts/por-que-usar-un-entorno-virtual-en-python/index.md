@@ -4,6 +4,9 @@ date: "2019-07-10"
 categories: 
   - "python"
 coverImage: "porque_deberias_usar_un_entorno_virtual.jpg"
+keywords:
+  - "python"
+  - "opinion"
 ---
 
 Los entornos virtuales en python son una herramienta que se usa sí o sí en cada uno de los proyectos. Son tan importantes que forman parte de la librería estándar de Python, pero, ¿qué hacen? Deja que te cuente para que sirve un entorno virtual en python con un ejemplo bastante simple.

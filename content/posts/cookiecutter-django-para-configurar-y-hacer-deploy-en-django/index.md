@@ -5,6 +5,15 @@ categories:
   - "django"
   - "docker"
 coverImage: "tutorial-cookiecutter-django-docker-compose.jpg"
+keywords:
+  - docker
+  - django
+  - python
+  - docker compose
+  - celery
+  - drf
+  - aws
+  - deploy
 ---
 
 Escribí las entradas anteriores como una introducción para el tema de esta semana. En esta entrada voy a explicar sobre una herramienta genial para Django llamada cookiecutter-django, que traducido significa "cortador de galletas django". Esta herramienta para django permite generar proyectos que integren docker, celery, mailhog, aws, gcp, y muchas otras herramientas, de una manera automática, con solo contestar una serie de preguntas.

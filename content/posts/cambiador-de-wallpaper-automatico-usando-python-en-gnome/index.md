@@ -4,6 +4,10 @@ date: "2020-02-15"
 categories: 
   - "python"
 coverImage: "cambiador_de_wallpaper_automatico_gnome.jpg"
+keywords:
+  - python
+  - gnome
+  - linux
 ---
 
 En esta entrada vamos a crear un cambiador de wallpaper automático, aleatorio y minimalista para GNU/Linux usando Python. Sin funciones extras, súper ligero y totalmente casero, su única función será seleccionar una imagen aleatoriamente y fijarla como wallpaper. Explicaré la función de cada linea en el código.

@@ -4,6 +4,13 @@ date: "2021-09-07"
 categories: 
   - "django"
 coverImage: "CacheConMemcachedYPymemcache.jpg"
+keywords:
+  - python
+  - django
+  - cache
+  - REST
+  - rendimiento
+  - API
 ---
 
 Para usar la caché en django, basta con seguir tres sencillos pasos:

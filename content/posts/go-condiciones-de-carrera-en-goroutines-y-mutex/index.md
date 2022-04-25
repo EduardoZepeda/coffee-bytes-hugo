@@ -4,6 +4,8 @@ date: "2022-02-02"
 categories: 
   - "golang"
 coverImage: "go-mutex-race-conditions.jpg"
+keywords:
+  - golang
 ---
 
 En las entradas pasadas te hable un poco sobre las [goroutines, los bloqueos o deadlocks y los channels](https://coffeebytes.dev/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). Pero hay otro tema bastante interesante sobre los goroutines que resalta cuando usamos asincronía y hay muchas funciones accediendo a los datos al mismo tiempo y. Múltiples funciones leyendo y escribiendo la misma información puede llevar a situaciones caóticas donde cosas muy extrañas pueden suceder.

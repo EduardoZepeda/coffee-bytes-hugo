@@ -5,6 +5,9 @@ categories:
   - "django"
   - "htmx"
 coverImage: "Djangohtmx.jpg"
+keywords:
+  - django
+  - htmx
 ---
 
 El otro día estaba probando una librería llamada htmx, que promete volver mucho más sencilla la creación de una web, sí, otra librería, pero con la diferencia de que esta no necesita que escribas Javascript (JS) y que, además, combina bastante bien con Django. Htmx basa todo su funcionamiento en escribir atributos en tus etiquetas HTML, que se encargan de abstraer todo el JS que corre tras bambalinas. El resultado es código formado únicamente por etiquetas HTML y sus atributos, sin código JS (bueno, quizá solo un poco). No, no tienes que abandonar todo el JS, tranquilo, también puedes combinar htmx con tus librerías favoritas y código vanilla JS.

@@ -4,6 +4,8 @@ date: "2021-12-14"
 categories: 
   - "golang"
 coverImage: "ArrayslicesYArrays.jpg"
+keywords:
+  - golang
 ---
 
 En go o golang los arrays, los slices y los maps son estructuras para manejar colecciones de datos. En esta entrada voy a hablar de los dos primeros: array y slices.

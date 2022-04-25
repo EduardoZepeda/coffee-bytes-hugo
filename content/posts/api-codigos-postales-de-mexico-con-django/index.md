@@ -4,6 +4,12 @@ date: "2021-07-22"
 categories: 
   - "django"
 coverImage: "CodigosPostalesMexicoDjango.jpg"
+keywords:
+  - django
+  - api
+  - python
+  - códigos postales
+  - API
 ---
 
 ¿Necesitas obtener los datos asociados a un código postal de México para tu aplicación de Django? Tengo una pequeña librería llamada **django-postalcodes-mexico** que descarga los códigos postales de SEPOMEX y crea un API endpoint que te permite consultar un código postal de México y recibir las colonias que pertenecen a ese código postal, así como su estado y municipio.

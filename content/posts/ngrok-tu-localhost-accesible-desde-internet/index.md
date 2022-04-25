@@ -4,6 +4,8 @@ date: "2021-04-29"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "ngrok-coffee-bytes.jpg"
+keywords:
+  - linux
 ---
 
 Me topé con Ngrok intentando redirigir la notificación de un pago de Mercado Pago a mi localhost, para hacer pruebas. Funcionaba más o menos así. Mercado pago te otorgaba una dirección url a donde redigir al comprador para efectuara el pago. Una vez terminado el pago, Mercado Pago hacía una petición HTTP a cualquier dirección url que tú le indicaras y mandaba por POST los resultados del intento de pago. El problema es que mercado libre no manda notificaciones a localhost.

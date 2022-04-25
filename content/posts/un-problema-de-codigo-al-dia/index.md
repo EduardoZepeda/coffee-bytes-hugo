@@ -4,6 +4,10 @@ date: "2019-06-04"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "un_problema_de_codigo_al_dia.jpg"
+keywords:
+  - "internet"
+  - "algoritmos"
+  - "bigo"
 ---
 
 El otro día, [uno de los youtubers que sigo](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) recomendó una página para recibir algoritmos por correo electrónico ¿Qué te parecería recibir un problema de algoritmos al día en tu correo electrónico? Son 7 problemas por semana y 365 problemas por año. Imagina cuanto mejoraría tu habilidad de resolución de problemas y capacidad analítica. ¿Aún no es suficiente? ¿qué tal si te digo que esos acertijos de código son preguntas frecuentes en entrevistas laborales de empresas top de tecnología de talla mundial?

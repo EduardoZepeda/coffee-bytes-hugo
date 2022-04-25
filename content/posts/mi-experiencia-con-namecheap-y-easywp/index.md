@@ -5,6 +5,10 @@ categories:
   - "gnu-linux-y-devops"
   - "opiniones"
 coverImage: "mi_experiencia_con_easy_wp.jpg"
+keywords:
+  - easywp
+  - namecheap
+  - opinion
 ---
 
 Hace unas semanas mi SO decidió empezar un blog sobre cafeterías en Wordpress. Tras una corta plática sobre las ventajas y desventajas de las plataformas de registro más populares y resistirse a mi insistentes recomendaciones de usar [DigitalOcean](https://m.do.co/c/a22240ebb8e7) o [AWS](https://aws.amazon.com/), se dirigió a registrar su dominio en namecheap. Pasados unos minutos de iniciado el proceso de registro en namecheap un banner capturó su atención: [EasyWP](https://www.easywp.com/). En las siguientes lineas te cuento mi experiencia usando namecheap con EasyWP

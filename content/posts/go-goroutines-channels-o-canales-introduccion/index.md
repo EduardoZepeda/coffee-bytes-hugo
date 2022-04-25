@@ -4,6 +4,8 @@ date: "2022-01-19"
 categories: 
   - "golang"
 coverImage: "goroutines-y-concurrencia-en-go.jpg"
+keywords:
+  - golang
 ---
 
 Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.

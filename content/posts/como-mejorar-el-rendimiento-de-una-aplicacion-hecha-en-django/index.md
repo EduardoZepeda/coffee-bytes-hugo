@@ -5,6 +5,11 @@ categories:
   - "arquitectura-de-software"
   - "django"
 coverImage: "Mejora-el-rendimiento-de-tuapp-django.jpg"
+keywords:
+  - rendimiento
+  - django
+  - python
+  - opinion
 ---
 
 ¿Tu aplicación hecha en Django o la de tu compañia anda lenta? Lo anterior puede tener múltiples causas: un servidor con hardware insuficiente, un paquete de hosting que necesite un upgrade para procesar mayor tráfico, un servidor mal configurado (en caso de que sea nginx, visita mi entrada donde explico [como configurar nginx para un mayor rendimiento)](https://coffeebytes.dev/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/), o simplemente una aplicación no optimizada para dar el máximo rendimiento en django. En esta entrada te explico algunos cambios que puedes implementar, en una aplicación de Django, para mejorar su rendimiento.

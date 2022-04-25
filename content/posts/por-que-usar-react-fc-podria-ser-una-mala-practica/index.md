@@ -5,6 +5,11 @@ categories:
   - "opiniones"
   - "typescript"
 coverImage: "react-fc-mala-practica.jpg"
+keywords:
+  - "react"
+  - "typescript"
+  - "javascript"
+  - "opinion"
 ---
 
 Cuando usamos Typescript con React y queremos [pasarle un _children_ como prop a alguno de nuestros componentes](https://coffeebytes.dev/types-para-react-components-con-children/), necesitamos indicar el type. Generalmente se suele usar el type _React.FC_, el cual es el nombre abreviado de _React.FunctionComponent_. Con esto el mensaje de Typescript que nos advierte de un children con tipo any desaparecerá.

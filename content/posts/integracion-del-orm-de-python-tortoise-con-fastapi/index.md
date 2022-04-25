@@ -4,6 +4,11 @@ date: "2021-09-21"
 categories: 
   - "fastapi"
 coverImage: "IntegrandoFastApiYTortoiseORM.jpg"
+keywords:
+  - fastapi
+  - orm
+  - tortoise
+  - python
 ---
 
 Una de las cosas que más me gustan de Django es su ORM; [una de las razones por las que este framework es tan popular](https://coffeebytes.dev/por-que-deberias-usar-django-framework/). Por otro lado FastAPI no cuenta con un ORM y se centra únicamente en servir endpoints, mostrándose agnóstico sobre la base de datos. Hay bastantes opciones de ORM para python: django-alchemy, peewee, ponyORM, tortoise. Este último, además de ser asíncrono, está inspirado en el ORM de django, por lo que su sintaxis es bastante similar, incluso muchas funciones de tortoise comparten nombre con su contraparte de Django, por lo que los usuarios que usan el ORM de Django van a ahorrarse mucho tiempo aprendiendo las funciones de tortoise.

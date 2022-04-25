@@ -4,6 +4,10 @@ date: "2021-02-16"
 categories: 
   - "django"
 coverImage: "ContentTypeDjango2.jpg"
+keywords:
+  - "django"
+  - "python"
+  - "orm"
 ---
 
 ¿Sabías que Django lleva un registro de cada uno de los modelos que creas para tu proyecto en un modelo llamado _ContentType_? Sigue leyendo para aprender al respecto.

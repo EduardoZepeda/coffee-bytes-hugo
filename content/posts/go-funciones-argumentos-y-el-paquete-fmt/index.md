@@ -4,6 +4,8 @@ date: "2021-11-30"
 categories: 
   - "golang"
 coverImage: "GoFunciones.jpg"
+keywords:
+  - golang
 ---
 
 Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.

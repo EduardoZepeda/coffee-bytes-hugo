@@ -4,6 +4,9 @@ date: "2020-11-28"
 categories: 
   - "django"
 coverImage: "django_y_redis_con_mejor_diseno.jpg"
+keywords:
+  - django
+  - redis
 ---
 
 Estás navegando en un ecommerce, un producto llama tu atención y haces click para verlo, no te convence. Decides ver otras opciones, haces click en un nuevo producto y, cuando haces scroll al fondo de la página, la página te muestra el primer producto que viste bajo la leyenda "Vistos recientemente". Tú puedes hacer lo mismo con django y redis.

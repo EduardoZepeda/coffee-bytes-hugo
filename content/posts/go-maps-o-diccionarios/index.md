@@ -4,6 +4,8 @@ date: "2021-12-21"
 categories: 
   - "golang"
 coverImage: "go-maps-o-diccionarios.jpg"
+keywords:
+  - golang
 ---
 
 En el lenguaje de programación go, un map o hash table es el equivalente de un diccionario; poseen una llave o key que se relaciona con un valor o value. La llave y el valor pueden ser de diferentes tipos de datos, pero todas las llaves deben ser de un solo tipo y todos los valores deben ser del mismo tipo.

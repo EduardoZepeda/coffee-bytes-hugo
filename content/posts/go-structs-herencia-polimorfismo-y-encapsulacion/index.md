@@ -4,6 +4,9 @@ date: "2022-01-04"
 categories: 
   - "golang"
 coverImage: "Go-structs.jpg"
+keywords:
+  - golang
+  - oop
 ---
 
 Como ya te mencioné en la [introducción al lenguaje de programación Golang o Go](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), este lenguaje no tiene una palabra reservada para tratar con clases, sino que usa structs para emular características como herencia, polimorfismo, encapsulación y otras propiedades de las clases que probablemente hayas usado en otros lenguajes de programación.

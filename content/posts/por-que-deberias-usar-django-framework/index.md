@@ -5,6 +5,11 @@ categories:
   - "django"
   - "opiniones"
 coverImage: "Django-usar.jpg"
+keywords:
+  - "drf"
+  - "django"
+  - "python"
+  - "opinion"
 ---
 
 ¿Por qué usar Django en un mundo donde todo es Javascript? ¿De verdad vale la pena aprender un Framework de Python en un ecosistema que se empecina en Frameworks escritos en Javascript? Pues yo creo que sí y a continuación te expongo algunas de las razones por las que deberías usar Django. Y, para no perder objetividad, te hablaré tanto de las ventajas, como de las desventajas; ya sabes que ninguna solución es perfecta.

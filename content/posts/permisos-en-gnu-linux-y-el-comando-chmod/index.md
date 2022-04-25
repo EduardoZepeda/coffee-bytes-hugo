@@ -4,6 +4,8 @@ date: "2019-05-29"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "permisos_gnu_linux.jpg"
+keywords:
+  - linux
 ---
 
 La [entrada anterior](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/) fue la tercera parte sobre la serie de los comandos más comunes de GNU/Linux. Para finalizar la entrada escribí acerca de un comando llamado chmod, que sirve para modificar los permisos de un archivo. Este comando chmod es uno de los comandos un poco más complejos de GNU/Linux, no por su variedad de opciones, sino por los conocimientos previos que se requieren para poder usarlo correctamente.

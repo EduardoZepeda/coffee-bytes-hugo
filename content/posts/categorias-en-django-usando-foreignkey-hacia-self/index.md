@@ -4,6 +4,11 @@ date: "2022-03-30"
 categories: 
   - "django"
 coverImage: "DjangoCategoriasYSubcategorias.jpg"
+coverImageCredits: "Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895"
+keywords:
+  - django
+  - python
+  - orm
 ---
 
 La agrupación por categorías es bastante recurrente en aplicaciones web, desde películas, cursos o cualquier otro recurso que presente una relación jerárquica hacía otro objeto. En Django existen diferentes maneras de modelar estas relaciones. Probablemente, la primera que se te vendrá a la mente será crear un objeto _categoria_, y luego relacionarlo por medio de una _ForeignKey_ con una _subcategoria_.

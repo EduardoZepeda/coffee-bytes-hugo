@@ -4,6 +4,10 @@ date: "2021-10-05"
 categories: 
   - "javascript"
 coverImage: "ReduceElImpactoFb-ChatPlugin.jpg"
+keywords:
+  - "rendimiento"
+  - "javascript"
+  - "html"
 ---
 
 El facebook chat plugin te permite agregar un botón página que se conecta con el chat de una fanpage en facebook. Pero, como ya sabes, facebook es monopólico y la instalación por defecto carga primero el plugin, volviendo tu sitio web más lento y afectando los indicadores de web vitals de las páginas. Hay ciertas maneras de mitigar esto.
