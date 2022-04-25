@@ -106,12 +106,12 @@ En el caso anterior nosotros tenemos una notación O(n + n2). Un paso al princip
 
 La notación big O nos muestra que dos algoritmos para resolver un mismo problema se pueden comportar de manera diferente. Es importante evaluar cual es el algoritmo más adecuado para cada situación.
 
-<iframe src="https://www.youtube.com/embed/ZZuD6iUe3Pc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315" frameborder="0"></iframe>
+{{< youtube ZZuD6iUe3Pc >}}
 
 Sobre algoritmos hay muchísimo de que hablar, esto es meramente una pincelada, si quieres ahondar en este tema te recomiendo un libro muy interesante llamado **_The Algorithm Design Manual_** escrito por Steven S. Skiena, donde se trata el tema de algoritmos y también notación big O con mucha más profundidad que en esta publicación. Te lo recomiendo muchísimo, es un libro que debería formar parte de tu acervo de consulta sí o sí. Puedes adquirirlo en Amazon u otras tiendas en linea.
 
 Si buscas algo más visual para introducirte en el mundo de los algoritmos mira este excelente documental de la BBC:
 
-<iframe src="https://www.youtube.com/embed/Q9HjeFD62Uk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315" frameborder="0"></iframe>
+{{< youtube Q9HjeFD62Uk >}}
 
 Si quieres practicar tus capacidades de resolución de problemas usando algoritmos tengo una entrada al respecto [entra aquí para saber más.](https://coffeebytes.dev/un-problema-de-algoritmos-al-dia/)

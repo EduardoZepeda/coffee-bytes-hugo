@@ -10,7 +10,7 @@ keywords:
   - "bigo"
 ---
 
-El otro día, [uno de los youtubers que sigo](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) recomendó una página para recibir algoritmos por correo electrónico ¿Qué te parecería recibir un problema de algoritmos al día en tu correo electrónico? Son 7 problemas por semana y 365 problemas por año. Imagina cuanto mejoraría tu habilidad de resolución de problemas y capacidad analítica. ¿Aún no es suficiente? ¿qué tal si te digo que esos acertijos de código son preguntas frecuentes en entrevistas laborales de empresas top de tecnología de talla mundial?
+El otro día, uno de los youtubers que sigo recomendó una página para recibir algoritmos por correo electrónico ¿Qué te parecería recibir un problema de algoritmos al día en tu correo electrónico? Son 7 problemas por semana y 365 problemas por año. Imagina cuanto mejoraría tu habilidad de resolución de problemas y capacidad analítica. ¿Aún no es suficiente? ¿qué tal si te digo que esos acertijos de código son preguntas frecuentes en entrevistas laborales de empresas top de tecnología de talla mundial?
 
 ## Un día, un reto
 
