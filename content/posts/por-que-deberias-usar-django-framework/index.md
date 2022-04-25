@@ -90,7 +90,7 @@ Solo por nombrar algunos:
 - Django-storage (AWS storage)
 - Django-braces (Funciones comunes)
 
-Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la creación de una API, permisos y [throttling](https://coffeebytes.dev/throttling-en-nginx/), una tarea mucho más corta** que en otros lenguajes. La autenticación con DRF también es bastante sencilla usando los paquetes anteriores. La librería Graphene también es destacable, permite implementar graphql en Django con pocas lineas de código.
+Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/), el manejo de permisos y [throttling](https://coffeebytes.dev/throttling-en-nginx/), una tarea simple**, comparada en otros lenguajes. La autenticación con DRF también es bastante sencilla usando los paquetes anteriores. La librería Graphene también es destacable, permite implementar graphql en Django con pocas lineas de código.
 
 Otro paquete bastante útil y que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](https://coffeebytes.dev/django-channels-consumers-scope-y-eventos/)
 
@@ -116,7 +116,7 @@ Django es un Framework antiguo, con todo lo que se necesita para desarrollar una
 
 La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frameworks de Javascript que evoluciona muy rápido.
 
-**Actualización**: Respecto al sistema de plantillas, este puede ser bastante útil si lo combinas con librerías como htmx. No considero que htmx sea lo suficientemente maduro para que lo utilices en una aplicación de tamaño grande, al menos por el momento, sin embargo luce como una alternativa bastante prometedora que estaré monitoreando frecuentemente.
+**Actualización**: Respecto al sistema de plantillas, este puede ser bastante útil si lo combinas con librerías como htmx o turbolinks. 
 
 ### Es lento y maneja peticiones de una en una
 

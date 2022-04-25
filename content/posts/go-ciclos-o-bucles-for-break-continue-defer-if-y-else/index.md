@@ -16,7 +16,7 @@ Bien, pues go no existen más que los bucles for. Sí, no hay _while_ ni do _whi
 
 Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos](https://coffeebytes.dev/golang-compilacion-estructura-variables-y-tipos-de-datos/).
 
-Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de python vs go.
+Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/).
 
 ## If y else
 

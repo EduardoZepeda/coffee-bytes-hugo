@@ -84,10 +84,10 @@ googleAnalytics = "UA-112824408-2"
   toLower = true
   [[related.indices]]
     name = 'categories'
-    weight = 40
+    weight = 50
   [[related.indices]]
     name = 'keywords'
-    weight = 60
+    weight = 50
 
 
 [markup]

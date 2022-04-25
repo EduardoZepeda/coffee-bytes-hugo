@@ -11,7 +11,7 @@ keywords:
   - "opinion"
 ---
 
-Estos últimos meses he estado aprendiendo go. ¿Por qué? La primera razón es bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2022.
+Estos últimos meses he estado aprendiendo go. ¿Por qué? La primera razón es bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de [Python vs Go](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/), donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2022.
 
 Si quieres aprender go, date una vuelta por mi [tutorial de golang desde cero, donde te explico los detalles básicos de Go: sintaxis y tipos de datos.](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
 
