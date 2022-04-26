@@ -65,6 +65,18 @@ Captura de pantalla del código de Django version 4.0
 
 Pasemos al segundo método.
 
+### ¿Cómo cambiar el campo de usuario para autenticarse?
+
+Si observas el código anterior, hay una propiedad en mayúsculas llamada _USERNAME_FIELD_, ahí puedes especificar otro campo para que funcione como el usuario.
+Como no quieres que haya dos usuarios que se identifiquen de la misma manera ese campo tiene que ser marcado como único. 
+
+```python
+class UsuarioPersonalizado(AbstractUser):
+    identificador = models.CharField(max_length=40, unique=True)
+    # ...
+    USERNAME_FIELD = 'identificador'
+```
+
 ## Heredar de la subclase AbstractBaseUser
 
 Esta clase, como puedes apreciar en la imagen anterior, es la clase que se usa de base para crear el _AbstractUser_. Su funcionamiento es el mínimo y solo posee 3 campos:
