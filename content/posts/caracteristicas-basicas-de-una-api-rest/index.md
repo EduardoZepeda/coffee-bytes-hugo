@@ -28,7 +28,7 @@ Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la
 
 ## ¿Cómo debe ser una API REST?
 
-No todas las APIs son REST, numerosos desarrolladores usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones (RPC).
+No todas las APIs son REST, numerosos desarrolladores usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones (RPC), incluso compañias tan grandes como Twitter y Facebook no cumplen todas las características.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
