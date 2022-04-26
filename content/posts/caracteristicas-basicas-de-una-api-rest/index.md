@@ -1,5 +1,5 @@
 ---
-title: "Caracteristicas basicas de una API REST y recomendaciones"
+title: "Características básicas de una API REST y recomendaciones"
 url: "caracteristicas-basicas-de-una-api-rest"
 date: "2022-04-07"
 categories: 

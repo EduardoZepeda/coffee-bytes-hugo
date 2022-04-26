@@ -1,5 +1,5 @@
 ---
-title: "Conoce los comandos basicos de Docker Compose"
+title: "Conoce los comandos básicos de Docker Compose"
 date: "2020-10-14"
 categories: 
   - "docker"

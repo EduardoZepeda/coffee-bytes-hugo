@@ -1,5 +1,5 @@
 ---
-title: "¿Como hacer un switch en Python?"
+title: "¿Cómo hacer un switch en Python?"
 date: "2021-03-06"
 categories: 
   - "python"

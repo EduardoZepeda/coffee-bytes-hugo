@@ -1,5 +1,5 @@
 ---
-title: "5 librerias geniales de React que debes conocer"
+title: "5 librerías geniales de React que debes conocer"
 date: "2021-03-02"
 categories: 
   - "react"

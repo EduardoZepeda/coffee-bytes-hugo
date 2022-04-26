@@ -1,5 +1,5 @@
 ---
-title: "Full text search y busquedas con Django y Postgres"
+title: "Full text search y búsquedas con Django y Postgres"
 date: "2021-05-06"
 categories: 
   - "django"

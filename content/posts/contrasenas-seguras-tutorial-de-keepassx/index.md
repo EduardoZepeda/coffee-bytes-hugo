@@ -1,5 +1,5 @@
 ---
-title: "Contrasenas seguras, tutorial de keepassx"
+title: "Contraseñas seguras, tutorial de keepassx"
 date: "2020-07-15"
 categories: 
   - "gnu-linux-y-devops"

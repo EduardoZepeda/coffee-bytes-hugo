@@ -1,5 +1,5 @@
 ---
-title: "Libros que he leido y resenas"
+title: "Libros que he leído y reseñas"
 date: "2020-07-18"
 ---
 

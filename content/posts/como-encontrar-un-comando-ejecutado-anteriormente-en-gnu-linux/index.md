@@ -1,5 +1,5 @@
 ---
-title: "¿Como encontrar un comando ejecutado anteriormente en GNU Linux?"
+title: "¿Cómo encontrar un comando ejecutado anteriormente en GNU Linux?"
 date: "2019-09-01"
 categories: 
   - "gnu-linux-y-devops"

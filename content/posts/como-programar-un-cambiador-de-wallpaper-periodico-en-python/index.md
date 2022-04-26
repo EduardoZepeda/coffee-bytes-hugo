@@ -1,5 +1,5 @@
 ---
-title: "¿Como programar un cambiador de wallpaper automatico en Python?"
+title: "¿Cómo programar un cambiador de wallpaper automático en Python?"
 date: "2020-03-01"
 categories: 
   - "python"

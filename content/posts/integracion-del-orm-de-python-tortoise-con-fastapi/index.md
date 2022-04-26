@@ -1,5 +1,5 @@
 ---
-title: "Integracion del ORM de Python tortoise con FastAPI"
+title: "integración del ORM de Python tortoise con FastAPI"
 date: "2021-09-21"
 categories: 
   - "fastapi"

@@ -1,5 +1,5 @@
 ---
-title: "Aprender python desde cero Resena de Beginning Python"
+title: "Aprender python desde cero Reseña de Beginning Python"
 date: "2019-07-02"
 categories: 
   - "python"

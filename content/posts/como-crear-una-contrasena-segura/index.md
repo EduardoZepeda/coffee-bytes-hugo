@@ -1,5 +1,5 @@
 ---
-title: "¿Como crear una contrasena segura?"
+title: "¿Cómo crear una contrasena segura?"
 date: "2020-07-02"
 categories: 
   - "gnu-linux-y-devops"

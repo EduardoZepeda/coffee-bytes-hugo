@@ -1,5 +1,5 @@
 ---
-title: "Comandos de la terminal de GNU Linux que deberias conocer (segunda parte)"
+title: "Comandos de la terminal de GNU Linux que deberías conocer (segunda parte)"
 date: "2019-05-13"
 categories: 
   - "gnu-linux-y-devops"

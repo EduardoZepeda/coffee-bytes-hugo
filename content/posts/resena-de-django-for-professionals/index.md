@@ -1,5 +1,5 @@
 ---
-title: "Resena de Django for Professionals"
+title: "Reseña de Django for Professionals"
 date: "2020-04-15"
 categories: 
   - "django"

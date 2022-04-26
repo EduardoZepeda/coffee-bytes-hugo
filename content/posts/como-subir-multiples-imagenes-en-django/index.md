@@ -1,5 +1,5 @@
 ---
-title: "¿Como subir multiples imagenes en Django?"
+title: "¿Cómo subir múltiples imágenes en Django?"
 date: "2021-03-30"
 categories: 
   - "django"

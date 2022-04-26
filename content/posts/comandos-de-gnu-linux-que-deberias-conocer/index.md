@@ -1,5 +1,5 @@
 ---
-title: "Comandos de GNU Linux basicos que deberias conocer"
+title: "Comandos de GNU Linux básicos que deberías conocer"
 date: "2019-05-08"
 categories: 
   - "gnu-linux-y-devops"

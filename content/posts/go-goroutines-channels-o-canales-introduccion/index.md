@@ -1,5 +1,5 @@
 ---
-title: "Go: goroutines, channels o canales, introduccion"
+title: "Go: goroutines, channels o canales, introducción"
 date: "2022-01-19"
 categories: 
   - "golang"

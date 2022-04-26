@@ -1,5 +1,5 @@
 ---
-title: "Cron y Crontab programa tareas periodicas"
+title: "Cron y Crontab programa tareas periódicas"
 date: "2020-02-01"
 categories: 
   - "gnu-linux-y-devops"

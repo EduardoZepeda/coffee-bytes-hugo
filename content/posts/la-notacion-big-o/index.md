@@ -1,5 +1,5 @@
 ---
-title: "La notacion Big O"
+title: "La notación Big O"
 date: "2019-08-15"
 categories: 
   - "gnu-linux-y-devops"

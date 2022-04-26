@@ -1,5 +1,5 @@
 ---
-title: "¿Como convertir jpg a webp en GNU Linux?"
+title: "¿Cómo convertir jpg a webp en GNU Linux?"
 date: "2020-09-10"
 categories: 
   - "gnu-linux-y-devops"

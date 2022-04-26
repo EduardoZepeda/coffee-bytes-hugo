@@ -1,5 +1,5 @@
 ---
-title: "El django admin panel y su personalizacion"
+title: "El django admin panel y su personalización"
 date: "2021-09-14"
 categories: 
   - "django"

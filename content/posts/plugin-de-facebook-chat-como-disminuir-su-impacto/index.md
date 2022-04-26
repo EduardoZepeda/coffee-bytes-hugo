@@ -1,5 +1,5 @@
 ---
-title: "Plugin de facebook chat ¿como disminuir su impacto?"
+title: "Plugin de facebook chat ¿cómo disminuir su impacto?"
 date: "2021-10-05"
 categories: 
   - "javascript"

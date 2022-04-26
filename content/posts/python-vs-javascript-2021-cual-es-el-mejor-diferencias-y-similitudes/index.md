@@ -1,5 +1,5 @@
 ---
-title: "Python vs Javascript 2022 ¿Cual es el mejor?"
+title: "Python vs Javascript 2022 ¿cuál es el mejor?"
 date: "2020-12-10"
 categories: 
   - "javascript"

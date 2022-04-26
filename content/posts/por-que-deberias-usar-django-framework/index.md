@@ -1,5 +1,5 @@
 ---
-title: "¿Por que deberias usar Django Framework?"
+title: "¿Por qué deberías usar Django Framework?"
 date: "2021-03-24"
 categories: 
   - "django"

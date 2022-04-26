@@ -1,5 +1,5 @@
 ---
-title: "¿Como crear un comando en django?"
+title: "¿Cómo crear un comando en django?"
 date: "2021-01-21"
 categories: 
   - "django"

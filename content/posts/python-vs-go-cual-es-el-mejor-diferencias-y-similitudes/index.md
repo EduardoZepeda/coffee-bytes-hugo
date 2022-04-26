@@ -1,5 +1,5 @@
 ---
-title: "Python vs go 2022 ¿Cual es el mejor?"
+title: "Python vs go 2022 ¿cuál es el mejor?"
 date: "2021-11-02"
 categories: 
   - "golang"

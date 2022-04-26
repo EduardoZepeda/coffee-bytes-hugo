@@ -1,5 +1,5 @@
 ---
-title: "Comandos de Linux que deberias conocer (tercera parte)"
+title: "Comandos de Linux que deberías conocer (tercera parte)"
 date: "2019-05-21"
 categories: 
   - "gnu-linux-y-devops"

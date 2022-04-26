@@ -1,5 +1,5 @@
 ---
-title: "Patrones de diseno en Python, resena de Practical Python Design Patterns"
+title: "Patrones de diseno en Python, reseña de Practical Python Design Patterns"
 date: "2020-05-31"
 categories: 
   - "python"

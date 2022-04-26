@@ -1,5 +1,5 @@
 ---
-title: "search"
+title: "Búsqueda"
 date: "2021-07-22"
 ---
 

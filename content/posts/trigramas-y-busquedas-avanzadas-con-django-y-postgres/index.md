@@ -1,5 +1,5 @@
 ---
-title: "Trigramas y busquedas avanzadas con Django y Postgres"
+title: "Trigramas y búsquedas avanzadas con Django y Postgres"
 date: "2021-05-17"
 categories: 
   - "django"

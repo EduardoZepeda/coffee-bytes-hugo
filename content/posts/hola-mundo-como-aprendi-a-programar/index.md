@@ -1,5 +1,5 @@
 ---
-title: "Hello World, ¿como aprendi a programar?"
+title: "Hello World, ¿cómo aprendi a programar?"
 date: "2019-03-31"
 categories: 
   - "opiniones"

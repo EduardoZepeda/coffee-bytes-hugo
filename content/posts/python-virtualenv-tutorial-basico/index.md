@@ -1,5 +1,5 @@
 ---
-title: "Python virtualenv tutorial basico en linux"
+title: "Python virtualenv tutorial básico en linux"
 date: "2019-07-15"
 categories: 
   - "python"

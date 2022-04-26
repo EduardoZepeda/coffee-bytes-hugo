@@ -1,5 +1,5 @@
 ---
-title: "Tareas periodicas con Celery y Django"
+title: "Tareas periódicas con Celery y Django"
 date: "2021-08-31"
 categories: 
   - "django"

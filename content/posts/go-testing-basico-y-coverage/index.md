@@ -1,5 +1,5 @@
 ---
-title: "Go: testing basico y coverage"
+title: "Go: testing básico y coverage"
 date: "2022-02-09"
 categories: 
   - "golang"

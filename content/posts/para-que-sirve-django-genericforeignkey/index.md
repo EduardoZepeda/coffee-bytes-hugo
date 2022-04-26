@@ -1,5 +1,5 @@
 ---
-title: "¿Para que sirve Django genericForeignkey?"
+title: "¿Para qué sirve Django genericForeignkey?"
 date: "2021-02-22"
 categories: 
   - "django"

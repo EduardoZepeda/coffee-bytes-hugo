@@ -1,5 +1,5 @@
 ---
-title: "¿Por que deberias usar un entorno virtual en python?"
+title: "¿Por qué deberías usar un entorno virtual en python?"
 date: "2019-07-10"
 categories: 
   - "python"

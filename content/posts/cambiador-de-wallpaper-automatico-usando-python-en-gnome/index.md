@@ -1,5 +1,5 @@
 ---
-title: "¿Como crear un cambiador de wallpaper automatico usando Python en Gnome?"
+title: "¿Cómo crear un cambiador de wallpaper automático usando Python en Gnome?"
 date: "2020-02-15"
 categories: 
   - "python"
