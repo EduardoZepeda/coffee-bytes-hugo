@@ -92,4 +92,4 @@ state
 "Lima"
 ```
 
-En la [siguiente entrada](https://coffeebytes.dev/desestructuracion-con-valores-por-defecto-en-javascript/) hablaré sobre como asignar valores por defecto al desestructurar objetos.
+En la siguiente entrada hablaré sobre como [asignar valores por defecto al desestructurar objetos](https://coffeebytes.dev/desestructuracion-con-valores-por-defecto-en-javascript/).

@@ -290,4 +290,4 @@ ip
 
 El comando ip tiene muchas opciones que te sugiero que revises con calma, usa el comando man si quieres ahondar más en las funcionalidades.
 
-Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [entra en la siguiente entrada](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) para la segunda parte.
+Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) para la segunda parte.

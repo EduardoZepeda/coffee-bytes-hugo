@@ -10,7 +10,7 @@ keywords:
 
 La primera vez que me enteré de que Django tenía un sistema de permisos, hace ya muchos años, me pareció algo bastante esotérico, sin mucha utilidad y fácil de replicar, que equivocado estaba en aquel entonces. Después me di cuenta de que el sistema de permisos integrado era una maravilla y ahorraba muchísimo código, además de ser bastante sólido y puesto a prueba por algunas de las empresas más grandes del mundo.
 
-Si aún no te decides a usar Django y estás investigando sus características revisa [mi entrada sobre las ventajas y desventajas del framework de desarrollo web Django.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+Si aún no te decides a usar Django y estás investigando sus características revisa mi entrada sobre las [ventajas y desventajas del framework de desarrollo web Django.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
 Por otro lado, si ya tienes un poco de práctica con Django quizá te convenga profundizar lo que sabes con este libro gratuito, y en español, llamado [la guía definitiva de Django](https://coffeebytes.dev/la-guia-definitiva-de-django/)
 

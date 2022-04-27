@@ -23,13 +23,13 @@ Menor peso en nuestras imágenes significa mejor rendimiento. Un sitio web que c
 
 El primer paso para transformar nuestras imágenes a formato webp es descargar las librerías apropiadas. El paquete que necesitamos para transformar nuestras imágenes se llama webp y se encuentra en los repositorios de las distribuciones populares de GNU/Linux. Instalémoslo.
 
-Si el siguiente comando no te suena o quieres repasar los comandos básicos de GNU/Linux por favor [visita mis entradas donde hablo de los comandos más usuales](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/).
-
+Si el siguiente comando no te suena o quieres repasar los comandos básicos de GNU/Linux por favor visita mis entradas donde hablo de los [comandos más usuales de GNU Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/).
+ 
 ```bash
 sudo apt install webp
 ```
 
-Para esta entrada utilizaré una imagen gratuita, en resolución 1920 x 1280, que descargué desde [este enlace de pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/), tu puedes usar la que quieras, hasta la foto de tu perro.
+Para esta entrada utilizaré una imagen gratuita, en resolución 1920 x 1280, que descargué desde [pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/), tu puedes usar la que quieras, hasta la foto de tu perro.
 
 El tamaño mi imagen es de 476 Kb.
 

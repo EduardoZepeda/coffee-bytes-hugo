@@ -560,4 +560,4 @@ Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 ve
 
 ![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)
 
-Este tutorial cubrió solo lo básico sobre Docker. [Entra en la siguiente entrada](https://coffeebytes.dev/conoce-los-comandos-basicos-de-docker-compose/) que tratará sobre docker compose, una herramienta para crear aplicaciones con multiples contenedores.
+Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](https://coffeebytes.dev/conoce-los-comandos-basicos-de-docker-compose/) 

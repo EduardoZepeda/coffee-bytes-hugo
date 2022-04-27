@@ -348,7 +348,7 @@ mkfs.ext4 /dev/sdb2
 mkfs.xfs /dev/hda1
 ```
 
-Si quieres profundizar más en este tema, hay un [excelente video](https://www.youtube.com/watch?v=f0gz-PV3X4Y) donde se explican las diferencias entre los tipos de archivo ext4 y xfs.
+Si quieres profundizar más en este tema, hay un [video donde se explican las diferencias entre los tipos de archivo ext4 y xfs.](https://www.youtube.com/watch?v=f0gz-PV3X4Y) 
 
 ## stat
 
@@ -481,4 +481,4 @@ Ahora el propietario, llamado _usuario_, puede escribir, leer y ejecutar ambos a
 
 ## Aún más sobre el comando chmod
 
-El sistema de permisos de GNU/Linux es un tema bastante complejo, por lo que hablaré de él con más detalle en la siguiente entrada. [Entra aquí para ver el tutorial de permisos con chmod.](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)
+El sistema de permisos de GNU/Linux es un tema bastante complejo, por lo que hablaré de él con más detalle en la siguiente entrada. Entra en mi entrada sobre [permisos con chmod en GNU linux](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)

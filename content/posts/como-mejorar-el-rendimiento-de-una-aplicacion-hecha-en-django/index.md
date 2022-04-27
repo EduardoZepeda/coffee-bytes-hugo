@@ -24,7 +24,7 @@ Identifica que consultas se están haciendo en tu aplicación usando [django-deb
 
 - **select\_related()** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](https://coffeebytes.dev/diferencias-entre-select-related-y-prefetch-related-en-django/)
 - **prefetch\_related()** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
-- **django\_annotate()** para agregar información a cada objecto de una consulta. [Tengo una entrada donde explico annotate y aggregate](https://coffeebytes.dev/django-annotate-y-aggregate-explicados/)
+- **django\_annotate()** para agregar información a cada objecto de una consulta. Tengo una entrada donde explico [la diferencia entre annotate y aggregate](https://coffeebytes.dev/django-annotate-y-aggregate-explicados/)
 - **django\_aggregate()** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
@@ -101,7 +101,7 @@ MIDDLEWARE = [
 
 Cuando el tiempo de respuesta de tu aplicación se vuelve un problema, deberías empezar a colocar todos los resultados costosos en tiempo y recursos en caché.
 
-¿Te gustaría profundizar en el sistema de caché?, tengo una [entrada sobre la caché en django](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
+¿Te gustaría profundizar en el sistema de caché?, tengo un post sobre [la caché en django](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
 
 Si tu página tiene demasiados productos, y raramente cambian, no tiene sentido acceder cada vez a la base de datos para solicitarlos con cada nueva petición HTTP. Solo coloca la respuesta de esa solicitud en caché y tu tiempo de respuesta mejorará, de esta manera cada que se pida el mismo contenido, no será necesario realizar una nueva petición o cálculos a la base de datos, sino que el valor se devolverá directamente de memoria.
 
@@ -142,7 +142,7 @@ Toma en cuenta que **la caché basada en memoria (memcached, redis) es un métod
 
 A veces el cuello de botella es responsabilidad de terceros. Cuando envías un email o solicitas información de un tercero, no tienes manera de saber cuanto tiempo demorará tu solicitud, una conexión lenta o un servidor sobresaturado pueden mantenerte esperando por una respuesta. No tiene caso mantener al usuario esperando decenas de segundos por el envío de un correo electrónico, devuélvele una respuesta y transfiere el envío del correo electrónico a una cola para que se procese más tarde. [Celery](https://docs.celeryproject.org/en/stable/) es la opción más popular para hacerlo.
 
-¿No tienes idea de donde empezar?, tengo un [par de entradas donde explico como ejecutar tareas asíncronas con celery y django.](https://coffeebytes.dev/celery-y-django-para-ejecutar-tareas-asincronas/)
+¿No tienes idea de donde empezar?, tengo un par de entradas donde explico [como ejecutar tareas asíncronas con celery y django.](https://coffeebytes.dev/celery-y-django-para-ejecutar-tareas-asincronas/)
 
 ```python
 # myapp/views.py
@@ -209,7 +209,7 @@ Dependiendo del avance de tu aplicación quizás te convenga migrar a otro frame
 
 O, si tu aplicación no es muy compleja a nivel de base de datos, quizás quieras escribir tus propias consultas sql y combinarlas con algún otro framework.
 
-La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi [entrada donde te explico las maravillas que tiene para ofrecer FastAPI.](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/)
+La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi entrada donde te explico [los aspectos básicos de FastAPI.](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/)
 
 ## Bonus: aplicaciones con más de 63 000 modelos
 

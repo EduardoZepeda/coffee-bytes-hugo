@@ -10,7 +10,7 @@ keywords:
 
 Para aquellos como yo, cuyo primer lenguage no tuvo la suerte (o desgracia) de ser javascript, la desestructuración puede llegar a tener tintes esotéricos. En esta entrada voy a tratar de explicar de una manera sencilla la desestructuración de objetos en javascript. La destructuración es un proceso que, a diferencia de lo que se cree, es bastante simple en realidad y, además, puede mejorar bastante la legibilidad del código.
 
-Si quieres empezar a aprender Javascript desde cero te recomiendo que leas [esta entrada](https://coffeebytes.dev/el-mejor-libro-para-aprender-javascript-moderno/), aquí recomiendo el que yo considero el mejor libro para empezar.
+Si quieres empezar a aprender Javascript desde cero te recomiendo el [libro Eloquent Javascript](https://coffeebytes.dev/el-mejor-libro-para-aprender-javascript-moderno/), aquí recomiendo el que yo considero el mejor libro para empezar.
 
 Desestructurar un objeto significaría convertir las propiedades de un objeto o lista de javascript en variables o constantes para poder acceder más fácilmente a ellas. Partamos de un objeto bastante sencillo.
 

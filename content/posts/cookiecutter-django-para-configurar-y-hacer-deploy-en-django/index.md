@@ -18,11 +18,11 @@ keywords:
 
 Escribí las entradas anteriores como una introducción para el tema de esta semana. En esta entrada voy a explicar sobre una herramienta genial para Django llamada cookiecutter-django, que traducido significa "cortador de galletas django". Esta herramienta para django permite generar proyectos que integren docker, celery, mailhog, aws, gcp, y muchas otras herramientas, de una manera automática, con solo contestar una serie de preguntas.
 
-Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual [tengo una reseña que puedes leer en este blog.](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
+Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual tengo una [reseña de Twoo scoops of django](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
-¿No sabes que es Docker? Visita mi [entrada donde hablo de Docker](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a compose, entra en mi tutorial de Docker Compose.
+¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a compose, entra en mi tutorial de Docker Compose.
 
-Si dudas sobre si deberías usar Django visita mi [entrada donde te explico algunas ventajas y desventajas de este framework de desarrollo web.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
 ## ¿Para que sirve Cookiecutter Django?
 
