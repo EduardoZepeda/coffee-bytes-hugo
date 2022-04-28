@@ -12,6 +12,7 @@ keywords:
   - "api"
   - "python"
   - "django"
+url: "python-fastapi-el-mejor-framework-de-python"
 ---
 
 Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear REST APIs. FastAPI promete ayudarnos a crear REST APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar una alta carga de peticiones web.
