@@ -1,6 +1,6 @@
 ---
 title: "Buenas prácticas y diseño de una API REST"
-date: "2022-04-20"
+date: "2022-04-28"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
