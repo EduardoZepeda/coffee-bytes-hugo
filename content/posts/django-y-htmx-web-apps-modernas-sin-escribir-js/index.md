@@ -43,7 +43,7 @@ Esquema del funcionamiento de HTMX
 
 Para este tutorial he creado un repositorio en github, por lo que si quieres ahorrarte todo el boilerplate, puedes simplemente clonar todo el proyecto e ir siguiendo el código conforme lo voy escribiendo.
 
-Recuerda que si no estás convencido de porque deberías usar Django revisa mi [entrada donde explico las mejores características de Django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/). Si no tienes idea de como se usa Django mejor empieza con este [excelente libro gratuito para hacerlo.](https://coffeebytes.dev/la-guia-definitiva-de-django/)
+Recuerda que si no estás convencido de porque deberías usar Django revisa mi entrada donde explico las [ventajas y desventajas de Django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/). Si no tienes idea de como se usa Django mejor empieza con la [guia de Django](https://coffeebytes.dev/la-guia-definitiva-de-django/)
 
 ```bash
  # Ejecuta esto para no escribir el código

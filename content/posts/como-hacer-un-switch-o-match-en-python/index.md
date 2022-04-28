@@ -10,7 +10,7 @@ keywords:
 
 Se anunció Python 3.10 y viene con algo que muchos desarrolladores echaban de menos de otros lenguajes: el switch statement. Sí, ese trozo de código que evalúa una expresión y la compara con múltiples casos para decidir que ejecutar. Python no lo tenía implementado y muchos desarrolladores recurrían a ciertos trucos para imitarlo.
 
-Te recuerdo que si no sabes nada de Python tengo una [entrada donde hablo de "Inmersion en Python"](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/); uno de los mejores libros gratuitos para aprender Python desde cero.
+Te recuerdo que si no sabes nada de Python tengo una entrada donde hablo del [libro "Inmersion en Python"](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/); uno de los mejores libros gratuitos para aprender Python desde cero.
 
 ## Switch en Python antes de su versión 3.10
 

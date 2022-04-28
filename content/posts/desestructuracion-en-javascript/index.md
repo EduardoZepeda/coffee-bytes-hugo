@@ -64,4 +64,4 @@ if(isLoggedIn && profile==='Admin'){
 }
 ```
 
-Además de destructurar objetos, Javascript también permite desestructurar listas. Entra en **[mi entrada de destructuración de listas](https://coffeebytes.dev/desestructuracion-de-listas-en-javascript/)** para aprender a desestructurar listas en Javascript.
+Además de destructurar objetos, Javascript también permite desestructurar listas. Entra en mi entrada de [destructuración de listas en Javascri](https://coffeebytes.dev/desestructuracion-de-listas-en-javascript/) para aprender a desestructurar listas en Javascript.

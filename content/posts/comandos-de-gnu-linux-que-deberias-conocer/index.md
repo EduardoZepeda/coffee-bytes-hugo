@@ -146,7 +146,7 @@ cd ..
 
 Este comando sirve para concatenar el contenido de un archivo y mostrarlo en pantalla.
 
-Existe una herramienta que ofrece más funciones que cat, checa mi [entrada donde hablo sobre bat para conocerla.](https://coffeebytes.dev/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
+Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](https://coffeebytes.dev/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
 
 ```bash
 cat archivo

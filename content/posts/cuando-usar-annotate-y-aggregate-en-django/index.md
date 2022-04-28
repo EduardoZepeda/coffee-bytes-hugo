@@ -13,9 +13,9 @@ keywords:
 
 La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté la cabeza con desesperación, mientras buscaba en google: "Django annotate"; una de las funciones del ORM que no lograba comprender. ¿Te ha pasado también?, apuesto que sí. Ya había leído la documentación pero no me pareció lo suficientemente clara y, para colmo, la confundía frecuentemente con su gemela malvada: aggregate. Tras haber visitado varias preguntas de stackoverflow y múltiples blogs en inglés pude entenderlas a ambas. Estas notas son el resultado de esa búsqueda, es la explicación sobre annotate y aggregate de Django que a mi me hubiera gustado leer hace años.
 
-Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en [mi entrada sobre la guia definitiva de Django.](https://coffeebytes.dev/la-guia-definitiva-de-django/)
+Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en mi entrada sobre la [guia definitiva de Django.](https://coffeebytes.dev/la-guia-definitiva-de-django/)
 
-Si estás aquí porque quieres mejorar el rendimiento de tu aplicación en Django, tengo una [serie de consejos que puedes implementar en esta entrada.](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/)
+Annotate y aggregate son útiles para [mejorar el rendimiento de aplicaciones lentas en Django](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/)
 
 ![Imagen comparativa de las diferencias entre Django annotate y Django aggregate.](images/DjangoAggregateAnnotate-1.png)
 
@@ -85,7 +85,7 @@ Conocer la consulta que realizará Django nos ayuda a entender que está sucedie
 
 Usamos _annotate_ **cuando queremos hacer una anotación en cada objeto que nos devuelva de un queryset**, como si quisiéramos agregar una propiedad extra a cada objeto de tu queryset, pero directo desde la base de datos.
 
-Como ejemplo práctico, tengo una [entrada donde utilizamos annotate para realizar búsquedas avanzadas usando Postgres](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/).
+Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/).
 
 Imagínate que queremos mostrar en una plantilla de Django cada vendedor, seguido de la suma del total de todos sus pedidos.
 

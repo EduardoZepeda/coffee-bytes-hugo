@@ -116,7 +116,7 @@ Yo he usado Digital Ocean para hostear proyectos personales y también para mane
 
 ![Indicadores de Lighthose para coffeebytes.dev](images/Coffeebytes-lighthose-indicadores.png)
 
-Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo easywp, del cual he escrito [una entrada.](https://coffeebytes.dev/mi-experiencia-usando-easywp-y-namecheap/)
+Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](https://coffeebytes.dev/mi-experiencia-usando-easywp-y-namecheap/)
 
 ## Resumiendo
 

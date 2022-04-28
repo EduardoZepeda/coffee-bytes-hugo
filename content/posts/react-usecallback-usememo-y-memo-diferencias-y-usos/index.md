@@ -77,7 +77,7 @@ const MyComponent = ({prop}) => {
 
 De nuevo, mientras el prop que recibe el componente llamado Component, se mantenga constante, no se creará una nueva función, por más que se re-renderice el componente.
 
-Tengo una [entrada donde te explico como usar useCallback, en conjunción con memo, para evitar renderizaciones en aplicaciones de react.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
+Tengo una entrada donde te explico como usar [useCallback y memo, para evitar renderizaciones en React.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 ## useMemo memoiza valores
 
@@ -135,6 +135,6 @@ Memo es ideal para componentes que:
 - Reciben props que cambian con poca frecuencia o simplemente no cambian.
 - Componentes muy voluminosos que tienen un impacto muy grande en el rendimiento.
 
-Recuerda revisar mi [entrada donde combino este HOC junto con useCallback para evitar renderizaciones inútiles.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
+Recuerda revisar mi entrada donde combino este [memo y useCallback para evitar renderizaciones en React.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 Consulta la [documentación oficial de los hooks de React](https://es.reactjs.org/docs/hooks-reference.html) si quieres profundizar más en el tema.

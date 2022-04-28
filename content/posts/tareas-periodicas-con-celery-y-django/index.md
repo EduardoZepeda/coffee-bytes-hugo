@@ -138,7 +138,7 @@ Que tal si en lugar de especificar un intervalo para ejecutar las tareas queremo
 
 En lugar de calcular los segundos podemos crear un formato más amigable con la utilidad crontab que nos proporciona celery.
 
-Sí, estás en lo correcto, crontab comparte el formato con [el archivo crontab que usa el daemon cron de GNU/Linux](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/), del que ya hablé en una entrada.
+Sí, estás en lo correcto, crontab comparte el formato con el archivo [crontab que usa el daemon cron de GNU/Linux](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/), del que ya hablé en una entrada.
 
 Crontab se encargará de que el formato de ejecución sea todos los lunes a las 7:30 a.m.
 

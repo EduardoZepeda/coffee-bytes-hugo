@@ -8,7 +8,7 @@ keywords:
   - javascript
 ---
 
-En las [entradas anteriores](https://coffeebytes.dev/desestructuracion-de-listas-en-javascript/) expliqué brevemente como llevar a cabo una desestructuración de objetos bastante simples, pero en la mayoría de los casos no tendremos la suerte de trabajar con objetos planos, sino que nos encontraremos con objetos anidados con varios niveles de profundidad. ¿Tendremos que conformarnos con olvidarnos de esta característica y hacer el trabajo explícitamente asignando una constante a cada objeto? Por suerte Javascript permite trabajar la desestructuración de objetos anidados.
+En las entradas anteriores expliqué brevemente como llevar a cabo una [desestructuración de objetos en Javascript](https://coffeebytes.dev/desestructuracion-de-listas-en-javascript/), pero en la mayoría de los casos no tendremos la suerte de trabajar con objetos planos, sino que nos encontraremos con objetos anidados con varios niveles de profundidad. ¿Tendremos que conformarnos con olvidarnos de esta característica y hacer el trabajo explícitamente asignando una constante a cada objeto? Por suerte Javascript permite trabajar la desestructuración de objetos anidados.
 
 Creemos un ejemplo de objeto para probar.
 

@@ -378,7 +378,7 @@ chroot /mi-nuevo-directorio-root
 
 ## chown
 
-Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los permisos **ingresa como super usuario**, si no sabes como hacerlo revisa la [segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) de esta serie de entradas.
+Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los permisos **ingresa como super usuario**, si no sabes como hacerlo revisa los demás [comandos básicos de gnu linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) de esta serie de entradas.
 
 ```bash
 ls -la

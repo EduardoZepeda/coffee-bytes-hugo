@@ -38,7 +38,7 @@ Como ya sabrás, DarkLord69 no estará muy contento, pero si le das unos tokens 
 
 Ahora vamos a un ejemplo hecho en código.
 
-Si no entiendes que hace el waitgroup, escribí una [entrada donde te explico las goroutines, channels y los waitgroups](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/) que puedes consultar. Por ahora quédate con la idea de que esperan a que todas las goroutines finalicen antes de proseguir la ejecución del código.
+Si no entiendes que hace el waitgroup, escribí una entrada donde te explico [las goroutines, channels y los waitgroups](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/) que puedes consultar. Por ahora quédate con la idea de que esperan a que todas las goroutines finalicen antes de proseguir la ejecución del código.
 
 ```go
 package main

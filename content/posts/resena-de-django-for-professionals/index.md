@@ -18,7 +18,7 @@ Hace algo de tiempo, mientras buscaba información sobre Django por internet me 
 - Django for APIS
 - Django for Professionals
 
-Si no conoces las ventajas y desventajas que ofrece Django, visita mi [entrada donde te explico algunas ventajas y desventajas de este framework de desarrollo web.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas de Django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
 ## Un poco de Django moderno para profesionales
 

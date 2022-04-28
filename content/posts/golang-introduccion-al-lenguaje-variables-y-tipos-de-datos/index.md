@@ -306,4 +306,4 @@ Los operadores de go son similares al resto de los lenguajes.
 - ++, incremental
 - \--, decremental
 
-Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como runes, array, slices y otras características del lenguaje.
+Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices](https://coffeebytes.dev/go-strings-runes-y-bytes/) y otras características del lenguaje.

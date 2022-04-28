@@ -65,9 +65,7 @@ Ahora que ya viste porque vale la pena usarlo, ¿por qué no probarlo?
 
 ### Instalación de FastAPI
 
-Para instalarlo vamos a crear un entorno virtual con Pipenv. Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
-
-Si no sabes usar Pipenv date una vuelta por la [entrada donde explico como usar esta herramienta de manejo de entornos virtuales.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/) También puedes usar poetry, [virtualenv](https://coffeebytes.dev/python-virtualenv-tutorial-basico-en-linux/), conda o cualquier otro gestor de entornos virtuales que prefieras.
+Para instalarlo vamos a crear un entorno virtual con [Pipenv, una herramienta de manejo de entornos virtuales.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
 
 ```bash
 pipenv install fastapi uvicorn
@@ -514,7 +512,7 @@ async def create_upload_file(file: UploadFile = File(...)):
 
 Para este ejemplo vamos a crear un archivo sencillo de texto.
 
-El siguiente comando creará un archivo de extensión txt en nuestra carpeta actual. Si no te sientes cómodo usando la terminal de GNU/Linux visita [mi serie de entradas donde explico los comandos básicos.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
+El siguiente comando creará un archivo de extensión txt en nuestra carpeta actual. Si no te sientes cómodo usando la terminal de GNU/Linux visita mi serie de entradas donde explico los [comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 printf "texto" > archivo.txt
@@ -592,7 +590,7 @@ def generate_error():
 
 FastAPI contiene un cliente con el que podemos hacer testeo. Antes de empezar a realizar el testing vamos a instalar los paquetes necesarios para hacerlo: pytest y requests.
 
-Si quieres profundizar en el testeo en Python tengo [una entrada donde expongo algunas de las librerías principales para hacer testing.](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/)
+Si quieres profundizar en el testeo en Python tengo una entrada donde expongo algunas de las [librerías en Python para hacer testing.](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/)
 
 ```bash
 pipenv install requests pytest

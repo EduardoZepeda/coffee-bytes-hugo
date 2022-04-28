@@ -9,7 +9,7 @@ keywords:
   - python
 ---
 
-En la [entrada anterior](https://coffeebytes.dev/como-crear-un-cambiador-de-wallpaper-automatico-usando-python-en-gnome/) hicimos un cambiador de wallpaper automático en Python. En esta entrada vamos a usar Cron para programar la ejecución periódica de este script y que se encargue de cambiar el wallpaper cada cierto tiempo, automáticamente, ya se cada hora, dos horas, cada día, cada minuto o la frecuencia que nosotros querramos. Si no sabes como funciona el daemon Cron y como programar las tareas usando esta herramienta, por favor revisa mi entrada sobre [Cron y Crontab.](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/)
+En la entrada anterio hicimos un [cambiador de wallpaper automático en Python](https://coffeebytes.dev/como-crear-un-cambiador-de-wallpaper-automatico-usando-python-en-gnome/). En esta entrada vamos a usar Cron para programar la ejecución periódica de este script y que se encargue de cambiar el wallpaper cada cierto tiempo, automáticamente, ya se cada hora, dos horas, cada día, cada minuto o la frecuencia que nosotros querramos. Si no sabes como funciona el daemon Cron y como programar las tareas usando esta herramienta, por favor revisa mi entrada sobre [Cron y Crontab.](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/)
 
 ```python
 #!/usr/bin/python3
@@ -70,5 +70,3 @@ Para este ejemplo cambiaremos de wallpaper cada 6 horas. Pero tu puedes colocar 
 También debes de asegurarte de que tu archivo tenga los permisos de ejecución adecuados, tengo una entrada explicando el tema de [chmod y los permisos en GNU/Linux](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) que puedes revisar.
 
 Guardamos el archivo y este debería empezar a ejecutarse automáticamente una vez pasadas 6 horas, o la frecuencia que tú le hayas colocado, cambiando el wallpaper por uno aleatorio en la carpeta que especificaste en el script de Python.
-
-Lee sobre uno de los mejores y más completos libros gratuitos para aprender lo básico de Python [en esta entrada.](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/)

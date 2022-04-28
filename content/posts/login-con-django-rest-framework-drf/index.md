@@ -169,7 +169,7 @@ Como viste, ya podemos usar el token que tenemos para obtener una respuesta de l
 
 dj-rest-auth también cuenta con soporte para JWT. Para usar los JWT vamos a instalar la librería djangorestframework-simplejwt
 
-Si no sabes que es JWT o quieres profundizar más en el tema, tengo una [entrada donde explico los detalles de la autenticación en django usando JWT.](https://coffeebytes.dev/django-rest-framework-y-jwt-para-autenticar-usuarios/) Y como contraparte, también tengo una traducción de stop using JWT for sessions, donde se explica porque pudiera no ser tan buena idea usar JWT para sesiones.
+Si no sabes que es JWT o quieres profundizar más en el tema, tengo una entrada donde explico los detalles de la [autenticación en django usando JWT.](https://coffeebytes.dev/django-rest-framework-y-jwt-para-autenticar-usuarios/) Y como contraparte, también tengo una traducción de stop using JWT for sessions, donde se explica porque pudiera no ser tan buena idea usar JWT para sesiones.
 
 ```bash
 pipenv install djangorestframework-simplejwt

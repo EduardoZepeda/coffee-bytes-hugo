@@ -388,7 +388,7 @@ node: /home/usuario/.nvm/versions/node/v11.9.0/bin/node
 
 Parecido al anterior, pero con una diferencia: este nos muestra donde se ejecutaría el comando en el **entorno actual.**
 
-Si desconoces que es un entorno virtual te invito a leer [mi entrada donde explico los entornos virtuales.](https://coffeebytes.dev/por-que-deberias-usar-un-entorno-virtual-en-python/)
+Si desconoces que es un entorno virtual te invito a leer mi entrada donde explico [que son los entornos virtuales en Python](https://coffeebytes.dev/por-que-deberias-usar-un-entorno-virtual-en-python/)
 
 En cambio, si no estamos usando entornos virtuales mostrará el mismo resultado que el anterior.
 

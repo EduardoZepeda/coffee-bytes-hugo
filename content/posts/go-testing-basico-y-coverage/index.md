@@ -117,7 +117,7 @@ Si todo salió bien, pasaremos todas las pruebas.
 
 ## Coverage
 
-Coverage ya forma parte del código en go, por lo que no necesitamos librerías externas. Si no sabes que es Coverage, piensa en él como el porcentaje de tu código que es sometido a pruebas. Si todo tú código pasa por las pruebas tendrás un coverage de 100%, si solo la mitad pasa por las pruebas el coverage será de 50%. Anteriormente te hablé del coverage en mi [entrada sobre unittest en Python.](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/)
+Coverage ya forma parte del código en go, por lo que no necesitamos librerías externas. Si no sabes que es Coverage, piensa en él como el porcentaje de tu código que es sometido a pruebas. Si todo tú código pasa por las pruebas tendrás un coverage de 100%, si solo la mitad pasa por las pruebas el coverage será de 50%. Anteriormente te hablé del coverage en mi entrada [unittest en Python.](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/)
 
 Para calcular el coverage basta con agregar el flag _\-cover_ al comando _go test_
 

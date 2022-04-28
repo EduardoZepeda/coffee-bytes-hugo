@@ -15,7 +15,7 @@ Algunas veces cuando tecleamos nos equivocamos en una letra, podemos repetirla, 
 
 Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta.
 
-Si aún estás dudando sobre si usar Django, revisa [mi entrada donde te explico las ventajas que tiene Django para ofrecerle a tu proyecto.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+Si aún estás dudando sobre si usar Django, revisa mi entrada donde te explico [las ventajas y desventajas de Django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
 Si ya conoces como funcionan las búsquedas básicas y quieres pasar a búsquedas más complejas con trigramas visita mi entrada de [trigramas y búsquedas avanzadas con Django.](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
 
@@ -122,7 +122,7 @@ Listo, ahora tenemos instalada la extensión _unaccent_ y, si descomentaste la l
 
 ### Instalar extensiones desde la terminal de Postgres
 
-Otra manera de instalar las extensiones es ejecutar el comando requerido directo de la base de datos. Para este ejemplo instalamos _TrigramExtension_, la extensión requerida para usar búsquedas con trigramas. Trataré el tema de los trigramas en mi [siguiente entrada "Trigramas y búsquedas avanzadas con Django y Postgres"](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/), por lo que no te preocupes por eso, solo céntrate en el proceso de instalación de las extensiones.
+Otra manera de instalar las extensiones es ejecutar el comando requerido directo de la base de datos. Para este ejemplo instalamos _TrigramExtension_, la extensión requerida para usar búsquedas con trigramas. Trataré el tema de los [trigramas con django y postgres](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/), por lo que no te preocupes por eso, solo céntrate en el proceso de instalación de las extensiones.
 
 Para entrar en la terminal de la base de datos usaré el comando dbshell que nos provee Django.
 
@@ -262,6 +262,6 @@ Videogame.objects.update(search_vector=SearchVector('name'))
 Videogame.objects.filter(search_vector='revenge')
 ```
 
-Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un [excelente artículo](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) donde explican en código SQL los vectores de búsqueda.
+Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) donde explican en código SQL los vectores de búsqueda.
 
-Entra mi siguiente [entrada donde hablaré de búsquedas avanzadas con Postgres y Django.](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
+Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)

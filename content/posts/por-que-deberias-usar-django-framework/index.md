@@ -69,11 +69,11 @@ Django incluye ciertas utilidades, que se encargan de mitigar la mayoría de los
 
 Este framework cuenta con un sistema de autenticación probado, basado en sesiones que se identifican por medio de una cookie. El sistema de autenticación ya ha sido puesto a prueba en numerosas ocasiones por algunos de los sitios web con más tráfico que hay, como Instagram o el sitio web de la NASA. Pinterest empezó con Django pero se movió hacia node.
 
-Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo [una entrada donde explico como autenticar un usuario usando JSON Web token JWT en Django Rest Framework](https://coffeebytes.dev/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](https://coffeebytes.dev/no-uses-jwt-para-gestionar-sesiones-traduccion/)
+Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](https://coffeebytes.dev/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](https://coffeebytes.dev/no-uses-jwt-para-gestionar-sesiones-traduccion/)
 
 ### Sistema de permisos
 
-Django cuenta con un [sólido sistema de permisos y grupos](https://coffeebytes.dev/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
+Django cuenta con un sólido [sistema de permisos y grupos](https://coffeebytes.dev/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
 
 ### Múltiples paquetes
 

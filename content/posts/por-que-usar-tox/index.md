@@ -10,7 +10,7 @@ keywords:
   - "testing"
 ---
 
-Si crees que el testeo es una perdida de tiempo visita [mi entrada donde intento convencerte de las razones por las cuales el testeo es importante](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/), en ella hablé brevemente sobre las pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo. Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.
+Anteriormente hablé brevemente sobre las [pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo en Python](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/). Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.
 
 ## ¿Para que sirve Tox?
 

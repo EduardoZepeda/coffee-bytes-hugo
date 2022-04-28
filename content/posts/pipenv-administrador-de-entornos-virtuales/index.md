@@ -52,7 +52,7 @@ Pipfile  Pipfile.lock
 
 ## Pipfile
 
-Empecemos viendo el contenido del archivo _Pipfile_. Si tienes alguna dificultado con el uso de la linea de comandos te sugiero revisar [las entradas donde hablo de los comandos más comunes de GNU/Linux.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
+Empecemos viendo el contenido del archivo _Pipfile_. Si tienes alguna dificultado con el uso de la linea de comandos te sugiero revisar las entradas donde hablo de los [comandos básicos de GNU/Linux.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 cat Pipfile

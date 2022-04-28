@@ -82,7 +82,7 @@ SELECT word_similarity('outer worlds', 'wilds');
 
 Usando el ORM de Django **con la función _TrigramSimilarity_ podemos filtrar aquellos resultados estableciendo un límite de similaridad** entre una palabra de búsqueda y nuestros datos.
 
-Si no recuerdas para que sirve Django annotate, tengo una [entrada donde te explico django annotate y su diferencia con django aggregate.](https://coffeebytes.dev/django-annotate-y-aggregate-explicados/)
+Si no recuerdas para que sirve Django annotate, tengo una entrada donde te explico [django annotate y aggregate, así como sus diferencias.](https://coffeebytes.dev/django-annotate-y-aggregate-explicados/)
 
 ```python
 from django.contrib.postgres.search import TrigramSimilarity

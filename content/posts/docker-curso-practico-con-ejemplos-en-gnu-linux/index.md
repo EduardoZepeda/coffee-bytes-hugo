@@ -1,14 +1,15 @@
 ---
-title: "Aprende Docker, curso práctico con ejemplos en GNU Linux"
+title: "Los comandos básicos de Docker y su uso"
 date: "2020-10-07"
 categories: 
   - "docker"
 coverImage: "DockerCursoPractico.jpg"
 keywords:
   - docker
+url: "tutorial-de-comandos-basicos-de-docker"
 ---
 
-Si te leíste [la entrada anterior donde explico para que sirve Docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
+Si te leíste la entrada anterior donde explico [para que sirve Docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
 
 ## Las imágenes y los contenedores son diferentes
 
@@ -184,7 +185,7 @@ docker run -it ubuntu
 
 Intenta ejecutar un _ls_ o un _pwd_. Podrás notar que estás dentro de un sistema operativo GNU/Linux. Puedes crear archivos, modificarlos, crear carpetas, etc.
 
-Si no sabes nada sobre comandos de GNU/Linux puedes revisar [mi entrada de los comandos básicos](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
+Si no sabes nada sobre comandos de GNU/Linux puedes revisar mi entrada sobre los [comandos básicos de GNU Linux: cd, ls, rm, etc.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
 
 ```bash
 ls
@@ -290,7 +291,7 @@ El comando anterior creó una instancia del servidor web Nginx, por lo que redir
 
 Los cambios que hacemos dentro de los contenedores de Docker, tales como crear archivos, modificar configuraciones y otros, se quedan ahí, si nosotros borramos el contenedor la información se pierde para siempre.
 
-Los volúmenes almacenan información que se encuentra fuera de los contenedores y que, por lo tanto, permanece aunque los borremos. Docker almacena estos contenedores en la ubicación "_/var/lib/docker/volumes/nombre\_del\_volumen/\_data_". **Estas carpetas son solo accesibles para docker y el usuario root**, por lo que no tenemos los permisos para modificar su contenido directamente, usando nuestro usuario normal. Si tienes dudas sobre los permisos en GNU/Linux tengo una [entrada donde los explico.](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)
+Los volúmenes almacenan información que se encuentra fuera de los contenedores y que, por lo tanto, permanece aunque los borremos. Docker almacena estos contenedores en la ubicación "_/var/lib/docker/volumes/nombre\_del\_volumen/\_data_". **Estas carpetas son solo accesibles para docker y el usuario root**, por lo que no tenemos los permisos para modificar su contenido directamente, usando nuestro usuario normal. Repasa los [permisos en GNU/Linux](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) si tienes dudas.
 
 Vamos a tratar de dejarlo más claro con un ejemplo:
 
@@ -489,6 +490,12 @@ CMD ["gunicorn", "myDockerDjangoApp.wsgi"]
 - **EXPOSE 8000:** Expone el puerto 8000 al exterior.
 - **ENV PORT 8000**: Crea una variable de entorno llamada PORT con el valor de 8000. Esto nos servirá para poder acceder al puerto.
 - **CMD \["gunicorn", "myDockerDjangoApp.wsgi"\]:** CMD ejecuta un comando al momento de poner en marcha un contenedor a partir de una imagen, los comandos y los argumentos se separan como si fueran una lista de Python. En este caso, como mencioné arriba, gunicorn solo necesita saber donde está el archivo wsgi que generó django automáticamente.
+
+### Diferencia entre RUN y CMD en Docker
+
+La directiva RUN te permite ejecutar comandos dentro de una imagen de Docker, **estos comandos se ejecutan una sola vez cuando se compila la imagen** y quedan grabados en tu imagen de Docker, como una nueva capa. Run es ideal para cambios permanentes que afecten la imagen, como la instalación de paquetes.
+
+CMD te permite ejecutar **un comando una vez que el contenedor arranca**, sin embargo cualquier cambio en CMD requiere que recompiles la imagen. Lo anterior lo vuelve ideal para arrancar servidores web, o servicios.
 
 ### El orden es importante en un Dockerfile
 

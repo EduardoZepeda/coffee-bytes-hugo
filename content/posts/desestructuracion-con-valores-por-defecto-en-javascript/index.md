@@ -8,7 +8,7 @@ keywords:
   - javascript
 ---
 
-En la [entrada anterior](https://coffeebytes.dev/desestructuracion-de-objetos-anidados/) traté brevemente el tema de la desestructuración con objetos anidados en javascript. En esta publicación voy a hablar un poco sobre como podemos especificar valores por defecto al momento de desestructurar un objeto en javascript.
+En la entrada anterior traté brevemente el tema de la [desestructuración con objetos anidados en javascript](https://coffeebytes.dev/desestructuracion-de-objetos-anidados/) . En esta publicación voy a hablar un poco sobre como podemos especificar valores por defecto al momento de desestructurar un objeto en javascript.
 
 Para hacerlo crearemos un objeto bastante sencillo:
 

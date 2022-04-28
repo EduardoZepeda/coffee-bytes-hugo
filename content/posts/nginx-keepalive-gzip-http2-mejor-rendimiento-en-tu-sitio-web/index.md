@@ -157,7 +157,7 @@ cache-control: max-age=2592000
 
 ## Implementa Throttling
 
-Si existen algunos clientes que realizan muchas peticiones, manteniendo tu servidor ocupado y afectando al resto de los usuarios, puedes implementar Throttling para limitar su impacto. Si quieres saber más al respecto tengo [una entrada donde hablo del Throttling en Nginx.](https://coffeebytes.dev/throttling-en-nginx/)
+Si existen algunos clientes que realizan muchas peticiones, manteniendo tu servidor ocupado y afectando al resto de los usuarios, puedes implementar Throttling para limitar su impacto. Si quieres saber más al respecto tengo una entrada donde hablo del [Throttling en Nginx.](https://coffeebytes.dev/throttling-en-nginx/)
 
 ```bash
 limit_req_zone $binary_remote_addr zone=mylimit:10m rate=5r/s;

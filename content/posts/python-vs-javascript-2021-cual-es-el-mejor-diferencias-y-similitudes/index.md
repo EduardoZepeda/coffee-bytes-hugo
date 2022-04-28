@@ -275,13 +275,13 @@ Incluso aún a pesar de la abundancia de opciones que hay salen nuevos framework
 
 ### Frameworks para Python
 
-Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como Django, del cual tengo una [entrada donde explico sus ventajas](https://coffeebytes.dev/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
+Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como [Django, con sus ventajas y desventajas](https://coffeebytes.dev/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
 
 ![Frameworks de desarrollo web de Python](images/python-frameworks.jpg)
 
 Puedes escribir código HTML y CSS usando Python para el frontend, pero nunca tendrás la misma versatilidad que ejecutar código javascript directamente en el navegador del usuario.
 
-Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en [mi entrada sobre htmx y django](https://coffeebytes.dev/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
+Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en mi entrada sobre [htmx y django](https://coffeebytes.dev/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
 
 ## Paquetes
 
