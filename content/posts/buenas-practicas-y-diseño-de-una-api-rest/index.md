@@ -4,8 +4,7 @@ date: "2022-04-20"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
-coverImage: "django-select-related-prefetch-related.jpg"
-draft: true
+coverImage: "buenDisenoAPIREST.jpg"
 keywords:
   - arquitectura de software
   - opinion
@@ -15,7 +14,7 @@ keywords:
 
 ¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet.
 
-Antes de empezar, hay una serie de [características para que una API sea considerada REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
+Antes de empezar, hay una serie de [características básicas de una API REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
 
 Recuerda que una API REST puede devolver otros formatos, no solo JSON, pero voy a centrarme en este para los ejemplos porque es bastante popular. 
 
@@ -27,7 +26,7 @@ Hay diferentes maneras de estructurar la respuesta de una API REST. No hay ningu
 
 ### Según json:api
 
-Existe un [grupo de personas que se propusieron estandarizar las respuestas JSON](https://jsonapi.org/) en un único estilo de respuesta, tanto para devolver recursos únicos o múltiples. Es una referencia a considerar cuando diseñes su API.
+Existe un [grupo de personas que se propusieron estandarizar las respuestas JSON](https://jsonapi.org/) en un único estilo de respuesta, tanto para devolver recursos únicos o múltiples. Puedes tomar su estilo como referencia cuando diseñes su API para garantizar la uniformidad de las respuestas.
 
 ```json
 {
@@ -38,11 +37,9 @@ Existe un [grupo de personas que se propusieron estandarizar las respuestas JSON
 }
 ```
 
-Su guia ya nos arroja algo de luz, y estandariza las respuestas. Sin embargo, existen jugadores muy grandes en las empresas de tecnología que tienen sus propios estilos.
-
 ### API estilo Twitter
 
-En Twitter, la respuesta de un recurso individual se ve así:
+Twitter tiene su propia manera de hacer las cosas, la respuesta de un recurso individual se ve así:
 
 ```json
 {
@@ -94,11 +91,11 @@ Mientras que una respuesta para recursos múltiples es así:
 }
 ```
 
-Como puedes ver diferencias entre compañias y no se si me atrevería a decirte que una u otra es correcta, pero considero que si te mantienes constante en cada uno de tus endpoints y lo documentas bien, no deberías tener problemas.
+¿A quien hacerle caso? Como puedes ver diferencias entre compañias y no se si me atrevería a decirte que una u otra es correcta, pero considero que si te mantienes constante en cada uno de tus endpoints y lo documentas bien, no deberías tener problemas.
 
 ## ¿URLs relativas o completas en HATEOAS?
 
-¿Recuerdas que HATEOAS es un [requisito de las APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/) ? Según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, una referencia a tomar en cuenta para lo que sea que elijas.
+¿Recuerdas que HATEOAS es una [característica de las APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/)? Pues, según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, tómalo en cuenta cuando diseñes tu API REST.
 
 ```bash
 {"rel":"self",
@@ -168,7 +165,7 @@ GET /posts/1?embed=comments
 
 ## Paginación en las API
 
-Como ya te he mencionado en entradas anteriores, [por motivos de rendimiento, no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/). Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
+Como ya te he mencionado en entradas anteriores cuando hablé de Django, por motivos de [rendimiento en tus aplicaciones](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
 
 Para facilitar el uso de tu API, considera añadir la información relacionada a la paginación en tu respuesta:
 
@@ -265,7 +262,7 @@ ApiVersion: 1.0
 Vary: ApiVersion
 ```
 
-Considera que necesitas [añadir una cabecera vary para que los sistemas de caché no guardan diferentes versiones de la API en una misma url.](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/)
+Considera que necesitas añadir una cabecera vary para que los [sistemas de caché](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/) no guardan diferentes versiones de la API en una misma url.
 
 ### En el content negotiation
 
@@ -337,14 +334,41 @@ En el libro Two Scoops of Django, los autores recomiendan los siguientes pasos p
 
 Deberías limitar tu API. Los usuarios no deberían tener acceso sin restricciones y peticiones ilimitadas a tu API. Hay usuarios que pueden abusar de tu API, mantener tu servidor ocupado, impidiéndo que el resto de los usuarios puedan usarla e incrementando tus costos.
 
-Una manera de solucionarlo es establecer una [política de throttling en tu servidor](https://coffeebytes.dev/throttling-en-nginx/) para cualquier usuario.
+Una manera de solucionarlo es establecer una [política de throttling](https://coffeebytes.dev/throttling-en-nginx/) en tu servidor para cualquier usuario.
 
 También puedes volverlo el centro de tu negocio y ofrecer planes de pago de acuerdo al número de peticiones por minuto a tu API.
 
+## Caracteres especiales en la URI
+
+Usa solo caracteres válidos en tu URI. 
+
+De acuerdo a la especificación [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986#section-3), los únicos caracteres válidos, es decir, que no necesitan codificarse, en una URI, son las letras del alfabeto básico latinos, dígitos y algunos caracteres especiales (siempre y cuando se usen para su propósito).
+
+* Caracteres seguros [0-9a-zA-Z]: no necesitan codificarse
+* Caracteres no reservados [- . _ ~]: no necesitan codificarse
+* Caracteres reservados [: / ? # [ ] @ ! $ & ' ( ) * + , ;] solo necesitan codificarse si no se usan para su propósito original (Por ejemp, una diagonal que no se use para separar rutas)
+* Caracteres inseguros [< > % { } | \ ^ `]: necesitan codificarse
+* El resto de caracteres necesitan codificarse.
+
+Lo anterior está cambiando y se intenta agregar muchos más simbolos de diferentes lenguajes, puedes leer más al respecto en el artículo de [idn e iri de la w3](https://www.w3.org/International/articles/idn-and-iri/)
+
+## Considera el SEO
+
+Los motores de búsqueda consideran la URL para posicionar una página web, si para tu sitio web es importante el posicionamiento en buscadores, no te conformes con usar identificadores, comunica al motor de búsqueda el tema en la URL. El SEO y las URLs son un tema bastante amplio para resumirse en unas lineas, pero esto debería darte una idea de como buscar más información.
+
+```bash
+/post/el-titulo-de-mi-post ✅
+/post/99-el-titulo-de-mi-post ✅
+/post/99 ❌
+```
+
+Espero que te haya servido la entrada, o que al menos te haya presentado material que no habías tomado en cuenta enteriormente al diseñar una API.
 
 ## Fuentes de referencia
 
 - [Documentación de JSON:API](https://jsonapi.org/)
+- [IRI and URI](https://www.w3.org/International/articles/idn-and-iri/)
+- [Estándares API de la casa blanca](https://github.com/WhiteHouse/api-standards)
 - [Mejores prácticas de diseño de APIs en Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 - [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://www.amazon.com.mx/Build-APIs-You-Wont-Hate/dp/0692232699/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2W0ZTSCO349YL&keywords=build+apis&qid=1648756000&sprefix=build+apis%2Caps%2C187&sr=8-1)
 - [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://www.amazon.com.mx/Rest-API-Design-Rulebook-Consistent/dp/1449310508)
