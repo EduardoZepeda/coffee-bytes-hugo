@@ -3,7 +3,7 @@ title: "Aprender Python con criptografia reseña de Cracking Codes with Python"
 date: "2020-07-16"
 categories: 
   - "python"
-coverImage: "cracking_codes_with_python.jpg"
+coverImage: "images/cracking_codes_with_python.jpg"
 keywords:
   - libros
   - opinion

@@ -3,7 +3,7 @@ title: "Comandos de la terminal de GNU Linux que deberías conocer (segunda part
 date: "2019-05-13"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "comandos_GNU_Linux_2.jpg"
+coverImage: "images/comandos_GNU_Linux_2.jpg"
 keywords:
   - linux
 ---

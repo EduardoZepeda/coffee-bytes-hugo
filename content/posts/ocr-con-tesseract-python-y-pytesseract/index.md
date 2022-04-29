@@ -3,7 +3,7 @@ title: "OCR con tesseract, python y pytesseract"
 date: "2021-09-28"
 categories: 
   - "python"
-coverImage: "OCR.jpg"
+coverImage: "images/OCR.jpg"
 keywords:
   - python
   - inteligencia artificial

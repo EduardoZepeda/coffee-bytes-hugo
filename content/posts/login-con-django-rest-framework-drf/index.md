@@ -3,7 +3,7 @@ title: "Login con Django Rest Framework DRF"
 date: "2021-08-17"
 categories: 
   - "django"
-coverImage: "AutenticacionConDRF.jpg"
+coverImage: "images/AutenticacionConDRF.jpg"
 keywords:
   - REST
   - django

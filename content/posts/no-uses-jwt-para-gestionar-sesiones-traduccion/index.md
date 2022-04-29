@@ -4,7 +4,7 @@ date: "2021-06-22"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
-coverImage: "NoUsesJWT.jpg"
+coverImage: "images/NoUsesJWT.jpg"
 keywords:
   - jwt
   - javascript

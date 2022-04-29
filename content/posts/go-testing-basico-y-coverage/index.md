@@ -3,7 +3,7 @@ title: "Go: testing básico y coverage"
 date: "2022-02-09"
 categories: 
   - "golang"
-coverImage: "go-testing-coverage.jpg"
+coverImage: "images/go-testing-coverage.jpg"
 keywords:
   - golang
   - testing

@@ -3,7 +3,7 @@ title: "Tareas periódicas con Celery y Django"
 date: "2021-08-31"
 categories: 
   - "django"
-coverImage: "TareasPeriodicasCeleryYDjango.jpg"
+coverImage: "images/TareasPeriodicasCeleryYDjango.jpg"
 keywords:
   - "celery"
   - "django"

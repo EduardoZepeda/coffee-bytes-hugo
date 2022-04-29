@@ -4,7 +4,7 @@ date: "2019-05-02"
 categories: 
   - "gnu-linux-y-devops"
   - "opiniones"
-coverImage: "mi_experiencia_con_easy_wp.jpg"
+coverImage: "images/mi_experiencia_con_easy_wp.jpg"
 keywords:
   - easywp
   - namecheap

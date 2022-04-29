@@ -3,7 +3,7 @@ title: "¿Cómo crear un comando en django?"
 date: "2021-01-21"
 categories: 
   - "django"
-coverImage: "Como-crear-comando-django.jpg"
+coverImage: "images/Como-crear-comando-django.jpg"
 keywords:
   - django
   - python

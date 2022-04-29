@@ -4,7 +4,7 @@ date: "2020-10-20"
 categories: 
   - "django"
   - "docker"
-coverImage: "tutorial-cookiecutter-django-docker-compose.jpg"
+coverImage: "images/tutorial-cookiecutter-django-docker-compose.jpg"
 keywords:
   - docker
   - django

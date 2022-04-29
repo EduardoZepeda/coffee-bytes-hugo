@@ -3,7 +3,7 @@ title: "integración del ORM de Python tortoise con FastAPI"
 date: "2021-09-21"
 categories: 
   - "fastapi"
-coverImage: "IntegrandoFastApiYTortoiseORM.jpg"
+coverImage: "images/IntegrandoFastApiYTortoiseORM.jpg"
 keywords:
   - fastapi
   - orm

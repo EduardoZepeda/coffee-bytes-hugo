@@ -3,7 +3,7 @@ title: "Full text search y búsquedas con Django y Postgres"
 date: "2021-05-06"
 categories: 
   - "django"
-coverImage: "Full-text-search-django.jpg"
+coverImage: "images/Full-text-search-django.jpg"
 keywords:
   - django
   - postgres

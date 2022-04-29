@@ -4,7 +4,7 @@ date: "2021-03-24"
 categories: 
   - "django"
   - "opiniones"
-coverImage: "Django-usar.jpg"
+coverImage: "images/Django-usar.jpg"
 keywords:
   - "drf"
   - "django"

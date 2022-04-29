@@ -3,7 +3,7 @@ title: "Go: profiling o perfilado básico del uso del CPU"
 date: "2022-02-16"
 categories: 
   - "golang"
-coverImage: "go-profiling.jpg"
+coverImage: "images/go-profiling.jpg"
 keywords:
   - golang
   - rendimiento

@@ -3,7 +3,7 @@ title: "Comandos de Linux que deberías conocer (tercera parte)"
 date: "2019-05-21"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "comandos_GNU_Linux_3.jpg"
+coverImage: "images/comandos_GNU_Linux_3.jpg"
 keywords:
   - linux
 ---

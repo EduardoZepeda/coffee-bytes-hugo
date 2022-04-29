@@ -3,7 +3,7 @@ title: "No cometas este error al usar arrays en Python"
 date: "2021-04-07"
 categories: 
   - "python"
-coverImage: "NoCometasEsteError.jpg"
+coverImage: "images/NoCometasEsteError.jpg"
 keywords:
   - python
   - rendimiento

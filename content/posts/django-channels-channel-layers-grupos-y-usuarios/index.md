@@ -3,7 +3,7 @@ title: "Django channels: channel layers, grupos y usuarios"
 date: "2021-11-16"
 categories: 
   - "django"
-coverImage: "djangochannels.jpg"
+coverImage: "images/djangochannels.jpg"
 keywords:
   - django
   - python

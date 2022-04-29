@@ -3,7 +3,7 @@ title: "Managers o manejadores personalizados en Django"
 date: "2021-05-28"
 categories: 
   - "django"
-coverImage: "Managers_para_django.jpg"
+coverImage: "images/Managers_para_django.jpg"
 keywords:
   - django
   - python

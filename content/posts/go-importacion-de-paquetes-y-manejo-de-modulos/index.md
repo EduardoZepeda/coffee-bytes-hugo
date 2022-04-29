@@ -3,7 +3,7 @@ title: "Go: importacion de paquetes y manejo de modulos"
 date: "2022-01-12"
 categories: 
   - "golang"
-coverImage: "Golang-paquetes-y-modulos.jpg"
+coverImage: "images/Golang-paquetes-y-modulos.jpg"
 keywords:
   - golang
 ---

@@ -3,7 +3,7 @@ title: "Trigramas y búsquedas avanzadas con Django y Postgres"
 date: "2021-05-17"
 categories: 
   - "django"
-coverImage: "Busquedas-avanzadas-con-trigramas.jpg"
+coverImage: "images/Busquedas-avanzadas-con-trigramas.jpg"
 keywords:
   - "orm"
   - "django"

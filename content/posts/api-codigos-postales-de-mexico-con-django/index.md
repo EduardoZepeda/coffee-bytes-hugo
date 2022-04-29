@@ -3,7 +3,7 @@ title: "API códigos postales de Mexico con Django"
 date: "2021-07-22"
 categories: 
   - "django"
-coverImage: "CodigosPostalesMexicoDjango.jpg"
+coverImage: "images/CodigosPostalesMexicoDjango.jpg"
 keywords:
   - django
   - api

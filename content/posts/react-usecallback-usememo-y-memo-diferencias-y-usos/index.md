@@ -3,7 +3,7 @@ title: "React useCallback, useMemo y memo, diferencias y usos"
 date: "2021-08-02"
 categories: 
   - "react"
-coverImage: "ReactuseCallbackuseMemoMemo.jpg"
+coverImage: "images/ReactuseCallbackuseMemoMemo.jpg"
 keywords:
   - "javascript"
   - "react"

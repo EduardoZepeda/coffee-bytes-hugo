@@ -3,7 +3,7 @@ title: "¿Cómo subir múltiples imágenes en Django?"
 date: "2021-03-30"
 categories: 
   - "django"
-coverImage: "como-usar-django-para-subir-multiples-imagenes.jpg"
+coverImage: "images/como-usar-django-para-subir-multiples-imagenes.jpg"
 keywords:
   - python
   - django

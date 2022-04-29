@@ -4,7 +4,7 @@ date: "2020-12-30"
 categories: 
   - "arquitectura-de-software"
   - "django"
-coverImage: "Mejora-el-rendimiento-de-tuapp-django.jpg"
+coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
 keywords:
   - rendimiento
   - django

@@ -3,7 +3,7 @@ title: "Pipenv: El administrador de entornos virtuales que NO conoces"
 date: "2020-08-15"
 categories: 
   - "python"
-coverImage: "Tutorial-de-pipenv.jpg"
+coverImage: "images/Tutorial-de-pipenv.jpg"
 keywords:
   - "python"
   - "pipenv"

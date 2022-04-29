@@ -3,7 +3,7 @@ title: "Categorias en Django usando ForeignKey hacia self"
 date: "2022-03-30"
 categories: 
   - "django"
-coverImage: "DjangoCategoriasYSubcategorias.jpg"
+coverImage: "images/DjangoCategoriasYSubcategorias.jpg"
 coverImageCredits: "Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895"
 keywords:
   - django

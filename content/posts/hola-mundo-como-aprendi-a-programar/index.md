@@ -3,7 +3,7 @@ title: "Hello World, ¿cómo aprendi a programar?"
 date: "2019-03-31"
 categories: 
   - "opiniones"
-coverImage: "Figura-de-miku-hatsune-de-vinsky2002.jpg"
+coverImage: "images/Figura-de-miku-hatsune-de-vinsky2002.jpg"
 keywords:
   - opinion
   - internet

@@ -3,7 +3,7 @@ title: "Desestructuracion de objetos anidados"
 date: "2019-11-16"
 categories: 
   - "javascript"
-coverImage: "desestructuracion_de_objetos_anidadis.jpg"
+coverImage: "images/desestructuracion_de_objetos_anidadis.jpg"
 keywords:
   - javascript
 ---

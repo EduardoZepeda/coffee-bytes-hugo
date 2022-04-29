@@ -4,7 +4,7 @@ date: "2021-01-14"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
-coverImage: "Cover.jpg"
+coverImage: "images/Cover.jpg"
 keywords:
   - digital ocean
   - opinion

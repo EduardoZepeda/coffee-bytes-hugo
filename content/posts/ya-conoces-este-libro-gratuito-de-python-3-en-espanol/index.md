@@ -3,7 +3,7 @@ title: "Aprende Python desde cero con este libro gratuito"
 date: "2019-07-31"
 categories: 
   - "python"
-coverImage: "DSC_3818.jpg"
+coverImage: "images/DSC_3818.jpg"
 keywords:
   - "libros"
   - "python"

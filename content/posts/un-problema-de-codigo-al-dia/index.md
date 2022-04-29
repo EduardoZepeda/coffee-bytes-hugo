@@ -3,7 +3,7 @@ title: "Un problema de algoritmos al dia"
 date: "2019-06-04"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "un_problema_de_codigo_al_dia.jpg"
+coverImage: "images/un_problema_de_codigo_al_dia.jpg"
 keywords:
   - "internet"
   - "algoritmos"

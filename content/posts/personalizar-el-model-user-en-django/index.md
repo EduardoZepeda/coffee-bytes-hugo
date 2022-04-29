@@ -3,7 +3,7 @@ title: "¿Cómo personalizar el modelo User en Django?"
 date: "2022-03-16"
 categories: 
   - "django"
-coverImage: "pin-961667.jpg"
+coverImage: "images/pin-961667.jpg"
 coverImageCredits: "Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667"
 keywords:
   - "django"

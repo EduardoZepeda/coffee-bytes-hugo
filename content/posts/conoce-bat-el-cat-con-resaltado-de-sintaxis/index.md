@@ -3,7 +3,7 @@ title: "Conoce bat en linux, el cat con resaltado de sintaxis"
 date: "2020-08-25"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "bat-el-cat-con-resaltado-de-sintaxis.jpg"
+coverImage: "images/bat-el-cat-con-resaltado-de-sintaxis.jpg"
 keywords:
   - linux
 ---

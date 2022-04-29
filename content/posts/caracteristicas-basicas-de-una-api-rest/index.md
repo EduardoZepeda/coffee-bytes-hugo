@@ -5,7 +5,7 @@ date: "2022-04-07"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
-coverImage: "CaracteristicasBasicasDeUnaAPIREST.jpg"
+coverImage: "images/CaracteristicasBasicasDeUnaAPIREST.jpg"
 coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
 keywords:
   - REST

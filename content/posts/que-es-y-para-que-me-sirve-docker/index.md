@@ -3,7 +3,7 @@ title: "¿Qué es Docker y para que sirve?"
 date: "2020-09-29"
 categories: 
   - "docker"
-coverImage: "Fotografia-contenedores-Kaique-Rocha.jpg"
+coverImage: "images/Fotografia-contenedores-Kaique-Rocha.jpg"
 keywords:
   - "docker"
   - "docker compose"

@@ -3,7 +3,7 @@ title: "Desestructuracion de variables en javascript"
 date: "2019-10-16"
 categories: 
   - "javascript"
-coverImage: "Desestructuracion_objetos_javascript.jpg"
+coverImage: "images/Desestructuracion_objetos_javascript.jpg"
 keywords:
   - javascript
 ---

@@ -3,7 +3,7 @@ title: "¿Cómo encontrar un comando ejecutado anteriormente en GNU Linux?"
 date: "2019-09-01"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "como_recuperar_comando_gnu_linux.jpg"
+coverImage: "images/como_recuperar_comando_gnu_linux.jpg"
 keywords:
   - linux
 ---

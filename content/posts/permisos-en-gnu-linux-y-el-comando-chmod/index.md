@@ -3,7 +3,7 @@ title: "Entiende los permisos en GNU Linux y el comando chmod"
 date: "2019-05-29"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "permisos_gnu_linux.jpg"
+coverImage: "images/permisos_gnu_linux.jpg"
 keywords:
   - linux
 ---

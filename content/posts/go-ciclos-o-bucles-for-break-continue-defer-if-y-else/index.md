@@ -3,7 +3,7 @@ title: "Go: ciclos o bucles for, break, continue, defer, if y else"
 date: "2021-12-07"
 categories: 
   - "golang"
-coverImage: "go-funciones-defer-break-continue-if-else.jpg"
+coverImage: "images/go-funciones-defer-break-continue-if-else.jpg"
 keywords:
   - golang
 ---

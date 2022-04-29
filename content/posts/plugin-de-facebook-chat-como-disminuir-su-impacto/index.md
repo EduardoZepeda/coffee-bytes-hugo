@@ -3,7 +3,7 @@ title: "Plugin de facebook chat ¿cómo disminuir su impacto?"
 date: "2021-10-05"
 categories: 
   - "javascript"
-coverImage: "ReduceElImpactoFb-ChatPlugin.jpg"
+coverImage: "images/ReduceElImpactoFb-ChatPlugin.jpg"
 keywords:
   - "rendimiento"
   - "javascript"

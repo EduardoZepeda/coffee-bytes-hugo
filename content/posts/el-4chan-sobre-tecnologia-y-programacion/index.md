@@ -3,7 +3,7 @@ title: "El 4chan sobre tecnologia y programacion"
 date: "2019-09-16"
 categories: 
   - "opiniones"
-coverImage: "el_4chan_sobre_programacion.jpg"
+coverImage: "images/el_4chan_sobre_programacion.jpg"
 keywords:
   - opinion
   - internet

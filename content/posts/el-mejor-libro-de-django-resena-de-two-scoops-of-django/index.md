@@ -3,7 +3,7 @@ title: "El mejor libro de Django, reseñaaá de Two Scoops of Django"
 date: "2020-05-02"
 categories: 
   - "django"
-coverImage: "Two_scoops_of_django.jpg"
+coverImage: "images/Two_scoops_of_django.jpg"
 keywords:
   - django
   - python

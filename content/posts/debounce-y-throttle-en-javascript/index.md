@@ -3,7 +3,7 @@ title: "Debounce y Throttle en Javascript"
 date: "2022-03-23"
 categories: 
   - "javascript"
-coverImage: "BounceYThrottleJavascript.jpg"
+coverImage: "images/BounceYThrottleJavascript.jpg"
 coverImageCredits: "Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/en/users/54726558"
 keywords:
   - javascript

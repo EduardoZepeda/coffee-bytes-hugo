@@ -3,7 +3,7 @@ title: "Django Rest Framework y JWT para autenticar usuarios"
 date: "2021-06-14"
 categories: 
   - "django"
-coverImage: "JWT.jpg"
+coverImage: "images/JWT.jpg"
 keywords:
   - django
   - jwt

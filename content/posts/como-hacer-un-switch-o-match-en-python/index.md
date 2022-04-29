@@ -3,7 +3,7 @@ title: "¿Cómo hacer un switch en Python?"
 date: "2021-03-06"
 categories: 
   - "python"
-coverImage: "PythonYatiene.jpg"
+coverImage: "images/PythonYatiene.jpg"
 keywords:
   - python
 ---

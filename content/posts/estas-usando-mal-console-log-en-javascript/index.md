@@ -3,7 +3,7 @@ title: "Estas usando mal console.log en javascript"
 date: "2020-01-15"
 categories: 
   - "javascript"
-coverImage: "estas_usando_console_mal.jpg"
+coverImage: "images/estas_usando_console_mal.jpg"
 keywords:
   - javascript
   - opinion

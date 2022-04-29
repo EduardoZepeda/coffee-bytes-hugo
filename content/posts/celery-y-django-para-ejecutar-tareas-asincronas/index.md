@@ -3,7 +3,7 @@ title: "Celery y django para ejecutar tareas asincronas"
 date: "2021-08-24"
 categories: 
   - "django"
-coverImage: "TareasAsincronasDjangoYCelery.jpg"
+coverImage: "images/TareasAsincronasDjangoYCelery.jpg"
 keywords:
   - celery
   - python

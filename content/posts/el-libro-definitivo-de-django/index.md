@@ -3,7 +3,7 @@ title: "La guia definitiva de Django"
 date: "2020-04-01"
 categories: 
   - "django"
-coverImage: "DSC_3822.jpg"
+coverImage: "images/DSC_3822.jpg"
 keywords:
   - django
   - python

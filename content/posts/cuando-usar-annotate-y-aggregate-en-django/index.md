@@ -3,7 +3,7 @@ title: "Django Annotate y aggregate explicados"
 date: "2020-11-17"
 categories: 
   - "django"
-coverImage: "Django_aggregate_y_annotate.jpg"
+coverImage: "images/Django_aggregate_y_annotate.jpg"
 keywords:
   - django
   - python

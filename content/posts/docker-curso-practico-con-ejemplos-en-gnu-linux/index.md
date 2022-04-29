@@ -3,7 +3,7 @@ title: "Los comandos básicos de Docker y su uso"
 date: "2020-10-07"
 categories: 
   - "docker"
-coverImage: "DockerCursoPractico.jpg"
+coverImage: "images/DockerCursoPractico.jpg"
 keywords:
   - docker
 url: "tutorial-de-comandos-basicos-de-docker"

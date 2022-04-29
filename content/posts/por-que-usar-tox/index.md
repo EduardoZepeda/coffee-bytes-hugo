@@ -3,7 +3,7 @@ title: "Testeo con tox en Python, tutorial desde cero"
 date: "2019-06-18"
 categories: 
   - "python"
-coverImage: "porque_deberias_usar_tox.jpg"
+coverImage: "images/porque_deberias_usar_tox.jpg"
 keywords:
   - "tox"
   - "python"

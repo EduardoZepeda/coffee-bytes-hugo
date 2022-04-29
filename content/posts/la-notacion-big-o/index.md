@@ -4,7 +4,7 @@ date: "2019-08-15"
 categories: 
   - "gnu-linux-y-devops"
   - "rendimiento"
-coverImage: "BigO_notacion.jpg"
+coverImage: "images/BigO_notacion.jpg"
 keywords:
   - bigo
   - rendimiento

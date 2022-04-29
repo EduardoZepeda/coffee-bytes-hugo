@@ -3,7 +3,7 @@ title: "¿Para qué sirve Django genericForeignkey?"
 date: "2021-02-22"
 categories: 
   - "django"
-coverImage: "DjangoGenericForeignKey.jpg"
+coverImage: "images/DjangoGenericForeignKey.jpg"
 keywords:
   - python
   - django

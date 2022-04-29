@@ -3,7 +3,7 @@ title: "Golang: introducción al lenguaje,  variables y tipos de datos"
 date: "2021-11-23"
 categories: 
   - "golang"
-coverImage: "golanga.jpg"
+coverImage: "images/golanga.jpg"
 keywords:
   - golang
 ---

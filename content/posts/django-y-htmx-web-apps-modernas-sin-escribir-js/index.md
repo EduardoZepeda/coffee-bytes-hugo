@@ -4,7 +4,7 @@ date: "2021-07-14"
 categories: 
   - "django"
   - "htmx"
-coverImage: "Djangohtmx.jpg"
+coverImage: "images/Djangohtmx.jpg"
 keywords:
   - django
   - htmx

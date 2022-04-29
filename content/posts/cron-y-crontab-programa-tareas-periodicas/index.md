@@ -3,7 +3,7 @@ title: "Cron y Crontab programa tareas periódicas"
 date: "2020-02-01"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "programa_tareas_periodicas_con_cron.jpg"
+coverImage: "images/programa_tareas_periodicas_con_cron.jpg"
 keywords:
   - linux
   - crontab

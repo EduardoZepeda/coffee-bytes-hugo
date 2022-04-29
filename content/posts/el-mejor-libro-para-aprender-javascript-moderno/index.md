@@ -3,7 +3,7 @@ title: "El mejor libro para aprender Javascript moderno"
 date: "2019-10-01"
 categories: 
   - "javascript"
-coverImage: "eloquent_javascript.jpg"
+coverImage: "images/eloquent_javascript.jpg"
 keywords:
   - javascript
   - libros

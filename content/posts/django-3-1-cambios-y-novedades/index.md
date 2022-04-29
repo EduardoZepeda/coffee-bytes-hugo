@@ -3,7 +3,7 @@ title: "Django 3.1 cambios y novedades: resumen completo"
 date: "2020-08-04"
 categories: 
   - "django"
-coverImage: "tres.jpg"
+coverImage: "images/tres.jpg"
 keywords:
   - django
   - python

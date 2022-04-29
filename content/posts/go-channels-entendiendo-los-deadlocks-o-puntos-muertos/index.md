@@ -3,7 +3,7 @@ title: "Go: channels, entendiendo los deadlocks o puntos muertos"
 date: "2022-01-26"
 categories: 
   - "golang"
-coverImage: "go-deadlock-y-goroutines.jpg"
+coverImage: "images/go-deadlock-y-goroutines.jpg"
 keywords:
   - golang
 ---

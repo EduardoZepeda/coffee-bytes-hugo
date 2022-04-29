@@ -3,7 +3,7 @@ title: "¿Cómo medir las peticiones por segundo con locust en python?"
 date: "2021-10-12"
 categories: 
   - "python"
-coverImage: "MideCargaUsuariosLocust.jpg"
+coverImage: "images/MideCargaUsuariosLocust.jpg"
 keywords:
   - python
   - rendimiento

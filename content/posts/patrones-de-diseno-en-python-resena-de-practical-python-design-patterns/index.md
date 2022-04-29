@@ -3,7 +3,7 @@ title: "Patrones de diseno en Python, reseña de Practical Python Design Pattern
 date: "2020-05-31"
 categories: 
   - "python"
-coverImage: "practical_python_design_patterns.jpg"
+coverImage: "images/practical_python_design_patterns.jpg"
 keywords:
   - python
   - patrones de diseño

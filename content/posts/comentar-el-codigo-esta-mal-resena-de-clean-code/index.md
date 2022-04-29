@@ -3,7 +3,7 @@ title: "¿Comentar el codigo esta mal? Reseña de Clean Code"
 date: "2020-05-16"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "clean_code.jpg"
+coverImage: "images/clean_code.jpg"
 keywords:
   - libros
   - reseñas

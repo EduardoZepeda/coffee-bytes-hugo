@@ -4,7 +4,8 @@ date: "2022-04-28"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
-coverImage: "buenDisenoAPIREST.jpg"
+coverImage: "images/buenDisenoAPIREST.jpg"
+description: "Buenas prácticas de diseño de una API REST, como versionarla, actualizarla y anidar los recursos en las URI."
 keywords:
   - arquitectura de software
   - opinion

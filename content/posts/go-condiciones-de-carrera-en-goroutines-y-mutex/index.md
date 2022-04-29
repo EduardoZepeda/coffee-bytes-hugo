@@ -3,7 +3,7 @@ title: "Go: condiciones de carrera en goroutines y mutex"
 date: "2022-02-02"
 categories: 
   - "golang"
-coverImage: "go-mutex-race-conditions.jpg"
+coverImage: "images/go-mutex-race-conditions.jpg"
 keywords:
   - golang
 ---

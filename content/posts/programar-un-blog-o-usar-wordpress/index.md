@@ -3,7 +3,7 @@ title: "¿Programar un blog o usar wordpress?"
 date: "2019-06-26"
 categories: 
   - "opiniones"
-coverImage: "porque_decidi_usar_wordpress.jpg"
+coverImage: "images/porque_decidi_usar_wordpress.jpg"
 keywords:
   - "wordpress"
   - "opinion"

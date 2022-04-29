@@ -5,7 +5,7 @@ categories:
   - "javascript"
   - "react"
   - "typescript"
-coverImage: "TypesChildrenTypescript.jpg"
+coverImage: "images/TypesChildrenTypescript.jpg"
 keywords:
   - "react"
   - "typescript"

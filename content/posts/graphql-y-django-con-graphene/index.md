@@ -3,7 +3,7 @@ title: "Graphql y django con graphene"
 date: "2021-10-26"
 categories: 
   - "django"
-coverImage: "GraphqlGrapheneDjango.jpg"
+coverImage: "images/GraphqlGrapheneDjango.jpg"
 keywords:
   - django
   - python

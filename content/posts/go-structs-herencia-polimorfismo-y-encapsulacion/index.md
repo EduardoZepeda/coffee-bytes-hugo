@@ -3,7 +3,7 @@ title: "Go: Structs, herencia, polimorfismo y encapsulacion"
 date: "2022-01-04"
 categories: 
   - "golang"
-coverImage: "Go-structs.jpg"
+coverImage: "images/Go-structs.jpg"
 keywords:
   - golang
   - oop

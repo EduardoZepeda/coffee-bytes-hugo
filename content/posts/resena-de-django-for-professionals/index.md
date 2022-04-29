@@ -3,7 +3,7 @@ title: "Reseña de Django for Professionals"
 date: "2020-04-15"
 categories: 
   - "django"
-coverImage: "Django_for_professionals.jpg"
+coverImage: "images/Django_for_professionals.jpg"
 keywords:
   - "django"
   - "python"

@@ -3,7 +3,7 @@ title: "Desestructuracion de listas en Javascript"
 date: "2019-11-03"
 categories: 
   - "javascript"
-coverImage: "desestructuracion_de_listas.jpg"
+coverImage: "images/desestructuracion_de_listas.jpg"
 keywords:
   - javascript
 ---

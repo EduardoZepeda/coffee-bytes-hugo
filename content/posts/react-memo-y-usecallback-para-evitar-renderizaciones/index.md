@@ -3,7 +3,7 @@ title: "React memo y useCallback para evitar renderizaciones"
 date: "2021-08-10"
 categories: 
   - "react"
-coverImage: "useCallbackyMemo.jpg"
+coverImage: "images/useCallbackyMemo.jpg"
 keywords:
   - "javascript"
   - "react"

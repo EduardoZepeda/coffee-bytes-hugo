@@ -3,7 +3,7 @@ title: "Python virtualenv tutorial básico en linux"
 date: "2019-07-15"
 categories: 
   - "python"
-coverImage: "tutorial_basico_virtualenv.jpg"
+coverImage: "images/tutorial_basico_virtualenv.jpg"
 keywords:
   - "python"
   - "linux"

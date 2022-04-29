@@ -3,7 +3,7 @@ title: "Go: maps o diccionarios"
 date: "2021-12-21"
 categories: 
   - "golang"
-coverImage: "go-maps-o-diccionarios.jpg"
+coverImage: "images/go-maps-o-diccionarios.jpg"
 keywords:
   - golang
 ---

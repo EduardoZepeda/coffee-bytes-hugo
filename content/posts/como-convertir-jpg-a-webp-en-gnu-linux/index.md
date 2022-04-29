@@ -3,7 +3,7 @@ title: "¿Cómo convertir jpg a webp en GNU Linux?"
 date: "2020-09-10"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "Convierte-a-webp.jpg"
+coverImage: "images/Convierte-a-webp.jpg"
 keywords:
   - linux
   - frontend

@@ -1,9 +1,9 @@
 ---
-title: "caché en Django REST Framework con memcached"
+title: "Caché en Django REST Framework con memcached"
 date: "2021-09-07"
 categories: 
   - "django"
-coverImage: "CacheConMemcachedYPymemcache.jpg"
+coverImage: "images/CacheConMemcachedYPymemcache.jpg"
 keywords:
   - python
   - django

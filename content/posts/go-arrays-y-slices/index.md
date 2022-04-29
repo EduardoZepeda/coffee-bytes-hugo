@@ -3,7 +3,7 @@ title: "Go:  arrays y slices"
 date: "2021-12-14"
 categories: 
   - "golang"
-coverImage: "ArrayslicesYArrays.jpg"
+coverImage: "images/ArrayslicesYArrays.jpg"
 keywords:
   - golang
 ---

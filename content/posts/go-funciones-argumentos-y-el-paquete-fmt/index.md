@@ -3,7 +3,7 @@ title: "Go: funciones, argumentos y el paquete fmt"
 date: "2021-11-30"
 categories: 
   - "golang"
-coverImage: "GoFunciones.jpg"
+coverImage: "images/GoFunciones.jpg"
 keywords:
   - golang
 ---

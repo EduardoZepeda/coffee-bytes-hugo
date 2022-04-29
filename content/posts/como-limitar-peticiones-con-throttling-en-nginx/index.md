@@ -4,7 +4,7 @@ date: "2021-03-13"
 categories: 
   - "arquitectura-de-software"
   - "gnu-linux-y-devops"
-coverImage: "throttling_ngnix.jpg"
+coverImage: "images/throttling_ngnix.jpg"
 keywords:
   - nginx
   - rendimiento

@@ -4,7 +4,7 @@ date: "2020-10-27"
 categories: 
   - "docker"
   - "fastapi"
-coverImage: "tutorialFastAPIMuchacho.jpg"
+coverImage: "images/tutorialFastAPIMuchacho.jpg"
 keywords:
   - "fastapi"
   - "docker"

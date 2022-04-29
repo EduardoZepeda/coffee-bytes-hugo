@@ -3,7 +3,7 @@ title: "Django channels: consumers, scope y eventos"
 date: "2021-11-09"
 categories: 
   - "django"
-coverImage: "Django-channels-tutorial.jpg"
+coverImage: "images/Django-channels-tutorial.jpg"
 keywords:
   - django
   - python

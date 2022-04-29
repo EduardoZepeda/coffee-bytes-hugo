@@ -3,7 +3,7 @@ title: "Comandos de GNU Linux básicos que deberías conocer"
 date: "2019-05-08"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "comandos_GNU_Linux_1.jpg"
+coverImage: "images/comandos_GNU_Linux_1.jpg"
 keywords:
   - linux
 ---

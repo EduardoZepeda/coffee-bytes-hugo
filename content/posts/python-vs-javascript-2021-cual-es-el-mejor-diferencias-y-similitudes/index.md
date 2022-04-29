@@ -4,7 +4,7 @@ date: "2020-12-10"
 categories: 
   - "javascript"
   - "python"
-coverImage: "PythonVSJavascript.jpg"
+coverImage: "images/PythonVSJavascript.jpg"
 keywords:
   - "python"
   - "javascript"

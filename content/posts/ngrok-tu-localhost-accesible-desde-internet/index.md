@@ -3,7 +3,7 @@ title: "Ngrok, tu localhost accesible desde internet"
 date: "2021-04-29"
 categories: 
   - "gnu-linux-y-devops"
-coverImage: "ngrok-coffee-bytes.jpg"
+coverImage: "images/ngrok-coffee-bytes.jpg"
 keywords:
   - linux
 ---

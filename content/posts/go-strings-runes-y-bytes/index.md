@@ -3,7 +3,7 @@ title: "Go: strings, runes y bytes"
 date: "2021-12-28"
 categories: 
   - "golang"
-coverImage: "go-strings-runes-and-bytes.jpg"
+coverImage: "images/go-strings-runes-and-bytes.jpg"
 keywords:
   - golang
 ---

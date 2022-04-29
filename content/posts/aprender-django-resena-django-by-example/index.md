@@ -3,7 +3,7 @@ title: "Aprender Django con Django by Example, mi reseña"
 date: "2020-09-01"
 categories: 
   - "django"
-coverImage: "Django_by_example.jpg"
+coverImage: "images/Django_by_example.jpg"
 keywords:
   - libros
   - opinion

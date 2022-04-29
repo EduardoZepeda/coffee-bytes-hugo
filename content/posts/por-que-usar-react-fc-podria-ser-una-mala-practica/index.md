@@ -4,7 +4,7 @@ date: "2022-02-23"
 categories: 
   - "opiniones"
   - "typescript"
-coverImage: "react-fc-mala-practica.jpg"
+coverImage: "images/react-fc-mala-practica.jpg"
 keywords:
   - "react"
   - "typescript"

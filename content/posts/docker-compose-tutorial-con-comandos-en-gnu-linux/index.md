@@ -3,7 +3,7 @@ title: "Conoce los comandos básicos de Docker Compose"
 date: "2020-10-14"
 categories: 
   - "docker"
-coverImage: "DockerCompose.jpg"
+coverImage: "images/DockerCompose.jpg"
 keywords:
   - docker
   - docker compose

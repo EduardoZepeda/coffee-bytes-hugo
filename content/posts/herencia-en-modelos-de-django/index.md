@@ -3,7 +3,7 @@ title: "Comprende los tipos de herencia en modelos de Django"
 date: "2020-09-21"
 categories: 
   - "django"
-coverImage: "HerenciaModelosDjango.jpg"
+coverImage: "images/HerenciaModelosDjango.jpg"
 keywords:
   - django
   - python

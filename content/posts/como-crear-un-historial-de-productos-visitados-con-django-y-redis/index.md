@@ -3,7 +3,7 @@ title: "¿Cómo crear un historial de productos visitados con django y redis?"
 date: "2020-11-28"
 categories: 
   - "django"
-coverImage: "django_y_redis_con_mejor_diseno.jpg"
+coverImage: "images/django_y_redis_con_mejor_diseno.jpg"
 keywords:
   - django
   - redis

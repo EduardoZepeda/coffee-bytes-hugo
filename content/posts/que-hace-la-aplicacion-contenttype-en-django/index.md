@@ -3,7 +3,7 @@ title: "¿Que hace la aplicacion ContentType en Django?"
 date: "2021-02-16"
 categories: 
   - "django"
-coverImage: "ContentTypeDjango2.jpg"
+coverImage: "images/ContentTypeDjango2.jpg"
 keywords:
   - "django"
   - "python"

@@ -3,7 +3,7 @@ title: "¿Por qué deberías usar un entorno virtual en python?"
 date: "2019-07-10"
 categories: 
   - "python"
-coverImage: "porque_deberias_usar_un_entorno_virtual.jpg"
+coverImage: "images/porque_deberias_usar_un_entorno_virtual.jpg"
 keywords:
   - "python"
   - "opinion"

@@ -3,7 +3,7 @@ title: "Desestructuracion con valores por defecto en Javascript"
 date: "2019-12-01"
 categories: 
   - "javascript"
-coverImage: "desestructuracion_con_valores_por_defecto.jpg"
+coverImage: "images/desestructuracion_con_valores_por_defecto.jpg"
 keywords:
   - javascript
 ---

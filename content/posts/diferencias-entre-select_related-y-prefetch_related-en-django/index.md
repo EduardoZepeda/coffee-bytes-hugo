@@ -3,7 +3,7 @@ title: "Diferencias entre select_related y prefetch_related en Django"
 date: "2022-03-09"
 categories: 
   - "django"
-coverImage: "django-select-related-prefetch-related.jpg"
+coverImage: "images/django-select-related-prefetch-related.jpg"
 coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
 keywords:
   - django

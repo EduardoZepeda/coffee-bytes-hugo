@@ -4,7 +4,7 @@ date: "2021-11-02"
 categories: 
   - "golang"
   - "python"
-coverImage: "Python-vs-go.jpg"
+coverImage: "images/Python-vs-go.jpg"
 keywords:
   - "python"
   - "golang"

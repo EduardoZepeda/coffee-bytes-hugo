@@ -3,7 +3,7 @@ title: "Go: goroutines, channels o canales, introducción"
 date: "2022-01-19"
 categories: 
   - "golang"
-coverImage: "goroutines-y-concurrencia-en-go.jpg"
+coverImage: "images/goroutines-y-concurrencia-en-go.jpg"
 keywords:
   - golang
 ---

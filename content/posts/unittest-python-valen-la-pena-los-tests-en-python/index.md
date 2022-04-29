@@ -3,7 +3,7 @@ title: "Unittest python ¿valen la pena los tests en python?"
 date: "2019-06-11"
 categories: 
   - "python"
-coverImage: "porque_deberias_incorporar_test_a_tu_codigo.jpg"
+coverImage: "images/porque_deberias_incorporar_test_a_tu_codigo.jpg"
 keywords:
   - "testing"
   - "python"

@@ -3,7 +3,7 @@ title: "¿Cómo programar un cambiador de wallpaper automático en Python?"
 date: "2020-03-01"
 categories: 
   - "python"
-coverImage: "como_programar_un_cambiador_wallpaper_python.jpg"
+coverImage: "images/como_programar_un_cambiador_wallpaper_python.jpg"
 keywords:
   - linux
   - python
