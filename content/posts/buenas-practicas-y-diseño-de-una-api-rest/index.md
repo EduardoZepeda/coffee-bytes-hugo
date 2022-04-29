@@ -19,11 +19,11 @@ Antes de empezar, hay una serie de [características básicas de una API REST](h
 
 Recuerda que una API REST puede devolver otros formatos, no solo JSON, pero voy a centrarme en este para los ejemplos porque es bastante popular. 
 
-Voy a comenzar con una pregunta bastante común. ¿Cómo estructuro mi respuesta JSON?
+Voy a comenzar con una pregunta bastante común: ¿cómo estructuro mi respuesta JSON?
 
 ## Estructura para respuestas JSON
 
-Hay diferentes maneras de estructurar la respuesta de una API REST. No hay ninguna válida ni inválida, depende del gusto de cada equipo y las necesidades de la aplicación. **Lo importante aquí es mantener la consistencia y la homogeneidad**.
+Hay diferentes maneras de estructurar la respuesta de una API REST. No hay ninguna válida ni inválida, depende del gusto de cada equipo y las necesidades de la aplicación. **Lo importante aquí es mantener la consistencia y la homogeneidad en todas tus respuestas**.
 
 ### Según json:api
 
@@ -204,7 +204,9 @@ Generalmente querras versionar tu API. Sin embargo, si tu API es sumamente simpl
 
 ### ¿Dónde versionar el API?
 
-Para que una API se apegue a los [requisitos de la arquitectura REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/) debe cumplir con ciertas características, pero algunas compañias deciden obviar estos requisitos para sus APIs y, aún así, denominarlas REST. Aquí te dejo algunas opciones para versionar tus APIs usadas por grandes compañias, sin importar si cumplen con REST o no.
+Para que una API se apegue a los [requisitos de la arquitectura REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/) debe cumplir con ciertas características, pero algunas compañias deciden obviar estos requisitos para sus APIs y, aún así, denominarlas REST. 
+
+Aquí te dejo algunas opciones para versionar tus APIs usadas por grandes compañias, sin importar si cumplen con REST o no.
 
 ### A nivel url
 
@@ -277,7 +279,7 @@ Ejemplos de compañias: Github, Adidas.
 application/vnd.github[.version].param[+json]
 ```
 
-Esta opción es técnicamente REST, aunque puede ser un poco más confusa para las personas no familiarizadas con el protocolo HTTP.
+En REST una cosa son los recursos y otra su representación, los recursos, además del formato, tienen otra forma de representación, la cual es la versión de la API, por lo que esta manera sí cumple con REST. Aunque su uso puede ser un poco más confuso para las personas no familiarizadas con el protocolo HTTP.
 
 ## ¿Qué tanto anidar los recursos de una API?
 
@@ -347,7 +349,7 @@ De acuerdo a la especificación [RFC 3986](https://datatracker.ietf.org/doc/html
 
 * Caracteres seguros [0-9a-zA-Z]: no necesitan codificarse
 * Caracteres no reservados [- . _ ~]: no necesitan codificarse
-* Caracteres reservados [: / ? # [ ] @ ! $ & ' ( ) * + , ;] solo necesitan codificarse si no se usan para su propósito original (Por ejemp, una diagonal que no se use para separar rutas)
+* Caracteres reservados [: / ? # [] @ ! $ & ' ( ) * + , ;] solo necesitan codificarse si no se usan para su propósito original (Por ejemp, una diagonal que no se use para separar rutas)
 * Caracteres inseguros [< > % { } | \ ^ `]: necesitan codificarse
 * El resto de caracteres necesitan codificarse.
 
@@ -358,9 +360,9 @@ Lo anterior está cambiando y se intenta agregar muchos más simbolos de diferen
 Los motores de búsqueda consideran la URL para posicionar una página web, si para tu sitio web es importante el posicionamiento en buscadores, no te conformes con usar identificadores, comunica al motor de búsqueda el tema en la URL. El SEO y las URLs son un tema bastante amplio para resumirse en unas lineas, pero esto debería darte una idea de como buscar más información.
 
 ```bash
-/post/el-titulo-de-mi-post ✅
-/post/99-el-titulo-de-mi-post ✅
-/post/99 ❌
+/posts/el-titulo-de-mi-post ✅
+/posts/99-el-titulo-de-mi-post ✅
+/posts/99 ❌
 ```
 
 Espero que te haya servido la entrada, o que al menos te haya presentado material que no habías tomado en cuenta enteriormente al diseñar una API.
