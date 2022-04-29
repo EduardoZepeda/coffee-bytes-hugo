@@ -4,6 +4,7 @@ date: "2021-11-23"
 categories: 
   - "golang"
 coverImage: "images/golanga.jpg"
+description: "Conoce las bases del lenguaje de programación go o golang: compilación, estructura de un archivo, variables y tipos de datos."
 keywords:
   - golang
 ---
@@ -262,7 +263,7 @@ En go, **si no asignamos un valor el compilador usará valores predeterminados**
 
 - int: 0
 - float: 0
-- string: ""
+- string: "
 - bool: false
 
 ## Valor nulo

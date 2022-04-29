@@ -4,6 +4,7 @@ date: "2021-12-07"
 categories: 
   - "golang"
 coverImage: "images/go-funciones-defer-break-continue-if-else.jpg"
+description: "Sintaxis y usos básicos de las estructuras if y else, los bucles, sus tipos, break, continue y defer en el lenguaje de programación go"
 keywords:
   - golang
 ---

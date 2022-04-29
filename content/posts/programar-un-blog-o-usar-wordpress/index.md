@@ -4,6 +4,7 @@ date: "2019-06-26"
 categories: 
   - "opiniones"
 coverImage: "images/porque_decidi_usar_wordpress.jpg"
+description: "Muchas veces nos enfrentamos a la duda de programar un blog desde cero o usar una solución más popular como wordpress. En esta entrada explico mi opinión."
 keywords:
   - "wordpress"
   - "opinion"

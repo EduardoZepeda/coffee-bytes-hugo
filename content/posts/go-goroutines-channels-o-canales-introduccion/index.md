@@ -4,6 +4,7 @@ date: "2022-01-19"
 categories: 
   - "golang"
 coverImage: "images/goroutines-y-concurrencia-en-go.jpg"
+description: "Post sobre las bases de las goroutines, channels o canales, waitgroups y bloqueos en el lenguaje de programación golang o go."
 keywords:
   - golang
 ---

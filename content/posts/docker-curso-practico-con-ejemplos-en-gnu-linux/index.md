@@ -4,6 +4,7 @@ date: "2020-10-07"
 categories: 
   - "docker"
 coverImage: "images/DockerCursoPractico.jpg"
+description: "Aprende a usar los comandos básicos de Docker, a diferenciar imágenes y contenedores, volúmenes, crear Dockerfiles y usar docker build."
 keywords:
   - docker
 url: "tutorial-de-comandos-basicos-de-docker"

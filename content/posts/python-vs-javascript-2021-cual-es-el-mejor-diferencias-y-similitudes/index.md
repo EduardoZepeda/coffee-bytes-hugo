@@ -5,6 +5,7 @@ categories:
   - "javascript"
   - "python"
 coverImage: "images/PythonVSJavascript.jpg"
+description: "Conoce las diferencias entre Python y Javascript, dos de los lenguajes más populares. Sintaxis, velocidad, paquetes, frameworks disponibles."
 keywords:
   - "python"
   - "javascript"

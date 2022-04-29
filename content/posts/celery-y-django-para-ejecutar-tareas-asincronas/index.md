@@ -4,6 +4,7 @@ date: "2021-08-24"
 categories: 
   - "django"
 coverImage: "images/TareasAsincronasDjangoYCelery.jpg"
+description: "Celery permite la ejecución de tareas asíncronas en django. Configura celery en django para manejar correos o cálculos costosos en tiempo."
 keywords:
   - celery
   - python

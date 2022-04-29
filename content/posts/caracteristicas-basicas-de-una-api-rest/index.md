@@ -6,6 +6,7 @@ categories:
   - "arquitectura-de-software"
   - "opiniones"
 coverImage: "images/CaracteristicasBasicasDeUnaAPIREST.jpg"
+description: "¿Qué características debe cumplir una API REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS? ¿uso mayúsculas o minúsculas en la url?"
 coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
 keywords:
   - REST

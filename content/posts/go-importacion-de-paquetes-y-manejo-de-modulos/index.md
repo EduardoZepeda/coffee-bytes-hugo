@@ -4,6 +4,7 @@ date: "2022-01-12"
 categories: 
   - "golang"
 coverImage: "images/Golang-paquetes-y-modulos.jpg"
+description: "Aprende lo básico de importar paquetes y manejo modulos en el lenguaje de programación go. Domina el método de go init y el archivo go.mod"
 keywords:
   - golang
 ---

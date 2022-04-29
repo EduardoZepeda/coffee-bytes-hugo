@@ -5,6 +5,7 @@ categories:
   - "golang"
   - "python"
 coverImage: "images/Python-vs-go.jpg"
+description: "Conoce las diferencias entre Python y Go, dos de los lenguajes más populares. Sintaxis, velocidad, paquetes disponibles y salarios."
 keywords:
   - "python"
   - "golang"
@@ -204,7 +205,7 @@ El manejo de errores es algo que es bastante constante en los lenguajes, pero en
 Go tiene una manera bastante peculiar de manejar los errores. **No cuenta con bloques _try_ y _except_ (o su equivalente en otros lenguajes)**. Sino que la ejecución de una función puede retornar un error como un segundo valor de retorno, el cual podemos obtener y verificar para saber si ha ocurrido un error.
 
 ```go
-message, err := requestToApiEndpoint("")
+message, err := requestToApiEndpoint(")
     if err != nil {
         log.Fatal(err)
     }

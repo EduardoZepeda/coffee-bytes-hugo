@@ -4,6 +4,7 @@ date: "2022-01-04"
 categories: 
   - "golang"
 coverImage: "images/Go-structs.jpg"
+description: "Declara structs en go y emula la herencia, polimorfismo y encapsulación que están presentes en la programación orientados a objetos."
 keywords:
   - golang
   - oop

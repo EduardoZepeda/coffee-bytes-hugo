@@ -4,6 +4,7 @@ date: "2021-09-28"
 categories: 
   - "python"
 coverImage: "images/OCR.jpg"
+description: "Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre imágenes usando python, tesseract-ocr y pytesseract."
 keywords:
   - python
   - inteligencia artificial

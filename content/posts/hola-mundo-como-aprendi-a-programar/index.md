@@ -4,6 +4,7 @@ date: "2019-03-31"
 categories: 
   - "opiniones"
 coverImage: "images/Figura-de-miku-hatsune-de-vinsky2002.jpg"
+description: "Esta es una entrada personal donde explico como aprendí a programar por primera vez, primero en PHP y mis primeros contactos con Python."
 keywords:
   - opinion
   - internet

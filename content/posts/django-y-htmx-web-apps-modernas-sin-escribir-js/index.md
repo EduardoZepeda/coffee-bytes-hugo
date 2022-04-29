@@ -5,6 +5,7 @@ categories:
   - "django"
   - "htmx"
 coverImage: "images/Djangohtmx.jpg"
+description: "Aprende a combinar Django y htmx para crear sitios web, mantener las mismas funcionalidades con mucho menos código JS del lado del cliente."
 keywords:
   - django
   - htmx

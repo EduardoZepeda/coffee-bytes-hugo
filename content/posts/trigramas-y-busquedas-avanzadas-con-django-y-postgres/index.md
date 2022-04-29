@@ -4,6 +4,7 @@ date: "2021-05-17"
 categories: 
   - "django"
 coverImage: "images/Busquedas-avanzadas-con-trigramas.jpg"
+description: "Te muestro lo básico sobre las búsquedas de texto avanzadas usando trigramas e indices de similitud y otros, usando Django y Postgres."
 keywords:
   - "orm"
   - "django"

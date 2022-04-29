@@ -4,6 +4,7 @@ date: "2019-11-16"
 categories: 
   - "javascript"
 coverImage: "images/desestructuracion_de_objetos_anidadis.jpg"
+description: "¿Desestructuración de objetos anidados en javascript? En esta entrada trato el tema de la desestructuración de objetos anidados con ejemplos."
 keywords:
   - javascript
 ---

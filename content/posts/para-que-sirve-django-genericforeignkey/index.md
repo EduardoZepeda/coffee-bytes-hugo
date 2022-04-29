@@ -4,6 +4,7 @@ date: "2021-02-22"
 categories: 
   - "django"
 coverImage: "images/DjangoGenericForeignKey.jpg"
+description: "Aprende a usar ContentType y el tipo de campo genericForeignKey en Django para relacionar un objeto con diferentes tipos de modelo."
 keywords:
   - python
   - django

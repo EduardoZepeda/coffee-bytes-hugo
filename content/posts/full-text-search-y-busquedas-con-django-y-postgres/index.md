@@ -4,6 +4,7 @@ date: "2021-05-06"
 categories: 
   - "django"
 coverImage: "images/Full-text-search-django.jpg"
+description: "Conoce los métodos de búsqueda básicos que Django y Postgres tienen para ofrecer, así como full text search y otras funcionalidades avanzadas."
 keywords:
   - django
   - postgres

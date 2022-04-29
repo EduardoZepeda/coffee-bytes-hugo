@@ -4,6 +4,7 @@ date: "2021-10-12"
 categories: 
   - "python"
 coverImage: "images/MideCargaUsuariosLocust.jpg"
+description: "Aprende a realizar y personalizar auditorias de tráfico de usuarios y peticiones por segundo (rps) realidad usando locust en Python."
 keywords:
   - python
   - rendimiento

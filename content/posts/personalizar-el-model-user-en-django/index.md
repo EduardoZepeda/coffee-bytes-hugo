@@ -4,6 +4,7 @@ date: "2022-03-16"
 categories: 
   - "django"
 coverImage: "images/pin-961667.jpg"
+description: "Te explico como personalizar el modelo User en Django para agregar campos extras o modificar el comportamiento por defecto de los Usuarios"
 coverImageCredits: "Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667"
 keywords:
   - "django"

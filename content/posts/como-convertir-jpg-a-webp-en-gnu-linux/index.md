@@ -4,6 +4,7 @@ date: "2020-09-10"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "images/Convierte-a-webp.jpg"
+description: "Hace un par de semanas quería convertir las imágenes mi ecommerce de jpg a webp. Normalmente para modificar imágenes en GNU/Linux uso GIMP..."
 keywords:
   - linux
   - frontend
@@ -95,6 +96,6 @@ No necesito decirte que para que esto funcione debes tener una imagen en formato
 <picture>
    <source srcset="https://turuta.com/imagen.webp" type="image/webp"> 
    <source srcset="https://turuta.com/imagen.jpg" type="image/jpeg"> 
-   <img src="https://turuta.com/imagen_.webp" alt="" class="img-class">
+   <img src="https://turuta.com/imagen_.webp" alt=" class="img-class">
 </picture>
 ```

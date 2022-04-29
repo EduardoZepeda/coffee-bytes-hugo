@@ -4,6 +4,7 @@ date: "2020-01-15"
 categories: 
   - "javascript"
 coverImage: "images/estas_usando_console_mal.jpg"
+description: "Aprende de una vez como aprovechar el objeto console de javascript y sus métodos más útiles para hacer más sencillo tu desarrollo."
 keywords:
   - javascript
   - opinion

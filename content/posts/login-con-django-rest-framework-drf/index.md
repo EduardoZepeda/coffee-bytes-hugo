@@ -4,6 +4,7 @@ date: "2021-08-17"
 categories: 
   - "django"
 coverImage: "images/AutenticacionConDRF.jpg"
+description: "Implementa login y registro de tus usuarios en django con las librerías dj-rest-auth y django-allauth usando tokens y también JWT."
 keywords:
   - REST
   - django
@@ -160,7 +161,7 @@ Este token es el que nos permitirá autenticarnos, intentemos usar ese token con
 
 ```bash
 curl -H "Authorization: Token c66ff3d7d3b4c434ce4d9a1ae0d640fc64d0a8bd" http://127.0.0.1:8000/api/authentication/user/
-{"pk":1,"username":"Karenina","email":"Karenina@karenina.com","first_name":"","last_name":""}
+{"pk":1,"username":"Karenina","email":"Karenina@karenina.com","first_name":","last_name":"}
 ```
 
 Como viste, ya podemos usar el token que tenemos para obtener una respuesta de las vistas protegidas.
@@ -207,7 +208,7 @@ Tras el logueo de un usuario obtenemos el JWT de refresco y de autenticación o 
 
 ```bash
 curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI4MjE5NDU1LCJqdGkiOiJhMTI3MGZjMDc5Nzc0MDkzYjM1NThkMjQzYThmYjFiMyIsInVzZXJfaWQiOjN9.vfVSYubOvNTw0iJxnPZ3BTOiFhw17aHX7OWFvscpOQU" http://127.0.0.1:8000/api/authentication/user/
-{"pk":1,"username":"Karenina","email":"Karenina@karenina.com","first_name":"","last_name":""}
+{"pk":1,"username":"Karenina","email":"Karenina@karenina.com","first_name":","last_name":"}
 ```
 
 Nota, además, que ya tenemos dos nuevas rutas agregadas en nuestra api.

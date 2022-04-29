@@ -6,6 +6,7 @@ categories:
   - "react"
   - "typescript"
 coverImage: "images/TypesChildrenTypescript.jpg"
+description: "Tres maneras diferentes para establecer los types en typescript para componentes que reciben children como parámetro en React."
 keywords:
   - "react"
   - "typescript"

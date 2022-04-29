@@ -4,6 +4,7 @@ date: "2020-07-16"
 categories: 
   - "python"
 coverImage: "images/cracking_codes_with_python.jpg"
+description: "Cracking Codes with Python es un libro para aprender lo básico de Python mientras das un repaso prácticopor la historia de la criptografía. Mi reseña aquí."
 keywords:
   - libros
   - opinion

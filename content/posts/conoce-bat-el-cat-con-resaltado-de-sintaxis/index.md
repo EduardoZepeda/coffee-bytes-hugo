@@ -4,6 +4,7 @@ date: "2020-08-25"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "images/bat-el-cat-con-resaltado-de-sintaxis.jpg"
+description: "Hace unos días descubrí bat, es la version de cat en linux con resaltado de sintaxis que vuelve más cómoda la lectura de archivos en consola."
 keywords:
   - linux
 ---

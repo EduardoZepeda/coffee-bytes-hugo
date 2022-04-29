@@ -4,6 +4,7 @@ date: "2020-08-15"
 categories: 
   - "python"
 coverImage: "images/Tutorial-de-pipenv.jpg"
+description: "Te enseño a instalar Pipenv, crear un Pipfile, establecer variables de entorno y lo que necesitas saber de este gestor de entornos virtuales."
 keywords:
   - "python"
   - "pipenv"

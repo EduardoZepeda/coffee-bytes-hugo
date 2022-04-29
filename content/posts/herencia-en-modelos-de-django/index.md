@@ -4,6 +4,7 @@ date: "2020-09-21"
 categories: 
   - "django"
 coverImage: "images/HerenciaModelosDjango.jpg"
+description: "Te explico tres tipos de herencia en modelos Django: la abstracta, multi tabla y proxy, así como sus características y sintaxis."
 keywords:
   - django
   - python

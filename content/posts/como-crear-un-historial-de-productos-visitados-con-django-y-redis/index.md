@@ -4,6 +4,7 @@ date: "2020-11-28"
 categories: 
   - "django"
 coverImage: "images/django_y_redis_con_mejor_diseno.jpg"
+description: "Aprende a crear paso a paso un historial de productos visitados usando el framework django y el motor de base de datos redis"
 keywords:
   - django
   - redis

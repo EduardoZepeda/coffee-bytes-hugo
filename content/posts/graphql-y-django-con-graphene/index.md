@@ -4,6 +4,7 @@ date: "2021-10-26"
 categories: 
   - "django"
 coverImage: "images/GraphqlGrapheneDjango.jpg"
+description: "¿Cómo implementar queries y mutaciones de graphql en un proyecto de django, usando los modelos y su ORM usando graphene? Te explico aquí."
 keywords:
   - django
   - python

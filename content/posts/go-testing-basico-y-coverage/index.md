@@ -4,6 +4,7 @@ date: "2022-02-09"
 categories: 
   - "golang"
 coverImage: "images/go-testing-coverage.jpg"
+description: "Entrada sobre testing básico en go: creación de tests, manejo de múltiples casos, coverage y exportación de resultados a html."
 keywords:
   - golang
   - testing

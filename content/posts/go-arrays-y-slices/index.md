@@ -4,6 +4,7 @@ date: "2021-12-14"
 categories: 
   - "golang"
 coverImage: "images/ArrayslicesYArrays.jpg"
+description: "Sintaxis y usos básicos de los arrays y slices en el lenguaje de programación go. También te explico como usar la función make en slices."
 keywords:
   - golang
 ---

@@ -4,6 +4,7 @@ date: "2020-04-01"
 categories: 
   - "django"
 coverImage: "images/DSC_3822.jpg"
+description: "Mi reseña de la guia definitiva de Django en español gratuita del libro. The definitive guide to Django, por los co-creadores de Django"
 keywords:
   - django
   - python

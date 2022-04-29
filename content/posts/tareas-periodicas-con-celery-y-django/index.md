@@ -4,6 +4,7 @@ date: "2021-08-31"
 categories: 
   - "django"
 coverImage: "images/TareasPeriodicasCeleryYDjango.jpg"
+description: "Aprende a usar celery en django para programar tareas periódicas o de mantenimiento que se ejecuten cada cierto tiempo o en una fecha dada."
 keywords:
   - "celery"
   - "django"

@@ -4,6 +4,7 @@ date: "2021-11-30"
 categories: 
   - "golang"
 coverImage: "images/GoFunciones.jpg"
+description: "Aprende la sintaxis básica, retornos, tipos de retorno, argumentos múltiples y el uso del paquete fmt del lenguaje de programación go."
 keywords:
   - golang
 ---

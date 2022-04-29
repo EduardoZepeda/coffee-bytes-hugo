@@ -4,6 +4,7 @@ date: "2021-12-21"
 categories: 
   - "golang"
 coverImage: "images/go-maps-o-diccionarios.jpg"
+description: "Te explico como funcionan un map en go o golang y aprende a declararlos, crearlos explícitamente con make y recorrerlos con range."
 keywords:
   - golang
 ---

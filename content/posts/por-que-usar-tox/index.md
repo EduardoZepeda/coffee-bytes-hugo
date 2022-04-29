@@ -4,6 +4,7 @@ date: "2019-06-18"
 categories: 
   - "python"
 coverImage: "images/porque_deberias_usar_tox.jpg"
+description: "Aprende que es tox, como se instala, como se usan los archivos tox.ini y como configurarlo para crear tests más seguros en Python."
 keywords:
   - "tox"
   - "python"

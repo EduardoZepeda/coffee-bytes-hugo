@@ -4,6 +4,7 @@ date: "2020-11-17"
 categories: 
   - "django"
 coverImage: "images/Django_aggregate_y_annotate.jpg"
+description: "Aprende las diferencias, características y el uso de annotate y aggregate en Django en este tutorial, leyendo SQL con ejemplos y código."
 keywords:
   - django
   - python

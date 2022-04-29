@@ -4,6 +4,7 @@ date: "2022-01-26"
 categories: 
   - "golang"
 coverImage: "images/go-deadlock-y-goroutines.jpg"
+description: "En esta entrada trato los deadlocks en go, las causas del error fatal error: all goroutines are asleep - deadlock! y como prevenirlo."
 keywords:
   - golang
 ---

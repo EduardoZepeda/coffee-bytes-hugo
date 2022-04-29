@@ -4,6 +4,7 @@ date: "2019-09-16"
 categories: 
   - "opiniones"
 coverImage: "images/el_4chan_sobre_programacion.jpg"
+description: "En esta entrada expongo mi opinión sobre uno de los image boards de programación y tecnología más populares que hay, lainchan."
 keywords:
   - opinion
   - internet

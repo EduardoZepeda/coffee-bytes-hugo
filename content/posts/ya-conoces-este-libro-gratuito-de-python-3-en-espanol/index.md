@@ -4,6 +4,7 @@ date: "2019-07-31"
 categories: 
   - "python"
 coverImage: "images/DSC_3818.jpg"
+description: "Entra aquí para leer mi reseña sobre un excelente libro gratuito para aprender Python, que además está completamente traducido al español."
 keywords:
   - "libros"
   - "python"

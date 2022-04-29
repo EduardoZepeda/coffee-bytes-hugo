@@ -4,6 +4,7 @@ date: "2019-05-21"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "images/comandos_GNU_Linux_3.jpg"
+description: "Aprende los comandos básicos de la terminal de GNU/Linux, en esta entrada hablo sobre printenv, systemctl, top, ps, chown, chmod y otros más."
 keywords:
   - linux
 ---

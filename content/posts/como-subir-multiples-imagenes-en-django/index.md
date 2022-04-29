@@ -4,6 +4,7 @@ date: "2021-03-30"
 categories: 
   - "django"
 coverImage: "images/como-usar-django-para-subir-multiples-imagenes.jpg"
+description: "Aprende a manejar la subida de múltiples imágenes en Django y a retornarlas en formato JSON, ideal para consumir una API."
 keywords:
   - python
   - django

@@ -4,6 +4,7 @@ date: "2020-05-31"
 categories: 
   - "python"
 coverImage: "images/practical_python_design_patterns.jpg"
+description: "Aprende patrones de diseño en Python con el libro Practical Python Design Patterns, incluso si nunca has leído sobre el tema anteriormente."
 keywords:
   - python
   - patrones de diseño

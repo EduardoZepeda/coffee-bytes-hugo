@@ -4,6 +4,7 @@ date: "2021-09-07"
 categories: 
   - "django"
 coverImage: "images/CacheConMemcachedYPymemcache.jpg"
+description: "Aprende a implementar y configurar diferentes niveles de caché en tu aplicación de Django REST Framework usando memcached como backend."
 keywords:
   - python
   - django

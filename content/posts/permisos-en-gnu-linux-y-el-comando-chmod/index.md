@@ -4,6 +4,7 @@ date: "2019-05-29"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "images/permisos_gnu_linux.jpg"
+description: "Entiende de una vez como funciona el comando chmod, encargado de asignar los permisos en GNU/Linux a carpetas y archivos."
 keywords:
   - linux
 ---

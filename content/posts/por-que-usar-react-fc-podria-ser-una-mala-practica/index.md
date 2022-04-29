@@ -5,6 +5,7 @@ categories:
   - "opiniones"
   - "typescript"
 coverImage: "images/react-fc-mala-practica.jpg"
+description: "En esta entrada hablo de las razones por las que algunos desarrolladores afirman que React.FC es una mala práctica en React y Typescript"
 keywords:
   - "react"
   - "typescript"

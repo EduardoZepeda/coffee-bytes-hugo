@@ -4,6 +4,7 @@ date: "2020-03-01"
 categories: 
   - "python"
 coverImage: "images/como_programar_un_cambiador_wallpaper_python.jpg"
+description: "¿Cómo programar un cambiador de wallpaper automático en GNU/Linux usando Python? En esta entrada usaremos Cron para cambiar el wallpaper cada cierto tiempo."
 keywords:
   - linux
   - python

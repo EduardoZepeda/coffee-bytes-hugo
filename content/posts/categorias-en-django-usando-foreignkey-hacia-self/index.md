@@ -4,6 +4,7 @@ date: "2022-03-30"
 categories: 
   - "django"
 coverImage: "images/DjangoCategoriasYSubcategorias.jpg"
+description: "Entrada sobre el uso del ForeignKey o llave foránea hacia 'self' en Django para crear estructuras jerárquicas o categorías sin límites."
 coverImageCredits: "Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895"
 keywords:
   - django

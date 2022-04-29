@@ -4,6 +4,7 @@ date: "2019-10-01"
 categories: 
   - "javascript"
 coverImage: "images/eloquent_javascript.jpg"
+description: "Si piensas dedicar algunas horas a aprender javascript, no pierdas tu tiempo buscando más, difícilmente encontrarás un libro que cubra tal variedad de conceptos de una manera tan entendible y completo como este."
 keywords:
   - javascript
   - libros

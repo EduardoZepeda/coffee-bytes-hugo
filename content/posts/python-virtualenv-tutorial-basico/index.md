@@ -4,6 +4,7 @@ date: "2019-07-15"
 categories: 
   - "python"
 coverImage: "images/tutorial_basico_virtualenv.jpg"
+description: "Aprende a user virtualenv en GNU/Linux, la herramienta más conocida de python para el manejo de entornos virtuales visita este tutorial."
 keywords:
   - "python"
   - "linux"

@@ -4,6 +4,7 @@ date: "2021-10-05"
 categories: 
   - "javascript"
 coverImage: "images/ReduceElImpactoFb-ChatPlugin.jpg"
+description: "Evita que el plugin de facebook chat online vuelve lenta la carga de tu página, y afecte los indicadores de web vitals, retrasando su carga."
 keywords:
   - "rendimiento"
   - "javascript"

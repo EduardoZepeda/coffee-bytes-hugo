@@ -4,6 +4,7 @@ date: "2020-07-15"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "images/chico_con_mascara_de_gas.jpg"
+description: "Logra contraseñas seguras e impenetrables por fuerza bruta, incluso aunque no sepas nada de criptografía. Esta entrada es un tutorial de keepassx."
 keywords:
   - linux
 ---

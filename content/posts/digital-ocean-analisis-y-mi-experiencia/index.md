@@ -5,6 +5,7 @@ categories:
   - "arquitectura-de-software"
   - "opiniones"
 coverImage: "images/Cover.jpg"
+description: "En esta entrada de platico mi experiencia usando Digital Ocean, así como algunas cosas que debes saber antes de contratarlos como hosting"
 keywords:
   - digital ocean
   - opinion

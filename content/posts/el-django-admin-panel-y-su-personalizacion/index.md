@@ -4,6 +4,7 @@ date: "2021-09-14"
 categories: 
   - "django"
 coverImage: "images/PersonalizandoElDjangoAdmin.jpg"
+description: "Aprende a personalizar el comportamiento del django admin panel en una aplicación, ordena los campos, omite campos o cambia su apariencia."
 keywords:
   - django
   - python

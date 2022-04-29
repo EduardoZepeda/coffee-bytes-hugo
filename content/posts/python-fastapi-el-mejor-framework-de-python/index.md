@@ -5,6 +5,7 @@ categories:
   - "docker"
   - "fastapi"
 coverImage: "images/tutorialFastAPIMuchacho.jpg"
+description: "Entra aquí para aprender lo básico de Python fastAPI, el nuevo framework web de Python que logra APIs súper rápidas y eficientes."
 keywords:
   - "fastapi"
   - "docker"

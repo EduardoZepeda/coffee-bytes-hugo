@@ -4,6 +4,7 @@ date: "2019-12-01"
 categories: 
   - "javascript"
 coverImage: "images/desestructuracion_con_valores_por_defecto.jpg"
+description: "¿Quieres saber entender como llevar a cabo la desestructuración de un objeto con valores por defecto en javascript desde cero? En esta entrada explico como."
 keywords:
   - javascript
 ---

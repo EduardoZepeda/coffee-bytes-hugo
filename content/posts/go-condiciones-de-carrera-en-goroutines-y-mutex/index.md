@@ -4,6 +4,7 @@ date: "2022-02-02"
 categories: 
   - "golang"
 coverImage: "images/go-mutex-race-conditions.jpg"
+description: "En esta entrada hablo sobre las condiciones de carrera o race conditions que ocurren cuando usamos goroutines y como prevenirlas usando mutex."
 keywords:
   - golang
 ---

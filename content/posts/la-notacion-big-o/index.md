@@ -5,6 +5,7 @@ categories:
   - "gnu-linux-y-devops"
   - "rendimiento"
 coverImage: "images/BigO_notacion.jpg"
+description: "Te explico en que consiste la notación Big O para que puedas mejorar la eficiencia de tus algoritmos en tus aplicaciones."
 keywords:
   - bigo
   - rendimiento

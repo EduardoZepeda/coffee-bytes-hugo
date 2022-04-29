@@ -4,6 +4,7 @@ date: "2021-04-29"
 categories: 
   - "gnu-linux-y-devops"
 coverImage: "images/ngrok-coffee-bytes.jpg"
+description: "Ngrok vuelve público tu localhost, ya sea para hacer testeo de respuestas a tus endpoints o mostrarle avances a tus clientes."
 keywords:
   - linux
 ---

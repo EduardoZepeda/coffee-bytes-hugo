@@ -4,6 +4,7 @@ date: "2020-05-02"
 categories: 
   - "django"
 coverImage: "images/Two_scoops_of_django.jpg"
+description: "Esta es una reseña de Two scoops of Django. Un libro enfocado en las buenas prácticas de desarrollo para el framework de desarrollo web open source Django."
 keywords:
   - django
   - python

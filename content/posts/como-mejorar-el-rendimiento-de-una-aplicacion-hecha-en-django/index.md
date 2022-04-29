@@ -5,6 +5,7 @@ categories:
   - "arquitectura-de-software"
   - "django"
 coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
+description: "Aprende algunas de las acciones que puedes implementar para mejorar el rendimiento y aumentar la velocidad de una aplicación de Django."
 keywords:
   - rendimiento
   - django

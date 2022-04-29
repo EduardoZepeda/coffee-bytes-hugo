@@ -4,6 +4,7 @@ date: "2019-07-10"
 categories: 
   - "python"
 coverImage: "images/porque_deberias_usar_un_entorno_virtual.jpg"
+description: "¿No sabes que es un entorno virtual en Python? Aquí te explico que es, para que sirve y sus diferencias con las máquinas virtuales."
 keywords:
   - "python"
   - "opinion"

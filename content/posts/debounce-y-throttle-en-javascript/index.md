@@ -4,6 +4,7 @@ date: "2022-03-23"
 categories: 
   - "javascript"
 coverImage: "images/BounceYThrottleJavascript.jpg"
+description: "Explicación de los patrones debounce y throttle aplicados a Javascript, su funcionamiento y esquema de como funcionan a nivel interno."
 coverImageCredits: "Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/en/users/54726558"
 keywords:
   - javascript

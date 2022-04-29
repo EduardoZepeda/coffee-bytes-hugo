@@ -4,6 +4,7 @@ date: "2020-04-15"
 categories: 
   - "django"
 coverImage: "images/Django_for_professionals.jpg"
+description: "Django for professionals es uno de los libros modernos sobre el framework de desarrollo web Django. Esta entrada es mi opinión sobre el libro."
 keywords:
   - "django"
   - "python"

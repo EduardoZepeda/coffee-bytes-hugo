@@ -4,6 +4,7 @@ date: "2021-03-02"
 categories: 
   - "react"
 coverImage: "images/LibreriasDeReact.jpg"
+description: "Te muestro algunas de mis librerías favoritas relacionadas de React, y algunos videos para que las veas en acción funcionando."
 keywords:
   - javascript
   - react
