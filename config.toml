@@ -12,7 +12,7 @@ removePathAccents=true
 [params]
   [params.latte]
     author = "Eduardo Zepeda"
-    description = "Tutoriales y opiniones de desarrollo web backend y frontend"
+    description = "Artículos y tutoriales sobre desarrollo web y Linux"
     seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
     toc = true
     disablesearch = false

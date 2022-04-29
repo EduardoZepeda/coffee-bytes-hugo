@@ -31,6 +31,6 @@ Mi mayor queja respecto a este libro tiene como culpable el abandono del autor. 
 
 Yo lo considero una excelente libro para aprender Python desde cero. Es muy difícil encontrar un tutorial que abarque una gama tan amplia de temas y tan distintos entre sí. Sin embargo si hago un enfasis en que la versión que debe adquirirse es la tercera edición, pues es la que tiene el contenido actualizado a Python 3, las ediciones anterior del libro están totalmente obsoletas y no son nada recomendables, mucho menos en visperas de la depreciación de Python 2.
 
-****Conocimientos previos recomendados:**** HTML******Recomendado para leerlo:****** 8/10
+**Conocimientos previos recomendados:** HTML**Recomendado para leerlo:** 8/10
 
 Si prefieres un libro en español y que además **sea gratuito** visita mi entrada donde [reseño Inmersión en Python](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/).
