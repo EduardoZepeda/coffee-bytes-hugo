@@ -265,7 +265,7 @@ Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad
 
 Insomnia nos permite testear APIs
 
-Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas como: [¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?](https://coffeebytes.dev/buenas-practicas-y-diseno-de-una-api-rest/)
+Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](https://coffeebytes.dev/buenas-practicas-y-diseno-de-una-api-rest/): ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
 
 ## Fuentes de referencia
 
