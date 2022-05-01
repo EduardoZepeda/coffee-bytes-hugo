@@ -16,7 +16,7 @@ keywords:
 url: "python-fastapi-el-mejor-framework-de-python"
 ---
 
-Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear REST APIs. FastAPI promete ayudarnos a crear REST APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar una alta carga de peticiones web.
+Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como [REST APIs](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) o RPC. FastAPI promete ayudarnos a crear APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar una alta carga de peticiones web.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 
@@ -24,7 +24,7 @@ Estos últimos días he estado probando una librería para Python que se está v
 
 ### FastAPI vs Django
 
-FastAPI se centra en crear REST APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de sesiones, ORM, renderizado de plantillas, creación y manejo de formularios, middleware, caché, su admininistrador, i18n y muchos otros aspectos, mientras que FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
+FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de sesiones, ORM, renderizado de plantillas, creación y manejo de formularios, middleware, caché, su admininistrador, i18n y muchos otros aspectos, mientras que FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
 
 ### FastAPI vs Flask
 

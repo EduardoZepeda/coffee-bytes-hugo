@@ -56,7 +56,7 @@ Es bastante obvio, pero siento que debo mencionarlo: recuerda que **memcached al
 
 Voy a instalar las siguientes dependencias para este tutorial:
 
-- djangorestframework: para la REST api.
+- djangorestframework: para la creación de [APIs de tipo REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/).
 - django-debug-toolbar: para comparar el rendimiento antes y después de la caché.
 - django-seed: para crear datos, de manera automática, en la base de datos.
 - pymemcache: para que python pueda interactuar con memcached.
