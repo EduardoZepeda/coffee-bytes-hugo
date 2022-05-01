@@ -333,7 +333,7 @@ Podemos especificar otros encabezados de caché como los siguientes:
 - max\_age=num\_seconds
 - s\_maxage=num\_seconds
 
-Para ver la lista completa de directivas y lo que hace cada una visita las [especificaciones de los protocolos](http://www.w3.org/Protocols/rfc2616/rfc2616- sec14.html#sec14.9).
+Para ver la lista completa de directivas y lo que hace cada una visita las [especificaciones de los protocolos](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9).
 
 ### No cachear
 
