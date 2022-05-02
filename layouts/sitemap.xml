@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {{ range .Data.Pages }}
-  Exclude all that's inside the array at SiteParams
+  <!-- Exclude all that's inside the array at SiteParams -->
   {{ if not (in .Site.Params.excludeFromSitemap .Data.Plural) }}
     {{- if .Permalink -}}
   <url>
