@@ -10,6 +10,7 @@ googleAnalytics = "UA-112824408-2"
 removePathAccents=true
 
 [params]
+  excludeFromSitemap = ["tags", "categories", "posts"]
   [params.latte]
     author = "Eduardo Zepeda"
     description = "Artículos y tutoriales sobre desarrollo web y Linux"
