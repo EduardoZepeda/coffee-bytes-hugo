@@ -15,7 +15,7 @@ keywords:
 
 ¡Perdón por tardar tanto en escribir! He estado ocupado mudando el frontend de mi blog a Frontity, un framework de React para Wordpress, y también mudándome a un nuevo departamento. Quizás hable un poco al respecto de Frontity en alguna entrada futura. Por ahora continuemos con el tema.
 
-Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [uno de los mejores libros para comenzar con Django.](https://coffeebytes.dev/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
+Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [la guia definitiva de Django](https://coffeebytes.dev/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
 
 ## ContentType y los modelos
 
