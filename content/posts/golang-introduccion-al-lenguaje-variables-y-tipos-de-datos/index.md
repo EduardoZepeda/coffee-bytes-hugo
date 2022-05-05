@@ -21,7 +21,7 @@ Cuando se creó el lenguaje se decidió que se priorizaría un tiempo de compila
 
 ### Algunas cosas criticadas de go
 
-Algo que desanima a muchos desarrolladores es que go **no cuenta con soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de interfaces, structs y embedded values.
+Algo que desanima a muchos desarrolladores es que go **no cuenta con soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/).
 
 Otra de las cosas no tan queridas de este lenguaje es que **no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores se hacen por medio de bloques if. Aunque otros lenguajes como Rust también han prescindido del manejo de errores tradicionales.
 
@@ -71,7 +71,7 @@ package main
 
 ### Importaciones
 
-Una sección donde se importan todos los paquetes que se usarán. Para ello usamos la palabra _import_.
+Una sección donde se importan todos los [paquetes de go](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/) que se usarán. Para ello usamos la palabra _import_.
 
 import "fmt"
 
@@ -86,7 +86,7 @@ import (
 
 ### Contenido
 
-El contenido del archivo, es decir declaraciones de variables, types, funciones, constantes, etc.
+El contenido del archivo, es decir declaraciones de variables, types, [funciones](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), constantes, etc.
 
 ```go
 func main() {
@@ -307,4 +307,4 @@ Los operadores de go son similares al resto de los lenguajes.
 - ++, incremental
 - \--, decremental
 
-Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices](https://coffeebytes.dev/go-strings-runes-y-bytes/) y otras características del lenguaje.
+Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt en go](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices en go](https://coffeebytes.dev/go-strings-runes-y-bytes/) y otras características del lenguaje.

@@ -103,7 +103,7 @@ En este caso, cada struct de nuestro array consiste en tres enteros; los primero
 
 De seguro ya notaste que no estamos cubriendo la división entre cero, pero déjalo así por ahora.
 
-Ya que contamos con nuestro array de structs, [iteraremos sobre cada uno de sus elementos usando range](https://coffeebytes.dev/go-arrays-y-slices/). De esta manera cubriremos cada caso.
+Ya que contamos con nuestro array de structs, iteraremos sobre cada uno de sus elementos usando [la función range de go](https://coffeebytes.dev/go-arrays-y-slices/). De esta manera cubriremos cada caso.
 
 ```go
 for _, table := range tables {

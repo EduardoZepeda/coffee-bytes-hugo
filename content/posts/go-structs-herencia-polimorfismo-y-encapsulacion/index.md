@@ -14,7 +14,7 @@ Como ya te mencioné en la [introducción al lenguaje de programación Golang o 
 
 ## Structs en go
 
-Un [struct es una colección de campos](https://go.dev/tour/moretypes/2). Se definen con el keyword _type_ seguido del nombre a asignar y la palabra _struct_.
+Un [struct en go](https://go.dev/tour/moretypes/2) es una colección de campos. Se definen con el keyword _type_ seguido del nombre a asignar y la palabra _struct_.
 
 ```go
 type Videogame struct {
@@ -40,7 +40,7 @@ var myVideogame Videogame
 myVideogame.Title = "Nier"
 ```
 
-Si no especificamos un valor, go [le asignará el respectivo zero value al tipo de variable.](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
+Si no especificamos un valor, se asignará el respectivo zero value al [tipo de variable de go.](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
 
 ```go
 fmt.Println(myVideogame)
@@ -111,7 +111,7 @@ videogame.IncreaseYear()
 
 Si declaramos una función para personalizar el output en consola llamada _String_, reemplazaremos lo que devuelve el struct cuando lo imprimimos.
 
-Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso [el método Sprintf del paquete fmt](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/) para devolver un string.
+Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso el método Sprintf del [paquete fmt de go](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/) para devolver un string.
 
 ```go
 func (myStructVariable Videogame) String() string { 

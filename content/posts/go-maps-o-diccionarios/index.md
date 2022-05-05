@@ -11,7 +11,7 @@ keywords:
 
 En el lenguaje de programación go, un map o hash table es el equivalente de un diccionario; poseen una llave o key que se relaciona con un valor o value. La llave y el valor pueden ser de diferentes tipos de datos, pero todas las llaves deben ser de un solo tipo y todos los valores deben ser del mismo tipo.
 
-Junto con el [array y el slice](https://coffeebytes.dev/go-arrays-y-slices/), un map es una estructura que nos sirve como una colección de valores.
+Junto con el [array y el slice de go](https://coffeebytes.dev/go-arrays-y-slices/), un map es una estructura que nos sirve como una colección de valores.
 
 ### Funcionamiento interno de un map en go
 

@@ -5,7 +5,7 @@ enableRobotsTXT = true
 DefaultContentLanguage = "es"
 
 theme = "hugo-theme-latte"
-summaryLength = 40
+summaryLength = 30
 googleAnalytics = "UA-112824408-2"
 removePathAccents=true
 
