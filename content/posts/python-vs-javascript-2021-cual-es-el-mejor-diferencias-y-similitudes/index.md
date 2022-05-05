@@ -223,7 +223,7 @@ Por otro lado, Javascript incluye solo lo necesario, aunque tiene una gigantesca
 
 Al ser lenguajes interpretados son mucho más lentos que lenguajes compilados, por lo que quedarán bastante mal parados si los comparas con C, C++, Java, Rust, etc. Sin embargo entre ellos la diferencia es evidente: se puede afirmar que **Javascript ejecutado en Node es mucho más rápido que Python con su intérprete original.**
 
-El gráfico de abajo compara el tiempo de ejecución promedio de diez repeticiones del problema de las N-Reinas (mientras más bajo mejor), usé los respectivos códigos de javascript y python que se encuentran [aquí](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (todos los créditos al autor) y el programa [multitime](https://tratt.net/laurie/src/multitime/) para el cálculo del tiempo promedio.
+El gráfico de abajo compara el tiempo de ejecución promedio de diez repeticiones del problema de las N-Reinas (mientras más bajo mejor), usé los [respectivos códigos de javascript y python de Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (todos los créditos al autor) y el [programa multitime](https://tratt.net/laurie/src/multitime/) para el cálculo del tiempo promedio.
 
 ![Gráfico del tiempo de ejecución del problema de las N-Reinas entre Javascript y Python. Javascript tiene mejor rendimiento.](images/problema-de-las-n-reinas.jpg)
 
@@ -282,7 +282,7 @@ Debido a que Python no se encuentra instalado en los navegadores, **el desarroll
 
 Puedes escribir código HTML y CSS usando Python para el frontend, pero nunca tendrás la misma versatilidad que ejecutar código javascript directamente en el navegador del usuario.
 
-Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en mi entrada sobre [htmx y django](https://coffeebytes.dev/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
+Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en mi entrada sobre [django y htmx](https://coffeebytes.dev/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
 
 ## Paquetes
 

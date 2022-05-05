@@ -1,7 +1,6 @@
 ---
-title: "Top 5 Problemas de Algoritmos en Codewars"
+title: "Top 5 Problemas de Algoritmos Favoritos en Codewars"
 date: 2022-04-30T17:29:06-05:00
-draft: true
 categories: 
   - "opiniones"
   - "algoritmos"
@@ -15,11 +14,11 @@ keywords:
 
 ## ¿Qué es codewars?
 
-Codewars es una red social de programadores que se reunen para retar a otros a resolver retos de código. Codewars es uno de **los mejores sitios web para practicar algoritmos y resolución de problemas**
+Codewars es una red social de programadores que se reunen para retar a otros a resolver retos de código. Codewars es uno de **los mejores sitios web para practicar algoritmos y resolución de Katas**. ¿Katas? Sí, como en Karate.
 
 ### ¿Qué son las katas?
 
-En el espíritu de las artes marciales, más específicamente Karate, estos problemas de código se llaman *katas*. Las *katas* se dividen, ascendemente, de acuerdo a su dificultad, desde el 8 kyu hasta la 1 kyu, siendo la 1 kyu la *kata* más dificil de todas.
+En el espíritu de las artes marciales, más específicamente Karate, estos problemas de código se llaman *katas*. Las *katas* se dividen, ascendemente, de acuerdo a su dificultad. Hay katas desde el 8vo kyu hasta la 1er kyu, siendo las de 1er kyu el tipo de *kata* más dificil de todas.
 
 Hay *katas* de muchísimos temas: desarrollo de algoritmos, eficiencia, regex, matemáticas, criptografía, etc. 
 
@@ -169,32 +168,41 @@ sys	 0m0.044s
 
 Si intentas ejecutar el código de arriba probablemente puedas irte a preparar un café antes de que termine de ejecutarse.
 
-## The Millionth Fibonacci Kata
+## Escape the maze
 
-El año es 1214. Una noche, el Papa Inocencio III se despierta para entonrar al arcangel Gabriel flotando sobre él. Gabriel le dice al papa:
+Se te proporciona un laberinto completo, como una grilla de 2 dimensiones, más especificamente en tu lenguaje: un array de strings
 
-Junta todos los hombres entendidos en Pisa, especialmente Leonardo Fibonacci. Para que las cruzadas en las tierras sagradas sean exitosas, estos hombres deben calcular el millonésimo número en la secuencia de Fibonacci. Fallen en hacerlo, y sus ejercitos nunca reclamarán la tierra sagrada, es el deseo del Señor.
+maze[0][0] es la esquina superior izquierda
+maze[maze.length - 1][maze[0].length - 1] es la esquina inferior derecha
 
-En ángel se desvanece en una explosión de luz.
+Dentro de esta grilla en 2D:
 
-El Papa Inocencio III se sienta en su cama en desesperación. ¿Cuanto es un millon? se dice a si mismo. Él nunca fue muy bueno en matemáticas.
+    ' ' Espacio que puedes recorrer
+    '#' Es un arbusto de espinas (No puedes cruzarlo)
+    '^', '<', 'v' or '>' Tu cuerpo mirando hacía la parte superior, izquierda, inferior, o derecha, respectivamente, del mapa.
 
-Intenta escribir el número, pero debido a que todos en Europa aún usan los numerales romanos en ese momento de la historia, no puede representar este número. Si tan solo supiera de la invención del número zero, harían esta clase de tareas más sencillas.
-
-Él decide volver a la cama. Se consola a si mismo, el Señor nunca me retaría, además; esto debe haber sido algún engaño del diablo. Una pesadilla bastante horrenda, sin duda.
-
-Los ejércitos del Papa Inocencio III continuarían conquistando Constantinopla (ahora Estambul), pero nunca recuperarían la Tierra Santa como él deseaba.
-
-Kata original: [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26)
+Kata original: [Escape the maze](https://www.codewars.com/kata/5877027d885d4f6144000404)
 
 ### Nota sobre la Kata
 
-Ya sé has resuelto múltiples veces (y en bastantes lenguajes) la secuencia de fibonacci. Pero no te confies, estoy seguro de que no has visto nada como esto antes. La secuencia de fibonacci que conoces por correrá muy lento para pasar el reto. Intenta resolverla en el sitio oficial y verás a lo que me refiero.
+Se te proporciona una serie de laberintos, tu posición y debes proporcionarle un array de movimientos para salir. ¡Está increíblemente entretenido!
 
-## Katas honoríficas
+```python
+[ '##########',
+  '#        #',
+  '#  ##### #',
+  '#  #   # #',
+  '#  #^# # #',
+  '#  ### # #',
+  '#      # #',
+  '######## #' ]
+```
+
+## Katas con mención honorífica
 
 Existen otras Katas que me gustan muchísimo pero quedaron fuera de este top. Dales una revisada.
 
+* [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26)
 * [Prime Streaming [NC-17]](https://www.codewars.com/kata/59122604e5bc240817000016)
 * [Breaking the Vigenère Cipher](https://www.codewars.com/kata/544e5d75908f2d5eb700052b)
 * [Escape the maze](https://www.codewars.com/kata/5877027d885d4f6144000404)

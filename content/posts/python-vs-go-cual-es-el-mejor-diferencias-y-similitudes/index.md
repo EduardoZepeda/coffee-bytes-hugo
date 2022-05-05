@@ -12,9 +12,9 @@ keywords:
   - "opinion"
 ---
 
-Estos últimos meses he estado aprendiendo go. ¿Por qué? La primera razón es bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de [Python vs Go](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/), donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2022.
+Estos últimos meses he estado aprendiendo go. ¿Por qué? La primera razón es bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2022.
 
-Si quieres aprender go, date una vuelta por mi [tutorial de golang desde cero, donde te explico los detalles básicos de Go: sintaxis y tipos de datos.](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
+Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
 
 ## Un poco sobre Python y go
 
@@ -22,9 +22,7 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 
 **Python es un lenguaje interpretado e imperativo mientras que Go es un lenguaje compilado, concurrente e imperativo.**
 
-Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de python vs javascript, por lo que si deseas refrescar un poco tu memoria dirígete ahí.
-
-![Comparación entre un lenguaje interpretado y uno compilado.](images/codigo-compilado-vs-interpretado-go-vs-python.png)
+Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](https://coffeebytes.dev/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 
@@ -92,7 +90,6 @@ func bucle() {
     array[i] = i
     }
   }
-}
 
 func bucleInfinito() {
     for {}
@@ -107,7 +104,7 @@ func main() {
 }
 ```
 
-Otra cosa importante, algunos desarrolladores dicen que go es orientado a objetos, mientras que otros afirman rotundamente que no. Lo cierto es que **[go no tiene soporte para clases de la manera común](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/)**, sino que maneja structs, interfaces y composición para emular, hasta cierto punto, características como la herencia de la programación orientada a objetos.
+Otra cosa importante, algunos desarrolladores dicen que go es orientado a objetos, mientras que otros afirman rotundamente que no. Lo cierto es que go no cuenta con soporte directo para clases, sino que usa **[structs que emulan el polimorfismo y la encapsulación](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/)** y otras características de la OOP.
 
 ```go
 //go
@@ -159,7 +156,7 @@ except:
 
 ### Asincronismo en go
 
-Go fue **[diseñado para ser un lenguaje councurrente](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/)**, por lo que es uno de los puntos fuertes de go. Crear concurrencia por medio de sus _goroutines_, o gorutinas, es bastante sencillo, basta con añadir la palabra go antes de una función. Añadimos un contador con _Add_ y lo removemos con Done. Cuando nuestro grupo de espera, _wg_, tenga cero contadores, terminará la ejecución.
+Uno de los puntos fuertes de este lenguaje es la creación de concurrencia por medio de sus [_goroutines_, o gorutinas y canales](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/). Usarlas es bastante sencillo, basta con añadir la palabra go antes de una función. Añadimos un contador con _Add_ y lo removemos con Done. Cuando nuestro grupo de espera, _wg_, tenga cero contadores, terminará la ejecución.
 
 Sus capacidades de concurrencia lo hacen ideal para servidores web.
 
@@ -315,7 +312,7 @@ Puedes ver las librerías y funciones que tiene disponible en la sección [stand
 
 Go no cuenta con un repositorio oficial de paquetes como sí lo tiene Python. Los paquetes se obtienen por medio de _go get_ (el equivalente de _pip_ en Python) de diferentes fuentes. Se extraña una solución estándar, tipo npm en javascript, pero puedes ver una lista de los paquetes disponibles en [Awesome Go.](http://awesome-go.com)
 
-El [manejo de los modulos y paquetes en Go](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto extraño, no existen las importaciones relativas, como en Python o en Javascript.
+La [importación de los modulos y paquetes en Go](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto extraño, no existen las importaciones relativas, como en Python o en Javascript.
 
 ![Awesome Go página.](images/AwesomeGo.png)
 
