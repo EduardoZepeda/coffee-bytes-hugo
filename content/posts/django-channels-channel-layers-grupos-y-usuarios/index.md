@@ -4,6 +4,7 @@ date: "2021-11-16"
 categories: 
   - "django"
 coverImage: "images/djangochannels.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
 description: "Implementa channel layers en tu aplicación de django channels para compartir información entre channels o canales/consumers y grupos."
 keywords:
   - django

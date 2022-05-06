@@ -5,6 +5,7 @@ categories:
   - "arquitectura-de-software"
   - "gnu-linux-y-devops"
 coverImage: "images/throttling_ngnix.jpg"
+coverImagecredits: "Créditos a https://www.pexels.com/@amateur-photo-1700447"
 description: "Aprende a usar Throttling en Nginx para limitar el número de peticiones en tu aplicación, mitigando ataques DDOS o de fuerza bruta."
 keywords:
   - nginx

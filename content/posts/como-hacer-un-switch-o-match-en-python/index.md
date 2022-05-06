@@ -4,6 +4,7 @@ date: "2021-03-06"
 categories: 
   - "python"
 coverImage: "images/PythonYatiene.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
 description: "Aprende a usar el switch statement de Python llamado match, su sintaxis básica y su guard, para controlar el flujo de tu aplicacion."
 keywords:
   - python

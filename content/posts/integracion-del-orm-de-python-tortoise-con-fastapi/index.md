@@ -1,9 +1,10 @@
 ---
-title: "integración del ORM de Python tortoise con FastAPI"
+title: "Integración del ORM de Python tortoise con FastAPI"
 date: "2021-09-21"
 categories: 
   - "fastapi"
 coverImage: "images/IntegrandoFastApiYTortoiseORM.jpg"
+coverImagecredits: "Créditos https://www.pexels.com/@nguy-n-lam-196145/"
 description: "Tortoise es un ORM de Python que puedes integrar con fastAPI para crear modelos y manejar consultas SQL con varias bases de datos."
 keywords:
   - fastapi
