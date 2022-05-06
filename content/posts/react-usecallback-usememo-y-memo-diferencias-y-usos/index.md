@@ -4,6 +4,7 @@ date: "2021-08-02"
 categories: 
   - "react"
 coverImage: "images/ReactuseCallbackuseMemoMemo.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@timegrocery/"
 description: "Conoce las diferencias entre los hooks useCallback y useMemo, y el HOC memo en React y como mejorar el rendimiento de tu app con ellos."
 keywords:
   - "javascript"

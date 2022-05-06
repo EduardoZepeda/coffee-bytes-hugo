@@ -4,6 +4,7 @@ date: "2021-08-10"
 categories: 
   - "react"
 coverImage: "images/useCallbackyMemo.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@khoa-vo-2347168/"
 description: "Usa el hook de React useCallback y su HOC memo para mejorar el rendimiento de tu aplicación evitando renderizaciones en tus componentes"
 keywords:
   - "javascript"
