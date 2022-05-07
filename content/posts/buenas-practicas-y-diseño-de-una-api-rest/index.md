@@ -15,7 +15,7 @@ keywords:
 
 ¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet.
 
-Antes de empezar, hay una serie de [características básicas de una API REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
+Antes de empezar, hay una serie de [características básicas de una API REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
 
 Recuerda que una API REST puede devolver otros formatos, no solo JSON, pero voy a centrarme en este para los ejemplos porque es bastante popular. 
 
