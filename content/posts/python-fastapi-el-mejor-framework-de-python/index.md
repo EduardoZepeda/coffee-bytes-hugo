@@ -25,7 +25,7 @@ Estos últimos días he estado probando una librería para Python que se está v
 
 ### FastAPI vs Django
 
-FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de sesiones, ORM, renderizado de plantillas, creación y manejo de formularios, middleware, caché, su admininistrador, i18n y muchos otros aspectos, mientras que FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
+FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de sesiones, ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](https://coffeebytes.dev/el-django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos, mientras que FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
 
 ### FastAPI vs Flask
 
@@ -651,7 +651,7 @@ Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática 
 
 El despliegue también es una tarea sencilla de realizar.
 
-Para hacer deployment sin usar Docker basta con correr uvicorn, justo como hicimos al principio de este tutorial.
+Para hacer deployment sin usar [Docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/) basta con correr uvicorn, justo como hicimos al principio de este tutorial.
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 80
@@ -659,7 +659,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment con Docker
 
-Hacer un deployment con Docker es super sencillo, el creador de FastAPI ya nos provee de una imagen de Docker personalizada que podemos usar como base para nuestro Dockerfile. Primero creemos un archivo Dockerfile.
+Hacer un deployment con Docker es super sencillo, el creador de FastAPI ya nos provee de una imagen de Docker personalizada que podemos usar como base para nuestro Dockerfile. Primero creemos un archivo [Dockerfile](https://coffeebytes.dev/tutorial-de-comandos-basicos-de-docker/#usando-un-dockerfile-para-crear-una-imagen).
 
 ```bash
 touch Dockerfile
