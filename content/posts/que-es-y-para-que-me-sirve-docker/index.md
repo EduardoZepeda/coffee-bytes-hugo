@@ -4,6 +4,7 @@ date: "2020-09-29"
 categories: 
   - "docker"
 coverImage: "images/Fotografia-contenedores-Kaique-Rocha.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@introspectivedsgn"
 description: "¿Te parece que usar Docker no tiene sentido? ¿Crees que Docker y las máquinas virtuales son lo mismo? Entra y te explico las diferencias."
 keywords:
   - "docker"

@@ -4,6 +4,7 @@ date: "2020-11-17"
 categories: 
   - "django"
 coverImage: "images/Django_aggregate_y_annotate.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
 description: "Aprende las diferencias, características y el uso de annotate y aggregate en Django en este tutorial, leyendo SQL con ejemplos y código."
 keywords:
   - django
@@ -45,25 +46,25 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 ### Tabla para vendedor
 
 | Id | Name  
- |
-| --- | --- |
-| 1 | Poe |
-| 2 | Lovecraft |
-| 3 | Barker |
+ |     |
+ | --- | --------- |
+ | 1   | Poe       |
+ | 2   | Lovecraft |
+ | 3   | Barker    |
 
 ### Tabla para pedido
 
-| Id | Total | seller\_id |
-| --- | --- | --- |
-| 1 | 100 | 1 |
-| 2 | 200 | 1 |
-| 3 | 300  
- | 2  
- |
-| 4 | 400 | 2 |
-| 5  
- | 500 | 3 |
-| 6 | 600 | 3 |
+| Id  | Total | seller\_id |
+| --- | ----- | ---------- |
+| 1   | 100   | 1          |
+| 2   | 200   | 1          |
+| 3   | 300   |
+| 2   |
+|     |
+| 4   | 400   | 2          |
+| 5   |
+| 500 | 3     |
+| 6   | 600   | 3          |
 
 Antes de hablar sobre annotate y aggregate hay que asegurarnos de saber como obtener la consulta SQL que hará Django.
 

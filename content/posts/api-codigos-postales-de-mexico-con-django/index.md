@@ -4,6 +4,7 @@ date: "2021-07-22"
 categories: 
   - "django"
 coverImage: "images/CodigosPostalesMexicoDjango.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
 description: "Crea una API de códigos postales de México que retorna las colonias, estado y municipio, con datos de SEPOMEX usando esta librería de Django."
 keywords:
   - django

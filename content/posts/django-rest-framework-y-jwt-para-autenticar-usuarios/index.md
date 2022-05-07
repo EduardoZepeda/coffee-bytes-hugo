@@ -4,6 +4,7 @@ date: "2021-06-14"
 categories: 
   - "django"
 coverImage: "images/JWT.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/es-es/@iamikeee/"
 description: "Aprende a implementar la autenticación básica en Django usando JWT y Django Rest Framework por medio de tokens de acceso y de refresco."
 keywords:
   - django

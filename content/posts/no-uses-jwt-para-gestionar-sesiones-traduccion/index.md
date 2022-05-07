@@ -5,6 +5,7 @@ categories:
   - "arquitectura-de-software"
   - "opiniones"
 coverImage: "images/NoUsesJWT.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@gabby-k/"
 description: "Traducción del artículo Stop using JWT for sessions. Expone las razones por las cuales es mala idea usar JWT para el manejo de sesiones."
 keywords:
   - jwt

@@ -4,6 +4,7 @@ date: "2021-03-02"
 categories: 
   - "react"
 coverImage: "images/LibreriasDeReact.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/es-es/@timmossholder/"
 description: "Te muestro algunas de mis librerías favoritas relacionadas de React, y algunos videos para que las veas en acción funcionando."
 keywords:
   - javascript

@@ -4,6 +4,7 @@ date: "2021-08-17"
 categories: 
   - "django"
 coverImage: "images/AutenticacionConDRF.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@sean-manning-214956/"
 description: "Implementa login y registro de tus usuarios en django con las librerías dj-rest-auth y django-allauth usando tokens y también JWT."
 keywords:
   - REST

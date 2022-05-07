@@ -4,6 +4,7 @@ date: "2020-10-14"
 categories: 
   - "docker"
 coverImage: "images/DockerCompose.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/es-es/@felixmittermeier/"
 description: "En este tutorial de Docker compose te explico los comandos más comunes, así como la estructura y creación de un archivo docker-compose.yml"
 keywords:
   - docker

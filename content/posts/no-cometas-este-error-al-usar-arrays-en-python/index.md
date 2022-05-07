@@ -4,6 +4,7 @@ date: "2021-04-07"
 categories: 
   - "python"
 coverImage: "images/NoCometasEsteError.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/es-es/@nishizuka-25426/"
 description: "¿Por qué cuando cambio un elemento de un array en una matriz Python se cambian todos las demás? Te explico porqué sucede y como prevenirlo."
 keywords:
   - python

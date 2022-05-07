@@ -4,6 +4,7 @@ date: "2021-02-16"
 categories: 
   - "django"
 coverImage: "images/ContentTypeDjango2.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@iamikeee/"
 description: "Aprende para que sirve ContentType en Django y como acceder a la información que guarda este modelo en nuestra aplicación de Django."
 keywords:
   - "django"

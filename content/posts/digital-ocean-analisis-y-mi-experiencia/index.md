@@ -4,7 +4,8 @@ date: "2021-01-14"
 categories: 
   - "arquitectura-de-software"
   - "opiniones"
-coverImage: "images/Cover.jpg"
+coverImage: "images/Mi-experiencia-digital-ocean.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/"
 description: "En esta entrada de platico mi experiencia usando Digital Ocean, así como algunas cosas que debes saber antes de contratarlos como hosting"
 keywords:
   - digital ocean

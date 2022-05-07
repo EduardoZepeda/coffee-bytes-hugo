@@ -4,6 +4,7 @@ date: "2021-04-17"
 categories: 
   - "django"
 coverImage: "images/Permisos-en-django.jpg"
+coverImageCredits: "https://www.pexels.com/es-es/@orlovamaria/"
 description: "Aprende a crear permisos, grupos, asignarlos a los usuarios, y crear permisos personalizados en Django. Incluso si jamás lo has hecho."
 keywords:
   - linux

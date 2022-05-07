@@ -4,6 +4,7 @@ date: "2021-05-28"
 categories: 
   - "django"
 coverImage: "images/Managers_para_django.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/es-es/@suju/"
 description: "Te explico que es un manager, para que sirve y como puedes crear y personalizarlos para sacarle el mayor provecho al usar el ORM de Django."
 keywords:
   - django

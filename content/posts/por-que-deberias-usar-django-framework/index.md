@@ -5,6 +5,7 @@ categories:
   - "django"
   - "opiniones"
 coverImage: "images/Django-usar.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@weekendplayer/"
 description: "¿Vale la pena usar Django en un mundo donde todo es Javascript? Entra para conocer las ventajas y desventajas de este framework de Python."
 keywords:
   - "drf"
