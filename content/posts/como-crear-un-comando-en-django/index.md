@@ -4,6 +4,7 @@ date: "2021-01-21"
 categories: 
   - "django"
 coverImage: "images/Como-crear-comando-django.jpg"
+coverImageCredits: "Créditos a https://www.pexels.com/es-es/@pixabay/"
 description: "Te explico como crear un comando del django, el framework de desarrollo web de Python, usando argumentos posicionales y opcionales desde cero"
 keywords:
   - django

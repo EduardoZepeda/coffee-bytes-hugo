@@ -4,7 +4,8 @@ date: "2020-10-27"
 categories: 
   - "docker"
   - "fastapi"
-coverImage: "images/tutorialFastAPIMuchacho.jpg"
+coverImage: "images/python-fast-api-mejor-framework.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@tim-douglas/"
 description: "Entra aquí para aprender lo básico de Python fastAPI, el nuevo framework web de Python que logra APIs súper rápidas y eficientes."
 keywords:
   - "fastapi"

@@ -5,6 +5,7 @@ categories:
   - "django"
   - "docker"
 coverImage: "images/tutorial-cookiecutter-django-docker-compose.jpg"
+coverImageCredits: "Créditos https://www.pexels.com/es-es/@alex-andrews-271121/"
 description: "¿No sabes como usar o para que sirve un cookiecutter en Django? Entra y aprende gratis a usar esta herramienta que hará más fácil tu vida."
 keywords:
   - docker
