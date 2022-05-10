@@ -1,5 +1,5 @@
 ---
-title: "Desestructuracion de listas en Javascript"
+title: "Desestructuración de listas en Javascript"
 date: "2019-11-03"
 categories: 
   - "javascript"

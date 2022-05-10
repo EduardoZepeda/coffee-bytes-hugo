@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo mejorar el rendimiento de una aplicacion hecha en Django?"
+title: "¿Cómo mejorar el rendimiento de una aplicación hecha en Django?"
 date: "2020-12-30"
 categories: 
   - "arquitectura-de-software"

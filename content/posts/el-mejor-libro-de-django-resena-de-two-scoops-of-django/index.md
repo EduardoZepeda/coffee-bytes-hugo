@@ -1,5 +1,5 @@
 ---
-title: "El mejor libro de Django, reseñaaá de Two Scoops of Django"
+title: "El mejor libro de Django, reseña de Two Scoops of Django"
 date: "2020-05-02"
 categories: 
   - "django"

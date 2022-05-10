@@ -1,5 +1,5 @@
 ---
-title: "¿Que hace la aplicacion ContentType en Django?"
+title: "¿Qué hace la aplicación ContentType en Django?"
 date: "2021-02-16"
 categories: 
   - "django"

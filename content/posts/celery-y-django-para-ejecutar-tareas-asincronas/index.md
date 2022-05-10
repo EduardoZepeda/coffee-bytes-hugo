@@ -1,5 +1,5 @@
 ---
-title: "Celery y django para ejecutar tareas asincronas"
+title: "Celery y django para ejecutar tareas asíncronas"
 date: "2021-08-24"
 categories: 
   - "django"

@@ -1,5 +1,5 @@
 ---
-title: "Digital Ocean, analisis y mi experiencia"
+title: "Digital Ocean, análisis y mi experiencia"
 date: "2021-01-14"
 categories: 
   - "arquitectura-de-software"

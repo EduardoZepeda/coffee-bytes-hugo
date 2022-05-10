@@ -1,5 +1,5 @@
 ---
-title: "Go: importacion de paquetes y manejo de modulos"
+title: "Go: importación de paquetes y manejo de modulos"
 date: "2022-01-12"
 categories: 
   - "golang"
@@ -127,6 +127,16 @@ Los paquetes que se encuentran en repositorios de código, como GitHub, GitLab o
 
 ```go
 go mod init github.com/usuario/paquete
+```
+
+## Importar paquetes sin usarlos
+
+Hay ocasiones en donde querremos importar paquetes y no usarlos. Para esto basta con agregar un guión bajo antes de la importación.
+
+```go
+import (
+  _ "fmt"
+)
 ```
 
 ## Alias al importar paquetes

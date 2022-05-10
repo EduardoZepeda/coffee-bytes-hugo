@@ -108,7 +108,7 @@ Tienes 30 bytes para gastar.
 
 Ejemplo: [1, 2, 3] → [3, 2, 1]
 
-Esta vez no podrás caáz de hacer "la cosa" de la otra Kata.
+Esta vez no podrás capaz de hacer la cosa de la otra Kata.
 
 Tampoco puedes usar require.
 

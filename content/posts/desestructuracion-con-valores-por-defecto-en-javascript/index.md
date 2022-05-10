@@ -1,5 +1,5 @@
 ---
-title: "Desestructuracion con valores por defecto en Javascript"
+title: "Desestructuración con valores por defecto en Javascript"
 date: "2019-12-01"
 categories: 
   - "javascript"

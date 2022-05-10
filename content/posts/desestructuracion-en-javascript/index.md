@@ -1,5 +1,5 @@
 ---
-title: "Desestructuracion de variables en javascript"
+title: "Desestructuración de variables en javascript"
 date: "2019-10-16"
 categories: 
   - "javascript"

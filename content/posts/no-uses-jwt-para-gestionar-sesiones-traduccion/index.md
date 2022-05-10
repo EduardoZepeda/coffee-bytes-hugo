@@ -1,5 +1,5 @@
 ---
-title: "No uses JWT para gestionar sesiones (Traduccion)"
+title: "No uses JWT para gestionar sesiones (Traducción)"
 date: "2021-06-22"
 categories: 
   - "arquitectura-de-software"
