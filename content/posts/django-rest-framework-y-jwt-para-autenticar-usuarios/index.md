@@ -108,7 +108,7 @@ curl http://127.0.0.1:8000/protegida/ {"detail":"Authentication credentials were
 
 Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
 
-## Obteniendo los tokens
+## Obtener tokens JWT en Django
 
 Si ahora hacemos una petición POST a la url _/api/token/_, enviando un nombre de usuario y contraseñas válidas tendremos de respuesta un par de tokens. Yo usé un usuario que cree, pero tú puedes usar tu superusuario o crear uno.
 
@@ -121,15 +121,15 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 
 ![Pantalla de Django Rest Framework que pide username y Password](images/JWTApiEndPoint.png)
 
-### Token de acceso
+### Token de acceso en JWT
 
 El token de acceso sería el equivalente al token de acceso de DRF; usaremos este JWT para autenticarnos ante Django, para decirle a Django quienes somos.
 
-### Token de actualización
+### Token de actualización en JWT
 
 El token de acceso **tiene una fecha de caducidad, una vez que esta fecha llegue dejará de ser valido**, podemos crear otro sin necesidad de mandar nuestro usuario y contraseña usando únicamente el token de actualización.
 
-## Analizando los tokens
+## Estructura de un Token JWT
 
 El token que recibimos está dividido por puntos en tres partes. La primera parte tiene el algoritmo que se usó, la segunda es la información que contiene el token, el último es la firma.
 
@@ -137,7 +137,7 @@ El token que recibimos está dividido por puntos en tres partes. La primera part
 
 Observa como en la parte de contenido (data) se aprecia que el _user\_id_ es igual a 2, el cual es el id o primary key del usuario que obtuvo el token. El primer usuario en mi caso es el superusuario.
 
-## Autenticándonos con el token
+## Autenticación con Django y JWT
 
 Ahora intentemos usar el token de acceso que obtuvimos para acceder a la vista protegida. Asegurate de estar usando el token _"access"_, no el de _"refresh"_.
 
@@ -145,7 +145,7 @@ Ahora intentemos usar el token de acceso que obtuvimos para acceder a la vista p
 curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzxOTA5MmY4ZTJhNzNkZDM3YyIsInVzZXJfaWQiOjJ9.ibQPgQuEgnuTY6PGja-GLZv4TrAQtKKCgue_muJKlE4" http://127.0.0.1:8000/protegida/ {"content":"Esta vista está protegida"}
 ```
 
-## El token de acceso caduca
+## Caducidad de un JWT
 
 Si seguiste el ejemplo y dejaste que pasaran unos minutos te darás cuenta de que el token de acceso caduca y ya no será válido. **El token de acceso tiene una duración predeterminada de 5 minutos**, esto para evitar problemas si alguien logra interceptarlo.
 
