@@ -134,4 +134,4 @@ OrderedContent.objects.all()
 
 Como puedes ver pudimos acceder a los mismos tres objetos de la base de datos **desde ambos modelos**, con la diferencia de que en el modelo _OrderedContent_ nuestros objetos aparecen ordenados descendentemente con respecto al campo _created_.
 
-Sí quieres saber más sobre Django, puedo recomendarte algunos libros. Lee mi reseña sobre un libro genial que te enseña buenas prácticas de Django en [este enlace](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/).
+Sí quieres saber más sobre Django, puedo recomendarte algunos libros. Lee mi [reseña sobre two scoops of django](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/), un libro genial que te enseña buenas prácticas Django Framework.
