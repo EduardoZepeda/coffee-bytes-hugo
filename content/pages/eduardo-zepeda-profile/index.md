@@ -7,7 +7,7 @@ Hi, I'm Eduardo Zepeda, self-taught web developer. I learned all I know about pr
 
 I'm a huge fan of Codewars, sometimes I solve some Katas there. I reached 2 kyu a few months ago!
 
-[![](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
+[![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 
 My preferred programming languages are:
 

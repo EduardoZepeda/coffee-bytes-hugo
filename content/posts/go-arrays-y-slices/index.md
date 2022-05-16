@@ -1,5 +1,5 @@
 ---
-title: "Go:  arrays y slices"
+title: "Go:  slices y arrays"
 date: "2021-12-14"
 categories: 
   - "golang"
@@ -9,9 +9,9 @@ keywords:
   - golang
 ---
 
-En go o golang los arrays, los slices y los maps son estructuras para manejar colecciones de datos. En esta entrada voy a hablar de los dos primeros: array y slices.
+En go o golang los slices, los arrays y los maps son estructuras para manejar colecciones de datos. En esta entrada voy a hablar de los dos primeros: slices y arrays.
 
-En esta entrada voy a usar tipos de datos, zero values, y otras cosas muy básicas de go. Si no sabes de que hablo, visita mi entrada [Golang: introducción al lenguaje, variables y tipos de datos](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/).
+En esta entrada voy a usar tipos de datos, zero values, y otras aspectos muy básicos de go. Si no sabes de que hablo, visita mi entrada [Golang: introducción al lenguaje, variables y tipos de datos](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/).
 
 ## Arrays en go
 

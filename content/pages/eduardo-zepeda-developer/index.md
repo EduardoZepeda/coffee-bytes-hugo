@@ -9,7 +9,7 @@ Si quieres ver algunas de las cosas que he construido visita [mi sitio personal]
 
 A veces practico mis algoritmos por medio de katas en Codewars.
 
-[![](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
+[![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 
 Mis lenguajes de programación son:
 

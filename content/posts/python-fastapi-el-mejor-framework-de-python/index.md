@@ -373,7 +373,7 @@ Sí, aunque FastAPI es bastante simple también incorpora la funcionalidad de us
 
 ¿No sabes que es un middleware? De manera simplista, un middleware es una pieza de código que colocas antes de la petición, para "interceptarla" y hacer (o no) algo con ella. Un middleware funciona de manera similar a esas carreras de relevos donde la petición y la respuesta serían las estafetas que van pasándose de un middleware al otro, cada middleware puede modificar la petición o la respuesta o dejarla intacta para pasarla al siguiente middleware.
 
-![](images/Middleware.png)
+![Esquema básico de un middleware](images/Middleware.png)
 
 Esquema super simplificado de un Middleware en el contexto web
 
@@ -645,7 +645,7 @@ Hasta este momento **te he ocultado una de las características más geniales de
 
 Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática usando [swagger](https://swagger.io/) y [redoc](https://github.com/Redocly/redoc), no tienes que agregar código, ni establecer una variable para esto, sencillamente abre tu navegador y dirígete a tu [localhost:8000/docs/](http://127.0.0.1:8000/docs/) y [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/), respectivamente, y verás la documentación interactiva generada automáticamente.
 
-![](images/Documentacion_swagger.png)
+![Captura de pantalla de la documentación de swagger](images/Documentacion_swagger.png)
 
 ### Deployment sin Docker
 

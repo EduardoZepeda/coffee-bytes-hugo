@@ -130,7 +130,7 @@ Ahora celery se encargará de que se envié un email cada 10 segundos (spam puro
 
 Una vez que estén corriendo los servicios de celery veremos como se empieza a ejecutar nuestra función cada 10 segundos.
 
-![](images/EjecucionDeTareasPeriodicasCeleryBeat.png)
+![Tareas periódicas ejecutándose en consola](images/EjecucionDeTareasPeriodicasCeleryBeat.png)
 
 Tareas de Celery con 10 segundos de diferencia entre sí
 

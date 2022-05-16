@@ -57,7 +57,7 @@ fmt.Println(string(ch))
 // 'A'
 ```
 
-![](images/ByteEnGo.jpg)
+![Esquema de un byte en go](images/ByteEnGo.jpg)
 
 Representación de la letra 'A' en notación decimal. El cuadrado representa un byte u 8 bits.
 
@@ -113,7 +113,7 @@ fmt.Printf("type:%T, value:%v\n", runa, runa)
 
 Aprecia como el tipo sigue siendo el mismo, pero su valor ahora es 20154, pues al ser un int32 tenemos acceso hasta 2³¹-1 (recuerda que un bit se usa para el signo positivo o negativo).
 
-![](images/RuneEnGo-2.jpg)
+![Esquema de una runa en memoria](images/RuneEnGo-2.jpg)
 
 Representación del caracter '人' en notación decimal. El cuadrado representa un 32 bits.
 

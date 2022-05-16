@@ -91,7 +91,7 @@ func write(texto string, wg *sync.WaitGroup) {
 }
 ```
 
-![](images/golang-goroutine-wait-2.jpg)
+![Funcionamiento de un grupo de espera en go](images/golang-goroutine-wait-2.jpg)
 
 Una vez que el contador de wg.Wait se vuelve cero, se continua la ejecución del programa.
 
@@ -128,7 +128,7 @@ Los channels o canales son conductos, que aceptan un único tipo de dato, a trav
 
 Las goroutines pueden enviar datos a los canales y también leer datos de ellos, logrando comunicarse entre si.
 
-![](images/channels-en-go.jpg)
+![Esquema del funcionamiento de un channel en go](images/channels-en-go.jpg)
 
 Esquema básico del funcionamiento de los channels o canales en Go
 

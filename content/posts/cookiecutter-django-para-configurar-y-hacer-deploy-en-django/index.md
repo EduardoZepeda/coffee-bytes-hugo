@@ -442,7 +442,7 @@ Una vez hecho esto quizás querrás empezar a modificar la carpeta de tu proyect
 
 Para activar la django-debug-toolbar vamos a entrar primero a nuestra aplicación entrando a [localhost](http://127.0.0.1:8000), ahora en nuestra terminal veremos una dirección IP
 
-![](images/IpInternaDockerDjango.png)
+![Ip interna en consola](images/IpInternaDockerDjango.png)
 
 Esta dirección la colocaremos en la variable INTERNAL\_IPS de nuestro archivo de configuración _local.py_
 

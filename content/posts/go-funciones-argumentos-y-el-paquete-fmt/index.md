@@ -235,7 +235,7 @@ var (
 
 Mira lo que pasa si intentamos pasarle un argumento de un tipo incorrecto.
 
-![](images/ErrorScanfArgumentos.gif)
+![Error de los argumentos de scanf en go](images/ErrorScanfArgumentos.gif)
 
 La primera vez que se ejecuta la función todo sale bien y ocurre con normalidad, pero la segunda vez nos devuelve un error porque estamos intentando pasarle a Scanf un argumento de tipo string, y está esperando uno de tipo int.
 

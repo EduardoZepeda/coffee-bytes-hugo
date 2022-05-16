@@ -27,7 +27,7 @@ Wordpress es un sistema bastante popular en internet y ya cuenta con miles de so
 
 A decir verdad esta es la primera vez que creo algo con wordpress. Instalarlo en [Digital Ocean](https://coffeebytes.dev/digital-ocean-analisis-y-mi-experiencia/) fue bastante sencillo y en menos de 5 minutos tuve un blog en linea y perfectamente funcional, listo para empezar a publicar en él y con un arsenal de herramientas para facilitar mi trabajo. Mis únicos dos problemas (si es que se les puede llamar así) fueron dos; el primero, el alto contenido de spam; el segundo, apache2 no sirve contenido usando http2 de manera predeterminada, por lo que necesité ir a la terminal para modificar la configuración de Apache2. A parte de eso, no he tenido problema alguno con Wordpress, ni perdida de datos, ni bugs en el código; mi sitio web corre relativamente bien, con muy buenos indicadores en [lighthouse](https://web.dev).
 
-![](images/web_core_vitals_de_mi_blog.png)
+![Web core vitals de coffee bytes](images/web_core_vitals_de_mi_blog.png)
 
 ## El odio de los desarrolladores hacia wordpress
 

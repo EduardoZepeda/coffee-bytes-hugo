@@ -41,23 +41,23 @@ Ahora el programa nos pedirá ingresar una contraseña maestra y confirmarla. **
 
 Una vez que hayamos hecho eso se nos creará una carpeta del lado izquierdo. Podemos crear otras carpetas para organizar nuestras contraseñas. Para crear una contraseña nueva hacemos click en el icono con forma de llave.
 
-![](images/Keepass_crear_entrada.gif)
+![Crear un registro en keepass](images/Keepass_crear_entrada.gif)
 
 Esto nos arrojará un formulario donde podemos especificar el título, el nombre de usuario, la contraseña, la url del sitio web, una fecha de caducidad opcional y una nota, también opcional.
 
-![](images/keepass_crear_usuario_y_contrasena.gif)
+![Crear usuario y contraseña en keepas](images/keepass_crear_usuario_y_contrasena.gif)
 
 Podemos elegir si crear una contraseña nosotros mismos o pedirle al programa que la genere automáticamennte. Si elegimos generarla podemos elegir la longitud de la contraseña, si queremos que use mayúsculas, minúsculas o caracteres especiales, así como asegurarnos de que la contraseña incluya caracteres de todos los grupos. Una vez puestas las opciones le daremos click a Aceptar. Si presionamos el icono con la imagen del ojo nos mostrará la contraseña creada.
 
-![](images/Keepass_crear_contrasena_pantalla_sin_flash.gif)
+![crear contraseña sin flash](images/Keepass_crear_contrasena_pantalla_sin_flash.gif)
 
 El programa guardará los registros y los mostrará en su panel derecho. Si le damos click derecho en la entrada que acabamos de crear podemos copiar el nombre de usuario o la contraseña al portapapeles para usarlo a nuestro gusto. **Por razones de seguridad el programa se encarga de que la contraseña que pasemos al portapapeles solamente esté disponible por un corto periodo de tiempo.**
 
-![](images/Keepass_copiar_contrasena.gif)
+![Copiar contraseña en keepass](images/Keepass_copiar_contrasena.gif)
 
 Para guardar nuestros cambios simplemente damos click en el ícono con forma de archivero o en el menu de Base de datos.
 
-![](images/Keepass_guardar_base_de_datos_sin_frecuentes.gif)
+![Guardar base de datos en keepass](images/Keepass_guardar_base_de_datos_sin_frecuentes.gif)
 
 Especificamos la ubicación donde queremos que se guarde nuestro archivo y listo. Cuando termine de guardarlo tendremos un archivo con extension _.kdbx_ con todas nuestras contraseñas guardadas y cifradas. Puedes intentar leer el contenido del archivo usando el comando _cat_ y te darás cuenta de que **las contraseñas no están almacenadas en texto plano**, sino cifradas, por lo que solo verás caracteres sin sentido alguno.
 

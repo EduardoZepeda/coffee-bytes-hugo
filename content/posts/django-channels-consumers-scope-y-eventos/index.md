@@ -238,7 +238,7 @@ Todas las conexiones a la url _ws://localhost:8000/ws/chat/_ crearán una instan
 
 Posteriormente, modifiquemos el archivo _asgi.py_ dentro de nuestro proyecto de manera que cada petición que se haga a un websocket sea redirigida a nuestro consumer.
 
-![](images/ProtocolTyperouter-2.png)
+![Esquema del ProtocolTyperouter de Django channels](images/ProtocolTyperouter-2.png)
 
 ```python
 # mychannels/asgi.py
@@ -303,7 +303,7 @@ chatSocket.send(JSON.stringify({
 
 Si todo salió bien deberíamos obtener una respuesta con el mensaje que mandamos.
 
-![](images/djangoChannelsWebSockets-1.png)
+![Respuesta de un websocket en la consola de javascript ](images/djangoChannelsWebSockets-1.png)
 
 Manejando websockets en la consola de Javascript
 

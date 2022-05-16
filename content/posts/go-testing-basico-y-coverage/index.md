@@ -164,13 +164,13 @@ Al ejecutar el comando, se abrirá una pestaña de nuestro navegador y nos mostr
 go tool cover -html=coverage.out
 ```
 
-![](images/Captura-de-pantalla-de-2022-02-09-12-35-57.png)
+![Coverage en go](images/Captura-de-pantalla-de-2022-02-09-12-35-57.png)
 
 Coverage completo en html en go
 
 Si decidimos modificar nuestra función para que maneje los casos de la división por cero, y corremos los tests de coverage de nuevo, obtendremos un esquema diferente al anterior. Ahora sí aparece una sección de código no cubierto por los tests en colo rojo y nuestro coverage bajó a 50%.
 
-![](images/coverage-en-go.png)
+![Captura de pantalla del coverage en go](images/coverage-en-go.png)
 
 Coverage incompleto en html en go
 

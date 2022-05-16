@@ -37,7 +37,7 @@ Mientras nos encontremos en la terminal, si presionamos la tecla arriba de nuest
 
 Si cometimos alguna tontería como ejecutar un bucle infinito, o simplemente queremos detener algo que ejecutamos, usaremos CTRL + C, sí, como si fueras a hacer un copy paste, pero con la terminal abierta. Esto cancelará la ejecución del comando.
 
-![](images/ctrl_c.gif)
+![Cancelando la ejecución de código con CTRL + C](images/ctrl_c.gif)
 
 Una vez explicado esto empecemos con los comandos.
 

@@ -23,7 +23,7 @@ El modelo _User_ de Django hereda de _AbstractUser_ que, a su vez, hereda de la 
 
 Si miras el código fuente de Django, verás que el **modelo _User_ que usas normalmente no tiene prácticamente ninguna funcionalidad propia**, sino que hereda toda su funcionalidad de _AbstractUser_.
 
-![](images/UserDjango.png)
+![Captura de pantalla del código del modelo User de Django](images/UserDjango.png)
 
 Captura de pantalla del código de Django version 4.0
 

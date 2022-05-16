@@ -16,7 +16,7 @@ Me topé con Ngrok intentando redirigir la notificación de un pago de Mercado P
 
 Lo que hace Ngrok es servir como un túnel que redirige cualquier petición web, a través de sus propias urls, a tu localhost. Esto puede usarse para probar un webhook o recibir notificaciones, una tarea bastante común en pasarelas de pago, compartir tu localhost con colaboradores sin necesidad de un dominio propio, etc.
 
-![](images/EsquemaNgrok.png)
+![Esquema del funcionamiento de ngrok](images/EsquemaNgrok.png)
 
 ## Instalación de Ngrok
 

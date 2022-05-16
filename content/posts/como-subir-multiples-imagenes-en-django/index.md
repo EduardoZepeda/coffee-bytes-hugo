@@ -171,7 +171,7 @@ urlpatterns = [
 
 Sí ahora accedemos a la dirección _upload/_ veremos nuestro botón para subir archivos y podremos subir múltiples imágenes.
 
-![](images/subida-multiple-de-imagenes.gif)
+![Subida de múltiples imágenes en django](images/subida-multiple-de-imagenes.gif)
 
 Si la subida fue exitosa obtendremos como respuesta un JSON con las direcciones de las imágenes que acabamos que subir.
 

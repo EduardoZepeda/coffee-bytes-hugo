@@ -106,7 +106,7 @@ SELECT "my_app_derivado"."id",
 
 Si el método _select\_related_ recupera un único objeto a partir de un campo de relación única, **el método _prefetch\_related_ se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo **_ManyToMany_ o un _ForeignKey_ inverso**.
 
-![](images/prefetch_related.png)
+![Esquema del funcionamiento de prefetch_related en django](images/prefetch_related.png)
 
 Esquema simplificado del funcionamiento de prefetch\_related
 

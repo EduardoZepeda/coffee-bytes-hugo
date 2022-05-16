@@ -19,7 +19,7 @@ Si quieres aprender React pero no sabes Javascript lee mi entrada, donde hablo d
 
 Ant design es hermosa, sí, no hay mucho que se pueda profundizar usando texto. Tiene montones de componentes que son agradables visualmente hablando y muy elegantes: botones, sliders, barras de progreso, layouts, ya sabes, lo básico. Asegúrate de visitar el [sitio web de Ant design](https://ant.design/) para ver por ti mismo todo lo qu esta librería tiene para ofrecer.
 
-![](images/Ant-design.gif)
+![Captura de pantalla de ant design](images/Ant-design.gif)
 
 ## formik
 
@@ -27,7 +27,7 @@ Formik es una librería genial. Esta librería consigue que trabajar con formula
 
 Nota el esquema de validación en la parte izquierda consistente de un objeto llamado _ValidationSchema_ el cual tiene el nombre de los campos y funciones que se concatenan para llevar a cabo la validación. Existen funciones como _min()_, _max()_, _oneOf()_ y muchas otras para **casi cualquier tipo de validación que requieras.** Te dejo [el enlace al sandbox](https://codesandbox.io/s/zkrk5yldz?file=/index.js) [](https://codesandbox.io/s/zkrk5yldz?file=/index.js) de donde tome este ejemplo.
 
-![](images/Formik-1.gif)
+![Captura de pantalla de código de Formik](images/Formik-1.gif)
 
 ## React query
 
@@ -43,7 +43,7 @@ A veces es bastante molesto encargarse de la parte de la parte gráfica de una p
 
 Antes de usarla recuerda revisar la licencia de los íconos que decidas usar, porque no todas las licencias son igual de permisivas.
 
-![](images/React-icons-kit.gif)
+![Captura de pantalla de la página de React icons kit](images/React-icons-kit.gif)
 
 ## El React minimalista: Preact
 
@@ -51,13 +51,13 @@ Preact es React, sí, mismas funciones, bueno, en realidad no todas, pero las m�
 
 Puedes leer más diferencias entre React y Preact en [su página oficial.](https://preactjs.com/guide/v10/differences-to-react/)
 
-![](images/Preact.jpg)
+![Captura de pantalla de la página de Preact](images/Preact.jpg)
 
 ## React admin
 
 React admin es el equivalente del django admin pero en React, una interfaz para realizar operaciones CRUD a los modelos de tu base de datos. Requiere una configuración muy básica, pero una vez que la configuras ya está todo hecho. Visita el [demo de React admin](https://marmelab.com/react-admin-demo/#/) para que lo conozcas.
 
-![](images/ReactAdminInterfaz.png)
+![Interfaz de React admin](images/ReactAdminInterfaz.png)
 
 ## Bonus: React Virtualized
 

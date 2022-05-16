@@ -272,7 +272,7 @@ Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra ins
 
 Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, servidores de backend y en blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
 
-![](images/traeffik-y-kubernetes-1024x505-1.jpg)
+![Logos de tecnologías creadas con go](images/traeffik-y-kubernetes-1024x505-1.jpg)
 
 Traefik, docker, kubernetes, influxdb y terraform están escritos en Go
 

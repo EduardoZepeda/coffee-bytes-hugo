@@ -27,7 +27,7 @@ La razón de que parfume se parezca a perfume es porque ambos contienen trigrama
 
 ¿Trigrama? Sí, trigrama, de tres y grama. **Un trigrama son tres caracteres consecutivos**, así de sencillo.
 
-![](images/trigramas.jpg)
+![Esquema de los trigramas de automata](images/trigramas.jpg)
 
 Trigramas son tres caracteres consecutivos
 

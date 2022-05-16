@@ -37,7 +37,7 @@ Pero supongo que quieres ver como luce el código ¿no? Mira este ejemplo tomado
 > 
 > https://htmx.org/docs/#introduction
 
-![](images/HtmxEsquema.jpg)
+![Esquema del funcionamiento de htmx](images/HtmxEsquema.jpg)
 
 Esquema del funcionamiento de HTMX
 
