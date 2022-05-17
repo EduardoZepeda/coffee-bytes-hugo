@@ -36,17 +36,21 @@ removePathAccents=true
     url = "/"
     weight = 1
   [[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 2
+  [[menu.main]]
     name = "Categorias"
     url = "/categories/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Sobre mi"
     url = "/pages/eduardo-zepeda-developer"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "Reseñas de libros"
     url = "/pages/libros-que-he-leido-y-resenas"
-    weight = 3
+    weight = 5
   [[menu.footer]]
     name = "Politica de privacidad"
     url = "/pages/politica-de-privacidad"

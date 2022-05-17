@@ -3,6 +3,7 @@ title: "Git Submodules Y Flujo de Trabajo"
 date: 2022-05-12T16:01:54-05:00
 draft: true
 coverImage: "images/git-submodules.jpg"
+coverImageCredits: "Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617"
 categories:
 - git
 - "gnu-linux-y-devops"
@@ -73,7 +74,7 @@ ls -la
 # ...
 ```
 
-Si revisas el contenido de este archivo, verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
+Si revisas el contenido de este archivo con el [comando cat](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
 
 ```bash
 cat .git
