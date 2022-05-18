@@ -1,7 +1,6 @@
 ---
 title: "Git Submodules Y Flujo de Trabajo"
-date: 2022-05-12T16:01:54-05:00
-draft: true
+date: 2022-05-18T16:01:54-05:00
 coverImage: "images/git-submodules.jpg"
 coverImageCredits: "Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617"
 categories:
@@ -21,7 +20,7 @@ Por otro lado, **usar git submodules complica bastante el manejo de repositorios
 
 ## Agregar un submodule a un repositorio de git
 
-Para agregar un submódulo a un repositorio existente (nuestro repositorio principal) usamos el comando *git submodule*, poniendo como destino la carpeta donde queremos que se localice el submódulo. 
+Para empezar a utilizar un submódulo en un repositorio existente (nuestro repositorio principal) usamos el comando *git submodule add*, colocando primero la url del submódulo y posteriormente la carpeta donde queremos que se localice el submódulo. 
 
 Si el directorio no existe se creará.
 
@@ -33,7 +32,7 @@ El comando anterior copiará el código de la url `<url>` en el directorio `<des
 
 ### Estructura de un submódulo
 
-Nota como se creó un nuevo archivo (no un directorio) *.git* dentro de la carpeta del submódulo de nuestro repositorio. Dependiendo del repositorio que elijas como un submódulo, también podrás ver su propio archivo *.gitignore*.
+Tras añadir un submódulo a un repositorio se creará un nuevo archivo (no un directorio) llamado *.git* dentro de la carpeta del submódulo de nuestro repositorio. 
 
 ```bash
 .
@@ -46,9 +45,11 @@ Nota como se creó un nuevo archivo (no un directorio) *.git* dentro de la carpe
 │   │   ├── files.js
 ```
 
+Dependiendo del repositorio que elijas como un submódulo, también podrás ver su propio archivo *.gitignore*.
+
 ### El archivo .gitmodules
 
-Además de copiar el código del repositorio remoto en la carpeta destino, git crea un archivo *.gitmodules* en la raiz de nuestro repositorio principal. Este archivo lleva un registro de el o los submódulos de nuestro repositorio. 
+Además de copiar el código del repositorio remoto en la carpeta destino, git creará un archivo *.gitmodules* en la raiz de nuestro repositorio principal. Este archivo guarda las referencias a el o los submódulos de nuestro repositorio. 
 
 Cada uno de estos submódulos especifica su ruta, relativa a la raiz del repositorio, la url y la rama (opcional)
 
@@ -81,7 +82,7 @@ cat .git
 gitdir: ../.git/modules/<submodule>
 ```
 
-¿Y que hay en esa ubicación? En esa ubicación se encuentran los archivos con los que git maneja un repositorio, guardan la misma estructura que los que están dentro de la carpeta *.git* de tu repositorio principal.
+¿Y que hay en esa ubicación? En esa ubicación se encuentran los archivos con los que git maneja un repositorio internamente, guardan la misma estructura que los que están dentro de la carpeta *.git* de tu repositorio principal.
 
 ### Git trata a los submodules como repositorios individuales
 
@@ -132,17 +133,17 @@ git push
 
 Lo importante a recordar aquí es que siempre debemos actualizar los cambios tanto del submódulo como del repositorio principal.
 
-### Inicializar un submodule en git
+### Inicializar un repositorio con submodules en git
 
 ¿Y qué pasa si en lugar de agregar un submódulo con *git add submodule*, clonamos un proyecto que tiene un archivo *.gitmodules*?
 
-Cuando clonamos un repositorio que tiene submodules, **git clona solo el repositorio principal, sin el contenido de los submodules**.
+Cuando clonamos un repositorio que tiene submódulos, **git clona solo el repositorio principal, sin incluir el contenido de los submodules**.
 
 ```bash
 git clone <repositorio-con-submodules>
 ```
 
-Compruebalo, navega al interior de las carpetas de los submódulos y podrás apreciar están vacias. 
+Compruebalo, navega al interior de las carpetas de los submódulos y podrás apreciar que están vacias. 
 
 Para que git descargue el contenido de los submódulos necesitamos inicializar, con *--init* los submódulos con el siguiente comando:
 
@@ -152,7 +153,7 @@ git submodule update --init --recursive
 
 La opción *--recursive* se encargará de inicializar todos los submódulos del repositorio principal.
 
-### Actualizar un submodule en git
+### Actualizar un repositorio con submodules en git
 
 ¿Y qué pasa si hacemos un *pull* de nuestro proyecto principal? 
 
@@ -165,3 +166,5 @@ Si hubo cambios en tu repositorio principal y haces un *git pull* es **tu obliga
 ```bash
 git submodule update --recursive --remote
 ```
+
+Con lo anterior doy por concluido el artículo, si te sirvió puedes compartirlo en tus redes sociales favoritas.

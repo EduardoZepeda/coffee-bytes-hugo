@@ -3,6 +3,7 @@ title: "Testeo con tox en Python, tutorial desde cero"
 date: "2019-06-18"
 categories: 
   - "python"
+  - "testing"
 coverImage: "images/porque_deberias_usar_tox.jpg"
 description: "Aprende que es tox, como se instala, como se usan los archivos tox.ini y como configurarlo para crear tests más seguros en Python."
 keywords:

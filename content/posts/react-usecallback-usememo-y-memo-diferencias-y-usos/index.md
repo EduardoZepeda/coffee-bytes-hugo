@@ -59,6 +59,18 @@ const MyComponent = ({prop}) => {
 }
 ```
 
+## Diferencias entre useCallback, useMemo y memo 
+
+Las diferencias básicas entre useCallback, useMemo y memo se resumen en la siguiente tabla.
+
+* useCallback, memoiza funciones, es un hook.
+* useMemo, memoiza valores, es un hook.
+* memo, memoiza componentes, es un HOC.
+
+![Diferencias entre useCallback, useMemo y memo](images/Diferencias-React-useCallback-useMemo-memo.jpg)
+
+Ahora vamos al código.
+
 ## useCallback memoiza funciones
 
 useCallback **es un hook de React** que se encarga de memoizar las funciones y que no se rerenderizen al montarse los components. Es muy útil cuando se transfieren funciones a componentes hijos.

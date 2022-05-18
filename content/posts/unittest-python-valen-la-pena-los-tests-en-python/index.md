@@ -3,6 +3,7 @@ title: "Unittest python ¿valen la pena los tests en python?"
 date: "2019-06-11"
 categories: 
   - "python"
+  - "testing"
 coverImage: "images/porque_deberias_incorporar_test_a_tu_codigo.jpg"
 description: "Los tests son un desperdicio, ¿verdad? Entra aquí y conoce unittest, coverage, mock y otras herramientas populares de python para testing."
 keywords:

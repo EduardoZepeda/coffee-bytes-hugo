@@ -13,7 +13,6 @@ removePathAccents=true
   excludeFromSitemap = ["tags", "categories", "posts"]
   [params.latte]
     author = "Eduardo Zepeda"
-    description = "Artículos y tutoriales sobre desarrollo web y Linux"
     seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
     toc = true
     disablesearch = false
@@ -40,7 +39,7 @@ removePathAccents=true
     url = "/index.xml"
     weight = 2
   [[menu.main]]
-    name = "Categorias"
+    name = "Categorías"
     url = "/categories/"
     weight = 3
   [[menu.main]]
