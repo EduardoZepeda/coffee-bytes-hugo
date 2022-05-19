@@ -2,6 +2,8 @@ baseURL = "https://coffeebytes.dev/"
 title = "Coffee bytes"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"
+languageCode = 'es-MX'
+author = "Eduardo Zepeda"
 
 theme = "hugo-theme-latte"
 summaryLength = 30
@@ -10,6 +12,10 @@ removePathAccents=true
 
 [language]
 lang = "es"
+
+[Author]
+  name = 'Eduardo Zepeda'
+  email = 'eduardozepeda@coffeebytes.dev'
 
 [params]
   excludeFromSitemap = ["tags", "categories", "posts"]
@@ -32,6 +38,7 @@ lang = "es"
 
 [outputs]
     section = ["JSON", "HTML"]
+    
 
 [menu]
   [[menu.main]]
