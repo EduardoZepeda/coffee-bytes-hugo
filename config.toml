@@ -13,7 +13,7 @@ removePathAccents=true
   excludeFromSitemap = ["tags", "categories", "posts"]
   [params.latte]
     author = "Eduardo Zepeda"
-    description = "Artículos sobre desarrollo web y Linux, un poquito más backend que frontend."
+    description = "Artículos sobre desarrollo web y Linux."
     seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
     toc = true
     disablesearch = false
