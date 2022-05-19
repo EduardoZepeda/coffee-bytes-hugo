@@ -1,5 +1,4 @@
 baseURL = "https://coffeebytes.dev/"
-languageCode = "es"
 title = "Coffee bytes"
 enableRobotsTXT = true
 DefaultContentLanguage = "es"
@@ -9,11 +8,15 @@ summaryLength = 30
 googleAnalytics = "UA-112824408-2"
 removePathAccents=true
 
+[language]
+lang = "es"
+
 [params]
   excludeFromSitemap = ["tags", "categories", "posts"]
+  author = "Eduardo Zepeda"
+  description = "Artículos sobre desarrollo web y Linux."
+  
   [params.latte]
-    author = "Eduardo Zepeda"
-    description = "Artículos sobre desarrollo web y Linux."
     seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
     toc = true
     disablesearch = false
