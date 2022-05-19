@@ -10,6 +10,8 @@ categories:
 
 Los git submodules o submódulos son un registro dentro de un repositorio de git que apunta a un commit en un repositorio externo. Se manejan exactamente igual que harías con un repositorio, incluso tienen un archivo *.git* que apunta a la ubicación en la que se lleva un registro de los cambios.
 
+![Esquema simplificado de git submodules](images/git-submodulo-esquema-basico.jpg "Esquema simplificado de git submodules")
+
 Los submodules de git son útiles cuando queremos incorporar código de terceros a un proyecto y al mismo tiempo queremos llevar un control estricto de las actualizaciones de ese código por medio de git. Por ejemplo:
 
 * Un repositorio compartido para un tema o estilos (Como en el SSG, Hugo).
