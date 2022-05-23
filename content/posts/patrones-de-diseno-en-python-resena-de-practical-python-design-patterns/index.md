@@ -1,5 +1,5 @@
 ---
-title: "Patrones de diseno en Python, reseña de Practical Python Design Patterns"
+title: "Patrones de diseño en Python, reseña de Practical Python Design Patterns"
 date: "2020-05-31"
 categories: 
   - "python"
@@ -23,7 +23,9 @@ Cuando una persona quiere crear un vehículo que cumpla la función de transport
 
 En el software los patrones de diseño son iguales, son el acomodo y las relaciones específicas de objetos, métodos y atributos que nos permiten solucionar un problema. ¿Cómo que problemas? Prácticamente cualquier problema que se presente con demasiada frecuencia para que se llegue a una solución estandarizada.
 
-Algunos problemas muy comunes son: la creación de enemigos con diferentes características en un videojuego MMORPG, asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. ¿Te suena este último a algo? **Sí, el MVC que usan muchos frameworks web es un patrón de diseño.**
+Algunos problemas muy comunes son: la creación de enemigos con diferentes características en un videojuego MMORPG, asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
+
+¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/), es un patrón de diseño.** O el patrón [debounce y Throttle](https://coffeebytes.dev/debounce-y-throttle-en-javascript/) que se usan principalmente en Javascript.
 
 Los patrones de diseño facilitan que el desacoplamiento del código, lo que vuelve más sencillo agregar o remover funciones y también nos dan la seguridad de que son soluciones que ya han sido probadas una y otra vez a lo largo de los años.
 
@@ -205,5 +207,3 @@ Creo que los patrones de diseño son un tema imperdible que marca mucho la difer
 **Conocimientos previos recomendados:** Python  
 **Recomendado para leerlo:** 8/10  
 **Idiomas:** Inglés
-
-[Entra en este enlace](https://coffeebytes.dev/libros-que-he-leido-y-resenas/) para ver todas las reseñas de libros que tengo disponibles.

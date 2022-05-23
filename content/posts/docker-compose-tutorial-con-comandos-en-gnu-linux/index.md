@@ -69,7 +69,7 @@ DATABASES = {
 
 La personalización de un archivo docker-compose.yml depende de sus opciones de configuración, estas le dirán a cada uno de los servicios como comportarse.
 
-Hay muchísimas variables de configuración, que puedes consultar en la [documentación oficial.](https://docs.docker.com/compose/compose-file/) Para que no tengas que leerlas todas dejará algunas de las más importantes.
+Hay muchísimas variables de configuración, que puedes consultar en la [documentación oficial de Docker.](https://docs.docker.com/compose/compose-file/) Para que no tengas que leerlas todas dejará algunas de las más importantes.
 
 ### image
 
@@ -529,4 +529,4 @@ services:
     command: /start
 ```
 
-¿Que tal una aplicación práctica de Docker Compose? Entra en mi siguiente entrada para explicarte como hacer un deploy usando cookiecutter-django y docker-compose; gracias a cookie-cutter bastan un par de comandos de docker-compose y listo, una aplicación lista para producción, con SSL y muchas más funciones.
+¿Que tal una aplicación práctica de Docker Compose? En mi siguiente entrada te explico como hacer un deploy usando cookiecutter-django y docker-compose; gracias a cookie-cutter bastan un par de comandos de docker-compose y listo, una aplicación lista para producción, con SSL y muchas más funciones.

@@ -11,7 +11,7 @@ keywords:
   - "python"
 ---
 
-En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios que ya incluye Django.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios de Django.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 
 Pero, antes de empezar, veamos de donde viene el modelo User de Django.
 

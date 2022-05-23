@@ -13,8 +13,6 @@ keywords:
 
 Has usado Django antes ¿no? Entonces, ya usaste algún comando de Django, pudo haber sido makemigrations, migrate, startproject, startapp algún otro. Pero, ¿alguna vez has creado alguno? Quizás no. Sigue leyendo para aprender como.
 
-Si nunca has usado django visita [mi lista de reseñas de libros](https://coffeebytes.dev/libros-que-he-leido-y-resenas/), donde opino sobre varios libros de django.
-
 ## Crear un comando en django
 
 Para crear un comando de django basta con crear una carpeta llamada _management_ en el mismo nivel que tu archivo _manage.py_

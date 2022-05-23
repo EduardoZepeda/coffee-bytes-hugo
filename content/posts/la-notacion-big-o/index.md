@@ -129,4 +129,11 @@ Si buscas algo más visual para introducirte en el mundo de los algoritmos mira 
 
 {{< youtube Q9HjeFD62Uk >}}
 
-Si quieres practicar tus capacidades de resolución de problemas usando algoritmos tengo una entrada al respecto [entra aquí para saber más.](https://coffeebytes.dev/un-problema-de-algoritmos-al-dia/)
+## ¿Dónde practicar algoritmos?
+
+Te dejo algunas opciones para practicar algorítmos.
+
+* [newsletter de un algorítmo al día](https://coffeebytes.dev/un-problema-de-algoritmos-al-dia/) 
+* [codewars](https://coffeebytes.dev/top-5-problemas-de-algoritmos-favoritos-en-codewars/)
+* [HackerRank](https://www.hackerrank.com/)
+

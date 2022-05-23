@@ -92,7 +92,7 @@ urlpatterns = [
 
 El parámetro _graphiql_ le indica a django si debe servir o no la interfaz graphiql.
 
-![Diferencia en la interfaz al poner graphiql como True o False](images/graphiqlTrueOrFalse.png)
+![Diferencia en la interfaz al poner graphql como True o False](images/graphiqlTrueOrFalse.png)
 
 Si ahora intentamos acceder a la url que acabamos de crear, django nos devolverá un error avisándonos que **necesitamos un _schema_ de graphql**.
 

@@ -64,7 +64,7 @@ Un año más tarde usaría Python para automatizar mis tareas digitales del día
 
 Python era maravilloso, podía programar todas las tareas del día y dejarlas ejecutándose mientras yo me iba a hacer otras cosas. El sistema funcionaba perfecto, me generaba dinero y casi no requería inversión de tiempo de mi parte. Dediqué el tiempo libre que tenía para formarme en más temas relacionados con el mundo de la programación: C, C++, algoritmos, matemáticas discretas, criptografía, buenas prácticas, seguridad informática, software libre, GNU/Linux y otros temas que consideraba relevantes.
 
-Esta es, de manera bastante resumida, la historia sobre como empecé a programar. Siempre de manera autodidacta, [leyendo libros](https://coffeebytes.dev/libros-que-he-leido-y-resenas/) y blogs, viendo tutoriales y practicando mucho.
+Esta es, de manera bastante resumida, la historia sobre como empecé a programar. Siempre de manera autodidacta, [leyendo libros](https://coffeebytes.dev/pages/libros-que-he-leido-y-resenas) y blogs, viendo tutoriales y practicando mucho.
 
 ## Bootcamp en Bedu
 
