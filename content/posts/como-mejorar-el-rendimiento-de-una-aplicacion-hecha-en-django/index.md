@@ -211,7 +211,7 @@ Dependiendo del avance de tu aplicación quizás te convenga migrar a otro frame
 
 O, si tu aplicación no es muy compleja a nivel de base de datos, quizás quieras escribir tus propias consultas sql y combinarlas con algún otro framework.
 
-La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi entrada donde te explico [los aspectos básicos de FastAPI.](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/)
+La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi entrada donde te explico [los aspectos básicos de FastAPI.](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/)
 
 ## Bonus: aplicaciones con más de 63 000 modelos
 

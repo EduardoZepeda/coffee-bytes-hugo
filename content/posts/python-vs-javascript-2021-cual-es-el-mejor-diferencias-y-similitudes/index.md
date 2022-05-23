@@ -276,7 +276,7 @@ Incluso aún a pesar de la abundancia de opciones que hay salen nuevos framework
 
 ### Frameworks para Python
 
-Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como [Django, con sus ventajas y desventajas](https://coffeebytes.dev/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
+Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como [Django, con sus ventajas y desventajas](https://coffeebytes.dev/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
 
 ![Frameworks de desarrollo web de Python](images/python-frameworks.jpg)
 

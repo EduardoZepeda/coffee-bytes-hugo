@@ -96,7 +96,7 @@ Mientras que una respuesta para recursos múltiples es así:
 
 ## ¿URLs relativas o completas en HATEOAS?
 
-¿Recuerdas que HATEOAS es una [característica de las APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/)? Pues, según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, tómalo en cuenta cuando diseñes tu API REST.
+¿Recuerdas que HATEOAS es una [característica de las APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/)? Pues, según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, tómalo en cuenta cuando diseñes tu API REST.
 
 ```bash
 {"rel":"self",
@@ -204,7 +204,7 @@ Generalmente querras versionar tu API. Sin embargo, si tu API es sumamente simpl
 
 ### ¿Dónde versionar el API?
 
-Para que una API se apegue a los [requisitos de la arquitectura REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/) debe cumplir con ciertas características, pero algunas compañias deciden obviar estos requisitos para sus APIs y, aún así, denominarlas REST. 
+Para que una API se apegue a los [requisitos de la arquitectura REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) debe cumplir con ciertas características, pero algunas compañias deciden obviar estos requisitos para sus APIs y, aún así, denominarlas REST. 
 
 Aquí te dejo algunas opciones para versionar tus APIs usadas por grandes compañias, sin importar si cumplen con REST o no.
 

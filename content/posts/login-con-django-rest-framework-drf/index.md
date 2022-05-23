@@ -16,7 +16,7 @@ keywords:
 
 Casi todas las aplicaciones complejas en Django necesitan vistas para Login, Logout, reinicio y cambio de contraseñas, así como registro de usuarios. Sin embargo tanto Django como Django REST Framework (DRF) se muestran completamente agnósticos respecto a su implementación, y delegan la responsabilidad de esas funciones en los usuarios de sus frameworks. Afortunadamente hay librerías que vuelven bastante sencilla esa tarea.
 
-Si estás por desarrollar una API, tengo una entrada con [recomendaciones sobre diseño de APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/) que puede servirte bastante.
+Si estás por desarrollar una API, tengo una entrada con [recomendaciones sobre diseño de APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) que puede servirte bastante.
 
 ## Autenticación y login de usuarios con DRF
 

@@ -516,4 +516,4 @@ El siguiente paso es agregar nuestro servicio a algún controlador de procesos, 
 
 Teóricamente puedes realizar este procedimiento en cualquier PAAS, tal como [Digital Ocean](https://coffeebytes.dev/digital-ocean-analisis-y-mi-experiencia/), Linode, etc. Yo he hecho el procedimiento usando un Droplet de Docker en Digital Ocean y ha salido bien. El autor tiene instrucciones para otras plataformas que puedes consultar en [la documentación oficial de cookiecutter-django](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
-Visita mi siguiente entrada, donde hablo [de uno de los frameworks más nuevos de Python para crear APIs](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/).
+Visita mi siguiente entrada, donde hablo [de uno de los frameworks más nuevos de Python para crear APIs](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/).

@@ -370,7 +370,7 @@ Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.
 
 ![Frameworks web más populares de Python: Django, Fastapi, flask, bottle](images/python-frameworks.jpg)
 
-A pesar de que la mayoría de frameworks en Python son antiguos, no significa que no estén apareciendo nuevos frameworks últimamente. [Fastapi](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/), del que ya hice un tutorial también es un nuevo framework muy veloz que gana popularidad día con día.
+A pesar de que la mayoría de frameworks en Python son antiguos, no significa que no estén apareciendo nuevos frameworks últimamente. [Fastapi](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/), del que ya hice un tutorial también es un nuevo framework muy veloz que gana popularidad día con día.
 
 ## ¿Cuál elegir Python vs go?
 

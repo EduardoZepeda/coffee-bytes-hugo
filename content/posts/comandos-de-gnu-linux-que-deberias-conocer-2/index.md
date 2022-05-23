@@ -9,7 +9,7 @@ keywords:
   - linux
 ---
 
-Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/).
+Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/).
 
 Vamos a empezar con el comando uname, para situarnos un poco en el contexto del sistema operativo con el que estamos trabajando.
 
@@ -465,4 +465,4 @@ sudo neofetch
 
 ## Más comandos básicos para la terminal de linux
 
-Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/)
+Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/)

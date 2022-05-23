@@ -249,7 +249,7 @@ Toda API debería de estar documentada. La documentación debería ser ser clara
 
 Considera implementarlas en tu proyecto.
 
-Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](https://coffeebytes.dev/tutorial-de-fastapi-el-mejor-framework-de-python/)
+Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/)
 
 ![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png)
 

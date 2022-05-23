@@ -15,7 +15,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](https://coffeebytes.dev/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/)
+Entra aquí para la [segunda parte de esta serie de comandos](https://coffeebytes.dev/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/)
 
 ## Pequeños tips de la terminal de Linux
 
