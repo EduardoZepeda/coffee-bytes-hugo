@@ -49,7 +49,7 @@ A la izquierda la mascota de Go. A la derecha el logo oficial
 
 ## Instalación
 
-Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) como cualquier otro paquete.
+Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](https://coffeebytes.dev/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
 
 ```bash
 sudo apt install golang

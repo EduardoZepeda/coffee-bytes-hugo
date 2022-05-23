@@ -9,11 +9,18 @@ keywords:
   - linux
 ---
 
-Esta es la tercera parte de la lista de los comandos que más utilizo de GNU/Linux. Si quieres ver las dos primeras partes de esta serie de entradas por favor [haz click aquí para la primera parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) o [click acá para la segunda parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/).
+Esta es la continuación de las siguientes partes: 
+
+* [Comandos básicos de GNU Linux, primera parte](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/) 
+* [Comandos básicos de GNU Linux, segunda parte](https://coffeebytes.dev/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/).
 
 ## printenv
 
-_Printenv_ va a imprimir una serie de igualdades conocidas como variables de entorno, y sus valores correspondientes. Estas variables describen el entorno en que corre un programa e influyen en como se comporta nuestro sistema operativo. Las variables de entorno están disponibles para ser leídas por cualquier aplicación de nuestro sistema, por lo que podemos usarlas para guardar información tal como nombres de usuario, valores de configuración, rutas a archivos, etc.
+Printenv se encarga de imprimir las variables de entorno de nuestro sistema.
+
+### ¿Qué es una variable de entorno?
+
+Las variables de entorno son una **serie de igualdades conocidas como variables de entorno**, y sus valores correspondientes. Las variables de entorno describen el entorno en que corre un programa e influyen en como se comporta nuestro sistema operativo. Estas variables están disponibles para ser leídas por cualquier aplicación de nuestro sistema, por lo que podemos usarlas para guardar información tal como nombres de usuario, valores de configuración, rutas a archivos, etc.
 
 ```bash
 printenv
@@ -349,7 +356,7 @@ mkfs.ext4 /dev/sdb2
 mkfs.xfs /dev/hda1
 ```
 
-Si quieres profundizar más en este tema, hay un [video donde se explican las diferencias entre los tipos de archivo ext4 y xfs.](https://www.youtube.com/watch?v=f0gz-PV3X4Y) 
+Si quieres profundizar más en este tema, hay un video donde se explican las [diferencias entre los tipos de archivo ext4 y xfs.](https://www.youtube.com/watch?v=f0gz-PV3X4Y) 
 
 ## stat
 
@@ -379,7 +386,7 @@ chroot /mi-nuevo-directorio-root
 
 ## chown
 
-Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los permisos **ingresa como super usuario**, si no sabes como hacerlo revisa los demás [comandos básicos de gnu linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-2/) de esta serie de entradas.
+Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los [permisos en GNU Linux](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) **ingresa como super usuario**.
 
 ```bash
 ls -la
@@ -482,4 +489,4 @@ Ahora el propietario, llamado _usuario_, puede escribir, leer y ejecutar ambos a
 
 ## Aún más sobre el comando chmod
 
-El sistema de permisos de GNU/Linux es un tema bastante complejo, por lo que hablaré de él con más detalle en la siguiente entrada. Entra en mi entrada sobre [permisos con chmod en GNU linux](https://coffeebytes.dev/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)
+El sistema de permisos de GNU/Linux es un tema bastante complejo, por lo que hablaré de él con más detalle en la siguiente entrada.

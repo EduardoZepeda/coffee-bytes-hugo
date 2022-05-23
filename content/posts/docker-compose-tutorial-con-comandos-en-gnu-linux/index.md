@@ -84,7 +84,7 @@ services:
 
 ### build
 
-En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. Si no sabes que es un Dockerfile por favor recuerda que puedes visitar mi entrada donde explico [como funciona y para que sirve Docker.](https://coffeebytes.dev/aprende-docker-curso-practico-con-ejemplos-en-gnu-linux/)
+En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. Si no sabes que es un Dockerfile por favor recuerda que puedes visitar mi entrada donde explico [como funciona y para que sirve Docker.](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/)
 
 ```docker
 version: "3.8"
@@ -178,7 +178,7 @@ En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya est�
 
 ### environment
 
-La configuración environment nos permite establecer una lista de [variables de entorno](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
+La configuración environment nos permite establecer una lista de [variables de entorno](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
 
 ```docker
 version: '3.8'

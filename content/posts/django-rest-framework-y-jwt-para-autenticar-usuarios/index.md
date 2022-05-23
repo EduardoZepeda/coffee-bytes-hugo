@@ -106,7 +106,7 @@ Si probamos hacer una petición a la url _/protegida/_ nos advertirá de que no 
 curl http://127.0.0.1:8000/protegida/ {"detail":"Authentication credentials were not provided."}
 ```
 
-Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
+Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
 
 ## Obtener tokens JWT en Django
 
