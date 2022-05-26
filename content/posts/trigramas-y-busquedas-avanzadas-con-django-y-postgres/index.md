@@ -150,14 +150,16 @@ Exactamente tienen los siguientes valores:
 Estos valores pueden sobreescribirse para adaptarse a tus necesidades, de acuerdo al tipo de negocio y modelos que uses.
 
 ```python
-Libro.objects.annotate(rank=SearchRank(vector, query), weights=[0.1, 0.2, 0.3, 0.9]).filter(rank__gte=0.3).order_by('rank')).filter(rank__gte=0.3).order_by('rank')
+Libro.objects.annotate(rank=SearchRank(vector, query), weights=[0.1, 0.2, 0.3, 0.9]).filter(rank__gte=0.3).order_by('rank').filter(rank__gte=0.3).order_by('rank')
 ```
 
 En el ejemplo de arriba, he reescrito los valores originales y he disminuido los valores de las letras "D","C","B" para que representen un porcentaje mucho menor, en comparación con la letra "A".
 
 ## Librerías de Django para búsquedas avanzadas
 
-Quizás tus necesidades búsqueda son mucho más avanzadas que las que provee el ORM de Django combinado con Postgres. Pero, a menos que estés desarrollando algo que revolucione la industria de la búsqueda, alguien ya ha pasado por el mismo problema. Hay soluciones genéricas que te ahorran la escritura de muchísimas lineas de código y que actualmente están activas:
+Quizás tus necesidades búsqueda son mucho más avanzadas que las que provee el ORM de Django combinado con Postgres. Pero, a menos que estés desarrollando algo que revolucione la industria de la búsqueda, alguien ya ha pasado por el mismo problema. Hay soluciones genéricas, como [Solr y Django-haystack](https://coffeebytes.com/busquedas-con-solr-con-django-haystack), que te ahorran la escritura de muchísimas lineas de código. Algunos ejemplos son:
 
+- [Xapian](https://xapian.org/)
+- [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html)
 - [Django haystack](https://django-haystack.readthedocs.io/en/master/index.html)
 - [Django watson](https://github.com/etianen/django-watson)
