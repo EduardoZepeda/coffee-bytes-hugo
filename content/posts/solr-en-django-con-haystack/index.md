@@ -3,8 +3,7 @@ title: "¿Cómo implementar Solr para búsquedas o queries en Django?"
 url: "busquedas-con-solr-con-django-haystack"
 coverImage: "images/solr-django-busquedas.jpg"
 coverImageCredits: "Créditos a https://www.instagram.com/we_make_mangas/"
-date: 2022-05-24T16:17:23-05:00
-draft: true
+date: "2022-05-26"
 categories:
 - "django"
 ---
