@@ -6,31 +6,44 @@ coverImageCredits: "Créditos a https://www.instagram.com/we_make_mangas/"
 date: "2022-05-26"
 categories:
 - "django"
+- "backend"
 ---
 
-Anteriormente te expliqué como implementar [full text search en Django](https://coffeebytes.dev/full-text-search-y-busquedas-con-django-y-postgres/) y [trigramas y search rank](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) usando Postgres. Solr viene a ofrecernos algo mejor, un motor de búsquedas robusto, estable y con muchas funciones avanzadas, a cambio de un poco más de complejidad, más dependencias y tener que incluir Java (sí, Java) en nuestro projecto.
+Anteriormente te expliqué como implementar [full text search en Django](https://coffeebytes.dev/full-text-search-y-busquedas-con-django-y-postgres/) y [trigramas y search rank](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) usando Postgres. Solr viene a ofrecernos algo mejor, un motor de búsquedas robusto, estable y con muchas funciones avanzadas, listo para usarse, a cambio de un poco más de complejidad, más dependencias y tener que incluir Java (sí, Java) en nuestro projecto.
 
-## ¿Cómo funciona solr?
+## ¿Cómo funciona internamente Solr?
 
-Simplificando al extremo, solr recibe el contenido de nuestra base de datos y, usando una plantilla o esquema (schema), genera un índice con la información. Posteriormente, cuando recibe una consulta, buscará en el índice y nos devolverá él o los resultados.
+Internamente Solr usa Lucene, que es el motor de búsqueda que se encarga de generar un índice para realizar las consultas y todas las opciones relacionadas con las búsquedas, Solr agrega unas funciones extras y nos da una interfaz amigable para trabajar. De aquí en adelante me referiré a la unión de Lucene y Solr solo como Solr.
+
+Simplificando al extremo, Solr recibe el contenido de nuestra base de datos (o archivo csv, pdf, json, xml, etc.) y, usando una plantilla o esquema (managed schema), genera un índice invertido con la información. 
+
+Posteriormente, cuando Solr recibe una consulta, consultará el índice generado, ordenará los resultados de acuerdo a su relevancia y los retornará.
 
 ![Funcionamiento básico de Solr y Django haystack](images/como-funciona-solr-y-django.jpg)
+
+### Índice invertido
+
+Solr funciona con un índice invertido. Es bastante similar al índice que aparece hasta atrás en los libros técnicos, en el cada tema del libro apunta a una página; en el indexado de nuestra información se generan tokens y estos se relacionan con los documentos que los contienen.
+
+![Indice invertido de solr](images/solr-indice-invertido.jpg)
 
 ## Ventajas y desventajas de Solr
 
 ### Ventajas de Solr
 
-* Solr es muy rápido, capaz de buscar entre millones de registros en milisegundos.
-* Permite generar sugerencias de búsqueda ante errores ortográficos.
+* El índice invertido de Solr permite realizar búsquedas entre millones de registros en milisegundos.
+* Solr permite generar sugerencias de búsqueda ante errores ortográficos.
 * Devuelve sugerencias de autocompletado.
+* Capaz de realizar búsquedas geoespaciales.
 * Panel de administración con herramientas de monitoreo.
+* Herramientas de análisis avanzadas.
 * Soporte para múltiples núcleos o instancias.
 
 ### Desventajas de Solr
 
 * Configuración muy compleja.
 * Los parámetros de configuración cambian frecuentemente entre versiones.
-* Cada que haya cambios en la base de datos necesitaremos actualizar el índice.
+* Es necesario mantener el índice actualizado tras cambios en nuestros datos.
 * Requiere Java.
 
 ## Instalación y configuración de Solr
@@ -217,7 +230,7 @@ Este archivo lo llenaremos con la misma sintaxis que una plantilla normal de Dja
 
 ### Generando un managed_schema
 
-Tras crear la plantilla procederemos a generar el archivo *managed_schema* que necesitará solr para funcionar usando el comando *build_solr_schema* que nos proporciona *django-haystack*.
+Tras crear la plantilla procederemos a generar el archivo *managed_schema*, necesario para crear el índice, usando el comando *build_solr_schema* que nos proporciona *django-haystack*.
 
 ```bash
 python3 manage.py build_solr_schema > managed_schema
@@ -317,3 +330,4 @@ def vista(request):
     # ...
 ```
 
+Con lo anterior doy por terminada la entrada, probablemente en la siguiente entrada hable un poco más de las funciones de búsqueda avanzada que ofrece django haystack.
