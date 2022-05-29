@@ -6,7 +6,7 @@ coverImageCredits: "Créditos a https://www.instagram.com/we_make_mangas/"
 date: "2022-05-26"
 categories:
 - "django"
-- "backend"
+- "linux y devops"
 ---
 
 Anteriormente te expliqué como implementar [full text search en Django](https://coffeebytes.dev/full-text-search-y-busquedas-con-django-y-postgres/) y [trigramas y search rank](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) usando Postgres. Solr viene a ofrecernos algo mejor, un motor de búsquedas robusto, estable y con muchas funciones avanzadas, listo para usarse, a cambio de un poco más de complejidad, más dependencias y tener que incluir Java (sí, Java) en nuestro projecto.

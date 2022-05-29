@@ -2,7 +2,7 @@
 title: "Ngrok, tu localhost accesible desde internet"
 date: "2021-04-29"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/ngrok-coffee-bytes.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@pepecaspers/"
 description: "Ngrok vuelve público tu localhost, ya sea para hacer testeo de respuestas a tus endpoints o mostrarle avances a tus clientes."

@@ -2,7 +2,7 @@
 title: "Mi experiencia usando EasyWP y namecheap"
 date: "2019-05-02"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
   - "opiniones"
 coverImage: "images/mi_experiencia_con_easy_wp.jpg"
 description: "¿Estás pensando en usar easywp? Entra para leer mi experiencia usando la aplicación de easywp para hostear un blog en namecheap."

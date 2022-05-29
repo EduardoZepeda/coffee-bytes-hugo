@@ -2,7 +2,7 @@
 title: "Comandos de GNU Linux básicos que deberías conocer"
 date: "2019-05-08"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/comandos_GNU_Linux_1.jpg"
 description: "La terminal de GNU/Linux tiene muchísimos comandos útiles, aprende los basicos aquí, incluso si jamás has usado la terminal."
 keywords:

@@ -2,7 +2,7 @@
 title: "Comandos de la terminal de GNU Linux que deberías conocer (segunda parte)"
 date: "2019-05-13"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/comandos_GNU_Linux_2.jpg"
 description: "Aprende sobre los comandos de GNU/Linux basicos que ofrece la terminal, para esta entrada explico uname, who, du, df, entre otros muchos."
 keywords:

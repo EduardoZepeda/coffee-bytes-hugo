@@ -2,7 +2,7 @@
 title: "Digital Ocean, análisis y mi experiencia"
 date: "2021-01-14"
 categories: 
-  - "arquitectura-de-software"
+  - "arquitectura de software"
   - "opiniones"
 coverImage: "images/Mi-experiencia-digital-ocean.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/"

@@ -2,7 +2,7 @@
 title: "Cron y Crontab programa tareas periódicas"
 date: "2020-02-01"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/programa_tareas_periodicas_con_cron.jpg"
 description: "Aprende a programar tareas tales repetitivas como respaldos de base de datos,, envío de emails, de manera periódica en GNU/Linux usando Cron y Crontab."
 keywords:

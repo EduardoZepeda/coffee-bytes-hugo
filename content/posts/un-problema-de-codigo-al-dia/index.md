@@ -2,7 +2,7 @@
 title: "Un problema de algoritmos al dia"
 date: "2019-06-04"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/un_problema_de_codigo_al_dia.jpg"
 description: "¿Quieres practicar un problema de algoritmos al día para tus entrevistas laborales? Checa esta página gratuita para hacerlo."
 keywords:

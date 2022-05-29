@@ -3,7 +3,7 @@ title: "Sobre mi, Eduardo Zepeda"
 date: "2018-09-12"
 ---
 
-¡Hola, soy Eduardo Zepeda! Desarrollador web. Aprendí casi todo lo que sé sobre desarrollo web [principalmente a través de libros y práctica,](/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también uso plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io) [Udemy](https://www.udemy.com/) y Platzi.
+¡Hola, soy Eduardo Zepeda! Desarrollador web. Aprendí casi todo lo que sé sobre desarrollo web [principalmente a través de libros y práctica,](/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también uso plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y Platzi.
 
 Si quieres ver algunas de las cosas que he construido visita [eduardozepeda.dev](https://eduardozepeda.dev/)
 

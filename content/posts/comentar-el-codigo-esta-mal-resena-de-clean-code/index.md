@@ -2,7 +2,7 @@
 title: "¿Comentar el codigo esta mal? Reseña de Clean Code"
 date: "2020-05-16"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/clean_code.jpg"
 description: "En esta reseña hablaré un poco sobre Clean Code, el libro de Robert C. Martin que nos explica como escribir código de manera limpia."
 keywords:

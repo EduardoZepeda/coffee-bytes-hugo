@@ -3,7 +3,7 @@ title: "Características básicas de una API REST y recomendaciones"
 url: "caracteristicas-basicas-de-una-api-rest"
 date: "2022-04-07"
 categories: 
-  - "arquitectura-de-software"
+  - "arquitectura de software"
   - "opiniones"
 coverImage: "images/CaracteristicasBasicasDeUnaAPIREST.jpg"
 description: "¿Qué características debe cumplir una API REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS? ¿uso mayúsculas o minúsculas en la url?"

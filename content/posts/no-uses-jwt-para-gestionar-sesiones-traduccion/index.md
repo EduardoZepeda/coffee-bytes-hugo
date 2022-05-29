@@ -2,7 +2,7 @@
 title: "No uses JWT para gestionar sesiones (Traducción)"
 date: "2021-06-22"
 categories: 
-  - "arquitectura-de-software"
+  - "arquitectura de software"
   - "opiniones"
 coverImage: "images/NoUsesJWT.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@gabby-k/"

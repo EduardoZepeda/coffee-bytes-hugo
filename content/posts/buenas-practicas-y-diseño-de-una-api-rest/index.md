@@ -2,7 +2,7 @@
 title: "Buenas prácticas y diseño de una API REST"
 date: "2022-04-28"
 categories: 
-  - "arquitectura-de-software"
+  - "arquitectura de software"
   - "opiniones"
 coverImage: "images/buenDisenoAPIREST.jpg"
 description: "Buenas prácticas de diseño de una API REST, como versionarla, actualizarla y anidar los recursos en las URI."

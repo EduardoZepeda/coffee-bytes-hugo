@@ -2,7 +2,7 @@
 title: "¿Cómo crear una contrasena segura?"
 date: "2020-07-02"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/como_escribir_una_buena_contraseña.jpg"
 description: "Aprende a crear una contraseña segura que proteja tus cuentas personales, y las de tus clientes, de los criminales informáticos."
 keywords:

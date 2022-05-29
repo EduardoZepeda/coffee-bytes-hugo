@@ -2,7 +2,7 @@
 title: "Nginx keepalive, gzip, http2: mejor rendimiento en tu sitio web"
 date: "2020-11-07"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/tutorialNginx-1.jpg"
 description: "Optimiza tu sitio web y hazlo más rápido habilitando http2, compresión gzip, cache y modificando el valor de keepalive en nginx."
 keywords:

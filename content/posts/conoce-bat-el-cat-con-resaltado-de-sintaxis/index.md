@@ -2,7 +2,7 @@
 title: "Conoce bat en linux, el cat con resaltado de sintaxis"
 date: "2020-08-25"
 categories: 
-  - "gnu-linux-y-devops"
+  - "linux y devops"
 coverImage: "images/bat-el-cat-con-resaltado-de-sintaxis.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/@rodnae-prod"
 description: "Hace unos días descubrí bat, es la version de cat en linux con resaltado de sintaxis que vuelve más cómoda la lectura de archivos en consola."

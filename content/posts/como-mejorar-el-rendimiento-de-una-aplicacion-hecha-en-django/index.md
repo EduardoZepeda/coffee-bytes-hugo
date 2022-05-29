@@ -2,7 +2,7 @@
 title: "¿Cómo mejorar el rendimiento de una aplicación hecha en Django?"
 date: "2020-12-30"
 categories: 
-  - "arquitectura-de-software"
+  - "arquitectura de software"
   - "django"
 coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@tranmautritam/"
