@@ -38,7 +38,9 @@ lang = "es"
 
 [outputs]
     section = ["JSON", "HTML"]
-    
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [menu]
   [[menu.main]]
