@@ -31,6 +31,8 @@ Solr funciona con un índice invertido. Es bastante similar al índice que apare
 
 ### Ventajas de Solr
 
+Solr cuenta con muchas [funciones avanzadas, tales como autocompletado, sugerencias, búsquedas por campo y otros.](/autocompletado-sugerencias-y-contenido-relacionado-solr-y-django/)
+
 * El índice invertido de Solr permite realizar búsquedas entre millones de registros en milisegundos.
 * Solr permite generar sugerencias de búsqueda ante errores ortográficos.
 * Devuelve sugerencias de autocompletado.
@@ -48,7 +50,7 @@ Solr funciona con un índice invertido. Es bastante similar al índice que apare
 
 ## Instalación y configuración de Solr
 
-Para instalarlo necesitamos descargar la versión adecuada desde la [página oficial](https://solr.apache.org/downloads.html). Para esta entrada usaré las siguientes dependencias: 
+Para instalarlo necesitamos descargar la versión adecuada desde la [página de descargas de Solr](https://solr.apache.org/downloads.html). Para esta entrada usaré las siguientes dependencias: 
 
 * Solr: versión 8.9.0
 * Django: version 4.0.4

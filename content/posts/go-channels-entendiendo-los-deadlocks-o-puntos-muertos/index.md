@@ -23,9 +23,8 @@ Conociendo las dos situaciones anteriores tendremos dos casos principales:
 
 ¿Qué pasa si una operación está esperando recibir información de un canal, pero ese canal no va a mandar nada jamás?
 
-![Deadlock por falta de canal de entrada](images/deadlock-sender-go.jpg)
+![Deadlock por falta de canal de entrada](images/deadlock-sender-go.jpg "No hay una operación que envie datos a través de un canal.")
 
-No hay una operación que envie datos a través de un canal.
 
 ```go
 package main
@@ -44,9 +43,7 @@ func main() {
 
 ¿Y si una operación manda información a un canal pero ya no hay ninguna otra goroutine que reciba la información de ese canal?
 
-![Deadlock por falta de canal de salida](images/deadlock-receiver-go.jpg)
-
-No hay una operación que reciba texto a través de un canal.
+![Deadlock por falta de canal de salida](images/deadlock-receiver-go.jpg "En un deaclock por falta de canal de salida no hay una operación que reciba texto a través de un canal.")
 
 ```go
 package main
@@ -115,9 +112,8 @@ Si un canal no tiene buffer, el valor queda "retenido" hasta que se reciba, bloq
 
 Por otro lado, si el canal tiene buffer, entonces la ejecución se bloquea hasta que el valor se haya copiado al buffer, por lo que no obtendremos un error, incluso si ninguna goroutine lo recibe.
 
-![Esquema de la prevención de deadlocks en go](images/deadlocks-prevencion-go-1.jpg)
+![Esquema de la prevención de deadlocks en go](images/deadlocks-prevencion-go-1.jpg "En un canal con buffer no importa si el valor no se lee pues ya ha sido copiado al buffer")
 
-En un canal con buffer no importa si el valor no se lee pues ya ha sido copiado al buffer
 
 ```go
 package main

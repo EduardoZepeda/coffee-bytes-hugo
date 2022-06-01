@@ -13,21 +13,19 @@ Golang, también conocido como go, es un lenguaje de programación compilado des
 
 ## Un poco sobre el lenguaje
 
-Go o Golang es un lenguaje con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es una mezcla entre C y Python.
+Go o Golang es un lenguaje con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
 
 Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la concurrencia** y con tipado estático.
 
-Cuando se creó el lenguaje se decidió que se priorizaría un tiempo de compilación a cambio de una pérdida mínima de rendimiento, por lo que no pasarás tanto tiempo esperando a que tu código compile, pero su rendimiento será, probablemente, inferior al que obtendrías con C o C++.
+Cuando se creó el lenguaje se decidió que se priorizaría el tiempo de compilación a cambio de una pérdida mínima de rendimiento, por lo que no pasarás tanto tiempo esperando a que tu código compile, pero su rendimiento será, probablemente, inferior al que obtendrías con C, C++ o Rust
 
 ### Algunas cosas criticadas de go
 
-Algo que desanima a muchos desarrolladores es que go **no cuenta con soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/).
+Go no es exactamente un lenguaje bello. Algo que desanima a muchos desarrolladores es que go **no cuenta con soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/).
 
-Otra de las cosas no tan queridas de este lenguaje es que **no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores se hacen por medio de bloques if. Aunque otros lenguajes como Rust también han prescindido del manejo de errores tradicionales.
+Otra de las cosas no tan queridas de este lenguaje es que **no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores se manejan comprobando que la variable err no es nula (nil), por medio de bloques if, lo cual puede volverse bastante verboso y repetitivo.
 
 ![Manejo de errores con Go con if](images/ManejoErroresGo.png)
-
-Los errores se manejan comprobando que la variable err no es nula (nil)
 
 A la fecha no existen argumentos por defecto en go, lo que aumenta la cantidad de código a escribir para lidiar con valores predeterminados.
 
@@ -35,17 +33,14 @@ A la fecha no existen argumentos por defecto en go, lo que aumenta la cantidad d
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
-![Error de compilación en go por variables sin usar](images/ErrorCompilacionGo.png)
+![Error de compilación en go por variables sin usar](images/ErrorCompilacionGo.png "La compilación no se permite si hay variables sin usar.")
 
-La compilación no es permitida si hay variables sin usar
-
-## Una mascota genial
+## Gopher: Una mascota genial
 
 La mascota oficial es una ardilla de tierra y es muy común entre la comunidad usarla para ilustrar el contenido relacionado con go. Este Sartre en versión roedor azul es tan popular entre los desarrolladores que existen herramientas, como [Gopherizme](https://gopherize.me), para crear avatares personalizados. El impacto de la mascota es tal, que muchos desarrolladores la usan a manera de logo, aunque el [logo oficial de go](https://blog.golang.org/go-brand) ya ha sido definido.
 
-![Mascota y logo de go](images/GoMascotAndLogo.png)
+![Mascota y logo de go](images/GoMascotAndLogo.png "A la izquierda la mascota de Go. A la derecha el logo oficial")
 
-A la izquierda la mascota de Go. A la derecha el logo oficial
 
 ## Instalación
 

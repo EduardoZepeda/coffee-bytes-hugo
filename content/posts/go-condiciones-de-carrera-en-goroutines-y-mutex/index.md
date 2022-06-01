@@ -31,9 +31,7 @@ Mientras que la segunda goroutine, casi al mismo tiempo que la primera, dijo: "Y
 
 Ambas goroutines están estableciendo el total de créditos en 140, porque leyeron, casi al mismo tiempo, que había 120.
 
-![Ejemplo de una race condition o condición de carrera en go](images/race-conditions-go.png)
-
-Ejemplo de una race condition o condición de carrera en go.
+![Ejemplo de una race condition o condición de carrera en go](images/race-conditions-go.png "Ejemplo de una race condition o condición de carrera en go.")
 
 Como ya sabrás, DarkLord69 no estará muy contento, pero si le das unos tokens extras como compensación no debería haber problema. Pero, ¿y si en lugar de haber sido tokens hubiera sido dinero? ¿o quizás algún otro bien más preciado?
 
@@ -129,9 +127,7 @@ lock.Lock()
 lock.Unlock()
 ```
 
-![El método Lock de Mutex bloquea el acceso del código, mientras que el método Unlock lo libera.](images/mutex-lock-en-go.png)
-
-Funcionamiento del Mutex en go
+![El método Lock de Mutex bloquea el acceso del código, mientras que el método Unlock lo libera.](images/mutex-lock-en-go.png "Funcionamiento del Mutex en go")
 
 Si protegemos la lectura y la escritura de la variable tokens, nuestro código debe funcionar perfectamente. Incluso si compilamos con el flag _\--race_ y lo ejecutamos, Go ya no nos devolverá una advertencia.
 
