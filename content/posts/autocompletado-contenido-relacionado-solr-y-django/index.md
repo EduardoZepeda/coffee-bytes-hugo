@@ -3,7 +3,6 @@ title: "Autocompletado, Sugerencias y Contenido Relacionado: Solr Y Django"
 date: "2022-05-29"
 coverImage: "images/solr-busquedas-avanzadas.jpg"
 coverImagecredits: "Créditos a 藪 https://www.pixiv.net/en/users/50979768"
-draft: true
 categories:
 - django
 - "linux y devops"

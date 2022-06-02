@@ -5,7 +5,7 @@ coverImage: "images/solr-django-busquedas.jpg"
 coverImageCredits: "Créditos a https://www.instagram.com/we_make_mangas/"
 date: "2022-05-26"
 categories:
-- "django"
+- django
 - "linux y devops"
 ---
 
