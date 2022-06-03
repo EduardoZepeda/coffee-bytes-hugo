@@ -19,6 +19,8 @@ El panel de administración de django es una de [las razones por las que deberí
 
 Si iniciaste tu proyecto con el comando startproject el panel de administración de django estará activado por defecto. Si entras a _/admin/_ aparecerá la pantalla de logueo.
 
+![Pantalla de loggeo del panel de administración](images/django-admin-panel.png "Pantalla del panel admin de django")
+
 En caso de que no, o de que partas de una instalación previa, primero tienes que asegurarte de que esté instalado en tu archivo de configuraciones, así como sus dependencias:
 
 - django.contrib.auth

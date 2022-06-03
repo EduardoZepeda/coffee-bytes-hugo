@@ -3,12 +3,13 @@ title: "Conoce los comandos básicos de Docker Compose"
 date: "2020-10-14"
 categories: 
   - "docker"
+  - "linux y devops"
 coverImage: "images/DockerCompose.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/es-es/@felixmittermeier/"
 description: "En este tutorial de Docker compose te explico los comandos más comunes, así como la estructura y creación de un archivo docker-compose.yml"
 keywords:
   - docker
-  - docker compose
+  - "docker compose"
 url: "docker-compose-tutorial-con-comandos-en-gnu-linux"
 ---
 

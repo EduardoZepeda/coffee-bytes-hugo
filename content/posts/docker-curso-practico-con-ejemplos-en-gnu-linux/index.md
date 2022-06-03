@@ -3,6 +3,7 @@ title: "Los comandos básicos de Docker y su uso"
 date: "2020-10-07"
 categories: 
   - "docker"
+  - "linux y devops"
 coverImage: "images/DockerCursoPractico.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/es-es/@huy-phan-316220/"
 description: "Aprende a usar los comandos básicos de Docker, a diferenciar imágenes y contenedores, volúmenes, crear Dockerfiles y usar docker build."
