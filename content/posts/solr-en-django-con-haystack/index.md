@@ -11,7 +11,7 @@ categories:
 
 Anteriormente te expliqué como implementar [full text search en Django](https://coffeebytes.dev/full-text-search-y-busquedas-con-django-y-postgres/) y [trigramas y search rank](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) usando Postgres. Solr viene a ofrecernos algo mejor, un motor de búsquedas robusto, estable y con muchas funciones avanzadas, listo para usarse, a cambio de un poco más de complejidad, más dependencias y tener que incluir Java (sí, Java) en nuestro projecto.
 
-## ¿Cómo funciona internamente Solr?
+## ¿Cómo funciona Solr?
 
 Internamente Solr usa Lucene, que es el motor de búsqueda que se encarga de generar un índice para realizar las consultas y todas las opciones relacionadas con las búsquedas, Solr agrega unas funciones extras y nos da una interfaz amigable para trabajar. De aquí en adelante me referiré a la unión de Lucene y Solr solo como Solr.
 
@@ -80,7 +80,7 @@ Un núcleo es una instancia de un índice con sus propios parámetros de configu
 
 Cuando usamos solr, interaccionaremos con un núcleo, por lo que es imprescindible crear uno para poder efectuar nuestras queries o consultas.
 
-### Crear un núcleo en Solr
+### Crear un núcleo
 
 Para crear un nuevo núcleo iremos a la sección *Add Core* y llenaremos la siguiente información:
 

@@ -17,41 +17,38 @@ keywords:
 url: "python-fastapi-el-mejor-framework-de-python"
 ---
 
-Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como [REST APIs](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) o RPC. FastAPI promete ayudarnos a crear APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar una alta carga de peticiones web.
+Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como [REST APIs](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) o APIs RPC. FastAPI promete ayudarnos a crear APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar sitios web de alta concurrencia.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 
-¿De verdad FastAPI es tan rápido? Sí, al menos así lo afirma la evidencia. FastAPI queda en primer lugar en respuestas por segundo frente a Frameworks más populares como Django, Pyramid o Flask. Y también queda en los primeros lugares si lo comparamos con Frameworks de otros lenguajes de programación, como PHP o Javascript .
+¿De verdad FastAPI es tan rápido? Sí, al menos así lo afirma la evidencia. FastAPI queda en primer lugar en respuestas por segundo frente a Frameworks más populares como Django, Pyramid o Flask. Y también queda en los primeros lugares si lo comparamos con Frameworks de otros lenguajes de programación, como PHP o Javascript.
 
 ### FastAPI vs Django
 
-FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de sesiones, ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](https://coffeebytes.dev/el-django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos, mientras que FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
+FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de [sesiones y autenticación](https://coffeebytes.dev/login-con-django-rest-framework-drf/), ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](https://coffeebytes.dev/el-django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos. 
+
+Por otro lado, FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
 
 ### FastAPI vs Flask
 
 A diferencia de Django, sí considero a Flask como un competidor más directo de FastAPI. Ambos frameworks guardan cierta similitud en cuanto a sintaxis y se caracterizan por ser bastante ligeros y ofrecer la mínima funcionalidad. FastAPI ofrece validación, mientras que Flask no, FastAPI ofrece documentación automática, mientras que Flask no. Además FastAPI ofrece un mejor rendimiento según las pruebas disponibles.
 
-Mira las siguientes comparaciones que usan información de [Techempower](https://www.techempower.com/benchmarks) . He resaltado en azul los frameworks de Python.
+Mira las siguientes comparaciones que usan información de [Techempower](https://www.techempower.com/benchmarks). He resaltado en azul los frameworks de Python.
 
 ### Rendimiento para peticiones con una query
 
 El número indica la cantidad de respuestas por segundo para un single query, por supuesto que mientras más alto mejor.
 
-![Gráfico de comparación de número de respuestas por segundo para petición que devuelve una fila de la base de datos. FastAPI en segundo lugar.](images/SingleQueryFastApi.png)
+![Gráfico de comparación de número de respuestas por segundo para petición que devuelve una fila de la base de datos. FastAPI en segundo lugar.](images/SingleQueryFastApi.png "Número de respuestas por segundo para peticiones que devuelven una fila de la base de datos. Información tomada de https://www.techempower.com/benchmarks")
 
-Número de respuestas por segundo para peticiones que devuelven una fila de la base de datos.  
-Información tomada de https://www.techempower.com/benchmarks
 
 ### Rendimiento para peticiones con 20 queries
 
 Pero, ¿y para peticiones con mayor carga? En esta imagen se muestran la cantidad de respuestas para una petición con 20 queries, nuevamente, mientras más alto mejor.
 
-![Comparación de número de respuestas por segundo para petición que devuelve veinte filas de la base de datos. FastAPI en segundo lugar.](images/MultipleQueryFastApi.png)
+![Comparación de número de respuestas por segundo para petición que devuelve veinte filas de la base de datos. FastAPI en segundo lugar.](images/MultipleQueryFastApi.png "Número de respuestas por segundo para peticiones que devuelven veinte filas de la base de datos. Información tomada de https://www.techempower.com/benchmarks")
 
-Número de respuestas por segundo para peticiones que devuelven veinte filas de la base de datos.  
-Información tomada de https://www.techempower.com/benchmarks
-
-Según la información que nos proporciona Techempower, FastAPI es tremendamente más rápida que Django, Flask y Pyramid.
+Según la información que nos proporciona Techempower, **FastAPI es tremendamente más rápida que Django, Flask y Pyramid.**
 
 Pero ¿qué tal su compatibilidad con las nuevas versiones de Python?
 

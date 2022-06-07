@@ -21,7 +21,7 @@ Docker compose es una herramienta que te permite manejar aplicaciones que consis
 
 Docker-compose está programando usando el [lenguaje de programación go o golang](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), del cual escribí una entrada.
 
-Docker compose permite automatizar procesos, y es usado para en productos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](https://coffeebytes.dev/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
+Docker compose permite automatizar procesos, y es usado para en proyectos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](https://coffeebytes.dev/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
 
 ## Estructura de un archivo docker-compose.yml
 
@@ -85,7 +85,9 @@ services:
 
 ### build
 
-En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. Si no sabes que es un Dockerfile por favor recuerda que puedes visitar mi entrada donde explico [como funciona y para que sirve Docker.](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/)
+En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. 
+
+Si no sabes que es un Dockerfile acá te explico [como funciona y para que sirve Docker.](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/)
 
 ```docker
 version: "3.8"
@@ -96,7 +98,7 @@ services:
 
 ### context y dockerfile
 
-También podemos especificar un Dockerfile personalizado, en lugar del predeterminado, especificando en context el lugar donde se encuentra y en dockerfile su nombre. Esto es bastante útil pues nos permite especificar diferentes archivos para producción o para desarrollo.
+También podemos escribir un Dockerfile personalizado, en lugar del predeterminado, especificando en context el lugar donde se encuentra y en dockerfile su nombre. Esto es bastante útil pues nos permite especificar diferentes archivos para producción o para desarrollo.
 
 ```docker
 version: "3.8"

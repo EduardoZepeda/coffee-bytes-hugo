@@ -21,7 +21,13 @@ En la siguiente entrada posterior hablaré de algunas cuestiones más subjetivas
 
 ## ¿Qué es una API?
 
-El término API proviene de interfaz de programación de aplicaciones, y consiste en una seríe de reglas que nos dicen como pueden comunciarse entre sí las aplicaciones y/o los dispositivos.
+El término API proviene de interfaz de programación de aplicaciones, y consiste en una seríe de reglas que nos dicen como pueden comunicarse entre sí las aplicaciones y/o los dispositivos.
+
+### Existen diferentes tipos de APIs
+
+Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigmas, una de esas es REST. REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto, pero nadie sabe lo que sucederá mañana.
+
+![Linea del tiempo de APIs](images/timeline-de-APIs.png "REST data del año 2000")
 
 ### ¿Qué es una API REST?
 
@@ -213,9 +219,7 @@ Las siglas HATEOAS corresponden a **Hypermedia As The Engine Of Applicaton State
 
 ¿Qué es eso? Cuando entras en una página web, esta cuenta con enlaces internos hacia otras páginas del sitio web, generalmente relacionadas entre sí, ya sea video, audio, imágenes, de manera que la navegación sea más fluida.
 
-![Captura de pantalla de Viajando por ahí con enlaces internos.](images/HTTPHypermedia.jpg)
-
-Ejemplo de enlaces internos en una página web
+![Captura de pantalla de Viajando por ahí con enlaces internos.](images/HTTPHypermedia.jpg "Ejemplo de enlaces internos en una página web")
 
 Pues HATEOAS nos dice que nuestros clientes deberían de recibir una respuesta de la API desde donde puedan acceder a otros recursos relacionados por medio de hipervínculos.
 
@@ -251,9 +255,7 @@ Considera implementarlas en tu proyecto.
 
 Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/)
 
-![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png)
-
-Así luce Open API funcionando
+![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png "Interfaz generada por Open API")
 
 ## Testea tu API
 
@@ -261,9 +263,7 @@ Cada endpoint de tu API debería estar sometido a pruebas, asegúrate de que dev
 
 Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad de uso considera el uso herramientas especializadas, tales como Postman, Insomnia o Hoppscotch.
 
-![GUI, de insomnia, una aplicación para el testeo de una API REST](images/InsomniaGUI.png)
-
-Insomnia nos permite testear APIs
+![GUI, de insomnia, una aplicación para el testeo de una API REST](images/InsomniaGUI.png "Interfaz de Insomnia, herramienta para testear APIs")
 
 Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](https://coffeebytes.dev/buenas-practicas-y-diseno-de-una-api-rest/): ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
 
