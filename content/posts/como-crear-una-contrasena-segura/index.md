@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo crear una contrasena segura?"
+title: "¿Cómo crear una contraseña segura?"
 date: "2020-07-02"
 categories: 
   - "linux y devops"
@@ -41,12 +41,14 @@ Es bastante tentador crear una contraseña fácil de recordar utilizando el nomb
 ```bash
 CalleFalsa123 # Mal, no nombres de donde vives, o de series que te gustan
 5555551111 # No uses tu celular de contraseña
-19-oct-1990 # Tu fecha de nacimiento no deberia estar en una contraseña
+19-oct-1990 # Tu fecha de nacimiento no debería estar en una contraseña
 ```
 
 ## Evita las contraseñas que aparecen en diccionarios
 
-Hay un montón de [diccionarios en la red con las contraseñas más populares](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz) y algunos incluso enlistan todas aquellas contraseñas que han sido obtenidas a partir de hackeos a sitios web. Asegúrate de que tu contraseña no se encuentre en ninguno de esos diccionarios. Un potencial atacante siempre usará las contraseñas de los diccionarios más comunes para intentar comprometer un sistema, si tu contraseña está en uno de esos diccionarios es casi seguro que tu cuenta será un blanco fácil.
+Hay un montón de diccionarios en la red con las contraseñas más populares, como [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz), algunos incluso enlistan todas aquellas contraseñas que han sido obtenidas a partir de hackeos a sitios web. 
+
+Asegúrate de que tu contraseña no se encuentre en ninguno de esos diccionarios. Un potencial atacante siempre usará las contraseñas de los diccionarios más comunes para intentar comprometer un sistema, si tu contraseña está en uno de esos diccionarios es casi seguro que tu cuenta será un blanco fácil.
 
 ```bash
 # Estas contraseñas están en el top de contraseñas más comunes
@@ -59,7 +61,9 @@ adobe123
 
 ## Usa una contraseña diferente para cada sitio web
 
-Abundan las personas que utilizan una sola contraseña para todos sus sitios web; correo electrónico, redes sociales, hosting, celulares, etc. Una sola contraseña es muy fácil de recordar, pero si alguien llega a averiguarla tendrá acceso a todas las cuentas que tengas resguardadas bajo la misma contraseña. Es mucho mejor tener una contraseña diferente para cada sitio web. Así, en el caso de que alguien averigüe esa contraseña, solo se verá comprometida una única cuenta. Además si ocurriera alguna filtración de algún sitio web el resto de tus cuentas seguirán a salvo.
+Abundan las personas que utilizan una sola contraseña para todos sus sitios web; correo electrónico, redes sociales, hosting, celulares, etc. 
+
+Una sola contraseña es muy fácil de recordar, pero si alguien llega a averiguarla tendrá acceso a todas las cuentas que tengas resguardadas bajo la misma contraseña. Es mucho mejor tener una contraseña diferente para cada sitio web. Así, en el caso de que alguien averigüe esa contraseña, solo se verá comprometida una única cuenta. Además si ocurriera alguna filtración de algún sitio web el resto de tus cuentas seguirán a salvo.
 
 ```bash
 # EVITA HACER ESTO
@@ -72,7 +76,9 @@ netifly: 2Sdmsi2CaVZksfEEVf5U
 
 ## Evita los caracteres secuenciales
 
-Muchas contraseñas contienen caracteres secuenciales tales como "1234", "abcde", "xyz", "789". Evita que los caracteres tengan una secuencia predecible. Asegúrate de que los diferentes caracteres de tus contraseñas no estén uno junto al otro en el abecedario o en los números ordinales.
+Muchas contraseñas contienen caracteres secuenciales tales como "1234", "abcde", "xyz", "789". 
+
+Evita que los caracteres tengan una secuencia predecible. Asegúrate de que los diferentes caracteres de tus contraseñas no estén uno junto al otro en el abecedario o en los números ordinales.
 
 ```bash
 # MAL, EVITA ESTO

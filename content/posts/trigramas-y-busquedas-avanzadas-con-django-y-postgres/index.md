@@ -157,7 +157,7 @@ En el ejemplo de arriba, he reescrito los valores originales y he disminuido los
 
 ## Librerías de Django para búsquedas avanzadas
 
-Quizás tus necesidades búsqueda son mucho más avanzadas que las que provee el ORM de Django combinado con Postgres. Pero, a menos que estés desarrollando algo que revolucione la industria de la búsqueda, alguien ya ha pasado por el mismo problema. Hay soluciones genéricas, como [Solr y Django-haystack](https://coffeebytes.com/busquedas-con-solr-con-django-haystack), que te ahorran la escritura de muchísimas lineas de código. Algunos ejemplos son:
+Quizás tus necesidades búsqueda son mucho más avanzadas que las que provee el ORM de Django combinado con Postgres. Pero, a menos que estés desarrollando algo que revolucione la industria de la búsqueda, alguien ya ha pasado por el mismo problema. Hay soluciones genéricas, como [Solr y Django-haystack](https://coffeebytes.dev/busquedas-con-solr-con-django-haystack), que te ahorran la escritura de muchísimas lineas de código. Algunos ejemplos son:
 
 - [Xapian](https://xapian.org/)
 - [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html)

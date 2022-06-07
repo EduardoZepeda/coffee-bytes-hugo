@@ -15,7 +15,7 @@ keywords:
 
 Algunas veces cuando tecleamos nos equivocamos en una letra, podemos repetirla, omitirla o cambiarla por otra. Ese error puede arrojar una serie de resultados diferentes en una búsqueda web, o incluso carecer de resultados. Quizás para un blog no represente una amenaza, pero para un ecommerce puede significar la perdida de una venta, y para aquellas tiendas con un tráfico gigantesco, una búsqueda de texto exitosa, ya sea usando full text search o algo más complejo, en Django u otro framework, puede representar la diferencia entre perdidas o ganancias enormes.
 
-Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta otra opción bastante popular para realizar búsquedas en Django es [Solr y Django-haystack](https://coffeebytes.com/busquedas-con-solr-con-django-haystack).
+Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta otra opción bastante popular para realizar búsquedas en Django es [Solr y Django-haystack](https://coffeebytes.dev/busquedas-con-solr-con-django-haystack).
 
 Si aún estás dudando sobre si usar Django, revisa mi entrada donde te explico [las ventajas y desventajas de Django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 

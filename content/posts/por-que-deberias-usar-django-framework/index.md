@@ -83,7 +83,7 @@ Django cuenta con muchísimos paquetes para resolver la mayoría de los problema
 
 Solo por nombrar algunos:
 
-- [Django-haystack](https://coffeebytes.com/busquedas-con-solr-con-django-haystack)(Para búsquedas complejas)
+- [Django-haystack](https://coffeebytes.dev/busquedas-con-solr-con-django-haystack)(Para búsquedas complejas)
 - Django-watson (Búsquedas)
 - DRF (REST)
 - Graphene (Graphql)

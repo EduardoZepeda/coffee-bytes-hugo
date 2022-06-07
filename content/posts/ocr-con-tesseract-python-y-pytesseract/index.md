@@ -38,9 +38,9 @@ tesseract -v
 tesseract 5.0.0-alpha-20201224-3-ge1a3
 ```
 
-![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](images/OCRTesseractVersion5vsVersion3-2.png)
+![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](images/OCRTesseractVersion5vsVersion3-2.png "Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5")
 
-Comparación entre el OCR de tesseract 3 y tesseract 5
+
 
 ### Instalar lenguajes en tesseract
 
@@ -67,9 +67,8 @@ Verás que ahora el español ya se encuentra instalado y podemos usarlo para det
 
 Ahora pongámoslo a prueba para reconocer texto en imágenes, directo de la terminal. Yo voy a usar la siguiente imagen:
 
-![Imagen con texto a procesar](images/imagen_con_texto.jpg)
+![Imagen con texto a procesar](images/imagen_con_texto.jpg "Archivo: imagen_con_texto.jpg")
 
-imagen\_con\_texto.jpg
 
 ```bash
 tesseract imagen_con_texto.jpg -
@@ -92,7 +91,7 @@ Es posible indicarle a tesseract el motor de OCR que queremos usar:
 tesseract imagen_con_texto.jpg - --oem 1
 ```
 
-Considera que **no todos los archivos de idiomas funcionan con el tesseract original** (0 y 3). Aunque generalmente el de redes neuronales es el que da el mejor resultado. Puedes encontrar los modelos compatibles con el tesseract original y redes neuronales en su [página de github](https://github.com/tesseract-ocr/tessdata).
+Considera que **no todos los archivos de idiomas funcionan con el tesseract original** (0 y 3). Aunque generalmente el de redes neuronales es el que da el mejor resultado. Puedes encontrar los modelos compatibles con el tesseract original y redes neuronales en el [repositorio de tesseract](https://github.com/tesseract-ocr/tessdata).
 
 Puedes instalarlos de manera manual descargándolos y moviéndolos a la carpeta adecuada, en mi caso es _/usr/local/share/tessdata/_, pero puede ser diferente en tu sistema.
 
