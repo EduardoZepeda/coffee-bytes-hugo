@@ -22,7 +22,7 @@ Escribí las entradas anteriores como una introducción para el tema de esta sem
 
 Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual tengo una [reseña de Twoo scoops of django](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
-¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](https://coffeebytes.dev/tutorial-de-comandos-basicos-de-docker/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a compose, entra en mi tutorial de Docker Compose.
+¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](https://coffeebytes.dev/tutorial-de-comandos-basicos-de-docker/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose](/docker-compose-tutorial-con-comandos-en-gnu-linux/).
 
 Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
 

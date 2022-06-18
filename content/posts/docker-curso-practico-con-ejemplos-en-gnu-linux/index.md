@@ -20,6 +20,8 @@ Antes de empezar hay que aclarar que en Docker trabajamos con contenedores que s
 
 Puedes pensar en las imágenes y contenedores **como clases y sus instancias, respectivamente.**
 
+Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go](/container-de-docker-con-namespaces-y-cgroups/).
+
 ## Comandos básicos de Docker
 
 ### Correr un contenedor

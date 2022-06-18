@@ -54,6 +54,8 @@ Para evitar caer en las viles manos de los puristas de las ciencias de la comput
 
 Lo que debes recordar acerca de los contenedores es que **son muy ligeros, se encuentran aislados y virtualizan el funcionamiento de un sistema operativo.**
 
+Si quieres conocer como funciona, a nivel código, un contenedor, te adelanto que [un container es un proceso que echa mano de los namespaces y cgroups de linux](/container-de-docker-con-namespaces-y-cgroups/).
+
 ### Máquina virtual
 
 > Las máquinas virtuales (VM en singular o VMs en plural) son una abstracción del hardware físico que convierten un servidor en muchos servidores. El monitor de las VMs permite que múltiples máquinas virtuales corran en una única máquina. Cada VM incluye una copia completa de un sistema operativo, la aplicación, librerías y binarios necesarios - tomando decenas de GB. Las VMs también pueden ser lentas de arrancar.

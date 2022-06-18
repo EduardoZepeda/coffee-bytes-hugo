@@ -74,7 +74,7 @@ top
 
 ## ps
 
-El comando ps nos mostrará la lista de procesos que corren, pero no en tiempo real y de manera interactiva, sino que imprime en pantalla, ideal para volcarlo en un archivo o procesar la información que el comando nos arroje.
+El comando ps nos mostrará la lista de procesos que corren, pero no en tiempo real y de manera interactiva, sino que los imprime en pantalla; ideal para volcarlo en un archivo o procesar la información que el comando nos arroje.
 
 ```bash
 ps
@@ -94,6 +94,10 @@ ps aux
 ```
 
 Ahora nos muestra más información, el porcentaje de CPU y el porcentaje de memoria. Toma en cuenta que el _%CPU_ que nos muestran ambos comandos no será igual debido a que se calcula de manera diferente en cada uno de ellos. Puedes ver más detalles al respecto en el código o en los manuales de ambos comandos.
+
+### /proc y el comando ps
+
+El comando ps obtiene su información del contenido de la carpeta */proc*, que es donde se almacenan los procesos que ejecuta linux.
 
 ## pstree
 
@@ -378,10 +382,10 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 
 ## chroot
 
-Hay situaciones en las que necesitamos cambiar la dirección de la carpeta root por defecto para algunos usos más avanzados, como la creación de overlays. chroot consigue eso.
+Hay situaciones en las que necesitamos cambiar la dirección de la carpeta root por defecto para algunos usos más avanzados, como la creación de overlays o de contenedores, tales como los de [docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/).
 
 ```bash
-chroot /mi-nuevo-directorio-root
+chroot /mi_nuevo_directorio_root
 ```
 
 ## chown
