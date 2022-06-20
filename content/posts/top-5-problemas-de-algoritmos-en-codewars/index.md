@@ -84,8 +84,6 @@ Y de tamaño 10
 
 El valor de retorno debería contener un array de arrays, de 0 y 1, con la primera fila compuesta de 1's. Por ejemplo, para el tamaño dado de 5, debería ser:
 
-Return value should contain array of arrays, of 0 and 1, with the first row being composed of 1s. For example for given size 5 result should be:
-
 ```bash
 [[1,1,1,1,1],[0,0,0,0,1],[1,1,1,0,1],[1,0,0,0,1],[1,1,1,1,1]]
 ```
