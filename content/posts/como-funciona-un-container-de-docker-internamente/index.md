@@ -331,6 +331,8 @@ En resumen, es posible crear un container usando namespaces y cgroups, para aisl
 El código de esta publicación está basado en una [plática de LizRice](https://www.youtube.com/watch?v=Utf-A4rODH8) en el ContainerCamp.
 
 
-## Otros recursos
+## Otros recursos para profundizar
 
 * [Namespaces](https://wvi.cz/diyC/namespaces/)
+* [Cgroups](https://clibre.io/blog/por-secciones/hardening/item/425-cgroups-grupos-de-control-en-gnu-linux)
+* [Chroot](http://www.estrellateyarde.org/virtualizacion/la-jaula-en-linux-chroot)
