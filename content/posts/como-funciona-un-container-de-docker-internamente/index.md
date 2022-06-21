@@ -17,15 +17,17 @@ url: "container-de-docker-con-namespaces-y-cgroups"
 Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
 
 Sabemos que un container es un proceso de linux con varias características:
-* Aislamiento del sistema operativo que lo aloja.
-* Un sistema de archivos independiente del sistema operativo en el que corre.
-* Una cantidad de recursos limitada.
+* Es un proceso, o grupo de procesos, de linux ejecutado por un usuario.
+* Está aislado del sistema operativo que lo aloja (Namespaces).
+* Tiene una cantidad de recursos limitada (Cgroups).
+* Cuenta con un sistema de archivos independiente al del sistema operativo en el que corre (Chroot).
 
-Para lograr lo anterior docker echa mano de algunas características de GNU/Linux (de ahora en adelante solo linux):
+Para lograr lo anterior los docker, y las demás tecnologías de contenedores, echan mano de algunas características de GNU/Linux (de ahora en adelante solo linux):
 
 * Procesos
 * Namespaces
-* cgroups
+* Cgroups
+* Chroot
 
 Voy a explicarlos muy brevemente pero tú puedes profundizarlos por tu cuenta si quieres.
 
@@ -33,13 +35,19 @@ Voy a explicarlos muy brevemente pero tú puedes profundizarlos por tu cuenta si
 
 ### Proceso
 
-En palabras simples, un proceso es una instancia de un programa en ejecución. Lo importante aquí es que cada proceso en linux cuenta con PID, que es un número que sirve para identificar el proceso. Puedes ver los procesos usando los [comandos ps, top, htop](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/#top), etc.
+En palabras simples, un proceso es una instancia de un programa en ejecución. Lo importante aquí es que cada proceso en linux cuenta con PID, que es un número que sirve para identificar el proceso. 
+
+Como ya sabes, puedes ver los procesos usando los [comandos ps, top, htop](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/#top), etc.
+
+Un container es un proceso, o un grupo de procesos, aislados del resto del sistema operativo, por medio de un namespace.
 
 ### Namespace
 
-En linux un namespace limita lo que podemos ver.
+Un namespace limita lo que podemos ver.
 
 Los namespaces son una capa de abstracción de Linux que aisla los recursos del sistema. Los procesos en el interior de un namespace están al tanto de los otros procesos que se encuentran en ese mismo namespace pero los procesos de un namespace no pueden interaccionar con lo que se encuentre fuera de ese namespace. Cada proceso puede pertenecer a un solo namespace.
+
+Un namespace es lo que hace que un container se sienta como si fuera otro sistema operativo.
 
 En linux, un namespace se desactivará cuando se termine de ejecutar su último proceso.
 
@@ -63,7 +71,7 @@ Por ejemplo, si usamos un namespace de tipo UTS, los cambios que le hagamos al h
 
 En linux los cgroups limitan lo que podemos usar.
 
-Los cgroups, o grupos de control que nos provee el kernel de linux, nos permite organizar nuestros procesos en jerarquias, y limitar los recursos de CPU, memoria, entrada, salida, el número de procesos y los paquetes de red que genera cada uno de estos grupos. 
+Los cgroups, o grupos de control que nos provee el kernel de linux, nos permite organizar nuestros procesos en grupos, y limitar los recursos de CPU, memoria, entrada, salida, el número de procesos y los paquetes de red que genera cada uno de estos grupos. 
 
 Linux toma esta configuración leyendo una serie de archivos dentro de la ruta */sys/fs/cgroup/*, podemos crear cgroups nuevos, o modificar los que ya existen, creando carpetas y archivos dentro de esta ubicación.
 
@@ -71,9 +79,13 @@ Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs 
 
 ![Ejemplo de cgroups en linux](images/cgroups-en-linux.jpg "Los cgroups permiten limitar recursos del sistema")
 
-## Crear un container desde cero en Go
+## Crear un container desde cero con Go
 
-Simplificando lo anterior: necesitamos los namespaces para aislar nuestro container del sistema operativo principal y los cgroups para limitar los recursos de nuestro sistema a los que nuestro container puede acceder.
+Simplificando lo anterior necesitamos: 
+
+* Namespaces: para aislar los procesos de nuestro container del sistema operativo principal
+* Chroot: para dotar a nuestro container de un sistema de archivos diferente al del sistema operativo principal
+* Cgroups: para limitar los recursos de nuestro sistema a los que nuestro container puede acceder
 
 Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/). 
 
@@ -123,7 +135,7 @@ Código ejecutándose [echo Hola mundo] con el Process Id (PID): 292753
 Hola mundo
 ```
 
-Los comandos de cmd se resumen en lo siguiente.
+Las siguientes lineas con el prefijo cmd se resumen en lo siguiente.
 
 * Redirigimos la entrada estándar del comando a la entrada estándar del sistema operativo.
 * Redirigimos la salida estándar del comando a la salida estándar del sistema operativo.
@@ -141,7 +153,7 @@ Hasta ahora contamos con un programa que crea un proceso a partir de los argumen
 
 Todo bien hasta ahora, pero tenemos un problema; no estamos usando namespaces, por lo que nuestro programa no está aislado del resto del sistema; podemos ver todos los procesos del sistema operativo principal y además estamos usando su sistema de archivos, en lugar de un sistema de archivos propio para el container.
 
-Para asignar un namespace a nuestro programa, vamos a usar la función syscall de go para crear un nuevo namespace UTS. 
+Para asignar un namespace a nuestro programa, vamos a usar el método SysProcAttr, para crear un nuevo namespace de tipo UTS. 
 
 ```go
 func run() {
@@ -160,7 +172,7 @@ func run() {
 }
 ```
 
-Como viste en la lista de los namespaces, UTS es el namespace para aislar hostname y nombres de dominio.
+Como se lee en la lista de los namespaces, UTS es el namespace para aislar hostname y nombres de dominio.
 
 ### Namespace UTS
 
@@ -189,12 +201,14 @@ tuHostNameOriginal
 
 ### Aislando procesos con el namespace PID
 
-Ahora vamos a hacer los siguientes cambios al código principal.
+Ya que vimos como funciona un namespace, vamos a usarlo para la función principal de un contenedor; aislar procesos.
+
+Haremos los siguientes cambios al código principal.
 
 * En la función run, nos aseguraremos de que child sea un argumento siempre y por ende se ejecute la función del mismo nombre.
 * exec.Command("/proc/self/exe", args...) se encargará de realizar un fork de nuestro proceso con nuestros comandos.
 * CLONE_NEWPID se usará para crear un nuevo namespace para aislar los procesos en nuestro container.
-* El método *Sethostname* se encargará de establecer el hostname de manera automática, para saber que estamos dentro del container.
+* El método *Sethostname* se encargará de establecer el hostname de manera automática, útil para saber que estamos dentro del container.
 
 El resto del código hace exactamente lo mismo.
 
@@ -249,9 +263,9 @@ func child() {
 }
 ```
 
-Ahora, si ejecutamos el código veremos que el PID es 1, el primer proceso, sin embargo, como no hemos cambiado el sistema de archivos, veremos los mismos procesos de nuestro sistema operativo principal.
+Ahora, si ejecutamos el código veremos que el PID es 1, el primer proceso, ¡Ya tenemos aislados lor procesos! Sin embargo, como no hemos cambiado el sistema de archivos, veremos los mismos procesos de nuestro sistema operativo principal.
 
-Recuerda que el [comando *ps*](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/#ps) obtiene los procesos del directorio */proc* del sistema de archivos que estemos usando.
+Recuerda que el [comando *ps*](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/#ps) obtiene los procesos del directorio */proc* del sistema de archivos que estemos usando. En otras palabras, necesitamos otro sistema de archivos.
 
 ## Establecer un nuevo sistema de archivos para el container
 
@@ -264,7 +278,7 @@ ls /otro_sistema_de_archivos
 bin dev home lib ... proc
 ```
 
-Este nuevo sistema de archivos puede tener otras librerías instaladas, configuraciones y estar diseñado a nuestro gusto. 
+Este nuevo sistema de archivos puede tener otras librerías instaladas, configuraciones y estar diseñado a nuestro gusto, puede ser una copia del que estás usando u otro completamente diferente.
 
 Para aislar los procesos de nuestro container vamos a:
 
@@ -291,13 +305,15 @@ func child() {
 }
 ```
 
+Ahora nuestro container va a leer los procesos de nuestro nuevo sistema de archivos, en lugar del sistema de archivos del sistema operativo principal.
+
 ## Limitar recursos del container con cgroups
 
-Ahora vamos a limitar los recursos a los que nuestro container puede acceder usando los cgroups de linux.
+Por último, vamos a limitar los recursos a los que nuestro container puede acceder usando los cgroups de linux.
 
 Los cgroups se localizan dentro de la ruta */sys/fs/cgroup/* y podemos crear uno nuevo creando una nueva carpeta dentro del tipo de cgroup. 
 
-En este caso limitaremos la memoria, por lo que nuestro cgroup estará dentro de */sys/fs/cgroup/memory/<nombre_del_cgroup>*. 
+En este caso limitaremos la memoria, por lo que nuestro cgroup estará dentro de */sys/fs/cgroup/memory/<nombre_del_cgroup>*. ¿Recuerdas que te dije que los cgroups funcionaban leyendo una serie de directorios y archivos?
 
 ```go
 func child() {
@@ -322,17 +338,19 @@ Creamos un directorio para nuestro cgroup con los [permisos de linux 0755](https
 Generaremos dos archivos, dentro de nuestro cgroup, para establecer las directrices que queremos implementar
 
 * *memory.limit_in_bytes*, para limitar el máximo de memoria a 100 MB (100000000 bytes).
-* *tasks* para indicarle a linux que esta configuración de cgroup es aplicable al número de proceso (PID) de nuestro container.
+* *tasks* para indicarle a linux que esta configuración de cgroup es aplicable al número de proceso (PID) de nuestro container, el cual obtenemos con el método Getpid.
+
+Y listo, con eso tenemos un proceso con su propio sistema de archivos, aislado del sistema operativo principal y que puede acceder únicamente a una parte de los recursos.
 
 ## Resumen
 
-En resumen, es posible crear un container usando namespaces y cgroups, para aislar del exterior y limitar los recursos, respectivamente, de nuestro container. 
+En resumen, es posible crear un container usando namespaces, cgroups y chroot, para aislar del exterior, limitar los recursos, y proveer de un sistema de archivos propio, respectivamente.
 
 El código de esta publicación está basado en una [plática de LizRice](https://www.youtube.com/watch?v=Utf-A4rODH8) en el ContainerCamp.
-
 
 ## Otros recursos para profundizar
 
 * [Namespaces](https://wvi.cz/diyC/namespaces/)
 * [Cgroups](https://clibre.io/blog/por-secciones/hardening/item/425-cgroups-grupos-de-control-en-gnu-linux)
 * [Chroot](http://www.estrellateyarde.org/virtualizacion/la-jaula-en-linux-chroot)
+* [Difference between a process a container and a vm](https://jessicagreben.medium.com/what-is-the-difference-between-a-process-a-container-and-a-vm-f36ba0f8a8f7)
