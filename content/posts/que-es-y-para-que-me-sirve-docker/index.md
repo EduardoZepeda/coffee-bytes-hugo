@@ -54,7 +54,7 @@ Para evitar caer en las viles manos de los puristas de las ciencias de la comput
 
 Lo que debes recordar acerca de los contenedores es que **son muy ligeros, se encuentran aislados y virtualizan el funcionamiento de un sistema operativo.**
 
-Si quieres conocer como funciona, a nivel código, un contenedor, te adelanto que [un container es un proceso que echa mano de los namespaces y cgroups de linux](/container-de-docker-con-namespaces-y-cgroups/).
+Si quieres conocer como funciona, a nivel código, un contenedor, te adelanto que [un container es un proceso que echa mano de los namespaces, cgroups de linux y chroot](/container-de-docker-con-namespaces-y-cgroups/) para aislar un grupo de procesos en linux, limitar los recursos del sistema operativo que pueden usar y tener su propio sistema de archivos, respectivamente.
 
 ### Máquina virtual
 
@@ -82,8 +82,10 @@ También es importante hacer notar que, como es común en los modelos Freemium, 
 
 Algo más antes de terminar esta entrada. **Docker es genial, pero no hace falta usarlo en todos los proyectos**. Los expertos en proyectos suelen afirmar que añadir una capa más de complejidad a un proyecto es algo que debe evaluarse para cada caso en cada particular.
 
-Al final Docker es una herramienta más que debería usarse para solucionar un problema que existe o es probable que llegue a existir. No vas a estar montando páginas estáticas en contenedores de Docker con Apache o NGINX para un proyecto de tamaño micro, cuando ya existen soluciones para esto.
+Al final Docker es una herramienta más que debería usarse para solucionar un problema que existe o es probable que llegue a existir. No vas a estar montando páginas estáticas en contenedores de Docker con Apache o NGINX para un proyecto que bien podrías montar directamente en un CDN.
 
-## TLDR
+## Resumen
 
-Para fines prácticos, Docker nos va a permitir crear aplicaciones que vamos a poder transportar de un entorno a otro fácilmente, que van a ejecutarse en un contenedores aislados dentro de nuestro sistema operativo y que, además, se **van a comportar exactamente igual en cualquier máquina con Docker instalado**. Todo lo anterior nos librará del "funcionaba perfecto en mi máquina" y evitará errores causados por diferencias de entorno o configuración al momento de desarrollo. Entra en la siguiente entrada que trata de [los comandos básicos de Docker.](https://coffeebytes.dev/tutorial-de-comandos-basicos-de-docker/)
+Para fines prácticos, Docker nos va a permitir crear aplicaciones que vamos a poder transportar de un entorno a otro fácilmente, que van a ejecutarse en un contenedores aislados dentro de nuestro sistema operativo y que, además, se **van a comportar exactamente igual en cualquier máquina que cuente con Docker instalado**. 
+
+Todo lo anterior nos librará del "funcionaba perfecto en mi máquina" y evitará errores causados por diferencias de entorno o configuración al momento de desarrollo. Sigue leyendo sobre Docker en la siguiente entrada.
