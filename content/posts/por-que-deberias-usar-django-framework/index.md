@@ -55,7 +55,7 @@ Su única desventaja es su velocidad, pues se queda corto frente a otras alterna
 
 ### Panel de administrador incluido
 
-Django cuenta con el django admin panel, un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
+Django cuenta con el [django admin panel](https://coffeebytes.dev/el-django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
 ![Panel de administración de Django](images/Django-panel-admin.png)
 
@@ -119,11 +119,11 @@ Django es un Framework antiguo, con todo lo que se necesita para desarrollar una
 
 La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frameworks de Javascript que evoluciona muy rápido.
 
-**Actualización**: Respecto al sistema de plantillas, este puede ser bastante útil si lo combinas con librerías como htmx o turbolinks. 
+**Actualización**: Respecto al sistema de plantillas, si lo combinas con librerías como htmx o turbolinks tendrás lo mejor de ambos mundos: interactividad en el frontend con un generación de HTML en el backend.
 
 ### Es lento y maneja peticiones de una en una
 
-Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de python vs go comparo el rendimiento de ambos, solo para que te des una idea.
+Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/) comparo el rendimiento de ambos, solo para que te des una idea.
 
 Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
 
