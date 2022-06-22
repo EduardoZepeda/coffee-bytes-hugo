@@ -25,7 +25,9 @@ JWT es un estándar para la creación de tokens de acceso basado en JSON, para e
 
 ## Instalación de JWT en Django
 
-Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt. Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
+Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
+
+Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
 
 ```python
 pipenv install djangorestframework_simplejwt djangorestframework
