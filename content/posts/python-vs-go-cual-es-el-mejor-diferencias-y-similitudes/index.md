@@ -252,6 +252,16 @@ func sinValoresPredeterminados(valor=1, valor2=2){
 }
 ```
 
+El manejo de errores en Go no es muy bien recibido por muchos desarrolladores, quienes lo consideran inferior al de otros lenguajes. 
+
+El siguiente patrón será muy recurrente y se repetirá múltiples veces en tu código, violando la máxima de DRY.
+
+```go
+if err != nil {
+    return err
+}
+```
+
 ### Cosas no tan geniales de python
 
 Entre las cosas no tan geniales de Python está la fuerte separación que ocurrió entre Python 2 y Python 3, dejando muchas librerías desactualizadas o con un montón de parches para hacer compatible el código entre ambas versiones.
@@ -271,6 +281,8 @@ Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra ins
 ### Usos de go
 
 Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, servidores de backend y en blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
+
+Los [containers de docker están escritos usando go](https://coffeebytes.dev/container-de-docker-con-namespaces-y-cgroups/).
 
 ![Logos de tecnologías creadas con go](images/traeffik-y-kubernetes-1024x505-1.jpg)
 

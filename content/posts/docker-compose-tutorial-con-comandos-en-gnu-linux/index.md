@@ -19,7 +19,7 @@ Docker compose nos permite crear aplicaciones con múltiples contenedores, estos
 
 Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
 
-Docker-compose está programando usando el [lenguaje de programación go o golang](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), del cual escribí una entrada.
+Docker-compose está programando usando el [lenguaje de programación go o golang](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), el mismo con lenguaje con el que [funcionan internamente los containers de go](https://coffeebytes.dev/container-de-docker-con-namespaces-y-cgroups/).
 
 Docker compose permite automatizar procesos, y es usado para en proyectos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](https://coffeebytes.dev/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
 
