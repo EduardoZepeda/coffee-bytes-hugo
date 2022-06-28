@@ -21,7 +21,11 @@ En go, las operaciones que mandan o reciben valores de canales son bloqueantes d
 
 Conociendo las dos situaciones anteriores tendremos dos casos principales:
 
+### Bloque por falta de remitente
+
 ¿Qué pasa si una operación está esperando recibir información de un canal, pero ese canal no va a mandar nada jamás?
+
+Sucede cuando existe un canal que recibe información, pero no uno que la mande.
 
 ![Deadlock por falta de canal de entrada](images/deadlock-sender-go.jpg "No hay una operación que envie datos a través de un canal.")
 
@@ -41,7 +45,11 @@ func main() {
 // fatal error: all goroutines are asleep - deadlock!
 ```
 
+### Bloque por falta de destinatario
+
 ¿Y si una operación manda información a un canal pero ya no hay ninguna otra goroutine que reciba la información de ese canal?
+
+Sucede cuando existe un canal que manda información, pero no uno que la reciba.
 
 ![Deadlock por falta de canal de salida](images/deadlock-receiver-go.jpg "En un deaclock por falta de canal de salida no hay una operación que reciba texto a través de un canal.")
 
@@ -56,7 +64,9 @@ func main() {
 // fatal error: all goroutines are asleep - deadlock!
 ```
 
-Existe un tercer caso: si hay una operación que lea de un canal, como en el ejemplo de abajo, pero no se encuentra dentro de otra goroutine (diferente a la goroutine de main) que lea el valor, obtendremos un error de deadlock o bloqueo.
+### Bloqueo por ausencia de goroutine
+
+Existe un tercer caso: si hay una operación que escribe y lea de un canal, como en el ejemplo de abajo, pero no se encuentra dentro de otra goroutine (diferente a la goroutine de main) que lea el valor, obtendremos un error de deadlock o bloqueo.
 
 ```go
 
@@ -79,13 +89,13 @@ A la situación anterior se le conoce como un deadlock o punto muerto.
 
 ## Deadlocks o puntos muertos
 
-Como ya mencioné, en un deadlock hay una goroutine que está esperando leer de un canal vacio, sin embargo ya no hay ninguna goroutine ejecutándose pues están esperándose las unas a las otras; están en un punto muerto del que no se puede avanzar.
+En un deadlock hay una goroutine que está esperando leer o escribir en un canal, sin embargo ya no hay ninguna goroutine ejecutándose pues están esperándose las unas a las otras; están en un punto muerto del que no se puede avanzar.
 
 ### Prevenir deadlocks en go con goroutines
 
-Como te mencioné en la [introducción a los channels o canales en go](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/), la capacidad por defecto de un canal es de 0, esto provoca que no podamos almacenar datos en los canales de manera predeterminada. Si intentamos almacenar un dato en un canal, obtendremos un error por parte del compilador, pues ya no existe otra goroutine que reciba el valor de manera inmediata.
+En la [introducción a los channels o canales en go](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/), te dije que la capacidad por defecto de un canal es de 0, esto provoca que no podamos almacenar datos en los canales de manera predeterminada. Si intentamos almacenar un dato en un canal, obtendremos un error por parte del compilador, pues ya no existe otra goroutine que reciba el valor de manera inmediata.
 
-Para prevenir el deadlock, podemos usar inmediatamente el dato del canal creando una goroutine que use el valor del canal.
+Para prevenir un deadlock, podemos usar inmediatamente el dato del canal creando una goroutine que use el valor del canal.
 
 ```go
 
@@ -131,7 +141,7 @@ func main() {
 
 ## Recursos sobre deadlocks en go
 
-Para concluir, te comparto algunos recursos interesantes que hablan de los deadlocks o puntos muertos.
+Para concluir el artículo, te comparto algunos recursos interesantes que hablan de los deadlocks o puntos muertos.
 
 - [Golang — Understanding channel, buffer, blocking, deadlock and happy groutines](https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37).
 - [Why a go-routine block on channel is considered as deadlock?](https://stackoverflow.com/questions/61759204/why-a-go-routine-block-on-channel-is-considered-as-deadlock)

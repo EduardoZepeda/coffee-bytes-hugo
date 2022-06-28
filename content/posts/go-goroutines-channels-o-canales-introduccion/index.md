@@ -43,35 +43,46 @@ go write("hey again")
 // hey
 ```
 
-Considera que, en el caso anterior, dado que la goroutine no detiene la ejecución del código, pues se ejecuta de manera asíncrona, por lo que el cuerpo de la función _main_ continua su ejecución y **nuestra goroutine nunca llega a ejecutarse.**
+En el caso anterior, debido a su naturaleza asíncrona, la goroutine no detiene la ejecución del código. Lo anterior implica que el cuerpo de la función _main_ continua su ejecución y **nuestra goroutine nunca llega a ejecutarse.**
 
 ![Funcionamiento de las goroutines en go](images/golang-goroutine-3.jpg)
 
-Created with GIMP
-
-¿Pero entonces? ¿cómo le hacemos para tener nuestra goroutine se ejecute? La aproximación ingenua sería usar un sleep para pausar la ejecución del código. Esto, como ya sabes, es un sinsentido.
+¿Pero entonces? ¿cómo le hacemos para que nuestra goroutine se ejecute? La aproximación ingenua sería usar un sleep para pausar la ejecución del código. Esto, como ya sabes, es un sinsentido.
 
 ```go
 // NO LO HAGAS
 time.Sleep(1 * time.Second)
 ```
 
-Una mejor aproximación sería crear un _WaitGroup_ o grupo de espera.
+Una mejor aproximación sería crear un **Waigroup** o grupo de espera.
 
 ## WaitGroups en go
 
-Un _WaitGroup_ se sirve para esperar a que se ejecuten un conjunto de goroutines. **Un _WaitGroup_ funciona con un contador que incrementaremos, por medio de su método _Add_**, cada vez que ejecutemos una goroutine. Cuando la goroutine termine querremos llamaremos a su método **_Done_** para avisarle que la goroutine ha finalizado y decremente el contador.
+Un **WaitGroup** sirve para esperar a que se ejecuten un conjunto de goroutines. 
+
+Un **WaitGroup** funciona internamente con un contador, cuando el contador esté en cero la ejecución del código continuará, mientras el contador sea mayor a cero, esperará a que se terminen de ejecutar las demás goroutines.
 
 ```go
 var wg sync.WaitGroup
-wg.Add(1)
-go write("Hey")
+
 wg.Wait()
+fmt.Println("Si el contador del waitgroup es mayor que cero se continuará con esta función.")
 ```
 
-El método _Add_ incrementa el contador del WaitGroup.
+Para incrementar y decrementar el contador del **WaitGroup** usaremos los métodos *Add* y *Done*, respectivamente.
 
-Para indicarle cuando se ha finalizado una goroutine, usaremos el método _Done_; que se encarga de disminuir una unidad del contador del _WaitGroup_.
+### El método Add
+
+El método _Add_ incrementa el contador del WaitGroup en *n* unidades, donde *n* es el argumento que le pasamos. Lo llamaremos cada vez que ejecutemos una goroutine. 
+
+```go
+wg.Add(1)
+go write("Hey")
+```
+
+### El Método Done
+
+El método **Done** se encarga de disminuir una unidad del contador del **Waigroup**. Lo llamaremos para avisarle  al **WaitGroup** que la goroutine ha finalizado y decremente el contador en uno.
 
 ```go
 func write(texto string, wg *sync.WaitGroup) {
@@ -80,9 +91,8 @@ func write(texto string, wg *sync.WaitGroup) {
 }
 ```
 
-Recuerda que la instancia del _WaitGroup_ (wg \*) necesita pasarse por referencia o de otra manera no accederemos al _WaitGroup_ original.
+Recuerda que la instancia del **Waigroup** (wg \*) necesita pasarse por referencia o de otra manera no accederemos al **Waigroup** original.
 
-Un tip bastante útil es usar _defer_ sobre el método _Done_ para garantizar que sea lo último que se ejecute.
 
 ```go
 func write(texto string, wg *sync.WaitGroup) {
@@ -90,6 +100,8 @@ func write(texto string, wg *sync.WaitGroup) {
     defer wg.Done()
 }
 ```
+
+Un tip bastante útil es usar _defer_ sobre el método _Done_ para garantizar que sea lo último que se ejecute.
 
 ![Funcionamiento de un grupo de espera en go](images/golang-goroutine-wait-2.jpg)
 
@@ -120,19 +132,18 @@ go func(text string) {
 
 Hasta ahora te he explicado como ejecutar una goroutine, ejecutar código de manera concurrente con las goroutines y a esperar a que terminen de ejecutarse pero nuestras goroutines no pueden hacer nada más, no pueden cooperar entre ellas para acelerar los procesos.
 
-Imagínate que tienes un web scrapper que obtiene datos de internet de manera concurrente. ¿qué pasa si necesitamos los datos que obtiene un webscrapper que necesitamos procesar de alguna manera? ¿tenemos que esperar a que terminen todas las goroutines para usarlos? Lo ideal sería que las goroutines se comunicaran entre ellas los datos y continuaran con el proceso.
+Imagínate que tienes un web scrapper que obtiene datos de internet de manera concurrente; obtenemos los datos con goroutines y los procesamos con gorotuines. ¿tenemos que esperar a que terminen todas las goroutines para usarlos? Lo ideal sería que las goroutines se comunicaran entre ellas los datos y continuaran con el proceso.
 
 ## Comunicando goroutines con channels
 
-Los channels o canales son conductos, que aceptan un único tipo de dato, a través de los cuales "introducimos" información que, posteriormente, podremos "sacar".
+Los channels o canales son "conductos", que aceptan un único tipo de dato. A través de estos canales "introducimos" información que, posteriormente, podremos "sacar".
 
 Las goroutines pueden enviar datos a los canales y también leer datos de ellos, logrando comunicarse entre si.
 
-![Esquema del funcionamiento de un channel en go](images/channels-en-go.jpg)
+![Esquema del funcionamiento de un channel en go](images/channels-en-go.jpg "Esquema básico del funcionamiento de los channels o canales en Go")
 
-Esquema básico del funcionamiento de los channels o canales en Go
 
-Un channel o canal en go se declara con _make_ y la palabra _chan_, que hace referencia a la palabra channel.
+Un channel o canal en go se declara con *make* y la palabra *chan*, que hace referencia a la palabra channel.
 
 ```go
 c := make(chan string)
@@ -140,7 +151,7 @@ c := make(chan string)
 
 ### Channels o canales con buffer
 
-La función make permite pasarle como un argumento extra la cantidad límite de datos simultaneos que manejará ese canal. **A esto se le conoce como un canal con buffer o buffered channel.**
+La función *make* permite pasarle como un argumento extra la cantidad límite de datos simultaneos que manejará ese canal. **A esto se le conoce como un canal con buffer o buffered channel.**
 
 ```go
 c := make(chan string, 1)
