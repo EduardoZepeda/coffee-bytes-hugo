@@ -9,7 +9,7 @@ keywords:
   - golang
 ---
 
-En go o golang los slices, los arrays y los maps son estructuras para manejar colecciones de datos. En esta entrada voy a hablar de los dos primeros: slices y arrays.
+En go o golang los slices, los arrays y los [maps](https://coffeebytes.dev/go-maps-o-diccionarios/) son estructuras para manejar colecciones de datos. En esta entrada voy a hablar de los dos primeros: slices y arrays.
 
 En esta entrada voy a usar tipos de datos, zero values, y otras aspectos muy básicos de go. Si no sabes de que hablo, visita mi entrada [Golang: introducción al lenguaje, variables y tipos de datos](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/).
 
@@ -42,7 +42,7 @@ array := [4]int{0, 0, 0, 0}
 
 ## Slices en go
 
-Los slices son **colecciones mutables de tipos de datos**. Internamente es una abstracción de un array. Sin embargo, a diferencia de los arrays, estos sí pueden modificarse.
+Los slices son **colecciones mutables de tipos de datos**. Internamente es una abstracción de un array, con una diferencia, estos sí pueden modificarse.
 
 Sin embargo, al declarar un slice, y luego intentar modificar uno de sus índices, justo como haríamos con un array, tendremos un error. ¿Por qué? Porque un slice es una referencia, y al crearse vacío, estamos apuntando a la nada, a _nil_.
 
@@ -54,7 +54,7 @@ slice[0] = 1
 
 Internamente un _slice_ es un _struct_ con un apuntador al verdadero array. Además del pointer o apuntador, cuenta con| la propiedad llamada _cap_ y _len_, que se refieren a la capacidad y longitud del array, respectivamente.
 
-![Estructura de un slice en go](images/sliceGolang.png)
+![Estructura de un slice en go](images/sliceGolang.png "Un apuntador del slice dirige a los datos que contiene")
 
 Para crear un slice no vacío tenemos dos maneras de hacerlo:
 

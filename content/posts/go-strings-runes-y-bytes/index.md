@@ -42,7 +42,7 @@ var ch3 byte = 0X41       // hexadecimal
 
 Así como podemos guardar un número, también podemos guardar la representación numérica de un carácter, envolviéndolo en comillas sencillas.
 
-Al imprimirlo nos devolverá el número, en notación decimal, que representa este carácter.
+Es como decirle a go: "Guarda el valor número al que corresponde este caracter". Al imprimirlo nos devolverá el número, en notación decimal.
 
 ```go
 var ch byte = 'A'
@@ -57,9 +57,8 @@ fmt.Println(string(ch))
 // 'A'
 ```
 
-![Esquema de un byte en go](images/ByteEnGo.jpg)
+![Esquema de un byte en go](images/ByteEnGo.jpg "Representación de la letra 'A' en notación decimal. El cuadrado representa un byte u 8 bits.")
 
-Representación de la letra 'A' en notación decimal. El cuadrado representa un byte u 8 bits.
 
 ### Array de bytes
 

@@ -89,9 +89,7 @@ Probablemente haya algunos estados que no usarás nunca, pero sí deberías memo
 
 Hay muchos más [estados HTTP que probablemente quieras conocer](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Asegúrante de revisarlos.
 
-![Respuesta de código 418 en google.](images/GoogleStatus418.png)
-
-Código 418: Soy una tetera
+![Respuesta de código 418 en google.](images/GoogleStatus418.png "Código 418: Soy una tetera")
 
 ### Devuelve mensajes claros en los errores
 
