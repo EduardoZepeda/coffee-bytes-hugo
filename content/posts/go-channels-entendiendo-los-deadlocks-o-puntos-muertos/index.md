@@ -21,7 +21,7 @@ En go, las operaciones que mandan o reciben valores de canales son bloqueantes d
 
 Conociendo las dos situaciones anteriores tendremos dos casos principales:
 
-### Bloque por falta de remitente
+### Bloqueo o deadlock por falta de remitente
 
 ¿Qué pasa si una operación está esperando recibir información de un canal, pero ese canal no va a mandar nada jamás?
 
@@ -45,7 +45,7 @@ func main() {
 // fatal error: all goroutines are asleep - deadlock!
 ```
 
-### Bloque por falta de destinatario
+### Bloqueo o deadlock por falta de destinatario
 
 ¿Y si una operación manda información a un canal pero ya no hay ninguna otra goroutine que reciba la información de ese canal?
 
