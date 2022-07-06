@@ -37,7 +37,9 @@ lang = "es"
   priority = 0.5
 
 [outputs]
-    section = ["JSON", "HTML"]
+    home = ["HTML", "RSS"]
+    section = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "RSS"]
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
