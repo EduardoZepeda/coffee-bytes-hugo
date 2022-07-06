@@ -2,13 +2,13 @@
 title: "Python vs Go 2022 ¿Cuál es el Mejor?"
 date: "2021-11-02"
 categories: 
-  - "golang"
+  - go
   - "python"
 coverImage: "images/Python-vs-go.jpg"
 description: "Conoce las diferencias, características y similitudes que existen entre Python y Go (Golang), dos lenguajes usados para desarrollo web."
 keywords:
   - "python"
-  - "golang"
+  - go
   - "opinion"
 ---
 

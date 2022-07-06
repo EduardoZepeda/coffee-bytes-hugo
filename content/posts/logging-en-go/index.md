@@ -4,6 +4,10 @@ date: "2022-07-06"
 coverImage: "images/logging-en-go.jpg"
 categories:
 - go
+keywords:
+- go
+- testing
+- logging
 ---
 
 Ya sabes que no deberías usar los prints para debuggear, la librería de loggeo añade fechas, nombres de archivo y otra información que puede hacer tu debuggeo y [tu testing en go](https://coffeebytes.dev/go-testing-basico-y-coverage/) más sencillo.

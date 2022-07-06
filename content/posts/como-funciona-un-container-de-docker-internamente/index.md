@@ -4,11 +4,11 @@ date: "2022-06-18"
 categories: 
   - "docker"
   - "linux y devops"
-  - "golang"
+  - go
 keywords:
   - docker
   - linux
-  - golang
+  - go
   - devops
 coverImage: "images/docker-container-desde-cero.jpg"
 url: "container-de-docker-con-namespaces-y-cgroups"

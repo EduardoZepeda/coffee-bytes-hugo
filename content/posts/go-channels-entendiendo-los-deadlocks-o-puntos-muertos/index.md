@@ -2,11 +2,11 @@
 title: "Go: channels, entendiendo los deadlocks o puntos muertos"
 date: "2022-01-26"
 categories: 
-  - "golang"
+  - go
 coverImage: "images/go-deadlock-y-goroutines.jpg"
 description: "En esta entrada trato los deadlocks en go, las causas del error fatal error: all goroutines are asleep - deadlock! y como prevenirlo."
 keywords:
-  - golang
+  - go
 ---
 
 Cuando trabajamos con channels hay un error bastante común que ocurre cuando no se está familiarizado con los conceptos, el error es "_fatal error: all goroutines are asleep - deadlock!_", traducido significa algo como "error fatal: todas las goroutines están dormidas - en un punto muerto". La primera vez que vi este error me confundió mucho y, aunque sabía como solucionarlo, no entendía porque sucedía, así que en esta entrada te explico porque sucede como me hubiera gustado haberlo leído en su momento.

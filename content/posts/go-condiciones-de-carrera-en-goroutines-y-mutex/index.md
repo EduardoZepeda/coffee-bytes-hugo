@@ -2,11 +2,11 @@
 title: "Go: condiciones de carrera en goroutines y mutex"
 date: "2022-02-02"
 categories: 
-  - "golang"
+  - go
 coverImage: "images/go-mutex-race-conditions.jpg"
 description: "En esta entrada hablo sobre las condiciones de carrera o race conditions que ocurren cuando usamos goroutines y como prevenirlas usando mutex."
 keywords:
-  - golang
+  - go
 ---
 
 En las entradas pasadas te hable un poco sobre las [goroutines, los bloqueos o deadlocks y los channels](https://coffeebytes.dev/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). Pero hay otro tema bastante interesante sobre los goroutines que resalta cuando usamos asincronía y hay muchas funciones accediendo a los datos al mismo tiempo y. Múltiples funciones leyendo y escribiendo la misma información puede llevar a situaciones caóticas donde cosas muy extrañas pueden suceder.

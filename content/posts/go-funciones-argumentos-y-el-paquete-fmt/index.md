@@ -2,11 +2,11 @@
 title: "Go: funciones, argumentos y el paquete fmt"
 date: "2021-11-30"
 categories: 
-  - "golang"
+  - go
 coverImage: "images/GoFunciones.jpg"
 description: "Aprende la sintaxis básica, retornos, tipos de retorno, argumentos múltiples y el uso del paquete fmt del lenguaje de programación go."
 keywords:
-  - golang
+  - go
 ---
 
 Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.
