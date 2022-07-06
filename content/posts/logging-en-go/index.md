@@ -6,7 +6,7 @@ categories:
 - go
 ---
 
-Ya sabes que no deberías usar los prints para debuggear, la librería de loggeo añade fechas, nombres de archivo y otra información que puede hacer tu debuggeo más sencillo.
+Ya sabes que no deberías usar los prints para debuggear, la librería de loggeo añade fechas, nombres de archivo y otra información que puede hacer tu debuggeo y [tu testing en go](https://coffeebytes.dev/go-testing-basico-y-coverage/) más sencillo.
 
 Por defecto al loggear algo con go nos devolverá la fecha y hora, seguido del mensaje que le pasamos como argumento.
 
