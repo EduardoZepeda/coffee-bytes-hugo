@@ -1,7 +1,9 @@
 ---
 title: "Generar PDFs con Django y Reportlab"
-date: "2022-06-15"
+date: "2022-06-29"
 draft: true
+categories:
+- django
 ---
 
 Con django y reportlab podemos generar PDFs de manera dinámica, usando información de nuestra base de datos, input del usuario o nuestra propia lógica de negocio.

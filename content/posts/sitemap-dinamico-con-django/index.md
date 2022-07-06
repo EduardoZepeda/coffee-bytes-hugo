@@ -1,6 +1,6 @@
 ---
 title: "Sitemap Dinámico con Django"
-date: "2022-06-01"
+date: "2022-06-29"
 draft: true
 coverImage: "images/sitemap-en-django.jpg"
 categories:

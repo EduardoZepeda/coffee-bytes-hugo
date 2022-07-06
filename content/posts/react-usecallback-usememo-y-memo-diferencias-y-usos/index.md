@@ -16,13 +16,13 @@ Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de
 
 Visita mi entrada donde comparto [5 librerías de React](https://coffeebytes.dev/5-librerias-geniales-de-react-que-debes-conocer/) que no pueden faltarte en tu arsenal.
 
-Antes de empezar a ver las funciones hay dos conceptos que tienes que entender primero: memoización y el manejo de objetos por parte de Javascript. Pasa a la parte de useCallback si ya los dominas.
+Antes de empezar pasar a las funciones hay dos conceptos que tienes que entender primero: memoización y el manejo de objetos por parte de Javascript. Avanza a la parte de useCallback si ya los dominas.
 
 ## Un poco sobre memoización
 
 Memoizar significa memorizar un valor para evitar procesarlo nuevamente, generalmente se usa para ahorrarte el costo de producir un valor una y otra vez.
 
-Imagína que quieres multiplicar los números 17 y 19. Tomarías papel y pluma o una calculadora, realizarías las operaciones pertinentes y obtendrías el resultado: 323. Si te preguntan nuevamente el valor de esa multiplicación, no vas a tomar papel y pluma para calcular otra vez, sino que recitarás la cifra 323, sin calcularla, de memoria.
+Imagína que quieres multiplicar los números 17 y 19. Tomarías papel y pluma o una calculadora, realizarías las operaciones pertinentes y obtendrías el resultado: 323. Si te preguntan nuevamente el valor de esa multiplicación, no vas a tomar un nuevo papel y pluma para calcular otra vez, sino que recitarás la cifra 323, sin calcularla, de memoria.
 
 Mientras te sigan preguntando por la multiplicación de 17 y 19 tu podrás devolver una respuesta sin calcularla nuevamente. Acabas de memoizar el resultado de multiplicar 17 y 19 y puedes devolverlo sin tener que calcularlo nuevamente.
 
@@ -69,11 +69,11 @@ Las diferencias básicas entre useCallback, useMemo y memo se resumen en la sigu
 
 ![Diferencias entre useCallback, useMemo y memo](images/Diferencias-React-useCallback-useMemo-memo.jpg)
 
-Ahora vamos al código.
+En conjunto, [memo y useCallback, se usan para evitar renderizaciones innecesariasq en React.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 ## useCallback memoiza funciones
 
-useCallback **es un hook de React** que se encarga de memoizar las funciones y que no se rerenderizen al montarse los components. Es muy útil cuando se transfieren funciones a componentes hijos.
+useCallback **es un hook de React** que se encarga de memoizar las funciones y de que no se rerenderizen al montarse los components. Es muy útil cuando se transfieren funciones a componentes hijos.
 
 La función useCallback acepta dos argumentos y **retorna una función**. El primer argumento es la función a memoizar y el segundo, al igual que useEffect, es una variable a vigilar, de manera que React no genere una nueva función con cada renderizado, siempre y cuando esa variable no cambie. Al igual que con useEffect también podemos dejar el array vacio, en lugar de value.
 
@@ -90,8 +90,6 @@ const MyComponent = ({prop}) => {
 ```
 
 De nuevo, mientras el prop que recibe el componente llamado Component, se mantenga constante, no se creará una nueva función, por más que se re-renderice el componente.
-
-Tengo una entrada donde te explico como usar [useCallback y memo, para evitar renderizaciones en React.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 ## useMemo memoiza valores
 
