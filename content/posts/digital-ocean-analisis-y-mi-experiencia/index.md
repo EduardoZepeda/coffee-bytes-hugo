@@ -114,7 +114,7 @@ Digital Ocean es un servicio enfocado más en proyectos pequeños y medianos, no
 
 ## Mi experiencia con Digital Ocean
 
-Yo he usado Digital Ocean para hostear proyectos personales y también para manejar mis dominios. No he tenido problemas de servidores caídos hasta el momento, o al menos no que me haya dado cuenta o algún usuario me lo haya hecho notar. De hecho, ahora mismo estás leyendo esto desde un Droplet que usa un headless Wordpress y para el frontend frontity (Un framework de React) servido con Apache Nginx y hosteado en Digital Ocean. Este blog utiliza el servicio más económico, el de $5 usd, y la verdad es que para la cantidad de tráfico que tengo no se siente lento y cuenta con indicadores decentes en Lighthouse, sin ningún plugin de cache.
+Yo he usado Digital Ocean para hostear proyectos personales y también para manejar mis dominios. No he tenido problemas de servidores caídos hasta el momento, o al menos no que me haya dado cuenta o algún usuario me lo haya hecho notar. De hecho, ahora mismo estás leyendo esto desde un Droplet que usa ~~un headless Wordpress y para el frontend frontity (Un framework de React) servido con Nginx~~ Hugo y hosteado en Digital Ocean. Este blog utiliza el servicio más económico, el de $5 usd, y la verdad es que para la cantidad de tráfico que tengo no se siente lento y cuenta con indicadores decentes en Lighthouse, sin ningún plugin de cache.
 
 ![Indicadores de Lighthose para coffeebytes.dev](images/Coffeebytes-lighthose-indicadores.png)
 

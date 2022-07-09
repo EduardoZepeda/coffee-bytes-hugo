@@ -17,18 +17,26 @@ Go o Golang es un lenguaje con una sintaxis muy parecida a la de C y con ciertas
 
 Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la concurrencia** y con tipado estático.
 
-Cuando se creó el lenguaje se decidió que se priorizaría el tiempo de compilación a cambio de una pérdida mínima de rendimiento, por lo que no pasarás tanto tiempo esperando a que tu código compile, pero su rendimiento será, probablemente, inferior al que obtendrías con C, C++ o Rust
+### Aspectos geniales de go
 
-### Algunas cosas criticadas de go
+* **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
+* **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
+* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/) es bastante sencillo
+* **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
-Go no es exactamente un lenguaje bello. Algo que desanima a muchos desarrolladores es que go **no cuenta con soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/).
+### ¿Por qué apesta go?
 
-Otra de las cosas no tan queridas de este lenguaje es que **no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores se manejan comprobando que la variable err no es nula (nil), por medio de bloques if, lo cual puede volverse bastante verboso y repetitivo.
+Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
-![Manejo de errores con Go con if](images/ManejoErroresGo.png)
+* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/).
+* **Go no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores deben devolverse como valor de retorno en una función y se manejan comprobando que esta no sea nula (nil), por medio de bloques if. Lo anterior puede volverse bastante verboso y repetitivo.
 
-A la fecha no existen argumentos por defecto en go, lo que aumenta la cantidad de código a escribir para lidiar con valores predeterminados.
+![Manejo de errores con Go con if](images/ManejoErroresGo.png "Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso")
 
+* **No existen argumentos por defecto en go**, lo que aumenta la cantidad de código a escribir para lidiar con valores predeterminados.
+* **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
+* **~~Go no cuenta con generics~~** Go ya cuenta con soporte para generics desde su version 1.18.
+  
 ## Go y las buenas prácticas
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
