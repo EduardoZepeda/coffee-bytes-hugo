@@ -36,7 +36,7 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 * **No existen argumentos por defecto en go**, lo que aumenta la cantidad de código a escribir para lidiar con valores predeterminados.
 * **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * **~~Go no cuenta con generics~~** Go ya cuenta con soporte para generics desde su version 1.18.
-  
+
 ## Go y las buenas prácticas
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.

@@ -16,23 +16,23 @@ Yo no tenía computadora en casa, así que mi interacción con las computadoras 
 
 Cuando tenía 12 años mi papá trajo una computadora a casa, una IBM que le dieron para facilitar sus labores como profesor. Esa pequeña con 256 MB de RAM y 10 GB de disco duro era mi sujeto de prueba. Le instalé pequeños programas, le di click a todo lo que pude, descargué los openings y endings de Neon Genesis Evangelion en midi (el mp3 no era nada popular en aquel entonces) y la usé para jugar muchísimos videojuegos en los emuladores que estaban disponibles en la red.
 
-Un buen día, mientras navegaba por internet descubrí los blogs personales en [blogspot](https://www.blogger.com), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
+Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
 
 ## Internet y los blogs
 
-Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "manzana amarga", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes, pequeños scripts, etc.
+Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "manzana amarga", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
 
-Unos años más tarde, gracias a la recomendación de uno de mis mejores amigos, conseguí trabajo en un cyber café. Aprendí como reparar los errores más comunes, conectar impresoras, pasar archivos entre computadoras en red, modificar el registro, descargar archivos por torrent, manejo de paquetería de Office, Photoshop, Keyloggers, etc. **Sin embargo, durante todo ese tiempo, no escribí ningún programa por mi mismo.**
+Unos años más tarde, gracias a la recomendación de uno de mis mejores amigos, conseguí trabajo en un cyber café. Aprendí como reparar los errores más comunes, conectar impresoras, pasar archivos entre computadoras en red, modificar el registro, descargar archivos por torrent, manejo de paquetería de Office, Photoshop, Keyloggers, conectar computadoras en red, etc. **Sin embargo, durante todo ese tiempo, no escribí ningún programa por mi mismo.**
 
 A la par que trabajaba en el cyber café, decidí estudiar química porque era bueno en las matemáticas y las ciencias exactas. A lo largo de la carrera cree otro blog llamado "Lluvia de fotones" que mantenía mientras tomaba mis clases. La universidad (en general, no solo mi carrera) no me gustó, me pareció lenta, aburrida, protocolaría y llena de sin sentidos. A lo largo de mi estancia en la universidad, saber usar una computadora para buscar información me representó muchísimas ventajas frente a mis compañeros menos diestras en ellas.
 
-Terminé la carrera y me gradué entre los tres mejores promedios. Sin embargo, tras echar un leve vistazo a los lugares de trabajo decidí nunca ejercer.
+Terminé la carrera y me gradué entre los tres mejores promedios de la generación. Sin embargo, tras echar un leve vistazo a los lugares de trabajo decidí nunca ejercer.
 
 ## Supercell y Miku Hatsune
 
 Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.supercell.jp/english.html) en internet. Supercell era una banda bastante peculiar, su vocalista era un programa de computadora llamado Vocaloid, un software que tomaba prestada la voz de [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita) para crear una cantante virtual, llamada Miku Hatsune. Vocaloid permitía a sus usuarios utilizar a Miku Hatsune como su vocalista personal, modulando los tonos, tiempos y sílabas.
 
-Mientras más leía sobre Miku Hatsune más quería saber, estaba estupefacto; la compañía que había programado a Vocaloid estaba, literalmente, dándoles una voz a todos aquellos artistas que, por una u otra razón, no contaban con una voz que le diera vida a sus letras. En ese momento entendí el verdadero potencial que tenía el código y me dije: "yo también usar las computadoras y el código para crear".
+Mientras más leía sobre Miku Hatsune más quería saber, estaba estupefacto; la compañía que había programado a Vocaloid estaba, literalmente, dándoles una voz a todos aquellos artistas que, por una u otra razón, no contaban con una voz que le diera vida a sus letras. En ese momento entendí el verdadero potencial que tenía el código y me dije: "yo también quiero usar las computadoras y el código para crear".
 
 ![Figura de plástico de Miku Hatsune](images/FiguraDeMikuHatsune.jpg)
 
@@ -52,9 +52,7 @@ PHP fue mi primera experiencia con un lenguaje de programación, y también la m
 
 Tras meses evadiendo toda aquella información relacionada con Python **por la simplona razón de deberle su nombre a 'Monty Python'**, un grupo de humoristas británicos con los cuales no estaba familiarizado, decidí dejar atrás mis prejuicios y darle una oportunidad. Me apunté al curso en linea de Python [code.org](https://code.org/) y me enamoré, quedé fascinado con su sencilla sintaxis, la simplicidad de las funciones y lo elegante de su construcción.
 
-![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg)
-
-Integrantes de Monthy Python
+![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación.")
 
 Un mes más tarde leí el libro [Beginning Python from novice to Professional](https://coffeebytes.dev/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer Hello World a cosas más complicadas.
 
@@ -72,8 +70,8 @@ Por último, dado que a muchas empresas les encanta tener un papel que respalde 
 
 Aún con el riesgo de que pecar de soberbia, diré que el bootcamp fue pan comido gracias a todo lo que había practicado y leído anteriormente, realmente no aprendí muchas cosas nuevas. Sin embargo fue gracias a Bedu conocí personas bastante interesantes y talentosas entre mis compañeros y profesores. Además gracias a Bedu probé Platzi, la plataforma de aprendizaje en linea que usan de prework para sus clases presenciales. La verdad solamente la comunidad hizo que valiera cada centavo que pagué.
 
-![Colobora Coworking en Chapultepec, Guadalajara.](images/ColaboraCoworking.jpg)
+![Colobora Coworking en Chapultepec, Guadalajara.](images/ColaboraCoworking.jpg "Imagen tomada del sitio web de Colabora.")
 
-Tomé el bootcamp de Bedu en Colabora Coworking. Imagen tomada del sitio web de Colabora.
+Tomé el bootcamp de Bedu en Colabora Coworking. 
 
 Quizás en alguna entrada futura hable de mi experiencia en Bedu y en Platzi, dado que esta entrada ya se está alargando bastante. Si quieres preguntarme más sobre como fue mi experiencia déjame un comentario o mándame un DM a [twitter](https://twitter.com/hello_wired) y te platico con más detalle mi experiencia.
