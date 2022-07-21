@@ -28,8 +28,12 @@ lang = "es"
     disablesearch = false
     mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
     mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
-    subscribedescription = "✅ Más de 100 desarrolladores registrados. Tutoriales gratuitos cada semana directo en tu correo y cero spam"
-    subscribetitle = "Únete"
+    subscribedescription = """
+                          ✅ Para acceder solo suscríbete al newsletter, es completamente gratis.
+                          ✅ Más de 200 desarrolladores registrados. Tutoriales completamente gratuitos cada semana directo en tu correo y cero spam.
+                          """
+    subscribetitle = "¡GRATIS! Guía de trucos de Python."
+    subscribebannertext = "¡Llévate mi guía de trucos de Python GRATIS! Ver más."
 
 [sitemap]
   changefreq = "monthly"
@@ -50,25 +54,21 @@ lang = "es"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Newsletter"
-    url = "/pages/newsletter"
-    weight = 2
-  [[menu.main]]
     name = "RSS"
     url = "/index.xml"
-    weight = 3
+    weight = 2
   [[menu.main]]
     name = "Categorías"
     url = "/categories/"
-    weight = 4
+    weight = 3
   [[menu.main]]
     name = "Sobre mi"
     url = "/pages/eduardo-zepeda-developer"
-    weight = 5
+    weight = 4
   [[menu.main]]
     name = "Reseñas de libros"
     url = "/pages/libros-que-he-leido-y-resenas"
-    weight = 6
+    weight = 5
   [[menu.footer]]
     name = "Politica de privacidad"
     url = "/pages/politica-de-privacidad"
