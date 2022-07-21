@@ -1,13 +1,17 @@
 ---
 title: "Sitemap Dinámico con Django"
-date: "2022-06-29"
-draft: true
+date: "2022-07-20"
 coverImage: "images/sitemap-en-django.jpg"
 categories:
 - django
+keywords:
+- django
+- sitemap
+- python
+- seo
 ---
 
-Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu sitio. De ahí el nombre; Site (sitio) map (mapa). Los motores de búsqueda usan el sitemap de un sitio como punto de partida para analizar su contenido e incluirlo en sus resultados de búsqueda.
+Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu sitio. De ahí el nombre; Site (sitio) map (mapa). Los motores de búsqueda, como google, bing, yahoo y otros, usan el sitemap de un sitio como punto de partida para analizar su contenido e incluirlo en sus resultados de búsqueda.
 
 ## Estructura de un sitemap
 
@@ -27,7 +31,7 @@ Un sitemap es un archivo xml, que cuenta con un elemento llamado urlset, el cual
 
 ### Sitemaps divididos
 
-Si un sitemap es muy extenso o queremos dividirlo en categorías, podemos partirlo en sitemaps más pequeños usando un elemento *sitemapindex* y subelementos *sitemap* para indicar su ubicación.
+Cuando un sitemap es muy extenso es posible dividirlo en sitemaps más pequeños, usando un elemento *sitemapindex* y sub elementos *sitemap*, cada uno con su respectiva ubicación.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -43,7 +47,7 @@ Si un sitemap es muy extenso o queremos dividirlo en categorías, podemos partir
 
 ## Framework de sitemaps en Django
 
-Django cuenta con un framework para sitemaps, *django.contrib.sitemaps*, que nos permite crear sitemaps de manera dinámica en conjunto con *django.contrib.sites*
+Django ya cuenta con un framework interno para la generación de sitemaps, *django.contrib.sitemaps*, que nos permite crear sitemaps de manera dinámica en conjunto con *django.contrib.sites*
 
 *django.contrib.sites* es un framework incluido en django que te permite manejar diferentes sitios web con una misma aplicación de django. 
 
@@ -65,7 +69,7 @@ Como Django lleva un registro de los sitios que se manejan con la aplicación en
 
 Ahora redirígete a tu aplicación, al mismo nivel que tu archivo *models.py* y crea un archivo llamado *sitemaps.py*.
 
-Dentro vamos a heredar una clase de la clase *Sitemap* que nos provee Django
+Dentro de este archivo vamos a heredar una clase de la clase *Sitemap* que nos provee Django.
 
 ```python
 # app/sitemaps.py
@@ -86,7 +90,7 @@ class VideogameSitemap(Sitemap):
 
 ### items
 
-Sobreescribiendo la función items podemos definir el queryset que se usará como base, puedes modificarlo tanto como quieras: particionarlo, limitarlo a atributos de tus objetos o como prefieras.
+Sobreescribiendo la función items definiremos el queryset que se usará como base, puedes modificarlo tanto como quieras: particionarlo, limitarlo a atributos de tus objetos o como prefieras.
 
 ### location
 
@@ -104,7 +108,7 @@ class VideogameSitemap(Sitemap):
 
 ### changefreq
 
-Se refiere a la frecuencia con que el contenido cambia. Puedes usar una función para generarlo de manera dinámica.
+Se refiere a la frecuencia con que el contenido cambia. Puedes usar una función para generarlo de manera dinámica de acuerdo a atributos del mismo objeto o dejarlo fijo.
 
 ```python
 # app/sitemaps.py
@@ -118,7 +122,7 @@ class VideogameSitemap(Sitemap):
 
 ### priority
 
-Dicta la prioridad del recurso. Es posible usar una función para generar la prioridad de manera dinámica.
+Dicta la prioridad del recurso. Es posible usar una función para generar la prioridad de manera dinámica a través de los atributos o cualquier otro flujo que prefieras.
 
 ```python
 # app/sitemaps.py
