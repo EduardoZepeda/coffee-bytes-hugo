@@ -12,6 +12,7 @@ Esta es la lista de libros que he leído para aprender sobre desarrollo web y pr
 
 Los libros no están en ningún orden en particular
 
+- System design interview de Alex Xu
 - Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf
 - [Build APIs You Won't Hate de Phil Sturgeon](/caracteristicas-basicas-de-una-api-rest/)
 - REST API Design Rulebook por Mark Masse
