@@ -10,7 +10,11 @@ keywords:
 - logging
 ---
 
-Ya sabes que no deberías usar los prints para debuggear, la librería de loggeo añade fechas, nombres de archivo y otra información que puede hacer tu debuggeo y [tu testing en go](https://coffeebytes.dev/go-testing-basico-y-coverage/) más sencillo.
+Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](https://coffeebytes.dev/go-testing-basico-y-coverage/) más sencillo.
+
+## El Println de log
+
+El paquete log viene integrado en la librería estándar de loggeo y su función más sencilla es el Println que, para fines prácticos, es como el Println de toda la vida pero con algunos beneficios integrados.
 
 Por defecto al loggear algo con go nos devolverá la fecha y hora, seguido del mensaje que le pasamos como argumento.
 
@@ -23,7 +27,7 @@ El método Println de log se comporta exactamente igual que el de la [librería 
 
 ## Flags en el loggeo
 
-Podemos cambiar el formato por defecto en el que se muestran los mensajes llamando al método SetFlags y pasándole como argumentos cualquiera que aparezca en una serie de flags que nos provee go.
+Es posible cambiar el formato por defecto en el que se muestran los mensajes, cambiar el orden de los elementos o agregarle más información, llamando al método SetFlags y pasándole como argumentos cualquiera que aparezca en una serie de flags que nos provee go.
 
 ```go
 log.SetFlags(log.Ldate | log.Lshortfile)
@@ -32,6 +36,9 @@ log.Println("Mensaje")
 ```
 
 Existen más flags disponibles, además de los dos anteriores.
+
+
+### Flags disponibles
 
 Hay flags disponibles para mostrar la ruta completa de nuestro archivo, el número de linea o para mover el prefijo y colocarlo antes del mensaje. Te los dejo a continuación.
 
@@ -75,30 +82,30 @@ Panic tiene dos variantes:
 
 ### Logging Fatal
 
-Si queremos terminar la ejecución de nuestro programa al momento, sin permitirle al sistema recuperarse, tenemos disponible el método Fatal.
+Si queremos terminar la ejecución de nuestro programa al momento, sin permitirle al sistema recuperarse, tenemos a nuestra disposición el método Fatal.
 
 ```go
 log.Fatal("Error fatal ha ocurrido")
 ```
 
-Al igual que Panic, Fatal tiene dos variantes: 
+Al igual que Panic, Fatal cuenta con dos variantes: 
 
 - Fatalf: El equivalente a Printf, para dar formato con operadores de posición
 - Fatalln: El equivalente a Println
 
 ## Redirigiendo la salida del logging
 
-El método SetOutput nos redigirir la salida de nuestro logging hacia un destino, ya sea el Stdout, el Stderr, el Stdin o incluso un archivo. 
+Como te mencioné anteriormente, la librería nos permite redirigir, a través de su método SetOutput, la salida de nuestro logging hacia un destino; ya sea el Stdout, el Stderr, el Stdin o incluso un archivo. 
 
 ```go
 log.SetOutput(os.Stdout)
 ```
 
-En el ejemplo de arriba estamos redirigiendolo a la salida estándar.
+En el ejemplo de arriba estamos redirigiéndolo a la salida estándar.
 
 ### Redirigiendo hacia un archivo
 
-Si creamos un archivo y se lo pasamos argumento al métoodo SetOutput, podremos redirigir la salida de nuestro logging hacia un archivo.
+Para redirigr nuestros logs hacia un archivo, primero necesitamos crearlo y, posteriormente, pasárselo como argumento al métoodo SetOutput, tras esto, todo nuestros logs escribirán en nuestro archivo y podremos consutarlos más tarde.
 
 ```go
 file, _ := os.Create(name: "programa.log")
@@ -115,7 +122,7 @@ El paquete log nos permite crear diferentes tipos de loggers, usando el método 
 infoLogger := log.New(os.Stdout, prefix: "INFO: ", flags)
 ```
 
-Tras haber creado nuestro log, podemos llamar a su método Println para que se encargue de mostrarlo en la salida estándar.
+Una vez creado nuestro log, podemos llamar a su método Println para que se encargue de mostrarlo en la salida estándar.
 
 ```go
 infoLogger.Println("Este es un mensaje de info")

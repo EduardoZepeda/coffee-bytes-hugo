@@ -96,7 +96,7 @@ Esta sintaxis puede parecer un poco truculenta, pero realmente es muy sencilla. 
 
 Básicamente le estamos diciendo a go: "oye, si no pongo nada después del return, retorna las variables "x" y "y", que son de tipo _int_.
 
-### Funciones con cantidad variable de argumentos en go
+### Funciones variádicas
 
 En go, las funciones que reciben una cantidad variable de argumentos requieren que pases el nombre del argumento que la contendrán, seguida de puntos suspensivos y el tipo de dato.
 
