@@ -4,18 +4,25 @@ date: "2022-06-29"
 draft: true
 categories:
 - django
+keywords:
+- python
+- django
 ---
 
-Con django y reportlab podemos generar PDFs de manera dinámica, usando información de nuestra base de datos, input del usuario o nuestra propia lógica de negocio.
+Con django y reportlab podemos generar PDFs de manera dinámica, usando información de nuestra base de datos, input del usuario o cualquier otra lógica de negocio que deseemos. 
+
+## Instalación de reportlab
+
+Lo primero será instalar reportlab, podemos usar pip, pipenv o cualquier otro gestor de paquetes que quieras.
 
 ```bash
 pipenv install reportlab
 # pip install reportlab
 ```
 
-Lo primero que haremos para devolver un PDF es crear una cabecera *content_type*, para decirle al navegador de nuestro cliente que la respuesta es un PDF.
+Una vez instalado vamos, las primeras lineas que escribiremos serán para asegurarnos de que el navegador sepa que le devolveremos un pdf, lo haremos por medio de una cabecera HTTP, la cabecera Content-Type, por medio de la variable *content_type*
 
-Y posteriormente le diremos que lo abra como un archivo adjunto, en una nueva ventana. Te mostraré como va quedando, por razones didácticas, pero necesitas guardar en el objeto response el pdf antes de poder verlo en tu pantalla.
+Posteriormente le diremos que lo abra como un archivo adjunto, en una nueva ventana. Te mostraré como va quedando paso a paso, por razones didácticas, pero necesitas guardar en el objeto response el pdf antes de poder verlo en tu pantalla, lo haré un poco más adelante.
 
 ## Definir tipo de respuesta a PDF
 
@@ -30,11 +37,11 @@ def pdfVideogame(request):
 
 ## Texto en un PDF
 
-Ahora vamos a crear un lienzo o canvas para escribir en él. 
+Para empezar vamos a crear un lienzo o canvas para escribir en él. 
 
 Esta librería funciona como si fueramos pintores, solo podemos tener activo un pincel, cada pincelada diferente (tipo de letra, tamaño de letra o color) requiere que cambiemos de pincel (establecer otro tamaño de texto, fuente o color)
 
-Lo primero es abastecernos de un lienzo, para esto sirve el método Canvas. 
+Como ya sabes, lo primero que necesita un pintor es un lienzo, para esto viene perfecto el método Canvas. 
 
 Posteriormente, tal cual si escogieramos un pincel, vamos a elegir nuestro tipo de letra y tamaño.
 
@@ -102,7 +109,7 @@ def pdfVideogame(request):
     return response
 ```
 
-Que no se te olvide agregar tu vista a las urls
+Recuerda que, como estamos en django, deberemos agregar tu vista a las urls.
 
 ```python
 from .views import pdfVideogame
@@ -115,7 +122,7 @@ urlpatterns = [
 
 ## Generando PDFs con información de la base de datos
 
-Ahora que sabemos lo anterior podemos crear un PDF de manera directa
+Sabiendo lo anterior, seremos capaces de crear un PDF de manera directa
 
 ```python
 def pdfVideogame(request):
@@ -196,3 +203,5 @@ def pdfVideogame(request):
     response.write(pdf)
     return response
 ```
+
+Ahora ya sabes como crear un PDF sencillo que te va a servir para la mayoría de los casos.
