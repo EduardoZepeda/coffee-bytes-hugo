@@ -1,7 +1,6 @@
 ---
 title: "Examen de Certificacion Azure AZ-900 Mi Experiencia"
 date: "2022-09-02"
-draft: true
 coverImage: "images/mi-experiencia-con-azure.jpg"
 coverImageCredits: "Créditos de la imagen: Dmitriy Zub https://unsplash.com/es/@dimitryzub"
 categories: 
