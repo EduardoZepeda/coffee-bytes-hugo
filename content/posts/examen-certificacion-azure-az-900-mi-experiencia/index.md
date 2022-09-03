@@ -192,4 +192,4 @@ badge en un sitio web, tu perfil de Linkedin u otro medio.
 
 Esta es la mía, alojada en credly.
 
-{{< figure link="https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url" src="images/microsoft-certified-azure-fundamentals.png">}}
+{{< figure link="https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url" src="images/microsoft-certified-azure-fundamentals.png" alt="Insignia de certificación Azure AZ-900 de Eduardo Zepeda">}}
