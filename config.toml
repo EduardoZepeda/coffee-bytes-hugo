@@ -33,7 +33,8 @@ lang = "es"
                           ✅ Más de 200 desarrolladores registrados. Tutoriales completamente gratuitos cada semana directo en tu correo y cero spam.
                           """
     subscribetitle = "¡GRATIS! Guía de trucos de Python."
-    subscribebannertext = "¡Llévate mi guía de trucos de Python GRATIS! Ver más."
+    modalcountdown = 30000
+    subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python. Ver más."
 
 [sitemap]
   changefreq = "monthly"
