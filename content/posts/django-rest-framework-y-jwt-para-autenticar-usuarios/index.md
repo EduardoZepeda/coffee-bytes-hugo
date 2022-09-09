@@ -18,10 +18,25 @@ Los JWT (JSON Web Tokens) se han popularizado enormemente, incluso algunos las c
 
 ## ¿Qué es JWT?
 
-JWT es un estándar para la creación de tokens de acceso basado en JSON, para el intercambio de información entre dos partes. Estos tokens, y su contenido, pueden ser verificados porque están firmados digitalmente. Lo anterior garantiza **que el contenido no ha sido alterado y que el emisor es quien dice ser**. Lo anterior los vuelve perfectos para:
+JWT es un estándar para la creación de tokens de acceso basado en JSON, para el intercambio de información entre dos partes. Estos tokens, y su contenido, pueden ser verificados porque están firmados digitalmente. Esta firma criptográfica garantiza **que el contenido no ha sido alterado y que el emisor es quien dice ser**. Lo anterior los vuelve perfectos para:
 
 - Autorización
 - Intercambio de información
+
+### ¿Qué ventaja tienen los JWT respecto a los tokens
+
+Como te mencioné, el JWT puede guardar toda la información de la sesión, en lugar de guardarla en el servidor. Lo que te permite ahorrar muchísimo espacio en el servidor, sobre todo si tu sitio maneja una cantidad gigantesca de usuarios.
+
+## Estructura de un Token JWT
+
+Un JWT (JSON Web Token) está dividido por puntos en tres partes: 
+1. El algoritmo que se usó.
+2. La información que contiene el token.
+3. La firma criptográfica.
+
+![Partes de un JWT: encabezado, contenido y firma.](images/JWTDjango.png "Estructura de un JWT: algoritmo, contenido y firma")
+
+Aprecia como podemos usar la parte central para guardar contenido arbitrario, que nosotros querramos, tal como los datos de la sesión de un usuario u otra información que consideremos pertinente.
 
 ## Instalación de JWT en Django
 
@@ -125,17 +140,17 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 
 ### Token de acceso en JWT
 
-El token de acceso sería el equivalente al token de acceso de DRF; usaremos este JWT para autenticarnos ante Django, para decirle a Django quienes somos.
+El token de acceso sería el equivalente al token de acceso de DRF; usaremos este JWT para autenticarnos ante Django; es decir, para decirle a Django quienes somos.
 
 ### Token de actualización en JWT
 
-El token de acceso **tiene una fecha de caducidad, una vez que esta fecha llegue dejará de ser valido**, podemos crear otro sin necesidad de mandar nuestro usuario y contraseña usando únicamente el token de actualización.
+El token de acceso **tiene una fecha de caducidad, una vez que esta fecha llegue dejará de ser valido**, podemos crear otro sin necesidad de mandar nuestro usuario y contraseña usando **únicamente el token de actualización.**
 
-## Estructura de un Token JWT
+## Contenido del Token JWT
 
-El token que recibimos está dividido por puntos en tres partes. La primera parte tiene el algoritmo que se usó, la segunda es la información que contiene el token, el último es la firma.
+Si decodificas el token, podrás obtener su contenido. Ya lo he hecho aquí por ti. 
 
-![Partes de un JWT: encabezado, contenido y firma.](images/JWTDjango.png)
+![Partes de un JWT: encabezado, contenido y firma.](images/JWTDjangoContenido.png)
 
 Observa como en la parte de contenido (data) se aprecia que el _user\_id_ es igual a 2, el cual es el id o primary key del usuario que obtuvo el token. El primer usuario en mi caso es el superusuario.
 
