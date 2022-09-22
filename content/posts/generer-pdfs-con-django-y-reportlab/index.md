@@ -1,7 +1,8 @@
 ---
 title: "Generar PDFs con Django y Reportlab"
-date: "2022-06-29"
-draft: true
+date: "2022-09-22"
+coverImage: "images/generar-pdfs-con-django.jpg"
+coverImageCredits: "Créditos de la imagen a https://unsplash.com/es/@retrokram"
 categories:
 - django
 keywords:
@@ -205,3 +206,4 @@ def pdfVideogame(request):
 ```
 
 Ahora ya sabes como crear un PDF sencillo que te va a servir para la mayoría de los casos.
+

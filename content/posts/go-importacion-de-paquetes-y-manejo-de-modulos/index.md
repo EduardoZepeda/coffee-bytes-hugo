@@ -90,16 +90,12 @@ import (
 
 Go tiene un manejador de modulos equivalente a pip y npm, python y javascript, respectivamente, llamado get.
 
-Para obtener modulos remotos ejecutamos el comando _go get_ en consola seguido de la ruta de nuestro paquete; soporta cualquier repositorio, no solo github.
+### go get
+
+Para obtener modulos remotos ejecutamos el comando _go get_ en consola seguido de la ruta de nuestro paquete; soporta cualquier repositorio, no solo github. Desde la versión de go 1.18, go get no compila el código que descarga, sino que se limita a agregar, actualizar o remover dependencias en el archivo *go.mod*.
 
 ```bash
 go get github.com/labstack/echo
-```
-
-En caso de que necesitemos una versión en específico la declaramos después de la ruta.
-
-```bash
-go get github.com/labstack/echo/v4
 ```
 
 Tras la ejecución del comando, go descargará los archivos en la ruta a donde apunte la variable de entorno _$GOPATH_ y realizará las importaciones correspondientes en tu archivo _go.mod_.
@@ -120,6 +116,22 @@ Podrás notar que sus paquetes estarán disponibles para que los importemos con 
 ```go
 import "github.com/labstack/echo"
 ```
+
+En caso de que necesitemos una versión en específico la declaramos después de la ruta.
+
+```bash
+go get github.com/labstack/echo/v4
+```
+
+### go install
+
+Por otro lado, go install **no descarga código**, sino que compila un modulo e instala el binario en $GOPATH/bin, ignorando el contenido del archivo *go.mod* cuando se le especifica una versión a través de la linea de comandos.
+
+```bash
+go install sigs.k8s.io/kind@v0.9.0
+```
+
+Go install generalmente se usará para instalar comandos.
 
 ### Importar paquetes remotos en go
 
