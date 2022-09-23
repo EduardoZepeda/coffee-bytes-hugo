@@ -20,12 +20,11 @@ Lo primero será instalar reportlab, podemos usar pip, pipenv o cualquier otro g
 pipenv install reportlab
 # pip install reportlab
 ```
+## Definir tipo de respuesta PDF en Django
 
 Una vez instalado vamos, las primeras lineas que escribiremos serán para asegurarnos de que el navegador sepa que le devolveremos un pdf, lo haremos por medio de una cabecera HTTP, la cabecera Content-Type, por medio de la variable *content_type*
 
-Posteriormente le diremos que lo abra como un archivo adjunto, en una nueva ventana. Te mostraré como va quedando paso a paso, por razones didácticas, pero necesitas guardar en el objeto response el pdf antes de poder verlo en tu pantalla, lo haré un poco más adelante.
-
-## Definir tipo de respuesta a PDF
+Posteriormente le diremos que lo abra como un archivo adjunto, en una nueva ventana. Te mostraré como va quedando paso a paso, por razones didácticas, pero **necesitas guardar en el objeto response el pdf antes de poder verlo en tu pantalla**, lo haré un poco más adelante.
 
 ```python
 from reportlab.pdfgen import canvas
@@ -36,7 +35,7 @@ def pdfVideogame(request):
     response["Content-Disposition"] = 'attachment; filename="hello.pdf"'
 ```
 
-## Texto en un PDF
+## Crear texto en un PDF en Django
 
 Para empezar vamos a crear un lienzo o canvas para escribir en él. 
 
@@ -61,13 +60,13 @@ def pdfVideogame(request):
     p.drawString(0, 0, "Hola mundo")
 ```
 
-![Texto generado con reportlab](images/texto-fondo-pdf.png)
+![Texto generado con reportlab](images/texto-fondo-pdf.png "Texto creado con reportlab")
 
-Esto dibujará nuestro string en el fondo de la pantalla. 
+Esto dibujará nuestro string... en el fondo de la pantalla. 
 
 ¿Por qué en el fondo? Puedes pensar que canvas trabaja con un plano cartesiano, le acabamos de decir a reportlab que dibuje el string en las coordenadas 0,0 del plano.
 
-![Pdf pensado como un plano cartesiano](images/coordenadas-pdf.png)
+![Pdf pensado como un plano cartesiano](images/coordenadas-pdf.png "Reportlab se comporta como un plano cartesiano")
 
 ### Posicionando el texto
 
@@ -79,9 +78,9 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-![Texto posicionado en un pdf](images/texto-posicionado-pdf.png)
+![Texto posicionado en un pdf](images/texto-posicionado-pdf.png "Texto posicionado de acuerdo a los ejes X y Y en reportlab")
 
-### Color de letra
+### Cambiar color de letra en el PDF
 
 Para cambiar el color de letra usamos el método setFillColorRGB. Necesitamos llamar este método antes de que reportlab pinte nuestro string, de otra manera usará el que esté activo.
 
@@ -94,13 +93,13 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-![Texto a color en pdf](images/text-color-pdf.png)
+![Texto a color en pdf](images/text-color-pdf.png "Texto en color azul claro")
 
 Ya tenemos un texto simple, vamos a guardar el contenido que generamos y a retornarlo como respuesta. 
 
 ## Guardar un PDF y retornarlo como respuesta
 
-Recuerda que nuestra instancia del objeto canvas recibió nuestro objeto response como argumento, por lo que los cambios que acabamos de hacer se guardaron en el objeto response.
+Nuestra instancia del objeto canvas recibió nuestro objeto response como argumento, por lo que los cambios que acabamos de hacer se guardaron en el objeto response.
 
 ```python
 def pdfVideogame(request):
@@ -121,9 +120,9 @@ urlpatterns = [
 ]
 ```
 
-## Generando PDFs con información de la base de datos
+## Generar PDF de manera dinámica con Django
 
-Sabiendo lo anterior, seremos capaces de crear un PDF de manera directa
+Sabiendo lo anterior, seremos capaces de crear un PDF de manera directa iterando sobre una consulta a la base de datos usando el ORM de django.
 
 ```python
 def pdfVideogame(request):
@@ -135,10 +134,12 @@ def pdfVideogame(request):
     p.setFont("Helvetica", 16)
     p.setFillColorRGB(0, 0, 0)
 
+    # Usamos el ORM de Django para consultar la base de datos
     videogames = Videogame.objects.all()
 
     positionY = 700
     for videogame in videogames:
+        # Accedemos al nombre individual de cada objeto
         p.drawString(60, positionY, videogame.name)
         positionY -= 25
     # ...
@@ -147,11 +148,11 @@ def pdfVideogame(request):
 Primero creamos un título con tipo de letra y cambiar a otro para la información dinámica.
 Simplemente usamos el ORM de django para crear cualquier consulta que querramos y llamamos al método drawString por cada objeto de nuestra query.
 
-Observa como disminuyo la posición de la coordenada Y, para que cada iteración escriba el texto en una nueva linea, de otra forma todo el texto se encimaría.
+Observa como disminuyo la posición de la coordenada Y, para que cada iteración escriba el texto en una nueva linea, de otra forma cada linea se sobrepondría con la siguiente.
 
-![Pdf generado con información de la base de datos en Django](images/pdf-dinamico-reportlab-django.png)
+![Pdf generado con información de la base de datos en Django](images/pdf-dinamico-reportlab-django.png "Pdf generado de manera dinámica usando Django")
 
-## PDF de manera eficiente
+## Mejorar el rendimiento al generar PDF
 
 Si tienes problemas de rendimiento al manejar PDFs complejos, considera usando la biblioteca io de Python, que permite trabajar con un objeto que se comporta exactamente como si fuera un archivo, pero en memoria.
 
