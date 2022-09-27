@@ -79,26 +79,30 @@ lang = "es"
     url = "/pages/politica-de-cookies"
     weight = 5
   [[menu.social]]
-    name = "Twitter"
-    pre = "twitter"
-    url = "https://twitter.com/hello_wired"
-    weight = 6
-  [[menu.social]]
-    name = "Instagram"
-    pre = "instagram"
-    url = "https://bit.ly/3jnxnMF"
-    weight = 6
-  [[menu.social]]
-    name = "Linkedin"
-    pre = "linkedin-in"
-    url = "https://linkedin.com/in/eduardomzepeda"
-    weight = 6
+    name = "Personal website"
+    pre = "message"
+    url = "https://eduardozepeda.dev/"
+    weight = 1
   [[menu.social]]
     name = "Codewars"
     pre = "codewars"
     url = "https://www.codewars.com/users/EduardoZepeda"
-    weight = 6
-
+    weight = 2
+  [[menu.social]]
+    name = "Twitter"
+    pre = "twitter"
+    url = "https://twitter.com/hello_wired"
+    weight = 3
+  [[menu.social]]
+    name = "Instagram"
+    pre = "instagram"
+    url = "https://bit.ly/3jnxnMF"
+    weight = 4
+  [[menu.social]]
+    name = "Linkedin"
+    pre = "linkedin-in"
+    url = "https://linkedin.com/in/eduardomzepeda"
+    weight = 5
 
 [permalinks]
   posts = ":title"
