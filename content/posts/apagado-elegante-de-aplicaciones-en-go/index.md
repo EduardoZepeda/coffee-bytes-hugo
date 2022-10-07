@@ -1,7 +1,9 @@
 ---
-title: "Apagado Elegante De Aplicaciones en Go"
-date: 2022-09-12T22:10:25-05:00
-draft: true
+title: "Go: Manejo de Signals para Cerrar Aplicaciones"
+date: 2022-10-06
+coverImage: "images/go-manejo-signals-para-cerrar-aplicaciones.jpg"
+categories:
+- go
 ---
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.
@@ -12,9 +14,11 @@ Como seguramente ya sabes, el kernel de Linux es el que se encarga de "prestarle
 
 Debido a que linux es el núcleo del sistema, es capaz de pedir de vuelta esos recursos en cualquier momento y cerrar la aplicación. 
 
-Linux puede pedirle amablemente a las aplicaciones los recursos que les prestó o arrebatarselos por la fuerza. Para lo anterior, Linux cuenta envía una serie de señales (signals) a la aplicación, algunas de las cuales pueden ser capturadas y manejadas por la aplicación. 
+Linux puede pedirle "amablemente" a las aplicaciones los recursos que les prestó o "arrebatárselos" por la fuerza. Para lo anterior, Linux envía una serie de señales (signals) a la aplicación, algunas de las cuales pueden ser capturadas y manejadas por la misma aplicación, con código en Go.
 
-Las señales de Linux son bastantes, pero te dejo aquí las más importantes para este caso: 
+### Señales de Linux principales
+
+Las señales de Linux son bastantes, pero te dejo aquí las más importantes para este ejemplo: 
 
 | Señal   | Valor | Accion | Comentario                                                       | Comando       | Atajo de Teclado |
 |---------|-------|--------|------------------------------------------------------------------|---------------|------------------|
@@ -23,7 +27,7 @@ Las señales de Linux son bastantes, pero te dejo aquí las más importantes par
 | SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                     | kill -15 pid  |                  |
 | SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por    | kill -9 pid   |                  |
 
-En Linux, estas señales pueden mandarse a una aplicación por medio del comando kill, especificando el valor de la señal y el pid de la aplicación.
+En Linux, estas señales pueden mandarse a una aplicación por medio del [comando kill](/comandos-de-linux-que-deberias-conocer-tercera-parte/#kill), especificando el valor de la señal y el pid de la aplicación.
 
 ```go
 kill -<valor> <pid>
@@ -32,7 +36,7 @@ kill -<valor> <pid>
 
 ## Manejo de señales o signals en Go
 
-En go, cuando queremos escuchar por las señales usamos el método Notify del paquete signal. El método Notify mandará nuestro signal por un canal, el cual recibirá como primer argumento. El segundo y el tercer argumento son las señales que escuchará nuestro método.
+En go, cuando queremos escuchar las señales que envía el kernel de Linux, usamos el método Notify del paquete signal. El método Notify mandará nuestro signal por un canal, el cual recibirá como primer argumento. El segundo y el tercer argumento son las señales que escuchará nuestro método.
 
 ```go
 func gracefulShutdown() {
@@ -72,7 +76,7 @@ func gracefulShutdown() {
 }
 ```
 
-Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute en su [propia goroutine](/go-goroutines-channels-o-canales-introduccion/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
+Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute dentro de su [propia goroutine](/go-goroutines-channels-o-canales-introduccion/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
 
 ```go
 func main() {
@@ -84,7 +88,7 @@ func main() {
 
 ### Capturando una señal SIGNIT
 
-Si ejecutamos un servidor web o cualquier otro proceso permanente y luego emitimos una señal SIGNIT, presionando CTRL + C en la terminal o con el [comando kill](/comandos-de-linux-que-deberias-conocer-tercera-parte/#kill), linux recibirá la señal y le notificará a nuestra aplicación que debe cerrarse.
+Si ejecutamos un servidor web o cualquier otro proceso permanente y luego emitimos una señal SIGNIT, presionando CTRL + C en la terminal o con el comando kill, linux recibirá la señal y le notificará a nuestra aplicación que debe cerrarse.
 
 ```bash
 go run main.go
@@ -112,7 +116,7 @@ Por supuesto que lo ideal es que vayas más allá de imprimir un mensaje y te en
 
 ## Ejemplo de apagado elegante con un servidor web
 
-Te dejo un ejemplo con un servidor web escrito en go. 
+Te dejo el ejemplo completo con un servidor web escrito totalmente en go. 
 
 ```go
 package main
@@ -135,7 +139,7 @@ func gracefulShutdown() {
 	quit := make(chan os.Signal, 1)
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 	s := <-quit
-	fmt.Println("Cerrando la aplicación:", s)
+	fmt.Println("Cerrando el servidor:", s)
 	os.Exit(0)
 }
 
@@ -153,6 +157,9 @@ func main() {
 Tras ejecutarlo, intenta cancelar la aplicación con CTRL + C o con la terminal con el comando kill, y observa como se imprime el mensaje y se finaliza la aplicación de una manera más ordenada y controlada.
 
 ```bash
+go run main.go
+
+CTRL + C
 Empezando el servidor. Pid: 8830
 Cerrando el servidor: interrupt
 ```
