@@ -34,7 +34,7 @@ lang = "es"
                           """
     subscribetitle = "¡GRATIS! Guía de trucos de Python."
     modalcountdown = 30
-    subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python. Ver más."
+    subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python."
 
 [sitemap]
   changefreq = "monthly"
