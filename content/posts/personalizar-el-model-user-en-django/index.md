@@ -53,7 +53,42 @@ Establecemos este comportamiento en nuestro archivo de configuraciones.
 AUTH_USER_MODEL = 'usuarios.UsuarioPersonalizado'
 ```
 
+### Usar el modelo personalizado en las vistas de cuentas de Django
+
+Si deseamos usar el sistema de plantillas de Django para generar automáticamente un formulario de registro, necesitaremos decirle a Django que use el nuevo modelo de usuario, para esto heredamos un nuevo formulario de la clase *UserCreationForm*, y le pasamos nuestro modelo personalizado, el cual podemos con el método *get_user_model*.
+
+```python
+from django.contrib.auth import get_user_model
+from django.contrib.auth.forms import UserCreationForm
+
+User = get_user_model()
+
+class FormularioRegistroUsuarioPersonalizado(UserCreationForm):
+    class Meta:
+        model = User
+        fields = ['username', 'email']
+```
+
 Y es todo, podemos usarlo exactamente igual que si usaramos el modelo _User_ que incluye Django.
+
+### El django admin no hashea los passwords
+
+Cuando usamos un modelo de usuario personalizado, necesitamos decirle a Django que maneje los passwords con la funcionalidad del usuario por defecto
+
+```python
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+from django.contrib.auth import get_user_model
+
+user = get_user_model()
+
+class CustomUserAdmin(UserAdmin):
+    pass
+
+admin.site.register(user, CustomUserAdmin)
+```
+
+Ahora el panel de administración se comportará exactamente igual que lo haría con el usuario predeterminado de Django.
 
 ### ¿Cómo luce internamente AbstractUser?
 
@@ -67,7 +102,7 @@ Pasemos al segundo método.
 ### ¿Cómo cambiar el campo de usuario para autenticarse?
 
 Si observas el código anterior, hay una propiedad en mayúsculas llamada _USERNAME_FIELD_, ahí puedes especificar otro campo para que funcione como el usuario.
-Como no quieres que haya dos usuarios que se identifiquen de la misma manera ese campo tiene que ser marcado como único. 
+Como no quieres que haya dos usuarios que se identifiquen de la misma manera ese campo tiene que ser marcado como único. Además de eso tienes que modificar el object manager, el código es algo extenso por lo que no lo colocaré aquí
 
 ```python
 class UsuarioPersonalizado(AbstractUser):
