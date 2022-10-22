@@ -40,9 +40,9 @@ Aprecia como podemos usar la parte central para guardar contenido arbitrario, qu
 
 ## Instalación de JWT en Django
 
-Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
+Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
 
-Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
+Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
 
 ```python
 pipenv install djangorestframework_simplejwt djangorestframework
@@ -123,7 +123,7 @@ Si probamos hacer una petición a la url _/protegida/_ nos advertirá de que no 
 curl http://127.0.0.1:8000/protegida/ {"detail":"Authentication credentials were not provided."}
 ```
 
-Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
+Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](/comandos-de-linux-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
 
 ## Obtener tokens JWT en Django
 
@@ -202,4 +202,4 @@ Pues bien, la interrogante trae una serie de preguntas muy difíciles de contest
 
 ¿Como lidio con un JWT con información o permisos desactualizados? ¿Cuál es la mejor manera de invalidar un JWT un servidor externo o cambiar la llave critptográfica? ¿Qué pasa si la información que guardo en el JWT excede el tamaño permitido por cookie? Si en lugar de guardar contenido en el JWT solo guardo el identificador de usuario, ¿no es lo mismo que una cookie?
 
-Para la siguiente publicación traduciré una entrada bastante popular llamada "Stop using JWT for sessions" ([No uses JWT para gestionar sesiones](https://coffeebytes.dev/no-uses-jwt-para-gestionar-sesiones-traduccion/)), con una postura muy fuerte, que trata sobre esas preguntas.
+Para la siguiente publicación traduciré una entrada bastante popular llamada "Stop using JWT for sessions" ([No uses JWT para gestionar sesiones](/no-uses-jwt-para-gestionar-sesiones-traduccion/)), con una postura muy fuerte, que trata sobre esas preguntas.

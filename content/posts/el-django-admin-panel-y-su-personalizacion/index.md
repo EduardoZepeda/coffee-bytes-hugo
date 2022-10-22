@@ -13,7 +13,7 @@ keywords:
 
 Una de las mejores características de django es que cuenta con el django admin panel, un panel de administración listo para usarse, con funciones básicas como crear, leer, editar y eliminar modelos, usuarios, grupos y permisos. Todo listo con solo montar tu aplicación. Pero a veces nuestras necesidades son otras ¿y si queremos modificar la apariencia o las funciones de la interfaz? Afortunadamente Django incluye muchísimas funciones para personalizar el comportamiento del admin, te explicaré algunas a continuación.
 
-El panel de administración de django es una de [las razones por las que deberías considerar usar Django](https://coffeebytes.dev/por-que-deberias-usar-django-framework/).
+El panel de administración de django es una de [las razones por las que deberías considerar usar Django](/por-que-deberias-usar-django-framework/).
 
 ## Revisando que django admin panel esté activo
 

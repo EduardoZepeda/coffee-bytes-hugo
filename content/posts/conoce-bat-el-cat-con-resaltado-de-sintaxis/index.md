@@ -20,7 +20,7 @@ Puedes instalarlo directo desde los repositorios en las versiones más nuevas de
 sudo apt install bat
 ```
 
-Como mi versión de Debian no es la más reciente tuve que instalarlo desde [su version de paquete de software con terminacion .deb](https://github.com/sharkdp/bat/releases). Recuerda que si tienes problemas con los comandos de GNU/Linux entra a leer mis entradas donde te hago un resumen de los [comandos más básicos de GNU Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
+Como mi versión de Debian no es la más reciente tuve que instalarlo desde [su version de paquete de software con terminacion .deb](https://github.com/sharkdp/bat/releases). Recuerda que si tienes problemas con los comandos de GNU/Linux entra a leer mis entradas donde te hago un resumen de los [comandos más básicos de GNU Linux](/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_amd64.deb

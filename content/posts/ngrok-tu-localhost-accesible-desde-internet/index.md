@@ -57,7 +57,7 @@ Si todo funcionó correctamente verás la siguiente información en tu terminal
 
 Para este ejemplo redigirí una aplicación de Django en el puesto 8000, en lugar del puerto 8080.
 
-Si no tienes idea de como usar Django tengo algunas recomendaciones de libros: [Django la guia definitiva](https://coffeebytes.dev/la-guia-definitiva-de-django/) y [Django by example](https://coffeebytes.dev/aprender-django-con-django-by-example-mi-resena/).
+Si no tienes idea de como usar Django tengo algunas recomendaciones de libros: [Django la guia definitiva](/la-guia-definitiva-de-django/) y [Django by example](/aprender-django-con-django-by-example-mi-resena/).
 
 Recuerda agregar el dominio, con su subdominio a la variable ALLOWED\_HOSTS del archivo de configuración.
 

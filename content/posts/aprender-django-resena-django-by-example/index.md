@@ -15,7 +15,7 @@ keywords:
 
 Este libro planea enseñarte Django mediante la creación desde cero de cuatro proyectos. Django by Example parte creando un blog, luego una red social, una tienda en linea y al final una plataforma de aprendizaje. Cada proyecto es desarrollado prácticamente desde cero y utiliza algunas librerías para complementar las funciones.
 
-Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas del framework Django de desarrollo web.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas del framework Django de desarrollo web.](/por-que-deberias-usar-django-framework/)
 
 ## Proyecto del Blog
 
@@ -51,5 +51,5 @@ Dejando de lado las carencias del contenido en cuanto a javascript, Django by ex
 
 Lee otras de mis reseñas sobre libros de Django aquí:
 
-- [Mi reseña de Two scoops of Django](https://coffeebytes.dev/el-mejor-libro-de-django-resena-de-two-scoops-of-django/), enfocado en buenas prácticas, por si ya has hecho proyectos con Django.
-- [Mi review de Django for professionals](https://coffeebytes.dev/resena-de-django-for-professionals/), parte desde cero pero incluye Docker como parte del desarrollo.
+- [Mi reseña de Two scoops of Django](/el-mejor-libro-de-django-resena-de-two-scoops-of-django/), enfocado en buenas prácticas, por si ya has hecho proyectos con Django.
+- [Mi review de Django for professionals](/resena-de-django-for-professionals/), parte desde cero pero incluye Docker como parte del desarrollo.

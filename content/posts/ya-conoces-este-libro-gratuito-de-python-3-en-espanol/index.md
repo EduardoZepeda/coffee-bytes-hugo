@@ -43,4 +43,4 @@ _Inmersión en Python 3_ es de los mejores materiales que se puede encontrar en 
 **Recomendado para leerlo:** 8/10  
 **Idiomas:** Español, Inglés
 
-Si quieres leer sobre otro excelente para aprender sobre Python visita mi entrada que habla de [Beginning Python From Novice to Professional](https://coffeebytes.dev/aprender-python-desde-cero-resena-de-beginning-python/)
+Si quieres leer sobre otro excelente para aprender sobre Python visita mi entrada que habla de [Beginning Python From Novice to Professional](/aprender-python-desde-cero-resena-de-beginning-python/)

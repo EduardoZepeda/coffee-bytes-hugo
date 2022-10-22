@@ -34,4 +34,4 @@ Si quieres una copia ve directo a la [página oficial del autor](https://eloquen
 **Recomendado para leerlo:** 9/10  
 **Idiomas:** Inglés, español, ruso, portugués, búlgaro
 
-Entra aquí para conocer [uno de los mejores libros para aprender Python.](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/)
+Entra aquí para conocer [uno de los mejores libros para aprender Python.](/aprende-python-desde-cero-con-este-libro-gratuito/)

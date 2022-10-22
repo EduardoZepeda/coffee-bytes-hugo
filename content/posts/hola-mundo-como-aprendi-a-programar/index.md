@@ -54,7 +54,7 @@ Tras meses evadiendo toda aquella información relacionada con Python **por la s
 
 ![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación.")
 
-Un mes más tarde leí el libro [Beginning Python from novice to Professional](https://coffeebytes.dev/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer Hello World a cosas más complicadas.
+Un mes más tarde leí el libro [Beginning Python from novice to Professional](/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer Hello World a cosas más complicadas.
 
 ## Usando Python para facilitarme la vida
 
@@ -62,7 +62,7 @@ Un año más tarde usaría Python para automatizar mis tareas digitales del día
 
 Python era maravilloso, podía programar todas las tareas del día y dejarlas ejecutándose mientras yo me iba a hacer otras cosas. El sistema funcionaba perfecto, me generaba dinero y casi no requería inversión de tiempo de mi parte. Dediqué el tiempo libre que tenía para formarme en más temas relacionados con el mundo de la programación: C, C++, algoritmos, matemáticas discretas, criptografía, buenas prácticas, seguridad informática, software libre, GNU/Linux y otros temas que consideraba relevantes.
 
-Esta es, de manera bastante resumida, la historia sobre como empecé a programar. Siempre de manera autodidacta, [leyendo libros](https://coffeebytes.dev/pages/libros-que-he-leido-y-resenas) y blogs, viendo tutoriales y practicando mucho.
+Esta es, de manera bastante resumida, la historia sobre como empecé a programar. Siempre de manera autodidacta, [leyendo libros](/pages/libros-que-he-leido-y-resenas) y blogs, viendo tutoriales y practicando mucho.
 
 ## Bootcamp en Bedu
 

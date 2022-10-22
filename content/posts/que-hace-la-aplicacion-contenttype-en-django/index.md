@@ -16,7 +16,7 @@ keywords:
 
 ¡Perdón por tardar tanto en escribir! He estado ocupado mudando el frontend de mi blog a Frontity, un framework de React para Wordpress, y también mudándome a un nuevo departamento. Quizás hable un poco al respecto de Frontity en alguna entrada futura. Por ahora continuemos con el tema.
 
-Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [la guia definitiva de Django](https://coffeebytes.dev/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
+Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [la guia definitiva de Django](/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
 
 ## ContentType y los modelos
 
@@ -32,7 +32,7 @@ Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido;
 
 Para ejemplificar como funciona ContentType vamos a crear un projecto de django, con un modelo:
 
-Primero creemos un entorno virtual con [Pipenv, el gestor de entornos virtuales](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/).
+Primero creemos un entorno virtual con [Pipenv, el gestor de entornos virtuales](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/).
 
 ```bash
 pipenv shell

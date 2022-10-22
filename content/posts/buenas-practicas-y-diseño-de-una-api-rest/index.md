@@ -15,7 +15,7 @@ keywords:
 
 ¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet.
 
-Antes de empezar, hay una serie de [características básicas de una API REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
+Antes de empezar, hay una serie de [características básicas de una API REST](/caracteristicas-basicas-de-una-api-rest/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
 
 Recuerda que una API REST puede devolver otros formatos, no solo JSON, pero voy a centrarme en este para los ejemplos porque es bastante popular. 
 
@@ -96,7 +96,7 @@ Mientras que una respuesta para recursos múltiples es así:
 
 ## ¿URLs relativas o completas en HATEOAS?
 
-¿Recuerdas que HATEOAS es una [característica de las APIs REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/)? Pues, según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, tómalo en cuenta cuando diseñes tu API REST.
+¿Recuerdas que HATEOAS es una [característica de las APIs REST](/caracteristicas-basicas-de-una-api-rest/)? Pues, según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, tómalo en cuenta cuando diseñes tu API REST.
 
 ```bash
 {"rel":"self",
@@ -166,7 +166,7 @@ GET /posts/1?embed=comments
 
 ## Paginación en las API
 
-Como ya te he mencionado en entradas anteriores cuando hablé de Django, por motivos de [rendimiento en tus aplicaciones](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
+Como ya te he mencionado en entradas anteriores cuando hablé de Django, por motivos de [rendimiento en tus aplicaciones](/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
 
 Para facilitar el uso de tu API, considera añadir la información relacionada a la paginación en tu respuesta:
 
@@ -204,7 +204,7 @@ Generalmente querras versionar tu API. Sin embargo, si tu API es sumamente simpl
 
 ### ¿Dónde versionar el API?
 
-Para que una API se apegue a los [requisitos de la arquitectura REST](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) debe cumplir con ciertas características, pero algunas compañias deciden obviar estos requisitos para sus APIs y, aún así, denominarlas REST. 
+Para que una API se apegue a los [requisitos de la arquitectura REST](/caracteristicas-basicas-de-una-api-rest/) debe cumplir con ciertas características, pero algunas compañias deciden obviar estos requisitos para sus APIs y, aún así, denominarlas REST. 
 
 Aquí te dejo algunas opciones para versionar tus APIs usadas por grandes compañias, sin importar si cumplen con REST o no.
 
@@ -265,7 +265,7 @@ ApiVersion: 1.0
 Vary: ApiVersion
 ```
 
-Considera que necesitas añadir una cabecera vary para que los [sistemas de caché](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/) no guardan diferentes versiones de la API en una misma url.
+Considera que necesitas añadir una cabecera vary para que los [sistemas de caché](/cache-en-django-rest-framework-con-memcached/) no guardan diferentes versiones de la API en una misma url.
 
 ### En el content negotiation
 
@@ -337,7 +337,7 @@ En el libro Two Scoops of Django, los autores recomiendan los siguientes pasos p
 
 Deberías limitar tu API. Los usuarios no deberían tener acceso sin restricciones y peticiones ilimitadas a tu API. Hay usuarios que pueden abusar de tu API, mantener tu servidor ocupado, impidiéndo que el resto de los usuarios puedan usarla e incrementando tus costos.
 
-Una manera de solucionarlo es establecer una [política de throttling](https://coffeebytes.dev/throttling-en-nginx/) en tu servidor para cualquier usuario.
+Una manera de solucionarlo es establecer una [política de throttling](/throttling-en-nginx/) en tu servidor para cualquier usuario.
 
 También puedes volverlo el centro de tu negocio y ofrecer planes de pago de acuerdo al número de peticiones por minuto a tu API.
 

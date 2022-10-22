@@ -14,7 +14,7 @@ keywords:
 
 Celery, en combinación con Django sirven para resolver un problema: la falta de asincronía en nuestra aplicación. El envío de un correo electrónico, el procesamiento de algún archivo o la respuesta al servicio de un tercero mantendrán nuestra ejecución en espera de que la tarea se finalice y, como consecuencia, a nuestro usuario esperando.
 
-Usar celery es una de las cosas que puedes hacer para [mejorar el rendimiento de una aplicación en Django](https://coffeebytes.dev/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/). Y también puedes crear tareas periódicas con celery y django.
+Usar celery es una de las cosas que puedes hacer para [mejorar el rendimiento de una aplicación en Django](/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/). Y también puedes crear tareas periódicas con celery y django.
 
 Mira este ejemplo de vista:
 
@@ -36,7 +36,7 @@ La respuesta a la url demora 3 segundos
 
 Celery resuelve nuestro problema, manda esas tareas a una cola para que se ejecuten posteriormente, de manera asíncrona, y el código pueda continuar su ejecución.
 
-Así es, de seguro estás pensando que celery guarda similitudes con el async await de Javascript o Python. Sin embargo celery es mucho más robusto y con muchas más funcionalidades, tales como la programación de tareas periódicas (como en [cron y crontab en GNU/Linux](https://coffeebytes.dev/cron-y-crontab-programa-tareas-periodicas/)) y además el monitoreo de estas, pero vamos por partes.
+Así es, de seguro estás pensando que celery guarda similitudes con el async await de Javascript o Python. Sin embargo celery es mucho más robusto y con muchas más funcionalidades, tales como la programación de tareas periódicas (como en [cron y crontab en GNU/Linux](/cron-y-crontab-programa-tareas-periodicas/)) y además el monitoreo de estas, pero vamos por partes.
 
 ## Instalación de celery
 

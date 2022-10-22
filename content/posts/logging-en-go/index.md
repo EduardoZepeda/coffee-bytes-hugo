@@ -10,7 +10,7 @@ keywords:
 - logging
 ---
 
-Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](https://coffeebytes.dev/go-testing-basico-y-coverage/) más sencillo.
+Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](/go-testing-basico-y-coverage/) más sencillo.
 
 ## El Println de log
 
@@ -23,7 +23,7 @@ log.Println("Mensaje")
 // 2022/06/28 13:38:25 Mensaje
 ```
 
-El método Println de log se comporta exactamente igual que el de la [librería fmt](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), por lo que puedes pasarle múltiples parámetros y los imprimirá uno a uno.
+El método Println de log se comporta exactamente igual que el de la [librería fmt](/go-funciones-argumentos-y-el-paquete-fmt/), por lo que puedes pasarle múltiples parámetros y los imprimirá uno a uno.
 
 ## Flags en el loggeo
 

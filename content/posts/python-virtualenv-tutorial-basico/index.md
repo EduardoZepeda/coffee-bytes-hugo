@@ -10,7 +10,7 @@ keywords:
   - "linux"
 ---
 
-Si no tienes ni idea de para que sirve un entorno virtual tengo una entrada donde explico para que sirven los [entornos virtuales en Python](https://coffeebytes.dev/por-que-deberias-usar-un-entorno-virtual-en-python/). Hoy vengo a traerte un pequeño tutorial de Python virtualenv donde instalaremos un par de paquetes en un entorno virtual y veremos como se comportan. Asegúrate de tener instalado [Python](https://www.python.org/) y [Pip](https://pip.pypa.io/en/stable/installing/) porque los necesitaremos.
+Si no tienes ni idea de para que sirve un entorno virtual tengo una entrada donde explico para que sirven los [entornos virtuales en Python](/por-que-deberias-usar-un-entorno-virtual-en-python/). Hoy vengo a traerte un pequeño tutorial de Python virtualenv donde instalaremos un par de paquetes en un entorno virtual y veremos como se comportan. Asegúrate de tener instalado [Python](https://www.python.org/) y [Pip](https://pip.pypa.io/en/stable/installing/) porque los necesitaremos.
 
 ## Preparativos para usar virtualenv
 
@@ -213,4 +213,4 @@ rm -rf EntornoVirtual/
 
 ## Pipenv
 
-Existe otro paquete que une pip y virtualenv, te permite manejar los entornos virtuales de manera bastante sencilla y cuenta con bastantes mejoras respecto a virtualenv. Si quieres saber más al respecto visita mi [tutorial donde te explico que es y como usar Pipenv.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
+Existe otro paquete que une pip y virtualenv, te permite manejar los entornos virtuales de manera bastante sencilla y cuenta con bastantes mejoras respecto a virtualenv. Si quieres saber más al respecto visita mi [tutorial donde te explico que es y como usar Pipenv.](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)

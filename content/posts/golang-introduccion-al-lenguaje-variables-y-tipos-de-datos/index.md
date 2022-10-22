@@ -21,14 +21,14 @@ Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la con
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
-* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/) es bastante sencillo
+* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/go-goroutines-channels-o-canales-introduccion/) es bastante sencillo
 * **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
 ### ¿Por qué apesta go?
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
-* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/).
+* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](/go-structs-herencia-polimorfismo-y-encapsulacion/).
 * **Go no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores deben devolverse como valor de retorno en una función y se manejan comprobando que esta no sea nula (nil), por medio de bloques if. Lo anterior puede volverse bastante verboso y repetitivo.
 
 ![Manejo de errores con Go con if](images/ManejoErroresGo.png "Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso")
@@ -52,7 +52,7 @@ La mascota oficial es una ardilla de tierra y es muy común entre la comunidad u
 
 ## Instalación
 
-Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](https://coffeebytes.dev/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
+Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
 
 ```bash
 sudo apt install golang
@@ -74,7 +74,7 @@ package main
 
 ### Importaciones
 
-Una sección donde se importan todos los [paquetes de go](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/) que se usarán. Para ello usamos la palabra _import_.
+Una sección donde se importan todos los [paquetes de go](/go-importacion-de-paquetes-y-manejo-de-modulos/) que se usarán. Para ello usamos la palabra _import_.
 
 import "fmt"
 
@@ -89,7 +89,7 @@ import (
 
 ### Contenido
 
-El contenido del archivo, es decir declaraciones de variables, types, [funciones](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), constantes, etc.
+El contenido del archivo, es decir declaraciones de variables, types, [funciones](/go-funciones-argumentos-y-el-paquete-fmt/), constantes, etc.
 
 ```go
 func main() {
@@ -310,4 +310,4 @@ Los operadores de go son similares al resto de los lenguajes.
 - ++, incremental
 - \--, decremental
 
-Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt en go](https://coffeebytes.dev/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices en go](https://coffeebytes.dev/go-strings-runes-y-bytes/) y otras características del lenguaje.
+Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt en go](/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices en go](/go-strings-runes-y-bytes/) y otras características del lenguaje.

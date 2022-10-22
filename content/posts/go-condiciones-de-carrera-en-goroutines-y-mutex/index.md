@@ -9,7 +9,7 @@ keywords:
   - go
 ---
 
-En las entradas pasadas te hable un poco sobre las [goroutines, los bloqueos o deadlocks y los channels](https://coffeebytes.dev/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). Pero hay otro tema bastante interesante sobre los goroutines que resalta cuando usamos asincronía y hay muchas funciones accediendo a los datos al mismo tiempo y. Múltiples funciones leyendo y escribiendo la misma información puede llevar a situaciones caóticas donde cosas muy extrañas pueden suceder.
+En las entradas pasadas te hable un poco sobre las [goroutines, los bloqueos o deadlocks y los channels](/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). Pero hay otro tema bastante interesante sobre los goroutines que resalta cuando usamos asincronía y hay muchas funciones accediendo a los datos al mismo tiempo y. Múltiples funciones leyendo y escribiendo la misma información puede llevar a situaciones caóticas donde cosas muy extrañas pueden suceder.
 
 ## ¿Qué es una race condition o condición de carrera?
 
@@ -37,7 +37,7 @@ Como ya sabrás, DarkLord69 no estará muy contento, pero si le das unos tokens 
 
 Ahora vamos a un ejemplo hecho en código.
 
-Si no entiendes que hace el waitgroup, escribí una entrada donde te explico [las goroutines, channels y los waitgroups](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/) que puedes consultar. Por ahora quédate con la idea de que esperan a que todas las goroutines finalicen antes de proseguir la ejecución del código.
+Si no entiendes que hace el waitgroup, escribí una entrada donde te explico [las goroutines, channels y los waitgroups](/go-goroutines-channels-o-canales-introduccion/) que puedes consultar. Por ahora quédate con la idea de que esperan a que todas las goroutines finalicen antes de proseguir la ejecución del código.
 
 ```go
 package main

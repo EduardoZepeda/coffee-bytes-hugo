@@ -9,7 +9,7 @@ keywords:
   - linux
 ---
 
-Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/).
+Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](/comandos-de-linux-que-deberias-conocer-tercera-parte/).
 
 Vamos a empezar con el comando uname, para situarnos un poco en el contexto del sistema operativo con el que estamos trabajando.
 
@@ -389,7 +389,7 @@ node: /home/usuario/.nvm/versions/node/v11.9.0/bin/node
 
 Parecido al anterior, pero con una diferencia: este nos muestra donde se ejecutaría el comando en el **entorno actual.**
 
-Si desconoces que es un entorno virtual te invito a leer mi entrada donde explico [que son los entornos virtuales en Python](https://coffeebytes.dev/por-que-deberias-usar-un-entorno-virtual-en-python/)
+Si desconoces que es un entorno virtual te invito a leer mi entrada donde explico [que son los entornos virtuales en Python](/por-que-deberias-usar-un-entorno-virtual-en-python/)
 
 En cambio, si no estamos usando entornos virtuales mostrará el mismo resultado que el anterior.
 
@@ -465,4 +465,4 @@ sudo neofetch
 
 ## Más comandos básicos para la terminal de linux
 
-Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](https://coffeebytes.dev/comandos-de-linux-que-deberias-conocer-tercera-parte/)
+Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](/comandos-de-linux-que-deberias-conocer-tercera-parte/)

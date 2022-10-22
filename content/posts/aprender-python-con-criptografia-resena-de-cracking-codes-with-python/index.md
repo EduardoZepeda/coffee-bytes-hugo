@@ -53,4 +53,4 @@ Por otro lado, independientemente de lo anterior, te **recomiendo leer el [capí
 **Recomendado para leerlo:** 6/10  
 **Idiomas:** Inglés
 
-Entra en mi entrada sobre [inmersión en Python](https://coffeebytes.dev/aprende-python-desde-cero-con-este-libro-gratuito/) para leer sobre otro libro genial para aprender Python desde cero.
+Entra en mi entrada sobre [inmersión en Python](/aprende-python-desde-cero-con-este-libro-gratuito/) para leer sobre otro libro genial para aprender Python desde cero.

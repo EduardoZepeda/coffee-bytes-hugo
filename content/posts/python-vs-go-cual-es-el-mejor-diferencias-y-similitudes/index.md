@@ -14,7 +14,7 @@ keywords:
 
 Estos últimos meses he estado aprendiendo go. ¿Por qué? La primera razón es bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2022.
 
-Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
+Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
 
 ## Un poco sobre Python y go
 
@@ -22,7 +22,7 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 
 **Python es un lenguaje interpretado e imperativo mientras que Go es un lenguaje compilado, concurrente e imperativo.**
 
-Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](https://coffeebytes.dev/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
+Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 
@@ -104,7 +104,7 @@ func main() {
 }
 ```
 
-Otra cosa importante, algunos desarrolladores dicen que go es orientado a objetos, mientras que otros afirman rotundamente que no. Lo cierto es que go no cuenta con soporte directo para clases, sino que usa **[structs que emulan el polimorfismo y la encapsulación](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/)** y otras características de la OOP.
+Otra cosa importante, algunos desarrolladores dicen que go es orientado a objetos, mientras que otros afirman rotundamente que no. Lo cierto es que go no cuenta con soporte directo para clases, sino que usa **[structs que emulan el polimorfismo y la encapsulación](/go-structs-herencia-polimorfismo-y-encapsulacion/)** y otras características de la OOP.
 
 ```go
 //go
@@ -156,7 +156,7 @@ except:
 
 ### Asincronismo en go
 
-Uno de los puntos fuertes de este lenguaje es la creación de concurrencia por medio de sus [_goroutines_, o gorutinas y canales](https://coffeebytes.dev/go-goroutines-channels-o-canales-introduccion/). Usarlas es bastante sencillo, basta con añadir la palabra go antes de una función. Añadimos un contador con _Add_ y lo removemos con Done. Cuando nuestro grupo de espera, _wg_, tenga cero contadores, terminará la ejecución.
+Uno de los puntos fuertes de este lenguaje es la creación de concurrencia por medio de sus [_goroutines_, o gorutinas y canales](/go-goroutines-channels-o-canales-introduccion/). Usarlas es bastante sencillo, basta con añadir la palabra go antes de una función. Añadimos un contador con _Add_ y lo removemos con Done. Cuando nuestro grupo de espera, _wg_, tenga cero contadores, terminará la ejecución.
 
 Sus capacidades de concurrencia lo hacen ideal para servidores web.
 
@@ -282,7 +282,7 @@ Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra ins
 
 Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, servidores de backend y en blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
 
-Los [containers de docker están escritos usando go](https://coffeebytes.dev/container-de-docker-con-namespaces-y-cgroups/).
+Los [containers de docker están escritos usando go](/container-de-docker-con-namespaces-y-cgroups/).
 
 ![Logos de tecnologías creadas con go](images/traeffik-y-kubernetes-1024x505-1.jpg)
 
@@ -324,7 +324,7 @@ Puedes ver las librerías y funciones que tiene disponible en la sección [stand
 
 Go no cuenta con un repositorio oficial de paquetes como sí lo tiene Python. Los paquetes se obtienen por medio de _go get_ (el equivalente de _pip_ en Python) de diferentes fuentes. Se extraña una solución estándar, tipo npm en javascript, pero puedes ver una lista de los paquetes disponibles en [Awesome Go.](http://awesome-go.com)
 
-La [importación de los modulos y paquetes en Go](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto extraño, no existen las importaciones relativas, como en Python o en Javascript.
+La [importación de los modulos y paquetes en Go](/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto extraño, no existen las importaciones relativas, como en Python o en Javascript.
 
 ![Awesome Go página.](images/AwesomeGo.png)
 
@@ -378,11 +378,11 @@ Pruebas de rendimiento para frameworks de Python (morado) y Go (verde)
 
 Mientras que en Python ya contamos con algunas **soluciones bastante probadas, con bastante experiencia, caracterizadas por ser m**uy estables y con una respuesta para casi todas las necesidades de un desarrollador web y que, además, soportan sitios muy populares y con tráfico gigantesco, como pinterest o instagram.
 
-Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.](https://coffeebytes.dev/por-que-deberias-usar-django-framework/)
+Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.](/por-que-deberias-usar-django-framework/)
 
 ![Frameworks web más populares de Python: Django, Fastapi, flask, bottle](images/python-frameworks.jpg)
 
-A pesar de que la mayoría de frameworks en Python son antiguos, no significa que no estén apareciendo nuevos frameworks últimamente. [Fastapi](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/), del que ya hice un tutorial también es un nuevo framework muy veloz que gana popularidad día con día.
+A pesar de que la mayoría de frameworks en Python son antiguos, no significa que no estén apareciendo nuevos frameworks últimamente. [Fastapi](/python-fastapi-el-mejor-framework-de-python/), del que ya hice un tutorial también es un nuevo framework muy veloz que gana popularidad día con día.
 
 ## ¿Cuál elegir Python vs go?
 

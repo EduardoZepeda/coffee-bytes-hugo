@@ -17,7 +17,7 @@ keywords:
 url: "python-fastapi-el-mejor-framework-de-python"
 ---
 
-Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como [REST APIs](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/) o APIs RPC. FastAPI promete ayudarnos a crear APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar sitios web de alta concurrencia.
+Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como [REST APIs](/caracteristicas-basicas-de-una-api-rest/) o APIs RPC. FastAPI promete ayudarnos a crear APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar sitios web de alta concurrencia.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 
@@ -25,7 +25,7 @@ Estos últimos días he estado probando una librería para Python que se está v
 
 ### FastAPI vs Django
 
-FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de [sesiones y autenticación](https://coffeebytes.dev/login-con-django-rest-framework-drf/), ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](https://coffeebytes.dev/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](https://coffeebytes.dev/el-django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos. 
+FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de [sesiones y autenticación](/login-con-django-rest-framework-drf/), ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](/el-django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos. 
 
 Por otro lado, FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
 
@@ -64,7 +64,7 @@ Ahora que ya viste porque vale la pena usarlo, ¿por qué no probarlo?
 
 ### Instalación de FastAPI
 
-Para instalarlo vamos a crear un entorno virtual con [Pipenv, una herramienta de manejo de entornos virtuales.](https://coffeebytes.dev/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
+Para instalarlo vamos a crear un entorno virtual con [Pipenv, una herramienta de manejo de entornos virtuales.](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
 
 ```bash
 pipenv install fastapi uvicorn
@@ -511,7 +511,7 @@ async def create_upload_file(file: UploadFile = File(...)):
 
 Para este ejemplo vamos a crear un archivo sencillo de texto.
 
-El siguiente comando creará un archivo de extensión txt en nuestra carpeta actual. Si no te sientes cómodo usando la terminal de GNU/Linux visita mi serie de entradas donde explico los [comandos básicos de GNU/Linux](https://coffeebytes.dev/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
+El siguiente comando creará un archivo de extensión txt en nuestra carpeta actual. Si no te sientes cómodo usando la terminal de GNU/Linux visita mi serie de entradas donde explico los [comandos básicos de GNU/Linux](/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
 
 ```bash
 printf "texto" > archivo.txt
@@ -589,7 +589,7 @@ def generate_error():
 
 FastAPI contiene un cliente con el que podemos hacer testeo. Antes de empezar a realizar el testing vamos a instalar los paquetes necesarios para hacerlo: pytest y requests.
 
-Si quieres profundizar en el testeo en Python tengo una entrada donde expongo algunas de las [librerías en Python para hacer testing.](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/)
+Si quieres profundizar en el testeo en Python tengo una entrada donde expongo algunas de las [librerías en Python para hacer testing.](/unittest-python-valen-la-pena-los-tests-en-python/)
 
 ```bash
 pipenv install requests pytest
@@ -648,7 +648,7 @@ Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática 
 
 El despliegue también es una tarea sencilla de realizar.
 
-Para hacer deployment sin usar [Docker](https://coffeebytes.dev/que-es-docker-y-para-que-sirve/) basta con correr uvicorn, justo como hicimos al principio de este tutorial.
+Para hacer deployment sin usar [Docker](/que-es-docker-y-para-que-sirve/) basta con correr uvicorn, justo como hicimos al principio de este tutorial.
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 80
@@ -656,7 +656,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment con Docker
 
-Hacer un deployment con Docker es super sencillo, el creador de FastAPI ya nos provee de una imagen de Docker personalizada que podemos usar como base para nuestro Dockerfile. Primero creemos un archivo [Dockerfile](https://coffeebytes.dev/tutorial-de-comandos-basicos-de-docker/#usando-un-dockerfile-para-crear-una-imagen).
+Hacer un deployment con Docker es super sencillo, el creador de FastAPI ya nos provee de una imagen de Docker personalizada que podemos usar como base para nuestro Dockerfile. Primero creemos un archivo [Dockerfile](/tutorial-de-comandos-basicos-de-docker/#usando-un-dockerfile-para-crear-una-imagen).
 
 ```bash
 touch Dockerfile

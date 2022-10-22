@@ -20,7 +20,7 @@ keywords:
 
 ### Su ORM es sencillo y maravilloso
 
-El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones [búsquedas avanzadas de Postgres](https://coffeebytes.dev/trigramas-y-busquedas-avanzadas-con-django-y-postgres/).
+El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones [búsquedas avanzadas de Postgres](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/).
 
 Para crear una tabla en la base de datos basta con crear una clase que herede de _models.Model_ y Django se encargará de todo el trabajo pesado.
 
@@ -51,11 +51,11 @@ DATABASES = {
 }
 ```
 
-Su única desventaja es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](https://coffeebytes.dev/integracion-del-orm-de-python-tortoise-con-fastapi/).
+Su única desventaja es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/integracion-del-orm-de-python-tortoise-con-fastapi/).
 
 ### Panel de administrador incluido
 
-Django cuenta con el [django admin panel](https://coffeebytes.dev/el-django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
+Django cuenta con el [django admin panel](/el-django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
 ![Panel de administración de Django](images/Django-panel-admin.png)
 
@@ -71,11 +71,11 @@ Django incluye ciertas utilidades, que se encargan de mitigar la mayoría de los
 
 Este framework cuenta con un sistema de autenticación probado, basado en sesiones que se identifican por medio de una cookie. El sistema de autenticación ya ha sido puesto a prueba en numerosas ocasiones por algunos de los sitios web con más tráfico que hay, como Instagram o el sitio web de la NASA. Pinterest empezó con Django pero se movió hacia node.
 
-Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](https://coffeebytes.dev/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](https://coffeebytes.dev/no-uses-jwt-para-gestionar-sesiones-traduccion/)
+Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](/no-uses-jwt-para-gestionar-sesiones-traduccion/)
 
 ### Sistema de permisos
 
-Django cuenta con un sólido [sistema de permisos y grupos](https://coffeebytes.dev/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
+Django cuenta con un sólido [sistema de permisos y grupos](/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
 
 ### Múltiples paquetes
 
@@ -83,7 +83,7 @@ Django cuenta con muchísimos paquetes para resolver la mayoría de los problema
 
 Solo por nombrar algunos:
 
-- [Django-haystack](https://coffeebytes.dev/busquedas-con-solr-con-django-haystack)(Para búsquedas complejas)
+- [Django-haystack](/busquedas-con-solr-con-django-haystack)(Para búsquedas complejas)
 - Django-watson (Búsquedas)
 - DRF (REST)
 - Graphene (Graphql)
@@ -93,9 +93,9 @@ Solo por nombrar algunos:
 - Django-storage (AWS storage)
 - Django-braces (Funciones comunes)
 
-Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API](https://coffeebytes.dev/caracteristicas-basicas-de-una-api-rest/), el manejo de permisos y [throttling](https://coffeebytes.dev/throttling-en-nginx/), una tarea simple**, comparada en otros lenguajes. La autenticación con DRF también es bastante sencilla usando los paquetes anteriores. La librería Graphene también es destacable, permite implementar graphql en Django con pocas lineas de código.
+Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API](/caracteristicas-basicas-de-una-api-rest/), el manejo de permisos y [throttling](/throttling-en-nginx/), una tarea simple**, comparada en otros lenguajes. La autenticación con DRF también es bastante sencilla usando los paquetes anteriores. La librería Graphene también es destacable, permite implementar graphql en Django con pocas lineas de código.
 
-Otro paquete bastante útil y que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](https://coffeebytes.dev/django-channels-consumers-scope-y-eventos/)
+Otro paquete bastante útil y que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](/django-channels-consumers-scope-y-eventos/)
 
 ### Te lleva de una idea a un prototipo funcional rápido
 
@@ -123,9 +123,9 @@ La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frame
 
 ### Es lento y maneja peticiones de una en una
 
-Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/) comparo el rendimiento de ambos, solo para que te des una idea.
+Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](/python-vs-go-2022-cual-es-el-mejor/) comparo el rendimiento de ambos, solo para que te des una idea.
 
-Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
+Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
 
 ### Su ORM no es asíncrono ni tampoco el más veloz
 

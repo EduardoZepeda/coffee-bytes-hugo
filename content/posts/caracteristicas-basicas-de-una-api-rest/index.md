@@ -251,7 +251,7 @@ Toda API debería de estar documentada. La documentación debería ser ser clara
 
 Considera implementarlas en tu proyecto.
 
-Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](https://coffeebytes.dev/python-fastapi-el-mejor-framework-de-python/)
+Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](/python-fastapi-el-mejor-framework-de-python/)
 
 ![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png "Interfaz generada por Open API")
 
@@ -263,7 +263,7 @@ Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad
 
 ![GUI, de insomnia, una aplicación para el testeo de una API REST](images/InsomniaGUI.png "Interfaz de Insomnia, herramienta para testear APIs")
 
-Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](https://coffeebytes.dev/buenas-practicas-y-diseno-de-una-api-rest/): ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
+Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](/buenas-practicas-y-diseno-de-una-api-rest/): ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
 
 ## Fuentes de referencia
 

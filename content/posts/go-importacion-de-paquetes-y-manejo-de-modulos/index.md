@@ -17,7 +17,7 @@ Diferencia entre modulos y paquetes en go
 
 ### Definir el nombre de un paquete en Go
 
-Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
+Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
 
 Para este ejemplo el nombre del paquete será _videogame_.
 
@@ -33,7 +33,7 @@ type Videogame struct {
 }
 ```
 
-Recuerda que las [reglas de privacidad de los structs](https://coffeebytes.dev/go-structs-herencia-polimorfismo-y-encapsulacion/) dicen que para que podamos acceder a un _struct_ o sus propiedades, desde otro paquete a donde fue declarado, debemos usar mayúsculas.
+Recuerda que las [reglas de privacidad de los structs](/go-structs-herencia-polimorfismo-y-encapsulacion/) dicen que para que podamos acceder a un _struct_ o sus propiedades, desde otro paquete a donde fue declarado, debemos usar mayúsculas.
 
 Una vez creado terminaremos con una structura similar a esta
 

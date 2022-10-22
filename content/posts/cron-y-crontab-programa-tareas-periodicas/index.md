@@ -144,4 +144,4 @@ Para evitarnos disgustos existe una herramienta bastante útil llamada [crontab.
 
 ![Captura de pantalla de crontab guru](images/crontab_guru.gif)
 
-Si quieres aplicar cron y crontab, tengo una entrada donde los uso para [cambiar de wallpaper automáticamente usando Python.](https://coffeebytes.dev/como-programar-un-cambiador-de-wallpaper-automatico-en-python/)
+Si quieres aplicar cron y crontab, tengo una entrada donde los uso para [cambiar de wallpaper automáticamente usando Python.](/como-programar-un-cambiador-de-wallpaper-automatico-en-python/)

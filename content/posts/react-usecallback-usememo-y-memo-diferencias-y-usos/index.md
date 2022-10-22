@@ -14,7 +14,7 @@ keywords:
 
 Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de React usando memoización, evitando renderizaciones inútiles, cada uno con sus diferencias, similitudes y casos de uso. Estas tres funciones no deben ser usadas de manera indiscriminada, sino exclusivamente en aquellas situaciones en las que su impacto sea mucho menor que los beneficios que ofrecen.
 
-Visita mi entrada donde comparto [5 librerías de React](https://coffeebytes.dev/5-librerias-geniales-de-react-que-debes-conocer/) que no pueden faltarte en tu arsenal.
+Visita mi entrada donde comparto [5 librerías de React](/5-librerias-geniales-de-react-que-debes-conocer/) que no pueden faltarte en tu arsenal.
 
 Antes de empezar pasar a las funciones hay dos conceptos que tienes que entender primero: memoización y el manejo de objetos por parte de Javascript. Avanza a la parte de useCallback si ya los dominas.
 
@@ -69,7 +69,7 @@ Las diferencias básicas entre useCallback, useMemo y memo se resumen en la sigu
 
 ![Diferencias entre useCallback, useMemo y memo](images/Diferencias-React-useCallback-useMemo-memo.jpg)
 
-En conjunto, [memo y useCallback, se usan para evitar renderizaciones innecesariasq en React.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
+En conjunto, [memo y useCallback, se usan para evitar renderizaciones innecesariasq en React.](/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 ## useCallback memoiza funciones
 
@@ -147,6 +147,6 @@ Memo es ideal para componentes que:
 - Reciben props que cambian con poca frecuencia o simplemente no cambian.
 - Componentes muy voluminosos que tienen un impacto muy grande en el rendimiento.
 
-Recuerda revisar mi entrada donde combino este [memo y useCallback para evitar renderizaciones en React.](https://coffeebytes.dev/react-memo-y-usecallback-para-evitar-renderizaciones/)
+Recuerda revisar mi entrada donde combino este [memo y useCallback para evitar renderizaciones en React.](/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 Consulta la [documentación oficial de los hooks de React](https://es.reactjs.org/docs/hooks-reference.html) si quieres profundizar más en el tema.

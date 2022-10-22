@@ -30,7 +30,7 @@ Para que se lleven a cabo los tests necesitamos:
 1 directory, 5 files
 ```
 
-Considera que, si vas a [asignarle un nombre a tu módulo](https://coffeebytes.dev/go-importacion-de-paquetes-y-manejo-de-modulos/)**, jamás debeser nombrarlo _testing_**. ¿Por qué? si lo haces, go confungirá su modulo _testin_g con el tuyo, devolviéndote esos resultados incorrectos.
+Considera que, si vas a [asignarle un nombre a tu módulo](/go-importacion-de-paquetes-y-manejo-de-modulos/)**, jamás debeser nombrarlo _testing_**. ¿Por qué? si lo haces, go confungirá su modulo _testin_g con el tuyo, devolviéndote esos resultados incorrectos.
 
 Para crear los tests, dentro del archivo _testing/main\_test.go_, necesitamos una función que reciba de argumento nuestro paquete de testing con el carácter de desestructuración.
 
@@ -104,7 +104,7 @@ En este caso, cada struct de nuestro array consiste en tres enteros; los primero
 
 De seguro ya notaste que no estamos cubriendo la división entre cero, pero déjalo así por ahora.
 
-Ya que contamos con nuestro array de structs, iteraremos sobre cada uno de sus elementos usando [la función range de go](https://coffeebytes.dev/go-arrays-y-slices/). De esta manera cubriremos cada caso.
+Ya que contamos con nuestro array de structs, iteraremos sobre cada uno de sus elementos usando [la función range de go](/go-arrays-y-slices/). De esta manera cubriremos cada caso.
 
 ```go
 for _, table := range tables {
@@ -119,7 +119,7 @@ Si todo salió bien, pasaremos todas las pruebas.
 
 ## Coverage
 
-Coverage ya forma parte del código en go, por lo que no necesitamos librerías externas. Si no sabes que es Coverage, piensa en él como el porcentaje de tu código que es sometido a pruebas. Si todo tú código pasa por las pruebas tendrás un coverage de 100%, si solo la mitad pasa por las pruebas el coverage será de 50%. Anteriormente te hablé del coverage en mi entrada [unittest en Python.](https://coffeebytes.dev/unittest-python-valen-la-pena-los-tests-en-python/)
+Coverage ya forma parte del código en go, por lo que no necesitamos librerías externas. Si no sabes que es Coverage, piensa en él como el porcentaje de tu código que es sometido a pruebas. Si todo tú código pasa por las pruebas tendrás un coverage de 100%, si solo la mitad pasa por las pruebas el coverage será de 50%. Anteriormente te hablé del coverage en mi entrada [unittest en Python.](/unittest-python-valen-la-pena-los-tests-en-python/)
 
 Para calcular el coverage basta con agregar el flag _\-cover_ al comando _go test_
 

@@ -17,7 +17,7 @@ keywords:
 
 ![Búsqueda de la palabra "parfume" en amazon.](images/busqueda_amazon.gif)
 
-¿No recuerdas las búsquedas básicas en Django? Tengo una entrada sobre [búsquedas básicas y full text search usando Django y Postgres](https://coffeebytes.dev/full-text-search-y-busquedas-con-django-y-postgres/), si no la has leído date una vuelta primero por allá.
+¿No recuerdas las búsquedas básicas en Django? Tengo una entrada sobre [búsquedas básicas y full text search usando Django y Postgres](/full-text-search-y-busquedas-con-django-y-postgres/), si no la has leído date una vuelta primero por allá.
 
 ## Trigramas en Django y Postgres
 
@@ -84,7 +84,7 @@ SELECT word_similarity('outer worlds', 'wilds');
 
 Usando el ORM de Django **con la función _TrigramSimilarity_ podemos filtrar aquellos resultados estableciendo un límite de similaridad** entre una palabra de búsqueda y nuestros datos.
 
-Si no recuerdas para que sirve Django annotate, tengo una entrada donde te explico [django annotate y aggregate, así como sus diferencias.](https://coffeebytes.dev/django-annotate-y-aggregate-explicados/)
+Si no recuerdas para que sirve Django annotate, tengo una entrada donde te explico [django annotate y aggregate, así como sus diferencias.](/django-annotate-y-aggregate-explicados/)
 
 ```python
 from django.contrib.postgres.search import TrigramSimilarity
@@ -157,7 +157,7 @@ En el ejemplo de arriba, he reescrito los valores originales y he disminuido los
 
 ## Librerías de Django para búsquedas avanzadas
 
-Quizás tus necesidades búsqueda son mucho más avanzadas que las que provee el ORM de Django combinado con Postgres. Pero, a menos que estés desarrollando algo que revolucione la industria de la búsqueda, alguien ya ha pasado por el mismo problema. Hay soluciones genéricas, como [Solr y Django-haystack](https://coffeebytes.dev/busquedas-con-solr-con-django-haystack), que te ahorran la escritura de muchísimas lineas de código. Algunos ejemplos son:
+Quizás tus necesidades búsqueda son mucho más avanzadas que las que provee el ORM de Django combinado con Postgres. Pero, a menos que estés desarrollando algo que revolucione la industria de la búsqueda, alguien ya ha pasado por el mismo problema. Hay soluciones genéricas, como [Solr y Django-haystack](/busquedas-con-solr-con-django-haystack), que te ahorran la escritura de muchísimas lineas de código. Algunos ejemplos son:
 
 - [Xapian](https://xapian.org/)
 - [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html)

@@ -9,7 +9,7 @@ keywords:
   - go
 ---
 
-Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](https://coffeebytes.dev/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.
+Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.
 
 Ahora sí, pasemos a las funciones.
 

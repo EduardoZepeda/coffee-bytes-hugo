@@ -26,7 +26,7 @@ Si tienes prisa puedes conformarte con estas definiciones que pecan de simplista
 
 Un websocket es una conexión persistente que existe entre el navegador de un usuario y un servidor web.
 
-Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go](https://coffeebytes.dev/python-vs-go-2022-cual-es-el-mejor/).
+Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go](/python-vs-go-2022-cual-es-el-mejor/).
 
 ## Django channels requiere ASGI
 

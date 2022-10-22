@@ -14,7 +14,7 @@ keywords:
 
 Los channel layers te permiten interactuar y compartir información con diferentes consumers en django channels. Lo que permite a cada consumer comunicarse con el resto. Por ejemplo, cuando en un chat un usuario envía un mensaje, todos pueden leer el mensaje, cuando un usuario abandona una sala, todos pueden saber que la abandonó. Con esta capacidad es posible crear una aplicación distribuida en la que se comparta información entre los diferentes usuarios.
 
-Si no sabes que es Django channels, te recomiendo que le des una leída a mi entrada anterior, donde te explico las partes básicas de [django channels: consumers, scope y eventos.](https://coffeebytes.dev/django-channels-consumers-scope-y-eventos/)
+Si no sabes que es Django channels, te recomiendo que le des una leída a mi entrada anterior, donde te explico las partes básicas de [django channels: consumers, scope y eventos.](/django-channels-consumers-scope-y-eventos/)
 
 ## Configurar un channel layer
 

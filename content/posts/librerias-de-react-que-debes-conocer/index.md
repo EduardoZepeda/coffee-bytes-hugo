@@ -13,7 +13,7 @@ keywords:
 
 Después de varias semanas publicando sobre Django escribí una entrada corta de React, sobre librerías, porque no solo de Python vive el hombre. Estás son algunas de las librerías que considero más útiles de React. Por razones obvias están excluidas React-router, Redux y otras demasiado conocidas. Así como también algunos Frameworks de React tales como Gatsby, Nextjs, Frontity y otros.
 
-Si quieres aprender React pero no sabes Javascript lee mi entrada, donde hablo de [uno de los mejores libros para empezar con Javascript.](https://coffeebytes.dev/el-mejor-libro-para-aprender-javascript-moderno/)
+Si quieres aprender React pero no sabes Javascript lee mi entrada, donde hablo de [uno de los mejores libros para empezar con Javascript.](/el-mejor-libro-para-aprender-javascript-moderno/)
 
 ## Ant Design
 
