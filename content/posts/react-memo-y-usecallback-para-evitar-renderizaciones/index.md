@@ -1,5 +1,5 @@
 ---
-title: "React memo y useCallback para evitar renderizaciones"
+title: "React memo, useMemo y useCallback para evitar renderizaciones en React"
 date: "2021-08-10"
 categories: 
   - "react"
@@ -100,5 +100,70 @@ Pon atención a la terminal para que aprecies las renderizaciones.
 ![Eliminar useCallback del componente hijo causa renderizaciones](images/eliminandoUseCallback.gif)
 
 Por otro lado, si remueves tanto memo como useCallback, sucederá lo mismo.
+
+## Evitando renderizaciones con useMemo
+
+useMemo también puede ser usado para evitar renderizaciones. ¿Cómo? en la entrada anterior te mencioné que cada vez que un componente se renderiza se crean nuevos objetos, y estos objetos no son iguales, incluso aunque tengan las mismas propiedades, con los mismos valores.
+
+```javascript
+const A = {uno: 1, dos:2}
+const B = {uno: 1, dos:2}
+A===B
+// false
+```
+
+Mira el siguiente ejemplo, cada vez se re-renderice el componente por efecto de otro componente, o de un cambio en el estado se creará un nuevo objeto *statsDelMonstruo*. Cada  que eso ocurra React preguntará en el interior de useEffect: "¿Es la variable statsDelMonstruo la misma que la vez pasada?" Y la respuesta será "no", porque React crea un nuevo objeto cada vez, incluso aunque este objeto tenga exactamente los mismos valores que su versión anterior, son objetos diferentes.
+
+```javascript
+import ChildComponent from './ChildComponent'
+import {useCallback} from 'react'
+
+const MyComponent = ({ prop }) => {
+  const [hp, setHp] = useValue(100)
+  const [mp, setMp] = useValue(100)
+  // otro valores de estado
+
+  const statsDelMonstruo = { hp, mp }
+
+  useEffect(()=>{
+    console.log(statsDelMonstruo)
+  }, [statsDelMonstruo])
+
+  return (
+    // Otros componentes
+    <RenderizaMonstruo stats={statsDelMonstruo}/>
+    );
+}
+
+export default MyComponent
+```
+
+Para solucionarlo podemos usar useMemo. Nuestra función memoizadora mantendrá el mismo objeto, siempre y cuando los valores dentro de los corchetes no cambien. Ahora, cuando React pregunte: "¿Es la variable *statsDelMonstruo* la misma que la vez pasada?" la respuesta será "sí", es la misma variable, porque mientras las variables en corchetes no cambien, useMemo devolverá el mismo objeto en memoria.
+
+```javascript
+import ChildComponent from './ChildComponent'
+import {useCallback} from 'react'
+
+const MyComponent = ({ prop }) => {
+  const [hp, setHp] = useValue(100)
+  const [mp, setMp] = useValue(100)
+  // otro valores de estado
+
+  const statsDelMonstruo = useMemo(()=> {
+    return { hp, mp }
+  }, [hp, mp])
+
+  useEffect(()=>{
+    console.log(statsDelMonstruo)
+  }, [statsDelMonstruo])
+
+  return (
+    // Otros componentes
+    <RenderizaMonstruo stats={statsDelMonstruo}/>
+    );
+}
+
+export default MyComponent
+```
 
 Si quieres profundizar más en el tema encontré un excelente [video de youtube](https://www.youtube.com/watch?v=uojLJFt9SzY) donde lo explican bastante bien.

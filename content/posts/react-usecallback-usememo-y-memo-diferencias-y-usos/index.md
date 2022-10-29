@@ -42,6 +42,15 @@ false
 //las funciones son idénticas, sin embargo, al ser objetos diferentes, no son iguales para JS
 ```
 
+Mira este otro ejemplo, a pesar de que dos objetos tengan las mismas propiedades y valores, dado que se encuentran en diferentes direcciones de memoria, no son iguales:
+
+```javascript
+const A = {uno: 1, dos:2}
+const B = {uno: 1, dos:2}
+A===B
+// false
+```
+
 ### Creación de funciones en React
 
 Lo anterior aplica exactamente igual en React. **Cada vez que React crea una función se está creando un nuevo objeto**, distinto al anterior, incluso aunque cumplan la misma función, linea por linea.
@@ -69,7 +78,7 @@ Las diferencias básicas entre useCallback, useMemo y memo se resumen en la sigu
 
 ![Diferencias entre useCallback, useMemo y memo](images/Diferencias-React-useCallback-useMemo-memo.jpg)
 
-En conjunto, [memo y useCallback, se usan para evitar renderizaciones innecesariasq en React.](/react-memo-y-usecallback-para-evitar-renderizaciones/)
+En conjunto, [memo, useMemo y useCallback, se usan para evitar renderizaciones innecesarias en React.](/react-memo-y-usecallback-para-evitar-renderizaciones/)
 
 ## useCallback memoiza funciones
 
