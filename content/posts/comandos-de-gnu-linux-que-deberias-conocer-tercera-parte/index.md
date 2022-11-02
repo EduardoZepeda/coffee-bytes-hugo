@@ -49,6 +49,35 @@ printenv MI_VARIABLE
 mi_valor
 ```
 
+## lsof
+
+Este comando nos devuelve una lista de archivos y los procesos que los están usando. 
+
+Los resultados se devuelven bajo el siguiente formato.
+
+```bash
+lsof
+COMMAND    PID  TID         USER   FD      TYPE DEVICE  SIZE/OFF     NODE NAME
+```
+
+Puedes fltrar los resultados por usuario:
+
+```bash
+sudo lsof -u <username>
+```
+
+O por proceso:
+
+```bash
+sudo lsof -c <nombre del proceso>
+```
+
+O por puerto
+
+```bash
+sudo lsof -i :<número de puerto>
+```
+
 ## top
 
 El comando top nos muestra la lista de procesos o hilos que están ejecutándose en tiempo real e información relativa a cada uno de estos. Mira abajo como están ordenados lor procesos, primero están los procesos del usuario actual y luego sigue una lista de los procesos ordenados por su identificador de proceso (PID), si presionas la tecla _abajo_ ↓ te mostrará más procesos. Puedes presionar en cualquier momento la tecla '_q_' para abandonar la pantalla interactiva y regresar a la terminal.
