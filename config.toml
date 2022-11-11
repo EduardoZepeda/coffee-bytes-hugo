@@ -21,7 +21,7 @@ lang = "es"
   excludeFromSitemap = ["tags", "categories", "posts"]
   description = "Artículos sobre desarrollo web y Linux."
   author = "Eduardo Zepeda"
-  authorDescription = "Desarrollador web y entusiaste de sistemas GNU/Linux. Python, Javascript/Typescript y el odiado lenguaje de la mascotita azul; Go."
+  authorDescription = "Desarrollador web y entusiasta de GNU/Linux. Me siento bastante cómodo usando Python, Javascript/Typescript y Go: el odiado lenguaje de la mascotita azul. También creo en las bondades de la criptografía fuera de la especulación monetaria. Mensaje secreto en Vigenere: Yy pgkvnvm yw tvdmg k bp oqntq yonaqniomm dxzdeu. Mgz emzr, rdcyvqkanyyymm znumszl kdepfcqbkjs a ocpgkda huwnbwi. Lkzepwqi mg bucxkz swbyc izztgzwthaj y hmfdh, xjr na kfx, ad pwpcdmm gegd ydmw vgtqalfm zn Vicemmm."
   authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
   
   [params.latte]
