@@ -19,8 +19,10 @@ lang = "es"
 
 [params]
   excludeFromSitemap = ["tags", "categories", "posts"]
-  author = "Eduardo Zepeda"
   description = "Artículos sobre desarrollo web y Linux."
+  author = "Eduardo Zepeda"
+  authorDescription = "Desarrollador web y entusiaste de sistemas GNU/Linux. Python, Javascript/Typescript y el odiado lenguaje de la mascotita azul; Go."
+  authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
   
   [params.latte]
     seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
