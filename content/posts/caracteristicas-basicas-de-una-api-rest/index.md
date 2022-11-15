@@ -31,11 +31,11 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 ### ¿Qué es una API REST?
 
-Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la obviedad), un estilo de arquitectura del que te hablo a continuación.
+Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la obviedad), Pero, ¿qué es REST? REST es un estilo de arquitectura, que tiene que cumplir una serie de características de las que te hablo a continuación.
 
-## ¿Cómo debe ser una API REST?
+## ¿Qué características tiene una API REST?
 
-No todas las APIs son REST, numerosos desarrolladores usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones (RPC), incluso compañias tan grandes como Twitter y Facebook no cumplen todas las características.
+No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones (RPC), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
@@ -44,7 +44,7 @@ Si queremos diseñar una API REST tenemos que cumplir una serie de característi
 - **Sistema con arquitectura cliente-servidor.** Un sistema que consiste en dos partes, una que solicita información y la otra que la proporciona.
 - **Sin estado (Stateless):** el resultado de una petición no debe depender de peticiones anteriores. Es decir, el cliente debe proporcionar todo lo necesario para que su procesamiento por el servidor y el servidor no debe almacenar ninguna información de la sesión.
 - **Cacheable**: Debe ser posible etiquetar una respuesta como cacheable para reusarla en respuestas similares posteriores .
-- **Interfaz uniforme para todos los clientes.** Las URIs deben ([No confundir con URL](https://danielmiessler.com/study/difference-between-uri-url/)) hacer referencia a recursos y cada recurso debe tener una URI única. Por su parte, el servidor envía representaciones de los recursos (XML, JSON. TXT, etc), nunca el recurso original. El cliente debe ser capaz de modificar el recurso original a partir de la representación del recurso que recibe del servidor.
+- **Interfaz uniforme para todos los clientes.** Las URIs deben ([No confundir con URL](https://danielmiessler.com/study/difference-between-uri-url/)) hacer referencia a recursos y cada recurso debe tener una URI única. Un recurso puede ser un post, un usuario, un producto, etc. Por su parte, el servidor envía representaciones de los recursos (XML, JSON. TXT, etc), nunca el recurso original. El cliente debe ser capaz de modificar el recurso original a partir de la representación del recurso que recibe del servidor.
     - **Acceso y modificación de recursos por medio de una URI**: Recuerda que una cosa es el recurso en si mismo y otra su representación. El cliente puede especificar el tipo de recurso (XML, JSON, TXT, etc.) que desea recibir por parte del servidor.
     - **Mensajes autodescriptivos**: Cada mensaje debe tener la información suficiente para entender como procesarlo.
     - **Uso de recursos Hypermedia (HATEOAS):** el uso de hiperenlaces en la respuesta que apuntan hacia los recursos relacionados, de manera que el cliente pueda navegar la API a partir de las respuestas que obtiene del servidor.
@@ -66,7 +66,7 @@ En español:
 - [Entendiendo REST servicios cacheables](https://blog.thedojo.mx/2019/10/27/entendiendo-rest-servicios-cacheables.html)
 - [Principios de diseño de REST](https://www.ibm.com/mx-es/cloud/learn/rest-apis)
 
-Resumidas las características básicas, vamos a los consejos.
+Resumidas las características básicas, vamos a los consejos prácticos.
 
 ## Usa los códigos de estado correctos
 
@@ -93,7 +93,7 @@ Hay muchos más [estados HTTP que probablemente quieras conocer](https://develop
 
 ### Devuelve mensajes claros en los errores
 
-Cuando devuelvas un error, asegúrate que notificarle de una manera clara y explícita los errores, y como solucionarlos, a tus usuarios.
+Cuando devuelvas un error, asegúrate que notificarle al usuario de tu API, de una manera clara y explícita, los errores y como solucionarlos.
 
 ```json
 { 
@@ -108,7 +108,7 @@ Cuando devuelvas un error, asegúrate que notificarle de una manera clara y expl
 
 ## Usa los métodos HTTP adecuados
 
-No te limites a recibir solo peticiones POST en tu API, hay un método para cada acción de un CRUD.
+No te limites a recibir solo peticiones POST y GET en tu API, hay un método para cada acción de un CRUD.
 
 Los métodos HTTP que recibamos como parte de la petición HTTP nos indicarán las instrucciones a realizar por parte del servidor.
 
@@ -124,7 +124,7 @@ Para conocer los detalles de cada método considera revisar la [documentación o
 
 ### Usa sustantivos en plural, no verbos para las URI
 
-Una API REST es una representación de recursos, por lo que siempre hacemos referencia a objetos.
+Una API REST es una representación de recursos, por lo que siempre hacemos referencia a objetos, en plural.
 
 Las acciones se especifican en los métodos HTTP, por lo que debes dejarlos fuera de tus URIs
 
@@ -160,7 +160,7 @@ Hay algunas opiniones encontradas respecto a esto.
 
 En el libro Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces se desaconseja por completo el uso de una diagonal al final de las URls.
 
-Históricamente la versión sin diagonal se ha usado para referirse a archivos.
+¿De donde viene la diagonal al final? Históricamente la versión sin diagonal se ha usado para referirse a archivos.
 
 ```bash
 /videojuegos
@@ -196,6 +196,8 @@ No uses la URI para especificar el tipo de recurso solicitado por medio de su ex
 /recurso.json❌
 /recurso.xml❌
 ```
+
+¿Entonces como solicito un tipo de archivo en una API REST?
 
 ### El cliente solicita el tipo de representación por medio de cabeceras
 
@@ -263,7 +265,7 @@ Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad
 
 ![GUI, de insomnia, una aplicación para el testeo de una API REST](images/InsomniaGUI.png "Interfaz de Insomnia, herramienta para testear APIs")
 
-Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](/buenas-practicas-y-diseno-de-una-api-rest/): ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
+Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](/buenas-practicas-y-diseno-de-una-api-rest/) tales como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
 
 ## Fuentes de referencia
 

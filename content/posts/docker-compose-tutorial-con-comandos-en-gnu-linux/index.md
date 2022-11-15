@@ -13,27 +13,51 @@ keywords:
 url: "docker-compose-tutorial-con-comandos-en-gnu-linux"
 ---
 
-Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita mi entrada de los [comandos y uso básico de Docker.](/tutorial-de-comandos-basicos-de-docker/)
+Docker compose nos permite crear aplicaciones con múltiples contenedores, estos
+contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno
+de estos servicios usaremos un archivo en formato YAML (también le dicen YML).
+En este tutorial de docker compose te muestro algunos de los comandos más usados
+y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita
+mi entrada de los [comandos y uso básico de
+Docker.](/tutorial-de-comandos-basicos-de-docker/)
 
 ## ¿Qué es docker compose?
 
-Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
+Docker compose es una herramienta que te permite manejar aplicaciones que
+consisten en multiples contenedores de Docker. En lugar de tener múltiples
+Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un
+archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos,
+esto creará todos los servicios necesarios de nuestra aplicación. Además
+funciona en ambientes de desarrollo, producción, staging o testing, así como con
+servicios de integración continua.
 
-Docker-compose está programando usando el [lenguaje de programación go o golang](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), el mismo con lenguaje con el que [funcionan internamente los containers de go](/container-de-docker-con-namespaces-y-cgroups/).
+Docker-compose está programando usando el [lenguaje de programación go o
+golang](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/); el mismo
+con lenguaje con el que [funcionan internamente los containers de
+go](/container-de-docker-con-namespaces-y-cgroups/).
 
-Docker compose permite automatizar procesos, y es usado para en proyectos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
+Docker compose permite automatizar procesos, y es usado en proyectos tan
+populares como [cookiecutter-django, con el cual puedes dejar una aplicación de
+django lista para producción en
+minutos.](/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
 
 ## Estructura de un archivo docker-compose.yml
 
-Así como existían los Dockerfile en Docker, existe un equivalente para Docker compose. Antes de empezar con los comandos vamos a explicar la estructura de un archivo de configuración de docker-compose y algunas directrices comunes.
+Así como existían los Dockerfile en Docker, donde configurabas el estado de un
+contenedor de manera declarativa, en Docker compose existe un equivalente: los
+archivos yml.
 
-Un archivo de docker-compose es simplemente un archivo con extensión y formato yml. Para usarlo basta con crearlo y empezar a agregar el contenido.
+Antes de empezar con los comandos vamos a explicar la estructura de un archivo
+de configuración de docker-compose y algunas directrices comunes.
+
+Un archivo de docker-compose es simplemente un archivo con extensión y formato
+yml. Para usarlo basta con crearlo y empezar a agregar el contenido.
 
 ```bash
 touch docker-compose.yml
 ```
 
-Estos archivos son increíblemente sencillos de entender.
+Estos archivos yml son increíblemente sencillos de entender.
 
 ```docker
 version: '3.8'
@@ -48,15 +72,24 @@ services:
       valores
 ```
 
-Un archivo de docker-compose empieza **especificando la versión de docker compose** que se utilizará. Para este ejemplo usaremos la versión 3.8. Después de la versión vienen anidada la sección de services. Puede haber tantos servicios como querramos; framework web, servidor web, base de datos, documentación, cache, etc. Cada servicio contará con sus propias variables de configuración y sus respectivos valores. Es todo, así de sencillo.
+Un archivo de docker-compose empieza **especificando la versión de docker
+compose** que se utilizará. Para este ejemplo usaremos la versión 3.8. 
+
+Después de la versión vienen anidada la sección de services. Puede haber tantos
+servicios como querramos; framework web, servidor web, base de datos,
+documentación, cache, etc. Cada servicio contará con sus propias variables de
+configuración y sus respectivos valores. Es todo, así de sencillo.
 
 ### Nombres de servicios
 
-El nombre que usemos para cada servicio nos servirá como una referencia para su uso en otros servicios.
+El nombre que usemos para cada servicio en nuestro archivo yml nos servirá como
+una referencia para su uso en otros servicios.
 
-Por ejemplo, si un servicio se llama "_db_", es este el nombre que deberemos usar en otras aplicaciones para referirnos a un host o ubicación.
+Por ejemplo, si un servicio se llama "_db_", es este el nombre que deberemos
+usar en otras aplicaciones para referirnos a un host o ubicación.
 
 ```python
+# settings.py en Django
 DATABASES = {
     'default': {
         # ...
@@ -68,13 +101,18 @@ DATABASES = {
 
 ## Opciones de configuración en docker compose
 
-La personalización de un archivo docker-compose.yml depende de sus opciones de configuración, estas le dirán a cada uno de los servicios como comportarse.
+La personalización de un archivo docker-compose.yml depende de sus opciones de
+configuración, estas le dirán a cada uno de los servicios como comportarse.
 
-Hay muchísimas variables de configuración, que puedes consultar en la [documentación oficial de Docker.](https://docs.docker.com/compose/compose-file/) Para que no tengas que leerlas todas dejará algunas de las más importantes.
+Hay muchísimas variables de configuración, que puedes consultar en la
+[documentación oficial de
+Docker.](https://docs.docker.com/compose/compose-file/) Para que no tengas que
+leerlas todas dejará algunas de las más importantes.
 
 ### image
 
-La configuración image establece la imagen a partir de la cual se generará el servicio, ideal si nuestro servicio no necesita personalización muy complicada.
+La configuración image establece la imagen a partir de la cual se generará el
+servicio, ideal si nuestro servicio no necesita personalización muy complicada.
 
 ```bash
 version: "3.8"
@@ -85,9 +123,12 @@ services:
 
 ### build
 
-En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. 
+En el caso de que necesitamos una imagen personalizada probablemente será mejor
+usar un Dockerfile. La opción build nos permite indicar el directorio donde este
+se encuentra. 
 
-Si no sabes que es un Dockerfile acá te explico [como funciona y para que sirve Docker.](/que-es-docker-y-para-que-sirve/)
+Si no sabes que es un Dockerfile acá te explico [como funciona y para que sirve
+Docker.](/que-es-docker-y-para-que-sirve/)
 
 ```docker
 version: "3.8"
@@ -98,7 +139,10 @@ services:
 
 ### context y dockerfile
 
-También podemos escribir un Dockerfile personalizado, en lugar del predeterminado, especificando en context el lugar donde se encuentra y en dockerfile su nombre. Esto es bastante útil pues nos permite especificar diferentes archivos para producción o para desarrollo.
+También podemos escribir un Dockerfile personalizado, en lugar del
+predeterminado, especificando en context el lugar donde se encuentra y en
+dockerfile su nombre. Esto es bastante útil pues nos permite especificar
+diferentes archivos para producción o para desarrollo.
 
 ```docker
 version: "3.8"
@@ -111,7 +155,9 @@ services:
 
 ### command
 
-Command sobreescribe el comando predeterminado del contenedor. Esta opción es ideal para ejecutar un comando cuando inicia un servicio, por ejemplo un servidor web.
+Command sobreescribe el comando predeterminado del contenedor. Esta opción es
+ideal para ejecutar un comando cuando inicia un servicio, por ejemplo un
+servidor web.
 
 ```docker
 version: "3.8"
@@ -122,7 +168,8 @@ web:
 
 ### ports
 
-Ports nos dice los puertos que expondremos al exterior y a cual puerto de nuestra máquina se vincularán, siempre en el formato de HOST:CONTENEDOR.
+Ports nos dice los puertos que expondremos al exterior y a cual puerto de
+nuestra máquina se vincularán, siempre en el formato de HOST:CONTENEDOR.
 
 ```docker
 version: "3.8"
@@ -133,7 +180,8 @@ web:
     - "80:8000"
 ```
 
-En el código de arriba el puerto 80 de nuestra máquina se corresponderá con el puerto 8000 del contenedor.
+En el código de arriba el puerto 80 de nuestra máquina se corresponderá con el
+puerto 8000 del contenedor. Recuerda, HOST:CONTENEDOR.
 
 También podemos especificar el protocolo udp o tcp.
 
@@ -149,7 +197,9 @@ services:
 
 ### expose
 
-Expose también expone puertos, **la diferencia con ports es que los puertos solo estarán disponibles para los servicios vinculados,** no para la máquina desde donde estamos ejecutando docker-compose.
+Expose también expone puertos, **la diferencia con ports es que los puertos solo
+estarán disponibles para los servicios vinculados,** no para la máquina desde
+donde estamos ejecutando docker-compose.
 
 ```docker
 version: "3.8"
@@ -162,9 +212,13 @@ services:
 
 ### depends\_on
 
-A veces queremos que uno de nuestros servicios se ejecute únicamente después de otro. Por ejemplo, para que un servidor web funcione correctamente es necesario tener una base de datos que ya se encuentre en funcionamiento.
+A veces queremos que uno de nuestros servicios se ejecute únicamente después de
+otro. Por ejemplo, para que un servidor web funcione correctamente es necesario
+tener una base de datos que ya se encuentre en funcionamiento.
 
-depends\_on nos permite que el inicio de la ejecución de un servicio dependa de otras. En palabras más sencillas, le dice a docker-compose que deseamos arrancar el servicio web **solo si ya se han cargado todos los demás servicios.**
+depends\_on nos permite que el inicio de la ejecución de un servicio dependa de
+otras. En palabras más sencillas, le dice a docker-compose que deseamos arrancar
+el servicio web **solo si ya se han cargado todos los demás servicios.**
 
 ```docker
 version: "3.8"
@@ -177,11 +231,14 @@ services:
       - redis
 ```
 
-En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya están disponibles los servicios db y redis.
+En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya están
+disponibles los servicios db y redis.
 
 ### environment
 
-La configuración environment nos permite establecer una lista de [variables de entorno](/comandos-de-linux-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
+La configuración environment nos permite establecer una lista de [variables de
+entorno](/comandos-de-linux-que-deberias-conocer-tercera-parte/) que estarán
+disponibles en nuestro servicio.
 
 ```docker
 version: '3.8'
@@ -207,7 +264,9 @@ services:
 
 #### variables de entorno secretas
 
-Si no especificamos un valor para una variable de entorno y dejamos su valor en blanco, docker-compose la tomará de la máquina donde se esté ejecutando docker-compose.
+Si no especificamos un valor para una variable de entorno y dejamos su valor en
+blanco, docker-compose la tomará de la máquina donde se esté ejecutando
+docker-compose.
 
 ```docker
 version: '3.8'
@@ -220,11 +279,14 @@ services:
       SECRET_KEY:
 ```
 
-De esta manera no tenemos que exponer información sensible si decidimos compartir nuestros archivos de Docker compose.
+De esta manera no tenemos que exponer información sensible si decidimos
+compartir nuestros archivos de Docker compose o guardarlos en un sistema de
+versión de controles.
 
 ### env\_file
 
-Si queremos cargar múltiples variables de entorno, en lugar de especificar las variables una por una, en nuestro archivo usaremos env\_file.
+Si queremos cargar múltiples variables de entorno, en lugar de especificar las
+variables una por una, en nuestro archivo usaremos env\_file.
 
 ```docker
 version: '3.8'
@@ -235,7 +297,10 @@ services:
     env_file: common.env
 ```
 
-Considera que la directriz _env\_file_ carga valores dentro de los contenedores. Por lo que estas variables no estarán disponibles al momento de crear el contenedor. Por ejemplo: no puedes poner la variable PORT en un env\_file y luego condicionar el puerto que expone tu servicio.
+Considera que la directriz _env\_file_ carga valores dentro de los contenedores.
+Por lo que estas variables no estarán disponibles al momento de crear el
+contenedor. Por ejemplo: no puedes poner la variable PORT en un env\_file y
+luego condicionar el puerto que expone tu servicio.
 
 ```docker
 # NO ES POSIBLE ESTO
@@ -245,7 +310,9 @@ expose:
 
 ### Variables de entorno con .env
 
-Docker compose carga automáticamente un archivo llamado _.env_ que se encuentre en la raiz del proyecto y utiliza sus variables de entorno en la configuración de sus servicios.
+Docker compose carga automáticamente un archivo llamado _.env_ que se encuentre
+en la raiz del proyecto y utiliza sus variables de entorno en la configuración
+de sus servicios.
 
 ```docker
 # Posible con un archivo.env que contenga PORT=8009
@@ -255,9 +322,15 @@ expose:
 
 ### healthcheck
 
-Este comando es para corroborar el estado de un servicio de manera periódica. Es decir podemos crear un comando que nos permita saber si nuestro contenedor está corriendo de manera correcta.
+Este comando es para corroborar el estado de un servicio de manera periódica. Es
+decir podemos crear un comando que nos permita saber si nuestro contenedor está
+corriendo de manera correcta.
 
-Con la configuración que se encuentra más abajo, Healtcheck va a ejecutar un curl a localhost, cada minuto y medio, una vez hayan pasado 40 segundos, si el comando tarda más de 10 segundos en devolver un resultado lo considerará como un fallo y si un fallo ocurre más de 3 veces el servicio se considerará "no saludable".
+Con la configuración que se encuentra más abajo, Healtcheck va a ejecutar un
+curl a localhost, cada minuto y medio, una vez hayan pasado 40 segundos, si el
+comando tarda más de 10 segundos en devolver un resultado lo considerará como un
+fallo y si un fallo ocurre más de 3 veces el servicio se considerará "no
+saludable".
 
 ```docker
 version: '3.8'
@@ -276,7 +349,10 @@ services:
 
 ### volumes
 
-Podemos mandar partes de nuestro sistema operativo a un servicio usando uno o varios volúmenes. Para esto usamos la sintaxis HOST:CONTENEDOR. Host puede ser una ubicación en tu sistema o también el nombre de un volumen que hayas creado con docker.
+Podemos mandar partes de nuestro sistema operativo a un servicio usando uno o
+varios volúmenes. Para esto usamos la sintaxis HOST:CONTENEDOR. Host puede ser
+una ubicación en tu sistema o también el nombre de un volumen que hayas creado
+con docker.
 
 ```docker
 version: '3.8'
@@ -288,7 +364,8 @@ services:
       - "dbdata:/var/lib/postgresql/data"
 ```
 
-Opcionalmente podemos especificar si el uso de volúmenes será de solo lectura o de lectura y escritura, con "ro" y "rw", respectivamente.
+Opcionalmente podemos especificar si el uso de volúmenes será de solo lectura o
+de lectura y escritura, con "ro" y "rw", respectivamente.
 
 ```docker
 version: '3.8'
@@ -321,11 +398,13 @@ La opción restart puede tomar varios valores
 
 ## Comandos básicos de docker compose
 
-Ahora que ya vimos como está conformado un archivo de docker-compose y algunas de sus configuraciones más comunes, empecemos con los comandos básicos.
+Ahora que ya vimos como está conformado un archivo de docker-compose y algunas
+de sus configuraciones más comunes, empecemos con los comandos básicos.
 
 ### Compilar un archivo de servicios
 
-Para realizar un build a un archivo docker-compose basta con ejecutar build. Este comando buscará un archivo llamado docker-compose.yml en la carpeta actual.
+Para realizar un build a un archivo docker-compose basta con ejecutar build.
+Este comando buscará un archivo llamado docker-compose.yml en la carpeta actual.
 
 ```bash
 docker-compose build
@@ -337,7 +416,8 @@ docker-compose build
 #...
 ```
 
-Si queremos especificar un archivo docker-compose en especifico usamos la opción _\-f_, seguida del nombre del archivo.
+Si queremos especificar un archivo docker-compose en específico usamos la opción
+_\-f_, seguida del nombre del archivo.
 
 ```bash
 docker-compose -f production.yml build
@@ -345,7 +425,10 @@ docker-compose -f production.yml build
 
 ### Ejecutar docker-compose y sus servicios
 
-Una vez que la imagen con nuestros servicios se ha creado podemos iniciar y crear los servicios con el comando up. Con docker-compose up se empezarán o reiniciarán todos los servicios en el archivo docker-compose.yml o el que especifiquemos con _\-f_.
+Una vez que la imagen con nuestros servicios se ha creado podemos iniciar y
+crear los servicios con el comando up. Con docker-compose up se empezarán o
+reiniciarán todos los servicios en el archivo docker-compose.yml o el que
+especifiquemos con _\-f_.
 
 ```bash
 docker-compose up
@@ -355,7 +438,8 @@ docker-compose up
 #Creating django   ... done
 ```
 
-Probablemente querramos ejecutar nuestro stack de servicios en segundo plano, para eso basta con agregar la opción _\-d_ al final.
+Probablemente querramos ejecutar nuestro stack de servicios en segundo plano,
+para eso basta con agregar la opción _\-d_ al final.
 
 ```bash
 docker-compose up -d
@@ -363,7 +447,9 @@ docker-compose up -d
 
 ### Correr un comando dentro de un contenedor en ejecución
 
-Para ejecutar un comando dentro un servicio que está corriendo usamos el comando docker-compose exec, seguido nombre del servicio y el comando. En este caso al ejecutar bash entramos en la terminal de nuestro servicio llamado app.
+Para ejecutar un comando dentro un servicio que está corriendo usamos el comando
+docker-compose exec, seguido nombre del servicio y el comando. En este caso al
+ejecutar bash entramos en la terminal de nuestro servicio llamado app.
 
 ```bash
 docker-compose exec app bash
@@ -371,7 +457,8 @@ docker-compose exec app bash
 
 ### Detener y remover los servicios
 
-Detiene y remueve los contenedores, redes, volúmenes e imágenes que se crean con el comando docker-compose down.
+Detiene y remueve los contenedores, redes, volúmenes e imágenes que se crean con
+el comando docker-compose down.
 
 ```bash
 docker-compose down
@@ -386,7 +473,8 @@ docker-compose down
 
 ### Reiniciar los servicios
 
-Si queremos reiniciar uno o todos los servicios usamos el comando docker-compose restart.
+Si queremos reiniciar uno o todos los servicios usamos el comando docker-compose
+restart.
 
 ```bash
 docker-compose restart
@@ -395,7 +483,8 @@ docker-compose restart
 #Restarting postgres ... done
 ```
 
-Para ejecutar docker-compose restart en solo a un servicio basta con colocar el nombre del servicio al final.
+Para ejecutar docker-compose restart en solo a un servicio basta con colocar el
+nombre del servicio al final.
 
 ```bash
 docker-compose restart servicio
@@ -412,7 +501,8 @@ docker-compose stop
 #Stopping postgres ... done
 ```
 
-Para ejecutar docker-compose stop a solo a un servicio basta con colocar el nombre del servicio al final.
+Para ejecutar docker-compose stop a solo a un servicio basta con colocar el
+nombre del servicio al final.
 
 ```bash
 docker-compose stop servicio
@@ -420,7 +510,9 @@ docker-compose stop servicio
 
 ### Iniciar los servicios de docker-compose sin crearlos
 
-Podemos iniciar uno o todos los servicios con docker-compose start. Este comando es útil solo para reiniciar contenedores previamente creados pero detenidos en algún momento, además no crea ningún contenedor nuevo.
+Podemos iniciar uno o todos los servicios con docker-compose start. Este comando
+es útil solo para reiniciar contenedores previamente creados pero detenidos en
+algún momento, además no crea ningún contenedor nuevo.
 
 ```bash
 docker-compose start
@@ -429,7 +521,8 @@ docker-compose start
 #Starting docs     ... done
 ```
 
-Al añadir el nombre de un servicio al final el comando docker-compose start se ejecutará en solo ese servicio.
+Al añadir el nombre de un servicio al final el comando docker-compose start se
+ejecutará en solo ese servicio.
 
 ```bash
 docker-compose start servicio
@@ -437,7 +530,11 @@ docker-compose start servicio
 
 ### Correr un comando dentro de un servicio
 
-Para ejecutar un comando dentro de uno de nuestros servicios usamos el comando run, la opción --rm eliminará el contenedor que se creará al terminar de ejecutarse, a continuación colocamos el comando. A diferencia de docker-compose start, **este comando se usa para efectuar tareas que se llevan a cabo solo una vez.**
+Para ejecutar un comando dentro de uno de nuestros servicios usamos el comando
+run, la opción --rm eliminará el contenedor que se creará al terminar de
+ejecutarse, a continuación colocamos el comando. A diferencia de docker-compose
+start, **este comando se usa para efectuar tareas que se llevan a cabo solo una
+vez.**
 
 ```bash
 docker-compose run --rm django python manage.py migrate
@@ -464,7 +561,8 @@ docker-compose ps servicio
 
 ### Acceder a los procesos
 
-De la misma manera que el comando top en GNU/Linux, docker-compose top nos muestra los procesos de cada uno de nuestros servicios.
+De la misma manera que el comando top en GNU/Linux, docker-compose top nos
+muestra los procesos de cada uno de nuestros servicios.
 
 ```bash
 docker-compose -f local.yml top
@@ -475,7 +573,8 @@ docker-compose -f local.yml top
 #...
 ```
 
-Para ver los procesos de un único servicio basta con escribir su nombre al final del comando docker-compose top
+Para ver los procesos de un único servicio basta con escribir su nombre al final
+del comando docker-compose top
 
 ```bash
 docker-compose top servicio
@@ -483,7 +582,9 @@ docker-compose top servicio
 
 ### Ver los logs
 
-Si algo salió mal podemos ver los logs usando docker-compose logs. Si queremos ver los logs de un stack en específico basta con establecer nuestro archivo yml con la opción _\-f._
+Si algo salió mal podemos ver los logs usando docker-compose logs. Si queremos
+ver los logs de un stack en específico basta con establecer nuestro archivo yml
+con la opción _\-f._
 
 ```bash
 docker-compose -f production.yml logs
@@ -496,7 +597,8 @@ docker-compose -f production.yml logs
 #docs        | sphinx-autobuild -b html --host 0.0.0.0 --port 7000 --watch /app -c . ./_source ./_build/html
 ```
 
-De igual manera que con los demás comandos, si queremos leer los logs de un servicio es suficiente con agregar su nombre al final.
+De igual manera que con los demás comandos, si queremos leer los logs de un
+servicio es suficiente con agregar su nombre al final.
 
 ```bash
 docker-compose -f production.yml logs servicio
@@ -504,13 +606,21 @@ docker-compose -f production.yml logs servicio
 
 ## Escalar contenedores
 
-Antes se usaba el comando docker-compose scale para escalar los servicios. En las nuevas versiones de docker-compose escalar contenedores se realiza con el comando docker-compose up. Tras el comando agregamos la opción --scale seguida del servicio que queremos escalar y el número de copias usando el formato servicio=numero.
+Antes se usaba el comando docker-compose scale para escalar los servicios. En
+las nuevas versiones de docker-compose escalar contenedores se realiza con el
+comando docker-compose up. Tras el comando agregamos la opción --scale seguida
+del servicio que queremos escalar y el número de copias usando el formato
+servicio=numero.
 
 ```bash
 docker-compose -f production.yml up -d --scale servicio=3
 ```
 
-Hay que tomar en cuenta que cuando escalamos un contenedor, se intentará crear otro contenedor con un puerto que ya estará en uso, lo que provocará un conflicto, por esta razón necesitamos especificar rangos de puertos en nuestro archivo de docker compose. Tampoco podemos usar nombres de contenenedores en nuestros servicios, por los que habrá que removerlos.
+Hay que tomar en cuenta que cuando escalamos un contenedor, se intentará crear
+otro contenedor con un puerto que ya estará en uso, lo que provocará un
+conflicto, por esta razón necesitamos especificar rangos de puertos en nuestro
+archivo de docker compose. Tampoco podemos usar nombres de contenenedores en
+nuestros servicios, por los que habrá que removerlos.
 
 ```docker
 services:
@@ -532,4 +642,7 @@ services:
     command: /start
 ```
 
-¿Que tal una aplicación práctica de Docker Compose? En mi siguiente entrada te explico como hacer un deploy usando cookiecutter-django y docker-compose; gracias a cookie-cutter bastan un par de comandos de docker-compose y listo, una aplicación lista para producción, con SSL y muchas más funciones.
+¿Que tal una aplicación práctica de Docker Compose? En mi siguiente entrada te
+explico como hacer un deploy usando cookiecutter-django y docker-compose;
+gracias a cookie-cutter bastan un par de comandos de docker-compose y listo, una
+aplicación lista para producción, con SSL y muchas más funciones.
