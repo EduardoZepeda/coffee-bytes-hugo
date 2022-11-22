@@ -69,10 +69,10 @@ Hay 3 cifras en los números que siguen al comando chmod, cada cifra representa 
 El permiso '_r_' tendrá un valor de 4, el permiso '_w_' un valor de 2 y el permiso '_x_' un valor de 1.
 
 | Permiso | Valor |
-| --- | --- |
-| Leer | 4 |
-| Escribir | 2 |
-| Ejecutar | 1 |
+| ------- | ----- |
+| Leer    |   4   |
+| Escribir|   2   |
+| Ejecutar|   1   |
 
 ![Significado de los números en los permisos GNU/Linux](images/PermisosNumerosGNULinux.png)
 
@@ -82,15 +82,9 @@ La primera cifra representa los permisos del propietario del archivo, la segunda
 
 | Valor del Permiso | Permisos para... |
 | --- | --- |
-| 755 | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar)  
-grupo: 4 + 1 = 5 (Leer y ejecutar)  
-otros: 4 + 1 = 5 (Leer y ejecutar) |
-| 777 | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar)  
-grupo: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar)  
-otros: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) |
-| 111 | propietario: 1 (Ejecutar)  
-grupo: 1 (Ejecutar)  
-otros: 1 (Ejecutar) |
+| 755 | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) grupo: 4 + 1 = 5 (Leer y ejecutar) otros: 4 + 1 = 5 (Leer y ejecutar) |
+| 777 | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) grupo: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) otros: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) |
+| 111 | propietario: 1 (Ejecutar) grupo: 1 (Ejecutar) otros: 1 (Ejecutar) |
 
 Veamos algunos ejemplos del equivalente en permisos de los números.
 

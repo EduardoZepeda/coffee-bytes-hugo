@@ -45,8 +45,7 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 
 ### Tabla para vendedor
 
-| Id | Name  
- |     |
+ | Id  | Name      |
  | --- | --------- |
  | 1   | Poe       |
  | 2   | Lovecraft |
@@ -54,16 +53,13 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 
 ### Tabla para pedido
 
-| Id  | Total | seller\_id |
+| Id  | Total | Seller id  |
 | --- | ----- | ---------- |
 | 1   | 100   | 1          |
 | 2   | 200   | 1          |
-| 3   | 300   |
-| 2   |
-|     |
+| 3   | 300   | 2          |
 | 4   | 400   | 2          |
-| 5   |
-| 500 | 3     |
+| 5   | 500   | 3          |
 | 6   | 600   | 3          |
 
 Antes de hablar sobre annotate y aggregate hay que asegurarnos de saber como obtener la consulta SQL que hará Django.
