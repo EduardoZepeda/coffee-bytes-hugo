@@ -5,13 +5,14 @@ date: "2020-07-18"
 
 Leyendo actualmente:
 
-- Refactoring por Martin Fowler
 - Serious Cryptography: A Practical Introduction to Modern Encryption de JeanPhilippe Aumasson
 
 Esta es la lista de libros que he leído para aprender sobre desarrollo web y programación. Tengo reseñas de algunos disponibles y estoy constantemente actualizando esta lista.
 
 Los libros no están en ningún orden en particular
 
+- Refactoring por Martin Fowler
+- Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho
 - System design interview de Alex Xu
 - Let's Go Further de Alex Edwards
 - Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf
