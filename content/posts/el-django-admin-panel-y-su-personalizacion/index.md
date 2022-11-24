@@ -254,9 +254,22 @@ Si seleccionamos algunos elementos y ejecutamos la acción, los calificará con 
 
 ## Instalando plantillas externas para django admin
 
-Existen bastantes paquetes que modifican la apariencia del admin, un ejemplo de estos es _django-material-admin_.
+Existen bastantes paquetes que permiten modificaciones bastante sofisticadas del django admin, que incluso pueden volverlo un CMS, just como Wordpress, con los que puedes entregarle a tus clientes una aplicación complemente funcional y lista para ser usada por personas no técnicas.
 
-Vamos a instalarlo
+Algunos ejemplos de lo anterior incluyen los siguientes paquetes:
+
+- [Jazzmin](https://django-jazzmin.readthedocs.io/)
+- [Wagtail](https://wagtail.org/)
+- [Mezzanine](https://github.com/stephenmcd/mezzanine)
+- [Django CMS](https://www.django-cms.org/en/)
+
+Cada uno es un tema en si mismo, por lo que no puedo resumirlos en una sola entrada.
+
+## Ejemplo de mejora visual con django material admin
+
+Para finalizar te mostraré un ejemplo de mejora visual con _django-material-admin_.
+
+Vamos a instalarlo.
 
 ```python
 pipenv install django-material-admin
@@ -302,7 +315,7 @@ Panel de logueo del admin de django con django-material
 
 Usé este paquete en especial porque se instala muy fácil y le da un aspecto completamente diferente al admin. Pero existen [muchas otras opciones disponibles](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80) que puedes elegir, algunas de pago y otras gratuitas.
 
-## Volver el django admin más seguro
+## Seguridad en el django admin
 
 Es recomendable cambiar la url predeterminada, _/admin/_, a otra menos obvia, esto con la finalidad de prevenir ataques por fuerza bruta, si el atacante no conoce la dirección del django admin, le será imposible intentar adivinar tu contraseña por fuerza bruta.
 
