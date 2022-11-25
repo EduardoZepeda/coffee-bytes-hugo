@@ -3,7 +3,7 @@ title: "Django Annotate y aggregate explicados"
 date: "2020-11-17"
 categories: 
   - "django"
-  - "databases"
+  - "bases de datos"
 coverImage: "images/Django_aggregate_y_annotate.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
 description: "Aprende las diferencias, características y el uso de annotate y aggregate en Django en este tutorial, leyendo SQL con ejemplos y código."

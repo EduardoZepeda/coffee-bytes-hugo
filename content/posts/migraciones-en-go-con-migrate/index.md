@@ -1,16 +1,16 @@
 ---
-title: "Migraciones en Go Con Migrate"
-date: "2022-11-23"
-draft: true
+title: "Tutorial de migraciones en Go con migrate"
+date: "2022-11-25"
 categories: 
   - go
-  - databases
+  - "bases de datos"
 coverImage: "images/migrations-go.jpg"
 keywords:
   - go
   - postgres
-  - databases
+  - "bases de datos"
   - migrations
+description: "En este tutorial te explico que son las migraciones up, down de una base de datos, así como a crearlas y manejarlas usando la librería migrate de go."
 ---
 
 En frameworks como [Django, las migraciones se crean automáticamente](/por-que-deberias-usar-django-framework/#su-orm-es-sencillo-y-maravilloso), a partir de los modelos. Sin embargo en lenguajes como go, siempre y cuando no estemos usando un ORM, las migraciones se realizarán de manera manual.
@@ -24,7 +24,7 @@ Una migración consiste en dos archivos con instrucciones SQL:
 - archivo up: Para realizar cambios en la base de datos
 - archivo down: Para revertir cambios en la base de datos
 
-Para este caso se llaman up y down, pero podrías ponerle cualquier otro nombre, como forward y backward, o adelante y atrás.
+Para este caso se llaman up y down, pero podrías ponerle cualquier otros nombres; como forward y backward, o adelante y atrás.
 
 Por ejemplo:
 
@@ -34,7 +34,7 @@ Por ejemplo:
 
 Observa como las migraciones son reversibles y complementarias; una realiza una acción y la otra la elimina. 
 
-siguiendo esta lógica podemos realizar cambios en la base de datos y luego revertirlos.
+Siguiendo esta lógica podemos realizar cambios en la base de datos y luego revertirlos.
 
 Estos dos archivos pueden ser generados automáticamente (como en el caso de Django, a partir de los modelos) o podemos escribirlos nosotros directamente en SQL, como en el caso de go.
 
@@ -66,7 +66,7 @@ migrate create -seq -ext=.sql -dir=./migrations <nombre_de_la_migración>
 
 Te explico que hace cada flag:
 
-* seq: indica que será secuencial, para que empiece por 00001...n hasta el número de migraciones que tengamos.
+* seq: indica que será secuencial, para que empiece por 000001 y continue hasta 00000n; el total de migraciones que tengamos.
 * dir: indicará el directorio
 * ext: la extensión del archivo, en este caso sql
 * Al final el nombre que queremos que tenga la migración. Yo usaré create_first_table para este ejemplo.
@@ -96,7 +96,7 @@ Y, para revertir lo anterior, está el archivo down:
 DROP TABLE "users";
 ```
 
-Nuevamente, aprecia como ambas instrucciones SQL son complementarias; una crea una tabla y la otra la elimina.
+Nuevamente, aprecia como ambas instrucciones SQL son complementarias; una crea una tabla y la otra la elimina. Pero puedes poner más de una instrucción y estas pueden ser lo que quieras, un index, un constraint, una rutina, etc.
 
 ## Ejecutar migraciones con migrate en Go
 
@@ -110,9 +110,11 @@ Y, obviamente, lo más cómodo y seguro será guardar esta dirección en [una va
 BASE_DE_DATOS=[motor]://[usuario]:[contraseña]@[dominio]/[base de datos]
 ```
 
+Ahora ya tenemos una base de datos a la cual conectarnos.
+
 ### Aplicar migraciones
 
-Para aplicar todas las migraciones usaremos el comando up. Migrate detectará automáticamente la numeración y ejecutará todas las migraciones up en orden ascendente.
+Para aplicar todas las migraciones usaremos el comando up. Migrate detectará automáticamente la numeración y ejecutará *todas las migraciones up* en orden ascendente.
 
 ```bash
 migrate -path=./migrations -database=$BASE_DE_DATOS up
@@ -120,7 +122,7 @@ migrate -path=./migrations -database=$BASE_DE_DATOS up
 
 ### Revetir migraciones
 
-Por otro lado, para revertir todas las migraciones usaremos el comando down. Migrate detectará automáticamente la numeración y ejecutará todas las migraciones down en orden descendente.
+Por otro lado, para revertir todas las migraciones usaremos el comando down. Migrate detectará automáticamente la numeración y ejecutará *todas las migraciones down* en orden descendente.
 
 ```bash
 migrate -path=./migrations -database=$BASE_DE_DATOS down
@@ -134,7 +136,7 @@ Mientras que, si queremos ir a una migración en específico, usaremos el comand
 migrate -path=./migrations -database=$BASE_DE_DATOS goto <numero de migración>
 ```
 
-Migrate detectará la migración activa y ejecutará las migraciones up or down correspondientes.
+Migrate detectará la migración activa y ejecutará *las migraciones up or down correspondientes* para llevar la base de datos a ese estado.
 
 ## La tabla de migraciones
 
@@ -154,7 +156,7 @@ Además, esta tabla también contiene una columna llamada *dirty* que índica si
 migrate -path=./migrations -database=$BASE_DE_DATOS force 1
 ```
 
-## Migraciones remotas
+## Migraciones a bases de datos remotas
 
 La herramienta Migrate también soporta migraciones remotas tales como:
 
@@ -169,7 +171,7 @@ La herramienta Migrate también soporta migraciones remotas tales como:
 * AWS S3
 * Google Cloud Storage
 
-Cada uno con su sintaxis específica. Por ejemplo:
+Cada uno de estos endpoints requiere una sintaxis específica. Por ejemplo, el de Amazon S3 luce así:
 
 ```bash
 migrate -source="s3://<bucket>/<path>" -database=$BASE_DE_DATOS up
