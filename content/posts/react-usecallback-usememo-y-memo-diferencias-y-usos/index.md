@@ -12,13 +12,15 @@ keywords:
   - "rendimiento"
 ---
 
-Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de React usando memoización, evitando renderizaciones inútiles, cada uno con sus diferencias, similitudes y casos de uso. Estas tres funciones no deben ser usadas de manera indiscriminada, sino exclusivamente en aquellas situaciones en las que su impacto sea mucho menor que los beneficios que ofrecen.
+Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de React usando memoización, evitando renderizaciones inútiles, cada uno con sus diferencias, similitudes y casos de uso. Estas tres funciones no deben ser usadas de manera indiscriminada, sino exclusivamente en aquellas situaciones en las que su impacto sea menor que los beneficios que ofrecen.
 
 Visita mi entrada donde comparto [5 librerías de React](/5-librerias-geniales-de-react-que-debes-conocer/) que no pueden faltarte en tu arsenal.
 
+## Memoización y manejo de objetos en Javascript
+
 Antes de empezar pasar a las funciones hay dos conceptos que tienes que entender primero: memoización y el manejo de objetos por parte de Javascript. Avanza a la parte de useCallback si ya los dominas.
 
-## Un poco sobre memoización
+### ¿Qué es memoización?
 
 Memoizar significa memorizar un valor para evitar procesarlo nuevamente, generalmente se usa para ahorrarte el costo de producir un valor una y otra vez.
 
@@ -26,7 +28,9 @@ Imagína que quieres multiplicar los números 17 y 19. Tomarías papel y pluma o
 
 Mientras te sigan preguntando por la multiplicación de 17 y 19 tu podrás devolver una respuesta sin calcularla nuevamente. Acabas de memoizar el resultado de multiplicar 17 y 19 y puedes devolverlo sin tener que calcularlo nuevamente.
 
-## Aunque dos funciones sean iguales, se consideran dos objetos diferentes
+Ahora te explico como maneja Javascript los objetos.
+
+### ¿Cómo maneja Javascript los objetos ? 
 
 En Javascript, cuando comparamos dos valores nativos obtendremos el mismo resultado. Sin embargo, los objetos, incluidas las funciones, no se consideran iguales, incluso aunque sean idénticos.
 
@@ -42,7 +46,7 @@ false
 //las funciones son idénticas, sin embargo, al ser objetos diferentes, no son iguales para JS
 ```
 
-Mira este otro ejemplo, a pesar de que dos objetos tengan las mismas propiedades y valores, dado que se encuentran en diferentes direcciones de memoria, no son iguales:
+Otro ejemplo:
 
 ```javascript
 const A = {uno: 1, dos:2}
@@ -51,11 +55,13 @@ A===B
 // false
 ```
 
-### Creación de funciones en React
+Aunque dos objetos sean iguales y tengan las mismas propiedades y valores, dado que se encuentran en diferentes direcciones de memoria, se consideran dos objetos diferentes por parte de Javascript.
+
+## Creación de objetos en React
 
 Lo anterior aplica exactamente igual en React. **Cada vez que React crea una función se está creando un nuevo objeto**, distinto al anterior, incluso aunque cumplan la misma función, linea por linea.
 
-En el siguiente código, **cada vez que se renderice el componente MyComponent, React creará una función nueva** llamada _callback_, distinta a la de la renderización pasada.
+Mira el siguiente código, **cada vez que se renderice el componente MyComponent, React creará una función nueva** llamada _callback_, distinta a la de la renderización pasada.
 
 ```javascript
 import { useCallback } from 'react';
@@ -68,7 +74,11 @@ const MyComponent = ({prop}) => {
 }
 ```
 
-## Diferencias entre useCallback, useMemo y memo 
+Ahora que sabes como manejan Javascript y React los objetos vamos al tema principal.
+
+## Diferencias entre useCallback, useMemo y memo
+
+Para empezar diremos que *useCallback, useMemo y memo son funciones de memoización*, estas funciones nos ahorrarán volver a calcular *algo* desde cero.
 
 Las diferencias básicas entre useCallback, useMemo y memo se resumen en la siguiente tabla.
 
@@ -82,9 +92,9 @@ En conjunto, [memo, useMemo y useCallback, se usan para evitar renderizaciones i
 
 ## useCallback memoiza funciones
 
-useCallback **es un hook de React** que se encarga de memoizar las funciones y de que no se rerenderizen al montarse los components. Es muy útil cuando se transfieren funciones a componentes hijos.
+useCallback **es un hook de React** que se encarga de memoizar las funciones y de que no se re-renderizen al montarse los components. Es muy útil cuando se transfieren funciones a componentes hijos.
 
-La función useCallback acepta dos argumentos y **retorna una función**. El primer argumento es la función a memoizar y el segundo, al igual que useEffect, es una variable a vigilar, de manera que React no genere una nueva función con cada renderizado, siempre y cuando esa variable no cambie. Al igual que con useEffect también podemos dejar el array vacio, en lugar de value.
+La función useCallback acepta dos argumentos y **retorna una función**. El primer argumento es la función a memoizar y el segundo, al igual que useEffect, es una array de variables a vigilar, de manera que React no genere una nueva función con cada renderizado, siempre y cuando esas variables no cambien. Al igual que con useEffect también podemos dejar el array vacio.
 
 ```javascript
 import { useCallback } from 'react'
@@ -98,11 +108,11 @@ const MyComponent = ({prop}) => {
 }
 ```
 
-De nuevo, mientras el prop que recibe el componente llamado Component, se mantenga constante, no se creará una nueva función, por más que se re-renderice el componente.
+Lo repito, mientras el prop que recibe el componente llamado Component, se mantenga constante, no se creará una nueva función, por más que se re-renderice el componente.
 
 ## useMemo memoiza valores
 
-Esta función **es un hook** de React que sirve para memoizar el valor que devuelve una función. La función useMemo acepta dos argumentos y **retorna un valor**. El primer argumento es la función y el segundo, al igual que useCallback, es una variable a vigilar, de manera que no se generará un nuevo valor mientras esa variable no cambie.
+Esta función **es un hook** de React que sirve para memoizar el valor que devuelve una función. La función useMemo acepta dos argumentos y **retorna un valor**. El primer argumento es la función y el segundo, al igual que useCallback, es un array de variables a vigilar, de manera que no se generará un nuevo valor mientras esas variables no cambien.
 
 ```javascript
 import { useMemo } from 'react'
@@ -120,9 +130,9 @@ Nuevamente, mientras _value_ se mantenga constante, no se ejecutará _getExpensi
 
 Memo **no es un hook**, es un High Order Component (HOC), es decir una función que toma un componente como parámetro y **retorna un nuevo componente.**
 
-Memo revisa si los props del componente que recibe han cambiado, si no lo han hecho, devolverá el componente memoizado, sin renderizarlo.
+Memo revisa si los props del componente que recibe han cambiado, si no lo han hecho, devolverá el componente memoizado, sin renderizarlo nuevamente.
 
-Repitiéndolo, a diferencia de useCallback y useMemo, memo **no es un hook**, sino una función de memoización que se ejecuta sobre un componente.
+Una vez más, a diferencia de useCallback y useMemo, memo **no es un hook**, sino una función de memoización que se ejecuta sobre un componente.
 
 ```javascript
 import { memo } from 'react'
@@ -134,7 +144,7 @@ const MyComponent = ({id, title}) => {
 export default memo(MyComponent)
 ```
 
-Imagínate que tenemos el componente anterior. Mientras _id_ y _title_ no cambien, el componente llamado _Component_, no se renderizará nuevamente, sino que se devolverá su valor memoizado.
+Por ejemplo, imagínate que tenemos el componente anterior. Mientras _id_ y _title_ no cambien, el componente llamado _Component_, no se renderizará una vez más, sino que se devolverá su valor memoizado.
 
 ```javascript
 import MyComponent from './MyComponent'
@@ -149,6 +159,8 @@ const ParentComponent = () => {
    </>)
 }
 ```
+
+### casos de uso de memo
 
 Memo es ideal para componentes que:
 
