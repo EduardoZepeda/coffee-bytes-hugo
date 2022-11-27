@@ -61,7 +61,7 @@ COMMIT;
 Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que
 cambiar de motor de base de datos es bastante sencillo y tras unos pocos cambios
 puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente
-cambiando un par de lineas en la configuración.
+cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/tutorial-de-migraciones-en-go-con-migrate/).
 
 ```python
 # settings.py
