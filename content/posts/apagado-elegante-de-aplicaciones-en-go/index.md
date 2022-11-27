@@ -76,7 +76,7 @@ func gracefulShutdown() {
 }
 ```
 
-Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute dentro de su [propia goroutine](/go-goroutines-channels-o-canales-introduccion/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
+Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute dentro de su [propia goroutine](/go-introduccion-a-las-goroutines-y-concurrencia/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
 
 ```go
 func main() {

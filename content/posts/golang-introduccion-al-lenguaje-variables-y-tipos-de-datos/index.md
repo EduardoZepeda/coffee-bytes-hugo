@@ -21,7 +21,7 @@ Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la con
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
-* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/go-goroutines-channels-o-canales-introduccion/) es bastante sencillo
+* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/go-uso-de-channels-o-canales-para-comunicar-gorutinas/) es bastante sencillo
 * **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
 ### ¿Por qué apesta go?

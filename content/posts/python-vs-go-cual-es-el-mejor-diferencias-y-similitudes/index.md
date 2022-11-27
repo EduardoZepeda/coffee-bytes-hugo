@@ -156,7 +156,7 @@ except:
 
 ### Asincronismo en go
 
-Uno de los puntos fuertes de este lenguaje es la creación de concurrencia por medio de sus [_goroutines_, o gorutinas y canales](/go-goroutines-channels-o-canales-introduccion/). Usarlas es bastante sencillo, basta con añadir la palabra go antes de una función. Añadimos un contador con _Add_ y lo removemos con Done. Cuando nuestro grupo de espera, _wg_, tenga cero contadores, terminará la ejecución.
+Uno de los puntos fuertes de este lenguaje es la creación de concurrencia por medio de sus [_goroutines_, o gorutinas y canales](/go-introduccion-a-las-goroutines-y-concurrencia/). Usarlas es bastante sencillo, basta con añadir la palabra go antes de una función. Añadimos un contador con _Add_ y lo removemos con Done. Cuando nuestro grupo de espera, _wg_, tenga cero contadores, terminará la ejecución.
 
 Sus capacidades de concurrencia lo hacen ideal para servidores web.
 
