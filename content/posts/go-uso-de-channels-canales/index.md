@@ -2,7 +2,6 @@
 title: "Go: uso de channels o canales para comunicar goroutinas"
 date: "2022-01-22"
 coverImage: "images/go-channels-o-canales.jpg"
-draft: true
 categories:
   - go
 keywords:
