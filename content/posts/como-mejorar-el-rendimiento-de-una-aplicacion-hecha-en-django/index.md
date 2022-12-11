@@ -1,12 +1,12 @@
 ---
-title: "¿Cómo mejorar el rendimiento de una aplicación hecha en Django?"
+title: "Maximiza el rendimiento de tu aplicación hecha en Django con estos tips" 
 date: "2020-12-30"
 categories: 
   - "arquitectura de software"
   - "django"
 coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@tranmautritam/"
-description: "Aprende algunas de las acciones que puedes implementar para mejorar el rendimiento y aumentar la velocidad de una aplicación de Django."
+description: "Maximiza el rendimiento de tu aplicación hecha en Django con esta compilación de tips que van desde tus queries, pasando por caché, hasta frameworks alternativos."
 keywords:
   - rendimiento
   - django
@@ -21,15 +21,17 @@ configurado (en caso de que sea nginx, visita mi entrada donde explico [como
 configurar nginx para un mayor
 rendimiento)](/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/), o
 simplemente una aplicación no optimizada para dar el máximo rendimiento en
-django. En esta entrada te explico algunos cambios que puedes implementar, en
-una aplicación de Django, para mejorar su rendimiento.
+django. 
+
+En esta entrada te explico algunos cambios que puedes implementar, en una
+aplicación de Django, para mejorar su rendimiento.
 
 ## Reduce las queries lentas en Django
 
 Como ya sabes, el acceso a la base de datos suele ser el cuello de botella de la
 mayoría de las aplicaciones. **La acción más importante a realizar es reducir el
-número de queries y el impacto de cada una de estas**. Puedes reducir tus
-queries en un 90%, no exagero.
+número de queries y el impacto de cada una de estas**. Puedes reducir el impacto
+de tus queries en un 90%, y no exagero.
 
 Es bastante común escribir código que ocasiones múltiples consultas a la base de
 datos, así como búsquedas bastante costosas.
@@ -54,9 +56,10 @@ redúcelas, o vuélvelas más eficientes:
   en código Python
 
 ![Django debug tool bar mostrando las queries SQL de una petición en
-Django](images/django-debug-tool-bar-numero-queries.png)
+Django](images/django-debug-tool-bar-numero-queries.png "Django debug tool bar
+mostrando las queries SQL de una petición en Django ")
 
-Django debug tool bar mostrando las queries SQL de una petición en Django
+Ejemplo de uso con *select_related*.
 
 ```python
 # review/views.py
@@ -79,14 +82,15 @@ asíncronas: hypercorn o uvicorn. Este último implementa un worker de gunicorn.
 Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la
 cantidade núcleos de tu procesador. Ellos recomiendan establecer los workers en
 (2 x número de nucleos) + 1. Según la documentación, con 4-12 workers puedes
-servir desde cientos hasta miles de peticiones por segundo.
+servir desde cientos hasta miles de peticiones por segundo, por lo que debería
+bastar para un sitio web de escala mediana o hasta grande.
 
 ## Mejora el rendimiento de tus serializers
 
 Si usas DRF y usas sus clases genéricas para crear serializers, puede que no
 estés obteniendo exactamente el mejor rendimiento. Las clases genéricas para
-serializers usan validación, que puede ser bastante costoso en tiempo si solo
-vas a leer datos.
+serializers realizan validación de los datos, que puede ser bastante costoso en
+tiempo si solo vas a leer datos.
 
 Incluso si recordaste marcar tus campos como read\_only, los serializers de DRF
 no son los más rápidos, puede que quieras revisar
@@ -103,10 +107,12 @@ coste en tiempo, de la serialización en un
 
 Probablemente suene bastante obvio, aún así siento que debo mencionarlo: no
 necesitas devolver toda una tabla de una base de datos si a tu usuario solo le
-interesan los primeros registros.
+resultan útiles los primeros registros.
 
 Usa el objeto _paginator_ que ofrece Django, o limita los resultados de una
-búsqueda a unos cuantos. DRF también cuenta con una opción para [paginar sus
+búsqueda a unos cuantos. 
+
+DRF también cuenta con una opción para [paginar sus
 resultados](https://www.django-rest-framework.org/api-guide/pagination/),
 revísala.
 
@@ -127,7 +133,7 @@ Entiende tus queries más complejas e intenta crear índices para ellas. El índ
 hará tus búsquedas en Django más rápidas, pero también ralentizará, ligeramente,
 las creaciones y actualizaciones de nueva información, además de ocupar un poco
 más de espacio en tu base de datos. Intenta llegar a un balance sano entre
-velocidad y almacenamiento.
+velocidad y espacio de almacenamiento usado.
 
 ```python
 from django.db import models
@@ -138,6 +144,20 @@ class Review(models.Model):
         db_index=True,
     )
 ```
+
+## Usa índices para tus búsquedas
+
+Si tu aplicación hace un uso intensivo de las búsquedas de información,
+considera usar un [motor de búsqueda eficiente, como
+Solr](/busquedas-con-solr-con-django-haystack/), en lugar de implementar el
+código por ti mismo.
+
+Hay muchas opciones disponibles:
+
+* ElasticSearch
+* Solr
+* Whoosh
+* Xapian
 
 ## Remueve middleware que no uses
 
@@ -268,7 +288,8 @@ en el mismo país (o continente) que tu usuario dará como reusltado una respues
 más rápida.
 
 Existen muchas opciones de CDN disponibles, entre las opciones más populares
-están AWS, Digital Ocean, Cloud Flare, entre otras.
+están AWS, [Azure](/examen-de-certificacion-azure-az-900-mi-experiencia/),
+Digital Ocean, Cloud Flare, entre otras.
 
 ## Denormalización
 
@@ -315,13 +336,13 @@ Además del intérprete normal de Python, el que se ofrece por defecto en la
 página oficial de Python, existen otros intérpretes que aseguran darte un mayor
 rendimiento.
 
-Pypy es uno de ellos, se encarga de optimizar el código Python analizando el
+[Pypy](https://www.pypy.org/) es uno de ellos, se encarga de optimizar el código Python analizando el
 tipo de objetos que se crean con cada ejecución. Esta opción es ideal para
 aplicaciones donde Django se encargue de devolver un resultado que fue procesado
 principalmente usando código Python.
 
 Pero no todo es maravilloso; los intérpretes de terceros, incluido
-[pypy](https://www.pypy.org/), no suelen ser compatibles al 100% con todo el
+pypy, no suelen ser compatibles al 100% con todo el
 código Python, pero sí con la mayoría, por lo que, igual que la opción anterior.
 **Usar un intérprete de terceros también debería de ser de las últimas opciones
 que consideres para resolver tu problema de rendimiento en Django.**
@@ -345,7 +366,7 @@ interpretado, quizás te convenga reescribir el cuello de botella en algún
 lenguaje de bajo nivel para luego llamarlo usando Python. De esta manera tendrás
 la facilidad de uso de Python con la velocidad de un lenguaje de bajo nivel.
 
-## Frameworks alternativos
+## ORMs y frameworks alternativos
 
 Dependiendo del avance de tu aplicación quizás te convenga migrar a otro
 framework más veloz que Django. El ORM de Django no es exactamente el más veloz

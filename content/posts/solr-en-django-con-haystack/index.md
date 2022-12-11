@@ -242,8 +242,15 @@ Observa como redirijo la salida del comando a un archivo llamado *managed_schema
 
 Este archivo es el que reemplazaremos en nuestra configuración de solr.
 
+Primeramente respaldamos la configuración.
+
 ```bash
 mv <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf/_managed_schema.old
+```
+
+Ahora ya es seguro mover la configuración.
+
+```bash
 mv managed_schema <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf
 ```
 

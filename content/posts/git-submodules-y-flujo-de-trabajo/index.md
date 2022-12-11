@@ -114,9 +114,9 @@ Cada vez que realices un cambio **dentro de tu submódulo debes hacer un push de
 
 ¿Cómo solucionarlo? Con estos tres pasos
 
-1. Guardar los cambios (commit) y subir (push) en tu submódulo.
+1. Guardar los cambios (commit) y hacer push en tu submódulo.
 2. Regresar a tu repositorio principal.
-3. Guardar los cambios (commit) y subir (push) en tu repositorio principal.
+3. Guardar los cambios (commit) y hacer push en tu repositorio principal.
 
 ```bash
 # Realizando cambios en el submódulo
