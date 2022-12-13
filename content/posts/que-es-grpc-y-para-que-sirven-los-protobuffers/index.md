@@ -1,8 +1,8 @@
 ---
-title: "Que Es gRPC Y Para Que Sirven Los Protobuffers"
+title: "Libera El Potencial De Tu API Con gRPC y Protobuffers"
 date: "2022-12-09"
 draft: true
-description: "¿Que es una API gRPC y que son los archivos .proto y los protobuffers? ¿qué ventajas tienen los protobuffers sobre JSON y como se usan?"
+description: "¿Que es una API gRPC y que son los archivos .proto y los protobuffers? ¿qué ventajas tienen los protobuffers sobre JSON y cual es el mecanismo que los vuelve tan eficientes?"
 coverImage: "images/que-es-grpc-y-protobuffers.jpg"
 categories:
   - "arquitectura de software"
