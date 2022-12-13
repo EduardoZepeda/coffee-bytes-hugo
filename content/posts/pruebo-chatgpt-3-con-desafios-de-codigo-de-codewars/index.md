@@ -42,13 +42,13 @@ con su explicación y pasos lógicos:
 * Labores muy concretas de algunos frameworks. Por ejemplo: [Sustituir el modelo
   de User en Django.](/como-personalizar-el-modelo-user-en-django/)
 
-![](images/ChatGPT-Django-users.png "Observa como sabe como reemplazar el usuario
-en Django, pero da por hecho que la mejor opción para un campo location es un
-CharField.")
+![](images/ChatGPT-Django-users.png "Observa como sabe como reemplazar el
+usuario en Django, pero da por hecho que la mejor opción para un campo location
+es un CharField.")
 
 Francamente, estoy sorprendido con las capacidades de generar código correcto
-que tiene ChatGPT para tareas sencillas y con información abundante en la red; no
-esperaba tal capacidad.
+que tiene ChatGPT para tareas sencillas y con información abundante en la red;
+no esperaba tal capacidad.
 
 Para esta entrada voy a ponerlo a prueba a esta inteligencia artificial con
 acertijos de algoritmos que requieren un poco más que googlear información en
@@ -211,24 +211,26 @@ Los resultados se resumen en la siguiente tabla:
 | 4 kyu  | ✅        |
 | 1 kyu  | ❌        |
 
-Si bien ChatGPT acertó solo uno de los desafios (y a medias) es capaz de resolver
-problemas sencillos, que también podrían resolverse con una búsqueda en google o
-stackoverflow, esta inteligencia artificial es capaz de devolver un código que
-funciona, más no necesariamente correcto, o el mejor, pero se acerca.
+Si bien ChatGPT acertó solo uno de los desafios (y a medias) es capaz de
+resolver problemas sencillos, que también podrían resolverse con una búsqueda en
+google o stackoverflow, esta inteligencia artificial es capaz de devolver un
+código que funciona, más no necesariamente correcto, ni eficiente, pero se
+acerca.
 
 ChatGPT se vuelve bastante ineficiente con peticiones que requieren de un
-razonamiento más complejo, sin embargo reconozco que, ante cada pregunta, es
-capaz de devolver una respuesta sintácticamente correcta y de apariencia lógica,
-al menos a simple vista, dándonos una falsa sensación de seguridad si
-desconocemos el tema del que estamos preguntándole. Sin embargo sus respuesta sí
-que pueden servir de punto de partida.
+razonamiento más complejo y parece incapaz de construir un sistema complejo, con
+muchas partes que interaccionan entre sí, sin embargo reconozco que, ante cada
+pregunta, es capaz de devolver una respuesta sintácticamente correcta y de
+apariencia lógica, al menos a simple vista, dándonos una falsa sensación de
+seguridad si desconocemos el tema del que estamos preguntándole. Sin embargo sus
+respuesta sí que pueden servir de punto de partida.
 
 ### ¿Es ChatGPT una amenaza para los programadores?
 
-¿Creo que ChatGPT representa va a poner en aprietos muchos trabajos? Sí, creo que
-ChatGPT va a poner en dificultades a la mayoría de los trabajos no desafiantes y
-cuya dificultad radique en una sencilla búsqueda de google, o tareas
-automatizables, que requieran razonamientos simples. Sin embargo, considero que
-es su interfaz tipo chat, más cercana a una conversación, más no la veracidad de
-sus respuestas, la que la pueden popularizar entre los usuarios.
-
+¿Creo que ChatGPT representa va a poner en aprietos muchos trabajos? Sí, creo
+que ChatGPT va a poner en dificultades a la mayoría de los trabajos (no
+necesariamente aquellos relacionados con código) no desafiantes y cuya
+dificultad radique en una sencilla búsqueda de google, o tareas automatizables,
+que requieran razonamientos simples. Sin embargo, considero que no es la
+veracidad de sus respuestas, sino su interfaz tipo chat, y la inmediatez de sus
+respuestas, la que la la podrían volver bastante popular.
