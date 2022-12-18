@@ -22,11 +22,13 @@ Un buen día, mientras navegaba por internet, descubrí los blogs personales en 
 
 Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "manzana amarga", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
 
+![](images/blog-manzana-amarga.jpg "Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.")
+
 Unos años más tarde, gracias a la recomendación de uno de mis mejores amigos, conseguí trabajo en un cyber café. Aprendí como reparar los errores más comunes, conectar impresoras, pasar archivos entre computadoras en red, modificar el registro, descargar archivos por torrent, manejo de paquetería de Office, Photoshop, Keyloggers, conectar computadoras en red, etc. **Sin embargo, durante todo ese tiempo, no escribí ningún programa por mi mismo.**
 
 A la par que trabajaba en el cyber café, decidí estudiar química porque era bueno en las matemáticas y las ciencias exactas. A lo largo de la carrera cree otro blog llamado "Lluvia de fotones" que mantenía mientras tomaba mis clases. La universidad (en general, no solo mi carrera) no me gustó, me pareció lenta, aburrida, protocolaría y llena de sin sentidos. A lo largo de mi estancia en la universidad, saber usar una computadora para buscar información me representó muchísimas ventajas frente a mis compañeros menos diestras en ellas.
 
-Terminé la carrera y me gradué entre los tres mejores promedios de la generación. Sin embargo, tras echar un leve vistazo a los lugares de trabajo decidí nunca ejercer.
+Terminé la carrera y **me gradué entre los tres mejores promedios de la generación**. Sin embargo, tras echar un leve vistazo a los lugares de trabajo decidí nunca ejercer.
 
 ## Supercell y Miku Hatsune
 
@@ -34,9 +36,8 @@ Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.s
 
 Mientras más leía sobre Miku Hatsune más quería saber, estaba estupefacto; la compañía que había programado a Vocaloid estaba, literalmente, dándoles una voz a todos aquellos artistas que, por una u otra razón, no contaban con una voz que le diera vida a sus letras. En ese momento entendí el verdadero potencial que tenía el código y me dije: "yo también quiero usar las computadoras y el código para crear".
 
-![Figura de plástico de Miku Hatsune](images/FiguraDeMikuHatsune.jpg)
+![Figura de plástico de Miku Hatsune](images/FiguraDeMikuHatsune.jpg "Figura de plástico de Miku Hatsune. Créditos de la imagen a 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/ ")
 
-Figura de plástico de Miku Hatsune. Créditos de la imagen a [南menghua](https://pixabay.com/es/users/%E5%8D%97menghua-19298964/)
 
 En aquel momento pasó por mi mente el volver a la universidad, pero deseché la idea igual de rápido. Yo ya había estado ahí, la universidad era ineficiente, el nivel de la mayoría de los profesores era, a lo mucho, mediocre, sus planes académicos estaban completamente desactualizados y las clases presenciales eran lentas e ineficientes. Decidí que no cometería el mismo error dos veces, esta vez intentaría aprender por mi cuenta.
 

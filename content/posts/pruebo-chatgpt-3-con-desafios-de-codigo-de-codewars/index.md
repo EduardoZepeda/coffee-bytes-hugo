@@ -233,4 +233,4 @@ necesariamente aquellos relacionados con código) no desafiantes y cuya
 dificultad radique en una sencilla búsqueda de google, o tareas automatizables,
 que requieran razonamientos simples. Sin embargo, considero que no es la
 veracidad de sus respuestas, sino su interfaz tipo chat, y la inmediatez de sus
-respuestas, la que la la podrían volver bastante popular.
+respuestas, la que la podrían volver bastante popular.
