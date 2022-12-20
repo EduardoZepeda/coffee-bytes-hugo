@@ -18,34 +18,38 @@ de curiosidad saber como es el otro. Yo he usado ambos y te puedo platicar un
 poco sobre las diferencias y algunas cosas en común que tienen ambos lenguajes,
 para que encuentres el mejor para ti en este 2023.
 
-También tengo una comparación de Python vs go que puedes revisar.
+También tengo una comparación de [Python vs
+go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) que puedes
+revisar.
 
 ## Un poco sobre ellos
 
-Para empezar diremos que **Python es un lenguaje interpretado**. Si no sabes que
-es eso, significa que tiene un intérprete que traduce las instrucciones, una por
-una, a lenguaje máquina, para que se ejecuten al momento. Por lo que no tienes
-que compilar todo tu código cada vez que quieras ejecutarlo, como sí lo harías
-con C++, Java, Rust, etc.
+Para empezar diremos que **Python es un lenguaje interpretado**. Si no te suena
+el término, significa que tiene un intérprete que traduce las instrucciones, una
+por una, a lenguaje máquina, para que se ejecuten al momento. Por lo que no
+tienes que compilar todo tu código cada vez que quieras ejecutarlo, como sí lo
+harías con C++, Java, Rust, etc.
 
 Javascript nació como un lenguaje interpretado, sin embargo los motores modernos
 han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time").
-Prácticamente todos los navegadores hacen compilado JIT de Javascript,
-exceptuando, como siempre, IE8.
+Prácticamente todos los navegadores hacen [compilado
+JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando,
+como siempre, IE8.
 
 Si quieres aprender como funciona el motor de Javascript a un nivel más
 profundo, te dejo un enlace a [una serie de
 videos](https://www.youtube.com/watch?v=No-Pfboplxo&list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&index=1)
-en youtube.
+en youtube donde se trata el tema más detalladamente.
 
 Observa este esquema súper simplificado que compara los lenguajes compilados e
 interpretados.
 
 ![Esquema súper simplificado de las diferencias entre código compilado e
-interpretado](images/codigo-compilado-vs-interpretado.png)
+interpretado](images/codigo-compilado-vs-interpretado.png "Diferencias entre un
+lenguaje interpretado y uno compilado.")
 
 En este esquema me refiero a Javascript al momento de su creación, como lenguaje
-interpretado.
+interpretado, no a la **compilación JIT** de la que te hablaba.
 
 ## Antigüedad
 
@@ -86,12 +90,13 @@ console.log(1 + "1")
 "11"
 ```
 
-¡No pasa nada! Los suma sin problema alguno, incluso aunque uno es de tipo
-string y el otro un entero. Si eres de los que prefieren usar tipado fuerte con
-javascript, ya sea porque traes un background de C++, Java u otro lenguaje
-furtemente tipado o simplemente prefieres las ventajas de un tipado fuerte, dale
-una mirada a lo que [Typescript](https://www.typescriptlang.org/) y su
-compilador tienen para ofrecer.
+¡No pasa nada! El intérprete de Javascript los suma sin problema alguno, incluso
+aunque uno es de tipo string y el otro un entero. Si eres de los que prefieren
+usar tipado fuerte con javascript, ya sea porque traes un background de C++,
+Java u otro lenguaje furtemente tipado o simplemente prefieres las ventajas de
+un tipado fuerte, dale una mirada a lo que
+[Typescript](https://www.typescriptlang.org/) y su compilador tienen para
+ofrecer.
 
 ```javascript
 // Este es código Typescript
@@ -124,13 +129,15 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-Como puedes apreciar, Python no permite realizar transformaciones implícitas a
-los tipos de variables.
+Como puedes apreciar, Python no permite realizar transformaciones implícitas de
+un tipo de variable a otro.
 
 ```python
  def titleToNumber(columnTitle: str) -> int:
     # ...
 ```
+
+#### Tipado en Python
 
 ¿Y el Typescript para Python? Pues ya va incluido, Python incorpora tipado
 opcional, a partir de su versión 3.5, el tipado puede ser usado por algunos
@@ -227,7 +234,7 @@ javascript](images/ConsolaDeNodeJs.gif)
 Python no se encuentra en los navegadores, sin embargo está instalado en la
 mayoría de los sistemas GNU/Linux de manera predeterminada, si usas una
 distribución de GNU/Linux y abres la terminal de tu sistema operativo y ejecutas
-el comando Python verás que ya se encuentra instalado.
+el comando Python lo más probable es que ya se encuent` instalado.
 
 ![terminal de Python en GNU/Linux](images/PythonConsola.gif)
 
@@ -257,12 +264,13 @@ desarrollo de aplicaciones web, prácticamente lo que sea.
 Javascript empezó siendo mucho más popular que Python, probablemente debido al
 auge de los navegadores web. Sin embargo, en algún punto cercano al 2017, Python
 ganó relevancia en comparación con Javascript y la tendencia se mantiene hasta
-mediados de agosto del 2021.
+finales del 2022.
 
 ![Gráfico de google trends comparando Python vs
-Javascript](images/GoogleTrendsJavascriptVsPython.png)
+Javascript](images/Python-vs-Javascript-desde-2004.png "Python gana relevancia
+frente Javascript en Google trends")
 
-### Popularidad entre los desarrolladores en 2021
+### Popularidad entre los desarrolladores en 2022
 
 Stackoverflow muestra en sus encuestas que, entre los desarrolladores, Python es
 mucho más popular que Javascript. Sin embargo, Typescript (el super set de
@@ -271,21 +279,19 @@ popular que Python.
 
 ![Resultados de la encuesta de StackOverflow para los lenguajes más apreciados
 por desarrolladores. Python se encuentra por arriba de
-Javascript](images/SueldosDesarrolladores2021.png)
+Javascript](images/love-vs-dreaded-python-javascript.png "Python supera a
+Javascript en popularidad en 2023")
 
-Python supera a Javascript en popularidad
+## Salarios de Python y Javascript en 2022
 
-## Salarios de Python y Javascript en 2021
-
-Según la última encuesta de Stackoverflow (2021), los profesionales que usan
+Según la última encuesta de Stackoverflow (2022), los profesionales que usan
 Python son ligeramente mejor pagados que aquellos que usan Javascript. Sin
 embargo la diferencia no es tan significativa. Typescript también se encuentra
 por encima de Javascript.
 
 ![Salarios de los desarrolladores de acuerdo al lenguaje de programación
-usado.](images/SalariosDeLosDesarrolladores.png)
-
-Pyhton supera a Javascript en salarios
+usado.](images/salarios-python-vs-javascript.png "Python supera a Javascript en
+salarios en 2023")
 
 ## Baterías incluidas
 
@@ -318,10 +324,10 @@ promedio.
 
 ![Gráfico del tiempo de ejecución del problema de las N-Reinas entre Javascript
 y Python. Javascript tiene mejor
-rendimiento.](images/problema-de-las-n-reinas.jpg)
+rendimiento.](images/problema-de-las-n-reinas.jpg "Rendimiento del problema de
+las n-Reinas. Tiempo de ejecución en eje de las Y y número de reinas en el eje
+de las X. (Menor es mejor, javascript es mejor)")
 
-Rendimiento del problema de las n-Reinas. Tiempo de ejecución en eje de las Y y
-número de reinas en el eje de las X. (Menor es mejor)
 
 Se usó Node.js v15.10.0 y Python 3.8.6. El código se ejecutó directamente desde
 la terminal, sin ningún otro programa ejecutándose. Si quieres saber las
@@ -414,10 +420,12 @@ En junio del 2019 npm [superó el millón de paquetes
 publicados](https://snyk.io/blog/npm-passes-the-1-millionth-package-milestone-what-can-we-learn/).
 ¡Muchísima variedad para elegir! Aunque también te encuentras cosas como esta:
 
-![Paquete is-odd de NPM](images/IsOddPackageNpm-1.png)
+![Paquete is-odd de NPM](images/IsOddPackageNpm-1.png "El paquete para saber si
+un número es impar tiene casi medio millón de descargas")
 
 ![Meme del rapero usando el paquete is-odd en lugar de el operador
-modulo.](images/meme-is-odd-js.jpg)
+modulo.](images/meme-is-odd-js.jpg "Meme del rapero burlándose de la cantidad de
+descargas")
 
 ### Paquetes en Python
 
@@ -427,7 +435,8 @@ publicados](https://pypi.org/), ¡solo una quinta parte de la cantidad que tiene
 Javascript! Y como son menos paquetes podemos esperar paquetes más relevantes
 ¿no? A ver...
 
-![Paquete is-odd de pip](images/IsOddPythonPackage.png)
+![Paquete is-odd de pip](images/IsOddPythonPackage.png "Python también tiene un
+paquete que revisa si un número es impar")
 
 ## Para finalizar
 

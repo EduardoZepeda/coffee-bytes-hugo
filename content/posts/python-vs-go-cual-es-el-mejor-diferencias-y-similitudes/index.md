@@ -48,8 +48,8 @@ MVPs debería tomar menos tiempo que con esos lenguajes.
 
 ### Mi opinión sobre el odio a go
 
-Go es un lenguaje bastante polémico que desencadena discusiones bastante
-acaloradas. Te dejo algunos ejemplos a continuación de lo variadas que son las
+Go es un **lenguaje bastante polémico que desencadena discusiones bastante
+acaloradas**. Te dejo algunos ejemplos a continuación de lo variadas que son las
 opiniones:
 
 * [Golang is not a good language](https://xetera.dev/thoughts-on-go/)
@@ -59,16 +59,27 @@ Las quejas van desde la simpleza del lenguaje, la afirmación de Robert Pike
 sobre que es un lenguaje para programadores "no tan brillantes", hasta la, (ya
 solucionada) falta de generics.
 
-¿Mi opinión? Yo creo que ciertamente no es el mejor lenguaje (prefiero Rust).
-Entonces ¿por qué usarlo? Google creó el lenguaje basándose en una serie de
-problemas bastante concretos; Go es la solución a estos problemas. Go brilla a
-la hora de desarrollar aplicaciones web, trabajar con concurrencia o manejar
-cadenas de texto pero no es tan eficiente como para exprimir cada megabyte de
-memoria como otros lenguajes. 
+¿Mi opinión? Yo creo que ciertamente no es el lenguaje mejor diseñado (prefiero
+Rust). Entonces ¿por qué usarlo? Google creó el lenguaje basándose en una serie
+de problemas bastante concretos; Go es la solución a estos problemas. 
 
-En cambio, yo usaría Go para desarrollar una aplicación web o de devops pero
-nunca lo usaría para un microcontrolador, una aplicación de escritorio, diseño
-de sistemas operativos o programación de bajo nivel.
+Go es bueno para un par de cosas que los programadores suelen obviar, la parte
+de negocios:
+
+* Iteración. Su rápida velocidad de compilación y facilidad de escritura
+  permiten iterar más rápido que con otros lenguajes, lo que se traduce en más
+  dinero y menos riesgo a largo plazo para el negocio.
+* Fácil de aprender. No, aunque a todos nos gustaría, tu empresa no va a
+  despedir a toda el departamento para contratar programadores en Rust o C++ es
+  más fácil capacitar a los programadores a aprender el lenguaje.
+* Paquetes y biblioteca estándar. Probablemente tu compañía no tenga el tiempo
+  ni los recursos para que crees código desde cero. Go cuenta con una biblioteca
+  estándar bastante madura y que brinda una solución para la mayoría de las
+  necesidades.
+
+Por supuesto que esto no necesariamente es bueno desde el punto de vista de un
+perfil técnico, pero ya sabrás de primera mano que el dinero suele influir
+fuertemente en las decisiones de negocios.
 
 ## Antigüedad
 
@@ -386,9 +397,8 @@ Los [containers de docker están escritos usando
 go](/container-de-docker-con-namespaces-y-cgroups/).
 
 ![Logos de tecnologías creadas con
-go](images/traeffik-y-kubernetes-1024x505-1.jpg)
-
-Traefik, docker, kubernetes, influxdb y terraform están escritos en Go.
+go](images/traeffik-y-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes,
+influxdb y terraform están escritos en Go.")
 
 También se han creado herramientas tan geniales como
 [Pocketbase](https://pocketbase.io/), un excelente ejemplo de Backend as a
@@ -415,8 +425,9 @@ fecha.](images/Python-vs-go-popularidad.png)
 Go es un lenguaje bastante popular entre los desarrolladores, mucho más
 apreciado que Javascript, pero menos querido que Python y Typescript.
 
-![Encuesta de stackoverflow 2022 con lso lenguajes más queridos y odiados. Go es
-más querido que Python.](images/go-vs-python-stackoverflow-2022.png)
+![Encuesta de stackoverflow 2022 con los lenguajes más queridos y odiados. Go es
+más querido que Python.](images/go-vs-python-stackoverflow-2022.png "Python es
+más querido que Go por los desarrolladores") 
 
 ## Salarios de desarrolladores en 2022
 
@@ -425,8 +436,8 @@ desarrolladores de Python**. De hecho Go se encuentra dentro de los 10 lenguajes
 mejor pagados según la encuesta de stackoverflow del 2022.
 
 ![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go
-está en el top 10](images/go-vs-python-salarios.png "En 2022 Python cae muy por
-debajo de Go")
+está en el top 10](images/go-vs-python-salarios.png "Los programadores de Go
+suelen ganar más que los de Python")
 
 ## Baterías incluidas
 
@@ -460,7 +471,7 @@ La [importación de los modulos y paquetes en
 Go](/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto
 extraño, no existen las importaciones relativas, como en Python o en Javascript.
 
-![Awesome Go página.](images/AwesomeGo.png)
+![Awesome Go página.](images/AwesomeGo.png "Captura de pantalla de Awesome Go")
 
 Awesome Go cuenta con enlaces a una gran cantidad de paquetes de Go ordenados
 por tema
@@ -480,9 +491,8 @@ usados usando pip o cualquier otra herramienta de manejo de paquetes.
 Python tiene una comunidad gigantesca, comparada con la de go, y tienen paquetes
 para casi todo lo que te puedas imaginar.
 
-![Captura de pantalla del índice de paquetes de Python Pypi](images/Pypi.png)
-
-El índice de paquetes de Python Pypi
+![Captura de pantalla del índice de paquetes de Python Pypi](images/Pypi.png "El
+índice de paquetes de Python Pypi")
 
 ## Velocidad
 
@@ -499,11 +509,8 @@ prueba, los resultados están en segundos (menor es mejor) nota la diferencia ta
 radical en el rendimiento de ambos lenguajes.
 
 ![Python vs go en fibonacci por
-recursión](images/fibo-go-vs-python-velocidad.png "Go es mucho más rápido que
-Python")
-
-Fibonacci por recursión, entre menos mejor. Go es descomunalmente más rápido que
-Python.
+recursión](images/fibo-go-vs-python-velocidad.png "Go, al ser un lenguaje
+compilado, es descomunalmente más rápido que Python")
 
 ## Web frameworks
 
@@ -515,7 +522,7 @@ eficientes, pudiendo servir muchísimas peticiones por segundo. Si la velocidad
 es un requerimiento para tu proyecto, considéralos muy seriamente.
 
 ![Frameworks de Go más conocidos: Hugo, Beego, Echo, Buffalo, Go
-revel](images/Frameworks-web-Go.jpg)
+revel](images/Frameworks-web-Go.jpg "Logos de frameworks de Go")
 
 ### ¿Qué tan rápido son los web frameworks de Go comparados con los de Python?
 
@@ -526,7 +533,8 @@ Encerrado en negro están las peticiones por segundo que soporta cada framework
 (mientras más mejor). Como puedes apreciar, Go supera a Python en rendimiento.
 
 ![Comparación del rendimiento de varios frameworks web en
-techempower](images/Velocidad-frameworks-go-vs-python.png)
+techempower](images/Velocidad-frameworks-go-vs-python.png "Los frameworks web de
+Go superan a los de Python en rendimiento.")
 
 Pruebas de rendimiento para frameworks de Python (morado) y Go (verde)
 
