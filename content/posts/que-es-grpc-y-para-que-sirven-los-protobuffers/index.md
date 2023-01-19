@@ -1,7 +1,6 @@
 ---
 title: "Libera El Potencial De Tu API Con gRPC y Protobuffers"
-date: "2022-12-09"
-draft: true
+date: "2023-01-19"
 description: "¿Que es una API gRPC y que son los archivos .proto y los protobuffers? ¿qué ventajas tienen los protobuffers sobre JSON y cual es el mecanismo que los vuelve tan eficientes?"
 coverImage: "images/que-es-grpc-y-protobuffers.jpg"
 categories:
@@ -42,12 +41,12 @@ El proceso más detallado es el siguiente:
 5. La respuesta del servidor se codifica usando el stub y se envía al cliente.
 6. El cliente recibe la respuesta y la decodifica en el formato adecuado.
 
-![](images/rpc-esquema.jpg)
+![](images/rpc-esquema.jpg "Esquema del funcionamiento de gRPC")
 
 Un aspecto de RPC a destacar es que requiere que tanto cliente como servidor
 usen el mismo lenguaje de programación, lo cual lo vuelve una desventaja en
 entornos donde se pueden mezclar múltiples lenguajes de programación. Ahora sí,
-vamos a gRPC.
+vamos a gRPC.s
 
 ## ¿Qué es gRPC?
 
@@ -123,7 +122,7 @@ Leung](https://laptrinhx.com/grpc-vs-rest-performance-comparison-2418648833/).
 
 
 |                         | gRPC   | REST   |
-|-------------------------|--------|--------|
+| ----------------------- | ------ | ------ |
 | Peticiones/Segundo      | 48.00  | 4.00   |
 | Latencia de la petición | 6.15   | 8.00   |
 | CPU ms/s                | 832.00 | 404.00 |
@@ -156,12 +155,47 @@ entre cliente y servidor:
 
 * **Unary**. El cliente y el servidor se comunican usando una petición y
   respuesta sencilla, como en REST.
+
+``` mermaid
+graph TD;
+    Cliente-->Servidor;
+    Servidor-->Cliente;
+```
+
 * **Streaming del lado del servidor**. El servidor envía múltiples respuestas a
   una petición del cliente.
+
+``` mermaid
+graph TD;
+    Cliente-->Servidor;
+    Servidor-->Cliente;
+    Servidor-->Cliente;
+    Servidor-->Cliente;
+```
+
 * **Streaming del lado del cliente**. El cliente envía múltiples peticiones al
   servidor y este responde con una única respuesta.
+
+``` mermaid
+graph TD;
+    Cliente-->Servidor;
+    Cliente-->Servidor;
+    Cliente-->Servidor;
+    Servidor-->Cliente;
+```
+
 * **Streaming bidireccional**. Tanto el cliente como el servidor envían
   múltiples peticiones y respuestas, respectivamente.
+
+``` mermaid
+graph TD;
+    Servidor-->Cliente;
+    Servidor-->Cliente;
+    Servidor-->Cliente;
+    Cliente-->Servidor;
+    Cliente-->Servidor;
+    Cliente-->Servidor;
+```
 
 ## Otras capacidades de gRPC
 

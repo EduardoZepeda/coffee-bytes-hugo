@@ -81,8 +81,8 @@ asíncronas: hypercorn o uvicorn. Este último implementa un worker de gunicorn.
 
 Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la
 cantidade núcleos de tu procesador. Ellos recomiendan establecer los workers en
-(2 x número de nucleos) + 1. Según la documentación, con 4-12 workers puedes
-servir desde cientos hasta miles de peticiones por segundo, por lo que debería
+(2 x número de nucleos) + 1. Según la documentación, **con 4-12 workers puedes
+servir desde cientos hasta miles de peticiones por segundo**, por lo que debería
 bastar para un sitio web de escala mediana o hasta grande.
 
 ## Mejora el rendimiento de tus serializers
@@ -96,7 +96,7 @@ Incluso si recordaste marcar tus campos como read\_only, los serializers de DRF
 no son los más rápidos, puede que quieras revisar
 [Serpy](https://serpy.readthedocs.io/en/latest/),
 [Marshmallow](https://marshmallow.readthedocs.io/en/stable/) El tema es bastante
-amplio, pero quédate con la idea de que hay un area de mejora en los serializers
+amplio, pero quédate con la idea de que hay un área de mejora importante en los serializers
 de Django.
 
 Te dejo este artículo que explica [como unos desarrolladores lograron reducir el

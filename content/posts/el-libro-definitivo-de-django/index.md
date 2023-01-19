@@ -21,13 +21,15 @@ Este libro es excelente porque cubre absolutamente todo lo que se necesita para 
 
 Pero no todo es mágico con este libro. Al día de hoy que escribo esta entrada Django va en su versión 3, pero la información del libro se quedó estancada en su versión 1.8. Desafortunadamente, no se ve que los autores tengan intenciones de retomar el libro para darle una actualizada a su contenido. Ambos autores tienen sus blogs activos y funcionando, por lo que supongo que han dejado el proyecto olvidado.
 
-Django y la web están cambiando poco a poco con cada actualización; la web hace uso masivo de Javascript en el Frontend, las SPA se están volviendo muy populares y muchas veces Django es utilizado con la única función de servir información por medio de REST o GraphQL a un frontend que se encargará de procesarla, ignorando por completo algo de la funcionalidad de renderizado de plantillas; las url ya no requieren expresiones regulares, además es posible especificar el tipo de dato que recibirán.
+Django y la web están cambiando poco a poco con cada actualización; la web hace uso masivo de Javascript en el Frontend, primero las SPA se volvieron tendencía y muchas veces Django es utilizado con la única función de servir información por medio de REST o GraphQL a un frontend que se encargará de procesarla, ignorando por completo algo de la funcionalidad de renderizado de plantillas; las url ya no requieren expresiones regulares, además es posible especificar el tipo de dato que recibirán. 
 
-Si los autores de este libro se decidieran a mantener actualizado su contenido podría fácilmente ser el mejor libro de Django existente.
+Actualmente, los misioneros de React, en un giro bastante inesperado, decidieron orientar sus esfuerzos a la generación de HTML directo desde el servidor (como siempre se había hecho), y le nombraron SSR.
+
+Si los autores de este libro se decidieran a mantener actualizado su contenido podría fácilmente ser el mejor libro de Django disponible.
 
 ## Mi opinión sobre la guia definitiva de Django
 
-Si aún así quieres leer el libro te recomiendo escoger con cuidado los capítulos y tomar en cuenta que el código puede estar desactualizado, te dejo el enlace a su [versión en español](http://bibing.us.es/proyectos/abreproy/12051/fichero/libros%252Flibro-django.pdf) (Si el enlace ya no te manda a algún lugar válido mándame un tweet o un correo). Puedes descargarlo sin preocupación alguna, es totalmente legal, pues el libro se encuentra bajo los términos de la licencia GNU Free Documentation License. **Te recomiendo darle un vistazo a los capítulos de Cache, Middleware, Internacionalización y Seguridad**, encontrarás consejos útiles y que se encuentran vigentes aún hoy en día.
+Si aún así quieres leer el libro te recomiendo escoger con cuidado los capítulos y considerar que el código puede estar bastante desactualizado, te dejo el enlace a su [versión en español](http://bibing.us.es/proyectos/abreproy/12051/fichero/libros%252Flibro-django.pdf) (Si el enlace ya no te manda a algún lugar válido mándame un tweet o un correo). Puedes descargarlo sin preocupación alguna, es totalmente legal, pues el libro se encuentra bajo los términos de la licencia GNU Free Documentation License. **Te recomiendo darle un vistazo a los capítulos de Cache, Middleware, Internacionalización y Seguridad**, encontrarás consejos útiles y que se encuentran vigentes aún hoy en día.
 
 Si quieres aprender Django con los nuevos cambios que ha tenido el framework entra en mi entrada donde hablo del [libro Django for Professionals](/resena-de-django-for-professionals/)
 

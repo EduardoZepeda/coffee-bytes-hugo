@@ -61,7 +61,9 @@ COMMIT;
 Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que
 cambiar de motor de base de datos es bastante sencillo y tras unos pocos cambios
 puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente
-cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/tutorial-de-migraciones-en-go-con-migrate/).
+cambiando un par de lineas en la configuración. Ahorrándote el tener que
+escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como
+go](/tutorial-de-migraciones-en-go-con-migrate/).
 
 ```python
 # settings.py
@@ -175,7 +177,7 @@ Hay muchísimos frameworks nuevos cada día. La mayoría de ellos son solo una m
 y caen en desuso con el pasar de los años, dejando proyectos sin soporte. Django
 es un framework que lleva muchísimo tiempo funcionando, que ha pasado por
 numerosas pruebas que lo han vuelto muy robusto y confiable, y que no va a
-desaparecer de la noche a la mañana dejandote con un proyecto sin soporte.
+desaparecer de la noche a la mañana dejándote con un proyecto sin soporte.
 
 Considera que Django fue la opción que alguna vez eligieron sitios tan grandes
 como Instagram o Pinterest.
@@ -199,8 +201,9 @@ desventaja y que yo cambiaría sin dudarlo.
 Django es un Framework antiguo, con todo lo que se necesita para desarrollar una
 aplicación web, un ORM, un sistema de plantillas, middleware y muchas otras
 piezas que, están ahí y son requeridas para que el framework funcione, las
-necesites o no. Aunque siempre puedes modularizarlo y usarlo solo para generar
-respuestas API, sin necesidad del HTML.
+necesites o no. Sin embargo, Django puede modularizarse para generar respuestas
+API en JSON (u otro formato) en lugar de HTML, ignorando el resto de la
+maquinaría del framework.
 
 La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de
 frameworks de Javascript que evoluciona muy rápido.

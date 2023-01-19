@@ -26,7 +26,9 @@ Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, d
 
 Unos años más tarde, gracias a la recomendación de uno de mis mejores amigos, conseguí trabajo en un cyber café. Aprendí como reparar los errores más comunes, conectar impresoras, pasar archivos entre computadoras en red, modificar el registro, descargar archivos por torrent, manejo de paquetería de Office, Photoshop, Keyloggers, conectar computadoras en red, etc. **Sin embargo, durante todo ese tiempo, no escribí ningún programa por mi mismo.**
 
-A la par que trabajaba en el cyber café, decidí estudiar química porque era bueno en las matemáticas y las ciencias exactas. A lo largo de la carrera cree otro blog llamado "Lluvia de fotones" que mantenía mientras tomaba mis clases. La universidad (en general, no solo mi carrera) no me gustó, me pareció lenta, aburrida, protocolaría y llena de sin sentidos. A lo largo de mi estancia en la universidad, saber usar una computadora para buscar información me representó muchísimas ventajas frente a mis compañeros menos diestras en ellas.
+A la par que trabajaba en el cyber café, decidí estudiar química porque era bueno en las matemáticas y las ciencias exactas. A lo largo de la carrera cree otro blog llamado "Lluvia de fotones" que mantenía mientras tomaba mis clases. 
+
+La universidad (en general, no solo mi carrera) no me gustó, me pareció lenta, aburrida, protocolaría y llena de sin sentidos. A lo largo de mi estancia en la universidad, saber usar una computadora para buscar información me representó muchísimas ventajas frente a mis compañeros menos diestras en ellas.
 
 Terminé la carrera y **me gradué entre los tres mejores promedios de la generación**. Sin embargo, tras echar un leve vistazo a los lugares de trabajo decidí nunca ejercer.
 
@@ -43,23 +45,35 @@ En aquel momento pasó por mi mente el volver a la universidad, pero deseché la
 
 ## Pasando de Windows a GNU/Linux
 
-En algún momento justo después de salir de la universidad cambié mi sistema operativo personal a GNU/Linux, al principio me costó bastante trabajo adaptarme, echaba de menos Photoshop y otros programas, pero al ir aprendiendo como funcionaba empecé a disfrutarlo incluso aún más que Windows. Empecé con Linux Mint (Ubuntu nunca me gustó), después probé Kali un año y terminé con Debian, el cual uso hasta la fecha como mi sistema operativo principal. Aprendí a instalar programas y los comandos básicos. Posteriormente aprendí a montar un servidor LAMP e hice mi primer "hello world" en PHP.
+En algún momento justo después de salir de la universidad cambié mi sistema operativo personal a GNU/Linux, al principio me costó bastante trabajo adaptarme, echaba de menos Photoshop y otros programas, pero al ir aprendiendo como funcionaba empecé a disfrutarlo incluso aún más que Windows. Empecé con Linux Mint (Ubuntu nunca me gustó), después probé Kali un año y terminé con Debian, el cual uso hasta la fecha como mi sistema operativo principal. 
+
+En Linux aprendí a instalar programas y los comandos básicos. Posteriormente aprendí a montar un servidor LAMP e hice mi primer "hello world" en PHP.
 
 ## Mi experiencia con PHP
 
-PHP fue mi primera experiencia con un lenguaje de programación, y también la más corta. Tras leer un libro grueso llamado Beginning PHP and MySQL, escrito por W. Jason Gilmore en la biblioteca municipal, y aprender bastantes conceptos básicos quedé bastante abrumado con la gran cantidad de funciones innecesarias, su sintaxis se me antojaba quimérica y caprichosa, me desilusioné bastante cuando me enteré de que el lenguaje era incapaz de producir aplicaciones de escritorio de una manera sencilla. PHP me había introducido en el mundo de la programación de manera relativamente sencilla, pero aún así sentía que el lenguaje no era para mi... pero después llegó Python.
+PHP fue mi primera experiencia con un lenguaje de programación, y también la más corta. Tras leer un libro grueso llamado Beginning PHP and MySQL, escrito por W. Jason Gilmore en la biblioteca municipal, y aprender bastantes conceptos básicos quedé bastante abrumado con la gran cantidad de funciones innecesarias, su sintaxis se me antojaba quimérica y caprichosa, me desilusioné bastante cuando me enteré de que el lenguaje era incapaz de producir aplicaciones de escritorio de una manera sencilla. 
+
+PHP me había introducido en el mundo de la programación de manera relativamente sencilla, pero aún así sentía que el lenguaje no era para mi... pero después llegó Python.
 
 ## El lenguaje con el nombre de un grupo de humoristas
 
-Tras meses evadiendo toda aquella información relacionada con Python **por la simplona razón de deberle su nombre a 'Monty Python'**, un grupo de humoristas británicos con los cuales no estaba familiarizado, decidí dejar atrás mis prejuicios y darle una oportunidad. Me apunté al curso en linea de Python [code.org](https://code.org/) y me enamoré, quedé fascinado con su sencilla sintaxis, la simplicidad de las funciones y lo elegante de su construcción.
+Tras meses evadiendo toda aquella información relacionada con Python **por la simplona razón de deberle su nombre a 'Monty Python'**, un grupo de humoristas británicos con los cuales no estaba familiarizado, decidí dejar atrás mis prejuicios y darle una oportunidad. Me apunté al curso en linea de Python [code.org](https://code.org/) y me enamoré. 
+
+Python me fascinó con su sencilla sintaxis, la simplicidad de las funciones y lo elegante de su diseño.
 
 ![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación.")
 
-Un mes más tarde leí el libro [Beginning Python from novice to Professional](/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer Hello World a cosas más complicadas.
+Un mes más tarde leí el libro [Beginning Python from novice to Professional](/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. 
+
+Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer "Hello World" a cosas más complicadas.
 
 ## Usando Python para facilitarme la vida
 
-Un año más tarde usaría Python para automatizar mis tareas digitales del día a día. Automaticé por completo la creación de imágenes con precios para mi tienda en linea usando imagemagick. Programé la publicación periódica de productos en grupos de facebook, usando selenium, y sin usar la API oficial de facebook (pues habían deshabilitado la opción de publicación en grupos). Más tarde usé Django para crear y personalizar una tienda en linea para la fanpage de productos fotográficos que administraba. Para entonces ya había leído bastantes libros sobre Python, Django y desarrollo web, así como visto y practicado muchísimos videotutoriales de la misma temática.
+Un año más tarde usaría Python para automatizar mis tareas digitales del día a día. 
+
+Automaticé por completo la creación de imágenes con precios para mi tienda en linea usando imagemagick. Programé la publicación periódica de productos en grupos de facebook, usando selenium, y sin usar la API oficial de facebook (pues habían deshabilitado la opción de publicación en grupos). 
+
+Más tarde usé Django para crear y personalizar una tienda en linea para la fanpage de productos fotográficos que administraba. Para entonces ya había leído bastantes libros sobre Python, Django y desarrollo web, así como visto y practicado muchísimos videotutoriales de la misma temática.
 
 Python era maravilloso, podía programar todas las tareas del día y dejarlas ejecutándose mientras yo me iba a hacer otras cosas. El sistema funcionaba perfecto, me generaba dinero y casi no requería inversión de tiempo de mi parte. Dediqué el tiempo libre que tenía para formarme en más temas relacionados con el mundo de la programación: C, C++, algoritmos, matemáticas discretas, criptografía, buenas prácticas, seguridad informática, software libre, GNU/Linux y otros temas que consideraba relevantes.
 

@@ -166,7 +166,7 @@ GET /posts/1?embed=comments
 
 ## Paginación en las API
 
-Como ya te he mencionado en entradas anteriores cuando hablé de Django, por motivos de [rendimiento en tus aplicaciones](/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
+Como ya te he mencionado en entradas anteriores cuando hablé de Django, por motivos de [rendimiento en tus aplicaciones](/maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
 
 Para facilitar el uso de tu API, considera añadir la información relacionada a la paginación en tu respuesta:
 
@@ -327,7 +327,7 @@ Aprecia como incluso en la ausencia de la parte inicial de la URI anterior, pode
 
 A veces es necesario introducir cambios estructurales en las APIs, para prevenir que todos aquellos que la consuman presenten problemas, necesitamos notificarles. Pero... ¿cómo?
 
-En el libro Two Scoops of Django, los autores recomiendan los siguientes pasos para notificar un cambio de versión de API.
+En el [libro Two Scoops of Django](/el-mejor-libro-de-django-resena-de-two-scoops-of-django/), los autores recomiendan los siguientes pasos para notificar un cambio de versión de API.
 
 - Notificar a los usuarios con tanta anticipación como se pueda por medio de email, blogs o cualquier medio, casi hasta el punto del hartazgo.
 - Reemplazar la respuesta de la API obsoleta con una error HTTP 410 que devuelva un mensaje que contenga enlaces hacia: el nuevo endpoint, a la nueva documentación de la API y, sí existe, al texto que explique el porque de los cambios.
@@ -365,7 +365,7 @@ Los motores de búsqueda consideran la URL para posicionar una página web, si p
 /posts/99 ❌
 ```
 
-Espero que te haya servido la entrada, o que al menos te haya presentado material que no habías tomado en cuenta enteriormente al diseñar una API.
+Espero que te haya servido la entrada, o que al menos te haya presentado material que no habías tomado en cuenta anteriormente al diseñar una API.
 
 ## Fuentes de referencia
 
