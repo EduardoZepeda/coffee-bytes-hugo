@@ -25,7 +25,7 @@ El término API proviene de interfaz de programación de aplicaciones, y consist
 
 ### Existen diferentes tipos de APIs
 
-Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigmas, una de esas es REST. REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto, pero nadie sabe lo que sucederá mañana.
+Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigmas, una de esas es REST. REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto, pero nadie sabe lo que sucederá mañana. 
 
 ![Linea del tiempo de APIs](images/timeline-de-APIs.png "REST data del año 2000")
 
@@ -35,7 +35,7 @@ Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la
 
 ## ¿Qué características tiene una API REST?
 
-No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones (RPC), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
+No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones, como [RPC o gRPC](/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
