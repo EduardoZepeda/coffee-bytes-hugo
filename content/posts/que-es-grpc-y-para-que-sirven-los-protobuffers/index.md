@@ -34,7 +34,7 @@ El proceso más detallado es el siguiente:
 2. La llamada incluye un procedimiento para codificar los métodos, tipos de
    request y tipo de respuesta en el formato adecuado
    ([marshalling](https://es.wikipedia.org/wiki/Marshalling)). **A este
-   procedimiento se llama le stub**.
+   procedimiento se llama el stub**.
 3. El servidor recibe la petición y usa el stub para decodificar los datos en el
    formato adecuado del entorno RPC y saber que ejecutar y con que información.
 4. Se ejecuta la tarea en el servidor y como resultado se genera una respuesta.
@@ -43,20 +43,24 @@ El proceso más detallado es el siguiente:
 
 ![](images/rpc-esquema.jpg "Esquema del funcionamiento de gRPC")
 
-Un aspecto de RPC a destacar es que requiere que tanto cliente como servidor
-usen el mismo lenguaje de programación, lo cual lo vuelve una desventaja en
-entornos donde se pueden mezclar múltiples lenguajes de programación. Ahora sí,
-vamos a gRPC.s
+¿Notaste que mencioné codificación de datos? Pues bien, un aspecto de RPC a
+destacar es que requiere que tanto cliente como servidor usen el mismo lenguaje
+de programación, lo cual lo vuelve una desventaja en entornos donde se pueden
+mezclar múltiples lenguajes de programación. 
+
+Ahora sí, vamos con gRPC.
 
 ## ¿Qué es gRPC?
 
-Google tomó en cuenta las carencias de RPC y decidió mejorarlo con gRPC. gRPC
-emula a RPC con la ventaja de que **no necesita usar el mismo lenguaje de
+Google tomó en cuenta las carencias de RPC y decidió mejorarlo creando gRPC. 
+
+gRPC emula a RPC con la ventaja de que **no necesita usar el mismo lenguaje de
 programación** para llevar a cabo la comunicación entre máquinas. 
 
-Además Google desarrolló los Protocol Buffers (o protobuffers) para usarlos como
-el formato predeterminado d gRPC en el intercambio de información entre máquinas
-y conseguir un rendimiento superior a otros formatos como JSON o XML.
+¿Y qué pasó con la codificación de datos? Pues Google desarrolló los Protocol
+Buffers (o protobuffers) para usarlos como el formato predeterminado d gRPC en
+el intercambio de información entre máquinas y conseguir un rendimiento superior
+a otros formatos como JSON o XML.
 
 ## ¿Qué son los protobuffers?
 
@@ -68,6 +72,12 @@ en diferentes formatos, texto plano, XML (si eres de la vieja escuela) o JSON
 
 Para que este intercambio ocurra tiene que realizarse una serialización de la
 información al enviarla y, posteriormente, una deserialización. 
+
+``` mermaid
+graph TD;
+    JSON-- serialización -->data;
+    data-- deserialización -->JSON;
+```
 
 Los Protocol Buffers (protobuffers en adelante) son un formato completamente
 agnóstico de lenguaje y plataforma, que gRPC usa para serializar y deserializar
@@ -84,8 +94,10 @@ bidireccional")
 Simplificando, para crear el código necesario para serializar y deserializar en
 el formato de los protobuffers partimos de un archivo de extensión *.proto*,
 este se encargará de modelar la información que usaremos para comunicarmos, así
-como los servicios que estarán disponibles para nuestra API, junto con lo que
-recibirán como entrada y devolverán como respuesta.
+como los servicios que estarán disponibles para nuestra API. Básicamente es
+decirle como está estructurada nuestra información y que cambios vamos a
+realizar sobre esta información junto con lo que recibirán como entrada y
+devolverán como respuesta.
 
 ``` go
 message DataResponse {
@@ -107,7 +119,7 @@ service Publisher {
 Tras definir nuestros modelos y servicios, estos archivos se compilan, y nos
 generarán el código necesario para serializar y deserializar la información en
 el lenguaje que nosotros querramos, tanto del lado del cliente como del
-servidor.
+servidor. Nosotros no tenemos que preocuparnos de los detalles al respecto.
 
 Actualmente el formato [protobuffers se encuentra disponible para C#, C++, Go,
 Objective-C, Java, Python y
@@ -150,8 +162,8 @@ y asíncrona.
 
 ## Tipos de gRPC y streaming
 
-El protocolo HTTP/2 le permite a gRPC soportar cuatro tipos de comunicaciones
-entre cliente y servidor:
+El protocolo HTTP/2 es muy versátil y le permite a gRPC soportar cuatro tipos de
+comunicaciones entre cliente y servidor:
 
 * **Unary**. El cliente y el servidor se comunican usando una petición y
   respuesta sencilla, como en REST.
@@ -196,6 +208,9 @@ graph TD;
     Cliente-->Servidor;
     Cliente-->Servidor;
 ```
+
+Como puedes ver esto es super útil para servicios que requieran intercambios
+constantes de grandes cantidades de información, como los microservicios.
 
 ## Otras capacidades de gRPC
 
