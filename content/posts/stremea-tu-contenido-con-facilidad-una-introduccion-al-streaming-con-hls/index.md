@@ -1,6 +1,6 @@
 ---
 title: "Stremea tus videos y audios: Una introducción sencilla al streaming con HLS para tus aplicaciones"
-date: 2023-02-28T19:16:14-06:00
+date: "2021-03-02"
 categories: 
   - "linux y devops"
   - "arquitectura de software"
