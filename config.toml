@@ -37,6 +37,11 @@ lang = "es"
     subscribetitle = "¡GRATIS! Guía de trucos de Python."
     modalcountdown = 20
     subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python."
+    affiliateHtml = """<small>Haciendo clicks en estos enlaces <strong>me ayudas a seguir generando contenido gratuito para ti. Además obtén:</strong></small>
+            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn" style="background-color: #94C53D;">1 MES GRATIS EN PLATZI</button></a>
+            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn">$200 USD GRATIS EN DIGITAL OCEAN</button></a>
+            <a target="_blank" href="https://namecheap.pxf.io/MX0ZEJ"><button class="btn" style="background-color: #FE5904;">REGISTRA TU DOMINIO EN NAMECHEAP</button></a>
+            """
 
 [sitemap]
   changefreq = "monthly"
