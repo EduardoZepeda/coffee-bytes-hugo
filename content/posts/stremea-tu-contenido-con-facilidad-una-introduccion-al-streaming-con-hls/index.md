@@ -49,11 +49,11 @@ Yo te voy a explicar HLS, ¿por qué? Porque HLS usa el protocolo HTTP, por lo q
 
 ## El protocolo HLS
 
-El protocolo HLS es un protocolo basado en HTTP, desarrollado por Apple (sí, la misma de la manzanita), por lo que cualquier dispositivo que se pueda conectar a internet será compatible con este protocolo. HLS usa TCP por debajo para enviar la información, evitando la potencial pérdida de paquetes de su contraparte, UDP. Y, como cereza del pastel HLS puede reaccionar a cambios en la velocidad de internet y priorizar el envío de versiones más ligeras de nuestros achivos con calidad menor.
+El protocolo HLS es un protocolo basado en HTTP, desarrollado por Apple (sí, la misma de la manzanita), por lo que cualquier dispositivo que se pueda conectar a internet será compatible con este protocolo. HLS usa TCP por debajo para enviar la información, evitando la potencial pérdida de paquetes de su contraparte, UDP. Y, como cereza del pastel, HLS reaccionar a cambios en la velocidad de internet y priorizar el envío de versiones más ligeras de nuestros achivos (con calidad menor, por supuesto). El reproductor en conjunción con la librería de HLS se encargan de esto de manera automática y tú no tienes que preocuparte de los detalles.
 
 ## Preparación de los archivos para HLS en el servidor
 
-Si quieres usar tu servidor directamente para realizar streaming usando el protocolo HLS puedes hacerlo sin problema, pues usa HTTP para funcionar, cualquier servidor puede serte útil para eso. Incluso puedes procesar tu mismo los videos, y servir el contenido estático. Otra opción a consaiderar es usar un CDN que se encargue de los detalles de bajo nivel.
+La transmisión de video usando HLS se lleva a cabo en varios pasos. Primero, se codifica el video y se divide en segmentos de duración fija. Luego, estos segmentos se suben a un servidor HTTP y se proporcionan al reproductor multimedia del usuario a través de un índice de reproducción, un arrchivo con extensión M3U8, que es un archivo de texto simple que contiene información sobre los segmentos de video disponibles. Los segmentos pueden subirse a un CDN para obtener un mayor rendimiento, inclusive algunos CDN pueden encargarse de todo el proceso de codificación y segmentación de tu video.
 
 Para implementar el protocolo en el lado del servidor necesitamos dos pasos:
 
