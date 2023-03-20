@@ -30,7 +30,7 @@ Para que se lleven a cabo los tests necesitamos:
 1 directory, 5 files
 ```
 
-Considera que, si vas a [asignarle un nombre a tu módulo](/go-importacion-de-paquetes-y-manejo-de-modulos/)**, jamás debeser nombrarlo _testing_**. ¿Por qué? si lo haces, go confungirá su modulo _testin_g con el tuyo, devolviéndote esos resultados incorrectos.
+Considera que, si vas a [asignarle un nombre a tu paquete](/go-importacion-de-paquetes-y-manejo-de-modulos/)**, jamás debeser nombrarlo _testing_**. ¿Por qué? si lo haces, go confungirá su paquete _testing_ con el tuyo, devolviéndote esos resultados incorrectos.
 
 Para crear los tests, dentro del archivo _testing/main\_test.go_, necesitamos una función que reciba de argumento nuestro paquete de testing con el carácter de desestructuración.
 
@@ -61,7 +61,7 @@ func Division(a int, b int) int {
 
 ## Ejecutar los tests
 
-Para ejecutar los tests necesitamos estar en el directorio donde se encuentran nuestros archivos terminados en _\_test.go_ y correr el comando _go test_. Si el test aprueba obtendremos la leyenda PASS.
+Para ejecutar los tests necesitamos encontrarnos dentro  del directorio donde se encuentran nuestros archivos terminados en _\_test.go_ y correr el comando _go test_. Si el test aprueba obtendremos la leyenda PASS.
 
 ```go
 cd testing/
