@@ -64,6 +64,23 @@ bytes used:  header:            276  (0.1%)
 
 Listo, ahora debemos tener un archivo con extensión _webp_ en nuestra misma carpeta.
 
+## Convertir webp a jpg
+
+Si queremos hacer lo contrario, es decir, convertir de webp al clásico necesitaremos hacerlo en dos pasos:
+
+1. convertir el webp a png
+2. convertir el png a jpg
+
+``` bash
+dwebp <input.webp> -o <output.png>
+```
+
+Ahora podemos usar convert u cualquier otra herramienta para pasar de png a jpg
+
+``` bash
+convert <output.png> <output_converted.jpg>
+```
+
 ## ¿Cuál es más ligero webp o jpg?
 
 Si ahora comparamos los tamaños de ambos archivos notaremos que nuestra nueva imagen tiene **cerca de la mitad de tamaño que su versión en _jpg_**.
