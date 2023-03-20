@@ -1,5 +1,5 @@
 ---
-title: "Golang: introducción al lenguaje,  variables y tipos de datos"
+title: "Go, lenguaje de programación, introducción a variables y tipos de datos"
 date: "2021-11-23"
 categories: 
   - go
