@@ -172,11 +172,11 @@ kill -9 9699
 
 Internamente el comando kill envía señales de diferentes tipos a los procesos, estas señales pueden ser recibidas por la aplicación, para manejar el cierre de estas. Te dejo algunas señales:
 
-| Señal   | Valor | Accion | Comentario                                                       | Comando       | Atajo de Teclado |
-|---------|-------|--------|------------------------------------------------------------------|---------------|------------------|
-| SIGINT  | 2     | Term   | Interrupción procedente del teclado                              | kill -2 pid   | CTRL+C           |
-| SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                     | kill -15 pid  |                  |
-| SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por Go | kill -9 pid   |                  |
+| Señal   | Valor | Accion | Comentario                                                       | Comando      | Atajo de Teclado |
+| ------- | ----- | ------ | ---------------------------------------------------------------- | ------------ | ---------------- |
+| SIGINT  | 2     | Term   | Interrupción procedente del teclado                              | kill -2 pid  | CTRL+C           |
+| SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                     | kill -15 pid |                  |
+| SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por Go | kill -9 pid  |                  |
 
 ## wget
 
