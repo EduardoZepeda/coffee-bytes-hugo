@@ -1,12 +1,12 @@
 ---
-title: "Digital Ocean, análisis y mi experiencia"
+title: "Digital Ocean, análisis y mi experiencia como usuario"
 date: "2021-01-14"
 categories: 
   - "arquitectura de software"
   - "opiniones"
 coverImage: "images/Mi-experiencia-digital-ocean.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/"
-description: "En esta entrada de platico mi experiencia usando Digital Ocean, así como algunas cosas que debes saber antes de contratarlos como hosting"
+description: "En esta entrada de platico mi experiencia usando la plataforma Digital Ocean, así como las opciones que tiene para ofrecerte como developer"
 keywords:
   - digital ocean
   - opinion
@@ -94,11 +94,11 @@ Digital Ocean también ofrece servicios de CDN, llamados spaces, compatibles con
 
 ### Kubernetes
 
-Digital ocean provee clusters de Kubernetes con almacenamiento y balanceadores de carga con unos cuantos clicks.
+Digital Ocean provee clusters de Kubernetes con almacenamiento y balanceadores de carga con unos cuantos clicks.
 
 ### Apps
 
-Las apps son similares a una solución serverless, conectas tu cuenta de github, gitlab o bitbucket con digital ocean y puedes subir aplicaciones de Node o archivos estáticos para que ellos lo sirvan, incluso puedes especificarles que sean ellos quienes ejecuten la compilación o cualquier comando que quieras. Esta es, hasta el momento, la solución más barata que ofrece Digital Ocean y es excelente para manejar aplicaciones de Frontend.
+Las apps son similares a una solución serverless, conectas tu cuenta de github, gitlab o bitbucket con digital Ocean y puedes subir aplicaciones de Node o archivos estáticos para que ellos lo sirvan, incluso puedes especificarles que sean ellos quienes ejecuten la compilación o cualquier comando que quieras. Esta es, hasta el momento, la solución más barata que ofrece Digital Ocean y es excelente para manejar aplicaciones de Frontend.
 
 ### Volúmenes
 
