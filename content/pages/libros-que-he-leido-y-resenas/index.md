@@ -11,6 +11,7 @@ Esta es la lista de libros que he leído para aprender sobre desarrollo web y pr
 
 Los libros no están en ningún orden en particular
 
+- Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower
 - Refactoring por Martin Fowler
 - Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho
 - System design interview de Alex Xu

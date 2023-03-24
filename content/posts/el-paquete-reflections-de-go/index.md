@@ -1,7 +1,6 @@
 ---
 title: "Go con Reflect: Descubre Cómo la Reflexión Puede Impulsar la Flexibilidad de tu Programa"
 date: "2023-03-13"
-draft: true
 coverImage: "images/reflect-typeof-value-of-en-go.jpg"
 categories:
   - "Go"

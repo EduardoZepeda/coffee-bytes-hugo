@@ -4,7 +4,7 @@ date: "2020-02-01"
 categories: 
   - "linux y devops"
 coverImage: "images/programa_tareas_periodicas_con_cron.jpg"
-description: "Aprende a programar tareas tales repetitivas como respaldos de base de datos,, envío de emails, de manera periódica en GNU/Linux usando Cron y Crontab."
+description: "Aprender a usar crontab para programar tareas repetitivas como respaldos de base de datos, envío de emails, de manera periódica en GNU/Linux usando Cron y Crontab."
 keywords:
   - linux
   - crontab
