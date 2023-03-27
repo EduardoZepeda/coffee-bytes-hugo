@@ -5,8 +5,7 @@ date: "2020-11-05"
 
 I'm currently reading:
 
-- Refactoring by Martin Fowler
-- Serious Cryptography: A Practical Introduction to Modern Encryption by JeanPhilippe Aumasson
+- Serious Cryptography: A Practical Introduction to Modern Encryption de JeanPhilippe Aumasson
 
 The list below contains almost all the books I've read about programming and web development. Most of them are written in english, some others in spanish (It's very hard to find good technical books written in spanish). Yes, when I talk about "reading a book" I mean finishing it, from start to end and practicing its content, just reading the books will lead you nowhere.
 
@@ -14,6 +13,11 @@ I've reviewed some of them, I hope to review most of them in the near future, be
 
 By the way, the books are not in any particular order.
 
+- Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower
+- Refactoring by Martin Fowler
+- Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho
+- System design interview by Alex Xu
+- Let's Go Further by Alex Edwards
 - Professor Frisby's mostly adequate guide to functional programming by Brian Lonsdorf
 - How Linux Works, 3rd Edition What Every Superuser Should Know by Brian Ward
 - A Philosophy of Software Design by John Ousterhout
