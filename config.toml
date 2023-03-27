@@ -40,7 +40,7 @@ lang = "es"
     affiliateHtml = """<small><strong>NO TE PIERDAS </strong>de estas oportunidades:</small>
             <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn" style="background-color: #94C53D;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
             <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
-            <a target="_blank" href="https://namecheap.pxf.io/MX0ZEJ"><button class="btn" style="background-color: #FE5904;">REGISTRA YA TU DOMINIO EN NAMECHEAP</button></a>
+            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1632743/5618"><button class="btn" style="background-color: #FE5904;">REGISTRA YA TU DOMINIO EN NAMECHEAP</button></a>
             """
 
 [sitemap]
