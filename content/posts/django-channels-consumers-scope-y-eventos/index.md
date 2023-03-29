@@ -26,7 +26,7 @@ Si tienes prisa puedes conformarte con estas definiciones que pecan de simplista
 
 Un websocket es una conexión persistente que existe entre el navegador de un usuario y un servidor web.
 
-Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go](/python-vs-go-2022-cual-es-el-mejor/).
+Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/).
 
 ## Django channels requiere ASGI
 
@@ -38,16 +38,19 @@ Cada vez que un usuario nuevo inicie una petición se creará una "aplicación" 
 
 ## Instalación de django channels
 
-Primero instalamos channels directo desde nuestro gestor de paquetes favorito, yo usaré pipenv.
+Primero instalamos channels directo desde nuestro gestor de paquetes favorito, yo usaré pipenv y la versión más actual a la fecha de este artículo.
 
 ```python
-pipenv install channels==3.0.4
+pip install channels["daphne"]
 ```
 
-Lo agregamos a nuestras aplicaciones instaladas.
+Lo agregamos a nuestras aplicaciones instaladas. 
+
+Daphne debe estar hasta arriba de todas las aplicaciones, debido a que toma control del comando runserver para inicializar la aplicación.
 
 ```python
 INSTALLED_APPS = (
+    'daphne',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
