@@ -103,7 +103,7 @@ lang = "es"
   [[menu.social]]
     name = "Instagram"
     pre = "instagram"
-    url = "https://bit.ly/3jnxnMF"
+    url = "https://instagram.com/eduardozepeda.dev"
     weight = 4
   [[menu.social]]
     name = "Linkedin"
