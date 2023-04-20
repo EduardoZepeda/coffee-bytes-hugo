@@ -6,12 +6,16 @@ categories:
   - "inteligencia artificial"
   - opiniones
 coverImageCredits: "Imagen por Midjourney CC License https://midjourney.com"
+keywords:
+  - inteligencia artificial
+  - automatas
+  - code wars
 ---
 
 ChatGPT está rompiendo con todo lo conocido anteriormente en inteligencia
 artificial, algunos desarrolladores están preocupados de que pueda reemplazarlos
 en sus trabajos, justo como amenazó Github Copilot en su momento. En esta
-entrada pongo a prueba ChatGPT contra tres desafios de codewars.
+entrada pongo a prueba la [supuesta inteligencia de ChatGPT](/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/) contra tres desafios de codewars.
 
 ## ¿Cómo funciona Codewars?
 
@@ -205,11 +209,11 @@ deben al caracter binario de las respuesta")
 
 Los resultados se resumen en la siguiente tabla:
 
-| Kata   | Resultado |
-|--------|-----------|
-| 6 kyu  | ❌        |
-| 4 kyu  | ✅        |
-| 1 kyu  | ❌        |
+| Kata  | Resultado |
+| ----- | --------- |
+| 6 kyu | ❌         |
+| 4 kyu | ✅         |
+| 1 kyu | ❌         |
 
 Si bien ChatGPT acertó solo uno de los desafios (y a medias) es capaz de
 resolver problemas sencillos, que también podrían resolverse con una búsqueda en

@@ -1,7 +1,6 @@
 ---
 title: "Chat Gpt, La Habitacion China De Searle y la conciencia"
-date: 2023-04-19T21:49:08-06:00
-draft: true
+date: "2023-04-19"
 categories: 
   - "Inteligencia artificial"
   - "Opiniones"
@@ -14,7 +13,7 @@ keywords:
   - conciencia
 ---
 
-Chat GPT está en boca de todos, algunos le tienen miedo, a otros les entusiasma el potencial que tiene para cambiar el mundo laboral. Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y examinar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es consciente?
+Chat GPT está en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral. Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y examinar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es consciente?
 
 >What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
@@ -22,7 +21,7 @@ Chat GPT está en boca de todos, algunos le tienen miedo, a otros les entusiasma
 
 John Searle, fue un científico que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
 
-![](images/la-habitacion-china-de-searle.jpg "Imagen generada con Dall-e ")
+![](images/la-habitacion-china-de-searle.jpg "Imagen de la habitación china de Searle generada con Dall-E")
 
 Un humano, dentro de una habitación completamente aislada del mundo exterior, con una serie de instrucciones para procesar símbolos en chino y devolver una respuesta. Hay que resaltar que la persona en el interior de la habitación desconoce el idioma chino y se limita a seguir la serie de instrucciones que le fueron otorgadas, es decir, **no comprende el texto que entra, ni el que sale**.
 
@@ -58,7 +57,7 @@ algunos van más alla al decir que un sistema se vuelve más consciente mientras
 
 ### Inteligencia sin conciencia
 
-Por otro lado, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de responder a estímulos muy complejos, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estándolo](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
+Por otro lado, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de responder a estímulos muy complejos, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
 Pero aunque los seres humanos tengan procesos inconscientes que existen sin conciencia, al estar vivos, hay algo más que una simple acción mecánica ¿no?
 
@@ -68,7 +67,7 @@ A veces creemos que solo las máquinas tienen un comportamiento mecánico y que 
 
 En el libro "Un eterno y grácil bucle" de Douglas R. Hofstader. El autor cita un [experimento en el que una avispa sphex es engañada para acercar un grillo en a los límites de una madriguera hasta 40 veces](https://jhjeong.mindconnect.cc/Texts/sphex.html). Tal cual como si fuera un programa de computadora, esta avisa queda atorada en un bucle infinito del que no puede escapar, ¿qué tan diferente es esto de un programa informático que, tras el mismo input, genera el mismo output?
 
-![](images/avisa-sphex.jpg "Avispa Sphex")
+![](images/avisa-sphex.jpg "Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle")
 
 Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente.
 
