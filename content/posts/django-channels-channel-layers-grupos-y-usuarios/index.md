@@ -254,3 +254,61 @@ class ChatConsumer(WebsocketConsumer):
 ```
 
 Ahora puedes complicar el envío de información para que se comporte de la manera en la que tu quieres, como crear diferentes salas o condicionar el envío de mensajes a un grupo restringido de usuarios, o solo a uno de ellos.
+
+
+## Tips para producción de django-channels
+
+Antes de hacer deploy de una aplicación que involucre channels te voy a platicar de las múltiples cosas que pueden salir mal y como prevenirlas.
+
+### django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet
+
+Si estás usando uvicorn y una aplicación asgi, esto se debe a que django intenta usar aplicaciones que aún no han sido cargadas. Para prevenir el error carga manualmente la aplicación por ti mismo antes de importar cualquier otra app.
+
+En este caso particular, el orden de las importaciones SÍ importa.
+
+``` python
+from django.conf import settings
+from django.core.asgi import get_asgi_application
+
+current_settings = (
+    "app.settings" if settings.DEBUG else "app.dev_settings"
+)
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", current_settings)
+django_asgi_app = get_asgi_application()
+
+# el resto de tus imports van acá
+# import app...
+
+#...
+application = ProtocolTypeRouter(
+    {
+        "http": django_asgi_app,
+        # ...
+}
+```
+
+### Asegúrate de tener las librerías de websocket instaladas
+
+Si vas a trabajar con websockets, asegúrate de tener todas las librerías requeridas instaladas, uvicorn nos provee de estas librerías si instalamos su versión estándar.
+
+``` bash
+pip install uvicorn[standard]
+```
+
+De otra manera tendremos el error *[WARNING] No supported WebSocket library detected.*
+
+### Asegúrate de usar el protocolo de websocket correcto
+
+El error puede manifestarse de varias formas, una de ellas es esta *deploys failing due to “unhealthy allocations”*
+
+Si intentas comunicarte con un protocolo inseguro a uno inseguro obtendrás un error.
+
+``` javascript
+// Te toca definir la variable/funcion de manera dynamica
+if(serving_using_https){
+    ws_url = 'wss://...'
+}
+else{
+    ws_url = 'ws://...'
+}
+```
