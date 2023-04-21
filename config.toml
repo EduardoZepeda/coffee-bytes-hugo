@@ -23,14 +23,14 @@ author = "Eduardo Zepeda"
 authorDescription = "Desarrollador web y entusiasta de GNU/Linux. En este perfil se ama a Python, Javascript/Typescript y el polémico Go (Aunque queremos aprender Rust). También creemos en las bondades de la criptografía fuera de la especulación monetaria."
 authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
 description = "Artículos sobre desarrollo web y Linux."
-excludeFromSitemap = ["tags", "categories", "posts"]
+excludeFromSitemap = ["tags", "categories", "posts", "pages"]
 [params.latte]
 affiliateHtml = """<small><strong>NO TE PIERDAS </strong>de estas oportunidades:</small>
-            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn" style="font-size: 16px; margin-top:20px;background-color: #94C53D; padding:1rem; width:100%;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
+            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn" style="font-size: 15px; margin-top:20px;background-color: #94C53D; padding:1rem; width:100%;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
             <div><small/>Paga tu membresía anual y recibe un mes gratis extra</small></div>
-            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn" style="font-size: 16px; margin-top:20px;padding:1rem; width:100%;">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
+            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn" style="font-size: 15px; margin-top:20px;padding:1rem; width:100%;">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
             <div><small/>Ingresa y da click en donde dice Free Active Credit $200 USD</small></div>
-            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1669387/5618"><button class="btn" style="font-size: 16px; margin-top:20px;background-color: #FE5904; padding:1rem; width:100%;">AHORRA <strong>HASTA 65% EN HOSTING</strong> EN NAMECHEAP</button></a>
+            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1669387/5618"><button class="btn" style="font-size: 15px; margin-top:20px;background-color: #FE5904; padding:1rem; width:100%;">AHORRA <strong>HASTA 65% EN HOSTING</strong> EN NAMECHEAP</button></a>
             <div><small/>No te pierdas las oportunidades de namecheap</small></div>
             """
 disablesearch = false

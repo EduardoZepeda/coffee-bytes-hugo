@@ -1,6 +1,7 @@
 ---
 title: "Política de privacidad"
 date: "2021-03-13"
+private: true
 ---
 
 #### AVISO DE PRIVACIDAD

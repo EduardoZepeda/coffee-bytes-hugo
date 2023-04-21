@@ -1,6 +1,7 @@
 ---
 title: "Regalos para ti"
 date: "2021-03-12"
+private: true
 ---
 
 Estos son obsequios o presentes que obtienes por visitar mi blog, son mis enlaces de afiliado, tu obtienes una compensación al registrarte o comprar usándolos y yo también. ¡Aprovecha y úsalos!
