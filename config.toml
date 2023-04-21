@@ -1,137 +1,139 @@
-baseURL = "https://coffeebytes.dev/"
-title = "Coffee bytes"
-enableRobotsTXT = true
 DefaultContentLanguage = "es"
-languageCode = 'es-MX'
 author = "Eduardo Zepeda"
+baseURL = "https://coffeebytes.dev/"
+enableRobotsTXT = true
+languageCode = 'es-MX'
+title = "Coffee bytes"
 
-theme = "hugo-theme-latte"
-summaryLength = 30
 googleAnalytics = "UA-112824408-2"
-removePathAccents=true
+removePathAccents = true
+summaryLength = 30
+theme = "hugo-theme-latte"
 
 [language]
 lang = "es"
 
 [Author]
-  name = 'Eduardo Zepeda'
-  email = 'eduardozepeda@coffeebytes.dev'
+email = 'eduardozepeda@coffeebytes.dev'
+name = 'Eduardo Zepeda'
 
 [params]
-  excludeFromSitemap = ["tags", "categories", "posts"]
-  description = "Artículos sobre desarrollo web y Linux."
-  author = "Eduardo Zepeda"
-  authorDescription = "Desarrollador web y entusiasta de GNU/Linux. En este perfil se ama a Python, Javascript/Typescript y el polémico Go (Aunque queremos aprender Rust). También creemos en las bondades de la criptografía fuera de la especulación monetaria."
-  authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
-  
-  [params.latte]
-    seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
-    toc = true
-    disablesearch = false
-    mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
-    mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
-    subscribedescription = """
+
+author = "Eduardo Zepeda"
+authorDescription = "Desarrollador web y entusiasta de GNU/Linux. En este perfil se ama a Python, Javascript/Typescript y el polémico Go (Aunque queremos aprender Rust). También creemos en las bondades de la criptografía fuera de la especulación monetaria."
+authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
+description = "Artículos sobre desarrollo web y Linux."
+excludeFromSitemap = ["tags", "categories", "posts"]
+[params.latte]
+affiliateHtml = """<small><strong>NO TE PIERDAS </strong>de estas oportunidades:</small>
+            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn" style="margin-top:20px;background-color: #94C53D; padding:1rem; width:100%;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
+            <div><small/>Paga tu membresía anual y recibe un mes gratis extra</small></div>
+            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn" style="margin-top:20px;padding:1rem; width:100%;">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
+            <div><small/>Ingresa y da click en donde dice Free Active Credit $200 USD</small></div>
+            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1669387/5618"><button class="btn" style="margin-top:20px;background-color: #FE5904; padding:1rem; width:100%;">AHORRA <strong>HASTA 65% EN HOSTING</strong> EN NAMECHEAP</button></a>
+            <div><small/>No te pierdas las oportunidades de namecheap</small></div>
+            """
+disablesearch = false
+mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
+mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
+modalcountdown = 20
+seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
+subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python."
+subscribedescription = """
                           ✅ Para acceder solo suscríbete al newsletter, es <strong>completamente gratis.</strong> <br>
                           ✅ Más de 200 desarrolladores registrados. Tutoriales completamente gratuitos cada semana directo en tu correo y cero spam.
                           """
-    subscribetitle = "¡GRATIS! Guía de trucos de Python."
-    modalcountdown = 20
-    subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python."
-    affiliateHtml = """<small><strong>NO TE PIERDAS </strong>de estas oportunidades:</small>
-            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn" style="background-color: #94C53D;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
-            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
-            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1632743/5618"><button class="btn" style="background-color: #FE5904;">REGISTRA YA TU DOMINIO EN NAMECHEAP</button></a>
-            """
+subscribetitle = "¡GRATIS! Guía de trucos de Python."
+toc = true
 
 [sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [outputs]
-    home = ["HTML", "RSS"]
-    section = ["HTML", "RSS", "JSON"]
-    page = ["HTML", "RSS"]
+home = ["HTML", "RSS"]
+page = ["HTML", "RSS"]
+section = ["HTML", "RSS", "JSON"]
 
 [frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "RSS"
-    url = "/index.xml"
-    weight = 2
-  [[menu.main]]
-    name = "Categorías"
-    url = "/categories/"
-    weight = 3
-  [[menu.main]]
-    name = "Sobre mi"
-    url = "/pages/eduardo-zepeda-developer"
-    weight = 4
-  [[menu.main]]
-    name = "Reseñas de libros"
-    url = "/pages/libros-que-he-leido-y-resenas"
-    weight = 5
-  [[menu.footer]]
-    name = "Politica de privacidad"
-    url = "/pages/politica-de-privacidad"
-    weight = 4
-  [[menu.footer]]
-    name = "Politica de cookies"
-    url = "/pages/politica-de-cookies"
-    weight = 5
-  [[menu.social]]
-    name = "Personal website"
-    pre = "message"
-    url = "https://eduardozepeda.dev/"
-    weight = 1
-  [[menu.social]]
-    name = "Codewars"
-    pre = "codewars"
-    url = "https://www.codewars.com/users/EduardoZepeda"
-    weight = 2
-  [[menu.social]]
-    name = "Twitter"
-    pre = "twitter"
-    url = "https://twitter.com/hello_wired"
-    weight = 3
-  [[menu.social]]
-    name = "Instagram"
-    pre = "instagram"
-    url = "https://instagram.com/eduardozepeda.dev"
-    weight = 4
-  [[menu.social]]
-    name = "Linkedin"
-    pre = "linkedin-in"
-    url = "https://linkedin.com/in/eduardomzepeda"
-    weight = 5
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 2
+[[menu.main]]
+name = "Categorías"
+url = "/categories/"
+weight = 3
+[[menu.main]]
+name = "Sobre mi"
+url = "/pages/eduardo-zepeda-developer"
+weight = 4
+[[menu.main]]
+name = "Reseñas de libros"
+url = "/pages/libros-que-he-leido-y-resenas"
+weight = 5
+[[menu.footer]]
+name = "Politica de privacidad"
+url = "/pages/politica-de-privacidad"
+weight = 4
+[[menu.footer]]
+name = "Politica de cookies"
+url = "/pages/politica-de-cookies"
+weight = 5
+[[menu.social]]
+name = "Personal website"
+pre = "message"
+url = "https://eduardozepeda.dev/"
+weight = 1
+[[menu.social]]
+name = "Codewars"
+pre = "codewars"
+url = "https://www.codewars.com/users/EduardoZepeda"
+weight = 2
+[[menu.social]]
+name = "Twitter"
+pre = "twitter"
+url = "https://twitter.com/hello_wired"
+weight = 3
+[[menu.social]]
+name = "Instagram"
+pre = "instagram"
+url = "https://instagram.com/eduardozepeda.dev"
+weight = 4
+[[menu.social]]
+name = "Linkedin"
+pre = "linkedin-in"
+url = "https://linkedin.com/in/eduardomzepeda"
+weight = 5
 
 [permalinks]
-  posts = ":title"
+posts = ":title"
 
 [related]
-  includeNewer = true
-  threshold = 70
-  toLower = true
-  [[related.indices]]
-    name = 'categories'
-    weight = 50
-  [[related.indices]]
-    name = 'keywords'
-    weight = 50
-
+includeNewer = true
+threshold = 70
+toLower = true
+[[related.indices]]
+name = 'categories'
+weight = 50
+[[related.indices]]
+name = 'keywords'
+weight = 50
 
 [markup]
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 3
-    ordered = false
-  [markup.goldmark.parser]
-    # id tag in table content don't work unluess they're unaccented
-    # github-ascii allows only ascii characters which are unaccented
-    autoHeadingIDType = 'github-ascii'
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[markup.goldmark.parser]
+# id tag in table content don't work unluess they're unaccented
+# github-ascii allows only ascii characters which are unaccented
+autoHeadingIDType = 'github-ascii'
