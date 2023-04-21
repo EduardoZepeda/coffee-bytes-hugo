@@ -140,7 +140,7 @@ nube, en el que van explicándote cada parte y como se relaciona con las otras.
 
 La certificación cuesta **alrededor de $90 USD directamente con microsoft**,
 pero yo la he obtenido de manera gratuita como parte de un reto de certificación
-de la plataforma de aprendizaje de Platzi.
+de la [plataforma de aprendizaje de Platzi](https://platzi.com/r/eduardo-zepeda).
 
 Tengo entendido que si te registras en la plataforma de e-learning Microsoft Learn, suelen
 regalar cupones de vez en cuando.
