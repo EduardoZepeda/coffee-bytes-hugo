@@ -13,7 +13,7 @@ keywords:
   - conciencia
 ---
 
-Chat GPT está en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral. Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y examinar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es consciente?
+Chat GPT está en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral. Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y reflecionar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es Chat GPT consciente?
 
 >What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
@@ -31,7 +31,7 @@ graph TD;
     Habitación-->西遊記;
 ```
 
-Puedes notar las similitudes con una computadora: hay un input o entrada, un output o salida y una caja negra o programa informático, cuyos detalles del funcionamiento escaparían para los que se encuentran afuera de este pequeño sistema simplificado.
+¿Puedes notar las similitudes con una computadora? Son bastante obvias; hay un input o entrada, un output o salida y una caja negra o programa informático, cuyos detalles del funcionamiento escaparían para los que se encuentran afuera de este pequeño sistema simplificado.
 
 ``` mermaid
 graph TD;
@@ -39,9 +39,9 @@ graph TD;
     programa-->output;
 ```
 
-Según Searle, para las personas que están afuera de la habitación, pareciera que lo que sea que esté dentro entiende perfectamente el idioma chino. Sin embargo, nosotros sabemos que la persona en el interior solo está siguiendo un set de instrucciones, tan complejísimo como nosotros querramos, pero que **no implica una comprensión del lenguaje**, sino un proceso mecánico. Según Searle, esto es similar a cómo funciona una computadora.
+De acuerdo a Searle, para las personas que están afuera de la habitación, pareciera que lo que sea que esté dentro entiende perfectamente el idioma chino. Sin embargo, nosotros sabemos que la persona en el interior solo está siguiendo un set de instrucciones, tan complejísimo como nosotros querramos, pero que **no implica una comprensión del lenguaje**, sino un proceso mecánico. Según Searle, esta situación es análoga al funcionamiento de una computadora.
 
-De manera similar, y extrapolado a ChatGPT; aunque un modelo de lenguaje puede producir respuestas que parecen coherentes y relevantes, no hay evidencia de que comprenda realmente el lenguaje o tenga conciencia de su significado. ChatGPT puede estar siguiendo el algoritmo más complejo existente pero, según Searle, no hay más conciencia del proceso ahí que la que encontrariamos en el reloj mecánico más sofisticado. 
+Extrapolando lo anterior a ChatGPT; aunque un modelo de lenguaje puede producir respuestas que parecen coherentes y relevantes, no hay evidencia de que comprenda realmente el lenguaje o tenga conciencia de su significado. ChatGPT puede estar siguiendo el algoritmo más complejo existente pero, según Searle, no hay más conciencia del proceso ahí que la que encontrariamos en el reloj mecánico más sofisticado. 
 
 ¿Pero entonces que marca la diferencia entre una inteligencia real y un proceso mecánico? ¿existe dicha diferencia?
 
@@ -51,15 +51,15 @@ El máximo representante de la inteligencia en la tierra es el ser humano (o al 
 
 ### Inteligencia con conciencia
 
-Algunos argumentan que la conciencia y la inteligencia están relacionados y que incluso tendriamos [un gradiente de conciencia mientras avanzamos en la complejidad e inteligencia de los organismos](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). Dotando del calificativo "consciente" a animales superiores como delfines, orangutanes que muestran rasgos de inteligencia.
+Algunos argumentan que la conciencia y la inteligencia están relacionados y que incluso tendriamos [un gradiente de conciencia mientras avanzamos en la complejidad e inteligencia de los organismos](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). Dotando del calificativo "consciente" a animales superiores como delfines, orangutanes, cuervos y otros organismos que muestran rasgos de inteligencia.
 
-algunos van más alla al decir que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás podriamos considerar el ejemplo de [Blake Lemoine, que aseguraba que el modelo de inteligencia artificial de Google había cobrado conciencia](https://www.bbc.com/mundo/noticias-61787944), o la teoría de la información integrada, de Giulio Tononi, que propone que la conciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de conciencia (llamado Φ) puede calcularse para cualquier sistema.
+Mientras que otros van más alla al decir que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás podriamos considerar el ejemplo de [Blake Lemoine, que aseguraba que el modelo de inteligencia artificial de Google había cobrado conciencia](https://www.bbc.com/mundo/noticias-61787944), o la teoría de la información integrada, de Giulio Tononi, que propone que la conciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de conciencia (llamado Φ) puede calcularse para cualquier sistema.
 
 ### Inteligencia sin conciencia
 
-Por otro lado, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de responder a estímulos muy complejos, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
+Así mismo, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de responder a estímulos muy complejos, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
-Pero aunque los seres humanos tengan procesos inconscientes que existen sin conciencia, al estar vivos, hay algo más que una simple acción mecánica ¿no?
+Pero aunque los seres humanos tengan procesos inconscientes capaces de existir sin la manifestación de la conciencia... debe de existir algo más que una simple acción mecánica, después de todo los animales son mucho más complejos que las máquinas ¿no? 
 
 ## Autómatas biológicos
 
@@ -69,11 +69,11 @@ En el libro "Un eterno y grácil bucle" de Douglas R. Hofstader. El autor cita u
 
 ![](images/avisa-sphex.jpg "Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle")
 
-Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente.
+Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente, ¿existen gradientes de conciencia? Y, si es así, ¿como se ve siente conciencia más allá de la que experimentamos los humanos? Si la conciencia existe como una manifestación macroscópica, ¿es determinista? ¿o pertenece al mundo cuántico de la indeterminación? No lo sé y creo que la verdad aún no elige un ganador.
 
 ## ¿Qué leer o ver para saber más de inteligencia artificial y conciencia?
 
-Entre mi lista de materiales favoritos que tocan estos temas se encuentran los siguientes materiales:
+La conciencia es un tema bastante complejo que no puede abordarse en unas cuentas lineas, no por nada se le conoce como el "problema duro", pero si estas pinceladas te dejaron con ganas de más, te dejo mi lista de recursos favoritos para ahondar este tema tan complejo.
 
 * Un eterno y grácil bucle de Douglas R. Hofstader: el autor profundiza en el tema de la autoreferencia y desarrolla la pregunta: ¿puede un sistema comprenderse así mismo?
 * La nueva mente del emperador de Sir Roger Penrose: el autor establece el contexto de las leyes del universo y analiza si la conciencia y la inteligencia están relacionadas y si estas tienen un carácter determinista o no determinista.
