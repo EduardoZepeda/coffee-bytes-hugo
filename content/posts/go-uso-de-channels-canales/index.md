@@ -51,6 +51,17 @@ con buffer o buffered channel.**
 c := make(chan string, 1)
 ```
 
+### Channels o canales unbuffered
+
+Si no especificamos un tamaño de buffer el canal:
+
+- Bloqueará al remitente hasta que el destinatario esté listo para recibir la información
+- Bloqueará al destinatario hasta que el remitente esté listo para enviar la información
+
+O visto de otra forma, si intentas enviar información a un canal sin buffer, la operación se bloqueará  hasta que la información sea recibida. Si intentas recibir información esta se bloqueará hasta que la información sea mandada.
+
+Estos canales son útiles cuando quieres garantizar que el remitente y el destinatario estén sincronizados y que la información se transmite inmediatamente, pero pueden ocasionar bloqueos si el remitente y el destinatario no están sincronizados.
+
 ### Acceder a un channel en una función
 
 Cuando querramos hacer referencia al canal como argumento de una función, es
