@@ -5,7 +5,6 @@ enableRobotsTXT = true
 languageCode = 'es-MX'
 title = "Coffee bytes"
 
-GoogleAnalyticsID = "G-P84BC2GXX4"
 googleAnalytics = "UA-112824408-2"
 removePathAccents = true
 summaryLength = 30
@@ -19,7 +18,7 @@ email = 'eduardozepeda@coffeebytes.dev'
 name = 'Eduardo Zepeda'
 
 [params]
-
+GoogleAnalyticsID = "G-P84BC2GXX4"
 author = "Eduardo Zepeda"
 authorDescription = "Desarrollador web y entusiasta de GNU/Linux. En este perfil se ama a Python, Javascript/Typescript y el polémico Go (Aunque queremos aprender Rust). También creemos en las bondades de la criptografía fuera de la especulación monetaria."
 authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
