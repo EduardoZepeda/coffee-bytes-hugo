@@ -5,7 +5,7 @@ enableRobotsTXT = true
 languageCode = 'es-MX'
 title = "Coffee bytes"
 
-googleAnalytics = "UA-112824408-2"
+googleAnalytics = "G-P84BC2GXX4"
 removePathAccents = true
 summaryLength = 30
 theme = "hugo-theme-latte"
@@ -52,7 +52,7 @@ filename = "sitemap.xml"
 priority = 0.5
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML", "RSS", "JSON"]
 page = ["HTML", "RSS"]
 section = ["HTML", "RSS", "JSON"]
 
