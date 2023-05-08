@@ -5,7 +5,8 @@ enableRobotsTXT = true
 languageCode = 'es-MX'
 title = "Coffee bytes"
 
-googleAnalytics = "G-P84BC2GXX4"
+GoogleAnalyticsID = "G-P84BC2GXX4"
+googleAnalytics = "UA-112824408-2"
 removePathAccents = true
 summaryLength = 30
 theme = "hugo-theme-latte"
