@@ -1,5 +1,5 @@
 ---
-title: "Maximiza el rendimiento de tu aplicación hecha en Django con estos tips" 
+title: "¿Tu aplicación de Django va lenta? Maximiza su rendimiento con estos tips" 
 date: "2020-12-30"
 categories: 
   - "arquitectura de software"
@@ -42,7 +42,7 @@ redúcelas, o vuélvelas más eficientes:
 
 - **select\_related()** para [evitar múltiples búsquedas en relaciones tipo
   llave foránea o uno a
-  uno](/diferencias-entre-select-related-y-prefetch-related-en-django/)
+  uno](/diferencias-entre-select_related-y-prefetch_related-en-django/)
 - **prefetch\_related()** para prevenir búsquedas excesivas en relaciones muchos
   a muchos o muchos a uno
 - **django\_annotate()** para agregar información a cada objecto de una
@@ -75,9 +75,9 @@ def list_reviews(request):
 
 Gunicorn es el servidor Python WSGI HTTP más usado para aplicaciones de Django.
 Pero no es asíncrono, considera combinarlo con una de sus contrapartes
-asíncronas: hypercorn o uvicorn. Este último implementa un worker de gunicorn.
+asíncronas: hypercorn o uvicorn. Este último implementa workers de gunicorn.
 
-### Configure gunicorn correctamente
+### Configura gunicorn correctamente
 
 Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la
 cantidade núcleos de tu procesador. Ellos recomiendan establecer los workers en
@@ -275,6 +275,8 @@ La implementación es demasiado extensa y requeriría una entrada completa. Hay 
 excelente artículo, en inglés, que te explica como implementar el [particionado
 de Postgresql en
 Django.](https://pganalyze.com/blog/postgresql-partitioning-django)
+
+Considera también investigar sobre réplicas de bases de datos para lectura de archivos, dependiendo de la arquitectura de tu aplicación, puedes implementar múltiples replicas para lectura y una maestra que sirva para escribir. Este aproximación es un tema entero y se queda fuera del alcance de una pequeña entrada, pero ahora ya sabes que buscar.
 
 ## Usa un CDN (Content Delivery Network)
 
