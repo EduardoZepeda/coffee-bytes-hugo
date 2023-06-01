@@ -115,6 +115,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 
 [permalinks]
+pages = "/:filename/"
 posts = ":title"
 
 [related]
