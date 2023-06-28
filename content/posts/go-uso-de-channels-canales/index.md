@@ -16,7 +16,7 @@ pero nuestras goroutines no pueden hacer nada más, no pueden cooperar entre
 ellas para acelerar los procesos.
 
 Imagínate que tienes un web scrapper que obtiene datos de internet de manera
-concurrente; obtenemos los datos con goroutines y los procesamos con gorotuines.
+concurrente; obtenemos los datos con goroutines y los procesamos con goroutines.
 ¿tenemos que esperar a que terminen todas las goroutines para usarlos? Lo ideal
 sería que las goroutines se comunicaran entre ellas los datos y continuaran con
 el proceso.
@@ -40,6 +40,8 @@ referencia a la palabra channel.
 ```go
 c := make(chan string)
 ```
+
+Los channels son usados para comunicar goroutines, como en el [patrón de diseño worker pool](/explicacion-del-patron-de-diseno-worker-pool/)
 
 ### Channels o canales con buffer
 

@@ -8,6 +8,8 @@ description: "Post sobre las bases de las goroutines, channels o canales, waitgr
 keywords:
   - go
   - concurrencia
+  - paralelismo
+  - workers
 ---
 
 Como te mencioné en la introducción al lenguaje de programación go: [go es un
@@ -47,6 +49,8 @@ Una [corrutina](https://es.wikipedia.org/wiki/Corrutina), en go, es **una
 función o método que se ejecuta concurrentemente junto con otras funciones o
 métodos**. En go, a las corrutinas se les conoce como **goroutines** o
 gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.
+
+Las goroutines son usadas en patrones de diseño, como el [patrón de diseño worker pool](/explicacion-del-patron-de-diseno-worker-pool/)
 
 Para generar una goroutine agregamos el keyword _go_ antes de una función. Lo
 anterior programará la función para su ejecución asíncrona.
