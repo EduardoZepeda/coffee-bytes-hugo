@@ -11,7 +11,9 @@ Esta es la lista de libros que he leído para aprender sobre desarrollo web y pr
 
 ## Mi lista de libros
 
-Los libros no están en ningún orden en particular
+Los libros no están en ningún orden en particular:
+
+![](images/sicp-js.jpg "Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman")
 
 ![](images/kubernetes-up-and-running.jpg "Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower")
 
