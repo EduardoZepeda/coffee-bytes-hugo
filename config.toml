@@ -14,7 +14,7 @@ theme = "hugo-theme-latte"
 lang = "es"
 
 [Author]
-email = 'eduardozepeda@coffeebytes.dev'
+email = 'hello@eduardozepeda.dev'
 name = 'Eduardo Zepeda'
 
 [params]
