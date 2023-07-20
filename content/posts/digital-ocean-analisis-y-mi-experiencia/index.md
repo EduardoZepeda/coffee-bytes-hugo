@@ -12,6 +12,8 @@ keywords:
   - opinion
   - kubernetes
   - deploy
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Estás eligiendo un servicio de hosting pero no sabes cual elegir? De seguro ya tuviste contacto con la publicidad de Digital Ocean pero quieres escuchar una opinión real de lo que tienen para ofrecer. Llevo usando Digital Ocean como hosting de mis proyectos personales por varios años y te platico como ha sido mi experiencia y lo que puedes encontrar si decides contratar sus servicios.

@@ -10,6 +10,8 @@ keywords:
   - concurrencia
   - paralelismo
   - workers
+authors:
+  - Eduardo Zepeda
 ---
 
 Como te mencioné en la introducción al lenguaje de programación go: [go es un

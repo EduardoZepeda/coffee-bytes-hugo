@@ -13,6 +13,8 @@ keywords:
   - REST
   - rendimiento
   - API
+authors:
+  - Eduardo Zepeda
 ---
 
 Para usar la caché en django, basta con seguir tres sencillos pasos:

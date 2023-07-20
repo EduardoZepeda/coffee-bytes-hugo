@@ -8,6 +8,8 @@ keywords:
   - go
   - concurrencia
   - channels
+authors:
+  - Eduardo Zepeda
 ---
 
 Hasta ahora te he explicado como ejecutar una goroutine, ejecutar código de

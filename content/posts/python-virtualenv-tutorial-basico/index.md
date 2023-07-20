@@ -8,6 +8,8 @@ description: "Aprende a user virtualenv en GNU/Linux, la herramienta más conoci
 keywords:
   - "python"
   - "linux"
+authors:
+  - Eduardo Zepeda
 ---
 
 Si no tienes ni idea de para que sirve un entorno virtual tengo una entrada donde explico para que sirven los [entornos virtuales en Python](/por-que-deberias-usar-un-entorno-virtual-en-python/). Hoy vengo a traerte un pequeño tutorial de Python virtualenv donde instalaremos un par de paquetes en un entorno virtual y veremos como se comportan. Asegúrate de tener instalado [Python](https://www.python.org/) y [Pip](https://pip.pypa.io/en/stable/installing/) porque los necesitaremos.

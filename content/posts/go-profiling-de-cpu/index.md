@@ -8,6 +8,8 @@ description: "Entrada sobre profiling del código en go, análisis del impacto l
 keywords:
   - go
   - rendimiento
+authors:
+  - Eduardo Zepeda
 ---
 
 Además del [testing de pruebas unitarias y la medición del coverage en go](/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.

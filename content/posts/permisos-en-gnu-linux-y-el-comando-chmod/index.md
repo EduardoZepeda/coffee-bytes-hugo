@@ -7,6 +7,8 @@ coverImage: "images/permisos_gnu_linux.jpg"
 description: "Entiende de una vez como funciona el comando chmod, encargado de asignar los permisos en GNU/Linux a carpetas y archivos."
 keywords:
   - linux
+authors:
+  - Eduardo Zepeda
 ---
 
 La entrada anterior fue la tercera parte sobre la serie de los comandos más comunes de GNU/Linux. Para finalizar la entrada escribí acerca del [comando chmod, que gestiona los permisos](/comandos-de-linux-que-deberias-conocer-tercera-parte/). Este comando chmod es uno de los comandos un poco más complejos de GNU/Linux, no por su variedad de opciones, sino por los conocimientos previos que se requieren para poder usarlo correctamente.
@@ -68,11 +70,11 @@ Hay 3 cifras en los números que siguen al comando chmod, cada cifra representa 
 
 El permiso '_r_' tendrá un valor de 4, el permiso '_w_' un valor de 2 y el permiso '_x_' un valor de 1.
 
-| Permiso | Valor |
-| ------- | ----- |
-| Leer    |   4   |
-| Escribir|   2   |
-| Ejecutar|   1   |
+| Permiso  | Valor |
+| -------- | ----- |
+| Leer     | 4     |
+| Escribir | 2     |
+| Ejecutar | 1     |
 
 ![Significado de los números en los permisos GNU/Linux](images/PermisosNumerosGNULinux.png)
 
@@ -80,11 +82,11 @@ Tomando en cuenta lo anterior, un valor de 7 (4+2+1) significa que cuenta con to
 
 La primera cifra representa los permisos del propietario del archivo, la segunda cifra los permisos del grupo y la tercera cifra los permisos de otros.
 
-| Valor del Permiso | Permisos para... |
-| --- | --- |
-| 755 | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) grupo: 4 + 1 = 5 (Leer y ejecutar) otros: 4 + 1 = 5 (Leer y ejecutar) |
-| 777 | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) grupo: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) otros: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) |
-| 111 | propietario: 1 (Ejecutar) grupo: 1 (Ejecutar) otros: 1 (Ejecutar) |
+| Valor del Permiso | Permisos para...                                                                                                                                         |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 755               | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) grupo: 4 + 1 = 5 (Leer y ejecutar) otros: 4 + 1 = 5 (Leer y ejecutar)                             |
+| 777               | propietario: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) grupo: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) otros: 4 + 2 +1 = 7 (Leer + Escribir + Ejecutar) |
+| 111               | propietario: 1 (Ejecutar) grupo: 1 (Ejecutar) otros: 1 (Ejecutar)                                                                                        |
 
 Veamos algunos ejemplos del equivalente en permisos de los números.
 
@@ -102,11 +104,11 @@ ___x__x__x
 Hay una manera alternativa de asignar permisos usando el comando chmod que luce más intuitiva. La notación que reemplazará a los 3 dígitos, en el comando chmod, consiste en una o varias letras para especificar los conjuntos a los cuales queremos aplicar los permisos; _'a'_, para todos; _'u'_, para el usuario propietario; _'g'_, para grupo; y _'o'_, para otros.
 
 | Permiso | Significado |
-| --- | --- |
-| a | Todos |
-| u | Usuario |
-| g | Grupo |
-| o | Otros |
+| ------- | ----------- |
+| a       | Todos       |
+| u       | Usuario     |
+| g       | Grupo       |
+| o       | Otros       |
 
 Pueden usarse una o varias letras. Después, el símbolo de '+' o '-', según deseemos agregar o remover permisos, respectivamente. Y, por último, los permisos que queremos agregar o remover, con las letras '_r_', '_w_' y '_x_', para leer, escribir y ejecutar, respectivamente. Veamos algunos ejemplos para clarificarlo.
 

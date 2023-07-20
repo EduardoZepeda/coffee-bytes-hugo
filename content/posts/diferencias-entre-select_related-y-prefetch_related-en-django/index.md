@@ -11,6 +11,8 @@ keywords:
   - python
   - rendimiento
   - orm
+authors:
+  - Eduardo Zepeda
 ---
 
 Los métodos _select\_related_ y _prefetch\_relate_d **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/)

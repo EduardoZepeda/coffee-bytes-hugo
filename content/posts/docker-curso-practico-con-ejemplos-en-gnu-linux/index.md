@@ -10,6 +10,8 @@ description: "Aprende a usar los comandos básicos de Docker, a diferenciar imá
 keywords:
   - docker
 url: "tutorial-de-comandos-basicos-de-docker"
+authors:
+  - Eduardo Zepeda
 ---
 
 Si te leíste la entrada anterior donde explico [para que sirve

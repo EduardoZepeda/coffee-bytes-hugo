@@ -12,6 +12,8 @@ keywords:
   - django
   - python
   - opinion
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Tu aplicación hecha en Django o la de tu compañia anda lenta? Lo anterior puede

@@ -10,6 +10,8 @@ keywords:
   - "docker"
   - "docker compose"
   - "opinion"
+authors:
+  - Eduardo Zepeda
 ---
 
 Si llevas usando computadoras desde hace tiempo, probablemente te encuentres más familiarizado con una máquina virtual que con un contenedor, ¿no es así? Docker resuelve el mismo problema que las máquinas virtuales pero de una manera diferente a estas últimas. Pero vamos por partes, empecemos por responder: ¿qué es Docker?

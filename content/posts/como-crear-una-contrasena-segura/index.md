@@ -8,6 +8,8 @@ description: "Aprende a crear una contraseña segura que proteja tus cuentas per
 keywords:
   - linux
   - opinion
+authors:
+  - Eduardo Zepeda
 ---
 
 Uno de mis amigos trabajaba como auditor de seguridad informática en una empresa cuyo nombre no mencionaré por razones obvias. Eventualmente nuestra conversión llegó al tema de su día a día en el trabajo, le pregunté acerca de sus funciones en la empresa y me respondió que su trabajo consistía principalmente en regañar y educar a los empleados sobre lo débiles que eran sus contraseñas. Lo crítico de esto es que muchas de esos empleados eran los encargados de crear los sistemas informáticos de los clientes para los que trabajaban. Sí, profesionales en TI que son descuidados con sus contraseñas, uno pensaría que es imposible, pero es mucho más común de lo que se cree. Muy pocas personas saben crear una contraseña segura.

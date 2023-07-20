@@ -8,6 +8,8 @@ categories:
 keywords:
 - python
 - django
+authors:
+  - Eduardo Zepeda
 ---
 
 Con django y reportlab podemos generar PDFs de manera dinámica, usando información de nuestra base de datos, input del usuario o cualquier otra lógica de negocio que deseemos. 

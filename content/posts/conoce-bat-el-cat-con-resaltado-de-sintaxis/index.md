@@ -8,6 +8,8 @@ coverImageCredits: "Créditos a https://www.pexels.com/@rodnae-prod"
 description: "Hace unos días descubrí bat, es la version de cat en linux con resaltado de sintaxis que vuelve más cómoda la lectura de archivos en consola."
 keywords:
   - linux
+authors:
+  - Eduardo Zepeda
 ---
 
 El otro día estaba buscando herramientas de resaltado de sintaxis y me topé con una herramienta bastante interesante llamada [bat](https://github.com/sharkdp/bat) (Sí, como murciélago en inglés), es básicamente el comando _cat_ de linux, pero con colores y otras funciones bastante interesantes. Y, como cereza del pastel, **está programado en Rust.** En esta entrada te explico de forma corta como funciona y que es lo que puede hacer por ti.

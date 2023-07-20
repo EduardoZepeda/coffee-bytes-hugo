@@ -6,6 +6,8 @@ coverImagecredits: "Créditos a 藪 https://www.pixiv.net/en/users/50979768"
 categories:
 - django
 - "linux y devops"
+authors:
+  - Eduardo Zepeda
 ---
 
 Solr, en unión con Lucene, conforman un motor de búsqueda muy potente que permite realizar búsquedas con funciones avanzadas. en esta entrada te traigo un resumen con  algunas de las funciones más interesantes de Solr y Django Haystack.

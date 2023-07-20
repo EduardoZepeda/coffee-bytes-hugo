@@ -11,6 +11,8 @@ keywords:
   - "django"
   - "python"
   - "rendimiento"
+authors:
+  - Eduardo Zepeda
 ---
 
 Además de crear tareas asíncronas, celery también permite crear tareas periódicas, que se ejecuten cada cierto tiempo. Esto puede ser bastante útil para darle mantenimiento a la base de datos cada cierto tiempo, enviar emails de marketing o de recuperación de carritos de compra, quizás incluso para vaciar el contenido de alguna cache temporal en la base de datos o cualquier tarea repetitiva en la que el tiempo de ejecución sea un factor importante, es decir para mejorar el rendimiento de una aplicación de django.

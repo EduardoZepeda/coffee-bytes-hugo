@@ -10,6 +10,8 @@ keywords:
   - inteligencia artificial
   - automatas
   - code wars
+authors:
+  - Eduardo Zepeda
 ---
 
 ChatGPT está rompiendo con todo lo conocido anteriormente en inteligencia

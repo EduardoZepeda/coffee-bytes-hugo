@@ -11,6 +11,8 @@ keywords:
   - "python"
   - go
   - "opinion"
+authors:
+  - Eduardo Zepeda
 ---
 
 Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de

@@ -9,6 +9,8 @@ keywords:
   - nginx
   - rendimiento
   - linux
+authors:
+  - Eduardo Zepeda
 ---
 
 Hace algunos meses estaba revisando los valores de Lighthouse para un sitio web cuando me di cuenta de que no cumplia con ciertas recomendaciones, usaba http/1.1, no contaba con compresión gzip, ni cache. Más tarde arreglé los problemas, te cuento como a continuación. En esta entrada te platico sobre las siguientes características de nginx: keepalive, gzip, cache y http2 y como puedes modificarlas para mejorar tus valores de [Lighthouse](https://web.dev/).

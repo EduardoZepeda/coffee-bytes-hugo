@@ -8,6 +8,8 @@ description: "En esta entrada expongo mi opinión sobre uno de los image boards 
 keywords:
   - opinion
   - internet
+authors:
+  - Eduardo Zepeda
 ---
 
 Muchas de las personas que pasan gran parte de su día en contacto con internet, ya sea por placer o por trabajo, han llegado eventualmente a terminar en un image board, generalmente en el más popular que existe entre personas angloparlantes: [4chan.](https://4chan.org)

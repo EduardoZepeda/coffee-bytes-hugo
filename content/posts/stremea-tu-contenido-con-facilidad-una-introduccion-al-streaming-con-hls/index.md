@@ -14,6 +14,8 @@ keywords:
   - "video"
   - "protocol"
   - "http"
+authors:
+  - Eduardo Zepeda
 ---
 
 Casi todos las aplicaciones web modernas realizan algún tipo de streaming, desde las plataformas de video, hasta aquellas de streaming en vivo. En esta entrada te explico como funciona el streaming con HLS de una manera tan simplificada que sacará tu purista interior. 

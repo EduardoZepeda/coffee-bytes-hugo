@@ -8,6 +8,8 @@ description: "En esta entrada hablo de los cambios y novedades de Django 3.1. Dj
 keywords:
   - django
   - python
+authors:
+  - Eduardo Zepeda
 ---
 
 Hace unas horas estaba navegando por [mi twitter](https://twitter.com/neon_affogato) y me enteré de que acaban de hacer públicas Django 3.1, cambios y novedades de ; mi framework para web favorito. Esta nueva versión tiene algunos cambios interesantes de los que hablaré a continuación.

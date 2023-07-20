@@ -9,6 +9,8 @@ description: "Te explico como crear un comando del django, el framework de desar
 keywords:
   - django
   - python
+authors:
+  - Eduardo Zepeda
 ---
 
 Has usado Django antes ¿no? Entonces, ya usaste algún comando de Django, pudo haber sido makemigrations, migrate, startproject, startapp algún otro. Pero, ¿alguna vez has creado alguno? Quizás no. Sigue leyendo para aprender como.

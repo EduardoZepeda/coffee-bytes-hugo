@@ -9,6 +9,8 @@ description: "Aprende a manejar la subida de múltiples imágenes en Django y a 
 keywords:
   - python
   - django
+authors:
+  - Eduardo Zepeda
 ---
 
 Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y si no queremos subir una sino múltiples imágenes?

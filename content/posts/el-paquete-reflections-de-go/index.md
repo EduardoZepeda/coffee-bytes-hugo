@@ -8,6 +8,8 @@ description: "Te explico el paquete reflect de go y sus funciones básicas de re
 keywords:
   - go
   - reflect
+authors:
+  - Eduardo Zepeda
 ---
 
 El paquete "reflect" es una biblioteca útil en el lenguaje de programación Go que proporciona funciones para trabajar con la reflexión.

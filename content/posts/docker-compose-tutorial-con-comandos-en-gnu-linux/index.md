@@ -11,6 +11,8 @@ keywords:
   - docker
   - "docker compose"
 url: "docker-compose-tutorial-con-comandos-en-gnu-linux"
+authors:
+  - Eduardo Zepeda
 ---
 
 Docker compose nos permite crear aplicaciones con múltiples contenedores, estos

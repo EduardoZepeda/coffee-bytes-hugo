@@ -10,6 +10,8 @@ keywords:
   - python
   - django
   - orm
+authors:
+  - Eduardo Zepeda
 ---
 
 Quieres usar Django para relacionar un modelo con otro usando una llave foránea, pero el modelo que quieres relacionar es uno diferente para cada entrada de la base de datos. Django ofrece una solución a tu problema, una llave foránea genérica llamada genericForeignKey y el modelo ContentType, del que ya hable anteriormente.

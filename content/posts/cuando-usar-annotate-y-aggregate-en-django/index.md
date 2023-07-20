@@ -12,6 +12,8 @@ keywords:
   - python
   - rendimiento
   - orm
+authors:
+  - Eduardo Zepeda
 ---
 
 La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté la cabeza con desesperación, mientras buscaba en google: "Django annotate"; una de las funciones del ORM que no lograba comprender. ¿Te ha pasado también?, apuesto que sí. Ya había leído la documentación pero no me pareció lo suficientemente clara y, para colmo, la confundía frecuentemente con su gemela malvada: aggregate. Tras haber visitado varias preguntas de stackoverflow y múltiples blogs en inglés pude entenderlas a ambas. Estas notas son el resultado de esa búsqueda, es la explicación sobre annotate y aggregate de Django que a mi me hubiera gustado leer hace años.
@@ -54,14 +56,14 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 
 ### Tabla para pedido
 
-| Id  | Total | Seller id  |
-| --- | ----- | ---------- |
-| 1   | 100   | 1          |
-| 2   | 200   | 1          |
-| 3   | 300   | 2          |
-| 4   | 400   | 2          |
-| 5   | 500   | 3          |
-| 6   | 600   | 3          |
+| Id  | Total | Seller id |
+| --- | ----- | --------- |
+| 1   | 100   | 1         |
+| 2   | 200   | 1         |
+| 3   | 300   | 2         |
+| 4   | 400   | 2         |
+| 5   | 500   | 3         |
+| 6   | 600   | 3         |
 
 Antes de hablar sobre annotate y aggregate hay que asegurarnos de saber como obtener la consulta SQL que hará Django.
 

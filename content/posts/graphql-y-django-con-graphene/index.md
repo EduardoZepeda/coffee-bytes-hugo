@@ -12,6 +12,8 @@ keywords:
   - graphene
   - graphql
   - api
+authors:
+  - Eduardo Zepeda
 ---
 
 Normalmente graphql se utiliza en conjunto con Nodejs y express, u otros frameworks de javascript, para crear una API de graphql en la cual hacer consultas o queries, pero graphql también puede implementarse con frameworks de Python como Django. Vamos a crear una aplicación de django que sirva contenido con graphql usando una librería genial llamada graphene que abstrae casi todo el boilerplate de integrar graphql con los modelos de Django.

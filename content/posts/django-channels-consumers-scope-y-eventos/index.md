@@ -10,6 +10,8 @@ keywords:
   - django
   - python
   - websockets
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Por qué Django channels? Porque Django no nos permite crear aplicaciones con comunicación en tiempo real de manera nativa. Django channels le otorga a Django la capacidad manejar protocolos que requieren una conexión persistente, como WebSockets, MQTT, chatbots, mientras mantiene intacta su integración con el sistema de sesiones, autenticación y el resto del framework.

@@ -11,6 +11,8 @@ keywords:
   - opinion
   - REST
   - api
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet. Dejo las fuentes al final del artículo por si te interesa profundizar o ver de donde viene esta información.

@@ -11,6 +11,8 @@ keywords:
   - "hugo"
   - "react"
   - "frontity"
+authors:
+  - Eduardo Zepeda
 ---
 
 El otro día una persona me preguntó que porqué use Wordpress para mi blog si podía desarrollar un sitio web por mi mismo. En la entrada donde explico [como aprendí a programar](/hola-mundo/) incluso hablé brevemente de mi pésima experiencia con PHP. Entonces, ¿por qué elegí Wordpress en lugar de desarrollar mi propio blog desde cero? La respuesta a esto es simplemente que, **para este blog, quiero escribir texto, no código**. No quiero que este blog se convierta en un proyecto a desarrollar a la par de crear entradas. Quiero algo que funcione con un par de clicks y olvidarme de ello por completo. No hay que perder de vista que el objetivo de un blog personal es escribir en él constantemente, no programarlo constantemente. Es triste ver tantos blogs de desarrolladores usando las tecnologías más nuevas y súper actualizados, pero con muy pocas entradas.

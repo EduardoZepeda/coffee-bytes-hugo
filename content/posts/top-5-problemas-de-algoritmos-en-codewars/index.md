@@ -10,6 +10,8 @@ keywords:
   - "internet"
   - "rendimiento"
   - "algoritmos"
+authors:
+  - Eduardo Zepeda
 ---
 
 ## ¿Qué es codewars?

@@ -9,6 +9,8 @@ keywords:
   - bigo
   - rendimiento
   - algoritmos
+authors:
+  - Eduardo Zepeda
 ---
 
 Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que suceden; ya sean cosas triviales, como el descubrimiento de un nuevo planeta; o significativas, como las hipotéticas esferas de Dyson que juran encontrar cada mes. Pero el descubrimiento de esta ocasión fue fantástico. 

@@ -8,6 +8,8 @@ description: "Declara structs en go y emula la herencia, polimorfismo y encapsul
 keywords:
   - go
   - oop
+authors:
+  - Eduardo Zepeda
 ---
 
 Como ya te mencioné en la [introducción al lenguaje de programación Golang o Go](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), este lenguaje no tiene una palabra reservada para tratar con clases, sino que usa structs para emular características como herencia, polimorfismo, encapsulación y otras propiedades de las clases que probablemente hayas usado en otros lenguajes de programación.

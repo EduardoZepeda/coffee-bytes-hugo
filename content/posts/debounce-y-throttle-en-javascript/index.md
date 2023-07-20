@@ -9,6 +9,8 @@ coverImageCredits: "Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/
 keywords:
   - javascript
   - patrones de diseño
+authors:
+  - Eduardo Zepeda
 ---
 
 Debounce y throttle son [patrones de diseño](/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/) usados para limitar la ejecución de funciones, generalmente son utilizados para restringir la cantidad de veces que un evento se dispara: eventos click, scroll, resize u otros. Los patrones no son exclusivos de Javascript; en una entrada anterior te explique como usar throttle para [limitar la cantidad de requests que recibe el servidor nginx.](/throttling-en-nginx/)

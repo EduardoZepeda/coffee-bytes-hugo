@@ -8,6 +8,8 @@ coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
 description: "Aprende a usar el switch statement de Python llamado match, su sintaxis básica y su guard, para controlar el flujo de tu aplicacion."
 keywords:
   - python
+authors:
+  - Eduardo Zepeda
 ---
 
 Se anunció Python 3.10 y viene con algo que muchos desarrolladores echaban de menos de otros lenguajes: el switch statement. Sí, ese trozo de código que evalúa una expresión y la compara con múltiples casos para decidir que ejecutar. Python no lo tenía implementado y muchos desarrolladores recurrían a ciertos trucos para imitarlo.

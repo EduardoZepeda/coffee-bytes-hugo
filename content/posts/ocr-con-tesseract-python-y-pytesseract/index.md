@@ -10,6 +10,8 @@ keywords:
   - python
   - inteligencia artificial
   - pytesseract
+authors:
+  - Eduardo Zepeda
 ---
 
 Python es súper versátil, tiene una comunidad gigante que tiene librerías que permiten lograr grandes cosas con pocas lineas de código, el Optical Character Recognition (OCR) es una de ellas, para ello basta con instalar tesseract y los bindings de python, llamados pytesseract.

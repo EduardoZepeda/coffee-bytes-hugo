@@ -11,6 +11,8 @@ keywords:
   - libros
   - opinion
   - reseña
+authors:
+  - Eduardo Zepeda
 ---
 
 Esta entrada es una reseña de Two scoops of Django, el que yo considero **el mejor libro de Django**. Es un libro totalmente imprescindible si te dedicas al desarrollo de aplicaciones usando Django. Probablemente ya lo has escuchado nombrar, ya que es un libro bastante popular entre los desarrolladores angloparlantes.

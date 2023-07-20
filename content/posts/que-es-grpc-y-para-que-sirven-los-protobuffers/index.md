@@ -10,6 +10,8 @@ keywords:
   - arquitectura de software
   - API
   - buenas practicas
+authors:
+  - Eduardo Zepeda
 ---
 
 

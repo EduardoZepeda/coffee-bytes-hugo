@@ -9,6 +9,8 @@ description: "Te enseño a instalar Pipenv, crear un Pipfile, establecer variabl
 keywords:
   - "python"
   - "pipenv"
+authors:
+  - Eduardo Zepeda
 ---
 
 Desde que empecé a usar Python uso virtualenv y pip para manejar los entornos virtuales. Pero al leer [Django for Professionals](/resena-de-django-for-professionals/) me enteré de que existía una herramienta mejor que pip y virtualenv, llamada Pipenv (no se complicaron mucho con el nombre). Pipenv tiene características que la hacen mucho más robusta y sencilla de utilizar que virtualenv. En este tutorial de Pipenv paso a paso, te voy a explicar la instalación, uso, manejo de archivos y comandos básicos de esta herramienta.

@@ -12,6 +12,8 @@ keywords:
   - azure
   - opinion
   - certificacion
+authors:
+  - Eduardo Zepeda
 ---
 
 El sábado 6 de agosto del 2022 presenté  y aprobé mi examen para la

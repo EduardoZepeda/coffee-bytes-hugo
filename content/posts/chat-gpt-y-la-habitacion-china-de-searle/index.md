@@ -11,6 +11,8 @@ keywords:
   - automatas
   - ciencias de la computación
   - conciencia
+authors:
+  - Eduardo Zepeda
 ---
 
 Chat GPT está en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral. Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y reflecionar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es Chat GPT consciente?

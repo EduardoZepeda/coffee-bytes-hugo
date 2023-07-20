@@ -10,6 +10,8 @@ keywords:
   - django
   - python
   - orm
+authors:
+  - Eduardo Zepeda
 ---
 
 Un Manager (o manejador) es la interfaz a través de la cual se proveen las operaciones de consulta o queries de la base de datos a los modelos de Django. Sí, me refiero a ese _objects_ que va después del nombre de tu modelo; _TuModelo.objects.all()_ y _Tumodelo.objects.filter()_. Todos los modelos de Django tienen al menos un manager. Cada vez que usas el manejador de objetos (me referiré a él como manager de aquí en adelante) en una consulta a la base de datos usando el ORM de Django estás haciendo uso de su _object manager_ predeterminado. Estos managers en Django pueden personalizarse para modificar los objetos que devuelve una consulta y podemos personalizarlos a nuestro gusto.

@@ -11,6 +11,8 @@ keywords:
   - "python"
   - "javascript"
   - "opinion"
+authors:
+  - Eduardo Zepeda
 ---
 
 Si has usado solamente Python o solamente Javascript, seguramente te de un poco

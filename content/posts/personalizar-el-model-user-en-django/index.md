@@ -9,6 +9,8 @@ coverImageCredits: "Créditos de la imagen a pin: https://www.pixiv.net/en/users
 keywords:
   - "django"
   - "python"
+authors:
+  - Eduardo Zepeda
 ---
 
 En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios de Django.](/por-que-deberias-usar-django-framework/)

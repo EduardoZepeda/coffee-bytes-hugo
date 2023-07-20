@@ -8,6 +8,8 @@ description: "Aprender a usar crontab para programar tareas repetitivas como res
 keywords:
   - linux
   - crontab
+authors:
+  - Eduardo Zepeda
 ---
 
 Muchas veces queremos ejecutar un script o un comando cada cierto tiempo, por ejemplo cuando queremos realizar backups periódicos de una base de datos, enviar a tus suscriptores un correo electrónico de recordatorio, o quizás eliminar archivos de cache cada cierta cantidad de tiempo. Cron, en conjunción con Crontab te permiten correr una tarea cada cierto tiempo.

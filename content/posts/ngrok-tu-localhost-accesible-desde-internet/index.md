@@ -8,6 +8,8 @@ coverImageCredits: "Créditos https://www.pexels.com/es-es/@pepecaspers/"
 description: "Ngrok vuelve público tu localhost, ya sea para hacer testeo de respuestas a tus endpoints o mostrarle avances a tus clientes."
 keywords:
   - linux
+authors:
+  - Eduardo Zepeda
 ---
 
 Me topé con Ngrok intentando redirigir la notificación de un pago de Mercado Pago a mi localhost, para hacer pruebas. Funcionaba más o menos así. Mercado pago te otorgaba una dirección url a donde redigir al comprador para efectuara el pago. Una vez terminado el pago, Mercado Pago hacía una petición HTTP a cualquier dirección url que tú le indicaras y mandaba por POST los resultados del intento de pago. El problema es que mercado libre no manda notificaciones a localhost.

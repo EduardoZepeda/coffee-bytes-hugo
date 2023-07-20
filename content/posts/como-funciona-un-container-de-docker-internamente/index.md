@@ -12,6 +12,8 @@ keywords:
   - devops
 coverImage: "images/docker-container-desde-cero.jpg"
 url: "container-de-docker-con-namespaces-y-cgroups"
+authors:
+  - Eduardo Zepeda
 ---
 
 Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?

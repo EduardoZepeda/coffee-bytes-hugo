@@ -11,6 +11,8 @@ keywords:
   - "bases de datos"
   - migrations
 description: "En este tutorial te explico que son las migraciones up, down de una base de datos, así como a crearlas y manejarlas usando la librería migrate de go."
+authors:
+  - Eduardo Zepeda
 ---
 
 En frameworks como [Django, las migraciones se crean automáticamente](/por-que-deberias-usar-django-framework/#su-orm-es-sencillo-y-maravilloso), a partir de los modelos. Sin embargo en lenguajes como go, siempre y cuando no estemos usando un ORM, las migraciones se realizarán de manera manual.

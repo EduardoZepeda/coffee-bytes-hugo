@@ -8,6 +8,8 @@ description: "¿No sabes que es un entorno virtual en Python? Aquí te explico q
 keywords:
   - "python"
   - "opinion"
+authors:
+  - Eduardo Zepeda
 ---
 
 Los entornos virtuales en python son una herramienta que se usa sí o sí en cada uno de los proyectos. Son tan importantes que forman parte de la librería estándar de Python, pero, ¿qué hacen? Deja que te cuente para que sirve un entorno virtual en python con un ejemplo bastante simple.

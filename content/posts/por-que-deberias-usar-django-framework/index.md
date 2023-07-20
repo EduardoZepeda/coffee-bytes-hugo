@@ -12,6 +12,8 @@ keywords:
   - "django"
   - "python"
   - "opinion"
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Por qué usar Django en un mundo donde todo es Javascript? ¿De verdad vale la

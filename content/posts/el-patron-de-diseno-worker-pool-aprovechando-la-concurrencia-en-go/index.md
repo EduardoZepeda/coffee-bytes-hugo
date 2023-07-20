@@ -13,6 +13,8 @@ keywords:
   - "Concurrencia"
   - "Paralelismo"
   - "Workers"
+authors:
+  - Eduardo Zepeda
 ---
 
 Esta entrada va sobre un patrón de diseño del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.

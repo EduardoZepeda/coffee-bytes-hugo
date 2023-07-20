@@ -10,6 +10,8 @@ keywords:
   - "javascript"
   - "react"
   - "rendimiento"
+authors:
+  - Eduardo Zepeda
 ---
 
 Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de React usando memoización, evitando renderizaciones inútiles, cada uno con sus diferencias, similitudes y casos de uso. Estas tres funciones no deben ser usadas de manera indiscriminada, sino exclusivamente en aquellas situaciones en las que su impacto sea menor que los beneficios que ofrecen.

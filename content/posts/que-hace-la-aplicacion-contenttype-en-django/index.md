@@ -10,6 +10,8 @@ keywords:
   - "django"
   - "python"
   - "orm"
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Sabías que Django lleva un registro de cada uno de los modelos que creas para tu proyecto en un modelo llamado _ContentType_? Sigue leyendo para aprender al respecto.

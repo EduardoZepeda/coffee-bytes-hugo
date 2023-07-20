@@ -9,6 +9,8 @@ description: "Aprende a realizar y personalizar auditorias de tráfico de usuari
 keywords:
   - python
   - rendimiento
+authors:
+  - Eduardo Zepeda
 ---
 
 Existen herramientas bastante sencillas de utilizar que permiten auditar el número de peticiones por segundo que soporta un sitio web (rps), locust es una de ellas, está hecha en Python y con una mínima configuración nos permite procesar información y obtener gráficos al instante, y en tiempo real, del comportamiento de nuestro sitio web.

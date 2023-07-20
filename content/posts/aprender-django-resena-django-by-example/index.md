@@ -11,6 +11,8 @@ keywords:
   - python
   - django
   - reseñas
+authors:
+  - Eduardo Zepeda
 ---
 
 Este libro planea enseñarte Django mediante la creación desde cero de cuatro proyectos. Django by Example parte creando un blog, luego una red social, una tienda en linea y al final una plataforma de aprendizaje. Cada proyecto es desarrollado prácticamente desde cero y utiliza algunas librerías para complementar las funciones.

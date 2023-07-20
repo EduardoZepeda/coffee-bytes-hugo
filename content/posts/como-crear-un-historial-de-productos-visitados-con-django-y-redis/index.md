@@ -9,6 +9,8 @@ description: "Aprende a crear paso a paso un historial de productos visitados us
 keywords:
   - django
   - redis
+authors:
+  - Eduardo Zepeda
 ---
 
 Estás navegando en un ecommerce, un producto llama tu atención y haces click para verlo, no te convence. Decides ver otras opciones, haces click en un nuevo producto y, cuando haces scroll al fondo de la página, la página te muestra el primer producto que viste bajo la leyenda "Vistos recientemente". Tú puedes hacer lo mismo con django y redis.

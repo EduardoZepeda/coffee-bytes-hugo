@@ -8,6 +8,8 @@ description: "Esta es una entrada personal donde explico como aprendí a program
 keywords:
   - opinion
   - internet
+authors:
+  - Eduardo Zepeda
 ---
 
 La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.

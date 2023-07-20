@@ -9,6 +9,8 @@ description: "Entrada sobre testing básico en go: creación de tests, manejo de
 keywords:
   - go
   - testing
+authors:
+  - Eduardo Zepeda
 ---
 
 Go ya cuenta con un modulo de testing en su librería estándar que está lista para nuestro uso, solo hace falta importarlo y usarlo.

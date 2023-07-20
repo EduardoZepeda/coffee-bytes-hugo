@@ -12,6 +12,8 @@ keywords:
   - REST
   - api
   - drf
+authors:
+  - Eduardo Zepeda
 ---
 
 Los JWT (JSON Web Tokens) se han popularizado enormemente, incluso algunos las consideran un reemplazo de los clásicos Tokens que usan otros frameworks, tales como Django Rest Framework. Usar JWT o Tokens normales (SWT) permite guardar toda la información de nuestra sesión directo en el token y además están firmados criptográficamente, suena bien ¿no? Sigue leyendo hasta el final para profundizar al respecto.

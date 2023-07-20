@@ -4,6 +4,8 @@ date: 2022-10-06
 coverImage: "images/go-manejo-signals-para-cerrar-aplicaciones.jpg"
 categories:
 - go
+authors:
+  - Eduardo Zepeda
 ---
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.
@@ -20,12 +22,12 @@ Linux puede pedirle "amablemente" a las aplicaciones los recursos que les prest�
 
 Las señales de Linux son bastantes, pero te dejo aquí las más importantes para este ejemplo: 
 
-| Señal   | Valor | Accion | Comentario                                                       | Comando       | Atajo de Teclado |
-|---------|-------|--------|------------------------------------------------------------------|---------------|------------------|
-| SIGINT  | 2     | Term   | Interrupción procedente del teclado                              | kill -2 pid   | CTRL+C           |
-| SIGQUIT | 3     | Core   | Terminarción procedente del teclado                              | kill -3 pid   | CTRL+\           |
-| SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                     | kill -15 pid  |                  |
-| SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por    | kill -9 pid   |                  |
+| Señal   | Valor | Accion | Comentario                                                    | Comando      | Atajo de Teclado |
+| ------- | ----- | ------ | ------------------------------------------------------------- | ------------ | ---------------- |
+| SIGINT  | 2     | Term   | Interrupción procedente del teclado                           | kill -2 pid  | CTRL+C           |
+| SIGQUIT | 3     | Core   | Terminarción procedente del teclado                           | kill -3 pid  | CTRL+\           |
+| SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                  | kill -15 pid |                  |
+| SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por | kill -9 pid  |                  |
 
 En Linux, estas señales pueden mandarse a una aplicación por medio del [comando kill](/comandos-de-linux-que-deberias-conocer-tercera-parte/#kill), especificando el valor de la señal y el pid de la aplicación.
 

@@ -9,6 +9,8 @@ description: "¿Por qué cuando cambio un elemento de un array en una matriz Pyt
 keywords:
   - python
   - rendimiento
+authors:
+  - Eduardo Zepeda
 ---
 
 El otro día estaba resolviendo una kata en [codewars](http://www.codewars.com/r/qsX8Ww), uno de los pasos del problema necesitaba de una matriz bidimensional, en palabras más mundanas: un array de arrays. En Python es súper sencillo crear una matriz bidimensional usando el operador de multiplicación, como si se tratara de números.

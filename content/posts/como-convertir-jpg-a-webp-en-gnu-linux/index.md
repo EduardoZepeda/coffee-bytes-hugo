@@ -8,6 +8,8 @@ description: "Hace un par de semanas quería convertir las imágenes mi ecommerc
 keywords:
   - linux
   - frontend
+authors:
+  - Eduardo Zepeda
 ---
 
 Hace un par de semanas quería convertir las imágenes de mi ecommerce de jpg a webp. Normalmente para modificar imágenes en GNU/Linux uso GIMP o imageMagick, pero ninguno de estos dos tienen soporte nativo para webp, o si lo tienen soy tan despistado que no me he dado cuenta.

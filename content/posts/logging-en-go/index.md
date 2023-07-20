@@ -8,6 +8,8 @@ keywords:
 - go
 - testing
 - logging
+authors:
+  - Eduardo Zepeda
 ---
 
 Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](/go-testing-basico-y-coverage/) más sencillo.

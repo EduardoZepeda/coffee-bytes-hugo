@@ -13,6 +13,8 @@ keywords:
   - arquitectura de software
   - API
   - buenas practicas
+authors:
+  - Eduardo Zepeda
 ---
 
 Esta publicación es una guia muy corta de consejos prácticos sobre diseño de APIs REST, no profundizo demasiado en la teoría. Encima, puedo sobre simplificar muchos conceptos en aras de mantener el texto lo más corto y sencillo posible.

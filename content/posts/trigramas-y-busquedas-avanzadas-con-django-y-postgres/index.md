@@ -12,6 +12,8 @@ keywords:
   - "django"
   - "python"
   - "postgres"
+authors:
+  - Eduardo Zepeda
 ---
 
 ¿Qué pasa si el dedo de un usuario resbala por el teclado y escribe "parfume" en lugar de "perfume". Probablemente no querramos que nuestro usuario abandone el sitio porque no encontró ningún "parfume" en nuestro sitio web. Nuestro sitio web debería de devolverle los resultados que más se parezcan a lo que está buscando. Mira como lo maneja un ecommerce con experiencia:

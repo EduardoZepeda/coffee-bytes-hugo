@@ -7,6 +7,8 @@ coverImage: "images/comandos_GNU_Linux_2.jpg"
 description: "Aprende sobre los comandos de GNU/Linux basicos que ofrece la terminal, para esta entrada explico uname, who, du, df, entre otros muchos."
 keywords:
   - linux
+authors:
+  - Eduardo Zepeda
 ---
 
 Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](/comandos-de-linux-que-deberias-conocer-tercera-parte/).
