@@ -74,7 +74,7 @@ url = "/categories/"
 weight = 3
 [[menu.main]]
 name = "Sobre mi"
-url = "/pages/eduardo-zepeda-developer/"
+url = "/authors/eduardo-zepeda/"
 weight = 4
 [[menu.main]]
 name = "Reseñas de libros"
