@@ -1,7 +1,7 @@
 ---
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
-photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1689894970/Sin_t%C3%ADtulo_ogsvug.jpg'
+photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1690065701/wallhaven-l3z1vl_rh7gs4.jpg'
 summary: 'Desarrollador web y entusiasta de GNU/Linux. En este perfil se ama a Python, Javascript/Typescript y el polémico Go (Actualmente estoy aprendiendo Rust). También creemos en las bondades de la criptografía fuera de la especulación monetaria.'
 twitter: "@hello_wired"
 codewars: "EduardoZepeda"

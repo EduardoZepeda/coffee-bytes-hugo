@@ -13,15 +13,8 @@ theme = "hugo-theme-latte"
 [language]
 lang = "es"
 
-[Author]
-email = 'hello@eduardozepeda.dev'
-name = 'Eduardo Zepeda'
-
 [params]
 GoogleTagManager = "GTM-5F4NMW3"
-author = "Eduardo Zepeda"
-authorDescription = "Desarrollador web y entusiasta de GNU/Linux. En este perfil se ama a Python, Javascript/Typescript y el polémico Go (Aunque queremos aprender Rust). También creemos en las bondades de la criptografía fuera de la especulación monetaria."
-authorImg = "https://res.cloudinary.com/eduardozepeda/image/upload/v1665799941/media/user_1/yo_bocvvt.jpg"
 description = "Artículos sobre desarrollo web y Linux."
 excludeFromSitemap = ["tags", "categories", "posts", "pages"]
 [params.latte]
