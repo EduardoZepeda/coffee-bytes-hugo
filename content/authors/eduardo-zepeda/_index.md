@@ -10,10 +10,9 @@ linkedin: "eduardomzepeda"
 website: "https://eduardozepeda.dev"
 ---
 
-¡Hola, soy Eduardo Zepeda! Desarrollador web. Aprendí casi todo lo que sé sobre desarrollo web [principalmente a través de libros y práctica,](/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial Platzi también.
+## Más información sobre mi
 
-
-Si quieres ver algunas de las cosas que he construido visita [eduardozepeda.dev](https://eduardozepeda.dev/#portfolio)
+Aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros y practicando,](/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial Platzi también.
 
 Tengo la [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
 
@@ -21,22 +20,26 @@ Soy 2° Kyu en Codewars
 
 [![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 
+Visita mi portafolio en [eduardozepeda.dev](https://eduardozepeda.dev/#portfolio)
+
 Mis lenguajes de programación preferidos son:
 
 - **Python**
 - **Javascript**, **Typescript**
 - **Go**
+- **Actualmente estoy aprendiendo Rust**
 
-Mis tecnologías favoritas son:
+Mis tecnologías/Frameworks favoritas son:
 
 - **Django y DRF**
 - **FastAPI**
+- **Htmx**
 - **React, Nextjs**
 - **Hugo**
 
 Me siento muy cómodo desarrollando aplicaciones en entornos GNU/Linux (Soy usuario permanente de Debian desde finales del 2010).
 
-Me apasiona el cine de arte, el anime y el manga. También me encanta jugar videojuegos, sin embargo me he vuelto muy selectivo al elegirlos. **Amo leer**, principalmente material de ciencia ficción. Sin embargo también disfruto de ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. Amo el mundo del café de especialidad.
-  
+Me apasiona el cine de arte, el anime y el manga. También me encanta jugar videojuegos, sin embargo me he vuelto muy selectivo al elegirlos. **Amo leer**, principalmente material de ciencia ficción. Sin embargo también disfruto de ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. Amo el mundo del café de especialidad y encontrar buenos lugares para beber café.
+
 **Soy abstemio y no fumo**.
 
