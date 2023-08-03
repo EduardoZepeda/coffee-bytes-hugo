@@ -133,7 +133,6 @@ Traceback (most recent call last):
   File "testing.py", line 24, in testHttpResponse
     self.assertEqual(200, responseStatus)
 AssertionError: 200 != 404
-
 --------------------------------------------------------------------
 Ran 1 test in 0.001s
 
