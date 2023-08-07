@@ -420,7 +420,7 @@ popularidad entre el periodo comprendido entre 2011 y 2015, pero se estabilizó
 para quedar por debajo de Python.
 
 ![Google trends comparando Go vs Python. Python es más popular a la
-fecha.](images/Python-vs-go-popularidad.png)
+![fecha.](images/Python-vs-go-popularidad.png)
 
 ### Popularidad entre los desarrolladores en 2022
 
@@ -552,7 +552,7 @@ Entre los frameworks destaca [Django, uno de los frameworks favoritos de
 Python.](/por-que-deberias-usar-django-framework/)
 
 ![Frameworks web más populares de Python: Django, Fastapi, flask,
-bottle](images/python-frameworks.jpg)
+![bottle](images/python-frameworks.jpg)
 
 A pesar de que la mayoría de frameworks en Python son antiguos, no significa que
 no estén apareciendo nuevos frameworks últimamente.

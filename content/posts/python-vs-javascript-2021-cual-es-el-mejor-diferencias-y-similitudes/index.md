@@ -223,13 +223,11 @@ el lenguaje preferido para manipular el DOM .
 
 Abajo puedes ver la terminal de javascript del navegador web Firefox
 
-![terminal del navegador web ejecutando
-javascript](images/ConsolaJavascript.gif)
+![terminal del navegador web ejecutando javascript](images/ConsolaJavascript.gif)
 
 Además puedes usar node para ejecutarlo en tu computadora.
 
-![terminal de Nodejs en GNU/Linux ejecutando
-javascript](images/ConsolaDeNodeJs.gif)
+![terminal de Nodejs en GNU/Linux ejecutando javascript](images/ConsolaDeNodeJs.gif)
 
 ### Soporte para Python
 
@@ -382,8 +380,7 @@ Existen muchísimos frameworks de **Javascript para desarrollo web tanto para el
 backend como para el frontend**; para el backend, express, nustjs, meteor,
 sails; para el frontend, vue, react, svelte, angular.
 
-![Frameworks de desarrollo web para
-Javascript](images/javascript-frameworks.jpg)
+![Frameworks de desarrollo web para Javascript](images/javascript-frameworks.jpg)
 
 Incluso aún a pesar de la abundancia de opciones que hay salen nuevos frameworks
 de Javascript más frecuentemente que para Python.

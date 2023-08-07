@@ -97,7 +97,7 @@ las opciones que están disponibles para descargar. Por ahora no descargaremos
 ninguna otra.
 
 ![Captura de pantalla de Dockerhub, el repositorio oficial de imágenes de
-Docker.](images/Docker-hub.png)
+![Docker.](images/Docker-hub.png)
 
 ### Ver las imágenes
 
@@ -383,8 +383,7 @@ redireccionaremos, a NUESTRO puerto 8080, lo que sale de SU puerto 80.
 Al terminar de ejecutar este comando puedes abrir tu navegador y comprobar que,
 ahora sí, está corriendo un servidor en Nginx.
 
-![Mensaje de bienvenida de un servidor
-Nginx](images/nginx-corriendo-sobre-docker.png)
+![Mensaje de bienvenida de un servidor](images/nginx-corriendo-sobre-docker.png)
 
 ## Persistencia de datos con volúmenes en Docker
 
@@ -788,8 +787,7 @@ veremos el cohete de Django indicando que todo funcionó perfectamente. Gunicorn
 está sirviendo nuestra aplicación de Django en el puerto 8000, al que podemos
 acceder a través de nuestro puerto del mismo número.
 
-![Página de instalación exitosa de Django, muestra un mensaje bienvenida y
-enlaces a la documentación.](images/djangoRocketNoCursor.gif)
+![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)
 
 Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre
 [docker compose, la herramienta de gestión de contenedores de
