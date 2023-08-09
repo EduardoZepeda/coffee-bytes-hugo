@@ -1,6 +1,6 @@
 ---
 
-title: "Canales Django: consumidores, ámbito y eventos"
+title: "Django channels: consumers, environments and events"
 date: "2021-11-09"
 categories:
 - "django"

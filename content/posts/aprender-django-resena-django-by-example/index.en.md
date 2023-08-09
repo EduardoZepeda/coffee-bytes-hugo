@@ -1,5 +1,5 @@
 ---
-title: "Aprender Django con Django by Example, mi reseña"
+title: "Learning Django through the book Django by example, my review"
 date: "2020-09-01"
 categories:
 - "django"

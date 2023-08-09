@@ -1,5 +1,5 @@
 ---
-title: "Program a blog or use wordpress?"
+title: "To program a blog or to use wordpress?"
 date: "2019-06-26"
 categories:
 - "opinions"

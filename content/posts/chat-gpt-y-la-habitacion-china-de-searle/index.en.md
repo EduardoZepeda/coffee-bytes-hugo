@@ -19,7 +19,7 @@ authors:
 
 Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems](/I-test-chat-gpt-with-code-challenges-of-codewars/) others are excited about its potential to change the world of work. Today I leave aside the economic consequences part to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand the language, is Chat GPT conscious?
 
-> Lo que hace una "máquina de aprendizaje" típica es encontrar una fórmula matemática que, aplicada a una colección de entradas (llamadas "datos de entrenamiento"), produzca las salidas deseadas -The Hundred-Page Machine Learning Book, Adriy Burkov
+> What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. Adriy Burkov
 
 ## John Searle's The Chinese Room
 

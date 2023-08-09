@@ -10,8 +10,18 @@ removePathAccents = true
 summaryLength = 30
 theme = "hugo-theme-latte"
 
-[language]
-lang = "es"
+[languages]
+[languages.en]
+disabled = true
+languageCode = 'en'
+languageDirection = ''
+languageName = ''
+title = ''
+weight = 0
+[languages.es]
+disabled = false
+languageDirection = 'ltr'
+languageName = 'Español'
 
 [params]
 GoogleTagManager = "GTM-5F4NMW3"

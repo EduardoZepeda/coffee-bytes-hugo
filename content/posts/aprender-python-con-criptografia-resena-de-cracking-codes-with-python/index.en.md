@@ -1,5 +1,5 @@
 ---
-title: "Aprender Python con criptografía reseña de Cracking Codes with Python"
+title: "Learn Python through cryptography my review of Cracking codes with Python"
 date: "2020-07-16"
 categories:
 - "python"

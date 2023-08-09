@@ -1,5 +1,5 @@
 ---
-title: "Canales Django: capas de canales, grupos y usuarios"
+title: "Django channels: channel layers, groups and users"
 date: "2021-11-16"
 categories:
 - "django"
