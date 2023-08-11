@@ -180,7 +180,7 @@ Below you can see the javascript terminal of the Firefox web browser
 
 You can also use node to run it on your computer.
 
-Nodejs terminal on GNU/Linux running javascript](images/ConsoleDeNodeJs.gif)
+![Nodejs terminal on GNU/Linux running javascript](images/ConsoleDeNodeJs.gif)
 
 ### Python support
 
@@ -273,7 +273,7 @@ Javascript and Python have plenty of frameworks to choose from when it comes to 
 
 There are many **Javascript frameworks for web development for both backend and frontend**; for the backend, express, nustjs, meteor, sails; for the frontend, vue, react, svelte, angular.
 
-Web development frameworks for Javascript](images/javascript-frameworks.jpg)
+![Web development frameworks for Javascript](images/javascript-frameworks.jpg)
 
 Even despite the abundance of options, new JavaScript frameworks are released more frequently than for Python.
 
@@ -281,7 +281,7 @@ Even despite the abundance of options, new JavaScript frameworks are released mo
 
 Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/why-should-you-use-django-framework/), or Flask and some more modern ones like the very fast [FastAPI web development framework](/python-fastapi-the-best-framework-for-python/), about which I wrote a post before.
 
-Python web development frameworks](images/python-frameworks.jpg)
+![Python web development frameworks](images/python-frameworks.jpg)
 
 You can write HTML and CSS code using Python for the frontend, but you will never have the same versatility as running javascript code directly in the user's browser.
 
