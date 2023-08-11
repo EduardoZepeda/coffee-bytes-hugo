@@ -13,7 +13,6 @@ keywords:
 
 authors:
 - Eduardo Zepeda
-
 ---
 
 ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence](/chat-gpt-the-china-room-from-self-clearing-and-awareness/) against three codewars challenges.

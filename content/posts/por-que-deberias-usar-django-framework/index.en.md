@@ -1,26 +1,21 @@
-<!-- TRANSLATED by md-translate -->
 ---
-
 title: "Why should you use Django Framework?"
 date: "2021-03-24"
 categories:
-
-* "django"
-* "opinions"
+- "django"
+- "opinions"
 
 coverImage: "images/Django-usar.jpg"
 coverImageCredits: "credits https://www.pexels.com/es-es/@weekendplayer/"
 description: "Is Django worth using in a world where everything is JavaScript? Enter to learn about the advantages and disadvantages of this Python framework."
 keywords:
-
-* "drf"
-* "django"
-* "python"
-* "opinion" * "django" * "python" * "python
+- "drf"
+- "django"
+- "python"
+- "opinion"
 
 authors:
-
-* Eduardo Zepeda
+- Eduardo Zepeda
 
 ---
 

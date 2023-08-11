@@ -1,25 +1,18 @@
-<!-- TRANSLATED by md-translate -->
 ---
-
 title: "Go: introduction to goroutines and concurrency"
 date: "2022-01-19"
 categories:
-
-* go
-
+- go
 coverImage: "images/goroutines-and-concurrency-in-go.jpg"
 description: "Post about the basics of goroutines, channels or channels, waitgroups and locks in the golang or go programming language."
 keywords:
-
-* go
-* concurrency
-* parallelism
-* workers
+- go
+- concurrency
+- parallelism
+- workers
 
 authors:
-
-* Eduardo Zepeda
-
+- Eduardo Zepeda
 ---
 
 As I mentioned in the introduction to the go programming language: [go is a specialized concurrency language](/golang-introduction-to-the-variables-and-data-types-language/). It is a language that was designed to handle multiple tasks asynchronously. This entry is about go channels.

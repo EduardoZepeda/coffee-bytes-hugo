@@ -11,7 +11,7 @@ description: "Learn how to use basic Docker commands, differentiate images and c
 keywords:
 - docker
 
-url: "basic-commands-basic-docker-tutorial".
+url: "basic-commands-basic-docker-tutorial"
 authors:
 - Eduardo Zepeda
 ---
