@@ -1,5 +1,5 @@
 ---
-title: "REST API basic features and recommendations"
+title: "REST API basic characteristics and recommendations"
 url: "basic-characteristics-of-an-api-rest-api"
 date: "2022-04-07"
 categories:
@@ -31,7 +31,7 @@ The term API stands for application programming interface, and consists of a set
 
 There are many types of APIs and new paradigms are appearing all the time, one of them is REST. REST is special because it has managed to survive the passage of time and position itself above the rest, but no one knows what will happen tomorrow.
 
-APIs timeline](images/timeline-of-APIs.png "REST data from year 2000")
+![APIs timeline](images/timeline-de-APIs.png "REST data from year 2000")
 
 ## What is a REST API?
 
@@ -91,7 +91,7 @@ There are probably some states that you will never use, but you should memorize 
 
 There are many more [HTTP statuses you probably want to know about](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Be sure to check them out.
 
-Code 418 response in google.](images/GoogleStatus418.png "Code 418: I'm a teapot")
+![Code 418 response in google.](images/GoogleStatus418.png "Code 418: I'm a teapot")
 
 ### Returns clear messages on errors
 
@@ -221,7 +221,7 @@ HATEOAS stands for **Hypermedia As The Engine Of Applicaton State**.
 
 What is it? When you enter a web page, it has internal links to other pages of the website, usually related to each other, either video, audio, images, so that navigation is more fluid.
 
-Screenshot of Travelling around with internal links](images/HTTPHypermedia.jpg "Example of internal links in a web page")
+![Screenshot of Travelling around with internal links](images/HTTPHypermedia.jpg "Example of internal links in a web page")
 
 HATEOAS tells us that our clients should receive an API response from which they can access other related resources via hyperlinks.
 
@@ -271,8 +271,8 @@ In order not to extend the post so much, the next post will deal with some more 
 
 ## Reference sources
 
-* [Estándares API de la casa blanca](https://github.com/WhiteHouse/api-standards)
-* [Métodos de petición HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
+* [Whitehouse's API standards](https://github.com/WhiteHouse/api-standards)
+* [HTTP Methods](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
 * [To slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash)
 * [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://www.amazon.com.mx/Build-APIs-You-Wont-Hate/dp/0692232699/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2W0ZTSCO349YL&amp;keywords=build+apis&amp;qid=1648756000&amp;sprefix=build+apis%2Caps%2C187&amp;sr=8-1)
 * [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://www.amazon.com.mx/Rest-API-Design-Rulebook-Consistent/dp/1449310508)

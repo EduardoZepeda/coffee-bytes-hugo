@@ -3,7 +3,7 @@ title: "Go: introduction to goroutines and concurrency"
 date: "2022-01-19"
 categories:
 - go
-coverImage: "images/goroutines-and-concurrency-in-go.jpg"
+coverImage: "images/goroutines-y-concurrencia-en-go.jpg"
 description: "Post about the basics of goroutines, channels or channels, waitgroups and locks in the golang or go programming language."
 keywords:
 - go

@@ -2,7 +2,7 @@
 title: "Unleash Your API's Potential With gRPC and Protobuffers"
 date: "2023-01-19"
 description: "What is a gRPC API and what are .proto files and protobuffers? What advantages do protobuffers have over JSON and what is the mechanism that makes them so efficient?"
-coverImage: "images/what-is-grpc-and-protobuffers.jpg"
+coverImage: "images/que-es-grpc-y-protobuffers.jpg"
 categories:
 - "software architecture"
 
