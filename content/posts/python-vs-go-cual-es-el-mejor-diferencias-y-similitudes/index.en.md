@@ -17,51 +17,30 @@ authors:
 - Eduardo Zepeda
 ---
 
-These last few months I have been learning go. How did it all start? Well, it started in a
-quite superficially; I loved your mascot, yes, it really was because of that.
-it. So after a brief mental debate, I decided to give the language a try.
-language. My first impression of it is that it is quite similar to Python; simple and easy to learn.
-and easy to learn. Now that I've used it a bit more I bring you a
-comparison of Python vs Go, where I will explain some of their differences, in case you are interested in learning
-you are interested in learning one or the other this 2023.
+These last few months I have been learning go. How did it all start? Well, it started in a rather superficial way; I loved their mascot, yes, that's really what it was all about. So after a brief mental debate, I decided to give the language a try. My first impression of it is that it is quite similar to Python; simple and easy to learn. Now that I have used it a bit more I bring you a comparison of Python vs Go, where I will explain some of their differences, in case you are interested in learning one or the other this 2023.
 
-If you want to learn go, take a look at my golang tutorial from scratch,
-where I explain the basic details of [Go: syntax and data types.
-data-types](/golang-introduction-to-the-variables-and-data-types-language/)
+If you want to learn go, take a look at my golang tutorial from scratch, where I explain the basic details of [Go: syntax and data types](/golang-introduction-to-the-language-variables-and-data-types/).
 
 ## A little bit about Python and go
 
-This comparison is going to be a bit sloppy, since we are going to compare;
-Python, an interpreted language; and go, a compiled language. So we are already
-we are already starting from quite big differences.
+This comparison is going to be a bit sloppy, since we are going to compare Python, an interpreted language, and go, a compiled language. So we are already starting from quite big differences.
 
-**Python is an interpreted and imperative language while Go is an interpreted language.
-is a compiled, concurrent and imperative language.** **Python is a compiled, concurrent and imperative language.
+**Python is an interpreted and imperative language while Go is a compiled, concurrent and imperative language.
 
-I had already explained a little about the differences between an interpreted language and an interpreted language.
-compiled language in my comparison of [python vs.
-javascript](/python-vs-javascript-2022-which-is-better/), so if you want to refresh your memory
-refresh your memory a bit, go there.
+I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript](/python-vs-javascript-2022-which-is-better/) comparison, so if you want to refresh your memory a bit go there.
 
-Both languages are characterized by the fact that the production of code in both languages is
-fast.
+Both languages are characterized by fast code production.
 
-The **compilation of go is extremely fast** and, although its execution could
-be slightly slower than if you were using C++ or Rust, product development and MVPs should take less time than with those languages.
-MVPs should take less time than with those languages.
+The **compilation of go is extremely fast** and, although it might be slightly slower to run than if you were using C++ or Rust, product development and MVPs should take less time than with those languages.
 
 ### My opinion on the hatred of go
 
-Go is a rather controversial language that triggers quite a lot of discussion.
-heated discussions**. Here are some examples of how varied the opinions are.
-opinions:
+Go is a **quite controversial language that triggers quite heated discussions**. I leave you some examples below of how varied opinions are:
 
 * [Golang no es un buen lenguaje](https://xetera.dev/thoughts-on-go/)
 * [Por qué Go no es bueno](https://yager.io/programming/go.html)
 
-Complaints range from the simplicity of the language, Robert Pike's statement
-that it is a language for "not so bright" programmers, to the (now fixed) lack of generics.
-lack of generics.
+Complaints range from the simplicity of the language, to Robert Pike's claim that it is a language for "not so bright" programmers, to the (now fixed) lack of generics.
 
 My opinion? I think it's certainly not the best designed language (I prefer
 Rust). So why use it? Google created the language based on a number
@@ -201,7 +180,7 @@ func (p *Profesor) Saludar(){
 
 ### Python syntax
 
-Python's syntax is super clean, focused on code readability; it doesn't use braces to separate code, but line breaks and
+Python's syntax is super clean, focused on code readability; it doesn't use braces to separate code, but line
 no braces to separate the code, but line breaks and mandatory identations.
 and mandatory identations. And, unlike the Go compiler, the Python interpreter is not as strict.
 is not so strict.
@@ -369,7 +348,7 @@ Among the not-so-cool things about Python is the sharp separation that occurred.
 between Python 2 and Python 3, leaving many libraries out of date or with a lot of patches to make code
 patches to make the code compatible between the two versions.
 
-Another rather problematic aspect is the excessive use of memory, together with the
+Another rather problematic aspect is the excessive use of memory, along with the
 speed of the language; the Python interpreter is slow. Python is forced by default to
 by default to run on a single thread, because of its
 [GIL](https://wiki.python.org/moin/GlobalInterpreterLock), which does not allow full utilization by computers.
@@ -385,7 +364,7 @@ While Python has a quite wide support, as it is found in
 generally installed in all GNU/Linux distributions and you only need to open a terminal and type the word Python to start using it.
 open a terminal and type the word Python to start using it.
 
-![Python running on a terminal](images/PythonConsole.gif)
+Python running on a terminal](images/PythonConsole.gif)
 
 ## Uses
 
@@ -419,7 +398,7 @@ To date Python is much more popular than Go. You can see that Go gained
 popularity between the period between 2011 and 2015, but stabilized to fall below Python.
 to fall below Python.
 
-Google trends comparing Go vs Python. Python is more popular to date.
+Google trends comparing Go vs Python. Python is more popular as of
 ![date.](images/Python-vs-go-popularity.png)
 
 ### Popularity among developers in 2022
@@ -433,7 +412,7 @@ more loved than Go by developers.")
 
 ## Developer salaries in 2022
 
-Go developers tend to **make significantly more money than Go developers.
+Go developers tend to **make significantly more money than the
 Python developers**. In fact, Go is among the top 10 highest paid languages according to the
 languages according to stackoverflow's 2022 survey.
 
@@ -473,14 +452,13 @@ The [import of modules and packages into
 Go](/go-package-import-and-module-handling/) may seem a bit strange to you.
 strange, there are no relative imports, like in Python or Javascript.
 
-Awesome Go page](images/AwesomeGo.png "Screenshot of Awesome Go")
+![Awesome Go page](images/AwesomeGo.png "Screenshot of Awesome Go")
 
 Awesome Go features links to a large number of sorted Go packages
 by theme
 
 To date, Go has around 350,000 packages registered on github.
-However, the fact that they are in github does not make them usable, so I consider that
-the number of packages is much smaller.
+However, the fact that they are in github does not make them usable, so I consider that the number of packages is much smaller.
 
 In summary, the go community is growing, but, for now, it is smaller
 than Python's.
@@ -510,9 +488,7 @@ calculate the n fibonacci number for each language, 10 repetitions for each test
 test, the results are in seconds (smaller is better) note the radical difference in performance of both languages.
 radical difference in the performance of the two languages.
 
-Python vs. go in fibonacci by
-recursion](images/fibo-go-vs-python-speed.png "Go, being a compiled language, is
-compiled language, it is massively faster than Python.")
+![Python vs. go in fibonacci by recursion](images/fibo-go-vs-python-speed.png  "Go, being a compiled language, is compiled language, it is massively faster than Python.")
 
 ## Web frameworks
 
@@ -534,9 +510,7 @@ Go frameworks, while the blue bars are for Python frameworks.
 Enclosed in black are the number of requests per second supported by each framework.
 (the more the better). As you can see, Go beats Python in performance.
 
-Performance comparison of various web frameworks at
-techempower](images/Speed-frameworks-go-vs-python.png "Go web frameworks outperform Python web frameworks").
-Go outperform Python ones in performance."))
+Performance comparison of various web frameworks at [techempower](images/Speed-frameworks-go-vs-python.png "Go web frameworks outperform Python web frameworks").
 
 Performance tests for Python (purple) and Go frameworks (green)
 
@@ -551,7 +525,8 @@ instagram.
 Among the frameworks [Django, one of the favorite frameworks of
 Python](/why-should-you-use-django-framework/)
 
-![Python's most popular web frameworks: Django, Fastapi, flask, bottle](images/python-frameworks.jpg)
+Frameworks web más populares de Python: Django, Fastapi, flask,
+![botella](images/python-frameworks.jpg)
 
 Even though most Python frameworks are old, it doesn't mean that
 new frameworks are not appearing lately.
