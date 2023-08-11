@@ -14,25 +14,18 @@ authors:
   - Eduardo Zepeda
 ---
 
-Como te mencioné en la introducción al lenguaje de programación go: [go es un
-lenguaje especializado en la
-concurrencia](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/). Es
-un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona.
-Esta entrada trata sobre los channels o canales de go.
+Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
 
 ## Concurrencia no es paralelismo
 
-Antes de empezar, recuerda que paralelismo y concurrencia son diferentes. Este
-post es muy pequeño para tratar un tema tan amplio, sin embargo hay dos recursos
-que quiero destacar:
+Antes de empezar, recuerda que paralelismo y concurrencia son diferentes. Este post es muy pequeño para tratar un tema tan amplio, sin embargo hay dos recursos que quiero destacar:
 
 - [Programación concurrente de Felipe Restrepo
   Calle](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html)
 - [Concurrencia vs paralelismo de Hector Patricio en The dojo
   blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html)
 
-Cito una frase del primer recurso que, a mi parecer, resume bastante bien la
-diferencia:
+Cito una frase del primer recurso que, a mi parecer, resume bastante bien la diferencia:
 
 > Un programa es concurrente si puede soportar dos o más acciones **en
 > progreso.**
@@ -42,20 +35,15 @@ diferencia:
 > 
 > Felipe Restrepo Calle
 
-Si aún así te parecen confusos y no entiendes la diferencia, dale una leída a
-esos posts y deberías estar listo para seguir adelante.
+Si aún así te parecen confusos y no entiendes la diferencia, dale una leída a esos posts y deberías estar listo para seguir adelante.
 
 ## Corrutinas en go
 
-Una [corrutina](https://es.wikipedia.org/wiki/Corrutina), en go, es **una
-función o método que se ejecuta concurrentemente junto con otras funciones o
-métodos**. En go, a las corrutinas se les conoce como **goroutines** o
-gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.
+Una [corrutina](https://es.wikipedia.org/wiki/Corrutina), en go, es **una función o método que se ejecuta concurrentemente junto con otras funciones o métodos**. En go, a las corrutinas se les conoce como **goroutines** o gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.
 
-Las goroutines son usadas en patrones de diseño, como el [patrón de diseño worker pool](/explicacion-del-patron-de-diseno-worker-pool/)
+Las goroutines son usadas en patrones de diseño, como el [patrón de diseño worker pool]( explicacion-del-patron-de-diseno-worker-pool/)
 
-Para generar una goroutine agregamos el keyword _go_ antes de una función. Lo
-anterior programará la función para su ejecución asíncrona.
+Para generar una goroutine agregamos el keyword _go_ antes de una función. Lo anterior programará la función para su ejecución asíncrona.
 
 ```go
 func write(texto string) {
@@ -66,16 +54,11 @@ go write("hey again")
 // hey
 ```
 
-En el caso anterior, debido a su naturaleza asíncrona, la goroutine no detiene
-la ejecución del código. Lo anterior implica que el cuerpo de la función _main_
-continua su ejecución y **nuestra goroutine nunca llega a ejecutarse.**
+En el caso anterior, debido a su naturaleza asíncrona, la goroutine no detiene la ejecución del código. Lo anterior implica que el cuerpo de la función _main_ continua su ejecución y **nuestra goroutine nunca llega a ejecutarse.**
 
 ![Funcionamiento de las goroutines en go](images/golang-goroutine-3.jpg)
 
-¿Pero entonces? ¿cómo le hacemos para que nuestra goroutine se ejecute? La
-aproximación ingenua sería usar un sleep para pausar la ejecución del código.
-Esto, como ya sabes, es un sinsentido. ¡No podemos estar poniéndo sleeps en
-todos lados, el flujo del programa se ralentizaría innecesariamente!
+¿Pero entonces? ¿cómo le hacemos para que nuestra goroutine se ejecute? La aproximación ingenua sería usar un sleep para pausar la ejecución del código. Esto, como ya sabes, es un sinsentido. ¡No podemos estar poniéndo sleeps en todos lados, el flujo del programa se ralentizaría innecesariamente!
 
 ```go
 // NO LO HAGAS
@@ -86,12 +69,9 @@ Una mejor aproximación sería crear un **WaitGroup** o grupo de espera.
 
 ## WaitGroups en go
 
-Un **WaitGroup** detendrá la ejecución del programa y esperará a que se ejecuten
-las goroutines. 
+Un **WaitGroup** detendrá la ejecución del programa y esperará a que se ejecuten las goroutines. 
 
-Internamente, un **WaitGroup** funciona con un contador, cuando el contador esté
-en cero la ejecución del código continuará, mientras que si el contador es mayor
-a cero, esperará a que se terminen de ejecutar las demás goroutines.
+Internamente, un **WaitGroup** funciona con un contador, cuando el contador esté en cero la ejecución del código continuará, mientras que si el contador es mayor a cero, esperará a que se terminen de ejecutar las demás goroutines.
 
 ```go
 var wg sync.WaitGroup
@@ -102,13 +82,11 @@ fmt.Println("Si el contador del waitgroup es mayor que cero se continuará con e
 
 ¿Y como cambiamos el valor del contador?
 
-Para incrementar y decrementar el contador del **WaitGroup** usaremos los
-métodos *Add* y *Done*, respectivamente.
+Para incrementar y decrementar el contador del **WaitGroup** usaremos los métodos *Add* y *Done*, respectivamente.
 
 ### El método Add
 
-El método _Add_ incrementa el contador del WaitGroup en *n* unidades, donde *n*
-es el argumento que le pasamos. 
+El método _Add_ incrementa el contador del WaitGroup en *n* unidades, donde *n* es el argumento que le pasamos. 
 
 El truco está en llamarlo cada vez que ejecutemos una goroutine. 
 
@@ -119,9 +97,7 @@ go write("Hey")
 
 ### El Método Done
 
-El método **Done** se encarga de disminuir una unidad del contador del
-**WaitGroup**. Lo llamaremos para avisarle al **WaitGroup** que la goroutine ha
-finalizado y decremente el contador en uno.
+El método **Done** se encarga de disminuir una unidad del contador del **WaitGroup**. Lo llamaremos para avisarle al **WaitGroup** que la goroutine ha finalizado y decremente el contador en uno.
 
 ```go
 func write(texto string, wg *sync.WaitGroup) {
@@ -130,8 +106,7 @@ func write(texto string, wg *sync.WaitGroup) {
 }
 ```
 
-Recuerda que la instancia del **WaitGroup** (wg \*) necesita pasarse por
-referencia o de otra manera no accederemos al **WaitGroup** original.
+Recuerda que la instancia del **WaitGroup** (wg \*) necesita pasarse por referencia o de otra manera no accederemos al **WaitGroup** original.
 
 
 ```go
@@ -141,13 +116,11 @@ func write(texto string, wg *sync.WaitGroup) {
 }
 ```
 
-Tip: usa _defer_ sobre el método _Done_ para garantizar que
-sea lo último que se ejecute.
+Tip: usa _defer_ sobre el método _Done_ para garantizar que sea lo último que se ejecute.
 
 ![Funcionamiento de un grupo de espera en go](images/golang-goroutine-wait-2.jpg)
 
-Una vez que el contador de wg.Wait se vuelve cero, se continua la ejecución del
-programa.
+Una vez que el contador de wg.Wait se vuelve cero, se continua la ejecución del programa.
 
 ```go
 var wg sync.WaitGroup
@@ -165,8 +138,7 @@ go func() {
 }()
 ```
 
-Recuerda que los paréntesis que aparecen tras el cuerpo de la función ejecutan
-la función anónima que declaramos y también reciben sus argumentos.
+Recuerda que los paréntesis que aparecen tras el cuerpo de la función ejecutan la función anónima que declaramos y también reciben sus argumentos.
 
 ```go
 go func(text string) {

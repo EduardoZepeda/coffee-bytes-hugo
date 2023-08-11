@@ -15,51 +15,30 @@ authors:
   - Eduardo Zepeda
 ---
 
-Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de
-una manera bastante superficial; me encantó su mascota, sí, de verdad fue por
-eso. Así que tras un breve debate mental, decidí darle una oportunidad al
-lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple
-y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una
-comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si
-estás interesado en aprender uno u otro este 2023.
+Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de una manera bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2023.
 
-Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero,
-donde te explico los detalles básicos de [Go: sintaxis y tipos de
-datos.](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
+Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
 
 ## Un poco sobre Python y go
 
-Esta comparación va a ser un poco chapucera, puesto que vamos a comparar;
-Python, un lenguaje interpretado; y go, un lenguaje compilado. Por lo que ya
-partimos de diferencias bastante grandes.
+Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Python, un lenguaje interpretado; y go, un lenguaje compilado. Por lo que ya partimos de diferencias bastante grandes.
 
-**Python es un lenguaje interpretado e imperativo mientras que Go es un lenguaje
-compilado, concurrente e imperativo.**
+ **Python es un lenguaje interpretado e imperativo mientras que Go es un lenguaje compilado, concurrente e imperativo.**
 
-Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno
-compilado en mi comparación de [python vs
-javascript](/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas
-refrescar un poco tu memoria dirígete ahí.
+Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
-Ambos lenguajes se caracterizan porque la producción de código en ellos es
-rápida.
+Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 
-La **compilación de go es extremadamente rápida** y, aunque su ejecución podría
-ser ligeramente más lenta que si usaras C++ o Rust, el desarrollo de productos y
-MVPs debería tomar menos tiempo que con esos lenguajes.
+La **compilación de go es extremadamente rápida** y, aunque su ejecución podría ser ligeramente más lenta que si usaras C++ o Rust, el desarrollo de productos y MVPs debería tomar menos tiempo que con esos lenguajes.
 
 ### Mi opinión sobre el odio a go
 
-Go es un **lenguaje bastante polémico que desencadena discusiones bastante
-acaloradas**. Te dejo algunos ejemplos a continuación de lo variadas que son las
-opiniones:
+Go es un **lenguaje bastante polémico que desencadena discusiones bastante acaloradas**. Te dejo algunos ejemplos a continuación de lo variadas que son las opiniones:
 
 * [Golang is not a good language](https://xetera.dev/thoughts-on-go/)
 * [Why Go Is Not Good](https://yager.io/programming/go.html)
 
-Las quejas van desde la simpleza del lenguaje, la afirmación de Robert Pike
-sobre que es un lenguaje para programadores "no tan brillantes", hasta la, (ya
-solucionada) falta de generics.
+Las quejas van desde la simpleza del lenguaje, la afirmación de Robert Pike sobre que es un lenguaje para programadores "no tan brillantes", hasta la, (ya solucionada) falta de generics.
 
 ¿Mi opinión? Yo creo que ciertamente no es el lenguaje mejor diseñado (prefiero
 Rust). Entonces ¿por qué usarlo? Google creó el lenguaje basándose en una serie
