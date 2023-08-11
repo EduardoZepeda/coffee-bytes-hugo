@@ -1,5 +1,5 @@
 ---
-title: "Hello World, how did I learn to program?"
+title: "Hello World, how did I learn to code?"
 date: "2019-03-31"
 categories:
 - "opinions"
@@ -42,7 +42,7 @@ One afternoon I was researching about a Japanese band called [Supercell](https:/
 
 The more I read about Miku Hatsune the more I wanted to know, I was stunned; the company that had programmed Vocaloid was literally giving a voice to all those artists who, for one reason or another, did not have a voice to bring their lyrics to life. At that moment I understood the true potential that the code had and I said to myself: "I also want to use computers and code to create".
 
-Miku Hatsune plastic figure](images/FiguraDeMikuHatsune.jpg "Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/ ")
+![Miku Hatsune plastic figure](images/FiguraDeMikuHatsune.jpg "Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/ ")
 
 At the time it crossed my mind to go back to college, but I dismissed the idea just as quickly. I had already been there, the university was inefficient, the level of most of the professors was mediocre at best, their academic plans were completely outdated and the face-to-face classes were slow and inefficient. I decided that I would not make the same mistake twice, this time I would try to learn on my own.
 
@@ -64,7 +64,7 @@ After months of avoiding all information related to Python **for the simple reas
 
 Python fascinated me with its simple syntax, the simplicity of the functions and the elegance of its design.
 
-The comedy group known as Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Photograph of the comedy group known as Monthy Python, after which the programming language is named.").
+![The comedy group known as Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Photograph of the comedy group known as Monthy Python, after which the programming language is named.").
 
 A month later I read the book [Beginning Python from novice to Professional](/learn-python-from-novice-to-beginning-python/) and experienced the beauty of Python's simplicity and versatility.
 
@@ -86,10 +86,10 @@ This is, in a fairly short way, the story of how I started programming. Always s
 
 Finally, since many companies love to have a piece of paper to back up what you already know, and I was a bit unsure if everything I had read applied to today's development world (the famous imposter syndrome), I decided to sign up for a 6-month Bootcamp at [Bedu](https://bedu.org).
 
-At the risk of being proud, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some very interesting and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
+At the risk of being a bit arrogant, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some very interesting and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
 
-Colobora Coworking in Chapultepec, Guadalajara](images/ColaboraCoworking.jpg "Image taken from Colabora's website").
+![Colobora Coworking in Chapultepec, Guadalajara](images/ColaboraCoworking.jpg "Image taken from Colabora's website").
 
-I took the Bedu bootcamp at Colabora Coworking.
+I went through the Bedu bootcamp at Colabora Coworking.
 
 Maybe in a future post I will talk about my experience in Bedu and Platzi, since this post is already getting quite long. If you want to ask me more about my experience, leave me a comment or send me a DM to [twitter](https://twitter.com/hello_wired) and I will tell you more about my experience.

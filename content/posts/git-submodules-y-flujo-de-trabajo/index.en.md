@@ -1,5 +1,5 @@
 ---
-title: "Git Submodules and Workflow"
+title: "Git Submodules and its Workflow"
 date: "2022-05-18"
 coverImage: "images/git-submodules.jpg"
 coverImageCredits: "Image by 牛肉面 https://www.pixiv.net/en/users/14326617"

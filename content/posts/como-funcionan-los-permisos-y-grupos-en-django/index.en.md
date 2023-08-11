@@ -1,5 +1,5 @@
 ---
-title: "How do permissions and groups work in Django?"
+title: "How do permissions and permissions groups work in Django?"
 date: "2021-04-17"
 categories:
 - "django"

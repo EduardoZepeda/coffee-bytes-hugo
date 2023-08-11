@@ -1,5 +1,5 @@
 ---
-title: "Login con Django Rest Framework DRF"
+title: "Login using Django Rest Framework DRF"
 date: "2021-08-17"
 categories:
 - "django"

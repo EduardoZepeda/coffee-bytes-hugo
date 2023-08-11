@@ -179,9 +179,7 @@ gRPC provee capacidades de balanceo de carga de manera nativa.
 
 ## Recursos de referencia
 
-- [How RPC
-  Works](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works)
+- [How RPC Works](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works)
 - [What is RPC? gRPC Introduction](https://www.youtube.com/watch?v=gnchfOojMk4)
-- [Minimalist guide to
-  RPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422)
+- [Minimalist guide to RPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422)
 - [Devopedia](https://devopedia.org/grpc)

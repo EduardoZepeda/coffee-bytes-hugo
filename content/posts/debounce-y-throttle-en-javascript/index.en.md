@@ -1,5 +1,5 @@
 ---
-title: "Debounce y Throttle en Javascript"
+title: "Debounce and Throttle in Javascript"
 date: "2022-03-23"
 categories:
 - "javascript"

@@ -1,6 +1,7 @@
 ---
 title: "Don't use JWT to manage sessions (Translation)"
 date: "2021-06-22"
+draft: true
 categories:
 - "software architecture"
 - "opinions"

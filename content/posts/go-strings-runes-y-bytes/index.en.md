@@ -1,5 +1,5 @@
 ---
-title: "Go: cadenas, runas y bytes"
+title: "Go: string, runes and bytes explained"
 date: "2021-12-28"
 categorías:
 - go
