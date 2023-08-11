@@ -1,7 +1,7 @@
 ---
 title: "Azure AZ-900 Certification Exam: My Experience"
 date: "2022-09-02"
-coverImage: "images/mi-experiencia-con-azure"
+coverImage: "images/mi-experiencia-con.jpg"
 coverImageCredits: "Image credits: Dmitriy Zub https://unsplash.com/es/@dimitryzub"
 categories:
 - "software architecture"

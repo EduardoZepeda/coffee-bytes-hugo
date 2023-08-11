@@ -5,7 +5,7 @@ categories:
 - "software architecture"
 - "django"
 
-coverImage: "images/Improve-your-app-performance-django.jpg"
+coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
 coverImageCredits: "credits https://www.pexels.com/es-es/@tranmautritam/"
 description: "Maximize the performance of your app made in Django with this compilation of tips ranging from your queries, to caching, to alternative frameworks."
 keywords:
