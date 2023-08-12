@@ -15,8 +15,8 @@ authors:
 
 This is the continuation of the following parts:
 
-* GNU Linux Basic Commands, part one](/gnu-linux-basic-commands-you-should-know/)
-* GNU Linux basic commands, part two](/gnu-linux-terminal-commands-you-should-know-second-part/).
+* [GNU Linux Basic Commands, part one](/gnu-linux-basic-commands-you-should-know/)
+* [GNU Linux basic commands, part two](/gnu-linux-terminal-commands-you-should-know-second-part/).
 
 ## printenv
 

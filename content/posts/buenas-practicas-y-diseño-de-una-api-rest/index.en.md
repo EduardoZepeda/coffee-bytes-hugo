@@ -1,5 +1,5 @@
 ---
-title: "Best practices and design of a REST API"
+title: "REST API: Best practices and design"
 date: "2022-04-28"
 categories:
 - "software architecture"
@@ -372,10 +372,10 @@ I hope you found the post useful, or at least that it introduced you to material
 
 ## Reference sources
 
-* Documentación de JSON:API](https://jsonapi.org/)
-* IRI y URI](https://www.w3.org/International/articles/idn-and-iri/)
-* Estándares API de la casa blanca](https://github.com/WhiteHouse/api-standards)
-* Mejores prácticas de diseño de APIs en Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+* [JSON:API Documentation](https://jsonapi.org/)
+* [IRI y URI](https://www.w3.org/International/articles/idn-and-iri/)
+* [Whitehouse's API standard](https://github.com/WhiteHouse/api-standards)
+* [Best Practices API design from Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 * [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://www.amazon.com.mx/Build-APIs-You-Wont-Hate/dp/0692232699/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2W0ZTSCO349YL&amp;keywords=build+apis&amp;qid=1648756000&amp;sprefix=build+apis%2Caps%2C187&amp;sr=8-1)
 * [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://www.amazon.com.mx/Rest-API-Design-Rulebook-Consistent/dp/1449310508)
-* [Dos cucharadas de Django](https://www.feldroy.com/books/two-scoops-of-django-3-x)
+* [Two scoops of django](https://www.feldroy.com/books/two-scoops-of-django-3-x)

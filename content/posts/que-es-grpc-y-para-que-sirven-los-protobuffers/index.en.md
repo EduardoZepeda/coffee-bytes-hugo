@@ -35,7 +35,7 @@ request and response type in the appropriate format.
 5. The response from the server is encoded using the stub and sent to the client.
 6. The client receives the response and decodes it in the appropriate format.
 
-![](images/rpc-eschema.jpg "Schematic diagram of gRPC operation")
+![](images/rpc-esquema.jpg "Schematic diagram of gRPC operation")
 
 Did you notice I mentioned data encryption? Well, one aspect of RPC to note is that it requires both client and server to use the same programming language, which makes it a disadvantage in environments where multiple programming languages can be mixed.
 
@@ -124,8 +124,8 @@ response, as in REST.
 
 ``` mermaid
 graph TD;
-    Cliente-->Servidor;
-    Servidor-->Cliente;
+    Client-->Server;
+    Server-->Client;
 ```
 
 **Server-side streaming**. The server sends multiple responses to
@@ -133,10 +133,10 @@ a request from the client.
 
 ``` mermaid
 graph TD;
-    Cliente-->Servidor;
-    Servidor-->Cliente;
-    Servidor-->Cliente;
-    Servidor-->Cliente;
+    Client-->Server;
+    Server-->Client;
+    Server-->Client;
+    Server-->Client;
 ```
 
 * Client-side streaming. The client sends multiple requests to the server
@@ -144,10 +144,10 @@ The client sends multiple requests to the server and the server responds with a 
 
 ``` mermaid
 graph TD;
-    Cliente-->Servidor;
-    Cliente-->Servidor;
-    Cliente-->Servidor;
-    Servidor-->Cliente;
+    Client-->Server;
+    Client-->Server;
+    Client-->Server;
+    Server-->Client;
 ```
 
 * Two-way streaming**. Both the client and the server send multiple requests and
@@ -155,12 +155,12 @@ multiple requests and responses, respectively.
 
 ``` mermaid
 graph TD;
-    Servidor-->Cliente;
-    Servidor-->Cliente;
-    Servidor-->Cliente;
-    Cliente-->Servidor;
-    Cliente-->Servidor;
-    Cliente-->Servidor;
+    Server-->Client;
+    Server-->Client;
+    Server-->Client;
+    Client-->Server;
+    Client-->Server;
+    Client-->Server;
 ```
 
 As you can see this is super useful for services that require constant exchanges of large amounts of information, such as microservices.
