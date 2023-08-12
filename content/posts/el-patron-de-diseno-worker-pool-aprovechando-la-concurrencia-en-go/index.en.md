@@ -30,7 +30,7 @@ for job in jobs:
 
 This may look pretty good, at first, but it has multiple disadvantages; first, you will be creating workers without control, which can increase your program's memory usage incredibly fast; second, you are constantly creating and destroying workers, which can be costly for your program.
 
-![](./images/workers-vs-memoria.jpg "If there is no worker limit, workers will continue to be created to match the tasks")
+![](images/workers-vs-memoria.jpg "If there is no worker limit, workers will continue to be created to match the tasks")
 
 It would be best to keep memory usage constant and avoid creating and destroying workers frequently. For this, the worker pool pattern works perfect.
 

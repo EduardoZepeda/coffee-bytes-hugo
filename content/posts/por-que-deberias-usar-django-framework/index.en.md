@@ -72,7 +72,7 @@ Its only disadvantage is its speed, as it falls short of alternatives such as sq
 
 Django has the [django admin panel](/the-django-admin-panel-and-its-customization/), an administration panel that is installed by default. This admin implements a CRUD to the database in a simple way. And, in addition, it has a solid permissions system to restrict access to the data as you want.
 
-Django admin panel](images/Django-panel-admin.png)
+![Django admin panel](images/Django-panel-admin.png)
 
 ### Offers security against the most common attacks
 
@@ -123,7 +123,7 @@ I consider this the main reason to use Django. **Django gets you from an idea to
 
 With Django you would have a working prototype faster than with any other "less opinionated" framework or one that requires you to program everything from scratch.
 
-Why to use Django](images/meme-django.jpeg)
+![Why to use Django](images/meme-django.jpeg)
 
 ### It is a proven solution
 
@@ -135,7 +135,7 @@ Consider that Django was once the choice of sites as big as Instagram or Pintere
 
 Python is great when it comes to Machine Learning, cool libraries like Pytorch, ScikitLearn, Numpy and Keras are widely used worldwide. Since Django is written in Python, you will be able to integrate these libraries natively into your Django projects, without the need to create a new service.
 
-Machine learning with Python](images/iceberg-meme.jpg)
+![Machine learning with Python](images/iceberg-meme.jpg)
 
 ## The disadvantages of Django
 
