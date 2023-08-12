@@ -158,11 +158,11 @@ When we test it in the codewars tests, it fails, obviously.
 
 The results are summarized in the following table:
 
-| Kata | Result |
-| ---- | ------ |
-|      | 6 kyu  | ❌     |   |
-|      |        | 4 kyu | ✅ |  |
-|      |        | 1 kyu | ❌ |  |
+| Kata  | Resultado |
+| ----- | --------- |
+| 6 kyu | ❌         |
+| 4 kyu | ✅         |
+| 1 kyu | ❌         |
 
 Although ChatGPT got only one of the challenges right (and only half right), it is able to solve simple problems, which could also be solved with a google or stackoverflow search, this artificial intelligence is able to return a code that works, but not necessarily correct or efficient, but it is close.
 
