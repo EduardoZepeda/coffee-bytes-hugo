@@ -1,5 +1,5 @@
 ---
-title: "Review of Django for Professionals"
+title: "Django for Professionals' review"
 date: "2020-04-15"
 categories:
 - "django"
@@ -27,13 +27,13 @@ If you don't know the advantages and disadvantages that Django offers, visit my 
 
 ## A bit of modern Django for professionals
 
-This book is updated to Django 3.0, the most modern version of Django at the time of writing. Django for professionals will present the topics covered from the development of a bookstore project. The development of this application will be done using the following technologies; Docker, to standardize the development environments; Git, for version control; Stripe, for payments; Postgres, for the database; and Heroku; to perform the deployment.
+This book is constantly being updated to the most modern version of Django at the time of writing. Django for professionals will present the topics covered from the development of a bookstore project. The development of this application will be done using the following technologies; Docker, to standardize the development environments; Git, for version control; Stripe, for payments; Postgres, for the database; and Heroku; to perform the deployment.
 
 One feature of the book that I would like to highlight is the writing of tests of the progress made throughout each chapter, this is something that I have seen **in few books** and that I believe should **become the norm** in all programming books. If you are unaware of the purpose of the tests or consider them unnecessary, give me a chance to try to convince you otherwise in my post on [Python unnitest and testing](/unittest-python-valen-la-pena-los-tests-en-python/).
 
 ## My opinion about Django for Professionals
 
-Regarding the content, it seems to me that it lacks a little more depth in the deploy and take into account other options, apart from Heroku. He also does not mention Django Rest Framework or Graphene, although this could be because they are covered in his other book: Django for APIS. I feel that, for a Django book for professionals, it does not go deep enough into the framework.
+Regarding the content, it seems to me that it lacks a little more depth in the deploy and take into account other options, apart from Heroku. It also does not mention Django Rest Framework or Graphene, although this could be because they are covered in his other book: Django for APIS. I feel that, for a Django book for professionals, it does not go deep enough into the framework.
 
 If you are looking for a book that delves into Django in depth at the code level, this is not your book, try [The definitive guide to Django](/the-definitive-guide-to-django/) (even though it is outdated). Instead, if you are looking for a more focused approach to rapid application development and deployment, this is probably the book you need to read.
 

@@ -96,12 +96,12 @@ Currently the [protobuffers format is available for C#, C++, Go, Objective-C, Ja
 
 But how efficient is gRPC compared to REST? Check out this comparison by [Matthew Leung](https://laptrinhx.com/grpc-vs-rest-performance-comparison-2418648833/).
 
-| gRPC            | REST     |
-| --------------- | -------- | ------ |
-| Requests/Second | 48.00    | 4.00   | 4.00   |
-| Request latency | 6.15     | 8.00   | 8.00   | 8.00   | 8.00 | 8.00 | 8.00 | 8.00 | 8.00 | 8.00 |
-|                 | CPU ms/s | 832.00 | 404.00 | 404.00 |
-| CPU/request     | 17.33    | 101.11 |
+|                         | gRPC   | REST   |
+| ----------------------- | ------ | ------ |
+| Peticiones/Segundo      | 48.00  | 4.00   |
+| Latencia de la petición | 6.15   | 8.00   |
+| CPU ms/s                | 832.00 | 404.00 |
+| CPU/petición            | 17.33  | 101.11 |
 
 As you can see _gRPC is much faster than REST plus JSON when processing requests_, performance tests vary from 5 to 10 times.
 
