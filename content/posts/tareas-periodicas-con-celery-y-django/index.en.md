@@ -120,7 +120,7 @@ What is Beat? Beat is one of your services that takes care of scheduled tasks. B
 celery -A celeryApp beat -l info
 ```
 
-Simplified diagram of celery beat operation(imagesCeleryBeatRabbitMQSketch.png)
+![Simplified diagram of celery beat operation](images/CeleryBeatRabbitMQEsquema.png)
 
 Celery Beat Schematic
 
@@ -134,7 +134,7 @@ Now celery will make sure that an email is sent every 10 seconds (pure spam, I k
 
 Once the celery services are running we will see how our function starts executing every 10 seconds.
 
-![Periodic tasks running on console](images/ExecutionOfPeriodicTasksCeleryBeat.png)
+![Periodic tasks running on console](images/EjecucionDeTareasPeriodicasCeleryBeat.png)
 
 Celery tasks within 10 seconds of each other
 

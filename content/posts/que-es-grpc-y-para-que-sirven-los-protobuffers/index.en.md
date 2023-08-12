@@ -28,16 +28,14 @@ The more detailed process is as follows:
 
 1. The client makes the call by sending a message to the network.
 2. The call includes a procedure to encode the methods, request types, and response type in the appropriate format.
-request and response type in the appropriate format ([marshalling]()).
-([marshalling](https://es.wikipedia.org/wiki/Marshalling)). **This procedure is called the stub.
-procedure is called the stub**.
-3. The server receives the request and uses the stub to decode the data in the proper format of the RPC
-The server receives the request and uses the stub to decode the data into the appropriate format of the RPC environment and to know what to execute and with what information.
+request and response type in the appropriate format.
+([marshalling](https://es.wikipedia.org/wiki/Marshalling)). **This procedure is called the stub**.
+3. The server receives the request and uses the stub to decode the data into the appropriate format of the RPC environment and to know what to execute and with what information.
 4. The task is executed on the server and a response is generated as a result.
 5. The response from the server is encoded using the stub and sent to the client.
 6. The client receives the response and decodes it in the appropriate format.
 
-![](images/rpc-schema.jpg "Schematic diagram of gRPC operation")
+![](images/rpc-eschema.jpg "Schematic diagram of gRPC operation")
 
 Did you notice I mentioned data encryption? Well, one aspect of RPC to note is that it requires both client and server to use the same programming language, which makes it a disadvantage in environments where multiple programming languages can be mixed.
 
