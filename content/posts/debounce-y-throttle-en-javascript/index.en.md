@@ -81,5 +81,5 @@ The throttle function returns a function that will have two sides depending on t
 
 ## Other resources on debounce and throttling
 
-* [Debounce y throttling en Typescript](https://charliesbot.dev/blog/debounce-and-throttle)
-* [Debounce y throttling aplicados al DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783)
+* [Debounce and throttling in Typescript](https://charliesbot.dev/blog/debounce-and-throttle)
+* [Debounce y throttling applied to the DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783)

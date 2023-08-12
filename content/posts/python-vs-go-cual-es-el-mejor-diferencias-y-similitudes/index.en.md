@@ -339,7 +339,7 @@ Go is a very popular language among developers, even more than Javascript, but l
 
 Stackoverflow 2022 survey with the most loved and hated languages. 
 
-[Go is more loved than Python](images/go-vs-python-stackoverflow-stackoverflow-2022.png "Python is more loved than Go by developers").
+![Go is more loved than Python](images/go-vs-python-stackoverflow-stackoverflow-2022.png "Python is more loved than Go by developers").
 
 ## Developer salaries in 2022
 
@@ -347,7 +347,7 @@ Go developers tend to **make significantly more money than the
 Python developers**. In fact, Go is among the top 10 highest paid languages according to the
 languages according to stackoverflow's 2022 survey.
 
-[Salary comparison by language according to stackoverflow survey. Go is in the top 10](images/go-vs-python-salaries.png "Go programmers tend to earn more than Python programmers").
+![Salary comparison by language according to stackoverflow survey. Go is in the top 10](images/go-vs-python-salaries.png "Go programmers tend to earn more than Python programmers").
 
 ## Batteries included
 
@@ -357,7 +357,7 @@ Go is no slouch, it has understood quite well the benefits of a standard library
 
 You can see the available libraries and functions in the section
 
-[standard library section of its official web site](https://pkg.go.dev/std)
+![standard library section of its official web site](https://pkg.go.dev/std)
 
 ## Packages
 

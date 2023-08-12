@@ -82,7 +82,7 @@ Linux takes this configuration reading a series of files inside the path _/sys/f
 
 For example, using cgroups we can tell linux: "limit the number of CPUs this process can use to only one, and that it can only use 20% of the CPU capacity, and also assign it a maximum of 1GB of RAM".
 
-Example of cgroups in linux](images/cgroups-en-linux.jpg "cgroups allow you to limit system resources")
+![Example of cgroups in linux](images/cgroups-en-linux.jpg "cgroups allow you to limit system resources")
 
 ## Create a container from scratch with Go
 
@@ -354,7 +354,7 @@ The code in this post is based on a [talk by LizRice](https://www.youtube.com/wa
 
 ## Other resources for further study
 
-* Espacios de nombres](https://wvi.cz/diyC/namespaces/)
-* Cgroups](https://clibre.io/blog/por-secciones/hardening/item/425-cgroups-grupos-de-control-en-gnu-linux)
-* Chroot](http://www.estrellateyarde.org/virtualizacion/la-jaula-en-linux-chroot)
-* Diferencia entre un proceso, un contenedor y una máquina virtual](https://jessicagreben.medium.com/what-is-the-difference-between-a-process-a-container-and-a-vm-f36ba0f8a8f7)
+* [Espacios de nombres](https://wvi.cz/diyC/namespaces/)
+* [Cgroups](https://clibre.io/blog/por-secciones/hardening/item/425-cgroups-grupos-de-control-en-gnu-linux)
+* [Chroot](http://www.estrellateyarde.org/virtualizacion/la-jaula-en-linux-chroot)
+* [Diferencia entre un proceso, un contenedor y una máquina virtual](https://jessicagreben.medium.com/what-is-the-difference-between-a-process-a-container-and-a-vm-f36ba0f8a8f7)

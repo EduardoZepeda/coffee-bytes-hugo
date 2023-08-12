@@ -265,7 +265,7 @@ Each endpoint of your API should be tested, make sure they return the correct st
 
 On the other hand, if you want something more visual, more user-friendly, and easier to use, consider using specialized tools, such as Postman, Insomnia or Hoppscotch.
 
-Insomnia GUI, a REST API testing application](images/InsomniaGUI.png "Insomnia GUI, API testing tool")
+![Insomnia GUI, a REST API testing application](images/InsomniaGUI.png "Insomnia GUI, API testing tool")
 
 In order not to extend the post so much, the next post will deal with some more subjective [REST API design and best practices](/good-practices-and-design-of-a-api-rest-api/) questions such as: how to return JSON correctly? How much to nest an API? What are the ways to version an API?
 
