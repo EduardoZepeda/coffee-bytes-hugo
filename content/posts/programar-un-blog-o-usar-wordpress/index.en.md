@@ -29,7 +29,7 @@ Wordpress is a very popular system on the Internet and already has thousands of 
 
 ## My experience so far with wordpress
 
-To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/digital-ocean-analysis-and-my-experience/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev).
+To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev).
 
 ![Web core vitals de coffee bytes](images/web_core_vitals_de_mi_blog.png)
 

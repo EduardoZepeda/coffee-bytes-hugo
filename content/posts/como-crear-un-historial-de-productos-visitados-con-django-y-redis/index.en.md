@@ -33,7 +33,7 @@ There are many ways to address that problem, you can associate a user (and their
 
 ## Install redis on GNU/Linux
 
-Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/commands-of-gnu-linux-basics-that-you-should-know/)
+Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/basic-linux-commands-you-should-know/)
 
 ```bash
 sudo apt install redis-server
@@ -80,7 +80,7 @@ class Product(models.Model):
     # ...
 ```
 
-If you have come this far, but you have no idea how Django works, I have some posts where I review a couple of books that may help you: [El libro definitivo de Django (Gratuito)](/la-guia-de-definitiva-de-django/) or [Django by example](/learning-django-through-the-book-django-by-example-my-review/)
+If you have come this far, but you have no idea how Django works, I have some posts where I review a couple of books that may help you: [El libro definitivo de Django (Gratuito)](/the-definitive-guide-to-django/) or [Django by example](/learning-django-through-the-book-django-by-example-my-review/)
 
 ## Choosing the value to be used as a key in django and redis
 

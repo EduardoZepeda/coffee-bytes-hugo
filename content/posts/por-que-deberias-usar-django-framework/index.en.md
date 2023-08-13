@@ -25,7 +25,7 @@ Why use Django in a world where everything is Javascript? Is it really worth lea
 
 ### Your ORM is simple and wonderful
 
-Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups](/trigrams-and-advanced-lookups-with-django-and-postgres/) functions and migration handling.
+Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups](/trigrams-and-advanced-searches-with-django-and-postgres/) functions and migration handling.
 
 To create a table in the database just create a class that inherits from _models.Model_ and Django will do all the heavy lifting.
 
@@ -52,7 +52,7 @@ CREATE INDEX "reviews_review_user_id_875caff2" ON "reviews_review" ("user_id");
 COMMIT;
 ```
 
-In addition to the above, its ORM supports multiple databases, so switching database engines is quite simple and after a few changes you can migrate seamlessly from Postgres to MySQL or vice versa, just by changing a couple of lines in the configuration. Saving you from having to write SQL by hand, as you would do in [migrations from another language, such as go](/tutorial-of-migrations-in-go-with-migrate/).
+In addition to the above, its ORM supports multiple databases, so switching database engines is quite simple and after a few changes you can migrate seamlessly from Postgres to MySQL or vice versa, just by changing a couple of lines in the configuration. Saving you from having to write SQL by hand, as you would do in [migrations from another language, such as go](/go-migration-tutorial-with-migrate/).
 
 ```python
 # settings.py
@@ -66,7 +66,7 @@ DATABASES = {
 }
 ```
 
-Its only disadvantage is its speed, as it falls short of alternatives such as sqlAlchemy, or [tortoise-orm](/integration-of-orm-of-python-tortoise-with-fastapi/).
+Its only disadvantage is its speed, as it falls short of alternatives such as sqlAlchemy, or [tortoise-orm](/python-tortoise-orm-integration-with-fastapi/).
 
 ### Administrator panel included
 
@@ -90,11 +90,11 @@ Most applications require a user management system, you know, register them, act
 
 This framework has a proven authentication system based on sessions that are identified by a cookie. The authentication system has already been tested numerous times by some of the most trafficked websites out there, such as Instagram or the NASA website. Pinterest started with Django but moved to node.
 
-You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](/no-uses-jwt-for-managing-sessions-translation/).
+You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](/don-t-use-jwt-to-manage-sessions-translation/).
 
 #### Permit system
 
-Django has a robust [permissions and groups system](/how-permissions-and-groups-work-in-django/) that binds your users to models in the database that you can start using with just a few lines of code.
+Django has a robust [permissions and groups system](/how-do-permissions-and-permissions-groups-work-in-django/) that binds your users to models in the database that you can start using with just a few lines of code.
 
 ### Multiple packages
 
@@ -102,7 +102,7 @@ Django has a lot of packages to solve most common problems, and they are communi
 
 Just to name a few:
 
-* [Django-haystack](/how-to-implement-solr-for-searches-or-queries-in-django)(For searches
+* [Django-haystack](/how-to-implement-solr-for-searches-or-queries-in-django/)(For searches
 complex)
 * Django-watson (Searches)
 * DRF (REST)
@@ -113,9 +113,9 @@ complex)
 * Django-storage (AWS storage)
 * Django-braces (Common functions)
 
-Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/rest-api-basic-characteristics-and-recommendations/), handling permissions and [throttling](/throttling-en-nginx/), a simple task**, compared to creating everything from scratch.
+Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/rest-api-basic-characteristics-and-recommendations/), handling permissions and [throttling](/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
 
-Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/django-channels-consumers-scope-and-events/).
+Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/django-channels-consumers-environments-and-events/).
 
 ### Takes you from an idea to a working prototype quickly.
 
@@ -151,9 +151,9 @@ The very stability of Django has made it look somewhat slow in a world of rapidl
 
 ### It is slow and handles requests one at a time.
 
-Python is an interpreted language that was made to be beautiful and simple, not necessarily fast. In my comparison of [python vs go](/python-vs-go-2022-which-is-better/) I compare the performance of both, just to give you an idea.
+Python is an interpreted language that was made to be beautiful and simple, not necessarily fast. In my comparison of [python vs go](/python-vs-go-which-is-the-best/) I compare the performance of both, just to give you an idea.
 
-In addition to the above, Django does not shine for its speed at the time of execution. In the race to be a fast framework, it is below more modern technologies such as Flask or FastAPI. Go to [my tutorial on FastAPI](/python-fastapi-the-best-framework-for-python/) if you want to see how slow Django is compared to other frameworks.
+In addition to the above, Django does not shine for its speed at the time of execution. In the race to be a fast framework, it is below more modern technologies such as Flask or FastAPI. Go to [my tutorial on FastAPI](/fastapi-tutorial-the-best-python-framework/) if you want to see how slow Django is compared to other frameworks.
 
 ### Your ORM is not asynchronous nor is it the fastest.
 

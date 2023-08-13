@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In addition to [unit test testing and coverage measurement in go](/go-testing-basic-and-coverage/), this programming language is capable of profiling the efficiency of the code by analyzing it in a very detailed way. This is quite useful to find bottlenecks or very expensive parts of the code, which are called numerous times or whose performance can be improved.
+In addition to [unit test testing and coverage measurement in go](/go-basic-testing-and-coverage/), this programming language is capable of profiling the efficiency of the code by analyzing it in a very detailed way. This is quite useful to find bottlenecks or very expensive parts of the code, which are called numerous times or whose performance can be improved.
 
 ## How does Go profiling work internally in GNU/Linux?
 
@@ -66,7 +66,7 @@ func TestFibonacci(t *testing.T) {
 
 ### Obtaining profiling information
 
-As we did to view the [coverage in go testing](/go-testing-basic-and-coverage/), we use a flag to create a file with the profiling information in binary, this file cannot be viewed directly.
+As we did to view the [coverage in go testing](/go-basic-testing-and-coverage/), we use a flag to create a file with the profiling information in binary, this file cannot be viewed directly.
 
 ```go
 go test -cpuprofile=cpu.out

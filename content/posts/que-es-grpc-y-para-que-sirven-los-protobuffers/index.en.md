@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In my post about [the basic features about a REST API](/rest-api-basic-characteristics-and-recommendations-api/) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
+In my post about [the basic features about a REST API](/rest-api-basic-characteristics-and-recommendations/) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
 
 ## What is RPC?
 

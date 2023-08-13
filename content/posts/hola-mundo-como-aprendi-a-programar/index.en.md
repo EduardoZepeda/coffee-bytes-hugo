@@ -66,7 +66,7 @@ Python fascinated me with its simple syntax, the simplicity of the functions and
 
 ![The comedy group known as Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Photograph of the comedy group known as Monthy Python, after which the programming language is named.")
 
-A month later I read the book [Beginning Python from novice to Professional](/learn-python-from-novice-to-beginning-python/) and experienced the beauty of Python's simplicity and versatility.
+A month later I read the book [Beginning Python from novice to Professional](/learn-python-from-scratch-beginning-python-review/) and experienced the beauty of Python's simplicity and versatility.
 
 With Python I could do everything: create desktop applications, web pages, simple scripts to automate tasks, all with a syntax simple and predictable enough for a programming layman like me. A few weeks were enough for Python to become my favorite programming language (it still is today), and I went from my first "Hello World" to more complicated things.
 

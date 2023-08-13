@@ -19,7 +19,7 @@ authors:
 
 This book plans to teach you Django by creating four projects from scratch. Django by Example starts by creating a blog, then a social network, an online store and finally a learning platform. Each project is developed practically from scratch and uses some libraries to complement the functions.
 
-If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of the Django web development framework](/why-you-should-use-django-framework/)
+If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of the Django web development framework](/why-should-you-use-django-framework/)
 
 ## Blog Project
 
@@ -55,5 +55,5 @@ Leaving aside the shortcomings of the javascript content, Django by example comp
 
 Read my other Django book reviews here:
 
-* My review of Two scoops of Django](/the-best-book-of-django-reviews-of-two-scoops-of-django/), focused on best practices, if you have already done projects with Django.
-* My review of Django for professionals](/resena-de-django-for-professionals/), starts from scratch but includes Docker as part of the development.
+* My review of Two scoops of Django](/the-best-django-book-two-scoops-of-django-review/), focused on best practices, if you have already done projects with Django.
+* My review of Django for professionals](/django-for-professionals-review/), starts from scratch but includes Docker as part of the development.

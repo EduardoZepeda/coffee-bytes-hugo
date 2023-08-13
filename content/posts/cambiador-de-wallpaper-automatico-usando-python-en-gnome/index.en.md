@@ -33,7 +33,7 @@ Once here we are going to create a Python file with the name _.change_wallpaper_
 touch .change_wallpaper_randomly.py
 ```
 
-If at this point you feel you are not familiar with these GNU/Linux commands you can read my post on [basic GNU/Linux commands](/gnu-linux-basic-commands-you-should-know/) to refresh your memory.
+If at this point you feel you are not familiar with these GNU/Linux commands you can read my post on [basic GNU/Linux commands](/basic-linux-commands-you-should-know/) to refresh your memory.
 
 ## Change wallpaper automatically with Python
 
@@ -122,4 +122,4 @@ If everything went correctly your wallpaper will have changed to a random image 
 
 But having to run this command every time we want to change wallpaper is quite cumbersome, wouldn't it be great to schedule it to run every so often?
 
-If you already read my post about [crontab and cron](/cron-y-crontab-schedule-periodic-tasks/) you already have an idea of how to achieve this, skip to [schedule the periodic execution of this script using _crontab_](/how-to-schedule-an-automatic-wallpaper-changer-in-python/).
+If you already read my post about [crontab and cron](/cron-and-crontab-schedules-recurring-tasks/) you already have an idea of how to achieve this, skip to [schedule the periodic execution of this script using _crontab_](/how-to-program-an-automatic-wallpaper-changer-in-python/).

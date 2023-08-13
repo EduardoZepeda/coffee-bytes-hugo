@@ -19,7 +19,7 @@ For these examples I use [Debian 9](https://www.debian.org/index.es.html), so if
 
 Another thing, what most people know as Linux, plain Linux, is actually GNU/Linux, however for SEO and simplicity reasons many people use GNU/Linux or Linux interchangeably, which I intend to do as well. But keep this in mind when you read this or other entries.
 
-Click here for [the second part of this series of commands](/gnu-linux-terminal-commands-you-should-know-second-part/) and here for [the third part of this series](/linux-commands-you-should-know-third-part/).
+Click here for [the second part of this series of commands](/linux-commands-you-should-know-part-two/) and here for [the third part of this series](/linux-commands-you-should-know-part-two/).
 
 ## Little tips from the Linux Terminal
 
@@ -85,7 +85,7 @@ man man | grep "texto a buscar"
 
 ## history
 
-History shows us the commands we have used, numbered, with the most recent to the bottom and the oldest to the top. There is an easier way to search for commands on [which you can read here](/how-to-find-a-command-previously-run-on-gnu-linux/).
+History shows us the commands we have used, numbered, with the most recent to the bottom and the oldest to the top. There is an easier way to search for commands on [which you can read here](/how-to-find-a-previously-executed-command-in-gnu-linux/).
 
 ```bash
 history
@@ -295,4 +295,4 @@ ip
 
 The ip command has many options that I suggest you review calmly, use the man command if you want to delve deeper into the functionalities.
 
-As I'm sure you already know, many important commands have been missing, I haven't placed them here so as not to make the reading so tedious, get up, stretch a bit, get something to drink and [skip to my second part of the basic GNU Linux commands](/gnu-linux-terminal-commands-you-should-know-second-part/) for the second part.
+As I'm sure you already know, many important commands have been missing, I haven't placed them here so as not to make the reading so tedious, get up, stretch a bit, get something to drink and [skip to my second part of the basic GNU Linux commands](/linux-commands-you-should-know-part-two/) for the second part.

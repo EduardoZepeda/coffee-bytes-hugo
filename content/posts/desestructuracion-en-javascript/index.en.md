@@ -66,4 +66,4 @@ if(isLoggedIn && profile==='Admin'){
 }
 ```
 
-In addition to destructuring objects, JavaScript also allows you to destructure lists. Enter my entry on [destructuring lists in Javascri](/destructing-lists-in-javascript/) to learn how to destructure lists in Javascript.
+In addition to destructuring objects, JavaScript also allows you to destructure lists. Enter my entry on [destructuring lists in Javascri](/destructuring-lists-in-javascript/) to learn how to destructure lists in Javascript.

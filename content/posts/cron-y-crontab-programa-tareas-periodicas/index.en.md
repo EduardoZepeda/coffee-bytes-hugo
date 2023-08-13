@@ -148,4 +148,4 @@ To avoid annoyances there is a very useful tool called [crontab.guru](https://cr
 
 ![Screenshot of crontab guru](images/crontab_guru.gif)
 
-If you want to apply cron and crontab, I have a post where I use them to [change wallpaper automatically using Python.](/how-to-program-automatic-wallpaper-changer-in-python/)
+If you want to apply cron and crontab, I have a post where I use them to [change wallpaper automatically using Python.](/how-to-program-an-automatic-wallpaper-changer-in-python/)

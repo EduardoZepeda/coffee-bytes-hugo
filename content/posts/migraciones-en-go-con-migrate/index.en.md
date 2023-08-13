@@ -108,7 +108,7 @@ So far we have only created the migration files, but we have not let the program
 
 Before making any changes to the database, we will need to indicate the access address to the database in the following format [engine]://[user]:[password]@[domain]/[database].
 
-And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/linux-commands-that-you-should-know-third-part/).
+And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/linux-commands-you-should-know-part-two/).
 
 ```bash
 BASE_DE_DATOS=[motor]://[usuario]:[contraseña]@[dominio]/[base de datos]

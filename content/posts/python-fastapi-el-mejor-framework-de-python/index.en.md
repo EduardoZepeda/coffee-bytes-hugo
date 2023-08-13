@@ -29,7 +29,7 @@ Is FastAPI really that fast? Yes, at least that's the evidence. FastAPI is in fi
 
 ### FastAPI vs Django
 
-FastAPI focuses on creating APIs in a simple and very efficient way, Django can do the same using its DRF library and ORM, but I don't consider them to be direct competitors. Why? Well, because Django focuses on being more of an end-to-end solution, covering everything from a [sessions and authentication system](/login-with-django-rest-framework-drf/), ORM, template rendering, form creation and management, middleware, [caching system](/cache-en-django-rest-framework-with-memcached/), its [admin panel included](/the-django-admin-panel-and-its-customization/), i18n and many other aspects.
+FastAPI focuses on creating APIs in a simple and very efficient way, Django can do the same using its DRF library and ORM, but I don't consider them to be direct competitors. Why? Well, because Django focuses on being more of an end-to-end solution, covering everything from a [sessions and authentication system](/login-using-django-rest-framework-drf/), ORM, template rendering, form creation and management, middleware, [caching system](/caching-in-django-rest-framework-with-memcached/), its [admin panel included](/the-django-admin-panel-and-its-customization/), i18n and many other aspects.
 
 On the other hand, FastAPI leaves the way open to the developer, so, as it covers different needs, the comparison does not apply.
 
@@ -67,7 +67,7 @@ Now that you've seen why it's worth using, why not give it a try?
 
 ### FastAPI installation
 
-To install it we are going to create a virtual environment with [Pipenv, a virtual environment management tool](/pipenv-the-virtual-environment-manager-you-don't-know/). In addition to FastAPI we will need uvicorn; an ASGI server, which we will use to serve our API.
+To install it we are going to create a virtual environment with [Pipenv, a virtual environment management tool](/pipenv-the-virtual-environment-manager-you-don-t-know/). In addition to FastAPI we will need uvicorn; an ASGI server, which we will use to serve our API.
 
 ```bash
 pipenv install fastapi uvicorn
@@ -513,7 +513,7 @@ async def create_upload_file(file: UploadFile = File(...)):
 
 For this example we will create a simple text file.
 
-The following command will create a txt extension file in our current folder. If you are not comfortable using the GNU/Linux terminal visit my series of posts where I explain the [basic GNU/Linux commands](/gnu-linux-basic-commands-you-should-know/)
+The following command will create a txt extension file in our current folder. If you are not comfortable using the GNU/Linux terminal visit my series of posts where I explain the [basic GNU/Linux commands](/basic-linux-commands-you-should-know/)
 
 ```bash
 printf "texto" > archivo.txt
@@ -650,7 +650,7 @@ Yes, as you probably already knew, FastAPI has automatic documentation using [sw
 
 Deployment is also a simple task to perform.
 
-To deploy without using [Docker](/what's-docker-and-what-does-it-serve/) just run uvicorn, just like we did at the beginning of this tutorial.
+To deploy without using [Docker](/what-is-docker-and-what-is-it-for/) just run uvicorn, just like we did at the beginning of this tutorial.
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 80
@@ -658,7 +658,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment with Docker
 
-Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/the-basic-docker-commands-and-their-usage) file.
+Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/the-basic-docker-commands-and-their-usage/) file.
 
 ```bash
 touch Dockerfile

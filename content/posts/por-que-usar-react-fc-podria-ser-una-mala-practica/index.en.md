@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-When we use Typescript with React and we want to [pass a _children_ as prop to one of our components](/types-for-react-components-with-children/), we need to indicate the type. Generally we use the type _React.FC_, which is short for _React.FunctionComponent_. With this the Typescript message warning us of a children with type any will disappear.
+When we use Typescript with React and we want to [pass a _children_ as prop to one of our components](/types-para-react-components-con-children/), we need to indicate the type. Generally we use the type _React.FC_, which is short for _React.FunctionComponent_. With this the Typescript message warning us of a children with type any will disappear.
 
 ```jsx
 const Componente: React.FC = ({ children }) => {

@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/commands-from-gnu-linux-basics-you-should-know/). I also have a [third part of GNU/Linux commands available](/commands-from-linux-you-should-know-third-part/).
+This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/basic-linux-commands-you-should-know/). I also have a [third part of GNU/Linux commands available](/linux-commands-you-should-know-part-two/).
 
 Let's start with the uname command, to put ourselves in the context of the operating system we are working with.
 
@@ -393,7 +393,7 @@ node: /home/usuario/.nvm/versions/node/v11.9.0/bin/node
 
 Similar to the previous one, but with a difference: this one shows us where the command would be executed in the **current environment**.
 
-If you don't know what a virtual environment is, I invite you to read my post where I explain [what are virtual environments in Python](/why-you-should-use-a-virtual-environment-in-python/).
+If you don't know what a virtual environment is, I invite you to read my post where I explain [what are virtual environments in Python](/why-should-you-use-a-virtual-environment-in-python/).
 
 On the other hand, if we are not using virtual environments it will show the same result as the previous one.
 
@@ -469,4 +469,4 @@ sudo neofetch
 
 ## More basic linux terminal commands
 
-Another entry and many more commands reviewed, some commands are missing to cover only a small part, take your time, there is no hurry, get up from your chair and go get some water or coffee. The third part is the last one and I include more commands, some of them a little bit more complicated. [In the third part I will tell you about commands like wget, systemctl, curl, printenv, mkfs, kill, top and others](/linux-commands-that-you-should-know-third-part/)
+Another entry and many more commands reviewed, some commands are missing to cover only a small part, take your time, there is no hurry, get up from your chair and go get some water or coffee. The third part is the last one and I include more commands, some of them a little bit more complicated. [In the third part I will tell you about commands like wget, systemctl, curl, printenv, mkfs, kill, top and others](/linux-commands-you-should-know-part-two/)

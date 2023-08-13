@@ -34,7 +34,7 @@ A file ending in __test.go_ * A file ending in __test.go_ * Run the command _go 
 1 directory, 5 files
 ```
 
-Consider that, if you are going to [assign a name to your package](/go-package-import-and-module-handling/)**, you should never name it _testing_**. Why? If you do, go will confuse its _testing_ package with yours, returning those incorrect results.
+Consider that, if you are going to [assign a name to your package](/go-package-import-and-module-management/)**, you should never name it _testing_**. Why? If you do, go will confuse its _testing_ package with yours, returning those incorrect results.
 
 To create the tests, inside the _testing/main_test.go_ file, we need a function that receives as argument our testing package with the destructuring character.
 
@@ -108,7 +108,7 @@ tables := []struct {
 
 I'm sure you've noticed that we're not covering division by zero, but leave it at that for now.
 
-Now that we have our array of structs, we will iterate over each of its elements using [go's range function](/go-slices-y-arrays/). This way we will cover each case.
+Now that we have our array of structs, we will iterate over each of its elements using [go's range function](/go-slices-y-arrays-characteristicas-and-basic-uses/). This way we will cover each case.
 
 ```go
 for _, table := range tables {
