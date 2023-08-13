@@ -308,7 +308,7 @@ Go, as of the date of writing this article, requires installation on the system,
 
 While Python has a quite wide support, as it is found in generally installed in all GNU/Linux distributions and you only need to open a terminal and type the word Python to start using it. Open a terminal and type the word Python to start using it.
 
-![Python running on a terminal](images/PythonConsole.gif)
+![Python running on a terminal](images/PythonConsola.gif)
 
 ## Uses
 
@@ -318,7 +318,7 @@ Go can be used for almost anything, but it has a strong presence in devops tools
 
 The [docker containers are written using go](/blog/how-does-a-docker-container-work-internally/).
 
-![Logos of technologies created with go](images/traeffik-and-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb, and terraform are all written in Go.")
+![Logos of technologies created with go](images/traeffik-y-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb, and terraform are all written in Go.")
 
 They have also created such great tools as [Pocketbase](https://pocketbase.io/), an excellent example of Backend as a service and open source alternative to firebase.
 
@@ -331,7 +331,7 @@ Python is a multi-purpose language, allowing you to create basically everything 
 To date Python is much more popular than Go. You can see that Go gained popularity between the period between 2011 and 2015, but stabilized to fall below Python.
 
 Google trends comparing Go vs Python. Python is more popular as of
-![date.](images/Python-vs-go-popularity.png)
+![date.](images/Python-vs-go-popularidad.png)
 
 ### Popularity among developers in 2022
 
@@ -339,7 +339,7 @@ Go is a very popular language among developers, even more than Javascript, but l
 
 Stackoverflow 2022 survey with the most loved and hated languages. 
 
-![Go is more loved than Python](images/go-vs-python-stackoverflow-stackoverflow-2022.png "Python is more loved than Go by developers").
+![Go is more loved than Python](images/go-vs-python-stackoverflow-2022.png "Python is more loved than Go by developers").
 
 ## Developer salaries in 2022
 
@@ -392,7 +392,7 @@ The comparison here is going to become somewhat unfair, but I'll make it anyway:
 
 How fast is go compared to python? I have done a small test using [multitime](https://tratt.net/laurie/src/multitime/) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
 
-![Python vs. go in fibonacci by recursion](images/fibo-go-vs-python-speed.png  "Go, being a compiled language, is compiled language, it is massively faster than Python.")
+![Python vs. go in fibonacci by recursion](images/fibo-go-vs-python-velocidad.png  "Go, being a compiled language, is compiled language, it is massively faster than Python.")
 
 ## Web frameworks
 
@@ -408,7 +408,7 @@ Check out these performance tests from techempower. The green bars correspond to
 
 Enclosed in black are the number of requests per second supported by each framework (the more the better). As you can see, Go beats Python in performance.
 
-Performance comparison of various web frameworks at [techempower](images/Speed-frameworks-go-vs-python.png "Go web frameworks outperform Python web frameworks").
+Performance comparison of various web frameworks at [techempower](images/Velocidad-frameworks-go-vs-python.png "Go web frameworks outperform Python web frameworks").
 
 Performance tests for Python (purple) and Go frameworks (green)
 
