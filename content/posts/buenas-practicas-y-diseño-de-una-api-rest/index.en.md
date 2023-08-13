@@ -19,7 +19,7 @@ authors:
 
 How do I design a REST API? How many levels should I nest my related resources? Relative or full URLs? This post is a compilation of some recommendations about some good REST API design practices that I have found in books and articles on the internet. I leave the sources at the end of the article in case you are interested in going deeper or see where this information comes from.
 
-Before we get started, there are a number of [basic features of a REST API](/basic-features-of-a-api-rest-api/), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
+Before we get started, there are a number of [basic features of a REST API](/rest-api-basic-characteristics-and-recommendations-api/), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
 
 Remember that a REST API can return other formats, not just JSON, but I'm going to focus on this one for the examples because it's quite popular.
 
@@ -100,7 +100,7 @@ Who to listen to? As you can see there are differences between companies and I d
 
 ## Relative or full URLs in HATEOAS?
 
-Remember that HATEOAS is a [feature of REST APIs](/features-basics-of-an-api-rest/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
+Remember that HATEOAS is a [feature of REST APIs](/rest-api-basic-characteristics-and-recommendations/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
 
 ```bash
 {"rel":"self",
@@ -208,7 +208,7 @@ Generally you will want to version your API. However, if your API is extremely s
 
 ### Where to version the API?
 
-For an API to adhere to the [REST architecture requirements](/basic-features-of-an-api-rest/) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
+For an API to adhere to the [REST architecture requirements](/rest-api-basic-characteristics-and-recommendations/) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
 
 Here are some options for versioning your APIs used by large companies, regardless of whether they are REST compliant or not.
 

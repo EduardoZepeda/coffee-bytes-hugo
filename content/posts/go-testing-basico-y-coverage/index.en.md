@@ -108,7 +108,7 @@ tables := []struct {
 
 I'm sure you've noticed that we're not covering division by zero, but leave it at that for now.
 
-Now that we have our array of structs, we will iterate over each of its elements using [go's range function](/go-arrays-y-slices/). This way we will cover each case.
+Now that we have our array of structs, we will iterate over each of its elements using [go's range function](/go-slices-y-arrays/). This way we will cover each case.
 
 ```go
 for _, table := range tables {
@@ -123,7 +123,7 @@ If everything went well, we will pass all the tests.
 
 ## Coverage
 
-Coverage is already part of the code in go, so we do not need external libraries. If you don't know what Coverage is, think of it as the percentage of your code that is tested. If all your code goes through the tests you will have a coverage of 100%, if only half of it goes through the tests the coverage will be 50%. Previously I talked about coverage in my entry [unittest in Python](/unittest-python-valen-la-pena-los-tests-en-python/)
+Coverage is already part of the code in go, so we do not need external libraries. If you don't know what Coverage is, think of it as the percentage of your code that is tested. If all your code goes through the tests you will have a coverage of 100%, if only half of it goes through the tests the coverage will be 50%. Previously I talked about coverage in my entry [unittest in Python](/unittest-python-are-python-tests-worthwhile/)
 
 To calculate the coverage, simply add the _-cover_ flag to the _go test_ command.
 

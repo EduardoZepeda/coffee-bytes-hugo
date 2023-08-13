@@ -18,7 +18,7 @@ When I first learned that Django had a permissions system, many years ago, it se
 
 If you have not yet decided to use Django and are investigating its features check out my post on the [advantages and disadvantages of the Django web development framework](/why-you-should-use-django-framework/).
 
-On the other hand, if you already have some practice with Django, you may want to deepen what you know with this free book, called [la guía definitiva de Django](/la-guia-definitiva-de-django/).
+On the other hand, if you already have some practice with Django, you may want to deepen what you know with this free book, called [la guía definitiva de Django](/the-definitive-guide-to-django/).
 
 ## How to create permissions in Django?
 

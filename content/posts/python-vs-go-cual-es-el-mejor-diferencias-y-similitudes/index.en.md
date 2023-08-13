@@ -1,5 +1,5 @@
 ---
-title: "Python vs Go 2023 Which is the Best?"
+title: "Python vs Go Which is the Best?"
 date: "2021-11-02"
 url: "python-vs-go-go-which-is-the-best-programming-language"
 categories:
@@ -316,7 +316,7 @@ While Python has a quite wide support, as it is found in generally installed in 
 
 Go can be used for almost anything, but it has a strong presence in devops tools, backend servers and blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform and InfluxDB are all written in Go.
 
-The [docker containers are written using go](/container-de-docker-with-namespaces-and-cgroups/).
+The [docker containers are written using go](/how-does-a-docker-container-work-internally/).
 
 ![Logos of technologies created with go](images/traeffik-and-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb, and terraform are all written in Go.")
 

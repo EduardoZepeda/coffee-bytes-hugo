@@ -1,5 +1,5 @@
 ---
-title: "Python vs Javascript 2023 which one is better?"
+title: "Python vs Javascript which one is better?"
 date: "2020-12-10"
 url: "python-vs-javascript-which-is-the-best-programming-language"
 categories:

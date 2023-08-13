@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-The other day a person asked me why I use Wordpress for my blog if I could develop a website by myself. In the post where I explain [how I learned to program](/hola-mundo/) I even talked briefly about my lousy experience with PHP. So why did I choose Wordpress instead of developing my own blog from scratch? The answer to that is simply that, **for this blog, I want to write text, not code**. I don't want this blog to become a project to develop along with creating posts. I want something that works with a couple of clicks and forget about it completely. Let's not lose sight of the fact that the purpose of a personal blog is to write on it constantly, not to program it constantly. It's sad to see so many developer blogs using the newest technologies and super up-to-date, but with very few entries.
+The other day a person asked me why I use Wordpress for my blog if I could develop a website by myself. In the post where I explain [how I learned to program](/hello-world-how-did-i-learn-to-code/) I even talked briefly about my lousy experience with PHP. So why did I choose Wordpress instead of developing my own blog from scratch? The answer to that is simply that, **for this blog, I want to write text, not code**. I don't want this blog to become a project to develop along with creating posts. I want something that works with a couple of clicks and forget about it completely. Let's not lose sight of the fact that the purpose of a personal blog is to write on it constantly, not to program it constantly. It's sad to see so many developer blogs using the newest technologies and super up-to-date, but with very few entries.
 
 ## What I miss when using wordpress
 

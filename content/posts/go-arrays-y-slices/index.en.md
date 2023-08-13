@@ -1,5 +1,5 @@
 ---
-title: "Go: slices y arrays"
+title: "Go: slices y arrays, characteristicas and basic uses"
 date: "2021-12-14"
 categories:
 - go

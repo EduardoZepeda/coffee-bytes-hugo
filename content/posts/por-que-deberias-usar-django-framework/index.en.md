@@ -102,7 +102,7 @@ Django has a lot of packages to solve most common problems, and they are communi
 
 Just to name a few:
 
-* [Django-haystack](/search-with-solr-with-django-haystack)(For searches
+* [Django-haystack](/how-to-implement-solr-for-searches-or-queries-in-django)(For searches
 complex)
 * Django-watson (Searches)
 * DRF (REST)
@@ -113,7 +113,7 @@ complex)
 * Django-storage (AWS storage)
 * Django-braces (Common functions)
 
-Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/basic-features-of-a-api-api-rest/), handling permissions and [throttling](/throttling-en-nginx/), a simple task**, compared to creating everything from scratch.
+Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/rest-api-basic-characteristics-and-recommendations/), handling permissions and [throttling](/throttling-en-nginx/), a simple task**, compared to creating everything from scratch.
 
 Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/django-channels-consumers-scope-and-events/).
 

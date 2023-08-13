@@ -13,7 +13,7 @@ authors:
 
 Solr, together with Lucene, is a very powerful search engine that allows you to perform searches with advanced features. In this post I bring you a summary of some of the most interesting features of Solr and Django Haystack.
 
-I assume you already have a [configured django app with Solr](/search-with-solr-with-django-haystack/), in case you don't, check my previous post.
+I assume you already have a [configured django app with Solr](/how-to-implement-solr-for-searches-or-queries-in-django/), in case you don't, check my previous post.
 
 ## Behavior of default AND and OR searches
 

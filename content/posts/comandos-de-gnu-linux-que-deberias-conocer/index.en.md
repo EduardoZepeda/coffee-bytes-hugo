@@ -151,7 +151,7 @@ cd ..
 
 This command is used to concatenate the contents of a file and display it on the screen.
 
-There is a tool that offers more functions than cat, check my post where I talk about [bat](/conoce-bat-en-linux-el-cat-with-syntax-highlighting/)
+There is a tool that offers more functions than cat, check my post where I talk about [bat](/get-to-know-bat-in-linux-the-syntax-highlighting-cat/)
 
 ```bash
 cat archivo

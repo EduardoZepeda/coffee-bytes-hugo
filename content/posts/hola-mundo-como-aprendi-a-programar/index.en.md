@@ -80,7 +80,7 @@ Later I used Django to create and customize an online store for the photo produc
 
 Python was wonderful, I could schedule all the tasks for the day and leave them running while I went off to do other things. The system worked perfectly, made me money and required almost no time investment on my part. I dedicated the free time I had to train myself in more topics related to the programming world: C, C++, algorithms, discrete mathematics, cryptography, best practices, computer security, free software, GNU/Linux and other topics that I considered relevant.
 
-This is, in a fairly short way, the story of how I started programming. Always self-taught, [reading books](/pages/books-I've-read-and-reviewed) and blogs, watching tutorials and practicing a lot.
+This is, in a fairly short way, the story of how I started programming. Always self-taught, [reading books](https://coffeebytes.dev/pages/libros-que-he-leido-y-resenas/) and blogs, watching tutorials and practicing a lot.
 
 ## Bootcamp in Bedu
 

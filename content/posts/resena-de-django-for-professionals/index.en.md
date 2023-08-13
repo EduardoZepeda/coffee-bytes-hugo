@@ -29,7 +29,7 @@ If you don't know the advantages and disadvantages that Django offers, visit my 
 
 This book is constantly being updated to the most modern version of Django at the time of writing. Django for professionals will present the topics covered from the development of a bookstore project. The development of this application will be done using the following technologies; Docker, to standardize the development environments; Git, for version control; Stripe, for payments; Postgres, for the database; and Heroku; to perform the deployment.
 
-One feature of the book that I would like to highlight is the writing of tests of the progress made throughout each chapter, this is something that I have seen **in few books** and that I believe should **become the norm** in all programming books. If you are unaware of the purpose of the tests or consider them unnecessary, give me a chance to try to convince you otherwise in my post on [Python unnitest and testing](/unittest-python-valen-la-pena-los-tests-en-python/).
+One feature of the book that I would like to highlight is the writing of tests of the progress made throughout each chapter, this is something that I have seen **in few books** and that I believe should **become the norm** in all programming books. If you are unaware of the purpose of the tests or consider them unnecessary, give me a chance to try to convince you otherwise in my post on [Python unnitest and testing](/unittest-python-are-python-tests-worthwhile/).
 
 ## My opinion about Django for Professionals
 

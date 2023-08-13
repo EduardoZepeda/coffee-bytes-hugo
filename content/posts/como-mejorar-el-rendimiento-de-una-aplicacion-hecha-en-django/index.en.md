@@ -102,7 +102,7 @@ class Review(models.Model):
 
 ## Use indexes for your searches
 
-If your application makes heavy use of information searches, consider using an efficient [search engine, such as Solr](/search-with-solr-with-django-haystack/), rather than implementing the code yourself.
+If your application makes heavy use of information searches, consider using an efficient [search engine, such as Solr](/how-to-implement-solr-for-searches-or-queries-in-django/), rather than implementing the code yourself.
 
 There are many options available:
 

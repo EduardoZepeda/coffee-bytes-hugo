@@ -14,7 +14,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous post we made an [automatic wallpaper changer in Python](/how-to-create-automatic-wallpaper-changer-using-python-in-gnome/). In this entry we are going to use Cron to program the periodic execution of this script and that it is in charge of changing the wallpaper every certain time, automatically, every hour, two hours, every day, every minute or the frequency that we want. If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/cron-y-crontab-schedule-periodic-tasks/).
+In the previous post we made an [automatic wallpaper changer in Python](/how-to-create-automatic-wallpaper-changer-using-python-in-gnome/)
+
+In this entry we are going to use Cron to program the periodic execution of this script and that it is in charge of changing the wallpaper every certain time, automatically, every hour, two hours, every day, every minute or the frequency that we want. If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/cron-y-crontab-schedule-periodic-tasks/).
 
 ```python
 #!/usr/bin/python3

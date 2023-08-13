@@ -21,7 +21,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-These last few days I have been testing a Python library that is becoming very popular, FastAPI, a framework for creating APIs, such as [REST APIs](/basic-features-of-an-api-rest/) or RPC APIs. FastAPI promises to help us create fast APIs in a simple way, with very little code and with extraordinary performance, to support high concurrency websites.
+These last few days I have been testing a Python library that is becoming very popular, FastAPI, a framework for creating APIs, such as [REST APIs](/rest-api-basic-characteristics-and-recommendations/) or RPC APIs. FastAPI promises to help us create fast APIs in a simple way, with very little code and with extraordinary performance, to support high concurrency websites.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 
@@ -591,7 +591,7 @@ def generate_error():
 
 FastAPI contains a client with which we can do testing. Before we start testing we are going to install the necessary packages to do it: pytest and requests.
 
-If you want to go deeper in Python testing I have a post where I expose some of the [Python libraries for testing](/unittest-python-valen-la-pena-los-tests-en-python/)
+If you want to go deeper in Python testing I have a post where I expose some of the [Python libraries for testing](/unittest-python-are-python-tests-worthwhile/)
 
 ```bash
 pipenv install requests pytest
@@ -658,7 +658,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment with Docker
 
-Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/tutorial-of-basic-commands-of-docker/#using-a-dockerfile-to-create-an-image) file.
+Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/the-basic-docker-commands-and-their-usage) file.
 
 ```bash
 touch Dockerfile

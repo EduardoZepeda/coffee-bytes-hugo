@@ -58,7 +58,7 @@ To avoid falling into the vile hands of computer science purists I will quote th
 
 The thing to remember about containers is that **they are very light, they are isolated and virtualize the operation of an operating system**.
 
-If you want to know how a container works, at the code level, I will tell you that [a container is a process that uses namespaces, linux cgroups and chroot](/container-de-docker-with-namespaces-and-cgroups/) to isolate a group of processes in linux, limit the operating system resources they can use and have their own file system, respectively.
+If you want to know how a container works, at the code level, I will tell you that [a container is a process that uses namespaces, linux cgroups and chroot](/how-does-a-docker-container-work-internally/) to isolate a group of processes in linux, limit the operating system resources they can use and have their own file system, respectively.
 
 ### Virtual machine
 

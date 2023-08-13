@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In frameworks like [Django, migrations are created automatically](/why-should-you-use-django-framework/#its-orm-is-simple-and-wonderful), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
+In frameworks like [Django, migrations are created automatically](/why-should-you-use-django-framework/), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
 
 ## What is a database migration?
 

@@ -80,7 +80,7 @@ class Product(models.Model):
     # ...
 ```
 
-If you have come this far, but you have no idea how Django works, I have some posts where I review a couple of books that may help you: [El libro definitivo de Django (Gratuito)](/la-guia-de-definitiva-de-django/) or [Django by example](/aprender-django-con-django-by-example-mi-resena/)
+If you have come this far, but you have no idea how Django works, I have some posts where I review a couple of books that may help you: [El libro definitivo de Django (Gratuito)](/la-guia-de-definitiva-de-django/) or [Django by example](/learning-django-through-the-book-django-by-example-my-review/)
 
 ## Choosing the value to be used as a key in django and redis
 

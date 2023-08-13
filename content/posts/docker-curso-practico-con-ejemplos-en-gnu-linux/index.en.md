@@ -24,7 +24,7 @@ Before we start, it is necessary to clarify that in Docker we work with containe
 
 You can think of images and containers **as classes and their instances, respectively.
 
-If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch with go](/container-de-docker-with-namespaces-and-cgroups/).
+If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch with go](/how-does-a-docker-container-work-internally/).
 
 ## Basic Docker commands
 

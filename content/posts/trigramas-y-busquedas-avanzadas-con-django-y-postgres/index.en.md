@@ -163,7 +163,7 @@ In the example above, I have rewritten the original values and decreased the val
 
 ## Django Libraries for advanced searches
 
-Perhaps your search needs are much more advanced than those provided by the Django ORM combined with Postgres. But, unless you are developing something that will revolutionize the search industry, someone has already gone through the same problem. There are generic solutions, such as [Solr and Django-haystack](/search-with-solr-with-django-haystack), that save you from writing many, many lines of code. Some examples are:
+Perhaps your search needs are much more advanced than those provided by the Django ORM combined with Postgres. But, unless you are developing something that will revolutionize the search industry, someone has already gone through the same problem. There are generic solutions, such as [Solr and Django-haystack](/how-to-implement-solr-for-searches-or-queries-in-django), that save you from writing many, many lines of code. Some examples are:
 
 * [Xapian](https://xapian.org/)
 * [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html)
