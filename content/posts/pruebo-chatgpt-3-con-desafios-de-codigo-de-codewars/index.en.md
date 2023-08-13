@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence](/blog/chat-gpt-searle-s-chinese-room-and-consciousness/) against three codewars challenges.
+ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence](/blog/chat-gpt-searles-chinese-room-and-consciousness/) against three codewars challenges.
 
 ## How does Codewars work?
 
