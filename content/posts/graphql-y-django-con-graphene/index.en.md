@@ -202,7 +202,7 @@ To create a new query with parameters we will add a new method to our Query obje
 
 However in this case we will use an argument, so we have to tell the name of the argument and the data type in graphql, in this case the argument will be called _title_ and the data type will be _String_. Notice how we pass _required_ to make it mandatory and its presence as an argument in the new method.
 
-Remember that the result of the query is decided by us, I have used a simple _icontains_ for a case insensitive search, but you can use whatever you want, even a [full text search](/full-text-search-and-searches-with-django-and-postgres/), [advanced searches with trigrams with postgres](/trigrams-and-advanced-searches-with-django-and-postgres/) or whatever you prefer.
+Remember that the result of the query is decided by us, I have used a simple _icontains_ for a case insensitive search, but you can use whatever you want, even a [full text search](/full-text-search-and-search-with-django-and-postgres/), [advanced searches with trigrams with postgres](/trigrams-and-advanced-search-with-django-and-postgres/) or whatever you prefer.
 
 ```python
 # criticaAnimes/schema.py

@@ -27,7 +27,7 @@ When a person wants to create a vehicle that fulfills the function of transporti
 
 In software, design patterns are the same, they are the specific arrangement and relationships of objects, methods and attributes that allow us to solve a problem. What kind of problem? Practically any problem that arises too frequently to come up with a standardized solution.
 
-Some common problems are: [processing tasks using a fixed number of workers](/worker-pool-design-pattern-explanation/), making sure that there is only one instance of a class running, adapting a complicated and impossible to modify API to a simpler and easier to understand one, or separating the part that handles the database, the part that decides the logic and the part that displays the HTML content of a web page.
+Some common problems are: [processing tasks using a fixed number of workers](/explanation-of-worker-pool-pattern-design/), making sure that there is only one instance of a class running, adapting a complicated and impossible to modify API to a simpler and easier to understand one, or separating the part that handles the database, the part that decides the logic and the part that displays the HTML content of a web page.
 
 Does this last one ring a bell? **Yes, the MVC pattern used by many [frameworks, such as django](/why-should-you-use-django-framework/), is a design pattern, or the [debounce-and-throttle](/debounce-and-throttle-in-javascript/) pattern used mainly in JavaScript.
 

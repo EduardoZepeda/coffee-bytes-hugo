@@ -20,7 +20,7 @@ A Manager (or handler) is the interface through which query operations or querie
 
 Before you start, if you don't know the basics of Django you can start with [the definitive guide to Django](/the-definitive-guide-to-django/)
 
-On the other hand, if you are looking to optimize your Django app, probably my post where I talk about how to [improve performance of slow Django apps](/is-your-django-application-slow-maximize-its-performance-with-these-tips/) will serve you better.
+On the other hand, if you are looking to optimize your Django app, probably my post where I talk about how to [improve performance of slow Django apps](/maximize-performance-of-your-django-made-application-with-these-tips/) will serve you better.
 
 ## The Django object manager
 

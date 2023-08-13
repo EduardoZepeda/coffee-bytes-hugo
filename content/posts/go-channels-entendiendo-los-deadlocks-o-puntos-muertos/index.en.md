@@ -94,7 +94,7 @@ In a deadlock there is a goroutine waiting to read or write to a channel, howeve
 
 ### Prevent deadlocks on go with goroutines
 
-In the [introduction to channels in go](/go-use-of-channels-to-communicate-goroutines/), I told you that the default capacity of a channel is 0, this causes that we cannot store data in the channels by default. If we try to store a data in a channel, we will get an error from the compiler, because there is no other goroutine to receive the value immediately.
+In the [introduction to channels in go](/go-use-of-channels-o-channels-for-communicating-goroutines/), I told you that the default capacity of a channel is 0, this causes that we cannot store data in the channels by default. If we try to store a data in a channel, we will get an error from the compiler, because there is no other goroutine to receive the value immediately.
 
 To prevent a deadlock, we can immediately use the channel data by creating a goroutine that uses the channel value.
 

@@ -48,7 +48,7 @@ Now let's move on to Digital Ocean.
 
 ## Droplets in Digital Ocean
 
-Digital Ocean works with Droplets, which are virtual servers that are rented to you. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command](/basic-linux-commands-you-should-know/).
+Digital Ocean works with Droplets, which are virtual servers that are rented to you. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command](/gnu-linux-basic-commands-you-should-know/).
 
 Once you create a Droplet this is available in less than a minute.
 

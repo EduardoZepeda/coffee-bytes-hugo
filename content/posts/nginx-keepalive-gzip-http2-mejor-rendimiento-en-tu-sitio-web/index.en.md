@@ -162,7 +162,7 @@ cache-control: max-age=2592000
 
 ## Implement Throttling
 
-If there are some clients that make a lot of requests, keeping your server busy and affecting the rest of the users, you can implement Throttling to limit their impact. If you want to know more about it, I have a post where I talk about [Throttling in Nginx](/throttling-on-nginx/).
+If there are some clients that make a lot of requests, keeping your server busy and affecting the rest of the users, you can implement Throttling to limit their impact. If you want to know more about it, I have a post where I talk about [Throttling in Nginx](/throttling-in-nginx/).
 
 ```bash
 limit_req_zone $binary_remote_addr zone=mylimit:10m rate=5r/s;

@@ -15,9 +15,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-Since I started using Python I use virtualenv and pip to manage virtual environments. But while reading [Django for Professionals](/django-for-professionals-review/) I found out that there was a better tool than pip and virtualenv, called Pipenv (they didn't get too complicated with the name). Pipenv has features that make it much more robust and easier to use than virtualenv. In this step-by-step Pipenv tutorial, I will explain the installation, usage, file handling and basic commands of this tool.
+Since I started using Python I use virtualenv and pip to manage virtual environments. But while reading [Django for Professionals](/resena-de-django-for-professionals/) I found out that there was a better tool than pip and virtualenv, called Pipenv (they didn't get too complicated with the name). Pipenv has features that make it much more robust and easier to use than virtualenv. In this step-by-step Pipenv tutorial, I will explain the installation, usage, file handling and basic commands of this tool.
 
-First, if you have already heard about virtual environments but don't know what they are for I have a post where I talk about [virtual environments in Python](/why-should-you-use-a-virtual-environment-in-python/). On the other hand, if the name _virtualenv_ sounds a bit esoteric to you you might want to read about [virtualenv, the Python virtual environment manager](/python-virtualenv-linux-basic-tutorial/)
+First, if you have already heard about virtual environments but don't know what they are for I have a post where I talk about [virtual environments in Python](/why-you-should-use-a-virtual-environment-in-python/). On the other hand, if the name _virtualenv_ sounds a bit esoteric to you you might want to read about [virtualenv, the Python virtual environment manager](/python-virtualenv-basic-tutorial-on-linux/)
 
 ## Pipenv vs virtualenv
 
@@ -58,7 +58,7 @@ What is in these files? I will explain it below. First let's go to the Pipfile f
 
 ## Pipfile
 
-Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands](/basic-linux-commands-you-should-know/).
+Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands](/commands-gnu-linux-basics-you-should-know/).
 
 ```bash
 cat Pipfile
@@ -210,13 +210,13 @@ pipenv --venv
 /home/usuario/.local/share/virtualenvs/proyecto-HHqROqC2
 ```
 
-And now, instead of locating the activate file manually in the above path, as we did with [virtualenv](/python-virtualenv-linux-basic-tutorial/), we can activate the virtual environment using the _pipenv shell_ command and this will be done for us automatically
+And now, instead of locating the activate file manually in the above path, as we did with [virtualenv](/python-virtualenv-tutorial-basic-on-linux/), we can activate the virtual environment using the _pipenv shell_ command and this will be done for us automatically
 
 ```bash
 pipenv shell
 ```
 
-As with [virtualenv](/python-virtualenv-linux-basic-tutorial/) we can see that the prompt will change, indicating that we are inside the virtual environment
+As with [virtualenv](/python-virtualenv-tutorial-basic-in-linux/) we can see that the prompt will change, indicating that we are inside the virtual environment
 
 ## Environment variables with Pipenv
 

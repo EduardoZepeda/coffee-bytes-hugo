@@ -22,7 +22,7 @@ The computer screen illuminated my face full of despair, I rubbed my head in des
 
 This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/the-definitive-guide-to-django/).
 
-Annotate and aggregate are useful for [improving performance of slow applications in Django](/is-your-django-application-slow-maximize-its-performance-with-these-tips/)
+Annotate and aggregate are useful for [improving performance of slow applications in Django](/maximize-performance-of-your-django-made-application-with-these-tips/)
 
 Comparative image of the differences between Django annotate and Django aggregate] (images/DjangoAggregateAnnotate-1.png)
 
@@ -87,7 +87,7 @@ Knowing the query that Django will perform helps us understand what is going on 
 
 We use _annotate_ **when we want to annotate each object returned from a queryset**, as if we want to add an extra property to each object in your queryset, but directly from the database.
 
-Annotate is very useful for performing [advanced text searches using Postgres](/trigrams-and-advanced-searches-with-django-and-postgres/).
+Annotate is very useful for performing [advanced text searches using Postgres](/trigrams-and-advanced-search-with-django-and-postgres/).
 
 Imagine that we want to display in a Django template each seller, followed by the sum of the total of all his orders.
 

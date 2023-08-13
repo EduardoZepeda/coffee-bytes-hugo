@@ -21,7 +21,7 @@ Difference between modules and packages in go
 
 ### Defining the name of a package in Go
 
-Before we start, do you remember that I told you in the [introduction to the Go programming language](/go-programming-language-introduction-to-variables-and-data-types/), that the name of each package is set at the beginning of each file, placing it after the reserved word _package_?
+Before we start, do you remember that I told you in the [introduction to the Go programming language](/golang-introduction-to-the-variables-and-data-types-language/), that the name of each package is set at the beginning of each file, placing it after the reserved word _package_?
 
 For this example the package name will be _videogame_.
 
@@ -37,7 +37,7 @@ type Videogame struct {
 }
 ```
 
-Remember that the [struct privacy rules](/go-structs-inheritance-polymorphism-and-encapsulation/) say that in order for us to access a _struct_ or its properties, from another package to where it was declared, we must use uppercase.
+Remember that the [struct privacy rules](/go-structs-heritage-polymorphism-and-encapsulation/) say that in order for us to access a _struct_ or its properties, from another package to where it was declared, we must use uppercase.
 
 Once created, we will end up with a structure similar to this one
 

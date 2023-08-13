@@ -49,7 +49,7 @@ Schematic diagram of HTMX operation
 
 For this tutorial I have created a github repository, so if you want to save all the boilerplate, you can simply clone the whole project and follow the code as I write it.
 
-Remember that if you are not convinced why you should use Django check my post where I explain the [advantages and disadvantages of Django](/why-should-you-use-django-framework/). If you have no idea how to use Django better start with the [Django-guide](/the-definitive-guide-to-django/)
+Remember that if you are not convinced why you should use Django check my post where I explain the [advantages and disadvantages of Django](/why-you-should-use-django-framework/). If you have no idea how to use Django better start with the [Django-guide](/the-definitive-guide-to-django/)
 
 ```bash
 # Ejecuta esto para no escribir el código
@@ -66,7 +66,7 @@ password: contrasenaNoSegura
 
 ### Django model and dependencies installation
 
-To start, let's create a virtual environment with [the pipenv virtual environment manager](/pipenv-the-virtual-environment-manager-you-don-t-know/). You can use [pip](/python-virtualenv-linux-basic-tutorial/), poetry, conda or whatever you prefer.
+To start, let's create a virtual environment with [the pipenv virtual environment manager](/pipenv-the-virtual-environment-manager-you-don't-know/). You can use [pip](/python-virtualenv-basic-tutorial-on-linux/), poetry, conda or whatever you prefer.
 
 ```bash
 pipenv shell

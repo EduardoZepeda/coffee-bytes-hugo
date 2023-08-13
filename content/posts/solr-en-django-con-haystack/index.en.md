@@ -12,7 +12,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Previously I explained you how to implement [full text search in Django](/full-text-search-and-searches-with-django-and-postgres/) and [trigrams-and-search-rank](/trigrams-and-advanced-searches-with-django-and-postgres/) using Postgres. Solr comes to offer us something better, a robust, stable and feature-rich search engine, ready to use, in exchange for a little more complexity, more dependencies and having to include Java (yes, Java) in our project.
+Previously I explained you how to implement [full text search in Django](/full-text-search-and-search-with-django-and-postgres/) and [trigrams-and-search-rank](/trigrams-and-search-advanced-with-django-and-postgres/) using Postgres. Solr comes to offer us something better, a robust, stable and feature-rich search engine, ready to use, in exchange for a little more complexity, more dependencies and having to include Java (yes, Java) in our project.
 
 ## How does Solr work?
 
@@ -34,7 +34,7 @@ Solr works with an inverted index. It is quite similar to the index that appears
 
 ### Advantages of Solr
 
-Solr has many [advanced features, such as autocomplete, suggestions, search by field and others](/autocomplete-suggestions-and-related-content-solr-and-django/)
+Solr has many [advanced features, such as autocomplete, suggestions, search by field and others](/autocomplete-suggestions-and-content-related-solr-and-django/)
 
 * Solr's inverted index allows searching through millions of records in milliseconds.
 * Solr allows you to generate search suggestions for misspellings.

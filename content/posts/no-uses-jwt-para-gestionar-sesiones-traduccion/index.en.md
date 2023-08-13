@@ -19,7 +19,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous post I published a post about how to perform [authentication using JWT and Django Rest Framework](/django-rest-framework-and-jwt-to-authenticate-users/), because it is a quite popular session management mechanism lately, some even consider it a replacement for session cookies. In my post I mentioned that there is a very intense debate on whether using JWT to manage sessions is a good practice, to complement the above I decided to translate one of the most popular articles advocating against the use of JWT to manage sessions. The author is Sven [Slootweg (joepie91)](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) and the article was published on his blog. I just translated it into Spanish and share it here. From the next paragraph begins the translation of the article, enjoy.
+In the previous post I published a post about how to perform [authentication using JWT and Django Rest Framework](/django-rest-framework-and-jwt-for-authenticating-users/), because it is a quite popular session management mechanism lately, some even consider it a replacement for session cookies. In my post I mentioned that there is a very intense debate on whether using JWT to manage sessions is a good practice, to complement the above I decided to translate one of the most popular articles advocating against the use of JWT to manage sessions. The author is Sven [Slootweg (joepie91)](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) and the article was published on his blog. I just translated it into Spanish and share it here. From the next paragraph begins the translation of the article, enjoy.
 
 ## Stop using JWT for sessions (in Spanish)
 

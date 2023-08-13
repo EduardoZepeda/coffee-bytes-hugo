@@ -19,7 +19,7 @@ authors:
 
 Sometimes when we type we make a mistake in a letter, we can repeat it, omit it or change it for another one. That mistake can lead to a series of different results in a web search, or even no results at all. Maybe for a blog it does not represent a threat, but for an ecommerce it can mean the loss of a sale, and for those stores with a huge traffic, a successful text search, either using full text search or something more complex, in Django or another framework, can represent the difference between losses or huge profits.
 
-Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack](/full-text-search-and-searches-with-django-and-postgres/).
+Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack](/searches-with-solr-with-django-haystack).
 
 If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django](/why-should-you-use-django-framework/)
 
@@ -62,7 +62,7 @@ If you got an error when you ran the above search, it is because you have not in
 
 ### Prerequisites
 
-Have psycopg2 and its dependencies installed in [your virtual environment](/pipenv-the-virtual-environment-manager-you-don-t-know/)
+Have psycopg2 and its dependencies installed in [your virtual environment](/pipenv-the-virtual-environment-administrator-that-you-don't-know/)
 
 ```python
 pipenv install psycopg2 # también sirve con pip install psycopg2

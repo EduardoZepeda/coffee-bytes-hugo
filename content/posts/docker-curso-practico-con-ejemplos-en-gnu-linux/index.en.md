@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-If you read the previous post where I explain [what Docker is for](/what-is-docker-and-what-is-it-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the commands. Here I explain the most common Docker commands, the use of volumes and the creation of an example Dockerfile.
+If you read the previous post where I explain [what Docker is for](/what-docker-is-and-what-it-is-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the commands. Here I explain the most common Docker commands, the use of volumes and the creation of an example Dockerfile.
 
 ## Images and containers are different
 
@@ -201,7 +201,7 @@ docker run -it ubuntu
 
 Try running an _ls_ or _pwd_. You will notice that you are inside a GNU/Linux operating system. You can create files, modify them, create folders, etc.
 
-If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/basic-linux-commands-you-should-know/) to refresh your memory.
+If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/gnu-linux-basic-commands-you-should-know/) to refresh your memory.
 
 ```bash
 ls
@@ -313,7 +313,7 @@ Volumes are the tool that will allow us to store information outside the contain
 
 You can think of them as isolated parts in your system, which you can assemble into the container system.
 
-Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/understand-permissions-in-gnu-linux-and-the-chmod-command/) if you have doubts.
+Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/understand-permissions-in-gnu-linux-and-command-chmod/) if you have doubts.
 
 Let's try to make it clearer with an example:
 
@@ -607,4 +607,4 @@ If we open our browser and enter our localhost on port 8000 we will see the Djan
 
 Django installation success page, shows welcome message and links to documentation](images/djangoRocketNoCursor.gif)
 
-This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/how-to-convert-jpg-to-webp-on-gnu-linux/).
+This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/docker-compose-tutorial-with-commands-on-gnu-linux/).

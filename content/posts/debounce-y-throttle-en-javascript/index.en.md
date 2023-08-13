@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Debounce and throttle are [design patterns](/python-design-patterns-review-of-practical-python-design-patterns/) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. Patterns are not exclusive to Javascript; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/throttling-on-nginx/).
+Debounce and throttle are [design patterns](/design-patterns-de-disenoise-python-resena-de-practical-python-design-patterns/) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. Patterns are not exclusive to Javascript; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/throttling-en-nginx/).
 
 Both patterns generate a function that receives a callback and a timeout or delay.
 

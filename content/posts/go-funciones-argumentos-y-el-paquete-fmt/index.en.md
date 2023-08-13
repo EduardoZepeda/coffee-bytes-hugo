@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-This entry will discuss the basic syntax of Go functions. If you know absolutely nothing about go visit my entry [go: introduction to programming language, variables and data types](/go-programming-language-introduction-to-variables-and-data-types/) to start from the beginning of this tutorial series.
+This entry will discuss the basic syntax of Go functions. If you know absolutely nothing about go visit my entry [go: introduction to programming language, variables and data types](/golang-introduction-to-the-language-variables-and-data-types/) to start from the beginning of this tutorial series.
 
 Now, let's move on to the functions.
 

@@ -26,7 +26,7 @@ For this example I use Python 3.8, Django 3.2.5 and Pipenv version 2020.5.28.
 
 ## Installation
 
-To install it we are going to use [Pipenv](/pipenv-the-virtual-environment-manager-you-don-t-know/), but you can use Poetry, [pip](/python-virtualenv-linux-basic-tutorial/) or any other virtual environment manager.
+To install it we are going to use [Pipenv](/pipenv-the-virtual-environment-manager-you-don't-know/), but you can use Poetry, [pip](/python-virtualenv-tutorial-basic-in-linux/) or any other virtual environment manager.
 
 ```bash
 pipenv shell

@@ -83,4 +83,4 @@ Many authors of Django books abandon their works and, over the years, they becom
 **Recommended to read:** 10/10
 **Languages:** English, Spanish (Will be available for the latest version)
 
-If you want to read about more books to learn Django go to my [review of Django for Professionals](/django-for-professionals-review/).
+If you want to read about more books to learn Django go to my [review of Django for Professionals](/review-of-django-for-professionals/).

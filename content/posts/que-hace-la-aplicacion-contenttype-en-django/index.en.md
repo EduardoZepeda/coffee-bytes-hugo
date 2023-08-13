@@ -36,7 +36,7 @@ Imagine a simple social network, where we have different types of content; a tem
 
 To exemplify how ContentType works, let's create a django project, with a model:
 
-First let's create a virtual environment with [Pipenv, the virtual environment manager](/pipenv-the-virtual-environment-manager-you-don-t-know/).
+First let's create a virtual environment with [Pipenv, the virtual environment manager](/pipenv-the-virtual-environment-manager-that-you-don't-know/).
 
 ```bash
 pipenv shell

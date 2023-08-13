@@ -65,4 +65,4 @@ accountType
 
 The _accountType_ constant returns 'basic', a property that the original object lacked, but will now have a default value if omitted. This allows us to keep the frontend without major changes to a modified HTTP response and to handle the absence of some property in an object.
 
-I know that sometimes this topic can be quite difficult, I also had a hard time understanding it the first time, the destructuring makes the already confusing Javascript code much more readable. If you still find Javascript confusing I leave you a post where I talk about what I consider the [best book to learn Javascript](/the-best-book-for-learning-modern-javascript/) at intermediate level.
+I know that sometimes this topic can be quite difficult, I also had a hard time understanding it the first time, the destructuring makes the already confusing Javascript code much more readable. If you still find Javascript confusing I leave you a post where I talk about what I consider the [best book to learn Javascript](/the-best-book-to-learn-modern-javascript/) at intermediate level.

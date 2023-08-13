@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-If you have no idea what a virtual environment is for, I have a post where I explain what [virtual environments in Python](/why-should-you-use-a-virtual-environment-in-python/) are for. Today I'm here to bring you a little Python virtualenv tutorial where we'll install a couple of packages in a virtual environment and see how they behave. Make sure you have [Python](https://www.python.org/) and [Pip](https://pip.pypa.io/en/stable/installing/) installed because we will need them.
+If you have no idea what a virtual environment is for, I have a post where I explain what [virtual environments in Python](/why-you-should-use-a-virtual-environment-in-python/) are for. Today I'm here to bring you a little Python virtualenv tutorial where we'll install a couple of packages in a virtual environment and see how they behave. Make sure you have [Python](https://www.python.org/) and [Pip](https://pip.pypa.io/en/stable/installing/) installed because we will need them.
 
 ## Preparations for using virtualenv
 
@@ -216,4 +216,4 @@ rm -rf EntornoVirtual/
 
 ## Pipenv
 
-There is another package that joins pip and virtualenv, it allows you to manage virtual environments quite easily and has many improvements over virtualenv. If you want to know more about it visit my [tutorial where I explain what it is and how to use Pipenv](/pipenv-the-virtual-environment-manager-you-don-t-know/).
+There is another package that joins pip and virtualenv, it allows you to manage virtual environments quite easily and has many improvements over virtualenv. If you want to know more about it visit my [tutorial where I explain what it is and how to use Pipenv](/pipenv-the-virtual-environment-manager-you-don't-know/).

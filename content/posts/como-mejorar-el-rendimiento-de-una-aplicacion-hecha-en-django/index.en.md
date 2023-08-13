@@ -18,7 +18,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Is your Django application or your company's application running slow? This can have multiple causes: a server with insufficient hardware, a hosting package that needs an upgrade to process more traffic, a badly configured server, in case it is nginx, visit my post where I explain [how to configure nginx for better performance](/nginx-keepalive-gzip-http2-better-performance-on-your-website/), or simply an application not optimized to give the maximum performance in django.
+Is your Django application or your company's application running slow? This can have multiple causes: a server with insufficient hardware, a hosting package that needs an upgrade to process more traffic, a badly configured server, in case it is nginx, visit my post where I explain [how to configure nginx for better performance](/nginx-keepalive-gzip-http2-better-performance-on-your-web-site/), or simply an application not optimized to give the maximum performance in django.
 
 In this post I explain some changes that you can implement in a Django application to improve its performance.
 
@@ -30,7 +30,7 @@ It is quite common to write code that occasions multiple queries to the database
 
 Identify what queries are being made in your application using [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) and reduce them, or make them more efficient:
 
-* **select_related()** to [avoid multiple searches in foreign key or one-to-one relationships](/differences-between-select-related-and-prefetch-related-in-django/)
+* **select_related()** to [avoid multiple searches in foreign key or one-to-one relationships](/differences-between-select_related-and-prefetch_related-in-django/)
 * ** **prefetch_related()** to prevent excessive searches on many-to-many or many-to-one relationships
 * ** **django_annotate()** to add information to each object in a query. I have an entry where I explain [the difference between annotate and aggregate](/django-annotate-and-aggregate-explained/).
 * ** **django_aggregate()** to process all information from a single query into a single data (summation, averages).
@@ -130,7 +130,7 @@ MIDDLEWARE = [
 
 When the response time of your application becomes a problem, you should start caching all time-consuming and resource-intensive results.
 
-Would you like to dig deeper into the caching system, I have a post about [caching in django](/caching-in-django-rest-framework-with-memcached/) that you can check out to dig deeper.
+Would you like to dig deeper into the caching system, I have a post about [caching in django](/cache-in-django-rest-framework-with-memcached/) that you can check out to dig deeper.
 
 If your page has too many models, and they rarely change, it does not make sense to access the database each time to request them with each new HTTP request. Just put the response of that request in cache and your response time will improve, this way every time the same content is requested, it will not be necessary to make a new request or calculations to the database, but the value will be returned directly from memory.
 
@@ -171,7 +171,7 @@ Note that **memcached cache (memcached, redis) is an ephemeral storage method**,
 
 Sometimes the bottleneck is the responsibility of third parties. When you send an email or request information from a third party, you have no way of knowing how long your request will take, a slow connection or an oversaturated server can keep you waiting for a response. There is no point in keeping the user waiting tens of seconds for an email to be sent, send them a reply back and transfer the email to a queue to be processed later. [Celery](https://docs.celeryproject.org/en/stable/) is the most popular way to do this.
 
-No idea where to start, I have a couple of posts where I explain [how to run asynchronous tasks with celery and django](/celery-and-django-to-run-asynchronous-tasks/).
+No idea where to start, I have a couple of posts where I explain [how to run asynchronous tasks with celery and django](/celery-and-django-for-running-asynchronous-tasks/).
 
 ```python
 # myapp/views.py
@@ -199,7 +199,7 @@ Serving static images and files can hinder the important part of your applicatio
 
 In addition to benefiting from the geographic locations of CDNs; a server in the same country (or continent) as your user will result in a faster response.
 
-There are many CDN options available, among the most popular options are AWS, [Azure](/azure-az-900-certification-exam-my-experience/), Digital Ocean, Cloud Flare, among others.
+There are many CDN options available, among the most popular options are AWS, [Azure](/exam-of-certification-azure-az-900-my-experience/), Digital Ocean, Cloud Flare, among others.
 
 ## Denormalization
 
@@ -236,7 +236,7 @@ But not everything is wonderful; third-party interpreters, including pypy, are u
 
 If you've tried all of the above and still have a bottlenecked application, you're probably squeezing too much out of Python and need the speed of another language. But don't worry, you don't have to redo your entire application in C or C++. [Swig](http://www.swig.org/) allows you to create modules in C, C++, Java, Go or other lower level languages and import them directly from Python.
 
-Do you want to know how much difference there is between Python and a compiled language like go? in my post [Python vs Go I compare the speed of both languages](/python-vs-go-which-is-the-best/)
+Do you want to know how much difference there is between Python and a compiled language like go? in my post [Python vs Go I compare the speed of both languages](/python-vs-go-2022-which-is-better/)
 
 If you have a bottleneck caused by some very expensive mathematical computation, which highlights the lack of speed of Python being an interpreted language, you may want to rewrite the bottleneck in some low-level language and then call it using Python. This way you will have the ease of use of Python with the speed of a low-level language.
 
@@ -246,7 +246,7 @@ Depending on the progress of your application, you may want to migrate to anothe
 
 Or, if your application is not very complex at the database level, you may want to write your own sql queries and combine them with some other framework.
 
-The current trend is to separate frontend and backend, so Django is being used in conjunction with Django Rest Framework to create APIs, so if your plans include the creation of an API, you may want to consider FastAPI, if you don't know it, take a look at my post where I explain [the basics of FastAPI](/fastapi-tutorial-the-best-python-framework/).
+The current trend is to separate frontend and backend, so Django is being used in conjunction with Django Rest Framework to create APIs, so if your plans include the creation of an API, you may want to consider FastAPI, if you don't know it, take a look at my post where I explain [the basics of FastAPI](/python-fastapi-the-best-framework-of-python/).
 
 ## Bonus: applications with more than 63 000 models
 

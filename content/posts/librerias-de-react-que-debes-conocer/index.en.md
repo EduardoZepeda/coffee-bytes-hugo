@@ -17,7 +17,7 @@ authors:
 
 After several weeks posting about Django I wrote a short post about React, about libraries, because man does not live by Python alone. These are some of the libraries that I consider most useful in React. For obvious reasons are excluded React-router, Redux and others too well known. As well as some React Frameworks such as Gatsby, Nextjs, Frontity and others.
 
-If you want to learn React but don't know Javascript read my post, where I talk about [one of the best books to start with Javascript](/the-best-book-for-learning-modern-javascript/).
+If you want to learn React but don't know Javascript read my post, where I talk about [one of the best books to start with Javascript](/the-best-book-to-learn-modern-javascript/).
 
 ## Ant Design
 

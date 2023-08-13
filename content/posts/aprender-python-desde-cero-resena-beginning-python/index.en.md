@@ -36,4 +36,4 @@ I consider it an excellent book to learn Python from scratch. It is very difficu
 
 **Recommended prior knowledge:** HTML**Recommended to read:** 8/10
 
-If you prefer a book in Spanish and also **free** visit my entry where I [review Inmersión en Python](/learn-python-from-scratch-with-this-free-book/).
+If you prefer a book in Spanish and also **free** visit my entry where I [review Inmersión en Python](/learn-python-from-zero-with-this-free-book/).

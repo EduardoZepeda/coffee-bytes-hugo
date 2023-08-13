@@ -16,7 +16,7 @@ authors:
 
 When I first learned that Django had a permissions system, many years ago, it seemed rather esoteric, not very useful and easy to replicate, how wrong I was back then. Then I realized that the built-in permissions system was a marvel and saved a lot of code, and was quite robust and tested by some of the largest companies in the world.
 
-If you have not yet decided to use Django and are investigating its features check out my post on the [advantages and disadvantages of the Django web development framework](/why-should-you-use-django-framework/).
+If you have not yet decided to use Django and are investigating its features check out my post on the [advantages and disadvantages of the Django web development framework](/why-you-should-use-django-framework/).
 
 On the other hand, if you already have some practice with Django, you may want to deepen what you know with this free book, called [la guía definitiva de Django](/the-definitive-guide-to-django/).
 
@@ -152,7 +152,7 @@ def edit_videogame(request):
 
 Django templates are no longer as popular as they used to be, due to the rise of microservices and frontend frameworks such as React, Vue, Angular, etc. Still, if you want to use them in templates you can access permissions as follows:
 
-Update: [Htmx](/django-and-htmx-modern-web-apps-without-writing-js/) can bring permissions back to life in the Django template system.
+Update: [Htmx](/django-y-htmx-web-apps-modern-without-writing-js/) can bring permissions back to life in the Django template system.
 
 ```django
 {% if perms.app.action_model %}

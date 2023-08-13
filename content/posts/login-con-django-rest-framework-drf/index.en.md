@@ -175,7 +175,7 @@ As you saw, we can already use the token we have to get a response from the prot
 
 dj-rest-auth also supports JWT. To use JWTs we will install the djangorestframework-simplejwt library
 
-If you don't know what JWT is or you want to go deeper into the subject, I have a post where I explain the details of [django authentication using JWT](/django-rest-framework-and-jwt-to-authenticate-users/) And as a counterpart, I also have a translation of stop using JWT for sessions, where I explain why it might not be such a good idea to use JWT for sessions.
+If you don't know what JWT is or you want to go deeper into the subject, I have a post where I explain the details of [django authentication using JWT](/django-rest-framework-and-jwt-for-authenticating-users/) And as a counterpart, I also have a translation of stop using JWT for sessions, where I explain why it might not be such a good idea to use JWT for sessions.
 
 ```bash
 pipenv install djangorestframework-simplejwt

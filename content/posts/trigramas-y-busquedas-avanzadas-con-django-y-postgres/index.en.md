@@ -23,7 +23,7 @@ What if a user's finger slips on the keyboard and types "parfume" instead of "pe
 
 ![Search for the word "parfume" on amazon](images/busqueda_amazon.gif)
 
-Don't you remember the basic searches in Django? I have a post about [basic searches and full text search using Django and Postgres](/full-text-search-and-searches-with-django-and-postgres/), if you haven't read it take a look there first.
+Don't you remember the basic searches in Django? I have a post about [basic searches and full text search using Django and Postgres](/full-text-search-and-search-with-django-and-postgres/), if you haven't read it take a look there first.
 
 ## Trigrams in Django and Postgres
 
@@ -163,7 +163,7 @@ In the example above, I have rewritten the original values and decreased the val
 
 ## Django Libraries for advanced searches
 
-Perhaps your search needs are much more advanced than those provided by the Django ORM combined with Postgres. But, unless you are developing something that will revolutionize the search industry, someone has already gone through the same problem. There are generic solutions, such as [Solr and Django-haystack](/how-to-implement-solr-for-searches-or-queries-in-django/), that save you from writing many, many lines of code. Some examples are:
+Perhaps your search needs are much more advanced than those provided by the Django ORM combined with Postgres. But, unless you are developing something that will revolutionize the search industry, someone has already gone through the same problem. There are generic solutions, such as [Solr and Django-haystack](/how-to-implement-solr-for-searches-or-queries-in-django), that save you from writing many, many lines of code. Some examples are:
 
 * [Xapian](https://xapian.org/)
 * [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html)
