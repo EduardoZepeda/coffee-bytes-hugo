@@ -92,7 +92,7 @@ import (
 
 ### Content
 
-The contents of the file, i.e. declarations of variables, types, [functions](/blog/blog/go-functions-arguments-and-the-fmt-package/), constants, etc.
+The contents of the file, i.e. declarations of variables, types, [functions](/blog/go-functions-arguments-and-the-fmt-package/), constants, etc.
 
 ```go
 func main() {
@@ -313,4 +313,4 @@ The operators of go are similar to the rest of the languages.
 * ++, incremental
 --, decremental
 
-With this I finish the most basic part of the language, in the next post I will talk about [functions and the fmt-package in go](/blog/blog/go-functions-arguments-and-the-fmt-package/), and in a future post about other aspects such as [runes, array, slices in go](/blog/go-string-runes-and-bytes-explained/) and other features of the language.
+With this I finish the most basic part of the language, in the next post I will talk about [functions and the fmt-package in go](/blog/go-functions-arguments-and-the-fmt-package/), and in a future post about other aspects such as [runes, array, slices in go](/blog/go-string-runes-and-bytes-explained/) and other features of the language.
