@@ -137,4 +137,4 @@ OrderedContent.objects.all()
 
 As you can see we were able to access the same three database objects **from both models**, with the difference that in the _OrderedContent_ model our objects appear sorted in descending order with respect to the _created_ field.
 
-If you want to know more about Django, I can recommend some books. Read my [review of two scoops of django](/the-best-book-of-django-review-of-two-scoops-of-django/), a great book that teaches you good Django Framework practices.
+If you want to know more about Django, I can recommend some books. Read my [review of two scoops of django](/blog/the-best-django-book-two-scoops-of-django-review/), a great book that teaches you good Django Framework practices.

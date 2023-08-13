@@ -138,4 +138,4 @@ The configuration variable CSRF_COOKIE_SAMESITE now allows 'None' as a value. Wh
 
 Remember that if you want to see the changes to the complete documentation you can go to [this link](https://docs.djangoproject.com/en/3.1/releases/3.1/#whats-new-3-1) to see the complete changes in Django 3.1 version
 
-If you want to improve your skills in Django let you here recommendations of two excellent books. Come in and check my reviews of [Django for Professionals](/resena-de-django-for-professionals/) and [Two scoops of Django](/el-mejor-libro-de-django-resena-de-two-scoops-of-django/).
+If you want to improve your skills in Django let you here recommendations of two excellent books. Come in and check my reviews of [Django for Professionals](/blog/django-for-professionals-review/) and [Two scoops of Django](/blog/the-best-django-book-two-scoops-of-django-review/).

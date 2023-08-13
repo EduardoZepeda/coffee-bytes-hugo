@@ -19,9 +19,9 @@ Go handles loops a little differently than what you are used to. If you're alrea
 
 Well, as there are more than enough loops for. Yes, there is no _while_ or do _while_. But then how do I use the rest of the loops? Read on and I'll explain.
 
-If you don't know anything about Go and want to start with the basics visit my entry [Golang: introduction, variables and data types](/golang-compilation-structure-variables-and-data-types/).
+If you don't know anything about Go and want to start with the basics visit my entry [Golang: introduction, variables and data types](/blog/go-programming-language-introduction-to-variables-and-data-types/).
 
-If you currently use Python and want to see how it is different from Go, visit my [python vs go](/python-vs-go-2022-which-is-better/) post.
+If you currently use Python and want to see how it is different from Go, visit my [python vs go](/blog/python-vs-go-which-is-the-best/) post.
 
 ## If and else
 

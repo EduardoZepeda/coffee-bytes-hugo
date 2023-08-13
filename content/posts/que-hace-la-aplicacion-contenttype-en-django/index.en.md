@@ -20,7 +20,7 @@ Did you know that Django keeps track of each of the models you create for your p
 
 Sorry for taking so long to write! I've been busy moving the frontend of my blog to Frontity, a React framework for Wordpress, and also moving to a new apartment. Maybe I'll talk a bit about Frontity in a future post. For now let's get on with it.
 
-Before we start, if you have no idea what Django is for visit my post where I talk about [the definitive guide to Django](/the-definitive-guide-to-django/) If you've used Django before, let's move on.
+Before we start, if you have no idea what Django is for visit my post where I talk about [the definitive guide to Django](/blog/the-definitive-guide-to-django/) If you've used Django before, let's move on.
 
 ## ContentType and models
 
@@ -36,7 +36,7 @@ Imagine a simple social network, where we have different types of content; a tem
 
 To exemplify how ContentType works, let's create a django project, with a model:
 
-First let's create a virtual environment with [Pipenv, the virtual environment manager](/pipenv-the-virtual-environment-manager-that-you-don't-know/).
+First let's create a virtual environment with [Pipenv, the virtual environment manager](/blog/pipenv-the-virtual-environment-manager-you-don-t-know/).
 
 ```bash
 pipenv shell

@@ -20,7 +20,7 @@ authors:
 
 If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you in 2023.
 
-I also have a comparison of [Python vs go](/python-vs-go-which-is-the-best-programming-language/) that you can check out.
+I also have a comparison of [Python vs go](/blog/python-vs-go-which-is-the-best/) that you can check out.
 
 ## A little about them
 
@@ -279,13 +279,13 @@ Even despite the abundance of options, new JavaScript frameworks are released mo
 
 ### Frameworks for Python
 
-Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/why-should-you-use-django-framework/), or Flask and some more modern ones like the very fast [FastAPI web development framework](/python-fastapi-the-best-framework-for-python/), about which I wrote a post before.
+Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/blog/why-should-you-use-django-framework/), or Flask and some more modern ones like the very fast [FastAPI web development framework](/blog/fastapi-tutorial-the-best-python-framework/), about which I wrote a post before.
 
 ![Python web development frameworks](images/python-frameworks.jpg)
 
 You can write HTML and CSS code using Python for the frontend, but you will never have the same versatility as running javascript code directly in the user's browser.
 
-Update: I learned about a library that is gaining popularity, called htmx, that allows you to generate modern apps by returning html instead of JSON responses. Go to my post on [django and htmx](/django-and-htmx-web-apps-modern-apps-without-writing-js/) to learn more.
+Update: I learned about a library that is gaining popularity, called htmx, that allows you to generate modern apps by returning html instead of JSON responses. Go to my post on [django and htmx](/blog/django-and-htmx-modern-web-apps-without-writing-js/) to learn more.
 
 ## Packages
 

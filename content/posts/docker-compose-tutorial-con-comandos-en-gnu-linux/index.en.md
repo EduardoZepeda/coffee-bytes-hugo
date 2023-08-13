@@ -17,15 +17,15 @@ autores:
 - Eduardo Zepeda
 ---
 
-Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage](/tutorial-of-basic-commands-of-docker/) post.
+Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage](/blog/basic-linux-commands-you-should-know/) post.
 
 ## What is docker compose?
 
 Docker compose is a tool that allows you to manage applications consisting of multiple Docker containers. Instead of having multiple Dockerfiles and be running and linking one by one with Docker, we define a docker-compose.yml file with the configuration we want and run it, this will create all the necessary services of our application. It also works in development, production, staging or testing environments, as well as with continuous integration services.
 
-Docker-compose is programming using the [go or golang programming language](/golang-introduction-to-the-variables-and-data-types-language/); the same language that [go containers run internally](/how-does-a-docker-container-work-internally/).
+Docker-compose is programming using the [go or golang programming language](/blog/go-programming-language-introduction-to-variables-and-data-types/); the same language that [go containers run internally](/blog/how-does-a-docker-container-work-internally/).
 
-Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django, with which you can get a django application production-ready in minutes](/cookiecutter-django-to-configure-and-make-deploy-in-django/).
+Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django, with which you can get a django application production-ready in minutes](/blog/cookiecutter-django-for-configuring-and-deploying-in-django/).
 
 ## Structure of a docker-compose.yml file
 
@@ -96,7 +96,7 @@ services:
 
 In case we need a custom image it will probably be better to use a Dockerfile. The build option allows us to indicate the directory where it is located.
 
-If you don't know what a Dockerfile is, here I explain [how it works and what Docker is for](/what-docker-is-and-what-it-is-for/)
+If you don't know what a Dockerfile is, here I explain [how it works and what Docker is for](/blog/what-is-docker-and-what-is-it-for/)
 
 ```docker
 version: "3.8"
@@ -190,7 +190,7 @@ In the above example docker-compose will run the web service only if the db and 
 
 ### environment
 
-The environment configuration allows us to set a list of [environment variables](/linux-commands-you-should-know-third-part/) that will be available in our service.
+The environment configuration allows us to set a list of [environment variables](/blog/linux-commands-you-should-know-part-two/) that will be available in our service.
 
 ```docker
 version: '3.8'

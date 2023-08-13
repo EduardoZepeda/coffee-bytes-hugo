@@ -19,7 +19,7 @@ authors:
 
 How do I design a REST API? How many levels should I nest my related resources? Relative or full URLs? This post is a compilation of some recommendations about some good REST API design practices that I have found in books and articles on the internet. I leave the sources at the end of the article in case you are interested in going deeper or see where this information comes from.
 
-Before we get started, there are a number of [basic features of a REST API](/rest-api-basic-characteristics-and-recommendations-api/), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
+Before we get started, there are a number of [basic features of a REST API](/blog/blog/blog/rest-api-basic-characteristics-and-recommendations/), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
 
 Remember that a REST API can return other formats, not just JSON, but I'm going to focus on this one for the examples because it's quite popular.
 
@@ -100,7 +100,7 @@ Who to listen to? As you can see there are differences between companies and I d
 
 ## Relative or full URLs in HATEOAS?
 
-Remember that HATEOAS is a [feature of REST APIs](/rest-api-basic-characteristics-and-recommendations/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
+Remember that HATEOAS is a [feature of REST APIs](/blog/blog/rest-api-basic-characteristics-and-recommendations/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
 
 ```bash
 {"rel":"self",
@@ -170,7 +170,7 @@ GET /posts/1?embed=comments
 
 ## Pagination in APIs
 
-As I've already mentioned in previous posts when I talked about Django, for [application performance](/maximize-your-application-performance-with-these-tips/) reasons, you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
+As I've already mentioned in previous posts when I talked about Django, for [application performance](/blog/is-your-django-application-slow-maximize-its-performance-with-these-tips/) reasons, you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
 
 To facilitate the use of your API, consider adding pagination-related information in your response:
 
@@ -208,7 +208,7 @@ Generally you will want to version your API. However, if your API is extremely s
 
 ### Where to version the API?
 
-For an API to adhere to the [REST architecture requirements](/rest-api-basic-characteristics-and-recommendations/) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
+For an API to adhere to the [REST architecture requirements](/blog/blog/rest-api-basic-characteristics-and-recommendations/) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
 
 Here are some options for versioning your APIs used by large companies, regardless of whether they are REST compliant or not.
 
@@ -269,7 +269,7 @@ ApiVersion: 1.0
 Vary: ApiVersion
 ```
 
-Consider that you need to add a vary header so that the [caching systems](/cache-en-django-rest-framework-with-memcached/) do not store different versions of the API in the same url.
+Consider that you need to add a vary header so that the [caching systems](/blog/caching-in-django-rest-framework-with-memcached/) do not store different versions of the API in the same url.
 
 ### In the content negotiation
 
@@ -331,7 +331,7 @@ Notice how even in the absence of the initial part of the URI above, we can stil
 
 Sometimes it is necessary to introduce structural changes in the APIs, to prevent all those who consume it from presenting problems, we need to notify them. But... how?
 
-In the [book Two Scoops of Django](/the-best-book-of-django-resena-of-two-scoops-of-django/), the authors recommend the following steps for notifying an API version change.
+In the [book Two Scoops of Django](/blog/the-best-django-book-two-scoops-of-django-review/), the authors recommend the following steps for notifying an API version change.
 
 * Notify users as far in advance as possible via email, blogs or any other means, almost to the point of boredom.
 * Replace the deprecated API response with an HTTP 410 error that returns a message containing links to: the new endpoint, the new API documentation and, if it exists, the text explaining why the changes were made.
@@ -340,7 +340,7 @@ In the [book Two Scoops of Django](/the-best-book-of-django-resena-of-two-scoops
 
 You should limit your API. Users should not have unrestricted access and unlimited requests to your API. There are users that can abuse your API, keep your server busy, preventing the rest of the users from using it and increasing your costs.
 
-One way around this is to set a [throttling policy](/throttling-en-nginx/) on your server for any user.
+One way around this is to set a [throttling policy](/blog/throttling-on-nginx/) on your server for any user.
 
 You can also make it the center of your business and offer payment plans according to the number of requests per minute to your API.
 

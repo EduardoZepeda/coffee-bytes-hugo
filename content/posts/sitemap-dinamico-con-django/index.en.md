@@ -163,4 +163,4 @@ Add a domain to the Django sitemap](images/Django-site-sitemap.png "Modify the d
 
 ## Sitemap cache
 
-Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is very large, this may not be convenient. Depending on the type of site you manage, you may want to store the sitemap in the [Django cache](/cache-en-django-rest-framework-with-memcached/).
+Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is very large, this may not be convenient. Depending on the type of site you manage, you may want to store the sitemap in the [Django cache](/blog/caching-in-django-rest-framework-with-memcached/).

@@ -61,7 +61,7 @@ What does the above display mean? It means that all requests made to http://fc2c
 
 For this example I redirected a Django application on port 8000, instead of port 8080.
 
-If you have no idea how to use Django I have some book recommendations: [Django la guia definitiva](/the-definitive-guide-to-django/) and [Django by example](/learning-django-through-the-book-django-by-example-my-review/).
+If you have no idea how to use Django I have some book recommendations: [Django la guia definitiva](/blog/the-definitive-guide-to-django/) and [Django by example](/blog/learning-django-through-the-book-django-by-example-my-review/).
 
 Remember to add the domain, with its subdomain to the ALLOWED_HOSTS variable in the configuration file.
 

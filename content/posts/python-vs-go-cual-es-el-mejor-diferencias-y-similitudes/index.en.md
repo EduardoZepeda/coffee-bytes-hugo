@@ -19,7 +19,7 @@ authors:
 
 These last few months I have been learning go. How did it all start? Well, it started in a rather superficial way; I loved their mascot, yes, that's really what it was all about. So after a brief mental debate, I decided to give the language a try. My first impression of it is that it is quite similar to Python; simple and easy to learn. Now that I have used it a bit more I bring you a comparison of Python vs Go, where I will explain some of their differences, in case you are interested in learning one or the other this 2023.
 
-If you want to learn go, take a look at my golang tutorial from scratch, where I explain the basic details of [Go: syntax and data types](/golang-introduction-to-the-language-variables-and-data-types/).
+If you want to learn go, take a look at my golang tutorial from scratch, where I explain the basic details of [Go: syntax and data types](/blog/go-programming-language-introduction-to-variables-and-data-types/).
 
 ## A little bit about Python and go
 
@@ -27,7 +27,7 @@ This comparison is going to be a bit sloppy, since we are going to compare Pytho
 
 **Python is an interpreted and imperative language while Go is a compiled, concurrent and imperative language.
 
-I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript](/python-vs-javascript-2022-which-is-better/) comparison, so if you want to refresh your memory a bit go there.
+I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript](/blog/python-vs-javascript-which-one-is-better/) comparison, so if you want to refresh your memory a bit go there.
 
 Both languages are characterized by fast code production.
 
@@ -140,7 +140,7 @@ func main() {
 }
 ```
 
-Another important thing, some developers say that go is oriented to object oriented, while others flatly state that it is not. The truth is that go does not direct support for classes, but instead uses **[structs that emulate polymorphism and polymorphism and encapsulation](/go-structs-herence-polymorphism-and-encapsulation/)** and other OOP features. 
+Another important thing, some developers say that go is oriented to object oriented, while others flatly state that it is not. The truth is that go does not direct support for classes, but instead uses **[structs that emulate polymorphism and polymorphism and encapsulation](/blog/go-structs-inheritance-polymorphism-and-encapsulation/)** and other OOP features. 
 
 ```go
 //go
@@ -191,7 +191,7 @@ except:
 
 ### Asynchronism in go
 
-One of the strong points of this language is the creation of concurrency by means of its [_goroutines_, or goroutines and channels](/go-introduction-to-goroutines-and-concurrency/). Using them is quite simple, just add the word go before a function. We add a counter with _Add_ and remove it with Done. When our wait group, _wg_, has zero counters, it will terminate execution.
+One of the strong points of this language is the creation of concurrency by means of its [_goroutines_, or goroutines and channels](/blog/go-introduction-to-goroutines-and-concurrency/). Using them is quite simple, just add the word go before a function. We add a counter with _Add_ and remove it with Done. When our wait group, _wg_, has zero counters, it will terminate execution.
 
 Its concurrency capabilities make it ideal for web servers.
 
@@ -316,7 +316,7 @@ While Python has a quite wide support, as it is found in generally installed in 
 
 Go can be used for almost anything, but it has a strong presence in devops tools, backend servers and blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform and InfluxDB are all written in Go.
 
-The [docker containers are written using go](/how-does-a-docker-container-work-internally/).
+The [docker containers are written using go](/blog/how-does-a-docker-container-work-internally/).
 
 ![Logos of technologies created with go](images/traeffik-and-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb, and terraform are all written in Go.")
 
@@ -365,7 +365,7 @@ You can see the available libraries and functions in the section
 
 Go does not have an official package repository like Python does. The packages are obtained by _go get_ (the equivalent of _pip_ in Python) from different sources. It misses a standard solution, like npm in javascript, but you can see a list of available packages in [Awesome Go](http://awesome-go.com)
 
-The [import of modules and packages into Go](/go-package-import-and-module-handling/) may seem a bit strange to you. strange, there are no relative imports, like in Python or Javascript.
+The [import of modules and packages into Go](/blog/go-package-import-and-module-management/) may seem a bit strange to you. strange, there are no relative imports, like in Python or Javascript.
 
 ![Awesome Go page](images/AwesomeGo.png "Screenshot of Awesome Go")
 
@@ -416,13 +416,13 @@ Performance tests for Python (purple) and Go frameworks (green)
 
 While in Python we already have some well proven solutions, solutions, characterized by being very stable and with an answer for almost all the needs of a web and with an answer for almost all the needs of a web developer and that, in addition, support very popular sites with huge traffic, like pinterest or instagram. instagram.
 
-Among the frameworks [Django, one of the favorite frameworks of Python](/why-should-you-use-django-framework/)
+Among the frameworks [Django, one of the favorite frameworks of Python](/blog/why-should-you-use-django-framework/)
 
 Frameworks web más populares de Python: Django, Fastapi, flask,
 ![botella](images/python-frameworks.jpg)
 
 Even though most Python frameworks are old, it doesn't mean that new frameworks are not appearing lately.
-[Fastapi](/python-fastapi-the-best-framework-of-python/), which I already did a tutorial on, is also a very fast new framework that is gaining popularity day by day, tutorial is also a new very fast framework that is gaining popularity day by day.
+[Fastapi](/blog/fastapi-tutorial-the-best-python-framework/), which I already did a tutorial on, is also a very fast new framework that is gaining popularity day by day, tutorial is also a new very fast framework that is gaining popularity day by day.
 
 ## Which one to choose Python vs go?
 

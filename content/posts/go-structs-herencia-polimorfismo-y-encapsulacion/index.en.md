@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-As I already mentioned to you in the [introduction to the Golang or Go programming language](/golang-introduction-to-the-variables-and-data-types-language/), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
+As I already mentioned to you in the [introduction to the Golang or Go programming language](/blog/go-programming-language-introduction-to-variables-and-data-types/), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
 
 ## Structs in go
 
@@ -44,7 +44,7 @@ var myVideogame Videogame
 myVideogame.Title = "Nier"
 ```
 
-If we do not specify a value, the respective zero value will be assigned to the [go variable type](/golang-introduction-to-the-language-variables-and-data-types/).
+If we do not specify a value, the respective zero value will be assigned to the [go variable type](/blog/go-programming-language-introduction-to-variables-and-data-types/).
 
 ```go
 fmt.Println(myVideogame)
@@ -115,7 +115,7 @@ videogame.IncreaseYear()
 
 If we declare a function to customize the console output called _String_, we will replace what the struct returns when we print it.
 
-Note the absence of the destructuring operator in the parenthesis in the first set of parentheses and how I use the Sprintf method of the [go fmt-package](/go-functions-arguments-and-the-fmt-package/) to return a string.
+Note the absence of the destructuring operator in the parenthesis in the first set of parentheses and how I use the Sprintf method of the [go fmt-package](/blog/go-functions-arguments-and-the-fmt-package/) to return a string.
 
 ```go
 func (myStructVariable Videogame) String() string { 

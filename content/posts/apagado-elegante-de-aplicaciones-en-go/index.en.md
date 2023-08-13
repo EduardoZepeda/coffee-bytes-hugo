@@ -29,7 +29,7 @@ There are quite a few Linux signals, but here are the most important ones for th
 | SIGTERM | 15    | Term   | Terminate a process in a controlled manner                   | kill -15 pid | CTRL+C            | CTRL+C | CTRL+C             | CTRL+C        | SIGTERM       | 15        | Term | Terminate a process in a controlled manner | kill -15 pid | CTRL+C | CTRL+C | CTRL+C |
 | SIGKILL | 9     | Term   | Terminate a process in a forced manner, cannot be handled by | kill -9 pid  |                   |        | CTRL+CTRL+CONTROLL | CTRL+CONTROLL | CTRL+CONTROLL | CTRL+CTRL |
 
-In Linux, these signals can be sent to an application via the [kill command](/linux-commands-you-should-know-third-part/#kill), specifying the value of the signal and the pid of the application.
+In Linux, these signals can be sent to an application via the [kill command](/blog/linux-commands-you-should-know-part-two/), specifying the value of the signal and the pid of the application.
 
 ```go
 kill -<valor> <pid>
@@ -52,7 +52,7 @@ func gracefulShutdown() {
 
 Now we have a channel that receives our signal, but... what do we do with it?
 
-Remember that, in go, [operations that send or receive channel values are blocking inside their own goroutine](/go-channels-understanding-deadlocks-or-deadlocks-points/), i.e., they keep code execution on hold?
+Remember that, in go, [operations that send or receive channel values are blocking inside their own goroutine](/blog/go-channels-understanding-the-deadlocks/), i.e., they keep code execution on hold?
 
 In this case we are going to leave a variable expected by the value of the channel that we have just created, blocking the code at that point.
 
@@ -78,7 +78,7 @@ func gracefulShutdown() {
 }
 ```
 
-Finally, for this function to run correctly, we need it to run inside its [own goroutine](/go-introduction-to-goroutines-and-concurrence/). To do this, simply prefix the function call with the keyword go.
+Finally, for this function to run correctly, we need it to run inside its [own goroutine](/blog/go-introduction-to-goroutines-and-concurrency/). To do this, simply prefix the function call with the keyword go.
 
 ```go
 func main() {

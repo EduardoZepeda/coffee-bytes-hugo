@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-The _select_related_ and _prefetch_relate_d methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/maximize-performance-of-your-django-made-application-with-these-tips/)
+The _select_related_ and _prefetch_relate_d methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/blog/is-your-django-application-slow-maximize-its-performance-with-these-tips/)
 
 ## select_related
 

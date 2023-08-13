@@ -25,14 +25,14 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 
 * The language is quite simple** It is a language with very few keywords and few functionalities. You can learn it in a very short time.
 * Go compiler is super fast** Since it has few keywords and the language is quite simple, go compiles very fast compared to other programming languages.
-* Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/go-use-of-channels-or-channels-to-communicate-goroutines/) is quite easy.
+* Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/blog/go-use-of-channels-to-communicate-goroutines/) is quite easy.
 * Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem.
 
 ### Why does go suck?
 
 To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers.
 
-* Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values](/go-structs-herencia-polimorfismo-y-encapsulacion/).
+* Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values](/blog/go-structs-inheritance-polymorphism-and-encapsulation/).
 * Go does not have exception handling with try and catch blocks or equivalent, but errors must be returned as a return value in a function and are handled by checking that it is not null (nil), by means of if blocks. This can become quite verbose and repetitive.
 
 Error handling with Go with if](images/ManagementErrorsGo.png "This pattern is quite recurrent in applications and can become tedious.
@@ -55,7 +55,7 @@ Go mascot and logo](images/GoMascotAndLogo.png "On the left the Go mascot. On th
 
 ## Installation
 
-Go can be found in most GNU/Linux distribution repositories. In debian and ubuntu it is installed using the [apt install command](/commands-terminal-gnu-linux-which-you-should-know-second-part/) like any other package.
+Go can be found in most GNU/Linux distribution repositories. In debian and ubuntu it is installed using the [apt install command](/blog/linux-commands-you-should-know-part-two/) like any other package.
 
 ```bash
 sudo apt install golang
@@ -77,7 +77,7 @@ package main
 
 ### Imports
 
-A section where all the [go packages](/go-package-import-and-module-management/) that will be used are imported. For this we use the word _import_.
+A section where all the [go packages](/blog/go-package-import-and-module-management/) that will be used are imported. For this we use the word _import_.
 
 import "fmt" import "fmt" import "fmt" import "fmt" import
 
@@ -92,7 +92,7 @@ import (
 
 ### Content
 
-The contents of the file, i.e. declarations of variables, types, [functions](/go-functions-arguments-and-the-fmt-package/), constants, etc.
+The contents of the file, i.e. declarations of variables, types, [functions](/blog/blog/go-functions-arguments-and-the-fmt-package/), constants, etc.
 
 ```go
 func main() {
@@ -313,4 +313,4 @@ The operators of go are similar to the rest of the languages.
 * ++, incremental
 --, decremental
 
-With this I finish the most basic part of the language, in the next post I will talk about [functions and the fmt-package in go](/go-functions-arguments-and-the-fmt-package/), and in a future post about other aspects such as [runes, array, slices in go](/go-strings-runes-and-bytes/) and other features of the language.
+With this I finish the most basic part of the language, in the next post I will talk about [functions and the fmt-package in go](/blog/blog/go-functions-arguments-and-the-fmt-package/), and in a future post about other aspects such as [runes, array, slices in go](/blog/go-string-runes-and-bytes-explained/) and other features of the language.

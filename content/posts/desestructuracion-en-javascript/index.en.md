@@ -15,7 +15,7 @@ authors:
 
 For those like me, whose first language was not fortunate (or unfortunate) enough to be javascript, destructuring can take on esoteric overtones. In this post I will try to explain in a simple way the destructuring of objects in javascript. Destructuring is a process that, contrary to popular belief, is actually quite simple and, moreover, can improve code readability.
 
-If you want to start learning Javascript from scratch I recommend the [book Eloquent Javascript](/the-best-book-for-learning-modern-javascript/), here I recommend what I consider the best book to start.
+If you want to start learning Javascript from scratch I recommend the [book Eloquent Javascript](/blog/the-best-book-for-learning-modern-javascript/), here I recommend what I consider the best book to start.
 
 Destructuring an object would mean converting the properties of a javascript object or list into variables or constants so that they can be more easily accessed. Let's start with a fairly simple object.
 
@@ -66,4 +66,4 @@ if(isLoggedIn && profile==='Admin'){
 }
 ```
 
-In addition to destructuring objects, JavaScript also allows you to destructure lists. Enter my entry on [destructuring lists in Javascri](/destructing-lists-in-javascript/) to learn how to destructure lists in Javascript.
+In addition to destructuring objects, JavaScript also allows you to destructure lists. Enter my entry on [destructuring lists in Javascri](/blog/destructuring-lists-in-javascript/) to learn how to destructure lists in Javascript.

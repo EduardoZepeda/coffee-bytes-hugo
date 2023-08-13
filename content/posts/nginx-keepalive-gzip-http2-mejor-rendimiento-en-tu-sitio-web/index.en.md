@@ -102,7 +102,7 @@ gzip min_length 256;
 gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss application/vnd.ms-fontobject application/x-font-ttf font/opentype image/svg+xml image/x-icon image/jpg image/png;
 ```
 
-Remember that you can query all available MIME types in a friendly way by doing a [bat](/get-to-know-bat-in-linux-the-syntax-highlighting-cat/) or a cat to the following file:
+Remember that you can query all available MIME types in a friendly way by doing a [bat](/blog/get-to-know-bat-in-linux-the-syntax-highlighting-cat/) or a cat to the following file:
 
 ```bash
 sudo bat /etc/nginx/mime.types
@@ -162,7 +162,7 @@ cache-control: max-age=2592000
 
 ## Implement Throttling
 
-If there are some clients that make a lot of requests, keeping your server busy and affecting the rest of the users, you can implement Throttling to limit their impact. If you want to know more about it, I have a post where I talk about [Throttling in Nginx](/throttling-in-nginx/).
+If there are some clients that make a lot of requests, keeping your server busy and affecting the rest of the users, you can implement Throttling to limit their impact. If you want to know more about it, I have a post where I talk about [Throttling in Nginx](/blog/throttling-on-nginx/).
 
 ```bash
 limit_req_zone $binary_remote_addr zone=mylimit:10m rate=5r/s;

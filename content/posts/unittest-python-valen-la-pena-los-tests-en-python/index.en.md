@@ -203,4 +203,4 @@ It does not extend unittest, shows you more information about each bug and allow
 
 ### But... you didn't mention Tox.
 
-That's right, I didn't mention it because I want to deal with the subject in a little more depth than I do here. In the next post I will talk about a tool called Tox, which makes it easy to run tests in different Python environments and versions, [go here to read it](/tests-with-tox-in-python-tutorial-from-zero/).
+That's right, I didn't mention it because I want to deal with the subject in a little more depth than I do here. In the next post I will talk about a tool called Tox, which makes it easy to run tests in different Python environments and versions, [go here to read it](/blog/testing-with-tox-in-python-tutorial-from-scratch/).

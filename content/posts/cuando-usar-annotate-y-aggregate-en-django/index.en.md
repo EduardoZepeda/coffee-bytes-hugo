@@ -20,9 +20,9 @@ authors:
 
 The computer screen illuminated my face full of despair, I rubbed my head in despair, while I googled: "Django annotate"; one of the ORM functions that I could not understand. Did it happen to you too, I bet it did. I had already read the documentation but it didn't seem clear enough and, to top it off, I often confused it with its evil twin: aggregate. After visiting several stackoverflow questions and multiple English blogs I was able to understand them both. These notes are the result of that search, it is the explanation about annotate and aggregate in Django that I would have liked to read years ago.
 
-This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/the-definitive-guide-to-django/).
+This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/blog/the-definitive-guide-to-django/).
 
-Annotate and aggregate are useful for [improving performance of slow applications in Django](/maximize-performance-of-your-django-made-application-with-these-tips/)
+Annotate and aggregate are useful for [improving performance of slow applications in Django](/blog/is-your-django-application-slow-maximize-its-performance-with-these-tips/)
 
 Comparative image of the differences between Django annotate and Django aggregate] (images/DjangoAggregateAnnotate-1.png)
 
@@ -87,7 +87,7 @@ Knowing the query that Django will perform helps us understand what is going on 
 
 We use _annotate_ **when we want to annotate each object returned from a queryset**, as if we want to add an extra property to each object in your queryset, but directly from the database.
 
-Annotate is very useful for performing [advanced text searches using Postgres](/trigrams-and-advanced-search-with-django-and-postgres/).
+Annotate is very useful for performing [advanced text searches using Postgres](/blog/trigrams-and-advanced-searches-with-django-and-postgres/).
 
 Imagine that we want to display in a Django template each seller, followed by the sum of the total of all his orders.
 

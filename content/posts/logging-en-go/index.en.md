@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-As you probably already know, you should not use prints for debugging. The standard go logging library is much more versatile, it adds dates, filenames and other information, plus you can redirect the logs to standard output, to a file or wherever you want. This can make your debugging process more enjoyable and [your go testing](/go-testing-basic-and-coverage/) easier.
+As you probably already know, you should not use prints for debugging. The standard go logging library is much more versatile, it adds dates, filenames and other information, plus you can redirect the logs to standard output, to a file or wherever you want. This can make your debugging process more enjoyable and [your go testing](/blog/go-basic-testing-and-coverage/) easier.
 
 ## Log Println
 
@@ -27,7 +27,7 @@ log.Println("Mensaje")
 // 2022/06/28 13:38:25 Mensaje
 ```
 
-The Println method of log behaves exactly like the [fmt library](/go-functions-arguments-and-the-fmt-package/) method, so you can pass it multiple parameters and it will print them one by one.
+The Println method of log behaves exactly like the [fmt library](/blog/go-functions-arguments-and-the-fmt-package/) method, so you can pass it multiple parameters and it will print them one by one.
 
 ## Flags in logging
 

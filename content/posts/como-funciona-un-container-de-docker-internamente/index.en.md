@@ -18,7 +18,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands](/tutorial-of-basic-commands-of-docker/) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
+Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands](/blog/basic-linux-commands-you-should-know/) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
 
 We know that a container is a linux process with several characteristics:
 
@@ -42,7 +42,7 @@ I am going to explain them very briefly but you can go deeper on your own if you
 
 In simple words, a process is an instance of a running program. What is important here is that each process in linux has a PID, which is a number used to identify the process.
 
-As you know, you can view the processes using the [ps, top, htop commands](/linux-commands-you-should-know-third-part/#top), etc.
+As you know, you can view the processes using the [ps, top, htop commands](/blog/linux-commands-you-should-know-part-two/), etc.
 
 A container is a process, or a group of processes, isolated from the rest of the operating system, by means of a namespace.
 
@@ -92,7 +92,7 @@ Simplifying the above we need:
 * Chroot: to provide our container with a file system different from that of the main operating system.
 * Cgroups: to limit the resources of our system to which our container can access
 
-Now let's create the container base in the same way as Docker, using [the Go programming language](/golang-introduction-to-the-variables-and-datatatypes-language/).
+Now let's create the container base in the same way as Docker, using [the Go programming language](/blog/go-programming-language-introduction-to-variables-and-data-types/).
 
 ```go
 package main
@@ -270,11 +270,11 @@ func child() {
 
 Now, if we run the code we will see that the PID is 1, the first process, we have already isolated the processes! However, as we have not changed the file system, we will see the same processes of our main operating system.
 
-Remember that the [_ps_ command](/linux-commands-you-should-know-third-part/#ps) gets the processes from the _/proc_ directory of the file system you are using. In other words, we need another file system.
+Remember that the [_ps_ command](/blog/linux-commands-you-should-know-part-two/) gets the processes from the _/proc_ directory of the file system you are using. In other words, we need another file system.
 
 ## Set up a new file system for the container
 
-To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/linux-commands-you-should-know-third-part/#chroot).
+To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/blog/linux-commands-you-should-know-part-three/).
 
 _Chroot_ changes the default root location to a directory of your choice.
 
@@ -337,7 +337,7 @@ func setcgroup() {
 }
 ```
 
-We create a directory for our cgroup with the [linux permissions 0755](/understand-permissions-on-gnu-linux-and-command-chmod/)
+We create a directory for our cgroup with the [linux permissions 0755](/blog/understand-permissions-in-gnu-linux-and-the-chmod-command/)
 
 We will generate two files, inside our cgroup, to set the guidelines we want to implement
 

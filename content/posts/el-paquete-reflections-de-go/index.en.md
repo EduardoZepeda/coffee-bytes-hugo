@@ -256,6 +256,6 @@ fmt.Println(nuevaInstancia)
 // &{ 0}
 ```
 
-From the type we obtained with _TypeOf_ reflect will create a new object. However, in this case, being a struct to which we have not specified the values of its fields, it will be initialized with its [zero values](/golang-introduction-to-the-language-variables-and-data-types/).
+From the type we obtained with _TypeOf_ reflect will create a new object. However, in this case, being a struct to which we have not specified the values of its fields, it will be initialized with its [zero values](/blog/go-programming-language-introduction-to-variables-and-data-types/).
 
 And that's it for the little introduction to reflect, now you know enough to get confused and cry while working with anything that needs reflection. Great isn't it?
