@@ -37,8 +37,8 @@ The **compilation of go is extremely fast** and, although it might be slightly s
 
 Go is a **quite controversial language that triggers quite heated discussions**. I leave you some examples below of how varied opinions are:
 
-* [Golang no es un buen lenguaje](https://xetera.dev/thoughts-on-go/)
-* [Por qué Go no es bueno](https://yager.io/programming/go.html)
+* [Thoughts on go](https://xetera.dev/thoughts-on-go/)
+* [Why go is not good?](https://yager.io/programming/go.html)
 
 Complaints range from the simplicity of the language, to Robert Pike's claim that it is a language for "not so bright" programmers, to the (now fixed) lack of generics.
 

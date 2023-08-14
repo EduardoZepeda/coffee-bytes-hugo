@@ -1,5 +1,5 @@
 ---
-title: "Go: channels, understanding the deadlocks"
+title: "Go: channels, understanding the goroutines deadlocks"
 date: "2022-01-26"
 categories:
 - go
@@ -30,7 +30,7 @@ What if an operation is waiting to receive information from a channel, but that 
 
 It happens when there is a channel that receives information, but not one that sends it.
 
-Deadlock due to lack of input channel](images/deadlock-sender-go.jpg "There is no operation that sends data through a channel.")
+![Deadlock due to lack of input channel](images/deadlock-sender-go.jpg "There is no operation that sends data through a channel.")
 
 ```go
 package main
@@ -53,7 +53,7 @@ What if an operation sends information to a channel but there is no longer any o
 
 It happens when there is a channel that sends information, but not one that receives it.
 
-Deadlock due to lack of output channel](images/deadlock-receiver-go.jpg "In a deaclock due to lack of output channel there is no operation that receives text through a channel.")
+![Deadlock due to lack of output channel](images/deadlock-receiver-go.jpg "In a deaclock due to lack of output channel there is no operation that receives text through a channel.")
 
 ```go
 package main
@@ -122,7 +122,7 @@ If a channel does not have buffer, the value remains "retained" until it is rece
 
 On the other hand, if the channel is buffered, then execution is blocked until the value has been copied to the buffer, so we will not get an error, even if no goroutine receives it.
 
-![Schematic of deadlock prevention in go](images/deadlocks-prevention-go-1.jpg "In a buffered channel it does not matter if the value is not read because it has already been copied to the buffer.)
+![Schematic of deadlock prevention in go](images/deadlocks-prevention-go-1.jpg "In a buffered channel it does not matter if the value is not read because it has already been copied to the buffer.")
 
 ```go
 package main
@@ -142,6 +142,6 @@ func main() {
 
 To conclude the article, I will share with you some interesting resources about deadlocks.
 
-* [Golang - Entendiendo canal, buffer, bloqueo, deadlock y happy groutines](https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37).
-* [¿Por qué un bloqueo de rutina Go en un canal se considera un punto muerto?](https://stackoverflow.com/questions/61759204/why-a-go-routine-block-on-channel-is-considered-as-deadlock).
-* [Go efectivo, canales](https://go.dev/doc/effective_go#channels)
+* [Golang - Understanding channel, buffer, blocks, deadlocks and gorotuines](https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37).
+* [Why a goroutine block on channel is considered as deadlock?](https://stackoverflow.com/questions/61759204/why-a-go-routine-block-on-channel-is-considered-as-deadlock).
+* [Effective go, channels](https://go.dev/doc/effective_go#channels)

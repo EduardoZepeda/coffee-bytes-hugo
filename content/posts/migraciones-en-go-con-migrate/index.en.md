@@ -146,7 +146,7 @@ Migrate will detect the active migration and run _the corresponding up or down m
 
 And how does the tool know which migration it is in? After each change we make to the database, the migrate tool will store the state of our database in a table called _schema_migrations_ that looks like this:
 
-schema_migrations table in postgres"](images/schema_migrations.png "Migrations table where the current state is 1, selected in blue")
+![schema_migrations table in postgres"](images/schema_migrations.png "Migrations table where the current state is 1, selected in blue")
 
 ### Column version
 

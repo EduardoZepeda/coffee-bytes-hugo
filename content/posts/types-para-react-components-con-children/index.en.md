@@ -1,5 +1,5 @@
 ---
-title: "Types para React components con children"
+title: "Types for React components with children"
 date: "2021-10-19"
 categories:
 - "javascript"

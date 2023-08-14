@@ -31,12 +31,13 @@ What would have happened if instead of 5 petabytes it had been 5 GB of data? The
 
 In this case, time is constant. You know what they decided? That's right, the scientists opted to ship the hard disks by plane.
 
-| Internet (at 50 MB/s) | Airplane                    |
-| --------------------- | --------------------------- | ----------- |
-| 1 GB                  | 20 seconds                  | 19 hours    |
-|                       | 10 GB                       | 200 seconds | 19 hours | 1TB (1000 GB)    | 200 seconds              | 19 hours             | 1TB (1000 GB) |
-| 1 TB (1000 GB)        | 20,000 seconds (5 hours)    | 19 hours    | 19 hours | 50 TB (50000 GB) | 20,000 seconds (5 hours) | 19 hours             | 20 hours      | 20 hours |
-| 50 TB (50000 GB)      | 1000000 seconds (277 hours) | 19 hours    |          | 19 hours         | 5 PB (5000000 GB)        | 20 seconds (5 hours) | 19 hours      | 19 hours | 19 hours | 19 hours | 19 hours |
+| Information       | Internet (50 MB/s)            | Plane    |
+| ----------------- | ----------------------------- | -------- |
+| 1 GB              | 20 seconds                    | 19 hours |
+| 10 GB             | 200 seconds                   | 19 hours |
+| 1 TB (1000 GB)    | 20000 seconds (5 hours)       | 19 hours |
+| 50 TB (50000 GB)  | 1000000 seconds (277 hours)   | 19 hours |
+| 5 PB (5000000 GB) | 100000000 seconds (1157 days) | 19 hours |
 
 With internet speed close to the current limits, using the internet to transmit data is better the smaller the amount of information. Whereas physically transporting hard disks is better for huge amounts of data. This is because **airplane transport time is constant**, while **Internet data transmission time is linear**; it increases with the amount of data.
 
@@ -135,6 +136,6 @@ If you are looking for something more visual to introduce you to the world of al
 
 Here are some options to practice algorithms.
 
-* [one-algorithm-per-day-newsletter](/blog/an-algorithm-problem-a-day/)
-* codewars](/blog/top-5-favorite-algorithm-problems-at-codewars/)
+* [codewars](/blog/top-5-favorite-algorithm-problems-at-codewars/)
+* [One algorithm a day](/blog/an-algorithm-problem-a-day/)
 * [HackerRank](https://www.hackerrank.com/)

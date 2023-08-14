@@ -1,5 +1,5 @@
 ---
-title: "Caching in Django REST Framework with memcached"
+title: "Caching in Django REST Framework using memcached"
 date: "2021-09-07"
 categories:
 - "django"
@@ -34,7 +34,7 @@ The effect the cache will have depends on many factors. However, just to give yo
 
 As you can see the difference is almost 10 times the time.
 
-![Comparison of response time with cache and without cache for a django application](images/ComparisonCache1000filesDjango.jpg)
+![Comparison of response time with cache and without cache for a django application](images/ComparacionCache1000filasDjango.jpg)
 
 ## Installing memcached
 
