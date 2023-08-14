@@ -354,7 +354,7 @@ The code in this post is based on a [talk by LizRice](https://www.youtube.com/wa
 
 ## Other resources for further study
 
-* [Espacios de nombres](https://wvi.cz/diyC/namespaces/)
+* [Namespaces](https://wvi.cz/diyC/namespaces/)
 * [Cgroups](https://clibre.io/blog/por-secciones/hardening/item/425-cgroups-grupos-de-control-en-gnu-linux)
 * [Chroot](http://www.estrellateyarde.org/virtualizacion/la-jaula-en-linux-chroot)
-* [Diferencia entre un proceso, un contenedor y una máquina virtual](https://jessicagreben.medium.com/what-is-the-difference-between-a-process-a-container-and-a-vm-f36ba0f8a8f7)
+* [Difference between a process, a container and a virtual machine](https://jessicagreben.medium.com/what-is-the-difference-between-a-process-a-container-and-a-vm-f36ba0f8a8f7)
