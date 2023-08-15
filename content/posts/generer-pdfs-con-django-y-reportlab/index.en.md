@@ -155,7 +155,7 @@ We simply use the django ORM to create any query we want and call the drawString
 
 Notice how I decrease the position of the Y coordinate, so that each iteration writes the text in a new line, otherwise each line would overlap with the next.
 
-1[Pdf generated with information from the database in Django](images/pdf-dinamico-reportlab-django.png "Pdf generated dynamically using Django")
+![Pdf generated with information from the database in Django](images/pdf-dinamico-reportlab-django.png "Pdf generated dynamically using Django")
 
 ## Improve performance when generating PDF
 

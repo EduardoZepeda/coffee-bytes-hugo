@@ -43,13 +43,13 @@ See the following comparisons using information from [Techempower](https://www.t
 
 The number indicates the number of responses per second for a single query, of course the higher the better.
 
-Comparison chart of number of responses per second for request returning a row from the database. FastAPI in second place.](images/SingleQueryFastApi.png "Number of responses per second for requests returning a row from the database. Information taken from https://www.techempower.com/benchmarks")
+![Comparison chart of number of responses per second for request returning a row from the database. FastAPI in second place.](images/SingleQueryFastApi.png "Number of responses per second for requests returning a row from the database. Information taken from https://www.techempower.com/benchmarks")
 
 ### Performance for requests with 20 queries
 
 But what about requests with higher loads? This image shows the number of responses for a request with 20 queries, again, the higher the better.
 
-Comparison of number of responses per second for request returning twenty rows from database. FastAPI in second place.](images/MultipleQueryFastApi.png "Number of responses per second for requests returning twenty rows from the database. Information taken from https://www.techempower.com/benchmarks")
+![Comparison of number of responses per second for request returning twenty rows from database. FastAPI in second place.](images/MultipleQueryFastApi.png "Number of responses per second for requests returning twenty rows from the database. Information taken from https://www.techempower.com/benchmarks")
 
 According to information provided by Techempower, **FastAPI is tremendously faster than Django, Flask and Pyramid**.
 
