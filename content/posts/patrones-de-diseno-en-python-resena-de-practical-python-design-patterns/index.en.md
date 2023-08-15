@@ -186,25 +186,25 @@ Each chapter presents a problem to be solved and shows us, step by step, the dev
 
 The book covers the following design patterns:
 
-* Singleton
-* Prototipo
-* Fábrica
-* Constructor
-* Adaptador
-* Decorador
-* Fachada
-* Proxy
-* Cadena de responsabilidad
-* Comando
-* Intérprete
-* Iterador
-* Observador
-* Estado
-* Estrategia
-* Método de plantilla
-* Visitante
-* MVC
-* Publicar-suscribir
+- Singleton
+- Prototype
+- Factory
+- Builder
+- Adapter
+- Decorador
+- Facade
+- Proxy
+- Chain of responsability
+- Command
+- Interpreter
+- Iterator
+- Observer
+- State
+- Strategy
+- Template method
+- Visitor
+- MVC
+- Publish-suscribe
 
 I believe that design patterns are a must-have topic that makes a lot of difference when it comes to programming, however the pattern examples you will find here are exactly the same as you can find in any other book that deals with the topic. On the other hand, the plus that this book offers is that the examples are in Python, making them very easy to understand instead of other design pattern books written for C++ or Java.
 

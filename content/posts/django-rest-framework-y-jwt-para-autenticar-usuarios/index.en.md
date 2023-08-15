@@ -205,5 +205,3 @@ You probably don't want your users to be entering username and password every ti
 Well, the question brings a series of very difficult questions to answer that divide the opinions of the developers and leave us without a clear answer:
 
 How do I deal with a JWT with outdated information or permissions? What is the best way to invalidate a JWT on an external server or change the cryptographic key? What if the information I store in the JWT exceeds the size allowed per cookie? If instead of saving content in the JWT I only save the user ID, isn't that the same as a cookie?
-
-For the next post I will translate a very popular post called "Stop using JWT for sessions" (/no-uses-jwt-para-gestionar-sesiones-traduccion/), with a very strong position, which deals with those questions.

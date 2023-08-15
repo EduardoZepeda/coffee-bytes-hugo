@@ -160,7 +160,7 @@ There are several aspects of the book that I did not like; first, Java; second, 
 
 The SOLID principles, proposed by the author of Clean Code, are not a manual that you must follow to the letter, there are many developers who do not agree with them and who propose alternatives that look much more sensible, such as [CUPID](https://speakerdeck.com/tastapod/cupid-for-joyful-coding?slide=9) or the advice given in A Philosophy of Software Design.
 
-Notwithstanding the above, if you have the opportunity to read it, do so and contrast it with the opinions of other authors to get a more complete picture. The book has a Spanish version that you can purchase [here](https://www.amazon.com.mx/C%C3%B3digo-limpio-Clean-code-Craftsmanship/dp/8441532109/ref=pd_lpo_14_t_2/141-5823532-7483464? _encoding=UTF8&amp;pd_rd_i=8441532109&amp;pd_rd_r=b0bbd3b0-c868-4def-a158-0e58d9fe082c&amp;pd_rd_w=D6y5i&amp;pd_rd_wg=b5gZw&amp; pf_rd_p=d1973811-db3d-413c-af1a-6a5a8b0eb47e&amp;pf_rd_r=FNBZ7XXW8MSF0VFMAS1V&amp;psc=1&amp;refRID=FNBZ7XXW8MSF0VFMAS1V).
+Notwithstanding the above, if you have the opportunity to read it, do so and contrast it with the opinions of other authors to get a more complete picture. The book has a Spanish version that you can purchase on Amazon.
 
 The other day a [summary of Clean Code concepts with examples in Javascript](https://github.com/ryanmcdermott/clean-code-javascript) was shared with me on Twitter.
 

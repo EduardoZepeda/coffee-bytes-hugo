@@ -158,9 +158,10 @@ coverage annotate
 ```
 
 A file will be generated in the folder where we are working with the name of your file and ending '_,cover_'. This report will show the lines of our code and their status. The convention for the generated report is the following:
-> Executed
-! Not executed
-- Excluded
+
+* \> Executed
+* ! Not executed
+* - Excluded
 
 ```python
 # testing.py,cover

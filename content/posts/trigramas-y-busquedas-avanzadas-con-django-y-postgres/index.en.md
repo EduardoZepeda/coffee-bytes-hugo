@@ -21,7 +21,7 @@ authors:
 
 What if a user's finger slips on the keyboard and types "parfume" instead of "perfume". We probably don't want our user to leave the site because he didn't find any "parfume" on our website. Our website should return the results that most closely match what they are looking for. See how an experienced ecommerce handles it:
 
-![Search for the word "parfume" on amazon](images/busqueda_amazon.gif)
+![Search for the word "parfume" on amazon](images/busquedaLaptopAmazon.gif)
 
 Don't you remember the basic searches in Django? I have a post about [basic searches and full text search using Django and Postgres](/blog/full-text-search-and-searches-with-django-and-postgres/), if you haven't read it take a look there first.
 
@@ -33,7 +33,7 @@ The reason why parfume resembles perfume is because both contain similar trigram
 
 Trigram? Yes, trigram, of three and gram. **A trigram is three consecutive characters, it's as simple as that.
 
-![Automata trigrams schematic](images/trigrams.jpg)
+![Automata trigrams schematic](images/trigramas.jpg)
 
 Trigrams are three consecutive characters
 
@@ -69,7 +69,7 @@ SELECT show_trgm('autommattaa');
 
 Can you notice how they both share some trigrams (a, au, aut, mat, tom, uto)?
 
-![Shared trigrams between two text strings](images/TrigramesShared.png)
+![Shared trigrams between two text strings](images/TrigramasCompartidos.png)
 
 Also note that the quotation marks around certain trigrams are to specify trigrams with spaces.
 
@@ -131,7 +131,7 @@ Imagine you have a book database and a Book model with a title field and a conte
 
 On the other hand, Harry Potter books also relate to user interests, as they mention the word "magic" multiple times in their description, however, you probably want your search to prioritize those that contain the word "magic" in the title, not in the description.
 
-![Explanation of relevance according to the field](images/ExplanationRelevance.jpg)
+![Explanation of relevance according to the field](images/ExplicacionRelevancia.jpg)
 
 With Posgres the above is possible.
 

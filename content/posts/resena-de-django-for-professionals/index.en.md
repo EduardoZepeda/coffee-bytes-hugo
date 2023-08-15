@@ -19,9 +19,9 @@ authors:
 
 Some time ago, while searching for information about Django on the internet I came across a very good [weekly podcast called Django chats](https://djangochat.com/). The author, named William S. Vincent, talks about Django and interviews developers related to this web development framework. Besides running his podcast religiously, William S. Vincent also writes books about Django. One of them is Django for Professionals, which is **one of the best modern Django books** I've read so far. This book is part of a trilogy about Django. If you know English take a spin on the author's Django podcast, you'll find a lot of great content about Django and purchase links to his three books:
 
-* Django para principiantes
-* Django para APIS
-* Django para profesionales
+* Django for beginners
+* Django for APIs
+* Django for professionals
 
 If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of Django](/blog/why-should-you-use-django-framework/)
 

@@ -23,7 +23,7 @@ If you want to learn React but don't know Javascript read my post, where I talk 
 
 Ant design is beautiful, yes, there is not much to go into using text. It has lots of components that are visually pleasing and very elegant: buttons, sliders, progress bars, layouts, you know, the basics. Be sure to visit the [Ant design website](https://ant.design/) to see for yourself all that this library has to offer.
 
-[Screenshot of ant design](images/Ant-design.gif)
+![Screenshot of ant design](images/Ant-design.gif)
 
 ## formik
 
@@ -61,7 +61,7 @@ You can read more about the differences between React and Preact at [their offic
 
 React admin is the equivalent of django admin but in React, an interface to perform CRUD operations to your database models. It requires a very basic configuration, but once you set it up you're all set. Visit the [React admin demo](https://marmelab.com/react-admin-demo/#/) to get to know it.
 
-![React admin interface](images/ReactAdminInterface.png)
+![React admin interface](images/ReactAdminInterfaz.png)
 
 ## Bonus: React Virtualized
 
