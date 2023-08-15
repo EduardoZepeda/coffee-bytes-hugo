@@ -65,13 +65,13 @@ def pdfVideogame(request):
     p.drawString(0, 0, "Hola mundo")
 ```
 
-![Text generated with reportlab](images/text-background-pdf.png "Text created with reportlab")
+![Text generated with reportlab](images/text-fondo-pdf.png "Text created with reportlab")
 
 This will draw our string... at the bottom of the screen.
 
 Why in the background? You may think that canvas works with a Cartesian plane, we just told reportlab to draw the string in the 0,0 coordinates of the plane.
 
-Pdf thought as a Cartesian plane](images/coordinates-pdf.png "Reportlab behaves as a Cartesian plane")
+![Pdf thought as a Cartesian plane](images/coordenadas-pdf.png "Reportlab behaves as a Cartesian plane")
 
 ### Positioning the text
 
@@ -83,7 +83,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-![Text positioned in a pdf](images/text-positioned-pdf.png "Text positioned according to the X and Y axes in reportlab")
+![Text positioned in a pdf](images/texto-posicionado-pdf.png "Text positioned according to the X and Y axes in reportlab")
 
 ### Change font color in PDF
 
@@ -155,7 +155,7 @@ We simply use the django ORM to create any query we want and call the drawString
 
 Notice how I decrease the position of the Y coordinate, so that each iteration writes the text in a new line, otherwise each line would overlap with the next.
 
-Pdf generated with information from the database in Django](images/pdf-dinamico-reportlab-django.png "Pdf generated dynamically using Django")
+1[Pdf generated with information from the database in Django](images/pdf-dinamico-reportlab-django.png "Pdf generated dynamically using Django")
 
 ## Improve performance when generating PDF
 

@@ -132,4 +132,4 @@ subsubcategoria.parent.parent.name
 
 ## Other resources
 
-* Official documentation on the ForeignKey to self](https://docs.djangoproject.com/en/4.0/ref/models/fields/)
+* [Official documentation on the ForeignKey to self](https://docs.djangoproject.com/en/4.0/ref/models/fields/)

@@ -159,7 +159,7 @@ urlpatterns = [
 
 If we access the sitemap, you will notice that the base url of the urls is _example.org_, to define another one we need to modify the base from the administrator. The form is located at _/admin/sites/site/_
 
-Add a domain to the Django sitemap](images/Django-site-sitemap.png "Modify the default domain of the sitemap in /admin/sites/site/")
+![Add a domain to the Django sitemap](images/Django-sitio-sitemap.png "Modify the default domain of the sitemap in /admin/sites/site/")
 
 ## Sitemap cache
 

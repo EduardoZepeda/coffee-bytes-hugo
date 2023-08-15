@@ -152,7 +152,7 @@ The following image is a direct screenshot of the Django code in version 4.0
 
 As you can see, it only has the 3 fields mentioned, it inherits directly from _models.Model_ and its Meta class tells Python that it is an abstract model; you cannot create instances directly from it.
 
-Django AbstractBaseUser class source code](images/AbstractBaseUserDjango-1.png "Screenshot of Django AbstractBaseUser version 4.0")
+[Django AbstractBaseUser class source code](images/AbstractBaseUserDjango-1.png "Screenshot of Django AbstractBaseUser version 4.0")
 
 Now let's look at the third way to extend Django's _User_ model.
 
@@ -182,5 +182,5 @@ usuario.perfil
 
 ## Other resources
 
-* Original source code of the Django User model](https://github.com/django/django/tree/main/django/contrib/auth)
+* [Original source code of the Django User model](https://github.com/django/django/tree/main/django/contrib/auth)
 * [Django User model documentation](https://docs.djangoproject.com/en/4.0/topics/auth/customizing/)

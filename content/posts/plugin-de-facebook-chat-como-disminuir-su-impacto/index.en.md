@@ -117,7 +117,7 @@ FB.Event.subscribe('xfbml.render', function(){
 
 With the previous steps we are delaying the loading of the content until the user interacts with it. In this way the loading of the plugin is delayed until the user wants to use it, avoiding the impact on the initial load.
 
-![Delayed loading of facebook plugin](images/DelayedLoadingDelFacebookChatPlugin.gif)
+![Delayed loading of facebook plugin](images/CargaRetardadaDelFacebookChatPlugin.gif)
 
 The plug-in script is not activated until we interact with the icon
 

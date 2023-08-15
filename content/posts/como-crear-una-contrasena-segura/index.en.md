@@ -112,7 +112,16 @@ You must remember that **absolutely all passwords can be obtained by brute force
 
 Well, once warned you can visit it by going to [this link](https://howsecureismypassword.net/). Anyway here are some examples of passwords and the approximate time it would take to break them by brute force.
 
-<table><tbody><tr><td><strong>Contraseña</strong></td><td><strong>Tiempo</strong></td></tr><tr><td>firulais</td><td>5 segundos</td></tr><tr><td>admin123</td><td>1 minuto</td></tr><tr><td>F1rul415</td><td>1 minuto</td></tr><tr><td>unP3rritoTrist3:(</td><td>3 cuadrillones de años</td></tr><tr><td>jXkeLCfcPfTqtCFEtMFy</td><td>16 cuadrillones de años</td></tr><tr><td>v&lt;eVZ&amp;C=&gt;-h-3H9`%y5*</td><td>6 sextillones de años</td></tr><tr><td>Aristoteles-Tira-Rocas-A-Platon</td><td>300 undecillones de años</td></tr></tbody></table>
+| Contraseña                      | Tiempo                |
+| ------------------------------- | --------------------- |
+| firulais                        | 5 seconds             |
+| admin123                        | 1 minute              |
+| F1rul415                        | 1 minute              |
+| unP3rritoTrist3:(               | 3 quadrillions years  |
+| jXkeLCfcPfTqtCFEtMFy            | 16 quadrillions years |
+| v&lt;eVZ&amp;C=&gt;-h-3H9`%y5*  | 6 Sextillion years    |
+| Aristoteles-Tira-Rocas-A-Platon | 300 undecillion years |
+
 
 Data obtained from https://howsecureismypassword.net
 

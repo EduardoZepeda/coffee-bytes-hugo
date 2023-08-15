@@ -144,6 +144,6 @@ Typescript should not warn you about any errors with this approach to the proble
 
 Below are links to the original discussion and some posts on this topic.
 
-* [Eliminar React.FC de la plantilla Typescript](https://github.com/facebook/create-react-app/pull/8177)
-* [Por qué probablemente no deberías usar React.FC para escribir tus componentes React](https://medium.com/raccoons-group/why-you-probably-shouldnt-use-react-fc-to-type-your-react-components-37ca1243dd13)
-* [Deberías usar React.FC para escribir tus componentes React](https://www.harrymt.com/blog/2020/05/20/react-typescript-react-fc.html)
+* [Eliminate React.FC from typescript template](https://github.com/facebook/create-react-app/pull/8177)
+* [Why you probably shouldn't use react fc to type your react components](https://medium.com/raccoons-group/why-you-probably-shouldnt-use-react-fc-to-type-your-react-components-37ca1243dd13)
+* [React Typescript' React.FC](https://www.harrymt.com/blog/2020/05/20/react-typescript-react-fc.html)

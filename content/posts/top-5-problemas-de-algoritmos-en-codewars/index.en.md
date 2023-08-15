@@ -101,7 +101,7 @@ Original Kata: [Make a spiral](https://www.codewars.com/kata/534e01fbbb17187c7e0
 
 It looks easy, but I assure you it won't be so easy on your first try.
 
-## El alma del ingenio: invertir una matriz
+## The soul of wit: reverse an array
 
 No time for stories, invert an array (in Javascript), return the result. Do whatever you want with the original array. Don't use Array.prototype.reverse.
 
@@ -113,7 +113,7 @@ This time you won't be able to do the other Kata thing.
 
 Nor can you use require.
 
-Kata original: [El alma del ingenio: invertir una matriz](https://www.codewars.com/kata/59b81886460387d8fc000043)
+Kata original: [The soul of wit: reverse an array](https://www.codewars.com/kata/59b81886460387d8fc000043)
 
 ### Note on Kata
 
@@ -123,7 +123,7 @@ By 30 bytes it means that you have the equivalent in characters to use in your c
 const reverse = a => a.reverse();
 ```
 
-## Último dígito de un número enorme
+## Last digit of a huge number
 
 Given a list [x1, x2, x3, ..., xn] compute the last digit (decimal) of x1 ^ (x2 ^ (x3 ^ (... ^ xn))).
 

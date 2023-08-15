@@ -30,7 +30,7 @@ To achieve the above you need to know the basic architecture of Azure, its diffe
 
 ## My examination process
 
-The exam was conducted through the [Evaluaasi] platform (https://www.evaluaasi.com/), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting.
+The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting.
 
 ![Evaluaasi platform](images/evaluaasi-plataforma.jpg "Evaluaasi platform home screen")
 
@@ -64,9 +64,9 @@ To study I used the following resources, here is a brief description of each one
 
 ### Microsoft Learn
 
-The [microsoft Learn] platform (https://docs.microsoft.com/en-us/learn/) is the default resource, as there is no one better than microsoft to start reading the basic features of the Azure cloud. However, being a text-only solution it can become somewhat tedious. In addition, the large amount of information can make people who have their first approach to new technologies feel lost.
+The [microsoft Learn platform](https://docs.microsoft.com/en-us/learn/) is the default resource, as there is no one better than microsoft to start reading the basic features of the Azure cloud. However, being a text-only solution it can become somewhat tedious. In addition, the large amount of information can make people who have their first approach to new technologies feel lost.
 
-![microsoft learn platform](images/platform-microsoft-learn.jpg "microsoft learning platform")
+![microsoft learn platform](images/platforma-microsoft-learn.jpg "microsoft learning platform")
 
 The e-learning platform is also available in Spanish, just select the language.
 
@@ -76,7 +76,7 @@ See below for details on the content of this platform.
 
 Aprenderbigdata has a [exam guide in 5 PDF files](https://aprenderbigdata.com/az-900-azure-fundamentals/) quite complete with questions in Spanish, which you can use as a review quiz, it is almost at the bottom of the page.
 
-![Learn big data](images/learn-big-data.jpg)
+![Learn big data](images/aprender-big-data.jpg)
 
 ### Adam Marczac's website
 

@@ -60,7 +60,7 @@ If you want to delve deeper into each of these points, here are some resources t
 In English:
 
 * [Representational state transfer (inglés)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
-* [Nadie entiende REST](https://steveklabnik.com/writing/nobody-understands-rest-or-http)
+* [Nobody understands REST](https://steveklabnik.com/writing/nobody-understands-rest-or-http)
 
 In Spanish:
 

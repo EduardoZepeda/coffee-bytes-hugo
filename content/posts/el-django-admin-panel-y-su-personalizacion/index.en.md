@@ -113,7 +113,7 @@ class VideogameAdmin(admin.ModelAdmin):
 admin.site.register(Videogame, VideogameAdmin)
 ```
 
-![django admin admin panel with the created field and search bar added](images/AddingFieldsToAdmin.png)
+![django admin admin panel with the created field and search bar added](images/AgregandoCamposAlAdmin.png)
 
 See the created field and the search bar
 
@@ -135,7 +135,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 As you can see, the order in which the fields appear has been modified. In order Description, Name, Genre and Rating, just as we specified.
 
-![Order of the modified model creation formulary according to the fields field](images/Modifying theAdminDefaultOrder.png)
+![Order of the modified model creation formulary according to the fields field](images/ModificandoElOrdenPredeterminadoDelAdmin.png)
 
 Notice how the order has changed from that specified in the fields property.
 
@@ -158,7 +158,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 Here we have told you to order them by name, in descending order, using the "-" symbol.
 
-![Models sorted alphabetically in descending order](images/OrderByDescendingNameAdminDjango.png)
+![Models sorted alphabetically in descending order](images/OrdenPorNombreDescendenteAdminDjango.png)
 
 Note the arrangement of the models in descending order
 
@@ -176,7 +176,7 @@ admin.site.site_title = 'Titulo en la pestaña del navegador'
 
 Now you can see that in the main page of the admin you can see the changes we have made.
 
-![Changing the title, description and title of the django admin panel](images/ModifyingTheHeaderTitleAndDescription.png)
+![Changing the title, description and title of the django admin panel](images/ModificandoLaCabeceraTituloYDescripcion.png)
 
 The three sites have changed
 
@@ -195,7 +195,7 @@ class VideogameAdmin(admin.ModelAdmin):
 admin.site.register(Videogame, VideogameAdmin)
 ```
 
-![Sorting by date field](images/AddingDate_hierarchy.png)
+![Sorting by date field](images/AgregandoDate_hierarchy.png)
 
 The legend April2021 and April 30 appear after placing date_hierarchy
 
@@ -221,7 +221,7 @@ class VideogameAdmin(admin.ModelAdmin):
 
 All models have the delete action available, which allows you to select several rows from the database and delete them.
 
-![Delete action in django admin.](images/ActionDeleteDjangoAdmin.png)
+![Delete action in django admin.](images/AccionEliminarDjangoAdmin.png)
 
 In addition to the delete action we can create our own actions that modify our admin elements in the way we wish
 
@@ -249,7 +249,7 @@ class VideogameAdmin(admin.ModelAdmin):
 
 Once the method is created, we add it to the admin through its _add_action()_ method, passing it the method we created and the name we want to appear on the screen to refer to that action, as the first and second arguments, respectively.
 
-![Action created in the django admin model](images/ActionsDjangoAdmin.png)
+![Action created in the django admin model](images/AccionesDjangoAdmin.png)
 
 If we select some elements and execute the action, it will rate them with 5 stars and the message we defined will appear.
 
@@ -312,7 +312,7 @@ If we now access the admin, we will be able to see a new, much more stylish term
 
 Django administration panel with django-material
 
-![Log-in screen with django-material](images/Capture-screenshot-of-2021-08-19-23-19-12.png)
+![Log-in screen with django-material](images/pantalla-de-loggeo-django-material.png)
 
 django admin login panel with django-material
 

@@ -57,7 +57,7 @@ Press the "start swarming" button and locust will take care of the rest, gradual
 
 Watch real-time monitoring. To stop it press the stop button in the upper right corner.
 
-![Locust supports real-time monitoring](images/MonitoringRealTimeLocust.gif)
+![Locust supports real-time monitoring](images/MonitoreoTiempoRealLocust.gif)
 
 ## Metrics in locust
 
@@ -82,15 +82,15 @@ When we stop the test, we will have downloadable charts in the charts tab.
 
 The first with the number of requests per second on the Y-axis.
 
-![Total requests per second](images/PetitionsPerSecond.png)
+![Total requests per second](images/PeticionesPorSegundo.png)
 
 The second with the response time on the y-axis.
 
-![Response Time](images/ResponseTime.png)
+![Response Time](images/TiempoDeRespuesta.png)
 
 Finally, the third one, with the number of users on the Y-axis.
 
-![Number of users](images/NumberOfUsers.png)
+![Number of users](images/NumeroDeUsuarios.png)
 
 ## Add more requests per user
 
@@ -228,7 +228,7 @@ class HelloWorldUser(HttpUser):
 
 In the previous example, when trying to access a path that does not exist, the first conditional will be executed and will create a failure with the text "Wrong answer", which we will be able to see in the failure section of the interface.
 
-![Custom Error](images/ErrorCustomErrorLocust.png)
+![Custom Error](images/ErrorPersonalizadoLocust.png)
 
 In addition to testing the text in the response it is possible to test the other properties of the response object, such as the response code or the time it takes to return a response.
 

@@ -131,7 +131,7 @@ lock.Lock()
 lock.Unlock()
 ```
 
-The Lock method of Mutex blocks code access, while the Unlock method releases it](images/mutex-lock-en-go.png "How Mutex works in go").
+![The Lock method of Mutex blocks code access, while the Unlock method releases it](images/mutex-lock-en-go.png "How Mutex works in go").
 
 If we protect the reading and writing of the tokens variable, our code should work perfectly. Even if we compile with the _--race_ flag and run it, Go will no longer return a warning.
 
@@ -182,5 +182,5 @@ lock.RUnlock()
 
 ## Useful mutex resources
 
-* [Diferencia entre mutex y rwmutex](https://programmer.help/blogs/difference-between-mutex-and-rwmutex.html) (en inglés)
+* [difference between mutex and rwmutex](https://programmer.help/blogs/difference-between-mutex-and-rwmutex.html) (en inglés)
 * [Race conditions](https://cloudxlab.com/blog/race-condition-and-deadlock/) (en inglés)
