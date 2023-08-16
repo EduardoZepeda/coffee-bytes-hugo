@@ -20,7 +20,7 @@ I ran into Ngrok trying to redirect a Mercado Pago payment notification to my lo
 
 What Ngrok does is to serve as a tunnel that redirects any web request, through its own urls, to your localhost. This can be used to test a webhook or receive notifications, a very common task in payment gateways, share your localhost with collaborators without needing your own domain, etc.
 
-![ngrok operation schematic](images/SchemaNgrok.png)
+![ngrok operation schematic](images/EsquemaNgrok.png)
 
 ## Ngrok installation
 
@@ -82,7 +82,7 @@ If we now run ngrok, specify port 8000 and access the address it indicates, we w
 ngrok http 8000
 ```
 
-![Ngrok information for the Django example](images/NgrokExampleDjango.png)
+![Ngrok information for the Django example](images/NgrokEjemploDjango.png)
 
 Observe the domain in which our Django application is running.
 

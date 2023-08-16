@@ -114,7 +114,7 @@ The changes we made were as follows:
 * Now, every time we receive a message in a _consumer_, it will call the method **_group_send_** of the channel layer to which it belongs, which will be in charge of **sending the data, in dictionary form, automatically to all the active members of the group "chat "**.
 * The type key will tell the _consumer_ which method to use. The syntax is **replace the dot with an underscore**. That is to say that the type _chat.message_ will execute the _chat_message_ method of each _consumer_ that receives it.
 
-![Processing of a message from a websocket to a group of channel layers](images/GroupsInDjangoChannels.png)
+![Processing of a message from a websocket to a group of channel layers](images/GruposEnDjangoChannels.png)
 
 Channel layer sending information to the group "chat" with its method group_send
 
@@ -262,7 +262,7 @@ Now you can complicate the sending of information so that it behaves the way you
 
 Before deploying an application that involves channels I will tell you about the many things that can go wrong and how to prevent them.
 
-### django.core.exceptions.AppRegistryNotReady: Las aplicaciones aún no se han cargado
+### django.core.exceptions.AppRegistryNotReady: Apps not loaded
 
 If you are using uvicorn and an asgi application, this is because django tries to use applications that have not yet been loaded. To prevent the error manually load the application yourself before importing any other app.
 

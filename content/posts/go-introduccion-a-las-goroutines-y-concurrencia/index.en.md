@@ -21,10 +21,8 @@ As I mentioned in the introduction to the go programming language: [go is a spec
 
 Before we begin, remember that parallelism and concurrency are different. This post is too small to deal with such a broad topic, however there are two resources I want to highlight:
 
-* [Concurrent Programming by Felipe Restrepo
-Street](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html)
-* [Concurrency vs parallelism by Hector Patricio in The dojo
-blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html)
+* [Concurrent Programming by Felipe Restrepo Street](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html)
+* [Concurrency vs parallelism by Hector Patricio in The dojo blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html)
 
 I quote a sentence from the first resource that, in my opinion, sums up the difference quite well:
 
@@ -32,7 +30,7 @@ I quote a sentence from the first resource that, in my opinion, sums up the diff
 > progress.
 >
 > A program is parallel if it can support two or more actions **executing
-> simultaneously.** > > A program is parallel if it can support two or more actions
+> simultaneously.** 
 >
 > Felipe Restrepo Calle
 

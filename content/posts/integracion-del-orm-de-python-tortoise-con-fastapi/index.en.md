@@ -168,7 +168,7 @@ async def create_job(name=Form(...), description=Form(...)):
 
 If we now make a web request using the documentation interface that fastAPI creates, in _/docs/_, we will see that we will be able to create a Job object using a name and a description.
 
-![Creating an object using fastAPI and tortoise ORM](images/CreatingAnObjectTortoise.png)
+![Creating an object using fastAPI and tortoise ORM](images/CreacionDeUnObjetoTortoise.png)
 
 ## Serializing objects with pydantic and tortoise
 
@@ -226,7 +226,7 @@ async def get_jobs():
     return await job_pydantic.from_queryset(Job.all())
 ```
 
-![Getting a list of objects using fastAPI and tortoise ORM](images/ListObjectsTortoise.png)
+![Getting a list of objects using fastAPI and tortoise ORM](images/ListadoDeObjetosTortoise.png)
 
 ## Updating an object with tortoise
 
@@ -249,7 +249,7 @@ async def update_job(job_id: int, job: job_pydantic):
     return await job_pydantic_no_ids.from_queryset_single(Job.get(id=job_id))
 ```
 
-![Updating an object using tortoise and fastAPI](images/UpdatingAnObjectTortoise.png)
+![Updating an object using tortoise and fastAPI](images/ActualizacionDeUnObjetoTortoise.png)
 
 ## Obtain an object with tortoise
 
@@ -265,7 +265,7 @@ async def get_job(job_id: int):
     return await job_pydantic_no_ids.from_queryset_single(Job.get(id=job_id))
 ```
 
-![Obtaining an object using fastAPI and swagger](images/ObtainObjectTortoise.png)
+![Obtaining an object using fastAPI and swagger](images/ObtenerUnObjetoTortoise.png)
 
 ## Remove an object with tortoise
 
@@ -287,6 +287,6 @@ async def delete_job(job_id: int):
 
 We filter by the id we get in the url and, if we find the object, we delete it, in case the id of that object does not exist we will return a 404 error through an exception. In case it does, we will no longer return the object, but it will be enough that we return a message warning that the id was deleted.
 
-![Deletion of an object using fastAPI and swagger](images/DeleteAnObjectTortoise.png)
+![Deletion of an object using fastAPI and swagger](images/BorrarUnObjetoTortoise.png)
 
 And with that we can perform basic CRUD operations in fastAPI using tortoise as ORM. In this entry I haven't discussed foreign keys, foreign key fields, many to many, or other kinds of relationships between models. I will probably make a future post about that, in the meantime you can read [the official tortoise documentation](https://tortoise-orm.readthedocs.io)

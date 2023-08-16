@@ -122,7 +122,7 @@ If a channel does not have buffer, the value remains "retained" until it is rece
 
 On the other hand, if the channel is buffered, then execution is blocked until the value has been copied to the buffer, so we will not get an error, even if no goroutine receives it.
 
-![Schematic of deadlock prevention in go](images/deadlocks-prevention-go-1.jpg "In a buffered channel it does not matter if the value is not read because it has already been copied to the buffer.")
+![Schematic of deadlock prevention in go](images/deadlocks-prevencion-go-1.jpg "In a buffered channel it does not matter if the value is not read because it has already been copied to the buffer.")
 
 ```go
 package main

@@ -13,7 +13,7 @@ authors:
 
 A git submodule is a record within a git repository that points to a commit in an external repository. They are handled exactly as you would with a repository, they even have a _.git_ file that points to the location where a changelog is kept.
 
-![Simplified outline of git submodules](images/git-submodule-basic-outline.jpg "Simplified outline of git submodules")
+![Simplified outline of git submodules](images/git-submodulo-esquema-basico.jpg "Simplified outline of git submodules")
 
 git submodules are useful when we want to incorporate third-party code into a project and at the same time we want to keep strict control of the updates of that code through git. For example:
 
@@ -67,7 +67,7 @@ Each of these submodules specifies its path, relative to the repository root, th
 
 This file is important because it is a reference to the submodules that our project needs to work.
 
-git submodules operation schematic](images/funcionamiento-git-submodules.jpg "Schematic of git submodules operation")
+![git submodules operation schematic](images/funcionamiento-git-submodules.jpg "Schematic of git submodules operation")
 
 ### The contents of a submodule's .git file
 
@@ -105,7 +105,7 @@ Within the submodule you can perform checkouts, create branches, even commits an
 
 Git treats each submodule as if it were a separate repository, so **each version of your main repository corresponds to a version of the submodule**.
 
-![Git submodules-correspondence](images/git-submodules-correspondence.jpg)
+![Git submodules-correspondence](images/git-submodules-correspondencia.jpg)
 
 ## Workflow of git submodules
 

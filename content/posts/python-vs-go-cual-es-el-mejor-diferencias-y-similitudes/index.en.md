@@ -25,7 +25,9 @@ If you want to learn go, take a look at my golang tutorial from scratch, where I
 
 This comparison is going to be a bit sloppy, since we are going to compare Python, an interpreted language, and go, a compiled language. So we are already starting from quite big differences.
 
-**Python is an interpreted and imperative language while Go is a compiled, concurrent and imperative language.
+**Python is an interpreted and imperative language while Go is a compiled, concurrent and imperative language.**
+
+![Go is a compiled language whereas Python is an interprepted one](images/codigo-compilado-vs-interpretado-go-vs-python.png)
 
 I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript](/blog/python-vs-javascript-which-one-is-better/) comparison, so if you want to refresh your memory a bit go there.
 
@@ -347,8 +349,6 @@ Go developers tend to **make significantly more money than the
 Python developers**. In fact, Go is among the top 10 highest paid languages according to the
 languages according to stackoverflow's 2022 survey.
 
-![Salary comparison by language according to stackoverflow survey. Go is in the top 10](images/go-vs-python-salaries.png "Go programmers tend to earn more than Python programmers").
-
 ## Batteries included
 
 Both languages have a [library standard](https://docs.python.org/3/library/) with most of the basic needs covered, from network basic needs covered, from network management, to code profiling, and even some less common and even some less common ones like audio handling. The included batteries are one of the features that make Python so popular.
@@ -418,8 +418,7 @@ While in Python we already have some well proven solutions, solutions, character
 
 Among the frameworks [Django, one of the favorite frameworks of Python](/blog/why-should-you-use-django-framework/)
 
-Frameworks web más populares de Python: Django, Fastapi, flask,
-![botella](images/python-frameworks.jpg)
+Python's most popular frameworks are: Django, Fastapi, flask,
 
 Even though most Python frameworks are old, it doesn't mean that new frameworks are not appearing lately.
 [Fastapi](/blog/fastapi-tutorial-the-best-python-framework/), which I already did a tutorial on, is also a very fast new framework that is gaining popularity day by day, tutorial is also a new very fast framework that is gaining popularity day by day.

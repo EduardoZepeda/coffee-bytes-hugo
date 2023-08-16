@@ -25,6 +25,9 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 
  **Python es un lenguaje interpretado e imperativo mientras que Go es un lenguaje compilado, concurrente e imperativo.**
 
+![Go es un lenguaje compilado, mientras que Python es uno interpretado](images/codigo-compilado-vs-interpretado-go-vs-python.png)
+
+
 Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.

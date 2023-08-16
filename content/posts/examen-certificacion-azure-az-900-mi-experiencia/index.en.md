@@ -66,7 +66,7 @@ To study I used the following resources, here is a brief description of each one
 
 The [microsoft Learn platform](https://docs.microsoft.com/en-us/learn/) is the default resource, as there is no one better than microsoft to start reading the basic features of the Azure cloud. However, being a text-only solution it can become somewhat tedious. In addition, the large amount of information can make people who have their first approach to new technologies feel lost.
 
-![microsoft learn platform](images/platforma-microsoft-learn.jpg "microsoft learning platform")
+![microsoft learn platform](images/plataforma-microsoft-learn.jpg "microsoft learning platform")
 
 The e-learning platform is also available in Spanish, just select the language.
 
@@ -94,7 +94,7 @@ It is a 3-hour review in English, in which they explain the basics of the Azure 
 
 ## How much does certification cost? Is it free?
 
-The certification costs **about $90 USD directly with microsoft**, but I got it for free as part of a [Platzi learning platform] certification challenge(https://platzi.com/r/eduardo-zepeda).
+The certification costs **about $90 USD directly with microsoft**, but I got it for free as part of a [Platzi learning platform certification challenge](https://platzi.com/r/eduardo-zepeda).
 
 I understand that if you sign up for the Microsoft Learn e-learning platform, they usually give away coupons from time to time.
 

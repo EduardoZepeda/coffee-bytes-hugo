@@ -150,7 +150,7 @@ When performing a search it would not make sense to search for articles and prep
 
 Another aspect that would be great for our searches would be to return words that match the same lexeme or base. That is, if our user searches for "cat", we would probably also want to return data that match derivatives of that word: cat, cat, cats, cats, cats, cats, gatuno or any other word that starts with "gat".
 
-![Creating a tsvector in postgres](images/tsvector-in-postgres.png)
+![Creating a tsvector in postgres](images/tsvector-en-postgres.png)
 
 All of the above is quite common in Postgres and is already covered by Django's search functionality. Django incorporates full text searching.
 
@@ -174,7 +174,7 @@ Isn't it great? We passed a two-word phrase to our search, the words are not adj
 
 Look at the SQL query in the last code block and note the _to_tsvector_ and _plainto_tsquery_ functions.
 
-![Full text search schema in Postgres](images/FullTextSearchSchema.png)
+![Full text search schema in Postgres](images/FullTextSearchEsquema.png)
 
 Diagram of full text search in Postgres
 
