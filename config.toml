@@ -29,11 +29,11 @@ description = "Artículos sobre desarrollo web y Linux."
 excludeFromSitemap = ["tags", "categories", "posts", "pages"]
 [params.latte]
 affiliateHtml = """<small><strong>NO TE PIERDAS </strong>de estas oportunidades:</small>
-            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn btn-shadow btn-green" style="font-size: 15px; margin-top:20px;background-color: #94C53D; padding:1rem; width:100%;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
+            <a target="_blank" href="https://platzi.com/r/eduardo-zepeda"><button class="btn btn-shadow btn-green" style="font-size: 15px; margin:15px 0;background-color: #94C53D; padding:1.5rem; width:100%;">1 MES <strong>GRATIS</strong> EN PLATZI</button></a>
             <div><small/>Paga tu membresía anual y recibe un mes gratis extra</small></div>
-            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn btn-shadow btn-blue" style="font-size: 15px; margin-top:20px;padding:1rem; width:100%;">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
+            <a target="_blank" href="https://m.do.co/c/a22240ebb8e7"><button class="btn btn-shadow btn-blue" style="font-size: 15px; margin:15px 0;padding:1.5rem; width:100%;">$200 USD <strong>GRATIS</strong> EN DIGITAL OCEAN</button></a>
             <div><small/>Ingresa y da click en <strong>Free active credit $200 USD</strong></small></div>
-            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1130492/5618"><button class="btn btn-shadow btn-orange" style="font-size: 15px; margin-top:20px;background-color: #FE5904; padding:1rem; width:100%;">OBTÉN UN <strong>.COM por solo $5.98</strong></button></a>
+            <a target="_blank" href="https://namecheap.pxf.io/c/4085764/1130492/5618"><button class="btn btn-shadow btn-orange" style="font-size: 15px; margin:15px 0;background-color: #FE5904; padding:1.5rem; width:100%;">OBTÉN UN <strong>.COM por solo $5.98</strong></button></a>
             <div><small/>No te pierdas las oportunidades de namecheap</small></div>
             """
 disablesearch = false
