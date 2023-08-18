@@ -23,7 +23,7 @@ The django admin panel is one of [reasons why you should consider using Django](
 
 If you started your project with the startproject command, the django administration panel will be activated by default. If you go to _/admin/_ the login screen will appear.
 
-Administration panel login screen](images/django-admin-panel.png "django admin panel screen")
+![Administration panel login screen](images/django-admin-panel.png "django admin panel screen")
 
 If not, or if you start from a previous installation, you must first make sure that it is installed in your configuration file, as well as its dependencies:
 
@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-You must also add _django.contrib.messages.context_processors.messages_ and d_jango.contrib.auth.context_processors.auth_ to the _context_processors_ option in the TEMPLATES variable of your _settings.py_ file.
+You must also add _django.contrib.messages.context_processors.messages_ and _django.contrib.auth.context_processors.auth_ to the _context_processors_ option in the TEMPLATES variable of your _settings.py_ file.
 
 In the same way add _django.contrib.auth.middleware.AuthenticationMiddleware_ and _django.contrib.messages.middleware.MessageMiddleware_ to the MIDDLEWARE variable of your _settings.py_ file as well.
 

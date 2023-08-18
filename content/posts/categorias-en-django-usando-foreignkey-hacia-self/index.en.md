@@ -48,7 +48,7 @@ Imagine a horror movie category, with a ghost subcategory that, in turn, has a h
 
 Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCategories have in turn subcategories. See what I'm trying to get at?
 
-! [Infinite subcategories problem scheme](images/ProblemaCategoriesDjango.jpg)
+![Infinite subcategories problem scheme](images/ProblemaCategoriasDjango.jpg)
 
 Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django ORM](/blog/why-should-you-use-django-framework/) offers a pretty clean solution.
 
