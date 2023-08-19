@@ -1,7 +1,6 @@
 ---
 title: "Patrones De Deployment o Despliegue Útiles"
 date: "2023-08-18"
-draft: true
 categories: 
   - "devops"
   - "arquitectura de software"

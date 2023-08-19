@@ -92,10 +92,10 @@ The worker is in charge of executing the tasks and, as I mentioned, it will be l
 
 ``` mermaid
 flowchart TD
-    A[Se inicializa el worker] --> B{Quedan jobs o tareas en el queue?}
-    B -->|Sí| C[Obtén y ejecuta un nuevo job o tarea]
+    A[The worker is initiliazed] --> B{Are pending jobs in the queue?}
+    B -->|yes| C[Get a new job]
     C --> B
-    B ---->|No| E[Termina el worker]
+    B ---->|No| E[End the worker]
 ```
 
 The fixed number of workers will ensure that, during the entire program execution, there will be a maximum number of tasks running, which will limit the memory impact of our concurrent tasks.

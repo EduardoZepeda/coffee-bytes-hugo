@@ -31,13 +31,13 @@ It is quite common to write code that occasions multiple queries to the database
 Identify what queries are being made in your application using [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) and reduce them, or make them more efficient:
 
 * **select_related()** to [avoid multiple searches in foreign key or one-to-one relationships](/blog/differences-between-select-related-and-prefetch-related-in-django/)
-* ** **prefetch_related()** to prevent excessive searches on many-to-many or many-to-one relationships
-* ** **django_annotate()** to add information to each object in a query. I have an entry where I explain [the difference between annotate and aggregate](/blog/django-annotate-and-aggregate-explained/).
-* ** **django_aggregate()** to process all information from a single query into a single data (summation, averages).
-** **Object Q** to join queries by OR or AND directly from the database.
+* **prefetch_related()** to prevent excessive searches on many-to-many or many-to-one relationships
+* **django_annotate()** to add information to each object in a query. I have an entry where I explain [the difference between annotate and aggregate](/blog/django-annotate-and-aggregate-explained/).
+* **django_aggregate()** to process all information from a single query into a single data (summation, averages).
+* **Object Q** to join queries by OR or AND directly from the database.
 * F-Expressions** to perform operations at the database level instead of in Python code.
 
-Django debug tool bar showing the SQL queries of a Django request](images/django-debug-tool-bar-numero-queries.png "Django debug tool bar showing the SQL queries of a Django request ")
+![Django debug tool bar showing the SQL queries of a Django request](images/django-debug-tool-bar-numero-queries.png "Django debug tool bar showing the SQL queries of a Django request ")
 
 Example of use with _select_related_.
 

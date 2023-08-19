@@ -75,7 +75,7 @@ richarvey/nginx-php-fpm Container running Nginx + PHP-FPM capable of…   787   
 On the other hand, if you prefer to do it in a more visual way you can visit [Docker hub](https://hub.docker.com/). There you can get any kind of
 image you can imagine, even upload your own. Take a look around and see all the options that are available for download. We won't be downloading any others for now.
 
-Screenshot from Dockerhub, the official repository for Docker images](images/Docker-hub.png)
+![Screenshot from Dockerhub, the official repository for Docker images](images/Docker-hub.png)
 
 ### See images
 
@@ -101,7 +101,7 @@ docker inspect hello-world
         "RepoTags": [
             "hello-world:latest"
         ],
- ...]
+ ...}]
 ```
 
 ### History of an image
@@ -289,7 +289,7 @@ docker restart <nombre_o_id_del_contenedor>
 
 So far we have created containers with which we cannot interact from the outside. If we try to open localhost we will see that our Nginx container does not return anything.
 
-Firefox connection error page](images/ErrorFirefox.png "Firefox error when trying to access Nginx container")
+![Firefox connection error page](images/ErrorFirefox.png "Firefox error when trying to access Nginx container")
 
 This is because each container has its own network and its own ports. If we want to redirect the ports of the container to the ports of our computer we use the option _-p_, **placing first the port number of our computer** separated with a colon of the one that corresponds to the container.
 
@@ -301,7 +301,7 @@ The above command created an instance of the Nginx web server, so we will redire
 
 When you finish executing this command you can open your browser and check that you are running an Nginx server.
 
-Welcome message from a server](images/nginx-running-on-docker.png)
+![Welcome message from a server](images/nginx-corriendo-sobre-docker.png)
 
 ## Data persistence with volumes in Docker
 
@@ -508,14 +508,14 @@ ENV PORT 8000
 CMD ["gunicorn", "myDockerDjangoApp.wsgi"]
 ```
 
-** **FROM python:3.6: All Dockerfiles need an image to start from**, in this case that image is python:3.6.
-** **ENV PYTHONBUFFERED 1:** Allows us to read the Python logs in our terminal.
-** **ADD . /app/:** Adds all files in the current folder to the /app/ folder. Also serves COPY, the difference is that ADD accepts compressed files or a url.
-** **WORKDIR /app/myDockerDjangoApp:** Sets the /app/myDockerDjangoApp folder as the base folder to use when running commands with CMD, RUN, ADD or COPY.
-** **RUN pip install -r /app/requirements.txt:** RUN allows to execute commands, which are executed when the image is compiled and saved as a new layer in the image. We will use RUN to install all the dependencies we specified in the requirments.txt file (Django and Gunicorn only).
-** **EXPOSE 8000:** Expose port 8000 to the outside.
-** **ENV PORT 8000**: Creates an environment variable called PORT with the value of 8000. This will be used to access the port.
-* ** **CMD ["gunicorn", "myDockerDjangoApp.wsgi"]:** CMD executes a command when starting a container from an image, the commands and arguments are separated as if they were a Python list. In this case, as I mentioned above, gunicorn just needs to know where the wsgi file that django generated automatically is.
+* **FROM python:3.6: All Dockerfiles need an image to start from**, in this case that image is python:3.6.
+* **ENV PYTHONBUFFERED 1:** Allows us to read the Python logs in our terminal.
+* **ADD . /app/:** Adds all files in the current folder to the /app/ folder. Also serves COPY, the difference is that ADD accepts compressed files or a url.
+* **WORKDIR /app/myDockerDjangoApp:** Sets the /app/myDockerDjangoApp folder as the base folder to use when running commands with CMD, RUN, ADD or COPY.
+* **RUN pip install -r /app/requirements.txt:** RUN allows to execute commands, which are executed when the image is compiled and saved as a new layer in the image. We will use RUN to install all the dependencies we specified in the requirments.txt file (Django and Gunicorn only).
+* **EXPOSE 8000:** Expose port 8000 to the outside.
+* **ENV PORT 8000**: Creates an environment variable called PORT with the value of 8000. This will be used to access the port.
+* **CMD ["gunicorn", "myDockerDjangoApp.wsgi"]:** CMD executes a command when starting a container from an image, the commands and arguments are separated as if they were a Python list. In this case, as I mentioned above, gunicorn just needs to know where the wsgi file that django generated automatically is.
 
 ### Difference between RUN and CMD in Docker
 
@@ -605,6 +605,6 @@ curl localhost:8000
 
 If we open our browser and enter our localhost on port 8000 we will see the Django rocket indicating that everything worked perfectly. Gunicorn is serving our Django application on port 8000, which we can access through our port of the same number.
 
-Django installation success page, shows welcome message and links to documentation](images/djangoRocketNoCursor.gif)
+![Django installation success page, shows welcome message and links to documentation](images/djangoRocketNoCursor.gif)
 
 This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/blog/how-to-convert-jpg-to-webp-on-gnu-linux/).
