@@ -31,14 +31,15 @@ But, there is bad news; the solutions do not come to you by email, they are part
 
 Curious what the problems are like? Here are a couple of examples of the style of their problems:
 
-> Dada una lista de números y un número k, devuelve si dos números cualesquiera de la lista suman k.
-> Por ejemplo, dado [10, 15, 3, 7] y k de 17, devuelve verdadero ya que 10 + 7 es 17.
-> Bonificación: ¿Puede hacer esto en una sola pasada?
+> Given a list of numbers and a k number, return if any two numbers from the list sum up to k
+> For example: given [10, 15, 3, 7] y k = 17, return true since 10 + 7 = 17
+> Bonus: Can you do this on one run?
 
 Here is the second one:
 
-> Dada una matriz de enteros, devuelve una nueva matriz tal que cada elemento en el índice i de la nueva matriz es el producto de todos los números de la matriz original excepto el que está en i.
-> Por ejemplo, si nuestra entrada fuera [1, 2, 3, 4, 5], la salida esperada sería [120, 60, 40, 30, 24]. Si nuestra entrada fuera [3, 2, 1], la salida esperada sería [2, 3, 6].
+> Given an array of integers, returns a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+> For example, if our array were [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input were [3, 2, 1], the expected output would be [2, 3, 6].
+
 
 What do you think? Easy or difficult? Leave your opinion or solution to the problems in the comments. I will probably solve one of the problems in a future post.
 

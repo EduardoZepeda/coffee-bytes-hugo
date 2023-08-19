@@ -297,13 +297,13 @@ Este es un comentario multilinea
 The operators of go are similar to the rest of the languages.
 
 * +, sum
-* -, subtraction
-* *, multiplication
+* \-, subtraction
+* \*, multiplication
 * /, division
 * <, less than
 * <=, less than or equal to
-* `>`, greater than
-* `>=`, greater than or equal to
+* \>, greater than
+* \>=, greater than or equal to
 * %, modulus or remainder
 * !=, inequivalence
 * ==, equality
@@ -311,6 +311,6 @@ The operators of go are similar to the rest of the languages.
 * &&, AND operator
 * ||, OR operator
 * ++, incremental
-* --, decremental
+* \--, decremental
 
 With this I finish the most basic part of the language, in the next post I will talk about [functions and the fmt-package in go](/blog/go-functions-arguments-and-the-fmt-package/), and in a future post about other aspects such as [runes, array, slices in go](/blog/go-string-runes-and-bytes-explained/) and other features of the language.
