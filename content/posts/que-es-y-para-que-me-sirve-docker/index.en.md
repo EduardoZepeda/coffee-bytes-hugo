@@ -68,7 +68,7 @@ If you want to know how a container works, at the code level, I will tell you th
 
 The important thing to remember about virtual machines is that, compared to containers, **they take up a lot of space and, because they must load a full operating system, they can take much longer to boot** and, unlike containers, **virtualize the operation of the hardware part.**
 
-![Differences between a virtual machine and docker](images/Differences-between-virtual-machine-and-docker.png)
+![Differences between a virtual machine and docker](images/Diferencias-entre-maquina-virtual-y-docker.png)
 
 I made the diagrams using HTML and CSS, but in the end I decided to use an image, the source code is commented in this page, you can take it if you want. Or send me a DM via twitter and I'll pass it to you.
 
@@ -90,6 +90,6 @@ In the end Docker is just another tool that should be used to solve a problem th
 
 ## Summary
 
-For practical purposes, Docker will allow us to create applications that we will be able to easily move from one environment to another, that will run in isolated containers within our operating system and that will behave exactly the same on any machine with Docker installed**.
+For practical purposes, Docker will allow us to create applications that we will be able to easily move from one environment to another, that will run in isolated containers within our operating system and that **will behave exactly the same on any machine with Docker installed**.
 
 All of the above will get rid of the "it worked perfect on my machine" and avoid errors caused by environment or configuration differences at development time. Keep reading about Docker in the next post.

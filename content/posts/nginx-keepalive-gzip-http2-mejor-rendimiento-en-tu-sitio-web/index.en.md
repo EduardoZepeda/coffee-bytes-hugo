@@ -149,7 +149,17 @@ location /static/ {
 
 I have placed 30 days, but you can use any other value you prefer.
 
-<table><tbody><tr><td><strong>Abreviación</strong></td><td><strong>Significado</strong></td></tr><tr><td>ms</td><td>milisegundos</td></tr><tr><td>s</td><td>segundos</td></tr><tr><td>m</td><td>minutos</td></tr><tr><td>h</td><td>horas</td></tr><tr><td>d</td><td>días</td></tr><tr><td>w</td><td>semanas</td></tr><tr><td>M</td><td>Meses, 30 días</td></tr><tr><td>y</td><td>Años, 365 días</td></tr></tbody></table>
+| Abbr | Meaning         |
+| ---- | --------------- |
+| ms   | miliseconds     |
+| s    | seconds         |
+| m    | minutes         |
+| h    | hours           |
+| d    | days            |
+| w    | weeks           |
+| M    | months, 30 days |
+| y    | years, 365 days |
+
 
 Information taken from official documentation http://nginx.org/en/docs/syntax.html
 

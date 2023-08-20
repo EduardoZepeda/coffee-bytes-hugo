@@ -28,12 +28,12 @@ What characteristics must a password have to be secure? A secure password must h
 
 ## Create a long password
 
-**The shorter a password is, the easier it is to obtain it by brute force. Considering the current processing power of computers, passwords with less than 8 characters are practically an invitation for someone to enter our accounts.
+**The shorter a password is, the easier it is to obtain it by brute force**. Considering the current processing power of computers, passwords with less than 8 characters are practically an invitation for someone to enter our accounts.
 
 ```bash
-**** # Pésimo
-******** # Mal
-******************** # Bien
+**** # Awful
+******** # Bad
+******************** # Good
 ```
 
 ## Keep your passwords separate from personal information
@@ -43,9 +43,9 @@ It's tempting enough to create an easy-to-remember password using your partner's
 "But, what happens is that my password is a mixture of those things", no, still, it's not enough. There are programs like [JohnTheRipper](https://github.com/magnumripper/JohnTheRipper) capable of generating all possible combinations from your personal data, so it is not secure in any way. Your password should not have parts that can be obtained from a conversation with you or your acquaintances. Again, **your password should not be based on any personal information related to you.
 
 ```bash
-CalleFalsa123 # Mal, no nombres de donde vives, o de series que te gustan
-5555551111 # No uses tu celular de contraseña
-19-oct-1990 # Tu fecha de nacimiento no debería estar en una contraseña
+CalleFalsa123 # Never use your street name
+5555551111 # Using your phone number is a nono
+19-oct-1990 # Please never use your birthday date as a part of a password
 ```
 
 ## Avoid passwords that appear in dictionaries
@@ -55,8 +55,7 @@ There are a lot of dictionaries on the net with the most popular passwords, such
 Make sure that your password is not in any of these dictionaries. A potential attacker will always use passwords from the most common dictionaries to try to compromise a system, if your password is in one of these dictionaries it is almost certain that your account will be an easy target.
 
 ```bash
-# Estas contraseñas están en el top de contraseñas más comunes
-# NO LAS USES
+# Never use common passwords
 iloveyou 
 Qwerty
 password1
@@ -70,9 +69,9 @@ There are many people who use a single password for all their websites; email, s
 A single password is very easy to remember, but if someone finds out, they will have access to all the accounts you have under the same password. It is much better to have a different password for each website. That way, in case someone finds out that password, only one account will be compromised. In addition, if a leak of any website occurs, the rest of your accounts will remain safe.
 
 ```bash
-# EVITA HACER ESTO
-Contraseñas para aws, gmail, netifly, banco: password1
-# MEJOR HAZ ESTO, UNA CONTRASEÑA DIFERENTE PARA CADA SITIO WEB
+# Don't do this
+Passwords for: aws, gmail, netifly, bank: password1
+# Use different passwords for each account
 aws: Hc4NL5sDr7VvhgL3AkTk
 gmail: caJiJiNa9fUWQ6GZRHdB
 netifly: 2Sdmsi2CaVZksfEEVf5U
@@ -85,7 +84,7 @@ Many passwords contain sequential characters such as "1234", "abcde", "xyz", "78
 Prevents characters from having a predictable sequence. Make sure that the different characters in your passwords are not next to each other in the alphabet or ordinal numbers.
 
 ```bash
-# MAL, EVITA ESTO
+# Avoid this
 Increible123
 potato789
 xyz123456
@@ -98,10 +97,10 @@ abc2020
 
 ```bash
 # 
-aliensaristoteleselectron # Minúsculas
-AliensAristotelesElectroN # Minúsculas y mayúsculas
-9Aliens1Aristoteles32ElectroN # Mayúsculas, minúsculas y números
-9[Aliens]1|Aristoteles|32-ElectroN- #Mayúsculas, minúsculas, números y caracteres especiales
+aliensaristoteleselectron # Lowercase
+AliensAristotelesElectroN # Lowercase and Uppercase
+9Aliens1Aristoteles32ElectroN # Uppercase, Lowercase and numbers
+9[Aliens]1|Aristoteles|32-ElectroN- #Uppercase, Lowercase, numbers and special characters
 ```
 
 ## Make sure that the estimated time to break your password is long.

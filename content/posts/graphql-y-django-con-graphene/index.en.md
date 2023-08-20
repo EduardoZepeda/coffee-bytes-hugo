@@ -28,7 +28,7 @@ Graphql allows you to integrate requests from multiple sources into a single API
 
 The schema tells graphql what kind of objects we will return and what fields of these objects, graphql will use a resolver to get that information from a database or any other reference.
 
-![graphql schematic in Javascript](images/SimplifiedGraphqlSchematic.png)
+![graphql schematic in Javascript](images/EsquemaGraphqlSimplificado.png)
 
 Simplified graphql schematic in Javascript
 
@@ -115,7 +115,7 @@ GRAPHENE = {
 
 Our schema will be an object called _schema_ that will be located inside a file called _schema_.py in our project folder.
 
-![schema object location](images/locationOfSchema.png)
+![schema object location](images/ubicacionDeSchema.png)
 
 I have put it here, but you can put it wherever you consider best and adjust the route to your location.
 

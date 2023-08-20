@@ -42,7 +42,7 @@ The book takes us into the subject with stories of some **companies that have ha
 
 The book contains several pieces of advice that, at the time, I found quite controversial (others still do). Since the book is a bit long to summarize in one post I will share some of these with you.
 
-### Your class, variable and function names should be explanatory.
+### Your class, variable and function names should be self-explanatory.
 
 This concept is quite simple but it is still very common to see cryptic code that is difficult to understand.
 

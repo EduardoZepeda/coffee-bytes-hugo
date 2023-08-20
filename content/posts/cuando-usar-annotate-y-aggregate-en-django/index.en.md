@@ -24,7 +24,7 @@ This tutorial assumes you know the basics about the Django ORM, in case you don'
 
 Annotate and aggregate are useful for [improving performance of slow applications in Django](/blog/is-your-django-application-slow-maximize-its-performance-with-these-tips/)
 
-Comparative image of the differences between Django annotate and Django aggregate] (images/DjangoAggregateAnnotate-1.png)
+![Comparative image of the differences between Django annotate and Django aggregate](images/DjangoAggregateAnnotate-1.png)
 
 ## Preparation
 
@@ -50,11 +50,11 @@ Next I will create a few data as an example. You can do it in the Django admin o
 
 ### Table for salesperson
 
-|     |
-| --- | --------- |
-| 1   | Poe       |
-| 2   | Lovecraft |
-| 3   | Barker    |
+ | Id  | Name      |
+ | --- | --------- |
+ | 1   | Poe       |
+ | 2   | Lovecraft |
+ | 3   | Barker    |
 
 ### Ordering table
 
@@ -95,7 +95,7 @@ The crude approximation would look something like this
 
 ```python
 # app/models.py
-# NO HAGAS ESTO, ES INEFICIENTE
+# DON'T DO THIS IS INEFFICIENT
 
 class Seller(models.Model):
     name = models.CharField(max_length=150)
@@ -123,7 +123,7 @@ If you examine the queries you will see a different query for each vendor.
 
 ```bash
 SELECT ••• FROM "app_seller"
-# La consulta anterior es para obtener todos los vendedores
+# The past query is for obtaining all the sellers
 SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '1'
 SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '2'
 SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '3'
@@ -151,7 +151,7 @@ The same result as before... but in a single query!
 ```python
 sellers_with_orders_total[0].orders_total
 Decimal('300')
-# Los pedidos asociados a Poe suman 300
+# Poe's orders sum 300
 ```
 
 We could also count them, instead of adding them up.
@@ -192,10 +192,10 @@ Now each item contains both its order count and order total, all in **a single d
 ```python
 combined_querysets[0].orders_total 
 Decimal('300')
-# El total de los pedidos de Poe suman 300
+# Poe's orders sum 300
 combined_querysets[0].orders_count 
 2
-# Poe tiene dos pedidos
+# Poe has made two orders
 ```
 
 ### El error Cannot resolve keyword al usar annotate
@@ -215,7 +215,7 @@ To solve the problem you must match the querysets, so that both have the field y
 ```python
 queryset_1 = Seller.objects.annotate(orders_count = Count('orders')).filter(name__startswith="Poe")
 queryset_2 = Seller.objects.annotate(orders_count = Count('orders')).filter(name__startswith="Lovecraft")
-# CORRECTO
+# CORRECT
 results = queryset_1 & queryset_2
 ```
 
@@ -224,7 +224,7 @@ Another way to solve it would be to perform the binding to the queryset with ann
 ```python
 queryset_1 = Seller.objects.annotate(orders_count = Count('orders')).filter(name__startswith="Poe")
 queryset_2 = Seller.objects.filter(name__startswith="Lovecraft")
-# CORRECTO
+# CORRECT
 results = queryset_1 & queryset_2
 ```
 
@@ -241,7 +241,7 @@ A rather naive approach would be to include the following code inside a function
 ```python
 from app.models import Seller
 
-# NO HAGAS ESTO, ES INEFICIENTE
+# DON'T DO THIS IS INEFFICIENT
 all_orders_total = 0
 for seller in Seller.objects.all()
     for order in seller.orders.all()
@@ -269,7 +269,7 @@ According to the above, it would be convenient to replace the above code with th
 ```python
 Seller.objects.aggregate(sum_of_all_orders = Sum('orders__total'))
 {'sum_of_all_orders': Decimal('2100')}
-# El total sumado de todos los pedidos es 2100
+# Total of all orders is 2100
 ```
 
 Likewise, instead of asking it to sum up, we could ask it for an average, or a count as well, or include a _filter_ prior to the _aggregate_.
@@ -278,7 +278,6 @@ Likewise, instead of asking it to sum up, we could ask it for an average, or a c
 total_orders = Seller.objects.aggregate(total_orders = Count('orders'))
 total_orders 
 {'total_orders': 6}
-# Entre todos los vendedores tienen 6 pedidos
 ```
 
 If we try to get the query from _aggregate_ the Python interpreter will return an error because, **unlike _annotate_, _aggregate_ returns a dictionary**, not a queryset.

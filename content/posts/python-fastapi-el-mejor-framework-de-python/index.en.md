@@ -621,7 +621,7 @@ def test_read_main():
 
 As you can see in the code above:
 
-** **client.get**() performs the request to root
+* **client.get**() performs the request to root
 * **response.status_code** contains the response code
 * **response.json()** returns the body of the response in JSON format
 

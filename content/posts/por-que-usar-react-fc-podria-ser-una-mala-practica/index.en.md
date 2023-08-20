@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-When we use Typescript with React and we want to [pass a _children_ as prop to one of our components](/blog/types-for-react-components-with-children/), we need to indicate the type. Generally we use the type _React.FC_, which is short for _React.FunctionComponent_. With this the Typescript message warning us of a children with type any will disappear.
+When we use Typescript with React and we want to [pass a children as prop to one of our components](/blog/types-for-react-components-with-children/), we need to indicate the type. Generally we use the type _React.FC_, which is short for _React.FunctionComponent_. With this the Typescript message warning us of a children with type any will disappear.
 
 ```jsx
 const Componente: React.FC = ({ children }) => {
@@ -29,7 +29,7 @@ In addition to allowing us to work with children, _React.FC_ also causes an erro
 
 ```jsx
 const Componente: React.FC = ({ children }) => {
-    // El tipo '() => undefined' no se puede asignar al tipo 'FC<{}>'.
+    // Type '() => undefined' can't be assigned to type 'FC<{}>'.
     return undefined
 }
 
@@ -57,7 +57,7 @@ import Componente from './Componente';
 
 function App() {
   return (
-    <Componente>Soy el children</Componente>
+    <Componente>I'm the children component</Componente>
   );
 }
 
@@ -69,7 +69,7 @@ Our component does receive the _children_ as a prop, but the _React.FC_ type app
 ```jsx
 const Componente: React.FC = () => {
     return (
-        <div>No soy el children que recibe Componente</div>
+        <div>I'm not the children which receives the component</div>
     )
 }
 
@@ -83,7 +83,7 @@ import Componente from './Componente';
 
 function App() {
   return (
-    <Componente><div>Yo no debería de estar aquí</div></Componente>
+    <Componente><div>I shouldn't be here</div></Componente>
   );
 }
 

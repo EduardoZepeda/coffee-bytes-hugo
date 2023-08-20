@@ -234,7 +234,7 @@ How do we solve it? We need to create a function that helps us to keep the list 
 
 ## rpop and lpop of redis remove an item from a list
 
-**The rpop method removes the last element of a list associated to a key and returns it ** The lpop method does the same, but with the first element
+**The rpop method removes the last element of a list associated to a key and returns it** The lpop method does the same, but with the first element
 
 We can use rpop to remove the oldest element and purge the oldest elements. If with the last insertion the list grows beyond our limit (in this case 5) we will remove the oldest element.
 

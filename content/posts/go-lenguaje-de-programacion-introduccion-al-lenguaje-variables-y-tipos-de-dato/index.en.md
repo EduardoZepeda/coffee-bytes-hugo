@@ -32,20 +32,20 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 
 To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers.
 
-* Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values](/blog/go-structs-inheritance-polymorphism-and-encapsulation/).
-* Go does not have exception handling with try and catch blocks or equivalent, but errors must be returned as a return value in a function and are handled by checking that it is not null (nil), by means of if blocks. This can become quite verbose and repetitive.
+* **Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values](/blog/go-structs-inheritance-polymorphism-and-encapsulation/).
+* **Go does not have exception handling with try and catch blocks or equivalent**, but errors must be returned as a return value in a function and are handled by checking that it is not null (nil), by means of if blocks. This can become quite verbose and repetitive.
 
-Error handling with Go with if](images/ManagementErrorsGo.png "This pattern is quite recurrent in applications and can become tedious.
+![Error handling with Go with if](images/ManejoErroresGo.png "This pattern is quite recurrent in applications and can become tedious.")
 
-* There are no default arguments in go**, which increases the amount of code to write to deal with defaults.
-* No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust).
+* **There are no default arguments in go**, which increases the amount of code to write to deal with defaults.
+* **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust).
 * **~~Go does not have generics~~** Go already has generics support since version 1.18.
 
 ## Go and best practices
 
 Go is strongly oriented to good code practices. How does it do it? The compiler forces good practices in the code, preventing the code from compiling if there are variables or imports that are not used, or if the privacy rules of our properties and functions are not respected, among others.
 
-Compilation error in go due to unused variables](images/ErrorCompilacionGo.png "Compilation is not allowed if there are unused variables.")
+![Compilation error in go due to unused variables](images/ErrorCompilacionGo.png "Compilation is not allowed if there are unused variables.")
 
 ## Gopher: A great mascot
 

@@ -20,21 +20,21 @@ I didn't have a computer at home, so my interaction with computers was limited t
 
 When I was 12 years old my dad brought a computer home, an IBM that he got to facilitate his work as a teacher. That little thing with 256 MB of RAM and 10 GB of hard drive was my test subject. I installed small programs on it, clicked on everything I could, downloaded the openings and endings of Neon Genesis Evangelion in midi (mp3 was not popular back then) and used it to play lots and lots of video games on the emulators that were available on the net.
 
-One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com), I fell in love. I read one after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; -*each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
+One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
 
 ## Internet and blogs
 
-After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "bitter apple", after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional picture. Eventually I wanted to customize it and found that I had to modify the HTML and CSS code. In order to modify my web space as I wanted, I learned the basics of HTML and CSS; change the colors of the letters, the background, modify the arrangement of the elements to have more columns, insert background images, add small scripts and chatboxes, etc.
+After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "manzana amarga" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. Eventually I wanted to customize it and found that I had to modify the HTML and CSS code. In order to modify my tiny little corner on the internet the way I wanted, I learned the basics of HTML and CSS; change the colors of the letters, the background, modify the arrangement of the elements to have more columns, insert background images, add small scripts and chatboxes, etc.
 
 ![](images/blog-manzana-amarga.jpg "Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme.")
 
-A few years later, thanks to the recommendation of one of my best friends, I got a job in a cyber café. I learned how to fix the most common bugs, connect printers, pass files between networked computers, modify the registry, download torrent files, manage Office packages, Photoshop, Keyloggers, network computers, etc. **However, during all that time, I did not write any programs myself.
+A few years later, thanks to the recommendation of one of my best friends, I got a job in a cyber café. I learned how to fix the most common bugs, connect printers to a server, pass files between networked computers, modify the windows registry, download torrent files, manage Office packages, Photoshop, Keyloggers, network computers, etc. **However, during all that time, I did not write any programs myself**.
 
-While working at the cyber café, I decided to study chemistry because I was good at mathematics and exact sciences. Along the way I created another blog called "Lluvia de fotones" that I kept while I was taking my classes.
+While working at the cyber café, I decided to study chemistry because I was good at mathematics and exact sciences. Along the way I created another blog called "Lluvia de fotones" (Rain of Photons) that I ran while I was taking my classes.
 
-I didn't like college (in general, not only my career), I found it slow, boring, protocol and full of nonsense. Throughout my time at the university, knowing how to use a computer to search for information gave me many advantages over my less skilled classmates.
+I didn't like university (in general, not only my career of choice), I found it slow-going, boring, protocolary and full of nonsense. Throughout my time at the university, knowing how to use a computer to search for information gave me many advantages over my less skilled classmates.
 
-I finished my degree and **graduated in the top three GPAs of my class**. However, after a cursory glance at workplaces I decided never to practice.
+I finished my degree and **graduated in the top three GPAs of my class**. However, after a cursory glance at the available workplaces in my hometown, I decided never to practice.
 
 ## Supercell and Miku Hatsune
 
@@ -44,11 +44,11 @@ The more I read about Miku Hatsune the more I wanted to know, I was stunned; the
 
 ![Miku Hatsune plastic figure](images/FiguraDeMikuHatsune.jpg "Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/")
 
-At the time it crossed my mind to go back to college, but I dismissed the idea just as quickly. I had already been there, the university was inefficient, the level of most of the professors was mediocre at best, their academic plans were completely outdated and the face-to-face classes were slow and inefficient. I decided that I would not make the same mistake twice, this time I would try to learn on my own.
+At that time, it crossed my mind to go back to college, but I dismissed the idea immediately. I had already been there, the university was inefficient, the level of most of the professors was mediocre at best, their academic plans were completely outdated and the face-to-face classes were slow and inefficient. I decided that I would not make the same mistake twice, this time I would try to learn on my own.
 
 ## Moving from Windows to GNU/Linux
 
-At some point right after leaving college I switched my personal operating system to GNU/Linux, at first I had a hard time adapting, I missed Photoshop and other programs, but as I learned how it worked I started to enjoy it even more than Windows. I started with Linux Mint (I never liked Ubuntu), then I tried Kali for a year and ended up with Debian, which I still use as my main operating system.
+At some point right after leaving college I switched my personal operating system to GNU/Linux, at first I had a hard time adapting, I missed Photoshop and other Microsoft exclusive programs, but as I learned how it worked I started to enjoy it even more than Windows. I started with Linux Mint (I never liked Ubuntu), then I tried Kali for a year and ended up with Debian, which I still use as my main operating system.
 
 In Linux I learned how to install programs and the basic commands. Later I learned how to set up a LAMP server and made my first "hello world" in PHP.
 
@@ -56,11 +56,11 @@ In Linux I learned how to install programs and the basic commands. Later I learn
 
 PHP was my first experience with a programming language, and also the shortest. After reading a thick book called Beginning PHP and MySQL, written by W. Jason Gilmore at the municipal library, and learning quite a few basic concepts I was quite overwhelmed with the large amount of unnecessary functions, its syntax seemed chimerical and whimsical, and I was quite disappointed when I learned that the language was incapable of producing desktop applications in a simple way.
 
-PHP had introduced me to the world of programming relatively easily, but I still felt that the language was not for me.... but then came Python.
+PHP had introduced me to the world of programming relatively easily, but I still felt that the language was not for me... but then came Python.
 
 ## Language with the name of a group of humorists
 
-After months of avoiding all information related to Python **for the simple reason that it owes its name to 'Monty Python'**, a group of British comedians with whom I was not familiar, I decided to leave my prejudices behind and give it a try. I signed up for the online Python course [code.org](https://code.org/) and fell in love.
+After months of avoiding all information related to Python **for the silly reason that it owes its name to 'Monty Python'**, a group of British comedians with whom I was not familiar, I decided to leave my prejudices behind and give it a try. I signed up for the online Python course [code.org](https://code.org/) and fell in love with the language.
 
 Python fascinated me with its simple syntax, the simplicity of the functions and the elegance of its design.
 
@@ -78,9 +78,9 @@ I completely automated the creation of images with prices for my online store us
 
 Later I used Django to create and customize an online store for the photo products fanpage I managed. By then I had already read quite a few books about Python, Django and web development, as well as watched and practiced a lot of video tutorials on the same subject.
 
-Python was wonderful, I could schedule all the tasks for the day and leave them running while I went off to do other things. The system worked perfectly, made me money and required almost no time investment on my part. I dedicated the free time I had to train myself in more topics related to the programming world: C, C++, algorithms, discrete mathematics, cryptography, best practices, computer security, free software, GNU/Linux and other topics that I considered relevant.
+Python was wonderful, I could schedule all the tasks for the day and leave them running while I went off to do other things. The system worked perfectly, made me money and required almost no time investment on my part. I dedicated the free time I had to train myself in more topics related to the programming world: C, C++, algorithms, discrete mathematics, cryptography, best practices, computer security, free software, GNU/Linux, differential equations and other topics that I considered relevant.
 
-This is, in a fairly short way, the story of how I started programming. Always self-taught, [reading books](https://coffeebytes.dev/pages/libros-que-he-leido-y-resenas/) and blogs, watching tutorials and practicing a lot.
+This is, in a fairly short way, the story of how I started programming. Always self-taught, [reading books](https://coffeebytes.dev/pages/libros-que-he-leido-y-resenas/) and blogs, watching tutorials and **practicing a lot**.
 
 ## Bootcamp in Bedu
 
