@@ -32,7 +32,7 @@ If you want to learn how the Javascript engine works at a deeper level, I leave 
 
 Look at this super-simplified schematic comparing compiled and interpreted languages.
 
-Super simplified diagram of the differences between compiled and interpreted code](images/codigo-compilado-vs-interpretado.png "Differences between an interpreted and a compiled language").
+![Super simplified diagram of the differences between compiled and interpreted code](images/codigo-compilado-vs-interpretado.png "Differences between an interpreted and a compiled language").
 
 In this scheme I am referring to Javascript at the time of its creation, as an interpreted language, not to the **JIT compilation** I was telling you about.
 
@@ -72,8 +72,8 @@ console.log(1 + "1")
 No problem! The Javascript interpreter adds them together without any problem, even if one is a string and the other an integer. If you are one of those who prefer to use strong typing with javascript, either because you bring a background of C++, Java or another strongly typed language or simply prefer the advantages of strong typing, take a look at what [Typescript](https://www.typescriptlang.org/) and its compiler have to offer.
 
 ```javascript
-// Este es código Typescript
-// Observa como cada tipo de variable requiere su correspondiente tipo de dato
+// Typescript code
+// Observe how every type of variable requires its corresponding type
 let idUser: number | string;
 const months: Array<string> = ["Enero", "Febrero"]
 ```
@@ -87,7 +87,7 @@ Python does not necessarily require you to specify the type of variable. See wha
 numero = "1"
 numero = 1
 numero = [1]
-numero = {1:1} # no hubo error en ningún caso
+numero = {1:1} # no error
 ```
 
 And what happens if we now try to add two variables of different types as we did in Javascript?
@@ -176,17 +176,17 @@ Javascript is found in all browsers natively, just open the terminal of your fav
 
 Below you can see the javascript terminal of the Firefox web browser
 
-![web browser terminal running javascript](images/ConsoleJavascript.gif)
+![web browser terminal running javascript](images/ConsolaJavascript.gif)
 
 You can also use node to run it on your computer.
 
-![Nodejs terminal on GNU/Linux running javascript](images/ConsoleDeNodeJs.gif)
+![Nodejs terminal on GNU/Linux running javascript](images/ConsolaDeNodeJs.gif)
 
 ### Python support
 
 Python is not found in browsers, however it is installed in most GNU/Linux systems by default, if you use a GNU/Linux distribution and open the terminal of your operating system and run the Python command it is most likely already installed.
 
-![Python terminal on GNU/Linux](images/PythonConsole.gif)
+![Python terminal on GNU/Linux](images/PythonConsola.gif)
 
 ## Uses
 
@@ -204,19 +204,19 @@ Python is a multipurpose language, it allows you to create native UI application
 
 Javascript started out much more popular than Python, probably due to the rise of web browsers. However, somewhere around 2017, Python gained relevance compared to JavaScript and the trend continues until the end of 2022.
 
-![Google trends graph comparing Python vs Javascript](images/Python-vs-Javascript-since-2004.png "Python gains relevance vs Javascript in Google trends")
+![Google trends graph comparing Python vs Javascript](images/Python-vs-Javascript-desde-2004.png "Python gains relevance vs Javascript in Google trends")
 
 ### Popularity among developers in 2022
 
 Stackoverflow shows in its surveys that, among developers, Python is much more popular than Javascript. However, Typescript (the strongly typed JavaScript super set I mentioned earlier) is slightly more popular than Python.
 
-StackOverflow survey results for languages most liked by developers. Python ranks above Javascript](images/love-vs-dreaded-python-javascript.png "Python surpasses Javascript in popularity in 2023").
+![StackOverflow survey results for languages most liked by developers. Python ranks above Javascript](images/love-vs-dreaded-python-javascript.png "Python surpasses Javascript in popularity in 2023").
 
 ## Python and Javascript salaries in 2022
 
 According to Stackoverflow's latest survey (2022), professionals using Python are slightly better paid than those using JavaScript. However, the difference is not that significant. Typescript also ranks above Javascript.
 
-![Developer salaries according to programming language used](images/salaries-python-vs-javascript.png "Python overtakes Javascript in salaries in 2023")
+![Developer salaries according to programming language used](images/salarios-python-vs-javascript.png "Python overtakes Javascript in salaries in 2023")
 
 ## Batteries included
 
@@ -230,7 +230,7 @@ As interpreted languages they are much slower than compiled languages, so they w
 
 The graph below compares the average execution time of ten iterations of the N-Rheinas problem (the lower the better), I used the [respective javascript and python codes of Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (all credits to the author) and the [multitime program](https://tratt.net/laurie/src/multitime/) for the calculation of the average time.
 
-Graph of the execution time of the N-Reigns problem between Javascript and Python. Javascript has better performance](images/problem-of-the-n-queens.jpg "Performance of the n-queens problem. Execution time on Y-axis and number of queens on X-axis.(Less is better, javascript is better).")
+![Graph of the execution time of the N-Reigns problem between Javascript and Python. Javascript has better performance](images/problema-de-las-n-reinas.jpg "Performance of the n-queens problem. Execution time on Y-axis and number of queens on X-axis.(Less is better, javascript is better).")
 
 Node.js v15.10.0 and Python 3.8.6 were used. The code was executed directly from the terminal, without any other program running. If you want to know the specs of the computer you can write me to my social networks and I'll be glad to let you know.
 
