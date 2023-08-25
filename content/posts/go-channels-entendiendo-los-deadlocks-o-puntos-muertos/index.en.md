@@ -116,7 +116,7 @@ func main() {
 
 In this case I have created a goroutine with an anonymous function that reads from the channel.
 
-### Prevenir deadlocks en go con buffered channels
+### How to prevent deadlocks in go using buffered channels
 
 If a channel does not have buffer, the value remains "retained" until it is received, blocking the execution while it happens, causing the deadlock or deadlock if no one receives it.
 

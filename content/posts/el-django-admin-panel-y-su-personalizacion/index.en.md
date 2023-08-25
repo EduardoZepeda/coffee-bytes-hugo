@@ -308,13 +308,9 @@ admin.site.register(Videogame, VideogameAdmin)
 
 If we now access the admin, we will be able to see a new, much more stylish terminal. And also a more eye-catching administration panel.
 
-![admin main screen with django material](images/MaterialDjangoAdmin.png)
+![admin main screen with django material](images/MaterialDjangoAdmin.png "Django administration panel with django-material")
 
-Django administration panel with django-material
-
-![Log-in screen with django-material](images/pantalla-de-loggeo-django-material.png)
-
-django admin login panel with django-material
+![Log-in screen with django-material](images/pantalla-de-loggeo-django-material.png "django admin login panel with django-material")
 
 I used this package especially because it installs very easily and gives a completely different look to the admin. But there are [many other options available](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80) that you can choose from, some paid and some free.
 
