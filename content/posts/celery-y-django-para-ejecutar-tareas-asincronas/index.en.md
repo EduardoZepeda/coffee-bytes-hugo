@@ -58,7 +58,7 @@ We will also need RabbitMQ, which will serve as an intermediary between django a
 sudo apt install rabbitmq-server
 ```
 
-![Basic schematic of RabbitMQ and Celery operation](images/RabbitMQSchematic.jpg)
+![Basic schematic of RabbitMQ and Celery operation](images/RabbitMQEsquema.jpg)
 
 Basic outline of RabbitMQ operation and cellery
 
@@ -109,7 +109,7 @@ celery -A celeryApp worker -l info
 
 The _-A_ option, of App, tells celery the name of the application, i.e., the name we just assigned to it in the _celery.py_ file.
 
-![Celery running in console](images/CeleryRunningInConsole.png)
+![Celery running in console](images/CeleryEjecutandoseEnConsola.png)
 
 Celery running on the terminator. See how the transport option in [config] points to port 5672, characteristic of rabbitmq.
 
@@ -186,7 +186,7 @@ If we now access the view we just created, we will see that it **returns the JSO
 
 Celery takes care of our task, so that it does not interrupt the flow of our Django application.
 
-![Celery preventing time-consuming task from delaying server response](images/DjangoExecutingAsynchronousTask.gif)
+![Celery preventing time-consuming task from delaying server response](images/DjangoEjecutandoTareaAsincrona.gif)
 
 Celery handling the task that is executed with each web request in an asynchronous manner.
 
@@ -218,7 +218,7 @@ Flower main panel available on port 5555
 
 We will also be able to see specific information for each task, such as its identifier, arguments, time and execution time.
 
-![Flower specific task panel](images/FlowerParaCeleryTasks.png)
+![Flower specific task panel](images/FlowerParaCeleryTareas.png)
 
 Flower shows us the details of each task
 
