@@ -154,7 +154,7 @@ The access token **has an expiration date, once this date arrives it will no lon
 
 If you decode the token, you will be able to obtain its contents. I have already done it here for you.
 
-![Parts of a JWT: header, content and signature](images/JWTDjangoContent.png)
+![Parts of a JWT: header, content and signature](images/JWTDjangoContenido.png)
 
 Notice how in the content part (data) you can see that the _user_id_ is equal to 2, which is the id or primary key of the user who obtained the token. The first user in my case is the superuser.
 

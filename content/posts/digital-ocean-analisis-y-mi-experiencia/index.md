@@ -132,4 +132,4 @@ Por otro lado, Digital Ocean ofrece uno de los mejores costos para empezar un pr
 
 ## Un regalo para ti
 
-Si al final te das cuenta de que Digital Ocean es lo que buscas, regístrate usando [mi enlace de afiliado](https://m.do.co/c/a22240ebb8e7), te darán $100 usd de crédito para tus proyectos.
+Si al final te das cuenta de que Digital Ocean es lo que buscas, regístrate usando [mi enlace de afiliado](https://m.do.co/c/a22240ebb8e7), te darán $200 usd de crédito para tus proyectos.

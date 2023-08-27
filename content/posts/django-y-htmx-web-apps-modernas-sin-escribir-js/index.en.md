@@ -41,7 +41,7 @@ But I guess you want to see what the code looks like right? Take a look at this 
 >
 > https://htmx.org/docs/#introduction
 
-![htmx operation scheme](images/HtmxScheme.jpg)
+![htmx operation scheme](images/HtmxEsquema.jpg)
 
 Schematic diagram of HTMX operation
 
@@ -443,7 +443,7 @@ Every time a request is made with Htmx, extra headers are sent to the server. Ju
 
 The url was sent via the HX-Current-URL header, the object element to be exchanged via HX-Target, and a parameter called HX-Request, which is always set to "true", which tells the server that we made the request with htmx. HX-Trigger, is sent if we specify an id in the tag that triggers the request. And what are these headers for? Well, you can retrieve them with django and use them as you see fit in your views.
 
-![List of extra headers are added in each request](images/HeadersHtmx.png)
+![List of extra headers are added in each request](images/EncabezadosHtmx.png)
 
 ## Rendering head, body and html conditionally
 
@@ -512,6 +512,6 @@ And now in all our templates that only return HTML, we can make them extend from
 
 Now you can access url's directly and keep the htmx functionality.
 
-![Accessing the routes directly ](images/HtmxConHeadAfterPetition.gif)
+![Accessing the routes directly ](images/HtmxConHeadDespuesDePeticion.gif)
 
 I have shown you only the basics of htmx combined with django, remember to visit the [official documentation](https://htmx.org/docs/) to see the other things it has to offer, like CSS transitions, websockets and SSE,

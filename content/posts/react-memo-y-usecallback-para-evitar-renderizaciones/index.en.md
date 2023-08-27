@@ -101,7 +101,7 @@ const callback = () => {
 
 Pay attention to the terminal to appreciate the renderings.
 
-![Remove useCallback from child component causing renderings](images/eliminatingUseCallback.gif)
+![Remove useCallback from child component causing renderings](images/eliminandoUseCallback.gif)
 
 On the other hand, if you remove both memo and useCallback, the same thing will happen.
 

@@ -89,7 +89,7 @@ curl localhost:8000/api/09000/
 
 A non-existent postal code will return a 404 status.
 
-![Nonexistent postal code returning an error message](images/Capture-screen-capture-of-2021-11-17-12-15-24.png)
+![Nonexistent postal code returning an error message](images/Captura-de-pantalla-de-2021-11-17-12-15-24.png)
 
 While an invalid postal code will return a 400 error and an error message
 

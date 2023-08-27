@@ -152,7 +152,7 @@ INSTALLED_APPS = [
 
 Now we will have an extra endpoint that allows user registration.
 
-![Django REST Framework registration screen](images/DjangoRestFrameworkEndpointRegistration.png)
+![Django REST Framework registration screen](images/DjangoRestFrameworkEndpointRegistro.png)
 
 User registration screen in the DRF interface
 

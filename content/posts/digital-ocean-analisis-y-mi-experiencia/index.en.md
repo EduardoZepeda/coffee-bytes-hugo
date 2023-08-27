@@ -76,7 +76,7 @@ Just to give you an idea, the cheapest Droplet costs $5 usd per month. That's pr
 
 Notice how all plans handle storage with an SSD.
 
-![Prices of the different plans offered by Digital Ocean](images/Prices-digital-ocean.gif)
+![Prices of the different plans offered by Digital Ocean](images/Precios-digital-ocean.gif)
 
 ### Servers around the world
 
@@ -84,7 +84,7 @@ Digital Ocean has servers in different locations around the world. So you always
 
 I have tried the servers in the United States, due to the proximity to Mexico, and I have not had any problem.
 
-![Digital Ocean Server Locations](images/different-locations-droplets-digital-ocean.png)
+![Digital Ocean Server Locations](images/diferentes-ubicaciones-droplets-digital-ocean.png)
 
 ## Other services
 
@@ -134,4 +134,4 @@ On the other hand, Digital Ocean offers one of the best costs to start a project
 
 ## A gift for you
 
-If you finally realize that Digital Ocean is what you are looking for, sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7), they will give you $100 usd credit for your projects.
+If you finally realize that Digital Ocean is what you are looking for, sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7), they will give you $200 usd credit for your projects.
