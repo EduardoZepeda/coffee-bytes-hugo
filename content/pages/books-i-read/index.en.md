@@ -1,7 +1,7 @@
 ---
 title: "Books I read"
 date: "2020-11-05"
-author:
+authors:
 - Eduardo Zepeda
 ---
 
