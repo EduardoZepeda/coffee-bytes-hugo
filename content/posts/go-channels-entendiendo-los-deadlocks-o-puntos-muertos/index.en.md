@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-When working with channels there is a quite common error that occurs when you are not familiar with the concepts, the error is "_fatal error: all goroutines are asleep - deadlock!_", translated means something like "fatal error: all goroutines are asleep - deadlocked". The first time I saw this error I was very confused and, although I knew how to fix it, I didn't understand why it happened, so in this post I explain why it happens as I would have liked to have read it at the time.
+When working with channels there is a quite common error that occurs when you are not familiar with the concepts, the error is "_fatal error: all goroutines are asleep - deadlock!_", translated means something like "fatal error: all goroutines are asleep - deadlocked". The first time I saw this error I was perplexed and, although I knew how to fix it, I didn't understand why it happened, so in this post I explain why it happens as I would have liked to have read it at the time.
 
 ## Blocking operations
 

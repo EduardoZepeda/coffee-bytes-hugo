@@ -238,7 +238,7 @@ If you've tried all of the above and still have a bottlenecked application, you'
 
 Do you want to know how much difference there is between Python and a compiled language like go? in my post [Python vs Go I compare the speed of both languages](/blog/python-vs-go-which-is-the-best/)
 
-If you have a bottleneck caused by some very expensive mathematical computation, which highlights the lack of speed of Python being an interpreted language, you may want to rewrite the bottleneck in some low-level language and then call it using Python. This way you will have the ease of use of Python with the speed of a low-level language.
+If you have a bottleneck caused by some costly mathematical computation, which highlights the lack of speed of Python being an interpreted language, you may want to rewrite the bottleneck in some low-level language and then call it using Python. This way you will have the ease of use of Python with the speed of a low-level language.
 
 ## ORMs and alternative frameworks
 

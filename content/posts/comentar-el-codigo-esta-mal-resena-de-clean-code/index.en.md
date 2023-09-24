@@ -44,7 +44,7 @@ The book contains several pieces of advice that, at the time, I found quite cont
 
 ### Your class, variable and function names should be self-explanatory.
 
-This concept is quite simple but it is still very common to see cryptic code that is difficult to understand.
+This concept is quite simple but it is common to see cryptic code that is difficult to understand.
 
 ```python
 # Codigo criptico en Python

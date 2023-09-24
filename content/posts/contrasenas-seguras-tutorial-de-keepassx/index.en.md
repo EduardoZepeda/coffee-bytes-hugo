@@ -106,6 +106,6 @@ cat archivo.kdbx
 
 The file containing your passwords can be backed up on a usb or even uploaded to the web. **If someone wants to see your passwords they will need the master password you created** as well as the file with extension _kdbx_, both.
 
-It is important to remind you again that this file will store your passwords, so **if you lose it, delete it or forget the master password you will have lost access to all your accounts**. It is very important to always have a backup in a safe place.
+It is important to remind you again that this file will store your passwords, so **if you lose it, delete it or forget the master password you will have lost access to all your accounts**. It is paramount to always have a backup in a safe place.
 
 Now you can have any number of passwords stored and, if you chose to create them randomly, each one of them will be different from the rest and will be completely secure against brute force attacks, while you will only need to keep a single password memorized.

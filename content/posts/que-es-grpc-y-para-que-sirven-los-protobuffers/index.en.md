@@ -117,7 +117,7 @@ On the other hand, the use of HTTP/2 allows gRPC to send multiple streams of inf
 
 ## Types of gRPC and streaming
 
-The HTTP/2 protocol is very versatile and allows gRPC to support four types of client-server communications:
+The HTTP/2 protocol is versatile and allows gRPC to support four types of client-server communications:
 
 * **Unary**. The client and server communicate using a simple request and response, as in REST.
 response, as in REST.

@@ -25,7 +25,7 @@ Click here for [the second part of this series of commands](/blog/linux-commands
 
 ### Use tab to complete commands
 
-Before starting with the commands I want to mention a couple of small tips or functionalities. The GNU/Linux terminal is very user friendly, just type the first letters of a command, file or folder found in the current folder and then press the TAB key and the system will automatically complete the command, file or folder name.
+Before starting with the commands I want to mention a couple of small tips or functionalities. The GNU/Linux terminal is user friendly, just type the first letters of a command, file or folder found in the current folder and then press the TAB key and the system will automatically complete the command, file or folder name.
 
 If there is a conflict, just press the TAB key twice and it will show the available options. A perfect function for lazy people who don't like to type unnecessarily.
 

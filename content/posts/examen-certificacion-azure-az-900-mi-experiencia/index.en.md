@@ -52,7 +52,7 @@ At the end of the exam, the system automatically calculates your score and infor
 
 ### Contents of the exam
 
-The exam is strongly oriented towards practical applications of cloud services. With questions focused on practical cases, where a fictitious company needs to decide which cloud service can best meet their needs, so it is not enough to know definitions, but to have very clear concepts and understand them, to be able to apply them in an environment a little more similar to the real one.
+The exam is strongly oriented towards practical applications of cloud services. With questions focused on practical cases, where a fictitious company needs to decide which cloud service can best meet their needs, so it is not enough to know definitions, but to have a clear understanding of concepts, to be able to apply them in an environment a little more similar to the real one.
 
 ### What language is the test in?
 

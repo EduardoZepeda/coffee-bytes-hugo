@@ -19,7 +19,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-This entry is about a design pattern of which, at the time, I found very little information in Spanish. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.
+This entry is about a design pattern of which, at the time, I found little to none information in Spanish. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.
 
 The simplistic option is to create a series of workers and use them concurrently, something like this pseudocode:
 

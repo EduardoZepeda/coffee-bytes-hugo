@@ -110,7 +110,7 @@ export BAT_THEME="Monokai Extended"
 
 ## Bat comes with an automatic pager.
 
-This means that if the file is very large, it will not show the whole file, but it will show a part of it and we will be able to move through the content with the arrows on our keyboard. The default pager is _less_.
+This means that if the file is enormous, it will not show the whole file, but it will show a part of it and we will be able to move through the content with the arrows on our keyboard. The default pager is _less_.
 
 ```bash
 #

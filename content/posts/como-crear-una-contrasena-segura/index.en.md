@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-One of my friends worked as an IT security auditor for a company whose name I will not mention for obvious reasons. Eventually our conversion got to the topic of his day to day work life, I asked him about his duties at the company and he replied that his job consisted mainly of nagging and educating employees about how weak their passwords were. The critical part of this is that many of those employees were in charge of setting up the computer systems for the clients they worked for. Yes, IT professionals being careless with their passwords, you'd think it would be impossible, but it's far more common than you'd think. Very few people know how to create a secure password.
+One of my friends worked as an IT security auditor for a company whose name I will not mention for obvious reasons. Eventually our conversion got to the topic of his day to day work life, I asked him about his duties at the company and he replied that his job consisted mainly of nagging and educating employees about how weak their passwords were. The critical part of this is that many of those employees were in charge of setting up the computer systems for the clients they worked for. Yes, IT professionals being careless with their passwords, you'd think it would be impossible, but it's far more common than you'd think. Few people know how to create a secure password.
 
 For the above reason I have decided to share a bit of what I have read about it in blogs, books and videos.
 

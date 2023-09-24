@@ -22,7 +22,7 @@ Previously I briefly discussed [unittest, coverage, mock, nose, nose, pytest and
 
 Imagine you are writing a small application for the general public. All your code tests pass, the application works perfectly.
 
-After a few days people contact you and let you know that your application crashes, but how, all the tests pass and you have personally tested it yourself. After finding out a bit about the problem you realize that the people using it have the newest version of Python. Apparently the code in the new version changed and made your application unusable in the new versions. But your problems don't end there, there are other users with very old versions of Python who also have problems.
+After a few days people contact you and let you know that your application crashes, but how, all the tests pass and you have personally tested it yourself. After finding out a bit about the problem you realize that the people using it have the newest version of Python. Apparently the code in the new version changed and made your application unusable in the new versions. But your problems don't end there, there are other users with outdated versions of Python who also have problems.
 
 You decide to test your application with the new versions, but you realize that it's a pain, there are too many versions of Python, you would have to test in each one of them. [Tox](https://tox.readthedocs.io/en/latest/#) does just that for you.
 

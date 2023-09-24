@@ -196,7 +196,7 @@ For more details on how to connect celery to Django remember that you can check 
 
 Celery has several complementary applications that allow you to increase control over your tasks, for example flower, which is in charge of monitoring celery tasks.
 
-Flower is very easy to use, just install it.
+Flower is simple to use, just install it.
 
 ```bash
 pipenv install flower

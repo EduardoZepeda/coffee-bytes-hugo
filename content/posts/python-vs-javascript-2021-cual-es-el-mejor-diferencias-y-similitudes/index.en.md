@@ -42,7 +42,7 @@ Python appeared in the late 1980s, while Javascript appeared in the early 1990s,
 
 ## Typed
 
-Regarding typing, it is a very complex issue where I have not found a **clear and uniform consensus** on what is considered strong typing and what weak typing. However experts tend to say that strongly typed languages do not allow changes to data types once declared, while weakly typed ones do.
+Regarding typing, it is a convoluted issue where I have not found a **clear and uniform consensus** on what is considered strong typing and what weak typing. However experts tend to say that strongly typed languages do not allow changes to data types once declared, while weakly typed ones do.
 
 Here are a couple of examples for your consideration
 
@@ -279,7 +279,7 @@ Even despite the abundance of options, new JavaScript frameworks are released mo
 
 ### Frameworks for Python
 
-Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/blog/why-should-you-use-django-framework/), or Flask and some more modern ones like the very fast [FastAPI web development framework](/blog/fastapi-tutorial-the-best-python-framework/), about which I wrote a post before.
+Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/blog/why-should-you-use-django-framework/), or Flask and some more modern ones like the fast-growing in popularity, [FastAPI web development framework](/blog/fastapi-tutorial-the-best-python-framework/), about which I wrote a post before.
 
 ![Python web development frameworks](images/python-frameworks.jpg)
 

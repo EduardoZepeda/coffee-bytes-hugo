@@ -37,7 +37,7 @@ Both goroutines are setting the total credits at 140, because they read, almost 
 
 ![Example of a race condition in go](images/race-conditions-go.png "Example of a race condition in go.")
 
-As you may already know, DarkLord69 will not be very happy, but if you give him some extra tokens as compensation there should be no problem. But what if instead of tokens it had been money, or perhaps some other more precious commodity?
+As you may already know, DarkLord69 will not be joyful, but if you give him some extra tokens as compensation there should be no problem. But what if instead of tokens it had been money, or perhaps some other more precious commodity?
 
 Now let's go to an example made in code.
 

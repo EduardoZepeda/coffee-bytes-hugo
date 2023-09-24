@@ -18,7 +18,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Typescript requires that we specify the types for the different variables and function arguments in React. When they are native types it is not very complicated, but for React components it can be different. Here are 3 ways to specify types for React components that contain children as part of their props.
+Typescript requires that we specify the types for the different variables and function arguments in React. When they are native types it is not intrincate, but for React components it can be different. Here are 3 ways to specify types for React components that contain children as part of their props.
 
 ## Types With ReactNode
 

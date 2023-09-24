@@ -59,7 +59,7 @@ You can read more about the differences between React and Preact at [their offic
 
 ## React admin
 
-React admin is the equivalent of django admin but in React, an interface to perform CRUD operations to your database models. It requires a very basic configuration, but once you set it up you're all set. Visit the [React admin demo](https://marmelab.com/react-admin-demo/#/) to get to know it.
+React admin is the equivalent of django admin but in React, an interface to perform CRUD operations to your database models. It requires a basic configuration, but once you set it up you're all set. Visit the [React admin demo](https://marmelab.com/react-admin-demo/#/) to get to know it.
 
 ![React admin interface](images/ReactAdminInterfaz.png)
 

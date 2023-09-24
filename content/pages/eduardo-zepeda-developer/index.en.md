@@ -24,7 +24,7 @@ My favorite web frameworks are:
 - **React, Nextjs and related**
 - **Trying Hugo these days**
 
-I feel very comfortable developing web applications in GNU/Linux environments (I use Debian distribution since end of 2010)
+I feel comfortable developing web applications in GNU/Linux environments (I use Debian distribution since end of 2010)
 
 My personal projects, including this blog, use [Digital Ocean](https://m.do.co/c/a22240ebb8e7) VM (called droplets) for the hosting, however I've deployed on other platforms like Vercel or Netifly.
 

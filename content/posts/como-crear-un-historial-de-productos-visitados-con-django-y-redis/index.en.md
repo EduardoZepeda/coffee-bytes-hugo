@@ -27,7 +27,7 @@ History of a certain ecommerce site that no longer needs advertising.
 
 Maybe you (or your company) are not interested in having stored in a database the history of millions of products visited by each anonymous user who visits the site, but you would still like to show each user, registered or not, the products he/she has seen.
 
-Redis is a very efficient database engine, it works with volatile data, because it stores its information in memory, so its access is almost instantaneous, although volatile. However **it is possible to dump its information to a permanent medium, such as mysql, postgres or another database, later**. Surely we can use redis but... how are we going to differentiate one anonymous user from another?
+Redis is a efficacious database engine, it works with volatile data, because it stores its information in memory, so its access is almost instantaneous, although volatile. However **it is possible to dump its information to a permanent medium, such as mysql, postgres or another database, later**. Surely we can use redis but... how are we going to differentiate one anonymous user from another?
 
 There are many ways to address that problem, you can associate a user (and their history) with a cookie, ip or even an affiliate link, etc. The type of data you want to link depends on your business intentions. For this example we will use a session key from the session system that is already included in django by default.
 

@@ -22,14 +22,14 @@ Most of the content on the Internet about the Python programming language is in 
 
 The name of the book in Spanish is _Inmersión en Python 3_, a translation made by [José Miguel González Aguilera](http://www.jmgaguilera.com/), of the popular book _Dive into Python 3_ written by Mark Pilgrim.
 
-The language of the book is quite simple, the exercises are very well explained and the translation is excellent; quite faithful to the original source. The code examples are very well taken care of and even some function and variable names are translated, to make the code more readable for those who do not speak English. The translation errors are minimal, practically insignificant and pale before the great translation work done by Mr. José Miguel González.
+The language of the book is quite simple, the exercises are well explained and the translation is superb; quite faithful to the original source. The code examples are very well taken care of and even some function and variable names are translated, to make the code more readable for those who do not speak English. The translation errors are minimal, practically insignificant and pale before the great translation work done by Mr. José Miguel González.
 
 ## What topics are covered in the book?
 
 This book is an introduction to language, designed to explain language and its nuances from the ground up. The first chapters deal with the installation of the language in the main operating systems, as well as its syntax. After a couple of chapters, the author develops the topic of Python's native data handling; Booleans, numbers, lists, tuples, sets, dictionaries, as well as its most common methods. At the end of the brief introduction to the language, the author gives us a walk through more advanced concepts such as:
 
 * Explanation of how Python transforms bytes into text strings.
-* Efficiency of algorithms at a very basic level
+* Efficiency of algorithms at an entry level
 * Generators
 * Iterators
 * Closures

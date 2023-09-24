@@ -20,7 +20,7 @@ If you have been using computers for a long time, you are probably more familiar
 
 ## What is Docker?
 
-Docker is a tool that allows you to package an application and its dependencies in a very lightweight container. It's as if you take a complete application with absolutely everything it needs to run so that you can seamlessly transport it to any other server with Docker installed, either for further development or for deploying. So, that's it? transporting code? I'm sure you'll tell me that's already done by virtual machines, [virtual environments](/blog/why-should-you-use-a-virtual-environment-in-python/), zip files and pretty much any tool. Well yes, but I'm going to try to explain in a simple way what the issues are.
+Docker is a tool that allows you to package an application and its dependencies in a lightweight container. It's as if you take a complete application with absolutely everything it needs to run so that you can seamlessly transport it to any other server with Docker installed, either for further development or for deploying. So, that's it? transporting code? I'm sure you'll tell me that's already done by virtual machines, [virtual environments](/blog/why-should-you-use-a-virtual-environment-in-python/), zip files and pretty much any tool. Well yes, but I'm going to try to explain in a simple way what the issues are.
 
 ## What is Docker for?
 
@@ -56,7 +56,7 @@ To avoid falling into the vile hands of computer science purists I will quote th
 >
 > What is a Container? (n.d.). Retrieved September 23, 2020, from https://www.docker.com/resources/what-container
 
-The thing to remember about containers is that **they are very light, they are isolated and virtualize the operation of an operating system**.
+The thing to remember about containers is that **they are not resource intensive, they are isolated and virtualize the operation of an operating system**.
 
 If you want to know how a container works, at the code level, I will tell you that [a container is a process that uses namespaces, linux cgroups and chroot](/blog/how-does-a-docker-container-work-internally/) to isolate a group of processes in linux, limit the operating system resources they can use and have their own file system, respectively.
 
@@ -66,11 +66,9 @@ If you want to know how a container works, at the code level, I will tell you th
 >
 > What is a Container (n.d.). Retrieved September 23, 2020, from https://www.docker.com/resources/what-container
 
-The important thing to remember about virtual machines is that, compared to containers, **they take up a lot of space and, because they must load a full operating system, they can take much longer to boot** and, unlike containers, **virtualize the operation of the hardware part.**
+The important thing to remember about virtual machines is that, compared to containers, **they take up a lot of memory space and, because they must load a full operating system, they can take much longer to boot** and, unlike containers, **virtualize the operation of the hardware part.**
 
 ![Differences between a virtual machine and docker](images/Diferencias-entre-maquina-virtual-y-docker.png)
-
-I made the diagrams using HTML and CSS, but in the end I decided to use an image, the source code is commented in this page, you can take it if you want. Or send me a DM via twitter and I'll pass it to you.
 
 In the first image we can see that, in the case of containers, the applications interact directly with Docker, and this, in turn, with the operating system.
 

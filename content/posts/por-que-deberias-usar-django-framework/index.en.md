@@ -127,7 +127,7 @@ With Django you would have a working prototype faster than with any other "less 
 
 ### It is a proven solution
 
-There are many new frameworks every day. Most of them are just a fad and fall into disuse over the years, leaving projects without support. Django is a framework that has been around for a very long time, that has gone through numerous tests that have made it very robust and reliable, and that is not going to disappear overnight leaving you with an unsupported project.
+There are many new frameworks every day. Most of them are just a fad and fall into disuse over the years, leaving projects without support. Django is a framework that has been around for a very long time, that has gone through numerous tests that have made it  robust and reliable, and that is not going to disappear overnight leaving you with an unsupported project.
 
 Consider that Django was once the choice of sites as big as Instagram or Pinterest.
 

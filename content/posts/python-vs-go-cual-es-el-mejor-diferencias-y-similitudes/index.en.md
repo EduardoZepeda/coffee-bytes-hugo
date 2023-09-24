@@ -288,9 +288,9 @@ func sinValoresPredeterminados(valor=1, valor2=2){
 }
 ```
 
-Error handling in Go is not very well received by many developers, who consider it inferior to other languages.
+Error handling in Go it's a sensitive topic among developers, who consider it inferior to other languages.
 
-The following pattern will be very recurrent and will repeat itself multiple times in your code, violating the DRY maxim.
+The following pattern will be recurrent and will repeat itself multiple times in your code, violating the DRY maxim.
 
 ```go
 if err != nil {
@@ -398,7 +398,7 @@ How fast is go compared to python? I have done a small test using [multitime](ht
 
 ### Web frameworks in go
 
-The frameworks available for Go focus on speed. Since the language language is new, they are relatively young technologies but extremely fast and efficient, being efficient, being able to serve many, many requests per second. If speed is a is a requirement for your project, consider them very seriously.
+The frameworks available for Go focus on speed. Since the language language is new, they are relatively young technologies but extremely fast and efficient, being efficient, being able to serve many, many requests per second. If speed is a is a requirement for your project, consider them seriously.
 
 ![Most popular Go frameworks: Hugo, Beego, Echo, Buffalo, Go revel](images/Frameworks-web-Go.jpg "Go frameworks logos")
 
@@ -421,12 +421,12 @@ Among the frameworks [Django, one of the favorite frameworks of Python](/blog/wh
 Python's most popular frameworks are: Django, Fastapi, flask,
 
 Even though most Python frameworks are old, it doesn't mean that new frameworks are not appearing lately.
-[Fastapi](/blog/fastapi-tutorial-the-best-python-framework/), which I already did a tutorial on, is also a very fast new framework that is gaining popularity day by day, tutorial is also a new very fast framework that is gaining popularity day by day.
+[Fastapi](/blog/fastapi-tutorial-the-best-python-framework/), which I already did a tutorial on, is also a fast-growing new framework that is gaining popularity day by day.
 
 ## Which one to choose Python vs go?
 
 In my opinion, if you need stability and time-tested solutions for your frameworks or you plan to enter the world of artificial intelligence, deep learning or data learning or data science, if you want a language that has a steep learning curve and a lot of and a large number of packages available that will save code for you and/or your save you and/or your team code, I'd go for Python.
 
-On the other hand, if you are very serious about devops and/or speed and concurrency are important features for the projects you plan to create, and you want to dedicate yourself to dedicate yourself to creating devop tools. If you don't mind the steeper learning curve steeper learning curve that Go has (it's not that steep either) compared to Python, then Go will probably seem like a better choice.
+On the other hand, if you are serious about devops and/or speed and concurrency are important features for the projects you plan to create, and you want to dedicate yourself to dedicate yourself to creating devop tools. If you don't mind the steeper learning curve steeper learning curve that Go has (it's not that steep either) compared to Python, then Go will probably seem like a better choice.
 
 Anyway, now that you know a little bit of both languages you can take a much more informed decision based on your intentions and personal situation. You can always learn both and combine them to have the best of both worlds.

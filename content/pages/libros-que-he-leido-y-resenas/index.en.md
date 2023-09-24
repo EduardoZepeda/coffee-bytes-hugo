@@ -14,7 +14,7 @@ I'm currently reading:
 
 ## Books I read
 
-The list below contains almost all the books I've read about programming and web development. Most of them are written in english, some others in spanish (It's very hard to find good technical books written in spanish). .
+The list below contains almost all the books I've read about programming and web development. Most of them are written in english, some others in spanish (It's arduous to find good technical books written in spanish). .
 
 I've reviewed some of them, I hope to review most of them in the near future, before they become obsolete.
 

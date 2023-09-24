@@ -135,7 +135,7 @@ coverage: 100.0% of statements
 ok _/home/eduardo/Programacion/goTesting/testing 0.002s
 ```
 
-As our function is very short, we obtain a result of 100%, without breaking down, from coverage
+As our function is tiny, we obtain a result of 100%, without breaking down, from coverage
 
 ### Export coverage results
 

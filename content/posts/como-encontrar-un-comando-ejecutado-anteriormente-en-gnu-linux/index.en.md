@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Sometimes we execute commands that solve a very specific task on our system. We may have done a file lookup using regular expressions or perhaps we accessed a server via ssh and no longer remember the IP address. Re-creating the regular expression from scratch can be very time consuming and perhaps finding the IP again can also be more time consuming than if we could simply retrieve the command. We can find a previously executed command in GNU/Linux in a simple way, here is how.
+Sometimes we execute commands that solve a specific task on our system. We may have done a file lookup using regular expressions or perhaps we accessed a server via ssh and no longer remember the IP address. Re-creating the regular expression from scratch can be very time consuming and perhaps finding the IP again can also be more time consuming than if we could simply retrieve the command. We can find a previously executed command in GNU/Linux in a simple way, here is how.
 
 One way to do this would be to perform a search for the part of the command that we remember in the command history. This can be done as follows:
 

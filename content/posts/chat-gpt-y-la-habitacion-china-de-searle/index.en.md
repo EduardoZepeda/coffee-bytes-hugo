@@ -23,7 +23,7 @@ Chat GPT is on everyone's lips, some are afraid of it, because of its [ability t
 
 ## John Searle's The Chinese Room
 
-John Searle, was a scientist who wondered whether a computer can really understand language. And for this he designed a very interesting thought experiment:
+John Searle, was a scientist who wondered whether a computer can really understand language. And for this he designed a riveting thought experiment:
 
 ![](images/la-habitacion-china-de-searle.jpg "Image of Searle's Chinese Room generated with Dall-E")
 
@@ -61,7 +61,7 @@ While others go further by saying that a system becomes more conscious the more 
 
 ### Intelligence without conscience
 
-Likewise, there are positions that defend that intelligence does not necessarily depend on consciousness, but that it can exist in systems that do not have subjective experience. For example, it is sufficient to cite Alpha Go and other computer programs that are capable of responding to very complex stimuli, without existing beyond the game for which they were programmed, or [sleepwalkers, who can show signs of intelligence even when they are not conscious](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
+Likewise, there are positions that defend that intelligence does not necessarily depend on consciousness, but that it can exist in systems that do not have subjective experience. For example, it is sufficient to cite Alpha Go and other computer programs that are capable of responding to complex stimuli, without existing beyond the game for which they were programmed, or [sleepwalkers, who can show signs of intelligence even when they are not conscious](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
 But even if human beings have unconscious processes capable of existing without the manifestation of consciousness... there must be something more than simple mechanical action, after all animals are much more complex than machines aren't they?
 

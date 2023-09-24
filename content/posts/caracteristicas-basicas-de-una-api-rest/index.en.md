@@ -19,7 +19,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-This publication is a very short guide of practical tips on REST API design, I don't go too deep into the theory. On top of that, I may oversimplify many concepts in order to keep the text as short and simple as possible.
+This publication is a minimal guide of practical tips on REST API design, I don't go too deep into the theory. On top of that, I may oversimplify many concepts in order to keep the text as short and simple as possible.
 
 In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how much to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
 

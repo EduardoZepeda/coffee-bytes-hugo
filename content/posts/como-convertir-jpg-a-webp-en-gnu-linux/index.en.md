@@ -47,7 +47,7 @@ $ du -h pexels-artem-beliaikin-1120963.jpg
 
 After installing webp, the _cwebp_ command will be available, yes, with the letter "c" at the beginning; I also got confused and wanted to use it as plain webp at the beginning.
 
-The cwebp command will help us to convert our image and it is very easy to use; we just place the image we want to convert and specify the name of our output file with the _-o_ option.
+The cwebp command will help us to convert our image and it is self-explanatory; we just place the image we want to convert and specify the name of our output file with the _-o_ option.
 
 ```bash
 cwebp pexels-artem-beliaikin-1120963.jpg -o imagen_procesada.webp
@@ -89,7 +89,7 @@ convert <output.png> <output_converted.jpg>
 
 If we now compare the sizes of both files we will notice that our new image is **about half the size of its _jpg_** version.
 
-The quality of the resulting webp file is for you to judge for yourself. I found it to be practically the same, with subtle differences; perhaps a very slight loss of contrast, but almost imperceptible.
+The quality of the resulting webp file is for you to judge for yourself. I found it to be practically the same, with subtle differences; perhaps a slight loss of contrast, but almost imperceptible.
 
 ```bash
 du -h *

@@ -34,7 +34,7 @@ To achieve this, docker, and other container technologies, take advantage of som
 * Cgroups
 * Chroot
 
-I am going to explain them very briefly but you can go deeper on your own if you want to.
+I am going to explain them briefly but you can go deeper on your own if you want to.
 
 ## Processes, namespaces and cgroups on linux
 

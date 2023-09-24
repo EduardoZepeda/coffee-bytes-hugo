@@ -21,7 +21,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-These last few days I have been testing a Python library that is becoming very popular, FastAPI, a framework for creating APIs, such as [REST APIs](/blog/rest-api-basic-characteristics-and-recommendations/) or RPC APIs. FastAPI promises to help us create fast APIs in a simple way, with very little code and with extraordinary performance, to support high concurrency websites.
+These last few days I have been testing a Python library that is becoming famous, FastAPI, a framework for creating APIs, such as [REST APIs](/blog/rest-api-basic-characteristics-and-recommendations/) or RPC APIs. FastAPI promises to help us create fast APIs in a simple way, with very little code and with extraordinary performance, to support high concurrency websites.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 

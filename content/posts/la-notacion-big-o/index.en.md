@@ -126,7 +126,7 @@ The big O notation shows us that two algorithms for solving the same problem can
 
 {{< youtube ZZuD6iUe3Pc >}}}
 
-About algorithms there is a lot to talk about, this is merely a brushstroke, if you want to delve into this topic I recommend a very interesting book called **_The Algorithm Design Manual_** written by Steven S. Skiena, where the subject of algorithms and also big O notation is discussed in much more depth than in this publication. I highly recommend it, it is a book that should be part of your reference collection. You can buy it at Amazon or other online stores.
+About algorithms there is a lot to talk about, this is merely a brushstroke, if you want to delve into this topic I recommend a bewitching book called **_The Algorithm Design Manual_** written by Steven S. Skiena, where the subject of algorithms and also big O notation is discussed in much more depth than in this publication. I highly recommend it, it is a book that should be part of your reference collection. You can buy it at Amazon or other online stores.
 
 If you are looking for something more visual to introduce you to the world of algorithms watch this excellent BBC documentary:
 

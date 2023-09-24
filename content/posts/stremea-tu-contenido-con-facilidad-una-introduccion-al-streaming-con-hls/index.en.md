@@ -49,7 +49,7 @@ Before you start, you should know that there are quite a few streaming protocols
 * MPEG-DASH
 * HDS
 
-I will explain HLS, why? Because HLS uses the HTTP protocol, so it does not require specialized servers, and it is compatible with any device that connects to the Internet. Finally, we add that lately it is a very popular protocol for video streaming.
+I will explain HLS, why? Because HLS uses the HTTP protocol, so it does not require specialized servers, and it is compatible with any device that connects to the Internet. Finally, we add that lately it is a popular protocol for video streaming.
 
 ## The HLS protocol
 
