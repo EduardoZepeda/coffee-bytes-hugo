@@ -39,7 +39,7 @@ A REST API is an API that complies with the REST design standards (forgive the o
 
 ### What are the features of a REST API?
 
-Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC](/blog/unleash-your-api-s-potential-with-grpc-and-protobuffers/), even companies as large as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APISs as such.
+Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC](/blog/unleash-your-apis-potential-with-grpc-and-protobuffers/), even companies as large as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APISs as such.
 
 If you already know the brief technical part, skip this section.
 
