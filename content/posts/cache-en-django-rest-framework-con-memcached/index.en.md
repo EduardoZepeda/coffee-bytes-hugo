@@ -159,7 +159,7 @@ He also mentioned that Django's per-site cache is not compatible with the _djang
 
 ## Cache per django view
 
-But what if you don't want to cache the entire website? Most websites are a mix of dynamic pages and static pages. You probably only want to leave the static pages, or pages that change very little, in cache and make sure that your user receives the dynamic pages with updated content. That is, only certain views should be cached.
+But what if you don't want to cache the entire website? Most websites are a mix of dynamic pages and static pages. You probably only want to leave the static pages, or pages that change rarely, in cache and make sure that your user receives the dynamic pages with updated content. That is, only certain views should be cached.
 
 To cache the result of a view just use the _@cache_page_ decorator provided by django and pass the time you want django to cache, in seconds, for that view.
 

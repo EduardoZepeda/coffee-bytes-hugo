@@ -86,7 +86,7 @@ This is, in a fairly short way, the story of how I started programming. Always s
 
 Finally, since many companies love to have a piece of paper to back up what you already know, and I was a bit unsure if everything I had read applied to today's development world (the famous imposter syndrome), I decided to sign up for a 6-month Bootcamp at [Bedu](https://bedu.org).
 
-At the risk of being a bit arrogant, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some very interesting and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
+At the risk of being a bit arrogant, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some fascinating and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
 
 ![Colobora Coworking in Chapultepec, Guadalajara](images/ColaboraCoworking.jpg "Image taken from Colabora's website")
 

@@ -32,7 +32,7 @@ My biggest complaint about this book has the author's neglect as the culprit. Th
 
 ## My opinion
 
-I consider it an excellent book to learn Python from scratch. It is very difficult to find a tutorial that covers such a wide range of topics and so different from each other. However, I do emphasize that the version that should be purchased is the third edition, as it is the one that has the content updated to Python 3, the previous editions of the book are totally obsolete and are not recommended, much less in view of the depreciation of Python 2.
+I consider it an excellent book to learn Python from scratch. It's challenging to find a tutorial that covers such a wide range of topics and so different from each other. However, I do emphasize that the version that should be purchased is the third edition, as it is the one that has the content updated to Python 3, the previous editions of the book are totally obsolete and are not recommended, much less in view of the depreciation of Python 2.
 
 **Recommended prior knowledge:** HTML**Recommended to read:** 8/10
 

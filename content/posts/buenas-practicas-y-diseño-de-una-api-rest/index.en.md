@@ -113,7 +113,7 @@ Generally an API does not return individual resources, but resources that are re
 
 ### Identifiers in the response
 
-This approach to the problem will require that if the user requires access to the information, it is downloaded at a later time. It is ideal for data that is rarely consulted or very numerous.
+This approach to the problem will require that if the user requires access to the information, it is downloaded at a later time. It is ideal for data that is rarely consulted or plentiful.
 
 ```json
 {
@@ -296,7 +296,7 @@ When we have relationships between our resources, it is quite tempting to place 
 
 The [DRF documentation suggests a flat structure](https://www.django-rest-framework.org/api-guide/relations/#example_2) when designing APIs.
 
-The white house API standards guide also advocates for very short nesting, setting as a limit
+The white house API standards guide also advocates for succinct nesting, setting as a limit
 
 ```bash
 recurso/<id>/recurso
