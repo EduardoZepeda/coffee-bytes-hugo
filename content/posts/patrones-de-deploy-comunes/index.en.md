@@ -62,7 +62,7 @@ graph LR;
     Server-- on/off --> Feature2;
 ```
 
-### Despliegues azul/verde
+### Blue/Green deployment
 
 In the blue/green deployment we have two similar environments simultaneously. These environments will be known as blue and green. At any time only one of the two environments will be active, while load balancing from one environment to the other. If we find any errors we simply adjust the load balancing to the opposite side.
 

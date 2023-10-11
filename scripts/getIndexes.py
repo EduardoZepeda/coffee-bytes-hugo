@@ -55,7 +55,6 @@ def get_slugged_titles(list):
 
 def read_markdown(list):
     slugged_titles = get_slugged_titles(list)
-    print(slugged_titles)
     for file in list:
         with open(file, "r") as f:
             content = f.read()
