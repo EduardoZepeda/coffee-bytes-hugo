@@ -1,6 +1,6 @@
 ---
 title: "Composition over inheritance in OOP simple explanation"
-date: 2023-10-11
+date: "2023-10-11"
 coverImage: "images/composition-over-inheritance.jpg"
 coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
 categories:
