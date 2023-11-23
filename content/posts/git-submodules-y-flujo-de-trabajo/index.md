@@ -7,7 +7,7 @@ categories:
 - git
 - "linux y devops"
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
 ---
 
 Los git submodules o submódulos son un registro dentro de un repositorio de git que apunta a un commit en un repositorio externo. Se manejan exactamente igual que harías con un repositorio, incluso tienen un archivo *.git* que apunta a la ubicación en la que se lleva un registro de los cambios.

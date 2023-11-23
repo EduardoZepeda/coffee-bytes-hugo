@@ -18,11 +18,15 @@ authors:
 - Eduardo Zepeda
 ---
 
-Are you choosing a hosting service but don't know which one to choose? Surely you have already had contact with Digital Ocean's advertising but you want to hear a real opinion of what they have to offer. I've been using Digital Ocean as hosting for my personal projects for several years and I'll tell you about my experience and what you can find if you decide to hire their services.
+Are you choosing a hosting service but don't know which one to choose? Surely you have already had contact with Digital Ocean's advertising but you want to hear a real opinion of what they have to offer. I've been using Digital Ocean for my personal projects for several years and I'll tell you about my experience and what you can find if you decide to hire their services.
+
+Sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7) and receive $200 USD to spend on Digital Ocean.
 
 ## IAAS and PAAS
 
-I'm pretty sure you've considered using [Vercel](https://vercel.com), [Netifly](https://www.netlify.com/), [Heroku](https://www.heroku.com/) or another modern hosting service for your application (probably made in Javascript). But, is it the same? Well, here's a little clarification, just in case you don't know; there are different types of companies for online services; IAAS, Infrastructure as a service; and PAAS, platform as a service.
+I'm pretty sure you've considered using [Vercel](https://vercel.com), [Netifly](https://www.netlify.com/), [Heroku](https://www.heroku.com/) or another modern hosting service for your application (probably made in Javascript). But, is it the same? Well, here's a little clarification, just in case you don't know; there are different types of companies for online services; IAAS, Infrastructure as a service; and PAAS, platform as a service. 
+
+If you already know this, skip to the Droplet's section.
 
 ### IAAS
 
