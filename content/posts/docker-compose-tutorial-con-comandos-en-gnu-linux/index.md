@@ -17,6 +17,8 @@ authors:
 
 Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita mi entrada de los [comandos y uso básico de Docker.](/tutorial-de-comandos-basicos-de-docker/)
 
+{{<digitalocean product="Docker y kubernetes">}}
+
 ## ¿Qué es docker compose?
 
 Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.

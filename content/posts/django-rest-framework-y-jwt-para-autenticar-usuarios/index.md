@@ -18,6 +18,8 @@ authors:
 
 Los JWT (JSON Web Tokens) se han popularizado enormemente, incluso algunos las consideran un reemplazo de los clásicos Tokens que usan otros frameworks, tales como Django Rest Framework. Usar JWT o Tokens normales (SWT) permite guardar toda la información de nuestra sesión directo en el token y además están firmados criptográficamente, suena bien ¿no? Sigue leyendo hasta el final para profundizar al respecto.
 
+{{<digitalocean product="Django y JWT">}}
+
 ## ¿Qué es JWT?
 
 JWT es un estándar para la creación de tokens de acceso basado en JSON, para el intercambio de información entre dos partes. Estos tokens, y su contenido, pueden ser verificados porque están firmados digitalmente. Esta firma criptográfica garantiza **que el contenido no ha sido alterado y que el emisor es quien dice ser**. Lo anterior los vuelve perfectos para:
