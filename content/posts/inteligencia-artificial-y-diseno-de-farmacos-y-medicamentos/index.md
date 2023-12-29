@@ -1,7 +1,6 @@
 ---
 title: "Inteligencia Artificial Y Diseño De Farmacos Y Medicamentos para desarrolladores"
 date: "2023-12-29"
-draft: true
 categories: 
 - "inteligencia artificial"
 coverImage: "images/drug-design-using-artificial-intelligence.jpg"
