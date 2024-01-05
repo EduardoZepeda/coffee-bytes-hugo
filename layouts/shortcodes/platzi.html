@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+<div class="info">
+    Aprende sobre {{ if .Get "product" }} {{ .Get "product" }}{{ end }} ya mismo: te regalo un mes en la plataforma de aprendizaje Platzi<a href="https://platzi.com/r/eduardo-zepeda" class="markdown-link"> solo da click aquí y adquiere un plan anual.</a>.
+</div>
+{{ else }}
+<div class="info">
+    Si todavía no sabes donde hostear tu aplicación, prueba Digital Ocean, te regalo 200 USD para que experimentes si das click en este <a href="https://m.do.co/c/a22240ebb8e7">enlace</a>.
+</div>
+{{ end }}
