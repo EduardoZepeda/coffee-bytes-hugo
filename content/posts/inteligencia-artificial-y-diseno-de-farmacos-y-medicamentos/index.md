@@ -15,7 +15,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-Los usos de la inteligencia artificial van más allá de [resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), una de las aplicaciones más interesantes para la inteligencia artificial es el desarrollo de nuevos fármacos. Llevar un nuevo fármaco al mercado es un proceso arduo, costoso y que, en la mayoría de los casos, es infructuoso. La inteligencia artificial puede acelerar el proceso enormemente y reducir los candidatos a nuevos fármacos a unos cuantos, en lugar de a decenas de ellos.
+Los usos de la inteligencia artificial van más allá de [resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), e independientemente de si esta [inteligencia artificial es consciente o no](/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), tiene un sin fin de aplicaciones. Una de las aplicaciones más interesantes para la inteligencia artificial es el desarrollo de nuevos fármacos. Llevar un nuevo fármaco al mercado es un proceso arduo, costoso y que, en la mayoría de los casos, es infructuoso. La inteligencia artificial puede acelerar el proceso enormemente y reducir los candidatos a nuevos fármacos a unos cuantos, en lugar de a decenas de ellos.
+
+{{<platzi product="Inteligencia Artificial">}}
 
 Para este post voy a tomarme algunas libertades y voy a simplificar conceptos y a sacrificar algo (o mucho) de precisión en aras de un mejor entendimiento. Si tienes dudas sobre quien soy yo para hablar de estos temas, y sobre mis credenciales, siéntete libre de pedírmelas en redes sociales.
 
