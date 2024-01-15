@@ -155,4 +155,14 @@ list := []int{0, 1, 2, 3, 4, 5}
 	}
 ```
 
-Y eso es lo más básico de slices y arrays, para la siguiente entrada voy a hablar de los maps en go.
+
+## ¿Cómo convertir un array en un slice en Go?
+
+Para convertir un array en un slice podemos usar la notación *[:]*.
+
+```go
+newArray := mySlice[:]
+```
+
+
+Con esto termino de platicarte lo más básico de slices y arrays en Go. Para la siguiente entrada voy a hablar de los maps en Go.

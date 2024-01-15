@@ -157,4 +157,12 @@ list := []int{0, 1, 2, 3, 4, 5}
     }
 ```
 
+## How to convert an array into an slice in Go?
+
+To convert an array into a slice in Go, we can use the following syntax *[:]*
+
+```go
+newArray := mySlice[:]
+```
+
 And that's the basics of slices and arrays, for the next post I'm going to talk about maps in go.
