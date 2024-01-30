@@ -1,8 +1,9 @@
 ---
-title: "Git Submodules Y Flujo de Trabajo"
+title: "Entiende Como Funciona Git Submodules Y su Flujo de Trabajo"
 date: 2022-05-18T13:14:41-05:00
 coverImage: "images/git-submodules.jpg"
 coverImageCredits: "Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617"
+description: "Entiende como funcionan los git submodules y como usarlos, actualizarlos y trabajar con ellos sin errores, incluso si nunca antes lo has hecho."
 categories:
 - git
 - "linux y devops"

@@ -1,8 +1,9 @@
 ---
-title: "Git Submodules and its Workflow"
+title: "Understand How Git Submodules Works and its Workflow"
 date: "2022-05-18"
 coverImage: "images/git-submodules.jpg"
 coverImageCredits: "Image by 牛肉面 https://www.pixiv.net/en/users/14326617"
+description: "Understand how git submodules work and how to use, update and work with them without errors, even if you have never done it before."
 categories:
 - git
 - linux and devops
