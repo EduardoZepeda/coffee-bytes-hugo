@@ -6,7 +6,7 @@ categories:
   - "arquitectura de software"
   - "opiniones"
 coverImage: "images/CaracteristicasBasicasDeUnaAPIREST.jpg"
-description: "¿Qué características debe cumplir una API REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS? ¿uso mayúsculas o minúsculas en la url?"
+description: "Cuáles son las características de una API REST? ¿Qué debo hacer para crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS? ¿uso mayúsculas o minúsculas en la url?"
 coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
 keywords:
   - REST
@@ -35,7 +35,7 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la obviedad), Pero, ¿qué es REST? REST es un estilo de arquitectura, que tiene que cumplir una serie de características de las que te hablo a continuación.
 
-### ¿Qué características tiene una API REST?
+### ¿Cuáles son las características de una API REST?
 
 No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones, como [RPC o gRPC](/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
 
