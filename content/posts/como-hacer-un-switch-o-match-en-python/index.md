@@ -1,11 +1,11 @@
 ---
-title: "¿Cómo hacer un switch en Python?"
+title: "¿Cómo escribir un switch en Python?"
 date: "2021-03-06"
 categories: 
   - "python"
 coverImage: "images/PythonYatiene.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Aprende a usar el switch statement de Python llamado match, su sintaxis básica y su guard, para controlar el flujo de tu aplicacion."
+description: "Aprende a escribir un statement switch en Python, también llamado match, su sintaxis básica y su guard, para controlar el flujo de tu aplicacion."
 keywords:
   - python
 authors:
@@ -15,33 +15,6 @@ authors:
 Se anunció Python 3.10 y viene con algo que muchos desarrolladores echaban de menos de otros lenguajes: el switch statement. Sí, ese trozo de código que evalúa una expresión y la compara con múltiples casos para decidir que ejecutar. Python no lo tenía implementado y muchos desarrolladores recurrían a ciertos trucos para imitarlo.
 
 Te recuerdo que si no sabes nada de Python tengo una entrada donde hablo del [libro "Inmersion en Python"](/aprende-python-desde-cero-con-este-libro-gratuito/); uno de los mejores libros gratuitos para aprender Python desde cero.
-
-## Switch en Python antes de su versión 3.10
-
-Si aún no tienes Python 3.10 puedes imitar el funcionamiento de un switch con una cadena interminable de _ifs_ o _elifs_ así:
-
-```python
-valor = "caso_n"
-if valor == "caso_1":
-    pass
-if valor == "caso_2":
-    pass
-if valor == "caso_3":
-    pass
-```
-
-O recurriendo a técnicas un poquito más sofisticadas:
-
-```python
-def evalua_caso(caso, *args):
-    switch = {"caso 1": "procesando caso 1", "caso 2": "procesando caso 2", "caso 3": "procesando caso 3"}
-    return switch.get(caso, "Procesando caso por defecto")
-
-valor = "caso 1"
-evalua_caso(valor)
-```
-
-Los valores de cada llave en el diccionario pueden reemplazarse por funciones para tener aún mayor control sobre el flujo del programa.
 
 ## Switch en Python 3.10
 
@@ -93,6 +66,34 @@ match subject:
 ```
 
 Y hay que notar que el _subject_ puede ser una cadena de texto, un objeto, una tupla o una instancia de una clase.
+
+## Switch en Python antes de su versión 3.10
+
+Si aún no tienes Python 3.10 puedes imitar el funcionamiento de un switch con una cadena interminable de _ifs_ o _elifs_ así:
+
+```python
+valor = "caso_n"
+if valor == "caso_1":
+    pass
+if valor == "caso_2":
+    pass
+if valor == "caso_3":
+    pass
+```
+
+O recurriendo a técnicas un poquito más sofisticadas:
+
+```python
+def evalua_caso(caso, *args):
+    switch = {"caso 1": "procesando caso 1", "caso 2": "procesando caso 2", "caso 3": "procesando caso 3"}
+    return switch.get(caso, "Procesando caso por defecto")
+
+valor = "caso 1"
+evalua_caso(valor)
+```
+
+Los valores de cada llave en el diccionario pueden reemplazarse por funciones para tener aún mayor control sobre el flujo del programa.
+
 
 ## Otros cambios que incluye Python 3.10
 

@@ -6,7 +6,7 @@ categories:
 
 coverImage: "images/PythonYatiene.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/@cottonbro/"
-description: "Learn how to use the Python switch statement called match, its basic syntax and guard, to control the flow of your application."
+description: "Learn how to use the Python switch statement, also known as match, its basic syntax and guard, to control the flow of your application."
 keywords:
 - python
 
@@ -17,33 +17,6 @@ authors:
 Python 3.10 was announced and it comes with something that many developers were missing from other languages: the switch statement. Yes, that piece of code that evaluates an expression and compares it with multiple cases to decide what to execute. Python did not have it implemented and many developers resorted to certain tricks to imitate it.
 
 I remind you that if you don't know anything about Python I have a post where I talk about the [book "Inmersion en Python"](/blog/learn-python-from-scratch-with-this-free-book/); one of the best free books to learn Python from scratch.
-
-## Switch in Python before version 3.10
-
-If you don't already have Python 3.10 you can mimic the operation of a switch with an endless string of _ifs_ or _elifs_ like this:
-
-```python
-valor = "caso_n"
-if valor == "caso_1":
-    pass
-if valor == "caso_2":
-    pass
-if valor == "caso_3":
-    pass
-```
-
-Or by resorting to slightly more sophisticated techniques:
-
-```python
-def evalua_caso(caso, *args):
-    switch = {"caso 1": "procesando caso 1", "caso 2": "procesando caso 2", "caso 3": "procesando caso 3"}
-    return switch.get(caso, "Procesando caso por defecto")
-
-valor = "caso 1"
-evalua_caso(valor)
-```
-
-The values of each key in the dictionary can be replaced by functions to have even more control over the flow of the program.
 
 ## Switch in Python 3.10
 
@@ -95,6 +68,33 @@ match subject:
 ```
 
 And note that the _subject_ can be a string, an object, a tuple or an instance of a class.
+
+## Switch in Python before version 3.10
+
+If you don't already have Python 3.10 you can mimic the operation of a switch with an endless string of _ifs_ or _elifs_ like this:
+
+```python
+valor = "caso_n"
+if valor == "caso_1":
+    pass
+if valor == "caso_2":
+    pass
+if valor == "caso_3":
+    pass
+```
+
+Or by resorting to slightly more sophisticated techniques:
+
+```python
+def evalua_caso(caso, *args):
+    switch = {"caso 1": "procesando caso 1", "caso 2": "procesando caso 2", "caso 3": "procesando caso 3"}
+    return switch.get(caso, "Procesando caso por defecto")
+
+valor = "caso 1"
+evalua_caso(valor)
+```
+
+The values of each key in the dictionary can be replaced by functions to have even more control over the flow of the program.
 
 ## Other changes included in Python 3.10
 
