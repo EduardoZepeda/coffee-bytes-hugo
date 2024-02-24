@@ -18,7 +18,7 @@ authors:
 
 El sábado 6 de agosto del 2022 presenté  y aprobé mi examen para la certificación Microsoft Azure AZ-900.
 
-## ¿Enalgo que consiste la certificación AZ-900?
+## ¿En que consiste la certificación AZ-900?
 
 La certificación AZ-900 Fundamentals garantiza que una persona conoce todos los servicios básicos que tiene la nube de microsoft, Azure, y sus aplicaciones empresariales.
 
@@ -38,7 +38,7 @@ Según me dijeron en uno de sus correos, la aplicación del examen puede pospone
 
 ## Formato del examen AZ-900
 
-La duración del examen es de aproximadamente 60 minutos y cuenta con 45 preguntas, hay preguntas de opción múltiple, verdadero o falso, de relacionar columnas e incluso algunas en las que tienes que elegir una opción del marketplace de Microsoft directamente, just como si te encontraras en el navegador.
+La duración del examen es de aproximadamente 60 minutos y cuenta con 45 preguntas, hay preguntas de opción múltiple, verdadero o falso, de relacionar columnas e incluso algunas en las que tienes que elegir una opción del marketplace de Microsoft directamente, justo como si te encontraras en el navegador.
 
 ![Captura de pantalla del portal de Azure](images/portal-azure.png "Portal de azure")
 
@@ -50,11 +50,11 @@ Al finalizar el examen, el sistema calcula tu puntuación de manera automática,
 
 ### Contenido del examen
 
-El examen está fuertemente orientado a las aplicaciones prácticas de los servicios de la nube. Con preguntas enfocadas a casos prácticos, donde una empresa ficticia necesita decidir que servicio de la nube puede satisfacer mejor sus necesidades, por lo que no basta con saber definiciones, sino tener muy claros los conceptos y entenderlos, para poder aplicarlos en un entorno un poco más parecido al real.
+El examen está fuertemente orientado a las aplicaciones prácticas de los servicios de la nube. Este cuenta con preguntas enfocadas a casos prácticos, donde una empresa ficticia necesita decidir que servicio de la nube puede satisfacer mejor sus necesidades, por lo que no basta con saber definiciones, sino tener muy claros los conceptos y entenderlos, para poder aplicarlos en un entorno un poco más parecido al real.
 
 ### ¿En que idioma está el examen?
 
-Al momento de presentar el examen es posible seleccionar de entre varios idiomas, entre ellos inglés y español, por lo que despreocúpate si crees que el idioma será una barrera más en este examen.
+Al momento de presentar el examen es posible seleccionar de entre **varios idiomas, entre ellos inglés y español**, por lo que despreocúpate si crees que el idioma será una barrera más en este examen.
 
 ## ¿Dónde estudiar para el examen de certificación AZ-900?
 
@@ -96,7 +96,7 @@ La certificación cuesta **alrededor de $90 USD directamente con microsoft**, pe
 
 Tengo entendido que si te registras en la plataforma de e-learning Microsoft Learn, suelen regalar cupones de vez en cuando.
 
-Con tantos cupones y otras opciones gratuitas, yo no te recomiendo que desembolses el dinero de tu bolsillo sino que esperes a que aparezca alguna oportunidad de obtenerla de manera gratuita o mucho más barata.
+Con tantos cupones y otras opciones gratuitas, **yo no te recomiendo que desembolses el dinero de tu bolsillo** sino que esperes a que aparezca alguna oportunidad de obtenerla de manera gratuita o mucho más barata.
 
 ## Proceso de certificación gratuita por parte de Platzi
 
