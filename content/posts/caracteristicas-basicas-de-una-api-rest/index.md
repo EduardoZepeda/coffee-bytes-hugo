@@ -35,13 +35,13 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la obviedad), Pero, ¿qué es REST? REST es un estilo de arquitectura, que tiene que cumplir una serie de características de las que te hablo a continuación.
 
-### ¿Cuáles son las características de una API REST?
+### ¿Cuáles son las características de las API REST?
 
 No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones, como [RPC o gRPC](/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
-Si queremos diseñar una API REST tenemos que cumplir una serie de características que definen este estilo de diseño. Te las resumo brevemente a continuación:
+¿Qué características tienen las API REST? Si queremos diseñar una API REST tenemos que cumplir una serie de características que definen este estilo de diseño. Te las resumo brevemente a continuación:
 
 - **Sistema con arquitectura cliente-servidor.** Un sistema que consiste en dos partes, una que solicita información y la otra que la proporciona.
 - **Sin estado (Stateless):** el resultado de una petición no debe depender de peticiones anteriores. Es decir, el cliente debe proporcionar todo lo necesario para que su procesamiento por el servidor y el servidor no debe almacenar ninguna información de la sesión.

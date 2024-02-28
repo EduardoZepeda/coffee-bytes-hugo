@@ -16,6 +16,24 @@ authors:
 
 La agrupación por categorías es bastante recurrente en aplicaciones web, desde películas, cursos o cualquier otro recurso que presente una relación jerárquica hacía otro objeto. En Django existen diferentes maneras de modelar estas relaciones. Probablemente, la primera que se te vendrá a la mente será crear un objeto _categoria_, y luego relacionarlo por medio de una _ForeignKey_ con una _subcategoria_.
 
+## ¿Qué es una Foreign Key o clave foránea en Django?
+
+En Django, una foreign key (clave foránea) es un campo utilizado para establecer una relación entre dos modelos en una base de datos relacional. Este campo sirve para crear una relación uno a muchos entre dos modelos, donde un modelo tiene una clave que apunta a otro modelo. La foreign key se utiliza como una referencia a la clave primaria de otro modelo.
+
+```python
+from django.db import models
+
+class Team(models.Model):
+    name = models.CharField(max_length=100)
+
+
+class Member(models.Model):
+    name = models.CharField(max_length=200)
+    # Un equipo tiene varios miembros
+    # models.CASCADE le índica que al borrarse un equipo se borren sus miembros
+    team = models.ForeignKey(Team, on_delete=models.CASCADE)
+```
+
 ## Una subcategoría o nivel por modelo
 
 A lo que me refería con una categoría o nivel por modelo es a algo como esto:
