@@ -107,4 +107,4 @@ Tampoco veo a Adobe dando marcha atrás a los cambios que hizo y volviendo a ofr
 
 - [Why Adobe Shifted to a Subscription Model](https://www.linkedin.com/pulse/why-adobe-shifted-subscription-model-travis-hardman)
 - [Manifiesto de Once](https://once.com/) 
-- [https://tomtunguz.com/adobe-saas-growth](https://tomtunguz.com/adobe-saas-growth)
+- [Adobe SAAS Growth](https://tomtunguz.com/adobe-saas-growth)
