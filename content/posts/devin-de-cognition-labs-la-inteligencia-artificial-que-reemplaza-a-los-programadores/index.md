@@ -73,7 +73,15 @@ Además, todas aquellas profesiones encargadas de perfeccionar los modelos de AI
 
 Conseguir un trabajo si eres nuevo en la industría será bastante complicado, pero al mismo tiempo la barrera para crear negocios digitales disminuirá y será más importante el identificar y resolver problemas. Volverte un solopreneur o un freelance será increíblemente sencillo, pues las habilidades técnicas requeridas se reducirá significativamente y quizás sea mejor que apuntes hacia esa dirección.
 
-¿Qué tan probable veo este escenario? La verdad es que **yo lo considero un escenario bastante improbable**. 
+¿Qué tan probable veo este escenario? La verdad es que **yo lo considero un escenario bastante improbable, casi rayando en lo improbable**.
+
+#### ¿Por qué creo que Devin no reemplazará a los programadores?
+
+Si lo que los creadores de Devin dicen, les sería más fácil crear una agencia de desarrollo de software que operara con un mínimo de empleados y limitarse a vender software, la ventaja competitiva que tienen dependería solo del poder de computo que pudieran conseguir, consiguiendo el monopolio en muy poco tiempo.
+
+Devin aún no ha sido puesto a prueba en condiciones reales, donde las problemas pueden ser extremadamente complejos y consistir en una mezcla entre el conocimiento del negocio, las leyes vigentes del país donde corren las aplicaciones, el caprichoso comportamiento del mercado, lo cual ciertamente requiere algo más parecido a una AGI, que cualquier modelo de lenguaje que ellos hayan podido desarrollar, incluso si este es superior a la versión más actualizada de ChatGPT.
+
+A mi la verdad el título de "Ingeniero de Software de AI" me parece un título poco arriesgado.
 
 ### Devin es solo hype temporal y será olvidado pronto
 
@@ -83,7 +91,7 @@ Ha sucedido múltiples veces en el pasado; toda gran idea olvidada empieza con l
 
 ¿Recuerdas [Agent Swarm AI](https://github.com/daveshap/OpenAI_Agent_Swarm)? También generó muchas expectativas pero al final no cristalizó en nada.
 
-Hasta ahora Copilot, ChatGPT y probablemente Devin no han sido más que "búsquedas de google" con esteroides, pueden darte la información que solicitas directamente, pero no necesariamente es real y a prueba de fallos. El proceso iterativo que ofrece este sistema mejora bastante la dinámica usual de pregunta-respuesta, pero no deja de ser inmune a caer en bucles producto de problemas que no pueda resolver o a producir algo totalmente distinto a lo que se le pide, por ahora necesitamos ponerlo a prueba mucho más.
+Hasta ahora Copilot, ChatGPT y probablemente Devin no han sido más que "búsquedas de google" con esteroides; pueden darte la información que solicitas directamente, pero no necesariamente es real y a prueba de fallos. El proceso iterativo que ofrece este sistema mejora bastante la dinámica usual de pregunta-respuesta, pero no deja de ser inmune a caer en bucles producto de problemas que no pueda resolver o a producir algo totalmente distinto a lo que se le pide, por ahora necesitamos ponerlo a prueba mucho más.
 
 Además de lo anterior, hay otro aspecto que estamos obviando.
 
@@ -99,9 +107,9 @@ Déjame describirte una situación:
 
 !["Meme de omniman hablando con su hijo"](images/its-all-about-shareholders.jpg)
 
-Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing para inflar las expectativas, atraer inversores y conseguir dinero "fácil".
+Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil".
 
-Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada. Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos meses, una década o dos, lo único importante es que te sea lo suficientemente rentable de acuerdo a tus propios criterios de inversión. En otras palabras: ¿Qué más da si el proyecto muere si puedo convertir 21 MDD en 40 MDD en menos de un año?
+Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada. Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos meses, una década o dos, lo único importante es que te sea lo suficientemente rentable de acuerdo a tus propios criterios de inversión. En otras palabras: ¿Qué más da si el proyecto muere si puedo convertir 21 MDD en 40 MDD en menos de un año? 
 
 !["Meme del rapper rechazando la primera opción aplicado a Cognition labs"](images/meme-rapper-devin-access.jpg)
 
