@@ -15,7 +15,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral y sus numerosas aplicaciones; tales como el [desarrollo de nuevos fármacos](/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es Chat GPT consciente?
+Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral y sus numerosas aplicaciones; tales como el [desarrollo de nuevos fármacos](/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/) o [reemplazar completamente a los ingenieros de Software, como Devin promete](/devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores/). Hoy dejo de lado la parte de las consecuencias económicas para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende chat GPT realmente el lenguaje? ¿es Chat GPT consciente?
 
 >What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
