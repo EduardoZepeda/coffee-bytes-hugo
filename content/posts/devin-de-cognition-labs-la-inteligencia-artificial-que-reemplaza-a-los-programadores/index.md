@@ -71,11 +71,29 @@ Además, todas aquellas profesiones encargadas de perfeccionar los modelos de AI
 
 Conseguir un trabajo si eres nuevo en la industría será bastante complicado, pero al mismo tiempo la barrera para crear negocios digitales disminuirá y será más importante el identificar y resolver problemas. Volverte un solopreneur o un freelance será increíblemente sencillo, pues las habilidades técnicas requeridas se reducirá significativamente.
 
-### Devin es solo hype y una estrategia para volverse rico rápido
+¿Qué tan probable veo este escenario? La verdad es que **yo lo considero un escenario improbable**. 
+
+### Devin es solo hype temporal y será olvidado pronto
 
 La otra posibilidad es que no pase nada. Sí, nada.
 
 Ha sucedido múltiples veces en el pasado; toda gran idea olvidada empieza con la promesa de revolucionar el mundo, tal como sucedió con el no-code o con Dreamweaver (Un editor WYSIWYG para crear sitios web de 2007). Ambas fueron tecnologías que de un momento a otro amenazaron con cambiar para siempre el mundo de la tecnología, y no lo consiguieron.
+
+¿Recuerdas [Agent Swarm AI](https://github.com/daveshap/OpenAI_Agent_Swarm)? También generó muchas expectativas pero al final no cristalizó en nada.
+
+Hasta ahora Copilot, ChatGPT y probablemente Devin no han sido más que "búsquedas de google" con esteroides, pueden darte la información que solicitas directamente, pero no necesariamente es real y a prueba de fallos. El proceso iterativo que ofrece este sistema mejora bastante la dinámica usual de pregunta-respuesta, pero no deja de ser inmune a caer en bucles producto de problemas que no pueda resolver o a producir algo totalmente distinto a lo que se le pide, por ahora necesitamos ponerlo a prueba mucho más.
+
+Además de lo anterior, hay otro aspecto que estamos obviando.
+
+#### El aspecto financiero de la Inteligencia Artificial
+
+Déjame describirte una situación: 
+1. Un grupo de emprendedores presentan un producto novedoso.
+2. Se viraliza y todos hablan de como cambiará por siempre nuestro día a día
+3. Los creadores reciben capital semilla de muchísimos inversionistas
+4. Se termina convirtiendo en una herramienta más y todo sigue igual
+
+¿Te suena a algo parecido? Quizás solo sean un grupo de personas buscando volverse millonarias.
 
 !["Meme de omniman hablando con su hijo"](images/its-all-about-shareholders.jpg)
 
