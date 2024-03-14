@@ -1,8 +1,10 @@
 ---
-title: "OCR con tesseract, python y pytesseract"
+title: "OCR Reconocimiento óptico de carácteres con tesseract y pytesseract"
 date: "2021-09-28"
+url: "ocr-con-tesseract-python-y-pytesseract"
 categories: 
   - "python"
+  - "Inteligencia Artificial"
 coverImage: "images/OCR.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/@cottonbro/"
 description: "Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre imágenes usando python, tesseract-ocr y pytesseract."
@@ -37,7 +39,7 @@ Asegúrate de instalar el tesseract-ocr más nuevo, hay una diferencia abismal e
 ```bash
 sudo apt install tesseract-ocr
 tesseract -v
-tesseract 5.0.0-alpha-20201224-3-ge1a3
+tesseract 5.3.0
 ```
 
 ![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](images/OCRTesseractVersion5vsVersion3-2.png "Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5")
@@ -107,7 +109,7 @@ sudo mv eng.traineddata /usr/local/share/tessdata/
 Tras la instalación agregamos pytesseract (los bindings de python) y pillow (para el manejo de imágenes) a nuestro entorno virtual.
 
 ```bash
-pipenv install pytesseract pillow
+pip install pytesseract pillow
 ```
 
 ## Leer texto de imágenes con python
