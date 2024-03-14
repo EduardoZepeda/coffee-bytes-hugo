@@ -11,7 +11,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de python vs go, donde también comparo lo bueno, lo malo y lo feo de este lenguaje.
+Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de [python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/), donde también comparo lo bueno, lo malo y lo feo de este lenguaje.
 
 ## Un poco sobre el lenguaje
 

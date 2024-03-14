@@ -15,7 +15,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de una manera bastante superficial; me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental, decidí darle una oportunidad al lenguaje. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este 2023.
+Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de una manera bastante superficial; empecé a invesgar sobre el lenguaje porque me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental sobre los pros y cons del lenguaje, decidí darle una oportunidad. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este año.
 
 Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
 
@@ -34,7 +34,7 @@ Ambos lenguajes se caracterizan porque la producción de código en ellos es rá
 
 La **compilación de go es extremadamente rápida** y, aunque su ejecución podría ser ligeramente más lenta que si usaras C++ o Rust, el desarrollo de productos y MVPs debería tomar menos tiempo que con esos lenguajes.
 
-### Mi opinión sobre el odio a go
+### Go es un lenguaje polémico, mi opinión
 
 Go es un **lenguaje bastante polémico que desencadena discusiones bastante acaloradas**. Te dejo algunos ejemplos a continuación de lo variadas que son las opiniones:
 
@@ -43,23 +43,23 @@ Go es un **lenguaje bastante polémico que desencadena discusiones bastante acal
 
 Las quejas van desde la simpleza del lenguaje, la afirmación de Robert Pike sobre que es un lenguaje para programadores "no tan brillantes", hasta la, (ya solucionada) falta de generics.
 
-¿Mi opinión? Yo creo que ciertamente no es el lenguaje mejor diseñado (prefiero Rust). Entonces ¿por qué usarlo? Google creó el lenguaje basándose en una serie de problemas bastante concretos; Go es la solución a estos problemas. 
+¿Mi opinión? Yo creo que ciertamente no es el lenguaje mejor diseñado (prefiero Rust) desde punto de vista purista y estético. Entonces ¿por qué usar el lenguaje del roedor azul? Por su simpleza; Google creó el lenguaje basándose en una serie de problemas bastante concretos; Go es la solución a estos problemas. 
 
 Go es bueno para un par de cosas que los programadores suelen obviar, la parte de negocios:
 
 * Iteración. Su rápida velocidad de compilación y facilidad de escritura permiten iterar más rápido que con otros lenguajes, lo que se traduce en más dinero y menos riesgo a largo plazo para el negocio.
-* Fácil de aprender. No, aunque a todos nos gustaría, tu empresa no va a despedir a toda el departamento para contratar programadores en Rust o C++ es más fácil capacitar a los programadores a aprender el lenguaje.
-* Paquetes y biblioteca estándar. Probablemente tu compañía no tenga el tiempo ni los recursos para que crees código desde cero. Go cuenta con una biblioteca estándar bastante madura y que brinda una solución para la mayoría de las necesidades.
+* Fácil de aprender. No, aunque a todos nos gustaría, tu empresa no va a despedir a toda el departamento para contratar programadores en Rust o C++ es más fácil capacitar a los programadores para que aprendan el lenguaje.
+* Paquetes y biblioteca estándar. Probablemente tu compañía no tenga el tiempo ni los recursos para que crees el código desde cero. Go cuenta con una biblioteca estándar bastante madura y que brinda una solución para la mayoría de las necesidades.
 
-Por supuesto que esto no necesariamente es bueno desde el punto de vista de un perfil técnico, pero ya sabrás de primera mano que el dinero suele influir fuertemente en las decisiones de negocios.
+Por supuesto que esto no necesariamente es bueno desde el punto de vista de un perfil técnico, pero ya sabrás de primera mano que, en el mundo de los negocios, el dinero suele influir mucho más en las decisiones de negocios que las buenas prácticas en el código.
 
-## Antigüedad
+## ¿Qué tan antiguo es Go?
 
 Python fue creado por Guido Van Rossum a finales de los 80's. Go, por otro lado, es un lenguaje mucho más joven que Python, lanzado veinte años después, en 2009, y diseñado inicialmente por Robert Griesemer, Rob Pike y Ken Thompson.
 
 ## Tipado
 
-### Tipado en Go
+### ¿Cómo es el tipado en go?
 
 Go es un **lenguaje compilado con tipado fuerte**, que requiere que especifiquemos el tipo de dato al momento de crear una variable. Sin embargo, también tiene una manera de dejar que el compilador intuya el tipo de variable, bajo ciertas condiciones, de manera automática.
 
@@ -73,7 +73,7 @@ tipoExplicito = 1.5
 // Error: constant 1.5 truncated to integer
 ```
 
-### Tipado en Python
+### ¿Cómo es el tipado en Python?
 
 Python es un **lenguaje interpretado fuértemente tipado**; no requiere que especifiquemos el tipo de variable. Además podemos cambiar de tipo a una variable sin problema en cualquier momento. Implementa tipado opcional a partir de su versión 3.5 pero no son forzados por el intérprete.
 
@@ -90,7 +90,7 @@ numero + 2
 
 ## Sintaxis
 
-### Sintaxis en go
+### Sintaxis básica de go
 
 Go basa fuertemente su sintaxis en C y toma algunas características de lenguajes como Python para favorecer la legibilidad de su código. Destaca en que **no tiene ciclos while, ni do while**. Y, a diferencia de Python, sí usa llaves.
 
@@ -149,7 +149,7 @@ func (p *Profesor) Saludar(){
 }
 ```
 
-### Sintaxis en Python
+### Sintaxis básica de Python
 
 La sintaxis de Python es súper limpia, enfocada en la legibilidad del código; no usa llaves para separar el código, sino saltos de linea e identaciones obligatorias. Y, a diferencia del compilador de Go, el intérprete de Python no es tan estricto.
 
@@ -224,7 +224,7 @@ Este script tardará tres segundos en ejecutarse.
 
 El manejo de errores es algo que es bastante constante en los lenguajes, pero en el caso de go nos encontramos con que los creadores optaron por abandonar la convención y puede ser algo diferente a lo que estás acostumbrado.
 
-### Manejo de errores en go
+### El horrible manejo de errores en go
 
 Go tiene una manera bastante peculiar de manejar los errores. **No cuenta con bloques _try_ y _except_ (o su equivalente en otros lenguajes)**. Sino que la ejecución de una función puede retornar un error como un segundo valor de retorno, el cual podemos obtener y verificar para saber si ha ocurrido un error.
 
@@ -235,7 +235,7 @@ message, err := requestToApiEndpoint(")
     }
 ```
 
-### Manejo de errores en Python
+### El elegante manejo de errores en Python
 
 Python maneja el clásico patrón de _try...except_ que manejan la mayoría de los lenguajes de programación, donde los errores son capturados por el bloque _except_ y procesados a continuación.
 
@@ -281,7 +281,7 @@ func sinValoresPredeterminados(valor=1, valor2=2){
 
 El manejo de errores en Go no es muy bien recibido por muchos desarrolladores, quienes lo consideran inferior al de otros lenguajes. 
 
-El siguiente patrón será muy recurrente y se repetirá múltiples veces en tu código, violando la máxima de DRY.
+El siguiente patrón será muy recurrente y se repetirá múltiples veces en tu código, violando la máxima de DRY. 
 
 ```go
 if err != nil {
@@ -295,7 +295,7 @@ Entre las cosas no tan geniales de Python está la fuerte separación que ocurri
 
 Otro aspecto bastante problemático es el uso excesivo de memoria, junto con la velocidad del lenguaje; el intérprete de Python es lento. Python está forzado de manera predeterminada a correr en un solo hilo, por su [GIL](https://wiki.python.org/moin/GlobalInterpreterLock), lo cual no permite el aprovechamiento total por parte de las computadoras modernas sin complicar el código.
 
-## Soporte
+## Soporte de Go
 
 Go, a la fecha de escritura de este artículo, requiere instalarse en el sistema ya sea de la página oficial o los repositorios.
 
@@ -307,7 +307,7 @@ Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra ins
 
 ### Usos de go
 
-Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, servidores de backend y en blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
+Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, al grado de que algunos lo consideran la lengua defacto del los servidores de backend y el blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
 
 Los [containers de docker están escritos usando go](/container-de-docker-con-namespaces-y-cgroups/).
 
@@ -325,7 +325,7 @@ A la fecha Python es mucho más popular que Go. Puedes observar que Go ganó pop
 
 ![Google trends comparando Go vs Python. Python es más popular a la fecha.](images/Python-vs-go-popularidad.png)
 
-### Popularidad entre los desarrolladores en 2022
+### Popularidad entre Python y Go en 2022
 
 Go es un lenguaje bastante popular entre los desarrolladores, mucho más apreciado que Javascript, pero menos querido que Python y Typescript.
 

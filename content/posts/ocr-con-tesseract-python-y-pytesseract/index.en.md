@@ -3,7 +3,7 @@ title: "OCR with tesseract, python and pytesseract"
 date: "2021-09-28"
 categories:
 - "python"
-
+- "Artificial Intelligence"
 coverImage: "images/OCR.jpg"
 coverImageCredits: "credits https://www.pexels.com/@cottonbro/"
 description: "Learn how to perform optical character recognition (OCR) on images using python, tesseract-ocr and pytesseract."
