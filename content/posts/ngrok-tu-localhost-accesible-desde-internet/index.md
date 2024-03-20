@@ -12,7 +12,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Me topé con Ngrok intentando redirigir la notificación de un pago de Mercado Pago a mi localhost, para hacer pruebas. Funcionaba más o menos así. Mercado pago te otorgaba una dirección url a donde redigir al comprador para efectuara el pago. Una vez terminado el pago, Mercado Pago hacía una petición HTTP a cualquier dirección url que tú le indicaras y mandaba por POST los resultados del intento de pago. El problema es que mercado libre no manda notificaciones a localhost.
+Me topé con Ngrok intentando redirigir la notificación de un pago de Mercado Pago a mi localhost, para hacer pruebas. Funcionaba más o menos así: Mercado pago te otorgaba una dirección url a donde redigir al comprador para efectuara el pago. Una vez terminado el pago, Mercado Pago hacía una petición HTTP a cualquier dirección url que tú le indicaras y mandaba por POST los resultados del intento de pago. El problema es que mercado libre no manda notificaciones a localhost.
 
 ## Ngrok te permite compartir tu localhost al exterior
 
@@ -22,24 +22,7 @@ Lo que hace Ngrok es servir como un túnel que redirige cualquier petición web,
 
 ## Instalación de Ngrok
 
-Para instalar Ngrok entremos en [su sitio web](https://ngrok.com/) y creemos una cuenta o iniciemos sesión. Puedes usar Github o Gmail si no quieres registrarte.
-
-![Pantalla de loggeo de la página web de Ngrok](images/LoginNgrok.png)
-
-Ahora descarguemos el programa, hay que tener cuidado de elegir el adecuado para nuestro sistema operativo, yo usaré el de GNU/Linux.
-
-![Enlace de descarga de la página web de Ngrok](images/DownloadNgrok.png)
-
-Tener el programa no es suficiente, necesitamos un Token para poder usarlo.
-
-![Token de acceso de la página web de Ngrok](images/TokenNgrok.png)
-
-Ahora que ya tenemos el token y el programa descargado vamos a usar Ngrok y usemos el token para crear un archivo de configuración de manera automática. En algunos casos puedes saltar este paso.
-
-```bash
-unzip ngrok-stable-linux-amd64.zip
-./ngrok authtoken tu_token_secreto
-```
+Para instalar Ngrok entra directamente en [su sitio web](https://ngrok.com/) y creemos una cuenta o iniciemos sesión. Puedes usar Github o Gmail si no quieres registrarte.
 
 ## Uso básico de ngrok
 
@@ -49,13 +32,13 @@ Para ejecutar ngrok en GNU/Linux basta con correr el ejecutable, seguido de la o
 ./ngrok http 8080
 ```
 
-Si todo funcionó correctamente verás la siguiente información en tu terminal
+Si todo funcionó correctamente verás algo parecido a est en tu terminal
 
 ![Información de Ngrok en la terminal](images/NgrokTerminal.png)
 
 ¿Qué significa la pantalla de arriba? Significa que todas las peticiones que se hagan a http://fc2ca35fd170.ngrok.io; es decir, al subdominio fc2ca35fd170 del dominio de ngrok, se redirigirán a tu localhost, específicamente al puerto 8080. Y es todo, así de simple y fácil de usar.
 
-## Ejemplo con Django
+## ¿Cómo usar ngrok con Django?
 
 Para este ejemplo redigirí una aplicación de Django en el puesto 8000, en lugar del puerto 8080.
 

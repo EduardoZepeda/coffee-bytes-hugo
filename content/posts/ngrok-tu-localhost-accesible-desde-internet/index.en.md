@@ -24,24 +24,7 @@ What Ngrok does is to serve as a tunnel that redirects any web request, through 
 
 ## Ngrok installation
 
-To install Ngrok let's go to [their website](https://ngrok.com/) and create an account or log in. You can use Github or Gmail if you don't want to register.
-
-![Ngrok web page login screen](images/LoginNgrok.png)
-
-Now let's download the program, we must be careful to choose the right one for our operating system, I will use the GNU/Linux one.
-
-![Download link from the Ngrok web site](images/DownloadNgrok.png)
-
-Having the program is not enough, we need a token to be able to use it.
-
-![Ngrok website access token](images/TokenNgrok.png)
-
-Now that we have the token and the program downloaded let's use Ngrok and use the token to create a configuration file automatically. In some cases you can skip this step.
-
-```bash
-unzip ngrok-stable-linux-amd64.zip
-./ngrok authtoken tu_token_secreto
-```
+To install Ngrok let's go to [their website](https://ngrok.com/) and create an account or log in. You can use Github or Gmail if you don't want to register and follow the installation instructions.
 
 ## Basic use of ngrok
 
@@ -51,13 +34,13 @@ To run ngrok on GNU/Linux just run the executable, followed by the http option a
 ./ngrok http 8080
 ```
 
-If everything worked correctly, you will see the following information on your terminal
+If everything worked correctly, you will see something similar to the following.
 
 ![Ngrok information in the terminal](images/NgrokTerminal.png)
 
 What does the above display mean? It means that all requests made to http://fc2ca35fd170.ngrok.io; that is, to the fc2ca35fd170 subdomain of the ngrok domain, will be redirected to your localhost, specifically to port 8080. And that's it, it's that simple and easy to use.
 
-## Example with Django
+## Using Ngrok with Django
 
 For this example I redirected a Django application on port 8000, instead of port 8080.
 
