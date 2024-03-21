@@ -25,7 +25,7 @@ languageName = 'Español'
 
 [params]
 GoogleTagManager = "GTM-5F4NMW3"
-description = "Artículos sobre desarrollo web y Linux."
+description = "Artículos y tutoriales sobre programación y desarrollo web: Django, React, Go en Linux"
 excludeFromSitemap = ["tags", "categories", "posts", "pages"]
 [params.latte]
 disablesearch = false
