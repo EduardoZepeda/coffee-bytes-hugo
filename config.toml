@@ -33,10 +33,10 @@ mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
 modalcountdown = 20
 seodescription = "Blog personal de Eduardo Zepeda con tutoriales, entradas e información interesante sobre desarrollo web full stack en Python, Django, React, Javascript, Typescript, Golang y otros frameworks de desarrollo, siempre en un entorno de desarrollo basado en GNU/Linux. "
-subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python."
+subscribebannertext = "¡Llévate completamente GRATIS mi guía de trucos de Python."
 subscribedescription = """
                           ✅ Para acceder solo suscríbete al newsletter, es <strong>completamente gratis.</strong> <br>
-                          ✅ Más de 200 desarrolladores registrados. Tutoriales completamente gratuitos cada semana directo en tu correo y cero spam.
+                          ✅ Más de 400 desarrolladores registrados. Tutoriales y reflexiones completamente gratuitos cada semana, a veces meses :) directo en tu correo y cero spam.
                           """
 subscribetitle = "¡GRATIS! Guía de trucos de Python."
 toc = true
