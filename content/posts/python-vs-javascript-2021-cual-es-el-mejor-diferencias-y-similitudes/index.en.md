@@ -1,5 +1,5 @@
 ---
-title: "Python vs Javascript which one is better?"
+title: "Python vs Javascript which one is better in 2024?"
 date: "2020-12-10"
 url: "python-vs-javascript-which-is-the-best-programming-language"
 categories:
@@ -18,7 +18,7 @@ authors:
 
 ---
 
-If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you in 2023.
+Updated to 2024: If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you in 2024.
 
 I also have a comparison of [Python vs go](/blog/python-vs-go-which-is-the-best/) that you can check out.
 
@@ -202,19 +202,19 @@ Python is a multipurpose language, it allows you to create native UI application
 
 ## Popularity
 
-Javascript started out much more popular than Python, probably due to the rise of web browsers. However, somewhere around 2017, Python gained relevance compared to JavaScript and the trend continues until the end of 2022.
+Javascript started out much more popular than Python, probably due to the rise of web browsers. However, somewhere around 2017, Python gained relevance compared to JavaScript and the trend continues until the end of 2024.
 
 ![Google trends graph comparing Python vs Javascript](images/Python-vs-Javascript-desde-2004.png "Python gains relevance vs Javascript in Google trends")
 
-### Popularity among developers in 2022
+### Popularity among developers in 2024
 
 Stackoverflow shows in its surveys that, among developers, Python is much more popular than Javascript. However, Typescript (the strongly typed JavaScript super set I mentioned earlier) is slightly more popular than Python.
 
 ![StackOverflow survey results for languages most liked by developers. Python ranks above Javascript](images/love-vs-dreaded-python-javascript.png "Python surpasses Javascript in popularity in 2023").
 
-## Python and Javascript salaries in 2022
+## Python and Javascript salaries in 2024
 
-According to Stackoverflow's latest survey (2022), professionals using Python are slightly better paid than those using JavaScript. However, the difference is not that significant. Typescript also ranks above Javascript.
+According to Stackoverflow's latest survey (2024), professionals using Python are slightly better paid than those using JavaScript. However, the difference is not that significant. Typescript also ranks above Javascript.
 
 ![Developer salaries according to programming language used](images/salarios-python-vs-javascript.png "Python overtakes Javascript in salaries in 2023")
 

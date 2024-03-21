@@ -20,7 +20,7 @@ Trabajar con Javascript es frustrante y, a veces, combinarlo con HTML resulta de
 
 ## Javascript maneja las fechas de manera extraña
 
-Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan.
+Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan. Lenguajes como [Python tiene mejores abstracciones que las que maneja Javascript.](/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/)
 
 ![](images/date-javascript.webp)
 
@@ -28,7 +28,7 @@ Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos 
 
 En el caso de agendar un evento con fecha y hora, es tentador utilizar el input datetime-local nativo que ya provee HTML. Sin embargo, este campo por defecto requiere una fecha en formato "YYYY-MM-DDThh:mm", mientras que javascript regresa las fechas en un objeto Date, que debes transformar a ISO 6801 "YYYY-MM-DDThh:mm.iiiZ", donde la "i" son microsegundos (o a otro formato con una función propia).
 
-![](images/two-dates-javascript.jpg)
+![](images/two-dates-javascript.png)
 
 Para realizar esta transformación, la manera más obvia es eliminar la letra "Z", pero si intentas asignar esa fecha al input de tipo datetime-input, este le permitirá seleccionar los milisegundos al usuario, lo cual realmente tiene pocas aplicaciones para la mayoría de los usuarios. Lo correcto sería cortar desde el principio, haciendo un slice desde la posición 0 hasta la sensibilidad que necesitemos. 
 

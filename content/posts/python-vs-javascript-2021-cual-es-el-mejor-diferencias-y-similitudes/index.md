@@ -1,5 +1,5 @@
 ---
-title: "Python vs Javascript 2023 ¿cuál es el mejor?"
+title: "Python vs Javascript ¿cuál es el mejor en 2024?"
 date: "2020-12-10"
 url: "python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion"
 categories: 
@@ -15,7 +15,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Si has usado solamente Python o solamente Javascript, seguramente te de un poco de curiosidad saber como es el otro. Yo he usado ambos y te puedo platicar un poco sobre las diferencias y algunas cosas en común que tienen ambos lenguajes, para que encuentres el mejor para ti en este 2023.
+Si has usado solamente Python o solamente Javascript, seguramente te de un poco de curiosidad saber como es el otro. Yo he usado ambos y te puedo platicar un poco sobre las diferencias y algunas cosas en común que tienen ambos lenguajes, para que encuentres el mejor para ti en este 2024.
 
 También tengo una comparación de [Python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) que puedes revisar.
 
@@ -23,7 +23,7 @@ También tengo una comparación de [Python vs go](/python-vs-go-cual-es-el-mejor
 
 Para empezar diremos que **Python es un lenguaje interpretado**. Si no te suena el término, significa que tiene un intérprete que traduce las instrucciones, una por una, a lenguaje máquina, para que se ejecuten al momento. Por lo que no tienes que compilar todo tu código cada vez que quieras ejecutarlo, como sí lo harías con C++, Java, Rust, etc.
 
-Javascript nació como un lenguaje interpretado, sin embargo los motores modernos han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time"). Prácticamente todos los navegadores hacen [compilado JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando, como siempre, IE8.
+Javascript nació como un lenguaje interpretado, sin embargo los motores modernos han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time"). Prácticamente todos los navegadores hacen [compilado JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando, como siempre, IE8. En mi opinión su diseño no es más elegante que el de Python, esto se nota por ejemplo en el [manejo de fechas de Javascript, que por cierto detesto.](/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/)
 
 Si quieres aprender como funciona el motor de Javascript a un nivel más profundo, te dejo un enlace a [una serie de videos](https://www.youtube.com/watch?v=No-Pfboplxo&list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&index=1) en youtube donde se trata el tema más detalladamente.
 
@@ -191,7 +191,7 @@ Python no se encuentra en los navegadores, sin embargo está instalado en la may
 
 Javascript se usa, como ya mencioné anteriormente, para manipular el DOM y ejecutarse principalmente en el navegador. Sin embargo Node permite utilizarlo también en tu ordenador, para ser usado como un lenguaje del lado del servidor, aunque originalmente no fue concebido de esa manera. Node js ha permitido que javascript se use fuera del navegador, por lo que su uso se ha extendido, incluso al machine learning.
 
-En los últimos años hay rumores de que [deno](https://deno.land/), hecho por el creador de Node js, reemplazará a node, su predecesor, pero son solo eso, rumores.
+~~En los últimos años hay rumores de que [deno](https://deno.land/), hecho por el creador de Node js, reemplazará a node, su predecesor, pero son solo eso, rumores.~~ A la fecha es bastante improvable que deno vaya a reemplazar a Node, de hecho Javascript cuenta con muchísimos motores, tales como [Bun](https://bun.sh/) [winterJS](https://github.com/wasmerio/winterjs) que ofrecen un rendimiento superior y más amenidades que deno o node.
 
 ### Usos de Python
 
