@@ -83,7 +83,8 @@ def main():
     # for index in get_indexes():
     #     sys.stdout.write(index + "\n")
     # read_markdown(get_translated_indexes())
-    read_markdown(get_translated_indexes())
+    # read_markdown(get_translated_indexes())
+    translate_indexes(get_unstranslated_indexes())
 
 
 if __name__ == "__main__":
