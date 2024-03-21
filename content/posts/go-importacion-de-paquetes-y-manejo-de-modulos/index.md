@@ -17,7 +17,7 @@ En go **puedes considerar un paquete como todos los archivos que contenga un dir
 
 Diferencia entre modulos y paquetes en go
 
-### Definir el nombre de un paquete en Go
+## Definir el nombre de un paquete en Go
 
 Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
 
@@ -125,7 +125,7 @@ En caso de que necesitemos una versión en específico la declaramos después de
 go get github.com/labstack/echo/v4
 ```
 
-### go install
+## Instalación de código con go install
 
 Por otro lado, go install **no descarga código**, sino que compila un modulo e instala el binario en $GOPATH/bin, ignorando el contenido del archivo *go.mod* cuando se le especifica una versión a través de la linea de comandos.
 
@@ -135,7 +135,7 @@ go install sigs.k8s.io/kind@v0.9.0
 
 Go install generalmente se usará para instalar comandos.
 
-### Importar paquetes remotos en go
+## Importar paquetes remotos en go
 
 Los paquetes que se encuentran en repositorios de código, como GitHub, GitLab o BitBucket, requieren que especifiquemos la ruta completa del repositorio como su ruta de importación.
 

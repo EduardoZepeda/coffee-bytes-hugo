@@ -18,7 +18,7 @@ authors:
 
 ¿Qué pasa si el dedo de un usuario resbala por el teclado y escribe "parfume" en lugar de "perfume". Probablemente no querramos que nuestro usuario abandone el sitio porque no encontró ningún "parfume" en nuestro sitio web. Nuestro sitio web debería de devolverle los resultados que más se parezcan a lo que está buscando. Mira como lo maneja un ecommerce con experiencia:
 
-![Búsqueda de la palabra "parfume" en amazon.](images/busqueda_amazon.gif)
+![Búsqueda de la palabra "parfume" en amazon.](images/busquedaLaptopAmazon.gif)
 
 ¿No recuerdas las búsquedas básicas en Django? Tengo una entrada sobre [búsquedas básicas y full text search usando Django y Postgres](/full-text-search-y-busquedas-con-django-y-postgres/), si no la has leído date una vuelta primero por allá.
 

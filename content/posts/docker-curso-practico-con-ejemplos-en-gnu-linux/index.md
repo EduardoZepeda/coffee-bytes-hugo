@@ -199,7 +199,7 @@ docker run -it ubuntu
 
 Intenta ejecutar un _ls_ o un _pwd_. Podrás notar que estás dentro de un sistema operativo GNU/Linux. Puedes crear archivos, modificarlos, crear carpetas, etc.
 
-Si no sabes nada sobre comandos de GNU/Linux puedes revisar mi entrada sobre los [comandos básicos de GNU Linux: cd, ls, rm, etc.](/comandos-de-gnu-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
+Si no sabes nada sobre comandos de GNU/Linux puedes revisar mi entrada sobre los [comandos básicos de GNU Linux: cd, ls, rm, etc.](/comandos-de-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
 
 ```bash
 ls

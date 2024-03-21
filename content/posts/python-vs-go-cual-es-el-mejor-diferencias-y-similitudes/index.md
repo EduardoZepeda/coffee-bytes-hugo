@@ -28,7 +28,7 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 ![Go es un lenguaje compilado, mientras que Python es uno interpretado](images/codigo-compilado-vs-interpretado-go-vs-python.png)
 
 
-Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](/python-vs-javascript-2022-cual-es-el-mejor/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
+Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 
@@ -335,7 +335,7 @@ Go es un lenguaje bastante popular entre los desarrolladores, mucho más aprecia
 
 Los desarrolladores de Go suelen **ganar bastante más dinero que los desarrolladores de Python**. De hecho Go se encuentra dentro de los 10 lenguajes mejor pagados según la encuesta de stackoverflow del 2022.
 
-![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go está en el top 10](images/go-vs-python-salarios.png "Los programadores de Go suelen ganar más que los de Python")
+![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go está en el top 10](images/python-vs-go-salarios.png "Los programadores de Go suelen ganar más que los de Python")
 
 ## Baterías incluidas
 

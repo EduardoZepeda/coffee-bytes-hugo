@@ -13,9 +13,9 @@ authors:
 
 En el lenguaje de programación go, un map o hash table es el equivalente de un diccionario; poseen una llave o key que se relaciona con un valor o value. La llave y el valor pueden ser de diferentes tipos de datos, pero todas las llaves deben ser de un solo tipo y todos los valores deben ser del mismo tipo.
 
-Junto con el [array y el slice de go](/go-arrays-y-slices/), un map es una estructura que nos sirve como una colección de valores.
+Junto con el [array y el slice de go](/go-slices-y-arrays/), un map es una estructura que nos sirve como una colección de valores.
 
-### Funcionamiento interno de un map en go
+## Funcionamiento interno de un map en go
 
 En go un map funciona bastante similar a cualquier otro lenguaje. En go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.
 
@@ -41,7 +41,7 @@ Igual que con el slice, tenemos dos maneras de crear un map o diccionario.
 - Pasándole los valores después del tipo de dato del valor
 - Usando la función make.
 
-### Crear un map en go con valores
+## Crear un map en go con valores
 
 Podemos crear un map o diccionario usando map, el tipo de dato de las llaves entre corchetes, seguido del tipo de dato de los valores y luego los datos llave valor entre corchetes, separando cada uno con dos puntos.
 
@@ -71,7 +71,7 @@ cuenta["Paloma"] = 500
 cuenta["Colombe"] = 900
 ```
 
-### Crear un map con make
+## Crear un map con make
 
 Para crear un map asignando memoria necesitamos usar la función make y especificar el tipo de datos que tendrán las llaves y los valores tras la palabra map.
 
@@ -95,7 +95,7 @@ fmt.Println(saldo["usuario"])
 
 **Si intentamos acceder a una llave que no existe, go nos devolverá su respectivo zero value**, pero esto nos lleva a un problema: ¿cómo distinguimos si tenemos un cero porque la llave no existe o porque el valor de nuestra llave es cero?
 
-### Distinguir entre valores inexistentes y zero values
+## Distinguir entre valores inexistentes y zero values
 
 Para distinguir entre un zero value, go nos provee de un segundo valor de retorno, que nos indica si existe una llave. Este segundo valor es un booleano: _true_ o _false_.
 
@@ -103,7 +103,7 @@ Para distinguir entre un zero value, go nos provee de un segundo valor de retorn
 value, exist := diccionario["Inexistente"]
 ```
 
-### Capacidad opcional en maps
+## Capacidad opcional en maps
 
 Para establecer una capacidad máxima de llaves en un _map_, le pasamos la longitud del map como segundo argumento.
 
@@ -113,7 +113,7 @@ m := make(map[string]int,99)
 
 Sin embargo, a diferencia de los slices, esta longitud solo le indica al compilador que asigne un mínimo de memoria, si agregamos más llaves del valor máximo se seguirán añadiendo, aunque no tan eficientemente.
 
-### Borrar llaves con delete
+## Borrar llaves con delete
 
 Si queremos deshacernos de una llave de nuestro _map_, usamos la función _delete,_ la cual borra una llave de un map o diccionario.
 

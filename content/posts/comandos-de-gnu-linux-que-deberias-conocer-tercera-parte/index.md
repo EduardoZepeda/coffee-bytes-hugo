@@ -13,8 +13,8 @@ authors:
 
 Esta es la continuación de las siguientes partes: 
 
-* [Comandos básicos de GNU Linux, primera parte](/comandos-de-gnu-linux-basicos-que-deberias-conocer/) 
-* [Comandos básicos de GNU Linux, segunda parte](/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/).
+* [Comandos básicos de GNU Linux, primera parte](/comandos-de-linux-basicos-que-deberias-conocer/) 
+* [Comandos básicos de GNU Linux, segunda parte](/comandos-de-linux-que-deberias-conocer-segunda-parte/).
 
 ## printenv
 

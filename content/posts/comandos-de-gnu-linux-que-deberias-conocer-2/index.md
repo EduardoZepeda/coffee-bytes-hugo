@@ -11,7 +11,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](/comandos-de-gnu-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](/comandos-de-linux-que-deberias-conocer-tercera-parte/).
+Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](/comandos-de-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](/comandos-de-linux-que-deberias-conocer-tercera-parte/).
 
 Vamos a empezar con el comando uname, para situarnos un poco en el contexto del sistema operativo con el que estamos trabajando.
 

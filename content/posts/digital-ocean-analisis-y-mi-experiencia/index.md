@@ -46,7 +46,7 @@ Ahora sí, pasemos a Digital Ocean.
 
 ## Droplets en Digital Ocean
 
-Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.](/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
+Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.](/comandos-de-linux-basicos-que-deberias-conocer/)
 
 Una vez que creas un Droplet este se encuentra disponible en menos de un minuto.
 

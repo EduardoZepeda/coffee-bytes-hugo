@@ -13,7 +13,7 @@ authors:
 
 En esta entrada voy a explicar lo básico del funcionamiento de strings, runes y bytes en go, y hasta un poquito de utf-8.
 
-Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang](/go-arrays-y-slices/).
+Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang](/go-slices-y-arrays/).
 
 Si es tu primer acercamiento a go, date una vuelta por mi post de [introducción al lenguaje de programación go](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/) y luego regresa acá.
 

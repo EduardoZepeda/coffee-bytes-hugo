@@ -17,7 +17,7 @@ In the go programming language, a map or hash table is the equivalent of a dicti
 
 Together with the [array and the go slice](/blog/go-slices-y-arrays-characteristicas-and-basic-uses/), a map is a structure that serves as a collection of values.
 
-### Inner workings of a map in go
+## Inner workings of a map in go
 
 In go a map works quite similar to any other language. In go there are buckets, a type of section consisting of 8 key-value pairs. The hash function receives the key and redirects us to the appropriate bucket, that is, the space of 9 key-value pairs where our key is located and, once there, it looks for the correct key.
 

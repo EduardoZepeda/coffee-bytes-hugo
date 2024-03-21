@@ -16,7 +16,7 @@ authors:
 
 Celery, en combinación con Django sirven para resolver un problema: la falta de asincronía en nuestra aplicación. El envío de un correo electrónico, el procesamiento de algún archivo o la respuesta al servicio de un tercero mantendrán nuestra ejecución en espera de que la tarea se finalice y, como consecuencia, a nuestro usuario esperando.
 
-Usar celery es una de las cosas que puedes hacer para [mejorar el rendimiento de una aplicación en Django](/maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/). Y también puedes crear tareas periódicas con celery y django.
+Usar celery es una de las cosas que puedes hacer para [mejorar el rendimiento de una aplicación en Django](/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/). Y también puedes crear tareas periódicas con celery y django.
 
 Mira este ejemplo de vista:
 

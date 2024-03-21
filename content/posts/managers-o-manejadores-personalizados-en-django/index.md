@@ -18,7 +18,7 @@ Un Manager (o manejador) es la interfaz a través de la cual se proveen las oper
 
 Antes de empezar, si no sabes lo básico de Django puedes empezar con [la guia definitiva de Django](/la-guia-definitiva-de-django/)
 
-Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](/maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/) te sirva más.
+Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/) te sirva más.
 
 ## El object manager de Django
 

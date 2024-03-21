@@ -20,7 +20,7 @@ La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté 
 
 Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en mi entrada sobre la [guia definitiva de Django.](/la-guia-definitiva-de-django/)
 
-Annotate y aggregate son útiles para [mejorar el rendimiento de aplicaciones lentas en Django](/maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/)
+Annotate y aggregate son útiles para [mejorar el rendimiento de aplicaciones lentas en Django](/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/)
 
 ![Imagen comparativa de las diferencias entre Django annotate y Django aggregate.](images/DjangoAggregateAnnotate-1.png)
 

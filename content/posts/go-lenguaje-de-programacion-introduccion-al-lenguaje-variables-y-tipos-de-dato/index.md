@@ -23,7 +23,7 @@ Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la con
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
-* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/go-uso-de-channels-o-canales-para-comunicar-gorutinas/) es bastante sencillo
+* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) es bastante sencillo
 * **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
 ### ¿Por qué apesta go?
@@ -54,7 +54,7 @@ La mascota oficial es una ardilla de tierra y es muy común entre la comunidad u
 
 ## Instalación
 
-Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
+Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/comandos-de-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
 
 ```bash
 sudo apt install golang

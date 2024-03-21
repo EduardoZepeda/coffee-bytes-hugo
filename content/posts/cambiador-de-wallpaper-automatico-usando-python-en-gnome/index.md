@@ -31,7 +31,7 @@ Una vez aquí vamos a crear un archivo Python con el nombre _.change\_wallpaper\
 touch .change_wallpaper_randomly.py
 ```
 
-Si en este punto sientes que no estás familiarizado con estos comandos GNU/Linux puedes leer mi entrada sobre los [comandos básicos de GNU/Linux](/comandos-de-gnu-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
+Si en este punto sientes que no estás familiarizado con estos comandos GNU/Linux puedes leer mi entrada sobre los [comandos básicos de GNU/Linux](/comandos-de-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
 
 ## Cambiar wallpaper automáticamente con Python
 

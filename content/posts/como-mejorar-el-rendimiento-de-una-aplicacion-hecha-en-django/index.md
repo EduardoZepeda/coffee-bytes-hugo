@@ -234,7 +234,7 @@ Pero no todo es maravilloso; los intérpretes de terceros, incluido pypy, no sue
 
 Si has probado todo lo anterior y aún así tienes una aplicación con cuellos de botella, probablemente estás exprimiendo demasiado a Python y necesites de la velocidad de otro lenguaje. Pero no te preocupes, no tienes que rehacer toda tu aplicación en C o C++. [Swig](http://www.swig.org/) te permite crear módulos en C, C++, Java, Go u otros lenguajes de más bajo nivel para importarlos directamente desde Python.
 
-¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](/python-vs-go-2022-cual-es-el-mejor/)
+¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/)
 
 Si tienes un cuello de botella causado por algún cálculo matemático muy costoso, que pone en evidencia la falta de velocidad de Python al ser un lenguaje interpretado, quizás te convenga reescribir el cuello de botella en algún lenguaje de bajo nivel para luego llamarlo usando Python. De esta manera tendrás la facilidad de uso de Python con la velocidad de un lenguaje de bajo nivel.
 

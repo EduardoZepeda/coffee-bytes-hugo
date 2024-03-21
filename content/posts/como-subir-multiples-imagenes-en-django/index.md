@@ -35,7 +35,7 @@ pipenv install django Pillow
 
 A continuación vamos a crear un nuevo proyecto y entraremos en la carpeta recién creada.
 
-Si no conoces los comandos de GNU/Linux tengo una serie de entradas [con los comandos más usados de GNU Linux](/comandos-de-gnu-linux-basicos-que-deberias-conocer/)
+Si no conoces los comandos de GNU/Linux tengo una serie de entradas [con los comandos más usados de GNU Linux](/comandos-de-linux-basicos-que-deberias-conocer/)
 
 ```bash
 django-admin startproject yourproject

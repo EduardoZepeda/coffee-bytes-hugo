@@ -80,7 +80,7 @@ ls -la
 # ...
 ```
 
-Si revisas el contenido de este archivo con el [comando cat](/comandos-de-gnu-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
+Si revisas el contenido de este archivo con el [comando cat](/comandos-de-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
 
 ```bash
 cat .git

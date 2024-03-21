@@ -5,7 +5,7 @@ categories:
   - "opiniones"
   - "algoritmos"
 coverImage: "images/top-5-katas-codewars.jpg"
-description: "Aprende a usar celery en django para programar tareas periódicas o de mantenimiento que se ejecuten cada cierto tiempo o en una fecha dada."
+description: "Mis 5 desafios favoritos, o katas, en codewars: multi line task hello world,, espiral, escape the maze, The soul of wit: reverse an array."
 keywords:
   - "internet"
   - "rendimiento"

@@ -148,7 +148,7 @@ La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frame
 
 ### Es lento y maneja peticiones de una en una
 
-Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](/python-vs-go-2022-cual-es-el-mejor/) comparo el rendimiento de ambos, solo para que te des una idea.
+Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) comparo el rendimiento de ambos, solo para que te des una idea.
 
 Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
 

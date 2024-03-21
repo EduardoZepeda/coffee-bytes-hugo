@@ -95,7 +95,7 @@ En un deadlock hay una goroutine que está esperando leer o escribir en un canal
 
 ### Prevenir deadlocks en go con goroutines
 
-En la [introducción a los channels o canales en go](/go-uso-de-channels-o-canales-para-comunicar-gorutinas/), te dije que la capacidad por defecto de un canal es de 0, esto provoca que no podamos almacenar datos en los canales de manera predeterminada. Si intentamos almacenar un dato en un canal, obtendremos un error por parte del compilador, pues ya no existe otra goroutine que reciba el valor de manera inmediata.
+En la [introducción a los channels o canales en go](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/), te dije que la capacidad por defecto de un canal es de 0, esto provoca que no podamos almacenar datos en los canales de manera predeterminada. Si intentamos almacenar un dato en un canal, obtendremos un error por parte del compilador, pues ya no existe otra goroutine que reciba el valor de manera inmediata.
 
 Para prevenir un deadlock, podemos usar inmediatamente el dato del canal creando una goroutine que use el valor del canal.
 
