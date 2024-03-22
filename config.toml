@@ -43,7 +43,7 @@ toc = true
 
 [sitemap]
 changefreq = "monthly"
-filename = "sitemaps.xml"
+filename = "sitemap.xml"
 priority = 0.5
 
 [outputs]
