@@ -17,7 +17,7 @@ authors:
 
 Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de una manera bastante superficial; empecé a invesgar sobre el lenguaje porque me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental sobre los pros y cons del lenguaje, decidí darle una oportunidad. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este año.
 
-Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/)
+Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/)
 
 ## Un poco sobre Python y go
 

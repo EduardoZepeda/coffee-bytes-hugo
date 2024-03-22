@@ -89,7 +89,7 @@ Simplificando lo anterior necesitamos:
 * Chroot: para dotar a nuestro container de un sistema de archivos diferente al del sistema operativo principal
 * Cgroups: para limitar los recursos de nuestro sistema a los que nuestro container puede acceder
 
-Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go](/golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/). 
+Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). 
 
 ```go
 package main
