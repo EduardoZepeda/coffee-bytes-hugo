@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo mejorar el rendimiento" 
+title: "¿Cómo escalar Django para manejar millones de vistas?" 
 date: "2020-12-30"
 categories: 
   - "arquitectura de software"
