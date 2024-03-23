@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo escalar Django para manejar millones de vistas?" 
+title: "¿Cómo Escalar Django Para Manejar Millones De Vistas?" 
 date: "2020-12-30"
 categories: 
   - "arquitectura de software"
