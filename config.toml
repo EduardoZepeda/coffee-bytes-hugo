@@ -140,13 +140,13 @@ category = "categories"
 tag = "tags"
 
 [params.csp]
-childsrc = ["'self'"]
-fontsrc = ["'self'"]
-formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'"]
-objectsrc = ["'none'"]
-scriptsrc = [
+child-src = ["'self'"]
+font-src = ["'self'"]
+form-action = ["'self'"]
+frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com"]
+img-src = ["'self'", "*.cloudinary.com", "*.codewars.com"]
+object-src = ["'none'"]
+script-src = [
   "'self'",
   "'unsafe-inline'",
   "https://platform.twitter.com",
@@ -159,8 +159,8 @@ scriptsrc = [
   "https://adservice.google.com",
   "https://www.googletagservices.com",
   "jsfiddle.net",
-  "www.instagram.com",
-  "www.twitter.com",
-  "www.x.com",
+  "*.instagram.com",
+  "*.twitter.com",
+  "*.x.com",
 ]
-stylesrc = ["'self'"]
+style-src = ["'self'", "'unsafe-inline'"]
