@@ -1,7 +1,7 @@
 ---
 title: "Contact Eduardo Zepeda"
 date: "2020-11-05"
-private: true
+noindex: true
 ---
 
 Do you need help with your website? Do you think I can be the right candidate for your company? Please send me a message to [eduardozepeda \[at\] coffeebytes \[dot\] dev](#) so we can discuss it. Once I receive your message I'll reply to it ASAP.

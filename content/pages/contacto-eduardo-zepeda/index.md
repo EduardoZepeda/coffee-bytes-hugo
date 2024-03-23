@@ -1,7 +1,7 @@
 ---
 title: "Contactar a Eduardo Zepeda"
 date: "2018-09-12"
-private: true
+noindex: true
 ---
 
 ¿Necesitas ayuda con tu sitio web? ¿Crees que sería un buen candidato para tu empresa? Escríbeme un correo a [eduardozepeda \[arroba\] coffeebytes \[punto\] dev](# "Esto es para evitar el spam de bots en mi correo electrónico") y te responderé tan pronto como me sea posible.

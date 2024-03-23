@@ -1,7 +1,7 @@
 ---
 title: "¡Muchas gracias!"
 date: "2019-04-30"
-private: true
+noindex: true
 ---
 
 Acabo de enviarte un correo electrónico con el asunto «**confirma tu suscripción**».

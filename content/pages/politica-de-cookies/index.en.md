@@ -1,7 +1,7 @@
 ---
 title: "Política de cookies"
 date: "2021-07-23"
-private: true
+noindex: true
 ---
 
 Carlos Eduardo Magallón Zepeda informa acerca del uso de las cookies en su página web: https://coffeebytes.dev
