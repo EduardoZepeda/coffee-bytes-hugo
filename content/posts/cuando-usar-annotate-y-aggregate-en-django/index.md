@@ -80,7 +80,7 @@ SELECT "app_seller"."id", "app_seller"."name" FROM "app_seller"
 
 Conocer la consulta que realizará Django nos ayuda a entender que está sucediendo tras el ORM. Esto será de utilidad para profundizar en _annotate_.
 
-## Annotate
+## Django Annotate
 
 ### ¿Por qué usar annotate?
 
@@ -227,7 +227,7 @@ queryset_2 = Seller.objects.filter(name__startswith="Lovecraft")
 results = queryset_1 & queryset_2
 ```
 
-## Aggregate
+## Django Aggregate
 
 ### ¿Para qué usar aggregate?
 

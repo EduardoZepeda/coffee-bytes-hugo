@@ -1,12 +1,12 @@
 ---
-title: "Tutorial de Queries y Mutaciones de Graphql y Django con Graphene"
+title: "Graphene y Django, Tutorial de Queries y Mutaciones en Graphql"
 url: "graphql-y-django-con-graphene"
 date: "2021-10-26"
 categories: 
   - "django"
 coverImage: "images/GraphqlGrapheneDjango.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/@frank-cone-140140/"
-description: "¿utorial para implementar queries y mutaciones de graphql en un proyecto de django, usando graphene, una de las librerías más comunes y su ORM "
+description: "Tutorial para implementar queries y mutaciones de graphql en un proyecto de django, usando graphene, una de las librerías más comunes y su ORM "
 keywords:
   - django
   - python
@@ -196,7 +196,7 @@ Con el camel case activado, la query llamada _allAnimes_ nos retornará el resul
 
 ![Resultado de la query allAnimes en graphql](images/QuerysetGraphene.png)
 
-## Retornando consultas con parámetros
+## Retornando consultas Graphql con parámetros
 
 Para crear una nueva query con parámetros añadiremos un nuevo método para nuestro objeto Query y seguiremos la misma formula: crearemos una propiedad y luego uniremos el nombre con el prefijo _resolve\__
 
@@ -268,13 +268,13 @@ Además de los objetos podemos obtener información de la paginación, como el c
 
 ![Paginación en graphql usando django graphene](images/GrapheneQueryRelay-1.png)
 
-## Mutaciones en graphene
+## Mutaciones Graphql con graphene
 
 Con esto ya podemos manejar la mayoría de consultas para leer información que se nos puedan ocurrir. Pero, ¿y el resto de operaciones? ¿Crear, actualizar o eliminar datos? Como ya sabes, en graphql, de estas operaciones se encargan las mutations o mutaciones.
 
 Podemos personalizar el comportamiento de nuestras mutaciones creando un nuevo objeto que herede de _Mutation_.
 
-### Argumentos y retorno de nuestra mutation
+### Argumentos y retorno de una mutation
 
 Dentro de el objeto que hereda de Mutation colocaremos una clase _Arguments_, que nos indica los argumentos que requiere nuestra mutación. En este caso he puesto todos los campos con sus respectivos tipos
 
