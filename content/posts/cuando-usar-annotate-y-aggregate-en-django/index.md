@@ -6,7 +6,7 @@ categories:
   - "bases de datos"
 coverImage: "images/Django_aggregate_y_annotate.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Aprende las diferencias, características y el uso de annotate y aggregate en Django en este tutorial, leyendo SQL con ejemplos y código."
+description: "Tutorial sobre las diferencias, características y el uso de annotate y aggregate en Django, sus usos y como pueden usarse para mejorar la efiencia de las queries en el ORM de Django."
 keywords:
   - django
   - python
@@ -16,7 +16,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté la cabeza con desesperación, mientras buscaba en google: "Django annotate"; una de las funciones del ORM que no lograba comprender. ¿Te ha pasado también?, apuesto que sí. Ya había leído la documentación pero no me pareció lo suficientemente clara y, para colmo, la confundía frecuentemente con su gemela malvada: aggregate. Tras haber visitado varias preguntas de stackoverflow y múltiples blogs en inglés pude entenderlas a ambas. Estas notas son el resultado de esa búsqueda, es la explicación sobre annotate y aggregate de Django que a mi me hubiera gustado leer hace años.
+La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté la cabeza con desesperación, mientras buscaba en google: "Django annotate"; una de las funciones del ORM de Django que no lograba comprender. ¿Te ha pasado también?, apuesto que sí. Ya había leído la documentación pero no me pareció lo suficientemente clara y, para colmo, la confundía frecuentemente con su gemela malvada: aggregate. Tras haber visitado varias preguntas de stackoverflow y múltiples blogs en inglés pude entenderlas a ambas. Estas notas son el resultado de esa búsqueda, es la explicación sobre annotate y aggregate de Django que a mi me hubiera gustado leer hace años.
 
 Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en mi entrada sobre la [guia definitiva de Django.](/la-guia-definitiva-de-django/)
 

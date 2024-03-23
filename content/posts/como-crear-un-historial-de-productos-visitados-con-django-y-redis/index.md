@@ -5,7 +5,7 @@ categories:
   - "django"
 coverImage: "images/django_y_redis_con_mejor_diseno.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@axel-vandenhirtz-332204/"
-description: "Aprende a crear paso a paso un historial de productos visitados usando el framework django y el motor de base de datos redis"
+description: "Tutorial para la creación de un un historial de productos visitados sencillo y minimalista usando django, sus queries y el motor de base de datos redis"
 keywords:
   - django
   - redis

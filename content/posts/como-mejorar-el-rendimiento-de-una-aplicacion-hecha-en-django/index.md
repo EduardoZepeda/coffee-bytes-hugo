@@ -1,12 +1,12 @@
 ---
-title: "¿Tu aplicación de Django va lenta? Maximiza su rendimiento con estos tips" 
+title: "¿Cómo mejorar el rendimiento" 
 date: "2020-12-30"
 categories: 
   - "arquitectura de software"
   - "django"
 coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@tranmautritam/"
-description: "Maximiza el rendimiento de tu aplicación hecha en Django con esta compilación de tips que van desde tus queries, pasando por caché, hasta frameworks alternativos."
+description: "Tutorial para maximizar el rendimiento y la velocidad de una aplicación hecha en Django: optimización de queries, caché, serializers, índices, denormalización, ORMS e intérpretes y frameworks alternativos"
 keywords:
   - rendimiento
   - django
@@ -227,6 +227,8 @@ No todo es base de datos, a veces el problema está en el código Python en si m
 Además del intérprete normal de Python, el que se ofrece por defecto en la página oficial de Python, existen otros intérpretes que aseguran darte un mayor rendimiento.
 
 [Pypy](https://www.pypy.org/) es uno de ellos, se encarga de optimizar el código Python analizando el tipo de objetos que se crean con cada ejecución. Esta opción es ideal para aplicaciones donde Django se encargue de devolver un resultado que fue procesado principalmente usando código Python.
+
+Otro intérprete, o más bien un superset de Python llamado [Mojo](https://mojolang.org/) promete ser un super set de Python (así como Typescript lo es de Javascript) con un rendimiento muchas veces mayor, ahora mismo no es compatible con Django pues se centra en AI, pero quizás en el futuro lo sea, por lo que mantente atento a cualquier cambio de esta prometedora tecnología.
 
 Pero no todo es maravilloso; los intérpretes de terceros, incluido pypy, no suelen ser compatibles al 100% con todo el código Python, pero sí con la mayoría, por lo que, igual que la opción anterior. **Usar un intérprete de terceros también debería de ser de las últimas opciones que consideres para resolver tu problema de rendimiento en Django.**
 

@@ -1,11 +1,12 @@
 ---
-title: "Graphql y django con graphene"
+title: "Tutorial de Queries y Mutaciones de Graphql y Django con Graphene"
+url: "graphql-y-django-con-graphene"
 date: "2021-10-26"
 categories: 
   - "django"
 coverImage: "images/GraphqlGrapheneDjango.jpg"
 coverImageCredits: "Créditos a https://www.pexels.com/@frank-cone-140140/"
-description: "¿Cómo implementar queries y mutaciones de graphql en un proyecto de django, usando los modelos y su ORM usando graphene? Te explico aquí."
+description: "¿utorial para implementar queries y mutaciones de graphql en un proyecto de django, usando graphene, una de las librerías más comunes y su ORM "
 keywords:
   - django
   - python

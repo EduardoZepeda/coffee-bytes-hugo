@@ -4,7 +4,7 @@ date: "2022-03-09"
 categories: 
   - "django"
 coverImage: "images/django-select-related-prefetch-related.jpg"
-description: "Diferencia y uso de los métodos select_related y prefetch_related de django para reducir la cantidad de queries o consultas a la base de datos"
+description: "Diferencia entre los métodos select_related y prefetch_related de django y su uso para reducir reducir y mejorar las queries en consultas a la base de datos"
 coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
 keywords:
   - django

@@ -1,15 +1,19 @@
 ---
-title: "Django y htmx, web apps modernas sin escribir JS"
+title: "Tutorial de Django y HTMX, web apps modernas sin escribir JS"
+url: "django-y-htmx-web-apps-modernas-sin-escribir-js"
 date: "2021-07-14"
 categories: 
   - "django"
   - "htmx"
 coverImage: "images/Djangohtmx.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@quionie-gaban-11920925/"
-description: "Aprende a combinar Django y htmx para crear sitios web, mantener las mismas funcionalidades con mucho menos código JS del lado del cliente."
+description: "Tutorial de Django y HTMX para crear aplicaciones web, sin necesidad de Frameworks como react mantener las mismas funcionalidades y con mucho menos código Javascript"
 keywords:
   - django
   - htmx
+  - react
+  - javascript
+  - framework
 authors:
   - Eduardo Zepeda
 ---

@@ -1,6 +1,8 @@
 ---
-title: "Sitemap Dinámico con Django"
+title: "¿Cómo Crear un Sitemap Dinámico con Django?"
+url: "sitemap-dinamico-con-django"
 date: "2022-07-20"
+description: "Tutorial sobre la creación de un Sitemap dinámico con Django, su estructura, definición, caché y uso de modelos para crear cambos loc, changefreq y priority"
 coverImage: "images/sitemap-en-django.jpg"
 categories:
 - django

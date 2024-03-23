@@ -1,11 +1,12 @@
 ---
-title: "Caché en Django REST Framework con memcached"
+title: "Tutorial para Implementar Caché en Django REST Framework con memcached"
+url: "cache-en-django-rest-framework-con-memcached"
 date: "2021-09-07"
 categories: 
   - "django"
 coverImage: "images/CacheConMemcachedYPymemcache.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@airamdphoto/"
-description: "Aprende a implementar y configurar diferentes niveles de caché en tu aplicación de Django REST Framework usando memcached como backend."
+description: "Tutorial para implementar y configurar caché en diferentes niveles: vista, cookies, granular, usando memcached, en una aplicación de Django REST Framework"
 keywords:
   - python
   - django

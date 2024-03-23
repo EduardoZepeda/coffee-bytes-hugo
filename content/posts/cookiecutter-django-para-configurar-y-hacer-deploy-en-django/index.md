@@ -1,12 +1,13 @@
 ---
-title: "Cookiecutter-django para configurar y hacer deploy en Django"
+title: "Configuración de un proyecto de Django usando Cookiecutter-django"
+url: "cookiecutter-django-para-configurar-y-hacer-deploy-en-django"
 date: "2020-10-20"
 categories: 
   - "django"
   - "docker"
 coverImage: "images/tutorial-cookiecutter-django-docker-compose.jpg"
 coverImageCredits: "Créditos https://www.pexels.com/es-es/@alex-andrews-271121/"
-description: "¿No sabes como usar o para que sirve un cookiecutter en Django? Entra y aprende gratis a usar esta herramienta que hará más fácil tu vida."
+description: "Tutorial para configurar cookiecutter en Django. Aprende para que sirve, como instalarlo y que significa cada una de las preguntas para crear un proyecto"
 keywords:
   - docker
   - django

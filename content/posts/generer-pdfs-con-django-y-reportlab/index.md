@@ -1,8 +1,10 @@
 ---
-title: "Generar PDFs con Django y Reportlab"
+title: "Tutorial Generación de PDFs con Django y Reportlab"
+url: "generar-pdfs-con-django-y-reportlab"
 date: "2022-09-22"
 coverImage: "images/generar-pdfs-con-django.jpg"
 coverImageCredits: "Créditos de la imagen a https://unsplash.com/es/@retrokram"
+description: "Tutorial para generar PDFs en Django con Reportlab, definir el tipo de respuesta crear texto, posicionarlo, cambiarlo de color y devolverlo como respuesta"
 categories:
 - django
 keywords:
