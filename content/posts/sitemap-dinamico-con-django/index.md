@@ -166,4 +166,4 @@ Si accedemos al sitemap, notarás que la url base de las urls es *example.org*, 
 
 ## Caché del sitemap
 
-Recuerda que, generalmente, cuando estás creando un sitemap de manera dinámica, a partir de cada uno de los objetos de tu base de dato, estás recorriéndola por completo cada vez que accesas a este. Si tu base de datos es muy grande quizás no sea conveniente. Dependiendo del tipo de sitio que manejas quizás te convenga guardar el sitemap en la [caché de Django](/cache-en-django-rest-framework-con-memcached/).
+Recuerda que, generalmente, cuando estás creando un sitemap de manera dinámica, a partir de cada uno de los objetos de tu base de dato, estás recorriéndola por completo cada vez que accesas a este. Si tu base de datos es muy grande quizás no sea conveniente. Dependiendo del tipo de sitio que manejas quizás te convenga guardar el sitemap en la [caché de Django](/es/cache-en-django-rest-framework-con-memcached/).

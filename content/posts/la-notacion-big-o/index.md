@@ -134,7 +134,7 @@ Si buscas algo más visual para introducirte en el mundo de los algoritmos mira 
 
 Te dejo algunas opciones para practicar algorítmos.
 
-* [newsletter de un algorítmo al día](/un-problema-de-algoritmos-al-dia/) 
-* [codewars](/top-5-problemas-de-algoritmos-favoritos-en-codewars/)
+* [newsletter de un algorítmo al día](/es/un-problema-de-algoritmos-al-dia/) 
+* [codewars](/es/top-5-problemas-de-algoritmos-favoritos-en-codewars/)
 * [HackerRank](https://www.hackerrank.com/)
 

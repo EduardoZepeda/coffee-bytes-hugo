@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In this post I explain three methods to extend or customize Django's _User_ model, without having to rewrite it from scratch, and keeping all [Django's user management features](/blog/why-should-you-use-django-framework/)
+In this post I explain three methods to extend or customize Django's _User_ model, without having to rewrite it from scratch, and keeping all [Django's user management features](/en/why-should-you-use-django-framework/)
 
 But, before we start, let's see where Django's User model comes from.
 

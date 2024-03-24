@@ -139,4 +139,4 @@ Ahora la variable de configuración CSRF\_COOKIE\_SAMESITE permite 'None' como v
 
 Recuerda que si quieres ver los cambios a la documentación completa puedes entrar en [este enlace](https://docs.djangoproject.com/en/3.1/releases/3.1/#whats-new-3-1) para ver los cambios completos que trae la versión de Django 3.1
 
-Si quieres mejorar tus habilidades en Django te dejo aquí recomendaciones de dos excelentes libros. Entra y checa mis reseñas de [Django for Professionals](/resena-de-django-for-professionals/) y de [Two scoops of Django](/el-mejor-libro-de-django-resena-de-two-scoops-of-django/).
+Si quieres mejorar tus habilidades en Django te dejo aquí recomendaciones de dos excelentes libros. Entra y checa mis reseñas de [Django for Professionals](/es/resena-de-django-for-professionals/) y de [Two scoops of Django](/es/el-mejor-libro-de-django-resena-de-two-scoops-of-django/).

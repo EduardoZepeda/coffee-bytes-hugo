@@ -12,7 +12,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Además del [testing de pruebas unitarias y la medición del coverage en go](/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
+Además del [testing de pruebas unitarias y la medición del coverage en go](/es/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
 
 ## ¿Cómo funciona internamente el profiling de Go en GNU/Linux?
 
@@ -64,7 +64,7 @@ func TestFibonacci(t *testing.T) {
 
 ### Obteniendo la información del profiling
 
-Igual que hicimos para ver el [coverage en el testing de go](/go-testing-basico-y-coverage/), usamos un flag para crear un archivo con la información del profiling en binario, este archivo no lo podemos visualizar directamente.
+Igual que hicimos para ver el [coverage en el testing de go](/es/go-testing-basico-y-coverage/), usamos un flag para crear un archivo con la información del profiling en binario, este archivo no lo podemos visualizar directamente.
 
 ```go
 go test -cpuprofile=cpu.out

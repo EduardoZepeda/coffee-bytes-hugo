@@ -127,7 +127,7 @@ Mientras que este es un canal de salida.
 func say(text string, c <-chan string) {}
 ```
 
-Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go](/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). 
+Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go](/es/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). 
 ## Capacidad de un canal
 
 ¿Recuerdas que te dije que la función make podía establecer el número máximo de datos que puede trabajar un canal? Pues es posible recuperar esa información usando la función len

@@ -17,9 +17,9 @@ Go maneja los bucles un poco diferente a lo que estás acostumbrado. Si ya domin
 
 Bien, pues go no existen más que los bucles for. Sí, no hay _while_ ni do _while_. ¿Pero entonces como hago para usar el resto de los bucles? Sigue leyendo y te explico.
 
-Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/).
+Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/).
 
-Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/).
+Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/).
 
 ## If y else
 

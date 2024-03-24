@@ -209,4 +209,4 @@ Nose extiende a unittest, te muestras más información de cada fallo y te permi
 
 ### Pero... no mencionaste Tox
 
-Así es, no la mencioné porque quiero tratar el tema con un poco más de profundidad que aquí. En la siguiente entrada hablaré sobre una herramienta llamada Tox, que facilita la ejecución de pruebas en diferentes entornos y versiones de Python, [entra aquí para leerla.](/testeo-con-tox-en-python-tutorial-desde-cero/)
+Así es, no la mencioné porque quiero tratar el tema con un poco más de profundidad que aquí. En la siguiente entrada hablaré sobre una herramienta llamada Tox, que facilita la ejecución de pruebas en diferentes entornos y versiones de Python, [entra aquí para leerla.](/es/testeo-con-tox-en-python-tutorial-desde-cero/)

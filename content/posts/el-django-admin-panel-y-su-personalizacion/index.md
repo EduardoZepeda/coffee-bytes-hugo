@@ -18,7 +18,7 @@ Una de las mejores características de django es que cuenta con el django admin 
 
 {{<digitalocean product="Django">}}
 
-El panel de administración de django es una de [las razones por las que deberías considerar usar Django](/por-que-deberias-usar-django-framework/).
+El panel de administración de django es una de [las razones por las que deberías considerar usar Django](/es/por-que-deberias-usar-django-framework/).
 
 ## Revisando que django admin panel esté activo
 

@@ -11,7 +11,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-En la entrada anterior expliqué un poco sobre el tema de la [desestructuración de objetos en javascript](/desestructuracion-de-variables-en-javascript/). Además de la desestructuración de objetos, Javascript también permite desestructurar listas. En esta entrada hablaré sobre la destructuración de listas en Javascript.
+En la entrada anterior expliqué un poco sobre el tema de la [desestructuración de objetos en javascript](/es/desestructuracion-de-variables-en-javascript/). Además de la desestructuración de objetos, Javascript también permite desestructurar listas. En esta entrada hablaré sobre la destructuración de listas en Javascript.
 
 Imaginemos que tenemos una lista con valores numéricos.
 
@@ -64,4 +64,4 @@ if(flyLength > limitValueFly){
 
 Ahora el código es mucho más descriptivo y tus colegas, no tan iluminados como tú, podrán entenderlo
 
-Pero oye, muy bonito y todo, pero que tal si mis objetos tienen otros objetos anidados y quiero obtener un valor de ellos. Bueno también podemos [desestructurar objetos anidados](/desestructuracion-de-objetos-anidados/), en la  explicaré brevemente como hacerlo.
+Pero oye, muy bonito y todo, pero que tal si mis objetos tienen otros objetos anidados y quiero obtener un valor de ellos. Bueno también podemos [desestructurar objetos anidados](/es/desestructuracion-de-objetos-anidados/), en la  explicaré brevemente como hacerlo.

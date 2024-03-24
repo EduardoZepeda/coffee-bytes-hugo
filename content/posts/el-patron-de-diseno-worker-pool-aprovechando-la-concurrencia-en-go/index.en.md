@@ -34,13 +34,13 @@ This may look pretty good, at first, but it has multiple disadvantages; first, y
 
 It would be best to keep memory usage constant and avoid creating and destroying workers frequently. For this, the worker pool pattern works perfect.
 
-Worker pool is a [design pattern](/blog/python-design-patterns-review-of-practical-python-design-patterns/) that comes to make up for these shortcomings.
+Worker pool is a [design pattern](/en/python-design-patterns-review-of-practical-python-design-patterns/) that comes to make up for these shortcomings.
 
 There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang)
 
 ## How does the worker pool design pattern work?
 
-Let's take a tail of a task by running, these can be fixed or dynamically created. Then, instead of creating and destroying multiple workers ([goroutines in the case of go](/blog/go-introduction-to-goroutines-and-concurrency/)) constantly, we create a **fixed number of workers** and put them in a cycle, in which they will be constantly listening for information from the queue (through a [channel in the case of languages like Go](/blog/go-use-of-channels-to-communicate-goroutines/)). This way we will keep our memory management much more stable and predictable, in addition to limiting the impact of constant creation and destruction of workers.
+Let's take a tail of a task by running, these can be fixed or dynamically created. Then, instead of creating and destroying multiple workers ([goroutines in the case of go](/en/go-introduction-to-goroutines-and-concurrency/)) constantly, we create a **fixed number of workers** and put them in a cycle, in which they will be constantly listening for information from the queue (through a [channel in the case of languages like Go](/en/go-use-of-channels-to-communicate-goroutines/)). This way we will keep our memory management much more stable and predictable, in addition to limiting the impact of constant creation and destruction of workers.
 
 Finally, we can optionally save the results of these tasks in a queue from which they can be read later.
 
@@ -115,4 +115,4 @@ class ResultsQueue{
 }
 ```
 
-This design pattern is very useful when huge amounts of tasks have to be processed and when we do not want to overload the system. And, as you can guess it is quite popular and useful in programming languages that heavily use concurrency, such as [the Go programming language](/blog/go-programming-language-introduction-to-variables-and-data-types/).
+This design pattern is very useful when huge amounts of tasks have to be processed and when we do not want to overload the system. And, as you can guess it is quite popular and useful in programming languages that heavily use concurrency, such as [the Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/).

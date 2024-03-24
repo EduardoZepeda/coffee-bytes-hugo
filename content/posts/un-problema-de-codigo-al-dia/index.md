@@ -23,7 +23,7 @@ Para recibir un problema de algoritmos basta tu correo electrónico. Los problem
 
 Me suscribí a su lista hace algo de tiempo y actualmente recibo por correo electrónico sus desafíos. Hay unos en los que me ha tomado un par de minutos dar con el algoritmo para resolverlos y para otros he tenido que meditar el problema durante varias horas, para dar con una solución. Todos muy interesantes, eso sí.
 
-Pero, hay una mala noticia; las soluciones no te llegan por correo electrónico, sino que forman parte del paquete premium, de cobro, ¿no esperabas que trabajaran de gratis verdad? El paquete premium recibe un análisis detallado de las soluciones y de su eficiencia, utilizando [notación Big O](/la-notacion-big-o/). Sin embargo esto no es un obstáculo de ninguna manera, pues puedes darte cuenta por ti mismo si tu solución satisface los requerimientos o no tan solo leyendo el contenido del correo electrónico; el análisis de eficiencia ya es otra historia.
+Pero, hay una mala noticia; las soluciones no te llegan por correo electrónico, sino que forman parte del paquete premium, de cobro, ¿no esperabas que trabajaran de gratis verdad? El paquete premium recibe un análisis detallado de las soluciones y de su eficiencia, utilizando [notación Big O](/es/la-notacion-big-o/). Sin embargo esto no es un obstáculo de ninguna manera, pues puedes darte cuenta por ti mismo si tu solución satisface los requerimientos o no tan solo leyendo el contenido del correo electrónico; el análisis de eficiencia ya es otra historia.
 
 ## Un par de ejemplos
 

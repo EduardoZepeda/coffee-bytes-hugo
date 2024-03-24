@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In past posts I talked a bit about [goroutines, deadlocks and channels](/blog/go-channels-understanding-the-deadlocks/). But there is another quite interesting issue about goroutines that stands out when we use asynchrony and there are many functions accessing data at the same time and. Multiple functions reading and writing the same information can lead to chaotic situations where very strange things can happen.
+In past posts I talked a bit about [goroutines, deadlocks and channels](/en/go-channels-understanding-the-deadlocks/). But there is another quite interesting issue about goroutines that stands out when we use asynchrony and there are many functions accessing data at the same time and. Multiple functions reading and writing the same information can lead to chaotic situations where very strange things can happen.
 
 ## What is a race condition?
 
@@ -41,7 +41,7 @@ As you may already know, DarkLord69 will not be joyful, but if you give him some
 
 Now let's go to an example made in code.
 
-If you don't understand what the waitgroup does, I wrote a post where I explain [goroutines, channels and waitgroups](/blog/go-use-of-channels-to-communicate-goroutines/) that you can refer to. For now, just keep in mind that they wait for all goroutines to finish before proceeding with the code execution.
+If you don't understand what the waitgroup does, I wrote a post where I explain [goroutines, channels and waitgroups](/en/go-use-of-channels-to-communicate-goroutines/) that you can refer to. For now, just keep in mind that they wait for all goroutines to finish before proceeding with the code execution.
 
 ```go
 package main

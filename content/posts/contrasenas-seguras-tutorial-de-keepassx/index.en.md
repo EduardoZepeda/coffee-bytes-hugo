@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous post I talked about some [good practices using passwords](/blog/how-to-create-a-secure-password/). One of the recommendations was to use a different password for each website. However, remembering many passwords is complicated and saving passwords in plain text is unthinkable if we value our computer security at all. There are quite a few password managers available, this post is a tutorial of keepassxc, a **free, open source and super secure** password manager.
+In the previous post I talked about some [good practices using passwords](/en/how-to-create-a-secure-password/). One of the recommendations was to use a different password for each website. However, remembering many passwords is complicated and saving passwords in plain text is unthinkable if we value our computer security at all. There are quite a few password managers available, this post is a tutorial of keepassxc, a **free, open source and super secure** password manager.
 
 ## Why not use the firefox or chrome password manager?
 

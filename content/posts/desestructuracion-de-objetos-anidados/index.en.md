@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous posts I briefly explained how to perform a [destructuring of objects in Javascript](/blog/destructuring-lists-in-javascript/), but in most cases we will not be lucky enough to work with flat objects, but we will find nested objects with several levels of depth. Will we have to settle for forgetting about this feature and do the job explicitly assigning a constant to each object? Luckily Javascript allows us to work with the destructuring of nested objects.
+In the previous posts I briefly explained how to perform a [destructuring of objects in Javascript](/en/destructuring-lists-in-javascript/), but in most cases we will not be lucky enough to work with flat objects, but we will find nested objects with several levels of depth. Will we have to settle for forgetting about this feature and do the job explicitly assigning a constant to each object? Luckily Javascript allows us to work with the destructuring of nested objects.
 
 Let's create an example object to test.
 
@@ -97,4 +97,4 @@ state
 "Lima"
 ```
 
-In the next post I will talk about how to [assign default values when destructuring objects](/blog/destructuring-with-default-values-in-javascript/).
+In the next post I will talk about how to [assign default values when destructuring objects](/en/destructuring-with-default-values-in-javascript/).

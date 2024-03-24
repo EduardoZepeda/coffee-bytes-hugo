@@ -19,7 +19,7 @@ Los submodules de git son útiles cuando queremos incorporar código de terceros
 
 * Un repositorio compartido para un tema o estilos (Como en el SSG, Hugo).
 * Una librería de terceros.
-* Un repositorio que quieres usar para crear un [Dockerfile en Docker](/tutorial-de-comandos-basicos-de-docker/).
+* Un repositorio que quieres usar para crear un [Dockerfile en Docker](/es/tutorial-de-comandos-basicos-de-docker/).
 
 Por otro lado, **usar git submodules complica bastante el manejo de repositorios si no se tiene cuidado o si se trabaja con muchos submódulos**, tienes que prestar atención al contexto en el que te encuentras y recordar todo el tiempo el repositorio en el que te encuentras.
 
@@ -80,7 +80,7 @@ ls -la
 # ...
 ```
 
-Si revisas el contenido de este archivo con el [comando cat](/comandos-de-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
+Si revisas el contenido de este archivo con el [comando cat](/es/comandos-de-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
 
 ```bash
 cat .git

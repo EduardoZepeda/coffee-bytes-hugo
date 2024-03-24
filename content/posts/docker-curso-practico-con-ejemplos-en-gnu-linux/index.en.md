@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-If you read the previous post where I explain [what Docker is for](/blog/what-is-docker-and-what-is-it-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the commands. Here I explain the most common Docker commands, the use of volumes and the creation of an example Dockerfile.
+If you read the previous post where I explain [what Docker is for](/en/what-is-docker-and-what-is-it-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the commands. Here I explain the most common Docker commands, the use of volumes and the creation of an example Dockerfile.
 
 ## Images and containers are different
 
@@ -24,7 +24,7 @@ Before we start, it is necessary to clarify that in Docker we work with containe
 
 You can think of images and containers **as classes and their instances, respectively.
 
-If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch with go](/blog/how-does-a-docker-container-work-internally/).
+If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch with go](/en/how-does-a-docker-container-work-internally/).
 
 ## Basic Docker commands
 
@@ -201,7 +201,7 @@ docker run -it ubuntu
 
 Try running an _ls_ or _pwd_. You will notice that you are inside a GNU/Linux operating system. You can create files, modify them, create folders, etc.
 
-If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/blog/basic-linux-commands-you-should-know/) to refresh your memory.
+If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/en/basic-linux-commands-you-should-know/) to refresh your memory.
 
 ```bash
 ls
@@ -313,7 +313,7 @@ Volumes are the tool that will allow us to store information outside the contain
 
 You can think of them as isolated parts in your system, which you can assemble into the container system.
 
-Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/blog/understand-permissions-in-gnu-linux-and-the-chmod-command/) if you have doubts.
+Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/en/understand-permissions-in-gnu-linux-and-the-chmod-command/) if you have doubts.
 
 Let's try to make it clearer with an example:
 
@@ -607,4 +607,4 @@ If we open our browser and enter our localhost on port 8000 we will see the Djan
 
 ![Django installation success page, shows welcome message and links to documentation](images/djangoRocketNoCursor.gif)
 
-This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/blog/how-to-convert-jpg-to-webp-on-gnu-linux/).
+This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/en/how-to-convert-jpg-to-webp-on-gnu-linux/).

@@ -16,7 +16,7 @@ authors:
 
 Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin, hecho por [Cognition Labs](https://www.cognition-labs.com/), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.
 
-Aunque aún estamos lejos de tener una [AI consciente de si misma](/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), lo que sí tenemos es un producto con características prometedoras que amenazan con poner patas arriba a la industria de la tecnología.
+Aunque aún estamos lejos de tener una [AI consciente de si misma](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), lo que sí tenemos es un producto con características prometedoras que amenazan con poner patas arriba a la industria de la tecnología.
 
 ¿Cómo cuales características? [Segun sus creadores, Devin puede](https://www.cognition-labs.com/blog):
 - Usar tecnologías que no le son familiares
@@ -24,7 +24,7 @@ Aunque aún estamos lejos de tener una [AI consciente de si misma](/chat-gpt-la-
 - Encontrar bugs automáticamente
 - Entrenar sus propios modelos de AI
 - Contribuir a madurar repositorios
-- Resolver proyectos reales en Upwork (bastante más que [resolver problemas de código de entrevistas](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/))
+- Resolver proyectos reales en Upwork (bastante más que [resolver problemas de código de entrevistas](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/))
 
 !["Meme de los simpsons donde se pregunta si es momento de entrar en Pánico"](images/so-its-time-to-panic-simpsons.webp)
 

@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Previously I briefly discussed [unittest, coverage, mock, nose, nose, pytest and other testing tools in Python](/blog/unittest-python-are-python-tests-worthwhile/). You are probably wondering then why do we need more libraries? In this post we are going to talk a bit about tox, a testing tool for testing code in different versions of Python.
+Previously I briefly discussed [unittest, coverage, mock, nose, nose, pytest and other testing tools in Python](/en/unittest-python-are-python-tests-worthwhile/). You are probably wondering then why do we need more libraries? In this post we are going to talk a bit about tox, a testing tool for testing code in different versions of Python.
 
 ## What is Tox for?
 

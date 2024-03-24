@@ -19,7 +19,7 @@ authors:
 
 Ngnix throttling allows us to limit the number of requests to a certain user. This is useful to prevent excessive requests from a user from keeping the system busy. On the other hand, it is also a way to deter brute force password attempts or even DDOS attacks.
 
-If you are looking to optimize the performance of an application using Nginx I have a post where I give you some [recommendations to improve nginx performance](/blog/nginx-keepalive-gzip-http2-better-performance-on-your-website/)
+If you are looking to optimize the performance of an application using Nginx I have a post where I give you some [recommendations to improve nginx performance](/en/nginx-keepalive-gzip-http2-better-performance-on-your-website/)
 
 ## The bucket algorithm
 

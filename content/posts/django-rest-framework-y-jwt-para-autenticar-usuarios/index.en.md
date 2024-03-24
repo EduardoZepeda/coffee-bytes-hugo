@@ -45,9 +45,9 @@ Note how we can use the central part to store arbitrary content that we want, su
 
 ## Installation of JWT in Django
 
-First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST](/blog/rest-api-basic-characteristics-and-recommendations/) in Django and the second one to manage the JWTs.
+First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST](/en/rest-api-basic-characteristics-and-recommendations/) in Django and the second one to manage the JWTs.
 
-To install them I will use [the virtual environment manager called Pipenv](/blog/pipenv-the-virtual-environment-manager-you-don-t-know/). You can also use pip if you want.
+To install them I will use [the virtual environment manager called Pipenv](/en/pipenv-the-virtual-environment-manager-you-don-t-know/). You can also use pip if you want.
 
 ```python
 pipenv install djangorestframework_simplejwt djangorestframework
@@ -127,7 +127,7 @@ If we try to make a request to the url _/protected/_ it will warn us that we are
 curl http://127.0.0.1:8000/protegida/ {"detail":"Authentication credentials were not provided."}
 ```
 
-If you don't know how to use curl check my [basic GNU/Linux commands](/blog/linux-commands-you-should-know-part-two/) entry where I explain the basics. You can also use Postman, http or any other option.
+If you don't know how to use curl check my [basic GNU/Linux commands](/en/linux-commands-you-should-know-part-two/) entry where I explain the basics. You can also use Postman, http or any other option.
 
 ## Get JWT tokens in Django
 

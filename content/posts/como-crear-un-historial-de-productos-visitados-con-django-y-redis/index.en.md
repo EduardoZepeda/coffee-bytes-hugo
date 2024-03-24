@@ -33,7 +33,7 @@ There are many ways to address that problem, you can associate a user (and their
 
 ## Install redis on GNU/Linux
 
-Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/blog/basic-linux-commands-you-should-know/)
+Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/en/basic-linux-commands-you-should-know/)
 
 ```bash
 sudo apt install redis-server
@@ -80,7 +80,7 @@ class Product(models.Model):
     # ...
 ```
 
-If you have come this far, but you have no idea how Django works, I have some posts where I review a couple of books that may help you: [El libro definitivo de Django (Gratuito)](/blog/the-definitive-guide-to-django/) or [Django by example](/blog/learning-django-through-the-book-django-by-example-my-review/)
+If you have come this far, but you have no idea how Django works, I have some posts where I review a couple of books that may help you: [El libro definitivo de Django (Gratuito)](/en/the-definitive-guide-to-django/) or [Django by example](/en/learning-django-through-the-book-django-by-example-my-review/)
 
 ## Choosing the value to be used as a key in django and redis
 
@@ -251,7 +251,7 @@ def limit_product_history_length(user_id, product_history_length):
 
 The function **_ltrim_ of redis is in charge of cutting the initial values of the list associated to a key**, we indicate the initial index and its final index as arguments.
 
-The difference with ltrim is that its execution time is O(n), since it depends on the number of elements to be removed, while for rpop it is O(1). If you have no idea what I'm talking about visit my post where I talk a bit about the [Big O notation](/blog/the-big-o-notation/) or stay with the idea that if we are only going to remove one element rpop is better. However you may want a different behavior and you may be better off using _ltrim_.
+The difference with ltrim is that its execution time is O(n), since it depends on the number of elements to be removed, while for rpop it is O(1). If you have no idea what I'm talking about visit my post where I talk a bit about the [Big O notation](/en/the-big-o-notation/) or stay with the idea that if we are only going to remove one element rpop is better. However you may want a different behavior and you may be better off using _ltrim_.
 
 Redis has runtime information for each function in its documentation and can be very useful if the performance of your django application is important.
 

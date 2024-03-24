@@ -18,7 +18,7 @@ authors:
 
 The useCallback, useMemo and memo functions are used to optimize React applications using memoization, avoiding useless renderings, each with their differences, similarities and use cases. These three functions should not be used indiscriminately, but only in those situations where their impact is less than the benefits they offer.
 
-Visit my post where I share [5 React libraries](/blog/5-cool-react-libraries-you-should-know-about/) that you can't miss in your arsenal.
+Visit my post where I share [5 React libraries](/en/5-cool-react-libraries-you-should-know-about/) that you can't miss in your arsenal.
 
 ## Memoization and object handling in Javascript
 
@@ -92,7 +92,7 @@ The basic differences between useCallback, useMemo and memo are summarized in th
 
 ![Differences between useCallback, useMemo and memo](images/Differences-React-useCallback-useMemo-memo.jpg)
 
-Together, [memo, useMemo and useCallback are used to avoid unnecessary renderings in React](/blog/react-memo-usememo-and-usecallback-to-avoid-react-renderings/).
+Together, [memo, useMemo and useCallback are used to avoid unnecessary renderings in React](/en/react-memo-usememo-and-usecallback-to-avoid-react-renderings/).
 
 ## useCallback memoize functions
 
@@ -172,6 +172,6 @@ Memo is ideal for components that:
 * Receive props that change infrequently or not at all.
 * Very bulky components that have a very large impact on performance.
 
-Remember to check my post where I combine this [memo and useCallback to avoid renderings in React](/blog/react-memo-usememo-and-usecallback-to-avoid-react-renderings/).
+Remember to check my post where I combine this [memo and useCallback to avoid renderings in React](/en/react-memo-usememo-and-usecallback-to-avoid-react-renderings/).
 
 See the [official React hooks documentation](https://es.reactjs.org/docs/hooks-reference.html) if you want to learn more about it.

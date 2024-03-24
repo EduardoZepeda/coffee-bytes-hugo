@@ -18,13 +18,13 @@ authors:
 
 ¿Necesitas obtener los datos asociados a un código postal de México para tu aplicación de Django? Tengo una pequeña librería llamada **django-postalcodes-mexico** que descarga los códigos postales de SEPOMEX y crea un API endpoint que te permite consultar un código postal de México y recibir las colonias que pertenecen a ese código postal, así como su estado y municipio.
 
-Si vas a desarrollar una API REST, tengo una entrada con múltiples [recomendaciones sobre diseño de APIs REST](/caracteristicas-basicas-de-una-api-rest/) que pueden servirte.
+Si vas a desarrollar una API REST, tengo una entrada con múltiples [recomendaciones sobre diseño de APIs REST](/es/caracteristicas-basicas-de-una-api-rest/) que pueden servirte.
 
 Para este ejemplo uso Python 3.8, Django 3.2.5 y Pipenv version 2020.5.28
 
 ## Instalación
 
-Para instalarla vamos a usar [Pipenv](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), pero puedes usar Poetry, [pip](/python-virtualenv-tutorial-basico-en-linux/) o cualquier otro gestor de entornos virtuales.
+Para instalarla vamos a usar [Pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), pero puedes usar Poetry, [pip](/es/python-virtualenv-tutorial-basico-en-linux/) o cualquier otro gestor de entornos virtuales.
 
 ```bash
 pipenv shell

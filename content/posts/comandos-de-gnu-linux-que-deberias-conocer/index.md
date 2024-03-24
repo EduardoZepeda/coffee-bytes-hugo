@@ -17,7 +17,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](/comandos-de-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](/comandos-de-linux-que-deberias-conocer-tercera-parte/)
+Entra aquí para la [segunda parte de esta serie de comandos](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/)
 
 ## Pequeños tips de la terminal de Linux
 
@@ -83,7 +83,7 @@ man man | grep "texto a buscar"
 
 ## history
 
-History nos muestra los comandos que hemos utilizado, de manera numerada, con los más recientes hasta abajo y los más antiguos hasta arriba. Hay una manera más sencilla de buscar comandos sobre [la que puedes leer aquí.](/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/)
+History nos muestra los comandos que hemos utilizado, de manera numerada, con los más recientes hasta abajo y los más antiguos hasta arriba. Hay una manera más sencilla de buscar comandos sobre [la que puedes leer aquí.](/es/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/)
 
 ```bash
 history
@@ -149,7 +149,7 @@ cd ..
 
 Este comando sirve para concatenar el contenido de un archivo y mostrarlo en pantalla.
 
-Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
+Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](/es/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
 
 ```bash
 cat archivo
@@ -293,4 +293,4 @@ ip
 
 El comando ip tiene muchas opciones que te sugiero que revises con calma, usa el comando man si quieres ahondar más en las funcionalidades.
 
-Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/comandos-de-linux-que-deberias-conocer-segunda-parte/) para la segunda parte.
+Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) para la segunda parte.

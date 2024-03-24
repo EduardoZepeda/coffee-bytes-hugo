@@ -16,7 +16,7 @@ authors:
 
 Los channel layers te permiten interactuar y compartir información con diferentes consumers en django channels. Lo que permite a cada consumer comunicarse con el resto. Por ejemplo, cuando en un chat un usuario envía un mensaje, todos pueden leer el mensaje, cuando un usuario abandona una sala, todos pueden saber que la abandonó. Con esta capacidad es posible crear una aplicación distribuida en la que se comparta información entre los diferentes usuarios.
 
-Si no sabes que es Django channels, te recomiendo que le des una leída a mi entrada anterior, donde te explico las partes básicas de [django channels: consumers, scope y eventos.](/django-channels-consumers-scope-y-eventos/)
+Si no sabes que es Django channels, te recomiendo que le des una leída a mi entrada anterior, donde te explico las partes básicas de [django channels: consumers, scope y eventos.](/es/django-channels-consumers-scope-y-eventos/)
 
 ## Configurar un channel layer
 
@@ -43,7 +43,7 @@ CHANNEL_LAYERS = {
 
 ### Channel layers en producción
 
-La configuración anterior no es para producción. Para producción necesitamos instalar redis y el paquete _[channels-redis](https://pypi.org/project/channels-redis/)_. Te hablé un poco de redis cuando expliqué como crear un [historial de productos visitados con django y redis](/como-crear-un-historial-de-productos-visitados-con-django-y-redis/)
+La configuración anterior no es para producción. Para producción necesitamos instalar redis y el paquete _[channels-redis](https://pypi.org/project/channels-redis/)_. Te hablé un poco de redis cuando expliqué como crear un [historial de productos visitados con django y redis](/es/como-crear-un-historial-de-productos-visitados-con-django-y-redis/)
 
 ```python
 sudo apt install redis

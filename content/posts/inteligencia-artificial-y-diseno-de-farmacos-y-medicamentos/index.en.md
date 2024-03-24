@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-The uses of artificial intelligence go beyond [solving coding problems](/blog/i-test-chatgpt-with-codewars-coding-challenges/), and regardless of whether this [artificial intelligence is conscious or not](/blog/chat-gpt-searles-chinese-room-and-consciousness/), it has endless applications. One of the most interesting applications for artificial intelligence is the development of new drugs. Bringing a new drug to market is an arduous, costly and, in most cases, unsuccessful process. Artificial intelligence can speed up the process enormously and narrow down the new drug candidates to a few, rather than dozens of them.
+The uses of artificial intelligence go beyond [solving coding problems](/en/i-test-chatgpt-with-codewars-coding-challenges/), and regardless of whether this [artificial intelligence is conscious or not](/en/chat-gpt-searles-chinese-room-and-consciousness/), it has endless applications. One of the most interesting applications for artificial intelligence is the development of new drugs. Bringing a new drug to market is an arduous, costly and, in most cases, unsuccessful process. Artificial intelligence can speed up the process enormously and narrow down the new drug candidates to a few, rather than dozens of them.
 
 For this post I'm going to take some liberties and simplify concepts and sacrifice some (or a lot) of precision for the sake of better understanding. If you have doubts about who I am to talk about these topics, and about my credentials, feel free to ask me on social networks.
 

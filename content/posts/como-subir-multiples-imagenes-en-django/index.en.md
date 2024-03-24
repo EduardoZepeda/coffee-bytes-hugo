@@ -21,7 +21,7 @@ You probably already know how to upload an image using a Django model, but what 
 
 Let's first create a virtual environment and enter it.
 
-If you don't know Pipenv or don't know how to use it, check my post about [Pipenv virtual environment manager](/blog/pipenv-the-virtual-environment-manager-you-don-t-know/).
+If you don't know Pipenv or don't know how to use it, check my post about [Pipenv virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-don-t-know/).
 
 ```bash
 pipenv shell
@@ -37,7 +37,7 @@ pipenv install django Pillow
 
 Next we will create a new project and enter the newly created folder.
 
-If you don't know GNU/Linux commands I have a series of entries [with the most used GNU Linux commands](/blog/basic-linux-commands-you-should-know/)
+If you don't know GNU/Linux commands I have a series of entries [with the most used GNU Linux commands](/en/basic-linux-commands-you-should-know/)
 
 ```bash
 django-admin startproject yourproject

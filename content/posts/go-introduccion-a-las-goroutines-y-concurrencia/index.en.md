@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-As I mentioned in the introduction to the go programming language: [go is a specialized concurrency language](/blog/go-programming-language-introduction-to-variables-and-data-types/). It is a language that was designed to handle multiple tasks asynchronously. This entry is about go channels.
+As I mentioned in the introduction to the go programming language: [go is a specialized concurrency language](/en/go-programming-language-introduction-to-variables-and-data-types/). It is a language that was designed to handle multiple tasks asynchronously. This entry is about go channels.
 
 ## Concurrency is not parallelism
 

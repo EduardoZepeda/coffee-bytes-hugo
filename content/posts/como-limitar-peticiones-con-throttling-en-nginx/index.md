@@ -17,7 +17,7 @@ authors:
 
 El throttling en Ngnix nos permite limitar el número de peticiones a un cierto usuario. Lo anterior es útil para prevenir peticiones excesivas por parte de un usuario que mantengan el sistema ocupado. Por otro lado, también es una manera de disuadir intentos de averiguar una contraseña por fuerza bruta o incluso ataques DDOS.
 
-Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
+Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/es/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
 
 ## El algoritmo de la cubeta
 

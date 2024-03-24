@@ -16,7 +16,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-¿Tu aplicación hecha en Django o la de tu compañia anda lenta? Lo anterior puede tener múltiples causas: un servidor con hardware insuficiente, un paquete de hosting que necesite un upgrade para procesar mayor tráfico, un servidor mal configurado (en caso de que sea nginx, visita mi entrada donde explico [como configurar nginx para un mayor rendimiento)](/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/), o simplemente una aplicación no optimizada para dar el máximo rendimiento en django. 
+¿Tu aplicación hecha en Django o la de tu compañia anda lenta? Lo anterior puede tener múltiples causas: un servidor con hardware insuficiente, un paquete de hosting que necesite un upgrade para procesar mayor tráfico, un servidor mal configurado (en caso de que sea nginx, visita mi entrada donde explico [como configurar nginx para un mayor rendimiento)](/es/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/), o simplemente una aplicación no optimizada para dar el máximo rendimiento en django. 
 
 En esta entrada te explico algunos cambios que puedes implementar, en una aplicación de Django, para mejorar su rendimiento.
 
@@ -28,9 +28,9 @@ Es bastante común escribir código que ocasiones múltiples consultas a la base
 
 Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) y redúcelas, o vuélvelas más eficientes:
 
-- **select\_related()** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/diferencias-entre-select_related-y-prefetch_related-en-django/)
+- **select\_related()** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/es/diferencias-entre-select_related-y-prefetch_related-en-django/)
 - **prefetch\_related()** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
-- **django\_annotate()** para agregar información a cada objecto de una consulta. Tengo una entrada donde explico [la diferencia entre annotate y aggregate](/django-annotate-y-aggregate-explicados/)
+- **django\_annotate()** para agregar información a cada objecto de una consulta. Tengo una entrada donde explico [la diferencia entre annotate y aggregate](/es/django-annotate-y-aggregate-explicados/)
 - **django\_aggregate()** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
@@ -100,7 +100,7 @@ class Review(models.Model):
 
 ## Usa índices para tus búsquedas
 
-Si tu aplicación hace un uso intensivo de las búsquedas de información, considera usar un [motor de búsqueda eficiente, como Solr](/busquedas-con-solr-con-django-haystack/), en lugar de implementar el código por ti mismo.
+Si tu aplicación hace un uso intensivo de las búsquedas de información, considera usar un [motor de búsqueda eficiente, como Solr](/es/busquedas-con-solr-con-django-haystack/), en lugar de implementar el código por ti mismo.
 
 Hay muchas opciones disponibles:
 
@@ -128,7 +128,7 @@ MIDDLEWARE = [
 
 Cuando el tiempo de respuesta de tu aplicación se vuelve un problema, deberías empezar a colocar todos los resultados costosos en tiempo y recursos en caché.
 
-¿Te gustaría profundizar en el sistema de caché?, tengo un post sobre [la caché en django](/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
+¿Te gustaría profundizar en el sistema de caché?, tengo un post sobre [la caché en django](/es/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
 
 Si tu página tiene demasiados modelos, y raramente cambian, no tiene sentido acceder cada vez a la base de datos para solicitarlos con cada nueva petición HTTP. Solo coloca la respuesta de esa solicitud en caché y tu tiempo de respuesta mejorará, de esta manera cada que se pida el mismo contenido, no será necesario realizar una nueva petición o cálculos a la base de datos, sino que el valor se devolverá directamente de memoria.
 
@@ -169,7 +169,7 @@ Toma en cuenta que **la caché basada en memoria (memcached, redis) es un métod
 
 A veces el cuello de botella es responsabilidad de terceros. Cuando envías un email o solicitas información de un tercero, no tienes manera de saber cuanto tiempo demorará tu solicitud, una conexión lenta o un servidor sobresaturado pueden mantenerte esperando por una respuesta. No tiene caso mantener al usuario esperando decenas de segundos por el envío de un correo electrónico, devuélvele una respuesta y transfiere el envío del correo electrónico a una cola para que se procese más tarde. [Celery](https://docs.celeryproject.org/en/stable/) es la opción más popular para hacerlo.
 
-¿No tienes idea de donde empezar?, tengo un par de entradas donde explico [como ejecutar tareas asíncronas con celery y django.](/celery-y-django-para-ejecutar-tareas-asincronas/)
+¿No tienes idea de donde empezar?, tengo un par de entradas donde explico [como ejecutar tareas asíncronas con celery y django.](/es/celery-y-django-para-ejecutar-tareas-asincronas/)
 
 ```python
 # myapp/views.py
@@ -197,7 +197,7 @@ Servir imágenes y archivos estáticos puede dificultar la parte importante de t
 
 Además de beneficiarse de las localizaciones geográficas de los CDN; un servidor en el mismo país (o continente) que tu usuario dará como reusltado una respuesta más rápida.
 
-Existen muchas opciones de CDN disponibles, entre las opciones más populares están AWS, [Azure](/examen-de-certificacion-azure-az-900-mi-experiencia/), Digital Ocean, Cloud Flare, entre otras.
+Existen muchas opciones de CDN disponibles, entre las opciones más populares están AWS, [Azure](/es/examen-de-certificacion-azure-az-900-mi-experiencia/), Digital Ocean, Cloud Flare, entre otras.
 
 ## Denormalización
 
@@ -236,7 +236,7 @@ Pero no todo es maravilloso; los intérpretes de terceros, incluido pypy, no sue
 
 Si has probado todo lo anterior y aún así tienes una aplicación con cuellos de botella, probablemente estás exprimiendo demasiado a Python y necesites de la velocidad de otro lenguaje. Pero no te preocupes, no tienes que rehacer toda tu aplicación en C o C++. [Swig](http://www.swig.org/) te permite crear módulos en C, C++, Java, Go u otros lenguajes de más bajo nivel para importarlos directamente desde Python.
 
-¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/)
+¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/)
 
 Si tienes un cuello de botella causado por algún cálculo matemático muy costoso, que pone en evidencia la falta de velocidad de Python al ser un lenguaje interpretado, quizás te convenga reescribir el cuello de botella en algún lenguaje de bajo nivel para luego llamarlo usando Python. De esta manera tendrás la facilidad de uso de Python con la velocidad de un lenguaje de bajo nivel.
 
@@ -246,7 +246,7 @@ Dependiendo del avance de tu aplicación quizás te convenga migrar a otro frame
 
 O, si tu aplicación no es muy compleja a nivel de base de datos, quizás quieras escribir tus propias consultas sql y combinarlas con algún otro framework.
 
-La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi entrada donde te explico [los aspectos básicos de FastAPI.](/python-fastapi-el-mejor-framework-de-python/)
+La tendencia actual es separar frontend de backend, por lo anterior Django está usándose en conjunto con Django Rest Framework para crear APIs, por lo que, si entre tus planes está la creación de una API, quizás te convenga considerar FastAPI, si no lo conoces date una vuelta por mi entrada donde te explico [los aspectos básicos de FastAPI.](/es/python-fastapi-el-mejor-framework-de-python/)
 
 ## Bonus: aplicaciones con más de 63 000 modelos
 

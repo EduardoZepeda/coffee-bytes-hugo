@@ -43,6 +43,6 @@ Sobra decir que los entornos virtuales solucionan bastantes problemas. Y es una 
 Hay muchas opciones de entornos virtuales disponibles aquí te dejo algunos de los más populares:
 
 - virtualenv
-- [pipenv](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
+- [pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 - conda
 - poetry

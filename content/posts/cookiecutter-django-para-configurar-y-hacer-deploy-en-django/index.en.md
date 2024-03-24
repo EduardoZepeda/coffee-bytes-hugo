@@ -24,11 +24,11 @@ authors:
 
 I wrote the previous entries as an introduction for this week's topic. In this post I'm going to explain about a cool tool for Django called cookiecutter-django, which translated means "django cookie cutter". This tool for django allows you to generate projects that integrate docker, celery, mailhog, aws, gcp, and many other tools, in an automatic way, just by answering a series of questions.
 
-This tool uses docker to simplify the process of developing and deploying a Django application. It was also created by one of the writers of the great book Two scoops of Django, of which I have a [review of Twoo scoops of django](/blog/the-best-django-book-two-scoops-of-django-review/)
+This tool uses docker to simplify the process of developing and deploying a Django application. It was also created by one of the writers of the great book Two scoops of Django, of which I have a [review of Twoo scoops of django](/en/the-best-django-book-two-scoops-of-django-review/)
 
-Don't know what Docker is? Visit my post where I talk about [containers and Docker](/blog/get-to-know-the-basic-docker-compose-commands/) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/blog/how-to-convert-jpg-to-webp-on-gnu-linux/).
+Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/get-to-know-the-basic-docker-compose-commands/) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/en/how-to-convert-jpg-to-webp-on-gnu-linux/).
 
-If you doubt about whether you should use Django visit my post where I explain some [advantages and disadvantages of this web development framework](/blog/why-should-you-use-django-framework/)
+If you doubt about whether you should use Django visit my post where I explain some [advantages and disadvantages of this web development framework](/en/why-should-you-use-django-framework/)
 
 ## What is Cookiecutter Django for?
 
@@ -518,6 +518,6 @@ If you have no errors you will be able to access your website through your domai
 
 The next step is to add our service to some process controller, so that it is immune to reboots, you can use runit, sysinit, supervisord or the hated systemd, each system is different and there are many preferences, so I will not delve into it here.
 
-Theoretically you can perform this procedure in any PAAS, such as [Digital Ocean](/blog/digital-ocean-analysis-and-my-experience-as-a-user/), Linode, etc. I have done the procedure using a Docker Droplet on Digital Ocean and it went fine. The author has instructions for other platforms that you can check at [the official cookiecutter-django documentation](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
+Theoretically you can perform this procedure in any PAAS, such as [Digital Ocean](/en/digital-ocean-analysis-and-my-experience-as-a-user/), Linode, etc. I have done the procedure using a Docker Droplet on Digital Ocean and it went fine. The author has instructions for other platforms that you can check at [the official cookiecutter-django documentation](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
-Visit my next post, where I talk [about one of the newest Python frameworks for creating APIs](/blog/fastapi-tutorial-the-best-python-framework/).
+Visit my next post, where I talk [about one of the newest Python frameworks for creating APIs](/en/fastapi-tutorial-the-best-python-framework/).

@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-The other day a person asked me why I use Wordpress for my blog if I could develop a website by myself. In the post where I explain [how I learned to program](/blog/hello-world-how-did-i-learn-to-code/) I even talked briefly about my lousy experience with PHP. So why did I choose Wordpress instead of developing my own blog from scratch? The answer to that is simply that, **for this blog, I want to write text, not code**. I don't want this blog to become a project to develop along with creating posts. I want something that works with a couple of clicks and forget about it completely. Let's not lose sight of the fact that the purpose of a personal blog is to write on it constantly, not to program it constantly. It's sad to see so many developer blogs using the newest technologies and super up-to-date, but with very few entries.
+The other day a person asked me why I use Wordpress for my blog if I could develop a website by myself. In the post where I explain [how I learned to program](/en/hello-world-how-did-i-learn-to-code/) I even talked briefly about my lousy experience with PHP. So why did I choose Wordpress instead of developing my own blog from scratch? The answer to that is simply that, **for this blog, I want to write text, not code**. I don't want this blog to become a project to develop along with creating posts. I want something that works with a couple of clicks and forget about it completely. Let's not lose sight of the fact that the purpose of a personal blog is to write on it constantly, not to program it constantly. It's sad to see so many developer blogs using the newest technologies and super up-to-date, but with very few entries.
 
 ## What I miss when using wordpress
 
@@ -29,7 +29,7 @@ Wordpress is a very popular system on the Internet and already has thousands of 
 
 ## My experience so far with wordpress
 
-To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/blog/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev).
+To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/en/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev).
 
 ![Web core vitals de coffee bytes](images/web_core_vitals_de_mi_blog.png)
 

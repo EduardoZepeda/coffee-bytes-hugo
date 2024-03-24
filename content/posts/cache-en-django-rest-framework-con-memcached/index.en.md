@@ -26,7 +26,7 @@ To use the cache in django, just follow three simple steps:
 3. Add the middleware necessary for django to return the cache before processing the view.
 4. Use the low-level cache to cache specific views or data (optional).
 
-Implementing a caching system allows you to [greatly improve the performance of an application made in Django](/blog/is-your-django-application-slow-maximize-its-performance-with-these-tips/).
+Implementing a caching system allows you to [greatly improve the performance of an application made in Django](/en/is-your-django-application-slow-maximize-its-performance-with-these-tips/).
 
 ## How much does caching improve performance?
 
@@ -61,7 +61,7 @@ It's pretty obvious, but I feel I should mention it: remember that **memcached s
 
 I will install the following dependencies for this tutorial:
 
-* djangorestframework: for creating [REST APIs](/blog/rest-api-basic-characteristics-and-recommendations/).
+* djangorestframework: for creating [REST APIs](/en/rest-api-basic-characteristics-and-recommendations/).
 * django-debug-toolbar: to compare performance before and after caching.
 * django-seed: to automatically create data in the database.
 * pymemcache: to allow python to interact with memcached.

@@ -21,19 +21,19 @@ Hace algo de tiempo, mientras buscaba información sobre Django por internet me 
 - Django for APIS
 - Django for Professionals
 
-Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas de Django](/por-que-deberias-usar-django-framework/)
+Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas de Django](/es/por-que-deberias-usar-django-framework/)
 
 ## Un poco de Django moderno para profesionales
 
 Este libro está actualizado a Django 3.0, la versión más moderna de Django al momento de escribir este artículo. Django for professionals va a presentar los temas que abarca a partir del desarrollo de un proyecto tienda de libros. El desarrollo de esta aplicación se realizará usando las siguientes tecnologías; Docker, para normalizar los entornos de desarrollo; Git, para el control de versiones; Stripe, para los pagos; Postgres, para la base de datos; Y Heroku; para realizar el despliegue.
 
-Una característica del libro que me gustaría destacar es la escritura de tests de los avances realizados a lo largo de cada capítulo, esto es algo que he visto **en pocos libros** y que yo creo que debería de **volverse la norma** en todos los libros de programación. Si desconoces del propósito de los tests o consideras que son innecesarios, dame una oportunidad de intentar convencerte de lo contrario en mi entrada sobre [unnitest de Python y el testing.](/unittest-python-valen-la-pena-los-tests-en-python/)
+Una característica del libro que me gustaría destacar es la escritura de tests de los avances realizados a lo largo de cada capítulo, esto es algo que he visto **en pocos libros** y que yo creo que debería de **volverse la norma** en todos los libros de programación. Si desconoces del propósito de los tests o consideras que son innecesarios, dame una oportunidad de intentar convencerte de lo contrario en mi entrada sobre [unnitest de Python y el testing.](/es/unittest-python-valen-la-pena-los-tests-en-python/)
 
 ## Mi opinión sobre Django for Professionals
 
 Con respecto al contenido, me parece que le falta profundizar un poco más en el deploy y tomar en cuenta otras opciones, a parte de Heroku. Tampoco menciona a Django Rest Framework o Graphene, aunque esto podría deberse a que son tratados en su otro libro: Django for APIS. Yo siento que, para ser un libro de Django para profesionales, no ahonda lo suficiente en el framework.  
   
-Si buscas un libro que ahonde en el funcionamiento de Django a profundidad a nivel código, este no es tu libro, intenta con [The definitive guide to Django](/la-guia-definitiva-de-django/) (incluso a pesar de estar desactualizado). En cambio, si estás buscando una aproximación más centrada en el rápido desarrollo y despliegue de aplicaciones este es, probablemente, el libro que necesitas leer.
+Si buscas un libro que ahonde en el funcionamiento de Django a profundidad a nivel código, este no es tu libro, intenta con [The definitive guide to Django](/es/la-guia-definitiva-de-django/) (incluso a pesar de estar desactualizado). En cambio, si estás buscando una aproximación más centrada en el rápido desarrollo y despliegue de aplicaciones este es, probablemente, el libro que necesitas leer.
 
 En resumen, me han gustado un montón de cosas de este libro. En primer lugar, ver ejemplos en Docker (aún en nivel básico) con Django es bastante útil, ya que muchos de los libros lo dejan de lado. En segundo lugar, la incorporación de tests al final de cada capítulo también lo considero un acierto por parte del escritor.
 

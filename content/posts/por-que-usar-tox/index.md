@@ -14,7 +14,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Anteriormente hablé brevemente sobre las [pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo en Python](/unittest-python-valen-la-pena-los-tests-en-python/). Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.
+Anteriormente hablé brevemente sobre las [pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo en Python](/es/unittest-python-valen-la-pena-los-tests-en-python/). Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.
 
 ## ¿Para que sirve Tox?
 

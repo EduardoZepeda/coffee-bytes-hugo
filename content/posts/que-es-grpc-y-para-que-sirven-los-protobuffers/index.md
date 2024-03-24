@@ -15,7 +15,7 @@ authors:
 ---
 
 
-En mi entrada sobre [las características básicas sobre una API REST](/caracteristicas-basicas-de-una-api-rest/) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
+En mi entrada sobre [las características básicas sobre una API REST](/es/caracteristicas-basicas-de-una-api-rest/) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
 
 ## ¿Qué es RPC?
 

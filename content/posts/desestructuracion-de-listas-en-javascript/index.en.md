@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous post I explained a bit about the topic of [object destructuring in javascript](/blog/destructuring-variables-in-javascript/). In addition to object destructuring, JavaScript also allows you to destructure lists. In this post I will talk about list destructuring in JavaScript.
+In the previous post I explained a bit about the topic of [object destructuring in javascript](/en/destructuring-variables-in-javascript/). In addition to object destructuring, JavaScript also allows you to destructure lists. In this post I will talk about list destructuring in JavaScript.
 
 Let's imagine that we have a list with numerical values.
 
@@ -60,4 +60,4 @@ if(flyLength > limitValueFly){
 
 Now the code is much more descriptive and your colleagues, not as enlightened as you, will be able to understand it.
 
-But hey, nice and all, but what if my objects have other nested objects and I want to get a value from them. Well we can also [destructure nested objects](/blog/destructuring-of-nested-objects/), in the I will briefly explain how to do it.
+But hey, nice and all, but what if my objects have other nested objects and I want to get a value from them. Well we can also [destructure nested objects](/en/destructuring-of-nested-objects/), in the I will briefly explain how to do it.

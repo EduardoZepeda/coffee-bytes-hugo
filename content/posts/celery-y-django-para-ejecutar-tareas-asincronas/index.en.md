@@ -18,7 +18,7 @@ authors:
 
 Celery, in combination with Django serve to solve a problem: the lack of asynchrony in our application. Sending an email, processing some file or responding to a third party service will keep our execution waiting for the task to finish and, as a consequence, our user waiting.
 
-Using celery is one of the things you can do to [improve the performance of a Django application](/blog/is-your-django-application-slow-maximize-its-performance-with-these-tips/). And you can also create periodic tasks with celery and django.
+Using celery is one of the things you can do to [improve the performance of a Django application](/en/is-your-django-application-slow-maximize-its-performance-with-these-tips/). And you can also create periodic tasks with celery and django.
 
 Look at this example view:
 
@@ -40,7 +40,7 @@ The response to the url takes 3 seconds
 
 Celery solves our problem, it sends those tasks to a queue so that they can be executed later, asynchronously, and the code can continue its execution.
 
-That's right, you're probably thinking that celery has similarities with Javascript or Python's async await. However celery is much more robust and with many more features, such as scheduling periodic tasks (as in [cron and crontab in GNU/Linux](/blog/cron-and-crontab-schedules-recurring-tasks/)) and also monitoring them, but let's go by parts.
+That's right, you're probably thinking that celery has similarities with Javascript or Python's async await. However celery is much more robust and with many more features, such as scheduling periodic tasks (as in [cron and crontab in GNU/Linux](/en/cron-and-crontab-schedules-recurring-tasks/)) and also monitoring them, but let's go by parts.
 
 ## Installation of celery
 

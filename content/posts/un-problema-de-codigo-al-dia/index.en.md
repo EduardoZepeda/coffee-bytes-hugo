@@ -25,7 +25,7 @@ To receive an algorithm problem, just send us an e-mail. The problems do not tes
 
 I subscribed to your list some time ago and currently receive your challenges by email. There are some that have taken me a couple of minutes to find the algorithm to solve and for others I have had to ponder the problem for several hours to come up with a solution. It's addictive, that's for sure.
 
-But, there is bad news; the solutions do not come to you by email, they are part of the premium package, for a fee, you didn't expect them to work for free, did you? The premium package receives a detailed analysis of the solutions and their efficiency, using [Big O notation](/blog/the-big-o-notation/). However, this is by no means an obstacle, as you can find out for yourself whether your solution meets the requirements or not just by reading the content of the email; the efficiency analysis is another story.
+But, there is bad news; the solutions do not come to you by email, they are part of the premium package, for a fee, you didn't expect them to work for free, did you? The premium package receives a detailed analysis of the solutions and their efficiency, using [Big O notation](/en/the-big-o-notation/). However, this is by no means an obstacle, as you can find out for yourself whether your solution meets the requirements or not just by reading the content of the email; the efficiency analysis is another story.
 
 ## A couple of examples
 

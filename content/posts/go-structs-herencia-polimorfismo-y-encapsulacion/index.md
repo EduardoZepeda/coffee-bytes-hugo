@@ -12,7 +12,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Como ya te mencioné en la [introducción al lenguaje de programación Golang o Go](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), este lenguaje no tiene una palabra reservada para tratar con clases, sino que usa structs para emular características como herencia, polimorfismo, encapsulación y otras propiedades de las clases que probablemente hayas usado en otros lenguajes de programación.
+Como ya te mencioné en la [introducción al lenguaje de programación Golang o Go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), este lenguaje no tiene una palabra reservada para tratar con clases, sino que usa structs para emular características como herencia, polimorfismo, encapsulación y otras propiedades de las clases que probablemente hayas usado en otros lenguajes de programación.
 
 ## Structs en go
 
@@ -42,7 +42,7 @@ var myVideogame Videogame
 myVideogame.Title = "Nier"
 ```
 
-Si no especificamos un valor, se asignará el respectivo zero value al [tipo de variable de go.](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/)
+Si no especificamos un valor, se asignará el respectivo zero value al [tipo de variable de go.](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/)
 
 ```go
 fmt.Println(myVideogame)
@@ -113,7 +113,7 @@ videogame.IncreaseYear()
 
 Si declaramos una función para personalizar el output en consola llamada _String_, reemplazaremos lo que devuelve el struct cuando lo imprimimos.
 
-Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso el método Sprintf del [paquete fmt de go](/go-funciones-argumentos-y-el-paquete-fmt/) para devolver un string.
+Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso el método Sprintf del [paquete fmt de go](/es/go-funciones-argumentos-y-el-paquete-fmt/) para devolver un string.
 
 ```go
 func (myStructVariable Videogame) String() string { 

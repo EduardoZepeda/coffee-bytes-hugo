@@ -15,7 +15,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-En frameworks como [Django, las migraciones se crean automáticamente](/por-que-deberias-usar-django-framework/#su-orm-es-sencillo-y-maravilloso), a partir de los modelos. Sin embargo en lenguajes como go, siempre y cuando no estemos usando un ORM, las migraciones se realizarán de manera manual.
+En frameworks como [Django, las migraciones se crean automáticamente](/es/por-que-deberias-usar-django-framework/#su-orm-es-sencillo-y-maravilloso), a partir de los modelos. Sin embargo en lenguajes como go, siempre y cuando no estemos usando un ORM, las migraciones se realizarán de manera manual.
 
 ## ¿Qué es una migración de una base de datos?
 
@@ -106,7 +106,7 @@ Hasta ahora solo hemos creado los archivos de migraciones, pero no le hemos hech
 
 Antes de realizar cualquier cambio en la base de datos necesitaremos indicarle la dirección de acceso, a esta última, en el siguiente formato [motor]://[usuario]:[contraseña]@[dominio]/[base de datos]
 
-Y, obviamente, lo más cómodo y seguro será guardar esta dirección en [una variable de entorno](/comandos-de-linux-que-deberias-conocer-tercera-parte/).
+Y, obviamente, lo más cómodo y seguro será guardar esta dirección en [una variable de entorno](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/).
 
 ```bash
 BASE_DE_DATOS=[motor]://[usuario]:[contraseña]@[dominio]/[base de datos]

@@ -13,7 +13,7 @@ authors:
 
 Solr, together with Lucene, is an outstanding search engine that allows you to perform searches with advanced features. In this post I bring you a summary of some of the most interesting features of Solr and Django Haystack.
 
-I assume you already have a [configured django app with Solr](/blog/how-to-implement-solr-for-searches-or-queries-in-django/), in case you don't, check my previous post.
+I assume you already have a [configured django app with Solr](/en/how-to-implement-solr-for-searches-or-queries-in-django/), in case you don't, check my previous post.
 
 ## Behavior of default AND and OR searches
 
@@ -149,7 +149,7 @@ query = SearchQuerySet().auto_query("<mla ecsrito>")
 query.spelling_suggestion() # u'mal escrito'
 ```
 
-This allows us to correct small errors in the search, just as if we were using [trigrams in Postgres and Django](/blog/trigrams-and-advanced-searches-with-django-and-postgres/).
+This allows us to correct small errors in the search, just as if we were using [trigrams in Postgres and Django](/en/trigrams-and-advanced-searches-with-django-and-postgres/).
 
 Activating this search took me a lot of work, it seems that it is not activated by default and that you have to visit the url with _&spellcheck.reload=true_ to generate the proper index, but who knows, maybe in newer versions it won't be necessary.
 

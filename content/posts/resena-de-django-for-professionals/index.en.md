@@ -23,19 +23,19 @@ Some time ago, while searching for information about Django on the internet I ca
 * Django for APIs
 * Django for professionals
 
-If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of Django](/blog/why-should-you-use-django-framework/)
+If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of Django](/en/why-should-you-use-django-framework/)
 
 ## A bit of modern Django for professionals
 
 This book is constantly being updated to the most modern version of Django at the time of writing. Django for professionals will present the topics covered from the development of a bookstore project. The development of this application will be done using the following technologies; Docker, to standardize the development environments; Git, for version control; Stripe, for payments; Postgres, for the database; and Heroku; to perform the deployment.
 
-One feature of the book that I would like to highlight is the writing of tests of the progress made throughout each chapter, this is something that I have seen **in few books** and that I believe should **become the norm** in all programming books. If you are unaware of the purpose of the tests or consider them unnecessary, give me a chance to try to convince you otherwise in my post on [Python unnitest and testing](/blog/unittest-python-are-python-tests-worthwhile/).
+One feature of the book that I would like to highlight is the writing of tests of the progress made throughout each chapter, this is something that I have seen **in few books** and that I believe should **become the norm** in all programming books. If you are unaware of the purpose of the tests or consider them unnecessary, give me a chance to try to convince you otherwise in my post on [Python unnitest and testing](/en/unittest-python-are-python-tests-worthwhile/).
 
 ## My opinion about Django for Professionals
 
 Regarding the content, it seems to me that it lacks a little more depth in the deploy and take into account other options, apart from Heroku. It also does not mention Django Rest Framework or Graphene, although this could be because they are covered in his other book: Django for APIS. I feel that, for a Django book for professionals, it does not go deep enough into the framework.
 
-If you are looking for a book that delves into Django in depth at the code level, this is not your book, try [The definitive guide to Django](/blog/the-definitive-guide-to-django/) (even though it is outdated). Instead, if you are looking for a more focused approach to rapid application development and deployment, this is probably the book you need to read.
+If you are looking for a book that delves into Django in depth at the code level, this is not your book, try [The definitive guide to Django](/en/the-definitive-guide-to-django/) (even though it is outdated). Instead, if you are looking for a more focused approach to rapid application development and deployment, this is probably the book you need to read.
 
 In short, I liked a lot of things about this book. First of all, seeing examples in Docker (even at a basic level) with Django is quite useful, as many of the books leave it aside. Secondly, the incorporation of tests at the end of each chapter I also consider it a success on the part of the writer.
 

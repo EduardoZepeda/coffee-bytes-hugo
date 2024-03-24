@@ -13,8 +13,8 @@ authors:
 
 Esta es la continuación de las siguientes partes: 
 
-* [Comandos básicos de GNU Linux, primera parte](/comandos-de-linux-basicos-que-deberias-conocer/) 
-* [Comandos básicos de GNU Linux, segunda parte](/comandos-de-linux-que-deberias-conocer-segunda-parte/).
+* [Comandos básicos de GNU Linux, primera parte](/es/comandos-de-linux-basicos-que-deberias-conocer/) 
+* [Comandos básicos de GNU Linux, segunda parte](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/).
 
 ## printenv
 
@@ -423,7 +423,7 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 
 ## chroot
 
-Hay situaciones en las que necesitamos cambiar la dirección de la carpeta root por defecto para algunos usos más avanzados, como la creación de overlays o de contenedores, tales como los de [docker](/que-es-docker-y-para-que-sirve/).
+Hay situaciones en las que necesitamos cambiar la dirección de la carpeta root por defecto para algunos usos más avanzados, como la creación de overlays o de contenedores, tales como los de [docker](/es/que-es-docker-y-para-que-sirve/).
 
 ```bash
 chroot /mi_nuevo_directorio_root
@@ -431,7 +431,7 @@ chroot /mi_nuevo_directorio_root
 
 ## chown
 
-Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los [permisos en GNU Linux](/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) **ingresa como super usuario**.
+Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los [permisos en GNU Linux](/es/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) **ingresa como super usuario**.
 
 ```bash
 ls -la

@@ -23,7 +23,7 @@ Y, para cerrar el libro, el autor nos ofrece 10 proyectos diferentes, para poner
 
 ## Aprender desde cero
 
-El aspecto que más disfruté de este libro fue la gran variedad de temas que toca, pasa rápidamente del tutorial del lenguaje de programación básico a temas más complejos tales como la generación de ejecutables, compensar los cuellos de botella que tiene Python utilizando C ++ , la parte de las [pruebas en Python](/unittest-python-valen-la-pena-los-tests-en-python/) (que es ignorada en la mayoría de los tutoriales de programación), incluso aprendes la existencia de librerías bastante populares como swig, tornado, beautiful soup, entre otras.
+El aspecto que más disfruté de este libro fue la gran variedad de temas que toca, pasa rápidamente del tutorial del lenguaje de programación básico a temas más complejos tales como la generación de ejecutables, compensar los cuellos de botella que tiene Python utilizando C ++ , la parte de las [pruebas en Python](/es/unittest-python-valen-la-pena-los-tests-en-python/) (que es ignorada en la mayoría de los tutoriales de programación), incluso aprendes la existencia de librerías bastante populares como swig, tornado, beautiful soup, entre otras.
 
 ## Lo malo de Beginning Python
 
@@ -35,4 +35,4 @@ Yo lo considero una excelente libro para aprender Python desde cero. Es muy dif�
 
 **Conocimientos previos recomendados:** HTML**Recomendado para leerlo:** 8/10
 
-Si prefieres un libro en español y que además **sea gratuito** visita mi entrada donde [reseño Inmersión en Python](/aprende-python-desde-cero-con-este-libro-gratuito/).
+Si prefieres un libro en español y que además **sea gratuito** visita mi entrada donde [reseño Inmersión en Python](/es/aprende-python-desde-cero-con-este-libro-gratuito/).

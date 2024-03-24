@@ -19,7 +19,7 @@ authors:
 
 ## What is a deployment pattern?
 
-A deployment pattern (Not to be confused with a [design pattern](/blog/python-design-patterns-review-of-practical-python-design-patterns/)) is an automatic method of deploying new features of an application to your users. But it doesn't stop there, it is possible to get extra information from a deploy of an application, but.... but how? 
+A deployment pattern (Not to be confused with a [design pattern](/en/python-design-patterns-review-of-practical-python-design-patterns/)) is an automatic method of deploying new features of an application to your users. But it doesn't stop there, it is possible to get extra information from a deploy of an application, but.... but how? 
 
 Imagine you want to test a feature of your web application, but you are afraid that it will not be liked by your users, or you want to see if this new feature increases or decreases the conversion rate of your application, which is invaluable, especially in the early stages of iteration of an application. 
 

@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In frameworks like [Django, migrations are created automatically](/blog/why-should-you-use-django-framework/), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
+In frameworks like [Django, migrations are created automatically](/en/why-should-you-use-django-framework/), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
 
 ## What is a database migration?
 
@@ -108,7 +108,7 @@ So far we have only created the migration files, but we have not let the program
 
 Before making any changes to the database, we will need to indicate the access address to the database in the following format [engine]://[user]:[password]@[domain]/[database].
 
-And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/blog/linux-commands-you-should-know-part-two/).
+And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/en/linux-commands-you-should-know-part-two/).
 
 ```bash
 BASE_DE_DATOS=[motor]://[usuario]:[contraseña]@[dominio]/[base de datos]

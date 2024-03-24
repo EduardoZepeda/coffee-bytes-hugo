@@ -11,7 +11,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.
+Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.
 
 Ahora sí, pasemos a las funciones.
 

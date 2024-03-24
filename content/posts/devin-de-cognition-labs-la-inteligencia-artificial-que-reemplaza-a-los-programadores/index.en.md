@@ -24,7 +24,7 @@ Like what features? [According to its creators, Devin can](https://www.cognition
 - Automatically find bugs
 - Train your own AI models
 - Contribute to mature repositories
-- Solve real projects on Upwork (much more than [solve interview code problems](/blog/i-test-chatgpt-with-codewars-coding-challenges/))
+- Solve real projects on Upwork (much more than [solve interview code problems](/en/i-test-chatgpt-with-codewars-coding-challenges/))
 
 !["Simpsons meme asking if it's time to Panic"](images/so-its-time-to-panic-simpsons.webp)
 

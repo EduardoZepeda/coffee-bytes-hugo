@@ -202,7 +202,7 @@ Para crear una nueva query con parámetros añadiremos un nuevo método para nue
 
 Sin embargo en este caso usaremos un argumento, así que le tenemos que decir el nombre del argumento y el tipo de dato en graphql, en este caso el argumento se llamará _title_ y el tipo de dato será _String_. Aprecia como le pasamos _required_ para que sea obligatorio y su presencia como argumento en el nuevo método.
 
-Recuerda que el resultado de la query lo decidimos nosotros, yo he usado un simple _icontains_ para una búsqueda insensible a mayúsculas o minúsculas, pero tú puedes usar lo que quieras, incluso un [full text search](/full-text-search-y-busquedas-con-django-y-postgres/), [búsquedas avanzadas con trigramas con postgres](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) o lo que prefieras.
+Recuerda que el resultado de la query lo decidimos nosotros, yo he usado un simple _icontains_ para una búsqueda insensible a mayúsculas o minúsculas, pero tú puedes usar lo que quieras, incluso un [full text search](/es/full-text-search-y-busquedas-con-django-y-postgres/), [búsquedas avanzadas con trigramas con postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) o lo que prefieras.
 
 ```python
 # criticaAnimes/schema.py

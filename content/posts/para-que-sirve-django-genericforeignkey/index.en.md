@@ -18,7 +18,7 @@ authors:
 
 You want to use Django to relate one model to another using a foreign key, but the model you want to relate is a different one for each database entry. Django offers a solution to your problem, a generic foreign key called genericForeignKey and the ContentType model, which I talked about earlier.
 
-The genericForeignkey field type is able to link to different types of models, allowing us to relate any other model to ours. Remember in the previous post I talked about ContentType? Well, now we will give it a practical application. If you want to review the previous post, visit my post where I talk about [ContentType in Django](/blog/what-does-the-contenttype-application-do-in-django/)
+The genericForeignkey field type is able to link to different types of models, allowing us to relate any other model to ours. Remember in the previous post I talked about ContentType? Well, now we will give it a practical application. If you want to review the previous post, visit my post where I talk about [ContentType in Django](/en/what-does-the-contenttype-application-do-in-django/)
 
 ## The genericForeignKey field
 

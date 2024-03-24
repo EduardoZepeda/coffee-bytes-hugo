@@ -24,7 +24,7 @@ And, to close the book, the author offers us 10 different projects to put into p
 
 ## Learning from scratch
 
-The aspect I enjoyed most about this book was the wide variety of topics it touches on, it moves quickly from the basic programming language tutorial to more complex topics such as generating executables, compensating for the bottlenecks that Python has using C++, the part of [tests in Python](/blog/unittest-python-are-python-tests-worthwhile/) (which is ignored in most programming tutorials), you even learn the existence of quite popular libraries such as swig, tornado, beautiful soup, among others.
+The aspect I enjoyed most about this book was the wide variety of topics it touches on, it moves quickly from the basic programming language tutorial to more complex topics such as generating executables, compensating for the bottlenecks that Python has using C++, the part of [tests in Python](/en/unittest-python-are-python-tests-worthwhile/) (which is ignored in most programming tutorials), you even learn the existence of quite popular libraries such as swig, tornado, beautiful soup, among others.
 
 ## What's wrong with Beginning Python
 
@@ -36,4 +36,4 @@ I consider it an excellent book to learn Python from scratch. It's challenging t
 
 **Recommended prior knowledge:** HTML**Recommended to read:** 8/10
 
-If you prefer a book in Spanish and also **free** visit my entry where I [review Inmersión en Python](/blog/learn-python-from-scratch-with-this-free-book/).
+If you prefer a book in Spanish and also **free** visit my entry where I [review Inmersión en Python](/en/learn-python-from-scratch-with-this-free-book/).

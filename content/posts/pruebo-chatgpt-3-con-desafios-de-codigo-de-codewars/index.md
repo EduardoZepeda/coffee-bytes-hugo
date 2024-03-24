@@ -14,7 +14,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-ChatGPT está rompiendo con todo lo conocido anteriormente en inteligencia artificial, algunos desarrolladores están preocupados de que [una Inteligencia Artificial pueda reemplazarlos en sus trabajos](/devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores/), justo como amenazó Github Copilot en su momento. En esta entrada pongo a prueba la [supuesta inteligencia de ChatGPT](/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/) contra tres desafios de codewars. 
+ChatGPT está rompiendo con todo lo conocido anteriormente en inteligencia artificial, algunos desarrolladores están preocupados de que [una Inteligencia Artificial pueda reemplazarlos en sus trabajos](/es/devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores/), justo como amenazó Github Copilot en su momento. En esta entrada pongo a prueba la [supuesta inteligencia de ChatGPT](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/) contra tres desafios de codewars. 
 ## ¿Cómo funciona Codewars?
 
 Antes de empezar necesitas entender que [Codewars](https://www.codewars.com) es una red social de programadores en la que se comparten desafios de código escritos por los mismos usuarios. Cada desafio puede ponerse a prueba con una serie de pruebas y, si las pasa todas, el desafio se considera completado. Estos desafios tienen el nombre de katas.
@@ -127,7 +127,7 @@ function isPalindrome(num) {
 }
 ```
 
-Sin embargo, hay un pequeño error, a pesar de producir los resultados de manera correcta, el código no pasa las pruebas por que el [rendimiento de Big O](/la-notacion-big-o/) de la inteligencia artificial es insuficiente para la prueba.
+Sin embargo, hay un pequeño error, a pesar de producir los resultados de manera correcta, el código no pasa las pruebas por que el [rendimiento de Big O](/es/la-notacion-big-o/) de la inteligencia artificial es insuficiente para la prueba.
 
 Intenté obtener la respuesta correcta múltiples veces, incluso especificando la complejidad de Big O con diferentes inputs, pero fue imposible obtener el resultado correcto.
 

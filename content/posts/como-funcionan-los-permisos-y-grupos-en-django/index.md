@@ -14,9 +14,9 @@ authors:
 
 La primera vez que me enteré de que Django tenía un sistema de permisos, hace ya muchos años, me pareció algo bastante esotérico, sin mucha utilidad y fácil de replicar, que equivocado estaba en aquel entonces. Después me di cuenta de que el sistema de permisos integrado era una maravilla y ahorraba muchísimo código, además de ser bastante sólido y puesto a prueba por algunas de las empresas más grandes del mundo.
 
-Si aún no te decides a usar Django y estás investigando sus características revisa mi entrada sobre las [ventajas y desventajas del framework de desarrollo web Django.](/por-que-deberias-usar-django-framework/)
+Si aún no te decides a usar Django y estás investigando sus características revisa mi entrada sobre las [ventajas y desventajas del framework de desarrollo web Django.](/es/por-que-deberias-usar-django-framework/)
 
-Por otro lado, si ya tienes un poco de práctica con Django quizá te convenga profundizar lo que sabes con este libro gratuito, y en español, llamado [la guía definitiva de Django](/la-guia-definitiva-de-django/)
+Por otro lado, si ya tienes un poco de práctica con Django quizá te convenga profundizar lo que sabes con este libro gratuito, y en español, llamado [la guía definitiva de Django](/es/la-guia-definitiva-de-django/)
 
 ## ¿Cómo se crean los permisos en Django?
 
@@ -150,7 +150,7 @@ def edit_videogame(request):
 
 Las plantillas de Django ya no son tan populares como antes, debido al auge de los microservicios y frameworks de frontend como React, Vue, Angular, etc. Aún así, si deseas usarlas en plantillas puedes acceder a los permisos de la siguiente manera:
 
-Actualización: [Htmx](/django-y-htmx-web-apps-modernas-sin-escribir-js/) puede darle vida, nuevamente, a los permisos en el sistema de plantillas de Django.
+Actualización: [Htmx](/es/django-y-htmx-web-apps-modernas-sin-escribir-js/) puede darle vida, nuevamente, a los permisos en el sistema de plantillas de Django.
 
 ```django
 {% if perms.app.action_model %}

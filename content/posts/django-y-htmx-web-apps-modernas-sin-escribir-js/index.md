@@ -51,7 +51,7 @@ Esquema del funcionamiento de HTMX
 
 Para este tutorial he creado un repositorio en github, por lo que si quieres ahorrarte todo el boilerplate, puedes simplemente clonar todo el proyecto e ir siguiendo el código conforme lo voy escribiendo.
 
-Recuerda que si no estás convencido de porque deberías usar Django revisa mi entrada donde explico las [ventajas y desventajas de Django](/por-que-deberias-usar-django-framework/). Si no tienes idea de como se usa Django mejor empieza con la [guia de Django](/la-guia-definitiva-de-django/)
+Recuerda que si no estás convencido de porque deberías usar Django revisa mi entrada donde explico las [ventajas y desventajas de Django](/es/por-que-deberias-usar-django-framework/). Si no tienes idea de como se usa Django mejor empieza con la [guia de Django](/es/la-guia-definitiva-de-django/)
 
 ```bash
  # Ejecuta esto para no escribir el código
@@ -68,7 +68,7 @@ password: contrasenaNoSegura
 
 ### Instalación de modelos y dependencias de Django
 
-Para empezar, vamos a crear un entorno virtual con [el gestor de entornos virtuales pipenv](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Tú puedes usar [pip](/python-virtualenv-tutorial-basico-en-linux/), poetry, conda o el que prefieras.
+Para empezar, vamos a crear un entorno virtual con [el gestor de entornos virtuales pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Tú puedes usar [pip](/es/python-virtualenv-tutorial-basico-en-linux/), poetry, conda o el que prefieras.
 
 ```bash
 pipenv shell

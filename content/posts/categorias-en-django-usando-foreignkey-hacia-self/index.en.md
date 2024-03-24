@@ -50,7 +50,7 @@ Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCate
 
 ![Infinite subcategories problem scheme](images/ProblemaCategoriasDjango.jpg)
 
-Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django ORM](/blog/why-should-you-use-django-framework/) offers a pretty clean solution.
+Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django ORM](/en/why-should-you-use-django-framework/) offers a pretty clean solution.
 
 ## ForeignKey to the same model in Django
 
