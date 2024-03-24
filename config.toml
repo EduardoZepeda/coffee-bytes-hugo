@@ -10,24 +10,149 @@ removePathAccents = true
 summaryLength = 30
 theme = "hugo-theme-latte"
 
+defaultContentLanguageInSubdir = true
+
 [languages]
 [languages.en]
-disabled = true
+disabled = false
 languageCode = 'en'
-languageDirection = ''
-languageName = ''
-title = ''
-weight = 0
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'Coffee bytes'
+weight = 1
+[[languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[languages.en.menu.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 2
+[[languages.en.menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 3
+[[languages.en.menu.main]]
+name = "About me"
+url = "/authors/eduardo-zepeda/"
+weight = 4
+[[languages.en.menu.main]]
+name = "Book reviews"
+url = "/pages/libros-que-he-leido-y-resenas/"
+weight = 5
+[[languages.en.menu.footer]]
+name = "Privacy policy"
+url = "/pages/politica-de-privacidad/"
+weight = 4
+[[languages.en.menu.footer]]
+name = "Cookie policy"
+url = "/pages/politica-de-cookies/"
+weight = 5
+[[languages.en.menu.social]]
+name = "Personal website"
+pre = "message"
+url = "https://eduardozepeda.dev/"
+weight = 1
+[[languages.en.menu.social]]
+name = "Codewars"
+pre = "codewars"
+url = "https://www.codewars.com/users/EduardoZepeda"
+weight = 2
+[[languages.en.menu.social]]
+name = "Twitter"
+pre = "twitter"
+url = "https://twitter.com/hello_wired"
+weight = 3
+[[languages.en.menu.social]]
+name = "Instagram"
+pre = "instagram"
+url = "https://instagram.com/eduardozepeda.dev"
+weight = 4
+[[languages.en.menu.social]]
+name = "Linkedin"
+pre = "linkedin-in"
+url = "https://linkedin.com/in/eduardomzepeda"
+weight = 5
+[languages.en.params]
+GoogleTagManager = "GTM-5F4NMW3"
+description = "Articles and tutorials about programming and web development: Django, React, Go on Linux"
+excludeKindFromSitemap = ["section", "term", "taxonomy"]
+[languages.en.params.latte]
+disablesearch = false
+mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
+mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
+modalcountdown = 20
+seodescription = "Eduardo Zepeda's personal blog with tutorials, posts and interesting information about full stack web development in Python, Django, React, Javascript, Typescript, Golang and other development frameworks, always in a GNU/Linux based development environment. "
+subscribebannertext = "Get my FREE Python cheats guide."
+subscribedescription = """
+                          ✅ To access just subscribe to the newsletter, it's completely  <strong>completely free.</strong> <br>
+                          ✅ Over 400 registered developers. Tutoriales and my ideas on web dev every week, sometimes months, directly in your email, cero spam.
+                          """
+subscribetitle = "Free my Python tricks guide"
+toc = true
+
 [languages.es]
 disabled = false
 languageDirection = 'ltr'
 languageName = 'Español'
-
-[params]
+[[languages.es.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[languages.es.menu.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 2
+[[languages.es.menu.main]]
+name = "Categorías"
+url = "/categories/"
+weight = 3
+[[languages.es.menu.main]]
+name = "Sobre mi"
+url = "/authors/eduardo-zepeda/"
+weight = 4
+[[languages.es.menu.main]]
+name = "Reseñas de libros"
+url = "/pages/libros-que-he-leido-y-resenas/"
+weight = 5
+[[languages.es.menu.footer]]
+name = "Politica de privacidad"
+url = "/pages/politica-de-privacidad/"
+weight = 4
+[[languages.es.menu.footer]]
+name = "Politica de cookies"
+url = "/pages/politica-de-cookies/"
+weight = 5
+[[languages.es.menu.social]]
+name = "Personal website"
+pre = "message"
+url = "https://eduardozepeda.dev/"
+weight = 1
+[[languages.es.menu.social]]
+name = "Codewars"
+pre = "codewars"
+url = "https://www.codewars.com/users/EduardoZepeda"
+weight = 2
+[[languages.es.menu.social]]
+name = "Twitter"
+pre = "twitter"
+url = "https://twitter.com/hello_wired"
+weight = 3
+[[languages.es.menu.social]]
+name = "Instagram"
+pre = "instagram"
+url = "https://instagram.com/eduardozepeda.dev"
+weight = 4
+[[languages.es.menu.social]]
+name = "Linkedin"
+pre = "linkedin-in"
+url = "https://linkedin.com/in/eduardomzepeda"
+weight = 5
+[languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
 description = "Artículos y tutoriales sobre programación y desarrollo web: Django, React, Go en Linux"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
-[params.latte]
+[languages.es.params.latte]
 disablesearch = false
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
@@ -53,61 +178,6 @@ section = ["HTML", "RSS", "JSON"]
 
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
-
-[menu]
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.main]]
-name = "RSS"
-url = "/index.xml"
-weight = 2
-[[menu.main]]
-name = "Categorías"
-url = "/categories/"
-weight = 3
-[[menu.main]]
-name = "Sobre mi"
-url = "/authors/eduardo-zepeda/"
-weight = 4
-[[menu.main]]
-name = "Reseñas de libros"
-url = "/pages/libros-que-he-leido-y-resenas/"
-weight = 5
-[[menu.footer]]
-name = "Politica de privacidad"
-url = "/pages/politica-de-privacidad/"
-weight = 4
-[[menu.footer]]
-name = "Politica de cookies"
-url = "/pages/politica-de-cookies/"
-weight = 5
-[[menu.social]]
-name = "Personal website"
-pre = "message"
-url = "https://eduardozepeda.dev/"
-weight = 1
-[[menu.social]]
-name = "Codewars"
-pre = "codewars"
-url = "https://www.codewars.com/users/EduardoZepeda"
-weight = 2
-[[menu.social]]
-name = "Twitter"
-pre = "twitter"
-url = "https://twitter.com/hello_wired"
-weight = 3
-[[menu.social]]
-name = "Instagram"
-pre = "instagram"
-url = "https://instagram.com/eduardozepeda.dev"
-weight = 4
-[[menu.social]]
-name = "Linkedin"
-pre = "linkedin-in"
-url = "https://linkedin.com/in/eduardomzepeda"
-weight = 5
 
 [permalinks]
 pages = "/pages/:filename/"
@@ -149,6 +219,7 @@ object-src = ["'none'"]
 script-src = [
   "'self'",
   "'unsafe-inline'",
+  "*.cloudflare.com",
   "https://platform.twitter.com",
   "https://cdn.syndication.twimg.com",
   "*.amazon-adsystem.com",
