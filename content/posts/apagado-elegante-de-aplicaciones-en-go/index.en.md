@@ -52,7 +52,7 @@ func gracefulShutdown() {
 
 Now we have a channel that receives our signal, but... what do we do with it?
 
-Remember that, in go, [operations that send or receive channel values are blocking inside their own goroutine](/en/go-channels-understanding-the-deadlocks/), i.e., they keep code execution on hold?
+Remember that, in go, [operations that send or receive channel values are blocking inside their own goroutine](/en/go-channels-understanding-the-goroutines-deadlocks/), i.e., they keep code execution on hold?
 
 In this case we are going to leave a variable expected by the value of the channel that we have just created, blocking the code at that point.
 

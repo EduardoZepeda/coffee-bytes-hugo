@@ -269,7 +269,7 @@ ApiVersion: 1.0
 Vary: ApiVersion
 ```
 
-Consider that you need to add a vary header so that the [caching systems](/en/caching-in-django-rest-framework-with-memcached/) do not store different versions of the API in the same url.
+Consider that you need to add a vary header so that the [caching systems](/en/caching-in-django-rest-framework-using-memcached/) do not store different versions of the API in the same url.
 
 ### In the content negotiation
 

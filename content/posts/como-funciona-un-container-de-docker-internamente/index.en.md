@@ -13,7 +13,7 @@ keywords:
 - devops
 
 coverImage: "images/docker-container-desde-cero.jpg"
-url: "contenedor-de-docker-con-espacios-de-nombres-y-grupos"
+url: "how-does-a-docker-container-work-internally"
 authors:
 - Eduardo Zepeda
 ---

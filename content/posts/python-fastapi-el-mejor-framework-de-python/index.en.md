@@ -16,7 +16,7 @@ keywords:
 - "python"
 - "django"
 
-url: "python-fastapi-el-mejor-framework-de-python"
+url: "fastapi-tutorial-the-best-python-framework"
 authors:
 - Eduardo Zepeda
 ---
@@ -29,7 +29,7 @@ Is FastAPI really that fast? Yes, at least that's the evidence. FastAPI is in fi
 
 ### FastAPI vs Django
 
-FastAPI focuses on creating APIs in a simple and very efficient way, Django can do the same using its DRF library and ORM, but I don't consider them to be direct competitors. Why? Well, because Django focuses on being more of an end-to-end solution, covering everything from a [sessions and authentication system](/en/login-using-django-rest-framework-drf/), ORM, template rendering, form creation and management, middleware, [caching system](/en/caching-in-django-rest-framework-with-memcached/), its [admin panel included](/en/the-django-admin-panel-and-its-customization/), i18n and many other aspects.
+FastAPI focuses on creating APIs in a simple and very efficient way, Django can do the same using its DRF library and ORM, but I don't consider them to be direct competitors. Why? Well, because Django focuses on being more of an end-to-end solution, covering everything from a [sessions and authentication system](/en/login-using-django-rest-framework-drf/), ORM, template rendering, form creation and management, middleware, [caching system](/en/caching-in-django-rest-framework-using-memcached/), its [admin panel included](/en/the-django-admin-panel-and-its-customization/), i18n and many other aspects.
 
 On the other hand, FastAPI leaves the way open to the developer, so, as it covers different needs, the comparison does not apply.
 

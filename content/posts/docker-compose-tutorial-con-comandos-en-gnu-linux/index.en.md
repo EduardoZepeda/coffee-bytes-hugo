@@ -12,7 +12,7 @@ keywords:
 - docker
 - "docker compose"
 
-url: "docker-compose-tutorial-con-comandos-en-gnu-linux"
+url: "get-to-know-the-basic-docker-compose-commands"
 autores:
 - Eduardo Zepeda
 ---

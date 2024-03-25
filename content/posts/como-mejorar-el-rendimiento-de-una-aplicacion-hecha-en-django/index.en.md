@@ -30,7 +30,7 @@ It is quite common to write code that occasions multiple queries to the database
 
 Identify what queries are being made in your application using [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) and reduce them, or make them more efficient:
 
-* **select_related()** to [avoid multiple searches in foreign key or one-to-one relationships](/en/differences-between-select-related-and-prefetch-related-in-django/)
+* **select_related()** to [avoid multiple searches in foreign key or one-to-one relationships](/en/differences-between-select_related-and-prefetch_related-in-django/)
 * **prefetch_related()** to prevent excessive searches on many-to-many or many-to-one relationships
 * **django_annotate()** to add information to each object in a query. I have an entry where I explain [the difference between annotate and aggregate](/en/django-annotate-and-aggregate-explained/).
 * **django_aggregate()** to process all information from a single query into a single data (summation, averages).
@@ -102,7 +102,7 @@ class Review(models.Model):
 
 ## Use indexes for your searches
 
-If your application makes heavy use of information searches, consider using an efficient [search engine, such as Solr](/en/how-to-implement-solr-for-searches-or-queries-in-django/), rather than implementing the code yourself.
+If your application makes heavy use of information searches, consider using an efficient [search engine, such as Solr](/en/searches-with-solr-with-django-haystack/), rather than implementing the code yourself.
 
 There are many options available:
 
@@ -130,7 +130,7 @@ MIDDLEWARE = [
 
 When the response time of your application becomes a problem, you should start caching all time-consuming and resource-intensive results.
 
-Would you like to dig deeper into the caching system, I have a post about [caching in django](/en/caching-in-django-rest-framework-with-memcached/) that you can check out to dig deeper.
+Would you like to dig deeper into the caching system, I have a post about [caching in django](/en/caching-in-django-rest-framework-using-memcached/) that you can check out to dig deeper.
 
 If your page has too many models, and they rarely change, it does not make sense to access the database each time to request them with each new HTTP request. Just put the response of that request in cache and your response time will improve, this way every time the same content is requested, it will not be necessary to make a new request or calculations to the database, but the value will be returned directly from memory.
 

@@ -163,4 +163,4 @@ If we access the sitemap, you will notice that the base url of the urls is _exam
 
 ## Sitemap cache
 
-Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is colossal, this may not be convenient. Depending on the type of site you manage, you may want to store the sitemap in the [Django cache](/en/caching-in-django-rest-framework-with-memcached/).
+Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is colossal, this may not be convenient. Depending on the type of site you manage, you may want to store the sitemap in the [Django cache](/en/caching-in-django-rest-framework-using-memcached/).
