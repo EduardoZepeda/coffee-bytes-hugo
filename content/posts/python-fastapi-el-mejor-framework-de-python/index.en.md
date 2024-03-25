@@ -21,7 +21,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-These last few days I have been testing a Python library that is becoming famous, FastAPI, a framework for creating APIs, such as [REST APIs](/en/rest-api-basic-characteristics-and-recommendations/) or RPC APIs. FastAPI promises to help us create fast APIs in a simple way, with very little code and with extraordinary performance, to support high concurrency websites.
+These last few days I have been testing a Python library that is becoming famous, FastAPI, a framework for creating APIs, such as [REST APIs](/en/basic-characteristics-of-an-api-rest-api/) or RPC APIs. FastAPI promises to help us create fast APIs in a simple way, with very little code and with extraordinary performance, to support high concurrency websites.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 
@@ -67,7 +67,7 @@ Now that you've seen why it's worth using, why not give it a try?
 
 ### FastAPI installation
 
-To install it we are going to create a virtual environment with [Pipenv, a virtual environment management tool](/en/pipenv-the-virtual-environment-manager-you-don-t-know/). In addition to FastAPI we will need uvicorn; an ASGI server, which we will use to serve our API.
+To install it we are going to create a virtual environment with [Pipenv, a virtual environment management tool](/en/pipenv-the-virtual-environment-manager-you-dont-know/). In addition to FastAPI we will need uvicorn; an ASGI server, which we will use to serve our API.
 
 ```bash
 pipenv install fastapi uvicorn
@@ -658,7 +658,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment with Docker
 
-Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/en/the-basic-docker-commands-and-their-usage/) file.
+Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/en/basic-commands-basic-docker-tutorial/) file.
 
 ```bash
 touch Dockerfile

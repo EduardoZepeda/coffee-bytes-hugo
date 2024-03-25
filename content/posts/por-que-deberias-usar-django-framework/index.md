@@ -70,7 +70,7 @@ Su única desventaja es su velocidad, pues se queda corto frente a otras alterna
 
 ### Panel de administrador incluido
 
-Django cuenta con el [django admin panel](/es/el-django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
+Django cuenta con el [django admin panel](/es/django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
 ![Panel de administración de Django](images/Django-panel-admin.png)
 

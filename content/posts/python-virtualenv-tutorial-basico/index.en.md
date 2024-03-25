@@ -216,4 +216,4 @@ rm -rf EntornoVirtual/
 
 ## Pipenv
 
-There is another package that joins pip and virtualenv, it allows you to manage virtual environments quite easily and has many improvements over virtualenv. If you want to know more about it visit my [tutorial where I explain what it is and how to use Pipenv](/en/pipenv-the-virtual-environment-manager-you-don-t-know/).
+There is another package that joins pip and virtualenv, it allows you to manage virtual environments quite easily and has many improvements over virtualenv. If you want to know more about it visit my [tutorial where I explain what it is and how to use Pipenv](/en/pipenv-the-virtual-environment-manager-you-dont-know/).

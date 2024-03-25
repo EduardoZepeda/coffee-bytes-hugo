@@ -66,7 +66,7 @@ password: contrasenaNoSegura
 
 ### Django model and dependencies installation
 
-To start, let's create a virtual environment with [the pipenv virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-don-t-know/). You can use [pip](/en/python-virtualenv-linux-basic-tutorial/), poetry, conda or whatever you prefer.
+To start, let's create a virtual environment with [the pipenv virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-dont-know/). You can use [pip](/en/python-virtualenv-linux-basic-tutorial/), poetry, conda or whatever you prefer.
 
 ```bash
 pipenv shell

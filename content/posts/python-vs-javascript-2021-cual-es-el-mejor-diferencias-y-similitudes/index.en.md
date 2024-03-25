@@ -20,7 +20,7 @@ authors:
 
 Updated to 2024: If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you in 2024.
 
-I also have a comparison of [Python vs go](/en/python-vs-go-which-is-the-best/) that you can check out.
+I also have a comparison of [Python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) that you can check out.
 
 ## A little about them
 

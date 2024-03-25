@@ -62,7 +62,7 @@ If you got an error when you ran the above search, it is because you have not in
 
 ### Prerequisites
 
-Have psycopg2 and its dependencies installed in [your virtual environment](/en/pipenv-the-virtual-environment-manager-you-don-t-know/)
+Have psycopg2 and its dependencies installed in [your virtual environment](/en/pipenv-the-virtual-environment-manager-you-dont-know/)
 
 ```python
 pipenv install psycopg2 # también sirve con pip install psycopg2

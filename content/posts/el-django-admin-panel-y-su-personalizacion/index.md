@@ -1,6 +1,6 @@
 ---
 aliases:
-- /el-django-admin-panel-y-su-personalizacion
+- /django-admin-panel-y-su-personalizacion
 - /tutorial-como-modificar-y-personalizar-el-django-admin-panel
 - /django-admin-panel-y-su-personalizacion
 authors:

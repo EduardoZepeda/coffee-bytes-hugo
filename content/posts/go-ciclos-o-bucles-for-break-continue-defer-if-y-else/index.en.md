@@ -21,7 +21,7 @@ Well, as there are more than enough loops for. Yes, there is no _while_ or do _w
 
 If you don't know anything about Go and want to start with the basics visit my entry [Golang: introduction, variables and data types](/en/go-programming-language-introduction-to-variables-and-data-types/).
 
-If you currently use Python and want to see how it is different from Go, visit my [python vs go](/en/python-vs-go-which-is-the-best/) post.
+If you currently use Python and want to see how it is different from Go, visit my [python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) post.
 
 ## If and else
 

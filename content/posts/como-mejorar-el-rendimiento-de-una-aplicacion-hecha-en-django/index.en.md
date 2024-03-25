@@ -236,7 +236,7 @@ But not everything is wonderful; third-party interpreters, including pypy, are u
 
 If you've tried all of the above and still have a bottlenecked application, you're probably squeezing too much out of Python and need the speed of another language. But don't worry, you don't have to redo your entire application in C or C++. [Swig](http://www.swig.org/) allows you to create modules in C, C++, Java, Go or other lower level languages and import them directly from Python.
 
-Do you want to know how much difference there is between Python and a compiled language like go? in my post [Python vs Go I compare the speed of both languages](/en/python-vs-go-which-is-the-best/)
+Do you want to know how much difference there is between Python and a compiled language like go? in my post [Python vs Go I compare the speed of both languages](/en/python-vs-go-go-which-is-the-best-programming-language/)
 
 If you have a bottleneck caused by some costly mathematical computation, which highlights the lack of speed of Python being an interpreted language, you may want to rewrite the bottleneck in some low-level language and then call it using Python. This way you will have the ease of use of Python with the speed of a low-level language.
 

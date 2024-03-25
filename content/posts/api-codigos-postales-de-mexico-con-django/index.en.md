@@ -20,13 +20,13 @@ authors:
 
 Do you need to get the data associated with a postal code in Mexico for your Django application? I wrote a small library called **django-postalcodes-mexico** that downloads postal codes from SEPOMEX (México's Postal Codes official site) and creates an API endpoint that allows you to query a postal code in Mexico and receive the colonias that belong to that postal code, as well as their state and municipality.
 
-If you are going to develop a REST API, I have a post with multiple [REST API design recommendations](/en/rest-api-basic-characteristics-and-recommendations/) that may help you.
+If you are going to develop a REST API, I have a post with multiple [REST API design recommendations](/en/basic-characteristics-of-an-api-rest-api/) that may help you.
 
 For this example I use Python 3.8, Django 3.2.5 and Pipenv version 2020.5.28.
 
 ## Installation
 
-To install it we are going to use [Pipenv](/en/pipenv-the-virtual-environment-manager-you-don-t-know/), but you can use Poetry, [pip](/en/python-virtualenv-linux-basic-tutorial/) or any other virtual environment manager.
+To install it we are going to use [Pipenv](/en/pipenv-the-virtual-environment-manager-you-dont-know/), but you can use Poetry, [pip](/en/python-virtualenv-linux-basic-tutorial/) or any other virtual environment manager.
 
 ```bash
 pipenv shell

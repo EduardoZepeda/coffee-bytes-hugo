@@ -21,7 +21,7 @@ You probably already know how to upload an image using a Django model, but what 
 
 Let's first create a virtual environment and enter it.
 
-If you don't know Pipenv or don't know how to use it, check my post about [Pipenv virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-don-t-know/).
+If you don't know Pipenv or don't know how to use it, check my post about [Pipenv virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-dont-know/).
 
 ```bash
 pipenv shell

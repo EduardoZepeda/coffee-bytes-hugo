@@ -31,7 +31,7 @@ Estos últimos días he estado probando una librería para Python que se está v
 
 ### FastAPI vs Django
 
-FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de [sesiones y autenticación](/es/login-con-django-rest-framework-drf/), ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](/es/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](/es/el-django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos. 
+FastAPI se centra en crear APIs de manera sencilla y muy eficiente, Django puede hacer lo mismo usando su librería de DRF y su ORM, pero yo no considero que sean competidores directos. ¿Por qué? Pues porque Django se centra en ser más una solución integral, que cubre desde un sistema de [sesiones y autenticación](/es/login-con-django-rest-framework-drf/), ORM, renderizado de plantillas, creación y manejo de formularios, middleware, [sistema de caché](/es/cache-en-django-rest-framework-con-memcached/), su [panel de admin incluido](/es/django-admin-panel-y-su-personalizacion/), i18n y muchos otros aspectos. 
 
 Por otro lado, FastAPI le deja el camino libre al desarrollador, por lo que, al cubrir necesidades diferentes, la comparación no aplica.
 

@@ -61,7 +61,7 @@ It's pretty obvious, but I feel I should mention it: remember that **memcached s
 
 I will install the following dependencies for this tutorial:
 
-* djangorestframework: for creating [REST APIs](/en/rest-api-basic-characteristics-and-recommendations/).
+* djangorestframework: for creating [REST APIs](/en/basic-characteristics-of-an-api-rest-api/).
 * django-debug-toolbar: to compare performance before and after caching.
 * django-seed: to automatically create data in the database.
 * pymemcache: to allow python to interact with memcached.

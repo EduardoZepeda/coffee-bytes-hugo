@@ -45,6 +45,6 @@ Needless to say, virtual environments solve quite a few problems. And it is a hi
 There are many options of virtual environments available here are some of the most popular ones:
 
 * virtualenv
-* [pipenv](/en/pipenv-the-virtual-environment-manager-you-don-t-know/)
+* [pipenv](/en/pipenv-the-virtual-environment-manager-you-dont-know/)
 * conda
 * poetry

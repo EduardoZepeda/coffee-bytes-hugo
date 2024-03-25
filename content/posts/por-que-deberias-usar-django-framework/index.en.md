@@ -113,7 +113,7 @@ complex)
 * Django-storage (AWS storage)
 * Django-braces (Common functions)
 
-Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/en/rest-api-basic-characteristics-and-recommendations/), handling permissions and [throttling](/en/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
+Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/en/basic-characteristics-of-an-api-rest-api/), handling permissions and [throttling](/en/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
 
 Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/en/django-channels-consumers-environments-and-events/).
 
@@ -151,7 +151,7 @@ The very stability of Django has made it look somewhat slow in a world of rapidl
 
 ### It is slow and handles requests one at a time.
 
-Python is an interpreted language that was made to be beautiful and simple, not necessarily fast. In my comparison of [python vs go](/en/python-vs-go-which-is-the-best/) I compare the performance of both, just to give you an idea.
+Python is an interpreted language that was made to be beautiful and simple, not necessarily fast. In my comparison of [python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) I compare the performance of both, just to give you an idea.
 
 In addition to the above, Django does not shine for its speed at the time of execution. In the race to be a fast framework, it is below more modern technologies such as Flask or FastAPI. Go to [my tutorial on FastAPI](/en/fastapi-tutorial-the-best-python-framework/) if you want to see how slow Django is compared to other frameworks.
 
