@@ -212,6 +212,7 @@ script-src = [
   "'self'",
   "'unsafe-inline'",
   "*.cloudflare.com",
+  "*.doubleclick.net",
   "https://platform.twitter.com",
   "https://cdn.syndication.twimg.com",
   "*.amazon-adsystem.com",
