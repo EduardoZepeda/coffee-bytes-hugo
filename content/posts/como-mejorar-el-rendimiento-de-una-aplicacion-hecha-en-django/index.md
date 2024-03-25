@@ -1,19 +1,24 @@
 ---
-title: "¿Cómo Escalar Django Para Manejar Millones De Vistas?" 
-date: "2020-12-30"
-categories: 
-  - "arquitectura de software"
-  - "django"
-coverImage: "images/Mejora-el-rendimiento-de-tuapp-django.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@tranmautritam/"
-description: "Tutorial para maximizar el rendimiento y la velocidad de una aplicación hecha en Django: optimización de queries, caché, serializers, índices, denormalización, ORMS e intérpretes y frameworks alternativos"
-keywords:
-  - rendimiento
-  - django
-  - python
-  - opinion
+aliases:
+- /como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django
+- /como-escalar-django-para-manejar-millones-de-vistas
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- django
+coverImage: images/Mejora-el-rendimiento-de-tuapp-django.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@tranmautritam/
+date: '2020-12-30'
+description: 'Tutorial para maximizar el rendimiento y la velocidad de una aplicación
+  hecha en Django: optimización de queries, caché, serializers, índices, denormalización,
+  ORMS e intérpretes y frameworks alternativos'
+keywords:
+- rendimiento
+- django
+- python
+- opinion
+title: ¿Cómo Escalar Django Para Manejar Millones De Vistas?
 ---
 
 ¿Tu aplicación hecha en Django o la de tu compañia anda lenta? Lo anterior puede tener múltiples causas: un servidor con hardware insuficiente, un paquete de hosting que necesite un upgrade para procesar mayor tráfico, un servidor mal configurado (en caso de que sea nginx, visita mi entrada donde explico [como configurar nginx para un mayor rendimiento)](/es/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/), o simplemente una aplicación no optimizada para dar el máximo rendimiento en django. 

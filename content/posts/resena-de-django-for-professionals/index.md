@@ -1,18 +1,21 @@
 ---
-title: "Reseña de Django for Professionals"
-date: "2020-04-15"
-categories: 
-  - "django"
-coverImage: "images/Django_for_professionals.jpg"
-description: "Django for professionals es uno de los libros modernos sobre el framework de desarrollo web Django. Esta entrada es mi opinión sobre el libro."
-keywords:
-  - "django"
-  - "python"
-  - "libros"
-  - "opinion"
-  - "reseña"
+aliases:
+- /resena-de-django-for-professionals
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Django_for_professionals.jpg
+date: '2020-04-15'
+description: Django for professionals es uno de los libros modernos sobre el framework
+  de desarrollo web Django. Esta entrada es mi opinión sobre el libro.
+keywords:
+- django
+- python
+- libros
+- opinion
+- reseña
+title: Reseña de Django for Professionals
 ---
 
 Hace algo de tiempo, mientras buscaba información sobre Django por internet me encontré con un [podcast semanal muy bueno llamado Django chats](https://djangochat.com/). El autor, llamado William S. Vincent, habla de Django y entrevista desarrolladores relacionados con este framework de desarrollo web. Además de llevar su podcast religiosamente, William S. Vincent también escribe libros sobre Django. Uno de ellos es Django for Professionals, el cual es **uno de los mejores libros de Django moderno** que he leído hasta el momento. Este libro forma parte de una trilogía sobre Django. Si sabes inglés date una vuelta por el podcast de Django del autor, encontrarás mucho contenido genial sobre Django y enlaces de compra a sus tres libros:

@@ -1,11 +1,14 @@
 ---
-title: "Go: Manejo de Signals para Cerrar Aplicaciones"
-date: 2022-10-06
-coverImage: "images/go-manejo-signals-para-cerrar-aplicaciones.jpg"
+aliases:
+- /apagado-elegante-de-aplicaciones-en-go
+- /go-manejo-de-signals-para-cerrar-aplicaciones
+authors:
+- Eduardo Zepeda
 categories:
 - go
-authors:
-  - Eduardo Zepeda
+coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
+date: 2022-10-06
+title: 'Go: Manejo de Signals para Cerrar Aplicaciones'
 ---
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.

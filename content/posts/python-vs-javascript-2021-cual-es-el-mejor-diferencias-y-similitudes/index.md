@@ -1,18 +1,23 @@
 ---
-title: "Python vs Javascript ¿cuál es el mejor en 2024?"
-date: "2020-12-10"
-url: "python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion"
-categories: 
-  - "javascript"
-  - "python"
-coverImage: "images/PythonVSJavascript.jpg"
-description: "Conoce las diferencias entre Python y Javascript, dos de los lenguajes más populares. Sintaxis, velocidad, paquetes, frameworks disponibles."
-keywords:
-  - "python"
-  - "javascript"
-  - "opinion"
+aliases:
+- /python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes
+- /python-vs-javascript-cual-es-el-mejor-en-2024
+- /python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+- python
+coverImage: images/PythonVSJavascript.jpg
+date: '2020-12-10'
+description: Conoce las diferencias entre Python y Javascript, dos de los lenguajes
+  más populares. Sintaxis, velocidad, paquetes, frameworks disponibles.
+keywords:
+- python
+- javascript
+- opinion
+title: Python vs Javascript ¿cuál es el mejor en 2024?
+url: python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 ---
 
 Si has usado solamente Python o solamente Javascript, seguramente te de un poco de curiosidad saber como es el otro. Yo he usado ambos y te puedo platicar un poco sobre las diferencias y algunas cosas en común que tienen ambos lenguajes, para que encuentres el mejor para ti en este 2024.

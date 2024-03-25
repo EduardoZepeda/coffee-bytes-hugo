@@ -1,14 +1,18 @@
 ---
-title: "Comandos de Linux que deberías conocer (tercera parte)"
-date: "2019-05-21"
-categories: 
-  - "linux y devops"
-coverImage: "images/comandos_GNU_Linux_3.jpg"
-description: "Aprende los comandos básicos de la terminal de GNU/Linux, en esta entrada hablo sobre printenv, systemctl, top, ps, chown, chmod y otros más."
-keywords:
-  - linux
+aliases:
+- /comandos-de-gnu-linux-que-deberias-conocer-tercera-parte
+- /comandos-de-linux-que-deberias-conocer-tercera-parte
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/comandos_GNU_Linux_3.jpg
+date: '2019-05-21'
+description: Aprende los comandos básicos de la terminal de GNU/Linux, en esta entrada
+  hablo sobre printenv, systemctl, top, ps, chown, chmod y otros más.
+keywords:
+- linux
+title: Comandos de Linux que deberías conocer (tercera parte)
 ---
 
 Esta es la continuación de las siguientes partes: 

@@ -1,17 +1,20 @@
 ---
-title: "Django channels: channel layers, grupos y usuarios"
-date: "2021-11-16"
-categories: 
-  - "django"
-coverImage: "images/djangochannels.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Implementa channel layers en tu aplicación de django channels para compartir información entre channels o canales/consumers y grupos."
-keywords:
-  - django
-  - python
-  - websockets
+aliases:
+- /django-channels-channel-layers-grupos-y-usuarios
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/djangochannels.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
+date: '2021-11-16'
+description: Implementa channel layers en tu aplicación de django channels para compartir
+  información entre channels o canales/consumers y grupos.
+keywords:
+- django
+- python
+- websockets
+title: 'Django channels: channel layers, grupos y usuarios'
 ---
 
 Los channel layers te permiten interactuar y compartir información con diferentes consumers en django channels. Lo que permite a cada consumer comunicarse con el resto. Por ejemplo, cuando en un chat un usuario envía un mensaje, todos pueden leer el mensaje, cuando un usuario abandona una sala, todos pueden saber que la abandonó. Con esta capacidad es posible crear una aplicación distribuida en la que se comparta información entre los diferentes usuarios.

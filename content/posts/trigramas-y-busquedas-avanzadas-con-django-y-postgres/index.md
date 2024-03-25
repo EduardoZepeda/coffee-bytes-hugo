@@ -1,19 +1,22 @@
 ---
-title: "Trigramas y búsquedas avanzadas con Django y Postgres"
-date: "2021-05-17"
-categories: 
-  - "django"
-  - "bases de datos"
-coverImage: "images/Busquedas-avanzadas-con-trigramas.jpg"
-coverImageCredits: "Créditos: https://www.pexels.com/es-es/@pepecaspers/"
-description: "Te muestro lo básico sobre las búsquedas de texto avanzadas usando trigramas e indices de similitud y otros, usando Django y Postgres."
-keywords:
-  - "orm"
-  - "django"
-  - "python"
-  - "postgres"
+aliases:
+- /trigramas-y-busquedas-avanzadas-con-django-y-postgres
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+- bases de datos
+coverImage: images/Busquedas-avanzadas-con-trigramas.jpg
+coverImageCredits: 'Créditos: https://www.pexels.com/es-es/@pepecaspers/'
+date: '2021-05-17'
+description: Te muestro lo básico sobre las búsquedas de texto avanzadas usando trigramas
+  e indices de similitud y otros, usando Django y Postgres.
+keywords:
+- orm
+- django
+- python
+- postgres
+title: Trigramas y búsquedas avanzadas con Django y Postgres
 ---
 
 ¿Qué pasa si el dedo de un usuario resbala por el teclado y escribe "parfume" en lugar de "perfume". Probablemente no querramos que nuestro usuario abandone el sitio porque no encontró ningún "parfume" en nuestro sitio web. Nuestro sitio web debería de devolverle los resultados que más se parezcan a lo que está buscando. Mira como lo maneja un ecommerce con experiencia:

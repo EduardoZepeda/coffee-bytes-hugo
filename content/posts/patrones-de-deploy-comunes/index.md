@@ -1,18 +1,21 @@
 ---
-title: "Patrones De Deployment o Despliegue Útiles"
-date: "2023-08-18"
-categories: 
-  - "devops"
-  - "arquitectura de software"
-coverImage: "images/deploy-patterns-to-test-new-functionalities.jpg"
-coverImageCredits: "Image by Tsutomu Nihei --niji 5"
-description: "Te explico algunos patrones de deploy comunes"
-keywords:
-  - devops
-  - patrones de diseño
-  - arquitectura de software
+aliases:
+- /patrones-de-deploy-comunes
+- /patrones-de-deployment-o-despliegue-utiles
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- devops
+- arquitectura de software
+coverImage: images/deploy-patterns-to-test-new-functionalities.jpg
+coverImageCredits: Image by Tsutomu Nihei --niji 5
+date: '2023-08-18'
+description: Te explico algunos patrones de deploy comunes
+keywords:
+- devops
+- patrones de diseño
+- arquitectura de software
+title: Patrones De Deployment o Despliegue Útiles
 ---
 
 ## ¿Qué es un patrón de deployment o despliegue?

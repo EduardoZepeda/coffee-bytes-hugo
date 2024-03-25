@@ -1,19 +1,23 @@
 ---
-title: "Digital Ocean, análisis y mi experiencia como usuario"
-date: "2021-01-14"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-coverImage: "images/Mi-experiencia-digital-ocean.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/"
-description: "En esta entrada de platico mi experiencia usando la plataforma Digital Ocean, así como las opciones que tiene para ofrecerte como developer"
-keywords:
-  - digital ocean
-  - opinion
-  - kubernetes
-  - deploy
+aliases:
+- /digital-ocean-analisis-y-mi-experiencia
+- /digital-ocean-analisis-y-mi-experiencia-como-usuario
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/Mi-experiencia-digital-ocean.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/
+date: '2021-01-14'
+description: En esta entrada de platico mi experiencia usando la plataforma Digital
+  Ocean, así como las opciones que tiene para ofrecerte como developer
+keywords:
+- digital ocean
+- opinion
+- kubernetes
+- deploy
+title: Digital Ocean, análisis y mi experiencia como usuario
 ---
 
 ¿Estás eligiendo un servicio de hosting pero no sabes cual elegir? De seguro ya tuviste contacto con la publicidad de Digital Ocean pero quieres escuchar una opinión real de lo que tienen para ofrecer. Llevo usando Digital Ocean como hosting de mis proyectos personales por varios años y te platico como ha sido mi experiencia y lo que puedes encontrar si decides contratar sus servicios.

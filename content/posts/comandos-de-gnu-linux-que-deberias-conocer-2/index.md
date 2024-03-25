@@ -1,14 +1,18 @@
 ---
-title: "Comandos de Linux que deberías conocer (segunda parte)"
-date: "2019-05-13"
-categories: 
-  - "linux y devops"
-coverImage: "images/comandos_GNU_Linux_2.jpg"
-description: "Aprende sobre los comandos de GNU/Linux basicos que ofrece la terminal, para esta entrada explico uname, who, du, df, entre otros muchos."
-keywords:
-  - linux
+aliases:
+- /comandos-de-gnu-linux-que-deberias-conocer-2
+- /comandos-de-linux-que-deberias-conocer-segunda-parte
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/comandos_GNU_Linux_2.jpg
+date: '2019-05-13'
+description: Aprende sobre los comandos de GNU/Linux basicos que ofrece la terminal,
+  para esta entrada explico uname, who, du, df, entre otros muchos.
+keywords:
+- linux
+title: Comandos de Linux que deberías conocer (segunda parte)
 ---
 
 Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor [entra en la primera parte aquí](/es/comandos-de-linux-basicos-que-deberias-conocer/). También tengo una [tercera parte de comandos de GNU/Linux disponible](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/).

@@ -1,16 +1,19 @@
 ---
-title: "¿Cómo crear un historial de productos visitados con django y redis?"
-date: "2020-11-28"
-categories: 
-  - "django"
-coverImage: "images/django_y_redis_con_mejor_diseno.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@axel-vandenhirtz-332204/"
-description: "Tutorial para la creación de un un historial de productos visitados sencillo y minimalista usando django, sus queries y el motor de base de datos redis"
-keywords:
-  - django
-  - redis
+aliases:
+- /como-crear-un-historial-de-productos-visitados-con-django-y-redis
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/django_y_redis_con_mejor_diseno.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@axel-vandenhirtz-332204/
+date: '2020-11-28'
+description: Tutorial para la creación de un un historial de productos visitados sencillo
+  y minimalista usando django, sus queries y el motor de base de datos redis
+keywords:
+- django
+- redis
+title: ¿Cómo crear un historial de productos visitados con django y redis?
 ---
 
 Estás navegando en un ecommerce, un producto llama tu atención y haces click para verlo, no te convence. Decides ver otras opciones, haces click en un nuevo producto y, cuando haces scroll al fondo de la página, la página te muestra el primer producto que viste bajo la leyenda "Vistos recientemente". Tú puedes hacer lo mismo con django y redis.

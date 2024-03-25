@@ -1,19 +1,22 @@
 ---
-title: "Porqué Detesto El Input datetime-local Y Las Fechas en Javascript"
-date: "2024-03-20"
+aliases:
+- /porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript
+authors:
+- Eduardo Zepeda
 categories:
-- "javascript"
-- "opiniones"
-coverImage: "images/javascript-dates-and-html-input.jpg"
-description: "El manejo de fechas en javascript y su combinación con el input estándar HTML datetime-local, es dificil, incoherente y complicado."
+- javascript
+- opiniones
+coverImage: images/javascript-dates-and-html-input.jpg
+date: '2024-03-20'
+description: El manejo de fechas en javascript y su combinación con el input estándar
+  HTML datetime-local, es dificil, incoherente y complicado.
 keywords:
 - javascript
 - opiniones
 - react
 - html
 - go
-authors:
-- Eduardo Zepeda
+title: Porqué Detesto El Input datetime-local Y Las Fechas en Javascript
 ---
 
 Trabajar con Javascript es frustrante y, a veces, combinarlo con HTML resulta desesperante por su falta de coherencia interna, por si fuera poco, utilizarlo para el manejo de fechas, que requiere considerar el manejo de timezones, diferentes formas de representarlas y la sensibilidad requerida: segundos, minutos, milisegundos, etc. lo vuelve una tortura.

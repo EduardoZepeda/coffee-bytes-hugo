@@ -1,17 +1,20 @@
 ---
-title: "Celery y django para ejecutar tareas asíncronas"
-date: "2021-08-24"
-categories: 
-  - "django"
-coverImage: "images/TareasAsincronasDjangoYCelery.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Celery permite la ejecución de tareas asíncronas en django. Configura celery en django para manejar correos o cálculos costosos en tiempo."
-keywords:
-  - celery
-  - python
-  - django
+aliases:
+- /celery-y-django-para-ejecutar-tareas-asincronas
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/TareasAsincronasDjangoYCelery.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
+date: '2021-08-24'
+description: Celery permite la ejecución de tareas asíncronas en django. Configura
+  celery en django para manejar correos o cálculos costosos en tiempo.
+keywords:
+- celery
+- python
+- django
+title: Celery y django para ejecutar tareas asíncronas
 ---
 
 Celery, en combinación con Django sirven para resolver un problema: la falta de asincronía en nuestra aplicación. El envío de un correo electrónico, el procesamiento de algún archivo o la respuesta al servicio de un tercero mantendrán nuestra ejecución en espera de que la tarea se finalice y, como consecuencia, a nuestro usuario esperando.

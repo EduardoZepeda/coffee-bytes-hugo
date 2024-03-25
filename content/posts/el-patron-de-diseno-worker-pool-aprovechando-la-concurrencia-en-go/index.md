@@ -1,20 +1,25 @@
 ---
-title: "Explicación del Patron De Diseño Worker Pool"
-date: "2023-06-28"
-coverImage: "images/worker-pool-patron.jpg"
-description: "Te explico como funciona el patrón de diseño worker pool, el job queue o cola de tareas ideal para manejar con lenguajes de programación que soporten la concurrencia."
-categories:
-  - "Arquitectura de software"
-  - "Go"
-keywords:
-  - "Go"
-  - "Patrones de diseño"
-  - "Worker pool"
-  - "Concurrencia"
-  - "Paralelismo"
-  - "Workers"
+aliases:
+- /el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go
+- /explicacion-del-patron-de-diseno-worker-pool
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- Arquitectura de software
+- Go
+coverImage: images/worker-pool-patron.jpg
+date: '2023-06-28'
+description: Te explico como funciona el patrón de diseño worker pool, el job queue
+  o cola de tareas ideal para manejar con lenguajes de programación que soporten la
+  concurrencia.
+keywords:
+- Go
+- Patrones de diseño
+- Worker pool
+- Concurrencia
+- Paralelismo
+- Workers
+title: Explicación del Patron De Diseño Worker Pool
 ---
 
 Esta entrada va sobre un patrón de diseño del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.

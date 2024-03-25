@@ -1,17 +1,21 @@
 ---
-title: "¿Qué es Docker y para que sirve?"
-date: "2020-09-29"
-categories: 
-  - "docker"
-coverImage: "images/Fotografia-contenedores-Kaique-Rocha.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@introspectivedsgn"
-description: "¿Te parece que usar Docker no tiene sentido? ¿Crees que Docker y las máquinas virtuales son lo mismo? Entra y te explico las diferencias."
-keywords:
-  - "docker"
-  - "docker compose"
-  - "opinion"
+aliases:
+- /que-es-y-para-que-me-sirve-docker
+- /que-es-docker-y-para-que-sirve
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+coverImage: images/Fotografia-contenedores-Kaique-Rocha.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@introspectivedsgn
+date: '2020-09-29'
+description: ¿Te parece que usar Docker no tiene sentido? ¿Crees que Docker y las
+  máquinas virtuales son lo mismo? Entra y te explico las diferencias.
+keywords:
+- docker
+- docker compose
+- opinion
+title: ¿Qué es Docker y para que sirve?
 ---
 
 Si llevas usando computadoras desde hace tiempo, probablemente te encuentres más familiarizado con una máquina virtual que con un contenedor, ¿no es así? Docker resuelve el mismo problema que las máquinas virtuales pero de una manera diferente a estas últimas. Pero vamos por partes, empecemos por responder: ¿qué es Docker?

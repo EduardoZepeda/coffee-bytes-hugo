@@ -1,17 +1,22 @@
 ---
-title: "Los comandos básicos de Docker y su uso"
-date: "2020-10-07"
-categories: 
-  - "docker"
-  - "linux y devops"
-coverImage: "images/DockerCursoPractico.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@huy-phan-316220/"
-description: "Aprende a usar los comandos básicos de Docker, a diferenciar imágenes y contenedores, volúmenes, crear Dockerfiles y usar docker build."
-keywords:
-  - docker
-url: "tutorial-de-comandos-basicos-de-docker"
+aliases:
+- /docker-curso-practico-con-ejemplos-en-gnu-linux
+- /los-comandos-basicos-de-docker-y-su-uso
+- /tutorial-de-comandos-basicos-de-docker
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+- linux y devops
+coverImage: images/DockerCursoPractico.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@huy-phan-316220/
+date: '2020-10-07'
+description: Aprende a usar los comandos básicos de Docker, a diferenciar imágenes
+  y contenedores, volúmenes, crear Dockerfiles y usar docker build.
+keywords:
+- docker
+title: Los comandos básicos de Docker y su uso
+url: tutorial-de-comandos-basicos-de-docker
 ---
 
 Si te leíste la entrada anterior donde explico [para que sirve Docker](/es/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
@@ -606,4 +611,4 @@ Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 ve
 
 ![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)
 
-Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](/es/docker-compose-tutorial-con-comandos-en-gnu-linux/) 
+Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](/es/docker-compose-tutorial-con-comandos-en-gnu-linux/)

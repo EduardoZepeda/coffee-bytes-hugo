@@ -1,19 +1,24 @@
 ---
-title: "Django Annotate y aggregate explicados"
-date: "2020-11-17"
-categories: 
-  - "django"
-  - "bases de datos"
-coverImage: "images/Django_aggregate_y_annotate.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Tutorial sobre las diferencias, características y el uso de annotate y aggregate en Django, sus usos y como pueden usarse para mejorar la efiencia de las queries en el ORM de Django."
-keywords:
-  - django
-  - python
-  - rendimiento
-  - orm
+aliases:
+- /cuando-usar-annotate-y-aggregate-en-django
+- /django-annotate-y-aggregate-explicados
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+- bases de datos
+coverImage: images/Django_aggregate_y_annotate.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
+date: '2020-11-17'
+description: Tutorial sobre las diferencias, características y el uso de annotate
+  y aggregate en Django, sus usos y como pueden usarse para mejorar la efiencia de
+  las queries en el ORM de Django.
+keywords:
+- django
+- python
+- rendimiento
+- orm
+title: Django Annotate y aggregate explicados
 ---
 
 La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté la cabeza con desesperación, mientras buscaba en google: "Django annotate"; una de las funciones del ORM de Django que no lograba comprender. ¿Te ha pasado también?, apuesto que sí. Ya había leído la documentación pero no me pareció lo suficientemente clara y, para colmo, la confundía frecuentemente con su gemela malvada: aggregate. Tras haber visitado varias preguntas de stackoverflow y múltiples blogs en inglés pude entenderlas a ambas. Estas notas son el resultado de esa búsqueda, es la explicación sobre annotate y aggregate de Django que a mi me hubiera gustado leer hace años.

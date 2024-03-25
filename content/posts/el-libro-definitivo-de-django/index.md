@@ -1,18 +1,22 @@
 ---
-title: "La guia definitiva de Django"
-date: "2020-04-01"
-categories: 
-  - "django"
-coverImage: "images/DSC_3822.jpg"
-description: "Mi reseña de la guia definitiva de Django en español gratuita del libro. The definitive guide to Django, por los co-creadores de Django"
-keywords:
-  - django
-  - python
-  - libros
-  - opinion
-  - reseña
+aliases:
+- /el-libro-definitivo-de-django
+- /la-guia-definitiva-de-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/DSC_3822.jpg
+date: '2020-04-01'
+description: Mi reseña de la guia definitiva de Django en español gratuita del libro.
+  The definitive guide to Django, por los co-creadores de Django
+keywords:
+- django
+- python
+- libros
+- opinion
+- reseña
+title: La guia definitiva de Django
 ---
 
 Django es **mi framework de desarrollo web favorito**, es maduro, su documentación y su comunidad son excelentes. Cuando escribí sobre las [ventajas y desventajas de Django](/es/por-que-deberias-usar-django-framework/) te expliqué que pasar de una idea a un prototipo funcional en muy poco tiempo y sin escribir casi código. Aprendí gran parte de lo que sé respecto a este framework hace años, leyendo y practicando el contenido de un libro llamado **Definitive Guide to Django: Web Development Done Right** de los autores [Adrian Holovaty](http://www.holovaty.com/) , [Jacob Kaplan-Moss](https://jacobian.org/) (co-creadores de Django) y traducido impecablemente al español por Saul García bajo el título de La guía definitiva de Django: Desarrolla aplicaciones web de forma rápida y sencilla.

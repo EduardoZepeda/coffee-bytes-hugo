@@ -1,14 +1,18 @@
 ---
-title: "Contraseñas seguras, tutorial de keepassxc"
-date: "2020-07-15"
-categories: 
-  - "linux y devops"
-coverImage: "images/chico_con_mascara_de_gas.jpg"
-description: "Tutorial de keepassxc. Logra contraseñas seguras e impenetrables por fuerza bruta, incluso aunque no sepas nada de criptografía."
-keywords:
-  - linux
+aliases:
+- /contrasenas-seguras-tutorial-de-keepassx
+- /contrasenas-seguras-tutorial-de-keepassxc
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/chico_con_mascara_de_gas.jpg
+date: '2020-07-15'
+description: Tutorial de keepassxc. Logra contraseñas seguras e impenetrables por
+  fuerza bruta, incluso aunque no sepas nada de criptografía.
+keywords:
+- linux
+title: Contraseñas seguras, tutorial de keepassxc
 ---
 
 En la entrada anterior hablé acerca de algunas [buenas practicas usando contraseñas](/es/como-crear-una-contrasena-segura/). Uno de las recomendaciones era usar una contraseña diferente para cada sitio web. Sin embargo recordar muchas contraseñas es complicado y guardar las contraseñas en texto plano es algo impensable si valoramos un poco nuestra seguridad informática. Hay bastante gestores de contraseñas disponibles, esta entrada es un tutorial de keepassxc, un gestor de contraseñas **gratuito, open source y súper seguro.**

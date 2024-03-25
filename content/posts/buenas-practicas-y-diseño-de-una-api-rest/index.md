@@ -1,18 +1,22 @@
 ---
-title: "Buenas prácticas y diseño de una API REST"
-date: "2022-04-28"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-coverImage: "images/buenDisenoAPIREST.jpg"
-description: "Buenas prácticas de diseño de una API REST, como versionarla, actualizarla y anidar los recursos en las URI."
-keywords:
-  - arquitectura de software
-  - opinion
-  - REST
-  - api
+aliases:
+- /buenas-practicas-y-diseño-de-una-api-rest
+- /buenas-practicas-y-diseno-de-una-api-rest
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/buenDisenoAPIREST.jpg
+date: '2022-04-28'
+description: Buenas prácticas de diseño de una API REST, como versionarla, actualizarla
+  y anidar los recursos en las URI.
+keywords:
+- arquitectura de software
+- opinion
+- REST
+- api
+title: Buenas prácticas y diseño de una API REST
 ---
 
 ¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet. Dejo las fuentes al final del artículo por si te interesa profundizar o ver de donde viene esta información.

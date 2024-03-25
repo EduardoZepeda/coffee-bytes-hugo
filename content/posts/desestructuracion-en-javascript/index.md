@@ -1,14 +1,20 @@
 ---
-title: "Desestructuración de variables en javascript"
-date: "2019-10-16"
-categories: 
-  - "javascript"
-coverImage: "images/Desestructuracion_objetos_javascript.jpg"
-description: "En esta entrada voy a tratar de explicar de una manera sencilla la desestructuración de objetos en javascript. La destructuración es un proceso que, a pesar de lo que se cree, es bastante simple en realidad y puede mejorar bastante la legibilidad del código."
-keywords:
-  - javascript
+aliases:
+- /desestructuracion-en-javascript
+- /desestructuracion-de-variables-en-javascript
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+coverImage: images/Desestructuracion_objetos_javascript.jpg
+date: '2019-10-16'
+description: En esta entrada voy a tratar de explicar de una manera sencilla la desestructuración
+  de objetos en javascript. La destructuración es un proceso que, a pesar de lo que
+  se cree, es bastante simple en realidad y puede mejorar bastante la legibilidad
+  del código.
+keywords:
+- javascript
+title: Desestructuración de variables en javascript
 ---
 
 Para aquellos como yo, cuyo primer lenguage no tuvo la suerte (o desgracia) de ser javascript, la desestructuración puede llegar a tener tintes esotéricos. En esta entrada voy a tratar de explicar de una manera sencilla la desestructuración de objetos en javascript. La destructuración es un proceso que, a diferencia de lo que se cree, es bastante simple en realidad y, además, puede mejorar bastante la legibilidad del código.

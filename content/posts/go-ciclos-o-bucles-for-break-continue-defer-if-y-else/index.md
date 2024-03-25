@@ -1,14 +1,17 @@
 ---
-title: "Go: ciclos o bucles for, break, continue, defer, if y else"
-date: "2021-12-07"
-categories: 
-  - go
-coverImage: "images/go-funciones-defer-break-continue-if-else.jpg"
-description: "Sintaxis y usos básicos de las estructuras if y else, los bucles, sus tipos, break, continue y defer en el lenguaje de programación go"
-keywords:
-  - go
+aliases:
+- /go-ciclos-o-bucles-for-break-continue-defer-if-y-else
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-funciones-defer-break-continue-if-else.jpg
+date: '2021-12-07'
+description: Sintaxis y usos básicos de las estructuras if y else, los bucles, sus
+  tipos, break, continue y defer en el lenguaje de programación go
+keywords:
+- go
+title: 'Go: ciclos o bucles for, break, continue, defer, if y else'
 ---
 
 Esta entrada tratará sobre los bucles en el lenguaje de programación go.

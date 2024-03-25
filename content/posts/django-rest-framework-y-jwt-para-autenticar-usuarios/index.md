@@ -1,19 +1,22 @@
 ---
-title: "Django Rest Framework y JWT para autenticar usuarios"
-date: "2021-06-14"
-categories: 
-  - "django"
-coverImage: "images/JWT.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@iamikeee/"
-description: "Aprende a implementar la autenticación básica en Django usando JWT y Django Rest Framework por medio de tokens de acceso y de refresco."
-keywords:
-  - django
-  - jwt
-  - REST
-  - api
-  - drf
+aliases:
+- /django-rest-framework-y-jwt-para-autenticar-usuarios
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/JWT.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@iamikeee/
+date: '2021-06-14'
+description: Aprende a implementar la autenticación básica en Django usando JWT y
+  Django Rest Framework por medio de tokens de acceso y de refresco.
+keywords:
+- django
+- jwt
+- REST
+- api
+- drf
+title: Django Rest Framework y JWT para autenticar usuarios
 ---
 
 Los JWT (JSON Web Tokens) se han popularizado enormemente, incluso algunos las consideran un reemplazo de los clásicos Tokens que usan otros frameworks, tales como Django Rest Framework. Usar JWT o Tokens normales (SWT) permite guardar toda la información de nuestra sesión directo en el token y además están firmados criptográficamente, suena bien ¿no? Sigue leyendo hasta el final para profundizar al respecto.

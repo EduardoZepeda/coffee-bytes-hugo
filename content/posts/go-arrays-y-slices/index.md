@@ -1,14 +1,18 @@
 ---
-title: "Go:  slices y arrays"
-date: "2021-12-14"
-categories: 
-  - go
-coverImage: "images/ArrayslicesYArrays.jpg"
-description: "Sintaxis y usos básicos de los arrays y slices en el lenguaje de programación go. También te explico como usar la función make en slices."
-keywords:
-  - go
+aliases:
+- /go-arrays-y-slices
+- /go-slices-y-arrays
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/ArrayslicesYArrays.jpg
+date: '2021-12-14'
+description: Sintaxis y usos básicos de los arrays y slices en el lenguaje de programación
+  go. También te explico como usar la función make en slices.
+keywords:
+- go
+title: 'Go:  slices y arrays'
 ---
 
 En go o golang los slices, los arrays y los [maps](/es/go-maps-o-diccionarios/) son estructuras para manejar colecciones de datos. En esta entrada voy a hablar de los dos primeros: slices y arrays.

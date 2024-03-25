@@ -1,18 +1,22 @@
 ---
-title: "¿Cómo Crear un Sitemap Dinámico con Django?"
-url: "sitemap-dinamico-con-django"
-date: "2022-07-20"
-description: "Tutorial sobre la creación de un Sitemap dinámico con Django, su estructura, definición, caché y uso de modelos para crear cambos loc, changefreq y priority"
-coverImage: "images/sitemap-en-django.jpg"
+aliases:
+- /sitemap-dinamico-con-django
+- /como-crear-un-sitemap-dinamico-con-django
+authors:
+- Eduardo Zepeda
 categories:
 - django
+coverImage: images/sitemap-en-django.jpg
+date: '2022-07-20'
+description: Tutorial sobre la creación de un Sitemap dinámico con Django, su estructura,
+  definición, caché y uso de modelos para crear cambos loc, changefreq y priority
 keywords:
 - django
 - sitemap
 - python
 - seo
-authors:
-  - Eduardo Zepeda
+title: ¿Cómo Crear un Sitemap Dinámico con Django?
+url: sitemap-dinamico-con-django
 ---
 
 Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu sitio. De ahí el nombre; Site (sitio) map (mapa). Los motores de búsqueda, como google, bing, yahoo y otros, usan el sitemap de un sitio como punto de partida para analizar su contenido e incluirlo en sus resultados de búsqueda.

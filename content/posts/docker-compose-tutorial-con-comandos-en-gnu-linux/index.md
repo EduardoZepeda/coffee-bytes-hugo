@@ -1,18 +1,22 @@
 ---
-title: "Conoce los comandos básicos de Docker Compose"
-date: "2020-10-14"
-categories: 
-  - "docker"
-  - "linux y devops"
-coverImage: "images/DockerCompose.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@felixmittermeier/"
-description: "En este tutorial de Docker compose te explico los comandos más comunes, así como la estructura y creación de un archivo docker-compose.yml"
-keywords:
-  - docker
-  - "docker compose"
-url: "docker-compose-tutorial-con-comandos-en-gnu-linux"
+aliases:
+- /docker-compose-tutorial-con-comandos-en-gnu-linux
+- /conoce-los-comandos-basicos-de-docker-compose
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+- linux y devops
+coverImage: images/DockerCompose.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@felixmittermeier/
+date: '2020-10-14'
+description: En este tutorial de Docker compose te explico los comandos más comunes,
+  así como la estructura y creación de un archivo docker-compose.yml
+keywords:
+- docker
+- docker compose
+title: Conoce los comandos básicos de Docker Compose
+url: docker-compose-tutorial-con-comandos-en-gnu-linux
 ---
 
 Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita mi entrada de los [comandos y uso básico de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)

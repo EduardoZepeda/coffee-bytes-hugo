@@ -1,15 +1,19 @@
 ---
-title: "¿Por qué deberías usar un entorno virtual en python?"
-date: "2019-07-10"
-categories: 
-  - "python"
-coverImage: "images/porque_deberias_usar_un_entorno_virtual.jpg"
-description: "¿No sabes que es un entorno virtual en Python? Aquí te explico que es, para que sirve y sus diferencias con las máquinas virtuales."
-keywords:
-  - "python"
-  - "opinion"
+aliases:
+- /por-que-usar-un-entorno-virtual-en-python
+- /por-que-deberias-usar-un-entorno-virtual-en-python
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/porque_deberias_usar_un_entorno_virtual.jpg
+date: '2019-07-10'
+description: ¿No sabes que es un entorno virtual en Python? Aquí te explico que es,
+  para que sirve y sus diferencias con las máquinas virtuales.
+keywords:
+- python
+- opinion
+title: ¿Por qué deberías usar un entorno virtual en python?
 ---
 
 Los entornos virtuales en python son una herramienta que se usa sí o sí en cada uno de los proyectos. Son tan importantes que forman parte de la librería estándar de Python, pero, ¿qué hacen? Deja que te cuente para que sirve un entorno virtual en python con un ejemplo bastante simple.

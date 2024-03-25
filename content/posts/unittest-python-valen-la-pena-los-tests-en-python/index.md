@@ -1,16 +1,19 @@
 ---
-title: "Unittest python ¿valen la pena los tests en python?"
-date: "2019-06-11"
-categories: 
-  - "python"
-  - "testing"
-coverImage: "images/porque_deberias_incorporar_test_a_tu_codigo.jpg"
-description: "Los tests son un desperdicio, ¿verdad? Entra aquí y conoce unittest, coverage, mock y otras herramientas populares de python para testing."
-keywords:
-  - "testing"
-  - "python"
+aliases:
+- /unittest-python-valen-la-pena-los-tests-en-python
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+- testing
+coverImage: images/porque_deberias_incorporar_test_a_tu_codigo.jpg
+date: '2019-06-11'
+description: Los tests son un desperdicio, ¿verdad? Entra aquí y conoce unittest,
+  coverage, mock y otras herramientas populares de python para testing.
+keywords:
+- testing
+- python
+title: Unittest python ¿valen la pena los tests en python?
 ---
 
 Hace mucho, cuando empecé a programar pensaba que probar el código era una pérdida de tiempo. ¿Para qué necesitaba escribir más código? ¿unittest python? ¿mock? podía solo leer el código, ver los lugares donde el código podía fallar y manejar el problema con un try y un except (o el equivalente en otro lenguaje). También pensaba que, a parte de los errores de sintaxis, no se generarían errores en el flujo del código si uno escribía con suficiente cuidado. El primer libro de programación que leí tenia una sección dedicada por completo al testeo y yo no entendía por que tanto revuelo. ¿por qué debería incorporar tests a mi código python? No pasó mucho tiempo hasta que me diera cuenta de lo equivocado que estaba. unittest python

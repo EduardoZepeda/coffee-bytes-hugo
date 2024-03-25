@@ -1,19 +1,22 @@
 ---
-title: "¿Por qué deberías usar Django Framework?"
-date: "2021-03-24"
-categories: 
-  - "django"
-  - "opiniones"
-coverImage: "images/Django-usar.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@weekendplayer/"
-description: "¿Vale la pena usar Django en un mundo donde todo es Javascript? Entra para conocer las ventajas y desventajas de este framework de Python."
-keywords:
-  - "drf"
-  - "django"
-  - "python"
-  - "opinion"
+aliases:
+- /por-que-deberias-usar-django-framework
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+- opiniones
+coverImage: images/Django-usar.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
+date: '2021-03-24'
+description: ¿Vale la pena usar Django en un mundo donde todo es Javascript? Entra
+  para conocer las ventajas y desventajas de este framework de Python.
+keywords:
+- drf
+- django
+- python
+- opinion
+title: ¿Por qué deberías usar Django Framework?
 ---
 
 ¿Por qué usar Django en un mundo donde todo es Javascript? ¿De verdad vale la pena aprender un Framework de Python en un ecosistema que se empecina en Frameworks escritos en Javascript? Pues yo creo que sí y a continuación te expongo algunas de las razones por las que deberías usar Django. Y, para no perder objetividad, te hablaré tanto de las ventajas, como de las desventajas; ya sabes que ninguna solución es perfecta.

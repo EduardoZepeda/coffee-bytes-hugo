@@ -1,18 +1,22 @@
 ---
-title: "Tutorial de migraciones en Go con migrate"
-date: "2022-11-25"
-categories: 
-  - go
-  - "bases de datos"
-coverImage: "images/migrations-go.jpg"
-keywords:
-  - go
-  - postgres
-  - "bases de datos"
-  - migrations
-description: "En este tutorial te explico que son las migraciones up, down de una base de datos, así como a crearlas y manejarlas usando la librería migrate de go."
+aliases:
+- /migraciones-en-go-con-migrate
+- /tutorial-de-migraciones-en-go-con-migrate
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+- bases de datos
+coverImage: images/migrations-go.jpg
+date: '2022-11-25'
+description: En este tutorial te explico que son las migraciones up, down de una base
+  de datos, así como a crearlas y manejarlas usando la librería migrate de go.
+keywords:
+- go
+- postgres
+- bases de datos
+- migrations
+title: Tutorial de migraciones en Go con migrate
 ---
 
 En frameworks como [Django, las migraciones se crean automáticamente](/es/por-que-deberias-usar-django-framework/#su-orm-es-sencillo-y-maravilloso), a partir de los modelos. Sin embargo en lenguajes como go, siempre y cuando no estemos usando un ORM, las migraciones se realizarán de manera manual.

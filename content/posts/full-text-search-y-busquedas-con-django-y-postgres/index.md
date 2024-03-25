@@ -1,18 +1,21 @@
 ---
-title: "Full text search y búsquedas con Django y Postgres"
-date: "2021-05-06"
-categories: 
-  - "django"
-coverImage: "images/Full-text-search-django.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@iamikeee/"
-description: "Conoce los métodos de búsqueda básicos que Django y Postgres tienen para ofrecer, así como full text search y otras funcionalidades avanzadas."
-keywords:
-  - django
-  - postgres
-  - orm
-  - rendimiento
+aliases:
+- /full-text-search-y-busquedas-con-django-y-postgres
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Full-text-search-django.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@iamikeee/
+date: '2021-05-06'
+description: Conoce los métodos de búsqueda básicos que Django y Postgres tienen para
+  ofrecer, así como full text search y otras funcionalidades avanzadas.
+keywords:
+- django
+- postgres
+- orm
+- rendimiento
+title: Full text search y búsquedas con Django y Postgres
 ---
 
 Algunas veces cuando tecleamos nos equivocamos en una letra, podemos repetirla, omitirla o cambiarla por otra. Ese error puede arrojar una serie de resultados diferentes en una búsqueda web, o incluso carecer de resultados. Quizás para un blog no represente una amenaza, pero para un ecommerce puede significar la perdida de una venta, y para aquellas tiendas con un tráfico gigantesco, una búsqueda de texto exitosa, ya sea usando full text search o algo más complejo, en Django u otro framework, puede representar la diferencia entre perdidas o ganancias enormes.

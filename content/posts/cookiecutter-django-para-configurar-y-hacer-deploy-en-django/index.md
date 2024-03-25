@@ -1,24 +1,28 @@
 ---
-title: "Configuración de un proyecto de Django usando Cookiecutter-django"
-url: "cookiecutter-django-para-configurar-y-hacer-deploy-en-django"
-date: "2020-10-20"
-categories: 
-  - "django"
-  - "docker"
-coverImage: "images/tutorial-cookiecutter-django-docker-compose.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@alex-andrews-271121/"
-description: "Tutorial para configurar cookiecutter en Django. Aprende para que sirve, como instalarlo y que significa cada una de las preguntas para crear un proyecto"
-keywords:
-  - docker
-  - django
-  - python
-  - docker compose
-  - celery
-  - drf
-  - aws
-  - deploy
+aliases:
+- /cookiecutter-django-para-configurar-y-hacer-deploy-en-django
+- /configuracion-de-un-proyecto-de-django-usando-cookiecutter-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+- docker
+coverImage: images/tutorial-cookiecutter-django-docker-compose.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@alex-andrews-271121/
+date: '2020-10-20'
+description: Tutorial para configurar cookiecutter en Django. Aprende para que sirve,
+  como instalarlo y que significa cada una de las preguntas para crear un proyecto
+keywords:
+- docker
+- django
+- python
+- docker compose
+- celery
+- drf
+- aws
+- deploy
+title: Configuración de un proyecto de Django usando Cookiecutter-django
+url: cookiecutter-django-para-configurar-y-hacer-deploy-en-django
 ---
 
 Escribí las entradas anteriores como una introducción para el tema de esta semana. En esta entrada voy a explicar sobre una herramienta genial para Django llamada cookiecutter-django, que traducido significa "cortador de galletas django". Esta herramienta para django permite generar proyectos que integren docker, celery, mailhog, aws, gcp, y muchas otras herramientas, de una manera automática, con solo contestar una serie de preguntas.

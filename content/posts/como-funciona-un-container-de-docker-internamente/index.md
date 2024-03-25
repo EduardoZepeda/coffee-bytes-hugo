@@ -1,19 +1,22 @@
 ---
-title: "¿Cómo Funciona un Container de Docker Internamente?"
-date: "2022-06-18"
-categories: 
-  - "docker"
-  - "linux y devops"
-  - go
-keywords:
-  - docker
-  - linux
-  - go
-  - devops
-coverImage: "images/docker-container-desde-cero.jpg"
-url: "container-de-docker-con-namespaces-y-cgroups"
+aliases:
+- /como-funciona-un-container-de-docker-internamente
+- /container-de-docker-con-namespaces-y-cgroups
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+- linux y devops
+- go
+coverImage: images/docker-container-desde-cero.jpg
+date: '2022-06-18'
+keywords:
+- docker
+- linux
+- go
+- devops
+title: ¿Cómo Funciona un Container de Docker Internamente?
+url: container-de-docker-con-namespaces-y-cgroups
 ---
 
 Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/es/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?

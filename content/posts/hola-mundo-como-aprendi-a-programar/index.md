@@ -1,15 +1,19 @@
 ---
-title: "Hello World, ¿cómo aprendi a programar?"
-date: "2019-03-31"
-categories: 
-  - "opiniones"
-coverImage: "images/Figura-de-miku-hatsune-de-vinsky2002.jpg"
-description: "Esta es una entrada personal donde explico como aprendí a programar por primera vez, primero en PHP y mis primeros contactos con Python."
-keywords:
-  - opinion
-  - internet
+aliases:
+- /hola-mundo-como-aprendi-a-programar
+- /hello-world-como-aprendi-a-programar
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- opiniones
+coverImage: images/Figura-de-miku-hatsune-de-vinsky2002.jpg
+date: '2019-03-31'
+description: Esta es una entrada personal donde explico como aprendí a programar por
+  primera vez, primero en PHP y mis primeros contactos con Python.
+keywords:
+- opinion
+- internet
+title: Hello World, ¿cómo aprendi a programar?
 ---
 
 La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.

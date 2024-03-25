@@ -1,17 +1,22 @@
 ---
-title: "Tutorial Generación de PDFs con Django y Reportlab"
-url: "generar-pdfs-con-django-y-reportlab"
-date: "2022-09-22"
-coverImage: "images/generar-pdfs-con-django.jpg"
-coverImageCredits: "Créditos de la imagen a https://unsplash.com/es/@retrokram"
-description: "Tutorial para generar PDFs en Django con Reportlab, definir el tipo de respuesta crear texto, posicionarlo, cambiarlo de color y devolverlo como respuesta"
+aliases:
+- /generer-pdfs-con-django-y-reportlab
+- /tutorial-generacion-de-pdfs-con-django-y-reportlab
+- /generar-pdfs-con-django-y-reportlab
+authors:
+- Eduardo Zepeda
 categories:
 - django
+coverImage: images/generar-pdfs-con-django.jpg
+coverImageCredits: Créditos de la imagen a https://unsplash.com/es/@retrokram
+date: '2022-09-22'
+description: Tutorial para generar PDFs en Django con Reportlab, definir el tipo de
+  respuesta crear texto, posicionarlo, cambiarlo de color y devolverlo como respuesta
 keywords:
 - python
 - django
-authors:
-  - Eduardo Zepeda
+title: Tutorial Generación de PDFs con Django y Reportlab
+url: generar-pdfs-con-django-y-reportlab
 ---
 
 Con django y reportlab podemos generar PDFs de manera dinámica, usando información de nuestra base de datos, input del usuario o cualquier otra lógica de negocio que deseemos. 
@@ -211,4 +216,3 @@ def pdfVideogame(request):
 ```
 
 Ahora ya sabes como crear un PDF sencillo que te va a servir para la mayoría de los casos.
-

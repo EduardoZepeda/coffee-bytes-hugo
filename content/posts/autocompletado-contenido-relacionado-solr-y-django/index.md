@@ -1,13 +1,16 @@
 ---
-title: "Autocompletado, Sugerencias y Contenido Relacionado: Solr Y Django"
-date: "2022-05-29"
-coverImage: "images/solr-busquedas-avanzadas.jpg"
-coverImagecredits: "Créditos a 藪 https://www.pixiv.net/en/users/50979768"
+aliases:
+- /autocompletado-contenido-relacionado-solr-y-django
+- /autocompletado-sugerencias-y-contenido-relacionado-solr-y-django
+authors:
+- Eduardo Zepeda
 categories:
 - django
-- "linux y devops"
-authors:
-  - Eduardo Zepeda
+- linux y devops
+coverImage: images/solr-busquedas-avanzadas.jpg
+coverImagecredits: Créditos a 藪 https://www.pixiv.net/en/users/50979768
+date: '2022-05-29'
+title: 'Autocompletado, Sugerencias y Contenido Relacionado: Solr Y Django'
 ---
 
 Solr, en unión con Lucene, conforman un motor de búsqueda muy potente que permite realizar búsquedas con funciones avanzadas. en esta entrada te traigo un resumen con  algunas de las funciones más interesantes de Solr y Django Haystack.

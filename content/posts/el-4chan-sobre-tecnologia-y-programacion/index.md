@@ -1,15 +1,18 @@
 ---
-title: "El 4chan sobre tecnologia y programacion"
-date: "2019-09-16"
-categories: 
-  - "opiniones"
-coverImage: "images/el_4chan_sobre_programacion.jpg"
-description: "En esta entrada expongo mi opinión sobre uno de los image boards de programación y tecnología más populares que hay, lainchan."
-keywords:
-  - opinion
-  - internet
+aliases:
+- /el-4chan-sobre-tecnologia-y-programacion
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- opiniones
+coverImage: images/el_4chan_sobre_programacion.jpg
+date: '2019-09-16'
+description: En esta entrada expongo mi opinión sobre uno de los image boards de programación
+  y tecnología más populares que hay, lainchan.
+keywords:
+- opinion
+- internet
+title: El 4chan sobre tecnologia y programacion
 ---
 
 Muchas de las personas que pasan gran parte de su día en contacto con internet, ya sea por placer o por trabajo, han llegado eventualmente a terminar en un image board, generalmente en el más popular que existe entre personas angloparlantes: [4chan.](https://4chan.org)

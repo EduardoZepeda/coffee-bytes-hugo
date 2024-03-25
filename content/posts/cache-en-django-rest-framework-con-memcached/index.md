@@ -1,21 +1,25 @@
 ---
-title: "Tutorial para Implementar Caché en Django REST Framework con memcached"
-url: "cache-en-django-rest-framework-con-memcached"
-date: "2021-09-07"
-categories: 
-  - "django"
-coverImage: "images/CacheConMemcachedYPymemcache.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@airamdphoto/"
-description: "Tutorial para implementar y configurar caché en diferentes niveles: vista, cookies, granular, usando memcached, en una aplicación de Django REST Framework"
-keywords:
-  - python
-  - django
-  - cache
-  - REST
-  - rendimiento
-  - API
+aliases:
+- /cache-en-django-rest-framework-con-memcached
+- /tutorial-para-implementar-cache-en-django-rest-framework-con-memcached
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/CacheConMemcachedYPymemcache.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@airamdphoto/
+date: '2021-09-07'
+description: 'Tutorial para implementar y configurar caché en diferentes niveles:
+  vista, cookies, granular, usando memcached, en una aplicación de Django REST Framework'
+keywords:
+- python
+- django
+- cache
+- REST
+- rendimiento
+- API
+title: Tutorial para Implementar Caché en Django REST Framework con memcached
+url: cache-en-django-rest-framework-con-memcached
 ---
 
 Para usar la caché en django, basta con seguir tres sencillos pasos:

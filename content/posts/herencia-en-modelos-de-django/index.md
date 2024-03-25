@@ -1,18 +1,22 @@
 ---
-title: "Comprende los tipos de herencia en modelos de Django"
-date: "2020-09-21"
-categories: 
-  - "django"
-coverImage: "images/HerenciaModelosDjango.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@elifskies-53441403/"
-description: "Te explico tres tipos de herencia en modelos Django: la abstracta, multi tabla y proxy, así como sus características y sintaxis."
-keywords:
-  - django
-  - python
-  - oop
-  - orm
+aliases:
+- /herencia-en-modelos-de-django
+- /comprende-los-tipos-de-herencia-en-modelos-de-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/HerenciaModelosDjango.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@elifskies-53441403/
+date: '2020-09-21'
+description: 'Te explico tres tipos de herencia en modelos Django: la abstracta, multi
+  tabla y proxy, así como sus características y sintaxis.'
+keywords:
+- django
+- python
+- oop
+- orm
+title: Comprende los tipos de herencia en modelos de Django
 ---
 
 A veces, cuando creamos Modelos en Django queremos darle ciertas características en común a varios de nuestros modelos. Probablemente, la aproximación que se nos vendría primero a la mente sería repetir los campos una y otra vez. Lo anterior nos traería dos problemas; el primero, estamos repitiendo información; el segundo, si queremos agregar otro campo en común tendremos que modificar cada uno de los modelos. Esta problemática es la que resuelve la herencia de modelos de Django.

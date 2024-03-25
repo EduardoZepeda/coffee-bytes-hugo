@@ -1,19 +1,22 @@
 ---
-title: "No uses JWT para gestionar sesiones (Traducción)"
-date: "2021-06-22"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-coverImage: "images/NoUsesJWT.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@gabby-k/"
-description: "Traducción del artículo Stop using JWT for sessions. Expone las razones por las cuales es mala idea usar JWT para el manejo de sesiones."
-keywords:
-  - jwt
-  - javascript
-  - arquitectura de software
-  - opinion
+aliases:
+- /no-uses-jwt-para-gestionar-sesiones-traduccion
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/NoUsesJWT.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@gabby-k/
+date: '2021-06-22'
+description: Traducción del artículo Stop using JWT for sessions. Expone las razones
+  por las cuales es mala idea usar JWT para el manejo de sesiones.
+keywords:
+- jwt
+- javascript
+- arquitectura de software
+- opinion
+title: No uses JWT para gestionar sesiones (Traducción)
 ---
 
 En la entrada anterior publiqué una entrada sobre como llevar a cabo [autenticación usando JWT y Django Rest Framework](/es/django-rest-framework-y-jwt-para-autenticar-usuarios/), debido a que es un mecanismo de manejo de sesiones bastante popular últimamente, incluso algunos lo consideran un reemplazo de las cookies de sesión. En mi publicación mencioné que hay un debate muy intenso sobre si usar JWT para manejar sesiones es una buena práctica, para complementar lo anterior decidí traducir uno de los artículos más populares que aboga en contra del uso de JWT para manejar sesiones. El autor es Sven [Slootweg (joepie91)](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) y el artículo fue publicado en su blog. Yo solamente lo traduje al español y lo comparto aquí. A partir del siguiente párrafo empieza la traducción del artículo, que lo disfrutes.

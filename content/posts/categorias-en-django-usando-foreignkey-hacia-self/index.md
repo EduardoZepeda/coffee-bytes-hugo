@@ -1,17 +1,20 @@
 ---
-title: "Categorias en Django usando ForeignKey hacia self"
-date: "2022-03-30"
-categories: 
-  - "django"
-coverImage: "images/DjangoCategoriasYSubcategorias.jpg"
-description: "Entrada sobre el uso del ForeignKey o llave foránea hacia 'self' en Django para crear estructuras jerárquicas o categorías sin límites."
-coverImageCredits: "Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895"
-keywords:
-  - django
-  - python
-  - orm
+aliases:
+- /categorias-en-django-usando-foreignkey-hacia-self
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/DjangoCategoriasYSubcategorias.jpg
+coverImageCredits: Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895
+date: '2022-03-30'
+description: Entrada sobre el uso del ForeignKey o llave foránea hacia 'self' en Django
+  para crear estructuras jerárquicas o categorías sin límites.
+keywords:
+- django
+- python
+- orm
+title: Categorias en Django usando ForeignKey hacia self
 ---
 
 La agrupación por categorías es bastante recurrente en aplicaciones web, desde películas, cursos o cualquier otro recurso que presente una relación jerárquica hacía otro objeto. En Django existen diferentes maneras de modelar estas relaciones. Probablemente, la primera que se te vendrá a la mente será crear un objeto _categoria_, y luego relacionarlo por medio de una _ForeignKey_ con una _subcategoria_.

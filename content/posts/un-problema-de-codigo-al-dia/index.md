@@ -1,16 +1,20 @@
 ---
-title: "Un problema de algoritmos al dia"
-date: "2019-06-04"
-categories: 
-  - "linux y devops"
-coverImage: "images/un_problema_de_codigo_al_dia.jpg"
-description: "¿Quieres practicar un problema de algoritmos al día para tus entrevistas laborales? Checa esta página gratuita para hacerlo."
-keywords:
-  - "internet"
-  - "algoritmos"
-  - "bigo"
+aliases:
+- /un-problema-de-codigo-al-dia
+- /un-problema-de-algoritmos-al-dia
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/un_problema_de_codigo_al_dia.jpg
+date: '2019-06-04'
+description: ¿Quieres practicar un problema de algoritmos al día para tus entrevistas
+  laborales? Checa esta página gratuita para hacerlo.
+keywords:
+- internet
+- algoritmos
+- bigo
+title: Un problema de algoritmos al dia
 ---
 
 El otro día, uno de los youtubers que sigo recomendó una página para recibir algoritmos por correo electrónico ¿Qué te parecería recibir un problema de algoritmos al día en tu correo electrónico? Son 7 problemas por semana y 365 problemas por año. Imagina cuanto mejoraría tu habilidad de resolución de problemas y capacidad analítica. ¿Aún no es suficiente? ¿qué tal si te digo que esos acertijos de código son preguntas frecuentes en entrevistas laborales de empresas top de tecnología de talla mundial?

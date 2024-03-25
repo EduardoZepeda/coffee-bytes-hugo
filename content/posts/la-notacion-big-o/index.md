@@ -1,16 +1,19 @@
 ---
-title: "La notación Big O"
-date: "2019-08-15"
-categories: 
-  - "linux y devops"
-coverImage: "images/BigO_notacion.jpg"
-description: "Te explico en que consiste la notación Big O para que puedas mejorar la eficiencia de tus algoritmos en tus aplicaciones."
-keywords:
-  - bigo
-  - rendimiento
-  - algoritmos
+aliases:
+- /la-notacion-big-o
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/BigO_notacion.jpg
+date: '2019-08-15'
+description: Te explico en que consiste la notación Big O para que puedas mejorar
+  la eficiencia de tus algoritmos en tus aplicaciones.
+keywords:
+- bigo
+- rendimiento
+- algoritmos
+title: La notación Big O
 ---
 
 Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que suceden; ya sean cosas triviales, como el descubrimiento de un nuevo planeta; o significativas, como las hipotéticas esferas de Dyson que juran encontrar cada mes. Pero el descubrimiento de esta ocasión fue fantástico. 
@@ -137,4 +140,3 @@ Te dejo algunas opciones para practicar algorítmos.
 * [newsletter de un algorítmo al día](/es/un-problema-de-algoritmos-al-dia/) 
 * [codewars](/es/top-5-problemas-de-algoritmos-favoritos-en-codewars/)
 * [HackerRank](https://www.hackerrank.com/)
-

@@ -1,16 +1,19 @@
 ---
-title: "Go: testing básico y coverage"
-date: "2022-02-09"
-categories: 
-  - go
-  - "testing"
-coverImage: "images/go-testing-coverage.jpg"
-description: "Entrada sobre testing básico en go: creación de tests, manejo de múltiples casos, coverage y exportación de resultados a html."
-keywords:
-  - go
-  - testing
+aliases:
+- /go-testing-basico-y-coverage
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+- testing
+coverImage: images/go-testing-coverage.jpg
+date: '2022-02-09'
+description: 'Entrada sobre testing básico en go: creación de tests, manejo de múltiples
+  casos, coverage y exportación de resultados a html.'
+keywords:
+- go
+- testing
+title: 'Go: testing básico y coverage'
 ---
 
 Go ya cuenta con un modulo de testing en su librería estándar que está lista para nuestro uso, solo hace falta importarlo y usarlo.

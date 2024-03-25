@@ -1,14 +1,18 @@
 ---
-title: "Comandos de Linux básicos que deberías conocer"
-date: "2019-05-08"
-categories: 
-  - "linux y devops"
-coverImage: "images/comandos_GNU_Linux_1.jpg"
-description: "La terminal de GNU/Linux tiene muchísimos comandos útiles, aprende los basicos aquí, incluso si jamás has usado la terminal."
-keywords:
-  - linux
+aliases:
+- /comandos-de-gnu-linux-que-deberias-conocer
+- /comandos-de-linux-basicos-que-deberias-conocer
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/comandos_GNU_Linux_1.jpg
+date: '2019-05-08'
+description: La terminal de GNU/Linux tiene muchísimos comandos útiles, aprende los
+  basicos aquí, incluso si jamás has usado la terminal.
+keywords:
+- linux
+title: Comandos de Linux básicos que deberías conocer
 ---
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.

@@ -1,20 +1,24 @@
 ---
-title: "Graphene y Django, Tutorial de Queries y Mutaciones en Graphql"
-url: "graphql-y-django-con-graphene"
-date: "2021-10-26"
-categories: 
-  - "django"
-coverImage: "images/GraphqlGrapheneDjango.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@frank-cone-140140/"
-description: "Tutorial para implementar queries y mutaciones de graphql en un proyecto de django, usando graphene, una de las librerías más comunes y su ORM "
-keywords:
-  - django
-  - python
-  - graphene
-  - graphql
-  - api
+aliases:
+- /graphql-y-django-con-graphene
+- /graphene-y-django-tutorial-de-queries-y-mutaciones-en-graphql
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/GraphqlGrapheneDjango.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@frank-cone-140140/
+date: '2021-10-26'
+description: 'Tutorial para implementar queries y mutaciones de graphql en un proyecto
+  de django, usando graphene, una de las librerías más comunes y su ORM '
+keywords:
+- django
+- python
+- graphene
+- graphql
+- api
+title: Graphene y Django, Tutorial de Queries y Mutaciones en Graphql
+url: graphql-y-django-con-graphene
 ---
 
 Normalmente graphql se utiliza en conjunto con Nodejs y express, u otros frameworks de javascript, para crear una API de graphql en la cual hacer consultas o queries, pero graphql también puede implementarse con frameworks de Python como Django. Vamos a crear una aplicación de django que sirva contenido con graphql usando una librería genial llamada graphene que abstrae casi todo el boilerplate de integrar graphql con los modelos de Django.

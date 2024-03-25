@@ -1,14 +1,18 @@
 ---
-title: "Desestructuración con valores por defecto en Javascript"
-date: "2019-12-01"
-categories: 
-  - "javascript"
-coverImage: "images/desestructuracion_con_valores_por_defecto.jpg"
-description: "¿Quieres saber entender como llevar a cabo la desestructuración de un objeto con valores por defecto en javascript desde cero? En esta entrada explico como."
-keywords:
-  - javascript
+aliases:
+- /desestructuracion-con-valores-por-defecto-en-javascript
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+coverImage: images/desestructuracion_con_valores_por_defecto.jpg
+date: '2019-12-01'
+description: ¿Quieres saber entender como llevar a cabo la desestructuración de un
+  objeto con valores por defecto en javascript desde cero? En esta entrada explico
+  como.
+keywords:
+- javascript
+title: Desestructuración con valores por defecto en Javascript
 ---
 
 En la entrada anterior traté brevemente el tema de la [desestructuración con objetos anidados en javascript](/es/desestructuracion-de-objetos-anidados/) . En esta publicación voy a hablar un poco sobre como podemos especificar valores por defecto al momento de desestructurar un objeto en javascript.

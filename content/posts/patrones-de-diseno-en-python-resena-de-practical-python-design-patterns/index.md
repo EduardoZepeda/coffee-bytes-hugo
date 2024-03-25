@@ -1,16 +1,19 @@
 ---
-title: "Patrones de diseño en Python, reseña de Practical Python Design Patterns"
-date: "2020-05-31"
-categories: 
-  - "python"
-coverImage: "images/practical_python_design_patterns.jpg"
-description: "Aprende patrones de diseño en Python con el libro Practical Python Design Patterns, incluso si nunca has leído sobre el tema anteriormente."
-keywords:
-  - python
-  - patrones de diseño
-  - arquitectura de software
+aliases:
+- /patrones-de-diseno-en-python-resena-de-practical-python-design-patterns
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/practical_python_design_patterns.jpg
+date: '2020-05-31'
+description: Aprende patrones de diseño en Python con el libro Practical Python Design
+  Patterns, incluso si nunca has leído sobre el tema anteriormente.
+keywords:
+- python
+- patrones de diseño
+- arquitectura de software
+title: Patrones de diseño en Python, reseña de Practical Python Design Patterns
 ---
 
 Hola, hoy te traigo una reseña del libro de _Practical Python Design Patterns_ de Wessel Badenhorst. Este es un libro de patrones de diseño para Python, bastante sencillo de entender y con ejemplos hechos en sencillo y legible código Python. Para hablar un poco del contenido del libro voy a explicar levemente lo que es un patrón de diseño.

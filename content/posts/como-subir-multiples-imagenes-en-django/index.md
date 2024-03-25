@@ -1,16 +1,20 @@
 ---
-title: "¿Cómo subir múltiples imágenes en Django?"
-date: "2021-03-30"
-categories: 
-  - "django"
-coverImage: "images/como-usar-django-para-subir-multiples-imagenes.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Tutorial para subir o realizar upload de múltiples imágenes o archivos en Django, así como de retornarlas en formato JSON a través del endpoint de una API."
-keywords:
-  - python
-  - django
+aliases:
+- /como-subir-multiples-imagenes-en-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/como-usar-django-para-subir-multiples-imagenes.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
+date: '2021-03-30'
+description: Tutorial para subir o realizar upload de múltiples imágenes o archivos
+  en Django, así como de retornarlas en formato JSON a través del endpoint de una
+  API.
+keywords:
+- python
+- django
+title: ¿Cómo subir múltiples imágenes en Django?
 ---
 
 Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y si no queremos subir una sino múltiples imágenes?

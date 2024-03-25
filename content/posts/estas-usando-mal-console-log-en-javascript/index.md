@@ -1,15 +1,18 @@
 ---
-title: "Estás usando mal console.log en javascript"
-date: "2020-01-15"
-categories: 
-  - "javascript"
-coverImage: "images/estas_usando_console_mal.jpg"
-description: "Aprende de una vez como aprovechar el objeto console de javascript y sus métodos más útiles para hacer más sencillo tu desarrollo."
-keywords:
-  - javascript
-  - opinion
+aliases:
+- /estas-usando-mal-console-log-en-javascript
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+coverImage: images/estas_usando_console_mal.jpg
+date: '2020-01-15'
+description: Aprende de una vez como aprovechar el objeto console de javascript y
+  sus métodos más útiles para hacer más sencillo tu desarrollo.
+keywords:
+- javascript
+- opinion
+title: Estás usando mal console.log en javascript
 ---
 
 Te apuesto a que alguna vez has usado _console.log()_ para depurar los errores al programar en javascript. Pero quizás no sepas que _console_ tiene otros métodos muy útiles a parte de _log()_. En esta entrada voy a colocar algunos de los métodos más útiles que he encontrado en la web. En esta entrada voy a colocar algunos de los métodos más útiles que he encontrado en la web.

@@ -1,17 +1,20 @@
 ---
-title: "Django channels: consumers, scope y eventos"
-date: "2021-11-09"
-categories: 
-  - "django"
-coverImage: "images/Django-channels-tutorial.jpg"
-coverImageCredits: "créditos a https://www.pexels.com/@yaroslav-shuraev"
-description: "Aprende los fundamentos de django channels: consumers, scope y eventos, para manejar las peticiones websockets (ws) y devolver respuestas."
-keywords:
-  - django
-  - python
-  - websockets
+aliases:
+- /django-channels-consumers-scope-y-eventos
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Django-channels-tutorial.jpg
+coverImageCredits: créditos a https://www.pexels.com/@yaroslav-shuraev
+date: '2021-11-09'
+description: 'Aprende los fundamentos de django channels: consumers, scope y eventos,
+  para manejar las peticiones websockets (ws) y devolver respuestas.'
+keywords:
+- django
+- python
+- websockets
+title: 'Django channels: consumers, scope y eventos'
 ---
 
 ¿Por qué Django channels? Porque Django no nos permite crear aplicaciones con comunicación en tiempo real de manera nativa. Django channels le otorga a Django la capacidad manejar protocolos que requieren una conexión persistente, como WebSockets, MQTT, chatbots, mientras mantiene intacta su integración con el sistema de sesiones, autenticación y el resto del framework.

@@ -1,15 +1,18 @@
 ---
-title: "Logging con la librería estándar en Go"
-date: "2022-07-06"
-coverImage: "images/logging-en-go.jpg"
+aliases:
+- /logging-en-go
+- /logging-con-la-libreria-estandar-en-go
+authors:
+- Eduardo Zepeda
 categories:
 - go
+coverImage: images/logging-en-go.jpg
+date: '2022-07-06'
 keywords:
 - go
 - testing
 - logging
-authors:
-  - Eduardo Zepeda
+title: Logging con la librería estándar en Go
 ---
 
 Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](/es/go-testing-basico-y-coverage/) más sencillo.
@@ -129,4 +132,3 @@ Una vez creado nuestro log, podemos llamar a su método Println para que se enca
 ```go
 infoLogger.Println("Este es un mensaje de info")
 ```
-

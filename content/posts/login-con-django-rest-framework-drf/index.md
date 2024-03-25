@@ -1,20 +1,24 @@
 ---
-title: "Tutorial Login y Registro con Django Rest Framework DRF y JWT"
-url: "login-con-django-rest-framework-drf"
-date: "2021-08-17"
-categories: 
-  - "django"
-coverImage: "images/AutenticacionConDRF.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@sean-manning-214956/"
-description: "Tutorial para implementar login y registro usuarios en django con las librerías dj-rest-auth y django-allauth usando JWT y también tokens normales"
-keywords:
-  - REST
-  - django
-  - python
-  - api
-  - jwt
+aliases:
+- /login-con-django-rest-framework-drf
+- /tutorial-login-y-registro-con-django-rest-framework-drf-y-jwt
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/AutenticacionConDRF.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@sean-manning-214956/
+date: '2021-08-17'
+description: Tutorial para implementar login y registro usuarios en django con las
+  librerías dj-rest-auth y django-allauth usando JWT y también tokens normales
+keywords:
+- REST
+- django
+- python
+- api
+- jwt
+title: Tutorial Login y Registro con Django Rest Framework DRF y JWT
+url: login-con-django-rest-framework-drf
 ---
 
 Casi todas las aplicaciones complejas en Django necesitan vistas para Login, Logout, reinicio y cambio de contraseñas, así como registro de usuarios. Sin embargo tanto Django como Django REST Framework (DRF) se muestran completamente agnósticos respecto a su implementación, y delegan la responsabilidad de esas funciones en los usuarios de sus frameworks. Afortunadamente hay librerías que vuelven bastante sencilla esa tarea.

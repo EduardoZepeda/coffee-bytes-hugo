@@ -1,17 +1,20 @@
 ---
-title: "React useCallback, useMemo y memo, diferencias y usos"
-date: "2021-08-02"
-categories: 
-  - "react"
-coverImage: "images/ReactuseCallbackuseMemoMemo.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@timegrocery/"
-description: "Conoce las diferencias entre los hooks useCallback y useMemo, y el HOC memo en React y como mejorar el rendimiento de tu app con ellos."
-keywords:
-  - "javascript"
-  - "react"
-  - "rendimiento"
+aliases:
+- /react-usecallback-usememo-y-memo-diferencias-y-usos
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- react
+coverImage: images/ReactuseCallbackuseMemoMemo.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@timegrocery/
+date: '2021-08-02'
+description: Conoce las diferencias entre los hooks useCallback y useMemo, y el HOC
+  memo en React y como mejorar el rendimiento de tu app con ellos.
+keywords:
+- javascript
+- react
+- rendimiento
+title: React useCallback, useMemo y memo, diferencias y usos
 ---
 
 Las funciones useCallback, useMemo y memo se usan para optimizar aplicaciones de React usando memoización, evitando renderizaciones inútiles, cada uno con sus diferencias, similitudes y casos de uso. Estas tres funciones no deben ser usadas de manera indiscriminada, sino exclusivamente en aquellas situaciones en las que su impacto sea menor que los beneficios que ofrecen.

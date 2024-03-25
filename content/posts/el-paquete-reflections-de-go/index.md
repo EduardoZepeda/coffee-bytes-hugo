@@ -1,15 +1,20 @@
 ---
-title: "Go con Reflect: Descubre Cómo la Reflexión Puede Impulsar la Flexibilidad de tu Programa"
-date: "2023-03-13"
-coverImage: "images/reflect-typeof-value-of-en-go.jpg"
-categories:
-  - "Go"
-description: "Te explico el paquete reflect de go y sus funciones básicas de reflexión para obtener los tipos de datos en tiempo de ejecución"
-keywords:
-  - go
-  - reflect
+aliases:
+- /el-paquete-reflections-de-go
+- /go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- Go
+coverImage: images/reflect-typeof-value-of-en-go.jpg
+date: '2023-03-13'
+description: Te explico el paquete reflect de go y sus funciones básicas de reflexión
+  para obtener los tipos de datos en tiempo de ejecución
+keywords:
+- go
+- reflect
+title: 'Go con Reflect: Descubre Cómo la Reflexión Puede Impulsar la Flexibilidad
+  de tu Programa'
 ---
 
 El paquete "reflect" es una biblioteca útil en el lenguaje de programación Go que proporciona funciones para trabajar con la reflexión.

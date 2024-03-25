@@ -1,18 +1,23 @@
 ---
-title: "Python vs Go 2023 ¿Cuál es el Mejor?"
-date: "2021-11-02"
-url: "python-vs-go-cual-es-el-mejor-lenguaje-de-programacion"
-categories: 
-  - go
-  - "python"
-coverImage: "images/Python-vs-go.jpg"
-description: "Conoce las diferencias, características y similitudes que existen entre Python y Go (Golang), dos lenguajes usados para desarrollo web."
-keywords:
-  - "python"
-  - go
-  - "opinion"
+aliases:
+- /python-vs-go-cual-es-el-mejor-diferencias-y-similitudes
+- /python-vs-go-2023-cual-es-el-mejor
+- /python-vs-go-cual-es-el-mejor-lenguaje-de-programacion
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+- python
+coverImage: images/Python-vs-go.jpg
+date: '2021-11-02'
+description: Conoce las diferencias, características y similitudes que existen entre
+  Python y Go (Golang), dos lenguajes usados para desarrollo web.
+keywords:
+- python
+- go
+- opinion
+title: Python vs Go 2023 ¿Cuál es el Mejor?
+url: python-vs-go-cual-es-el-mejor-lenguaje-de-programacion
 ---
 
 Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de una manera bastante superficial; empecé a invesgar sobre el lenguaje porque me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental sobre los pros y cons del lenguaje, decidí darle una oportunidad. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este año.

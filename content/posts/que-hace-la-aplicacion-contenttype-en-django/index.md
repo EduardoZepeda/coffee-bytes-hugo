@@ -1,17 +1,20 @@
 ---
-title: "¿Qué hace la aplicación ContentType en Django?"
-date: "2021-02-16"
-categories: 
-  - "django"
-coverImage: "images/ContentTypeDjango2.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@iamikeee/"
-description: "Aprende para que sirve ContentType en Django y como acceder a la información que guarda este modelo en nuestra aplicación de Django."
-keywords:
-  - "django"
-  - "python"
-  - "orm"
+aliases:
+- /que-hace-la-aplicacion-contenttype-en-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/ContentTypeDjango2.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@iamikeee/
+date: '2021-02-16'
+description: Aprende para que sirve ContentType en Django y como acceder a la información
+  que guarda este modelo en nuestra aplicación de Django.
+keywords:
+- django
+- python
+- orm
+title: ¿Qué hace la aplicación ContentType en Django?
 ---
 
 ¿Sabías que Django lleva un registro de cada uno de los modelos que creas para tu proyecto en un modelo llamado _ContentType_? Sigue leyendo para aprender al respecto.

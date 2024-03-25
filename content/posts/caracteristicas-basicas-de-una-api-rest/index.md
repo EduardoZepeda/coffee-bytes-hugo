@@ -1,20 +1,25 @@
 ---
-title: "Características básicas de una API REST y recomendaciones"
-url: "caracteristicas-basicas-de-una-api-rest"
-date: "2022-04-07"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-coverImage: "images/CaracteristicasBasicasDeUnaAPIREST.jpg"
-description: "Cuáles son las características de una API REST? ¿Qué debo hacer para crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS? ¿uso mayúsculas o minúsculas en la url?"
-coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
-keywords:
-  - REST
-  - arquitectura de software
-  - API
-  - buenas practicas
+aliases:
+- /caracteristicas-basicas-de-una-api-rest
+- /caracteristicas-basicas-de-una-api-rest-y-recomendaciones
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/CaracteristicasBasicasDeUnaAPIREST.jpg
+coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
+date: '2022-04-07'
+description: Cuáles son las características de una API REST? ¿Qué debo hacer para
+  crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS?
+  ¿uso mayúsculas o minúsculas en la url?
+keywords:
+- REST
+- arquitectura de software
+- API
+- buenas practicas
+title: Características básicas de una API REST y recomendaciones
+url: caracteristicas-basicas-de-una-api-rest
 ---
 
 Esta publicación es una guia muy corta de consejos prácticos sobre diseño de APIs REST, no profundizo demasiado en la teoría. Encima, puedo sobre simplificar muchos conceptos en aras de mantener el texto lo más corto y sencillo posible.

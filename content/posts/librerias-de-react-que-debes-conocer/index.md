@@ -1,16 +1,20 @@
 ---
-title: "5 librerías geniales de React que debes conocer"
-date: "2021-03-02"
-categories: 
-  - "react"
-coverImage: "images/LibreriasDeReact.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@timmossholder/"
-description: "Te muestro algunas de mis librerías favoritas relacionadas de React, y algunos videos para que las veas en acción funcionando."
-keywords:
-  - javascript
-  - react
+aliases:
+- /librerias-de-react-que-debes-conocer
+- /5-librerias-geniales-de-react-que-debes-conocer
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- react
+coverImage: images/LibreriasDeReact.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@timmossholder/
+date: '2021-03-02'
+description: Te muestro algunas de mis librerías favoritas relacionadas de React,
+  y algunos videos para que las veas en acción funcionando.
+keywords:
+- javascript
+- react
+title: 5 librerías geniales de React que debes conocer
 ---
 
 Después de varias semanas publicando sobre Django escribí una entrada corta de React, sobre librerías, porque no solo de Python vive el hombre. Estás son algunas de las librerías que considero más útiles de React. Por razones obvias están excluidas React-router, Redux y otras demasiado conocidas. Así como también algunos Frameworks de React tales como Gatsby, Nextjs, Frontity y otros.

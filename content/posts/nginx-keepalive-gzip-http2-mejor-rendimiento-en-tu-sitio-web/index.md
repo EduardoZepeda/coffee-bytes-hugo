@@ -1,16 +1,19 @@
 ---
-title: "Nginx keepalive, gzip, http2: mejor rendimiento en tu sitio web"
-date: "2020-11-07"
-categories: 
-  - "linux y devops"
-coverImage: "images/tutorialNginx-1.jpg"
-description: "Optimiza tu sitio web y hazlo más rápido habilitando http2, compresión gzip, cache y modificando el valor de keepalive en nginx."
-keywords:
-  - nginx
-  - rendimiento
-  - linux
+aliases:
+- /nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/tutorialNginx-1.jpg
+date: '2020-11-07'
+description: Optimiza tu sitio web y hazlo más rápido habilitando http2, compresión
+  gzip, cache y modificando el valor de keepalive en nginx.
+keywords:
+- nginx
+- rendimiento
+- linux
+title: 'Nginx keepalive, gzip, http2: mejor rendimiento en tu sitio web'
 ---
 
 Hace algunos meses estaba revisando los valores de Lighthouse para un sitio web cuando me di cuenta de que no cumplia con ciertas recomendaciones, usaba http/1.1, no contaba con compresión gzip, ni cache. Más tarde arreglé los problemas, te cuento como a continuación. En esta entrada te platico sobre las siguientes características de nginx: keepalive, gzip, cache y http2 y como puedes modificarlas para mejorar tus valores de [Lighthouse](https://web.dev/).

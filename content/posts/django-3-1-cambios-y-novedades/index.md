@@ -1,15 +1,19 @@
 ---
-title: "Django 3.1 cambios y novedades: resumen completo"
-date: "2020-08-04"
-categories: 
-  - "django"
-coverImage: "images/tres.jpg"
-description: "En esta entrada hablo de los cambios y novedades de Django 3.1. Django 3.1 incluye soporte asíncrono para middleware, vistas y un campo JSON"
-keywords:
-  - django
-  - python
+aliases:
+- /django-3-1-cambios-y-novedades
+- /django-3-1-cambios-y-novedades-resumen-completo
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/tres.jpg
+date: '2020-08-04'
+description: En esta entrada hablo de los cambios y novedades de Django 3.1. Django
+  3.1 incluye soporte asíncrono para middleware, vistas y un campo JSON
+keywords:
+- django
+- python
+title: 'Django 3.1 cambios y novedades: resumen completo'
 ---
 
 Hace unas horas estaba navegando por [mi twitter](https://twitter.com/neon_affogato) y me enteré de que acaban de hacer públicas Django 3.1, cambios y novedades de ; mi framework para web favorito. Esta nueva versión tiene algunos cambios interesantes de los que hablaré a continuación.

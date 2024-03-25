@@ -1,16 +1,21 @@
 ---
-title: "¿Cómo personalizar el modelo User en Django?"
-date: "2022-03-16"
-categories: 
-  - "django"
-coverImage: "images/pin-961667.jpg"
-description: "Tutorial para personalizar el modelo User en Django, de donde viene, sus métodos predeterminados y como agregar campos extras o modificar el comportamiento por defecto de los Usuarios"
-coverImageCredits: "Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667"
-keywords:
-  - "django"
-  - "python"
+aliases:
+- /personalizar-el-model-user-en-django
+- /como-personalizar-el-modelo-user-en-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/pin-961667.jpg
+coverImageCredits: 'Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667'
+date: '2022-03-16'
+description: Tutorial para personalizar el modelo User en Django, de donde viene,
+  sus métodos predeterminados y como agregar campos extras o modificar el comportamiento
+  por defecto de los Usuarios
+keywords:
+- django
+- python
+title: ¿Cómo personalizar el modelo User en Django?
 ---
 
 En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios de Django.](/es/por-que-deberias-usar-django-framework/)

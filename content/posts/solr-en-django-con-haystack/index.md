@@ -1,14 +1,18 @@
 ---
-title: "¿Cómo implementar Solr para búsquedas o queries en Django?"
-url: "busquedas-con-solr-con-django-haystack"
-coverImage: "images/solr-django-busquedas.jpg"
-coverImageCredits: "Créditos a https://www.instagram.com/we_make_mangas/"
-date: "2022-05-26"
+aliases:
+- /solr-en-django-con-haystack
+- /como-implementar-solr-para-busquedas-o-queries-en-django
+- /busquedas-con-solr-con-django-haystack
+authors:
+- Eduardo Zepeda
 categories:
 - django
-- "linux y devops"
-authors:
-  - Eduardo Zepeda
+- linux y devops
+coverImage: images/solr-django-busquedas.jpg
+coverImageCredits: Créditos a https://www.instagram.com/we_make_mangas/
+date: '2022-05-26'
+title: ¿Cómo implementar Solr para búsquedas o queries en Django?
+url: busquedas-con-solr-con-django-haystack
 ---
 
 Anteriormente te expliqué como implementar [full text search en Django](/es/full-text-search-y-busquedas-con-django-y-postgres/) y [trigramas y search rank](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) usando Postgres. Solr viene a ofrecernos algo mejor, un motor de búsquedas robusto, estable y con muchas funciones avanzadas, listo para usarse, a cambio de un poco más de complejidad, más dependencias y tener que incluir Java (sí, Java) en nuestro projecto.

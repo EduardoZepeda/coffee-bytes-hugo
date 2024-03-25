@@ -1,16 +1,20 @@
 ---
-title: "¿Cómo crear un cambiador de wallpaper automático usando Python en Gnome?"
-date: "2020-02-15"
-categories: 
-  - "python"
-coverImage: "images/cambiador_de_wallpaper_automatico_gnome.jpg"
-description: "Programa un cambiador de wallpaper ligero, minimalista y bastante simple para Gnome en GNU/Linux usando Python desde cero."
-keywords:
-  - python
-  - gnome
-  - linux
+aliases:
+- /cambiador-de-wallpaper-automatico-usando-python-en-gnome
+- /como-crear-un-cambiador-de-wallpaper-automatico-usando-python-en-gnome
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/cambiador_de_wallpaper_automatico_gnome.jpg
+date: '2020-02-15'
+description: Programa un cambiador de wallpaper ligero, minimalista y bastante simple
+  para Gnome en GNU/Linux usando Python desde cero.
+keywords:
+- python
+- gnome
+- linux
+title: ¿Cómo crear un cambiador de wallpaper automático usando Python en Gnome?
 ---
 
 En esta entrada vamos a crear un cambiador de wallpaper automático, aleatorio y minimalista para GNU/Linux usando Python. Sin funciones extras, súper ligero y totalmente casero, su única función será seleccionar una imagen aleatoriamente y fijarla como wallpaper. Explicaré la función de cada linea en el código.

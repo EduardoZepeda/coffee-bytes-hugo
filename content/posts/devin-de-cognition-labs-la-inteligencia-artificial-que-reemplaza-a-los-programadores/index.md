@@ -1,17 +1,23 @@
 ---
-title: "Devin De Cognition Labs La Inteligencia Artificial Que Quiere Reemplazar a Los Programadores"
-date: "2024-03-13"
-coverImage: "images/devin-cognitive-artificial-intelligence-and-programmers.jpg"
-description: "Devin, el modelo de Inteligencia Artificial que promete ser mejor que un ingeniero de Software y cambiar para siempre el mundo del Software, creado por Cognition Labs"
-categories: 
-- "Inteligencia Artificial"
-- "Opiniones"
-keywords:
-- "Inteligencia artifcial"
-- "Opiniones"
-- "Futurismo"
+aliases:
+- /devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores
+- /devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- Inteligencia Artificial
+- Opiniones
+coverImage: images/devin-cognitive-artificial-intelligence-and-programmers.jpg
+date: '2024-03-13'
+description: Devin, el modelo de Inteligencia Artificial que promete ser mejor que
+  un ingeniero de Software y cambiar para siempre el mundo del Software, creado por
+  Cognition Labs
+keywords:
+- Inteligencia artifcial
+- Opiniones
+- Futurismo
+title: Devin De Cognition Labs La Inteligencia Artificial Que Quiere Reemplazar a
+  Los Programadores
 ---
 
 Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin, hecho por [Cognition Labs](https://www.cognition-labs.com/), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.

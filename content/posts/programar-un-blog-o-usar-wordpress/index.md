@@ -1,18 +1,21 @@
 ---
-title: "¿Programar un blog o usar wordpress?"
-date: "2019-06-26"
-categories: 
-  - "opiniones"
-coverImage: "images/porque_decidi_usar_wordpress.jpg"
-description: "Muchas veces nos enfrentamos a la duda de programar un blog desde cero o usar una solución más popular como wordpress. En esta entrada explico mi opinión."
-keywords:
-  - "wordpress"
-  - "opinion"
-  - "hugo"
-  - "react"
-  - "frontity"
+aliases:
+- /programar-un-blog-o-usar-wordpress
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- opiniones
+coverImage: images/porque_decidi_usar_wordpress.jpg
+date: '2019-06-26'
+description: Muchas veces nos enfrentamos a la duda de programar un blog desde cero
+  o usar una solución más popular como wordpress. En esta entrada explico mi opinión.
+keywords:
+- wordpress
+- opinion
+- hugo
+- react
+- frontity
+title: ¿Programar un blog o usar wordpress?
 ---
 
 El otro día una persona me preguntó que porqué use Wordpress para mi blog si podía desarrollar un sitio web por mi mismo. En la entrada donde explico [como aprendí a programar](/es/hello-world-como-aprendi-a-programar/) incluso hablé brevemente de mi pésima experiencia con PHP. Entonces, ¿por qué elegí Wordpress en lugar de desarrollar mi propio blog desde cero? La respuesta a esto es simplemente que, **para este blog, quiero escribir texto, no código**. No quiero que este blog se convierta en un proyecto a desarrollar a la par de crear entradas. Quiero algo que funcione con un par de clicks y olvidarme de ello por completo. No hay que perder de vista que el objetivo de un blog personal es escribir en él constantemente, no programarlo constantemente. Es triste ver tantos blogs de desarrolladores usando las tecnologías más nuevas y súper actualizados, pero con muy pocas entradas.

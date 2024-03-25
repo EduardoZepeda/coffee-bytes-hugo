@@ -1,19 +1,22 @@
 ---
-title: "Types para React components con children"
-date: "2021-10-19"
-categories: 
-  - "javascript"
-  - "react"
-  - "typescript"
-coverImage: "images/TypesChildrenTypescript.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@tranmautritam/"
-description: "Tres maneras diferentes para establecer los types en typescript para componentes que reciben children como parámetro en React."
-keywords:
-  - "react"
-  - "typescript"
-  - "javascript"
+aliases:
+- /types-para-react-components-con-children
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+- react
+- typescript
+coverImage: images/TypesChildrenTypescript.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@tranmautritam/
+date: '2021-10-19'
+description: Tres maneras diferentes para establecer los types en typescript para
+  componentes que reciben children como parámetro en React.
+keywords:
+- react
+- typescript
+- javascript
+title: Types para React components con children
 ---
 
 Typescript requiere que especifiquemos los types para las diferentes variables y argumentos de funciones en React. Cuando son tipos nativos no es muy complicado, pero para componentes de React puede llegar a ser diferente. Aquí dejo 3 maneras de especificar los types para componentes de React que contienen children como parte de sus props.

@@ -1,17 +1,21 @@
 ---
-title: "El mejor libro para aprender Javascript moderno"
-date: "2019-10-01"
-categories: 
-  - "javascript"
-coverImage: "images/eloquent_javascript.jpg"
-description: "Si piensas dedicar algunas horas a aprender javascript, no pierdas tu tiempo buscando más, difícilmente encontrarás un libro que cubra tal variedad de conceptos de una manera tan entendible y completo como este."
-keywords:
-  - javascript
-  - libros
-  - opinion
-  - reseña
+aliases:
+- /el-mejor-libro-para-aprender-javascript-moderno
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+coverImage: images/eloquent_javascript.jpg
+date: '2019-10-01'
+description: Si piensas dedicar algunas horas a aprender javascript, no pierdas tu
+  tiempo buscando más, difícilmente encontrarás un libro que cubra tal variedad de
+  conceptos de una manera tan entendible y completo como este.
+keywords:
+- javascript
+- libros
+- opinion
+- reseña
+title: El mejor libro para aprender Javascript moderno
 ---
 
 Hay muchos buenos libros para aprender Javascript sin embargo el libro Eloquent Javascript de verdad me hizo entender Javascript moderno. Si piensas dedicar algunas horas a adquirir conocimiento de este lenguaje, **no pierdas tu tiempo buscando más**, difícilmente encontrarás un libro que cubra tal variedad de conceptos de una manera tan entendible y completa como este.
