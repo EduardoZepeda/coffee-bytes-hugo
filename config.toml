@@ -21,10 +21,6 @@ languageName = 'English'
 title = 'Coffee bytes'
 weight = 1
 [[languages.en.menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[languages.en.menu.main]]
 name = "RSS"
 url = "/index.xml"
 weight = 2
@@ -95,10 +91,6 @@ toc = true
 disabled = false
 languageDirection = 'ltr'
 languageName = 'Español'
-[[languages.es.menu.main]]
-name = "Home"
-url = "/"
-weight = 1
 [[languages.es.menu.main]]
 name = "RSS"
 url = "/index.xml"
