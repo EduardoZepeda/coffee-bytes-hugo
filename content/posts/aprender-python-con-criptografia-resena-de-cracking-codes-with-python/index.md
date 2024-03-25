@@ -1,18 +1,21 @@
 ---
-title: "Aprender Python con criptografia reseña de Cracking Codes with Python"
-date: "2020-07-16"
-categories: 
-  - "python"
-coverImage: "images/cracking_codes_with_python.jpg"
-description: "Cracking Codes with Python es un libro para aprender lo básico de Python mientras das un repaso prácticopor la historia de la criptografía. Mi reseña aquí."
-keywords:
-  - libros
-  - opinion
-  - python
-  - reseñas
-  - criptografia
+aliases:
+- /aprender-python-con-criptografia-resena-de-cracking-codes-with-python
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/cracking_codes_with_python.jpg
+date: '2020-07-16'
+description: Cracking Codes with Python es un libro para aprender lo básico de Python
+  mientras das un repaso prácticopor la historia de la criptografía. Mi reseña aquí.
+keywords:
+- libros
+- opinion
+- python
+- reseñas
+- criptografia
+title: Aprender Python con criptografia reseña de Cracking Codes with Python
 ---
 
 ¿A quién no han intentado convencer de invertir en un marketing multi nivel de Bitcoin? A mi sí, pero ojalá a ti nunca te pase. Gracias a Bitcoin, la criptografía está en boca de todos últimamente, sobre todo en el discurso de vendedores sin escrúpulos, pero la criptografía no es reciente, tiene siglos utilizándose; la programación y el código solo la volvieron mucho más rápida y eficiente. La primera vez que leí sobre criptografía fue en la novela Criptonomicón, donde ya se barajaba la idea de las criptomonedas desde mucho antes de la aparición de Bitcoin. Hoy vengo a hablarte de Cracking Codes with Python, **un libro que usa la criptografía para explicar Python**. Este libro te enseña Python básico desde cero mientras das un repaso de la criptografía a través de la historia, con todo y Alan Turing incluido.
@@ -55,4 +58,4 @@ Por otro lado, independientemente de lo anterior, te **recomiendo leer el [capí
 **Recomendado para leerlo:** 6/10  
 **Idiomas:** Inglés
 
-Entra en mi entrada sobre [inmersión en Python](/aprende-python-desde-cero-con-este-libro-gratuito/) para leer sobre otro libro genial para aprender Python desde cero.
+Entra en mi entrada sobre [inmersión en Python](/es/aprende-python-desde-cero-con-este-libro-gratuito/) para leer sobre otro libro genial para aprender Python desde cero.

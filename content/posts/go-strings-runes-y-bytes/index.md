@@ -1,21 +1,24 @@
 ---
-title: "Go: strings, runes y bytes"
-date: "2021-12-28"
-categories: 
-  - go
-coverImage: "images/go-strings-runes-and-bytes.jpg"
-description: "En este post te explico un poco sobre las diferencias etre los strings, runes y bytes en el lenguaje de programación go y su uso básico."
-keywords:
-  - go
+aliases:
+- /go-strings-runes-y-bytes
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-strings-runes-and-bytes.jpg
+date: '2021-12-28'
+description: En este post te explico un poco sobre las diferencias etre los strings,
+  runes y bytes en el lenguaje de programación go y su uso básico.
+keywords:
+- go
+title: 'Go: strings, runes y bytes'
 ---
 
 En esta entrada voy a explicar lo básico del funcionamiento de strings, runes y bytes en go, y hasta un poquito de utf-8.
 
-Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang](/go-slices-y-arrays/).
+Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang](/es/go-slices-y-arrays/).
 
-Si es tu primer acercamiento a go, date una vuelta por mi post de [introducción al lenguaje de programación go](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/) y luego regresa acá.
+Si es tu primer acercamiento a go, date una vuelta por mi post de [introducción al lenguaje de programación go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/) y luego regresa acá.
 
 ## Un poquito sobre convenciones
 

@@ -1,17 +1,21 @@
 ---
-title: "Go, lenguaje de programación, introducción a variables y tipos de datos"
-date: "2021-11-23"
-categories: 
-  - go
-coverImage: "images/golanga.jpg"
-description: "Conoce las bases del lenguaje de programación go o golang: compilación, estructura de un archivo, variables y tipos de datos."
-keywords:
-  - go
+aliases:
+- /go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato
+- /go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/golanga.jpg
+date: '2021-11-23'
+description: 'Conoce las bases del lenguaje de programación go o golang: compilación,
+  estructura de un archivo, variables y tipos de datos.'
+keywords:
+- go
+title: Go, lenguaje de programación, introducción a variables y tipos de datos
 ---
 
-Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de [python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/), donde también comparo lo bueno, lo malo y lo feo de este lenguaje.
+Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/), donde también comparo lo bueno, lo malo y lo feo de este lenguaje.
 
 ## Un poco sobre el lenguaje
 
@@ -23,14 +27,14 @@ Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la con
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
-* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) es bastante sencillo
+* **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) es bastante sencillo
 * **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
 ### ¿Por qué apesta go?
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
-* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](/go-structs-herencia-polimorfismo-y-encapsulacion/).
+* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](/es/go-structs-herencia-polimorfismo-y-encapsulacion/).
 * **Go no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores deben devolverse como valor de retorno en una función y se manejan comprobando que esta no sea nula (nil), por medio de bloques if. Lo anterior puede volverse bastante verboso y repetitivo.
 
 ![Manejo de errores con Go con if](images/ManejoErroresGo.png "Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso")
@@ -54,7 +58,7 @@ La mascota oficial es una ardilla de tierra y es muy común entre la comunidad u
 
 ## Instalación
 
-Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/comandos-de-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
+Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
 
 ```bash
 sudo apt install golang
@@ -76,7 +80,7 @@ package main
 
 ### Importaciones
 
-Una sección donde se importan todos los [paquetes de go](/go-importacion-de-paquetes-y-manejo-de-modulos/) que se usarán. Para ello usamos la palabra _import_.
+Una sección donde se importan todos los [paquetes de go](/es/go-importacion-de-paquetes-y-manejo-de-modulos/) que se usarán. Para ello usamos la palabra _import_.
 
 import "fmt"
 
@@ -91,7 +95,7 @@ import (
 
 ### Contenido
 
-El contenido del archivo, es decir declaraciones de variables, types, [funciones](/go-funciones-argumentos-y-el-paquete-fmt/), constantes, etc.
+El contenido del archivo, es decir declaraciones de variables, types, [funciones](/es/go-funciones-argumentos-y-el-paquete-fmt/), constantes, etc.
 
 ```go
 func main() {
@@ -312,4 +316,4 @@ Los operadores de go son similares al resto de los lenguajes.
 - ++, incremental
 - \--, decremental
 
-Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt en go](/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices en go](/go-strings-runes-y-bytes/) y otras características del lenguaje.
+Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt en go](/es/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices en go](/es/go-strings-runes-y-bytes/) y otras características del lenguaje.

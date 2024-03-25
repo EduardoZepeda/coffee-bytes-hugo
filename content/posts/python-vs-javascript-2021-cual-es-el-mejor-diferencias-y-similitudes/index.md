@@ -1,29 +1,34 @@
 ---
-title: "Python vs Javascript ¿cuál es el mejor en 2024?"
-date: "2020-12-10"
-url: "python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion"
-categories: 
-  - "javascript"
-  - "python"
-coverImage: "images/PythonVSJavascript.jpg"
-description: "Conoce las diferencias entre Python y Javascript, dos de los lenguajes más populares. Sintaxis, velocidad, paquetes, frameworks disponibles."
-keywords:
-  - "python"
-  - "javascript"
-  - "opinion"
+aliases:
+- /python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes
+- /python-vs-javascript-cual-es-el-mejor-en-2024
+- /python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+- python
+coverImage: images/PythonVSJavascript.jpg
+date: '2020-12-10'
+description: Conoce las diferencias entre Python y Javascript, dos de los lenguajes
+  más populares. Sintaxis, velocidad, paquetes, frameworks disponibles.
+keywords:
+- python
+- javascript
+- opinion
+title: Python vs Javascript ¿cuál es el mejor en 2024?
+url: python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 ---
 
 Si has usado solamente Python o solamente Javascript, seguramente te de un poco de curiosidad saber como es el otro. Yo he usado ambos y te puedo platicar un poco sobre las diferencias y algunas cosas en común que tienen ambos lenguajes, para que encuentres el mejor para ti en este 2024.
 
-También tengo una comparación de [Python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) que puedes revisar.
+También tengo una comparación de [Python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) que puedes revisar.
 
 ## Un poco sobre ellos
 
 Para empezar diremos que **Python es un lenguaje interpretado**. Si no te suena el término, significa que tiene un intérprete que traduce las instrucciones, una por una, a lenguaje máquina, para que se ejecuten al momento. Por lo que no tienes que compilar todo tu código cada vez que quieras ejecutarlo, como sí lo harías con C++, Java, Rust, etc.
 
-Javascript nació como un lenguaje interpretado, sin embargo los motores modernos han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time"). Prácticamente todos los navegadores hacen [compilado JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando, como siempre, IE8. En mi opinión su diseño no es más elegante que el de Python, esto se nota por ejemplo en el [manejo de fechas de Javascript, que por cierto detesto.](/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/)
+Javascript nació como un lenguaje interpretado, sin embargo los motores modernos han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time"). Prácticamente todos los navegadores hacen [compilado JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando, como siempre, IE8. En mi opinión su diseño no es más elegante que el de Python, esto se nota por ejemplo en el [manejo de fechas de Javascript, que por cierto detesto.](/es/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/)
 
 Si quieres aprender como funciona el motor de Javascript a un nivel más profundo, te dejo un enlace a [una serie de videos](https://www.youtube.com/watch?v=No-Pfboplxo&list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&index=1) en youtube donde se trata el tema más detalladamente.
 
@@ -277,13 +282,13 @@ Incluso aún a pesar de la abundancia de opciones que hay salen nuevos framework
 
 ### Frameworks para Python
 
-Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como [Django, con sus ventajas y desventajas](/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](/python-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
+Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como [Django, con sus ventajas y desventajas](/es/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](/es/python-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
 
 ![Frameworks de desarrollo web de Python](images/python-frameworks.jpg)
 
 Puedes escribir código HTML y CSS usando Python para el frontend, pero nunca tendrás la misma versatilidad que ejecutar código javascript directamente en el navegador del usuario.
 
-Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en mi entrada sobre [django y htmx](/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
+Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en mi entrada sobre [django y htmx](/es/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
 
 ## Paquetes
 

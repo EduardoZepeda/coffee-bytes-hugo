@@ -1,18 +1,21 @@
 ---
-title: "El mejor libro de Django, reseña de Two Scoops of Django"
-date: "2020-05-02"
-categories: 
-  - "django"
-coverImage: "images/Two_scoops_of_django.jpg"
-description: "Esta es una reseña de Two scoops of Django. Un libro enfocado en las buenas prácticas de desarrollo para el framework de desarrollo web open source Django."
-keywords:
-  - django
-  - python
-  - libros
-  - opinion
-  - reseña
+aliases:
+- /el-mejor-libro-de-django-resena-de-two-scoops-of-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Two_scoops_of_django.jpg
+date: '2020-05-02'
+description: Esta es una reseña de Two scoops of Django. Un libro enfocado en las
+  buenas prácticas de desarrollo para el framework de desarrollo web open source Django.
+keywords:
+- django
+- python
+- libros
+- opinion
+- reseña
+title: El mejor libro de Django, reseña de Two Scoops of Django
 ---
 
 Esta entrada es una reseña de Two scoops of Django, el que yo considero **el mejor libro de Django**. Es un libro totalmente imprescindible si te dedicas al desarrollo de aplicaciones usando Django. Probablemente ya lo has escuchado nombrar, ya que es un libro bastante popular entre los desarrolladores angloparlantes.
@@ -81,4 +84,4 @@ Muchos autores de libros de Django abandonan sus obras y, con el pasar de los a�
 **Recomendado para leerlo:** 10/10  
 **Idiomas:** Inglés, español (Estará disponible para la última versión)
 
-Si quieres leer sobre más libros para aprender Django entra en mi [reseña de Django for Professionals](/resena-de-django-for-professionals/).
+Si quieres leer sobre más libros para aprender Django entra en mi [reseña de Django for Professionals](/es/resena-de-django-for-professionals/).

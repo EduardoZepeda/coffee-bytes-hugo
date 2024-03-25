@@ -1,16 +1,19 @@
 ---
-title: "Composicion Sobre Herencia en POO explicacion"
-date: "2023-10-11"
-coverImage: "images/composition-over-inheritance.jpg"
-coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
+aliases:
+- /favorecer-la-composicion-sobre-la-herencia-explicacion
+- /composicion-sobre-herencia-en-poo-explicacion
+authors:
+- Eduardo Zepeda
 categories:
 - devops
-- "Arquitectura de software"
+- Arquitectura de software
+coverImage: images/composition-over-inheritance.jpg
+coverImageCredits: https://www.reddit.com/user/LegalCan4801/
+date: '2023-10-11'
 keywords:
 - python
 - django
-authors:
-  - Eduardo Zepeda
+title: Composicion Sobre Herencia en POO explicacion
 ---
 
 Composition over inheritance, o composición sobre herencia es un tema recurrente en la programación orientada a objectos. Generalmente, se explica de una manera muy compleja, pero hoy voy a tratar de simplificarlo al punto en que los puristas me detesten. 

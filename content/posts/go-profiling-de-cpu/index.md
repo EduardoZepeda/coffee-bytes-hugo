@@ -1,18 +1,22 @@
 ---
-title: "Go: profiling o perfilado básico del uso del CPU"
-date: "2022-02-16"
-categories: 
-  - go
-coverImage: "images/go-profiling.jpg"
-description: "Entrada sobre profiling del código en go, análisis del impacto linea por linea y exportación de resultados a formato web y pdf."
-keywords:
-  - go
-  - rendimiento
+aliases:
+- /go-profiling-de-cpu
+- /go-profiling-o-perfilado-basico-del-uso-del-cpu
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-profiling.jpg
+date: '2022-02-16'
+description: Entrada sobre profiling del código en go, análisis del impacto linea
+  por linea y exportación de resultados a formato web y pdf.
+keywords:
+- go
+- rendimiento
+title: 'Go: profiling o perfilado básico del uso del CPU'
 ---
 
-Además del [testing de pruebas unitarias y la medición del coverage en go](/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
+Además del [testing de pruebas unitarias y la medición del coverage en go](/es/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
 
 ## ¿Cómo funciona internamente el profiling de Go en GNU/Linux?
 
@@ -64,7 +68,7 @@ func TestFibonacci(t *testing.T) {
 
 ### Obteniendo la información del profiling
 
-Igual que hicimos para ver el [coverage en el testing de go](/go-testing-basico-y-coverage/), usamos un flag para crear un archivo con la información del profiling en binario, este archivo no lo podemos visualizar directamente.
+Igual que hicimos para ver el [coverage en el testing de go](/es/go-testing-basico-y-coverage/), usamos un flag para crear un archivo con la información del profiling en binario, este archivo no lo podemos visualizar directamente.
 
 ```go
 go test -cpuprofile=cpu.out

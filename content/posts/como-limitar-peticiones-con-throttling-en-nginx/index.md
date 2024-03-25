@@ -1,23 +1,27 @@
 ---
-title: "Throttling en Nginx"
-date: "2021-03-13"
-categories: 
-  - "arquitectura de software"
-  - "linux y devops"
-coverImage: "images/throttling_ngnix.jpg"
-coverImagecredits: "Créditos a https://www.pexels.com/@amateur-photo-1700447"
-description: "Aprende a usar Throttling en Nginx para limitar el número de peticiones en tu aplicación, mitigando ataques DDOS o de fuerza bruta."
-keywords:
-  - nginx
-  - rendimiento
-  - linux
+aliases:
+- /como-limitar-peticiones-con-throttling-en-nginx
+- /throttling-en-nginx
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- linux y devops
+coverImage: images/throttling_ngnix.jpg
+coverImagecredits: Créditos a https://www.pexels.com/@amateur-photo-1700447
+date: '2021-03-13'
+description: Aprende a usar Throttling en Nginx para limitar el número de peticiones
+  en tu aplicación, mitigando ataques DDOS o de fuerza bruta.
+keywords:
+- nginx
+- rendimiento
+- linux
+title: Throttling en Nginx
 ---
 
 El throttling en Ngnix nos permite limitar el número de peticiones a un cierto usuario. Lo anterior es útil para prevenir peticiones excesivas por parte de un usuario que mantengan el sistema ocupado. Por otro lado, también es una manera de disuadir intentos de averiguar una contraseña por fuerza bruta o incluso ataques DDOS.
 
-Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
+Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/es/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
 
 ## El algoritmo de la cubeta
 

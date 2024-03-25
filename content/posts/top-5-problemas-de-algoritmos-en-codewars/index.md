@@ -1,17 +1,21 @@
 ---
-title: "Top 5 Problemas de Algoritmos Favoritos en Codewars"
-date: 2022-04-30T17:29:06-05:00
-categories: 
-  - "opiniones"
-  - "algoritmos"
-coverImage: "images/top-5-katas-codewars.jpg"
-description: "Mis 5 desafios favoritos, o katas, en codewars: multi line task hello world,, espiral, escape the maze, The soul of wit: reverse an array."
-keywords:
-  - "internet"
-  - "rendimiento"
-  - "algoritmos"
+aliases:
+- /top-5-problemas-de-algoritmos-en-codewars
+- /top-5-problemas-de-algoritmos-favoritos-en-codewars
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- opiniones
+- algoritmos
+coverImage: images/top-5-katas-codewars.jpg
+date: 2022-04-30 22:29:06
+description: 'Mis 5 desafios favoritos, o katas, en codewars: multi line task hello
+  world,, espiral, escape the maze, The soul of wit: reverse an array.'
+keywords:
+- internet
+- rendimiento
+- algoritmos
+title: Top 5 Problemas de Algoritmos Favoritos en Codewars
 ---
 
 ## ¿Qué es codewars?

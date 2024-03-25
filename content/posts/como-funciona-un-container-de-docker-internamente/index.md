@@ -1,22 +1,25 @@
 ---
-title: "¿Cómo Funciona un Container de Docker Internamente?"
-date: "2022-06-18"
-categories: 
-  - "docker"
-  - "linux y devops"
-  - go
-keywords:
-  - docker
-  - linux
-  - go
-  - devops
-coverImage: "images/docker-container-desde-cero.jpg"
-url: "container-de-docker-con-namespaces-y-cgroups"
+aliases:
+- /como-funciona-un-container-de-docker-internamente
+- /container-de-docker-con-namespaces-y-cgroups
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+- linux y devops
+- go
+coverImage: images/docker-container-desde-cero.jpg
+date: '2022-06-18'
+keywords:
+- docker
+- linux
+- go
+- devops
+title: ¿Cómo Funciona un Container de Docker Internamente?
+url: container-de-docker-con-namespaces-y-cgroups
 ---
 
-Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
+Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/es/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
 
 Sabemos que un container es un proceso de linux con varias características:
 * Es un proceso, o grupo de procesos, de linux ejecutado por un usuario.
@@ -39,7 +42,7 @@ Voy a explicarlos muy brevemente pero tú puedes profundizarlos por tu cuenta si
 
 En palabras simples, un proceso es una instancia de un programa en ejecución. Lo importante aquí es que cada proceso en linux cuenta con PID, que es un número que sirve para identificar el proceso. 
 
-Como ya sabes, puedes ver los procesos usando los [comandos ps, top, htop](/comandos-de-linux-que-deberias-conocer-tercera-parte/#top), etc.
+Como ya sabes, puedes ver los procesos usando los [comandos ps, top, htop](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#top), etc.
 
 Un container es un proceso, o un grupo de procesos, aislados del resto del sistema operativo, por medio de un namespace.
 
@@ -89,7 +92,7 @@ Simplificando lo anterior necesitamos:
 * Chroot: para dotar a nuestro container de un sistema de archivos diferente al del sistema operativo principal
 * Cgroups: para limitar los recursos de nuestro sistema a los que nuestro container puede acceder
 
-Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). 
+Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). 
 
 ```go
 package main
@@ -267,11 +270,11 @@ func child() {
 
 Ahora, si ejecutamos el código veremos que el PID es 1, el primer proceso, ¡Ya tenemos aislados lor procesos! Sin embargo, como no hemos cambiado el sistema de archivos, veremos los mismos procesos de nuestro sistema operativo principal.
 
-Recuerda que el [comando *ps*](/comandos-de-linux-que-deberias-conocer-tercera-parte/#ps) obtiene los procesos del directorio */proc* del sistema de archivos que estemos usando. En otras palabras, necesitamos otro sistema de archivos.
+Recuerda que el [comando *ps*](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#ps) obtiene los procesos del directorio */proc* del sistema de archivos que estemos usando. En otras palabras, necesitamos otro sistema de archivos.
 
 ## Establecer un nuevo sistema de archivos para el container
 
-Para usar un sistema de archivos único para el container, que no sea el sistema de archivos de nuestro sistema operativo, echaremos de mano del comando [*chroot*](/comandos-de-linux-que-deberias-conocer-tercera-parte/#chroot) de linux. 
+Para usar un sistema de archivos único para el container, que no sea el sistema de archivos de nuestro sistema operativo, echaremos de mano del comando [*chroot*](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#chroot) de linux. 
 
 *Chroot* cambia la ubicación predeterminada del root o raiz a un directorio que nosotros le indiquemos.
 
@@ -335,7 +338,7 @@ func setcgroup() {
 
 ```
 
-Creamos un directorio para nuestro cgroup con los [permisos de linux 0755](/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)
+Creamos un directorio para nuestro cgroup con los [permisos de linux 0755](/es/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/)
 
 Generaremos dos archivos, dentro de nuestro cgroup, para establecer las directrices que queremos implementar
 

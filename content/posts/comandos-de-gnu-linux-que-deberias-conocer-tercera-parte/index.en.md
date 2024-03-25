@@ -15,8 +15,8 @@ authors:
 
 This is the continuation of the following parts:
 
-* [GNU Linux Basic Commands, part one](/blog/basic-linux-commands-you-should-know/)
-* [GNU Linux basic commands, part two](/blog/linux-commands-you-should-know-part-two/).
+* [GNU Linux Basic Commands, part one](/en/basic-linux-commands-you-should-know/)
+* [GNU Linux basic commands, part two](/en/linux-commands-you-should-know-part-two/).
 
 ## printenv
 
@@ -424,7 +424,7 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 
 ## chroot
 
-There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker](/blog/what-is-docker-and-what-is-it-for/).
+There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker](/en/what-is-docker-and-what-is-it-for/).
 
 ```bash
 chroot /mi_nuevo_directorio_root
@@ -432,7 +432,7 @@ chroot /mi_nuevo_directorio_root
 
 ## chown
 
-Changes the owner of a file to the one we specify. Remember that **in Linux everything is a file**, so chown can also be used on directories. Another factor to take into account when changing a file owner and/or group, is to make sure that we have the necessary permissions. If you have a problem with [permissions in GNU Linux](/blog/understand-permissions-in-gnu-linux-and-the-chmod-command/) **enter as super user**.
+Changes the owner of a file to the one we specify. Remember that **in Linux everything is a file**, so chown can also be used on directories. Another factor to take into account when changing a file owner and/or group, is to make sure that we have the necessary permissions. If you have a problem with [permissions in GNU Linux](/en/understand-permissions-in-gnu-linux-and-the-chmod-command/) **enter as super user**.
 
 ```bash
 ls -la

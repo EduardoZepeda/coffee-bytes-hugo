@@ -1,27 +1,30 @@
 ---
-title: "Full text search y búsquedas con Django y Postgres"
-date: "2021-05-06"
-categories: 
-  - "django"
-coverImage: "images/Full-text-search-django.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@iamikeee/"
-description: "Conoce los métodos de búsqueda básicos que Django y Postgres tienen para ofrecer, así como full text search y otras funcionalidades avanzadas."
-keywords:
-  - django
-  - postgres
-  - orm
-  - rendimiento
+aliases:
+- /full-text-search-y-busquedas-con-django-y-postgres
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Full-text-search-django.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@iamikeee/
+date: '2021-05-06'
+description: Conoce los métodos de búsqueda básicos que Django y Postgres tienen para
+  ofrecer, así como full text search y otras funcionalidades avanzadas.
+keywords:
+- django
+- postgres
+- orm
+- rendimiento
+title: Full text search y búsquedas con Django y Postgres
 ---
 
 Algunas veces cuando tecleamos nos equivocamos en una letra, podemos repetirla, omitirla o cambiarla por otra. Ese error puede arrojar una serie de resultados diferentes en una búsqueda web, o incluso carecer de resultados. Quizás para un blog no represente una amenaza, pero para un ecommerce puede significar la perdida de una venta, y para aquellas tiendas con un tráfico gigantesco, una búsqueda de texto exitosa, ya sea usando full text search o algo más complejo, en Django u otro framework, puede representar la diferencia entre perdidas o ganancias enormes.
 
-Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta otra opción bastante popular para realizar búsquedas en Django es [Solr y Django-haystack](/busquedas-con-solr-con-django-haystack).
+Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta otra opción bastante popular para realizar búsquedas en Django es [Solr y Django-haystack](/es/busquedas-con-solr-con-django-haystack).
 
-Si aún estás dudando sobre si usar Django, revisa mi entrada donde te explico [las ventajas y desventajas de Django](/por-que-deberias-usar-django-framework/)
+Si aún estás dudando sobre si usar Django, revisa mi entrada donde te explico [las ventajas y desventajas de Django](/es/por-que-deberias-usar-django-framework/)
 
-Si ya conoces como funcionan las búsquedas básicas y quieres pasar a búsquedas más complejas con trigramas visita mi entrada de [trigramas y búsquedas avanzadas con Django.](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
+Si ya conoces como funcionan las búsquedas básicas y quieres pasar a búsquedas más complejas con trigramas visita mi entrada de [trigramas y búsquedas avanzadas con Django.](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
 
 Empecemos por las búsquedas más básicas.
 
@@ -60,7 +63,7 @@ Si cuando ejecutaste la búsqueda anterior te saltó un error es porque te falta
 
 ### Prerrequisitos
 
-Tener instalado psycopg2 y sus dependencias en [tu entorno virtual.](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
+Tener instalado psycopg2 y sus dependencias en [tu entorno virtual.](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 
 ```python
 pipenv install psycopg2 # también sirve con pip install psycopg2
@@ -126,7 +129,7 @@ Listo, ahora tenemos instalada la extensión _unaccent_ y, si descomentaste la l
 
 ### Instalar extensiones desde la terminal de Postgres
 
-Otra manera de instalar las extensiones es ejecutar el comando requerido directo de la base de datos. Para este ejemplo instalamos _TrigramExtension_, la extensión requerida para usar búsquedas con trigramas. Trataré el tema de los [trigramas con django y postgres](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/), por lo que no te preocupes por eso, solo céntrate en el proceso de instalación de las extensiones.
+Otra manera de instalar las extensiones es ejecutar el comando requerido directo de la base de datos. Para este ejemplo instalamos _TrigramExtension_, la extensión requerida para usar búsquedas con trigramas. Trataré el tema de los [trigramas con django y postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/), por lo que no te preocupes por eso, solo céntrate en el proceso de instalación de las extensiones.
 
 Para entrar en la terminal de la base de datos usaré el comando dbshell que nos provee Django.
 
@@ -268,4 +271,4 @@ Videogame.objects.filter(search_vector='revenge')
 
 Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) donde explican en código SQL los vectores de búsqueda.
 
-Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
+Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)

@@ -1,17 +1,21 @@
 ---
-title: "Mi experiencia usando EasyWP y namecheap"
-date: "2019-05-02"
-categories: 
-  - "linux y devops"
-  - "opiniones"
-coverImage: "images/mi_experiencia_con_easy_wp.jpg"
-description: "¿Estás pensando en usar easywp? Entra para leer mi experiencia usando la aplicación de easywp para hostear un blog en namecheap."
-keywords:
-  - easywp
-  - namecheap
-  - opinion
+aliases:
+- /mi-experiencia-con-namecheap-y-easywp
+- /mi-experiencia-usando-easywp-y-namecheap
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+- opiniones
+coverImage: images/mi_experiencia_con_easy_wp.jpg
+date: '2019-05-02'
+description: ¿Estás pensando en usar easywp? Entra para leer mi experiencia usando
+  la aplicación de easywp para hostear un blog en namecheap.
+keywords:
+- easywp
+- namecheap
+- opinion
+title: Mi experiencia usando EasyWP y namecheap
 ---
 
 Hace unas semanas mi SO decidió empezar un blog sobre cafeterías en Wordpress. Tras una corta plática sobre las ventajas y desventajas de las plataformas de registro más populares y resistirse a mi insistentes recomendaciones de usar [DigitalOcean](https://m.do.co/c/a22240ebb8e7) o [AWS](https://aws.amazon.com/), se dirigió a registrar su dominio en namecheap. Pasados unos minutos de iniciado el proceso de registro en namecheap un banner capturó su atención: [EasyWP](https://www.easywp.com/). En las siguientes lineas te cuento mi experiencia usando namecheap con EasyWP
@@ -52,4 +56,4 @@ Error de carga de archvios css en easywp
 
 No recomiendo para nada EasyWP, presenta demasiadas limitaciones que complican el proceso de puesta en marcha y personalización de un sitio de wordpress. Es mejor la clásica instalación tradicional y el acceso a una terminal de comandos. Por otro lado, namecheap como proveedor de nombres de dominio está bastante decente. Es fácil de usar, cuenta con una interfaz amigable y un servicio al cliente bastante atento y amable.
 
-Desconozco la experiencia que otras personas hayan tenido con EasyWP. La experiencia que yo he tenido con EasyWP ha sido decepcionante. Yo recomiendo mil veces una instalación tradicional, ya sea escribiendo el código necesario en la linea de comandos, usando un droplet de [Digital Ocean](https://m.do.co/c/a22240ebb8e7) o [AWS](https://aws.amazon.com/), o hasta registrando directamente el sitio web en Wordpress. Entra aquí para leer [mi experiencia usando digital ocean](/digital-ocean-analisis-y-mi-experiencia-como-usuario/).
+Desconozco la experiencia que otras personas hayan tenido con EasyWP. La experiencia que yo he tenido con EasyWP ha sido decepcionante. Yo recomiendo mil veces una instalación tradicional, ya sea escribiendo el código necesario en la linea de comandos, usando un droplet de [Digital Ocean](https://m.do.co/c/a22240ebb8e7) o [AWS](https://aws.amazon.com/), o hasta registrando directamente el sitio web en Wordpress. Entra aquí para leer [mi experiencia usando digital ocean](/es/digital-ocean-analisis-y-mi-experiencia-como-usuario/).

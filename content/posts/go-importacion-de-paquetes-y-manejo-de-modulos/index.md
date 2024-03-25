@@ -1,14 +1,17 @@
 ---
-title: "Go: importación de paquetes y manejo de modulos"
-date: "2022-01-12"
-categories: 
-  - go
-coverImage: "images/Golang-paquetes-y-modulos.jpg"
-description: "Aprende lo básico de importar paquetes y manejo modulos en el lenguaje de programación go. Domina el método de go init y el archivo go.mod"
-keywords:
-  - go
+aliases:
+- /go-importacion-de-paquetes-y-manejo-de-modulos
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/Golang-paquetes-y-modulos.jpg
+date: '2022-01-12'
+description: Aprende lo básico de importar paquetes y manejo modulos en el lenguaje
+  de programación go. Domina el método de go init y el archivo go.mod
+keywords:
+- go
+title: 'Go: importación de paquetes y manejo de modulos'
 ---
 
 En go **puedes considerar un paquete como todos los archivos que contenga un directorio y un modulo como una colección de paquetes**. Para usar el código de un paquete necesitamos importarlo, sin embargo, en Go no existen las importaciones de módulos relativas. Antes de Go 1.8, para importar paquetes (no había modulos) era necesario usar la ruta absoluta, considerando como base la ruta a la que apuntaba la variable de entorno $_GOPATH_ o. A partir de Go 1.11, la manera más sencilla de trabajar con paquetes es usar go mod. Te explicaré esta última.
@@ -19,7 +22,7 @@ Diferencia entre modulos y paquetes en go
 
 ## Definir el nombre de un paquete en Go
 
-Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
+Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
 
 Para este ejemplo el nombre del paquete será _videogame_.
 
@@ -35,7 +38,7 @@ type Videogame struct {
 }
 ```
 
-Recuerda que las [reglas de privacidad de los structs](/go-structs-herencia-polimorfismo-y-encapsulacion/) dicen que para que podamos acceder a un _struct_ o sus propiedades, desde otro paquete a donde fue declarado, debemos usar mayúsculas.
+Recuerda que las [reglas de privacidad de los structs](/es/go-structs-herencia-polimorfismo-y-encapsulacion/) dicen que para que podamos acceder a un _struct_ o sus propiedades, desde otro paquete a donde fue declarado, debemos usar mayúsculas.
 
 Una vez creado terminaremos con una structura similar a esta
 

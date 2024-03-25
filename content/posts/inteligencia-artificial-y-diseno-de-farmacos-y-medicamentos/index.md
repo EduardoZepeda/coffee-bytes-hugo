@@ -1,21 +1,26 @@
 ---
-title: "Inteligencia Artificial Y Diseño De Farmacos Y Medicamentos para desarrolladores"
-date: "2023-12-29"
-categories: 
-- "inteligencia artificial"
-coverImage: "images/drug-design-using-artificial-intelligence.jpg"
-description: "¿Como funciona un fármaco en el cuerpo y como puede la inteligencia artificial y las redes neuronales a encontrar mejores fármacos para las enfermedades de los seres humanos?"
+aliases:
+- /inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos
+- /inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores
+authors:
+- Eduardo Zepeda
+categories:
+- inteligencia artificial
+coverImage: images/drug-design-using-artificial-intelligence.jpg
+date: '2023-12-29'
+description: ¿Como funciona un fármaco en el cuerpo y como puede la inteligencia artificial
+  y las redes neuronales a encontrar mejores fármacos para las enfermedades de los
+  seres humanos?
 keywords:
 - inteligencia artificial
 - bioquímica
 - redes neuronales
 - machine learning
 - python
-authors:
-- Eduardo Zepeda
+title: Inteligencia Artificial Y Diseño De Farmacos Y Medicamentos para desarrolladores
 ---
 
-Los usos de la inteligencia artificial van más allá de [resolver problemas de código](/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), e independientemente de si esta [inteligencia artificial es consciente o no](/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), tiene un sin fin de aplicaciones. Una de las aplicaciones más interesantes para la inteligencia artificial es el desarrollo de nuevos fármacos. Llevar un nuevo fármaco al mercado es un proceso arduo, costoso y que, en la mayoría de los casos, es infructuoso. La inteligencia artificial puede acelerar el proceso enormemente y reducir los candidatos a nuevos fármacos a unos cuantos, en lugar de a decenas de ellos.
+Los usos de la inteligencia artificial van más allá de [resolver problemas de código](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), e independientemente de si esta [inteligencia artificial es consciente o no](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), tiene un sin fin de aplicaciones. Una de las aplicaciones más interesantes para la inteligencia artificial es el desarrollo de nuevos fármacos. Llevar un nuevo fármaco al mercado es un proceso arduo, costoso y que, en la mayoría de los casos, es infructuoso. La inteligencia artificial puede acelerar el proceso enormemente y reducir los candidatos a nuevos fármacos a unos cuantos, en lugar de a decenas de ellos.
 
 Para este post voy a tomarme algunas libertades y voy a simplificar conceptos y a sacrificar algo (o mucho) de precisión en aras de un mejor entendimiento. Si tienes dudas sobre quien soy yo para hablar de estos temas, y sobre mis credenciales, siéntete libre de pedírmelas en redes sociales.
 
@@ -135,6 +140,3 @@ Hay muchísimas bases de datos disponibles con información recopilada sobre muc
 Me atrevo a decir que aunque el proceso no será perfecto y estará lleno de tropezones, dado que el cuerpo humano es un sistema sumamente complejo, será mucho mejor que buscar a ciegas entre un sin fin de opciones. 
 
 Si estás interesado en el tema, un buen lugar para empezar es este artículo titulado [Artificial intelligence for drug discovery: Resources, methods, and applications](https://www.sciencedirect.com/science/article/pii/S2162253123000392)
-
-
-

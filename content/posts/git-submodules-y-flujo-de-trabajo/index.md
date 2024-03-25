@@ -1,14 +1,18 @@
 ---
-title: "Entiende Como Funciona Git Submodules Y su Flujo de Trabajo"
-date: 2022-05-18T13:14:41-05:00
-coverImage: "images/git-submodules.jpg"
-coverImageCredits: "Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617"
-description: "Entiende como funcionan los git submodules y como usarlos, actualizarlos y trabajar con ellos sin errores, incluso si nunca antes lo has hecho."
-categories:
-- git
-- "linux y devops"
+aliases:
+- /git-submodules-y-flujo-de-trabajo
+- /entiende-como-funciona-git-submodules-y-su-flujo-de-trabajo
 authors:
 - Eduardo Zepeda
+categories:
+- git
+- linux y devops
+coverImage: images/git-submodules.jpg
+coverImageCredits: Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617
+date: 2022-05-18 18:14:41
+description: Entiende como funcionan los git submodules y como usarlos, actualizarlos
+  y trabajar con ellos sin errores, incluso si nunca antes lo has hecho.
+title: Entiende Como Funciona Git Submodules Y su Flujo de Trabajo
 ---
 
 Los git submodules o submódulos son un registro dentro de un repositorio de git que apunta a un commit en un repositorio externo. Se manejan exactamente igual que harías con un repositorio, incluso tienen un archivo *.git* que apunta a la ubicación en la que se lleva un registro de los cambios.
@@ -19,7 +23,7 @@ Los submodules de git son útiles cuando queremos incorporar código de terceros
 
 * Un repositorio compartido para un tema o estilos (Como en el SSG, Hugo).
 * Una librería de terceros.
-* Un repositorio que quieres usar para crear un [Dockerfile en Docker](/tutorial-de-comandos-basicos-de-docker/).
+* Un repositorio que quieres usar para crear un [Dockerfile en Docker](/es/tutorial-de-comandos-basicos-de-docker/).
 
 Por otro lado, **usar git submodules complica bastante el manejo de repositorios si no se tiene cuidado o si se trabaja con muchos submódulos**, tienes que prestar atención al contexto en el que te encuentras y recordar todo el tiempo el repositorio en el que te encuentras.
 
@@ -80,7 +84,7 @@ ls -la
 # ...
 ```
 
-Si revisas el contenido de este archivo con el [comando cat](/comandos-de-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
+Si revisas el contenido de este archivo con el [comando cat](/es/comandos-de-linux-basicos-que-deberias-conocer/), verás que es una ruta que apunta a la carpeta *.git/modules* de nuestro repositirio principal. Es de esta manera que git puede llevar un seguimiento de los submodulos directamente en el repositorio principal.
 
 ```bash
 cat .git

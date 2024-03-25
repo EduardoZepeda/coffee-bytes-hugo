@@ -1,21 +1,26 @@
 ---
-title: "Stremea tus videos y audios: Una introducción sencilla al streaming con HLS para tus aplicaciones"
-date: "2023-03-02"
-categories: 
-  - "linux y devops"
-  - "arquitectura de software"
-coverImage: "images/streaming-con-hls.jpg"
-description: "El protocolo de streaming HLS se encarga de dividir archivos de audio y video en partes con extension ts y un archivo de índice con extension m3u8"
-keywords:
-  - "internet"
-  - "streaming"
-  - "html"
-  - "audio"
-  - "video"
-  - "protocol"
-  - "http"
+aliases:
+- /stremea-tu-contenido-con-facilidad-una-introduccion-al-streaming-con-hls
+- /stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-hls-para-tus-aplicaciones
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+- arquitectura de software
+coverImage: images/streaming-con-hls.jpg
+date: '2023-03-02'
+description: El protocolo de streaming HLS se encarga de dividir archivos de audio
+  y video en partes con extension ts y un archivo de índice con extension m3u8
+keywords:
+- internet
+- streaming
+- html
+- audio
+- video
+- protocol
+- http
+title: 'Stremea tus videos y audios: Una introducción sencilla al streaming con HLS
+  para tus aplicaciones'
 ---
 
 Casi todos las aplicaciones web modernas realizan algún tipo de streaming, desde las plataformas de video, hasta aquellas de streaming en vivo. En esta entrada te explico como funciona el streaming con HLS de una manera tan simplificada que sacará tu purista interior. 

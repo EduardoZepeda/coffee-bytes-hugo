@@ -1,21 +1,25 @@
 ---
-title: "Diferencias entre select_related y prefetch_related en Django"
-date: "2022-03-09"
-categories: 
-  - "django"
-coverImage: "images/django-select-related-prefetch-related.jpg"
-description: "Diferencia entre los métodos select_related y prefetch_related de django y su uso para reducir reducir y mejorar las queries en consultas a la base de datos"
-coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
-keywords:
-  - django
-  - python
-  - rendimiento
-  - orm
+aliases:
+- /diferencias-entre-select_related-y-prefetch_related-en-django
+- /diferencias-entre-select-related-y-prefetch-related-en-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/django-select-related-prefetch-related.jpg
+coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
+date: '2022-03-09'
+description: Diferencia entre los métodos select_related y prefetch_related de django
+  y su uso para reducir reducir y mejorar las queries en consultas a la base de datos
+keywords:
+- django
+- python
+- rendimiento
+- orm
+title: Diferencias entre select_related y prefetch_related en Django
 ---
 
-Los métodos _select\_related_ y _prefetch\_relate_d **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/)
+Los métodos _select\_related_ y _prefetch\_relate_d **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/)
 
 {{<digitalocean product="Django">}}
 

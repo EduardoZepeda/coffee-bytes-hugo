@@ -128,7 +128,7 @@ While this is an output channel.
 func say(text string, c <-chan string) {}
 ```
 
-It is important to define the type of channel because, with bidirectional channels, we run the risk of causing a [deadlock in our go program](/blog/go-channels-understanding-the-deadlocks/).
+It is important to define the type of channel because, with bidirectional channels, we run the risk of causing a [deadlock in our go program](/en/go-channels-understanding-the-deadlocks/).
 
 ## Channel capacity
 

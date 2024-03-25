@@ -1,19 +1,22 @@
 ---
-title: "¿Por qué deberías usar Django Framework?"
-date: "2021-03-24"
-categories: 
-  - "django"
-  - "opiniones"
-coverImage: "images/Django-usar.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@weekendplayer/"
-description: "¿Vale la pena usar Django en un mundo donde todo es Javascript? Entra para conocer las ventajas y desventajas de este framework de Python."
-keywords:
-  - "drf"
-  - "django"
-  - "python"
-  - "opinion"
+aliases:
+- /por-que-deberias-usar-django-framework
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+- opiniones
+coverImage: images/Django-usar.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
+date: '2021-03-24'
+description: ¿Vale la pena usar Django en un mundo donde todo es Javascript? Entra
+  para conocer las ventajas y desventajas de este framework de Python.
+keywords:
+- drf
+- django
+- python
+- opinion
+title: ¿Por qué deberías usar Django Framework?
 ---
 
 ¿Por qué usar Django en un mundo donde todo es Javascript? ¿De verdad vale la pena aprender un Framework de Python en un ecosistema que se empecina en Frameworks escritos en Javascript? Pues yo creo que sí y a continuación te expongo algunas de las razones por las que deberías usar Django. Y, para no perder objetividad, te hablaré tanto de las ventajas, como de las desventajas; ya sabes que ninguna solución es perfecta.
@@ -22,7 +25,7 @@ authors:
 
 ### Su ORM es sencillo y maravilloso
 
-El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones [búsquedas avanzadas de Postgres](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) y manejo de migraciones.
+El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones [búsquedas avanzadas de Postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) y manejo de migraciones.
 
 Para crear una tabla en la base de datos basta con crear una clase que herede de _models.Model_ y Django se encargará de todo el trabajo pesado.
 
@@ -49,7 +52,7 @@ CREATE INDEX "reviews_review_user_id_875caff2" ON "reviews_review" ("user_id");
 COMMIT;
 ```
 
-Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que cambiar de motor de base de datos es bastante sencillo y tras unos pocos cambios puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/tutorial-de-migraciones-en-go-con-migrate/).
+Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que cambiar de motor de base de datos es bastante sencillo y tras unos pocos cambios puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/es/tutorial-de-migraciones-en-go-con-migrate/).
 
 ```python
 # settings.py
@@ -63,11 +66,11 @@ DATABASES = {
 }
 ```
 
-Su única desventaja es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/integracion-del-orm-de-python-tortoise-con-fastapi/).
+Su única desventaja es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/es/integracion-del-orm-de-python-tortoise-con-fastapi/).
 
 ### Panel de administrador incluido
 
-Django cuenta con el [django admin panel](/el-django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
+Django cuenta con el [django admin panel](/es/el-django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
 ![Panel de administración de Django](images/Django-panel-admin.png)
 
@@ -87,11 +90,11 @@ La mayoría de las aplicaciones requieren un sistema de manejo de usuarios, ya s
 
 Este framework cuenta con un sistema de autenticación probado, basado en sesiones que se identifican por medio de una cookie. El sistema de autenticación ya ha sido puesto a prueba en numerosas ocasiones por algunos de los sitios web con más tráfico que hay, como Instagram o el sitio web de la NASA. Pinterest empezó con Django pero se movió hacia node.
 
-Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](/no-uses-jwt-para-gestionar-sesiones-traduccion/)
+Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](/es/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](/es/no-uses-jwt-para-gestionar-sesiones-traduccion/)
 
 #### Sistema de permisos
 
-Django cuenta con un sólido [sistema de permisos y grupos](/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
+Django cuenta con un sólido [sistema de permisos y grupos](/es/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
 
 ### Múltiples paquetes
 
@@ -99,7 +102,7 @@ Django cuenta con muchísimos paquetes para resolver la mayoría de los problema
 
 Solo por nombrar algunos:
 
-- [Django-haystack](/busquedas-con-solr-con-django-haystack)(Para búsquedas
+- [Django-haystack](/es/busquedas-con-solr-con-django-haystack)(Para búsquedas
   complejas)
 - Django-watson (Búsquedas)
 - DRF (REST)
@@ -110,9 +113,9 @@ Solo por nombrar algunos:
 - Django-storage (AWS storage)
 - Django-braces (Funciones comunes)
 
-Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API REST](/caracteristicas-basicas-de-una-api-rest/), el manejo de permisos y [throttling](/throttling-en-nginx/), una tarea simple**, comparada con crear todo desde cero. 
+Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API REST](/es/caracteristicas-basicas-de-una-api-rest/), el manejo de permisos y [throttling](/es/throttling-en-nginx/), una tarea simple**, comparada con crear todo desde cero. 
 
-Otro paquete a destacar que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](/django-channels-consumers-scope-y-eventos/)
+Otro paquete a destacar que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](/es/django-channels-consumers-scope-y-eventos/)
 
 ### Te lleva de una idea a un prototipo funcional rápido
 
@@ -148,9 +151,9 @@ La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frame
 
 ### Es lento y maneja peticiones de una en una
 
-Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) comparo el rendimiento de ambos, solo para que te des una idea.
+Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) comparo el rendimiento de ambos, solo para que te des una idea.
 
-Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
+Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI](/es/python-fastapi-el-mejor-framework-de-python/) si quieres ver que tan lento es Django comparado con otros frameworks.
 
 ### Su ORM no es asíncrono ni tampoco el más veloz
 

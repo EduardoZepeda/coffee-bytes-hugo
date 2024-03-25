@@ -14,9 +14,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous post we made an [automatic wallpaper changer in Python](/blog/how-to-create-an-automatic-wallpaper-changer-using-python-in-gnome/)
+In the previous post we made an [automatic wallpaper changer in Python](/en/how-to-create-an-automatic-wallpaper-changer-using-python-in-gnome/)
 
-In this entry we are going to use Cron to program the periodic execution of this script and that it is in charge of changing the wallpaper every certain time, automatically, every hour, two hours, every day, every minute or the frequency that we want. If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/blog/cron-and-crontab-schedules-recurring-tasks/).
+In this entry we are going to use Cron to program the periodic execution of this script and that it is in charge of changing the wallpaper every certain time, automatically, every hour, two hours, every day, every minute or the frequency that we want. If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/en/cron-and-crontab-schedules-recurring-tasks/).
 
 ```python
 #!/usr/bin/python3
@@ -74,6 +74,6 @@ For this example we will change the wallpaper every 6 hours. But you can set the
 0 */6 * * * $PWD/.change_wallpaper_random.py
 ```
 
-You should also make sure that your file has the proper execution permissions, I have a post explaining the topic of [chmod and permissions in GNU/Linux](/blog/understand-permissions-in-gnu-linux-and-the-chmod-command/) that you can check out.
+You should also make sure that your file has the proper execution permissions, I have a post explaining the topic of [chmod and permissions in GNU/Linux](/en/understand-permissions-in-gnu-linux-and-the-chmod-command/) that you can check out.
 
 Save the file and it should start running automatically after 6 hours, or whatever frequency you set, changing the wallpaper to a random one in the folder you specified in the Python script.

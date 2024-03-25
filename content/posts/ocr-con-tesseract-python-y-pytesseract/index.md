@@ -1,19 +1,23 @@
 ---
-title: "OCR Reconocimiento óptico de carácteres con tesseract y pytesseract"
-date: "2021-09-28"
-url: "ocr-con-tesseract-python-y-pytesseract"
-categories: 
-  - "python"
-  - "Inteligencia Artificial"
-coverImage: "images/OCR.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/@cottonbro/"
-description: "Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre imágenes usando python, tesseract-ocr y pytesseract."
-keywords:
-  - python
-  - inteligencia artificial
-  - pytesseract
+aliases:
+- /ocr-con-tesseract-python-y-pytesseract
+- /ocr-reconocimiento-optico-de-caracteres-con-tesseract-y-pytesseract
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+- Inteligencia Artificial
+coverImage: images/OCR.jpg
+coverImageCredits: Créditos https://www.pexels.com/@cottonbro/
+date: '2021-09-28'
+description: Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre
+  imágenes usando python, tesseract-ocr y pytesseract.
+keywords:
+- python
+- inteligencia artificial
+- pytesseract
+title: OCR Reconocimiento óptico de carácteres con tesseract y pytesseract
+url: ocr-con-tesseract-python-y-pytesseract
 ---
 
 Python es súper versátil, tiene una comunidad gigante que tiene librerías que permiten lograr grandes cosas con pocas lineas de código, el Optical Character Recognition (OCR) es una de ellas, para ello basta con instalar tesseract y los bindings de python, llamados pytesseract.

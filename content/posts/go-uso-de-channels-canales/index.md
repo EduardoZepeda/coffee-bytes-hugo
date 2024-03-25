@@ -1,15 +1,18 @@
 ---
-title: "Go: uso de channels o canales para comunicar goroutinas"
-date: "2022-01-22"
-coverImage: "images/go-channels-o-canales.jpg"
-categories:
-  - go
-keywords:
-  - go
-  - concurrencia
-  - channels
+aliases:
+- /go-uso-de-channels-canales
+- /go-uso-de-channels-o-canales-para-comunicar-goroutinas
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-channels-o-canales.jpg
+date: '2022-01-22'
+keywords:
+- go
+- concurrencia
+- channels
+title: 'Go: uso de channels o canales para comunicar goroutinas'
 ---
 
 Hasta ahora te he explicado como ejecutar una goroutine, ejecutar código de manera concurrente con las goroutines y a esperar a que terminen de ejecutarse pero nuestras goroutines no pueden hacer nada más, no pueden cooperar entre ellas para acelerar los procesos.
@@ -127,7 +130,7 @@ Mientras que este es un canal de salida.
 func say(text string, c <-chan string) {}
 ```
 
-Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go](/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). 
+Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go](/es/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). 
 ## Capacidad de un canal
 
 ¿Recuerdas que te dije que la función make podía establecer el número máximo de datos que puede trabajar un canal? Pues es posible recuperar esa información usando la función len

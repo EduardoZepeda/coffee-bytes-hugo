@@ -47,4 +47,4 @@ Python 3 Immersion is one of the best materials you can find on the internet abo
 **Recommended to read:** 8/10
 **Languages:** English, Spanish
 
-If you want to read about another excellent one to learn about Python visit my post that talks about [Beginning Python From Novice to Professional](/blog/learn-python-from-scratch-with-this-free-book/).
+If you want to read about another excellent one to learn about Python visit my post that talks about [Beginning Python From Novice to Professional](/en/learn-python-from-scratch-with-this-free-book/).

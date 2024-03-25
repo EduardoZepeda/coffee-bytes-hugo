@@ -1,26 +1,29 @@
 ---
-title: "Porqué Detesto El Input datetime-local Y Las Fechas en Javascript"
-date: "2024-03-20"
+aliases:
+- /porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript
+authors:
+- Eduardo Zepeda
 categories:
-- "javascript"
-- "opiniones"
-coverImage: "images/javascript-dates-and-html-input.jpg"
-description: "El manejo de fechas en javascript y su combinación con el input estándar HTML datetime-local, es dificil, incoherente y complicado."
+- javascript
+- opiniones
+coverImage: images/javascript-dates-and-html-input.jpg
+date: '2024-03-20'
+description: El manejo de fechas en javascript y su combinación con el input estándar
+  HTML datetime-local, es dificil, incoherente y complicado.
 keywords:
 - javascript
 - opiniones
 - react
 - html
 - go
-authors:
-- Eduardo Zepeda
+title: Porqué Detesto El Input datetime-local Y Las Fechas en Javascript
 ---
 
 Trabajar con Javascript es frustrante y, a veces, combinarlo con HTML resulta desesperante por su falta de coherencia interna, por si fuera poco, utilizarlo para el manejo de fechas, que requiere considerar el manejo de timezones, diferentes formas de representarlas y la sensibilidad requerida: segundos, minutos, milisegundos, etc. lo vuelve una tortura.
 
 ## Javascript maneja las fechas de manera extraña
 
-Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan. Lenguajes como [Python tiene mejores abstracciones que las que maneja Javascript.](/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/)
+Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan. Lenguajes como [Python tiene mejores abstracciones que las que maneja Javascript.](/es/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/)
 
 ![](images/date-javascript.webp)
 
@@ -48,6 +51,6 @@ Quizás pueda parecerte insignificante añadir una librería más, pero no es el
 
 El hecho de que estas librerías sean populares solo pone de manifiesto las carencias de Javascript como lenguaje. 
 
-Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de programación Go](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), también soy capaz de reconocer sus carencias y áreas de mejora.
+Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de programación Go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), también soy capaz de reconocer sus carencias y áreas de mejora.
 
 ![](images/date_formatting_golang.webp)

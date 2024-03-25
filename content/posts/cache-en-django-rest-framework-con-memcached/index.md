@@ -1,21 +1,25 @@
 ---
-title: "Tutorial para Implementar Caché en Django REST Framework con memcached"
-url: "cache-en-django-rest-framework-con-memcached"
-date: "2021-09-07"
-categories: 
-  - "django"
-coverImage: "images/CacheConMemcachedYPymemcache.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@airamdphoto/"
-description: "Tutorial para implementar y configurar caché en diferentes niveles: vista, cookies, granular, usando memcached, en una aplicación de Django REST Framework"
-keywords:
-  - python
-  - django
-  - cache
-  - REST
-  - rendimiento
-  - API
+aliases:
+- /cache-en-django-rest-framework-con-memcached
+- /tutorial-para-implementar-cache-en-django-rest-framework-con-memcached
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/CacheConMemcachedYPymemcache.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@airamdphoto/
+date: '2021-09-07'
+description: 'Tutorial para implementar y configurar caché en diferentes niveles:
+  vista, cookies, granular, usando memcached, en una aplicación de Django REST Framework'
+keywords:
+- python
+- django
+- cache
+- REST
+- rendimiento
+- API
+title: Tutorial para Implementar Caché en Django REST Framework con memcached
+url: cache-en-django-rest-framework-con-memcached
 ---
 
 Para usar la caché en django, basta con seguir tres sencillos pasos:
@@ -25,7 +29,7 @@ Para usar la caché en django, basta con seguir tres sencillos pasos:
 3. Agregar el middleware necesario para que django devuelva la caché antes de procesar la vista.
 4. Usar la caché de bajo nivel para cachear vistas o datos específicos (opcional)
 
-Implementar un sistema de caché te permite [mejorar enormemente el rendimiento de una aplicación hecha en Django](/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/).
+Implementar un sistema de caché te permite [mejorar enormemente el rendimiento de una aplicación hecha en Django](/es/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/).
 
 ## ¿Qué tanto mejora la caché el rendimiento?
 
@@ -60,7 +64,7 @@ Es bastante obvio, pero siento que debo mencionarlo: recuerda que **memcached al
 
 Voy a instalar las siguientes dependencias para este tutorial:
 
-- djangorestframework: para la creación de [APIs de tipo REST](/caracteristicas-basicas-de-una-api-rest/).
+- djangorestframework: para la creación de [APIs de tipo REST](/es/caracteristicas-basicas-de-una-api-rest/).
 - django-debug-toolbar: para comparar el rendimiento antes y después de la caché.
 - django-seed: para crear datos, de manera automática, en la base de datos.
 - pymemcache: para que python pueda interactuar con memcached.

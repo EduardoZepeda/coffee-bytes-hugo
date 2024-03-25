@@ -24,7 +24,7 @@ You can install it directly from the repositories in newer versions of Debian or
 sudo apt install bat
 ```
 
-As my version of Debian is not the most recent one I had to install it from [its version of software package with .deb ending](https://github.com/sharkdp/bat/releases). Remember that if you have problems with GNU/Linux commands go to read my entries where I make you a summary of the [most basic GNU Linux commands](/blog/basic-linux-commands-you-should-know/)
+As my version of Debian is not the most recent one I had to install it from [its version of software package with .deb ending](https://github.com/sharkdp/bat/releases). Remember that if you have problems with GNU/Linux commands go to read my entries where I make you a summary of the [most basic GNU Linux commands](/en/basic-linux-commands-you-should-know/)
 
 ```bash
 wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_amd64.deb

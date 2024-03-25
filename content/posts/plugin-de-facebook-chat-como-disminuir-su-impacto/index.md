@@ -1,17 +1,20 @@
 ---
-title: "Plugin de facebook chat ¿cómo disminuir su impacto?"
-date: "2021-10-05"
-categories: 
-  - "javascript"
-coverImage: "images/ReduceElImpactoFb-ChatPlugin.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@jorge-jesus-137537/"
-description: "Evita que el plugin de facebook chat online vuelve lenta la carga de tu página, y afecte los indicadores de web vitals, retrasando su carga."
-keywords:
-  - "rendimiento"
-  - "javascript"
-  - "html"
+aliases:
+- /plugin-de-facebook-chat-como-disminuir-su-impacto
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- javascript
+coverImage: images/ReduceElImpactoFb-ChatPlugin.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@jorge-jesus-137537/
+date: '2021-10-05'
+description: Evita que el plugin de facebook chat online vuelve lenta la carga de
+  tu página, y afecte los indicadores de web vitals, retrasando su carga.
+keywords:
+- rendimiento
+- javascript
+- html
+title: Plugin de facebook chat ¿cómo disminuir su impacto?
 ---
 
 El facebook chat plugin te permite agregar un botón página que se conecta con el chat de una fanpage en facebook. Pero, como ya sabes, facebook es monopólico y la instalación por defecto carga primero el plugin, volviendo tu sitio web más lento y afectando los indicadores de web vitals de las páginas. Hay ciertas maneras de mitigar esto.

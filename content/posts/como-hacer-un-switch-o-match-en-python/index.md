@@ -1,20 +1,24 @@
 ---
-title: "¿Cómo escribir un switch en Python?"
-date: "2021-03-06"
-categories: 
-  - "python"
-coverImage: "images/PythonYatiene.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@cottonbro/"
-description: "Aprende a escribir un statement switch en Python, también llamado match, su sintaxis básica y su guard, para controlar el flujo de tu aplicacion."
-keywords:
-  - python
+aliases:
+- /como-hacer-un-switch-o-match-en-python
+- /como-escribir-un-switch-en-python
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/PythonYatiene.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
+date: '2021-03-06'
+description: Aprende a escribir un statement switch en Python, también llamado match,
+  su sintaxis básica y su guard, para controlar el flujo de tu aplicacion.
+keywords:
+- python
+title: ¿Cómo escribir un switch en Python?
 ---
 
 Se anunció Python 3.10 y viene con algo que muchos desarrolladores echaban de menos de otros lenguajes: el switch statement. Sí, ese trozo de código que evalúa una expresión y la compara con múltiples casos para decidir que ejecutar. Python no lo tenía implementado y muchos desarrolladores recurrían a ciertos trucos para imitarlo.
 
-Te recuerdo que si no sabes nada de Python tengo una entrada donde hablo del [libro "Inmersion en Python"](/aprende-python-desde-cero-con-este-libro-gratuito/); uno de los mejores libros gratuitos para aprender Python desde cero.
+Te recuerdo que si no sabes nada de Python tengo una entrada donde hablo del [libro "Inmersion en Python"](/es/aprende-python-desde-cero-con-este-libro-gratuito/); uno de los mejores libros gratuitos para aprender Python desde cero.
 
 ## Switch en Python 3.10
 

@@ -1,20 +1,25 @@
 ---
-title: "Características básicas de una API REST y recomendaciones"
-url: "caracteristicas-basicas-de-una-api-rest"
-date: "2022-04-07"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-coverImage: "images/CaracteristicasBasicasDeUnaAPIREST.jpg"
-description: "Cuáles son las características de una API REST? ¿Qué debo hacer para crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS? ¿uso mayúsculas o minúsculas en la url?"
-coverImageCredits: "Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811"
-keywords:
-  - REST
-  - arquitectura de software
-  - API
-  - buenas practicas
+aliases:
+- /caracteristicas-basicas-de-una-api-rest
+- /caracteristicas-basicas-de-una-api-rest-y-recomendaciones
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/CaracteristicasBasicasDeUnaAPIREST.jpg
+coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
+date: '2022-04-07'
+description: Cuáles son las características de una API REST? ¿Qué debo hacer para
+  crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS?
+  ¿uso mayúsculas o minúsculas en la url?
+keywords:
+- REST
+- arquitectura de software
+- API
+- buenas practicas
+title: Características básicas de una API REST y recomendaciones
+url: caracteristicas-basicas-de-una-api-rest
 ---
 
 Esta publicación es una guia muy corta de consejos prácticos sobre diseño de APIs REST, no profundizo demasiado en la teoría. Encima, puedo sobre simplificar muchos conceptos en aras de mantener el texto lo más corto y sencillo posible.
@@ -37,7 +42,7 @@ Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la
 
 ### ¿Cuáles son las características de las API REST?
 
-No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones, como [RPC o gRPC](/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
+No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones, como [RPC o gRPC](/es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
@@ -255,7 +260,7 @@ Toda API debería de estar documentada. La documentación debería ser ser clara
 
 Considera implementarlas en tu proyecto.
 
-Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](/python-fastapi-el-mejor-framework-de-python/)
+Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.](/es/python-fastapi-el-mejor-framework-de-python/)
 
 ![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png "Interfaz generada por Open API")
 
@@ -267,7 +272,7 @@ Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad
 
 ![GUI, de insomnia, una aplicación para el testeo de una API REST](images/InsomniaGUI.png "Interfaz de Insomnia, herramienta para testear APIs")
 
-Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](/buenas-practicas-y-diseno-de-una-api-rest/) tales como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
+Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](/es/buenas-practicas-y-diseno-de-una-api-rest/) tales como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
 
 ## Fuentes de referencia
 

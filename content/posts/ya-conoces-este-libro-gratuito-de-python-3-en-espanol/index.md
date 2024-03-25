@@ -1,17 +1,21 @@
 ---
-title: "Aprende Python desde cero con este libro gratuito"
-date: "2019-07-31"
-categories: 
-  - "python"
-coverImage: "images/DSC_3818.jpg"
-description: "Entra aquí para leer mi reseña sobre un excelente libro gratuito para aprender Python, que además está completamente traducido al español."
-keywords:
-  - "libros"
-  - "python"
-  - "opinion"
-  - "reseña"
+aliases:
+- /ya-conoces-este-libro-gratuito-de-python-3-en-espanol
+- /aprende-python-desde-cero-con-este-libro-gratuito
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/DSC_3818.jpg
+date: '2019-07-31'
+description: Entra aquí para leer mi reseña sobre un excelente libro gratuito para
+  aprender Python, que además está completamente traducido al español.
+keywords:
+- libros
+- python
+- opinion
+- reseña
+title: Aprende Python desde cero con este libro gratuito
 ---
 
 La mayor parte del contenido en internet sobre el lenguaje de programación Python está en ingles; lo anterior no es nada nuevo, solo basta con darse una vuelta por nuestra librería favorita y preguntar por los libros disponibles en ambos idiomas. El material sobre Python en inglés, además de ser abundante, también es bastante bueno y se encuentra mucho más actualizado que su contraparte en español. Sin embargo, hay un par de excelentes libros para aprender Python en español y uno que otro gratuito, hoy escribiré sobre uno de ellos.
@@ -45,4 +49,4 @@ _Inmersión en Python 3_ es de los mejores materiales que se puede encontrar en 
 **Recomendado para leerlo:** 8/10  
 **Idiomas:** Español, Inglés
 
-Si quieres leer sobre otro excelente para aprender sobre Python visita mi entrada que habla de [Beginning Python From Novice to Professional](/aprender-python-desde-cero-resena-de-beginning-python/)
+Si quieres leer sobre otro excelente para aprender sobre Python visita mi entrada que habla de [Beginning Python From Novice to Professional](/es/aprender-python-desde-cero-resena-de-beginning-python/)

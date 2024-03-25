@@ -1,16 +1,19 @@
 ---
-title: "Go: testing básico y coverage"
-date: "2022-02-09"
-categories: 
-  - go
-  - "testing"
-coverImage: "images/go-testing-coverage.jpg"
-description: "Entrada sobre testing básico en go: creación de tests, manejo de múltiples casos, coverage y exportación de resultados a html."
-keywords:
-  - go
-  - testing
+aliases:
+- /go-testing-basico-y-coverage
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+- testing
+coverImage: images/go-testing-coverage.jpg
+date: '2022-02-09'
+description: 'Entrada sobre testing básico en go: creación de tests, manejo de múltiples
+  casos, coverage y exportación de resultados a html.'
+keywords:
+- go
+- testing
+title: 'Go: testing básico y coverage'
 ---
 
 Go ya cuenta con un modulo de testing en su librería estándar que está lista para nuestro uso, solo hace falta importarlo y usarlo.
@@ -32,7 +35,7 @@ Para que se lleven a cabo los tests necesitamos:
 1 directory, 5 files
 ```
 
-Considera que, si vas a [asignarle un nombre a tu paquete](/go-importacion-de-paquetes-y-manejo-de-modulos/)**, jamás debeser nombrarlo _testing_**. ¿Por qué? si lo haces, go confungirá su paquete _testing_ con el tuyo, devolviéndote esos resultados incorrectos.
+Considera que, si vas a [asignarle un nombre a tu paquete](/es/go-importacion-de-paquetes-y-manejo-de-modulos/)**, jamás debeser nombrarlo _testing_**. ¿Por qué? si lo haces, go confungirá su paquete _testing_ con el tuyo, devolviéndote esos resultados incorrectos.
 
 Para crear los tests, dentro del archivo _testing/main\_test.go_, necesitamos una función que reciba de argumento nuestro paquete de testing con el carácter de desestructuración.
 
@@ -106,7 +109,7 @@ En este caso, cada struct de nuestro array consiste en tres enteros; los primero
 
 De seguro ya notaste que no estamos cubriendo la división entre cero, pero déjalo así por ahora.
 
-Ya que contamos con nuestro array de structs, iteraremos sobre cada uno de sus elementos usando [la función range de go](/go-slices-y-arrays/). De esta manera cubriremos cada caso.
+Ya que contamos con nuestro array de structs, iteraremos sobre cada uno de sus elementos usando [la función range de go](/es/go-slices-y-arrays/). De esta manera cubriremos cada caso.
 
 ```go
 for _, table := range tables {
@@ -121,7 +124,7 @@ Si todo salió bien, pasaremos todas las pruebas.
 
 ## Coverage
 
-Coverage ya forma parte del código en go, por lo que no necesitamos librerías externas. Si no sabes que es Coverage, piensa en él como el porcentaje de tu código que es sometido a pruebas. Si todo tú código pasa por las pruebas tendrás un coverage de 100%, si solo la mitad pasa por las pruebas el coverage será de 50%. Anteriormente te hablé del coverage en mi entrada [unittest en Python.](/unittest-python-valen-la-pena-los-tests-en-python/)
+Coverage ya forma parte del código en go, por lo que no necesitamos librerías externas. Si no sabes que es Coverage, piensa en él como el porcentaje de tu código que es sometido a pruebas. Si todo tú código pasa por las pruebas tendrás un coverage de 100%, si solo la mitad pasa por las pruebas el coverage será de 50%. Anteriormente te hablé del coverage en mi entrada [unittest en Python.](/es/unittest-python-valen-la-pena-los-tests-en-python/)
 
 Para calcular el coverage basta con agregar el flag _\-cover_ al comando _go test_
 

@@ -1,20 +1,24 @@
 ---
-title: "Graphene y Django, Tutorial de Queries y Mutaciones en Graphql"
-url: "graphql-y-django-con-graphene"
-date: "2021-10-26"
-categories: 
-  - "django"
-coverImage: "images/GraphqlGrapheneDjango.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/@frank-cone-140140/"
-description: "Tutorial para implementar queries y mutaciones de graphql en un proyecto de django, usando graphene, una de las librerías más comunes y su ORM "
-keywords:
-  - django
-  - python
-  - graphene
-  - graphql
-  - api
+aliases:
+- /graphql-y-django-con-graphene
+- /graphene-y-django-tutorial-de-queries-y-mutaciones-en-graphql
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/GraphqlGrapheneDjango.jpg
+coverImageCredits: Créditos a https://www.pexels.com/@frank-cone-140140/
+date: '2021-10-26'
+description: 'Tutorial para implementar queries y mutaciones de graphql en un proyecto
+  de django, usando graphene, una de las librerías más comunes y su ORM '
+keywords:
+- django
+- python
+- graphene
+- graphql
+- api
+title: Graphene y Django, Tutorial de Queries y Mutaciones en Graphql
+url: graphql-y-django-con-graphene
 ---
 
 Normalmente graphql se utiliza en conjunto con Nodejs y express, u otros frameworks de javascript, para crear una API de graphql en la cual hacer consultas o queries, pero graphql también puede implementarse con frameworks de Python como Django. Vamos a crear una aplicación de django que sirva contenido con graphql usando una librería genial llamada graphene que abstrae casi todo el boilerplate de integrar graphql con los modelos de Django.
@@ -202,7 +206,7 @@ Para crear una nueva query con parámetros añadiremos un nuevo método para nue
 
 Sin embargo en este caso usaremos un argumento, así que le tenemos que decir el nombre del argumento y el tipo de dato en graphql, en este caso el argumento se llamará _title_ y el tipo de dato será _String_. Aprecia como le pasamos _required_ para que sea obligatorio y su presencia como argumento en el nuevo método.
 
-Recuerda que el resultado de la query lo decidimos nosotros, yo he usado un simple _icontains_ para una búsqueda insensible a mayúsculas o minúsculas, pero tú puedes usar lo que quieras, incluso un [full text search](/full-text-search-y-busquedas-con-django-y-postgres/), [búsquedas avanzadas con trigramas con postgres](/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) o lo que prefieras.
+Recuerda que el resultado de la query lo decidimos nosotros, yo he usado un simple _icontains_ para una búsqueda insensible a mayúsculas o minúsculas, pero tú puedes usar lo que quieras, incluso un [full text search](/es/full-text-search-y-busquedas-con-django-y-postgres/), [búsquedas avanzadas con trigramas con postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) o lo que prefieras.
 
 ```python
 # criticaAnimes/schema.py

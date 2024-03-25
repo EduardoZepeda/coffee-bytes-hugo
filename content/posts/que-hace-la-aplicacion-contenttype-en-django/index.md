@@ -1,24 +1,27 @@
 ---
-title: "¿Qué hace la aplicación ContentType en Django?"
-date: "2021-02-16"
-categories: 
-  - "django"
-coverImage: "images/ContentTypeDjango2.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@iamikeee/"
-description: "Aprende para que sirve ContentType en Django y como acceder a la información que guarda este modelo en nuestra aplicación de Django."
-keywords:
-  - "django"
-  - "python"
-  - "orm"
+aliases:
+- /que-hace-la-aplicacion-contenttype-en-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/ContentTypeDjango2.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@iamikeee/
+date: '2021-02-16'
+description: Aprende para que sirve ContentType en Django y como acceder a la información
+  que guarda este modelo en nuestra aplicación de Django.
+keywords:
+- django
+- python
+- orm
+title: ¿Qué hace la aplicación ContentType en Django?
 ---
 
 ¿Sabías que Django lleva un registro de cada uno de los modelos que creas para tu proyecto en un modelo llamado _ContentType_? Sigue leyendo para aprender al respecto.
 
 ¡Perdón por tardar tanto en escribir! He estado ocupado mudando el frontend de mi blog a Frontity, un framework de React para Wordpress, y también mudándome a un nuevo departamento. Quizás hable un poco al respecto de Frontity en alguna entrada futura. Por ahora continuemos con el tema.
 
-Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [la guia definitiva de Django](/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
+Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [la guia definitiva de Django](/es/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
 
 ## ContentType y los modelos
 
@@ -34,7 +37,7 @@ Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido;
 
 Para ejemplificar como funciona ContentType vamos a crear un projecto de django, con un modelo:
 
-Primero creemos un entorno virtual con [Pipenv, el gestor de entornos virtuales](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/).
+Primero creemos un entorno virtual con [Pipenv, el gestor de entornos virtuales](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/).
 
 ```bash
 pipenv shell

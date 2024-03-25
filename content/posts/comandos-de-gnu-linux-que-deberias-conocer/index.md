@@ -1,14 +1,18 @@
 ---
-title: "Comandos de Linux básicos que deberías conocer"
-date: "2019-05-08"
-categories: 
-  - "linux y devops"
-coverImage: "images/comandos_GNU_Linux_1.jpg"
-description: "La terminal de GNU/Linux tiene muchísimos comandos útiles, aprende los basicos aquí, incluso si jamás has usado la terminal."
-keywords:
-  - linux
+aliases:
+- /comandos-de-gnu-linux-que-deberias-conocer
+- /comandos-de-linux-basicos-que-deberias-conocer
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/comandos_GNU_Linux_1.jpg
+date: '2019-05-08'
+description: La terminal de GNU/Linux tiene muchísimos comandos útiles, aprende los
+  basicos aquí, incluso si jamás has usado la terminal.
+keywords:
+- linux
+title: Comandos de Linux básicos que deberías conocer
 ---
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.
@@ -17,7 +21,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](/comandos-de-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](/comandos-de-linux-que-deberias-conocer-tercera-parte/)
+Entra aquí para la [segunda parte de esta serie de comandos](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/)
 
 ## Pequeños tips de la terminal de Linux
 
@@ -83,7 +87,7 @@ man man | grep "texto a buscar"
 
 ## history
 
-History nos muestra los comandos que hemos utilizado, de manera numerada, con los más recientes hasta abajo y los más antiguos hasta arriba. Hay una manera más sencilla de buscar comandos sobre [la que puedes leer aquí.](/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/)
+History nos muestra los comandos que hemos utilizado, de manera numerada, con los más recientes hasta abajo y los más antiguos hasta arriba. Hay una manera más sencilla de buscar comandos sobre [la que puedes leer aquí.](/es/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/)
 
 ```bash
 history
@@ -149,7 +153,7 @@ cd ..
 
 Este comando sirve para concatenar el contenido de un archivo y mostrarlo en pantalla.
 
-Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
+Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](/es/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
 
 ```bash
 cat archivo
@@ -293,4 +297,4 @@ ip
 
 El comando ip tiene muchas opciones que te sugiero que revises con calma, usa el comando man si quieres ahondar más en las funcionalidades.
 
-Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/comandos-de-linux-que-deberias-conocer-segunda-parte/) para la segunda parte.
+Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) para la segunda parte.

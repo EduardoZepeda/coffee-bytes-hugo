@@ -1,17 +1,20 @@
 ---
-title: "Go: condiciones de carrera en goroutines y mutex"
-date: "2022-02-02"
-categories: 
-  - go
-coverImage: "images/go-mutex-race-conditions.jpg"
-description: "En esta entrada hablo sobre las condiciones de carrera o race conditions que ocurren cuando usamos goroutines y como prevenirlas usando mutex."
-keywords:
-  - go
+aliases:
+- /go-condiciones-de-carrera-en-goroutines-y-mutex
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-mutex-race-conditions.jpg
+date: '2022-02-02'
+description: En esta entrada hablo sobre las condiciones de carrera o race conditions
+  que ocurren cuando usamos goroutines y como prevenirlas usando mutex.
+keywords:
+- go
+title: 'Go: condiciones de carrera en goroutines y mutex'
 ---
 
-En las entradas pasadas te hable un poco sobre las [goroutines, los bloqueos o deadlocks y los channels](/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). Pero hay otro tema bastante interesante sobre los goroutines que resalta cuando usamos asincronía y hay muchas funciones accediendo a los datos al mismo tiempo y. Múltiples funciones leyendo y escribiendo la misma información puede llevar a situaciones caóticas donde cosas muy extrañas pueden suceder.
+En las entradas pasadas te hable un poco sobre las [goroutines, los bloqueos o deadlocks y los channels](/es/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). Pero hay otro tema bastante interesante sobre los goroutines que resalta cuando usamos asincronía y hay muchas funciones accediendo a los datos al mismo tiempo y. Múltiples funciones leyendo y escribiendo la misma información puede llevar a situaciones caóticas donde cosas muy extrañas pueden suceder.
 
 ## ¿Qué es una race condition o condición de carrera?
 
@@ -39,7 +42,7 @@ Como ya sabrás, DarkLord69 no estará muy contento, pero si le das unos tokens 
 
 Ahora vamos a un ejemplo hecho en código.
 
-Si no entiendes que hace el waitgroup, escribí una entrada donde te explico [las goroutines, channels y los waitgroups](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) que puedes consultar. Por ahora quédate con la idea de que esperan a que todas las goroutines finalicen antes de proseguir la ejecución del código.
+Si no entiendes que hace el waitgroup, escribí una entrada donde te explico [las goroutines, channels y los waitgroups](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) que puedes consultar. Por ahora quédate con la idea de que esperan a que todas las goroutines finalicen antes de proseguir la ejecución del código.
 
 ```go
 package main

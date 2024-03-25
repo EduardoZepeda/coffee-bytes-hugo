@@ -1,15 +1,19 @@
 ---
-title: "Hello World, ¿cómo aprendi a programar?"
-date: "2019-03-31"
-categories: 
-  - "opiniones"
-coverImage: "images/Figura-de-miku-hatsune-de-vinsky2002.jpg"
-description: "Esta es una entrada personal donde explico como aprendí a programar por primera vez, primero en PHP y mis primeros contactos con Python."
-keywords:
-  - opinion
-  - internet
+aliases:
+- /hola-mundo-como-aprendi-a-programar
+- /hello-world-como-aprendi-a-programar
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- opiniones
+coverImage: images/Figura-de-miku-hatsune-de-vinsky2002.jpg
+date: '2019-03-31'
+description: Esta es una entrada personal donde explico como aprendí a programar por
+  primera vez, primero en PHP y mis primeros contactos con Python.
+keywords:
+- opinion
+- internet
+title: Hello World, ¿cómo aprendi a programar?
 ---
 
 La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.
@@ -65,7 +69,7 @@ Python me fascinó con su sencilla sintaxis, la simplicidad de las funciones y l
 
 ![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación.")
 
-Un mes más tarde leí el libro [Beginning Python from novice to Professional](/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. 
+Un mes más tarde leí el libro [Beginning Python from novice to Professional](/es/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. 
 
 Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer "Hello World" a cosas más complicadas.
 
@@ -79,7 +83,7 @@ Más tarde usé Django para crear y personalizar una tienda en linea para la fan
 
 Python era maravilloso, podía programar todas las tareas del día y dejarlas ejecutándose mientras yo me iba a hacer otras cosas. El sistema funcionaba perfecto, me generaba dinero y casi no requería inversión de tiempo de mi parte. Dediqué el tiempo libre que tenía para formarme en más temas relacionados con el mundo de la programación: C, C++, algoritmos, matemáticas discretas, criptografía, buenas prácticas, seguridad informática, software libre, GNU/Linux y otros temas que consideraba relevantes.
 
-Esta es, de manera bastante resumida, la historia sobre como empecé a programar. Siempre de manera autodidacta, [leyendo libros](/pages/libros-que-he-leido-y-resenas) y blogs, viendo tutoriales y practicando mucho.
+Esta es, de manera bastante resumida, la historia sobre como empecé a programar. Siempre de manera autodidacta, [leyendo libros](/es/pages/libros-que-he-leido-y-resenas) y blogs, viendo tutoriales y practicando mucho.
 
 ## Bootcamp en Bedu
 

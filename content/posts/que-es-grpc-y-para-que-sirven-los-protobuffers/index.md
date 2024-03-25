@@ -1,21 +1,25 @@
 ---
-title: "Libera El Potencial De Tu API Con gRPC y Protobuffers"
-date: "2023-01-19"
-description: "¿Que es una API gRPC y que son los archivos .proto y los protobuffers? ¿qué ventajas tienen los protobuffers sobre JSON y cual es el mecanismo que los vuelve tan eficientes?"
-coverImage: "images/que-es-grpc-y-protobuffers.jpg"
-categories:
-  - "arquitectura de software"
-keywords:
-  - REST
-  - arquitectura de software
-  - API
-  - buenas practicas
+aliases:
+- /que-es-grpc-y-para-que-sirven-los-protobuffers
+- /libera-el-potencial-de-tu-api-con-grpc-y-protobuffers
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+coverImage: images/que-es-grpc-y-protobuffers.jpg
+date: '2023-01-19'
+description: ¿Que es una API gRPC y que son los archivos .proto y los protobuffers?
+  ¿qué ventajas tienen los protobuffers sobre JSON y cual es el mecanismo que los
+  vuelve tan eficientes?
+keywords:
+- REST
+- arquitectura de software
+- API
+- buenas practicas
+title: Libera El Potencial De Tu API Con gRPC y Protobuffers
 ---
 
-
-En mi entrada sobre [las características básicas sobre una API REST](/caracteristicas-basicas-de-una-api-rest/) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
+En mi entrada sobre [las características básicas sobre una API REST](/es/caracteristicas-basicas-de-una-api-rest/) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
 
 ## ¿Qué es RPC?
 

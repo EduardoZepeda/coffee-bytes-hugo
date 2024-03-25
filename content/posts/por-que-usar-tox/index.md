@@ -1,20 +1,24 @@
 ---
-title: "Testeo con tox en Python, tutorial desde cero"
-date: "2019-06-18"
-categories: 
-  - "python"
-  - "testing"
-coverImage: "images/porque_deberias_usar_tox.jpg"
-description: "Aprende que es tox, como se instala, como se usan los archivos tox.ini y como configurarlo para crear tests más seguros en Python."
-keywords:
-  - "tox"
-  - "python"
-  - "testing"
+aliases:
+- /por-que-usar-tox
+- /testeo-con-tox-en-python-tutorial-desde-cero
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+- testing
+coverImage: images/porque_deberias_usar_tox.jpg
+date: '2019-06-18'
+description: Aprende que es tox, como se instala, como se usan los archivos tox.ini
+  y como configurarlo para crear tests más seguros en Python.
+keywords:
+- tox
+- python
+- testing
+title: Testeo con tox en Python, tutorial desde cero
 ---
 
-Anteriormente hablé brevemente sobre las [pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo en Python](/unittest-python-valen-la-pena-los-tests-en-python/). Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.
+Anteriormente hablé brevemente sobre las [pruebas de unittest, coverage, mock, nose, pytest y otras herramientas de testeo en Python](/es/unittest-python-valen-la-pena-los-tests-en-python/). Seguramente te estarás preguntando entonces ¿para qué necesitamos más librerías? En esta entrada vamos a hablar un poco de tox, una herramienta de testeo para probar el código en diferentes versiones de python.
 
 ## ¿Para que sirve Tox?
 

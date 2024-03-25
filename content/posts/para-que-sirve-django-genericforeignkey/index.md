@@ -1,22 +1,25 @@
 ---
-title: "¿Para qué sirve Django genericForeignkey?"
-date: "2021-02-22"
-categories: 
-  - "django"
-coverImage: "images/DjangoGenericForeignKey.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@weekendplayer/"
-description: "Aprende a usar ContentType y el tipo de campo genericForeignKey en Django para relacionar un objeto con diferentes tipos de modelo."
-keywords:
-  - python
-  - django
-  - orm
+aliases:
+- /para-que-sirve-django-genericforeignkey
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/DjangoGenericForeignKey.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
+date: '2021-02-22'
+description: Aprende a usar ContentType y el tipo de campo genericForeignKey en Django
+  para relacionar un objeto con diferentes tipos de modelo.
+keywords:
+- python
+- django
+- orm
+title: ¿Para qué sirve Django genericForeignkey?
 ---
 
 Quieres usar Django para relacionar un modelo con otro usando una llave foránea, pero el modelo que quieres relacionar es uno diferente para cada entrada de la base de datos. Django ofrece una solución a tu problema, una llave foránea genérica llamada genericForeignKey y el modelo ContentType, del que ya hable anteriormente.
 
-El tipo de campo genericForeignkey es capaz de enlazar a diferentes tipos de modelos, lo que nos permite relacionar cualquier otro modelo con el nuestro. ¿Recuerdas que en la entrada anterior hablé de ContentType? Pues ahora sí le daremos una aplicación práctica. Si quieres repasar un poco lo anterior, visita mi entrada donde hablo de [ContentType en Django](/que-hace-la-aplicacion-contenttype-en-django/)
+El tipo de campo genericForeignkey es capaz de enlazar a diferentes tipos de modelos, lo que nos permite relacionar cualquier otro modelo con el nuestro. ¿Recuerdas que en la entrada anterior hablé de ContentType? Pues ahora sí le daremos una aplicación práctica. Si quieres repasar un poco lo anterior, visita mi entrada donde hablo de [ContentType en Django](/es/que-hace-la-aplicacion-contenttype-en-django/)
 
 ## El campo genericForeignKey
 

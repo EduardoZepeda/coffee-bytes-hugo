@@ -1,14 +1,17 @@
 ---
-title: "Go: ciclos o bucles for, break, continue, defer, if y else"
-date: "2021-12-07"
-categories: 
-  - go
-coverImage: "images/go-funciones-defer-break-continue-if-else.jpg"
-description: "Sintaxis y usos básicos de las estructuras if y else, los bucles, sus tipos, break, continue y defer en el lenguaje de programación go"
-keywords:
-  - go
+aliases:
+- /go-ciclos-o-bucles-for-break-continue-defer-if-y-else
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-funciones-defer-break-continue-if-else.jpg
+date: '2021-12-07'
+description: Sintaxis y usos básicos de las estructuras if y else, los bucles, sus
+  tipos, break, continue y defer en el lenguaje de programación go
+keywords:
+- go
+title: 'Go: ciclos o bucles for, break, continue, defer, if y else'
 ---
 
 Esta entrada tratará sobre los bucles en el lenguaje de programación go.
@@ -17,9 +20,9 @@ Go maneja los bucles un poco diferente a lo que estás acostumbrado. Si ya domin
 
 Bien, pues go no existen más que los bucles for. Sí, no hay _while_ ni do _while_. ¿Pero entonces como hago para usar el resto de los bucles? Sigue leyendo y te explico.
 
-Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/).
+Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/).
 
-Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go](/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/).
+Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/).
 
 ## If y else
 

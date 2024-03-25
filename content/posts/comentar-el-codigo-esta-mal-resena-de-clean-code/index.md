@@ -1,17 +1,20 @@
 ---
-title: "¿Comentar el codigo esta mal? Reseña de Clean Code"
-date: "2020-05-16"
-categories: 
-  - "linux y devops"
-coverImage: "images/clean_code.jpg"
-description: "En esta reseña hablaré un poco sobre Clean Code, el libro de Robert C. Martin que nos explica como escribir código de manera limpia."
-keywords:
-  - libros
-  - reseñas
-  - opinion
-  - buenas practicas
+aliases:
+- /comentar-el-codigo-esta-mal-resena-de-clean-code
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/clean_code.jpg
+date: '2020-05-16'
+description: En esta reseña hablaré un poco sobre Clean Code, el libro de Robert C.
+  Martin que nos explica como escribir código de manera limpia.
+keywords:
+- libros
+- reseñas
+- opinion
+- buenas practicas
+title: ¿Comentar el codigo esta mal? Reseña de Clean Code
 ---
 
 Hay dos tipos de programadores, los que odian Clean Code y los que lo aman. Este libro desata discusiones acaloradas en internet; unos lo consideran una biblia, otros lo consideran un manual desactualizado escrito por un autoproclamado dictador pedante sobre como escribir código? ¿Y yo? Pues para ser sincero un poco de ambos. Esta entrada es mi humilde reseña del libro Clean Code de Robert C. Martín, el **creador del acrónimo SOLID.**

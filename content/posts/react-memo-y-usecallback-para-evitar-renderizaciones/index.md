@@ -1,20 +1,24 @@
 ---
-title: "React memo, useMemo y useCallback para evitar renderizaciones en React"
-date: "2021-08-10"
-categories: 
-  - "react"
-coverImage: "images/useCallbackyMemo.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@khoa-vo-2347168/"
-description: "Usa el hook de React useCallback y su HOC memo para mejorar el rendimiento de tu aplicación evitando renderizaciones en tus componentes"
-keywords:
-  - "javascript"
-  - "react"
-  - "rendimiento"
+aliases:
+- /react-memo-y-usecallback-para-evitar-renderizaciones
+- /react-memo-usememo-y-usecallback-para-evitar-renderizaciones-en-react
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- react
+coverImage: images/useCallbackyMemo.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@khoa-vo-2347168/
+date: '2021-08-10'
+description: Usa el hook de React useCallback y su HOC memo para mejorar el rendimiento
+  de tu aplicación evitando renderizaciones en tus componentes
+keywords:
+- javascript
+- react
+- rendimiento
+title: React memo, useMemo y useCallback para evitar renderizaciones en React
 ---
 
-Podemos usar react memo y useCallback para evitar que un componente se renderice, inútilmente, múltiples veces por medio de la memoización. Si no sabes que es memoización o no entiendes para que sirven los componentes de react, useCallback y memo, tengo una entrada donde explico [useCallback, useMemo y memo de React, y para que sirven.](/react-usecallback-usememo-y-memo-diferencias-y-usos/)
+Podemos usar react memo y useCallback para evitar que un componente se renderice, inútilmente, múltiples veces por medio de la memoización. Si no sabes que es memoización o no entiendes para que sirven los componentes de react, useCallback y memo, tengo una entrada donde explico [useCallback, useMemo y memo de React, y para que sirven.](/es/react-usecallback-usememo-y-memo-diferencias-y-usos/)
 
 Empecémos nuestro ejemplo con el siguiente componente:
 

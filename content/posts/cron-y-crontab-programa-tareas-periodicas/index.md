@@ -1,15 +1,19 @@
 ---
-title: "Cron y Crontab programa tareas periódicas"
-date: "2020-02-01"
-categories: 
-  - "linux y devops"
-coverImage: "images/programa_tareas_periodicas_con_cron.jpg"
-description: "Aprender a usar crontab para programar tareas repetitivas como respaldos de base de datos, envío de emails, de manera periódica en GNU/Linux usando Cron y Crontab."
-keywords:
-  - linux
-  - crontab
+aliases:
+- /cron-y-crontab-programa-tareas-periodicas
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/programa_tareas_periodicas_con_cron.jpg
+date: '2020-02-01'
+description: Aprender a usar crontab para programar tareas repetitivas como respaldos
+  de base de datos, envío de emails, de manera periódica en GNU/Linux usando Cron
+  y Crontab.
+keywords:
+- linux
+- crontab
+title: Cron y Crontab programa tareas periódicas
 ---
 
 Muchas veces queremos ejecutar un script o un comando cada cierto tiempo, por ejemplo cuando queremos realizar backups periódicos de una base de datos, enviar a tus suscriptores un correo electrónico de recordatorio, o quizás eliminar archivos de cache cada cierta cantidad de tiempo. Cron, en conjunción con Crontab te permiten correr una tarea cada cierto tiempo.
@@ -146,4 +150,4 @@ Para evitarnos disgustos existe una herramienta bastante útil llamada [crontab.
 
 ![Captura de pantalla de crontab guru](images/crontab_guru.gif)
 
-Si quieres aplicar cron y crontab, tengo una entrada donde los uso para [cambiar de wallpaper automáticamente usando Python.](/como-programar-un-cambiador-de-wallpaper-automatico-en-python/)
+Si quieres aplicar cron y crontab, tengo una entrada donde los uso para [cambiar de wallpaper automáticamente usando Python.](/es/como-programar-un-cambiador-de-wallpaper-automatico-en-python/)

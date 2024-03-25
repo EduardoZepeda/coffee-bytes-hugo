@@ -1,23 +1,26 @@
 ---
-title: "Patrones De Deployment o Despliegue Útiles"
-date: "2023-08-18"
-categories: 
-  - "devops"
-  - "arquitectura de software"
-coverImage: "images/deploy-patterns-to-test-new-functionalities.jpg"
-coverImageCredits: "Image by Tsutomu Nihei --niji 5"
-description: "Te explico algunos patrones de deploy comunes"
-keywords:
-  - devops
-  - patrones de diseño
-  - arquitectura de software
+aliases:
+- /patrones-de-deploy-comunes
+- /patrones-de-deployment-o-despliegue-utiles
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- devops
+- arquitectura de software
+coverImage: images/deploy-patterns-to-test-new-functionalities.jpg
+coverImageCredits: Image by Tsutomu Nihei --niji 5
+date: '2023-08-18'
+description: Te explico algunos patrones de deploy comunes
+keywords:
+- devops
+- patrones de diseño
+- arquitectura de software
+title: Patrones De Deployment o Despliegue Útiles
 ---
 
 ## ¿Qué es un patrón de deployment o despliegue?
 
-Un patrón de deployment (No confundir con un [patrón de diseño](/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/)) es un método automático de implementar nuevas características de una aplicación a tus usuarios. Pero no se detiene ahí, es posible obtener información extra a partir de un deploy de una aplicación, pero... ¿cómo? 
+Un patrón de deployment (No confundir con un [patrón de diseño](/es/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/)) es un método automático de implementar nuevas características de una aplicación a tus usuarios. Pero no se detiene ahí, es posible obtener información extra a partir de un deploy de una aplicación, pero... ¿cómo? 
 
 Imagínate que quieres probar una característica de tu aplicación web, pero temes que no vaya a ser del agrado de tus usuarios, o quieres ver si esta nueva característica sube o baja el porcentaje de conversiones en tu aplicación, lo cual es invaluable, sobre todo en las etapas tempranas de iteración de una aplicación. 
 

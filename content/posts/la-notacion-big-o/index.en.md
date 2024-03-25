@@ -136,6 +136,6 @@ If you are looking for something more visual to introduce you to the world of al
 
 Here are some options to practice algorithms.
 
-* [codewars](/blog/top-5-favorite-algorithm-problems-at-codewars/)
-* [One algorithm a day](/blog/an-algorithm-problem-a-day/)
+* [codewars](/en/top-5-favorite-algorithm-problems-at-codewars/)
+* [One algorithm a day](/en/an-algorithm-problem-a-day/)
 * [HackerRank](https://www.hackerrank.com/)

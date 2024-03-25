@@ -1,20 +1,23 @@
 ---
-title: "Go: introducción a las goroutines y concurrencia"
-date: "2022-01-19"
-categories: 
-  - go
-coverImage: "images/goroutines-y-concurrencia-en-go.jpg"
-description: "Post sobre las bases de las goroutines, channels o canales, waitgroups y bloqueos en el lenguaje de programación golang o go."
-keywords:
-  - go
-  - concurrencia
-  - paralelismo
-  - workers
+aliases:
+- /go-introduccion-a-las-goroutines-y-concurrencia
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/goroutines-y-concurrencia-en-go.jpg
+date: '2022-01-19'
+description: Post sobre las bases de las goroutines, channels o canales, waitgroups
+  y bloqueos en el lenguaje de programación golang o go.
+keywords:
+- go
+- concurrencia
+- paralelismo
+- workers
+title: 'Go: introducción a las goroutines y concurrencia'
 ---
 
-Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
+Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
 
 ## Concurrencia no es paralelismo
 

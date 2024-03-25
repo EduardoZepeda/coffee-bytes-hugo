@@ -1,11 +1,14 @@
 ---
-title: "Go: Manejo de Signals para Cerrar Aplicaciones"
-date: 2022-10-06
-coverImage: "images/go-manejo-signals-para-cerrar-aplicaciones.jpg"
+aliases:
+- /apagado-elegante-de-aplicaciones-en-go
+- /go-manejo-de-signals-para-cerrar-aplicaciones
+authors:
+- Eduardo Zepeda
 categories:
 - go
-authors:
-  - Eduardo Zepeda
+coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
+date: 2022-10-06
+title: 'Go: Manejo de Signals para Cerrar Aplicaciones'
 ---
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.
@@ -29,7 +32,7 @@ Las señales de Linux son bastantes, pero te dejo aquí las más importantes par
 | SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                  | kill -15 pid |                  |
 | SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por | kill -9 pid  |                  |
 
-En Linux, estas señales pueden mandarse a una aplicación por medio del [comando kill](/comandos-de-linux-que-deberias-conocer-tercera-parte/#kill), especificando el valor de la señal y el pid de la aplicación.
+En Linux, estas señales pueden mandarse a una aplicación por medio del [comando kill](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#kill), especificando el valor de la señal y el pid de la aplicación.
 
 ```go
 kill -<valor> <pid>
@@ -52,7 +55,7 @@ func gracefulShutdown() {
 
 Ahora tenemos un canal que recibe nuestra señal, pero... ¿qué hacemos con ella?
 
-¿Recuerdas que, en go, [las operaciones que mandan o reciben valores de canales son bloqueantes dentro de su propia goroutine](/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/), es decir, mantienen la ejecución del código en espera?
+¿Recuerdas que, en go, [las operaciones que mandan o reciben valores de canales son bloqueantes dentro de su propia goroutine](/es/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/), es decir, mantienen la ejecución del código en espera?
 
 Pues en este caso vamos a dejar una variable esperado por el valos del canal que acabamos de crear, bloqueando el código en ese punto.
 
@@ -78,7 +81,7 @@ func gracefulShutdown() {
 }
 ```
 
-Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute dentro de su [propia goroutine](/go-introduccion-a-las-goroutines-y-concurrencia/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
+Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute dentro de su [propia goroutine](/es/go-introduccion-a-las-goroutines-y-concurrencia/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
 
 ```go
 func main() {

@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-One of the things I like most about Django is its ORM; [one of the reasons why this framework is so popular](/blog/why-should-you-use-django-framework/). On the other hand FastAPI does not have an ORM and focuses solely on serving endpoints, showing agnostic on the basis of data. There are enough options ORM to python: django-alchemy, peewee, ponyORM, tortoise. The latter, besides being asynchronous, is inspired by the django ORM, so its syntax is quite similar, even many tortoise functions share name with its Django counterpart, so users who use the Django ORM will save a lot of time learning tortoise functions.
+One of the things I like most about Django is its ORM; [one of the reasons why this framework is so popular](/en/why-should-you-use-django-framework/). On the other hand FastAPI does not have an ORM and focuses solely on serving endpoints, showing agnostic on the basis of data. There are enough options ORM to python: django-alchemy, peewee, ponyORM, tortoise. The latter, besides being asynchronous, is inspired by the django ORM, so its syntax is quite similar, even many tortoise functions share name with its Django counterpart, so users who use the Django ORM will save a lot of time learning tortoise functions.
 
 For this tutorial I'm going to use fastAPI and tortoise-orm together so make sure you know at least the basics of the fastAPI framework and database basics.
 

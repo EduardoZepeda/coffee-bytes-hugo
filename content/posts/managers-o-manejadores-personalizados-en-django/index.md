@@ -1,24 +1,27 @@
 ---
-title: "Managers o manejadores personalizados en Django"
-date: "2021-05-28"
-categories: 
-  - "django"
-coverImage: "images/Managers_para_django.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@suju/"
-description: "Te explico que es un manager, para que sirve y como puedes crear y personalizarlos para sacarle el mayor provecho al usar el ORM de Django."
-keywords:
-  - django
-  - python
-  - orm
+aliases:
+- /managers-o-manejadores-personalizados-en-django
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Managers_para_django.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@suju/
+date: '2021-05-28'
+description: Te explico que es un manager, para que sirve y como puedes crear y personalizarlos
+  para sacarle el mayor provecho al usar el ORM de Django.
+keywords:
+- django
+- python
+- orm
+title: Managers o manejadores personalizados en Django
 ---
 
 Un Manager (o manejador) es la interfaz a través de la cual se proveen las operaciones de consulta o queries de la base de datos a los modelos de Django. Sí, me refiero a ese _objects_ que va después del nombre de tu modelo; _TuModelo.objects.all()_ y _Tumodelo.objects.filter()_. Todos los modelos de Django tienen al menos un manager. Cada vez que usas el manejador de objetos (me referiré a él como manager de aquí en adelante) en una consulta a la base de datos usando el ORM de Django estás haciendo uso de su _object manager_ predeterminado. Estos managers en Django pueden personalizarse para modificar los objetos que devuelve una consulta y podemos personalizarlos a nuestro gusto.
 
-Antes de empezar, si no sabes lo básico de Django puedes empezar con [la guia definitiva de Django](/la-guia-definitiva-de-django/)
+Antes de empezar, si no sabes lo básico de Django puedes empezar con [la guia definitiva de Django](/es/la-guia-definitiva-de-django/)
 
-Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/) te sirva más.
+Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](/es/tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/) te sirva más.
 
 ## El object manager de Django
 

@@ -1,20 +1,25 @@
 ---
-title: "Los comandos básicos de Docker y su uso"
-date: "2020-10-07"
-categories: 
-  - "docker"
-  - "linux y devops"
-coverImage: "images/DockerCursoPractico.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@huy-phan-316220/"
-description: "Aprende a usar los comandos básicos de Docker, a diferenciar imágenes y contenedores, volúmenes, crear Dockerfiles y usar docker build."
-keywords:
-  - docker
-url: "tutorial-de-comandos-basicos-de-docker"
+aliases:
+- /docker-curso-practico-con-ejemplos-en-gnu-linux
+- /los-comandos-basicos-de-docker-y-su-uso
+- /tutorial-de-comandos-basicos-de-docker
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+- linux y devops
+coverImage: images/DockerCursoPractico.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@huy-phan-316220/
+date: '2020-10-07'
+description: Aprende a usar los comandos básicos de Docker, a diferenciar imágenes
+  y contenedores, volúmenes, crear Dockerfiles y usar docker build.
+keywords:
+- docker
+title: Los comandos básicos de Docker y su uso
+url: tutorial-de-comandos-basicos-de-docker
 ---
 
-Si te leíste la entrada anterior donde explico [para que sirve Docker](/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
+Si te leíste la entrada anterior donde explico [para que sirve Docker](/es/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
 
 ## Las imágenes y los contenedores son diferentes
 
@@ -22,7 +27,7 @@ Antes de empezar hay que aclarar que en Docker trabajamos con contenedores que s
 
 Puedes pensar en las imágenes y contenedores **como clases y sus instancias, respectivamente.**
 
-Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go](/container-de-docker-con-namespaces-y-cgroups/).
+Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go](/es/container-de-docker-con-namespaces-y-cgroups/).
 
 ## Comandos básicos de Docker
 
@@ -199,7 +204,7 @@ docker run -it ubuntu
 
 Intenta ejecutar un _ls_ o un _pwd_. Podrás notar que estás dentro de un sistema operativo GNU/Linux. Puedes crear archivos, modificarlos, crear carpetas, etc.
 
-Si no sabes nada sobre comandos de GNU/Linux puedes revisar mi entrada sobre los [comandos básicos de GNU Linux: cd, ls, rm, etc.](/comandos-de-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
+Si no sabes nada sobre comandos de GNU/Linux puedes revisar mi entrada sobre los [comandos básicos de GNU Linux: cd, ls, rm, etc.](/es/comandos-de-linux-basicos-que-deberias-conocer/) para refrescar tu memoria.
 
 ```bash
 ls
@@ -312,7 +317,7 @@ Los volúmenes son la herramienta que nos permitirá almacenar información fuer
 
 Puedes pensar en ellos como partes aisladas en tu sistema, que puedes montar en el sistema de los contenedores.
 
-Docker almacena estos contenedores en la ubicación "_/var/lib/docker/volumes/nombre\_del\_volumen/\_data_". **Estas carpetas son solo accesibles para docker y el usuario root**, por lo que no tenemos los permisos para modificar su contenido directamente, usando nuestro usuario normal. Repasa los [permisos en GNU/Linux](/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) si tienes dudas.
+Docker almacena estos contenedores en la ubicación "_/var/lib/docker/volumes/nombre\_del\_volumen/\_data_". **Estas carpetas son solo accesibles para docker y el usuario root**, por lo que no tenemos los permisos para modificar su contenido directamente, usando nuestro usuario normal. Repasa los [permisos en GNU/Linux](/es/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) si tienes dudas.
 
 Vamos a tratar de dejarlo más claro con un ejemplo:
 
@@ -606,4 +611,4 @@ Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 ve
 
 ![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)
 
-Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](/docker-compose-tutorial-con-comandos-en-gnu-linux/) 
+Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](/es/docker-compose-tutorial-con-comandos-en-gnu-linux/)

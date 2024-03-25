@@ -1,16 +1,19 @@
 ---
-title: "Patrones de diseño en Python, reseña de Practical Python Design Patterns"
-date: "2020-05-31"
-categories: 
-  - "python"
-coverImage: "images/practical_python_design_patterns.jpg"
-description: "Aprende patrones de diseño en Python con el libro Practical Python Design Patterns, incluso si nunca has leído sobre el tema anteriormente."
-keywords:
-  - python
-  - patrones de diseño
-  - arquitectura de software
+aliases:
+- /patrones-de-diseno-en-python-resena-de-practical-python-design-patterns
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/practical_python_design_patterns.jpg
+date: '2020-05-31'
+description: Aprende patrones de diseño en Python con el libro Practical Python Design
+  Patterns, incluso si nunca has leído sobre el tema anteriormente.
+keywords:
+- python
+- patrones de diseño
+- arquitectura de software
+title: Patrones de diseño en Python, reseña de Practical Python Design Patterns
 ---
 
 Hola, hoy te traigo una reseña del libro de _Practical Python Design Patterns_ de Wessel Badenhorst. Este es un libro de patrones de diseño para Python, bastante sencillo de entender y con ejemplos hechos en sencillo y legible código Python. Para hablar un poco del contenido del libro voy a explicar levemente lo que es un patrón de diseño.
@@ -25,9 +28,9 @@ Cuando una persona quiere crear un vehículo que cumpla la función de transport
 
 En el software los patrones de diseño son iguales, son el acomodo y las relaciones específicas de objetos, métodos y atributos que nos permiten solucionar un problema. ¿Cómo que problemas? Prácticamente cualquier problema que se presente con demasiada frecuencia para que se llegue a una solución estandarizada.
 
-Algunos problemas muy comunes son: [el procesamiento de tareas usando un número fijo de workers](/explicacion-del-patron-de-diseno-worker-pool/), asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
+Algunos problemas muy comunes son: [el procesamiento de tareas usando un número fijo de workers](/es/explicacion-del-patron-de-diseno-worker-pool/), asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
 
-¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django](/por-que-deberias-usar-django-framework/), es un patrón de diseño.** O el patrón [debounce y Throttle](/debounce-y-throttle-en-javascript/) que se usan principalmente en Javascript.
+¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django](/es/por-que-deberias-usar-django-framework/), es un patrón de diseño.** O el patrón [debounce y Throttle](/es/debounce-y-throttle-en-javascript/) que se usan principalmente en Javascript.
 
 Los patrones de diseño facilitan que el desacoplamiento del código, lo que vuelve más sencillo agregar o remover funciones y también nos dan la seguridad de que son soluciones que ya han sido probadas una y otra vez a lo largo de los años.
 

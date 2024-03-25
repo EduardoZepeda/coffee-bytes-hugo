@@ -1,19 +1,23 @@
 ---
-title: "Examen de Certificacion Azure AZ-900 Mi Experiencia"
-date: "2022-09-02"
-coverImage: "images/mi-experiencia-con-azure.jpg"
-coverImageCredits: "Créditos de la imagen: Dmitriy Zub https://unsplash.com/es/@dimitryzub"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-description: "Te cuento mi experiencia presentando el examen de certificación Microsoft Azure AZ-900 Fundamentals"
-keywords:
-  - devops
-  - azure
-  - opinion
-  - certificacion
+aliases:
+- /examen-certificacion-azure-az-900-mi-experiencia
+- /examen-de-certificacion-azure-az-900-mi-experiencia
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/mi-experiencia-con-azure.jpg
+coverImageCredits: 'Créditos de la imagen: Dmitriy Zub https://unsplash.com/es/@dimitryzub'
+date: '2022-09-02'
+description: Te cuento mi experiencia presentando el examen de certificación Microsoft
+  Azure AZ-900 Fundamentals
+keywords:
+- devops
+- azure
+- opinion
+- certificacion
+title: Examen de Certificacion Azure AZ-900 Mi Experiencia
 ---
 
 El sábado 6 de agosto del 2022 presenté  y aprobé mi examen para la certificación Microsoft Azure AZ-900.
@@ -111,7 +115,7 @@ El proceso consiste en terminar los siguientes 4 cursos:
 * Curso de Administración de Servidores Linux
 * Curso de Introducción a la Nube con Azure
 
-En general los dos primeros son bastantes sencillos, sobre todo si ya tienes experiencia usando los [comandos básicos de la linea de comandos](/comandos-de-linux-basicos-que-deberias-conocer/), los últimos dos sí requieren algo de experiencia o mucha práctica de tu parte para aprobarlos.
+En general los dos primeros son bastantes sencillos, sobre todo si ya tienes experiencia usando los [comandos básicos de la linea de comandos](/es/comandos-de-linux-basicos-que-deberias-conocer/), los últimos dos sí requieren algo de experiencia o mucha práctica de tu parte para aprobarlos.
 
 ![Curso de Platzi de administración de servidores Linux](images/administracion-servidores-linux.jpg "Curso de administración de servidores Linux")
 

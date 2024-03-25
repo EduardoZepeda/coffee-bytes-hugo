@@ -1,21 +1,25 @@
 ---
-title: "Conoce los comandos básicos de Docker Compose"
-date: "2020-10-14"
-categories: 
-  - "docker"
-  - "linux y devops"
-coverImage: "images/DockerCompose.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@felixmittermeier/"
-description: "En este tutorial de Docker compose te explico los comandos más comunes, así como la estructura y creación de un archivo docker-compose.yml"
-keywords:
-  - docker
-  - "docker compose"
-url: "docker-compose-tutorial-con-comandos-en-gnu-linux"
+aliases:
+- /docker-compose-tutorial-con-comandos-en-gnu-linux
+- /conoce-los-comandos-basicos-de-docker-compose
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- docker
+- linux y devops
+coverImage: images/DockerCompose.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@felixmittermeier/
+date: '2020-10-14'
+description: En este tutorial de Docker compose te explico los comandos más comunes,
+  así como la estructura y creación de un archivo docker-compose.yml
+keywords:
+- docker
+- docker compose
+title: Conoce los comandos básicos de Docker Compose
+url: docker-compose-tutorial-con-comandos-en-gnu-linux
 ---
 
-Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita mi entrada de los [comandos y uso básico de Docker.](/tutorial-de-comandos-basicos-de-docker/)
+Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita mi entrada de los [comandos y uso básico de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)
 
 {{<digitalocean product="Docker y kubernetes">}}
 
@@ -23,9 +27,9 @@ Docker compose nos permite crear aplicaciones con múltiples contenedores, estos
 
 Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
 
-Docker-compose está programando usando el [lenguaje de programación go o golang](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/); el mismo con lenguaje con el que [funcionan internamente los containers de go](/container-de-docker-con-namespaces-y-cgroups/).
+Docker-compose está programando usando el [lenguaje de programación go o golang](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/); el mismo con lenguaje con el que [funcionan internamente los containers de go](/es/container-de-docker-con-namespaces-y-cgroups/).
 
-Docker compose permite automatizar procesos, y es usado en proyectos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
+Docker compose permite automatizar procesos, y es usado en proyectos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](/es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
 
 ## Estructura de un archivo docker-compose.yml
 
@@ -96,7 +100,7 @@ services:
 
 En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. 
 
-Si no sabes que es un Dockerfile acá te explico [como funciona y para que sirve Docker.](/que-es-docker-y-para-que-sirve/)
+Si no sabes que es un Dockerfile acá te explico [como funciona y para que sirve Docker.](/es/que-es-docker-y-para-que-sirve/)
 
 ```docker
 version: "3.8"
@@ -190,7 +194,7 @@ En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya est�
 
 ### environment
 
-La configuración environment nos permite establecer una lista de [variables de entorno](/comandos-de-linux-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
+La configuración environment nos permite establecer una lista de [variables de entorno](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
 
 ```docker
 version: '3.8'

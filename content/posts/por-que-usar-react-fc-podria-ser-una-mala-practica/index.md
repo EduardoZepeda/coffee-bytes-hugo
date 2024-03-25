@@ -1,21 +1,24 @@
 ---
-title: "¿Por qué usar React.FC podria ser una mala practica?"
-date: "2022-02-23"
-categories: 
-  - "opiniones"
-  - "typescript"
-coverImage: "images/react-fc-mala-practica.jpg"
-description: "En esta entrada hablo de las razones por las que algunos desarrolladores afirman que React.FC es una mala práctica en React y Typescript"
-keywords:
-  - "react"
-  - "typescript"
-  - "javascript"
-  - "opinion"
+aliases:
+- /por-que-usar-react-fc-podria-ser-una-mala-practica
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- opiniones
+- typescript
+coverImage: images/react-fc-mala-practica.jpg
+date: '2022-02-23'
+description: En esta entrada hablo de las razones por las que algunos desarrolladores
+  afirman que React.FC es una mala práctica en React y Typescript
+keywords:
+- react
+- typescript
+- javascript
+- opinion
+title: ¿Por qué usar React.FC podria ser una mala practica?
 ---
 
-Cuando usamos Typescript con React y queremos [pasarle un _children_ como prop a alguno de nuestros componentes](/types-para-react-components-con-children/), necesitamos indicar el type. Generalmente se suele usar el type _React.FC_, el cual es el nombre abreviado de _React.FunctionComponent_. Con esto el mensaje de Typescript que nos advierte de un children con tipo any desaparecerá.
+Cuando usamos Typescript con React y queremos [pasarle un _children_ como prop a alguno de nuestros componentes](/es/types-para-react-components-con-children/), necesitamos indicar el type. Generalmente se suele usar el type _React.FC_, el cual es el nombre abreviado de _React.FunctionComponent_. Con esto el mensaje de Typescript que nos advierte de un children con tipo any desaparecerá.
 
 ```jsx
 const Componente: React.FC = ({ children }) => {

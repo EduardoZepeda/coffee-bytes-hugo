@@ -1,19 +1,23 @@
 ---
-title: "Digital Ocean, análisis y mi experiencia como usuario"
-date: "2021-01-14"
-categories: 
-  - "arquitectura de software"
-  - "opiniones"
-coverImage: "images/Mi-experiencia-digital-ocean.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/"
-description: "En esta entrada de platico mi experiencia usando la plataforma Digital Ocean, así como las opciones que tiene para ofrecerte como developer"
-keywords:
-  - digital ocean
-  - opinion
-  - kubernetes
-  - deploy
+aliases:
+- /digital-ocean-analisis-y-mi-experiencia
+- /digital-ocean-analisis-y-mi-experiencia-como-usuario
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- arquitectura de software
+- opiniones
+coverImage: images/Mi-experiencia-digital-ocean.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/
+date: '2021-01-14'
+description: En esta entrada de platico mi experiencia usando la plataforma Digital
+  Ocean, así como las opciones que tiene para ofrecerte como developer
+keywords:
+- digital ocean
+- opinion
+- kubernetes
+- deploy
+title: Digital Ocean, análisis y mi experiencia como usuario
 ---
 
 ¿Estás eligiendo un servicio de hosting pero no sabes cual elegir? De seguro ya tuviste contacto con la publicidad de Digital Ocean pero quieres escuchar una opinión real de lo que tienen para ofrecer. Llevo usando Digital Ocean como hosting de mis proyectos personales por varios años y te platico como ha sido mi experiencia y lo que puedes encontrar si decides contratar sus servicios.
@@ -46,7 +50,7 @@ Ahora sí, pasemos a Digital Ocean.
 
 ## Droplets en Digital Ocean
 
-Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.](/comandos-de-linux-basicos-que-deberias-conocer/)
+Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.](/es/comandos-de-linux-basicos-que-deberias-conocer/)
 
 Una vez que creas un Droplet este se encuentra disponible en menos de un minuto.
 
@@ -120,7 +124,7 @@ Yo he usado Digital Ocean para hostear proyectos personales y también para mane
 
 ![Indicadores de Lighthose para coffeebytes.dev](images/Coffeebytes-lighthose-indicadores.png)
 
-Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/mi-experiencia-usando-easywp-y-namecheap/)
+Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/es/mi-experiencia-usando-easywp-y-namecheap/)
 
 ## Resumiendo
 

@@ -1,14 +1,17 @@
 ---
-title: "Go: channels, entendiendo los deadlocks o puntos muertos"
-date: "2022-01-26"
-categories: 
-  - go
-coverImage: "images/go-deadlock-y-goroutines.jpg"
-description: "En esta entrada trato los deadlocks en go, las causas del error fatal error: all goroutines are asleep - deadlock! y como prevenirlo."
-keywords:
-  - go
+aliases:
+- /go-channels-entendiendo-los-deadlocks-o-puntos-muertos
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-deadlock-y-goroutines.jpg
+date: '2022-01-26'
+description: 'En esta entrada trato los deadlocks en go, las causas del error fatal
+  error: all goroutines are asleep - deadlock! y como prevenirlo.'
+keywords:
+- go
+title: 'Go: channels, entendiendo los deadlocks o puntos muertos'
 ---
 
 Cuando trabajamos con channels hay un error bastante común que ocurre cuando no se está familiarizado con los conceptos, el error es "_fatal error: all goroutines are asleep - deadlock!_", traducido significa algo como "error fatal: todas las goroutines están dormidas - en un punto muerto". La primera vez que vi este error me confundió mucho y, aunque sabía como solucionarlo, no entendía porque sucedía, así que en esta entrada te explico porque sucede como me hubiera gustado haberlo leído en su momento.
@@ -95,7 +98,7 @@ En un deadlock hay una goroutine que está esperando leer o escribir en un canal
 
 ### Prevenir deadlocks en go con goroutines
 
-En la [introducción a los channels o canales en go](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/), te dije que la capacidad por defecto de un canal es de 0, esto provoca que no podamos almacenar datos en los canales de manera predeterminada. Si intentamos almacenar un dato en un canal, obtendremos un error por parte del compilador, pues ya no existe otra goroutine que reciba el valor de manera inmediata.
+En la [introducción a los channels o canales en go](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/), te dije que la capacidad por defecto de un canal es de 0, esto provoca que no podamos almacenar datos en los canales de manera predeterminada. Si intentamos almacenar un dato en un canal, obtendremos un error por parte del compilador, pues ya no existe otra goroutine que reciba el valor de manera inmediata.
 
 Para prevenir un deadlock, podemos usar inmediatamente el dato del canal creando una goroutine que use el valor del canal.
 

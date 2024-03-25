@@ -1,25 +1,29 @@
 ---
-title: "Tutorial Login y Registro con Django Rest Framework DRF y JWT"
-url: "login-con-django-rest-framework-drf"
-date: "2021-08-17"
-categories: 
-  - "django"
-coverImage: "images/AutenticacionConDRF.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@sean-manning-214956/"
-description: "Tutorial para implementar login y registro usuarios en django con las librerías dj-rest-auth y django-allauth usando JWT y también tokens normales"
-keywords:
-  - REST
-  - django
-  - python
-  - api
-  - jwt
+aliases:
+- /login-con-django-rest-framework-drf
+- /tutorial-login-y-registro-con-django-rest-framework-drf-y-jwt
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/AutenticacionConDRF.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@sean-manning-214956/
+date: '2021-08-17'
+description: Tutorial para implementar login y registro usuarios en django con las
+  librerías dj-rest-auth y django-allauth usando JWT y también tokens normales
+keywords:
+- REST
+- django
+- python
+- api
+- jwt
+title: Tutorial Login y Registro con Django Rest Framework DRF y JWT
+url: login-con-django-rest-framework-drf
 ---
 
 Casi todas las aplicaciones complejas en Django necesitan vistas para Login, Logout, reinicio y cambio de contraseñas, así como registro de usuarios. Sin embargo tanto Django como Django REST Framework (DRF) se muestran completamente agnósticos respecto a su implementación, y delegan la responsabilidad de esas funciones en los usuarios de sus frameworks. Afortunadamente hay librerías que vuelven bastante sencilla esa tarea.
 
-Si estás por desarrollar una API, tengo una entrada con [recomendaciones sobre diseño de APIs REST](/caracteristicas-basicas-de-una-api-rest/) que puede servirte bastante.
+Si estás por desarrollar una API, tengo una entrada con [recomendaciones sobre diseño de APIs REST](/es/caracteristicas-basicas-de-una-api-rest/) que puede servirte bastante.
 
 ## Autenticación y login de usuarios con DRF
 
@@ -174,7 +178,7 @@ Como viste, ya podemos usar el token que tenemos para obtener una respuesta de l
 
 dj-rest-auth también cuenta con soporte para JWT. Para usar los JWT vamos a instalar la librería djangorestframework-simplejwt
 
-Si no sabes que es JWT o quieres profundizar más en el tema, tengo una entrada donde explico los detalles de la [autenticación en django usando JWT.](/django-rest-framework-y-jwt-para-autenticar-usuarios/) Y como contraparte, también tengo una traducción de stop using JWT for sessions, donde se explica porque pudiera no ser tan buena idea usar JWT para sesiones.
+Si no sabes que es JWT o quieres profundizar más en el tema, tengo una entrada donde explico los detalles de la [autenticación en django usando JWT.](/es/django-rest-framework-y-jwt-para-autenticar-usuarios/) Y como contraparte, también tengo una traducción de stop using JWT for sessions, donde se explica porque pudiera no ser tan buena idea usar JWT para sesiones.
 
 ```bash
 pipenv install djangorestframework-simplejwt

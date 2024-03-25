@@ -1,20 +1,25 @@
 ---
-title: "Explicación del Patron De Diseño Worker Pool"
-date: "2023-06-28"
-coverImage: "images/worker-pool-patron.jpg"
-description: "Te explico como funciona el patrón de diseño worker pool, el job queue o cola de tareas ideal para manejar con lenguajes de programación que soporten la concurrencia."
-categories:
-  - "Arquitectura de software"
-  - "Go"
-keywords:
-  - "Go"
-  - "Patrones de diseño"
-  - "Worker pool"
-  - "Concurrencia"
-  - "Paralelismo"
-  - "Workers"
+aliases:
+- /el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go
+- /explicacion-del-patron-de-diseno-worker-pool
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- Arquitectura de software
+- Go
+coverImage: images/worker-pool-patron.jpg
+date: '2023-06-28'
+description: Te explico como funciona el patrón de diseño worker pool, el job queue
+  o cola de tareas ideal para manejar con lenguajes de programación que soporten la
+  concurrencia.
+keywords:
+- Go
+- Patrones de diseño
+- Worker pool
+- Concurrencia
+- Paralelismo
+- Workers
+title: Explicación del Patron De Diseño Worker Pool
 ---
 
 Esta entrada va sobre un patrón de diseño del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.
@@ -32,13 +37,13 @@ Esto puede pintar bastante bien, al principio, pero tiene múltiples desventajas
 
 Lo mejor sería mantener el uso de memoria constante y evitar crear y destruir workers frecuentemente. Para esto, el patrón worker pool funciona perfecto.
 
-Worker pool es un [patrón de diseño](/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/) que viene para suplir estas deficiencias. 
+Worker pool es un [patrón de diseño](/es/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/) que viene para suplir estas deficiencias. 
 
 Hay desarrolladores que han usado este patrón para [manejar un millón de peticiones por minuto en go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang)
 
 ## ¿Cómo funciona el patrón de diseño worker pool?
 
-Partimos de una cola de tareas por ejecutar, estas pueden estar fijas o crearse dinámicamente. Luego, en lugar de crear y destruir múltiples workers ([goroutines en el caso de go](/go-introduccion-a-las-goroutines-y-concurrencia/)) constantemente, creamos un **número fijo de workers** y las ponemos en un ciclo, en el que estarán escuchando constantemente información de la queue o cola de tareas (por medio de un [canal o channel en el caso de lenguajes como Go](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/)). De esta manera mantendremos nuestro manejo de memoria mucho más estable y predecible, además de que limitamos el impacto que ejercerían la creación y destrucción constantes de workers.
+Partimos de una cola de tareas por ejecutar, estas pueden estar fijas o crearse dinámicamente. Luego, en lugar de crear y destruir múltiples workers ([goroutines en el caso de go](/es/go-introduccion-a-las-goroutines-y-concurrencia/)) constantemente, creamos un **número fijo de workers** y las ponemos en un ciclo, en el que estarán escuchando constantemente información de la queue o cola de tareas (por medio de un [canal o channel en el caso de lenguajes como Go](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/)). De esta manera mantendremos nuestro manejo de memoria mucho más estable y predecible, además de que limitamos el impacto que ejercerían la creación y destrucción constantes de workers.
 
 Por último, de manera opcional, podemos guardar los resultados de estas tareas en una cola desde la cual podrán ser leídos más adelante.
 
@@ -115,4 +120,4 @@ class ResultsQueue{
 }
 ```
 
-Este patrón de diseño es muy útil cuando hay que procesar candidades enormes de tareas y cuando no queremos sobrecargar el sistema. Y, como puedes suponer es bastante popular y útil en lenguajes de programación que utilizan fuertemente la concurrencia, tales como [el lenguaje de programación Go.](/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/)
+Este patrón de diseño es muy útil cuando hay que procesar candidades enormes de tareas y cuando no queremos sobrecargar el sistema. Y, como puedes suponer es bastante popular y útil en lenguajes de programación que utilizan fuertemente la concurrencia, tales como [el lenguaje de programación Go.](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/)

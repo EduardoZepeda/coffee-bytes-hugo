@@ -1,16 +1,19 @@
 ---
-title: "No cometas este error al usar arrays en Python"
-date: "2021-04-07"
-categories: 
-  - "python"
-coverImage: "images/NoCometasEsteError.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@nishizuka-25426/"
-description: "¿Por qué cuando cambio un elemento de un array en una matriz Python se cambian todos las demás? Te explico porqué sucede y como prevenirlo."
-keywords:
-  - python
-  - rendimiento
+aliases:
+- /no-cometas-este-error-al-usar-arrays-en-python
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- python
+coverImage: images/NoCometasEsteError.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@nishizuka-25426/
+date: '2021-04-07'
+description: ¿Por qué cuando cambio un elemento de un array en una matriz Python se
+  cambian todos las demás? Te explico porqué sucede y como prevenirlo.
+keywords:
+- python
+- rendimiento
+title: No cometas este error al usar arrays en Python
 ---
 
 El otro día estaba resolviendo una kata en [codewars](http://www.codewars.com/r/qsX8Ww), uno de los pasos del problema necesitaba de una matriz bidimensional, en palabras más mundanas: un array de arrays. En Python es súper sencillo crear una matriz bidimensional usando el operador de multiplicación, como si se tratara de números.
@@ -20,7 +23,7 @@ arr = [0]*5
 #[0, 0, 0, 0, 0]
 ```
 
-Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que puede servirte muchísimo: ["Inmersion en Python", totalmente gratuito y en español.](/aprende-python-desde-cero-con-este-libro-gratuito/)
+Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que puede servirte muchísimo: ["Inmersion en Python", totalmente gratuito y en español.](/es/aprende-python-desde-cero-con-este-libro-gratuito/)
 
 ## La manera incorrecta de crear matrices en Python
 

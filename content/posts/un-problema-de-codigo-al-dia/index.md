@@ -1,16 +1,20 @@
 ---
-title: "Un problema de algoritmos al dia"
-date: "2019-06-04"
-categories: 
-  - "linux y devops"
-coverImage: "images/un_problema_de_codigo_al_dia.jpg"
-description: "¿Quieres practicar un problema de algoritmos al día para tus entrevistas laborales? Checa esta página gratuita para hacerlo."
-keywords:
-  - "internet"
-  - "algoritmos"
-  - "bigo"
+aliases:
+- /un-problema-de-codigo-al-dia
+- /un-problema-de-algoritmos-al-dia
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/un_problema_de_codigo_al_dia.jpg
+date: '2019-06-04'
+description: ¿Quieres practicar un problema de algoritmos al día para tus entrevistas
+  laborales? Checa esta página gratuita para hacerlo.
+keywords:
+- internet
+- algoritmos
+- bigo
+title: Un problema de algoritmos al dia
 ---
 
 El otro día, uno de los youtubers que sigo recomendó una página para recibir algoritmos por correo electrónico ¿Qué te parecería recibir un problema de algoritmos al día en tu correo electrónico? Son 7 problemas por semana y 365 problemas por año. Imagina cuanto mejoraría tu habilidad de resolución de problemas y capacidad analítica. ¿Aún no es suficiente? ¿qué tal si te digo que esos acertijos de código son preguntas frecuentes en entrevistas laborales de empresas top de tecnología de talla mundial?
@@ -23,7 +27,7 @@ Para recibir un problema de algoritmos basta tu correo electrónico. Los problem
 
 Me suscribí a su lista hace algo de tiempo y actualmente recibo por correo electrónico sus desafíos. Hay unos en los que me ha tomado un par de minutos dar con el algoritmo para resolverlos y para otros he tenido que meditar el problema durante varias horas, para dar con una solución. Todos muy interesantes, eso sí.
 
-Pero, hay una mala noticia; las soluciones no te llegan por correo electrónico, sino que forman parte del paquete premium, de cobro, ¿no esperabas que trabajaran de gratis verdad? El paquete premium recibe un análisis detallado de las soluciones y de su eficiencia, utilizando [notación Big O](/la-notacion-big-o/). Sin embargo esto no es un obstáculo de ninguna manera, pues puedes darte cuenta por ti mismo si tu solución satisface los requerimientos o no tan solo leyendo el contenido del correo electrónico; el análisis de eficiencia ya es otra historia.
+Pero, hay una mala noticia; las soluciones no te llegan por correo electrónico, sino que forman parte del paquete premium, de cobro, ¿no esperabas que trabajaran de gratis verdad? El paquete premium recibe un análisis detallado de las soluciones y de su eficiencia, utilizando [notación Big O](/es/la-notacion-big-o/). Sin embargo esto no es un obstáculo de ninguna manera, pues puedes darte cuenta por ti mismo si tu solución satisface los requerimientos o no tan solo leyendo el contenido del correo electrónico; el análisis de eficiencia ya es otra historia.
 
 ## Un par de ejemplos
 

@@ -1,19 +1,23 @@
 ---
-title: "Entiende los permisos en GNU Linux y el comando chmod"
-date: "2019-05-29"
-categories: 
-  - "linux y devops"
-coverImage: "images/permisos_gnu_linux.jpg"
-description: "Entiende de una vez como funciona el comando chmod, encargado de asignar los permisos en GNU/Linux a carpetas y archivos."
-keywords:
-  - linux
+aliases:
+- /permisos-en-gnu-linux-y-el-comando-chmod
+- /entiende-los-permisos-en-gnu-linux-y-el-comando-chmod
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- linux y devops
+coverImage: images/permisos_gnu_linux.jpg
+date: '2019-05-29'
+description: Entiende de una vez como funciona el comando chmod, encargado de asignar
+  los permisos en GNU/Linux a carpetas y archivos.
+keywords:
+- linux
+title: Entiende los permisos en GNU Linux y el comando chmod
 ---
 
-La entrada anterior fue la tercera parte sobre la serie de los comandos más comunes de GNU/Linux. Para finalizar la entrada escribí acerca del [comando chmod, que gestiona los permisos](/comandos-de-linux-que-deberias-conocer-tercera-parte/). Este comando chmod es uno de los comandos un poco más complejos de GNU/Linux, no por su variedad de opciones, sino por los conocimientos previos que se requieren para poder usarlo correctamente.
+La entrada anterior fue la tercera parte sobre la serie de los comandos más comunes de GNU/Linux. Para finalizar la entrada escribí acerca del [comando chmod, que gestiona los permisos](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/). Este comando chmod es uno de los comandos un poco más complejos de GNU/Linux, no por su variedad de opciones, sino por los conocimientos previos que se requieren para poder usarlo correctamente.
 
-En esta entrada voy a ampliar un poco el tema de los permisos y mostraré las dos diferentes maneras del comando chmod para asignar permisos a un archivo. Para esta entrada vamos a usar varios comandos básicos de GNU/Linux, si no estás muy familiarizado con los comandos básicos [entra aquí donde explico algunos comandos básicos.](/comandos-de-linux-basicos-que-deberias-conocer/)
+En esta entrada voy a ampliar un poco el tema de los permisos y mostraré las dos diferentes maneras del comando chmod para asignar permisos a un archivo. Para esta entrada vamos a usar varios comandos básicos de GNU/Linux, si no estás muy familiarizado con los comandos básicos [entra aquí donde explico algunos comandos básicos.](/es/comandos-de-linux-basicos-que-deberias-conocer/)
 
 ## Tipos de permisos en GNU/Linux
 

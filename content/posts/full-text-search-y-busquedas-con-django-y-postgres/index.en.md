@@ -19,11 +19,11 @@ authors:
 
 Sometimes when we type we make a mistake in a letter, we can repeat it, omit it or change it for another one. That mistake can lead to a series of different results in a web search, or even no results at all. Maybe for a blog it does not represent a threat, but for an ecommerce it can mean the loss of a sale, and for those stores with a huge traffic, a successful text search, either using full text search or something more complex, in Django or another framework, can represent the difference between losses or huge profits.
 
-Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack](/blog/full-text-search-and-searches-with-django-and-postgres/).
+Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack](/en/full-text-search-and-searches-with-django-and-postgres/).
 
-If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django](/blog/why-should-you-use-django-framework/)
+If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django](/en/why-should-you-use-django-framework/)
 
-If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.](/blog/nd-advanced-searches-with-django-and-postgres/) post.
+If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.](/en/nd-advanced-searches-with-django-and-postgres/) post.
 
 Let's start with the most basic searches.
 
@@ -62,7 +62,7 @@ If you got an error when you ran the above search, it is because you have not in
 
 ### Prerequisites
 
-Have psycopg2 and its dependencies installed in [your virtual environment](/blog/pipenv-the-virtual-environment-manager-you-don-t-know/)
+Have psycopg2 and its dependencies installed in [your virtual environment](/en/pipenv-the-virtual-environment-manager-you-don-t-know/)
 
 ```python
 pipenv install psycopg2 # también sirve con pip install psycopg2
@@ -128,7 +128,7 @@ There, now we have the _unaccent_ extension installed and, if you uncommented th
 
 ### Installing extensions from the Postgres terminal
 
-Another way to install the extensions is to execute the required command directly from the database. For this example we install _TrigramExtension_, the extension required to use trigram searches. I will cover [trigrams with django and postgres](/blog/nd-advanced-searches-with-django-and-postgres/), so don't worry about that, just focus on the process of installing the extensions.
+Another way to install the extensions is to execute the required command directly from the database. For this example we install _TrigramExtension_, the extension required to use trigram searches. I will cover [trigrams with django and postgres](/en/nd-advanced-searches-with-django-and-postgres/), so don't worry about that, just focus on the process of installing the extensions.
 
 To enter the database terminal I will use the dbshell command provided by Django.
 
@@ -270,4 +270,4 @@ Videogame.objects.filter(search_vector='revenge')
 
 If you are interested to deepen more about how Postgres handles internally these functions, I found an excellent article on [text search in postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) where they explain in SQL code the search vectors.
 
-Enter my next post where I will talk about [advanced searches with Postgres and Django](/blog/trigrams-and-advanced-searches-with-django-and-postgres/).
+Enter my next post where I will talk about [advanced searches with Postgres and Django](/en/trigrams-and-advanced-searches-with-django-and-postgres/).

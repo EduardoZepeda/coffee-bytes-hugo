@@ -52,7 +52,7 @@ Now let's move on to Digital Ocean.
 
 ## Droplets in Digital Ocean
 
-Digital Ocean works with Droplets, which are virtual servers that are rented to you. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command](/blog/basic-linux-commands-you-should-know/).
+Digital Ocean works with Droplets, which are virtual servers that are rented to you. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command](/en/basic-linux-commands-you-should-know/).
 
 Once you create a Droplet this is available in less than a minute.
 
@@ -126,7 +126,7 @@ I have used Digital Ocean to host personal projects and also to manage my domain
 
 ![Indicadores de Lighthose para coffeebytes.dev](images/Coffeebytes-lighthose-indicadores.png)
 
-It should be clarified that I did modify some things from the default settings to have a better performance. For example, enabling HTTP2, instead of the default HTTP, as well as installing the HTTP certificate using cerbot in the terminal, as the default installation did not include it. Extra tasks that other hosting services would have solved for me, such as [easywp](/blog/my-experience-using-easywp-and-namecheap/).
+It should be clarified that I did modify some things from the default settings to have a better performance. For example, enabling HTTP2, instead of the default HTTP, as well as installing the HTTP certificate using cerbot in the terminal, as the default installation did not include it. Extra tasks that other hosting services would have solved for me, such as [easywp](/en/my-experience-using-easywp-and-namecheap/).
 
 ## Summarizing
 

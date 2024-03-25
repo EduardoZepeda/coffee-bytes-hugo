@@ -1,19 +1,22 @@
 ---
-title: "Go: maps o diccionarios"
-date: "2021-12-21"
-categories: 
-  - go
-coverImage: "images/go-maps-o-diccionarios.jpg"
-description: "Te explico como funcionan un map en go o golang y aprende a declararlos, crearlos explícitamente con make y recorrerlos con range."
-keywords:
-  - go
+aliases:
+- /go-maps-o-diccionarios
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- go
+coverImage: images/go-maps-o-diccionarios.jpg
+date: '2021-12-21'
+description: Te explico como funcionan un map en go o golang y aprende a declararlos,
+  crearlos explícitamente con make y recorrerlos con range.
+keywords:
+- go
+title: 'Go: maps o diccionarios'
 ---
 
 En el lenguaje de programación go, un map o hash table es el equivalente de un diccionario; poseen una llave o key que se relaciona con un valor o value. La llave y el valor pueden ser de diferentes tipos de datos, pero todas las llaves deben ser de un solo tipo y todos los valores deben ser del mismo tipo.
 
-Junto con el [array y el slice de go](/go-slices-y-arrays/), un map es una estructura que nos sirve como una colección de valores.
+Junto con el [array y el slice de go](/es/go-slices-y-arrays/), un map es una estructura que nos sirve como una colección de valores.
 
 ## Funcionamiento interno de un map en go
 

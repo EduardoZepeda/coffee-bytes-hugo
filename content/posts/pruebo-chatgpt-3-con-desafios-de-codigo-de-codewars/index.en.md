@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence](/blog/chat-gpt-searles-chinese-room-and-consciousness/) against three codewars challenges.
+ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence](/en/chat-gpt-searles-chinese-room-and-consciousness/) against three codewars challenges.
 
 ## How does Codewars work?
 
@@ -34,7 +34,7 @@ To start with I was testing ChatGPT with a series of simple and popular requests
 * Palindromes
 * Validate email, strings, numbers
 * Very specific tasks of some frameworks. For example: [Replace User model in Django.
-User model in Django](/blog/how-to-customize-the-user-model-in-django/)
+User model in Django](/how-to-customize-the-user-model-in-django/)
 
 ![](images/ChatGPT-Django-users.png "Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField.")
 
@@ -128,7 +128,7 @@ function isPalindrome(num) {
 }
 ```
 
-However, there is a small bug, despite producing the results correctly, the code fails the tests because the [Big O performance](/blog/the-big-o-notation/) of the artificial intelligence is insufficient for the test.
+However, there is a small bug, despite producing the results correctly, the code fails the tests because the [Big O performance](/en/the-big-o-notation/) of the artificial intelligence is insufficient for the test.
 
 I tried to get the correct answer multiple times, even specifying the complexity of Big O with different inputs, but it was impossible to get the correct result.
 

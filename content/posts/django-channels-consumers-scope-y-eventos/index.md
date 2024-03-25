@@ -1,17 +1,20 @@
 ---
-title: "Django channels: consumers, scope y eventos"
-date: "2021-11-09"
-categories: 
-  - "django"
-coverImage: "images/Django-channels-tutorial.jpg"
-coverImageCredits: "créditos a https://www.pexels.com/@yaroslav-shuraev"
-description: "Aprende los fundamentos de django channels: consumers, scope y eventos, para manejar las peticiones websockets (ws) y devolver respuestas."
-keywords:
-  - django
-  - python
-  - websockets
+aliases:
+- /django-channels-consumers-scope-y-eventos
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/Django-channels-tutorial.jpg
+coverImageCredits: créditos a https://www.pexels.com/@yaroslav-shuraev
+date: '2021-11-09'
+description: 'Aprende los fundamentos de django channels: consumers, scope y eventos,
+  para manejar las peticiones websockets (ws) y devolver respuestas.'
+keywords:
+- django
+- python
+- websockets
+title: 'Django channels: consumers, scope y eventos'
 ---
 
 ¿Por qué Django channels? Porque Django no nos permite crear aplicaciones con comunicación en tiempo real de manera nativa. Django channels le otorga a Django la capacidad manejar protocolos que requieren una conexión persistente, como WebSockets, MQTT, chatbots, mientras mantiene intacta su integración con el sistema de sesiones, autenticación y el resto del framework.
@@ -28,7 +31,7 @@ Si tienes prisa puedes conformarte con estas definiciones que pecan de simplista
 
 Un websocket es una conexión persistente que existe entre el navegador de un usuario y un servidor web.
 
-Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go](/go-uso-de-channels-o-canales-para-comunicar-goroutinas/).
+Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/).
 
 ## Django channels requiere ASGI
 

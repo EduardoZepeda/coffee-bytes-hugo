@@ -1,21 +1,26 @@
 ---
-title: "Tutorial de Django y HTMX, web apps modernas sin escribir JS"
-url: "django-y-htmx-web-apps-modernas-sin-escribir-js"
-date: "2021-07-14"
-categories: 
-  - "django"
-  - "htmx"
-coverImage: "images/Djangohtmx.jpg"
-coverImageCredits: "Créditos https://www.pexels.com/es-es/@quionie-gaban-11920925/"
-description: "Tutorial de Django y HTMX para crear aplicaciones web, sin necesidad de Frameworks como react mantener las mismas funcionalidades y con mucho menos código Javascript"
-keywords:
-  - django
-  - htmx
-  - react
-  - javascript
-  - framework
+aliases:
+- /django-y-htmx-web-apps-modernas-sin-escribir-js
+- /tutorial-de-django-y-htmx-web-apps-modernas-sin-escribir-js
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+- htmx
+coverImage: images/Djangohtmx.jpg
+coverImageCredits: Créditos https://www.pexels.com/es-es/@quionie-gaban-11920925/
+date: '2021-07-14'
+description: Tutorial de Django y HTMX para crear aplicaciones web, sin necesidad
+  de Frameworks como react mantener las mismas funcionalidades y con mucho menos código
+  Javascript
+keywords:
+- django
+- htmx
+- react
+- javascript
+- framework
+title: Tutorial de Django y HTMX, web apps modernas sin escribir JS
+url: django-y-htmx-web-apps-modernas-sin-escribir-js
 ---
 
 El otro día estaba probando una librería llamada htmx, que promete volver mucho más sencilla la creación de una web, sí, otra librería, pero con la diferencia de que esta no necesita que escribas Javascript (JS) y que, además, combina bastante bien con Django. Htmx basa todo su funcionamiento en escribir atributos en tus etiquetas HTML, que se encargan de abstraer todo el JS que corre tras bambalinas. El resultado es código formado únicamente por etiquetas HTML y sus atributos, sin código JS (bueno, quizá solo un poco). No, no tienes que abandonar todo el JS, tranquilo, también puedes combinar htmx con tus librerías favoritas y código vanilla JS.
@@ -51,7 +56,7 @@ Esquema del funcionamiento de HTMX
 
 Para este tutorial he creado un repositorio en github, por lo que si quieres ahorrarte todo el boilerplate, puedes simplemente clonar todo el proyecto e ir siguiendo el código conforme lo voy escribiendo.
 
-Recuerda que si no estás convencido de porque deberías usar Django revisa mi entrada donde explico las [ventajas y desventajas de Django](/por-que-deberias-usar-django-framework/). Si no tienes idea de como se usa Django mejor empieza con la [guia de Django](/la-guia-definitiva-de-django/)
+Recuerda que si no estás convencido de porque deberías usar Django revisa mi entrada donde explico las [ventajas y desventajas de Django](/es/por-que-deberias-usar-django-framework/). Si no tienes idea de como se usa Django mejor empieza con la [guia de Django](/es/la-guia-definitiva-de-django/)
 
 ```bash
  # Ejecuta esto para no escribir el código
@@ -68,7 +73,7 @@ password: contrasenaNoSegura
 
 ### Instalación de modelos y dependencias de Django
 
-Para empezar, vamos a crear un entorno virtual con [el gestor de entornos virtuales pipenv](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Tú puedes usar [pip](/python-virtualenv-tutorial-basico-en-linux/), poetry, conda o el que prefieras.
+Para empezar, vamos a crear un entorno virtual con [el gestor de entornos virtuales pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Tú puedes usar [pip](/es/python-virtualenv-tutorial-basico-en-linux/), poetry, conda o el que prefieras.
 
 ```bash
 pipenv shell

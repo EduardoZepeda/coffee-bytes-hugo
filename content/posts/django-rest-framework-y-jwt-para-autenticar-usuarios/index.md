@@ -1,19 +1,22 @@
 ---
-title: "Django Rest Framework y JWT para autenticar usuarios"
-date: "2021-06-14"
-categories: 
-  - "django"
-coverImage: "images/JWT.jpg"
-coverImageCredits: "Créditos a https://www.pexels.com/es-es/@iamikeee/"
-description: "Aprende a implementar la autenticación básica en Django usando JWT y Django Rest Framework por medio de tokens de acceso y de refresco."
-keywords:
-  - django
-  - jwt
-  - REST
-  - api
-  - drf
+aliases:
+- /django-rest-framework-y-jwt-para-autenticar-usuarios
 authors:
-  - Eduardo Zepeda
+- Eduardo Zepeda
+categories:
+- django
+coverImage: images/JWT.jpg
+coverImageCredits: Créditos a https://www.pexels.com/es-es/@iamikeee/
+date: '2021-06-14'
+description: Aprende a implementar la autenticación básica en Django usando JWT y
+  Django Rest Framework por medio de tokens de acceso y de refresco.
+keywords:
+- django
+- jwt
+- REST
+- api
+- drf
+title: Django Rest Framework y JWT para autenticar usuarios
 ---
 
 Los JWT (JSON Web Tokens) se han popularizado enormemente, incluso algunos las consideran un reemplazo de los clásicos Tokens que usan otros frameworks, tales como Django Rest Framework. Usar JWT o Tokens normales (SWT) permite guardar toda la información de nuestra sesión directo en el token y además están firmados criptográficamente, suena bien ¿no? Sigue leyendo hasta el final para profundizar al respecto.
@@ -44,9 +47,9 @@ Aprecia como podemos usar la parte central para guardar contenido arbitrario, qu
 
 ## Instalación de JWT en Django
 
-Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
+Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](/es/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
 
-Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
+Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
 
 ```python
 pipenv install djangorestframework_simplejwt djangorestframework
@@ -127,7 +130,7 @@ Si probamos hacer una petición a la url _/protegida/_ nos advertirá de que no 
 curl http://127.0.0.1:8000/protegida/ {"detail":"Authentication credentials were not provided."}
 ```
 
-Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](/comandos-de-linux-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
+Si no sabes usar curl revisa mi entrada de [comandos básicos de GNU/Linux](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/) donde explico lo básico. También puedes usar Postman, http o cualquier otra opción.
 
 ## Obtener tokens JWT en Django
 
@@ -206,4 +209,4 @@ Pues bien, la interrogante trae una serie de preguntas muy difíciles de contest
 
 ¿Como lidio con un JWT con información o permisos desactualizados? ¿Cuál es la mejor manera de invalidar un JWT un servidor externo o cambiar la llave critptográfica? ¿Qué pasa si la información que guardo en el JWT excede el tamaño permitido por cookie? Si en lugar de guardar contenido en el JWT solo guardo el identificador de usuario, ¿no es lo mismo que una cookie?
 
-Para la siguiente publicación traduciré una entrada bastante popular llamada "Stop using JWT for sessions" ([No uses JWT para gestionar sesiones](/no-uses-jwt-para-gestionar-sesiones-traduccion/)), con una postura muy fuerte, que trata sobre esas preguntas.
+Para la siguiente publicación traduciré una entrada bastante popular llamada "Stop using JWT for sessions" ([No uses JWT para gestionar sesiones](/es/no-uses-jwt-para-gestionar-sesiones-traduccion/)), con una postura muy fuerte, que trata sobre esas preguntas.
