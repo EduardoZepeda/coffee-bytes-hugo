@@ -71,12 +71,12 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
-description = "Articles and tutorials about programming and web development: Django, React, Go on Linux"
+description = "Opinions and tutorials about programming and web development: Django, React, Go on Linux"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
-mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
-mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
+mailchimphiddenfield = ""
+mailchimpurl = ""
 modalcountdown = 20
 seodescription = "Eduardo Zepeda's personal blog with tutorials, posts and interesting information about full stack web development in Python, Django, React, Javascript, Typescript, Golang and other development frameworks, always in a GNU/Linux based development environment. "
 subscribebannertext = "Get my FREE Python cheats guide."
