@@ -42,9 +42,9 @@ Trigrams are three consecutive characters
 According to [Postgres](https://www.postgresql.org/docs/12/pgtrgm.html), **we can tell how similar two strings are by comparing the number of trigrams they share,** and Django provides functions to work with trigrams.
 
 ```python
-Videogame.objects.filter(name__trigram_similar="automatta") # debería decir automata
+Videogame.objects.filter(name__trigram_similar="automatta") # it should say automata
 <QuerySet [<Videogame: Nier automata>]>
-Videogame.objects.filter(name__trigram_similar="autommattaa") # debería decir automata
+Videogame.objects.filter(name__trigram_similar="autommattaa") # it should say automata
 <QuerySet [<Videogame: Nier automata>]>
 #...FROM "videogame_videogame" WHERE UNACCENT("videogame_videogame"."name") % UNACCENT(autommata)
 ```
@@ -96,7 +96,7 @@ If you don't remember what Django annotate is for, I have a post where I explain
 from django.contrib.postgres.search import TrigramSimilarity
 
 results = Videogame.objects.annotate(similarity=TrigramSimilarity('name', 'wilds'), ).filter(similarity__gt=0.1).order_by('-similarity')
-<QuerySet [<Videogame: Outer wilds>, <Videogame: Outer worlds>]> # Con un indice de similaridad de 0.1 wilds y worlds coinciden
+<QuerySet [<Videogame: Outer wilds>, <Videogame: Outer worlds>]> # With a similarity index of 0.1, the words wilds y worlds match
 results[0].similarity
 # 0.5
 # ...SIMILARITY("videogame_videogame"."name", wilds) AS "similarity" FROM "videogame_videogame" WHERE SIMILARITY("videogame_videogame"."name", wilds) > 0.1 ORDER BY "similarity" DESC
