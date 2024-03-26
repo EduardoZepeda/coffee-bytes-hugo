@@ -115,8 +115,8 @@ from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
 
 vector = SearchVector('name')
 query = SearchQuery('days')
-resultado = Videogame.objects.annotate(rank=SearchRank(vector, query)).order_by('-rank')
-resultado[0].rank
+results = Videogame.objects.annotate(rank=SearchRank(vector, query)).order_by('-rank')
+results[0].rank
 # 0.0607927
 # ... ts_rank(to_tsvector(COALESCE("videogame_videogame"."name", )), plainto_tsquery(days)) AS "rank" FROM "videogame_videogame" ORDER BY "rank" DESC
 ```
@@ -141,9 +141,9 @@ We can choose between the letters "A", "B", "C" and "D". Each letter will have a
 
 ```python
 from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
-vector = SearchVector('titulo', weight='A') + SearchVector('descripcion', weight='B')
-query = SearchQuery('magia')
-Libro.objects.annotate(rank=SearchRank(vector, query)).filter(rank__gte=0.3).order_by('rank')
+vector = SearchVector('title', weight='A') + SearchVector('descripcion', weight='B')
+query = SearchQuery('Magic')
+Book.objects.annotate(rank=SearchRank(vector, query)).filter(rank__gte=0.3).order_by('rank')
 ```
 
 Exactly they have the following values:
@@ -156,7 +156,7 @@ Exactly they have the following values:
 These values can be overwritten to suit your needs, according to the type of business and models you use.
 
 ```python
-Libro.objects.annotate(rank=SearchRank(vector, query), weights=[0.1, 0.2, 0.3, 0.9]).filter(rank__gte=0.3).order_by('rank').filter(rank__gte=0.3).order_by('rank')
+Book.objects.annotate(rank=SearchRank(vector, query), weights=[0.1, 0.2, 0.3, 0.9]).filter(rank__gte=0.3).order_by('rank').filter(rank__gte=0.3).order_by('rank')
 ```
 
 In the example above, I have rewritten the original values and decreased the values of the letters "D", "C", "B" so that they represent a much smaller percentage compared to the letter "A".
