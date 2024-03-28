@@ -71,7 +71,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
-description = "Opinions and tutorials about programming and web development: Django, React, Go on Linux"
+description = "Opinions and tutorials about web development and programming"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
@@ -142,7 +142,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
-description = "Artículos y tutoriales sobre programación y desarrollo web: Django, React, Go en Linux"
+description = "Artículos, opiniones y tutoriales sobre desarrollo web y programación"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 disablesearch = false
