@@ -1,16 +1,17 @@
 ---
-title: "Basic Linux commands you should know"
+title: "Linux Essential Commands: grep ls cd history cat cp rm scp"
 date: "2019-05-08"
 categories:
 - linux and devops
 
 coverImage: "images/comandos_GNU_Linux_1.jpg"
-description: "The GNU/Linux terminal has a lot of useful commands, learn the basics here, even if you have never used the terminal before."
+description: "Usage and common options of the linux terminal commands: grep, ls, cd, clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man and some tips"
 keywords:
 - linux
 
 authors:
 - Eduardo Zepeda
+url: "/en/basic-linux-commands-you-should-know"
 ---
 
 There are many basic linux commands, from those that tell you which is your user, to others that allow you to run and schedule services periodically. Below I will list the commands that I use frequently, as well as any combination or peculiar feature of any of these that is worth mentioning. I will try to do it in the simplest possible way and without trying to complicate too much the use of the commands.
@@ -19,7 +20,7 @@ For these examples I use [Debian 9](https://www.debian.org/index.es.html), so if
 
 Another thing, what most people know as Linux, plain Linux, is actually GNU/Linux, however for SEO and simplicity reasons many people use GNU/Linux or Linux interchangeably, which I intend to do as well. But keep this in mind when you read this or other entries.
 
-Click here for [the second part of this series of commands](/en/linux-commands-you-should-know-part-two/) and here for [the third part of this series](/en/linux-commands-you-should-know-part-two/).
+Click here for [the second part of this series of commands](/en/linux-commands-you-should-know-part-two/) and here for [the third part of this series](/en/linux-commands-you-should-know-part-three/).
 
 ## Little tips from the Linux Terminal
 
@@ -55,9 +56,9 @@ For now try using it on itself. Yes, we will inception the man command:
 
 ```bash
 man man
- nos muestra el manual del comando man
+ it show us the manual of man command
 man grep
- nos muestra el manual del comando grep
+ it show us the manual of grep command
 ```
 
 ## whatis
@@ -66,8 +67,8 @@ It shows us a small description of the command that we put next. It is the **sup
 
 ```bash
 whatis man
-man (7)              - macros para formatear páginas del manual
-man (1)              - una interfaz de los manuales de referencia electrónicos
+man (7)              - macros to format some manual pages
+man (1)              - an interface for electronic reference manuals
 ```
 
 ## grep
@@ -75,12 +76,12 @@ man (1)              - una interfaz de los manuales de referencia electrónicos
 The grep command (_Global Regular Expression Print_) searches for matching regular expressions in the files. If you don't know what regular expressions are you can use it with ordinary text in quotes, even then it is quite useful. This command becomes especially useful when we want to find text in a large number of files, especially using it in combination with the result of other commands.
 
 ```bash
-grep "texto a buscar" archivo
- busca un trozo de texto o expresión regular en un archivo 
-grep -r "texto a buscar" .
- busca un trozo de texto recursivamente en los archivos del directorio actual y sus subdirectorios
-man man | grep "texto a buscar"
- utilizamos el caracter pipe "|", seguido de grep para buscar un trozo de texto en los resultados del comando man
+grep "texto to search" <file>
+ Search for a string in the given file
+grep -r "text to search" .
+ search for a string recursively in the files of the working directory and subdirectories
+man man | grep "text to search"
+ We use the pipe character "|", followed of grep to search a string in the results of man's output
 ```
 
 ## history
@@ -89,7 +90,7 @@ History shows us the commands we have used, numbered, with the most recent to th
 
 ```bash
 history
-1920 cat archivo.txt
+1920 cat file.txt
 1921 ls -la
 ```
 
@@ -100,7 +101,7 @@ What if we want to give our terminal a little cleanup to have more clarity when 
 ```bash
 clear
 
- limpia todo el contenido anterior de la terminal
+ clean the content of the terminal
 ```
 
 ## pwd
@@ -109,7 +110,7 @@ From the acronym "_Print Working Directory_", which means "print the working dir
 
 ```bash
 pwd
-/home/tunombre
+/home/your_name
 ```
 
 ## ls
@@ -118,12 +119,13 @@ When we need to display the files and directories in the current directory this 
 
 ```bash
 ls
- nos lista los directorios y archivos en el directorio de trabajo
+ List files and directories in the working directory
+
 ls -l
- lista los permisos, el tamaño, grupo y usuario al que pertenecer los archivos
+ List permissions, size, group and user for the files in the working directory
 
 ls -la
- lo mismo que arriba pero incluye además los archivos ocultos
+ same as above but include hidden files
 ```
 
 ## file
@@ -131,8 +133,8 @@ ls -la
 File gives us information about the type of file that we pass as an argument. It even works for files with the wrong file extension.
 
 ```bash
-file archivo.txt 
-archivo.txt: ASCII text
+file <file.txt >
+file.txt: ASCII text
 ```
 
 ## cd
@@ -140,11 +142,11 @@ archivo.txt: ASCII text
 This command is one of the most commonly used. It is used to change directory, it can be read as "_change directory_", which means "change directory" in English.
 
 ```bash
-cd nombre_de_directorio
- # nos cambia a un directorio existente desde donde ejecutamos el comando
+cd <directory_name>
+ # move to the existent directory
 
 cd ..
- # retrocede un nivel de directorios
+ # go to the parent directory
 ```
 
 ## cat
@@ -154,8 +156,8 @@ This command is used to concatenate the contents of a file and display it on the
 There is a tool that offers more functions than cat, check my post where I talk about [bat](/en/get-to-know-bat-in-linux-the-syntax-highlighting-cat/)
 
 ```bash
-cat archivo
- # nos mostrará el contenido del archivo
+cat file
+ # It would print the content of the file to the STD output (the screen in this case)
 ```
 
 ## tail
@@ -163,8 +165,8 @@ cat archivo
 The tail command, which comes from "_cola_" in English, prints the last ten lines of a file. Ideal for reading the contents of logs.
 
 ```bash
-tail archivo
-ultimas diez lineas
+tail file
+last ten lines
 ```
 
 ## head
@@ -172,8 +174,8 @@ ultimas diez lineas
 Similar to the previous one, the head command, which comes from "_head_" in English, prints the first ten lines of a file.
 
 ```bash
-head archivo
-primeras diez lineas
+head <file>
+first ten lines
 ```
 
 ## touch
@@ -181,8 +183,8 @@ primeras diez lineas
 This command creates a file in the directory where we are executing it.
 
 ```bash
-touch archivo.py
- # crea un archivo llamado archivo.py
+touch <file.py>
+ # create a file called file.py
 ```
 
 ## rm
@@ -190,17 +192,17 @@ touch archivo.py
 Derived from the word "_ReMove"_, this command deletes one or more files. It is often used with its '-r' option, which recursively deletes files.
 
 ```bash
-rm archivo_a_eliminar
- elimina un archivo llamado archivo_a_eliminar
+rm <file_to_delete>
+ delete a file called <file_to_delete>
 rm -rf *
- borra todos los archivos del directorio de trabajo.
+ delete all files in the working directory
 ```
 
 Sometimes we want to be sure not to delete a file unintentionally, we can add the -i option to ask us before deleting a file.
 
 ```bash
-rm -i archivo_a_eliminar.txt
- rm: ¿borrar el fichero regular vacío 'archivo_a_eliminar.txt'? (s/n)
+rm -i <file_to_delete>.txt
+ rm: ¿delete the file? '<file_to_delete>.txt'? (s/n)
 ```
 
 ### Be careful with the rm command
@@ -210,9 +212,9 @@ Another important thing, remember when web surfers were tricking people into del
 I warn you again: **PLEASE DO NOT EXECUTE IT**:
 
 ```bash
-# NO HAGAS ESTO
+# Don't do this
 rm -rf /
-# NO HAGAS ESTO
+# Don't do this
 ```
 
 ## mkdir
@@ -220,8 +222,8 @@ rm -rf /
 This command is used to create directories. It comes from "_MaKe DIRectory_".
 
 ```bash
-mkdir directorio 
- # crea un directorio llamado directorio
+mkdir <dir> 
+ # creates a directory with the given name, without the angle brackets
 ```
 
 ## rmdir
@@ -229,8 +231,8 @@ mkdir directorio
 "_ReMove DIRectory_", removes a directory, in order to use this command the directory to be removed must be empty.
 
 ```bash
-rmdir directorio_a_remover 
- # elimina un directorio vacio llamado directorio_a_remover
+rmdir <dir_to_remove> 
+ # delete the specified directory without the angle brackets
 ```
 
 ## cp
@@ -238,13 +240,13 @@ rmdir directorio_a_remover
 The _cp_ command is responsible for copying a file to the location you specify.
 
 ```bash
-cp nuestro_archivo.html carpeta_donde_lo_queremos_copiar/
+cp our_file.html destination_folder/
 ```
 
 We can also copy directories with all the content. If the second directory does not exist it will create it.
 
 ```bash
-cp -r directorio_origen/ directorio_destino/
+cp -r origin_folder/ destination_folder/
 ```
 
 ## ssh
@@ -252,13 +254,13 @@ cp -r directorio_origen/ directorio_destino/
 The _ssh_ command allows us to connect to a remote server. To do this we must specify the user with which we will connect and the ip address, both in that order and joined by an at.
 
 ```bash
-ssh usuario_remoto@10.10.0.1
+ssh remote_user@10.10.0.1
 ```
 
 It is common practice for servers to change the default port for security reasons. We can specify a port using the _-p_ option.
 
 ```bash
-ssh -p 1234 usuario_remoto@10.10.0.1
+ssh -p 1234 remote_user@10.10.0.1
 ```
 
 After executing the command, if the user name and address are correct, it will ask for the user's password to give us access.
@@ -268,13 +270,13 @@ After executing the command, if the user name and address are correct, it will a
 This command is also used for copying, but it will copy from our computer to another one by means of _ssh_. After typing the command it will ask for a password to be able to copy it. For this command to work the target machine must have ssh installed and its port 22 open.
 
 ```bash
-scp archivo_a_copiar.txt nombre_usuario_remoto@10.10.0.0:/directorio_remoto/subdirectorio
+scp file_to_copy.txt remote_user@10.10.0.0:/remote_directory/subdirectory
 ```
 
 If you want to pass multiple files, place them next to each other.
 
 ```bash
-scp archivo1.txt archivo2.xml archivo3.html nombre_usuario_remoto@10.10.0.0:/directorio_remoto/subdirectorio
+scp file1.txt file2.xml file3.html remote_user@10.10.0.0:/remote_directory/subdirectory
 ```
 
 ## ip addr

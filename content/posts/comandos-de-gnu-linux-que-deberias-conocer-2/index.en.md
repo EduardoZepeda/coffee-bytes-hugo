@@ -1,5 +1,5 @@
 ---
-title: "Linux commands you should know (part two)"
+title: "Linux Essential Commands: passwd du useradd usermod fdisk lscpu apt which"
 date: "2019-05-13"
 categories:
 - linux and devops
@@ -11,9 +11,10 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: "/en/linux-commands-you-should-know-part-two/"
 ---
 
-This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/en/basic-linux-commands-you-should-know/). I also have a [third part of GNU/Linux commands available](/en/linux-commands-you-should-know-part-two/).
+This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/en/basic-linux-commands-you-should-know/). I also have a [third part of GNU/Linux commands available](/en/linux-commands-you-should-know-part-three/).
 
 Let's start with the uname command, to put ourselves in the context of the operating system we are working with.
 

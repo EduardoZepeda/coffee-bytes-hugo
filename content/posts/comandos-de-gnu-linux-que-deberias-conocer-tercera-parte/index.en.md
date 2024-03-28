@@ -1,16 +1,17 @@
 ---
-title: "Linux Commands you should know (part three)"
+title: "Linux Essential Commands: printenv export lsof top ps kill curl systemctl chown chroot"
 date: "2019-05-21"
 categories:
 - linux and devops
 
 coverImage: "images/comandos_GNU_Linux_3.jpg"
-description: "Learn the basic GNU/Linux terminal commands, in this post I talk about printenv, systemctl, top, ps, chown, chmod and more."
+description: "Usage and common options of the linux terminal commands: printenv, systemctl, top, ps, chown, kill, wget, curl, chroot, export and others"
 keywords:
 - linux
 
 authors:
 - Eduardo Zepeda
+url: "/en/linux-commands-you-should-know-part-three/"
 ---
 
 This is the continuation of the following parts:
@@ -424,7 +425,7 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 
 ## chroot
 
-There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker](/en/what-is-docker-and-what-is-it-for/).
+There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker](/en/what-is-docker-and-what-is-it-for/). It's because of chroot that [docker containers are able to have their own file system](/en/how-does-a-docker-container-work-internally/).
 
 ```bash
 chroot /mi_nuevo_directorio_root

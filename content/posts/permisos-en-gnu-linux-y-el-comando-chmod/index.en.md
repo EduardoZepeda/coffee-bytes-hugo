@@ -1,5 +1,5 @@
 ---
-title: "Understand permissions in GNU Linux and the chmod command"
+title: "Mastering Chmod Command: Linux Permissions Simplified"
 date: "2019-05-29"
 categories:
 - linux and devops
@@ -11,6 +11,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: "/en/understand-permissions-in-gnu-linux-and-the-chmod-command/"
 ---
 
 The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux-commands-you-should-know-part-two/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly.
