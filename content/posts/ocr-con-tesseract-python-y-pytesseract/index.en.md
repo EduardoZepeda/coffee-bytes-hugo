@@ -18,7 +18,7 @@ authors:
 
 Python is super versatile, it has a giant community that has libraries that allow to achieve great things with few lines of code, Optical Character Recognition (OCR) is one of them, for that you just need to install tesseract and the python bindings, called pytesseract.
 
-## Some OCR applications
+## Applications of OCR
 
 OCR is quite useful for social networks, where you can scan the text that appears in the images to read its content and then process it or give it statistical treatment.
 
@@ -42,7 +42,9 @@ tesseract -v
 tesseract 5.0.0-alpha-20201224-3-ge1a3
 ```
 
-Differences in OCR engine efficiency between tesseract 3 and tesseract 5 alpha. Version 5 shows better performance](images/OCRTesseractVersion5vsVersion3-2.png "Comparison between OCR performance of tesseract 3 and tesseract 5")
+Differences in OCR engine efficiency between tesseract 3 and tesseract 5 alpha. 
+
+![Version 5 shows better performance](images/OCRTesseractVersion5vsVersion3-2.png "Comparison between OCR performance of tesseract 3 and tesseract 5")
 
 ### Installing languages in tesseract
 
@@ -69,7 +71,7 @@ You will see that Spanish is now installed and we can use it to detect the text 
 
 Now let's put it to the test to recognize text in images, straight from the terminal. I am going to use the following image:
 
-Image with text to be processed](images/imagen_with_text.jpg "File: image_with_text.jpg")
+![Image with text to be processed](images/imagen_with_text.jpg "File: image_with_text.jpg")
 
 ```bash
 tesseract imagen_con_texto.jpg -
@@ -132,9 +134,9 @@ import pytesseract
 from PIL import Image
 import pytesseract
 
-img = Image.open("nuestra_imagen.jpg") # Abre la imagen con pillow
+img = Image.open("nuestra_imagen.jpg") # Open the image with pillow
 img.load()
-text = pytesseract.image_to_string(img, lang='eng') # Extrae el texto de la imagen
+text = pytesseract.image_to_string(img, lang='eng') # Extract image's text
 print(text)
 
 # Do you have the time to listen to me whine...

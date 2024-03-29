@@ -8,17 +8,17 @@ categories:
 - linux y devops
 coverImage: images/comandos_GNU_Linux_3.jpg
 date: '2019-05-21'
-description: Aprende los comandos básicos de la terminal de GNU/Linux, en esta entrada
-  hablo sobre printenv, systemctl, top, ps, chown, chmod y otros más.
+description: "Uso y opciones comunes de los comandos de terminal de linux: printenv, systemctl, top, ps, chown, kill, wget, curl, chroot, export y otros."
 keywords:
 - linux
-title: Comandos de Linux que deberías conocer (tercera parte)
+title: "Comandos esenciales de Linux: printenv export lsof top ps kill curl systemctl chown chroot"
+url: "/es/comandos-de-linux-que-deberias-conocer-tercera-parte/"
 ---
 
 Esta es la continuación de las siguientes partes: 
 
-* [Comandos básicos de GNU Linux, primera parte](/es/comandos-de-linux-basicos-que-deberias-conocer/) 
-* [Comandos básicos de GNU Linux, segunda parte](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/).
+* [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.](/es/comandos-de-linux-basicos-que-deberias-conocer/) 
+* [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/).
 
 ## printenv
 

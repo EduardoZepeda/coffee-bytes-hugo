@@ -8,11 +8,11 @@ categories:
 - linux y devops
 coverImage: images/comandos_GNU_Linux_1.jpg
 date: '2019-05-08'
-description: La terminal de GNU/Linux tiene muchísimos comandos útiles, aprende los
-  basicos aquí, incluso si jamás has usado la terminal.
+description: "Uso y opciones comunes de los comandos de terminal de linux: grep, ls, cd, clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man y algunos consejos."
 keywords:
 - linux
-title: Comandos de Linux básicos que deberías conocer
+title: "Comandos esenciales de Linux: grep ls cd history cat cp rm scp"
+url: "/es/comandos-de-linux-basicos-que-deberias-conocer/"
 ---
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.
