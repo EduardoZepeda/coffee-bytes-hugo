@@ -23,7 +23,7 @@ Why use Django in a world where everything is Javascript? Is it really worth lea
 
 ## The advantages of Django
 
-### Your ORM is simple and wonderful
+### Its ORM is simple and wonderful
 
 Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups](/en/trigrams-and-advanced-searches-with-django-and-postgres/) functions and migration handling.
 
@@ -92,7 +92,7 @@ This framework has a proven authentication system based on sessions that are ide
 
 You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/en/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/).
 
-#### Permit system
+#### Django's Permit system
 
 Django has a robust [permissions and groups system](/en/how-do-permissions-and-permissions-groups-work-in-django/) that binds your users to models in the database that you can start using with just a few lines of code.
 
@@ -151,11 +151,13 @@ The very stability of Django has made it look somewhat slow in a world of rapidl
 
 ### It is slow and handles requests one at a time.
 
-Python is an interpreted language that was made to be beautiful and simple, not necessarily fast. In my comparison of [python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) I compare the performance of both, just to give you an idea.
+Python is an interpreted language that was made to be beautiful and simple, not necessarily performant. In my comparison of [python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) I compare the performance of both, just to give you an idea.
 
-In addition to the above, Django does not shine for its speed at the time of execution. In the race to be a fast framework, it is below more modern technologies such as Flask or FastAPI. Go to [my tutorial on FastAPI](/en/fastapi-tutorial-the-best-python-framework/) if you want to see how slow Django is compared to other frameworks.
+In addition to the above, Django does not shine for its speed at the time of execution. In the race to be a fast framework, it is below more modern technologies such as Flask or FastAPI. 
 
-### Your ORM is not asynchronous nor is it the fastest.
+Go to [my tutorial on FastAPI](/en/fastapi-tutorial-the-best-python-framework/) if you want to see how slow Django is compared to other frameworks.
+
+### Djang's ORM is not asynchronous nor the fastest.
 
 Django is working to make its ORM asynchronous, but it's not there yet. Other alternatives such as tortoise-orm, sql-alchemy, pony-orm are ahead in this aspect.
 
