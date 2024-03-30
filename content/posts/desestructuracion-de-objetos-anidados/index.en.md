@@ -1,5 +1,5 @@
 ---
-title: "Destructuring of nested objects"
+title: "Destructuring of nested objects in Javascript"
 date: "2019-11-16"
 categories:
 - "javascript"
@@ -11,6 +11,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: "/en/destructuring-of-nested-objects/"
 ---
 
 In the previous posts I briefly explained how to perform a [destructuring of objects in Javascript](/en/destructuring-lists-in-javascript/), but in most cases we will not be lucky enough to work with flat objects, but we will find nested objects with several levels of depth. Will we have to settle for forgetting about this feature and do the job explicitly assigning a constant to each object? Luckily Javascript allows us to work with the destructuring of nested objects.

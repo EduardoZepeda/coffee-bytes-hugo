@@ -23,7 +23,7 @@ When we want to move from one place to another for short distances we use a land
 
 When a person wants to create a vehicle that fulfills the function of transporting an object over land they will generally think of these elements and work on those elements to modify them to create something different or more sophisticated. This union of objects is a **design pattern**.
 
-## Software design patterns
+## Software design patterns list
 
 In software, design patterns are the same, they are the specific arrangement and relationships of objects, methods and attributes that allow us to solve a problem. What kind of problem? Practically any problem that arises too frequently to come up with a standardized solution.
 

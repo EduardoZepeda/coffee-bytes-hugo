@@ -119,7 +119,7 @@ Another package to highlight that allows you to work with websockets, to create 
 
 ### Takes you from an idea to a working prototype quickly.
 
-I consider this the main reason to use Django. **Django gets you from an idea to an MVP fast and without reinventing the wheel. Which is a huge competitive advantage over other frameworks, especially when money and customers are involved.
+I consider this the main reason to use Django. **Django gets you from an idea to an MVP fast and without reinventing the wheel**. Which is a huge competitive advantage over other frameworks, especially when money and customers are involved.
 
 With Django you would have a working prototype faster than with any other "less opinionated" framework or one that requires you to program everything from scratch.
 
@@ -167,6 +167,6 @@ Django follows the philosophy of batteries included. Which is good, because it's
 
 From my point of view the advantages outweigh the disadvantages, so I consider it a very attractive option to develop a complex website when you have little time or need to find developers fast.
 
-Still not convinced? Remember that Instagram is the largest Django backend website out there.
+Still not convinced? Remember that Instagram is the largest Django backend website out there and despite they've been modifying their system slowly, it was thanks to Django's rapid prototyping that allowed them to became the monster app that they're now.
 
 In the end, as always, this is my point of view and everyone has their own. I hope this post has shown you something you would not have considered about Django before reading it.
