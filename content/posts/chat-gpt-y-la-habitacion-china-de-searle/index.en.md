@@ -31,21 +31,21 @@ A human, inside a room completely isolated from the outside world, with a set of
 
 ``` mermaid
 graph TD;
-    沙悟淨-->Habitación;
-    Habitación-->西遊記;
+    沙悟淨-->Room;
+    Room-->西遊記;
 ```
 
 Can you notice the similarities with a computer? They are quite obvious; there is an input, an output and a black box or computer program, the details of which would escape those outside this simplified little system.
 
 ``` mermaid
 graph TD;
-    Input-->programa;
-    programa-->output;
+    Input-->Program;
+    Program-->output;
 ```
 
 According to Searle, to the people outside the room, whatever is inside seems to understand Chinese perfectly. However, we know that the person inside is just following a set of instructions, as complex as we like, but which **does not involve an understanding of language**, but a mechanical process. According to Searle, this situation is analogous to the operation of a computer.
 
-Extrapolating the above to ChatGPT; although a language model may produce responses that appear coherent and relevant, there is no evidence that it actually understands the language or is aware of its meaning. ChatGPT may be following the most complex algorithm in existence but, according to Searle, there is no more awareness of the process there than we would find in the most sophisticated mechanical clock.
+Extrapolating the above to ChatGPT; although a language model may produce responses that appear coherent and relevant, there is no evidence that it actually understands the language or is aware of its meaning. ChatGPT may be following the most complex algorithm in existence but, according to Searle, **there is no more awareness of the process there than we would find in the most sophisticated mechanical clock.**
 
 But then what makes the difference between a real intelligence and a mechanical process? is there such a difference?
 
@@ -53,13 +53,13 @@ But then what makes the difference between a real intelligence and a mechanical 
 
 The highest representative of intelligence on earth is the human being (or at least our inflated ego tells us that), and it also happens that the human being is a living entity with consciousness. This leads us to the inevitable question: is a living being with consciousness necessary to have intelligence, or perhaps it is the other way around?
 
-### Intelligence with conscience
+### Signs of Intelligence with conscience
 
 Some argue that consciousness and intelligence are related and that we would even have [a gradient of consciousness as we advance in the complexity and intelligence of organisms](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). They give the label "conscious" to higher animals such as dolphins, orangutans, crows and other organisms that show traits of intelligence.
 
 While others go further by saying that a system becomes more conscious the more intelligent it becomes, perhaps we could consider the example of [Blake Lemoine, who claimed that Google's artificial intelligence model had become conscious](https://www.bbc.com/mundo/noticias-61787944), or Giulio Tononi's integrated information theory, which proposes that consciousness is generated when a system is able to incorporate information and unify it, and that this level of consciousness (called Φ) can be calculated for any system.
 
-### Intelligence without conscience
+### Signs of Intelligence without conscience
 
 Likewise, there are positions that defend that intelligence does not necessarily depend on consciousness, but that it can exist in systems that do not have subjective experience. For example, it is sufficient to cite Alpha Go and other computer programs that are capable of responding to complex stimuli, without existing beyond the game for which they were programmed, or [sleepwalkers, who can show signs of intelligence even when they are not conscious](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 

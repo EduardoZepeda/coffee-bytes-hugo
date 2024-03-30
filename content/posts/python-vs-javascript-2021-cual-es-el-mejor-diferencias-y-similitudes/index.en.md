@@ -1,5 +1,5 @@
 ---
-title: "Python vs Javascript which one is better in 2024?"
+title: "Python vs Javascript which language is better in 2024?"
 date: "2020-12-10"
 url: "python-vs-javascript-which-is-the-best-programming-language"
 categories:
@@ -26,7 +26,7 @@ I also have a comparison of [Python vs go](/en/python-vs-go-go-which-is-the-best
 
 To begin with, **Python is an interpreted language**. If you are not familiar with the term, it means that it has an interpreter that translates the instructions, one by one, to machine language, so that they are executed on the fly. So you don't have to compile all your code every time you want to run it, as you would with C++, Java, Rust, etc.
 
-Javascript was born as an interpreted language, however modern engines have managed to turn it into a **JIT (Just in Time) compiled language**. Virtually all browsers do [JIT compiled](https://www.youtube.com/watch?v=d7KHAVaX_Rs) JavaScript, except, as always, IE8.
+Javascript was born as an interpreted language, however modern engines have managed to turn it into a **JIT (Just in Time) compiled language**. Virtually all browsers do [JIT compiled](https://www.youtube.com/watch?v=d7KHAVaX_Rs) JavaScript, except, as always, IE8. Although I don't like some aspects of the language, like the [management of dates](/en/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascript/), I don't think it's the worst or the least useful language out there.
 
 If you want to learn how the Javascript engine works at a deeper level, I leave you a link to [a series of videos](https://www.youtube.com/watch?v=No-Pfboplxo&amp;list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&amp;index=1) on youtube where the topic is discussed in more detail.
 
@@ -192,9 +192,9 @@ Python is not found in browsers, however it is installed in most GNU/Linux syste
 
 ### Uses of Javascript
 
-Javascript is used, as I mentioned earlier, to manipulate the DOM and run primarily in the browser. However Node allows it to be used on your computer as well, to be used as a server-side language, although it was not originally conceived that way. Node js has allowed javascript to be used outside the browser, so its use has been extended, even to machine learning.
+Javascript is used, mainly in the browser and is an essential language if you're interested in Web development. However Node allows it to be used on your computer as well, to be used as a server-side language, although it was not originally conceived that way. Node js has allowed javascript to be used outside the browser, so its use has been extended, even to machine learning or small application and scripting.
 
-In recent years there are rumors that [deno](https://deno.land/), made by the creator of Node js, will replace node, its predecessor, but they are just that, rumors.
+~~In recent years there are rumors that [deno](https://deno.land/), made by the creator of Node js, will replace node, its predecessor, but they are just that, rumors.~~ As today it is unlikely that deno will replace Node, in fact Javascript has many engines, such as [Bun](https://bun.sh/) [winterJS](https://github.com/wasmerio/winterjs) that offer superior performance and more features than deno or node.
 
 ### Python Uses
 

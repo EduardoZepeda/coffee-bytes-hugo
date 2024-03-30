@@ -1,5 +1,5 @@
 ---
-title: "Python vs Go Which is the Best?"
+title: "Python vs Go Which is the Best Programming Language in 2024?"
 date: "2021-11-02"
 url: "python-vs-go-go-which-is-the-best-programming-language"
 categories:

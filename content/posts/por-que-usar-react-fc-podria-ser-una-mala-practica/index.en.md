@@ -6,7 +6,7 @@ categories:
 - "typescript"
 
 coverImage: "images/react-fc-mala-practica.jpg"
-description: "In this post I talk about the reasons why some developers claim that React.FC is a bad practice in React and Typescript."
+description: "Using React.FC could be a bad practice and go against the explicit nature of Typescript due to its ambiguous way of dealing with children, of course is not the only way, there are better ways to deal with React components that have children."
 keywords:
 - "react"
 - "typescript"
@@ -20,7 +20,7 @@ authors:
 When we use Typescript with React and we want to [pass a children as prop to one of our components](/en/types-for-react-components-with-children/), we need to indicate the type. Generally we use the type _React.FC_, which is short for _React.FunctionComponent_. With this the Typescript message warning us of a children with type any will disappear.
 
 ```jsx
-const Componente: React.FC = ({ children }) => {
+const Component: React.FC = ({ children }) => {
     return (<div>{children}</div>)
 }
 ```
@@ -28,12 +28,12 @@ const Componente: React.FC = ({ children }) => {
 In addition to allowing us to work with children, _React.FC_ also causes an error if we try to return _undefined_ from our component.
 
 ```jsx
-const Componente: React.FC = ({ children }) => {
+const Component: React.FC = ({ children }) => {
     // Type '() => undefined' can't be assigned to type 'FC<{}>'.
     return undefined
 }
 
-export default Componente
+export default Component
 ```
 
 As you can see, it is quite comfortable to use, but some people do not agree with its use.
@@ -53,11 +53,11 @@ _React.FC_ is not always the most explicit way to tell typescript that a compone
 Imagine that we pass a children to the component, but we don't use it.
 
 ```jsx
-import Componente from './Componente';
+import Component from './Component';
 
 function App() {
   return (
-    <Componente>I'm the children component</Componente>
+    <Component>I'm the children component</Component>
   );
 }
 
@@ -67,23 +67,23 @@ export default App;
 Our component does receive the _children_ as a prop, but the _React.FC_ type appeases Typescript and prevents it from returning an error, even if we are not using it.
 
 ```jsx
-const Componente: React.FC = () => {
+const Component: React.FC = () => {
     return (
         <div>I'm not the children which receives the component</div>
     )
 }
 
-export default Componente
+export default Component
 ```
 
 Or, for an opposite case; imagine that we do not want our component to receive a children as one of its props, however, as we are using _React.FC_ we will not get any error.
 
 ```javascript
-import Componente from './Componente';
+import Component from './Component';
 
 function App() {
   return (
-    <Componente><div>I shouldn't be here</div></Componente>
+    <Component><div>I shouldn't be here</div></Component>
   );
 }
 
@@ -98,22 +98,22 @@ Don't know what it is? Think of a pattern that allows you to group components wi
 
 ```jsx
 <Namespace>
-    <Namespace.Componente />
+    <Namespace.Component />
 </Namespace>
 ```
 
 In its simplest form, omitting React.FC would look something like this:
 
 ```jsx
-const Namespace = (props: PropsDelNamespace) => {/* ... */}
-Namespace.Componente = (props: PropsDelComponente) => { /*...*/ }
+const Namespace = (props: NamespaceProps) => {/* ... */}
+Namespace.Component = (props: ComponentProps) => { /*...*/ }
 ```
 
 But if we choose to use React.FC the code would become more complicated and the readability would decrease a bit.
 
 ```jsx
-const Namespace: React.FC<PropsDelNamespace> & { Componente: React.FC<PropsDelComponente> } = (props) => {/* ... */ }
-Namespace.Componente = (props) => { /*...*/ }
+const Namespace: React.FC<NamespaceProps> & { Component: React.FC<ComponentProps> } = (props) => {/* ... */ }
+Namespace.Component = (props) => { /*...*/ }
 ```
 
 ## What should we use instead of React.FC?
@@ -129,13 +129,13 @@ interface propsWithChildren {
     children: React.ReactNode
 }
 
-const Componente = ({ children }: propsWithChildren): JSX.Element => {
+const Component = ({ children }: propsWithChildren): JSX.Element => {
     return (
         <div>{children}</div>
     )
 }
 
-export default Componente
+export default Component
 ```
 
 Typescript should not warn you about any errors with this approach to the problem.

@@ -8,8 +8,7 @@ categories:
 - typescript
 coverImage: images/react-fc-mala-practica.jpg
 date: '2022-02-23'
-description: En esta entrada hablo de las razones por las que algunos desarrolladores
-  afirman que React.FC es una mala práctica en React y Typescript
+description: "Usar React.FC podría ser una mala práctica por ir en contra de la naturaleza explícita de Typescript debido a su ambigua forma de tratar con los hijos, por supuesto no es la única forma, hay mejores formas de tratar con componentes React que tienen hijos."
 keywords:
 - react
 - typescript
