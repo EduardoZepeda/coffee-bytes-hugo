@@ -1,7 +1,6 @@
 ---
 aliases:
 - /buenas-practicas-y-diseño-de-una-api-rest
-- /buenas-practicas-y-diseno-de-una-api-rest
 authors:
 - Eduardo Zepeda
 categories:
@@ -9,8 +8,7 @@ categories:
 - opiniones
 coverImage: images/buenDisenoAPIREST.jpg
 date: '2022-04-28'
-description: Buenas prácticas de diseño de una API REST, como versionarla, actualizarla
-  y anidar los recursos en las URI.
+description: "Buenas prácticas de una API REST, como estructurarla, versionarla, actualizarla, limitar su acceso y anidar los recursos en las URI, de acuerdo a Facebook, Twitter y otros grandes jugadores de las API en JSON"
 keywords:
 - arquitectura de software
 - opinion
@@ -39,7 +37,7 @@ Existe un [grupo de personas que se propusieron estandarizar las respuestas JSON
 {
     "products": [{
         "id": 1,
-        "title": "titulo"
+        "title": "title"
     }]
 }
 ```
@@ -51,7 +49,7 @@ Twitter tiene su propia manera de hacer las cosas, la respuesta de un recurso in
 ```json
 {
   "id":1,
-  "title":"titulo"
+  "title":"title"
 }
 ```
 
@@ -61,11 +59,11 @@ Para recursos múltiples, Twitter decidió incluirlos dentro de un array.
 [
   {
     "id":1,
-    "title":"titulo"
+    "title":"title"
   },
   {
     "id":2,
-    "title":"titulo"
+    "title":"title"
   }
 ]
 ```
@@ -77,7 +75,7 @@ Por otro lado, en Facebook, la sintaxis para recursos individuales luce así, ig
 ```json
 {
     "id": 1,
-    "title": "titulo"
+    "title": "title"
 }
 ```
 
@@ -88,11 +86,11 @@ Mientras que una respuesta para recursos múltiples es así:
   "data":[
     {
       "id": 1,
-      "title": "titulo"
+      "title": "title"
     },
     {
       "id": 2,
-      "title": "titulo"
+      "title": "title"
     }
   ]
 }
@@ -121,7 +119,7 @@ Esta aproximación al problema necesitará que si el usuario requiere acceder a 
 {
     "posts": [{
         "id": 1,
-        "title": "titulo",
+        "title": "title",
         "comments": [2,3,4]
     }]
 }
@@ -144,7 +142,7 @@ También es posible añadir directamente los objetos relacionados en una única 
     "posts":[
       {
         "id":1,
-        "title":"titulo",
+        "title":"title",
         "comments":[
           {
             "id":2,
@@ -339,7 +337,7 @@ En el [libro Two Scoops of Django](/es/el-mejor-libro-de-django-resena-de-two-sc
 - Reemplazar la respuesta de la API obsoleta con una error HTTP 410 que devuelva un mensaje que contenga enlaces hacia: el nuevo endpoint, a la nueva documentación de la API y, sí existe, al texto que explique el porque de los cambios.
 
 
-## Limitar tu API
+## Limitar tu API con una política de Throttling
 
 Deberías limitar tu API. Los usuarios no deberían tener acceso sin restricciones y peticiones ilimitadas a tu API. Hay usuarios que pueden abusar de tu API, mantener tu servidor ocupado, impidiéndo que el resto de los usuarios puedan usarla e incrementando tus costos.
 
@@ -361,13 +359,13 @@ De acuerdo a la especificación [RFC 3986](https://datatracker.ietf.org/doc/html
 
 Lo anterior está cambiando y se intenta agregar muchos más simbolos de diferentes lenguajes, puedes leer más al respecto en el artículo de [idn e iri de la w3](https://www.w3.org/International/articles/idn-and-iri/)
 
-## Considera el SEO
+## Considera el SEO en tus URLs
 
 Los motores de búsqueda consideran la URL para posicionar una página web, si para tu sitio web es importante el posicionamiento en buscadores, no te conformes con usar identificadores, comunica al motor de búsqueda el tema en la URL. El SEO y las URLs son un tema bastante amplio para resumirse en unas lineas, pero esto debería darte una idea de como buscar más información.
 
 ```bash
-/posts/el-titulo-de-mi-post ✅
-/posts/99-el-titulo-de-mi-post ✅
+/posts/el-title-de-mi-post ✅
+/posts/99-el-title-de-mi-post ✅
 /posts/99 ❌
 ```
 

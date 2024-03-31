@@ -37,7 +37,7 @@ There is a [group of people who set out to standardize JSON responses](https://j
 {
     "products": [{
         "id": 1,
-        "title": "titulo"
+        "title": "title"
     }]
 }
 ```
@@ -49,7 +49,7 @@ Twitter has its own way of doing things, the response from an individual resourc
 ```json
 {
   "id":1,
-  "title":"titulo"
+  "title":"title"
 }
 ```
 
@@ -59,11 +59,11 @@ For multiple resources, Twitter decided to include them within an array.
 [
   {
     "id":1,
-    "title":"titulo"
+    "title":"title"
   },
   {
     "id":2,
-    "title":"titulo"
+    "title":"title"
   }
 ]
 ```
@@ -75,7 +75,7 @@ On the other hand, on Facebook, the syntax for individual resources looks like t
 ```json
 {
     "id": 1,
-    "title": "titulo"
+    "title": "title"
 }
 ```
 
@@ -86,11 +86,11 @@ While an answer for multiple resources is like this:
   "data":[
     {
       "id": 1,
-      "title": "titulo"
+      "title": "title"
     },
     {
       "id": 2,
-      "title": "titulo"
+      "title": "title"
     }
   ]
 }
@@ -119,7 +119,7 @@ This approach to the problem will require that if the user requires access to th
 {
     "posts": [{
         "id": 1,
-        "title": "titulo",
+        "title": "title",
         "comments": [2,3,4]
     }]
 }
@@ -142,7 +142,7 @@ It is also possible to directly add the related objects in a single response, to
     "posts":[
       {
         "id":1,
-        "title":"titulo",
+        "title":"title",
         "comments":[
           {
             "id":2,
@@ -241,7 +241,7 @@ It keeps the same url, only the parameters change. It brings problems with clien
 Examples of companies: Google data, Paypal.
 
 ```bash
-http://apiv1.dominio.com/recurso?version=1
+http://apiv1.dominio.com/resource?version=1
 ```
 
 In the HTTP request body it would look like this:
@@ -263,7 +263,7 @@ Retains the same urls but may confuse caching systems.
 Example companies: Azure.
 
 ```bash
-GET /recursos HTTP/1.1
+GET /resources HTTP/1.1
 Host: example.com
 ApiVersion: 1.0
 Vary: ApiVersion
@@ -290,8 +290,8 @@ In REST one thing are the resources and another their representation, the resour
 When we have relationships between our resources, it is quite tempting to place hierarchical URL's, complicating the use of the API.
 
 ```bash
-# /recurso/<id>/subrecurso/<id>/subsubrecurso/<id>/subsubsubrecurso ❌
-/clientes/99/pedidos/88/productos/77/variantes ❌
+# /resource/<id>/subresource/<id>/subsubresource/<id>/subsubsubresource ❌
+/clients/99/orders/88/products/77/variants ❌
 ```
 
 The [DRF documentation suggests a flat structure](https://www.django-rest-framework.org/api-guide/relations/#example_2) when designing APIs.
@@ -299,13 +299,13 @@ The [DRF documentation suggests a flat structure](https://www.django-rest-framew
 The white house API standards guide also advocates for succinct nesting, setting as a limit
 
 ```bash
-recurso/<id>/recurso
+resource/<id>/resource
 ```
 
 [Microsoft also recommends keeping URIs as simple as possible.](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) But how do I refer to resources deeper in the URL? Well you can create an endpoint with one or two levels of nesting and access them directly.
 
 ```bash
-# /subrecurso/<id>
+# /subresource/<id>
 ```
 
 ### And how to deal with related resources?
@@ -315,14 +315,14 @@ Very long URLs, with multiple hierarchies above, can be shortened by accessing t
 Instead of having an endpoint that requires the entire hierarchy in the URI. As in this example:
 
 ```bash
-tienda/99/clientes/99/pedidos/88/productos/77
+tienda/99/clients/99/orders/88/products/77
 ```
 
 Reduce the length of the endpoint to a minimum, the identifier should be enough to access the resource.
 
 ```bash
-# /subrecurso/<id>/subsubrecurso/<id>
-/pedidos/88/productos/77
+# /subresource/<id>/subsubresource/<id>
+/orders/88/products/77
 ```
 
 Notice how even in the absence of the initial part of the URI above, we can still access the resource and it is perfectly readable.
@@ -336,7 +336,7 @@ In the [book Two Scoops of Django](/en/the-best-django-book-two-scoops-of-django
 * Notify users as far in advance as possible via email, blogs or any other means, almost to the point of boredom.
 * Replace the deprecated API response with an HTTP 410 error that returns a message containing links to: the new endpoint, the new API documentation and, if it exists, the text explaining why the changes were made.
 
-## Limit your API
+## Limit your API through a throttling policy
 
 You should limit your API. Users should not have unrestricted access and unlimited requests to your API. There are users that can abuse your API, keep your server busy, preventing the rest of the users from using it and increasing your costs.
 
@@ -358,13 +358,13 @@ According to the specification [RFC 3986](https://datatracker.ietf.org/doc/html/
 
 The above is changing and they are trying to add many more symbols from different languages, you can read more about it in the [w3 idn and iri] article (https://www.w3.org/International/articles/idn-and-iri/).
 
-## Consider SEO
+## Consider SEO in your URLs
 
 Search engines consider the URL to rank a web page, if search engine ranking is important to your website, don't just use identifiers, tell the search engine the topic in the URL. SEO and URLs are a topic too broad to summarize in a few lines, but this should give you an idea of how to search for more information.
 
 ```bash
-/posts/el-titulo-de-mi-post ✅
-/posts/99-el-titulo-de-mi-post ✅
+/posts/post-title ✅
+/posts/99-post-title ✅
 /posts/99 ❌
 ```
 
