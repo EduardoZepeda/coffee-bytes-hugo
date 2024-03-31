@@ -19,17 +19,15 @@ title: Conoce los comandos básicos de Docker Compose
 url: docker-compose-tutorial-con-comandos-en-gnu-linux
 ---
 
-Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. Si quieres repasar los comandos básicos de Docker visita mi entrada de los [comandos y uso básico de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)
+Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. 
 
-{{<digitalocean product="Docker y kubernetes">}}
+Si quieres refrescar tu memoria visita mi [tutorial de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)
 
 ## ¿Qué es docker compose?
 
 Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
 
 Docker-compose está programando usando el [lenguaje de programación go o golang](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/); el mismo con lenguaje con el que [funcionan internamente los containers de go](/es/container-de-docker-con-namespaces-y-cgroups/).
-
-Docker compose permite automatizar procesos, y es usado en proyectos tan populares como [cookiecutter-django, con el cual puedes dejar una aplicación de django lista para producción en minutos.](/es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
 
 ## Estructura de un archivo docker-compose.yml
 
@@ -545,4 +543,4 @@ services:
     command: /start
 ```
 
-¿Que tal una aplicación práctica de Docker Compose? En mi siguiente entrada te explico como hacer un deploy usando cookiecutter-django y docker-compose; gracias a cookie-cutter bastan un par de comandos de docker-compose y listo, una aplicación lista para producción, con SSL y muchas más funciones.
+¿Que tal una aplicación práctica de Docker Compose? En mi siguiente entrada te explico como hacer un [deploy usando cookiecutter-django y docker-compose](/es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/); gracias a cookie-cutter bastan un par de comandos de docker-compose y listo, una aplicación lista para producción, con SSL y muchas más funciones.
