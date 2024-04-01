@@ -2,12 +2,11 @@ DefaultContentLanguage = "es"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 enableRobotsTXT = true
-title = "Coffee bytes"
-
 googleAnalytics = "G-P84BC2GXX4"
 removePathAccents = true
 summaryLength = 30
 theme = "hugo-theme-latte"
+title = "Coffee bytes"
 
 defaultContentLanguageInSubdir = true
 
