@@ -2,7 +2,6 @@ DefaultContentLanguage = "es"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 enableRobotsTXT = true
-languageCode = 'es-MX'
 title = "Coffee bytes"
 
 googleAnalytics = "G-P84BC2GXX4"
@@ -89,6 +88,7 @@ toc = true
 
 [languages.es]
 disabled = false
+languageCode = 'es'
 languageDirection = 'ltr'
 languageName = 'Español'
 [[languages.es.menu.main]]
