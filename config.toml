@@ -69,6 +69,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
+author = "Eduardo Zepeda"
 description = "Opinions and tutorials about web development and programming"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
@@ -140,6 +141,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
+author = "Eduardo Zepeda"
 description = "Artículos, opiniones y tutoriales sobre desarrollo web y programación"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
