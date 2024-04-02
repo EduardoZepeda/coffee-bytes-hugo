@@ -163,8 +163,9 @@ filename = "sitemap.xml"
 priority = 0.5
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
-page = ["HTML", "RSS"]
+
+home = ["HTML", "RSS"]
+page = ["HTML", "JSON"]
 section = ["HTML", "RSS", "JSON"]
 
 [frontmatter]
