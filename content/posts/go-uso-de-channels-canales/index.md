@@ -34,7 +34,7 @@ Un channel o canal en go se declara con *make* y la palabra *chan*, que hace ref
 c := make(chan string)
 ```
 
-Los channels son usados para comunicar goroutines, como en el [patrón de diseño worker pool]( explicacion-del-patron-de-diseno-worker-pool/)
+Los channels son usados para comunicar goroutines, como en el [patrón de diseño worker pool](/es/explicacion-del-patron-de-diseno-worker-pool/)
 
 ### Channels o canales con buffer
 

@@ -40,7 +40,7 @@ If they still seem confusing and you don't understand the difference, give those
 
 A [corroutine](https://es.wikipedia.org/wiki/Corrutina), in go, is **a function or method that runs concurrently with other functions or methods**. In go, corroutines are referred to as **goroutines** or goroutines. Even the main function, _main_, is executed inside one.
 
-Goroutines are used in design patterns, such as the [worker-pool-design-pattern](explanation-of-worker-pool-design-pattern/)
+Goroutines are used in design patterns, such as the [worker-pool-design-pattern](/en/worker-pool-design-pattern-explanation/)
 
 To generate a goroutine we add the keyword _go_ before a function. This will schedule the function for asynchronous execution.
 

@@ -123,7 +123,7 @@ cp -r <solr-x.y.z>/server/solr/configsets/_default/conf <solr-x.y.z>/server/solr
 
 If we go to the administration panel we should be able to create the core successfully.
 
-![Solr kernel creation](images/solr-kernel-creation.png)
+![Solr kernel creation](images/solr-creacion-de-un-nucleo.png)
 
 ## Haystack in Django
 

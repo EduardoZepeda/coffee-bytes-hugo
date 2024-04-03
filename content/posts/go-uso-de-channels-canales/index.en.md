@@ -32,7 +32,7 @@ A channel in go is declared with _make_ and the word _chan_, which refers to the
 c := make(chan string)
 ```
 
-Channels are used to communicate goroutines, as in the [worker-pool design pattern](explanation-of-worker-pool-design-pattern/)
+Channels are used to communicate goroutines, as in the [worker-pool design pattern](/en/worker-pool-design-pattern-explanation/)
 
 ### Channels or buffered channels
 

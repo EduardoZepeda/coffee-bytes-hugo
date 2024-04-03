@@ -65,7 +65,7 @@ def pdfVideogame(request):
     p.drawString(0, 0, "Hola mundo")
 ```
 
-![Text generated with reportlab](images/text-fondo-pdf.png "Text created with reportlab")
+![Text generated with reportlab](images/texto-fondo-pdf.png "Text created with reportlab")
 
 This will draw our string... at the bottom of the screen.
 

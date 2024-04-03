@@ -16,7 +16,7 @@ authors:
 
 Today this unholy news became popular, that an "AI Software Engineer" with the name Devin, made by [Cognition Labs](https://www.cognition-labs.com/), will be available on the market. And, of course, it provoked a strong reaction among the software professional community. Reactions ranging from cynicism to fear to disappointment abound in the comments on the related videos.
 
-While we are still far from having a [self-aware AI](blog/chat-gpt-searles-chinese-room-and-consciousness/), what we do have is a product with promising features that threaten to turn the technology industry upside down.
+While we are still far from having a [self-aware AI](/en/chat-gpt-searles-chinese-room-and-consciousness/), what we do have is a product with promising features that threaten to turn the technology industry upside down.
 
 Like what features? [According to its creators, Devin can](https://www.cognition-labs.com/blog):
 - Use unfamiliar technologies
@@ -36,7 +36,7 @@ Behind Devin is Cognition labs, a relatively new company that had been kept behi
 
 There are about 10 members, between them totaling more than **10 gold medals at the International Computer Olympiad** and whose members seem to have been involved in AI-related projects at companies like Google, DeepMind and Scale AI. So one can speak of a group with some level of experience.
 
-![](images/meme-creator-de-devin-linuxero.jpg "Fictitious and caricatured representation of Devin's creators")
+![](images/meme-creador-de-devin-linuxero.jpg "Fictitious and caricatured representation of Devin's creators")
 
 ### Who is funding the project?
 
