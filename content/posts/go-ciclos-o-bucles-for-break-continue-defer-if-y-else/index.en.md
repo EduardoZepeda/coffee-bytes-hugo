@@ -1,5 +1,5 @@
 ---
-title: "Go: cycles or loops for, break, continue, defer, if and else"
+title: "Go: loops for, break, continue, defer, if and else"
 date: "2021-12-07"
 categories:
 - go
@@ -11,6 +11,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: /en/go-cycles-or-loops-for-break-continue-defer-if-and-else
 ---
 
 This entry will deal with loops in the go programming language.
