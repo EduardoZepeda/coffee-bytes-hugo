@@ -408,7 +408,7 @@ See how it works
 
 See the image below, htmx automatically sent the content of all the fields encompassed by the form tag as part of the POST request made to /videogame/create/.
 
-![POST parameters automatically sent by htmx ](images/PetitionHTTPPost.png)
+![POST parameters automatically sent by htmx ](images/PeticionHTTPPost.png)
 
 ### Excluding parameters with htmx
 

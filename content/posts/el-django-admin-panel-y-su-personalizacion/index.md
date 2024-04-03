@@ -319,10 +319,6 @@ Si ahora accedemos al admin, podremos ver una nueva terminal mucho más estiliza
 
 Panel de administración de Django con django-material
 
-![Pantalla de logueo con django-material](images/Captura-de-pantalla-de-2021-08-19-23-19-12.png)
-
-Panel de logueo del admin de django con django-material
-
 Usé este paquete en especial porque se instala muy fácil y le da un aspecto completamente diferente al admin. Pero existen [muchas otras opciones disponibles](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80) que puedes elegir, algunas de pago y otras gratuitas.
 
 ## Seguridad en el django admin
