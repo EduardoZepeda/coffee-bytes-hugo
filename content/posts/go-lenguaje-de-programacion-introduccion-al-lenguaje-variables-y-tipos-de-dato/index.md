@@ -12,7 +12,8 @@ description: 'Conoce las bases del lenguaje de programación go o golang: compil
   estructura de un archivo, variables y tipos de datos.'
 keywords:
 - go
-title: Go, lenguaje de programación, introducción a variables y tipos de datos
+title: Go, introducción a variables y tipos de datos
+url: /es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 ---
 
 Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/), donde también comparo lo bueno, lo malo y lo feo de este lenguaje.

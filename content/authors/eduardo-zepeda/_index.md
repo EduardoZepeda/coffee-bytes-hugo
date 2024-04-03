@@ -16,7 +16,7 @@ Aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros 
 
 Tengo la [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
 
-Soy 2° Kyu en Codewars.
+Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/).
 
 [![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 

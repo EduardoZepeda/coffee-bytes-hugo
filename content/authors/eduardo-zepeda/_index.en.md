@@ -16,7 +16,7 @@ I learned almost all that I know about web developing [by reading and practicing
 
 I possess the [Microsoft AZ-900 Fundamentals Certification](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
 
-I'm a fan of solving katas on Codewars. I'm 2 kyu now!
+I'm a fan of solving katas on [Codewars](/en/i-test-chatgpt-with-codewars-coding-challenges/). I'm 2 kyu now!
 
 [![Code wars badge](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 

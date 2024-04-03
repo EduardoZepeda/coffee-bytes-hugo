@@ -39,7 +39,7 @@ Nota el esquema de validación en la parte izquierda consistente de un objeto ll
 
 Cada vez que se hace una petición a una API hay código que se repite; hacer la petición, mostrar un elemento que indique que se está cargando contenido, recibir el error o el estado exitoso y guardarlo en el estado. ¿Te suena?
 
-React query se encarga de reducir todo el código repetitivo que se encarga de todo el proceso de manejo de peticiones web proveyéndonos de un hook especial del que podemos desestructurar variables que nos facilitarán el manejo de la respuesta.
+React query se encarga de reducir todo el código repetitivo que se encarga de todo el proceso de manejo de peticiones web proveyéndonos de un hook especial del que podemos [desestructurar variables](/es/desestructuracion-con-valores-por-defecto-en-javascript/) que nos facilitarán el manejo de la respuesta.
 
 ![Librería React query ](images/reactQuery.png)
 

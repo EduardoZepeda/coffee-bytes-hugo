@@ -1,5 +1,5 @@
 ---
-title: "How to create an automatic wallpaper changer using Python in Gnome?"
+title: "How to create a wallpaper changer using Python in Gnome?"
 date: "2020-02-15"
 categories:
 - "python"
@@ -13,6 +13,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: "/en/how-to-create-an-automatic-wallpaper-changer-using-python-in-gnome/"
 ---
 
 In this post we are going to create an automatic, random and minimalistic wallpaper changer for GNU/Linux using Python. With no extra functions, super lightweight and totally homemade, its only function will be to randomly select an image and set it as wallpaper. I will explain the function of each line in the code.

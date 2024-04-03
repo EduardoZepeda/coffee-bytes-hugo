@@ -14,6 +14,7 @@ keywords:
 - html
 - go
 title: Why I abhor HTML's datetime-local input and dates management in Javascript?
+url: /en/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascript
 ---
 
 

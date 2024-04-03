@@ -1,5 +1,5 @@
 ---
-title: "Go with Reflect: Discover How Reflect Can Boost Your Program's Flexibility"
+title: "Go with Reflect: Boost Your Code's Flexibility"
 date: "2023-03-13"
 coverImage: "images/reflect-typeof-value-of-en-go.jpg"
 categories:
@@ -12,6 +12,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: /en/go-with-reflect-discover-how-reflect-can-boost-your-programs-flexibility
 ---
 
 The "reflect" package is a useful library in the Go programming language that provides functions for working with reflection.

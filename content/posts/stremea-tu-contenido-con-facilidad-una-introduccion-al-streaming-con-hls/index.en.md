@@ -1,5 +1,5 @@
 ---
-title: "Stream your videos and audios: A simple introduction to streaming with HLS for your applications"
+title: "Stream your videos and audios: HLS for your applications"
 date: "2023-03-02"
 categories:
 - linux and devops
@@ -18,6 +18,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: /en/stream-your-videos-and-audios-a-simple-introduction-to-streaming-with-hls-for-your-applications
 ---
 
 Almost all modern web applications perform some form of streaming, from video platforms to live streaming. In this post I explain how streaming works with HLS in such a simplified way that it will bring out your inner purist.

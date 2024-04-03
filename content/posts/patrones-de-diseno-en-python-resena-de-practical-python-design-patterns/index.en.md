@@ -1,5 +1,5 @@
 ---
-title: "Python Design Patterns, review of Practical Python Design Patterns"
+title: "Review of Practical Python Design Patterns"
 date: "2020-05-31"
 categories:
 - "python"
@@ -13,6 +13,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: /en/python-design-patterns-review-of-practical-python-design-patterns
 ---
 
 Hi, today I bring you a review of the _Practical Python Design Patterns_ book by Wessel Badenhorst. This is a book of design patterns for Python, quite simple to understand and with examples done in simple and readable Python code. To talk a little bit about the content of the book I am going to explain slightly what a design pattern is.

@@ -21,8 +21,8 @@ keywords:
 - drf
 - aws
 - deploy
-title: Configuración de un proyecto de Django usando Cookiecutter-django
-url: cookiecutter-django-para-configurar-y-hacer-deploy-en-django
+title: Configuración y deploy de Django usando Cookiecutter-django
+url: /es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django
 ---
 
 Escribí las entradas anteriores como una introducción para el tema de esta semana. En esta entrada voy a explicar sobre una herramienta genial para Django llamada cookiecutter-django, que traducido significa "cortador de galletas django". Esta herramienta para django permite generar proyectos que integren docker, celery, mailhog, aws, gcp, y muchas otras herramientas, de una manera automática, con solo contestar una serie de preguntas.

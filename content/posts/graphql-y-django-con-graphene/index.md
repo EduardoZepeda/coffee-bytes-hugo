@@ -56,7 +56,7 @@ django-admin startproject criticaAnimes .
 django-admin startapp anime
 ```
 
-Ahora crearé un único modelo en la app y añadiré tres instancias usando el admin. Tengo una entrada sobre el django admin en caso de que no sepas configurarlo.
+Ahora crearé un único modelo en la app y añadiré tres instancias usando el admin. Tengo una [entrada sobre el django admin](/es/django-admin-panel-y-su-personalizacion/) en caso de que no sepas configurarlo.
 
 ```python
 # anime/models.py

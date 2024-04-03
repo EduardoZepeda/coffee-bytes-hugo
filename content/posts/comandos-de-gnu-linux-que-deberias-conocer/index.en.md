@@ -1,5 +1,5 @@
 ---
-title: "Linux Essential Commands: grep ls cd history cat cp rm scp"
+title: "Linux Essential Commands: grep ls cd cat cp rm scp"
 date: "2019-05-08"
 categories:
 - linux and devops

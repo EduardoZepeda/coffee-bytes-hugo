@@ -1,5 +1,5 @@
 ---
-title: "How do permissions and permissions groups work in Django?"
+title: "How do permissions and its groups work in Django?"
 date: "2021-04-17"
 categories:
 - "django"
@@ -12,6 +12,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+url: how-do-permissions-and-permissions-groups-work-in-django
 ---
 
 When I first learned that Django had a permissions system, many years ago, it seemed rather esoteric, not very useful and easy to replicate, how wrong I was back then. Then I realized that the built-in permissions system was a marvel and saved a lot of code, and was quite robust and tested by some of the largest companies in the world.

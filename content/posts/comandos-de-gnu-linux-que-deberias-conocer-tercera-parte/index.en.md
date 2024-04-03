@@ -1,5 +1,5 @@
 ---
-title: "Linux Essential Commands: printenv export lsof top ps kill curl systemctl chown chroot"
+title: "Linux Essential Commands: lsof top ps kill systemctl chown chroot"
 date: "2019-05-21"
 categories:
 - linux and devops

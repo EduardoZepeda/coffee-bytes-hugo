@@ -16,7 +16,7 @@ keywords:
 - python
 - inteligencia artificial
 - pytesseract
-title: OCR Reconocimiento óptico de carácteres con tesseract y pytesseract
+title: Pytesseract, OCR Reconocimiento óptico de carácteres en Python 
 url: ocr-con-tesseract-python-y-pytesseract
 ---
 
