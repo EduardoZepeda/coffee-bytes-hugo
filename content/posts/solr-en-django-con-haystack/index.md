@@ -12,7 +12,8 @@ coverImage: images/solr-django-busquedas.jpg
 coverImageCredits: Créditos a https://www.instagram.com/we_make_mangas/
 date: '2022-05-26'
 title: ¿Cómo implementar Solr para búsquedas o queries en Django?
-url: busquedas-con-solr-con-django-haystack
+url: /es/busquedas-con-solr-con-django-haystack
+description: 'Solr, junto con Haystack, permite búsquedas exactas en milisegundos al crear un índice invertido del contenido de los modelos de Django'
 ---
 
 Anteriormente te expliqué como implementar [full text search en Django](/es/full-text-search-y-busquedas-con-django-y-postgres/) y [trigramas y search rank](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) usando Postgres. Solr viene a ofrecernos algo mejor, un motor de búsquedas robusto, estable y con muchas funciones avanzadas, listo para usarse, a cambio de un poco más de complejidad, más dependencias y tener que incluir Java (sí, Java) en nuestro projecto.

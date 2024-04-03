@@ -9,6 +9,7 @@ categories:
 coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
 date: 2022-10-06
 title: 'Go: Manejo de Signals para Cerrar Aplicaciones'
+description: 'Manejo de las señales o signlas SIGINT y SIGTERM en Linux usando channels en Go para conseguir el apagado elegante de aplicaciones web en Go'
 ---
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.
