@@ -418,7 +418,7 @@ While in Python we already have some well proven solutions, solutions, character
 
 Among the frameworks [Django, one of the favorite frameworks of Python](/en/why-should-you-use-django-framework/)
 
-Python's most popular frameworks are: Django, Fastapi, flask,
+![Python's most popular frameworks are: Django, Fastapi, flask](images/python-frameworks.jpg "Most popular Python frameworks")
 
 Even though most Python frameworks are old, it doesn't mean that new frameworks are not appearing lately.
 [Fastapi](/en/fastapi-tutorial-the-best-python-framework/), which I already did a tutorial on, is also a fast-growing new framework that is gaining popularity day by day.

@@ -281,7 +281,7 @@ Even despite the abundance of options, new JavaScript frameworks are released mo
 
 Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/en/why-should-you-use-django-framework/), or Flask and some more modern ones like the fast-growing in popularity, [FastAPI web development framework](/en/fastapi-tutorial-the-best-python-framework/), about which I wrote a post before.
 
-![Python web development frameworks](images/python-frameworks.jpg)
+![Python web development frameworks](images/python-frameworks.jpg "Most popular Python frameworks")
 
 You can write HTML and CSS code using Python for the frontend, but you will never have the same versatility as running javascript code directly in the user's browser.
 
