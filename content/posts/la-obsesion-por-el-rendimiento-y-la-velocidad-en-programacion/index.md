@@ -19,7 +19,7 @@ Esta entrada es para ti, que quieres independizarte de las empresas y estas busc
 
 En el mundo de los programadores hay una obsesión por la velocidad y el rendimiento; queremos exprimir cada milisegundo posible al lenguaje y reducir el consumo de memoria al mínimo posible y escribir las queries en su versión más elegante que lleve al límite de la velocidad a nuestra base de datos.
 
-![Rust vs go Benchmark](images/rust-and-go-performance-for-common-data-structures-arrays.webp)
+![Rust vs go Benchmark, rust es superior](images/rust-and-go-performance-for-common-data-structures-arrays.webp)
 
 En esa búsqueda constante pasamos de lenguajes de alto nivel a lenguajes de más bajo nivel, deambulamos por los rincones más oscuros de la documentación rumbo a los runtimes más esotéricos escritos en lenguajes arcanos cuyos nombres parecen sacados de un diccionario de otro idioma. ¿Se te vino a la mente alguno en particular? A mi sí. 
 
@@ -59,7 +59,7 @@ Asi mismo, manten presente, que esto también aplica al elegir las herramientas 
 
 Otra cosa, cuando optimices en favor de la velocidad de desarrollo, no te olvides de considerar la deuda técnica, encuentra el punto de inflexión y pivotea hacia la escalabilidad.
 
-![](images/design-stamina-graph.jpg "Créditos de la imagen a Martin Fowler")
+!["Design stamina graph, donde se muestra el momento de pivoteo para tener una arquitectura escalable"](images/design-stamina-graph.jpg "Créditos de la imagen a Martin Fowler")
 
 ## Situaciones donde sí importa el rendimiento y la seguridad
 
@@ -71,7 +71,7 @@ Usar un lenguaje de bajo nivel suele ser la decisión correcta para situaciones 
 
 También querrás rendimiento y seguridad en entornos donde trates con cosas aún más importantes que la vida de las personas, como aplicaciones relacionadas con el mercado financiero y donde se manejen cantidades importantes de dinero (es sarcasmo, por si acaso, los únicos que piensan así son la gente de Wall street).
 
-![Meme del lobo de wallstreet](images/gamestop-meme.jpg)
+![Meme de gamestop y un millonario enojado por las acciones de reddit](images/gamestop-meme.jpg)
 
 ## Herramientas To Get Shit Done
 
@@ -88,6 +88,7 @@ Te dejo una lista de algunas de mis soluciones favoritas para ahorrarte todo el 
 - [Cookiecutter: plantillas para ahorrarte Boilerplate, el de Django es muy bueno](/es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
 - Hugo: Generador de sitios estáticos, suficientemente rápido (aunque no tanto como su version en Rust, Zola)
 - Herramientas no-code
+- Daisy UI: Librería de componentes basada en Tailwindcss
 
 ## Cuando sea momento de cuidar el rendimiento, hazlo
 
