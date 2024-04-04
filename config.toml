@@ -1,6 +1,7 @@
 DefaultContentLanguage = "es"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
+copyright = "© All rights reserved."
 enableRobotsTXT = true
 googleAnalytics = "G-P84BC2GXX4"
 removePathAccents = true
