@@ -36,7 +36,9 @@ Observa este esquema súper simplificado que compara los lenguajes compilados e 
 
 ![Esquema súper simplificado de las diferencias entre código compilado e interpretado](images/codigo-compilado-vs-interpretado.png "Diferencias entre un lenguaje interpretado y uno compilado.")
 
-En este esquema me refiero a Javascript al momento de su creación, como lenguaje interpretado, no a la **compilación JIT** de la que te hablaba.
+En este esquema me refiero a Javascript al momento de su creación, como lenguaje interpretado, no a la **compilación JIT** de la que te hablaba. 
+
+Si bien no son los lenguajes [con mayor rendimiento, su flexibilidad es ideal para iterar una y otra vez en una startup o proyecto nuevo](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/)
 
 ## Antigüedad
 

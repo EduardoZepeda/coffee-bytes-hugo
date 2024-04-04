@@ -119,7 +119,7 @@ Otro paquete a destacar que te permite trabajar con websockets, para crear una [
 
 ### Te lleva de una idea a un prototipo funcional rápido
 
-Yo considero esta la razón principal para usar Django. **Django te lleva de una idea a un MVP rápido y sin necesidad de reinventar la rueda**. Lo cual es una ventaja competitiva gigantesca frente a otros frameworks, especialmente cuando hay dinero y clientes involucrados.
+Yo considero esta la razón principal para usar Django. A pesar de [no ser el framework con mejor rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), **Django te lleva de una idea a un MVP rápido y sin necesidad de reinventar la rueda**. Lo cual es una ventaja competitiva gigantesca frente a otros frameworks, especialmente cuando hay dinero y clientes involucrados.
 
 Con Django tendrías un prototipo funcionando más rápido que con cualquier otro framework "menos opinado" o que requiera que programes todo desde cero.
 
