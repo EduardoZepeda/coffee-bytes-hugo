@@ -1,7 +1,6 @@
 ---
 aliases:
 - /diferencias-entre-select_related-y-prefetch_related-en-django
-- /diferencias-entre-select-related-y-prefetch-related-en-django
 authors:
 - Eduardo Zepeda
 categories:
@@ -21,7 +20,7 @@ title: Diferencias entre select_related y prefetch_related en Django
 
 Los métodos _select\_related_ y _prefetch\_relate_d **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/como-escalar-django-para-manejar-millones-de-vistas/)
 
-{{<digitalocean product="Django">}}
+{{<digitalocean info="error">}}
 
 ## select\_related
 

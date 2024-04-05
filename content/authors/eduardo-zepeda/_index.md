@@ -22,11 +22,13 @@ Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de
 
 ¿Quieres ver algunos proyectos? Visita mi portafolio en [eduardozepeda.dev](https://eduardozepeda.dev/#portfolio)
 
-Uso GNU/Linux desde el 2010, por lo que me defiendo bastante bien. 
+Casi 15 años usando sistemas Linux.
 
-## Pasatiempos fuera del mundo tech
+## Pasatiempos no tech
 
-Me apasiona el cine de arte, el anime y el manga. También me encanta jugar videojuegos, sin embargo me he vuelto muy selectivo al elegirlos. **Amo leer**, principalmente material de ciencia ficción. Sin embargo también disfruto de ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. Amo el mundo del café de especialidad y encontrar buenos lugares para beber café.
+Me apasiona el cine de arte, el anime y el manga. También me encanta jugar videojuegos, sin embargo me he vuelto muy selectivo al elegirlos. **Amo leer**, principalmente material de ciencia ficción. Sin embargo también disfruto de ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. 
+
+Amo el mundo del café de especialidad y encontrar buenos lugares para beber café.
 
 **Soy abstemio y no fumo**.
 

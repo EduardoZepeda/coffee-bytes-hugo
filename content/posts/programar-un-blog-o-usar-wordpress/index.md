@@ -7,7 +7,6 @@ categories:
 - opiniones
 coverImage: images/porque_decidi_usar_wordpress.jpg
 date: '2019-06-26'
-description: Porque wordpress sigue siendo mejor opción para la mayoría de las personas que programar un blog sencillo desde cero dándole vida a la mayor cantidad de sitios en internet, sobre todo en personas no técnicas
 keywords:
 - wordpress
 - opinion

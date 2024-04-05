@@ -18,7 +18,7 @@ keywords:
 - REST
 - rendimiento
 - API
-title: Tutorial para Caché con Django REST Framework y memcached
+title: Tutorial Caché con Django REST Framework y Memcached
 url: /es/cache-en-django-rest-framework-con-memcached
 ---
 
