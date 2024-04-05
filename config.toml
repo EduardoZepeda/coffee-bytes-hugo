@@ -71,7 +71,7 @@ weight = 5
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
 author = "Eduardo Zepeda"
-description = "Opinions and tutorials about web development and programming"
+description = "tutorials and acid opinions about web development, programming and technology"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
@@ -83,7 +83,7 @@ subscribedescription = """
                           ✅ To access just subscribe to the newsletter, it's completely  <strong>completely free.</strong> <br>
                           ✅ Over 400 registered developers. Tutoriales and my ideas on web dev every week, sometimes months, directly in your email, cero spam.
                           """
-subscribetitle = "Free my Python tricks guide"
+subscribetitle = "My Python tricks guide for Free"
 toc = true
 
 [languages.es]
@@ -143,7 +143,7 @@ weight = 5
 [languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
 author = "Eduardo Zepeda"
-description = "Artículos, opiniones y tutoriales sobre programación web y desarrollo"
+description = "Artículos, opiniones ácidas y tutoriales sobre programación web, desarrollo y tecnología"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 disablesearch = false
