@@ -17,7 +17,7 @@ autores:
 - Eduardo Zepeda
 ---
 
-Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage](/en/basic-linux-commands-you-should-know/) post.
+Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage](/en/basic-commands-basic-docker-tutorial/) post.
 
 ## What is docker compose?
 
@@ -44,14 +44,14 @@ These yml files are incredibly simple to understand.
 ```docker
 version: '3.8'
 services:
-  nombre_del_servicio:
-    variable_de_configuracion:
-      valores
-    variable_de_configuracion:
-      valores
-  nombre_de_otro_servicio:
-    variable_de_configuracion:
-      valores
+  <service_name>:
+    <configuration_variable>:
+      <values>
+    <configuration_variable>:
+      <values>
+  nombre_de_otro_<service>:
+    <configuration_variable>:
+      <values>
 ```
 
 A docker-compose file starts by **specifying the version of docker compose** to be used. For this example we will use version 3.8.
@@ -407,7 +407,7 @@ docker-compose restart
 To execute docker-compose restart on a single service, just put the name of the service at the end.
 
 ```bash
-docker-compose restart servicio
+docker-compose restart <service>
 ```
 
 ### Stop the services without removing them
@@ -424,7 +424,7 @@ docker-compose stop
 To execute docker-compose stop a only to a service just put the name of the service at the end.
 
 ```bash
-docker-compose stop servicio
+docker-compose stop <service>
 ```
 
 ### Starting docker-compose services without creating them
@@ -441,7 +441,7 @@ docker-compose start
 By adding the name of a service at the end the docker-compose start command will be executed on that service only.
 
 ```bash
-docker-compose start servicio
+docker-compose start <service>
 ```
 
 ### Running a command within a service
@@ -468,7 +468,7 @@ docker-compose ps
 To list a single container we place it at the end of our command.
 
 ```bash
-docker-compose ps servicio
+docker-compose ps <service>
 ```
 
 ### Access to processes
@@ -487,7 +487,7 @@ docker-compose -f local.yml top
 To see the processes of a single service just type its name at the end of the command docker-compose top
 
 ```bash
-docker-compose top servicio
+docker-compose top <service>
 ```
 
 ### View logs
@@ -508,7 +508,7 @@ docker-compose -f production.yml logs
 As with the other commands, if we want to read the logs of a service, it is enough to add its name at the end.
 
 ```bash
-docker-compose -f production.yml logs servicio
+docker-compose -f production.yml logs <service>
 ```
 
 ## Scaling containers
@@ -516,7 +516,7 @@ docker-compose -f production.yml logs servicio
 Previously, the docker-compose scale command was used to scale services. In the new versions of docker-compose scaling containers is done with the command docker-compose up. After the command we add the --scale option followed by the service we want to scale and the number of copies using the format service=number.
 
 ```bash
-docker-compose -f production.yml up -d --scale servicio=3
+docker-compose -f production.yml up -d --scale <service>=3
 ```
 
 We must take into account that when we scale a container, it will try to create another container with a port that will already be in use, which will cause a conflict, for this reason we need to specify port ranges in our docker compose file. We also cannot use container names in our services, so we will have to remove them.
@@ -528,7 +528,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: customImage
-    container_name: django # ES NECESARIO REMOVER ESTA LINEA
+    container_name: django # Please keep this line
     depends_on:
       - postgres
     volumes:
@@ -537,7 +537,7 @@ services:
       - ./django.env
       - ./posgres.env
     ports:
-      - "8000-8005:8000" # APLICA RANGOS A LOS PUERTOS
+      - "8000-8005:8000" # Apply ranges to ports
     command: /start
 ```
 
