@@ -10,6 +10,10 @@ categories:
 
 authors:
 - Eduardo Zepeda
+keywords:
+- git
+- submodules
+- repository
 ---
 
 A git submodule is a record within a git repository that points to a commit in an external repository. They are handled exactly as you would with a repository, they even have a _.git_ file that points to the location where a changelog is kept.

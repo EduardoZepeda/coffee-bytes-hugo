@@ -76,7 +76,7 @@ The most basic, and cheapest, version is a shared CPU, in exchange for offering 
 
 ![Types of plans for Digital Ocean](images/Droplets-purpose.png)
 
-### Droplets of all prices
+### The cheap Droplets of DO
 
 And now I'm sure you're wondering how much it costs me. Well, the answer is obvious: it depends.
 
@@ -86,7 +86,7 @@ Notice how all plans handle storage with an SSD.
 
 ![Prices of the different plans offered by Digital Ocean](images/Precios-digital-ocean.gif)
 
-### Servers around the world
+### Cloud provider with servers around the world
 
 Digital Ocean has servers in different locations around the world. So you always have an option close to your customers.
 
@@ -94,7 +94,7 @@ I have tried the servers in the United States, due to the proximity to Mexico, a
 
 ![Digital Ocean Server Locations](images/diferentes-ubicaciones-droplets-digital-ocean.png)
 
-## Other services on Digital Ocean
+## Other services available on Digital Ocean
 
 Remember I told you that there were IAAS and PAAS companies? Well, the truth is a little bit more complicated, many IAAS companies have grown a lot and have started to provide PAAS type services. And, as you might expect, Digital Ocean has not been left behind.
 

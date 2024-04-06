@@ -15,20 +15,20 @@ authors:
 
 Golang, also known as go, is a compiled programming language developed by Google. It is a language quite appreciated according to the latest Stackoverflow surveys (2021), as you can see in my python vs go post, where I also compare the good, the bad and the ugly of this language.
 
-## A little bit about language
+## What's Go the programming language?
 
 Go or Golang is a language with a syntax similar to that of C and with certain abstractions in its syntax that make it a language in which writing code is a piece of cake, the truth is that the feeling is a mixture between C and Python.
 
 This is a compiled, imperative, **strongly concurrency-centric**, statically typed language.
 
-### Cool aspects of go
+### Cool aspects and advantages of go
 
 * The language is quite simple** It is a language with just a few keywords and functionalities. You can learn it in a breeze.
 * Go compiler is super fast** Since it has few keywords and the language is quite simple, go compiles rapidly compared to other programming languages.
 * Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/en/go-use-of-channels-to-communicate-goroutines/) is quite easy.
 * Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem.
 
-### Why does go suck?
+### Why does go suck? Disadvantagesof Go
 
 To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers.
 
@@ -41,13 +41,13 @@ To make this analysis as objective as possible, here are some controversial aspe
 * **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust).
 * **~~Go does not have generics~~** Go already has generics support since version 1.18.
 
-## Go and best practices
+## Go and its best practices
 
 Go is strongly oriented to good code practices. How does it do it? The compiler forces good practices in the code, preventing the code from compiling if there are variables or imports that are not used, or if the privacy rules of our properties and functions are not respected, among others.
 
 ![Compilation error in go due to unused variables](images/ErrorCompilacionGo.png "Compilation is not allowed if there are unused variables.")
 
-## Gopher: A great mascot
+## The most popular mascot in programming
 
 The official mascot is a ground squirrel and it is popular among the community to use it to illustrate go-related content. This Sartre in blue rodent version is so popular among developers that there are tools, such as [Gopherizme](https://gopherize.me), to create custom avatars. The impact of the mascot is such that many developers use it as a logo, although the [official go logo](https://blog.golang.org/go-brand) has already been defined.
 

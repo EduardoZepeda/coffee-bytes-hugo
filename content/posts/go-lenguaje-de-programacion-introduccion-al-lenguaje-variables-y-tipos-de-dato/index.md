@@ -18,20 +18,20 @@ url: /es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 
 Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/), donde también comparo lo bueno, lo malo y lo feo de este lenguaje.
 
-## Un poco sobre el lenguaje
+## ¿Qué es Go? Un poco sobre el lenguaje de programación
 
 Go o Golang es un lenguaje con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
 
 Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la concurrencia** y con tipado estático.
 
-### Aspectos geniales de go
+### Aspectos geniales o ventajas de go
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
 * **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) es bastante sencillo
 * **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
-### ¿Por qué apesta go?
+### Desventajas de Go
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
@@ -44,20 +44,20 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 * **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * **~~Go no cuenta con generics~~** Go ya cuenta con soporte para generics desde su version 1.18.
 
-## Go y las buenas prácticas
+## Go cuida las buenas buenas prácticas de código
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
 ![Error de compilación en go por variables sin usar](images/ErrorCompilacionGo.png "La compilación no se permite si hay variables sin usar.")
 
-## Gopher: Una mascota genial
+## Go tiene la mejor mascota: Gopher
 
 La mascota oficial es una ardilla de tierra y es muy común entre la comunidad usarla para ilustrar el contenido relacionado con go. Este Sartre en versión roedor azul es tan popular entre los desarrolladores que existen herramientas, como [Gopherizme](https://gopherize.me), para crear avatares personalizados. El impacto de la mascota es tal, que muchos desarrolladores la usan a manera de logo, aunque el [logo oficial de go](https://blog.golang.org/go-brand) ya ha sido definido.
 
 ![Mascota y logo de go](images/GoMascotAndLogo.png "A la izquierda la mascota de Go. A la derecha el logo oficial")
 
 
-## Instalación
+## Instalación de Go
 
 Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) como cualquier otro paquete.
 
@@ -144,7 +144,7 @@ func main() {
 }
 ```
 
-## Compilar y ejecutar un archivo de go
+## Como compilar y ejecutar un archivo de go
 
 Dado que go es un lenguaje compilado, requiere la compilación del código antes de poder ejecutar el código. El compilado se realiza con el comando build.
 

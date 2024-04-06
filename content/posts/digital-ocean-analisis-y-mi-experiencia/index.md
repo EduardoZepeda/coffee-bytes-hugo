@@ -66,7 +66,7 @@ Si no quieres partir desde un sistema operativo "en blanco" puedes optar por alg
 
 Ahí encontrarás aplicaciones de Django, Nodejs, Magento, Wordpress, Ghost, MongoDB y otras.
 
-### Droplets de acuerdo a tus necesidades
+### Droplets o VPS baratos en Digital Ocean
 
 Digital Ocean también cuenta con Droplets especializados, ya sea en CPU, memoria o almacenamiento y una versión para propósito general.
 
@@ -84,7 +84,7 @@ Observa como todos los planes manejan el almacenamiento con un SSD.
 
 ![Precios de los diferentes planes ofrecidos por Digital Ocean](images/Precios-digital-ocean.gif)
 
-### Servidores alrededor del mundo
+### El proveedor de cloud con servidores alrededor del mundo
 
 Digital Ocean te posee servidores en diferentes ubicaciones alrededor del mundo. Para que siempre tengas una opción cercana a tus clientes.
 
@@ -92,7 +92,7 @@ Yo he probado los servidores de Estados Unidos, por la cercanía con México, y 
 
 ![Ubicaciones de los servidores en Digital Ocean](images/diferentes-ubicaciones-droplets-digital-ocean.png)
 
-## Otros servicios de Digital Ocean
+## Otros servicios que ofrece de Digital Ocean
 
 ¿Te acuerdas que te dije que había empresas IAAS y PAAS? Pues la verdad es un poquito más complicado, muchas empresas IAAS han crecido muchísimo y han comenzado a brindar servicios del tipo PAAS. Y, como podrás esperar, Digital Ocean no se ha quedado atrás.
 

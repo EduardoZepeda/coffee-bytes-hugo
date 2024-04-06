@@ -71,7 +71,7 @@ weight = 5
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
 author = "Eduardo Zepeda"
-description = "tutorials and acid opinions about web development, programming and technology"
+description = "Tutorials and acid opinions about web development, programming and technology"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
