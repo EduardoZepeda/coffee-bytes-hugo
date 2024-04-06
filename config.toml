@@ -230,3 +230,11 @@ script-src = [
   "*.googletagmanager.com",
 ]
 style-src = ["'self'", "'unsafe-inline'"]
+
+[caches]
+[caches.images]
+dir = ':resourceDir/_gen'
+maxAge = "72h"
+[caches.getresource]
+dir = ':resourceDir/_gen'
+maxAge = "24h"
