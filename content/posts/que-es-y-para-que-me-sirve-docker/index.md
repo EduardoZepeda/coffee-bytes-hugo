@@ -18,7 +18,7 @@ keywords:
 title: ¿Qué es Docker y para que sirve?
 ---
 
-Si llevas usando computadoras desde hace tiempo, probablemente te encuentres más familiarizado con una máquina virtual que con un contenedor, ¿no es así? Docker resuelve el mismo problema que las máquinas virtuales pero de una manera diferente a estas últimas. Pero vamos por partes, empecemos por responder: ¿qué es Docker?
+Si llevas usando computadoras desde hace tiempo, probablemente te encuentres más familiarizado con una máquina virtual que con un contenedor, ¿no es así? Docker resuelve el mismo problema que las máquinas virtuales pero de una manera diferente a estas últimas. Pero vamos por partes, empecemos por responder que es Docker y para que sirve en palabras más simples.
 
 ## ¿Qué es Docker?
 
@@ -52,7 +52,7 @@ Ahora considera este segundo caso, en el que necesitas combinar dos softwares, p
 
 Para evitar caer en las viles manos de los puristas de las ciencias de la computación citaré las diferencias entre máquina virtual y contenedor tal cual están en la [página oficial de Docker](https://www.docker.com/resources/what-container), y me encomendaré al buen conocimiento de sus redactores:
 
-## Los contenedores son diferentes a las máquinas virtuales.
+## Diferencias entre contenedores y máquinas virtuales
 
 ### Definición de Contenedor
 
@@ -80,11 +80,11 @@ En la segunda imagen tenemos varias aplicaciones, **cada aplicación corriendo s
 
 Además de las diferencias en la estructura, Docker lleva a cabo optimizaciones a la hora de ejecutarse, como usar un solo sistema operativo si múltiples contenedores lo usan, para no repetir información.
 
-## Las dos versiones de Docker
+## Las dos versiones de Docker: community y enterprise
 
 También es importante hacer notar que, como es común en los modelos Freemium, **existen dos versiones de Docker:** la versión de la comunidad, llamada Docker CE (community edition), de código abierto y la versión Docker EE (Enterprise Edition), de pago y con funciones adicionales a su contraparte.
 
-## No es necesario utilizar Docker
+## No es necesario utilizar Docker siempre
 
 Algo más antes de terminar esta entrada. **Docker es genial, pero no hace falta usarlo en todos los proyectos**. Los expertos en proyectos suelen afirmar que añadir una capa más de complejidad a un proyecto es algo que debe evaluarse para cada caso en cada particular. Añadir una capa extra de complejidad debe tener un beneficio, o mejor sería no hacerlo.
 
@@ -94,4 +94,4 @@ Al final Docker es una herramienta más que debería usarse para solucionar un p
 
 Para fines prácticos, Docker nos va a permitir crear aplicaciones que vamos a poder transportar de un entorno a otro fácilmente, que van a ejecutarse en un contenedores aislados dentro de nuestro sistema operativo y que, además, se **van a comportar exactamente igual en cualquier máquina que cuente con Docker instalado**. 
 
-Todo lo anterior nos librará del "funcionaba perfecto en mi máquina" y evitará errores causados por diferencias de entorno o configuración al momento de desarrollo en sistemas muy complejos o que cuentan con muchas partes. Esta estándarización podría ser conveniente para proyectos complejos y grandes, pero podría ser un overkill para un proyecto pequeño.
+Todo lo anterior nos librará del "funcionaba perfecto en mi máquina" y evitará errores causados por diferencias de entorno o configuración al momento de desarrollo en sistemas muy complejos o que cuentan con muchas partes. Esta estándarización podría ser conveniente para proyectos complejos y grandes, pero podría ser un overkill para un proyecto pequeño, pues agrega otra capa de complejidad al proyecto, por lo que debes considerar los pros y contras antes de implementarlo.

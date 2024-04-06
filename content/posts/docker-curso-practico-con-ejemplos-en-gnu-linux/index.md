@@ -15,7 +15,7 @@ description: Aprende a usar los comandos básicos de Docker, a diferenciar imág
   y contenedores, volúmenes, crear Dockerfiles y usar docker build.
 keywords:
 - docker
-title: Los comandos básicos de Docker y su uso
+title: Comandos de Docker más útiles para manejar contenedores
 url: tutorial-de-comandos-basicos-de-docker
 ---
 

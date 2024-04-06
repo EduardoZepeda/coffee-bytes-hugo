@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-If you have been using computers for a long time, you are probably more familiar with a virtual machine than a container, aren't you? Docker solves the same problem as virtual machines but in a different way than the latter. But let's take it one step at a time, let's start by answering: what is Docker?
+If you have been using computers for a long time, you are probably more familiar with a virtual machine than a container, aren't you? Docker solves the same problem as virtual machines but in a different way than the latter. But let's take it one step at a time, let's start by answering: what is Docker and what is it for?
 
 ## What is Docker?
 
@@ -48,7 +48,7 @@ Even if you are both using the same distribution, it's not exactly the same oper
 
 To avoid falling into the vile hands of computer science purists I will quote the differences between virtual machine and container as they are in the [official Docker website](https://www.docker.com/resources/what-container), and I will entrust myself to the good knowledge of its editors:
 
-## Containers are not the same as virtual machines
+## Differences between containers and virtual machines
 
 ### Container
 
