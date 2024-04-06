@@ -207,7 +207,7 @@ child-src = ["'self'"]
 font-src = ["'self'"]
 form-action = ["'self'"]
 frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com"]
-img-src = ["'self'", "*.cloudinary.com", "*.codewars.com", "*.google.com", "*.google.com.mx"]
+img-src = ["'self'", "*.cloudinary.com", "*.codewars.com", "*.google.com", "*.google.com.mx", "*.googletagmanager.com"]
 object-src = ["'none'"]
 script-src = [
   "'self'",
