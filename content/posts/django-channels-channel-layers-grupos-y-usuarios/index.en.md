@@ -11,6 +11,7 @@ keywords:
 - django
 - python
 - websockets
+- concurrency
 
 authors:
 - Eduardo Zepeda

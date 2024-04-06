@@ -13,8 +13,10 @@ description: Diferencia entre los métodos select_related y prefetch_related de 
 keywords:
 - django
 - python
-- rendimiento
+- performance
 - orm
+- select_related
+- prefetch_related
 title: Diferencias entre select_related y prefetch_related en Django
 ---
 

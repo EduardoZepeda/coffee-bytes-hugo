@@ -6,7 +6,12 @@ coverImagecredits: "Credits to 藪 https://www.pixiv.net/en/users/50979768"
 categories:
 - django
 - linux and devops
-
+keys:
+- django
+- linux and devops
+- solr
+- autocomplete
+- index
 authors:
 - Eduardo Zepeda
 ---

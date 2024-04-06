@@ -10,10 +10,11 @@ coverImage: "images/TypesChildrenTypescript.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/@tranmautritam/"
 description: "Three different ways to set types in typescript for components that receive children as a parameter in React."
 keywords:
-- "react"
-- "typescript"
-- "javascript"
-
+- react
+- typescript
+- javascript
+- children
+- types
 authors:
 - Eduardo Zepeda
 ---

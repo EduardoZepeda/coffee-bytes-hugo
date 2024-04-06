@@ -7,9 +7,10 @@ categories:
 - "Artificial Intelligence"
 - "Opinions"
 keywords:
-- "Artificial Intelligence"
-- "Opinions"
-- "Futurism"
+- Artificial Intelligence
+- Opinions
+- Futurism
+- Devin
 authors:
   - Eduardo Zepeda
 url: /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers

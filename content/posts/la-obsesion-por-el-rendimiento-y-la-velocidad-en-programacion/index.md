@@ -86,6 +86,7 @@ Te dejo una lista de algunas de mis soluciones favoritas para ahorrarte todo el 
 - [Pocketbase: Backend portátil hecho en Go, un solo binario, autenticación y CRUD](https://pocketbase.io/)
 - Supabase: Otro backend portátil, pero en Javascript
 - [Cookiecutter: plantillas para ahorrarte Boilerplate, el de Django es muy bueno](/es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
+- [Autoestrada: Autenticación, JWT, base de datos y más en Go](https://autostrada.dev/)
 - Hugo: Generador de sitios estáticos, suficientemente rápido (aunque no tanto como su version en Rust, Zola)
 - Herramientas no-code
 - Daisy UI: Librería de componentes basada en Tailwindcss

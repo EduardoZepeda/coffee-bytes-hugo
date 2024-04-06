@@ -14,8 +14,9 @@ description: Devin, el modelo de Inteligencia Artificial que promete ser mejor q
   Cognition Labs
 keywords:
 - Inteligencia artifcial
-- Opiniones
+- Opinion
 - Futurismo
+- Devin
 title: Devin De Cognition Labs La Inteligencia Artificial Que Quiere Reemplazar a
   Los Programadores
 ---

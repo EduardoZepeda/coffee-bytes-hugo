@@ -8,9 +8,10 @@ categories:
 coverImage: "images/top-5-katas-codewars.jpg"
 description: "Learn how to use celery in django to schedule periodic or maintenance tasks to run every certain time or on a given date."
 keywords:
-- "internet"
-- "performance"
-- "algorithms"
+- internet
+- performance
+- algorithms
+- codewars
 
 authors:
 - Eduardo Zepeda

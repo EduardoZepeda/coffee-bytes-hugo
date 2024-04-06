@@ -13,6 +13,10 @@ keywords:
 - opinion
 - kubernetes
 - deploy
+- cloud
+- iaas
+- paas
+- vps
 
 authors:
 - Eduardo Zepeda
@@ -22,7 +26,7 @@ Are you choosing a hosting service but don't know which one to choose? Surely yo
 
 Sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7) and receive $200 USD to spend on Digital Ocean.
 
-## IAAS and PAAS
+## differences between IAAS and PAAS
 
 I'm pretty sure you've considered using [Vercel](https://vercel.com), [Netifly](https://www.netlify.com/), [Heroku](https://www.heroku.com/) or another modern hosting service for your application (probably made in Javascript). But, is it the same? Well, here's a little clarification, just in case you don't know; there are different types of companies for online services; IAAS, Infrastructure as a service; and PAAS, platform as a service. 
 
@@ -58,7 +62,7 @@ Once you create a Droplet this is available in less than a minute.
 
 ![Images available for Digital Ocean droplets](images/Droplets-de-digital-ocean.png)
 
-### Customized images
+### Customized images in DO
 
 If you don't want to start from a "blank" operating system you can opt for some more specific images that include pre-installed software for the most popular software requirements: web development, data science, blogging, frameworks, media, storage, elearning, ecommerce, etc.
 
@@ -90,7 +94,7 @@ I have tried the servers in the United States, due to the proximity to Mexico, a
 
 ![Digital Ocean Server Locations](images/diferentes-ubicaciones-droplets-digital-ocean.png)
 
-## Other services
+## Other services on Digital Ocean
 
 Remember I told you that there were IAAS and PAAS companies? Well, the truth is a little bit more complicated, many IAAS companies have grown a lot and have started to provide PAAS type services. And, as you might expect, Digital Ocean has not been left behind.
 
@@ -120,7 +124,7 @@ Self-managed databases with automatic backups and optional encryption. Handles P
 
 Digital Ocean is a service focused more on small and medium projects, it does not have as many solutions as AWS or Azure. For example, it does not have solutions in artificial intelligence for IT security analysis, big data analysis or other SaaS options. But, in exchange for these shortcomings that leave it up to developers, it offers much more competitive prices than the big players.
 
-## My experience with Digital Ocean
+## My experience using Digital Ocean
 
 I have used Digital Ocean to host personal projects and also to manage my domains. I haven't had any problems with down servers so far, or at least not that I've noticed or any user has brought it to my attention. In fact, right now you are reading this from a Droplet using ~~a headless Wordpress and for the frontend frontity (A React framework) served with Nginx~~ Hugo and hosted at Digital Ocean. This blog uses the cheapest service, the $5 usd one, and the truth is that for the amount of traffic I have it doesn't feel slow and has decent Lighthouse metrics, without any cache plugin.
 
@@ -128,14 +132,10 @@ I have used Digital Ocean to host personal projects and also to manage my domain
 
 It should be clarified that I did modify some things from the default settings to have a better performance. For example, enabling HTTP2, instead of the default HTTP, as well as installing the HTTP certificate using cerbot in the terminal, as the default installation did not include it. Extra tasks that other hosting services would have solved for me, such as [easywp](/en/my-experience-using-easywp-and-namecheap/).
 
-## Summarizing
+## Summarizing my experience using DO
 
 My experience has been quite good, with no complaints in terms of the performance they promise.
 
 If you don't want to mess with Apache, Nginx or any other server configurations, maybe a Droplet from Digital Ocean is not your best option.
 
 On the other hand, Digital Ocean offers one of the best costs to start a project; $3 usd for the most basic package (Apps) is an **incredibly low price** for static or Frontend based pages only.
-
-## A gift for you
-
-If you finally realize that Digital Ocean is what you are looking for, sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7), they will give you $200 usd credit for your projects.

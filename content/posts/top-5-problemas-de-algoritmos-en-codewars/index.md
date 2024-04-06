@@ -15,6 +15,7 @@ keywords:
 - internet
 - rendimiento
 - algoritmos
+- codewars
 title: Top 5 Problemas de Algoritmos Favoritos en Codewars
 ---
 

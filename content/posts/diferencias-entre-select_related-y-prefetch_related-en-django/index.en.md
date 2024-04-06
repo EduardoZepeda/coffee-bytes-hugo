@@ -12,6 +12,8 @@ keywords:
 - python
 - performance
 - orm
+- select_related
+- prefetch_related
 
 authors:
 - Eduardo Zepeda

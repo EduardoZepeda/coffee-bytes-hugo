@@ -6,14 +6,14 @@ categories:
 - opinions
 coverImage: images/javascript-dates-and-html-input.jpg
 date: '2024-03-20'
-description: Dates management in javascript sucks, also its relation with the HTML datetime-local input is counterintuitive and incoherent and only denotes Javascript's faults as a language
+description: Dates management in javascript sucks, also its relation with datetime-local input is counterintuitive and only denotes Javascript's faults as a language
 keywords:
 - javascript
 - opinions
 - react
 - html
 - go
-title: Why I abhor HTML's datetime-local input and dates management in Javascript?
+title: Why I abhor datetime-local and dates in Javascript?
 url: /en/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascript
 ---
 

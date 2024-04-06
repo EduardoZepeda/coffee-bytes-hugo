@@ -14,6 +14,7 @@ keywords:
 - django
 - python
 - websockets
+- concurrency
 title: 'Django channels: channel layers, grupos y usuarios'
 ---
 

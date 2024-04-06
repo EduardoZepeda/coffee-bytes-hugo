@@ -10,6 +10,12 @@ categories:
 coverImage: images/solr-busquedas-avanzadas.jpg
 coverImagecredits: Créditos a 藪 https://www.pixiv.net/en/users/50979768
 date: '2022-05-29'
+keys:
+- django
+- linux and devops
+- solr
+- autocomplete
+- index
 title: 'Autocompletado, Sugerencias y Relacionados con Solr Y Django'
 url: /es/autocompletado-sugerencias-y-contenido-relacionado-solr-y-django
 ---

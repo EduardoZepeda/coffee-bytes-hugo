@@ -15,6 +15,11 @@ description: En este tutorial de Docker compose te explico los comandos más com
 keywords:
 - docker
 - docker compose
+- go
+- containers
+- tutorial
+- yml
+- devops
 title: Conoce los comandos básicos de Docker Compose
 url: docker-compose-tutorial-con-comandos-en-gnu-linux
 ---

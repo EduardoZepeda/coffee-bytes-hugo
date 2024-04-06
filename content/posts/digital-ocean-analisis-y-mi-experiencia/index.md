@@ -17,12 +17,16 @@ keywords:
 - opinion
 - kubernetes
 - deploy
+- cloud
+- iaas
+- paas
+- vps
 title: Digital Ocean, análisis y mi experiencia como usuario
 ---
 
 ¿Estás eligiendo un servicio de hosting pero no sabes cual elegir? De seguro ya tuviste contacto con la publicidad de Digital Ocean pero quieres escuchar una opinión real de lo que tienen para ofrecer. Llevo usando Digital Ocean como hosting de mis proyectos personales por varios años y te platico como ha sido mi experiencia y lo que puedes encontrar si decides contratar sus servicios.
 
-## IAAS y PAAS
+## Diferencias entre IAAS y PAAS
 
 Estoy casi seguro de que has considerado usar [Vercel](https://vercel.com), [Netifly](https://www.netlify.com/), [Heroku](https://www.heroku.com/) u otro servicio de hosting moderno para tu aplicación (probablemente hecha en Javascript). Pero, ¿es lo mismo? Bien pues aquí hay que hacer una pequeña aclaración, solo en caso de que no lo sepas; existen diferentes tipos de empresas para servicios en línea; IAAS, Infrastructure as a service; y PAAS, platform as a service.
 
@@ -56,7 +60,7 @@ Una vez que creas un Droplet este se encuentra disponible en menos de un minuto.
 
 ![Imágenes disponibles para los droplets de Digital Ocean](images/Droplets-de-digital-ocean.png)
 
-### Imágenes personalizadas
+### Imágenes personalizadas en DO
 
 Si no quieres partir desde un sistema operativo "en blanco" puedes optar por algunas imágenes más específicas que incluyen software previamente instalado, para los requerimientos más populares en cuanto a software: desarrollo web, data science, blog, frameworks, media, storage, elearning, ecommerce, etc.
 
@@ -88,7 +92,7 @@ Yo he probado los servidores de Estados Unidos, por la cercanía con México, y 
 
 ![Ubicaciones de los servidores en Digital Ocean](images/diferentes-ubicaciones-droplets-digital-ocean.png)
 
-## Otros servicios
+## Otros servicios de Digital Ocean
 
 ¿Te acuerdas que te dije que había empresas IAAS y PAAS? Pues la verdad es un poquito más complicado, muchas empresas IAAS han crecido muchísimo y han comenzado a brindar servicios del tipo PAAS. Y, como podrás esperar, Digital Ocean no se ha quedado atrás.
 
@@ -118,7 +122,7 @@ Bases de datos autoadministradas con backups automáticos y cifrado opcional. Ma
 
 Digital Ocean es un servicio enfocado más en proyectos pequeños y medianos, no tiene tantas soluciones como AWS o Azure. Por ejemplo, no cuenta con soluciones en inteligencia artifical para análisis de seguridad informática, análisis de datos a gran escala u otras opciones de SaaS. Pero, a cambio de esas carencias que dejan a opción de los desarrolladores, ofrece precios mucho más competitivos que los grandes jugadores.
 
-## Mi experiencia con Digital Ocean
+## Mi experiencia usando Digital Ocean
 
 Yo he usado Digital Ocean para hostear proyectos personales y también para manejar mis dominios. No he tenido problemas de servidores caídos hasta el momento, o al menos no que me haya dado cuenta o algún usuario me lo haya hecho notar. De hecho, ahora mismo estás leyendo esto desde un Droplet que usa ~~un headless Wordpress y para el frontend frontity (Un framework de React) servido con Nginx~~ Hugo y hosteado en Digital Ocean. Este blog utiliza el servicio más económico, el de $5 usd, y la verdad es que para la cantidad de tráfico que tengo no se siente lento y cuenta con indicadores decentes en Lighthouse, sin ningún plugin de cache.
 
@@ -126,14 +130,10 @@ Yo he usado Digital Ocean para hostear proyectos personales y también para mane
 
 Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/es/mi-experiencia-usando-easywp-y-namecheap/)
 
-## Resumiendo
+## Resumen de mi experiencia usando DO
 
 Mi experiencia ha sido bastante buena, sin ninguna queja en cuanto a las prestaciones que prometen.
 
 Si no quieres meterte a tocar configuraciones de Apache, Nginx o cualquier otro servidor, quizás un Droplet de Digital Ocean no sea tu mejor opción.
 
 Por otro lado, Digital Ocean ofrece uno de los mejores costos para empezar un proyecto; $3 usd para el paquete más básico (Apps) es un **precio increíblemente bajo** para páginas estáticas o basadas en Frontend únicamente.
-
-## Un regalo para ti
-
-Si al final te das cuenta de que Digital Ocean es lo que buscas, regístrate usando [mi enlace de afiliado](https://m.do.co/c/a22240ebb8e7), te darán $200 usd de crédito para tus proyectos.

@@ -15,8 +15,13 @@ keywords:
 - linux
 - go
 - devops
+- cgroups
+- namespaces
+- chroot
+- pid
 title: ¿Cómo Funciona un Container de Docker Internamente?
-url: container-de-docker-con-namespaces-y-cgroups
+url: /es/container-de-docker-con-namespaces-y-cgroups
+description: 'Los containers de Docker funcionan usando: Procesos, namespaces, Cgroups y Chroot'
 ---
 
 Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/es/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
@@ -152,7 +157,7 @@ Para finalizar:
 
 * cmd.Run, ejecuta el comando que creamos con *exec.Command*
 
-## Containers y namespaces
+## Containers y namespaces en Linux
 
 Hasta ahora contamos con un programa que crea un proceso a partir de los argumentos que le pasemos. 
 
@@ -347,13 +352,13 @@ Generaremos dos archivos, dentro de nuestro cgroup, para establecer las directri
 
 Y listo, con eso tenemos un proceso con su propio sistema de archivos, aislado del sistema operativo principal y que puede acceder únicamente a una parte de los recursos.
 
-## Resumen
+## ¿Cómo funciona un container en pocas palabras?
 
-En resumen, es posible crear un container usando namespaces, cgroups y chroot, para aislar del exterior, limitar los recursos, y proveer de un sistema de archivos propio, respectivamente.
+Resumiendo, es posible crear un container usando namespaces, cgroups y chroot, para aislar del exterior, limitar los recursos, y proveer de un sistema de archivos propio, respectivamente.
 
 El código de esta publicación está basado en una [plática de LizRice](https://www.youtube.com/watch?v=Utf-A4rODH8) en el ContainerCamp.
 
-## Otros recursos para profundizar
+## Otros recursos para profundizar en containers de Docker
 
 * [Namespaces](https://wvi.cz/diyC/namespaces/)
 * [Cgroups](https://clibre.io/blog/por-secciones/hardening/item/425-cgroups-grupos-de-control-en-gnu-linux)

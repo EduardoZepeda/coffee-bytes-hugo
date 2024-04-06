@@ -16,6 +16,8 @@ keywords:
 - react
 - typescript
 - javascript
+- children
+- types
 title: Types para React components con children
 ---
 

@@ -13,6 +13,8 @@ keywords:
 - REST
 - api
 - drf
+- authentication
+- tokens
 
 authors:
 - Eduardo Zepeda

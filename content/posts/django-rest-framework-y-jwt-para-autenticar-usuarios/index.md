@@ -16,6 +16,8 @@ keywords:
 - REST
 - api
 - drf
+- authentication
+- tokens
 title: Django Rest Framework y JWT para autenticar usuarios
 ---
 
