@@ -206,3 +206,6 @@ SELECT ("my_app_multiplesprincipales_principales"."multiplesprincipales_id") AS 
 - [What's the difference between select\_related and prefetch\_related in Django ORM?](https://stackoverflow.com/questions/31237042/whats-the-difference-between-select-related-and-prefetch-related-in-django-orm)
 - [Select related vs Prefecth related](https://buildatscale.tech/select_related-vs-prefetch_related/)
 - [QuerySET API reference](https://docs.djangoproject.com/en/dev/ref/models/querysets/)
+
+
+

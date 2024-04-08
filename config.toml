@@ -166,7 +166,7 @@ priority = 0.5
 [outputs]
 
 home = ["HTML", "RSS"]
-page = ["HTML", "JSON"]
+page = ["HTML", "JSON", "RSS"]
 section = ["HTML", "RSS", "JSON"]
 
 [frontmatter]
