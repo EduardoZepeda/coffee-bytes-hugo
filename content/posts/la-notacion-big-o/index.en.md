@@ -20,6 +20,8 @@ I love astrophysics and try to keep up with new discoveries as they happen; whet
 
 Last April 2019, the [first photograph of a black hole](https://www.bbc.com/mundo/noticias-47880446) was published.
 
+!["First picture of a black hole"](images/BigO_notacion.jpg "First picture of a black hole")
+
 The above photograph required 5 petabytes of data, which is 5000 terabytes of data (roughly equivalent to 5000 hard disks of one terabyte capacity). Here the scientists were faced with a major dilemma, what method to use to send so much information?
 
 What would happen if they tried to send that information over the Internet? The time it takes to send information over the Internet increases with the amount of information to be sent, the more information the longer the transmission time.
@@ -44,9 +46,11 @@ With internet speed close to the current limits, using the internet to transmit 
 
 ## What does this have to do with the code?
 
-The same thing happens with code, every process we perform on the data to transform it consumes time and there are different ways of processing data, there are algorithms whose execution time is constant, for others it increases linearly with the amount of data they process, while others exponentially. On the other hand, some offer better performance with little data, while others shine when processing a lot of information.
+The same thing happens with code, every process we perform on the data to transform it consumes time and there are different ways of processing data, there are algorithms whose execution time is constant, for others it increases linearly with the amount of data they process, while others exponentially. 
 
-Sometimes when we have no idea about algorithms we ask ourselves, what does it matter if our code runs in 0.0001 seconds or 0.001 seconds, for practical purposes it is the same thing, isn't it? Spending time choosing the right algorithm can seem trivial for such small values and if we add to that the vertiginous processing speed of modern equipment we fall into the error of not giving the right importance to algorithms.
+On the other hand, some offer better performance with little data, while others shine when processing a lot of information.
+
+Sometimes when we have no idea about algorithms we ask ourselves, what does it matter if our code runs in 0.0001 seconds or 0.001 seconds, for practical purposes it is the same thing, isn't it? [Obsessing about the performance can seem trivial for such small values](/en/dont-obsess-about-your-web-application-performance/) and if we add to that the vertiginous processing speed of modern equipment we fall into the error of not giving the right importance to algorithms.
 
 But now let's ask ourselves, what will happen when the number of users increases to 1000, to 10 000, to 10 000 000, that's when milliseconds can turn into hours or days, and then we get a glimpse of the real importance of choosing an algorithm with adequate performance.
 

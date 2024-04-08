@@ -21,6 +21,8 @@ Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que 
 
 El pasado abril del 2019 se publicó la [primera fotografía de un agujero negro](https://www.bbc.com/mundo/noticias-47880446). 
 
+!["Primera imagen de un agujero negro"](images/BigO_notacion.jpg "Primera imagen de un agujero negro")
+
 La fotografía anterior requirió 5 petabytes de datos, lo que son 5000 terabytes de datos (aproximadamente el equivalente a 5000 discos duros de un terabyte de capacidad). Aquí los científicos se enfrentaron con un gran dilema, ¿qué método usar para enviar tanta información?
 
 ¿Qué pasaría si intentaban enviar esa información por internet? El tiempo que toma enviar información por internet aumenta con la cantidad de información a enviar, a mayor cantidad de información mayor tiempo de transmisión. 
@@ -45,9 +47,11 @@ Con una velocidad de internet cercana a los límites actuales, usar internet par
 
 ## ¿Y esto que tiene que ver con el código?
 
-Con el código sucede lo mismo, cada proceso que nosotros efectuemos sobre los datos para transformarlos consume tiempo y hay diferentes maneras de procesar los datos, hay algoritmos cuyo tiempo de ejecución es constante, para otros aumenta de manera lineal con la cantidad de datos que procesan, mientras que otros exponencialmente. Por otro lado, algunos ofrecen un mejor rendimiento con pocos datos, mientras que otros brillan a la hora de procesar mucha información.
+Con el código sucede lo mismo, cada proceso que nosotros efectuemos sobre los datos para transformarlos consume tiempo y hay diferentes maneras de procesar los datos, hay algoritmos cuyo tiempo de ejecución es constante, para otros aumenta de manera lineal con la cantidad de datos que procesan, mientras que otros exponencialmente. 
 
-A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da si nuestro código se ejecuta en 0.0001 segundos o en 0.001 segundos?, para fines prácticos es lo mismo ¿no? el pasar tiempo eligiendo el algoritmo correcto puede parecernos trivial para valores tan pequeños y si a eso le agregamos la vertiginosa velocidad de procesamiento del equipo moderno caeremos en el error de no darle la importancia correcta a los algoritmos. 
+Por otro lado, algunos ofrecen un mejor rendimiento con pocos datos, mientras que otros brillan a la hora de procesar mucha información.
+
+A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da si nuestro código se ejecuta en 0.0001 segundos o en 0.001 segundos?, para fines prácticos es lo mismo ¿no? [Obsesionarse con el rendimiento](/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) del algoritmo correcto puede parecernos trivial para valores tan pequeños y si a eso le agregamos la vertiginosa velocidad de procesamiento del equipo moderno caeremos en el error de no darle la importancia correcta a los algoritmos. 
 
 Pero ahora preguntémonos, ¿qué pasará cuando el número de usuarios se incremente a 1000, a 10 000, a 10 000 000?, es entonces cuando las milésimas de segundos se pueden volverse horas o días y, entonces, vislumbramos la verdadera importancia de elegir un algoritmo con un rendimiento adecuado.
 
