@@ -68,8 +68,8 @@
       {{ range .Params.categories }}
       <category>{{.}}</category>
       {{ end }}
-      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
       <content>{{ .Content | transform.XMLEscape | safeHTML }}</content>
+      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
     </item>
     {{- end}}
     {{- end }}
