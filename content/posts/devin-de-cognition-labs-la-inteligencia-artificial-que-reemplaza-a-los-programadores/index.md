@@ -17,8 +17,7 @@ keywords:
 - Opinion
 - Futurismo
 - Devin
-title: Devin De Cognition Labs La Inteligencia Artificial Que Quiere Reemplazar a
-  Los Programadores
+title: Devin AI El Supuesto Reemplazo de los Programadores
 ---
 
 Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin, hecho por [Cognition Labs](https://www.cognition-labs.com/), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.
@@ -47,7 +46,7 @@ Hay cerca de 10 miembros, entre los cuales suman más de **10 medallas de oro en
 
 ![](images/meme-creador-de-devin-linuxero.jpg "Representación ficticia y caricaturesca de los creadores de Devin")
 
-### ¿Quines financian el proyecto?
+### ¿Quienes financian el proyecto?
 
 Hasta el momento Cognitive Labs afirma haber recaudado cerca de **21 MDD en una ronda liderada por Founders Fund**, entre los que destaca el inversionista Peter Thiel, ex-director de Paypal.
 
@@ -100,6 +99,8 @@ Ha sucedido múltiples veces en el pasado; toda gran idea olvidada empieza con l
 
 Hasta ahora Copilot, ChatGPT y probablemente Devin no han sido más que "búsquedas de google" con esteroides; pueden darte la información que solicitas directamente, pero no necesariamente es real y a prueba de fallos. El proceso iterativo que ofrece este sistema mejora bastante la dinámica usual de pregunta-respuesta, pero no deja de ser inmune a caer en bucles producto de problemas que no pueda resolver o a producir algo totalmente distinto a lo que se le pide, por ahora necesitamos ponerlo a prueba mucho más.
 
+La comunidad de desarrolladores no se han quedado de brazos cruzados y han creado un [Devin de código abierto, llamedo Open Devin](https://github.com/OpenDevin/OpenDevin).
+
 Además de lo anterior, hay otro aspecto que estamos obviando.
 
 #### El aspecto financiero de la Inteligencia Artificial
@@ -110,15 +111,15 @@ Déjame describirte una situación:
 3. Los creadores reciben capital semilla de muchísimos inversionistas
 4. Se termina convirtiendo en una herramienta más y todo sigue igual
 
-¿Te suena a algo parecido? Quizás solo sean un grupo de personas buscando volverse millonarias.
+¿Te suena a algo parecido? Quizás Devin solo sean un grupo de personas buscando volverse millonarias de la noche a la mañana.
 
-!["Meme de omniman hablando con su hijo"](images/its-all-about-shareholders.jpg)
+!["Meme de omniman hablando con su hijo"](images/its-all-about-shareholders.jpg "Piensa programador piensa")
 
 Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil".
 
 Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada. Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos meses, una década o dos, lo único importante es que te sea lo suficientemente rentable de acuerdo a tus propios criterios de inversión. En otras palabras: ¿Qué más da si el proyecto muere si puedo convertir 21 MDD en 40 MDD en menos de un año? 
 
-!["Meme del rapper rechazando la primera opción aplicado a Cognition labs"](images/meme-rapper-devin-access.jpg)
+!["Meme del rapper rechazando la primera opción aplicado a Cognition labs"](images/meme-rapper-devin-access.jpg "Si Devin AI es tan bueno, ¿por qué no usarlo para crear su propia web completa?")
 
 Llama bastante mi atención que la manera de solicitar acceso a Devin sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo. 
 
