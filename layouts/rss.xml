@@ -69,7 +69,6 @@
       <category>{{.}}</category>
       {{ end }}
       <content>{{ .Content | transform.XMLEscape | safeHTML }}</content>
-      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
     </item>
     {{- end}}
     {{- end }}
