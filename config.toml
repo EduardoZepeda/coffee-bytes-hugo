@@ -44,11 +44,6 @@ name = "Cookie policy"
 url = "/pages/politica-de-cookies/"
 weight = 5
 [[languages.en.menu.social]]
-name = "Personal website"
-pre = "message"
-url = "https://eduardozepeda.dev/"
-weight = 1
-[[languages.en.menu.social]]
 name = "Codewars"
 pre = "codewars"
 url = "https://www.codewars.com/users/EduardoZepeda"
@@ -115,11 +110,6 @@ weight = 4
 name = "Politica de cookies"
 url = "/pages/politica-de-cookies/"
 weight = 5
-[[languages.es.menu.social]]
-name = "Personal website"
-pre = "message"
-url = "https://eduardozepeda.dev/"
-weight = 1
 [[languages.es.menu.social]]
 name = "Codewars"
 pre = "codewars"

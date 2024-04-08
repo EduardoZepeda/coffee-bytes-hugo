@@ -7,7 +7,6 @@ twitter: "@hello_wired"
 codewars: "EduardoZepeda"
 instagram: "eduardozepeda.dev"
 linkedin: "eduardomzepeda"
-website: "https://eduardozepeda.dev"
 ---
 
 ## Más información sobre mi
