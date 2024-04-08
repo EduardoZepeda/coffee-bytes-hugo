@@ -5,6 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - linux y devops
+- algoritmos
 coverImage: images/BigO_notacion.jpg
 date: '2019-08-15'
 description: Te explico en que consiste la notación Big O para que puedas mejorar
@@ -50,7 +51,7 @@ A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da 
 
 Pero ahora preguntémonos, ¿qué pasará cuando el número de usuarios se incremente a 1000, a 10 000, a 10 000 000?, es entonces cuando las milésimas de segundos se pueden volverse horas o días y, entonces, vislumbramos la verdadera importancia de elegir un algoritmo con un rendimiento adecuado.
 
-## Notación big O
+## ¿Cómo calcular el rendimiento Big O?
 
 Para evaluar este rendimiento se utiliza una notación llamada Big O. Esta nos dice como se va a comportar el tiempo de ejecución de un algoritmo en función de su input (entrada).
 
@@ -58,7 +59,7 @@ A mayor longitud de los datos de entrada mayor será el tiempo en recorrerlos y 
 
 Ciertamente un algoritmo que aumente en proporción exponencial no será algo lindo con lo que lidiar cuando tengamos que recorrer cantidades descomunales de datos. Para saber como se comporta nuestro algoritmo necesitamos analizarlo y hay ciertas reglas que hay que considerar en la notación big O.
 
-## Los pasos se suman
+### Los pasos se suman
 
 Empezaremos con una función sencilla que, como ya habrás adivinado, **tardará más tiempo en ejecutarse conforme más grande sea el tamaño del array** que le pasamos como argumento.
 
@@ -70,7 +71,7 @@ def printArray(array):
 
 Esta función pasará por el array una sola vez. Como solo tiene **un paso**, es decir 'n', decimos que su tiempo de ejecución es O(n).
 
-## Las constantes se descartan
+### Las constantes se descartan
 
 Ahora mira este código, tiene dos pasos que procesan el mismo array de valores.
 
@@ -93,7 +94,7 @@ def printArray(array):
 
 En el caso anterior seguimos teniendo un mismo input, pero esta vez el tiempo de ejecución dependerá de la longitud del algoritmo, multiplicado por la misma longitud del algoritmo, pues por cada elemento del array se recorrera nuevamente el array, es decir n x n. Esto se simboliza con un n2, por lo que el tiempo que tarda en correr el algoritmo será de O(n2). Es decir el tiempo que tarda en ejecutarse la función crecerá de forma exponencial.
 
-## Cada input único se toma como una variable diferente
+### Cada input único se toma como una variable diferente
 
 ```python
 def printArrayMultiplication(ArrayOne, ArrayTwo):
@@ -108,7 +109,7 @@ Para que n x n se cumpla significa que solo debe haber un término (n) y en este
 
 De esta manera expresamos que el tiempo de ejecución de nuestra función depende de dos variables: a y b. Si 'a' aumenta nuestro tiempo de ejecución también, si 'b' disminuye nuestro tiempo de ejecución decrece y viceversa.
 
-## Los términos no dominantes se descartan
+### Los términos no dominantes se descartan
 
 ```python
 def printArray(array):
@@ -121,7 +122,7 @@ def printArray(array):
 
 En el caso anterior nosotros tenemos una notación O(n + n2). Un paso al principio que depende de la longitud del array y luego un 'n' al cuadrado. Pero otra característica de big O es que al sumar términos solo los términos dominantes (aquellos con el exponente más alto) cuentan, por lo que la expresión anterior se transformaría en O( n2).
 
-## Hay algoritmos mejores que otros
+## La notación big O para medir el rendimiento
 
 La notación big O nos muestra que dos algoritmos para resolver un mismo problema se pueden comportar de manera diferente. Es importante evaluar cual es el algoritmo más adecuado para cada situación.
 

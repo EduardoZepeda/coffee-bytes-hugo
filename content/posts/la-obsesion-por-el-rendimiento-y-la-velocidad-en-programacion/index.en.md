@@ -54,9 +54,9 @@ For most startups or solopreneurs, the market exploration process will be more i
 
 Do not choose an efficient language, but one that allows you to be flexible to changes and adapt quickly while obtaining information. In this case, the speed of developing new features or modifying existing ones is much more important than their performance.
 
-Remember that in technology everything is a tradeoff, in this case performance for productivity.
+Remember that **in technology everything is a trade-off**, in this case performance for productivity.
 
-Also, keep in mind that this also applies when choosing the tools you know; you may be faster programming in a low level language that you already master, than in a high level language that you don't master.
+Also, keep in mind that this also applies when choosing the tools you know; **you may be faster programming in a low level language that you already master, than in a high level language that you don't master.**
 
 ### Keep the technical debt in mind
 

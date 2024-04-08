@@ -94,7 +94,7 @@ Entre los recursos que usé para estudiar quiero destacar el siguiente video de 
 
 Es un repaso de 3 horas en inglés, en el que te explican lo básico de la nube de Azure, de una manera más estructurada y visual. Como un plano gigante de la nube, en el que van explicándote cada parte y como se relaciona con las otras.
 
-## ¿Cuánto cuesta la certificación? ¿Es gratis?
+## ¿Cuánto cuesta la certificación AZ-900? ¿Es gratis?
 
 La certificación cuesta **alrededor de $90 USD directamente con microsoft**, pero yo la he obtenido de manera gratuita como parte de un reto de certificación de la [plataforma de aprendizaje de Platzi](https://platzi.com/r/eduardo-zepeda).
 
@@ -119,7 +119,7 @@ En general los dos primeros son bastantes sencillos, sobre todo si ya tienes exp
 
 ![Curso de Platzi de administración de servidores Linux](images/administracion-servidores-linux.jpg "Curso de administración de servidores Linux")
 
-### Prácticas de Microsoft Learn
+### Prácticas de Microsoft Learn 
 
 El laboratorio de prácticas son una serie de 20 cursos en los que cada curso se subidivide en teoría y práctica. En la parte teórica te muestran los fundamentos del tema de manera escrita, mientras que la parte práctica consiste en un pequeño formulario de 3-4 preguntas en el que se evalua el contenido anterior, pero a manera de aplicación práctica. 
 

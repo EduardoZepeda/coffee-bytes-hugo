@@ -92,7 +92,7 @@ Among the resources I used to study I would like to highlight the following vide
 
 It is a 3-hour review in English, in which they explain the basics of the Azure cloud, in a more structured and visual way. Like a giant blueprint of the cloud, in which they explain each part and how it relates to the others.
 
-## How much does certification cost? Is it free?
+## How much does AZ-900 certification cost? Is it free?
 
 The certification costs **about $90 USD directly with microsoft**, but I got it for free as part of a [Platzi learning platform certification challenge](https://platzi.com/r/eduardo-zepeda).
 

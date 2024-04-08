@@ -9,7 +9,7 @@ instagram: "eduardozepeda.dev"
 linkedin: "eduardomzepeda"
 ---
 
-## Más información sobre mi
+## Más información sobre Eduardo Zepeda
 
 Aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros y practicando,](/es/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial Platzi también.
 
@@ -23,7 +23,7 @@ Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de
 
 Casi 15 años usando sistemas Linux.
 
-## Pasatiempos no tech
+## Mis Pasatiempos no relacionados con tecnología
 
 Me apasiona el cine de arte, el anime y el manga. También me encanta jugar videojuegos, sin embargo me he vuelto muy selectivo al elegirlos. **Amo leer**, principalmente material de ciencia ficción. Sin embargo también disfruto de ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. 
 

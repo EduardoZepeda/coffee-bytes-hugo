@@ -51,9 +51,9 @@ Para la mayoría de las startups o solopreneurs, el proceso de exploración del 
 
 No elijas un lenguaje eficiente, sino uno que te permita ser flexible a los cambios y adaptarte rápido mientras obtienes información. En este caso, la velocidad de desarrollar nuevas características o modificar las existentes es mucho más importante que el rendimiento de estas. 
 
-Recuerda que en tecnología todo es un tradeoff, en este caso rendimiento por productividad.
+Recuerda que **en tecnología todo es un trade-off**, en este caso rendimiento por productividad.
 
-Asi mismo, manten presente, que esto también aplica al elegir las herramientas que conoces; quizás seas más rápido programando en un lenguaje de bajo nivel que ya domines, que en uno de alto nivel que no domines.
+Asi mismo, manten presente, que esto también aplica al elegir las herramientas que conoces; **quizás seas más rápido programando en un lenguaje de bajo nivel que ya domines, que en uno de alto nivel que no domines**.
 
 ### Manten presente la deuda técnica
 

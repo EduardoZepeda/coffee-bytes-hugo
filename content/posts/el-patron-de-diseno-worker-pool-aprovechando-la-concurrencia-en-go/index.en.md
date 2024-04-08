@@ -14,6 +14,7 @@ keywords:
 - "Concurrency"
 - "Parallelism"
 - "Workers"
+- algorithms
 
 authors:
 - Eduardo Zepeda

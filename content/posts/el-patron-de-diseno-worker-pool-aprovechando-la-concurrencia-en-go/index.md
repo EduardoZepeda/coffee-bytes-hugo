@@ -19,6 +19,7 @@ keywords:
 - Concurrencia
 - Paralelismo
 - Workers
+- algoritmos
 title: Explicación del Patron De Diseño Worker Pool
 ---
 
