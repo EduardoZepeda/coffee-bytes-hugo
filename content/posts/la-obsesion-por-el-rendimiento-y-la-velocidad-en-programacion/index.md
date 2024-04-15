@@ -49,6 +49,8 @@ Para la mayoría de las startups o solopreneurs, el proceso de exploración del 
 
 ![Meme sobre la diferencia de tiempo de compilacion entre Go y Rust](images/rustaceans-vs-gophers.png)
 
+### Generalmente suficientemente rápido es rápido
+
 No elijas un lenguaje eficiente, sino uno que te permita ser flexible a los cambios y adaptarte rápido mientras obtienes información. En este caso, la velocidad de desarrollar nuevas características o modificar las existentes es mucho más importante que el rendimiento de estas. 
 
 Recuerda que **en tecnología todo es un trade-off**, en este caso rendimiento por productividad.
@@ -63,7 +65,7 @@ Otra cosa, cuando optimices en favor de la velocidad de desarrollo, no te olvide
 
 ## Situaciones donde sí importa el rendimiento y la seguridad
 
-¿Significa que deberías olvidarte de todos los lenguajes y tratar de implementar todas tus ideas en ~~javascript~~ una herramienta escrita en un lenguaje mediocre?, no, creo que hay situaciones donde es crucial elegir lo más rápido, seguro y eficiente, como por ejemplo: para navegadores, motores de videojuegos o sistemas operativos (que no son aplicaciones web), aunque, nuevamente, no vas a diseñar un sistema operativo tú solo... a menos de que quieras que tu OS sea el tercer templo de Jerusalen y quieras comunicarte con dios.
+¿Significa que deberías olvidarte de todos los demás lenguajes y tratar de implementar todas tus ideas en ~~javascript~~ una herramienta escrita en un lenguaje mediocre solo por la velocidad de desarrollo?, no, creo que hay situaciones donde es crucial elegir lo más rápido, seguro y eficiente, como por ejemplo: para navegadores, motores de videojuegos o sistemas operativos (aunque este post es sobre aplicaciones web), aunque, nuevamente, no vas a diseñar un sistema operativo tú solo... a menos de que quieras que tu OS sea el tercer templo de Jerusalen y quieras comunicarte con dios.
 
 !["Meme de temple os, un sistema que supuestamente sería el tercer templo de Jerusalen y permitiría comunicarse con dios"](images/temple-os.webp)
 
@@ -75,7 +77,7 @@ También querrás rendimiento y seguridad en entornos donde trates con cosas aú
 
 ## Herramientas To Get Shit Done
 
-Yo soy un defensor de evitar reinventar la rueda cada vez. Es bastante molesto tener que crear sistemas de autenticación, CRUDS, consultas a la base de datos una y otra vez, incluso aunque algunas comunidades, como la de Go, prefieran implementar todo desde cero.
+Yo soy un defensor de evitar reinventar la rueda cada vez. Es bastante molesto tener que crear sistemas de autenticación, CRUDS, consultas a la base de datos una y otra vez, incluso aunque algunas comunidades, como la de Go, prefieran implementar todo desde cero y tengan fuertes sentimientos de aversión hacia la automatización (a pesar de dedicarse a la programación).
 
 Te dejo una lista de algunas de mis soluciones favoritas para ahorrarte todo el boilerplate y centrarte en lo importante, que si bien no poseen el mejor rendimiento, se centran en tener prototipos funcionales lo más pronto posible.
 

@@ -1,8 +1,9 @@
 ---
-title: "Únete a mi newsletter"
+title: "Subscribe to my newsletter"
 date: "2020-11-05"
 noindex: true
 ---
 
-Un post nuevo cada semana en tu correo electrónico, sin spam, y puedes cancelar cuando quieras, nada más, nada menos.
+Subscribe to get
 
+{{< mailchimpform >}}

@@ -52,6 +52,8 @@ For most startups or solopreneurs, the market exploration process will be more i
 
 ![Time compilation differences between rust and go meme](images/rustaceans-vs-gophers.png)
 
+### Usually fast enough is enough
+
 Do not choose an efficient language, but one that allows you to be flexible to changes and adapt quickly while obtaining information. In this case, the speed of developing new features or modifying existing ones is much more important than their performance.
 
 Remember that **in technology everything is a trade-off**, in this case performance for productivity.
@@ -66,7 +68,7 @@ Another thing, when optimizing for development speed, don't forget to consider t
 
 ## Situations where performance and security do matter.
 
-Does it mean that you should forget about all languages and try to implement all your ideas in ~~javascript~~ a tool written in a mediocre language, no, I think there are situations where it is crucial to choose the fastest, safest and most efficient, like for example: for browsers, game engines or operating systems (that are not web applications), although, again, you are not going to design an operating system by yourself... unless you want your OS to be the third temple of Jerusalem and you want to communicate with god.
+Does it mean that you should forget about all other languages and try to implement all your ideas in ~~javascript~~ a tool written in a mediocre language just for the speed of development?, no, I think there are situations where it is crucial to choose the fastest, safest and most efficient, like for example: for browsers, game engines or operating systems (however this post is about web applications), although, again, you are not going to design an operating system by yourself... unless you want your OS to be the third temple of Jerusalem and you want to communicate with god.
 
 !["Meme of temple os, a system that supposedly would be the third temple of Jerusalem and would allow to communicate with god."](images/temple-os.webp)
 

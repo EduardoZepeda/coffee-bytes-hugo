@@ -13,6 +13,10 @@ date: 2022-05-18 18:14:41
 description: Te explico como usar git submodules, actualizarlos y trabajar con ellos sin errores, incluso si nunca antes lo has hecho.
 title: Git Submodules Funcionamiento Y Flujo de Trabajo
 url: /es/entiende-como-funciona-git-submodules-y-su-flujo-de-trabajo
+keywords:
+- git
+- submodules
+- repository
 ---
 
 Los git submodules o submódulos son un registro dentro de un repositorio de git que apunta a un commit en un repositorio externo. Se manejan exactamente igual que harías con un repositorio, incluso tienen un archivo *.git* que apunta a la ubicación en la que se lleva un registro de los cambios.

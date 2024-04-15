@@ -1,5 +1,5 @@
 ---
-title: "Go, programming language, introduction to variables and data types"
+title: "Go, coding language, introduction to variables and data types"
 date: "2021-11-23"
 categories:
 - go
@@ -8,9 +8,12 @@ coverImage: "images/golanga.jpg"
 description: "Learn the basics of the go or golang programming language: compilation, file structure, variables and data types."
 keywords:
 - go
-
+- compilation
+- variables
+- language
 authors:
 - Eduardo Zepeda
+url: /en/go-programming-language-introduction-to-variables-and-data-types/
 ---
 
 Golang, also known as go, is a compiled programming language developed by Google. It is a language quite appreciated according to the latest Stackoverflow surveys (2021), as you can see in my python vs go post, where I also compare the good, the bad and the ugly of this language.
