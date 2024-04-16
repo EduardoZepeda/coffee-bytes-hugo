@@ -117,7 +117,7 @@ setup(name='testing',
       version='1.0',
       description='Tox testing',
       author='Eduardo zepeda',
-      author_email='hello@eduardozepeda.dev',
+      author_email='eduardozepeda@coffeebytes.dev',
       url='https://coffeebytes.dev',
      )
 
