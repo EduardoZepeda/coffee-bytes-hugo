@@ -6,7 +6,7 @@ noindex: true
 
 #### AVISO DE PRIVACIDAD
 
-Carlos Eduardo Magallón Zepeda**,** es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
+**Carlos Eduardo Magallón Zepeda**, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
 
 ## ¿Para qué fines utilizaremos sus datos personales?
 
