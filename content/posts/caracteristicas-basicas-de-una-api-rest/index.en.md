@@ -31,7 +31,7 @@ The term API stands for application programming interface, and consists of a set
 
 There are many types of APIs and new paradigms are appearing all the time, one of them is REST. REST is special because it has managed to survive the passage of time and position itself above the rest, but no one knows what will happen tomorrow.
 
-![APIs timeline](images/timeline-de-APIs.png "REST data from year 2000")
+![APIs timeline](images/timeline-de-APIs.png "REST paradigm was created around year 2000")
 
 ## What is a REST API?
 
