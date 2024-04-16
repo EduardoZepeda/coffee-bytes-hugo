@@ -5,7 +5,6 @@ copyright = "© All rights reserved."
 enableRobotsTXT = true
 googleAnalytics = "G-P84BC2GXX4"
 removePathAccents = true
-summaryLength = 30
 theme = "hugo-theme-latte"
 title = "Coffee bytes"
 
