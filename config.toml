@@ -1,4 +1,4 @@
-DefaultContentLanguage = "es"
+DefaultContentLanguage = "en"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 copyright = "© All rights reserved."
