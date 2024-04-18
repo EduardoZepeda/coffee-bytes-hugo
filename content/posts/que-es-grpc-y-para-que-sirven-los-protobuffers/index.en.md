@@ -35,7 +35,7 @@ request and response type in the appropriate format.
 5. The response from the server is encoded using the stub and sent to the client.
 6. The client receives the response and decodes it in the appropriate format.
 
-![](images/rpc-esquema.jpg "Schematic diagram of gRPC operation")
+!["Schematic diagram of gRPC operation"](images/rpc-esquema.jpg "Schematic diagram of gRPC operation")
 
 Did you notice I mentioned data encryption? Well, one aspect of RPC to note is that it requires both client and server to use the same programming language, which makes it a disadvantage in environments where multiple programming languages can be mixed.
 
@@ -63,7 +63,7 @@ graph TD;
 
 Protocol Buffers (protobuffers from now on) are a completely language and platform agnostic format, which gRPC uses to serialize and deserialize structured data only that, instead of using JSON, XML or another format, it is done directly in binary. This, as you know, makes it much more efficient than using a more human-friendly format like JSON.
 
-![](images/protobuffers-grpc.jpg "The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional.")
+!["The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional."](images/protobuffers-grpc.jpg "The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional.")
 
 ### How to convert information with protobuffers?
 

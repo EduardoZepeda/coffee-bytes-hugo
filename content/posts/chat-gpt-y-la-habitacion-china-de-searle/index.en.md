@@ -25,7 +25,7 @@ Chat GPT is on everyone's lips, some are afraid of it, because of its [ability t
 
 John Searle, was a scientist who wondered whether a computer can really understand language. And for this he designed a riveting thought experiment:
 
-![](images/la-habitacion-china-de-searle.jpg "Image of Searle's Chinese Room generated with Dall-E")
+!["Image of Searle's Chinese Room generated with Dall-E"](images/la-habitacion-china-de-searle.jpg "Image of Searle's Chinese Room generated with Dall-E")
 
 A human, inside a room completely isolated from the outside world, with a set of instructions to process symbols in Chinese and return a response. It should be noted that the person inside the room does not know the Chinese language and simply follows the set of instructions given to him, i.e., he **does not understand the text coming in, nor the text going out**.
 
@@ -71,7 +71,7 @@ Sometimes we believe that only machines have a mechanical behavior and that any 
 
 In the book "An Eternal Graceful Loop" by Douglas R. Hofstader. The author cites an [experiment in which a sphex wasp is tricked into bringing a cricket within the confines of a burrow up to 40 times](https://jhjeong.mindconnect.cc/Texts/sphex.html). Just as if it were a computer program, this wasp gets stuck in an infinite loop from which it cannot escape, how different is this from a computer program that, after the same input, generates the same output?
 
-![](images/avisa-sphex.jpg "Sphex wasp from the experiment mentioned in the book An Eternal and Graceful Loop")
+!["Sphex wasp from the experiment mentioned in the book An Eternal and Graceful Loop"](images/avisa-sphex.jpg "Sphex wasp from the experiment mentioned in the book An Eternal and Graceful Loop")
 
 This experiment made me question whether some living beings are nothing more than biological automatons and also where is the turning point at which a living being ceases to be an automaton and becomes conscious, are there gradients of consciousness? And, if so, what does consciousness look like beyond what we humans experience? If consciousness exists as a macroscopic manifestation, is it deterministic, or does it belong to the quantum world of indeterminacy? I don't know and I don't think the truth has yet to pick a winner.
 

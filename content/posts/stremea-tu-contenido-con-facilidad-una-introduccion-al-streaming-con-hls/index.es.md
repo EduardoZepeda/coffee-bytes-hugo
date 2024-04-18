@@ -186,7 +186,7 @@ Y ahora procedemos a cargar el índice, o de otra manera, el archivo
 
 Si examinarás el navegador verías que el video se va cargando poco a poco, y conforme se necesita, el navegador solicita el siguiente segmento video y lo añade automáticamente a la reproducción.
 
-![](images/hls.jpg "Descarga del índice HLS y de fragmentos de video en el navegador")
+!["Descarga del índice HLS y de fragmentos de video en el navegador"](images/hls.jpg "Descarga del índice HLS y de fragmentos de video en el navegador")
 
 ## Preprocesado de videos para HLS en el servidor
 

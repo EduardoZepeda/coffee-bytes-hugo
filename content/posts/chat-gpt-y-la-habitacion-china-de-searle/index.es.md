@@ -27,7 +27,7 @@ Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen
 
 John Searle, fue un científico que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
 
-![](images/la-habitacion-china-de-searle.jpg "Imagen de la habitación china de Searle generada con Dall-E")
+!["Imagen de la habitación china de Searle generada con Dall-E"](images/la-habitacion-china-de-searle.jpg "Imagen de la habitación china de Searle generada con Dall-E")
 
 Un humano, dentro de una habitación completamente aislada del mundo exterior, con una serie de instrucciones para procesar símbolos en chino y devolver una respuesta. Hay que resaltar que la persona en el interior de la habitación desconoce el idioma chino y se limita a seguir la serie de instrucciones que le fueron otorgadas, es decir, **no comprende el texto que entra, ni el que sale**.
 
@@ -73,7 +73,7 @@ A veces creemos que solo las máquinas tienen un comportamiento mecánico y que 
 
 En el libro "Un eterno y grácil bucle" de Douglas R. Hofstader. El autor cita un [experimento en el que una avispa sphex es engañada para acercar un grillo en a los límites de una madriguera hasta 40 veces](https://jhjeong.mindconnect.cc/Texts/sphex.html). Tal cual como si fuera un programa de computadora, esta avisa queda atorada en un bucle infinito del que no puede escapar, ¿qué tan diferente es esto de un programa informático que, tras el mismo input, genera el mismo output?
 
-![](images/avisa-sphex.jpg "Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle")
+!["Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle"](images/avisa-sphex.jpg "Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle")
 
 Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente, ¿existen gradientes de conciencia? Y, si es así, ¿como se ve siente conciencia más allá de la que experimentamos los humanos? Si la conciencia existe como una manifestación macroscópica, ¿es determinista? ¿o pertenece al mundo cuántico de la indeterminación? No lo sé y creo que la verdad aún no elige un ganador.
 

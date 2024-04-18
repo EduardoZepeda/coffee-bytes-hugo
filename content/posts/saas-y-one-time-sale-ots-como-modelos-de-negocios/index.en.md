@@ -25,11 +25,11 @@ Much of the commercial software was too heavy, in proportion to the size of the 
 
 In the old days, internet connections were incredibly slow and unstable, leaving aside the strange noise that preceded every connection, old internet pirates know what I'm talking about.
 
-![](images/slow-internet-connection.jpg "Windows downloading that states years of waiting time")
+!["Windows downloading that states years of waiting time"](images/slow-internet-connection.jpg "Windows downloading that states years of waiting time")
 
 As a result, many companies chose to distribute their software via CDs or other external media.
 
-![](images/photoshop-code-box-and-disk.jpg "Old Adobe Photoshop installation Floppy disks")
+!["Old Adobe Photoshop installation Floppy disks"](images/photoshop-code-box-and-disk.jpg "Old Adobe Photoshop installation Floppy disks")
 
 ### Making payments over the internet was not something common.
 
@@ -59,11 +59,11 @@ At the same time, however, it allowed companies to release new versions of their
 
 That said, you might think that migrating to a SAAS model would make companies millionaires, but it didn't, at least not for Adobe.
 
-![](images/adobe-stocks.png "Adobe made obligatory monthly payments in 2017")
+!["Adobe made obligatory monthly payments in 2017"](images/adobe-stocks.png "Adobe made obligatory monthly payments in 2017")
 
 Although it is worth noting that if gross profits did not increase dramatically, his SAAS business allowed him to operate with a gross margin of 93%. Imagine, 93%, Jeff Bezos' wettest dream!
 
-![](images/adobe-revenue-pricing-2014.webp "Source: https://tomtunguz.com/adobe-saas-growth")
+!["Source: https://tomtunguz.com/adobe-saas-growth"](images/adobe-revenue-pricing-2014.webp "Source: https://tomtunguz.com/adobe-saas-growth")
 
 Was it a smart move? Well at least it seems so, since they have kept it up all these years, many, many companies followed the trend along with Adobe and adopted SAAS models.
 
@@ -79,7 +79,7 @@ Eleven is a company that plans to go against the current SAAS trend. Eleven clai
 
 In his manifesto, Eleven, with the eloquence of the best politician, promises **one-time payment for his software and access to the code**, waving the flag of a promising post-SAAS era.
 
-![](images/once-manifesto.png "Once Manifesto")
+!["Once Manifesto"](images/once-manifesto.png "Once Manifesto")
 
 Surprisingly, their promise is not based on empty words; they have developed an application similar to Slack, called **campfire**, which promises to reduce operating costs by up to 99.9% and was quite well received at X.
 

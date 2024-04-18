@@ -34,7 +34,7 @@ for job in jobs:
 
 Esto puede pintar bastante bien, al principio, pero tiene múltiples desventajas; La primera, se estarán creando workers sin control, lo que puede incrementar el uso de memoria de tu programa increíblemente rápido; la segunda, estás creando y destruyendo workers constantemente, lo cual puede ser costoso para tu programa.
 
-![](./images/workers-vs-memoria.jpg "Si no hay un límite de workers, los workers seguirán creandose para igualar a las tareas")
+!["Si no hay un límite de workers, los workers seguirán creandose para igualar a las tareas"](./images/workers-vs-memoria.jpg "Si no hay un límite de workers, los workers seguirán creandose para igualar a las tareas")
 
 Lo mejor sería mantener el uso de memoria constante y evitar crear y destruir workers frecuentemente. Para esto, el patrón worker pool funciona perfecto.
 

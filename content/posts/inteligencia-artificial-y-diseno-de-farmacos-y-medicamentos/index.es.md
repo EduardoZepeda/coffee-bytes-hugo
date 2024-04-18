@@ -30,7 +30,7 @@ Primero voy a explicarte brevemente las bases del funcionamiento de un fármaco.
 
 Cuando tú ingieres un fármaco por vía oral, este ingresa a tu sistema digestivo, es absorbido por este y transportado a tu sangre. Una vez en sangre, el sistema circulatorio se encarga de distribuirlo a todo el cuerpo. La sangre tiene contacto con todas tus células. Cuando el fármaco alcanza a las células correctas, se une a unos receptores celulares, los cuales disparan una función normal de la célula; ya sea liberar insulina al cuerpo, bloquear la secreción de alguna hormona.
 
-![](images/Receptor_(Biochemistry).svg.png "Representación de un receptor celular. La parte azul y amarillo representa la membrana de una célula. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544")
+!["Representación de un receptor celular. La parte azul y amarillo representa la membrana de una célula. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544"](images/Receptor_(Biochemistry).svg.png "Representación de un receptor celular. La parte azul y amarillo representa la membrana de una célula. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544")
 
 A nivel código, puedes pensar en un fármaco como una función que llama a otra función que ya existe en el cuerpo humano:
 
@@ -61,7 +61,7 @@ releaseInsulin(){}
 
 Y no solo eso, un fármaco puede encajar parcialmente en un receptor, lo cual puede provocar un efecto con menor intensidad que si lo hiciera perfectamente, y además, el no encajar perfectamente podría hacerlo activar otros receptores que desencadenarían efectos secundarios indeseados. 
 
-![](images/paracetamol_key_lock.png "Mira como la molécula encaja perfectamente en este receptor")
+!["Mira como la molécula encaja perfectamente en este receptor"](images/paracetamol_key_lock.png "Mira como la molécula encaja perfectamente en este receptor")
 
 ### Los fármacos tienen efectos secundarios indeseables
 
@@ -100,7 +100,7 @@ Como te mencioné anteriormente, el que un fármaco active o no el receptor de u
 
 Generalmente **un fármaco mantiene una estructura base, sin la cual no posee efecto, y pequeñas variaciones en esa estructura base son las que determinan la intensidad del efecto terapéutico y los secundarios**. La parte difícil es intentar deducir cual combinación será la mejor.
 
-![](images/analogos_penicilinas.jpg "Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo")
+!["Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo"](images/analogos_penicilinas.jpg "Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo")
 
 Observa las moléculas de arriba, un solo cambio desemboca un comportamiento diferente en el cuerpo, ¿te imaginas la cantidad de variantes que podemos tener para un solo fármaco? Cada una con diferentes propiedades, estructura y, por ende, con diferentes intensidades respecto a su efecto terapéutico y con una combinación única de efectos secundarios.
 
@@ -112,7 +112,7 @@ Es muy dificil predecirlo de manera manual, pero es justo aquí donde la intelig
 
 La inteligencia artificial es capaz de reconocer patrones que los seres humanos no podemos, puede analizar la información relacionada con una gran cantidad de moléculas y sus variantes; sus efectos secundarios, su estructura tridimensional, biodisponibilidad, polaridad, presencia de grupos funcionales y cualquier otra información ya existente sobre cada una de estas moleculas, y usarlos para entrenar un modelo que prediga si una molécula tiene el potencial de convertirse en un buen candidato a fármaco para sus posteriores análisis y pruebas en animales y humanos.
 
-![](images/fluoxetin.png "Fluoxetina, un antidepresivo que actua bloqueando un receptor")
+!["Fluoxetina, un antidepresivo que actua bloqueando un receptor"](images/fluoxetin.png "Fluoxetina, un antidepresivo que actua bloqueando un receptor")
 
 ## ¿Qué parámetros debo de usar para entrenar un modelo de inteligencia artificial para descubrir nuevos fármacos?
 

@@ -34,7 +34,7 @@ Para este caso se llaman up y down, pero podrías ponerle cualquier otros nombre
 
 Por ejemplo:
 
-![](images/migrations.jpg "Archivos de migración generados de manera manual")
+!["Archivos de migración generados de manera manual"](images/migrations.jpg "Archivos de migración generados de manera manual")
 
 ### Las migraciones son complementarias
 

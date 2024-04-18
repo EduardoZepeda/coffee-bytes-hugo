@@ -185,7 +185,7 @@ var video = document.getElementById('video');
 
 If you were to examine the browser you would see that the video is loaded bit by bit, and as it is needed, the browser requests the next video segment and automatically adds it to the playback.
 
-![](images/hls.jpg "Download HLS index and video snippets in browser")
+!["Download HLS index and video snippets in browser"](images/hls.jpg "Download HLS index and video snippets in browser")
 
 ## Preprocessing of videos for HLS on the server
 

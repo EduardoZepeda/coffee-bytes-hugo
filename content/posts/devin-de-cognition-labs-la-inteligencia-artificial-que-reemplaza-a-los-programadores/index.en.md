@@ -38,7 +38,7 @@ Behind Devin is Cognition labs, a relatively new company that had been kept behi
 
 There are about 10 members, between them totaling more than **10 gold medals at the International Computer Olympiad** and whose members seem to have been involved in AI-related projects at companies like Google, DeepMind and Scale AI. So one can speak of a group with some level of experience.
 
-![](images/meme-creador-de-devin-linuxero.jpg "Fictitious and caricatured representation of Devin's creators")
+!["Fictitious and caricatured representation of Devin's creators"](images/meme-creador-de-devin-linuxero.jpg "Fictitious and caricatured representation of Devin's creators")
 
 ### Who is funding the project?
 
