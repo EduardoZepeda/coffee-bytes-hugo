@@ -13,7 +13,6 @@ keywords:
 - machine learning
 authors:
 - Eduardo Zepeda
-draft: true
 ---
 
 Desde que ChatGPT superó el record de crecimiento de usuarios, la inteligencia artificial es cuasi omnipresente en la colectividad moderna de las metropolis. Su llegada ha traido consigo un gradiente de expectativas que van desde la resolución de problemas sencillos, hasta la automatización completa de nuestras sociedades. 

@@ -13,7 +13,6 @@ keywords:
 - machine learning
 authors:
 - Eduardo Zepeda
-draft: true
 ---
 
 Since ChatGPT rapidly surpassed the record of user growth, artificial intelligence is almost omnipresent in the modern metropolis collectivity. Its arrival has brought a wide gradient of expectations ranging from simple problem solving to the complete automation of our societies. 
