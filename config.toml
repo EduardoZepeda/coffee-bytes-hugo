@@ -1,4 +1,4 @@
-DefaultContentLanguage = "es"
+DefaultContentLanguage = "en"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 copyright = "© All rights reserved."
@@ -69,8 +69,6 @@ description = "Tutorials and acid opinions about web development, programming an
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
-mailchimphiddenfield = ""
-mailchimpurl = ""
 modalcountdown = 20
 subscribebannertext = "Get my FREE Python cheats guide."
 subscribedescription = """
@@ -227,3 +225,6 @@ maxAge = "72h"
 [caches.getresource]
 dir = ':resourceDir/_gen'
 maxAge = "24h"
+
+[security.http]
+mediaTypes = ['application/vnd\.api\+json', 'image/avif', 'image/jpeg', 'image/png', 'image/jpg']
