@@ -21,7 +21,7 @@ Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que 
 
 El pasado abril del 2019 se publicó la [primera fotografía de un agujero negro](https://www.bbc.com/mundo/noticias-47880446). 
 
-!["Primera imagen de un agujero negro"](images/BigO_notacion.jpg "Primera imagen de un agujero negro")
+![Primera imagen de un agujero negro](images/BigO_notacion.jpg "Primera imagen de un agujero negro")
 
 La fotografía anterior requirió 5 petabytes de datos, lo que son 5000 terabytes de datos (aproximadamente el equivalente a 5000 discos duros de un terabyte de capacidad). Aquí los científicos se enfrentaron con un gran dilema, ¿qué método usar para enviar tanta información?
 

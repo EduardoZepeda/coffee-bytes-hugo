@@ -26,7 +26,7 @@ One fine day, while surfing the internet, I discovered the personal blogs on [bl
 
 After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "manzana amarga" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. Eventually I wanted to customize it and found that I had to modify the HTML and CSS code. In order to modify my tiny little corner on the internet the way I wanted, I learned the basics of HTML and CSS; change the colors of the letters, the background, modify the arrangement of the elements to have more columns, insert background images, add small scripts and chatboxes, etc.
 
-!["Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme."](images/blog-manzana-amarga.jpg "Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme.")
+![Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme.](images/blog-manzana-amarga.jpg "Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme.")
 
 A few years later, thanks to the recommendation of one of my best friends, I got a job in a cyber café. I learned how to fix the most common bugs, connect printers to a server, pass files between networked computers, modify the windows registry, download torrent files, manage Office packages, Photoshop, Keyloggers, network computers, etc. **However, during all that time, I did not write any programs myself**.
 

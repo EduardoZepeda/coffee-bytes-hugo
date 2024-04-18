@@ -34,7 +34,7 @@ Para este caso se llaman up y down, pero podrías ponerle cualquier otros nombre
 
 Por ejemplo:
 
-!["Archivos de migración generados de manera manual"](images/migrations.jpg "Archivos de migración generados de manera manual")
+![Archivos de migración generados de manera manual](images/migrations.jpg "Archivos de migración generados de manera manual")
 
 ### Las migraciones son complementarias
 
@@ -148,7 +148,7 @@ Migrate detectará la migración activa y ejecutará *las migraciones up or down
 
 ¿Y cómo sabe la herramienta en que migración se encuentra? Tras cada cambio que efectuemos a la base de datos, la herramienta migrate guardará el estado de nuestra base de datos en una tabla llamada *schema_migrations* que luce de la siguiente manera:
 
-!["Tabla schema_migrations en postgres"](images/schema_migrations.png "Tabla de migraciones donde el estado actual es 1, seleccionado en azul")
+![Tabla schema_migrations en postgres](images/schema_migrations.png "Tabla de migraciones donde el estado actual es 1, seleccionado en azul")
 
 ### Columna version
 

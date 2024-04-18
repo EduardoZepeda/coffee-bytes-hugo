@@ -37,7 +37,7 @@ Para empezar estuve probando ChatGPT con una serie de peticiones sencillas y pop
 -   Labores muy concretas de algunos frameworks. Por ejemplo: [Sustituir el modelo
     de User en Django.](/como-personalizar-el-modelo-user-en-django/)
 
-!["Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField."](images/ChatGPT-Django-users.png "Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField.")
+![Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField.](images/ChatGPT-Django-users.png "Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField.")
 
 Francamente, estoy sorprendido con las capacidades de generar código correcto que tiene ChatGPT para tareas sencillas y con información abundante en la red; no esperaba tal capacidad.
 
@@ -153,7 +153,7 @@ La expresión regular que nos devuelve como respuesta es la siguiente:
 
 Cuando la ponemos a prueba en las pruebas de codewars, falla, obviamente
 
-!["Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta"](images/binary-division-codewars.png "Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta")
+![Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta](images/binary-division-codewars.png "Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta")
 
 ## Resultados y mi opinión
 

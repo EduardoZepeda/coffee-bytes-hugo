@@ -28,7 +28,7 @@ Like what features? [According to its creators, Devin can](https://www.cognition
 - Contribute to mature repositories
 - Solve real projects on Upwork (much more than [solve interview code problems](/en/i-test-chatgpt-with-codewars-coding-challenges/))
 
-!["Simpsons meme asking if it's time to Panic"](images/so-its-time-to-panic-simpsons.webp)
+![Simpsons meme asking if it's time to Panic](images/so-its-time-to-panic-simpsons.webp)
 
 ## Who is behind Devin?
 
@@ -38,13 +38,13 @@ Behind Devin is Cognition labs, a relatively new company that had been kept behi
 
 There are about 10 members, between them totaling more than **10 gold medals at the International Computer Olympiad** and whose members seem to have been involved in AI-related projects at companies like Google, DeepMind and Scale AI. So one can speak of a group with some level of experience.
 
-!["Fictitious and caricatured representation of Devin's creators"](images/meme-creador-de-devin-linuxero.jpg "Fictitious and caricatured representation of Devin's creators")
+![Fictitious and caricatured representation of Devin's creators](images/meme-creador-de-devin-linuxero.jpg "Fictitious and caricatured representation of Devin's creators")
 
 ### Who is funding the project?
 
 So far Cognitive Labs claims to have raised about **21 MDD in a round led by Founders Fund**, most notably investor Peter Thiel, former head of Paypal.
 
-!["Peter Thiel's relationship diagram"](images/peter-thiel-relationships.jpeg "Source: https://knowyourmeme.com/photos/2402121-peter-thiel")
+![Peter Thiel's relationship diagram](images/peter-thiel-relationships.jpeg "Source: https://knowyourmeme.com/photos/2402121-peter-thiel")
 
 ## What's going to happen to the programmers - are they at risk?
 
@@ -59,11 +59,11 @@ Who do you think would win in a battle to produce more books, 1000 ancient Egypt
 
 I am of the opinion that the second option, simply the capabilities of the printer to produce pages faster, with fewer errors and in a fraction of the time, are beyond the capabilities of the scribes. While it is true that a person is required to set up and use the printer, that does not imply that scribes stand a chance. Similarly, while programmers will still be required and more jobs will be "created" as is usually claimed, the real question is: **how many jobs will be lost for every new job that is created?**.
 
-!["Image of a boot crushing a human face"](images/Devin-AI-vs-you.jpg)
+![Image of a boot crushing a human face](images/Devin-AI-vs-you.jpg)
 
 Let's continue with this thought experiment, let's assume, for a moment, that Devin does exactly what he says. Since Devin is a tool, it still requires input from a human being to function, so the "output", i.e. its performance, will depend on how good its "input", i.e. the person giving it the instructions, is.
 
-!["Winnie the Pohh meme"](images/prompt-engineer.png)
+![Winnie the Pohh meme](images/prompt-engineer.png)
 
 This means that **the profession of prompt engineer will become a reality**, and with the consequence that those people with superior abstraction, writing and lexical abilities will become practically gods of this new utopia (or dystopia, depending on how you see it).
 
@@ -104,7 +104,7 @@ Consider that, in the world of money, appearances play a major role. Right now, 
 
 But didn't Peter Thiel just invest money? Yes, but that doesn't mean anything. If you are an investor, you don't care if the project exists for a month, two months, a decade or two, the only important thing is that it is profitable enough for you according to your own investment criteria. In other words: What does it matter if the project dies if I can turn 21 MDD into 40 MDD in less than a year?
 
-!["Meme of the rapper rejecting the first option applied to Cognition labs"](images/meme-rapper-devin-access.jpg)
+![Meme of the rapper rejecting the first option applied to Cognition labs](images/meme-rapper-devin-access.jpg)
 
 It quite catches my attention that the way to request access to Devin is through a google form instead of using an App developed with the same model. 
 

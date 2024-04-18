@@ -19,12 +19,12 @@ Since ChatGPT rapidly surpassed the record of user growth, artificial intelligen
 
 But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term.
 
-!["Meme mocking the capabilities of AI"](images/meme-ai-is-this.jpg)
+![Meme mocking the capabilities of AI](images/meme-ai-is-this.jpg)
 
 ## The market is saturated with AI solutions.
 If you've been ~~doom~~ scrolling on social media, you'll know that influencers keep talking about new AI tools that are going to revolutionize the world, ~~just like they said cryptocurrencies would,~~ from voice cloners, image and video creators, data analytics, just to name a few. There are too many AI companies! It's all AI!
 
-!["AI and other bubbles"](images/ai-and-other-bubbles.jpeg)
+![AI and other bubbles](images/ai-and-other-bubbles.jpeg)
 
 In this AI fever, entrepreneurs are becoming ~~even more~~ elitist, by which I mean that all those business ideas that don't use AI are ipso facto discarded. "To use AI" has been added to the checklist of any company that wants to go to market and this, to me, is what creates this bubble.
 
@@ -37,7 +37,7 @@ Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of h
 
 As I said, investors don't want to be left out of this party and are so eager to hit the jackpot and become the new Zuckerberg of artificial intelligence that they open their wallets without thinking every time they hear the word "AI" in the same sentence as "disruptive."
 
-!["Wallstreet has no idea about AI"](images/wallstreet-is-dumb.jpg)
+![Wallstreet has no idea about AI](images/wallstreet-is-dumb.jpg)
 
 But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as I suspect the [creators of  Devin, the supposed replacement for programmers](/en/devin-ai-the-supposed-replacement-for-programmers/). 
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
@@ -46,7 +46,7 @@ The market is trying to make a quick and easy buck from the suddenly growing int
 
 In addition to this, most people involved in the financial side of AI don't understand that not much has really changed in the coding world, most solutions just use ChatGPT on the backend, along with a visually appealing interface to present themselves as the next unicorn and look for easy money from investors. 
 
-!["Startups are just a wrapper for chatgpt"](images/ai-company-chatgpt.jpg)
+![Startups are just a wrapper for chatgpt](images/ai-company-chatgpt.jpg)
 
 And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks. I want more investment in AI, but one that "adds value," not just seeks to capitalize as quick as possible.
 
@@ -57,6 +57,6 @@ The bubble will burst and only those companies with the potential to change the 
 
 It is up to them to decide the pace at which this transition will take place despite what the market is trying to shove down your throat.
 
-!["dragon ball meme about the AI bubble bursting"](images/ai-bubble-explosion-meme.jpg)
+![dragon ball meme about the AI bubble bursting](images/ai-bubble-explosion-meme.jpg)
 
 My prediction regarding the bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, and that, when the bubble bursts, a lot of people are going to lose money in the process.

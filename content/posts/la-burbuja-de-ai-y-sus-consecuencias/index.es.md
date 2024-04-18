@@ -19,13 +19,13 @@ Desde que ChatGPT superó el record de crecimiento de usuarios, la inteligencia 
 
 Pero yo creo que, si bien la AI tiene capacidades asombrosas, esta lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo.
 
-!["Meme que se burla de las capacidades de la AI"](images/meme-ai-is-this.jpg)
+![Meme que se burla de las capacidades de la AI](images/meme-ai-is-this.jpg)
 
 ## El mercado está saturado de soluciones de AI
 
 Si haz estado haciendo ~~doom~~ scroll por redes sociales, sabrás que los influencers no paran de hablar de nuevas herramientas de AI que van a revolucionar el mundo, ~~justo como dijeron que harían las criptomonedas,~~ desde clonadores de voz, creadores de imágenes y video, analisis de información, solo por mencionar algunos. ¡Hay demasiadas compañias de AI! ¡Todo es AI!
 
-!["AI y otras burbujas"](images/ai-and-other-bubbles.jpeg)
+![AI y otras burbujas](images/ai-and-other-bubbles.jpeg)
 
 En esta fiebre por la AI, los emprendedores se están volviendo ~~aún más~~ elitistas, ¿a que me refiero? a que todas aquellas ideas de negocio que no echan mano de la AI son descartadas ipso facto. Se ha añadido "usar AI" al checklist de cualquier empresa que quiera salir al mercado y esto, para mi, es lo que crea esta burbuja.
 
@@ -39,7 +39,7 @@ Los consumidores, generalmente negocios, esperan que la AI reduzca (o elimine) l
 
 Como ya dije, los inversores no quieren quedarse fuera de esta fiesta y están tan deseosos de sacarse la loteria y convertirse en el nuevo Zuckerberg de la inteligencia artficial, que abren sus carteras sin pensarlo cada vez que escuchan la palabra "AI" en el mismo enunciado que "disruptivo".
 
-!["Wallstreet no tiene idea de AI"](images/wallstreet-is-dumb.jpg)
+![Wallstreet no tiene idea de AI](images/wallstreet-is-dumb.jpg)
 
 Pero, en mi opinión, todo esto no es más que un montón de compañias y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/). 
 
@@ -49,7 +49,7 @@ El mercado intenta conseguir dinero fácil y rápido por el creciente y repentin
 
 Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero de la AI no comprenden que realmente no ha cambiado mucho en el mundo del código, la mayoría de las soluciones solo usan a ChatGPT por detrás, junto a una interfaz linda para presentarse como el siguiente unicornio y buscar el dinero fácil de los inversores. 
 
-!["Las startups solo son un wrapper de chatgpt"](images/ai-company-chatgpt.jpg)
+![Las startups solo son un wrapper de chatgpt](images/ai-company-chatgpt.jpg)
 
 Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenaramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5. Quiero más inversión en AI, pero que "agregue valor", no solo que busque capitalizarse rápido.
 
@@ -59,7 +59,7 @@ Dicho lo anterior pareciera que creo que todo esto de la AI no es más que humo 
 
 La burbuja va a tronar y van a quedarse solo aquellas empresas con el potencial de cambiar el juego para siempre. Herramientas como Sora, Midjourney, ChatGPT, Eleven Labs o Watson. Les corresponde a ellas decidir el ritmo al que se llevará a cabo esta transición.
 
-!["Meme de dragon ball sobre la explosión de la burbuja de AI"](images/ai-bubble-explosion-meme.jpg)
+![Meme de dragon ball sobre la explosión de la burbuja de AI](images/ai-bubble-explosion-meme.jpg)
 
 Mi predicción respecto a la burbuja, es que el resto de empresas que no posean su propias redes neuronales exclusivas o alguna propiedad intelectual que las proteja, van a canibalizarse y a volverse commodities y que, cuando truene la burbuja, muchas personas van a perder dinero en el proceso.
 

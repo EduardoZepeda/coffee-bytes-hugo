@@ -25,7 +25,7 @@ First I'm going to briefly explain the basics of how a drug works.
 
 When you ingest a drug orally, it enters your digestive system, is absorbed by it and transported into your blood. Once in the blood, the circulatory system is responsible for distributing it throughout the body. The blood has contact with all your cells. When the drug reaches the right cells, it binds to cell receptors, which trigger a normal cell function; either releasing insulin into the body, or blocking the secretion of a hormone.
 
-!["Representation of a cell receptor. The blue and yellow part represents the membrane of a cell. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544."](images/Receptor_(Biochemistry).svg.png "Representation of a cell receptor. The blue and yellow part represents the membrane of a cell. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544.")
+![Representation of a cell receptor. The blue and yellow part represents the membrane of a cell. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544.](images/Receptor_(Biochemistry).svg.png "Representation of a cell receptor. The blue and yellow part represents the membrane of a cell. By Wyatt Pyzynski - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69535544.")
 
 At the code level, you can think of a drug as a function that calls another function that already exists in the human body:
 
@@ -56,7 +56,7 @@ releaseInsulin(){}
 
 And not only that, a drug may partially fit a receptor, which may cause an effect with less intensity than if it did fit perfectly, and furthermore, not fitting perfectly could make it activate other receptors that would trigger unwanted side effects. 
 
-!["Look how the molecule fits perfectly into this receptor."](images/paracetamol_key_lock.png "Look how the molecule fits perfectly into this receptor.")
+![Look how the molecule fits perfectly into this receptor.](images/paracetamol_key_lock.png "Look how the molecule fits perfectly into this receptor.")
 
 ### Drugs have undesirable side effects.
 
@@ -95,7 +95,7 @@ As I mentioned earlier, whether or not a drug activates a cell's receptor depend
 
 Generally **a drug maintains a base structure, without which it has no effect, and small variations in that base structure are what determine the intensity of the therapeutic effect and the side effects**. The difficult part is trying to deduce which combination will be the best.
 
-!["All penicillins have the yellow structure in common. These two differ in the part highlighted in red."](images/analogos_penicilinas.jpg "All penicillins have the yellow structure in common. These two differ in the part highlighted in red.")
+![All penicillins have the yellow structure in common. These two differ in the part highlighted in red.](images/analogos_penicilinas.jpg "All penicillins have the yellow structure in common. These two differ in the part highlighted in red.")
 
 Look at the molecules above, a single change results in different behavior in the body, can you imagine how many variants we can have for a single drug? Each with different properties, structure and thus different intensities of therapeutic effect and with a unique combination of side effects.
 
@@ -107,7 +107,7 @@ It is very difficult to predict this manually, but this is exactly where artific
 
 Artificial intelligence is able to recognize patterns that humans cannot, it can analyze information related to a large number of molecules and their variants; their side effects, their three-dimensional structure, bioavailability, polarity, presence of functional groups and any other information already existing about each of these molecules, and use them to train a model that predicts whether a molecule has the potential to become a good drug candidate for further analysis and testing in animals and humans.
 
-!["Fluoxetine, an antidepressant that acts by blocking a receptor."](images/fluoxetin.png "Fluoxetine, an antidepressant that acts by blocking a receptor.")
+![Fluoxetine, an antidepressant that acts by blocking a receptor.](images/fluoxetin.png "Fluoxetine, an antidepressant that acts by blocking a receptor.")
 
 ## What parameters should I use to train an artificial intelligence model to discover new drugs?
 

@@ -32,7 +32,7 @@ Aunque aún estamos lejos de tener una [AI consciente de si misma](/es/chat-gpt-
 - Contribuir a madurar repositorios
 - Resolver proyectos reales en Upwork (bastante más que [resolver problemas de código de entrevistas](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/))
 
-!["Meme de los simpsons donde se pregunta si es momento de entrar en Pánico"](images/so-its-time-to-panic-simpsons.webp)
+![Meme de los simpsons donde se pregunta si es momento de entrar en Pánico](images/so-its-time-to-panic-simpsons.webp)
 
 ## ¿Quienes están detrás de Devin?
 
@@ -44,13 +44,13 @@ Detrás de Devin se encuentra Cognition labs, una empresa relativamente nueva qu
 
 Hay cerca de 10 miembros, entre los cuales suman más de **10 medallas de oro en la Olimpiada Internacional de Informática** y cuyos miembros parecen haber estado involucrados en proyectos relacionados con AI en empresas como Google, DeepMind y Scale AI. Por lo que se puede hablar de un grupo con cierto nivel de experiencia.
 
-!["Representación ficticia y caricaturesca de los creadores de Devin"](images/meme-creador-de-devin-linuxero.jpg "Representación ficticia y caricaturesca de los creadores de Devin")
+![Representación ficticia y caricaturesca de los creadores de Devin](images/meme-creador-de-devin-linuxero.jpg "Representación ficticia y caricaturesca de los creadores de Devin")
 
 ### ¿Quienes financian el proyecto?
 
 Hasta el momento Cognitive Labs afirma haber recaudado cerca de **21 MDD en una ronda liderada por Founders Fund**, entre los que destaca el inversionista Peter Thiel, ex-director de Paypal.
 
-!["Esquema de relaciones de Peter Thiel"](images/peter-thiel-relationships.jpeg "Fuente: https://knowyourmeme.com/photos/2402121-peter-thiel")
+![Esquema de relaciones de Peter Thiel](images/peter-thiel-relationships.jpeg "Fuente: https://knowyourmeme.com/photos/2402121-peter-thiel")
 
 ## ¿Qué va a pasar con los programadores? ¿están en riesgo?
 
@@ -65,11 +65,11 @@ Pues, es complicado saberlo con certeza, dada la poca información al respecto. 
 
 Yo opino que la segunda opción, simplemente las capacidades de la impresora para producir páginas más rápido, con menos errores y en una fracción del tiempo, están más allá de las posibilidades de los escribas. Aunque es cierto que se requiere a una persona que configure y utilice la impresora, eso no implica que los escribas tengan alguna oportunidad. De manera análoga, si bien aún se requerirán programadores y se "crearán más trabajos" como se afirma usualmente, la verdadera cuestión es: **¿cuantos trabajos se perderán por cada nuevo trabajo que se cree?**
 
-!["Imagen de una bota aplastando un rostro humano"](images/Devin-AI-vs-you.jpg)
+![Imagen de una bota aplastando un rostro humano](images/Devin-AI-vs-you.jpg)
 
 Sigamos con este experimento mental, supongamos, por un momento, que Devin hace exactamente lo que dice. Dado que Devin es una herramienta, aún requiere del input de un ser humano para funcionar, por lo que el "output", es decir su desempeño, dependerá de que tan bueno sea su "input", es decir, la persona que le de las instrucciones.
 
-!["Winnie the Pohh meme"](images/prompt-engineer.png)
+![Winnie the Pohh meme](images/prompt-engineer.png)
 
 Esto se traduce en que **la profesión de prompt engineer se volverá una realidad**, y con la consecuencia de que aquellas personas con capacidades superiores de abstracción, escritura y léxico se volverán prácticamente dioses de esta nueva utopia (o distopia, según como lo veas).
 
@@ -113,13 +113,13 @@ Déjame describirte una situación:
 
 ¿Te suena a algo parecido? Quizás Devin solo sean un grupo de personas buscando volverse millonarias de la noche a la mañana.
 
-!["Meme de omniman hablando con su hijo"](images/its-all-about-shareholders.jpg "Piensa programador piensa")
+![Meme de omniman hablando con su hijo](images/its-all-about-shareholders.jpg "Piensa programador piensa")
 
 Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil".
 
 Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada. Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos meses, una década o dos, lo único importante es que te sea lo suficientemente rentable de acuerdo a tus propios criterios de inversión. En otras palabras: ¿Qué más da si el proyecto muere si puedo convertir 21 MDD en 40 MDD en menos de un año? 
 
-!["Meme del rapper rechazando la primera opción aplicado a Cognition labs"](images/meme-rapper-devin-access.jpg "Si Devin AI es tan bueno, ¿por qué no usarlo para crear su propia web completa?")
+![Meme del rapper rechazando la primera opción aplicado a Cognition labs](images/meme-rapper-devin-access.jpg "Si Devin AI es tan bueno, ¿por qué no usarlo para crear su propia web completa?")
 
 Llama bastante mi atención que la manera de solicitar acceso a Devin sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo. 
 

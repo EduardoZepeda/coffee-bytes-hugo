@@ -32,7 +32,7 @@ For this case they are called up and down, but you could give them any other nam
 
 For example:
 
-!["Manually generated migration files"](images/migrations.jpg "Manually generated migration files")
+![Manually generated migration files](images/migrations.jpg "Manually generated migration files")
 
 ### Migrations are complementary
 

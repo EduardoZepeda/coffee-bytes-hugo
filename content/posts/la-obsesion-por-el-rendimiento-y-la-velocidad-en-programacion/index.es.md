@@ -29,7 +29,7 @@ A lo largo de esta odisea virtual, nos olvidamos por completo de lo que probable
 
 Si tu, o tu empresa, no son un jugador de ligas mayores en internet, probablemente estás dándole más importancia de la necesaria al hecho de que tu aplicación sirva 1 peticiones por segundo en lugar de 100. 
 
-!["Peticiones por segundo, benchmark de techempower"](images/techempower-benchmark.png "Algunos frameworks soportan 600k peticiones por segundo")
+![Peticiones por segundo, benchmark de techempower](images/techempower-benchmark.png "Algunos frameworks soportan 600k peticiones por segundo")
 
 Sí, es cierto que estamos hablando de un factor de 100, pero considera lo siguiente:
 
@@ -61,13 +61,13 @@ Asi mismo, manten presente, que esto también aplica al elegir las herramientas 
 
 Otra cosa, cuando optimices en favor de la velocidad de desarrollo, no te olvides de considerar la deuda técnica, encuentra el punto de inflexión y pivotea hacia la escalabilidad.
 
-!["Design stamina graph, donde se muestra el momento de pivoteo para tener una arquitectura escalable"](images/design-stamina-graph.jpg "Créditos de la imagen a Martin Fowler")
+![Design stamina graph, donde se muestra el momento de pivoteo para tener una arquitectura escalable](images/design-stamina-graph.jpg "Créditos de la imagen a Martin Fowler")
 
 ## Situaciones donde sí importa el rendimiento y la seguridad
 
 ¿Significa que deberías olvidarte de todos los demás lenguajes y tratar de implementar todas tus ideas en ~~javascript~~ una herramienta escrita en un lenguaje mediocre solo por la velocidad de desarrollo?, no, creo que hay situaciones donde es crucial elegir lo más rápido, seguro y eficiente, como por ejemplo: para navegadores, motores de videojuegos o sistemas operativos (aunque este post es sobre aplicaciones web), aunque, nuevamente, no vas a diseñar un sistema operativo tú solo... a menos de que quieras que tu OS sea el tercer templo de Jerusalen y quieras comunicarte con dios.
 
-!["Meme de temple os, un sistema que supuestamente sería el tercer templo de Jerusalen y permitiría comunicarse con dios"](images/temple-os.webp)
+![Meme de temple os, un sistema que supuestamente sería el tercer templo de Jerusalen y permitiría comunicarse con dios](images/temple-os.webp)
 
 Usar un lenguaje de bajo nivel suele ser la decisión correcta para situaciones donde el rendimiento es crítico, no quieres servicios donde la vida o la salud de las personas estén en juego escritos en lenguajes de alto nivel, que suelen ser más flexibles en el tipado y más propensos a errores en tiempo de ejecución. 
 

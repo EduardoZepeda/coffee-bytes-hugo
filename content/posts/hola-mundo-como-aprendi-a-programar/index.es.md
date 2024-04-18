@@ -28,7 +28,7 @@ Un buen día, mientras navegaba por internet, descubrí los blogs personales en 
 
 Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "manzana amarga", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
 
-!["Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls."](images/blog-manzana-amarga.jpg "Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.")
+![Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.](images/blog-manzana-amarga.jpg "Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.")
 
 Unos años más tarde, gracias a la recomendación de uno de mis mejores amigos, conseguí trabajo en un cyber café. Aprendí como reparar los errores más comunes, conectar impresoras, pasar archivos entre computadoras en red, modificar el registro, descargar archivos por torrent, manejo de paquetería de Office, Photoshop, Keyloggers, conectar computadoras en red, etc. **Sin embargo, durante todo ese tiempo, no escribí ningún programa por mi mismo.**
 

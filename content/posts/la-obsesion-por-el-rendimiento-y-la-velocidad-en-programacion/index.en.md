@@ -31,7 +31,7 @@ Throughout this virtual odyssey, we completely forgot about what is probably the
 
 If you, or your company, are not a major league player on the Internet, you are probably giving more importance than necessary to the fact that your application serves 1 request per second instead of 100. 
 
-!["Requests per second techempower benchmark"](images/techempower-benchmark.png "Some frameworks can handle up to 600k requests per second")
+![Requests per second techempower benchmark](images/techempower-benchmark.png "Some frameworks can handle up to 600k requests per second")
 
 Yes, it is true that we are talking about a factor of 100, but consider the following:
 One request per second means 60 in a minute, 3600 in an hour and 86400 a day. 
@@ -70,7 +70,7 @@ Another thing, when optimizing for development speed, don't forget to consider t
 
 Does it mean that you should forget about all other languages and try to implement all your ideas in ~~javascript~~ a tool written in a mediocre language just for the speed of development?, no, I think there are situations where it is crucial to choose the fastest, safest and most efficient, like for example: for browsers, game engines or operating systems (however this post is about web applications), although, again, you are not going to design an operating system by yourself... unless you want your OS to be the third temple of Jerusalem and you want to communicate with god.
 
-!["Meme of temple os, a system that supposedly would be the third temple of Jerusalem and would allow to communicate with god."](images/temple-os.webp)
+![Meme of temple os, a system that supposedly would be the third temple of Jerusalem and would allow to communicate with god.](images/temple-os.webp)
 
 Using a low-level language is usually the right decision for situations where performance is critical, you don't want services where people's lives or health are at stake written in high-level languages, which tend to be more flexible in typing and more prone to runtime errors.
 

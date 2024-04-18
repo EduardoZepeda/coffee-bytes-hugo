@@ -35,7 +35,7 @@ To start with I was testing ChatGPT with a series of simple and popular requests
 * Validate email, strings, numbers
 * Very specific tasks of some frameworks. For example: [Replace User model in Django.](/en/how-to-customize-the-user-model-in-django/)
 
-!["Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField."](images/ChatGPT-Django-users.png "Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField.")
+![Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField.](images/ChatGPT-Django-users.png "Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField.")
 
 Frankly, I am surprised with the capabilities of generating correct code that ChatGPT has for simple tasks and with abundant information on the net; I did not expect such capability.
 
@@ -150,7 +150,7 @@ The regular expression returned as a response is the following:
 
 When we test it in the codewars tests, it fails, obviously.
 
-!["An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response."](images/binary-division-codewars.png "An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response.")
+![An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response.](images/binary-division-codewars.png "An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response.")
 
 ## Results and my opinion
 
