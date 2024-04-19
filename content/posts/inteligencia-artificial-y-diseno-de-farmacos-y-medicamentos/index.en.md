@@ -109,6 +109,8 @@ Artificial intelligence is able to recognize patterns that humans cannot, it can
 
 ![Fluoxetine, an antidepressant that acts by blocking a receptor.](images/fluoxetin.png "Fluoxetine, an antidepressant that acts by blocking a receptor.")
 
+Of course AI for drug development will reach its full potential once the [AI bubble crashes](/en/the-rise-and-fall-of-the-ai-bubble/).
+
 ## What parameters should I use to train an artificial intelligence model to discover new drugs?
 
 Well, that's the crux of the matter, the million dollar question. If you have never worked with biological systems and drugs, I suggest you read up on the basics of pharmacokinetics, pharmacodynamics and stereochemistry.

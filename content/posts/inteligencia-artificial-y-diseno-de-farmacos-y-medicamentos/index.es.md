@@ -114,6 +114,8 @@ La inteligencia artificial es capaz de reconocer patrones que los seres humanos 
 
 ![Fluoxetina, un antidepresivo que actua bloqueando un receptor](images/fluoxetin.png "Fluoxetina, un antidepresivo que actua bloqueando un receptor")
 
+Creo que este será uno de los usos más prometedores que se le darán una vez que [la burbuja de AI estalle](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/)
+
 ## ¿Qué parámetros debo de usar para entrenar un modelo de inteligencia artificial para descubrir nuevos fármacos?
 
 Bien, pues ese es justo el meollo del asunto, la pregunta del millón de dólares. Si nunca has trabajado con sistemas biológicos y fármacos, te se sugiero que le des una leída a las bases de farmacocinética, farmacodinámica y estereoquímica.

@@ -17,7 +17,7 @@ authors:
 
 Desde que ChatGPT superó el record de crecimiento de usuarios, la inteligencia artificial es cuasi omnipresente en la colectividad moderna de las metropolis. Su llegada ha traído consigo un gradiente de expectativas que van desde la resolución de problemas sencillos, hasta la automatización completa de nuestras sociedades. 
 
-Pero yo creo que, si bien la AI tiene capacidades asombrosas, esta lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo.
+Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo.
 
 ![Meme que se burla de las capacidades de la AI](images/meme-ai-is-this.jpg)
 

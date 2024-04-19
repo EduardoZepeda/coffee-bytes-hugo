@@ -39,7 +39,7 @@ As I said, investors don't want to be left out of this party and are so eager to
 
 ![Wallstreet has no idea about AI](images/wallstreet-is-dumb.jpg)
 
-But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as I suspect the [creators of  Devin, the supposed replacement for programmers](/en/devin-ai-the-supposed-replacement-for-programmers/). 
+But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers](/en/devin-ai-the-supposed-replacement-for-programmers/) are probably doing. 
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
 
 ### Many of the AI solutions are just ChatGPT wrappers.

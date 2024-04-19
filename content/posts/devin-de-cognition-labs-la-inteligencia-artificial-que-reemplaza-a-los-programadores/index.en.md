@@ -96,7 +96,7 @@ Let me describe a situation:
 3. The creators receive seed capital from many, many investors.
 4. It ends up becoming just another tool and everything stays the same.
 
-Does it sound like anything like that? Maybe they are just a group of people looking to become millionaires.
+Does it sound like anything like that? Maybe they are just a group of people looking to become millionaires and we're in the middle of an [AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/).
 
 ![Meme of omniman talking to his son about shareholders"](images/its-all-about-shareholders.jpg)
 

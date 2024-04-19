@@ -168,4 +168,4 @@ ChatGPT becomes quite inefficient with requests that require a more complex reas
 
 ### Is ChatGPT a threat to programmers?
 
-Do I think ChatGPT represents is going to put a lot of jobs on the line? Yes, I think ChatGPT will trouble most jobs (not necessarily those related to code) that are not challenging and whose difficulty lies in a simple google search, or automatable tasks, requiring simple reasoning. However, I believe that it is not the veracity of its answers, but its chat-like interface, and the immediacy of its answers, that could make it quite popular.
+Do I think ChatGPT represents is going to put a lot of jobs on the line? Yes, but also because we may be in the middle of an [AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/) I think ChatGPT will trouble most jobs (not necessarily those related to code) that are not challenging and whose difficulty lies in a simple google search, or automatable tasks, requiring simple reasoning. However, I believe that it is not the veracity of its answers, but its chat-like interface, and the immediacy of its answers, that could make it quite popular.
