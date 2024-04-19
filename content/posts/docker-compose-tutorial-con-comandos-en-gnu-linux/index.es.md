@@ -26,7 +26,7 @@ url: docker-compose-tutorial-con-comandos-en-gnu-linux
 
 Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. 
 
-Si quieres refrescar tu memoria visita mi [tutorial de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)
+Si quieres refrescar tu memoria visita mi [tutorial de comandos básicos de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)
 
 ## ¿Qué es docker compose?
 
