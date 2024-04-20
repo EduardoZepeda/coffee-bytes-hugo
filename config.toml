@@ -23,17 +23,9 @@ name = "RSS"
 url = "/index.xml"
 weight = 2
 [[languages.en.menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 3
-[[languages.en.menu.main]]
 name = "About me"
 url = "/authors/eduardo-zepeda/"
-weight = 4
-[[languages.en.menu.main]]
-name = "Book reviews"
-url = "/pages/libros-que-he-leido-y-resenas/"
-weight = 5
+weight = 3
 [[languages.en.menu.footer]]
 name = "Privacy policy"
 url = "/pages/politica-de-privacidad/"
@@ -88,17 +80,9 @@ name = "RSS"
 url = "/index.xml"
 weight = 2
 [[languages.es.menu.main]]
-name = "Categorías"
-url = "/categories/"
-weight = 3
-[[languages.es.menu.main]]
 name = "Sobre mi"
 url = "/authors/eduardo-zepeda/"
-weight = 4
-[[languages.es.menu.main]]
-name = "Reseñas de libros"
-url = "/pages/libros-que-he-leido-y-resenas/"
-weight = 5
+weight = 3
 [[languages.es.menu.footer]]
 name = "Politica de privacidad"
 url = "/pages/politica-de-privacidad/"
