@@ -79,7 +79,7 @@ Además, todas aquellas profesiones encargadas de perfeccionar los modelos de AI
 
 Conseguir un trabajo si eres nuevo en la industría será bastante complicado, pero al mismo tiempo la barrera para crear negocios digitales disminuirá y será más importante el identificar y resolver problemas. Volverte un solopreneur o un freelance será increíblemente sencillo, pues las habilidades técnicas requeridas se reducirá significativamente y quizás sea mejor que apuntes hacia esa dirección.
 
-¿Qué tan probable veo este escenario? La verdad es que **yo lo considero un escenario bastante improbable, casi rayando en lo improbable**.
+¿Qué tan probable veo este escenario? La verdad es que **yo lo considero un escenario bastante improbable, casi rayando en lo imposible**.
 
 #### ¿Por qué creo que Devin no reemplazará a los programadores?
 
@@ -87,7 +87,7 @@ Si lo que los creadores de Devin dicen, les sería más fácil crear una agencia
 
 Devin aún no ha sido puesto a prueba en condiciones reales, donde las problemas pueden ser extremadamente complejos y consistir en una mezcla entre el conocimiento del negocio, las leyes vigentes del país donde corren las aplicaciones, el caprichoso comportamiento del mercado, lo cual ciertamente requiere algo más parecido a una AGI, que cualquier modelo de lenguaje que ellos hayan podido desarrollar, incluso si este es superior a la versión más actualizada de ChatGPT.
 
-A mi la verdad el título de "Ingeniero de Software de AI" me parece un título poco arriesgado.
+A mi la verdad el título de "Ingeniero de Software de AI" me parece fijar la barra muy alta en una apuesta bastante temeraria.
 
 ### Devin es solo hype temporal y será olvidado pronto
 
@@ -101,7 +101,7 @@ Hasta ahora Copilot, ChatGPT y probablemente Devin no han sido más que "búsque
 
 La comunidad de desarrolladores no se han quedado de brazos cruzados y han creado un [Devin de código abierto, llamedo Open Devin](https://github.com/OpenDevin/OpenDevin).
 
-Además de lo anterior, hay otro aspecto que estamos obviando.
+Además de los puntos anteriores, hay otro aspecto que estamos obviando.
 
 #### El aspecto financiero de la Inteligencia Artificial
 
@@ -115,12 +115,14 @@ Déjame describirte una situación:
 
 ![Meme de omniman hablando con su hijo](images/its-all-about-shareholders.jpg "Piensa programador piensa")
 
-Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil". Ya sabes, la clásica [burbuja de AI](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/)
+Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil". Ya sabes, la clásica [burbuja de AI](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/).
 
-Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada. Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos meses, una década o dos, lo único importante es que te sea lo suficientemente rentable de acuerdo a tus propios criterios de inversión. En otras palabras: ¿Qué más da si el proyecto muere si puedo convertir 21 MDD en 40 MDD en menos de un año? 
+Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada, no estás pensando como inversionista, sino como ingeniero. 
+
+Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos meses, una década o dos, o siquiera el impacto social que tenga o su viabilidad técnica, lo único importante es que te sea lo suficientemente rentable de acuerdo a tus propios criterios de inversión. En otras palabras: ¿Qué más da si el proyecto muere si puedo convertir 21 MDD en 40 MDD en menos de un año? 
 
 ![Meme del rapper rechazando la primera opción aplicado a Cognition labs](images/meme-rapper-devin-access.jpg "Si Devin AI es tan bueno, ¿por qué no usarlo para crear su propia web completa?")
 
-Llama bastante mi atención que la manera de solicitar acceso a Devin sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo. 
+Llama bastante mi atención que la manera de solicitar acceso a Devin sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo.  Digo, no es como si estuviera fuera de las capacidades de su modelo, no es una aplicación con 1000 microservicios, balanceo de carga, streaming y un engine de recomendaciones, es un banal formulario de registro.
 
-Yo considero más probable este escenario, pero esperemos un año o dos y veamos juntos si Devin está a la altura de lo que promete.
+De los dos escenarios que te propuse, yo considero más probable aquel en el que Devin cae en el olvido como la promesa que nunca dejó de ser, pero esperemos un año o dos y veamos juntos si Devin está a la altura de lo que promete.
