@@ -3,11 +3,13 @@ title: "Libros que he leído y reseñas"
 date: "2020-07-18"
 ---
 
-Esta es la lista de libros que he leído para aprender sobre desarrollo web y programación. Tengo reseñas de algunos disponibles y estoy constantemente actualizando esta lista.
+Esta es la lista de libros que he leído para aprender sobre desarrollo web y programación. Tengo reseñas de algunos disponibles en este blog y estoy constantemente actualizando esta lista.
 
 ## Actualmente estoy leyendo:
 
-- Serious Cryptography: A Practical Introduction to Modern Encryption de JeanPhilippe Aumasson
+- The Rust Programming Language por Steve Klabnik
+
+![The rust programming language book](images/the-rust-programming-language-book.jpg "The rust programming language book")
 
 ## Mi lista de libros
 

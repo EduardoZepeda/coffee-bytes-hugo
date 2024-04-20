@@ -1,16 +1,20 @@
 ---
+aliases:
+- /en/pages/libros-que-he-leido-y-resenas/
 title: "Books I read"
 date: "2020-11-05"
 authors:
 - Eduardo Zepeda
+url: "/en/pages/books-i-read-and-reviews"
 ---
 
 ## Currently reading
 
 I'm currently reading:
 
-- Serious Cryptography: A Practical Introduction to Modern Encryption by JeanPhilippe Aumasson
 - The Rust Programming Language by Steve Klabnik
+
+![The rust programming language book](images/the-rust-programming-language-book.jpg "The rust programming language book")
 
 ## Books I read
 
