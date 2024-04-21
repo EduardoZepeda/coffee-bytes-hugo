@@ -128,7 +128,7 @@ Esta clase, como puedes apreciar en la imagen anterior, es la clase que se usa d
 
 Solo cuenta con la función de autenticación. Y tienes que indicarle que campo se usará como _username_, para autenticar al usuario.
 
-Este método se suele usar para personalizar completamente el modelo _Use_r o cuando no necesitamos prácticamente ningún campo extra.
+Este método se suele usar para personalizar completamente el modelo user o cuando no necesitamos prácticamente ningún campo extra.
 
 ```python
 # usuarios/models.py

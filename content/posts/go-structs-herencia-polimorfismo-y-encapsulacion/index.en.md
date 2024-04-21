@@ -33,7 +33,7 @@ Once the structure of our struct is defined, we can create instances of it.
 
 ```go
 var myVideogame = Videogame{Title: "Nier", Year: 2017}
-// Esto de abajo solo dentro de una función
+// The code below is valid only inside a function
 myVideogame := Videogame{Title: "Nier", Year: 2017}
 ```
 
@@ -61,24 +61,26 @@ type Videogame struct {
     int 
 }
 
-myVideogame := Videogame{string: "Titulo", int: 2017}
+myVideogame := Videogame{string: "Title", int: 2017}
 fmt.Println(myVideogame)
-// imprime {Titulo 2017}
+// Print {Title 2017}
 ```
 
-What if we want a struct with many fields of the same type? This feature **will not work** if we have multiple fields of the same type in our struct**,**.
+What if we want a struct with many fields of the same type? Well, obviously **this feature will not work if we have multiple fields of the same type in our struct**.
 
 ## Privacy and encapsulation of structs
 
 To mark a struct, function or variable as private or public, as well as their respective fields for the struct, it is sufficient to declare the first letter of the field with upper or lower case, for public and private, respectively.
 
-Accessing a private entity from another module, unrelated to where it is declared**,** will be impossible. Whereas public entities are accessible from any module, even if the struct is not declared there.
+Personally, I think this is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*.
+
+Having said that, **accessing a private entity from another module, unrelated to where it is declared**, will be impossible. Whereas public entities are accessible from any module, even if the struct is not declared there.
 
 * capitalized, public, accessible inside and outside the package where it is declared.
 * lowercase, private, only accessible inside the package where it is declared.
 
 ```go
-// Videogame struct que representa a videogame
+// Videogame struct representing a videogame entity
 type Videogame struct {
     Title string
     Year int
@@ -119,7 +121,7 @@ Note the absence of the destructuring operator in the parenthesis in the first s
 
 ```go
 func (myStructVariable Videogame) String() string { 
-    return fmt.Sprintf("Titulo: %s, Año: %d", myStructVariable.Title, myStructVariable.Year) 
+    return fmt.Sprintf("Title: %s, Año: %d", myStructVariable.Title, myStructVariable.Year) 
 }
 ```
 
@@ -127,10 +129,10 @@ Now every time we print a struct we will get a text string with the syntax we de
 
 ```go
 fmt.Println(myVideogame)
-// Titulo: Nier, Año: 2017
+// Title: Nier, Year: 2017
 ```
 
-## Builders in go
+## Constructors in go
 
 Go **does not have a mechanism similar to the constructors of other object-oriented languages**. However, it is quite common to create a function that emulates them, returning an object already initialized with the parameters we want to apply.
 
@@ -151,18 +153,18 @@ fmt.Println(*nier)
 // {Nier 2017}
 ```
 
-## Inheritance in structs
+## Inheritance in go structs
 
 Go **does not have a word for declaring inheritance in structs**, however it does have something similar. For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field.
 
 ```go
-type Persona struct {
-    Nombre string
-    Apellido string
+type Person struct {
+    Name string
+    Lastname string
 }
 
-type Profesor struct {
-    Persona
+type Professor struct {
+    Person
 }
 ```
 
@@ -172,10 +174,10 @@ Interfaces are a method to differentiate the behavior of different objects. An i
 
 A type can implement multiple interfaces.
 
-See how the interface declares that the type _figures4Sides_ has a method called _area_ that returns a result of type _float64_.
+See how the interface declares that the type *fourSidesFigure* has a method called _area_ that returns a result of type _float64_.
 
 ```go
-type figuras4Lados interface{
+type fourSidesFigure interface{
     area() float64
 }
 ```
@@ -183,29 +185,29 @@ type figuras4Lados interface{
 Next we declare a different method called _area_ for both struct _square_ and struct _rectangle_, just as we did in the "Composition and structs" section of this entry.
 
 ```go
-type rectangulo struct {
+type rectangle struct {
     base float64
-    altura float64
+    height float64
 }
 
-type cuadrado struct {
+type square struct {
     base float64
-    altura float64
+    height float64
 }
 
-func (c cuadrado) area() float64 {
+func (c square) area() float64 {
     return c.base * c.base 
 }
 
-func (r rectangulo) area() float64 {
+func (r rectangle) area() float64 {
     return r.base * r.base 
 }
 ```
 
-Now we will create a function that will receive as argument any type _figura4Sides_, and will execute its respective _area._ method.
+Now we will create a function that will receive as argument any type *fourSidesFigure*, and will execute its respective _area._ method.
 
 ```go
-func calcular (f figuras4Lados) {
+func calculate (f fourSidesFigure) {
     fmt.Println("Area", f.area())
 }
 ```
@@ -213,10 +215,10 @@ func calcular (f figuras4Lados) {
 To call the respective method we just call the function by passing it an instance of the struct as an argument.
 
 ```go
-miCuadrado := cuadrado{base: 2}
-calcular(cuadrado)
-miRectangulo := rectangulo{base:2, altura: 4}
-calcular(miRectangulo)
+mySquare := square{base: 2}
+calculate(square)
+mirectangle := rectangle{base:2, height: 4}
+calculate(mirectangle)
 // Area 4
 // Area 8
 ```

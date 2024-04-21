@@ -23,11 +23,15 @@ But, before we start, let's see where Django's User model comes from.
 
 Django's _User_ model inherits from _AbstractUser_ which, in turn, inherits from the _AbstractBaseUser_ class.
 
-![Schema of the parent classes of Django's User model. AbstractBaseUser, AbstractUser and User](images/DeDondeVieneAbstractUser.png)
+``` mermaid
+graph TD;
+    AbstractBaseUser-->AbstractUser;
+    AbstractUser-->User;
+```
 
-If you look at the Django source code, you will see that the **users_model you normally use has virtually no functionality of its own**, but inherits all of its functionality from _AbstractUser_.
+If you look at the Django source code, you will see that the **User model you normally use has virtually no functionality of its own**, but inherits all of its functionality from _AbstractUser_.
 
-Screenshot of Django User model code](images/UserDjango.png "Screenshot of Django version 4.0 code")
+![Screenshot of Django User model code](images/UserDjango.png "Screenshot of Django version 4.0 code")
 
 Now that we know the above, **we can use the AbstractUser and AbstractBaseUser classes to create our custom User models**.
 
@@ -36,13 +40,13 @@ Now that we know the above, **we can use the AbstractUser and AbstractBaseUser c
 This method is probably the most popular method for extending Django's _User_ model. This is because it retains almost all the functionality of the original _User_ model.
 
 ```python
-# usuarios/models.py
+# users/models.py
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-class UsuarioPersonalizado(AbstractUser):
+class CustomUser(AbstractUser):
     # Tus propiedades personalizadas
-    creditos = models.PositiveIntegerField(verbose_name='creditos',
+    credits = models.PositiveIntegerField(verbose_name='credits',
         default=0, 
         blank=True)
 ```
@@ -53,7 +57,7 @@ We set this behavior in our configuration file.
 
 ```python
 # settings.py
-AUTH_USER_MODEL = 'usuarios.UsuarioPersonalizado'
+AUTH_USER_MODEL = 'users.CustomUser'
 ```
 
 ### Using the custom model in Django's account views
@@ -66,7 +70,7 @@ from django.contrib.auth.forms import UserCreationForm
 
 User = get_user_model()
 
-class FormularioRegistroUsuarioPersonalizado(UserCreationForm):
+class RegisterFormForCustomUser(UserCreationForm):
     class Meta:
         model = User
         fields = ['username', 'email']
@@ -97,7 +101,7 @@ Now the admin panel will behave exactly as it would with the default Django user
 
 Notice how the _AbstractUser_ class inherits from _AbstractBaseUse_r and has multiple fields available to profile a user. Also, it cannot be instantiated directly, as it is an abstract class.
 
-Django AbstractUser class source code](images/AbstractUserDjango-1.png "Screenshot of Django version 4.0 AbstractUser code")
+![Django AbstractUser class source code](images/AbstractUserDjango-1.png "Screenshot of Django version 4.0 AbstractUser code")
 
 Let's move on to the second method.
 
@@ -107,10 +111,10 @@ If you look at the code above, there is an uppercase property called _USERNAME_F
 As you don't want two users to identify themselves in the same way that field has to be marked as unique. Besides that you have to modify the object manager, the code is a bit long so I won't put it here
 
 ```python
-class UsuarioPersonalizado(AbstractUser):
-    identificador = models.CharField(max_length=40, unique=True)
+class CustomUser(AbstractUser):
+    custom_id = models.CharField(max_length=40, unique=True)
     # ...
-    USERNAME_FIELD = 'identificador'
+    USERNAME_FIELD = 'custom_id'
 ```
 
 ## Inherit from subclass AbstractBaseUser
@@ -123,16 +127,16 @@ This class, as you can see in the previous image, is the base class used to crea
 
 It only has the authentication function. And you have to indicate which field will be used as _username_, to authenticate the user.
 
-This method is usually used to fully customize the _Use_r model or when we need almost no extra fields.
+This method is usually used to fully customize the User model or when we need almost no extra fields.
 
 ```python
-# usuarios/models.py
+# users/models.py
 from django.contrib.auth.base_user import AbstractBaseUser
 from django.db import models
 
-class UsuarioPersonalizado(AbstractBaseUser):
+class CustomUser(AbstractBaseUser):
     email = models.EmailField(verbose_name='emails', unique=True, max_length=255)
-    creditos = models.PositiveIntegerField(verbose_name='creditos',
+    credits = models.PositiveIntegerField(verbose_name='credits',
         default=0, 
         blank=True)
     USERNAME_FIELD='email'
@@ -143,7 +147,7 @@ Remember to tell Django to use your custom model instead of the default one.
 
 ```python
 # settings.py
-AUTH_USER_MODEL = 'usuarios.UsuarioPersonalizado'
+AUTH_USER_MODEL = 'users.CustomUser'
 ```
 
 ### What does AbstractBaseUser look like internally?
@@ -152,7 +156,7 @@ The following image is a direct screenshot of the Django code in version 4.0
 
 As you can see, it only has the 3 fields mentioned, it inherits directly from _models.Model_ and its Meta class tells Python that it is an abstract model; you cannot create instances directly from it.
 
-[Django AbstractBaseUser class source code](images/AbstractBaseUserDjango-1.png "Screenshot of Django AbstractBaseUser version 4.0")
+![Django AbstractBaseUser class source code](images/AbstractBaseUserDjango-1.png "Screenshot of Django AbstractBaseUser version 4.0")
 
 Now let's look at the third way to extend Django's _User_ model.
 
@@ -168,16 +172,16 @@ To create a profile in this way it is enough to declare a field that relates our
 
 ```python
 from django.conf import settings
-class Perfil(models.Model):
-    # otros campos
+class Profile(models.Model):
+    # other fields
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 ```
 
 And to access our user, we access the field that relates it to the model we created.
 
 ```python
-usuario = User.objects.get(username='usuario')
-usuario.perfil
+user = User.objects.get(username='user')
+user.Profile
 ```
 
 ## Other resources

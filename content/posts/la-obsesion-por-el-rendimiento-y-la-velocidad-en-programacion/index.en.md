@@ -86,7 +86,7 @@ Here is a list of some of my favorite solutions to save you all the boilerplate 
 - Wordpress: [because you already know'](/en/to-program-a-blog-or-to-use-wordpress/)
 - Ruby on Rails: Mature framework, with a long history and easy to use.
 - AdonisJs: Javascript with ORM and authentication included.
-- Django: [for its ease of having a fast MVP](/en/why-should-you-use-django-framework/)
+- Django: [It's easy to develop a MVP without having to reinvent the wheel](/en/why-should-you-use-django-framework/)
 - Pocketbase: [Portable backend made in Go, a single binary, authentication and CRUD](https://pocketbase.io/)
 - Supabase: Another portable backend, but in JavaScript
 - [Cookiecutter: templates to save you Boilerplate, the Django one is very good](/en/cookiecutter-django-for-configuring-and-deploying-in-django/)
