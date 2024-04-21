@@ -53,7 +53,7 @@ El desafio de la [prueba Rotate matrix counter - clockwise N - times!](https://w
 
 El input que usé en ChatGPT para generar el código es el siguiente: Create a function that rotates a matrix counter-clockwise "n" number of times.
 
-![](images/rotate-matrix-ChatGPT.png)
+![Rotate a Matrix counter-clockwise with ChatGPT](images/rotate-matrix-ChatGPT.png "Rotate a Matrix counter-clockwise with ChatGPT")
 
 El código Python generado por nuestra Inteligencia Artficial es el siguiente:
 
@@ -80,7 +80,7 @@ def rotate_matrix(matrix, n):
 
 Tras ejecutar el código podremos apreciar que todos los tests fallan, la matriz gira, pero más veces de las necesarias
 
-![](images/rotate-matrix-codewars.png)
+![Rota una Matrix en sentido contrario a las manecillas del reloj con ChatGPT](images/rotate-matrix-ChatGPT.png "Rota una Matrix en sentido contrario a las manecillas del reloj con ChatGPT")
 
 Quiero resaltar que ChatGPT produce código sintácticamente correcto, respetando identación, con nombres de variables intuitivos e incluso con una lógica que parece correcta, solo a simple vista, pero que tras la examinación más detallada, falla en "razonar" su lógica. Sí, ya sé que las inteligencias artificiales no razonan.
 
@@ -94,13 +94,13 @@ Es decir, encontrar el palíndromo número "n" y con la condición adecuada de h
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101
 ```
 
-![](images/palindrome-ChatGPT.png)
+![Encuentra un número palíndromo con ChatGPT](images/palindrome-ChatGPT.png "Encuentra un número palíndromo con ChatGPT")
 
 ### Análisis de la respuesta
 
 Tras ejecutar el código me sorprendí al darme cuenta de que, tras un pequeño ajuste, ¡el resultado es correcto!
 
-![](images/palindrome-codewars.png)
+![Resultado de la prueba palindrome de Codewars con ChatGPT](images/palindrome-codewars.png "Resultado de la prueba palindrome de Codewars con ChatGPT")
 
 Además de producir código sintácticamente correcto, el código generado funciona perfectamente, incluso contiene comentarios.
 
@@ -138,7 +138,7 @@ Intenté obtener la respuesta correcta múltiples veces, incluso especificando l
 
 El desafio de [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068) es: Create a function that will return a regular expression string that is capable of evaluating binary strings (which consist of only 1s and 0s) and determining whether the given string represents a number divisible by n.
 
-![](images/binary-division-ChatGPT.png)
+![Prueba división de números binarios con ChatGpt](images/binary-division-ChatGPT.png "Prueba división de números binarios con ChatGpt")
 
 Tras solicitarle una respuesta nos devuelve una expresión bastante simple e incluso nos da una explicación paso a paso del razonamiento lógico, en apariencia correcto pero, en la práctica, incorrecto.
 

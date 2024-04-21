@@ -49,11 +49,11 @@ Subsequently, they found that it was more lucrative to rent the software, probab
 
 Offering SAAS allowed companies to make a product or service available to the market with a rentier business model and ensure that if customers wanted to continue using a product (or service) they would have to pay month to month or forget about using it.
 
-![](images/adobe-meme-saas.jpg)
+![Meme about Adobe and its obsession for profit](images/adobe-meme-saas.jpg "Meme about Adobe and its obsession for profit")
 
 This affected mainly those people who rarely updated their software. If they wanted to use it the following month, they now had to pay.
 
-![](images/not-stonks.jpg)
+![Meme about the modification of the world stocks into stonks](images/not-stonks.jpg "Stonks")
 
 At the same time, however, it allowed companies to release new versions of their software more frequently and to iterate more quickly on user feedback to improve their product, allowing them to improve their product and make it more attractive to customers.
 
