@@ -28,6 +28,8 @@ Docker compose nos permite crear aplicaciones con múltiples contenedores, estos
 
 Si quieres refrescar tu memoria visita mi [tutorial de comandos básicos de Docker.](/es/tutorial-de-comandos-basicos-de-docker/)
 
+{{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación usando Docker o Kubernetes de manera económica checa Digital Ocean, puedes tener un VPS desde $4 usd el mes.">}}
+
 ## ¿Qué es docker compose?
 
 Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.

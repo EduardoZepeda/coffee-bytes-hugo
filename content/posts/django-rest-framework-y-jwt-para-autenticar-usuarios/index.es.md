@@ -49,6 +49,8 @@ Aprecia como podemos usar la parte central para guardar contenido arbitrario, qu
 
 Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](/es/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
 
+{{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación de Django de forma barata y con buen rendimiento, DO tiene VPS (ellos les llaman Droplets) desde $4 usd el mes">}}
+
 Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
 
 ```python
