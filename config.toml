@@ -34,6 +34,10 @@ weight = 4
 name = "Cookie policy"
 url = "/pages/politica-de-cookies/"
 weight = 5
+[[languages.en.menu.footer]]
+name = "Disclosure"
+url = "/pages/disclosure/"
+weight = 6
 [[languages.en.menu.social]]
 name = "Codewars"
 pre = "codewars"
@@ -91,6 +95,10 @@ weight = 4
 name = "Politica de cookies"
 url = "/pages/politica-de-cookies/"
 weight = 5
+[[languages.es.menu.footer]]
+name = "Usamos enlaces de afiliados"
+url = "/pages/disclosure/"
+weight = 6
 [[languages.es.menu.social]]
 name = "Codewars"
 pre = "codewars"
