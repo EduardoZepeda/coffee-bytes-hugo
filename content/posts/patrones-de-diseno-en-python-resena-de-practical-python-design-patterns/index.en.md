@@ -1,6 +1,6 @@
 ---
 aliases:
-- /en/python-design-patterns-review-of-practical-python-design-patterns/
+- /en/design-patterns-in-software/
 title: "Design Patterns In Software"
 date: "2020-05-31"
 categories:

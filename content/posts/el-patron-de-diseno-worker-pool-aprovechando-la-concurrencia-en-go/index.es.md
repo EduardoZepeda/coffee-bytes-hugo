@@ -38,7 +38,7 @@ Esto puede pintar bastante bien, al principio, pero tiene múltiples desventajas
 
 Lo mejor sería mantener el uso de memoria constante y evitar crear y destruir workers frecuentemente. Para esto, el patrón worker pool funciona perfecto.
 
-Worker pool es un [patrón de diseño](/es/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/) que viene para suplir estas deficiencias. 
+Worker pool es un [patrón de diseño](/es/patrones-de-diseno-o-software-design-patterns/) que viene para suplir estas deficiencias. 
 
 Hay desarrolladores que han usado este patrón para [manejar un millón de peticiones por minuto en go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang)
 
