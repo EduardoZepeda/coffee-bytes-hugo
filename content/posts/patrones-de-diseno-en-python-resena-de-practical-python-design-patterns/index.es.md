@@ -1,22 +1,23 @@
 ---
 aliases:
 - /patrones-de-diseno-en-python-resena-de-practical-python-design-patterns
+- /es/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns
 authors:
 - Eduardo Zepeda
 categories:
 - python
+- algoritmos
 coverImage: images/practical_python_design_patterns.jpg
 date: '2020-05-31'
-description: Aprende patrones de diseño en Python con el libro Practical Python Design
-  Patterns, incluso si nunca has leído sobre el tema anteriormente.
+description: Los patrones de diseño son soluciones comunes a problemas comunes, representados por entidades y las relaciones entre ellas en programación.
 keywords:
 - python
 - patrones de diseño
 - arquitectura de software
-title: Patrones de diseño en Python, reseña de Practical Python Design Patterns
+title: Patrones de Diseño o Software Design Patterns
 ---
 
-Hola, hoy te traigo una reseña del libro de _Practical Python Design Patterns_ de Wessel Badenhorst. Este es un libro de patrones de diseño para Python, bastante sencillo de entender y con ejemplos hechos en sencillo y legible código Python. Para hablar un poco del contenido del libro voy a explicar levemente lo que es un patrón de diseño.
+Los patrones de diseño son soluciones comunes a problemas comunes, representados por entidades y las relaciones entre ellas en programación, entre ellos probablemente ya has escuchado hablar de algunos tales como: singleton, MVC o MTV, observer, entre otros. Pero esa explicación de los patrones de diseño es muy técnica para un primer acercamiento, déjame lo simplifico a continuación.
 
 ## ¿Qué son los patrones de diseño?
 
@@ -26,6 +27,13 @@ Cuando una persona quiere crear un vehículo que cumpla la función de transport
 
 ## Patrones de diseño en Software
 
+Ahora imagina que quieres que se ejecute solo una instancia de una clase ejecutándose a la vez, entonces decides que el proceso para hacerlo es el siguiente: 
+1. Revisa si hay una instancia ejecutándose.
+2. Si no existe creala y retórnala
+3. Si ya existe retorna esa.
+
+ Así de simple. Esta solución sería un patrón de diseño al problema común de ejecutar una sola instancia.
+
 En el software los patrones de diseño son iguales, son el acomodo y las relaciones específicas de objetos, métodos y atributos que nos permiten solucionar un problema. ¿Cómo que problemas? Prácticamente cualquier problema que se presente con demasiada frecuencia para que se llegue a una solución estandarizada.
 
 Algunos problemas muy comunes son: [el procesamiento de tareas usando un número fijo de workers](/es/explicacion-del-patron-de-diseno-worker-pool/), asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
@@ -34,20 +42,44 @@ Algunos problemas muy comunes son: [el procesamiento de tareas usando un número
 
 Los patrones de diseño facilitan que el desacoplamiento del código, lo que vuelve más sencillo agregar o remover funciones y también nos dan la seguridad de que son soluciones que ya han sido probadas una y otra vez a lo largo de los años.
 
-Hay numerosos patrones en existencia como problemas a resolver, así mismo los patrones pueden combinarse entre sí en sistemas complejos. Sin embargo hay ciertos patrones bastante populares que son los que han sido recopilados para ponerse en la mayoría de los libros que tratan este tema.
+## Patrones de diseño comunes
 
-De la misma manera que surgieron esos patrones como respuesta a problemas existentes, se crean patrones nuevos frente a nuevos problemas, por lo que no hay una lista de patrones estáticos que sean absolutos y resuelvan todos los problemas.
+Hay numerosos patrones en existencia como problemas a resolver, así mismo los patrones pueden combinarse entre sí en sistemas complejos. Sin embargo hay ciertos patrones bastante populares que son los que han sido recopilados para ponerse en la mayoría de los libros que tratan este tema. Generalmente encontrarás estos: 
 
-Voy a explicarte tres ejemplos de patrones de diseño a continuación.
+- Singleton
+- Prototype
+- Factory
+- Builder
+- Adapter
+- Decorador
+- Facade
+- Proxy
+- Chain of responsability
+- Command
+- Interpreter
+- Iterator
+- Observer
+- State
+- Strategy
+- Template method
+- Visitor
+- MVC
+- Publish-suscribe
 
-### singleton
+De la misma manera que surgieron esos patrones como respuesta a problemas existentes, se crean patrones nuevos frente a nuevos problemas, por lo que **no hay una lista de patrones estáticos que sean absolutos y resuelvan todos los problemas**.
+
+## Ejemplos de patrones de diseño
+
+Voy a explicarte cuatro ejemplos de patrones de diseño en Python a continuación. ¿Por que Python? Porque es bastante sencillo de entender, incluso si nunca has escrito código Python, y si vienes de un lenguaje de bajo nivel, seguramente será pan comido para ti.
+
+### Patrón de diseño singleton
 
 Se usa cuando se quiere prevenir la creación de múltiples instancias de un mismo objeto. Por ejemplo, no querremos dos objetos que controlen el mouse o la impresora ejecutándose al mismo tiempo. Su uso indiscriminado es [considerado por muchos un antipatrón.](http://97cosas.com/programador/resiste-tentacion-singleton.html)
 
-El truco de su funcionamiento ocurre en el método \_\_**new\_\_**. Este método se llama cuando se crea una clase y recibe la misma clase como parámetro.  
-Al crearse un nuevo objeto revisará si existe el atributo _**instancia**_ en nuestra clase. Si no detecta el atributo **_instance_** creará una instancia de la clase **_\_\_SingletonObject_** y la asignará a **_instance_**. Posteriormente la retornará. En cambio, si la detecta, simplemente la retornará.
+El truco de su funcionamiento ocurre en el método *new*. Este método se llama cuando se crea una clase y recibe la misma clase como parámetro.  
+Al crearse un nuevo objeto revisará si existe el atributo *instancia* en nuestra clase. Si no detecta el atributo *instance* creará una instancia de la clase *SingletonObject* y la asignará a *instance*. Posteriormente la retornará. En cambio, si la detecta, simplemente la retornará.
 
-Los métodos **getattr** y **setattr** están modificados para obtener y asignar los atributos de la clase que se encuentra definida en el atributo **_instance_**
+Los métodos *getattr* y *setattr* están modificados para obtener y asignar los atributos de la clase que se encuentra definida en el atributo *instance*
 
 ```python
 #singleton_object.py
@@ -72,11 +104,11 @@ Los métodos **getattr** y **setattr** están modificados para obtener y asignar
 	            return setattr(self.instance, name)
 ```
 
-### Patrón observador
+### Patrón de diseño observador
 
 El patrón observador permite a un objeto mantenerse al tanto sobre los cambios de estado de otro objeto. Por ejemplo si queremos que se le notifique a cada usuario con un email cada vez que se actualicen las condiciones de uso de un servicio o dejarle saber a todos los usuarios cada que vez que un periódico digital publique nuevo material.
 
-Para lograr esto nos aseguraremos de que cada observador posea un método **_update()_** (o como quieras llamarlo), este método será llamado por el Observable, en esta clase, por medio de un **_callback_** que es una función anónima. De esta manera tendremos un desacoplamiento de las clases que observan, pues estas no necesitan conocer ningún método del objeto, únicamente necesitan contar con un método **_update()_**.
+Para lograr esto nos aseguraremos de que cada observador posea un método *update* (o como quieras llamarlo), este método será llamado por el Observable, en esta clase, por medio de un *callback* que es una función anónima. De esta manera tendremos un desacoplamiento de las clases que observan, pues estas no necesitan conocer ningún método del objeto, únicamente necesitan contar con un método *update*.
 
 ```python
 class Task(object):
@@ -126,11 +158,11 @@ class Task(object):
 	    main()
 ```
 
-## Patrón template
+### Patrón de diseño template
 
 En este patrón se busca utilizar el decorador _@abstractmethod_ para garantizar la implementación de los métodos en una clase derivada.
 
-En el siguiente ejemplo estamos obligando, bajo amenaza de que ocurra un error, a que la clase hija implemente los métodos _\_step\_1()_, _\_step\_2()_ y _\_step\_3()_. El método t_emplate\_method()_ se hereda tal cual está, por lo que no necesita definirse.
+En el siguiente ejemplo estamos obligando, bajo amenaza de que ocurra un error, a que la clase hija implemente los métodos *step1*, *step2* y *step3*. El método *template_method* se hereda tal cual está, por lo que no necesita definirse.
 
 ```python
 import abc
@@ -158,57 +190,35 @@ class ConcreteImplementationClass(TemplateAbstractBaseClass):
      def _step_3(self): pass
 ```
 
-## Patrón decorador
+### Patrón de diseño decorador
 
 El patrón decorador nos permite agregarle funcionalidad extra a una función sin modificarla directamente. Se usa bastante en Django y otros frameworks para restringir vistas de acuerdo a permisos o para verificar que un usuario esté loggeado. Funcionan creando una función que recibe a nuestra función como argumento, dentro de esta función crearemos un envoltorio (wrapper), que dota del funcionamiento extra a nuestra función, nuestro decorador retornará ese envoltorio.
 
 ```python
-def requiere_login(function):
+def requires_login(function):
     def wrapper():
-        if usuario.esta_loggeado():
+        if user.is_logged_in():
             return function()
-        return {"permiso_denegado": "Esta vista requiere que el usuario esté loggeado."}
+        return {"permission_denied": "Authenticated user required"}
     return wrapper
 
-@requiere_login
-def ver_configuracion(request):
+@requires_login
+def access_dashboard(request):
     # ...
 ```
 
-Ahora cualquier acceso a la función ver\_configuración revisará si el usuario está loggeado, si lo está la función se ejecutará de manera normal, si no lo está devolveremos un mensaje de error.
+Ahora cualquier acceso a la función *access_dashboard* revisará si el usuario está loggeado, si lo está la función se ejecutará de manera normal, si no lo está devolveremos un mensaje de error.
 
 Puedes ver el como se implementó el decorador [login\_required](https://docs.djangoproject.com/es/2.2/_modules/django/contrib/auth/decorators/) de django original en su documentación.
 
-## Ahora sí, la reseña
+## ¿Dónde aprender patrones de diseño?
 
-_Practical Python Design Patterns_ nos describe varios patrones de diseño en código Python. El libro no lleva una introducción al lenguaje, el autor da por hecho que sabes Python, sobre todo el manejo de clases, herencia y métodos especiales (sí los que tienen los dos guiones al principio y al final. Por ejem: \_\_getattr\_\_, \_\_init\_\_, \_\_setattr\_\_, etc).
+Mis recomendaciones para aprender patrones de diseño son las siguientes:
+- Head First Design Patterns de Eric Freeman y Kathy Sierra (El más popular)
+- Practical Python Design Patterns de Wessel Badenhorst (Yo aprendí con este por ser completo y simple)
 
-Cada capítulo nos presenta un problema a resolver y nos va mostrando, paso por paso, el desarrollo que nos lleva al patrón requerido para solucionarlo. Los ejemplos son simples y prácticos, aplicados a situaciones bastante cotidianas como videojuegos MMORPG, refrigeradores inteligentes, sistemas de puntos de ventas, entre otros. Al final de cada capítulo el autor propone unos cuantos ejercicios para poner en práctica cada patrón.
+Pero yo creo que de este tema hay basta información en internet como para que leas un libro completo al respecto, además con darte una idea de los patrones más comunes y sus usos debería ser suficiente, puedes ahondar en ellos conforme los necesites.
 
-El libro cubre los siguientes patrones de diseño:
+## Fuente de código de los patrones de diseño
 
-- Singleton
-- Prototype
-- Factory
-- Builder
-- Adapter
-- Decorador
-- Facade
-- Proxy
-- Chain of responsability
-- Command
-- Interpreter
-- Iterator
-- Observer
-- State
-- Strategy
-- Template method
-- Visitor
-- MVC
-- Publish-suscribe
-
-Creo que los patrones de diseño son un tema imperdible que marca mucho la diferencia a la hora de programar, sin embargo los ejemplos de patrones que aquí encontrarás, son exactamente los mismos que puedes encontrar en cualquier otro libro que trate el tema. Por otro lado, el plus que ofrece este libro es que los ejemplos están en Python, haciéndolos muy sencillos de comprender en lugar de otros libros de patrones de diseño escritos para C++ o Java.
-
-**Conocimientos previos recomendados:** Python  
-**Recomendado para leerlo:** 8/10  
-**Idiomas:** Inglés
+El código de estos ejemplos está tomado del libro *Practical Python Design Patterns* de Wessel Badenhorst.
