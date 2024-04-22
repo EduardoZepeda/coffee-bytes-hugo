@@ -67,8 +67,8 @@
       <guid>{{ .Permalink }}</guid>
       {{ range .Params.categories }}
       <category>{{.}}</category>
-      {{ end }}
-      <content>{{ .Content | transform.XMLEscape | safeHTML }}</content>
+      {{ end }} 
+      <summary>{{ .Summary | transform.XMLEscape | safeHTML }}</summary>
     </item>
     {{- end}}
     {{- end }}
