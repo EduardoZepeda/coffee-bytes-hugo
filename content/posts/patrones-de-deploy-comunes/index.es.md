@@ -5,7 +5,6 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- devops
 - arquitectura de software
 coverImage: images/deploy-patterns-to-test-new-functionalities.jpg
 coverImageCredits: Image by Tsutomu Nihei --niji 5

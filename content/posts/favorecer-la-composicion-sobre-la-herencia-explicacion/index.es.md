@@ -5,7 +5,6 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- devops
 - Arquitectura de software
 coverImage: images/composition-over-inheritance.jpg
 coverImageCredits: https://www.reddit.com/user/LegalCan4801/

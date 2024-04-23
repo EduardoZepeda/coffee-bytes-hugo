@@ -2,7 +2,6 @@
 title: "Common and Useful Deployment Patterns"
 date: "2023-08-18"
 categories:
-- "devops"
 - "software architecture"
 
 coverImage: "images/deploy-patterns-to-test-new-functionalities.jpg"
