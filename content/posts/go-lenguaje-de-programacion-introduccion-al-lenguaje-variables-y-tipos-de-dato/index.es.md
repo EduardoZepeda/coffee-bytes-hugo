@@ -35,10 +35,12 @@ Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la con
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
+![Manejo de errores con Go con if](images/ManejoErroresGo.png "Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso")
+
 * **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](/es/go-structs-herencia-polimorfismo-y-encapsulacion/).
 * **Go no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores deben devolverse como valor de retorno en una función y se manejan comprobando que esta no sea nula (nil), por medio de bloques if. Lo anterior puede volverse bastante verboso y repetitivo.
 
-![Manejo de errores con Go con if](images/ManejoErroresGo.png "Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso")
+![Manejo de errores recurrente y repetitivo en Go](images/if-err-not-equal-nil.jpg "If err!= nil en todos lados, el manejo de errores en Go debería ser mejor")
 
 * **No existen argumentos por defecto en go**, lo que aumenta la cantidad de código a escribir para lidiar con valores predeterminados.
 * **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
@@ -49,6 +51,8 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
 ![Error de compilación en go por variables sin usar](images/ErrorCompilacionGo.png "La compilación no se permite si hay variables sin usar.")
+
+Sin embargo no te obliga a revisar punteros hacia nil, volviéndo estos los errores más difíciles de debuggear.
 
 ## Go tiene la mejor mascota: Gopher
 
@@ -317,4 +321,4 @@ Los operadores de go son similares al resto de los lenguajes.
 - ++, incremental
 - \--, decremental
 
-Con esto termino la parte más básica del lenguaje, en las siguiente entrada voy a hablar de [funciones y el paquete fmt en go](/es/go-funciones-argumentos-y-el-paquete-fmt/), y en una entrada futura de otros aspectos tales como [runes, array, slices en go](/es/go-strings-runes-y-bytes/) y otras características del lenguaje.
+Con esto termino la parte más básica del lenguaje. Espero que tengas una visión más completa del lenguaje, tanto de las partes buenas como de las partes malas. Y si quieres aprender lo básico puedes leer las siguientes entradas, tengo tutoriales básicamente de todas las partes básicas de Go.

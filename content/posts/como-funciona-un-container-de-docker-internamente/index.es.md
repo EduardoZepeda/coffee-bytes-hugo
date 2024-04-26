@@ -24,7 +24,7 @@ url: /es/container-de-docker-con-namespaces-y-cgroups
 description: 'Los containers de Docker funcionan usando: Procesos, namespaces, Cgroups y Chroot'
 ---
 
-Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos de Docker](/es/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
+Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos básicos de Docker](/es/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
 
 Sabemos que un container es un proceso de linux con varias características:
 * Es un proceso, o grupo de procesos, de linux ejecutado por un usuario.

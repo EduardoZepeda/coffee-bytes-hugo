@@ -27,7 +27,7 @@ A lo largo de esta odisea virtual, nos olvidamos por completo de lo que probable
 
 ## ¿Qué tanto importan las requests per second al iniciar?
 
-Si tu, o tu empresa, no son un jugador de ligas mayores en internet, probablemente estás dándole más importancia de la necesaria al hecho de que tu aplicación sirva 1 peticiones por segundo en lugar de 100. 
+Si tú, o tu empresa, no son un jugador de ligas mayores en internet, probablemente estás dándole más importancia de la necesaria al hecho de que tu aplicación sirva 1 petición por segundo en lugar de 100. 
 
 ![Peticiones por segundo, benchmark de techempower](images/techempower-benchmark.png "Algunos frameworks soportan 600k peticiones por segundo")
 

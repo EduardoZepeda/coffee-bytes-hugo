@@ -14,9 +14,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-Many people who spend much of their day in contact with the Internet, whether for pleasure or for work, have eventually ended up on an image board, usually the most popular one among English speakers: [4chan.](https://4chan.org)
+Many people who spend much of their day in contact with the Internet, whether for pleasure or for work, have eventually ended up on an image board, usually the most popular one among English speakers: 4chan.
 
-4 chan has a technology section, called [/g/](https://4chan.org/g/), where there are usually threads about programming, software development, GNU/Linux and other topics that can be quite interesting, however most of them have a quality that leaves much to be desired, full of trolls and users with much ignorance on the subject. In short: they serve no purpose other than mere entertainment.
+4 chan has a technology section, called /g/, where there are usually threads about programming, software development, GNU/Linux and other topics that can be quite interesting, however most of them have a quality that leaves much to be desired, full of trolls and users with much ignorance on the subject. In short: they serve no purpose other than mere entertainment.
 
 ## El tablero de imágenes cyberpunk
 

@@ -8,8 +8,7 @@ categories:
 - algoritmos
 coverImage: images/BigO_notacion.jpg
 date: '2019-08-15'
-description: Te explico en que consiste la notación Big O para que puedas mejorar
-  la eficiencia de tus algoritmos en tus aplicaciones.
+description: Comprende la importancia de la notación Big O en el análisis del rendimiento de los algoritmos y aprende cómo la Notación Big O impacta en la eficiencia y escalabilidad de tu código.
 keywords:
 - bigo
 - rendimiento
@@ -55,7 +54,7 @@ A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da 
 
 Pero ahora preguntémonos, ¿qué pasará cuando el número de usuarios se incremente a 1000, a 10 000, a 10 000 000?, es entonces cuando las milésimas de segundos se pueden volverse horas o días y, entonces, vislumbramos la verdadera importancia de elegir un algoritmo con un rendimiento adecuado.
 
-## ¿Cómo calcular el rendimiento Big O?
+## ¿Cómo calcular o leer el rendimiento Big O?
 
 Para evaluar este rendimiento se utiliza una notación llamada Big O. Esta nos dice como se va a comportar el tiempo de ejecución de un algoritmo en función de su input (entrada).
 

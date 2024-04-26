@@ -15,9 +15,9 @@ keywords:
 title: El 4chan sobre tecnologia y programacion
 ---
 
-Muchas de las personas que pasan gran parte de su día en contacto con internet, ya sea por placer o por trabajo, han llegado eventualmente a terminar en un image board, generalmente en el más popular que existe entre personas angloparlantes: [4chan.](https://4chan.org)
+Muchas de las personas que pasan gran parte de su día en contacto con internet, ya sea por placer o por trabajo, han llegado eventualmente a terminar en un image board, generalmente en el más popular que existe entre personas angloparlantes: 4chan
 
-4 chan tiene una sección de tecnología, llamada [/g/](https://4chan.org/g/), donde generalmente hay hilos de programación, desarrollo de software, GNU/Linux y otros temas que pueden resultar bastante interesantes, sin embargo la mayoría de ellos tienen una calidad que deja bastante que desear, llenos de trolls y usuarios con mucho desconocimiento sobre el tema. En resumen: no sirven con otro propósito que no sea el mero entretenimiento.
+4 chan tiene una sección de tecnología, llamada /g/, donde generalmente hay hilos de programación, desarrollo de software, GNU/Linux y otros temas que pueden resultar bastante interesantes, sin embargo la mayoría de ellos tienen una calidad que deja bastante que desear, llenos de trolls y usuarios con mucho desconocimiento sobre el tema. En resumen: no sirven con otro propósito que no sea el mero entretenimiento.
 
 ## El image board cyberpunk
 

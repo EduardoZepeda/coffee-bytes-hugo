@@ -6,7 +6,7 @@ categories:
 - algorithms
 
 coverImage: "images/BigO_notacion.jpg"
-description: "I explain what Big O notation is all about so you can improve the efficiency of your algorithms in your applications."
+description: "Understand the significance of Big O Notation in analyzing algorithm performance. Learn how Big O Notation impacts the efficiency and scalability of your code"
 keywords:
 - bigo
 - performance
@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-I love astrophysics and try to keep up with new discoveries as they happen; whether they are trivial things, like the discovery of a new planet; or significant, like the hypothetical Dyson spheres they swear they find every month. But the discovery this time was fantastic.
+I love astrophysics and try to keep up with new discoveries as they happen; whether they are trivial things, like the discovery of a new planet; or significant, like the hypothetical Dyson spheres they swear they find every month. But this time the discovery was simply outstanding.
 
 Last April 2019, the [first photograph of a black hole](https://www.bbc.com/mundo/noticias-47880446) was published.
 
@@ -26,9 +26,9 @@ The above photograph required 5 petabytes of data, which is 5000 terabytes of da
 
 What would happen if they tried to send that information over the Internet? The time it takes to send information over the Internet increases with the amount of information to be sent, the more information the longer the transmission time.
 
-Doing a simple calculation, with a download speed of 50 MB/s it would take approximately 1157 days. That's too long!
+Doing a simple calculation, with a download speed of 50 MB/s it would take approximately 1157 days. That's a long time!
 
-What if they sent the information in physical form? Well, this would take at most the amount of hours of the longest flight which is 19 hours approximately, discounting the time it takes to copy the information to a physical medium (a hard disk), which I dare say would consume less than 1157 days.
+What if they sent the information in person? Well, this would take at most the amount of hours of the longest flight which is 19 hours approximately, discounting the time it takes to copy the information to a physical medium (a hard disk), which I dare say would consume less than 1157 days.
 
 What would have happened if instead of 5 petabytes it had been 5 GB of data? The answer would have been obvious; send the information over the Internet. However, it will take the same amount of time for the airplane to transport any amount of data, be it 1 MB, 1 GB or 1 PB; 19 hours.
 
@@ -54,7 +54,7 @@ Sometimes when we have no idea about algorithms we ask ourselves, what does it m
 
 But now let's ask ourselves, what will happen when the number of users increases to 1000, to 10 000, to 10 000 000, that's when milliseconds can turn into hours or days, and then we get a glimpse of the real importance of choosing an algorithm with adequate performance.
 
-## How to evaluate Big O performance?
+## How to evaluate or read Big O performance?
 
 To evaluate this performance, a notation called Big O is used. It tells us how the execution time of an algorithm will behave as a function of its input.
 
@@ -68,7 +68,7 @@ We will start with a simple function that, as you may have guessed, **will take 
 
 ```python
 def printArray(array):
-    for element in array: # un paso que llamaremos n
+    for element in array: # a step we will can "n"
         print(element)
 ```
 
@@ -80,9 +80,9 @@ Now look at this code, it has two steps that process the same array of values.
 
 ```python
 def printArrayDoubled(Array):
-    for element in Array: # primer paso
+    for element in Array: # first step
         print(element)
-    for element in Array: # segundo paso
+    for element in Array: # second step
         print(element*2)
 ```
 
@@ -90,8 +90,8 @@ In the above example we would be tempted to say that our function would have an 
 
 ```python
 def printArray(array):
-    for elementX in array: # un paso
-        for elementY in array: # un paso por cada paso anterior
+    for elementX in array: # one step
+        for elementY in array: # one step for every step
             print(elementX, elementY)
 ```
 
@@ -101,8 +101,8 @@ In the previous case we still have the same input, but this time the execution t
 
 ```python
 def printArrayMultiplication(ArrayOne, ArrayTwo):
-    for elementInArrayOne in ArrayOne: # un paso que depende de que tan largo es ArrayOne
-        for elementInArrayTwo in ArrayTwo: # un paso que depende de que tan largo ArrayTwo
+    for elementInArrayOne in ArrayOne: # A step depending on ArrayOne's length
+        for elementInArrayTwo in ArrayTwo: # A step depending on ArrayTwo's length
             print(elementInArrayOne*elementInArrayTwo)
 ```
 
@@ -116,10 +116,10 @@ In this way we express that the execution time of our function depends on two va
 
 ```python
 def printArray(array):
-    for elementX in array: #un paso que depende de array (n)
+    for elementX in array: # An step that depends on array (n)
         print(elementX)
-    for elementX in array: #un paso que depende de array 
-        for elementY in array: #un paso por cada paso anterior (n al cuadrado)
+    for elementX in array: #An step that depends on array (n)
+        for elementY in array: #An step that depends on every step of array (n squared)
             print(elementX, elementY)
 ```
 

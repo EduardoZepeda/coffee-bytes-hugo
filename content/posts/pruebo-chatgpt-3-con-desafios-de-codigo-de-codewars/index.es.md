@@ -55,7 +55,7 @@ El input que usé en ChatGPT para generar el código es el siguiente: Create a f
 
 ![Rotate a Matrix counter-clockwise with ChatGPT](images/rotate-matrix-ChatGPT.png "Rotate a Matrix counter-clockwise with ChatGPT")
 
-El código Python generado por nuestra Inteligencia Artficial es el siguiente:
+El código Python generado por nuestra Inteligencia Artificial es el siguiente:
 
 ```python
 # Este código fue generado por OpenAI-ChatGPT

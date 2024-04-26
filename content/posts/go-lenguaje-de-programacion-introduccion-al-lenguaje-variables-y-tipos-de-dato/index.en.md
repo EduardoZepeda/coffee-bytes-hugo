@@ -16,29 +16,32 @@ authors:
 url: /en/go-programming-language-introduction-to-variables-and-data-types/
 ---
 
-Golang, also known as go, is a compiled programming language developed by Google. It is a language quite appreciated according to the latest Stackoverflow surveys (2021), as you can see in my python vs go post, where I also compare the good, the bad and the ugly of this language.
+Golang, also known as go, is a compiled programming language developed by Google. It is a language quite appreciated according to the latest Stackoverflow surveys (2023), as you can see in my python vs go post, where I also compare the good, the bad and the ugly of this language.
 
 ## What's Go the programming language?
 
-Go or Golang is a language with a syntax similar to that of C and with certain abstractions in its syntax that make it a language in which writing code is a piece of cake, the truth is that the feeling is a mixture between C and Python.
+Go or Golang is a language with a syntax similar to that of C and with certain abstractions in its syntax that make it a language in which writing code is a piece of cake, coding in Go feels like a mixture between coding in Python and C.
 
 This is a compiled, imperative, **strongly concurrency-centric**, statically typed language.
 
-### Cool aspects and advantages of go
+### Cool aspects and advantages of Go
 
-* The language is quite simple** It is a language with just a few keywords and functionalities. You can learn it in a breeze.
-* Go compiler is super fast** Since it has few keywords and the language is quite simple, go compiles rapidly compared to other programming languages.
-* Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/en/go-use-of-channels-to-communicate-goroutines/) is quite easy.
-* Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem.
+* **The language is quite simple** It is a language with just a few keywords and functionalities. You can learn it in a breeze.
+* **Go compiler is super fast** Since it has few keywords and the language is quite simple, go compiles *blazinlgy fast* (I detest the over use of that expression) compared to other programming languages.
+* **Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/en/go-use-of-channels-to-communicate-goroutines/) is quite easy.
+* **Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem.
 
 ### Why does go suck? Disadvantagesof Go
 
-To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers.
+To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers. Yes, I know the community can be toxic sometimes, but I agree with most of them. Let's be realistic, Go is not perfect, but in my opinion this is not about perfection but getting things done.
+
+![Error handling with Go with if](images/ManejoErroresGo.png "This pattern is quite recurrent in applications and can become tedious.")
+
 
 * **Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values](/en/go-structs-inheritance-polymorphism-and-encapsulation/).
 * **Go does not have exception handling with try and catch blocks or equivalent**, but errors must be returned as a return value in a function and are handled by checking that it is not null (nil), by means of if blocks. This can become quite verbose and repetitive.
 
-![Error handling with Go with if](images/ManejoErroresGo.png "This pattern is quite recurrent in applications and can become tedious.")
+![Recurrent error handling pattern in go](images/if-err-not-equal-nil.jpg "If err!= nil again and again and again, error handling in Go could be better")
 
 * **There are no default arguments in go**, which increases the amount of code to write to deal with defaults.
 * **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust).
@@ -50,9 +53,11 @@ Go is strongly oriented to good code practices. How does it do it? The compiler 
 
 ![Compilation error in go due to unused variables](images/ErrorCompilacionGo.png "Compilation is not allowed if there are unused variables.")
 
+However it doesn't force you to check for nil values.
+
 ## The most popular mascot in programming
 
-The official mascot is a ground squirrel and it is popular among the community to use it to illustrate go-related content. This Sartre in blue rodent version is so popular among developers that there are tools, such as [Gopherizme](https://gopherize.me), to create custom avatars. The impact of the mascot is such that many developers use it as a logo, although the [official go logo](https://blog.golang.org/go-brand) has already been defined.
+The official mascot is a ground squirrel and it is popular among the community to use it to illustrate go-related content. This Blue Sartre rodent version is so popular among developers that there are tools, such as [Gopherizme](https://gopherize.me), to create custom avatars. The impact of the mascot is such that many developers use it as a logo, although the [official go logo](https://blog.golang.org/go-brand) has already been defined.
 
 ![Go mascot and logo](images/GoMascotAndLogo.png "On the left the Go mascot. On the right the official logo")
 
@@ -238,7 +243,7 @@ Variable assignment can be performed in a single step as follows:
 var gravedad int = 123
 ```
 
-It is also possible to let the compiler intuit the data type with the walrus (groundhog) operator. This type of assignment **is only possible within the scope of a function**.
+It is also possible to **let the compiler intuit the data type with the walrus (groundhog) operator**. This type of assignment **is only possible within the scope of a function**.
 
 ```go
 gravedad := 123
@@ -284,14 +289,14 @@ Go uses the reserved word _nil_ to refer to a null value.
 The comments are marked using two diagonals in a row.
 
 ```go
-// Este es un comentario en go
+// This is a comment
 ```
 
 Multi-line comments are made with a diagonal followed by an asterisk.
 
 ```go
 /*
-Este es un comentario multilinea
+this is a multiline comment
 */
 ```
 
@@ -316,4 +321,4 @@ The operators of go are similar to the rest of the languages.
 * ++, incremental
 * \--, decremental
 
-With this I finish the most basic part of the language, in the next post I will talk about [functions and the fmt-package in go](/en/go-functions-arguments-and-the-fmt-package/), and in a future post about other aspects such as [runes, array, slices in go](/en/go-string-runes-and-bytes-explained/) and other features of the language.
+With this I finish the most basic part of the language, I hope to put the language in a good light for you. If you want to learn more about it you can read the following post, I have written tutorials about all the basic parts of the language. See you soon!
