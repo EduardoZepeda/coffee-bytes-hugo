@@ -17,7 +17,7 @@ keywords:
 - Opinion
 - Futurismo
 - Devin
-title: Devin AI El Supuesto Reemplazo de los Programadores
+title: Devin AI ¿El Supuesto Reemplazo de los Programadores?
 ---
 
 Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin, hecho por [Cognition Labs](https://www.cognition-labs.com/), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.
@@ -87,7 +87,7 @@ Si lo que los creadores de Devin dicen, les sería más fácil crear una agencia
 
 Devin aún no ha sido puesto a prueba en condiciones reales, donde las problemas pueden ser extremadamente complejos y consistir en una mezcla entre el conocimiento del negocio, las leyes vigentes del país donde corren las aplicaciones, el caprichoso comportamiento del mercado, lo cual ciertamente requiere algo más parecido a una AGI, que cualquier modelo de lenguaje que ellos hayan podido desarrollar, incluso si este es superior a la versión más actualizada de ChatGPT.
 
-A mi la verdad el título de "Ingeniero de Software de AI" me parece fijar la barra muy alta en una apuesta bastante temeraria.
+A mi la verdad el título de "Ingeniero de Software de AI" me parece colocar la barra bastante alto y puede que Devin no esté a la altura de las expectativas.
 
 ### Devin es solo hype temporal y será olvidado pronto
 
@@ -123,6 +123,6 @@ Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos me
 
 ![Meme del rapper rechazando la primera opción aplicado a Cognition labs](images/meme-rapper-devin-access.jpg "Si Devin AI es tan bueno, ¿por qué no usarlo para crear su propia web completa?")
 
-Llama bastante mi atención que la manera de solicitar acceso a Devin sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo.  Digo, no es como si estuviera fuera de las capacidades de su modelo, no es una aplicación con 1000 microservicios, balanceo de carga, streaming y un engine de recomendaciones, es un banal formulario de registro.
+Llama bastante mi atención que la manera de solicitar acceso a Devin sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo, lo cual sería la perfecta carta de presentación de esta tecnología. Después de todo, no es como si estuviera fuera de las capacidades de su modelo, no es una aplicación con 1000 microservicios, balanceo de carga, streaming y un engine de recomendaciones, es un banal formulario de registro.
 
-De los dos escenarios que te propuse, yo considero más probable aquel en el que Devin cae en el olvido como la promesa que nunca dejó de ser, pero esperemos un año o dos y veamos juntos si Devin está a la altura de lo que promete.
+De los dos escenarios que te propuse, yo considero más probable aquel en el que Devin cae en el olvido como la promesa que nunca dejó de ser, pero esperemos un año o dos y veamos juntos si Devin está a la altura de lo que promete. Mi apuesta es que Devin no sustituirá a los programadores.

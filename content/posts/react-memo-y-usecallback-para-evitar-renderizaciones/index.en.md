@@ -18,6 +18,8 @@ authors:
 
 We can use react memo and useCallback to prevent a component from being rendered, uselessly, multiple times by memoization. If you don't know what memoization is or don't understand what the react components, useCallback and memo are for, I have a post where I explain [React's useCallback, useMemo and memo, and what they are for](/en/react-memo-usememo-and-usecallback-to-avoid-react-renderings/).
 
+{{<box message="As of React 19 all these hooks are deprecated, so only use this post as a reference for legacy React versions, please do not implement these hooks in your application" type="error">}}
+
 Let's start our example with the following component:
 
 ```javascript

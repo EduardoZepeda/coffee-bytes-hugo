@@ -19,6 +19,8 @@ url: "/en/react-memo-usememo-and-usecallback-to-avoid-react-renderings/"
 
 The useCallback, useMemo and memo functions are used to optimize React applications using memoization, avoiding useless renderings, each with their differences, similarities and use cases. These three functions should not be used indiscriminately, but only in those situations where their impact is less than the benefits they offer.
 
+{{<box message="As of React 19 all these hooks are deprecated, so only use this post as a reference for legacy React versions, please do not implement these hooks in your application" type="error">}}
+
 Visit my post where I share [5 React libraries](/en/5-cool-react-libraries-you-should-know-about/) that you can't miss in your arsenal.
 
 ## Memoization and object handling in Javascript

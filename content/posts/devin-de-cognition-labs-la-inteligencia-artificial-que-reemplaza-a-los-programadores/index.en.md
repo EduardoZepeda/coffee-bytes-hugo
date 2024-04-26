@@ -1,5 +1,5 @@
 ---
-title: "Devin From Cognition Labs The AI That Wants To Replace Programmers"
+title: "Devin AI Will this AI Replace Programmers?"
 date: "2024-03-13"
 coverImage: "images/devin-cognitive-artificial-intelligence-and-programmers.jpg"
 description: "Devin, the Artificial Intelligence model that promises to be better than a Software engineer and forever change the world of Software, created by Cognition Labs"
@@ -106,7 +106,7 @@ But didn't Peter Thiel just invest money? Yes, but that doesn't mean anything. I
 
 ![Meme of the rapper rejecting the first option applied to Cognition labs](images/meme-rapper-devin-access.jpg)
 
-It quite catches my attention that the way to request access to Devin is through a google form instead of using an App developed with the same model. 
+It strikes me that the way to request access to Devin is through a google form instead of using an App developed with the same model, which would be the perfect cover letter for this technology. After all, it's not like it's outside the capabilities of their model, it's not an application with 1000 microservices, load balancing, streaming and a recommendation engine, it's a plain simple and common registration form.
 
-I consider this scenario more likely, but let's wait a year or two and see together if Devin lives up to its promise.
+I consider this scenario more likely, but let's wait a year or two and see together if Devin lives up to its promise. My bet is that Devin won't replace programmers.
 
