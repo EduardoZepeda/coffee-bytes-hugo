@@ -1,14 +1,14 @@
 DefaultContentLanguage = "en"
+audience = "Web developers"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 copyright = "© All rights reserved."
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 googleAnalytics = "G-P84BC2GXX4"
 removePathAccents = true
 theme = "hugo-theme-latte"
 title = "Coffee bytes"
-
-defaultContentLanguageInSubdir = true
 
 [languages]
 [languages.en]
@@ -60,6 +60,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
+audience = "Web developers"
 author = "Eduardo Zepeda"
 description = "Tutorials and acid opinions about web development, programming and technology"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
@@ -121,6 +122,7 @@ url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
 [languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
+audience = "Web developers"
 author = "Eduardo Zepeda"
 description = "Artículos, opiniones ácidas y tutoriales sobre programación web, desarrollo y tecnología"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
