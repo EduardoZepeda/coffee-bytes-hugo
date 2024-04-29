@@ -50,7 +50,7 @@ Con el código sucede lo mismo, cada proceso que nosotros efectuemos sobre los d
 
 Por otro lado, algunos ofrecen un mejor rendimiento con pocos datos, mientras que otros brillan a la hora de procesar mucha información.
 
-A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da si nuestro código se ejecuta en 0.0001 segundos o en 0.001 segundos?, para fines prácticos es lo mismo ¿no? [Obsesionarse con el rendimiento](/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) del algoritmo correcto puede parecernos trivial para valores tan pequeños y si a eso le agregamos la vertiginosa velocidad de procesamiento del equipo moderno caeremos en el error de no darle la importancia correcta a los algoritmos. 
+A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da si nuestro código se ejecuta en 0.0001 segundos o en 0.001 segundos?, para fines prácticos es lo mismo ¿no? [Obsesionarse con el rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) del algoritmo correcto puede parecernos trivial para valores tan pequeños y si a eso le agregamos la vertiginosa velocidad de procesamiento del equipo moderno caeremos en el error de no darle la importancia correcta a los algoritmos. 
 
 Pero ahora preguntémonos, ¿qué pasará cuando el número de usuarios se incremente a 1000, a 10 000, a 10 000 000?, es entonces cuando las milésimas de segundos se pueden volverse horas o días y, entonces, vislumbramos la verdadera importancia de elegir un algoritmo con un rendimiento adecuado.
 

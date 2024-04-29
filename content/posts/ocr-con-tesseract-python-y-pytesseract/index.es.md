@@ -17,12 +17,12 @@ keywords:
 - inteligencia artificial
 - pytesseract
 title: Pytesseract, OCR Reconocimiento óptico de carácteres en Python 
-url: ocr-con-tesseract-python-y-pytesseract
+url: /es/ocr-con-tesseract-python-y-pytesseract
 ---
 
-Python es súper versátil, tiene una comunidad gigante que tiene librerías que permiten lograr grandes cosas con pocas lineas de código, el Optical Character Recognition (OCR) es una de ellas, para ello basta con instalar tesseract y los bindings de python, llamados pytesseract.
+Python es súper versátil, tiene una comunidad gigante que tiene librerías que permiten lograr grandes cosas con pocas lineas de código, el Optical Character Recognition (OCR) es una de ellas, para ello basta con instalar tesseract y los bindings de python: pytesseract.
 
-## Algunas aplicaciones del OCR
+## ¿Para que se puede usar el OCR?
 
 El OCR es bastante útil para las redes sociales, donde puedes escanear el texto que aparece en las imágenes para leer su contenido y luego procesarlo o darle tratamiento estadístico.
 
@@ -31,6 +31,8 @@ Aquí va otro caso, imagina un programa que escanee image boards o redes sociale
 O quizá una página que sube imágenes de sus productos con sus precios escritos en cada una de ellas. Con el OCR es posible obtener todos sus precios, y subirlos a tu base de datos, descargando y procesando sus imágenes.
 
 Facebook debe usar algún tipo de tecnología similar para censurar las imágenes que incluyen texto ofensivo, de acuerdo a sus políticas, que se suben a su red social.
+
+![Facebook usa OCR para leer el texto de sus imágenes](images/facebook-screenshot-ocr.jpg "Facebook es capaz de leer el texto que aparece en una imagen")
 
 Otra de las aplicaciones más comunes la transformación de un libro en pdf en imágenes a texto, ideal para transformar digitalizaciones de libros antiguos a epub o archivos de texto.
 
@@ -49,8 +51,7 @@ tesseract 5.3.0
 ![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](images/OCRTesseractVersion5vsVersion3-2.png "Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5")
 
 
-
-### Instalar lenguajes en tesseract
+### ¿Cómo instalar lenguajes en tesseract?
 
 Podemos ver con que lenguajes viene instalado con _\--list-langs_
 
@@ -108,7 +109,9 @@ wget https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata
 sudo mv eng.traineddata /usr/local/share/tessdata/
 ```
 
-## Instalando pytesseract
+## OCR con pytesseract
+
+### Instalación de pytesseract
 
 Tras la instalación agregamos pytesseract (los bindings de python) y pillow (para el manejo de imágenes) a nuestro entorno virtual.
 
@@ -116,9 +119,9 @@ Tras la instalación agregamos pytesseract (los bindings de python) y pillow (pa
 pip install pytesseract pillow
 ```
 
-## Leer texto de imágenes con python
+### Leer texto de imágenes con pytesseract
 
-Primero revisemos los lenguajes que tenemos instalados.
+Lo primero es revisar los lenguajes que tenemos instalados.
 
 ```python
 import pytesseract
@@ -131,7 +134,7 @@ print(pytesseract.get_languages())
 
 Ahora que ya tenemos los lenguajes, podemos leer el texto de nuestras imágenes.
 
-El código es bastante corto y explicativo, por si mismo. Básicamente le pasamos la imagen como argumento al método _image\_to\_string()_ de pytesseract.
+El código necesario es bastante corto y explicativo, por si mismo. Básicamente le pasamos la imagen como argumento al método _image\_to\_string()_ de pytesseract.
 
 ```python
 import pytesseract

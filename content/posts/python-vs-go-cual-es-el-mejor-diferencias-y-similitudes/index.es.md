@@ -1,6 +1,7 @@
 ---
 aliases:
 - /python-vs-go-cual-es-el-mejor-diferencias-y-similitudes
+- /python-vs-javascript-2022-cual-es-el-mejor/
 - /python-vs-go-2023-cual-es-el-mejor
 - /python-vs-go-cual-es-el-mejor-lenguaje-de-programacion
 authors:
