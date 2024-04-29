@@ -1,4 +1,7 @@
 ---
+aliases:
+- /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers
+- 
 title: "Devin AI Will this AI Replace Programmers?"
 date: "2024-03-13"
 coverImage: "images/devin-cognitive-artificial-intelligence-and-programmers.jpg"
@@ -13,7 +16,7 @@ keywords:
 - Devin
 authors:
   - Eduardo Zepeda
-url: /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers
+url: /en/devin-ai-the-supposed-replacement-for-programmers/
 ---
 
 Today this unholy news became popular, that an "AI Software Engineer" with the name Devin, made by [Cognition Labs](https://www.cognition-labs.com/), will be available on the market. And, of course, it provoked a strong reaction among the software professional community. Reactions ranging from cynicism to fear to disappointment abound in the comments on the related videos.
