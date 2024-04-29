@@ -73,7 +73,7 @@ In our example we set the maximum limit to be 10 requests per second, but Nginx 
 
 ### Burst
 
-But what if you two effective, normal way, in less than 100 ms? That's right, the second would be lost and this may not be what we want, sometimes applications make requests within a few milliseconds of each other. The Burst option takes care of mitigating our strict Throttling policy a bit:
+But what if two requests are placed effectively in less than 100 ms? That's right, the second would be lost and this may not be what we want, sometimes applications make requests within a few milliseconds of each other. The Burst option takes care of mitigating our strict Throttling policy a bit:
 
 ```nginx
 location /login/ {

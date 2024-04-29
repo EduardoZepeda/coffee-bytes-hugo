@@ -332,18 +332,15 @@ Python is a multi-purpose language, allowing you to create basically everything 
 
 To date Python is much more popular than Go. You can see that Go gained popularity between the period between 2011 and 2015, but stabilized to fall below Python.
 
-Google trends comparing Go vs Python. Python is more popular as of
-![date.](images/Python-vs-go-popularidad.png)
+![Google trends comparing Go vs Python. Python is more popular](images/python-vs-go-google-trends.png "Python is more popular than Go")
 
-### Popularity among developers in 2022
+### Popularity among developers
 
 Go is a very popular language among developers, even more than Javascript, but less loved than Python and Typescript.
 
-Stackoverflow 2022 survey with the most loved and hated languages. 
+![In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it.](images/python-vs-go-popularity.png "In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it.").
 
-![Go is more loved than Python](images/go-vs-python-stackoverflow-2022.png "Python is more loved than Go by developers").
-
-## Developer salaries in 2022
+## Developer salaries
 
 Go developers tend to **make significantly more money than the
 Python developers**. In fact, Go is among the top 10 highest paid languages according to the

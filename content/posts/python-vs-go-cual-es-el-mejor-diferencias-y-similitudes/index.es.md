@@ -328,19 +328,19 @@ Python es un lenguaje multipropósito, permite crear básicamente de todo, desde
 
 A la fecha Python es mucho más popular que Go. Puedes observar que Go ganó popularidad entre el periodo comprendido entre 2011 y 2015, pero se estabilizó para quedar por debajo de Python.
 
-![Google trends comparando Go vs Python. Python es más popular a la fecha.](images/Python-vs-go-popularidad.png)
+![Google trends comparando Go vs Python. Python es más popular a la fecha.](images/python-vs-go-google-trends.png "Python es más popular que Go.")
 
-### Popularidad entre Python y Go en 2022
+### Popularidad entre Python y Go
 
 Go es un lenguaje bastante popular entre los desarrolladores, mucho más apreciado que Javascript, pero menos querido que Python y Typescript.
 
-![Encuesta de stackoverflow 2022 con los lenguajes más queridos y odiados. Go es más querido que Python.](images/go-vs-python-stackoverflow-2022.png "Python es más querido que Go por los desarrolladores") 
+![En 2023 Stackoverflow reemplazó la encuesta por una donde se especifica la diferencia entre los que desean usarlo y los que ya lo han hecho y quieren continuar usándolo](images/python-vs-go-popularity.png "En 2023 Stackoverflow reemplazó la encuesta por una donde se especifica la diferencia entre los que desean usarlo y los que ya lo han hecho y quieren continuar usándolo") 
 
-## Salarios de desarrolladores en 2022
+## Salarios de los desarrolladores
 
 Los desarrolladores de Go suelen **ganar bastante más dinero que los desarrolladores de Python**. De hecho Go se encuentra dentro de los 10 lenguajes mejor pagados según la encuesta de stackoverflow del 2022.
 
-![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go está en el top 10](images/python-vs-go-salarios.png "Los programadores de Go suelen ganar más que los de Python")
+![Comparación de salarios por lenguaje según la encuesta de stackoverflow. Go está en el top 10](images/python-vs-go-salarios-2023.png "Los programadores de Go suelen ganar más que los de Python")
 
 ## Baterías incluidas
 
