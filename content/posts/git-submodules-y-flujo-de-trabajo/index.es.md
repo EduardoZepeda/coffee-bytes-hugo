@@ -10,16 +10,19 @@ categories:
 coverImage: images/git-submodules.jpg
 coverImageCredits: Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617
 date: 2022-05-18 18:14:41
-description: Te explico como usar git submodules, actualizarlos y trabajar con ellos sin errores, incluso si nunca antes lo has hecho.
+description: Un git submodule o también llamados submódulos son como un repositorio anidado de git dentro de otro repositorio, nos permiten llevar un control de los cambios en una dependencia.
 title: Git Submodules Funcionamiento Y Flujo de Trabajo
 url: /es/entiende-como-funciona-git-submodules-y-su-flujo-de-trabajo
 keywords:
 - git
 - submodules
 - repository
+- linux
 ---
 
 Los git submodules o submódulos son un registro dentro de un repositorio de git que apunta a un commit en un repositorio externo. Se manejan exactamente igual que harías con un repositorio, incluso tienen un archivo *.git* que apunta a la ubicación en la que se lleva un registro de los cambios.
+
+## ¿Para qué sirven los git submodules?
 
 ![Esquema simplificado de git submodules](images/git-submodulo-esquema-basico.jpg "Esquema simplificado de git submodules")
 
@@ -115,7 +118,7 @@ Git trata a cada submódulo como si fuera un repositorio separado, por lo que **
 
 ![Git submodules correspondencia](images/git-submodules-correspondencia.jpg)
 
-## Flujo de trabajo de git submodules
+## Flujo de trabajo con git submodules
 
 Cada vez que realices un cambio **dentro de tu submódulo debes hacer un push de los cambios y, posteriormente, actualizar la referencia del repositorio principal hacia los submódulos.**. 
 
@@ -123,7 +126,7 @@ Cada vez que realices un cambio **dentro de tu submódulo debes hacer un push de
 
 ### Pasos para guardar cambios en un submódulo
 
-¿Cómo solucionarlo? Con estos tres pasos
+Para guardar los cambios en un git submodule necesitamos seguir estos tres pasos
 
 1. Guardar los cambios (commit) y hacer push en tu submódulo.
 2. Regresar a tu repositorio principal.
@@ -144,7 +147,7 @@ git commit -m "Actualizar a nueva versión del submódulo"
 git push
 ```
 
-Lo importante a recordar aquí es que siempre debemos actualizar los cambios tanto del submódulo como del repositorio principal.
+Lo importante a recordar aquí es que **siempre debemos actualizar los cambios tanto del submódulo como del repositorio principal**.
 
 ### Inicializar un repositorio con submodules en git
 
@@ -180,4 +183,4 @@ Si hubo cambios en tu repositorio principal y haces un *git pull* es **tu obliga
 git submodule update --recursive --remote
 ```
 
-Con lo anterior doy por concluido el artículo, si te sirvió puedes compartirlo en tus redes sociales favoritas.
+Y es todo, si crees que este artículo puede servirle a alguien, apreciería que lo compartieras, pues me permite seguir creando contenido gratis para poner en redes.
