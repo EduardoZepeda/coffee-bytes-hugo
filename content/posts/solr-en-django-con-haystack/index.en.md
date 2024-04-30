@@ -75,7 +75,7 @@ We will use start to execute it and, if no error occurs, we will have an adminis
 ./solr start
 ```
 
-![solr control panel](images/solr-panel-principal.png)
+![solr control panel](images/solr-panel-principal.png "Solr control panel screenshot")
 
 ### Cores in Solr
 
@@ -93,7 +93,7 @@ To create a new core we will go to the _Add Core_ section and fill in the follow
 * config: solrconfig.xml (We don't have it yet)
 * schema: schema.xml (We don't have it yet)
 
-![Form for adding core in Solr](images/solr-add-core.png)
+![Form for adding core in Solr](images/solr-add-core.png "Form for adding core in Solr")
 
 To configure Solr we will create the following structure inside the solr installation folder _<solr-x.y.z>/server/solr/<solr_instance_name_dir>/_
 
