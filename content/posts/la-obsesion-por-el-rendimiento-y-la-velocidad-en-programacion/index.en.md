@@ -22,10 +22,9 @@ In the world of programmers there is an obsession with speed and performance; we
 
 ![Rust vs go Benchmark](images/rust-and-go-performance-for-common-data-structures-arrays.webp)
 
-In this constant search we go from high level languages to lower level languages, we wander through the darkest corners of the documentation towards the most esoteric runtimes written in arcane languages whose names seem to be taken out of a dictionary of another language. Did any particular one come to your mind? I did. 
+In this constant search we go from high level languages to lower level languages, we wander through the darkest corners of the documentation towards the most esoteric runtimes written in arcane languages whose names seem to be taken out of a dictionary of another language. Did any particular one come to your mind?. 
 
 Throughout this virtual odyssey, we completely forgot about what is probably the only factor that matters: the boring market.
-
 
 ## How much do requests per second matter at a startup?
 
@@ -42,7 +41,9 @@ Are you really worried about your application having a traffic of 86400 requests
 
 Does it matter whether your application runs with minimal memory consumption using a low-level language, or with higher consumption using a high-level language. I would say it depends; if your application or project is new, it's probably worth paying a few dollars more per month for extra memory in exchange for a higher development speed in each iteration. 
 
-I'm not saying that it's wrong to take care of the technical aspects, but right now there are more important things, such as acquiring information that will translate into profitability later, or allocating more resources to marketing and advertising your startup or project than wasting time ironing out the kinks in your code.
+I'm not saying that it's wrong to take care of the technical aspects, but right now there are more important things, such as acquiring information that will translate into profitability later, or allocating more resources to marketing and advertising your startup or project than wasting time ironing out the kinks in your code. 
+
+I'll say it again just in case you didn't get it: marketing and sales are more important than the quality of your software when you start a project.
 
 ![Wordpress vs node meme](images/wordpress-meme.jpg)
 
@@ -68,7 +69,7 @@ Another thing, when optimizing for development speed, don't forget to consider t
 
 ## Situations where performance and security do matter.
 
-Does it mean that you should forget about all other languages and try to implement all your ideas in ~~javascript~~ a tool written in a mediocre language just for the speed of development?, no, I think there are situations where it is crucial to choose the fastest, safest and most efficient, like for example: for browsers, game engines or operating systems (however this post is about web applications), although, again, you are not going to design an operating system by yourself... unless you want your OS to be the third temple of Jerusalem and you want to communicate with god.
+Does it mean that you should forget about all other languages and try to implement all your ideas in a tool written in a mediocre language ~~javascript~~ just for the speed of development?, no, I think there are situations where it is crucial to choose the fastest, safest and most efficient, like for example: for browsers, game engines or operating systems (however this post is about web applications), although, again, you are not going to design an operating system by yourself... unless you want your OS to be the third temple of Jerusalem and you want to communicate with god.
 
 ![Meme of temple os, a system that supposedly would be the third temple of Jerusalem and would allow to communicate with god.](images/temple-os.webp)
 
@@ -78,7 +79,8 @@ You will also want performance and security in environments where you deal with 
 
 ![Gamestop meme about an angry millonaire upsed about reddit strategy](images/gamestop-meme.jpg)
 
-## Tools To Get Shit Done
+## Top Tools To Get Shit Done in web development
+
 I am an advocate of avoiding reinventing the wheel every time. It's quite annoying to have to create authentication systems, CRUDS, database queries over and over again, even though some communities, like Go, prefer to implement everything from scratch.
 
 Here is a list of some of my favorite solutions to save you all the boilerplate and focus on what's important, that although they don't have the best performance, they focus on having working prototypes as soon as possible.
@@ -96,7 +98,7 @@ Here is a list of some of my favorite solutions to save you all the boilerplate 
 - Daisy UI: CSS library based on Tailwind.
 
 
-## When it's time to take care of performance, do it.
+## Care for performance only when it matters
 
 Once the cash flow is sufficient, rewrite your application in a low-level language, get rid of the ORM and run your SQL queries manually, implement your own abstractions instead of using a framework, refactor your entire app with a more robust architecture pattern, and hire specialists to take care of every extra millisecond in your systems.
 
