@@ -6,7 +6,7 @@ date: "2018-09-12"
 ¡Hola, soy Eduardo Zepeda! Desarrollador web. Aprendí casi todo lo que sé sobre desarrollo web [principalmente a través de libros y práctica,](/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial Platzi también.
 
 
-Si quieres ver algunas de las cosas que he construido visita [eduardozepeda.dev](https://eduardozepeda.dev/#portfolio)
+Si quieres ver algunas de las cosas que he construido visita [zeedu.dev](https://zeedu.dev/#portfolio)
 
 Tengo la [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
 

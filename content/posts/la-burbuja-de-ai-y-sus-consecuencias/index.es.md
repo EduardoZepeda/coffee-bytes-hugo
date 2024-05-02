@@ -25,11 +25,13 @@ Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de rev
 
 Si has estado haciendo ~~doom~~ scroll por redes sociales, sabrás que los influencers no paran de hablar de nuevas herramientas de AI que van a revolucionar el mundo, ~~justo como dijeron que harían las criptomonedas,~~ desde clonadores de voz, creadores de imágenes y video, analisis de información, solo por mencionar algunos. ¡Hay demasiadas compañias de AI! ¡Todo es AI!
 
+### La moda por las empresas de AI
+
 ![AI y otras burbujas](images/ai-and-other-bubbles.jpeg)
 
 En esta fiebre por la AI, los emprendedores se están volviendo ~~aún más~~ elitistas, ¿a qué me refiero?, a que todas aquellas ideas de negocio que no echan mano de la AI son descartadas ipso facto. Se ha añadido "usar AI" a la checklist de cualquier empresa que quiera salir al mercado y esto, para mí, es lo que crea esta burbuja.
 
-### La burbuja de AI es culpa de la ignorancia de inversores y consumidores
+## La burbuja de AI es culpa de la ignorancia de inversores y consumidores
 
 Basta con que una empresa use AI para dotarla de una magia desconocida que la vuelve irresistible hacia el público en general, y también para los inversionistas. Y esto por una sencilla razón: como sociedad no entendemos como funciona la AI a nivel interno, no entendemos las estadísticas detrás y le dotamos del misticismo de la magia.
 
@@ -45,7 +47,7 @@ Pero, en mi opinión, todo esto no es más que un montón de empresas y emprende
 
 El mercado intenta conseguir dinero fácil y rápido por el creciente y repentino interés de los legos del mundo de la tecnología por algo tan abstracto, y con aires tan esotéricos, como lo es la AI.
 
-### Muchas de las soluciones de AI son solo wrappers de ChatGPT
+## Muchas de las soluciones de AI son solo wrappers de ChatGPT
 
 Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero de la AI no comprenden que realmente no ha cambiado mucho en el mundo del código, la mayoría de las soluciones solo usan a ChatGPT por detrás, junto a una interfaz linda para presentarse como el siguiente unicornio y buscar el dinero fácil de los inversores. 
 

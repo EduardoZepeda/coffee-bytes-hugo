@@ -19,7 +19,7 @@ Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de
 
 [![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 
-~~¿Quieres ver algunos proyectos? Visita mi portafolio en eduardozepeda.dev~~
+¿Quieres ver algunos proyectos? Visita mi portafolio en [zeedu.dev](https://zeedu.dev)
 
 Estoy mudando mi sitio web personal a otro dominio por lo que mi portafolio está temporalmente deshabilitado.
 

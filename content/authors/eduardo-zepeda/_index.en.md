@@ -19,7 +19,7 @@ I'm a fan of solving katas on [Codewars](/en/i-test-chatgpt-with-codewars-coding
 
 [![Code wars badge](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 
-~~Wanna see some cool projects? Check my portfolio in my personal website: eduardozepeda.dev~~
+Wanna see some cool projects? Check my portfolio in my personal website: [zeedu.dev](https://zeedu.dev)
 
 I'm proficient developing in GNU/Linux environments (I'm a obsessed Debian user since late 2010).
 

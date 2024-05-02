@@ -18,7 +18,7 @@ url: "/en/how-to-create-an-automatic-wallpaper-changer-using-python-in-gnome/"
 
 In this post we are going to create an automatic, random and minimalistic wallpaper changer for GNU/Linux using Python. With no extra functions, super lightweight and totally homemade, its only function will be to randomly select an image and set it as wallpaper. I will explain the function of each line in the code.
 
-**Note:** I am running this code in GNOME 3.22.3 and Python 3.5.3.
+**Updated** Updated for Gnome 43 and Python 3.12
 
 If you are not familiar with Python syntax, read about one of the best books for getting into Python in my post about [the book Python Immersion](/en/learn-python-from-scratch-with-this-free-book/).
 
@@ -45,12 +45,15 @@ Now inside the file we have just created we are going to place the following cod
 import os
 import random
 
-wallpaper_folder = "/home/usuario/Imágenes/wallpaper/" # Coloca aquí tu propia ruta
+wallpaper_folder = "/home/user/images/wallpaper/" # Place here your wallpaper directory
 os.chdir(wallpaper_folder)
 allowed_image_formats = ["jpg", "png", "jpeg"]
 list_of_images = [image for image in os.listdir() if image.endswith(tuple(allowed_image_formats))]
 random_wallpaper = os.path.join(os.getcwd(), random.choice(list_of_images))
-os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".format(random_wallpaper))
+os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".format(random_wallpaper)) # Default Theme
+# New gnome versions use a different parameter for dark mode
+# In this case we're going to use the same wallpaper for both themes
+os.system("gsettings set org.gnome.desktop.background picture-uri-dark 'file://{}'".format(random_wallpaper)) #Dark Theme
 ```
 
 First we import the _os_ and _random_ libraries, to have access to tools to interact with the operating system and methods for random numbers, respectively.
@@ -92,13 +95,13 @@ We will randomly obtain the image by means of the _random.choice()_ method, whic
 Look at this example:
 
 ```python
-lista_de_imagenes_de_prueba = ["imagen_1.jpg", "imagen_2.jpg", "imagen_3.png", "imagen_4.png", "imagen_5.jpeg"]
-random.choice(lista_de_imagenes_de_prueba)
-"imagen_4.png"
-random.choice(lista_de_imagenes_de_prueba)
-"imagen_1.jpg"
-random.choice(lista_de_imagenes_de_prueba)
-"imagen_1.jpg"
+image_list_for_testing = ["img_1.jpg", "img_2.jpg", "img_3.png", "img_4.png", "img_5.jpeg"]
+random.choice(image_list_for_testing)
+"img_4.png"
+random.choice(image_list_for_testing)
+"img_1.jpg"
+random.choice(image_list_for_testing)
+"img_1.jpg"
 ```
 
 And finally
@@ -116,11 +119,13 @@ Note here, each desktop environment will have a way to set a wallpaper, if you w
 Once we are done, we can run our script as follows. Make sure you are in _home_.
 
 ```python
-python3 .change_wallpaper_randomly.py
+python .change_wallpaper_randomly.py
 ```
+
+## Scheduling a wallpaper change with Crontab
 
 If everything went correctly your wallpaper will have changed to a random image in the folder you specified. You can run the script as many times as you want and you will see how your wallpaper will change over and over again with each run.
 
 But having to run this command every time we want to change wallpaper is quite cumbersome, wouldn't it be great to schedule it to run every so often?
 
-If you already read my post about [crontab and cron](/en/cron-and-crontab-schedules-recurring-tasks/) you already have an idea of how to achieve this, skip to [schedule the periodic execution of this script using _crontab_](/en/how-to-program-an-automatic-wallpaper-changer-in-python/).
+If you already read my post about [crontab and cron](/en/cron-and-crontab-schedules-recurring-tasks/) you should have an idea of how to achieve this, if that's the case skip to [schedule the periodic execution of this script using _crontab_](/en/how-to-program-an-automatic-wallpaper-changer-in-python/) in order to proceed with the scheduling of our wallpaper changer.

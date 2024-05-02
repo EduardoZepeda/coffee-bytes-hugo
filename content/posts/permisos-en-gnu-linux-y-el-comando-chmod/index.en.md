@@ -16,53 +16,58 @@ url: "/en/understand-permissions-in-gnu-linux-and-the-chmod-command/"
 
 The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux-commands-you-should-know-part-two/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly.
 
-In this post I will expand a bit on the topic of permissions and show the two different ways of the chmod command to assign permissions to a file. For this entry we are going to use several basic GNU/Linux commands, if you are not very familiar with the basic commands [click here where I explain some basic commands](/en/basic-linux-commands-you-should-know/)
+In this post I will expand a bit on the topic of permissions and show the two different ways of the chmod command to assign permissions to a file. For this entry we are going to use several basic GNU/Linux commands, if you are not very familiar with the basic commands check my tutorial on [the basic Linux commands](/en/basic-linux-commands-you-should-know/)
 
 ## Types of permissions in GNU/Linux
 
-In GNU/Linux there are 3 types of permissions for files; permission to read, specified by the letter '_r_'; to write, represented by the letter '_w_'; and to execute, assigned to the letter '_x_'. **In Linux everything is a file**, so the above applies equally to directories. Permissions for files are shown by the '_ls' command.
+In GNU/Linux there are 3 types of permissions for files; permission to read, specified by the letter '_r_'; to write, represented by the letter '_w_'; and to execute, assigned to the letter '_x_'. 
+
+**In Linux everything is a file**, so the above applies equally to directories. Permissions for files are shown by the '_ls' command.
 
 ```bash
 ls -l
--rw-r--r-- 1 usuario usuario 9288 may 14 00:40 helloWorld.out
--rw-r--r-- 1 usuario usuario 106 may 14 00:40 codigo_fuente.cpp
+-rw-r--r-- 1 user user 9288 may 14 00:40 helloWorld.out
+-rw-r--r-- 1 user user 106 may 14 00:40 source_code.cpp
 ```
 
-There are 3 sets of 3 letters, each set contains spaces for the letters '_r_' '_w_' and '_x_', in that order. The presence of a hyphen indicates the absence of permissions. The first set represents the permissions of the file owner, the second set represents the permissions of the group to which the file belongs, and the third set represents the permissions of others. Before the first set is a space for the file type; '_D_' for directory, or a hyphen for a file.
+There are 3 sets of 3 letters, each set contains spaces for the letters '_r_' '_w_' and '_x_', in that order. 
 
-![Meaning of permissions on a GNU/Linux system](images/PermisosGNULinux-1.png)
+The presence of a hyphen indicates the absence of permissions. The first set represents the permissions of the file owner, the second set represents the permissions of the group to which the file belongs, and the third set represents the permissions of others. Before the first set is a space for the file type; '_D_' for directory, or a hyphen for a file.
+
+![Meaning of permissions on a GNU/Linux system](images/PermisosGNULinux-1.png "Meaning of permissions on a GNU/Linux system")
 
 None of the sets have permissions to execute the _helloWorld.out_ file so, when trying to do so, it will show us the sentence '_permission denied_' in the terminal.
 
 ```bash
 ./helloWorld.out
-bash: ./helloWorld.out: Permiso denegado
+bash: ./helloWorld.out: Permission denied
 ```
 
 If we remove the '_r_' and '_w_' permissions from a file, using the chmod command, we will not be able to read or modify its contents either, as shown in the last lines of code below.
 
 ```bash
-chmod 000 codigoFuente.cpp
- # Removemos todos los permisos del archivo codigoFuente.cpp
+chmod 000 source_code.cpp
+ # Removemos todos los permisos del archivo source_code.cpp
 ls -l
 total 16
----------- 1 usuario usuario 106 may 14 00:40 codigoFuente.cpp
--rwxr-xr-x 1 usuario usuario 9288 may 14 00:40 helloWorld.out
-cat codigoFuente.cpp
-cat: codigoFuente.cpp: Permiso denegado
-echo "Agrega texto" >> codigoFuente.cpp
-bash: codigoFuente.cpp: Permiso denegado
+---------- 1 user user 106 may 14 00:40 source_code.cpp
+-rwxr-xr-x 1 user user 9288 may 14 00:40 helloWorld.out
+cat source_code.cpp
+cat: source_code.cpp: Permiso denegado
+echo "some text" >> source_code.cpp
+bash: source_code.cpp: Permiso denegado
 ```
 
 We added the permission to execute, '_x_', to all permission sets and now the executable can be run and print to the terminal the phrase '_Hello world_'. **Don't worry about the meaning of the numbers in the chmod command, we will explain it later.
 
 ```bash
 chmod 755 ejecutable.out
-# Asignamos todos los permisos al propietario del archivo y permisos de lectura y ejecución a los demás conjuntos.
+# We grant all permissions to the owner
+# And read and execute permissions to the rest
 ls -l
 total 16
--rw-r--r-- 1 usuario usuario 106 may 14 00:40 codigoFuente.cpp
--rwxr-xr-x 1 usuario usuario 9288 may 14 00:40 helloWorld.out
+-rw-r--r-- 1 user user 106 may 14 00:40 source_code.cpp
+-rwxr-xr-x 1 user user 9288 may 14 00:40 helloWorld.out
 ./helloWorld.out
  Hello world
 ```
@@ -79,7 +84,7 @@ The '_r_' permission will have a value of 4, the '_w_' permission will have a va
 | Write   | 2     |
 | Execute | 1     |
 
-![Meaning of numbers in GNU/Linux permissions](images/PermisosNumerosGNULinux.png)
+![Meaning of numbers in GNU/Linux permissions](images/PermisosNumerosGNULinux.png "Meaning of numbers in GNU/Linux permissions")
 
 Considering the above, a value of 7 (4+2+1) means that it has full permissions, a value of 5 (4+1) means that it has read (r) and execute (x) permissions, a value of 3 (2+1) means write (w) and execute (x) permissions for a file.
 
@@ -95,11 +100,11 @@ Let's look at some examples of the permit equivalent of the numbers.
 
 ```bash
 _rwxrwxrwx
- Esto seria equivalente al dígito 777
+ Same as 777
 _rwxr_xr_x
- Esto seria equivalente al dígito 755
+ Same as 755
 ___x__x__x
- Esto seria equivalente al dígito 111
+ Same as 111
 ```
 
 ## Another method to assign permissions with chmod
@@ -108,7 +113,7 @@ There is an alternative way to assign permissions using the chmod command that l
 
 | Permission | Meaning |
 | ---------- | ------- |
-| a          | All     | All |
+| a          | All     |
 | u          | User    |
 | g          | Group   |
 | o          | Others  |
@@ -116,22 +121,22 @@ There is an alternative way to assign permissions using the chmod command that l
 One or more letters may be used. Then, the '+' or '-' symbol, depending on whether we want to add or remove permissions, respectively. And, finally, the permissions we want to add or remove, with the letters '_r_', '_w_' and '_x_', to read, write and execute, respectively. Let's see some examples to clarify it.
 
 ```bash
-chmod a+rwx codigoFuente.cpp
--rwxrwxrwx 1 usuario usuario 106 may 14 00:40 codigoFuente.cpp
+chmod a+rwx source_code.cpp
+-rwxrwxrwx 1 user user 106 may 14 00:40 source_code.cpp
 ```
 
 In the first example we select all the sets using the letter '_a_', choose to add permissions using the '_+_' symbol and specify that the permissions to add are '_r_', '_w_' and '_x_'; read, write and execute, respectively.
 
 ```bash
 chmod o-w helloWorld.out
--rwxrwxr-x 1 usuario usuario 106 may 14 00:40 codigoFuente.cpp
+-rwxrwxr-x 1 user user 106 may 14 00:40 source_code.cpp
 ```
 
 For the second example we choose that the changes will be made to the set _other_, select the sign _'-'_, to remove permissions, and declare that the permission to remove is the write permission, 'w'.
 
 ```bash
-chmod ug-wx codigoFuente.cpp
--r--r--r-x 1 usuario usuario 106 may 14 00:40 codigoFuente.cpp
+chmod ug-wx source_code.cpp
+-r--r--r-x 1 user user 106 may 14 00:40 source_code.cpp
 ```
 
 And finally, in the third example the sets for owner and group, 'g' and 'u', respectively, will lose write and execute rights, 'w' and 'x'.

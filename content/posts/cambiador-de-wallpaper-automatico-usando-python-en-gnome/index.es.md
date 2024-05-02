@@ -19,7 +19,7 @@ title: ¿Cómo crear un cambiador de wallpaper automático usando Python en Gnom
 
 En esta entrada vamos a crear un cambiador de wallpaper automático, aleatorio y minimalista para GNU/Linux usando Python. Sin funciones extras, súper ligero y totalmente casero, su única función será seleccionar una imagen aleatoriamente y fijarla como wallpaper. Explicaré la función de cada linea en el código.
 
-**Nota:** Este código lo estoy ejecutando en GNOME 3.22.3 y en Python 3.5.3
+**Actualizado:** Para Gnome 49 y Python 3.12
 
 Si no estas familiarizado con la sintaxis de Python, lee sobre uno de los mejores libros para adentrarte en Python en mi entrada sobre [el libro Inmersion en Python](/es/aprende-python-desde-cero-con-este-libro-gratuito/).
 
@@ -52,6 +52,10 @@ allowed_image_formats = ["jpg", "png", "jpeg"]
 list_of_images = [image for image in os.listdir() if image.endswith(tuple(allowed_image_formats))]
 random_wallpaper = os.path.join(os.getcwd(), random.choice(list_of_images))
 os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".format(random_wallpaper))
+# Las versiones más nuevas de Gnome usan un parámetro diferente para el tema oscuro
+# En este caso usamos el mismo wallpaper para ambos temas
+os.system("gsettings set org.gnome.desktop.background picture-uri-dark 'file://{}'".format(random_wallpaper))
+
 ```
 
 Primero importamos las librerias _os_ y _random_, para tener acceso a herramientas para interactuar con el sistema operativo y métodos para números aleatorios, respectivamente.
@@ -93,13 +97,13 @@ Obtendremos aleatoriamente la imagen por medio del método _random.choice()_, qu
 Mira este ejemplo:
 
 ```python
-lista_de_imagenes_de_prueba = ["imagen_1.jpg", "imagen_2.jpg", "imagen_3.png", "imagen_4.png", "imagen_5.jpeg"]
-random.choice(lista_de_imagenes_de_prueba)
-"imagen_4.png"
-random.choice(lista_de_imagenes_de_prueba)
-"imagen_1.jpg"
-random.choice(lista_de_imagenes_de_prueba)
-"imagen_1.jpg"
+test_list = ["img_1.jpg", "img_2.jpg", "img_3.png", "img_4.png", "img_5.jpeg"]
+random.choice(test_list)
+"img_4.png"
+random.choice(test_list)
+"img_1.jpg"
+random.choice(test_list)
+"img_1.jpg"
 ```
 
 Y por último
@@ -117,7 +121,7 @@ Ojo aquí, cada entorno de escritorio va a tener una manera de fijar un wallpape
 Una vez que terminamos, podemos ejecutar nuestro script de la siguiente manera. Asegúrate de estar en _home_.
 
 ```python
-python3 .change_wallpaper_randomly.py
+python .change_wallpaper_randomly.py
 ```
 
 Si todo salió correctamente tu wallpaper habrá cambiado por una imagen al azar dentro de la carpeta que especificaste. Puedes correr el script las veces que quieras y verás como tu wallpaper cambiará una y otra vez con cada ejecución.
