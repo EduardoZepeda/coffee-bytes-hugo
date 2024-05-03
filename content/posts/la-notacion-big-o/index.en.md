@@ -18,7 +18,7 @@ authors:
 
 I love astrophysics and try to keep up with new discoveries as they happen; whether they are trivial things, like the discovery of a new planet; or significant, like the hypothetical Dyson spheres they swear they find every month. But this time the discovery was simply outstanding.
 
-Last April 2019, the [first photograph of a black hole](https://www.bbc.com/mundo/noticias-47880446) was published.
+Last April 2019, the [first photograph of a black hole](https://www.bbc.com/news/science-environment-47873592#?) was published.
 
 ![First picture of a black hole](images/BigO_notacion.jpg "First picture of a black hole")
 

@@ -20,7 +20,7 @@ I didn't have a computer at home, so my interaction with computers was limited t
 
 When I was 12 years old my dad brought a computer home, an IBM that he got to facilitate his work as a teacher. That little thing with 256 MB of RAM and 10 GB of hard drive was my test subject. I installed small programs on it, clicked on everything I could, downloaded the openings and endings of Neon Genesis Evangelion in midi (mp3 was not popular back then) and used it to play lots and lots of video games on the emulators that were available on the net.
 
-One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
+One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com#?), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
 
 ## Internet and blogs
 

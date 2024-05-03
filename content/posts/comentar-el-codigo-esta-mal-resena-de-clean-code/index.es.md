@@ -161,7 +161,7 @@ Existen varios aspectos que no me gustaron del libro; el primero, Java; el segun
 
 Los principios SOLID, que propone el autor de Clean Code, no son un manual que debas seguir a rajatabla, hay muchos desarrolladores que no están de acuerdo con ellos y que proponen alternativas que lucen mucho más sensatas, como por ejemplo [CUPID](https://speakerdeck.com/tastapod/cupid-for-joyful-coding?slide=9) o los consejos que aparecen en A Philosophy of Software Design.
 
-A pesar de lo anterior, si tienes la oportunidad de leerlo, hazlo y contrástalo con las opiniones de otros autores para que tengas un panorama más completo. El libro tiene una versión en español que puedes adquirir [aquí](https://www.amazon.com.mx/C%C3%B3digo-limpio-Clean-code-Craftsmanship/dp/8441532109/ref=pd_lpo_14_t_2/141-5823532-7483464?_encoding=UTF8&pd_rd_i=8441532109&pd_rd_r=b0bbd3b0-c868-4def-a158-0e58d9fe082c&pd_rd_w=D6y5i&pd_rd_wg=b5gZw&pf_rd_p=d1973811-db3d-413c-af1a-6a5a8b0eb47e&pf_rd_r=FNBZ7XXW8MSF0VFMAS1V&psc=1&refRID=FNBZ7XXW8MSF0VFMAS1V).
+A pesar de lo anterior, si tienes la oportunidad de leerlo, hazlo y contrástalo con las opiniones de otros autores para que tengas un panorama más completo. El libro tiene una versión en español que puedes adquirir [aquí](https://www.amazon.com.mx/C%C3%B3digo-limpio-Clean-code-Craftsmanship/dp/8441532109/ref=pd_lpo_14_t_2/141-5823532-7483464?_encoding=UTF8&pd_rd_i=8441532109&pd_rd_r=b0bbd3b0-c868-4def-a158-0e58d9fe082c&pd_rd_w=D6y5i&pd_rd_wg=b5gZw&pf_rd_p=d1973811-db3d-413c-af1a-6a5a8b0eb47e&pf_rd_r=FNBZ7XXW8MSF0VFMAS1V&psc=1&refRID=FNBZ7XXW8MSF0VFMAS1V#?).
 
 El otro día me compartieron en Twitter un [resumen de los conceptos de Clean Code con ejemplos en Javascript.](https://github.com/ryanmcdermott/clean-code-javascript)
 

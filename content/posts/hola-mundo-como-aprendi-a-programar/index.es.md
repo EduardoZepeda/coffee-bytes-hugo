@@ -22,7 +22,7 @@ Yo no tenía computadora en casa, así que mi interacción con las computadoras 
 
 Cuando tenía 12 años mi papá trajo una computadora a casa, una IBM que le dieron para facilitar sus labores como profesor. Esa pequeña con 256 MB de RAM y 10 GB de disco duro era mi sujeto de prueba. Le instalé pequeños programas, le di click a todo lo que pude, descargué los openings y endings de Neon Genesis Evangelion en midi (el mp3 no era nada popular en aquel entonces) y la usé para jugar muchísimos videojuegos en los emuladores que estaban disponibles en la red.
 
-Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
+Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com#?), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
 
 ## Internet y los blogs
 

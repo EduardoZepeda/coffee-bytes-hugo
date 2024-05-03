@@ -30,7 +30,7 @@ Sounds pretty convincing, doesn't it? No more SSH terminals, GNU/Linux package i
 
 Service menu in easyWP
 
-After completing the installation, my SO had her [WordPress blog](https://latteporlaciudad.com/) up and running and accessible from any web browser, so far so good. The next step on her list was to install an SSL certificate, preferably one from Let's Encrypt. This is where the nightmare begins.
+After completing the installation, my SO had her WordPress blog up and running and accessible from any web browser, so far so good. The next step on her list was to install an SSL certificate, preferably one from Let's Encrypt. This is where the nightmare begins.
 
 ## EasyWP installation is simple but restrictive.
 
