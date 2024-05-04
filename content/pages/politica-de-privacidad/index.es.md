@@ -40,10 +40,10 @@ Le informamos que para las transferencias indicadas con un asterisco (\*) requer
 **¿Cómo puede acceder, rectificar o cancelar sus datos personales, u oponerse a su uso?**  
 Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada conforme a los principios, deberes y obligaciones previstas en la normativa (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.
 
-Para el ejercicio de cualquiera de los derechos ARCO, usted deberá presentar la solicitud respectiva mandando un correo electrónico a eduardozepeda@coffeebytes.dev
+Para el ejercicio de cualquiera de los derechos ARCO, usted deberá presentar la solicitud respectiva mandando un correo electrónico a eduardomzepeda [at] outlook [dot] com
 
 Para conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, usted podrá ponerse en contacto con nuestro Departamento de Privacidad, que dará trámite a las solicitudes para el ejercicio de estos derechos, y atenderá cualquier duda que pudiera tener respecto al tratamiento de su información. Los datos de contacto del Departamento de Privacidad son los siguientes:  
-Carlos Eduardo Magallón Zepeda, eduardozepeda@coffeebytes.dev
+Carlos Eduardo Magallón Zepeda, eduardomzepeda [at] outlook [dot] com
 
 **¿Cómo puede revocar su consentimiento para el uso de sus datos personales?**  
 Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando sus datos personales. Asimismo, usted deberá considerar que para ciertos fines, la revocación de su consentimiento implicará que no le podamos seguir prestando el servicio que nos solicitó, o la conclusión de su relación con nosotros.
@@ -52,7 +52,7 @@ Para revocar su consentimiento deberá cancelar su suscripción a nuestros corre
 
 Para conocer el procedimiento y requisitos para la revocación del consentimiento, usted podrá comunicarse por correo electrónico en la siguiente dirección:
 
-eduardozepeda@coffeebytes.dev
+eduardomzepeda [at] outlook [dot] com
 
 **¿Cómo puede limitar el uso o divulgación de su información personal?**  
 Los únicos datos personales que compartimos en este sitio web es tu nombre y tu correo electrónico. Puedes eliminar estos datos cancelando tu suscripción en cualquiera de los correos electrónicos que te enviamos
