@@ -22,7 +22,7 @@ Updated to 2024: If you've used only Python or only Javascript, you're probably 
 
 I also have a comparison of [Python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) that you can check out.
 
-## A little about them
+## Introduction to Python and Javascript languages
 
 To begin with, **Python is an interpreted language**. If you are not familiar with the term, it means that it has an interpreter that translates the instructions, one by one, to machine language, so that they are executed on the fly. So you don't have to compile all your code every time you want to run it, as you would with C++, Java, Rust, etc.
 
@@ -36,17 +36,17 @@ Look at this super-simplified schematic comparing compiled and interpreted langu
 
 In this scheme I am referring to Javascript at the time of its creation, as an interpreted language, not to the **JIT compilation** I was telling you about.
 
-## Seniority
+## Which language is more mature, Python and Javascript?
 
 Python appeared in the late 1980s, while Javascript appeared in the early 1990s, so **Python is older** than Javascript.
 
-## Typed
+## Typing characteristics
 
 Regarding typing, it is a convoluted issue where I have not found a **clear and uniform consensus** on what is considered strong typing and what weak typing. However experts tend to say that strongly typed languages do not allow changes to data types once declared, while weakly typed ones do.
 
 Here are a couple of examples for your consideration
 
-### Javascript Typing
+### Javascript typing
 
 First let's see what happens if we try to change a type in Javascript.
 
@@ -112,7 +112,7 @@ def titleToNumber(columnTitle: str) -> int:
 
 What about Typescript for Python? Well, it is already included, Python incorporates optional typing, starting with version 3.5, typing can be used by some linters to show you errors in the code, however the interpreter does not force its use. Check the [official documentation](https://docs.python.org/3/library/typing.html) to learn how to use them.
 
-## Syntax
+## Differences in syntax between Javascript and Python
 
 ### Javascript syntax
 
@@ -168,7 +168,7 @@ except:
 
 The syntax differences are much more extensive than the ones I expose here, each one has its own functions, its own integrated libraries and a different syntax, but I hope you have at least appreciated the small differences between the two.
 
-## Support
+## Javascript and Python support
 
 ### Javascript support
 
@@ -188,19 +188,19 @@ Python is not found in browsers, however it is installed in most GNU/Linux syste
 
 ![Python terminal on GNU/Linux](images/PythonConsola.gif)
 
-## Uses
+## Uses of Python and Javascript
 
-### Uses of Javascript
+### Javascript and its usage in the browser
 
 Javascript is used, mainly in the browser and is an essential language if you're interested in Web development. However Node allows it to be used on your computer as well, to be used as a server-side language, although it was not originally conceived that way. Node js has allowed javascript to be used outside the browser, so its use has been extended, even to machine learning or small application and scripting.
 
 ~~In recent years there are rumors that [deno](https://deno.land/), made by the creator of Node js, will replace node, its predecessor, but they are just that, rumors.~~ As today it is unlikely that deno will replace Node, in fact Javascript has many engines, such as [Bun](https://bun.sh/) [winterJS](https://github.com/wasmerio/winterjs) that offer superior performance and more features than deno or node.
 
-### Python Uses
+### Python and its usages in machine learning and AI
 
 Python is a multipurpose language, it allows you to create native UI applications, program networks or web servers, artificial intelligence, web application development, pretty much anything.
 
-## Popularity
+## Which language is more popular Python or Javascript
 
 Javascript started out much more popular than Python, probably due to the rise of web browsers. However, somewhere around 2017, Python gained relevance compared to JavaScript and the trend continues until the end of 2024.
 
@@ -218,13 +218,13 @@ According to Stackoverflow's latest survey (2024), professionals using Python ar
 
 ![Developer salaries according to programming language used](images/salarios-python-vs-javascript.png "Python overtakes Javascript in salaries in 2023")
 
-## Batteries included
+## Standard library and packages in Python and Javascript
 
 Python is characterized for being a language with batteries included, that is to say, it already includes by default many functionalities that you only have to import to start using them, do you want to work with networks? import the socket module, do you want to create a GUI? use tkinter, manipulate audio? use audioop. Python includes libraries for most common needs. It even includes numpy, a powerful library for numerical analysis.
 
 On the other hand, Javascript includes only what is necessary, although it has a gigantic community of users creating packages and making them available to anyone who wants to take them.
 
-## Speed
+## Which language is faster Python or Javascript?
 
 As interpreted languages they are much slower than compiled languages, so they will be quite bad if you compare them with C, C++, Java, Rust, etc. However, the difference between them is evident: it can be stated that **Javascript executed in Node is much faster than Python with its original interpreter.
 
@@ -236,7 +236,7 @@ Node.js v15.10.0 and Python 3.8.6 were used. The code was executed directly from
 
 Although it is quite obvious that this is not a methodology with adequate scientific rigor, it is nevertheless useful as a rough comparison.
 
-## Asynchronism capability
+## Asynchronism capability in Python and Javascript
 
 ### Asynchronism in Javascript
 
@@ -269,17 +269,32 @@ if __name__ == '__main__':
 
 Javascript and Python have plenty of frameworks to choose from when it comes to web development.
 
-### Frameworks for Javascript
+### Web Frameworks for Javascript
 
-There are many **Javascript frameworks for web development for both backend and frontend**; for the backend, express, nustjs, meteor, sails; for the frontend, vue, react, svelte, angular.
+There are many **Javascript frameworks for web development for both backend and frontend**.
+
+- express 
+- nustjs 
+- meteor 
+- sails
+- vue 
+- react 
+- svelte 
+- angular
+- adonisjs
 
 ![Web development frameworks for Javascript](images/javascript-frameworks.jpg)
 
 Even despite the abundance of options, new JavaScript frameworks are released more frequently than for Python.
 
-### Frameworks for Python
+### Web Frameworks for Python
 
 Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/en/why-should-you-use-django-framework/), or Flask and some more modern ones like the fast-growing in popularity, [FastAPI web development framework](/en/fastapi-tutorial-the-best-python-framework/), about which I wrote a post before.
+
+- Django
+- Fastapi
+- Flask
+- Pyramid
 
 ![Python web development frameworks](images/python-frameworks.jpg "Most popular Python frameworks")
 
@@ -287,7 +302,7 @@ You can write HTML and CSS code using Python for the frontend, but you will neve
 
 Update: I learned about a library that is gaining popularity, called htmx, that allows you to generate modern apps by returning html instead of JSON responses. Go to my post on [django and htmx](/en/django-and-htmx-modern-web-apps-without-writing-js/) to learn more.
 
-## Packages
+## Packages in Pypi and NPM
 
 Both the Python and Javascript communities have libraries available that solve most of the common programming problems.
 
@@ -305,7 +320,7 @@ Pypi is the main platform in charge of Python package management. At the time th
 
 ![pip is-odd package](images/IsOddPythonPackage.png "Python also has a package that checks if a number is odd.")
 
-## To conclude
+## Which language is better, Python or Javascript?
 
 I hope this small comparison has shown you a little bit of the differences between both languages and if you are thinking of focusing on one of them you will have more information on the table to make the right decision.
 

@@ -25,7 +25,7 @@ Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empez�
 
 Si quieres aprender go, date una vuelta por mi tutorial de golang desde cero, donde te explico los detalles básicos de [Go: sintaxis y tipos de datos.](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/)
 
-## Un poco sobre Python y go
+## Introducción y diferencias sutiles entre Python y Go
 
 Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Python, un lenguaje interpretado; y go, un lenguaje compilado. Por lo que ya partimos de diferencias bastante grandes.
 
@@ -63,7 +63,7 @@ Por supuesto que esto no necesariamente es bueno desde el punto de vista de un p
 
 Python fue creado por Guido Van Rossum a finales de los 80's. Go, por otro lado, es un lenguaje mucho más joven que Python, lanzado veinte años después, en 2009, y diseñado inicialmente por Robert Griesemer, Rob Pike y Ken Thompson.
 
-## Tipado
+## Tipado en ambos lenguajes
 
 ### ¿Cómo es el tipado en go?
 
@@ -94,7 +94,7 @@ numero + 2
 # TypeError: can only concatenate str (not "int") to str
 ```
 
-## Sintaxis
+## Comparación de sintaxis de lenguaje entre Python y Go
 
 ### Sintaxis básica de go
 
@@ -183,7 +183,7 @@ except:
   print("An exception occurred")
 ```
 
-## Capacidad de asincronismo
+## Capacidad de asincronismo en Python y Go
 
 ### Asincronismo en go
 
@@ -252,9 +252,9 @@ except:
   print("An exception occurred")
 ```
 
-## Cosas no tan geniales
+## ¿Qué lenguaje es peor Python o Go?
 
-### Cosas no tan geniales de go
+### Desventajas y mal diseño de go
 
 Go es muy "opinionated". Tiene posturas muy rígidas sobre ciertas cosas, como el uso de todas las variables, pero deja otras tantas al buen manejo por parte del usuario, como los errores causados por punteros o pointers nulos. Se podría decir que es inconsistente en ese aspecto.
 
@@ -295,7 +295,7 @@ if err != nil {
 }
 ```
 
-### Cosas no tan geniales de python
+### Las desventajas de Python
 
 Entre las cosas no tan geniales de Python está la fuerte separación que ocurrió entre Python 2 y Python 3, dejando muchas librerías desactualizadas o con un montón de parches para hacer compatible el código entre ambas versiones.
 
@@ -309,9 +309,9 @@ Mientras que Python cuenta con un soporta bastante amplio, pues se encuentra ins
 
 ![Python ejecutándose en una terminal](images/PythonConsola.gif)
 
-## Usos
+## Usos comunes de Python y Go
 
-### Usos de go
+### Usos comunes de Go
 
 Go puede usarse para casi cualquier cosa pero tiene fuerte presencia en herramientas de devops, al grado de que algunos lo consideran la lengua defacto del los servidores de backend y el blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform e InfluxDB están escritos en Go.
 
@@ -321,11 +321,11 @@ Los [containers de docker están escritos usando go](/es/container-de-docker-con
 
 También se han creado herramientas tan geniales como [Pocketbase](https://pocketbase.io/), un excelente ejemplo de Backend as a service y alternative open source a firebase.
 
-### Usos de Python
+### Usos comunes de Python
 
 Python es un lenguaje multipropósito, permite crear básicamente de todo, desde aplicaciones nativas con interfaz de usuario, programar redes o servidores web, inteligencia artificial, data science, desarrollo de aplicaciones web, o scripting básico.
 
-## Popularidad
+## ¿Cuál lenguaje es más popular entre Python y Go?
 
 A la fecha Python es mucho más popular que Go. Puedes observar que Go ganó popularidad entre el periodo comprendido entre 2011 y 2015, pero se estabilizó para quedar por debajo de Python.
 
@@ -337,7 +337,7 @@ Go es un lenguaje bastante popular entre los desarrolladores, mucho más aprecia
 
 ![En 2023 Stackoverflow reemplazó la encuesta por una donde se especifica la diferencia entre los que desean usarlo y los que ya lo han hecho y quieren continuar usándolo](images/python-vs-go-popularity.png "En 2023 Stackoverflow reemplazó la encuesta por una donde se especifica la diferencia entre los que desean usarlo y los que ya lo han hecho y quieren continuar usándolo") 
 
-## Salarios de los desarrolladores
+## ¿Dónde se gana más Python o Go?
 
 Los desarrolladores de Go suelen **ganar bastante más dinero que los desarrolladores de Python**. De hecho Go se encuentra dentro de los 10 lenguajes mejor pagados según la encuesta de stackoverflow del 2022.
 
@@ -351,7 +351,7 @@ Go no se queda atrás, ha sabido entender bastante bien los beneficios de una am
 
 Puedes ver las librerías y funciones que tiene disponible en la sección [standard library de su página oficial.](https://pkg.go.dev/std)
 
-## Paquetes
+## ¿Quien tiene mejores librerías Python o Go?
 
 ### Paquetes en go
 
@@ -373,17 +373,17 @@ Python cuenta con 336,000 en pypi, muchos de ellos están disponibles para ser u
 
 Python tiene una comunidad gigantesca, comparada con la de go, y tienen paquetes para casi todo lo que te puedas imaginar.
 
-![Captura de pantalla del índice de paquetes de Python Pypi](images/Pypi.png "El índice de paquetes de Python Pypi")
+![Número de librerías o paquetes disponibles en Python](images/Pypi.png "El índice de paquetes de Python Pypi")
 
-## Velocidad
+## ¿Cuál es más rápido Python o Go?
 
 La comparación aquí va a tornarse algo injusta, pero la haré de todas formas: **Go es descomunalmente más rápido que Python**. La diferencia anterior se explica porque Go es compilado, mientras que Python interpretado.
 
-### Python vs go en fibonacci por recursión
+### Python vs Go en fibonacci por recursión
 
 ¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
 
-![Python vs go en fibonacci por recursión](images/fibo-go-vs-python-velocidad.png "Go, al ser un lenguaje compilado, es descomunalmente más rápido que Python")
+![Comparación de velocidad Python vs Go usando fibonacci por recursión](images/fibo-go-vs-python-velocidad.png "Go, al ser un lenguaje compilado, es descomunalmente más rápido que Python")
 
 ## Web frameworks
 
@@ -413,7 +413,7 @@ Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.
 
 A pesar de que la mayoría de frameworks en Python son antiguos, no significa que no estén apareciendo nuevos frameworks últimamente. [Fastapi](/es/python-fastapi-el-mejor-framework-de-python/), del que ya hice un tutorial también es un nuevo framework muy veloz que gana popularidad día con día.
 
-## ¿Cuál elegir Python vs go?
+## ¿Cuál lenguaje es mejor Python vs go?
 
 En mi opinión, si necesitas estabilidad y soluciones probadas con el tiempo para tus frameworks o planeas entrar en el mundo de la inteligencia artificial, deep learning o data science, si quieres un lenguaje que tenga una curva de aprendizaje poco inclinada y una gran cantidad de paquetes disponibles que le ahorrarán código a ti y/o a tu equipo, yo me iría por Python.
 

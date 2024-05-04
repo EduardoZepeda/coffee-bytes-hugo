@@ -23,13 +23,13 @@ Python y Javascript son dos de los lenguajes más populares entre las personas q
 
 ## Usos de Python y Javascript
 
-### Javascript se usa en el navegador
+### Usos de Javascript en el navegador
 
 Javascript se usa, principalmente, para desarrollar aplicaciones web. Es el lenguaje por defecto de los navegadores web, pero su versatilidad no se detiene ahí; Node permite utilizarlo también en tu ordenador, para ser usado como un lenguaje del lado del servidor, crear APIs, servidores, incluso al machine learning, aunque no es tan popular como Python en este rubro.
 
 ~~En los últimos años hay rumores de que [deno](https://deno.land/), hecho por el creador de Node js, reemplazará a node, su predecesor, pero son solo eso, rumores.~~ Además de Node, Javascript cuenta con muchísimos motores, tales como [Bun](https://bun.sh/) [winterJS](https://github.com/wasmerio/winterjs) que ofrecen un rendimiento superior y más amenidades que Node.
 
-### Python es un lenguaje multipropósito
+### Python para AI y machine learning
 
 Python es un lenguaje multipropósito, te permite crear aplicaciones nativas con interfaz de usuario, programar redes o servidores web, inteligencia artificial, desarrollo de aplicaciones web, prácticamente lo que sea.
 
@@ -41,13 +41,13 @@ Javascript empezó siendo mucho más popular que Python, probablemente debido al
 
 ![Gráfico de google trends comparando Python vs Javascript](images/Python-vs-Javascript-desde-2004.png "Python gana relevancia frente Javascript en Google trends")
 
-### Python se mantiene es más popular que Javascript
+### Python se mantiene más popular que Javascript
 
 Stackoverflow muestra en sus encuestas que, entre los desarrolladores, Python es mucho más popular que Javascript. Sin embargo, Typescript (el super set de Javascript con tipado fuerte que mencioné anteriormente) es ligeramente más popular que Python.
 
 ![Resultados de la encuesta de StackOverflow para los lenguajes más apreciados por desarrolladores. Python se encuentra por arriba de Javascript](images/love-vs-dreaded-python-javascript.png "Python supera a Javascript en popularidad en 2023")
 
-## Python tiene mejores salarios que Javascript
+## Python y Javascript salarios 
 
 Según la última encuesta de Stackoverflow (2023), los profesionales que usan Python son ligeramente mejor pagados que aquellos que usan Javascript. Sin embargo la diferencia no es tan significativa. Typescript también se encuentra por encima de Javascript.
 
@@ -57,7 +57,7 @@ Según la última encuesta de Stackoverflow (2023), los profesionales que usan P
 
 Python apareció a finales de los 80, mientras que Javascript apareció a principios de los 90, por lo que **Python es más antiguo** que Javascript.
 
-## Velocidad, Javascript es más rápido que Python
+## ¿Cuál es más rápido Javascript o Python?
 
 Al ser lenguajes interpretados son mucho más lentos que lenguajes compilados, por lo que quedarán bastante mal parados si los comparas con C, C++, Java, Rust, etc. Sin embargo entre ellos la diferencia es evidente: se puede afirmar que **Javascript ejecutado en Node es mucho más rápido que Python con su intérprete original.**
 
@@ -70,7 +70,7 @@ Se usó Node.js v15.10.0 y Python 3.8.6. El código se ejecutó directamente des
 
 Aclaro, a pesar de ser bastante obvio, que no es una metodología con el rigor científico adecuado, sin embargo es útil a manera de comparación grosso modo.
 
-## ¿Qué tipo de lenguajes son?
+## Python y Javascript ¿Lenguajes compilados o interpretados?
 
 Para empezar diremos que **Python es un lenguaje interpretado**. Si no te suena el término, significa que tiene un intérprete que traduce las instrucciones, una por una, a lenguaje máquina, para que se ejecuten al momento. Por lo que no tienes que compilar todo tu código cada vez que quieras ejecutarlo, como sí lo harías con C++, Java, Rust, etc.
 
@@ -86,7 +86,7 @@ En este esquema me refiero a Javascript al momento de su creación, como lenguaj
 
 Si bien no son los lenguajes [con mayor rendimiento, su flexibilidad es ideal para iterar una y otra vez en una startup o proyecto nuevo](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/)
 
-## Soporte
+##  Soporte, Javascript y Python
 
 ### Soporte para Javascript
 
@@ -106,7 +106,7 @@ Python no se encuentra en los navegadores, sin embargo está instalado en la may
 
 ![terminal de Python en GNU/Linux](images/PythonConsola.gif)
 
-## Comparación del tipado
+## Comparación de tipado entre Python y Javascript
 
 Respecto al tipado, es un tema muy complejo en el que no he encontrado un **consenso claro y uniforme** sobre que se considera tipado fuerte y que tipado débil. Sin embargo los expertos suelen decir que los lenguajes fuertemente tipados no permiten cambios en los tipos de datos una vez declarados, mientras que los débilmente tipados sí.
 
@@ -178,7 +178,7 @@ un tipo de variable a otro.
 
 ¿Y el Typescript para Python? Pues ya va incluido, Python incorpora tipado opcional, a partir de su versión 3.5, el tipado puede ser usado por algunos linters para mostrarte errores en el código, sin embargo el intérprete no obliga a su uso. Revisa la [documentación oficial](https://docs.python.org/3/library/typing.html) para aprender a usarlos.
 
-## Sintaxis
+## Diferencias de sintaxis entre Python y Javascript
 
 ### Sintaxis de Javascript
 
@@ -235,13 +235,13 @@ except:
 Las diferencias de sintaxis son mucho más extensas que las que aquí expongo, cada uno tiene sus propias funciones, sus propias librerías integradas y una sintaxis diferente, pero espero que al menos hayas apreciado las pequeñas diferencias entre ambos.
 
 
-## Baterías incluidas
+## Librerías estándar, comparación entre Python y Javascript
 
 Python se caracteriza por ser un lenguaje con baterías incluidas, es decir, ya incluye por defecto muchísimas funcionalidades que solo tienes que importar para empezar a usarlas, ¿quieres trabajar con redes? importa el modulo socket, ¿quieres crear un GUI?, usa tkinter, ¿manipular audio?, usa audioop. Python incluye librerías para la mayoría de las necesidades comunes. Incluso incluye numpy, una poderosa librería para el análisis númerico.
 
 Por otro lado, Javascript incluye solo lo necesario, aunque tiene una gigantesca comunidad de usuarios creando paquetes y poniéndolos a disposición de cualquiera que quiera tomarlos.
 
-## Capacidad de asincronismo
+## Capacidad de asincronismo Python vs Javascript
 
 ### Asincronismo en Javascript
 
@@ -270,13 +270,23 @@ if __name__ == '__main__':
     run_async(main())
 ```
 
-## Frameworks para desarrollo web
+## Frameworks para desarrollo web de Python y Javascript
 
 Javascript y Python tienen bastantes frameworks para elegir cuando se trata de desarrollo web.
 
 ### Frameworks web para Javascript
 
-Existen muchísimos frameworks de **Javascript para desarrollo web tanto para el backend como para el frontend**; para el backend, express, nustjs, meteor, sails; para el frontend, vue, react, svelte, angular.
+Existen muchísimos frameworks de **Javascript para desarrollo web tanto para el backend como para el frontend**; para el backend
+
+- express 
+- nustjs 
+- meteor 
+- sails
+- vue 
+- react 
+- svelte 
+- angular
+- adonisjs
 
 ![Frameworks de desarrollo web para Javascript](images/javascript-frameworks.jpg)
 
@@ -286,13 +296,18 @@ Incluso aún a pesar de la abundancia de opciones que hay salen nuevos framework
 
 Debido a que Python no se encuentra instalado en los navegadores, **el desarrollo web actual usando Python se centra principalmente en la parte del Backend**, donde tenemos soluciones bastante maduras como [Django, con sus ventajas y desventajas](/es/por-que-deberias-usar-django-framework/), o Flask y algunas más modernas como el rapidísimo [framework de desarrollo web FastAPI](/es/python-fastapi-el-mejor-framework-de-python/), del que ya escribí una entrada anteriormente.
 
+- Django
+- Fastapi
+- Flask
+- Pyramid
+
 ![Frameworks de desarrollo web de Python](images/python-frameworks.jpg)
 
 Puedes escribir código HTML y CSS usando Python para el frontend, pero nunca tendrás la misma versatilidad que ejecutar código javascript directamente en el navegador del usuario.
 
 Actualización: Me enteré de una librería que está ganando popularidad, llamada htmx, que te permite generar aplicaciones modernas devolviendo html en lugar de respuestas JSON. Entra en mi entrada sobre [django y htmx](/es/django-y-htmx-web-apps-modernas-sin-escribir-js/) para conocer más.
 
-## Comunidad y paquetes
+## Paquetes con pypi y NPM
 
 Tanto la comunidad de Python, como la de Javascript, tienen librerías disponibles que solucionan la mayoría de los problemas más comunes a la hora de programar.
 
@@ -310,7 +325,7 @@ Pypi es la plataforma principal encargada del manejo de paquetes en Python. En l
 
 ![Paquete is-odd de pip](images/IsOddPythonPackage.png "Python también tiene un paquete que revisa si un número es impar")
 
-## Reflexión final ¿cuál deberías elegir?
+## ¿Cuál es mejor Python o Javascript?
 
 Espero que esta pequeña comparación te haya mostrado un poco las diferencias que existen entre ambos lenguajes y si estás pensando en centrarte en alguno de ellos tengas más información sobre la mesa para tomar la decisión correcta.
 

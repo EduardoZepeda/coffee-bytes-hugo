@@ -53,13 +53,13 @@ But then what makes the difference between a real intelligence and a mechanical 
 
 The highest representative of intelligence on earth is the human being (or at least our inflated ego tells us that), and it also happens that the human being is a living entity with consciousness. This leads us to the inevitable question: is a living being with consciousness necessary to have intelligence, or perhaps it is the other way around?
 
-### Signs of Intelligence with conscience
+### Signs of Intelligence with consciousness
 
 Some argue that consciousness and intelligence are related and that we would even have [a gradient of consciousness as we advance in the complexity and intelligence of organisms](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). They give the label "conscious" to higher animals such as dolphins, orangutans, crows and other organisms that show traits of intelligence.
 
 While others go further by saying that a system becomes more conscious the more intelligent it becomes, perhaps we could consider the example of [Blake Lemoine, who claimed that Google's artificial intelligence model had become conscious](https://www.bbc.com/mundo/noticias-61787944), or Giulio Tononi's integrated information theory, which proposes that consciousness is generated when a system is able to incorporate information and unify it, and that this level of consciousness (called Φ) can be calculated for any system.
 
-### Signs of Intelligence without conscience
+### Signs of Intelligence without consciousness
 
 Likewise, there are positions that defend that intelligence does not necessarily depend on consciousness, but that it can exist in systems that do not have subjective experience. For example, it is sufficient to cite Alpha Go and other computer programs that are capable of responding to complex stimuli, without existing beyond the game for which they were programmed, or [sleepwalkers, who can show signs of intelligence even when they are not conscious](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
