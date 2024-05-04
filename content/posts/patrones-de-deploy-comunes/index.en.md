@@ -41,7 +41,7 @@ There are a number of widely used deployment patterns:
 
 For this post I am going to focus on the last patterns, since they are the ones I have read the least information about on the internet. Consider that **deployment patterns can be combined with each other**. For example, you can perform A/B tests on your monolithic application to find the best version. Having said that, I will explain the patterns.
 
-### Canary
+### Canary deployment
 
 This pattern consists of showing new features to a small group of users. After analyzing and correcting the performance of the new features and, if appropriate, the deploy is extended to all users.
 
@@ -51,7 +51,7 @@ graph LR;
     LoadBalancer-->Ver-2-Canary;
 ```
 
-### Features toggles
+### Features toggles deployment
 
 Instead of releasing all changes at the same time, this pattern hides new features behind a switch, which can be turned on or off without modifying the code. This allows changes to be released gradually or only to certain users, making it easy to test and manage. This method has the advantage that if a problem occurs, you can turn the switch off without the need to return the code to a previous state.
 
@@ -71,7 +71,7 @@ graph LR;
     LoadBalancer-.->Production;
 ```
 
-### A/B testing
+### A/B testing deployment
 
 A/B testing is the classic A/B testing; a random set of our users will receive version A of the application, while the rest will receive version B. We will then use statistics, specifically the two-sample t-test, to determine which version (A or B) is more effective.
 
@@ -83,7 +83,7 @@ graph LR;
     LoadBalancer-->VersionB-->70["70%"]-->Analysis-->Statistics;
 ```
 
-### Dark launches
+### Dark launches deployment
 
 This type of deployment pattern is quite similar to the Canary deployment, however in this case users must be aware that they are receiving a test version and must be aware of the new functionality being tested. With this knowledge the users will be able to provide feedback on the new functionality.
 

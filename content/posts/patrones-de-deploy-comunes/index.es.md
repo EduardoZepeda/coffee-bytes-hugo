@@ -42,7 +42,7 @@ Existen una serie de patrones de despligue bastante usados:
 
 Para este post voy a centrarme en los últimos patrones, puesto que son de los que menos he leído información en internet. Considera que **los patrones de deploy o despligue pueden combinarse unos con otros**. Por ejemplo, puedes realizar pruebas A/B sobre tu aplicación monolítica para encontrar la mejor versión. Dicho lo anterior, explicaré los patrones.
 
-### Canary
+### Canary deployment
 
 Este patrón consiste en mostrar las nuevas características a un pequeño grupo de usuarios. Tras analizar y corregir el desempeño de las nuevas características y, si es conveniente, el deploy se extiende a la totalidad de usuarios.
 
@@ -52,7 +52,7 @@ graph LR;
     LoadBalancer-->Ver-2-Canary;
 ```
 
-### Features toggles
+### Features toggles deployment
 
 En lugar de liberar todos los cambios al mismo tiempo, este patrón esconde las características nuevas tras un switch, que se puede encender o apagar  sin modificar el código. Esto permite liberar los cambios de manera gradual o solo a ciertos usuarios, lo que lo vuelve fácil de testear y administrar. Este método tiene la ventaja de que si un problema ocurre, puedes poner el switch en apagado sin necesidad de retornar el código a un estado anterior.
 
@@ -72,7 +72,7 @@ graph LR;
     LoadBalancer-.->Production;
 ```
 
-### A/B testing
+### A/B testing deployment
 
 El testeo A/B es el clásico de toda la vida; un conjunto aleatorio de nuestros usuarios recibirá la version A de la aplicación, mientras que el resto recibirá la versión B. Posteriormente se usará estadísticas, específicamente la prueba T para dos muestras, para determinar cual versión (La A o la B) es más efectiva. 
 
@@ -84,7 +84,7 @@ graph LR;
     LoadBalancer-->VersionB-->70["70%"]-->Analysis-->Statistics;
 ```
 
-### Dark launches
+### Dark launches deployment
 
 Este tipo de patrón de deployment es bastante similar al Canary deployment, sin embargo en este caso los usuarios deben estar concientes de que están recibiendo una versión de prueba y deben conocer la nueva funcionalidad que está siendo puesta a prueba. Con este conocimiento los usuarios serán capaces de brindar feedback de la nueva funcionalidad.
 
