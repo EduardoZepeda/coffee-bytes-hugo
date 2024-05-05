@@ -30,6 +30,8 @@ Facebook must use some kind of similar technology to censor images that include 
 
 Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
 
+As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/the-rise-and-fall-of-the-ai-bubble/).
+
 ## Installation of tesseract-ocr
 
 To perform OCR with Python we will need tesseract, which is the library that handles all the heavy lifting and image processing.

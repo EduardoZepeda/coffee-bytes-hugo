@@ -3,7 +3,7 @@ title: "Django Rest Framework and JWT to authenticate users"
 date: "2021-06-14"
 categories:
 - "django"
-
+- javascript
 coverImage: "images/JWT.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/es-es/@iamikeee/"
 description: "Learn how to implement basic authentication in Django using JWT and Django Rest Framework via access and refresh tokens."
@@ -20,7 +20,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-JWTs (JSON Web Tokens) have become extremely popular, some even consider them a replacement for the classic tokens used by other frameworks, such as the Django Rest Framework. Using JWT or regular tokens (SWT) allows you to store all your session information directly on the token and they are also cryptographically signed, sounds good doesn't it? Read on to the end to learn more about it.
+JWTs (JSON Web Tokens) have become extremely popular, some even consider them a replacement for the classic tokens used by other frameworks, such as the Django Rest Framework. Using JWT or regular tokens (SWT) allows you to store all your session information directly on the token and they are also cryptographically signed, sounds good doesn't it? 
 
 ## What is JWT?
 
@@ -41,7 +41,7 @@ A JWT (JSON Web Token) is divided by points into three parts:
 2. The information contained in the token.
 3. The cryptographic signature.
 
-Parts of a JWT: header, content and signature](images/JWTDjango.png "Structure of a JWT: Algorithm, content and signature")
+![Parts of a JWT: header, content and signature](images/JWTDjango.png "Structure of a JWT: Algorithm, content and signature")
 
 Note how we can use the central part to store arbitrary content that we want, such as a user's session data or other information that we consider pertinent.
 
@@ -109,24 +109,24 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 
-class Protegida(APIView):
+class Protected(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        return Response({"content": "Esta vista está protegida"})
+        return Response({"content": "This view is protected"})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
-    path('protegida/', Protegida.as_view(), name='protegida')
+    path('protected/', Protected.as_view(), name='protected')
 ]
 ```
 
 If we try to make a request to the url _/protected/_ it will warn us that we are not sending the proper authentication credentials.
 
 ```bash
-curl http://127.0.0.1:8000/protegida/ {"detail":"Authentication credentials were not provided."}
+curl http://127.0.0.1:8000/protected/ {"detail":"Authentication credentials were not provided."}
 ```
 
 If you don't know how to use curl check my [basic GNU/Linux commands](/en/linux-commands-you-should-know-part-two/) entry where I explain the basics. You can also use Postman, http or any other option.
@@ -142,7 +142,7 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 "access":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzMzYwMDM2LCJqdGkiOiIzYzY2MDI3YzhiMjE0NmM4OGQ5NTY0MGUxYzc1ODAxYSIsInVzZXJfaWQiOjJ9.juG7sbemKUOTEnzNv4XiXCfChrG3q9wBw4Sj0g1L9EM"}
 ```
 
-![Pantalla de Django Rest Framework que pide username y Password](images/JWTApiEndPoint.png)
+![Django REST Framework screen, username and password requested](images/JWTApiEndPoint.png "Django REST Framework screen, username and password requested")
 
 ### Access token in JWT
 
@@ -165,7 +165,7 @@ Notice how in the content part (data) you can see that the _user_id_ is equal to
 Now let's try to use the access token we obtained to access the protected view. Make sure you are using the _"access"_ token, not the _"refresh"_ token.
 
 ```bash
-curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzxOTA5MmY4ZTJhNzNkZDM3YyIsInVzZXJfaWQiOjJ9.ibQPgQuEgnuTY6PGja-GLZv4TrAQtKKCgue_muJKlE4" http://127.0.0.1:8000/protegida/ {"content":"Esta vista está protegida"}
+curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzxOTA5MmY4ZTJhNzNkZDM3YyIsInVzZXJfaWQiOjJ9.ibQPgQuEgnuTY6PGja-GLZv4TrAQtKKCgue_muJKlE4" http://127.0.0.1:8000/protected/ {"content":"Esta vista está protected"}
 ```
 
 ## Expiration of a JWT
@@ -173,7 +173,7 @@ curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90
 If you followed the example and let a few minutes pass you will notice that the access token expires and will no longer be valid. **The access token has a default duration of 5 minutes**, this is to avoid problems if someone manages to intercept it.
 
 ```bash
-curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzxOTA5MmY4ZTJhNzNkZDM3YyIsInVzZXJfaWQiOjJ9.ibQPgQuEgnuTY6PGja-GLZv4TrAQtKKCgue_muJKlE4" http://127.0.0.1:8000/protegida/ {"detail":"Given token not valid for any token type","code":"token_not_valid","messages":[{"token_class":"AccessToken","token_type":"access","message":"Token is invalid or expired"}]}
+curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzxOTA5MmY4ZTJhNzNkZDM3YyIsInVzZXJfaWQiOjJ9.ibQPgQuEgnuTY6PGja-GLZv4TrAQtKKCgue_muJKlE4" http://127.0.0.1:8000/protected/ {"detail":"Given token not valid for any token type","code":"token_not_valid","messages":[{"token_class":"AccessToken","token_type":"access","message":"Token is invalid or expired"}]}
 ```
 
 ## Update access token
@@ -202,8 +202,9 @@ Please check [the official django-rest-framework-simplejwt documentation](https:
 
 ## Problems with JWTs
 
-You probably don't want your users to be entering username and password every time they use your application, you probably want to keep the values of these two tokens for later use and you are wondering which is the right choice, Local Storage or in the cookies?
+Not everything is a bed of roses when dealing with JSON Web Tokens. You probably don't want your users to be entering username and password every time they use your application, you probably want to keep the values of these two tokens for later use and you are wondering which is the right choice, Local Storage or in the cookies?
 
 Well, the question brings a series of very difficult questions to answer that divide the opinions of the developers and leave us without a clear answer:
 
 How do I deal with a JWT with outdated information or permissions? What is the best way to invalidate a JWT on an external server or change the cryptographic key? What if the information I store in the JWT exceeds the size allowed per cookie? If instead of saving content in the JWT I only save the user ID, isn't that the same as a cookie?
+
