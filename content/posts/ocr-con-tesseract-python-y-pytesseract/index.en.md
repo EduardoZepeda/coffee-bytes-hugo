@@ -28,6 +28,8 @@ Or maybe a page that uploads images of your products with your prices written on
 
 Facebook must use some kind of similar technology to censor images that include offensive text, according to its policies, that are uploaded to its social network.
 
+![Facebook uses OCR to read the text on its images](images/facebook-screenshot-ocr.jpg "Facebook is capable of reading the text on its images")
+
 Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
 
 As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/the-rise-and-fall-of-the-ai-bubble/).
