@@ -61,7 +61,7 @@ package main
 func main() {
 
     c := make(chan string)
-    c <- "texto"
+    c <- "text"
 }
 // fatal error: all goroutines are asleep - deadlock!
 ```
@@ -78,7 +78,7 @@ import "fmt"
 func main() {
     var channel = make(chan string)
     channel <- "forty two"
-    fmt.Println(<-channel) // Esto debería de estar en otra goroutine
+    fmt.Println(<-channel) // This should be in other goroutine
     fmt.Println("Finished")
 }
 // fatal error: all goroutines are asleep - deadlock!
@@ -94,7 +94,7 @@ In a deadlock there is a goroutine waiting to read or write to a channel, howeve
 
 ### Prevent deadlocks on go with goroutines
 
-In the [introduction to channels in go](/en/go-use-of-channels-to-communicate-goroutines/), I told you that the default capacity of a channel is 0, this causes that we cannot store data in the channels by default. If we try to store a data in a channel, we will get an error from the compiler, because there is no other goroutine to receive the value immediately.
+In the [introduction to channels in go post](/en/go-use-of-channels-to-communicate-goroutines/), I told you that the **default capacity of a channel is 0**, this causes that we cannot store data in the channels by default. If we try to store a data in a channel, we will get an error from the compiler, because there is no other goroutine to receive the value immediately.
 
 To prevent a deadlock, we can immediately use the channel data by creating a goroutine that uses the channel value.
 
@@ -135,12 +135,12 @@ func main() {
     fmt.Println(<-channel)
     fmt.Println("Finished")
 }
-// No ocurre el error de deadlock
+// No deadlock error
 ```
 
 ## Resources on deadlocks in go
 
-To conclude the article, I will share with you some interesting resources about deadlocks.
+To conclude the article, I will share with you some interesting resources about deadlocks that I consider worth mentioning.
 
 * [Golang - Understanding channel, buffer, blocks, deadlocks and gorotuines](https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37).
 * [Why a goroutine block on channel is considered as deadlock?](https://stackoverflow.com/questions/61759204/why-a-go-routine-block-on-channel-is-considered-as-deadlock).

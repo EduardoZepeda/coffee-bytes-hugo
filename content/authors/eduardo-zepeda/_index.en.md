@@ -7,6 +7,8 @@ twitter: "@hello_wired"
 codewars: "EduardoZepeda"
 instagram: "eduardozepeda.dev"
 linkedin: "eduardomzepeda"
+website: "https://zeedu.dev"
+jobTitle: "Web developer"
 ---
 
 ## A little bit more about me
