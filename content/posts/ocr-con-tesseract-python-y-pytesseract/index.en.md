@@ -6,7 +6,7 @@ categories:
 - "Artificial Intelligence"
 coverImage: "images/OCR.jpg"
 coverImageCredits: "credits https://www.pexels.com/@cottonbro/"
-description: "Learn how to perform optical character recognition (OCR) on images using python, tesseract-ocr and pytesseract."
+description: "Learn how to perform optical character recognition (OCR) on images using python and pytesseract to convert an image to string"
 keywords:
 - python
 - artificial intelligence
@@ -16,7 +16,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Python is super versatile, it has a giant community that has libraries that allow to achieve great things with few lines of code, Optical Character Recognition (OCR) is one of them, for that you just need to install tesseract and the python bindings, called pytesseract.
+Python is super versatile, it has a giant community that has libraries that allow to achieve great things with few lines of code, Optical Character Recognition (OCR) is one of them, for that you just need to install tesseract and the python bindings, called pytesseract and you'll be ready to convert an image to a string.
 
 ## Applications of OCR
 
@@ -75,10 +75,10 @@ You will see that Spanish is now installed and we can use it to detect the text 
 
 Now let's put it to the test to recognize text in images, straight from the terminal. I am going to use the following image:
 
-![Image with text to be processed](images/imagen_con_texto.jpg "File: image_with_text.jpg")
+![Image with text to be processed](images/image_with_text.jpg "File: image_with_text.jpg")
 
 ```bash
-tesseract imagen_con_texto.jpg -
+tesseract image_with_text.jpg -
 Warning: Invalid resolution 0 dpi. Using 70 instead.
 Estimating resolution as 139
 Do you have the time to listen to me whine
@@ -95,7 +95,7 @@ It is possible to tell tesseract which OCR engine to use:
 * 3: Default, whichever is available
 
 ```bash
-tesseract imagen_con_texto.jpg - --oem 1
+tesseract image_with_text.jpg - --oem 1
 ```
 
 Consider that **not all language files work with the original tesseract** (0 and 3). Although generally the neural networks one is the one that gives the best result. You can find the models compatible with the original tesseract and neural networks in the [tesseract repository](https://github.com/tesseract-ocr/tessdata).
@@ -115,7 +115,7 @@ After installation we add pytesseract (the python bindings) and pillow (for imag
 pipenv install pytesseract pillow
 ```
 
-## Read text from images with python
+## Read strings from images with python
 
 First let's check the languages we have installed.
 
@@ -128,9 +128,9 @@ print(pytesseract.get_languages())
 # ['eng', 'osd', 'spa']
 ```
 
-Now that we have the languages, we can read the text of our images.
+Now that we have the languages, we can read the text that's in our images and process it as a string in our script.
 
-The code is quite short and self-explanatory. Basically we pass the image as an argument to pytesseract's _image_to_string()_ method.
+The code is quite short and self-explanatory. Basically we pass the image as an argument to pytesseract's *image_to_string* method.
 
 ```python
 import pytesseract
@@ -138,7 +138,7 @@ import pytesseract
 from PIL import Image
 import pytesseract
 
-img = Image.open("nuestra_imagen.jpg") # Open the image with pillow
+img = Image.open("image_with_text.jpg") # Open the image with pillow
 img.load()
 text = pytesseract.image_to_string(img, lang='eng') # Extract image's text
 print(text)
@@ -146,9 +146,9 @@ print(text)
 # Do you have the time to listen to me whine...
 ```
 
-_image_to_string()_ can receive as argument the language in which we want it to detect the text.
+*image_to_string* method can receive as argument the language in which we want it to detect the text.
 
-Tesseract when with a method with which we can obtain much more information from the image, _image_to_data()_, available for versions higher than 3.05.
+Tesseract when with a method with which we can obtain much more information from the image, *image_to_data*, available for versions higher than 3.05.
 
 ```python
 data = pytesseract.image_to_data(img)

@@ -10,8 +10,7 @@ categories:
 coverImage: images/OCR.jpg
 coverImageCredits: Créditos https://www.pexels.com/@cottonbro/
 date: '2021-09-28'
-description: Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre
-  imágenes usando python, tesseract-ocr y pytesseract.
+description: Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre imágenes usando python, tesseract-ocr y pytesseract, para convertir imágenes en strings.
 keywords:
 - python
 - inteligencia artificial
@@ -121,7 +120,7 @@ Tras la instalación agregamos pytesseract (los bindings de python) y pillow (pa
 pip install pytesseract pillow
 ```
 
-### Leer texto de imágenes con pytesseract
+### Leer cadenas de texto o strings de imágenes con pytesseract
 
 Lo primero es revisar los lenguajes que tenemos instalados.
 
@@ -136,7 +135,7 @@ print(pytesseract.get_languages())
 
 Ahora que ya tenemos los lenguajes, podemos leer el texto de nuestras imágenes.
 
-El código necesario es bastante corto y explicativo, por si mismo. Básicamente le pasamos la imagen como argumento al método _image\_to\_string()_ de pytesseract.
+El código necesario es bastante corto y explicativo, por si mismo. Básicamente le pasamos la imagen como argumento al método *image_to_string* de pytesseract.
 
 ```python
 import pytesseract
@@ -152,9 +151,9 @@ print(text)
 # Do you have the time to listen to me whine...
 ```
 
-_image\_to\_string()_ puede recibir como argumento el lenguaje en el que queremos que detecte el texto.
+*image_to_string* puede recibir como argumento el lenguaje en el que queremos que detecte el texto.
 
-Tesseract cuando con un método con el que podemos obtener mucha más información de la imagen, _image\_to\_data()_, disponible para versiones superiores a la 3.05
+Tesseract incluye un método con el cual podemos obtener mucha más información de la imagen: *image_to_data*, este está disponible para versiones superiores a la 3.05.
 
 ```python
 data = pytesseract.image_to_data(img)
