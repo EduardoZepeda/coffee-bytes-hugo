@@ -32,7 +32,7 @@ A few years later, thanks to the recommendation of one of my best friends, I got
 
 While working at the cyber café, I decided to study chemistry because I was good at mathematics and exact sciences. Along the way I created another blog called "Lluvia de fotones" (Rain of Photons) that I ran while I was taking my classes.
 
-I didn't like university (in general, not only my career of choice), I found it slow-going, boring, protocolary and full of nonsense. Throughout my time at the university, knowing how to use a computer to search for information gave me many advantages over my less skilled classmates.
+I didn't like university (in general, not only my career I chose), I found it slow-going, boring, protocolary and full of nonsense. Throughout my time at the university, knowing how to use a computer to search for information gave me many advantages over my less skilled classmates.
 
 I finished my degree and **graduated in the top three GPAs of my class**. However, after a cursory glance at the available workplaces in my hometown, I decided never to practice.
 
@@ -56,7 +56,7 @@ In Linux I learned how to install programs and the basic commands. Later I learn
 
 PHP was my first experience with a programming language, and also the shortest. After reading a thick book called Beginning PHP and MySQL, written by W. Jason Gilmore at the municipal library, and learning quite a few basic concepts I was quite overwhelmed with the large amount of unnecessary functions, its syntax seemed chimerical and whimsical, and I was quite disappointed when I learned that the language was incapable of producing desktop applications in a simple way.
 
-PHP had introduced me to the world of programming relatively easily, but I still felt that the language was not for me... but then came Python.
+PHP had introduced me to the world of programming relatively easily, but I still felt that the language was not for me... but then I met Python.
 
 ## Language with the name of a group of humorists
 
