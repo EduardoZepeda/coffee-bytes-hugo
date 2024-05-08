@@ -21,7 +21,7 @@ authors:
 
 Codewars is a social network of programmers who get together to challenge each other to solve code challenges. Codewars is one of **the best websites for practicing algorithms and solving Katas**. Katas? Yes, as in Karate.
 
-### What are katas?
+### What are katas in codewars?
 
 In the spirit of martial arts, more specifically Karate, these code problems are called _katas_. The _katas_ are divided, ascendingly, according to their difficulty. There are katas from 8th kyu to 1st kyu, with 1st kyu being the most difficult type of _kata_ of all.
 
