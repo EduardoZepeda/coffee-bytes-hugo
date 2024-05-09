@@ -20,7 +20,7 @@ Did you know that Django keeps track of each of the models you create for your p
 
 Sorry for taking so long to write! I've been busy moving the frontend of my blog to Frontity, a React framework for Wordpress, and also moving to a new apartment. Maybe I'll talk a bit about Frontity in a future post. For now let's get on with it.
 
-Before we start, if you have no idea what Django is for visit my post where I talk about [the definitive guide to Django](/en/the-definitive-guide-to-django/) If you've used Django before, let's move on.
+Before we start, if you have no idea what Django is for, visit my post where I talk about (why you should use django)[/en/why-should-you-use-django-framework/] If you've used Django before, let's move on.
 
 ## ContentType and models
 
@@ -30,13 +30,22 @@ ContentTypes is a special **Django model that registers each of the models that 
 
 ContentType **serves to relate models with other models**, as if it were a foreign key, but with the advantage that the type of model with which we relate it can be different for each table entry.
 
-Imagine a simple social network, where we have different types of content; a template for videos, a template for images and a template for text. ContentType allows us to create a model that references any of our three models in a simple way.
+``` mermaid
+graph TD;
+  ContentType-->log_entry;
+  ContentType-->permission;
+  ContentType-->group;
+  ContentType-->user;
+  ContentType-->your_model;
+```
+
+Imagine a simple social network, where we have different types of content; a template for videos, a template for images and a template for text. ContentType allows us to create a model that references any of our three models in a simple way, even if they're completely different models.
 
 ## How to use ContentType?
 
 To exemplify how ContentType works, let's create a django project, with a model:
 
-First let's create a virtual environment with [Pipenv, the virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-dont-know/).
+First let's create a virtual environment with [Pipenv, the virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-dont-know/). Or you can also use pip.
 
 ```bash
 pipenv shell
@@ -74,7 +83,7 @@ from django.db import models
 class Videogame(models.Model):
     name = models.CharField(max_length=256)
     created = models.DateTimeField(auto_now_add=True)
-    modified    = models.DateTimeField(auto_now=True)
+    modified = models.DateTimeField(auto_now=True)
 ```
 
 We must remember to add our newly created app to our _settings.py_ file.
@@ -109,6 +118,8 @@ python manage.py shell
 ```
 
 Once in the terminal, let's import the _ContentType_ model.
+
+### How to get models from ContentType in Django?
 
 Just like any other model, we can use your ORM to get the data from the models.
 

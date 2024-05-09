@@ -21,7 +21,7 @@ title: ¿Qué hace la aplicación ContentType en Django?
 
 ¡Perdón por tardar tanto en escribir! He estado ocupado mudando el frontend de mi blog a Frontity, un framework de React para Wordpress, y también mudándome a un nuevo departamento. Quizás hable un poco al respecto de Frontity en alguna entrada futura. Por ahora continuemos con el tema.
 
-Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo sobre [la guia definitiva de Django](/es/la-guia-definitiva-de-django/) Si ya has usado Django anteriormente, sigamos adelante.
+Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo [sobre porque deberías usar Django](/es/por-que-deberias-usar-django-framework/). Si ya has usado Django anteriormente, sigamos adelante.
 
 ## ContentType y los modelos
 
@@ -31,7 +31,16 @@ ContentTypes es un **modelo especial de Django que registra cada uno de los mode
 
 ContentType **sirve para relacionar modelos con otros modelos**, como si fuera una foreign key (llave foránea), pero con la ventaja de que el tipo de modelo con el cual lo relacionemos puede ser diferente para cada entrada de la tabla.
 
-Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido; un modelo para videos, un modelo para imágenes y un modelo para textos. ContentType nos permite crear un modelo que haga referenciar a cualquiera de nuestros tres modelos de una manera sencilla.
+``` mermaid
+graph TD;
+  ContentType-->log_entry;
+  ContentType-->permission;
+  ContentType-->group;
+  ContentType-->user;
+  ContentType-->your_model;
+```
+
+Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido; un modelo para videos, un modelo para imágenes y un modelo para textos. ContentType nos permite crear un modelo que haga referenciar a cualquiera de nuestros tres modelos de una manera sencilla, incluso si son modelos completamente diferentes.
 
 ## ¿Cómo usar ContentType?
 
@@ -110,6 +119,8 @@ python manage.py shell
 ```
 
 Una vez en la terminal, importemos el modelo _ContentType_.
+
+### Como obtener modelos de ContenType en Django?
 
 Justo como cualquier otro modelo, podemos usar su ORM para obtener los datos de los modelos.
 
