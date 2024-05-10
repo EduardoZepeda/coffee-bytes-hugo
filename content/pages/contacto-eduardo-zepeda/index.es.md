@@ -1,4 +1,6 @@
 ---
+aliases:
+- /contacto/
 title: "Contactar a Eduardo Zepeda"
 date: "2018-09-12"
 noindex: true

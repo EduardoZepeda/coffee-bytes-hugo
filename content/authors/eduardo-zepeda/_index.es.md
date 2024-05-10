@@ -1,6 +1,7 @@
 ---
 aliases:
 - /authors/eduardo-zepeda/
+- /users/me
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1690065701/wallhaven-l3z1vl_rh7gs4.jpg'
