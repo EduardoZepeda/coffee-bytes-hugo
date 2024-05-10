@@ -2,7 +2,7 @@
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1690065701/wallhaven-l3z1vl_rh7gs4.jpg'
-summary: "Web developer and GNU/Linux enthusiast always learning something new. I believe in choosing the right tool for the job and that simplicity is the ultimate sophistication. I'm under the impression that being perfect is the enemy of getting things done. I also believe in the goodnesses of cryptocurrencies outside of monetary speculation."
+summary: "Web developer and GNU/Linux enthusiast. I believe in choosing the right tool for the job and that simplicity is the ultimate sophistication. Better done than perfect. I also believe in the goodnesses of cryptocurrencies outside of monetary speculation."
 twitter: "@hello_wired"
 codewars: "EduardoZepeda"
 instagram: "eduardozepeda.dev"
