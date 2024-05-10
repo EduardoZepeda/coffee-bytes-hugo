@@ -5,7 +5,6 @@ aliases:
 - /docker-compose-
 - /docker-compose-tutorial-con-comandos-en-gnu-linux//1000
 - /docker-curso-practico-con-ejemplos-en-gnu-linux/
-- /tutorial-de-comandos-basicos-de-docker//1000
 authors:
 - Eduardo Zepeda
 categories:
