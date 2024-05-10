@@ -1,4 +1,6 @@
 ---
+aliases:
+- /go-profiling-or-basic-profiling-of-cpu-usage/
 title: "Go: profiling or basic profiling of CPU usage"
 date: "2022-02-16"
 categories:

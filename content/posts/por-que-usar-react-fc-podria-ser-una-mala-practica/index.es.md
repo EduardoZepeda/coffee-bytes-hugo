@@ -2,6 +2,7 @@
 aliases:
 - /por-que-usar-react-fc-podria-ser-una-mala-practica
 - /por-que-usar-react.fc-podria-ser-una-mala-practica
+- /por-que-usar-react.fc-podria-ser-una-mala-practica//1000
 authors:
 - Eduardo Zepeda
 categories:

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /cookiecutter-django-for-configuring-and-deploying-in-django/
 title: "Cookiecutter-django for configuring and deploying in Django"
 date: "2020-10-20"
 categories:

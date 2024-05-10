@@ -1,4 +1,6 @@
 ---
+aliases:
+- /how-to-create-a-command-in-django/
 title: "How to create a command in django?"
 date: "2021-01-21"
 categories:

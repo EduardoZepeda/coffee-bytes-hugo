@@ -1,4 +1,6 @@
 ---
+aliases:
+- /go-structs-herencia-polimorfismo-y-encapsulacion//1000
 title: "Go: Structs, inheritance, polymorphism and encapsulation"
 date: "2022-01-04"
 categories:
@@ -70,7 +72,7 @@ What if we want a struct with many fields of the same type? Well, obviously **th
 
 ## Privacy and encapsulation of structs
 
-To mark a struct, function or variable as private or public, as well as their respective fields for the struct, it is sufficient to declare the first letter of the field with upper or lower case, for public and private, respectively.
+To mark a struct, function or variable as private or public, as well as their respective fields for the struct, **it is sufficient to declare the first letter of the field with upper or lower case**, for public and private, respectively.
 
 Personally, I think this is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*.
 
@@ -107,7 +109,7 @@ func (myStructVariable *Videogame) IncreaseYear(){
 }
 ```
 
-And once this "method" is declared, we can call the method we created through an instance of the struct. Notice how it does not receive any argument but behaves as a method.
+And once this "method" is declared, we can call the method we created through an instance of the struct. **Notice how it does not receive any argument but behaves as a method.**
 
 ```go
 videogame.IncreaseYear()
@@ -222,3 +224,5 @@ calculate(mirectangle)
 // Area 4
 // Area 8
 ```
+
+Surely if you come from other languages you will find Go syntax quite capricious, but I am sure you will be mastering it in a very short time, if I did it for you it will be a piece of cake.

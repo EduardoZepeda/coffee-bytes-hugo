@@ -1,6 +1,8 @@
 ---
 aliases:
 - /full-text-search-y-busquedas-con-django-y-postgres
+- /busquedas-de-texto-con-django-y-postgres
+- /full-text-search-y-busquedas-con-django-y-postgres//1000
 authors:
 - Eduardo Zepeda
 categories:

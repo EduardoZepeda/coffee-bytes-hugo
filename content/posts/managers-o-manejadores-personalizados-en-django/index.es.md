@@ -1,6 +1,7 @@
 ---
 aliases:
 - /managers-o-manejadores-personalizados-en-django
+- /managers-o-manejadores-personalizados-en-django/feed/
 authors:
 - Eduardo Zepeda
 categories:

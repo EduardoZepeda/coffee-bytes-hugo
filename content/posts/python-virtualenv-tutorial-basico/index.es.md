@@ -2,6 +2,7 @@
 aliases:
 - /python-virtualenv-tutorial-basico
 - /python-virtualenv-tutorial-basico-en-linux
+- /para-que-sirve-virtualenv/
 authors:
 - Eduardo Zepeda
 categories:

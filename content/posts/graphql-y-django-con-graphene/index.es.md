@@ -2,6 +2,8 @@
 aliases:
 - /graphql-y-django-con-graphene
 - /graphene-y-django-tutorial-de-queries-y-mutaciones-en-graphql
+- /graphql-y-django-con-graphene//1000
+- /graphql-y-django-con-graphene/feed/
 authors:
 - Eduardo Zepeda
 categories:

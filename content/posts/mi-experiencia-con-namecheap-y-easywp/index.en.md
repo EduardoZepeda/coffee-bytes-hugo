@@ -1,4 +1,6 @@
 ---
+aliases:
+- /my-experience-using-easywp-and-namecheap/
 title: "My experience using EasyWP and namecheap"
 date: "2019-05-02"
 categories:

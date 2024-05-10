@@ -1,4 +1,6 @@
 ---
+aliases:
+- /django-annotate-y-aggregate-explicados//1000
 title: "Django Annotate and aggregate explained"
 date: "2020-11-17"
 categories:

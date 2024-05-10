@@ -1,6 +1,7 @@
 ---
 aliases:
 - /que-hace-la-aplicacion-contenttype-en-django
+- /que-hace-la-aplicacion-contenttype-en-django/feed/
 authors:
 - Eduardo Zepeda
 categories:

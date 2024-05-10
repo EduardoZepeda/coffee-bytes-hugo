@@ -2,6 +2,9 @@
 aliases:
 - /como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django
 - /como-escalar-django-para-manejar-millones-de-vistas
+- /como-mejorar-el-rendimiento/
+- /maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/
+- /tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/
 authors:
 - Eduardo Zepeda
 categories:

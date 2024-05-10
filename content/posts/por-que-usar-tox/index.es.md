@@ -2,6 +2,7 @@
 aliases:
 - /por-que-usar-tox
 - /testeo-con-tox-en-python-tutorial-desde-cero
+- /testeo-con-tox-en-python-tutorial-desde-cero//1000
 authors:
 - Eduardo Zepeda
 categories:

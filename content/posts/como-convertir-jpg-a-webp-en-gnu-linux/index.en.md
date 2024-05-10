@@ -1,4 +1,6 @@
 ---
+aliases:
+- /how-to-convert-jpg-to-webp-on-gnu-linux/
 title: "How to convert jpg to webp on GNU Linux?"
 date: "2020-09-10"
 categories:

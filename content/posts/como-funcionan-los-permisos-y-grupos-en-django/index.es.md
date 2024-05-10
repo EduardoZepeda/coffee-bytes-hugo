@@ -1,6 +1,7 @@
 ---
 aliases:
 - /como-funcionan-los-permisos-y-grupos-en-django
+- /como-funcionan-los-permisos-y-grupos-en-django//1000
 authors:
 - Eduardo Zepeda
 categories:

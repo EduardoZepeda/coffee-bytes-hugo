@@ -2,6 +2,7 @@
 aliases:
 - /go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato
 - /go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
+- /golang-introduccion-al-lenguaje-variables-y-tipos-de-datos/
 authors:
 - Eduardo Zepeda
 categories:

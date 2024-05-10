@@ -1,4 +1,5 @@
 ---
+aliases: /what-is-docker-and-what-is-it-for/
 title: "What is Docker and what is it for?"
 date: "2020-09-29"
 categories:

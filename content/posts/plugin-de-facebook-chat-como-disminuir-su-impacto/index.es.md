@@ -1,6 +1,7 @@
 ---
 aliases:
 - /plugin-de-facebook-chat-como-disminuir-su-impacto
+- /plugin-de-facebook-chat-como-disminuir-su-impacto/reduceelimpactofb-chatplugin/feed/
 authors:
 - Eduardo Zepeda
 categories:

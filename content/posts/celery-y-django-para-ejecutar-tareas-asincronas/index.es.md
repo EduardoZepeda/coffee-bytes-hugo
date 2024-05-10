@@ -1,6 +1,10 @@
 ---
 aliases:
 - /celery-y-django-para-ejecutar-tareas-asincronas
+- /celery-y-django-para-ejecutar-tareas-asincronas//1000
+- /celery-y-django-para-ejecutar-tareas-asincronas/feed/
+- /tareas-periodicas-con-celery-y-django/tareasperiodicasceleryydjango/
+- /tareas-periodicas-con-celery-y-django/tareasperiodicasceleryydjango/feed/
 authors:
 - Eduardo Zepeda
 categories:

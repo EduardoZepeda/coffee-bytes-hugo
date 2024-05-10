@@ -1,6 +1,7 @@
 ---
 aliases:
 - /por-que-deberias-usar-django-framework
+- /por-que-deberias-usardjangoframework/
 authors:
 - Eduardo Zepeda
 categories:

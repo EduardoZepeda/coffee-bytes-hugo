@@ -1,6 +1,8 @@
 ---
 aliases:
 - /react-usecallback-usememo-y-memo-diferencias-y-usos
+- /react-memo-y-usecallback-para-evitar-renderizaciones/
+- /react-usecallback-usememo-y-memo-diferencias-y-usos//1000
 authors:
 - Eduardo Zepeda
 categories:

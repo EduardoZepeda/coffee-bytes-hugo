@@ -1,9 +1,10 @@
 ---
+aliases:
+- /caching-in-django-rest-framework-with-memcached/
 title: "Caching in Django REST Framework using memcached"
 date: "2021-09-07"
 categories:
 - "django"
-
 coverImage: "images/CacheConMemcachedYPymemcache.jpg"
 coverImageCredits: "Credits https://www.pexels.com/es-es/@airamdphoto/"
 description: "Learn how to implement and configure different levels of caching in your Django REST Framework application using memcached as a backend."
@@ -14,7 +15,6 @@ keywords:
 - REST
 - performance
 - API
-
 authors:
 - Eduardo Zepeda
 ---

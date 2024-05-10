@@ -1,4 +1,6 @@
 ---
+aliases:
+- /django-and-htmx-modern-web-apps-without-writing-js/
 title: "Django and htmx, modern web apps without writing JS"
 date: "2021-07-14"
 categories:

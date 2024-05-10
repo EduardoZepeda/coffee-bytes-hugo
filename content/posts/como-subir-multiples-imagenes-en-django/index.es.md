@@ -1,6 +1,7 @@
 ---
 aliases:
 - /como-subir-multiples-imagenes-en-django
+- /como-subir-multiples-imagenes-en-django//1000
 authors:
 - Eduardo Zepeda
 categories:

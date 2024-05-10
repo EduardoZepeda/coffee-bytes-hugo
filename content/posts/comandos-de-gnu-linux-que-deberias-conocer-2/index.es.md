@@ -2,6 +2,7 @@
 aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer-2
 - /comandos-de-linux-que-deberias-conocer-segunda-parte
+- /comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/
 authors:
 - Eduardo Zepeda
 categories:

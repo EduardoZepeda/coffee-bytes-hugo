@@ -1,6 +1,7 @@
 ---
 aliases:
 - /para-que-sirve-django-genericforeignkey
+- /para-que-sirve-django-genericforeignkey/feed/
 authors:
 - Eduardo Zepeda
 categories:

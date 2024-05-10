@@ -1,6 +1,7 @@
 ---
 aliases:
 - /go-channels-entendiendo-los-deadlocks-o-puntos-muertos
+- /go-channels-entendiendo-los-deadlocks-o-puntos-muertos//1000
 authors:
 - Eduardo Zepeda
 categories:

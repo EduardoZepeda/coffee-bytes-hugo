@@ -2,6 +2,7 @@
 aliases:
 - /go-arrays-y-slices
 - /go-slices-y-arrays
+- /go-slices-y-arrays//1000
 authors:
 - Eduardo Zepeda
 categories:

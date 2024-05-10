@@ -3,6 +3,8 @@ aliases:
 - /docker-curso-practico-con-ejemplos-en-gnu-linux
 - /los-comandos-basicos-de-docker-y-su-uso
 - /tutorial-de-comandos-basicos-de-docker
+- /docker-tutorial-con-ejemplos-en-gnu-linux/
+- /tutorial-de-comandos-basicos-de-docker//1000
 authors:
 - Eduardo Zepeda
 categories:

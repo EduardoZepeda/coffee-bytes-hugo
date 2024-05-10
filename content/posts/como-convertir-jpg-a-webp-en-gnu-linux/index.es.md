@@ -1,6 +1,8 @@
 ---
 aliases:
 - /como-convertir-jpg-a-webp-en-gnu-linux
+- /como-convertir-jpg-a-webp-en-gnu-linux/convierte-a-webp/
+- /como-convertir-jpg-a-webp-en-gnu-linux/feed/
 authors:
 - Eduardo Zepeda
 categories:

@@ -1,6 +1,7 @@
 ---
 aliases:
 - /go-introduccion-a-las-goroutines-y-concurrencia
+- /es/go-introduccion-a-las-goroutines-y-concurrencia/es/go-introduccion-a-las-goroutines-y-concurrencia/
 authors:
 - Eduardo Zepeda
 categories:
@@ -42,7 +43,7 @@ Si aún así te parecen confusos y no entiendes la diferencia, dale una leída a
 
 ## Corrutinas en go
 
-Una [corrutina](https://es.wikipedia.org/wiki/Corrutina), en go, es **una función o método que se ejecuta concurrentemente junto con otras funciones o métodos**. En go, a las corrutinas se les conoce como **goroutines** o gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.
+Una [corrutina](https://es.wikipedia.org/wiki/Corrutina#?), en go, es **una función o método que se ejecuta concurrentemente junto con otras funciones o métodos**. En go, a las corrutinas se les conoce como **goroutines** o gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.
 
 Las [goroutines](/es/go-introduccion-a-las-goroutines-y-concurrencia/) son usadas en patrones de diseño, como el [patrón de diseño worker pool](/es/explicacion-del-patron-de-diseno-worker-pool/)
 

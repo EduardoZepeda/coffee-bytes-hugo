@@ -1,6 +1,7 @@
 ---
 aliases:
 - /go-funciones-argumentos-y-el-paquete-fmt
+- /go-funciones-argumentos-y-el-paquete-fmt//1000
 authors:
 - Eduardo Zepeda
 categories:

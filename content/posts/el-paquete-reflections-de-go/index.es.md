@@ -2,6 +2,7 @@
 aliases:
 - /el-paquete-reflections-de-go
 - /go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa
+- /en/go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa/
 authors:
 - Eduardo Zepeda
 categories:
@@ -14,7 +15,7 @@ keywords:
 - go
 - reflect
 title: 'Go con Reflect: Mayor Flexibilidad En Tu Código'
-url: /en/go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa
+url: /es/go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa
 ---
 
 El paquete "reflect" es una biblioteca útil en el lenguaje de programación Go que proporciona funciones para trabajar con la reflexión.

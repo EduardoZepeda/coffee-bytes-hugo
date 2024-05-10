@@ -1,4 +1,6 @@
 ---
+aliases:
+- /login-con-django-rest-framework-drf//1000
 title: "Login using Django Rest Framework DRF"
 date: "2021-08-17"
 categories:

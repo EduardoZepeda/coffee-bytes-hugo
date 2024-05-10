@@ -1,6 +1,8 @@
 ---
 aliases:
 - /como-crear-una-contrasena-segura
+- /como-crear-una-contrasena-segura/como_escribir_una_buena_contrasena/
+- /como-crear-una-contrasena-segura/feed/
 authors:
 - Eduardo Zepeda
 categories:

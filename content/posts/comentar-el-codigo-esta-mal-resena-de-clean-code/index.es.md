@@ -1,6 +1,7 @@
 ---
 aliases:
 - /comentar-el-codigo-esta-mal-resena-de-clean-code
+- /comentar-el-codigo-esta-mal-resena-de-clean-code/clean_code/
 authors:
 - Eduardo Zepeda
 categories:

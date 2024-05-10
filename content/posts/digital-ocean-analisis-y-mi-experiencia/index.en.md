@@ -1,4 +1,6 @@
 ---
+aliases:
+- /digital-ocean-analysis-and-my-experience-as-a-user/
 title: "Digital Ocean, analysis and my experience as a user"
 date: "2021-01-14"
 categories:

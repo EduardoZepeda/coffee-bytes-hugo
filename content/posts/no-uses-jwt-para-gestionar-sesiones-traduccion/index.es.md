@@ -1,6 +1,7 @@
 ---
 aliases:
 - /no-uses-jwt-para-gestionar-sesiones-traduccion
+- /dont-use-jwt-to-manage-sessions-translation/
 authors:
 - Eduardo Zepeda
 categories:

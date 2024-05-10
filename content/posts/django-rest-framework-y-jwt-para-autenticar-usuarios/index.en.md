@@ -1,4 +1,9 @@
 ---
+aliases:
+- /django-rest-framework-and-jwt-to-authenticate-users/
+- /django-rest-framework-y-jwt-para-autenticar-usuarios//1000
+- /django-rest-framework-y-jwt-para-autenticar-usuarios/feed/
+- /django-rest-framework-y-jwt-para-autenticar-usuarios/jwt/
 title: "Django Rest Framework and JWT to authenticate users"
 date: "2021-06-14"
 categories:

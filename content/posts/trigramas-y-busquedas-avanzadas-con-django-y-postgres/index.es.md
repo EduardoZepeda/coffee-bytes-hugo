@@ -1,6 +1,7 @@
 ---
 aliases:
 - /trigramas-y-busquedas-avanzadas-con-django-y-postgres
+- /trigramas-y-busquedas-avanzadas-con-django-y-postgres/feed/
 authors:
 - Eduardo Zepeda
 categories:

@@ -2,6 +2,7 @@
 aliases:
 - /migraciones-en-go-con-migrate
 - /tutorial-de-migraciones-en-go-con-migrate
+- /tutorial-de-migraciones-en-go-con-migrate//1000
 authors:
 - Eduardo Zepeda
 categories:

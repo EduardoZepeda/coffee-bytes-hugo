@@ -1,4 +1,6 @@
 ---
+aliases:
+- /logging-with-the-standard-library-in-go/
 title: "Logging with the standard library in Go"
 date: "2022-07-06"
 coverImage: "images/logging-en-go.jpg"

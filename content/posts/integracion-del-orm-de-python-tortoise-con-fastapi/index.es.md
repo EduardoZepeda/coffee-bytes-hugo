@@ -1,6 +1,7 @@
 ---
 aliases:
 - /integracion-del-orm-de-python-tortoise-con-fastapi
+- /integracion-del-orm-de-python-tortoise-con-fastapi//1000
 authors:
 - Eduardo Zepeda
 categories:

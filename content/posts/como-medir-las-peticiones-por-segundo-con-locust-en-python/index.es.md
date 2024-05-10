@@ -1,6 +1,7 @@
 ---
 aliases:
 - /como-medir-las-peticiones-por-segundo-con-locust-en-python
+- /como-medir-las-peticiones-por-segundo-con-locust-en-python//1000
 authors:
 - Eduardo Zepeda
 categories:

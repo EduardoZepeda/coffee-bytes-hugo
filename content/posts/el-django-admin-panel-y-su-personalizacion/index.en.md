@@ -1,4 +1,6 @@
 ---
+aliases:
+- /the-django-admin-panel-and-its-customization/
 title: "The django admin panel and its customization"
 date: "2021-09-14"
 categories:
@@ -10,6 +12,7 @@ description: "Learn how to customize the behavior of the django admin panel in a
 keywords:
 - django
 - python
+- admin
 
 authors:
 - Eduardo Zepeda
@@ -17,7 +20,7 @@ authors:
 
 One of the best features of django is that it has the django admin panel, a ready-to-use administration panel, with basic functions such as create, read, edit and delete models, users, groups and permissions. All ready to use just by setting up your application. But sometimes our needs are different, what if we want to modify the appearance or functions of the interface? Fortunately Django includes many functions to customize the behavior of the admin, I will explain some of them below.
 
-The django admin panel is one of [reasons why you should consider using Django](/en/why-should-you-use-django-framework/).
+The django admin panel is so well designed, and it works out of the box, is definitely one of the [reasons why you should consider using Django](/en/why-should-you-use-django-framework/) instead of other frameworks.
 
 ## Checking that django admin panel is active
 
@@ -93,7 +96,7 @@ Note the absence of the search bar
 
 If we click on the gray button in the upper right corner we can add a model.
 
-## Modifying the fields that appear in admin
+## Modifying the fields that appear in django admin
 
 In the _admin.py_ file inside our Django application we are going to inherit from the admin.ModelAdmin class.
 
@@ -107,7 +110,7 @@ from django.contrib import admin
 from .models import Videogame
 
 class VideogameAdmin(admin.ModelAdmin):
-      list_display = ('name', 'created') #Ahora la interfaz mostrará nombre, apellido y email de cada autor.
+      list_display = ('name', 'created') #now this field should show more data about
       search_fields = ('name', 'description')
 
 admin.site.register(Videogame, VideogameAdmin)
@@ -127,7 +130,7 @@ from django.contrib import admin
 from .models import Videogame
 
 class VideogameAdmin(admin.ModelAdmin):
-      list_display = ('name', 'created') #Ahora la interfaz mostrará nombre, apellido y email de cada autor.
+      list_display = ('name', 'created') 
       search_fields = ('name', 'description')
       fields = ('description', 'name', 'genre', 'rating')
 admin.site.register(Videogame, VideogameAdmin)
@@ -149,7 +152,7 @@ from django.contrib import admin
 from .models import Videogame
 
 class VideogameAdmin(admin.ModelAdmin):
-      list_display = ('name', 'created') #Ahora la interfaz mostrará nombre, apellido y email de cada autor.
+      list_display = ('name', 'created') 
       search_fields = ('name', 'description')
       fields = ('description', 'name', 'genre', 'rating')
       ordering = ('-name',)
@@ -162,16 +165,16 @@ Here we have told you to order them by name, in descending order, using the "-" 
 
 Note the arrangement of the models in descending order
 
-## Modifying the header, title and description
+## Modifying the header, title and description on django admin page
 
 If you want to give a personalized touch to the Django admin, even giving it the name of your business, or your client's business. You can do this by modifying the properties of the Admin model as follows:
 
 ```python
 # videogameStore/admin.py
 # ...
-admin.site.site_header = 'Nombre de mi sitio'
-admin.site.index_title = 'Panel de control de mi sitio'
-admin.site.site_title = 'Titulo en la pestaña del navegador'
+admin.site.site_header = 'Site name'
+admin.site.index_title = 'Control panel of the site'
+admin.site.site_title = 'title in the browser tab'
 ```
 
 Now you can see that in the main page of the admin you can see the changes we have made.
@@ -237,14 +240,13 @@ from .models import Videogame
 # Register your models here.
 
 class VideogameAdmin(admin.ModelAdmin):
-    # Ahora la interfaz mostrará nombre, apellido y email de cada autor.
     # ...
 
     def rate_five_stars(modeladmin, request, queryset):
         queryset.update(rating=5.0)
-        messages.success(request, "Se calificó con 5 estrellas")
+        messages.success(request, "Was rated with 5 stars")
 
-    admin.site.add_action(rate_five_stars, "Calificar con 5 estrellas")
+    admin.site.add_action(rate_five_stars, "Add 5 stars rating")
 ```
 
 Once the method is created, we add it to the admin through its _add_action()_ method, passing it the method we created and the name we want to appear on the screen to refer to that action, as the first and second arguments, respectively.

@@ -2,6 +2,7 @@
 aliases:
 - /devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores
 - /es/devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores/
+- /devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores/
 authors:
 - Eduardo Zepeda
 categories:

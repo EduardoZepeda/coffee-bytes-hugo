@@ -1,6 +1,7 @@
 ---
 aliases:
 - /go-importacion-de-paquetes-y-manejo-de-modulos
+- /go-importacion-de-paquetes-y-manejo-de-modulos//1000
 authors:
 - Eduardo Zepeda
 categories:

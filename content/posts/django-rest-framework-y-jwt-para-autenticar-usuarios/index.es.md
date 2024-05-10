@@ -1,6 +1,7 @@
 ---
 aliases:
 - /django-rest-framework-y-jwt-para-autenticar-usuarios
+- /autenticacion-usando-json-web-token-jwt-en-django
 authors:
 - Eduardo Zepeda
 categories:

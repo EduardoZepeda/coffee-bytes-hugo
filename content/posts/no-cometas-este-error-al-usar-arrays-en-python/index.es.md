@@ -1,6 +1,8 @@
 ---
 aliases:
 - /no-cometas-este-error-al-usar-arrays-en-python
+- /no-cometas-este-error-al-usar-arrays-en-python/feed/
+- /no-cometas-este-error-al-usar-arrays-en-python/nocometasesteerror/
 authors:
 - Eduardo Zepeda
 categories:

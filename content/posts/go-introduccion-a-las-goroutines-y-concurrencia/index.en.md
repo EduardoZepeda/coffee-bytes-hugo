@@ -36,9 +36,9 @@ I quote a sentence from the first resource that, in my opinion, sums up the diff
 
 If they still seem confusing and you don't understand the difference, give those posts a read and you should be ready to move on.
 
-## Corrutinas en go
+## Coroutines in go
 
-A [corroutine](https://es.wikipedia.org/wiki/Corrutina), in go, is **a function or method that runs concurrently with other functions or methods**. In go, corroutines are referred to as **goroutines** or goroutines. Even the main function, _main_, is executed inside one.
+A [coroutine](https://en.wikipedia.org/wiki/Coroutine#?), in go, is **a function or method that runs concurrently with other functions or methods**. In go, corroutines are referred to as **goroutines** or goroutines. Even the main function, _main_, is executed inside one.
 
 Goroutines are used in design patterns, such as the [worker-pool-design-pattern](/en/worker-pool-design-pattern-explanation/)
 
@@ -60,7 +60,7 @@ In the above case, due to its asynchronous nature, the goroutine does not stop c
 But then, how do we get our goroutine to run? The naive approach would be to use a sleep to pause the execution of the code. This, as you know, is nonsense, we can't be putting sleeps everywhere, the flow of the program would be unnecessarily slowed down!
 
 ```go
-// NO LO HAGAS
+// Don't
 time.Sleep(1 * time.Second)
 ```
 
@@ -76,7 +76,7 @@ Internally, a **WaitGroup** works with a counter, when the counter is at zero th
 var wg sync.WaitGroup
 
 wg.Wait()
-fmt.Println("Si el contador del waitgroup es mayor que cero se continuará con esta función.")
+fmt.Println("If waitgroup counter is greater than 0 it will continue the execution.")
 ```
 
 And how do we change the counter value?
@@ -99,8 +99,8 @@ go write("Hey")
 The **Done** method is responsible for decrementing one unit of the **WaitGroup** counter. We will call it to tell the **WaitGroup** that the goroutine has finished and decrement the counter by one.
 
 ```go
-func write(texto string, wg *sync.WaitGroup) {
-    fmt.Println(texto)
+func write(text string, wg *sync.WaitGroup) {
+    fmt.Println(text)
     wg.Done()
 }
 ```
@@ -108,8 +108,8 @@ func write(texto string, wg *sync.WaitGroup) {
 Remember that the instance of the **WaitGroup** (wg *) needs to be passed by reference or else we will not access the original **WaitGroup**.
 
 ```go
-func write(texto string, wg *sync.WaitGroup) {
-    fmt.Println(texto)
+func write(text string, wg *sync.WaitGroup) {
+    fmt.Println(text)
     defer wg.Done()
 }
 ```
@@ -123,7 +123,7 @@ Once the wg.wait counter becomes zero, program execution continues.
 ```go
 var wg sync.WaitGroup
 wg.Add(1)
-go escribirEnCanal("Ge", &wg)
+go writeInChannel("Hello", &wg)
 wg.Wait()
 ```
 
@@ -140,7 +140,7 @@ Remember that the parentheses that appear after the body of the function execute
 
 ```go
 go func(text string) {
-}("Texto")
+}("Text")
 ```
 
 ## More resources about goroutines

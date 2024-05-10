@@ -2,6 +2,8 @@
 aliases:
 - /pipenv-administrador-de-entornos-virtuales
 - /pipenv-el-administrador-de-entornos-virtuales-que-no-conoces
+- /administrador-de-entornos-virtuales-pipenv
+- /tutorial-de-pipenv/
 authors:
 - Eduardo Zepeda
 categories:

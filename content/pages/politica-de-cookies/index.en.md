@@ -1,4 +1,6 @@
 ---
+aliases:
+- /pages/politica-de-cookies
 title: "Política de cookies"
 date: "2021-07-23"
 noindex: true

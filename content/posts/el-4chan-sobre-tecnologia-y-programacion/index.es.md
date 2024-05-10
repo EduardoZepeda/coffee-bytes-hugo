@@ -1,6 +1,8 @@
 ---
 aliases:
 - /el-4chan-sobre-tecnologia-y-programacion
+- /el-4chan-sobre-tecnologia-y-programacion/el_4chan_sobre_programacion/
+- /el-4chan-sobre-tecnologia-y-programacion/feed/
 authors:
 - Eduardo Zepeda
 categories:

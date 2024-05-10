@@ -1,6 +1,7 @@
 ---
 aliases:
 - /como-crear-un-historial-de-productos-visitados-con-django-y-redis
+- /como-crear-un-historial-de-productos-visitados-con-django-y-redis/feed/
 authors:
 - Eduardo Zepeda
 categories:

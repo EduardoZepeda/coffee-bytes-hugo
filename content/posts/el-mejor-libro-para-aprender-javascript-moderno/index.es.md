@@ -1,6 +1,7 @@
 ---
 aliases:
 - /el-mejor-libro-para-aprender-javascript-moderno
+- /el-mejor-libro-para-aprender-javascript-moderno/feed/
 authors:
 - Eduardo Zepeda
 categories:

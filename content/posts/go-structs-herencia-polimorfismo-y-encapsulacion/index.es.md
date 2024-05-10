@@ -71,7 +71,7 @@ fmt.Println(myVideogame)
 
 ## Privacidad y encapsulación en los structs
 
-Para marcar un struct, función o variable como privada o pública, igual que sus respectivos campos para el struct, basta con declarar la primera letra del campo con mayúsculas o minúsculas, para público y privado, respectivamente.
+Para marcar un struct, función o variable como privada o pública, igual que sus respectivos campos para el struct, **basta con declarar la primera letra del campo con mayúsculas o minúsculas**, para público y privado, respectivamente.
 
 Personalmente, creo que este es uno de los aspectos más complicados de este lenguaje, ¿por qué? porque cuando necesites buscar un campo privado, probablemente necesites usar regex, en lugar de simplemente buscar por la palabra *private*.
 
@@ -108,7 +108,7 @@ func (myStructVariable *Videogame) IncreaseYear(){
 }
 ```
 
-Y una vez declarado este "método", podemos llamar al método que creamos a través de una instancia del struct. Nota como no recibe ningún argumento sino que se comporta como un método.
+Y una vez declarado este "método", podemos llamar al método que creamos a través de una instancia del struct. **Nota como no recibe ningún argumento sino que se comporta como un método.**
 
 ```go
 videogame.IncreaseYear()
@@ -223,3 +223,5 @@ calcular(miRectangulo)
 // Area 4
 // Area 8
 ```
+
+Seguramente si vienes de otros lenguajes te parecerá bastante caprichosa la sintaxis de Go, pero estoy seguro de que la estarás dominando en muy poco tiempo, si yo lo hice para ti será pan comido.

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /an-algorithm-problem-a-day/
 title: "An Algorithm Problem a Day"
 date: "2019-06-04"
 categories:

@@ -2,6 +2,7 @@
 aliases:
 - /hola-mundo-como-aprendi-a-programar
 - /hello-world-como-aprendi-a-programar
+- /hola-mundo/
 authors:
 - Eduardo Zepeda
 categories:

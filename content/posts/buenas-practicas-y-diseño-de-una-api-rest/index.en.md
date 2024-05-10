@@ -1,10 +1,11 @@
 ---
+aliases:
+- /best-practices-and-design-of-a-rest-api
 title: "REST API: Best practices and design"
 date: "2022-04-28"
 categories:
 - "software architecture"
 - "opinions"
-
 coverImage: "images/buenDisenoAPIREST.jpg"
 description: "Good practices for designing a REST API, how to version it, update it and nest resources in URIs."
 keywords:
@@ -12,7 +13,6 @@ keywords:
 - opinion
 - REST
 - api
-
 authors:
 - Eduardo Zepeda
 ---

@@ -1,6 +1,7 @@
 ---
 aliases:
 - /go-maps-o-diccionarios
+- /go-maps-o-diccionarios//1000
 authors:
 - Eduardo Zepeda
 categories:

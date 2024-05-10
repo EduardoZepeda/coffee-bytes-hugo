@@ -2,6 +2,7 @@
 aliases:
 - /go-uso-de-channels-canales
 - /go-uso-de-channels-o-canales-para-comunicar-goroutinas
+- /go-uso-de-channels-o-canales-para-comunicar-gorutinas/
 authors:
 - Eduardo Zepeda
 categories:

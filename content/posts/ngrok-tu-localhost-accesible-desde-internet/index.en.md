@@ -1,4 +1,7 @@
 ---
+aliases:
+- /ngrok-como-volver-publico-tu-localhost/
+- /ngrok-tu-localhost-accesible-desde-internet/feed/
 title: "Ngrok, your localhost accessible from the internet"
 date: "2021-04-29"
 categories:

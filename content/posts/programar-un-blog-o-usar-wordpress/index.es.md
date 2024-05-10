@@ -1,6 +1,8 @@
 ---
 aliases:
 - /programar-un-blog-o-usar-wordpress
+- /programar-un-blog-o-usar-wordpress/porque_decidi_usar_wordpress/
+- /programar-un-blog-o-usar-wordpress/porque_decidi_usar_wordpress/feed/
 authors:
 - Eduardo Zepeda
 categories:

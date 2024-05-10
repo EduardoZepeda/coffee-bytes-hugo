@@ -1,4 +1,6 @@
 ---
+aliases:
+- /no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/
 title: "No Te Obsesiones Con El Rendimiento De Tu Aplicacion Web"
 date: 2024-04-03
 categories:

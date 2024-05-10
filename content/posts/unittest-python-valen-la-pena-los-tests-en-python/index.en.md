@@ -1,4 +1,6 @@
 ---
+aliases:
+- /unittest-python-are-python-tests-worthwhile/
 title: "Unittest python are python tests worthwhile?"
 date: "2019-06-11"
 categories:

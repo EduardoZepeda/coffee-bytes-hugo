@@ -3,6 +3,7 @@ aliases:
 - /python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes
 - /python-vs-javascript-cual-es-el-mejor-en-2024
 - /python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
+- /python-vs-javascript-2021-cual-es-el-mejor-dife
 authors:
 - Eduardo Zepeda
 categories:

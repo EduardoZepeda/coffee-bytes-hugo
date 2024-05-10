@@ -1,6 +1,7 @@
 ---
 aliases:
 - /django-channels-consumers-scope-y-eventos
+- /django-channels-consumers-scope-y-eventos//1000
 authors:
 - Eduardo Zepeda
 categories:

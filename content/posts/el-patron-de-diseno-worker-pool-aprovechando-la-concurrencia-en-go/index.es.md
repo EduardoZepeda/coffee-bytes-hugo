@@ -2,6 +2,8 @@
 aliases:
 - /el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go
 - /explicacion-del-patron-de-diseno-worker-pool
+- /go-introduccion-a-las-goroutines-y-concurrencia/explicacion-del-patron-de-diseno-worker-pool/
+- /go-uso-de-channels-o-canales-para-comunicar-goroutinas/explicacion-del-patron-de-diseno-worker-pool/
 authors:
 - Eduardo Zepeda
 categories:

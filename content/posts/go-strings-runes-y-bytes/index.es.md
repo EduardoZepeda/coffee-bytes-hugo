@@ -1,6 +1,7 @@
 ---
 aliases:
 - /go-strings-runes-y-bytes
+- /go-strings-runes-y-bytes//1000
 authors:
 - Eduardo Zepeda
 categories:

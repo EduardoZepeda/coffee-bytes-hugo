@@ -1,4 +1,6 @@
 ---
+aliases:
+- /django-channels-channel-layers-grupos-y-usuarios//1000
 title: "Django channels: channel layers, groups and users"
 date: "2021-11-16"
 categories:

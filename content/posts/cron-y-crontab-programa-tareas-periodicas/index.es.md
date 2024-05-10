@@ -1,6 +1,9 @@
 ---
 aliases:
 - /cron-y-crontab-programa-tareas-periodicas
+- /cron-y-crontab-programa-tareas-periodicas/feed/
+- /cron-y-crontab-programa-tareas-periodicas/programa_tareas_periodicas_con_cron/
+- /programa-tus-tareas-periodicas-con-cron-y-crontab-en-gnulinux/
 authors:
 - Eduardo Zepeda
 categories:

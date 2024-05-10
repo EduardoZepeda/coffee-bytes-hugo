@@ -1,4 +1,6 @@
 ---
+aliases:
+- /understand-permissions-in-gnu-linux-and-the-chmod-command/
 title: "Mastering Chmod Command: Linux Permissions Simplified"
 date: "2019-05-29"
 categories:

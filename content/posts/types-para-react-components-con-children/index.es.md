@@ -1,6 +1,7 @@
 ---
 aliases:
 - /types-para-react-components-con-children
+- /types-para-react-components-con-children//1000
 authors:
 - Eduardo Zepeda
 categories:

@@ -1,4 +1,7 @@
 ---
+aliases:
+- /en/go-introduction-to-goroutines-and-concurrency/explanation-of-worker-pool-design-pattern/
+- /go-use-of-channels-to-communicate-goroutines/explanation-of-worker-pool-design-pattern/
 title: "Worker Pool Design Pattern Explanation"
 date: "2023-06-28"
 coverImage: "images/worker-pool-patron.jpg"

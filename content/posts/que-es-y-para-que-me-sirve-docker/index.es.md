@@ -2,6 +2,7 @@
 aliases:
 - /que-es-y-para-que-me-sirve-docker
 - /que-es-docker-y-para-que-sirve
+- /docker-que-es-y-para-que-sirve-explicacion/
 authors:
 - Eduardo Zepeda
 categories:
