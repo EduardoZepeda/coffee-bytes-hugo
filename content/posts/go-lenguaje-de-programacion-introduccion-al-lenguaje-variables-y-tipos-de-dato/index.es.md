@@ -13,26 +13,26 @@ description: 'Conoce las bases del lenguaje de programación go o golang: compil
   estructura de un archivo, variables y tipos de datos.'
 keywords:
 - go
-title: Go, introducción a variables y tipos de datos
+title: Go lenguaje de programación introducción a variables y tipos de datos
 url: /es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 ---
 
-Golang, también conocido como go, es un lenguaje de programación compilado desarrollado por Google. Es un lenguaje bastante apreciado según los desarrolladores de acuerdo a las últimos encuestas de Stackoverflow (2021), como puedes apreciar en mi post de [python vs go](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/), donde también comparo lo bueno, lo malo y lo feo de este lenguaje.
+Go, también conocido como go, es un lenguaje de programación compilado desarrollado por Google con el propósito de ser simple, sencillo de aprender, suficientemente rápido y centrado fuertemente en la concurrencia.
 
 ## ¿Qué es Go? Un poco sobre el lenguaje de programación
 
-Go o Golang es un lenguaje con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
+Go, también llamado Golang, es un lenguaje con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
 
 Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la concurrencia** y con tipado estático.
 
-### Aspectos geniales o ventajas de go
+## Aspectos geniales o ventajas de go como lenguaje
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
 * **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) es bastante sencillo
 * **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
 
-### Desventajas de Go
+## Mal diseño y desventajas de Go como lenguaje
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
@@ -47,7 +47,7 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 * **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * **~~Go no cuenta con generics~~** Go ya cuenta con soporte para generics desde su version 1.18.
 
-## Go cuida las buenas buenas prácticas de código
+## Buenas prácticas de código en Go
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
@@ -169,7 +169,7 @@ También **es posible compilar y correr el código en un solo paso** usando run 
 go run src/main.go
 ```
 
-### Diferencias entre run y build
+### Diferencias entre run y build en Go
 
 La diferencia entre build y run radica en que **run compila el código y lo ejecuta desde un directorio temporal**, y posteriormente limpia los archivos generados. Si agregamos el flag --work, podremos ver la ubicación de este directorio.
 
@@ -178,7 +178,7 @@ go run --work src/main.go
 # WORK=/tmp/go-build983014220
 ```
 
-## Tipos primitivos de datos
+## Tipos primitivos de datos en Go
 
 Dado que estamos tratando con un lenguaje compilado, necesitamos decirle al compilador el tipo de dato que usaremos para cada variable o constante.
 

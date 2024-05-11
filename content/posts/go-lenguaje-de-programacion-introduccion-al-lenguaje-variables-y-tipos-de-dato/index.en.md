@@ -61,7 +61,7 @@ The official mascot is a ground squirrel and it is popular among the community t
 
 ![Go mascot and logo](images/GoMascotAndLogo.png "On the left the Go mascot. On the right the official logo")
 
-## Installation
+## Go Installation
 
 Go can be found in most GNU/Linux distribution repositories. In debian and ubuntu it is installed using the [apt install command](/en/linux-commands-you-should-know-part-two/) like any other package.
 
