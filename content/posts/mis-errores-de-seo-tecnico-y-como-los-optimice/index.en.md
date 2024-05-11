@@ -34,11 +34,11 @@ Hence, when a web developer launches their personal projects, they often complet
 
 ![Web development in assembly meme](images/web-development-assembly.webp "It is said that only true programmers program in low-level languages.")
 
-## My mistakes while migrating a website without considering SEO
+## My mistakes while migrating a website without considering Technical SEO
 
 When I migrated the blog the first thing I ignored were the multiple consequences of doing it abruptly. To begin with the sitemap, then the URL structure and finally, as icing on the cake, the absence of a schema.
 
-### The presence of a sitemap is crucial in SEO
+### The presence of a sitemap is crucial in Tech SEO
 
 The sitemap that my previous website had was located in a specific address changed its location when I migrated the website, so Google was unable to find the new sitemap, and then what happened? Well... Google indexed the pages as it could and wanted and, as you probably already know, I suffered the consequences.
 
@@ -48,7 +48,7 @@ One night my cell phone vibrated to the rhythm of the cascade of warnings that G
 
 How could I have prevented it? By logging into Google search console and replacing the old sitemap address with the new one and asking google systems for a new reading.
 
-### How I realized that URL structure is important in SEO
+### How I realized that URL structure is important in Tech SEO
 
 But that wasn't all, after the migration from Wordpress to Hugo Google detected a lot of 404 errors when accessing the old URLs and, as a result of the consequent penalty, my traffic decreased by about 70%.
 

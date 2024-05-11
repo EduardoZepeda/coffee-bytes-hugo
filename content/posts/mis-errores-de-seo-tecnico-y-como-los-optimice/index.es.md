@@ -26,7 +26,7 @@ A riesgo de sonar redundante, lo repetiré nuevamente: el tráfico de un sitio w
 
 ![Aves exoticas is a perfect example of a web site with good seo but awful UI](images/aves-exoticas-org-bad-ui-good-seo.jpg "Aves exoticas es el ejemplo perfecto de un sitio web visualmente no tan atractivo, pero con un SEO impecable que lo posiciona en la primera posición en google.")
 
-### Los desarrolladores web suelen ignorar el potencial del SEO
+### ¿El SEO sirve? Los desarrolladores web suelen ignorarlo
 
 La mayoría de los desarrolladores poseen un background ingenieril, donde se valora la eficiencia, las buenas prácticas y se pasa por alto el aspecto comercial de un sitio web. 
 
@@ -48,7 +48,7 @@ Una noche mi celular vibró al ritmo de la cascada de advertencias que Google Se
 
 ¿Cómo pude evitarlo? Entrando en Google search console y reemplazando la vieja dirección del sitemap por la nueva y solicitándole a los sistemas de google una nueva lectura.
 
-### Como me di cuenta que la estructura de las URLs es importante en el SEO
+### Como me di cuenta de que la estructura de las URLs es importante en el SEO
 
 Pero mi pesadilla no terminó ahí, tras la migración de Wordpress a Hugo Google detectó una gran cantidad de errores 404 al acceder a las viejas URLs y, como resultado de la consecuente penalización, mi tráfico disminuyo cerca de un 70%.
 
@@ -72,7 +72,7 @@ graph TD;
 
 Lo importante a recordar aquí es que los motores de búsqueda no tienen una manera de reconocer fácilmente que una entrada es exactamente la misma que otra si ha cambiado de ubicación, sobre todo si esta migración conlleva cambios ligeros en la página. Si bien es cierto que Google puede detectar contenido duplicado y es capaz de renderizar una página web, eso no significa que "vea" las entradas de manera visual, como un humano lo haría, en sus entrañas sigue recibiendo y analizando texto en forma de HTML.
 
-¿Cómo pude haberlo evitado la caida de tráfico? Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? retornando una respuesta HTTP 302 o 308, Found or Permanent redirect, respectivamente.
+¿Cómo pude haber evitado esa caida de tráfico? Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? retornando una respuesta HTTP 302 o 308, Found or Permanent redirect, respectivamente.
 
 ### La ausencia del marcado de datos estructurados o Schema 
 
@@ -81,6 +81,8 @@ Cuando usaba Wordpress el plugin Yoast se encargaba del marcado de datos estruct
 ![Captura de pantalla del marcado de datos estructurados en un sitio web](images/schema-ld+json.png "El marcado de datos estructurados para un sitio web luce así")
 
 {{<box type="info" message="El marcado de datos estructurados se presenta generalmente en forma de un script de tipo application/ld+json en un sitio web, no se puede apreciar de forma visual pero es leído por los motores de búsqueda y les sirve para entender el tipo y las relaciones que existen entre cada una de las entidades de tu sitio web.">}}
+
+¿Cómo pude evitar este error? Simplemente añadiendo un esquema de datos estructurados y leyendo al respecto en [la págia oficinal de schema org](https://schema.org)
 
 Esa es la tráfica historia de como disminuí mi tráfico siendo un lego en el SEO. Pero esta historia tiene un final feliz, tras este incidente me puse a leer al respecto y aprendí muchísimas cosas que puse en práctica tras el incidente. 
 
