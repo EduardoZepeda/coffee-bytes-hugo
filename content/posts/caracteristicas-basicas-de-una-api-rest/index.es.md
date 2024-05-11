@@ -76,7 +76,7 @@ En español:
 
 Resumidas las características básicas, vamos a los consejos prácticos.
 
-## Usa los códigos de estado correctos
+## Usa los códigos de estado correctos en las REST APIs
 
 No devuelvas un código 200 en todas las respuestas de tu API.
 
@@ -114,7 +114,7 @@ Cuando devuelvas un error, asegúrate que notificarle al usuario de tu API, de u
 }
 ```
 
-## Usa los métodos HTTP adecuados
+## Los métodos HTTP válidos en las REST APIs
 
 No te limites a recibir solo peticiones POST y GET en tu API, hay un método para cada acción de un CRUD.
 
@@ -162,7 +162,7 @@ En el libro Rest API Design Rulebook: Designing Consistent Restful Web Service I
 /videojuegos✅
 ```
 
-## ¿Diagonal al final o no?
+## ¿Diagonal al final o no en una REST API?
 
 Hay algunas opiniones encontradas respecto a esto.
 
@@ -195,7 +195,7 @@ https://tudominio.com/
 https://tudominio.com
 ```
 
-## Extensiones en la url
+## Las REST API no deberían incluir la extensión de los archivos
 
 No uses la URI para especificar el tipo de recurso solicitado por medio de su extensión. Recuerda que una cosa es el recurso en si mismo y otra es su representación.
 
@@ -221,7 +221,7 @@ Host: api.example.org
 Accept: application/xml
 ```
 
-## Usa HATEOAS para permitir la navegación entre recursos relacionados
+## ¿Qué es HATEOAS y como se relaciona con las APIs REST?
 
 Las siglas HATEOAS corresponden a **Hypermedia As The Engine Of Applicaton State** (Hypermedia como el motor del estado de la aplicación).
 
@@ -251,7 +251,7 @@ En otras palabras, **nuestra API debe ser navegable a partir de una respuesta.**
 }
 ```
 
-## Documenta tu API
+## ¿Cómo documentar una API REST?
 
 Toda API debería de estar documentada. La documentación debería ser ser clara y sencilla de entender. Afortunadamente ya existen soluciones que ahorran bastante trabajo, permitiéndote documentar los aspectos más básicos de tu API de manera automática.
 
@@ -265,7 +265,7 @@ Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de mane
 
 ![Captura de imagen de Open API, documentación automática para API REST](images/Documentacion_swagger.png "Interfaz generada por Open API")
 
-## Testea tu API
+## ¿Cómo testear una API REST?
 
 Cada endpoint de tu API debería estar sometido a pruebas, asegúrate de que devuelvan los códigos de estado correcto para cada combinación de método HTTP y tipo de usuario (autenticado, anónimo, sin permisos, etc.). Para llevar a cabo las pruebas siempre puedes contar con soluciones clásicas como HTTPie o Curl.
 
