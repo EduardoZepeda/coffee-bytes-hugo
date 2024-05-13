@@ -34,7 +34,7 @@ Throughout the pages of Clean Code, *uncle bob* takes us into the subject with s
 
 In what I consider an anachronism, the author uses Java to develop his examples. Yes, I know Java was incredibly popular before, but using pseudocode or C would have been a better choice.
 
-![Clean code meme](images/clean-code-meme.png)
+![Clean code meme](images/clean-code-meme.webp)
 
 ### How to name variables, classes and functions according to Clean Code?
 
@@ -150,6 +150,6 @@ If you haven't had any approach with good code writing practices I recommend you
 - A Philosophy of Software Design by John Ousterhout.
 - The Art of Readable Code
 - Refactoring to Patterns by Joshua Kerievsky
-- Refactoring
+- Refactoring by Kent Beck and Martin Fowler
 
-By the way, the other day I was shared on Twitter a [summary of Clean Code concepts with examples in Javascript](https://github.com/ryanmcdermott/clean-code-javascript) with which you can take a look at the content of the book before deciding whether to buy it or not.
+By the way, the other day I found on Twitter a [summary of Clean Code concepts with examples in Javascript](https://github.com/ryanmcdermott/clean-code-javascript) so you can take a look at the content of the book before deciding whether to buy it or not.
