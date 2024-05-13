@@ -58,7 +58,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
     {{- range $pages }}
-    {{ if not .Params.noindex}}
+    {{ if and (not .Params.noindex) (not .Params.draft)}}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -67,8 +67,8 @@
       <guid>{{ .Permalink }}</guid>
       {{ range .Params.categories }}
       <category>{{.}}</category>
-      {{ end }} 
-      <summary>{{ .Summary | transform.XMLEscape | safeHTML }}</summary>
+      {{ end }}
+      <content>{{ .Content | transform.XMLEscape | safeHTML }}</content>
     </item>
     {{- end}}
     {{- end }}
