@@ -35,7 +35,7 @@ To start using a submodule in an existing repository (our main repository) we us
 If the directory does not exist it will be created.
 
 ```bash
-git submodule add <url> <destino>
+git submodule add <url> <destination>
 ```
 
 The above command will copy the url `<url>` code into the specified `<destination>` directory.
@@ -48,7 +48,7 @@ After adding a submodule to a repository a new file (not a directory) named _.gi
 .
 ├── .gitignore
 ├── .gitmodules
-├── <destino>
+├── <destination>
 │   ├── .git
 │   ├── .gitignore
 │   ├── app
@@ -64,9 +64,9 @@ In addition to copying the code from the remote repository into the target folde
 Each of these submodules specifies its path, relative to the repository root, the url and the branch (optional).
 
 ```bash
-[submodule <destino>]
-    path = <destino>
-    url = <url-del-repositorio>
+[submodule <destination>]
+    path = <destination>
+    url = <repository-url>
     [branch = <rama>]
 ```
 
@@ -79,9 +79,9 @@ This file is important because it is a reference to the submodules that our proj
 What does the submodule contain? If you go into any submodule, you will see that it has a file named _.git_.
 
 ```bash
-cd <destino>
+cd <destination>
 ls -la 
-.rw-r--r--   31 usuario 14 may 09:49 .git
+.rw-r--r--   31 user 14 may 09:49 .git
 # ...
 ```
 
@@ -102,8 +102,9 @@ If you run the _git status_ command inside a submodule, you will see that we are
 
 ```bash
 git status
-En la rama master
-Tu rama está actualizada con 'origin/master'.
+on main branch
+Your branch is updated with 'origin/main'
+# ...
 ```
 
 Within the submodule you can perform checkouts, create branches, even commits and pushes. All these changes will be made in the submodule repository, not in the main repository.
@@ -127,17 +128,17 @@ How to solve it? With these three steps
 3. Save the changes (commit) and push to your main repository.
 
 ```bash
-# Realizando cambios en el submódulo
-git add <archivos>
-git commit -m "Mensaje del commit del submódulo"
+# Modifying submodule
+git add <files>
+git commit -m "submodule's commit message"
 git push
 
-# Regresando al repositorio principal
-cd <repositorio-principal>
+# Returning to your main repository.
+cd <main-repository>
 
-# Actualizando la versión del submodulo
-git add .gitmodules <archivos>
-git commit -m "Actualizar a nueva versión del submódulo"
+# Save the changes (commit) and push to your main repository.
+git add .gitmodules <files>
+git commit -m "Update to new submodule version"
 git push
 ```
 
@@ -150,7 +151,7 @@ What if instead of adding a submodule with _git add submodule_, we clone a proje
 When cloning a repository that has submodules, **git clones only the main repository, without including the content of the submodules**.
 
 ```bash
-git clone <repositorio-con-submodules>
+git clone <repo-with-submodules>
 ```
 
 Check it, navigate inside the submodule folders and you will see that they are empty.

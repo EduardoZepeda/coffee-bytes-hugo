@@ -42,7 +42,7 @@ Cuando migré el blog lo primero que ignoré fueron las múltiples consecuencias
 
 El sitemap que tenía mi sitio web anterior se encontraba en una dirección específica, cuando migré el sitio web esa dirección cambió, por lo que Google fue incapaz de encontrar el nuevo sitemap, ¿qué sucedió? Google indexó las páginas como pudo y quiso y, como seguramente ya sabrás, no fue la mejor manera y sufrí las consecuencias. 
 
-Una noche mi celular vibró al ritmo de la cascada de advertencias que Google Search Console mandaba en forma de  notificaciones de mi celular.
+Me di cuenta lo mal que estaba cuando una noche mi celular vibró al ritmo de la cascada de advertencias que Google Search Console mandaba en forma de  notificaciones de mi celular.
 
 {{<box type="info" message="Un sitemap es un índice, usualmente en formato XML, que lista las páginas de tu sitio web">}}
 
@@ -82,10 +82,12 @@ Cuando usaba Wordpress el plugin Yoast se encargaba del marcado de datos estruct
 
 {{<box type="info" message="El marcado de datos estructurados se presenta generalmente en forma de un script de tipo application/ld+json en un sitio web, no se puede apreciar de forma visual pero es leído por los motores de búsqueda y les sirve para entender el tipo y las relaciones que existen entre cada una de las entidades de tu sitio web.">}}
 
-¿Cómo pude evitar este error? Simplemente añadiendo un esquema de datos estructurados y leyendo al respecto en [la págia oficinal de schema org](https://schema.org)
+¿Cómo pude evitar este error? Simplemente añadiendo un esquema de datos estructurados personalizado y leyendo al respecto en [la págia oficinal de schema org](https://schema.org)
 
-Esa es la tráfica historia de como disminuí mi tráfico siendo un lego en el SEO. Pero esta historia tiene un final feliz, tras este incidente me puse a leer al respecto y aprendí muchísimas cosas que puse en práctica tras el incidente. 
+Esa es la trágica historia de como disminuí mi tráfico siendo un lego en el SEO. 
+
+Pero tras este incidente hay un final feliz, pues me puse a leer al respecto y aprendí muchísimas cosas que puse en práctica, ahora mismo el sitio web no está al nivel que estaba antes pero se dirige hacía allá y lo mejor es que ahora sí sé lo que estoy haciendo.
 
 No me había dado la oportunidad de tocar este tema en el blog, porque semánticamente está bastante alejado de lo que la mayoría de devs entiende por desarrollo web, aunque realmente no lo sea. 
 
-Pero por fin me di la oportunidad de plasmar estos erorres en una entrada y si pueden ahorrarte un par de dolores de cabeza, pues que mejor.
+Pero por fin me decidí a plasmar estos erorres en una entrada y si pueden ahorrarte un par de dolores de cabeza, pues que mejor.

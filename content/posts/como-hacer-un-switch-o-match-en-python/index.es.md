@@ -4,6 +4,7 @@ aliases:
 - /como-escribir-un-switch-en-python
 - /como-hacer-un-switch-en-python/
 - /como-hacer-un-switch-en-python//1000
+- /como-hacer-un-switch-o-match-en-py/
 authors:
 - Eduardo Zepeda
 categories:

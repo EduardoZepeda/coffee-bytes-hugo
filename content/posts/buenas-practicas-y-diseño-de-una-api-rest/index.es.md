@@ -2,6 +2,7 @@
 aliases:
 - /buenas-practicas-y-diseño-de-una-api-rest
 - /buenas-practicas-y-diseno-de-una-api-rest//1000
+- /buenas-practicas-y-diseno-de-una-api-rest/
 authors:
 - Eduardo Zepeda
 categories:

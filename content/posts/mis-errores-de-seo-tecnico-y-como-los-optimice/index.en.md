@@ -82,8 +82,10 @@ When I used Wordpress the Yoast plugin took care of the structured data markup, 
 
 {{<box type="info" message="Structured data markup is usually in the form of an application/ld+json script on a website, it cannot be seen visually but it is read by search engines and helps them to understand the type and relationships that exist between each of the entities on your website.">}}
 
-That is the tragic story of how I decreased my traffic being a layman in SEO. But this story has a happy ending, after this incident I started reading about it and I learned a lot of things that I put into practice after the incident. 
+That was the tragic story of how I decreased my traffic being a layman in SEO. 
+
+But after this incident there is a happy ending, because I started reading about it and I learned a lot of things that I put into practice, right now the website is not at the level it was before but it is heading that way and the best thing is that now I know what I'm doing.
 
 I had not given myself the opportunity to touch this topic in the blog, because semantically it is quite far from what most devs understand by web development, although it really is not. 
 
-But finally I gave myself the opportunity to capture these mistakes in a post and if they can save you a couple of headaches, so much the better.
+But I finally decided to write these mistakes in a post and if they can save you a couple of headaches, so much the better.

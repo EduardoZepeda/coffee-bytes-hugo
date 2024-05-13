@@ -1,4 +1,6 @@
 ---
+aliases:
+- /en/react-usecallback-usememo-and-memo-differences-and-uses/
 title: "React useCallback, useMemo and memo, differences"
 date: "2021-08-02"
 categories:
