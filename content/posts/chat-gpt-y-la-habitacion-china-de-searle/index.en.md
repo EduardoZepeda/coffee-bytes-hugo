@@ -1,4 +1,6 @@
 ---
+aliases:
+- /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers/blog/chat-gpt-searles-chinese-room-and-consciousness/
 title: "Chat Gpt, Searle's Chinese Room and consciousness"
 date: "2023-04-19"
 categories:
