@@ -58,7 +58,7 @@ for gamer in Gamer.objects.iterate():
 Is it obvious why this is not good practice? Now take a look at this one:
 
 ```python
-# NO HAGAS ESTO 
+# DON'T DO THIS
 from django.forms import *
 from django.db.models import *
 ```
@@ -66,7 +66,7 @@ from django.db.models import *
 This one here is quite similar to an example that appears in the Django documentation
 
 ```python
-# NO HAGAS ESTO 
+# DON'T DO THIS
 def videogame_display(request, videogame_id):
     videogame = get_object_or_404(Videogame, id=videogame_id)
     date = timezone.now()

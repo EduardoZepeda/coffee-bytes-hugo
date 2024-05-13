@@ -1,9 +1,11 @@
 ---
 aliases:
+- /es/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django
 - /como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django
 - /como-escalar-django-para-manejar-millones-de-vistas
 - /como-mejorar-el-rendimiento/
 - /maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/
+- /es/maximiza-el-rendimiento-de-tu-aplicacion-hecha-en-django-con-estos-tips/
 - /tu-aplicacion-de-django-va-lenta-maximiza-su-rendimiento-con-estos-tips/
 authors:
 - Eduardo Zepeda
@@ -24,9 +26,9 @@ keywords:
 title: ¿Cómo Escalar Django Para Manejar Millones De Vistas?
 ---
 
-¿Tu aplicación hecha en Django o la de tu compañia anda lenta? Lo anterior puede tener múltiples causas: un servidor con hardware insuficiente, un paquete de hosting que necesite un upgrade para procesar mayor tráfico, un servidor mal configurado en caso de que sea nginx, visita mi entrada donde explico [como configurar nginx para un mayor rendimiento)](/es/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/), o simplemente una aplicación no optimizada para dar el máximo rendimiento en django. 
+¿Te gustaría que tu aplicación de Django pudiera manejar un millón de visitas? Esta entrada es una recopilación de artículos, libros, y videos que he leído sobre como llevar una aplicación de Django hasta sus máximas capacidades, incluso he implementado algunas de estas recomendaciones yo mismo.
 
-En esta entrada te explico algunos cambios que puedes implementar, en una aplicación de Django, para mejorar su rendimiento. También recuerda que si tu aplicación va empezando, recuerda [no obsesionarte con su rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/)
+También es buen momento para recordar que si tu aplicación va empezando, probablemente [no deberías obsesionarte con su rendimiento... aún](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/).
 
 ## Reduce las queries lentas en Django
 
@@ -69,9 +71,9 @@ Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la c
 
 Si usas DRF y usas sus clases genéricas para crear serializers, puede que no estés obteniendo exactamente el mejor rendimiento. Las clases genéricas para serializers realizan validación de los datos, que puede ser bastante costoso en tiempo si solo vas a leer datos.
 
-Incluso si recordaste marcar tus campos como read\_only, los serializers de DRF no son los más rápidos, puede que quieras revisar [Serpy](https://serpy.readthedocs.io/en/latest/), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/) El tema es bastante amplio, pero quédate con la idea de que hay un área de mejora importante en los serializers de Django.
+Incluso si recordaste marcar tus campos como read\_only, los serializers de DRF no son los más rápidos, puede que quieras revisar [Serpy](https://serpy.readthedocs.io/en/latest/#?), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/#?). El tema es bastante amplio, pero quédate con la idea de que hay un área de mejora importante en los serializers de Django.
 
-Te dejo este artículo que explica [como unos desarrolladores lograron reducir el coste en tiempo, de la serialización en un 99%.](https://hakibenita.com/django-rest-framework-slow)
+Te dejo este artículo que explica [como unos desarrolladores lograron reducir el coste en tiempo, de la serialización en un 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 
 ## Usa paginación en tus vistas
 
@@ -79,7 +81,7 @@ Probablemente suene bastante obvio, aún así siento que debo mencionarlo: no ne
 
 Usa el objeto _paginator_ que ofrece Django, o limita los resultados de una búsqueda a unos cuantos. 
 
-DRF también cuenta con una opción para [paginar sus resultados](https://www.django-rest-framework.org/api-guide/pagination/), revísala.
+DRF también cuenta con una opción para [paginar sus resultados](https://www.django-rest-framework.org/api-guide/pagination/#?), revísala.
 
 ```python
 # review/views.py
@@ -136,7 +138,7 @@ MIDDLEWARE = [
 
 Cuando el tiempo de respuesta de tu aplicación se vuelve un problema, deberías empezar a colocar todos los resultados costosos en tiempo y recursos en caché.
 
-¿Te gustaría profundizar en el sistema de caché?, tengo un post sobre [la caché en django](/es/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
+¿Te gustaría profundizar en el sistema de caché?, tengo un post sobre [la caché en django con memcached](/es/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
 
 Si tu página tiene demasiados modelos, y raramente cambian, no tiene sentido acceder cada vez a la base de datos para solicitarlos con cada nueva petición HTTP. Solo coloca la respuesta de esa solicitud en caché y tu tiempo de respuesta mejorará, de esta manera cada que se pida el mismo contenido, no será necesario realizar una nueva petición o cálculos a la base de datos, sino que el valor se devolverá directamente de memoria.
 
@@ -175,7 +177,7 @@ Toma en cuenta que **la caché basada en memoria (memcached, redis) es un métod
 
 ## Usa Celery para tareas asíncronas
 
-A veces el cuello de botella es responsabilidad de terceros. Cuando envías un email o solicitas información de un tercero, no tienes manera de saber cuanto tiempo demorará tu solicitud, una conexión lenta o un servidor sobresaturado pueden mantenerte esperando por una respuesta. No tiene caso mantener al usuario esperando decenas de segundos por el envío de un correo electrónico, devuélvele una respuesta y transfiere el envío del correo electrónico a una cola para que se procese más tarde. [Celery](https://docs.celeryproject.org/en/stable/) es la opción más popular para hacerlo.
+A veces el cuello de botella es responsabilidad de terceros. Cuando envías un email o solicitas información de un tercero, no tienes manera de saber cuanto tiempo demorará tu solicitud, una conexión lenta o un servidor sobresaturado pueden mantenerte esperando por una respuesta. No tiene caso mantener al usuario esperando decenas de segundos por el envío de un correo electrónico, devuélvele una respuesta y transfiere el envío del correo electrónico a una cola para que se procese más tarde. [Celery](https://docs.celeryproject.org/en/stable/#?) es la opción más popular para hacerlo.
 
 ¿No tienes idea de donde empezar?, tengo un par de entradas donde explico [como ejecutar tareas asíncronas con celery y django.](/es/celery-y-django-para-ejecutar-tareas-asincronas/)
 
@@ -260,7 +262,7 @@ La tendencia actual es separar frontend de backend, por lo anterior Django está
 
 Hay una plática que dieron en la djangocon2019 donde el ponente explica como lograron lidiar con una aplicación con 63000 endpoints, cada uno con diferentes permisos.
 
-<iframe src="https://www.youtube.com/embed/O6-PbTPAFXw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315" frameborder="0">< iframe>
+{{<youtube id="O6-PbTPAFXw">}}
 
 ## Bonus: Blogs técnicos
 
@@ -272,3 +274,8 @@ Te dejo los enlaces a los blogs a continuación:
 
 - [Pinterest engineering](https://medium.com/pinterest-engineering)
 - [Instagram engineering](https://instagram-engineering.com/)
+
+References:
+- Definitive Guide to Django: Web Development Done Right by Adrian Holovaty and Jacob Kaplan Moss 
+- Two scoops of Django 1.8 by Daniel Roy Greenfeld and Audrey Roy Greenfeld
+- High performance Django by Peter Baumgartner and Yann Malet

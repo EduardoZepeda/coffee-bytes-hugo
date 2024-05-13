@@ -30,7 +30,7 @@ Sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7) and receive $2
 
 ## differences between IAAS and PAAS
 
-I'm pretty sure you've considered using [Vercel](https://vercel.com), [Netifly](https://www.netlify.com/), [Heroku](https://www.heroku.com/) or another modern hosting service for your application (probably made in Javascript). But, is it the same? Well, here's a little clarification, just in case you don't know; there are different types of companies for online services; IAAS, Infrastructure as a service; and PAAS, platform as a service. 
+I'm pretty sure you've considered using Vercel, Netifly, Heroku or another modern hosting service for your application (probably made in Javascript). But, is it the same? Well, here's a little clarification, just in case you don't know; there are different types of companies for online services; IAAS, Infrastructure as a service; and PAAS, platform as a service. 
 
 If you already know this, skip to the Droplet's section.
 
@@ -82,7 +82,7 @@ The most basic, and cheapest, version is a shared CPU, in exchange for offering 
 
 And now I'm sure you're wondering how much it costs me. Well, the answer is obvious: it depends.
 
-Just to give you an idea, the cheapest Droplet costs $5 usd per month. That's practically nothing and for a small website it's usually more than enough. By way of comparison, Vercel hosts your application for free with certain limitations, their next plan, at the time of writing this article, costs $20 usd per month.
+Just to give you an idea, the cheapest Droplet costs ~~$5 usd per month~~ $4 usd per month. That's practically nothing and for a small website it's usually more than enough. By way of comparison, Vercel hosts your application for free with certain limitations, their next plan, at the time of writing this article, costs $20 usd per month.
 
 Notice how all plans handle storage with an SSD.
 
@@ -112,7 +112,7 @@ Digital Ocean provides Kubernetes clusters with storage and load balancers with 
 
 ### Apps
 
-The apps are similar to a serverless solution, you connect your github, gitlab or bitbucket account with digital Ocean and you can upload Node apps or static files for them to serve, you can even specify them to run the compilation or any command you want. This is, so far, the cheapest solution offered by Digital Ocean and it is excellent for handling Frontend applications.
+The apps are similar to a serverless solution, you connect your github, gitlab or bitbucket account with digital Ocean and you can upload Node apps or static files for them to serve, you can even specify them to run the compilation or any command you want. This is, so far, **the cheapest solution offered by Digital Ocean** and it is excellent for handling Frontend applications.
 
 ### Volumes
 
@@ -141,3 +141,7 @@ My experience has been quite good, with no complaints in terms of the performanc
 If you don't want to mess with Apache, Nginx or any other server configurations, maybe a Droplet from Digital Ocean is not your best option.
 
 On the other hand, Digital Ocean offers one of the best costs to start a project; $3 usd for the most basic package (Apps) is an **incredibly low price** for static or Frontend based pages only.
+
+{{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="If you decide to try it, I'll give you $200 USD to try and see for yourself what Digital Ocean has to offer, just click on this banner.">}}
+
+

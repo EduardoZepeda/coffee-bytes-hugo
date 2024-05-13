@@ -18,9 +18,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-Is your Django application or your company's application running slow? This can have multiple causes: a server with insufficient hardware, a hosting package that needs an upgrade to process more traffic, a badly configured server, in case it is nginx, visit my post where I explain [how to configure nginx for better performance](/en/nginx-keepalive-gzip-http2-better-performance-on-your-website/), or simply an application not optimized to give the maximum performance in django.
+Wish your Django app could handle a million hits? This post is a compilation of articles, books, and videos I've read on how to take a Django application to its maximum capabilities, I've even implemented some of these recommendations myself.
 
-In this post I explain some changes that you can implement in a Django application to improve its performance.
+También es buen momento para recordar que si tu aplicación va empezando, probablemente [no deberías obsesionarte con su rendimiento... aún](/en/dont-obsess-about-your-web-application-performance/).
 
 ## Reduce slow queries in Django
 
@@ -47,7 +47,7 @@ from .models import Review
 
 def list_reviews(request):
     queryset = Review.objects.filter(product__id=product_id).select_related('user') 
-    # Ahora no se tocará la base de datos cada que se use review.user
+    # We're preventing a new query everytime we access review.user
     # ...
 ```
 
@@ -63,9 +63,9 @@ Make sure you are using the correct gunicorn workers, according to the number of
 
 If you use DRF and use its generic classes to create serializers, you may not exactly be getting the best performance. The generic classes for serializers perform data validation, which can be quite time consuming if you are only going to read data.
 
-Even if you remembered to mark your fields as read_only, DRF serializers are not the fastest, you might want to check out [Serpy](https://serpy.readthedocs.io/en/latest/), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/) The topic is quite broad, but stay with the idea that there is a major area of improvement in Django serializers.
+Even if you remembered to mark your fields as read_only, DRF serializers are not the fastest, you might want to check out [Serpy](https://serpy.readthedocs.io/en/latest/#?), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/#?). The topic is quite broad, but stay with the idea that there is a major area of improvement in Django serializers.
 
-I leave you this article that explains [how some developers managed to reduce the time cost of serialization by 99%.](https://hakibenita.com/django-rest-framework-slow)
+I leave you this article that explains [how some developers managed to reduce the time cost of serialization by 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 
 ## Use pagination in your views
 
@@ -130,7 +130,7 @@ MIDDLEWARE = [
 
 When the response time of your application becomes a problem, you should start caching all time-consuming and resource-intensive results.
 
-Would you like to dig deeper into the caching system, I have a post about [caching in django](/en/caching-in-django-rest-framework-using-memcached/) that you can check out to dig deeper.
+Would you like to dig deeper into the caching system, I have a post about [caching in django using memcached](/en/caching-in-django-rest-framework-using-memcached/) that you can check out to dig deeper.
 
 If your page has too many models, and they rarely change, it does not make sense to access the database each time to request them with each new HTTP request. Just put the response of that request in cache and your response time will improve, this way every time the same content is requested, it will not be necessary to make a new request or calculations to the database, but the value will be returned directly from memory.
 
@@ -169,9 +169,9 @@ Note that **memcached cache (memcached, redis) is an ephemeral storage method**,
 
 ## Uses Celery for asynchronous tasks
 
-Sometimes the bottleneck is the responsibility of third parties. When you send an email or request information from a third party, you have no way of knowing how long your request will take, a slow connection or an oversaturated server can keep you waiting for a response. There is no point in keeping the user waiting tens of seconds for an email to be sent, send them a reply back and transfer the email to a queue to be processed later. [Celery](https://docs.celeryproject.org/en/stable/) is the most popular way to do this.
+Sometimes the bottleneck is the responsibility of third parties. When you send an email or request information from a third party, you have no way of knowing how long your request will take, a slow connection or an oversaturated server can keep you waiting for a response. There is no point in keeping the user waiting tens of seconds for an email to be sent, send them a reply back and transfer the email to a queue to be processed later. [Celery](https://docs.celeryproject.org/en/stable/#?) is the most popular way to do this.
 
-No idea where to start, I have a couple of posts where I explain [how to run asynchronous tasks with celery and django](/en/celery-and-django-to-run-asynchronous-tasks/).
+No idea where to start, I have a couple of posts where I explain [how to run asynchronous tasks with celery and django](/en/celery-and-django-to-run-asynchronous-tasks/#?).
 
 ```python
 # myapp/views.py
@@ -187,9 +187,9 @@ def send_order_confirmation(order_pk):
 
 When your tables exceed millions of records, each search will go through the entire database, taking a very long time in the process. How could we solve this? By splitting the tables in parts so that each search is done on one of the parts, for example, one table for data from one year ago (or the period you prefer), another for data from two years ago and so on up to the first data.
 
-The instructions for implementing partitioning depend on the database you are using. If you are using postgres this feature is only available for Postgres versions higher than 10. You can use [django-postgres-extra](https://django-postgres-extra.readthedocs.io/en/master/table_partitioning.html) to implement those extra features not found in the django ORM.
+The instructions for implementing partitioning depend on the database you are using. If you are using postgres this feature is only available for Postgres versions higher than 10. You can use [django-postgres-extra](https://django-postgres-extra.readthedocs.io/en/master/table_partitioning.html#?) to implement those extra features not found in the django ORM.
 
-The implementation is too extensive and would require a full entry. There is an excellent article that explains how to implement [Postgresql partitioning in Django.](https://pganalyze.com/blog/postgresql-partitioning-django)
+The implementation is too extensive and would require a full entry. There is an excellent article that explains how to implement [Postgresql partitioning in Django.](https://pganalyze.com/blog/postgresql-partitioning-django/#?)
 
 Consider also looking into database replicas for reading files, depending on the architecture of your application, you can implement multiple replicas for reading and a master for writing. This approach is a whole topic and is beyond the scope of a short post, but now you know what to look for.
 
@@ -211,8 +211,8 @@ Of course this brings the problem that you now have more data to maintain, not c
 
 ```python
 count = my_model.objects.filter(description__icontains="para niños").count() 
-# ... denormalizando
-count = my_count.objects.get(description="para niños") # Cada fila del modelo my_count contiene una descripción y el total de resultados
+# ... denormalizing
+count = my_count.objects.get(description="para niños") # Each row of the my_count model contains a description and the total results.
 total_count = count.total
 ```
 
@@ -252,7 +252,7 @@ The current trend is to separate frontend and backend, so Django is being used i
 
 There is a talk they gave at djangocon2019 where the speaker explains how they managed to deal with an application with 63000 endpoints, each with different permissions.
 
-<iframe src="https://www.youtube.com/embed/O6-PbTPAFXw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315" frameborder="0">< iframe>
+{{<youtube id="O6-PbTPAFXw">}}
 
 ## Bonus: Technical blogs
 
@@ -264,3 +264,8 @@ Here are the links to the blogs below:
 
 * [Pinterest engineering](https://medium.com/pinterest-engineering)
 * [Ingeniería de Instagram](https://instagram-engineering.com/)
+
+References:
+- Definitive Guide to Django: Web Development Done Right by Adrian Holovaty and Jacob Kaplan Moss 
+- Two scoops of Django 1.8 by Daniel Roy Greenfeld and Audrey Roy Greenfeld
+- High performance Django by Peter Baumgartner and Yann Malet

@@ -14,7 +14,7 @@ keywords:
 - desarrollo web
 ---
 
-Hace unos años, migré mi sitio web un par de veces, primero de Wordpress a Frontity (Un framework de wordpress en React) y luego de Frontity a Hugo. No me arrepiento para nada de mi decisión, pero cometí unos cuantos errores respecto al SEO que probablemente puedas evitar si tomas en cuenta lo que estoy a punto de contarte.
+Hace unos años, migré mi sitio web un par de veces, primero de Wordpress a Frontity (Un framework de wordpress en React) y luego de Frontity a una [app de Hugo en Digital Ocean](/es/digital-ocean-analisis-y-mi-experiencia-como-usuario/). No me arrepiento para nada de mi decisión, pero cometí unos cuantos errores respecto al SEO que probablemente puedas evitar si tomas en cuenta lo que estoy a punto de contarte.
 
 ## ¿Por qué debería importarte el SEO en el desarrollo web?
 

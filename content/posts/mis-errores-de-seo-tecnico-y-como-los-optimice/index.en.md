@@ -14,7 +14,7 @@ keywords:
 - web development
 ---
 
-A few years ago, I migrated my website a couple of times, first from Wordpress to Frontity (A wordpress framework in React) and then from Frontity to Hugo. I don't regret my decision at all, but I made a few mistakes regarding SEO that you can probably avoid if you take into account what I'm about to tell you.
+A few years ago, I migrated my website a couple of times, first from Wordpress to Frontity (A wordpress framework in React) and then from Frontity to a [Digital Ocean Hugo App](/en/digital-ocean-analysis-and-my-experience-as-a-user/). I don't regret my decision at all, but I made a few mistakes regarding SEO that you can probably avoid if you take into account what I'm about to tell you.
 
 ## Why should I care about SEO in web development?
 
