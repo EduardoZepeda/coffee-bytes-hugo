@@ -43,7 +43,8 @@
 {{- $pages = $pages | first $limit }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<!-- You need to declare xmlns:content or you'll get a prefix not bound to a namespace error -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
@@ -68,7 +69,8 @@
       {{ range .Params.categories }}
       <category>{{.}}</category>
       {{ end }}
-      <content>{{ .Content | transform.XMLEscape | safeHTML }}</content>
+      <content:encoded>{{ .Content | transform.XMLEscape | safeHTML }}</content:encoded>
+      <summary>{{ .Summary | transform.XMLEscape | safeHTML }}</summary>
     </item>
     {{- end}}
     {{- end }}
