@@ -14,13 +14,13 @@ authors:
 - Eduardo Zepeda
 ---
 
-The first time I used a computer was when I was 9 years old, in the computer room of the school where I studied. The teachers were teaching us how to operate the [Logo Writer turtle](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos) using simple commands, in MS-DOS. We made the turtle paint hexagons, octagons and even trapped it in an infinite loop.
+The first time I used a computer was when I was 9 years old, in the computer room of the school where I studied. The teachers were teaching us how to operate the [Logo Writer turtle](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/#?) using simple commands, in MS-DOS. We made the turtle paint hexagons, octagons and even trapped it in an infinite loop.
 
 I didn't have a computer at home, so my interaction with computers was limited to those two hours a week at school.
 
 When I was 12 years old my dad brought a computer home, an IBM that he got to facilitate his work as a teacher. That little thing with 256 MB of RAM and 10 GB of hard drive was my test subject. I installed small programs on it, clicked on everything I could, downloaded the openings and endings of Neon Genesis Evangelion in midi (mp3 was not popular back then) and used it to play lots and lots of video games on the emulators that were available on the net.
 
-One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com#?), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
+One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com/#?), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
 
 ## Internet and blogs
 
@@ -38,7 +38,7 @@ I finished my degree and **graduated in the top three GPAs of my class**. Howeve
 
 ## Supercell and Miku Hatsune
 
-One afternoon I was researching about a Japanese band called [Supercell](https://www.supercell.jp/english.html) on the internet. Supercell was a rather peculiar band, their vocalist was a computer program called Vocaloid, a software that borrowed the voice of [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita) to create a virtual singer, named Miku Hatsune. Vocaloid allowed its users to use Miku Hatsune as their personal vocalist, modulating tones, beats and syllables.
+One afternoon I was researching about a Japanese band called [Supercell](https://www.supercell.jp/english.html/#?) on the internet. Supercell was a rather peculiar band, their vocalist was a computer program called Vocaloid, a software that borrowed the voice of [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita/#?) to create a virtual singer, named Miku Hatsune. Vocaloid allowed its users to use Miku Hatsune as their personal vocalist, modulating tones, beats and syllables.
 
 The more I read about Miku Hatsune the more I wanted to know, I was stunned; the company that had programmed Vocaloid was literally giving a voice to all those artists who, for one reason or another, did not have a voice to bring their lyrics to life. At that moment I understood the true potential that the code had and I said to myself: "I also want to use computers and code to create".
 
@@ -60,7 +60,7 @@ PHP had introduced me to the world of programming relatively easily, but I still
 
 ## Language with the name of a group of humorists
 
-After months of avoiding all information related to Python **for the silly reason that it owes its name to 'Monty Python'**, a group of British comedians with whom I was not familiar, I decided to leave my prejudices behind and give it a try. I signed up for the online Python course [code.org](https://code.org/) and fell in love with the language.
+After months of avoiding all information related to Python **for the silly reason that it owes its name to 'Monty Python'**, a group of British comedians with whom I was not familiar, I decided to leave my prejudices behind and give it a try. I signed up for the online Python course [code.org](https://code.org/#?) and fell in love with the language.
 
 Python fascinated me with its simple syntax, the simplicity of the functions and the elegance of its design.
 
@@ -84,7 +84,7 @@ This is, in a fairly short way, the story of how I started programming. Always s
 
 ## Bootcamp in Bedu
 
-Finally, since many companies love to have a piece of paper to back up what you already know, and I was a bit unsure if everything I had read applied to today's development world (the famous imposter syndrome), I decided to sign up for a 6-month Bootcamp at [Bedu](https://bedu.org).
+Finally, since many companies love to have a piece of paper to back up what you already know, and I was a bit unsure if everything I had read applied to today's development world (the famous imposter syndrome), I decided to sign up for a 6-month Bootcamp at [Bedu](https://bedu.org/#?).
 
 At the risk of being a bit arrogant, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some fascinating and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
 

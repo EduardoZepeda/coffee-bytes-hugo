@@ -26,7 +26,7 @@ authors:
 
 Are you choosing a hosting service but don't know which one to choose? Surely you have already had contact with Digital Ocean's advertising but you want to hear a real opinion of what they have to offer. I've been using Digital Ocean for my personal projects for several years and I'll tell you about my experience and what you can find if you decide to hire their services.
 
-Sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7) and receive $200 USD to spend on Digital Ocean.
+Sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7#?) and receive $200 USD to spend on Digital Ocean.
 
 ## differences between IAAS and PAAS
 

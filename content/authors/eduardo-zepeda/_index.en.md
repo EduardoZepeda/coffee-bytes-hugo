@@ -13,7 +13,7 @@ jobTitle: "Web developer"
 
 ## A little bit more about me
 
-I learned almost all that I know about web developing [by reading and practicing this pile of books](en/pages/books-i-read-and-reviews/). I even reviewed some of them. Lately I've been experimenting with online platforms like: [Educative](https://educative.io), [Udemy](https://www.udemy.com/) and Platzi too.
+I learned almost all that I know about web developing [by reading and practicing this pile of books](en/pages/books-i-read-and-reviews/). I even reviewed some of them. Lately I've been experimenting with online platforms like: [Educative](https://educative.io/#?), [Udemy](https://www.udemy.com/#?) and Platzi too.
 
 I possess the [Microsoft AZ-900 Fundamentals Certification](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
 

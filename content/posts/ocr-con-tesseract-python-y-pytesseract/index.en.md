@@ -75,7 +75,7 @@ You will see that Spanish is now installed and we can use it to detect the text 
 
 Now let's put it to the test to recognize text in images, straight from the terminal. I am going to use the following image:
 
-![Image with text to be processed](images/image_with_text.jpg "File: image_with_text.jpg")
+![Image with text to be processed](images/imagen_con_texto.jpg "File: image_with_text.jpg")
 
 ```bash
 tesseract image_with_text.jpg -

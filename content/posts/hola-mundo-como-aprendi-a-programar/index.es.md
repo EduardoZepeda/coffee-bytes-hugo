@@ -17,13 +17,13 @@ keywords:
 title: Hello World, ¿cómo aprendi a programar?
 ---
 
-La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.
+La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/#?) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.
 
 Yo no tenía computadora en casa, así que mi interacción con las computadoras se limitaba a aquellas dos horas semanales en el colegio.
 
 Cuando tenía 12 años mi papá trajo una computadora a casa, una IBM que le dieron para facilitar sus labores como profesor. Esa pequeña con 256 MB de RAM y 10 GB de disco duro era mi sujeto de prueba. Le instalé pequeños programas, le di click a todo lo que pude, descargué los openings y endings de Neon Genesis Evangelion en midi (el mp3 no era nada popular en aquel entonces) y la usé para jugar muchísimos videojuegos en los emuladores que estaban disponibles en la red.
 
-Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com#?), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
+Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com/#?), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
 
 ## Internet y los blogs
 
@@ -41,7 +41,7 @@ Terminé la carrera y **me gradué entre los tres mejores promedios de la genera
 
 ## Supercell y Miku Hatsune
 
-Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.supercell.jp/english.html) en internet. Supercell era una banda bastante peculiar, su vocalista era un programa de computadora llamado Vocaloid, un software que tomaba prestada la voz de [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita) para crear una cantante virtual, llamada Miku Hatsune. Vocaloid permitía a sus usuarios utilizar a Miku Hatsune como su vocalista personal, modulando los tonos, tiempos y sílabas.
+Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.supercell.jp/english.html/#?) en internet. Supercell era una banda bastante peculiar, su vocalista era un programa de computadora llamado Vocaloid, un software que tomaba prestada la voz de [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita/#?) para crear una cantante virtual, llamada Miku Hatsune. Vocaloid permitía a sus usuarios utilizar a Miku Hatsune como su vocalista personal, modulando los tonos, tiempos y sílabas.
 
 Mientras más leía sobre Miku Hatsune más quería saber, estaba estupefacto; la compañía que había programado a Vocaloid estaba, literalmente, dándoles una voz a todos aquellos artistas que, por una u otra razón, no contaban con una voz que le diera vida a sus letras. En ese momento entendí el verdadero potencial que tenía el código y me dije: "yo también quiero usar las computadoras y el código para crear".
 
@@ -64,7 +64,7 @@ PHP me había introducido en el mundo de la programación de manera relativament
 
 ## El lenguaje con el nombre de un grupo de humoristas
 
-Tras meses evadiendo toda aquella información relacionada con Python **por la simplona razón de deberle su nombre a 'Monty Python'**, un grupo de humoristas británicos con los cuales no estaba familiarizado, decidí dejar atrás mis prejuicios y darle una oportunidad. Me apunté al curso en linea de Python [code.org](https://code.org/) y me enamoré. 
+Tras meses evadiendo toda aquella información relacionada con Python **por la simplona razón de deberle su nombre a 'Monty Python'**, un grupo de humoristas británicos con los cuales no estaba familiarizado, decidí dejar atrás mis prejuicios y darle una oportunidad. Me apunté al curso en linea de Python [code.org](https://code.org/#?) y me enamoré. 
 
 Python me fascinó con su sencilla sintaxis, la simplicidad de las funciones y lo elegante de su diseño.
 
@@ -88,7 +88,7 @@ Esta es, de manera bastante resumida, la historia sobre como empecé a programar
 
 ## Bootcamp en Bedu
 
-Por último, dado que a muchas empresas les encanta tener un papel que respalde lo que ya sabes, y me sentía un poco inseguro sobre si todo lo que había leído aplicaba al mundo del desarrollo actual (el famoso síndrome del impostor), decidí apuntarme a un Bootcamp de 6 meses en [Bedu](https://bedu.org).
+Por último, dado que a muchas empresas les encanta tener un papel que respalde lo que ya sabes, y me sentía un poco inseguro sobre si todo lo que había leído aplicaba al mundo del desarrollo actual (el famoso síndrome del impostor), decidí apuntarme a un Bootcamp de 6 meses en [Bedu](https://bedu.org/#?).
 
 Aún con el riesgo de que pecar de soberbia, diré que el bootcamp fue pan comido gracias a todo lo que había practicado y leído anteriormente, realmente no aprendí muchas cosas nuevas. Sin embargo fue gracias a Bedu conocí personas bastante interesantes y talentosas entre mis compañeros y profesores. Además gracias a Bedu probé Platzi, la plataforma de aprendizaje en linea que usan de prework para sus clases presenciales. La verdad solamente la comunidad hizo que valiera cada centavo que pagué.
 

@@ -55,6 +55,14 @@ Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero
 
 Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5. Quiero más inversión en AI, pero que "agregue valor", no solo que busque capitalizarse rápido.
 
+## Los datos para entrenar AI se están acabando
+
+Me topé con este video el otro día, y estoy de acuerdo con este buen caballero: las compañias se están quedando sin datos, nunca se trató sobre la potencia de cálculo, bueno quizás solo al principio, siempre se trato sobre la calidad y la fiabilidad de los datos necesarios para entrenar a la AI.
+
+{{<youtube "nkdZRBFtqSs">}}
+
+La avaricia que alimenta el uso de la AI va a inundar internet con una miríada de artículos sobre AI, que van a ser usados para alimentar a la AI y esta los regurgitará, una y otra vez ~~como en la película del ciempiés humano~~.
+
 ## El fin de la burbuja de AI y la nueva normalidad
 
 Dicho lo anterior pareciera que creo que todo esto de la AI no es más que humo y espejos, pero no, yo creo que la AI va a quedarse y su potencial de revolución social, al menos en el corto plazo, va a ser exclusiva de un grupo muy reducido de empresas, entre las que destaco openAI, Google, Microsoft y los jugadores de siempre. 

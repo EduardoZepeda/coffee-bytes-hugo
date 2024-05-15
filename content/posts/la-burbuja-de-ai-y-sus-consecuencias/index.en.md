@@ -32,8 +32,8 @@ In this AI fever, entrepreneurs are becoming ~~even more~~ elitist, by which I m
 
 ## Investors' greed and consumers' ignorance are guilty of The AI bubble
 
-It is enough for a company to use AI to grant it with an unknown magic that makes it irresistible to the general public, and also to investors. And this for a simple reason: as a society we do not understand how AI works internally, we do not understand the statistics behind it and we endow it with the mysticism of magic.
-Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of hiring people and investors expect the investment of a lifetime.
+It is enough for a company to use AI to grant it with an unknown magic that makes it irresistible to the general public, and also to investors. And this because a simple reason: as a society we do not understand how AI works internally, we do not understand the statistics behind it and we endow it with the mysticism of magic.
+Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of hiring people and investors expect to make the investment of a lifetime.
 
 ## AI fever and capital investment
 
@@ -41,7 +41,8 @@ As I said, investors don't want to be left out of this party and are so eager to
 
 ![Wallstreet has no idea about AI](images/wallstreet-is-dumb.jpg)
 
-But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers](/en/devin-ai-the-supposed-replacement-for-programmers/) are probably doing. 
+But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers](/en/devin-ai-the-supposed-replacement-for-programmers/), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
+
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
 
 ## Many of the AI solutions are just plain ChatGPT wrappers
@@ -52,10 +53,19 @@ In addition to this, most people involved in the financial side of AI don't unde
 
 And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks. I want more investment in AI, but one that "adds value," not just seeks to capitalize as quick as possible.
 
+## Data to train AI is running out
+
+I stumbled upon this video the other day, and I agree with this fine gentleman: Companies are running out of data, it was never about computing power, it's all about curated and reliable datasets to train AI. 
+
+{{<youtube "nkdZRBFtqSs">}}
+
+The greed that feeds the use of AI is going to flood the internet with a myriad of AI articles, that are going to be used to feed, and afterwards be regurgitated by the AI, over and over again ~~as in the human centipede movie~~.
+
 ## The tragic end of the AI Bubble and the New Normal
 
-Having said the above, it seems that I believe that all this about AI is nothing more than smoke and mirrors, but no, I believe that AI is going to stay and it has potential for a social revolution but, at least in the short term, will be exclusive to a very small group of companies, among which I highlight openAI, Google, Microsoft and the usual players. 
-The bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
+Having said the above, it seems that I believe that all this about AI is nothing more than smoke and mirrors, but that's far from the truth, I believe that AI is going to stay and it has potential for a social revolution but, at least in the short term, it will be exclusive to a very small group of companies, among which I highlight openAI, Google, Microsoft and the usual players.
+
+Don't get me wrong, there is a bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
 It is up to them to decide the pace at which this transition will take place despite what the market is trying to shove down your throat.
 

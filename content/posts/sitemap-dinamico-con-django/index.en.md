@@ -15,7 +15,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-A sitemap is an xml file that functions as a map to navigate your site. Hence the name; Site (site) map. Search engines, such as google, bing, yahoo and others, use the sitemap of a site as a starting point to analyze its content and include it in their search results.
+A sitemap is an xml file that functions as a map to navigate your site. Hence the name; Site-map. Search engines, such as google, bing, yahoo and others, use the sitemap of a site as a starting point to analyze its content and include it in their search results. 
+
+A sitemap is [crucial in SEO and a sitemap with errors can plummet your site views](/en/my-mistakes-regarding-the-tech-seo-optimization-of-my-website/), as it happened to me.
 
 ## Structure of a sitemap
 
@@ -33,7 +35,7 @@ A sitemap is an xml file, which has an element called urlset, which is a collect
 </urlset>
 ```
 
-### Split Sitemaps
+### Split Sitemaps for simplicity
 
 When a sitemap is very large it is possible to divide it into smaller sitemaps, using a _sitemapindex_ element and _sitemap_ sub elements, each with its respective location.
 
@@ -48,6 +50,8 @@ When a sitemap is very large it is possible to divide it into smaller sitemaps, 
   </sitemap>
 </sitemapindex>
 ```
+
+But that's not all, you can divide it by category, by language or whatever fits the best for you.
 
 ## Framework of sitemaps in Django
 
@@ -97,7 +101,7 @@ By overwriting the items function we will define the queryset that will be used 
 
 ### location
 
-Location refers to the url of the resource. If we do not define a _location_ method, Django will use the _get_absolute_url_ method of our model to generate.
+Location refers to the url of the resource. If we do not define a _location_ method, Django will use the _get_absolute_url_ method of our model to generate it.
 
 ```python
 # sitemaps.py
@@ -105,12 +109,12 @@ class VideogameSitemap(Sitemap):
     # ...
 
     def location(self, obj):
-        return obj.metodo_personalizado()
+        return obj.customized_method()
 ```
 
 ### changefreq
 
-Refers to the frequency with which the content changes. You can use a function to generate it dynamically according to attributes of the object itself or leave it fixed.
+Refers to the frequency with which the content changes. You can use a function to generate it dynamically according to attributes of the object itself or leave it as a fixed value.
 
 ```python
 # app/sitemaps.py
@@ -123,7 +127,7 @@ class VideogameSitemap(Sitemap):
 
 ### priority
 
-It dictates the priority of the resource. It is possible to use a function to generate the priority dynamically through attributes or any other flow you prefer.
+It dictates the priority of the resource. It is possible to use a function to generate the priority dynamically through attributes or any other logic that you prefer.
 
 ```python
 # app/sitemaps.py
@@ -136,7 +140,9 @@ class VideogameSitemap(Sitemap):
 
 ## Adding a sitemap to Django urls
 
-Now we need to add the url to our project's _urls.py_ file. The view we will use, called _sitemap_, is provided by django and we just pass it a dictionary that relates the sitemap we just created and pass it as a parameter.
+Now we have the sitemap, but we need to add it to the url in our project's _urls.py_ file. 
+
+The view we will use, called _sitemap_, is provided by django and we just pass it a dictionary that relates to the sitemap we just created and pass it as a parameter.
 
 Within the sitemaps variable you can add other sitemaps for other applications.
 
@@ -155,7 +161,7 @@ urlpatterns = [
 ]
 ```
 
-## Setting the domain name in the sitemap
+## Setting the domain name for the sitemap in Django admin
 
 If we access the sitemap, you will notice that the base url of the urls is _example.org_, to define another one we need to modify the base from the administrator. The form is located at _/admin/sites/site/_
 
@@ -163,4 +169,6 @@ If we access the sitemap, you will notice that the base url of the urls is _exam
 
 ## Sitemap cache
 
-Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is colossal, this may not be convenient. Depending on the type of site you manage, you may want to store the sitemap in the [Django cache](/en/caching-in-django-rest-framework-using-memcached/).
+Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is colossal, this may not be convenient because every access to the sitemap will hit the database, and trust me there are bots crawling the web several times a day. 
+
+Depending on the type of site you manage, you may want to store the sitemap in the [Django cache](/en/caching-in-django-rest-framework-using-memcached/).

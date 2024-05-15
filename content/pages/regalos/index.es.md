@@ -10,7 +10,7 @@ Estos son obsequios o presentes que obtienes por visitar mi blog, son mis enlace
 
 Digital Ocean es uno de los proveedores de hosting más grandes que hay. Si nunca has escuchado hablar de esta empresa, lee [mi experiencia usando Digital Ocean como hosting.](digital-ocean-analisis-y-mi-experiencia/)
 
-Regístrate usando [mi enlace de afiliado](https://m.do.co/c/a22240ebb8e7) y obtén $100 dólares para tus proyectos.
+Regístrate usando [mi enlace de afiliado](https://m.do.co/c/a22240ebb8e7#?) y obtén $100 dólares para tus proyectos.
 
 ## 1 mes gratis en Platzi
 

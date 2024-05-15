@@ -21,6 +21,8 @@ url: sitemap-dinamico-con-django
 
 Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu sitio. De ahí el nombre; Site (sitio) map (mapa). Los motores de búsqueda, como google, bing, yahoo y otros, usan el sitemap de un sitio como punto de partida para analizar su contenido e incluirlo en sus resultados de búsqueda.
 
+Un sitemap bien estructurado es [crucial en SEO y la presencia de errores puede disminuir radicalmente las vistas de tu sitio web](/es/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/), como me sucedió a mi.
+
 ## Estructura de un sitemap
 
 Un sitemap es un archivo xml, que cuenta con un elemento llamado urlset, el cual es una colección de elementos url. Cada elemento url tiene una locación, en este caso su dirección url, una frecuencia de cambio, una prioridad y otros elementos opcionales, tales como imágenes.
@@ -128,7 +130,7 @@ class VideogameSitemap(Sitemap):
 
 ```
 
-### priority
+### Priority
 
 Dicta la prioridad del recurso. Es posible usar una función para generar la prioridad de manera dinámica a través de los atributos o cualquier otro flujo que prefieras.
 
@@ -143,7 +145,9 @@ class VideogameSitemap(Sitemap):
 
 ## Agregar un sitemap a las urls de Django
 
-Ahora necesitamos agregar la url a nuestro archivo *urls.py* del proyecto. La vista que usaremos, llamada *sitemap*, nos la provee django y nosotros le pasamos solamente un diccionario que relacione el sitemap que acabamos de crear y se lo pasamos como parámetro.
+Ahora necesitamos agregar la url a nuestro archivo *urls.py* del proyecto. 
+
+La vista que usaremos, llamada *sitemap*, nos la provee django y nosotros le pasamos solamente un diccionario que relacione el sitemap que acabamos de crear y se lo pasamos como parámetro.
 
 Dentro de la variable sitemaps puedes agregar otros sitemaps para otras aplicaciones.
 
@@ -162,7 +166,7 @@ urlpatterns = [
 ]
 ```
 
-## Estableciendo el nombre del dominio en el sitemap
+## Estableciendo el nombre del dominio en el sitemap usando el admin de Django
 
 Si accedemos al sitemap, notarás que la url base de las urls es *example.org*, para definir otro necesitamos modificar la base desde el administrador. El formulario se encuentra en */admin/sites/site/*
 
@@ -170,4 +174,6 @@ Si accedemos al sitemap, notarás que la url base de las urls es *example.org*, 
 
 ## Caché del sitemap
 
-Recuerda que, generalmente, cuando estás creando un sitemap de manera dinámica, a partir de cada uno de los objetos de tu base de dato, estás recorriéndola por completo cada vez que accesas a este. Si tu base de datos es muy grande quizás no sea conveniente. Dependiendo del tipo de sitio que manejas quizás te convenga guardar el sitemap en la [caché de Django](/es/cache-en-django-rest-framework-con-memcached/).
+Recuerda que, generalmente, cuando estás creando un sitemap de manera dinámica, a partir de cada uno de los objetos de tu base de datos, estás accediendo a la base de datos y recorriendo toda la tabla por completo cada vez que lo generas. 
+
+Si tu base de datos es muy grande quizás no sea lo más conveniente, recuerda que múltiples bots monitorean el internet múltiples veces al día. Por lo que, dependiendo del tipo de sitio que manejas quizás te convenga guardar el sitemap en la [caché de Django](/es/cache-en-django-rest-framework-con-memcached/).
