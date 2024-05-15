@@ -55,7 +55,7 @@ Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero
 
 Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5. Quiero más inversión en AI, pero que "agregue valor", no solo que busque capitalizarse rápido.
 
-## Los datos para entrenar AI se están acabando
+## Las empresas se quedan sin datos para entrenar a los LLM
 
 Me topé con este video el otro día, y estoy de acuerdo con este buen caballero: las compañias se están quedando sin datos, nunca se trató sobre la potencia de cálculo, bueno quizás solo al principio, siempre se trato sobre la calidad y la fiabilidad de los datos necesarios para entrenar a la AI.
 

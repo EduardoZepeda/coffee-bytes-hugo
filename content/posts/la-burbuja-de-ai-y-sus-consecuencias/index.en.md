@@ -53,7 +53,7 @@ In addition to this, most people involved in the financial side of AI don't unde
 
 And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks. I want more investment in AI, but one that "adds value," not just seeks to capitalize as quick as possible.
 
-## Data to train AI is running out
+## Companies are running out of Data to train LLM
 
 I stumbled upon this video the other day, and I agree with this fine gentleman: Companies are running out of data, it was never about computing power, it's all about curated and reliable datasets to train AI. 
 
