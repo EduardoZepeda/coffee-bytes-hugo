@@ -19,7 +19,7 @@ Debounce and throttle are [design patterns](/en/design-patterns-in-software/) us
 
 Both patterns generate a function that receives a callback and a timeout or delay.
 
-## Debounce
+## Debounce Pattern 
 
 The debounce pattern postpones the execution of a function until a certain waiting time has elapsed.
 
@@ -27,7 +27,7 @@ Further attempts to execute the function will cancel the pending execution and r
 
 ![Simplified debounce pattern schematic](images/DebounceORebote.png)
 
-### debounce explanation
+### Debounce pattern explanation
 
 The code for debounce in javascript looks like this:
 
@@ -47,18 +47,18 @@ This function uses a closure to access the variable timeout. What is timeout? ti
 
 But now pay attention to the clearTimeout. Every time we call the debounce function it will clear any scheduled function, so the only way for our callback to run is to wait for the time we passed as an argument.
 
-## Throttle
+## Throttling pattern
 
-The throttle pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.
+The throttling pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.
 
 ![Simplified diagram of the throttling pattern](images/throttling.png)
 
-### Explanation of throttle
+### Explanation of throttling pattern
 
-The code for throttle in javascript looks like this.
+The code for throttling in javascript looks like this.
 
 ```javascript
-const throttle = (callback, delay) => {
+const throttling = (callback, delay) => {
   let timeout
   return (...args) => {
     if (timeout !== undefined) {
@@ -74,7 +74,7 @@ const throttle = (callback, delay) => {
 }
 ```
 
-The throttle function returns a function that will have two sides depending on the timeout status:
+The throttling function returns a function that will have two sides depending on the timeout status:
 
 * timeout is defined: this means that a function is already scheduled for execution, in this case the function does nothing, i.e. it blocks the execution of new functions by means of an empty return.
 * timeout is not defined: if timeout is not defined, we create a _setTimeout_ and assign it to the _timeout_ variable. This function, once its execution time has elapsed, will remove itself from the _timeout_ variable. Subsequently, and to finish, we execute the callback function.

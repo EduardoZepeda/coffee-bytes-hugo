@@ -20,7 +20,7 @@ Debounce y throttle son [patrones de diseño](/es/patrones-de-diseno-o-software-
 
 Ambos patrones generan una función que recibe un callback y un tiempo de espera o delay.
 
-## Debounce
+## Patrón Debounce
 
 El patrón de rebote o debounce pospone la ejecución de una función hasta que transcurra un determinado tiempo de espera.
 
@@ -28,7 +28,7 @@ Nuevos intentos de ejecutar la función cancelarán la ejecución pendiente y re
 
 ![Esquema simplificado del patrón debounce](images/DebounceORebote.png)
 
-### Explicación de debounce
+### Explicación del patrón debounce
 
 El código para debounce en javascript se ve así:
 
@@ -48,18 +48,18 @@ Esta función usa un closure para acceder a la variable timeout. ¿Qué es timeo
 
 Pero ahora presta atención al clearTimeout. Cada vez que llamemos a la función debounce se eliminará cualquier función programada, por lo que la única manera de que se ejecute nuestro callback es esperar el tiempo que le pasamos como argumento.
 
-## Throttle
+## Patrón Throttling
 
-El patrón throttle o aceleración establece un tiempo de espera durante el cual no se pueden llamar nuevamente más funciones. A diferencia del patrón bounce, el tiempo de espera no se reinicia si intentamos llamar nuevamente a la función.
+El patrón throttling (o aceleración) establece un tiempo de espera durante el cual no se pueden llamar nuevamente más funciones. A diferencia del patrón bounce, el tiempo de espera no se reinicia si intentamos llamar nuevamente a la función.
 
 ![Esquema simplificado del patrón throttling](images/throttling.png)
 
-### Explicación de throttle
+### Explicación del patrón throttling
 
-El código para throttle en javascript se ve así.
+El código para el patrón throttling en javascript se ve así.
 
 ```javascript
-const throttle = (callback, delay) => {
+const throttling = (callback, delay) => {
   let timeout
   return (...args) => {
     if (timeout !== undefined) {
@@ -75,7 +75,7 @@ const throttle = (callback, delay) => {
 }
 ```
 
-La función throttle retorna una función que tendrá dos vertientes que dependen del estado de timeout:
+La función throttling retorna una función que tendrá dos vertientes que dependen del estado de timeout:
 
 - timeout está definido: esto significa que ya hay programada una función para su ejecución, en este caso la función no hace nada, es decir, bloquea la ejecución de nuevas funciones por medio de un return vacio.
 - timeout no está definido: si timeout no está definido, creamos un _setTimeout_ y la asignamos a la variable _timeout_. Esta función, una vez transcurrido su tiempo de ejecución, se eliminará a si misma de la variable _timeout_. Posteriormente, y para finalizar, ejecutamos la función callback.
