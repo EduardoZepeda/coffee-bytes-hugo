@@ -53,7 +53,7 @@ Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero
 
 ![Las startups solo son un wrapper de chatgpt](images/ai-company-chatgpt.jpg)
 
-Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5. Quiero más inversión en AI, pero que "agregue valor", no solo que busque capitalizarse rápido.
+Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5, quizás el [diseño de mejores drogas por medio de la inteligencia artificial](/es/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Quiero más inversión en AI, pero que "agregue valor", no solo que busque obtener rendimientos rápido.
 
 ## Las empresas se quedan sin datos para entrenar a los LLM
 

@@ -22,6 +22,7 @@ But I believe that, while AI has amazing capabilities, it is far from revolution
 ![Meme mocking the capabilities of AI](images/meme-ai-is-this.jpg)
 
 ## The market is saturated with AI startups
+
 If you've been ~~doom~~ scrolling on social media, you'll know that influencers keep talking about new AI tools that are going to revolutionize the world, ~~just like they said cryptocurrencies would,~~ from voice cloners, image and video creators, data analytics, just to name a few. There are too many AI companies! It's all AI!
 
 ![AI and other bubbles](images/ai-and-other-bubbles.jpeg)
@@ -51,7 +52,7 @@ In addition to this, most people involved in the financial side of AI don't unde
 
 ![Startups are just a wrapper for chatgpt](images/ai-company-chatgpt.jpg)
 
-And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks. I want more investment in AI, but one that "adds value," not just seeks to capitalize as quick as possible.
+And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks or maybe to improve human's health via [drug design](/en/artificial-intelligence-drug-design-for-developers/). I want more investment in AI, but one that "adds value," not just seeks to profit as quick as possible.
 
 ## Companies are running out of Data to train LLM
 

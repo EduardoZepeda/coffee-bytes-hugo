@@ -42,7 +42,7 @@ Does this last one ring a bell? Yes, the MVC pattern used by many [frameworks, s
 
 Design patterns make it easier to decouple the code, which makes it simpler to add or remove functions and also gives us the assurance that they are solutions that have already been tested over and over again over the years.
 
-## Most common design patterns
+## Most common design patterns in software
 
 There are numerous patterns in existence as problems to be solved, and patterns can be combined with each other in complex systems. However there are certain quite popular patterns that are the ones that have been compiled to be put in most books dealing with this subject. Generally you will find these:
 
@@ -68,7 +68,7 @@ There are numerous patterns in existence as problems to be solved, and patterns 
 
 Just as these patterns emerged in response to existing problems, new patterns are created in response to new problems, so **there is no list of static patterns that are absolute and solve all problems**.
 
-## Examples of design patterns
+## Examples of patterns: singleton, observer, template, decorator
 
 I'm going to walk you through four examples of design patterns in Python below. Why Python? Because it's pretty simple to understand, even if you've never written Python code, and if you're coming from a low-level language, it'll probably be a piece of cake for you.
 
@@ -80,7 +80,7 @@ Just as these patterns emerged in response to existing problems, new patterns ar
 
 I will explain three examples of design patterns below.
 
-### Singleton
+### Pattern singleton
 
 It is used when you want to prevent the creation of multiple instances of the same object. For example, you don't want two objects that control the mouse or the printer running at the same time. Its indiscriminate use is [considered by many an anti-pattern.](http://97cosas.com/programador/resiste-tentacion-singleton.html)
 
@@ -113,7 +113,7 @@ The *getattr* and *setattr* methods are modified to get and assign the attribute
                 return setattr(self.instance, name)
 ```
 
-### Observer
+### Pattern observer
 
 The observer pattern allows an object to keep track of the state changes of another object. For example if we want to notify every user with an email every time the terms of use of a service are updated or to let all users know every time a digital newspaper publishes new material.
 
@@ -167,7 +167,7 @@ class Task(object):
         main()
 ```
 
-### Template
+### Pattern template
 
 In this pattern we seek to use the decorator _@abstractmethod_ to guarantee the implementation of the methods in a derived class.
 In the following example we are forcing, under threat of an error occurring, that the child class implements the methods *step1*, *step2* and *step3*. The *template_method* method is inherited as is, so it does not need to be defined.
@@ -198,7 +198,7 @@ class ConcreteImplementationClass(TemplateAbstractBaseClass):
      def _step_3(self): pass
 ```
 
-### Decorator
+### Pattern decorator
 
 The decorator pattern allows us to add extra functionality to a function without modifying it directly. It is widely used in Django and other frameworks to restrict views according to permissions or to verify that a user is logged in. They work by creating a function that receives our function as an argument, inside this function we will create a wrapper, which gives the extra functionality to our function, our decorator will return that wrapper.
 

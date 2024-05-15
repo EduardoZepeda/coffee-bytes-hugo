@@ -42,7 +42,7 @@ Algunos problemas muy comunes son: [el procesamiento de tareas usando un número
 
 Los patrones de diseño facilitan que el desacoplamiento del código, lo que vuelve más sencillo agregar o remover funciones y también nos dan la seguridad de que son soluciones que ya han sido probadas una y otra vez a lo largo de los años.
 
-## Patrones de diseño comunes
+## Patrones de diseño comunes en software
 
 Hay numerosos patrones en existencia como problemas a resolver, así mismo los patrones pueden combinarse entre sí en sistemas complejos. Sin embargo hay ciertos patrones bastante populares que son los que han sido recopilados para ponerse en la mayoría de los libros que tratan este tema. Generalmente encontrarás estos: 
 
@@ -68,7 +68,7 @@ Hay numerosos patrones en existencia como problemas a resolver, así mismo los p
 
 De la misma manera que surgieron esos patrones como respuesta a problemas existentes, se crean patrones nuevos frente a nuevos problemas, por lo que **no hay una lista de patrones estáticos que sean absolutos y resuelvan todos los problemas**.
 
-## Ejemplos de patrones de diseño
+## Ejemplos de patrones de diseño: singleton, observador, template, decorador
 
 Voy a explicarte cuatro ejemplos de patrones de diseño en Python a continuación. ¿Por que Python? Porque es bastante sencillo de entender, incluso si nunca has escrito código Python, y si vienes de un lenguaje de bajo nivel, seguramente será pan comido para ti.
 

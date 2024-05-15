@@ -70,7 +70,7 @@ Next I will create a few data as an example. You can do it in the Django admin o
 
 Before we talk about annotate and aggregate, let's make sure we know how to get the SQL query that Django will make.
 
-## How to convert a queryset to SQL?
+## How to convert a queryset to SQL in Django?
 
 You probably already know the django ORM and have used it to do database lookups. But there is something that many people ignore: **it is possible to get the query, before Django processes and executes it, by printing the query property of our querysets.
 
@@ -83,7 +83,7 @@ SELECT "app_seller"."id", "app_seller"."name" FROM "app_seller"
 
 Knowing the query that Django will perform helps us understand what is going on behind the ORM. This will be useful to go deeper into _annotate_.
 
-## Annotate
+## Annotate in Django
 
 ### Why use annotate?
 
@@ -174,7 +174,7 @@ sellers_with_orders_count[0].orders_count
 2
 ```
 
-### Concatenate with annotate
+### Concatenate a query with annotate
 
 As I mentioned at the beginning; _annotate_ returns a _queryset_, **so we can concatenate multiple annotate for a single database query.**.
 
@@ -200,7 +200,7 @@ combined_querysets[0].orders_count
 # Poe has made two orders
 ```
 
-### El error Cannot resolve keyword al usar annotate
+### Cannot resolve keyword error when using annotate
 
 If you combine two querysets and in one of them you have used annotate, you may not get the results you expect. This happens because you are trying to join two querysets with unequal fields.
 
@@ -230,7 +230,7 @@ queryset_2 = Seller.objects.filter(name__startswith="Lovecraft")
 results = queryset_1 & queryset_2
 ```
 
-## Aggregate
+## Aggregate in Django
 
 ### Why use aggregate?
 

@@ -29,8 +29,6 @@ Annotate y aggregate son útiles para [mejorar el rendimiento de aplicaciones le
 
 ![Imagen comparativa de las diferencias entre Django annotate y Django aggregate.](images/DjangoAggregateAnnotate-1.png)
 
-## Preparación
-
 Para este ejemplo vamos a crear un par de modelos ficticios que usaremos para los ejemplos:
 
 Para este ejemplo se usó Django 3.0 y Python 3.8.6
@@ -72,7 +70,7 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 
 Antes de hablar sobre annotate y aggregate hay que asegurarnos de saber como obtener la consulta SQL que hará Django.
 
-## ¿Cómo convertir un queryset a SQL?
+## ¿Cómo convertir un queryset a SQL en Django?
 
 Probablemente ya conozcas el ORM de django y lo hayas usado para hacer búsquedas en la base de datos. Pero existe algo que muchas personas ignoran: **es posible obtener la consulta, antes de que Django la procese y ejecute, imprimiendo la propiedad query de nuestros querysets.**
 
@@ -176,7 +174,7 @@ sellers_with_orders_count[0].orders_count
 2
 ```
 
-### Concatenar con annotate
+### Concatenar una query con annotate
 
 Como mencioné al principio; _annotate_ devuelve un _queryset_, **por lo que podemos concatenar múltiples annotate para una sola consulta a la base de datos.**
 
@@ -266,7 +264,7 @@ SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '3'
 
 En lugar de usar Python para calcular el total de los pedidos, podríamos darle instrucciones a la base de datos para que lo calcule usando _aggregate_.
 
-### ¿Cómo usar aggregate?
+### ¿Cómo usar aggregate en Django?
 
 De acuerdo al o anterior, sería conveniente reemplazar el código anterior con el siguiente queryset. Podemos especificar el nombre que se usará de llave en nuestro diccionario o dejar que django lo genere de manera automática. Sin embargo, para este ejemplo lo nombraremos _sum\_of\_all\_orders_.
 
@@ -294,7 +292,7 @@ Traceback (most recent call last):
 AttributeError: 'dict' object has no attribute 'query'
 ```
 
-### Concatenar aggregate al final del queryset
+### Concatenar aggregate al final de un queryset
 
 De la misma manera podemos concatenar un _annotate_ con un _aggregate_, **siempre y cuando el aggregate esté al final de la concatenación**, esto debido a que **aggregate no devuelve un query.**
 
