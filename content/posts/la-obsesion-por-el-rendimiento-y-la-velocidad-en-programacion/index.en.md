@@ -43,6 +43,8 @@ Does it matter whether your application runs with minimal memory consumption usi
 
 I'm not saying that it's wrong to take care of the technical aspects, but right now there are more important things, such as acquiring information that will translate into profitability later, or allocating more resources to marketing and advertising your startup or project than wasting time ironing out the kinks in your code. 
 
+Optimizing for good SEO is also more important than the memory consumption or the efficiency of your application, believe me, [I learned the importance of SEO from my own mistakes](/en/my-mistakes-regarding-the-tech-seo-optimization-of-my-website/)
+
 I'll say it again just in case you didn't get it: marketing and sales are more important than the quality of your software when you start a project.
 
 ![Wordpress vs node meme](images/wordpress-meme.jpg)

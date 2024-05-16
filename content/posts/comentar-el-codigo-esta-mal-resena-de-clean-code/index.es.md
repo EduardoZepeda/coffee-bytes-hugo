@@ -108,6 +108,24 @@ El comentario en el primer fragmento de código es totalmente innecesario, el no
 
 ¿Hay alguna situación que amerite comentarios según Uncle Bob? Sí, según el autor de Clean Code, hay casos **muy puntuales** en que es mejor tener un comentario que ninguno (como para advertir consecuencias, TODO, declarar intenciones) pero, desde el punto de vista de nuestro mesias del código limpio, son más bien excepciones a la regla.
 
+### ¿Qué opino yo de los comentarios en el código?
+
+Yo no tengo una postura tan rigida al respecto, yo creo que está bien escribir comentarios si pueden reducir el tiempo que otros desarrolladores pasan intentando comprender el código, incluso aunque a veces sea obvio.
+
+Los comentarios deben usarse si le facilitan la vida a los demás, incluso si tú no los necesitas.
+
+Por ejemplo, si se utiliza el algoritmo Fisher-Yates para generar números aleatorios, yo pondría una pequeña anotación para ahorrar una búsqueda en wikipedia al desarrollador que lo lea, sí, aunque sea "conocimiento básico".
+
+También añadiría un "no olvides añadir el id= WHERE" en una cláusula DELETE, si sospecho que puede ocurrir un accidente en esa línea de código.
+
+Pero no te confundas, tampoco haría cosas como esta:
+
+``` python
+# PLEASE DONT DONT DO THIS
+# Check if the product is available
+is_product_available = check_if_product_available()
+```
+
 ### ¿Cuantos argumentos debe tener una función según Clean Code?
 
 > El número ideal de argumentos para una función es cero. Después uno, seguido de cerca por dos. Tres argumentos deberían evitarse siempre que sea posible. Más de tres requiere una justificación muy especial...

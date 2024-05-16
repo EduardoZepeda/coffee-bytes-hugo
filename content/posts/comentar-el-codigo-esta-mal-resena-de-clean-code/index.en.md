@@ -108,6 +108,24 @@ The comment in the first code snippet is totally unnecessary, the function name 
 
 Are there any situations that merit comments according to Uncle Bob? Yes, according to the author of Clean Code, there are **very punctual** cases in which it is better to have a comment than none at all (as to warn consequences, EVERYTHING, declare intentions) but, from the point of view of our clean code messiah, they are rather exceptions to the rule.
 
+### What do I think about comments in code?
+
+I don't have such a rigid stance on this, I think it's ok to write comments if they can reduce the time other developers spend trying to understand the code, even if sometimes it's obvious.
+
+Comments should be used if they make life easier for others, even if you don't need them.
+
+For example, if you use the Fisher-Yates algorithm to generate random numbers, I would put a small annotation to save a wikipedia search for the developer reading it, even if it's "basic knowledge".
+
+I'd also add a "don't forget to add the WHERE id=" in a DELETE clause, if I suspect an accident could happen in certain line of code.
+
+But make no mistake, I wouldn't do things like this either.
+
+``` python
+# PLEASE DONT DONT DO THIS
+# Check if the product is available
+is_product_available = check_if_product_available()
+```
+
 ### How many arguments should a function have according to Clean Code?
 
 > The ideal number of arguments for a function is zero. Then one, followed closely by two. Three arguments should be avoided whenever possible. More than three requires a very special justification....

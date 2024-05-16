@@ -43,6 +43,8 @@ Acaso importa que tu aplicación se ejecute con un consumo mínimo de memoria us
 
 No digo que esté mal cuidar los aspectos técnicos, pero en este momento hay cosas más importantes, como el adquirir información que se traducirá en rentabilidad posteriormente, o destinar más recursos el marketing y la publicidad de tu startup o proyecto que en perder tiempo limando las asperezas de tu código.
 
+Optimizar para tener un buen SEO también es más importante que el consumo de memoria o la eficiencia de tu aplicación, creeme, [aprendí la importancia del SEO a partir de mis propios errores.](/es/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/)
+
 ![Meme sobre wordpress vs una aplicación node](images/wordpress-meme.jpg)
 
 ## Velocidad de desarrollo vs rendimiento
