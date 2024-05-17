@@ -147,7 +147,7 @@ Nos permite generar archivos de configuración e interaccionar directamente con 
 Ahora mismo nos compete solr, por lo que primeramente instalaremos *django-haystack* y *pysolr*
 
 ```bash
-pipenv install django-haystack==3.2.1 pysolr==3.9.0
+pip install django-haystack==3.2.1 pysolr==3.9.0
 ```
 
 ### Configurando Haystack en Django

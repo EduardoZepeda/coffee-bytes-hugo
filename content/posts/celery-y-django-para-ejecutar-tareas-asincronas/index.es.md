@@ -52,7 +52,7 @@ Así es, de seguro estás pensando que celery guarda similitudes con el async aw
 Vamos a instalar celery para este ejemplo, la versión 5.1.2
 
 ```bash
-pipenv install "celery==5.1.2"
+pip install "celery==5.1.2"
 ```
 
 ## Instalando RabbitMQ
@@ -204,7 +204,7 @@ Celery cuenta con varias aplicaciones complementarias que permiten aumentar el c
 Flower es muy sencillo de usar, basta con instalarlo
 
 ```bash
-pipenv install flower
+pip install flower
 ```
 
 Y, posteriormente, pasárselo a nuestra aplicación de celery como si fuera un argumento.

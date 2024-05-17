@@ -19,7 +19,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems](/en/i-test-chatgpt-with-codewars-coding-challenges/) others are excited about its potential to change the world of work. Today I leave aside the economic consequences part to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand the language, is Chat GPT conscious?
+Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems](/en/i-test-chatgpt-with-codewars-coding-challenges/) others are excited about its potential to change the world of work. Today I leave aside the economic consequences of AI and the question about whether [we're in an AI bubble or not](/en/the-rise-and-fall-of-the-ai-bubble/), to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand the language, is Chat GPT conscious?
 
 > What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. Adriy Burkov
 
@@ -71,9 +71,9 @@ But even if human beings have unconscious processes capable of existing without 
 
 Sometimes we believe that only machines have a mechanical behavior and that any living being would be able to respond in a very different way than a machine would, with more versatility and adapting to changes, but is this always the case?
 
-In the book "An Eternal Graceful Loop" by Douglas R. Hofstader. The author cites an [experiment in which a sphex wasp is tricked into bringing a cricket within the confines of a burrow up to 40 times](https://jhjeong.mindconnect.cc/Texts/sphex.html). Just as if it were a computer program, this wasp gets stuck in an infinite loop from which it cannot escape, how different is this from a computer program that, after the same input, generates the same output?
+In the book "Godel, Escher, Bach: An Eternal Golden Braid" by Douglas R. Hofstader. The author cites an [experiment in which a sphex wasp is tricked into bringing a cricket within the confines of a burrow up to 40 times](https://jhjeong.mindconnect.cc/Texts/sphex.html). Just as if it were a computer program, this wasp gets stuck in an infinite loop from which it cannot escape, how different is this from a computer program that, after the same input, generates the same output?
 
-![Sphex wasp from the experiment mentioned in the book An Eternal and Graceful Loop](images/avisa-sphex.jpg "Sphex wasp from the experiment mentioned in the book An Eternal and Graceful Loop")
+![Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid](images/avisa-sphex.jpg "Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid")
 
 This experiment made me question whether some living beings are nothing more than biological automatons and also where is the turning point at which a living being ceases to be an automaton and becomes conscious, are there gradients of consciousness? And, if so, what does consciousness look like beyond what we humans experience? If consciousness exists as a macroscopic manifestation, is it deterministic, or does it belong to the quantum world of indeterminacy? I don't know and I don't think the truth has yet to pick a winner.
 
@@ -81,7 +81,7 @@ This experiment made me question whether some living beings are nothing more tha
 
 Consciousness is a complex subject that cannot be addressed in a few lines, not for nothing is it known as the "hard problem", but if these brushstrokes left you wanting more, I leave you with my list of favorite resources to delve into this complex subject.
 
-* An eternal and graceful loop by Douglas R. Hofstader: the author delves into the subject of self-reference and develops the question: can a system understand itself?
+* Godel, Escher, Bach: An Eternal Golden Braid by Douglas R. Hofstader: the author delves into the subject of self-reference and develops the question: can a system understand itself?
 * The Emperor's New Mind by Sir Roger Penrose: the author sets the context of the laws of the universe and analyzes whether consciousness and intelligence are related and whether they have a deterministic or non-deterministic character.
 * [Brains, Minds, and Machines: Consciousness and Intelligence](https://infinite.mit.edu/video/brains-minds-and-machines-consciousness-and-intelligence): MIT talk, where the topics of brains, consciousness, intelligence and machines are developed. Radically underrated; 7000 views on youtube alone? really?
 * [Can a program be alive?](https://www.youtube.com/watch?v=mC_KQC1gtWQ) small video essay where one of my favorite youtubers develops the issue of whether a computer program can be alive.

@@ -22,7 +22,7 @@ There are quite simple to use tools that allow us to audit the number of request
 The first step is to install it using pip or any virtual environment manager, I will use the virtual environment manager pipenv.
 
 ```bash
-pipenv install locust==2.2.3
+pip install locust==2.2.3
 pipenv shell
 ```
 

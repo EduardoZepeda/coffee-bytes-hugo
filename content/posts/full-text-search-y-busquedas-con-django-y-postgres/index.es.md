@@ -68,7 +68,7 @@ Si cuando ejecutaste la búsqueda anterior te saltó un error es porque te falta
 Tener instalado psycopg2 y sus dependencias en [tu entorno virtual.](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
 
 ```python
-pipenv install psycopg2 # también sirve con pip install psycopg2
+pip install psycopg2 # también sirve con pip install psycopg2
 ```
 
 De la misma manera, asegúrate de que tu proyecto tenga la aplicación _django.contrib.postgres_ instalada y revisa que estés usando _postgres_ en la variable _DATABASES_ de tu archivo de configuración:

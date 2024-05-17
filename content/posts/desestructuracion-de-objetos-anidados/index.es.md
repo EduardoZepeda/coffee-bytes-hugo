@@ -1,6 +1,7 @@
 ---
 aliases:
 - /desestructuracion-de-objetos-anidados
+- /es/desestructuracion-de-objetos-anidados/
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,10 +12,12 @@ description: ¿Desestructuración de objetos anidados en javascript? En esta ent
   trato el tema de la desestructuración de objetos anidados con ejemplos.
 keywords:
 - javascript
-title: Desestructuración de objetos anidados
+title: Desestructuración de objetos anidados en Javascript
 ---
 
-En las entradas anteriores expliqué brevemente como llevar a cabo una [desestructuración de objetos en Javascript](/es/desestructuracion-de-listas-en-javascript/), pero en la mayoría de los casos no tendremos la suerte de trabajar con objetos planos, sino que nos encontraremos con objetos anidados con varios niveles de profundidad. ¿Tendremos que conformarnos con olvidarnos de esta característica y hacer el trabajo explícitamente asignando una constante a cada objeto? Por suerte Javascript permite trabajar la desestructuración de objetos anidados.
+En las entradas anteriores expliqué brevemente como llevar a cabo una [desestructuración de objetos en Javascript](/es/desestructuracion-de-listas-en-javascript/), pero en la mayoría de los casos no tendremos la suerte de trabajar con objetos planos, sino que nos encontraremos con objetos anidados con varios niveles de profundidad. 
+
+¿Tendremos que conformarnos con olvidarnos de esta característica y hacer el trabajo explícitamente asignando una constante a cada objeto? Por suerte Javascript permite trabajar la desestructuración de objetos anidados.
 
 Creemos un ejemplo de objeto para probar.
 
@@ -41,6 +44,8 @@ const { userIsLoggedIn } = user
 userIsLoggedIn
 true
 ```
+
+## ¿Cómo desestructurar propiedades anidadas?
 
 ¿Pero y si ahora queremos asignar la propiedad state? Para lograrlo primero pensemos en la estructura del objeto. Nuestro objeto tiene tres niveles; en el primero, está userIsLoggedIn y data; en el segundo, email, name, lastName y location; en el tercer nivel, las propiedades state, country y postalCode. Es en este último nivel donde está la propiedad que intentamos desestructurar.
 
@@ -82,7 +87,7 @@ state
 
 Ahora sí ya puedes darle ENTER, cuando accedas a la constante _state_, verás que hace referencia a la propiedad _state_, anidada del objeto.
 
-## Accediendo a más de una propiedad
+## ¿Cómo desestructurar múltiples propiedades?
 
 El ejemplo anterior no estuvo tan complicado, pero que tal si en lugar de una sola propiedad queremos desestructurar el valor de _userIsLoggedIn_, _email_ y _state_.
 

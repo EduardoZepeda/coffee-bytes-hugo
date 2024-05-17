@@ -31,7 +31,7 @@ Para instalarla vamos a usar [Pipenv](/es/pipenv-el-administrador-de-entornos-vi
 
 ```bash
 pipenv shell
-pipenv install django-postalcodes-mexico django
+pip install django-postalcodes-mexico django
 django-admin startproject codigosPostalesMx .
 python manage.py migrate
 ```

@@ -70,7 +70,7 @@ Now that you've seen why it's worth using, why not give it a try?
 To install it we are going to create a virtual environment with [Pipenv, a virtual environment management tool](/en/pipenv-the-virtual-environment-manager-you-dont-know/). In addition to FastAPI we will need uvicorn; an ASGI server, which we will use to serve our API.
 
 ```bash
-pipenv install fastapi uvicorn
+pip install fastapi uvicorn
 ```
 
 Let's activate the virtual environment to have access to the packages we have just installed.
@@ -457,7 +457,7 @@ The first thing we have to do to handle forms is to install the _python-multipar
 Make sure you are within the virtual environment in which you are working.
 
 ```bash
-pipenv install python-multipart
+pip install python-multipart
 ```
 
 Once our package is installed, we will create a function that receives a parameter equal to the _Form_ object. Remember, again, to import _Form_ from _fastapi_.
@@ -594,7 +594,7 @@ FastAPI contains a client with which we can do testing. Before we start testing 
 If you want to go deeper in Python testing I have a post where I expose some of the [Python libraries for testing](/en/unittest-python-are-python-tests-worthwhile/)
 
 ```bash
-pipenv install requests pytest
+pip install requests pytest
 ```
 
 Now that we have them we are going to create a test file called _test_api.py_ and a _init__.py_ file so that python can access our modules.

@@ -47,7 +47,7 @@ That's right, you're probably thinking that celery has similarities with Javascr
 Let's install celery for this example, version 5.1.2
 
 ```bash
-pipenv install "celery==5.1.2"
+pip install "celery==5.1.2"
 ```
 
 ## Installing RabbitMQ
@@ -199,7 +199,7 @@ Celery has several complementary applications that allow you to increase control
 Flower is simple to use, just install it.
 
 ```bash
-pipenv install flower
+pip install flower
 ```
 
 And, subsequently, pass it to our celery application as if it were an argument.

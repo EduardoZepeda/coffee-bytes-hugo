@@ -24,7 +24,7 @@ Existen herramientas bastante sencillas de utilizar que permiten auditar el núm
 El primer paso es instalarlo usando pip o cualquier manejador de entornos virtuales, yo usaré el administrador de entornos virtuales pipenv.
 
 ```bash
-pipenv install locust==2.2.3
+pip install locust==2.2.3
 pipenv shell
 ```
 

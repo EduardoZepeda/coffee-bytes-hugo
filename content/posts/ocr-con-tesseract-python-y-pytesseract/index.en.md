@@ -112,7 +112,7 @@ sudo mv eng.traineddata /usr/local/share/tessdata/
 After installation we add pytesseract (the python bindings) and pillow (for image management) to our virtual environment.
 
 ```bash
-pipenv install pytesseract pillow
+pip install pytesseract pillow
 ```
 
 ## Read strings from images with python

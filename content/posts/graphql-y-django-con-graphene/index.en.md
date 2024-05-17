@@ -48,7 +48,7 @@ I am going to create a project with a fairly simple application for this tutoria
 
 ```python
 pipenv shell
-pipenv install graphene-django==2.15.0 django
+pip install graphene-django==2.15.0 django
 django-admin startproject criticaAnimes .
 django-admin startapp anime
 ```

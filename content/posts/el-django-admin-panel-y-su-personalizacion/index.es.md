@@ -282,7 +282,7 @@ Para finalizar te mostraré un ejemplo de mejora visual con _django-material-adm
 Vamos a instalarlo.
 
 ```python
-pipenv install django-material-admin
+pip install django-material-admin
 ```
 
 Y ahora modificamos nuestra variable INSTALLED\_APPS

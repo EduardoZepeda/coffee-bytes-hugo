@@ -21,7 +21,7 @@ With django and reportlab we can generate PDFs dynamically, using information fr
 The first thing will be to install reportlab, we can use pip, pipenv or any other package manager you want.
 
 ```bash
-pipenv install reportlab
+pip install reportlab
 # pip install reportlab
 ```
 

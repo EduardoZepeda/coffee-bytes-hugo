@@ -32,7 +32,7 @@ pipenv shell
 First we install Django using pipenv. We will also install Pillow since we will be dealing with images.
 
 ```bash
-pipenv install django Pillow
+pip install django Pillow
 ```
 
 Next we will create a new project and enter the newly created folder.

@@ -30,7 +30,7 @@ To install it we are going to use [Pipenv](/en/pipenv-the-virtual-environment-ma
 
 ```bash
 pipenv shell
-pipenv install django-postalcodes-mexico django
+pip install django-postalcodes-mexico django
 django-admin startproject codigosPostalesMx .
 python manage.py migrate
 ```

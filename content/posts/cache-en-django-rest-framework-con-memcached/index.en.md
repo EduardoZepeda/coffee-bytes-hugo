@@ -71,7 +71,7 @@ I will install the following dependencies for this tutorial:
 Some older tutorials **use python-memcached to interact with memcached, however the use of this library is** [**discouraged** by django since version 3.2](https://docs.djangoproject.com/en/3.2/topics/cache/#memcached)
 
 ```bash
-pipenv install djangorestframework django-debug-toolbar django django-seed pymemcache
+pip install djangorestframework django-debug-toolbar django django-seed pymemcache
 ```
 
 Once we have the applications installed and configured we are going to start applying cache. We add the following lines to our configuration file.

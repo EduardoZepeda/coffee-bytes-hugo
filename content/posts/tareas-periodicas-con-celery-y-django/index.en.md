@@ -24,7 +24,7 @@ In addition to creating asynchronous tasks, celery also allows you to create per
 The first step is to install Celery:
 
 ```bash
-pipenv install "celery==5.1.2"
+pip install "celery==5.1.2"
 ```
 
 As with asynchronous tasks, we also need rabbitmq or another broker.

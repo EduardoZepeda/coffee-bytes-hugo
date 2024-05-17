@@ -53,7 +53,7 @@ Voy a crear un proyecto con una aplicación bastante sencilla para este tutorial
 
 ```python
 pipenv shell
-pipenv install graphene-django==2.15.0 django
+pip install graphene-django==2.15.0 django
 django-admin startproject criticaAnimes .
 django-admin startapp anime
 ```

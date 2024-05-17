@@ -55,7 +55,7 @@ Primero vamos a instalar las librerías necesarias: djangorestframework y django
 Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
 
 ```python
-pipenv install djangorestframework_simplejwt djangorestframework
+pip install djangorestframework_simplejwt djangorestframework
 ```
 
 Asegurate de agregar las aplicaciones que instalamos a la variable INSTALLED\_APPS.

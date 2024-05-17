@@ -38,13 +38,13 @@ Pero para este ejemplo voy a usar SQLite, por que no necesita configuración de 
 Para instalar tortoise-orm basta con usar el administrador de entornos virtuales que prefieras, yo usaré pipenv.
 
 ```bash
-pipenv install tortoise-orm
+pip install tortoise-orm
 ```
 
 Instalaré también fastAPI y otras utilidades que necesitaremos
 
 ```bash
-pipenv install python-multipart fastapi uvicorn pydantic
+pip install python-multipart fastapi uvicorn pydantic
 ```
 
 ## Crear modelos con tortoise

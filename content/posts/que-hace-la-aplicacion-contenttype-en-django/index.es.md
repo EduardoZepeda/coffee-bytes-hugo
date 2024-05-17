@@ -56,7 +56,7 @@ pipenv shell
 Una vez en nuestro entorno virtual, instalemos Django
 
 ```bash
-pipenv install django
+pip install django
 ```
 
 Creemos un proyecto:

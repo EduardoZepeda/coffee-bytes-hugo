@@ -13,7 +13,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In the previous post I briefly discussed the topic of [destructuring with nested objects in javascript](/en/destructuring-of-nested-objects/) . In this post I am going to talk a bit about how we can specify default values when destructuring an object in javascript.
+In the previous post I briefly discussed the topic of [destructuring with nested objects in javascript](/en/destructuring-nested-objects-in-javascript/) . In this post I am going to talk a bit about how we can specify default values when destructuring an object in javascript.
 
 To do this we will create a fairly simple object:
 

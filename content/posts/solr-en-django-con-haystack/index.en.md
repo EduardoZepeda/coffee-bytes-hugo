@@ -143,7 +143,7 @@ It allows us to generate configuration files and interact directly with the engi
 Right now we are competing with solr, so first we will install _django-haystack_ and _pysolr_.
 
 ```bash
-pipenv install django-haystack==3.2.1 pysolr==3.9.0
+pip install django-haystack==3.2.1 pysolr==3.9.0
 ```
 
 ### Configuring Haystack in Django

@@ -277,7 +277,7 @@ Finally, I will show you an example of visual enhancement with _django-material-
 Let's install it.
 
 ```python
-pipenv install django-material-admin
+pip install django-material-admin
 ```
 
 And now we modify our INSTALLED_APPS variable

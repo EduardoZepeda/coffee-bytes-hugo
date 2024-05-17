@@ -48,7 +48,7 @@ sudo pip install pipenv
 Una vez instalado podemos empezar a instalar paquetes usando la opción _install_, para este ejemplo probemos con una versión específica de Django.
 
 ```bash
-pipenv install django===3.0.1
+pip install django===3.0.1
 ```
 
 Si hacemos un _ls_ podremos notar que se nos crearon dos archivos _Pipfile_ y _Pipfile.lock_.
@@ -88,7 +88,7 @@ Analizando el contenido apreciamos este archivo nos muestra varias categorias
 - requires: la versión de Python requerida para el proyecto, se especifica automáticamente o puedes hacerlo tu mismo
 
 ```bash
-pipenv install --dev pytest
+pip install --dev pytest
 ```
 
 Si hacemos un cat nuevamente veremos que debajo de la sección _\[dev-packages\]_ ya nos aparece _pytest_ como una dependencia.

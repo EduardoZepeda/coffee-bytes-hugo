@@ -63,7 +63,7 @@ Recuerda que si no estás convencido de porque deberías usar Django revisa mi e
  # Ejecuta esto para no escribir el código
 git clone https://github.com/EduardoZepeda/djangohtmxtest.git
 cd djangohtmxtest/
-pipenv install
+pip install
 pipenv shell
 python manage.py migrate
 python loaddata videogames
@@ -78,7 +78,7 @@ Para empezar, vamos a crear un entorno virtual con [el gestor de entornos virtua
 
 ```bash
 pipenv shell
-pipenv install django
+pip install django
 ```
 
 Creemos un proyecto y una app con _django-admin_

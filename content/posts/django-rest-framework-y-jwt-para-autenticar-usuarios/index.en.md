@@ -57,7 +57,7 @@ First we are going to install the necessary libraries: djangorestframework and d
 To install them I will use [the virtual environment manager called Pipenv](/en/pipenv-the-virtual-environment-manager-you-dont-know/). You can also use pip if you want.
 
 ```python
-pipenv install djangorestframework_simplejwt djangorestframework
+pip install djangorestframework_simplejwt djangorestframework
 ```
 
 Be sure to add the applications you install to the INSTALLED_APPS variable.

@@ -1,5 +1,7 @@
 ---
-title: "Destructuring of nested objects in Javascript"
+aliases:
+- /en/destructuring-of-nested-objects/
+title: "Destructuring nested objects in Javascript"
 date: "2019-11-16"
 categories:
 - "javascript"
@@ -11,7 +13,6 @@ keywords:
 
 authors:
 - Eduardo Zepeda
-url: "/en/destructuring-of-nested-objects/"
 ---
 
 In the previous posts I briefly explained how to perform a [destructuring of objects in Javascript](/en/destructuring-lists-in-javascript/), but in most cases we will not be lucky enough to work with flat objects, but we will find nested objects with several levels of depth. Will we have to settle for forgetting about this feature and do the job explicitly assigning a constant to each object? Luckily Javascript allows us to work with the destructuring of nested objects.
@@ -41,6 +42,8 @@ const { userIsLoggedIn } = user
 userIsLoggedIn
 true
 ```
+
+## ¿How to destructure nested properties?
 
 But what if we now want to assign the state property? To achieve this, let's first think about the structure of the object. Our object has three levels; in the first one, there are userIsLoggedIn and data; in the second one, email, name, lastName and location; in the third level, the properties state, country and postalCode. It is in this last level where is the property that we are trying to destructure.
 
@@ -82,7 +85,7 @@ state
 
 Now you can hit ENTER, when you access the _state_ constant, you will see that it refers to the _state_ property, nested in the object.
 
-## Accessing more than one property
+## How to destructure more than one property?
 
 The previous example was not so complicated, but what if instead of a single property we want to destructure the value of _userIsLoggedIn_, _email_ and _state_.
 

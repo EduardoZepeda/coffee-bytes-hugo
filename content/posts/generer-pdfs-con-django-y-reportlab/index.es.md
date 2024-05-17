@@ -26,7 +26,7 @@ Con django y reportlab podemos generar PDFs de manera dinámica, usando informac
 Lo primero será instalar reportlab, podemos usar pip, pipenv o cualquier otro gestor de paquetes que quieras.
 
 ```bash
-pipenv install reportlab
+pip install reportlab
 # pip install reportlab
 ```
 ## Definir tipo de respuesta PDF en Django

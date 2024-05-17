@@ -33,7 +33,7 @@ Meet dj-rest-auth. This library that handles all the heavy lifting of basic user
 To use it we install the package using the pipenv virtual environment manager, or your favorite package manager.
 
 ```python
-pipenv install dj-rest-auth<=2.1.7
+pip install dj-rest-auth<=2.1.7
 ```
 
 Installing dj-rest-auth will also install rest_framework
@@ -109,7 +109,7 @@ We will use another library, this time called django-allauth.
 Like the previous library, we are going to install it.
 
 ```bash
-pipenv install django-allauth~=0.42.0
+pip install django-allauth~=0.42.0
 ```
 
 After installation we add our application to the project. django-all-auth requires the _django.contrib.sites_ application to be in our INSTALLED_APPS in the configuration file.
@@ -180,7 +180,7 @@ dj-rest-auth also supports JWT. To use JWTs we will install the djangorestframew
 If you don't know what JWT is or you want to go deeper into the subject, I have a post where I explain the details of [django authentication using JWT](/en/django-rest-framework-and-jwt-to-authenticate-users/) And as a counterpart, I also have a translation of stop using JWT for sessions, where I explain why it might not be such a good idea to use JWT for sessions.
 
 ```bash
-pipenv install djangorestframework-simplejwt
+pip install djangorestframework-simplejwt
 ```
 
 We add the authentication backend in the DRF settings and tell it to use JWT in our _settings.py_ file.

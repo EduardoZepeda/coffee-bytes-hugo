@@ -67,4 +67,4 @@ if(flyLength > limitValueFly){
 
 Ahora el código es mucho más descriptivo y tus colegas, no tan iluminados como tú, podrán entenderlo
 
-Pero oye, muy bonito y todo, pero que tal si mis objetos tienen otros objetos anidados y quiero obtener un valor de ellos. Bueno también podemos [desestructurar objetos anidados](/es/desestructuracion-de-objetos-anidados/), en la  explicaré brevemente como hacerlo.
+Pero oye, muy bonito y todo, pero que tal si mis objetos tienen otros objetos anidados y quiero obtener un valor de ellos. Bueno también podemos [desestructurar objetos anidados](/es/desestructuracion-de-objetos-anidados-en-javascript/), en la  explicaré brevemente como hacerlo.

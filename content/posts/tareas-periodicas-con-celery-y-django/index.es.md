@@ -25,7 +25,7 @@ Además de crear tareas asíncronas, celery también permite crear tareas perió
 El primer paso es instalar Celery:
 
 ```bash
-pipenv install "celery==5.1.2"
+pip install "celery==5.1.2"
 ```
 
 De igual manera que con las tareas asíncronas, también necesitamos rabbitmq u otro broker.
