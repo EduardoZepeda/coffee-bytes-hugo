@@ -29,7 +29,6 @@ For this example I use Python 3.8, Django 3.2.5 and Pipenv version 2020.5.28.
 To install it we are going to use [Pipenv](/en/pipenv-the-virtual-environment-manager-you-dont-know/), but you can use Poetry, [pip](/en/python-virtualenv-linux-basic-tutorial/) or any other virtual environment manager.
 
 ```bash
-pipenv shell
 pip install django-postalcodes-mexico django
 django-admin startproject codigosPostalesMx .
 python manage.py migrate

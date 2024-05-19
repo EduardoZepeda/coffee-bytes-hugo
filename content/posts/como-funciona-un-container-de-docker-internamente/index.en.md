@@ -108,17 +108,17 @@ import (
     "os/exec"
 )
 
-// ./container.go run <comando> <argumentos>
+// ./container.go run <cmd> <args>
 func main() {
     switch os.Args[1] {
     case "run":
     	run()
     default:
-    	panic("El comando no existe")
+    	panic("This command doesn't exist")
     }
 }
 func run() {
-    fmt.Printf("Código ejecutándose %v con el Process Id (PID): %d \n", os.Args[2:], os.Getpid())
+    fmt.Printf("Cocde executing %v with Process Id (PID): %d \n", os.Args[2:], os.Getpid())
     cmd := exec.Command(os.Args[2], os.Args[3:]...)
 
     cmd.Stdin = os.Stdin
@@ -134,15 +134,15 @@ I explain the code below.
 Inside the main function, os.Args[1] returns the first argument of the program, in case the first argument is run, it will execute the run function. Easy, isn't it?
 
 ```bash
-./container run <comando> <argumentos>
+./container run <cmd> <args>
 ```
 
 exec.Command will take care of executing whatever we pass it after run, as a command to execute, along with its arguments, this can be a _echo_, a _bash_, an _ls_, or whatever you want.
 
 ```bash
-./container run echo "Hola mundo"
-Código ejecutándose [echo Hola mundo] con el Process Id (PID): 292753
-Hola mundo
+./container run echo "Hello world"
+Code executing [echo Hello world] with Process Id (PID): 292753
+Hello world
 ```
 
 The following lines with the cmd prefix are summarized as follows.
@@ -167,7 +167,7 @@ To assign a namespace to our program, we will use the SysProcAttr method to crea
 
 ```go
 func run() {
-    fmt.Printf("Código ejecutándose %v con el Process Id (PID): %d \n", os.Args[2:], os.Getpid())
+    fmt.Printf("Cocde executing %v with Process Id (PID): %d \n", os.Args[2:], os.Getpid())
     cmd := exec.Command(os.Args[2], os.Args[3:]...)
 
     cmd.Stdin = os.Stdin
@@ -189,24 +189,24 @@ As you read in the list of namespaces, UTS is the namespace for isolating hostna
 After setting the _Cloneflags_, any changes we make to the hostname will be made only within the namespace. In other words, changes inside our container will not affect anything outside of it.
 
 ```bash
-# Hostname original
+# Original hostname
 hostname
-tuHostNameOriginal
+originalHostname
 
-# Cambiando el hostname dentro del container
+# Renaming the hostname inside the container 
 ./container run /bin/bash
-hostname otroNombre
+hostname anotherName
 
-# El hostname cambió dentro del container
+# Hostname changed inside the container
 hostname
-otroNombre
+anotherName
 
-# Salimos del container
+# Exiting container
 exit
 
-# El hostname original NO cambió
+# The original hostname didn't change
 hostname
-tuHostNameOriginal
+originalHostname
 ```
 
 ### Isolating processes with the PID namespace
@@ -240,7 +240,7 @@ func main() {
     case "child":
     	child()
     default:
-    	panic("El comando no existe")
+    	panic("This command doesn't exist")
     }
 }
 
@@ -260,7 +260,7 @@ func run() {
 }
 
 func child() {
-    fmt.Printf("Código ejecutándose %v con el Process Id (PID): %d \n", os.Args[2:], os.Getpid())
+    fmt.Printf("Cocde executing %v with Process Id (PID): %d \n", os.Args[2:], os.Getpid())
 
     syscall.Sethostname([]byte("container"))
     cmd := exec.Command(os.Args[2], os.Args[3:]...)
@@ -284,7 +284,7 @@ To use a unique file system for the container, other than the file system of our
 _Chroot_ changes the default root location to a directory of your choice.
 
 ```bash
-ls /otro_sistema_de_archivos
+ls /another_file_system
 bin dev home lib ... proc
 ```
 
@@ -298,7 +298,7 @@ To isolate the processes of our container we go to:
 
 ```go
 func child() {
-    fmt.Printf("Código ejecutándose %v con el Process Id (PID): %d \n", os.Args[2:], os.Getpid())
+    fmt.Printf("Cocde executing %v with Process Id (PID): %d \n", os.Args[2:], os.Getpid())
 
     syscall.Sethostname([]byte("container"))
     cmd := exec.Command(os.Args[2], os.Args[3:]...)
@@ -307,7 +307,7 @@ func child() {
     cmd.Stdout = os.Stdout
     cmd.Stderr = os.Stderr
 
-    syscall.Chroot("/otro_sistema_de_archivos")
+    syscall.Chroot("/another_file_system")
     os.Chdir("/")
     syscall.Mount("proc", "proc", "proc", 0, "")
 
@@ -334,7 +334,7 @@ func child() {
 
 func setcgroup() {
 
-    cgPath := filepath.Join("/sys/fs/cgroup/memory", "nuevocgroup")
+    cgPath := filepath.Join("/sys/fs/cgroup/memory", "newcgroup")
     os.Mkdir(cgPath, 0755)
 
     ioutil.WriteFile(filepath.Join(cgPath, "memory.limit_in_bytes"), []byte("100000000"), 0700)

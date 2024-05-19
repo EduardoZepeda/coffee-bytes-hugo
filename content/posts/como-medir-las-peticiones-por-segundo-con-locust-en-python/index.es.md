@@ -21,11 +21,11 @@ Existen herramientas bastante sencillas de utilizar que permiten auditar el núm
 
 ## Instalar locust
 
-El primer paso es instalarlo usando pip o cualquier manejador de entornos virtuales, yo usaré el administrador de entornos virtuales pipenv.
+El primer paso es instalarlo usando pip o cualquier manejador de entornos virtuales.
 
 ```bash
 pip install locust==2.2.3
-pipenv shell
+
 ```
 
 ## Configuración de locust
@@ -111,7 +111,7 @@ class HelloWorldUser(HttpUser):
 
 Esto le indica a locust que cada usuario realizará una petición a la ruta raiz y, posteriormente, una petición a la ruta _/about_. Y así podemos agregar tantas peticiones por usuario como querramos.
 
-## Agregando usuarios con comportamientos diferentes
+## Agregando usuarios con comportamientos personalizados en locust
 
 Como ya sabes, no podemos esperar que cada usuario vaya primero a home y luego a la sección _about_ (o cualquier otra), los usuarios reales no se comportan así. Cada función decorada con @task representa un comportamiento diferente, por lo que si agregamos más funciones decoradas tendremos más comportamientos disponibles.
 
@@ -160,7 +160,7 @@ class HelloWorldUser(HttpUser):
 
 Ahora los usuarios creados también se redirigirán a _/feed_, y no solo eso, sino que cada usuario que se genere tiene el triple de probabilidades de irse a _/feed_, por lo que esa ruta recibirá más tráfico.
 
-## Peticiones post en locust
+## Peticiones POST en locust
 
 ¿Y las peticiones POST? Pues locust también permite realizar peticiones POST, basta con usar el método post de _client_ en lugar de get
 
@@ -186,7 +186,7 @@ class HelloWorldUser(HttpUser):
 
 Pero, ¿y si la petición falla? ¿Qué tal si queremos evaluar el efecto que cierta petición POST tenga en una ruta? Para eso podemos usar el objeto response.
 
-## El objeto response
+## El objeto response en Locust
 
 Cada petición que hagamos retornará un objeto _response_, que cuenta con información del resultado de nuestra petición.
 

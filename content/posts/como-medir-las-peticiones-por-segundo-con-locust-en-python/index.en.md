@@ -15,20 +15,20 @@ authors:
 - Eduardo Zepeda
 ---
 
-There are quite simple to use tools that allow us to audit the number of requests per second that a website supports (rps), locust is one of them, it is made in Python and with a minimal configuration allows us to process information and obtain graphs instantly, and in real time, of the behavior of our website.
+There are quite simple to use tools that allow us to audit the number of requests per second (rps) that a website supports, locust is one of them, it is made in Python and with a minimal configuration allows us to process information and obtain graphs instantly, and in real time, of the behavior of our website.
 
 ## Install locust
 
-The first step is to install it using pip or any virtual environment manager, I will use the virtual environment manager pipenv.
+The first step is to install it using pip or any virtual environment manager.
 
 ```bash
 pip install locust==2.2.3
-pipenv shell
+
 ```
 
 ## Locust configuration
 
-Once installed we are going to create a file called, obligatorily, _locustfile.py_ in our application and we are going to place the following code in it.
+Once installed we are going to create a file obligatorily named _locustfile.py_ in our application and we are going to place the following code in it.
 
 ```python
 from locust import HttpUser, task
@@ -39,7 +39,7 @@ class HelloWorldUser(HttpUser):
         self.client.get("/")
 ```
 
-We create a class that imports from _Httpuser_ and assign it a method with the task decorator. Below we use the get method of client and pass it the path to which the request will be made.
+We create a class that imports from _Httpuser_ and assign it a method with the *task* decorator. Below we use the get method of client and pass it the path to which the request will be made.
 
 Now we execute the locust command from the terminal.
 
@@ -51,7 +51,12 @@ After executing it we will have a server running at _http://localhost:8089/_. If
 
 ![Initial screen locust](images/PantallaInicialLocust.png)
 
-Here we place, in order, the number of total users, the speed at which locust will create users per second, and the host to test. We fill in the data, I will use 200 users, 2 users created per second and http://localhost:1323, which directs to a local web server.
+Here we place, in order: 
+1. The number of total users, 
+2. The speed at which locust will create users per second 
+3. The host to test. 
+
+We fill in the data, I will use 200 users, 2 users created per second and http://localhost:1323, which directs to a local web server.
 
 Press the "start swarming" button and locust will take care of the rest, gradually increasing the number of users.
 
@@ -109,7 +114,7 @@ class HelloWorldUser(HttpUser):
 
 This tells locust that each user will make a request to the root path and then a request to the _/about_ path. And so we can add as many requests per user as we want.
 
-## Adding users with different behaviors
+## Adding users with different behaviors in Locust
 
 As you know, we can't expect every user to go first to home and then to the _about_ (or any other) section, real users don't behave like that. Each function decorated with @task represents a different behavior, so if we add more decorated functions we will have more behaviors available.
 
@@ -130,7 +135,7 @@ class HelloWorldUser(HttpUser):
         self.client.get("/feed")
 ```
 
-When a user is created he/she will have a 50% chance of being assigned to one of these two behaviors:
+When a fake user is created it will have a 50% chance of being assigned to one of these two behaviors:
 
 * Visit home (/) and then visit the about section.
 * Visit the feed section
@@ -158,7 +163,7 @@ class HelloWorldUser(HttpUser):
 
 Now the users created will also be redirected to _/feed_, and not only that, but each user generated is three times more likely to go to _/feed_, so that route will receive more traffic.
 
-## Post requests in locust
+## POST requests in locust
 
 What about POST requests? Well, locust also allows you to make POST requests, just use the _client_ post method instead of get
 
@@ -184,7 +189,7 @@ class HelloWorldUser(HttpUser):
 
 But what if the request fails, what if we want to evaluate the effect that a certain POST request has on a route? For that we can use the response object.
 
-## The response object
+## The response object in Locust
 
 Each request we make will return a _response_ object, which contains information about the result of our request.
 
@@ -203,7 +208,7 @@ We can wrap our request in a Python _with_ block and assign it to a _response_ o
 * request
 * request_meta
 
-### Monitoreo de errores
+### Analysing errors
 
 Knowing the above we can obtain the different data related to the request and customize our monitoring flow. Observe:
 
@@ -216,14 +221,14 @@ class HelloWorldUser(HttpUser):
     # ...
 
     @task
-    def test_no_existe(self):
-        with self.client.get("/ruta-inexistente", catch_response=True) as response:
+    def non_existing_url(self):
+        with self.client.get("/non-existing-url", catch_response=True) as response:
             if response.text != "Success":
-                response.failure("Respuesta equivocada")
+                response.failure("Wrong request, this shouldn't exist")
             elif response.status_code < 400:
-                response.failure("Esta ruta no debería devolver un status menor a 400 porque no existe")
+                response.failure("This url's response should be less than 400 because it doesn't exists")
             elif response.elapsed.total_seconds() > 0.5:
-                response.failure("Respuesta demorada más de 0.5 segundos")
+                response.failure("Slow response")
 ```
 
 In the previous example, when trying to access a path that does not exist, the first conditional will be executed and will create a failure with the text "Wrong answer", which we will be able to see in the failure section of the interface.
@@ -245,8 +250,8 @@ class HelloWorldUser(HttpUser):
     # ...
 
     @task
-    def test_ruta_no_existe(self):
-        with self.client.get("/ruta-inexistente", catch_response=True) as response:
+    def non_existing_url(self):
+        with self.client.get("/non-existing-url", catch_response=True) as response:
             if response.status_code == 404:
                 response.success()
 ```
@@ -294,7 +299,7 @@ tick will be called every second to get the users, so you can play with the time
 from locust import HttpUser, task, between, LoadTestShape
 import random
 
-class UsuariosAlAzar(LoadTestShape):
+class RandomUsers(LoadTestShape):
     time_limit = 20 # Tiempo de duración de la prueba
     spawn_rate = 20 
 

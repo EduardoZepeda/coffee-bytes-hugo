@@ -47,7 +47,6 @@ Let's install graphene-django first. I will use the pipenv virtual environment m
 I am going to create a project with a fairly simple application for this tutorial. which features a single model.
 
 ```python
-pipenv shell
 pip install graphene-django==2.15.0 django
 django-admin startproject criticaAnimes .
 django-admin startapp anime

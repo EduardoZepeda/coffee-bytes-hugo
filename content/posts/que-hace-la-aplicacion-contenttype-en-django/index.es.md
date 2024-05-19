@@ -47,12 +47,6 @@ Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido;
 
 Para ejemplificar como funciona ContentType vamos a crear un projecto de django, con un modelo:
 
-Primero creemos un entorno virtual con [Pipenv, el gestor de entornos virtuales](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/).
-
-```bash
-pipenv shell
-```
-
 Una vez en nuestro entorno virtual, instalemos Django
 
 ```bash

@@ -45,12 +45,6 @@ Imagine a simple social network, where we have different types of content; a tem
 
 To exemplify how ContentType works, let's create a django project, with a model:
 
-First let's create a virtual environment with [Pipenv, the virtual environment manager](/en/pipenv-the-virtual-environment-manager-you-dont-know/). Or you can also use pip.
-
-```bash
-pipenv shell
-```
-
 Once in our virtual environment, let's install Django
 
 ```bash

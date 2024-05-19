@@ -73,12 +73,6 @@ To install it we are going to create a virtual environment with [Pipenv, a virtu
 pip install fastapi uvicorn
 ```
 
-Let's activate the virtual environment to have access to the packages we have just installed.
-
-```bash
-pipenv shell
-```
-
 Next we are going to create a file called _main.py_, here will be all the code that we will use to create our API.
 
 ```bash

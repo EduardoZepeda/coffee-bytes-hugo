@@ -20,16 +20,6 @@ title: ¿Cómo subir múltiples imágenes en Django?
 
 Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y si no queremos subir una sino múltiples imágenes?
 
-## Generando un entorno virtual
-
-Creemos primero un entorno virtual y entrémos en él.
-
-Si no conoces Pipenv o no sabes como usarlo, revisa mi entrada sobre el [administrador de entornos virutales Pipenv.](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
-
-```bash
-pipenv shell
-```
-
 ## Instalación de Django
 
 Primero instalamos Django usando pipenv. Además instalaremos Pillow dado que trataremos con imágenes.

@@ -52,7 +52,6 @@ Vamos a instalar primero graphene-django. Yo usaré el administrador de entornos
 Voy a crear un proyecto con una aplicación bastante sencilla para este tutorial. que cuenta con un único modelo.
 
 ```python
-pipenv shell
 pip install graphene-django==2.15.0 django
 django-admin startproject criticaAnimes .
 django-admin startapp anime

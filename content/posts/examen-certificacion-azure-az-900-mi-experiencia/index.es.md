@@ -52,7 +52,7 @@ El examen se divide en diferentes secciones, cada una con un valor diferente, ge
 
 Al finalizar el examen, el sistema calcula tu puntuación de manera automática, y te informa si aprobaste. Requieres un mínimo de 700 puntos de un máximo 1000 puntos para aprobar.
 
-### Contenido del examen
+### Contenido del examen de certificación AZ-900
 
 El examen está fuertemente orientado a las aplicaciones prácticas de los servicios de la nube. Este cuenta con preguntas enfocadas a casos prácticos, donde una empresa ficticia necesita decidir que servicio de la nube puede satisfacer mejor sus necesidades, por lo que no basta con saber definiciones, sino tener muy claros los conceptos y entenderlos, para poder aplicarlos en un entorno un poco más parecido al real.
 
@@ -106,7 +106,7 @@ Con tantos cupones y otras opciones gratuitas, **yo no te recomiendo que desembo
 
 Hace un par de meses Platzi ofrecía un reto en el que te obsequian la oportunidad de **certificarte de manera completamente gratuita**, a través de su plataforma, con dos requisitos: aprobar una serie de cursos en su plataforma, con sus respectivos exámenes, y completar un laboratorio de prácticas de Microsoft Learn.
 
-### Cursos de Platzi
+### Cursos de Platzi requeridos
 
 El proceso consiste en terminar los siguientes 4 cursos:
 

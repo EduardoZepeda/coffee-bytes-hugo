@@ -18,7 +18,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-On Saturday, August 6, 2022 I sat for and passed my Microsoft Azure AZ-900 certification exam.
+On Saturday, August 6, 2022 I sat for and approved my Microsoft Azure AZ-900 certification exam.
 
 ## What does AZ-900 certification consist of?
 
@@ -30,7 +30,7 @@ To achieve the above you need to know the basic architecture of Azure, its diffe
 
 ## My examination process
 
-The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting.
+The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting. That wasn't my case though.
 
 ![Evaluaasi platform](images/evaluaasi-plataforma.jpg "Evaluaasi platform home screen")
 
@@ -48,9 +48,9 @@ You can skip questions and mark them to come back to them later, which I highly 
 
 The test is divided into different sections, each with a different value, generally fluctuating around 20%.
 
-At the end of the exam, the system automatically calculates your score and informs you if you passed. You need a minimum of 700 points out of a maximum of 1000 points to pass.
+At the end of the exam, the system automatically calculates your score and informs you if you approved. You need a minimum of 700 points out of a maximum of 1000 points to pass.
 
-### Contents of the exam
+### Contents of the AZ-900 exam
 
 The exam is strongly oriented towards practical applications of cloud services. With questions focused on practical cases, where a fictitious company needs to decide which cloud service can best meet their needs, so it is not enough to know definitions, but to have a clear understanding of concepts, to be able to apply them in an environment a little more similar to the real one.
 
@@ -100,11 +100,11 @@ I understand that if you sign up for the Microsoft Learn e-learning platform, th
 
 With so many coupons and other free options, I don't recommend that you shell out the money out of pocket but wait for an opportunity to get it for free or much cheaper.
 
-## Free Platzi certification process
+## Free Platzi AZ-900 certification process
 
 A couple of months ago Platzi offered a challenge in which they give you the opportunity to **certify yourself completely free of charge**, through their platform, with two requirements: pass a series of courses on their platform, with their respective exams, and complete a Microsoft Learn practice lab.
 
-### Platzi courses
+### Required Platzi Courses
 
 The process consists of completing the following 4 courses:
 

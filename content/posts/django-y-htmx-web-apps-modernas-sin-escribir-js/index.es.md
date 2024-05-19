@@ -64,7 +64,6 @@ Recuerda que si no estás convencido de porque deberías usar Django revisa mi e
 git clone https://github.com/EduardoZepeda/djangohtmxtest.git
 cd djangohtmxtest/
 pip install
-pipenv shell
 python manage.py migrate
 python loaddata videogames
 # Datos de inicio de sesión:
@@ -77,7 +76,6 @@ password: contrasenaNoSegura
 Para empezar, vamos a crear un entorno virtual con [el gestor de entornos virtuales pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Tú puedes usar [pip](/es/python-virtualenv-tutorial-basico-en-linux/), poetry, conda o el que prefieras.
 
 ```bash
-pipenv shell
 pip install django
 ```
 
