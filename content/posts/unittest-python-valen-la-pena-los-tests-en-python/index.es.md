@@ -4,6 +4,7 @@ aliases:
 - /unittest-python-valen-la-pena-los-tests-en-python//1000
 - /unittest-python-valen-la-pena-los-tests-en-python/feed/
 - /unittest-python-valen-la-pena-los-tests-en-python/porque_deberias_incorporar_test_a_tu_codigo/feed/
+- /por-que-deberias-incorporar-tests-a-tu-codigo/
 authors:
 - Eduardo Zepeda
 categories:
