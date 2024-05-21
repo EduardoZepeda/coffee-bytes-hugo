@@ -47,14 +47,14 @@ Por otro lado, le doy la razón totalmente a los desarrolladores cuando dicen qu
 
 En resumen, yo usaría wordpress solo para blogs personales y quizás Landing pages. Sin embargo evitaría usar wordpress para galerías de fotos, ecommerce o cualquier otro tipo de página web que requiera un poco más de personalización.
 
-## Actualización, ¿por qué ya no uso Wordpress?
+## Actualización, ¿por qué ya no uso Wordpress para este blog?
 
-Actualización 18-Feb-2021: Decidí combinar lo mejor de los dos mundos; un frontend escrito usando las nuevas tecnologías de Javascript y un backend robusto en wordpress. Para hacerlo usé [Frontity, un framework de React para Wordpress](https://frontity.org/). La navegación es mucho más fluida y puedo personalizarlo a mi gusto. Y, dado que el backend de mi blog sigue siendo wordpress, aún puedo usar Yoast SEO y el editor de entradas de wordpress, desde el cual estoy escribiendo esta entrada.
+Actualización 18-Feb-2021: Decidí combinar lo mejor de los dos mundos; un frontend escrito usando las nuevas tecnologías de Javascript y un backend robusto en wordpress. Para hacerlo usé [Frontity, un framework de React para Wordpress](https://frontity.org/#?). La navegación es mucho más fluida y puedo personalizarlo a mi gusto. Y, dado que el backend de mi blog sigue siendo wordpress, aún puedo usar Yoast SEO y el editor de entradas de wordpress, desde el cual estoy escribiendo esta entrada.
 
 Actualización de Abr-2022: Me cambié a Hugo, un SSG escrito casi por completo en Go, genera sitios estáticos en apróximadamente 1ms por página, utiliza Markdown, el cual es más fácil de respaldar y exportar a otros medios, para generar las páginas y cuenta con muchísimas características incorporadas como: índice de contenido, post recomendados, paginación y prácticamente todo lo que se necesita para crear sitios estáticos.
 
 ¡La verdad Hugo me encanta!, me permite olvidarme de múltiples problemas de seguridad, y mantener actualizadas las versiones de paquetes en npm y demás. Llevo poco tiempo usándolo pero me ha encantado, lo único malo es la curva de aprendizaje. 
 
-Pero no te confundas, aún considero que Wordpress es la mejor opción para la mayoría de las personas que quieren empezar un blog, Hugo requiere demasiado conocimiento técnico como para serle útil a todo el mundo, su comunidad es mucho más pequeña y la mayoría de soluciones "out of the box" están desactualizadas y no son tan numerosas como en Wordpress. Además hecho de menos ciertos plugins como Yoast, el cual cuidaba el SEO a la par que creaba una entrada.
+Pero no te confundas, aún considero que Wordpress es la mejor opción para la mayoría de las personas que quieren empezar un blog, Hugo requiere demasiado conocimiento técnico como para serle útil a todo el mundo, su comunidad es mucho más pequeña y la mayoría de soluciones "out of the box" están desactualizadas y no son tan numerosas como en Wordpress. Además hecho de menos ciertos plugins como Yoast, el cual cuidaba el SEO a la par que creaba una entrada y con el que no [tenía que preocuparme por cometer errores de principiante en el SEO de la página](/es/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/).
 
-Incluso desarrollé mi propio tema minimalista, con solo lo básico, [el código está en mi github](https://github.com/EduardoZepeda/hugo-theme-latte), por lo que si tienes curiosidad puedes revisarlo cuando gustes.
+Incluso desarrollé mi propio tema minimalista, con solo lo básico para mis necesidades, [el código está en mi github](https://github.com/EduardoZepeda/hugo-theme-latte), por lo que si tienes curiosidad puedes revisarlo cuando gustes.

@@ -3,13 +3,15 @@ title: "Generating PDFs with Django and Reportlab"
 date: "2022-09-22"
 coverImage: "images/generar-pdfs-con-django.jpg"
 coverImageCredits: "Image credits to https://unsplash.com/es/@retrokram"
+description: Tutorial about how to generate a PDF in Django using Reportlab and learn how to position text, change text color, generate it dynamically using models from the database and how to return it as a HTTP response
 categories:
 - django
-
 keywords:
 - python
 - django
-
+- pdf
+- database
+- orm
 authors:
 - Eduardo Zepeda
 ---
@@ -40,7 +42,7 @@ def pdfVideogame(request):
     response["Content-Disposition"] = 'attachment; filename="hello.pdf"'
 ```
 
-## Create text in a PDF in Django
+## Create a text PDF in Django
 
 To begin with we are going to create a canvas to write on it.
 
@@ -62,7 +64,7 @@ Now we are going to use that font to "draw" a string at position 0 and 0.
 ```python
 def pdfVideogame(request):
     # ...
-    p.drawString(0, 0, "Hola mundo")
+    p.drawString(0, 0, "Hola mundo") # Hello world in spanish
 ```
 
 ![Text generated with reportlab](images/texto-fondo-pdf.png "Text created with reportlab")
@@ -73,7 +75,7 @@ Why in the background? You may think that canvas works with a Cartesian plane, w
 
 ![Pdf thought as a Cartesian plane](images/coordenadas-pdf.png "Reportlab behaves as a Cartesian plane")
 
-### Positioning the text
+### Positioning the text in a Django's PDF
 
 Now that we know that the first argument is the X-axis separation value, while the second is the Y-axis separation, we will try something more natural.
 
@@ -85,7 +87,7 @@ def pdfVideogame(request):
 
 ![Text positioned in a pdf](images/texto-posicionado-pdf.png "Text positioned according to the X and Y axes in reportlab")
 
-### Change font color in PDF
+### Change font color in a Django's PDF
 
 To change the font color we use the setFillColorRGB method. We need to call this method before reportlab paints our string, otherwise it will use the active one.
 
@@ -139,12 +141,12 @@ def pdfVideogame(request):
     p.setFont("Helvetica", 16)
     p.setFillColorRGB(0, 0, 0)
 
-    # Usamos el ORM de Django para consultar la base de datos
+    # We use Django's ORM to query the database
     videogames = Videogame.objects.all()
 
     positionY = 700
     for videogame in videogames:
-        # Accedemos al nombre individual de cada objeto
+        # We access the column name for each record
         p.drawString(60, positionY, videogame.name)
         positionY -= 25
     # ...
@@ -157,7 +159,7 @@ Notice how I decrease the position of the Y coordinate, so that each iteration w
 
 ![Pdf generated with information from the database in Django](images/pdf-dinamico-reportlab-django.png "Pdf generated dynamically using Django")
 
-## Improve performance when generating PDF
+## Improve performance when generating PDF in Django
 
 If you have performance problems when handling complex PDFs, consider using Python's io library, which allows you to work with an object that behaves exactly as if it were a file, but in memory.
 

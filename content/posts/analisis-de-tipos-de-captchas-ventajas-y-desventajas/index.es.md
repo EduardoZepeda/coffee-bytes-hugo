@@ -96,13 +96,13 @@ Este es probablemente el captcha más seguro, y también el más invasivo que he
 
 ![4chan captcha gif](images/4chan-captcha.gif)
 
-Quiero que notes lo sofisticado que es este captcha. Es una simple caja donde muestra unos garabatos a blanco y negro, completamente ilegibles y en el fondo una imagen que, al deslizar el slider, se superpone con la imagen del fondo, emergiendo el captcha a la vistas. 
+Quiero que notes lo sofisticado que es este captcha. Es una simple caja donde muestra unos garabatos a blanco y negro, completamente ilegibles y en el fondo una imagen que, al deslizar el slider, se superpone con la imagen del fondo, revelando el captcha ante tus ojos. 
 
 Este gradiente que se forma entre los captchas "falsos" y el "verdadero" confunde a cualquier software de reconocimiento de caracteres, volviéndolo completamente inservible.
 
 Aunado a lo anterior, este captcha requiere interactividad por parte del usuario, pues requiere que se deslice el slider con cuidado, lo que descarta a todos aquellos headless bots.
 
-En contraparte, tiene la desventaja de ser invasivo para el usuario, arruinando completamente la experiencia al navegar. Además, yo me atrevería a afirmar que este captcha también da muchos falsos positivos. Yo mismo soy incapaz de leer con precisión los caracteres que ahí aparecen.
+En contraparte, tiene la desventaja de ser invasivo para el usuario, interrumpiendo la experiencia al navegar. Además, yo me atrevería a afirmar que este captcha también da muchos falsos positivos; yo mismo soy incapaz de leer con precisión los caracteres que ahí aparecen y no soy un bot ¿o sí?
 
 Mi veredicto:
 - Securidad: 10
@@ -110,5 +110,5 @@ Mi veredicto:
 
 En defensa de este captcha, diré que es un mal necesario en un sitio web donde no es necesario registrarse para publicar, hogar del que fue (o es) uno de los más famosos grupos de hackers: Anonymous y en donde se distribuyó (o distribuye) material ilegal con el potencial de hacerte dudar si la humanidad merece compartir este planeta con el resto de animales.
 
-Definitivamente no recomiendo este tipo de captcha a menos de que tengas un sitio web con características similares.
+Definitivamente no recomiendo este tipo de captcha a menos de que tengas un sitio web con características similares, y si lo eres, mis más profundas condolencias.
 

@@ -45,10 +45,14 @@ On the other hand, I totally agree with the developers when they say that using 
 
 In short, I would use wordpress only for personal blogs. However I would avoid using wordpress for photo galleries, ecommerce or any other type of website that requires a bit more customization.
 
-## Upgrade
+## Update, why I don't use wordpress anymore for this blog?
 
-Update 18-Feb-2021: I decided to combine the best of both worlds; a frontend written using the new Javascript technologies and a robust wordpress backend. To do this I used [Frontity, a React framework for wordpress](https://frontity.org/). The navigation is much smoother and I can customize it to my liking. And, since the backend of my blog is still wordpress, I can still use Yoast SEO and the wordpress post editor, from which I am writing this post.
+Update 18-Feb-2021: I decided to combine the best of both worlds; a frontend written using the new Javascript technologies and a robust wordpress backend. To do this I used [Frontity, a React framework for wordpress](https://frontity.org/#?). The navigation is much smoother and I can customize the UI it to my liking. And, since the backend of my blog is still wordpress, I can still use Yoast SEO and the wordpress post editor, from which I am writing this post.
 
-Apr-2022 update: I switched to Hugo, an SSG written almost entirely in Go, generates static sites in about 1ms per page, uses Markdown to generate the pages and has a lot of built-in features, I really love it! Hugo allows me to forget about multiple security issues, and keep package versions up to date in npm and so on. I have been using it for a short time but I love it, the only bad thing is the learning curve. But make no mistake, I still consider Wordpress to be the best option for most bloggers, Hugo requires too much technical knowledge to be useful for everyone.
+Apr-2022 update: I switched to Hugo, an SSG written almost entirely in Go, generates static sites in about 1ms per page, uses Markdown to generate the pages and has a lot of built-in features.
 
-The code is in my github, so if you are curious you can check it out at any time.
+I really love Hugo, it allows me to forget about multiple security issues, and keep updated package versions in npm and so on. I have been using it for a short time but I love it, the only bad thing is the learning curve. 
+
+But make no mistake, I still consider Wordpress to be the best option for most people who want to start a blog, Hugo requires too much technical knowledge to be useful for everyone, its community is much smaller and most of the "out of the box" solutions are outdated and not as numerous as in Wordpress. I also miss certain plugins like Yoast, which took care of SEO while creating a post and with which I didn't [have to worry about making beginner mistakes in the SEO of the page](/en/my-mistakes-regarding-the-tech-seo-optimization-of-my-website/).
+
+I even developed my own minimalist theme, with just the basics according to my needs, [the code is on my github](https://github.com/EduardoZepeda/hugo-theme-latte), so if you're curious you can check it out anytime.

@@ -96,13 +96,13 @@ This is probably the most secure, and also the most invasive captcha I've seen. 
 
 ![4chan captcha gif](images/4chan-captcha.gif)
 
-I want you to notice how sophisticated this captcha is. It is a simple box where it shows some scribbles in black and white, completely illegible and in the background an image that, when sliding the slider, overlaps with the background image, emerging the captcha to the views. 
+I want you to notice how sophisticated this captcha is. It is a simple box where it shows some scribbles in black and white, completely illegible and in the background an image that, when sliding the slider, overlaps with the background image, revealing the captcha before your eyes. 
 
 This gradient formed between the "fake" captchas and the "real" one confuses any character recognition software, making it completely useless.
 
 In addition, this captcha requires interactivity from the user, as it requires the slider to be slid carefully, which rules out all those headless bots.
 
-On the other hand, it has the disadvantage of being invasive for the user, completely ruining the browsing experience. Furthermore, I would venture to say that this captcha also gives a lot of false positives. I myself am unable to accurately read the characters that appear there.
+On the other hand, it has the disadvantage of being invasive for the user, completely interrupting the browsing experience. Furthermore, I would venture to say that this captcha also gives a lot of false positives; I myself am unable to accurately read the characters that appear there and I'm not a bot, am I?
 
 My veredict:
 - Security: 10
@@ -110,5 +110,5 @@ My veredict:
 
 In defense of this captcha, I will say that it is a necessary evil on a website where it is not necessary to register to post, home of what was (or is) one of the most famous hacker groups: Anonymous and where illegal material was (or is) distributed, pictures and videos so cursed that will make you doubt if humanity deserves to share this planet with the rest of animals.
 
-I definitely do not recommend this type of captcha unless you have a website with similar characteristics.
+I definitely do not recommend this type of captcha unless you have a website with similar characteristics, in such case my deepest condolences.
 

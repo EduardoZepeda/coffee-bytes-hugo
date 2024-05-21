@@ -10,11 +10,13 @@ categories:
 coverImage: images/generar-pdfs-con-django.jpg
 coverImageCredits: Créditos de la imagen a https://unsplash.com/es/@retrokram
 date: '2022-09-22'
-description: Tutorial para generar PDFs en Django con Reportlab, definir el tipo de
-  respuesta crear texto, posicionarlo, cambiarlo de color y devolverlo como respuesta
+description: Tutorial para generar un PDF en Django usando Reportlab, posicionar texto, añadir color, generarlo dinámicamente usando modelos de la base de datos y cómo retornarlo como respuesta HTTP"
 keywords:
 - python
 - django
+- pdf
+- database
+- orm
 title: Tutorial Generación de PDFs con Django y Reportlab
 url: generar-pdfs-con-django-y-reportlab
 ---
@@ -44,7 +46,7 @@ def pdfVideogame(request):
     response["Content-Disposition"] = 'attachment; filename="hello.pdf"'
 ```
 
-## Crear texto en un PDF en Django
+## Crear un PDF con texto en Django
 
 Para empezar vamos a crear un lienzo o canvas para escribir en él. 
 
@@ -77,7 +79,7 @@ Esto dibujará nuestro string... en el fondo de la pantalla.
 
 ![Pdf pensado como un plano cartesiano](images/coordenadas-pdf.png "Reportlab se comporta como un plano cartesiano")
 
-### Posicionando el texto
+### Posicionando el texto en un PDF de Django
 
 Ahora que sabemos que el primer argumento es el valor de separación del eje de las X, mientras que el segundo es la separación del eje de las Y, intentaremos algo más natural.
 
@@ -106,7 +108,7 @@ def pdfVideogame(request):
 
 Ya tenemos un texto simple, vamos a guardar el contenido que generamos y a retornarlo como respuesta. 
 
-## Guardar un PDF y retornarlo como respuesta
+## Retornarlo un PDF como respuesta en Django
 
 Nuestra instancia del objeto canvas recibió nuestro objeto response como argumento, por lo que los cambios que acabamos de hacer se guardaron en el objeto response.
 
@@ -129,7 +131,7 @@ urlpatterns = [
 ]
 ```
 
-## Generar PDF de manera dinámica con Django
+## Generar PDFs de manera dinámica con Django
 
 Sabiendo lo anterior, seremos capaces de crear un PDF de manera directa iterando sobre una consulta a la base de datos usando el ORM de django.
 
@@ -161,7 +163,7 @@ Observa como disminuyo la posición de la coordenada Y, para que cada iteración
 
 ![Pdf generado con información de la base de datos en Django](images/pdf-dinamico-reportlab-django.png "Pdf generado de manera dinámica usando Django")
 
-## Mejorar el rendimiento al generar PDF
+## Mejorar el rendimiento al generar un PDF en Django
 
 Si tienes problemas de rendimiento al manejar PDFs complejos, considera usando la biblioteca io de Python, que permite trabajar con un objeto que se comporta exactamente como si fuera un archivo, pero en memoria.
 
