@@ -17,7 +17,7 @@ keywords:
 title: Categorias en Django usando ForeignKey hacia self
 ---
 
-La agrupación por categorías es bastante recurrente en aplicaciones web, desde películas, cursos o cualquier otro recurso que presente una relación jerárquica hacía otro objeto. En Django existen diferentes maneras de modelar estas relaciones. Probablemente, la primera que se te vendrá a la mente será crear un objeto _categoria_, y luego relacionarlo por medio de una _ForeignKey_ con una _subcategoria_.
+La agrupación por categorías es bastante recurrente en aplicaciones web, desde películas, cursos o cualquier otro recurso que presente una relación jerárquica hacía otro objeto. En Django existen diferentes maneras de modelar estas relaciones. Probablemente, la primera que se te vendrá a la mente será crear un objeto _categoria_, y luego relacionarlo por medio de una _ForeignKey_ con una _subcategoria_, pero si haces esto estarías cayendo en un error, existe una mejor manera.
 
 ## ¿Qué es una Foreign Key o clave foránea en Django?
 
@@ -69,7 +69,7 @@ Pues, añadimos una clase _SubSubCategoría_ ¿no? Pero... y si esas SubSubCateg
 
 ![Esquema del problema de las subcategorías infinitas](images/ProblemaCategoriasDjango.jpg)
 
-Cada vez que necesites crear una subcategoría nueva tendrás que crear un nuevo modelo en el archivo _models.py_ de tu aplicación. Y no solo eso, sino una nueva tabla que probablemente solo cuente con unos cuantos registros. ¿Existe una aproximación mejor al problema? El [versátil ORM de Django](/es/por-que-deberias-usar-django-framework/) nos ofrece una solución bastante limpia.
+Cada vez que necesites crear una subcategoría nueva tendrás que crear un nuevo modelo en el archivo _models.py_ de tu aplicación. Y no solo eso, sino una nueva tabla que probablemente solo cuente con unos cuantos registros. ¿Existe una aproximación mejor al problema? El [versátil ORM del Django Framework](/es/por-que-deberias-usar-django-framework/) nos ofrece una solución bastante limpia.
 
 ## ForeignKey al mismo modelo en Django
 

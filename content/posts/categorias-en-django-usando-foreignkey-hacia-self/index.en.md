@@ -28,11 +28,11 @@ from django.db import models
 
 class Category(models.Model):
     name = models.CharField(max_length=256)
-    # otras propiedades
+    # other properties
 
 class SubCategory(models.Model):
     name = models.CharField(max_length=256)
-    # otras propiedades
+    # other properties
     category = models.ForeignKey(Category, related_name="subcategories", blank=True, null=True, on_delete=models.CASCADE)
 ```
 
@@ -50,7 +50,7 @@ Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCate
 
 ![Infinite subcategories problem scheme](images/ProblemaCategoriasDjango.jpg)
 
-Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django ORM](/en/why-should-you-use-django-framework/) offers a pretty clean solution.
+Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django Framework's ORM](/en/why-should-you-use-django-framework/) offers a pretty clean solution.
 
 ## ForeignKey to the same model in Django
 
@@ -83,11 +83,11 @@ See how the _ForeignKey_ does _self_ in practice:
 
 ```python
 from my_app.models import Category
-categoria_padre = Category.objects.create(name="Lenguajes de Programacion")
-subcategoria = Category.objects.create(name="Python")
-subcategoria.parent = categoria_padre
-# Guardamos en la base de datos
-subcategoria.save()
+parent = Category.objects.create(name="Programming languages")
+subcategory = Category.objects.create(name="Python")
+subcategory.parent = parent
+# save it in the database
+subcategory.save()
 ```
 
 I explain what happens. First we create a main category, and a subcategory. Later, we assign the property _parent,_ of this last one, to the main category. And ready, we save.
@@ -95,9 +95,9 @@ I explain what happens. First we create a main category, and a subcategory. Late
 Finally, let's create a sub-subcategory for our subcategory
 
 ```python
-subsubcategoria = Category.objects.create(name="Django")
-subsubcategoria.parent = subcategoria
-subsubcategoria.save()
+subsubcategory = Category.objects.create(name="Django")
+subsubcategory.parent = subcategory
+subsubcategory.save()
 ```
 
 Notice how we have created another sub-subcategory (called Django), which comes from the same model we used in the other two. To assign it to a category, we match its _parent_ property to the subcategory we created (named Python).
@@ -111,9 +111,9 @@ If we examine the parent category, which we created previously, we will notice t
 We can access it as we would any other many-to-one relationship.
 
 ```python
-categoria_padre.subcategories.all()
+parent.subcategories.all()
 <QuerySet [<Category: Category object (2)>]>
-categoria_padre.subcategories.all()[0].name
+parent.subcategories.all()[0].name
 'Python'
 ```
 
@@ -122,12 +122,12 @@ categoria_padre.subcategories.all()[0].name
 On the other hand, if we want to go "in reverse" from the most nested category to the least nested, we simply go through it; we access the parent, and then the parent of the next instance, and so on as many nestings as we need.
 
 ```python
-subsubcategoria.name
+subcategory.name
 'Django'
-subsubcategoria.parent.name
+subcategory.parent.name
 'Python'
-subsubcategoria.parent.parent.name
-'Lenguajes de Programacion'
+subcategory.parent.parent.name
+'Programming languages'
 ```
 
 ## Other resources
