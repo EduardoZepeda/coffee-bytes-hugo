@@ -387,7 +387,7 @@ The comparison here is going to become somewhat unfair, but I'll make it anyway:
 
 How fast is go compared to python? I have done a small test using [multitime](https://tratt.net/laurie/src/multitime/) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
 
-![Python vs. go speed comparison in fibonacci by recursion](images/fibo-go-vs-python-velocidad.png  "Go, being a compiled language, is compiled language, it is massively faster than Python.")
+![python vs go speed comparison fibonacci by recursion](images/fibo-go-vs-python-velocidad.png  "Go, being a compiled language, is compiled language, it is massively faster than Python.")
 
 ## Web frameworks
 

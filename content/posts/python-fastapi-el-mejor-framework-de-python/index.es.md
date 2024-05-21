@@ -25,11 +25,11 @@ title: Tutorial de FastAPI, ¿el mejor framework de Python?
 url: python-fastapi-el-mejor-framework-de-python
 ---
 
-Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como [REST APIs](/es/caracteristicas-basicas-de-una-api-rest/) o APIs RPC. FastAPI promete ayudarnos a crear APIs rápidas de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar sitios web de alta concurrencia.
+Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como las [REST APIs](/es/caracteristicas-basicas-de-una-api-rest/) o las APIs RPC, de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar sitios web de alta concurrencia.
 
 ## FastAPI vs Django vs Flask vs Pyramid
 
-¿De verdad FastAPI es tan rápido? Sí, al menos así lo afirma la evidencia. FastAPI queda en primer lugar en respuestas por segundo frente a Frameworks más populares como Django, Pyramid o Flask. Y también queda en los primeros lugares si lo comparamos con Frameworks de otros lenguajes de programación, como PHP o Javascript.
+¿De verdad FastAPI es tan rápido? Sí, al menos así lo afirma la evidencia. FastAPI queda en primer lugar en respuestas por segundo frente a Frameworks más populares como Django, Pyramid o Flask. Y, por si te pareciera poco, también queda en los primeros lugares si lo comparamos con Frameworks de otros lenguajes de programación, como PHP o Javascript.
 
 ### FastAPI vs Django
 
@@ -49,7 +49,6 @@ El número indica la cantidad de respuestas por segundo para un single query, po
 
 ![Gráfico de comparación de número de respuestas por segundo para petición que devuelve una fila de la base de datos. FastAPI en segundo lugar.](images/SingleQueryFastApi.png "Número de respuestas por segundo para peticiones que devuelven una fila de la base de datos. Información tomada de https://www.techempower.com/benchmarks")
 
-
 ### Rendimiento para peticiones con 20 queries
 
 Pero, ¿y para peticiones con mayor carga? En esta imagen se muestran la cantidad de respuestas para una petición con 20 queries, nuevamente, mientras más alto mejor.
@@ -68,11 +67,13 @@ Con la intención de mantener este tutorial lo más sencillo posible voy a usarl
 
 Ahora que ya viste porque vale la pena usarlo, ¿por qué no probarlo?
 
-## Tutorial básico de FastAPI
+## Instalación de FastAPI
 
-### Instalación de FastAPI
+Para instalarlo vamos a crear un entorno virtual con pip, pipenv, poetry o cualquier otra herramienta de gestión de entornos virtuales que prefieras. 
 
-Para instalarlo vamos a crear un entorno virtual con [Pipenv, una herramienta de manejo de entornos virtuales.](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
+Además de FastAPI necesitaremos uvicorn; un servidor ASGI, el cual usaremos para servir nuestra API.
+
+Estoy usando fastapi === 0.111.0, pero FastAPI se ha mantenido bastante estable en el tiempo, por lo que probablemente no tendrás problemas.
 
 ```bash
 pip install fastapi uvicorn
@@ -115,16 +116,16 @@ Analicemos brevemente lo que acabamos de ejecutar:
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ```
 
-Como puedes ver, si todo salió bien, tendremos un servidor corriendo [localhost:8000](http://127.0.0.1:8000)
+Como puedes ver, si todo salió bien, tendremos un servidor corriendo [localhost:8000](http://127.0.0.1:8000#?)
 
 ```bash
 curl localhost:8000
 {"Hello":"World"}
 ```
 
-Y, si realizamos una petición al puerto 8000, obtendremos nuestra respuesta en formato JSON, sin necesidad de haberla convertido desde el diccionario Python.
+Y, si realizamos una petición al puerto 8000, obtendremos nuestra respuesta en formato JSON, **sin necesidad de haberla convertido desde un diccionario Python.**
 
-### Capturando parámetros
+## Capturar parámetros en una URL con Fast API
 
 Ahora pasemos de rutas estáticas a rutas con parámetros.
 
@@ -180,7 +181,7 @@ curl localhost:8000/items/42?q=larespuesta
 
 Observa como nos regresa el número que le pasemos, sea cual sea, así como nuestro parámetro GET opcional llamado "q".
 
-### REST
+## API REST con FastAPI
 
 FastAPI se encarga de manejar los métodos HTTP de manera bastante intuitiva, simplemente cambiando la función de nuestro decorador por su respectivo método de petición HTTP
 
@@ -228,7 +229,7 @@ content-type: application/json
 Así es, cualquier otro método no soportado recibirá una respuesta 405 (Método no permitido). Ahora hagamos la petición correcta, con POST.
 
 ```bash
-curl -X POST localhost:8000/items/
+curl -X POST localhost:8000/items/ -i
 HTTP/1.1 201 Created
 date: Sun, 11 Oct 2020 00:57:05 GMT
 server: uvicorn
@@ -240,9 +241,9 @@ content-type: application/json
 
 Observa que recibimos un código 201 como respuesta, así como nuestra respuesta en formato JSON.
 
-### Cookies
+## Cookies en FastAPI
 
-#### Lectura de cookies
+### Lectura de cookies
 
 Si queremos leer cookies usando FastAPI tendremos que importar Cookie y luego definir un parámetro, que será una instancia de esa Cookie. Si todo sale bien podremos mandar una Cookie y FastAPI nos regresará su valor.
 
@@ -266,7 +267,7 @@ curl --cookie "my_cookie=home_made" localhost:8000/cookie/ -i
 {"my_cookie":"home_made"}
 ```
 
-#### Colocar cookies
+### Colocar cookies
 
 Para colocar cookies es necesario acceder al objeto de respuesta de nuestra petición HTTP, y además necesitamos especificar el tipado de este parámetro. Por favor recuerda importarlo
 
@@ -296,12 +297,12 @@ content-length: 31
 content-type: application/json
 set-cookie: myCookie=myValue; Path=/; SameSite=lax
 
-{"message":"Delicious cookies"}
+{"message":"The delicious cookie has been set"}                                                                                           
 ```
 
-### Headers o cabeceras HTTP
+## Headers o cabeceras HTTP
 
-#### Leer headers o cabeceras HTTP
+### Leer headers o cabeceras HTTP
 
 Para leer cabeceras HTTP se hará de la misma manera que con las cookies. Por favor recuerda importar Header.
 
@@ -333,7 +334,7 @@ content-type: application/json
 
 En este caso, como hicimos la petición con curl, nos retornará la cadena de texto "curl/nuestra\_versión". Si hicieramos la petición con un navegador web obtendriamos el valor de User-Agent para ese navegador.
 
-#### Colocar headers o cabeceras HTTP
+### Colocar headers o cabeceras HTTP
 
 Para colocar headers necesitamos acceder al objeto response, este objeto tiene una propiedad llamada headers al que podemos agregarle valores como si fuera un diccionario.
 
@@ -366,15 +367,15 @@ x-my_data: X-my_data
 {"message":"header set"}
 ```
 
-### Middleware
+## Middleware en FastAPI
 
 Sí, aunque FastAPI es bastante simple también incorpora la funcionalidad de usar middleware como parte de su ciclo de petición-respuesta.
 
+### ¿Qué es un middleware
+
 ¿No sabes que es un middleware? De manera simplista, un middleware es una pieza de código que colocas antes de la petición, para "interceptarla" y hacer (o no) algo con ella. Un middleware funciona de manera similar a esas carreras de relevos donde la petición y la respuesta serían las estafetas que van pasándose de un middleware al otro, cada middleware puede modificar la petición o la respuesta o dejarla intacta para pasarla al siguiente middleware.
 
-![Esquema básico de un middleware](images/Middleware.png)
-
-Esquema super simplificado de un Middleware en el contexto web
+![Esquema básico de un middleware](images/Middleware.png "Esquema super simplificado de un Middleware en el contexto de un servidor web")
 
 Para usar middleware basta con colocar un decorador @app.middleware('http') sobre una función. Esta función recibe el objeto de la petición web (request) y una función llamada call\_next, que recibirá la petición web y retornará una respuesta.
 
@@ -426,7 +427,7 @@ x-my_data: X-my_data
 
 Mientras el middleware que creamos siga activo, cada nueva respuesta que obtengamos contendrá ese header y su respectivo valor.
 
-#### Middleware incluidos
+### Middleware incluidos
 
 FastAPI viene con una serie de middleware incluidos que podemos usar y agregar a la lista de middlewares por los que pasarán nuestras peticiones. Para agregar un middleware basta con usar el método _add\_middleware()_, de nuestra app.
 
@@ -449,11 +450,11 @@ app.add_middleware(GZipMiddleware, minimum_size=1000)
 - TrustedHostMiddleware: con este middleware podemos decirle a fastAPI cuales son los dominios seguros, similar a la variable ALLOWED\_HOSTS de Django.
 - HttpsRedirectMiddleware: se encarga de redirigir las peticiones http a su version en https
 
-### Manejo de formularios
+## Manejo de formularios
 
-Lo primero que tenemos que hacer para manejar formularios es instalar la dependencia _python-multipart_ a nuestro entorno virtual. Puedes usar pip o pipenv, yo usaré pipenv.
+Lo primero que tenemos que hacer para manejar formularios es instalar la dependencia _python-multipart_ a nuestro entorno virtual. Puedes usar pip, pipenv, poetry o lo que quieras.
 
-Asegúrate de estar dentro del entorno virtual en el cual estás trabajando.
+Si usa un entorno virtual, asegúrate de estar dentro del entorno virtual en el cual estás trabajando.
 
 ```bash
 pip install python-multipart
@@ -487,9 +488,9 @@ curl -X POST -F 'email=email@example.org' localhost:8000/subscribe/
 
 Veremos como nos regresa un objeto JSON, con el correo que mandamos en el formulario, como respuesta.
 
-### Manejo de archivos
+## Manejo de archivos
 
-De la misma manera que para los formularios, el manejo de archivos requiere la librería _python-multipart_. Instalalá usando pip o pipenv si aún no lo has hecho. Una vez hecho esto agrega _File_ y _UploadFile_ a las importaciones.
+De la misma manera que para los formularios, el manejo de archivos requiere la librería _python-multipart_. Instalalá usando pip si aún no lo has hecho. Una vez hecho esto agrega _File_ y _UploadFile_ a las importaciones.
 
 Por favor observa como es necesario usar el tipado de Python para este ejemplo, si no lo haces te devolverá un error.
 
@@ -535,7 +536,7 @@ curl -F "file=@archivo.txt" localhost:8000/uploadfile/
 
 Seguramente ya habrás notado que **en ningún caso el archivo está siendo guardado, sino que solo se pone a disposición de fastAPI**, para que hagamos con él lo que queramos dentro de nuestra función.
 
-### Manejo de errores
+## Manejo de errores en FastAPI
 
 FastAPI cuenta con una serie de excepciones que podemos usar para manejar los errores de nuestra aplicación.
 
@@ -587,7 +588,7 @@ def generate_error():
                         headers={"X-Error": "Header Error"},)
 ```
 
-### Testing en FastAPI
+## Testing en FastAPI
 
 FastAPI contiene un cliente con el que podemos hacer testeo. Antes de empezar a realizar el testing vamos a instalar los paquetes necesarios para hacerlo: pytest y requests.
 
@@ -600,16 +601,17 @@ pip install requests pytest
 Ahora que ya los tenemos vamos a crear un archivo de testeo llamado _test\_api.py_ y un archivo _\_\_init\_\_.py_ para que python poder tener acceso a nuestros módulos.
 
 ```bash
-touch __init__.py test_apy.py
+touch __init__.py test_api.py
 ```
 
 En nuestro archivo _test\_api.py_ vamos a colocar el siguiente código.
 
 ```python
+# test_api.py
 from fastapi.testclient import TestClient
 from typing import Optional
 
-from .main import app
+from main import app
 
 client = TestClient(app)
 
@@ -638,15 +640,15 @@ test_api.py .  [100%]
 ======== 1 passed in 0.17s =============
 ```
 
-### Documentación en FastAPI
+## Documentación en FastAPI
 
 Hasta este momento **te he ocultado una de las características más geniales de FastAPI**, no me odies por favor. Así es, ya sabes exactamente a que me refiero: ¡Documentación automática!
 
-Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática usando [swagger](https://swagger.io/) y [redoc](https://github.com/Redocly/redoc), no tienes que agregar código, ni establecer una variable para esto, sencillamente abre tu navegador y dirígete a tu [localhost:8000/docs/](http://127.0.0.1:8000/docs/) y [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/), respectivamente, y verás la documentación interactiva generada automáticamente.
+Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática usando [swagger](https://swagger.io/#?) y [redoc](https://github.com/Redocly/redoc#?), no tienes que agregar código, ni establecer una variable para esto, sencillamente abre tu navegador y dirígete a tu [localhost:8000/docs/](http://127.0.0.1:8000/docs/#?) y [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/#?), respectivamente, y verás la documentación interactiva generada automáticamente.
 
 ![Captura de pantalla de la documentación de swagger](images/Documentacion_swagger.png)
 
-### Deployment sin Docker
+## Deployment de FastAPI sin Docker
 
 El despliegue también es una tarea sencilla de realizar.
 
@@ -656,20 +658,28 @@ Para hacer deployment sin usar [Docker](/es/que-es-docker-y-para-que-sirve/) bas
 uvicorn main:app --host 0.0.0.0 --port 80
 ```
 
-### Deployment con Docker
+## Deployment de FastAPI con Docker
 
-Hacer un deployment con Docker es super sencillo, el creador de FastAPI ya nos provee de una imagen de Docker personalizada que podemos usar como base para nuestro Dockerfile. Primero creemos un archivo [Dockerfile](/es/tutorial-de-comandos-basicos-de-docker/#usando-un-dockerfile-para-crear-una-imagen).
+Hacer un deployment con Docker es super sencillo, el creador de FastAPI nos recomienda utilizar el siguiente código en un [archivo Dockerfile de Docker](/es/tutorial-de-comandos-basicos-de-docker/#usando-un-dockerfile-para-crear-una-imagen) si vamos a utilizar una arquitectura compleja, por ejemplo Kubernetes.
 
 ```bash
 touch Dockerfile
 ```
 
-Ahora vamos a colocar lo siguiente dentro:
+el siguiente código va dentro del Dockerfile:
 
 ```docker
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+FROM python:3.9
 
-COPY . /app
+WORKDIR /code
+
+COPY ./requirements.txt /code/requirements.txt
+
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+COPY ./app /code/app
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
 ```
 
 Le indicamos a Docker que copie todo el contenido de nuestra carpeta actual en la carpeta _/app_. Despues de la instrucción _Copy_ puedes agregar más código para personalizar tu imagen.

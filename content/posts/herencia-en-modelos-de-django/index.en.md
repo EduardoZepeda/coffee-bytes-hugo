@@ -20,7 +20,7 @@ authors:
 Sometimes, when we create Models in Django we want to give certain characteristics in common to several of our models. Probably, the first approach that would come to our mind would be to repeat the fields over and over again. This would bring us two problems; first, we are repeating information; second, if we want to add another field in common we will have to modify each of the models. This problem is solved by Django's model inheritance.
 
 ```python
-# Nota como se repiten múltiples campos en los dos modelos
+# Notice how multiple fields repeat in both models
 from django.db import models
 
 class Product(models.Model):
@@ -36,7 +36,7 @@ class Manufacturer(models.Model):
     modified = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
 
-# ... otros diez modelos con los mismos campos abajo
+# 
 ```
 
 ## Inheritance types in Django
@@ -77,7 +77,7 @@ In the example above both models will include the _modified_ and _created_ field
 
 ## Multi Table Inheritance
 
-In this type of inheritance Django **will** create a table for each model** (that's why it's called multi-table). It will also join both models automatically by means of an _OneToOneField_ field in the child model.
+In this type of inheritance Django **will create a table for each model** (that's why it's called multi-table). It will also join both models automatically by means of an _OneToOneField_ field in the child model.
 
 ```python
 from django.db import models
@@ -93,7 +93,7 @@ class Cafe(Place):
     speciality_coffee_available = models.BooleanField(default=False)
 ```
 
-In the example above we may be interested in having both models, we can filter by Place and then we can access the child by its one to one relationship **using its lower case model name.
+In the example above we may be interested in having both models, we can filter by Place and then we can access the child by its one to one relationship **using its lower case model name**.
 
 ```python
 myFavoriteCafe = Place.objects.get(name="Matraz cafe")
@@ -126,13 +126,13 @@ In the example above we have a new model that defines a default ordering by mean
 ```python
 from app.models import BaseProduct, OrderedContent
 
-# Mismos datos, orden predeterminado
+# Same data, default order
 BaseProduct.objects.all()
-<QuerySet [<BaseProduct: Eterno resplandor de una mente sin recuerdos created at 21:59>, <BaseProduct: Arrival created at 22:00>, <BaseProduct: The imitation game created at 22:01>]>
+<QuerySet [<BaseProduct: Eternal sunshine of a spotless mind created at 21:59>, <BaseProduct: Arrival created at 22:00>, <BaseProduct: The imitation game created at 22:01>]>
 
-# Mismos datos, orden inverso
+# same data, reversed orded
 OrderedContent.objects.all()
-<QuerySet [<OrderedContent: The imitation game created at 22:01>, <OrderedContent: Arrival created at 22:00>, <OrderedContent: Eterno resplandor de una mente sin recuerdos created at 21:59>]>
+<QuerySet [<OrderedContent: The imitation game created at 22:01>, <OrderedContent: Arrival created at 22:00>, <OrderedContent: Eternal sunshine of a spotless mind created at 21:59>]>
 ```
 
 As you can see we were able to access the same three database objects **from both models**, with the difference that in the _OrderedContent_ model our objects appear sorted in descending order with respect to the _created_ field.
