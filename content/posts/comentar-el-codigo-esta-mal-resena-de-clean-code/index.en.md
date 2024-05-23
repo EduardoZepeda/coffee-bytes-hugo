@@ -24,17 +24,16 @@ There are two types of programmers, those who hate Clean Code and those who love
 
 Most of the programming books available on the market focus on teaching you the syntax of a programming language and some popular conventions. However, most of them do not go too much into how to organize the code, how to name variables or which parts of the code should have comments and which should not, how to determine the right amount of arguments a function should receive, or when to split a file in two, etc. This book aims to answer all these questions.
 
+![Clean code meme](images/clean-code-meme.webp)
+
 ### What is the importance of using clean code?
 
-Good *uncle Bob*, claims that programmers spend more time reading code than writing it. This should give a completely new vision to the way we decide to write our code, since we have the certainty that someone will read it (even ourselves in the future), and it is now when we ask ourselves: is the objective of my functions clear? is it understood why I chose a certain code flow instead of another? is the meaning of each variable clear?
+Throughout the pages of Clean Code, *uncle bob* takes us into the subject with stories of some **companies that have had to close their doors because of badly written code**, yes, that's how serious the consequences of unreadable code can be.  It all starts with readable code.
+
+Good *uncle Bob*, states that programmers spend more time reading code than writing it. This should put in a new light the way we write our code, because we have the certainty that someone else will read it (even ourselves in the future), when writing the code we should always ask ourselves: is the objective pursued by my functions clear? is it understood why I chose a certain code flow instead of another? is the meaning of each variable clear?
 
 ![Writing clean code so you don't have to interact with people](images/cleaner-code-to-avoid-interacting-with-people.webp)
 
-Throughout the pages of Clean Code, *uncle bob* takes us into the subject with stories of some **companies that have had to close their doors because of badly written code**, yes, that's how serious the consequences of unreadable code can be.
-
-In what I consider an anachronism, the author uses Java to develop his examples. Yes, I know Java was incredibly popular before, but using pseudocode or C would have been a better choice.
-
-![Clean code meme](images/clean-code-meme.webp)
 
 ### How to name variables, classes and functions according to Clean Code?
 
@@ -153,6 +152,14 @@ router.get('/users/me', auth, async (req, res) => {
 ```
 
 To me, however, it doesn't seem so serious or so difficult to read this little piece of code but perhaps it would be reason enough to be excommunicated from the church of Clean Code.
+
+## What didn't I like about Clean Code?
+
+In what I consider an anachronism, the author uses Java to develop his examples. Yes, I know Java was incredibly popular before, but using pseudocode or C would have been a better choice.
+
+The code used for the examples seems rather stilted to me, it uses whole code snippets instead of a minimal example, the author of Refactoring does much better in this regard.
+
+I felt the book unnecessarily long, the examples are well detailed, but I don't think so many pages are needed to expose some simple topics, such as variable naming.
 
 ## What alternatives do exist to Clean Code?
 

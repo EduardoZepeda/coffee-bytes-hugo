@@ -25,17 +25,15 @@ Hay dos tipos de programadores, los que odian Clean Code y los que lo aman. Este
 
 La mayoría de los libros sobre programación que hay disponibles en el mercado se centran en enseñarte la sintaxis de un lenguaje de programación y algunas convenciones populares. Sin embargo la mayoría no profundizan demasiado en como organizar el código, como nombrar las variables o que partes del código deberían tener comentarios y cuales no, en determinar la cantidad correcta de argumentos que debe recibir una función, o el momento en el que se debe dividir un archivo en dos, etc. Este libro pretende responder a todos esos cuestionamientos.
 
+![Clean code meme](images/clean-code-meme.webp)
+
 ### ¿Cuál es la importancia de usar código limpio o clean code?
 
-El buen *uncle Bob*, afirma que los programadores pasan más tiempo leyendo código que escribiendo. Esto le debería darle una visión completamente nueva a la manera en la que decidimos escribir nuestro código, dado que tenemos la seguridad de que alguien lo leerá (incluso nosotros mismos en el futuro), y es ahora cuando nos preguntamos: ¿el objetivo que persiguen mis funciones es claro? ¿se entiende porque elegí cierto flujo de código en lugar de otro? ¿es claro el significado de cada variable?
+A través de las páginas de Clean Code, *uncle bob* nos adentra en la temática con historias de algunas **empresas que han tenido que cerrar sus puertas por culpa de código mal escrito**, sí, así de graves pueden llegar a ser las consecuencias de código ilegible o difícil de comprender. Todo comienza con código legible.
+
+El buen *uncle Bob*, afirma que los programadores pasan más tiempo leyendo código que escribiendo. Esto debería darle una visión completamente nueva a la manera en la que escribimos nuestro código, pues tenemos la certeza de que alguien más lo leerá (incluso nosotros mismos en el futuro), al escribir el código debemos preguntarnos a nosotros mismos: ¿el objetivo que persiguen mis funciones es claro? ¿se entiende porque elegí cierto flujo de código en lugar de otro? ¿es claro el significado de cada variable?
 
 ![Writing clean code so you don't have to interact with people](images/cleaner-code-to-avoid-interacting-with-people.webp)
-
-A través de las páginas de Clean Code, *uncle bob* nos adentra en la temática con historias de algunas **empresas que han tenido que cerrar sus puertas por culpa de código mal escrito**, sí, así de graves pueden llegar a ser las consecuencias de código ilegible.
-
-En lo que yo considero un anacronismo, el autor usa Java para desarrollar sus ejemplos. Sí, ya sé que Java era increíblemente popular antes, pero usar pseudocódigo o C hubiera sido una mejor opción.
-
-![Clean code meme](images/clean-code-meme.webp)
 
 ### ¿Cómo nombrar variables, clases y funciones según Clean Code?
 
@@ -153,11 +151,19 @@ router.get('/users/me', auth, async (req, res) => {
 
 A mi, sin embargo, no me parece tan grave ni tan difícil de leer este pequeño fragmento de código pero quizás sería razón suficiente para ser excomulgado de la iglesia del Clean Code.
 
+## ¿Qué no me gustó de Clean Code?
+
+En lo que yo considero un anacronismo, el autor usa Java para desarrollar sus ejemplos. Sí, ya sé que Java era increíblemente popular antes, pero usar pseudocódigo o C hubiera sido una mejor opción.
+
+El código que se usa para los ejemplos me parece bastante rebuscado, utiliza fragmentos de código completos en lugar de un ejemplo mínimo, el autor de Refactoring lo hace mucho mejor en este aspecto.
+
+Sentí el libro innecesariamente largo, los ejemplos están bien detallados, pero no creo que se necesiten tantas páginas para exponer algunos temas tan simples, como el nombrado de variables.
+
 ## ¿Qué alternativas hay a Clean Code?
 
 Si no has tenido ninguna aproximación con buenas prácticas de escritura de código te recomiendo darle una leída a este libro, pues puedes adquirir algunos consejos útiles que quizás no habrías considerado, incluso aunque no estés de acuerdo con todo su contenido, el punto es que no te detengas ahí y lo complementes con más material.
 
-![Clean and unquestionable dogmas should be avoided at all cost](images/clean-and-maintanable-code-unquestionable-dogmas.jpg)
+![Clean and unquestionable dogmas should be avoided at all cost](images/clean-and-maintanable-code-unquestionable-dogmas.webp)
 
 **Este libro no es un manual que deba ser tomado como un reglamento inquebrantable**, sino la opinión de una persona, pero los tiempos cambian, las reglas se mejoran y la experiencia marca nuevas pautas. Toma todos los consejos que mejoren tu código y cuestiona todo lo que te parezca mejorable. Todas las religiones tienen sus detractores y Clean Code no es la excepción.
 
