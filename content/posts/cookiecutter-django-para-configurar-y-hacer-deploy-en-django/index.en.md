@@ -24,11 +24,11 @@ authors:
 - Eduardo Zepeda
 ---
 
-I wrote the previous entries as an introduction for this week's topic. In this post I'm going to explain about a cool tool for Django called cookiecutter-django, which translated means "django cookie cutter". This tool for django allows you to generate projects that integrate docker, celery, mailhog, aws, gcp, and many other tools, in an automatic way, just by answering a series of questions.
+I wrote the previous entries as an introduction for this week's topic. In this post I'm going to explain about a cool tool for Django called cookiecutter-django. This tool for django allows you to generate projects that integrate docker, celery, mailhog, aws, gcp, and many other tools, in an automatic way, just by answering a series of questions.
 
 This tool uses docker to simplify the process of developing and deploying a Django application. It was also created by one of the writers of the great book Two scoops of Django, of which I have a [review of Twoo scoops of django](/en/the-best-django-book-two-scoops-of-django-review/)
 
-Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/get-to-know-the-basic-docker-compose-commands/) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/en/how-to-convert-jpg-to-webp-on-gnu-linux/).
+Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/basic-commands-basic-docker-tutorial/) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/en/get-to-know-the-basic-docker-compose-commands/).
 
 If you doubt about whether you should use Django visit my post where I explain some [advantages and disadvantages of this web development framework](/en/why-should-you-use-django-framework/)
 
@@ -80,11 +80,10 @@ In the code snippets I place the answers I chose for this example or an empty sp
 ### Project data
 
 ```bash
-project_name [My Awesome Project]: proyecto de django        
-project_slug [proyecto_de_django]: 
-description [Behold My Awesome Project!]: Este es un proyecto de prueba usando Django y Docker
+project_name [My Awesome Project]: DjangoProject
+description [Behold My Awesome Project!]: this is a test project
 author_name [Daniel Roy Greenfeld]: Eduardo Zepeda
-domain_name [example.com]: midominio.com
+domain_name [example.com]: mydomain.com
 email [eduardo-zepeda@example.com]: 
 version [0.1.0]:
 ```
@@ -212,7 +211,7 @@ An option to allow bootstrap recompilation using the task preprocessor specified
 use_celery [n]:
 ```
 
-Celery is a task queue manager, it is ideal for asynchronous processes such as time-consuming tasks; sending e-mails, database queries, time-consuming mathematical calculations, etc.
+Celery is a task queue manager, it is ideal [for asynchronous processes such as time-consuming tasks](/en/celery-and-django-to-run-asynchronous-tasks/); sending e-mails, database queries, time-consuming mathematical calculations, etc.
 
 ### Test mail server
 
@@ -267,7 +266,7 @@ Cookiecutter-django also allows us to choose a continuous integration (CI) tool 
 keep_local_envs_in_vcs [y]:
 ```
 
-It asks us if we want to manage the local environment variables within the version control system.
+It asks us if we want to manage [the local environment variables](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/) within the version control system.
 
 ### Debug, for django-cookiecutter development
 

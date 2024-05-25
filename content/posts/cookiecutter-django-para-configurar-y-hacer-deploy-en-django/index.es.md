@@ -214,7 +214,7 @@ Una opción para permitir la recompilación de bootstrap usando el preprocesador
 use_celery [n]: 
 ```
 
-Celery es un gestor de colas de tareas, es ideal para procesos asíncronos como tareas muy costosas en tiempo; envíos de correos electrónicos, consultas en base de datos, cálculos matemáticos muy tardados, etc.
+Celery es un gestor de colas de tareas, es [ideal para procesos asíncronos como tareas muy costosas en tiempo](/es/celery-y-django-para-ejecutar-tareas-asincronas/); envíos de correos electrónicos, consultas en base de datos, cálculos matemáticos muy tardados, etc.
 
 ### Servidor de correo de pruebas
 
@@ -269,7 +269,7 @@ Cookiecutter-django también nos permite elegir una herramienta de integración 
 keep_local_envs_in_vcs [y]: 
 ```
 
-Nos pregunta si queremos manejar las variables de entorno local dentro del sistema de control de versiones.
+Nos pregunta si queremos manejar [las variables de entorno local](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) dentro del sistema de control de versiones.
 
 ### Debug, para desarrollo de django-cookiecutter
 
@@ -400,7 +400,7 @@ Requirements incluye los archivos con las dependencias de nuestro proyecto. Así
 
 ### Variables de entorno
 
-También existe una carpeta secreta con el nombre de _.envs_, la cual contiene las variables de entorno que se usarán en los archivos de configuración, tanto de producción como de desarrollo.
+También existe una carpeta secreta con el nombre de _.envs_, la cual contiene [las variables de entorno](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) que se usarán en los archivos de configuración, tanto de producción como de desarrollo.
 
 ```bash
 .
