@@ -4,11 +4,11 @@ aliases:
 - /users/me
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
-photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1690065701/wallhaven-l3z1vl_rh7gs4.jpg'
+photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1716531649/web-dev-profile-picture_ypb9hn.jpg'
 summary: 'Desarrollador web, entusiasta de los sistemas GNU/Linux y el Software Libre. Py, Ts y Go, pero abierto a otras opciones como el Rustaceanismo. Creo en las bondades de las criptodivisas más allá de la especulación monetaria.'
 twitter: "@hello_wired"
 codewars: "EduardoZepeda"
-instagram: "eduardozepeda.dev"
+instagram: "zeedu.dev"
 linkedin: "eduardomzepeda"
 website: "https://zeedu.dev"
 jobTitle: "Web developer"

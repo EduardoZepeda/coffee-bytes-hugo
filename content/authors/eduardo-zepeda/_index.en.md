@@ -1,11 +1,11 @@
 ---
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
-photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1690065701/wallhaven-l3z1vl_rh7gs4.jpg'
+photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1716531649/web-dev-profile-picture_ypb9hn.jpg'
 summary: "Web developer and GNU/Linux enthusiast. I believe in choosing the right tool for the job and that simplicity is the ultimate sophistication. Better done than perfect. I also believe in the goodnesses of cryptocurrencies outside of monetary speculation."
 twitter: "@hello_wired"
 codewars: "EduardoZepeda"
-instagram: "eduardozepeda.dev"
+instagram: "zeedu.dev"
 linkedin: "eduardomzepeda"
 website: "https://zeedu.dev"
 jobTitle: "Web developer"
