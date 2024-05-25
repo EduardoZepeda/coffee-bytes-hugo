@@ -18,7 +18,7 @@ keywords:
 - devops
 
 url: "get-to-know-the-basic-docker-compose-commands"
-autores:
+authors:
 - Eduardo Zepeda
 ---
 

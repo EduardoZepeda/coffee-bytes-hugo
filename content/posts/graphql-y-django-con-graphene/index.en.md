@@ -44,7 +44,7 @@ Each team or person should consider whether it is worth implementing graphql acc
 
 Let's install graphene-django first. I will use the pipenv virtual environment manager, but you can use pip or any other you prefer.
 
-I am going to create a project with a fairly simple application for this tutorial. which features a single model.
+I am going to create a project with a fairly simple application for this tutorial. This project features a single model.
 
 ```python
 pip install graphene-django==2.15.0 django
@@ -187,7 +187,7 @@ If for some reason you want to **disable the transformation of the text to camel
 
 ```python
 # criticaAnimes/schema.py
-# SOLO si quieres desactivar el camelcase
+# Only if you want to deactivate camelCase
 schema = graphene.Schema(query=Query, auto_camelcase=False)
 ```
 
@@ -264,7 +264,7 @@ If you are confused, think of cursors as identifiers. In the query we are tellin
 
 In addition to the objects we can obtain pagination information, such as the start cursor, the end cursor and whether there are pages before or after our query.
 
-![Paging in graphql using django graphene](images/GrapheneQueryRelay-1.png)
+![Pagination in graphql using django graphene showing first two results](images/GrapheneQueryRelay-1.png "First two results")
 
 ## Graphene mutations
 

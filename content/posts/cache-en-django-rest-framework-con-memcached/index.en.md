@@ -26,7 +26,7 @@ To use the cache in django, just follow three simple steps:
 3. Add the middleware necessary for django to return the cache before processing the view.
 4. Use the low-level cache to cache specific views or data (optional).
 
-Implementing a caching system allows you to [greatly improve the performance of an application made in Django](/en/is-your-django-application-slow-maximize-its-performance-with-these-tips/).
+Implementing a caching system allows you to [greatly improve the performance of an application made in Django](/en/how-to-scale-a-django-app-to-serve-one-million-users/).
 
 ## How much does caching improve performance?
 

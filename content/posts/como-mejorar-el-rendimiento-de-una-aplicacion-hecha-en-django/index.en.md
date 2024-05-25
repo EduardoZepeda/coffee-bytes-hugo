@@ -1,5 +1,7 @@
 ---
-title: "Is your Django application slow? Maximize its performance with these tips"
+aliases:
+- /en/is-your-django-application-slow-maximize-its-performance-with-these-tips/
+title: "How to scale a Django app to serve one million users?"
 date: "2020-12-30"
 categories:
 - "software architecture"
@@ -20,7 +22,7 @@ authors:
 
 Wish your Django app could handle a million hits? This post is a compilation of articles, books, and videos I've read on how to take a Django application to its maximum capabilities, I've even implemented some of these recommendations myself.
 
-También es buen momento para recordar que si tu aplicación va empezando, probablemente [no deberías obsesionarte con su rendimiento... aún](/en/dont-obsess-about-your-web-application-performance/).
+It's also a good time to remember that if your application is just starting out, you probably [shouldn't obsess about its performance... yet](/en/dont-obsess-about-your-web-application-performance/).
 
 ## Reduce slow queries in Django
 
