@@ -40,6 +40,8 @@ When I migrated the blog, the first thing that I blatantly ignored were the mult
 
 ### The presence of a sitemap is crucial in Tech SEO
 
+A [sitemap is an xml file that functions as a map to navigate your site](/en/dynamic-sitemap-with-django/). 
+
 The sitemap that my previous website had was located in a specific address, and it changed its location when I migrated the website, so Google was unable to find it, and then what happened? Well... Google indexed the pages randomly, as you probably already know, I suffered the consequences.
 
 One night my cell phone vibrated to the rhythm of the cascade of warnings that Google Search Console was sending in the form of notifications.

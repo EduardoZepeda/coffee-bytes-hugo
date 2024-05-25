@@ -40,6 +40,8 @@ Cuando migré el blog lo primero que ignoré fueron las múltiples consecuencias
 
 ### La presencia de un sitemap es crucial en el SEO
 
+[Un sitemap es un archivo xml que funciona como un mapa de tu sitio web](/es/sitemap-dinamico-con-django/). 
+
 El sitemap que tenía mi sitio web anterior se encontraba en una dirección específica, cuando migré el sitio web esa dirección cambió, por lo que Google fue incapaz de encontrar el nuevo sitemap, ¿qué sucedió? Google indexó las páginas como pudo y quiso y, como seguramente ya sabrás, no fue la mejor manera y sufrí las consecuencias. 
 
 Me di cuenta lo mal que estaba cuando una noche mi celular vibró al ritmo de la cascada de advertencias que Google Search Console mandaba en forma de  notificaciones de mi celular.
