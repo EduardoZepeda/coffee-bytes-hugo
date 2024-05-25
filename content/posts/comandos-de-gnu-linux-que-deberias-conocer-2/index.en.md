@@ -1,6 +1,6 @@
 ---
 aliases:
-- /en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/
+- /en/linux-commands-you-should-know-part-two/
 title: "Linux Basic Commands: passwd du useradd usermod fdisk lscpu apt which"
 date: "2019-05-13"
 categories:

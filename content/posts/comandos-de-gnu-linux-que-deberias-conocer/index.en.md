@@ -1,6 +1,6 @@
 ---
 aliases:
-- /en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp/
+- /en/basic-linux-commands-you-should-know
 title: "Linux Basic Commands: grep ls cd cat cp rm scp"
 date: "2019-05-08"
 categories:

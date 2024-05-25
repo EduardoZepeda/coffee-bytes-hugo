@@ -2,7 +2,7 @@
 aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer
 - /comandos-de-linux-basicos-que-deberias-conocer
-- /es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/
+- /es/comandos-de-linux-basicos-que-deberias-conocer/
 authors:
 - Eduardo Zepeda
 categories:
@@ -12,7 +12,8 @@ date: '2019-05-08'
 description: "Uso y opciones comunes de los comandos de terminal de linux: grep, ls, cd, clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man y algunos consejos."
 keywords:
 - linux
-title: "Comandos básicos de Linux: grep ls cd history cat cp rm scp"
+- commands
+title: "Comandos Básicos de Linux: grep ls cd history cat cp rm scp"
 ---
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.

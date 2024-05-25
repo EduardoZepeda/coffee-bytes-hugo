@@ -2,7 +2,7 @@
 aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer-tercera-parte
 - /comandos-de-linux-que-deberias-conocer-tercera-parte
-- /es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/
+- /es/comandos-de-linux-que-deberias-conocer-tercera-parte/
 authors:
 - Eduardo Zepeda
 categories:

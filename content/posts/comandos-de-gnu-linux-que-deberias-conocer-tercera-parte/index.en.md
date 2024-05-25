@@ -1,16 +1,15 @@
 ---
 aliases:
-- /en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/
+- /en/linux-commands-you-should-know-part-three/
 title: "Linux Basic Commands: lsof top ps kill systemctl chown chroot"
 date: "2019-05-21"
 categories:
 - linux and devops
-
 coverImage: "images/comandos_GNU_Linux_3.jpg"
 description: "Usage and common options of the linux terminal commands: printenv, systemctl, top, ps, chown, kill, wget, curl, chroot, export and others"
 keywords:
 - linux
-
+- commands
 authors:
 - Eduardo Zepeda
 ---
