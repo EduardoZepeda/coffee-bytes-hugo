@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-These last few months I have been learning go. How did it all start? Well, it started in a rather superficial way; I loved their mascot, yes, that's really what it was all about. So after a brief mental debate, I decided to give the language a try. My first impression of it is that it is quite similar to Python; simple and easy to learn. Now that I have used it a bit more I bring you a comparison of Python vs Go, where I will explain some of their differences, in case you are interested in learning one or the other this 2023.
+These last few months I have been learning go. How did it all start? Well, it started in a rather superficial way; I loved their mascot, yes, that's really what it was all about. So after a brief mental debate, I decided to give the language a try. My first impression of it is that it is quite similar to Python; simple and easy to learn. Now that I have used it a bit more I bring you a comparison of Python vs Go, where I will explain some of their differences, in case you are interested in learning one or the other this 2024.
 
 If you want to learn go, take a look at my golang tutorial from scratch, where I explain the basic details of [Go: syntax and data types](/en/go-programming-language-introduction-to-variables-and-data-types/).
 
@@ -29,13 +29,23 @@ This comparison is going to be a bit sloppy, since we are going to compare Pytho
 
 ![Go is a compiled language whereas Python is an interprepted one](images/codigo-compilado-vs-interpretado-go-vs-python.png)
 
-I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript](/en/python-vs-javascript-which-is-the-best-programming-language/) comparison, so if you want to refresh your memory a bit go there.
+I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript comparison](/en/python-vs-javascript-which-is-the-best-programming-language/), so if you want to refresh your memory a bit go there.
 
 Both languages are characterized by fast code production.
 
 The **compilation of go is extremely fast** and, although it might be slightly slower to run than if you were using C++ or Rust, product development and MVPs should take less time than with those languages.
 
-### My opinion on the hatred of go
+## Which one is faster Python or Go?
+
+The comparison here is going to become somewhat unfair, but I'll make it anyway: **Go is blazingly fast compared to Python**. The above difference is explained by the fact that Go is compiled, while Python is interpreted.
+
+### Python vs go in fibonacci by recursion
+
+How fast is go compared to python? I made a small test using [multitime](https://tratt.net/laurie/src/multitime/) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
+
+![python vs go speed comparison using fibonacci by recursion](images/fibo-go-vs-python-velocidad.png  "The lower the better. Go, being a compiled language is way faster than Python.")
+
+## My opinion on the hatred of go
 
 Go is a **quite controversial language that triggers quite heated discussions**. I leave you some examples below of how varied opinions are:
 
@@ -44,27 +54,19 @@ Go is a **quite controversial language that triggers quite heated discussions**.
 
 Complaints range from the simplicity of the language, to Robert Pike's claim that it is a language for "not so bright" programmers, to the (now fixed) lack of generics.
 
-My opinion? I think it's certainly not the best designed language (I prefer
-Rust). So why use it? Google created the language based on a number
-of quite concrete problems; Go is the solution to these problems.
+My opinion? I think it's certainly not the best designed language (I prefer Rust). So why use it? Google created the language based on a number of quite concrete problems; Go is the solution to these problems.
 
 Go is good for a couple of things that programmers tend to overlook, the
 business part:
 
-* Iteration. Its fast compilation speed and ease of typing allow you to iterate faster than with other languages.
-allow you to iterate faster than with other languages, which translates into more money and less long-term business risk.
-money and less long-term risk to the business.
-* Easy to learn. No, as much as we would all like to, your company is not going to
-fire the entire department to hire Rust or C++ programmers, it is easier to train programmers in Rust or C++.
-easier to train programmers to learn the language.
+* Iteration. Its fast compilation speed and ease of typing allow you to iterate faster than with other languages, which translates into more money and less long-term business risk.
+* Easy to learn. No, as much as we would all like to, your company is not going to fire the entire department to hire Rust or C++ programmers, it is easier to train programmers in Rust or C++. 
 * Standard packages and library. Your company probably doesn't have the time
 and resources for you to create code from scratch. Go has a fairly mature standard
-standard library that is quite mature and provides a solution for most needs.
-needs.
+standard library that provides out of the box solutions for most needs.
 
 Of course, this is not necessarily a good thing from the point of view of a
 technical profile, but you know first-hand that money often has a strong influence on business decisions.
-strongly influence business decisions.
 
 ## Maturity in both languages
 
@@ -77,12 +79,12 @@ Python was created by Guido Van Rossum in the late 1980s. Go, on the other hand,
 Go is a **compiled language with strong typing**, which requires that specify the data type when creating a variable. However, Go also has a way to let the compiler also has a way to let the compiler guess the type of the variable, under certain conditions, automatically.
 
 ```go
-// go
-var tipoExplicito int = 1
-// Solo dentro del scope de una función
-tipoImplicitoDentroDeFuncion := 1
-// Todo bien hasta aquí, pero ahora fallará.
-tipoExplicito = 1.5
+// go default variable declaration and assignation
+var explicitType int = 1
+// Only inside a function scope
+implicitTypeInsideAFunction := 1
+// everything is good up to here, but the next line will throw an error
+explicitType = 1.5
 // Error: constant 1.5 truncated to integer
 ```
 
@@ -92,12 +94,12 @@ Python is a strongly typed **interpreted language**; it does not require us to s
 
 ```python
 # Python
-numero = [1]
-numero = {1:1}
-numero = 1
-numero = "1"
- # no hubo error en ningún caso
-numero + 2
+number = [1]
+number = {1:1}
+number = 1
+number = "1"
+ # no error 'til here
+number + 2
 # TypeError: can only concatenate str (not "int") to str
 ```
 
@@ -116,28 +118,28 @@ An interesting feature with respect to syntax is that the compiler does not will
 package main
 
 import "fmt"
-var tipoExplicito int = 123
+var explicitType int = 123
 
-func suma(a, b int) (int, int){
+func sum(a, b int) (int, int){
     return a, b
 }
 
-func bucle() {
+func loop() {
   var array [10]int
   for i:= 0; i < 10; i++ {
     array[i] = i
     }
   }
 
-func bucleInfinito() {
+func infiniteLoop() {
     for {}
     }
 
-// main es el punto de ejecución de un programa
+// main is the starting point of a program
 
 func main() {
-    tipoImplicito := 23
-    // Este codigo no compilará porque tenemos variables sin usar y otros errores
+    implicitType := 23
+    // Since we have unused variables this code WON'T compile
     fmt.Println("Hello world")
 }
 ```
@@ -146,19 +148,19 @@ Another important thing, some developers say that go is oriented to object orien
 
 ```go
 //go
-type Persona struct {
-    Nombre string
-    Sexo string
+type Person struct {
+    Name string
+    Sex string
 }
 
-// Todos los campos de Persona pasan a Profesor
-type Profesor struct {
-    Persona
+// Every field from Person are inherited by Professor
+type Professor struct {
+    Person
 }
 
-// Para poder llamar a unProfesor.Saludar()
-func (p *Profesor) Saludar(){
-    fmt.Println("Hola")
+// So we can call Professor.Greet()
+func (p *Professor) Greet(){
+    fmt.Println("Hello")
 }
 ```
 
@@ -170,18 +172,18 @@ Python **is strongly object oriented** and you are going to have all of the capa
 
 ```python
 if True: 
-    return "resultado"
+    return "result"
 
-print("También puedes incluir punto y coma al final, pero la convención es no hacerlo")
+print("You can also add a semicolon at the end, but it's not strong convention")
 
 class MiClase:
-    def __init__(self, propiedad):
-        self.propiedad = propiedad
+    def __init__(self, property):
+        self.property = property
 
-def funcion(argumento_por_defecto = "predeterminado", *args, **kwargs):
-    mi_lista_de_argumentos = args
-    mi_diccionario_de_argumentos = kwargs
-    return mi_list_de_argumentos
+def funcion(defaultArgument = "default", *args, **kwargs):
+    my_arguments_list = args
+    my_key_value_arguments = kwargs
+    return my_arguments_list
 
 try:
   do_something()
@@ -235,10 +237,10 @@ Error handling is something that is a fairly constant feature of languages, but 
 
 ### Error handling in go
 
-Go has a rather peculiar way of handling errors. **It does not have_try_ and _except_ blocks (or their equivalent in other languages)**. Instead, the execution of a function can return an error as a second return value, which we can get and check to see if an error has occurred.
+Go has a rather peculiar way of handling errors. **It does not have _try_ and _except_ blocks (or their equivalent in other languages)**. Instead, the execution of a function can return an error as a second return value, which we can get and check to see if an error has occurred and manually handle it.
 
 ```go
-message, err := requestToApiEndpoint(")
+message, err := requestToApiEndpoint("")
     if err != nil {
         log.Fatal(err)
     }
@@ -259,13 +261,13 @@ except:
 
 ### Not so cool things about go
 
-Go is very opinionated. It has very rigid positions on certain things, such as the use of all variables, but leaves use of all variables, but leaves many others to good user handling, such as errors caused by pointers or null pointers. user, such as errors caused by pointers or null pointers. One could say that it is inconsistent in that respect.
+Go is very opinionated. It has very rigid positions on certain things, such as the use of all variables, but leaves use of all variables, but leaves many others to good user handling, such as errors caused by pointers or null pointers. I would accuse Go of being inconsistent in that respect.
 
 ```go
-func olvideRevisarError() {
-  resultado, err := accion()
-  // Se nos olvido revisar si err es igual a nil
-  print(resultado.algo)
+func forgetToCheckError() {
+  result, err := accion()
+  // We forgot to check for a nil pointer, but Go didn't force us
+  print(result.algo)
   // runtime error:
   // panic: invalid memory address or nil pointer dereference
 }
@@ -274,7 +276,7 @@ func olvideRevisarError() {
 Or for example, the fact that you can return tuples, but you can't use them in other part of the language.
 
 ```go
-// es posible retornar algo parecido a tuplas, aunque no puedes declarar una tupla en el lenguaje
+// you CAN return tuples but you CANNOT use tuples
 func returnTuple() {
     return 1, 2
 }
@@ -283,8 +285,8 @@ func returnTuple() {
 It has no default values for the arguments of a function and you have to resort to trickery to have something similar to a function.
 
 ```go
-// Esto NO existe en go
-func sinValoresPredeterminados(valor=1, valor2=2){
+// This doesn't exist
+func ThisFunctionDoesntExist(valor=1, valor2=2){
 }
 ```
 
@@ -302,7 +304,7 @@ if err != nil {
 
 Among the not-so-cool things about Python is the sharp separation that occurred between Python 2 and Python 3, leaving many libraries out of date or with a lot of patches to make cod patches to make the code compatible between the two versions.
 
-Another rather problematic aspect is the excessive use of memory, along with the speed of the language; the Python interpreter is slow. Python is forced by default to by default to run on a single thread, because of its [GIL](https://wiki.python.org/moin/GlobalInterpreterLock), which does not allow full utilization by computers. modern computers without complicating the code.
+Another rather problematic aspect is the excessive use of memory, along with the speed of the language; the Python interpreter is slow. Python is forced by default to by default to run on a single thread, because of its [GIL](https://wiki.python.org/moin/GlobalInterpreterLock), which does not allow full utilization by modern computers without complicating the code.
 
 ## Support
 
@@ -379,15 +381,6 @@ Python has a gigantic community, compared to go, and they have packages for almo
 
 ![screenshot of the Python Pypi package index](images/Pypi.png "The Python Pypi package index")
 
-## Which one is faster Python or Go?
-
-The comparison here is going to become somewhat unfair, but I'll make it anyway: **Go is uncommonly faster than Python**. The above difference is explained by the fact that Go is compiled, while Python is interpreted.
-
-### Python vs go in fibonacci by recursion
-
-How fast is go compared to python? I have done a small test using [multitime](https://tratt.net/laurie/src/multitime/) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
-
-![python vs go speed comparison fibonacci by recursion](images/fibo-go-vs-python-velocidad.png  "Go, being a compiled language, is compiled language, it is massively faster than Python.")
 
 ## Web frameworks
 

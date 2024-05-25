@@ -35,13 +35,25 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 ![Go es un lenguaje compilado, mientras que Python es uno interpretado](images/codigo-compilado-vs-interpretado-go-vs-python.png)
 
 
-Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi comparación de [python vs javascript](/es/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
+Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi [comparación de python vs javascript](/es/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 
 La **compilación de go es extremadamente rápida** y, aunque su ejecución podría ser ligeramente más lenta que si usaras C++ o Rust, el desarrollo de productos y MVPs debería tomar menos tiempo que con esos lenguajes.
 
-### Go es un lenguaje polémico, mi opinión
+
+
+## ¿Cuál es más rápido Python o Go?
+
+La comparación aquí va a tornarse algo injusta, pero la haré de todas formas: **Go es descomunalmente más rápido que Python**. La diferencia anterior se explica porque Go es compilado, mientras que Python interpretado.
+
+### Python vs Go en fibonacci por recursión
+
+¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
+
+![Comparación de velocidad Python vs Go usando fibonacci por recursión](images/fibo-go-vs-python-velocidad.png "Go, al ser un lenguaje compilado, es descomunalmente más rápido que Python")
+
+## Go es un lenguaje polémico, mi opinión
 
 Go es un **lenguaje bastante polémico que desencadena discusiones bastante acaloradas**. Te dejo algunos ejemplos a continuación de lo variadas que son las opiniones:
 
@@ -376,15 +388,6 @@ Python tiene una comunidad gigantesca, comparada con la de go, y tienen paquetes
 
 ![Número de librerías o paquetes disponibles en Python](images/Pypi.png "El índice de paquetes de Python Pypi")
 
-## ¿Cuál es más rápido Python o Go?
-
-La comparación aquí va a tornarse algo injusta, pero la haré de todas formas: **Go es descomunalmente más rápido que Python**. La diferencia anterior se explica porque Go es compilado, mientras que Python interpretado.
-
-### Python vs Go en fibonacci por recursión
-
-¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
-
-![Comparación de velocidad Python vs Go usando fibonacci por recursión](images/fibo-go-vs-python-velocidad.png "Go, al ser un lenguaje compilado, es descomunalmente más rápido que Python")
 
 ## Web frameworks
 
