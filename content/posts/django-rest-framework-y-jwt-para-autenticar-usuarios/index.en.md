@@ -134,7 +134,7 @@ If we try to make a request to the url _/protected/_ it will warn us that we are
 curl http://127.0.0.1:8000/protected/ {"detail":"Authentication credentials were not provided."}
 ```
 
-If you don't know how to use curl check my [basic GNU/Linux commands](/en/linux-commands-you-should-know-part-two/) entry where I explain the basics. You can also use Postman, http or any other option.
+If you don't know how to use curl check my [basic GNU/Linux commands](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) entry where I explain the basics. You can also use Postman, http or any other option.
 
 ## Get JWT tokens in Django
 

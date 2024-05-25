@@ -2,6 +2,7 @@
 aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer
 - /comandos-de-linux-basicos-que-deberias-conocer
+- /es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,8 +12,7 @@ date: '2019-05-08'
 description: "Uso y opciones comunes de los comandos de terminal de linux: grep, ls, cd, clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man y algunos consejos."
 keywords:
 - linux
-title: "Comandos esenciales de Linux: grep ls cd history cat cp rm scp"
-url: "/es/comandos-de-linux-basicos-que-deberias-conocer/"
+title: "Comandos básicos de Linux: grep ls cd history cat cp rm scp"
 ---
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.
@@ -21,7 +21,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) y acá para [la tercera parte de esta serie.](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/)
+Entra aquí para la [segunda parte de esta serie de comandos](/es/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) y acá para [la tercera parte de esta serie.](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/)
 
 ## Pequeños tips de la terminal de Linux
 
@@ -297,4 +297,4 @@ ip
 
 El comando ip tiene muchas opciones que te sugiero que revises con calma, usa el comando man si quieres ahondar más en las funcionalidades.
 
-Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/) para la segunda parte.
+Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) para la segunda parte.

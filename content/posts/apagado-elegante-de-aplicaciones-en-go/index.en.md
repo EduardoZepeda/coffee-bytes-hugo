@@ -29,7 +29,7 @@ There are quite a few Linux signals, but here are the most important ones for th
 | SIGTERM | 15    | Term   | Terminate a process in a controlled manner                   | kill -15 pid | CTRL+C            | CTRL+C | CTRL+C             | CTRL+C        | SIGTERM       | 15        | Term | Terminate a process in a controlled manner | kill -15 pid | CTRL+C | CTRL+C | CTRL+C |
 | SIGKILL | 9     | Term   | Terminate a process in a forced manner, cannot be handled by | kill -9 pid  |                   |        | CTRL+CTRL+CONTROLL | CTRL+CONTROLL | CTRL+CONTROLL | CTRL+CTRL |
 
-In Linux, these signals can be sent to an application via the [kill command](/en/linux-commands-you-should-know-part-two/), specifying the value of the signal and the pid of the application.
+In Linux, these signals can be sent to an application via the [kill command](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/), specifying the value of the signal and the pid of the application.
 
 ```go
 kill -<valor> <pid>

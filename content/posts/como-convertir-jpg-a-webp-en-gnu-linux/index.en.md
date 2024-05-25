@@ -30,7 +30,7 @@ Less weight in our images means better performance. A website that loads faster 
 
 The first step to transform our images to webp format is to download the appropriate libraries. The package we need to transform our images is called webp and is found in the repositories of popular GNU/Linux distributions. Let's install it.
 
-If the following command does not ring a bell or you want to brush up on the basic GNU/Linux commands please visit my entries where I talk about the [most common GNU Linux commands](/en/basic-linux-commands-you-should-know/).
+If the following command does not ring a bell or you want to brush up on the basic GNU/Linux commands please visit my entries where I talk about the [most common GNU Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//).
 
 ```bash
 sudo apt install webp

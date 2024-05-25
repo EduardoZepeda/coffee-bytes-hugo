@@ -34,7 +34,7 @@ There are many ways to address that problem, you can associate a user (and their
 
 ## Install redis on GNU/Linux
 
-Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/en/basic-linux-commands-you-should-know/)
+Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
 
 ```bash
 sudo apt install redis-server

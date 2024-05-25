@@ -1,17 +1,17 @@
 ---
-title: "Linux Essential Commands: grep ls cd cat cp rm scp"
+aliases:
+- /en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp/
+title: "Linux Basic Commands: grep ls cd cat cp rm scp"
 date: "2019-05-08"
 categories:
 - linux and devops
-
 coverImage: "images/comandos_GNU_Linux_1.jpg"
 description: "Usage and common options of the linux terminal commands: grep, ls, cd, clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man and some tips"
 keywords:
 - linux
-
+- commands
 authors:
 - Eduardo Zepeda
-url: "/en/basic-linux-commands-you-should-know"
 ---
 
 There are many basic linux commands, from those that tell you which is your user, to others that allow you to run and schedule services periodically. Below I will list the commands that I use frequently, as well as any combination or peculiar feature of any of these that is worth mentioning. I will try to do it in the simplest possible way and without trying to complicate too much the use of the commands.
@@ -20,7 +20,7 @@ For these examples I use [Debian 9](https://www.debian.org/index.es.html), so if
 
 Another thing, what most people know as Linux, plain Linux, is actually GNU/Linux, however for SEO and simplicity reasons many people use GNU/Linux or Linux interchangeably, which I intend to do as well. But keep this in mind when you read this or other entries.
 
-Click here for [the second part of this series of commands](/en/linux-commands-you-should-know-part-two/) and here for [the third part of this series](/en/linux-commands-you-should-know-part-three/).
+Click here for [the second part of this series of commands](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) and here for [the third part of this series](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
 
 ## Little tips from the Linux Terminal
 
@@ -297,4 +297,4 @@ ip
 
 The ip command has many options that I suggest you review calmly, use the man command if you want to delve deeper into the functionalities.
 
-As I'm sure you already know, many important commands have been missing, I haven't placed them here so as not to make the reading so tedious, get up, stretch a bit, get something to drink and [skip to my second part of the basic GNU Linux commands](/en/linux-commands-you-should-know-part-two/) for the second part.
+As I'm sure you already know, many important commands have been missing, I haven't placed them here so as not to make the reading so tedious, get up, stretch a bit, get something to drink and [skip to my second part of the basic GNU Linux commands](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) for the second part.

@@ -63,7 +63,7 @@ The official mascot is a ground squirrel and it is popular among the community t
 
 ## Go Installation
 
-Go can be found in most GNU/Linux distribution repositories. In debian and ubuntu it is installed using the [apt install command](/en/linux-commands-you-should-know-part-two/) like any other package.
+Go can be found in most GNU/Linux distribution repositories. In debian and ubuntu it is installed using the [apt install command](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) like any other package.
 
 ```bash
 sudo apt install golang

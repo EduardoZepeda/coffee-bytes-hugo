@@ -48,7 +48,7 @@ Voy a explicarlos muy brevemente pero tú puedes profundizarlos por tu cuenta si
 
 En palabras simples, un proceso es una instancia de un programa en ejecución. Lo importante aquí es que cada proceso en linux cuenta con PID, que es un número que sirve para identificar el proceso. 
 
-Como ya sabes, puedes ver los procesos usando los [comandos ps, top, htop](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#top), etc.
+Como ya sabes, puedes ver los procesos usando los [comandos ps, top, htop](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/#top), etc.
 
 Un container es un proceso, o un grupo de procesos, aislados del resto del sistema operativo, por medio de un namespace.
 
@@ -276,11 +276,11 @@ func child() {
 
 Ahora, si ejecutamos el código veremos que el PID es 1, el primer proceso, ¡Ya tenemos aislados lor procesos! Sin embargo, como no hemos cambiado el sistema de archivos, veremos los mismos procesos de nuestro sistema operativo principal.
 
-Recuerda que el [comando *ps*](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#ps) obtiene los procesos del directorio */proc* del sistema de archivos que estemos usando. En otras palabras, necesitamos otro sistema de archivos.
+Recuerda que el [comando *ps*](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/#ps) obtiene los procesos del directorio */proc* del sistema de archivos que estemos usando. En otras palabras, necesitamos otro sistema de archivos.
 
 ## Establecer un nuevo sistema de archivos para el container
 
-Para usar un sistema de archivos único para el container, que no sea el sistema de archivos de nuestro sistema operativo, echaremos de mano del comando [*chroot*](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#chroot) de linux. 
+Para usar un sistema de archivos único para el container, que no sea el sistema de archivos de nuestro sistema operativo, echaremos de mano del comando [*chroot*](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/#chroot) de linux. 
 
 *Chroot* cambia la ubicación predeterminada del root o raiz a un directorio que nosotros le indiquemos.
 

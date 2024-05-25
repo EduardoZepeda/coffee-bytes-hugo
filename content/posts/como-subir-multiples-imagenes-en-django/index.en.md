@@ -27,7 +27,7 @@ pip install django Pillow
 
 Next we will create a new project and enter the newly created folder.
 
-If you don't know GNU/Linux commands I have a series of entries [with the most used GNU Linux commands](/en/basic-linux-commands-you-should-know/)
+If you don't know GNU/Linux commands I have a series of entries [with the most used GNU Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
 
 ```bash
 django-admin startproject yourproject

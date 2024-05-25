@@ -201,7 +201,7 @@ docker run -it ubuntu
 
 Try running an _ls_ or _pwd_. You will notice that you are inside a GNU/Linux operating system. You can create files, modify them, create folders, etc.
 
-If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/en/basic-linux-commands-you-should-know/) to refresh your memory.
+If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//) to refresh your memory.
 
 ```bash
 ls

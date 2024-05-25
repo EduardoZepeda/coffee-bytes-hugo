@@ -16,9 +16,9 @@ authors:
 url: "/en/understand-permissions-in-gnu-linux-and-the-chmod-command/"
 ---
 
-The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux-commands-you-should-know-part-two/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly.
+The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly.
 
-In this post I will expand a bit on the topic of permissions and show the two different ways of the chmod command to assign permissions to a file. For this entry we are going to use several basic GNU/Linux commands, if you are not very familiar with the basic commands check my tutorial on [the basic Linux commands](/en/basic-linux-commands-you-should-know/)
+In this post I will expand a bit on the topic of permissions and show the two different ways of the chmod command to assign permissions to a file. For this entry we are going to use several basic GNU/Linux commands, if you are not very familiar with the basic commands check my tutorial on [the basic Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
 
 ## Types of permissions in GNU/Linux
 

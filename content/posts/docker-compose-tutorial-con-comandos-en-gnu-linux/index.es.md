@@ -202,7 +202,7 @@ En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya est�
 
 ### environment
 
-La configuración environment nos permite establecer una lista de [variables de entorno](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/) que estarán disponibles en nuestro servicio.
+La configuración environment nos permite establecer una lista de [variables de entorno](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) que estarán disponibles en nuestro servicio.
 
 ```docker
 version: '3.8'

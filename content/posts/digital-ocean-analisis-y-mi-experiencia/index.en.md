@@ -58,7 +58,7 @@ Now let's move on to Digital Ocean.
 
 ## Droplets in Digital Ocean
 
-Digital Ocean works with Droplets, which are virtual servers that are rented to you. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command](/en/basic-linux-commands-you-should-know/).
+Digital Ocean works with Droplets, which are virtual servers that are rented to you. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//).
 
 Once you create a Droplet this is available in less than a minute.
 
@@ -128,7 +128,8 @@ Digital Ocean is a service focused more on small and medium projects, it does no
 
 ## My experience using Digital Ocean
 
-I have used Digital Ocean to host personal projects and also to manage my domains. I haven't had any problems with down servers so far, or at least not that I've noticed or any user has brought it to my attention. In fact, right now you are reading this from a Droplet using ~~a headless Wordpress and for the frontend frontity (A React framework) served with Nginx~~ Hugo and hosted at Digital Ocean. This blog uses the cheapest service, the $5 usd one, and the truth is that for the amount of traffic I have it doesn't feel slow and has decent Lighthouse metrics, without any cache plugin.
+I have used Digital Ocean to host personal projects and also to manage my domains. I haven't had any problems with down servers so far, or at least not that I've noticed or any user has brought it to my attention. In fact, right now you are reading this ~~from a Droplet using a headless Wordpress and frontend frontity (A React framework) served with Nginx~~ Hugo and hosted at Digital Ocean. This blog uses ~~the cheapest service, the $5 usd~~ App service, which costs around $3 usd, and the truth is that for the amount of traffic I have it doesn't feel slow and has decent Lighthouse metrics, no caching of any kind or any sophistication.
+
 
 ![Indicadores de Lighthose para coffeebytes.dev](images/Coffeebytes-lighthose-indicadores.png)
 

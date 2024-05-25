@@ -2,6 +2,7 @@
 aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer-tercera-parte
 - /comandos-de-linux-que-deberias-conocer-tercera-parte
+- /es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,14 +12,13 @@ date: '2019-05-21'
 description: "Uso y opciones comunes de los comandos de terminal de linux: printenv, systemctl, top, ps, chown, kill, wget, curl, chroot, export y otros."
 keywords:
 - linux
-title: "Comandos esenciales de Linux: printenv export lsof top ps kill curl systemctl chown chroot"
-url: "/es/comandos-de-linux-que-deberias-conocer-tercera-parte/"
+title: "Comandos Básicos de Linux: printenv export lsof top ps kill curl systemctl chown chroot"
 ---
 
 Esta es la continuación de las siguientes partes: 
 
-* [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.](/es/comandos-de-linux-basicos-que-deberias-conocer/) 
-* [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/comandos-de-linux-que-deberias-conocer-segunda-parte/).
+* [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/) 
+* [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//).
 
 ## printenv
 

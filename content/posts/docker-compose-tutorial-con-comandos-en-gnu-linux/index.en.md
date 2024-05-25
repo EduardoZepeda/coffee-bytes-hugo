@@ -195,7 +195,7 @@ In the above example docker-compose will run the web service only if the db and 
 
 ### environment
 
-The environment configuration allows us to set a list of [environment variables](/en/linux-commands-you-should-know-part-two/) that will be available in our service.
+The environment configuration allows us to set a list of [environment variables](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) that will be available in our service.
 
 ```docker
 version: '3.8'

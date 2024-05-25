@@ -1,20 +1,20 @@
 ---
-title: "Linux Essential Commands: passwd du useradd usermod fdisk lscpu apt which"
+aliases:
+- /en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/
+title: "Linux Basic Commands: passwd du useradd usermod fdisk lscpu apt which"
 date: "2019-05-13"
 categories:
 - linux and devops
-
 coverImage: "images/comandos_GNU_Linux_2.jpg"
 description: "Learn about the basic GNU/Linux commands offered by the terminal, for this entry I explain uname, who, du, df, among many others."
 keywords:
 - linux
-
+- commands
 authors:
 - Eduardo Zepeda
-url: "/en/linux-commands-you-should-know-part-two/"
 ---
 
-This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/en/basic-linux-commands-you-should-know/). I also have a [third part of GNU/Linux commands available](/en/linux-commands-you-should-know-part-three/).
+This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//). I also have a [third part of GNU/Linux commands available](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
 
 Let's start with the uname command, to put ourselves in the context of the operating system we are working with.
 
@@ -470,4 +470,4 @@ sudo neofetch
 
 ## More basic linux terminal commands
 
-Another entry and many more commands reviewed, some commands are missing to cover only a small part, take your time, there is no hurry, get up from your chair and go get some water or coffee. The third part is the last one and I include more commands, some of them a little bit more complicated. [In the third part I will tell you about commands like wget, systemctl, curl, printenv, mkfs, kill, top and others](/en/linux-commands-you-should-know-part-two/)
+Another entry and many more commands reviewed, some commands are missing to cover only a small part, take your time, there is no hurry, get up from your chair and go get some water or coffee. The third part is the last one and I include more commands, some of them a little bit more complicated. [In the third part I will tell you about commands like wget, systemctl, curl, printenv, mkfs, kill, top and others](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/)

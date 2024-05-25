@@ -1,5 +1,7 @@
 ---
-title: "Linux Essential Commands: lsof top ps kill systemctl chown chroot"
+aliases:
+- /en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/
+title: "Linux Basic Commands: lsof top ps kill systemctl chown chroot"
 date: "2019-05-21"
 categories:
 - linux and devops
@@ -11,13 +13,12 @@ keywords:
 
 authors:
 - Eduardo Zepeda
-url: "/en/linux-commands-you-should-know-part-three/"
 ---
 
 This is the continuation of the following parts:
 
-* [GNU Linux Basic Commands, part one](/en/basic-linux-commands-you-should-know/)
-* [GNU Linux basic commands, part two](/en/linux-commands-you-should-know-part-two/).
+* [GNU Linux Basic Commands, part one](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
+* [GNU Linux basic commands, part two](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
 
 ## printenv
 

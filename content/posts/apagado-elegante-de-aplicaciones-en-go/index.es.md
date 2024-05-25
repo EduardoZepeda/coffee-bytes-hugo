@@ -33,7 +33,7 @@ Las señales de Linux son bastantes, pero te dejo aquí las más importantes par
 | SIGTERM | 15    | Term   | Terminar un proceso de una manera controlada                  | kill -15 pid |                  |
 | SIGKILL | 9     | Term   | Terminar un proceso de manera forzosa, no puede manejarse por | kill -9 pid  |                  |
 
-En Linux, estas señales pueden mandarse a una aplicación por medio del [comando kill](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/#kill), especificando el valor de la señal y el pid de la aplicación.
+En Linux, estas señales pueden mandarse a una aplicación por medio del [comando kill](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/#kill), especificando el valor de la señal y el pid de la aplicación.
 
 ```go
 kill -<valor> <pid>

@@ -2,6 +2,7 @@
 aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer-2
 - /comandos-de-linux-que-deberias-conocer-segunda-parte
+- /es/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt/
 - /comandos-de-la-terminal-de-gnu-linux-que-deberias-conocer-segunda-parte/
 authors:
 - Eduardo Zepeda
@@ -12,11 +13,10 @@ date: '2019-05-13'
 description: "Aprende sobre los comandos básicos de GNU/Linux que ofrece la terminal, para esta entrada explico uname, who, du, df, entre muchos otros."
 keywords:
 - linux
-title: "Comandos esenciales de Linux: passwd du useradd usermod fdisk apt"
-url: comandos-de-linux-que-deberias-conocer-segunda-parte
+title: "Comandos básicos de Linux: passwd du useradd usermod fdisk apt"
 ---
 
-Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor entra en la primera parte donde hablo de[grep, ls, cd, history, cat, cp, rm, scp.](/es/comandos-de-linux-basicos-que-deberias-conocer/). También tengo una parte donde hablo de [los comandos passwd, du, useradd, usermod, fdisk, lscpu, apt, which.](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/).
+Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor entra en la primera parte donde hablo de[grep, ls, cd, history, cat, cp, rm, scp.](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/). También tengo una parte donde hablo de [los comandos passwd, du, useradd, usermod, fdisk, lscpu, apt, which.](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/).
 
 Vamos a empezar con el comando uname, para situarnos un poco en el contexto del sistema operativo con el que estamos trabajando.
 
@@ -472,4 +472,4 @@ sudo neofetch
 
 ## Más comandos básicos para la terminal de linux
 
-Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](/es/comandos-de-linux-que-deberias-conocer-tercera-parte/)
+Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/)
