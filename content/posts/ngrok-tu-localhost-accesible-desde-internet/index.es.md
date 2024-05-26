@@ -52,7 +52,7 @@ Si no tienes idea de como usar Django tengo algunas recomendaciones de libros: [
 Recuerda agregar el dominio, con su subdominio a la variable ALLOWED\_HOSTS del archivo de configuración.
 
 ```python
-# tu_proyecto/settings.py
+# app/settings.py
 ALLOWED_HOSTS = ['8da947737113.ngrok.io']
 ```
 

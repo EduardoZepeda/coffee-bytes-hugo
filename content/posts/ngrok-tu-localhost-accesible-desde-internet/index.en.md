@@ -52,7 +52,7 @@ If you have no idea how to use Django I have some book recommendations: [Django 
 Remember to add the domain, with its subdomain to the ALLOWED_HOSTS variable in the configuration file.
 
 ```python
-# tu_proyecto/settings.py
+# app/settings.py
 ALLOWED_HOSTS = ['8da947737113.ngrok.io']
 ```
 
