@@ -63,9 +63,11 @@ def list_reviews(request):
 
 Gunicorn es el servidor Python WSGI HTTP más usado para aplicaciones de Django. Pero no es asíncrono, considera combinarlo con una de sus contrapartes asíncronas: hypercorn o uvicorn. Este último implementa workers de gunicorn.
 
-### Configura gunicorn correctamente
+### Usa los workers adecuados en gunicorn
 
-Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la cantidade núcleos de tu procesador. Ellos recomiendan establecer los workers en (2 x número de nucleos) + 1. Según la documentación, **con 4-12 workers puedes servir desde cientos hasta miles de peticiones por segundo**, por lo que debería bastar para un sitio web de escala mediana o hasta grande.
+Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la cantidade núcleos de tu procesador. 
+
+Ellos recomiendan establecer los workers en (2 x número de nucleos) + 1. Según la documentación, **con 4-12 workers puedes servir desde cientos hasta miles de peticiones por segundo**, por lo que debería bastar para un sitio web de escala mediana o hasta grande.
 
 ## Mejora el rendimiento de tus serializers
 
@@ -141,6 +143,8 @@ Cuando el tiempo de respuesta de tu aplicación se vuelve un problema, deberías
 ¿Te gustaría profundizar en el sistema de caché?, tengo un post sobre [la caché en django con memcached](/es/cache-en-django-rest-framework-con-memcached/) que puedes revisar para profundizar más.
 
 Si tu página tiene demasiados modelos, y raramente cambian, no tiene sentido acceder cada vez a la base de datos para solicitarlos con cada nueva petición HTTP. Solo coloca la respuesta de esa solicitud en caché y tu tiempo de respuesta mejorará, de esta manera cada que se pida el mismo contenido, no será necesario realizar una nueva petición o cálculos a la base de datos, sino que el valor se devolverá directamente de memoria.
+
+### Opciones de caché disponibles en Django
 
 Entre las opciones disponibles está:
 
@@ -273,7 +277,7 @@ El blog de instagram tiene una entrada llamada [Web Service efficiency at Instag
 Te dejo los enlaces a los blogs a continuación:
 
 - [Pinterest engineering](https://medium.com/pinterest-engineering)
-- [Instagram engineering](https://instagram-engineering.com/)
+- [Instagram engineering](https://engineering.fb.com/tag/instagram/)
 
 References:
 - Definitive Guide to Django: Web Development Done Right by Adrian Holovaty and Jacob Kaplan Moss 

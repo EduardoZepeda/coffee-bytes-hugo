@@ -94,7 +94,7 @@ Mi veredicto:
 
 Este es probablemente el captcha más seguro, y también el más invasivo que he visto. Se encuentra en el image board angloparlante más popular a la fecha y no lo he visto en ningún otro sitio.
 
-![4chan captcha gif](images/4chan-captcha.gif)
+![Gif del captcha impossible de 4chan](images/4chan-captcha.gif)
 
 Quiero que notes lo sofisticado que es este captcha. Es una simple caja donde muestra unos garabatos a blanco y negro, completamente ilegibles y en el fondo una imagen que, al deslizar el slider, se superpone con la imagen del fondo, revelando el captcha ante tus ojos. 
 

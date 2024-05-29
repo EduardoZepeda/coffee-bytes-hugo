@@ -26,7 +26,7 @@ It's also a good time to remember that if your application is just starting out,
 
 ## Reduce slow queries in Django
 
-As you know, database access is usually the bottleneck of most applications. **The most important action to take is to reduce the number of queries and the impact of each one of them. You can reduce the impact of your queries by 90%, and I am not exaggerating.
+As you know, database access is usually the bottleneck of most applications. **The most important action to take is to reduce the number of queries and the impact of each one of them**. You can reduce the impact of your queries by 90%, and I am not exaggerating.
 
 It is quite common to write code that occasions multiple queries to the database, as well as quite expensive searches.
 
@@ -37,7 +37,7 @@ Identify what queries are being made in your application using [django-debug-too
 * **django_annotate()** to add information to each object in a query. I have an entry where I explain [the difference between annotate and aggregate](/en/django-annotate-and-aggregate-explained/).
 * **django_aggregate()** to process all information from a single query into a single data (summation, averages).
 * **Object Q** to join queries by OR or AND directly from the database.
-* F-Expressions** to perform operations at the database level instead of in Python code.
+* **F-Expressions** to perform operations at the database level instead of in Python code.
 
 ![Django debug tool bar showing the SQL queries of a Django request](images/django-debug-tool-bar-numero-queries.png "Django debug tool bar showing the SQL queries of a Django request ")
 
@@ -57,9 +57,12 @@ def list_reviews(request):
 
 Gunicorn is the most widely used Python WSGI HTTP server for Django applications. But it is not asynchronous, consider combining it with one of its asynchronous counterparts: hypercorn or uvicorn. The latter implements gunicorn workers.
 
-### Configure gunicorn correctly
+### How many workers should gunicorn use?
 
-Make sure you are using the correct gunicorn workers, according to the number of cores in your processor. They recommend setting the workers to (2 x number of cores) + 1. According to the documentation, **with 4-12 workers you can serve from hundreds to thousands of requests per second**, so that should be enough for a medium to large scale website.
+Make sure you are using the correct gunicorn workers, according to the number of cores in your processor. 
+
+They recommend setting the workers to (2 x number of cores) + 1. According to the documentation
+**with 4-12 workers you can serve from hundreds to thousands of requests per second**, so that should be enough for a medium to large scale website.
 
 ## Improve the performance of your serializers
 
@@ -136,6 +139,8 @@ Would you like to dig deeper into the caching system, I have a post about [cachi
 
 If your page has too many models, and they rarely change, it does not make sense to access the database each time to request them with each new HTTP request. Just put the response of that request in cache and your response time will improve, this way every time the same content is requested, it will not be necessary to make a new request or calculations to the database, but the value will be returned directly from memory.
 
+### Available caching options for Django
+
 Among the options available are:
 
 * Memcached
@@ -209,7 +214,7 @@ Sometimes there are quite costly runtime queries that could be solved by adding 
 
 Instead of performing a count, you could store that number in the database or in memory and return it directly, to keep it updated you could use a periodic count or increment it with each addition.
 
-Of course this brings the problem that you now have more data to maintain, not coupled together, so **you should only use this option to solve your Django performance problems if you have already exhausted the other options.
+Of course this brings the problem that you now have more data to maintain, not coupled together, so **you should only use this option to solve your Django performance problems if you have already exhausted the other options**.
 
 ```python
 count = my_model.objects.filter(description__icontains="para niños").count() 
@@ -232,7 +237,7 @@ In addition to the normal Python interpreter, the one offered by default on the 
 
 [Pypy](https://www.pypy.org/) is one of them, it is responsible for optimizing Python code by analyzing the type of objects that are created with each execution. This option is ideal for applications where Django is in charge of returning a result that was mainly processed using Python code.
 
-But not everything is wonderful; third-party interpreters, including pypy, are usually not 100% compatible with all Python code, but they are compatible with most of it, so, just like the previous option. **Using a third-party interpreter should also be one of the last options you consider to solve your Django performance problem.
+But not everything is wonderful; third-party interpreters, including pypy, are usually not 100% compatible with all Python code, but they are compatible with most of it, so, just like the previous option. **Using a third-party interpreter should also be one of the last options** you consider to solve your Django performance problem.
 
 ## Write bottlenecks in a low-level language with Swig
 
@@ -264,8 +269,8 @@ The instagram blog has a post called [Web Service efficiency at Instagram with P
 
 Here are the links to the blogs below:
 
-* [Pinterest engineering](https://medium.com/pinterest-engineering)
-* [Ingeniería de Instagram](https://instagram-engineering.com/)
+* [Pinterest engineering blog](https://medium.com/pinterest-engineering)
+* [Instagram's engineering blog](https://engineering.fb.com/tag/instagram/)
 
 References:
 - Definitive Guide to Django: Web Development Done Right by Adrian Holovaty and Jacob Kaplan Moss 

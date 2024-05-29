@@ -16,7 +16,7 @@ jobTitle: "Web developer"
 
 ## Más información sobre Eduardo Zepeda
 
-Aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros y practicando,](/es/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial Platzi también.
+Aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros y practicando,](/es/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial [Platzi](https://platzi.com/#?) también.
 
 Tengo la [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
 
@@ -24,9 +24,7 @@ Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de
 
 [![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
 
-¿Quieres ver algunos proyectos? Visita mi portafolio en [zeedu.dev](https://zeedu.dev)
-
-Estoy mudando mi sitio web personal a otro dominio por lo que mi portafolio está temporalmente deshabilitado.
+¿Quieres ver algunos proyectos? Revisa mi portafolio en [zeedu.dev](https://zeedu.dev)
 
 Obsesivo y fiel usuario de Debian desde el año 2010.
 

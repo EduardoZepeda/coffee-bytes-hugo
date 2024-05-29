@@ -94,7 +94,7 @@ My veredict:
 
 This is probably the most secure, and also the most invasive captcha I've seen. It is found on the most popular English-speaking image board to date and I have not seen it anywhere else.
 
-![4chan captcha gif](images/4chan-captcha.gif)
+![4chan impossible captcha gif](images/4chan-captcha.gif)
 
 I want you to notice how sophisticated this captcha is. It is a simple box where it shows some scribbles in black and white, completely illegible and in the background an image that, when sliding the slider, overlaps with the background image, revealing the captcha before your eyes. 
 
