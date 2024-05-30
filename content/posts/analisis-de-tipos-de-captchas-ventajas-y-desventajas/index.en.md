@@ -70,6 +70,16 @@ My veredict:
 
 This type of captchas relies on CSS to create invisible input fields to the user, **that a bot will detect** and try to fill, so they can then be identified by the server and be discarded or blocked.
 
+``` html
+<form method="post">
+    <!-- Hide this with css instead -->
+    <input type="text" name="email" style="display:none;">
+    <!-- real field -->
+    <input type="text" name="real_email">
+    <input type="submit">
+</form>
+```
+
 This type of captchas seem to me perfect for the user, as they are completely invisible to the user, however they suffer from custom attacks where a human detects the strategy and simply modifies the bot to not fill those now visible fields.
 
 My veredict:

@@ -72,6 +72,16 @@ Este tipo de captchas se basa en el CSS para crear inputs invisibles al usuario,
 
 Este tipo de captchas me parecen perfectos para el usuario, pues son completamente invisibles a este, sin embargo sufren de ataques personalizados donde un humano detecta la estrategia y simplemente modifica el bot para que no llene esos campos ahora visibles.
 
+``` html
+<form method="post">
+    <!-- Hide this with css instead -->
+    <input type="text" name="email" style="display:none;">
+    <!-- real field -->
+    <input type="text" name="real_email">
+    <input type="submit">
+</form>
+```
+
 Mi veredicto:
 - Securidad: 7
 - Amistoso con el usuario: 9
