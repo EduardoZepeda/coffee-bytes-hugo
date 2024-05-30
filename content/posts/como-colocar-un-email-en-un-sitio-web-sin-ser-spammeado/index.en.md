@@ -46,13 +46,13 @@ Just try not to complicate things too much here, don't overestimate the deductiv
 
 Another option is to completely forget about placing your email and use a form instead, this way your email will be safe and you can direct the emails to a unique account that you use for that single purpose.
 
-### Protect your form with a captcha
+### Protect your form from spam with a captcha
 
 Of course some bots will try to fill out the form to send you advertisements but you can always use [a strong captcha to protect yourself from spam](/en/my-analysis-of-anti-bot-captchas-and-their-advantages-and-disadvantages/)
 
 ![Anime captcha image from Freiren](images/captcha-frieren-fern.webp)
 
-### Use custom email filters
+### Use custom email spam filters
 
 If you don't want to use captchas you can leave the responsibility of recognizing spam to your email provider's filters, or use a customized filter created by you and combine it with some instruction like: 
 

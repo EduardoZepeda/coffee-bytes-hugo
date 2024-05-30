@@ -46,13 +46,13 @@ Solo trata de no complicar las cosass bastante aquí, no sobrestimes las capacid
 
 Otra opción es olvidarte completamente de colocar tu correo y usar un formulario en su lugar, de esta manera tu correo estará seguro y puedes dirigir los emails a una cuenta única que destines a ese solo propósito
 
-### Protege tu formulario con un captcha
+### Protege tu formulario del spam con un captcha
 
 Algunos bots intentarán llenar el formulario para enviarte publicidad pero siempre puedes utilizar [un captcha para protegerte del spam.](/es/mi-analisis-de-captchas-anti-bots-ventajas-y-desventajas/)
 
 ![Captcha image](images/captcha-frieren-fern.webp)
 
-### Usa los filtros personalizados de email
+### Usa los filtros de  personalizados de email
 
 Si no quieres usar captchas puedes dejar la responsabilidad de reconocer el spam a los filtros de tu proveedor de email, o utilizar un filtro creado por ti y combinarlo con alguna instrucción como: 
 
