@@ -9,7 +9,7 @@ description: There are ways to prevent spam when puttint an email address on a w
 keywords:
 - seo
 - opinions
-- 
+keyword: avoid spam
 authors:
 - Eduardo Zepeda
 ---

@@ -13,6 +13,7 @@ keywords:
 
 authors:
 - Eduardo Zepeda
+keyword: user model
 ---
 
 In this post I explain three methods to extend or customize Django's _User_ model, without having to rewrite it from scratch, and keeping all [Django's user management features](/en/why-should-you-use-django-framework/)
@@ -45,7 +46,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 class CustomUser(AbstractUser):
-    # Tus propiedades personalizadas
+    # Other properties defined by you
     credits = models.PositiveIntegerField(verbose_name='credits',
         default=0, 
         blank=True)
