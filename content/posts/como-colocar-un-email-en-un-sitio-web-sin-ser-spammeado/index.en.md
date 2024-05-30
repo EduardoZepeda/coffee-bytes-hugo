@@ -1,6 +1,5 @@
 ---
 date: '2024-05-29T14:46:07-06:00'
-draft: true
 title: How to avoid spam when putting an email on a website?
 categories:
 - opinions
