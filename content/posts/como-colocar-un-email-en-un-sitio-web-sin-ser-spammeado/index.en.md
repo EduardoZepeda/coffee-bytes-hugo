@@ -18,7 +18,7 @@ Sometimes we want to put an email on a website but without exposing it to be rea
 
 ![Classic scam email from a Prince from Nigeria](images/prince-from-nigeria-scam.jpg)
 
-## Convert your email to an image
+## Convert your email to an image and avoid spam
 
 This way to protect your email address requires no detailed explanation, just turn your email into an image and place it, your address will be safe from any text scraping bot, but it will be vulnerable to any bot with [OCR (Optical Character Recognition) capabilities, bots with pytesseract for example](/en/ocr-with-tesseract-python-and-pytesseract/), which I predict will be few if any.
 
@@ -44,7 +44,7 @@ Just try not to complicate things too much here, don't overestimate the deductiv
 
 ## Use a form instead of an email address
 
-Another option is to completely forget about placing your email and use a form instead, this way your email will be safe and you can direct the emails to a unique account that you use for that single purpose.
+Another option is to completely forget about placing your email and use a form instead, this way your email will be safe from spam and you can direct the emails to a unique account that you use for that single purpose.
 
 ### Protect your form from spam with a captcha
 
@@ -60,7 +60,7 @@ If you don't want to use captchas you can leave the responsibility of recognizin
 
 Now just set up your filter and automatically delete all emails that do not meet this condition.
 
-## Generate your email dynamically to avoid spam
+## Avoid spam generating your email dynamically
 
 This is my favorite, to achieve this we can use some kind of simple encryption, or even base64, **encode our email address in base64 and then decode it in the frontend dynamically using Javascript**, this way the bots will only see a bunch of numbers and letters in the source code, to read the email they will need to render the page with javascript enabled, which eliminates those bots that only read the source code of the response.
 

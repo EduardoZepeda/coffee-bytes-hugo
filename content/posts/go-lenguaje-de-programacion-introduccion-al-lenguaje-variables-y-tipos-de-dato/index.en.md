@@ -29,7 +29,7 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 * **The language is quite simple** It is a language with just a few keywords and functionalities. You can learn it in a breeze.
 * **Go compiler is super fast** Since it has few keywords and the language is quite simple, go compiles *blazinlgy fast* (I detest the over use of that expression) compared to other programming languages.
 * **Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/en/go-use-of-channels-to-communicate-goroutines/) is quite easy.
-* **Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem.
+* **Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem. Definitely a language [*to get shit donde*](/en/dont-obsess-about-your-web-application-performance/#top-tools-to-get-shit-done-in-web-development)
 
 ### Why does go suck? Disadvantagesof Go
 

@@ -11,28 +11,29 @@ coverImage: images/golanga.jpg
 date: '2021-11-23'
 description: 'Conoce las bases del lenguaje de programación go o golang: compilación,
   estructura de un archivo, variables y tipos de datos.'
+keyword: lenguaje go
 keywords:
 - go
 title: Go lenguaje de programación introducción a variables y tipos de datos
 url: /es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 ---
 
-Go, también conocido como go, es un lenguaje de programación compilado desarrollado por Google con el propósito de ser simple, sencillo de aprender, suficientemente rápido y centrado fuertemente en la concurrencia.
+Go, también conocido como Golang, es un lenguaje de programación compilado desarrollado por Google con el propósito de ser simple, sencillo de aprender, suficientemente rápido y centrado fuertemente en la concurrencia.
 
 ## ¿Qué es Go? Un poco sobre el lenguaje de programación
 
-Go, también llamado Golang, es un lenguaje con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
+Go, también llamado Golang, es un lenguaje de programación con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
 
 Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la concurrencia** y con tipado estático.
 
-## Aspectos geniales o ventajas de go como lenguaje
+## Aspectos geniales o ventajas del lenguaje Go
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.
 * **El compilador de Go es super rápido** Dado que tiene pocas palabras claves y el lenguaje es bastante simple, go compila rapidísimo comparado con otros lenguajes de programación.
 * **El manejo de concurrencia es sencillo** Go fue diseñado como un lenguaje concurrente, crear [concurrencia con las goroutines](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/) es bastante sencillo
-* **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema.
+* **Crear aplicaciones web es bastante sencillo** Go incorpora en su librería estandar muchísimas utilidades para crear servidores web, por lo que incluso puedes usarlo sin usar ningún framework, para aplicaciones sencillas, y no tendrás ningún problema. Definitivamente un lenguaje [*to get shit done*](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/#herramientas-to-get-shit-done)
 
-## Mal diseño y desventajas de Go como lenguaje
+## Mal diseño y desventajas del lenguaje Go
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
@@ -47,7 +48,7 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 * **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * **~~Go no cuenta con generics~~** Go ya cuenta con soporte para generics desde su version 1.18.
 
-## Buenas prácticas de código en Go
+## Buenas prácticas de código en el lenguaje Go
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
@@ -131,7 +132,7 @@ func main() {
 }
 ```
 
-### Función init
+### Función init en Go
 
 Antes del punto de entrada del programa (la función _main_) se ejecuta una función init, esta puede contener todas las inicializaciones necesarias para la ejecución del programa.
 
@@ -169,7 +170,7 @@ También **es posible compilar y correr el código en un solo paso** usando run 
 go run src/main.go
 ```
 
-### Diferencias entre run y build en Go
+### Diferencias entre run y build en el lenguaje Go
 
 La diferencia entre build y run radica en que **run compila el código y lo ejecuta desde un directorio temporal**, y posteriormente limpia los archivos generados. Si agregamos el flag --work, podremos ver la ubicación de este directorio.
 
@@ -228,7 +229,7 @@ Permite manejar números reales e imaginarios:
 
 Por ejemplo: c:=100+2i
 
-## Variables, constantes y zero values en go
+## Variables, constantes y zero values en el lenguaje Go
 
 ### Variables
 
@@ -322,4 +323,4 @@ Los operadores de go son similares al resto de los lenguajes.
 - ++, incremental
 - \--, decremental
 
-Con esto termino la parte más básica del lenguaje. Espero que tengas una visión más completa del lenguaje, tanto de las partes buenas como de las partes malas. Y si quieres aprender lo básico puedes leer las siguientes entradas, tengo tutoriales básicamente de todas las partes básicas de Go.
+Con esto termino la parte más básica del lenguaje Go. Espero que tengas una visión más completa del lenguaje, tanto de las partes buenas como de las partes malas. Y si quieres aprender lo básico puedes leer las siguientes entradas, tengo tutoriales básicamente de todas las partes básicas de Go.
