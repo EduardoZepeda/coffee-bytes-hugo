@@ -7,7 +7,8 @@ categories:
 - "software architecture"
 - "opinions"
 
-description: "I tell you about my experience taking the Microsoft Azure AZ-900 Fundamentals certification exam"
+description: My personal experience, recommendations, and all the references that I studied to pass the Microsoft Azure AZ-900 Fundamentals certification exam
+keyword: az-900
 keywords:
 - devops
 - azure

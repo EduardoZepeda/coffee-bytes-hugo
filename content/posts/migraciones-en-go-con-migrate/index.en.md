@@ -28,7 +28,7 @@ A migration consists of two files with SQL statements:
 * file up: To make changes in the database.
 * down file: To revert changes in the database.
 
-For this case they are called up and down, but you could give them any other names; such as forward and backward, or forward and backward.
+For this case they are called up and down, but you could give them any other names; such as forward and backward, or next and previous.
 
 For example:
 
@@ -36,7 +36,7 @@ For example:
 
 ### Migrations are complementary
 
-Notice how the migrations are reversible and complementary; one performs an action and the other eliminates it.
+Notice how the migrations are reversible and complementary; one performs an action and the other reverts it.
 
 Following this logic we can make changes to the database and then revert them.
 
@@ -48,14 +48,14 @@ To handle migrations we are going to use a tool called _migrate_, written in go.
 
 Migrate can be downloaded directly from their [github releases section](https://github.com/golang-migrate/migrate/releases).
 
-```bash
+``` bash
 curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
 mv migrate.linux-amd64 $GOPATH/bin/migrate
 ```
 
 You should then be able to see which version you have installed.
 
-```bash
+``` bash
 migrate -version
 4.15.2
 ```
@@ -64,7 +64,7 @@ migrate -version
 
 To create the pair of migration files, which I told you about earlier, we run the following command:
 
-```bash
+``` bash
 migrate create -seq -ext=.sql -dir=./migrations <nombre_de_la_migración>
 ```
 
@@ -77,7 +77,7 @@ I explain what each flag does:
 
 After executing the command, you will have two migration files, one with extension _.up.sql_ and the other with extension _.down.sql_ inside the migrations folder.
 
-```bash
+``` bash
 ls
 000001_create_first_table.up.sql 000001_create_first_table.down.sql
 ```
@@ -90,13 +90,13 @@ For example, to create a hypothetical table _users_ in a postgres database:
 
 For the up:
 
-```sql
+``` sql
 CREATE TABLE "users" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(50) NOT NULL);
 ```
 
 And, to reverse the above, there is the down file:
 
-```sql
+``` sql
 DROP TABLE "users";
 ```
 
@@ -110,8 +110,8 @@ Before making any changes to the database, we will need to indicate the access a
 
 And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
 
-```bash
-BASE_DE_DATOS=[motor]://[usuario]:[contraseña]@[dominio]/[base de datos]
+``` bash
+DATABASE=[engine]://[user]:[password]@[domain]/[database]
 ```
 
 Now we have a database to connect to.
@@ -120,24 +120,24 @@ Now we have a database to connect to.
 
 To apply all migrations we will use the up command. Migrate will automatically detect the numbering and run _all migrations up_ in ascending order.
 
-```bash
-migrate -path=./migrations -database=$BASE_DE_DATOS up
+``` bash
+migrate -path=./migrations -database=$DATABASE up
 ```
 
 ### Remove migrations
 
 On the other hand, to revert all migrations we will use the down command. Migrate will automatically detect the numbering and run _all migrations down_ in descending order.
 
-```bash
-migrate -path=./migrations -database=$BASE_DE_DATOS down
+``` bash
+migrate -path=./migrations -database=$DATABASE down
 ```
 
 ### Go to a specific migration
 
 Whereas, if we want to go to a specific migration, we will use the goto command followed by the migration number to which we want to take the database.
 
-```bash
-migrate -path=./migrations -database=$BASE_DE_DATOS goto <numero de migración>
+``` bash
+migrate -path=./migrations -database=$DATABASE goto <migration number>
 ```
 
 Migrate will detect the active migration and run _the corresponding up or down migrations_ to bring the database to that state.
@@ -156,8 +156,8 @@ Notice how the version column stores the status of the current migration. This w
 
 In addition, this table also contains a column called _dirty_ that indicates if there was any conflict in the migration. In the latter case it will be necessary to repair it manually and force a new state in the table.
 
-```bash
-migrate -path=./migrations -database=$BASE_DE_DATOS force 1
+``` bash
+migrate -path=./migrations -database=$DATABASE force 1
 ```
 
 ## Migrations to remote databases
@@ -177,8 +177,8 @@ The Migrate tool also supports remote migrations such as:
 
 Each of these endpoints requires a specific syntax. For example, the Amazon S3 endpoint looks like this:
 
-```bash
-migrate -source="s3://<bucket>/<path>" -database=$BASE_DE_DATOS up
+``` bash
+migrate -source="s3://<bucket>/<path>" -database=$DATABASE up
 ```
 
 With this you already know the basics about migrations and you probably also value a lot more tools that take care of this automatically, such as Django, Ruby on Rails, South, etc.

@@ -10,8 +10,8 @@ categories:
 coverImage: images/mi-experiencia-con-azure.jpg
 coverImageCredits: 'Créditos de la imagen: Dmitriy Zub https://unsplash.com/es/@dimitryzub'
 date: '2022-09-02'
-description: Te cuento mi experiencia presentando el examen de certificación Microsoft
-  Azure AZ-900 Fundamentals
+description: Mi experiencia personal, recomendaciones y todas las referencias que estudié para aprobar el examen de certificación Microsoft Azure AZ-900 Fundamentals
+keyword: az-900
 keywords:
 - devops
 - azure

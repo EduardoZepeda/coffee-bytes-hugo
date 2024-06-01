@@ -5,7 +5,8 @@ categories:
 - opinions
 - Artificial Intelligence
 coverImage: images/ai-rise-and-fall-bubble.jpg
-description: We seem to be experiencing an artificial intelligence bubble caused by financial speculation, chatGPT, very clever programmers and very greedy investors.
+description: We seem to be experiencing an artificial intelligence bubble or ai bubble caused by financial speculation, chatGPT, very clever programmers and very greedy investors
+keyword: ai bubble
 keywords:
 - artificial intelligence
 - opinions
@@ -29,7 +30,7 @@ If you've been ~~doom~~ scrolling on social media, you'll know that influencers 
 
 ### The AI company trend
 
-In this AI fever, entrepreneurs are becoming ~~even more~~ elitist, by which I mean that all those business ideas that don't use AI are ipso facto discarded. "To use AI" has been added to the checklist of any company that wants to go to market and this, to me, is what creates this bubble.
+In this AI fever, entrepreneurs are becoming ~~even more~~ elitist, by which I mean that all those business ideas that don't use AI are ipso facto discarded. "To use AI" has been added to the checklist of any company that wants to go to market and this, to me, is what creates this AI bubble.
 
 ## Investors' greed and consumers' ignorance are guilty of The AI bubble
 
@@ -66,10 +67,10 @@ The greed that feeds the use of AI is going to flood the internet with a myriad 
 
 Having said the above, it seems that I believe that all this about AI is nothing more than smoke and mirrors, but that's far from the truth, I believe that AI is going to stay and it has potential for a social revolution but, at least in the short term, it will be exclusive to a very small group of companies, among which I highlight openAI, Google, Microsoft and the usual players.
 
-Don't get me wrong, there is a bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
+Don't get me wrong, there is an AI bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
 It is up to them to decide the pace at which this transition will take place despite what the market is trying to shove down your throat.
 
 ![dragon ball meme about the AI bubble bursting](images/ai-bubble-explosion-meme.jpg)
 
-My prediction regarding the bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, and that, when the bubble bursts, a lot of people are going to lose money in the process.
+My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, and that, when the AI bubble bursts, a lot of people are going to lose money in the process.

@@ -8,6 +8,7 @@ categories:
 - opinions
 coverImage: "images/clean_code.jpg"
 description: An analysis of Clean Code, the book by Robert C. Martin that explains how to write clean code and what I consider other alternatives and ideas of what is considered clean code in the world of software development.
+keyword: clean code
 keywords:
 - books
 - reviews
