@@ -10,6 +10,7 @@ categories:
 coverImage: "images/Django_aggregate_y_annotate.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/@cottonbro/"
 description: "Learn the differences, features and usage of annotate and aggregate in Django in this tutorial, reading SQL with examples and code."
+keyword: django annotate
 keywords:
 - django
 - python
@@ -24,11 +25,18 @@ The computer screen illuminated my face full of despair, I rubbed my head in des
 
 This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/en/the-definitive-guide-to-django/).
 
-Annotate and aggregate are useful for [improving performance of slow applications in Django](/en/how-to-scale-a-django-app-to-serve-one-million-users/)
+Annotate and aggregate are primordial for [scaling Django applications to serve a myriad of users](/en/how-to-scale-a-django-app-to-serve-one-million-users/)
 
-![Comparative image of the differences between Django annotate and Django aggregate](images/DjangoAggregateAnnotate-1.png)
+## Django annotate and aggregate main differences summarized
 
-## Preparation
+
+| Annotate                                                                    | Aggregate                                                         |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| We add extra information for each object of the query, as an extra property | We summarize all the information from the query in a single value |
+| Returns a queryset                                                          | Returns a dictionary                                              |
+| You can concatenate it                                                      | You can't concatenate it                                          |
+
+## Preparation to explain django annotate and aggregate differences
 
 For this example we are going to create a couple of fictitious models that we will use for the examples:
 
@@ -85,7 +93,7 @@ Knowing the query that Django will perform helps us understand what is going on 
 
 ## Annotate in Django
 
-### Why use annotate?
+### Why use Django annotate?
 
 We use _annotate_ **when we want to annotate each object returned from a queryset**, as if we want to add an extra property to each object in your queryset, but directly from the database.
 
@@ -174,7 +182,7 @@ sellers_with_orders_count[0].orders_count
 2
 ```
 
-### Concatenate a query with annotate
+### Concatenate a query with Django annotate
 
 As I mentioned at the beginning; _annotate_ returns a _queryset_, **so we can concatenate multiple annotate for a single database query.**.
 

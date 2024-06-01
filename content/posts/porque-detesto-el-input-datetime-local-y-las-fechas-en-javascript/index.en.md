@@ -53,3 +53,11 @@ The fact that these libraries are popular only highlights the shortcomings of Ja
 And yes, I know what you're thinking. Although I really like [the Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), I'm also able to recognize their shortcomings and areas for improvement.
 
 ![Go date formatting is awful too](images/date_formatting_golang.webp "Go's date formatting, like Javascript's, is awful")
+
+## Algunas librerías para manejar fechas en Javascript
+
+¿Qué usar para manejar la fecha con Javascript? Prueba con estas librerías para manejar fechas
+
+- [Tempo](https://tempo.formkit.com/#?)
+- [Momentjs](https://momentjs.com/#?)
+- [Dayjs](https://day.js.org/#?)

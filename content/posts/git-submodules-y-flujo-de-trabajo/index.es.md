@@ -13,6 +13,7 @@ date: 2022-05-18 18:14:41
 description: Un git submodule o también llamados submódulos son como un repositorio anidado de git dentro de otro repositorio, nos permiten llevar un control de los cambios en una dependencia.
 title: Git Submodules Funcionamiento Y Flujo de Trabajo
 url: /es/entiende-como-funciona-git-submodules-y-su-flujo-de-trabajo
+keyword: git submodule
 keywords:
 - git
 - submodules
@@ -34,7 +35,7 @@ Los submodules de git son útiles cuando queremos incorporar código de terceros
 
 Por otro lado, **usar git submodules complica bastante el manejo de repositorios si no se tiene cuidado o si se trabaja con muchos submódulos**, tienes que prestar atención al contexto en el que te encuentras y recordar todo el tiempo el repositorio en el que te encuentras.
 
-## Agregar un submodule a un repositorio de git
+## Agregar un git submodule a un repositorio de git
 
 Para empezar a utilizar un submódulo en un repositorio existente (nuestro repositorio principal) usamos el comando *git submodule add*, colocando primero la url del submódulo y posteriormente la carpeta donde queremos que se localice el submódulo. 
 
@@ -46,7 +47,7 @@ git submodule add <url> <destino>
 
 El comando anterior copiará el código de la url `<url>` en el directorio `<destino>` especificado.
 
-### Estructura de un submódulo
+### Estructura de un git submodule
 
 Tras añadir un submódulo a un repositorio se creará un nuevo archivo (no un directorio) llamado *.git* dentro de la carpeta del submódulo de nuestro repositorio. 
 
@@ -80,7 +81,7 @@ Este archivo es importante pues es una referencia a los submódulos que necesita
 
 ![Esquema funcionamiento de git submodules](images/funcionamiento-git-submodules.jpg "Esquema del funcionamiento de git submodules")
 
-### El contenido del archivo .git de un submodule
+### El contenido del archivo .git en un submodule
 
 ¿Qué contiene el submódulo? Si entras en cualquier submódulo, verás que tiene un archivo llamado *.git*
 
@@ -100,7 +101,7 @@ gitdir: ../.git/modules/<submodule>
 
 ¿Y que hay en esa ubicación? En esa ubicación se encuentran los archivos con los que git maneja un repositorio internamente, guardan la misma estructura que los que están dentro de la carpeta *.git* de tu repositorio principal.
 
-### Git trata a los submodules como repositorios individuales
+### Git trata a los git submodules como repositorios individuales
 
 Un submodulo se maneja exactamente igual que un repositorio normal. 
 
@@ -124,7 +125,7 @@ Cada vez que realices un cambio **dentro de tu submódulo debes hacer un push de
 
 ¿Qué pasa si no lo haces? Pues aquí es donde comienza la pesadilla de toda la gente que detesta a los submódulos, tú vas a estar trabajando en la versión más reciente del submódulo, mientras que tus compañeros estarán trabajando en la versión antigua.
 
-### Pasos para guardar cambios en un submódulo
+### Pasos para guardar cambios en un submodule
 
 Para guardar los cambios en un git submodule necesitamos seguir estos tres pasos
 
@@ -169,7 +170,7 @@ git submodule update --init --recursive
 
 La opción *--recursive* se encargará de inicializar todos los submódulos del repositorio principal.
 
-### Actualizar un repositorio con submodules en git
+### Actualizar un repositorio con git submodules en git
 
 ¿Y qué pasa si hacemos un *pull* de nuestro proyecto principal? 
 

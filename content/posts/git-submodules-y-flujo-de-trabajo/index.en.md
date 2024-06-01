@@ -7,7 +7,7 @@ description: "Understand how git submodules work and how to use, update and work
 categories:
 - git
 - linux and devops
-
+keyword: git submodule
 authors:
 - Eduardo Zepeda
 keywords:
@@ -28,7 +28,7 @@ git submodules are useful when we want to incorporate third-party code into a pr
 
 On the other hand, **using git submodules makes repository management quite complicated if you are not careful or if you work with many submodules**, you have to pay attention to the context you are in and remember all the time the repository you are in.
 
-## Adding a submodule to a git repository
+## Adding a git submodule to a git repository
 
 To start using a submodule in an existing repository (our main repository) we use the command _git submodule add_, placing first the url of the submodule and then the folder where we want the submodule to be located.
 
@@ -40,7 +40,7 @@ git submodule add <url> <destination>
 
 The above command will copy the url `<url>` code into the specified `<destination>` directory.
 
-### Structure of a submodule
+### Structure of a git submodule
 
 After adding a submodule to a repository a new file (not a directory) named _.git_ will be created inside the submodule folder of our repository.
 
@@ -119,7 +119,7 @@ Every time you make a change **within your submodule you must push the changes a
 
 What happens if you don't? Well this is where the nightmare of all the people who hate submodules begins, you will be working on the latest version of the submodule, while your colleagues will be working on the old version.
 
-### Steps to save changes in a sub-module
+### Steps to save changes in a git submodule
 
 How to solve it? With these three steps
 
@@ -144,7 +144,7 @@ git push
 
 The important thing to remember here is that we must always update changes to both the submodule and the main repository.
 
-### Initializing a repository with submodules in git
+### Initializing a repository with a git submodule in git
 
 What if instead of adding a submodule with _git add submodule_, we clone a project that has a _.gitmodules_ file?
 
