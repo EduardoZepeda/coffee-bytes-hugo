@@ -9,7 +9,7 @@ description: "I explain how the worker pool design pattern works, the ideal job 
 categories:
 - "Software architecture"
 - "Go"
-
+keyword: worker pool
 keywords:
 - "Go"
 - Design patterns
@@ -104,7 +104,7 @@ flowchart TD
 
 The fixed number of workers will ensure that, during the entire program execution, there will be a maximum number of tasks running, which will limit the memory impact of our concurrent tasks.
 
-### The results queue
+### The worker pool's results queue (optional) 
 
 Optionally, we can send the result of each task executed by a worker to a second queue; the result queue, which we can process later.
 

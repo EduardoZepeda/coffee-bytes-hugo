@@ -1,13 +1,14 @@
 ---
-title: "Python vs Go Which is the Best Programming Language in 2024?"
+title: Python vs Go Which is the Best Programming Language in 2024?
 date: "2021-11-02"
 url: "python-vs-go-go-which-is-the-best-programming-language"
 categories:
 - go
-- "python"
+- python
 
 coverImage: "images/Python-vs-go.jpg"
-description: "Learn about the differences, features and similarities between Python and Go (Golang), two languages used for web development."
+description: Learn about the differences, features and similarities between Python and Go (Golang), two languages used for web development.
+keyword: python vs go
 keywords:
 - "python"
 - go
@@ -35,11 +36,11 @@ Both languages are characterized by fast code production.
 
 The **compilation of go is extremely fast** and, although it might be slightly slower to run than if you were using C++ or Rust, product development and MVPs should take less time than with those languages.
 
-## Which one is faster Python or Go?
+## Which one is faster Python vs Go?
 
 The comparison here is going to become somewhat unfair, but I'll make it anyway: **Go is blazingly fast compared to Python**. The above difference is explained by the fact that Go is compiled, while Python is interpreted.
 
-### Python vs go in fibonacci by recursion
+### Python vs Go in fibonacci by recursion
 
 How fast is go compared to python? I made a small test using [multitime](https://tratt.net/laurie/src/multitime/) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
 
@@ -103,7 +104,7 @@ number + 2
 # TypeError: can only concatenate str (not "int") to str
 ```
 
-## Differences in Syntax in Python and Go
+## Differences in Syntax Python vs Go
 
 ### Syntax in go
 
@@ -191,7 +192,7 @@ except:
   print("An exception occurred")
 ```
 
-## Asynchronism capability in Python and Go
+## Asynchronism capability, Python vs Go
 
 ### Asynchronism in go
 
@@ -257,7 +258,7 @@ except:
   print("An exception occurred")
 ```
 
-## Which language is worst, Python or Go?
+## Which language is worst, Python vs Go?
 
 ### Not so cool things about go
 
@@ -346,7 +347,7 @@ Go is a very popular language among developers, even more than Javascript, but l
 
 Go developers tend to **make significantly more money than the Python developers**. In fact, Go is among the top 10 highest paid languages according to the languages according to stackoverflow's 2023 survey.
 
-## Batteries included
+## Batteries included 
 
 Both languages have a [library standard](https://docs.python.org/3/library/) with most of the basic needs covered, from network basic needs covered, from network management, to code profiling, and even some less common and even some less common ones like audio handling. The included batteries are one of the features that make Python so popular.
 

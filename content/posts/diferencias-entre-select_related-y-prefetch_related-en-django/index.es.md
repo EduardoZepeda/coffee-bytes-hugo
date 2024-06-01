@@ -21,15 +21,15 @@ keywords:
 title: Diferencias entre select_related y prefetch_related en Django
 ---
 
-Los métodos _select\_related_ y _prefetch\_relate_d **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/como-escalar-django-para-manejar-millones-de-vistas/)
+Los métodos *select_related* y *prefetch_related* **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/como-escalar-django-para-manejar-millones-de-vistas/)
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación de Django de forma barata y con buen rendimiento, DO tiene VPS (ellos les llaman Droplets) desde $4 usd el mes">}}
 
 ## select\_related
 
-El método _select\_related_ se **usa para seguir una relación de tipo ForeignKey o OneToOneField hacia los respectivos objetos a los que apunta y obtenerlos.**
+El método *select_related* se **usa para seguir una relación de tipo ForeignKey o OneToOneField hacia los respectivos objetos a los que apunta y obtenerlos.**
 
-Al usar _select\_related_ tendremos una consulta más larga, sin embargo, la ventaja consiste en que ya no será necesario acceder nuevamente a la base de datos para obtener los objetos del modelo relacionado.
+Al usar *select_related* tendremos una consulta más larga, sin embargo, la ventaja consiste en que ya no será necesario acceder nuevamente a la base de datos para obtener los objetos del modelo relacionado.
 
 ![Esquema del funcionamiento de select_related ](images/select_related.png)
 
@@ -51,7 +51,7 @@ class Derivado(models.Model):
     )
 ```
 
-Si intentamos acceder al objeto al que apunta la relación Foreign Key, se generará una nueva consulta a la base de datos. _select\_related_ evita esa consulta extra por cada objeto.
+Si intentamos acceder al objeto al que apunta la relación Foreign Key, se generará una nueva consulta a la base de datos. *select_related* evita esa consulta extra por cada objeto.
 
 ```html
 {% for object in queryset %}
@@ -67,7 +67,7 @@ Por ejemplo, si tenemos tres objetos Derivados relacionados a un único objeto p
 
 ### Uso en una consulta
 
-Para usar _select\_related_ lo llamamos a partir de nuestra consulta, pasándole el nombre del campo que corresponde a nuestra relación con el otro modelo.
+Para usar *select_related* lo llamamos a partir de nuestra consulta, pasándole el nombre del campo que corresponde a nuestra relación con el otro modelo.
 
 ```python
 Derivado.objects.select_related("principal")
@@ -75,7 +75,7 @@ Derivado.objects.select_related("principal")
 
 ### Funcionamiento interno de select\_related
 
-¿Cómo funciona _select\_related_ internamente?, _select\_related_ reemplaza las consultas múltiples que se realizan por un único INNER JOIN a nivel de la base de datos:
+¿Cómo funciona *select_related* internamente?, *select_related* reemplaza las consultas múltiples que se realizan por un único INNER JOIN a nivel de la base de datos:
 
 ```bash
 SELECT "my_app_derivado"."id",
@@ -112,13 +112,13 @@ SELECT "my_app_derivado"."id",
     ON ("my_app_derivado"."principal_id" = "my_app_principal"."id")
 ```
 
-## prefetch\_related
+## prefetch_related
 
-Si el método _select\_related_ recupera un único objeto a partir de un campo de relación única, **el método _prefetch\_related_ se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo **_ManyToMany_ o un _ForeignKey_ inverso**.
+Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo ***ManyToMany* o un *ForeignKey* inverso**.
 
 ![Esquema del funcionamiento de prefetch_related en django](images/prefetch_related.png)
 
-Esquema simplificado del funcionamiento de prefetch\_related
+Esquema simplificado del funcionamiento de prefetch_related
 
 Considera este ejemplo, nota el campo _ManyToManyField_ hacia el modelo _Principal_.
 
@@ -134,7 +134,7 @@ class MultiplesPrincipales(models.Model):
     principales = models.ManyToManyField("Principal", related_name="multiples")
 ```
 
-Si accedemos al campo que representa a la relación múltiple de nuestro objeto, sin usar _prefetch\_related_, estaremos impactando la base de datos con una nueva consulta.
+Si accedemos al campo que representa a la relación múltiple de nuestro objeto, sin usar *prefetch_related*, estaremos impactando la base de datos con una nueva consulta.
 
 ```html
 {% for object in queryset %}
@@ -148,15 +148,15 @@ Si accedemos al campo que representa a la relación múltiple de nuestro objeto,
 
 ### Uso en una consulta
 
-Para usar el método _prefetch\_related_ llámalo al final de nuestra consulta, eligiendo aquel campo que represente la relación de muchos a muchos en nuestro objeto.
+Para usar el método *prefetch_related* llámalo al final de nuestra consulta, eligiendo aquel campo que represente la relación de muchos a muchos en nuestro objeto.
 
 ```python
 queryset = MultiplesPrincipales.objects.prefetch_related("principales")
 ```
 
-### Funcionamiento interno de prefetch\_related
+### Funcionamiento interno de prefetch_related
 
-¿Cómo funciona internamente _prefecth\_related_? El método **_prefetch\_related_ reemplaza las múltiples consultas SQL por solo 2 consultas SQL: una para la query principal y la otra para los objetos relacionados, posteriormente, unirá los datos usando Python**.
+¿Cómo funciona internamente _prefecth\_related_? El método ***prefetch_related* reemplaza las múltiples consultas SQL por solo 2 consultas SQL: una para la query principal y la otra para los objetos relacionados, posteriormente, unirá los datos usando Python**.
 
 ```bash
 SELECT "my_app_principal"."id",
@@ -206,7 +206,7 @@ SELECT ("my_app_multiplesprincipales_principales"."multiplesprincipales_id") AS 
 
 ## Otros recursos relacionados
 
-- [What's the difference between select\_related and prefetch\_related in Django ORM?](https://stackoverflow.com/questions/31237042/whats-the-difference-between-select-related-and-prefetch-related-in-django-orm)
+- [What's the difference between select\_related and prefetch_related in Django ORM?](https://stackoverflow.com/questions/31237042/whats-the-difference-between-select-related-and-prefetch-related-in-django-orm)
 - [Select related vs Prefecth related](https://buildatscale.tech/select_related-vs-prefetch_related/)
 - [QuerySET API reference](https://docs.djangoproject.com/en/dev/ref/models/querysets/)
 

@@ -43,7 +43,7 @@ La **compilación de go es extremadamente rápida** y, aunque su ejecución podr
 
 
 
-## ¿Cuál es más rápido Python o Go?
+## ¿Cuál es más rápido? Python vs Go
 
 La comparación aquí va a tornarse algo injusta, pero la haré de todas formas: **Go es descomunalmente más rápido que Python**. La diferencia anterior se explica porque Go es compilado, mientras que Python interpretado.
 
@@ -107,7 +107,7 @@ numero + 2
 # TypeError: can only concatenate str (not "int") to str
 ```
 
-## Comparación de sintaxis de lenguaje entre Python y Go
+## Comparación de sintaxis de lenguaje, Python vs Go
 
 ### Sintaxis básica de go
 
@@ -196,7 +196,7 @@ except:
   print("An exception occurred")
 ```
 
-## Capacidad de asincronismo en Python y Go
+## Capacidad de asincronismo, Python vs Go
 
 ### Asincronismo en go
 
@@ -265,7 +265,7 @@ except:
   print("An exception occurred")
 ```
 
-## ¿Qué lenguaje es peor Python o Go?
+## ¿Qué lenguaje es peor Python vs Go?
 
 ### Desventajas y mal diseño de go
 

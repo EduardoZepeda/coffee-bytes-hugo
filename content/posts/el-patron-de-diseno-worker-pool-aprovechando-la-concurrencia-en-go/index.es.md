@@ -13,7 +13,8 @@ coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
 description: Te explico como funciona el patrón de diseño worker pool, el job queue
   o cola de tareas ideal para manejar con lenguajes de programación que soporten la
-  concurrencia.
+  concurrencia
+keyword: worker pool
 keywords:
 - Go
 - Patrones de diseño
@@ -108,7 +109,7 @@ flowchart TD
 La cantidad fija de workers asegúrara que, durante toda la ejecución del programa, habrá una cantidad máxima de tareas ejecutándose, lo que limitará el impacto en memoria de nuestras tareas concurrentes.
 
 
-### El queue de resultados
+### El queue de resultados del worker pool (opcional)
 
 De manera opcional, podemos mandar el resultado de cada tarea ejecutada por un worker a un segunda cola; el queue de resultados, el cual podremos procesar posteriormente. 
 

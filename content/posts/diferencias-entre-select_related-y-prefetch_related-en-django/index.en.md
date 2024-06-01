@@ -1,10 +1,10 @@
 ---
-title: "Differences between select_related and prefetch_related in Django"
+title: Differences between select_related and prefetch_related in Django
 date: "2022-03-09"
 categories:
-- "django"
+- django
 coverImage: "images/django-select-related-prefetch-related.jpg"
-description: "Difference and use of django's select_related and prefetch_related methods to reduce the number of queries or database queries"
+description: Differences and use of django's select_related and prefetch_related methods to reduce the number of queries or database queries
 coverImageCredits: "Image credits to ときわた: https://www.pixiv.net/en/users/5300811"
 keywords:
 - django
@@ -18,13 +18,13 @@ authors:
 - Eduardo Zepeda
 ---
 
-The _select_related_ and _prefetch_relate_d methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/en/how-to-scale-a-django-app-to-serve-one-million-users/)
+The *select_related* and *prefetch_related* methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/en/how-to-scale-a-django-app-to-serve-one-million-users/)
 
 ## select_related
 
-The _select_related_ method is **used to follow a relationship of type ForeignKey or OneToOneField to the respective objects it points to and obtain them.**.
+The *select_related* method is **used to follow a relationship of type ForeignKey or OneToOneField to the respective objects it points to and obtain them.**.
 
-When using _select_related_ we will have a longer query, however, the advantage is that it will no longer be necessary to access the database again to obtain the objects of the related model.
+When using *select_related* we will have a longer query, however, the advantage is that it will no longer be necessary to access the database again to obtain the objects of the related model.
 
 ![Schematic diagram of select_related ](images/select_related.png)
 
@@ -45,7 +45,7 @@ class Derivative(models.Model):
     )
 ```
 
-If we try to access the object pointed to by the Foreign Key relationship, a new database query will be generated. _select_related_ avoids that extra query for each object.
+If we try to access the object pointed to by the Foreign Key relationship, a new database query will be generated. *select_related* avoids that extra query for each object.
 
 ```html
 {% for object in queryset %}
@@ -61,7 +61,7 @@ For example, if we have three Derived objects related to a single main object:
 
 ### Use in a query
 
-To use _select_related_ we call it from our query, passing it the name of the field that corresponds to our relationship with the other model.
+To use *select_related* we call it from our query, passing it the name of the field that corresponds to our relationship with the other model.
 
 ```python
 Derivative.objects.select_related("main")
@@ -69,7 +69,7 @@ Derivative.objects.select_related("main")
 
 ### Internal operation of select_related
 
-How _select_related_ works internally, _select_related_ replaces multiple queries being performed by a single INNER JOIN at the database level:
+How *select_related* works internally, *select_related* replaces multiple queries being performed by a single INNER JOIN at the database level:
 
 ```bash
 SELECT "my_app_derivative"."id",
@@ -108,7 +108,7 @@ SELECT "my_app_derivative"."id",
 
 ## prefetch_related
 
-If the _select_related_ method retrieves a single object from a single relationship field, **the _prefetch_related_ method is used when we have a multiple relationship with another model**, i.e. a relationship of type **_ManyToMany_ or a reverse _ForeignKey_.
+If the *select_related* method retrieves a single object from a single relationship field, **the *prefetch_related* method is used when we have a multiple relationship with another model**, i.e. a relationship of type **_ManyToMany_ or a reverse _ForeignKey_.
 
 ![Schematic of how prefetch_related works in django](images/prefetch_related.png)
 
@@ -127,7 +127,7 @@ class ManyToManyModel(models.Model):
     ManyToManyRel = models.ManyToManyField("Main", related_name="multiples")
 ```
 
-If we access the field that represents the multiple relation of our object, without using _prefetch_related_, we will be impacting the database with a new query.
+If we access the field that represents the multiple relation of our object, without using *prefetch_related*, we will be impacting the database with a new query.
 
 ```html
 {% for object in queryset %}
@@ -141,7 +141,7 @@ If we access the field that represents the multiple relation of our object, with
 
 ### Use in a query
 
-To use the _prefetch_related_ method call it at the end of our query, choosing the field that represents the many-to-many relationship in our object.
+To use the *prefetch_related* method call it at the end of our query, choosing the field that represents the many-to-many relationship in our object.
 
 ```python
 queryset = ManyToManyModel.objects.prefetch_related("ManyToManyRel")
@@ -149,7 +149,7 @@ queryset = ManyToManyModel.objects.prefetch_related("ManyToManyRel")
 
 ### Inner workings of prefetch_related
 
-How does _prefecth_related_ work internally? The **_prefetch_related_ method replaces the multiple SQL queries by only 2 SQL queries: one for the main query and the other for the related objects, then it will join the data using Python**.
+How does _prefecth_related_ work internally? The ***prefetch_related* method replaces the multiple SQL queries by only 2 SQL queries: one for the main query and the other for the related objects, then it will join the data using Python**.
 
 ```bash
 SELECT "my_app_main"."id",
@@ -188,7 +188,7 @@ SELECT "my_app_manytomanyrel"."id",
        "my_app_manytomanyrel"."name"
   FROM "my_app_manytomanyrel"
 
-SELECT ("my_app_manytomanyrel_main"."manytomanyrel_id") AS "_prefetch_related_val_manytomanyrel_id",
+SELECT ("my_app_manytomanyrel_main"."manytomanyrel_id") AS "*prefetch_related*val_manytomanyrel_id",
        "my_app_main"."id",
        "my_app_main"."name"
   FROM "my_app_main"

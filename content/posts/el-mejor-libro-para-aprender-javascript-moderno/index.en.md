@@ -2,8 +2,8 @@
 title: "The best book for learning modern JavaScript"
 date: "2019-10-01"
 categories:
-- "javascript"
-
+- javascript
+- opinions
 coverImage: "images/eloquent_javascript.jpg"
 description: "If you plan to spend a few hours learning javascript, don't waste your time looking for more, you will hardly find a book that covers such a variety of concepts in such an understandable and complete way as this one."
 keywords:

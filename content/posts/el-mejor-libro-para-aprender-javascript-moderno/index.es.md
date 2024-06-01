@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - javascript
+- opiniones
 coverImage: images/eloquent_javascript.jpg
 date: '2019-10-01'
 description: Si piensas dedicar algunas horas a aprender javascript, no pierdas tu
