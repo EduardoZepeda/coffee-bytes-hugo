@@ -3,6 +3,7 @@ Disallow: /*/tags/
 Disallow: /*/search/
 Disallow: /wp-json/ 
 Disallow: /?rest_route= 
+Disallow: /*/*/index.xml$
 Disallow: /*.json$
 
 Sitemap: {{print .Site.BaseURL "sitemap.xml"}}
