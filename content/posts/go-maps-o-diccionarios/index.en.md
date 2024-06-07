@@ -6,7 +6,7 @@ date: "2021-12-21"
 categories:
 - go
 
-coverImage: "images/go-maps-o-diccionarios.jpg"
+coverImage: "images/go-maps-o-dictionarys.jpg"
 description: "I explain how a map works in go or golang and learn how to declare them, create them explicitly with make and traverse them with range."
 keyword: golang maps
 keywords:
@@ -31,11 +31,11 @@ Internal operation of golang maps. The information is taken from the [official d
 To declare a map, we use the word map and enclose the data type of the key in square brackets, followed by the data type of the value.
 
 ```go
-var diccionario map[string]int
-// un map con llaves tipo string y valores de tipo entero
-diccionario["hello"] = 0
-diccionario["panic"] = 1
-fmt.Println(diccionario)
+var dictionary map[string]int
+//A map with key of string type and values of int type 
+dictionary["hello"] = 0
+dictionary["panic"] = 1
+fmt.Println(dictionary)
 // panic: assignment to entry in nil map
 ```
 
@@ -53,27 +53,27 @@ We can create a map or dictionary using map, the data type of the braces in squa
 The map keys can be modified and even new ones can be added.
 
 ```go
-var cuenta = map[string]int{
-        "Paloma": 100,
+var account = map[string]int{
+        "Anna": 100,
         "Renee": 200,
         "Kakuro": 300,
-        "Manuela": 400,
+        "Joy": 400,
 }
-cuenta["Paloma"] = 500
-cuenta["Colombe"] = 900
+account["Anna"] = 500
+account["Colombe"] = 900
 ```
 
 We can also let go infer that it is a map, but only within a function, using the walrus operator ":=".
 
 ```go
-cuenta := map[string]int{
-        "Paloma": 100,
+account := map[string]int{
+        "Anna": 100,
         "Renee": 200,
         "Kakuro": 300,
-        "Manuela": 400,
+        "Joy": 400,
 }
-cuenta["Paloma"] = 500
-cuenta["Colombe"] = 900
+account["Anna"] = 500
+account["Colombe"] = 900
 ```
 
 ### Create a map in go with make
@@ -83,19 +83,19 @@ To create a map by allocating memory we need to use the make function and specif
 In this case we do not have to pass the map length argument to make. If we omit the map size, internally, go will assign a small value to it.
 
 ```go
-var diccionario = make(map[string]int)
-diccionario["hello"] = 2
-diccionario["world"] = 1
-fmt.Println(diccionario)
+var dictionary = make(map[string]int)
+dictionary["hello"] = 2
+dictionary["world"] = 1
+fmt.Println(dictionary)
 // map[hello:2 world:1]
 ```
 
 Now watch this! We have a map or dictionary with only two keys, see what happens if we access a third one.
 
 ```go
-fmt.Println(saldo["usuario"])
+fmt.Println(balance["user"])
 // 0
-// ¿Cómo distinguimos si el usuario no existe o si tiene un saldo igual a 0
+// How can we distinguish between a zero balance or a user that doesn't exist
 ```
 
 **If we try to access a key that does not exist, go will return its respective zero value**, but this leads us to a problem: how do we distinguish whether we have a zero because the key does not exist or because the value of our key is zero?
@@ -105,7 +105,7 @@ fmt.Println(saldo["usuario"])
 To distinguish between a zero value, go provides a second return value, which indicates whether a key exists. This second value is a boolean: _true_ or _false_.
 
 ```go
-value, exist := diccionario["Inexistente"]
+value, exist := dictionary["NonExistent"]
 ```
 
 ### Optional capacity in golang maps
@@ -123,7 +123,7 @@ However, unlike slices, this length only tells the compiler to allocate a minimu
 If we want to get rid of a key from our _map_, we use the _delete,_ function, which deletes a key from a map or dictionary.
 
 ```go
-delete(diccionario, "Helio")
+delete(dictionary, "hello")
 ```
 
 ## Traverse golang maps with range
@@ -133,7 +133,7 @@ Just as with an _array_ or a _slice_, we can tour a _map_ using _range_. Each it
 Remember that, being a map, **the elements will be returned in no particular order**.
 
 ```go
-for key, value := range diccionario {
+for key, value := range dictionary {
         fmt.Println(key,value)
     }
 ```
