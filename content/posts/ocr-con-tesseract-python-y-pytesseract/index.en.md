@@ -7,6 +7,7 @@ categories:
 coverImage: "images/OCR.jpg"
 coverImageCredits: "credits https://www.pexels.com/@cottonbro/"
 description: "Learn how to perform optical character recognition (OCR) on images using python and pytesseract to convert an image to string"
+keyword: pytesseract
 keywords:
 - python
 - artificial intelligence
@@ -17,22 +18,6 @@ authors:
 ---
 
 Python is super versatile, it has a giant community that has libraries that allow to achieve great things with few lines of code, Optical Character Recognition (OCR) is one of them, for that you just need to install tesseract and the python bindings, called pytesseract and you'll be ready to convert an image to a string.
-
-## Applications of OCR
-
-OCR is quite useful for social networks, where you can scan the text that appears in the images to read its content and then process it or give it statistical treatment.
-
-Here's another case, imagine a program that scans image boards or social networks, extracts a couple of images from the posted videos and links them to a tik tok account using the watermark that appears on each video.
-
-Or maybe a page that uploads images of your products with your prices written on each of them. With OCR it is possible to get all their prices, and upload them to your database, downloading and processing their images.
-
-Facebook must use some kind of similar technology to censor images that include offensive text, according to its policies, that are uploaded to its social network.
-
-![Facebook uses OCR to read the text on its images](images/facebook-screenshot-ocr.jpg "Facebook is capable of reading the text on its images")
-
-Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
-
-As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/the-rise-and-fall-of-the-ai-bubble/).
 
 ## Installation of tesseract-ocr
 
@@ -107,7 +92,9 @@ wget https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata
 sudo mv eng.traineddata /usr/local/share/tessdata/
 ```
 
-## Installing pytesseract
+## OCR with Pytesseract
+
+### Installing pytesseract
 
 After installation we add pytesseract (the python bindings) and pillow (for image management) to our virtual environment.
 
@@ -115,7 +102,7 @@ After installation we add pytesseract (the python bindings) and pillow (for imag
 pip install pytesseract pillow
 ```
 
-## Read strings from images with python
+### Read strings from images with pytesseract
 
 First let's check the languages we have installed.
 
@@ -158,3 +145,21 @@ print(data)
 ![Return from image_to_data method in tesseract](images/dataTesseract.png)
 
 If you want to learn more visit the [complete tesseract documentation](https://github.com/tesseract-ocr/tesseract).
+
+## Applications of OCR
+
+OCR is quite useful for social networks, where you can scan the text that appears in the images to read its content and then process it or give it statistical treatment.
+
+Here's another case, imagine a program that scans image boards or social networks, extracts a couple of images from the posted videos and links them to a tik tok account using the watermark that appears on each video.
+
+[Captcha resolution](/en/my-analysis-of-anti-bot-captchas-and-their-advantages-and-disadvantages/) is also one of the most interesting uses of OCR.
+
+Or maybe a page that uploads images of your products with your prices written on each of them. With OCR it is possible to get all their prices, and upload them to your database, downloading and processing their images.
+
+Facebook must use some kind of similar technology to censor images that include offensive text, according to its policies, that are uploaded to its social network.
+
+![Facebook uses OCR to read the text on its images](images/facebook-screenshot-ocr.jpg "Facebook is capable of reading the text on its images")
+
+Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
+
+As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/the-rise-and-fall-of-the-ai-bubble/).

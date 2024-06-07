@@ -1,11 +1,12 @@
 ---
-title: "Go: slices y arrays, characteristicas and basic uses"
+aliases:
+- /en/go-slices-y-arrays-characteristicas-and-basic-uses/
+title: "Go: slices and arrays, basic characteristics and most common uses"
 date: "2021-12-14"
 categories:
 - go
-
 coverImage: "images/ArrayslicesYArrays.jpg"
-description: "Syntax and basic uses of arrays and slices in the go programming language. I also explain how to use the make function in slices."
+description: "Syntax and most common uses of arrays and slices in the go programming language. I also explain how to use the make function in slices."
 keywords:
 - go
 

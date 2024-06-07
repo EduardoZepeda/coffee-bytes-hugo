@@ -14,6 +14,7 @@ coverImage: images/OCR.jpg
 coverImageCredits: Créditos https://www.pexels.com/@cottonbro/
 date: '2021-09-28'
 description: Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre imágenes usando python, tesseract-ocr y pytesseract, para convertir imágenes en strings.
+keyword: pytesseract
 keywords:
 - python
 - inteligencia artificial
@@ -23,22 +24,6 @@ url: /es/ocr-con-tesseract-python-y-pytesseract
 ---
 
 Python es súper versátil, tiene una comunidad gigante que tiene librerías que permiten lograr grandes cosas con pocas lineas de código, el Optical Character Recognition (OCR) es una de ellas, para ello basta con instalar tesseract y los bindings de python: pytesseract.
-
-## ¿Para que se puede usar el OCR?
-
-El OCR es bastante útil para las redes sociales, donde puedes escanear el texto que aparece en las imágenes para leer su contenido y luego procesarlo o darle tratamiento estadístico.
-
-Aquí va otro caso, imagina un programa que escanee image boards o redes sociales, extraiga un par de imágenes de los vídeos publicados y los relacione con una cuenta de tik tok usando la marca de agua que aparece en cada vídeo.
-
-O quizá una página que sube imágenes de sus productos con sus precios escritos en cada una de ellas. Con el OCR es posible obtener todos sus precios, y subirlos a tu base de datos, descargando y procesando sus imágenes.
-
-Facebook debe usar algún tipo de tecnología similar para censurar las imágenes que incluyen texto ofensivo, de acuerdo a sus políticas, que se suben a su red social.
-
-![Facebook usa OCR para leer el texto de sus imágenes](images/facebook-screenshot-ocr.jpg "Facebook es capaz de leer el texto que aparece en una imagen")
-
-Otra de las aplicaciones más comunes la transformación de un libro en pdf en imágenes a texto, ideal para transformar digitalizaciones de libros antiguos a epub o archivos de texto.
-
-Como puedes ver es bastante útil, yo pienso que es una de las aplicaciones de la AI que no desaparecerá [cuando la burbuja de AI truene](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/).
 
 ## Instalación de tesseract-ocr
 
@@ -166,3 +151,21 @@ print(data)
 ![Retorno del método image_to_data en tesseract](images/dataTesseract.png)
 
 Si quieres profundizar más visita la [documentación completa de tesseract](https://github.com/tesseract-ocr/tesseract).
+
+## ¿Qué se puede hacer con el OCR?
+
+El OCR es bastante útil para las redes sociales, donde puedes escanear el texto que aparece en las imágenes para leer su contenido y luego procesarlo o darle tratamiento estadístico.
+
+Aquí va otro caso, imagina un programa que escanee image boards o redes sociales, extraiga un par de imágenes de los vídeos publicados y los relacione con una cuenta de tik tok usando la marca de agua que aparece en cada vídeo.
+
+O quizá una página que sube imágenes de sus productos con sus precios escritos en cada una de ellas. Con el OCR es posible obtener todos sus precios, y subirlos a tu base de datos, descargando y procesando sus imágenes.
+
+La [resolución de captchas](/es/mi-analisis-de-captchas-anti-bots-ventajas-y-desventajas/) también es uno de los usos más interesantes del OCR.
+
+Facebook debe usar algún tipo de tecnología similar para censurar las imágenes que incluyen texto ofensivo, de acuerdo a sus políticas, que se suben a su red social.
+
+![Facebook usa OCR para leer el texto de sus imágenes](images/facebook-screenshot-ocr.jpg "Facebook es capaz de leer el texto que aparece en una imagen")
+
+Otra de las aplicaciones más comunes la transformación de un libro en pdf en imágenes a texto, ideal para transformar digitalizaciones de libros antiguos a epub o archivos de texto.
+
+Como puedes ver es bastante útil, yo pienso que es una de las aplicaciones de la AI que no desaparecerá [cuando la burbuja de AI truene](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/).

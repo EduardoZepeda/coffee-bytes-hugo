@@ -1,11 +1,14 @@
 ---
-title: "Go: maps o dictionaries"
+aliases:
+- /en/go-maps-o-dictionaries/
+title: "Golang maps or dictionaries"
 date: "2021-12-21"
 categories:
 - go
 
 coverImage: "images/go-maps-o-diccionarios.jpg"
 description: "I explain how a map works in go or golang and learn how to declare them, create them explicitly with make and traverse them with range."
+keyword: golang maps
 keywords:
 - go
 
@@ -15,15 +18,15 @@ authors:
 
 In the go programming language, a map or hash table is the equivalent of a dictionary; they have a key that is related to a value. The key and value can be of different data types, but all keys must be of a single type and all values must be of the same type.
 
-Together with the [array and the go slice](/en/go-slices-y-arrays-characteristicas-and-basic-uses/), a map is a structure that serves as a collection of values.
+Together with the [array and the go slice](/en/go-slices-y-arrays-characteristicas-and-basic-uses/), golang maps are structures that serve as a collection of values.
 
-## Inner workings of a map in go
+## Inner workings of golang maps
 
 In go a map works quite similar to any other language. In go there are buckets, a type of section consisting of 8 key-value pairs. The hash function receives the key and redirects us to the appropriate bucket, that is, the space of 9 key-value pairs where our key is located and, once there, it looks for the correct key.
 
-![Inner workings of a map in the programming language go.](images/mapsGolang-1.png)
+![Inner workings of golang maps in the programming language go.](images/mapsGolang-1.png)
 
-Internal operation of a map in go. The information is taken from the [official documentation of a map](https://go.dev/src/runtime/map.go).
+Internal operation of golang maps. The information is taken from the [official documentation of a map](https://go.dev/src/runtime/map.go).
 
 To declare a map, we use the word map and enclose the data type of the key in square brackets, followed by the data type of the value.
 
@@ -36,7 +39,7 @@ fmt.Println(diccionario)
 // panic: assignment to entry in nil map
 ```
 
-However, if we execute the previous thing it will give us an error. Why? It is important that you know that **maps are references, they point to a memory location**, as we create an empty _map_ it points to nothing, to _nil_, so if we try to modify it, it will give us an error.
+However, if we execute the previous thing it will give us an error. Why? It is important that you know that **golang maps are references, they point to a memory location**, as we create an empty _map_ it points to nothing, to _nil_, so if we try to modify it, it will give us an error.
 
 As with the slice, we have two ways to create a map or dictionary.
 
@@ -73,7 +76,7 @@ cuenta["Paloma"] = 500
 cuenta["Colombe"] = 900
 ```
 
-### Create a map with make
+### Create a map in go with make
 
 To create a map by allocating memory we need to use the make function and specify the type of data that the keys and values will have after the word map.
 
@@ -105,7 +108,7 @@ To distinguish between a zero value, go provides a second return value, which in
 value, exist := diccionario["Inexistente"]
 ```
 
-### Optional capacity in maps
+### Optional capacity in golang maps
 
 To set a maximum key capacity in a _map_, we pass the length of the map as the second argument.
 
@@ -123,7 +126,7 @@ If we want to get rid of a key from our _map_, we use the _delete,_ function, wh
 delete(diccionario, "Helio")
 ```
 
-## Traverse a map with range
+## Traverse golang maps with range
 
 Just as with an _array_ or a _slice_, we can tour a _map_ using _range_. Each iteration will return the key and value.
 
@@ -135,4 +138,4 @@ for key, value := range diccionario {
     }
 ```
 
-This is the minimum you should know about go maps or dictionaries.
+This is the minimum you should know about golang maps or dictionaries.
