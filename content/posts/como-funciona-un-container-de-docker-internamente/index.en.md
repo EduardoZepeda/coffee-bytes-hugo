@@ -279,7 +279,7 @@ Remember that the [_ps_ command](/en/linux-basic-commands-passwd-du-useradd-user
 
 ## Set up a new file system for the container
 
-To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
+To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/en/linux-commands-you-should-know-part-three/).
 
 _Chroot_ changes the default root location to a directory of your choice.
 

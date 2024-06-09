@@ -26,18 +26,22 @@ weight = 2
 name = "About me"
 url = "/authors/eduardo-zepeda/"
 weight = 3
+[[languages.en.menu.main]]
+name = "Go tutorial"
+url = "/en/pages/go-programming-language-tutorial/"
+weight = 4
 [[languages.en.menu.footer]]
 name = "Privacy policy"
 url = "/pages/politica-de-privacidad/"
-weight = 4
+weight = 5
 [[languages.en.menu.footer]]
 name = "Cookie policy"
 url = "/pages/politica-de-cookies/"
-weight = 5
+weight = 6
 [[languages.en.menu.footer]]
 name = "Disclosure"
 url = "/pages/disclosure/"
-weight = 6
+weight = 7
 [[languages.en.menu.social]]
 name = "Codewars"
 pre = "codewars"
@@ -90,18 +94,22 @@ weight = 2
 name = "Sobre mi"
 url = "/authors/eduardo-zepeda/"
 weight = 3
+[[languages.es.menu.main]]
+name = "Tutorial de Go"
+url = "/es/pages/go-programming-language-tutorial/"
+weight = 4
 [[languages.es.menu.footer]]
 name = "Politica de privacidad"
 url = "/pages/politica-de-privacidad/"
-weight = 4
+weight = 5
 [[languages.es.menu.footer]]
 name = "Politica de cookies"
 url = "/pages/politica-de-cookies/"
-weight = 5
+weight = 6
 [[languages.es.menu.footer]]
 name = "Usamos enlaces de afiliados"
 url = "/pages/disclosure/"
-weight = 6
+weight = 7
 [[languages.es.menu.social]]
 name = "Codewars"
 pre = "codewars"
