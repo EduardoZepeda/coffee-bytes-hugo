@@ -6,7 +6,7 @@ date: "2021-12-21"
 categories:
 - go
 
-coverImage: "images/go-maps-o-dictionarys.jpg"
+coverImage: "images/go-maps-o-diccionarios.jpg"
 description: "I explain how a map works in go or golang and learn how to declare them, create them explicitly with make and traverse them with range."
 keyword: golang maps
 keywords:

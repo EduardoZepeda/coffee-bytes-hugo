@@ -49,20 +49,20 @@ Localization of the main file and our module in go
 
 ### What is a go.mod file for?
 
-A go.mod file **defines a module and allows us to set the directory that we will use as a base to import the packages **.
+A go.mod file **defines a module and allows us to set the directory that we will use as a base to import the packages**.
 
 ![go.mod file in the root of the project](images/goModFile.png)
 
 go.mod file containing the module name
 
-In the above example the _go.mod_ file will allow us to treat the _videogame_ path as a package and import code from the _mimodulo/videogame_ path.
+In the above example the _go.mod_ file will allow us to treat the _videogame_ path as a package and import code from the _mymodule/videogame_ path.
 
 ### What does a go.mod file contain?
 
 The basic _go.mod_ file is very short, it only specifies **the name of the module, which we will use to perform the imports, and the version of go**. That's all.
 
 ```go
-module mimodulo
+module mymodule
 
 go 1.15
 ```
@@ -72,10 +72,10 @@ go 1.15
 The _go mod init_ command, followed by the name it will take as the base path for our package, will create a file named _go.mod_ in the directory where we run it.
 
 ```bash
-go mod init mimodulo
+go mod init mymodule
 ```
 
-For example, if we name it _mimodulo_, all the folders **that are at the same level as the _go.mod_ file and that declare a package at the beginning of their file**, will be considered packages.
+For example, if we name it _mymodule_, all the folders **that are at the same level as the _go.mod_ file and that declare a package at the beginning of their file**, will be considered packages.
 
 ![Multiple directories to import as packages with go.mod](images/multiplesModulos.png)
 
@@ -83,8 +83,8 @@ And we can import them directly from our _main.go_ file.
 
 ```go
 import (
-    "mimodulo/foobar"
-    "mimodulo/videogame"
+    "mymodule/foobar"
+    "mymodule/videogame"
 )
 ```
 
@@ -105,7 +105,7 @@ go get github.com/labstack/echo
 After executing the command, go will download the files to the path pointed to by the _$GOPATH_ environment variable and perform the corresponding imports into your _go.mod_ file.
 
 ```go
-module mipaquete
+module mypackage
 
 go 1.15
 
@@ -142,7 +142,7 @@ Go install will generally be used to install commands.
 Packages found in code repositories, such as GitHub, GitLab or BitBucket, require that we specify the full path to the repository as their import path.
 
 ```go
-go mod init github.com/usuario/paquete
+go mod init github.com/user/package
 ```
 
 ## Import packages without using them
@@ -160,15 +160,15 @@ import (
 Go also allows us to declare an alias when importing a package by prefixing the alias to the import path.
 
 ```go
-import nuestroAlias "ruta/a/paquete"
+import ourAlias "route/to/package"
 ```
 
 That way we can treat our alias as if it were the name of the package we are importing.
 
 ```go
-import nuestroAlias "mipaquete/videogame"
-// ... nuestroAlias reemplaza a videogame
-var vd = nuestroAlias.Videogame{Id: 1, Title: "hola"}
+import ourAlias "mypackage/videogame"
+// ... our alias replaces videogame
+var vd = ourAlias.Videogame{Id: 1, Title: "hello"}
 ```
 
 ### Imports with dot
@@ -176,9 +176,9 @@ var vd = nuestroAlias.Videogame{Id: 1, Title: "hola"}
 Go allows direct access to the contents of the package if we import using a dot as alias. In this way we can ignore the package name and directly access the objects it contains.
 
 ```go
-import . "mipaquete/videogame"
-// ... en lugar de videogame.Videogame podemos usar solo Videogame
-var vd = Videogame{Id: 1, Title: "hola"}
+import . "mypackage/videogame"
+// ... we can replace videogame.Videogame by Videogame
+var vd = Videogame{Id: 1, Title: "hello"}
 ```
 
 ## Bookstores in Go
