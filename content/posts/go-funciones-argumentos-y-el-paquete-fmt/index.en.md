@@ -15,7 +15,7 @@ authors:
 
 This entry will discuss the basic syntax of Go functions. If you know absolutely nothing about go visit my entry [go: introduction to programming language, variables and data types](/en/go-programming-language-introduction-to-variables-and-data-types/) to start from the beginning of this tutorial series.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
 
 Now, let's move on to the functions.
 

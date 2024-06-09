@@ -18,7 +18,7 @@ In go or golang slices, arrays and [maps](/en/go-maps-o-dictionaries/) are struc
 
 In this entry I am going to use data types, zero values, and other very basic aspects of go. If you don't know what I'm talking about, visit my entry [Golang: introduction to the language, variables and data types](/en/go-programming-language-introduction-to-variables-and-data-types/).
 
-{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
 
 ## Arrays in go
 

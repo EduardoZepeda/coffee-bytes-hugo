@@ -15,7 +15,7 @@ authors:
 
 In past posts I talked a bit about [goroutines, deadlocks and channels](/en/go-channels-understanding-the-goroutines-deadlocks/). But there is another quite interesting issue about goroutines that stands out when we use asynchrony and there are many functions accessing data at the same time and. Multiple functions reading and writing the same information can lead to chaotic situations where very strange things can happen.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
 
 ## What is a race condition?
 

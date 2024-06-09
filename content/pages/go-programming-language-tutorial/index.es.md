@@ -13,8 +13,6 @@ authors:
 
 He escrito una serie de entradas que intentan servir de guía e introducción para aprender el lenguaje de programación Go. Este tutorial requiere que conozcas al menos las bases de la programación, por lo que probablemente sea una buena idea leerlo sólo si estás aprendiendo Go como tu segundo o tercer lenguaje de programación. Este contenido va desde la sintaxis básica de Go hasta usos avanzados como la captura de señales o la contenedorización.
 
-{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
-
 ## Introducción al lenguaje Go y Sintaxis Básica
 
 Introducción al lenguaje de programación Go, tipos de datos nativos, variables, la polémica en torno a este lenguaje, lo bueno, lo malo, lo feo e incluso un vistazo a su popular, y a veces odiada, mascota.

@@ -18,7 +18,7 @@ authors:
 
 As you probably already know, you should not use prints for debugging. The standard go logging library is much more versatile, it adds dates, filenames and other information, plus you can redirect the logs to standard output, to a file or wherever you want. This can make your debugging process more enjoyable and [your go testing](/en/go-basic-testing-and-coverage/) easier.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
 
 ## Log Println
 

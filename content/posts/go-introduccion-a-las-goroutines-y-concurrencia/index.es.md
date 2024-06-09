@@ -20,7 +20,7 @@ title: 'Go: introducción a las goroutines y concurrencia'
 
 Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
 
-{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+{{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## Concurrencia no es paralelismo
 

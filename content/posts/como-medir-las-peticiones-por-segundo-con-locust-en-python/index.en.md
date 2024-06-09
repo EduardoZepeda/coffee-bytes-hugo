@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-There are quite simple to use tools that allow us to audit the number of requests per second (rps) that a website supports, locust is one of them, it is made in Python and with a minimal configuration allows us to process information and obtain graphs instantly, and in real time, of the behavior of our website.
+There are quite simple to use tools that allow us to audit the number of requests per second (rps) that a website supports, locust is one of them, it is made with Python and with a minimal configuration allows us to process information and obtain graphs instantly, and in real time, of the behavior of our website.
 
 ## Install locust
 
@@ -49,7 +49,7 @@ locust
 
 After executing it we will have a server running at _http://localhost:8089/_. If we enter we will see a screen like this:
 
-![Initial screen locust](images/PantallaInicialLocust.png)
+![Initial screen for locust](images/PantallaInicialLocust.png)
 
 Here we place, in order: 
 1. The number of total users, 
@@ -233,7 +233,7 @@ class HelloWorldUser(HttpUser):
 
 In the previous example, when trying to access a path that does not exist, the first conditional will be executed and will create a failure with the text "Wrong answer", which we will be able to see in the failure section of the interface.
 
-![Custom Error](images/ErrorPersonalizadoLocust.png)
+![Custom Error in Locust](images/ErrorPersonalizadoLocust.png)
 
 In addition to testing the text in the response it is possible to test the other properties of the response object, such as the response code or the time it takes to return a response.
 
