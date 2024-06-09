@@ -18,6 +18,8 @@ In go or golang slices, arrays and [maps](/en/go-maps-o-dictionaries/) are struc
 
 In this entry I am going to use data types, zero values, and other very basic aspects of go. If you don't know what I'm talking about, visit my entry [Golang: introduction to the language, variables and data types](/en/go-programming-language-introduction-to-variables-and-data-types/).
 
+{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+
 ## Arrays in go
 
 Arrays are **immutable data collections**, to create an _array_ we need to define its size and the type of data it will contain, **once declared it cannot be modified**.

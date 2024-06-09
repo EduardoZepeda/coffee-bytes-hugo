@@ -17,6 +17,8 @@ title: 'Go: channels, entendiendo los deadlocks o puntos muertos'
 
 Cuando trabajamos con channels hay un error bastante común que ocurre cuando no se está familiarizado con los conceptos, el error es "_fatal error: all goroutines are asleep - deadlock!_", traducido significa algo como "error fatal: todas las goroutines están dormidas - en un punto muerto". La primera vez que vi este error me confundió mucho y, aunque sabía como solucionarlo, no entendía porque sucedía, así que en esta entrada te explico porque sucede como me hubiera gustado haberlo leído en su momento.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## Operaciones bloqueantes
 
 En go, las operaciones que mandan o reciben valores de canales son bloqueantes dentro de su propia goroutine (recuerda que la función _main_ es una goroutine), es decir, mantienen la ejecución del código en espera :

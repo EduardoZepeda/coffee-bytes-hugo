@@ -19,7 +19,7 @@ En esta entrada voy a explicar lo básico del funcionamiento de strings, runes y
 
 Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang](/es/go-slices-y-arrays/).
 
-Si es tu primer acercamiento a go, date una vuelta por mi post de [introducción al lenguaje de programación go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/) y luego regresa acá.
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## Un poquito sobre convenciones
 

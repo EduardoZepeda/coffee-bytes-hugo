@@ -20,6 +20,8 @@ Hasta ahora te he explicado como ejecutar una goroutine, ejecutar código de man
 
 Imagínate que tienes un web scrapper que obtiene datos de internet de manera concurrente; obtenemos los datos con goroutines y los procesamos con goroutines. ¿tenemos que esperar a que terminen todas las goroutines para usarlos? Lo ideal sería que las goroutines se comunicaran entre ellas los datos y continuaran con el proceso.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## Comunicando goroutines con channels
 
 Los channels o canales son "conductos", que aceptan un único tipo de dato. A través de estos canales "introducimos" información que, posteriormente, podremos "sacar".

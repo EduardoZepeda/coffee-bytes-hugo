@@ -28,6 +28,8 @@ title: Explicación del Patron De Diseño Worker Pool
 
 Esta entrada va sobre un patrón de diseño del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 La opción simplista es crear una serie de workers y usarlos de manera concurrente, algo parecido a este pseudocódigo:
 
 ``` python

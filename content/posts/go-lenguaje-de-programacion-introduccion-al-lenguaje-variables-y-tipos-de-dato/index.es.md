@@ -20,6 +20,8 @@ url: /es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 
 Go, también conocido como Golang, es un lenguaje de programación compilado desarrollado por Google con el propósito de ser simple, sencillo de aprender, suficientemente rápido y centrado fuertemente en la concurrencia.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## ¿Qué es Go? Un poco sobre el lenguaje de programación
 
 Go, también llamado Golang, es un lenguaje de programación con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.

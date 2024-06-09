@@ -20,6 +20,8 @@ url: /es/go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilida
 
 El paquete "reflect" es una biblioteca útil en el lenguaje de programación Go que proporciona funciones para trabajar con la reflexión.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## ¿Qué es la reflexión en programación?
 
 La reflexión es la habilidad de un programa de inspeccionar su propia estructura en tiempo de ejecución. Esto incluye la habilidad de examinar: tipos, valores y metada de los objetos en memoria. La reflexión nos permite tener código más flexible y genérico y nos permite crear funciones y estructuras de dato que pueden trabajar con cualquier tipo de objeto, sin importar su tipo. Además es la base para la metaprogramación.

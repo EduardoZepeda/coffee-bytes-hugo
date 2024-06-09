@@ -17,7 +17,7 @@ In this entry I will explain the basics of how strings, runes and bytes work in 
 
 To explain the topic I will assume you know the basics of slices and data types in go, if you don't know about these topics visit my [array, slices in golang](/en/go-slices-y-arrays-characteristicas-and-basic-uses/) entry.
 
-If this is your first approach to go, take a look at my [introduction to the go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/) post and then come back here.
+{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
 
 ## A little bit about conventions
 

@@ -17,6 +17,8 @@ url: go-ciclos-o-bucles-for-break-continue-defer-if-y-else
 
 Esta entrada tratará sobre los bucles en el lenguaje de programación go.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 Go maneja los bucles un poco diferente a lo que estás acostumbrado. Si ya dominas algún otro lenguaje de programación, probablemente recuerdes que hay bucles _while_, _do while_ y for. Y si vienes de Python o Javascript, recordarás lo útil que son los bucles _for x in_ o _for x of_
 
 Bien, pues go no existen más que los bucles for. Sí, no hay _while_ ni do _while_. ¿Pero entonces como hago para usar el resto de los bucles? Sigue leyendo y te explico.

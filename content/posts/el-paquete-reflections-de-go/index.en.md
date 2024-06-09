@@ -17,6 +17,8 @@ url: /en/go-with-reflect-discover-how-reflect-can-boost-your-programs-flexibilit
 
 The "reflect" package is a useful library in the Go programming language that provides functions for working with reflection.
 
+{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+
 ## What is reflection in programming?
 
 Reflection is the ability of a program to inspect its own structure at runtime. This includes the ability to examine: types, values and metadata of objects in memory. Reflection allows us to have more flexible and generic code and allows us to create functions and data structures that can work with any type of object, regardless of its type. It is also the basis for metaprogramming.

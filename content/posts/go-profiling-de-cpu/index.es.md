@@ -18,6 +18,8 @@ title: 'Go: profiling o perfilado básico del uso del CPU'
 
 Además del [testing de pruebas unitarias y la medición del coverage en go](/es/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## ¿Cómo funciona internamente el profiling de Go en GNU/Linux?
 
 GNU/Linux, más específicamente GNU, tiene una señal de alarma llamada [SIGPROF](https://www.gnu.org/software/libc/manual/html_node/Alarm-Signals.html), esta señal avisa cuando un contador de tiempo termina de medir el uso del CPU e interrumpe la ejecución del código.

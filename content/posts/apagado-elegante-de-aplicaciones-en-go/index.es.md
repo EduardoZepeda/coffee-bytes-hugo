@@ -14,6 +14,8 @@ description: 'Manejo de las señales o signlas SIGINT y SIGTERM en Linux usando 
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## Señales o Signals en Linux
 
 Como seguramente ya sabes, el kernel de Linux es el que se encarga de "prestarle" los recursos a las aplicaciones de go (o cualquier otra aplicación) para que se ejecuten. 

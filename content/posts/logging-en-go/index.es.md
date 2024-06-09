@@ -17,6 +17,8 @@ title: Logging con la librería estándar en Go
 
 Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](/es/go-testing-basico-y-coverage/) más sencillo.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## El Println de log
 
 El paquete log viene integrado en la librería estándar de loggeo y su función más sencilla es el Println que, para fines prácticos, es como el Println de toda la vida pero con algunos beneficios integrados.

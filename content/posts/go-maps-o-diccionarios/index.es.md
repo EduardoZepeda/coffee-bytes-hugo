@@ -19,6 +19,8 @@ En el lenguaje de programación go, un map o hash table es el equivalente de un 
 
 Junto con el [array y el slice de go](/es/go-slices-y-arrays/), un map es una estructura que nos sirve como una colección de valores.
 
+{{<box link="/es/pages/go-programming-language-tutorial/" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+
 ## Funcionamiento interno de un map en go
 
 En go un map funciona bastante similar a cualquier otro lenguaje. En go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.

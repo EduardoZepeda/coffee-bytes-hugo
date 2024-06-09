@@ -17,6 +17,8 @@ authors:
 
 As I mentioned in the introduction to the go programming language: [go is a specialized concurrency language](/en/go-programming-language-introduction-to-variables-and-data-types/). It is a language that was designed to handle multiple tasks asynchronously. This entry is about go channels.
 
+{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+
 ## Concurrency is not parallelism
 
 Before we begin, remember that parallelism and concurrency are different. This post is too small to deal with such a broad topic, however there are two resources I want to highlight:

@@ -19,6 +19,8 @@ authors:
 
 In frameworks like [Django, migrations are created automatically](/en/why-should-you-use-django-framework/), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
 
+{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+
 ## What is a database migration?
 
 A migration is an abstraction to manage the state and changes that occur in a database. Instead of executing SQL statements one by one manually, we automate the process by writing all the necessary SQL and running it automatically.

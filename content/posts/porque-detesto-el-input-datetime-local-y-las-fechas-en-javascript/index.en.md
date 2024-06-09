@@ -12,13 +12,13 @@ keywords:
 - opinions
 - react
 - html
-- go
 title: Why I abhor datetime-local and dates in Javascript?
 url: /en/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascript
 ---
 
 
 Working with Javascript is frustrating and, sometimes, combining it with HTML can be desperate due to its lack of internal coherence. On top of that, using it to handle dates, which requires considering the handling of timezones, different ways to represent them and the required sensitivity: seconds, minutes, milliseconds, etc. makes it a torture.
+
 
 ## Javascript handles dates in a strange way
 

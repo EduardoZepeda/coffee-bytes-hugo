@@ -18,6 +18,8 @@ So far I have explained how to run a goroutine, execute code concurrently with t
 
 Imagine you have a web scrapper that gets data from the internet concurrently; we get the data with goroutines and process it with goroutines. do we have to wait for all the goroutines to finish to use it? Ideally, the goroutines should communicate with each other the data and continue processing.
 
+{{<box link="/en/pages/go-programming-language-tutorial/" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+
 ## Communicating goroutines with channels
 
 Channels are "conduits" that accept a single type of data. Through these channels we "introduce" information that we can later "take out".
