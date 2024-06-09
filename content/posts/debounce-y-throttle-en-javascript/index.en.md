@@ -3,7 +3,6 @@ title: "Debounce and Throttle in Javascript"
 date: "2022-03-23"
 categories:
 - "javascript"
-
 coverImage: "images/BounceYThrottleJavascript.jpg"
 description: "Explanation of debounce and throttle patterns applied to JavaScript, how they work and outline of how they work internally."
 coverImageCredits: "Image credits to i7 from Pixiv: https://www.pixiv.net/en/users/54726558"
@@ -25,18 +24,18 @@ The debounce pattern postpones the execution of a function until a certain waiti
 
 Further attempts to execute the function will cancel the pending execution and restart the timeout.
 
-![Simplified debounce pattern schematic](images/DebounceORebote.png)
+![Simplified debounce pattern schematic](images/Bounce-design-pattern-programming.png)
 
 ### Debounce pattern explanation
 
 The code for debounce in javascript looks like this:
 
 ```javascript
-const debounce = (callback, tiempoDeEspera) => {
+const debounce = (callback, waitTimeInMs) => {
   let timeout 
   return (...args) => {
     clearTimeout(timeout)
-    timeout = setTimeout(()=> callback(...args), tiempoDeEspera)
+    timeout = setTimeout(()=> callback(...args), waitTimeInMs)
   }
 }
 ```
@@ -51,7 +50,7 @@ But now pay attention to the clearTimeout. Every time we call the debounce funct
 
 The throttling pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.
 
-![Simplified diagram of the throttling pattern](images/throttling.png)
+![Simplified diagram of the throttling pattern](images/throttling-eng.jpg)
 
 ### Explanation of throttling pattern
 
