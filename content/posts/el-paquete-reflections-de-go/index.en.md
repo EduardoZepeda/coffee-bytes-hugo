@@ -26,7 +26,7 @@ Reflection is the ability of a program to inspect its own structure at runtime. 
 We can divide Go's reflection into two important types of data:
 
 **Type**: The Go data type, from which all the information of the data type, its class, name, size, etc. is broken down.
-** **Value**: The Go data value, with methods to modify the data of an object.
+**Value**: The Go data value, with methods to modify the data of an object.
 
 ## Data type: Type and TypeOf
 
@@ -54,13 +54,13 @@ See an example with _TypeOf_:
 
 ``` go
 type Coffee struct {
-    Origin string `tagEjemplo:"valor"`
+    Origin string `exampleTag:"value"`
     Height int
 }
 
-instanciaDelCafe := Coffee{Origin: "Michoacan", Height: 1100}
-// TypeOf nos devolverá un tipo *reflect.Type*
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
+coffeeInstance := Coffee{Origin: "Michoacan", Height: 1100}
+// TypeOf returns the type *reflect.Type*
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
 fmt.Println(typeOfCoffee)
 // main.coffee
 ```
@@ -72,8 +72,8 @@ Notice how the data type is a structure corresponding to main, named _coffee_.
 Name contains the name of the respective data type
 
 ``` go
-// TypeOf nos devolverá un tipo *reflect.Type*
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
+// TypeOf returns a *reflect.Type* type
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
 fmt.Println(typeOfCoffee.Name())
 // coffee
 ```
@@ -83,8 +83,8 @@ fmt.Println(typeOfCoffee.Name())
 The _TypeOf_ method allows us to obtain a _Type_ object, which represents the data type of our interface, from which we can read the data type, with its _Kind_ method.
 
 ``` go
-// TypeOf nos devolverá un tipo *reflect.Type*
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
+// TypeOf returns a *reflect.Type* type
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
 fmt.Println(typeOfCoffee.Kind())
 // struct
 ```
@@ -94,8 +94,8 @@ fmt.Println(typeOfCoffee.Kind())
 From _Type_ we can obtain all kinds of useful information, such as the number of fields in an object. This is quite useful in the case of structs and other structures with multiple fields.
 
 ``` go
-// Obtendremos el número de campos de nuestro objeto
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
+// We'll obtain the number of fields from our object
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
 coffeeNumFields := typeOfCoffee.NumField()
 fmt.Println(coffeeNumFields)
 // 2
@@ -118,17 +118,17 @@ And, with this, we will be able to access the _Types_ nested inside the _Type_ o
 ``` mermaid
 graph TD;
     TypeDelStruct-->Field;
-    Field--Indice-->TypeDelField;
-    TypeDelField-->Name;
-    TypeDelField-->Kind;
-    TypeDelField-->Otros...;
+    Field--Indice-->FieldType;
+    FieldType-->Name;
+    FieldType-->Kind;
+    FieldType-->Otros...;
 ```
 
 Each nested _Type_, like its parent, will have the _Name_ and _Kind_ methods that we saw a few lines above.
 
 ``` go
-// Obtendremos el nombre y tipo del primer campo de nuestro objeto
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
+// We'll obtain the number of fields from our object
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
 field := typeOfCoffee.Field(0)
 fmt.Println(field.Type.Name())
 fmt.Println(field.Type.Kind())
@@ -144,17 +144,17 @@ Reflect also allows us to access an object's metadata, those annotations that yo
 To obtain the Tags of a struct, _Tag.Get_ is used.
 
 ``` go
-// Añadimos un tag personalizado para posteriormente leerlo
+// We add a customized tag to read it in the future
 type Coffee struct {
-    Origin string `tagEjemplo:"valor"`
+    Origin string `exampleTag:"value"`
     Height int
 }
 
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
 field := typeOfCoffee.Field(0)
 // ...
-fmt.Println(field.Tag.Get("tagEjemplo"))
-// valor
+fmt.Println(field.Tag.Get("exampleTag"))
+// value
 ```
 
 ## Data Value: Value and ValueOf
@@ -182,9 +182,9 @@ graph TD;
 Look at this example where you can see how _ValueOf_ returns the value of our struct.
 
 ``` go
-// ValueOf devolverá el valor de nuestra variable
-instanciaDelCafe := Coffee{Origin: "Michoacan", Height: 1100}
-ValueOfCoffee := reflect.ValueOf(instanciaDelCafe)
+// ValueOf will return the value of our variable
+coffeeInstance := Coffee{Origin: "Michoacan", Height: 1100}
+ValueOfCoffee := reflect.ValueOf(coffeeInstance)
 fmt.Println(ValueOfCoffee)
 // {Michoacan 1100}
 ```
@@ -196,10 +196,10 @@ From Value we will have a series of methods to change the value of an object.
 To modify a field we need to access the _Value_ object that points to our object, which we can obtain by passing a pointer to the _ValueOf_ method. And, from there, we will use _Elem_ to access the value of our object, then its first field (only in the case of structs) and finally change the value using _SetString_.
 
 ``` go
-instanciaDelCafe := Coffee{Origin: "Michoacan", Height: 1100}
-valueofCoffee := reflect.ValueOf(&instanciaDelCafe)
+coffeeInstance := Coffee{Origin: "Michoacan", Height: 1100}
+valueofCoffee := reflect.ValueOf(&coffeeInstance)
 valueofCoffee.Elem().Field(0).SetString("Oaxaca")
-fmt.Println(instanciaDelCafe)
+fmt.Println(coffeeInstance)
 //{Oaxaca 1100}
 ```
 
@@ -225,14 +225,14 @@ In addition to the SetString method, Go provides us with [another set of special
 These methods can be accessed directly from _Value.Elem_ for non-compound data types (such as structs).
 
 ``` go
-stringOriginal := "Yo NO me imprimiré"
-// Obtenemos el valor del string
-valor := reflect.ValueOf(&stringOriginal)
-stringModificado := "Yo SI me imprimiré en la pantalla"
-// Cambiamos el valor original del string 
-valor.Elem().SetString(stringModificado)
-fmt.Printf(stringOriginal)
-// Yo SI me imprimiré en la pantalla
+original := "I will not be printed"
+// We will obtain string's value
+value := reflect.ValueOf(&original)
+modified := "I WILL be printed"
+// Let's change the original value 
+value.Elem().SetString(modified)
+fmt.Printf(original)
+// I WILL be printed
 ```
 
 #### Modifying a field with the Set method
@@ -242,9 +242,9 @@ The specialized methods to "set" a data are very useful, but sometimes we need a
 In this example, first we create a string, to later obtain its value, with _ValueOf_, and then pass this new value to the generic method _Set_, which receives a _Value_ object. And where do we get _Value_ from? Well, from passing any data to _ValueOf_.
 
 ``` go
-unString := "Oaxaca"
-nuevoValue := reflect.ValueOf(unString)
-valueofCoffee.Elem().Field(0).Set(nuevoValue)
+someString := "Oaxaca"
+newValue := reflect.ValueOf(someString)
+valueofCoffee.Elem().Field(0).Set(newValue)
 // {Oaxaca 1100}
 ```
 
@@ -253,9 +253,9 @@ valueofCoffee.Elem().Field(0).Set(nuevoValue)
 Reflect also allows us to create objects dynamically from a _Type_. To do this, just pass as argument the type of object, _Type_, that we want to create, to the _New_ method, which, as you know, can be easily obtained from _TypeOf_.
 
 ``` go
-typeOfCoffee := reflect.TypeOf(instanciaDelCafe)
-nuevaInstancia := reflect.New(typeOfCoffee)
-fmt.Println(nuevaInstancia)
+typeOfCoffee := reflect.TypeOf(coffeeInstance)
+newInstance := reflect.New(typeOfCoffee)
+fmt.Println(newInstance)
 // &{ 0}
 ```
 
