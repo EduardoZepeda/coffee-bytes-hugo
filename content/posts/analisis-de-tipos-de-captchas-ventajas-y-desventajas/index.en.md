@@ -62,6 +62,8 @@ This type of captcha tends to be quite invasive for users and can ruin the web e
 
 If you don't want to read the whole article I'll summarize it for you, it basically consists of transforming the image with image editing software to highlight the characters and then using [an OCR, like tesseract in combination with one of its bindings, like pytesseract](/en/ocr-with-tesseract-python-and-pytesseract/), to *read* them.
 
+Also take into account that many of these modern captchas also consider how you fill in the text input, i.e. they expect you to fill it in like a human, bringing the mouse pointer towards them and typing letter by letter at regular intervals.
+
 My veredict:
 - Security: 7
 - User friendly: 6

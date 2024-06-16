@@ -47,7 +47,11 @@ graph TD;
 
 According to Searle, to the people outside the room, whatever is inside seems to understand Chinese perfectly. However, we know that the person inside is just following a set of instructions, as complex as we like, but which **does not involve an understanding of language**, but a mechanical process. According to Searle, this situation is analogous to the operation of a computer.
 
-Extrapolating the above to ChatGPT; although a language model may produce responses that appear coherent and relevant, there is no evidence that it actually understands the language or is aware of its meaning. ChatGPT may be following the most complex algorithm in existence but, according to Searle, **there is no more awareness of the process there than we would find in the most sophisticated mechanical clock.**
+### Is ChatGPT conscious?
+
+Extrapolating the above to ChatGPT; although a language model may produce responses that appear coherent and relevant, there is no evidence that it actually understands the language or is aware of its meaning. 
+
+According to Searle, ChatGPT may be following the most complex algorithm in existence but, according to Searle, **there is no more awareness of the process there than we would find in the most sophisticated mechanical clock.**
 
 But then what makes the difference between a real intelligence and a mechanical process? is there such a difference?
 
@@ -61,6 +65,18 @@ Some argue that consciousness and intelligence are related and that we would eve
 
 While others go further by saying that a system becomes more conscious the more intelligent it becomes, perhaps we could consider the example of [Blake Lemoine, who claimed that Google's artificial intelligence model had become conscious](https://www.bbc.com/mundo/noticias-61787944), or Giulio Tononi's integrated information theory, which proposes that consciousness is generated when a system is able to incorporate information and unify it, and that this level of consciousness (called Φ) can be calculated for any system.
 
+#### The problem of determining whether something is conscious or not
+
+We also face the problem that consciousness can only be experienced by the conscious entity, there is no experiment that allows us to say for certain whether an entity is conscious or not. Without falling into an absolutist solipsism, **we consider that the rest of human beings are conscious only because we know that we are conscious**, not because we have irrefutable proof of it.
+
+As Ludwig Wittgenstein stated in his book Philosophical Investigations:
+
+> Imagine that at birth you are given a box with a beetle in it. It is a very valuable and extremely personal object, so much so that no one can see inside the box except oneself. Thus, there is no objective way to confirm that all boxes contain the same thing. In the best of cases they could contain a real beetle, but nothing guarantees one hundred percent that instead of the beetle there are not other insects, such as an ant or a spider, or that there is nothing at all, but whatever it is, it will always be considered under the term “beetle”.
+
+As long as we do not understand what consciousness is exactly, we cannot know that we have to “measure” to know if another entity is conscious, as long as it makes sense to talk about “measuring” when we talk about consciousness.
+
+Translated with DeepL.com (free version)
+
 ### Signs of Intelligence without consciousness
 
 Likewise, there are positions that defend that intelligence does not necessarily depend on consciousness, but that it can exist in systems that do not have subjective experience. For example, it is sufficient to cite Alpha Go and other computer programs that are capable of responding to complex stimuli, without existing beyond the game for which they were programmed, or [sleepwalkers, who can show signs of intelligence even when they are not conscious](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
@@ -72,6 +88,8 @@ But even if human beings have unconscious processes capable of existing without 
 Sometimes we believe that only machines have a mechanical behavior and that any living being would be able to respond in a very different way than a machine would, with more versatility and adapting to changes, but is this always the case?
 
 In the book "Godel, Escher, Bach: An Eternal Golden Braid" by Douglas R. Hofstader. The author cites an [experiment in which a sphex wasp is tricked into bringing a cricket within the confines of a burrow up to 40 times](https://jhjeong.mindconnect.cc/Texts/sphex.html). Just as if it were a computer program, this wasp gets stuck in an infinite loop from which it cannot escape, how different is this from a computer program that, after the same input, generates the same output?
+
+As Hofstader rightly speculates, a human would have “stepped out” of the loop to stop for a few moments and investigate what was happening.
 
 ![Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid](images/avisa-sphex.jpg "Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid")
 
