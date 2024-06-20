@@ -106,7 +106,7 @@ docker inspect hello-world
         "RepoTags": [
             "hello-world:latest"
         ],
- ...] 
+ ...}] 
 ```
 
 ### Historial de una imagen
@@ -215,7 +215,15 @@ pwd
 /
 ```
 
-### Correr un contenedor en segundo plano
+### ¿Cómo extraer un archivo de un contenedor de Docker?
+
+Para extraer un archivo de un contenedor usamos el comando *docker cp*, que básicamente es un análogo del [comando cp de Linux](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp/), con la siguiente sintaxis
+
+``` bash
+docker cp <container_name>:<path_to_file> <path_to_extract_on_your_computer>
+```
+
+### Correr un contenedor de Docker en segundo plano
 
 Cuando queremos que un contenedor permanezca ejecutándose en segundo plano usamos la etiqueta _\-d_, que viene de detach (también puedes recordarlo fácilmente asociándolo con "daemon").
 
@@ -266,7 +274,7 @@ docker exec -it boring_hugle curl localhost
 ...
 ```
 
-### Detener un contenedor
+### Detener un contenedor de Docker
 
 Para detener un contenedor que está corriendo basta con ejecutar _docker stop_, seguido del nombre o id del contenedor.
 
@@ -282,7 +290,7 @@ Si queremos correr un contenedor que se encuentra detenido usamos ahora _docker 
 docker start <nombre_o_id_del_contenedor>
 ```
 
-### Reiniciar un contenedor
+### Reiniciar un contenedor de Docker
 
 Si en lugar de eso queremos reiniciar un contenedor que se encuentra corriendo podemos usar _docker restart_.
 
@@ -290,7 +298,7 @@ Si en lugar de eso queremos reiniciar un contenedor que se encuentra corriendo p
 docker restart <nombre_o_id_del_contenedor>
 ```
 
-### Exponer un contenedor al exterior
+### Exponer un puerto en un contenedor de Docker al exterior
 
 Hasta ahora hemos creado contenedores con los cuales no podemos interaccionar desde el exterior. Si intentamos abrir localhost del veremos que nuestro contenedor de Nginx no nos devuelve nada.
 

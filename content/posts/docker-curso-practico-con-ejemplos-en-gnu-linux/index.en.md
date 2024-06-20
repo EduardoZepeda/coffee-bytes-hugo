@@ -210,7 +210,15 @@ pwd
 /
 ```
 
-### Running a container in the background
+### How to extract a file from a docker container?
+
+To extract a file from a container we use the *docker cp* command, which is basically an analogue of the [Linux cp-command](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/), with the following syntax.
+
+``` bash
+docker cp <container_name>:<path_to_file> <path_to_extract_on_your_computer>
+```
+
+### Running a docker container in the background
 
 When we want a container to remain running in the background we use the _-d_ tag, which comes from detach (you can also easily remember it by associating it with "daemon").
 
@@ -261,7 +269,7 @@ docker exec -it boring_hugle curl localhost
 ...
 ```
 
-### Stop a container
+### Stop a Docker container
 
 To stop a running container just run _docker stop_, followed by the container name or id.
 
@@ -277,7 +285,7 @@ If we want to run a container that is stopped we now use _docker start_.
 docker start <nombre_o_id_del_contenedor>
 ```
 
-### Restart a container
+### Restart a Docker container
 
 If instead we want to restart a running container we can use _docker restart_.
 
@@ -285,7 +293,7 @@ If instead we want to restart a running container we can use _docker restart_.
 docker restart <nombre_o_id_del_contenedor>
 ```
 
-### Expose a container to the outside
+### Expose a Docker container port to the outside
 
 So far we have created containers with which we cannot interact from the outside. If we try to open localhost we will see that our Nginx container does not return anything.
 
