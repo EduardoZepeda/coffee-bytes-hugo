@@ -2,7 +2,6 @@
 title: "¿Cómo mejorar Django Framework?"
 date: 2024-06-22
 coverImage: "images/how-to-improve-django.jpg"
-draft: true
 categories:
 - opiniones
 - django
@@ -21,7 +20,7 @@ El 21 de Junio del 2024 inicié un hilo en reddit con la siguiente pregunta: "Wh
 
 ![HTMX Meme](https://htmx.org/img/memes/20yearold.png "HTMX meme")
 
-## Type hints en Django
+## ¿Mejorar Django Framework con type hints?
 
 Este fue el comentario que recibió más apoyo de la comunidad. A pesar de que Python ya cuenta con Type Hints opcionales desde su versión 3.5, parece que su implementación con el propósito de modernizar Django Framework no parece ser una prioridad. 
 
@@ -79,4 +78,20 @@ A mi me parece que Django ya hace un excelente trabajo con su sistema de plantil
 
 Sin más que agregar te dejo el enlace a la discusión por si quieres ver el resto de [sugerencias sobre como mejorar Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/#?)
 
+## Otras sugerencias sobre cómo mejorar Django framework
 
+Entre las demás sugerencias me gustaría destacar las siguientes, pues se recibieron un apoyo menor o se repitieron a lo largo del hilo:
+
+- Mejor manejo de formularios
+- Mejor manejo de contenido estático con énfasis en los frameworks frontend más populares
+- Soporte "out of the box" para colas
+- Recarga en caliente del navegador
+- Generador básico de CRUD boilerplate
+- Precarga automática de modelos relacionados.
+
+
+### Sugerencias que terminaron siendo librerías de terceros
+
+- [Tipos estáticos e inferencia de tipos para el framework Django](https://github.com/typeddjango/django-stubs/#?)
+- [Manejo de formularios para Django con esteroides](https://docs.iommi.rocks/en/latest/#?)
+- [CRUD para Django al instante](https://noumenal.es/neapolitan/#?)

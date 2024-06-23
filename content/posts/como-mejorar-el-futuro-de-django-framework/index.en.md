@@ -2,7 +2,6 @@
 title: "How to improve Django Framework?"
 date: 2024-06-22
 coverImage: "images/how-to-improve-django.jpg"
-draft: true
 categories:
 - opinions
 - django
@@ -22,7 +21,7 @@ On June 21, 2024 I started a thread on reddit with the following question: "What
 
 ![HTMX Meme](https://htmx.org/img/memes/20yearold.png "HTMX meme")
 
-## Type hints in Django
+## Would type hints improve Django Framework?
 
 This was the comment that received the most support from the community. Although Python already has optional Type Hints since version 3.5, it seems that implementing them for the purpose of modernizing Django Framework does not seem to be a priority.
 
@@ -34,7 +33,7 @@ The popularity of type hints is such that some users who consider them a signifi
 
 However, according to reddit users, there is not much interest from the code maintainers to incorporate these changes as part of the code. There have even been [proposals to incorporate type hints into the official Django repository](https://github.com/django/deps/pull/65#?), but these changes have been dismissed, probably because they consider the typing to be a contradiction to the nature of Python as a dynamic language. 
 
-{{<box type="info" message="In case you don't know, type hints allow you to declare the type of a variable, argument, or the return value of a function to make it easier to identify bugs or unwanted behavior. Think of Python type hints as Python Typescript, or as optional static typing in some compiled language, such as C, C++, or Rust." >}}
+{{<box type="info" message="In case you don't know what type hints are, type hints allow you to declare the type of a variable, argument, or the return value of a function to make it easier to identify bugs or unwanted behavior. Think of Python type hints as Python's Typescript, or as optional static typing in your favourite compiled language, such as C, C++, or Rust." >}}
 
 ## Use a custom User model instead of the normal User model.
 
@@ -50,7 +49,7 @@ Although there are multiple ways to [customize the User model in Django](/en/how
 
 Despite the fact that Django has one of the best libraries to create an application that meets the [basic features of a REST API](/en/basic-characteristics-of-an-api-rest-api/); yes, I'm talking about DRF (Django Rest Framework). The reddit users consider that Django should provide support for REST APIs "out of the box", as a native part of the framework.
 
-The above seems to me an interesting proposal but I also understand that, despite the maturity of REST, giving it preference over the rest of APIs, such as [modern Google gRPC](/en/unleash-your-apis-potential-with-grpc-and-protobuffers/), SOAP, or some API that has not yet emerged, can be considered as a rather risky step by the Django committee. Yes, even if there are complete REST-based libraries, such as [FastAPI](/en/fastapi-tutorial-the-best-python-framework/).
+The above seems to me an interesting proposal but I also understand that, despite the maturity of REST, giving it preference over the rest of APIs, such as [the modern Google gRPC](/en/unleash-your-apis-potential-with-grpc-and-protobuffers/), SOAP, or some API that has not yet emerged, can be considered as a rather risky step by the Django committee. Yes, even if there are complete REST-based libraries, such as [FastAPI](/en/fastapi-tutorial-the-best-python-framework/).
 
 ## Read environment variables in Django without third-party libraries
 
@@ -80,3 +79,21 @@ It seems to me that Django already does an excellent job with its template syste
 
 Without more to add I leave the link to the discussion if you want to see the rest of [suggestions on how to improve Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/#?)
 
+
+## Other suggestions on how to improve Django framework
+
+Among the other suggestions I would like to highlight the following, as they received minor support or were mentioned multiple times throughout the thread:
+
+- Better form handling
+- Better static content handling with emphasis on most popular frontend frameworks
+- Out of the box support for queues
+- Hot reload of the browser
+- Basic CRUD boilerplate generator
+- Models' auto prefetch of their related models.
+
+
+### Suggestions that ended up being third party libraries
+
+- [Static types and type inference for Django framework](https://github.com/typeddjango/django-stubs/#?)
+- [Form handling for Django with steroids](https://docs.iommi.rocks/en/latest/#?)
+- [CRUD capabilities for Django out of the box](https://noumenal.es/neapolitan/#?)

@@ -139,7 +139,7 @@ Python is great when it comes to Machine Learning, cool libraries like Pytorch, 
 
 ## The disadvantages of Django
 
-Not everything is magic with Django, there are some things that can be considered a disadvantage and that I would change without hesitation.
+Not everything is magic with Django, there are some things that can be considered a disadvantage and that I would change without hesitation. [Certainly Django can be improved](/en/how-to-improve-django-framework/).
 
 ### It is a monolith
 
@@ -159,7 +159,7 @@ Go to [my tutorial on FastAPI](/en/fastapi-tutorial-the-best-python-framework/) 
 
 ### Djang's ORM is not asynchronous nor the fastest.
 
-Django is working to make its ORM asynchronous, but it's not there yet. Other alternatives such as tortoise-orm, sql-alchemy, pony-orm are ahead in this aspect.
+~~Django is working to make its ORM asynchronous but it's not there yet~~. Django's ORM is almost completely asynchronous. Other alternatives such as tortoise-orm, sql-alchemy, pony-orm are ahead in this aspect.
 
 ### Moderate learning curve
 

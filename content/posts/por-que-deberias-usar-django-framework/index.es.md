@@ -140,7 +140,7 @@ Python es genial cuando se trata de Machine Learning, librerías geniales como P
 
 ## Las desventajas de Django
 
-No todo es mágico con Django, hay algunas cosas que pueden considerarse una desventaja y que yo cambiaría sin dudarlo.
+No todo es mágico con Django, hay algunas cosas que pueden considerarse una desventaja y que yo cambiaría sin dudarlo. Ciertamente [Django puede ser mejorado en muchos aspectos](/es/como-mejorar-django-framework/).
 
 ### Es un monólito
 
