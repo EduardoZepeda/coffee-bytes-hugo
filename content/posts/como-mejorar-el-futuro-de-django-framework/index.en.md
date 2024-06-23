@@ -1,6 +1,6 @@
 ---
 title: "How to improve Django Framework?"
-date: 2024-06-22
+date: 2024-06-23
 coverImage: "images/how-to-improve-django.jpg"
 categories:
 - opinions
