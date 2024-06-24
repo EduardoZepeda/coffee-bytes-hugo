@@ -33,8 +33,8 @@ At the code level, you can think of a drug as a function that calls another func
 function releaseInsulin(){}
 
 function administerDrug(drug){
-// ...
-releaseInsulin(){}
+  // ...
+  releaseInsulin()
 }
 ```
 
@@ -48,9 +48,9 @@ Whether they fit or not depends on the three-dimensional structure of the molecu
 function releaseInsulin(){}
 
 function administerDrug(drug){
-if(isReceptorCompatible(cell, drug)){
-releaseInsulin(){}
-}
+  if(isReceptorCompatible(cell, drug)){
+    releaseInsulin()
+  }
 }
 ```
 
@@ -68,13 +68,13 @@ An optimal drug will cause the desired effect with a minimum of side effects, bo
 function releaseInsulin(){}
 
 function applyDrug(drug){
-if(isReceptorCompatible(cell, drug)){
-// desired effects
-releaseInsulin(){}
-// undesired effects
-increaseDizzyness(){}
-createRash()
-}
+  if(isReceptorCompatible(cell, drug)){
+    // desired effects
+    releaseInsulin()
+    // undesired effects
+    increaseDizzyness()
+    createRash()
+  }
 }
 ```
 
@@ -118,6 +118,8 @@ Well, that's the crux of the matter, the million dollar question. If you have ne
 Cells are incredibly complex systems where there are countless parts interacting with each other. There is no simple answer to this question because it depends on the type of cell, the type of drug being used, and even such trivial factors as the type of diet and the time at which a drug is administered (chronopharmacology) can introduce noise in the behavior of drugs in a patient.
 
 In addition, there are different approaches ranging from the three-dimensional structure, taking into account the functional groups or atoms that make up a molecule, as well as its multiple physicochemical properties, among which its solubility in lipids stands out, since it indicates how easily it will cross cell membranes; the greater the solubility in lipids, the greater the distribution in the body.
+
+Most people think that chemistry is all about mixing things and seeing how the colors change, but in reality mathematics plays a fundamental role in chemistry and there are equations for everything from how to calculate how much to add of a substance to predicting how much of a substance remains in the body according to its physicochemical properties.
 
 ### Databases for available drugs
 

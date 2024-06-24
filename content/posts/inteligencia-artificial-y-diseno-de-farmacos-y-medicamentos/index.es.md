@@ -38,8 +38,8 @@ A nivel código, puedes pensar en un fármaco como una función que llama a otra
 function releaseInsulin(){}
 
 function administerDrug(drug){
-// ...
-releaseInsulin(){}
+  // ...
+  releaseInsulin()
 }
 ```
 
@@ -53,9 +53,9 @@ Si encajan o no, depende de la estructura tridimensional de la molécula y del r
 function releaseInsulin(){}
 
 function administerDrug(drug){
-if(isReceptorCompatible(cell, drug)){
-releaseInsulin(){}
-}
+  if(isReceptorCompatible(cell, drug)){
+    releaseInsulin()
+  }
 }
 ```
 
@@ -73,13 +73,13 @@ Un fármaco óptimo va a provocar el efecto deseado con un mínimo de efectos se
 function releaseInsulin(){}
 
 function applyDrug(drug){
-if(isReceptorCompatible(cell, drug)){
-// desired effects
-releaseInsulin(){}
-// undesired effects
-increaseDizzyness(){}
-createRash()
-}
+  if(isReceptorCompatible(cell, drug)){
+    // desired effects
+    releaseInsulin()
+    // undesired effects
+    increaseDizzyness()
+    createRash()
+  }
 }
 ```
 
@@ -92,7 +92,7 @@ Bien, la respuesta a eso es "depende". Depende de cada fármaco, algunos pueden 
 - Metabolismo: Generalmente el hígado empieza a descomponer el fármaco y con ello termina su efecto.
 - Excreción: Mayormente se excreta por los riñones, con la orina.
 
-![](images/farmacocinetics.jpg)
+![Gráfico que muestra como se comportan la mayoría de los fármacos administrados por vía oral](images/farmacocinetics.jpg)
 
 ## ¿De qué depende que un fármaco funcione y sus efectos secundarios?
 
@@ -123,6 +123,8 @@ Bien, pues ese es justo el meollo del asunto, la pregunta del millón de dólare
 Las células son sistemas increíblemente complejos en donde hay un sin número de partes interaccionando entre ellas. No hay una respuesta simple a esta pregunta pues depende del tipo de célula, el tipo de fármaco que se esté usando, incluso factores tan banales como el tipo de alimentación y la hora a la que se administra un fármaco (cronofarmacología) pueden introducir ruido en el comportamiento de estos en un paciente.
 
 Además, hay diferentes aproximaciones que van desde la estructura tridimensional, tomando en cuanto los grupos funcionales o átomos que componen una molécula, así como sus múltiples propiedades fisicoquímicas, entre la que destaca su solubilidad en lípidos, pues indica que tan fácil cruzará las membranas de las células; mayor solubilidad en lípidos, mayor distribución en el cuerpo.
+
+La mayoría de la gente piensa que la química consiste en mezclar cosas y ver cómo cambian los colores, pero en realidad las matemáticas desempeñan un papel fundamental en la química y hay ecuaciones para todo, desde  como calcular cuanto añadir de una sustancia hasta para predecir cuanto es el remanente de una sustancia en el organismo de acuerdo a sus propiedades fisicoquímicas.
 
 ### Bases de datos para fármacos disponibles
 
