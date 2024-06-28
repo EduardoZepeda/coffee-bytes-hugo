@@ -53,7 +53,7 @@ To avoid falling into the vile hands of computer science purists I will quote th
 
 ### Container
 
-> Containers are an abstraction in the application layer that packages the code and its dependencies. Multiple containers can run on the same machine and share the operating system kernel with other containers, each running as an isolated process in the user's environment. Containers take up less space than VMs (container images typically have sizes of tens of MB), can handle more applications, and require fewer VMs and operating systems.
+> Containers are an abstraction at the app layer that packages code and dependencies together. Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
 >
 > What is a Container? (n.d.). Retrieved September 23, 2020, from https://www.docker.com/resources/what-container
 

@@ -1,6 +1,7 @@
 ---
 aliases:
 - basic-commands-basic-docker-tutorial
+- /en/basic-commands-basic-docker-tutorial
 title: "The Most Useful and Basic Docker commands"
 date: "2020-10-07"
 categories:
