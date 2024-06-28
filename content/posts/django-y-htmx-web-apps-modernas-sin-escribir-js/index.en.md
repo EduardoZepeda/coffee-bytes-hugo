@@ -240,6 +240,11 @@ The default is innerHTML
 ### hx-push-url
 
 It tells htmx to replace the browser url with the url we specify in hx-get.
+### hx-boost
+
+If we add this attribute to the body tag, all the links (anchors) inside will be treated as if it were a SPA, the request will be made and the actual body will be replaced by response's body. Offering a smooth transition feel, as if you were using the Javascript API to change the urls. 
+
+But what about the header tag? Well there is an extension for the header too, you can see the link in the [HTMX extensions github repository](https://github.com/bigskysoftware/htmx-extensions/blob/main/src/head-support/README.md#?)
 
 ## Generation of HTML for htmx
 
@@ -445,7 +450,7 @@ The url was sent via the HX-Current-URL header, the object element to be exchang
 
 ![List of extra headers are added in each request](images/EncabezadosHtmx.png)
 
-## Rendering head, body and html conditionally
+## Rendering head, body and html conditionally with HTMX
 
 Do you remember that we had the problem that if we accessed the urls directly, without going through home, htmx would not load? Well, now that we know that we have these headers, we can use them so that the template system includes the head, html and body tags only when we access the path directly.
 
@@ -513,5 +518,19 @@ And now in all our templates that only return HTML, we can make them extend from
 Now you can access url's directly and keep the htmx functionality.
 
 ![Accessing the routes directly ](images/HtmxConHeadDespuesDePeticion.gif)
+
+### Conditional Rendering in django viewss with HTMX
+
+The above can be quite complicated if your templates are complex, but there are other options. For example you can generate your template name dynamically if you have received a request originated with HTMX, remember I told you about special headers?
+
+``` python
+class YourGenericView(ListView):
+    def get_template_names(self):
+        if self.request.META.get("HTTP_HX_REQUEST"):
+            return ["partials/_template.html"].
+        return [self.template_name]
+```
+
+Translated with DeepL.com (free version)
 
 I have shown you only the basics of htmx combined with django, remember to visit the [official documentation](https://htmx.org/docs/) to see the other things it has to offer, like CSS transitions, websockets and SSE,

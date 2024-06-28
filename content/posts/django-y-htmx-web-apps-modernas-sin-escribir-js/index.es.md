@@ -170,7 +170,7 @@ Mantendremos una estructura muy simple para la plantilla base, con solo las etiq
 </html>
 ```
 
-## Atributos básicos de htmx
+## Atributos más útiles de HTMX para Django
 
 Abramos el archivo _home.html_. Extendemos de la plantilla _base.html_ y reemplazamos la etiqueta body con una presentación simple y nuestro primer botón con Htmx.
 
@@ -246,6 +246,12 @@ De manera predeterminada es innerHTML
 ### hx-push-url
 
 Le indica a htmx que debe reemplazar la url del navegador por la url que especificamos en hx-get.
+
+### hx-boost
+
+Si agregamos este atributo a la etiqueta body, todos los enlaces (anchors) que se encuentren en el interior van a tratarse como si se tratara de una SPA, se hará la petición y se reemplazará el body actual por el de la respuesta. Otorgando esa sensación de transición suave, como si estuvieras usando la API de Javascript para cambiar las urls. 
+
+¿Pero y la etiqueta header? Pues ciertamente alguien tuvo el mismo problema y se desarrolló una extensión para el header también, puedes verla el enlace en el [repositorio de github de las extensiones de HTMX](https://github.com/bigskysoftware/htmx-extensions/blob/main/src/head-support/README.md#?)
 
 ## Generación de HTML para htmx
 
@@ -452,7 +458,7 @@ Se envió la url por medio del encabezado HX-Current-URL, el elemento objeto que
 
 ![Lista de encabezados extra son agregados en cada petición](images/EncabezadosHtmx.png)
 
-## Renderizando head, body y html de manera condicional
+## Renderizando head, body y html de manera condicional con HTMX
 
 ¿Recuerdas que teníamos el problema de que si accedíamos directamente a las url, sin pasar por home, no se cargaba htmx? Pues ahora que sabemos que tenemos estos encabezados, podemos usarlos para que el sistema de plantillas incluya la etiqueta head, html y body solamente cuando accedamos directamente a la ruta.
 
@@ -521,4 +527,16 @@ Ahora puedes acceder directo a las url y conservar la funcionalidad de htmx.
 
 ![Accediendo a las rutas directamente ](images/HtmxConHeadDespuesDePeticion.gif)
 
-Te he mostrado solo lo básico de htmx combinado con django recuerda visitar la [documentación oficial](https://htmx.org/docs/) para ver el resto de cosas que tiene para ofrecer, como CSS transitions, websockets y SSE,
+### Renderizando condicional con HTMX en las vistas de Django
+
+Lo anterior puede ser bastante complicado si tus plantillas son complejas, pero hay otras opciones. Por ejemplo puedes generar tu nombre de plantilla dinámicamente si has recibido una petición originada con HTMX, ¿te acuerdas que te dije de los headers o cabeceras especiales?
+
+``` python
+class YourGenericView(ListView):
+    def get_template_names(self):
+        if self.request.META.get("HTTP_HX_REQUEST"):
+            return ["partials/_template.html"]
+        return [self.template_name]
+```
+
+Te he mostrado solo lo básico de htmx combinado con django recuerda visitar la [documentación oficial](https://htmx.org/docs/) para ver el resto de cosas que tiene para ofrecer, como CSS transitions, websockets y SSE.
