@@ -187,8 +187,8 @@ In the root address it does not matter if a diagonal is placed at the end.
 The **root URLs are treated as one by search engines, whether they are diagonal or not**, so make sure they return the same content.
 
 ```bash
-https://tudominio.com/
-https://tudominio.com
+https://yourdomain.com/
+https://yourdomain.com
 ```
 
 ## Extensions in the url should be absent
@@ -196,9 +196,9 @@ https://tudominio.com
 Do not use the URI to specify the type of resource requested by its extension. Remember that one thing is the resource itself and another is its representation.
 
 ```bash
-/recurso.txt❌
-/recurso.json❌
-/recurso.xml❌
+/resource.txt❌
+/resource.json❌
+/resource.xml❌
 ```
 
 So how do I request a file type in a REST API?
@@ -208,11 +208,11 @@ So how do I request a file type in a REST API?
 The representation of the resource to be returned will depend on the _Accept_ header of the client, so we can return different types of representations of the same resource, in the same URI.
 
 ```bash
-GET /v1/recurso HTTP/1.1
+GET /v1/resource HTTP/1.1
 Host: api.example.org
 Accept: application/json
 
-*GET /v1/recurso HTTP/1.1
+*GET /v1/resource HTTP/1.1
 Host: api.example.org
 Accept: application/xml
 ```
