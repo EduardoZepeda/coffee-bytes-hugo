@@ -28,7 +28,7 @@ I wrote the previous entries as an introduction for this week's topic. In this p
 
 This tool uses docker to simplify the process of developing and deploying a Django application. It was also created by one of the writers of the great book Two scoops of Django, of which I have a [review of Twoo scoops of django](/en/the-best-django-book-two-scoops-of-django-review/)
 
-Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/basic-commands-basic-docker-tutorial/) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/en/get-to-know-the-basic-docker-compose-commands/).
+Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/the-most-useful-and-basic-docker-commands//) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/en/get-to-know-the-basic-docker-compose-commands/).
 
 If you doubt about whether you should use Django visit my post where I explain some [advantages and disadvantages of this web development framework](/en/why-should-you-use-django-framework/)
 

@@ -1,40 +1,44 @@
 ---
-title: "The basic Docker commands and their usage"
+aliases:
+- basic-commands-basic-docker-tutorial
+title: "The Most Useful and Basic Docker commands"
 date: "2020-10-07"
 categories:
 - "docker"
 - "linux and devops"
-
 coverImage: "images/DockerCursoPractico.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/es-es/@huy-phan-316220/"
-description: "Learn how to use basic Docker commands, differentiate images and containers, volumes, create Dockerfiles and use docker build."
+description: "A compilation and listing most useful and basic docker commands: how to create, destroy, manage containers and volumes and how to use Dockerfiles and understand its build process."
+keyword: basic docker commands
 keywords:
 - docker
-
-url: "basic-commands-basic-docker-tutorial"
+- containers
+- python
+- django
+- nginx
 authors:
 - Eduardo Zepeda
 ---
 
-If you read the previous post where I explain [what Docker is for](/en/what-is-docker-and-what-is-it-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the commands. Here I explain the most common Docker commands, the use of volumes and the creation of an example Dockerfile.
+If you read the previous post where I explain [what Docker is for](/en/what-is-docker-and-what-is-it-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the most basic docker commands. Here I explain them in detail, and also how to use volumes along with Dockerfiles to automate your container's creation process.
 
 ## Images and containers are different
 
 Before we start, it is necessary to clarify that in Docker we work with containers that are created from images. An image is like a read-only template, while the container is the materialization of that template, you could say that it is an instantiated or running image.
 
-You can think of images and containers **as classes and their instances, respectively.
+You can think of images and containers **as classes and their instances in OOP**, respectively.
 
-If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch with go](/en/how-does-a-docker-container-work-internally/).
+If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch using Go](/en/how-does-a-docker-container-work-internally/).
 
-## Basic Docker commands
+## Basic Docker commands for containers
 
-### Running a container
+### Running a docker container
 
 To run a container we will use the run command and the name of the image from which it will be derived. You can specify what you want your container to be called with the _--name_ option.
 
 ```bash
 docker run hello-world
-docker run --name mi_nombre hello-world
+docker run --name <container_name> hello-world
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 ...
@@ -87,7 +91,7 @@ REPOSITORY TAG IMAGE ID CREATED SIZE
 hello-world latest bf756fb1ae65 8 months ago 13.3kB
 ```
 
-### Inspect an image
+### Inspect a docker image
 
 To inspect an image just use docker inspect, followed by the image name or id. Docker will print information related to the image in JSON format.
 
@@ -114,13 +118,13 @@ IMAGE CREATED CREATED BY SIZE COMMENT
 bf756fb1ae65 9 months ago        /bin/sh -c #(nop)  CMD ["/hello"]               0B
 ```
 
-### Delete an image
+### Delete a docker image
 
 To delete an image there is the _rmi_ command, yes like _rm_, but with the i in "image" below, we will need either its id or its repository and its tag separated by a colon ":"
 
 ```bash
 docker rmi repository:tag
-docker rmi id_de_la_imagen
+docker rmi <image_id>
 ```
 
 If you wanted to delete the hello-world image it would be as follows. Typing docker rmi, followed by the name of the image followed by a colon from its tag.
@@ -167,10 +171,10 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 To delete containers, you can use the _docker rm_ command, with the container name or id.
 
 ```bash
-docker rm nombre_o_id_del_contenedor
+docker rm <container_name_or_id>
 ```
 
-### Delete all containers in Docker
+### How to delete all docker containers
 
 It is quite common to want to delete all containers in Docker. **To do this we need to get all the container ids.
 
@@ -189,12 +193,12 @@ Now that we have all the ids, we can use this list with the docker rm command to
 docker rm $(docker ps -aq)
 ```
 
-### Accessing the terminal of a container
+### Accessing the terminal in a container
 
 The following command will introduce us into a container created from an image. Technically what docker run -it does is to link the standard input (STDIN) of our operating system with the standard input (STDIN) of our container. This allows us to run a container that we can interact with.
 
 ```bash
-docker run -it ubuntu
+docker run -it <container>
 ```
 
 **Notice how the terminal prompt will change** and we will find ourselves in a terminal from which we will be able to interact.
@@ -234,7 +238,7 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 8c7fbece083b nginx           "/docker-entrypoint.…"   8 seconds ago Up 6 seconds 80/tcp boring_hugle
 ```
 
-### View the logs of a container
+### How to view a container's logs
 
 If our container failed to run the way we expected, examining the logs would be a good place to start.
 
@@ -243,19 +247,19 @@ For this task Docker provides us with the _docker logs_ command, to which we wil
 For now don't worry about errors and warnings.
 
 ```bash
-docker logs <nombre_del_contenedor>
+docker logs <container_name>
 /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
 /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
 /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
 ...
 ```
 
-### Running a command in a running container
+### Executing a command in a running container
 
 To execute a command on a **container that is running** the exec command will be used. It is important to note that the **container name is **used here,** not the image. The following command will run bash on the container. Remember that to see the containers running we use "_docker ps -a_".
 
 ```bash
-docker exec -it <nombre_del_contenedor> bash
+docker exec -it <container_name> bash
 ```
 
 The use of _docker exec_ is not limited to entering a terminal. Look what happens if we run the curl command to localhost on the container where Nginx is running.
@@ -274,15 +278,15 @@ docker exec -it boring_hugle curl localhost
 To stop a running container just run _docker stop_, followed by the container name or id.
 
 ```bash
-docker stop <nombre_o_id_del_contenedor>
+docker stop <container_name_or_id>
 ```
 
-### We start a container
+### Start a container
 
 If we want to run a container that is stopped we now use _docker start_.
 
 ```bash
-docker start <nombre_o_id_del_contenedor>
+docker start <container_name_or_id>
 ```
 
 ### Restart a Docker container
@@ -290,10 +294,10 @@ docker start <nombre_o_id_del_contenedor>
 If instead we want to restart a running container we can use _docker restart_.
 
 ```bash
-docker restart <nombre_o_id_del_contenedor>
+docker restart <container_name_or_id>
 ```
 
-### Expose a Docker container port to the outside
+### How to expose a container's port to the outside
 
 So far we have created containers with which we cannot interact from the outside. If we try to open localhost we will see that our Nginx container does not return anything.
 
@@ -302,7 +306,7 @@ So far we have created containers with which we cannot interact from the outside
 This is because each container has its own network and its own ports. If we want to redirect the ports of the container to the ports of our computer we use the option _-p_, **placing first the port number of our computer** separated with a colon of the one that corresponds to the container.
 
 ```bash
-docker run -d --name servidorNginx -p 8080:80 nginx
+docker run -d --name ngnixServer -p 8080:80 nginx
 ```
 
 The above command created an instance of the Nginx web server, so we will redirect, to OUR port 8080, what comes out of YOUR port 80.
@@ -330,13 +334,13 @@ Let's try to make it clearer with an example:
 To create a volume when running a container we specify it with the -v option, followed by the volume we want to assign to the volume, separated by a colon from the location to which we want to assign the volume in the container.
 
 ```bash
-docker run -d -it --name <nombre_contenedor> -v <nombre_del_volumen>:/var/lib/mysql ubuntu
+docker run -d -it --name <container_name> -v <volume_name>:/var/lib/mysql ubuntu
 ```
 
 If we now enter the terminal of that container.
 
 ```bash
-docker exec -it <nombre_contenedor> bash
+docker exec -it <container_name> bash
 ```
 
 Once in the container we enter the folder _/var/lib/mysql_ and create a file named _db.sql_
@@ -350,16 +354,16 @@ exit
 Now, if we do an ls on the location where Docker stores the volumes we should see the file we just created.
 
 ```bash
-sudo ls /var/lib/docker/volumes/nombre_del_volumen/_data
+sudo ls /var/lib/docker/volumes/volume_name/_data
 db.sql
 ```
 
 There it is! If we now stop and delete the container we will see that our volume still exists.
 
 ```bash
-docker stop <nombre_del_contenedor>
-docker rm <nombre_del_contenedor>
-sudo ls /var/lib/docker/volumes/nombre_del_volumen/_data
+docker stop <container_name>
+docker rm <container_name>
+sudo ls /var/lib/docker/volumes/volume_name/_data
 db.sql
 ```
 
@@ -372,7 +376,7 @@ First, let's look at another way to create volumes.
 Docker also allows you to create a volume without running a container by using the _docker volume create_ command, followed by the name you want for your volume. As mentioned above, Docker will create each of these volumes in the location "/var/lib/docker/volumes/volume_name/".
 
 ```bash
-docker volume create <nombre_del_volumen>
+docker volume create <volume_name>
 ```
 
 ### Inspect volume
@@ -380,14 +384,14 @@ docker volume create <nombre_del_volumen>
 If we inspect a volume we will see information related to the volume we created, where it is located in our system, its name and the creation date.
 
 ```bash
-docker volume inspect <nombre_del_volumen>
+docker volume inspect <volume_name>
 [
     {
         "CreatedAt": "2020-10-05T21:16:44-05:00",
         "Driver": "local",
         "Labels": {},
-        "Mountpoint": "/var/lib/docker/volumes/nombre_del_volumen/_data",
-        "Name": "nombre_del_volumen",
+        "Mountpoint": "/var/lib/docker/volumes/volume_name/_data",
+        "Name": "volume_name",
         "Options": {},
         "Scope": "local"
     }
@@ -401,7 +405,7 @@ To list all available volumes we will use the _docker volume ls._ command.
 ```bash
 docker volume ls
 DRIVER VOLUME NAME
-local               <nombre_del_volumen>
+local               <volume_name>
 ```
 
 ### Mount volumes in Docker
@@ -409,7 +413,7 @@ local               <nombre_del_volumen>
 **To mount a volume, which we have previously created**, in a container we use the _--mount_ option, followed by the name of the volume (src) and its destination in the container (dst), separated by a comma
 
 ```bash
-docker run -d --name db --mount src=<nombre_del_volumen>,dst=/data/db mongo
+docker run -d --name db --mount src=<volume_name>,dst=/data/db mongo
 ```
 
 ### Delete volumes
@@ -417,7 +421,7 @@ docker run -d --name db --mount src=<nombre_del_volumen>,dst=/data/db mongo
 To delete a volume we use the _docker volume rm_ command. However, **we cannot delete a volume that is in use by a container,** so it is necessary to stop and delete its container first.
 
 ```bash
-docker volume rm <nombre_del_volumen>
+docker volume rm <volume_name>
 ```
 
 ### Clean volumes
@@ -439,13 +443,13 @@ If we want a folder in our system to synchronize with a folder in our container 
 The following example creates a container named mongoDB (_--name mongoDB_), in detach (_-d_) mode. The _-v_ option will link the folder specified before the colon, with the directory of the container we specify after the colon. At the end is the name of our image, in this case our No-sql database called mongo.
 
 ```bash
-docker run --name mongoDB -d -v /home/usuario/basesDeDatos/miBaseDeDatosEnMongo:/data/db mongo
+docker run --name mongoDB -d -v /home/user/database/myMongoDb:/data/db mongo
 ```
 
 If we want the volume to be read-only, just add "_:ro_" to the end of our syntax.
 
 ```bash
-docker run --name mongoDB -d -v /Users/usuario/Dev/database:/data/db:ro mongo
+docker run --name mongoDB -d -v /Users/user/Dev/database:/data/db:ro mongo
 ```
 
 There, this is enough to have a basic idea of the volumes. Finally, the Dockerfile files follow.
@@ -578,7 +582,7 @@ Successfully built 6e3ffe358338
 Successfully tagged djangocontainer:0.1
 ```
 
-### Compiling a Dockerfile
+### How to compile a Dockerfile
 
 To compile a Dockerfile and create a custom image created from the contents of our file, just run the _docker build_ command and set the location of the Dockerfile. _Docker build_ allows us to specify a tagname and a version, separated by a colon ":", using the _--tag_ tag. Note that the colon at the end is not a blob on your screen or a bug, but refers to the folder we are in.
 

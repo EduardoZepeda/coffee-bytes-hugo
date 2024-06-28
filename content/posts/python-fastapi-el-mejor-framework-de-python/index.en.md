@@ -652,7 +652,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment with Docker
 
-Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/en/basic-commands-basic-docker-tutorial/) file.
+Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/en/the-most-useful-and-basic-docker-commands//) file.
 
 ```bash
 touch Dockerfile
