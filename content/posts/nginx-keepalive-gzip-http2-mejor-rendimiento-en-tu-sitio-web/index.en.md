@@ -17,7 +17,7 @@ authors:
 
 Some months ago I was reviewing the Lighthouse settings for a website when I realized that it did not comply with certain recommendations, it was using http/1.1, no gzip compression, no cache. Later I fixed the problems, I'll tell you how below. In this post I talk about the following nginx features: keepalive, gzip, cache and http2 and how you can modify them to improve your [Lighthouse](https://web.dev/) values.
 
-## http2 in nginx
+## Activate http2 in nginx
 
 As surprising as it may sound, many servers do not enable HTTP/2 by default, so if this is your case, you can enable it for better performance. The HTTP/2 protocol is more efficient than HTTP/1, so you get better indicators using it.
 
@@ -54,7 +54,7 @@ server: nginx
 # ...
 ```
 
-## enable gzip compression in nginx
+## Enable gzip compression in nginx
 
 The gzip compression allows us to reduce the size of the resources we send, it is not usually enabled by default.
 
@@ -120,7 +120,7 @@ x-content-type-options: nosniff
 content-encoding: gzip
 ```
 
-## nginx keepalive
+## Nginx keepalive
 
 The nginx configuration value, keepalive_timeout, tells the server **how long to keep the TCP connection active for multiple HTTP responses**.
 
@@ -137,7 +137,7 @@ The value of nginx keepalive will be the duration of this call, in the first sce
 keepalive_timeout 65;
 ```
 
-## Cache
+## Cache in Nginx
 
 Using cache can greatly improve the performance of your server. To enable cache just **add the word _expires_**, followed by the duration to the resources you want to cache.
 
@@ -170,7 +170,37 @@ curl -I https://tu-sitio-web.com/static/imagen.jpg
 cache-control: max-age=2592000
 ```
 
-## Implement Throttling
+## Creating an upstream cache
+
+First let's create the path where the cache will be stored, in this case we go directly to the path */var/cache/*, but it could be anywhere else.
+
+``` bash
+proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=cache:10m inactive=60m;
+```
+
+The *inactive* argument of proxy_cache_path sets the time the response will be stored in the cache after its last use.  
+
+And now let's add the necessary headers so that the browser understands that it has to store the response.
+
+Using the *proxy_cache_valid* directive we give a validity to the response, before that time elapses, the response will still be considered valid and will be returned without querying the backend.
+
+It is important to note that *proxy_cache_path* must have an idle time greater than the expiration time of the requests (proxy_cache_valid).
+
+
+``` bash
+location /url {
+    # ...
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $host;
+    proxy_redirect off;
+    proxy_buffering off;
+    proxy_cache cache;
+    proxy_cache_valid any 2h; # 200 instead of any is also valid
+    add_header X-Proxy-Cache $upstream_cache_status;
+}
+```
+
+## Implement Throttling in Nginx
 
 If there are some clients that make a lot of requests, keeping your server busy and affecting the rest of the users, you can implement Throttling to limit their impact. If you want to know more about it, I have a post where I talk about [Throttling in Nginx](/en/throttling-on-nginx/).
 

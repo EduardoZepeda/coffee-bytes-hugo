@@ -1,5 +1,5 @@
 ---
-title: "How to upload multiple images in Django?"
+title: "How to upload multiple images in Django"
 date: "2021-03-30"
 categories:
 - "django"
@@ -104,7 +104,7 @@ To make our input accept multiple images we add the _multiple_ attribute to our 
 
 Remember to add the POST method and the **_{% csrf_token %}_** tag so that your form is protected.
 
-```python
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

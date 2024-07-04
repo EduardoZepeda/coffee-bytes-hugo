@@ -18,7 +18,7 @@ title: 'Nginx keepalive, gzip, http2: mejor rendimiento en tu sitio web'
 
 Hace algunos meses estaba revisando los valores de Lighthouse para un sitio web cuando me di cuenta de que no cumplia con ciertas recomendaciones, usaba http/1.1, no contaba con compresión gzip, ni cache. Más tarde arreglé los problemas, te cuento como a continuación. En esta entrada te platico sobre las siguientes características de nginx: keepalive, gzip, cache y http2 y como puedes modificarlas para mejorar tus valores de [Lighthouse](https://web.dev/), también considera que [no debes obsesionarte con el rendimiento de tu aplicación](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) hasta que sea el momento adecuado de hacerlo.
 
-## http2 en nginx
+## Activar http2 en nginx
 
 Por más sorprendente que suene, muchos servidores no habilitan HTTP/2 por defecto, por lo que, si es tu caso, puedes habilitarlo para tener un mejor rendimiento. El protocolo HTTP/2 es más eficiente que HTTP/1, por lo que obtendremos mejores indicadores usándolo.
 
@@ -55,7 +55,7 @@ server: nginx
 # ... 
 ```
 
-## habilitar compresión gzip en nginx
+## Habilitar compresión gzip en nginx
 
 La compresión gzip nos permite reducir el tamaño de los recursos que mandamos, tampoco suele venir habilitada por defecto.
 
@@ -121,7 +121,7 @@ x-content-type-options: nosniff
 content-encoding: gzip
 ```
 
-## nginx keepalive
+## keepalive en Ngnix
 
 El valor de configuración de nginx, keepalive\_timeout, le dice al servidor **cuanto tiempo debe mantener activa la conexión TCP para múltiples respuestas HTTP.**
 
@@ -138,7 +138,7 @@ El valor de nginx keepalive será la duración de esta llamada, en el primer esc
 keepalive_timeout 65;
 ```
 
-## Cache
+## Caché en Nginx
 
 Usar cache puede mejorar enormemente el rendimiento de tu servidor. Para habilitar cache basta con **agregar la palabra _expires_**, seguido de la duración a los recursos que queremos colocar en cache.
 
@@ -169,6 +169,35 @@ Si haces una petición web a la ruta que está siendo cacheada deberías recibir
 ```bash
 curl -I https://tu-sitio-web.com/static/imagen.jpg
 cache-control: max-age=2592000
+```
+
+## Creación de un upstream cache
+
+Primero vamos a crear el path donde se almacenará la caché, en este caso vamos directo a la ruta */var/cache/*, pero podría ser en cualquier otro lado
+
+``` bash
+proxy_cache_path /var/cache/nginx levels=1:2 keys_zone=cache:10m inactive=60m;
+```
+
+El argumento *inactive* de proxy_cache_path establece el tiempo que se almacenará la respuesta en la caché tras su último uso.  
+
+Y ahora vamos agregar los headers necesarios para que el navegador entienda que tiene que guardar la respuesta.
+
+Mediante la directiva *proxy_cache_valid* le damos una validez a la respuesta, antes de que transcurra ese tiempo, la respuesta se considerará aún válida y se devolverá sin consultar al backend.
+
+Es importante que notes que *proxy_cache_path* debe tener un tiempo de inactividad mayor que el tiempo de expiración de las peticiones (proxy_cache_valid).
+
+``` bash
+location /url {
+    # ...
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $host;
+    proxy_redirect off;
+    proxy_buffering off;
+    proxy_cache cache;
+    proxy_cache_valid any 2h; # 200 instead of any is also valid
+    add_header X-Proxy-Cache $upstream_cache_status;
+}
 ```
 
 ## Implementa Throttling
