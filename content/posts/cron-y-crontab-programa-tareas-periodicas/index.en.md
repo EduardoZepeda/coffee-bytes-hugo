@@ -42,7 +42,7 @@ This will open our default terminal text editor. When reviewing the contents we 
 
 The meaning of each element of this line is as follows:
 
-* # Serves to maintain this commented line, do not remove it.
+* \# Serves to keep this line commented, do not remove it.
 * m stands for minutes
 * h stands for hours
 * dom means day of month (day of month)
@@ -125,7 +125,7 @@ QT_QPA_PLATFORMTHEME=qgnomeplatform
 ...
 ```
 
-On the other hand if you get the environment variables that are active when you use Crontab you will notice that they are much less. **The processes that Cron runs from Crontab do not have access to all the environment variables.
+On the other hand if you get the environment variables that are active when you use Crontab you will notice that they are much less. **The processes that Cron runs from Crontab do not have access to all the environment variables**.
 
 ```bash
 PATH=/usr/bin:/bin
@@ -138,7 +138,19 @@ LOGNAME=usuario
 PWD=/home/usuario
 ```
 
-Why is this important? Because sometimes we schedule tasks that require environment variables in order to run correctly, and if crontab can't access them, it will fail to run them. Again, **remember that crontab does not have access to all environment variables**.
+Why is this important? Because sometimes we schedule tasks that require environment variables in order to run correctly, and if crontab can't access them, it will fail to run them. Again, **remember that crontab does not have access to all environment variables by default**.
+
+### How to set environment variables in crontab?
+
+To use environment variables it is necessary to load them manually, concatenating the command that loads them with the command we want to run.
+
+``` bash
+* * * * * source /app/.env; script.py
+```
+
+Also remember that you have to use the absolute url.
+
+You can also load them from your profile
 
 ## A very useful tool
 

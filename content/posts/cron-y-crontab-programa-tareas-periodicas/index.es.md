@@ -47,7 +47,7 @@ Esto nos abrirá nuestro editor de texto de terminal predeterminado. Al revisar 
 
 El significado de cada elemento de esa linea es el siguiente:
 
-- \# Sirve para mantener esta linea comentada, no lo remuevas.
+- \# Sirve para mantener la linea comentada, no lo remuevas.
 - m significa minutos (minutes)
 - h significa horas (hours)
 - dom significa día del mes (day of month)
@@ -143,7 +143,15 @@ LOGNAME=usuario
 PWD=/home/usuario
 ```
 
-¿Y esto porque es importante? Porque a veces programamos tareas que requieren de variables de entorno para poder ejecutarse correctamente y, si Crontab no puede acceder a ellas, pues fallará al ejecutarlas. Una vez más, **recuerda que crontab no tiene acceso a todas las variables de entorno.**
+¿Y esto porque es importante? Porque a veces programamos tareas que requieren de variables de entorno para poder ejecutarse correctamente y, si Crontab no puede acceder a ellas, pues fallará al ejecutarlas. Una vez más, **recuerda que crontab no tiene acceso a todas las variables de entorno de manera predeterminada.**
+
+### ¿Cómo establecer variables de entorno en crontab?
+
+Para usar variables de entorno es necesario cargarlas de manera manual, concatenando el comando que las cargas con el comando que queremos que se ejecute.
+
+``` bash
+* * * * * source .env; script.py
+```
 
 ## Una herramienta bastante útil
 
