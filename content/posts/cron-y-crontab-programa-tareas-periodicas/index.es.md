@@ -117,6 +117,12 @@ Y si queremos que un script que se ejecute cada hora, pero solo durante la madru
 0 */6 * * *  script.py
 ```
 
+## El entorno de ejecución de Crontab
+
+El entorno de ejecución de crontab es un entorno mínimo, donde la mayoría de los programas, configuraciones y otras personalizaciones que tenemos configuradas estarán ausentes, por lo que es importante que no des por hecho que ciertos comandos estarán ahí. 
+
+Por ejemplo el simple hecho de cambiar la terminal de */bin/sh* a */bin/bash* ya nos priva de usar herramientas como *source*. Probablemente si estás usando entornos virtuales en Python u otro tipo de personalización tendrás que especificarlo directamente.
+
 ## Crontab y las variables de entorno
 
 **Hay algo muy importante que debemos recordar cada vez que utilicemos Crontab; las variables de entorno.** Normalmente en un sistema GNU/Linux tenemos una serie de variables de entorno, las cuales podremos visualizar usando el comando _printenv_ en terminal. Intenta ejecutar el comando en tu terminal para que veas la gran cantidad de variables de entorno que tiene tu sistema. Las variables de entorno pueden variar enormemente de acuerdo al usuario, pero lo importante es apreciar que son bastantes.
@@ -143,6 +149,8 @@ LOGNAME=usuario
 PWD=/home/usuario
 ```
 
+Observa como el shell por defecto es */bin/sh* en lugar de */bin/bash*
+
 ¿Y esto porque es importante? Porque a veces programamos tareas que requieren de variables de entorno para poder ejecutarse correctamente y, si Crontab no puede acceder a ellas, pues fallará al ejecutarlas. Una vez más, **recuerda que crontab no tiene acceso a todas las variables de entorno de manera predeterminada.**
 
 ### ¿Cómo establecer variables de entorno en crontab?
@@ -150,14 +158,28 @@ PWD=/home/usuario
 Para usar variables de entorno es necesario cargarlas de manera manual, concatenando el comando que las cargas con el comando que queremos que se ejecute.
 
 ``` bash
-* * * * * . .env; script.py
+* * * * * . ./.env; script.py
 ```
 
 Dos cosas importantes a recordar aquí:
 - Cron ejecuta los comandos desde root, así que asegúrate de incluir la ruta completa.
 - No tienes comandos disponibles en bash, porque cron usa /bin/sh, así que para cargar variables de entorno usa un punto "." en lugar de *source*.
 
-## Una herramienta bastante útil
+## Cómo emular el entorno de ejecución de cron
+
+A veces queremos depurar y encontrar el porqué cierto script no se ejecuta como queremos. Para hacerlo, encontré la [siguiente solución en stackoverflow](https://stackoverflow.com/questions/2135478/how-to-simulate-the-environment-cron-executes-a-script-with#?)
+
+``` bash
+* * * * env > ~/cronenv
+```
+
+Espere sólo un segundo para que se ejecute, y luego empieza a experimentar en este nuevo shell.
+
+``` bash
+env - `cat ~/cronenv` /bin/sh
+```
+
+## Crontab guru Una herramienta bastante útil
 
 Como ya te has dado cuenta a veces la configuración puede complicarse demasiado y si no lo hacemos bien puede haber consecuencias; sencillas, como que nuestro script cambie de wallpaper cada minuto en lugar de cada hora; o graves, como que nuestro respaldo no se efectúe con la periodicidad deseada. Imagínate que, sin desearlo, programaste el respaldo de la base de datos una vez cada año en lugar de una vez cada veinticuatro horas, vas a pasar un mal rato si la base de datos llega a fallar.
 

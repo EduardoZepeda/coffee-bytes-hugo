@@ -138,23 +138,45 @@ LOGNAME=usuario
 PWD=/home/usuario
 ```
 
+Notice how the default shell is */bin/sh* instead of */bin/bash*.
+
 Why is this important? Because sometimes we schedule tasks that require environment variables in order to run correctly, and if crontab can't access them, it will fail to run them. Again, **remember that crontab does not have access to all environment variables by default**.
 
-### How to set environment variables in crontab?
+## The Crontab runtime environment
+
+The crontab runtime environment is a minimal environment, where most of the programs, settings and other customizations we have configured will be absent, so it is important that you don't take for granted that certain commands will be there. 
+
+For example, simply changing the terminal from */bin/sh* to */bin/bash* already deprives us of using tools like *source*. Probably if you are using Python virtual environments or other customization you will have to specify it directly.
+
+### How to set environment variables in crontab
 
 To use environment variables it is necessary to load them manually, concatenating the command that loads them with the command we want to run.
 
 ``` bash
-* * * * * . /app/.env; script.py
+* * * * * . ./app/.env; script.py
 ```
 
 Two important things to remember here:
 - Cron runs processes from root, so make sure to use the absolute path.
-- Because cron uses */bin/sh*, you don't have commands available in bash, like *source* so to load environmental variables use a dot ".".
+- Because cron uses */bin/sh*, you don't have commands available in bash, like *source*, so to load environmental variables use a dot ".".
 
-You can also load them from your profile
+You can also load them from your *.profile* in your home directory.
 
-## A very useful tool
+## How to emulate cron's environment
+
+Sometimes we want to debug why certain script is not executing the way we want. To do so, I found the [following solution on stackoverflow](https://stackoverflow.com/questions/2135478/how-to-simulate-the-environment-cron-executes-a-script-with#?)
+
+``` bash
+* * * * * env > ~/cronenv
+```
+
+Wait just one second for it to execute, and then start experimenting in this new shell.
+
+``` bash
+env - `cat ~/cronenv` /bin/sh
+```
+
+## Crontab Guru, a very useful tool
 
 As you have already noticed, sometimes the configuration can get too complicated and if we don't do it right there can be consequences; simple, such as our script changing wallpaper every minute instead of every hour; or serious, such as our backup not being performed as often as desired. Imagine that, without wanting to, you scheduled the database backup once a year instead of once every twenty-four hours, you are going to have a hard time if the database fails.
 
