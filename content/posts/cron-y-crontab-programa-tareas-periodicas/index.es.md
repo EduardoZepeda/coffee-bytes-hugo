@@ -150,8 +150,12 @@ PWD=/home/usuario
 Para usar variables de entorno es necesario cargarlas de manera manual, concatenando el comando que las cargas con el comando que queremos que se ejecute.
 
 ``` bash
-* * * * * source .env; script.py
+* * * * * . .env; script.py
 ```
+
+Dos cosas importantes a recordar aquí:
+- Cron ejecuta los comandos desde root, así que asegúrate de incluir la ruta completa.
+- No tienes comandos disponibles en bash, porque cron usa /bin/sh, así que para cargar variables de entorno usa un punto "." en lugar de *source*.
 
 ## Una herramienta bastante útil
 

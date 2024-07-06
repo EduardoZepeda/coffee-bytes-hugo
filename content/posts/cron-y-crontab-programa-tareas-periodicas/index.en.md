@@ -145,10 +145,12 @@ Why is this important? Because sometimes we schedule tasks that require environm
 To use environment variables it is necessary to load them manually, concatenating the command that loads them with the command we want to run.
 
 ``` bash
-* * * * * source /app/.env; script.py
+* * * * * . /app/.env; script.py
 ```
 
-Also remember that you have to use the absolute url.
+Two important things to remember here:
+- Cron runs processes from root, so make sure to use the absolute path.
+- Because cron uses */bin/sh*, you don't have commands available in bash, like *source* so to load environmental variables use a dot ".".
 
 You can also load them from your profile
 
