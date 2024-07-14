@@ -3,7 +3,7 @@ date: '2024-07-12T23:51:01-06:00'
 title: 'Arregla querys lentas en Django al usar annotate y subqueries'
 categories:
 - django
-- databases
+- bases de datos
 coverImage: 'images/fix-slow-queries-in-Django-when-using-annotate-and-subqueries.jpg'
 description: 'Evita la repeteción de subqueries y el subsecuente rendimiento pobre al usar Django annotate usando raw queries y Common Table Expressions (CTEs) en bases de datos SQL'
 keyword: 'annotate y subqueries'
