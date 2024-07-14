@@ -238,6 +238,10 @@ queryset_2 = Seller.objects.filter(name__startswith="Lovecraft")
 results = queryset_1 & queryset_2
 ```
 
+### When not to use Django annotate? 
+
+Django annotate is quite inefficient when combined with subqueries, so if your application uses a lot of subqueries and frequently combines them with annotate, it might be a better idea to [write your own SQL and use CTEs]({{< ref path="/posts/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="en" >}}).
+
 ## Aggregate in Django
 
 ### Why use aggregate?

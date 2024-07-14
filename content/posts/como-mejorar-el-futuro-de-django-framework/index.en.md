@@ -84,6 +84,7 @@ Without more to add I leave the link to the discussion if you want to see the re
 
 Among the other suggestions I would like to highlight the following, as they received minor support or were mentioned multiple times throughout the thread:
 
+- Add (support for CTEs)[({{< ref path="/posts/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="en" >}})]
 - Better form handling
 - Better static content handling with emphasis on most popular frontend frameworks
 - Out of the box support for queues

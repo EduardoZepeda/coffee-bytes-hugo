@@ -82,6 +82,7 @@ Sin más que agregar te dejo el enlace a la discusión por si quieres ver el res
 
 Entre las demás sugerencias me gustaría destacar las siguientes, pues se recibieron un apoyo menor o se repitieron a lo largo del hilo:
 
+- Agregar [soporte para CTEs a su ORM]({{< ref path="/posts/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="es" >}})
 - Mejor manejo de formularios
 - Mejor manejo de contenido estático con énfasis en los frameworks frontend más populares
 - Soporte "out of the box" para colas
