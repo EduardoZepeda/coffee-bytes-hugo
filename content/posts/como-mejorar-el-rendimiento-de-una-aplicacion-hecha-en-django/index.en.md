@@ -218,9 +218,9 @@ Instead of performing a count, you could store that number in the database or in
 Of course this brings the problem that you now have more data to maintain, not coupled together, so **you should only use this option to solve your Django performance problems if you have already exhausted the other options**.
 
 ```python
-count = my_model.objects.filter(description__icontains="para niños").count() 
+count = my_model.objects.filter(description__icontains="for kids").count() 
 # ... denormalizing
-count = my_count.objects.get(description="para niños") # Each row of the my_count model contains a description and the total results.
+count = my_count.objects.get(description="for kids") # Each row of the my_count model contains a description and the total results.
 total_count = count.total
 ```
 
@@ -254,7 +254,7 @@ Depending on the progress of your application, you may want to migrate to anothe
 
 Or, if your application is not very complex at the database level, you may want to write your own sql queries and combine them with some other framework.
 
-The current trend is to separate frontend and backend, so Django is being used in conjunction with Django Rest Framework to create APIs, so if your plans include the creation of an API, you may want to consider FastAPI, if you don't know it, take a look at my post where I explain [the basics of FastAPI](/en/fastapi-tutorial-the-best-python-framework/).
+The current trend is to sefor kidsntend and backend, so Django is being used in conjunction with Django Rest Framework to create APIs, so if your plans include the creation of an API, you may want to consider FastAPI, if you don't know it, take a look at my post where I explain [the basics of FastAPI](/en/fastapi-tutorial-the-best-python-framework/).
 
 ## Bonus: applications with more than 63 000 models
 
