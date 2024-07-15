@@ -38,10 +38,10 @@ Es bastante común escribir código que ocasiones múltiples consultas a la base
 
 Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) y redúcelas, o vuélvelas más eficientes:
 
-- **select\_related()** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/es/diferencias-entre-select_related-y-prefetch_related-en-django/)
-- **prefetch\_related()** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
-- **django\_annotate()** para agregar información a cada objecto de una consulta. Tengo una entrada donde explico [la diferencia entre annotate y aggregate](/es/django-annotate-y-aggregate-explicados/)
-- **django\_aggregate()** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).
+- **select_related** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/es/diferencias-entre-select_related-y-prefetch_related-en-django/)
+- **prefetch_related** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
+- **django_annotate** para agregar información a cada objecto de una consulta. Tengo una entrada donde explico [la diferencia entre annotate y aggregate](/es/django-annotate-y-aggregate-explicados/)
+- **django_aggregate** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
 - **annotate y subqueries** Ten cuidado con la forma en que Django utiliza [anotar y subconsultas y escribir CTEs o SQL en crudo]({{< ref path="/posts/managers-o-manejadores-personalizados-en-django/index.md" lang="en" >}}) si es necesario.
@@ -74,7 +74,7 @@ Ellos recomiendan establecer los workers en (2 x número de nucleos) + 1. Según
 
 Si usas DRF y usas sus clases genéricas para crear serializers, puede que no estés obteniendo exactamente el mejor rendimiento. Las clases genéricas para serializers realizan validación de los datos, que puede ser bastante costoso en tiempo si solo vas a leer datos.
 
-Incluso si recordaste marcar tus campos como read\_only, los serializers de DRF no son los más rápidos, puede que quieras revisar [Serpy](https://serpy.readthedocs.io/en/latest/#?), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/#?). El tema es bastante amplio, pero quédate con la idea de que hay un área de mejora importante en los serializers de Django.
+Incluso si recordaste marcar tus campos como *read_only*, los serializers de DRF no son los más rápidos, puede que quieras revisar [Serpy](https://serpy.readthedocs.io/en/latest/#?), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/#?). El tema es bastante amplio, pero quédate con la idea de que hay un área de mejora importante en los serializers de Django.
 
 Te dejo este artículo que explica [como unos desarrolladores lograron reducir el coste en tiempo, de la serialización en un 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 

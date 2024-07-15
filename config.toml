@@ -200,7 +200,16 @@ child-src = ["'self'"]
 font-src = ["'self'"]
 form-action = ["'self'"]
 frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com"]
-img-src = ["'self'", "*.cloudinary.com", "*.codewars.com", "*.google.com", "*.google.com.mx", "*.googletagmanager.com", "https://htmx.org"]
+img-src = [
+  "'self'",
+  "*.cloudinary.com",
+  "*.amazonaws.com",
+  "*.codewars.com",
+  "*.google.com",
+  "*.google.com.mx",
+  "*.googletagmanager.com",
+  "https://htmx.org",
+]
 object-src = ["'none'"]
 script-src = [
   "'self'",

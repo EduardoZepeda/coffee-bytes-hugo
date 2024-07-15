@@ -87,8 +87,8 @@ La consulta SQL con las Common Table Expressions (CTEs) que usaremos tendría la
 WITH my_cte AS (
     SELECT 
         a.column
-        (SELECT ...suquery_one) AS first_annotation, 
-        (SELECT ...suquery_two) AS second_annotation
+        (SELECT ...subquery_one) AS first_annotation, 
+        (SELECT ...subquery_two) AS second_annotation
     FROM table_a 
     LEFT OUTER JOIN table_b 
     ON table_a.id = table_b.id 
@@ -103,7 +103,8 @@ SELECT
 FROM my_cte;
 ```
 
-Como puedes apreciar las subqueries están entre paréntesis y ahora aparecen una única vez cada una. 
+Ahora, ¡mira! Como puedes ver las subconsultas están entre paréntesis y cada una de ellas aparece una sola vez. 
+El uso de Common Table Expressions (CTEs) nos permite utilizar una consulta eficiente, evitando múltiples consultas repetitivas a la base de datos y nos dará un rendimiento que supera a la consulta del ORM de Django en varios órdenes de magnitud (he conseguido reducir el tiempo de ejecución de algunas consultas de 13 segundos a tan sólo 0,7 segundos). 
 
 Usar las Common Table Expressions (CTEs) nos permitirá una consulta eficiente, evitando múltiples consultas repetitivas a la base de datos y nos ofrecerá un rendimiento que supera enórmemente al ORM de Django por varios órdenes de magnitud. Quizás implementar CTEs sea una de las [acciones que se pueden tomar para mejorar el Django framework.]({{< ref path="/posts/como-mejorar-el-futuro-de-django-framework/index.md" lang="es" >}})
 
