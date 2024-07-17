@@ -19,6 +19,10 @@ languageName = 'English'
 title = 'Coffee bytes'
 weight = 1
 [[languages.en.menu.main]]
+name = "Let's work together"
+url = "/en/pages/lets-work-together/"
+weight = 2
+[[languages.en.menu.main]]
 name = "RSS"
 url = "/index.xml"
 weight = 2
@@ -86,6 +90,10 @@ disabled = false
 languageCode = 'es'
 languageDirection = 'ltr'
 languageName = 'Español'
+[[languages.es.menu.main]]
+name = "Trabajemos juntos"
+url = "/es/pages/trabajemos-juntos/"
+weight = 1
 [[languages.es.menu.main]]
 name = "RSS"
 url = "/index.xml"
