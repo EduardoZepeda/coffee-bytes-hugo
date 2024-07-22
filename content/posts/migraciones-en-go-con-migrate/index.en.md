@@ -34,7 +34,7 @@ For this case they are called up and down, but you could give them any other nam
 
 For example:
 
-![Manually generated migration files](images/migrations.jpg "Manually generated migration files")
+![Manually generated migration files](images/migrations-in-go.jpg "Manually generated migration files")
 
 ### Migrations are complementary
 
@@ -183,4 +183,4 @@ Each of these endpoints requires a specific syntax. For example, the Amazon S3 e
 migrate -source="s3://<bucket>/<path>" -database=$DATABASE up
 ```
 
-With this you already know the basics about migrations and you probably also value a lot more tools that take care of this automatically, such as Django, Ruby on Rails, South, etc.
+With this you already know the basics about migrations and you probably also value a lot more tools and [ORMs that take care of this automatically, such as Django](/en/why-should-you-use-django-framework/), Ruby on Rails, South, etc.

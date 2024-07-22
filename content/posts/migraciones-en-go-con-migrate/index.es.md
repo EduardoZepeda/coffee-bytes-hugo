@@ -186,4 +186,4 @@ Cada uno de estos endpoints requiere una sintaxis específica. Por ejemplo, el d
 migrate -source="s3://<bucket>/<path>" -database=$BASE_DE_DATOS up
 ```
 
-Con esto ya sabes lo básico sobre migraciones y probablemente también valores mucho más herramientas que se encargan de esto de manera automática, como Django, Ruby on Rails, South, etc.
+Con esto ya sabes lo básico sobre migraciones y probablemente también valores mucho más herramientas y[ ORMs que se encargan de esto de manera automática, como Django](/es/por-que-deberias-usar-django-framework/), Ruby on Rails, South, etc.
