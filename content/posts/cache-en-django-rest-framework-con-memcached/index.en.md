@@ -38,9 +38,9 @@ As you can see the difference is almost 10 times the time.
 
 If you're in a situation where [your application's performance is critical](/en/dont-obsess-about-your-web-application-performance/), cache is definitely one of the first steps that you have to make in order to improve your site's speed.
 
-## Installing memcached
+## Installing memcached, a cache backend in django
 
-Caching in django requires memcached, redis or another caching method.
+Caching in django requires memcached, redis or another caching backend method.
 
 Memcached is the fastest and most efficient method according to django developers, so we will use this one. Memcached, is memory based and is allocated a fixed amount of RAM that it can use, it is quite fast to implement and simple to use. It is also included in the repositories of many GNU/Linux distributions.
 
@@ -59,7 +59,7 @@ sudo systemctl status memcached
 
 It's pretty obvious, but I feel I should mention it: remember that **memcached stores data in memory, it will be deleted when the system is shut down or rebooted**. Therefore you should make sure to use memcached only as a temporary storage and store content there that you wouldn't mind losing or that you plan to dump later to a database.
 
-## pymemcache installation
+## Installing cache backend bindings in Django
 
 I will install the following dependencies for this tutorial:
 
@@ -82,7 +82,7 @@ You can use django-seed to populate your database tables.
 python manage.py seed nombreDeTuApp --number=1000
 ```
 
-## Configuring the CACHES variable in django
+## How to configure cache in in django
 
 To configure the behavior of the cache we will create a variable called CACHES, where we will specify the backend we want to use and its location. In this case it will be localhost, with port 11211; the default port for memcached.
 
@@ -123,7 +123,7 @@ CACHES = {
 }
 ```
 
-## Put on caching all over the web site
+## Put on cache all over the web site
 
 To cache the entire Django website, just add two middlewares:
 
@@ -132,7 +132,7 @@ To cache the entire Django website, just add two middlewares:
 
 Make sure that _django.middleware.cache.UpdateCacheMiddleware_ is the first middleware in your list and _django.middleware.cache.FetchFromCacheMiddleware_ is the last.
 
-In the same way dja_ngo.middleware.common.CommonMiddleware_ must be active.
+In the same way *django.middleware.common.CommonMiddleware* must be active.
 
 **While these middlewares are active, Django will cache any page that receives GET and HEAD methods** and returns an HTTP status of 200.
 
@@ -161,7 +161,7 @@ He also mentioned that Django's per-site cache is not compatible with the _djang
 
 ## Cache per django view
 
-But what if you don't want to cache the entire website? Most websites are a mix of dynamic pages and static pages. You probably only want to leave the static pages, or pages that change rarely, in cache and make sure that your user receives the dynamic pages with updated content. That is, only certain views should be cached.
+But what if you don't want to cache the entire website? Most websites are a mix of dynamic pages and static pages. You probably only want to leave the static pages, or pages that change rarely, in cache and make sure that your user receives the dynamic pages with updated content, also you probably don't want to cache pages that depend on user's session. That means that only certain views should be cached.
 
 To cache the result of a view just use the _@cache_page_ decorator provided by django and pass the time you want django to cache, in seconds, for that view.
 
@@ -238,32 +238,32 @@ from django.core.cache import cache
 class LargeViewSet(viewsets.Viewset):
 
     def list(self, request):
-        querysetCostosoEnCache = cache.get('querysetCostoso') # devuelve None si no existe
-        if querysetCostosoEnCache:
-            return Response(querysetCostosoEnCache)
-        querysetCostoso = Large.objects.all()
-        serializer = LargeSerializer(querysetCostoso)
+        expensiveQueryset = cache.get('costlyQueryset') # devuelve None si no existe
+        if expensiveQueryset:
+            return Response(expensiveQueryset)
+        costlyQueryset = Large.objects.all()
+        serializer = LargeSerializer(costlyQueryset)
         # Una vez calculado lo guardamos en caché para no tener que calcularlo de nuevo
-        cache.set('querysetCostoso', serializer.data, 60*180)
+        cache.set('costlyQueryset', serializer.data, 60*180)
         return Response(serializer.data)
 ```
 
 If we want to use default values if there is no value in the cache we pass the value as the second argument.
 
 ```python
-cache.get('valorCostoso', 'valorPorDefecto')
+cache.get('expensiveValue', 'defaultValue')
 ```
 
 We can also obtain multiple keys by passing a list of keys to the _get_many()_ method.
 
 ```python
-cache.get_many(['llave1', 'llave2'])
+cache.get_many(['key_1', 'key_2'])
 ```
 
 And if we want to get rid of some value we use the _delete()_ method.
 
 ```python
-cache.delete('llaveAsociada')
+cache.delete('key')
 ```
 
 ## Cache relying on cookies, headers and no-cache
@@ -274,17 +274,17 @@ We have decorators who are in charge of achieving exactly this.
 
 ### vary_on_headers
 
-vary_on_headers will set a different cache response for each different userAgent header. Remember that cookies are specified by headers.
+vary_on_headers will set a different cache response for each different userAgent header. Remember that cookies are set using headers.
 
 ```python
 from django.views.decorators.vary import vary_on_headers
 
 @vary_on_headers('User­Agent')
-def vistaParaCadaNavegador(request):
+def different_view_per_user_agent(request):
 # ...
 
 @vary_on_headers('User­Agent', 'Cookie')
-def vistaParaCadaNavegador(request):
+def different_view_per_user_agent(request):
 # ...
 ```
 
@@ -296,7 +296,7 @@ This decorator will create a different cache entry for each cookie that receives
 from django.views.decorators.vary import vary_on_headers
 
 @vary_on_cookie
-def vistaParaCadaCookie(request):
+def different_view_per_cookie(request):
 # ...
 ```
 
@@ -350,7 +350,7 @@ If we want to prevent django from caching our views we mark them with the decora
 from django.views.decorators.cache import never_cache
 
 @never_cache
-def vistaQueNuncaSeCacheara():
+def some_random_view():
     #...
 ```
 
@@ -368,7 +368,7 @@ CACHES = {
 }
 ```
 
-## Other types of cache
+## File system cache, database cache, in memory cache and other types of cache in Django
 
 In addition to caching using memcached, you can store the data directly in memory, use a database or directly as hard disk data. To do this, simply change the CACHES configuration variable to other locations.
 

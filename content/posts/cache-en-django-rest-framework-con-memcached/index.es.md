@@ -354,11 +354,11 @@ Si queremos evitar que django ponga en caché nuestras vistas las marcamos con e
 from django.views.decorators.cache import never_cache
 
 @never_cache
-def vistaQueNuncaSeCacheara():
+def some_random_view():
     #...
 ```
 
-## Caché para el proceso de desarrollo
+## Caché en el entorno de desarrollo
 
 Si estás desarrollando un sitio web con Django y por alguna razón no puedes (o no quieres) instalar redis, memcached o cualquier otro sistema de almacenamiento de caché, puedes usar una caché falsa que provee Django. La caché falsa engañará a tu aplicación y la hará creer que hay un sistema de almacemiento de caché real.
 
@@ -372,7 +372,7 @@ CACHES = {
 }
 ```
 
-## Otros tipos de caché
+## Caché basado en el sistema de archivo, base de datos, memoria u otros tipos de caché en Django
 
 Además de la caché usando memcached, puedes guardar los datos directamente en memoria, usar una base de datos o directamente como información del disco duro. Para ello basta con cambiar la variable de configuración CACHES por otras locaciones.
 
