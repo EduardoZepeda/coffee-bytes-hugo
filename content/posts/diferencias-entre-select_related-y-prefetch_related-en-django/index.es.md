@@ -23,7 +23,7 @@ title: Diferencias entre select_related y prefetch_related en Django
 
 Los métodos *select_related* y *prefetch_related* **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/como-escalar-django-para-manejar-millones-de-vistas/)
 
-Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obsesionarte con su rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/).
+Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obsesionarte con su rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), pero sí insistes considera echarle un vistazo a aggregate y annotate, demás de tener cuidado con usar este último pues [las subqueries pueden volver tus queries increíblemente lentas.](/es/arregla-querys-lentas-en-django-al-usar-annotate-y-subqueries/)
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación de Django de forma barata y con buen rendimiento, DO tiene VPS (ellos les llaman Droplets) desde $4 usd el mes">}}
 
@@ -116,7 +116,7 @@ SELECT "my_app_derivado"."id",
 
 ## prefetch_related
 
-Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo ***ManyToMany* o un *ForeignKey* inverso**.
+Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo *ManyToMany* o un *ForeignKey* inverso**.
 
 ![Esquema del funcionamiento de prefetch_related en django](images/prefetch_related.png)
 
