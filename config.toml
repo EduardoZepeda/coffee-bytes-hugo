@@ -59,7 +59,7 @@ weight = 3
 [[languages.en.menu.social]]
 name = "Instagram"
 pre = "instagram"
-url = "https://instagram.com/eduardozepeda.dev"
+url = "https://instagram.com/zeedu.dev"
 weight = 4
 [[languages.en.menu.social]]
 name = "Linkedin"
@@ -131,7 +131,7 @@ weight = 3
 [[languages.es.menu.social]]
 name = "Instagram"
 pre = "instagram"
-url = "https://instagram.com/eduardozepeda.dev"
+url = "https://instagram.com/zeedu.dev"
 weight = 4
 [[languages.es.menu.social]]
 name = "Linkedin"

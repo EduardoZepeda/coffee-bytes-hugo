@@ -20,7 +20,7 @@ authors:
 
 It is common practice to use Github to assess a developer's capabilities, but to do so blindly, ignoring the following set of factors, would make your ignorance cost you access to candidates with greater potential and experience in the workings of the software world.
 
-## An empty github does not mean being incompetent.
+## An empty github does not mean someone is incompetent.
 
 "Absence of evidence is not evidence of absence" or, put in other words, just because a person doesn't have excellent quality code on Github, doesn't mean they can't write it. 
 
@@ -41,7 +41,7 @@ Ironically my github looks like this:
 
 Yes, as you may know, not all developers are ~~fans of free software's Slavoj Žižek: Richard Stallman~~ so altruistic to contribute code to humanity without expecting anything in return, can we blame them?, aren't most companies being hypocritical? Do companies that use Github to evaluate their candidates put their code base as open source on Github?
 
-## Microsoft, Github and the code theft scandals
+## The fear of getting your code or ideas stolen
 
 Microsoft has never been known for its ethics when it comes to doing business, since its early days it has been involved in [code theft related rampages](https://www.wired.com/2012/08/ms-dos-examined-for-thef/#?). It has also kept that reputation alive with scandals such as:
 
@@ -52,7 +52,7 @@ Considering the above, and regardless of the veracity of the claims, **I wouldn'
 
 ![github meme](images/github-meme-invencibles.webp "Github meme")
 
-## Not all projects are on Github, there are Bitbucket, Gitlab, Gitea and others.
+## Not all projects are on Github, Bitbucket, Gitlab, Gitea and others exist too
 
 Github is the de facto service for managing online repositories, but there are other options such as Bitbucket, Gitlab, Gitea, launchpad, which although lacking the size and number of services offered by Github, compensate with a better reputation.
 
