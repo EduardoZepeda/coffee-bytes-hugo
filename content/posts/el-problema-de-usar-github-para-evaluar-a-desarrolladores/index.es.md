@@ -3,6 +3,7 @@ date: '2024-08-06T10:13:00-06:00'
 title: 'El Problema De Usar Github Para Evaluar A Los Desarrolladores'
 categories:
 - opiniones
+- git
 coverImage: "images/the-problem-of-using-github-to-evaluate-candidates.jpg"
 description: 'Usar github para evaluar candidatos es señal de no entender el mundo del software y todos sus matices, hay muchas razones válidas para explicar por qué un desarrollador podría negarse a usar github'
 keyword: ''
@@ -60,3 +61,4 @@ Github es el servicio de facto para el manejo de repositorios en linea, pero exi
 
 Algunos desarrolladores prefieren usar estas alternativas como una respuesta al monopolio de Github o quizás por razones tan banales como preferir una UI sobre otra.
 
+¿Hay que ignorar entonces los proyectos de Github? Por supuesto que no, pero juzgar las capacidades de una persona sólo por la presencia o ausencia de código en Github es pecar de ingenuo.

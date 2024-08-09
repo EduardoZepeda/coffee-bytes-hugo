@@ -3,6 +3,7 @@ date: '2024-08-06T10:13:25-06:00'
 title: 'Using Github To Evaluate Developers Is Naive'
 categories:
 - opinions
+- git
 coverImage: "images/the-problem-of-using-github-to-evaluate-candidates.jpg"
 description: 'Using github to evaluate candidates is a sign of not understanding software world and all its nuances, there are many valid reasons to explain why a developer could refuse to use github'
 keyword: ''
@@ -60,3 +61,4 @@ Github is the de facto service for managing online repositories, but there are o
 
 Some developers prefer to use these alternatives as a response to Github's monopoly or perhaps for reasons as banal as preferring one UI over another.
 
+Should Github projects be ignored then?, of course not! but judging a person's capabilities just by the presence or absence of code on Github is just naive.

@@ -18,9 +18,7 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-El ORM de Django es bastante útil y versátil, puede realizar la mayoría de las operaciones frecuentes de SQL, tales como filtrar, particionar, realizar joins u ordenar información, crear alias, pero también tiene sus limitaciones, sobre todo cuando se combina con subqueries, hoy te platico de una de sus limitaciones y como resolverla. 
-
-A pesar de sus contadas flaquezas, su ORM es una de las [razones por las que deberías usar Django]({{< ref path="/posts/por-que-deberias-usar-django-framework/index.md" lang="es" >}}).
+El ORM de Django es bastante útil y versátil, puede realizar la mayoría de las operaciones frecuentes de SQL, tales como filtrar, particionar, realizar joins u ordenar información, crear alias, y es [una de las mejores características que Django ofrece]({{< ref path="/posts/por-que-deberias-usar-django-framework/index.md" lang="es" >}}), pero también tiene sus limitaciones, sobre todo cuando se combina con subqueries, hoy te platico de una de sus limitaciones y como resolverla. 
 
 ## Django annotate y subqueries, un problema de rendimiento
 
