@@ -24,7 +24,9 @@ title: ¿Por qué deberías usar Django Framework?
 
 ## Las ventajas de Django
 
-Django es un framework con baterias incluídas, que cubre prácticamente todas las necesidades de un sitio web interactivo, desde protección contra los ataques más comunes como SQL injection, CSRF, hasta validación de formularios en el backend, caché, i18n, messages y nos ofrece una solución para prácticamente todos los problemas que surgen al desarrollar un sitio web de tamaño mediano o grande.
+Django es un framework con baterias incluídas, que cubre prácticamente todas las necesidades de un sitio web interactivo, desde protección contra los ataques más comunes como SQL injection, CSRF, COOP y XSS. Además un ORM, validación de formularios en el backend, caché, i18n, messages y nos ofrece una solución para prácticamente todos los problemas que surgen al desarrollar un sitio web de tamaño mediano o grande.
+
+Si eres uno de esos desarrolladores que se consideran **perfeccionistas con deadlines**, y que no quieren tener que reinventar la rueda una y otra vez, con cada nuevo proyecto, vas a amar Django.
 
 ### Su ORM es sencillo y maravilloso
 
