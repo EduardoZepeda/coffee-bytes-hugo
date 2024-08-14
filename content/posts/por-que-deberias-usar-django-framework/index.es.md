@@ -24,6 +24,8 @@ title: ¿Por qué deberías usar Django Framework?
 
 ## Las ventajas de Django
 
+Django es un framework con baterias incluídas, que cubre prácticamente todas las necesidades de un sitio web interactivo, desde protección contra los ataques más comunes como SQL injection, CSRF, hasta validación de formularios en el backend, caché, i18n, messages y nos ofrece una solución para prácticamente todos los problemas que surgen al desarrollar un sitio web de tamaño mediano o grande.
+
 ### Su ORM es sencillo y maravilloso
 
 El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones [búsquedas avanzadas de Postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) y manejo de migraciones.
@@ -96,6 +98,22 @@ Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te
 #### Sistema de permisos
 
 Django cuenta con un sólido [sistema de permisos y grupos](/es/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
+
+### Sistema de caché out of the box
+
+Django cuenta con [un sistema de caché muy robusto](/es/cache-en-django-rest-framework-con-memcached/) que abarca desde cacheo de sitio completo hasta incluso un nivel más granular pudiendo cachear resultados de consultas SQL.
+
+### Sistema de messages out of the box
+
+Django cuenta con un sistema de mensajes basado en sesiones que te permite mostrarle al usuario mensajes que caducarán tras ser vistos, todo esto solo con agregar el middleware correspondiente
+
+### Sistema de i18n incluído
+
+Django cuenta con un sistema para sitios multilingues out of the box, basado en archivos po y mo, junto con gettext, totalmente listo para ser usado y sin tener que instalar nada.
+
+### Manejo y validación de formularios
+
+Django cuenta con un sistema que permite crear formularios de manera muy sencilla, incluso tomando como base modelos en la base de datos, estos pueden usarse para crear filas en tu base de datos e inclusive para usarlos para validar los datos que ingresa tu usuario en el backend.
 
 ### Múltiples paquetes
 

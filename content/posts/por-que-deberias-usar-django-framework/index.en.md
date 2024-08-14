@@ -23,6 +23,8 @@ Why use Django in a world where everything is Javascript? Is it really worth lea
 
 ## The advantages of Django
 
+Django is a *batteries included* framework, that covers practically all the needs of an interactive website, from protection against the most common attacks such as SQL injection, CSRF, form validation in the backend, caching, i18n, messages and practically offer a solution to all the problems that arise when developing a medium or large website.
+
 ### Its ORM is simple and wonderful
 
 Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups](/en/trigrams-and-advanced-searches-with-django-and-postgres/) functions and migration handling.
@@ -92,7 +94,7 @@ This framework has a proven authentication system based on sessions that are ide
 
 You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/en/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/).
 
-#### Django's Permit system
+#### Django's permission system
 
 Django has a robust [permissions and groups system](/en/how-do-permissions-and-permissions-groups-work-in-django/) that binds your users to models in the database that you can start using with just a few lines of code.
 
@@ -116,6 +118,22 @@ complex)
 Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/en/basic-characteristics-of-an-api-rest-api/), handling permissions and [throttling](/en/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
 
 Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/en/django-channels-consumers-environments-and-events/).
+
+### Out of the box caching system
+
+[Django has a robust cache system](/en/caching-in-django-rest-framework-using-memcached/) that ranges from full site caching to even more granular level caching of SQL query results. Compatible with memcached, redis and others.
+
+### One time messages out of the box system
+
+Django has a session-based message system that allows you to show the user messages that will expire after being viewed, all this just by adding the corresponding middleware.
+
+### i18n system included
+
+Django has a system for multilingual out of the box sites, based on po and mo files, along with gettext, totally ready to use and without having to install anything.
+
+### Form handling and validation
+
+Django has a system that allows you to create forms in a very simple way, even taking as a basis models in the database, these can be used to create rows in your database and even to use them to validate the data that your user enters in the backend of your web application.
 
 ### Takes you from an idea to a working prototype quickly.
 
