@@ -184,6 +184,18 @@ Django está trabajando porque su ORM sea asíncrono, pero aún no lo consigue. 
 
 Django sigue la filosofía de baterías incluidas. Lo cual es bueno, porque es código que te ahorras al escribir, pero también malo, pues es código que necesitas aprender a usar: el ORM con modelos y consultas, el middleware, las vistas, DRF (para las APIs) o el sistema de plantillas, el manejador de urls, traducción de cadenas de texto, el paquete de i18n, etc. Aprender todo lo anterior implica más tiempo del que te tomaría aprender otros Frameworks más minimalistas; como Flask o Express.
 
+## Alternativas a Django en otros lenguajes
+
+Si amas Django, pero consideras que necesitas una solución un poco más moderna acorde los paradigmas más actuales prueba con las siguientes opciones:
+
+### Frameworks como django pero en Javascript
+
+Si usas Framework y buscas un framework parecido, tengo entendido que [AdonisJS](https://adonisjs.com/#?) y [NestJS](https://nestjs.com/#?) ofrecen experiencias similares de desarrollo.
+
+### Frameworks como django pero en Go
+
+Si estas usando este maravilloso y super simple [lenguaje de programación llamado Go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), sé que el framework [Beego](https://github.com/beego/beego#?) es bastante similar a Django en cuanto a su filosofía de baterías incluídas.
+
 ## TLDR ventajas y desventajas de Django
 
 Desde mi punto de vista las ventajas superan a las desventajas, por lo que yo lo considero una opción muy atractiva para desarrollar un sitio web complejo cuando se tiene poco tiempo o necesitas encontrar desarrolladores rápido.

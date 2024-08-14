@@ -185,6 +185,18 @@ Go to [my tutorial on FastAPI](/en/fastapi-tutorial-the-best-python-framework/) 
 
 Django follows the philosophy of batteries included. Which is good, because it's code you save writing, but also bad, because it's code you need to learn to use: the ORM with models and queries, the middleware, the views, DRF (for the APIs) or the template system, the urls handler, string translation, the i18n package, etc. Learning all of the above takes more time than it would take you to learn other more minimalist frameworks; such as Flask or Express.
 
+## Alternatives to Django in other languages
+
+If you love Django, but you consider that you need a more modern solution according to the most current paradigms, try the following options:
+
+### Frameworks like django but in Javascript.
+
+If you use Framework and are looking for a similar framework, I understand that [AdonisJS](https://adonisjs.com/#?) and [NestJS](https://nestjs.com/#?) offer similar development experiences.
+
+### Frameworks like django but in Go
+
+If you are using this wonderful and super simple [programming language called Go](/en/go-programming-language-introduction-to-variables-and-data-types/), I know that the [Beego](https://github.com/beego/beego#?) framework is quite similar to Django in terms of its battery-inclusive philosophy.
+
 ## TLDR advantages and disadvantages of Django
 
 From my point of view the advantages outweigh the disadvantages, so I consider it a very attractive option to develop a complex website when you have little time or need to find developers fast.
