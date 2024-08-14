@@ -109,11 +109,11 @@ Django cuenta con un sistema de mensajes basado en sesiones que te permite mostr
 
 ### Sistema de i18n incluído
 
-Django cuenta con un sistema para sitios multilingues out of the box, basado en archivos po y mo, junto con gettext, totalmente listo para ser usado y sin tener que instalar nada.
+Django cuenta con un sistema para sitios multilingues out of the box, basado en archivos po y mo, junto con gettext, totalmente listo para ser usado y sin tener que instalar librerías adicionales.
 
 ### Manejo y validación de formularios
 
-Django cuenta con un sistema que permite crear formularios de manera muy sencilla, incluso tomando como base modelos en la base de datos, estos pueden usarse para crear filas en tu base de datos e inclusive para usarlos para validar los datos que ingresa tu usuario en el backend.
+Django cuenta con un sistema que permite crear formularios con código Python de manera muy sencilla, incluso tomando como base modelos en la base de datos, estos pueden usarse para crear filas en tu base de datos e inclusive para usarlos para validar los datos que ingresa tu usuario en el backend.
 
 ### Múltiples paquetes
 

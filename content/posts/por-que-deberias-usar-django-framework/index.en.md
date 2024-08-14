@@ -133,7 +133,7 @@ Django has a system for multilingual out of the box sites, based on po and mo fi
 
 ### Form handling and validation
 
-Django has a system that allows you to create forms in a very simple way, even taking as a basis models in the database, these can be used to create rows in your database and even to use them to validate the data that your user enters in the backend of your web application.
+Django has a system that allows you to create forms using Python code in a very simple way, even taking as a basis models in the database, these can be used to create rows in your database and even to use them to validate the data that your user enters in the backend of your web application.
 
 ### Takes you from an idea to a working prototype quickly.
 
