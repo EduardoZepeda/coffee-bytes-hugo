@@ -32,9 +32,9 @@ If_ and _else_ allow you to execute blocks of code conditionally and keep the sa
 
 ```go
 if true {
-    fmt.Println("Verdadero")
+    fmt.Println("True")
 } else {
-    fmt.Println("Falso")
+    fmt.Println("False")
 }
 ```
 
@@ -45,11 +45,11 @@ And of course go also has an _else if_.
 ```go
 edad := 18
 if edad < 18 {
-    fmt.Println("Menor de edad")
+    fmt.Println("Underage")
 } else if edad > 18 {
-    fmt.Println("Mayor de edad")
+    fmt.Println("Adult")
 } else {
-    fmt.Println("Tiene 18 exactamente")
+    fmt.Println("Exactly 18 years old")
 }
 ```
 
@@ -85,21 +85,22 @@ for counter < 10 {
 Range allows us to traverse an iterable structure from beginning to end and allows us to access the respective index and element. It is ideal for traversing _arrays_, _strings_, _slices_, _maps_, _channels_ and any structure that can be traversed.
 
 ```go
-HolaMundo := "Hola mundo"
-    for index, letra := range HolaMundo {
+HelloWorld := "Hello world"
+    for index, letra := range HelloWorld {
     	fmt.Printf("%d %c \n", index, letra)
     }
 /*
-0 H 
-1 o 
-2 l 
-3 a 
-4   
-5 m 
-6 u 
-7 n 
-8 d 
-9 o*/
+0  H 
+1  e 
+2  l 
+3  l 
+4  o  
+5   
+6  w 
+7  o 
+8  r 
+9  l
+10 d*/
 ```
 
 ### Infinite loop
@@ -125,7 +126,7 @@ for {
     counterForever++
     fmt.Println(counterForever)
     if counterForever > 5 {
-        fmt.Println("Aquí se rompe el bucle")
+        fmt.Println("The loop breaks here")
         break
 }
 }
@@ -135,7 +136,7 @@ for {
 // 4
 // 5
 // 6
-// Aquí se rompe el bucle
+// The loop breaks here
 ```
 
 ### Break in loops with name in go
@@ -146,10 +147,10 @@ In other programming languages, such as Python, _break_ would break the immediat
 while True:
     while True:
         break
-    print("El bucle principal continua ejecutándose")
-# El bucle principal continua ejecutándose
-# El bucle principal continua ejecutándose
-# El bucle principal continua ejecutándose
+    println("main loop is executing")
+# main loop is executing
+# main loop is executing
+# main loop is executing
 ```
 
 Go allows us to assign names to the loops, what for? To reference specific loops and be able to break them using break. Take a look at this example:
@@ -158,10 +159,10 @@ Go allows us to assign names to the loops, what for? To reference specific loops
 loop:
     for {
     	for {
-    		fmt.Println("Rompiendo el bucle externo")
+    		fmt.Println("Breaking external loop")
     		break loop
     	}
-    	fmt.Println("Esto nunca se imprimirá en pantalla")
+    	fmt.Println("This will never get printed")
     }
 ```
 
@@ -176,14 +177,14 @@ counter := 0
 for counter < 10 {
     counter ++
     if counter == 3 {
-        fmt.Println("Nos brincamos el 3")
+        fmt.Println("We skip number 3")
         continue
     }
     fmt.Println(counter)
 }
 //1
 //2
-//Nos brincamos el 3
+//We skip number 3
 //4
 ```
 
@@ -192,21 +193,21 @@ for counter < 10 {
 Defer delays the execution of a line of code until the end of the code. It is quite similar to what the _defer_ attribute with HTML script tag does.
 
 ```go
-defer fmt.Println("Esto se va a ejecutar hasta el final")
-    fmt.Println("Esto se va a ejecutar primero")
-    fmt.Println("Esto se va a ejecutar después")
-// Esto se va a ejecutar primero
-// Esto se va a ejecutar después
-// Y esto se va a ejecutar hasta el final
+defer fmt.Println("This will be executed at the end")
+    fmt.Println("This will be executed firstly")
+    fmt.Println("This will be executed secondly")
+// This will be executed firstly
+// This will be executed secondly
+// his will be executed at the end
 ```
 
 What's the point? Well, it is ideal to close connections to databases, files or to make some type of cleaning to the objects of our code.
 
 ```go
-const conexionBaseDeDatos := abreBaseDeDatos()
-defer cierraBaseDeDatos()
-queryBaseDeDatos()
-otraQuery()
+const dbConnection := openDb()
+defer closeDb()
+queryDb()
+anoterQuery()
 ```
 
 For the next Go entry I'm going to talk about the basics of _slices_, _arrays_ and _maps_.

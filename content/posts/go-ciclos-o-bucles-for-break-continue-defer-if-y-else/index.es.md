@@ -21,7 +21,7 @@ Esta entrada tratará sobre los bucles en el lenguaje de programación go.
 
 Go maneja los bucles un poco diferente a lo que estás acostumbrado. Si ya dominas algún otro lenguaje de programación, probablemente recuerdes que hay bucles _while_, _do while_ y for. Y si vienes de Python o Javascript, recordarás lo útil que son los bucles _for x in_ o _for x of_
 
-Bien, pues go no existen más que los bucles for. Sí, no hay _while_ ni do _while_. ¿Pero entonces como hago para usar el resto de los bucles? Sigue leyendo y te explico.
+Bien, pues en el lenguaje de programación go no existen más que los bucles for. Sí, no hay _while_ ni do _while_. ¿Pero entonces como hago para usar el resto de los bucles? Sigue leyendo y te explico, empezaré por explicar if y else y posteriormente los bucles.
 
 Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/).
 
@@ -147,7 +147,7 @@ En otros lenguajes de programación, como en Python, _break_ rompería el bucle 
 while True:
     while True:
         break
-    print("El bucle principal continua ejecutándose")
+    fmt.Println("El bucle principal continua ejecutándose")
 # El bucle principal continua ejecutándose
 # El bucle principal continua ejecutándose
 # El bucle principal continua ejecutándose
