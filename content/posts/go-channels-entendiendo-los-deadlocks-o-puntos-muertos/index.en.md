@@ -3,19 +3,26 @@ title: "Go: channels, understanding the goroutines deadlocks"
 date: "2022-01-26"
 categories:
 - go
-
 coverImage: "images/go-deadlock-y-goroutines.jpg"
 description: "In this post I deal with deadlocks in go, the causes of the fatal error error: all goroutines are asleep - deadlock! and how to prevent it."
 keywords:
 - go
-
 authors:
 - Eduardo Zepeda
 ---
 
-When working with channels there is a quite common error that occurs when you are not familiar with the concepts, the error is "_fatal error: all goroutines are asleep - deadlock!_", translated means something like "fatal error: all goroutines are asleep - deadlocked". The first time I saw this error I was perplexed and, although I knew how to fix it, I didn't understand why it happened, so in this post I explain why it happens as I would have liked to have read it at the time.
+When working with channels there is a quite common error that occurs when you are not familiar with the concepts, the error is "_fatal error: all goroutines are asleep - deadlock!_". The first time I saw this error I was perplexed and, although I knew how to fix it, I didn't understand why it happened, so in this post I explain why it happens as I would have liked to have read it at the time.
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+
+## Why does the error fatal error: all goroutines are asleep - deadlock! happen?
+
+This error occurs when:
+- A channel sends information, but not channel is there to receive it.
+- There is a channel that receives information, but not channel that sends it.
+- When we are not inside a goroutine other than the one from the main function.
+
+In any of these cases the goroutines are "waiting" either to send or receive information, so we can say that we are "stuck" and that is when we receive the fatal error: all goroutines are asleep - deadlock!
 
 ## Blocking operations
 

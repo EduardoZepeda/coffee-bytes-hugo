@@ -19,6 +19,15 @@ Cuando trabajamos con channels hay un error bastante común que ocurre cuando no
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
+## ¿Por qué sucede el error fatal error: all goroutines are asleep - deadlock!?
+
+Este error sucede cuando:
+- Un canal manda información, pero no uno que la reciba.
+- Existe un canal que recibe información, pero no uno que la mande.
+- Cuando no estamos dentro de una goroutine diferente a la de la función main
+
+En cualquiera de estos casos las goroutines se quedan "esperando" ya sea mandar o recibir información, por lo que se puede decir que estamos "atascados" y es entonces cuando recibimos el error fatal error: all goroutines are asleep - deadlock!
+
 ## Operaciones bloqueantes
 
 En go, las operaciones que mandan o reciben valores de canales son bloqueantes dentro de su propia goroutine (recuerda que la función _main_ es una goroutine), es decir, mantienen la ejecución del código en espera :
