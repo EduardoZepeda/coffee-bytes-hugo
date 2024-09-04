@@ -78,6 +78,14 @@ To mark a struct, function or variable as private or public, as well as their re
 
 Personally, I think this is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*.
 
+``` go
+type MyData struct {
+    Name string // public
+    account string // private
+}
+
+```
+
 Having said that, **accessing a private entity from another module, unrelated to where it is declared**, will be impossible. Whereas public entities are accessible from any module, even if the struct is not declared there.
 
 * capitalized, public, accessible inside and outside the package where it is declared.
@@ -125,7 +133,7 @@ Note the absence of the destructuring operator in the parenthesis in the first s
 
 ```go
 func (myStructVariable Videogame) String() string { 
-    return fmt.Sprintf("Title: %s, Año: %d", myStructVariable.Title, myStructVariable.Year) 
+    return fmt.Sprintf("Title: %s, Year: %d", myStructVariable.Title, myStructVariable.Year) 
 }
 ```
 
