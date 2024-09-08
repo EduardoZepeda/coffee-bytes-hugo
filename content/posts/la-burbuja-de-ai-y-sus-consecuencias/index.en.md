@@ -73,4 +73,4 @@ It is up to them to decide the pace at which this transition will take place des
 
 ![dragon ball meme about the AI bubble bursting](images/ai-bubble-explosion-meme.jpg)
 
-My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, and that, when the AI bubble bursts, a lot of people are going to lose money in the process.
+My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, crashing the market in the process, and that, when the AI bubble bursts, a lot of people are going to lose money in the process.

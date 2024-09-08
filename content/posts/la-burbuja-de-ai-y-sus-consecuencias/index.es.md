@@ -71,5 +71,5 @@ La burbuja va a tronar y van a quedarse solo aquellas empresas con el potencial 
 
 ![Meme de dragon ball sobre la explosión de la burbuja de AI](images/ai-bubble-explosion-meme.jpg)
 
-Mi predicción respecto a la burbuja, es que el resto de empresas que no posean sus propias redes neuronales exclusivas o alguna propiedad intelectual que las proteja, van a canibalizarse y a volverse commodities y que, cuando truene la burbuja, muchas personas van a perder dinero en el proceso.
+Mi predicción respecto a la burbuja, es que el resto de empresas que no posean sus propias redes neuronales exclusivas o alguna propiedad intelectual que las proteja, van a canibalizarse y a volverse commodities, destruyendo el mercado de AI en el proceso, y que, cuando truene la burbuja, muchas personas van a perder dinero en el proceso.
 
