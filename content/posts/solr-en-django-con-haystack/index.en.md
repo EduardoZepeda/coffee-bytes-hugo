@@ -22,13 +22,17 @@ Simplifying to the extreme, Solr receives the content of our database (or csv fi
 
 Subsequently, when Solr receives a query, it will query the generated index, sort the results according to their relevance and return them.
 
-![Basic operation of Solr and Django haystack](images/como-funciona-solr-y-django.jpg)
+![Basic operation of Solr and Django haystack](images/django-haystack-core-schema.webp)
 
 ### Inverted index
 
 Solr works with an inverted index. It is quite similar to the index that appears in the back of technical books, in which each topic of the book points to a page; in the indexing of our information tokens are generated and these are related to the documents that contain them.
 
-![solr inverted index](images/solr-indice-invertido.jpg)
+| Token      | Documents |
+| ---------- | --------- |
+| Python     | 1,2       |
+| Functional | 5,6       |
+| Rust       | 3         |
 
 ## Advantages and disadvantages of Solr
 
@@ -98,12 +102,12 @@ To create a new core we will go to the _Add Core_ section and fill in the follow
 To configure Solr we will create the following structure inside the solr installation folder _<solr-x.y.z>/server/solr/<solr_instance_name_dir>/_
 
 ```bash
-<nombre_de_la_instancia>/
+<instance_name>/
 ├── conf
 │   ├── lang
 │   │   └── stopwords_en.txt
 │   ├── protwords.txt
-│   ├── managed-schema # Nuestro archivo de configuración personalizable.
+│   ├── managed-schema # Our config file
 │   ├── solrconfig.xml
 │   ├── stopwords.txt
 │   └── synonyms.txt
@@ -118,7 +122,7 @@ To configure Solr we will create the following structure inside the solr install
 In order not to start from scratch, we will take the default configuration folder, located at <solr-x.y.z>/server/solr/configsets/_default/conf and move it to the directory of the solr instance.
 
 ```bash
-cp -r <solr-x.y.z>/server/solr/configsets/_default/conf <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/
+cp -r <solr-x.y.z>/server/solr/configsets/_default/conf <solr-x.y.z>/server/solr/<instance_directory>/
 ```
 
 If we go to the administration panel we should be able to create the core successfully.
@@ -161,7 +165,7 @@ INSTALLED_APPS = [
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
-        'URL': 'http://127.0.0.1:8983/solr/<nombre_del_núcleo>'
+        'URL': 'http://127.0.0.1:8983/solr/<core_name>'
     },
 }
 ```
@@ -177,16 +181,16 @@ from haystack import indexes
 from .models import Videogame
 
 class VideogameIndex(indexes.SearchIndex, indexes.Indexable):
-    # Por convención DEBE llamarse text.
+    # MUST BE NAMED text, by convention
     text = indexes.CharField(document=True, use_template=True)
     created = indexes.DateTimeField(model_attr='created')
-    # Más campos opcionales
+    # optional field
 
-    # El modelo a retornar
+    # Model to return
     def get_model(self):
         return Videogame
 
-    # El queryset a indexar, puedes filtrarlo.
+    # queryset to index, you can filter it
     def index_queryset(self, using=None):
         return self.get_model().objects.all()
 ```
@@ -196,14 +200,14 @@ I explain the structure of the class
 **text**, the most important field, used to generate the index. In this class there must be at least one property with the parameter document=True.
 **created**, an optional field that corresponds to a property called _created_ of our model (model_attr='created').
 **get_model**, the model to return.
-** **index_queryset**, the queryset to index, you can customize it with filters, partition it or as you like.
+**index_queryset**, the queryset to index, you can customize it with filters, partition it or as you like.
 
 #### Use another name instead of text
 
 The name text is a convention used by haystack, to use a field name other than text we create the variable _HAYSTACK_DOCUMENT_FIELD_ in _settings.py_.
 
 ```python
-HAYSTACK_DOCUMENT_FIELD = "otro_nombre"
+HAYSTACK_DOCUMENT_FIELD = "alternative_name"
 ```
 
 ### Creating a template for the text field
@@ -216,7 +220,7 @@ Make sure you have set your _TEMPLATES_ variable in _settings.py_.
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["<directorio_de_templates>"],
+        'DIRS': ["<template_directory>"],
         # ...
     }
 ]
@@ -225,7 +229,7 @@ TEMPLATES = [
 Haystack will automatically detect a file inside the _templates_ directory we use in Django, with the following path and use it as a base.
 
 ```bash
-<directorio_de_templates>/search/indexes/<nombre_de_app>/<nombre_del_modelo>_text.txt
+<template_directory>/search/indexes/<app_name>/<model_name>_text.txt
 ```
 
 We will fill this file with the same syntax as a normal Django template.
@@ -249,13 +253,13 @@ This file is the one we will replace in our solr configuration.
 First we back up the configuration.
 
 ```bash
-mv <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf/_managed_schema.old
+mv <solr-x.y.z>/server/solr/<instance_directory>/conf <solr-x.y.z>/server/solr/<instance_directory>/conf/_managed_schema.old
 ```
 
 It is now safe to move the configuration.
 
 ```bash
-mv managed_schema <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf
+mv managed_schema <solr-x.y.z>/server/solr/<instance_directory>/conf
 ```
 
 #### Solr version +8.x and Django-haystack settings
@@ -265,7 +269,7 @@ Since we are using the newest version of solr django-haystack (3.2.1) only suppo
 Locate the line:
 
 ```xml
-<!-- <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf/managed_schema -->
+<!-- <solr-x.y.z>/server/solr/<instance_directory>/conf/managed_schema -->
 <field name="django_ct" type="string" indexed="true" stored="true" multiValued="false"/>
 ```
 
@@ -281,8 +285,8 @@ This will prevent an error where the search result is treated as a list instead 
 Another change, before the closing of the last schema tag we add the following content
 
 ```xml
-<!-- Texto insertado manualmente -->
-<!-- Lines para el manejo de flotantes, long points, date points, etc. -->
+<!-- START Manually inserted snippet -->
+<!-- Lines required to handle floats, long points, date points, etc. -->
 <fieldType name="pdate" class="solr.DatePointField" docValues="true"/>
 <fieldType name="pdates" class="solr.DatePointField" docValues="true" multiValued="true"/>
 <fieldType name="pdouble" class="solr.DoublePointField" docValues="true"/>
@@ -293,7 +297,7 @@ Another change, before the closing of the last schema tag we add the following c
 <fieldType name="pints" class="solr.IntPointField" docValues="true" multiValued="true"/>
 <fieldType name="plong" class="solr.LongPointField" docValues="true"/>
 <fieldType name="plongs" class="solr.LongPointField" docValues="true" multiValued="true"/>
-<!-- Texto insertado manualmente -->
+<!-- Manually inserted snippet END -->
 ```
 
 This will prevent errors related to missing pdate, pdates, plongs and other fields.
@@ -301,7 +305,7 @@ This will prevent errors related to missing pdate, pdates, plongs and other fiel
 The last change, move the _currency.xml_ file in the solr examples to our configuration folder.
 
 ```xml
-mv <solr-x.y.z>/example/example-DIH/solr/solr/conf/currency.xml <solr-x.y.z>/server/solr/<directorio_de_la_instancia>/conf
+mv <solr-x.y.z>/example/example-DIH/solr/solr/conf/currency.xml <solr-x.y.z>/server/solr/<instance_directory>/conf
 ```
 
 This will avoid an error due to the lack of fields for currency management.

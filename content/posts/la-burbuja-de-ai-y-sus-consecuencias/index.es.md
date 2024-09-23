@@ -53,6 +53,8 @@ Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero
 
 ![Las startups solo son un wrapper de chatgpt](images/ai-company-chatgpt.jpg)
 
+No es que usar chatGPT para tu empresa esté mal, pero si una app es sólo un envoltorio de GPT, el riesgo de convertirse en una commodity es alto, ¿vamos a tener miles de apps diferentes que resuelven el mismo problema y son sólo envoltorios de chatGPT?
+
 Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5, quizás el [diseño de mejores drogas por medio de la inteligencia artificial](/es/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Quiero más inversión en AI, pero que "agregue valor", no solo que busque obtener rendimientos rápido.
 
 ## Las empresas se quedan sin datos para entrenar a los LLM
@@ -66,6 +68,10 @@ La avaricia que alimenta el uso de la AI va a inundar internet con una miríada 
 ## El fin de la burbuja de AI y la nueva normalidad
 
 Dicho lo anterior pareciera que creo que todo esto de la AI no es más que humo y espejos, pero no, yo creo que la AI va a quedarse y su potencial de revolución social, al menos en el corto plazo, va a ser exclusiva de un grupo muy reducido de empresas, entre las que destaco openAI, Google, Microsoft y los jugadores de siempre. 
+
+En mi opinión, las Inteligencias Artificiales son el autocompletado definitivo, ya sea de texto, imágenes o video, nada más. Hasta ahora la AGI es un hito que se mantiene distante en el futuro.
+
+> Machines don’t learn. What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. -Andriy Burkov
 
 La burbuja va a tronar y van a quedarse solo aquellas empresas con el potencial de cambiar el juego para siempre. Herramientas como Sora, Midjourney, ChatGPT, Eleven Labs o Watson. Les corresponde a ellas decidir el ritmo al que se llevará a cabo esta transición.
 

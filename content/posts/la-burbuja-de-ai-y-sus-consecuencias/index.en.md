@@ -53,6 +53,8 @@ In addition to this, most people involved in the financial side of AI don't unde
 
 ![Startups are just a wrapper for chatgpt](images/ai-company-chatgpt.jpg)
 
+It's not that using chatGPT for your company is wrong, but if an app is just a GPT wrapper, the risk of becoming a commodity is high, are we going to have thousands of different apps that solve the same problem and are just chatGPT wrappers?
+
 And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks or maybe to improve human's health via [drug design](/en/artificial-intelligence-drug-design-for-developers/). I want more investment in AI, but one that "adds value," not just seeks to profit as quick as possible.
 
 ## Companies are running out of Data to train LLM
@@ -66,6 +68,10 @@ The greed that feeds the use of AI is going to flood the internet with a myriad 
 ## The tragic end of the AI Bubble and the New Normal
 
 Having said the above, it seems that I believe that all this about AI is nothing more than smoke and mirrors, but that's far from the truth, I believe that AI is going to stay and it has potential for a social revolution but, at least in the short term, it will be exclusive to a very small group of companies, among which I highlight openAI, Google, Microsoft and the usual players.
+
+> Machines don’t learn. What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. - Andriy Burkov
+
+In my opinion, AI is the ultimate autocomplete tool, be it text, images or video, nothing else. So far AGI is a milestone that remains distant in the future.
 
 Don't get me wrong, there is an AI bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
