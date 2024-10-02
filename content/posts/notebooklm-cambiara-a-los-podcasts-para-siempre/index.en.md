@@ -1,5 +1,5 @@
 ---
-date: '2024-10-02T22:32:42-06:00'
+date: '2024-10-01T12:32:42-06:00'
 title: 'Google Notebooklm Will Reshape The Podcast Scenario Forever'
 categories:
 - opinions
