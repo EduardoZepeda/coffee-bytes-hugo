@@ -209,6 +209,7 @@ font-src = ["'self'"]
 form-action = ["'self'"]
 frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com"]
 img-src = [
+  "https://i.imgflip.com",
   "'self'",
   "*.cloudinary.com",
   "*.amazonaws.com",

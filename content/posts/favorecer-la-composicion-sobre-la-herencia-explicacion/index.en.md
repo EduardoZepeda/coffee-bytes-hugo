@@ -12,7 +12,7 @@ authors:
   - Eduardo Zepeda
 ---
 
-Composition over inheritance is a recurring theme in object-oriented programming. Usually, it is explained in a very complex way, but today I will try to simplify it to the point where purists will hate me. 
+Composition over inheritance is a recurring theme in object-oriented programming (OOP). Usually, it is explained in a very complex way, but today I will try to simplify it to the point where purists will hate me. 
 
 Let's start, imagine you have a giant box of LEGO bricks, yes, those little plastic blocks that cause unimaginable pain when you step on them. But, in this case, we won't use them to cause pain but to build different types of cars.
 

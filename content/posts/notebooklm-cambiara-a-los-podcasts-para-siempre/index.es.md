@@ -47,6 +47,8 @@ Imagínate, eleven labs puede convertir texto a diferentes voces, Notebooklm es 
 
 En un mundo en el que puedes crear podcasts monetizables en cuestión de minutos, este tipo de contenido se volverá abundante en poco tiempo, igual que está pasando ahora mismo con todos esos canales que solo le ponen voces a los posts en reddit, o aquellos que usan imágenes y voces de AI para animar cuentos folclóricos.
 
+![I can foresee this in the next year](https://i.imgflip.com/95scrd.jpg "I can foresee this in the next year")
+
 Poder entrenar un modelo con material de podcasts pasados o con escritos, para emular fielmente el estilo podrá ahorrarle horas de trabajo a los creadores de contenido, imagínate, generas el podcast completo con AI y luego solo lo editas para reemplazar aquellas partes que te parezcan sosas y ¡voilá! tienes un podcast que se siente humano en segundos. 
 
 O puedes llevarlo más allá y crear escenarios bastante interesantes como este donde los [locutores del podcast AI descubren su propia naturaleza no humana](https://www.reddit.com/r/artificial/comments/1frk1gi/notebooklm_podcast_hosts_discover_theyre_ai_not/#?).
