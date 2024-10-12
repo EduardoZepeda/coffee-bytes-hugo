@@ -75,8 +75,10 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
 modalcountdown = 2
+prePostAffiliateDescription = "Digital Ocean is the platform that I use to host most of my projects, including this blog, and I can sincerely recommend it to my readers, using this link will not generate an extra cost on you, it helps me to keep the blog costs low and you will also get $200 USD in credit to materialize your ideas."
 prePostAffiliateLink = "https://m.do.co/c/a22240ebb8e7"
-prePostAffiliateText = "Get $200 USD Free Credit on Digital Ocean"
+prePostAffiliateText = "Go to Digital Ocean"
+prePostAffiliateTitle = "Launch your project today with this Free $200 USD credit (Valid for 60 days) on DO"
 subscribebannertext = "Get my FREE Python cheats guide."
 subscribedescription = """
                           ✅ To access just subscribe to the newsletter, it's completely  <strong>completely free.</strong> <br>
@@ -149,8 +151,10 @@ disablesearch = false
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
 modalcountdown = 2
+prePostAffiliateDescription = "Digital Ocean es la plataforma que uso para hostear la mayoría de mis proyectos, incluido este blog, por lo que puedo recomendártelo sinceramente, usar este enlace no generará un costo extra sobre ti, me ayuda a mantener bajos los costos del blog y tú obtendrás $200 USD en crédito, válidos por 2 meses (60 días)"
 prePostAffiliateLink = "https://m.do.co/c/a22240ebb8e7"
-prePostAffiliateText = "$200 USD GRATIS en hosting y servicios aquí"
+prePostAffiliateText = "Ir a Digital Ocean"
+prePostAffiliateTitle = "Empieza tu proyecto con $200 USD Gratis (Válido por 60 días)"
 subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python!"
 subscribedescription = """
                           ✅ Para acceder solo suscríbete al newsletter, es <strong>completamente gratis.</strong> <br>
