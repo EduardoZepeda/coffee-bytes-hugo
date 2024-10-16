@@ -69,7 +69,11 @@
       {{ range .Params.categories }}
       <category>{{.}}</category>
       {{ end }}
-      <content:encoded>{{ .Content | transform.XMLEscape | safeHTML }}</content:encoded>
+      {{$absoluteImage :=  print "href=\"" .Permalink "images" }}
+      {{$absoluteImageSrc :=  print "src=\"" .Permalink "images" }}
+      {{$content := replaceRE `href="(images)` $absoluteImage .Content }}
+      {{$content := replaceRE `src="(images)` $absoluteImageSrc $content }}
+      <content:encoded>{{ $content | transform.XMLEscape | safeHTML }}</content:encoded>
       <summary>{{ .Summary | transform.XMLEscape | safeHTML }}</summary>
     </item>
     {{- end}}
