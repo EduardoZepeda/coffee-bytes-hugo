@@ -26,7 +26,18 @@ Go, también conocido como Golang, es un lenguaje de programación compilado des
 
 Go, también llamado Golang, es un lenguaje de programación con una sintaxis muy parecida a la de C y con ciertas abstracciones en su sintaxis que lo vuelven un lenguaje en el que escribir código es muy sencillo, la verdad es que la sensación es de una mezcla entre C y Python.
 
+El diseño de Go como lenguaje de programación está basado en un documento llamado: [Everything you've wanted to know about programming languages but have been afraid to ask](https://www.cs.ox.ac.uk/files/6156/H78%20-%20Everything.pdf) escrito por Tony Hoare (El creador del argumento quicksort). En el que se enfatiza la importancia de aspectos tales como:
+- Elegancia y simplicidad
+- Buenas abstracciones que oculten los detalles de implementación
+- Código predecible
+- Manejo de errores simple
+- Compilación extremadamente rápida
+
 Estamos ante un lenguaje compilado, imperativo, **fuertemente centrado en la concurrencia** y con tipado estático.
+
+Si de verdad te interesa el tema, encontré este video que resume bastante bien la historia y la filosofía que existe detrás de Go y te lo comparto:
+
+{{< youtube xSwJGMl--lA >}}
 
 ## Aspectos geniales o ventajas del lenguaje Go
 

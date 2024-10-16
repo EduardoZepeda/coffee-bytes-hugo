@@ -24,6 +24,13 @@ Golang, also known as go, is a compiled programming language developed by Google
 
 Go or Golang is a language with a syntax similar to that of C and with certain abstractions in its syntax that make it a language in which writing code is a piece of cake, coding in Go feels like a mixture between coding in Python and C.
 
+Go's design is based on a document called: [Everything you've wanted to know about programming languages but have been afraid to ask](https://www.cs.ox.ac.uk/files/6156/H78%20-%20Everything.pdf), written by Tony Hoare (Quick sort creator). It emphasizes the importance of aspects such as:
+- Elegance and simplicity
+- Good abstractions that hide implementation details
+- Predictable code
+- Simple error handling
+- Blazingly Fast (pun intended) compilation
+
 This is a compiled, imperative, **strongly concurrency-centric**, statically typed language.
 
 ### Cool aspects and advantages of Go
