@@ -104,7 +104,7 @@ Lo bueno es que solo es cuestión de acostumbrarse a la sintaxis.
 
 ### El manejo de Errores y null values en Rust es complejo
 
-Rust no cuenta con Try y Catch, sino que el manejo de errores y de valores nulos debe hacerse de manera explícita, parecido a como se hace en Go, para esto Rust echa mano de Result y Option.
+Rust no cuenta con *Try* y *Catch*, sino que el manejo de errores y de valores nulos debe hacerse de manera explícita, parecido a como se hace en Go, para esto Rust echa mano de *Result*, *Option*, *unwrap* y *?*
 
 #### Option
 
@@ -150,7 +150,12 @@ fn read_file() -> Result<String, std::io::Error> {
 
 Encontré este recurso que explica [el manejo de errores en Rust](https://www.sheshbabu.com/posts/rust-error-handling/) de una manera accesible y sencilla, leelo detenidamente.
 
+
 ## Rust no es tan difícil de aprender
+
+Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
+
+Pero no negaré que aprender Rust es más complicado que aprender Go, o aprender Python, incluso me atrevo a decir que es más complicado aprenderlo que C, por otro lado es más fácil escribir mal código en C que en Rust.
 
 Hasta ahora, pareciera que estoy quejándome de las decisiones tomadas al diseñar este lenguaje, pero no, solo estoy exponiendo las partes con las que tuve un poco más de fricción, pero, tomando en cuenta lo amplio que es el lenguaje, podrás darte cuenta que realmente es una mínima parte.
 
@@ -158,11 +163,7 @@ La mayor parte de la sintaxis de Rust es bastante sencilla, y algunas de las cos
 
 ## ¿Dónde aprender Rust?
 
-Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
-
-Pero no negaré que aprender Rust es más complicado que aprender Go, o aprender Python, incluso me atrevo a decir que es más complicado aprenderlo que C, por otro lado es más fácil escribir mal código en C que en Rust.
-
-Para finalizar este post, te comparto algunos recursos que puedes usar para aprender Rust.
+Para finalizar este post, te comparto algunos recursos que puedes usar para aprender Rust, pero considera que dominar Rust no es una tarea de un fin de semana.
 
 ### The Rust Book en múltiples idiomas
 

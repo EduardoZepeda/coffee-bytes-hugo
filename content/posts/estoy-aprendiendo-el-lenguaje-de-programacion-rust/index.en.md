@@ -105,7 +105,7 @@ The good thing is that it is only a matter of getting used to the syntax.
 
 ### Error handling in rust is complex
 
-Rust does not have Try and Catch, but the handling of errors and null values must be done explicitly, and it's not as straight forward as in Javascript or Python, for this Rust uses Result, Option, Unwrap, Expect and ?.
+Rust does not have *Try* and *Catch*, but the handling of errors and null values must be done explicitly, and it's not as painless as in Javascript or Python, for this Rust uses *Result*, *Option*, *Unwrap*, *Expect* and *?*
 
 I found this resource that explains [Rust's Error handling](https://www.sheshbabu.com/posts/rust-error-handling/) in an understandable and simple way.
 
@@ -154,21 +154,21 @@ fn read_file() -> Result<String, std::io::Error> {
 
 ## Rust is not so hard to learn
 
-So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts that changelled me the most, but, taking into account how big is the language, you will be able to realize that was really a minimum part.
-
-Most of Rust's syntax is pretty straight forward, and some of the things you have to deal with, save you the headaches of having to debug memory leaks or null pointers, which is an interesting tradeoff.
-
-## Where to learn Rust?
-
 Rust is not exaggeratedly difficult, there are languages that are more complicated or require a complete paradigm shift to program in them, like Haskell, for example. 
 
 But I won't deny that learning Rust is more complicated than learning Go, or learning Python, I even dare to say that it is more complicated to learn than C, on the other hand it is easier to write bad code in C than in Rust.
 
-Lastly, here are some resources you can use to learn Rust.
+So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts that changelled me the most, but, taking into account how big is the language, you will be able to realize that was really a minimum part.
+
+Most of Rust's syntax is pretty straightforward, and some of the things you have to deal with, save you the headaches of having to debug memory leaks or null pointers, which is an interesting tradeoff.
+
+## Where to learn Rust?
+
+Lastly, here are some resources you can use to learn Rust, but please consider that this is not a weekend's task.
 
 ### The Rust Book in multiple languages
 
-Rust has its own bible, called ["The Rust book", available in multiple languages](https://doc.rust-lang.org/book/appendix-06-translation.html), [Spanish included](https://github.com/RustLangES/rust-book-es). The book is very well explained and very easy to follow, it is a bit long, although it is understandable given the large amount of concepts to be exposed.
+Rust has its own bible, called ["The Rust book", available in multiple languages](https://doc.rust-lang.org/book/appendix-06-translation.html), [Spanish included](https://github.com/RustLangES/rust-book-es). The book is surprisingly explained and very Foolproof, it is a bit long, although it is understandable given the large amount of concepts to be exposed.
 
 ### Youtube channels to learn Rust
 
