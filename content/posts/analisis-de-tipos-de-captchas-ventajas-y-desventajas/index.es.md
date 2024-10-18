@@ -30,6 +30,10 @@ Para un hipotético usuario generalmente basta con darle un click al checkbox y 
 
 La única desventaja que le veo a este tipo de captcha es que al usarlo estamos alimentando a google con más información de los usuarios de nuestro sitio web. Y puede que no te importe que google recopile más información, si es el caso solo me queda sacar a colación el escandalo de Cambridge Analytica.
 
+### ¿Es confiable google captcha?
+
+Sí, es una excelente solución para limitar las acciones de la mayoría de los bots, además tiene una excelente relación seguridad-experiencia de usuario. La única desventaja es que su configuración no es tan trivial como otros métodos, sobre todo si estás trabajando con desarrollos personalizados.
+
 Mi veredicto:
 - Securidad: 9
 - Amistoso con el usuario: 8 sin el reconocimiento de imagenes y 5 con el reconocimiento de imágenes
