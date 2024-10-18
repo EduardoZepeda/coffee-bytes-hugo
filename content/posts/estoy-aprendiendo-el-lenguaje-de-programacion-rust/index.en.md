@@ -13,29 +13,29 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-I started learning Rust, and everything I read on networks about its learning curve is true. Rust is difficult, not impossible, just difficult. But now I also **understand also why the obsession with this programming language**. After finishing Rust's book I have an overview of the programming language that I will capture in the following paragraphs. 
+I started learning Rust, and everything I read on the internet about its learning curve is true. Rust is difficult, not impossible, just difficult. But now I also **understood why the obsession with this programming language**. After finishing Rust's book I had a glimpse of the programming language that I will try to accurately capture in the following paragraphs. 
 
-If you already know what makes Rust so difficult and you're looking to learn it, skip to the final part of this post where I recommend some resources.
+If you already know what makes Rust so difficult and you're looking to learn it instead, skip to the final part of this post where I recommend some useful resources to learn Rust.
 
 ## Rust concepts that are not in other languages
 
-Rust requires you to master a number of concepts that don't exist in other programming languages, which makes the exercise of learning Rust a bit more complex than extrapolating the syntax of other languages to it, just as you would do if you wanted to learn [the Go programming language]({{< ref path="/posts/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), for example.
+Rust requires you to master a number of concepts that don't exist in other programming languages, which makes the exercise of learning Rust a bit more complex than extrapolating the syntax of other languages to it, just as you would do if you wanted to learn [the Go programming language]({{< ref path="/posts/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), for example, for that same reason I don't recommend that you learn Rust as your first language.
 
-This is because [Rust was created by Graydon Hoare after an incident with an elevator](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/) caused by poor memory management in its code.
+The reason behind Rust's complexity lies on an exotic scenario. [Rust was created by Graydon Hoare after an incident with an out of order elevator](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/), the reason? poor memory management in its code, probably from C or C++.
 
 ![Rust was created by Graydon Hoare after a problem with an elevator](https://i.imgflip.com/972mo7.jpg "Rust was created by Royden Lepp after a problem with an elevator")
 
 ### Borrowing in Rust is difficult
 
-The goal of the creator of Rust was to disappear all the heap memory management errors that you probably already know about, for this Rust takes care that there can only be one variable that *owns* one value, this possession can be transferred from one variable to another by borrowing but at all times there is only one owner.
+The goal of the creator of Rust was to disappear all the heap memory management errors that you probably already know about, for this Rust makes sure that there can only be one variable that *owns* one value, this possession can be transferred from one variable to another by borrowing but at all times there can only be one owner ~~to rule them all~~.
 
-I found this video helpful to learn borrowing:
+When I was reading about this I found this video helpful to learn borrowing:
 
 {{< youtube id="4RZzjXmXcKg" >}}
 
 ### Understanding the Lifetimes in Rust is difficult
 
-This concept is used to manually tell the compiler the duration (lifetime) of a variable, in cases where the compiler cannot infer it automatically. Once you understand them, lifetimes are simple in practice but they can reduce the readability of the code, especially if you have never seen them before. 
+This concept is also I haven't seen elsewhere, Lifetimes are used to manually tell the compiler the duration (lifetime) of a variable, in cases where the compiler cannot infer it automatically. Once you understand them, lifetimes are simple in practice but they can reduce the readability of the code, especially if you have never seen them before. 
  
 ![How it feels when you first read about lifetimes](https://i.imgflip.com/972opz.jpg "How it feels when you first read about lifetimes")
 
@@ -54,20 +54,21 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 The good news is that, to my relief, it doesn't seem to be a feature that you have to implement frequently.
 
 ### Understanding when to use the multiple smart pointers Box, RefCell, Cell, Arc, Mutex, in Rust is difficult.
-Rust has a number of smart pointers to handle memory references in case you need to access a variable from many other places (I have previously written, [about Mutex but in Go]({{< ref path="/posts/go-condiciones-de-carrera-en-goroutines-y-mutex/index.md" lang="en" >}})). 
+
+Rust has a number of smart pointers to handle memory references in case you need to allocate memory in the heap or access a variable from multiple places (I have previously written, [about Mutex but in Go]({{< ref path="/posts/go-condiciones-de-carrera-en-goroutines-y-mutex/index.md" lang="en" >}})). 
 
 
 ![When you learn Rust for the first time it feels like this](https://i.imgflip.com/972oco.jpg)
 
-Sounds simple but, again, things get complicated when it comes time to express it in code and be able to differentiate the use of each and what problem they solve. 
+Sounds simple but, again, things get complicated when it comes time to write the code and be able to differentiate the use of each and what problem they solve. 
 
-I didn't understand their differences nor their uses the first time I read them, and I could realize that I wasn't the only one, stackoverflow and Reddit are full of questions about these smart pointers.
+I didn't understand their differences nor their uses the first time I read them, and I could realize that I wasn't the only ~~fool~~ one, stackoverflow and Reddit are full of questions about these smart pointers.
 
 ``` rust
 let value = Rc::new(RefCell::new(5));
 ```
 
-While researching about the topic I found this video, and I understood them perfectly after watching it.
+While researching about smart pointers I found this video, and I understood them perfectly after watching it.
 
 {{< youtube id="CTTiaOo4cbY" >}}
 
@@ -77,9 +78,9 @@ Also check this simple [summary of Box, Arc, Rc, RefCell and Mutex.](https://whi
 
 A macro, in Rust, is simply a piece of code that generates other Rust code during compilation.
 
-Macros are not a new concept or unique to Rust. However, if you're used to other programming languages, you're probably confused by the idea of having a fancy decorator, with brackets containing a function call, all with a hashtag at the beginning. 
+Macros are not a new concept or unique to Rust. However, if you're used to the lack of macros in other programming languages, you're probably confused by the idea of having a fancy decorator, with brackets containing a function call, all with a hashtag at the beginning. 
 
-In addition to the above, it is quite common to see macros in other people's code, so it can be difficult to understand if it is your first contact with the language, it happened to me.
+In addition to the above, it is quite common to see macros in other people's code, which can be daunting the first time you're reading Rust code.
 
 
 ``` rust
@@ -127,13 +128,15 @@ match result {
 
 ## Rust is not so hard to learn
 
-So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts with which I had a little more friction, but, taking into account how wide is the language, you will be able to realize that it is really a minimum part.
+So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts that changelled me the most, but, taking into account how big is the language, you will be able to realize that was really a minimum part.
+
+Most of Rust's syntax is pretty straight forward, and some of the things you have to deal with, save you the headaches of having to debug memory leaks or null pointers, which is an interesting tradeoff.
 
 ## Where to learn Rust?
 
 Rust is not exaggeratedly difficult, there are languages that are more complicated or require a complete paradigm shift to program in them, like Haskell, for example. 
 
-But I won't deny that learning Rust is more complicated than learning Go, or learning Python, I even dare to say that it is more complicated to learn it than C, on the other hand it is easier to write bad code in C than in Rust.
+But I won't deny that learning Rust is more complicated than learning Go, or learning Python, I even dare to say that it is more complicated to learn than C, on the other hand it is easier to write bad code in C than in Rust.
 
 Lastly, here are some resources you can use to learn Rust.
 

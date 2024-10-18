@@ -19,9 +19,9 @@ Si ya sabes que hace complicado a Rust tan difícil y lo que estás buscando es 
 
 ## Conceptos de Rust que no están en otros lenguajes
 
-Rust requiere que domines una serie de conceptos que no existen en otros lenguajes de programación, lo cual vuelve el ejercicio de aprender Rust un poco más complejo que extrapolar la sintaxis de otros lenguajes a este, tal como harías si quisieras aprender [el lenguaje de programación Go]({{< ref path="/posts/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), por ejemplo.
+Rust requiere que domines una serie de conceptos que no existen en otros lenguajes de programación, lo cual vuelve el ejercicio de aprender Rust un poco más complejo que extrapolar la sintaxis de otros lenguajes a este, tal como harías si quisieras aprender [el lenguaje de programación Go]({{< ref path="/posts/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), por ejemplo. Por esta misma razón, no recomiendo que Rust sea tu primer lenguaje de programación.
 
-Lo anterior es debido a que [Rust fue creado por Graydon Hoare con el propósito de lidiar con los problemas de manejo de memoria](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/) tras un incidente con un elevador descompuesto.
+La razón de la complejidad de Rust radica en un escenario exótico. [Rust fue creado por Graydon Hoare tras un incidente con un ascensor averiado.](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/) ¿La causa? Un pobre manejo de memoria, probablemente causado por código C o C++.
 
 ![Rust fue creado por Graydon Hoare tras un problema con un elevador](https://i.imgflip.com/972mo7.jpg "Rust fue creado por Royden Lepp tras un problema con un elevador")
 
@@ -128,6 +128,8 @@ match result {
 ## Rust no es tan difícil de aprender
 
 Hasta ahora, pareciera que estoy quejándome de las decisiones tomadas al diseñar este lenguaje, pero no, solo estoy exponiendo las partes con las que tuve un poco más de fricción, pero, tomando en cuenta lo amplio que es el lenguaje, podrás darte cuenta que realmente es una mínima parte.
+
+La mayor parte de la sintaxis de Rust es bastante sencilla, y algunas de las cosas con las que tienes que lidiar, te ahorran los dolores de cabeza de tener que depurar fugas de memoria o punteros nulos, lo cual es un intercambio interesante.
 
 ## ¿Dónde aprender Rust?
 
