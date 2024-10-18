@@ -102,28 +102,53 @@ std::thread::spawn(move || {
 
 Lo bueno es que solo es cuestión de acostumbrarse a la sintaxis.
 
-### Los tipos Result y Option
+### El manejo de Errores y null values en Rust es complejo
 
 Rust no cuenta con Try y Catch, sino que el manejo de errores y de valores nulos debe hacerse de manera explícita, parecido a como se hace en Go, para esto Rust echa mano de Result y Option.
 
-Su uso es bastante transparente, pero puede confundirte si es tu primera vez.
+#### Option
 
-``` rust
-fn divide(numerator: f64, denominator: f64) -> Option<f64> {
-    if denominator == 0.0 {
-        None
+*Option* es un enum, este representa un valor (*Some*) o la ausencia de este (*None*).
+
+```rust
+let x: Option<i32> = Some(13);
+let y: Option<i32> = None;
+```
+
+#### Result
+
+*Result*, otro enum, este representa una operación exitosa (*Ok*) o fracasada (*Err*).
+
+```rust
+fn divide(a: i32, b: i32) -> Result<i32, String> {
+    if b == 0 {
+        Err("Cannot divide by zero".to_string())
     } else {
-        Some(numerator / denominator)
+        Ok(a / b)
     }
 }
+```
 
-let result = divide(2.0, 3.0);
+#### Expect
 
-match result {
-    Some(x) => println!("Result: {x}"),
-    None    => println!("Cannot divide by 0"),
+*expect* un método que retorna el valor, ya sea *Option* o *Result* entra en pánico ~~(como tú)~~ si hay un error o un *None*.
+
+```rust
+let x = Some(5).expect("Value not found");
+```
+
+#### ? operator
+
+El operador *?*  propagada el error en un tipo *Result*, retorna el error si existe o *desenvuelve* el valor que contiene *Ok*.
+
+```rust
+fn read_file() -> Result<String, std::io::Error> {
+    let content = std::fs::read_to_string("file.txt")?;
+    Ok(content)
 }
 ```
+
+Encontré este recurso que explica [el manejo de errores en Rust](https://www.sheshbabu.com/posts/rust-error-handling/) de una manera accesible y sencilla, leelo detenidamente.
 
 ## Rust no es tan difícil de aprender
 

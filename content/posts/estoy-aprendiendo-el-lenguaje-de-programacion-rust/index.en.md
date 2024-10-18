@@ -103,26 +103,52 @@ std::thread::spawn(move || {
 
 The good thing is that it is only a matter of getting used to the syntax.
 
-### Result and Option types
+### Error handling in rust is complex
 
-Rust does not have Try and Catch, but the handling of errors and null values must be done explicitly, for this Rust uses Result and Option.
+Rust does not have Try and Catch, but the handling of errors and null values must be done explicitly, and it's not as straight forward as in Javascript or Python, for this Rust uses Result, Option, Unwrap, Expect and ?.
 
-Its use is quite straight forward, but it may confuse you if it is your first time dealing with it.
+I found this resource that explains [Rust's Error handling](https://www.sheshbabu.com/posts/rust-error-handling/) in an understandable and simple way.
 
-``` rust
-fn divide(numerator: f64, denominator: f64) -> Option<f64> {
-    if denominator == 0.0 {
-        None
+#### Option
+
+*Option* is an enum that represents either a value (*Some*) or the absence of a value (*None*).
+
+```rust
+let x: Option<i32> = Some(13);
+let y: Option<i32> = None;
+```
+
+#### Result
+
+*Result* is an enum that represents either success (*Ok*) or failure (*Err*).
+
+```rust
+fn divide(a: i32, b: i32) -> Result<i32, String> {
+    if b == 0 {
+        Err("Cannot divide by zero".to_string())
     } else {
-        Some(numerator / denominator)
+        Ok(a / b)
     }
 }
+```
 
-let result = divide(2.0, 3.0);
+#### Expect
 
-match result {
-    Some(x) => println!("Result: {x}"),
-    None    => println!("Cannot divide by 0"),
+*expect* is a method that either returns the value inside *Option* or *Result* or panics with a custom message if there's an error or *None*.
+
+
+```rust
+let x = Some(5).expect("Value not found");
+```
+
+#### ? operator
+
+The *?* operator propagates errors in a *Result* type, returning the error if it exists or unwrapping the *Ok* value.
+
+```rust
+fn read_file() -> Result<String, std::io::Error> {
+    let content = std::fs::read_to_string("file.txt")?;
+    Ok(content)
 }
 ```
 
