@@ -150,6 +150,34 @@ fn read_file() -> Result<String, std::io::Error> {
 
 Encontré este recurso que explica [el manejo de errores en Rust](https://www.sheshbabu.com/posts/rust-error-handling/) de una manera accesible y sencilla, leelo detenidamente.
 
+### Combinar traits, impl y generics en Rust es difícil
+
+Los traits piensa en ellos como [interfaces, (de las cuales ya te hable en mi post sobre el polimorfismo en Go)]({{< ref path="/posts/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="es" >}}), mezclados con generics, pueden llegar ser difíciles de comprender.
+
+En el ejemplo de abajo usamos un generic en un struct, para indicarle que grade puede ser cualquier tipo, y en la implentación nos aseguramos que este genérico satisfaga al trait Display, para que pueda ser impreso.
+
+``` rust
+// Taken from rustlings exercises, see the final part of this post
+// Display is a trait here
+use std::fmt::Display;
+
+// Grade can be anything as long as ...
+struct Report<T> {
+    grade: T,
+    student_name: String,
+    student_age: u8,
+}
+
+// it satisfies the display Trait
+impl<T: Display> Report<T> {
+    fn print(&self) -> String {
+        format!(
+            "student: {} ({}) - achieved a grade of {}",
+            &self.student_name, &self.student_age, &self.grade,
+        )
+    }
+}
+```
 
 ## Rust no es tan difícil de aprender
 

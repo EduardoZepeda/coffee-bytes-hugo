@@ -152,6 +152,34 @@ fn read_file() -> Result<String, std::io::Error> {
 }
 ```
 
+### Combining traits, impl and generics in Rust is tricky.
+
+Traits, think of them as [interfaces, (which I already told you about in my post about Go's polymorphism)]({{< ref path="/posts/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="en" >}}), mixed with generics, can add complexity to the code.
+In the example below we use a generic on a struct, to tell it that grade can be any type, and in the implementation we make sure that this generic Type satisfies the Display trait, so that it can be printed.
+
+``` rust
+// Taken from rustlings exercises, see the final part of this post
+// Display is a trait here
+use std::fmt::Display;
+
+// Grade can be anything as long as ...
+struct HogwartsReportCard<T> {
+    grade: T,
+    student_name: String,
+    student_age: u8,
+}
+
+// it satisfies the display Trait
+impl<T: Display> HogwartsReportCard<T> {
+    fn print(&self) -> String {
+        format!(
+            "Hogwarts' student: {} ({}) - achieved a grade of {}",
+            &self.student_name, &self.student_age, &self.grade,
+        )
+    }
+}
+```
+
 ## Rust is not so hard to learn
 
 Rust is not exaggeratedly difficult, there are languages that are more complicated or require a complete paradigm shift to program in them, like Haskell, for example. 

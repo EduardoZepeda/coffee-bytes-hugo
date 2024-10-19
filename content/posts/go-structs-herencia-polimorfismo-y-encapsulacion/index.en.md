@@ -182,9 +182,11 @@ type Professor struct {
 
 ## Polymorphism using interfaces in go
 
-Interfaces are a method to differentiate the behavior of different objects. An interface will be in charge of calling the method we specify corresponding to its struct type.
+You can think of an interface as a kind of “blueprint” that tells an object what functions it must implement to work, each object can implement those functions as it wants, but it must implement them. 
 
-A type can implement multiple interfaces.
+For example: Think of an abstraction that represents each animal that breathes, if an animal breathes, we take for granted that it must must implement the “breathe” interface, but each animal will implement it as it likes, some will breathe using noses, others gills, some will do it very slow, others very fast, but all must implement a method to breathe.
+
+Based on the above, in Go interfaces are a method to differentiate the behavior of different objects. An interface will be in charge of calling the method that we specify corresponding to its struct type.
 
 See how the interface declares that the type *fourSidesFigure* has a method called _area_ that returns a result of type _float64_.
 

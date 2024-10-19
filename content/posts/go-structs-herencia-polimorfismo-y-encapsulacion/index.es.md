@@ -173,9 +173,11 @@ type Profesor struct {
 
 ## Polimorfismo usando interfaces en go
 
-Las interfaces son un método para diferenciar el comportamiento de diferentes objetos. Una interfaz se encargará de llamar al método que le especificamos correspondiente a su tipo de struct.
+Puedes pensar en una interfaz como una especie de "plano" o "blueprint" que le dice a un objeto que funciones debe implementar para funcionar, cada objeto puede implementar esas funciones como quiera, pero debe implementarlas forzosamente. 
 
-Un type puede implementar múltiples interfaces.
+Por ejemplo: Piensa en una abstracción que representa a cada animal que respira, si un animal respira, damos por hecho que debe implementar la interfaz de "respirar", pero cada animal la implementará a su gusto, algunos respirarán usando narices, otros branquias, algunos lo harán muy lento, otros muy rápido, pero todos deben implementar un método para respirar.
+
+Basándonos en lo anterior, en Go las interfaces son un método para diferenciar el comportamiento de diferentes objetos. Una interfaz se encargará de llamar al método que le especificamos correspondiente a su tipo de struct.
 
 Mira como la interfaz declara que el type _figuras4Lados_ tiene un método llamada _area_ que devuelve un resultado de tipo _float64_.
 
