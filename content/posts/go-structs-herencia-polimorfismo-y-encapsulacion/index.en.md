@@ -220,7 +220,19 @@ func (r rectangle) area() float64 {
 
 Now we will create a function that will receive as argument any type *fourSidesFigure*, and will execute its respective _area._ method.
 
+### what's an interface for in Go?
+
+Here it is necessary to put special emphasis, observe how the argument that we pass to the function is the interface that we created, we are not interested in what type of *struct* we are passing as argument, the only thing that we care about is that this argument satisfies the interface. 
+
+In this case the interface is *fourSidesFigure*, hence, whatever we pass it as an argument must have a method called *area* that returns a *float64*.
+
+When we use interfaces we can guarantee that the code works at a higher level, and we can leave the details of the low level functioning to its respective object, we can replace the implementation of the interface as long as it satisfies the interface's signature.
+
 ```go
+type fourSidesFigure interface{
+    area() float64
+}
+
 func calculate (f fourSidesFigure) {
     fmt.Println("Area", f.area())
 }

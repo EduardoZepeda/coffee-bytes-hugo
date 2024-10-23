@@ -69,7 +69,7 @@ fmt.Println(myVideogame)
 // imprime {Titulo 2017}
 ```
 
-¿Y que pasa si queremos un struct con muchos campos de un mismo tipo? Esta característica **no funcionará** si tenemos múltiples campos del mismo tipo en nuestro struct**,**
+¿Y que pasa si queremos un struct con muchos campos de un mismo tipo? Esta característica **no funcionará si tenemos múltiples campos del mismo tipo en nuestro struct**.
 
 ## Privacidad y encapsulación en los structs
 
@@ -211,7 +211,21 @@ func (r rectangulo) area() float64 {
 
 Ahora crearemos una función que recibirá como argumento cualquier type _figura4Lados_, y ejecutará su respectivo método _area._
 
+### ¿Para que sirve una interfaz en Go?
+
+Aquí hay que poner enfasis especial, observa como el argumento que le pasemos a la función es la interfaz que creamos, no nos interesa que tipo de *struct* estamos pasándole como argumento, lo único que nos interesa es que este argumento satisfaga a la interfaz. 
+
+En este caso la interfaz es *figura4Lados*, y por ende debemos asegurarnos que lo que sea que le pasemos tenga un método llamado *area* que retorne un *float64*.
+
+Cuando utilizamos interfaces podemos garantizar que el código funciona a un nivel superior, y podemos dejar los detalles del funcionamiento a bajo nivel a su respectivo objeto, podemos sustituir la implementación de la interfaz siempre que satisfaga las características que define la interfaz.
+
 ```go
+type figuras4Lados interface{
+    area() float64
+}
+
+// ...
+
 func calcular (f figuras4Lados) {
     fmt.Println("Area", f.area())
 }
