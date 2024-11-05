@@ -5,6 +5,7 @@ coverImage: "images/composition-over-inheritance.jpg"
 coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
 categories:
 - "Software architecture"
+description: Read the most simple explanation of Composition over inheritance in Object Oriented Programming (OOP) that will make you understand it right now.
 keywords:
 - python
 - django
@@ -12,9 +13,9 @@ authors:
   - Eduardo Zepeda
 ---
 
-Composition over inheritance is a recurring theme in object-oriented programming (OOP). Usually, it is explained in a very complex way, but today I will try to simplify it to the point where purists will hate me. 
+Composition over inheritance is a recurring theme in object-oriented programming (OOP). Usually, it is explained in a very complex way, but today I will try to simplify so even a child can understand it, purists will hate me but I'm willing to pay the price.
 
-Let's start, imagine you have a giant box of LEGO bricks, yes, those little plastic blocks that cause unimaginable pain when you step on them. But, in this case, we won't use them to cause pain but to build different types of cars.
+Let's start our composition over inheritance explanation. Imagine you have a giant box of LEGO bricks, yes, those little plastic blocks that cause unimaginable pain when you step on them. But, in this case, we won't use them to cause pain but to build different types of cars.
 
 ## Inheritance or composition
 
@@ -22,11 +23,15 @@ To build our tiny cars, there are two ways:
 
 1. Inheritance: you can start with a basic car design, and then make changes to it to create different types of cars. But sometimes this turn into a complete disaster, since you can end up with some strange cars that won't work properly.
 
+![Image of a LEGO Car in one piece](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg "You start with a car and start changing parts. All rights for this image belong to LEGO")
+
 2. Composition: Instead of starting with a basic car and changing it, you can use smaller LEGO pieces to build the different parts of a car, such as wheels, doors, and windows. Then put those pieces together to create different types of cars. This way, you have more control and flexibility to create exactly the type of car you want without making a mess.
 
-So, **composition over inheritance means that it's often better to build things by putting smaller parts together rather than changing one big thing to make something new**.
+![Image of different LEGO parts](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg "You start with pieces and start assembling your car. All rights for this image belong to LEGO")
 
-### Compositing over inheritance
+So, in a nutshell, **composition over inheritance means that it's often better to build things by putting smaller parts together rather than changing one big thing to make something new**.
+
+### Compositing over inheritance, code example
 
 And put in an example using Python code we would get something like:
 
