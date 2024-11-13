@@ -44,6 +44,13 @@ printenv | grep DBUS
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 ```
 
+También podemos usar Python para obtener este valor.
+
+``` python
+import os
+os.environ.get("DBUS_SESSION_BUS_ADDRESS")
+```
+
 Ahora que tenemos el valor de la variable de entorno, podemos agregarlo a las variables de entorno por medio _os.environ_. Ahora este valor estará disponible para Crontab cuando se ejecute el script.
 
 ```python
