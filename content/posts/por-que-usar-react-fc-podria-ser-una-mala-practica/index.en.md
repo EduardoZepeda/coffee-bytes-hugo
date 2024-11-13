@@ -36,15 +36,15 @@ const Component: React.FC = ({ children }) => {
 export default Component
 ```
 
-As you can see, it is quite comfortable to use, but some people do not agree with its use.
+As you can see, *React.FC* is quite comfortable to use, but some people do not agree with its use.
 
 ## React.FC, more disadvantages than advantages?
 
 What's the problem? Well, some developers claim that _React.FC_ can bring more disadvantages than advantages, there is even a discussion on github (link at the end), in which it is debated whether it is convenient to remove one of the examples in the documentation that uses it.
 
-The user who started this discussion believes that **the fact that _React.FC_ is so popular is because its presence in the documentation positions it as the default way to handle React components with Typescript.
+The user who started this discussion believes that **the fact that _React.FC_ is so popular is because its presence in the documentation positions it as the default way to handle React components with Typescript.**
 
-Here are some of the reasons why React.FC has more disadvantages than advantages.
+Here are some of the reasons why React.FC may have more disadvantages than advantages.
 
 ### React.FC does not warn us about unused children
 
@@ -90,9 +90,9 @@ function App() {
 export default App;
 ```
 
-### Subcomponent pattern in React gets more complicated
+### Subcomponent pattern in React gets more complicated using React.FC
 
-The [component pattern as namespace](https://medium.com/@kunukn_95852/react-components-with-namespace-f3d169feaf91) is fairly simple to create without using React.FC, but with React.FC it can get quite complicated.
+The [component pattern as namespace](https://medium.com/@kunukn_95852/react-components-with-namespace-f3d169feaf91) is fairly simple to create without using *React.FC*, but with *React.FC* it can get quite complicated.
 
 Don't know what it is? Think of a pattern that allows you to group components within a certain parent, which functions as a namespace for our child components; similar to how the C++ namespace _std_ would work.
 
@@ -102,7 +102,7 @@ Don't know what it is? Think of a pattern that allows you to group components wi
 </Namespace>
 ```
 
-In its simplest form, omitting React.FC would look something like this:
+In its simplest form, omitting *React.FC* would look something like this:
 
 ```jsx
 const Namespace = (props: NamespaceProps) => {/* ... */}
@@ -116,7 +116,7 @@ const Namespace: React.FC<NamespaceProps> & { Component: React.FC<ComponentProps
 Namespace.Component = (props) => { /*...*/ }
 ```
 
-## What should we use instead of React.FC?
+## What can we use instead of React.FC?
 
 The core of the criticism is that **React.FC adds the children implicitly, going against the explicit nature of typescript**.
 
@@ -140,7 +140,7 @@ export default Component
 
 Typescript should not warn you about any errors with this approach to the problem.
 
-## Other resources on the subject
+## Other resources on React FC usage
 
 Below are links to the original discussion and some posts on this topic.
 
