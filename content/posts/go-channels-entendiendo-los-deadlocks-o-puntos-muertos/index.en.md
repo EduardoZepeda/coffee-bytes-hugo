@@ -125,7 +125,7 @@ func main() {
 
 In this case I have created a goroutine with an anonymous function that reads from the channel.
 
-### How to prevent deadlocks in go using buffered channels
+## How to prevent deadlocks and all goroutines are asleep error in go using buffered channels
 
 If a channel does not have buffer, the value remains "retained" until it is received, blocking the execution while it happens, causing the deadlock or deadlock if no one receives it.
 
@@ -147,9 +147,9 @@ func main() {
 // No deadlock error
 ```
 
-## Resources on deadlocks in go
+## More resources on deadlocks in go
 
-To conclude the article, I will share with you some interesting resources about deadlocks that I consider worth mentioning.
+To conclude the article, I'll share with you some interesting resources about deadlocks in Go that I consider worth mentioning.
 
 * [Golang - Understanding channel, buffer, blocks, deadlocks and gorotuines](https://gist.github.com/YumaInaura/8d52e73dac7dc361745bf568c3c4ba37).
 * [Why a goroutine block on channel is considered as deadlock?](https://stackoverflow.com/questions/61759204/why-a-go-routine-block-on-channel-is-considered-as-deadlock).

@@ -22,15 +22,33 @@ title: ¿Por qué deberías usar Django Framework?
 
 ¿Por qué usar Django en un mundo donde todo es Javascript? ¿De verdad vale la pena aprender un Framework de Python en un ecosistema que se empecina en Frameworks escritos en Javascript? Pues yo creo que sí y a continuación te expongo algunas de las razones por las que deberías usar Django. Y, para no perder objetividad, te hablaré tanto de las ventajas, como de las desventajas; ya sabes que ninguna solución es perfecta.
 
+## Ventajas y desventajas de Django TLDR
+
+- Desventajas de Django
+  - Django es un monolito
+  - Django es lento
+  - La curva de aprendizaje de Django es alta
+  - El ORM de Django no es asíncrono
+  - Django requiere que sepas Python además de Javascript
+- Ventajas de Django
+  - El ORM de Django está muy completo
+  - La mayoría de cuestiones de seguridad están resueltas
+  - Autenticación, mensajes, caché, permisos, panel de administración, manejo de formularios, i18n incluídos
+  - Framework estable, maduro y con mucha trayectoría
+  - Permite iterar y crear MVP muy rápido en startups
+  - Perfecto para combinar con Machine Learning
+
+Si quieres ahondar en alguna en particular sigue leyendo.
+
 ## Las ventajas de Django
 
 Django es un framework con baterias incluídas, que cubre prácticamente todas las necesidades de un sitio web interactivo, desde protección contra los ataques más comunes como SQL injection, CSRF, COOP y XSS. Además un ORM, validación de formularios en el backend, caché, i18n, messages y nos ofrece una solución para prácticamente todos los problemas que surgen al desarrollar un sitio web de tamaño mediano o grande.
 
-Si eres uno de esos desarrolladores que se consideran **perfeccionistas con deadlines**, y que no quieren tener que reinventar la rueda una y otra vez, con cada nuevo proyecto, vas a amar Django.
+Si eres uno de esos desarrolladores que se consideran **perfeccionistas con deadlines**, y que no quieren tener que reinventar la rueda una y otra vez con cada nuevo proyecto, vas a amar Django.
 
-### Su ORM es sencillo y maravilloso
+### El ORM de Django es sencillo y fácil de usar
 
-El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones [búsquedas avanzadas de Postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) y manejo de migraciones.
+El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones para [búsquedas avanzadas de Postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) y manejo de migraciones automático.
 
 Para crear una tabla en la base de datos basta con crear una clase que herede de _models.Model_ y Django se encargará de todo el trabajo pesado.
 
@@ -52,12 +70,12 @@ BEGIN;
 --
 -- Create model Review
 --
-CREATE TABLE "reviews_review" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(25) NOT NULL, "comment" text NOT NULL, "name" varchar(20) NOT NULL, "created" datetime NOT NULL, "modified" datetime NOT NULL, "user_id" integer NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED);
-CREATE INDEX "reviews_review_user_id_875caff2" ON "reviews_review" ("user_id");
+CREATE TABLE reviews_review (id integer NOT NULL PRIMARY KEY AUTOINCREMENT, title varchar(25) NOT NULL, comment text NOT NULL, name varchar(20) NOT NULL, created datetime NOT NULL, modified datetime NOT NULL, user_id integer NULL REFERENCES auth_user (id) DEFERRABLE INITIALLY DEFERRED);
+CREATE INDEX reviews_review_user_id_875caff2 ON reviews_review (user_id);
 COMMIT;
 ```
 
-Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que cambiar de motor de base de datos es bastante sencillo y tras unos pocos cambios puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/es/tutorial-de-migraciones-en-go-con-migrate/).
+Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que migrar de motor de base de datos es bastante sencillo y tras unos pocos cambios puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/es/tutorial-de-migraciones-en-go-con-migrate/).
 
 ```python
 # settings.py
@@ -71,7 +89,7 @@ DATABASES = {
 }
 ```
 
-Su única desventaja es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/es/integracion-del-orm-de-python-tortoise-con-fastapi/).
+La única desventaja del ORM de django es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/es/integracion-del-orm-de-python-tortoise-con-fastapi/).
 
 ### Panel de administrador incluido
 
@@ -117,9 +135,9 @@ Django cuenta con un sistema para sitios multilingues out of the box, basado en 
 
 Django cuenta con un sistema que permite crear formularios con código Python de manera muy sencilla, incluso tomando como base modelos en la base de datos, estos pueden usarse para crear filas en tu base de datos e inclusive para usarlos para validar los datos que ingresa tu usuario en el backend.
 
-### Múltiples paquetes
+### Múltiples paquetes disponibles para la mayoría de las necesidades web
 
-Django cuenta con muchísimos paquetes para resolver la mayoría de los problemas comunes, además son paquetes supervisados y mejorados por la comunidad, lo que garantiza una calidad impresionante.
+Django cuenta con muchísimos paquetes para resolver la mayoría de los problemas comunes, además son paquetes supervisados y mejorados por la comunidad, lo que garantiza una calidad, robustez y estabilidad impresionante.
 
 Solo por nombrar algunos:
 
@@ -138,15 +156,15 @@ Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve
 
 Otro paquete a destacar que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](/es/django-channels-consumers-scope-y-eventos/)
 
-### Te lleva de una idea a un prototipo funcional rápido
+### Django te lleva de una idea a un prototipo funcional rápido
 
-Yo considero esta la razón principal para usar Django. A pesar de [no ser el framework con mejor rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), **Django te lleva de una idea a un MVP rápido y sin necesidad de reinventar la rueda**. Lo cual es una ventaja competitiva gigantesca frente a otros frameworks, especialmente cuando hay dinero y clientes involucrados.
+Yo considero esta **la ventaja principal de Django**. A pesar de [no ser el framework con mejor rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), **Django te lleva de una idea a un MVP rápido, con pocas lineas de código**. Lo cual es una ventaja competitiva gigantesca frente a otros frameworks, especialmente en entornos iterativos.
 
 Con Django tendrías un prototipo funcionando más rápido que con cualquier otro framework "menos opinado" o que requiera que programes todo desde cero.
 
 ![Porque usar Django](images/meme-django.jpeg)
 
-### Es una solución probada
+### Django es una solución probada y madura
 
 Hay muchísimos frameworks nuevos cada día. La mayoría de ellos son solo una moda y caen en desuso con el pasar de los años, dejando proyectos sin soporte. Django es un framework que lleva muchísimo tiempo funcionando, que ha pasado por numerosas pruebas que lo han vuelto muy robusto y confiable, y que no va a desaparecer de la noche a la mañana dejándote con un proyecto sin soporte.
 
@@ -154,7 +172,7 @@ Considera que Django fue la opción que alguna vez eligieron sitios tan grandes 
 
 ### Compatibilidad de Django con librerías de Machine Learning
 
-Python es genial cuando se trata de Machine Learning, librerías geniales como Pytorch, ScikitLearn, Numpy y Keras son bastante usadas a nivel mundial. Dado que Django está escrito en Python, podras integrar estas librerías de manera nativa a tus proyectos de Django, sin necesidad de crear un servicio nuevo.
+Python es genial cuando se trata de Machine Learning, librerías geniales como Pytorch, ScikitLearn, Numpy y Keras son bastante usadas a nivel mundial. Dado que Django está escrito en Python, podras integrar estas librerías de manera nativa a tus proyectos de Django, sin necesidad de crear un servicio nuevo, manteniendo la complejidad de tu código al mínimo.
 
 ![Machine learning con Python](images/iceberg-meme.jpg)
 
@@ -182,7 +200,9 @@ Django está trabajando porque su ORM sea asíncrono, pero aún no lo consigue. 
 
 ### Curva de aprendizaje moderada
 
-Django sigue la filosofía de baterías incluidas. Lo cual es bueno, porque es código que te ahorras al escribir, pero también malo, pues es código que necesitas aprender a usar: el ORM con modelos y consultas, el middleware, las vistas, DRF (para las APIs) o el sistema de plantillas, el manejador de urls, traducción de cadenas de texto, el paquete de i18n, etc. Aprender todo lo anterior implica más tiempo del que te tomaría aprender otros Frameworks más minimalistas; como Flask o Express.
+Django sigue la filosofía de baterías incluidas. Lo cual es bueno, porque es código que te ahorras al escribir, pero también malo, pues es código que necesitas aprender a usar: el ORM con modelos y consultas, el middleware, las vistas, DRF (para las APIs) o el sistema de plantillas, el manejador de urls, traducción de cadenas de texto, el paquete de i18n, el framework de mensajes, etc. 
+
+Aprender todo lo anterior implica más tiempo del que te tomaría aprender otros Frameworks más minimalistas; como Flask o Express.
 
 ## Alternativas a Django en otros lenguajes
 
@@ -196,7 +216,11 @@ Si usas Framework y buscas un framework parecido, tengo entendido que [AdonisJS]
 
 Si estas usando este maravilloso y super simple [lenguaje de programación llamado Go](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), sé que el framework [Beego](https://github.com/beego/beego#?) es bastante similar a Django en cuanto a su filosofía de baterías incluídas.
 
-## TLDR ventajas y desventajas de Django
+### Frameworks como django pero en Rust
+
+Si bien es más parecido a RoR, [Loco, escrito en Rust,](https://loco.rs/#?) ofrece una experiencia bastante similar a un framework de alto nivel como Django.
+
+## Mi opinión sobre las ventajas y desventajas de Django
 
 Desde mi punto de vista las ventajas superan a las desventajas, por lo que yo lo considero una opción muy atractiva para desarrollar un sitio web complejo cuando se tiene poco tiempo o necesitas encontrar desarrolladores rápido.
 

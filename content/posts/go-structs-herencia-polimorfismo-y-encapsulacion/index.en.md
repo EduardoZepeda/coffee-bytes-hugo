@@ -165,9 +165,9 @@ fmt.Println(*nier)
 // {Nier 2017}
 ```
 
-## Inheritance in go structs
+## golang inheritance using structs
 
-Go **does not have a word for declaring inheritance in structs**, however it does have something similar. For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field.
+Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python. For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field to another struct.
 
 ```go
 type Person struct {
@@ -179,6 +179,8 @@ type Professor struct {
     Person
 }
 ```
+
+The code above will pass all the fields present in the first struct to the second struct, without having to explicitly declare them.
 
 ## Polymorphism using interfaces in go
 

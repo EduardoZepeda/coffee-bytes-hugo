@@ -21,6 +21,23 @@ authors:
 
 Why use Django in a world where everything is Javascript? Is it really worth learning a Python Framework in an ecosystem that insists on Frameworks written in Javascript? Well, I think so, and here are some of the reasons why you should use Django. And, in order not to lose objectivity, I will talk about the advantages as well as the disadvantages; you know that no solution is perfect.
 
+## Advantages and disadvantages of Django TLDR
+- Disadvantages of Django
+  - Django is a monolith
+  - Django is slow
+  - Django's learning curve is high
+  - Django's ORM is not asynchronous
+  - Django requires you to know Python in addition to Javascript
+- Advantages of Django
+  - Django's ORM is very complete
+  - Most security issues are solved
+  - Authentication, messaging, caching, permissions, admin panel, form handling, i18n included
+  - Stable, mature framework with a long track record
+  - Allows to iterate and create MVPs very fast in startups
+  - Perfect to combine with Machine Learning
+  - 
+If you want to delve into one in particular read on.
+
 ## The advantages of Django
 
 Django is a *batteries included* framework, that covers practically all the needs of an interactive website, from protection against the most common attacks such as SQL injection, CSRF, XSS, COOP. Furthermore, it offers form validation in the backend, caching, i18n, messages, flatpages and practically a solution to all common problems that arise when developing a medium or large website.
@@ -51,8 +68,8 @@ BEGIN;
 --
 -- Create model Review
 --
-CREATE TABLE "reviews_review" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(25) NOT NULL, "comment" text NOT NULL, "name" varchar(20) NOT NULL, "created" datetime NOT NULL, "modified" datetime NOT NULL, "user_id" integer NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED);
-CREATE INDEX "reviews_review_user_id_875caff2" ON "reviews_review" ("user_id");
+CREATE TABLE reviews_review (id integer NOT NULL PRIMARY KEY AUTOINCREMENT, title varchar(25) NOT NULL, comment text NOT NULL, name varchar(20) NOT NULL, created datetime NOT NULL, modified datetime NOT NULL, user_id integer NULL REFERENCES auth_user (id) DEFERRABLE INITIALLY DEFERRED);
+CREATE INDEX reviews_review_user_id_875caff2 ON reviews_review (user_id);
 COMMIT;
 ```
 
