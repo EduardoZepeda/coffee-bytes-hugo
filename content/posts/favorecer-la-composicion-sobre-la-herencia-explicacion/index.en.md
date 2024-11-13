@@ -5,7 +5,8 @@ coverImage: "images/composition-over-inheritance.jpg"
 coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
 categories:
 - "Software architecture"
-description: Read the most simple explanation of Composition over inheritance in Object Oriented Programming (OOP) that will make you understand it right now.
+description: Read the most simple explanation of composition over inheritance in Object Oriented Programming (OOP) that will make you understand it right now.
+keyword: "composition over inheritance"
 keywords:
 - python
 - django
@@ -17,7 +18,7 @@ Composition over inheritance is a recurring theme in object-oriented programming
 
 Let's start our composition over inheritance explanation. Imagine you have a giant box of LEGO bricks, yes, those little plastic blocks that cause unimaginable pain when you step on them. But, in this case, we won't use them to cause pain but to build different types of cars.
 
-## Inheritance or composition
+## Inheritance vs composition
 
 To build our tiny cars, there are two ways:
 
@@ -29,9 +30,11 @@ To build our tiny cars, there are two ways:
 
 ![Image of different LEGO parts](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg "You start with pieces and start assembling your car. All rights for this image belong to LEGO")
 
+## Composition over inheritance in a nutshell
+
 So, in a nutshell, **composition over inheritance means that it's often better to build things by putting smaller parts together rather than changing one big thing to make something new**.
 
-### Compositing over inheritance, code example
+### Composition over inheritance, code example
 
 And put in an example using Python code we would get something like:
 
@@ -73,4 +76,4 @@ fast_car = SportsCar()
 fast_car.start_engine()
 ```
 
-In the inheritance example, we started with a basic "Car" and modified it to make a "SportsCar". In the compositing example, we build an "Automobile" and a "SportsCar" by combining smaller parts, such as the engine. It's like using LEGO pieces to build cars, and it gives us more control and flexibility when writing our programs.
+In the inheritance example, we started with a basic "Car" and modified it to make a "SportsCar". In the compositing example, we build an "Automobile" and a "SportsCar" by combining smaller parts, such as the engine. It's like using LEGO pieces to build cars, and it gives us more control and flexibility when writing our programs. Once you understand the meaning of composition over inheritance it'll make you rethink the way you write code.
