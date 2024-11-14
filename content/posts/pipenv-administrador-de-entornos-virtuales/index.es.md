@@ -27,7 +27,7 @@ Primero, si ya has oído hablar de los entornos virtuales pero no sabes para que
 
 Seguramente ya sabes que _pip_ es usado para manejar paquetes, pero generalmente deseamos tener los paquetes de cada una de nuestras aplicaciones aislados del resto del sistema, por lo que normalmente lo combinamos con _virtualenv_.
 
-_Pip_ y _virtualenv_ se usan en conjunto para mantener las dependencias de un entorno virtual, pero pip puede llegar a producir entornos diferentes, incluso con un mismo archivo _requirements.txt_, esto es algo que queremos evitar. El creador de _pipenv_ diseño su herramienta intentando resolver esa problemática.
+_Pip_ y _virtualenv_ se usan en conjunto para mantener las dependencias de un entorno virtual, pero pip puede llegar a producir entornos diferentes, incluso con un mismo archivo _requirements.txt_, esto es algo que queremos evitar. El creador de _pipenv_ diseñó su herramienta intentando resolver esa problemática.
 
 Pipenv se encarga de unir a _pip_ y a _virtualenv_ en **una sola herramienta**, además de asegurarse de que el archivo donde se listan las dependencias que se generan produzca **exactamente la misma configuración de paquetes**, pipenv también permite cargar archivos variables de entorno directamente a partir de archivos _.env_ que se encuentren en la carpeta de trabajo donde nos encontremos.
 
@@ -60,7 +60,7 @@ Pipfile  Pipfile.lock
 
 ¿Qué tienen estos archivos? Te lo explico a continuación. Primero vamos con el archivo Pipfile.
 
-## Pipfile
+## ¿Para qué sirve el archivo Pipfile de Pipenv?
 
 Empecemos viendo el contenido del archivo _Pipfile_. Si tienes alguna dificultado con el uso de la linea de comandos te sugiero revisar las entradas donde hablo de los [comandos básicos de GNU/Linux.](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/)
 
@@ -110,9 +110,12 @@ django = "===3.0.1"
 python_version = "3.7"
 ```
 
-## Pipfile.lock
+## ¿Para qué sirve el archivo Pipfile.lock?
 
-Ahora hagamos un _cat_ a _Pipfile.lock_
+Ahora hagamos un _cat_ a _Pipfile.lock_ y obtendremos el bloque de código inferior.
+
+El archivo puede parecer muy apantallante, pero son únicamente los hashes de los paquetes que instalamos, así como sus dependencias, de esta manera nos aseguramos de que las versiones que instalamos sean las correctas y además **nos permitirá obtener exactamente la misma configuración de paquetes** si tomamos estos archivos y los llevamos a otra computadora.
+
 
 ```javascript
 cat Pipfile.lock
@@ -153,9 +156,8 @@ cat Pipfile.lock
 ...
 ```
 
-El archivo puede parecer muy apantallante, pero son únicamente los hashes de los paquetes que instalamos, así como sus dependencias, de esta manera nos aseguramos de que las versiones que instalamos sean las correctas y además **nos permitirá obtener exactamente la misma configuración de paquetes** si tomamos estos archivos y los llevamos a otra computadora.
 
-### ¿Cómo visualizar las dependencias de manera gráfica?
+### ¿Cómo visualizar las dependencias de manera gráfica con Pipenv?
 
 Si ahora usamos el comando _pipenv graph_ nos generará una representación detallada y visualmente amigable de las dependencias que tenemos instaladas
 
@@ -355,5 +357,13 @@ Removing virtualenv (/home/usuario/.local/share/virtualenvs/prueba-HHqROqC2)…
 ```
 
 ¡Listo! El entorno virtual ha quedado eliminado completamente.
+
+## Alternativas a Pipenv
+
+Puede que Pipenv no te convenza, probablemente prefieras probar con otro administrador de entornos virtuales. 
+
+- Conda
+- Poetry (Yo lo he usado y es bastante bueno)
+- Hatch
 
 Si quieres conocer más funciones de pipenv puedes visitar su [documentación oficial.](https://pipenv-es.readthedocs.io/es/latest/)

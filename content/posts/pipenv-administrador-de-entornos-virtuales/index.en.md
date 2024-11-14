@@ -56,7 +56,7 @@ Pipfile Pipfile.lock
 
 What is in these files? I will explain it below. First let's go to the Pipfile file.
 
-## Pipfile
+## What's Pipfile for in Pipenv?
 
 Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//).
 
@@ -106,7 +106,7 @@ django = "===3.0.1"
 python_version = "3.7"
 ```
 
-## Pipfile.lock
+## What's Pipfile.lock for in Pipenv?
 
 Now let's do a _cat_ to _Pipfile.lock_.
 
@@ -351,5 +351,12 @@ Removing virtualenv (/home/usuario/.local/share/virtualenvs/prueba-HHqROqC2)…
 ```
 
 Ready! The virtual environment has been completely removed.
+
+## Alternatives to Pipenv
+Pipenv may not convince you, you probably prefer to try another virtual environment manager.
+
+- Conda
+- Poetry (I've used it and it's quite good)
+- Hatch
 
 If you want to know more about pipenv functions you can visit its [official documentation](https://pipenv-es.readthedocs.io/es/latest/)
