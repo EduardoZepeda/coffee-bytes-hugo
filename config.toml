@@ -75,10 +75,10 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
 modalcountdown = 2
-prePostAffiliateDescription = "Use this free credit to launch your projects now on Digital Ocean, you're free to spend it whenever you want within the following 60 days."
+prePostAffiliateDescription = "You have no excuses now, use this free credit to launch your projects now on Digital Ocean, you're free to spend it whenever you want within the following 60 days."
 prePostAffiliateLink = "https://m.do.co/c/a22240ebb8e7"
 prePostAffiliateText = "Get FREE $200 USD credit now"
-prePostAffiliateTitle = "Don't miss this free $200 USD credit (Valid for 60 days) on DO, launch your project now"
+prePostAffiliateTitle = "Don't miss this free $200 USD credit (Valid for 60 days) on DO, launch your idea now"
 subscribebannertext = "Get my FREE Python cheats guide."
 subscribedescription = """
                           ✅ To access just subscribe to the newsletter, it's completely  <strong>completely free.</strong> <br>
