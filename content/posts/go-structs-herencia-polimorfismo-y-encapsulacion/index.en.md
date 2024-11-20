@@ -76,7 +76,7 @@ What if we want a struct with many fields of the same type? Well, obviously **th
 
 To mark a struct, function or variable as private or public, as well as their respective fields for the struct, **it is sufficient to declare the first letter of the field with upper or lower case**, for public and private, respectively.
 
-Personally, I think this is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*.
+Personally, I think this is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*, yes, I know it sucks, but let's bear with it for now.
 
 ``` go
 type MyData struct {
@@ -101,7 +101,9 @@ type Videogame struct {
 
 ## Composition and structs in go
 
-We can group functionalities that involve our structs by declaring functions that access them.
+We can group functionalities that involve our structs by declaring functions that access them. 
+
+You can think of them as methods in a class.
 
 To access struct instances in functions we need to place a pair of parenthesis between the keyword _func_ and the function name. These parentheses contain the name we will use to access the struct instance, followed by the destructuring character and finally the struct name.
 
@@ -167,7 +169,9 @@ fmt.Println(*nier)
 
 ## golang inheritance using structs
 
-Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python. For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field to another struct.
+Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python. 
+
+For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field to another struct.
 
 ```go
 type Person struct {
@@ -184,9 +188,13 @@ The code above will pass all the fields present in the first struct to the secon
 
 ## Polymorphism using interfaces in go
 
-You can think of an interface as a kind of “blueprint” that tells an object what functions it must implement to work, each object can implement those functions as it wants, but it must implement them. 
+Before dwelling with polymorphism itself, we must explain what an interface is, if you already mastered those concepts, go to the next section.
 
-For example: Think of an abstraction that represents each animal that breathes, if an animal breathes, we take for granted that it must must implement the “breathe” interface, but each animal will implement it as it likes, some will breathe using noses, others gills, some will do it very slow, others very fast, but all must implement a method to breathe.
+### What's an interface in simple words?
+
+You can think of an interface as a kind of “blueprint” that tells an object what functions it must implement to work, each object can implement those functions as it wants, but it MUST implement them, in other words: *"it must satisfy the interface".*
+
+For example: Think of an abstraction that represents each breathing animal, if an animal breathes, we take for granted that it must must implement the “breathe” interface, but each animal will implement it in an unique way, some will breathe using noses, others gills, some will do it very slow, others very fast, but all must implement a method to breathe.
 
 Based on the above, in Go interfaces are a method to differentiate the behavior of different objects. An interface will be in charge of calling the method that we specify corresponding to its struct type.
 
@@ -224,7 +232,7 @@ Now we will create a function that will receive as argument any type *fourSidesF
 
 ### what's an interface for in Go?
 
-Here it is necessary to put special emphasis, observe how the argument that we pass to the function is the interface that we created, we are not interested in what type of *struct* we are passing as argument, the only thing that we care about is that this argument satisfies the interface. 
+Here it is necessary to put special emphasis, observe how the argument that we pass to the function is the interface that we created, **we are not interested in what type of *struct* we are passing as argument, the only thing that we care about is that this argument satisfies the interface.** 
 
 In this case the interface is *fourSidesFigure*, hence, whatever we pass it as an argument must have a method called *area* that returns a *float64*.
 
@@ -251,4 +259,4 @@ calculate(mirectangle)
 // Area 8
 ```
 
-Surely if you come from other languages you will find Go syntax quite capricious, but I am sure you will be mastering it in a very short time, if I did it for you it will be a piece of cake.
+Surely if you come from other languages you will find Go syntax quite capricious, but I am sure you will be mastering it in a very short time, besides it's a low cost to pay for such simple and predictable code, any average Joe with the aid of AI can create Go code, I mean even I can.

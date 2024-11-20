@@ -71,7 +71,7 @@ Having said the above, it seems that I believe that all this about AI is nothing
 
 > Machines don’t learn. What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. - Andriy Burkov
 
-In my opinion, AI is the ultimate autocomplete tool, be it text, images or video, nothing else. So far AGI is a milestone that remains distant in the future.
+In my opinion, AI is the ultimate autocompletition tool, be it text, images, video 3D structure (I see a huge potentianl in this field), nothing else. So far AGI is a milestone that remains distant in the future and we don't know if it is achievable.
 
 Don't get me wrong, there is an AI bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
