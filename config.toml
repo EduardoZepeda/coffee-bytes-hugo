@@ -19,7 +19,7 @@ languageName = 'English'
 title = 'Coffee bytes'
 weight = 1
 [[languages.en.menu.main]]
-name = "Let's work together"
+name = "Hire me"
 url = "/en/pages/lets-work-together/"
 weight = 2
 [[languages.en.menu.main]]
@@ -66,6 +66,11 @@ name = "Linkedin"
 pre = "linkedin-in"
 url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
+[[languages.en.menu.social]]
+name = "Website"
+pre = "message"
+url = "https://zeedu.dev"
+weight = 6
 [languages.en.params]
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
@@ -93,7 +98,7 @@ languageCode = 'es'
 languageDirection = 'ltr'
 languageName = 'Español'
 [[languages.es.menu.main]]
-name = "Trabajemos juntos"
+name = "Contrátame"
 url = "/es/pages/trabajemos-juntos/"
 weight = 1
 [[languages.es.menu.main]]
@@ -140,6 +145,11 @@ name = "Linkedin"
 pre = "linkedin-in"
 url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
+[[languages.en.menu.social]]
+name = "Website"
+pre = "message"
+url = "https://zeedu.dev"
+weight = 6
 [languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
