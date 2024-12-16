@@ -1,6 +1,6 @@
 ---
 date: '2024-12-14T22:24:22-06:00'
-title: 'You Could Lose Your Crypto In a Job Interview'
+title: 'You Could Lose All Your Crypto In a Job Interview'
 categories:
 - opinions
 coverImage: "images/tech-interview-hacking-obfuscated-code.jpg"
