@@ -75,4 +75,3 @@ If you want to read the full story give Elon's blog a visit.... I mean X.
 
 {{< twitter user="jibolaojo" id="1860605769856508209" >}}
 
-Translated with DeepL.com (free version)
