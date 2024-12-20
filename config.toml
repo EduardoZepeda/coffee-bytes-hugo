@@ -52,9 +52,9 @@ pre = "codewars"
 url = "https://www.codewars.com/users/EduardoZepeda"
 weight = 2
 [[languages.en.menu.social]]
-name = "Twitter"
-pre = "twitter"
-url = "https://twitter.com/hello_wired"
+name = "Threads"
+pre = "threads"
+url = "https://threads.net/zeedu.dev"
 weight = 3
 [[languages.en.menu.social]]
 name = "Instagram"
@@ -131,9 +131,9 @@ pre = "codewars"
 url = "https://www.codewars.com/users/EduardoZepeda"
 weight = 2
 [[languages.es.menu.social]]
-name = "Twitter"
-pre = "twitter"
-url = "https://twitter.com/hello_wired"
+name = "Threads"
+pre = "threads"
+url = "https://threads.net/zeedu.dev"
 weight = 3
 [[languages.es.menu.social]]
 name = "Instagram"
@@ -145,7 +145,7 @@ name = "Linkedin"
 pre = "linkedin-in"
 url = "https://linkedin.com/in/eduardomzepeda"
 weight = 5
-[[languages.en.menu.social]]
+[[languages.es.menu.social]]
 name = "Website"
 pre = "message"
 url = "https://zeedu.dev"
