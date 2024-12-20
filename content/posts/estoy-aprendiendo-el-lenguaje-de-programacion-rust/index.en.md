@@ -196,7 +196,7 @@ Lastly, here are some resources you can use to learn Rust, but please consider t
 
 ### The Rust Book in multiple languages
 
-Rust has its own bible, called ["The Rust book", available in multiple languages](https://doc.rust-lang.org/book/appendix-06-translation.html), [Spanish included](https://github.com/RustLangES/rust-book-es). The book is surprisingly explained and very Foolproof, it is a bit long, although it is understandable given the large amount of concepts to be exposed.
+Rust has its own bible, called ["The Rust book", available in multiple languages](https://doc.rust-lang.org/book/appendix-06-translation.html), [Spanish included](https://github.com/RustLangES/rust-book-es). The book is surprisingly well explained and very Foolproof, although it is a bit long, but it is understandable given the large amount of concepts to be exposed.
 
 ### Youtube channels to learn Rust
 

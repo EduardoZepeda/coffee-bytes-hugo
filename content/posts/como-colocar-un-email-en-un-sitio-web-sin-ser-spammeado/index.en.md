@@ -38,7 +38,7 @@ Another way is not to put the email directly, but a hint as to how it can be ded
 
 > *"My email is the name that appears in the url and is a google email address"*. 
 
-With that it will understand that the address is *lain@gmail.com*.
+With that we will understand that the address is *lain@gmail.com*.
 
 Just try not to complicate things too much here, don't overestimate the deductive capabilities of the average web surfer.
 
