@@ -71,7 +71,6 @@ I don't plan to offer details because there is already too much information on t
 
 Do you have better ideas to protect us from black hat interviews? Drop your tips on social media and tag me. I look forward to adding your suggestions to the post. 
 
-If you want to read the full story give Elon's blog a visit.... I mean X.
+If you want to read the full story give Elon's blog a visit.... I mean X. Edited: the owner of the account changed his privacy settings so now you can't watch the full conversation.
 
-{{< twitter user="jibolaojo" id="1860605769856508209" >}}
 

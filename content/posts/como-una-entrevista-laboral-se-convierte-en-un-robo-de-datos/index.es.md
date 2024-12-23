@@ -16,6 +16,7 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
+
 El otro día estaba navegando en esa máquina de propaganda política de Elon Musk, también conocida como X, y me topé con esta joya de la desvergüenza humana, un entrevistador que estuvo a punto de hackear a uno de sus postulantes.
 
 ## Ejecución de malware en las entrevistas laborales
@@ -71,9 +72,6 @@ No planeo ofrecer detalles porque ya hay demasiado en internet, Googlea sobre GP
 
 ¿Tienes mejores ideas para protegernos de estas prácticas? Suelta tus consejos en redes sociales y etiquétame. Estoy ansioso de agregar tus sugerencias al post. 
 
-Si quieres leer la historia completa dale una visita al blog de Elon... digo X.
-
-{{< twitter user="jibolaojo" id="1860605769856508209" >}}
-
+Si quieres leer la historia completa dale una visita al blog de Elon... digo X. Editado: el propietario de la cuenta ha cambiado su configuración de privacidad, así que ahora no puedes ver la conversación completa.
 
 
