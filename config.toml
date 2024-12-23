@@ -220,7 +220,7 @@ tag = "tags"
 [params.csp]
 child-src = ["'self'"]
 font-src = ["'self'"]
-form-action = ["'self'"]
+form-action = ["'self'", "https://dev.us17.list-manage.com"]
 frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com"]
 img-src = [
   "https://i.imgflip.com",
