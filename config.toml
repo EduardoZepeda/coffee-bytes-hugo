@@ -221,7 +221,7 @@ tag = "tags"
 child-src = ["'self'"]
 font-src = ["'self'"]
 form-action = ["'self'", "https://dev.us17.list-manage.com"]
-frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com"]
+frame-src = ["'self'", "*.twitter.com", "*.x.com", "*.youtube.com", " *.googletagmanager.com"]
 img-src = [
   "https://i.imgflip.com",
   "'self'",
