@@ -63,7 +63,7 @@ SELECT columns
 
 Observa como Django está reutilizando el SQL de cada subquery múltiples veces durante la consulta, en lugar de realizar la consulta una única vez y luego reutilizar ese valor.
 
-Si no sabes como se obtener la consulta SQL que genera el ORM de Django, te lo recuerdo, *qs* representa tu queryset:
+Si no sabes como se obtiene la consulta SQL que genera el ORM de Django, te lo recuerdo, *qs* representa tu queryset:
 
 ``` python
 print(qs.query)
