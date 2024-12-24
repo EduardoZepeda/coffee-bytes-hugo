@@ -19,6 +19,7 @@ Composition over inheritance, o composición sobre herencia es un tema recurrent
 
 Empezamos, imagina que tienes una gigantesca caja de ladrillos LEGO, sí, esos pequeños bloques de plástico que causan un dolor inimaginable cuando los pisas. Pero, en este caso, no los usaremos para causar dolor sino para construir diferentes tipos de automóviles.
 
+
 ## Herencia o composición
 
 Para construir nuestros diminutos automóviles, existen dos maneras:
@@ -76,3 +77,5 @@ fast_car.start_engine()
 ```
 
 En el ejemplo de herencia, empezamos con un "Automóvil" básico y lo modificamos para hacer un "SportsCar". En el ejemplo de composición, construimos un "Automóvil" y un "SportsCar" combinando piezas más pequeñas, como el motor. Es como utilizar piezas de LEGO para construir coches, y nos da más control y flexibilidad a la hora de escribir nuestros programas.
+
+{{<ad>}}

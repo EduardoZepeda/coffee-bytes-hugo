@@ -48,6 +48,8 @@ Esta función usa un closure para acceder a la variable timeout. ¿Qué es timeo
 
 Pero ahora presta atención al clearTimeout. Cada vez que llamemos a la función debounce se eliminará cualquier función programada, por lo que la única manera de que se ejecute nuestro callback es esperar el tiempo que le pasamos como argumento.
 
+{{<ad>}}
+
 ## Patrón Throttling
 
 El patrón throttling (o aceleración) establece un tiempo de espera durante el cual no se pueden llamar nuevamente más funciones. A diferencia del patrón bounce, el tiempo de espera no se reinicia si intentamos llamar nuevamente a la función.

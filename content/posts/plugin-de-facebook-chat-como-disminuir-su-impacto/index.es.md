@@ -30,6 +30,8 @@ La carga del plugin de facebook desencadena una larga lista de peticiones web qu
 
 Los plugin de terceros pueden impactar fuertemente en las métricas y el rendimiento de tus páginas web, tanto en el frontend como el backend.
 
+{{<ad>}}
+
 ## Retrasar la carga del plugin
 
 El plugin de facebook requiere dos etiquetas html:

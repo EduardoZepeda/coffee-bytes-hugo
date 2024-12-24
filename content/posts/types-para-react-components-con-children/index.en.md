@@ -43,6 +43,8 @@ const MyComponent = ({ children }: Props) => {
 export default MyComponent
 ```
 
+{{<ad>}}
+
 ## Using React.FC
 
 The second way is to use a FC (Functional Component) object provided by React, which leaves implicit the use of children and also prevents us from returning undefined. Consider that using _React.FC_ is [considered by some developers as a bad practice](/en/why-using-react.fc-could-be-a-bad-practice/).

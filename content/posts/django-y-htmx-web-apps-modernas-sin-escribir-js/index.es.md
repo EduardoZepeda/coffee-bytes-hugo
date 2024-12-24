@@ -139,6 +139,8 @@ touch base.html
 touch home.html
 ```
 
+{{<ad>}}
+
 ## Instalando htmx
 
 Abrimos el archivo _base.html_ y colocamos el siguiente código. Observa como **para usar htmx basta con cargarlo desde unpkg** usando una etiqueta script. En este tutorial estamos usando la versión 1.4.1 de htmx

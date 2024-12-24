@@ -26,6 +26,8 @@ Cada kata posee un nivel de dificultad, definido por su número de kyu (como en 
 
 Los desafios son muy variados, van desde pruebas clásicas; como la obtención de números primos, hasta algunas más complejos; como escribir código sin superar dos caracteres por linea.
 
+{{<ad>}}
+
 ## Test con peticiones comunes a ChatGPT
 
 Para empezar estuve probando ChatGPT con una serie de peticiones sencillas y populares. Encontré que ChatGPT pudo devolver el código correcto en cada ocasión con su explicación y pasos lógicos:

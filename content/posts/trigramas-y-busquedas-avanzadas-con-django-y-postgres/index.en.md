@@ -37,6 +37,8 @@ Trigram? Yes, trigram, of three and gram. **A trigram is three consecutive chara
 
 Trigrams are three consecutive characters
 
+{{<ad>}}
+
 ## Trigrams and similar words
 
 According to [Postgres](https://www.postgresql.org/docs/12/pgtrgm.html), **we can tell how similar two strings are by comparing the number of trigrams they share,** and Django provides functions to work with trigrams.

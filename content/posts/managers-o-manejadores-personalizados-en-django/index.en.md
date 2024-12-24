@@ -30,6 +30,8 @@ If you have used the Django ORM, you have probably already used the default mana
 Videogame.objects.all()
 ```
 
+{{<ad>}}
+
 ## Modifying the default manager
 
 Perhaps we want to have two managers, one that returns all objects and another that returns the most recent objects, or objects created by a particular user, or objects filtered by a term.

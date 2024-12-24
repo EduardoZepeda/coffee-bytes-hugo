@@ -47,6 +47,8 @@ Igual que con el slice, tenemos dos maneras de crear un map o diccionario.
 - Pasándole los valores después del tipo de dato del valor
 - Usando la función make.
 
+{{<ad>}}
+
 ## Crear un map en go con valores
 
 Podemos crear un map o diccionario usando map, el tipo de dato de las llaves entre corchetes, seguido del tipo de dato de los valores y luego los datos llave valor entre corchetes, separando cada uno con dos puntos.

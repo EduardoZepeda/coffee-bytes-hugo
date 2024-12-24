@@ -28,6 +28,8 @@ We can divide Go's reflection into two important types of data:
 **Type**: The Go data type, from which all the information of the data type, its class, name, size, etc. is broken down.
 **Value**: The Go data value, with methods to modify the data of an object.
 
+{{<ad>}}
+
 ## Data type: Type and TypeOf
 
 _Type_ is the **most important data type in the reflect package** since it represents the object in memory and stores all the meta information of our objects: its type, representation, methods and fields.

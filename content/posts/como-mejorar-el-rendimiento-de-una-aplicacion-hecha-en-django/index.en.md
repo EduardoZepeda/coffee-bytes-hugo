@@ -54,6 +54,8 @@ def list_reviews(request):
     # ...
 ```
 
+{{<ad>}}
+
 ## Configure gunicorn correctly
 
 Gunicorn is the most widely used Python WSGI HTTP server for Django applications. But it is not asynchronous, consider combining it with one of its asynchronous counterparts: hypercorn or uvicorn. The latter implements gunicorn workers.

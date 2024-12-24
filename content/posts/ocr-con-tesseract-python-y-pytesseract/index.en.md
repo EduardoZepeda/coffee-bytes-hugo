@@ -56,6 +56,8 @@ spa
 
 You will see that Spanish is now installed and we can use it to detect the text in our images by adding the _-l spa_ option to the end of our command
 
+{{<ad>}}
+
 ## OCR with tesseract
 
 Now let's put it to the test to recognize text in images, straight from the terminal. I am going to use the following image:

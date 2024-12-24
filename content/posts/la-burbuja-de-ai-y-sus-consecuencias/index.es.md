@@ -31,6 +31,8 @@ Si has estado haciendo ~~doom~~ scroll por redes sociales, sabrás que los influ
 
 En esta fiebre por la AI, los emprendedores se están volviendo ~~aún más~~ elitistas, ¿a qué me refiero?, a que todas aquellas ideas de negocio que no echan mano de la AI son descartadas ipso facto. Se ha añadido "usar AI" a la checklist de cualquier empresa que quiera salir al mercado y esto, para mí, es lo que crea esta burbuja.
 
+{{<ad>}}
+
 ## La burbuja de AI es culpa de la ignorancia de inversores y consumidores
 
 Basta con que una empresa use AI para dotarla de una magia desconocida que la vuelve irresistible hacia el público en general, y también para los inversionistas. Y esto por una sencilla razón: como sociedad no entendemos como funciona la AI a nivel interno, no entendemos las estadísticas detrás y le dotamos del misticismo de la magia.

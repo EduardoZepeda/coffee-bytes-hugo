@@ -31,6 +31,8 @@ You can think of images and containers **as classes and their instances in OOP**
 
 If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch using Go](/en/how-does-a-docker-container-work-internally/).
 
+{{<ad>}}
+
 ## Basic Docker commands for containers
 
 ### Running a docker container

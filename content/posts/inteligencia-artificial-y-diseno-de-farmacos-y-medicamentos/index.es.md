@@ -94,6 +94,8 @@ Bien, la respuesta a eso es "depende". Depende de cada fármaco, algunos pueden 
 
 ![Gráfico que muestra como se comportan la mayoría de los fármacos administrados por vía oral](images/farmacocinetics.jpg)
 
+{{<ad>}}
+
 ## ¿De qué depende que un fármaco funcione y sus efectos secundarios?
 
 Como te mencioné anteriormente, el que un fármaco active o no el receptor de una célula depende de si encaja con su "cerradura". Lo anterior lo define su estructura tridimensional. Por esta razón, si dos fármacos se parecen, es probable provoquen efectos similares, pero al ser diferentes uno de ellos provocará menores efectos secundarios.

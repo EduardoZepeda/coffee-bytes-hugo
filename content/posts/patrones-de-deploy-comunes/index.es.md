@@ -25,6 +25,8 @@ Imagínate que quieres probar una característica de tu aplicación web, pero te
 
 ¿Qué se puede hacer en estos casos? Lo mejor sería probarlo en una muestra representativa de tu público y, dependiendo de como responda, desecharla o implementarla al resto de los usuarios.
 
+{{<ad>}}
+
 ## Patrones de despligue comunes
 
 Existen una serie de patrones de despligue bastante usados: 

@@ -33,6 +33,8 @@ log.Println("Mensaje")
 
 The Println method of log behaves exactly like the [fmt library](/en/go-functions-arguments-and-the-fmt-package/) method, so you can pass it multiple parameters and it will print them one by one.
 
+{{<ad>}}
+
 ## Flags in logging
 
 It is possible to change the default format in which the messages are displayed, change the order of the elements or add more information by calling the SetFlags method and passing it as arguments any of the flags provided by go.

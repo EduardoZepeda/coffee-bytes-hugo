@@ -39,6 +39,8 @@ Si de verdad te interesa el tema, encontré este video que resume bastante bien 
 
 {{< youtube xSwJGMl--lA >}}
 
+{{<ad>}}
+
 ## Aspectos geniales o ventajas del lenguaje Go
 
 * **El lenguaje es bastante simple** Es un lenguaje con muy pocas palabras clave y pocas funcionalidades. Puedes aprenderlo en muy poco tiempo.

@@ -42,6 +42,8 @@ Worker pool is a [design pattern](/en/design-patterns-in-software/) that comes t
 
 There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang)
 
+{{<ad>}}
+
 ## How does the worker pool design pattern work?
 
 Let's take a tail of a task by running, these can be fixed or dynamically created. Then, instead of creating and destroying multiple workers ([goroutines in the case of go](/en/go-introduction-to-goroutines-and-concurrency/)) constantly, we create a **fixed number of workers** and put them in a cycle, in which they will be constantly listening for information from the queue (through a [channel in the case of languages like Go](/en/go-use-of-channels-to-communicate-goroutines/)). This way we will keep our memory management much more stable and predictable, in addition to limiting the impact of constant creation and destruction of workers.

@@ -25,6 +25,8 @@ Por la razón anterior he decidido compartir un poco sobre lo que he leído al r
 
 Dicen que una cadena es tan fuerte como su eslabón más débil. Las contraseñas son en muchos casos el eslabón más débil. Un sistema informático puede carecer de vulnerabilidades y tener los últimos parches de seguridad, pero de nada sirve si todo eso está resguardado por una débil contraseña. Y no, no estoy hablando de abandonar contraseñas del tipo "admin123" o "firulais" en favor de sus versiones modificadas: "4dm1n123" o "f1rul415". Hablo de que las contraseñas deben de ser más un muro para los atacantes que una segunda entrada a tus sistemas.
 
+{{<ad>}}
+
 ## ¿Cómo es una contraseña segura?
 
 ¿Qué características debe de tener una contraseña para que sea segura? Pues una contraseña segura tiene que reunir varias características para hacerle la vida difícil a los cyber criminales. Te dejo aquí mis consejos para crear una buena contraseña que sea segura.

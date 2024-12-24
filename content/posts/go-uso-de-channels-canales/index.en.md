@@ -132,6 +132,8 @@ func say(text string, c <-chan string) {}
 
 It is important to define the type of channel because, with bidirectional channels, we run the risk of causing a [deadlock in our go program](/en/go-channels-understanding-the-goroutines-deadlocks/).
 
+{{<ad>}}
+
 ## Channel capacity
 
 Remember I told you that the make function could set the maximum number of data a channel can work with? Well, it is possible to retrieve that information using the len function.

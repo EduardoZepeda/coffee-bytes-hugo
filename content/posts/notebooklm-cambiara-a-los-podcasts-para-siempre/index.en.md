@@ -34,6 +34,8 @@ You can create yours at [Google Nootebooklm's site](https://notebooklm.google/#?
 
 Google has done an excellent job, please appreciate the tone, the clean audio, and even added a few crutches and the occasional hesitant pause to give it a slight touch of naturalness and realism. Not bad for a [black box made of code that is not yet conscious](/en/chat-gpt-searles-chinese-room-and-consciousness/) don't you think?
 
+{{<ad>}}
+
 ## Will Notebooklm and the other models replace podcasts?
 
 This is the inevitable question (and its variants) whenever there is a significant advance in the field of artificial intelligences: [Is Devin AI going to replace developers?](/en/devin-ai-the-supposed-replacement-for-programmers/) or is it just one more symptom of the [AI bubble we are witnessing?](/en/the-rise-and-fall-of-the-ai-bubble/).

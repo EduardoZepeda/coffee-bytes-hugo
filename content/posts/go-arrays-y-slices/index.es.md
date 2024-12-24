@@ -47,6 +47,8 @@ También podemos crear un array directamente dentro de una función colocando ca
 array := [4]int{0, 0, 0, 0}
 ```
 
+{{<ad>}}
+
 ## Slices en go
 
 Los slices son **colecciones mutables de tipos de datos**. Internamente es una abstracción de un array, con una diferencia, estos sí pueden modificarse.

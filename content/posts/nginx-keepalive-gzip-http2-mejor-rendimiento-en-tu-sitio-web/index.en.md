@@ -54,6 +54,8 @@ server: nginx
 # ...
 ```
 
+{{<ad>}}
+
 ## Enable gzip compression in nginx
 
 The gzip compression allows us to reduce the size of the resources we send, it is not usually enabled by default.

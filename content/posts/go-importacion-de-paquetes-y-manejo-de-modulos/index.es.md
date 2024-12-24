@@ -49,6 +49,8 @@ Una vez creado terminaremos con una structura similar a esta
 
 Localización del archivo principal y nuestro modulo en go
 
+{{<ad>}}
+
 ## Importar paquetes con go.mod
 
 ### ¿Para que sirve un archivo go.mod?

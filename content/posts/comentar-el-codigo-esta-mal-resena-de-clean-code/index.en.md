@@ -154,6 +154,8 @@ router.get('/users/me', auth, async (req, res) => {
 
 To me, however, it doesn't seem so serious or so difficult to read this little piece of code but perhaps it would be reason enough to be excommunicated from the church of Clean Code.
 
+{{<ad>}}
+
 ## What didn't I like about Clean Code?
 
 In what I consider an anachronism, the author uses Java to develop his examples. Yes, I know Java was incredibly popular before, but using pseudocode or C would have been a better choice.

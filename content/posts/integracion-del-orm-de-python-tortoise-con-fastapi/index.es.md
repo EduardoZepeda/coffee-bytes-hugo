@@ -33,6 +33,8 @@ Tortoise es compatible con las siguientes bases de datos.
 
 Pero para este ejemplo voy a usar SQLite, por que no necesita configuración de ningún tipo.
 
+{{<ad>}}
+
 ## Instalación del ORM de Python tortoise
 
 Para instalar tortoise-orm basta con usar el administrador de entornos virtuales que prefieras, yo usaré pipenv.

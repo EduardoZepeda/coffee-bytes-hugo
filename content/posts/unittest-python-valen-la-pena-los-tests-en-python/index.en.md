@@ -25,6 +25,8 @@ The code we write increases in size every day, sometimes it also decreases in pu
 
 Sometimes testing the code manually takes a long time and, in many cases, even requires the input of a user or the response of an external web page to a previous web request made by us, this complicates the testing. With tests we can emulate the result of the responses, the input of the users, the result of the functions or methods and, all this, in fractions of a second, without the need to carry out a manual testing process that would take much more time.
 
+{{<ad>}}
+
 ## Testing is an insurance against failure
 
 When there are no tests and the code is being written by a team, every contribution made by a contributor is a potential bug. If a change is implemented and an error appears when executing the code, you will have to find out what went wrong and revert the change. If the error manifests itself after several collaborations made by the team, the loss of time is magnified, since the collaborations have to be undone to correct the error and then implemented again. Proper testing ensures that **after each change in the code it will continue to perform its tasks correctly.**.

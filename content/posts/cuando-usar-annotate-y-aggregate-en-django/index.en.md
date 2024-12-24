@@ -36,6 +36,8 @@ Annotate and aggregate are primordial for [scaling Django applications to serve 
 | Returns a queryset                                                          | Returns a dictionary                                              |
 | You can concatenate it                                                      | You can't concatenate it                                          |
 
+{{<ad>}}
+
 ## Preparation to explain django annotate and aggregate differences
 
 For this example we are going to create a couple of fictitious models that we will use for the examples:

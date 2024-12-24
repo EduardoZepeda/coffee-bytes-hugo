@@ -55,6 +55,8 @@ Cuando un sitemap es muy extenso es posible dividirlo en sitemaps más pequeños
 </sitemapindex>
 ```
 
+{{<ad>}}
+
 ## Framework de sitemaps en Django
 
 Django ya cuenta con un framework interno para la generación de sitemaps, *django.contrib.sitemaps*, que nos permite crear sitemaps de manera dinámica en conjunto con *django.contrib.sites*

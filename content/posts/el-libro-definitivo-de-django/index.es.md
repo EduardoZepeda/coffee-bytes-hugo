@@ -40,6 +40,8 @@ Y, nuevamente, frameworks como Django, Ruby on Rails o la librería estándar de
 
 No obstante el libro aún se encuentra desactualizado. Si los autores de este libro se decidieran a mantener actualizado su contenido podría fácilmente ser el mejor libro de Django disponible.
 
+{{<ad>}}
+
 ## Mi opinión sobre la guia definitiva de Django
 
 Si aún así quieres leer el libro te recomiendo escoger con cuidado los capítulos y considerar que el código puede estar bastante desactualizado, te dejo el enlace a su [versión en español, actualicé el enlace el 23 de Agosto del 2024](https://github.com/Verurteilt/libros/blob/master/Libros%20de%20Python/django,%20la%20guia%20definitiva.pdf) (Si el enlace ya no te manda a algún lugar válido mándame un tweet o un correo). Puedes descargarlo sin preocupación alguna, es totalmente legal, pues el libro se encuentra bajo los términos de la licencia GNU Free Documentation License. **Te recomiendo darle un vistazo a los capítulos de Cache, Middleware, Internacionalización y Seguridad**, encontrarás consejos útiles y que se encuentran vigentes aún hoy en día.

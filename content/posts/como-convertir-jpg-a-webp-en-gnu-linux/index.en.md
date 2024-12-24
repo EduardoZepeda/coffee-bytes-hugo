@@ -26,6 +26,8 @@ The JPG format has been around for some time but new formats have emerged that p
 
 Less weight in our images means better performance. A website that loads faster will have better [Lighthouse](https://web.dev/) metrics and lower data consumption for the user.
 
+{{<ad>}}
+
 ## Downloading webp
 
 The first step to transform our images to webp format is to download the appropriate libraries. The package we need to transform our images is called webp and is found in the repositories of popular GNU/Linux distributions. Let's install it.

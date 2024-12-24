@@ -32,6 +32,8 @@ Redis is a efficacious database engine, it works with volatile data, because it 
 
 There are many ways to address that problem, you can associate a user (and their history) with a cookie, ip or even an affiliate link, etc. The type of data you want to link depends on your business intentions. For this example we will use a session key from the session system that is already included in django by default.
 
+{{<ad>}}
+
 ## Install redis on GNU/Linux
 
 Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)

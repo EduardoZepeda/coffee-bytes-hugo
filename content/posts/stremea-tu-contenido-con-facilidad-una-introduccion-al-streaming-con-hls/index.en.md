@@ -39,6 +39,8 @@ As you probably already know, sending the full video to all users would be point
 
 The solution? Streaming; an on-demand model, where each user receives only what they consume of the audio visual material, a little at a time, and if the user closes the video we do not send them the rest.
 
+{{<ad>}}
+
 ## Streaming protocols
 
 Before you start, you should know that there are quite a few streaming protocols, each with its own particularities that you can delve into on your own:

@@ -108,6 +108,8 @@ func main() {
 
 Tras la ejecución del código, en lugar del resultado correcto, yo obtengo 140 con 1 milisegundo y 200 con un microsegundo.
 
+{{<ad>}}
+
 ## Detectar condiciones de carrera con --race
 
 Para ayudarnos a identificar estos problemas, Go cuenta con un flag para detectar condiciones de carrera, si ejecutamos la compilación con el flag _\--race_ veremos que go nos advierte de que nuestro código posee condiciones de carrera.

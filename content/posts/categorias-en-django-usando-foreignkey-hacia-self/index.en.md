@@ -52,6 +52,8 @@ Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCate
 
 Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django Framework's ORM](/en/why-should-you-use-django-framework/) offers a pretty clean solution.
 
+{{<ad>}}
+
 ## ForeignKey to the same model in Django
 
 To simplify the problem of categories in Django, we create **a single model, with a property of type _ForeignKey_ or foreign key pointing to the same object; that is, to _self_**.

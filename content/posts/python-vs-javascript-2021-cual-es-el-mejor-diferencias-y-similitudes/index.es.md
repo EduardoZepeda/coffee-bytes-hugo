@@ -36,6 +36,8 @@ Python es un lenguaje multipropósito, te permite crear aplicaciones nativas con
 
 Aunque su fuerte en este momento es machine learning, creación de scripting y podriamos decir que un poco de desarrollo web, estando muy por debajo de Javascript en este campo.
 
+{{<ad>}}
+
 ## Popularidad entre ambos lenguajes
 
 Javascript empezó siendo mucho más popular que Python, probablemente debido al auge de los navegadores web. Sin embargo, en algún punto cercano al 2017, Python ganó relevancia en comparación con Javascript y la tendencia se mantiene hasta finales del 2022.

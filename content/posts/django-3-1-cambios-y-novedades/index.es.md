@@ -81,6 +81,8 @@ async def test_my_thing(self):
     self.assertEqual(response.status_code, 200)
 ```
 
+{{<ad>}}
+
 ## Campos compatibles con JSON
 
 ¡Ya era tiempo de un campo JSON! Django ahora incluye un campo para sus modelos llamado _models.JSONField_ y un campo _forms.JSONfield_, que puede ser usado en cualquier backend de base de datos compatible. Ambos campos soportan codificadores y decodificadores de JSON personalizados.

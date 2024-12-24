@@ -68,6 +68,8 @@ total 16
  Hello world
 ```
 
+{{<ad>}}
+
 ## ¿Qué significan los números en el comando chmod?
 
 Hay 3 cifras en los números que siguen al comando chmod, cada cifra representa los permisos de su conjunto respectivo. El número de cada cifra puede ir del 0 al 7. Este número está determinado por la suma de los valores de cada permiso; 4, 2 y 1.

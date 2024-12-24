@@ -37,6 +37,8 @@ One request per second means 60 in a minute, 3600 in an hour and 86400 a day.
 
 Are you really worried about your application having a traffic of 86400 requests in a day? If you already have such traffic, paying an extra developer to tune the gears of your software should not be a problem, and if it is, **you probably don't have a performance problem, but a monetization problem**.
 
+{{<ad>}}
+
 ## Does memory consumption matter in a new web application?
 
 Does it matter whether your application runs with minimal memory consumption using a low-level language, or with higher consumption using a high-level language. I would say it depends; if your application or project is new, it's probably worth paying a few dollars more per month for extra memory in exchange for a higher development speed in each iteration. 

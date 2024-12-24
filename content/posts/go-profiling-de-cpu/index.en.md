@@ -28,6 +28,8 @@ The profiling process will slow down the execution of the code, as it is interru
 
 At the end of the profiler the go _pprof_ tool organizes the data so that it can be represented in a more user-friendly way.
 
+{{<ad>}}
+
 ## CPU profiling in go
 
 For this entry I will use the classic fibonacci recursion to demonstrate the profiling capabilities of go. I am using go version go1.15.15 linux/amd64.

@@ -48,6 +48,8 @@ Si cometimos alguna tontería como ejecutar un bucle infinito, o simplemente que
 
 Una vez explicado esto empecemos con los comandos.
 
+{{<ad>}}
+
 ## man
 
 El comando man (MANual) es el que yo considero **el más importante de todos los comandos comunes**, por eso lo coloco aquí primero. ¿La razón? pues este comando muestra el manual de uso del comando que le pongas por delante. Con este comando tienes acceso a toda la documentación del comando que elijas. Y, consecuentemente, puedes aprender el uso básico de prácticamente cualquier comando que tenga un manual.

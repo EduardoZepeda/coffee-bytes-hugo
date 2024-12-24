@@ -36,6 +36,8 @@ If you look at the Django source code, you will see that the **User model you no
 
 Now that we know the above, **we can use the AbstractUser and AbstractBaseUser classes to create our custom User models**.
 
+{{<ad>}}
+
 ## Inherit from subclass AbstractUser
 
 This method is probably the most popular method for extending Django's _User_ model. This is because it retains almost all the functionality of the original _User_ model.

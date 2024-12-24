@@ -180,6 +180,8 @@ impl<T: Display> HogwartsReportCard<T> {
 }
 ```
 
+{{<ad>}}
+
 ## Rust is not so hard to learn
 
 Rust is not exaggeratedly difficult, there are languages that are more complicated or require a complete paradigm shift to program in them, like Haskell, for example. 

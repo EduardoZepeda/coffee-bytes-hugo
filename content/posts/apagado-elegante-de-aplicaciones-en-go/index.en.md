@@ -38,6 +38,8 @@ kill -<valor> <pid>
 // kill -2 1234
 ```
 
+{{<ad>}}
+
 ## Signal handling in Go
 
 In go, when we want to listen to the signals sent by the Linux kernel, we use the Notify method of the signal package. The Notify method will send our signal on a channel, which it will receive as the first argument. The second and third arguments are the signals that our method will listen for.

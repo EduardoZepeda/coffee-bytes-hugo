@@ -35,6 +35,8 @@ Puedes crear el tuyo en [Google Nootebooklm](https://notebooklm.google/#?)
 
 Google ha hecho un trabajo excelente, por favor aprecia el tono, el audio limpio, incluso le ha añadido muletillas y una que otra pausa dudando para otorgarle un ligero toque de naturalidad y realismo. Nada mal para una [caja negra hecha de código que aún no es consciente](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/) ¿no crees?
 
+{{<ad>}}
+
 ## ¿Notebooklm y los demás modelos reemplazarán a los podcasts?
 
 La pregunta inevitable (y sus variantes) siempre que hay un avance significativo en el campo de las inteligencias artificiales: [¿Devin AI va a reemplazar a los desarrolladores?](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/) o ¿es solo un sintoma más de la [burbuja de AI que estamos presenciando?](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/)

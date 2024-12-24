@@ -24,6 +24,8 @@ Imagine you want to test a feature of your web application, but you are afraid t
 
 What can you do in these cases? The best thing to do would be to test it on a representative sample of your audience and, depending on how it responds, discard it or roll it out to the rest of the users.
 
+{{<ad>}}
+
 ## Common deployment patterns
 
 There are a number of widely used deployment patterns: 

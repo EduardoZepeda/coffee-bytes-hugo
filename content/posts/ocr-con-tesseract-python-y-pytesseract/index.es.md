@@ -61,6 +61,8 @@ spa
 
 Verás que ahora el español ya se encuentra instalado y podemos usarlo para detectar el texto de nuestras imágenes agregando la opción _\-l spa_ al final de nuestro comando
 
+{{<ad>}}
+
 ## OCR con tesseract
 
 Ahora pongámoslo a prueba para reconocer texto en imágenes, directo de la terminal. Yo voy a usar la siguiente imagen:

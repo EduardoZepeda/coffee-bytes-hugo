@@ -74,6 +74,8 @@ match subject:
 
 Y hay que notar que el _subject_ puede ser una cadena de texto, un objeto, una tupla o una instancia de una clase.
 
+{{<ad>}}
+
 ## Switch en Python antes de su versión 3.10
 
 Si aún no tienes Python 3.10 puedes imitar el funcionamiento de un switch con una cadena interminable de _ifs_ o _elifs_ así:

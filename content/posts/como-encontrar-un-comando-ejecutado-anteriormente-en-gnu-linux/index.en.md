@@ -23,6 +23,8 @@ history | grep "comando que buscamos"
 
 The history command will show the list of commands used, the pipe character "|" will redirect the result to the grep command, which will search for the string you specify.
 
+{{<ad>}}
+
 ## Command CTRL + R
 
 There is an even simpler way to perform this search. This method is a keystroke combination that, despite its simplicity and ease of use, is not very popular, even among regular users of GNU/Linux environments.

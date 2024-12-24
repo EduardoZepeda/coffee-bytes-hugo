@@ -61,6 +61,8 @@ Videogame.objects.filter(name__unaccent__icontains="tekkén") # Ahora no importa
 
 Si cuando ejecutaste la búsqueda anterior te saltó un error es porque te falta instalar la extensión _unnacent_. Vamos a instalarla.
 
+{{<ad>}}
+
 ## ¿Cómo instalar las extensiones de Postgres en Django?
 
 ### Prerrequisitos

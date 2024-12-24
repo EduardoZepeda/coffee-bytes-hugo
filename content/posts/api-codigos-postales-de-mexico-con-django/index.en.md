@@ -48,6 +48,8 @@ We execute the migrations. This will create the tables needed to manage the post
 python manage.py migrate
 ```
 
+{{<ad>}}
+
 ## Obtaining Mexico's postal codes from SEPOMEX
 
 Now that the tables have been created we are going to install the Mexico postal codes directly from the SEPOMEX page with a single Django command.

@@ -42,6 +42,8 @@ Irónicamente mi github luce así:
 
 Sí, como ya sabes no todos son ~~fans del Slavoj Žižek del software libre: Richard Stallman~~ tan altruistas para contribuir código a la humanidad sin esperar nada a cambio, ¿podríamos culparlos?, ¿no están siendo hipócritas la mayoría de las empresas? ¿Acaso las empresas que usan Github para evaluar a sus candidatos tienen su base de código como open source?
 
+{{<ad>}}
+
 ## Microsoft, Github y los escándalos relacionados con el robo de código
 
 Microsoft nunca ha sido conocida por su ética a la hora de hacer negocios, desde sus inicios se ha visto implicada en [alborotos relacionados con el robo de código](https://www.wired.com/2012/08/ms-dos-examined-for-thef/#?). Además ha mantenido esa fama viva a base de escándalos como:

@@ -46,6 +46,8 @@ If we did something stupid like executing an infinite loop, or we simply want to
 
 Having explained this, let's start with the commands.
 
+{{<ad>}}
+
 ## man
 
 The man command (MANual) is what I consider **the most important of all the common commands**, that's why I put it here first. The reason? because this command shows the user manual of the command you put in front of it. With this command you have access to all the documentation of the command you choose. And, consequently, you can learn the basic use of practically any command that has a manual.

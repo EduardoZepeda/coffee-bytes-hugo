@@ -53,6 +53,8 @@ Hay cookiecutters para muchas tecnologías y muchas personas terminan programand
 
 El cookiecutter de Django nos da una plantilla personalizable lista para empezar, con las librerías más populares evitándonos la molestia de tener que configurar un proyecto desde cero.
 
+{{<ad>}}
+
 ## Instalar cookiecutter
 
 Cookiecutter debería estar disponible en los repositorios de nuestro sistema GNU/Linux. Por lo que podemos instalarlo como si fuera cualquier otro paquete.

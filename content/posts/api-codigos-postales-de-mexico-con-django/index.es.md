@@ -50,6 +50,8 @@ Ejecutamos las migraciones. Esto creará las tablas que se necesitan para maneja
 python manage.py migrate
 ```
 
+{{<ad>}}
+
 ## Obteniendo los códigos postales de México de SEPOMEX
 
 Ya que se crearon las tablas vamos a instalar los códigos postales de México directo de la página de SEPOMEX con un solo comando de Django.

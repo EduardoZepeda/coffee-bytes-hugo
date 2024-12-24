@@ -46,6 +46,8 @@ El proceso más detallado es el siguiente:
 
 Ahora sí, vamos con gRPC.
 
+{{<ad>}}
+
 ## ¿Qué es gRPC?
 
 Google tomó en cuenta las carencias de RPC y decidió mejorarlo creando gRPC. 

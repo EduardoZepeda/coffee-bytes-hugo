@@ -34,6 +34,8 @@ Redis es un motor de base de datos muy eficiente, trabaja con datos volátiles, 
 
 Hay muchas maneras de abordar ese problema, puedes asociar un usuario (y su historial) con una cookie, ip o hasta un enlace de afiliado, etc. El tipo de dato que desees vincular depende de las intenciones del negocio. Para este ejemplo usaremos una session key del sistema de sesiones que ya viene incluido en django de manera predeterminada.
 
+{{<ad>}}
+
 ## Instalar redis en GNU/Linux
 
 Antes de empezar a usar django y redis hay que instalar este último en nuestro sistema operativo GNU/Linux. Si no tienes ni idea de los comandos básicos en un entorno linux te sugiero visitar mi entrada que habla de los [comandos más comunes de GNU Linux](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/)

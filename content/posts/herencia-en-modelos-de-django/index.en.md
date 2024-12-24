@@ -49,6 +49,8 @@ There are three types of inheritance available and each behaves differently at t
 
 For this example I will be using Django version 3.1 and Python 3.7.
 
+{{<ad>}}
+
 ## Abstract Inheritance
 
 This type of inheritance allows us to put a variety of fields in common that we want the models that inherit from it to include. To define a model as Abstract just add the _Meta_ class containing an attribute called _abstract_ equal to _True_. **Django will not create any table** for a model with _Meta.abstract = True_.

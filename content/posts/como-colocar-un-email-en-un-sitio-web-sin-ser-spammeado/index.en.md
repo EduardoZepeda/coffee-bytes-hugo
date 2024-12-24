@@ -26,6 +26,8 @@ This way to protect your email address requires no detailed explanation, just tu
 
 The disadvantage of this approach is that the person who wants to send you an email will have to type it in manually, as they can't copy-paste, and you know that every extra step adds friction to the conversion process.
 
+{{<ad>}}
+
 ## Use a different email notation
 
 Instead of using the classic format like *my@email.com*, change it to something less obvious to bots, like *my [at] email [dot] com*, this way your address won't be detected as an email by less sophisticated bots and if someone wants to send you an email just replace the *at* and *dot* with their corresponding symbols.

@@ -23,6 +23,8 @@ Yo soy de los que creen que **mientras menos información sensible tenga un terc
 
 ¿Quién no ha oído de filtraciones masivas de datos de usuarios incluso en las empresas más grandes? Por esta razón yo prefiero mantener mis contraseñas dentro de mi computadora y usando un programa cuyo código fuente esté a la vista de cualquiera que quiera examinarlo.
 
+{{<ad>}}
+
 ## keepassxc
 
 keepassxc es el programa que yo prefiero para gestionar contraseñas. El código se encuentra en [la página de keepassxc](https://keepassxc.org/) puedes descargarlo o compilarlo directo desde sus repositorios.

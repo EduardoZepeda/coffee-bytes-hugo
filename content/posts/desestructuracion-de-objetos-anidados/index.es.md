@@ -87,6 +87,8 @@ state
 
 Ahora sí ya puedes darle ENTER, cuando accedas a la constante _state_, verás que hace referencia a la propiedad _state_, anidada del objeto.
 
+{{<ad>}}
+
 ## ¿Cómo desestructurar múltiples propiedades?
 
 El ejemplo anterior no estuvo tan complicado, pero que tal si en lugar de una sola propiedad queremos desestructurar el valor de _userIsLoggedIn_, _email_ y _state_.

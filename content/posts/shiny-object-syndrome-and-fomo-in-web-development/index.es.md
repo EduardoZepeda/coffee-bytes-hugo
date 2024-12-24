@@ -27,6 +27,8 @@ Pudiste haber implementando tu nueva idea usando el framework que ya conocías, 
 
 ¿Te ha pasado o solo a mi?
 
+{{<ad>}}
+
 ## FOMO o Fear of Missing Out en el desarrollo web
 
 El FOMO es una ensimismamiento generalizado de que otros podrían experimentar vivencias agradables de las cuales estariamos ausentes. En el marco del desarrollo web esta vivencia agradable también podría ser la popularización de un nuevo lenguaje de programación, o un nuevo tipo de API que parece facilitar las cosas, o un nuevo framework de Javascript (sale uno nuevo cada semana).

@@ -42,6 +42,8 @@ Como puedes observar la diferencia es de casi 10 veces el tiempo.
 
 Si tu aplicación está en el punto en el que [es importante obsesionarte con el rendimiento de esta](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), la caché es uno de los primeros pasos a tomar.
 
+{{<ad>}}
+
 ## Instalando memcached
 
 La caché en django requiere memcached, redis u otro método de almacenaje cache.

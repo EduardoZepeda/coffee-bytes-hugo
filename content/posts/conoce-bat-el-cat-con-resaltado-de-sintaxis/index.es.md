@@ -33,6 +33,8 @@ wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_am
 dpkg -i bat-musl_0.15.4_amd64.deb
 ```
 
+{{<ad>}}
+
 ## ¿Para qué sirve bat?
 
 _Bat_ nos va a mostrar el contenido de un archivo, justo como _cat_, pero con la sintaxis resaltada para la mayoría de los lenguajes de programación:

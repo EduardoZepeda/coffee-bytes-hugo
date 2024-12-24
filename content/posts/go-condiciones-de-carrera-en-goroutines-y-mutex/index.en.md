@@ -107,6 +107,8 @@ func main() {
 
 After executing the code, instead of the correct result, I get 140 with 1 millisecond and 200 with one microsecond.
 
+{{<ad>}}
+
 ## Detect race conditions with --race
 
 To help us identify these problems, Go has a flag to detect race conditions, if we run the compilation with the _--race_ flag we will see that go warns us that our code has race conditions.

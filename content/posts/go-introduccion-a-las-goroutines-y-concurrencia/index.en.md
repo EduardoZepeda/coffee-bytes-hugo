@@ -38,6 +38,8 @@ I quote a sentence from the first resource that, in my opinion, sums up the diff
 
 If they still seem confusing and you don't understand the difference, give those posts a read and you should be ready to move on.
 
+{{<ad>}}
+
 ## Coroutines in go
 
 A [coroutine](https://en.wikipedia.org/wiki/Coroutine#?), in go, is **a function or method that runs concurrently with other functions or methods**. In go, corroutines are referred to as **goroutines** or goroutines. Even the main function, _main_, is executed inside one.

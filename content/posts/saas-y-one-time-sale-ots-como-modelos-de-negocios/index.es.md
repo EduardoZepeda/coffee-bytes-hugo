@@ -39,6 +39,8 @@ Por lo anterior, numerosas compañias optaron por distribuir su software por med
 
 Realizar pagos por internet era algo poco usual, paypal no existía y no había otras compañias que ofrecieran el servicio, además las personas veían con desconfianza el mundo de las transacciones en linea. No los culpo, el HTTPS no existía y ni hablar de estándares criptográficos fuertes que protegieran tus datos personales.
 
+{{<ad>}}
+
 ## La llegada del SAAS, el modelo de pagos recurrentes y el SAAS hell
 
 El panorama cambió e internet evolucionó, o quizás sea mejor decir que se corporativizó. 

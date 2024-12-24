@@ -25,6 +25,8 @@ Cuando queremos desplazarnos de un lugar a otro por cortas distancias utilizamos
 
 Cuando una persona quiere crear un vehículo que cumpla la función de transportar un objeto por tierra generalmente pensará en estos elementos y trabajará sobre esos elementos para modificarlos y crear algo diferente o más sofisticado. Esta unión de objetos es un **patrón de diseño**.
 
+{{<ad>}}
+
 ## Patrones de diseño en Software
 
 Ahora imagina que quieres que se ejecute solo una instancia de una clase ejecutándose a la vez, entonces decides que el proceso para hacerlo es el siguiente: 

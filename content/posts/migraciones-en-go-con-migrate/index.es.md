@@ -47,6 +47,8 @@ Siguiendo esta lógica podemos realizar cambios en la base de datos y luego reve
 
 Estos dos archivos pueden ser generados automáticamente (como en el caso de Django, a partir de los modelos) o podemos escribirlos nosotros directamente en SQL, como en el caso de go.
 
+{{<ad>}}
+
 ## Instalación de migrate
 
 Para manejar las migraciones vamos a usar la herramienta una herramienta llamada *migrate*, escrita en go. 

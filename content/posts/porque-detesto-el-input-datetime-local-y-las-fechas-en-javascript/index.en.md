@@ -26,6 +26,8 @@ Javascript uses months starting from index 0 and days from index 1, two objects 
 
 ![Javascript's date management is not intuitive](images/date-javascript.webp "Javascript's date management is not intuitive")
 
+{{<ad>}}
+
 ## The disconnection between HTML and JS
 
 In the case of scheduling an event with a date and time, it is tempting to use the native datetime-local input already provided by HTML. However, this field by default requires a date in "YYYYY-MM-DDThh:mm" format, while javascript returns the dates in a Date object, which you must transform to ISO 6801 "YYYYY-MM-DDThh:mm.iiiZ", where the "i" is microseconds (or to another format with a function of its own).

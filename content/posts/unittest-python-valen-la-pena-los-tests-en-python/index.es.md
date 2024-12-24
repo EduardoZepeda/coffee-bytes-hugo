@@ -28,6 +28,8 @@ El código que escribimos aumenta de tamaño cada día, a veces también disminu
 
 A veces probar el código manualmente toma mucho tiempo y, en muchos casos, incluso requiere del input de un usuario o de la respuesta de una página web externa a una petición web previa hecha por nosotros, esto complica el testeo. Con los tests podemos emular el resultado de las respuestas, el input de los usuarios, el resultado de las funciones o métodos y, todo esto, en fracciones de segundo, sin necesidad de llevar a cabo un proceso manual de testeo que tomaría mucho más tiempo.
 
+{{<ad>}}
+
 ## El testeo es un seguro contra los fallos
 
 Cuando no se tienen tests y el código esta siendo escrito por un equipo, cada contribución hecha por un colaborador es un fallo potencial . Si un cambio se implementa y aparece un error al ejecutar el código habrá que averiguar que falló y revertir el cambio. Si el error se manifiesta después de varias colaboraciones hechas por el equipo la perdida de tiempo se magnifica, pues hay que deshacer las colaboraciones para corregir el error y luego implementarlas nuevamente. El testeo adecuado asegura que **tras cada cambio en el código este seguirá cumpliendo sus tareas correctamente.**

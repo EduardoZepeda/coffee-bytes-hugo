@@ -69,6 +69,8 @@ match subject:
 
 And note that the _subject_ can be a string, an object, a tuple or an instance of a class.
 
+{{<ad>}}
+
 ## Switch in Python before version 3.10
 
 If you don't already have Python 3.10 you can mimic the operation of a switch with an endless string of _ifs_ or _elifs_ like this:

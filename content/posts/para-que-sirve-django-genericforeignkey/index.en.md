@@ -46,6 +46,8 @@ Below I explain each field of our model:
 * object_id**: the primary key or identifier of the object to which we will refer to.
 ** **item**: is an abstraction that allows you to directly access the object we make reference to with _content_type_ and object_id; **this field does not exist in the database**.
 
+{{<ad>}}
+
 ## Creation of an object
 
 Now, to create an object, **just pass the instance of an object to the item field**, the _content_type_ and _object_id_ fields will be filled automatically. The rest is exactly the same as when you store any instance of an object in the database.

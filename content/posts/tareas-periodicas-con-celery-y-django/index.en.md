@@ -58,6 +58,8 @@ __all__ = ('celery_app',)
 
 Sounds pretty obvious, but still I remind you; your django application must be running for celery to work.
 
+{{<ad>}}
+
 ## Periodic sending of tasks with crontab
 
 For this example we are going to send emails periodically. To achieve this, we are going to add our periodic tasks in the file we just created

@@ -46,6 +46,8 @@ const lengthFly = scientificData[1]
 
 Sin embargo, si nuestra lista aumenta de tamaño estaremos repitiendo la misma estructura una y otra vez. Podemos ahorrarnos algo de código de la siguiente manera:
 
+{{<ad>}}
+
 ## Desestructuración por índice
 
 ```javascript

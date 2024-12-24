@@ -53,6 +53,8 @@ When a sitemap is very large it is possible to divide it into smaller sitemaps, 
 
 But that's not all, you can divide it by category, by language or whatever fits the best for you.
 
+{{<ad>}}
+
 ## Framework of sitemaps in Django
 
 Django already has an internal framework for sitemap generation, _django.contrib.sitemaps_, which allows us to create sitemaps dynamically in conjunction with _django.contrib.sites_.

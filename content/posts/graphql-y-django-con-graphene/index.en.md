@@ -40,6 +40,8 @@ I'm more a fan of keeping things as simple as possible and complicating them unt
 
 Each team or person should consider whether it is worth implementing graphql according to the short, medium and long term needs of the app to be built. Maybe REST is enough, or maybe not.
 
+{{<ad>}}
+
 ## Installation of graphene-django
 
 Let's install graphene-django first. I will use the pipenv virtual environment manager, but you can use pip or any other you prefer.

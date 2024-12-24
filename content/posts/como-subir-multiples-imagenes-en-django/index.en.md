@@ -50,6 +50,8 @@ INSTALLED_APPS = [
 ]
 ```
 
+{{<ad>}}
+
 ## Creation of a model
 
 Inside our application named _gallery_, we are going to create a model with an Image field.

@@ -88,6 +88,8 @@ The _os.path.join()_ method is in charge of joining paths in our operating syste
 
 _os.getcwd()_ returns the current directory.
 
+{{<ad>}}
+
 ## Select an image at random with random.choice()
 
 We will randomly obtain the image by means of the _random.choice()_ method, which selects a random image from all those obtained with the list comprehension.

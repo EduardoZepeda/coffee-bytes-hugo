@@ -34,6 +34,8 @@ Para prevenir cualquier confusión, definiré unos cuantos términos primero:
 
 Para ser claro: este artículo no argumenta que nunca deberías usar JWT - solo que no es tan adecuado como un mecanismo de sesiones y que es peligroso usarlo de esa manera. Casos de uso válidos existen, en otras áreas. Al final de este artículo, hablaré brevemente de aquellos otros casos de uso.
 
+{{<ad>}}
+
 ## Una nota por adelantado
 
 Muchas personas intentan comparar "cookies vs JWT". Esta comparación no tiene sentido, y es comparar manzanas con naranjas -las cookies son un mecanismo de almacenamiento, mientras que las JWT tokens son tokens firmadas criptográficamente.

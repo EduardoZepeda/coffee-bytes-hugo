@@ -28,6 +28,8 @@ Two Scoops of Django no intenta enseñarte el funcionamiento general de Django, 
 
 Sin embargo este no es un libro para quienes buscan un primer contacto con Django. El libro da por hecho que no es la primera vez que usas Django o Python y que entiendes todo el proceso que ocurre desde que empiezas a escribir código de Django hasta que lo llevas a un servidor. Los autores te mostrarán las buenas prácticas que ellos han adquirido a lo largo de los años, y te mostrarán los antipatrones que, ellos consideran, debes evitar.
 
+{{<ad>}}
+
 ## Contenido de Two Scoops of Django
 
 El temario del libro está bastante completo y puedes estar seguro de que tocan todos los temas importantes. Aquí te dejo una lista de algunos temas que se tratan en el libro:

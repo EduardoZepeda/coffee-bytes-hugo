@@ -23,6 +23,8 @@ El otro día, uno de los youtubers que sigo recomendó una página para recibir 
 
 Para recibir un problema de algoritmos basta tu correo electrónico. Los problemas no ponen a prueba tu conocimiento de, sintaxis, ni el número de funciones o librerías de algún lenguaje en específico, sino tu habilidad de resolución de problemas. Los encargados de la página (aunque yo creo que es solo uno) afirman, **aunque no hay manera de corroborarlo**, que los problemas presentados se obtienen de entrevistas laborales en Google, Twitter, Uber, Airbnb, Stripe, entre otros.
 
+{{<ad>}}
+
 ## Mi experiencia con los desafíos
 
 Me suscribí a su lista hace algo de tiempo y actualmente recibo por correo electrónico sus desafíos. Hay unos en los que me ha tomado un par de minutos dar con el algoritmo para resolverlos y para otros he tenido que meditar el problema durante varias horas, para dar con una solución. Todos muy interesantes, eso sí.

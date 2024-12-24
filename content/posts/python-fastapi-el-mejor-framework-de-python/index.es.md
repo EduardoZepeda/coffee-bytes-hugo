@@ -59,6 +59,8 @@ Según la información que nos proporciona Techempower, **FastAPI es tremendamen
 
 Pero ¿qué tal su compatibilidad con las nuevas versiones de Python?
 
+{{<ad>}}
+
 ## Tipado y asincrónismo en Python
 
 FastAPI es totalmente compatible con el tipado y el asincrónismo de las últimas versiones de Python.

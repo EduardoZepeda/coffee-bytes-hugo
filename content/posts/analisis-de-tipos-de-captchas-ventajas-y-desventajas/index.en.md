@@ -34,6 +34,8 @@ My veredict:
 - Security: 9
 - User friendly: 8 wiithout image recognition and 5 with it
 
+{{<ad>}}
+
 ## Basic questions captchas
 
 There are more primitive captcha options, but no less effective such as a simple question: *How much is 7 + 2?*. 

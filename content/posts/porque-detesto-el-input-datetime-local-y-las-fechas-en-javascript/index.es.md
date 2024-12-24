@@ -28,6 +28,8 @@ Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos 
 
 ![El manejo de fechas en Javascript no es intuitivo](images/date-javascript.webp "El manejo de fechas en Javascript no es intuitivo")
 
+{{<ad>}}
+
 ## La desconexión entre HTML y JS
 
 En el caso de agendar un evento con fecha y hora, es tentador utilizar el input datetime-local nativo que ya provee HTML. Sin embargo, este campo por defecto requiere una fecha en formato "YYYY-MM-DDThh:mm", mientras que javascript regresa las fechas en un objeto Date, que debes transformar a ISO 6801 "YYYY-MM-DDThh:mm.iiiZ", donde la "i" son microsegundos (o a otro formato con una función propia).

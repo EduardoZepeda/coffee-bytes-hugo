@@ -44,6 +44,8 @@ Cracking Codes with Python parte del supuesto de que no sabes absolutamente nada
 
 Este libro se encuentra completamente gratis para que lo leas completo, para leerlo [entra en la página web oficial del autor.](http://inventwithpython.com/cracking/)
 
+{{<ad>}}
+
 ## Mi opinión
 
 En mi opinión Cracking Codes with Python es un material bueno si se cumple alguno de los siguientes supuestos:

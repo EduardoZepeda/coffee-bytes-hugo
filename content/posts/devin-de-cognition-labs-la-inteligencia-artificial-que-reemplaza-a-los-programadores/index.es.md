@@ -53,6 +53,8 @@ Hasta el momento Cognitive Labs afirma haber recaudado cerca de **21 MDD en una 
 
 ![Esquema de relaciones de Peter Thiel](images/peter-thiel-relationships.jpeg "Fuente: https://knowyourmeme.com/photos/2402121-peter-thiel")
 
+{{<ad>}}
+
 ## ¿Qué va a pasar con los programadores? ¿están en riesgo?
 
 Pues, es complicado saberlo con certeza, dada la poca información al respecto. Sin embargo yo propongo un par de escenarios probables:

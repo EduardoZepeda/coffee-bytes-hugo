@@ -74,6 +74,8 @@ class Videogame(models.Model):
         return self.name
 ```
 
+{{<ad>}}
+
 ## Adding a template to the django admin panel
 
 Let's start with the basics, adding a model to the admin.

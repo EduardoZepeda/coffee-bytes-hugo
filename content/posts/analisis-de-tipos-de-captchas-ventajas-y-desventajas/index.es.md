@@ -40,6 +40,8 @@ Mi veredicto:
 - Securidad: 9
 - Amistoso con el usuario: 8 sin el reconocimiento de imagenes y 5 con el reconocimiento de imágenes
 
+{{<ad>}}
+
 ## Preguntas básicas como captchas
 
 Existen opciones de captchas más primitivas, pero no por eso menos efectivas tal como una pregunta simple: *¿Cuánto es 7 + 2?*. 

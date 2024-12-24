@@ -31,6 +31,8 @@ The water that enters first through the bucket exits first (FIFO). If the flow i
 
 In the above example, the requests represent the water; any excessive increase in requests will overflow and be lost. Requests that were already in the bucket will leave the bucket first, i.e., they will be processed as they arrive (a FIFO queue).
 
+{{<ad>}}
+
 ## limit_req_zone sets throttling values
 
 Let's open our configuration file for our website. If you use the default configuration it is in _/etc/nginx/sites-enabled/default_ and we will place the following:

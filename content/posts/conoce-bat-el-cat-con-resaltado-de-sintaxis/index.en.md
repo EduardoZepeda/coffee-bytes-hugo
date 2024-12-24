@@ -31,6 +31,8 @@ wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_am
 dpkg -i bat-musl_0.15.4_amd64.deb
 ```
 
+{{<ad>}}
+
 ## What is bat for?
 
 _Bat_ will display the contents of a file, just like _cat_, but with the syntax highlighted for most programming languages:

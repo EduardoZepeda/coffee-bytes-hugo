@@ -89,6 +89,8 @@ Well, the answer to that is "it depends". It depends on each drug, some may last
 
 ![](images/farmacocinetics.jpg)
 
+{{<ad>}}
+
 ## What does it depend on whether a drug works and its side effects?
 
 As I mentioned earlier, whether or not a drug activates a cell's receptor depends on whether it fits its "lock". This is defined by its three-dimensional structure. For this reason, if two drugs look alike, they are likely to cause similar effects, but being different, one of them will cause fewer side effects.

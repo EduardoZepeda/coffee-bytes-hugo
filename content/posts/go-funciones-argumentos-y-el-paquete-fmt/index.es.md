@@ -123,6 +123,8 @@ multiples(1, 2, 3, 4, 5)
 
 Listo, con esto termina mi resumen de las funciones. Ahora pasemos a uno de los paquetes esenciales de go, el paquete fmt.
 
+{{<ad>}}
+
 ## Paquete fmt
 
 Este paquete es el que usarás normalmente para imprimir sentencias en pantalla y, ya puedo verlo en el futuro, el que usarás de manera incorrecta para debuggear.

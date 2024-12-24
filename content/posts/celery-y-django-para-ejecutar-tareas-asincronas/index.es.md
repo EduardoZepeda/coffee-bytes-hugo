@@ -55,6 +55,8 @@ Vamos a instalar celery para este ejemplo, la versión 5.1.2
 pip install "celery==5.1.2"
 ```
 
+{{<ad>}}
+
 ## Instalando RabbitMQ
 
 También necesitaremos RabbitMQ, que se encargará de servir como intermediario entre django y celery enviando mensajes y activando a los workers de este último para ejecutar las tareas.

@@ -47,6 +47,8 @@ Worker pool es un [patrón de diseño](/es/patrones-de-diseno-o-software-design-
 
 Hay desarrolladores que han usado este patrón para [manejar un millón de peticiones por minuto en go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang)
 
+{{<ad>}}
+
 ## ¿Cómo funciona el patrón de diseño worker pool?
 
 Partimos de una cola de tareas por ejecutar, estas pueden estar fijas o crearse dinámicamente. Luego, en lugar de crear y destruir múltiples workers ([goroutines en el caso de go](/es/go-introduccion-a-las-goroutines-y-concurrencia/)) constantemente, creamos un **número fijo de workers** y las ponemos en un ciclo, en el que estarán escuchando constantemente información de la queue o cola de tareas (por medio de un [canal o channel en el caso de lenguajes como Go](/es/go-uso-de-channels-o-canales-para-comunicar-goroutinas/)). De esta manera mantendremos nuestro manejo de memoria mucho más estable y predecible, además de que limitamos el impacto que ejercerían la creación y destrucción constantes de workers.

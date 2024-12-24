@@ -56,6 +56,8 @@ To make this analysis as objective as possible, here are some controversial aspe
 * **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust).
 * **~~Go does not have generics~~** Go already has generics support since version 1.18.
 
+{{<ad>}}
+
 ## Go and its best practices
 
 Go is strongly oriented to good code practices. How does it do it? The compiler forces good practices in the code, preventing the code from compiling if there are variables or imports that are not used, or if the privacy rules of our properties and functions are not respected, among others.

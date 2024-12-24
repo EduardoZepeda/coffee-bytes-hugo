@@ -34,6 +34,8 @@ Cuarto, el libro va un poquito más allá de los aspectos principales del lengua
 
 Quinto, por si todo lo anterior no fuera suficiente el libro es **completamente gratuito** en su versión digital; está licenciado bajo una licencia Creative Commons attribution-noncommercial license.
 
+{{<ad>}}
+
 ## ¿Dónde lo consigo?
 
 Si quieres una copia ve directo a la [página oficial del autor](https://eloquentjavascript.net/) y descarga tu copia en PDF, Epub o Mobi sin costo alguno. Por otro lado, si eres de los que prefieren leer en papel puedes adquirir la versión impresa, con costo, por supuesto. Lamentablemente el libro aún no tiene una traducción al español (aunque sí en ruso, portugués, persa y búlgaro), pero si sabes inglés y quieres aprender Javascript este libro es totalmente imprescindible para tu colección. Edición 28/Jul/2020: El libro tiene una versión al español pero está incompleta, sin embargo puedes leer los primeros doce capítulos en su sitio web oficial, entra y accede a los diferentes formatos en que está disponible en [este enlace.](https://eloquentjs-es.thedojo.mx/)

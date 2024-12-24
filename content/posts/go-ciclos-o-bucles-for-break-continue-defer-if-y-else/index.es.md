@@ -54,6 +54,8 @@ if edad < 18 {
 }
 ```
 
+{{<ad>}}
+
 ## Bucles for en go
 
 En go **existen varios tipos de bucles for**: con contador, con condicional, range y el infinito.

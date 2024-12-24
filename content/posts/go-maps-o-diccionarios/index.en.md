@@ -128,6 +128,8 @@ If we want to get rid of a key from our _map_, we use the _delete,_ function, wh
 delete(dictionary, "hello")
 ```
 
+{{<ad>}}
+
 ## Traverse golang maps with range
 
 Just as with an _array_ or a _slice_, we can tour a _map_ using _range_. Each iteration will return the key and value.

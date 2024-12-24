@@ -77,6 +77,8 @@ print(qs.query)
 
 How to fix this mess? Well, one of the ways to fix this SQL query is to use Common Table Expressions (CTEs), however, as of this writing, **Django does not support Common Table Expressions (CTEs)**, so we will have to use a raw query instead of the methods already provided by the Django ORM.
 
+{{<ad>}}
+
 ## Use Common Table Expressions (CTEs) to improve annotate and subqueries performance.
 
 The solution is to create a raw query, but it's not that bad as it looks, remember that modern versions of django allow you to use the raw method of your [model manager]({{< ref path="/posts/managers-o-manejadores-personalizados-en-django/index.md" lang="en" >}}) so that Django automatically assigns it to a queryset object of your respective model.

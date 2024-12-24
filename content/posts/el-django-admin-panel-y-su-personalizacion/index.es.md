@@ -77,6 +77,8 @@ class Videogame(models.Model):
         return self.name
 ```
 
+{{<ad>}}
+
 ## Agregar un modelo al django admin panel
 
 Empecemos con lo básico, agregar un modelo al admin.

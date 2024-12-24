@@ -31,6 +31,8 @@ uname -a
  Linux kino 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64 GNU/Linux
 ```
 
+{{<ad>}}
+
 ## who
 
 El comando who, sí, como "the who", nos muestra las personas que están conectadas al momento de ejecutarlo.

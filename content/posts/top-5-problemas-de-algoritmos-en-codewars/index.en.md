@@ -33,6 +33,8 @@ Without further ado, here are my top 5 _katas_. These _katas_ **are not necessar
 
 By the way, **no, I'm not going to post the answers**, those are up to you.
 
+{{<ad>}}
+
 ## Multi Line Task++: Hello World
 
 You need to write a function that returns the string "Hello, world!" in Javascript.

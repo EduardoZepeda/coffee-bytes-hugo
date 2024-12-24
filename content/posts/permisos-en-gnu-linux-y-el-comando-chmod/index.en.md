@@ -74,6 +74,8 @@ total 16
  Hello world
 ```
 
+{{<ad>}}
+
 ## What do the numbers in the chmod command mean?
 
 There are 3 figures in the numbers that follow the chmod command, each figure represents the permissions of their respective set. The number of each digit can range from 0 to 7. This number is determined by the sum of the values of each permission; 4, 2 and 1.

@@ -89,6 +89,8 @@ For example, using cgroups we can tell linux: "limit the number of CPUs this pro
 
 ![Example of cgroups in linux](images/cgroups-en-linux.jpg "cgroups allow you to limit system resources")
 
+{{<ad>}}
+
 ## Create a container from scratch with Go
 
 Simplifying the above we need:

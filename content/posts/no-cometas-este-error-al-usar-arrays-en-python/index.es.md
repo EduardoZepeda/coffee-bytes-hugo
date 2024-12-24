@@ -50,6 +50,8 @@ matrix[0][1] = 3
 
 Esto sucede porque cuando Python crea el array, **no está creando 4 diferentes arrays**, sino que crea uno solo y copia 4 veces la referencia a este espacio de memoria, por lo que, cualquier cambio que hagamos está modificando el único array que existe y, **como las 4 referencias apuntan a ese array, vemos el cambio reflejado en todos** los arrays.
 
+{{<ad>}}
+
 ## ¿Cómo prevenir este error?
 
 Para prevenir este error al crear una matriz bidimensional.

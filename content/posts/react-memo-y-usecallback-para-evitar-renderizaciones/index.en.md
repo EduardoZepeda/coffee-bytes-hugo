@@ -107,6 +107,8 @@ Pay attention to the terminal to appreciate the renderings.
 
 On the other hand, if you remove both memo and useCallback, the same thing will happen.
 
+{{<ad>}}
+
 ## Avoiding renderings with useMemo
 
 useMemo can also be used to avoid renderings. How? In the previous post I mentioned that every time a component is rendered new objects are created, and these objects are not the same, even if they have the same properties, with the same values.

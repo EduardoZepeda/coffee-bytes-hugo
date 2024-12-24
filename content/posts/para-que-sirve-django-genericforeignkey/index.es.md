@@ -48,6 +48,8 @@ A continuación te explico cada campo de nuestro modelo:
 - **object\_id**: la llave primaria o identificador del objeto al que haremos referencia.
 - **item**: es una abstracción que te permite acceder directamente al objeto que hacemos referencia con _content\_type_ y object\_id; **este campo no existe en la base de datos.**
 
+{{<ad>}}
+
 ## Creación de un objeto
 
 Ahora, para crear un objeto, **basta con que le pasemos la instancia de un objeto al campo item**, los campos _content\_type_ y _object\_id_ se llenarán automáticamente. El resto es exactamente igual que cuando guardas cualquier instancia de un objeto en la base de datos.

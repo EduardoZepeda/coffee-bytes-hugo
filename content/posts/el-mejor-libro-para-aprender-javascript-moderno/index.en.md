@@ -30,6 +30,8 @@ Fourth, the book goes a bit beyond the main aspects of language. The last chapte
 
 Fifth, as if all of the above were not enough, the book is **completely free** in its digital version; it is licensed under a Creative Commons attribution-noncommercial license.
 
+{{<ad>}}
+
 ## Where do I get it?
 
 If you want a copy go directly to the [author's official website](https://eloquentjavascript.net/) and download your copy in PDF, Epub or Mobi at no cost. On the other hand, if you are one of those who prefer to read on paper you can purchase the printed version, at a cost, of course. Unfortunately the book does not yet have a Spanish translation (although it does have a translation in Russian, Portuguese, Farsi and Bulgarian), but if you know English and want to learn Javascript this book is a must for your collection. 28/Jul/2020 Edition: The book has a Spanish version but it is incomplete, however you can read the first twelve chapters in its official website, enter and access to the different formats in which it is available in [this link](https://eloquentjs-es.thedojo.mx/)

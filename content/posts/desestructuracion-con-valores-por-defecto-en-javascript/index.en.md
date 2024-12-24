@@ -44,6 +44,8 @@ if(accountType==='basic'){
 
 Well, to avoid this we can assign a default value when the destructuring does not find the property that we want to destructure. If you are following this example remember to clean the javascript terminal and re-declare the main object or you will get an error.
 
+{{<ad>}}
+
 ## Assigning a default value when destructuring an object in Javascript
 
 This time let's declare the user object without the _accountType_ property:

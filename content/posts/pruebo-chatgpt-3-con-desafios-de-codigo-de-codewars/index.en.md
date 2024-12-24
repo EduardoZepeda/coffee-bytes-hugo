@@ -25,6 +25,8 @@ Each kata has a level of difficulty, defined by its number of kyu (as in martial
 
 The challenges are very varied, ranging from classic tests, such as obtaining prime numbers, to more complex ones, such as writing code without exceeding two characters per line.
 
+{{<ad>}}
+
 ## Test with common requests to ChatGPT
 
 To start with I was testing ChatGPT with a series of simple and popular requests. I found that ChatGPT was able to return the correct code each time with its explanation and logical steps:

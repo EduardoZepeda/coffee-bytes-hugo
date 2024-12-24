@@ -98,6 +98,8 @@ While an answer for multiple resources is like this:
 
 Who to listen to? As you can see there are differences between companies and I don't know if I would dare to tell you that one or the other is correct, but I consider that if you keep constant in each of your endpoints and document it well, you shouldn't have any problems.
 
+{{<ad>}}
+
 ## Relative or full URLs in HATEOAS?
 
 Remember that HATEOAS is a [feature of REST APIs](/en/basic-characteristics-of-an-api-rest-api/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.

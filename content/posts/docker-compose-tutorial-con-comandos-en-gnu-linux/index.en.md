@@ -32,6 +32,8 @@ Docker-compose is programming using the [go or golang programming language](/en/
 
 Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django, with which you can get a django application production-ready in minutes](/en/cookiecutter-django-for-configuring-and-deploying-in-django/).
 
+{{<ad>}}
+
 ## Structure of a docker-compose.yml file
 
 Just as Dockerfile existed in Docker, where you configured the state of a container in a declarative way, in Docker compose there is an equivalent: yml files.

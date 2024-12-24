@@ -22,6 +22,8 @@ For the above reason I have decided to share a bit of what I have read about it 
 
 They say that a chain is only as strong as its weakest link. Passwords are in many cases the weakest link. A computer system may be free of vulnerabilities and have the latest security patches, but it's no good if all that is protected by a weak password. And no, I'm not talking about abandoning passwords like "admin123" or "firulais" in favor of their modified versions: "4dm1n123" or "f1rul415". I'm talking about the fact that passwords should be more of a wall for attackers than a second entrance to your systems.
 
+{{<ad>}}
+
 ## What does a secure password look like?
 
 What characteristics must a password have to be secure? A secure password must have several characteristics to make life difficult for cyber criminals. Here are my tips for creating a good and secure password.

@@ -28,6 +28,8 @@ Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi e
 
 ContentTypes es un **modelo especial de Django que registra cada uno de los modelos que existen** dentro de nuestra aplicación, tanto los que nosotros creamos, como los que vienen instalados por defecto.
 
+{{<ad>}}
+
 ## ¿Para que sirve ContentType?
 
 ContentType **sirve para relacionar modelos con otros modelos**, como si fuera una foreign key (llave foránea), pero con la ventaja de que el tipo de modelo con el cual lo relacionemos puede ser diferente para cada entrada de la tabla.

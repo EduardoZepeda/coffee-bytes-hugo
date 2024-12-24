@@ -35,6 +35,8 @@ Los submodules de git son útiles cuando queremos incorporar código de terceros
 
 Por otro lado, **usar git submodules complica bastante el manejo de repositorios si no se tiene cuidado o si se trabaja con muchos submódulos**, tienes que prestar atención al contexto en el que te encuentras y recordar todo el tiempo el repositorio en el que te encuentras.
 
+{{<ad>}}
+
 ## Agregar un git submodule a un repositorio de git
 
 Para empezar a utilizar un submódulo en un repositorio existente (nuestro repositorio principal) usamos el comando *git submodule add*, colocando primero la url del submódulo y posteriormente la carpeta donde queremos que se localice el submódulo. 

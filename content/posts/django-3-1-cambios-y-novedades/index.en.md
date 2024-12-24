@@ -79,6 +79,8 @@ async def test_my_thing(self):
     self.assertEqual(response.status_code, 200)
 ```
 
+{{<ad>}}
+
 ## JSON compatible fields
 
 It's about time for a JSON field! Django now includes a field for your models called _models.JSONField_ and a _forms.JSONfield_ field, which can be used in any compatible database backend. Both fields support custom JSON encoders and decoders.

@@ -47,6 +47,8 @@ We can also create an array directly inside a function by placing each element o
 array := [4]int{0, 0, 0, 0}
 ```
 
+{{<ad>}}
+
 ## Slices in go
 
 Slices are **mutable collections of data types**. Internally it is an abstraction of an array, with a difference, they can be modified.

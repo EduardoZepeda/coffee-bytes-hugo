@@ -54,6 +54,8 @@ A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da 
 
 Pero ahora preguntémonos, ¿qué pasará cuando el número de usuarios se incremente a 1000, a 10 000, a 10 000 000?, es entonces cuando las milésimas de segundos se pueden volverse horas o días y, entonces, vislumbramos la verdadera importancia de elegir un algoritmo con un rendimiento adecuado.
 
+{{<ad>}}
+
 ## ¿Cómo calcular o leer el rendimiento Big O?
 
 Para evaluar este rendimiento se utiliza una notación llamada Big O. Esta nos dice como se va a comportar el tiempo de ejecución de un algoritmo en función de su input (entrada).

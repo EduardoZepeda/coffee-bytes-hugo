@@ -55,6 +55,8 @@ fmt.Println(myVideogame)
 // {Nier 0}
 ```
 
+{{<ad>}}
+
 ## Anonymous fields in structs
 
 In go, it is possible not to declare the name of the field of our struct and to place only the data type. Done this way, the fields will adopt the name of the data type and we can access them using them.

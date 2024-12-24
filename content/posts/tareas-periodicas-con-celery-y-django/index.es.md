@@ -59,6 +59,8 @@ __all__ = ('celery_app',)
 
 Suena bastante obvio, pero aún así te lo recuerdo; tu aplicación de django debe estarse ejecutando para que celery funcione.
 
+{{<ad>}}
+
 ## Envío periódico de tareas con crontab
 
 Para este ejemplo vamos a enviar emails de manera periódica. Para conseguirlo, vamos a agregar nuestras tareas periódicas en el archivo que acabamos de crear

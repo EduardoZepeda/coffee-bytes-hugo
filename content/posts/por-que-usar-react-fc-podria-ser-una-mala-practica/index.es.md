@@ -118,6 +118,8 @@ const  Namespace: React.FC<PropsDelNamespace> & { Componente: React.FC<PropsDelC
 Namespace.Componente = (props) => { /*...*/ }
 ```
 
+{{<ad>}}
+
 ## ¿Qué deberíamos usar en lugar de React.FC?
 
 El núcleo de las críticas se basta en que **React.FC añade el children de manera implícita, yendo contra la naturaleza explícita de typescript**.

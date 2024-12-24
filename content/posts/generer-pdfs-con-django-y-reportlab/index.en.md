@@ -27,6 +27,8 @@ pip install reportlab
 # pip install reportlab
 ```
 
+{{<ad>}}
+
 ## Define PDF response type in Django
 
 Once installed, the first lines we will write will be to make sure that the browser knows that we will return a pdf, we will do it through an HTTP header, the Content-Type header, through the _content_type_ variable.

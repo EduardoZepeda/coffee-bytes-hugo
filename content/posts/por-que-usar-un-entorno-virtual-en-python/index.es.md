@@ -28,6 +28,8 @@ Esa misma tarde decides empezar a trabajar en el primer proyecto, Pro 2.2. Más 
 
 Decides que está bien, no pasa nada, así que decides trabajar así. Cuando terminas tu Proyecto Pro-newest estás tan emocionado que decides mostrarle a tu colega. Él recibe tus archivos pero te jura que el código no corre ¿qué estuvo mal? Tras una breve charla tu amigo te explica que tiene instalada la versión de Django 1.6 en su pc desde años atrás y que no la ha actualizado desde entonces. Tu proyecto con la versión más reciente de Django no funcionará en la computadora de tu amigo debido a incompatibilidades en las versiones. ¿No sería más sencillo si tu amigo pudiera usar la misma versión de Django del proyecto que quieres mostrarle? Sin tener que desinstalar la versión que ya tiene.
 
+{{<ad>}}
+
 ## ¿Y si usamos máquinas virtuales?
 
 Podríamos solucionar el problema anterior instalando una máquina virtual, como [virtualbox](https://www.virtualbox.org/). Dentro de cada máquina virtual seriamos capaces de instalar las dependencias de nuestro proyecto a medida. Además tendríamos tantas como proyectos. Y funcionaría, ¿no? Bueno sí, pero con un gran inconveniente: hay que cargar todo un sistema operativo completo para tener unas cuentas dependencias. Es demasiada carga a nuestro sistema para resultar práctico.

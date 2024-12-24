@@ -34,6 +34,8 @@ Hence, when a web developer launches their personal projects, they often complet
 
 ![Web development in assembly meme](images/web-development-assembly.webp "It is said that only true programmers program in low-level languages.")
 
+{{<ad>}}
+
 ## My mistakes while migrating a website without considering Technical SEO
 
 When I migrated the blog, the first thing that I blatantly ignored were the multiple consequences of doing it unanticipatedly. To begin with the sitemap, then the URL structure and finally, as the cherry on top of the cake, the absence of a schema markup.

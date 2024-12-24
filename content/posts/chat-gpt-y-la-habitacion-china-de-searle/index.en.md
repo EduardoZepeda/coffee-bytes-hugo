@@ -55,6 +55,8 @@ According to Searle, ChatGPT may be following the most complex algorithm in exis
 
 But then what makes the difference between a real intelligence and a mechanical process? is there such a difference?
 
+{{<ad>}}
+
 ## Are consciousness and artificial intelligence related?
 
 The highest representative of intelligence on earth is the human being (or at least our inflated ego tells us that), and it also happens that the human being is a living entity with consciousness. This leads us to the inevitable question: is a living being with consciousness necessary to have intelligence, or perhaps it is the other way around?

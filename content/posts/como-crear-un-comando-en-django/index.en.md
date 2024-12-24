@@ -69,6 +69,8 @@ class Command(BaseCommand):
 
 To display text on the terminal we will use _self.stdout.write_ to print text to standard output. We can select from several styles according to what we want to display.
 
+{{<ad>}}
+
 ## How to add arguments to a django command
 
 Django uses Python's famous [argparse](https://docs.python.org/3/library/argparse.html) library to handle the arguments in its commands

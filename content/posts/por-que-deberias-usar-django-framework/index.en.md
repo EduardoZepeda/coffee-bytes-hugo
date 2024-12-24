@@ -38,6 +38,8 @@ Why use Django in a world where everything is Javascript? Is it really worth lea
   - 
 If you want to delve into one in particular read on.
 
+{{<ad>}}
+
 ## The advantages of Django
 
 Django is a *batteries included* framework, that covers practically all the needs of an interactive website, from protection against the most common attacks such as SQL injection, CSRF, XSS, COOP. Furthermore, it offers form validation in the backend, caching, i18n, messages, flatpages and practically a solution to all common problems that arise when developing a medium or large website.

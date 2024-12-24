@@ -72,6 +72,8 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 
 Antes de hablar sobre annotate y aggregate hay que asegurarnos de saber como obtener la consulta SQL que hará Django.
 
+{{<ad>}}
+
 ## ¿Cómo convertir un queryset a SQL en Django?
 
 Probablemente ya conozcas el ORM de django y lo hayas usado para hacer búsquedas en la base de datos. Pero existe algo que muchas personas ignoran: **es posible obtener la consulta, antes de que Django la procese y ejecute, imprimiendo la propiedad query de nuestros querysets.**

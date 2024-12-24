@@ -25,6 +25,8 @@ Si llevas usando computadoras desde hace tiempo, probablemente te encuentres má
 
 Docker es una herramienta que permite empaquetar una aplicación y sus dependencias en un contenedor muy ligero. Es como si tomaras una aplicación completa con absolutamente todo lo que necesita para funcionar para poder transportarla sin problema a cualquier otro servidor con Docker instalado, ya sea para seguir desarrollándola o para hacer deploy. ¿Y? ¿es todo? ¿transportar código? De seguro me dirás que eso ya lo hacen las máquinas virtuales, [los entornos virtuales](/es/por-que-deberias-usar-un-entorno-virtual-en-python/), los archivos zip y prácticamente cualquier herramienta. Bueno sí, pero voy a intentar explicar de manera sencilla que problemática hay.
 
+{{<ad>}}
+
 ## ¿Para qué sirve Docker?
 
 Con el propósito de explicar para que sirve Docker vamos a crear un hipotético equipo multifacético y multidisciplinario.

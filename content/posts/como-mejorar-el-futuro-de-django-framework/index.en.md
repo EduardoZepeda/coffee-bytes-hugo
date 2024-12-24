@@ -35,6 +35,8 @@ However, according to reddit users, there is not much interest from the code mai
 
 {{<box type="info" message="In case you don't know what type hints are, type hints allow you to declare the type of a variable, argument, or the return value of a function to make it easier to identify bugs or unwanted behavior. Think of Python type hints as Python's Typescript, or as optional static typing in your favourite compiled language, such as C, C++, or Rust." >}}
 
+{{<ad>}}
+
 ## Use a custom User model instead of the normal User model.
 
 The second comment that received the most support states that customizing Django's User model is quite complicated, especially if done mid-project, more specifically changing Django's default login type from user to email.

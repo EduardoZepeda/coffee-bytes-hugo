@@ -113,6 +113,8 @@ Git treats each submodule as if it were a separate repository, so **each version
 
 ![Git submodules-correspondence](images/git-submodules-correspondencia.jpg)
 
+{{<ad>}}
+
 ## Workflow of git submodules
 
 Every time you make a change **within your submodule you must push the changes and then update the reference from the main repository to the submodules**.

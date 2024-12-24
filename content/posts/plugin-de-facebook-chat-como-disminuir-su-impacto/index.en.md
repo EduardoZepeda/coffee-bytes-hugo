@@ -28,6 +28,8 @@ Loading the facebook plugin triggers a long list of web requests that download a
 
 Third-party plugins can strongly impact the metrics and performance of your web pages, both frontend and backend.
 
+{{<ad>}}
+
 ## Delay plugin loading
 
 The facebook plugin requires two html tags:

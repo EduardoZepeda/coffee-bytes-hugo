@@ -35,6 +35,8 @@ Si miras el código fuente de Django, verás que el **modelo _User_ que usas nor
 
 Ya que sabemos lo anterior, **podemos usar las clases AbstractUser y AbstractBaseUser para crear nuestros modelos de Usuario personalizados.**
 
+{{<ad>}}
+
 ## Heredar de la subclase AbstractUser
 
 Este método es probablemente el más popular para extender el modelo _User_ de Django. Lo anterior debido a que se conserva prácticamente toda la funcionalidad del modelo _User_ original.

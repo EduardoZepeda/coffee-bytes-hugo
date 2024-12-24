@@ -152,6 +152,8 @@ router.get('/users/me', auth, async (req, res) => {
 
 A mi, sin embargo, no me parece tan grave ni tan difícil de leer este pequeño fragmento de código pero quizás sería razón suficiente para ser excomulgado de la iglesia del Clean Code.
 
+{{<ad>}}
+
 ## ¿Qué no me gustó de Clean Code?
 
 Este libro es lo que yo considero un anacronismo, el autor usa Java para desarrollar sus ejemplos. Sí, ya sé que Java era increíblemente popular antes, pero usar pseudocódigo o C hubiera sido una mejor opción.

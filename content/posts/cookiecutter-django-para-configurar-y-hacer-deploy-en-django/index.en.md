@@ -51,6 +51,8 @@ There are cookiecutters for many technologies and many people end up programming
 
 Django's cookiecutter gives us a customizable template ready to go, with the most popular libraries saving us the hassle of having to set up a project from scratch.
 
+{{<ad>}}
+
 ## Install cookiecutter
 
 Cookiecutter should be available in the repositories of our GNU/Linux system. So we can install it as if it were any other package.

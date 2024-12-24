@@ -43,6 +43,8 @@ Cracking Codes with Python assumes you know absolutely nothing about Python, it 
 
 This book is completely free for you to read in its entirety, to read it [go to the author's official website](http://inventwithpython.com/cracking/)
 
+{{<ad>}}
+
 ## My opinion
 
 In my opinion Cracking Codes with Python is good material if any of the following assumptions are met:

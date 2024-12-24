@@ -33,6 +33,8 @@ To prevent any confusion, I will define a few terms first:
 
 To be clear: this article does not argue that you should never use JWT - only that it is not as suitable as a session mechanism and that it is dangerous to use it that way. Valid use cases exist, in other areas. At the end of this article, I will briefly discuss those other use cases.
 
+{{<ad>}}
+
 ## A note in advance
 
 Many people try to compare "cookies vs JWT". This comparison is meaningless, and is comparing apples to oranges - cookies are a storage mechanism, while JWT tokens are cryptographically signed tokens.

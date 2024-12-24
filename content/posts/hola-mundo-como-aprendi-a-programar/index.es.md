@@ -39,6 +39,8 @@ La universidad (en general, no solo mi carrera) no me gustó, me pareció lenta,
 
 Terminé la carrera y **me gradué entre los tres mejores promedios de la generación**. Sin embargo, tras echar un leve vistazo a los lugares de trabajo decidí nunca ejercer.
 
+{{<ad>}}
+
 ## Supercell y Miku Hatsune
 
 Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.supercell.jp/english.html/#?) en internet. Supercell era una banda bastante peculiar, su vocalista era un programa de computadora llamado Vocaloid, un software que tomaba prestada la voz de [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita/#?) para crear una cantante virtual, llamada Miku Hatsune. Vocaloid permitía a sus usuarios utilizar a Miku Hatsune como su vocalista personal, modulando los tonos, tiempos y sílabas.

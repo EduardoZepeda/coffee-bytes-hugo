@@ -50,6 +50,8 @@ So far Cognitive Labs claims to have raised about **21 MDD in a round led by Fou
 
 ![Peter Thiel's relationship diagram](images/peter-thiel-relationships.jpeg "Source: https://knowyourmeme.com/photos/2402121-peter-thiel")
 
+{{<ad>}}
+
 ## What's going to happen to the programmers - are they at risk?
 
 Well, it is difficult to know for sure, given the lack of information. However, I propose a couple of likely scenarios:

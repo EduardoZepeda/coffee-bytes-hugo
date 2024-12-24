@@ -57,6 +57,8 @@ Installing collected packages: virtualenv
 Successfully installed virtualenv-16.7.2
 ```
 
+{{<ad>}}
+
 ## Create a virtual environment in python
 
 To create a virtual environment we will use the _virtualenv_ command, specify a version of _Python_ with the _-p_ option and give a name to our virtual environment, for the sake of simplicity I will call it _'virtual'_, but you can call it whatever you want.

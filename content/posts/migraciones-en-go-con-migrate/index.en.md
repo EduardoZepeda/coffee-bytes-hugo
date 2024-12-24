@@ -44,6 +44,8 @@ Following this logic we can make changes to the database and then revert them.
 
 These two files can be generated automatically (as in the case of Django, from the models) or we can write them directly in SQL, as in the case of go.
 
+{{<ad>}}
+
 ## Migrate installation
 
 To handle migrations we are going to use a tool called _migrate_, written in go.

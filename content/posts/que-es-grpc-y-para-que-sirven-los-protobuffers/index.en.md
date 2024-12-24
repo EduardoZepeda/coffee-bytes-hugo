@@ -41,6 +41,8 @@ Did you notice I mentioned data encryption? Well, one aspect of RPC to note is t
 
 Now, let's go to gRPC.
 
+{{<ad>}}
+
 ## What is gRPC?
 
 Google took into account the shortcomings of RPC and decided to improve it by creating gRPC.

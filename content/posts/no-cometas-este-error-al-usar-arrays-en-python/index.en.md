@@ -47,6 +47,8 @@ What happened? We modified a single element and all of them have been modified. 
 
 This happens because when Python creates the array, **it is not creating 4 different arrays**, but it creates only one and copies 4 times the reference to this memory space, so, any change we make is modifying the only array that exists and, **as the 4 references point to that array, we see the change reflected in all** the arrays.
 
+{{<ad>}}
+
 ## How to prevent this error?
 
 To prevent this error when creating a two-dimensional matrix.

@@ -29,6 +29,8 @@ Y, para cerrar el libro, el autor nos ofrece 10 proyectos diferentes, para poner
 
 El aspecto que más disfruté de este libro fue la gran variedad de temas que toca, pasa rápidamente del tutorial del lenguaje de programación básico a temas más complejos tales como la generación de ejecutables, compensar los cuellos de botella que tiene Python utilizando C ++ , la parte de las [pruebas en Python](/es/unittest-python-valen-la-pena-los-tests-en-python/) (que es ignorada en la mayoría de los tutoriales de programación), incluso aprendes la existencia de librerías bastante populares como swig, tornado, beautiful soup, entre otras.
 
+{{<ad>}}
+
 ## Lo malo de Beginning Python
 
 Mi mayor queja respecto a este libro tiene como culpable el abandono del autor. El libro fue escrito para Python 2, por lo que la mayoría del contenido del libro necesitará de ciertos arreglos para poder seguir ejecutándose dentro de un corto tiempo, y dejará gran parte de su código obsoleto cuando el soporte para Python 2 llegue a su fin. Edito: Ya hay una versión actualizada para Python 3. Si bien el abanico de temas que toca el libro es bastante amplio, peca al tratarlos con una poca profundidad, dedicándoles una decena de páginas a temas tan profundos como interfaces gráficas o testeo de código, los cuales me hubiera gustado que ampliara un poco más, incluso aún a costa de otros temas o proyectos.

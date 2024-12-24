@@ -90,6 +90,8 @@ Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs 
 
 ![Ejemplo de cgroups en linux](images/cgroups-en-linux.jpg "Los cgroups permiten limitar recursos del sistema")
 
+{{<ad>}}
+
 ## Crear un container desde cero con Go
 
 Simplificando lo anterior necesitamos: 

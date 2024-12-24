@@ -37,6 +37,8 @@ Sí, es cierto que estamos hablando de un factor de 100, pero considera lo sigui
 
 Una petición por segundo significa 60 en un minuto, 3600 en una hora y 86400 al día. ¿De verdad te preocupa que tu aplicación tenga un tráfico de 86400 peticiones en un día? Si ya tienes tal tráfico, pagarle a un desarrollador extra para que se encargue de ajustar los engranes de tu software no debería ser un problema, y si lo es, **probablemente no tienes un problema de rendimiento, sino de monetización.**
 
+{{<ad>}}
+
 ## ¿Importa el consumo de memoria en una nueva aplicación web?
 
 Acaso importa que tu aplicación se ejecute con un consumo mínimo de memoria usando un lenguaje de bajo nivel, o con un consumo mayor usando un lenguaje de alto nivel. Yo diría que depende; si tu aplicación o proyecto es nuevo, probablemente valga la pena pagar unos dólares más al mes por memoria extra a cambio de una mayor velocidad de desarrollo en cada iteración. 

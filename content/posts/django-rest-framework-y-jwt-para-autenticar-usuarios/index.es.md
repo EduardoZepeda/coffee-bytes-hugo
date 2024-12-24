@@ -35,6 +35,8 @@ JWT es un estándar para la creación de tokens de acceso basado en JSON, para e
 
 Como te mencioné, el JWT puede guardar toda la información de la sesión, en lugar de guardarla en el servidor. Lo que te permite ahorrar muchísimo espacio en el servidor, sobre todo si tu sitio maneja una cantidad gigantesca de usuarios.
 
+{{<ad>}}
+
 ## Estructura de un Token JWT
 
 Un JWT (JSON Web Token) está dividido por puntos en tres partes: 

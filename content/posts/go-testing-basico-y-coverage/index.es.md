@@ -66,6 +66,8 @@ func Division(a int, b int) int {
 }
 ```
 
+{{<ad>}}
+
 ## Ejecutar los tests
 
 Para ejecutar los tests necesitamos encontrarnos dentro  del directorio donde se encuentran nuestros archivos terminados en _\_test.go_ y correr el comando _go test_. Si el test aprueba obtendremos la leyenda PASS.

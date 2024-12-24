@@ -42,6 +42,8 @@ Ironically my github looks like this:
 
 Yes, as you may know, not all developers are ~~fans of free software's Slavoj Žižek: Richard Stallman~~ so altruistic to contribute code to humanity without expecting anything in return, can we blame them?, aren't most companies being hypocritical? Do companies that use Github to evaluate their candidates put their code base as open source on Github?
 
+{{<ad>}}
+
 ## The fear of getting your code or ideas stolen
 
 Microsoft has never been known for its ethics when it comes to doing business, since its early days it has been involved in [code theft related rampages](https://www.wired.com/2012/08/ms-dos-examined-for-thef/#?). It has also kept that reputation alive with scandals such as:

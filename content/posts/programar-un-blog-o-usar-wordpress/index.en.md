@@ -23,6 +23,8 @@ The other day a person asked me why I use Wordpress for my blog if I could devel
 
 Certainly when using Wordpress you lose a lot of customization power, both at code and design level. I can only access what is already available, modifying the wordpress core would be a task that would not pay the right dividends. In the same way, by using Wordpress I am giving up new features in the programming world, such as SPA (out of the box, of course), SSR and other wonders that are probably not available for Wordpress. I also miss the pleasure of writing modifications using languages like javascript or Python, instead of PHP.
 
+{{<ad>}}
+
 ## What I earn by using wordpress
 
 Wordpress is a very popular system on the Internet and already has thousands of solutions to the most common problems. There are plugins to check my SEO, to correct my writing, to prevent comment spam, to integrate Wordpress automatically with MailChimp, to link post scheduling with social networks using hootsuite, to optimize images and thousands of templates made by designers much more talented than me. Yes, I know you could schedule all that too, but it's time consuming and that time could be used to write more posts or schedule other websites.

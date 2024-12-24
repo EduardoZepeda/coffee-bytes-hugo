@@ -179,6 +179,8 @@ impl<T: Display> Report<T> {
 }
 ```
 
+{{<ad>}}
+
 ## Rust no es tan difícil de aprender
 
 Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 

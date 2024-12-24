@@ -90,6 +90,8 @@ El método _os.path.join()_ se encarga de unir rutas en nuestro sistema operativ
 
 _os.getcwd()_ nos devuelve el directorio actual.
 
+{{<ad>}}
+
 ## Seleccionar una imagen al azar con random.choice()
 
 Obtendremos aleatoriamente la imagen por medio del método _random.choice()_, que selecciona una imagen al azar de todas las que obtuvimos con el list comprehension

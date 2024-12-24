@@ -109,6 +109,8 @@ Pon atención a la terminal para que aprecies las renderizaciones.
 
 Por otro lado, si remueves tanto memo como useCallback, sucederá lo mismo.
 
+{{<ad>}}
+
 ## Evitando renderizaciones con useMemo
 
 useMemo también puede ser usado para evitar renderizaciones. ¿Cómo? en la entrada anterior te mencioné que cada vez que un componente se renderiza se crean nuevos objetos, y estos objetos no son iguales, incluso aunque tengan las mismas propiedades, con los mismos valores.

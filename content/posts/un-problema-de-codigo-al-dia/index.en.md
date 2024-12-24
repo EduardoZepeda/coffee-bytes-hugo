@@ -23,6 +23,8 @@ The other day, one of the youtubers I follow recommended a page to receive algor
 
 To receive an algorithm problem, just send us an e-mail. The problems do not test your knowledge of syntax, nor the number of functions or libraries of any specific language, but your problem solving skills. The people in charge of the page (although I think it is only one) claim, **although there is no way to corroborate it**, that the problems presented are obtained from job interviews at Google, Twitter, Uber, Airbnb, Stripe, among others.
 
+{{<ad>}}
+
 ## My experience with challenges
 
 I subscribed to your list some time ago and currently receive your challenges by email. There are some that have taken me a couple of minutes to find the algorithm to solve and for others I have had to ponder the problem for several hours to come up with a solution. It's addictive, that's for sure.

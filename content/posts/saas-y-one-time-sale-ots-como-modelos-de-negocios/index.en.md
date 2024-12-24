@@ -35,6 +35,8 @@ As a result, many companies chose to distribute their software via CDs or other 
 
 Making payments over the internet was unusual, paypal didn't exist and there were no other companies offering the service, plus people were wary of the world of online transactions. I don't blame them, HTTPS didn't exist, let alone strong cryptographic standards to protect your personal data.
 
+{{<ad>}}
+
 ## The advent of SAAS, the recurring payment model and SAAS hell
 
 The landscape changed and the internet evolved, or maybe it's better to say it became corporatized. 

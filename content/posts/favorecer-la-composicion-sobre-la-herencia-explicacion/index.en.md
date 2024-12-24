@@ -30,6 +30,8 @@ To build our tiny cars, there are two ways:
 
 ![Image of different LEGO parts](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg "You start with pieces and start assembling your car. All rights for this image belong to LEGO")
 
+{{<ad>}}
+
 ## Composition over inheritance in a nutshell
 
 So, in a nutshell, **composition over inheritance means that it's often better to build things by putting smaller parts together rather than changing one big thing to make something new**.

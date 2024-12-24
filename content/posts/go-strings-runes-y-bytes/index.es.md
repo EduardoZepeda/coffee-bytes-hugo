@@ -35,6 +35,8 @@ Tabla ASCII con colores modificados tomada de [wikimedia](https://commons.wikime
 
 Sabiendo lo anterior, vayamos al tipo de dato byte.
 
+{{<ad>}}
+
 ## Bytes en go
 
 Un byte en go es sinónimo de un _uint8_, un unsigned int8. En otras palabras, 8 bits que podemos asignar de manera directa a diferentes notaciones. El hecho de que sea un tipo de dato _uint8_ nos permite usar cualquier número entre 0 y 255.

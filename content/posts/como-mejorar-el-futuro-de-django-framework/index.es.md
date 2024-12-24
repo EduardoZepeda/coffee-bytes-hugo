@@ -34,6 +34,8 @@ Sin embargo, según los usuarios de reddit, no hay mucho interés por parte de l
 
 {{<box type="info" message="En caso de que no lo sepas, los type hints te permiten declarar el tipo de una variable, argumento o el valor de retorno de una función para que sea más sencillo identificar los bugs o comportamientos no deseados. Piensa en los type hints de Python como el Typescript de Python, o como un tipado estático opcional de algún lenguaje compilado, como C, C++ o Rust." >}}
 
+{{<ad>}}
+
 ## Usar un User model personalizado en lugar del User model normal
 
 El segundo comentario que recibió más apoyo afirma que personalizar el modelo User de Django es bastante complicado, sobre todo si se hace a mediados de un proyecto, específicamente cambiar el tipo de login por defecto de Django, de usuario a correo electrónico.

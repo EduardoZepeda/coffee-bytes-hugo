@@ -28,6 +28,8 @@ pip install locust==2.2.3
 
 ```
 
+{{<ad>}}
+
 ## Configuración de locust
 
 Una vez instalado vamos a crear un archivo llamado, de manera obligatoria, _locustfile.py_ en nuestra aplicación y vamos a colocarle el siguiente código.

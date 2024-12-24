@@ -85,6 +85,8 @@ state
 
 Now you can hit ENTER, when you access the _state_ constant, you will see that it refers to the _state_ property, nested in the object.
 
+{{<ad>}}
+
 ## How to destructure more than one property?
 
 The previous example was not so complicated, but what if instead of a single property we want to destructure the value of _userIsLoggedIn_, _email_ and _state_.

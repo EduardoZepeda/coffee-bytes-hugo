@@ -25,6 +25,8 @@ history | grep "comando que buscamos"
 
 El comando history nos mostrará la lista de comandos usados, el carácter pipe "|" redirigirá el resultado al comando grep, el cual buscará la cadena de texto que le específiquemos.
 
+{{<ad>}}
+
 ## Comando CTRL + R
 
 Hay otra manera aún más sencilla de efectuar esta búsqueda. Este método es una combinación de teclas que, a pesar de su sencillez y facilidad de uso, no son muy populares, incluso entre los usuarios regulares de entornos GNU/Linux.

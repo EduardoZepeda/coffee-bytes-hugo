@@ -33,6 +33,8 @@ El agua que entra primero por la cubeta sale primero (FIFO). Si el flujo es sufi
 
 En el ejemplo anterior, las peticiones o requests, representan el agua; cualquier incremento excesivo de peticiones se desbordará y se perderán. Las peticiones que ya se encontraban en la cubeta abandonarán la cubeta primero, es decir, serán procesadas como van llegando (una cola FIFO).
 
+{{<ad>}}
+
 ## limit\_req\_zone establece los valores del throttling
 
 Vamos a abrir nuestro archivo de configuración para nuestro sitio web. Si usas la configuración por defecto está en _/etc/nginx/sites-enabled/default_ y colocaremos lo siguiente:

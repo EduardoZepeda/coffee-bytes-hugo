@@ -53,6 +53,8 @@ En esta categoría resaltan Heroku, Netifly, Vercel y otros.
 
 Ahora sí, pasemos a Digital Ocean.
 
+{{<ad>}}
+
 ## Droplets en Digital Ocean
 
 Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/)

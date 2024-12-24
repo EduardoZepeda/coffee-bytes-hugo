@@ -27,6 +27,8 @@ Ant design es hermosa, sí, no hay mucho que se pueda profundizar usando texto. 
 
 ![Captura de pantalla de ant design](images/Ant-design.gif)
 
+{{<ad>}}
+
 ## formik
 
 Formik es una librería genial. Esta librería consigue que trabajar con formularios sea sencillo y escalable. Te permite tener campos controlados, crear validaciones, resetear el formulario, establecer un estado, manejar errores, todo con unas cuantas lineas de código: definimos un objeto que contenga propiedades con sus respectivas validaciones y listo, formik se encarga de casi todo.

@@ -33,6 +33,8 @@ There are many types of APIs and new paradigms are appearing all the time, one o
 
 ![APIs timeline](images/timeline-de-APIs.png "REST paradigm was created around year 2000")
 
+{{<ad>}}
+
 ## What is a REST API?
 
 A REST API is an API that complies with the REST design standards (forgive the obviousness), but what is REST? REST is a style of architecture, which has to comply with a series of characteristics that I will talk about below.

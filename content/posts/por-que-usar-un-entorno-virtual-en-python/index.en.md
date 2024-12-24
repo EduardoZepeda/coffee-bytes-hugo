@@ -26,6 +26,8 @@ That same afternoon you decide to start working on the first project, Pro 2.2. L
 
 You decide it's okay, that's fine, so you decide to work like this. When you finish your Pro-newest Project you are so excited that you decide to show your colleague. He receives your files but swears to you that the code doesn't run, what went wrong? After a brief chat your friend explains that he has had Django 1.6 installed on his PC for years and hasn't updated it since then. Your project with the latest version of Django won't work on your friend's computer due to version incompatibilities. Wouldn't it be simpler if your friend could use the same version of Django as the project you want to show him? Without having to uninstall the version he already has.
 
+{{<ad>}}
+
 ## What if we use virtual machines?
 
 We could solve the above problem by installing a virtual machine, such as [virtualbox](https://www.virtualbox.org/). Inside each virtual machine we would be able to install the dependencies of our custom project. And we would have as many as projects. And it would work, wouldn't it? Well yes, but with a big disadvantage: you have to load a complete operating system to have some dependencies. It is too much load to our system to be practical.

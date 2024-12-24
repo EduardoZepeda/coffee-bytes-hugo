@@ -43,6 +43,8 @@ Cito una frase del primer recurso que, a mi parecer, resume bastante bien la dif
 
 Si aún así te parecen confusos y no entiendes la diferencia, dale una leída a esos posts y deberías estar listo para seguir adelante.
 
+{{<ad>}}
+
 ## Corrutinas en go
 
 Una [corrutina](https://es.wikipedia.org/wiki/Corrutina#?), en go, es **una función o método que se ejecuta concurrentemente junto con otras funciones o métodos**. En go, a las corrutinas se les conoce como **goroutines** o gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.

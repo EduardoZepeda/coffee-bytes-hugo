@@ -114,6 +114,8 @@ SELECT "my_app_derivado"."id",
     ON ("my_app_derivado"."principal_id" = "my_app_principal"."id")
 ```
 
+{{<ad>}}
+
 ## prefetch_related
 
 Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo *ManyToMany* o un *ForeignKey* inverso**.

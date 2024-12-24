@@ -26,6 +26,8 @@ When we want to move from one place to another for short distances we use a land
 
 When a person wants to create a vehicle that performs the function of transporting an object over land they will generally think of these elements and work on those elements to modify them to create something different or more sophisticated. This union of objects is a **design pattern**.
 
+{{<ad>}}
+
 ## Design Patterns in Software
 
 Now imagine that you want to have only one instance of a class running at a time, so you decide that the process for doing this is as follows: 

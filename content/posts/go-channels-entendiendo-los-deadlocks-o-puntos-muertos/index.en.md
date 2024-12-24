@@ -24,6 +24,8 @@ This error occurs when:
 
 In any of these cases the goroutines are "waiting" either to send or receive information, so we can say that we are "stuck" and that is when we receive the fatal error: all goroutines are asleep - deadlock!
 
+{{<ad>}}
+
 ## Blocking operations
 
 In go, operations that send or receive channel values are blocking inside their own goroutine (remember that the _main_ function is a goroutine), i.e., they keep code execution waiting:

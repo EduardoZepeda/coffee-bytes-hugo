@@ -101,6 +101,8 @@ El endpoint de login nos devuelve una key que usaremos como token
 
 Pero no hemos terminado. Hasta este momento podemos manejar usuarios pero no crearlos. Para eso usaremos la siguiente librería.
 
+{{<ad>}}
+
 ## Registro de usuarios con DRF
 
 Usaremos otra librería, esta vez llamada django-allauth.

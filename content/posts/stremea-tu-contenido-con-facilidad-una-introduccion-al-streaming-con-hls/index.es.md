@@ -41,6 +41,8 @@ Como seguramente ya sabrás, enviar el video completo a todos los usuarios serí
 
 ¿La solución? Streaming; un modelo de uso bajo demanda, donde cada usuario reciba solo lo que va consumiendo del material audio visual, un poco a la vez y si el usuario cierra el video no le enviamos el resto.
 
+{{<ad>}}
+
 ## Protocolos de streaming
 
 Antes de empezar debes saber que existen bastantes protocolos de streaming, cada uno con sus particularidades en las que puedes ahondar por tu cuenta:

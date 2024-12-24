@@ -53,6 +53,8 @@ INSTALLED_APPS = [
 ]
 ```
 
+{{<ad>}}
+
 ## Creación de un modelo
 
 Dentro de nuestra aplicación llamada _gallery_, vamos a crear un modelo con un campo de Imagen.

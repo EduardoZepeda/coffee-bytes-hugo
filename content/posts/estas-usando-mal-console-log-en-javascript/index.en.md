@@ -26,6 +26,8 @@ console.info("Texto con propósito informativo")
 
 ![Print with console.info in console](images/info.jpg)
 
+{{<ad>}}
+
 ## Displays warning messages
 
 _console.warn()_ displays a warning message, with yellow background

@@ -38,6 +38,8 @@ JWT is a standard for the creation of JSON-based access tokens for the exchange 
 
 As I mentioned to you, the JWT can store all session information, instead of storing it on the server. This allows you to save a lot of space on the server, especially if your site handles a huge amount of users.
 
+{{<ad>}}
+
 ## Structure of a JWT Token
 
 A JWT (JSON Web Token) is divided by points into three parts:

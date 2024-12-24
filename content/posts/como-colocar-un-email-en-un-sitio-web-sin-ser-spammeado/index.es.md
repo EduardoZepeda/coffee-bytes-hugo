@@ -26,6 +26,8 @@ Esta manera de proteger tu dirección de email no requiere una explicación deta
 
 La desventaja de esta aproximación es que la persona que desee mandarte un email tendrá que teclearlo manualmente, pues no puede hacer copy-paste, y ya sabes que cada paso extra añade fricción al proceso de conversión.
 
+{{<ad>}}
+
 ## Utiliza una notación diferente para el email
 
 En lugar de utilizar el clásico formato como *my@email.com*, cámbialo por algo menos obvio para los bots, como *my [at] email [dot] com*, de esta manera tu dirección no será detectada como un email por los bots menos sofisticados y si alguien quiere enviarte un email basta con reemplazar el *at* y el *dot* por sus símbolos correspondientes.

@@ -23,6 +23,8 @@ If you have been using computers for a long time, you are probably more familiar
 
 Docker is a tool that allows you to package an application and its dependencies in a lightweight container. It's as if you take a complete application with absolutely everything it needs to run so that you can seamlessly transport it to any other server with Docker installed, either for further development or for deploying. So, that's it? transporting code? I'm sure you'll tell me that's already done by virtual machines, [virtual environments](/en/why-should-you-use-a-virtual-environment-in-python/), zip files and pretty much any tool. Well yes, but I'm going to try to explain in a simple way what the issues are.
 
+{{<ad>}}
+
 ## What is Docker for?
 
 In order to explain what Docker is for, let's create a hypothetical multifaceted and multidisciplinary team.

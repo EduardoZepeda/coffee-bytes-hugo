@@ -41,6 +41,8 @@ app.view_modelo # Para ver modelos
 # vapor.view_videojuego
 ```
 
+{{<ad>}}
+
 ## Add or remove permissions to a user
 
 To add or remove permissions to a user we will make use of the methods provided by Django

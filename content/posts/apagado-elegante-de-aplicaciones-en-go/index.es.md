@@ -42,6 +42,8 @@ kill -<valor> <pid>
 // kill -2 1234
 ```
 
+{{<ad>}}
+
 ## Manejo de señales o signals en Go
 
 En go, cuando queremos escuchar las señales que envía el kernel de Linux, usamos el método Notify del paquete signal. El método Notify mandará nuestro signal por un canal, el cual recibirá como primer argumento. El segundo y el tercer argumento son las señales que escuchará nuestro método.

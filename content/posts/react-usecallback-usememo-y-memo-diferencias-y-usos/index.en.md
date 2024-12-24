@@ -66,6 +66,8 @@ A===B
 
 Even if two objects are the same and have the same properties and values, since they are located at different memory addresses, they are considered two different objects by JavaScript.
 
+{{<ad>}}
+
 ## Object creation in React
 
 The above applies exactly the same in React. **Every time React creates a function it is creating a new object**, different from the previous one, even if they fulfill the same function, line by line.

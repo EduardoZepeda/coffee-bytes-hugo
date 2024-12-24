@@ -34,6 +34,8 @@ De ahí que cuando un desarrollador web lanza sus proyectos personales, suele ig
 
 ![Web development in assembly meme](images/web-development-assembly.webp "Dicen por ahí que solo los verdaderos programadores programan en lenguajes de bajo nivel")
 
+{{<ad>}}
+
 ## Mis errores al migrar un sitio web sin considerar el SEO
 
 Cuando migré el blog lo primero que ignoré fueron las múltiples consecuencias de hacerlo abruptamente. Para empezar el sitemap, posteriormente la estructura de las URL y por último, como cereza del pastel, la ausencia de un schema.

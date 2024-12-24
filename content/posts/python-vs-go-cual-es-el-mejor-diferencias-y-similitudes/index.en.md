@@ -36,6 +36,8 @@ Both languages are characterized by fast code production.
 
 The **compilation of go is extremely fast** and, although it might be slightly slower to run than if you were using C++ or Rust, product development and MVPs should take less time than with those languages.
 
+{{<ad>}}
+
 ## Which one is faster Python vs Go?
 
 The comparison here is going to become somewhat unfair, but I'll make it anyway: **Go is blazingly fast compared to Python**. The above difference is explained by the fact that Go is compiled, while Python is interpreted.

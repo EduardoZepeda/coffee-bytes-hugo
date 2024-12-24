@@ -31,6 +31,8 @@ This book is constantly being updated to the most modern version of Django at th
 
 One feature of the book that I would like to highlight is the writing of tests of the progress made throughout each chapter, this is something that I have seen **in few books** and that I believe should **become the norm** in all programming books. If you are unaware of the purpose of the tests or consider them unnecessary, give me a chance to try to convince you otherwise in my post on [Python unnitest and testing](/en/unittest-python-are-python-tests-worthwhile/).
 
+{{<ad>}}
+
 ## My opinion about Django for Professionals
 
 Regarding the content, it seems to me that it lacks a little more depth in the deploy and take into account other options, apart from Heroku. It also does not mention Django Rest Framework or Graphene, although this could be because they are covered in his other book: Django for APIS. I feel that, for a Django book for professionals, it does not go deep enough into the framework.

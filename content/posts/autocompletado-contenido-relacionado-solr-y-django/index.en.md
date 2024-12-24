@@ -30,6 +30,8 @@ HAYSTACK_DEFAULT_OPERATOR = 'AND'
 HAYSTACK_DEFAULT_OPERATOR = 'OR'
 ```
 
+{{<ad>}}
+
 ## Search by specific field with Solr
 
 If we want to limit our search to a specific field of the object we define as index we simply pass it as a parameter, together with the text string to search.

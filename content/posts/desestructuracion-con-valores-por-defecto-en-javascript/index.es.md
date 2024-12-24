@@ -46,6 +46,8 @@ if(accountType==='basic'){
 
 Bien pues para evitar que suceda eso podemos asignar un valor por defecto cuando la desestructuración no encuentre la propiedad que queremos desestructurar. Si estás siguiendo este ejemplo recuerda limpiar la terminal de javascript y volver a declarar el objeto principal o tendrás un error.
 
+{{<ad>}}
+
 ## Asignar un valor por defecto al desestructurar un objeto
 
 Esta vez declaremos el objeto user sin la propiedad _accountType_:

@@ -100,6 +100,8 @@ Mientras que una respuesta para recursos múltiples es así:
 
 ¿A quien hacerle caso? Como puedes ver diferencias entre compañias y no se si me atrevería a decirte que una u otra es correcta, pero considero que si te mantienes constante en cada uno de tus endpoints y lo documentas bien, no deberías tener problemas.
 
+{{<ad>}}
+
 ## ¿URLs relativas o completas en HATEOAS?
 
 ¿Recuerdas que HATEOAS es una [característica de las APIs REST](/es/caracteristicas-basicas-de-una-api-rest/)? Pues, según lo que he investigado, no hay un consenso claro ni una postura oficial sobre si es mejor incluir URLs relativas o completas. Hay mucho debate al respecto en stackoverflow, pero microsoft usa URLs completas en sus respuestas, tómalo en cuenta cuando diseñes tu API REST.

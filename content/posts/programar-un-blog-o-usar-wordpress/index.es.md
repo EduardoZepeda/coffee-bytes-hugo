@@ -25,6 +25,8 @@ El otro día una persona me preguntó que porqué use Wordpress para mi blog si 
 
 Ciertamente al usar Wordpress se pierde muchísimo poder de personalización, tanto a nivel código como a nivel diseño. Solamente puedo acceder a lo que ya hay disponible, modificar el núcleo de wordpress sería una tarea que no pagaría los dividendos adecuados. De la misma manera, al usar Wordpress estoy renunciando a características nuevas del mundo de la programación, como las SPA (out of the box, claro), SSR y otras maravillas que probablemente no están disponibles para Wordpress. Así mismo me pierdo del placer de escribir modificaciones usando lenguajes como javascript o Python, en lugar de PHP.
 
+{{<ad>}}
+
 ## Lo que gano al usar wordpress
 
 Wordpress es un sistema bastante popular en internet y ya cuenta con miles de soluciones a los problemas más comunes. Hay plugins para revisar mi SEO, corregir mi redacción, para prevenir el spam en comentarios, para integrar Wordpress automáticamente con MailChimp, para vincular la programación de entradas con redes sociales usando hootsuite, para optimizar imágenes y miles de plantillas hechas por diseñadores mucho más talentosos que yo. Sí, yo sé que se podría programar todo eso también, pero consume tiempo y ese tiempo podría utilizarlo para escribir más entradas o programar otros sitios web.

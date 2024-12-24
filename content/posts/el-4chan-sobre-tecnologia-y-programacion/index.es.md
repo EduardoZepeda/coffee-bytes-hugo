@@ -43,6 +43,8 @@ Aquí se discute sobre tecnología en general, desde diferentes SO (BSD, GNU/Lin
 
 Este board es bastante peculiar, pues no se permite el uso de texto, solo imágenes, toda comunicación se lleva a cabo utilizando técnicas esteganográficas, así es, texto escondido en imágenes. Navegar por este board te hará sentir como si estuvieras en una novela de Dan Brown.
 
+{{<ad>}}
+
 ## La pequeña Lain-chan
 
 El nombre del sitio web es [Lain chan](https://www.lainchan.org), nombrado así por la serie llamada Serial Experiments Lain; una de las series de culto e ícono representativo del cyberpunk. Ten en cuenta que, como la mayor parte del contenido de internet, el sitio está en inglés, por lo que probablemente no se te reciba bien si intentas comunicarte en una lengua diferente a esta.

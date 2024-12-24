@@ -31,6 +31,8 @@ Te decides a hacer el testeo de tu aplicación con las nuevas versiones, pero te
 
 Tox te permite probar tu código en diferentes entornos, con Python 2.7, Python 3.5, Python 3.6, Python 3.7, con las versiones que tu prefieras. De esa manera podrás probar con que versiones de Python funciona tu código automáticamente y escribirlo en la documentación de tu aplicación.
 
+{{<ad>}}
+
 ## Como instalar y usar tox
 
 Vamos a probar brevemente la funcionalidad de Tox. Para empezar instala Tox, si puedes hacerlo en un entorno virtual mucho mejor.

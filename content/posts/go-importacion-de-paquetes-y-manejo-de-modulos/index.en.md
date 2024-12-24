@@ -88,6 +88,8 @@ import (
 )
 ```
 
+{{<ad>}}
+
 ## Remote modules in Go
 
 ### The go module handler

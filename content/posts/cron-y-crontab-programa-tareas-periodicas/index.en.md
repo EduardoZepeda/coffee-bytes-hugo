@@ -89,6 +89,8 @@ And finally, this configuration would execute the command on December 30 at 6:00
 
 Confused? It's normal, I think it takes a little time. Anyway at the end of this post I share with you a great tool to make it easier for you to create and understand these configurations.
 
+{{<ad>}}
+
 ## Some more complex examples
 
 Maybe we want something more complex than the previous examples, what if we have a script that is in charge of paying employees and we want it to run every 1st and 15th of each month? **In crontab we can separate as many values as we want using commas**.

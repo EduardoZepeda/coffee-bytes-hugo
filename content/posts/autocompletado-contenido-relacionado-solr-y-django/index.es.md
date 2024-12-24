@@ -34,6 +34,8 @@ HAYSTACK_DEFAULT_OPERATOR = 'AND'
 HAYSTACK_DEFAULT_OPERATOR = 'OR'
 ```
 
+{{<ad>}}
+
 ## Búsqueda por campo específico con Solr
 
 Si queremos limitar nuestra búsqueda a un campo específico del objeto que definimos como índice simplemente se lo pasamos como parámetro, junto con la cadena de texto a buscar.

@@ -54,6 +54,8 @@ fmt.Println(myVideogame)
 // {Nier 0}
 ```
 
+{{<ad>}}
+
 ## Campos anónimos en structs
 
 En go, es posible no declarar el nombre del campo de nuestro struct y colocar únicamente el tipo de dato. Hecho así, los campos adoptarán el nombre del tipo de dato y podemos acceder a ellos usándolos.

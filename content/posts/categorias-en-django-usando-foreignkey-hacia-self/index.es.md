@@ -37,6 +37,8 @@ class Member(models.Model):
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
 ```
 
+{{<ad>}}
+
 ## Una subcategoría o nivel por modelo
 
 A lo que me refería con una categoría o nivel por modelo es a algo como esto:

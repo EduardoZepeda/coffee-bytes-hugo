@@ -51,6 +51,8 @@ Hay tres tipos de herencia disponible y cada uno se comporta de manera diferente
 
 Para este ejemplo estaré usando la versión de Django 3.1 y Python 3.7
 
+{{<ad>}}
+
 ## Herencia Abstracta
 
 Este tipo de herencia nos permite poner una variedad de campos en común que deseamos que incluyan los modelos que hereden de este. Para definir un modelo como Abstracto basta con agregar la clase _Meta_ que contenga un atributo llamado _abstract_ igual a _True_. **Django no va a crear ninguna tabla** para un modelo con _Meta.abstract = True_.

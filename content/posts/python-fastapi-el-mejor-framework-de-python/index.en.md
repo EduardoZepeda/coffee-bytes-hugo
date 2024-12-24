@@ -55,6 +55,8 @@ According to information provided by Techempower, **FastAPI is tremendously fast
 
 But how about its compatibility with newer versions of Python?
 
+{{<ad>}}
+
 ## Typing and asynchronism in Python
 
 FastAPI is fully compatible with the typing and asynchronism of the latest versions of Python.

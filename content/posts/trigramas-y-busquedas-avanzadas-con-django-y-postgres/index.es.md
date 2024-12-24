@@ -38,6 +38,8 @@ La razón de que parfume se parezca a perfume es porque ambos contienen trigrama
 
 Trigramas son tres caracteres consecutivos
 
+{{<ad>}}
+
 ## Trigramas y palabras similares
 
 Según [Postgres](https://www.postgresql.org/docs/12/pgtrgm.html), **podemos saber que tan similares son dos cadenas de texto comparando el número de trigramas que comparten.** Y Django nos provee funciones para trabajar con trigramas.

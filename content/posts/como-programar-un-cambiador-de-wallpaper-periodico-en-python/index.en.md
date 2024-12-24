@@ -74,6 +74,8 @@ os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".f
 os.system("gsettings set org.gnome.desktop.background picture-uri-dark 'file://{}'".format(random_wallpaper))
 ```
 
+{{<ad>}}
+
 ## Schedule wallpaper change with Cron and Crontab
 
 Once this is done, we are ready to add our script to Crontab.

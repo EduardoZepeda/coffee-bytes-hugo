@@ -65,6 +65,8 @@ func Division(a int, b int) int {
 }
 ```
 
+{{<ad>}}
+
 ## Execute tests
 
 To run the tests we need to find ourselves inside the directory where our files ending in __test.go_ are located and run the _go test_ command. If the test passes we will get the PASS message.

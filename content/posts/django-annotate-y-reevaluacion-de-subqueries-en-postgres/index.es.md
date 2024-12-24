@@ -71,6 +71,8 @@ print(qs.query)
 
 ¿Cómo se soluciona esto? Pues una de las maneras de arreglar esta consulta SQL es utilizar las Common Table Expressions (CTEs), sin embargo, a la fecha en la que escribo esto, **Django no tiene soporte para las Common Table Expressions (CTEs)**, por lo que tendremos que utilizar una raw query en lugar de los métodos que ya provee el ORM de Django.
 
+{{<ad>}}
+
 ## Usar Common Table Expressions (CTEs) para mejorar el rendimiento de annotate y subqueries 
 
 La solución es crear una raw query, recuerda que las versiones modernas de django puedes usar el método raw de tu [model manager]({{< ref path="/posts/managers-o-manejadores-personalizados-en-django/index.md" lang="es" >}}) para que Django automáticamente lo asigne a un objeto queryset de tu respectivo modelo

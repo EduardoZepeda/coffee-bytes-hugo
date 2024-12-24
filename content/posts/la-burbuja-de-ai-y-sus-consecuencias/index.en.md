@@ -32,6 +32,8 @@ If you've been ~~doom~~ scrolling on social media, you'll know that influencers 
 
 In this AI fever, entrepreneurs are becoming ~~even more~~ elitist, by which I mean that all those business ideas that don't use AI are ipso facto discarded. "To use AI" has been added to the checklist of any company that wants to go to market and this, to me, is what creates this AI bubble.
 
+{{<ad>}}
+
 ## Investors' greed and consumers' ignorance are guilty of The AI bubble
 
 It is enough for a company to use AI to grant it with an unknown magic that makes it irresistible to the general public, and also to investors. And this because a simple reason: as a society we do not understand how AI works internally, we do not understand the statistics behind it and we endow it with the mysticism of magic.

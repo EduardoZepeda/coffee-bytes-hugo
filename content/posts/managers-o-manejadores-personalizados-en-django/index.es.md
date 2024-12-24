@@ -32,6 +32,8 @@ Si has usado el ORM de Django, seguramente ya habrás usado el manager por defec
 Videogame.objects.all()
 ```
 
+{{<ad>}}
+
 ## Modificando el manager por defecto
 
 Quizás queremos tener dos managers, uno que devuelva todos los objetos y otro que devuelva los objetos más recientes, o los objetos creados por un usuario en particular, o los objetos filtrados por un termino.

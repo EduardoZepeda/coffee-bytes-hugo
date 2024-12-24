@@ -53,6 +53,8 @@ const email = userData.email
 
 Ahora ya podemos acceder a las constantes individualmente sin hacer referencia al objeto. Pero, ¿no estamos repitiendo userData en cada asignación?
 
+{{<ad>}}
+
 ## Desestructuración de un objeto en javascript
 
 Para desestructurar el objeto del ejemplo anterior, podemos usar la siguiente sintaxis:

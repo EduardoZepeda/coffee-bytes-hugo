@@ -32,6 +32,8 @@ log.Println("Mensaje")
 
 El método Println de log se comporta exactamente igual que el de la [librería fmt](/es/go-funciones-argumentos-y-el-paquete-fmt/), por lo que puedes pasarle múltiples parámetros y los imprimirá uno a uno.
 
+{{<ad>}}
+
 ## Flags en el loggeo
 
 Es posible cambiar el formato por defecto en el que se muestran los mensajes, cambiar el orden de los elementos o agregarle más información, llamando al método SetFlags y pasándole como argumentos cualquiera que aparezca en una serie de flags que nos provee go.

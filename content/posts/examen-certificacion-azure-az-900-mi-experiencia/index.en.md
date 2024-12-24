@@ -29,6 +29,8 @@ For practical purposes, it prepares you to serve as an intermediary who recommen
 
 To achieve the above you need to know the basic architecture of Azure, its different services: compute, storage, artificial intelligence, etc., their special features, differences, and their respective use cases.
 
+{{<ad>}}
+
 ## My examination process
 
 The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting. That wasn't my case though.

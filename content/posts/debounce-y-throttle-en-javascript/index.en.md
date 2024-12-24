@@ -46,6 +46,8 @@ This function uses a closure to access the variable timeout. What is timeout? ti
 
 But now pay attention to the clearTimeout. Every time we call the debounce function it will clear any scheduled function, so the only way for our callback to run is to wait for the time we passed as an argument.
 
+{{<ad>}}
+
 ## Throttling pattern
 
 The throttling pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.

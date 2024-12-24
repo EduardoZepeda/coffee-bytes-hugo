@@ -30,6 +30,8 @@ Para fines prácticos, te prepara para que sirvas como un intermediario que le r
 
 Para conseguir lo anterior necestas conocer la arquitectura básica de Azure, sus diferentes servicios: computo, almacenamiento, inteligencia artificial, etc., sus características especiales, diferencias, y sus respectivos casos de uso.
 
+{{<ad>}}
+
 ## Mi proceso de examen
 
 El examen se llevó a cabo a través de la plataforma [Evaluaasi](https://www.evaluaasi.com/), a través de la cual descargas un programa que se conecta a un escritorio remoto para la realización al examen. Este programa monitoreará tu computadora y dispositivos conectados, probablemente para evitar que un usuario haga trampa de alguna manera; he escuchado que algunos procesos de evaluación son tan estrictos que solicitan ver la habitación en la que realizarás el examen antes de comenzar.

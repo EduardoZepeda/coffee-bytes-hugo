@@ -36,6 +36,8 @@ I didn't like university (in general, not only my career I chose), I found it sl
 
 I finished my degree and **graduated in the top three GPAs of my class**. However, after a cursory glance at the available workplaces in my hometown, I decided never to practice.
 
+{{<ad>}}
+
 ## Supercell and Miku Hatsune
 
 One afternoon I was researching about a Japanese band called [Supercell](https://www.supercell.jp/english.html/#?) on the internet. Supercell was a rather peculiar band, their vocalist was a computer program called Vocaloid, a software that borrowed the voice of [Saki Fujita](https://es.wikipedia.org/wiki/Saki_Fujita/#?) to create a virtual singer, named Miku Hatsune. Vocaloid allowed its users to use Miku Hatsune as their personal vocalist, modulating tones, beats and syllables.

@@ -34,6 +34,8 @@ Solr funciona con un índice invertido. Es bastante similar al índice que apare
 
 ![Indice invertido de solr](images/solr-indice-invertido.jpg)
 
+{{<ad>}}
+
 ## Ventajas y desventajas de Solr
 
 ### Ventajas de Solr

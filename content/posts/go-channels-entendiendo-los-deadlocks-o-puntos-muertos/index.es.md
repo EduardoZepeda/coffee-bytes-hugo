@@ -28,6 +28,8 @@ Este error sucede cuando:
 
 En cualquiera de estos casos las goroutines se quedan "esperando" ya sea mandar o recibir información, por lo que se puede decir que estamos "atascados" y es entonces cuando recibimos el error fatal error: all goroutines are asleep - deadlock!
 
+{{<ad>}}
+
 ## Operaciones bloqueantes
 
 En go, las operaciones que mandan o reciben valores de canales son bloqueantes dentro de su propia goroutine (recuerda que la función _main_ es una goroutine), es decir, mantienen la ejecución del código en espera :

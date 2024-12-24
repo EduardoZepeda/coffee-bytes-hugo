@@ -60,6 +60,8 @@ Installing collected packages: virtualenv
 Successfully installed virtualenv-16.7.2
 ```
 
+{{<ad>}}
+
 ## Crear un entorno virtual en python
 
 Para crear un entorno virtual utilizaremos el comando _virtualenv_, especificaremos una version de _Python_ con la opción _\-p_ y le daremos un nombre a nuestro entorno virtual, por razones de simplicidad lo llamaré _'virtual'_, pero puedes llamarlo como quieras.

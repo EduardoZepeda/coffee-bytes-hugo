@@ -108,6 +108,8 @@ SELECT "my_app_derivative"."id",
     ON ("my_app_derivative"."main_id" = "my_app_main"."id")
 ```
 
+{{<ad>}}
+
 ## prefetch_related
 
 If the *select_related* method retrieves a single object from a single relationship field, **the *prefetch_related* method is used when we have a multiple relationship with another model**, i.e. a relationship of type _ManyToMany_ or a reverse _ForeignKey_.

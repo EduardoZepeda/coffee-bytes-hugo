@@ -40,6 +40,8 @@ Here we discuss technology in general, from different OS (BSD, GNU/Linux, Window
 
 This board is quite peculiar, as it does not allow the use of text, only images, all communication is carried out using steganographic techniques, that is, text hidden in images. Navigating through this board will make you feel as if you were in a Dan Brown novel.
 
+{{<ad>}}
+
 ## Little Lain-chan
 
 The name of the website is [Lain chan](https://www.lainchan.org), named after the series called Serial Experiments Lain; one of the cult series and representative icon of cyberpunk. Please note that, like most of the content on the Internet, the site is in English, so you will probably not be received well if you try to communicate in a language other than English.

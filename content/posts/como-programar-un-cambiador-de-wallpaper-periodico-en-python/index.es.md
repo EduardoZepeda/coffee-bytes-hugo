@@ -67,6 +67,8 @@ random_wallpaper = os.path.join(os.getcwd(), random.choice(list_of_images))
 os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".format(random_wallpaper))
 ```
 
+{{<ad>}}
+
 ## Programar el cambio de wallpaper con Cron y Crontab
 
 Una vez hecho esto estamos listo para agregar nuestro script a Crontab

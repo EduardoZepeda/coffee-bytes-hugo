@@ -121,6 +121,8 @@ multiples(1, 2, 3, 4, 5)
 
 There, that concludes my summary of the functions. Now let's move on to one of go's essential packages, the fmt package.
 
+{{<ad>}}
+
 ## fmt package
 
 This package is the one you will normally use to print statements on the screen and, I can see it in the future, the one you will use incorrectly for debugging.

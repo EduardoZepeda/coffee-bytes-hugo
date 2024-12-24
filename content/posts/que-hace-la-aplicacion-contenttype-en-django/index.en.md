@@ -26,6 +26,8 @@ Before we start, if you have no idea what Django is for, visit my post where I t
 
 ContentTypes is a special **Django model that registers each of the models that exist** within our application, both those that we create and those that are installed by default.
 
+{{<ad>}}
+
 ## What is ContentType used for?
 
 ContentType **serves to relate models with other models**, as if it were a foreign key, but with the advantage that the type of model with which we relate it can be different for each table entry.

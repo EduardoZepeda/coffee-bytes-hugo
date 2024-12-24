@@ -37,6 +37,8 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 ![Linea del tiempo de APIs](images/timeline-de-APIs.png "REST data del año 2000")
 
+{{<ad>}}
+
 ## ¿Qué es una API REST?
 
 Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la obviedad), Pero, ¿qué es REST? REST es un estilo de arquitectura, que tiene que cumplir una serie de características de las que te hablo a continuación.

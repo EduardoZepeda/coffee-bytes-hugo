@@ -31,6 +31,8 @@ Podemos dividir la reflexión de Go en dos tipos de datos importantes:
 * **Type**: El tipo de dato de Go, a partir del cual se desglosan todos la información del tipo de dato, su clase, su nombre, tamaño, etc.
 * **Value**: El valor del dato de Go, con métodos para modificar los datos de un objeto.
 
+{{<ad>}}
+
 ## Tipo de dato: Type y TypeOf
 
 *Type* es el **tipo de dato más importante en el paquete reflect** ya que representa al objeto en memoria y guarda toda la meta información de nuestros objetos: su tipo, representación, métodos y campos.

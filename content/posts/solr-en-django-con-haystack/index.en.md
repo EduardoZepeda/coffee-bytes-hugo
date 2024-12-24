@@ -34,6 +34,8 @@ Solr works with an inverted index. It is quite similar to the index that appears
 | Functional | 5,6       |
 | Rust       | 3         |
 
+{{<ad>}}
+
 ## Advantages and disadvantages of Solr
 
 ### Advantages of Solr

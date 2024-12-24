@@ -61,3 +61,5 @@ if(flyLength > limitValueFly){
 Now the code is much more descriptive and your colleagues, not as enlightened as you, will be able to understand it.
 
 But hey, nice and all, but what if my objects have other nested objects and I want to get a value from them. Well we can also [destructure nested objects](/en/destructuring-nested-objects-in-javascript/), in the I will briefly explain how to do it.
+
+{{<ad>}}

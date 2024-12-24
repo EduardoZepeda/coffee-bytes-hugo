@@ -36,6 +36,8 @@ Look at this super-simplified schematic comparing compiled and interpreted langu
 
 In this scheme I am referring to Javascript at the time of its creation, as an interpreted language, not to the **JIT compilation** I was telling you about.
 
+{{<ad>}}
+
 ## Which language is more mature, Python and Javascript?
 
 Python appeared in the late 1980s, while Javascript appeared in the early 1990s, so **Python is older** than Javascript.

@@ -42,6 +42,8 @@ The EasyWP installation is not a normal installation, it is a preconfigured inst
 
 After a couple of hours of research I realized that implementing an SSL certificate from Let's encrypt was impossible, and that this problem was a recurring situation on the namecheap forums. In order not to waste more time than necessary on such a trivial task my SO decided to throw money at the problem and buy an SSL certificate directly from namecheap. What a disappointment.
 
+{{<ad>}}
+
 ## EasyWP has problems with some plugins
 
 The following problem occurred when my SO decided to customize the appearance of her blog using [GeneratePress](https://generatepress.com/?ref=2020). GeneratePress is a plugin that has a library of sites, these can be taken as a starting point to start modifying them. [GeneratePress](https://generatepress.com/?ref=2020) works perfectly on my site. However, because of EasyWP, an "error 400" appears on the screen when trying to install a theme from the library of sites. The theme loads, but with numerous errors, no images and a faulty CSS that behaves differently when compared to the preview of the same theme. Once again we investigated in the forums and in the search engine, resulting in a couple of threads in the forums, both unsolved, by an annoyed customer. We contacted customer service but they were unable to fix the error.

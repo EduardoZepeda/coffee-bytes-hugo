@@ -35,6 +35,8 @@ Sin más dilación, qquí te dejo mi top 5 de *katas*. Estas *katas* **No son ne
 
 Por cierto, **no, no voy a poner las respuestas**, esas te tocan a ti.
 
+{{<ad>}}
+
 ## Multi Line Task++: Hello World
 
 Necesitas escribir una función que retorne el string "Hello, world!" en Javascript.

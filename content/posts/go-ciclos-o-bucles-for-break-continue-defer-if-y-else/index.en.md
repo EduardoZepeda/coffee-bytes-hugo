@@ -53,6 +53,8 @@ if edad < 18 {
 }
 ```
 
+{{<ad>}}
+
 ## Loops for in go
 
 In go **there are several types of for** loops: counter, conditional, range and infinite.

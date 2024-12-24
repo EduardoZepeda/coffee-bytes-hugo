@@ -54,6 +54,8 @@ Sometimes when we have no idea about algorithms we ask ourselves, what does it m
 
 But now let's ask ourselves, what will happen when the number of users increases to 1000, to 10 000, to 10 000 000, that's when milliseconds can turn into hours or days, and then we get a glimpse of the real importance of choosing an algorithm with adequate performance.
 
+{{<ad>}}
+
 ## How to evaluate or read Big O performance?
 
 To evaluate this performance, a notation called Big O is used. It tells us how the execution time of an algorithm will behave as a function of its input.

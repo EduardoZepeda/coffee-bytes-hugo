@@ -44,6 +44,8 @@ printenv LANG
 es_MX.UTF-8
 ```
 
+{{<ad>}}
+
 ## export
 
 Export allows us to create an environment variable. This environment variable will be available during our session in the terminal. When you close the terminal the variable disappears.

@@ -31,6 +31,8 @@ Lo primero será instalar reportlab, podemos usar pip, pipenv o cualquier otro g
 pip install reportlab
 # pip install reportlab
 ```
+{{<ad>}}
+
 ## Definir tipo de respuesta PDF en Django
 
 Una vez instalado vamos, las primeras lineas que escribiremos serán para asegurarnos de que el navegador sepa que le devolveremos un pdf, lo haremos por medio de una cabecera HTTP, la cabecera Content-Type, por medio de la variable *content_type*

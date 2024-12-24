@@ -26,6 +26,8 @@ El nombre del libro en español es _Inmersión en Python 3_, es una traducción 
 
 El lenguaje del libro es bastante sencillo, los ejercicios están muy bien explicados y la traducción es excelente; bastante fiel a la fuente original. Los ejemplos de código están muy cuidados e incluso algunos nombres de funciones y variables están traducidos, para hacer más legible el código a aquellas personas que no dominan el idioma inglés. Los errores de traducción son mínimos, prácticamente insignificantes y palidecen ante el gran trabajo de traducción hecho por el Sr. José Miguel González.
 
+{{<ad>}}
+
 ## ¿Qué temas se ven en el libro?
 
 Este libro es una introducción al lenguaje, pensada para explicar el lenguaje y sus matices desde cero. Los primeros capítulos tratan sobre la instalación del lenguaje en los principales sistemas operativos, así como su sintaxis. Tras un par de capítulos, el autor nos desarrolla el tema del manejo de los datos nativos de Python; booleanos, números, listas, tuplas, conjuntos, diccionarios, así como sus métodos más comunes. Al terminar la breve introducción al lenguaje, el autor nos da un paseo por conceptos más avanzados tales como:

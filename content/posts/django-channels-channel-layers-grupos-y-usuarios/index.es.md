@@ -70,6 +70,8 @@ CHANNEL_LAYERS = {
 }
 ```
 
+{{<ad>}}
+
 ## Broadcasting con un channel o consumer
 
 Tras agregar la configuración anterior, toca modificar nuestro _consumer_ para que envíe mensajes al resto de conexiones. En la entrada anterior te expliqué que **cada consumer tiene las propiedades _channel\_layer_ y _channel\_name_**, que se refieren al channel layer al que pertenecen y su propio nombre, respectivamente. Usaremos esas propiedades para obtener el channel layer al que pertenece y su nombre.

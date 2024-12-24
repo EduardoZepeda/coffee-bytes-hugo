@@ -25,6 +25,8 @@ If you don't know the advantages and disadvantages that Django offers, visit my 
 
 The first project proposed by Django by Example is the classic example of a simple blog, with authors and posts. The author designs a blog and they teach you the basics of Django, models, views, urls and templates, you know, the basics. As an aspect to highlight is pagination of the models and how to integrate it into the template system using Jquery. In a few words we are in front of the basic Django tutorial of the documentation but with books instead of surveys.
 
+{{<ad>}}
+
 ## Social network
 
 The next project is a social network similar to Pinterest, where you save images from other websites to share them later using Jquery, this social network has a user tracking system (similar to Facebook, in case you want to compete with it). For this chapter the author delves into forms, model-based forms, handling email sending, creating custom labels, filters for the template system, and using Django's built-in authentication and session system. More advanced topics include creating a sitemap, advanced search using [Solr](https://lucene.apache.org/solr/) and [Haystack](https://haystacksearch.org/), redis and Django signals.

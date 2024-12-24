@@ -21,6 +21,8 @@ I am one of those who believe that **the less sensitive information a third part
 
 Who hasn't heard of massive leaks of user data at even the largest companies? For this reason I prefer to keep my passwords inside my computer and using a program whose source code is visible to anyone who wants to examine it.
 
+{{<ad>}}
+
 ## keepassxc
 
 keepassxc is the program I prefer to manage passwords. The code can be found at [the keepassxc page](https://keepassxc.org/) you can download it or compile it directly from their repositories.
