@@ -1,0 +1,38 @@
+{{/* Load the ads dictionary from the data directory */}}
+{{ $ads := $.Site.Data.ads_data }}
+{{/* Detect the current page's language */}}
+{{ $lang := .Page.Language.Lang }}
+{{ $langAds := index $ads $lang }}
+{{/* Fallback to English if no ads exist for the detected language */}}
+{{ if not $langAds }}
+  {{ $langAds = index $ads "en" }}
+{{ end }}
+
+{{/* Loop through categories and display ads */}}
+{{ range .Page.Params.categories }}
+  {{ $ad := index $langAds . }}
+  {{ if $ad }}
+    <div class="affiliate-link">
+      <div class="affiliate-heading">
+        <h2>{{$ad.title}}</h2>
+        <span class="affiliate-badge">{{ i18n "ad" }}</span>
+      </div>
+      <p>{{$ad.description}}</p>
+      <p><a rel="nofollow noopener sponsored" class="markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
+    </div>
+  {{ end }}
+{{ end }}
+
+
+<style>
+  .affiliate-heading {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .affiliate-badge{
+    opacity: 0.7;
+    font-size: 0.95rem;
+  }
+
+</style>

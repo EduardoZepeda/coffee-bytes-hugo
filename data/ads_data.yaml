@@ -1,0 +1,188 @@
+---
+en:
+  algorithms:
+    description: When people start coding, they usually start learning a language's syntax, but most languages' syntax are quite similar, what matters the most is mastering algorithms and data structures, the slowest language (sorry Python) with a good algorithm can surpass the fastest language with a bad algorithm. Educative has some good courses on that, certificate included
+    link: https://www.educative.io/courses/ds-and-algorithms-in-python?aff=xkQr
+    linkText: I want to know more about algorithms and data structures
+    title: Algorithms and data structures can make the difference
+  artificial intelligence:
+    description: There is no secret that artificial intelligence is gaining a lot of traction in today's society (I'm kinda worried about this to be honest, I even wrote a few entries about it), if you're interested in Artificial intelligence, maybe you should consider learning,  intelligent agents, nature-inspired algorithms, there are some interesting course out there for a few bucks.
+    link: https://www.educative.io/courses/artificial-intelligence-foundations?aff=xkQr
+    linkText: I want to know more about AI
+    title: Artificial intelligence is here to stay
+  databases:
+    description: 'If you''re starting with databases and backend, let me tell you something: forget about non-relational databases for now, start with SQL and thank me later. First earn how to perform SELECTS, INSERTS, UPDATES, DELETES, JOINS and all the other functions first, and if you''re too lazy to look for a good, well structured and sequential tutorial check the ones on educative, certificate included.'
+    link: https://www.educative.io/courses/getting-started-sql-relational-databases?aff=xkQr
+    linkText: I want to learn SQL
+    title: SQL was the alpha and it will be the omega
+  django:
+    description: To master Django you must understand how it works, how a HTTP request goes to the router, which pass the request data to the appropiate function (or class) and then how you can Django's ORM to interact with the database and return a response if you want a detailed explanation of each step, educative has a course on that, certificate included, and Python is covered (in case you don't know Python) link below.
+    link: https://www.educative.io/path/become-a-django-developer?aff=xkQr
+    linkText: I want to know more about the Django's full course
+    title: Need to learn everything Django has to offer?
+  docker:
+    description: If you're looking to learn Docker so you can work as a devops engineer or as the basis for learning kubernetes, you need to learn network fundamentals, git and github (to track your k8s yml files), containers and docker, I've written a few entries on them, but if you're going serious, why don't you invest a few bucks on an online course (like educative's devops path) and a certificate and get rid of all the hassle of looking for free courses here and there
+    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
+    linkText: I want to learn Kubernetes
+    title: How to kubernetes?
+  fastapi:
+    description: Normally, I'd use Django to write any API, however I tried FastAPI and fell in love with its simplicity and speed, it's certainly faster than Django, if you're looking for the same features for your API, maybe you should give it a shot and speed up your learning process.
+    link: https://www.educative.io/courses/rest-api-python-microsoft-azure?aff=xkQr
+    linkText: I want to learn FastAPI
+    title: FastAPI is a great framework for API development
+  git:
+    description: Sure, everyone can do git add and git commit, but not everyone can use git to its limits, if you don't know about cherry-picking, bisect or hooks, don't settle with the basis, go for the advanced git commands either with the courses below or wherever you want, but take action now.
+    link: https://www.educative.io/courses/learn-git-hard-way?aff=xkQr
+    linkText: I want to learn advanced Git
+    title: Don't settle with git add and git commit
+  go:
+    description: the other day I found this Go course that you could find handy so now I'm sharing it with you, it deals with Go's core constructs, advanced concepts like error-handling and networking, efficient programming techniques and common pitfalls of this badass language.
+    link: https://www.educative.io/courses/the-way-to-go?aff=xkQr
+    linkText: I want to know more about this Go's full course
+    title: Why not go beyond Go's fundamentals to something more advanced
+  htmx:
+    description: null
+    link: null
+    linkText: null
+    title: null
+  javascript:
+    description: If your Javascript skills are good enough to write some medium complexity applications, you should probably have noticed some of its weaknesses, Typescript was created to solve them, and there are platforms out there, like educative, which can teach you all you need to know about Typescript for a few bucks.
+    link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
+    linkText: I want to learn Typescript
+    title: Don't settle with Javascript, learn Typescript too
+  linux and devops:
+    description: If you're looking to learn Docker so you can work as a devops engineer or as the basis for learning kubernetes, you need to learn network fundamentals, git and github (to track your k8s yml files), containers and docker, I've written a few entries on them, but if you're going serious, why don't you invest a few bucks on an online course (like educative's devops path) and a certificate and get rid of all the hassle of looking for free courses here and there
+    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
+    linkText: I want to learn Kubernetes
+    title: How to kubernetes?
+  opinions:
+    description: Lately I've been experimenting with online courses, I've tried several platforms and I've enjoyed Educative's platform so far and the wide variety of online courses they offer. If you are looking to sharpen your skills and take them to the next level maybe you should consider spending a few dollars in your education.
+    link: https://www.educative.io/unlimited?aff=xkQr
+    linkText: Register on Educative.
+    title: How to level up your software skills
+  python:
+    description: Well, it's not a secret that Python is doing more than great these days, AI has converted Python from a scripting or toy language into one of the most loved and well paid languages, and it is used even for enormous projects, surrender to the FOMO and learn Python now, get a certificate from educative.
+    link: https://www.educative.io/courses/learn-to-code-python-for-absolute-beginners?aff=xkQr
+    linkText: Ok, you convinced me I want to learn Python
+    title: You need to master Python now
+  react:
+    description: React is a library, but there are frameworks based on React which can speed up your development and take care of all the boilerplate that is usually written, one of them, and my personal favorite is Nextjs. If you're looking to take advantage of your react skills maybe you should learn Nextjs.
+    link: https://www.educative.io/courses/react-beginner-to-advanced?aff=xkQr
+    linkText: I want to learn Nextjs
+    title: You know React, now what?
+  rust:
+    description: Yes, I know, I've been there (maybe I'm still are), Rust is complex, there is no point in denying it, lots of different concepts that you need to grasp before you're able to write some of the most basic programs, the best resource to learn in my opinion is The rust book, however if you prefer videos there are full courses out there like this one.
+    link: https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr
+    linkText: Yes, show me where to learn Rust
+    title: Confused about Rust? Where to learn it?
+  seo:
+    description: null
+    link: null
+    linkText: null
+    title: null
+  software architecture:
+    description: It's super easy to learn the basis of programming, and languages' syntax, however learning how to structure big codebases and its flow is convoluted, because normally apps don't grow that big, and because is a relatively new area of knowledge, my favorite resources are "The system design interview series", but if you're not into books educative has a full course on system design too.
+    link: https://www.educative.io/path/deep-dive-into-system-design-interview?aff=xkQr
+    linkText: I'm all in for learning system design
+    title: Where to learn software architecture?
+  testing:
+    description: null
+    link: null
+    linkText: null
+    title: null
+  typescript:
+    description: If your Javascript skills are good enough to write some medium complexity applications, you should probably have noticed some of its weaknesses, Typescript was created to solve them, and there are platforms out there, like educative, which can teach you all you need to know about Typescript for a few bucks.
+    link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
+    linkText: I want to learn Typescript
+    title: Don't settle with Javascript, learn Typescript too
+es:
+  algoritmos:
+    description: Cuando la gente empieza a programar, normalmente empiezan aprendiendo la sintaxis de un lenguaje, pero la sintaxis de la mayoría de los lenguajes son bastante similares, lo que más importa es dominar los algoritmos y las estructuras de datos, el lenguaje más lento (lo siento Python) con un buen algoritmo puede superar al lenguaje más rápido con un mal algoritmo. Educative tiene unos buenos cursos sobre eso, certificado incluido
+    link: https://www.educative.io/courses/ds-and-algorithms-in-python?aff=xkQr
+    linkText: Quiero saber más sobre algoritmos y estructuras de datos
+    title: Los algoritmos y las estructuras de datos pueden marcar la diferencia
+  arquitectura de software:
+    description: Es super fácil aprender las bases de la programación, y la sintaxis de los lenguajes, sin embargo aprender a estructurar grandes bases de código y su flujo es enrevesado, porque normalmente las aplicaciones no crecen tanto, y porque es un área de conocimiento relativamente nueva, mis recursos favoritos son «The system design interview series», pero si no te van los libros educative tiene un curso completo sobre diseño de sistemas también.
+    link: https://www.educative.io/path/deep-dive-into-system-design-interview?aff=xkQr
+    linkText: Me apunto a aprender diseño de sistemas
+    title: ¿Dónde aprender arquitectura de software?
+  bases de datos:
+    description: Si estás empezando con bases de datos y backend, déjame decirte algo":" olvídate de las bases de datos no relacionales por ahora, empieza con SQL y dame las gracias después. Primero aprende a hacer SELECTS, INSERTS, UPDATES, DELETES, JOINS y todas las demás funciones, y si te da pereza buscar un buen tutorial, bien estructurado y secuencial, mira los que hay en educative, certificado incluido'.
+    link: https://www.educative.io/courses/getting-started-sql-relational-databases?aff=xkQr
+    linkText: Quiero aprender SQL
+    title: SQL fue el alfa y será el omega
+  django:
+    description: Para dominar Django hay que entender como funciona, como una petición HTTP va al router, que pasa los datos de la petición a la función (o clase) adecuada y luego como se puede el ORM de Django para interactuar con la base de datos y devolver una respuesta si quieres una explicación detallada de cada paso, educative tiene un curso sobre eso, con certificado incluido, y se cubre Python (por si no sabes Python) link abajo.
+    link: https://www.educative.io/path/become-a-django-developer?aff=xkQr
+    linkText: Quiero saber más sobre el curso completo de Django
+    title: ¿Necesitas aprender todo lo que ofrece Django?
+  docker:
+    description: Si lo que buscas es aprender Docker para poder trabajar como ingeniero devops o como base para aprender kubernetes, necesitas aprender fundamentos de redes, git y github (para rastrear tus archivos yml de k8s), contenedores y docker, he escrito unas cuantas entradas sobre ellos, pero si vas en serio, por qué no inviertes unos cuantos pavos en un curso online (como el devops path de educative) y un certificado y te quitas de encima todo el rollo de buscar cursos gratuitos aquí y allá
+    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
+    linkText: Quiero aprender Kubernetes
+    title: ¿Cómo aprender Kubernetes?
+  fastapi:
+    description: Normalmente, usaría Django para escribir cualquier API, sin embargo probé FastAPI y me enamoré de su simplicidad y velocidad, es ciertamente más rápido que Django, si estás buscando las mismas características para tu API, tal vez deberías darle una oportunidad y acelerar tu proceso de aprendizaje.
+    link: https://www.educative.io/courses/rest-api-python-microsoft-azure?aff=xkQr
+    linkText: Quiero aprender FastAPI
+    title: FastAPI es un gran framework para el desarrollo de APIs
+  git:
+    description: Claro que todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, no te conformes con la base, ve a por los comandos avanzados de git ya sea con los cursos de abajo o donde quieras, pero pasa a la acción ya.
+    link: https://www.educative.io/courses/learn-git-hard-way?aff=xkQr
+    linkText: Quiero aprender Git avanzado
+    title: No te conformes con git add y git commit
+  go:
+    description: el otro día encontré este curso de Go que te puede resultar útil así que ahora lo comparto contigo, trata sobre las construcciones básicas de Go, conceptos avanzados como manejo de errores y redes, técnicas de programación eficientes y errores comunes de este lenguaje badass.
+    link: https://www.educative.io/courses/the-way-to-go?aff=xkQr
+    linkText: Quiero saber más sobre este curso completo de Go
+    title: ¿Por qué no ir más allá de los fundamentos de Go hacia algo más avanzado?
+  htmx:
+    description: null
+    link: null
+    linkText: null
+    title: null
+  javascript:
+    description: Si tus habilidades en Javascript son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente te habrás dado cuenta de algunas de sus debilidades, Typescript fue creado para resolverlas, y hay plataformas por ahí, como educative, que pueden enseñarte todo lo que necesitas saber sobre Typescript por unos pocos dólares.
+    link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
+    linkText: Quiero aprender Typescript
+    title: No te conformes con Javascript, aprende también Typescript
+  linux y devops:
+    description: Si lo que buscas es aprender Docker para poder trabajar como ingeniero devops o como base para aprender kubernetes, necesitas aprender fundamentos de redes, git y github (para rastrear tus archivos yml de k8s), contenedores y docker, he escrito unas cuantas entradas sobre ellos, pero si vas en serio, por qué no inviertes unos dólares en un curso online (como el devops path de educative) y un certificado y te quitas de encima todo el lío de buscar cursos gratuitos aquí y allá
+    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
+    linkText: Quiero aprender Kubernetes
+    title: ¿Cómo aprender Kubernetes?
+  opiniones:
+    description: Últimamente he estado experimentando con cursos en línea, he probado varias plataformas y hasta ahora me ha gustado la plataforma de Educative y la gran variedad de cursos en línea que ofrecen. Si estás buscando perfeccionar tus habilidades y llevarlas al siguiente nivel tal vez deberías considerar gastar unos dólares en tu educación.
+    link: https://www.educative.io/unlimited?aff=xkQr
+    linkText: Regístrate en Educative.
+    title: Cómo mejorar tus conocimientos de software
+  python:
+    description: Bueno, no es un secreto que Python está más que bien en estos días, la IA ha convertido a Python de un lenguaje de scripting o de juguete en uno de los lenguajes más queridos y bien pagados, y se utiliza incluso para proyectos enormes, ríndete al FOMO y aprende Python ahora, obtén un certificado en educative.
+    link: https://www.educative.io/courses/learn-to-code-python-for-absolute-beginners?aff=xkQr
+    linkText: Ok, me has convencido quiero aprender Python
+    title: Necesitas dominar Python ahora
+  react:
+    description: React es una librería, pero hay frameworks basados en React que pueden acelerar tu desarrollo y encargarse de todo el boilerplate que se suele escribir, uno de ellos, y mi favorito personal es Nextjs. Si estás buscando sacar provecho de tus habilidades con React tal vez deberías aprender Nextjs.
+    link: https://www.educative.io/courses/react-beginner-to-advanced?aff=xkQr
+    linkText: Quiero aprender Nextjs
+    title: Ya sabes React, ¿y ahora qué?
+  rust:
+    description: Sí, lo sé, he estado allí (tal vez todavía estoy), Rust es complejo, no tiene sentido negarlo, un montón de diferentes conceptos que usted necesita para comprender antes de que usted es capaz de escribir algunos de los programas más básicos, el mejor recurso para aprender en mi opinión es el libro de óxido, sin embargo, si usted prefiere videos hay cursos completos por ahí como este.
+    link: https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr
+    linkText: Sí, muéstrame dónde aprender Rust
+    title: ¿Confundido sobre Rust? ¿Dónde aprenderlo?
+  seo:
+    description: null
+    link: null
+    linkText: null
+    title: null
+  testing:
+    description: null
+    link: null
+    linkText: null
+    title: null
+  typescript:
+    description: Si tus habilidades con Javascript son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente habrás notado algunas de sus debilidades, Typescript fue creado para solucionarlas, y hay plataformas por ahí, como educative, que pueden enseñarte todo lo que necesitas saber sobre Typescript por unos pocos dólares.
+    link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
+    linkText: Quiero aprender Typescript
+    title: No te conformes con Javascript, aprende también Typescript
