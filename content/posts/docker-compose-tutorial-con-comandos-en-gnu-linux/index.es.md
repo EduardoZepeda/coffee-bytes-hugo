@@ -39,8 +39,6 @@ Docker compose es una herramienta que te permite manejar aplicaciones que consis
 
 Docker-compose está programando usando el [lenguaje de programación go o golang](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/); el mismo con lenguaje con el que [funcionan internamente los containers de go](/es/container-de-docker-con-namespaces-y-cgroups/).
 
-{{<ad>}}
-
 ## Estructura de un archivo docker-compose.yml
 
 Así como existían los Dockerfile en Docker, donde configurabas el estado de un contenedor de manera declarativa, en Docker compose existe un equivalente: los archivos yml.
@@ -341,6 +339,8 @@ La opción restart puede tomar varios valores
 - always: siempre lo reinicia
 - on-failure: lo reinicia si el contenedor devuelve un estado de error
 - unless-stopped: lo reinicia en todos los casos excepto cuando se detiene
+
+{{<ad>}}
 
 ## Comandos básicos de docker compose
 
