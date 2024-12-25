@@ -22,6 +22,16 @@ The *select_related* and *prefetch_related* methods **are used to reduce the num
 
 Just consider that there are more [important things to optimize other than your app's performance](/en/dont-obsess-about-your-web-application-performance/), but if you insist, dive into annotate and aggregate, and be careful with the nested subqueries of annotate because [they can make your django queries go really slow](/en/fix-slow-queries-in-django-when-using-annotate-and-subqueries/)
 
+## Differences between select_related and prefetch_related summarized
+
+|                   | select_related            | prefetch_related |
+| ----------------- | ------------------------- | ---------------- |
+| Relationship      | Foreign key or One to One | Many to Many     |
+| Number of queries | 1                         | 2                |
+| Union of objects  | Directly by SQL           | Using Python     |
+
+{{<ad>}}
+
 ## select_related
 
 The *select_related* method is **used to follow a relationship of type ForeignKey or OneToOneField to the respective objects it points to and obtain them.**.
@@ -74,41 +84,39 @@ Derivative.objects.select_related("main")
 How *select_related* works internally, *select_related* replaces multiple queries being performed by a single INNER JOIN at the database level:
 
 ```bash
-SELECT "my_app_derivative"."id",
-       "my_app_derivative"."name",
-       "my_app_derivative"."main_id"
-  FROM "my_app_derivative"
+SELECT my_app_derivative.id,
+       my_app_derivative.name,
+       my_app_derivative.main_id
+  FROM my_app_derivative
 
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- WHERE "my_app_main"."id" = '1'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ WHERE my_app_main.id = '1'
 
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- WHERE "my_app_main"."id" = '1'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ WHERE my_app_main.id = '1'
 
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- WHERE "my_app_main"."id" = '1'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ WHERE my_app_main.id = '1'
 ```
 
 This reduces multiple SQL queries to a single, longer query.
 
 ```bash
-SELECT "my_app_derivative"."id",
-       "my_app_derivative"."name",
-       "my_app_derivative"."main_id",
-       "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_derivative"
- INNER JOIN "my_app_main"
-    ON ("my_app_derivative"."main_id" = "my_app_main"."id")
+SELECT my_app_derivative.id,
+       my_app_derivative.name,
+       my_app_derivative.main_id,
+       my_app_main.id,
+       my_app_main.name
+  FROM my_app_derivative
+ INNER JOIN my_app_main
+    ON (my_app_derivative.main_id = my_app_main.id)
 ```
-
-{{<ad>}}
 
 ## prefetch_related
 
@@ -156,49 +164,49 @@ queryset = ManyToManyModel.objects.prefetch_related("ManyToManyRel")
 How does _prefecth_related_ work internally? The ***prefetch_related* method replaces the multiple SQL queries by only 2 SQL queries: one for the main query and the other for the related objects, then it will join the data using Python**.
 
 ```bash
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- INNER JOIN "my_app_manytomanyrel_main"
-    ON ("my_app_main"."id" = "my_app_manytomanyrel_main"."main_id")
- WHERE "my_app_manytomanyrel_main"."manytomanyrel_id" = '1'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ INNER JOIN my_app_manytomanyrel_main
+    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
+ WHERE my_app_manytomanyrel_main.manytomanyrel_id = '1'
 
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- INNER JOIN "my_app_manytomanyrel_main"
-    ON ("my_app_main"."id" = "my_app_manytomanyrel_main"."main_id")
- WHERE "my_app_manytomanyrel_main"."manytomanyrel_id" = '2'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ INNER JOIN my_app_manytomanyrel_main
+    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
+ WHERE my_app_manytomanyrel_main.manytomanyrel_id = '2'
 
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- INNER JOIN "my_app_manytomanyrel_main"
-    ON ("my_app_main"."id" = "my_app_manytomanyrel_main"."main_id")
- WHERE "my_app_manytomanyrel_main"."manytomanyrel_id" = '3'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ INNER JOIN my_app_manytomanyrel_main
+    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
+ WHERE my_app_manytomanyrel_main.manytomanyrel_id = '3'
 
-SELECT "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- INNER JOIN "my_app_manytomanyrel_main"
-    ON ("my_app_main"."id" = "my_app_manytomanyrel_main"."main_id")
- WHERE "my_app_manytomanyrel_main"."manytomanyrel_id" = '4'
+SELECT my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ INNER JOIN my_app_manytomanyrel_main
+    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
+ WHERE my_app_manytomanyrel_main.manytomanyrel_id = '4'
 ```
 
 The multiple queries above are reduced to only 2 SQL queries.
 
 ```bash
-SELECT "my_app_manytomanyrel"."id",
-       "my_app_manytomanyrel"."name"
-  FROM "my_app_manytomanyrel"
+SELECT my_app_manytomanyrel.id,
+       my_app_manytomanyrel.name
+  FROM my_app_manytomanyrel
 
-SELECT ("my_app_manytomanyrel_main"."manytomanyrel_id") AS "*prefetch_related*val_manytomanyrel_id",
-       "my_app_main"."id",
-       "my_app_main"."name"
-  FROM "my_app_main"
- INNER JOIN "my_app_manytomanyrel_main"
-    ON ("my_app_main"."id" = "my_app_manytomanyrel_main"."main_id")
- WHERE "my_app_manytomanyrel_main"."manytomanyrel_id" IN ('1', '2', '3', '4')
+SELECT (my_app_manytomanyrel_main.manytomanyrel_id) AS *prefetch_related*val_manytomanyrel_id,
+       my_app_main.id,
+       my_app_main.name
+  FROM my_app_main
+ INNER JOIN my_app_manytomanyrel_main
+    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
+ WHERE my_app_manytomanyrel_main.manytomanyrel_id IN ('1', '2', '3', '4')
 ```
 
 ## Other related resources

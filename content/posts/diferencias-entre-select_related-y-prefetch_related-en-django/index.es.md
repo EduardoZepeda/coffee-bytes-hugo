@@ -25,7 +25,16 @@ Los métodos *select_related* y *prefetch_related* **se usan para reducir el nú
 
 Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obsesionarte con su rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), pero sí insistes considera echarle un vistazo a aggregate y annotate, demás de tener cuidado con usar este último pues [las subqueries pueden volver tus queries increíblemente lentas.](/es/arregla-querys-lentas-en-django-al-usar-annotate-y-subqueries/)
 
-{{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación de Django de forma barata y con buen rendimiento, DO tiene VPS (ellos les llaman Droplets) desde $4 usd el mes">}}
+
+## Diferencias entre select_related and prefetch_related resumidas
+
+|                      | select_related           | prefetch_related |
+| -------------------- | ------------------------ | ---------------- |
+| Relaciones           | Foreign key o One to One | Many to Many     |
+| Número de queries    | 1                        | 2                |
+| Unión de los objetos | Directo con SQL          | Usando Python    |
+
+{{<ad>}}
 
 ## select\_related
 
