@@ -126,9 +126,9 @@ name = "Usamos enlaces de afiliados"
 url = "/pages/disclosure/"
 weight = 7
 [[languages.es.menu.social]]
-name = "Codewars"
-pre = "codewars"
-url = "https://www.codewars.com/users/EduardoZepeda"
+name = "Linkedin"
+pre = "linkedin-in"
+url = "https://linkedin.com/in/eduardomzepeda"
 weight = 2
 [[languages.es.menu.social]]
 name = "Threads"
@@ -141,14 +141,14 @@ pre = "instagram"
 url = "https://instagram.com/zeedu.dev"
 weight = 4
 [[languages.es.menu.social]]
-name = "Linkedin"
-pre = "linkedin-in"
-url = "https://linkedin.com/in/eduardomzepeda"
-weight = 5
-[[languages.es.menu.social]]
 name = "Website"
 pre = "message"
 url = "https://zeedu.dev"
+weight = 5
+[[languages.es.menu.social]]
+name = "Codewars"
+pre = "codewars"
+url = "https://www.codewars.com/users/EduardoZepeda"
 weight = 6
 [languages.es.params]
 GoogleTagManager = "GTM-5F4NMW3"
