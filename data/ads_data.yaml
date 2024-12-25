@@ -36,7 +36,7 @@ en:
     linkText: I want to learn advanced Git
     title: Don't settle with git add and git commit
   go:
-    description: the other day I found this Go course that you could find handy so now I'm sharing it with you, it deals with Go's core constructs, advanced concepts like error-handling and networking, efficient programming techniques and common pitfalls of this badass language.
+    description: The other day I found this Go course that you could find handy so now I'm sharing it with you, it deals with Go's core constructs, advanced concepts like error-handling and networking, efficient programming techniques and common pitfalls of this badass language.
     link: https://www.educative.io/courses/the-way-to-go?aff=xkQr
     linkText: I want to know more about this Go's full course
     title: Why not go beyond Go's fundamentals to something more advanced
@@ -127,12 +127,12 @@ es:
     linkText: Quiero aprender FastAPI
     title: FastAPI es un gran framework para el desarrollo de APIs
   git:
-    description: Claro que todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, no te conformes con la base, ve a por los comandos avanzados de git ya sea con los cursos de abajo o donde quieras, pero pasa a la acción ya.
+    description: Claro que todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, aún te falta exprimir más a Git, ve a por los comandos avanzados de git ya sea con los cursos completos como el de educative, o donde quieras, pero soluciónalo ya.
     link: https://www.educative.io/courses/learn-git-hard-way?aff=xkQr
     linkText: Quiero aprender Git avanzado
     title: No te conformes con git add y git commit
   go:
-    description: el otro día encontré este curso de Go que te puede resultar útil así que ahora lo comparto contigo, trata sobre las construcciones básicas de Go, conceptos avanzados como manejo de errores y redes, técnicas de programación eficientes y errores comunes de este lenguaje badass.
+    description: El otro día encontré este curso de Go, trata sobre el nucleo de Go como lenguaje, así como conceptos avanzados como manejo de errores y redes, técnicas de programación eficientes y errores comunes de este incomprendido lenguaje tan potente.
     link: https://www.educative.io/courses/the-way-to-go?aff=xkQr
     linkText: Quiero saber más sobre este curso completo de Go
     title: ¿Por qué no ir más allá de los fundamentos de Go hacia algo más avanzado?
@@ -142,15 +142,15 @@ es:
     linkText: null
     title: null
   javascript:
-    description: Si tus habilidades en Javascript son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente te habrás dado cuenta de algunas de sus debilidades, Typescript fue creado para resolverlas, y hay plataformas por ahí, como educative, que pueden enseñarte todo lo que necesitas saber sobre Typescript por unos pocos dólares.
+    description: Si tus habilidades en Javascript ya son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente te habrás dado cuenta de algunas de sus múltiples debilidades, Typescript fue creado para resolverlas, y hay plataformas como educative, que te llevarán a dominar Typescript.
     link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
     linkText: Quiero aprender Typescript
     title: No te conformes con Javascript, aprende también Typescript
   linux y devops:
-    description: Si lo que buscas es aprender Docker para poder trabajar como ingeniero devops o como base para aprender kubernetes, necesitas aprender fundamentos de redes, git y github (para rastrear tus archivos yml de k8s), contenedores y docker, he escrito unas cuantas entradas sobre ellos, pero si vas en serio, por qué no inviertes unos dólares en un curso online (como el devops path de educative) y un certificado y te quitas de encima todo el lío de buscar cursos gratuitos aquí y allá
+    description: Si buscas dominar Docker para trabajar como ingeniero devops o para aprender kubernetes, será crucial que aprendas fundamentos de redes, git y github (para rastrear tus archivos yml de k8s), contenedores y docker. Ya he escrito unas cuantas entradas sobre ellos, pero si vas en serio, por qué no inviertes unos dólares en un curso online (como el devops path de educative) y un certificado y te quitas de encima todo el lío de buscar cursos gratuitos aquí y allá.
     link: https://www.educative.io/path/devops-for-developers?aff=xkQr
-    linkText: Quiero aprender Kubernetes
-    title: ¿Cómo aprender Kubernetes?
+    linkText: Quiero aprender devops
+    title: ¿Quieres aprender Docker y Kubernetes?
   opiniones:
     description: Últimamente he estado experimentando con cursos en línea, he probado varias plataformas y hasta ahora me ha gustado la plataforma de Educative y la gran variedad de cursos en línea que ofrecen. Si estás buscando perfeccionar tus habilidades y llevarlas al siguiente nivel tal vez deberías considerar gastar unos dólares en tu educación.
     link: https://www.educative.io/unlimited?aff=xkQr
@@ -170,7 +170,7 @@ es:
     description: Sí, lo sé, he estado allí (tal vez todavía estoy), Rust es complejo, no tiene sentido negarlo, un montón de diferentes conceptos que usted necesita para comprender antes de que usted es capaz de escribir algunos de los programas más básicos, el mejor recurso para aprender en mi opinión es el libro de óxido, sin embargo, si usted prefiere videos hay cursos completos por ahí como este.
     link: https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr
     linkText: Sí, muéstrame dónde aprender Rust
-    title: ¿Confundido sobre Rust? ¿Dónde aprenderlo?
+    title: ¿Confundido sobre Rust?
   seo:
     description: null
     link: null
