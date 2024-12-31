@@ -41,7 +41,7 @@ To achieve this, docker, and other container technologies, take advantage of som
 
 I am going to explain them briefly but you can go deeper on your own if you want to.
 
-## Processes, namespaces and cgroups on linux
+## Docker containers use processes, namespaces and cgroups on linux
 
 ### Process
 
@@ -353,7 +353,7 @@ We will generate two files, inside our cgroup, to set the guidelines we want to 
 
 And that's it, with that we have a process with its own file system, isolated from the main operating system and can access only a part of the resources.
 
-## Summary
+## How does a Docker container work? Summary
 
 In summary, it is possible to create a container using namespaces, cgroups and chroot, to isolate from the outside, limit resources, and provide its own file system, respectively.
 

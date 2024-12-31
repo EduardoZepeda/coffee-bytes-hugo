@@ -1,5 +1,8 @@
 ---
-title: "Python vs Javascript which language is better in 2024?"
+aliases:
+  - /en/python-vs-javascript-which-is-the-best-programming-language
+url: javascript-vs-python-which-one-is-the-best-programming-language
+title: "Javascript vs Python which language is better in 2025?"
 date: "2020-12-10"
 url: "python-vs-javascript-which-is-the-best-programming-language"
 categories:
@@ -7,7 +10,7 @@ categories:
 - "python"
 
 coverImage: "images/PythonVSJavascript.jpg"
-description: "Learn the differences between Python and Javascript, two of the most popular languages. Syntax, speed, packages, frameworks available."
+description: "Learn the differences between Javascript and Python, two of the most popular modern programming languages. I analyze their syntax, speed, available packages, average salaries, philosophy, frameworks available and more."
 keywords:
 - "python"
 - "javascript"
@@ -22,7 +25,7 @@ Updated to 2024: If you've used only Python or only Javascript, you're probably 
 
 I also have a comparison of [Python vs go](/en/python-vs-go-go-which-is-the-best-programming-language/) that you can check out.
 
-## Introduction to Python and Javascript languages
+## Python vs Javascript, introduction and differences
 
 To begin with, **Python is an interpreted language**. If you are not familiar with the term, it means that it has an interpreter that translates the instructions, one by one, to machine language, so that they are executed on the fly. So you don't have to compile all your code every time you want to run it, as you would with C++, Java, Rust, etc.
 
@@ -38,9 +41,15 @@ In this scheme I am referring to Javascript at the time of its creation, as an i
 
 {{<ad>}}
 
-## Which language is more mature, Python and Javascript?
+## Which language is more mature, Javascript vs Python?
 
-Python appeared in the late 1980s, while Javascript appeared in the early 1990s, so **Python is older** than Javascript.
+Python appeared in the late 1980s, while Javascript appeared in the early 1990s, so **Python is older** than Javascript. 
+
+### Javascript is a poorly designed language
+
+If you review the history of Javascript you will see that it was developed in record time, in a hurry, which is noticeable in the basics of the language, where we find logical inconsistencies and one thing or another unintuitive. Unfortunately this has no solution, Javascript can not be repaired because any change in the basis of the language would break the web completely.
+
+This may not necessarily affect the developers or the end user, but it is noticeable at times and serves as a source of inspiration for multiple memes.
 
 ## Typing characteristics
 
@@ -228,7 +237,11 @@ On the other hand, Javascript includes only what is necessary, although it has a
 
 ## Which language is faster Python or Javascript?
 
-As interpreted languages they are much slower than compiled languages, so they will be quite bad if you compare them with C, C++, Java, Rust, etc. However, the difference between them is evident: it can be stated that **Javascript executed in Node is much faster than Python with its original interpreter.
+As interpreted languages they are much slower than compiled languages, so they will be quite bad if you compare them with C, C++, Java, Rust, etc. 
+	
+### Is python faster than javascript?
+
+However, the difference between them is evident: it can be stated that **Javascript executed in Node is much faster than Python** with its original interpreter.
 
 The graph below compares the average execution time of ten iterations of the N-Rheinas problem (the lower the better), I used the [respective javascript and python codes of Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (all credits to the author) and the [multitime program](https://tratt.net/laurie/src/multitime/) for the calculation of the average time.
 

@@ -20,6 +20,16 @@ Debounce y throttle son [patrones de diseño](/es/patrones-de-diseno-o-software-
 
 Ambos patrones generan una función que recibe un callback y un tiempo de espera o delay.
 
+## Debounce vs Throttle diferencias principales
+
+Si tienes prisa, estas son las principales diferencias y aplicaciones de ambos patrones. Sin embargo, si quieres entenderlos en profundidad sigue leyendo.
+
+| **Aspect**                 | **Debounce**                                                                                                                   | **Throttle**                                                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| **Definición**             | Ejecuta la función después de un retardo especificado desde la última vez que se disparó el evento.                            | Ejecuta la función a intervalos regulares, asegurando que no sea llamada más de una vez por período.                  |
+| **Tiempo de ejecución**    | Se retrasa hasta que el evento deja de dispararse durante un periodo determinado.                                              | Se ejecuta inmediatamente o a intervalos fijos, independientemente de la frecuencia con la que se produzca el evento. |
+| **Ejemplo de Caso de Uso** | Inputs donde se introducen datos: actualización de sugerencias sólo después de que el usuario deje de escribir por un momento. | Eventos de scroll: limitar la velocidad a la que se calcula la posición del scroll.                                   |
+
 ## Patrón Debounce
 
 El patrón de rebote o debounce pospone la ejecución de una función hasta que transcurra un determinado tiempo de espera.

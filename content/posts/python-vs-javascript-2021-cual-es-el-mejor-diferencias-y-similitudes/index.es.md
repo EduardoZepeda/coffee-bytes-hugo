@@ -4,6 +4,7 @@ aliases:
 - /python-vs-javascript-cual-es-el-mejor-en-2024
 - /python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 - /python-vs-javascript-2021-cual-es-el-mejor-dife
+- /es/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,18 +12,18 @@ categories:
 - python
 coverImage: images/PythonVSJavascript.jpg
 date: '2020-12-10'
-description: Conoce las diferencias entre Python y Javascript, en esta comparación exhaustiva, sintaxis, velocidad, paquetes, frameworks disponibles
+description: Conoce las diferencias entre Javascript y Python, en esta comparación exhaustiva analizo su sintaxis, velocidad, paquetes, frameworks disponibles, filosofía, salarios promedio y más.
 keywords:
 - python
 - javascript
 - opinion
-title: Python vs Javascript ¿cuál es el mejor en 2024?
-url: python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
+title: Javascript vs Python ¿cuál es el mejor en 2025?
+url: javascript-vs-python-cual-es-el-mejor-lenguaje-de-programacion
 ---
 
 Python y Javascript son dos de los lenguajes más populares entre las personas que están aprendiendo a programar, ambos son legibles, sencillos y con una curva de aprendizaje bastante plana si los comparamos con lenguajes como C, C++, Java o Rust. Ambos con sus fortalezas, debilidades, sus haters y sus defensores.
 
-## Usos de Python y Javascript
+## Python vs Javascript, usos
 
 ### Usos de Javascript en el navegador
 
@@ -56,18 +57,27 @@ Según la última encuesta de Stackoverflow (2023), los profesionales que usan P
 
 ![Salarios de los desarrolladores de acuerdo al lenguaje de programación usado.](images/salarios-python-vs-javascript.png "Python supera a Javascript en salarios en 2023")
 
-## Antigüedad, Python es más antiguo
+## Antigüedad, Python es más maduro
 
-Python apareció a finales de los 80, mientras que Javascript apareció a principios de los 90, por lo que **Python es más antiguo** que Javascript.
+Python apareció a finales de los 80, mientras que Javascript apareció a principios de los 90, por lo que **Python es más maduro** que Javascript. 
+
+### Javascript es un lenguaje mal diseñado
+
+Si revisas la historia de Javascript verás que este se desarrolló en tiempo record, con prisas, lo cual se nota en las bases del lenguaje, donde encontramos inconsistencias lógicas y una que otra cosa poco intuitiva. Desafortunadamente Javascript no puede repararse porque cualquier cambio en la base del lenguaje rompería la web por completo.
+
+Esto no necesariamente puede afectarte a los desarrolladores o al usuario final, pero se nota en algunas ocasiones y sirve como fuente de inspiracion para múltiples memes.
 
 ## ¿Cuál es más rápido Javascript o Python?
 
-Al ser lenguajes interpretados son mucho más lentos que lenguajes compilados, por lo que quedarán bastante mal parados si los comparas con C, C++, Java, Rust, etc. Sin embargo entre ellos la diferencia es evidente: se puede afirmar que **Javascript ejecutado en Node es mucho más rápido que Python con su intérprete original.**
+Al ser lenguajes interpretados son mucho más lentos que lenguajes compilados, por lo que quedarán bastante mal parados si los comparas con C, C++, Java, Rust, etc. 
+
+### ¿Es Python más rápido que Javascript?
+
+Sin embargo entre ellos la diferencia es evidente: se puede afirmar que **Javascript ejecutado en Node es mucho más rápido que Python con su intérprete original.**
 
 El gráfico de abajo compara el tiempo de ejecución promedio de diez repeticiones del problema de las N-Reinas (mientras más bajo mejor), usé los [respectivos códigos de javascript y python de Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (todos los créditos al autor) y el [programa multitime](https://tratt.net/laurie/src/multitime/) para el cálculo del tiempo promedio.
 
 ![Gráfico del tiempo de ejecución del problema de las N-Reinas entre Javascript y Python. Javascript tiene mejor rendimiento.](images/problema-de-las-n-reinas.jpg "Rendimiento del problema de las n-Reinas. Tiempo de ejecución en eje de las Y y número de reinas en el eje de las X. (Menor es mejor, javascript es mejor)")
-
 
 Se usó Node.js v15.10.0 y Python 3.8.6. El código se ejecutó directamente desde la terminal, sin ningún otro programa ejecutándose. Si quieres saber las especificaciones de la computadora puedes escribirme a mis redes sociales y con gusto te las hago saber.
 

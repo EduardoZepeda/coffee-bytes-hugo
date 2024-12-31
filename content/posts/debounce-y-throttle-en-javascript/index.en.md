@@ -18,6 +18,17 @@ Debounce and throttle are [design patterns](/en/design-patterns-in-software/) us
 
 Both patterns generate a function that receives a callback and a timeout or delay.
 
+## Debounce vs Throttle differences
+
+If you're in a rush, these are the main differences and applications for both patterns. However, if you want to understand them deeply keep reading.
+
+| **Aspect**              | **Debounce**                                                                              | **Throttle**                                                                                    |
+| ----------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Definition**          | Executes the function after a specified delay from the last time the event was triggered. | Executes the function at regular intervals, ensuring it is called no more than once per period. |
+| **Timing of Execution** | Delayed until the event stops firing for a certain period.                                | Executes immediately or at fixed intervals, regardless of how frequently the event occurs.      |
+| **Use Case Example**    | Search input field: updating suggestions only after the user stops typing for a moment.   | Scroll events: limiting the rate at which a scroll position is calculated.                      |
+
+
 ## Debounce Pattern 
 
 The debounce pattern postpones the execution of a function until a certain waiting time has elapsed.

@@ -7,7 +7,7 @@ categories:
 - "software architecture"
 - "opinions"
 
-description: My personal experience, recommendations, and all the references that I studied to pass the Microsoft Azure AZ-900 Fundamentals certification exam
+description: My personal experience, recommendations, and all the sources that I studied to pass the Microsoft Azure AZ-900 Fundamentals certification exam, AZ 900 certification cost 
 keyword: az-900
 keywords:
 - devops
@@ -107,7 +107,7 @@ With so many coupons and other free options, I don't recommend that you shell ou
 
 A couple of months ago Platzi offered a challenge in which they give you the opportunity to **certify yourself completely free of charge**, through their platform, with two requirements: pass a series of courses on their platform, with their respective exams, and complete a Microsoft Learn practice lab.
 
-### Required Platzi Courses
+### Required Platzi Courses for AZ-900
 
 The process consists of completing the following 4 courses:
 

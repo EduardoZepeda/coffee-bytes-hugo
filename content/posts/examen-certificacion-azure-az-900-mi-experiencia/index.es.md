@@ -10,7 +10,7 @@ categories:
 coverImage: images/mi-experiencia-con-azure.jpg
 coverImageCredits: 'Créditos de la imagen: Dmitriy Zub https://unsplash.com/es/@dimitryzub'
 date: '2022-09-02'
-description: Mi experiencia personal, recomendaciones y todas las referencias que estudié para aprobar el examen de certificación Microsoft Azure AZ-900 Fundamentals
+description: Mi experiencia personal, recomendaciones y todas las referencias que estudié para aprobar el examen de certificación Microsoft Azure AZ-900 Fundamentals, costo de la certificación AZ 900.
 keyword: az-900
 keywords:
 - devops
@@ -104,11 +104,11 @@ Tengo entendido que si te registras en la plataforma de e-learning Microsoft Lea
 
 Con tantos cupones y otras opciones gratuitas, **yo no te recomiendo que desembolses el dinero de tu bolsillo** sino que esperes a que aparezca alguna oportunidad de obtenerla de manera gratuita o mucho más barata.
 
-## Proceso de certificación gratuita por parte de Platzi
+## Proceso de certificación gratuita Az-900 por parte de Platzi
 
 Hace un par de meses Platzi ofrecía un reto en el que te obsequian la oportunidad de **certificarte de manera completamente gratuita**, a través de su plataforma, con dos requisitos: aprobar una serie de cursos en su plataforma, con sus respectivos exámenes, y completar un laboratorio de prácticas de Microsoft Learn.
 
-### Cursos de Platzi requeridos
+### Cursos de Platzi requeridos para el AZ-900
 
 El proceso consiste en terminar los siguientes 4 cursos:
 

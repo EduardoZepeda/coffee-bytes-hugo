@@ -60,7 +60,7 @@ if edad < 18 {
 
 En go **existen varios tipos de bucles for**: con contador, con condicional, range y el infinito.
 
-### Bucles con contador
+### Bucles con contador en Go
 
 Este es el clásico bucle que ya conoces de Javascript, C++, etc. En el que se declara una variable, se especifica una condición y se realizan cambios a la variables.
 
@@ -72,9 +72,11 @@ for i:= 0; i < 10; i++ {
 }
 ```
 
-### Bucle con condicional
+### Bucle con condicional o bucle while en Go
 
-En este tipo de bucle se evalúa una condición, si el resultado es _true_, se ejecuta el bloque, si no, se brinca ese bloque de código. Este tipo de bucle for sería el equivalente del bucle _while_.
+En este tipo de bucle se evalúa una condición, si el resultado es _true_, se ejecuta el bloque, si no, se brinca ese bloque de código. 
+
+{{<box type="info" message="Este tipo de bucle for sería el equivalente del bucle _while_ en otros lenguajes de programación.">}}
 
 ```go
 counter := 0
@@ -83,7 +85,7 @@ for counter < 10 {
 }
 ```
 
-### Bucle con range
+### Bucle con range en golang
 
 Range nos permite recorrer una estructura iterable de principio a fin y nos permite acceder al respectivo índice y elemento. Es ideal para recorrer _arrays_, _strings_, _slices_, _maps_, _channels_ y cualquier estructura que pueda recorrerse.
 
@@ -105,7 +107,7 @@ Range nos permite recorrer una estructura iterable de principio a fin y nos perm
 9 o*/
 ```
 
-### Bucle infinito
+### Bucle infinito 
 
 Un bucle _for_ sin condición va a ejecutarse por siempre.
 
@@ -190,7 +192,7 @@ for counter < 10 {
 //4
 ```
 
-## defer
+## ¿Qué es defer en Go?
 
 Defer retrasa la ejecución de una linea de código hasta el final. del código. Es bastante similar a lo que hace el atributo _defer_ con etiqueta script de HTML.
 

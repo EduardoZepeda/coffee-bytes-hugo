@@ -5,7 +5,7 @@ categories:
 - "django"
 
 coverImage: "images/pin-961667.jpg"
-description: "I explain how to customize the User model in Django to add extra fields or modify the default behavior of the Users."
+description: "Learn to customize Django User model, so it fits with your application requirements and business logic, whether it be adding extra fields or modifying its internal behavior"
 coverImageCredits: "Image credits to pin: https://www.pixiv.net/en/users/961667"
 keywords:
 - "django"
@@ -38,7 +38,7 @@ Now that we know the above, **we can use the AbstractUser and AbstractBaseUser c
 
 {{<ad>}}
 
-## Inherit from subclass AbstractUser
+## Extend Django user model inheriting from Django's AbstractUser subclass
 
 This method is probably the most popular method for extending Django's _User_ model. This is because it retains almost all the functionality of the original _User_ model.
 
@@ -63,7 +63,7 @@ We set this behavior in our configuration file.
 AUTH_USER_MODEL = 'users.CustomUser'
 ```
 
-### Using the custom model in Django's account views
+### Extend Django user model using the custom model in Django's account views
 
 If we want to use the Django template system to automatically generate a registration form, we will need to tell Django to use the new user model, for this we inherit a new form from the _UserCreationForm_ class, and pass it our custom model, which we can with the _get_user_model_ method.
 
@@ -108,7 +108,7 @@ Notice how the _AbstractUser_ class inherits from _AbstractBaseUse_r and has mul
 
 Let's move on to the second method.
 
-### How to change the user field for authentication?
+### How to change the user field for authentication in Django?
 
 If you look at the code above, there is an uppercase property called _USERNAME_FIELD_, there you can specify another field to work as the user.
 As you don't want two users to identify themselves in the same way that field has to be marked as unique. Besides that you have to modify the object manager, the code is a bit long so I won't put it here
@@ -120,7 +120,7 @@ class CustomUser(AbstractUser):
     USERNAME_FIELD = 'custom_id'
 ```
 
-## Inherit from subclass AbstractBaseUser
+## Extend Django user model inheriting from subclass AbstractBaseUser
 
 This class, as you can see in the previous image, is the base class used to create the _AbstractUser_. Its operation is the minimum and it only has 3 fields:
 
@@ -163,7 +163,7 @@ As you can see, it only has the 3 fields mentioned, it inherits directly from _m
 
 Now let's look at the third way to extend Django's _User_ model.
 
-## Create a profile to extend the model User
+## Extend Django user model creating a profile for model User
 
 Another way to extend the user model is to **create another model that serves as a container for the extra fields and then relate it by an _OneToOneField_** field to the model that the Django configuration receives by default.
 

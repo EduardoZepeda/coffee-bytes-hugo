@@ -9,9 +9,7 @@ categories:
 coverImage: images/pin-961667.jpg
 coverImageCredits: 'Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667'
 date: '2022-03-16'
-description: Tutorial para personalizar el modelo User en Django, de donde viene,
-  sus métodos predeterminados y como agregar campos extras o modificar el comportamiento
-  por defecto de los Usuarios
+description: Aprende a personalizar el modelo de usuario de Django para que se ajuste a los requisitos de tu aplicación y a tu lógica de negocio, ya sea añadiendo campos adicionales o modificando su comportamiento interno.
 keywords:
 - django
 - python
@@ -37,7 +35,7 @@ Ya que sabemos lo anterior, **podemos usar las clases AbstractUser y AbstractBas
 
 {{<ad>}}
 
-## Heredar de la subclase AbstractUser
+## Modifica el Django User modal heredando de la subclase AbstractUser
 
 Este método es probablemente el más popular para extender el modelo _User_ de Django. Lo anterior debido a que se conserva prácticamente toda la funcionalidad del modelo _User_ original.
 
@@ -120,7 +118,7 @@ class UsuarioPersonalizado(AbstractUser):
     USERNAME_FIELD = 'identificador'
 ```
 
-## Heredar de la subclase AbstractBaseUser
+## Modifica el Django user model heredando de la subclase AbstractBaseUser
 
 Esta clase, como puedes apreciar en la imagen anterior, es la clase que se usa de base para crear el _AbstractUser_. Su funcionamiento es el mínimo y solo posee 3 campos:
 
@@ -163,7 +161,7 @@ Como puedes ver, solo cuenta con los 3 campos mencionados, hereda directamente d
 
 Ahora veamos la tercera manera de extender el model _User_ de Django.
 
-## Crear un perfil para extender el modelo User
+## Extiende el Django user model creando un perfil para el modelo User
 
 Otra manera de extender el modelo user es **crear otro modelo que sirva como un contenedor de los campos extras y luego relacionarlo por un campo _OneToOneField_** con el modelo que recibe por defecto la configuración de Django.
 

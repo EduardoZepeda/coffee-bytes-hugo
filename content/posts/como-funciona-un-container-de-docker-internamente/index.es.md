@@ -42,7 +42,7 @@ Para lograr lo anterior los docker, y las demás tecnologías de contenedores, e
 
 Voy a explicarlos muy brevemente pero tú puedes profundizarlos por tu cuenta si quieres.
 
-## Procesos, namespaces y cgroups en linux
+## Los contenedores de Docker usan procesos, namespaces y cgroups en linux
 
 ### Proceso
 
@@ -355,7 +355,7 @@ Generaremos dos archivos, dentro de nuestro cgroup, para establecer las directri
 
 Y listo, con eso tenemos un proceso con su propio sistema de archivos, aislado del sistema operativo principal y que puede acceder únicamente a una parte de los recursos.
 
-## ¿Cómo funciona un container en pocas palabras?
+## ¿Cómo funciona un container de Docker en pocas palabras?
 
 Resumiendo, es posible crear un container usando namespaces, cgroups y chroot, para aislar del exterior, limitar los recursos, y proveer de un sistema de archivos propio, respectivamente.
 

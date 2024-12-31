@@ -59,7 +59,7 @@ if edad < 18 {
 
 In go **there are several types of for** loops: counter, conditional, range and infinite.
 
-### Loops with counter
+### Loops with counter in Go
 
 This is the classic loop that you already know from Javascript, C++, etc. In which you declare a variable, specify a condition, and make changes to the variable.
 
@@ -71,9 +71,12 @@ for i:= 0; i < 10; i++ {
 }
 ```
 
-### Loop with conditional
+### Loop with conditional or while loops in go
 
-In this type of loop a condition is evaluated, if the result is _true_, the block is executed, if not, that block of code is skipped. This type of for loop would be the equivalent of the _while_ loop.
+In this type of loop a condition is evaluated, if the result is _true_, the block is executed, if not, that block of code is skipped. 
+
+{{<box type="info" message="This type of for loop would be the equivalent of the _while_ loop in another programming languages">}}
+
 
 ```go
 counter := 0
@@ -82,7 +85,7 @@ for counter < 10 {
 }
 ```
 
-### Loop with range
+### Golang's loops with range
 
 Range allows us to traverse an iterable structure from beginning to end and allows us to access the respective index and element. It is ideal for traversing _arrays_, _strings_, _slices_, _maps_, _channels_ and any structure that can be traversed.
 

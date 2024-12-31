@@ -77,3 +77,12 @@ Observa el dominio en el que se ejecuta nuestra aplicación de Django.
 ![Aplicación de Django corriendo en el dominio de Ngrok](images/NgrokTunnel-1.png)
 
 ¡Logramos poner nuestra aplicación al acceso de cualquier persona que tenga la url que ngrok nos provee!
+
+
+## Ngrok con Wordpress o React no funciona
+
+Si la conexión se queda colgada con Wordpress cuando intentas usar Ngrok, añade el siguiente flag a tu comando de ngrok. Este reescribirá el header host en la petición HTTP y solucionará tu problema.
+
+``` bash
+ngrok http <puerto> --host-header=rewrite
+```
