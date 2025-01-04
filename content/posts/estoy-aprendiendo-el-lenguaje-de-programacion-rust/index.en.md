@@ -35,7 +35,7 @@ When I was reading about this I found this video helpful to learn borrowing:
 
 ### Understanding the Lifetimes in Rust is difficult
 
-This concept is also I haven't seen elsewhere, Lifetimes are used to manually tell the compiler the duration (lifetime) of a variable, in cases where the compiler cannot infer it automatically. Once you understand them, lifetimes are simple in practice but they can reduce the readability of the code, especially if you have never seen them before. 
+I haven't read about this concept elsewhere, Lifetimes are used to manually tell the compiler the duration (lifetime) of a variable, in cases where the compiler cannot infer it automatically. Once you grasp the concept, lifetimes are simple in practice but they can reduce the readability of the code, especially if you have never seen them before. 
  
 ![How it feels when you first read about lifetimes](https://i.imgflip.com/972opz.jpg "How it feels when you first read about lifetimes")
 
@@ -180,7 +180,6 @@ impl<T: Display> HogwartsReportCard<T> {
 }
 ```
 
-{{<ad>}}
 
 ## Rust is not so hard to learn
 
@@ -200,6 +199,10 @@ Lastly, here are some resources you can use to learn Rust, but please consider t
 
 Rust has its own bible, called ["The Rust book", available in multiple languages](https://doc.rust-lang.org/book/appendix-06-translation.html), [Spanish included](https://github.com/RustLangES/rust-book-es). The book is surprisingly well explained and very Foolproof, although it is a bit long, but it is understandable given the large amount of concepts to be exposed.
 
+### Educative
+
+If reading a thick book is not your style and you prefer premium education, educative has some [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr) for less than the price a well served meal.
+
 ### Youtube channels to learn Rust
 
 I also found that the videos of [Code to the Moon](https://www.youtube.com/@codetothemoon), are quite easy to understand and the author of the channel explains very well the concepts of Rust.
@@ -207,7 +210,10 @@ I also found that the videos of [Code to the Moon](https://www.youtube.com/@code
 The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty) also has some tutorials that will help you understand the concepts better.
 
 ### Rustlings
+
 Rustlings contains a [series of exercises to learn and practice Rust](https://github.com/rust-lang/rustlings) while reading the Rust book.
+
+{{<ad>}}
 
 When you finish all Rustling's exercises you receive this prize.
 

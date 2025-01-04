@@ -179,8 +179,6 @@ impl<T: Display> Report<T> {
 }
 ```
 
-{{<ad>}}
-
 ## Rust no es tan difícil de aprender
 
 Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
@@ -199,6 +197,10 @@ Para finalizar este post, te comparto algunos recursos que puedes usar para apre
 
 Rust cuenta con su propia biblia, llamada ["The Rust book", disponible en múltiples idiomas](https://doc.rust-lang.org/book/appendix-06-translation.html), [español incluido](https://github.com/RustLangES/rust-book-es). El libro está muy bien explicado y es muy fácil de seguir, eso sí, es un poco largo, aunque es entendible dada la gran cantidad de conceptos a exponer.
 
+### Educative
+
+Si leer un libro grueso no es tu estilo y prefieres una educación de primera, educative tiene [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr) por menos del precio de una comida bien servida.
+
 ### Canales de youtube para aprender Rust
 
 También encontré que los videos de [Code to the Moon (en inglés)](https://www.youtube.com/@codetothemoon), son bastante sencillos de entender y el autor del canal explica muy bien los conceptos de Rust.
@@ -208,3 +210,7 @@ El canal [Let's get Rusty (en inglés)](https://www.youtube.com/@letsgetrusty) t
 ### Rustlings
 
 Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https://github.com/rust-lang/rustlings) a la par que se lee la biblia de Rusto.
+
+{{<ad>}}
+
+![La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art](https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png "La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art")
