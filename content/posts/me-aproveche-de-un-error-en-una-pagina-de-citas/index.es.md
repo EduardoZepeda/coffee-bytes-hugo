@@ -36,7 +36,9 @@ Las imágenes reales eran servidas por el CDN de esta aplicación y posteriormen
 
 Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API](/es/caracteristicas-basicas-de-una-api-rest/), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
 
-## ¿Cómo ocultar imágenes en apps de citas?
+{{<ad>}}
+
+## ¿Cómo ofuscar imágenes en apps de citas?
 
 Ciertamente este era un error de arquitectura, es cierto que es muy sencillo realizar el tratamiento de las imágenes en el frontend, con CSS, pero una mejor opción hubiera sido usar un set de imágenes genéricas para todas las cuentas. 
 

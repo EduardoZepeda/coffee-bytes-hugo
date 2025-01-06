@@ -37,7 +37,9 @@ The actual images were served by the CDN of this app and then a filter was appli
 
 Unfortunately it was impossible to get any other data from the pictures or from the URL structure, [API calls](/en/basic-characteristics-of-an-api-rest-api/), or any other given; neither the name, nor the profile nor any other information was accessible other than the profile picture.
 
-## How to hide images in dating apps?
+{{<ad>}}
+
+## How to obfuscate images in dating apps?
 
 Certainly this was an architectural mistake, it is true that it is very easy to hide the images in the frontend, with CSS, you save disk space and avoid processing time in the backend, but a better option would have been to use a set of generic images for all accounts. 
 
