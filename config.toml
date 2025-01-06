@@ -80,10 +80,10 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 disablesearch = false
 modalcountdown = 2
-prePostAffiliateDescription = "You have no excuses now, use this free credit to launch your projects now on Digital Ocean, you're free to spend it whenever you want within the following 60 days."
+prePostAffiliateDescription = "You have no excuses now, use this free credit to launch your projects now on Digital Ocean."
 prePostAffiliateLink = "https://m.do.co/c/a22240ebb8e7"
-prePostAffiliateText = "Get FREE $200 USD credit now"
-prePostAffiliateTitle = "Don't miss this free $200 USD credit (Valid for 60 days) on DO, launch your idea now"
+prePostAffiliateText = "Register and get FREE $200 USD"
+prePostAffiliateTitle = "Don't miss this free $200 USD credit (Only valid for 60 days) on DO, launch your idea now"
 subscribebannertext = "Get my FREE Python cheats guide."
 subscribedescription = """
                           ✅ To access just subscribe to the newsletter, it's completely  <strong>completely free.</strong> <br>
@@ -161,9 +161,9 @@ disablesearch = false
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
 modalcountdown = 2
-prePostAffiliateDescription = "Utiliza este crédito gratuito para lanzar tus proyectos ahora en Digital Ocean, eres libre de gastarlo cuando quieras en los siguientes 60 días."
+prePostAffiliateDescription = "Utiliza este crédito para lanzar tus proyectos ahora en Digital Ocean, válido por 60 días"
 prePostAffiliateLink = "https://m.do.co/c/a22240ebb8e7"
-prePostAffiliateText = "Quiero mis $200 USD"
+prePostAffiliateText = "Quiero registrarme y obtener $200 USD"
 prePostAffiliateTitle = "No te pierdas este crédito gratuito de 200 USD (Válido durante 60 días) en DO, lanza tu proyecto ahora"
 subscribebannertext = "¡Llévate GRATIS mi guía de trucos de Python!"
 subscribedescription = """
