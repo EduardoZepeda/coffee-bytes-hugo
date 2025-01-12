@@ -18,6 +18,8 @@ title: "Comandos Básicos de Linux: passwd du useradd usermod fdisk apt"
 
 Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor entra en la primera parte donde hablo de[grep, ls, cd, history, cat, cp, rm, scp.](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/). También tengo una parte donde hablo de [los comandos passwd, du, useradd, usermod, fdisk, lscpu, apt, which.](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/).
 
+Para esta entrada asumo que estás usando una distribución basada en Debian, ya que estoy usando apt en lugar de rpm.
+
 Vamos a empezar con el comando uname, para situarnos un poco en el contexto del sistema operativo con el que estamos trabajando.
 
 ## uname
@@ -373,6 +375,22 @@ Una vez que ya sabemos que paquetes podemos actualizar, podemos actualizarlos co
 
 ```bash
 sudo apt upgrade
+```
+
+## apt source
+
+Descarga el código fuente de un binario específico, para eso deben estar habilitados los repositorios de codigo fuente,  *deb-src* en debian.
+
+``` bash
+sudo apt source <program>
+```
+
+## apt build-dep 
+
+Instalar todas las dependencias de desarrollo necesarias para un binario
+
+```bash
+sudo apt build-dep <program>
 ```
 
 ## exit

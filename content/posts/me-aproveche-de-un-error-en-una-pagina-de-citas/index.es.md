@@ -32,7 +32,7 @@ Sonaba demasiado obvio, de igual forma, abrí la consola de desarrollador de mi 
 
 ## Procesamiento de imágenes de esta app de citas
 
-Las imágenes reales eran servidas por el CDN de esta aplicación y posteriormente aplicaban un filtro para ocultarlas, por lo que, para saber quien te había dado like, bastaba con remover el filtro. 
+Las imágenes reales eran servidas por el CDN de la aplicación y posteriormente aplicaban un filtro para ocultarlas, por lo que, para saber quien te había dado like, bastaba con remover el filtro. 
 
 Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API](/es/caracteristicas-basicas-de-una-api-rest/), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
 
@@ -52,9 +52,9 @@ flowchart TD
 
 ## Explotando el error con una extensión de navegador
 
-Para aprovecharme del error, cree un pequeño script en Javascript y lo integré a una extensión para automatizar el proceso de desbloquearlas cada vez que entraba a la página.
+Para aprovecharme del error, cree un pequeño script en Javascript que obtenía todas las imágenes y removía la clase que aplicaba el filtro blur, posteriormente lo integré a una extensión de navegador para automatizar el proceso de desbloquearlas cada vez que entraba a la página.
 
 Este pequeño descuido por parte de los desarrolladores duró activo cerca de dos años. Actualmente ya ha sido solucionado por lo que si intentas buscar el error en las páginas principales de citas, ya no lo encontrarás, y esta es también la razón principal por la que decidí publicar sobre ello.
 
-La aplicación modificó el código para su versión web, dejando casi intacta el resto de la UI y escogió crear un thumbnail protegido para cada cuenta, pero procesándolo desde el backend, para que sea completamente imposible conseguir la imagen real.
+Los desarrolladores a cargo de la aplicación modificaron el código para su versión web, dejando casi intacta el resto de la UI y escogió crear un thumbnail protegido para cada cuenta, pero procesándolo desde el backend, para que sea completamente imposible conseguir la imagen real.
 

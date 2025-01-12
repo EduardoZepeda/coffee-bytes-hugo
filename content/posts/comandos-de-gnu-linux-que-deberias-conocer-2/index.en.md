@@ -14,7 +14,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//). I also have a [third part of GNU/Linux commands available](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
+This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//). I also have a [third part of GNU/Linux commands available](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/). 
+
+For this entry I'm assuming you're using a Debian-based distribution, since I'm using apt instead of rpm.
 
 Let's start with the uname command, to put ourselves in the context of the operating system we are working with.
 
@@ -371,6 +373,22 @@ Once we know which packages we can upgrade, we can upgrade them with the apt upg
 
 ```bash
 sudo apt upgrade
+```
+
+## apt source
+
+Download the source code of a specific binary, for that the source code repositories must be enabled, *deb-src* in debian.
+
+``` bash
+sudo apt source <program>
+```
+
+## apt build-dep 
+
+Install all the required dev dependencies for a binary
+
+```bash
+sudo apt build-dep <program>
 ```
 
 ## exit
