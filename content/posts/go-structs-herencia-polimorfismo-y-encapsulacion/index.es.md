@@ -158,20 +158,25 @@ fmt.Println(*nier)
 // {Nier 2017}
 ```
 
-## Herencia en structs
+## Herencia en structs en Golang
 
 Go **no cuenta con una palabra para declarar herencia en los structs**, sin embargo sí tiene algo parecido. Para que un struct en go posea todos los campos que declara otro struct, le pasamos este último como un campo anónimo.
 
+### Extender un struct en Golang
+
+Para que un struct en go tenga todos los campos declarados por otro struct, pasamos este último como campo anónimo a otro struct.
+
 ```go
-type Persona struct {
-    Nombre string
-    Apellido string
+type Person struct {
+    Name string
+    Lastname string
 }
 
-type Profesor struct {
-    Persona
+type Professor struct {
+    Person
 }
 ```
+
 
 ## Polimorfismo usando interfaces en go
 

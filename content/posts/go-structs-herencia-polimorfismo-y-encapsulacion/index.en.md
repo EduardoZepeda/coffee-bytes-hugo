@@ -169,9 +169,11 @@ fmt.Println(*nier)
 // {Nier 2017}
 ```
 
-## golang inheritance using structs
+## Golang inheritance using structs
 
-Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python. 
+Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python.
+
+### Extend a struct in Golang
 
 For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field to another struct.
 

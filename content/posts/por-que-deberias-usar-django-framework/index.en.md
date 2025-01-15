@@ -21,6 +21,10 @@ authors:
 
 Why use Django in a world where everything is Javascript? Is it really worth learning a Python Framework in an ecosystem that insists on Frameworks written in Javascript? Well, I think so, and here are some of the reasons why you should use Django. And, in order not to lose objectivity, I will talk about the advantages as well as the disadvantages; you know that no solution is perfect.
 
+## Is django a backend framework or a frontend framework?
+
+Django is a full-stack framework that can be used solely for backend. What makes it a full-stack framework is that it has a template engine with its own syntax, able to generate HTML on the fly, but it's completely optional, you can configure it to serve only JSON or any other type of API response you want and use React, Vue, Jquery, or whatever you want, on the frontend instead.
+
 ## Advantages and disadvantages of Django TLDR
 - Disadvantages of Django
   - Django is a monolith
