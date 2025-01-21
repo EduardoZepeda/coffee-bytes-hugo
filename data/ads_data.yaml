@@ -51,10 +51,10 @@ en:
     linkText: I want to learn Typescript
     title: Don't settle with Javascript, learn Typescript too
   linux and devops:
-    description: If you're looking to learn Docker so you can work as a devops engineer or as the basis for learning kubernetes, you need to learn network fundamentals, git and github (to track your k8s yml files), containers and docker, I've written a few entries on them, but if you're going serious, why don't you invest a few bucks on an online course (like educative's devops path) and a certificate and get rid of all the hassle of looking for free courses here and there
-    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
-    linkText: I want to learn Kubernetes
-    title: How to kubernetes?
+    description: You must feel comfortable using linux, that's why you're here right? for people like you who are not afraid of getting their hands dirty and prefer to customize their own environment instead of others deciding for them, the best option is a VPS (Virtual Private Server), and the cheapest one I've found so far is Digital Ocean, starting from $4 USD per month. Check it out, and take advantage of the free credits they offer if you register.
+    link: https://m.do.co/c/a22240ebb8e7
+    linkText: Visit Digital Ocean site
+    title: Where to host this kind of application?
   opinions:
     description: Lately I've been experimenting with online courses, I've tried several platforms and I've enjoyed Educative's platform so far and the wide variety of online courses they offer. If you are looking to sharpen your skills and take them to the next level maybe you should consider spending a few dollars in your education.
     link: https://www.educative.io/unlimited?aff=xkQr
@@ -147,10 +147,10 @@ es:
     linkText: Quiero aprender Typescript
     title: No te conformes con Javascript, aprende también Typescript
   linux y devops:
-    description: Si buscas dominar Docker para trabajar como ingeniero devops o para aprender kubernetes, será crucial que aprendas fundamentos de redes, git y github (para rastrear tus archivos yml de k8s), contenedores y docker. Ya he escrito unas cuantas entradas sobre ellos, pero si vas en serio, por qué no inviertes unos dólares en un curso online (como el devops path de educative) y un certificado y te quitas de encima todo el lío de buscar cursos gratuitos aquí y allá.
-    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
-    linkText: Quiero aprender devops
-    title: ¿Quieres aprender Docker y Kubernetes?
+    description: Debes sentirte cómodo usando linux, por eso estás aquí ¿verdad? para gente como tú que no teme ensuciarse las manos y prefiere personalizar su propio entorno en lugar de que otros decidan por ellos, la mejor opción es un VPS (Servidor Virtual Privado), y el más barato que he encontrado, al menos hasta ahora, es Digital Ocean, desde $4 USD al mes. Compruébalo, y aprovecha los créditos gratuitos que ofrecen si te registras.
+    link: https://m.do.co/c/a22240ebb8e7
+    linkText: Visitar DO
+    title: ¿Dónde hostear una aplicación como esta?
   opiniones:
     description: Últimamente he estado experimentando con cursos en línea, he probado varias plataformas y hasta ahora me ha gustado la plataforma de Educative y la gran variedad de cursos en línea que ofrecen. Si estás buscando perfeccionar tus habilidades y llevarlas al siguiente nivel tal vez deberías considerar gastar unos dólares en tu educación.
     link: https://www.educative.io/unlimited?aff=xkQr
