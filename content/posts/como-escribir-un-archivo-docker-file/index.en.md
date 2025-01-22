@@ -124,6 +124,8 @@ CMD allows you to run **one command once the container boots**, however any chan
 CMD [“gunicorn”, “--bind”, “:8000”, “--workers”, “2”, “project.wsgi”]
 ```
 
+{{<ad>}}
+
 ## Order is important in a Dockerfile
 
 Compiling a Dockerfile is a sequential process, each step creates an intermediate image that Docker can cache. 

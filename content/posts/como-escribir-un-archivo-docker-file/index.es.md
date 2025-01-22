@@ -162,6 +162,8 @@ Successfully built 6e3ffe358338
 Successfully tagged djangocontainer:0.1
 ```
 
+{{<ad>}}
+
 ## Compilar un Dockerfile usando docker build
 
 Para compilar un Dockerfile y crear una imagen personalizada creada a partir del contenido de nuestro archivo, basta con ejecutar el comando _docker build_ y establecer la localización del Dockerfile. _Docker build_ nos permite especificar un tagname y una versión, separados por dos puntos ":", usando la etiqueta _\--tag_. Nota que el punto de al final no es una mancha en tu pantalla o un error, sino que hace referencia a la carpeta en la que nos encontramos.
