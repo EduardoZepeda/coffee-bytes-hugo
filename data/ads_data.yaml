@@ -31,10 +31,10 @@ en:
     linkText: I want to learn FastAPI
     title: FastAPI is a great framework for API development
   git:
-    description: Sure, everyone can do git add and git commit, but not everyone can use git to its limits, if you don't know about cherry-picking, bisect or hooks, don't settle with the basis, go for the advanced git commands either with the courses below or wherever you want, but take action now.
+    description: Sure, everyone can do git add and git commit, but not everyone can use git to its limits, if you don't know about cherry-picking, bisect or hooks, don't settle for the basis, go for the advanced git commands either with the courses below or wherever you want, but take action now.
     link: https://www.educative.io/courses/learn-git-hard-way?aff=xkQr
     linkText: I want to learn advanced Git
-    title: Don't settle with git add and git commit
+    title: Don't settle for git add and git commit
   go:
     description: The other day I found this Go course that you could find handy so now I'm sharing it with you, it deals with Go's core constructs, advanced concepts like error-handling and networking, efficient programming techniques and common pitfalls of this badass language.
     link: https://www.educative.io/courses/the-way-to-go?aff=xkQr
@@ -49,7 +49,7 @@ en:
     description: If your Javascript skills are good enough to write some medium complexity applications, you should probably have noticed some of its weaknesses, Typescript was created to solve them, and there are platforms out there, like educative, which can teach you all you need to know about Typescript for a few bucks.
     link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
     linkText: I want to learn Typescript
-    title: Don't settle with Javascript, learn Typescript too
+    title: Don't settle for Javascript, learn Typescript too
   linux and devops:
     description: You must feel comfortable using linux, that's why you're here right? for people like you who are not afraid of getting their hands dirty and prefer to customize their own environment instead of others deciding for them, the best option is a VPS (Virtual Private Server), and the cheapest one I've found so far is Digital Ocean, starting from $4 USD per month. Check it out, and take advantage of the free credits they offer if you register.
     link: https://m.do.co/c/a22240ebb8e7
@@ -94,7 +94,7 @@ en:
     description: If your Javascript skills are good enough to write some medium complexity applications, you should probably have noticed some of its weaknesses, Typescript was created to solve them, and there are platforms out there, like educative, which can teach you all you need to know about Typescript for a few bucks.
     link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
     linkText: I want to learn Typescript
-    title: Don't settle with Javascript, learn Typescript too
+    title: Don't settle for Javascript, learn Typescript too
 es:
   algoritmos:
     description: Cuando la gente empieza a programar, normalmente empiezan aprendiendo la sintaxis de un lenguaje, pero la sintaxis de la mayoría de los lenguajes son bastante similares, lo que más importa es dominar los algoritmos y las estructuras de datos, el lenguaje más lento (lo siento Python) con un buen algoritmo puede superar al lenguaje más rápido con un mal algoritmo. Educative tiene unos buenos cursos sobre eso, certificado incluido
