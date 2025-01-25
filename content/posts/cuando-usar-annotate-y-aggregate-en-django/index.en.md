@@ -82,7 +82,7 @@ Before we talk about annotate and aggregate, let's make sure we know how to get 
 
 ## How to convert a queryset to SQL in Django?
 
-You probably already know the django ORM and have used it to do database lookups. But there is something that many people ignore: **it is possible to get the query, before Django processes and executes it, by printing the query property of our querysets.
+You probably already know the django ORM and have used it to do database lookups. But there is something that many people ignore: **it is possible to get the query, before Django processes and executes it, by printing the query property of our querysets.**
 
 That query must have an associated query, in SQL language, which we can access by printing the query property.
 
