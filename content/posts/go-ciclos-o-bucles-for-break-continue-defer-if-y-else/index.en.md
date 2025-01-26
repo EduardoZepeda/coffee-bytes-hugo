@@ -55,7 +55,7 @@ if edad < 18 {
 
 {{<ad>}}
 
-## Types of for loops in Go
+## For loops types in Go
 
 In go **there are several types of for** loops: counter, conditional, range and infinite.
 
