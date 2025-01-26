@@ -51,7 +51,7 @@ array := [4]int{0, 0, 0, 0}
 
 ## Slices en go
 
-Los slices son **colecciones mutables de tipos de datos**. Internamente es una abstracción de un array, con una diferencia, estos sí pueden modificarse.
+Los slices son **colecciones mutables de tipos de datos**. Internamente, un slice es una abstracción de un array, con la diferencia de que pueden modificarse.
 
 Sin embargo, al declarar un slice, y luego intentar modificar uno de sus índices, justo como haríamos con un array, tendremos un error. ¿Por qué? Porque un slice es una referencia, y al crearse vacío, estamos apuntando a la nada, a _nil_.
 
@@ -61,7 +61,9 @@ slice[0] = 1
 // panic: runtime error: index out of range [0] with length 0
 ```
 
-Internamente un _slice_ es un _struct_ con un apuntador al verdadero array. Además del pointer o apuntador, cuenta con| la propiedad llamada _cap_ y _len_, que se refieren a la capacidad y longitud del array, respectivamente.
+### Estructura interna de un slice en Go
+
+Como mencioné, un _slice_ es un _struct_ con un apuntador al verdadero array. Además del pointer o apuntador, cuenta con| la propiedad llamada _cap_ y _len_, que se refieren a la capacidad y longitud del array, respectivamente.
 
 ![Estructura de un slice en go](images/sliceGolang.png "Un apuntador del slice dirige a los datos que contiene")
 
@@ -81,7 +83,7 @@ fmt.Println(slice)
 // [1,0,0,0]
 ```
 
-Si intentamos añadir un elemento más allá de la capacidad que definimos obtendremos un error.
+Considera que si intentamos añadir un elemento más allá de la capacidad que definimos obtendremos un error.
 
 ```go
 slice[4] = 4
@@ -92,7 +94,7 @@ Para más detalles [revisa la documentación de la función make](https://pkg.go
 
 ### Creando slices con valores
 
-Podemos crear un slice en un solo paso, pasándole el contenido directamente, colocando entre llaves los elementos del slice, separados por comas.
+Además de usando make, es posible crear un slice en un solo paso, pasándole el contenido directamente, colocando entre llaves los elementos del slice, separados por comas.
 
 Observa como no especificamos el tamaño del slice.
 
@@ -100,7 +102,7 @@ Observa como no especificamos el tamaño del slice.
 var slice = []int{0, 1, 2, 3, 4}
 ```
 
-También es posible dejar que go detecte automáticamente que se trata de un slice usando el operador walrus ":=". Solo posible dentro de una función
+También es posible dejar que go detecte automáticamente que se trata de un slice usando el operador walrus ":=". Recuerda que esto solo posible dentro de una función
 
 ```go
 slice := []int{0, 1, 2, 3, 4}
@@ -118,7 +120,7 @@ slice[2:3]// { 2 }
 
 Si no especificamos uno de los dos, tomará la primera posición para el primer dígito y la última para el segundo dígito.
 
-### Extendiendo un slice
+### Extender un slice en Go
 
 Los slices son mutables, pueden extenderse usando la función _append_, la cual recibe cualquier número de elementos, separados por comas.
 
@@ -138,7 +140,7 @@ sliceHastaDiez = append(nuevoSlice, otroSliceExtendido...)
 // [1 2 3 4 6 5 6 7 8 9 10]
 ```
 
-## Recorrer array y slices con range
+## Recorrer o iterar array y slices con range
 
 Parecido a la sintaxis de Python, podemos recorrer un _array_, un _slice_ o un _map_ (hablaré de los maps en la siguiente entrada) usando _range_. Cada iteración nos devolverá el índice y el elemento del array o slice, o la llave y el valor en el caso de maps.
 

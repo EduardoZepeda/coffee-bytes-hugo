@@ -56,7 +56,7 @@ if edad < 18 {
 
 {{<ad>}}
 
-## Bucles for en go
+## Tipos de bucles for en go
 
 En go **existen varios tipos de bucles for**: con contador, con condicional, range y el infinito.
 
@@ -76,7 +76,7 @@ for i:= 0; i < 10; i++ {
 
 En este tipo de bucle se evalúa una condición, si el resultado es _true_, se ejecuta el bloque, si no, se brinca ese bloque de código. 
 
-{{<box type="info" message="Este tipo de bucle for sería el equivalente del bucle _while_ en otros lenguajes de programación.">}}
+{{<box type="info" message="Este tipo de bucle for sería el equivalente del bucle while en otros lenguajes de programación.">}}
 
 ```go
 counter := 0
@@ -172,7 +172,7 @@ loop:
 
 Nombramos a nuestro bucle como loop y ahora ejecutamos un bucle infinito que tendrá un bucle infinito en su interior. Este último bucle va a romper el bucle externo, de nombre _loop_, por lo que la segunda sentencia nunca va a imprimirse en pantalla.
 
-## continue
+## Como usar continue en Go
 
 Continue detiene la iteración actual del bucle y continua su ejecución en la siguiente iteración.
 
@@ -192,7 +192,7 @@ for counter < 10 {
 //4
 ```
 
-## ¿Qué es defer en Go?
+## ¿Qué hace defer en Go?
 
 Defer retrasa la ejecución de una linea de código hasta el final. del código. Es bastante similar a lo que hace el atributo _defer_ con etiqueta script de HTML.
 

@@ -61,6 +61,8 @@ slice[0] = 1
 // panic: runtime error: index out of range [0] with length 0
 ```
 
+### How does a slice in Go works?
+
 Internally a _slice_ is a _struct_ with a pointer to the real array. In addition to the pointer, it has a property called _cap_ and _len_, which refer to the capacity and length of the array, respectively.
 
 ![Structure of a slice in go](images/sliceGolang.png "A slice pointer points to the data it contains")
@@ -81,7 +83,7 @@ fmt.Println(slice)
 // [1,0,0,0]
 ```
 
-If we try to add an element beyond the capacity we defined we will get an error.
+Consider that, if we try to add an element beyond the capacity we defined we will get an error.
 
 ```go
 slice[4] = 4
@@ -92,7 +94,7 @@ For more details [check the documentation of the make function](https://pkg.go.d
 
 ### Creating slices with values
 
-We can create a slice in a single step, passing the content directly to it, placing the elements of the slice between braces, separated by commas.
+Besides using make, we can create a slice in a single step, passing the content directly to it, placing the elements of the slice between braces, separated by commas.
 
 Notice how we do not specify the size of the slice.
 
@@ -106,7 +108,7 @@ It is also possible to let go automatically detect that it is a slice using the 
 slice := []int{0, 1, 2, 3, 4}
 ```
 
-### Partitioning slices
+### Partition an slice in Go
 
 The _slices_ can be split in a Python-like style, specifying an **inclusive position for the first digit and exclusive for the second digit**.
 
@@ -118,7 +120,7 @@ slice[2:3]// { 2 }
 
 If we do not specify one of the two, it will take the first position for the first digit and the last position for the second digit.
 
-### Extending a slice
+### Extend an slice in Go
 
 Slices are mutable, they can be extended using the _append_ function, which receives any number of elements, separated by commas.
 
@@ -138,7 +140,7 @@ sliceHastaDiez = append(nuevoSlice, otroSliceExtendido...)
 // [1 2 3 4 6 5 6 7 8 9 10]
 ```
 
-## Traverse array and slices with range
+## Iterate through arrays and slices with range
 
 Similar to Python syntax, we can traverse an _array_, a _slice_ or a _map_ (I'll talk about maps in the next post) using _range_. Each iteration will return the index and element of the array or slice, or the key and value in the case of maps.
 

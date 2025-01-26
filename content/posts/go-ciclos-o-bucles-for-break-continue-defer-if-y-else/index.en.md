@@ -55,7 +55,7 @@ if edad < 18 {
 
 {{<ad>}}
 
-## Loops for in go
+## Types of for loops in Go
 
 In go **there are several types of for** loops: counter, conditional, range and infinite.
 
@@ -75,7 +75,7 @@ for i:= 0; i < 10; i++ {
 
 In this type of loop a condition is evaluated, if the result is _true_, the block is executed, if not, that block of code is skipped. 
 
-{{<box type="info" message="This type of for loop would be the equivalent of the _while_ loop in another programming languages">}}
+{{<box type="info" message="This type of for loop would be the equivalent of the while loop in another programming languages">}}
 
 
 ```go
@@ -144,7 +144,7 @@ for {
 // The loop breaks here
 ```
 
-### Break in loops with name in go
+### Break named loops in go
 
 In other programming languages, such as Python, _break_ would break the immediate loop, i.e. the immediate loop it is in. Wouldn't it be great to be able to stop the outer loop from the inner loop? In go it is possible in a simple way
 
@@ -173,7 +173,7 @@ loop:
 
 We name our loop as loop and now we execute an infinite loop that will have an infinite loop inside it. This last loop will break the outer loop, named _loop_, so the second statement will never be printed on the screen.
 
-## continue
+## How to use continue in Go
 
 Continue stops the current iteration of the loop and continues its execution in the next iteration.
 
@@ -193,7 +193,7 @@ for counter < 10 {
 //4
 ```
 
-## defer
+## What does Defer do in Go?
 
 Defer delays the execution of a line of code until the end of the code. It is quite similar to what the _defer_ attribute with HTML script tag does.
 
