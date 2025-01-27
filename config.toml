@@ -30,10 +30,6 @@ weight = 2
 name = "About me"
 url = "/authors/eduardo-zepeda/"
 weight = 3
-[[languages.en.menu.main]]
-name = "Go tutorial"
-url = "/en/pages/go-programming-language-tutorial/"
-weight = 4
 [[languages.en.menu.footer]]
 name = "Privacy policy"
 url = "/pages/politica-de-privacidad/"
@@ -109,10 +105,6 @@ weight = 2
 name = "Sobre mi"
 url = "/authors/eduardo-zepeda/"
 weight = 3
-[[languages.es.menu.main]]
-name = "Tutorial de Go"
-url = "/es/pages/go-programming-language-tutorial/"
-weight = 4
 [[languages.es.menu.footer]]
 name = "Politica de privacidad"
 url = "/pages/politica-de-privacidad/"
