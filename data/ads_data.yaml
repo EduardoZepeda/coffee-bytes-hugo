@@ -81,9 +81,9 @@ en:
     linkText: null
     title: null
   software architecture:
-    description: It's super easy to learn the basis of programming, and languages' syntax, however learning how to structure big codebases and its flow is convoluted, because normally apps don't grow that big, and because is a relatively new area of knowledge, my favorite resources are "The system design interview series", but if you're not into books educative has a full course on system design too.
+    description: It's super easy to learn the basis of programming, and languages' syntax, however learning how to structure big codebases and its flow is convoluted, because normally apps don't grow that big, and because is a relatively new area of knowledge, my favorite resources are "The system design interview series", but if you're not into long books, educative has a full course on system design too.
     link: https://www.educative.io/path/deep-dive-into-system-design-interview?aff=xkQr
-    linkText: I'm all in for learning system design
+    linkText: Register and learn system design
     title: Where to learn software architecture?
   testing:
     description: null
