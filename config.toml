@@ -245,6 +245,7 @@ script-src = [
   "*.twitter.com",
   "*.x.com",
   "*.googletagmanager.com",
+  "https://unpkg.com/@iconify-json/logos@1/icons.json",
 ]
 style-src = ["'self'", "'unsafe-inline'"]
 
