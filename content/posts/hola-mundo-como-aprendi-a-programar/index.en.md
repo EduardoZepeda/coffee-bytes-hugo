@@ -94,4 +94,4 @@ At the risk of being a bit arrogant, I will say that the bootcamp was a piece of
 
 I went through the Bedu bootcamp at Colabora Coworking.
 
-Maybe in a future post I will talk about my experience in Bedu and Platzi, since this post is already getting quite long. If you want to ask me more about my experience, leave me a comment or send me a DM to [twitter](https://twitter.com/hello_wired) and I will tell you more about my experience.
+Maybe in a future post I will talk about my experience in Bedu and Platzi, since this post is already getting quite long. If you want to ask me more about my experience, leave me a comment or send me a DM to [twitter](https://twitter.com/hello_wired#?) and I will tell you more about my experience.

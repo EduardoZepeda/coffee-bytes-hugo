@@ -49,7 +49,7 @@ La comparación aquí va a tornarse algo injusta, pero la haré de todas formas:
 
 ### Python vs Go en fibonacci por recursión
 
-¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
+¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/#?) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
 
 ![Comparación de velocidad Python vs Go usando fibonacci por recursión](images/fibo-go-vs-python-velocidad.png "Go, al ser un lenguaje compilado, es descomunalmente más rápido que Python")
 
@@ -332,7 +332,7 @@ Los [containers de docker están escritos usando go](/es/container-de-docker-con
 
 ![Logos de tecnologías creadas con go](images/traeffik-y-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb y terraform están escritos en Go.")
 
-También se han creado herramientas tan geniales como [Pocketbase](https://pocketbase.io/), un excelente ejemplo de Backend as a service y alternative open source a firebase.
+También se han creado herramientas tan geniales como [Pocketbase](https://pocketbase.io/#?), un excelente ejemplo de Backend as a service y alternative open source a firebase.
 
 ### Usos comunes de Python
 
@@ -368,7 +368,7 @@ Puedes ver las librerías y funciones que tiene disponible en la sección [stand
 
 ### Paquetes en go
 
-Go no cuenta con un repositorio oficial de paquetes como sí lo tiene Python. Los paquetes se obtienen por medio de _go get_ (el equivalente de _pip_ en Python) de diferentes fuentes. Se extraña una solución estándar, tipo npm en javascript, pero puedes ver una lista de los paquetes disponibles en [Awesome Go.](http://awesome-go.com)
+Go no cuenta con un repositorio oficial de paquetes como sí lo tiene Python. Los paquetes se obtienen por medio de _go get_ (el equivalente de _pip_ en Python) de diferentes fuentes. Se extraña una solución estándar, tipo npm en javascript, pero puedes ver una lista de los paquetes disponibles en [Awesome Go.](http://awesome-go.com#?)
 
 La [importación de los modulos y paquetes en Go](/es/go-importacion-de-paquetes-y-manejo-de-modulos/) puede parecerte un tanto extraño, no existen las importaciones relativas, como en Python o en Javascript.
 

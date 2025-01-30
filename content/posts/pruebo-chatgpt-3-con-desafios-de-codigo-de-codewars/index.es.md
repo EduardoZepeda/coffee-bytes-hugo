@@ -20,7 +20,7 @@ title: Pongo a prueba a ChatGPT Con Desafios De Codigo De Codewars
 ChatGPT está rompiendo con todo lo conocido anteriormente en inteligencia artificial, algunos desarrolladores están preocupados de que [una Inteligencia Artificial pueda reemplazarlos en sus trabajos](/es/devin-de-cognition-labs-la-inteligencia-artificial-que-quiere-reemplazar-a-los-programadores/), justo como amenazó Github Copilot en su momento. En esta entrada pongo a prueba la [supuesta inteligencia de ChatGPT](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/) contra tres desafios de codewars. 
 ## ¿Cómo funciona Codewars?
 
-Antes de empezar necesitas entender que [Codewars](https://www.codewars.com) es una red social de programadores en la que se comparten desafios de código escritos por los mismos usuarios. Cada desafio puede ponerse a prueba con una serie de pruebas y, si las pasa todas, el desafio se considera completado. Estos desafios tienen el nombre de katas.
+Antes de empezar necesitas entender que [Codewars](https://www.codewars.com#?) es una red social de programadores en la que se comparten desafios de código escritos por los mismos usuarios. Cada desafio puede ponerse a prueba con una serie de pruebas y, si las pasa todas, el desafio se considera completado. Estos desafios tienen el nombre de katas.
 
 Cada kata posee un nivel de dificultad, definido por su número de kyu (como en las artes marciales), siendo los números más altos los más fáciles y los más pequeños los más difíciles, yendo desde el 8vo kyu al 1er kyu.
 
@@ -51,7 +51,7 @@ Para estas pruebas traté de elegir un punto medio entre aquellas pruebas con re
 
 ## ChatGPT vs Rotate matrix counter - clockwise N - times! (6 kyu)
 
-El desafio de la [prueba Rotate matrix counter - clockwise N - times!](https://www.codewars.com/kata/5919f3bf6589022915000023) es: In this kata your mission is to rotate matrix counter - clockwise N-times. Es decir, rotar una matriz contra reloj "n" numero de veces.
+El desafio de la [prueba Rotate matrix counter - clockwise N - times!](https://www.codewars.com/kata/5919f3bf6589022915000023#?) es: In this kata your mission is to rotate matrix counter - clockwise N-times. Es decir, rotar una matriz contra reloj "n" numero de veces.
 
 El input que usé en ChatGPT para generar el código es el siguiente: Create a function that rotates a matrix counter-clockwise "n" number of times.
 
@@ -88,7 +88,7 @@ Quiero resaltar que ChatGPT produce código sintácticamente correcto, respetand
 
 ## ChatGPT vs Find the nth Reverse Number (Extreme)
 
-El desafio [Find the nth Reverse Number](https://www.codewars.com/kata/600c18ec9f033b0008d55eec) consiste en: You need to return the nth reverse number. (Assume that reverse numbers start from 0 as shown in the example.)
+El desafio [Find the nth Reverse Number](https://www.codewars.com/kata/600c18ec9f033b0008d55eec#?) consiste en: You need to return the nth reverse number. (Assume that reverse numbers start from 0 as shown in the example.)
 
 Es decir, encontrar el palíndromo número "n" y con la condición adecuada de hacerlo con un excelente rendimiento de Big O.
 
@@ -138,7 +138,7 @@ Intenté obtener la respuesta correcta múltiples veces, incluso especificando l
 
 ## ChatGPT vs Regular Expression for Binary Numbers Divisible by n (1 kyu)
 
-El desafio de [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068) es: Create a function that will return a regular expression string that is capable of evaluating binary strings (which consist of only 1s and 0s) and determining whether the given string represents a number divisible by n.
+El desafio de [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068#?) es: Create a function that will return a regular expression string that is capable of evaluating binary strings (which consist of only 1s and 0s) and determining whether the given string represents a number divisible by n.
 
 ![Prueba división de números binarios con ChatGpt](images/binary-division-ChatGPT.png "Prueba división de números binarios con ChatGpt")
 

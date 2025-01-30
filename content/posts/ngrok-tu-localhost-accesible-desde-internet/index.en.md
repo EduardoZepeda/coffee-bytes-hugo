@@ -29,7 +29,7 @@ What Ngrok does is to serve as a tunnel that redirects any web request, through 
 
 ## Ngrok installation
 
-To install Ngrok let's go to [their website](https://ngrok.com/) and create an account or log in. You can use Github or Gmail if you don't want to register and follow the installation instructions.
+To install Ngrok let's go to [their website](https://ngrok.com/#?) and create an account or log in. You can use Github or Gmail if you don't want to register and follow the installation instructions.
 
 ## Basic use of ngrok
 

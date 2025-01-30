@@ -123,4 +123,4 @@ Videogame.squarenix_videogames.filter(titulo__icontains='Kingdom Hearts') #Devue
 
 And that's all. Now that you know that you can create as many managers as you want that will give you as many filtered searches as you need.
 
-If you want to know more about managers, please check [the official Django documentation](https://docs.djangoproject.com/en/3.2/topics/db/managers/)
+If you want to know more about managers, please check [the official Django documentation](https://docs.djangoproject.com/en/3.2/topics/db/managers/#?)

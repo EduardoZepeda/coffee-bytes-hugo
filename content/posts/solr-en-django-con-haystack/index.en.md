@@ -59,7 +59,7 @@ Solr has many [advanced features, such as autocomplete, suggestions, search by f
 
 ## Solr installation and configuration
 
-To install it we need to download the appropriate version from the [Solr download page](https://solr.apache.org/downloads.html). For this entry I will use the following dependencies:
+To install it we need to download the appropriate version from the [Solr download page](https://solr.apache.org/downloads.html#?). For this entry I will use the following dependencies:
 
 * Solr: version 8.9.0
 * Django: version 4.0.4

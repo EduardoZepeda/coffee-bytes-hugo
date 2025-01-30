@@ -29,7 +29,7 @@ Lo que hace Ngrok (Recuerda que ngrock y negrok están mal escritos) es servir c
 
 ## Instalación de Ngrok
 
-Para instalar Ngrok entra directamente en [su sitio web](https://ngrok.com/) y creemos una cuenta o iniciemos sesión. Puedes usar Github o Gmail si no quieres registrarte.
+Para instalar Ngrok entra directamente en [su sitio web](https://ngrok.com/#?) y creemos una cuenta o iniciemos sesión. Puedes usar Github o Gmail si no quieres registrarte.
 
 ## Uso básico de ngrok
 

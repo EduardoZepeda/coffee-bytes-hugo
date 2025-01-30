@@ -145,4 +145,4 @@ Here are some options to practice algorithms.
 
 * [codewars](/en/top-5-favorite-algorithm-problems-at-codewars/)
 * [One algorithm a day](/en/an-algorithm-problem-a-day/)
-* [HackerRank](https://www.hackerrank.com/)
+* [HackerRank](https://www.hackerrank.com/#?)

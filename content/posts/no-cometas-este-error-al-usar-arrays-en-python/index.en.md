@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-The other day I was solving a kata in [codewars](http://www.codewars.com/r/qsX8Ww), one of the steps of the problem needed a two-dimensional array, in more mundane words: an array of arrays. In Python it is super simple to create a two-dimensional array using the multiplication operator, as if it were numbers.
+The other day I was solving a kata in [codewars](http://www.codewars.com/r/qsX8Ww#?), one of the steps of the problem needed a two-dimensional array, in more mundane words: an array of arrays. In Python it is super simple to create a two-dimensional array using the multiplication operator, as if it were numbers.
 
 ```python
 arr = [0]*5

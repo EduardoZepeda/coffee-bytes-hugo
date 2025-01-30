@@ -76,7 +76,7 @@ Voy a explicarte cuatro ejemplos de patrones de diseño en Python a continuació
 
 ### Patrón de diseño singleton
 
-Se usa cuando se quiere prevenir la creación de múltiples instancias de un mismo objeto. Por ejemplo, no querremos dos objetos que controlen el mouse o la impresora ejecutándose al mismo tiempo. Su uso indiscriminado es [considerado por muchos un antipatrón.](http://97cosas.com/programador/resiste-tentacion-singleton.html)
+Se usa cuando se quiere prevenir la creación de múltiples instancias de un mismo objeto. Por ejemplo, no querremos dos objetos que controlen el mouse o la impresora ejecutándose al mismo tiempo. Su uso indiscriminado es [considerado por muchos un antipatrón.](http://97cosas.com/programador/resiste-tentacion-singleton.html#?)
 
 El truco de su funcionamiento ocurre en el método *new*. Este método se llama cuando se crea una clase y recibe la misma clase como parámetro.  
 Al crearse un nuevo objeto revisará si existe el atributo *instancia* en nuestra clase. Si no detecta el atributo *instance* creará una instancia de la clase *SingletonObject* y la asignará a *instance*. Posteriormente la retornará. En cambio, si la detecta, simplemente la retornará.

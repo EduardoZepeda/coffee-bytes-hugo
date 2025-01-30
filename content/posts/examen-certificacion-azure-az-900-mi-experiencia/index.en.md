@@ -33,7 +33,7 @@ To achieve the above you need to know the basic architecture of Azure, its diffe
 
 ## My examination process
 
-The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting. That wasn't my case though.
+The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/#?), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting. That wasn't my case though.
 
 ![Evaluaasi platform](images/evaluaasi-plataforma.jpg "Evaluaasi platform home screen")
 
@@ -97,7 +97,7 @@ It is a 3-hour review in English, in which they explain the basics of the Azure 
 
 ## How much does AZ-900 certification cost? Is it free?
 
-The certification costs **about $90 USD directly with microsoft**, but I got it for free as part of a [Platzi learning platform certification challenge](https://platzi.com/r/eduardo-zepeda).
+The certification costs **about $90 USD directly with microsoft**, but I got it for free as part of a [Platzi learning platform certification challenge](https://platzi.com/r/eduardo-zepeda#?).
 
 I understand that if you sign up for the Microsoft Learn e-learning platform, they usually give away coupons from time to time.
 

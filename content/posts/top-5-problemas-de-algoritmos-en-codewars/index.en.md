@@ -43,7 +43,7 @@ Requirement: Each line must have at most 2 characters, and the total number of l
 
 Hint: It is possible to complete it in only 28 lines of code.
 
-Original Kata: [Multi Line Task++: Hello World](https://www.codewars.com/kata/59a421985eb5d4bb41000031)
+Original Kata: [Multi Line Task++: Hello World](https://www.codewars.com/kata/59a421985eb5d4bb41000031#?)
 
 ### Note on Kata
 
@@ -98,7 +98,7 @@ For extreme cases of small spirals, the size will be at least 5.
 
 As a general rule, the snake made of 1s cannot touch itself.
 
-Original Kata: [Make a spiral](https://www.codewars.com/kata/534e01fbbb17187c7e0000c6)
+Original Kata: [Make a spiral](https://www.codewars.com/kata/534e01fbbb17187c7e0000c6#?)
 
 ### Note on Kata
 
@@ -116,7 +116,7 @@ This time you won't be able to do the other Kata thing.
 
 Nor can you use require.
 
-Kata original: [The soul of wit: reverse an array](https://www.codewars.com/kata/59b81886460387d8fc000043)
+Kata original: [The soul of wit: reverse an array](https://www.codewars.com/kata/59b81886460387d8fc000043#?)
 
 ### Note on Kata
 
@@ -187,7 +187,7 @@ Within this 2D grid:
 '^', '<', 'v' or '>' Tu cuerpo mirando hacía la parte superior, izquierda, inferior, o derecha, respectivamente, del mapa.
 ```
 
-Original Kata: [Escape the maze](https://www.codewars.com/kata/5877027d885d4f6144000404)
+Original Kata: [Escape the maze](https://www.codewars.com/kata/5877027d885d4f6144000404#?)
 
 ### Note on Kata
 

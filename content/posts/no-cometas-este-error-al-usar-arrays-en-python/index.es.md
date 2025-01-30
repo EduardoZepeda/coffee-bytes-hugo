@@ -18,7 +18,7 @@ keywords:
 title: No cometas este error al usar arrays en Python
 ---
 
-El otro día estaba resolviendo una kata en [codewars](http://www.codewars.com/r/qsX8Ww), uno de los pasos del problema necesitaba de una matriz bidimensional, en palabras más mundanas: un array de arrays. En Python es súper sencillo crear una matriz bidimensional usando el operador de multiplicación, como si se tratara de números.
+El otro día estaba resolviendo una kata en [codewars](http://www.codewars.com/r/qsX8Ww#?), uno de los pasos del problema necesitaba de una matriz bidimensional, en palabras más mundanas: un array de arrays. En Python es súper sencillo crear una matriz bidimensional usando el operador de multiplicación, como si se tratara de números.
 
 ```python
 arr = [0]*5

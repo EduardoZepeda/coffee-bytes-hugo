@@ -90,13 +90,13 @@ Te dejo una lista de algunas de mis soluciones favoritas para ahorrarte todo el 
 - [Wordpress: porque ya tu sabe'](/es/programar-un-blog-o-usar-wordpress/)
 - Ruby on Rails: Framework maduro, con mucha trayectoria y fácil de usar
 - AdonisJs: Javascript con ORM y autenticación incluida
-- Coolify: [Coolify es una alternative a plataformas como Vercel/Netifly/Heroku](https://coolify.io/), pero open source y con licensia permisiva.
+- Coolify: [Coolify es una alternative a plataformas como Vercel/Netifly/Heroku](https://coolify.io/#?), pero open source y con licensia permisiva.
 - [Django: por su facilidad de tener un MVP rápido](/es/por-que-deberias-usar-django-framework/). Además, al ser un framework muy maduro, hay mucha información sobre [como escalarlo para manejar hasta un millón de usuarios](/es/como-escalar-django-para-manejar-millones-de-vistas/)
-- [Pocketbase: Backend portátil hecho en Go, un solo binario, autenticación y CRUD](https://pocketbase.io/)
+- [Pocketbase: Backend portátil hecho en Go, un solo binario, autenticación y CRUD](https://pocketbase.io/#?)
 - Supabase: Otro backend portátil, pero en Javascript
-- Appwrite: [Autenticación, base de datos, funciones, almacenamiento y mensajes](https://appwrite.io/)
+- Appwrite: [Autenticación, base de datos, funciones, almacenamiento y mensajes](https://appwrite.io/#?)
 - [Cookiecutter: plantillas para ahorrarte Boilerplate, el de Django es muy bueno](/es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/)
-- [Autoestrada: Autenticación, JWT, base de datos y más en Go](https://autostrada.dev/)
+- [Autoestrada: Autenticación, JWT, base de datos y más en Go](https://autostrada.dev/#?)
 - Hugo: Generador de sitios estáticos, suficientemente rápido (aunque no tanto como su version en Rust, Zola)
 - Herramientas no-code
 - Daisy UI: Librería de componentes basada en Tailwindcss

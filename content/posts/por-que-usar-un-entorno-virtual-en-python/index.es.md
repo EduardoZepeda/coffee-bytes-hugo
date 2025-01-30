@@ -32,7 +32,7 @@ Decides que está bien, no pasa nada, así que decides trabajar así. Cuando ter
 
 ## ¿Y si usamos máquinas virtuales?
 
-Podríamos solucionar el problema anterior instalando una máquina virtual, como [virtualbox](https://www.virtualbox.org/). Dentro de cada máquina virtual seriamos capaces de instalar las dependencias de nuestro proyecto a medida. Además tendríamos tantas como proyectos. Y funcionaría, ¿no? Bueno sí, pero con un gran inconveniente: hay que cargar todo un sistema operativo completo para tener unas cuentas dependencias. Es demasiada carga a nuestro sistema para resultar práctico.
+Podríamos solucionar el problema anterior instalando una máquina virtual, como [virtualbox](https://www.virtualbox.org/#?). Dentro de cada máquina virtual seriamos capaces de instalar las dependencias de nuestro proyecto a medida. Además tendríamos tantas como proyectos. Y funcionaría, ¿no? Bueno sí, pero con un gran inconveniente: hay que cargar todo un sistema operativo completo para tener unas cuentas dependencias. Es demasiada carga a nuestro sistema para resultar práctico.
 
 Las máquinas virtuales consumen demasiado espacio en disco duro y el tiempo de arranque de cada máquina virtual es desalentador. La interacción entre nuestro sistema y una máquina virtual puede llegar a ser complicada. Después de todo, no necesitamos cargar todo un sistema operativo, sino solo código Python.
 

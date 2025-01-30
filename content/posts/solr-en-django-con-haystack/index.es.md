@@ -59,7 +59,7 @@ Solr cuenta con muchas [funciones avanzadas, tales como autocompletado, sugerenc
 
 ## Instalación y configuración de Solr
 
-Para instalarlo necesitamos descargar la versión adecuada desde la [página de descargas de Solr](https://solr.apache.org/downloads.html). Para esta entrada usaré las siguientes dependencias: 
+Para instalarlo necesitamos descargar la versión adecuada desde la [página de descargas de Solr](https://solr.apache.org/downloads.html#?). Para esta entrada usaré las siguientes dependencias: 
 
 * Solr: versión 8.9.0
 * Django: version 4.0.4

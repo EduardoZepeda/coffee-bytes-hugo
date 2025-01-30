@@ -29,7 +29,7 @@ Python y Javascript son dos de los lenguajes más populares entre las personas q
 
 Javascript se usa, principalmente, para desarrollar aplicaciones web. Es el lenguaje por defecto de los navegadores web, pero su versatilidad no se detiene ahí; Node permite utilizarlo también en tu ordenador, para ser usado como un lenguaje del lado del servidor, crear APIs, servidores, incluso al machine learning, aunque no es tan popular como Python en este rubro.
 
-~~En los últimos años hay rumores de que [deno](https://deno.land/), hecho por el creador de Node js, reemplazará a node, su predecesor, pero son solo eso, rumores.~~ Además de Node, Javascript cuenta con muchísimos motores, tales como [Bun](https://bun.sh/) [winterJS](https://github.com/wasmerio/winterjs) que ofrecen un rendimiento superior y más amenidades que Node.
+~~En los últimos años hay rumores de que [deno](https://deno.land/#?), hecho por el creador de Node js, reemplazará a node, su predecesor, pero son solo eso, rumores.~~ Además de Node, Javascript cuenta con muchísimos motores, tales como [Bun](https://bun.sh/#?) [winterJS](https://github.com/wasmerio/winterjs#?) que ofrecen un rendimiento superior y más amenidades que Node.
 
 ### Python para AI y machine learning
 
@@ -148,7 +148,7 @@ console.log(1 + "1")
 "11"
 ```
 
-¡No pasa nada! El intérprete de Javascript los suma sin problema alguno, incluso aunque uno es de tipo string y el otro un entero. Si eres de los que prefieren usar tipado fuerte con javascript, ya sea porque traes un background de C++, Java u otro lenguaje furtemente tipado o simplemente prefieres las ventajas de un tipado fuerte, dale una mirada a lo que [Typescript](https://www.typescriptlang.org/) y su compilador tienen para ofrecer.
+¡No pasa nada! El intérprete de Javascript los suma sin problema alguno, incluso aunque uno es de tipo string y el otro un entero. Si eres de los que prefieren usar tipado fuerte con javascript, ya sea porque traes un background de C++, Java u otro lenguaje furtemente tipado o simplemente prefieres las ventajas de un tipado fuerte, dale una mirada a lo que [Typescript](https://www.typescriptlang.org/#?) y su compilador tienen para ofrecer.
 
 ```javascript
 // Este es código Typescript
@@ -334,7 +334,7 @@ Javascript usa npm para el manejo de paquetes y hay bastantes de donde elegir. E
 
 ### Paquetes en Python
 
-Pypi es la plataforma principal encargada del manejo de paquetes en Python. En la fecha en la que se actualizó este artículo [Pypi tiene 348,000 paquetes publicados](https://pypi.org/), ¡solo una quinta parte de la cantidad que tiene Javascript! Y como son menos paquetes podemos esperar paquetes más relevantes ¿no? A ver...
+Pypi es la plataforma principal encargada del manejo de paquetes en Python. En la fecha en la que se actualizó este artículo [Pypi tiene 348,000 paquetes publicados](https://pypi.org/#?), ¡solo una quinta parte de la cantidad que tiene Javascript! Y como son menos paquetes podemos esperar paquetes más relevantes ¿no? A ver...
 
 ![Paquete is-odd de pip](images/IsOddPythonPackage.png "Python también tiene un paquete que revisa si un número es impar")
 

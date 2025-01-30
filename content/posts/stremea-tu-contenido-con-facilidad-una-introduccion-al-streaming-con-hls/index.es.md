@@ -25,7 +25,7 @@ url: /es/stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-
 
 Casi todos las aplicaciones web modernas realizan algún tipo de streaming, desde las plataformas de video, hasta aquellas de streaming en vivo. En esta entrada te explico como funciona el streaming con HLS de una manera tan simplificada que sacará tu purista interior. 
 
-Te dejo un ejemplo mínimo de streaming en Go aquí en [mi repositorio en github](https://github.com/EduardoZepeda/go-hls-streaming-example), por si quieres ver el código.
+Te dejo un ejemplo mínimo de streaming en Go aquí en [mi repositorio en github](https://github.com/EduardoZepeda/go-hls-streaming-example#?), por si quieres ver el código.
 
 ## Introducción al streaming
 
@@ -79,7 +79,7 @@ flowchart LR
     Video-->h.265
 ```
 
-Si tu archivo original no se encuentra en esa codificación, puedes echar mano de herramientas como [ffmpeg](https://ffmpeg.org/) para convertirlo.
+Si tu archivo original no se encuentra en esa codificación, puedes echar mano de herramientas como [ffmpeg](https://ffmpeg.org/#?) para convertirlo.
 
 ``` bash
 ffmpeg -i <input> -vcodec libx264 -acodec aac <output.mp4>

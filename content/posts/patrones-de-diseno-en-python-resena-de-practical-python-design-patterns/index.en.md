@@ -84,7 +84,7 @@ I will explain three examples of design patterns below.
 
 ### Pattern singleton
 
-It is used when you want to prevent the creation of multiple instances of the same object. For example, you don't want two objects that control the mouse or the printer running at the same time. Its indiscriminate use is [considered by many an anti-pattern.](http://97cosas.com/programador/resiste-tentacion-singleton.html)
+It is used when you want to prevent the creation of multiple instances of the same object. For example, you don't want two objects that control the mouse or the printer running at the same time. Its indiscriminate use is [considered by many an anti-pattern.](http://97cosas.com/programador/resiste-tentacion-singleton.html#?)
 
 The trick of its operation occurs in the *new* method. This method is called when a class is created and receives the same class as parameter.  
 

@@ -21,7 +21,7 @@ title: La guia definitiva de Django
 
 Django es **mi framework de desarrollo web favorito**, es maduro, su documentación y su comunidad son excelentes. Cuando escribí sobre las [ventajas y desventajas de Django](/es/por-que-deberias-usar-django-framework/) te expliqué que pasar de una idea a un prototipo funcional en muy poco tiempo y sin escribir casi código es muy fácil usando Django. 
 
-Aprendí gran parte de lo que sé respecto a este framework hace años, leyendo y practicando el contenido de un libro llamado **Definitive Guide to Django: Web Development Done Right** de los autores [Adrian Holovaty](http://www.holovaty.com/) , [Jacob Kaplan-Moss](https://jacobian.org/) (co-creadores de Django) y traducido impecablemente al español por Saul García bajo el título de La guía definitiva de Django: Desarrolla aplicaciones web de forma rápida y sencilla.
+Aprendí gran parte de lo que sé respecto a este framework hace años, leyendo y practicando el contenido de un libro llamado **Definitive Guide to Django: Web Development Done Right** de los autores [Adrian Holovaty](http://www.holovaty.com/#?) , [Jacob Kaplan-Moss](https://jacobian.org/#?) (co-creadores de Django) y traducido impecablemente al español por Saul García bajo el título de La guía definitiva de Django: Desarrolla aplicaciones web de forma rápida y sencilla.
 
 Este recurso es excelente porque cubre absolutamente todo lo que se necesita para desarrollar una aplicación de Django, frontend, backend, y el deployment. 
 
@@ -44,7 +44,7 @@ No obstante el libro aún se encuentra desactualizado. Si los autores de este li
 
 ## Mi opinión sobre la guia definitiva de Django
 
-Si aún así quieres leer el libro te recomiendo escoger con cuidado los capítulos y considerar que el código puede estar bastante desactualizado, te dejo el enlace a su [versión en español, actualicé el enlace el 23 de Agosto del 2024](https://github.com/Verurteilt/libros/blob/master/Libros%20de%20Python/django,%20la%20guia%20definitiva.pdf) (Si el enlace ya no te manda a algún lugar válido mándame un tweet o un correo). Puedes descargarlo sin preocupación alguna, es totalmente legal, pues el libro se encuentra bajo los términos de la licencia GNU Free Documentation License. **Te recomiendo darle un vistazo a los capítulos de Cache, Middleware, Internacionalización y Seguridad**, encontrarás consejos útiles y que se encuentran vigentes aún hoy en día.
+Si aún así quieres leer el libro te recomiendo escoger con cuidado los capítulos y considerar que el código puede estar bastante desactualizado, te dejo el enlace a su [versión en español, actualicé el enlace el 23 de Agosto del 2024](https://github.com/Verurteilt/libros/blob/master/Libros%20de%20Python/django,%20la%20guia%20definitiva.pdf#?) (Si el enlace ya no te manda a algún lugar válido mándame un tweet o un correo). Puedes descargarlo sin preocupación alguna, es totalmente legal, pues el libro se encuentra bajo los términos de la licencia GNU Free Documentation License. **Te recomiendo darle un vistazo a los capítulos de Cache, Middleware, Internacionalización y Seguridad**, encontrarás consejos útiles y que se encuentran vigentes aún hoy en día.
 
 Si quieres aprender Django con los nuevos cambios que ha tenido el framework entra en mi entrada donde hablo del [libro Django for Professionals](/es/resena-de-django-for-professionals/)
 

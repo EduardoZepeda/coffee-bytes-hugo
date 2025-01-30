@@ -19,7 +19,7 @@ ChatGPT is breaking with everything previously known in artificial intelligence,
 
 ## How does Codewars work?
 
-Before we start you need to understand that [Codewars](https://www.codewars.com) is a social network for programmers where code challenges written by the same users are shared. Each challenge can be tested with a series of tests and, if it passes all of them, the challenge is considered completed. These challenges are called katas.
+Before we start you need to understand that [Codewars](https://www.codewars.com#?) is a social network for programmers where code challenges written by the same users are shared. Each challenge can be tested with a series of tests and, if it passes all of them, the challenge is considered completed. These challenges are called katas.
 
 Each kata has a level of difficulty, defined by its number of kyu (as in martial arts), with the highest numbers being the easiest and the lowest numbers the most difficult, ranging from the 8th kyu to the 1st kyu.
 
@@ -49,7 +49,7 @@ For these proofs I tried to choose a middle ground between those proofs with ver
 
 ## ChatGPT vs Rotate the matrix counter-clockwise N - times! (6kyu)
 
-The challenge of the [Rotate Matrix Anti-Clockwise N - Times!](https://www.codewars.com/kata/5919f3bf6589022915000023) test is: In this kata your mission is to rotate a matrix counter-clockwise" n" number of times. That is, rotate a matrix against the clock "n" number of times.
+The challenge of the [Rotate Matrix Anti-Clockwise N - Times!](https://www.codewars.com/kata/5919f3bf6589022915000023#?) test is: In this kata your mission is to rotate a matrix counter-clockwise" n" number of times. That is, rotate a matrix against the clock "n" number of times.
 
 The input I used in ChatGPT to generate the code is as follows: Create a function that rotates an array counterclockwise "n" number of times.
 
@@ -86,7 +86,7 @@ I want to emphasize that ChatGPT produces syntactically correct code, respecting
 
 ## ChatGPT vs Find Nth Inverse Number (Extreme)
 
-The challenge [Find the nth Reverse Number](https://www.codewars.com/kata/600c18ec9f033b0008d55eec) consists of: The nth reverse number needs to be returned. (Assume the reverse numbers start with 0 as shown in the example.)
+The challenge [Find the nth Reverse Number](https://www.codewars.com/kata/600c18ec9f033b0008d55eec#?) consists of: The nth reverse number needs to be returned. (Assume the reverse numbers start with 0 as shown in the example.)
 
 That is, find the palindrome number "n" and with the appropriate condition of doing so with excellent Big O performance.
 
@@ -136,7 +136,7 @@ I tried to get the correct answer multiple times, even specifying the complexity
 
 ## ChatGPT vs Regular Expression for Binary Numbers Divisible by n (1 kyu)
 
-The challenge of [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068) is: Create a function that returns a regular expression string capable of evaluating binary strings (consisting only of 1s and 0s) and determine whether the given string represents a number divisible by n.
+The challenge of [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068#?) is: Create a function that returns a regular expression string capable of evaluating binary strings (consisting only of 1s and 0s) and determine whether the given string represents a number divisible by n.
 
 ![Binary number division code using ChatGPT](images/binary-division-ChatGPT.png "Binary number division code using ChatGPT")
 

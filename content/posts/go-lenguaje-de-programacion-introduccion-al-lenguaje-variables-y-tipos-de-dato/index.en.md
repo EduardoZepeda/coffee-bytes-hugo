@@ -68,7 +68,7 @@ However it doesn't force you to check for nil values.
 
 ## The most popular mascot in programming
 
-The official mascot is a ground squirrel and it is popular among the community to use it to illustrate go-related content. This Blue Sartre rodent version is so popular among developers that there are tools, such as [Gopherizme](https://gopherize.me), to create custom avatars. The impact of the mascot is such that many developers use it as a logo, although the [official go logo](https://blog.golang.org/go-brand) has already been defined.
+The official mascot is a ground squirrel and it is popular among the community to use it to illustrate go-related content. This Blue Sartre rodent version is so popular among developers that there are tools, such as [Gopherizme](https://gopherize.me#?), to create custom avatars. The impact of the mascot is such that many developers use it as a logo, although the [official go logo](https://blog.golang.org/go-brand) has already been defined.
 
 ![Go mascot and logo](images/GoMascotAndLogo.png "On the left the Go mascot. On the right the official logo")
 

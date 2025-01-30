@@ -41,7 +41,7 @@ Por otro lado, FastAPI le deja el camino libre al desarrollador, por lo que, al 
 
 A diferencia de Django, sí considero a Flask como un competidor más directo de FastAPI. Ambos frameworks guardan cierta similitud en cuanto a sintaxis y se caracterizan por ser bastante ligeros y ofrecer la mínima funcionalidad. FastAPI ofrece validación, mientras que Flask no, FastAPI ofrece documentación automática, mientras que Flask no. Además FastAPI ofrece un mejor rendimiento según las pruebas disponibles.
 
-Mira las siguientes comparaciones que usan información de [Techempower](https://www.techempower.com/benchmarks). He resaltado en azul los frameworks de Python.
+Mira las siguientes comparaciones que usan información de [Techempower](https://www.techempower.com/benchmarks#?). He resaltado en azul los frameworks de Python.
 
 ### Rendimiento para peticiones con una query
 

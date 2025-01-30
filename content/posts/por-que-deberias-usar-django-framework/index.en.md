@@ -117,7 +117,7 @@ Most applications require a user management system, you know, register them, act
 
 This framework has a proven authentication system based on sessions that are identified by a cookie. The authentication system has already been tested numerous times by some of the most trafficked websites out there, such as Instagram or the NASA website. Pinterest started with Django but moved to node.
 
-You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/en/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/).
+You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/en/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/#?).
 
 #### Django's permission system
 

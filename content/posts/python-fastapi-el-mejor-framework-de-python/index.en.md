@@ -37,7 +37,7 @@ On the other hand, FastAPI leaves the way open to the developer, so, as it cover
 
 Unlike Django, I do consider Flask to be a more direct competitor to FastAPI. Both frameworks have some similarity in syntax and are characterized by being fairly lightweight and offering minimal functionality. FastAPI offers validation, while Flask does not, FastAPI offers automatic documentation, while Flask does not. In addition FastAPI offers better performance according to available tests.
 
-See the following comparisons using information from [Techempower](https://www.techempower.com/benchmarks). I have highlighted in blue the Python frameworks.
+See the following comparisons using information from [Techempower](https://www.techempower.com/benchmarks#?). I have highlighted in blue the Python frameworks.
 
 ### Performance for requests with a query
 
@@ -638,7 +638,7 @@ test_api.py .  [100%]
 
 Up to this point **I have hidden one of the coolest features of FastAPI** from you, please don't hate me. That's right, you know exactly what I mean: automatic documentation!
 
-Yes, as you probably already knew, FastAPI has automatic documentation using [swagger](https://swagger.io/) and [redoc](https://github.com/Redocly/redoc), you don't have to add code, nor set a variable for this, just open your browser and go to your [localhost:8000/docs/](http://127.0.0.1:8000/docs/) and [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/), respectively, and you will see the automatically generated interactive documentation.
+Yes, as you probably already knew, FastAPI has automatic documentation using [swagger](https://swagger.io/#?) and [redoc](https://github.com/Redocly/redoc#?), you don't have to add code, nor set a variable for this, just open your browser and go to your [localhost:8000/docs/](http://127.0.0.1:8000/docs/#?) and [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/#?), respectively, and you will see the automatically generated interactive documentation.
 
 ![Screenshot of swagger documentation](images/Documentacion_swagger.png)
 

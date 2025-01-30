@@ -45,7 +45,7 @@ Requisito: Cada linea debe tener a lo mucho 2 caracteres, y el número total de 
 
 Pista: Es posible completarla en solo 28 lineas de código.
 
-Kata original: [Multi Line Task++: Hello World](https://www.codewars.com/kata/59a421985eb5d4bb41000031)
+Kata original: [Multi Line Task++: Hello World](https://www.codewars.com/kata/59a421985eb5d4bb41000031#?)
 
 
 ### Nota sobre la Kata
@@ -101,7 +101,7 @@ Por los casos extremos de pequeñas espirales, el tamaño será al menos de 5.
 
 Como regla general, la serpiente hecha de 1s no se puede tocar a si misma.
 
-Kata original: [Make a spiral](https://www.codewars.com/kata/534e01fbbb17187c7e0000c6)
+Kata original: [Make a spiral](https://www.codewars.com/kata/534e01fbbb17187c7e0000c6#?)
 
 ### Nota sobre la Kata
 
@@ -119,7 +119,7 @@ Esta vez no podrás capaz de hacer la cosa de la otra Kata.
 
 Tampoco puedes usar require.
 
-Kata original: [The soul of wit: reverse an array](https://www.codewars.com/kata/59b81886460387d8fc000043)
+Kata original: [The soul of wit: reverse an array](https://www.codewars.com/kata/59b81886460387d8fc000043#?)
 
 ### Nota sobre la Kata
 
@@ -188,7 +188,7 @@ Dentro de esta grilla en 2D:
     '#' Es un arbusto de espinas (No puedes cruzarlo)
     '^', '<', 'v' or '>' Tu cuerpo mirando hacía la parte superior, izquierda, inferior, o derecha, respectivamente, del mapa.
 
-Kata original: [Escape the maze](https://www.codewars.com/kata/5877027d885d4f6144000404)
+Kata original: [Escape the maze](https://www.codewars.com/kata/5877027d885d4f6144000404#?)
 
 ### Nota sobre la Kata
 

@@ -15,7 +15,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Some months ago I was reviewing the Lighthouse settings for a website when I realized that it did not comply with certain recommendations, it was using http/1.1, no gzip compression, no cache. Later I fixed the problems, I'll tell you how below. In this post I talk about the following nginx features: keepalive, gzip, cache and http2 and how you can modify them to improve your [Lighthouse](https://web.dev/) values.
+Some months ago I was reviewing the Lighthouse settings for a website when I realized that it did not comply with certain recommendations, it was using http/1.1, no gzip compression, no cache. Later I fixed the problems, I'll tell you how below. In this post I talk about the following nginx features: keepalive, gzip, cache and http2 and how you can modify them to improve your [Lighthouse](https://web.dev/#?) values.
 
 ## Activate http2 in nginx
 

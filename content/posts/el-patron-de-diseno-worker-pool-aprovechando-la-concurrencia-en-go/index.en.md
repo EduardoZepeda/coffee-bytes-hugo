@@ -40,7 +40,7 @@ It would be best to keep memory usage constant and avoid creating and destroying
 
 Worker pool is a [design pattern](/en/design-patterns-in-software/) that comes to make up for these shortcomings.
 
-There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang)
+There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang#?)
 
 {{<ad>}}
 

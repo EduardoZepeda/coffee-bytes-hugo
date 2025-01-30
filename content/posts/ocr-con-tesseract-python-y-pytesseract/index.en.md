@@ -85,7 +85,7 @@ It is possible to tell tesseract which OCR engine to use:
 tesseract image_with_text.jpg - --oem 1
 ```
 
-Consider that **not all language files work with the original tesseract** (0 and 3). Although generally the neural networks one is the one that gives the best result. You can find the models compatible with the original tesseract and neural networks in the [tesseract repository](https://github.com/tesseract-ocr/tessdata).
+Consider that **not all language files work with the original tesseract** (0 and 3). Although generally the neural networks one is the one that gives the best result. You can find the models compatible with the original tesseract and neural networks in the [tesseract repository](https://github.com/tesseract-ocr/tessdata#?).
 
 You can install them manually by downloading them and moving them to the appropriate folder, in my case it is _/usr/local/share/tessdata/_, but it may be different on your system.
 

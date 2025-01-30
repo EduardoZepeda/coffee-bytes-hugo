@@ -86,7 +86,7 @@ Cuando usaba Wordpress el plugin Yoast se encargaba del marcado de datos estruct
 
 {{<box type="info" message="El marcado de datos estructurados se presenta generalmente en forma de un script de tipo application/ld+json en un sitio web, no se puede apreciar de forma visual pero es leído por los motores de búsqueda y les sirve para entender el tipo y las relaciones que existen entre cada una de las entidades de tu sitio web.">}}
 
-¿Cómo pude evitar este error? Simplemente añadiendo un esquema de datos estructurados personalizado y leyendo al respecto en [la págia oficinal de schema org](https://schema.org)
+¿Cómo pude evitar este error? Simplemente añadiendo un esquema de datos estructurados personalizado y leyendo al respecto en [la págia oficinal de schema org](https://schema.org#?)
 
 Esa es la trágica historia de como disminuí mi tráfico siendo un lego en el SEO. 
 

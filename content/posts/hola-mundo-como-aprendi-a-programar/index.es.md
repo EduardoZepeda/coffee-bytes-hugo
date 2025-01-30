@@ -98,4 +98,4 @@ Aún con el riesgo de que pecar de soberbia, diré que el bootcamp fue pan comid
 
 Tomé el bootcamp de Bedu en Colabora Coworking. 
 
-Quizás en alguna entrada futura hable de mi experiencia en Bedu y en Platzi, dado que esta entrada ya se está alargando bastante. Si quieres preguntarme más sobre como fue mi experiencia déjame un comentario o mándame un DM a [twitter](https://twitter.com/hello_wired) y te platico con más detalle mi experiencia.
+Quizás en alguna entrada futura hable de mi experiencia en Bedu y en Platzi, dado que esta entrada ya se está alargando bastante. Si quieres preguntarme más sobre como fue mi experiencia déjame un comentario o mándame un DM a [twitter](https://twitter.com/hello_wired#?) y te platico con más detalle mi experiencia.

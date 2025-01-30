@@ -34,7 +34,7 @@ Para conseguir lo anterior necestas conocer la arquitectura básica de Azure, su
 
 ## Mi proceso de examen
 
-El examen se llevó a cabo a través de la plataforma [Evaluaasi](https://www.evaluaasi.com/), a través de la cual descargas un programa que se conecta a un escritorio remoto para la realización al examen. Este programa monitoreará tu computadora y dispositivos conectados, probablemente para evitar que un usuario haga trampa de alguna manera; he escuchado que algunos procesos de evaluación son tan estrictos que solicitan ver la habitación en la que realizarás el examen antes de comenzar.
+El examen se llevó a cabo a través de la plataforma [Evaluaasi](https://www.evaluaasi.com/#?), a través de la cual descargas un programa que se conecta a un escritorio remoto para la realización al examen. Este programa monitoreará tu computadora y dispositivos conectados, probablemente para evitar que un usuario haga trampa de alguna manera; he escuchado que algunos procesos de evaluación son tan estrictos que solicitan ver la habitación en la que realizarás el examen antes de comenzar.
 
 ![Evaluaasi plataforma](images/evaluaasi-plataforma.jpg "Pantalla de inicio de la plataforma de evaluassi")
 
@@ -98,7 +98,7 @@ Es un repaso de 3 horas en inglés, en el que te explican lo básico de la nube 
 
 ## ¿Cuánto cuesta la certificación AZ-900? ¿Es gratis?
 
-La certificación cuesta **alrededor de $90 USD directamente con microsoft**, pero yo la he obtenido de manera gratuita como parte de un reto de certificación de la [plataforma de aprendizaje de Platzi](https://platzi.com/r/eduardo-zepeda).
+La certificación cuesta **alrededor de $90 USD directamente con microsoft**, pero yo la he obtenido de manera gratuita como parte de un reto de certificación de la [plataforma de aprendizaje de Platzi](https://platzi.com/r/eduardo-zepeda#?).
 
 Tengo entendido que si te registras en la plataforma de e-learning Microsoft Learn, suelen regalar cupones de vez en cuando.
 

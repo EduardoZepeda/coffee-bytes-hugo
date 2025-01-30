@@ -79,7 +79,7 @@ The above examples represent pieces of **fully functional** code, but which, due
 
 ## A book that is constantly updated
 
-Many authors of Django books abandon their works and, over the years, they become outdated (as happened to The Definitive Guide to Django). The authors of this book do not fall into this category, they constantly update the content of their work and make updated versions available from time to time. Right now ~~they are working on~~ the [alpha version for Django 3.0](https://www.feldroy.com/products/two-scoops-of-django-3-x) of this same book is already available and will be around for a long time.
+Many authors of Django books abandon their works and, over the years, they become outdated (as happened to The Definitive Guide to Django). The authors of this book do not fall into this category, they constantly update the content of their work and make updated versions available from time to time. Right now ~~they are working on~~ the [alpha version for Django 3.0](https://www.feldroy.com/products/two-scoops-of-django-3-x#?) of this same book is already available and will be around for a long time.
 
 **** Recommended prerequisite knowledge:**** HTML, CSS, Python, Django, REST, Database
 **Recommended to read:** 10/10

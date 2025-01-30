@@ -73,7 +73,7 @@ Sin embargo no te obliga a revisar punteros hacia nil, volviéndo estos los erro
 
 ## Go tiene la mejor mascota: Gopher
 
-La mascota oficial es una ardilla de tierra y es muy común entre la comunidad usarla para ilustrar el contenido relacionado con go. Este Sartre en versión roedor azul es tan popular entre los desarrolladores que existen herramientas, como [Gopherizme](https://gopherize.me), para crear avatares personalizados. El impacto de la mascota es tal, que muchos desarrolladores la usan a manera de logo, aunque el [logo oficial de go](https://blog.golang.org/go-brand) ya ha sido definido.
+La mascota oficial es una ardilla de tierra y es muy común entre la comunidad usarla para ilustrar el contenido relacionado con go. Este Sartre en versión roedor azul es tan popular entre los desarrolladores que existen herramientas, como [Gopherizme](https://gopherize.me#?), para crear avatares personalizados. El impacto de la mascota es tal, que muchos desarrolladores la usan a manera de logo, aunque el [logo oficial de go](https://blog.golang.org/go-brand) ya ha sido definido.
 
 ![Mascota y logo de go](images/GoMascotAndLogo.png "A la izquierda la mascota de Go. A la derecha el logo oficial")
 

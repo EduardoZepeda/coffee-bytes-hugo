@@ -31,7 +31,7 @@ Wordpress is a very popular system on the Internet and already has thousands of 
 
 ## My experience so far with wordpress
 
-To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/en/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev).
+To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/en/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev#?).
 
 ![Web core vitals de coffee bytes](images/web_core_vitals_de_mi_blog.png)
 
@@ -57,4 +57,4 @@ I really love Hugo, it allows me to forget about multiple security issues, and k
 
 But make no mistake, I still consider Wordpress to be the best option for most people who want to start a blog, Hugo requires too much technical knowledge to be useful for everyone, its community is much smaller and most of the "out of the box" solutions are outdated and not as numerous as in Wordpress. I also miss certain plugins like Yoast, which took care of SEO while creating a post and with which I didn't [have to worry about making beginner mistakes in the SEO of the page](/en/my-mistakes-regarding-the-tech-seo-optimization-of-my-website/).
 
-I even developed my own minimalist theme, with just the basics according to my needs, [the code is on my github](https://github.com/EduardoZepeda/hugo-theme-latte), so if you're curious you can check it out anytime.
+I even developed my own minimalist theme, with just the basics according to my needs, [the code is on my github](https://github.com/EduardoZepeda/hugo-theme-latte#?), so if you're curious you can check it out anytime.

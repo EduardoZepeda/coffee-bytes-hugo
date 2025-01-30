@@ -23,7 +23,7 @@ url: /en/stream-your-videos-and-audios-a-simple-introduction-to-streaming-with-h
 
 Almost all modern web applications perform some form of streaming, from video platforms to live streaming. In this post I explain how streaming works with HLS in such a simplified way that it will bring out your inner purist.
 
-I leave you a minimal example of streaming in Go here in [my github repository](https://github.com/EduardoZepeda/go-hls-streaming-example), in case you want to see the code.
+I leave you a minimal example of streaming in Go here in [my github repository](https://github.com/EduardoZepeda/go-hls-streaming-example#?), in case you want to see the code.
 
 ## Introduction to streaming
 
@@ -77,7 +77,7 @@ flowchart LR
     Video-->h.265
 ```
 
-If your original file is not in that encoding, you can use tools like [ffmpeg](https://ffmpeg.org/) to convert it.
+If your original file is not in that encoding, you can use tools like [ffmpeg](https://ffmpeg.org/#?) to convert it.
 
 ``` bash
 ffmpeg -i <input> -vcodec libx264 -acodec aac <output.mp4>

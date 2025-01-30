@@ -80,7 +80,7 @@ console.log(1 + "1")
 "11"
 ```
 
-No problem! The Javascript interpreter adds them together without any problem, even if one is a string and the other an integer. If you are one of those who prefer to use strong typing with javascript, either because you bring a background of C++, Java or another strongly typed language or simply prefer the advantages of strong typing, take a look at what [Typescript](https://www.typescriptlang.org/) and its compiler have to offer.
+No problem! The Javascript interpreter adds them together without any problem, even if one is a string and the other an integer. If you are one of those who prefer to use strong typing with javascript, either because you bring a background of C++, Java or another strongly typed language or simply prefer the advantages of strong typing, take a look at what [Typescript](https://www.typescriptlang.org/#?) and its compiler have to offer.
 
 ```javascript
 // Typescript code
@@ -205,7 +205,7 @@ Python is not found in browsers, however it is installed in most GNU/Linux syste
 
 Javascript is used, mainly in the browser and is an essential language if you're interested in Web development. However Node allows it to be used on your computer as well, to be used as a server-side language, although it was not originally conceived that way. Node js has allowed javascript to be used outside the browser, so its use has been extended, even to machine learning or small application and scripting.
 
-~~In recent years there are rumors that [deno](https://deno.land/), made by the creator of Node js, will replace node, its predecessor, but they are just that, rumors.~~ As today it is unlikely that deno will replace Node, in fact Javascript has many engines, such as [Bun](https://bun.sh/) [winterJS](https://github.com/wasmerio/winterjs) that offer superior performance and more features than deno or node.
+~~In recent years there are rumors that [deno](https://deno.land/#?), made by the creator of Node js, will replace node, its predecessor, but they are just that, rumors.~~ As today it is unlikely that deno will replace Node, in fact Javascript has many engines, such as [Bun](https://bun.sh/#?) [winterJS](https://github.com/wasmerio/winterjs#?) that offer superior performance and more features than deno or node.
 
 ### Python and its usages in machine learning and AI
 
@@ -243,7 +243,7 @@ As interpreted languages they are much slower than compiled languages, so they w
 
 However, the difference between them is evident: it can be stated that **Javascript executed in Node is much faster than Python** with its original interpreter.
 
-The graph below compares the average execution time of ten iterations of the N-Rheinas problem (the lower the better), I used the [respective javascript and python codes of Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code) (all credits to the author) and the [multitime program](https://tratt.net/laurie/src/multitime/) for the calculation of the average time.
+The graph below compares the average execution time of ten iterations of the N-Rheinas problem (the lower the better), I used the [respective javascript and python codes of Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code#?) (all credits to the author) and the [multitime program](https://tratt.net/laurie/src/multitime/) for the calculation of the average time.
 
 ![Graph of the execution time of the N-Reigns problem between Javascript and Python. Javascript has better performance](images/problema-de-las-n-reinas.jpg "Performance of the n-queens problem. Execution time on Y-axis and number of queens on X-axis.(Less is better, javascript is better).")
 
@@ -331,7 +331,7 @@ Javascript uses npm for package management and there are quite a few to choose f
 
 ### Python packages
 
-Pypi is the main platform in charge of Python package management. At the time this article was updated [Pypi has 348,000 packages published](https://pypi.org/), only a fifth of the amount that Javascript has! And since there are fewer packages we can expect more relevant packages, can't we? Let's see...
+Pypi is the main platform in charge of Python package management. At the time this article was updated [Pypi has 348,000 packages published](https://pypi.org/#?), only a fifth of the amount that Javascript has! And since there are fewer packages we can expect more relevant packages, can't we? Let's see...
 
 ![pip is-odd package](images/IsOddPythonPackage.png "Python also has a package that checks if a number is odd.")
 
