@@ -1,6 +1,5 @@
 ---
 date: '2025-01-28T17:44:50-06:00'
-draft: true
 title: 'Multi Tenant Architecture in Software: What Is It and Its Databases Patterns'
 categories:
 - software architecture
@@ -109,3 +108,5 @@ A SQL query would look like this
 ``` bash
 SELECT * FROM <tenant>.<table>;
 ```
+
+Now you got an overall idea of the multi tenant pattern and hopefully can use it in your SAAS adventures.

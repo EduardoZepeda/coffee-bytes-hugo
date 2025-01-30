@@ -1,6 +1,5 @@
 ---
 date: '2025-01-28T17:44:50-06:00'
-draft: true
 title: 'Arquitectura Multi Tenant En Software: Qué Es y Sus Patrones De Bases De Datos'
 categories:
 - "arquitectura de software"
@@ -109,3 +108,5 @@ Una query SQL luciría así.
 ``` bash
 SELECT * FROM <tenant>.<table>;
 ```
+
+Ahora tienes una idea general del patrón multi tenant y esperamos que puedas usarlo en tus aventuras SAAS.
