@@ -185,7 +185,7 @@ env - `cat ~/cronenv` /bin/sh
 
 Como ya te has dado cuenta a veces la configuración puede complicarse demasiado y si no lo hacemos bien puede haber consecuencias; sencillas, como que nuestro script cambie de wallpaper cada minuto en lugar de cada hora; o graves, como que nuestro respaldo no se efectúe con la periodicidad deseada. Imagínate que, sin desearlo, programaste el respaldo de la base de datos una vez cada año en lugar de una vez cada veinticuatro horas, vas a pasar un mal rato si la base de datos llega a fallar.
 
-Para evitarnos disgustos existe una herramienta bastante útil llamada [crontab.guru](https://crontab.guru). Esta herramienta se encargará de traducir tu configuración a simple y sencillo inglés, fácil de entender. Si tienes dudas sobre si la configuración que acabas de escribir es realmente la correcta, puedes teclearla en la página web y te mostrará el resultado en inglés.
+Para evitarnos disgustos existe una herramienta bastante útil llamada [crontab.guru](https://crontab.guru#?). Esta herramienta se encargará de traducir tu configuración a simple y sencillo inglés, fácil de entender. Si tienes dudas sobre si la configuración que acabas de escribir es realmente la correcta, puedes teclearla en la página web y te mostrará el resultado en inglés.
 
 ![Captura de pantalla de crontab guru](images/crontab_guru.gif)
 

@@ -111,7 +111,7 @@ You must remember that **absolutely all passwords can be obtained by brute force
 
 **Important note:** The website I will post is for informational purposes. **Never type a password you use (or will use) on a website you don't know** (including this one), you don't know if they can store it for later use. I already made sure that the website doesn't send web requests when used. But, even so, it's bad practice to type your passwords on other websites, don't do it.
 
-Well, once warned you can visit it by going to [this link](https://howsecureismypassword.net/). Anyway here are some examples of passwords and the approximate time it would take to break them by brute force.
+Well, once warned you can visit it by going to [this link](https://howsecureismypassword.net/#?). Anyway here are some examples of passwords and the approximate time it would take to break them by brute force.
 
 | Contraseña                      | Tiempo                |
 | ------------------------------- | --------------------- |

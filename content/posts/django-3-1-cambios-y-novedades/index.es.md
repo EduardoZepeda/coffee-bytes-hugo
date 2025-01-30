@@ -16,7 +16,7 @@ keywords:
 title: 'Django 3.1 cambios y novedades: resumen completo'
 ---
 
-Hace unas horas estaba navegando por [mi twitter](https://twitter.com/neon_affogato) y me enteré de que acaban de hacer públicas Django 3.1, cambios y novedades de ; mi framework para web favorito. Esta nueva versión tiene algunos cambios interesantes de los que hablaré a continuación.
+Hace unas horas estaba navegando por [mi twitter](https://twitter.com/neon_affogato#?) y me enteré de que acaban de hacer públicas Django 3.1, cambios y novedades de ; mi framework para web favorito. Esta nueva versión tiene algunos cambios interesantes de los que hablaré a continuación.
 
 ## Vistas, Middleware y tests asíncronos
 
@@ -143,6 +143,6 @@ Se agrega un enlace para limpiar todos los filtros en el panel lateral derecho d
 
 Ahora la variable de configuración CSRF\_COOKIE\_SAMESITE permite 'None' como valor. Mientras que HttpResponse.set\_cookie() y HttpResponse.set\_signed\_cookie() permiten usar samesite='None'.
 
-Recuerda que si quieres ver los cambios a la documentación completa puedes entrar en [este enlace](https://docs.djangoproject.com/en/3.1/releases/3.1/#whats-new-3-1) para ver los cambios completos que trae la versión de Django 3.1
+Recuerda que si quieres ver los cambios a la documentación completa puedes entrar en [este enlace](https://docs.djangoproject.com/en/3.1/releases/3.1/#whats-new-3-1#?) para ver los cambios completos que trae la versión de Django 3.1
 
 Si quieres mejorar tus habilidades en Django te dejo aquí recomendaciones de dos excelentes libros. Entra y checa mis reseñas de [Django for Professionals](/es/resena-de-django-for-professionals/) y de [Two scoops of Django](/es/el-mejor-libro-de-django-resena-de-two-scoops-of-django/).

@@ -182,7 +182,7 @@ env - `cat ~/cronenv` /bin/sh
 
 As you have already noticed, sometimes the configuration can get too complicated and if we don't do it right there can be consequences; simple, such as our script changing wallpaper every minute instead of every hour; or serious, such as our backup not being performed as often as desired. Imagine that, without wanting to, you scheduled the database backup once a year instead of once every twenty-four hours, you are going to have a hard time if the database fails.
 
-To avoid annoyances there is a useful tool called [crontab.guru](https://crontab.guru). This tool will take care of translating your configuration into simple, easy to understand English. If you have doubts about whether the configuration you just typed is really the right one, you can type it into the web page and it will show you the result in English.
+To avoid annoyances there is a useful tool called [crontab.guru](https://crontab.guru#?). This tool will take care of translating your configuration into simple, easy to understand English. If you have doubts about whether the configuration you just typed is really the right one, you can type it into the web page and it will show you the result in English.
 
 ![Screenshot of crontab guru](images/crontab_guru.gif)
 

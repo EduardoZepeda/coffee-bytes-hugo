@@ -21,11 +21,11 @@ keywords:
 title: Devin AI ¿El Supuesto Reemplazo de los Programadores?
 ---
 
-Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin AI, hecho por [Cognition Labs](https://www.cognition-labs.com/), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.
+Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin AI, hecho por [Cognition Labs](https://www.cognition-labs.com/#?), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.
 
 Aunque aún estamos lejos de tener una [AI consciente de si misma](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), lo que sí tenemos es un producto con características prometedoras que amenazan con poner patas arriba a la industria de la tecnología.
 
-¿Cómo cuales características? [Segun sus creadores, Devin AI puede](https://www.cognition-labs.com/blog):
+¿Cómo cuales características? [Segun sus creadores, Devin AI puede](https://www.cognition-labs.com/blog#?):
 - Usar tecnologías que no le son familiares
 - Crear y desplegar aplicaciones
 - Encontrar bugs automáticamente
@@ -37,7 +37,7 @@ Aunque aún estamos lejos de tener una [AI consciente de si misma](/es/chat-gpt-
 
 ## ¿Quienes están detrás de Devin AI?
 
-Detrás de Devin AI se encuentra Cognition labs, una empresa relativamente nueva que se habia mantenido tras bambalinas hasta ayer. Su [cuenta de Twitter](https://twitter.com/cognition_labs) tiene menos de dos días al momento de escribir este artículo (aunque ya acumula más de 86 k de seguidores).
+Detrás de Devin AI se encuentra Cognition labs, una empresa relativamente nueva que se habia mantenido tras bambalinas hasta ayer. Su [cuenta de Twitter](https://twitter.com/cognition_labs#?) tiene menos de dos días al momento de escribir este artículo (aunque ya acumula más de 86 k de seguidores).
 
 {{< twitter user="cognition_labs" id="1767548763134964000" >}}
 
@@ -98,11 +98,11 @@ La segunda posibilidad es que no pase nada. Sí, nada.
 
 Ha sucedido múltiples veces en el pasado; toda gran idea olvidada empieza con la promesa de revolucionar el mundo, tal como sucedió con el no-code o con Dreamweaver (Un editor WYSIWYG para crear sitios web de 2007). Ambas fueron tecnologías que de un momento a otro amenazaron con cambiar para siempre el mundo de la tecnología, y no lo consiguieron.
 
-¿Recuerdas [Agent Swarm AI](https://github.com/daveshap/OpenAI_Agent_Swarm)? También generó muchas expectativas pero al final no cristalizó en nada.
+¿Recuerdas [Agent Swarm AI](https://github.com/daveshap/OpenAI_Agent_Swarm#?)? También generó muchas expectativas pero al final no cristalizó en nada.
 
 Hasta ahora Copilot, ChatGPT y probablemente Devin AI no han sido más que "búsquedas de google" con esteroides; pueden darte la información que solicitas directamente, pero no necesariamente es real y a prueba de fallos. El proceso iterativo que ofrece este sistema mejora bastante la dinámica usual de pregunta-respuesta, pero no deja de ser inmune a caer en bucles producto de problemas que no pueda resolver o a producir algo totalmente distinto a lo que se le pide, por ahora necesitamos ponerlo a prueba mucho más.
 
-La comunidad de desarrolladores no se han quedado de brazos cruzados y han creado un [Devin de código abierto, llamedo Open Devin AI](https://github.com/OpenDevin/OpenDevin).
+La comunidad de desarrolladores no se han quedado de brazos cruzados y han creado un [Devin de código abierto, llamedo Open Devin AI](https://github.com/OpenDevin/OpenDevin#?).
 
 Además de los puntos anteriores, hay otro aspecto que estamos obviando.
 

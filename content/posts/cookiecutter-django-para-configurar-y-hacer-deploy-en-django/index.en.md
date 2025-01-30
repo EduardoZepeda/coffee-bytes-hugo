@@ -67,7 +67,7 @@ Or it can also be installed using pip
 pip install cookiecutter
 ```
 
-Once we have it available we will pass as the only argument the [address of the official cookiecutter-django github repository](https://github.com/pydanny/cookiecutter-django)
+Once we have it available we will pass as the only argument the [address of the official cookiecutter-django github repository](https://github.com/pydanny/cookiecutter-django#?)
 
 ```bash
 cookiecutter https://github.com/pydanny/cookiecutter-django
@@ -116,7 +116,7 @@ windows [n]:
 use_pycharm [n]:
 ```
 
-Timezone for our project, is the value that will take the TIMEZONE variable in our Django configuration file. It also asks us if the project should be configured to be used with windows and [Pycharm](https://www.jetbrains.com/es-es/pycharm/).
+Timezone for our project, is the value that will take the TIMEZONE variable in our Django configuration file. It also asks us if the project should be configured to be used with windows and [Pycharm](https://www.jetbrains.com/es-es/pycharm/#?).
 
 ### Database
 
@@ -173,7 +173,7 @@ Select mail_service:
 Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9 [1]:
 ```
 
-Our email configuration is still missing and this question takes care of that, it shows us the available options for [Django-Anymail](https://github.com/anymail/django-anymail).
+Our email configuration is still missing and this question takes care of that, it shows us the available options for [Django-Anymail](https://github.com/anymail/django-anymail#?).
 
 ### Asynchronism
 
@@ -447,7 +447,7 @@ Once you have done this you may want to start modifying your project folder.
 
 ### Enabling django-debug-toolbar in cookiecutter django
 
-To activate the django-debug-toolbar let's first enter our application by entering [localhost](http://127.0.0.1:8000), now in our terminal we will see an IP address
+To activate the django-debug-toolbar let's first enter our application by entering [localhost](http://127.0.0.1:8000#?), now in our terminal we will see an IP address
 
 ![Internal Ip in console](images/IpInternaDockerDjango.png)
 

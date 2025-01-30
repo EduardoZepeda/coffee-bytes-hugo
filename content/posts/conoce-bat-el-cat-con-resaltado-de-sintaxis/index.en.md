@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-The other day I was looking for syntax highlighting tools and I came across a pretty interesting tool called [bat](https://github.com/sharkdp/bat) (Yes, like bat in English), it's basically the linux _cat_ command, but with colors and other pretty interesting functions. And, as icing on the cake, **it's programmed in Rust.** In this post I explain in a short way how it works and what it can do for you.
+The other day I was looking for syntax highlighting tools and I came across a pretty interesting tool called [bat](https://github.com/sharkdp/bat#?) (Yes, like bat in English), it's basically the linux _cat_ command, but with colors and other pretty interesting functions. And, as icing on the cake, **it's programmed in Rust.** In this post I explain in a short way how it works and what it can do for you.
 
 ## Install bat from repositories on linux
 
@@ -24,7 +24,7 @@ You can install it directly from the repositories in newer versions of Debian or
 sudo apt install bat
 ```
 
-As my version of Debian is not the most recent one I had to install it from [its version of software package with .deb ending](https://github.com/sharkdp/bat/releases). Remember that if you have problems with GNU/Linux commands go to read my entries where I make you a summary of the [most basic GNU Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
+As my version of Debian is not the most recent one I had to install it from [its version of software package with .deb ending](https://github.com/sharkdp/bat/releases#?). Remember that if you have problems with GNU/Linux commands go to read my entries where I make you a summary of the [most basic GNU Linux commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
 
 ```bash
 wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_amd64.deb

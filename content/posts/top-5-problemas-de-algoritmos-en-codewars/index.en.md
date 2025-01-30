@@ -140,7 +140,7 @@ Beware: powers grow incredibly fast. For example, 9 ^ (9 ^ 9) has more than 369 
 
 Unusual cases: we assume that 0 ^ 0 = 1 and that the last digit of an empty list is equal to 1.
 
-Kata original: [Last digit of a huge number](https://www.codewars.com/kata/5518a860a73e708c0a000027)
+Kata original: [Last digit of a huge number](https://www.codewars.com/kata/5518a860a73e708c0a000027#?)
 
 ### Note on Kata
 
@@ -208,10 +208,10 @@ You are given a series of mazes, your position and you must provide an array of 
 
 There are other Katas that I like very much but they were left out of this top. Check them out.
 
-* [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26)
-* [Prime Streaming [NC-17]](https://www.codewars.com/kata/59122604e5bc240817000016)
-* [Breaking the Vigenère Cipher](https://www.codewars.com/kata/544e5d75908f2d5eb700052b)
-* [Escape the Maze](https://www.codewars.com/kata/5877027d885d4f6144000404)
-* [Simple Maze](https://www.codewars.com/kata/56bb9b7838dd34d7d8001b3c)
-* [Sum strings as numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370)
-* [Elemental words](https://www.codewars.com/kata/56fa9cd6da8ca623f9001233)
+* [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26#?)
+* [Prime Streaming [NC-17]](https://www.codewars.com/kata/59122604e5bc240817000016#?)
+* [Breaking the Vigenère Cipher](https://www.codewars.com/kata/544e5d75908f2d5eb700052b#?)
+* [Escape the Maze](https://www.codewars.com/kata/5877027d885d4f6144000404#?)
+* [Simple Maze](https://www.codewars.com/kata/56bb9b7838dd34d7d8001b3c#?)
+* [Sum strings as numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370#?)
+* [Elemental words](https://www.codewars.com/kata/56fa9cd6da8ca623f9001233#?)

@@ -290,7 +290,7 @@ El comando curl es un comando con muchas opciones, para cubrir prácticamente cu
 
 systemctl es una utilidad de _systemd_, sirve para administrar el sistema y sus servicios, forma parte de la instalación predeterminada en algunos sistemas operativos con base Linux.
 
-Este software ha suscitado una fuerte polémica entre entusiastas de GNU/Linux, debido a que se le [acusa de ir en contra de los principios de Linux](https://suckless.org/sucks/systemd/) y querer incluirse como la opción por defecto de los sistemas GNU/Linux. El desprecio es tal que incluso existen distribuciones cuya única razón de existir es ofrecer una alternativa de otra distribución popular pero sin systemd. Por ejemplo Debian y [Devuan](https://devuan.org/), este último es un fork del popular [Debian](https://www.debian.org/), pero sin _systemd_.
+Este software ha suscitado una fuerte polémica entre entusiastas de GNU/Linux, debido a que se le [acusa de ir en contra de los principios de Linux](https://suckless.org/sucks/systemd/#?) y querer incluirse como la opción por defecto de los sistemas GNU/Linux. El desprecio es tal que incluso existen distribuciones cuya única razón de existir es ofrecer una alternativa de otra distribución popular pero sin systemd. Por ejemplo Debian y [Devuan](https://devuan.org/), este último es un fork del popular [Debian](https://www.debian.org/), pero sin _systemd_.
 
 Systemctl nos permite ejecutar o detener servicios; agregarlos o removerlos al proceso de inicio de nuestro sistema operativo; ver su estado actual. Systemctl tiene muchas opciones, así que solo pondré las más comunes. Si quieres ahondar más en las capacidades de este comando ejecuta el comando '_man systemctl_' para ver su manual. Este comando debe ejecutarse con poderes de super usuario.
 
@@ -407,7 +407,7 @@ mkfs.ext4 /dev/sdb2
 mkfs.xfs /dev/hda1
 ```
 
-Si quieres profundizar más en este tema, hay un video donde se explican las [diferencias entre los tipos de archivo ext4 y xfs.](https://www.youtube.com/watch?v=f0gz-PV3X4Y) 
+Si quieres profundizar más en este tema, hay un video donde se explican las [diferencias entre los tipos de archivo ext4 y xfs.](https://www.youtube.com/watch?v=f0gz-PV3X4Y#?) 
 
 ## stat
 

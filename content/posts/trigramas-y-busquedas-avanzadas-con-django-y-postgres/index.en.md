@@ -167,7 +167,7 @@ In the example above, I have rewritten the original values and decreased the val
 
 Perhaps your search needs are much more advanced than those provided by the Django ORM combined with Postgres. But, unless you are developing something that will revolutionize the search industry, someone has already gone through the same problem. There are generic solutions, such as [Solr and Django-haystack](/en/searches-with-solr-with-django-haystack/), that save you from writing many, many lines of code. Some examples are:
 
-* [Xapian](https://xapian.org/)
-* [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html)
-* [Django haystack](https://django-haystack.readthedocs.io/en/master/index.html)
-* [Django watson](https://github.com/etianen/django-watson)
+* [Xapian](https://xapian.org/#?)
+* [Whoosh](https://whoosh.readthedocs.io/en/latest/intro.html#?)
+* [Django haystack](https://django-haystack.readthedocs.io/en/master/index.html#?)
+* [Django watson](https://github.com/etianen/django-watson#?)

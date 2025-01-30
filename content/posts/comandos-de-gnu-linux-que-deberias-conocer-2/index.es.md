@@ -478,7 +478,7 @@ last reboot
 
 ## Comando bonus: neofetch
 
-Ahora que sabes como instalar paquetes voy a mostrarte un paquete que muestra información del sistema pero de una manera bastante visual, el nombre del paquete es [neofetch](https://github.com/dylanaraps/neofetch).
+Ahora que sabes como instalar paquetes voy a mostrarte un paquete que muestra información del sistema pero de una manera bastante visual, el nombre del paquete es [neofetch](https://github.com/dylanaraps/neofetch#?).
 
 ```bash
 sudo apt install neofetch

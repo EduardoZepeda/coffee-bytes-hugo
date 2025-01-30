@@ -104,5 +104,5 @@ Consciousness is a complex subject that cannot be addressed in a few lines, not 
 * Godel, Escher, Bach: An Eternal Golden Braid by Douglas R. Hofstader: the author delves into the subject of self-reference and develops the question: can a system understand itself?
 * The Emperor's New Mind by Sir Roger Penrose: the author sets the context of the laws of the universe and analyzes whether consciousness and intelligence are related and whether they have a deterministic or non-deterministic character.
 * [Brains, Minds, and Machines: Consciousness and Intelligence](https://infinite.mit.edu/video/brains-minds-and-machines-consciousness-and-intelligence): MIT talk, where the topics of brains, consciousness, intelligence and machines are developed. Radically underrated; 7000 views on youtube alone? really?
-* [Can a program be alive?](https://www.youtube.com/watch?v=mC_KQC1gtWQ) small video essay where one of my favorite youtubers develops the issue of whether a computer program can be alive.
+* [Can a program be alive?](https://www.youtube.com/watch?v=mC_KQC1gtWQ#?) small video essay where one of my favorite youtubers develops the issue of whether a computer program can be alive.
 * [The connection between intelligence and conciousness](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf)

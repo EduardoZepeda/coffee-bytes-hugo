@@ -44,4 +44,4 @@ This board is quite peculiar, as it does not allow the use of text, only images,
 
 ## Little Lain-chan
 
-The name of the website is [Lain chan](https://www.lainchan.org), named after the series called Serial Experiments Lain; one of the cult series and representative icon of cyberpunk. Please note that, like most of the content on the Internet, the site is in English, so you will probably not be received well if you try to communicate in a language other than English.
+The name of the website is [Lain chan](https://www.lainchan.org#?), named after the series called Serial Experiments Lain; one of the cult series and representative icon of cyberpunk. Please note that, like most of the content on the Internet, the site is in English, so you will probably not be received well if you try to communicate in a language other than English.

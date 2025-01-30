@@ -10,6 +10,6 @@ El enlace para descargar el libro fue envíado a tu correo electrónico, revísa
 
 ¡Mantengamos contacto en Twitter!
 
-[@hello\_wired](https://twitter.com/hello_wired?ref_src=twsrc%5Etfw)
+[@hello\_wired](https://twitter.com/hello_wired?ref_src=twsrc%5Etfw#?)
 
 {{< setCookieSubscribeForm >}}

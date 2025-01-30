@@ -69,7 +69,7 @@ O también se puede instalar usando pip
 pip install cookiecutter
 ```
 
-Una vez que lo tengamos disponible le pasaremos como único argumento la [dirección del repositorio de github oficial de cookiecutter-django.](https://github.com/pydanny/cookiecutter-django)
+Una vez que lo tengamos disponible le pasaremos como único argumento la [dirección del repositorio de github oficial de cookiecutter-django.](https://github.com/pydanny/cookiecutter-django#?)
 
 ```bash
 cookiecutter https://github.com/pydanny/cookiecutter-django
@@ -119,7 +119,7 @@ windows [n]:
 use_pycharm [n]: 
 ```
 
-Timezone para nuestro proyecto, es el valor que tomará la variable TIMEZONE en nuestro archivo de configuración de Django. Nos pregunta además si el proyecto debe configurarse para usarse con windows y [Pycharm](https://www.jetbrains.com/es-es/pycharm/).
+Timezone para nuestro proyecto, es el valor que tomará la variable TIMEZONE en nuestro archivo de configuración de Django. Nos pregunta además si el proyecto debe configurarse para usarse con windows y [Pycharm](https://www.jetbrains.com/es-es/pycharm/#?).
 
 ### Base de datos
 
@@ -176,7 +176,7 @@ Select mail_service:
 Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9 [1]: 
 ```
 
-Aún falta nuestra configuración de correo electrónico y de eso se encarga esta pregunta, nos muestra las opciones disponibles para [Django-Anymail.](https://github.com/anymail/django-anymail)
+Aún falta nuestra configuración de correo electrónico y de eso se encarga esta pregunta, nos muestra las opciones disponibles para [Django-Anymail.](https://github.com/anymail/django-anymail#?)
 
 ### Asincronismo
 
@@ -450,7 +450,7 @@ Una vez hecho esto quizás querrás empezar a modificar la carpeta de tu proyect
 
 ### Activar django-debug-toolbar en cookiecutter django
 
-Para activar la django-debug-toolbar vamos a entrar primero a nuestra aplicación entrando a [localhost](http://127.0.0.1:8000), ahora en nuestra terminal veremos una dirección IP
+Para activar la django-debug-toolbar vamos a entrar primero a nuestra aplicación entrando a [localhost](http://127.0.0.1:8000#?), ahora en nuestra terminal veremos una dirección IP
 
 ![Ip interna en consola](images/IpInternaDockerDjango.png)
 

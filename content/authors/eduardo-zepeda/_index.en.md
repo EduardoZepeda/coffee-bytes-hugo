@@ -15,11 +15,11 @@ jobTitle: "Web developer"
 
 Graduated from CUCEI. I learned almost all that I know about web developing [by reading and practicing the content enclosed in this pile of books](/en/pages/books-i-read-and-reviews/). I even reviewed some of them. However, lately I've been experimenting with online platforms like: [Educative](https://educative.io/#?), [Udemy](https://www.udemy.com/#?) and [Platzi](https://platzi.com/#?) too.
 
-I possess the [Microsoft AZ-900 Fundamentals Certification](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
+I possess the [Microsoft AZ-900 Fundamentals Certification](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url#?)
 
 I'm a fan of solving katas on [Codewars](/en/i-test-chatgpt-with-codewars-coding-challenges/). I'm 2 kyu now, just one more Kyu to go!
 
-[![Code wars badge](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
+[![Code wars badge](https://www.codewars.com/users/EduardoZepeda/badges/small#?)](https://www.codewars.com/users/EduardoZepeda#?)
 
 Wanna see some cool projects? Check out my [portfolio on my personal website](https://zeedu.dev)
 

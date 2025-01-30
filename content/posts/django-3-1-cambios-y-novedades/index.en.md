@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-A few hours ago I was browsing [my twitter](https://twitter.com/neon_affogato) and I found out that they just released Django 3.1, changes and new features of ; my favorite web framework. This new version has some interesting changes that I'll talk about next.
+A few hours ago I was browsing [my twitter](https://twitter.com/neon_affogato#?) and I found out that they just released Django 3.1, changes and new features of ; my favorite web framework. This new version has some interesting changes that I'll talk about next.
 
 ## Views, Middleware and asynchronous testing
 
@@ -138,6 +138,6 @@ A link to clear all filters is added to the right side panel of the admin.
 
 The configuration variable CSRF_COOKIE_SAMESITE now allows 'None' as a value. While HttpResponse.set_cookie() and HttpResponse.set_signed_cookie() allow using samesite='None'.
 
-Remember that if you want to see the changes to the complete documentation you can go to [this link](https://docs.djangoproject.com/en/3.1/releases/3.1/#whats-new-3-1) to see the complete changes in Django 3.1 version
+Remember that if you want to see the changes to the complete documentation you can go to [this link](https://docs.djangoproject.com/en/3.1/releases/3.1/#whats-new-3-1#?) to see the complete changes in Django 3.1 version
 
 If you want to improve your skills in Django let you here recommendations of two excellent books. Come in and check my reviews of [Django for Professionals](/en/django-for-professionals-review/) and [Two scoops of Django](/en/the-best-django-book-two-scoops-of-django-review/).

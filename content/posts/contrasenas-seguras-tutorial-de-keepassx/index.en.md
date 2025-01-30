@@ -25,7 +25,7 @@ Who hasn't heard of massive leaks of user data at even the largest companies? Fo
 
 ## keepassxc
 
-keepassxc is the program I prefer to manage passwords. The code can be found at [the keepassxc page](https://keepassxc.org/) you can download it or compile it directly from their repositories.
+keepassxc is the program I prefer to manage passwords. The code can be found at [the keepassxc page](https://keepassxc.org/#?) you can download it or compile it directly from their repositories.
 
 ## Installing keepassxc
 

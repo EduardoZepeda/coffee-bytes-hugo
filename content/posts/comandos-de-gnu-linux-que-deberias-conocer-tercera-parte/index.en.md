@@ -288,7 +288,7 @@ The curl command is a command with many options, to cover practically any need, 
 
 systemctl is a _systemd_ utility, used to administer the system and its services, it is part of the default installation in some Linux-based operating systems.
 
-This software has raised a strong controversy among GNU/Linux enthusiasts, because it is [accused of going against the principles of Linux](https://suckless.org/sucks/systemd/) and wanting to be included as the default option for GNU/Linux systems. The contempt is such that there are even distributions whose only reason to exist is to offer an alternative of another popular distribution but without systemd. For example Debian and [Devuan](https://devuan.org/), the latter is a fork of the popular [Debian](https://www.debian.org/), but without _systemd_.
+This software has raised a strong controversy among GNU/Linux enthusiasts, because it is [accused of going against the principles of Linux](https://suckless.org/sucks/systemd/#?) and wanting to be included as the default option for GNU/Linux systems. The contempt is such that there are even distributions whose only reason to exist is to offer an alternative of another popular distribution but without systemd. For example Debian and [Devuan](https://devuan.org/), the latter is a fork of the popular [Debian](https://www.debian.org/), but without _systemd_.
 
 Systemctl allows us to run or stop services; add or remove them to the startup process of our operating system; see their current status. Systemctl has many options, so I will only list the most common ones. If you want to delve deeper into the capabilities of this command run the command '_man systemctl_' to see its manual. This command must be run with super user powers.
 
@@ -405,7 +405,7 @@ mkfs.ext4 /dev/sdb2
 mkfs.xfs /dev/hda1
 ```
 
-If you want to go deeper into this topic, there is a video explaining the [differences between ext4 and xfs file types.](https://www.youtube.com/watch?v=f0gz-PV3X4Y)
+If you want to go deeper into this topic, there is a video explaining the [differences between ext4 and xfs file types.](https://www.youtube.com/watch?v=f0gz-PV3X4Y#?)
 
 ## stat
 

@@ -14,4 +14,4 @@ Regístrate usando [mi enlace de afiliado](https://m.do.co/c/a22240ebb8e7#?) y o
 
 ## 1 mes gratis en Platzi
 
-Platzi es una plataforma de cursos en linea, algunos la odian, otros la aman. Si no la conoces, regístrate usando [mi enlace](https://platzi.com/r/eduardo-zepeda/) y obtendrás un mes extra gratis en cualquier plan.
+Platzi es una plataforma de cursos en linea, algunos la odian, otros la aman. Si no la conoces, regístrate usando [mi enlace](https://platzi.com/r/eduardo-zepeda/#?) y obtendrás un mes extra gratis en cualquier plan.

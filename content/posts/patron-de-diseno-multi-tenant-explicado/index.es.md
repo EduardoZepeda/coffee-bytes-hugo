@@ -44,7 +44,7 @@ Cuando leí la primera vez sobre este patrón de arquitectura no pude encontrar 
 
 {{<ad>}}
 
-## ¿Cómo manejar las bases de datos en una aplicación multi-tenant?
+## ¿Cómo estructurar las bases de datos en una aplicación multi-tenant?
 
 Una aplicación multi-tenant tendrá que registrar y guardar información de cada tenant y por ende habrá una base de datos, pero al estar manejando múltiples tenants o inquilinos, será inevitable preguntarnos: ¿Cómo diseñamos nuestra(s) base(s) de datos? ¿Divido a los tenants por base de datos o por tabla? ¿será buena idea una base de datos para todos en su lugar?
 
@@ -52,7 +52,7 @@ Pues existen diferentes paradigmas al respecto, cada una con sus ventajas y desv
 
 ### Una base de datos y un mismo esquema para todos los tenants.
 
-Una única base de datos y un solo esquema, con tablas diferentes para cada tenant. La más sencilla y simple de implementar, pero con pésimo aislamiento y personalización.
+Una única base de datos y un solo esquema, con tablas diferentes para cada tenant. La más sencilla y simple de implementar, pero con pésimo aislamiento y personalización. Puedes identificar a cada tenant por su id único.
 
 ``` mermaid
 architecture-beta
@@ -61,9 +61,15 @@ architecture-beta
     service schema(logos:datasette-icon)[Schema] in api
 ```
 
+Una query SQL luciría así
+
+``` bash
+SELECT * FROM <table> WHERE <tenant_id_column> = '<id>';
+```
+
 ### Una base de datos para cada tenant
 
-Aquí hay una base de datos por cada tenant. La más costosa en recursos pero proporciona aislamiento y nivel de personalización total.
+Aquí hay una base de datos por cada tenant. La más costosa en recursos pero proporciona aislamiento y nivel de personalización total. Puedes identificar a cada tenant por su schema.
 
 ``` mermaid
 architecture-beta
@@ -74,9 +80,20 @@ architecture-beta
     service db3(database)[Database] in app
 ```
 
+Una query SQL luciría así
+
+
+``` bash
+# Connecting database in postgres
+\c <tenant_database_>
+SELECT * FROM <tenant>.<table>;
+```
+
 ### Una base de datos pero diferentes schemas para cada tenant
 
-Una única base de datos para todos los tenants pero un schema diferente para cada tenant. Personalizable y la separación de los esquemas mantiene cierto nivel de aislamiento, pero la complejidad se incrementa.
+Una única base de datos para todos los tenants pero un schema diferente para cada tenant. Personalizable y la separación de los esquemas mantiene cierto nivel de aislamiento, pero la complejidad se incrementa. Puedes identificar a cada tenant por su schema.
+
+
 
 ``` mermaid
 architecture-beta
@@ -87,4 +104,8 @@ architecture-beta
     service schema3(logos:datasette-icon)[Schema] in api
 ```
 
+Una query SQL luciría así.
 
+``` bash
+SELECT * FROM <tenant>.<table>;
+```

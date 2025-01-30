@@ -16,7 +16,7 @@ keywords:
 title: Conoce bat en linux, el cat con resaltado de sintaxis
 ---
 
-El otro día estaba buscando herramientas de resaltado de sintaxis y me topé con una herramienta bastante interesante llamada [bat](https://github.com/sharkdp/bat) (Sí, como murciélago en inglés), es básicamente el comando _cat_ de linux, pero con colores y otras funciones bastante interesantes. Y, como cereza del pastel, **está programado en Rust.** En esta entrada te explico de forma corta como funciona y que es lo que puede hacer por ti.
+El otro día estaba buscando herramientas de resaltado de sintaxis y me topé con una herramienta bastante interesante llamada [bat](https://github.com/sharkdp/bat#?) (Sí, como murciélago en inglés), es básicamente el comando _cat_ de linux, pero con colores y otras funciones bastante interesantes. Y, como cereza del pastel, **está programado en Rust.** En esta entrada te explico de forma corta como funciona y que es lo que puede hacer por ti.
 
 ## Instalar bat desde los repositorios en linux
 
@@ -26,7 +26,7 @@ Puedes instalarlo directo desde los repositorios en las versiones más nuevas de
 sudo apt install bat
 ```
 
-Como mi versión de Debian no es la más reciente tuve que instalarlo desde [su version de paquete de software con terminacion .deb](https://github.com/sharkdp/bat/releases). Recuerda que si tienes problemas con los comandos de GNU/Linux entra a leer mis entradas donde te hago un resumen de los [comandos más básicos de GNU Linux](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/)
+Como mi versión de Debian no es la más reciente tuve que instalarlo desde [su version de paquete de software con terminacion .deb](https://github.com/sharkdp/bat/releases#?). Recuerda que si tienes problemas con los comandos de GNU/Linux entra a leer mis entradas donde te hago un resumen de los [comandos más básicos de GNU Linux](/es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/)
 
 ```bash
 wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_amd64.deb

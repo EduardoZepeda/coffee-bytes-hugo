@@ -36,7 +36,7 @@ Como ya sabes, el acceso a la base de datos suele ser el cuello de botella de la
 
 Es bastante común escribir código que ocasiones múltiples consultas a la base de datos, así como búsquedas bastante costosas.
 
-Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar) y redúcelas, o vuélvelas más eficientes:
+Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar#?) y redúcelas, o vuélvelas más eficientes:
 
 - **select_related** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/es/diferencias-entre-select_related-y-prefetch_related-en-django/)
 - **prefetch_related** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
@@ -202,9 +202,9 @@ def send_order_confirmation(order_pk):
 
 Cuando tus tablas superan los millones de registros, cada búsqueda recorrerá la base de datos completa, demorarando muchísimo tiempo en el proceso. ¿Cómo podríamos solucionarlo? partiendo las tablas en partes para que cada búsqueda se haga sobre una de las partes, por ejemplo, una tabla para los datos de un año atrás (o el periodo que tú prefieras), otra para los datos de dos años atrás y así hasta el primer dato.
 
-Las instrucciones para implementar el particionado dependen de la base de datos que estés usando. Si estás usando postgres esta función está solo disponible para versiones de Postgres superiores a la 10. Puedes usar [django-postgres-extra](https://django-postgres-extra.readthedocs.io/en/master/table_partitioning.html) para implementar esas funcionalidades extras que no se encuentran en el ORM de django.
+Las instrucciones para implementar el particionado dependen de la base de datos que estés usando. Si estás usando postgres esta función está solo disponible para versiones de Postgres superiores a la 10. Puedes usar [django-postgres-extra](https://django-postgres-extra.readthedocs.io/en/master/table_partitioning.html#?) para implementar esas funcionalidades extras que no se encuentran en el ORM de django.
 
-La implementación es demasiado extensa y requeriría una entrada completa. Hay un excelente artículo, en inglés, que te explica como implementar el [particionado de Postgresql en Django.](https://pganalyze.com/blog/postgresql-partitioning-django)
+La implementación es demasiado extensa y requeriría una entrada completa. Hay un excelente artículo, en inglés, que te explica como implementar el [particionado de Postgresql en Django.](https://pganalyze.com/blog/postgresql-partitioning-django#?)
 
 Considera también investigar sobre réplicas de bases de datos para lectura de archivos, dependiendo de la arquitectura de tu aplicación, puedes implementar múltiples replicas para lectura y una maestra que sirva para escribir. Este aproximación es un tema entero y se queda fuera del alcance de una pequeña entrada, pero ahora ya sabes que buscar. 
 
@@ -243,15 +243,15 @@ No todo es base de datos, a veces el problema está en el código Python en si m
 
 Además del intérprete normal de Python, el que se ofrece por defecto en la página oficial de Python, existen otros intérpretes que aseguran darte un mayor rendimiento.
 
-[Pypy](https://www.pypy.org/) es uno de ellos, se encarga de optimizar el código Python analizando el tipo de objetos que se crean con cada ejecución. Esta opción es ideal para aplicaciones donde Django se encargue de devolver un resultado que fue procesado principalmente usando código Python.
+[Pypy](https://www.pypy.org/#?) es uno de ellos, se encarga de optimizar el código Python analizando el tipo de objetos que se crean con cada ejecución. Esta opción es ideal para aplicaciones donde Django se encargue de devolver un resultado que fue procesado principalmente usando código Python.
 
-Otro intérprete, o más bien un superset de Python llamado [Mojo](https://mojolang.org/) promete ser un super set de Python (así como Typescript lo es de Javascript) con un rendimiento muchas veces mayor, ahora mismo no es compatible con Django pues se centra en AI, pero quizás en el futuro lo sea, por lo que mantente atento a cualquier cambio de esta prometedora tecnología.
+Otro intérprete, o más bien un superset de Python llamado [Mojo](https://mojolang.org/#?) promete ser un super set de Python (así como Typescript lo es de Javascript) con un rendimiento muchas veces mayor, ahora mismo no es compatible con Django pues se centra en AI, pero quizás en el futuro lo sea, por lo que mantente atento a cualquier cambio de esta prometedora tecnología.
 
 Pero no todo es maravilloso; los intérpretes de terceros, incluido pypy, no suelen ser compatibles al 100% con todo el código Python, pero sí con la mayoría, por lo que, igual que la opción anterior. **Usar un intérprete de terceros también debería de ser de las últimas opciones que consideres para resolver tu problema de rendimiento en Django.**
 
 ## Escribe los cuellos de botella en un lenguaje de bajo nivel con Swig
 
-Si has probado todo lo anterior y aún así tienes una aplicación con cuellos de botella, probablemente estás exprimiendo demasiado a Python y necesites de la velocidad de otro lenguaje. Pero no te preocupes, no tienes que rehacer toda tu aplicación en C o C++. [Swig](http://www.swig.org/) te permite crear módulos en C, C++, Java, Go u otros lenguajes de más bajo nivel para importarlos directamente desde Python.
+Si has probado todo lo anterior y aún así tienes una aplicación con cuellos de botella, probablemente estás exprimiendo demasiado a Python y necesites de la velocidad de otro lenguaje. Pero no te preocupes, no tienes que rehacer toda tu aplicación en C o C++. [Swig](http://www.swig.org/#?) te permite crear módulos en C, C++, Java, Go u otros lenguajes de más bajo nivel para importarlos directamente desde Python.
 
 ¿Quieres saber que tanta diferencia hay entre Python y un lenguaje compilado como go? en mi entrada [Python vs Go comparo la velocidad de ambos lenguajes.](/es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/)
 
@@ -259,7 +259,7 @@ Si tienes un cuello de botella causado por algún cálculo matemático muy costo
 
 ## ORMs y frameworks alternativos
 
-Dependiendo del avance de tu aplicación quizás te convenga migrar a otro framework más veloz que Django. El ORM de Django no es exactamente el más veloz que existe, y, al momento de escribir esta entrada, no es asíncrono. Quizás te convenga evaluar el darle una oportunidad a [sqlalchemy](https://www.sqlalchemy.org/), [ponyorm](https://ponyorm.org/).
+Dependiendo del avance de tu aplicación quizás te convenga migrar a otro framework más veloz que Django. El ORM de Django no es exactamente el más veloz que existe, y, al momento de escribir esta entrada, no es asíncrono. Quizás te convenga evaluar el darle una oportunidad a [sqlalchemy](https://www.sqlalchemy.org/#?), [ponyorm](https://ponyorm.org/#?).
 
 O, si tu aplicación no es muy compleja a nivel de base de datos, quizás quieras escribir tus propias consultas sql y combinarlas con algún otro framework.
 
@@ -275,12 +275,12 @@ Hay una plática que dieron en la djangocon2019 donde el ponente explica como lo
 
 Pinterest e Instagram son dos páginas gigantescas que partieron eligiendo Django como su backend. Puedes encontrar información sobre optimización y problemas muy concretos en sus blogs técnicos.
 
-El blog de instagram tiene una entrada llamada [Web Service efficiency at Instagram with Python](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366), donde explican algunos problemas que se encuentran al manejar 500 millones de usuarios y como solucionarlos.
+El blog de instagram tiene una entrada llamada [Web Service efficiency at Instagram with Python](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366#?), donde explican algunos problemas que se encuentran al manejar 500 millones de usuarios y como solucionarlos.
 
 Te dejo los enlaces a los blogs a continuación:
 
-- [Pinterest engineering](https://medium.com/pinterest-engineering)
-- [Instagram engineering](https://engineering.fb.com/tag/instagram/)
+- [Pinterest engineering](https://medium.com/pinterest-engineering#?)
+- [Instagram engineering](https://engineering.fb.com/tag/instagram/#?)
 
 References:
 - Definitive Guide to Django: Web Development Done Right by Adrian Holovaty and Jacob Kaplan Moss 

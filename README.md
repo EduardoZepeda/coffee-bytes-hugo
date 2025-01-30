@@ -1,6 +1,6 @@
 # Coffee bytes 
 
-My web development blog content in markdown file, ready to be rendered by [Hugo](https://gohugo.io/). It uses [hugo-theme-latte](https://github.com/EduardoZepeda/hugo-theme-latte). 
+My web development blog content in markdown file, ready to be rendered by [Hugo](https://gohugo.io/#?). It uses [hugo-theme-latte](https://github.com/EduardoZepeda/hugo-theme-latte). 
 
 Live version at [coffee bytes](https://coffeebytes.dev).
 

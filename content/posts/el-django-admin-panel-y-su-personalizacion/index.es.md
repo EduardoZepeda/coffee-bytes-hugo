@@ -270,10 +270,10 @@ Existen bastantes paquetes que permiten modificaciones bastante sofisticadas del
 
 Algunos ejemplos de lo anterior incluyen los siguientes paquetes:
 
-- [Jazzmin](https://django-jazzmin.readthedocs.io/)
-- [Wagtail](https://wagtail.org/)
-- [Mezzanine](https://github.com/stephenmcd/mezzanine)
-- [Django CMS](https://www.django-cms.org/en/)
+- [Jazzmin](https://django-jazzmin.readthedocs.io/#?)
+- [Wagtail](https://wagtail.org/#?)
+- [Mezzanine](https://github.com/stephenmcd/mezzanine#?)
+- [Django CMS](https://www.django-cms.org/en/#?)
 
 Cada uno es un tema en si mismo, por lo que no puedo resumirlos en una sola entrada.
 
@@ -302,7 +302,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Podemos agregar un campo extra a nuestros modelos de admin para cambiar los íconos, basta con colocar el nombre que aparece en la [documentación de materialize](https://materializecss.com/icons.html).
+Podemos agregar un campo extra a nuestros modelos de admin para cambiar los íconos, basta con colocar el nombre que aparece en la [documentación de materialize](https://materializecss.com/icons.html#?).
 
 ```python
 # videogameStore/admin.py
@@ -321,12 +321,12 @@ Si ahora accedemos al admin, podremos ver una nueva terminal mucho más estiliza
 
 Panel de administración de Django con django-material
 
-Usé este paquete en especial porque se instala muy fácil y le da un aspecto completamente diferente al admin. Pero existen [muchas otras opciones disponibles](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80) que puedes elegir, algunas de pago y otras gratuitas.
+Usé este paquete en especial porque se instala muy fácil y le da un aspecto completamente diferente al admin. Pero existen [muchas otras opciones disponibles](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80#?) que puedes elegir, algunas de pago y otras gratuitas.
 
 ## Seguridad en el django admin
 
 Es recomendable cambiar la url predeterminada, _/admin/_, a otra menos obvia, esto con la finalidad de prevenir ataques por fuerza bruta, si el atacante no conoce la dirección del django admin, le será imposible intentar adivinar tu contraseña por fuerza bruta.
 
-También hay paquetes que crean un panel de administración falso que puedes monitorear, para conocer aquellas direcciones IP que intentan apoderarse de tu sitio por medio del panel de administración, uno de ellos es [django-admin-honeypot](https://github.com/dmpayton/django-admin-honeypot). Una vez que identificas estas direcciones IP, puedes limitar su acceso, ponerlas en una lista negra o bloquearlas por completo.
+También hay paquetes que crean un panel de administración falso que puedes monitorear, para conocer aquellas direcciones IP que intentan apoderarse de tu sitio por medio del panel de administración, uno de ellos es [django-admin-honeypot](https://github.com/dmpayton/django-admin-honeypot#?). Una vez que identificas estas direcciones IP, puedes limitar su acceso, ponerlas en una lista negra o bloquearlas por completo.
 
 Si necesitas funcionalidades extra para el admin, revisa la [documentación oficial de Django](https://docs.djangoproject.com/en/3.2/ref/contrib/admin/).

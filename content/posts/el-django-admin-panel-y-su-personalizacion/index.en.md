@@ -265,10 +265,10 @@ There are quite a few packages that allow quite sophisticated modifications of d
 
 Examples of the above include the following packages:
 
-* [Jazzmin](https://django-jazzmin.readthedocs.io/)
-* [Wagtail](https://wagtail.org/)
-* [Mezzanine](https://github.com/stephenmcd/mezzanine)
-* [Django CMS](https://www.django-cms.org/en/)
+* [Jazzmin](https://django-jazzmin.readthedocs.io/#?)
+* [Wagtail](https://wagtail.org/#?)
+* [Mezzanine](https://github.com/stephenmcd/mezzanine#?)
+* [Django CMS](https://www.django-cms.org/en/#?)
 
 Each one is a topic in itself, so I cannot summarize them in a single entry.
 
@@ -297,7 +297,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-We can add an extra field to our admin models to change the icons, just put the name that appears in the [materialize documentation](https://materializecss.com/icons.html).
+We can add an extra field to our admin models to change the icons, just put the name that appears in the [materialize documentation](https://materializecss.com/icons.html#?).
 
 ```python
 # videogameStore/admin.py
@@ -316,12 +316,12 @@ If we now access the admin, we will be able to see a new, much more stylish term
 
 ![Log-in screen with django-material](images/pantalla-de-loggeo-django-material.png "django admin login panel with django-material")
 
-I used this package especially because it installs easily and gives a completely different look to the admin. But there are [many other options available](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80) that you can choose from, some paid and some free.
+I used this package especially because it installs easily and gives a completely different look to the admin. But there are [many other options available](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80#?) that you can choose from, some paid and some free.
 
 ## Security in django admin
 
 It is advisable to change the default url, _/admin/_, to a less obvious one, this in order to prevent brute force attacks, if the attacker does not know the django admin address, it will be impossible for him to try to guess your password by brute force.
 
-There are also packages that create a fake admin panel that you can monitor, to find out which IP addresses are trying to take over your site via the admin panel, one of them is [django-admin-honeypot](https://github.com/dmpayton/django-admin-honeypot). Once you identify these IP addresses, you can limit their access, blacklist them or block them completely.
+There are also packages that create a fake admin panel that you can monitor, to find out which IP addresses are trying to take over your site via the admin panel, one of them is [django-admin-honeypot](https://github.com/dmpayton/django-admin-honeypot#?). Once you identify these IP addresses, you can limit their access, blacklist them or block them completely.
 
 If you need extra functionality for the admin, check the [official Django documentation](https://docs.djangoproject.com/en/3.2/ref/contrib/admin/).

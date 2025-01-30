@@ -16,13 +16,13 @@ jobTitle: "Web developer"
 
 ## Más información sobre Eduardo Zepeda
 
-Egresado de CUCEI, aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros y practicando,](/es/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io), [Udemy](https://www.udemy.com/) y sí, la tan controversial [Platzi](https://platzi.com/#?) también.
+Egresado de CUCEI, aprendí casi todo lo que sé sobre desarrollo web [leyendo una serie de libros y practicando,](/es/pages/libros-que-he-leido-y-resenas/) tengo reseñas de algunos. Últimamente también he usado plataformas de aprendizaje en linea, especialmente [Educative](https://educative.io#?), [Udemy](https://www.udemy.com/#?) y sí, la tan controversial [Platzi](https://platzi.com/#?) también.
 
-Poseo la [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url)
+Poseo la [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/badges/17608a52-2cb7-4268-a907-613459559911/public_url#?)
 
 Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), aún buscando llegar al 1° Kyu.
 
-[![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small)](https://www.codewars.com/users/EduardoZepeda)
+[![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small#?)](https://www.codewars.com/users/EduardoZepeda#?)
 
 ¿Quieres ver algunos de mis proyectos? Revisa mi portafolio en [zeedu.dev](https://zeedu.dev)
 

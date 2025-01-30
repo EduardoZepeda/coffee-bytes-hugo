@@ -20,11 +20,11 @@ authors:
 url: /en/devin-ai-the-supposed-replacement-for-programmers/
 ---
 
-Today this unholy news became popular, that an "AI Software Engineer" with the name Devin, made by [Cognition Labs](https://www.cognition-labs.com/), will be available on the market. And, of course, it provoked a strong reaction among the software professional community. Reactions ranging from cynicism to fear to disappointment abound in the comments on the related videos.
+Today this unholy news became popular, that an "AI Software Engineer" with the name Devin, made by [Cognition Labs](https://www.cognition-labs.com/#?), will be available on the market. And, of course, it provoked a strong reaction among the software professional community. Reactions ranging from cynicism to fear to disappointment abound in the comments on the related videos.
 
 While we are still far from having a [self-aware AI](/en/chat-gpt-searles-chinese-room-and-consciousness/), what we do have is a product with promising features that threaten to turn the technology industry upside down.
 
-Like what features? [According to its creators, Devin AI can](https://www.cognition-labs.com/blog):
+Like what features? [According to its creators, Devin AI can](https://www.cognition-labs.com/blog#?):
 - Use unfamiliar technologies
 - Create and deploy applications
 - Automatically find bugs
@@ -36,7 +36,7 @@ Like what features? [According to its creators, Devin AI can](https://www.cognit
 
 ## Who is behind Devin AI?
 
-Behind Devin AI is Cognition labs, a relatively new company that had been kept behind the scenes until yesterday. Their [Twitter account](https://twitter.com/cognition_labs) is less than two days old at the time of writing (although it already accumulates over 86k followers).
+Behind Devin AI is Cognition labs, a relatively new company that had been kept behind the scenes until yesterday. Their [Twitter account](https://twitter.com/cognition_labs#?) is less than two days old at the time of writing (although it already accumulates over 86k followers).
 
 ### Who are the members of Cognition labs?
 
@@ -88,7 +88,7 @@ The second possibility is that nothing happens. Yes, nothing.
 
 It has happened multiple times in the past; every great forgotten idea starts with the promise of revolutionizing the world, as it happened with no-code or Dreamweaver (A WYSIWYG editor to create websites from 2007). Both were technologies that from one moment to the next threatened to change the world of technology forever, and failed to do so.
 
-Remember [Agent Swarm AI](https://github.com/daveshap/OpenAI_Agent_Swarm)? It also generated a lot of expectations but in the end it didn't crystallize into anything.
+Remember [Agent Swarm AI](https://github.com/daveshap/OpenAI_Agent_Swarm#?)? It also generated a lot of expectations but in the end it didn't crystallize into anything.
 
 So far Copilot, ChatGPT and probably Devin AI have been nothing more than "google searches" on steroids, they can give you the information you request directly, but it's not necessarily real and fail-safe. The iterative process offered by this system improves quite a bit on the usual question-answer dynamic, but it is still immune to falling into loops due to problems it can't solve or producing something totally different from what you ask for, for now we need to test it a lot more.
 

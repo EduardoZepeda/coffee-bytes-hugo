@@ -476,7 +476,7 @@ last reboot
 
 ## Bonus command: neofetch
 
-Now that you know how to install packages I am going to show you a package that displays system information but in a very visual way, the name of the package is [neofetch](https://github.com/dylanaraps/neofetch).
+Now that you know how to install packages I am going to show you a package that displays system information but in a very visual way, the name of the package is [neofetch](https://github.com/dylanaraps/neofetch#?).
 
 ```bash
 sudo apt install neofetch

@@ -115,7 +115,7 @@ Debes de recordar que **absolutamente todas las contraseñas pueden ser obtenida
 
 **Nota importante:** El sitio web que publicaré es para propósitos informativos. **Nunca teclees una contraseña que usas (o usarás) en un sitio web que no conoces** (incluido este), no sabes si pueden almacenarla para usarla después. Yo ya me aseguré de que el sitio web no manda peticiones web al usarse. Pero, incluso así, es una mala práctica teclear tus contraseñas en otros sitios web, no lo hagas.
 
-Bien, una vez advertido puedes visitarlo entrando en [este enlace](https://howsecureismypassword.net/). De cualquier forma aquí tienes algunos ejemplos de contraseñas y el tiempo aproximado que tomaría romperlas por fuerza bruta.
+Bien, una vez advertido puedes visitarlo entrando en [este enlace](https://howsecureismypassword.net/#?). De cualquier forma aquí tienes algunos ejemplos de contraseñas y el tiempo aproximado que tomaría romperlas por fuerza bruta.
 
 <table><tbody><tr><td><strong>Contraseña</strong></td><td><strong>Tiempo</strong></td></tr><tr><td>firulais</td><td>5 segundos</td></tr><tr><td>admin123</td><td>1 minuto</td></tr><tr><td>F1rul415</td><td>1 minuto</td></tr><tr><td>unP3rritoTrist3:(</td><td>3 cuadrillones de años</td></tr><tr><td>jXkeLCfcPfTqtCFEtMFy</td><td>16 cuadrillones de años</td></tr><tr><td>v&lt;eVZ&amp;C=&gt;-h-3H9`%y5*</td><td>6 sextillones de años</td></tr><tr><td>Aristoteles-Tira-Rocas-A-Platon</td><td>300 undecillones de años</td></tr></tbody></table>
 

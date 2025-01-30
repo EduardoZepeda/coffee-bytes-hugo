@@ -52,7 +52,7 @@ Well, there are different paradigms in this regard, each with its advantages and
 
 ### One database and one schema for all tenants.
 
-A single database and a single schema, with different tables for each tenant. The simplest and easiest architecture to implement, but comes with poor isolation and customization.
+A single database and a single schema, with different tables for each tenant. The simplest and easiest architecture to implement, but comes with poor isolation and customization. You can identify each tenant by an unique id.
 
 ``` mermaid
 architecture-beta
@@ -61,9 +61,15 @@ architecture-beta
     service schema(logos:datasette-icon)[Schema] in api
 ```
 
+A SQL query would look like this
+
+``` bash
+SELECT * FROM <table> WHERE <tenant_id_column> = '<id>';
+```
+
 ### A database for each tenant
 
-A database for each tenant. The most expensive when it comes to resources but provides the best isolation and full customization level.
+A database for each tenant. The most expensive when it comes to resources but provides the best isolation and full customization level. You can identify a tenant by its schema.
 
 ``` mermaid
 architecture-beta
@@ -74,9 +80,19 @@ architecture-beta
     service db3(database)[Database] in app
 ```
 
+A SQL query would look like this
+
+``` bash
+# Connect to database first
+\c <tenant_database>
+SELECT * FROM <tenant>.<table>;
+```
+
+
+
 ### One database but different schemas for each tenant.
 
-A single database for all tenants but a different schema for each tenant. Customizable and separation of schemas maintains some level of isolation, but complexity increases.
+A single database for all tenants but a different schema for each tenant. Customizable and separation of schemas maintains some level of isolation, but complexity increases. You can identify a tenant by its schema.
 
 ``` mermaid
 architecture-beta
@@ -85,4 +101,11 @@ architecture-beta
     service schema1(logos:datasette-icon)[Schema] in api
     service schema2(logos:datasette-icon)[Schema] in api
     service schema3(logos:datasette-icon)[Schema] in api
+```
+
+A SQL query would look like this
+
+
+``` bash
+SELECT * FROM <tenant>.<table>;
 ```
