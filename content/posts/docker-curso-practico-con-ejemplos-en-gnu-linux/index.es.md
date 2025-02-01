@@ -460,4 +460,19 @@ Listo, con esto basta para tener una idea básica de los volúmenes.
 
 Pero teclear los comandos uno a uno es engorroso, y no puedes (ni debes) guardar esos comandos en un sistema de control de versiones, por qué no escribir algo más portable y cómodo, bueno, para eso puedes [aprender a escribir un Dockerfiles.](/es/como-escribir-un-archivo-de-dockerfile-desde-cero/)
 
+## Comandos útiles de docker
+
+Encontrar el archivo *docker-compose.yml* que ejecuta un contenedor
+
+``` bash
+docker inspect <container_id> | grep com.docker.compose
+```
+
+Detener todos los contenedores
+
+``` bash
+docker stop $(docker ps -a -q) 
+```
+
+
 Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](/es/docker-compose-tutorial-con-comandos-en-gnu-linux/)

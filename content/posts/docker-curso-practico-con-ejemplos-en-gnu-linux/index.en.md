@@ -457,4 +457,18 @@ docker run --name mongoDB -d -v /Users/user/Dev/database:/data/db:ro mongo
 
 There, this is enough to have a basic idea of the volumes. But typing the commands one by one is cumbersome, and you can't (and shouldn't) save those commands in a version control system, why not something more portable and convenient, well, [for that you can learn how to write a Dockerfile from scratch.](/en/how-to-write-a-docker-file-from-scratch/)
 
+## Useful docker commands
+
+This command finds the *docker-compose.yml* file that runs a container
+
+``` bash
+docker inspect <container_id> | grep com.docker.compose
+```
+
+Stop all containers
+
+``` bash
+docker stop $(docker ps -a -q) 
+```
+
 This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/en/how-to-convert-jpg-to-webp-on-gnu-linux/).
