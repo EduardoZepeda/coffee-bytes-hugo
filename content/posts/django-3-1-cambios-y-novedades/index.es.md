@@ -16,7 +16,7 @@ keywords:
 title: 'Django 3.1 cambios y novedades: resumen completo'
 ---
 
-Hace unas horas estaba navegando por [mi twitter](https://twitter.com/neon_affogato#?) y me enteré de que acaban de hacer públicas Django 3.1, cambios y novedades de ; mi framework para web favorito. Esta nueva versión tiene algunos cambios interesantes de los que hablaré a continuación.
+Hace unas horas estaba navegando por [mi twitter](https://twitter.com/hello_wired#?) y me enteré de que acaban de hacer públicas Django 3.1, cambios y novedades de ; mi framework para web favorito. Esta nueva versión tiene algunos cambios interesantes de los que hablaré a continuación.
 
 ## Vistas, Middleware y tests asíncronos
 
