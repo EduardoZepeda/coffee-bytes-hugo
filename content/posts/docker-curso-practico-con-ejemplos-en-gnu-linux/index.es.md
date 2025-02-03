@@ -33,9 +33,7 @@ Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una 
 
 {{<ad>}}
 
-## Comandos básicos de Docker
-
-### Correr un contenedor
+## Correr un contenedor
 
 Para correr un contenedor usaremos el comando run y el nombre de la imagen de la que derivará. Puedes especificar como quieres que se llame tu contenedor con la opción _\--name_.
 
@@ -49,7 +47,7 @@ This message shows that your installation appears to be working correctly.
 
 Tras ejecutar el comando anterior, Docker descargará la imagen de hello-world y creará un contenedor, este contenedor se ejecutará, realizará su función y terminará de ejecutarse.
 
-### Descargar una imagen
+## Descargar una imagen
 
 Si solo quieres traer una imagen para que esté disponible, sin ejecutarla puedes usar el comando docker pull, seguido del nombre de la imagen. 
 
@@ -63,7 +61,7 @@ Digest: sha256:4cf9c47f86df71d48364001ede3a4fcd85ae80ce02ebad74156906caff5378bc
 ...
 ```
 
-### Buscar una imagen
+## Buscar una imagen
 
 La imagen de hello-world es probablemente la más aburrida que hay y de seguro querrás buscar una imagen que haga algo más que imprimir texto en pantalla.
 
@@ -84,7 +82,7 @@ imagen que te imagines, incluso subir las tuyas. Date una vuelta y mira todas la
 
 ![Captura de pantalla de Dockerhub, el repositorio oficial de imágenes de Docker.](images/Docker-hub.png)
 
-### Ver las imágenes
+## Ver las imágenes
 
 Si ahora ejecutamos docker images va a aparecer nuestra imagen descargada. Mira el bajo tamaño de la imagen, ¡pesa sólo 13.3kB! Asimismo mira la columna IMAGE ID**. Cada imagen, incluida las personalizadas, tiene un id único que la representa y un tag.**
 
@@ -94,7 +92,7 @@ REPOSITORY        TAG            IMAGE ID            CREATED             SIZE
 hello-world       latest         bf756fb1ae65        8 months ago        13.3kB
 ```
 
-### Inspeccionar una imagen
+## Inspeccionar una imagen
 
 Para inspeccionar una imagen basta con usar docker inspect, seguido del nombre o id de la imagen. Docker imprimirá información relacionada con la imagen en formato JSON.
 
@@ -111,7 +109,7 @@ docker inspect hello-world
  ...}] 
 ```
 
-### Historial de una imagen
+## Historial de una imagen
 
 Docker history nos muestra la historia de una imagen; los comandos que se han ejecutado y sus respectivos disparadores.
 
@@ -121,7 +119,7 @@ IMAGE               CREATED             CREATED BY                              
 bf756fb1ae65        9 months ago        /bin/sh -c #(nop)  CMD ["/hello"]               0B                  
 ```
 
-### Borrar una imagen
+## Borrar una imagen
 
 Para borrar una imagen existe el comando _rmi_, sí como _rm_, pero con la i de "image" a continuación, necesitaremos ya sea su id o su repository y su tag separados por dos puntos ":"
 
@@ -136,7 +134,7 @@ Si quisieras borrar la imagen de hello-world sería de la siguiente manera. Escr
 docker rmi hello-world:latest
 ```
 
-### Ver los procesos de Docker
+## Ver los procesos de Docker
 
 Si queremos ver los procesos ejecutados usamos docker ps con la opción _\-a_. **Por favor nota que nuestro contenedor tiene un id y, además un nombre**, el cual es generado por Docker automáticamente si no lo especificamos, en este caso "lucid\_morse".
 
@@ -153,7 +151,7 @@ docker ps
 CONTAINER ID   IMAGE              COMMAND        CREATED        STATUS                  PORTS     NAMES
 ```
 
-### Borrar un contenedor al terminar de ejecutarlo
+## Borrar un contenedor al terminar de ejecutarlo
 
 Cada vez que ejecutamos docker run se crea un nuevo contenedor. Para evitar llenarnos de contenedores podemos borrarlos automáticamente cuando estos terminan su ejecución usando la opción _\--rm_ después de docker run. Intenta corriendo la imagen hello-world nuevamente.
 
@@ -169,7 +167,7 @@ CONTAINER ID   IMAGE              COMMAND        CREATED          STATUS        
 0f100ae4a21e   hello-world        "/hello"       10 minutes ago    Exited (0) 10 minutes ago            lucid_morse
 ```
 
-### Borrar un contenedor
+## Borrar un contenedor
 
 Para borrar los contenedores, puedes usar el comando _docker rm_, con el nombre o id del contenedor.
 
@@ -177,7 +175,7 @@ Para borrar los contenedores, puedes usar el comando _docker rm_, con el nombre 
 docker rm nombre_o_id_del_contenedor
 ```
 
-### Borrar todos los contenedores en Docker
+## Borrar todos los contenedores en Docker
 
 Es bastante común querer borrar todos los contenedores en Docker. **Para hacerlo necesitamos conseguir todos los id de los contenedores.** 
 
@@ -196,7 +194,7 @@ Ahora que tenemos todos los id, podemos usar esta lista con el comando docker rm
 docker rm $(docker ps -aq)
 ```
 
-### Acceder a la terminal de un contenedor
+## Acceder a la terminal de un contenedor
 
 El siguiente comando nos introducirá en un contenedor creado a partir de una imagen. Técnicamente lo que hace docker run -it es vincular la entrada estándar (STDIN) de nuestro sistema operativo con la entrada estándar (STDIN) de nuestro contenedor. Esto nos permite correr un contenedor con el que podemos interactuar.
 
@@ -217,7 +215,19 @@ pwd
 /
 ```
 
-### ¿Cómo extraer un archivo de un contenedor de Docker?
+## ¿Cómo saber cuanta memoria o procesador usa un contenedor?
+
+Usa el comando *docker stats* y te mostrará cuanta memoria o CPU está usando cada contenedor en tiempo real.
+
+``` bash
+docker stats
+
+CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O        PIDS
+<id>   <container_name>   0.00%     116.2MiB / 11.4GiB   1.00%     337kB / 53.9kB   111MB / 709kB    11
+<id>   <container_name>   0.00%     41.12MiB / 11.4GiB   0.35%     52kB / 97kB      29.4MB / 295kB   9
+```
+
+## ¿Cómo extraer un archivo de un contenedor de Docker?
 
 Para extraer un archivo de un contenedor usamos el comando *docker cp*, que básicamente es un análogo del [comando cp de Linux](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp/), con la siguiente sintaxis
 
@@ -225,7 +235,7 @@ Para extraer un archivo de un contenedor usamos el comando *docker cp*, que bás
 docker cp <container_name>:<path_to_file> <path_to_extract_on_your_computer>
 ```
 
-### Correr un contenedor de Docker en segundo plano
+## Correr un contenedor de Docker en segundo plano
 
 Cuando queremos que un contenedor permanezca ejecutándose en segundo plano usamos la etiqueta _\-d_, que viene de detach (también puedes recordarlo fácilmente asociándolo con "daemon").
 
@@ -241,7 +251,7 @@ CONTAINER ID    IMAGE           COMMAND                  CREATED             STA
 8c7fbece083b    nginx           "/docker-entrypoint.…"   8 seconds ago       Up 6 seconds        80/tcp       boring_hugle
 ```
 
-### Ver los logs de un contenedor
+## Ver los logs de un contenedor
 
 Si nuestro contenedor no pudo ejecutarse de la manera en la que esperábamos, examinar los logs sería un buen punto de partida.
 
@@ -257,7 +267,7 @@ docker logs <nombre_del_contenedor>
 ...
 ```
 
-### Ejecutar un comando en un contenedor corriendo
+## Ejecutar un comando en un contenedor corriendo
 
 Para ejecutar un comando en un **contenedor que está corriendo** se usará el comando exec. Es importante hacer notar que aquí se **usa el nombre del contenedor,** no de la imagen. El comando siguiente ejecutará bash en el contenedor. Recuerda que para ver los contenedores corriendo usamos "_docker ps -a_".
 
@@ -276,7 +286,7 @@ docker exec -it boring_hugle curl localhost
 ...
 ```
 
-### Detener un contenedor de Docker
+## Detener un contenedor de Docker
 
 Para detener un contenedor que está corriendo basta con ejecutar _docker stop_, seguido del nombre o id del contenedor.
 
@@ -284,7 +294,7 @@ Para detener un contenedor que está corriendo basta con ejecutar _docker stop_,
 docker stop <nombre_o_id_del_contenedor>
 ```
 
-### Iniciamos un contenedor
+## Iniciamos un contenedor
 
 Si queremos correr un contenedor que se encuentra detenido usamos ahora _docker start_.
 
@@ -292,7 +302,7 @@ Si queremos correr un contenedor que se encuentra detenido usamos ahora _docker 
 docker start <nombre_o_id_del_contenedor>
 ```
 
-### Reiniciar un contenedor de Docker
+## Reiniciar un contenedor de Docker
 
 Si en lugar de eso queremos reiniciar un contenedor que se encuentra corriendo podemos usar _docker restart_.
 
@@ -300,7 +310,7 @@ Si en lugar de eso queremos reiniciar un contenedor que se encuentra corriendo p
 docker restart <nombre_o_id_del_contenedor>
 ```
 
-### Exponer un puerto en un contenedor de Docker al exterior
+## Exponer un puerto en un contenedor de Docker al exterior
 
 Hasta ahora hemos creado contenedores con los cuales no podemos interaccionar desde el exterior. Si intentamos abrir localhost del veremos que nuestro contenedor de Nginx no nos devuelve nada.
 
