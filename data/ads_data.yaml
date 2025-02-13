@@ -6,10 +6,10 @@ en:
     linkText: I want to know more about algorithms and data structures
     title: Don't be one of those devs who don't know algorithms and data structures
   artificial intelligence:
-    description: There is no secret that artificial intelligence is gaining a lot of traction in today's society (I'm kinda worried about this to be honest, I even wrote a few entries about it), if you're interested in Artificial intelligence, maybe you should consider learning,  intelligent agents, nature-inspired algorithms, there are some interesting course out there for a few bucks.
-    link: https://www.educative.io/courses/artificial-intelligence-foundations?aff=xkQr
-    linkText: I want to know more about AI
-    title: Artificial intelligence is here to stay
+    description: There are several options available to train a machine learning model, among the cheapest I have found is Digital Ocean, where you can rent a GPU for a few dollars, they also have discounts if you hire plans in advance, although I prefer the first option. Also as a new user you receive 200 dollars to use as you want, with some exceptions of course, you already know how businesses are.
+    link: https://m.do.co/c/a22240ebb8e7
+    linkText: See prices on Digital Ocean
+    title: Where to train an AI model?
   databases:
     description: 'If you''re starting with databases and backend, let me tell you something: forget about non-relational databases for now, start with SQL and thank me later. First learn how to perform SELECTS, INSERTS, UPDATES, DELETES, JOINS and all the other functions first, and if you''re too lazy to look for a good, well structured and sequential tutorial check the ones on educative, certificate included.'
     link: https://www.educative.io/courses/getting-started-sql-relational-databases?aff=xkQr
@@ -141,6 +141,11 @@ es:
     link: null
     linkText: null
     title: null
+  inteligencia artificial:
+    description: Hay muchas opciones disponibles para entrenar un modelo de machine learning, entre las más baratas que he encontrado se encuentra Digital Ocean, en la cual puedes rentar una GPU por unos cuantos dólares, ademaś tienen descuentos si contratas planes por adelantado, aunque yo prefiero la primera opción. Además como usuario nuevo te regalan 200 dólares para que los uses como tú quieras, salvo algunas excepciones, ya sabes, la letra chiquita siempre.
+    link: https://m.do.co/c/a22240ebb8e7
+    linkText: Quiero ver los precios en Digital Ocean
+    title: ¿Dónde entrenar un modelo de Machine learning?
   javascript:
     description: Si tus habilidades en Javascript ya son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente te habrás dado cuenta de algunas de sus múltiples debilidades, Typescript fue creado para resolverlas, y hay plataformas como educative, que te llevarán a dominar Typescript.
     link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
