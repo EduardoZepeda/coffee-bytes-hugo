@@ -68,6 +68,7 @@ pre = "message"
 url = "https://zeedu.dev"
 weight = 6
 [languages.en.params]
+GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
 author = "Eduardo Zepeda"
@@ -143,6 +144,7 @@ pre = "codewars"
 url = "https://www.codewars.com/users/EduardoZepeda"
 weight = 6
 [languages.es.params]
+GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
 author = "Eduardo Zepeda"
