@@ -39,6 +39,10 @@ Pero si ya tienes nociones de redes neuronales, entonces empecemos por el fine-t
 
 El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y continuar su formación en un conjunto de datos particulares del campo. Como por ejemplo un LLM que ha sido entrenado usando todos los artículos científicos sobre diabetes.
 
+Porque, ¿para qué prompt engineering cuando se puede hacer fine-tuning de un modelo y obtener los mismos resultados?
+
+![Drake hotline bling meme up: prompt engineering down: fine-tuning](https://i.imgflip.com/9kjbo2.jpg "Sólo estoy bromeando, siempre prueba primero con prompt engineering")
+
 La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastante positivo, pero no logran solucionar problemas particulares enfocados en tareas específicas. El procedimiento de fine-tuning brinda beneficios significativos, tales como la disminución de los costos de cálculo y la oportunidad de utilizar modelos avanzados sin la necesidad de edificar uno desde el inicio.
 
 [Puede que no sustituya a los programadores](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.

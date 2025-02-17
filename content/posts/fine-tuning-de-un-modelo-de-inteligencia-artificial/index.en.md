@@ -33,7 +33,11 @@ But if you already know about neural networks, then, let's start with the fine-t
 
 ## What is fine-tuning?
 
-Fine-tuning is the procedure of selecting an already trained model and continuing its training on a particular data set from the field. Like for example a LLM that has been trained specifically in scientific articles about diabetes. 
+Fine-tuning is the procedure of selecting an already trained model and continuing its training on a particular data set from the field. Like for example a LLM that has been trained specifically in scientific articles about diabetes.
+
+Because, why use prompt engineering when you can fine-tune a model and get the same results?
+
+![Drake hotline bling meme up: prompt engineering down: fine-tuning](https://i.imgflip.com/9kjbo2.jpg "I'm just kidding, always try prompt engineering first")
 
 Most current LLM models exhibit quite positive overall performance, but fail to solve particular problems focused on specific tasks. The fine-tuning procedure provides significant benefits, such as decreased computational costs and the opportunity to use advanced models without the need to build one from scratch. [It may not replace programmers](/en/devin-ai-the-supposed-replacement-for-programmers/) but fine-tuning can turn a model in the ultimate prediction tool in an area of knowledge. 
 
