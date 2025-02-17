@@ -7,7 +7,7 @@
 {{ if not $langAds }}
   {{ $langAds = index $ads "en" }}
 {{ end }}
-
+{{ if not (.Site.Params.latte.HideAds) }}
 {{/* Loop through categories and display ads */}}
 {{ range .Page.Params.categories }}
   {{ $ad := index $langAds . }}
@@ -22,7 +22,7 @@
     </div>
   {{ end }}
 {{ end }}
-
+{{ end }}
 
 <style>
   .affiliate-heading {
