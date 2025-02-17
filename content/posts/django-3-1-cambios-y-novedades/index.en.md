@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-A few hours ago I was browsing [my twitter](https://twitter.com/neon_affogato#?) and I found out that they just released Django 3.1, changes and new features of ; my favorite web framework. This new version has some interesting changes that I'll talk about next.
+A few hours ago I was browsing [my twitter](https://twitter.com/hello_wired#?) and I found out that they just released Django 3.1, changes and new features of ; my favorite web framework. This new version has some interesting changes that I'll talk about next.
 
 ## Views, Middleware and asynchronous testing
 

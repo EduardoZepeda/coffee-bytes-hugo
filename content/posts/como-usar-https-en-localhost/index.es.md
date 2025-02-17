@@ -72,5 +72,14 @@ Para permitir que [linux asigne el permiso](/es/entiende-los-permisos-en-gnu-lin
 sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
 ```
 
+### Solución 2 al error: Caddy “listen tcp :<port_number>: bind: permission denied”.
+
+Otra posibildiad es que caddy ya se esté ejecutando, ante lo cual basta con detenerlo y volverlo a correr
+
+``` bash
+caddy stop
+caddy start
+```
+
 Tras esto deberías poder acceder a your-sub-domain.localhost o a your-sub-domain.localhost:443 a través de *https* en tu navegador, [el comando curl](/es/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) o la herramienta que prefieras usar.
 

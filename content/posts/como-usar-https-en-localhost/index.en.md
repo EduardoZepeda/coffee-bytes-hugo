@@ -61,7 +61,7 @@ graph TD;
 
 Finally just run *caddy run*, or *caddy start* if you want a detached run, in the directory where the *Caddyfile* is located and caddy will create a *reverse proxy* to your localhost on the port you specified.
 
-### Solution to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
+### Solution 1 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
 
 If you get a permission denied error while trying to run caddy, it is because Linux prevents non-root processes from listening on major ports such as 443 or 80.
 
@@ -70,6 +70,15 @@ To allow caddy to listen on those ports and allow [linux to assign the required 
 
 ``` bash
 sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
+```
+
+### Solution 2 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
+
+Another posibility is that caddy was already running, to which you have to stop it and run it again
+
+``` bash
+caddy stop
+caddy start
 ```
 
 Afterwards you should be able to access your-sub-domain.localhost or your-sub-domain.localhost:443 via *https* in your browser, [the curl command](/en/basic-commands-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) or whatever tool you prefer to use.

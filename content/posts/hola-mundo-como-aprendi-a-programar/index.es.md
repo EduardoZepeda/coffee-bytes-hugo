@@ -14,6 +14,11 @@ description: Esta es una entrada personal donde explico como aprendí a programa
 keywords:
 - opinion
 - internet
+- miku
+- python
+- php
+- css
+- html
 title: Hello World, ¿cómo aprendi a programar?
 ---
 
@@ -27,7 +32,9 @@ Un buen día, mientras navegaba por internet, descubrí los blogs personales en 
 
 ## Internet y los blogs
 
-Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "manzana amarga", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
+Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/#?)", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. 
+
+Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
 
 ![Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.](images/blog-manzana-amarga.jpg "Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.")
 
