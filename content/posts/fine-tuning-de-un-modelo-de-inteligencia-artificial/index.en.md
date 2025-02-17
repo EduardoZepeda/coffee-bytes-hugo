@@ -1,22 +1,21 @@
 ---
-date: '2025-02-12T19:29:09-06:00'
-draft: true
+date: '2025-02-17'
 title: 'Fine-Tuning A LLM Small Practical Guide With Resources'
 categories:
 - artificial intelligence
 - opinions
 coverImage: "images/Fine-Tuning-LLM-Short-Guide.jpg"
 description: 'A short practical guide on the process of fine-tuning a LLM and useful resources to do so according to my experience training Mistral 7B available on HuggingFace'
-keyword: ''
+keyword: 'fine-tuning'
 keywords:
 - 'Artificial Intelligence'
 authors:
 - 'Eduardo Zepeda'
 ---
 
-I tried to fine-tune a DeepSeek model but failed, then I tried to do it with Llama and I couldn't get it either, finally I managed to do it with a Mistral model, specifically the 7B parameter model. 
+I tried to fine-tune a DeepSeek model but failed, then I tried to do it with Llama and I couldn't make it work, finally I managed to do it with a Mistral model, specifically the 7B parameter model. 
 
-I share with you some resources that I found useful during the process. Still, don't get confused by this, I still believe that [we are in an IA bubble](/en/the-rise-and-fall-of-the-ai-bubble/).
+I share with you some resources that I found useful during the process. Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/).
 
 ## Where to learn the basics of AI and Neural networks?
 
@@ -38,7 +37,7 @@ Most current LLM models exhibit quite positive overall performance, but fail to 
 
 I loved this resource for understanding the [general steps to fine-tuning an LLM](https://www.datacamp.com/tutorial/fine-tuning-large-language-models).
 
-### Steps to fine-tune an LLM
+### Steps needed to fine-tune an LLM
 
 The steps may vary according to the model but generally the process looks something like this:
 
@@ -50,7 +49,9 @@ The steps may vary according to the model but generally the process looks someth
 6. Evaluation: Test it with the test set.
 7. Inference: Deploy the fine-tuned model for inference on new data, making sure it generalizes well to unseen inputs.
 
-## Where to get datasets for fine-tuning?
+The [notebook that I used to fine-tune](https://www.kaggle.com/code/eduardomzepeda/fine-tuning-mistral-7b-with-linkedin-job-posting#?) the model is here and you can check it.
+
+## Where to get datasets for fine-tuning an LLM?
 
 I used datasets from [HuggingFace](https://huggingface.co/datasets/#?), however it is important to consider that pre-trained models that are freely available were probably trained using the same data, so if you decide to use them, don't expect to have a substantial improvement over normal model performance, it would be best to use your own data or original content.
 
@@ -60,7 +61,7 @@ I used datasets from [HuggingFace](https://huggingface.co/datasets/#?), however 
 
 Make sure your dataset is in a proper format, I had to convert one using Python to JSONL, because each line was a separate file, which made the import incredibly slow.
 
-## Which models are best for fine-tuning?
+## Which models are best for fine-tuning an LLM?
 
 To do fine-tuning, a good starting point is using a pre-trained LLM.
 

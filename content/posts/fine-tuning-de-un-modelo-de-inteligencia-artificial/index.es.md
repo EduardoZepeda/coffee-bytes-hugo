@@ -1,13 +1,12 @@
 ---
-date: '2025-02-12T19:29:09-06:00'
-draft: true
-title: 'Fine-Tuning De Un LLM Pequeña Guía Práctica Con Recursos'
+date: '2025-02-17'
+title: 'Fine-Tuning De Un LLM Guía Práctica Con Recursos'
 categories:
 - inteligencia artificial
 - opiniones
 coverImage: "images/Fine-Tuning-LLM-Short-Guide.jpg"
 description: 'Una breve guía práctica sobre el proceso de puesta a punto de un LLM y recursos útiles para hacerlo según mi experiencia entrenando Mistral 7B disponible en HuggingFace'
-keyword: ''
+keyword: 'fine-tuning'
 keywords:
 - 'Inteligencia Artificial'
 authors:
@@ -24,11 +23,15 @@ Si no tienes ni idea de Inteligencia Artificial o lo que es una red neuronal, lo
 
 Sin embargo es importante aclarar que estos videos no parten de cero, es necesario que tengas bases de algebra lineal, regresión lineal y cálculo diferencial e integral. Sé que puede ser un poco desmotivador para los que vienen de backgrounds no técnicos pero no es tan difícil como parece.
 
-{{< youtube "aircAruvnKk" >}}
+{{< youtube "jKCQsndqEGQ" >}}
 
 Probablemente ya conozcas a DotCSV, es el pelón que todos queremos, pero lo que quizás no sepas es que DotCSV tiene una introducción sobre redes neuronales y sus videos son excelentes, y lo mejor es que están en español.
 
 {{< youtube "MRIv2IwFTPg" >}}
+
+Platzi también tiene un excelente video donde explican las bases matemáticas de las redes neuronales en español, el video es algo largo, pero vale muchísimo la pena.
+
+{{< youtube "v6tk0CxaVU8" >}}
 
 ## ¿Qué es el fine-tuning?
 
@@ -40,7 +43,7 @@ La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastant
 
 Me encantó este recurso para entender los [pasos generales para hacer fine-tuning de un LLM](https://www.datacamp.com/tutorial/fine-tuning-large-language-models).
 
-### Pasos para hacer fine-tuning
+### Pasos para realizar fine-tuning de un LLM
 
 Los pasos pueden variar de acuerdo al modelo pero generalmente son algo similar a esto
 
@@ -51,6 +54,8 @@ Los pasos pueden variar de acuerdo al modelo pero generalmente son algo similar 
 5. Entrenamiento o Fine-Tuning: Entrene el modelo en el conjunto de datos personalizado.
 6. Evaluación: Ponlo a prueba con el conjunto de pruebas.
 7. Inferencia: Despliegue el modelo ajustado para la inferencia en nuevos datos, asegurándose de que se generaliza bien a entradas no vistas.
+
+La [notebook que utilice para realizar fine-tuning](https://www.kaggle.com/code/eduardomzepeda/fine-tuning-mistral-7b-with-linkedin-job-posting#?) está en Kaggle y puedes consultarla.
 
 ## ¿Dónde conseguir datasets para hacer fine-tuning?
 
