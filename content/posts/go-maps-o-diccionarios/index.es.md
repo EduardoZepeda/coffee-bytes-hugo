@@ -23,11 +23,23 @@ Junto con el [array y el slice de go](/es/go-slices-y-arrays/), un map es una es
 
 ## Funcionamiento interno de un map en go
 
-En go un map funciona bastante similar a cualquier otro lenguaje. En go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.
+### Implementación actual de Go: Swiss-tables
+
+Go 1.24 reemplazó su implementación de maps, ahora utiliza Swiss-tables, que actualmente son usadas en Rust. Swiss-tables proporciona un incremento en la velocidad en comparación con su implementación anterior, y también mejora:
+
+- Búsquedas lentas debido a buckets desbordados cuando se añadían entradas extra.
+- Mayor uso de memoria debido a buckets desbordados que requieren espacio extra.
+- Sobrecarga debida al rehashing al redimensionar los maps.
+
+### Implementación anterior de Go: Buckets
+
+En Go un map funciona bastante similar a como lo haría en cualquier otro lenguaje. En Go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.
 
 ![Funcionamiento interno de un map en el lenguaje de programación go.](images/mapsGolang-1.png)
 
 Funcionamiento interno de un map en go. La información está tomada de la [documentación oficial de un map.](https://go.dev/src/runtime/map.go)
+
+## Crear un map en go
 
 Para declarar un map, usamos la palabra map y encerramos en corchetes el tipo de dato de la llave, seguido del tipo de dato del valor.
 

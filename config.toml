@@ -77,7 +77,7 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = true
 disablesearch = false
-modalcountdown = 2
+modalcountdown = 35
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
 prePostAffiliateLink = ""
 prePostAffiliateText = "Register on Digital Ocean and get FREE $200 USD"
@@ -156,7 +156,7 @@ HideAds = true
 disablesearch = false
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
-modalcountdown = 2
+modalcountdown = 35
 prePostAffiliateDescription = "Utiliza este crédito para lanzar tus proyectos ahora en Digital Ocean, válido por 60 días"
 prePostAffiliateLink = ""
 prePostAffiliateText = "Quiero registrarme y obtener $200 USD"
