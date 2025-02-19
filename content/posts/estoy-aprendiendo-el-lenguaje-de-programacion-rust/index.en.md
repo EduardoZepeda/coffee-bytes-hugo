@@ -13,7 +13,7 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-I started learning Rust, and everything I read on the internet about its learning curve is true. Rust is difficult, not impossible, just difficult. But now I also **understood why the obsession with this programming language**. After finishing Rust's book I had a glimpse of the programming language that I will try to accurately capture in the following paragraphs. 
+I started learning Rust, and everything I read on the internet about its learning curve is true. Rust is difficult, not impossible, just difficult. But now I also **understand why the obsession with this programming language**. After finishing Rust's book I had a glimpse of the programming language that I will try to accurately capture in the following paragraphs. 
 
 If you already know what makes Rust so difficult and you're looking to learn it instead, skip to the final part of this post where I recommend some useful resources to learn Rust.
 
@@ -27,9 +27,9 @@ The reason behind Rust's complexity lies on an exotic scenario. [Rust was create
 
 ### Borrowing in Rust is difficult
 
-The goal of the creator of Rust was to disappear all the heap memory management errors that you probably already know about, for this Rust makes sure that there can only be one variable that *owns* one value, this possession can be transferred from one variable to another by borrowing but at all times there can only be one owner ~~to rule them all~~.
+The goal of the creator of Rust was to disappear all the heap memory management errors that you probably already know about, for this Rust makes sure that there can only be one variable that *owns* one value, this possession can be transferred from one variable to another by borrowing but at all times there can only be one owner ~~to rule them all~~. This approach makes complicated, but not impossible, to create memory leaks.
 
-When I was reading about this I found this video helpful to learn borrowing:
+Tip: When I was reading about this I found this video helpful to learn borrowing:
 
 {{< youtube id="4RZzjXmXcKg" >}}
 
@@ -39,7 +39,7 @@ I haven't read about this concept elsewhere, Lifetimes are used to manually tell
  
 ![How it feels when you first read about lifetimes](https://i.imgflip.com/972opz.jpg "How it feels when you first read about lifetimes")
 
-You don't need to understand exactly what they do, the important thing here is that you appreciate how their use can make code quite unreadable and complicated to understand at a glance.
+You don't need to understand exactly what the extra annotations do, the important thing here is that you appreciate how their use can make code quite unreadable and complicated to understand at a glance.
 
 ``` rust
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str { 
@@ -62,13 +62,13 @@ Rust has a number of smart pointers to handle memory references in case you need
 
 Sounds simple but, again, things get complicated when it comes time to write the code and be able to differentiate the use of each and what problem they solve. 
 
-I didn't understand their differences nor their uses the first time I read them, and I could realize that I wasn't the only ~~fool~~ one, stackoverflow and Reddit are full of questions about these smart pointers.
+I didn't understand their differences nor their uses the first time I read them, but after a quick search I realized that I wasn't the only ~~fool~~ one, stackoverflow and Reddit are full of questions about these smart pointers.
 
 ``` rust
 let value = Rc::new(RefCell::new(5));
 ```
 
-While researching about smart pointers I found this video, and I understood them perfectly after watching it.
+Tip: While researching about smart pointers I found this video, and I understood them perfectly after watching it.
 
 {{< youtube id="CTTiaOo4cbY" >}}
 
@@ -93,7 +93,7 @@ enum List {
 
 ### Closures' syntax in Rust is difficult.
 
-If you come from languages like Javascript, you are probably familiar with closures (as in the [debounce pattern]({{< ref path="/posts/debounce-y-throttle-en-javascript/index.md" lang="en" >}})), well in Rust they also exist, but the first time I saw one, I was confused by its syntax, using pipes to receive the arguments and with the word move, which transfers the property of all the variables it contains to the closure.
+If you come from languages like Javascript, you are probably familiar with closures (as in the [debounce pattern]({{< ref path="/posts/debounce-y-throttle-en-javascript/index.md" lang="en" >}})), well in Rust they also exist, but the first time I saw one, I was confused by its syntax, using pipes to receive the arguments and with the word move, which transfers the property of all the variables it contains to the closure. Why not use the same syntax that functions use?
 
 ``` rust
 std::thread::spawn(move || {
@@ -205,16 +205,16 @@ If reading a thick book is not your style and you prefer premium education, educ
 
 ### Youtube channels to learn Rust
 
-I also found that the videos of [Code to the Moon](https://www.youtube.com/@codetothemoon), are quite easy to understand and the author of the channel explains very well the concepts of Rust.
+I also found that the videos of [Code to the Moon](https://www.youtube.com/@codetothemoon#?), are quite easy to understand and the author of the channel explains very well the concepts of Rust.
 
-The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty) also has some tutorials that will help you understand the concepts better.
+The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty#?) also has some tutorials that will help you understand the concepts better.
 
 ### Rustlings
 
-Rustlings contains a [series of exercises to learn and practice Rust](https://github.com/rust-lang/rustlings) while reading the Rust book.
+Rustlings contains a [series of exercises to learn and practice Rust](https://github.com/rust-lang/rustlings#?) while reading the Rust book.
 
 {{<ad>}}
 
-When you finish all Rustling's exercises you receive this prize.
+When you finish all Rustling's exercises you receive this amazing prize.
 
 ![Rustling's reward after finishing all exercises](https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png "Rustling's reward after finishing all exercises")
