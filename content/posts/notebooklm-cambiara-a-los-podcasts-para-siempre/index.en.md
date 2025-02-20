@@ -16,13 +16,13 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-I just tried Google Notebooklm, and this feeling of novelty and excitement takes over my mind; like when a child receives what he asked for for Christmas, with the difference that I didn't ask for this tool to exist, but here it is anyway.
+I just tried Google Notebooklm, and this feeling of novelty and excitement took over my mind; like when a child receives what he asked for for Christmas, with the difference that I didn't ask for this tool to exist, but here it is anyway.
 
 ## Notebooklm lets you create a podcast from your notes
 
 You've probably already heard of this tool, and if you haven't, I'll explain below. 
 
-Google Notebooklm is an AI tool that becomes an expert in your notes and helps you, but this is not what has left me speechless, but its tool that transforms your notes into a conversation between two people, for now only available in English language and I show you right now the result.
+Google Notebooklm is an AI tool that becomes an expert in your notes and helps you, but this is not what has left me speechless, but its tool that transforms your notes into a conversation between two people, for now only available in English language and I'll show you right now the result.
 
 ![People often prefer audio-visual content over text](images/podcast-meme-5-minutes.jpg "People often prefer audio-visual content over text")
 
@@ -38,15 +38,15 @@ Google has done an excellent job, please appreciate the tone, the clean audio, a
 
 ## Will Notebooklm and the other models replace podcasts?
 
-This is the inevitable question (and its variants) whenever there is a significant advance in the field of artificial intelligences: [Is Devin AI going to replace developers?](/en/devin-ai-the-supposed-replacement-for-programmers/) or is it just one more symptom of the [AI bubble we are witnessing?](/en/the-rise-and-fall-of-the-ai-bubble/).
+This is the inevitable question (and its variants) whenever there is a significant progress in the field of artificial intelligence models: [Is Devin AI going to replace developers?](/en/devin-ai-the-supposed-replacement-for-programmers/) or is it just one more symptom of the [AI bubble we are witnessing?](/en/the-rise-and-fall-of-the-ai-bubble/).
 
 I don't think it's that simple, the interesting thing about this is trying to fit it into this colossal puzzle of AI models rising up in front of us right now.
 
-Imagine, eleven labs can convert text to different voices, Notebooklm is able to transform notes into a podcast, Lumalabs or Pika can transform images into video. Can you visualize it yet? A complete podcast, with customizable voices and faces, in video, hardly distinguishable from a "real" podcast.
+Just bear with me for a second, eleven labs can convert text to different voices, Notebooklm is able to transform notes into a podcast, Lumalabs or Pika can transform images into video. Can you visualize it yet? A complete podcast, with customizable voices and faces, in video, hardly distinguishable from a "real" podcast.
 
 ## A future of commoditized AI-created podcasts awaits us.
 
-In a world where you can create monetizable podcasts in a matter of minutes, this type of content will become abundant in short order, just like what is happening right now with all those channels that only put voices to reddit posts, or those that use AI images and voices to animate folktales.
+In a world where you can create monetizable podcasts in a matter of minutes, this type of content will become abundant (and repetitive) in short order, just like what is happening right now with all those channels that only put voices to reddit posts, or those that use AI images and voices to animate folktales.
 
 ![I can foresee this in the next year](https://i.imgflip.com/95scrd.jpg "I can foresee this in the next year")
 
@@ -74,9 +74,9 @@ I don't know if it's a trick of my imagination but I feel that people are readin
 
 Now that a podcast is so easy to generate from written text, who would rather dive into a sea of lyrics than yield to the tempting call of a human voice? 
 
-Doesn't blogging now feel like the sketch or script of what an audiovisual content should be, as if it were an unfinished product? The truth is that it terrifies me to think about the answer, it seems to me that we are at the gates of an Orwellian dystopia, but I am unable to reverse the trend and I can only watch helplessly.
+Doesn't blogging now feel like the sketch or script of what an audiovisual content should be, as if it were an unfinished product? The truth is that it terrifies me to think about the answer, it seems to me that we are at the gates of an Orwellian dystopia, but I am unable to reverse the trend and I can only watch helplessly how the world I knew crumbles.
 
-I will have to make more videos.
+I guess I'll have to record more videos.
 
 ![In Wall-e audiovisual content dominates over text](https://res.cloudinary.com/dwrscezd2/image/upload/v1727849039/kgr8at3ytm29xohusw5x.avif "In Wall-e audiovisual content dominates over text")
 
