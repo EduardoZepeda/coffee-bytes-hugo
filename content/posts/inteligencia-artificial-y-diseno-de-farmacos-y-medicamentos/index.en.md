@@ -1,5 +1,5 @@
 ---
-title: "Artificial Intelligence & Drug Design for Developers"
+title: "artificial intelligence & Drug Design for Developers"
 date: "2023-12-29"
 categories: 
 - "Artificial intelligence"

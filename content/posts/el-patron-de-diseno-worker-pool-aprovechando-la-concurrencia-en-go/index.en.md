@@ -7,8 +7,8 @@ date: "2023-06-28"
 coverImage: "images/worker-pool-patron.jpg"
 description: "I explain how the worker pool design pattern works, the ideal job queue to handle with programming languages that support concurrency."
 categories:
-- "Software architecture"
-- "Go"
+- software architecture
+- go
 keyword: worker pool
 keywords:
 - "Go"

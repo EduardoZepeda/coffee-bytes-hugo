@@ -75,7 +75,7 @@ author = "Eduardo Zepeda"
 description = "Tutorials and acid opinions about web development, programming and technology"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
-HideAds = true
+HideAds = false
 disablesearch = false
 modalcountdown = 35
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
@@ -152,7 +152,7 @@ author = "Eduardo Zepeda"
 description = "Artículos, opiniones ácidas y tutoriales sobre programación web, desarrollo y tecnología"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
-HideAds = true
+HideAds = false
 disablesearch = false
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
@@ -228,6 +228,8 @@ img-src = [
   "*.google.com.mx",
   "*.googletagmanager.com",
   "https://htmx.org",
+  "*.media-amazon.com",
+  "*.amazon.com",
 ]
 object-src = ["'none'"]
 script-src = [

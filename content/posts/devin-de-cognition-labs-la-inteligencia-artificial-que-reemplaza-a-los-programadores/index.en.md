@@ -5,13 +5,13 @@ aliases:
 title: "Devin AI Will this AI Replace Programmers?"
 date: "2024-03-13"
 coverImage: "images/devin-cognitive-artificial-intelligence-and-programmers.jpg"
-description: "Devin, the Artificial Intelligence model that promises to be better than a Software engineer and forever change the world of Software, created by Cognition Labs"
+description: "Devin, the artificial intelligence model that promises to be better than a Software engineer and forever change the world of Software, created by Cognition Labs"
 categories: 
-- "Artificial Intelligence"
+- "artificial intelligence"
 - "Opinions"
 keyword: devin ai
 keywords:
-- Artificial Intelligence
+- artificial intelligence
 - Opinions
 - Futurism
 - Devin
@@ -94,7 +94,7 @@ So far Copilot, ChatGPT and probably Devin AI have been nothing more than "googl
 
 In addition to the above, there is another aspect that we are missing.
 
-#### The financial aspect of Artificial Intelligence.
+#### The financial aspect of artificial intelligence.
 
 Let me describe a situation: 
 1. A group of entrepreneurs come up with a novel product.

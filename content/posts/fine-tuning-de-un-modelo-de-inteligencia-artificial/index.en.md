@@ -8,7 +8,7 @@ coverImage: "images/Fine-Tuning-LLM-Short-Guide.jpg"
 description: 'A short practical guide on the process of fine-tuning a LLM and useful resources to do so according to my experience training Mistral 7B available on HuggingFace'
 keyword: 'fine-tuning'
 keywords:
-- 'Artificial Intelligence'
+- 'artificial intelligence'
 authors:
 - 'Eduardo Zepeda'
 ---
@@ -19,7 +19,7 @@ I share with you some resources that I found useful during the process and some 
 
 ## Where to learn the basics of AI and Neural networks?
 
-If you have no idea about Artificial Intelligence or what a neural network is, the most complete and didactic videos belong to 3blue1brown. 
+If you have no idea about artificial intelligence or what a neural network is, the most complete and didactic videos belong to 3blue1brown. 
 
 However, it is important to clarify that these videos do not start from scratch, it is necessary that you have a background in linear algebra, linear regression and differential and integral calculus. I know it can be a little discouraging for those who come from non-technical backgrounds but it is not as difficult as it seems.
 

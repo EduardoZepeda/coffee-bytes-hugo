@@ -3,7 +3,7 @@ title: "The Rise and Fall of the AI Bubble"
 date: 2024-04-18
 categories:
 - opinions
-- Artificial Intelligence
+- artificial intelligence
 coverImage: images/ai-rise-and-fall-bubble.jpg
 description: We seem to be experiencing an artificial intelligence bubble or ai bubble caused by financial speculation, chatGPT, very clever programmers and very greedy investors
 keyword: ai bubble

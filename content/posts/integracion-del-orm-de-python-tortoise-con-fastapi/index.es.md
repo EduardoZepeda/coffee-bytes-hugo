@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - fastapi
+- bases de datos
 coverImage: images/IntegrandoFastApiYTortoiseORM.jpg
 coverImagecredits: Créditos https://www.pexels.com/@nguy-n-lam-196145/
 date: '2021-09-21'

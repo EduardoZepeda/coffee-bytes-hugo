@@ -8,8 +8,8 @@
   {{ $langAds = index $ads "en" }}
 {{ end }}
 {{ if not (.Site.Params.latte.HideAds) }}
-{{/* Loop through categories and display ads */}}
-{{ range .Page.Params.categories }}
+{{/* Loop through categories and display ads, limit only to two categories */}}
+{{ range first 2 .Page.Params.categories }}
   {{ $ad := index $langAds . }}
   {{ if $ad }}
     <div class="affiliate-link">
@@ -18,7 +18,10 @@
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
       </div>
       <p>{{$ad.description}}</p>
-      <p><a rel="nofollow noopener sponsored" class="markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
+      {{ if $ad.imageSrc }}
+      <a rel="nofollow sponsored" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}"/></a>
+      {{ end }}
+      <p><a rel="nofollow sponsored" class="markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
     </div>
   {{ end }}
 {{ end }}

@@ -3,7 +3,7 @@ title: "Go with Reflect: Boost Your Code's Flexibility"
 date: "2023-03-13"
 coverImage: "images/reflect-typeof-value-of-en-go.jpg"
 categories:
-- "Go"
+- go
 
 description: "I explain the reflect package of go and its basic reflection functions to obtain data types at runtime"
 keywords:

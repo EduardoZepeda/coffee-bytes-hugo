@@ -180,16 +180,7 @@ impl<T: Display> HogwartsReportCard<T> {
 }
 ```
 
-
-## Rust is not so hard to learn
-
-Rust is not exaggeratedly difficult, there are languages that are more complicated or require a complete paradigm shift to program in them, like Haskell, for example. 
-
-But I won't deny that learning Rust is more complicated than learning Go, or learning Python, I even dare to say that it is more complicated to learn than C, on the other hand it is easier to write bad code in C than in Rust.
-
-So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts that challenged me the most, but, taking into account how big is the language, you will be able to realize that was really a minimum part.
-
-Most of Rust's syntax is pretty straightforward, and some of the things you have to deal with, save you the headaches of having to debug memory leaks or null pointers, which is an interesting tradeoff.
+{{<ad>}}
 
 ## Where to learn Rust?
 
@@ -213,8 +204,17 @@ The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty#?) also has 
 
 Rustlings contains a [series of exercises to learn and practice Rust](https://github.com/rust-lang/rustlings#?) while reading the Rust book.
 
-{{<ad>}}
 
 When you finish all Rustling's exercises you receive this amazing prize.
 
 ![Rustling's reward after finishing all exercises](https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png "Rustling's reward after finishing all exercises")
+
+## Rust is not so hard to learn
+
+Rust is not exaggeratedly difficult, there are languages that are more complicated or require a complete paradigm shift to program in them, like Haskell, for example. 
+
+But I won't deny that learning Rust is more complicated than learning Go, or learning Python, I even dare to say that it is more complicated to learn than C, on the other hand it is easier to write bad code in C than in Rust.
+
+So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts that challenged me the most, but, taking into account how big is the language, you will be able to realize that was really a minimum part.
+
+Most of Rust's syntax is pretty straightforward, and some of the things you have to deal with, save you the headaches of having to debug memory leaks or null pointers, which is an interesting tradeoff.

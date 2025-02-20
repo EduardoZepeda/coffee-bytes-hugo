@@ -4,7 +4,7 @@ aliases:
 title: "Chat Gpt, Searle's Chinese Room and consciousness"
 date: "2023-04-19"
 categories:
-- "Artificial Intelligence"
+- "artificial intelligence"
 - "Opinions"
 
 coverImage: "images/chat-gpt-y-la-habitacion-china.jpg"

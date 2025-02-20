@@ -4,7 +4,7 @@ date: "2023-10-11"
 coverImage: "images/composition-over-inheritance.jpg"
 coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
 categories:
-- "Software architecture"
+- software architecture
 description: Read the most simple explanation of composition over inheritance in Object Oriented Programming (OOP) that will make you understand it right now.
 keyword: "composition over inheritance"
 keywords:
