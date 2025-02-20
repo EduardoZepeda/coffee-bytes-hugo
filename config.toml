@@ -240,7 +240,7 @@ img-src = [
   "*.media-amazon.com",
   "*.amazon.com",
   "data: storage.googleapis.com pagead2.googlesyndication.com",
-  "https://ep1.adtrafficquality.google/pagead/sodar*",
+  "https://ep1.adtrafficquality.google/pagead/sodar",
 ]
 
 frame-ancestors = ["'self'"]
