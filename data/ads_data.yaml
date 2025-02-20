@@ -18,7 +18,7 @@ en:
     description: Don't settle for SELECT, UPDATE, DELETE, JOINS and UNIONS, SQL has a LOT MORE to offer to make your everyday easier. I haven't finished it yet but it looks great so far. I'll update this when I finish it but until now I feel comfortable recommending it.
     imageSrc: https://m.media-amazon.com/images/I/71m3g1iL+nL._SL1500_.jpg
     link: https://amzn.to/3CYgHIO
-    linkText: Check SQL Pocket Guide prices on Amazon
+    linkText: Check SQL Pocket Guide price on Amazon
     title: Don't settle for basic SQL queries
   django:
     description: Django 5 came out and all books became obsolete because they're using old django versions in their examples, this one isn't and covers all the basic django features that makes this framework one of the most stable, battle-tested and safe bets when designing a web app.
@@ -77,7 +77,7 @@ en:
     imageAlt: A philosophy of software design book cover
     imageSrc: https://m.media-amazon.com/images/I/711Qnv05eTL._SL1231_.jpg
     link: https://amzn.to/4i8kodH
-    linkText: Check A philosophy of software design prices on Amazon
+    linkText: Check A philosophy of software design price on Amazon
     title: How to design good software?
   python:
     description: My book recommendation if you're into Python is this little book. Python tricks is a compilation of tricks (dah) and useful, but obscure and unknown, parts of the language. I thought I knew Python until I read this book, give it a try if you don't believe me.
