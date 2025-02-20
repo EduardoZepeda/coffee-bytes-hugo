@@ -12,7 +12,7 @@
 {{ range first 2 .Page.Params.categories }}
   {{ $ad := index $langAds . }}
   {{ if $ad }}
-    <div class="affiliate-link">
+    <aside class="affiliate-link">
       <div class="affiliate-heading">
         <h2>{{$ad.title}}</h2>
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
@@ -22,7 +22,7 @@
       <a rel="nofollow sponsored" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}"/></a>
       {{ end }}
       <p><a rel="nofollow sponsored" class="markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
-    </div>
+    </aside>
   {{ end }}
 {{ end }}
 {{ end }}
