@@ -17,7 +17,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-Python is super versatile, it has a giant community that has libraries that allow to achieve great things with few lines of code, Optical Character Recognition (OCR) is one of them, for that you just need to install tesseract and the python bindings, called pytesseract and you'll be ready to convert an image to a string.
+Python is super versatile, it has a giant community with libraries that allow you to create neural networks from scracth, [fine-tune a LLM](/en/fine-tuning-a-llm-small-practical-guide-with-resources/) or use Optical Character Recognition (OCR). For the latter you just need to install tesseract and python bindings, known as pytesseract and you'll be ready to convert an image to a string in a breeze.
 
 ## Installation of tesseract-ocr
 
