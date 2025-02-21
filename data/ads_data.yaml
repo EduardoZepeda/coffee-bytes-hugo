@@ -3,42 +3,42 @@ en:
   algorithms:
     description: This is the resource that I read to learn algorithms, and hence I can recommend in order to learn algorithms, way more comprehensible than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
     imageAlt: The algorithm design manual book cover
-    imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg
     link: https://amzn.to/4gUpFoa
     linkText: Check the algorithm design manual price on Amazon
     title: Where to learn about algorithms?
   artificial intelligence:
     description: 'My recommendation is this tiny hundred page book on Machine Learning, it deals with the basis of machine learning and all the math required to understand how AI models are trained. Don''t be foolished by its size, it''s dense, definitely it''s not a walk in the park. The book is so short because it leaves away all the filler and keeps only the crucial parts of Machine Learning. Warning: It contains lots of equations and it''s not exactly one hundred pages but a little bit more.'
     imageAlt: The Hundred-Page Machine Learning Book Cover
-    imageSrc: https://m.media-amazon.com/images/I/51XgdTo3xrL._SL1233_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103780/hundred-page-machine-learning-book_ueonkh.jpg
     link: https://amzn.to/3D3oMvN
     linkText: Check The Hundred-Page Machine Learning Book Price on Amazon
     title: Where to start with Machine Learning and AI
   databases:
     description: Don't settle for SELECT, UPDATE, DELETE, JOINS and UNIONS, SQL has a LOT MORE to offer to make your everyday easier. I haven't finished this book yet, however it looks great so far. I'll update this when I finish it but until now I feel comfortable recommending it.
     imageAlt: SQL Pocket Guide Book cover
-    imageSrc: https://m.media-amazon.com/images/I/71m3g1iL+nL._SL1500_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103829/SQL-pocket-guide_udtfro.jpg
     link: https://amzn.to/3CYgHIO
     linkText: Check SQL Pocket Guide price on Amazon
     title: Don't settle for basic SQL queries
   django:
     description: Django 5 came out and all books became obsolete because they're using old django versions in their examples, this one isn't and covers all the basic django features that makes this framework one of the most stable, battle-tested and safe bets when designing a web app.
     imageAlt: Django for Beginners book cover
-    imageSrc: https://m.media-amazon.com/images/I/71VWB2Ye+mL._SL1500_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103893/django-for-begginers_ki2ghr.jpg
     link: https://amzn.to/3Qx2pli
     linkText: Check Django for Beginners price on Amazon
     title: Where to learn Django Framework?
   docker:
     description: I'll save you some time. I had a hard time learning the basis of Kubernetes, after watching some video tutorials (free and private) and reading some blogs on the topic, I found this book, it gave me what other resources couldn't so I feel pretty comfortable recommending it. Check it out!
     imageAlt: Kubernetes up and running book cover
-    imageSrc: https://m.media-amazon.com/images/I/81fH7yJ8rsL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/kubernetes-up-and-running.jpg
     link: https://amzn.to/4k0MDga
     linkText: Check Kubernetes up and running book on Amazon
     title: What's the best resource to learn Kubernetes
   fastapi:
     description: Most APIs out there are horribly designed, how much should I nest subcategories in an API? what's HATEOAS? which format is better /api/, put the api version in a subdomain or put the api version in a header? Decisions are made without a reason, don't be one of them. This book deals with all these hard questions in more detail and teaches you how to design good APIs, go check it out.
     imageAlt: Build APIs You Won't Hate book cover
-    imageSrc: https://m.media-amazon.com/images/I/71tAidEGMKL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg
     link: https://amzn.to/41qJOhp
     linkText: Check Build APIs You Won't Hate price on Amazon
     title: How to design Good APIs
@@ -50,7 +50,7 @@ en:
   go:
     description: Does the name Brian W. Kernighan sound familiar to you? Yes? He's the author of 'The C programming language book'. Did you know that he also wrote this book? If you enjoyed his style you will probably like this book too.
     imageAlt: Go Programming Language book cover
-    imageSrc: https://m.media-amazon.com/images/I/71poU-tpxmL._SL1500_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103953/go-programming-language-book_vp91jl.jpg
     link: https://amzn.to/41nJIXH
     linkText: Check Go Programming Language price on Amazon
     title: Where to learn Go
@@ -62,41 +62,41 @@ en:
   javascript:
     description: This is THE book when it comes to Javascript. It's a complete guide that covers everything you need to know, from declaring variables, to understanding promises and even the basics of creating a Javascript compiler (Not as performant as it should), if you're going to read a Javascript book, let it be this one.
     imageAlt: Eloquent Javascript book cover
-    imageSrc: https://m.media-amazon.com/images/I/81HqVRRwp3L._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/eloquent-javascript.jpg
     link: https://amzn.to/3QvqSYt
     linkText: Check Eloquent Javascript price on Amazon
     title: Where to upgrade your Javascript skills?
   linux and devops:
     description: 'After searching for the best linux resource in a lot of online forums I found this little gem called ''How linux works''. It''s a complete book that covers basically everything: Cgroups, PAM, Cron daemons and even the bootladers and Linux''s init process. Truthfully I can''t recommend it more, 5/5. Go check it out.'
     imageAlt: How linux works book cover
-    imageSrc: https://m.media-amazon.com/images/I/71bCgtBmHdL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/how-linux-works.jpg
     link: https://amzn.to/3QsXkuw
     linkText: Check How Linux Works Price on Amazon
     title: Where to learn everything about Linux?
   opinions:
     description: Forget about Clean Code and read this book instead. Why? writing good software is hard because the definition of good software is highly variable, this books deals with that question in deep. Throughout the book you'll learn about complexity and its flow, abstractions, information hiding and the 'metas' of programming. IMO A philosophy of software design goes beyond what Clean Code has to offer, sorry uncle Bob.
     imageAlt: A philosophy of software design book cover
-    imageSrc: https://m.media-amazon.com/images/I/711Qnv05eTL._SL1231_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/a-philosophy-of-software-design.jpg
     link: https://amzn.to/4i8kodH
     linkText: Check A philosophy of software design price on Amazon
     title: How to design good software?
   python:
     description: My book recommendation if you're into Python is this little book. Python tricks is a compilation of tricks (dah) and useful, but obscure and unknown, parts of the language. I thought I knew Python until I read this book, give it a try if you don't believe me.
-    imageSrc: https://m.media-amazon.com/images/I/61k7Z74UuZL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/python-tricks-the-book.jpg
     link: https://amzn.to/4gLHlCB
     linkText: Check Python tricks price on Amazon
     title: How to perfect your Python skills
   react:
-    description: This is the resource that I read, and hence I can recommend in order to learn algorithms, way more comprehensible than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
+    description: This is the resource that I read to learn algorithms, and hence I can recommend in order to learn algorithms, way more comprehensible than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
     imageAlt: The algorithm design manual book cover
-    imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg
     link: https://amzn.to/4gUpFoa
     linkText: Check the algorithm design manual price on Amazon
     title: Where to learn about algorithms?
   rust:
     description: Behold, the Rust bible, it covers EVERYTHING you need to know about Rust, from variables to macros. I read it, it took me a while to grasp some of the concepts presented but it was worth it. If you desire to comprehend why so much hype about this programming language, take the first step now.
     imageAlt: Rust programming language book cover
-    imageSrc: https://m.media-amazon.com/images/I/71SlLVGcg-L._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-rust-programming-language-book.jpg
     link: https://amzn.to/4gUwyG2
     linkText: Check Rust programming language price on Amazon
     title: Where to learn Rust?
@@ -108,7 +108,7 @@ en:
   software architecture:
     description: This book showed me the way big companies, like Youtube, Dropbox, Google, etc. design their systems to handle astronomic requests per second. Alex Xu teaches you how to structure database replicas, cache, load balancers and all the details about designing enterprise class software, if you're interested in learning about systems that scale, you must not miss this book.
     imageAlt: System design interview book cover
-    imageSrc: https://m.media-amazon.com/images/I/51vZ6t5W4gL._SL1499_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/system-design-interview.jpg
     link: https://amzn.to/41rodp3
     linkText: Check System design interview book price on Amazon
     title: Where you should learn software architecture?
@@ -120,7 +120,7 @@ en:
   typescript:
     description: Most APIs out there are horribly designed, how much should I nest subcategories in an API? what's HATEOAS? which format is better /api/, put the api version in a subdomain or put the api version in a header? Decisions are made without a reason, don't be one of them. This book deals with all these hard questions in more detail and teaches you how to design good APIs, go check it out.
     imageAlt: Build APIs You Won't Hate book cover
-    imageSrc: https://m.media-amazon.com/images/I/71tAidEGMKL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg
     link: https://amzn.to/41qJOhp
     linkText: Check Build APIs You Won't Hate price on Amazon
     title: How to design Good APIs
@@ -128,42 +128,42 @@ es:
   algoritmos:
     description: Este es el recurso que leí, y por lo tanto puedo recomendar para aprender algoritmos, mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre algoritmos. Consulta el resto de libros que leo y recomiendo en mi perfil.
     imageAlt: Portada del Algorithm design manual
-    imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg
     link: https://amzn.to/4gUpFoa
     linkText: Consulta el precio del Algorithm design manual en Amazon
     title: ¿Dónde aprender sobre algoritmos?
   arquitectura de software:
     description: Este libro me mostró la manera en que las grandes empresas, como Youtube, Dropbox, Google, etc. diseñan sus sistemas para manejar peticiones astronómicas por segundo. Alex Xu te enseña cómo estructurar réplicas de bases de datos, caché, balanceadores de carga y todos los detalles sobre el diseño de software de clase empresarial, si estás interesado en aprender sobre sistemas que escalan, no debes perderte este libro.
     imageAlt: Portada del System Design Interview
-    imageSrc: https://m.media-amazon.com/images/I/51vZ6t5W4gL._SL1499_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/system-design-interview.jpg
     link: https://amzn.to/41rodp3
     linkText: Consulta el precio del libro System Design Interview en Amazon
     title: ¿Dónde aprender arquitectura de software?
   bases de datos:
     description: No te conformes con SELECT, UPDATE, DELETE, JOINS y UNIONS, SQL tiene MUCHO MÁS que ofrecer para hacer tu día a día más fácil. Todavía no he terminado de leer este libro pero de momento tiene muy buena pinta. Actualizaré esto cuando lo termine pero hasta ahora me siento bastante cómodo recomendándotelo.
     imageAlt: Portada de SQL Pocket Guide
-    imageSrc: https://m.media-amazon.com/images/I/71m3g1iL+nL._SL1500_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103829/SQL-pocket-guide_udtfro.jpg
     link: https://amzn.to/3CYgHIO
     linkText: Consulta el precio de SQL Pocket Guide en Amazon
     title: No te conformes con consultas SQL básicas
   django:
     description: Django 5 salió y todos los libros anteriores se volvieron obsoletos porque están usando versiones antiguas de django en sus ejemplos, este no lo es y cubre todas las características básicas de django que hacen de este framework una de las apuestas más estables, probadas en batalla y seguras a la hora de diseñar una aplicación web.
     imageAlt: Portada del libro Django for Beginners
-    imageSrc: https://m.media-amazon.com/images/I/71VWB2Ye+mL._SL1500_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103893/django-for-begginers_ki2ghr.jpg
     link: https://amzn.to/3Qx2pli
     linkText: Consulta el precio de Django for Beginners en Amazon
     title: ¿Dónde aprender Django Framework?
   docker:
     description: Te ahorraré algo de tiempo. Me costó mucho aprender las bases de Kubernetes, después de ver múltiples videotutoriales (gratuitos y de paga) y leer algunos blogs sobre el tema, encontré este libro, me dio lo que otros recursos no pudieron así que me siento bastante cómodo recomendándolo. ¡Échale un vistazo!
     imageAlt: Portada del libro Kubernetes up and running
-    imageSrc: https://m.media-amazon.com/images/I/81fH7yJ8rsL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/kubernetes-up-and-running.jpg
     link: https://amzn.to/4k0MDga
     linkText: Consulte el libro Kubernetes up and running en Amazon
     title: Cual es el mejor recurso para aprender Kubernetes
   fastapi:
     description: La mayoría de las APIs que existen están horriblemente diseñadas, ¿cuánto debo anidar subcategorías en una API? ¿qué es HATEOAS? ¿qué formato es mejor /api/, poner la versión de la api en un subdominio o poner la versión de la api en una cabecera? Estas decisiones se suelen tomar sin motivo alguno por algunos ingenieros, no seas uno de ellos. Este libro trata todas estas preguntas difíciles con más detalle y te enseña a diseñar buenas APIs, échale un vistazo.
     imageAlt: Portada del libro Build APIs You Won't Hate
-    imageSrc: https://m.media-amazon.com/images/I/71tAidEGMKL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg
     link: https://amzn.to/41qJOhp
     linkText: Consulta el precio de Build APIs You Won't Hate en Amazon
     title: Cómo diseñar buenas API
@@ -175,7 +175,7 @@ es:
   go:
     description: ¿Te suena el nombre de Brian W. Kernighan? ¿Sí? Es el autor de 'El libro del lenguaje de programación C'. ¿Sabías que también escribió este libro sobre el lenguaje de programación Go? Si te gustó su estilo, probablemente también disfrutes este libro.
     imageAlt: Portada del libro Lenguaje de programación Go
-    imageSrc: https://m.media-amazon.com/images/I/71poU-tpxmL._SL1500_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103953/go-programming-language-book_vp91jl.jpg
     link: https://amzn.to/41nJIXH
     linkText: Comprueba el precio del Lenguaje de Programación Go en Amazon
     title: Dónde aprender Go
@@ -190,48 +190,48 @@ es:
     description: >-
       Mi recomendación es este pequeño libro de cien páginas sobre Machine Learning, trata de las bases del Machine Learning y todas las matemáticas necesarias para entender cómo se entrenan los modelos de IA. No te dejes engañar por su tamaño, es denso y un poco complicado. ¿Y por qué tan corto? El libro es tan corto porque deja de lado todo el relleno y se queda sólo con las partes cruciales del Machine Learning. Una advertencia, contiene muchas ecuaciones y no tiene exactamente cien páginas, sino un poco más.
     imageAlt: Portada del libro de cien páginas sobre Machine Learning
-    imageSrc: https://m.media-amazon.com/images/I/51XgdTo3xrL._SL1233_.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103780/hundred-page-machine-learning-book_ueonkh.jpg
     link: https://amzn.to/3D3oMvN
     linkText: Consulta el precio del libro The Hundred-Page Machine Learning en Amazon
     title: Por dónde empezar con el aprendizaje automático y la IA
   javascript:
     description: Este es EL LIBRO cuando se trata de Javascript. Es una guía completa que cubre todo lo que necesitas saber, desde la declaración de variables, al funcionamiento interno de las promesas e incluso te explica como crear un compilador en Javascript (No tan eficiente como uno compilado, pero ideal para aprender), si vas a leer solo un libro de Javascript, que sea este.
     imageAlt: Portada del libro Eloquent Javascript
-    imageSrc: https://m.media-amazon.com/images/I/81HqVRRwp3L._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/eloquent-javascript.jpg
     link: https://amzn.to/3QvqSYt
     linkText: Consulta el precio de Eloquent Javascript en Amazon
     title: ¿Dónde mejorar sus conocimientos de Javascript?
   linux y devops:
     description: 'Después de buscar el mejor recurso linux en un montón de foros online encontré esta pequeña joya llamada ''How linux works''. Es un libro completo que cubre básicamente todas las entrañas de Linux: Cgroups, PAM, Cron daemons e incluso los bootladers y el proceso init de Linux. La verdad es que no puedo recomendarlo más, 5/5. Ve a leerlo.'
     imageAlt: Portada del libro Cómo funciona Linux
-    imageSrc: https://m.media-amazon.com/images/I/71bCgtBmHdL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/how-linux-works.jpg
     link: https://amzn.to/3QsXkuw
     linkText: Consulta el precio de Cómo funciona Linux en Amazon
     title: ¿Dónde aprender todo sobre Linux?
   opiniones:
     description: Olvídate de Clean Code y lee este libro en su lugar. ¿Por qué? escribir buen software es difícil porque la definición de buen software es muy variable, este libro trata esa cuestión en profundidad. A lo largo del libro aprenderás sobre la complejidad y su flujo, abstracciones, paradigmas de ocultamiento información y la meta filosofía de la programación. En mi opinión, A philosophy of Software Design va más allá de lo que Clean Code puede ofrecer, lo siento tío Bob.
     imageAlt: Portada del libro A philosophy of software design
-    imageSrc: https://m.media-amazon.com/images/I/711Qnv05eTL._SL1231_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/a-philosophy-of-software-design.jpg
     link: https://amzn.to/4i8kodH
     linkText: Consulta el precio de A philosophy of software design en Amazon
     title: ¿Cómo diseñar un buen software?
   python:
     description: Mi recomendación de libro si te gusta Python es este pequeño libro. Python tricks es una recopilación de trucos (dah, obvio) y partes útiles, pero desconocidas, del lenguaje. Yo pensaba que sabía Python hasta que leí este libro, dale una oportunidad si no me crees.
-    imageSrc: https://m.media-amazon.com/images/I/61k7Z74UuZL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/python-tricks-the-book.jpg
     link: https://amzn.to/4gLHlCB
     linkText: Consulta el precio de los trucos de Python en Amazon
     title: Cómo perfeccionar sus conocimientos de Python
   react:
     description: Este es el recurso que leí para aprender algoritmos, y por lo tanto puedo recomendar para aprender algoritmos, mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre algoritmos. Consulta el resto de libros que leo y recomiendo en mi perfil.
     imageAlt: Portada del manual de diseño de algoritmos
-    imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg
     link: https://amzn.to/4gUpFoa
     linkText: Consulta el precio del manual de diseño de algoritmos en Amazon
     title: ¿Dónde aprender sobre algoritmos?
   rust:
     description: He aquí, la biblia de Rust, este libro cubre todo lo que necesitas saber sobre Rust, lo leí, me tomó un tiempo comprender algunos de los conceptos presentados pero valió la pena. Si quieres comprender porque tanto escándalo con este lenguaje de programación deberías decidirte a leerlo.
     imageAlt: Portada del libro sobre el lenguaje de programación Rust
-    imageSrc: https://m.media-amazon.com/images/I/71SlLVGcg-L._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-rust-programming-language-book.jpg
     link: https://amzn.to/4gUwyG2
     linkText: Comprueba el precio del lenguaje de programación Rust en Amazon
     title: ¿Dónde aprender Rust?
@@ -250,7 +250,7 @@ es:
   typescript:
     description: La mayoría de las APIs que existen están horriblemente diseñadas, ¿cuánto debo anidar subcategorías en una API? ¿qué es HATEOAS? ¿qué formato es mejor /api/, poner la versión de la api en un subdominio o poner la versión de la api en una cabecera? Las decisiones se toman sin motivo, no seas uno de ellos. Este libro trata todas estas preguntas difíciles con más detalle y te enseña a diseñar buenas APIs, échale un vistazo.
     imageAlt: Portada del libro Build APIs You Won't Hate
-    imageSrc: https://m.media-amazon.com/images/I/71tAidEGMKL._SL1500_.jpg
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg
     link: https://amzn.to/41qJOhp
     linkText: Consulta el precio de Build APIs You Won't Hate en Amazon
     title: Cómo diseñar buenas API
