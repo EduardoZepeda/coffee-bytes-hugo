@@ -1,7 +1,7 @@
 ---
 en:
   algorithms:
-    description: This is the resource that I read, and hence I can recommend in order to learn algorithms, way simpler than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
+    description: This is the resource that I read to learn algorithms, and hence I can recommend in order to learn algorithms, way more comprehensible than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
     imageAlt: The algorithm design manual book cover
     imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
     link: https://amzn.to/4gUpFoa
@@ -15,7 +15,8 @@ en:
     linkText: Check The Hundred-Page Machine Learning Book Price on Amazon
     title: Where to start with Machine Learning and AI
   databases:
-    description: Don't settle for SELECT, UPDATE, DELETE, JOINS and UNIONS, SQL has a LOT MORE to offer to make your everyday easier. I haven't finished it yet but it looks great so far. I'll update this when I finish it but until now I feel comfortable recommending it.
+    description: Don't settle for SELECT, UPDATE, DELETE, JOINS and UNIONS, SQL has a LOT MORE to offer to make your everyday easier. I haven't finished this book yet, however it looks great so far. I'll update this when I finish it but until now I feel comfortable recommending it.
+    imageAlt: SQL Pocket Guide Book cover
     imageSrc: https://m.media-amazon.com/images/I/71m3g1iL+nL._SL1500_.jpg
     link: https://amzn.to/3CYgHIO
     linkText: Check SQL Pocket Guide price on Amazon
@@ -33,7 +34,7 @@ en:
     imageSrc: https://m.media-amazon.com/images/I/81fH7yJ8rsL._SL1500_.jpg
     link: https://amzn.to/4k0MDga
     linkText: Check Kubernetes up and running book on Amazon
-    title: Learn Kubernetes right now
+    title: What's the best resource to learn Kubernetes
   fastapi:
     description: Most APIs out there are horribly designed, how much should I nest subcategories in an API? what's HATEOAS? which format is better /api/, put the api version in a subdomain or put the api version in a header? Decisions are made without a reason, don't be one of them. This book deals with all these hard questions in more detail and teaches you how to design good APIs, go check it out.
     imageAlt: Build APIs You Won't Hate book cover
@@ -86,14 +87,14 @@ en:
     linkText: Check Python tricks price on Amazon
     title: How to perfect your Python skills
   react:
-    description: This is the resource that I read, and hence I can recommend in order to learn algorithms, way simpler than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
+    description: This is the resource that I read, and hence I can recommend in order to learn algorithms, way more comprehensible than SICP and it teaches you everything you need to know about algorithms. Check the rest of books I read and recommend in my profile.
     imageAlt: The algorithm design manual book cover
     imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
     link: https://amzn.to/4gUpFoa
     linkText: Check the algorithm design manual price on Amazon
     title: Where to learn about algorithms?
   rust:
-    description: Behold, the Rust bible, it covers everything you need to know about Rust, I read it, it took me a while to grasp some of the concepts presented but it was worth it. If you want to convert to rustaceanism you should read it too.
+    description: Behold, the Rust bible, it covers EVERYTHING you need to know about Rust, from variables to macros. I read it, it took me a while to grasp some of the concepts presented but it was worth it. If you desire to comprehend why so much hype about this programming language, take the first step now.
     imageAlt: Rust programming language book cover
     imageSrc: https://m.media-amazon.com/images/I/71SlLVGcg-L._SL1500_.jpg
     link: https://amzn.to/4gUwyG2
@@ -125,87 +126,119 @@ en:
     title: How to design Good APIs
 es:
   algoritmos:
-    description: Cuando la gente empieza a programar, normalmente empiezan aprendiendo la sintaxis de un lenguaje, pero la sintaxis de la mayoría de los lenguajes son bastante similares, lo que más importa es dominar los algoritmos y las estructuras de datos, el lenguaje más lento (lo siento Python) con un buen algoritmo puede superar al lenguaje más rápido con un mal algoritmo. Educative tiene unos buenos cursos sobre eso, certificado incluido
-    link: https://www.educative.io/courses/ds-and-algorithms-in-python?aff=xkQr
-    linkText: Quiero saber más sobre algoritmos y estructuras de datos
-    title: No seas de los software engineers que no dominan algoritmos
+    description: Este es el recurso que leí, y por lo tanto puedo recomendar para aprender algoritmos, mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre algoritmos. Consulta el resto de libros que leo y recomiendo en mi perfil.
+    imageAlt: Portada del Algorithm design manual
+    imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
+    link: https://amzn.to/4gUpFoa
+    linkText: Consulta el precio del Algorithm design manual en Amazon
+    title: ¿Dónde aprender sobre algoritmos?
   arquitectura de software:
-    description: Es super fácil aprender las bases de la programación, y la sintaxis de los lenguajes, sin embargo aprender a estructurar grandes bases de código y su flujo es enrevesado, porque normalmente las aplicaciones no crecen tanto, y porque es un área de conocimiento relativamente nueva, mis recursos favoritos son «The system design interview series», pero si no te van los libros educative tiene un curso completo sobre diseño de sistemas también.
-    link: https://www.educative.io/path/deep-dive-into-system-design-interview?aff=xkQr
-    linkText: Me apunto a aprender diseño de sistemas
+    description: Este libro me mostró la manera en que las grandes empresas, como Youtube, Dropbox, Google, etc. diseñan sus sistemas para manejar peticiones astronómicas por segundo. Alex Xu te enseña cómo estructurar réplicas de bases de datos, caché, balanceadores de carga y todos los detalles sobre el diseño de software de clase empresarial, si estás interesado en aprender sobre sistemas que escalan, no debes perderte este libro.
+    imageAlt: Portada del System Design Interview
+    imageSrc: https://m.media-amazon.com/images/I/51vZ6t5W4gL._SL1499_.jpg
+    link: https://amzn.to/41rodp3
+    linkText: Consulta el precio del libro System Design Interview en Amazon
     title: ¿Dónde aprender arquitectura de software?
   bases de datos:
-    description: Si estás empezando con bases de datos y backend, déjame decirte algo":" olvídate de las bases de datos no relacionales por ahora, empieza con SQL y dame las gracias después. Primero aprende a hacer SELECTS, INSERTS, UPDATES, DELETES, JOINS y todas las demás funciones, y si te da pereza buscar un buen tutorial, bien estructurado y secuencial, mira los que hay en educative, certificado incluido'.
-    link: https://www.educative.io/courses/getting-started-sql-relational-databases?aff=xkQr
-    linkText: Quiero aprender SQL
-    title: ¿Quieres pasar de frontend a backend? Necesitarás SQL
+    description: No te conformes con SELECT, UPDATE, DELETE, JOINS y UNIONS, SQL tiene MUCHO MÁS que ofrecer para hacer tu día a día más fácil. Todavía no he terminado de leer este libro pero de momento tiene muy buena pinta. Actualizaré esto cuando lo termine pero hasta ahora me siento bastante cómodo recomendándotelo.
+    imageAlt: Portada de SQL Pocket Guide
+    imageSrc: https://m.media-amazon.com/images/I/71m3g1iL+nL._SL1500_.jpg
+    link: https://amzn.to/3CYgHIO
+    linkText: Consulta el precio de SQL Pocket Guide en Amazon
+    title: No te conformes con consultas SQL básicas
   django:
-    description: Para dominar Django hay que entender como funciona, como una petición HTTP va al router, que pasa los datos de la petición a la función (o clase) adecuada y luego como se puede el ORM de Django para interactuar con la base de datos y devolver una respuesta si quieres una explicación detallada de cada paso, educative tiene un curso sobre eso, con certificado incluido, y se cubre Python (por si no sabes Python) link abajo.
-    link: https://www.educative.io/path/become-a-django-developer?aff=xkQr
-    linkText: Quiero saber más sobre el curso completo de Django
-    title: ¿Qué tal un curso con todo lo que Django ofrece?
+    description: Django 5 salió y todos los libros anteriores se volvieron obsoletos porque están usando versiones antiguas de django en sus ejemplos, este no lo es y cubre todas las características básicas de django que hacen de este framework una de las apuestas más estables, probadas en batalla y seguras a la hora de diseñar una aplicación web.
+    imageAlt: Portada del libro Django for Beginners
+    imageSrc: https://m.media-amazon.com/images/I/71VWB2Ye+mL._SL1500_.jpg
+    link: https://amzn.to/3Qx2pli
+    linkText: Consulta el precio de Django for Beginners en Amazon
+    title: ¿Dónde aprender Django Framework?
   docker:
-    description: Si lo que buscas es aprender Docker para poder trabajar como ingeniero devops o como base para aprender kubernetes, necesitas aprender fundamentos de redes, git y github (para rastrear tus archivos yml de k8s), contenedores y docker, he escrito unas cuantas entradas sobre ellos, pero si vas en serio, por qué no inviertes unos cuantos pavos en un curso online (como el devops path de educative) y un certificado y te quitas de encima todo el rollo de buscar cursos gratuitos aquí y allá
-    link: https://www.educative.io/path/devops-for-developers?aff=xkQr
-    linkText: Quiero aprender Kubernetes
-    title: ¿Quieres aprender Kubernetes para ser devops?
+    description: Te ahorraré algo de tiempo. Me costó mucho aprender las bases de Kubernetes, después de ver múltiples videotutoriales (gratuitos y de paga) y leer algunos blogs sobre el tema, encontré este libro, me dio lo que otros recursos no pudieron así que me siento bastante cómodo recomendándolo. ¡Échale un vistazo!
+    imageAlt: Portada del libro Kubernetes up and running
+    imageSrc: https://m.media-amazon.com/images/I/81fH7yJ8rsL._SL1500_.jpg
+    link: https://amzn.to/4k0MDga
+    linkText: Consulte el libro Kubernetes up and running en Amazon
+    title: Cual es el mejor recurso para aprender Kubernetes
   fastapi:
-    description: Normalmente, usaría Django para escribir cualquier API, sin embargo probé FastAPI y me enamoré de su simplicidad y velocidad, es ciertamente más rápido que Django, si estas buscando un framework que te permita crear una API con un excelente rendimiento y en tiempo record, checa el siguiente curso.
-    link: https://www.educative.io/courses/rest-api-python-microsoft-azure?aff=xkQr
-    linkText: Quiero aprender FastAPI
-    title: FastAPI es un gran framework para el desarrollo de APIs
+    description: La mayoría de las APIs que existen están horriblemente diseñadas, ¿cuánto debo anidar subcategorías en una API? ¿qué es HATEOAS? ¿qué formato es mejor /api/, poner la versión de la api en un subdominio o poner la versión de la api en una cabecera? Estas decisiones se suelen tomar sin motivo alguno por algunos ingenieros, no seas uno de ellos. Este libro trata todas estas preguntas difíciles con más detalle y te enseña a diseñar buenas APIs, échale un vistazo.
+    imageAlt: Portada del libro Build APIs You Won't Hate
+    imageSrc: https://m.media-amazon.com/images/I/71tAidEGMKL._SL1500_.jpg
+    link: https://amzn.to/41qJOhp
+    linkText: Consulta el precio de Build APIs You Won't Hate en Amazon
+    title: Cómo diseñar buenas API
   git:
-    description: Claro que todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, aún te falta exprimir más a Git, ve a por los comandos avanzados de git ya sea con los cursos completos como el de educative, o donde quieras, pero soluciónalo ya.
+    description: Claro, todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, no te conformes con lo básico, ve a por los comandos avanzados de git ya sea con los cursos de abajo o donde quieras, pero pasa a la acción ya.
     link: https://www.educative.io/courses/learn-git-hard-way?aff=xkQr
     linkText: Quiero aprender Git avanzado
     title: No te conformes con git add y git commit
   go:
-    description: El otro día encontré este curso de Go, trata sobre el nucleo de Go como lenguaje, así como conceptos avanzados como manejo de errores y redes, técnicas de programación eficientes y errores comunes de este incomprendido lenguaje tan potente.
-    link: https://www.educative.io/courses/the-way-to-go?aff=xkQr
-    linkText: Quiero saber más sobre este curso completo de Go
-    title: ¿Por qué no ir más allá de los fundamentos de Go hacia algo más avanzado?
+    description: ¿Te suena el nombre de Brian W. Kernighan? ¿Sí? Es el autor de 'El libro del lenguaje de programación C'. ¿Sabías que también escribió este libro sobre el lenguaje de programación Go? Si te gustó su estilo, probablemente también disfrutes este libro.
+    imageAlt: Portada del libro Lenguaje de programación Go
+    imageSrc: https://m.media-amazon.com/images/I/71poU-tpxmL._SL1500_.jpg
+    link: https://amzn.to/41nJIXH
+    linkText: Comprueba el precio del Lenguaje de Programación Go en Amazon
+    title: Dónde aprender Go
   htmx:
     description: null
+    imageAlt: null
+    imageSrc: null
     link: null
     linkText: null
     title: null
   inteligencia artificial:
-    description: Hay muchas opciones disponibles para entrenar un modelo de machine learning, entre las más baratas que he encontrado se encuentra Digital Ocean, en la cual puedes rentar una GPU por unos cuantos dólares, ademaś tienen descuentos si contratas planes por adelantado, aunque yo prefiero la primera opción. Además como usuario nuevo te regalan 200 dólares para que los uses como tú quieras, salvo algunas excepciones, ya sabes, la letra chiquita siempre.
-    link: https://m.do.co/c/a22240ebb8e7
-    linkText: Quiero ver los precios en Digital Ocean
-    title: ¿Dónde entrenar un modelo de Machine learning?
+    description: >-
+      Mi recomendación es este pequeño libro de cien páginas sobre Machine Learning, trata de las bases del Machine Learning y todas las matemáticas necesarias para entender cómo se entrenan los modelos de IA. No te dejes engañar por su tamaño, es denso y un poco complicado. ¿Y por qué tan corto? El libro es tan corto porque deja de lado todo el relleno y se queda sólo con las partes cruciales del Machine Learning. Una advertencia, contiene muchas ecuaciones y no tiene exactamente cien páginas, sino un poco más.
+    imageAlt: Portada del libro de cien páginas sobre Machine Learning
+    imageSrc: https://m.media-amazon.com/images/I/51XgdTo3xrL._SL1233_.jpg
+    link: https://amzn.to/3D3oMvN
+    linkText: Consulta el precio del libro The Hundred-Page Machine Learning en Amazon
+    title: Por dónde empezar con el aprendizaje automático y la IA
   javascript:
-    description: Si tus habilidades en Javascript ya son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente te habrás dado cuenta de algunas de sus múltiples debilidades, Typescript fue creado para resolverlas, y hay plataformas como educative, que te llevarán a dominar Typescript.
-    link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
-    linkText: Quiero aprender Typescript
-    title: No te conformes con Javascript, aprende también Typescript
+    description: Este es EL LIBRO cuando se trata de Javascript. Es una guía completa que cubre todo lo que necesitas saber, desde la declaración de variables, al funcionamiento interno de las promesas e incluso te explica como crear un compilador en Javascript (No tan eficiente como uno compilado, pero ideal para aprender), si vas a leer solo un libro de Javascript, que sea este.
+    imageAlt: Portada del libro Eloquent Javascript
+    imageSrc: https://m.media-amazon.com/images/I/81HqVRRwp3L._SL1500_.jpg
+    link: https://amzn.to/3QvqSYt
+    linkText: Consulta el precio de Eloquent Javascript en Amazon
+    title: ¿Dónde mejorar sus conocimientos de Javascript?
   linux y devops:
-    description: Debes sentirte cómodo usando linux, por eso estás aquí ¿verdad? para gente como tú que no teme ensuciarse las manos y prefiere personalizar su propio entorno en lugar de que otros decidan por ellos, la mejor opción es un VPS (Servidor Virtual Privado), y el más barato que he encontrado, al menos hasta ahora, es Digital Ocean, desde $4 USD al mes. No me creas, compruébalo, y de paso aprovecha los créditos gratuitos que ofrecen si te registras.
-    link: https://m.do.co/c/a22240ebb8e7
-    linkText: Visitar DO
-    title: ¿Dónde hostear una aplicación como esta?
+    description: 'Después de buscar el mejor recurso linux en un montón de foros online encontré esta pequeña joya llamada ''How linux works''. Es un libro completo que cubre básicamente todas las entrañas de Linux: Cgroups, PAM, Cron daemons e incluso los bootladers y el proceso init de Linux. La verdad es que no puedo recomendarlo más, 5/5. Ve a leerlo.'
+    imageAlt: Portada del libro Cómo funciona Linux
+    imageSrc: https://m.media-amazon.com/images/I/71bCgtBmHdL._SL1500_.jpg
+    link: https://amzn.to/3QsXkuw
+    linkText: Consulta el precio de Cómo funciona Linux en Amazon
+    title: ¿Dónde aprender todo sobre Linux?
   opiniones:
-    description: Últimamente he estado experimentando con cursos en línea, he probado varias plataformas y hasta ahora me ha gustado la plataforma de Educative y la gran variedad de cursos en línea que ofrecen. Si estás buscando perfeccionar tus habilidades y llevarlas al siguiente nivel tal vez deberías considerar gastar unos dólares en tu educación.
-    link: https://www.educative.io/unlimited?aff=xkQr
-    linkText: Regístrate en Educative.
-    title: Cómo mejorar tus conocimientos de software
+    description: Olvídate de Clean Code y lee este libro en su lugar. ¿Por qué? escribir buen software es difícil porque la definición de buen software es muy variable, este libro trata esa cuestión en profundidad. A lo largo del libro aprenderás sobre la complejidad y su flujo, abstracciones, paradigmas de ocultamiento información y la meta filosofía de la programación. En mi opinión, A philosophy of Software Design va más allá de lo que Clean Code puede ofrecer, lo siento tío Bob.
+    imageAlt: Portada del libro A philosophy of software design
+    imageSrc: https://m.media-amazon.com/images/I/711Qnv05eTL._SL1231_.jpg
+    link: https://amzn.to/4i8kodH
+    linkText: Consulta el precio de A philosophy of software design en Amazon
+    title: ¿Cómo diseñar un buen software?
   python:
-    description: Bueno, no es un secreto que Python está más que bien en estos días, la IA ha convertido a Python de un lenguaje de scripting o de juguete en uno de los lenguajes más queridos y bien pagados, y se utiliza incluso para proyectos enormes, sobre todo en inteligencia artificial, ríndete al FOMO y aprende Python ahora, obtén un certificado en educative.
-    link: https://www.educative.io/courses/learn-to-code-python-for-absolute-beginners?aff=xkQr
-    linkText: Ok, me has convencido quiero aprender Python
-    title: ¿Quieres cambiar de Javascript a Python? ¿Por la AI verdad?
+    description: Mi recomendación de libro si te gusta Python es este pequeño libro. Python tricks es una recopilación de trucos (dah, obvio) y partes útiles, pero desconocidas, del lenguaje. Yo pensaba que sabía Python hasta que leí este libro, dale una oportunidad si no me crees.
+    imageSrc: https://m.media-amazon.com/images/I/61k7Z74UuZL._SL1500_.jpg
+    link: https://amzn.to/4gLHlCB
+    linkText: Consulta el precio de los trucos de Python en Amazon
+    title: Cómo perfeccionar sus conocimientos de Python
   react:
-    description: React es una librería, pero hay frameworks basados en React que pueden acelerar tu desarrollo y encargarse de todo el boilerplate que se suele escribir, uno de ellos, y mi favorito personal es Nextjs. Si estás buscando sacar provecho de tus habilidades con React tal vez deberías aprender Nextjs. Y una vez lo domines checa Payload js.
-    link: https://www.educative.io/courses/react-beginner-to-advanced?aff=xkQr
-    linkText: Quiero aprender Nextjs
-    title: Ya sabes React, ¿y ahora qué?
+    description: Este es el recurso que leí para aprender algoritmos, y por lo tanto puedo recomendar para aprender algoritmos, mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre algoritmos. Consulta el resto de libros que leo y recomiendo en mi perfil.
+    imageAlt: Portada del manual de diseño de algoritmos
+    imageSrc: https://m.media-amazon.com/images/I/6163mph9wCL._SL1092_.jpg
+    link: https://amzn.to/4gUpFoa
+    linkText: Consulta el precio del manual de diseño de algoritmos en Amazon
+    title: ¿Dónde aprender sobre algoritmos?
   rust:
-    description: Sí, lo sé, he estado allí (tal vez todavía estoy), Rust es complejo, no tiene sentido negarlo, Rust requiere que comprendas múltiples conceptos que no existen en otros lenguajes antes de poder hacer un proyecto sencillo, el mejor recurso para aprender en mi opinión es el libro de Rust. Sin embargo, si prefieres algo más interactivo, dale un vistazo a este curso.
-    link: https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr
-    linkText: Sí, muéstrame dónde aprender Rust
-    title: ¿Confundido sobre Rust? ¿Dónde aprender?
+    description: He aquí, la biblia de Rust, este libro cubre todo lo que necesitas saber sobre Rust, lo leí, me tomó un tiempo comprender algunos de los conceptos presentados pero valió la pena. Si quieres comprender porque tanto escándalo con este lenguaje de programación deberías decidirte a leerlo.
+    imageAlt: Portada del libro sobre el lenguaje de programación Rust
+    imageSrc: https://m.media-amazon.com/images/I/71SlLVGcg-L._SL1500_.jpg
+    link: https://amzn.to/4gUwyG2
+    linkText: Comprueba el precio del lenguaje de programación Rust en Amazon
+    title: ¿Dónde aprender Rust?
   seo:
     description: null
+    imageAlt: null
+    imageSrc: null
     link: null
     linkText: null
     title: null
@@ -215,7 +248,9 @@ es:
     linkText: null
     title: null
   typescript:
-    description: Si tus habilidades con Javascript son lo suficientemente buenas como para escribir algunas aplicaciones de complejidad media, probablemente habrás notado algunas de sus debilidades, Typescript fue creado para solucionarlas, y hay plataformas por ahí, como educative, que pueden enseñarte todo lo que necesitas saber sobre Typescript por unos pocos dólares.
-    link: https://www.educative.io/courses/learn-typescript-complete-course?aff=xkQr
-    linkText: Quiero aprender Typescript
-    title: No te conformes con Javascript, aprende también Typescript
+    description: La mayoría de las APIs que existen están horriblemente diseñadas, ¿cuánto debo anidar subcategorías en una API? ¿qué es HATEOAS? ¿qué formato es mejor /api/, poner la versión de la api en un subdominio o poner la versión de la api en una cabecera? Las decisiones se toman sin motivo, no seas uno de ellos. Este libro trata todas estas preguntas difíciles con más detalle y te enseña a diseñar buenas APIs, échale un vistazo.
+    imageAlt: Portada del libro Build APIs You Won't Hate
+    imageSrc: https://m.media-amazon.com/images/I/71tAidEGMKL._SL1500_.jpg
+    link: https://amzn.to/41qJOhp
+    linkText: Consulta el precio de Build APIs You Won't Hate en Amazon
+    title: Cómo diseñar buenas API
