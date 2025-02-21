@@ -213,7 +213,7 @@ tag = "tags"
 
 [params.csp]
 child-src = ["'self'"]
-font-src = ["'self'", "fonts.googleapis.com"]
+font-src = ["*"]
 form-action = ["'self'", "https://dev.us17.list-manage.com"]
 frame-src = [
   "'self'",
@@ -226,19 +226,7 @@ frame-src = [
   "https://ep2.adtrafficquality.google/sodar/sodar2/232/runner.html",
 ]
 img-src = [
-  "https://i.imgflip.com",
-  "'self'",
-  "*.cloudinary.com",
-  "*.amazonaws.com",
-  "*.codewars.com",
-  "*.google.com",
-  "*.google.com.mx",
-  "*.googletagmanager.com",
-  "https://htmx.org",
-  "*.media-amazon.com",
-  "*.amazon.com",
-  "data: storage.googleapis.com pagead2.googlesyndication.com",
-  "https://ep1.adtrafficquality.google/pagead/sodar",
+  "*",
 ]
 
 frame-ancestors = ["'self'"]
@@ -250,6 +238,7 @@ script-src = [
   "*.doubleclick.net",
   "https://platform.twitter.com",
   "https://cdn.syndication.twimg.com",
+  "*.amazon.com",
   "*.amazon-adsystem.com",
   "https://www.google-analytics.com",
   "*.google",
