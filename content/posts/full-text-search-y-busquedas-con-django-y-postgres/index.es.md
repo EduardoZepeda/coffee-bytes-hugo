@@ -246,9 +246,28 @@ Videogame.objects.annotate(
  ).filter(search='Nier')
 ```
 
+### Elegir el idioma adecuado para sus búsquedas vectoriales
+
+El idioma por defecto para cada búsqueda puede especificarse mediante la siguiente consulta SQL:
+
+``` bash
+show default_text_search_config;
+set default_text_search_config = 'pg_catalog.<language>';
+```
+
+### Usar búsqueda web tipo websearch_to_tsquery
+
+Existe una versión alternativa llamada *websearch_to_tsquery* que está especializada en búsquedas web y puede crear combinaciones complejas como consultas que utilizan múltiples palabras clave 'and' y 'or'.
+
+``` python
+from django.contrib.postgres.search import SearchQuery
+SearchQuery("'<term>' ('<term>' OR '<term>')", search_type="websearch")
+```
+
+
 ## Repetir las llamadas a to\_tsvector es ineficiente
 
-Observa que cada vez que realizamos una consulta usando el ORM de Django, se ejecuta la función _to\_tsvector_ en el campo que nosotros le especifiquemos, pero ¿y si el campo de nuestro modelo contiene muchísima información? **La función va a ejecutarse con cada búsqueda y va a devolver el mismo resultado una y otra vez**, ¿no es un poco ineficiente? Pues sí, y los desarrolladores de Django ya pensaron en eso.
+Observa que cada vez que realizamos una consulta usando el ORM de Django, se ejecuta la función _to\_tsvector_ en el campo que nosotros le especifiquemos, pero ¿y si el campo de nuestro modelo contiene muchísima información? **La función va a ejecutarse con cada búsqueda y va a devolver el mismo resultado una y otra vez**, multiplica eso por el número de registros. ¿No es un poco ineficiente? Pues sí, afortunadamente, los desarrolladores de Django ya pensaron en eso.
 
 ```python
 from django.db import models
@@ -273,6 +292,9 @@ Videogame.objects.update(search_vector=SearchVector('name'))
 Videogame.objects.filter(search_vector='revenge')
 ```
 
-Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) donde explican en código SQL los vectores de búsqueda.
+Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) donde explican en código SQL los vectores de búsqueda.
 
 Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
+
+Referencias:
+[Documentación de Django](https://docs.djangoproject.com/en/5.1/ref/contrib/postgres/search/)

@@ -210,6 +210,7 @@ Once _search_ has the results of each function it compares them to see if they m
 
 In this way our search will be much more flexible and it will no longer be necessary for the user to search for an exact text string in order to return the results we want.
 
+
 ### Text search in multiple fields of a Django model
 
 Searching on a single field is quite limiting, so we can use _SearchVector_ to search on multiple fields, even foreign key relationships.
@@ -243,9 +244,27 @@ Videogame.objects.annotate(
  ).filter(search='Nier')
 ```
 
-## Repeat the calls to_tsvector is inefficient
+### Choosing the right language for you vector searches
 
-Notice that every time we perform a query using the Django ORM, the _to_tsvector_ function is executed on the field we specify, but what if the field in our model contains a lot of information? **The function is going to run with each search and return the same result over and over again**, isn't it a bit inefficient? Well, yes, and the Django developers have already thought of that.
+The default language for every search can be specified using the following query:
+
+``` bash
+show default_text_search_config;
+set default_text_search_config = 'pg_catalog.<language>';
+```
+
+### Using websearch_to_tsquery
+
+There is an alternative version called *websearch_to_tsquery* which is specialized in web searches and can create complex combinations like queries that use multiple 'and' and 'or' keywords.
+
+``` python
+from django.contrib.postgres.search import SearchQuery
+SearchQuery("'<term>' ('<term>' OR '<term>')", search_type="websearch")
+```
+
+## Repeating the calls to_tsvector is inefficient
+
+Did you notice that every time we perform a query using the Django ORM, the _to_tsvector_ function is executed on the field we specified?, but what if the field in our model contains a lot of information? **The function is going to run with each search and return the same result over and over again**, multiply that by the number of rows, isn't it a bit inefficient? Well, yes, and Django developers have already thought of that.
 
 ```python
 from django.db import models
@@ -270,6 +289,9 @@ Videogame.objects.update(search_vector=SearchVector('name'))
 Videogame.objects.filter(search_vector='revenge')
 ```
 
-If you are interested to deepen more about how Postgres handles internally these functions, I found an excellent article on [text search in postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) where they explain in SQL code the search vectors.
+If you are interested to deepen more about how Postgres handles internally these functions, I found an excellent article on [text search in postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) where they explain in SQL code the search vectors.
 
 Enter my next post where I will talk about [advanced searches with Postgres and Django](/en/trigrams-and-advanced-searches-with-django-and-postgres/).
+
+References:
+[Django Documentation](https://docs.djangoproject.com/en/5.1/ref/contrib/postgres/search/)
