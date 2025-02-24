@@ -5,23 +5,23 @@
 {{ $langAds := index $ads $lang }}
 {{/* Fallback to English if no ads exist for the detected language */}}
 {{ if not $langAds }}
-  {{ $langAds = index $ads "en" }}
+  {{ $langAds = index $ads (.LanguagePrefix | absURL) }}
 {{ end }}
 {{ if not (.Site.Params.latte.HideAds) }}
 {{/* Loop through categories and display ads, limit only to two categories */}}
 {{ range first 2 .Page.Params.categories }}
   {{ $ad := index $langAds . }}
   {{ if $ad }}
-    <aside class="affiliate-link">
+    <aside class="affiliate-link-container">
       <div class="affiliate-heading">
         <h2>{{$ad.title}}</h2>
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
       </div>
       <p>{{$ad.description}}</p>
       {{ if $ad.imageSrc }}
-      <a rel="nofollow sponsored" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}"/></a>
+      <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}"/></a>
       {{ end }}
-      <p><a rel="nofollow sponsored" class="markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
+      <p><a rel="nofollow sponsored" id="{{.}}" class="affiliate-link markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
     </aside>
   {{ end }}
 {{ end }}
@@ -43,3 +43,29 @@
     width: 100%;
    }
 </style>
+
+<script>
+  async function updateLinkToMx(){
+    //<!--This location is determined by its root location-->
+
+    const response = await fetch("/data/ads.json")
+    const adsData = await response.json()
+    const affiliateLinks = document.querySelectorAll(".affiliate-link")
+    affiliateLinks?.forEach((link)=>{
+      // Every link as its category as id
+      // Only link is replaced for now
+      let category = link?.getAttribute("id")
+      link.setAttribute("href", adsData["es-MX"][category]["link"])
+    })
+  }
+  
+  // <!--This will trigger only if language is spanish and the timezone is Mexico
+  // for now this constraint should be enough-->
+  if(Intl.DateTimeFormat().resolvedOptions().timeZone==="America/Mexico_City" && "{{ $lang }}"==="es"){
+    try {
+      updateLinkToMx()
+    } catch(e){
+      console.error("Error trying to update mx affiliate links: ", e)
+    }
+  }
+</script>
