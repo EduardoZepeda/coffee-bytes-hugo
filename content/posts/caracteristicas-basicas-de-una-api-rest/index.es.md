@@ -25,15 +25,17 @@ url: caracteristicas-basicas-de-una-api-rest
 
 Esta publicación es una guia muy corta de consejos prácticos sobre diseño de APIs REST, no profundizo demasiado en la teoría. Encima, puedo sobre simplificar muchos conceptos en aras de mantener el texto lo más corto y sencillo posible.
 
-En la siguiente entrada posterior hablaré de algunas cuestiones más subjetivas como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API REST?
+En la siguiente entrada hablaré de algunas cuestiones más subjetivas como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API REST?
 
 ## ¿Qué es una API?
 
-El término API proviene de interfaz de programación de aplicaciones, y consiste en una seríe de reglas que nos dicen como pueden comunicarse entre sí las aplicaciones y/o los dispositivos.
+El término API proviene de las siglas en inglés de *interfaz de programación de aplicaciones*, y consiste en una seríe de reglas que nos dicen como pueden comunicarse entre sí las aplicaciones y/o los dispositivos.
 
 ### Existen diferentes tipos de APIs
 
-Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigmas, una de esas es REST. REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto, pero nadie sabe lo que sucederá mañana. 
+Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigmas, una de esas es REST. 
+
+REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto de paradigmas, pero no existe certeza sobre lo que sucederá mañana, quizás reescribamos todas las API en Rust.
 
 ![Linea del tiempo de APIs](images/timeline-de-APIs.png "REST data del año 2000")
 
@@ -41,11 +43,11 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 ## ¿Qué es una API REST?
 
-Una API REST es una API que cumple las normas de diseño de REST (Perdónenme la obviedad), Pero, ¿qué es REST? REST es un estilo de arquitectura, que tiene que cumplir una serie de características de las que te hablo a continuación.
+Una API REST es una API que cumple las normas de diseño de REST (Oye, más despacio cerebrito). Ok pero, ¿qué es REST? REST es un estilo de arquitectura, que tiene que cumplir una serie de características de las que te hablo a continuación.
 
 ### ¿Cuáles son las características de las API REST?
 
-No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan indistintamente el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs con orientación en acciones, como [RPC o gRPC](/es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), hasta compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS así.
+No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan, erróneamente, el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs orientadas a realizar acciones en el servidor, como [RPC o gRPC](/es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), incluso compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS como si lo hicieran.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
@@ -88,14 +90,16 @@ Nuestra API debe retornar los estados correctos que le indiquen al cliente lo qu
 
 Probablemente haya algunos estados que no usarás nunca, pero sí deberías memorizar al menos los de uso más frecuente:
 
-- 200 OK, status ok, la petición salió bien
-- 201 Created, un recurso fue creado
-- 204 No Content, Solicitud completada con éxito, pero no hay contenido en la
-- 400 Bad Request, el servidor recibió una petición mal formada
-- 401 Unauthorized, no estás autenticado (no existe un usuario)
-- 403 Forbidden, no tienes los permisos adecuados (el usuario no tiene los permisos)
-- 404 Not Found, no se encontró el recurso solicitado
-- 500 Internal Server Error, error de servidor
+- **200 OK**, status ok, la petición salió bien
+- **201 Created**, un recurso fue creado
+- **204 No Content**, Solicitud completada con éxito, pero no hay contenido en la respuesta
+- **301 Redirect**, Redirección permanente
+- **302 Found**, Redirección temporal
+- **400 Bad Request**, el servidor recibió una petición mal formada
+- **401 Unauthorized**, no estás autenticado (no existe un usuario)
+- **403 Forbidden**, no tienes los permisos adecuados (el usuario no tiene los permisos)
+- **404 Not Found**, no se encontró el recurso solicitado
+- **500 Internal** Server Error, error de servidor
 
 Hay muchos más [estados HTTP que probablemente quieras conocer](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Asegúrante de revisarlos.
 
@@ -156,7 +160,7 @@ Por motivos de claridad usaremos el plural de los sustantivos para referirnos a 
 
 ## Evita guiones bajos y usa siempre minúsculas
 
-En el libro Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces de Mark Masse, establece como una "regla" el uso de minúsculas en las URIs y se motiva a evitar los guiones bajos, debido a que algunos dispositivos resaltan los recursos clickeables con subrayado, lo que puede dificultar la vista de los enlaces.
+En el libro [Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces de Mark Masse](https://amzn.to/4kcQoiC#?), establece como una "regla" el uso de minúsculas en las URIs y se motiva a evitar los guiones bajos, debido a que algunos dispositivos resaltan los recursos clickeables con subrayado, lo que puede dificultar la vista de los enlaces.
 
 ```bash
 /VIDEOJUEGOS❌
@@ -209,9 +213,9 @@ No uses la URI para especificar el tipo de recurso solicitado por medio de su ex
 
 ¿Entonces como solicito un tipo de archivo en una API REST?
 
-### El cliente solicita el tipo de representación por medio de cabeceras
+### El cliente solicita el tipo de representación por medio de cabeceras (headers)
 
-La representación del recurso a retornar dependerá de la cabecera _Accept_ del cliente, de esta manera podremos devolver diferentes tipos de representaciones de un mismo recurso, en una misma URI.
+La representación del recurso a retornar dependerá de la cabecera o header _Accept_ del cliente, de esta manera podremos devolver diferentes tipos de representaciones de un mismo recurso, en una misma URI.
 
 ```bash
 GET /v1/recurso HTTP/1.1
@@ -235,7 +239,7 @@ Pues HATEOAS nos dice que nuestros clientes deberían de recibir una respuesta d
 
 Esto no necesariamente significa una URL's; puede ser un file, un ftp u otros. Pero sí, probablemente para fines prácticos estarás usando URL's la mayor parte del tiempo.
 
-En otras palabras, **nuestra API debe ser navegable a partir de una respuesta.**
+En otras palabras, **nuestra API debe ser navegable en ubicación y acciones a partir de una respuesta**
 
 ```bash
 {
@@ -282,5 +286,5 @@ Para no extender tanto la entrada, la siguiente entrada tratará de algunas cues
 - [Estándares API de la casa blanca](https://github.com/WhiteHouse/api-standards)
 - [Métodos de petición HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
 - [To slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash)
-- [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://www.amazon.com.mx/Build-APIs-You-Wont-Hate/dp/0692232699/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2W0ZTSCO349YL&keywords=build+apis&qid=1648756000&sprefix=build+apis%2Caps%2C187&sr=8-1)
-- [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://www.amazon.com.mx/Rest-API-Design-Rulebook-Consistent/dp/1449310508#?)
+- [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://amzn.to/3CQBspS#?)
+- [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://amzn.to/4kcQoiC#?)

@@ -21,7 +21,7 @@ authors:
 
 This publication is a minimal guide of practical tips on REST API design, I don't go too deep into the theory. On top of that, I may oversimplify many concepts in order to keep the text as short and simple as possible.
 
-In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how much to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
+In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
 
 ## What is an API?
 
@@ -29,7 +29,9 @@ The term API stands for application programming interface, and consists of a set
 
 ### There are different types of APIs
 
-There are many types of APIs and new paradigms are appearing all the time, one of them is REST. REST is special because it has managed to survive the passage of time and position itself above the rest, but no one knows what will happen tomorrow.
+There are many types of APIs and new paradigms are appearing all the time, one of them is REST but not the only one. 
+
+REST is special because it has managed to survive the passage of time and position itself above the rest (pun not intended), but no one knows what will happen tomorrow, maybe we will rewrite all APIs in Rust.
 
 ![APIs timeline](images/timeline-de-APIs.png "REST paradigm was created around year 2000")
 
@@ -37,11 +39,11 @@ There are many types of APIs and new paradigms are appearing all the time, one o
 
 ## What is a REST API?
 
-A REST API is an API that complies with the REST design standards (forgive the obviousness), but what is REST? REST is a style of architecture, which has to comply with a series of characteristics that I will talk about below.
+A REST API is an API that complies with the REST design standard (Thank you captain obvious!), but what is REST? REST is a style of architecture, which has to comply with a series of characteristics that I will talk about in the next paragraphs.
 
 ### What are the characteristics of a REST API?
 
-Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC](/en/unleash-your-apis-potential-with-grpc-and-protobuffers/), even companies as large as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APISs as such.
+Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC](/en/unleash-your-apis-potential-with-grpc-and-protobuffers/), even large companies as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APIs as such.
 
 If you already know the brief technical part, skip this section.
 
@@ -64,7 +66,7 @@ In English:
 * [Representational state transfer (inglés)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 * [Nobody understands REST](https://steveklabnik.com/writing/nobody-understands-rest-or-http)
 
-In Spanish:
+In Spanish, if you're one of Duo's friends:
 
 * [Understanding REST. The Architecture Style](https://blog.thedojo.mx/2019/06/15/entendiendo-rest-estilo-de-arquitectura.html)
 * [Designing and developing an API from scratch](https://blog.thedojo.mx/2019/05/06/diseno-y-desarrollo-de-una-api-desde-cero.html)
@@ -84,14 +86,16 @@ Our API must return the correct statuses that tell the client what is happening.
 
 There are probably some states that you will never use, but you should memorize at least the most frequently used ones:
 
-* 200 OK, status ok, the request was successful.
-* 201 Created, a resource was created
-* 204 No Content, Request completed successfully, but there is no content in the request.
-* 400 Bad Request, server received a malformed request
-* 401 Unauthorized, you are not authenticated (no user)
-* 403 Forbidden, you do not have the proper permissions (the user does not have the permissions)
-* 404 Not Found, the requested resource was not found
-* 500 Internal Server Error, server error
+* **200 OK**, status ok, the request was successful.
+* **201 Created**, a resource was created
+* **204 No Content**, Request completed successfully, but there is no content in the request.
+* **301 Redirect**, Permanent redirect
+* **302 Found**, temporary redirect
+* **400 Bad Request**, server received a malformed request
+* **401 Unauthorized**, you are not authenticated (no user)
+* **403 Forbidden**, you do not have the proper permissions (the user does not have the permissions)
+* **404 Not Found**, the requested resource was not found
+* **500 Internal Server**, Error from the server
 
 There are many more [HTTP statuses you probably want to know about](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Be sure to check them out.
 
@@ -135,29 +139,29 @@ A REST API is a representation of resources, so we always refer to objects, plur
 Actions are specified in HTTP methods, so leave them out of your URIs.
 
 ```bash
-# Maneras incorrectas ❌
-/crear-videojuego # Esto no es REST, sino RPC ❌
-/videojuego/crear # Esto no es REST, sino RPC ❌
-/videojuego/borrar # Esto no es REST, sino RPC ❌
+# NOT REST ❌
+/create-videogame # This is not REST, but RPC ❌
+videogame/create # This is not REST, but RPC ❌
+videogame/delete # This is not REST, but RPC ❌
 ```
 
 For the sake of clarity we will use the plural form of nouns to refer to resources.
 
 ```bash
-# Incorrecta, está en singular ❌
-/videojuego 
-# Manera correcta ✅
-/videojuegos
+# Incorrect, singular ❌
+videogame 
+# correct way ✅
+videogames
 ```
 
 ## Avoid underscores and always use lower case.
 
-In Mark Masse's Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces, he states as a "rule" the use of lower case in URIs and encourages the avoidance of underscores, because some devices highlight clickable resources with underscores, which can make links difficult to see.
+In Mark Masse's [Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces](https://amzn.to/4gUr3Ht#?), he states as a "rule" the use of lower case in URIs and encourages the avoidance of underscores, because some devices highlight clickable resources with underscores, which can make links difficult to see.
 
 ```bash
-/VIDEOJUEGOS❌
-/videojuegos_populares❌
-/videojuegos✅
+VIDEOGAMES❌
+popular_videogames❌
+videogames✅
 ```
 
 ## Diagonal at the end or not?
@@ -169,16 +173,16 @@ In the Rest API Design Rulebook: Designing Consistent Restful Web Service Interf
 Where does the diagonal at the end come from? Historically the non-diagonal version has been used to refer to files.
 
 ```bash
-/videojuegos
+videogames
 ```
 
 While a diagonal at the end refers to directories.
 
 ```bash
-/videojuegos/
+videogames/
 ```
 
-On the other hand, [google is more permissive in its article slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash). And it is totally indifferent towards the use or absence of the end diagonal, however it emphasizes the importance of remaining uniform in its use, since ** URLs with end diagonal and without end diagonal are considered different URLs by search engines.
+On the other hand, [google is more permissive in its article slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash). And it is totally indifferent towards the use or absence of the end diagonal, however it emphasizes the importance of remaining uniform in its use, since **URLs with an end diagonal and without end diagonal are considered different URLs by search engines.**
 
 Pick one and stick to it. Consider using a redirect (301) from one type of url to another, but always be consistent.
 
@@ -231,7 +235,7 @@ HATEOAS tells us that our clients should receive an API response from which they
 
 This does not necessarily mean a URL's; it can be a file, an ftp or others. But yes, probably for practical purposes you will be using URL's most of the time.
 
-In other words, **our API must be navigable from a response**.
+In other words, **our API must be navigable directly from a response, it should also show us available actions**.
 
 ```bash
 {
@@ -275,8 +279,8 @@ In order not to extend the post so much, the next post will deal with some more 
 
 ## Reference sources
 
-* [Whitehouse's API standards](https://github.com/WhiteHouse/api-standards)
-* [HTTP Methods](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
-* [To slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash)
-* [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://www.amazon.com.mx/Build-APIs-You-Wont-Hate/dp/0692232699/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2W0ZTSCO349YL&amp;keywords=build+apis&amp;qid=1648756000&amp;sprefix=build+apis%2Caps%2C187&amp;sr=8-1)
-* [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://www.amazon.com.mx/Rest-API-Design-Rulebook-Consistent/dp/1449310508#?)
+- [Whitehouse's API standards](https://github.com/WhiteHouse/api-standards)
+- [HTTP Methods](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
+- [To slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash)
+- [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://amzn.to/3CQBspS#?)
+- [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://amzn.to/4kcQoiC#?)
