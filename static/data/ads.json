@@ -49,9 +49,11 @@
             "title": "Cómo diseñar buenas API"
         },
         "git": {
-            "description": "Claro, todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, no te conformes con lo básico, ve a por los comandos avanzados de git ya sea con los cursos de abajo o donde quieras, pero pasa a la acción ya.",
-            "link": "https://www.educative.io/courses/learn-git-hard-way?aff=xkQr",
-            "linkText": "Quiero aprender Git avanzado",
+            "description": "Claro, todo el mundo sabe hacer git add y git commit, pero no todo el mundo sabe usar git hasta sus límites, si no sabes de cherry-picking, bisect o hooks, no te conformes con lo básico, ve a por los comandos avanzados de git ya sea con el libro de abajo o donde quieras, pero pasa a la acción ya.",
+            "imageAlt": "Portada del libro Git Pocket Guide",
+            "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1740599463/git-pocket-guide_r6rtd0.webp",
+            "link": "https://amzn.to/3F9g2EQ",
+            "linkText": "Consulta el precio de Git Pocket Guide en Amazon México",
             "title": "No te conformes con git add y git commit"
         },
         "go": {

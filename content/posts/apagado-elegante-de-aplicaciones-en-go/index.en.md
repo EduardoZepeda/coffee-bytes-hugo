@@ -11,7 +11,7 @@ authors:
 
 Today I'm going to talk about a topic that is often overlooked in most tutorials: handling application closing. What do I mean? To those times when you have to close an application, but there may be pending tasks running, open connections or you simply want to leave a record, in the form of a log, that the application was closed.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
 ## Signals in Linux
 

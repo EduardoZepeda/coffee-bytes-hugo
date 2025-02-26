@@ -18,7 +18,7 @@ authors:
 
 In the go programming language, a map or hash table is the equivalent of a dictionary; they have a key that is related to a value. The key and value can be of different data types, but all keys must be of a single type and all values must be of the same type.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
 Together with the [array and the go slice](/en/go-slices-y-arrays-characteristicas-and-basic-uses/), golang maps are structures that serve as a collection of values.
 

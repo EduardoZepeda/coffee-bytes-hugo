@@ -16,7 +16,7 @@ url: /en/go-cycles-or-loops-for-break-continue-defer-if-and-else
 
 This entry will deal with loops in the go programming language.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
 Go handles loops a little differently than what you are used to. If you're already fluent in any other programming language, you probably remember _while_, _do while_ and for loops. And if you come from Python or Javascript, you'll remember how useful _for x in_ or _for x of_ loops are.
 

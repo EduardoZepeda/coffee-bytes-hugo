@@ -13,7 +13,7 @@ authors:
 
 When working with channels there is a quite common error that occurs when you are not familiar with the concepts, the error is "_fatal error: all goroutines are asleep - deadlock!_". The first time I saw this error I was perplexed and, although I knew how to fix it, I didn't understand why it happened, so in this post I explain why it happens as I would have liked to have read it at the time.
 
-{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, you can find it directly in the top menu bar or clicking this box.">}}
+{{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
 ## Why does the error fatal error: all goroutines are asleep - deadlock! happen?
 
