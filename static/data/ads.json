@@ -5,7 +5,7 @@
             "imageAlt": "Portada del Algorithm design manual",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg",
             "link": "https://amzn.to/3XdTJEv",
-            "linkText": "Consulta el precio del Algorithm design manual en Amazon",
+            "linkText": "Consulta el precio del Algorithm design manual en Amazon México",
             "title": "¿Dónde aprender sobre algoritmos?"
         },
         "arquitectura de software": {
@@ -13,7 +13,7 @@
             "imageAlt": "Portada del System Design Interview",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/system-design-interview.jpg",
             "link": "https://amzn.to/4iuzP0f",
-            "linkText": "Consulta el precio del libro System Design Interview en Amazon",
+            "linkText": "Consulta el precio del libro System Design Interview en Amazon México",
             "title": "¿Dónde aprender arquitectura de software?"
         },
         "bases de datos": {
@@ -21,7 +21,7 @@
             "imageAlt": "Portada de SQL Pocket Guide",
             "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1740103829/SQL-pocket-guide_udtfro.jpg",
             "link": "https://amzn.to/438GjgM",
-            "linkText": "Consulta el precio de SQL Pocket Guide en Amazon",
+            "linkText": "Consulta el precio de SQL Pocket Guide en Amazon México",
             "title": "No te conformes con consultas SQL básicas"
         },
         "django": {
@@ -29,7 +29,7 @@
             "imageAlt": "Portada del libro Django for Beginners",
             "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1740103893/django-for-begginers_ki2ghr.jpg",
             "link": "https://amzn.to/4iuzM4z",
-            "linkText": "Consulta el precio de Django for Beginners en Amazon",
+            "linkText": "Consulta el precio de Django for Beginners en Amazon México",
             "title": "¿Dónde aprender Django Framework?"
         },
         "docker": {
@@ -37,7 +37,7 @@
             "imageAlt": "Portada del libro Kubernetes up and running",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/kubernetes-up-and-running.jpg",
             "link": "https://amzn.to/4idWrl9",
-            "linkText": "Consulte el libro Kubernetes up and running en Amazon",
+            "linkText": "Consulte el libro Kubernetes up and running en Amazon México",
             "title": "Cual es el mejor recurso para aprender Kubernetes"
         },
         "fastapi": {
@@ -45,7 +45,7 @@
             "imageAlt": "Portada del libro Build APIs You Won't Hate",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg",
             "link": "https://amzn.to/3CQBspS",
-            "linkText": "Consulta el precio de Build APIs You Won't Hate en Amazon",
+            "linkText": "Consulta el precio de Build APIs You Won't Hate en Amazon México",
             "title": "Cómo diseñar buenas API"
         },
         "git": {
@@ -59,7 +59,7 @@
             "imageAlt": "Portada del libro Lenguaje de programación Go",
             "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1740103953/go-programming-language-book_vp91jl.jpg",
             "link": "https://amzn.to/4gTMOqQ",
-            "linkText": "Consulta el precio del Lenguaje de Programación Go en Amazon",
+            "linkText": "Consulta el precio del Lenguaje de Programación Go en Amazon México",
             "title": "Dónde aprender Go"
         },
         "htmx": {
@@ -75,7 +75,7 @@
             "imageAlt": "Portada del libro de The Hundred-Page Machine Learning Book",
             "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1740103780/hundred-page-machine-learning-book_ueonkh.jpg",
             "link": "https://amzn.to/41saKNB",
-            "linkText": "Consulta el precio del libro The Hundred-Page Machine Learning Book en Amazon",
+            "linkText": "Consulta el precio del libro The Hundred-Page Machine Learning Book en Amazon México",
             "title": "En dónde aprender las bases de AI y Machine Learning"
         },
         "javascript": {
@@ -83,7 +83,7 @@
             "imageAlt": "Portada del libro Eloquent Javascript",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/eloquent-javascript.jpg",
             "link": "https://amzn.to/438AmR1",
-            "linkText": "Consulta el precio de Eloquent Javascript en Amazon",
+            "linkText": "Consulta el precio de Eloquent Javascript en Amazon México",
             "title": "¿Dónde mejorar sus conocimientos de Javascript?"
         },
         "linux y devops": {
@@ -91,7 +91,7 @@
             "imageAlt": "Portada del libro Cómo funciona Linux",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/how-linux-works.jpg",
             "link": "https://amzn.to/4i5KkHz",
-            "linkText": "Consulta el precio de Cómo funciona Linux en Amazon",
+            "linkText": "Consulta el precio de Cómo funciona Linux en Amazon México",
             "title": "¿Dónde aprender todo sobre Linux?"
         },
         "opiniones": {
@@ -99,14 +99,14 @@
             "imageAlt": "Portada del libro A philosophy of software design",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/a-philosophy-of-software-design.jpg",
             "link": "https://amzn.to/3CUCFMS",
-            "linkText": "Consulta el precio de A philosophy of software design en Amazon",
+            "linkText": "Consulta el precio de A philosophy of software design en Amazon México",
             "title": "¿Cómo diseñar un buen software?"
         },
         "python": {
             "description": "Mi recomendación de libro si te gusta Python es este pequeño libro. Python tricks es una recopilación de trucos (dah, obvio) y partes útiles, pero desconocidas, del lenguaje. Yo pensaba que sabía Python hasta que leí este libro, dale una oportunidad si no me crees.",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/python-tricks-the-book.jpg",
             "link": "https://amzn.to/4i7NdqL",
-            "linkText": "Consulta el precio de los trucos de Python en Amazon",
+            "linkText": "Consulta el precio de los trucos de Python en Amazon México",
             "title": "Cómo perfeccionar sus conocimientos de Python"
         },
         "react": {
@@ -114,7 +114,7 @@
             "imageAlt": "Portada del manual de diseño de algoritmos",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg",
             "link": "https://amzn.to/3XdTJEv",
-            "linkText": "Consulta el precio del manual de diseño de algoritmos en Amazon",
+            "linkText": "Consulta el precio del manual de diseño de algoritmos en Amazon México",
             "title": "¿Dónde aprender sobre algoritmos?"
         },
         "rust": {
@@ -122,7 +122,7 @@
             "imageAlt": "Portada del libro sobre el lenguaje de programación Rust",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-rust-programming-language-book.jpg",
             "link": "https://amzn.to/41j3uT8",
-            "linkText": "Consulta el precio del lenguaje de programación Rust en Amazon",
+            "linkText": "Consulta el precio del lenguaje de programación Rust en Amazon México",
             "title": "¿Dónde aprender Rust?"
         },
         "seo": {
@@ -144,7 +144,7 @@
             "imageAlt": "Portada del libro Build APIs You Won't Hate",
             "imageSrc": "https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg",
             "link": "https://amzn.to/3CQBspS",
-            "linkText": "Consulta el precio de Build APIs You Won't Hate en Amazon",
+            "linkText": "Consulta el precio de Build APIs You Won't Hate en Amazon México",
             "title": "Cómo diseñar buenas API"
         }
     }
