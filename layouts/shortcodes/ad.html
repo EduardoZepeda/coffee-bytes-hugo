@@ -19,7 +19,7 @@
       </div>
       <p>{{$ad.description}}</p>
       {{ if $ad.imageSrc }}
-      <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}"/></a>
+      <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
       {{ end }}
       <p><a rel="nofollow sponsored" id="{{.}}" class="affiliate-link markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
     </aside>

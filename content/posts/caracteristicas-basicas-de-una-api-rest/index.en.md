@@ -240,8 +240,8 @@ In other words, **our API must be navigable directly from a response, it should 
 ```bash
 {
     "id": 1,
-    "nombre": "Eduardo",
-    "apellido": "Zepeda",
+    "name": "Eduardo",
+    "lastname": "Zepeda",
     "posts": [
         {
             "post": "http://api.example.org/post/1"
