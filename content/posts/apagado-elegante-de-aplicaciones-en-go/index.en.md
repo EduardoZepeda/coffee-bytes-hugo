@@ -34,7 +34,7 @@ There are quite a few Linux signals, but here are the most important ones for th
 In Linux, these signals can be sent to an application via the [kill command](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/), specifying the value of the signal and the pid of the application.
 
 ```go
-kill -<valor> <pid>
+kill -<value> <pid>
 // kill -2 1234
 ```
 
@@ -65,7 +65,7 @@ func gracefulShutdown() {
     quit := make(chan os.Signal, 1)
     signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
     s := <-quit
-    fmt.Println("Cerrando aplicación", s)
+    fmt.Println("Closing server", s)
     // ...
 }
 ```
@@ -77,8 +77,8 @@ func gracefulShutdown() {
     quit := make(chan os.Signal, 1)
     signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
     s := <-quit
-    fmt.Println("Cerrando aplicación", s)
-    // ... resto del código
+    fmt.Println("Closing server", s)
+    // ... 
 }
 ```
 
@@ -98,10 +98,10 @@ If we run a web server or any other permanent process and then issue a SIGNIT si
 
 ```bash
 go run main.go
-Empezando el servidor. Pid: 8830
+Starting server Pid: 8830
 
 kill -2 8830
-Cerrando el servidor: interrupt
+Closing server interrupt
 ```
 
 Consider that the Pid may be different for you.
@@ -112,10 +112,10 @@ To emit a SIGTERM signal, we execute the GNU/Linux kill command, which will term
 
 ```bash
 go run main.go
-Empezando el servidor. Pid: 9619
+Starting server Pid: 9619
 
 kill -15 9616
-Cerrando el servidor: terminated
+Closing server terminated
 ```
 
 Of course, ideally, you should go beyond printing a message and take care of all those tasks you want that require a more orderly completion process.
@@ -138,24 +138,24 @@ import (
 
 func getRoot(w http.ResponseWriter, r *http.Request) {
     //io.WriteString(w, "This is my website!\n")
-    w.Write([]byte("Este es mi sitio web!\n"))
+    w.Write([]byte("This is my website\n"))
 }
 
 func gracefulShutdown() {
     quit := make(chan os.Signal, 1)
     signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
     s := <-quit
-    fmt.Println("Cerrando el servidor:", s)
+    fmt.Println("Closing server", s)
     os.Exit(0)
 }
 
 func main() {
     pid := os.Getpid() 
-    fmt.Println("Empezando el servidor. Pid:", pid)
+    fmt.Println("Starting server Pid:", pid)
     go gracefulShutdown()
     http.HandleFunc("/", getRoot)
     if err := http.ListenAndServe(":8000", nil); err != nil {
-    	log.Fatalf("El servidor fallo al iniciar. Error: %v", err.Error())
+    	log.Fatalf("Server init process failed Error: %v", err.Error())
     }
 }
 ```
@@ -166,6 +166,6 @@ After running it, try to cancel the application with CTRL + C or with the termin
 go run main.go
 
 CTRL + C
-Empezando el servidor. Pid: 8830
-Cerrando el servidor: interrupt
+Starting server Pid: 8830
+Closing server interrupt
 ```
