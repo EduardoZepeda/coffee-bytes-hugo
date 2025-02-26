@@ -1,13 +1,12 @@
 ---
-date: '2025-02-13T14:18:14-06:00'
-draft: true
-title: 'How to use https in localhost'
+date: '2025-02-26'
+title: 'The Easiest Way To Use Https In Localhost'
 categories:
 - linux and devops
 - go
 coverImage: "images/how-to-use-https-in-localhost.jpg"
-description: 'Ejecuta un servidor local utilizando https en lugar de http en su máquina localhost utilizando un proxy inverso y caddy en unos pocos pasos, útil para integraciones con Oauth o aplicaciones de terceros que requieren una conexión segura.'
-keyword: 'https en localhost'
+description: 'Run a local server using https instead of http in your localhost machine using a reverse proxy and caddy in a few steps, useful for Oauth integrations or third party apps that require a secure connection'
+keyword: 'https on localhost'
 keywords:
 - 'https'
 - 'localhost'
@@ -20,9 +19,9 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-How to use Localhost using https instead of http?
+How to use Localhost using https instead of http, fast and without having to issue certificates manually nor dealing with netstat?
 
-## Why use https instead of http on localhost?
+## Why to use https on localhost instead of http?
 
 It is quite common to perform Oauth testing while performing integrations or some kind of integration with a third party application, the problem is that some third party providers are quite restrictive in this regard, they do not accept integrations or callbacks to URLs that do not use https. 
 
@@ -34,7 +33,7 @@ There are several ways of dealing with this, one of them is to sign our own cert
 
 {{<ad>}}
 
-## Https localhost server with Caddy
+## Running https on localhost with Caddy
 
 [Caddy](https://github.com/caddyserver/caddy#?) is a server written in [Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), known to be easy peasy to configure (Unlike [configuring Nginx](/en/nginx-keepalive-gzip-http2-best-performance-on-your-web-site/)), and it also includes *https* by default.
 
@@ -59,7 +58,7 @@ graph TD;
     your-sub-domain.localhost-->http:localhost:5000;
 ```
 
-Finally just run *caddy run*, or *caddy start* if you want a detached run, in the directory where the *Caddyfile* is located and caddy will create a *reverse proxy* to your localhost on the port you specified.
+Finally just run *caddy run*, or *caddy start* if you want a process running in terminal or detached run, respectively, in the directory where the *Caddyfile* is located and caddy will create a *reverse proxy* to your localhost on the port you specified and we'll be running https on localhost as intended.
 
 ### Solution 1 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
 
@@ -74,7 +73,7 @@ sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
 
 ### Solution 2 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
 
-Another posibility is that caddy was already running, to which you have to stop it and run it again
+Another posibility is that caddy was already running, if you install it could run as a service, to which you have to stop it and execute it again.
 
 ``` bash
 caddy stop
