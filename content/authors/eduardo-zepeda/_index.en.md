@@ -29,7 +29,7 @@ I've been solving katas on [Codewars](/en/i-test-chatgpt-with-codewars-coding-ch
 
 I feel passion towards art cinema, anime and manga. A deep affection for videogames lives within my heart, however I've become picky when it comes to choose a new title to play. 
 
-~~I'm a nerd~~ **I'm a fervant reader**, mainly science fiction. However I also enjoy reading science essays, blogs, books on technology, business topics and philosophy. Science is elegant.
+~~I'm a nerd~~ **I'm a fervant reader**, mainly science fiction, lately I'm a fan of Greg Egan and Ted Chiang. Furthermore I also enjoy reading science essays, blogs, books on technology, business topics and philosophy. Science is elegant.
 
 I'm a proud coffee nerd that is keen to find promising places to drink good quality coffee.
 
