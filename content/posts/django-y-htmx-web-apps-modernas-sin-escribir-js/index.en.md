@@ -533,6 +533,5 @@ class YourGenericView(ListView):
         return [self.template_name]
 ```
 
-Translated with DeepL.com (free version)
 
 I have shown you only the basics of htmx combined with django, remember to visit the [official documentation](https://htmx.org/docs/) to see the other things it has to offer, like CSS transitions, websockets and SSE,

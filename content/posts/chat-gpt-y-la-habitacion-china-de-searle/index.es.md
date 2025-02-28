@@ -53,7 +53,7 @@ Sin embargo, nosotros sabemos que la persona en el interior solo está siguiendo
 
 Extrapolando lo anterior a ChatGPT; aunque un modelo de lenguaje puede producir respuestas que parecen coherentes y relevantes, no hay evidencia de que comprenda realmente el lenguaje o tenga conciencia de su significado. 
 
-De acuerdo con Searle, ChatGPT puede estar siguiendo el algoritmo más complejo existente pero, según Searle, no hay más conciencia del proceso ahí que la que encontrariamos en el reloj mecánico más sofisticado. 
+De acuerdo con Searle, ChatGPT(o cualquier otro Large Language Model LLM, como Mistral, DeepSeek, etc.) puede estar ejecutando el algoritmo más complejo existente pero, según Searle, no hay más conciencia del proceso ahí que la que encontrariamos en el reloj mecánico más sofisticado. 
 
 ¿Pero entonces que marca la diferencia entre una inteligencia real y un proceso mecánico? ¿existe dicha diferencia?
 
@@ -83,6 +83,8 @@ Mientras no entendamos que es la consciencia exactamente, no podremos saber que 
 
 Así mismo, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de "analizar" y  "responder" a situaciones muy complejas y con muchos matices, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
+Sir Roger Penrose refuerza el punto anterior en su libro "[Emperor's new mind](https://amzn.to/3XmesG6#?)", en el que afirma que la conciencia no es computable, por lo que nunca llegaremos a crear una Conciencia Artificial mediante algoritmos ni ésta surgirá de forma natural de la complejidad computacional, por más [fine-tuning de un LLM (Large Language Model)]((/es/fine-tuning-de-un-llm-guia-practica-con-recursos/)) u otro paradigma de modelo que entrenemos.
+
 Pero aunque los seres humanos tengan procesos inconscientes capaces de existir sin la manifestación de la conciencia... debe de existir algo más que una simple acción mecánica, después de todo los animales son mucho más complejos que las máquinas ¿no? 
 
 ## Autómatas biológicos
@@ -101,8 +103,8 @@ Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra c
 
 La conciencia es un tema bastante complejo que no puede abordarse en unas cuentas lineas, no por nada se le conoce como el "problema duro", pero si estas pinceladas te dejaron con ganas de más, te dejo mi lista de recursos favoritos para ahondar este tema tan complejo.
 
-* Un eterno y grácil bucle de Douglas R. Hofstader: el autor profundiza en el tema de la autoreferencia y desarrolla la pregunta: ¿puede un sistema comprenderse así mismo?
-* La nueva mente del emperador de Sir Roger Penrose: el autor establece el contexto de las leyes del universo y analiza si la conciencia y la inteligencia están relacionadas y si estas tienen un carácter determinista o no determinista.
+* [Un eterno y grácil bucle de Douglas R. Hofstader](https://amzn.to/4boOnfd#?): el autor profundiza en el tema de la autoreferencia y desarrolla la pregunta: ¿puede un sistema comprenderse así mismo?
+* [La nueva mente del emperador de Sir Roger Penrose](https://amzn.to/3XmesG6#?): el autor establece el contexto de las leyes del universo y analiza si la conciencia y la inteligencia están relacionadas y si estas tienen un carácter determinista o no determinista.
 * [Brains, Minds, and Machines: Consciousness and Intelligence](https://infinite.mit.edu/video/brains-minds-and-machines-consciousness-and-intelligence): plática del MIT, donde se desarrollan los temas de cerebros, conciencia, inteligencia y máquinas. Radicalmente infravalorada; ¿7000 vistas en youtube nada más? ¿de verdad?
 * [¿Puede un programa estar vivo?](https://www.youtube.com/watch?v=mC_KQC1gtWQ#?) pequeño videoensayo donde uno de mis youtubers favoritos desarrolla el tema de si un programa informático puede estar vivo.
 * [The connection between intelligence and conciousness](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf)
