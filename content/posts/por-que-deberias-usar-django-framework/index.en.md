@@ -4,7 +4,6 @@ date: "2021-03-24"
 categories:
 - "django"
 - "opinions"
-
 coverImage: "images/Django-usar.jpg"
 coverImageCredits: "credits https://www.pexels.com/es-es/@weekendplayer/"
 description: "Is Django worth using in a world where everything is JavaScript? Enter to learn about the advantages and disadvantages of this Python framework."
@@ -19,7 +18,7 @@ authors:
 
 ---
 
-Why use Django in a world where everything is Javascript? Is it really worth learning a Python Framework in an ecosystem that insists on Frameworks written in Javascript? Well, I think so, and here are some of the reasons why you should use Django. And, in order not to lose objectivity, I will talk about the advantages as well as the disadvantages; you know that no solution is perfect.
+Why to use Python Framework like Django in a world where everything is Javascript? Is it really worth learning such framework in an ecosystem that insists on Frameworks written in Javascript? Well, I think so, and here are some of the reasons why you should use Django. And, in order not to lose objectivity, I will talk about the advantages as well as the disadvantages; you know that no solution is perfect.
 
 ## Is django a backend framework or a frontend framework?
 

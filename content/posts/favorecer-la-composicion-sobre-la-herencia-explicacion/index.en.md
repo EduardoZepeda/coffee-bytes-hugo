@@ -1,15 +1,21 @@
 ---
-title: "Composition over inheritance in OOP simple explanation"
+aliases:
+- /en/composition-over-inheritance-in-oop-simple-explanation/
+title: "Composition over inheritance explained with legos"
 date: "2023-10-11"
 coverImage: "images/composition-over-inheritance.jpg"
 coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
 categories:
 - software architecture
-description: Read the most simple explanation of composition over inheritance in Object Oriented Programming (OOP) that will make you understand it right now.
+description: Composition over inheritance in OOP is the paradigm that says that i's better to compose your code using smaller parts rather than changing something big, I explain it in detail in this post.
 keyword: "composition over inheritance"
 keywords:
 - python
 - django
+- software architecture
+- design patterns
+- composition
+- inheritance
 authors:
   - Eduardo Zepeda
 ---
@@ -18,9 +24,9 @@ Composition over inheritance is a recurring theme in object-oriented programming
 
 Let's start our composition over inheritance explanation. Imagine you have a giant box of LEGO bricks, yes, those little plastic blocks that cause unimaginable pain when you step on them. But, in this case, we won't use them to cause pain but to build different types of cars.
 
-## Inheritance vs composition
+## Composition vs inheritance
 
-To build our tiny cars, there are two ways:
+To build our tiny LEGO cars, there are two ways:
 
 1. Inheritance: you can start with a basic car design, and then make changes to it to create different types of cars. But sometimes this turn into a complete disaster, since you can end up with some strange cars that won't work properly.
 

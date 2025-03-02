@@ -34,7 +34,7 @@ Me apasiona el cine de arte, el anime y el manga. Siento un profundo afecto por 
 
 **Soy un ferviente lector**, principalmente de ciencia ficción: Greg Egan y Ted Chiang son mis favoritos ahora mismo, pero estoy dándole una oportunidad a Ursula K. Le Guin. 
 
-Sin embargo, no todo es ciencia ficción también encuentro placer leyendo ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. 
+Sin embargo, no todo es ciencia ficción también encuentro placer leyendo ensayos científicos, blogs, libros sobre tecnología, negocios y filosofía. La ciencia es elegante.
 
 Soy un orgulloso snob del café al que le gusta encontrar lugares prometedores donde beber una buena taza de café de especialidad.
 

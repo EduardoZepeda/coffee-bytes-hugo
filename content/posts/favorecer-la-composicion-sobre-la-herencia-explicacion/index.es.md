@@ -2,6 +2,7 @@
 aliases:
 - /favorecer-la-composicion-sobre-la-herencia-explicacion
 - /composicion-sobre-herencia-en-poo-explicacion
+- /es/composicion-sobre-herencia-en-poo-explicacion
 authors:
 - Eduardo Zepeda
 categories:
@@ -12,17 +13,17 @@ date: '2023-10-11'
 keywords:
 - python
 - django
-title: Composicion Sobre Herencia en POO explicacion
+title: Composicion Sobre Herencia en POO explicada con Legos
 ---
 
-Composition over inheritance, o composición sobre herencia es un tema recurrente en la programación orientada a objectos. Generalmente, se explica de una manera muy compleja, pero hoy voy a tratar de simplificarlo al punto en que los puristas me detesten. 
+El paradigma de Composition over inheritance, o composición sobre herencia es un tema recurrente en la programación orientada a objectos. Generalmente, se explica de una manera muy compleja, pero hoy voy a tratar de simplificarlo al punto en que los puristas me detesten. 
 
 Empezamos, imagina que tienes una gigantesca caja de ladrillos LEGO, sí, esos pequeños bloques de plástico que causan un dolor inimaginable cuando los pisas. Pero, en este caso, no los usaremos para causar dolor sino para construir diferentes tipos de automóviles.
 
 
 ## Herencia o composición
 
-Para construir nuestros diminutos automóviles, existen dos maneras:
+Para construir nuestros diminutos automóviles de LEGO, existen dos maneras:
 
 1. Herencia: Puedes empezar con un diseño de automóvil básico, y luego hacerle cambios para crear diferentes tipos de automóviles. Pero, a veces, esto puede ser un completo desastre, puesto que puedes terminar con algunos automóviles extraños que no funcionarán correctamente.
 
@@ -33,6 +34,8 @@ Para construir nuestros diminutos automóviles, existen dos maneras:
 ![Imagen de piezas de LEGO para ensamblar un automóvil](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg "Empieza con las piezas y empieza a montar tu coche. Todos los derechos de esta imagen pertenecen a LEGO")
 
 Por lo tanto, **la composición sobre la herencia significa que a menudo es mejor construir cosas poniendo partes más pequeñas juntas en lugar de cambiar una cosa grande para hacer algo nuevo**.
+
+{{<ad>}}
 
 ### Composición sobre herencia, ejemplo
 
@@ -76,6 +79,5 @@ fast_car = SportsCar()
 fast_car.start_engine()
 ```
 
-En el ejemplo de herencia, empezamos con un "Automóvil" básico y lo modificamos para hacer un "SportsCar". En el ejemplo de composición, construimos un "Automóvil" y un "SportsCar" combinando piezas más pequeñas, como el motor. Es como utilizar piezas de LEGO para construir coches, y nos da más control y flexibilidad a la hora de escribir nuestros programas.
+En el ejemplo de herencia, empezamos con un "Automóvil" de LEGO básico y lo modificamos para hacer un "SportsCar". En el ejemplo de composición, construimos un "Automóvil" y un "SportsCar" combinando piezas más pequeñas, como el motor. Es como utilizar piezas de LEGO para construir coches, y nos da más control y flexibilidad a la hora de escribir nuestros programas.
 
-{{<ad>}}
