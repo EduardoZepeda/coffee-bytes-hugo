@@ -108,6 +108,8 @@ Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Goo
 
 En mi búsqueda también encontré una empresa llamada [salad](https://salad.com/#?), que sirve como intermediario entre usuarios y gamers que quieren alquilar sus GPUs, los precios son increíblemente competitivos. [VastAI](https://vast.ai/#?) también es otra opción. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) también tiene precios bastante competitivos y provee una amplia variedad de GPUs de donde elegir.
 
+Ahora tenemos todo lo que necesitamos, revisemos el proceso brevemente.
+
 ## Tutoriales sobre fine-tuning de LLM
 
 Para hacer Fine-tuning encontré bastante amenos estos videos, cortos y directo al grano, sin embargo no pude producir un modelo que funcionara siquiera, es posible que las notebooks estuvieran desactualizadas y probablemente mi inexperiencia jugó un rol en mi fracaso.
@@ -122,7 +124,7 @@ Este es una buena introducción pero no comparte la notebook, aunque pude encont
 
 {{<ad>}}
 
-Ahora entiendes el proceso de manera general, ¿de dónde consigues una plantilla para fine-tuning?
+Ahora que entendemos el proceso de manera general, ¿en dónde conseguimos una plantilla para hacer fine-tuning? No queremos escribir todo desde cero, ¿verdad?
 
 ## Notebooks para hacer fine-tuning de LLM.
 

@@ -15,7 +15,9 @@ authors:
 
 I tried to fine-tune a DeepSeek model but failed, then I tried to do it with Llama and I couldn't make it work, finally I managed to do it with a Mistral model, specifically the 7B parameter model. 
 
-I share with you some resources that I found useful during the process and some of my notes related to the topic. Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/).
+I share with you my notes and some resources that I found useful during the process. 
+
+Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/).
 
 ## Where to learn the basics of AI and Neural networks?
 
@@ -56,6 +58,8 @@ The steps may vary according to the model but generally the process looks someth
 
 Here are some resources about fine-tuning:
 
+I borrowed this [notebook because it was the only one that worked and modified accodringly](https://github.com/brevdev/notebooks/blob/main/mistral-finetune-own-data.ipynb), you can thank brevdev for it.
+
 I loved this resource for understanding the [general steps to fine-tuning an LLM](https://www.datacamp.com/tutorial/fine-tuning-large-language-models).
 
 The [notebook that I used to fine-tune](https://www.kaggle.com/code/eduardomzepeda/fine-tuning-mistral-7b-with-linkedin-job-posting#?) the model is here and you can check it.
@@ -75,6 +79,8 @@ Now we should have the data, what LLM should we use?
 - [opendatainception](https://opendatainception.io/#?)
 
 Make sure your dataset is in a proper format. Eg, I had to convert one using Python to JSONL, because each line was a separate file, which made the import incredibly slow.
+
+Now we should have the data, what LLM should we use now?
 
 ## Which models are best for fine-tuning an LLM?
 
@@ -99,6 +105,8 @@ It would be best to have your own GPUs, but in case you can't, Google, through [
 
 In my fine-tuning adventure I also found a company called [salad](https://salad.com/#?), which serves as an intermediary between users and gamers who want to rent their GPUs, the prices are incredibly competitive. [VastAI](https://vast.ai/#?) is also another option. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) also has very competitive prices and provices a wide variety of GPUs.
 
+We have everything we need now, let's review the overall process.
+
 ## LLM Fine-tuning Tutorials
 
 For Fine-tuning I found these videos quite enjoyable, short and straight to the point, however I could not produce a working model, it is possible that the notebooks were outdated and probably my inexperience make me fail.
@@ -113,7 +121,7 @@ He is a bit more specific and concise.
 
 {{<ad>}}
 
-Now you know the overall process, where can I find some template for fine-tuning?
+Now we know the overall process, where can we find some template for fine-tuning?
 
 ## Notebooks for LLM fine-tuning.
 
