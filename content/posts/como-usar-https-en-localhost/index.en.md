@@ -25,9 +25,9 @@ How to use Localhost using https instead of http, fast and without having to iss
 
 It is quite common to perform Oauth testing while performing integrations or some kind of integration with a third party application, the problem is that some third party providers are quite restrictive in this regard, they do not accept integrations or callbacks to URLs that do not use https. 
 
-For example in the creation of apps on the X (formerly Twitter) or Facebook developer platforms. ~~Zuckerberg!~~
+This is the case for apps on X (formerly Twitter) or Facebook developer platforms. ~~Zuckerberg!~~
 
-[Facebook developer portal callback needs https](https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png "Facebook developer portal callback needs https")
+![Facebook developer portal callback needs https](https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png "Facebook developer portal callback needs https")
 
 There are several ways of dealing with this, one of them is to sign our own certificates manually, but let's skip that and do it the quick and easy way.
 
@@ -38,7 +38,7 @@ There are several ways of dealing with this, one of them is to sign our own cert
 [Caddy](https://github.com/caddyserver/caddy#?) is a server written in [Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), known to be easy peasy to configure (Unlike [configuring Nginx](/en/nginx-keepalive-gzip-http2-best-performance-on-your-web-site/)), and it also includes *https* by default.
 
 
-It is so simple to set up that it only requires a simple file called Caddyfile, with no extension. You can think of the latter as the equivalent of a [Dockerfile in Docker](/en/how-to-write-a-caddyfile-file-from-zero/).
+It is so simple to set up that it only requires a simple file called Caddyfile, with no extension. You can think of the latter as the equivalent of a [Dockerfile in Docker](/en/how-to-write-a-docker-file-from-scratch/).
 
 Install it following the instructions according to your OS and create the *Caddyfile*.
 

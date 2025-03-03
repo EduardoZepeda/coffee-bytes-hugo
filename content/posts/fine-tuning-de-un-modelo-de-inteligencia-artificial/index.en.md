@@ -25,11 +25,11 @@ However, it is important to clarify that these videos do not start from scratch,
 
 {{< youtube "aircAruvnKk" >}}
 
-If you only speak english you probably don't know DotCSV, but what you may not know is that DotCSV has an introduction to neural networks and their videos are excellent, the bad part of course is that his videos are in Spanish. Go look for your duolinguo App.
+If you only speak english you probably don't know DotCSV, but what you may not know is that DotCSV has an introduction to neural networks and their videos are excellent, the bad part of course is that his videos are in Spanish. Time to turn on the subtitles.
 
 {{< youtube "MRIv2IwFTPg" >}}
 
-But if you already know about neural networks, then, let's start with the fine-tuning concept.
+But if you already know everything about neural networks, then, let's start with the fine-tuning concept.
 
 ## What is fine-tuning?
 
@@ -66,6 +66,10 @@ In the same way you need data to train an AI model, fine-tuning requires that yo
 
 I used datasets from [HuggingFace](https://huggingface.co/datasets/#?), however it is important to **consider that pre-trained models that are freely available were probably trained using the same data, so if you decide to use them, don't expect to have a substantial improvement over normal model performance**, it would be best to use your own data or original content.
 
+Now we should have the data, what LLM should we use?
+
+### Fine-tuning data sources
+
 - [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets#?)
 - [Kaggle](https://kaggle.com#?)
 - [opendatainception](https://opendatainception.io/#?)
@@ -76,18 +80,18 @@ Make sure your dataset is in a proper format. Eg, I had to convert one using Pyt
 
 To do fine-tuning, a good starting point is using a pre-trained LLM, the most parameters the better results but its performance will be worse.
 
-As a rule of thumb, it's a good idea to browse HuggingFace, and look for large models, among the most popular ones I could find are Llama, DeepSeek, Mistral, Falcon, among others.
+As a rule of thumb, it's a good idea to browse HuggingFace, and look for large models (the ones with more parameters), among the most popular ones I could find are Llama, DeepSeek, Mistral, Falcon, among others.
 
-I tested the following models because they were very light and did not require as much computing power, but you can use their larger versions with more parameters: 
+I tested the following models, not because they were the best, but because they were light and did not require as much computing power (I'm working with limited resources, leave me alone), but you can use their larger versions with more parameters: 
 - [Llama-3.1B](https://huggingface.co/meta-llama/Llama-3.1-8B#?)
 - [DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B#?)
 - [Mistral-7B-v0.x](https://huggingface.co/mistralai/Mistral-7B-v0.3#?)
 
-
 I got better results with the Mistral LLMs, probably because the DeepSeek ones were trained using Chinese sources. 
 
-I was actually able to train and deploy it but the model returned Chinese characters, just like [Searle's room](/en/chat-gpt-searles-chinese-room-and-consciousness/), from time to time as part of the response, although it was incredibly fast.
+I was actually able to train and deploy it but the model returned Chinese characters, ([just like Searle's room](/en/chat-gpt-searles-chinese-room-and-consciousness/)), from time to time as part of the response, although it was incredibly fast.
 
+Now that we have the data and the model, where can we train our LLM? The cheaper the better.
 
 ## Where to fine-tune an LLM for free?
 
@@ -97,17 +101,19 @@ In my fine-tuning adventure I also found a company called [salad](https://salad.
 
 ## LLM Fine-tuning Tutorials
 
-For Fine-tuning I found these videos quite enjoyable, and straight to the point, however I could not produce a working model, it is possible that the notebooks were outdated and probably my inexperience made it impossible to get it.
+For Fine-tuning I found these videos quite enjoyable, short and straight to the point, however I could not produce a working model, it is possible that the notebooks were outdated and probably my inexperience make me fail.
 
-This is a good introduction but does not share the notebook, although I was able to find it on Google Colab, I put the link in the next section.
+This is a good introduction but does not share the jupyter notebook, although I was able to find it on Google Colab. I put the link in the next section.
 
 {{< youtube "pxhkDaKzBaY" >}}
 
-He is a bit more specific and also gets right to the point.
+He is a bit more specific and concise.
 
 {{< youtube "Q9zv369Ggfk" >}}
 
 {{<ad>}}
+
+Now you know the overall process, where can I find some template for fine-tuning?
 
 ## Notebooks for LLM fine-tuning.
 
@@ -115,7 +121,7 @@ This was [the notebook that allowed me to fine-tuning the Mistral model](https:/
 
 Most of the notebooks just need you to change the model and adapt the dataset to the model input, so you can use them as a starting point for your particular case.
 
-Others that I found particularly useful but did not work for me or produced unwanted results.
+Others that I found particularly well documented but did not work for me or produced unwanted results are these:
 - [Fine-tuning DeepSeek R1](https://www.kaggle.com/code/kingabzpro/fine-tuning-deepseek-r1-reasoning-model#?)
 - [Alpaca + Flame fine-tuning](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp#?)
 

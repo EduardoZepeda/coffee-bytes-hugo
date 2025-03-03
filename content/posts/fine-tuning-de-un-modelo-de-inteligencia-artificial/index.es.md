@@ -15,21 +15,21 @@ authors:
 
 Intenté hacer fine-tuning de un modelo de DeepSeek pero fracasé, luego intenté hacerlo con Llama y tampoco pude conseguirlo, al final logré hacerlo con un modelo de Mistral, específicamente el de 7B de parámetros. 
 
-Te comparto algunos recursos que encontré útiles durate el proceso. A pesar de estar jugando con la AI, aún sigo creyendo que [estamos en una burbuja de AI.](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/)
+Te comparto algunos recursos que encontré útiles durate el proceso. A pesar de estar jugando a entrenar LLMs, aún sigo creyendo que [estamos en una burbuja de AI.](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/)
 
 ## ¿Dónde aprender los fundamentos de AI y redes neuronales?
 
 Si no tienes ni idea de Inteligencia Artificial o lo que es una red neuronal, los videos más completos y didácticos los tiene el canal de 3blue1brown. 
 
-Sin embargo es importante aclarar que estos videos no parten de cero, es necesario que tengas bases de algebra lineal, regresión lineal y cálculo diferencial e integral. Sé que puede ser un poco desmotivador para los que vienen de backgrounds no técnicos pero no es tan difícil como parece.
+Sin embargo es importante aclarar que estos videos no parten de cero, es necesario que tengas bases mínimas de algebra lineal, regresión lineal y cálculo diferencial e integral. Sé que puede ser un poco desmotivador para los que vienen de backgrounds no técnicos pero no es tan difícil como parece.
 
 {{< youtube "jKCQsndqEGQ" >}}
 
-Probablemente ya conozcas a DotCSV, es el pelón que todos queremos, pero lo que quizás no sepas es que DotCSV tiene una introducción sobre redes neuronales y sus videos son excelentes, y lo mejor es que están en español.
+Probablemente ya conozcas a DotCSV, sí es el pelón divulgador de la AI que todos queremos, pero lo que quizás no sepas es que DotCSV tiene una introducción sobre las matemáticas detrás de las redes neuronales, y sus videos son simplemente excelentes, y lo mejor es que están en español.
 
 {{< youtube "MRIv2IwFTPg" >}}
 
-Platzi también tiene un excelente video donde explican las bases matemáticas de las redes neuronales en español, el video es algo largo, pero vale muchísimo la pena.
+Platzi también tiene un excelente video donde explican las bases matemáticas de las redes neuronales en español, el video es algo largo, pero creeme que vale muchísimo la pena.
 
 {{< youtube "v6tk0CxaVU8" >}}
 
@@ -39,17 +39,19 @@ Pero si ya tienes nociones de redes neuronales, entonces empecemos por el fine-t
 
 El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y continuar su formación en un conjunto de datos particulares del campo. Como por ejemplo un LLM que ha sido entrenado usando todos los artículos científicos sobre diabetes.
 
-Porque, ¿para qué prompt engineering cuando se puede hacer fine-tuning de un modelo y obtener los mismos resultados?
+Porque, ¿para qué realizar prompt engineering cuando se puede hacer fine-tuning de un modelo y obtener los mismos resultados?
 
 ![Drake hotline bling meme up: prompt engineering down: fine-tuning](https://i.imgflip.com/9kjbo2.jpg "Sólo estoy bromeando, siempre prueba primero con prompt engineering")
 
-La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastante positivo, pero no logran solucionar problemas particulares enfocados en tareas específicas. El procedimiento de fine-tuning brinda beneficios significativos, tales como la disminución de los costos de cálculo y la oportunidad de utilizar modelos avanzados sin la necesidad de edificar uno desde el inicio.
+La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastante positivo, pero no logran solucionar problemas particulares enfocados en tareas específicas, sobre todo en areas muy específicas de conocimiento. 
 
-[Puede que no sustituya a los programadores](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.
+El procedimiento de fine-tuning brinda beneficios significativos, tales como la disminución de los costos de cálculo y la oportunidad de utilizar modelos avanzados sin la necesidad de edificar uno desde el inicio.
+
+[Puede que la AI no sustituya a los programadores](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.
 
 ### Pasos para realizar fine-tuning de un LLM
 
-Los pasos pueden variar de acuerdo al modelo pero generalmente son algo similar a esto
+Los pasos pueden variar de acuerdo al modelo pero generalmente son algo similares a esto
 
 1. Cargar un dataset: Obtener tu dataset, ya sea existente u original.
 2. Preprocesamiento de datos: Tokenizar tu dataset usando tokenizador del modelo y dividirlo en conjuntos de entrenamiento, validación y prueba.
@@ -63,13 +65,17 @@ Te dejo algunos recursos relacionados con el fine-tuning a continuación.
 
 Me encantó este recurso para entender los [pasos generales para hacer fine-tuning de un LLM](https://www.datacamp.com/tutorial/fine-tuning-large-language-models).
 
-La [notebook que utilice para realizar fine-tuning](https://www.kaggle.com/code/eduardomzepeda/fine-tuning-mistral-7b-with-linkedin-job-posting#?) está en Kaggle y puedes consultarla.
+Esta es la [notebook que yo utilice para realizar fine-tuning](https://www.kaggle.com/code/eduardomzepeda/fine-tuning-mistral-7b-with-linkedin-job-posting#?) está en Kaggle y puedes consultarla.
+
+Pero empecemos por lo primero, los datos.
 
 ## ¿Dónde conseguir datasets para hacer fine-tuning?
 
-De la misma manera que se necesitan datos para entrenar un modelo de IA, el ajuste requiere que se le proporcionen los mejores datos que se puedan encontrar, y la mejor fuente son los propios datos.
+De la misma manera que se necesitan datos para entrenar un modelo de IA, el fine-tuning requiere que se le proporcionen los mejores datos que se puedan encontrar, y la mejor fuente son tus propios datos originales.
 
-Yo usé datasets de [HuggingFace](https://huggingface.co/datasets/#?), sin embargo es importante considerar que **los modelos pre-entrenados que estén disponibles de manera gratuita seguramente fueron entrenados usando esos mismos datos**, por lo que, si decides usarlos, no esperes tener una mejora substancial respecto al rendimiento normal del modelo, lo mejor sería usar datos propios o contenido original.
+Yo usé datasets de [HuggingFace](https://huggingface.co/datasets/#?), sin embargo es importante considerar que **los modelos pre-entrenados que están disponibles de manera gratuita seguramente fueron entrenados usando esos mismos datos**, por lo que, si decides usarlos, no esperes tener una mejora substancial respecto al rendimiento normal del modelo, lo mejor sería usar datos propios o contenido original.
+
+### Fuentes de datos para fine-tuning
 
 - [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets#?)
 - [Kaggle](https://kaggle.com#?)
@@ -77,40 +83,46 @@ Yo usé datasets de [HuggingFace](https://huggingface.co/datasets/#?), sin embar
 
 Asegúrate de que tu dataset esté en un formato adecuado, yo tuve que preprocesar, uno usando Python, en el que cada linea era un archivo por separado, lo que volvía la importación increíblemente lenta.
 
+Ok, ya tenemos los datos, ¿qué LLM usamos?
+
 ## ¿Qué modelos son mejores para hacer fine-tuning?
 
 Para realizar el entrenamiento, debes partir de un modelo preexistente. Mientras más parámetros tenga mejores resultados obtendrás, pero peor será el rendimiento.
 
-Generalmente encontrarás buenos candidatos al fine-tuning en HuggingFace, sobre todo los modelos grandes, entre los más populares que pude encontrar están Llama, DeepSeek, Mistral, Falcon, entre otros.
+Generalmente encontrarás buenos candidatos para fine-tuning en HuggingFace, sobre todo entre los modelos más grandes (con mayor número de parámetros), entre los más populares que pude encontrar están Llama, DeepSeek, Mistral, Falcon, entre otros.
 
-Yo probé los sisguientes modelos porque eran muy ligeros y no requerían tanto poder de computo, pero tú puedes usar sus versiones con más parámetros: 
+Yo probé los sisguientes modelos porque eran muy ligeros y no requerían tanto poder de computo (trabajo con recursos límitados, déjenme en paz), pero tú puedes usar sus versiones con más parámetros: 
 - [Llama-3.1B](https://huggingface.co/meta-llama/Llama-3.1-8B#?)
 - [DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B#?)
 - [Mistral-7B-v0.x](https://huggingface.co/mistralai/Mistral-7B-v0.3#?)
 
 Obtuve mejores resultados con los de Mistral, probablemente porque los de DeepSeek fueron entrenados con material de origen chino. 
 
-De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos, igualito [a la habitación de Searle](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
+De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos (igualito [a la habitación de Searle](/es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/)), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
+
+Ya elegimos modelo y tenemos los datos, ¿dónde entrenamos nuestro LLM? Mientras más barato mejor.
 
 ## ¿Dónde hacer fine-tuning de un LLM de manera gratuita?
 
 Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Google, a través de [Google Colab](https://colab.research.google.com/#?) tiene GPUs disponibles de manera gratuita por una cantidad limitada de horas al día, [Kaggle](https://www.kaggle.com/#?) también **te ofrece 30 horas de uso de GPU a la semana** para que lleves a cabo tus experimentos. ~~Y crees tus imágenes furras usando los modelos prohibidos.~~
 
-En mi búsqueda también encontré una empresa llamada [salad](https://salad.com/#?), que sirve como intermediario entre usuarios y gamers que quieren alquilar sus GPUs, los precios son increíblemente competitivos. [VastAI](https://vast.ai/#?) también es otra opción. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) también tiene precios bastante competitivos y provee una amplia variedad de GPUs de donde elegir..
+En mi búsqueda también encontré una empresa llamada [salad](https://salad.com/#?), que sirve como intermediario entre usuarios y gamers que quieren alquilar sus GPUs, los precios son increíblemente competitivos. [VastAI](https://vast.ai/#?) también es otra opción. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) también tiene precios bastante competitivos y provee una amplia variedad de GPUs de donde elegir.
 
 ## Tutoriales sobre fine-tuning de LLM
 
-Para hacer Fine-tuning encontré bastante amenos estos videos, y directo al grano, sin embargo no pude producir un modelo que funcionara siquiera, es posible que las notebooks estaban desactualizadas y probablemente mi inexperiencia me hizo imposible conseguirlo.
+Para hacer Fine-tuning encontré bastante amenos estos videos, cortos y directo al grano, sin embargo no pude producir un modelo que funcionara siquiera, es posible que las notebooks estuvieran desactualizadas y probablemente mi inexperiencia jugó un rol en mi fracaso.
 
 Este es una buena introducción pero no comparte la notebook, aunque pude encontrarla en Google Colab, te dejo el enlace en la siguiente sección.
 
 {{< youtube "pxhkDaKzBaY" >}}
 
-Él es un poco más específico y también va directo al grano.
+Éste chico es un más específico y su video es conciso.
 
 {{< youtube "Q9zv369Ggfk" >}}
 
 {{<ad>}}
+
+Ahora entiendes el proceso de manera general, ¿de dónde consigues una plantilla para fine-tuning?
 
 ## Notebooks para hacer fine-tuning de LLM.
 
@@ -118,10 +130,9 @@ Esta fue [la notebook que me permitió hacer fine-tuning al modelo Mistral](http
 
 La mayoría de las notebooks solo necesitan que cambies el modelo y adaptes el dataset a la entrada del modelo, por lo que puedes usarlos como punto de partida para tu caso particular.
 
-Otras que encontré particularmente útiles pero no me funcionaron o produjeron resultados no deseados
+Otras que encontré particularmente bien explicadas pero no me funcionaron o produjeron resultados no deseados son estas:
 - [Fine-tuning DeepSeek R1](https://www.kaggle.com/code/kingabzpro/fine-tuning-deepseek-r1-reasoning-model#?)
 - [Alpaca + Llama fine-tuning](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp#?)
-
 
 ## ¿Dónde hacer deploy de un modelo de LLM?
 
