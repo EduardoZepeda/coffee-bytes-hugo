@@ -12,16 +12,39 @@
 {{ range first 2 .Page.Params.categories }}
   {{ $ad := index $langAds . }}
   {{ if $ad }}
+    <style>
+    .affiliate-link-container {
+      margin-bottom: 36px;
+    }
+    .affiliate-body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .affiliate-link-button{
+      background-color: #FED400;
+      color: #020100;
+      padding: 16px 32px;
+      border-radius: 4px;
+    }</style>
+
     <aside class="affiliate-link-container">
       <div class="affiliate-heading">
         <h2>{{$ad.title}}</h2>
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
       </div>
-      <p>{{$ad.description}}</p>
+      <div class="affiliate-body">
+      <div><p>{{$ad.description}}</p></div>
       {{ if $ad.imageSrc }}
-      <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
+        <div>
+        <a rel="nofollow sponsored" id="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
+        </div>
       {{ end }}
-      <p><a rel="nofollow sponsored" id="{{.}}" class="affiliate-link markdown-link" href="{{$ad.link}}">{{$ad.linkText}}</a></p>
+        <div>
+          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
+        </div>
+      </div>
     </aside>
   {{ end }}
 {{ end }}
