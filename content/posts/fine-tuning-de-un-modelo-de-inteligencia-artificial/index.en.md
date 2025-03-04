@@ -80,6 +80,8 @@ Now we should have the data, what LLM should we use?
 
 Make sure your dataset is in a proper format. Eg, I had to convert one using Python to JSONL, because each line was a separate file, which made the import incredibly slow.
 
+![HuggingFace dataset screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o49qurb343h802weo8cv.png)
+
 Now we should have the data, what LLM should we use now?
 
 ## Which models are best for fine-tuning an LLM?
@@ -95,6 +97,8 @@ I tested the following models, not because they were the best, but because they 
 
 I got better results with the Mistral LLMs, probably because the DeepSeek ones were trained using Chinese sources. 
 
+![Is this Searle's Chinese room meme](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg)
+
 I was actually able to train and deploy it but the model returned Chinese characters, ([just like Searle's room](/en/chat-gpt-searles-chinese-room-and-consciousness/)), from time to time as part of the response, although it was incredibly fast.
 
 Now that we have the data and the model, where can we train our LLM? The cheaper the better.
@@ -102,6 +106,8 @@ Now that we have the data and the model, where can we train our LLM? The cheaper
 ## Where to fine-tune an LLM for free?
 
 It would be best to have your own GPUs, but in case you can't, Google, through [Google Colab](https://colab.research.google.com/#?) has GPUs available for free for a limited amount of hours per day, [Kaggle](https://www.kaggle.com/#?) also **offers you 30 hours of GPU usage per week** to run your experiments. ~~And create your furry images using the forbidden models.~~
+
+![Kaggle free GPUs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png)
 
 In my fine-tuning adventure I also found a company called [salad](https://salad.com/#?), which serves as an intermediary between users and gamers who want to rent their GPUs, the prices are incredibly competitive. [VastAI](https://vast.ai/#?) is also another option. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) also has very competitive prices and provices a wide variety of GPUs.
 
