@@ -5,9 +5,9 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- javascript
 - react
 - typescript
+- javascript
 coverImage: images/TypesChildrenTypescript.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@tranmautritam/
 date: '2021-10-19'

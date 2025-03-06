@@ -2,9 +2,9 @@
 title: "Types for React components with children"
 date: "2021-10-19"
 categories:
-- "javascript"
 - "react"
 - "typescript"
+- "javascript"
 
 coverImage: "images/TypesChildrenTypescript.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/@tranmautritam/"

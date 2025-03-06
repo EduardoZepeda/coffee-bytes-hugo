@@ -120,12 +120,12 @@ en:
     linkText: null
     title: null
   typescript:
-    description: Most APIs out there are horribly designed, how much should I nest subcategories in an API? what's HATEOAS? which format is better /api/, put the api version in a subdomain or put the api version in a header? Decisions are made without a reason, don't be one of them. This book deals with all these hard questions in more detail and teaches you how to design good APIs, go check it out.
-    imageAlt: Build APIs You Won't Hate book cover
-    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg
-    link: https://amzn.to/41qJOhp
-    linkText: Get Build APIs You Won't Hate on Amazon Now
-    title: How to design quality APIs?
+    description: You probably already know that most technical interviews do not reflect the day-to-day reality of work. However, in spite of that, it is necessary to pass them if you want to get a job in a company. This book covers in depth everything you need to pass each of the phases of job interviews, including the algorithmic part. A bit long, but I recommend it.
+    imageAlt: Cracking the code interview book cover
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1741221792/cracking-the-code-interview-book_600_widryi.jpg
+    link: https://amzn.to/41Hx5GZ
+    linkText: Get Cracking the code interview book on Amazon
+    title: How to approve the technical interview?
 es:
   algoritmos:
     description: Este es el recurso que leí, y por lo tanto puedo recomendar para aprender algoritmos, mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre algoritmos. Consulta el resto de libros que leo y recomiendo en mi perfil.
@@ -226,12 +226,12 @@ es:
     linkText: Consulta el precio de los trucos de Python y cómpralo en Amazon
     title: Si quieres pulir tus conocimientos de Python
   react:
-    description: Este es el recurso que leí para aprender algoritmos, y por lo tanto puedo recomendar para aprender algoritmos, mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre algoritmos. Consulta el resto de libros que leo y recomiendo en mi perfil.
+    description: Este es el recurso que leí para aprender algoritmos, y por lo tanto puedo recomendar. Es mucho más entendible que SICP y te enseña todo lo que necesitas saber sobre el tema, desde la complejidad hasta aproximaciones heurísticas. Consulta el resto de libros que leo y recomiendo en mi perfil.
     imageAlt: Portada del manual de diseño de algoritmos
     imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/the-algorithm-design-manual.jpg
     link: https://amzn.to/4gUpFoa
     linkText: Consulta el precio del manual de diseño de algoritmos y cómpralo en Amazon
-    title: ¿Dónde aprender lo requerido sobre algoritmos?
+    title: ¿Dónde aprender todo sobre algoritmos?
   rust:
     description: He aquí, la biblia de Rust, este libro cubre todo lo que necesitas saber sobre Rust, lo leí, me tomó un tiempo comprender algunos de los conceptos presentados pero valió la pena. Si quieres comprender porque tanto escándalo con este lenguaje de programación deberías decidirte a leerlo.
     imageAlt: Portada del libro sobre el lenguaje de programación Rust
@@ -252,9 +252,9 @@ es:
     linkText: null
     title: null
   typescript:
-    description: La mayoría de las APIs que existen están horriblemente diseñadas, ¿cuánto debo anidar subcategorías en una API? ¿qué es HATEOAS? ¿qué formato es mejor /api/, poner la versión de la api en un subdominio o poner la versión de la api en una cabecera? Las decisiones se toman sin motivo, no seas uno de ellos. Este libro trata todas estas preguntas difíciles con más detalle y te enseña a diseñar buenas APIs, échale un vistazo.
-    imageAlt: Portada del libro Build APIs You Won't Hate
-    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/build-apis-you-wont-hate.jpg
-    link: https://amzn.to/41qJOhp
-    linkText: Consulta el precio de Build APIs You Won't Hate y cómpralo en Amazon
-    title: Cómo diseñar APIs de calidad
+    description: Seguramente ya sabes que la mayoría de entrevistas técnicas no reflejan la realidad laboral del día a día. Sin embargo, a pesar de eso, es necesario superarlas si deseas conseguir un trabajo en una empresa. Este libro trata a fondo todo lo que necesitas para superar cada una de las fases de las entrevistas laborales, incluída la parte algorítmica. Algo largo, pero muy completo, lo recomiendo.
+    imageAlt: Portada del libro Cracking the code interview
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1741221792/cracking-the-code-interview-book_600_widryi.jpg
+    link: https://amzn.to/41Hx5GZ
+    linkText: Consulta el precio de Cracking the code interview y cómpralo en Amazon
+    title: ¿Cómo pasar las entrevistas técnicas?
