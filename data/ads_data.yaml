@@ -139,7 +139,7 @@ es:
     imageAlt: Portada del System Design Interview
     imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/system-design-interview.jpg
     link: https://amzn.to/41rodp3
-    linkText: Consulta el precio del libro System Design Interview y cómpralo en Amazon
+    linkText: Consulta el precio de System Design Interview y cómpralo en Amazon
     title: ¿Dónde aprender arquitectura de software?
   bases de datos:
     description: No te conformes con SELECT, UPDATE, DELETE, JOINS y UNIONS, SQL tiene MUCHO MÁS que ofrecer para hacer tu día a día más fácil. Todavía no he terminado de leer este libro pero de momento tiene muy buena pinta. Actualizaré esto cuando lo termine pero hasta ahora me siento bastante cómodo recomendándotelo.
@@ -196,7 +196,7 @@ es:
     imageAlt: Portada del libro de cien páginas sobre Machine Learning
     imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103780/hundred-page-machine-learning-book_ueonkh.jpg
     link: https://amzn.to/3D3oMvN
-    linkText: Consulta el precio del libro The Hundred-Page Machine Learning y cómpralo en Amazon
+    linkText: Consulta el precio de The Hundred-Page Machine Learning y cómpralo en Amazon
     title: En dónde aprender las bases de AI y Machine Learning
   javascript:
     description: Este es EL LIBRO cuando se trata de Javascript. Es una guía completa que cubre todo lo que necesitas saber, desde la declaración de variables, al funcionamiento interno de las promesas e incluso te explica como crear un compilador en Javascript (No tan eficiente como uno compilado, pero ideal para aprender), si vas a leer solo un libro de Javascript, que sea este.

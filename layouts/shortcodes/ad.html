@@ -13,21 +13,54 @@
   {{ $ad := index $langAds . }}
   {{ if $ad }}
     <style>
-    .affiliate-link-container {
-      margin-bottom: 36px;
+ .affiliate-heading {
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .affiliate-badge{
+     opacity: 0.7;
+     font-size: 0.95rem;
+     word-break: keep-all;
+}
+ .affiliate-img {
+     max-height: 450px;
+     width: 100%;
+}
+ .affiliate-link-button-sm {
+     display:none;
+}
+ .affiliate-link-button-lg {
+     display:block;
+}
+ .affiliate-link-container {
+     margin-bottom: 36px;
+}
+ .affiliate-body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 24px;
+}
+ .affiliate-link-button{
+     background-color: #FED400;
+     color: #020100;
+     padding: 12px 32px;
+     border-radius: 4px;
+}
+ @media (max-width: 720px) {
+     .affiliate-link-button{
+         padding: 8px 24px;
+         border-radius: 4px;
     }
-    .affiliate-body{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
+     .affiliate-link-button-sm {
+         display:block;
     }
-    .affiliate-link-button{
-      background-color: #FED400;
-      color: #020100;
-      padding: 16px 32px;
-      border-radius: 4px;
-    }</style>
+     .affiliate-link-button-lg {
+         display:none;
+    }
+}
+    </style>
 
     <aside class="affiliate-link-container">
       <div class="affiliate-heading">
@@ -42,7 +75,9 @@
         </div>
       {{ end }}
         <div>
-          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
+          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-lg" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
+          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-sm" aria-label="Amazon link" href="{{$ad.link}}">{{ T "amazonLink"}}</a>
+
         </div>
       </div>
     </aside>
@@ -51,20 +86,8 @@
 {{ end }}
 
 <style>
-  .affiliate-heading {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .affiliate-badge{
-    opacity: 0.7;
-    font-size: 0.95rem;
-    word-break: keep-all;
-  }
-  .affiliate-img {
-    max-height: 450px;
-    width: 100%;
-   }
+
+
 </style>
 
 <script>
