@@ -4,7 +4,6 @@ date: "2022-02-23"
 categories:
 - "opinions"
 - "typescript"
-
 coverImage: "images/react-fc-mala-practica.jpg"
 description: "Using React.FC could be a bad practice and go against the explicit nature of Typescript due to its ambiguous way of dealing with children, of course is not the only way, there are better ways to deal with React components that have children."
 keywords:
@@ -121,6 +120,10 @@ Namespace.Component = (props) => { /*...*/ }
 ## What can we use instead of React.FC?
 
 The core of the criticism is that **React.FC adds the children implicitly, going against the explicit nature of typescript**.
+
+Just like using [the Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/) for its compiler.
+
+![Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious")
 
 However, the discussion I am talking about is just that, a discussion, it is not written in stone, you may consider that it is better to sacrifice a bit of readability in favor of convenience or, on the contrary, you may believe that it is important to be explicit when working with typescript.
 

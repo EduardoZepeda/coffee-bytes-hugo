@@ -124,6 +124,10 @@ Namespace.Componente = (props) => { /*...*/ }
 
 El núcleo de las críticas se basta en que **React.FC añade el children de manera implícita, yendo contra la naturaleza explícita de typescript**.
 
+Como usar [el lenguaje de programación Go](/en/go-programming-language-introduction-to-variables-and-data-types/) para su compilador.
+
+![Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.")
+
 Sin embargo, la discusión de la que te hablo es solo eso, una discusión, no está escrita en piedra, puede que tú consideres que es mejor sacrificar un poco de legibilidad en favor de la comodidad o, por el contrario, puede que creas que es importante ser explícito cuando se trabaja con typescript.
 
 Si es el caso, considera que siempre puedes declarar el children como un prop de manera explícita, tal como lo harías con cualquier otro prop. Y de la misma manera, puedes declarar el valor de retorno de tu componente como un elemento de tipo JSX.

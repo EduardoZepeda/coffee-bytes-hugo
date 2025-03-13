@@ -20,6 +20,10 @@ url: /es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 
 Go, también conocido como Golang, es un lenguaje de programación compilado desarrollado por Google con el propósito de ser simple, sencillo de aprender, suficientemente rápido y centrado fuertemente en la concurrencia.
 
+Go es [usado en proyectos tan colosales como el compilador de Typescript](https://github.com/microsoft/typescript-go/discussions/411#?)
+
+![Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.")
+
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## ¿Qué es Go? Un poco sobre el lenguaje de programación
@@ -69,7 +73,7 @@ Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo ha
 
 ![Error de compilación en go por variables sin usar](images/ErrorCompilacionGo.png "La compilación no se permite si hay variables sin usar.")
 
-Sin embargo no te obliga a revisar punteros hacia nil, volviéndo estos los errores más difíciles de debuggear.
+Sin embargo no te obliga a revisar punteros hacia nil, volviéndo estos los errores más difíciles de debuggear, por lo cual yo lo considero una parte débil del lenguaje.
 
 ## Go tiene la mejor mascota: Gopher
 

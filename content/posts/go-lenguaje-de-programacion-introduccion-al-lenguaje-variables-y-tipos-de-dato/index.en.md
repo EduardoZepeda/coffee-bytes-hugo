@@ -18,6 +18,10 @@ url: /en/go-programming-language-introduction-to-variables-and-data-types/
 
 Golang, also known as go, is a compiled programming language developed by Google. It is a language quite appreciated according to the latest Stackoverflow surveys (2023), as you can see in my python vs go post, where I also compare the good, the bad and the ugly of this language.
 
+Go is [used even in colossal projects, like the typescript compiler.](https://github.com/microsoft/typescript-go/discussions/411#?)
+
+![Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.")
+
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
 ## What's Go the programming language?
@@ -40,7 +44,7 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 * **Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/en/go-use-of-channels-to-communicate-goroutines/) is quite easy.
 * **Creating web applications is quite simple** Go incorporates in its standard library a lot of utilities to create web servers, so you can even use it without using any framework, for simple applications, and you won't have any problem. Definitely a language [*to get shit donde*](/en/dont-obsess-about-your-web-application-performance/#top-tools-to-get-shit-done-in-web-development)
 
-### Why does go suck? Disadvantagesof Go
+### Why does go suck? Disadvantages of using Go
 
 To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers. Yes, I know the community can be toxic sometimes, but I agree with most of them. Let's be realistic, Go is not perfect, but in my opinion this is not about perfection but getting things done.
 
@@ -53,7 +57,7 @@ To make this analysis as objective as possible, here are some controversial aspe
 ![Recurrent error handling pattern in go](images/if-err-not-equal-nil.jpg "If err!= nil again and again and again, error handling in Go could be better")
 
 * **There are no default arguments in go**, which increases the amount of code to write to deal with defaults.
-* **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust](https://discord.com/blog/why-discord-is-switching-from-go-to-rust).
+* **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * **~~Go does not have generics~~** Go already has generics support since version 1.18.
 
 {{<ad>}}
@@ -64,7 +68,7 @@ Go is strongly oriented to good code practices. How does it do it? The compiler 
 
 ![Compilation error in go due to unused variables](images/ErrorCompilacionGo.png "Compilation is not allowed if there are unused variables.")
 
-However it doesn't force you to check for nil values.
+However it doesn't force you to check for nil values, which me and other developers think it is a weak part of the language.
 
 ## The most popular mascot in programming
 
