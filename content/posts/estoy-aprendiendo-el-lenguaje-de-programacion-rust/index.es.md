@@ -179,16 +179,6 @@ impl<T: Display> Report<T> {
 }
 ```
 
-## Rust no es tan difícil de aprender
-
-Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
-
-Pero no negaré que aprender Rust es más complicado que aprender Go, o aprender Python, incluso me atrevo a decir que es más complicado aprenderlo que C, por otro lado es más fácil escribir mal código en C que en Rust.
-
-Hasta ahora, pareciera que estoy quejándome de las decisiones tomadas al diseñar este lenguaje, pero no, solo estoy exponiendo las partes con las que tuve un poco más de fricción, pero, tomando en cuenta lo amplio que es el lenguaje, podrás darte cuenta que realmente es una mínima parte.
-
-La mayor parte de la sintaxis de Rust es bastante sencilla, y algunas de las cosas con las que tienes que lidiar, te ahorran los dolores de cabeza de tener que depurar fugas de memoria o punteros nulos, lo cual es un intercambio interesante.
-
 ## ¿Dónde aprender Rust?
 
 Para finalizar este post, te comparto algunos recursos que puedes usar para aprender Rust, pero considera que dominar Rust no es una tarea de un fin de semana.
@@ -214,3 +204,17 @@ Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https
 {{<ad>}}
 
 ![La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art](https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png "La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art")
+
+## Rust no es tan difícil de aprender
+
+Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
+
+### Rust es elegante pero hay otros lenguajes más simples
+
+Ciertamente Rust es uno de los lenguajes más elegantes que hay, sin embargo a veces se prefiere la productividad y la comodidad a la belleza y la elegancia, incluso grandes [empresas como Typescript prefirieron usar Go en lugar de Rust para su compilador](https://github.com/microsoft/typescript-go/discussions/411#?). Tienes que hacerte la misma pregunta independientemente del resultado, Rust puede ser el lenguaje que necesitas o tal vez no, cualquiera de las dos respuestas está perfectamente bien.
+
+Pero no negaré que aprender Rust es más complicado que aprender Go, o aprender Python, incluso me atrevo a decir que es más complicado aprenderlo que C, por otro lado es más fácil escribir mal código en C que en Rust.
+
+Hasta ahora, pareciera que estoy quejándome de las decisiones tomadas al diseñar este lenguaje, pero no, solo estoy exponiendo las partes con las que tuve un poco más de fricción, pero, tomando en cuenta lo amplio que es el lenguaje, podrás darte cuenta que realmente es una mínima parte.
+
+La mayor parte de la sintaxis de Rust es bastante sencilla, y algunas de las cosas con las que tienes que lidiar, te ahorran los dolores de cabeza de tener que depurar fugas de memoria o punteros nulos, lo cual es un intercambio interesante.

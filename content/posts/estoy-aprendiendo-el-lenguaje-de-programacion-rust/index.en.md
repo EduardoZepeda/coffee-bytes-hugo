@@ -215,6 +215,10 @@ Rust is not exaggeratedly difficult, there are languages that are more complicat
 
 But I won't deny that learning Rust is more complicated than learning Go, or learning Python, I even dare to say that it is more complicated to learn than C, on the other hand it is easier to write bad code in C than in Rust.
 
+### Rust is elegant but other languages are simpler
+
+Certainly Rust is one of the most elegant languages out there, however sometimes productivity and convenience are preferred over beauty and elegance, even big [companies like Typescript preferred Go over Rust for its compiler](https://github.com/microsoft/typescript-go/discussions/411#?). You have to ask yourself the same question regardless of the result, Rust can be the language you need or maybe not, either answer is perfectly fine.
+
 So far, it seems that I am complaining about the design traits of the language, but no, I am only exposing the parts that challenged me the most, but, taking into account how big is the language, you will be able to realize that was really a minimum part.
 
 Most of Rust's syntax is pretty straightforward, and some of the things you have to deal with, save you the headaches of having to debug memory leaks or null pointers, which is an interesting tradeoff.
