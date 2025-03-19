@@ -191,6 +191,10 @@ Rust cuenta con su propia biblia, llamada ["The Rust book", disponible en múlti
 
 Si leer un libro grueso no es tu estilo y prefieres una educación de primera, educative tiene [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr#?) por menos del precio de una comida bien servida.
 
+### Platzi
+
+Platzi es de los pocos [cursos en español de Rust](https://platzi.com/r/eduardo-zepeda#?), sin embargo te seré sincero, no tengo idea de que tan buenos sean porque esos no los he tomado.
+
 ### Canales de youtube para aprender Rust
 
 También encontré que los videos de [Code to the Moon (en inglés)](https://www.youtube.com/@codetothemoon), son bastante sencillos de entender y el autor del canal explica muy bien los conceptos de Rust.
