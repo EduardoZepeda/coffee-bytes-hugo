@@ -299,4 +299,12 @@ ip
 
 The ip command has many options that I suggest you review calmly, use the man command if you want to delve deeper into the functionalities.
 
+## netstat
+
+This command shows multiple information regarding the system networks, a very useful application is to find out which processes (PID) are using a certain port, to do this just run the following:
+
+``` bash
+netstat -tulpn
+```
+
 As I'm sure you already know, many important commands have been missing, I haven't placed them here so as not to make the reading so tedious, get up, stretch a bit, get something to drink and [skip to my second part of the basic GNU Linux commands](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) for the second part.

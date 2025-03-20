@@ -300,4 +300,12 @@ ip
 
 El comando ip tiene muchas opciones que te sugiero que revises con calma, usa el comando man si quieres ahondar más en las funcionalidades.
 
+## netstat
+
+Este comando muestra múltiple información respecto a las redes del sistema, una aplicación bastante útil es averiguar que procesos (PID) están usando determinado puerto, para esto basta ejecutar lo siguiente:
+
+``` bash
+netstat -tulpn
+```
+
 Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) para la segunda parte.
