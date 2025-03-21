@@ -10,7 +10,7 @@ categories:
 - opiniones
 coverImage: images/buenDisenoAPIREST.jpg
 date: '2022-04-28'
-description: "Buenas prácticas de una API REST, como estructurarla, versionarla, actualizarla, limitar su acceso y anidar los recursos en las URI, de acuerdo a Facebook, Twitter y otros grandes jugadores de las API en JSON"
+description: "La guía definitiva para el diseño de API REST y las mejores prácticas. Aprenda a crear API escalables, seguras y eficientes que encanten a los desarrolladores. Desde la estructura del endpoint, versionarlo, actualizarlo, políticas de estrangulamiento y anidar recursos en URIs."
 keywords:
 - arquitectura de software
 - opinion

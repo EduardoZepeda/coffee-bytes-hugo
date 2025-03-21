@@ -7,7 +7,7 @@ categories:
 - "software architecture"
 - "opinions"
 coverImage: "images/buenDisenoAPIREST.jpg"
-description: "Good practices for designing a REST API, how to version it, update it and nest resources in URIs."
+description: "Ultimate guide to REST API design and best practices! Learn how to build scalable, secure, and efficient APIs that developers love. From endpoint structure, version it, update it, throttling policies and nest resources in URIs."
 keywords:
 - software architecture
 - opinion

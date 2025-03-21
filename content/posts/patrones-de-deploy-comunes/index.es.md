@@ -9,7 +9,7 @@ categories:
 coverImage: images/deploy-patterns-to-test-new-functionalities.jpg
 coverImageCredits: Image by Tsutomu Nihei --niji 5
 date: '2023-08-18'
-description: Te explico algunos patrones de deploy comunes
+description: Domina el arte del despliegue con esta inmersión profunda en patrones como canary, blue-green, dark launch y A/B testing. Aprenda a desplegar actualizaciones sin problemas, minimizar los riesgos y ofrecer experiencias de usuario fluidas. 
 keywords:
 - devops
 - patrones de diseño
