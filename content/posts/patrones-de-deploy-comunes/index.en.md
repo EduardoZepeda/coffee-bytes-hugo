@@ -6,7 +6,7 @@ categories:
 
 coverImage: "images/deploy-patterns-to-test-new-functionalities.jpg"
 coverImageCredits: "Image by Tsutomu Nihei --niji 5"
-description: "Master the art of deployment with this deep dive into patterns like canary, blue-green, dark launch, and A/B testing! Learn how to roll out updates smoothly, minimize risks, and deliver seamless user experiences. "
+description: "Master the art of deployment with this deep dive into these handy patterns like canary, blue-green, dark launch, and A/B testing! Learn how to roll out updates smoothly, minimize risks, and deliver smooooth user experiences. "
 keywords:
 - devops
 - design patterns
