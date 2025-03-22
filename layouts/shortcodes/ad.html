@@ -48,6 +48,13 @@
      padding: 12px 32px;
      border-radius: 4px;
 }
+
+  .affiliate-shadow {
+    box-shadow: 7px 6px 39px -15px rgba(46,46,46,0.75);
+    -webkit-box-shadow: 7px 6px 39px -15px rgba(46,46,46,0.75);
+    -moz-box-shadow: 7px 6px 39px -15px rgba(46,46,46,0.75);
+  }
+
  @media (max-width: 720px) {
      .affiliate-link-button{
          padding: 8px 24px;
@@ -75,12 +82,12 @@
       <div><p>{{$ad.description}}</p></div>
       {{ if $ad.imageSrc }}
         <div>
-        <a rel="nofollow sponsored" id="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
+        <a rel="nofollow sponsored" id="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img affiliate-shadow" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
         </div>
       {{ end }}
         <div>
-          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-lg" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
-          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-sm" aria-label="Amazon link" href="{{$ad.link}}">{{ T "amazonLink"}}</a>
+          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-lg affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
+          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-sm affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{ T "amazonLink"}}</a>
 
         </div>
       </div>
