@@ -71,7 +71,7 @@ weight = 6
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Tutorials and acid opinions about web development, programming and technology"
+description = "Web development blog where thoughts, opinions, rants, memes and tutorials coexist. AI generated posts are NOT allowed here."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
@@ -147,7 +147,7 @@ weight = 6
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Artículos, opiniones ácidas y tutoriales sobre programación web, desarrollo y tecnología"
+description = "Blog de desarrollo web donde coexisten pensamientos, opiniones, desvaríos, memes y tutoriales. Los posts generados por IA NO están permitidos aquí."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
