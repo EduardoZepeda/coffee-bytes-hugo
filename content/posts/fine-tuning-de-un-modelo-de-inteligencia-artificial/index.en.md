@@ -13,9 +13,9 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-I tried to fine-tune a DeepSeek model but failed, then I tried to do it with Llama and I couldn't make it work, finally I managed to do it with a Mistral model, specifically the 7B parameter model. 
+I tried to fine-tune a DeepSeek model but I failed, then I tried to do it with Llama and I couldn't make it work, finally I succeeded with a Mistral model, specifically the 7B parameter model. 
 
-I share with you my notes and some resources that I found useful during the process. 
+I felt completely lost, lots of tutorials but none seemed to work, hence I decided to share with my readers my notes and some resources that I found useful during the process. 
 
 Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/).
 
