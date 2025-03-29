@@ -23,7 +23,7 @@ authors:
 description: 'Docker containers rely on certain Linux features to function: Processes, namespaces, Cgroups and Chroot to achieve an isolated environment'
 ---
 
-Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands](/en/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
+Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands](/en/the-most-useful-and-basic-docker-commands/) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
 
 We know that a container is a linux process with several characteristics:
 

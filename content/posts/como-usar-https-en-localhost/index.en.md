@@ -64,7 +64,7 @@ Finally just run *caddy run*, or *caddy start* if you want a process running in 
 
 If you get a permission denied error while trying to run caddy, it is because Linux prevents non-root processes from listening on major ports such as 443 or 80.
 
-To allow caddy to listen on those ports and allow [linux to assign the required permissions](/en/understand-permissions-on-gnu-linux-and-command-chmod/), run the following command.
+To allow caddy to listen on those ports and allow [linux to assign the required permissions](/en/understand-permissions-in-gnu-linux-and-the-chmod-command/), run the following command.
 
 
 ``` bash
@@ -80,4 +80,4 @@ caddy stop
 caddy start
 ```
 
-Afterwards you should be able to access your-sub-domain.localhost or your-sub-domain.localhost:443 via *https* in your browser, [the curl command](/en/basic-commands-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) or whatever tool you prefer to use.
+Afterwards you should be able to access your-sub-domain.localhost or your-sub-domain.localhost:443 via *https* in your browser, [the curl command](/en/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/) or whatever tool you prefer to use.
