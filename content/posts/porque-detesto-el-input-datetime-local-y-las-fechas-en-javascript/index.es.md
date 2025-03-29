@@ -60,7 +60,7 @@ Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de prog
 
 ## Algunas librerías para manejar fechas en Javascript
 
-What to use to handle date with Javascript? Well you can give it a try to these libraries
+¿Qué usar para manejar fechas en Javascript? Varias opciones disponibles, pero probablemente las más usadas y robustas sean estas.
 
 - [Tempo](https://tempo.formkit.com/#?)
 - [Momentjs](https://momentjs.com/#?)
