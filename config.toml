@@ -253,6 +253,10 @@ script-src = [
   "*.googletagmanager.com",
   "https://unpkg.com/@iconify-json/logos@1/icons.json",
   "data: pagead2.googlesyndication.com storage.googleapis.com googleads.g.doubleclick.net ajax.googleapis.com",
+  "https://cdn.jsdelivr.net/npm/sweetalert2@11",
+  "https://unpkg.com/htmx.org@2.0.4",
+  "https://unpkg.com/htmx-ext-head-support@2.0.2",
+  "https://unpkg.com/lunr/lunr.js",
 ]
 style-src = ["'self'", "'unsafe-inline'"]
 
