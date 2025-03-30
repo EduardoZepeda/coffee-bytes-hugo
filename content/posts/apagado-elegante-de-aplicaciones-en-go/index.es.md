@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - go
+- linux y devops
 coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
 date: 2022-10-06
 title: 'Go: Manejo de Signals para Cerrar Aplicaciones'

@@ -4,7 +4,7 @@ date: "2022-10-06"
 coverImage: "images/go-manejo-signals-para-cerrar-aplicaciones.jpg"
 categories:
 - go
-
+- linux and devops
 authors:
 - Eduardo Zepeda
 ---
