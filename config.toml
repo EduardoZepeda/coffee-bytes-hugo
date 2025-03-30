@@ -71,12 +71,12 @@ weight = 6
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Web development blog where thoughts, opinions, rants, memes and tutorials coexist. AI generated posts are NOT allowed here."
+description = "Web development blog where thoughts, opinions, rants, memes and tutorials coexist. When it comes to posts we prefer human made content."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "<div style='text-align:justify;'>I'm looking to connect with some like-minded devs, if you're into digital nomadism, freelancing, solopreneur, feel free to add me to <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>Elon's propaganda machine</a></div>"
+followDescription = "<div style='text-align:justify;'>I'm looking to connect with some like-minded devs. If you're into digital nomadism, freelancing, solopreneur-ship, let's connect on <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>Elon's propaganda machine</a></div>"
 followRequestDelay = 35
 followTitle = "Want to connect!?"
 modalcountdown = 35
@@ -150,7 +150,7 @@ weight = 6
 GoogleTagManager = "GTM-5F4NMW3"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Blog de desarrollo web donde coexisten pensamientos, opiniones, desvaríos, memes y tutoriales. Los posts generados por IA NO están permitidos aquí."
+description = "Blog de desarrollo web donde coexisten pensamientos, opiniones, desvaríos, memes y tutoriales. Cuando se trata de posts, prefiero los hechos por humanos."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
