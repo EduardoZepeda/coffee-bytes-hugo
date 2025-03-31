@@ -78,7 +78,7 @@ HideAds = false
 disablesearch = false
 followDescription = "<div style='text-align:justify;'>I'm looking to connect with some like-minded devs. If you're into digital nomadism, freelancing, solopreneur-ship, let's connect on <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>Elon's propaganda machine</a></div>"
 followRequestDelay = 35
-followTitle = "Want to connect!?"
+followTitle = "Hey, want to connect!?"
 modalcountdown = 35
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
 prePostAffiliateLink = ""
@@ -264,8 +264,7 @@ script-src = [
   "https://unpkg.com/htmx-ext-head-support@2.0.2",
   "https://unpkg.com/lunr/lunr.js",
 ]
-style-src = ["'self'", "'unsafe-inline'"]
-
+style-src = ["'self'", "'unsafe-inline'", "https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css"]
 [caches]
 [caches.images]
 dir = ':resourceDir/_gen'
