@@ -139,7 +139,19 @@ The other type is SSE or Server Sent Events, which does *POST* request streaming
 
 ## The MCP protocol is stateful 
 
-Another aspect worth noting is that, to date, [the protocol requires a persistent connection between client and server](https://github.com/modelcontextprotocol/specification/discussions/102#?), so this can be a drawback for auto-scalable architectures that adapt to demand, as well as moving in the opposite direction in a world that is striving to become stateless. 
+Another aspect worth noting is that, to date, [the protocol requires a persistent connection between client and server](https://github.com/modelcontextprotocol/specification/discussions/102#?), so this can be a drawback for auto-scalable architectures that adapt to demand, as well as moving in the opposite direction in a world that is striving to become stateless.
+
+Just as a reminder:
+
+| Aspect          | Stateless Application                                                                     | Stateful Application                           |
+| --------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Server State    | No stored client state between requests                                                   | Maintains client state across requests         |
+| Session Data    | Client-side storage (e.g., cookies, tokens)                                               | Server-side storage (e.g., session DB, memory) |
+| Scalability     | Horizontally scalable (no affinity needed)                                                | Requires sticky sessions or state replication  |
+| Complexity      | Simpler to implement and scale                                                            | More complex due to state management           |
+| Fault Tolerance | Resilient (failed requests can go to any server)                                          | Vulnerable to server failures                  |
+| Examples        | [REST APIs (when properly designed), HTTP/HTTPS](/en/rest-api-best-practices-and-design/) | Traditional monoliths, WebSocket apps          |
+
 
 At the moment it is a matter of debate whether it will stay that way, there is no certainty whether stateless versions will be implemented or if there will be changes to it. After all, this protocol is new and who knows what the future holds for the AI world, giants can rise and fall in months, [as Devin AI](/en/devin-ai-the-supposed-replacement-for-programmers/) and Rabbit R1 did.
 

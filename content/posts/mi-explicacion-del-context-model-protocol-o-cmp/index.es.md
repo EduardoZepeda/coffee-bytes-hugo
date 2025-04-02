@@ -141,6 +141,17 @@ El otro tipo es SSE o Server Sent Events, el cual realiza streaming de peticione
 
 Otro aspecto a destacar, es que, a la fecha, [el protocolo requiere una conexión persistente entre cliente y servidor](https://github.com/modelcontextprotocol/specification/discussions/102#?), por lo que puede ser complicado para arquitecturas autoescalables que se adaptan a la demanda, además de ir completamente en contra de la corriente en un mundo que se esmera en volverse stateless. 
 
+Solo para refrescar tu memoria:
+
+| Aspecto             | Aplicación Stateless (Sin Estado)                                                                 | Aplicación Stateful (Con Estado)                          |
+| ------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Estado del Servidor | No almacena estado del cliente entre solicitudes                                                  | Mantiene estado del cliente entre solicitudes             |
+| Datos de Sesión     | Almacenamiento en el cliente (ej. cookies, tokens)                                                | Almacenamiento en el servidor (ej. BD de sesión, memoria) |
+| Escalabilidad       | Escalabilidad horizontal (sin afinidad requerida)                                                 | Requiere sesiones persistentes o replicación de estado    |
+| Complejidad         | Más simple de implementar y escalar                                                               | Más compleja debido a la gestión del estado               |
+| Tolerancia a Fallos | Resiliente (las solicitudes pueden ir a cualquier servidor)                                       | Vulnerable a fallos del servidor                          |
+| Ejemplos            | [APIs REST (diseñadas correctamente), HTTP/HTTPS](/es/buenas-practicas-y-diseno-de-una-api-rest/) | Aplicaciones monolíticas tradicionales, WebSockets        |
+
 Por ahora es una discusión si permanecerá así, se implementarán versiones stateless o si habrá cambios al respecto. Después de todo este protocolo es nuevo y quien sabe que vaya a pasar en el futuro en el mundo de la AI, para ejemplos tenemos casos [como el de Devin AI](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/) y Rabbit R1.
 
 Si quieres saber más dale una leída a la [documentación oficial del Model Context Protocol](https://github.com/modelcontextprotocol) y [la introducción al MCP](https://www.anthropic.com/news/model-context-protocol)
