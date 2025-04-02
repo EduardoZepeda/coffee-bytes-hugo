@@ -3,21 +3,20 @@ title: "Go: package import and module management"
 date: "2022-01-12"
 categories:
 - go
-
 coverImage: "images/Golang-paquetes-y-modulos.jpg"
 description: "Learn the basics of importing packages and handling modules in the go programming language. Master the go init method and the go.mod file."
+keyword: go modules
 keywords:
 - go
-
 authors:
 - Eduardo Zepeda
 ---
 
 In go **you can consider a package as all the files contained in a directory and a module as a collection of packages**. To use the code of a package we need to import it, however, in Go there are no relative module imports. Before Go 1.8, to import packages (there were no modules) it was necessary to use the absolute path, considering as base the path pointed to by the environment variable $_GOPATH_ or. Since Go 1.11, the easiest way to work with packages is to use go mod. I will explain the latter.
 
-![Differences between modules and packages in go](images/modulo-y-paquetes-en-go.png)
+![Differences between modules and packages in go](https://res.cloudinary.com/dwrscezd2/image/upload/v1743574346/coffee-bytes/package-vs-modules-go_u2yrue.png "In Go, a module is a collection of packages")
 
-Difference between modules and packages in go
+Difference between modules and packages in go, in Go a module is just a collection of packages.
 
 ### Defining the name of a package in Go
 
@@ -37,11 +36,13 @@ type Videogame struct {
 }
 ```
 
-Remember that the [struct privacy rules](/en/go-structs-inheritance-polymorphism-and-encapsulation/) say that in order for us to access a _struct_ or its properties, from another package to where it was declared, we must use uppercase.
+Remember that the [Go struct privacy rules](/en/go-structs-inheritance-polymorphism-and-encapsulation/) say that in order for us to access a _struct_ or its properties, from another package to where it was declared, we must use uppercase.
+
+I know, it is one of the things that I abhor about Go's language, not enough for me to abandon it, but pretty cumbersone in my opinion, what if you need to debug one? welcome to regexland.
 
 Once created, we will end up with a structure similar to this one
 
-![Project file structure, a folder called videogame, with a file of the same name inside](images/goModule.png)
+![Project file structure, a folder called videogame, with a file of the same name inside](images/goModule.png "Project file structure, a folder called videogame, with a file of the same name inside")
 
 Localization of the main file and our module in go
 
@@ -51,9 +52,7 @@ Localization of the main file and our module in go
 
 A go.mod file **defines a module and allows us to set the directory that we will use as a base to import the packages**.
 
-![go.mod file in the root of the project](images/goModFile.png)
-
-go.mod file containing the module name
+![go.mod file at the root of the project](images/goModFile.png "go.mod file at the root of the project")
 
 In the above example the _go.mod_ file will allow us to treat the _videogame_ path as a package and import code from the _mymodule/videogame_ path.
 
@@ -67,7 +66,7 @@ module mymodule
 go 1.15
 ```
 
-### Create a go.mod file
+### How to create a go.mod file?
 
 The _go mod init_ command, followed by the name it will take as the base path for our package, will create a file named _go.mod_ in the directory where we run it.
 
@@ -137,7 +136,7 @@ On the other hand, go install **does not download code**, but compiles a module 
 go install sigs.k8s.io/kind@v0.9.0
 ```
 
-Go install will generally be used to install commands.
+Go install will generally be used to install commands which we'll be available for us to use.
 
 ### Import remote packages in go
 
@@ -157,7 +156,7 @@ import (
 )
 ```
 
-## Aliases when importing packages
+## Define an aliases when importing packages in Go
 
 Go also allows us to declare an alias when importing a package by prefixing the alias to the import path.
 
@@ -173,7 +172,7 @@ import ourAlias "mypackage/videogame"
 var vd = ourAlias.Videogame{Id: 1, Title: "hello"}
 ```
 
-### Imports with dot
+### Imports with dot in Go
 
 Go allows direct access to the contents of the package if we import using a dot as alias. In this way we can ignore the package name and directly access the objects it contains.
 
@@ -183,11 +182,8 @@ import . "mypackage/videogame"
 var vd = Videogame{Id: 1, Title: "hello"}
 ```
 
-## Bookstores in Go
-
-If you are looking for libraries to speed up the development of a project, there is a directory of frameworks, libraries and utilities at [Awesome go](http://awesome-go.com/), there are resources for everything from GUI, ORMs, web frameworks, machine learning and everything you can imagine.
-
 ## Other resources
 
-* [Sobre la variable $GOPATH y su configuración](https://www.digitalocean.com/community/tutorials/understanding-the-gopath-es)
-* [Sobre imports (en inglés)](https://scene-si.org/2018/01/25/go-tips-and-tricks-almost-everything-about-imports/)
+* [Libraries to speed-up development](http://awesome-go.com/#?)
+* [Sobre la variable $GOPATH y su configuración](https://www.digitalocean.com/community/tutorials/understanding-the-gopath-es/#?)
+* [Sobre imports (en inglés)](https://scene-si.org/2018/01/25/go-tips-and-tricks-almost-everything-about-imports/#?)
