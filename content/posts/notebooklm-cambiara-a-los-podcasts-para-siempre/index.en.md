@@ -16,13 +16,13 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-I just tried Google Notebooklm, and this feeling of novelty and excitement took over my mind; like when a child receives what he asked for for Christmas, with the difference that I didn't ask for this tool to exist, but here it is anyway.
+I just tried Google Notebooklm, and this feeling of novelty and excitement took over my mind. Similar to a child receives what he asked for for Christmas. However, I didn't ask for this tool to exist, but here it is anyway.
 
-## Notebooklm lets you create a podcast from your notes
+## Google Notebooklm lets you create a podcast from your notes
 
 You've probably already heard of this tool, and if you haven't, I'll explain below. 
 
-Google Notebooklm is an AI tool that becomes an expert in your notes and helps you, but this is not what has left me speechless, but its tool that transforms your notes into a conversation between two people, for now only available in English language and I'll show you right now the result.
+Google Notebooklm is an AI tool that becomes an expert in your notes and helps you. But the latter is not what has left me speechless. It is its tool that transforms your notes into a conversation between two people. Right now is only available in English language. But let me show you the results right now.
 
 ![People often prefer audio-visual content over text](images/podcast-meme-5-minutes.jpg "People often prefer audio-visual content over text")
 
@@ -32,17 +32,19 @@ I generated this podcast using my post about [the problem of using github to eva
 
 You can create yours at [Google Nootebooklm's site](https://notebooklm.google/#?)
 
-Google has done an excellent job, please appreciate the tone, the clean audio, and even added a few crutches and the occasional hesitant pause to give it a slight touch of naturalness and realism. Not bad for a [black box made of code that is not yet conscious](/en/chat-gpt-searles-chinese-room-and-consciousness/) don't you think?
+Google has done an excellent job with this tool. Please appreciate the tone, the clean audio. There are even a few crutches and occasional hesitant pauses to give it a slight touch of naturalness and realism. Not bad for a [black box made of code that is not yet conscious](/en/chat-gpt-searles-chinese-room-and-consciousness/) don't you think?
 
 {{<ad>}}
 
-## Will Notebooklm and the other models replace podcasts?
+## Will Google Notebooklm and the other models replace podcasts?
 
 This is the inevitable question (and its variants) whenever there is a significant progress in the field of artificial intelligence models: [Is Devin AI going to replace developers?](/en/devin-ai-the-supposed-replacement-for-programmers/) or is it just one more symptom of the [AI bubble we are witnessing?](/en/the-rise-and-fall-of-the-ai-bubble/).
 
 I don't think it's that simple, the interesting thing about this is trying to fit it into this colossal puzzle of AI models rising up in front of us right now.
 
-Just bear with me for a second, eleven labs can convert text to different voices, Notebooklm is able to transform notes into a podcast, Lumalabs or Pika can transform images into video. Can you visualize it yet? A complete podcast, with customizable voices and faces, in video, hardly distinguishable from a "real" podcast.
+Just bear with me for a second. Eleven labs can convert text to different voices. While Notebooklm is able to transform notes into a podcast. Lumalabs or Pika can transform images into video. 
+
+Can you visualize it yet? A complete podcast, with customizable voices and faces, in video, hardly distinguishable from a "real" podcast.
 
 ## A future of commoditized AI-created podcasts awaits us.
 

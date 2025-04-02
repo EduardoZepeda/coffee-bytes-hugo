@@ -76,7 +76,9 @@ graph TD;
 
 Lo importante a recordar aquí es que los motores de búsqueda no tienen una manera de reconocer fácilmente que una entrada es exactamente la misma que otra si ha cambiado de ubicación, sobre todo si esta migración conlleva cambios ligeros en la página. Si bien es cierto que Google puede detectar contenido duplicado y es capaz de renderizar una página web, eso no significa que "vea" las entradas de manera visual, como un humano lo haría, en sus entrañas sigue recibiendo y analizando texto en forma de HTML.
 
-¿Cómo pude haber evitado esa caida de tráfico? Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? retornando una respuesta HTTP 302 o 308, Found or Permanent redirect, respectivamente.
+### ¿Cómo pude haber evitado esa caida de tráfico?
+
+Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? [retornando una respuesta HTTP 302 o 308](/es/caracteristicas-basicas-de-una-api-rest/), Found or Permanent redirect, respectivamente.
 
 ### La ausencia del marcado de datos estructurados o Schema 
 
@@ -90,7 +92,7 @@ Cuando usaba Wordpress el plugin Yoast se encargaba del marcado de datos estruct
 
 Esa es la trágica historia de como disminuí mi tráfico siendo un lego en el SEO. 
 
-Pero tras este incidente hay un final feliz, pues me puse a leer al respecto y aprendí muchísimas cosas que puse en práctica, ahora mismo el sitio web no está al nivel que estaba antes pero se dirige hacía allá y lo mejor es que ahora sí sé lo que estoy haciendo.
+Pero tras este incidente hay un final feliz, pues me puse a leer y ver videos al respecto y aprendí muchísimas cosas que puse en práctica, ahora mismo el sitio web no está al nivel que estaba antes pero se dirige hacía allá y lo mejor es que ahora sí sé lo que estoy haciendo.
 
 No me había dado la oportunidad de tocar este tema en el blog, porque semánticamente está bastante alejado de lo que la mayoría de devs entiende por desarrollo web, aunque realmente no lo sea. 
 

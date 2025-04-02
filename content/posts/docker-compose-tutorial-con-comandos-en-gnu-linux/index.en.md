@@ -8,6 +8,7 @@ categories:
 coverImage: "images/DockerCompose.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/es-es/@felixmittermeier/"
 description: "In this Docker compose tutorial I explain the most common commands, as well as the structure and creation of a docker-compose.yml file."
+keyword: docker compose
 keywords:
 - docker
 - docker compose

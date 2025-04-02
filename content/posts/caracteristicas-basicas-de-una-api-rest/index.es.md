@@ -14,6 +14,7 @@ date: '2022-04-07'
 description: Cuáles son las características de una API REST? ¿Qué debo hacer para
   crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS?
   ¿uso mayúsculas o minúsculas en la url?
+keyword: API REST
 keywords:
 - REST
 - arquitectura de software

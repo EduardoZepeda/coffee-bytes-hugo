@@ -211,12 +211,10 @@ startLevel = 2
 # id tag in table content don't work unluess they're unaccented
 # github-ascii allows only ascii characters which are unaccented
 autoHeadingIDType = 'github-ascii'
-
 [taxonomies]
 author = "authors"
 category = "categories"
 tag = "tags"
-
 [params.csp]
 child-src = ["'self'"]
 font-src = ["*"]
