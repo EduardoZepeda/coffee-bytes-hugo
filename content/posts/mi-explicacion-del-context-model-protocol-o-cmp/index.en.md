@@ -111,6 +111,8 @@ export async function listCommits(
 
 So far I have been talking about resources and actions, but in the CMP these two actions which are in charge of giving context to an LLM have names. Of course they were not going to miss the opportunity to give some branding to their protocol.
 
+{{<ad>}}
+
 ## Context types: Resources and Tools in the Model Context Protocol
 
 The MCP context types are divided into:

@@ -111,6 +111,8 @@ export async function listCommits(
 
 Hasta ahora he estado hablando de recursos y acciones, pero en el MCP estas dos acciones que se encargan de darle contexto a un LLM tienen nombres, por supuesto no iban a perder la oportunidad de darle branding a su protocolo.
 
+{{<ad>}}
+
 ## Tipos de contexto: Resources y Tools
 
 Los tipos de contexto del MCP se dividen en:
