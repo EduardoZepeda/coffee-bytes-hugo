@@ -107,7 +107,8 @@
 
     const response = await fetch("/data/ads.json")
     const adsData = await response.json()
-    const affiliateLinks = document.querySelectorAll(".affiliate-link")
+    const affiliateLinks = document.querySelectorAll(".affiliate-link-button")
+    console.log(affiliateLinks)
     affiliateLinks?.forEach((link)=>{
       // Every link as its category as id
       // Only link is replaced for now
@@ -118,7 +119,7 @@
   
   // <!--This will trigger only if language is spanish and the timezone is Mexico
   // for now this constraint should be enough-->
-  if(Intl.DateTimeFormat().resolvedOptions().timeZone==="America/Mexico_City" && "{{ $lang }}"==="es"){
+  if(Intl.DateTimeFormat().resolvedOptions().timeZone==="America/Mexico_City" && document.querySelector("html").getAttribute("lang")==="es"){
     try {
       updateLinkToMx()
     } catch(e){
