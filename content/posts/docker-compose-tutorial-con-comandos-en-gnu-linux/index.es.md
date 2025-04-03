@@ -36,13 +36,13 @@ Si quieres refrescar tu memoria visita mi [tutorial de comandos básicos de Dock
 
 ## ¿Qué es docker compose?
 
-Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples contenedores de Docker. En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
+Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples [contenedores de Docker](/es/que-es-docker-y-para-que-sirve/). En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
 
 Docker-compose está programando usando el [lenguaje de programación go o golang](/es/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/); el mismo con lenguaje con el que [funcionan internamente los containers de go](/es/container-de-docker-con-namespaces-y-cgroups/).
 
 ## Estructura de un archivo docker-compose.yml
 
-Así como existían los Dockerfile en Docker, donde configurabas el estado de un contenedor de manera declarativa, en Docker compose existe un equivalente: los archivos yml.
+Así como existían los [Dockerfile en Docker](/es/como-escribir-un-archivo-de-dockerfile-desde-cero/), donde configurabas el estado de un contenedor de manera declarativa, en Docker compose existe un equivalente: los archivos yml.
 
 Antes de empezar con los comandos vamos a explicar la estructura de un archivo de configuración de docker-compose y algunas directrices comunes.
 
@@ -71,7 +71,7 @@ Un archivo de docker-compose empieza **especificando la versión de docker compo
 
 Después de la versión vienen anidada la sección de services. Puede haber tantos servicios como querramos; framework web, servidor web, base de datos, documentación, cache, etc. Cada servicio contará con sus propias variables de configuración y sus respectivos valores. Es todo, así de sencillo.
 
-### Nombres de servicios
+### Como referenciar nombres de servicios en docker compose
 
 El nombre que usemos para cada servicio en nuestro archivo yml nos servirá como una referencia para su uso en otros servicios.
 
@@ -108,8 +108,6 @@ services:
 ### build
 
 En el caso de que necesitamos una imagen personalizada probablemente será mejor usar un Dockerfile. La opción build nos permite indicar el directorio donde este se encuentra. 
-
-Si no sabes que es un Dockerfile acá te explico [como funciona y para que sirve Docker.](/es/que-es-docker-y-para-que-sirve/)
 
 ```docker
 version: "3.8"

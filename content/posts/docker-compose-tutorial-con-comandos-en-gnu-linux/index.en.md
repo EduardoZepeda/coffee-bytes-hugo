@@ -27,17 +27,17 @@ Docker compose allows us to create applications with multiple containers, these 
 
 ## What is docker compose?
 
-Docker compose is a tool that allows you to manage applications consisting of multiple Docker containers. Instead of having multiple Dockerfiles and be running and linking one by one with Docker, we define a docker-compose.yml file with the configuration we want and run it, this will create all the necessary services of our application. It also works in development, production, staging or testing environments, as well as with continuous integration services.
+Docker compose is a tool that allows you to manage applications consisting of multiple [Docker containers](/en/what-is-docker-and-what-is-it-for/). Instead of having multiple Dockerfiles and be running and linking one by one with Docker, we define a docker-compose.yml file with the configuration we want and run it, this will create all the necessary services of our application. It also works in development, production, staging or testing environments, as well as with continuous integration services.
 
-Docker-compose is programming using the [go or golang programming language](/en/go-programming-language-introduction-to-variables-and-data-types/); the same language that [go containers run internally](/en/how-does-a-docker-container-work-internally/).
+Docker-compose is programming using the [go or golang programming language](/en/go-programming-language-introduction-to-variables-and-data-types/); the same language that [go containers use to run internally](/en/how-does-a-docker-container-work-internally/).
 
-Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django, with which you can get a django application production-ready in minutes](/en/cookiecutter-django-for-configuring-and-deploying-in-django/).
+Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django](/en/cookiecutter-django-for-configuring-and-deploying-in-django/) or any other modern API that don't want to deal with the hassle of handling different environments.
 
 {{<ad>}}
 
 ## Structure of a docker-compose.yml file
 
-Just as Dockerfile existed in Docker, where you configured the state of a container in a declarative way, in Docker compose there is an equivalent: yml files.
+Just as the concept of a [Dockerfile existed in Docker](/en/how-to-write-a-docker-file-from-scratch/), where you configured the state of a container in a declarative way, in Docker compose there is an equivalent: yml files.
 
 Before we start with the commands let's explain the structure of a docker-compose configuration file and some common guidelines.
 
@@ -66,7 +66,7 @@ A docker-compose file starts by **specifying the version of docker compose** to 
 
 The services section is nested after the version. There can be as many services as we want; web framework, web server, database, documentation, cache, etc. Each service will have its own configuration variables and their respective values. That's all, as simple as that.
 
-### Service names
+### How to reference services' names in docker compose?
 
 The name we use for each service in our yml file will serve as a reference for its use in other services.
 
@@ -85,9 +85,7 @@ DATABASES = {
 
 ## Configuration options in docker compose
 
-The customization of a docker-compose.yml file depends on its configuration options, these will tell each of the services how to behave.
-
-There are many configuration variables, which you can consult in the [official Docker documentation](https://docs.docker.com/compose/compose-file/) So that you don't have to read them all, here are some of the most important ones.
+There are many configuration variables, which you can consult in the [official Docker documentation](https://docs.docker.com/compose/compose-file/), but since you're already here, trust me, you don't have to read them all, I'll let you know the most useful ones.
 
 ### image
 
@@ -102,9 +100,7 @@ services:
 
 ### build
 
-In case we need a custom image it will probably be better to use a Dockerfile. The build option allows us to indicate the directory where it is located.
-
-If you don't know what a Dockerfile is, here I explain [how it works and what Docker is for](/en/what-is-docker-and-what-is-it-for/)
+In case we need a custom image, however it would be better to use a Dockerfile. The build option allows us to indicate the directory where it is located.
 
 ```docker
 version: "3.8"
@@ -150,9 +146,9 @@ web:
     - "80:8000"
 ```
 
-In the code above, port 80 of our machine will correspond to port 8000 of the container. Remember, HOST:CONTAINER.
+In the code above, port 80 of our machine will correspond to port 8000 of the container. Remember, the syntax is <HOST:CONTAINER>
 
-We can also specify the udp or tcp protocol.
+We can also specify our desired protocol: UDP or TCP.
 
 ```docker
 version: "3.8"
@@ -181,7 +177,7 @@ services:
 
 Sometimes we want one of our services to run only after another. For example, for a web server to work properly, it is necessary to have a database that is already running.
 
-depends_on allows us to make the start of the execution of a service depend on others. In simpler words, it tells docker-compose that we want to start the web service **only if all other services have already been loaded.
+*depends_on* allows us to make the start of the execution of a service depend on others. In simpler words, it tells docker-compose that we want to start the web service **only if all other services have already been loaded.
 
 ```docker
 version: "3.8"
@@ -194,7 +190,7 @@ services:
       - redis
 ```
 
-In the above example docker-compose will run the web service only if the db and redis services are already available.
+In the above example docker-compose will run the web service **only if the db and redis services are already available**.
 
 ### environment
 
@@ -291,7 +287,7 @@ services:
       start_period: 40s
 ```
 
-### volumes
+### volumes in docker compose
 
 We can send parts of our operating system to a service using one or several volumes. For this we use the syntax HOST:CONTAINER. Host can be a location on your system or also the name of a volume you have created with docker.
 
