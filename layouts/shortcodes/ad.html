@@ -108,7 +108,6 @@
     const response = await fetch("/data/ads.json")
     const adsData = await response.json()
     const affiliateLinks = document.querySelectorAll(".affiliate-link-button")
-    console.log(affiliateLinks)
     affiliateLinks?.forEach((link)=>{
       // Every link as its category as id
       // Only link is replaced for now
