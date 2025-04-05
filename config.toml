@@ -98,7 +98,7 @@ languageCode = 'es'
 languageDirection = 'ltr'
 languageName = 'Español'
 [[languages.es.menu.main]]
-name = "Contrátame"
+name = "Trabajemos juntos"
 url = "/es/pages/trabajemos-juntos/"
 weight = 1
 [[languages.es.menu.main]]
