@@ -82,12 +82,13 @@
       <div><p>{{$ad.description}}</p></div>
       {{ if $ad.imageSrc }}
         <div>
-        <a rel="nofollow sponsored" id="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img affiliate-shadow" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
+        <a class="affiliate-link" rel="nofollow sponsored" category="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img affiliate-shadow" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
         </div>
       {{ end }}
         <div>
-          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-lg affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
-          <a rel="nofollow sponsored" id="{{.}}" class="affiliate-link-button affiliate-link-button-sm affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{ T "amazonLink"}}</a>
+          <a rel="nofollow sponsored" category="{{.}}" class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{$ad.linkText}}</a>
+          {{/*  Show shorter link according to media queries  */}}
+          <a rel="nofollow sponsored" category="{{.}}" class="affiliate-link affiliate-link-button affiliate-link-button-sm affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{ T "amazonLink"}}</a>
 
         </div>
       </div>
@@ -107,11 +108,11 @@
 
     const response = await fetch("/data/ads.json")
     const adsData = await response.json()
-    const affiliateLinks = document.querySelectorAll(".affiliate-link-button")
+    const affiliateLinks = document.querySelectorAll(".affiliate-link")
     affiliateLinks?.forEach((link)=>{
       // Every link as its category as id
       // Only link is replaced for now
-      let category = link?.getAttribute("id")
+      let category = link?.getAttribute("category")
       link.setAttribute("href", adsData["es-MX"][category]["link"])
     })
   }
