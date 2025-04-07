@@ -18,7 +18,7 @@ keywords:
 - python
 - go
 - opinion
-title: Python vs Go en 2024 ¿Qué lenguaje aprender?
+title: Python vs Go en 2025 ¿Qué lenguaje aprender?
 url: python-vs-go-cual-es-el-mejor-lenguaje-de-programacion
 ---
 

@@ -186,7 +186,7 @@ Toma en cuenta que **la caché basada en memoria (memcached, redis) es un métod
 
 A veces el cuello de botella es responsabilidad de terceros. Cuando envías un email o solicitas información de un tercero, no tienes manera de saber cuanto tiempo demorará tu solicitud, una conexión lenta o un servidor sobresaturado pueden mantenerte esperando por una respuesta. No tiene caso mantener al usuario esperando decenas de segundos por el envío de un correo electrónico, devuélvele una respuesta y transfiere el envío del correo electrónico a una cola para que se procese más tarde. [Celery](https://docs.celeryproject.org/en/stable/#?) es la opción más popular para hacerlo.
 
-¿No tienes idea de donde empezar?, tengo un par de entradas donde explico [como ejecutar tareas asíncronas con celery y django.](/es/celery-y-django-para-ejecutar-tareas-asincronas/)
+¿No tienes idea de donde empezar?, tengo un par de entradas donde explico [como ejecutar tareas asíncronas con celery y django.](/es/como-usar-django-framework-de-manera-asincrona-usando-celery/)
 
 ```python
 # myapp/views.py

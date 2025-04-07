@@ -216,7 +216,7 @@ Una opción para permitir la recompilación de bootstrap usando el preprocesador
 use_celery [n]: 
 ```
 
-Celery es un gestor de colas de tareas, es [ideal para procesos asíncronos como tareas muy costosas en tiempo](/es/celery-y-django-para-ejecutar-tareas-asincronas/); envíos de correos electrónicos, consultas en base de datos, cálculos matemáticos muy tardados, etc.
+Celery es un gestor de colas de tareas, es [ideal para procesos asíncronos como tareas muy costosas en tiempo](/es/como-usar-django-framework-de-manera-asincrona-usando-celery/); envíos de correos electrónicos, consultas en base de datos, cálculos matemáticos muy tardados, etc.
 
 ### Servidor de correo de pruebas
 

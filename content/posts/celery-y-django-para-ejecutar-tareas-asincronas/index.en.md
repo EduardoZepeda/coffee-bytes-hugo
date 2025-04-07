@@ -1,5 +1,7 @@
 ---
-title: "Celery and django to run asynchronous tasks"
+aliases:
+- /en/celery-and-django-to-run-asynchronous-tasks/
+title: How to use Django Framework asynchronously using Celery
 date: "2021-08-24"
 categories:
 - "django"
