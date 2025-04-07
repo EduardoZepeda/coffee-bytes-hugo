@@ -1,15 +1,18 @@
 ---
-title: "Debounce and Throttle in Javascript"
+aliases:
+- /en/debounce-and-throttle-in-javascript/
+title: Limit the execution of functions in JS with Debounce and Throttle
 date: "2022-03-23"
 categories:
 - "javascript"
 coverImage: "images/BounceYThrottleJavascript.jpg"
-description: "Explanation of debounce and throttle patterns applied to JavaScript, how they work and outline of how they work internally."
+description: Explanation of the debounce and throttle patterns, used to limit the unconscionable execution, especially in response to user events, of functions in Javascript and other programming languages.
 coverImageCredits: "Image credits to i7 from Pixiv: https://www.pixiv.net/en/users/54726558"
 keywords:
 - javascript
 - design patterns
-
+- throttling
+- debounce
 authors:
 - Eduardo Zepeda
 ---

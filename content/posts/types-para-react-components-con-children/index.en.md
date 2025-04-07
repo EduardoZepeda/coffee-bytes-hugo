@@ -1,5 +1,7 @@
 ---
-title: "Types for React components with children"
+aliases:
+- /en/types-for-react-components-with-children/
+title: What Types to use for React components with children
 date: "2021-10-19"
 categories:
 - "react"
@@ -8,7 +10,7 @@ categories:
 
 coverImage: "images/TypesChildrenTypescript.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/@tranmautritam/"
-description: "Three different ways to set types in typescript for components that receive children as a parameter in React."
+description: I show you three different ways to set types in Typescript for components that receive children as a parameter in the React framework.
 keywords:
 - react
 - typescript
@@ -18,6 +20,8 @@ keywords:
 authors:
 - Eduardo Zepeda
 ---
+
+If you're struggling about what types to use for React components that have children in Typescript, so you can inherit them correctly and avoid errors, then this is the post you need to read, I explain you three different approaches you can save and use as a part of your typescript skills.
 
 Typescript requires that we specify the types for the different variables and function arguments in React. When they are native types it is not intrincate, but for React components it can be different. Here are 3 ways to specify types for React components that contain children as part of their props.
 
