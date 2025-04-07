@@ -1,12 +1,14 @@
 ---
-title: "Graphql and django with graphene"
+aliases:
+- /en/graphql-and-django-with-graphene/
+title: How To Create a Graphql API In Django Rapidly Using Graphene
 date: "2021-10-26"
 categories:
 - "django"
 
 coverImage: "images/GraphqlGrapheneDjango.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/@frank-cone-140140/"
-description: "How to implement graphql queries and mutations in a django project, using the models and its ORM using graphene? I explain you here."
+description: I explain how to implement in minutes a GraphQL API and how to perform queries and mutations in a Django project, using the Graphene library from your Django models.
 keywords:
 - django
 - python
@@ -18,11 +20,13 @@ authors:
 - Eduardo Zepeda
 ---
 
+In this post I will explain how Graphene allows you to speed up the process of creating a GraphQL API if you are using the Django Framework, as well as take advantage of the models you have already defined to perform queries or mutations.
+
 Normally graphql is used in conjunction with Nodejs and express, or other javascript frameworks, to create a graphql API in which to make queries, but graphql can also be implemented with Python frameworks such as Django. We are going to create a django application that serves content with graphql using a cool library called graphene that abstracts almost all the boilerplate of integrating graphql with Django models.
 
-## Why graphql?
+## Why use graphql?
 
-Graphql allows you to integrate requests from multiple sources into a single API call. Unlike REST, it consists of a single endpoint to which we can make certain queries (defined by ourselves in a schema, yes, as a schema) and get a response.
+Graphql allows you to integrate requests from multiple sources into a single API call. Unlike in a [REST API](/en/basic-characteristics-of-an-api-rest-api/), it consists of a single endpoint to which we can make certain queries (defined by ourselves in a schema, yes, as a schema) and get a response.
 
 ![Differences between REST and Graphql](images/RestVsGraphQL.png)
 

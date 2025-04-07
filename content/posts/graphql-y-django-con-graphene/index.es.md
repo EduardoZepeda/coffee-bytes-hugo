@@ -4,6 +4,7 @@ aliases:
 - /graphene-y-django-tutorial-de-queries-y-mutaciones-en-graphql
 - /graphql-y-django-con-graphene//1000
 - /graphql-y-django-con-graphene/feed/
+- /es/graphql-y-django-con-graphene/
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,23 +12,21 @@ categories:
 coverImage: images/GraphqlGrapheneDjango.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@frank-cone-140140/
 date: '2021-10-26'
-description: 'Tutorial para implementar queries y mutaciones de graphql en un proyecto
-  de django, usando graphene, una de las librerías más comunes y su ORM '
+description: Te explico como implementar en minutos una API de tipo GraphQL y como realizar queries y mutaciones en un proyecto de Django, usando la librería Graphene a partir de tus modelos de Django
 keywords:
 - django
 - python
 - graphene
 - graphql
 - api
-title: Graphene y Django, Tutorial de Queries y Mutaciones en Graphql
-url: graphql-y-django-con-graphene
+title: Cómo crear una API Graphql en Django rápidamente usando Graphene
 ---
 
-Normalmente graphql se utiliza en conjunto con Nodejs y express, u otros frameworks de javascript, para crear una API de graphql en la cual hacer consultas o queries, pero graphql también puede implementarse con frameworks de Python como Django. Vamos a crear una aplicación de django que sirva contenido con graphql usando una librería genial llamada graphene que abstrae casi todo el boilerplate de integrar graphql con los modelos de Django.
+En esta entrada te explico como Graphene te permite acelerar el proceso de creación de una API de tipo GraphQL si estás usando el Framework Django, además echar mano de los modelos que ya definiste para realizar queries o mutations.
 
-## ¿Por qué graphql?
+## ¿Por qué usar graphql?
 
-Graphql permite integrar peticiones de múltiples fuentes en una sola llamada a la API. A diferencia de REST consiste de un único endpoint al que podemos hacerle determinadas queries o consultas (definidas por nosotros mismos en un schema, sí, como esquema) y obtener una respuesta.
+Graphql permite integrar peticiones de múltiples fuentes en una sola llamada a la API. A diferencia de una [API de tipo REST](/es/caracteristicas-basicas-de-una-api-rest/) consiste de un único endpoint al que podemos hacerle determinadas queries o consultas (definidas por nosotros mismos en un schema, sí, como esquema) y obtener una respuesta.
 
 ![Diferencias entre REST y Graphql](images/RestVsGraphQL.png)
 
