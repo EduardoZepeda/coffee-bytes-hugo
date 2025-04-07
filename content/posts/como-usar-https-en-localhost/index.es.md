@@ -5,7 +5,7 @@ categories:
 - linux y devops
 - go
 coverImage: "images/how-to-use-https-in-localhost.jpg"
-description: 'Ejecuta un servidor local utilizando https en lugar de http en su máquina localhost utilizando un proxy inverso y caddy en unos pocos pasos, útil para integraciones con Oauth o aplicaciones de terceros que requieren una conexión segura.'
+description: 'Ejecuta un servidor local que use https en lugar de http en su máquina localhost, incluso sin saber sobre netstat, utilizando un proxy inverso y caddy'
 keyword: 'https en localhost'
 keywords:
 - 'https'
