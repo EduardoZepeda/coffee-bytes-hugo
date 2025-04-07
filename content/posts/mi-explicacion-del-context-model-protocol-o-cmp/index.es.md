@@ -143,7 +143,7 @@ Si te sientes más familiarizado con [APIs del tipo GraphQL](/es/graphql-y-djang
 
 El MCP tiene dos paradigmas de comunicación, uno de ellos es por medio del STDIO, o Standard Input Output, ~~sacado directamente de tus pesadillas programando en C #include <stdio.h>~~ ideal para comunicaciones locales, por ejemplo con una base de datos local, como Postgres o SQL.
 
-El otro tipo es SSE o Server Sent Events, el cual realiza streaming de peticiones *POST* (similar [al streaming de peticiones en gRPC del que te hablé](/es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/)), ideal obviamente para comunicaciones que no ocurren en el mismo entorno.
+El otro tipo es SSE o Server Sent Events, el cual realiza streaming de peticiones *POST* (similar [al streaming de peticiones en gRPC del que te hablé](/es/apis-ultrarrapidas-en-go-usando-grpc-y-protobuffers/)), ideal obviamente para comunicaciones que no ocurren en el mismo entorno.
 
 ## El protocolo MCP es Stateful
 

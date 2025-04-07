@@ -50,7 +50,7 @@ Una API REST es una API que cumple las normas de diseño de REST (Oye, más desp
 
 ### ¿Cuáles son las características de las API REST?
 
-No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan, erróneamente, el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs orientadas a realizar acciones en el servidor, como [RPC o gRPC](/es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/), incluso compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS como si lo hicieran.
+No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan, erróneamente, el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs orientadas a realizar acciones en el servidor, como [RPC o gRPC](/es/apis-ultrarrapidas-en-go-usando-grpc-y-protobuffers/), incluso compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS como si lo hicieran.
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
