@@ -4,6 +4,7 @@ aliases:
 - /cron-y-crontab-programa-tareas-periodicas/feed/
 - /cron-y-crontab-programa-tareas-periodicas/programa_tareas_periodicas_con_cron/
 - /programa-tus-tareas-periodicas-con-cron-y-crontab-en-gnulinux/
+- /es/cron-y-crontab-programa-tareas-periodicas/
 authors:
 - Eduardo Zepeda
 categories:
@@ -16,7 +17,7 @@ description: Aprender a usar crontab para programar tareas repetitivas como resp
 keywords:
 - linux
 - crontab
-title: Cron y Crontab programa tareas periódicas
+title: Programa tareas periódicas fácil en Linux con Cron y Crontab
 ---
 
 Muchas veces queremos ejecutar un script o un comando cada cierto tiempo, por ejemplo cuando queremos realizar backups periódicos de una base de datos, enviar a tus suscriptores un correo electrónico de recordatorio, o quizás eliminar archivos de cache cada cierta cantidad de tiempo. Cron, en conjunción con Crontab te permiten correr una tarea cada cierto tiempo.

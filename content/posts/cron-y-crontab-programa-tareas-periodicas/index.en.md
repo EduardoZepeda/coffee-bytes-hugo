@@ -1,5 +1,7 @@
 ---
-title: "Cron and Crontab schedules recurring tasks"
+aliases:
+- /en/cron-and-crontab-schedules-recurring-tasks/
+title: Program periodic tasks easily in Linux with Cron and Crontab
 date: "2020-02-01"
 categories:
 - linux and devops
@@ -13,6 +15,8 @@ keywords:
 authors:
 - Eduardo Zepeda
 ---
+
+In this post I'll teach you how to program tasks to be executed every certain amount of time, it could be as complex as you want, just by modifying a simple file, the crontab file, which is available in every popular Linux distribution, if not all of them.
 
 Many times we want to run a script or a command every so often, for example when we want to perform periodic backups of a database, send your subscribers a reminder email, or perhaps delete cache files every so often. Cron, in conjunction with Crontab allows you to run a task every so often.
 

@@ -130,4 +130,4 @@ If everything went correctly your wallpaper will have changed to a random image 
 
 But having to run this command every time we want to change wallpaper is quite cumbersome, wouldn't it be great to schedule it to run every so often?
 
-If you already read my post about [crontab and cron](/en/cron-and-crontab-schedules-recurring-tasks/) you should have an idea of how to achieve this, if that's the case skip to [schedule the periodic execution of this script using _crontab_](/en/how-to-program-an-automatic-wallpaper-changer-in-python/) in order to proceed with the scheduling of our wallpaper changer.
+If you already read my post about [crontab and cron](/en/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/) you should have an idea of how to achieve this, if that's the case skip to [schedule the periodic execution of this script using _crontab_](/en/how-to-program-an-automatic-wallpaper-changer-in-python/) in order to proceed with the scheduling of our wallpaper changer.

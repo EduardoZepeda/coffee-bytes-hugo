@@ -146,7 +146,7 @@ What if instead of specifying an interval to execute the tasks we want them to b
 
 Instead of calculating the seconds we can create a more friendly format with the crontab utility provided by celery.
 
-Yes, you are correct, crontab shares the format with the [crontab file used by the GNU/Linux cron daemon](/en/cron-and-crontab-schedules-recurring-tasks/), which I already talked about in a post.
+Yes, you are correct, crontab shares the format with the [crontab file used by the GNU/Linux cron daemon](/en/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/), which I already talked about in a post.
 
 Crontab will ensure that the execution format is every Monday at 7:30 a.m.
 

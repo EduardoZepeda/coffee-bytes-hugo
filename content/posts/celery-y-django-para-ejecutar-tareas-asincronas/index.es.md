@@ -46,7 +46,7 @@ La respuesta a la url demora 3 segundos
 
 Celery resuelve nuestro problema, manda esas tareas a una cola para que se ejecuten posteriormente, de manera asíncrona, y el código pueda continuar su ejecución.
 
-Así es, de seguro estás pensando que celery guarda similitudes con el async await de Javascript o Python. Sin embargo celery es mucho más robusto y con muchas más funcionalidades, tales como la programación de tareas periódicas (como en [cron y crontab en GNU/Linux](/es/cron-y-crontab-programa-tareas-periodicas/)) y además el monitoreo de estas, pero vamos por partes.
+Así es, de seguro estás pensando que celery guarda similitudes con el async await de Javascript o Python. Sin embargo celery es mucho más robusto y con muchas más funcionalidades, tales como la programación de tareas periódicas (como en [cron y crontab en GNU/Linux](/es/programa-tareas-periodicas-facil-en-linux-con-cron-y-crontab/)) y además el monitoreo de estas, pero vamos por partes.
 
 ## Instalación de celery
 

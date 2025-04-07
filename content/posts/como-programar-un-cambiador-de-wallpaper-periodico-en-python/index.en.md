@@ -18,7 +18,7 @@ In the previous post we made an [automatic wallpaper changer in Python](/en/how-
 
 In this entry we are going to use Cron to program the periodic execution of this script and that it is in charge of changing the wallpaper every certain time, automatically, every hour, two hours, every day, every minute or the frequency that we want. 
 
-If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/en/cron-and-crontab-schedules-recurring-tasks/).
+If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/en/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/).
 
 ```python
 #!/usr/bin/python3
