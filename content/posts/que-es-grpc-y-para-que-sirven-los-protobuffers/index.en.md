@@ -1,9 +1,9 @@
 ---
 aliases:
 - /en/unleash-your-apis-potential-with-grpc-and-protobuffers/
-title: Blazingly fast APIs using Go with gRPC and Protobuffers
+title: Fast and performant APIs using gRPC and Protobuffers
 date: "2023-01-19"
-description: "What is a gRPC API and what are .proto files and protobuffers? What advantages do protobuffers have over JSON and what is the mechanism that makes them so efficient?"
+description: What is a gRPC API and what are .proto files and protobuffers? What are the advantages of protobuffers over JSON and why are they so fast and efficient?
 coverImage: "images/que-es-grpc-y-protobuffers.jpg"
 categories:
 - "software architecture"

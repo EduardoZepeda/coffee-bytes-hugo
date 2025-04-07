@@ -50,7 +50,7 @@ A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]
 
 A pesar de que Django cuenta con una de las mejores librerías para crear una aplicación que cumpla las [características de una API REST](/es/caracteristicas-basicas-de-una-api-rest/); DRF (Django Rest Framework). Los usuarios de reddit consideran que Django debería brindar soporte para las API REST "out of the box", como parte nativa del framework.
 
-La anterior me parece una propuesta interesante pero también entiendo que, a pesar de la madurez de REST, darle preferencia sobre el resto de APIs, como por ejemplo el [moderno gRPC de Google](/es/apis-ultrarrapidas-en-go-usando-grpc-y-protobuffers/), SOAP, o alguna API que aún no ha emergido, puede ser considerado como un paso bastante arriesgado por el comité de Django. Sí, inclusive aunque existan librerías completas basadas en REST, como [FastAPI](/es/python-fastapi-el-mejor-framework-de-python/)
+La anterior me parece una propuesta interesante pero también entiendo que, a pesar de la madurez de REST, darle preferencia sobre el resto de APIs, como por ejemplo el [moderno gRPC de Google](/es/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), SOAP, o alguna API que aún no ha emergido, puede ser considerado como un paso bastante arriesgado por el comité de Django. Sí, inclusive aunque existan librerías completas basadas en REST, como [FastAPI](/es/python-fastapi-el-mejor-framework-de-python/)
 
 ## Leer las variables entorno en Django sin librerías de terceros
 

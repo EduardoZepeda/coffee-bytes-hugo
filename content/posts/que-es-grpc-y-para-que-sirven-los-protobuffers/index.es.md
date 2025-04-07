@@ -3,16 +3,14 @@ aliases:
 - /que-es-grpc-y-para-que-sirven-los-protobuffers
 - /libera-el-potencial-de-tu-api-con-grpc-y-protobuffers
 - /es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/
-title: APIs ultrarrápidas en Go usando gRPC y Protobuffers
+title: APIs de alto rendimiento usando gRPC y Protobuffers
 authors:
 - Eduardo Zepeda
 categories:
 - arquitectura de software
 coverImage: images/que-es-grpc-y-protobuffers.jpg
 date: '2023-01-19'
-description: ¿Que es una API gRPC y que son los archivos .proto y los protobuffers?
-  ¿qué ventajas tienen los protobuffers sobre JSON y cual es el mecanismo que los
-  vuelve tan eficientes?
+description: ¿Que es una API gRPC y que son los archivos .proto y los protobuffers? ¿ventajas de los protobuffers sobre JSON y porque son tan rápidas y eficientes?
 keywords:
 - REST
 - arquitectura de software
