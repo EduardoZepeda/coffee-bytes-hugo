@@ -1,6 +1,8 @@
 ---
+aliases:
+- /es/el-problema-de-usar-github-para-evaluar-a-los-desarrolladores/
 date: '2024-08-06T10:13:00-06:00'
-title: 'El Problema De Usar Github Para Evaluar A Los Desarrolladores'
+title: No Uses Github Para Evaluar A Los Desarrolladores
 categories:
 - opiniones
 - git
@@ -19,6 +21,7 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
+Si eres de los que usan las contribuciones de Github para evaluar a tus candidatos, o clientes, te explico porque necesariamente no es una buena idea.
 
 Es una práctica común usar Github para evaluar las capacidades de un desarrollador, pero hacerlo a ciegas, ignorando la siguiente serie de factores, haría que tu ignorancia te costara acceder a candidatos con un mayor potencial y experiencia en el funcionamiento del mundo del software.
 

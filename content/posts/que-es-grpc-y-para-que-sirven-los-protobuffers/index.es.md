@@ -2,6 +2,8 @@
 aliases:
 - /que-es-grpc-y-para-que-sirven-los-protobuffers
 - /libera-el-potencial-de-tu-api-con-grpc-y-protobuffers
+- /es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/
+title: APIs ultrarrápidas en Go usando gRPC y Protobuffers
 authors:
 - Eduardo Zepeda
 categories:
@@ -16,8 +18,9 @@ keywords:
 - arquitectura de software
 - API
 - buenas practicas
-title: Libera El Potencial De Tu API Con gRPC y Protobuffers
 ---
+
+Los protobuffers te permiten crear una API gRPC que tiene la característica de ser increíblemente más rápida, por usar binario en lugar de otros formatos menos optimizados (Como JSON), en esta entrada aprenderás en que consiste este tipo de API y porque es tan rápido.
 
 En mi entrada sobre [las características básicas sobre una API REST](/es/caracteristicas-basicas-de-una-api-rest/) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
 

@@ -1,20 +1,22 @@
 ---
-title: "Unleash Your API's Potential With gRPC and Protobuffers"
+aliases:
+- /en/unleash-your-apis-potential-with-grpc-and-protobuffers/
+title: Blazingly fast APIs using Go with gRPC and Protobuffers
 date: "2023-01-19"
 description: "What is a gRPC API and what are .proto files and protobuffers? What advantages do protobuffers have over JSON and what is the mechanism that makes them so efficient?"
 coverImage: "images/que-es-grpc-y-protobuffers.jpg"
 categories:
 - "software architecture"
-
 keywords:
 - REST
 - software architecture
 - API
 - best practices
-
 authors:
 - Eduardo Zepeda
 ---
+
+Protobuffers allow you to create a gRPC API that has the characteristic of being incredibly faster, because it uses binary instead of other less optimized formats (such as JSON), in this post you will learn what this type of API is and why it is so fast.
 
 In my post about [the basic features about a REST API](/en/basic-characteristics-of-an-api-rest-api/) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
 
@@ -35,7 +37,7 @@ request and response type in the appropriate format.
 5. The response from the server is encoded using the stub and sent to the client.
 6. The client receives the response and decodes it in the appropriate format.
 
-![Schematic diagram of gRPC operation](images/rpc-esquema.jpg "Schematic diagram of gRPC operation")
+![Schematic diagram of gRPC operation](https://res.cloudinary.com/dwrscezd2/image/upload/v1743999893/coffee-bytes/rpc-diagram_lre4ut.jpg "Schematic diagram of gRPC operation")
 
 Did you notice I mentioned data encryption? Well, one aspect of RPC to note is that it requires both client and server to use the same programming language, which makes it a disadvantage in environments where multiple programming languages can be mixed.
 

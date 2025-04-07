@@ -1,6 +1,8 @@
 ---
+aliases:
+- /en/i-explain-the-model-context-protocol-or-mcp-used-to-interact-with-llms/
 date: '2025-03-31T18:00:32-06:00'
-title: 'I explain the Model Context Protocol or MCP used to interact with LLMs'
+title: 'Understand the Model Context Protocol or MCP once and for all'
 categories:
 - artificial intelligence
 - software architecture
@@ -16,6 +18,10 @@ keywords:
 authors:
 - 'Eduardo Zepeda'
 ---
+
+If you're struggling to understand the Model Context Protocol, I feel you, I watched a lot of videos on it, but I just couldn't understand it, so I took my notes about it and turned it into a post so you can understand it effortless.
+
+## Why was the Model Context Protocol created?
 
 One of the most convenient uses of LLMs is to use them to analyse or process our own data, for which there are several options, such as [LLM fine-tuning](/en/fine-tuning-a-llm-small-practical-guide-with-resources/) or RAG, or manually passing our data as context as part of the prompt.
 

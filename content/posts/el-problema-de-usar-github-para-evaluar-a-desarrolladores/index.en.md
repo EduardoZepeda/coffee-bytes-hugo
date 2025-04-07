@@ -1,6 +1,8 @@
 ---
+aliases:
+- /en/using-github-to-evaluate-developers-is-naive/
 date: '2024-08-06T10:13:25-06:00'
-title: 'Using Github To Evaluate Developers Is Naive'
+title: Don't Use Github To Evaluate Developers It Is Naive
 categories:
 - opinions
 - git
@@ -18,6 +20,8 @@ keywords:
 authors:
 - 'Eduardo Zepeda'
 ---
+
+If you are one of those who use Github contributions to evaluate your candidates, or clients, I'll explain why it's not necessarily a good idea.
 
 It is common practice to use Github to assess a developer's capabilities, but to do so blindly, ignoring the following set of factors, would make your ignorance cost you access to candidates with greater potential and experience in the workings of the software world.
 
