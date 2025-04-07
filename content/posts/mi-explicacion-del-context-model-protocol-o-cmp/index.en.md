@@ -137,7 +137,7 @@ On the other hand, a tool would be the equivalent of a *POST*, *UPDATE*, *DELETE
 
 Think of tools as a mechanism to allow a client to make modifications to your servers or services. 
 
-If you are more familiar with [GraphQL-like APIs](/en/graphql-and-django-with-graphene/), you can think of resources and tools as queries and mutations, respectively.
+If you are more familiar with [GraphQL-like APIs](/en/how-to-create-a-graphql-api-in-django-rapidly-using-graphene/), you can think of resources and tools as queries and mutations, respectively.
 
 ## How does the MCP communicate with servers?
 

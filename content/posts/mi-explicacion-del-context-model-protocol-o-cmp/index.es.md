@@ -137,7 +137,7 @@ Por otro lado, una tool sería el equivalente de una petición *POST*, *UPDATE*,
 
 Piensa en las tools un mecanismo para permitir que un cliente realice modificaciones en tu servidor o servicio. 
 
-Si te sientes más familiarizado con [APIs del tipo GraphQL](/es/graphql-y-django-con-graphene/), puedes pensar en resources y tools como queries y mutations, respectivamente.
+Si te sientes más familiarizado con [APIs del tipo GraphQL](/es/como-crear-una-api-graphql-en-django-rapidamente-usando-graphene/), puedes pensar en resources y tools como queries y mutations, respectivamente.
 
 ## ¿Cómo se comunica el MCP con los servers?
 
