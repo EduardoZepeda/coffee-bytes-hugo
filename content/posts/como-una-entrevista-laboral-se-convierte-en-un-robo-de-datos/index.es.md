@@ -21,7 +21,7 @@ El otro día estaba navegando en esa máquina de propaganda política de Elon Mu
 
 ## Ejecución de malware en las entrevistas laborales
 
-La historia es esta: estás necesitado de trabajo, te preparas para la entrevista, y de repente el reclutador te pide clonar [una librería de Github](/es/el-problema-de-usar-github-para-evaluar-a-los-desarrolladores/) para que encuentres los errores en el código, una entrevista protocolaria para desarrollo de software, todo normal hasta este punto. Por supuesto que tú, necesitado de un buen laburo, decides seguir con el proceso.
+La historia es esta: estás necesitado de trabajo, te preparas para la entrevista, y de repente el reclutador te pide clonar [una librería de Github](/es/no-uses-github-para-evaluar-a-los-desarrolladores/) para que encuentres los errores en el código, una entrevista protocolaria para desarrollo de software, todo normal hasta este punto. Por supuesto que tú, necesitado de un buen laburo, decides seguir con el proceso.
 
 Bueno, pues este chico fue lo suficientemente avispado como para leer el código a ejecutar antes de ejecutar ciegamente su voluminosa librería de *node_modules*. ¿Y con que se encontró? un suculento y delicioso código minimizado, ofuscado y con tintes de poner tu ordenador a minar criptomonedas. 
 

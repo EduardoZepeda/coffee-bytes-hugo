@@ -20,7 +20,7 @@ The other day I was browsing Elon Musk's political propaganda machine, also know
 
 ## Running malware in job interviews.
 
-The story goes like this: you're in need of a job, you're attending the interview remotely, [the recruiter asks you to clone a Github library](/en/using-github-to-evaluate-developers-is-naive/) to find bugs in the code, an average interview for a developer position, all looks normal up to this point. Of course you, in need of a good job, decide to go through with the process.
+The story goes like this: you're in need of a job, you're attending the interview remotely, [the recruiter asks you to clone a Github library](/en/dont-use-github-to-evaluate-developers-it-is-naive/) to find bugs in the code, an average interview for a developer position, all looks normal up to this point. Of course you, in need of a good job, decide to go through with the process.
 
 Well, this guy was smart enough to read the code to be executed before blindly executing his voluminous *node_modules* directory. And what did he find? A succulent and delicious minimized code, also obfuscated and with hints of putting your computer to mine cryptocurrencies. 
 

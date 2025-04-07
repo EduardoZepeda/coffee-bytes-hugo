@@ -26,7 +26,7 @@ Google Notebooklm is an AI tool that becomes an expert in your notes and helps y
 
 ![People often prefer audio-visual content over text](images/podcast-meme-5-minutes.jpg "People often prefer audio-visual content over text")
 
-I generated this podcast using my post about [the problem of using github to evaluate developers](/en/using-github-to-evaluate-developers-is-naive/).
+I generated this podcast using my post about [the problem of using github to evaluate developers](/en/dont-use-github-to-evaluate-developers-it-is-naive/).
 
 {{<audio src="https://res.cloudinary.com/dwrscezd2/video/upload/v1727844656/Podcast-Github-google-notebooklm_dsnzn8.mp3" caption="This podcast was automatically generated using Notebooklm">}}
 
