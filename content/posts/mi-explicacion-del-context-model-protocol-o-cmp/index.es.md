@@ -7,7 +7,7 @@ categories:
 - inteligencia artificial
 - arquitectura de software
 coverImage: "images/context-model-protocol-explanation.jpg"
-description: 'El Model Context Protocol también conocido como MCP existe para actuar como puente entre un LLM y un conjunto de servidores destinados a proporcionar información, de forma estandarizada y agnóstica.'
+description: Si tienes dificultades para comprender el Protocolo de Contexto Modelo (MCP), te explico por que se creo, para que sirve y como funciona de manera interna
 keyword: model context protocol
 keywords:
 - artificial intelligence
