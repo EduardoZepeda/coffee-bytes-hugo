@@ -6,7 +6,7 @@ categories:
 - "artificial intelligence"
 coverImage: "images/OCR.jpg"
 coverImageCredits: "credits https://www.pexels.com/@cottonbro/"
-description: "Learn how to perform optical character recognition (OCR) on images using python and pytesseract to convert an image to string"
+description: "Learn how to perform optical character recognition (OCR) on images using python, tesseract, and its bindings pytesseract to convert an image to string in linux"
 keyword: pytesseract
 keywords:
 - python

@@ -5,8 +5,8 @@ categories:
 - rust
 - opinions
 coverImage: "images/learning-rust-programming-language.jpg"
-description: 'Rust can be difficult to learn due to a number of concepts that are not present in other programming languages, let me talk to you about some of them'
-keyword: 'rust difficult'
+description: Is Rust difficult to learn? Rust can be difficult to learn due to a number of concepts that are not present in other programming languages, let's review them
+keyword: 'rust is difficult'
 keywords:
 - 'rust'
 authors:
