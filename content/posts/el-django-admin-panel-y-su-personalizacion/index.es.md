@@ -67,7 +67,7 @@ GENRES = (
 
 class Videogame(models.Model):
     name = models.CharField(max_length=256)
-    description = models.TextField(blank="true")
+    description = models.TextField(blank=True)
     genre = models.CharField(choices=GENRES, max_length=2)
     rating = models.FloatField()
     created = models.DateTimeField(auto_now_add=True)
