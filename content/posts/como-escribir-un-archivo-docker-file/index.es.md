@@ -3,7 +3,7 @@ title: "Como escribir un archivo de Dockerfile desde cero"
 date: "2020-10-09"
 categories:
 - "docker"
-- "linux and devops"
+- "linux y devops"
 coverImage: "images/how-to-create-docker-file-from-scratch.jpg"
 description: "Escribir un dockerfile desde cero, aprender las palabras clave más básicas en un Dockerfile y aprender la importancia de cuidar el orden de esas instrucciones para mejorar la caché y tener un proceso de compilación en docker más veloz."
 keyword: basic docker commands

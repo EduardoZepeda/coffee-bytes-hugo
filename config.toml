@@ -79,8 +79,8 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 HideAds = false
 disablesearch = false
 followDescription = "<div style='text-align:justify;'>I'm looking to connect with some like-minded devs. If you're into digital nomadism, freelancing, solopreneur-ship, let's connect on <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>Elon's propaganda machine</a></div>"
-followRequestDelay = 75
-followTitle = "Hey, want to connect with me!?"
+followRequestDelay = 85
+followTitle = "Hey, let's connect!"
 modalcountdown = 45
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
 prePostAffiliateLink = ""
@@ -159,7 +159,7 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 HideAds = false
 disablesearch = false
 followDescription = "<div style='text-align:justify;'>Busco expandir mi círculo social, si te interesa el nomadismo digital, freelancear o el mundo solopreneur, agrégame a <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>a la máquina de propaganda de Elon</a></div>"
-followRequestDelay = 75
+followRequestDelay = 85
 followTitle = "¡Hey! ¡Conectemos!"
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
