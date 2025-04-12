@@ -161,13 +161,6 @@
   
   // <!--This will trigger only if language is spanish and the timezone is Mexico
   // for now this constraint should be enough-->
-  if(Intl.DateTimeFormat().resolvedOptions().timeZone==="America/Mexico_City" && document.querySelector("html").getAttribute("lang")==="es"){
-    try {
-      updateLinkToMx()
-    } catch(e){
-      console.error("Error trying to update mx affiliate links: ", e)
-    }
-  }
   function showAds() {
     let booksTemplates = document.querySelectorAll(".books");
     let rightPanel = document.getElementById("right-panel");
@@ -180,5 +173,13 @@
   document.body.addEventListener("htmx:afterSwap", function(event){
   document.getElementById("right-panel")?.replaceChildren();showAds();
   })
+
+  if(Intl.DateTimeFormat().resolvedOptions().timeZone==="America/Mexico_City" && document.querySelector("html").getAttribute("lang")==="es"){
+    try {
+      updateLinkToMx()
+    } catch(e){
+      console.error("Error trying to update mx affiliate links: ", e)
+    }
+  }
 </script>
 
