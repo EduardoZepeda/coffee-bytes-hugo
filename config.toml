@@ -79,9 +79,9 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 HideAds = false
 disablesearch = false
 followDescription = "<div style='text-align:justify;'>I'm looking to connect with some like-minded devs. If you're into digital nomadism, freelancing, solopreneur-ship, let's connect on <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>Elon's propaganda machine</a></div>"
-followRequestDelay = 50
+followRequestDelay = 75
 followTitle = "Hey, want to connect with me!?"
-modalcountdown = 20
+modalcountdown = 45
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
 prePostAffiliateLink = ""
 prePostAffiliateText = "Register on Digital Ocean and get FREE $200 USD"
@@ -159,17 +159,17 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 HideAds = false
 disablesearch = false
 followDescription = "<div style='text-align:justify;'>Busco expandir mi círculo social, si te interesa el nomadismo digital, freelancear o el mundo solopreneur, agrégame a <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>a la máquina de propaganda de Elon</a></div>"
-followRequestDelay = 50
+followRequestDelay = 75
 followTitle = "¡Hey! ¡Conectemos!"
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
-modalcountdown = 20
+modalcountdown = 45
 prePostAffiliateDescription = "Utiliza este crédito para lanzar tus proyectos ahora en Digital Ocean, válido por 60 días"
 prePostAffiliateLink = ""
 prePostAffiliateText = "Quiero registrarme y obtener $200 USD"
 prePostAffiliateTitle = "No te pierdas este crédito gratuito de 200 USD (Válido durante 60 días) en DO, lanza tu proyecto ahora"
 subscribebannertext = "Guía gratuita de tips y trucos de Python"
-subscribedescription = """
+subscribedescription = """✅ Más de 400 devs suscritos
                           ✅ Para acceder solo suscríbete al newsletter, es <strong>completamente gratis.</strong> <br>
                           ✅ Sólo un par de veces por mes, o quizás menos (no prometo nada), te enviaré tutoriales, opiniones e ideas que encuentro interesantes a tu correo electrónico.
                           """
