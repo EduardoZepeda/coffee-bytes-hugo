@@ -54,8 +54,8 @@ After installing webp, the _cwebp_ command will be available, yes, with the lett
 The cwebp command will help us to convert our image and it is self-explanatory; we just place the image we want to convert and specify the name of our output file with the _-o_ option.
 
 ```bash
-cwebp pexels-artem-beliaikin-1120963.jpg -o imagen_procesada.webp
-Saving file 'imagen_procesada.webp'
+cwebp pexels-artem-beliaikin-1120963.jpg -o processed_image.webp
+Saving file 'processed_image.webp'
 File:      pexels-artem-beliaikin-1120963.jpg
 Dimension: 1920 x 1280
 Output:    226348 bytes Y-U-V-All-PSNR 38.69 45.41 46.33 40.05 dB
@@ -97,7 +97,7 @@ The quality of the resulting webp file is for you to judge for yourself. I found
 
 ```bash
 du -h *
-224K	imagen_procesada.webp
+224K	processed_image.webp
 476K	pexels-artem-beliaikin-1120963.jpg
 ```
 

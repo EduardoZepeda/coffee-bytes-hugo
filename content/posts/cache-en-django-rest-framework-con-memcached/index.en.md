@@ -81,7 +81,7 @@ Once we have the applications installed and configured we are going to start app
 You can use django-seed to populate your database tables.
 
 ```bash
-python manage.py seed nombreDeTuApp --number=1000
+python manage.py seed nameOfYourApp --number=1000
 ```
 
 ## How to configure cache in in django

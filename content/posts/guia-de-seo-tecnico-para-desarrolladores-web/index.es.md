@@ -1,10 +1,10 @@
 ---
-date: '2025-03-31T00:02:16-06:00'
+date: '2025-04-09T00:02:16-06:00'
 draft: true
 title: 'Guia De Seo Tecnico Para Desarrolladores Web'
 categories:
 - category
-coverImage: "images/<your-image>"
+coverImage: "images/technical-seo-checklist.jpg"
 description: ''
 keyword: ''
 keywords:
