@@ -91,8 +91,8 @@ Range allows us to traverse an iterable structure from beginning to end and allo
 
 ```go
 HelloWorld := "Hello world"
-    for index, letra := range HelloWorld {
-    	fmt.Printf("%d %c \n", index, letra)
+    for index, character := range HelloWorld {
+    	fmt.Printf("%d %c \n", index, character)
     }
 /*
 0  H 
