@@ -145,41 +145,41 @@
 {{ end }}
 
 <script defer type="module">
-  async function updateLinkToMx(){
-    //<!--This location is determined by its root location-->
+  ["DOMContentLoaded", "htmx:afterSettle", "htmx:historyRestore"].forEach((event) => document.body.addEventListener(event, function(event) {
+    async function updateLinkToMx() {
+        //<!--This location is determined by its root location-->
 
-    const response = await fetch("/data/ads.json")
-    const adsData = await response.json()
-    const affiliateLinks = document.querySelectorAll(".affiliate-link")
-    affiliateLinks?.forEach((link)=>{
-      // Every link as its category as id
-      // Only link is replaced for now
-      let category = link?.getAttribute("category")
-      link.setAttribute("href", adsData["es-MX"][category]["link"])
-    })
-  }
-  
-  // <!--This will trigger only if language is spanish and the timezone is Mexico
-  // for now this constraint should be enough-->
-  function showAds() {
-    let booksTemplates = document.querySelectorAll(".books");
-    let rightPanel = document.getElementById("right-panel");
-    booksTemplates.forEach((bookTemplate)=>{
-      let clon = bookTemplate.content.cloneNode(true);
-      rightPanel.appendChild(clon)
-    })
-  }
-  showAds()
-  document.body.addEventListener("htmx:afterSwap", function(event){
-  document.getElementById("right-panel")?.replaceChildren();showAds();
-  })
-
-  if(Intl.DateTimeFormat().resolvedOptions().timeZone==="America/Mexico_City" && document.querySelector("html").getAttribute("lang")==="es"){
-    try {
-      updateLinkToMx()
-    } catch(e){
-      console.error("Error trying to update mx affiliate links: ", e)
+        const response = await fetch("/data/ads.json")
+        const adsData = await response.json()
+        const affiliateLinks = document.querySelectorAll(".affiliate-link")
+        affiliateLinks?.forEach((link) => {
+            // Every link as its category as id
+            // Only link is replaced for now
+            let category = link?.getAttribute("category")
+            link.setAttribute("href", adsData["es-MX"][category]["link"])
+        })
     }
-  }
+
+    // <!--This will trigger only if language is spanish and the timezone is Mexico
+    // for now this constraint should be enough-->
+    function showAds() {
+        let booksTemplates = document.querySelectorAll(".books");
+        let rightPanel = document.getElementById("right-panel");
+        booksTemplates.forEach((bookTemplate) => {
+            let clon = bookTemplate.content.cloneNode(true);
+            rightPanel.appendChild(clon)
+        })
+    }
+    document.getElementById("right-panel")?.replaceChildren();
+    showAds();
+    // Update links to amazon mx if user is in Mexico city timezone and its language is spanish
+    if (Intl.DateTimeFormat().resolvedOptions().timeZone === "America/Mexico_City" && document.querySelector("html").getAttribute("lang") === "es") {
+        try {
+            updateLinkToMx()
+        } catch (e) {
+            console.error("Error trying to update mx affiliate links: ", e)
+        }
+    }
+}))
 </script>
 
