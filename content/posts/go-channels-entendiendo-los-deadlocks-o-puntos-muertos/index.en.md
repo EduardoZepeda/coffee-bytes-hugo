@@ -97,7 +97,7 @@ func main() {
 
 In the three previous cases the program would be waiting and, as you know, **it makes no sense to keep the program waiting for something that will never happen**, so the execution is aborted and the fatal error "_fatal error: all goroutines are asleep - deadlock!_" is generated.
 
-The above situation is referred to as a deadlock or deadlock.
+The above situation is referred to as a *deadlock*.
 
 ## Deadlocks or dead spots
 
