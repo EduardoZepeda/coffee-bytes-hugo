@@ -262,11 +262,12 @@
         // Every link as its category as id
         // Only link is replaced for now
         let category = link?.getAttribute("category")
+        if(!category) {return}
         link.setAttribute("href", adsData["es-MX"][category]["link"])
     })
   }
 
-  async function renderLeftPanelAds() {
+  function renderLeftPanelAds() {
     let sassTemplates = document.querySelectorAll(".sassTemplates");
     let leftPanel = document.getElementById("left-panel");
     sassTemplates.forEach((sassTemplate) => {
@@ -276,7 +277,6 @@
   }
 
   function reloadAds() {
-    console.log("reload")
     document.getElementById("right-panel")?.replaceChildren();
     document.getElementById("left-panel")?.replaceChildren();
     renderAds();
