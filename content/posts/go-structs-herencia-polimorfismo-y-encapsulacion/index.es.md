@@ -98,6 +98,8 @@ Podemos agrupar funcionalidades que involucren a nuestros structs declarando fun
 
 Para acceder a instancias de structs en las funciones necesitamos colocar un par de parentesis entre la keyword _func_ y el nombre de la función. Estos paréntesis contienen el nombre que usaremos para acceder a la instancia del struct, seguido del caracter de desestructuración y, por último, el nombre del struct.
 
+![Composición en Go, diagrama](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png)
+
 ```go
 func (myStructVariable *Videogame) PrintYear(){
     fmt.Println(myStructVariable.Year)
@@ -183,6 +185,8 @@ type Professor struct {
 Puedes pensar en una interfaz como una especie de "plano" o "blueprint" que le dice a un objeto que funciones debe implementar para funcionar, cada objeto puede implementar esas funciones como quiera, pero debe implementarlas forzosamente. 
 
 Por ejemplo: Piensa en una abstracción que representa a cada animal que respira, si un animal respira, damos por hecho que debe implementar la interfaz de "respirar", pero cada animal la implementará a su gusto, algunos respirarán usando narices, otros branquias, algunos lo harán muy lento, otros muy rápido, pero todos deben implementar un método para respirar.
+
+![Explicación del concepto de interfaz en programación](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png "Mientras el ente pueda respirar, satisface la interfaz.")
 
 Basándonos en lo anterior, en Go las interfaces son un método para diferenciar el comportamiento de diferentes objetos. Una interfaz se encargará de llamar al método que le especificamos correspondiente a su tipo de struct.
 
