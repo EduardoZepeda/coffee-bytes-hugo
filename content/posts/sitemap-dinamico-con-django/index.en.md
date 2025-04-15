@@ -4,6 +4,7 @@ date: "2022-07-20"
 coverImage: "images/sitemap-en-django.jpg"
 categories:
 - django
+- seo
 
 keywords:
 - django

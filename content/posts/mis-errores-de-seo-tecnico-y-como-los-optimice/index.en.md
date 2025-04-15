@@ -18,6 +18,8 @@ keywords:
 
 A few years ago, I migrated my website a couple of times, first from Wordpress to Frontity (A wordpress framework in React) and then from Frontity to a [Digital Ocean Hugo App](/en/digital-ocean-analysis-and-my-experience-as-a-user/). I don't regret my decision at all, but I made a few technical SEO mistakes that you can probably avoid if you take into account what I'm about to tell you.
 
+After that incident I wrote [{{<title "/posts/guia-de-seo-tecnico-para-desarrolladores-web/index">}}]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}})
+
 ## Why should I care about SEO if I'm a web developer?
 
 SEO is the factor that determines whether a website appears first in the search results of a search engine (almost always Google) or whether it is buried in the last positions, receiving little or no traffic and condemning the business it represents to bankruptcy, or if it is a personal project, to oblivion.

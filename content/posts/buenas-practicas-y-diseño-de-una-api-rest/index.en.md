@@ -27,7 +27,7 @@ I'm going to start with a fairly common question: how do I structure my JSON res
 
 ## Structure for JSON responses
 
-There are different ways to structure the response of a REST API. There is no valid or invalid one, it depends on the taste of each team and the needs of the application. **The important thing here is to maintain consistency and homogeneity in all your responses.
+There are different ways to structure the response of a REST API. There is no valid or invalid one, it depends on the taste of each team and the needs of the application. **The important thing here is to maintain consistency and homogeneity in all your responses.**
 
 ### According to json:api
 

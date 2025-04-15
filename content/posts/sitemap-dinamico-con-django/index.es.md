@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
+- seo
 coverImage: images/sitemap-en-django.jpg
 date: '2022-07-20'
 description: Tutorial sobre la creación de un Sitemap dinámico con Django, su estructura,
