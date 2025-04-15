@@ -2,9 +2,8 @@
 title: "Trigrams and advanced searches with Django and Postgres"
 date: "2021-05-17"
 categories:
-- "django"
-- "databases" 
-- "django"
+- django
+- databases 
 
 coverImage: "images/Busquedas-avanzadas-con-trigramas.jpg"
 coverImageCredits: "credits: https://www.pexels.com/es-es/@pepecaspers/"
