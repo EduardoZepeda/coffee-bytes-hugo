@@ -276,6 +276,7 @@
   }
 
   function reloadAds() {
+    console.log("reload")
     document.getElementById("right-panel")?.replaceChildren();
     document.getElementById("left-panel")?.replaceChildren();
     renderAds();
@@ -294,7 +295,7 @@
       }
   }
 }))
-  renderAds()
+  reloadAds()
 
 </script>
 
