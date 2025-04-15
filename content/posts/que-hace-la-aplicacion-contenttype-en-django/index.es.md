@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
+- bases de datos
 coverImage: images/ContentTypeDjango2.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@iamikeee/
 date: '2021-02-16'

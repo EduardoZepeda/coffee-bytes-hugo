@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
+- bases de datos
 coverImage: images/DjangoGenericForeignKey.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-02-22'

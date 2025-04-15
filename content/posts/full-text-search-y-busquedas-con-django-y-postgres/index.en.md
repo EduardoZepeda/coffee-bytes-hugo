@@ -2,8 +2,8 @@
 title: "Full text search and searches with Django and Postgres"
 date: "2021-05-06"
 categories:
-- "django"
-
+- django
+- databases
 coverImage: "images/Full-text-search-django.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/es-es/@iamikeee/"
 description: "Learn about the basic search methods that Django and Postgres have to offer, as well as full text search and other advanced features."

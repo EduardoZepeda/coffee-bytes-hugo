@@ -2,8 +2,8 @@
 title: "What is Django genericForeignkey for?"
 date: "2021-02-22"
 categories:
-- "django"
-
+- django
+- databases
 coverImage: "images/DjangoGenericForeignKey.jpg"
 coverImageCredits: "credits https://www.pexels.com/es-es/@weekendplayer/"
 description: "Learn how to use ContentType and the genericForeignKey field type in Django to relate an object to different model types."

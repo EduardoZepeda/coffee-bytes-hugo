@@ -3,6 +3,7 @@ title: Differences between select_related and prefetch_related in Django
 date: "2022-03-09"
 categories:
 - django
+- databases
 coverImage: "images/django-select-related-prefetch-related.jpg"
 description: Differences and use of django's select_related and prefetch_related methods to reduce the number of queries or database queries
 coverImageCredits: "Image credits to ときわた: https://www.pixiv.net/en/users/5300811"

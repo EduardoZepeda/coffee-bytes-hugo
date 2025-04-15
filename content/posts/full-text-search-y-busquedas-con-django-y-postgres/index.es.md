@@ -7,6 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
+- databases
 coverImage: images/Full-text-search-django.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@iamikeee/
 date: '2021-05-06'

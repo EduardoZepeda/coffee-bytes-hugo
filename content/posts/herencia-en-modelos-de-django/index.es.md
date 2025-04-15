@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
+- bases de datos
 coverImage: images/HerenciaModelosDjango.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@elifskies-53441403/
 date: '2020-09-21'

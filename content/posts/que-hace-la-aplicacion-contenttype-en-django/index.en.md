@@ -2,8 +2,8 @@
 title: "What does the ContentType application do in Django?"
 date: "2021-02-16"
 categories:
-- "django"
-
+- django
+- databases
 coverImage: "images/ContentTypeDjango2.jpg"
 coverImageCredits: "credits https://www.pexels.com/es-es/@iamikeee/"
 description: "Learn what ContentType is for in Django and how to access the information this model stores in our Django app."

@@ -2,8 +2,8 @@
 title: "Managers or custom handlers in Django"
 date: "2021-05-28"
 categories:
-- "django"
-
+- django
+- databases
 coverImage: "images/Managers_para_django.jpg"
 coverImageCredits: "Credits to https://www.pexels.com/es-es/@suju/"
 description: "I explain what a manager is, what it's for and how you can create and customize them to get the most out of them when using Django's ORM."

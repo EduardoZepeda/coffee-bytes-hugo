@@ -6,6 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
+- bases de datos
 coverImage: images/django-select-related-prefetch-related.jpg
 coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-03-09'
