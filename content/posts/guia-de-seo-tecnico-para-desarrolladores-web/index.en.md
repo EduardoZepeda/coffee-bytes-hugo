@@ -1,6 +1,6 @@
 ---
-date: '2025-04-09T00:02:21-06:00'
-title: 'My Technical SEO Basics Checklist For Web Developers'
+date: '2025-04-14T00:02:21-06:00'
+title: 'A Technical SEO Basics Checklist Made For Web Developers'
 categories:
 - seo
 - opinions
