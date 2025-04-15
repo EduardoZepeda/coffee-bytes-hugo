@@ -77,6 +77,8 @@ fmt.Println(myVideogame)
 
 Para marcar un struct, función o variable como privada o pública, igual que sus respectivos campos para el struct, **basta con declarar la primera letra del campo con mayúsculas o minúsculas**, para público y privado, respectivamente.
 
+![Diagrama de reglas de privacidad de Golang](https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png)
+
 Personalmente, creo que este es uno de los aspectos más complicados de este lenguaje, ¿por qué? porque cuando necesites buscar un campo privado, probablemente necesites usar regex, en lugar de simplemente buscar por la palabra *private*.
 
 Acceder a una entidad privada desde otro módulo, ajeno a donde se declara**,** será imposible. Mientras que las entidades públicas son accesibles desde cualquier modulo, incluso si el struct no se declaró ahí
