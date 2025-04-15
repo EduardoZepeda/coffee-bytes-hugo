@@ -39,7 +39,7 @@
  
   .affiliate-link-container {
       margin-bottom: 36px;
-      padding: 2rem;
+      padding: 0 4rem;
       position: sticky;
       top: 120px;
  }
@@ -50,6 +50,10 @@
       gap: 24px;
       margin: 36px 0;
  }
+ .affiliate-desc {
+      opacity: 0.75;
+  }
+
   .affiliate-link-button{
       background-color: #FED400;
       color: #020100;
@@ -76,10 +80,10 @@
       .affiliate-link-button-lg {
           display:none;
      }
-     .affiliate-img {
-         max-height: 250px;
-         width: 100%;
-     }
+      .affiliate-img {
+          max-height: 250px;
+          width: 100%;
+      }
  }
  
  @media (max-width: 1120px) {
@@ -192,9 +196,9 @@
     </div>
     {{/* Loop through categories and display ads, limit only to two categories */}}
     <div class="affiliate-body">
-      <div>{{i18n "leftPanelDesc"}}</div>
+      <div class="affiliate-desc">{{i18n "leftPanelDesc"}}</div>
       <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
-        <img src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp" alt="Video thumbnail" class="video-thumbnail">
+        <img height="300px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp" alt="Video thumbnail" class="video-thumbnail">
         <div class="play-button"></div>
       </div>
       <div><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" rel="nofollow sponsored" href="https://www.saaspegasus.com/?via=coffee-bytes">{{ i18n "leftPanelButton"}}</a></div>
@@ -290,8 +294,6 @@
   }
 }))
   renderAds()
-  
-
 
 </script>
 
