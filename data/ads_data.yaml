@@ -103,10 +103,12 @@ en:
     linkText: Get Rust programming language on Amazon Now
     title: What's the best resource to learn Rust?
   seo:
-    description: null
-    link: null
-    linkText: null
-    title: null
+    description: Behold the Bible of SEO, it covers practically everything about SEO, it is long, though.
+    imageAlt: Cover of the book The Art of SEO
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1744682069/coffee-bytes/the-art-of-seo-book_mohlar.jpg
+    link: https://amzn.to/4lrKniV
+    linkText: Check the price on Amazon
+    title: Do you want to specialize in SEO but don't know where?
   software architecture:
     description: This book showed me the way big companies, like Youtube, Dropbox, Google, etc. design their systems to handle astronomic requests per second. Alex Xu teaches you how to structure database replicas, cache, load balancers and all the details about designing enterprise class software, if you're interested in learning about systems that scale, you must not miss this book.
     imageAlt: System design interview book cover
@@ -240,12 +242,12 @@ es:
     linkText: Consulta el precio del lenguaje de programación Rust en Amazon
     title: ¿Cuál es el mejor recurso para aprender Rust?
   seo:
-    description: null
-    imageAlt: null
-    imageSrc: null
-    link: null
-    linkText: null
-    title: null
+    description: Conoce la que es considerada como la Biblia del SEO, cubre prácticamente todo respecto al SEO.
+    imageAlt: Portada del libro The Art of SEO
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1744682069/coffee-bytes/the-art-of-seo-book_mohlar.jpg
+    link: https://amzn.to/4lrKniV
+    linkText: Consulta el precio
+    title: ¿Quieres especializarte en SEO pero no sabes donde?
   testing:
     description: null
     link: null

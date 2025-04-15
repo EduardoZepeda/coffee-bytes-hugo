@@ -1,11 +1,11 @@
 ---
 date: '2025-04-14T00:02:16-06:00'
-title: 'La mejor Guia De SEO Técnico básico Para Desarrolladores Web'
+title: 'Una Guia De SEO Técnico Básico Hecha Para Desarrolladores Web'
 categories:
 - seo
 - opiniones
 coverImage: "images/technical-seo-checklist.jpg"
-description: 'Mi checklist de SEO técnico para desarrolladores web, lo mínimo que hay que hacer cuando se trata del SEO técnico de un sitio web: mapa del sitio, robots, schema markup'
+description: 'Mi checklist de SEO técnico para desarrolladores web, lo mínimo que hay que hacer cuando se trata del SEO técnico de un sitio web: mapa del sitio, robots'
 keyword: 'SEO Técnico básico'
 keywords:
 - 'seo'
@@ -36,7 +36,7 @@ A pesar de los cambios en el mundo SEO, el enfoque del SEO actual sigue fuerteme
 
 Sin embargo, últimamente, Google ha dicho que su algoritmo es tan sofisticado que logra evaluar que tan bien responde un sitio web a la *intención del usuario* e [invita a sus usuarios a enfocarse en resolver la intención de los usuarios](https://about.google/company-info/philosophy/) en lugar de en las keywords. Aunque, de manera paradójica, sus servicios de publicidad siguen fuertemente orientados a las keywords.
 
-## SEO Técnico en el desarrollo web
+## SEO Técnico básico en el desarrollo web
 
 El SEO técnico consiste en una serie de requisitos que debe cumplir un sitio web para ser amigable a los motores de búsqueda, de manera que estos te indexen en posiciones altas y cuando un usuario busque en redes, tú aparezcas en las primeras posiciones.
 
@@ -79,7 +79,7 @@ Hay una confusión al respecto, y es bastante obvio pero lo mencionaré de todas
 
 Si algún influencer en redes te dice lo contrario te está mintiendo descaradamente. Es más, lo reto a que detenga a un crawler solo usando un archivo *robots.txt*.
 
-#### Robots disallow everything
+#### Robots bloquear todo
 
 Si quieres indicarle a los crawlers que deben ignorar absolutamente todo el contenido de tu web, podrías usar algo como:
 
@@ -128,7 +128,7 @@ Pero no me creas ciegamente, utiliza la siguiente herramienta para corroborar lo
 
 Herramientas como [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) son bastante útiles para medir el performance de un sitio web y también te indican como mejorarlo.
 
-### El aspecto más infravalorado de un checklist de SEO técnico: Arquitectura de sitio web bien diseñada
+### El aspecto más infravalorado del SEO Técnico básico: Arquitectura de sitio web bien diseñada
 
 Asegúrate que el sitio web cuente con una estructura que permite a los motores de búsqueda "entenderlo". ¿A que me refiero? A que el sitio web esté organizado de una manera lógica y jerárquica que sea entendible. 
 
@@ -189,6 +189,8 @@ Hay mucho más alla de las divs, los anchors, las etiquetas img y las de video. 
 - *dfn*: Definición de un término (a menudo en cursiva).
 - *output*: El resultado de un cálculo o de una acción del usuario.
 - *abbr*: Abreviatura o acrónimo, opcionalmente con un título para que se expanda.
+
+{{<ad>}}
 
 ### Presencia de enlaces internos
 

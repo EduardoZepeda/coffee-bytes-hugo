@@ -22,7 +22,7 @@ Previously I told you how [I made many mistakes in SEO]({{< ref path="/posts/mis
 
 I decided to focus on technical SEO because it's the one that I understand, it's less subjective and I'm more familiar with it.
 
-I have examined many websites and I have noticed that many professional web developers leave SEO out completely from their developments, it is certainly true that it is quite an extensive topic and it is far from what their expertise area, in my opinion, doing an average SEO is better than ignoring the topic entirely.
+I have examined many websites and I have noticed that many professional web developers leave Technical SEO basics out from their developments, it is certainly true that it is quite an extensive topic and it is far from what their expertise area, in my opinion, doing an average SEO is better than ignoring the topic entirely.
 
 Simplifying SEO criminally, it can be divided in two:
 - **Technical SEO**: all those objective, measurable aspects, like the presence of a sitemap, meta tags, etc.
@@ -137,7 +137,7 @@ IMO this is one of the most overrated technical SEO basics' aspect.
 
 ### The most overlooked aspect of a technical SEO checklist: Well-designed website architecture
 
-Make sure the website has a structure that allows search engines to "understand" it. What do I mean? I mean that the website is organized in a logical and hierarchical way that is understandable. 
+Make sure the website has a structure that allows search engines to "understand" it. What do I mean? I mean that the website is organized in a logical and hierarchical way that is understandable.
 
 For example something similar to this:
 
@@ -197,6 +197,8 @@ There is much more to it than divs, anchors, img tags and video tags. HTML provi
 - *dfn*: Defining instance of a term (often italicized).
 - *output*: Represents the result of a calculation or user action.
 - *abbr*: Abbreviation or acronym, optionally with a title for expansion.
+
+{{<ad>}}
 
 ### Presence of internal links
 

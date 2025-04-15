@@ -128,12 +128,12 @@
             "title": "¿Dónde aprender Rust?"
         },
         "seo": {
-            "description": null,
-            "imageAlt": null,
-            "imageSrc": null,
-            "link": null,
-            "linkText": null,
-            "title": null
+            "description": "Conoce la que es considerada como la Biblia del SEO, cubre prácticamente todo respecto al SEO.",
+            "imageAlt": "Portada del libro The Art of SEO",
+            "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1744682069/coffee-bytes/the-art-of-seo-book_mohlar.jpg",
+            "link": "https://amzn.to/3Eojsno",
+            "linkText": "Consulta el precio",
+            "title": "¿Quieres especializarte en SEO pero no sabes donde?"
         },
         "testing": {
             "description": null,
