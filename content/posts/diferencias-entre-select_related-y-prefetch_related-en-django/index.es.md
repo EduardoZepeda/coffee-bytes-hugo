@@ -10,8 +10,8 @@ categories:
 coverImage: images/django-select-related-prefetch-related.jpg
 coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-03-09'
-description: Diferencia entre los métodos select_related y prefetch_related de django
-  y su uso para reducir reducir y mejorar las queries en consultas a la base de datos
+description: Vuelve más rápidas tus consultas a la base de datos entendiendo las diferencias, casos de uso y el SQL entre select_related y prefetch_related en django
+keyword: select_related y prefetch_related
 keywords:
 - django
 - python
@@ -27,7 +27,7 @@ Los métodos *select_related* y *prefetch_related* **se usan para reducir el nú
 Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obsesionarte con su rendimiento](/es/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), pero sí insistes considera echarle un vistazo a aggregate y annotate, demás de tener cuidado con usar este último pues [las subqueries pueden volver tus queries increíblemente lentas.](/es/arregla-querys-lentas-en-django-al-usar-annotate-y-subqueries/)
 
 
-## Diferencias entre select_related and prefetch_related resumidas
+## Diferencias entre select_related y prefetch_related resumidas
 
 |                      | select_related           | prefetch_related |
 | -------------------- | ------------------------ | ---------------- |
@@ -89,46 +89,46 @@ Derivado.objects.select_related("principal")
 
 ¿Cómo funciona *select_related* internamente?, *select_related* reemplaza las consultas múltiples que se realizan por un único INNER JOIN a nivel de la base de datos:
 
-```bash
-SELECT "my_app_derivado"."id",
-       "my_app_derivado"."name",
-       "my_app_derivado"."principal_id"
-  FROM "my_app_derivado"
+```sql
+SELECT my_app_derivado.id,
+       my_app_derivado.name,
+       my_app_derivado.principal_id
+  FROM my_app_derivado
 
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- WHERE "my_app_principal"."id" = '1'
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ WHERE my_app_principal.id = '1'
 
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- WHERE "my_app_principal"."id" = '1'
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ WHERE my_app_principal.id = '1'
 
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- WHERE "my_app_principal"."id" = '1'
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ WHERE my_app_principal.id = '1'
 ```
 
 De esta manera se reducen las múltiples consultas SQL a una sola consulta más larga.
 
-```bash
-SELECT "my_app_derivado"."id",
-       "my_app_derivado"."name",
-       "my_app_derivado"."principal_id",
-       "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_derivado"
- INNER JOIN "my_app_principal"
-    ON ("my_app_derivado"."principal_id" = "my_app_principal"."id")
+```sql
+SELECT my_app_derivado.id,
+       my_app_derivado.name,
+       my_app_derivado.principal_id,
+       my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_derivado
+ INNER JOIN my_app_principal
+    ON (my_app_derivado.principal_id = my_app_principal.id)
 ```
 
 {{<ad>}}
 
 ## prefetch_related
 
-Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo *ManyToMany* o un *ForeignKey* inverso**.
+Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo *ManyToMany* o un *ForeignKey* inverso.
 
 ![Esquema del funcionamiento de prefetch_related en django](images/prefetch_related.png)
 
@@ -172,50 +172,50 @@ queryset = MultiplesPrincipales.objects.prefetch_related("principales")
 
 ¿Cómo funciona internamente _prefecth\_related_? El método ***prefetch_related* reemplaza las múltiples consultas SQL por solo 2 consultas SQL: una para la query principal y la otra para los objetos relacionados, posteriormente, unirá los datos usando Python**.
 
-```bash
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- INNER JOIN "my_app_multiplesprincipales_principales"
-    ON ("my_app_principal"."id" = "my_app_multiplesprincipales_principales"."principal_id")
- WHERE "my_app_multiplesprincipales_principales"."multiplesprincipales_id" = '1'
+```sql
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ INNER JOIN my_app_multiplesprincipales_principales
+    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
+ WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '1'
 
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- INNER JOIN "my_app_multiplesprincipales_principales"
-    ON ("my_app_principal"."id" = "my_app_multiplesprincipales_principales"."principal_id")
- WHERE "my_app_multiplesprincipales_principales"."multiplesprincipales_id" = '2'
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ INNER JOIN my_app_multiplesprincipales_principales
+    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
+ WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '2'
 
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- INNER JOIN "my_app_multiplesprincipales_principales"
-    ON ("my_app_principal"."id" = "my_app_multiplesprincipales_principales"."principal_id")
- WHERE "my_app_multiplesprincipales_principales"."multiplesprincipales_id" = '3'
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ INNER JOIN my_app_multiplesprincipales_principales
+    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
+ WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '3'
 
-SELECT "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- INNER JOIN "my_app_multiplesprincipales_principales"
-    ON ("my_app_principal"."id" = "my_app_multiplesprincipales_principales"."principal_id")
- WHERE "my_app_multiplesprincipales_principales"."multiplesprincipales_id" = '4'
+SELECT my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ INNER JOIN my_app_multiplesprincipales_principales
+    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
+ WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '4'
 ```
 
 Las múltiples consultas anteriores quedan reducidas a solo 2 consultas SQL.
 
-```bash
-SELECT "my_app_multiplesprincipales"."id",
-       "my_app_multiplesprincipales"."name"
-  FROM "my_app_multiplesprincipales"
+```sql
+SELECT my_app_multiplesprincipales.id,
+       my_app_multiplesprincipales.name
+  FROM my_app_multiplesprincipales
 
-SELECT ("my_app_multiplesprincipales_principales"."multiplesprincipales_id") AS "_prefetch_related_val_multiplesprincipales_id",
-       "my_app_principal"."id",
-       "my_app_principal"."name"
-  FROM "my_app_principal"
- INNER JOIN "my_app_multiplesprincipales_principales"
-    ON ("my_app_principal"."id" = "my_app_multiplesprincipales_principales"."principal_id")
- WHERE "my_app_multiplesprincipales_principales"."multiplesprincipales_id" IN ('1', '2', '3', '4')
+SELECT (my_app_multiplesprincipales_principales.multiplesprincipales_id) AS _prefetch_related_val_multiplesprincipales_id,
+       my_app_principal.id,
+       my_app_principal.name
+  FROM my_app_principal
+ INNER JOIN my_app_multiplesprincipales_principales
+    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
+ WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id IN ('1', '2', '3', '4')
 ```
 
 ## Otros recursos relacionados

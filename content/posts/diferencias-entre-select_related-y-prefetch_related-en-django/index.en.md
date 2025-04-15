@@ -5,8 +5,9 @@ categories:
 - django
 - databases
 coverImage: "images/django-select-related-prefetch-related.jpg"
-description: Differences and use of django's select_related and prefetch_related methods to reduce the number of queries or database queries
+description: Speed up your database queries by understanding the differences, use cases and SQL between select_related and prefetch_related in django
 coverImageCredits: "Image credits to ときわた: https://www.pixiv.net/en/users/5300811"
+keyword: differences between select_related and prefetch_related
 keywords:
 - django
 - python
@@ -39,7 +40,7 @@ The *select_related* method is **used to follow a relationship of type ForeignKe
 
 When using *select_related* we will have a longer query, however, the advantage is that it will no longer be necessary to access the database again to obtain the objects of the related model.
 
-![Simplified diagram of how Django select_related works](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o3xcx7ifog76559fy4lo.png#?)
+![Simplified diagram of how Django select_related works](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o3xcx7ifog76559fy4lo.png)
 
 Simplified diagram of how select_related works
 
@@ -84,7 +85,7 @@ Derivative.objects.select_related("main")
 
 How *select_related* works internally, *select_related* replaces multiple queries being performed by a single INNER JOIN at the database level:
 
-```bash
+```sql
 SELECT my_app_derivative.id,
        my_app_derivative.name,
        my_app_derivative.main_id
@@ -108,7 +109,7 @@ SELECT my_app_main.id,
 
 This reduces multiple SQL queries to a single, longer query.
 
-```bash
+```sql
 SELECT my_app_derivative.id,
        my_app_derivative.name,
        my_app_derivative.main_id,
@@ -164,7 +165,7 @@ queryset = ManyToManyModel.objects.prefetch_related("ManyToManyRel")
 
 How does _prefecth_related_ work internally? The ***prefetch_related* method replaces the multiple SQL queries by only 2 SQL queries: one for the main query and the other for the related objects, then it will join the data using Python**.
 
-```bash
+```sql
 SELECT my_app_main.id,
        my_app_main.name
   FROM my_app_main
@@ -196,7 +197,7 @@ SELECT my_app_main.id,
 
 The multiple queries above are reduced to only 2 SQL queries.
 
-```bash
+```sql
 SELECT my_app_manytomanyrel.id,
        my_app_manytomanyrel.name
   FROM my_app_manytomanyrel
