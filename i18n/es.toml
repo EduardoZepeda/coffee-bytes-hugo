@@ -3,3 +3,12 @@ other = "Ver en Amazon"
 
 [bookRecommendations]
 other = "Mis recomendaciones"
+
+[leftPanelTitle]
+other = "Crea tu propio SAAS y empieza ganar dinero"
+
+[leftPanelDesc]
+other = "Sin suscripciones, compra el código una vez, úsalo para siempre. El código es tuyo. Ahorra meses de desarrollo y dolores de cabeza"
+
+[leftPanelButton]
+other = "Más información"

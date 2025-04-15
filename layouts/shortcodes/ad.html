@@ -39,7 +39,7 @@
  
   .affiliate-link-container {
       margin-bottom: 36px;
-      padding: 1rem;
+      padding: 2rem;
       position: sticky;
       top: 120px;
  }
@@ -90,6 +90,47 @@
      display: inline;
    }
  }
+
+ .video-placeholder {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.video-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 68px;
+  height: 48px;
+  background: #333;
+  border-radius: 12px;
+  opacity: 0.8;
+}
+
+.play-button::before {
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 9px;
+  border: 16px solid transparent;
+  border-left: 24px solid #fff;
+}
+
+.video-placeholder:hover .play-button {
+  background: #f00;
+  opacity: 1;
+}
+
 </style>
 {{/* Loop through categories and display ads, limit only to two categories */}}
 {{ range first 2 .Page.Params.categories }}
@@ -142,10 +183,58 @@
       {{ end }}
     </aside>
 </template>
+
+<template class="sassTemplates" id="sassTemplates">
+  <aside class="affiliate-link-container affiliate-link-container-side">
+    <div class="affiliate-heading">
+      <h3>{{i18n "leftPanelTitle"}}</h3>
+      <span class="affiliate-badge">{{ i18n "ad" }}</span>
+    </div>
+    {{/* Loop through categories and display ads, limit only to two categories */}}
+    <div class="affiliate-body">
+      <div>{{i18n "leftPanelDesc"}}</div>
+      <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
+        <img src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp" alt="Video thumbnail" class="video-thumbnail">
+        <div class="play-button"></div>
+      </div>
+      <div><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" rel="nofollow sponsored" href="https://www.saaspegasus.com/?via=coffee-bytes">{{ i18n "leftPanelButton"}}</a></div>
+    </div>
+  </aside>
+</template>
+
 {{ end }}
 
 <script defer type="module">
-  function renderAds() {
+
+  function loadYoutubeVideo() {
+    const placeholders = document.querySelectorAll('.video-placeholder');
+    
+    placeholders.forEach(placeholder => {
+      placeholder.addEventListener('click', function() {
+        const videoId = this.getAttribute('data-video-id');
+        const imageUrl = this.getAttribute('data-image-url');
+        
+        // Create YouTube iframe
+        const iframe = document.createElement('iframe');
+        iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        
+        // Replace the placeholder content with the iframe
+        this.innerHTML = '';
+        this.appendChild(iframe);
+        
+        // Track the conversion if needed (for analytics)
+        console.log('Video loaded:', videoId, 'Replaced image:', imageUrl);
+      });
+    });
+  }
+
+
+  function renderRightPanelAds(){
     let booksTemplates = document.querySelectorAll(".books");
     let rightPanel = document.getElementById("right-panel");
     booksTemplates.forEach((bookTemplate) => {
@@ -153,6 +242,13 @@
         rightPanel.appendChild(clon)
     })
   }
+
+  function renderAds() {
+      renderRightPanelAds()
+      renderLeftPanelAds()
+      loadYoutubeVideo()
+  }
+
   async function updateLinkToMx() {
     const response = await fetch("/data/ads.json")
     const adsData = await response.json()
@@ -165,8 +261,18 @@
     })
   }
 
+  async function renderLeftPanelAds() {
+    let sassTemplates = document.querySelectorAll(".sassTemplates");
+    let leftPanel = document.getElementById("left-panel");
+    sassTemplates.forEach((sassTemplate) => {
+      let clon = sassTemplate.content.cloneNode(true);
+      leftPanel.appendChild(clon)
+    })
+  }
+
   function reloadAds() {
     document.getElementById("right-panel")?.replaceChildren();
+    document.getElementById("left-panel")?.replaceChildren();
     renderAds();
   }
 
@@ -184,5 +290,8 @@
   }
 }))
   renderAds()
+  
+
+
 </script>
 
