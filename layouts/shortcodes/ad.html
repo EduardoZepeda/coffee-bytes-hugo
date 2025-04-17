@@ -169,6 +169,7 @@
         <h3>{{i18n "bookRecommendations"}}</h3>
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
       </div>
+      <div class="affiliate-desc">{{i18n "bookDescriptions"}}</div>
       {{/* Loop through categories and display ads, limit only to two categories */}}
       {{ range first 2 .Page.Params.categories }}
         {{ $ad := index $langAds . }}
@@ -298,4 +299,6 @@
   reloadAds()
 
 </script>
+
+
 

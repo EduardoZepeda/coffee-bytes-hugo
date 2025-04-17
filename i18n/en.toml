@@ -4,11 +4,14 @@ other = "Check it out on Amazon"
 [bookRecommendations]
 other = "My book recommendations"
 
+[bookDescriptions]
+other = "Yes, I've read them"
+
 [leftPanelTitle]
-other = "Build your own SAAS and start making money"
+other = "Start making money with your own SAAS 😎"
 
 [leftPanelDesc]
-other = "No subscriptions, buy the code once, use it forever. You own the code. Save months of development and headaches."
+other = "No subscriptions, buy the code once, use it forever. Save months of development and headaches."
 
 [leftPanelButton]
-other = "Wanna know more? Go 😎"
+other = "Wanna know more? Let's go"

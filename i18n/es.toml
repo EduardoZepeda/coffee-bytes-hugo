@@ -4,6 +4,9 @@ other = "Ver en Amazon"
 [bookRecommendations]
 other = "Mis recomendaciones"
 
+[bookDescriptions]
+other = "Sí, los leí completos"
+
 [leftPanelTitle]
 other = "Crea tu propio SAAS y empieza a ganar dinero"
 
