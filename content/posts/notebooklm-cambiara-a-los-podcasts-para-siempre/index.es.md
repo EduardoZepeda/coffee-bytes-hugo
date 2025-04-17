@@ -23,7 +23,7 @@ Acabo de probar Google Notebooklm, y esta sensación de novedad y emoción se ap
 
 Seguramente ya has escuchado hablar de esta herramienta, y si no, pues te explico a continuación. 
 
-Google Notebooklm es una herramienta de AI que se vuelve un experto en tus notas y te ayuda, pero esto no es lo que me ha dejado boquiabierto, sino su herramienta que transforma tus notas en una conversación entre dos personas, por ahora solo disponible en idioma inglés y te muestro ahora mismo el resultado.
+Google Notebooklm es una herramienta de AI que se vuelve un experto en tus notas y te ayuda, pero esto no es lo que me ha dejado boquiabierto, sino su herramienta que transforma tus notas en una conversación entre dos personas, ~~por ahora solo disponible en idioma inglés~~ disponible ya en varios lenguajes, y te muestro ahora mismo el resultado.
 
 ![Las personas suelen preferir el contenido audiovisual sobre el texto](images/podcast-meme-5-minutes.jpg "Las personas suelen preferir el contenido audiovisual sobre el texto")
 

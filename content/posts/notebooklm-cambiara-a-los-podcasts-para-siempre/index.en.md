@@ -22,7 +22,7 @@ I just tried Google Notebooklm, and this feeling of novelty and excitement took 
 
 You've probably already heard of this tool, and if you haven't, I'll explain below. 
 
-Google Notebooklm is an AI tool that becomes an expert in your notes and helps you. But the latter is not what has left me speechless. It is its tool that transforms your notes into a conversation between two people. Right now is only available in English language. But let me show you the results right now.
+Google Notebooklm is an AI tool that becomes an expert in your notes and helps you. But the latter is not what has left me speechless. It is its tool that transforms your notes into a conversation between two people. ~~Right now is only available in English language~~ More languages are available now. But let me show you the results right now.
 
 ![People often prefer audio-visual content over text](images/podcast-meme-5-minutes.jpg "People often prefer audio-visual content over text")
 

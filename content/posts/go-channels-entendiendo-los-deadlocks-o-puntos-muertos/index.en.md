@@ -18,7 +18,7 @@ When working with channels there is a quite common error that occurs when you ar
 ## Why does the error fatal error: all goroutines are asleep - deadlock! happen?
 
 This error occurs when:
-- A channel sends information, but not channel is there to receive it.
+- A channel sends information, but no channel is there to receive it.
 - There is a channel that receives information, but not channel that sends it.
 - When we are not inside a goroutine other than the one from the main function.
 

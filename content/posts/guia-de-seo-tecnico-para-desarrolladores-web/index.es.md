@@ -176,7 +176,7 @@ Hay mucho más alla de las divs, los anchors, las etiquetas img y las de video. 
 - *section*: Agrupación temática de contenidos, normalmente con un encabezado.
 - *nav*: Enlaces de navegación para el documento o el sitio, breadcrumbs, barra de navegación.
 - *footer*: Pie de página de una sección o página, a menudo con metadatos.
-- *datetime*: Fecha/hora (utilizada en *<time>*).
+- *datetime*: Fecha/hora (utilizada en la etiqueta *time*).
 - *aside*: Contenido relacionado tangencialmente con el contenido principal.
 - *header*: Contenido de introducción o que ayuda a la navegación para una sección/página.
 - *progress*: Muestra el progreso de finalización de una tarea.

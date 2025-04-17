@@ -86,7 +86,7 @@ Internamente no hay nada mágico, los servicios interactuan con los servidores o
 
 Aprecia como hay una validación inicial usando la conocida librería *Zod*, pero al final existe una llamada a una función para realizar una petición a una URL de Github.
 
-``` javascript
+``` javascript {linenos=inline hl_lines=[20]}
 import { z } from "zod";
 import { githubRequest, buildUrl } from "../common/utils.js";
 

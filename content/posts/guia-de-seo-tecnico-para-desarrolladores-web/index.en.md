@@ -184,7 +184,7 @@ There is much more to it than divs, anchors, img tags and video tags. HTML provi
 - *section*: Thematic grouping of content, typically with a heading.
 - *nav*: Navigation links for the document or site.
 - *footer*: Footer for a section or page, often containing metadata.
-- *datetime*: Machine-readable date/time (used within *<time>*).
+- *datetime*: Machine-readable date/time (used within *time*).
 - *aside*: Content tangentially related to the surrounding content.
 - *header*: Introductory content or navigational aids for a section/page.
 - *progress*: Displays the completion progress of a task.

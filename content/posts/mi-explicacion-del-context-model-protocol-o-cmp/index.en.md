@@ -86,7 +86,7 @@ Internally there is no magic at all, the services interact with the servers or i
 
 Notice how there is an initial validation using the familiar *Zod* library, but at the end of the snippet there is a function call that makes a request to a Github URL.
 
-``` javascript
+``` javascript {linenos=inline hl_lines=[20]}
 import { z } from "zod";
 import { githubRequest, buildUrl } from "../common/utils.js";
 
