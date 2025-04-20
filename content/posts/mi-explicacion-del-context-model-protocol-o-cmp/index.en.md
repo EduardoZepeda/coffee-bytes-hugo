@@ -25,7 +25,11 @@ If you're struggling to understand the Model Context Protocol, I feel you, I wat
 
 One of the most convenient uses of LLMs is to use them to analyse or process our own data, for which there are several options, such as [LLM fine-tuning](/en/fine-tuning-a-llm-small-practical-guide-with-resources/) or RAG, or manually passing our data as context as part of the prompt.
 
-Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context to LLMs. This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [another AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/) or a completely groundbreaking paradigm?
+Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context and the ability to interact with systems to LLMs. Where does that context come from? Well, pretty much anywhere, Github, a database, your file system, an API ([gPRC type](/en/fast-and-performant-apis-using-grpc-and-protobuffers/), REST or others), basically any source that can return information.
+
+![Example of MCP usage, user asks for the content of its own files, LLM reads them and replies](https://res.cloudinary.com/dwrscezd2/image/upload/v1745179286/coffee-bytes/mcp-example-usage_tzqdd8.png)
+
+This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [another AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/) or a completely groundbreaking paradigm?
 
 MCP exists to act as a bridge between an LLM and contextual information, in a standardised and agnostic way. The key word here is *standardisation*.
 

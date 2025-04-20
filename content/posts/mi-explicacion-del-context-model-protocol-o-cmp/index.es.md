@@ -23,9 +23,11 @@ Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entie
 
 ## ¿Por qué se creó el Model Context Protocol?
 
-Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. 
+Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC](/es/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), REST u otras), básicamente cualquier fuente que pueda retornar información.
 
-Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/) o una afirmación completamente fiel a la realidad?
+![Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde](https://res.cloudinary.com/dwrscezd2/image/upload/v1745179286/coffee-bytes/mcp-example-usage_tzqdd8.png)
+
+Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto, e interaccionar con el exterior, a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI](/es/el-auge-y-la-caida-de-la-burbuja-de-ai/) o una afirmación completamente fiel a la realidad?
 
 MCP existe para servir como un puente entre un LLM y la información relacionada al contexto, esto de una forma estandarizada y agnóstica. Aquí la palabra clave es "estandarización".
 
