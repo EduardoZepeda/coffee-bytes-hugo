@@ -23,7 +23,7 @@ To explain the topic I will assume you know the basics of slices and data types 
 
 As you probably already know, computers only store numbers. The letters you see on the screen are a representation of those numbers.
 
-So how does the computer know which number corresponds to which letter? Well, a bunch of people got together and agreed to assign a number to each character. Of course these agreements are not universal and there are multiple variants on what numbers correspond to each letter, including ASCII, UTF-8, UTF-16, UTF-32 and other less common ones. That is, a number may represent the character "人" in one convention, but it may represent another in another convention, so they are just numbers.
+So how does the computer know which number corresponds to which letter? Well, a bunch of people got together and agreed to assign a number to each character. Of course these agreements are not universal and there are multiple variants on what numbers correspond to each letter, including ASCII, UTF-8, UTF-16, UTF-32 and other less common ones. That is, a number may represent the character "人" in one convention, but it may represent another letter in another convention, but they are just numbers.
 
 This topic is quite extensive and there is already enough information on the internet, so just keep in mind that behind each character there is a number that represents it and that this character depends on the table we use to represent it.
 
@@ -41,7 +41,7 @@ A byte in go is synonymous with an _uint8_, an unsigned int8. In other words, 8 
 
 ```go
 var ch byte = 65 // decimal
-var ch1 byte = 0b1000001 // Binaria
+var ch1 byte = 0b1000001 // Binary
 var ch2 byte = 0o101      // Octadecimal
 var ch3 byte = 0X41       // hexadecimal
 ```
@@ -70,20 +70,20 @@ fmt.Println(string(ch))
 Just as we have the byte data type, we can also create an array of bytes and in multiple ways. Notice how the array is stored with the number that corresponds to each character.
 
 ```go
-// Instanciado directamente de un string
+// Created directly from a string 
 t1 := []byte("ABCDE")
 
-// Como si fuera un array de caracteres
+// As a char array
 t2 := []byte{'A', 'B', 'C', 'D', 'E'}
 
-// como si fuera un array de números ord()
+// As a number array ord()
 t3 := []byte{65, 66, 67, 68, 69}
 
-// Con la función copy
+// With copy 
 var t4 = make([]byte, 5)
 copy(t4, "ABCDE")
 
-// En todos los casos obtenemos:
+// In every case we obtain the same
 //[65 66 67 68 69]
 ```
 
@@ -99,7 +99,7 @@ fmt.Println(string(t1))
 
 ## Runes in go
 
-Runes or runes are synonymous with an _int32_ type. It is the default variable type when you define a character, **we use single quotes to declare it**. If you do not specify a byte or other data type, go will assume it is a rune.
+Runes or runes is an alias for _int32_ type. It is the default variable type when you define a character, **we use single quotes to declare it**. If you do not specify a byte or other data type, go will assume it is a rune.
 
 ```go
 var runa rune = 65
@@ -155,7 +155,7 @@ fmt.Println(len(s))
 // 23
 ```
 
-![Difference in size of characters in a string in go](images/runesEnGo.png)
+![Difference in size of characters in a string in go](images/runesEnGo.png "Difference in size of characters in a string in go")
 
 When iterating over our string, we will be iterating byte by byte, so we will print 23 bytes, each byte expressed in octadecimal notation.
 
@@ -184,7 +184,7 @@ for index, runeValue := range s {
 //U+60C5 '情' starts at byte position 20
 ```
 
-## Package strings
+## Package strings summary
 
 Go has a package in its standard library to handle strings, with multiple methods. Here are some of the most important ones:
 
@@ -203,7 +203,7 @@ Go has a package in its standard library to handle strings, with multiple method
 
 Check out the complete functions in [the strings documentation in go](https://pkg.go.dev/strings).
 
-## strconv package
+## strconv package summary
 
 There is also a package that allows us to convert strings into other data types:
 

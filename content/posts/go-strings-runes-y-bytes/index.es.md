@@ -102,7 +102,7 @@ fmt.Println(string(t1))
 
 ## Runes en go
 
-Las runes o runas son sinónimo de un tipo _int32_. Es el tipo de variable por defecto cuando defines un carácter, **utilizamos comillas sencillas para declararlo**. Si no especificas byte u otro tipo de dato, go dará por sentado que se trata de una rune.
+Las runes o runas son un alias para el tipo _int32_. Es el tipo de variable por defecto cuando defines un carácter, **utilizamos comillas sencillas para declararlo**. Si no especificas byte u otro tipo de dato, go dará por sentado que se trata de una rune.
 
 ```go
 var runa rune = 65
@@ -187,7 +187,7 @@ for index, runeValue := range s {
 //U+60C5 '情' starts at byte position 20
 ```
 
-## Paquete strings
+## Resumen del paquete strings en Go
 
 Go cuenta con un paqueteen su librería estándar para manejar strings, con múltiples métodos. Aquí dejo algunos de los más importantes:
 
@@ -206,7 +206,7 @@ Go cuenta con un paqueteen su librería estándar para manejar strings, con múl
 
 Revisa las funciones completas en [la documentación de strings en go](https://pkg.go.dev/strings).
 
-## Paquete strconv
+## Resumen del paquete strconv en Go
 
 También existe un paquete que nos permite convertir strings en otros tipos de datos:
 
