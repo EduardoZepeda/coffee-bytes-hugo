@@ -1,5 +1,5 @@
 [amazonLink]
-other = "Check it out on Amazon"
+other = "Check price on Amazon"
 
 [bookRecommendations]
 other = "My book recommendations"
@@ -14,4 +14,4 @@ other = "Your SAAS in days, not months 😎"
 other = "Buy the code once, use it forever"
 
 [leftPanelButton]
-other = "More information"
+other = "I want to know more"
