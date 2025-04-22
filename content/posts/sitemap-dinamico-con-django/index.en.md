@@ -22,7 +22,9 @@ A sitemap is [crucial in SEO and a sitemap with errors can plummet your site vie
 
 ## Structure of a sitemap
 
-A sitemap is an xml file, which has an element called urlset, which is a collection of url elements. Each url element has a location, in this case its url address, a frequency of change, a priority and other optional elements, such as images.
+A sitemap is an xml file, which has an element called urlset, which is a collection of url elements. Each url element has a location, in this case its url address, a frequency of change, a priority and other optional elements, such as images. 
+
+A sitemap is a [crucial part of technical SEO]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), and every site should have one.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -98,11 +100,11 @@ class VideogameSitemap(Sitemap):
         return obj.modified
 ```
 
-### items
+### Define items in django sitemap
 
 By overwriting the items function we will define the queryset that will be used as a base, you can modify it as much as you want: partition it, limit it to attributes of your objects or as you prefer.
 
-### location
+### location method in django Sitemap
 
 Location refers to the url of the resource. If we do not define a _location_ method, Django will use the _get_absolute_url_ method of our model to generate it.
 
@@ -170,7 +172,7 @@ If we access the sitemap, you will notice that the base url of the urls is _exam
 
 ![Add a domain to the Django sitemap](images/Django-sitio-sitemap.png "Modify the default domain of the sitemap in /admin/sites/site/")
 
-## Sitemap cache
+## Should I cache the sitemap?
 
 Remember that, generally, when you are creating a sitemap dynamically, from each of the objects in your database, you are going through it completely every time you access it. If your database is colossal, this may not be convenient because every access to the sitemap will hit the database, and trust me there are bots crawling the web several times a day. 
 

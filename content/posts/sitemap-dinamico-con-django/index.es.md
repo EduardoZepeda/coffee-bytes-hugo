@@ -28,6 +28,8 @@ Un sitemap bien estructurado es [crucial en SEO y la presencia de errores puede 
 
 Un sitemap es un archivo xml, que cuenta con un elemento llamado urlset, el cual es una colección de elementos url. Cada elemento url tiene una locación, en este caso su dirección url, una frecuencia de cambio, una prioridad y otros elementos opcionales, tales como imágenes.
 
+Un sitemap es una [parte crucial, pero no la única, del SEO técnico]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="es" >}}), todos los sitios web deberían tener uno.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">

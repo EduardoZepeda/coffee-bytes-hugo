@@ -54,7 +54,7 @@ Primero vamos a instalar las librerías necesarias: djangorestframework y django
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación de Django de forma barata y con buen rendimiento, DO tiene VPS (ellos les llaman Droplets) desde $4 usd el mes">}}
 
-Para instalarlas usaré [el administrador de entornos virtuales llamado Pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/). También puedes usar pip si quieres.
+Para instalarlas podemos usar [el administrador de entornos virtuales llamado Pipenv](/es/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), Poetry o cualquier otro gestor que quieras. También puedes usar pip si quieres.
 
 ```python
 pip install djangorestframework_simplejwt djangorestframework
