@@ -137,27 +137,27 @@ To simplify the connection to websocket in the browser, I'm going to take the Ja
     <title>Document</title>
 </head>
 <script>
-    // Se crea la conexión por websocket
+    // web socket connection was created
     const chatSocket = new WebSocket(
             'ws://'
             + window.location.host
             + '/ws/chat/'
         );
-    // Cada que se recibe un mensaje se lee y se imprime en pantalla
+    // Every time a message is read show it on the screen
     chatSocket.onmessage = function(e) {
             const data = JSON.parse(e.data);
             console.log(data)
         }
-    // Envia el texto "nuestro mensaje"
+    // Send "our message"
     function sendMessage() {
-        let message = "nuestro mensaje"
+        let message = "our message"
         chatSocket.send(JSON.stringify({
             'message': message
         }));
     }
 </script>
 <body>
-    <button onclick=sendMessage()>Enviar</button>
+    <button onclick=sendMessage()>Send</button>
 </body>
 </html>
 ```
@@ -226,7 +226,7 @@ class ChatConsumer(WebsocketConsumer):
         async_to_sync(self.channel_layer.group_add)("chat", self.channel_name)
         self.accept()
         self.user = self.scope["user"]
-        self.send(text_data=json.dumps({"message": "Se ha conectado %s" % (self.user.username)}))
+        self.send(text_data=json.dumps({"message": "%s has connected" % (self.user.username)}))
 ```
 
 If you have a logged in user you will see something like this when logging in:
@@ -253,8 +253,7 @@ class ChatConsumer(WebsocketConsumer):
     def receive(self, text_data):
         ...
         async_to_sync(login)(self.scope, user)
-        # La sesión se modifica con el login
-        # Pero es necesario guardar la sesión 
+        # It is necessary to save the session
         self.scope["session"].save()
 
     def disconnect(self, close_code):
@@ -283,7 +282,7 @@ current_settings = (
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", current_settings)
 django_asgi_app = get_asgi_application()
 
-# el resto de tus imports van acá
+# More imports here
 # import app...
 
 #...
@@ -311,7 +310,7 @@ The error can manifest itself in several ways, one of which is this _deploys fai
 If you try to communicate with an insecure protocol to an insecure protocol you will get an error.
 
 ``` javascript
-// Te toca definir la variable/funcion de manera dynamica
+// Your turn to define this
 if(serving_using_https){
     ws_url = 'wss://...'
 }
