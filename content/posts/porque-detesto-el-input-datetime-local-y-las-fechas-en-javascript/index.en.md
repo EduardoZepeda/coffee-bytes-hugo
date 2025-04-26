@@ -56,10 +56,12 @@ And yes, I know what you're thinking. Although I really like [the Go programming
 
 ![Go date formatting is awful too](images/date_formatting_golang.webp "Go's date formatting, like Javascript's, is awful")
 
-## Algunas librerías para manejar fechas en Javascript
+## Some libraries to handle dates effortlessly in Javascript
 
-¿Qué usar para manejar la fecha con Javascript? Prueba con estas librerías para manejar fechas
+I try to avoide date libraries whenever possible, but if it is completely unavoidable these are my favorite ones:
 
+- [Date-fns](https://date-fns.org/#?)
+- [Luxon](https://moment.github.io/luxon/#/#?)
 - [Tempo](https://tempo.formkit.com/#?)
 - [Momentjs](https://momentjs.com/#?)
 - [Dayjs](https://day.js.org/#?)
