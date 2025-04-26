@@ -128,17 +128,17 @@ In the same way that we create a **modifiable byte array**, we can create an arr
 rune, with parentheses, is a type conversion from string to rune. Observe how at the end we have an array of _int32_
 
 ```go
-arrayRunas := []rune("Jello, ")
-arrayRunas[0] = 'H'
-arrayRunas = append(arrayRunas, '世', '!')
-fmt.Println(arrayRunas)
+arrayRunes := []rune("Jello, ")
+arrayRunes[0] = 'H'
+arrayRunes = append(arrayRunes, '世', '!')
+fmt.Println(arrayRunes)
 // [72 101 108 108 111 44 32 19990 33]
 ```
 
 As we did before, we can transform those numbers into a string using the string function.
 
 ```go
-fmt.Println(string(arrayRunas))
+fmt.Println(string(arrayRunes))
 // Hello, 世!
 ```
 

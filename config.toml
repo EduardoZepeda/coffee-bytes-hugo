@@ -78,9 +78,9 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "<div style='text-align:justify;'>I'm looking to connect with some like-minded devs. If you're into digital nomadism, freelancing, solopreneur-ship, let's connect on <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>Elon's propaganda machine</a></div>"
-followRequestDelay = 450
-followTitle = "Hey, let's connect!"
+followDescription = "Just register through the following Badge <div class='prePostAffiliate'><a href='https://www.digitalocean.com/?refcode=a22240ebb8e7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge'><img src='https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg' alt='DigitalOcean Referral Badge' /></a></div>"
+followRequestDelay = 60
+followTitle = "Free $200 USD Credit on Digital Ocean?"
 modalcountdown = 250
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
 prePostAffiliateLink = ""
@@ -158,9 +158,9 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "<div style='text-align:justify;'>Busco expandir mi círculo social, si te interesa el nomadismo digital, freelancear o el mundo solopreneur, agrégame a <a class='markdown-link' href='https://linkedin.com/in/eduardomzepeda'>Linkedin</a> or <a class='markdown-link' href='https://x.com/hello_wired'>a la máquina de propaganda de Elon</a></div>"
-followRequestDelay = 450
-followTitle = "¡Hey! ¡Conectemos!"
+followDescription = "Solo regístrate usando el siguiente enlace <a class='prePostAffiliate' href='https://www.digitalocean.com/?refcode=a22240ebb8e7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge'><img src='https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg' alt='DigitalOcean Referral Badge' /></a>"
+followRequestDelay = 60
+followTitle = "$200 USD Gratis en Hosting de Digital Ocean"
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
 modalcountdown = 250
