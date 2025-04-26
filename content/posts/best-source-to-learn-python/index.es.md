@@ -1,7 +1,6 @@
 ---
 date: "2025-04-25"
 title: "Mis libros favoritos para aprender a programar en Python"
-draft: true
 description: 'Te Presento mi lista de libros favoritos y algunos recursos extra que puedes usar para aprender el lenguaje de programación Python, incluso sin experiencia'
 keyword: "libro para aprender python"
 coverImage: images/best-source-to-learn-python.jpg
