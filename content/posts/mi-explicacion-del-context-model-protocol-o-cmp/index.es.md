@@ -119,7 +119,7 @@ export async function listCommits(
 
 #### ¿Cómo sabe el LLM qué acción debe realizar?
 
-Esta es la parte mágica, el LLM puede «leer» las acciones disponibles, decidir que acción debe ejecutar basada en el prompt, entonces el MCP realizará la acción y devolverá la respuesta al LLM después la respuesta será leída por el LLM y generará una respuesta para el usuario.
+Esta es la parte mágica, el LLM puede "leer" las acciones disponibles del MCP y, basado en el prompt, decidir que acción debe ser ejecutada, entonces el MCP realizará la acción y devolverá la respuesta al LLM, después la respuesta será leída por el LLM, que generará una respuesta final para el usuario.
 
 ![MCP Flow Diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1745694216/coffee-bytes/MCP-flow-diagram_jjziao.png)
 
