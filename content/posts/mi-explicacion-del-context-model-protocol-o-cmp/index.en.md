@@ -27,7 +27,7 @@ One of the most convenient uses of LLMs is to use them to analyse or process our
 
 Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context and the ability to interact with systems to LLMs. Where does that context come from? Well, pretty much anywhere, Github, a database, your file system, an API ([gPRC type](/en/fast-and-performant-apis-using-grpc-and-protobuffers/), REST or others), basically any source that can return information.
 
-![Example of MCP usage, user asks for the content of its own files, LLM reads them and replies](https://res.cloudinary.com/dwrscezd2/image/upload/v1745179286/coffee-bytes/mcp-example-usage_tzqdd8.png)
+![Example of MCP usage, user asks for the content of its own files, LLM reads them and replies](https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png)
 
 This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [another AI bubble](/en/the-rise-and-fall-of-the-ai-bubble/) or a completely groundbreaking paradigm?
 
@@ -119,7 +119,14 @@ export async function listCommits(
 }
 ```
 
-So far I have been talking about resources and actions, but in the CMP these two actions which are in charge of giving context to an LLM have names. Of course they were not going to miss the opportunity to give some branding to their protocol.
+#### How does the LLM knows what action should peform?
+
+This is the magic part, the LLM can "read" the available actions from the MCP and, based on the prompt, decide which action should be executed based on the prompt, then the MCP will perform the action an return the answer to the LLM afterwards the answer will be read by the LLM and it will generate a response for the user.
+
+![MCP Flow Diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1745694216/coffee-bytes/MCP-flow-diagram_jjziao.png)
+
+
+So far I have been talking about resources and actions, but in the MCP these two actions which are in charge of giving context to an LLM have names. Of course they were not going to miss the opportunity to give some branding to their protocol.
 
 {{<ad>}}
 
