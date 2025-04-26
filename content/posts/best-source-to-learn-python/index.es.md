@@ -74,7 +74,8 @@ La ventaja de este libro es que es de bolsillo y puedes leerlo en cualquier mome
 
 ### Python tricks
 
-Si ya tienes nociones del lenguaje, este libro llevará tus habilidades más allá. Python tricks es un recopilatorio con algunas características poco conocidas, o que han pasado inadvertidas de este lenguaje de programación. ¿Cómo que cosas? Bueno, cosas como: 
+Si ya tienes nociones del lenguaje, este libro llevará tus habilidades más allá. Python tricks es un recopilatorio con algunas características poco conocidas, o que han pasado inadvertidas de este lenguaje de programación. ¿Cómo que cosas? Bueno, cosas como:
+
 - El uso de zip
 - Manejo de iteradores
 - Context managers
@@ -84,6 +85,8 @@ Si ya tienes nociones del lenguaje, este libro llevará tus habilidades más all
 - Named tuples
 
 Y demasiadas cosas como para cubrirlas en un pequeño post. Pero si tienes oportunidad y un poco más de experiencia en el lenguaje, te recomiendo adquirirlo muchísimo.
+
+![Python tricks book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp)
 
 {{< affbutton link="https://amzn.to/3SbKyBe" description="Python Tricks en Amazon" >}}
 

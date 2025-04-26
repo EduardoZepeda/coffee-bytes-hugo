@@ -85,6 +85,8 @@ If you already have some notions of the language, this book will take your skill
 
 And too many things to cover in a short post. But if you have a chance and a little more experience in the language, I highly recommend you to acquire it.
 
+![Python tricks book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp)
+
 {{< affbutton link="https://amzn.to/3SbKyBe" description="Python Tricks on Amazon" >}}
 
 

@@ -88,7 +88,7 @@ That query must have an associated query, in SQL language, which we can access b
 
 ```python
 print(Seller.objects.all().query)
-SELECT "app_seller"."id", "app_seller"."name" FROM "app_seller"
+SELECT app_seller.id, app_seller.name FROM app_seller
 ```
 
 Knowing the query that Django will perform helps us understand what is going on behind the ORM. This will be useful to go deeper into _annotate_.
@@ -100,6 +100,8 @@ Knowing the query that Django will perform helps us understand what is going on 
 We use _annotate_ **when we want to annotate each object returned from a queryset**, as if we want to add an extra property to each object in your queryset, but directly from the database.
 
 Annotate is very useful for performing [advanced text searches using Postgres](/en/trigrams-and-advanced-searches-with-django-and-postgres/).
+
+![Django's Annotate diagram using a JOIN and an aggregate function like SUM](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png)
 
 Imagine that we want to display in a Django template each seller, followed by the sum of the total of all his orders.
 
@@ -116,7 +118,7 @@ class Seller(models.Model):
         total_sum = 0
         for order in self.orders.all():
             print(self.orders.all().query)
-            # Puedes verlo en la terminal
+            # you can see this query in the terminal
             total_sum += order.total
         return total_sum
 ```
@@ -134,11 +136,11 @@ Without using _annotate_ in Django we would need a query for the list of sellers
 If you examine the queries you will see a different query for each vendor.
 
 ```bash
-SELECT ••• FROM "app_seller"
+SELECT ••• FROM app_seller
 # The past query is for obtaining all the sellers
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '1'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '2'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '3'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '1'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '2'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '3'
 ```
 
 Annotate can reduce the number of database queries and thus improve the time it takes for our server to return a response.
@@ -152,8 +154,10 @@ from app.models import Seller
 from django.db.models import Sum
 
 sellers_with_orders_total = Seller.objects.annotate(orders_total = Sum('orders__total'))
+
+# The query produced by the ORM
 print(sellers_with_orders_total.query)
-SELECT "app_seller"."id", "app_seller"."name", CAST(SUM("app_order"."total") AS NUMERIC) AS "orders_total" FROM "app_seller" LEFT OUTER JOIN "app_order" ON ("app_seller"."id" = "app_order"."seller_id") GROUP BY "app_seller"."id", "app_seller"."name"
+SELECT app_seller.id, app_seller.name, CAST(SUM(app_order.total) AS NUMERIC) AS orders_total FROM app_seller LEFT OUTER JOIN app_order ON (app_seller.id = app_order.seller_id) GROUP BY app_seller.id, app_seller.name
 ```
 
 Look at the query, it will return each line of the database (seller) with an extra annotation called _orders_total_, or the name we have assigned to it, which corresponds to the sum of the totals of their respective orders.
@@ -173,8 +177,10 @@ from app.models import Seller
 from django.db.models import Sum, Count
 
 sellers_with_orders_count = Seller.objects.annotate(orders_count = Count('orders'))
+
+# The query produced by the ORM
 print(sellers_with_orders_count.query)
-SELECT "app_seller"."id", "app_seller"."name", COUNT("app_order"."id") AS "orders_count" FROM "app_seller" LEFT OUTER JOIN "app_order" ON ("app_seller"."id" = "app_order"."seller_id") GROUP BY "app_seller"."id", "app_seller"."name"
+SELECT app_seller.id, app_seller.name, COUNT(app_order.id) AS orders_count FROM app_seller LEFT OUTER JOIN app_order ON (app_seller.id = app_order.seller_id) GROUP BY app_seller.id, app_seller.name
 ```
 
 Now, each element of the queryset will have a property called _orders_count_, which will be equal to the count of the orders it has, in this case each of the sellers has two orders.
@@ -193,8 +199,10 @@ from app.models import Seller
 from django.db.models import Sum, Count
 
 combined_querysets = Seller.objects.annotate(orders_count = Count('orders')).annotate(orders_total = Sum('orders__total'))
+
+# The resulting query
 print(combined_querysets.query)
-SELECT "app_seller"."id", "app_seller"."name", COUNT("app_order"."id") AS "orders_count", CAST(SUM("app_order"."total") AS NUMERIC) AS "orders_total" FROM "app_seller" LEFT OUTER JOIN "app_order" ON ("app_seller"."id" = "app_order"."seller_id") GROUP BY "app_seller"."id", "app_seller"."name"
+SELECT app_seller.id, app_seller.name, COUNT(app_order.id) AS orders_count, CAST(SUM(app_order.total) AS NUMERIC) AS orders_total FROM app_seller LEFT OUTER JOIN app_order ON (app_seller.id = app_order.seller_id) GROUP BY app_seller.id, app_seller.name
 ```
 
 Notice how we use the double underscore to access the "total" property of the Order object from Sellers, as you would do in any Django queryset.
@@ -270,10 +278,10 @@ Decimal('2100.000000000')
 The above piece of code is inefficient, again we are querying the database multiple times and processing information with Python, which is not bad, but generally a database is much more efficient.
 
 ```bash
-SELECT ••• FROM "app_seller"
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '1'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '2'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '3'
+SELECT ••• FROM app_seller
+SELECT ••• FROM app_order WHERE app_order.seller_id = '1'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '2'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '3'
 ```
 
 Instead of using Python to calculate the total orders, we could instruct the database to calculate it using _aggregate_.

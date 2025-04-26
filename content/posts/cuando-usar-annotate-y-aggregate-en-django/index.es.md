@@ -82,7 +82,7 @@ Esa consulta debe tener asociada una consulta, en lenguaje SQL, a la cual podemo
 
 ```python
 print(Seller.objects.all().query)
-SELECT "app_seller"."id", "app_seller"."name" FROM "app_seller"
+SELECT app_seller.id, app_seller.name FROM app_seller
 ```
 
 Conocer la consulta que realizará Django nos ayuda a entender que está sucediendo tras el ORM. Esto será de utilidad para profundizar en _annotate_.
@@ -94,6 +94,8 @@ Conocer la consulta que realizará Django nos ayuda a entender que está sucedie
 Usamos _annotate_ **cuando queremos hacer una anotación en cada objeto que nos devuelva de un queryset**, como si quisiéramos agregar una propiedad extra a cada objeto de tu queryset, pero directo desde la base de datos.
 
 Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres](/es/trigramas-y-busquedas-avanzadas-con-django-y-postgres/).
+
+![Django Annotate diagrama de funcionamiento donde se realiza un Join y luego una función como SUM](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png)
 
 Imagínate que queremos mostrar en una plantilla de Django cada vendedor, seguido de la suma del total de todos sus pedidos.
 
@@ -128,11 +130,11 @@ Sin usar _annotate_ en Django necesitaríamos un query para la lista de vendedor
 Si examinas las queries verás una query diferente para cada vendedor.
 
 ```bash
-SELECT ••• FROM "app_seller"
+SELECT ••• FROM app_seller
 # La consulta anterior es para obtener todos los vendedores
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '1'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '2'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '3'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '1'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '2'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '3'
 ```
 
 Annotate puede reducir el número de consultas a la base de datos y con ello mejorar el tiempo que tarda nuestro servidor en devolver una respuesta.
@@ -147,7 +149,7 @@ from django.db.models import Sum
 
 sellers_with_orders_total = Seller.objects.annotate(orders_total = Sum('orders__total'))
 print(sellers_with_orders_total.query)
-SELECT "app_seller"."id", "app_seller"."name", CAST(SUM("app_order"."total") AS NUMERIC) AS "orders_total" FROM "app_seller" LEFT OUTER JOIN "app_order" ON ("app_seller"."id" = "app_order"."seller_id") GROUP BY "app_seller"."id", "app_seller"."name"
+SELECT app_seller.id, app_seller.name, CAST(SUM(app_order.total) AS NUMERIC) AS orders_total FROM app_seller LEFT OUTER JOIN app_order ON (app_seller.id = app_order.seller_id) GROUP BY app_seller.id, app_seller.name
 ```
 
 Mira la consulta, nos devolverá cada linea de la base de datos (vendedor) con una anotación extra llamada _orders\_total_, o el nombre que le hayamos asignado, que corresponde a la suma de los totales de sus respectivos pedidos.
@@ -168,7 +170,7 @@ from django.db.models import Sum, Count
 
 sellers_with_orders_count = Seller.objects.annotate(orders_count = Count('orders'))
 print(sellers_with_orders_count.query)
-SELECT "app_seller"."id", "app_seller"."name", COUNT("app_order"."id") AS "orders_count" FROM "app_seller" LEFT OUTER JOIN "app_order" ON ("app_seller"."id" = "app_order"."seller_id") GROUP BY "app_seller"."id", "app_seller"."name"
+SELECT app_seller.id, app_seller.name, COUNT(app_order.id) AS orders_count FROM app_seller LEFT OUTER JOIN app_order ON (app_seller.id = app_order.seller_id) GROUP BY app_seller.id, app_seller.name
 ```
 
 Ahora, cada elemento del queryset poseerá una propiedad llamada _orders\_count_, que será igual al conteo de los pedidos que tiene, en este caso cada uno de los vendedores cuenta con dos pedidos.
@@ -188,7 +190,7 @@ from django.db.models import Sum, Count
 
 combined_querysets = Seller.objects.annotate(orders_count = Count('orders')).annotate(orders_total = Sum('orders__total'))
 print(combined_querysets.query)
-SELECT "app_seller"."id", "app_seller"."name", COUNT("app_order"."id") AS "orders_count", CAST(SUM("app_order"."total") AS NUMERIC) AS "orders_total" FROM "app_seller" LEFT OUTER JOIN "app_order" ON ("app_seller"."id" = "app_order"."seller_id") GROUP BY "app_seller"."id", "app_seller"."name"
+SELECT app_seller.id, app_seller.name, COUNT(app_order.id) AS orders_count, CAST(SUM(app_order.total) AS NUMERIC) AS orders_total FROM app_seller LEFT OUTER JOIN app_order ON (app_seller.id = app_order.seller_id) GROUP BY app_seller.id, app_seller.name
 ```
 
 Observa como usamos el doble guión bajo para acceder a la propiedad "total" del objeto Order desde Sellers, como harías en cualquier queryset de Django.
@@ -264,10 +266,10 @@ Decimal('2100.000000000')
 El pedazo de código anterior es ineficiente, nuevamente estamos consultando múltiples veces la base de datos y procesando información con Python, lo cual no es malo, pero generalmente una base de datos es mucho más eficiente.
 
 ```bash
-SELECT ••• FROM "app_seller"
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '1'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '2'
-SELECT ••• FROM "app_order" WHERE "app_order"."seller_id" = '3'
+SELECT ••• FROM app_seller
+SELECT ••• FROM app_order WHERE app_order.seller_id = '1'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '2'
+SELECT ••• FROM app_order WHERE app_order.seller_id = '3'
 ```
 
 En lugar de usar Python para calcular el total de los pedidos, podríamos darle instrucciones a la base de datos para que lo calcule usando _aggregate_.
