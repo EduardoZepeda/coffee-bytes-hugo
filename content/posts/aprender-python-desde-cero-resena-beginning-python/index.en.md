@@ -10,7 +10,9 @@ authors:
 - Eduardo Zepeda
 ---
 
-Beginning Python: From Novice To Professional was one of the first Python books I read. I chose this book because with it you could learn Python from scratch. The book starts from the installation of the language, going through the different types of data structures that Python includes and even two chapters on abstraction. When you get to the end of the introduction, the following chapters of this book touch on a different topic about Python each, some of the topics covered are as follows:
+Beginning Python: From Novice To Professional was one of the first Python books I read. I chose this book because with it you could learn Python from scratch. The book starts from the installation of the language, going through the different types of data structures that Python includes and even two chapters on abstraction. 
+
+When you get to the end of the introduction, the following chapters of this book touch on a different topic about Python each, some of the topics covered are as follows:
 
 * Network and server programming
 * Database manipulation
@@ -21,6 +23,8 @@ Beginning Python: From Novice To Professional was one of the first Python books 
 * Program packaging
 
 And, to close the book, the author offers us 10 different projects to put into practice all the topics mentioned above. As you can see, it is a complete walk through several areas of language.
+
+Also, if you want to learn more about this programming language [here's my list of favorite resources to learn Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="en" >}})
 
 ## Learning from scratch
 

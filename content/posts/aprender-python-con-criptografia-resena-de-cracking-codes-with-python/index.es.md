@@ -20,6 +20,8 @@ title: Aprender Python con criptografia reseña de Cracking Codes with Python
 
 ¿A quién no han intentado convencer de invertir en un marketing multi nivel de Bitcoin? A mi sí, pero ojalá a ti nunca te pase. Gracias a Bitcoin, la criptografía está en boca de todos últimamente, sobre todo en el discurso de vendedores sin escrúpulos, pero la criptografía no es reciente, tiene siglos utilizándose; la programación y el código solo la volvieron mucho más rápida y eficiente. La primera vez que leí sobre criptografía fue en la novela Criptonomicón, donde ya se barajaba la idea de las criptomonedas desde mucho antes de la aparición de Bitcoin. Hoy vengo a hablarte de Cracking Codes with Python, **un libro que usa la criptografía para explicar Python**. Este libro te enseña Python básico desde cero mientras das un repaso de la criptografía a través de la historia, con todo y Alan Turing incluido.
 
+A propósito, si quieres aprender más de este lenguaje de programación [aquí está mi lista de recursos favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
+
 Si no tienes ni idea de que es la criptografía puedes tomar esta definición bastante simple: la criptografía es la práctica de crear y entender códigos que mantienen la información en secreto. Muy al estilo de las películas "Una mente brillante", "El código enigma" (The imitation game) o del ya mencionado Criptonomicón.
 
 ## Aprender python con criptografía

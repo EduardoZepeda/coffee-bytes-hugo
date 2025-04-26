@@ -20,7 +20,7 @@ In this entry we are going to use Cron to program the periodic execution of this
 
 If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/en/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/).
 
-Also if you're interested in diving into Python [here's my list of favorite resources to learn it]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="en" >}})
+Also if you're interested in diving into this programming language [here's my list of favorite resources to learn Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="en" >}})
 
 ```python
 #!/usr/bin/python3

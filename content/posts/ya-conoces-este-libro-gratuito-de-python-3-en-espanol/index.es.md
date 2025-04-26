@@ -20,6 +20,8 @@ title: Aprende Python desde cero con este libro gratuito
 
 La mayor parte del contenido en internet sobre el lenguaje de programación Python está en ingles; lo anterior no es nada nuevo, solo basta con darse una vuelta por nuestra librería favorita y preguntar por los libros disponibles en ambos idiomas. El material sobre Python en inglés, además de ser abundante, también es bastante bueno y se encuentra mucho más actualizado que su contraparte en español. Sin embargo, hay un par de excelentes libros para aprender Python en español y uno que otro gratuito, hoy escribiré sobre uno de ellos.
 
+Si te interesa conocer el resto de libros, [aquí está mi lista de recursos favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
+
 ## Una inmersión en el lenguaje de programación Python
 
 El nombre del libro en español es _Inmersión en Python 3_, es una traducción hecha por [José Miguel González Aguilera](http://www.jmgaguilera.com/), del popular libro _Dive into Python 3_ escrito por Mark Pilgrim.

@@ -18,6 +18,8 @@ authors:
 
 Most of the content on the Internet about the Python programming language is in English; this is nothing new, just take a walk through your favorite bookstore and ask for books available in both languages. The material on Python in English, besides being abundant, is also quite good and is much more updated than its counterpart in Spanish. However, there are a couple of excellent books to learn Python in Spanish and one or two free ones, today I will write about one of them.
 
+If you're interested in the rest of books [here's my list of favorite resources to learn Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="en" >}})
+
 ## An immersion in the Python programming language
 
 The name of the book in Spanish is _Inmersión en Python 3_, a translation made by [José Miguel González Aguilera](http://www.jmgaguilera.com/), of the popular book _Dive into Python 3_ written by Mark Pilgrim.

@@ -1,6 +1,6 @@
 ---
 date: "2025-04-25"
-title: "What Are The Best Sources To Learn Python Language IMO"
+title: "My Curated Best Sources To Learn Python Language"
 description: "Here's my list of favorite books and some extra resources you can use to learn the Python programming language, even if you lack experience"
 keyword: "sources to learn python"
 coverImage: images/best-source-to-learn-python.jpg

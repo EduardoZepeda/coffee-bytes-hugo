@@ -13,7 +13,9 @@ description: 'Esta entrada es una breve reseña de Beginning Python: From Novice
 title: Aprender python desde cero Reseña de Beginning Python
 ---
 
-Beginning Python: From Novice To Professional fue uno de los primeros libros de Python que leí. Elegí este libro porque con él se podía aprender Python desde cero. El libro parte desde la instalación del lenguaje, pasando por los diferentes tipos de estructuras de datos que incluye Python e incluso dos capítulos de abstracción. Al llegar al final de la introducción, los siguientes capítulos de este libro tocan un tema diferente sobre Python cada uno, algunos de los temas que se tratan son los siguientes:
+Beginning Python: From Novice To Professional fue uno de los primeros libros de Python que leí. Elegí este libro porque con él se podía aprender Python desde cero. El libro parte desde la instalación del lenguaje, pasando por los diferentes tipos de estructuras de datos que incluye Python e incluso dos capítulos de abstracción. 
+
+Al llegar al final de la introducción, los siguientes capítulos de este libro tocan un tema diferente sobre Python cada uno, algunos de los temas que se tratan son los siguientes:
 
 - Programación de redes y servidores
 - Manipulación de bases de datos
@@ -24,6 +26,8 @@ Beginning Python: From Novice To Professional fue uno de los primeros libros de 
 - Empaquetado de programas
 
 Y, para cerrar el libro, el autor nos ofrece 10 proyectos diferentes, para poner en práctica todos los temas anteriormente mencionados. Como puedes ver es un paseo completo por varias areas del lenguaje.
+
+A propósito, si quieres aprender más de este lenguaje de programación [aquí está mi lista de recursos favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
 
 ## Aprender desde cero
 

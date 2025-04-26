@@ -19,6 +19,8 @@ authors:
 
 Who hasn't been tried to be convinced to invest in multi-level Bitcoin marketing? I have, but hopefully it will never happen to you. Thanks to Bitcoin, cryptography is on everyone's lips lately, especially in the discourse of unscrupulous marketers, but cryptography is not recent, it has been in use for centuries; programming and coding only made it much faster and more efficient. The first time I read about cryptography was in the novel Cryptonomicon, where the idea of cryptocurrencies was already being discussed long before the appearance of Bitcoin. Today I come to tell you about Cracking Codes with Python, **a book that uses cryptography to explain Python**. This book teaches you basic Python from scratch while giving an overview of cryptography through history, with everything and Alan Turing included.
 
+Also, if you want to learn more about this programming language [here's my list of favorite resources to learn Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="en" >}})
+
 If you have no idea what cryptography is, you can take this rather simple definition: cryptography is the practice of creating and understanding codes that keep information secret. Very much in the style of the movies "A brilliant mind", "The imitation game" or the aforementioned Cryptonomicon.
 
 ## Learn python with cryptography
