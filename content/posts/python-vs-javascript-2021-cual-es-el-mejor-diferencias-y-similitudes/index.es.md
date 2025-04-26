@@ -23,6 +23,8 @@ url: javascript-vs-python-cual-es-el-mejor-lenguaje-de-programacion
 
 Python y Javascript son dos de los lenguajes más populares entre las personas que están aprendiendo a programar, ambos son legibles, sencillos y con una curva de aprendizaje bastante plana si los comparamos con lenguajes como C, C++, Java o Rust. Ambos con sus fortalezas, debilidades, sus haters y sus defensores.
 
+Por cierto, aquí están [mis recursos y libros favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
+
 ## Python vs Javascript, usos
 
 ### Usos de Javascript en el navegador

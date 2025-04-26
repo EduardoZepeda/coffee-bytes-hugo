@@ -24,6 +24,8 @@ url: python-vs-go-cual-es-el-mejor-lenguaje-de-programacion
 
 Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empezó de una manera bastante superficial; empecé a invesgar sobre el lenguaje porque me encantó su mascota, sí, de verdad fue por eso. Así que tras un breve debate mental sobre los pros y cons del lenguaje, decidí darle una oportunidad. Mi primera impresión de él es que es bastante similar a Python; simple y sencillo de aprender. Ahora que ya lo he usado un poco más te traigo una comparación de Python vs Go, donde explicaré algunas de sus diferencias, por si estás interesado en aprender uno u otro este año.
 
+Por cierto, aquí están [mis recursos y libros favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
+
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## Introducción y diferencias sutiles entre Python y Go

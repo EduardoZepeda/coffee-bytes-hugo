@@ -1,0 +1,16 @@
+
+
+{{ $link := .Get "link" | default "#" }}
+{{ $description := .Get "description" | default "Click Here" }}
+
+<style>
+  .affiliate-link-button{
+    background-color: #FED400;
+    color: #020100;
+    padding: 10px 24px;
+    border-radius: 4px;
+}</style>
+
+<a href="{{ $link }}" class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" target="_blank" rel="nofollow sponsored">
+  {{ $description }}
+</a>

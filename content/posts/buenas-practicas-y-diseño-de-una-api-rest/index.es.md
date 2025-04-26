@@ -19,7 +19,7 @@ keywords:
 title: Buenas prácticas y diseño de una API REST
 ---
 
-¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet. Dejo las fuentes al final del artículo por si te interesa profundizar o ver de donde viene esta información.
+¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet. Dejo las fuentes al final del artículo por si te interesa profundizar o ver de donde viene esta información. 
 
 Antes de empezar, hay una serie de [características básicas de una API REST](/es/caracteristicas-basicas-de-una-api-rest/), las cuales expuse en una entrada pasada, revísalas si tienes dudas. En esta entrada te voy a hablar un poco de algunos aspectos más subjetivos relacionados con el diseño de APIs REST.
 
@@ -29,7 +29,7 @@ Voy a comenzar con una pregunta bastante común: ¿cómo estructuro mi respuesta
 
 ## Estructura para respuestas JSON
 
-Hay diferentes maneras de estructurar la respuesta de una API REST. No hay ninguna válida ni inválida, depende del gusto de cada equipo y las necesidades de la aplicación. **Lo importante aquí es mantener la consistencia y la homogeneidad en todas tus respuestas**.
+Hay diferentes maneras de estructurar la respuesta de una API REST. No hay ninguna válida ni inválida, depende del gusto de cada equipo y las necesidades de la aplicación. **Lo importante aquí es mantener la consistencia y la homogeneidad en todas tus respuestas**. 
 
 ### Según json:api
 
@@ -291,7 +291,7 @@ En REST una cosa son los recursos y otra su representación, los recursos, adem�
 
 ## ¿Qué tanto anidar los recursos de una API?
 
-Cuando tenemos relaciones entre nuestros recursos, es bastante tentador colocar URL's jerárquicas, complicando el uso de la API.
+Cuando tenemos relaciones entre nuestros recursos, es bueno para [el SEO de nuestro sitio web estructurar el sitio jerarquicamente]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="es" >}}), al hacerlo es bastante tentador sobreextender esas jerarquias, complicando el uso de la API.
 
 ```bash
 # /recurso/<id>/subrecurso/<id>/subsubrecurso/<id>/subsubsubrecurso ❌
@@ -300,7 +300,8 @@ Cuando tenemos relaciones entre nuestros recursos, es bastante tentador colocar 
 
 La documentación de [DRF sugiere una estructura plana](https://www.django-rest-framework.org/api-guide/relations/#example_2) a la hora de diseñar APIs.
 
-La guia de estándares de APIs de la casa blanca también aboga por anidaciones muy cortas, poniendo como límite 
+La guia de estándares de APIs de la casa blanca también aboga por anidaciones muy cortas. 
+
 
 ```bash
 recurso/<id>/recurso

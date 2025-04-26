@@ -16,7 +16,12 @@ keywords:
 title: ¿Cómo programar un cambiador de wallpaper automático en Python?
 ---
 
-En la entrada anterio hicimos un [cambiador de wallpaper automático en Python](/es/como-crear-un-cambiador-de-wallpaper-automatico-usando-python-en-gnome/). En esta entrada vamos a usar Cron para programar la ejecución periódica de este script y que se encargue de cambiar el wallpaper cada cierto tiempo, automáticamente, ya se cada hora, dos horas, cada día, cada minuto o la frecuencia que nosotros querramos. Si no sabes como funciona el daemon Cron y como programar las tareas usando esta herramienta, por favor revisa mi entrada sobre [Cron y Crontab.](/es/programa-tareas-periodicas-facil-en-linux-con-cron-y-crontab/)
+En la entrada anterio hicimos un [cambiador de wallpaper automático en Python](/es/como-crear-un-cambiador-de-wallpaper-automatico-usando-python-en-gnome/). En esta entrada vamos a usar Cron para programar la ejecución periódica de este script y que se encargue de cambiar el wallpaper cada cierto tiempo, automáticamente, ya sea cada hora, dos horas, cada día, cada minuto o la frecuencia que nosotros querramos. 
+
+Si no sabes como funciona el daemon Cron y como programar las tareas usando esta herramienta, por favor revisa mi entrada sobre [Cron y Crontab.](/es/programa-tareas-periodicas-facil-en-linux-con-cron-y-crontab/)
+
+Y si estás interesado en ahondar en Python te comparto [mis recursos y libros favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
+
 
 ```python
 #!/usr/bin/python3

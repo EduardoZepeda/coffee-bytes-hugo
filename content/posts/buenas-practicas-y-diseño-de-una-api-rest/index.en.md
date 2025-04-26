@@ -289,7 +289,7 @@ In REST one thing are the resources and another their representation, the resour
 
 ## How much nesting of API resources?
 
-When we have relationships between our resources, it is quite tempting to place hierarchical URL's, complicating the use of the API.
+When we have relationships between our resources, [it is a good idea for SEO to create a hierarchal structure]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), however it could be tempting making it unnecessarily long.
 
 ```bash
 # /resource/<id>/subresource/<id>/subsubresource/<id>/subsubsubresource ❌
@@ -298,7 +298,7 @@ When we have relationships between our resources, it is quite tempting to place 
 
 The [DRF documentation suggests a flat structure](https://www.django-rest-framework.org/api-guide/relations/#example_2) when designing APIs.
 
-The white house API standards guide also advocates for succinct nesting, setting as a limit
+The white house API standards guide also advocates for succinct nesting.
 
 ```bash
 resource/<id>/resource

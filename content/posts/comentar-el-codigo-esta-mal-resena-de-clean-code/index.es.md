@@ -17,7 +17,7 @@ keywords:
 - reseñas
 - opinion
 - buenas practicas
-title: El libro Clean Code y los paradigmas del código limpio
+title: El libro Clean Code Uncle Bob y Los Paradigmas Del Código Limpio
 ---
 
 Hay dos tipos de programadores, los que odian Clean Code y los que lo aman. Este libro desata discusiones acaloradas en internet; unos lo consideran una biblia que profetiza mejores tiempos con código limpio y ordenado, otros lo consideran un manual desactualizado escrito por un autoproclamado dictador pedante sobre como escribir código ¿Y yo? Pues para ser sincero un poco de ambos. Esta entrada es mi humilde opinión del libro Clean Code de Robert C. Martín, el **creador del ampliamente conocido acrónimo SOLID** y también conocido como el *uncle bob*.

@@ -1,7 +1,8 @@
 ---
 aliases:
 - /en/is-code-commenting-wrong-clean-code-review/
-title: The Clean Code book and the clean code paradigms
+- /en/the-clean-code-book-and-the-clean-code-paradigms/
+title: Uncle Bob Clean Code And The Clean Code Paradigms
 date: "2020-05-16"
 categories:
 - linux and devops
