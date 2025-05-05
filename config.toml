@@ -78,9 +78,9 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "Just register through the following Badge <div class='prePostAffiliate'><a href='https://www.digitalocean.com/?refcode=a22240ebb8e7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge'><img src='https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg' alt='DigitalOcean Referral Badge' /></a></div>"
+followDescription = "there is a way to get $200 USD for free on Digital Ocean as a new user? Interested? Check the last section of <div class='prePostAffiliate'><a href='/en/digital-ocean-analysis-and-my-experience-as-a-user/'>my Digital Ocean Review to get the bonus</a></div>"
 followRequestDelay = 60
-followTitle = "Free $200 USD Credit on Digital Ocean?"
+followTitle = "What if I told you that..."
 modalcountdown = 250
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
 prePostAffiliateLink = ""
@@ -158,9 +158,9 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "Solo regístrate usando el siguiente enlace <a class='prePostAffiliate' href='https://www.digitalocean.com/?refcode=a22240ebb8e7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge'><img src='https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg' alt='DigitalOcean Referral Badge' /></a>"
+followDescription = "existe una manera de obtener un crédito por $200 USD en Digital Ocean. ¿Interesado? Revisa la última sección de <div class='prePostAffiliate'><a href='/es/digital-ocean-analisis-y-mi-experiencia-como-usuario/'>mi Review de Digital Ocean para obtener el bonus</a></div>"
 followRequestDelay = 60
-followTitle = "$200 USD Gratis en Hosting de Digital Ocean"
+followTitle = "¿Y si te digo que..."
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
 modalcountdown = 250

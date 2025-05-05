@@ -60,6 +60,12 @@ curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migr
 mv migrate.linux-amd64 $GOPATH/bin/migrate
 ```
 
+Para versiones más nuevas de Go, utiliza *go install*
+
+``` bash
+go install -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+```
+
 Tras esto deberás poder ver la versión que tienes instalada.
 
 ```bash

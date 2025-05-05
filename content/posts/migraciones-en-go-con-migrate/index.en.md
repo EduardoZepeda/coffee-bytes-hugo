@@ -57,6 +57,12 @@ curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migr
 mv migrate.linux-amd64 $GOPATH/bin/migrate
 ```
 
+In new versions of Go feel free to just use:
+
+``` bash
+go install -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+```
+
 You should then be able to see which version you have installed.
 
 ``` bash
@@ -69,7 +75,7 @@ migrate -version
 To create the pair of migration files, which I told you about earlier, we run the following command:
 
 ``` bash
-migrate create -seq -ext=.sql -dir=./migrations <nombre_de_la_migración>
+migrate create -seq -ext=.sql -dir=./migrations <migration_name>
 ```
 
 I explain what each flag does:

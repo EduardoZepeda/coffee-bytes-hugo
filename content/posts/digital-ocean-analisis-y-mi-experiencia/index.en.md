@@ -26,8 +26,6 @@ authors:
 
 Are you choosing a hosting service but don't know which one to choose? Surely you have already had contact with Digital Ocean's advertising but you want to hear a real opinion of what they have to offer. I've been using Digital Ocean for my personal projects for several years and I'll tell you about my experience and what you can find if you decide to hire their services.
 
-Sign up using [my affiliate link](https://m.do.co/c/a22240ebb8e7#?) and receive $200 USD to spend on Digital Ocean.
-
 ## differences between IAAS and PAAS
 
 I'm pretty sure you've considered using Vercel, Netifly, Heroku or another modern hosting service for your application (probably made in Javascript). But, is it the same? Well, here's a little clarification, just in case you don't know; there are different types of companies for online services; IAAS, Infrastructure as a service; and PAAS, platform as a service. 
@@ -144,6 +142,8 @@ My experience has been quite good, with no complaints in terms of the performanc
 If you don't want to mess with Apache, Nginx or any other server configurations, maybe a Droplet from Digital Ocean is not your best option.
 
 On the other hand, Digital Ocean offers one of the best costs to start a project; $3 usd for the most basic package (Apps) is an **incredibly low price** for static or Frontend based pages only.
+
+## How to get a $200 USD Free credit on Digital Ocean?
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="If you decide to try it, I'll give you $200 USD to try and see for yourself what Digital Ocean has to offer, just click on this banner.">}}
 

@@ -143,6 +143,8 @@ Mi experiencia ha sido bastante buena, sin ninguna queja en cuanto a las prestac
 
 Digital Ocean ofrece uno de los mejores costos para empezar un proyecto; $3 usd para el paquete más básico (Apps) es un **precio increíblemente bajo** para páginas estáticas o basadas en Frontend únicamente.
 
+## ¿Cómo obtener un crédito de $200 USD gratis en Digital Ocean?
+
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si te decides a probarlo te regalo $200 USD para que pruebes y veas por ti mismo lo que Digital Ocean tiene para ofrecer, solo dale click en este banner.">}}
 
 
