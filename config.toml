@@ -78,8 +78,8 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "there is a way to get $200 USD for free on Digital Ocean as a new user? Interested? Check the last section of <div class='prePostAffiliate'><a href='/en/digital-ocean-analysis-and-my-experience-as-a-user/'>my Digital Ocean Review to get the bonus</a></div>"
-followRequestDelay = 60
+followDescription = "there is a way to get free credits on Digital Ocean (One of the best hosting providers) as a new user? Interested? Check the last section of <div class='prePostAffiliate'><a class='affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow' href='/en/digital-ocean-analysis-and-my-experience-as-a-user/'>my Digital Ocean Review to get the bonus</a></div>"
+followRequestDelay = 2
 followTitle = "What if I told you that..."
 modalcountdown = 250
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
@@ -158,7 +158,7 @@ excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
 disablesearch = false
-followDescription = "existe una manera de obtener un crédito por $200 USD en Digital Ocean. ¿Interesado? Revisa la última sección de <div class='prePostAffiliate'><a href='/es/digital-ocean-analisis-y-mi-experiencia-como-usuario/'>mi Review de Digital Ocean para obtener el bonus</a></div>"
+followDescription = "existe una manera de obtener un crédito por $200 USD en Digital Ocean (uno de los mejores proveedores de hosting). ¿Te interesa saber como? Revisa la última sección de <div class='prePostAffiliate'><a class='affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow' href='/es/digital-ocean-analisis-y-mi-experiencia-como-usuario/'>mi Review de Digital Ocean para obtener el bonus</a></div>"
 followRequestDelay = 60
 followTitle = "¿Y si te digo que..."
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
