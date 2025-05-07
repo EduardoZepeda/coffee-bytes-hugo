@@ -181,6 +181,14 @@ type Professor struct {
 }
 ```
 
+### Go no tiene herencia, sino composición
+
+Sin embargo, tenga en cuenta que tendrá una estructura «anidada», por lo que para acceder a sus propiedades primero tendrá que hacer referencia al nombre del struct.
+
+``` Go
+Proffessor.Person.Name
+```
+
 
 ## Polimorfismo usando interfaces en go
 

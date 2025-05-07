@@ -175,7 +175,7 @@ fmt.Println(*nier)
 
 ## Golang inheritance using structs
 
-Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python.
+Go **does not have a word for declaring inheritance in structs**, however it does have something similar that can function as a golang inheritance version of other languages like C++, Java or Python, but not exactly as you would like. It is composition.
 
 ### Extend a struct in Golang
 
@@ -193,6 +193,14 @@ type Professor struct {
 ```
 
 The code above will pass all the fields present in the first struct to the second struct, without having to explicitly declare them.
+
+### Go doesn't have inheritance but composition
+
+However consider that you'll have a "nested" struct so, in order to access its properties you'll first need to reference the struct name.
+
+``` Go
+Proffessor.Person.Name
+```
 
 ## Polymorphism using interfaces in go
 
