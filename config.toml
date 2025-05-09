@@ -73,13 +73,13 @@ GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Web development blog where thoughts, opinions, rants, memes and tutorials coexist. When it comes to posts we prefer human made content."
+description = "Read my Web development opinions, tutorials, ideas and rants."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
 disablesearch = false
 followDescription = "there is a way to get free $200 USD on Digital Ocean (One of the best hosting providers) as a new user? Interested?<div class='prePostAffiliate'><a rel='nofollow' class='affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow' href='https://m.do.co/c/a22240ebb8e7'>Go to Digital Ocean</a></div>"
-followRequestDelay = 160
+followRequestDelay = -1
 followTitle = "What if I told you that..."
 modalcountdown = 250
 prePostAffiliateDescription = "You can use it for hosting Javascript, Wordpress, Python, Golang projects, etc."
@@ -153,13 +153,13 @@ GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Blog de desarrollo web donde coexisten pensamientos, opiniones, desvaríos, memes y tutoriales. Cuando se trata de posts, prefiero los hechos por humanos."
+description = "Mis ideas, opiniones, tutoriales y críticas relacionadas con el mundo del desarrollo web y la ingeniería de Software"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
 disablesearch = false
 followDescription = "existe una manera de obtener $200 USD totalmente gratis en Digital Ocean (uno de los mejores proveedores de hosting). ¿Te interesa saber como? <div class='prePostAffiliate'><a rel='nofollow' class='affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow' href='https://m.do.co/c/a22240ebb8e7'>Entrar a Digital Ocean</a></div>"
-followRequestDelay = 160
+followRequestDelay = -1
 followTitle = "¿Y si te digo que..."
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
