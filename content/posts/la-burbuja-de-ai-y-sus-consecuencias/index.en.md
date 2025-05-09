@@ -18,6 +18,8 @@ authors:
 
 Since ChatGPT rapidly surpassed the record of user growth, artificial intelligence is almost omnipresent in the modern metropolis collectivity. Its arrival has brought a wide gradient of expectations ranging from simple problem solving to the complete automation of our societies. 
 
+{{< styles >}}
+
 But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term.
 
 ![Meme mocking the capabilities of AI](images/meme-ai-is-this.jpg)

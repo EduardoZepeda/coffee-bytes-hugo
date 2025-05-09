@@ -19,6 +19,8 @@ categories:
 
 I used these resources to learn Python, so I am familiar with them and can heartily recommend them to you. If this little guide can help you to not get lost in the sea of options out there I'll be thrilled to share my experience learning Python with you.
 
+{{< styles >}}
+
 ### Dive into Python 3
 
 This book is my favorite of all, it starts from scratch and begins to teach you the syntax of the language by creating small simple programs that even a fool ~~,like me,~~ can understand. The programs are basic but the author doesn't stop there, throughout the book he delves into topics such as: 
