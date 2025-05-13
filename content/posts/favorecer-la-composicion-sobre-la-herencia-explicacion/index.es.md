@@ -18,6 +18,8 @@ title: Composicion Sobre Herencia en POO explicada con Legos
 
 El paradigma de Composition over inheritance, o composición sobre herencia es un tema recurrente en la programación orientada a objectos. Generalmente, se explica de una manera muy compleja, pero hoy voy a tratar de simplificarlo al punto en que los puristas me detesten. 
 
+![Composition vs inheritance diagrama](https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png "Composition vs inheritance diagrama")
+
 Empezamos, imagina que tienes una gigantesca caja de ladrillos LEGO, sí, esos pequeños bloques de plástico que causan un dolor inimaginable cuando los pisas. Pero, en este caso, no los usaremos para causar dolor sino para construir diferentes tipos de automóviles.
 
 
@@ -33,7 +35,13 @@ Para construir nuestros diminutos automóviles de LEGO, existen dos maneras:
 
 ![Imagen de piezas de LEGO para ensamblar un automóvil](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg "Empieza con las piezas y empieza a montar tu coche. Todos los derechos de esta imagen pertenecen a LEGO")
 
+## Composición vs herencia resumidos
+
 Por lo tanto, **la composición sobre la herencia significa que a menudo es mejor construir cosas poniendo partes más pequeñas juntas en lugar de cambiar una cosa grande para hacer algo nuevo**.
+
+### Composition vs inheritance diagram
+
+![Composition vs inheritance diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png "Composition vs inheritance diagram")
 
 {{<ad>}}
 

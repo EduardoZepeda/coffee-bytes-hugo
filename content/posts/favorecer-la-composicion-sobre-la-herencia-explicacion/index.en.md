@@ -1,13 +1,14 @@
 ---
 aliases:
 - /en/composition-over-inheritance-in-oop-simple-explanation/
-title: "Composition over inheritance explained with legos"
+- /en/composition-over-inheritance-explained-with-legos/
+title: "Composition over inheritance quickly explained with legos"
 date: "2023-10-11"
 coverImage: "images/composition-over-inheritance.jpg"
 coverImageCredits: "https://www.reddit.com/user/LegalCan4801/"
 categories:
 - software architecture
-description: Composition over inheritance in OOP is the paradigm that says that i's better to compose your code using smaller parts rather than changing something big, I explain it in detail in this post.
+description: Composition over inheritance in OOP is the paradigm that says that it's better to compose your code using smaller parts rather than changing something big.
 keyword: "composition over inheritance"
 keywords:
 - python
@@ -36,11 +37,15 @@ To build our tiny LEGO cars, there are two ways:
 
 ![Image of different LEGO parts](https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg "You start with pieces and start assembling your car. All rights for this image belong to LEGO")
 
-{{<ad>}}
-
 ## Composition over inheritance in a nutshell
 
 So, in a nutshell, **composition over inheritance means that it's often better to build things by putting smaller parts together rather than changing one big thing to make something new**.
+
+### Composition vs inheritance diagram
+
+![Composition vs inheritance diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png "Composition vs inheritance diagram")
+
+{{<ad>}}
 
 ### Composition over inheritance, code example
 

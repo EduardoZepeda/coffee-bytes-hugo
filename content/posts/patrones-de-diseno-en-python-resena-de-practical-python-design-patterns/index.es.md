@@ -42,6 +42,8 @@ Algunos problemas muy comunes son: [el procesamiento de tareas usando un número
 
 ¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django](/es/por-que-deberias-usar-django-framework/), es un patrón de diseño.** O el patrón [debounce y Throttle](/es/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/) que se usan principalmente en Javascript.
 
+Otro ejemplo es el famosísimo ["composición sobre herencia"]({{< ref path="/posts/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="es" >}})
+
 Los patrones de diseño facilitan que el desacoplamiento del código, lo que vuelve más sencillo agregar o remover funciones y también nos dan la seguridad de que son soluciones que ya han sido probadas una y otra vez a lo largo de los años.
 
 ## Patrones de diseño comunes en software
