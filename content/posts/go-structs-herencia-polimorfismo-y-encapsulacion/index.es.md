@@ -168,7 +168,7 @@ Go **no cuenta con una palabra para declarar herencia en los structs**, sin emba
 
 ### Extender un struct en Golang
 
-Para que un struct en go tenga todos los campos declarados por otro struct, pasamos este último como campo anónimo a otro struct.
+Si quieres extender un struct, puedes agregar los structs que desees como parte del struct. Sin embargo considera que Go no tiene herencia, sino composición.
 
 ```go
 type Person struct {
@@ -183,10 +183,12 @@ type Professor struct {
 
 ### Go no tiene herencia, sino composición
 
-Sin embargo, tenga en cuenta que tendrá una estructura «anidada», por lo que para acceder a sus propiedades primero tendrá que hacer referencia al nombre del struct.
+Go sigue la máxima de [*composición sobre herencia o composition over inheritance (en inglés)*]({{< ref path="/posts/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="es" >}}).
+
+Por lo que cuando tu agregues el nuevo struct, no estarás realizando herencia, sino que estarás agregando un nuevo struct al struct original. Por lo que para acceder a los campos de este, primero necesitas acceder al struct que agregaste.
 
 ``` Go
-Proffessor.Person.Name
+Professor.Person.Name
 ```
 
 

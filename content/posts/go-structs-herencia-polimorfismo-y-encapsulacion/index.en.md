@@ -179,7 +179,7 @@ Go **does not have a word for declaring inheritance in structs**, however it doe
 
 ### Extend a struct in Golang
 
-For a struct in go to have all the fields declared by another struct, we pass the latter as an anonymous field to another struct.
+If you want to extend a struct, you can add the structs you want as part of the struct. However, consider that Go does not have inheritance, but composition.
 
 ```go
 type Person struct {
@@ -196,7 +196,9 @@ The code above will pass all the fields present in the first struct to the secon
 
 ### Go doesn't have inheritance but composition
 
-However consider that you'll have a "nested" struct so, in order to access its properties you'll first need to reference the struct name.
+Go follows the [*composition over inheritance*]({{< ref path="/posts/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}}) motto.
+
+So when you add the new struct, you are not doing inheritance, you are adding a new struct to the original struct. So to access the fields of this one, first you need to access the struct you added.
 
 ``` Go
 Proffessor.Person.Name
