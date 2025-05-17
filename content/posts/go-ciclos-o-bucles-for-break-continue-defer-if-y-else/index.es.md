@@ -60,6 +60,8 @@ if edad < 18 {
 
 En go **existen varios tipos de bucles for**: con contador, con condicional, range y el infinito.
 
+![Diagrama de tipos de bucles for en Go o Golang](https://res.cloudinary.com/dwrscezd2/image/upload/v1747441808/coffee-bytes/golang-for-loops-schema-diagram_1_hlfy0i.png "Diagrama de tipos de bucles for en Go o Golang")
+
 ### Bucles con contador en Go
 
 Este es el clásico bucle que ya conoces de Javascript, C++, etc. En el que se declara una variable, se especifica una condición y se realizan cambios a la variables.
