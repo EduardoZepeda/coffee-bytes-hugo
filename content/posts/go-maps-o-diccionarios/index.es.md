@@ -49,7 +49,8 @@ var diccionario map[string]int
 diccionario["hello"] = 0
 diccionario["panic"] = 1
 fmt.Println(diccionario)
-// panic: assignment to entry in nil map
+
+//❌❌❌ panic: assignment to entry in nil map
 ```
 
 Sin embargo si ejecutamos lo anterior nos dará un error. ¿Por qué? Es importante que sepas que **los maps son referencias, apuntan a una ubicación de memoria**, como creamos un _map_ vacío pues apunta a la nada, a _nil_, por lo que si intentamos modificarlo, nos dará un error.
@@ -145,7 +146,7 @@ delete(diccionario, "Helio")
 
 Al igual que con un un _array_ o un _slice_, podemos recorrer un _map_ usando _range_. Cada iteración nos devolverá la llave y el valor.
 
-Recuerda que, al ser un map, **los elementos se retornarán sin ningún orden** en particular.
+Recuerda que, al ser un map, **los elementos se retornarán sin ningún orden en particular.** 
 
 ```go
 for key, value := range diccionario {

@@ -50,7 +50,8 @@ var dictionary map[string]int
 dictionary["hello"] = 0
 dictionary["panic"] = 1
 fmt.Println(dictionary)
-// panic: assignment to entry in nil map
+
+//❌❌❌ panic: assignment to entry in nil map
 ```
 
 However, if we execute the previous thing it will give us an error. Why? It is important that you know that **golang maps are references, they point to a memory location**, as we create an empty _map_ it points to nothing, to _nil_, so if we try to modify it, it will give us an error.
