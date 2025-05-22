@@ -28,7 +28,7 @@ If you currently use Python and want to see how it is different from Go, visit m
 
 ## If and else
 
-If_ and _else_ allow you to execute blocks of code conditionally and keep the same syntax as in almost all languages.
+*If* and *else* allow you to execute blocks of code conditionally and keep the same syntax as in almost all languages.
 
 ```go
 if true {
