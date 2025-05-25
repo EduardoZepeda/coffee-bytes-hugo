@@ -139,7 +139,7 @@
 </style>
 {{/* Loop through categories and display ads, limit only to two categories */}}
 {{ range first 2 .Page.Params.categories }}
-  {{ $ad := index $langAds . }}
+  {{ $ad := index $langAds (lower .) }}
   {{ if $ad }}
   <aside class="affiliate-link-container-article">
     <div class="affiliate-heading">

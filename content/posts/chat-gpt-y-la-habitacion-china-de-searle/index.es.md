@@ -5,8 +5,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- Inteligencia artificial
-- Opiniones
+- inteligencia artificial
+- opiniones
 coverImage: images/chat-gpt-y-la-habitacion-china.jpg
 date: '2023-04-19'
 description: Una breve introducción al tema de conciencia, inteligencia artifcial,
