@@ -19,10 +19,11 @@ url: /en/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascri
 
 Working with Javascript is frustrating and, sometimes, combining it with HTML can be desperate due to its lack of internal coherence. On top of that, using it to handle dates, which requires considering the handling of timezones, different ways to represent them and the required sensitivity: seconds, minutes, milliseconds, etc. makes it a torture.
 
-
 ## Javascript handles dates in a strange way
 
-Javascript uses months starting from index 0 and days from index 1, two objects with the same date are unequal when compared with === (yes, I know that what is compared are the objects and not the dates), but it is just the fact that it is not intuitive, the language user is not interested in the objects in memory itself, but what they represent. Languages like [Python has better abstractions than those handled by Javascript](/en/python-vs-javascript-which-is-the-best-programming-language/)
+Javascript uses months starting from index 0 and days from index 1, two objects with the same date are unequal when compared with === (yes, I know that what is being compared are the objects and not the dates), but it is just the fact that it is not intuitive, the language user is not interested in the objects in memory itself, but what they represent. 
+
+Languages like [Python have better abstractions than Javascript](/en/python-vs-javascript-which-is-the-best-programming-language/)
 
 ![Javascript's date management is not intuitive](images/date-javascript.webp "Javascript's date management is not intuitive")
 
@@ -30,7 +31,7 @@ Javascript uses months starting from index 0 and days from index 1, two objects 
 
 ## The disconnection between HTML and JS
 
-In the case of scheduling an event with a date and time, it is tempting to use the native datetime-local input already provided by HTML. However, this field by default requires a date in "YYYYY-MM-DDThh:mm" format, while javascript returns the dates in a Date object, which you must transform to ISO 6801 "YYYYY-MM-DDThh:mm.iiiZ", where the "i" is microseconds (or to another format with a function of its own).
+In the case of scheduling an event with a date and time, it is tempting to use the native datetime-local input already provided by HTML. However, this field by default requires a date in "*YYYYY-MM-DDThh:mm*" format, while javascript returns the dates in a Date object, which you must transform to ISO 6801 "*YYYYY-MM-DDThh:mm.iiiZ*", where the "i" is microseconds (or to another format with a function of its own).
 
 ![Two object with the same date in Javascript aren't equal](images/two-dates-javascript.png "Javascript's abstraction when it comes to dates can be confusing")
 
@@ -56,9 +57,26 @@ And yes, I know what you're thinking. Although I really like [the Go programming
 
 ![Go date formatting is awful too](images/date_formatting_golang.webp "Go's date formatting, like Javascript's, is awful")
 
-## Some libraries to handle dates effortlessly in Javascript
+## Temporal will solve all this mess
 
-I try to avoide date libraries whenever possible, but if it is completely unavoidable these are my favorite ones:
+Of course you and I are not the only ones complaining about dates in Javascript, this has been an issue for a long time, but our prayers have been heard and [Temporal appears to be offered as the replacement for the original date management library](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal). Right now the support from major browsers is minimal, but this is just a matter of time, finally we will have a non-convoluted library for dates.
+
+``` javascript
+
+// Note that the date is stored internally as ISO 8601, even when it's
+// interpreted in a different calendar system. For example, even though
+// 2021-07-01 is 4658-05-22 in the Chinese calendar, you still pass the
+// ISO date to the constructor.
+const plainDate2 = new Temporal.PlainDate(2021, 7, 1, "chinese");
+console.log(plainDate2.toString()); // 2021-07-01[u-ca=chinese]
+console.log(plainDate2.year); // 4658
+console.log(plainDate2.month); // 5
+console.log(plainDate2.day); // 22
+```
+
+## Other libraries to handle dates effortlessly in Javascript
+
+While temporal is ready, or if your needs are somewhat complex. you can use the following alternatives.
 
 - [Date-fns](https://date-fns.org/#?)
 - [Luxon](https://moment.github.io/luxon/#/#?)

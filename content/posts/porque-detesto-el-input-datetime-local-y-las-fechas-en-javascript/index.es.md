@@ -58,9 +58,26 @@ Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de prog
 
 ![El formateo de fechas en Go también es deficiente](images/date_formatting_golang.webp "El formateo de fechas en Go también es deficiente")
 
-## Algunas librerías para manejar fechas en Javascript
+## Temporal resolverá todo este lío
 
-¿Qué usar para manejar fechas en Javascript? Varias opciones disponibles, pero probablemente las más usadas y robustas sean estas:
+Por supuesto, tú y yo no somos los únicos que nos quejamos de las fechas en JavaScript, esto ha sido un problema durante mucho tiempo, pero nuestras plegarias han sido escuchadas y [Temporal parece ofrecerse como sustituto de la biblioteca original de gestión de fechas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal). Por ahora, el soporte de los principales navegadores es mínimo, pero es solo cuestión de tiempo, finalmente tendremos una biblioteca para fechas que no sea complicada.
+
+``` javascript
+
+// Note that the date is stored internally as ISO 8601, even when it's
+// interpreted in a different calendar system. For example, even though
+// 2021-07-01 is 4658-05-22 in the Chinese calendar, you still pass the
+// ISO date to the constructor.
+const plainDate2 = new Temporal.PlainDate(2021, 7, 1, "chinese");
+console.log(plainDate2.toString()); // 2021-07-01[u-ca=chinese]
+console.log(plainDate2.year); // 4658
+console.log(plainDate2.month); // 5
+console.log(plainDate2.day); // 22
+```
+
+## Otras bibliotecas para manejar fechas sin esfuerzo en Javascript
+
+Mientras temporal está listo, o si tus necesidades son algo complejas, puedes usar las siguientes alternativas.
 
 - [Date-fns](https://date-fns.org/#?)
 - [Luxon](https://moment.github.io/luxon/#/#?)
