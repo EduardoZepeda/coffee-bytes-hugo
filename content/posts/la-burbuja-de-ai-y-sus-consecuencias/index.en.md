@@ -24,22 +24,23 @@ But I believe that, while AI has amazing capabilities, it is far from revolution
 
 ![Meme mocking the capabilities of AI](images/meme-ai-is-this.jpg)
 
-## The market is saturated with AI startups
+## Is the AI bubble finally bursting out?
 
-If you've been ~~doom~~ scrolling on social media, you'll know that influencers keep talking about new AI tools that are going to revolutionize the world, ~~just like they said cryptocurrencies would,~~ from voice cloners, image and video creators, data analytics, just to name a few. There are too many AI companies! It's all AI!
+Edit: Builder.AI a promising AI that offered websites created with AI was nothing more than a bunch of India developers working behind the scenes, and [it has just filed for bankruptcy](https://finance.yahoo.com/news/builder-ais-shocking-450m-fall-170009323.html). 
 
-![AI and other bubbles](images/ai-and-other-bubbles.jpeg)
+This is just another proof that screams that lot of AI businesses are playing hit and run with investor's money. They try to rise the expectations to get money from the angel investors and whoever they can and then just fall epically when they fail to deliver. But at that moment, who cares, money has been made and businesses involve risks so...
 
-### The AI company trend
-
-In this AI fever, entrepreneurs are becoming ~~even more~~ elitist, by which I mean that all those business ideas that don't use AI are ipso facto discarded. "To use AI" has been added to the checklist of any company that wants to go to market and this, to me, is what creates this AI bubble.
+Devin AI fell into oblivion. At the same time, we are seeing the law of diminishing returns with each new LLM that appears (video and image generative models have not yet reached that point).
 
 {{<ad>}}
 
 ## Investors' greed and consumers' ignorance are guilty of The AI bubble
 
 It is enough for a company to use AI to grant it with an unknown magic that makes it irresistible to the general public, and also to investors. And this because a simple reason: as a society we do not understand how AI works internally, we do not understand the statistics behind it and we endow it with the mysticism of magic.
+
 Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of hiring people and investors expect to make the investment of a lifetime.
+
+![My AI reality vs expectations diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png "It's not that AI isn't valuable, it is, but its capabilities are below what companies are promising.")
 
 ## AI fever and capital investment
 
@@ -77,7 +78,7 @@ Having said the above, it seems that I believe that all this about AI is nothing
 
 > Machines don’t learn. What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. - Andriy Burkov
 
-In my opinion, AI is the ultimate autocompletition tool, be it text, images, video 3D structure (I see a huge potentianl in this field), nothing else. So far AGI is a milestone that remains distant in the future and we don't know if it is achievable.
+In my opinion, AI is the ultimate autocompletition tool, be it text, images, video 3D structure (I foresee a huge potential in this field), nothing else. So far AGI is a milestone that remains distant in the future and we don't know if it is achievable.
 
 Don't get me wrong, there is an AI bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
@@ -86,3 +87,4 @@ It is up to them to decide the pace at which this transition will take place des
 ![dragon ball meme about the AI bubble bursting](images/ai-bubble-explosion-meme.jpg)
 
 My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, crashing the market in the process, and that, when the AI bubble bursts, a lot of people are going to lose money in the process.
+

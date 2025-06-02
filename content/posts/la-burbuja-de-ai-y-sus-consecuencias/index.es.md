@@ -21,15 +21,13 @@ Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de rev
 
 ![Meme que se burla de las capacidades de la AI](images/meme-ai-is-this.jpg)
 
-## El mercado está saturado de soluciones de AI
+## ¿Está estallando finalmente la burbuja de la IA?
 
-Si has estado haciendo ~~doom~~ scroll por redes sociales, sabrás que los influencers no paran de hablar de nuevas herramientas de AI que van a revolucionar el mundo, ~~justo como dijeron que harían las criptomonedas,~~ desde clonadores de voz, creadores de imágenes y video, analisis de información, solo por mencionar algunos. ¡Hay demasiadas compañias de AI! ¡Todo es AI!
+Builder.AI, una prometedora IA que ofrecía sitios web creados con IA, no era más que un grupo de desarrolladores indios trabajando entre bastidores, y [acaba de declararse en quiebra](https://finance.yahoo.com/news/builder-ais-shocking-450m-fall-170009323.html). 
 
-### La moda por las empresas de AI
+Esta es solo otra prueba más de que muchas empresas de IA están jugando al gato y al ratón con el dinero de los inversores. Intentan crear expectativas para obtener dinero de los inversores ángeles y de quien sea, y luego caen estrepitosamente cuando no cumplen con lo prometido. Pero en ese momento, a quién le importa, ya se ha ganado el dinero y los negocios implican riesgos, así que...
 
-![AI y otras burbujas](images/ai-and-other-bubbles.jpeg)
-
-En esta fiebre por la AI, los emprendedores se están volviendo ~~aún más~~ elitistas, ¿a qué me refiero?, a que todas aquellas ideas de negocio que no echan mano de la AI son descartadas ipso facto. Se ha añadido "usar AI" a la checklist de cualquier empresa que quiera salir al mercado y esto, para mí, es lo que crea esta burbuja.
+Devin AI cayó en el olvido. Al mismo tiempo, estamos apreciando la ley de rendimentos decrecientes en cada nuevo LLM que aparece (los modelos generativos de imagen y video aún no llegan a ese punto).
 
 {{<ad>}}
 
@@ -38,6 +36,8 @@ En esta fiebre por la AI, los emprendedores se están volviendo ~~aún más~~ el
 Basta con que una empresa use AI para dotarla de una magia desconocida que la vuelve irresistible hacia el público en general, y también para los inversionistas. Y esto por una sencilla razón: como sociedad no entendemos como funciona la AI a nivel interno, no entendemos las estadísticas detrás y le dotamos del misticismo de la magia.
 
 Los consumidores, generalmente negocios, esperan que la AI reduzca (o elimine) los costos de contratar personal y los inversores esperan la inversión de sus vidas.
+
+![My AI reality vs expectations diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png "No es que la AI no sea valiosa, lo es, solo que, actualmente, su valor está inflado")
 
 ## La fiebre por la AI y la inversión de capital
 
@@ -48,6 +48,8 @@ Como ya dije, los inversores no quieren quedarse fuera de esta fiesta y están t
 Pero, en mi opinión, todo esto no es más que un montón de empresas y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores](/es/devin-ai-el-supuesto-reemplazo-de-los-programadores/). 
 
 El mercado intenta conseguir dinero fácil y rápido por el creciente y repentino interés de los legos del mundo de la tecnología por algo tan abstracto, y con aires tan esotéricos, como lo es la AI.
+
+Edición: Builder.AI, una prometedora IA que ofrecía sitios web creados con IA, no era más que un grupo de desarrolladores indios trabajando entre bastidores, y [acaba de declararse en quiebra](https://finance.yahoo.com/news/builder-ais-shocking-450m-fall-170009323.html). Pero a quién le importa, siempre y cuando se haya ganado dinero, ¿verdad?
 
 ## Muchas de las soluciones de AI son solo wrappers de ChatGPT
 
