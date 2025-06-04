@@ -5,7 +5,7 @@ categories:
 - opinions
 - artificial intelligence
 coverImage: "images/bolt-vs-lovable-v0-vercel.jpg"
-description: ''
+description: 'A comparison between Bolt, Lovable, and V0 Vercel for creating landing pages, advantages, disadvantages, shortcomings, and my opinion on the winner.'
 keyword: 'bolt vs lovable vs v0'
 keywords:
 - bolt
