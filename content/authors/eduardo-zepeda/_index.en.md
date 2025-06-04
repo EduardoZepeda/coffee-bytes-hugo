@@ -2,7 +2,7 @@
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1716531649/web-dev-profile-picture_ypb9hn.jpg'
-summary: "Web developer and GNU/Linux preacher. Maturity over novelty, better done than perfect. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
+summary: "Just call me Ed. Web developer and GNU/Linux preacher. Maturity over novelty, better done than perfect. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
 threads: "zeedu.dev"
 codewars: "EduardoZepeda"
 instagram: "zeedu.dev"
