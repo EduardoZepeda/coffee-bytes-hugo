@@ -29,6 +29,8 @@ Esta es solo otra prueba más de que muchas empresas de IA están jugando al gat
 
 Devin AI cayó en el olvido. Al mismo tiempo, estamos apreciando la ley de rendimentos decrecientes en cada nuevo LLM que aparece (los modelos generativos de imagen y video aún no llegan a ese punto).
 
+Otras compañias abandonaron la idea de reemplazar desarrolladores y se enfocaron en volverse herramientas de creación de código, como [Bolt, Lovable o V0]({{< ref path="/posts/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) 
+
 {{<ad>}}
 
 ## La burbuja de AI es culpa de la ignorancia de inversores y consumidores

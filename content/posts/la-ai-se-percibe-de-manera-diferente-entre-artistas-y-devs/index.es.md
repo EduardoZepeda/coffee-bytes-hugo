@@ -52,6 +52,8 @@ Sin embargo, aquí es donde aparece un **contraste interesante**: mientras que l
 
 No existe un rechazo público, ni un grupo que proteste por el código generado. El código no despierta pasiones, ni enojo por el código robado, como [cuando Devin AI prometió reemplazar a los programadores]({{< ref path="/posts/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) tal vez porque el estímulo visual es mucho más intenso que la sensación de saber que una app funciona con código de AI.
 
+El hecho de que herramientas como [Bolt, Lovable o V0]({{< ref path="/posts/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) fueron entrenadas usando el código de desarrolladores es ignorado por completo.
+
 Incluso cuando observamos la cristalización del código, en forma de pixeles en una página web, *estamos reaccionando ante la imagen del producto final*, no el código en si mismo.
 
 Además es virtualmente imposible distinguir una página web hecha por una AI que por un desarrollador incompetente. ~~Como el que desarrolló este sitio web~~

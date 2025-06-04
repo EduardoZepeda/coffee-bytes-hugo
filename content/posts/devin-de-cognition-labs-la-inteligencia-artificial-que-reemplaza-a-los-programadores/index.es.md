@@ -129,3 +129,7 @@ Si eres un iversionista, no te interesa si el proyecto existe por un mes, dos me
 Llama bastante mi atención que la manera de solicitar acceso a Devin AI sea a través de un google form en lugar de usar una App desarrollada con el mismo modelo, lo cual sería la perfecta carta de presentación de esta tecnología. Después de todo, no es como si estuviera fuera de las capacidades de su modelo, no es una aplicación con 1000 microservicios, balanceo de carga, streaming y un engine de recomendaciones, es un banal formulario de registro.
 
 De los dos escenarios que te propuse, yo considero más probable aquel en el que Devin AI cae en el olvido como la promesa que nunca dejó de ser, pero esperemos un año o dos y veamos juntos si Devin AI está a la altura de lo que promete. Mi apuesta es que Devin no sustituirá a los programadores.
+
+## Una manera más eficiente de funcionar que la de Devin AI
+
+Algunas compañias abandonaron la idea de reemplazar desarrolladores y se enfocaron en volverse herramientas de creación de código, como [Bolt, Lovable o V0]({{< ref path="/posts/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) 

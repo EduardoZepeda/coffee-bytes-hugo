@@ -26,7 +26,7 @@ But if someone talks about how *vibe coded* a small app, the response from users
 
 ## Artists hate IA, devs are forced to accept it.
 
-I've always been struck by how the reaction to artificial intelligence varies by professional group. The **artists** have it very clear: they are completely against it. On the other hand, **software developers** and people working in offices are asked to adopt artificial intelligence as just another tool.
+I've always been struck by how the reaction to artificial intelligence varies by professional group. The **artists** have it very clear: they are completely against it. On the other hand, **software developers** and people working in offices are asked to adopt artificial intelligence as just another tool. 
 
 Those who don't are labeled *fatalists* or even *luddites*, and are urged to accept and embrace, stoically, the inevitable future offered by these technologies.
 
@@ -51,6 +51,8 @@ In the case of **code** generation using AI, the process is practically the same
 However, this is where an interesting **contrast** appears: while image generation is visual and causes dissatisfaction when reflected on the screen, AI-generated code goes completely unnoticed. **It is not seen.
 
 There is no public backlash, no group protesting the generated code. The code does not arouse passions, nor anger about stolen code, like [when Devin AI promised to replace programmers]({{< ref path="/posts/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}) perhaps because the visual stimulus is much more intense than the sensation of knowing that an app runs on AI code.
+
+The fact that tools like [Bolt, Lovable or V0]({{< ref path="/posts/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}) are trained using developers' code is completely ignored.
 
 Even when we look at the crystallization of code, in the form of pixels on a web page, *we are reacting to the image of the final product*, not the code itself.
 

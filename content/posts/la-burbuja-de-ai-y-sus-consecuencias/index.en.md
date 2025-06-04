@@ -32,6 +32,8 @@ This is just another proof that screams that lot of AI businesses are playing hi
 
 Devin AI fell into oblivion. At the same time, we are seeing the law of diminishing returns with each new LLM that appears (video and image generative models have not yet reached that point).
 
+Other companies abandonned the idea of replace developers and focused on becoming tools in code creation, like [Bolt, Lovable o V0]({{< ref path="/posts/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}) 
+
 {{<ad>}}
 
 ## Investors' greed and consumers' ignorance are guilty of The AI bubble

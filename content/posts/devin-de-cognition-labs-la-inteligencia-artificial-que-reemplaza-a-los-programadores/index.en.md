@@ -116,3 +116,6 @@ It strikes me that the way to request access to Devin AI is through a google for
 
 I consider this scenario more likely, but let's wait a year or two and see together if Devin AI lives up to its promise. My bet is that Devin won't replace programmers.
 
+## A different approach than Devin AI
+
+Some companies abandonned the idea of replace developers and focused on becoming tools in code creation, like [Bolt, Lovable o V0]({{< ref path="/posts/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}) 
