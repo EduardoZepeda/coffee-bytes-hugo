@@ -4,7 +4,7 @@ aliases:
 - /users/me
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
-photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1716531649/web-dev-profile-picture_ypb9hn.jpg'
+photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1749018129/coffee-bytes/ed-zepeda-500_lxn7cc.jpg'
 summary: 'Desarrollador web y predicador de GNU/Linux. Madurez sobre novedad, mejor hecho que perfecto. Antes creía en la bondad de las criptodivisas fuera de la especulación monetaria. Abierto al Rustaceanismo.'
 twitter: "@hello_wired"
 codewars: "EduardoZepeda"
