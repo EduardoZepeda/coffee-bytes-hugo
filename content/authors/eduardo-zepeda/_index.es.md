@@ -26,7 +26,7 @@ Obsesivo y fiel usuario de Linux desde el año 2010.
 
 Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), aún buscando llegar al 1° Kyu.
 
-[![Badge del rango de codewars](https://www.codewars.com/users/EduardoZepeda/badges/small#?)](https://www.codewars.com/users/EduardoZepeda#?)
+[{{< image src="https://www.codewars.com/users/EduardoZepeda/badges/small#?" alt="Codewars badge" width="300px" loading="lazy" >}}](https://www.codewars.com/users/EduardoZepeda#?)
 
 ## Mis Pasatiempos no relacionados con tecnología
 

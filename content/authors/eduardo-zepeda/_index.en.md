@@ -23,7 +23,7 @@ I'm a obsessed Linux user since late 2010.
 
 I've been solving katas on [Codewars](/en/i-test-chatgpt-with-codewars-coding-challenges/). I'm 2 kyu now, just one more Kyu to go!
 
-[![Code wars badge](https://www.codewars.com/users/EduardoZepeda/badges/small#?)](https://www.codewars.com/users/EduardoZepeda#?)
+[{{< image src="https://www.codewars.com/users/EduardoZepeda/badges/small#?" alt="Codewars badge" width="300px" loading="lazy" >}}](https://www.codewars.com/users/EduardoZepeda#?)
 
 ## My non-tech hobbies ~~oh no! I'm a weeb!~~
 
