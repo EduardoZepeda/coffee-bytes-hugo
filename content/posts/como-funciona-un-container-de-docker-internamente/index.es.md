@@ -29,9 +29,9 @@ Los containers, especialmente los de Docker, son usados en todos lados, solemos 
 
 Sabemos que un container es un proceso de linux con varias características:
 * Es un proceso, o grupo de procesos, de linux ejecutado por un usuario.
-* Está aislado del sistema operativo que lo aloja (Namespaces).
-* Tiene una cantidad de recursos limitada (Cgroups).
-* Cuenta con un sistema de archivos independiente al del sistema operativo en el que corre (Chroot).
+* Está aislado del sistema operativo que lo aloja (**Namespaces**).
+* Tiene una cantidad de recursos limitada (**Cgroups**).
+* Cuenta con un sistema de archivos independiente al del sistema operativo en el que corre (**Chroot**).
 
 Para lograr lo anterior los docker, y las demás tecnologías de contenedores, echan mano de algunas características de GNU/Linux (de ahora en adelante solo linux):
 
@@ -91,6 +91,12 @@ Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs 
 ![Ejemplo de cgroups en linux](images/cgroups-en-linux.jpg "Los cgroups permiten limitar recursos del sistema")
 
 {{<ad>}}
+
+## Chroot
+
+Chroot, nombre que viene de change root, le indica a Linux que debe cambiar el directorio que está usando como root a otro, esto implica que ahora tendrá otra serie de binarios, configuraciones y procesos diferentes. 
+
+![](https://res.cloudinary.com/dwrscezd2/image/upload/v1749085256/coffee-bytes/chroot-in-linux_1_wwyrym.png "Chroot cambia el root a otro que especifiquemos")
 
 ## Crear un container desde cero con Go
 

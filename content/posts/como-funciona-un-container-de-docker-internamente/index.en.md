@@ -28,9 +28,9 @@ Containers, especially Docker containers, are used everywhere, we tend to see th
 We know that a container is a linux process with several characteristics:
 
 * A linux process, or group of processes, executed by a user.
-* It is isolated from the operating system that hosts it (Namespaces).
-* It has a limited amount of resources (Cgroups).
-* It has a file system independent of the operating system in which it runs (Chroot).
+* It is isolated from the operating system that hosts it (**Namespaces**).
+* It has a limited amount of resources (**Cgroups**).
+* It has a file system independent of the operating system in which it runs (**Chroot**).
 
 To achieve this, docker, and other container technologies, take advantage of some features of GNU/Linux (from now on only linux):
 
@@ -75,7 +75,7 @@ There are different types of namespaces that control the resources to which a pr
 
 For example, if we use a namespace of type UTS, the changes we make to the hostname from our namespace will not affect the hostname of the main operating system.
 
-![Example of namespaces in linux](images/namespaces-uts-en-linux.jpg "Each namespace has its own hostname and domainname")
+![Example of namespaces in linux](https://res.cloudinary.com/dwrscezd2/image/upload/v1749084007/coffee-bytes/namespaces-uts-in-linux_cyftsd.png "Each namespace has its own hostname and domainname")
 
 ### cgroup
 
@@ -87,7 +87,13 @@ Linux takes this configuration reading a series of files inside the path _/sys/f
 
 For example, using cgroups we can tell linux: "limit the number of CPUs this process can use to only one, and that it can only use 20% of the CPU capacity, and also assign it a maximum of 1GB of RAM".
 
-![Example of cgroups in linux](images/cgroups-en-linux.jpg "cgroups allow you to limit system resources")
+![Example of cgroups in linux](https://res.cloudinary.com/dwrscezd2/image/upload/v1749083882/coffee-bytes/cgroups-in-linux_noyjnw.png "cgroups allow you to limit system resources")
+
+## Chroot
+
+Chroot, a name that comes from change root, tells Linux to change the directory it is using as root to another one, which means that it will now have a different set of binaries, configurations, and processes.
+
+![](https://res.cloudinary.com/dwrscezd2/image/upload/v1749085256/coffee-bytes/chroot-in-linux_1_wwyrym.png "Chroot cambia el root a otro que especifiquemos")
 
 {{<ad>}}
 
