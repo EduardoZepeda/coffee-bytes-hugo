@@ -60,7 +60,7 @@ El fondo de Matrix, si bien supongo que está relacionado con la temática cyber
 
 Además, considero que la AI exageró un poquito con todos los efectos. En la página todo es interactivo, todo vibra y todo se mueve, tanto que se siente sobresaturado.
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1749143520/coffee-bytes/lovable_no_sound_dlevjq.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1749143657/coffee-bytes/lovable_no_sound_aokgmp.mp4">}}
 
 Si bien estoy consciente que estos resultados pueden refinarse tras múltiples iteraciones, al ver esto no puedo evitar pensar en un programador novato que busca plasmar absolutamente todos los efectos que acaba de aprender en una sola página web.
 
