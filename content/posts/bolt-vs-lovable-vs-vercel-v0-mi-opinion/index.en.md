@@ -62,7 +62,7 @@ The Matrix background, while I suppose it is related to the cyberpunk theme, giv
 
 In addition, I think it went a little overboard with all the effects. Everything on the page is interactive, everything vibrates and everything moves, so much so that it feels saturated.
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1748988708/coffee-bytes/lovable_uhymug.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1749143520/coffee-bytes/lovable_no_sound_dlevjq.mp4">}}
 
 While I am aware that these results can be refined after multiple iterations, when I see this, I can't help but think of a novice programmer who wants to incorporate absolutely all the effects they have just learned into a single web page.
 
