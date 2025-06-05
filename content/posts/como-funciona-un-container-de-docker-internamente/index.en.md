@@ -93,7 +93,7 @@ For example, using cgroups we can tell linux: "limit the number of CPUs this pro
 
 Chroot, a name that comes from change root, tells Linux to change the directory it is using as root to another one, which means that it will now have a different set of binaries, configurations, and processes.
 
-![](https://res.cloudinary.com/dwrscezd2/image/upload/v1749085256/coffee-bytes/chroot-in-linux_1_wwyrym.png "Chroot cambia el root a otro que especifiquemos")
+![](https://res.cloudinary.com/dwrscezd2/image/upload/v1749085256/coffee-bytes/chroot-in-linux_1_wwyrym.png "Chroot changes the current root directory to another one")
 
 {{<ad>}}
 
