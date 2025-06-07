@@ -73,7 +73,7 @@ GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Read my Web development opinions, tutorials, ideas and rants."
+description = "Full-stack Web development blog on Linux with opinions, tutorials, ideas and rants."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.en.params.latte]
 HideAds = false
@@ -153,7 +153,7 @@ GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "Mis ideas, opiniones, tutoriales y críticas relacionadas con el mundo del desarrollo web y la ingeniería de Software"
+description = "Blog de Desarrollo Web Full-stack en Linux con opiniones, tutoriales, ideas and críticas."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 [languages.es.params.latte]
 HideAds = false
