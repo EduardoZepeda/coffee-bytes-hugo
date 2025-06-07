@@ -78,9 +78,11 @@ Si consideramos únicamente el resultado obtenido, **sostengo que Bolt sería el
 
 En cuanto a la experiencia al usar la herramienta, yo considero que es bastante similar en los tres casos. Los tres utilizan interfaces que parecen estarse convirtiendo en un estándar, y la verdad es que ni siquiera puedo recordar si existe alguna diferencia significativa entre las tres opciones.
 
-### La creación de sitios con LLM es imperfecta
+## La creación de sitios con LLM es imperfecta
 
 Algo que me pareció bastante curioso, es que si bien existen diferencias sutiles en cuanto a los fondos, el tamaño de los botones, las interacciones, y demás elementos visuales, las tres páginas utilizan exactamente el mismo layout de landing page; una navbar con un menú orientado al lado derecho, el logo del lado izquierdo, todas más o menos a la misma distancia y con 3-4 secciones. 
+
+### Los generadores de código usando LLM olvidan el SEO
 
 Una cosa extra que pude notar es la ausencia total de incluso el más básico [SEO técnico en la landing page]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), así que no cuentes con llevar tu sitio web a las primeras posiciones de Google sin invertirle algo de tiempo. Pero hey, los sitios web solo requirieron un prompt.
 

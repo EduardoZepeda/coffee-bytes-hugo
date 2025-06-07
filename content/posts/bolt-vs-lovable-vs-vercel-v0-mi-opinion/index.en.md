@@ -80,9 +80,11 @@ If we consider only the result obtained, **I would say that Bolt is the winner**
 
 In terms of the experience of using the tool, I consider it to be quite similar in all three cases. All three use interfaces that seem to be becoming standard, and the truth is that I can't even remember if there is any significant difference between the three options.
 
-### Website creation using LLM is far from perfect
+## Website creation using LLM is far from perfect
 
 Something I found quite curious is that while there are subtle differences in terms of backgrounds, button sizes, interactions, and other visual elements, all three pages use exactly the same landing page layout: a navbar with a menu on the right side, the logo on the left side, all more or less at the same distance and with 3-4 sections.
+
+### LLM generators usually forget about SEO
 
 One more thing that I noticed is the [lack of even the basics of technical SEO]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), so don't count on taking your site to Google's first position without investing some time in it. But hey, the results were surprising and only one prompt was required.
 
