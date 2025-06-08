@@ -3,6 +3,7 @@ aliases:
 - /comandos-de-gnu-linux-que-deberias-conocer
 - /comandos-de-linux-basicos-que-deberias-conocer
 - /es/comandos-de-linux-basicos-que-deberias-conocer/
+- /es/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/
 authors:
 - Eduardo Zepeda
 categories:

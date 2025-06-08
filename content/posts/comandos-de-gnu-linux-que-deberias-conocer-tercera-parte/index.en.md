@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/linux-commands-you-should-know-part-three/
+- /en/basic-commands-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/
 title: "Linux Basic Commands: lsof top ps kill systemctl chown chroot"
 date: "2019-05-21"
 categories:

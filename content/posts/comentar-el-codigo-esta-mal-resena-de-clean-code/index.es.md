@@ -3,6 +3,7 @@ aliases:
 - /comentar-el-codigo-esta-mal-resena-de-clean-code
 - /comentar-el-codigo-esta-mal-resena-de-clean-code/clean_code/
 - /es/comentar-el-codigo-esta-mal-resena-de-clean-code/
+- /es/el-libro-clean-code-y-los-paradigmas-del-codigo-limpio/
 authors:
 - Eduardo Zepeda
 categories:

@@ -1,4 +1,6 @@
 ---
+aliases:
+- /en/fine-tuning-a-llm-small-practical-guide-with-resource
 date: '2025-02-17'
 title: 'Fine-Tuning A LLM Small Practical Guide With Resources'
 categories:

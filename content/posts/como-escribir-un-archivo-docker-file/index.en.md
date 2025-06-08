@@ -1,4 +1,6 @@
 ---
+aliases:
+- /en/how-to-write-a-dockerfile-from-scratch/
 title: "How to write a docker file from scratch"
 date: "2020-10-09"
 categories:

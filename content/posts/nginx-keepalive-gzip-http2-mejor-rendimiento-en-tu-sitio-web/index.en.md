@@ -1,4 +1,6 @@
 ---
+aliases:
+- /en/nginx-keepalive-gzip-http2-best-performance-on-your-web-site/
 title: "Nginx keepalive, gzip, http2: better performance on your website"
 date: "2020-11-07"
 categories:
