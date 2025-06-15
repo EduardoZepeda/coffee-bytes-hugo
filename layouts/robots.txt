@@ -1,6 +1,4 @@
 User-agent: *
-Disallow: /*/tags/
-Disallow: /*/categories/
 Disallow: /*/search/
 Disallow: /wp-json/ 
 Disallow: /?rest_route= 
