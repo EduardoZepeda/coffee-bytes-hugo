@@ -145,7 +145,7 @@ Podemos elegir entre las letras "A", "B", "C" y "D". Cada letra tendrá un valor
 ```python
 from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
 vector = SearchVector('titulo', weight='A') + SearchVector('descripcion', weight='B')
-query = SearchQuery('magia')
+query = SearchQuery('Science fiction')
 Libro.objects.annotate(rank=SearchRank(vector, query)).filter(rank__gte=0.3).order_by('rank')
 ```
 

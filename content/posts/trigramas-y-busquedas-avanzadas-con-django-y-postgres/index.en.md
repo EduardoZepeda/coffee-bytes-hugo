@@ -143,7 +143,7 @@ We can choose between the letters "A", "B", "C" and "D". Each letter will have a
 ```python
 from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
 vector = SearchVector('title', weight='A') + SearchVector('descripcion', weight='B')
-query = SearchQuery('Magic')
+query = SearchQuery('Science fiction')
 Book.objects.annotate(rank=SearchRank(vector, query)).filter(rank__gte=0.3).order_by('rank')
 ```
 
