@@ -32,7 +32,7 @@ The reason why parfume resembles perfume is because both contain similar trigram
 
 Trigram? Yes, trigram, of three and gram. **A trigram is three consecutive characters, it's as simple as that.
 
-![Automata trigrams schematic](images/trigramas.jpg)
+![Automata trigrams schematic](https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams_tqmzs7.jpg)
 
 Trigrams are three consecutive characters
 
@@ -70,7 +70,7 @@ SELECT show_trgm('autommattaa');
 
 Can you notice how they both share some trigrams (a, au, aut, mat, tom, uto)?
 
-![Shared trigrams between two text strings](images/TrigramasCompartidos.png)
+![Shared trigrams between two text strings](https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg)
 
 Also note that the quotation marks around certain trigrams are to specify trigrams with spaces.
 
@@ -128,11 +128,11 @@ Search Rank, with the help of the to_tsvector and plainto_tsquery function, will
 
 In a search, not all fields should matter equally
 
-Imagine you have a book database and a Book model with a title field and a content field. If a user searches for "magic" books, it would probably be correct to return books that contain "magic" in the title, such as "Magic spells and ceremonies" or "Magic rituals" or "History of magic".
+Imagine you have a database of books and a Book model with a “title” field and a “description” field. If a user searches for a book, it would be reasonable to assume that they are searching for the title. Based on the above, the correct thing to do would be to return books that contain their query in the title.
 
-On the other hand, Harry Potter books also relate to user interests, as they mention the word "magic" multiple times in their description, however, you probably want your search to prioritize those that contain the word "magic" in the title, not in the description.
+On the other hand, the user may be searching for some words they remember reading on the back cover, or they may be searching for anything that contains their query. We can also search the “description” field but with a lower weighting, showing them matches with the title first and then those that match the description.
 
-![Explanation of relevance according to the field](images/ExplicacionRelevancia.jpg)
+![Explanation of relevance according to the field](https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg)
 
 With Posgres the above is possible.
 

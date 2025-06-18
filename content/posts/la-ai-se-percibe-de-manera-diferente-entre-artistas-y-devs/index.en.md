@@ -18,7 +18,7 @@ authors:
 
 Today, while *doom scrolling* on Zuckerberg's social network, the algorithm recommended me an image of **Sakura Card Captors** in the style of the Spanish painter **Remedios Varo**.
 
-![Image of Sakura Card Captors in the style of Remedios Varo created with AI](https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp "Image of Sakura Card Captors in the style of Remedios Varo created with AI")
+![Image of Sakura Card Captors using Remedios Varo style created with AI](https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp "Sakura Card Captors")
 
 When reviewing the comments -I don't even know what's in it for me- I noticed that the ones with more *likes* expressed a strong disdain for artificial intelligence. The accusations were the usual ones: that it was trained using artists' works without permission, that it plagiarizes styles, and at the same time, that it is despicable simply for not being human.
 
@@ -48,7 +48,7 @@ This is quite similar to how a human artist works: he collects stimuli from othe
 
 In the case of **code** generation using AI, the process is practically the same. The AI detects patterns and then generates new, different code, but based on the archetypes that the LLMs have “learned”.
 
-However, this is where an interesting **contrast** appears: while image generation is visual and causes dissatisfaction when reflected on the screen, AI-generated code goes completely unnoticed. **It is not seen.
+However, this is where an interesting **contrast** appears: while image generation is visual and causes dissatisfaction when reflected on the screen, **AI-generated code goes completely unnoticed.** It is not seen.
 
 There is no public backlash, no group protesting the generated code. The code does not arouse passions, nor anger about stolen code, like [when Devin AI promised to replace programmers]({{< ref path="/posts/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}) perhaps because the visual stimulus is much more intense than the sensation of knowing that an app runs on AI code.
 

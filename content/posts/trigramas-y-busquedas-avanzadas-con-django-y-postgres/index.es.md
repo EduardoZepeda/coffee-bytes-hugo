@@ -34,7 +34,7 @@ La razón de que parfume se parezca a perfume es porque ambos contienen trigrama
 
 ¿Trigrama? Sí, trigrama, de tres y grama. **Un trigrama son tres caracteres consecutivos**, así de sencillo.
 
-![Esquema de los trigramas de automata](images/trigramas.jpg)
+![Esquema de los trigramas de automata](https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams_tqmzs7.jpg)
 
 Trigramas son tres caracteres consecutivos
 
@@ -72,7 +72,7 @@ SELECT show_trgm('autommattaa');
 
 ¿Puedes notar como ambos comparten algunos trigramas? (a, au, aut, mat, tom, uto)
 
-![Trigramas compartidos entre dos cadenas de texto.](images/TrigramasCompartidos.png)
+![Trigramas compartidos entre dos cadenas de texto.](https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg)
 
 Observa también que las comillas alrededor de ciertos trigramas son para especificar trigramas con espacios
 
@@ -130,11 +130,11 @@ Search Rank, con ayuda de la función to\_tsvector y plainto\_tsquery, ordenará
 
 En una búsqueda, no todos los campos deberían importar igual
 
-Imagínate que tienes una base de datos de libros y un modelo Libro con un campo título y un campo contenido. Si un usuario busca libros de "magia", probablemente lo correcto sería devolverle libros que contengan "magia" en el título, como "Magia hechizos y ceremonias" o "Rituales mágicos" o "Historia de la magia".
+Imagínate que tienes una base de datos de libros y un modelo Libro con un campo "título" y un campo "descripción". Si un usuario busca un libro, sería sensato asumir que está buscando el título, basado en lo anterior, lo correcto sería devolverle libros que contengan su query en el título.
 
-Por otro lado, los libros de Harry Potter también se relacionan con los intereses del usuario, ya que mencionan múltiples veces la palabra "magia" en su descripción, sin embargo, probablemente quieras que tu búsqueda priorice a aquellos que contengan la palabra "magia" en el título, no en la descripción.
+Por otro lado, puede que el usuario esté buscando algunas palabras que recuerde haber leído en la contraportada, o que esté buscando cualquier cosa que tenga su query, podemos también buscar en el campo "descripción" pero con una menor valoración, mostrándole primero las coincidencias con el título y después las que coincidan con la descripción.
 
-![Explicación de la relevancia de acuerdo al campo](images/ExplicacionRelevancia.jpg)
+![Explicación de la relevancia de acuerdo al campo](https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg)
 
 Con Posgres es posible lo anterior.
 
