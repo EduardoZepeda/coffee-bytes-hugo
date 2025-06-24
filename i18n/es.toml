@@ -8,10 +8,10 @@ other = "Mis recomendaciones"
 other = "Sí, los leí completos"
 
 [leftPanelTitle]
-other = "Mis mejores fuentes seleccionadas para aprender el lenguaje de programación Python"
+other = "Mis recursos favoritos para aprender Python"
 
 [leftPanelDesc]
-other = "Estos recursos acelerarán tu proceso de aprendizaje."
+other = "Conoce los recursos que usé para aprender Python"
 
 [leftPanelButton]
 other = "Leer Post"

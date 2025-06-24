@@ -1,6 +1,5 @@
 ---
 title: "Disclosure"
-date: "2024-22-04"
 noindex: true
 nofollow: true
 ---
