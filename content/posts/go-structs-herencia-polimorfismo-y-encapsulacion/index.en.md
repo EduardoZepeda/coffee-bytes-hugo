@@ -201,7 +201,7 @@ Go follows the [*composition over inheritance*]({{< ref path="/posts/favorecer-l
 So when you add the new struct, you are not doing inheritance, you are adding a new struct to the original struct. So to access the fields of this one, first you need to access the struct you added.
 
 ``` Go
-Proffessor.Person.Name
+Professor.Person.Name
 ```
 
 ## Polymorphism using interfaces in go

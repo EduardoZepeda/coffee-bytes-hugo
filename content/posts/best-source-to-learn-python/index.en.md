@@ -36,7 +36,7 @@ This book is my favorite of all, it starts from scratch and begins to teach you 
 
 In my humble opinion this book is my favorite source for learning Python.
 
-![Dive into Python book cover](/en/learn-python-from-scratch-with-this-free-book/images/DSC_3818_hub20defd289118131132d46f16766986c_332166_768x0_resize_q90_box.jpg "Dive into Python Book cover")
+![Dive into Python book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg "Dive into Python Book cover")
 
 {{< affbutton link="https://amzn.to/42HBn0l" description="Dive into Python on Amazon" >}}
 
@@ -46,7 +46,7 @@ Beggining Python from novice to Professional is an introduction to the language 
 
 Highly recommended if you want to get an overview of Python capabilities.
 
-![Beggining Python from Novice to Pro Book cover](/en/learn-python-from-scratch-beginning-python-review/images/Beginning_Python_from_novice_to_pro_hu960b446cbcba4fb7c1e5a6b956ea895e_211782_768x0_resize_q90_box.jpg "Beggining Python from Novice to Pro Book cover")
+![Beggining Python from Novice to Pro Book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1750742217/coffee-bytes/Beginning_Python_from_novice_to_pro_tlfayl.jpg "Beggining Python from Novice to Pro Book cover")
 
 {{< affbutton link="https://amzn.to/44tPuZZ" description="Beginning Python from Novice to Pro on Amazon" >}}
 
@@ -58,7 +58,7 @@ You will learn how to encrypt and decrypt using Caesar cipher, Vigenere, single-
 
 If you are looking for something short, sweet and enjoyable to master the most basic parts of the language this is your book.
 
-![Cracking with Python book cover](/en/learn-python-through-cryptography-my-review-of-cracking-codes-with-python/images/cracking_codes_with_python_hu47d9b0f6f192005e99233dabc28d461e_171030_768x0_resize_q90_box.jpg "Cracking with Python book cover")
+![Cracking with Python book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1750742522/coffee-bytes/cracking_codes_with_python_mnovzk.jpg "Cracking with Python book cover")
 
 {{< affbutton link="https://amzn.to/4ixeQcE" description="Cracking Codes with Python on Amazon" >}}
 

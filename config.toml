@@ -6,11 +6,11 @@ copyright = "© All rights reserved."
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 googleAnalytics = ""
+ignoreLogs = ['warning-goldmark-raw-html']
 phAnalytics = ""
 removePathAccents = true
 theme = "hugo-theme-latte"
 title = "Coffee bytes"
-
 [languages]
 [languages.en]
 disabled = false

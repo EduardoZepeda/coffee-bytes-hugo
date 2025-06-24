@@ -8,10 +8,10 @@ other = "My book recommendations"
 other = "Yes, I've read them"
 
 [leftPanelTitle]
-other = "Your SAAS in days, not months 😎"
+other = "My Curated Best Sources To Learn Python Programming Language"
 
 [leftPanelDesc]
-other = "Buy code once, use it forever"
+other = "These resources will accelerate your learning process"
 
 [leftPanelButton]
-other = "Tell me more"
+other = "Read Post"

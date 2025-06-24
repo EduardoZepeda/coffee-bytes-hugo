@@ -53,6 +53,7 @@
  }
  .affiliate-desc {
       opacity: 0.75;
+      width: 100%;
   }
 
   .affiliate-link-button{
@@ -194,16 +195,18 @@
   <aside class="affiliate-link-container affiliate-link-container-side">
     <div class="affiliate-heading">
       <h3>{{i18n "leftPanelTitle"}}</h3>
-      <span class="affiliate-badge">{{ i18n "ad" }}</span>
     </div>
     {{/* Loop through categories and display ads, limit only to two categories */}}
     <div class="affiliate-body">
       <div class="affiliate-desc">{{i18n "leftPanelDesc"}}</div>
       <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
-        <img height="300px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp" alt="Video thumbnail" class="video-thumbnail">
-        <div class="play-button"></div>
+        <img height="300px" src="/en/my-curated-best-sources-to-learn-python-programming-language/images/best-source-to-learn-python_hu_f4d325208d76de36.jpg" alt="Video thumbnail" class="video-thumbnail">
       </div>
-      <div><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" rel="nofollow sponsored" href="https://www.saaspegasus.com/?via=coffee-bytes">{{ i18n "leftPanelButton"}}</a></div>
+      {{ $url := "/en/my-curated-best-sources-to-learn-python-programming-language/" }}
+      {{ if eq $lang "es" }}
+            {{ $url = "/es/mis-libros-favoritos-para-aprender-a-programar-en-python/" }}
+      {{ end }}
+      <div><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" href="{{$url}}">{{ i18n "leftPanelButton"}}</a></div>
     </div>
   </aside>
 </template>
@@ -252,7 +255,7 @@
   function renderAds() {
       renderRightPanelAds()
       renderLeftPanelAds()
-      loadYoutubeVideo()
+      //loadYoutubeVideo()
   }
 
   async function updateLinkToMx() {
