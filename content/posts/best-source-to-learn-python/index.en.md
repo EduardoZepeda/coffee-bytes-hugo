@@ -1,6 +1,8 @@
 ---
+aliases:
+- /en/my-curated-best-sources-to-learn-python-programming-language/
 date: "2025-04-25"
-title: "My Curated Best Sources To Learn Python Programming Language"
+title: "My Curated Best Resources To Learn Python Programming Language"
 description: "Here's my curated list of favorite books and some extra resources you can use to learn the Python programming language, even if you don't have any experience"
 keyword: "sources to learn python"
 coverImage: images/best-source-to-learn-python.jpg
@@ -15,7 +17,7 @@ categories:
 - opinions
 ---
 
-## Best book sources to learn Python
+## The Best books to learn Python
 
 I used these resources to learn Python, so I am familiar with them and can heartily recommend them to you. If this little guide can help you to not get lost in the sea of options out there I'll be thrilled to share my experience learning Python with you.
 
