@@ -8,10 +8,10 @@ other = "My book recommendations"
 other = "Yes, I've read them"
 
 [leftPanelTitle]
-other = "My Curated Best Sources To Learn Python Programming Language"
+other = "My Curated Best Resources To Learn and Make The Most of Python"
 
 [leftPanelDesc]
-other = "I read these books to learn Python deeply"
+other = "This is what I read to go beyond Python basics"
 
 [leftPanelButton]
 other = "Read Post"
