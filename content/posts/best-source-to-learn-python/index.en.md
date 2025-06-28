@@ -91,7 +91,7 @@ And too many things to cover in a short post. But if you have a chance and a lit
 
 ![Python tricks book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp)
 
-{{< affbutton link="https://amzn.to/3SbKyBe" description="Python Tricks on Amazon" >}}
+{{< affbutton link="https://amzn.to/45QvNfz" description="Python Tricks on Amazon" >}}
 
 
 
