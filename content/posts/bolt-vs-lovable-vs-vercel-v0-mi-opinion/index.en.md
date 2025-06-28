@@ -84,6 +84,14 @@ In terms of the experience of using the tool, I consider it to be quite similar 
 
 Something I found quite curious is that while there are subtle differences in terms of backgrounds, button sizes, interactions, and other visual elements, all three pages use exactly the same landing page layout: a navbar with a menu on the right side, the logo on the left side, all more or less at the same distance and with 3-4 sections.
 
+### All LLM sites looks the same
+
+It's not necessarily a bad thing, but it does take away from the website's personality. If you have a business, you don't want to look like your competition; you want to stand out, and for that you need a design that's different from the rest. One of the problems with LLMs is that they always return the most likely token, so the code they produce will be similar for all users who use it, probably with the same layout, color palette, and similar texts. 
+
+This is bad news if you want a website that stands out from the crowd, as the only solution is customization, either by a professional or by spending hours on the model to get something different.
+
+Translated with DeepL.com (free version)
+
 ### LLM generators usually forget about SEO
 
 One more thing that I noticed is the [lack of even the basics of technical SEO]({{< ref path="/posts/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), so don't count on taking your site to Google's first position without investing some time in it. But hey, the results were surprising and only one prompt was required.
