@@ -27,7 +27,7 @@ Al llegar al final de la introducción, los siguientes capítulos de este libro 
 
 Y, para cerrar el libro, el autor nos ofrece 10 proyectos diferentes, para poner en práctica todos los temas anteriormente mencionados. Como puedes ver es un paseo completo por varias areas del lenguaje.
 
-A propósito, si quieres aprender más de este lenguaje de programación [aquí está mi lista de recursos favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
+A propósito, si quieres aprender más de este lenguaje de programación aquí está mi [lista de recursos favoritos para aprender Python]({{< ref path="/posts/best-source-to-learn-python/index.md" lang="es" >}})
 
 ## Aprender desde cero
 
