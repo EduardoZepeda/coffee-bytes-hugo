@@ -161,7 +161,7 @@
     <div><p>{{$ad.description}}</p></div>
     {{ if $ad.imageSrc }}
       <div>
-      <a class="affiliate-link" rel="nofollow sponsored" category="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img affiliate-shadow" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
+      <a class="affiliate-link" rel="nofollow sponsored" category="{{.}}" href="{{$ad.link}}"><img fetchpriority="high" class="affiliate-img affiliate-shadow" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
       </div>
     {{ end }}
       <div>
@@ -188,7 +188,7 @@
             <div class="affiliate-body">
             {{ if $ad.imageSrc }}
               <div>
-              <a class="affiliate-link" rel="nofollow sponsored" category="{{.}}" href="{{$ad.link}}"><img loading="lazy" class="affiliate-img-side affiliate-shadow" height="225px" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
+              <a class="affiliate-link" rel="nofollow sponsored" category="{{.}}" href="{{$ad.link}}"><img fetchpriority="high" class="affiliate-img-side affiliate-shadow" height="225px" src="{{$ad.imageSrc}}" alt="{{$ad.imageAlt}}" title="{{$ad.imageAlt}}"/></a>
               </div>
             {{ end }}
               <div>
@@ -214,7 +214,7 @@
       <div class="affiliate-desc">{{i18n "leftPanelDesc"}}</div>
       <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
         <a href="{{$url}}">
-          <img height="300px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" alt="Python book thumbnail" class="video-thumbnail"/>
+          <img fetchpriority="high" height="200px" width="472px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" alt="Python book thumbnail" class="video-thumbnail"/>
           </a>
       </div>
 

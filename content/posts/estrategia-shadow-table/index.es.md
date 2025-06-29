@@ -1,6 +1,5 @@
 ---
 date: '2025-06-27T16:14:37-06:00'
-draft: true
 title: 'Migraciones con zero downtime: la estrategia shadow table'
 categories:
 - bases de datos

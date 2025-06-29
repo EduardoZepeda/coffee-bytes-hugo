@@ -1,6 +1,5 @@
 ---
 date: '2025-06-27T16:14:41-06:00'
-draft: true
 title: 'Zero Downtime Migrations: Shadow Table Strategy Explained'
 categories:
 - databases
