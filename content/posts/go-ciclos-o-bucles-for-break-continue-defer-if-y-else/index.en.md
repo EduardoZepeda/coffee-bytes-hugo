@@ -59,7 +59,7 @@ if edad < 18 {
 
 In go **there are several types of for** loops: counter, conditional, range and infinite.
 
-![Simplified Golang for loops diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1747441808/coffee-bytes/golang-for-loops-schema-diagram_1_hlfy0i.png "Simplified Golang for loops diagram")
+![Simplified Golang for loops diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1751224927/coffee-bytes/golang-for-loops-schema-diagram_cl20ok.webp "Simplified Golang for loops diagram")
 
 ### Loops with counter in Go
 

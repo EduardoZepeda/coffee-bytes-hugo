@@ -121,7 +121,7 @@ export async function listCommits(
 
 Esta es la parte mágica, el LLM puede "leer" las acciones disponibles del MCP y, basado en el prompt, decidir que acción debe ser ejecutada, entonces el MCP realizará la acción y devolverá la respuesta al LLM, después la respuesta será leída por el LLM, que generará una respuesta final para el usuario.
 
-![MCP Flow Diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1745694216/coffee-bytes/MCP-flow-diagram_jjziao.png)
+![MCP Flow Diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1751225840/coffee-bytes/MCP-flow-diagram_jjziao_sfst5j.webp)
 
 Hasta ahora he estado hablando de recursos y acciones, pero en el MCP estas dos acciones que se encargan de darle contexto a un LLM tienen nombres, por supuesto no iban a perder la oportunidad de darle branding a su protocolo.
 

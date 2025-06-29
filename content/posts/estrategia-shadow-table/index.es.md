@@ -54,7 +54,7 @@ Stonks. Enhorabuena si eres tú el propietario.
 
 En primer lugar, crea tu nueva tabla con la estructura deseada:
 
-![Crear la shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751080620/coffee-bytes/shadow-table-copy_jlbtgz.png)
+![Crear la shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png)
 
 ```sql
 -- Create the shadow table with the new structure

@@ -96,7 +96,7 @@ Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs 
 
 Chroot, nombre que viene de change root, le indica a Linux que debe cambiar el directorio que está usando como root a otro, esto implica que ahora tendrá otra serie de binarios, configuraciones y procesos diferentes. 
 
-![](https://res.cloudinary.com/dwrscezd2/image/upload/v1749085256/coffee-bytes/chroot-in-linux_1_wwyrym.png "Chroot cambia el root a otro que especifiquemos")
+![](https://res.cloudinary.com/dwrscezd2/image/upload/v1751225523/coffee-bytes/ed-zepeda_vlu99f.webp "Chroot cambia el root a otro que especifiquemos")
 
 ## Crear un container desde cero con Go
 

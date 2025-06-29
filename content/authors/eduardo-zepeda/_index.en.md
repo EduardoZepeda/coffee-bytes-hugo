@@ -1,7 +1,7 @@
 ---
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
-photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1749018129/coffee-bytes/ed-zepeda-500_lxn7cc.jpg'
+photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1751225523/coffee-bytes/ed-zepeda_vlu99f.webp'
 summary: "Just call me Ed. Web developer and GNU/Linux preacher. Maturity over novelty, better done than perfect. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
 threads: "zeedu.dev"
 codewars: "EduardoZepeda"
