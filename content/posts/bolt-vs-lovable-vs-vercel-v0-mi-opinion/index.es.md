@@ -28,7 +28,7 @@ Para el prompt utilicé algo bastante sencillo. Decidí no ser tan específico, 
 
 ## Landing Page en v0-vercel
 
-El resultado de Vercel es bastante decente. 
+El resultado de [Vercel V0](https://v0.dev/#?) es bastante decente. 
 
 La paleta de colores es muy Cyberpunk. Me encantó el fondo cuadriculado, la landing page me pareció un poco simple, pero cumple perfectamente con lo prometido.
 
@@ -44,7 +44,7 @@ Pero dejando de lado eso, yo creo que está bien logrado y el resultado es sóli
 
 ## Landing Page en Bolt
 
-La propuesta de Bolt fue mi favorita de las tres. Usar el efecto de luces de neón en las letras me parece un acierto, ya que refleja perfectamente la estética cyberpunk de novelas como neuromante o videojuegos como Cyberpunk 2077. 
+La propuesta de [Bolt](https://bolt.new/#?) fue mi favorita de las tres. Usar el efecto de luces de neón en las letras me parece un acierto, ya que refleja perfectamente la estética cyberpunk de novelas como neuromante o videojuegos como Cyberpunk 2077. 
 
 La AI de Bolt añadió imágenes que van con la paleta de colores, el marco en la imagen me parece también un toque bastante acertado, y la cereza del pastel es el efecto tipo glitch en el hero, usado frecuentemente en material audiovisual de estilo Cyberpunk. 
 
@@ -54,7 +54,7 @@ Sencillamente perfecto, no tuve problema alguno con la instalación. Lo que sí 
 
 ## Landing Page en Lovable
 
-Lovable también cumple al entregar una landing page funcional. Sin embargo, siento que esta vez fue un poquito demasiado para mí. 
+[Lovable](https://lovable.dev/#?) también cumple al entregar una landing page funcional. Sin embargo, siento que esta vez fue un poquito demasiado para mí. 
 
 El fondo de Matrix, si bien supongo que está relacionado con la temática cyberpunk, por la naturaleza de la película, no siento que sea un elemento que deba integrarse en una landing page (A menos de que se trate de la película "Matrix").
 
