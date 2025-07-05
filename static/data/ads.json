@@ -27,7 +27,7 @@
         "django": {
             "description": "Django 5 salió y todos los libros anteriores se volvieron obsoletos porque están usando versiones antiguas de django en sus ejemplos, este no lo es y cubre todas las características básicas de django que hacen de este framework una de las apuestas más estables, probadas en batalla y seguras a la hora de diseñar una aplicación web.",
             "imageAlt": "Portada del libro Django for Beginners",
-            "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1740103893/django-for-begginers_ki2ghr.jpg",
+            "imageSrc": "https://res.cloudinary.com/dwrscezd2/image/upload/v1751669153/coffee-bytes/django-for-begginers_300_xqbdi2.webp",
             "link": "https://amzn.to/4iuzM4z",
             "linkText": "Consulta el precio de Django for Beginners y cómpralo en Amazon México",
             "title": "¿Dónde aprender Django Framework?"

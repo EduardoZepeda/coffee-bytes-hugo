@@ -1,7 +1,6 @@
 ---
 aliases:
 - /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers
-- 
 title: "Devin AI Will this AI Replace Programmers?"
 date: "2024-03-13"
 coverImage: "images/devin-cognitive-artificial-intelligence-and-programmers.jpg"

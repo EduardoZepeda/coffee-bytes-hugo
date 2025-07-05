@@ -24,7 +24,7 @@ en:
   django:
     description: Django 5 came out and all books became obsolete because they're using old django versions in their examples, this one isn't and covers all the basic django features that makes this framework one of the most stable, battle-tested and safe bets when designing a web app.
     imageAlt: Django for Beginners book cover
-    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103893/django-for-begginers_ki2ghr.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1751669153/coffee-bytes/django-for-begginers_300_xqbdi2.webp
     link: https://amzn.to/3Qx2pli
     linkText: Get Django for Beginners on Amazon Now
     title: Where to learn Django Framework deeply?
@@ -153,7 +153,7 @@ es:
   django:
     description: Django 5 salió y todos los libros anteriores se volvieron obsoletos porque están usando versiones antiguas de django en sus ejemplos, este no lo es y cubre todas las características básicas de django que hacen de este framework una de las apuestas más estables, probadas en batalla y seguras a la hora de diseñar una aplicación web.
     imageAlt: Portada del libro Django for Beginners
-    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103893/django-for-begginers_ki2ghr.jpg
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1751669153/coffee-bytes/django-for-begginers_300_xqbdi2.webp
     link: https://amzn.to/3Qx2pli
     linkText: Consulta el precio de Django for Beginners y cómpralo en Amazon
     title: ¿Dónde aprender Django Framework de manera profunda?
