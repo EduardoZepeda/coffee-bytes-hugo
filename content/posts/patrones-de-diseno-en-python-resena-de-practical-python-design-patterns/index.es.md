@@ -218,8 +218,8 @@ Puedes ver el como se implementó el decorador [login\_required](https://docs.dj
 ## ¿Dónde aprender patrones de diseño?
 
 Mis recomendaciones para aprender patrones de diseño son las siguientes:
-- Head First Design Patterns de Eric Freeman y Kathy Sierra (El más popular)
-- Practical Python Design Patterns de Wessel Badenhorst (Yo aprendí con este por ser completo y simple)
+- [Head First Design Patterns de Eric Freeman y Kathy Sierra](https://amzn.to/4lolQe3#?) (El más popular)
+- [Practical Python Design Patterns de Wessel Badenhorst](https://amzn.to/3IxCcSV#?) (Yo aprendí con este por ser completo y simple)
 
 Pero yo creo que de este tema hay basta información en internet como para que leas un libro completo al respecto, además con darte una idea de los patrones más comunes y sus usos debería ser suficiente, puedes ahondar en ellos conforme los necesites.
 

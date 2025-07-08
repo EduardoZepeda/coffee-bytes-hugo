@@ -42,7 +42,7 @@ Some common problems are: [processing tasks using a fixed number of workers](/en
 
 Does this last one ring a bell? Yes, the MVC pattern used by many [frameworks, such as django](/en/why-should-you-use-django-framework/), is a design pattern, or the [debounce-and-throttle](/en/limit-the-execution-of-functions-in-js-with-debounce-and-throttle/) pattern used mainly in JavaScript.
 
-Another example is the well-known ["composition over inheritance]({{< ref path="/posts/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}})
+Another example is the well-known ["composition over inheritance"]({{< ref path="/posts/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}})
 
 Design patterns make it easier to decouple the code, which makes it simpler to add or remove functions and also gives us the assurance that they are solutions that have already been tested over and over again over the years.
 
@@ -226,8 +226,8 @@ You can see how the original django [login_required](https://docs.djangoproject.
 ## Where to learn design patterns?
 
 My recommendations for learning design patterns are as follows:
-- Head First Design Patterns by Eric Freeman and Kathy Sierra (The most popular)
-- Practical Python Design Patterns by Wessel Badenhorst (I learned my stuff with this one because it is complete and simple).
+- [Head First Design Patterns by Eric Freeman and Kathy Sierra](https://amzn.to/40wGv7i#?) (The most popular)
+- [Practical Python Design Patterns by Wessel Badenhorst](https://amzn.to/3GwZ2tr#?) (I learned my stuff with this one because it is complete and simple).
 
 But I think there is enough information on this topic on the internet for you to read a whole book about it, besides, just giving you an idea of the most common patterns and their uses should be enough, you can go deeper into them as you need them.
 
