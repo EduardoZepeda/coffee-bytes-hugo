@@ -44,9 +44,9 @@ name = "Disclosure"
 url = "/pages/disclosure/"
 weight = 7
 [[languages.en.menu.social]]
-name = "Codewars"
-pre = "codewars"
-url = "https://www.codewars.com/users/EduardoZepeda"
+name = "Github"
+pre = "github-alt"
+url = "https://github.com/EduardoZepeda"
 weight = 2
 [[languages.en.menu.social]]
 name = "Threads"
@@ -144,9 +144,9 @@ pre = "message"
 url = "https://zeedu.dev"
 weight = 5
 [[languages.es.menu.social]]
-name = "Codewars"
-pre = "codewars"
-url = "https://www.codewars.com/users/EduardoZepeda"
+name = "Github"
+pre = "github-alt"
+url = "https://github.com/EduardoZepeda"
 weight = 6
 [languages.es.params]
 GoogleTagManager = ""

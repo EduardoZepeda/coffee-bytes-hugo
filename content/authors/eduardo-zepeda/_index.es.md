@@ -7,7 +7,7 @@ name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1751669772/coffee-bytes/ed-zepeda-250_khvdod.jpg'
 summary: 'Desarrollador web y predicador de GNU/Linux. Madurez sobre novedad, mejor hecho que perfecto. Antes creía en la bondad de las criptodivisas fuera de la especulación monetaria. Abierto al Rustaceanismo.'
 twitter: "@hello_wired"
-codewars: "EduardoZepeda"
+github: "EduardoZepeda"
 instagram: "zeedu.dev"
 linkedin: "eduardomzepeda"
 website: "https://zeedu.dev"
