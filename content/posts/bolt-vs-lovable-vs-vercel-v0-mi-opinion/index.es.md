@@ -86,6 +86,8 @@ Algo que me pareció bastante curioso, es que si bien existen diferencias sutile
 
 En realidad no es necesariamente malo, pero le quita personalidad al sitio web. Si tienes un negocio no quieres lucir igual que tu competencia, quieres destacarte y para eso necesitas un diseño diferente al resto. Uno de los problemas con los LLM es siempre devuelven el token más probable, por lo que el código que produzcan será similar para todos los usuarios que la usen, probablemente el mismo layout, paleta de colores y textos similares. 
 
+![Todos las landing pages de AI lucen igual](https://res.cloudinary.com/dwrscezd2/image/upload/v1752184598/coffee-bytes/ai-layout-landing_nsyj1p.png)
+
 Lo anterior es una mala noticia si quieres un sitio web que destaque entre la multitud, pues la única solución es la personalización, ya sea por un profesional o dedicarle horas al modelo para que te entregue algo diferente.
 
 ### Los generadores de código usando LLM olvidan el SEO
