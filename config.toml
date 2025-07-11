@@ -206,6 +206,8 @@ name = 'keywords'
 weight = 50
 
 [markup]
+[markup.highlight]
+style = "base16-snazzy"
 [markup.tableOfContents]
 endLevel = 3
 ordered = false
