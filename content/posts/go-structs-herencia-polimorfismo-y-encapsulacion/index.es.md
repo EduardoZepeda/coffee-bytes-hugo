@@ -19,7 +19,7 @@ Como ya te mencioné en la [introducción al lenguaje de programación Golang o 
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
-## Structs en go
+## ¿Qué es un struct en Go?
 
 Un [struct en go](https://go.dev/tour/moretypes/2) es una colección de campos. Se definen con el keyword _type_ seguido del nombre a asignar y la palabra _struct_.
 
@@ -58,7 +58,7 @@ fmt.Println(myVideogame)
 
 ## Campos anónimos en structs
 
-En go, es posible no declarar el nombre del campo de nuestro struct y colocar únicamente el tipo de dato. Hecho así, los campos adoptarán el nombre del tipo de dato y podemos acceder a ellos usándolos.
+En go, **es posible no declarar el nombre del campo de nuestro struct y colocar únicamente el tipo de dato**. Hecho así, los campos adoptarán el nombre del tipo de dato y podemos acceder a ellos usándolos.
 
 ```go
 type Videogame struct { 
@@ -98,6 +98,10 @@ type Videogame struct {
 
 Podemos agrupar funcionalidades que involucren a nuestros structs declarando funciones que accedan a estos.
 
+Puedes pensar en estos como los métodos de una clase.
+
+### ¿Cómo acceder a los structs en un método en Go?
+
 Para acceder a instancias de structs en las funciones necesitamos colocar un par de parentesis entre la keyword _func_ y el nombre de la función. Estos paréntesis contienen el nombre que usaremos para acceder a la instancia del struct, seguido del caracter de desestructuración y, por último, el nombre del struct.
 
 ![Composición en Go, diagrama](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png)
@@ -122,9 +126,11 @@ Y una vez declarado este "método", podemos llamar al método que creamos a trav
 videogame.IncreaseYear()
 ```
 
-### Personalizar la impresión de un struct en go
+### Personalizar el print de un struct en go
 
 Si declaramos una función para personalizar el output en consola llamada _String_, reemplazaremos lo que devuelve el struct cuando lo imprimimos.
+
+Piensa en esto como cuando reemplazas el método __str__ en Python.
 
 Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso el método Sprintf del [paquete fmt de go](/es/go-funciones-argumentos-y-el-paquete-fmt/) para devolver un string.
 
@@ -200,6 +206,8 @@ Por ejemplo: Piensa en una abstracción que representa a cada animal que respira
 
 ![Explicación del concepto de interfaz en programación](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png "Mientras el ente pueda respirar, satisface la interfaz.")
 
+### ¿Para que sirve una interfaz en Go?
+
 Basándonos en lo anterior, en Go las interfaces son un método para diferenciar el comportamiento de diferentes objetos. Una interfaz se encargará de llamar al método que le especificamos correspondiente a su tipo de struct.
 
 Mira como la interfaz declara que el type _figuras4Lados_ tiene un método llamada _area_ que devuelve un resultado de tipo _float64_.
@@ -236,7 +244,9 @@ Ahora crearemos una función que recibirá como argumento cualquier type _figura
 
 ### ¿Para que sirve una interfaz en Go?
 
-Aquí hay que poner enfasis especial, observa como el argumento que le pasemos a la función es la interfaz que creamos, no nos interesa que tipo de *struct* estamos pasándole como argumento, lo único que nos interesa es que este argumento satisfaga a la interfaz. 
+Aquí hay que poner enfasis especial, observa como el argumento que le pasemos a la función es la interfaz que creamos, **no nos interesa que tipo de *struct* estamos pasándole como argumento, lo único que nos interesa es que este argumento satisfaga a la interfaz.**
+
+De nuevo. **No nos importa cómo esté construido el struct, el único requisito para que funcione en nuestra función es que DEBE satisfacer la interfaz.**
 
 En este caso la interfaz es *figura4Lados*, y por ende debemos asegurarnos que lo que sea que le pasemos tenga un método llamado *area* que retorne un *float64*.
 

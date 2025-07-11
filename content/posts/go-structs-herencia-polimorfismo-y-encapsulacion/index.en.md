@@ -16,11 +16,11 @@ authors:
 - Eduardo Zepeda
 ---
 
-As I already mentioned to you in the [introduction to the Golang or Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
+As I already mentioned to you in the [introduction to Golang or Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
-## Structs in go
+## What are Structs in Go?
 
 A [struct in go](https://go.dev/tour/moretypes/2) is a collection of fields. They are defined with the keyword _type_ followed by the name to assign and the word _struct_.
 
@@ -59,7 +59,7 @@ fmt.Println(myVideogame)
 
 ## Anonymous fields in Go structs
 
-In go, it is possible not to declare the name of the field of our struct and to place only the data type. Done this way, the fields will adopt the name of the data type and we can access them using them.
+In go, **it is possible not to declare the name of the field of our struct and to place only the data type**. Done this way, the fields will adopt the name of the data type and we can access them using them.
 
 ```go
 type Videogame struct { 
@@ -80,7 +80,7 @@ To mark a struct, function or variable as private or public, as well as their re
 
 ![Go's privacy rules diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png)
 
-Personally, I think this is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*, yes, I know it sucks, but let's bear with it for now.
+Personally, I think this sucks, it is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*, yes, I know it sucks, but let's bear with it for now.
 
 ``` go
 type MyData struct {
@@ -107,7 +107,9 @@ type Videogame struct {
 
 We can group functionalities that involve our structs by declaring functions that access them. 
 
-You can think of them as methods in a class.
+Feel free to think of them as methods in a class.
+
+### How to access a struct in a method function in Go?
 
 To access struct instances in functions we need to place a pair of parenthesis between the keyword _func_ and the function name. These parentheses contain the name we will use to access the struct instance, followed by the destructuring character and finally the struct name.
 
@@ -136,6 +138,8 @@ videogame.IncreaseYear()
 ### Customize the printout of a struct in go
 
 If we declare a function to customize the console output called _String_, we will replace what the struct returns when we print it.
+
+Think of it like overriding the __str__ method if you come from Python.
 
 Note the absence of the destructuring operator in the parenthesis in the first set of parentheses and how I use the Sprintf method of the [go fmt-package](/en/go-functions-arguments-and-the-fmt-package/) to return a string.
 
@@ -250,9 +254,11 @@ func (r rectangle) area() float64 {
 
 Now we will create a function that will receive as argument any type *fourSidesFigure*, and will execute its respective _area._ method.
 
-### what's an interface for in Go?
+### What's an interface for in Go?
 
-Here it is necessary to put special emphasis, observe how the argument that we pass to the function is the interface that we created, **we are not interested in what type of *struct* we are passing as argument, the only thing that we care about is that this argument satisfies the interface.** 
+Here it is necessary to put special emphasis, observe how the argument that we pass to the function is the interface that we created, **we are not interested in what type of *struct* we are passing as argument, the only thing that we care about is that this argument satisfies the interface.**
+
+Again in case you miss it. **We don't care how the struct is built, the only requisite for it to work in our function is that it MUST satify the interface.**
 
 In this case the interface is *fourSidesFigure*, hence, whatever we pass it as an argument must have a method called *area* that returns a *float64*.
 
