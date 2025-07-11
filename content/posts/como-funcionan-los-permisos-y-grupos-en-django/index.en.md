@@ -4,7 +4,7 @@ date: "2021-04-17"
 categories:
 - "django"
 
-coverImage: "images/Permisos-en-django.jpg"
+coverImage: "images/permissions-en-django.jpg"
 coverImageCredits: "https://www.pexels.com/es-es/@orlovamaria/"
 description: "Learn how to create permissions, groups, assign them to users, and create custom permissions in Django. Even if you've never done it before."
 keywords:
@@ -30,15 +30,15 @@ On the other hand, the user model has a _ManyToMany_ relationship with the _Perm
 The permissions that Django creates come in the form of <app>.<action>_<model> or app.action_model.
 
 ```python
-app.add_modelo # Para añadir modelos
-app.edit_modelo # Para editar modelos
-app.delete_modelo # Para borrar modelos
-app.view_modelo # Para ver modelos
-# por ejemplo: 
-# streaming.add_pelicula
-# tienda.edit_articulo
-# encuestas.delete_encuesta
-# vapor.view_videojuego
+app.add_model 
+app.edit_model 
+app.delete_model 
+app.view_model 
+# Eg:¿: 
+# streaming.add_movie
+# store.edit_article
+# poll.delete_question
+# vapor.view_videogame
 ```
 
 {{<ad>}}
@@ -50,19 +50,19 @@ To add or remove permissions to a user we will make use of the methods provided 
 To add permissions one by one we pass them to the _add()_ method.
 
 ```python
-user.permissions.add(permiso1, permiso2, ...)
+user.permissions.add(permission1, permission2, ...)
 ```
 
 To remove permissions we pass the permission we want to remove to the _remove()_ method.
 
 ```python
-user.permissions.remove(permiso1, permiso2, ...)
+user.permissions.remove(permission1, permission2, ...)
 ```
 
 If we want to set a list of permissions we simply match the _permissions_ attribute to the list we want it to have.
 
 ```python
-user.permissions = [lista_de_permisos]
+user.permissions = [permissions_list]
 ```
 
 To remove all permissions for a user we use the _clear()_ method.
@@ -96,7 +96,7 @@ user.user.get_group_permissions()
 We can check if a user has a unique permission with the _has_perm()_ method. It will return _True_ if the user has the permission. If the user has the permissions but its user instance has the active property equal to _False_, it will return _False_.
 
 ```python
-user.has_perm("app.accion_modelo")
+user.has_perm("app.<action>_model")
 ```
 
 ### Check if a user has a set of permissions
@@ -104,7 +104,7 @@ user.has_perm("app.accion_modelo")
 _has_perms_ is quite useful if we want to check if a user has a set of permissions. It will return _True_, only if it has all the permissions. Like the previous one, **will return _False_ if the user is not active, even if he has the permissions **.
 
 ```python
-user.has_perms(["app.edit_modelo", "app.delete_modelo"]) # por ejemplo videogame_store.edit_videogame, videogame_store.delete_videogame
+user.has_perms(["app.edit_model", "app.delete_model"]) # por ejemplo videogame_store.edit_videogame, videogame_store.delete_videogame
 ```
 
 ### Check if a user has any permissions
@@ -112,12 +112,12 @@ user.has_perms(["app.edit_modelo", "app.delete_modelo"]) # por ejemplo videogame
 Maybe we just want to check the existence of any permissions, that's what _has_module_perms()_ is for. It returns _True_ if the user has any permissions for the application tag we pass it. In the same way, it returns _False_ for inactive users.
 
 ```python
-user.has_module_perms('etiqueta_de_la_app') # por ejemplo videogame.view_videogame
+user.has_module_perms('app_label') # por ejemplo videogame.view_videogame
 
 # models.py
 class tuModelo(models.Model):
     class Meta:
-        app_label = 'etiqueta_de_la_app'
+        app_label = 'app_label'
 ```
 
 ## Applying permissions to limit actions
@@ -132,7 +132,7 @@ There is a second optional parameter, the url to redirect to for unauthenticated
 
 ```python
 def can_delete_and_edit(user):
-return user.has_perm("app.edit_modelo") and user.has_perm("app.delete_modelo")
+return user.has_perm("app.edit_model") and user.has_perm("app.delete_model")
 
 @user_passes_test(can_delete_and_edit, login_url="/login/")
 def manage_videogame(request):
@@ -159,10 +159,10 @@ Update: [Htmx](/en/django-and-htmx-modern-web-apps-without-writing-js/) can brin
 
 ```django
 {% if perms.app.action_model %}
-Para comprobar si el usuario tiene un permiso en específico
+Check if user has a given permission
 {% endif %}
 {% if perms.app %}
-Para comprobar si el usuario tiene algún permiso para esa app
+Check if user has a given permission for the app
 {% endif %}
 ```
 
@@ -189,19 +189,19 @@ If we already have a group and we want to assign permissions to it **we use prac
 To set up a permission list
 
 ```python
-premium.permissions.set([lista_de_permisos])
+premium.permissions.set([lista_de_permissions])
 ```
 
 To add permissions, either a list or one by one.
 
 ```python
-premium.permissions.add(permiso1, permiso2, ...)
+premium.permissions.add(permission1, permission2, ...)
 ```
 
 To remove permissions, either a list or one by one
 
 ```python
-premium.permissions.remove(permiso1, permiso2, ...)
+premium.permissions.remove(permission1, permission2, ...)
 ```
 
 To remove all permissions from a group
@@ -215,13 +215,13 @@ premium.permissions.clear()
 To add a permission group we use the same methods as in the previous examples: add, remove, clear, etc.
 
 ```python
-# agregar a un usuario a varios grupos
+# add an user to many groups
 user.groups = group_list
-# Agregar un usuario a uno o varios grupos
+# add an user to one or many groups
 user.groups.add(grupo1, grupo2,...)
-# Removemos un usuario de uno o varios grupos
+# remove an user from one or many groups
 user.groups.remove(grupo1, grupo2,...)
-# Eliminamos a un usuario de todos los grupos
+# delete an user from all groups
 user.groups.clear()
 ```
 
@@ -230,19 +230,19 @@ user.groups.clear()
 We can add custom permissions to a model, we will use the sub _class Meta_ of our model and assign the property _permissions_ to a tuple of tuples, where each tuple has the name of the permission and its description.
 
 ```python
-permissions = (('permiso1', 'descripción 1'), ('permiso 2', 'descripción 2'))
+permissions = (('permission1', 'description 1'), ('permission 2', 'description 2'))
 ```
 
 We can name these permissions as we wish, then give that permission to certain users and then check if a user has any of our permissions using the methods seen previously.
 
 ```python
-class usuarioPersonalizado(AbstractUser):
+class CustomizedUser(AbstractUser):
     # ...
 
     class Meta:
         permissions = (
-            ('puede_ver_contenido_premium', 'Puede ver contenido para usuarios premium'),
-            ('puede_ver_contenido_básico', 'Puede ver contenido para usuarios básico'))
+            ('can_see_premium', 'Can see premium content'),
+            ('can_see_basic', 'Can see basic content'))
 ```
 
 If we now run the migrations, we will notice that we can now add the permissions we created from the administration panel and from the Python terminal.
