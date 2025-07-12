@@ -32,8 +32,8 @@ Environment variables are a **series of equalities known as environment variable
 printenv
 ...
 XDG_MENU_PREFIX=gnome-
-LANG=es_MX.UTF-8
-GDM_LANG=es_MX.UTF-8
+LANG=en_US.UTF-8
+GDM_LANG=en_US.UTF-8
 DISPLAY=:0
 ...
 ```
@@ -42,7 +42,7 @@ The printenv command also allows us to access the value of a particular variable
 
 ```bash
 printenv LANG
-es_MX.UTF-8
+en_US.UTF-8
 ```
 
 {{<ad>}}
@@ -52,9 +52,9 @@ es_MX.UTF-8
 Export allows us to create an environment variable. This environment variable will be available during our session in the terminal. When you close the terminal the variable disappears.
 
 ```bash
-export MI_VARIABLE=mi_valor
-printenv MI_VARIABLE
-mi_valor
+export MY_VARIABLE=my_value
+printenv MY_VARIABLE
+my_value
 ```
 
 ## lsof
@@ -77,13 +77,13 @@ sudo lsof -u <username>
 Or by process:
 
 ```bash
-sudo lsof -c <nombre del proceso>
+sudo lsof -c <process_name>
 ```
 
 Or by port
 
 ```bash
-sudo lsof -i :<número de puerto>
+sudo lsof -i :<port_number>
 ```
 
 ## top
@@ -99,11 +99,11 @@ top
   KiB Swap: 11717628 total, 11717628 free, 0 used. 4961212 avail Mem 
 
   PID USER PR NI VIRT RES SHR S  %CPU %MEM TIME+ COMMAND                                                                                                                   
- 10306 usuario 20 0 45064 3644 2984 R 12.5 0.0 0:00.02 top                                                                                                                       
-  1657 usuario 20 0 2433020 186960 84944 S 6.2 2.3 6:45.07 gnome-shell                                                                                                               
-  1689 usuario 9 -11 1764808 15476 11528 S 6.2 0.2 2:52.65 pulseaudio                                                                                                                
-  5185 usuario 20 0 602440 34612 25572 S 6.2 0.4 0:01.35 gnome-terminal- 
-  9699 usuario 20 0 1782564 282448 133804 S 6.2 3.5 0:16.06 chromium                                                                                                                  
+ 10306 user 20 0 45064 3644 2984 R 12.5 0.0 0:00.02 top                                                                                                                       
+  1657 user 20 0 2433020 186960 84944 S 6.2 2.3 6:45.07 gnome-shell                                                                                                               
+  1689 user 9 -11 1764808 15476 11528 S 6.2 0.2 2:52.65 pulseaudio                                                                                                                
+  5185 user 20 0 602440 34612 25572 S 6.2 0.4 0:01.35 gnome-terminal- 
+  9699 user 20 0 1782564 282448 133804 S 6.2 3.5 0:16.06 chromium                                                                                                                  
      1 root 20 0 139128 6988 5300 S 0.0 0.1 0:01.12 systemd                                                                                                                   
      2 root 20 0 0 0 0 S 0.0 0.0 0:00.00 kthreadd                                                                                                                  
      3 root 20 0 0 0 0 S 0.0 0.0 0:00.08 ksoftirqd/0
@@ -166,14 +166,14 @@ The kill command, to kill a process just type the command in the terminal follow
 
 ```bash
 kill 9699
- Finalizará el proceso con PID 9699, permitiéndo al proceso ejecutar acciones de salida
+ exit actions will be executed
 ```
 
 If after this command the process still does not respond, just add the option '-9' to the command, this command will cut the process without giving it time to perform its output actions.
 
 ```bash
 kill -9 9699
- Finalizará el proceso con PID 9699, sin permitirle al proceso ejecutar acciones de salida
+ no exit actions will be executed
 ```
 
 ### Internal operation of the kill command
@@ -193,13 +193,13 @@ With wget we can download files from the Internet. To use it we put in front the
 wget https://google.com
 --2019-05-20 22:38:34-- https://google.com/
 Resolviendo google.com (google.com)... 216.58.217.14, 2607:f8b0:4012:80b::200e
-Conectando con google.com (google.com)[216.58.217.14]:443... conectado.
-Petición HTTP enviada, esperando respuesta... 301 Moved Permanently
+Conectando con google.com (google.com)[216.58.217.14]:443... connected.
+Petición HTTP SENT Waiting for response... 301 Moved Permanently
 Localización: https://www.google.com/ [siguiendo]
 --2019-05-20 22:38:35-- https://www.google.com/
 Resolviendo www.google.com (www.google.com)... 216.58.193.36, 2607:f8b0:4012:805::2004
-Conectando con www.google.com (www.google.com)[216.58.193.36]:443... conectado.
-Petición HTTP enviada, esperando respuesta... 200 OK
+Conectando con www.google.com (www.google.com)[216.58.193.36]:443... connected.
+Petición HTTP SENT Waiting for response... 200 OK
 Longitud: no especificado [text/html]
 Grabando a: “index.html”
 
@@ -299,14 +299,12 @@ Here are some of the capabilities of systemctl:
 
 ```bash
 systemctl start postgresql
- # Inicia el servicio de la base de datos postgresql
 ```
 
 ### Restart a service
 
 ```bash
 systemctl restart postgresql
- # Reinicia el servicio
 ```
 
 ### Display the status of a service
@@ -328,14 +326,13 @@ may 20 22:53:41 horo systemd[1]: Started PostgreSQL RDBMS.
 
 ```bash
 systemctl stop postgresql
- # Detiene el servicio postgresql
 ```
 
 ### Add a service at startup
 
 ```bash
 systemctl enable postgresql
- # Permite que postgresql se inicie al arrancar el sistema
+ # add postgresql to startup
 Synchronizing state of postgresql.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install enable postgresql
 ```
@@ -344,7 +341,7 @@ Executing: /lib/systemd/systemd-sysv-install enable postgresql
 
 ```bash
 systemctl disable postgresql
- # Remueve postgresql de la lista de programas que se inician al arrancar el sistema
+ # Remove postgresql from startup
 Synchronizing state of postgresql.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install disable postgresql
 ```
@@ -353,21 +350,20 @@ Executing: /lib/systemd/systemd-sysv-install disable postgresql
 
 ```bash
 systemctl list-units 
- # Lista las unidades que estan en memoria
 ```
 
 ### Start OS shutdown process
 
 ```bash
 systemctl poweroff
- # Apaga el sistema operativo. Si ejecutas este comando tu computadora se apagará
+ # Beware, this command will turn off your system
 ```
 
 ### Restart the OS
 
 ```bash
 systemctl reboot
- # Reinicia el sistema operativo. Si ejecutas este comando tu computadora se reiniciará
+ # Beware, this command will restart your OS
 ```
 
 ### Review the logs of a service
@@ -431,7 +427,7 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker](/en/what-is-docker-and-what-is-it-for/). It's because of chroot that [docker containers are able to have their own file system](/en/how-does-a-docker-container-work-internally/).
 
 ```bash
-chroot /mi_nuevo_directorio_root
+chroot /my_new_root_directory
 ```
 
 ## chown
@@ -441,41 +437,42 @@ Changes the owner of a file to the one we specify. Remember that **in Linux ever
 ```bash
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 12:22 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 12:22 ..
--rw-r--r-- 1 usuario usuario 0 may 13 12:13 texto.txt
- El comando nos muestra que el archivo texto.txt pertenece al usuario de nombre 'usuario' y al grupo llamado 'usuario'.
-chown root texto.txt
+drwxr-xr-x 2 user user 4096 may 13 12:22 .
+drwxr-xr-x 6 user user 4096 may 13 12:22 ..
+-rw-r--r-- 1 user user 0 may 13 12:13 text.txt
+ # user: user
+ # group: user
+chown root text.txt
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 12:22 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 12:22 ..
--rw-r--r-- 1 root usuario 0 may 13 12:13 texto.txt
- El comando cambió su propietario a root
+drwxr-xr-x 2 user user 4096 may 13 12:22 .
+drwxr-xr-x 6 user user 4096 may 13 12:22 ..
+-rw-r--r-- 1 root user 0 may 13 12:13 text.txt
+ New owner is root
 ```
 
 In the above example, we only specify one user. In order to specify a group we must use the syntax of '**_user:group'_**. Since we only need to change the group we will omit the first part of the above syntax, it will look like '**:group**'.
 
 ```bash
-chown :root texto.txt
+chown :root text.txt
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 12:22 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 12:22 ..
--rw-r--r-- 1 root root 0 may 13 12:13 texto.txt
- Ahora el archivo también pertenece al grupo 'root'
+drwxr-xr-x 2 user user 4096 may 13 12:22 .
+drwxr-xr-x 6 user user 4096 may 13 12:22 ..
+-rw-r--r-- 1 root root 0 may 13 12:13 text.txt
+ Ahora el file también pertenece al grupo 'root'
 ```
 
 Now let's get everything back to normal using the full syntax: '**_user:group'_****
 
 ```bash
-chown usuario:usuario texto.txt
+chown user:user text.txt
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 12:22 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 12:22 ..
--rw-r--r-- 1 usuario usuario 0 may 13 12:13 texto.txt
- Nuevamente el archivo texto.txt pertenece al usuario de nombre 'usuario' y al grupo llamado 'usuario'.
+drwxr-xr-x 2 user user 4096 may 13 12:22 .
+drwxr-xr-x 6 user user 4096 may 13 12:22 ..
+-rw-r--r-- 1 user user 0 may 13 12:13 text.txt
+ Nuevamente el file text.txt pertenece al user de nombre 'user' y al grupo llamado 'user'.
 ```
 
 Now let's try changing the user and group of all files and the directory using the '_-R_' option that will allow us to do the same as we did in the previous step with a file, but this time recursively with the contents of a directory.
@@ -484,19 +481,19 @@ Now let's try changing the user and group of all files and the directory using t
 ls -la
 total 8
 drwxr-xr-x 2 root root 4096 may 13 13:04 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 12:22 ..
--rw-r--r-- 1 root root 0 may 13 12:50 .archivo_oculto.txt
--rw-r--r-- 1 root root 0 may 13 13:04 texto1.txt
--rw-r--r-- 1 root root 0 may 13 13:04 texto2.txt
-chown -R usuario:usuario . 
+drwxr-xr-x 6 user user 4096 may 13 12:22 ..
+-rw-r--r-- 1 root root 0 may 13 12:50 .file_oculto.txt
+-rw-r--r-- 1 root root 0 may 13 13:04 text1.txt
+-rw-r--r-- 1 root root 0 may 13 13:04 text2.txt
+chown -R user:user . 
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 13:04 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 12:22 ..
--rw-r--r-- 1 usuario usuario 0 may 13 12:50 .archivo_oculto.txt
--rw-r--r-- 1 usuario usuario 0 may 13 13:04 texto1.txt
--rw-r--r-- 1 usuario usuario 0 may 13 13:04 texto2.txt
- Todos los archivos del directorio, inclusive los ocultos cambiaron de propietario y grupo
+drwxr-xr-x 2 user user 4096 may 13 13:04 .
+drwxr-xr-x 6 user user 4096 may 13 12:22 ..
+-rw-r--r-- 1 user user 0 may 13 12:50 .file_oculto.txt
+-rw-r--r-- 1 user user 0 may 13 13:04 text1.txt
+-rw-r--r-- 1 user user 0 may 13 13:04 text2.txt
+ Todos los files del directorio, inclusive los ocultos cambiaron de propietario y grupo
 ```
 
 ## chmod
@@ -506,22 +503,22 @@ The previous command allowed us to change the owner and group of a file. This co
 ```bash
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 14:11 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 14:11 ..
--rw-r--r-- 1 usuario usuario 0 may 13 14:11 archivo.py
--rw-r--r-- 1 usuario usuario 0 may 13 14:11 archivo2.py
+drwxr-xr-x 2 user user 4096 may 13 14:11 .
+drwxr-xr-x 6 user user 4096 may 13 14:11 ..
+-rw-r--r-- 1 user user 0 may 13 14:11 file.py
+-rw-r--r-- 1 user user 0 may 13 14:11 file2.py
 ```
 
 As you can see, the above command shows on the screen that the owner of both files has read and write permissions, the group and others can only read both files. We will modify the permissions in GNU/Linux with the _chmod_ command to add some extras.
 
 ```bash
-chmod 755 archivo.txt
+chmod 755 file.txt
 ls -la
 total 8
-drwxr-xr-x 2 usuario usuario 4096 may 13 14:11 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 14:11 ..
--rwxr-xr-x 1 usuario usuario 0 may 13 14:11 archivo.py
--rw-r--r-- 1 usuario usuario 0 may 13 14:11 archivo2.py
+drwxr-xr-x 2 user user 4096 may 13 14:11 .
+drwxr-xr-x 6 user user 4096 may 13 14:11 ..
+-rwxr-xr-x 1 user user 0 may 13 14:11 file.py
+-rw-r--r-- 1 user user 0 may 13 14:11 file2.py
 ```
 
 Now the owner, named user, can read, write and execute _file.py_, the group named user and others can read and execute it. The file named _file2.py_ did not have its permissions changed. This time we will try to use the '_-R_' option to recursively specify the permissions of the entire directory and its contents.
@@ -529,10 +526,10 @@ Now the owner, named user, can read, write and execute _file.py_, the group name
 ```bash
 chmod 755 -R .
 ls -la
-drwxr-xr-x 2 usuario usuario 4096 may 13 14:24 .
-drwxr-xr-x 6 usuario usuario 4096 may 13 14:23 ..
--rwxr-xr-x 1 usuario usuario 0 may 13 14:24 archivo.py
--rwxr-xr-x 1 usuario usuario 0 may 13 14:24 archivo2.py
+drwxr-xr-x 2 user user 4096 may 13 14:24 .
+drwxr-xr-x 6 user user 4096 may 13 14:23 ..
+-rwxr-xr-x 1 user user 0 may 13 14:24 file.py
+-rwxr-xr-x 1 user user 0 may 13 14:24 file2.py
 ```
 
 Now the owner, named _user_, can write, read and execute both files with extension '_.py_', while the group named _user_ and others can read and execute, but not write.

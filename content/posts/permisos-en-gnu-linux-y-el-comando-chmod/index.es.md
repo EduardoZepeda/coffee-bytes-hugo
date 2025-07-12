@@ -8,8 +8,7 @@ categories:
 - linux y devops
 coverImage: images/permisos_gnu_linux.jpg
 date: '2019-05-29'
-description: Entiende de una vez como funciona el comando chmod, encargado de asignar
-  los permisos en GNU/Linux a carpetas y archivos.
+description: Entiende de una vez como funciona el comando chmod, el comando encargado de asignar los permisos rwx en Linux a carpetas y archivos, así como lo que significan
 keywords:
 - linux
 title: Entiende los permisos en GNU Linux y el comando chmod

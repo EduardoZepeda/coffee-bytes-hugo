@@ -7,7 +7,7 @@ categories:
 - linux and devops
 
 coverImage: "images/permisos_gnu_linux.jpg"
-description: "Understand at once how the chmod command works, in charge of assigning permissions in GNU/Linux to folders and files."
+description: "Understand once and for all how the chmod command works in Linux, users, groups, what's the meaning of the rwx permissions, learn to assign permissions, remove them and modify them."
 keywords:
 - linux
 
