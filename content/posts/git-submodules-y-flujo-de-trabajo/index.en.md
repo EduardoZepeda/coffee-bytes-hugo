@@ -67,7 +67,7 @@ Each of these submodules specifies its path, relative to the repository root, th
 [submodule <destination>]
     path = <destination>
     url = <repository-url>
-    [branch = <rama>]
+    [branch = <branch>]
 ```
 
 This file is important because it is a reference to the submodules that our project needs to work.
@@ -180,4 +180,4 @@ If there were changes in your main repository and you do a _git pull_ it is **yo
 git submodule update --recursive --remote
 ```
 
-With the above I conclude the article, if you found it useful you can share it in your favorite social networks.
+With the above I conclude the article, if you found it useful you can share it on your favorite social networks.
