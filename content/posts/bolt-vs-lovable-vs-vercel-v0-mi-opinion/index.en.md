@@ -34,7 +34,7 @@ The result from [Vercel's V0](https://v0.dev/#?) is pretty decent.
 
 The color palette is Cyberpunkish. I adored the background they used in the back, the landing page seemed a little simple to me, but it perfectly delivers on its promise.
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1748988712/coffee-bytes/v0_vforml.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752634111/coffee-bytes/v0_0_5mb_gkrgvn.mp4">}}
 
 ### I had troubles using V0-vercel
 
@@ -50,7 +50,7 @@ But putting that aside, I think the result is solid.
 
 Bolt's AI added images that match the color palette, and I also think the frame around the image is a nice touch. The icing on the cake is the glitch effect on the hero, which is often used in cyberpunk-style audiovisual material. 
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1748988709/coffee-bytes/bolt_d6pbio.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752633837/coffee-bytes/bolt_d6pbio_05mb_bsyje5.mp4">}}
 
 Simply perfect, I had no problems with the installation. What I did notice is that the code uses quite a lot of resources even when there is no interaction. I haven't reviewed the code in detail, but I plan to do so and update this post.
 
@@ -62,7 +62,7 @@ The Matrix background, while I suppose it is related to the cyberpunk theme, giv
 
 In addition, I think it went a little overboard with all the effects. Everything on the page is interactive, everything vibrates and everything moves, so much so that it feels saturated.
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1749143657/coffee-bytes/lovable_no_sound_aokgmp.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752633780/coffee-bytes/lovable_no_sound_aokgmp_0_5mb_k12z7k.mp4">}}
 
 While I am aware that these results can be refined after multiple iterations, when I see this, I can't help but think of a novice programmer who wants to incorporate absolutely all the effects they have just learned into a single web page.
 

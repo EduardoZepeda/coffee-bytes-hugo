@@ -32,7 +32,7 @@ El resultado de [Vercel V0](https://v0.dev/#?) es bastante decente.
 
 La paleta de colores es muy Cyberpunk. Me encantó el fondo cuadriculado, la landing page me pareció un poco simple, pero cumple perfectamente con lo prometido.
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1748988712/coffee-bytes/v0_vforml.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752634111/coffee-bytes/v0_0_5mb_gkrgvn.mp4">}}
 
 ### Tuve problemas al usar v0-vercel
 
@@ -48,7 +48,7 @@ La propuesta de [Bolt](https://bolt.new/#?) fue mi favorita de las tres. Usar el
 
 La AI de Bolt añadió imágenes que van con la paleta de colores, el marco en la imagen me parece también un toque bastante acertado, y la cereza del pastel es el efecto tipo glitch en el hero, usado frecuentemente en material audiovisual de estilo Cyberpunk. 
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1748988709/coffee-bytes/bolt_d6pbio.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752633837/coffee-bytes/bolt_d6pbio_05mb_bsyje5.mp4">}}
 
 Sencillamente perfecto, no tuve problema alguno con la instalación. Lo que sí noté es que el código utiliza bastantes recursos incluso en ausencia de interacción. No he revisado el código con detalle pero pienso hacerlo y actualizar esta entrada.
 
@@ -60,7 +60,7 @@ El fondo de Matrix, si bien supongo que está relacionado con la temática cyber
 
 Además, considero que la AI exageró un poquito con todos los efectos. En la página todo es interactivo, todo vibra y todo se mueve, tanto que se siente sobresaturado.
 
-{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1749143657/coffee-bytes/lovable_no_sound_aokgmp.mp4">}}
+{{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752633780/coffee-bytes/lovable_no_sound_aokgmp_0_5mb_k12z7k.mp4">}}
 
 Si bien estoy consciente que estos resultados pueden refinarse tras múltiples iteraciones, al ver esto no puedo evitar pensar en un programador novato que busca plasmar absolutamente todos los efectos que acaba de aprender en una sola página web.
 
