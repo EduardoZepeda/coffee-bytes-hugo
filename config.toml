@@ -191,8 +191,8 @@ section = ["HTML", "RSS", "JSON"]
 lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [permalinks]
-pages = "/pages/:filename/"
-posts = ":title"
+pages = "/pages/:contentbasename/"
+posts = ":sections[last]/:title"
 
 [related]
 includeNewer = true
