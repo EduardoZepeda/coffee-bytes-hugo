@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - seo
-- opiniones
+- opinion
 coverImage: images/technical-seo-checklist.jpg
 date: '2025-04-14T00:02:16-06:00'
 description: 'Mi checklist de SEO técnico para desarrolladores web, lo mínimo que
@@ -13,11 +13,11 @@ description: 'Mi checklist de SEO técnico para desarrolladores web, lo mínimo 
 keyword: SEO Técnico básico
 keywords:
 - seo
-- opiniones
+- opinion
 title: Una Guia De SEO Técnico Básico Hecha Para Desarrolladores Web
 ---
 
-Anteriormente te platiqué como [cometí muchos errores en SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}) al migrar mi sitio web de Wordpress a Hugo, pues después de eso me puse a ver muchos videos sobre SEO, sobre todo de Romuald Fons, también me leí [The art of SEO](https://amzn.to/4ilv4pc#?) y he tratado de resumir todo lo que aprendí en una pequeña entrada. He decidido centrarme en el SEO técnico porque es el que entiendo, es menos subjetivo y, además, estoy más familiariazado. Por eso escribí esta entrada antes de que [burbuja de AI]({{< ref path="/posts/inteligencia-artificial/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) estalle, llevándose al SEO con ella.
+Anteriormente te platiqué como [cometí muchos errores en SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}) al migrar mi sitio web de Wordpress a Hugo, pues después de eso me puse a ver muchos videos sobre SEO, sobre todo de Romuald Fons, también me leí [The art of SEO](https://amzn.to/4ilv4pc#?) y he tratado de resumir todo lo que aprendí en una pequeña entrada. He decidido centrarme en el SEO técnico porque es el que entiendo, es menos subjetivo y, además, estoy más familiariazado. Por eso escribí esta entrada antes de que [burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) estalle, llevándose al SEO con ella.
 
 ![Romuald Fons Video thumbnail](https://res.cloudinary.com/dwrscezd2/image/upload/v1744676557/coffee-bytes/romu-seo_d3i3l9.jpg "Mi fuente totalmente confiable, Romuald Fons")
 
@@ -143,7 +143,7 @@ Por ejemplo algo similar a esto:
 
 Sí, y mucho, puedes echar de mano las urls para darle a tu sitio web la estructura semántica que creas correcta para que sea coherente con la arquitectura que planeas, esto facilita que los motores de búsqueda "entiendan" tu sitio web.
 
-Te hablé un poco de esto en mi entrada sobre [buenas prácticas y diseño de una api rest]({{< ref path="/posts/arquitectura-de-software/buenas-practicas-y-diseño-de-una-api-rest/index.md" lang="es" >}})
+Te hablé un poco de esto en mi entrada sobre [buenas prácticas y diseño de una api rest]({{< ref path="/posts/software-architecture/buenas-practicas-y-diseño-de-una-api-rest/index.md" lang="es" >}})
 
 En las siguientes URLs, observa como no hay manera de saber si Nawapol es una película, o un director o un documental:
 

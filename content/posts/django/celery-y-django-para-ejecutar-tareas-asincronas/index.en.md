@@ -42,7 +42,7 @@ The response to the url takes 3 seconds
 
 Celery solves our problem, it sends those tasks to a queue so that they can be executed later, asynchronously, and the code can continue its execution.
 
-That's right, you're probably thinking that celery has similarities with Javascript or Python's async await. However celery is much more robust and with many more features, such as scheduling periodic tasks (as in [cron and crontab in GNU/Linux](/en/linux and devops/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/)) and also monitoring them, but let's go by parts.
+That's right, you're probably thinking that celery has similarities with Javascript or Python's async await. However celery is much more robust and with many more features, such as scheduling periodic tasks (as in [cron and crontab in GNU/Linux](/en/linux/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/)) and also monitoring them, but let's go by parts.
 
 ## Installation of celery
 

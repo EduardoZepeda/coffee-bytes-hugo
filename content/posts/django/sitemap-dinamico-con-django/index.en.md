@@ -18,7 +18,7 @@ title: Dynamic sitemap with django
 
 A sitemap is an xml file that functions as a map to navigate your site. Hence the name; Site-map. Search engines, such as google, bing, yahoo and others, use the sitemap of a site as a starting point to analyze its content and include it in their search results. 
 
-A sitemap is [crucial in SEO and a sitemap with errors can plummet your site views](/en/opinions/my-technical-seo-mistakes-when-i-migrated-my-site-from-wordpress/), as it happened to me.
+A sitemap is [crucial in SEO and a sitemap with errors can plummet your site views]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}), as it happened to me.
 
 ## Structure of a sitemap
 

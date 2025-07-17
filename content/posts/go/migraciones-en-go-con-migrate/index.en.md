@@ -119,7 +119,7 @@ So far we have only created the migration files, but we have not let the program
 
 Before making any changes to the database, we will need to indicate the access address to the database in the following format [engine]://[user]:[password]@[domain]/[database].
 
-And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/en/linux and devops/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
+And, obviously, the most convenient and safest thing to do is to save this address in [an environment variable](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
 
 ``` bash
 DATABASE=[engine]://[user]:[password]@[domain]/[database]

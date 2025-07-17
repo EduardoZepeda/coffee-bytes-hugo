@@ -22,7 +22,7 @@ If you have been using computers for a long time, you are probably more familiar
 
 ## What is Docker?
 
-Docker is a tool that allows you to package an application and its dependencies in a lightweight container. It's as if you take a complete application with absolutely everything it needs to run so that you can seamlessly transport it to any other server with Docker installed, either for further development or for deploying. So, that's it? transporting code? I'm sure you'll tell me that's already done by virtual machines, [virtual environments](/en/python/why-should-you-use-a-virtual-environment-in-python/), zip files and pretty much any tool. Well yes, but I'm going to try to explain in a simple way what the issues are.
+Docker is a tool that allows you to package an application and its dependencies in a lightweight container. It's as if you take a complete application with absolutely everything it needs to run so that you can seamlessly transport it to any other server with Docker installed, either for further development or for deploying. So, that's it? transporting code? I'm sure you'll tell me that's already done by virtual machines, [virtual environments]({{< ref path="/posts/python/por-que-usar-un-entorno-virtual-en-python/index.md" lang="en" >}}), zip files and pretty much any tool. Well yes, but I'm going to try to explain in a simple way what the issues are.
 
 {{<ad>}}
 
@@ -62,7 +62,7 @@ To avoid falling into the vile hands of computer science purists I will quote th
 
 The thing to remember about containers is that **they are not resource intensive, they are isolated and virtualize the operation of an operating system**.
 
-If you want to know how a container works, at the code level, I will tell you that [a container is a process that uses namespaces, linux cgroups and chroot](/en/docker/how-does-a-docker-container-work-internally/) to isolate a group of processes in linux, limit the operating system resources they can use and have their own file system, respectively.
+If you want to know how a container works, at the code level, I will tell you that [a container is a process that uses namespaces, linux cgroups and chroot]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}) to isolate a group of processes in linux, limit the operating system resources they can use and have their own file system, respectively.
 
 ### Virtual machine
 

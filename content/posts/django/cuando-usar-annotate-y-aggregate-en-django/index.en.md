@@ -99,7 +99,7 @@ Knowing the query that Django will perform helps us understand what is going on 
 
 We use _annotate_ **when we want to annotate each object returned from a queryset**, as if we want to add an extra property to each object in your queryset, but directly from the database.
 
-Annotate is very useful for performing [advanced text searches using Postgres](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/).
+Annotate is very useful for performing [advanced text searches using Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
 ![Django's Annotate diagram using a JOIN and an aggregate function like SUM](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png)
 

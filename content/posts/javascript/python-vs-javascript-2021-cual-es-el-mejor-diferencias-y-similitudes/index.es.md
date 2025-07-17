@@ -92,7 +92,7 @@ Aclaro, a pesar de ser bastante obvio, que no es una metodología con el rigor c
 
 Para empezar diremos que **Python es un lenguaje interpretado**. Si no te suena el término, significa que tiene un intérprete que traduce las instrucciones, una por una, a lenguaje máquina, para que se ejecuten al momento. Por lo que no tienes que compilar todo tu código cada vez que quieras ejecutarlo, como sí lo harías con C++, Java, Rust, etc.
 
-Javascript nació como un lenguaje interpretado, sin embargo los motores modernos han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time"). Prácticamente todos los navegadores hacen [compilado JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando, como siempre, IE8. En mi opinión su diseño no es más elegante que el de Python, esto se nota por ejemplo en el [manejo de fechas de Javascript, que por cierto detesto.](/es/javascript/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/)
+Javascript nació como un lenguaje interpretado, sin embargo los motores modernos han logrado que se convierta en un **lenguaje compilado JIT** ("Just in Time"). Prácticamente todos los navegadores hacen [compilado JIT](https://www.youtube.com/watch?v=d7KHAVaX_Rs) de Javascript, exceptuando, como siempre, IE8. En mi opinión su diseño no es más elegante que el de Python, esto se nota por ejemplo en el [manejo de fechas de Javascript, que por cierto detesto.]({{< ref path="/posts/javascript/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/index.md" lang="es" >}})
 
 Si quieres aprender como funciona el motor de Javascript a un nivel más profundo, te dejo un enlace a [una serie de videos](https://www.youtube.com/watch?v=No-Pfboplxo&list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&index=1) en youtube donde se trata el tema más detalladamente.
 
@@ -102,7 +102,7 @@ Observa este esquema súper simplificado que compara los lenguajes compilados e 
 
 En este esquema me refiero a Javascript al momento de su creación, como lenguaje interpretado, no a la **compilación JIT** de la que te hablaba. 
 
-Si bien no son los lenguajes [con mayor rendimiento, su flexibilidad es ideal para iterar una y otra vez en una startup o proyecto nuevo](/es/opiniones/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/)
+Si bien no son los lenguajes [con mayor rendimiento, su flexibilidad es ideal para iterar una y otra vez en una startup o proyecto nuevo](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/)
 
 ##  Soporte, Javascript y Python
 

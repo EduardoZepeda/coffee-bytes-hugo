@@ -24,11 +24,11 @@ title: Full text search y búsquedas con Django y Postgres
 
 Algunas veces cuando tecleamos nos equivocamos en una letra, podemos repetirla, omitirla o cambiarla por otra. Ese error puede arrojar una serie de resultados diferentes en una búsqueda web, o incluso carecer de resultados. Quizás para un blog no represente una amenaza, pero para un ecommerce puede significar la perdida de una venta, y para aquellas tiendas con un tráfico gigantesco, una búsqueda de texto exitosa, ya sea usando full text search o algo más complejo, en Django u otro framework, puede representar la diferencia entre perdidas o ganancias enormes.
 
-Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta otra opción bastante popular para realizar búsquedas en Django es [Solr y Django-haystack](/es/django/busquedas-con-solr-con-django-haystack/).
+Django es un framework que abstrae la mayor parte del código que necesitas para realizar búsquedas de texto en Postgres, por lo que si estás pensando en un proyecto que requiera de un buscador, usar Django combinado con Postgres es una combinación a tomar en cuenta otra opción bastante popular para realizar búsquedas en Django es [Solr y Django-haystack]({{< ref path="/posts/django/solr-en-django-con-haystack/index.md" lang="es" >}}).
 
 Si aún estás dudando sobre si usar Django, revisa mi entrada donde te explico [las ventajas y desventajas de Django](/es/django/por-que-deberias-usar-django-framework/)
 
-Si ya conoces como funcionan las búsquedas básicas y quieres pasar a búsquedas más complejas con trigramas visita mi entrada de [trigramas y búsquedas avanzadas con Django.](/es/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
+Si ya conoces como funcionan las búsquedas básicas y quieres pasar a búsquedas más complejas con trigramas visita mi entrada de [trigramas y búsquedas avanzadas con Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}})
 
 Empecemos por las búsquedas más básicas.
 
@@ -135,7 +135,7 @@ Listo, ahora tenemos instalada la extensión _unaccent_ y, si descomentaste la l
 
 ### Instalar extensiones desde la terminal de Postgres
 
-Otra manera de instalar las extensiones es ejecutar el comando requerido directo de la base de datos. Para este ejemplo instalamos _TrigramExtension_, la extensión requerida para usar búsquedas con trigramas. Trataré el tema de los [trigramas con django y postgres](/es/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/), por lo que no te preocupes por eso, solo céntrate en el proceso de instalación de las extensiones.
+Otra manera de instalar las extensiones es ejecutar el comando requerido directo de la base de datos. Para este ejemplo instalamos _TrigramExtension_, la extensión requerida para usar búsquedas con trigramas. Trataré el tema de los [trigramas con django y postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}), por lo que no te preocupes por eso, solo céntrate en el proceso de instalación de las extensiones.
 
 Para entrar en la terminal de la base de datos usaré el comando dbshell que nos provee Django.
 
@@ -296,7 +296,7 @@ Videogame.objects.filter(search_vector='revenge')
 
 Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) donde explican en código SQL los vectores de búsqueda.
 
-Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.](/es/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/)
+Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}})
 
 Referencias:
 [Documentación de Django](https://docs.djangoproject.com/en/5.1/ref/contrib/postgres/search/)

@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux y devops
+- linux
 coverImage: images/how-to-create-docker-file-from-scratch.jpg
 date: '2020-10-09'
 description: Escribir un dockerfile desde cero, aprender las palabras clave más básicas
@@ -203,6 +203,6 @@ curl localhost:8000
 
 Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 veremos el cohete de Django indicando que todo funcionó perfectamente. Gunicorn está sirviendo nuestra aplicación de Django en el puerto 8000, al que podemos acceder a través de nuestro puerto del mismo número.
 
-El siguiente paso que podrías tomar es vincular muchas imágenes de Docker para tener una aplicación de tamaño pequeña o mediana con múltiples componentes, para eso [Docker-compose es la herramienta perfecta](/es/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/). Mientras que para aplicaciones mucho más complejas existe Kubernetes, aunque probablemente sea un overkill para la mayoría de ideas de negocio.
+El siguiente paso que podrías tomar es vincular muchas imágenes de Docker para tener una aplicación de tamaño pequeña o mediana con múltiples componentes, para eso [Docker-compose es la herramienta perfecta]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}). Mientras que para aplicaciones mucho más complejas existe Kubernetes, aunque probablemente sea un overkill para la mayoría de ideas de negocio.
 
 ![Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación.](images/djangoRocketNoCursor.gif)

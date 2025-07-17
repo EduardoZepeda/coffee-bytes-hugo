@@ -38,7 +38,7 @@ As you can see the difference is almost 10 times the time.
 
 ![Comparison of response time with cache and without cache for a django application](images/ComparacionCache1000filasDjango.jpg)
 
-If you're in a situation where [your application's performance is critical](/en/opinions/dont-obsess-about-your-web-application-performance/), cache is definitely one of the first steps that you have to make in order to improve your site's speed.
+If you're in a situation where [your application's performance is critical](/en/opinion/dont-obsess-about-your-web-application-performance/), cache is definitely one of the first steps that you have to make in order to improve your site's speed.
 
 {{<ad>}}
 

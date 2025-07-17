@@ -187,5 +187,5 @@ lock.RUnlock()
 
 ## Useful mutex resources
 
-* [difference between mutex and rwmutex](https://programmer.help/blogs/difference-between-mutex-and-rwmutex.html) (en inglés)
+
 * [Race conditions](https://cloudxlab.com/blog/race-condition-and-deadlock/) (en inglés)

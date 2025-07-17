@@ -4,20 +4,20 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opiniones
+- opinion
 - SEO
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
 description: Te cuento que hice mal, que hice bien y lo que aprendí al optimizar el
   SEO técnico de mi sitio web para que tú no cometas los mismos errores
 keywords:
-- opiniones
+- opinion
 - seo
 - desarrollo web
 title: Mis errores de optimización en el SEO técnico de mi sitio web
 ---
 
-Hace unos años, migré mi sitio web un par de veces, primero de Wordpress a Frontity (Un framework de wordpress en React) y luego de Frontity a una [app de Hugo en Digital Ocean](/es/arquitectura de software/digital-ocean-analisis-y-mi-experiencia-como-usuario/). No me arrepiento para nada de mi decisión, pero cometí unos cuantos errores respecto al SEO que probablemente puedas evitar si tomas en cuenta lo que estoy a punto de contarte.
+Hace unos años, migré mi sitio web un par de veces, primero de Wordpress a Frontity (Un framework de wordpress en React) y luego de Frontity a una [app de Hugo en Digital Ocean](/es/software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/). No me arrepiento para nada de mi decisión, pero cometí unos cuantos errores respecto al SEO que probablemente puedas evitar si tomas en cuenta lo que estoy a punto de contarte.
 
 Tras el error incluso escribí una [{{<title "/posts/guia-de-seo-tecnico-para-desarrolladores-web/index">}}]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="es" >}})
 
@@ -35,7 +35,7 @@ A riesgo de sonar redundante, lo repetiré nuevamente: el tráfico de un sitio w
 
 La mayoría de los desarrolladores poseen un background ingenieril, donde se valora la eficiencia, las buenas prácticas y se pasa por alto el aspecto comercial de un sitio web. 
 
-De ahí que cuando un desarrollador web lanza sus proyectos personales, suele ignorar por completo el SEO y se centra, [erróneamente, en optimizar su sitio web al máximo](/es/opiniones/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), generalmente consiguiendo un sitio web extremadamente rápido, eficiente, e incluso visualmente atractivo, pero sin tráfico.
+De ahí que cuando un desarrollador web lanza sus proyectos personales, suele ignorar por completo el SEO y se centra, [erróneamente, en optimizar su sitio web al máximo](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), generalmente consiguiendo un sitio web extremadamente rápido, eficiente, e incluso visualmente atractivo, pero sin tráfico.
 
 ![Web development in assembly meme](images/web-development-assembly.webp "Dicen por ahí que solo los verdaderos programadores programan en lenguajes de bajo nivel")
 
@@ -83,7 +83,7 @@ Lo importante a recordar aquí es que los motores de búsqueda no tienen una man
 
 ### ¿Cómo pude haber evitado esa caida de tráfico?
 
-Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? [retornando una respuesta HTTP 302 o 308](/es/arquitectura de software/caracteristicas-basicas-de-una-api-rest/), Found or Permanent redirect, respectivamente.
+Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? [retornando una respuesta HTTP 302 o 308](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/), Found or Permanent redirect, respectivamente.
 
 ### La ausencia del marcado de datos estructurados o Schema 
 

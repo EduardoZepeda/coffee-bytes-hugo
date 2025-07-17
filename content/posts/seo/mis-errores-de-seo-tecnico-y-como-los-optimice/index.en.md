@@ -5,7 +5,7 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinions
+- opinion
 - SEO
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
@@ -13,7 +13,7 @@ description: I tell you what I did wrong, what I did right and what I learned fr
   optimizing the technical SEO aspects of my website so that you don't make the same
   mistakes.
 keywords:
-- opinions
+- opinion
 - seo
 - web development
 title: My technical SEO mistakes when I migrated my site from Wordpress
@@ -37,7 +37,7 @@ At the risk of sounding redundant, I will repeat it again: the traffic of a web 
 
 Most developers have an engineering background, where efficiency, best practices and the business aspect of a website are valued and overlooked. 
 
-Hence, when a web developer launches their personal projects, they often completely ignore SEO and focus on [optimizing their webapp performance to the maximum](/en/opinions/dont-obsess-about-your-web-application-performance/), usually resulting in an extremely fast, efficient, and even visually appealing website, but with no traffic.
+Hence, when a web developer launches their personal projects, they often completely ignore SEO and focus on [optimizing their webapp performance to the maximum](/en/opinion/dont-obsess-about-your-web-application-performance/), usually resulting in an extremely fast, efficient, and even visually appealing website, but with no traffic.
 
 ![Web development in assembly meme](images/web-development-assembly.webp "It is said that only true programmers program in low-level languages.")
 

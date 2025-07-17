@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - javascript
-- opinions
+- opinion
 coverImage: images/eloquent_javascript.jpg
 date: '2019-10-01'
 description: If you plan to spend a few hours learning javascript, don't waste your

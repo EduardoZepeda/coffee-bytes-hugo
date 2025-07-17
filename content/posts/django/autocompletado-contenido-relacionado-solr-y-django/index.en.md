@@ -5,13 +5,13 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- linux and devops
+- linux
 coverImage: images/solr-busquedas-avanzadas.jpg
 coverImagecredits: Credits to 藪 https://www.pixiv.net/en/users/50979768
 date: '2022-05-29'
 keys:
 - django
-- linux and devops
+- linux
 - solr
 - autocomplete
 - index
@@ -20,7 +20,7 @@ title: 'Autocomplete, Suggestions and Related Content: Solr and Django'
 
 Solr, together with Lucene, is an outstanding search engine that allows you to perform searches with advanced features. In this post I bring you a summary of some of the most interesting features of Solr and Django Haystack.
 
-I assume you already have a [configured django app with Solr](/en/django/searches-with-solr-with-django-haystack/), in case you don't, check my previous post.
+I assume you already have a [configured django app with Solr]({{< ref path="/posts/django/solr-en-django-con-haystack/index.md" lang="en" >}}), in case you don't, check my previous post.
 
 ## Behavior of default AND and OR searches
 
@@ -158,7 +158,7 @@ query = SearchQuerySet().auto_query("<mla ecsrito>")
 query.spelling_suggestion() # u'mal escrito'
 ```
 
-This allows us to correct small errors in the search, just as if we were using [trigrams in Postgres and Django](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/).
+This allows us to correct small errors in the search, just as if we were using [trigrams in Postgres and Django]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
 Activating this search took me a lot of work, it seems that it is not activated by default and that you have to visit the url with _&spellcheck.reload=true_ to generate the proper index, but who knows, maybe in newer versions it won't be necessary.
 

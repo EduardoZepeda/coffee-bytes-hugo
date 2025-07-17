@@ -510,7 +510,7 @@ async def create_upload_file(file: UploadFile = File(...)):
 
 For this example we will create a simple text file.
 
-The following command will create a txt extension file in our current folder. If you are not comfortable using the GNU/Linux terminal visit my series of posts where I explain the [basic GNU/Linux commands](/en/linux and devops/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
+The following command will create a txt extension file in our current folder. If you are not comfortable using the GNU/Linux terminal visit my series of posts where I explain the [basic GNU/Linux commands](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
 
 ```bash
 printf "texto" > archivo.txt

@@ -68,14 +68,14 @@ en:
     link: https://amzn.to/3QvqSYt
     linkText: Get Eloquent Javascript on Amazon Now
     title: How to outstand from the rest of Javascript developers?
-  linux and devops:
+  linux:
     description: 'After searching for the best linux resource in a lot of online forums I found this little gem called ''How linux works''. It''s a complete book that covers basically everything: Cgroups, PAM, Cron daemons and even the bootladers and Linux''s init process. Truthfully I can''t recommend it more, 5/5. Go check it out.'
     imageAlt: How linux works book cover
     imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/how-linux-works.jpg
     link: https://amzn.to/3QsXkuw
     linkText: Get How Linux Works on Amazon Now
     title: How to outstand as a Linux engineer?
-  opinions:
+  opinion:
     description: Forget about Clean Code and read this book instead. Why? writing good software is hard because the definition of good software is highly variable, this books deals with that question in deep. Throughout the book you'll learn about complexity and its flow, abstractions, information hiding and the 'metas' of programming. IMO A philosophy of software design goes beyond what Clean Code has to offer, sorry uncle Bob.
     imageAlt: A philosophy of software design book cover
     imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/a-philosophy-of-software-design.jpg
@@ -136,14 +136,15 @@ es:
     link: https://amzn.to/4gUpFoa
     linkText: Consulta el precio del Algorithm design manual y cómpralo en Amazon
     title: ¿Dónde aprender lo necesario sobre algoritmos?
-  arquitectura de software:
-    description: Este libro me mostró la manera en que las grandes empresas, como Youtube, Dropbox, Google, etc. diseñan sus sistemas para manejar peticiones astronómicas por segundo. Alex Xu te enseña cómo estructurar réplicas de bases de datos, caché, balanceadores de carga y todos los detalles sobre el diseño de software de clase empresarial, si estás interesado en aprender sobre sistemas que escalan, no debes perderte este libro.
-    imageAlt: Portada del System Design Interview
-    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/system-design-interview.jpg
-    link: https://amzn.to/41rodp3
-    linkText: Consulta el precio de System Design Interview y cómpralo en Amazon
-    title: El mejor libro para aprender Arquitectura de Software
-  bases de datos:
+  artificial intelligence:
+    description: >-
+      Mi recomendación es este pequeño libro de cien páginas sobre Machine Learning, trata de las bases del Machine Learning y todas las matemáticas necesarias para entender cómo se entrenan los modelos de IA. No te dejes engañar por su tamaño, es denso y un poco complicado. ¿Y por qué tan corto? El libro es tan corto porque deja de lado todo el relleno y se queda sólo con las partes cruciales del Machine Learning. Una advertencia, contiene muchas ecuaciones y no tiene exactamente cien páginas, sino un poco más.
+    imageAlt: Portada del libro de cien páginas sobre Machine Learning
+    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103780/hundred-page-machine-learning-book_ueonkh.jpg
+    link: https://amzn.to/3D3oMvN
+    linkText: Consulta el precio de The Hundred-Page Machine Learning y cómpralo en Amazon
+    title: En dónde aprender las bases de AI y Machine Learning
+  databases:
     description: No te conformes con SELECT, UPDATE, DELETE, JOINS y UNIONS, SQL tiene MUCHO MÁS que ofrecer para hacer tu día a día más fácil. Todavía no he terminado de leer este libro pero de momento tiene muy buena pinta. Actualizaré esto cuando lo termine pero hasta ahora me siento bastante cómodo recomendándotelo.
     imageAlt: Portada de SQL Pocket Guide
     imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103829/SQL-pocket-guide_udtfro.jpg
@@ -192,14 +193,6 @@ es:
     link: null
     linkText: null
     title: null
-  inteligencia artificial:
-    description: >-
-      Mi recomendación es este pequeño libro de cien páginas sobre Machine Learning, trata de las bases del Machine Learning y todas las matemáticas necesarias para entender cómo se entrenan los modelos de IA. No te dejes engañar por su tamaño, es denso y un poco complicado. ¿Y por qué tan corto? El libro es tan corto porque deja de lado todo el relleno y se queda sólo con las partes cruciales del Machine Learning. Una advertencia, contiene muchas ecuaciones y no tiene exactamente cien páginas, sino un poco más.
-    imageAlt: Portada del libro de cien páginas sobre Machine Learning
-    imageSrc: https://res.cloudinary.com/dwrscezd2/image/upload/v1740103780/hundred-page-machine-learning-book_ueonkh.jpg
-    link: https://amzn.to/3D3oMvN
-    linkText: Consulta el precio de The Hundred-Page Machine Learning y cómpralo en Amazon
-    title: En dónde aprender las bases de AI y Machine Learning
   javascript:
     description: Este es EL LIBRO cuando se trata de Javascript. Es una guía completa que cubre todo lo que necesitas saber, desde la declaración de variables, al funcionamiento interno de las promesas e incluso te explica como crear un compilador en Javascript (No tan eficiente como uno compilado, pero ideal para aprender), si vas a leer solo un libro de Javascript, que sea este.
     imageAlt: Portada del libro Eloquent Javascript
@@ -207,14 +200,14 @@ es:
     link: https://amzn.to/3QvqSYt
     linkText: Consulta el precio de Eloquent Javascript y cómpralo en Amazon
     title: ¿Dónde mejorar sus conocimientos de Javascript?
-  linux y devops:
+  linux:
     description: 'Después de buscar el mejor recurso linux en un montón de foros online encontré esta pequeña joya llamada ''How linux works''. Es un libro completo que cubre básicamente todas las entrañas de Linux: Cgroups, PAM, Cron daemons e incluso los bootladers y el proceso init de Linux. La verdad es que no puedo recomendarlo más, 5/5. Ve a leerlo.'
     imageAlt: Portada del libro Cómo funciona Linux
     imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/how-linux-works.jpg
     link: https://amzn.to/3QsXkuw
     linkText: Consulta el precio de Cómo funciona Linux y cómpralo en Amazon
     title: ¿Cómo destacar como un ingeniero de Linux?
-  opiniones:
+  opinion:
     description: Olvídate de Clean Code y lee este libro en su lugar. ¿Por qué? escribir buen software es difícil porque la definición de buen software es muy variable, este libro trata esa cuestión en profundidad. A lo largo del libro aprenderás sobre la complejidad y su flujo, abstracciones, paradigmas de ocultamiento información y la meta filosofía de la programación. En mi opinión, A philosophy of Software Design va más allá de lo que Clean Code puede ofrecer, lo siento tío Bob.
     imageAlt: Portada del libro A philosophy of software design
     imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/a-philosophy-of-software-design.jpg
@@ -248,6 +241,13 @@ es:
     link: https://amzn.to/4lrKniV
     linkText: Consulta el precio
     title: ¿Quieres especializarte en SEO pero no sabes donde?
+  software architecture:
+    description: Este libro me mostró la manera en que las grandes empresas, como Youtube, Dropbox, Google, etc. diseñan sus sistemas para manejar peticiones astronómicas por segundo. Alex Xu te enseña cómo estructurar réplicas de bases de datos, caché, balanceadores de carga y todos los detalles sobre el diseño de software de clase empresarial, si estás interesado en aprender sobre sistemas que escalan, no debes perderte este libro.
+    imageAlt: Portada del System Design Interview
+    imageSrc: https://coffeebytes.dev/en/pages/books-i-read-and-reviews/images/system-design-interview.jpg
+    link: https://amzn.to/41rodp3
+    linkText: Consulta el precio de System Design Interview y cómpralo en Amazon
+    title: El mejor libro para aprender Arquitectura de Software
   testing:
     description: null
     link: null

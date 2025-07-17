@@ -22,13 +22,13 @@ url: python-vs-javascript-which-is-the-best-programming-language
 
 If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you.
 
-I also have a [Python vs Go comparison](/en/go/python-vs-go-go-which-is-the-best-programming-language/) that you can check out, also I share you [my favorite list of resources for learning Python]({{< ref path="/posts/python/best-source-to-learn-python/index.md" lang="en" >}})
+I also have a [Python vs Go comparison]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}})that you can check out, also I share you [my favorite list of resources for learning Python]({{< ref path="/posts/python/best-source-to-learn-python/index.md" lang="en" >}})
 
 ## Python vs Javascript, introduction and differences
 
 To begin with, **Python is an interpreted language**. If you are not familiar with the term, it means that it has an interpreter that translates the instructions, one by one, to machine language, so that they are executed on the fly. So you don't have to compile all your code every time you want to run it, as you would with C++, Java, Rust, etc.
 
-Javascript was born as an interpreted language, however modern engines have managed to turn it into a **JIT (Just in Time) compiled language**. Virtually all browsers do [JIT compiled](https://www.youtube.com/watch?v=d7KHAVaX_Rs) JavaScript, except, as always, IE8. Although I don't like some aspects of the language, like the [management of dates](/en/javascript/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascript/), I don't think it's the worst or the least useful language out there.
+Javascript was born as an interpreted language, however modern engines have managed to turn it into a **JIT (Just in Time) compiled language**. Virtually all browsers do [JIT compiled](https://www.youtube.com/watch?v=d7KHAVaX_Rs) JavaScript, except, as always, IE8. Although I don't like some aspects of the language, like the [management of dates]({{< ref path="/posts/javascript/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/index.md" lang="en" >}}), I don't think it's the worst or the least useful language out there.
 
 If you want to learn how the Javascript engine works at a deeper level, I leave you a link to [a series of videos](https://www.youtube.com/watch?v=No-Pfboplxo&amp;list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&amp;index=1) on youtube where the topic is discussed in more detail.
 

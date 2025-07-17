@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- linux and devops
+- linux
 coverImage: images/solr-django-busquedas.jpg
 coverImageCredits: Credits to https://www.instagram.com/we_make_mangas/
 date: '2022-05-26'
@@ -13,7 +13,7 @@ title: How to implement Solr for searches or queries in Django?
 url: searches-with-solr-with-django-haystack
 ---
 
-Previously I explained you how to implement [full text search in Django](/en/django/full-text-search-and-searches-with-django-and-postgres/) and [trigrams-and-search-rank](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/) using Postgres. Solr comes to offer us something better, a robust, stable and feature-rich search engine, ready to use, in exchange for a little more complexity, more dependencies and having to include Java (yes, Java) in our project.
+Previously I explained you how to implement [full text search in Django](/en/django/full-text-search-and-searches-with-django-and-postgres/) and [trigrams-and-search-rank]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) using Postgres. Solr comes to offer us something better, a robust, stable and feature-rich search engine, ready to use, in exchange for a little more complexity, more dependencies and having to include Java (yes, Java) in our project.
 
 ## How does Solr work?
 
@@ -41,7 +41,7 @@ Solr works with an inverted index. It is quite similar to the index that appears
 
 ### Advantages of Solr
 
-Solr has many [advanced features, such as autocomplete, suggestions, search by field and others](/en/django/autocomplete-suggestions-and-related-content-solr-and-django/)
+Solr has many [advanced features, such as autocomplete, suggestions, search by field and others]({{< ref path="/posts/django/autocompletado-contenido-relacionado-solr-y-django/index.md" lang="en" >}})
 
 * Solr's inverted index allows searching through millions of records in milliseconds.
 * Solr allows you to generate search suggestions for misspellings.

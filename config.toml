@@ -192,7 +192,10 @@ lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [permalinks]
 pages = "/pages/:contentbasename/"
-posts = ":sections[last]/:title"
+posts = "/:sections[1:]/:title"
+
+[languages.es.permalinks]
+posts = "/:slug"
 
 [related]
 includeNewer = true

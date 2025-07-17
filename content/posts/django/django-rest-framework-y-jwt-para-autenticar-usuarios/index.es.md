@@ -51,7 +51,7 @@ Aprecia como podemos usar la parte central para guardar contenido arbitrario, qu
 
 ## Instalación de JWT en Django
 
-Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](/es/arquitectura de software/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
+Primero vamos a instalar las librerías necesarias: djangorestframework y djangorestframework\_simplejwt, el primero para para crear y gestionar nuestra [API REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/) en Django y el segundo para manejar los JWT. 
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación de Django de forma barata y con buen rendimiento, DO tiene VPS (ellos les llaman Droplets) desde $4 usd el mes">}}
 
@@ -215,4 +215,4 @@ Pues bien, la interrogante trae una serie de preguntas muy difíciles de contest
 
 ¿Como lidio con un JWT con información o permisos desactualizados? ¿Cuál es la mejor manera de invalidar un JWT un servidor externo o cambiar la llave critptográfica? ¿Qué pasa si la información que guardo en el JWT excede el tamaño permitido por cookie? Si en lugar de guardar contenido en el JWT solo guardo el identificador de usuario, ¿no es lo mismo que una cookie?
 
-Para la siguiente publicación traduciré una entrada bastante popular llamada "Stop using JWT for sessions" ([No uses JWT para gestionar sesiones](/es/arquitectura de software/no-uses-jwt-para-gestionar-sesiones-traduccion/)), con una postura muy fuerte, que trata sobre esas preguntas.
+Para la siguiente publicación traduciré una entrada bastante popular llamada "Stop using JWT for sessions" ([No uses JWT para gestionar sesiones](/es/software-architecture/no-uses-jwt-para-gestionar-sesiones-traduccion/)), con una postura muy fuerte, que trata sobre esas preguntas.

@@ -19,7 +19,7 @@ keywords:
 title: 'Go: introducción a las goroutines y concurrencia'
 ---
 
-Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
+Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
 
 {{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
@@ -50,7 +50,7 @@ Si aún así te parecen confusos y no entiendes la diferencia, dale una leída a
 
 Una [corrutina](https://es.wikipedia.org/wiki/Corrutina#?), en go, es **una función o método que se ejecuta concurrentemente junto con otras funciones o métodos**. En go, a las corrutinas se les conoce como **goroutines** o gorutinas. Incluso, la función principal, _main_, se ejecuta dentro de una.
 
-Las [goroutines](/es/go/go-introduccion-a-las-goroutines-y-concurrencia/) son usadas en patrones de diseño, como el [patrón de diseño worker pool](/es/Arquitectura de software/explicacion-del-patron-de-diseno-worker-pool/)
+Las [goroutines](/es/go/go-introduccion-a-las-goroutines-y-concurrencia/) son usadas en patrones de diseño, como el [patrón de diseño worker pool](/es/software-architecture/explicacion-del-patron-de-diseno-worker-pool/)
 
 Para generar una goroutine agregamos el keyword _go_ antes de una función. Lo anterior programará la función para su ejecución asíncrona.
 

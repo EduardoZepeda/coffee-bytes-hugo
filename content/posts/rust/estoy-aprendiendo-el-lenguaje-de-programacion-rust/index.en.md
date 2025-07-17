@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - rust
-- opinions
+- opinion
 coverImage: images/learning-rust-programming-language.jpg
 date: '2024-10-16T19:15:56-06:00'
 description: Is Rust difficult to learn? Rust can be difficult to learn due to a number

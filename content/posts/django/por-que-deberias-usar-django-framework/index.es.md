@@ -7,7 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- opiniones
+- opinion
 coverImage: images/Django-usar.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-03-24'
@@ -55,7 +55,7 @@ Si eres uno de esos desarrolladores que se consideran **perfeccionistas con dead
 
 ### El ORM de Django es sencillo y fácil de usar
 
-El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones para [búsquedas avanzadas de Postgres](/es/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/) y manejo de migraciones automático.
+El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones para [búsquedas avanzadas de Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}) y manejo de migraciones automático.
 
 Para crear una tabla en la base de datos basta con crear una clase que herede de _models.Model_ y Django se encargará de todo el trabajo pesado.
 
@@ -120,11 +120,11 @@ La mayoría de las aplicaciones requieren un sistema de manejo de usuarios, ya s
 
 Este framework cuenta con un sistema de autenticación probado, basado en sesiones que se identifican por medio de una cookie. El sistema de autenticación ya ha sido puesto a prueba en numerosas ocasiones por algunos de los sitios web con más tráfico que hay, como Instagram o el sitio web de la NASA. Pinterest empezó con Django pero se movió hacia node.
 
-Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](/es/django/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](/es/arquitectura de software/no-uses-jwt-para-gestionar-sesiones-traduccion/)
+Puedes usar la autenticación con cookie, por sesiones o existen paquetes que te permiten usarla con JWT. Por cierto, tengo una entrada donde explico como [autenticar un usuario usando JSON Web token JWT en Django Rest Framework](/es/django/django-rest-framework-y-jwt-para-autenticar-usuarios/). Además escribí otra explicando porque [algunos consideran que esto no es una buena idea.](/es/software-architecture/no-uses-jwt-para-gestionar-sesiones-traduccion/)
 
 #### Sistema de permisos
 
-Django cuenta con un sólido [sistema de permisos y grupos](/es/django/como-funcionan-los-permisos-y-grupos-en-django/) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
+Django cuenta con un sólido [sistema de permisos y grupos]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="es" >}}) que vincula a sus usuarios con modelos en la base de datos que puedes empezar a usar solo con unas cuantas lineas de código.
 
 ### Sistema de caché out of the box
 
@@ -148,7 +148,7 @@ Django cuenta con muchísimos paquetes para resolver la mayoría de los problema
 
 Solo por nombrar algunos:
 
-- [Django-haystack](/es/django/busquedas-con-solr-con-django-haystack/)(Para búsquedas
+- [Django-haystack]({{< ref path="/posts/django/solr-en-django-con-haystack/index.md" lang="es" >}})(Para búsquedas
   complejas)
 - Django-watson (Búsquedas)
 - DRF (REST)
@@ -159,13 +159,13 @@ Solo por nombrar algunos:
 - Django-storage (AWS storage)
 - Django-braces (Funciones comunes)
 
-Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API REST](/es/arquitectura de software/caracteristicas-basicas-de-una-api-rest/), el manejo de permisos y [throttling](/es/arquitectura de software/throttling-en-nginx/), una tarea simple**, comparada con crear todo desde cero. 
+Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/), el manejo de permisos y [throttling](/es/software-architecture/throttling-en-nginx/), una tarea simple**, comparada con crear todo desde cero. 
 
 Otro paquete a destacar que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](/es/django/django-channels-consumers-scope-y-eventos/)
 
 ### Django te lleva de una idea a un prototipo funcional rápido
 
-Yo considero esta **la ventaja principal de Django**. A pesar de [no ser el framework con mejor rendimiento](/es/opiniones/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), **Django te lleva de una idea a un MVP rápido, con pocas lineas de código**. Lo cual es una ventaja competitiva gigantesca frente a otros frameworks, especialmente en entornos iterativos.
+Yo considero esta **la ventaja principal de Django**. A pesar de [no ser el framework con mejor rendimiento](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), **Django te lleva de una idea a un MVP rápido, con pocas lineas de código**. Lo cual es una ventaja competitiva gigantesca frente a otros frameworks, especialmente en entornos iterativos.
 
 Con Django tendrías un prototipo funcionando más rápido que con cualquier otro framework "menos opinado" o que requiera que programes todo desde cero.
 
@@ -185,7 +185,7 @@ Python es genial cuando se trata de Machine Learning, librerías geniales como P
 
 ## Las desventajas de Django
 
-No todo es mágico con Django, hay algunas cosas que pueden considerarse una desventaja y que yo cambiaría sin dudarlo. Ciertamente [Django puede ser mejorado en muchos aspectos](/es/opiniones/como-mejorar-django-framework/).
+No todo es mágico con Django, hay algunas cosas que pueden considerarse una desventaja y que yo cambiaría sin dudarlo. Ciertamente [Django puede ser mejorado en muchos aspectos](/es/opinion/como-mejorar-django-framework/).
 
 ### Es un monólito
 
@@ -197,7 +197,7 @@ La misma estabilidad de Django lo ha hecho verse algo lento en un mundo de frame
 
 ### Es lento y maneja peticiones de una en una
 
-Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go](/es/go/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/) comparo el rendimiento de ambos, solo para que te des una idea.
+Python es un lenguaje interpretado que se hizo para ser bello y simple, no necesariamente rápido. En mi comparación de [python vs go]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="es" >}}) comparo el rendimiento de ambos, solo para que te des una idea.
 
 Sumado a lo anterior, Django tampoco brilla por su velocidad a la hora de ejecutarse. En la carrera por ser un framework veloz, está por debajo de tecnologías más modernas como Flask o FastAPI. Entra en [mi tutorial sobre FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="es" >}}) si quieres ver que tan lento es Django comparado con otros frameworks.
 
@@ -221,7 +221,7 @@ Si usas Framework y buscas un framework parecido, tengo entendido que [AdonisJS]
 
 ### Frameworks como django pero en Go
 
-Si estas usando este maravilloso y super simple [lenguaje de programación llamado Go](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), sé que el framework [Beego](https://github.com/beego/beego#?) es bastante similar a Django en cuanto a su filosofía de baterías incluídas.
+Si estas usando este maravilloso y super simple [lenguaje de programación llamado Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), sé que el framework [Beego](https://github.com/beego/beego#?) es bastante similar a Django en cuanto a su filosofía de baterías incluídas.
 
 ### Frameworks como django pero en Rust
 

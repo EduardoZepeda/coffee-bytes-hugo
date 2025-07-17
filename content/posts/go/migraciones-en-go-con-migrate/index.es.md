@@ -8,7 +8,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - go
-- bases de datos
+- databases
 coverImage: images/migrations-go.jpg
 date: '2022-11-25'
 description: En este tutorial te explico que son las migraciones up, down de una base
@@ -16,7 +16,7 @@ description: En este tutorial te explico que son las migraciones up, down de una
 keywords:
 - go
 - postgres
-- bases de datos
+- databases
 - migrations
 title: Tutorial de migraciones en Go con migrate
 ---

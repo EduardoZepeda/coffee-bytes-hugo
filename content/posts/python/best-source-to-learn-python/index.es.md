@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - python
-- opiniones
+- opinion
 coverImage: images/best-source-to-learn-python.jpg
 date: '2025-04-25'
 description: Te Presento mi lista de libros favoritos y algunos recursos extra que
@@ -14,7 +14,7 @@ keyword: libro para aprender python
 keywords:
 - python
 - tutorial
-- opinions
+- opinion
 title: Mis libros favoritos para aprender a programar en Python
 ---
 
@@ -110,6 +110,6 @@ Nuestro youtuber preferido de tecnología en español: ~~Last dragon~~ Midudev t
 
 ![Meme de homero simpson comiendo queso toda la noche. ¿Homero estuviste viendo el curso de Midudev toda la noche? Print(creo que estoy ciego)](https://res.cloudinary.com/dwrscezd2/image/upload/v1745632733/coffee-bytes/meme-homero-midudev_ss4k90.jpg "Ay Marge creo que estoy ciego")
 
-No puedo recomendartelo directamente porque aprendí Python mucho antes de que Midudev fuera famoso e hiciera su curso y no me apetece pasar 8 horas repasando conceptos de Python. Sin embargo, su último curso, donde hablaba del [Model Context Protocol]({{< ref path="/posts/inteligencia-artificial/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}) fue genial, por lo que supongo que este no se aleja bastante de sus estándares de calidad.
+No puedo recomendartelo directamente porque aprendí Python mucho antes de que Midudev fuera famoso e hiciera su curso y no me apetece pasar 8 horas repasando conceptos de Python. Sin embargo, su último curso, donde hablaba del [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}) fue genial, por lo que supongo que este no se aleja bastante de sus estándares de calidad.
 
 {{< youtube "TkN2i-_4N4g">}}

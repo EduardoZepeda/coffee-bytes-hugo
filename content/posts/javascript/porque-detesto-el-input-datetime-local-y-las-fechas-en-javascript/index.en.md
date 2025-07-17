@@ -5,14 +5,14 @@ authors:
 - Eduardo Zepeda
 categories:
 - javascript
-- opinions
+- opinion
 coverImage: images/javascript-dates-and-html-input.jpg
 date: '2024-03-20'
 description: Dates management in javascript sucks, also its relation with datetime-local
   input is counterintuitive and only denotes Javascript's faults as a language
 keywords:
 - javascript
-- opinions
+- opinion
 - react
 - html
 title: Why I abhor datetime-local and dates in Javascript?
@@ -55,7 +55,7 @@ It may seem insignificant to you to add one more library, but it's not the weigh
 
 The fact that these libraries are popular only highlights the shortcomings of JavaScript as a language. 
 
-And yes, I know what you're thinking. Although I really like [the Go programming language](/en/go/go-programming-language-introduction-to-variables-and-data-types/), I'm also able to recognize their shortcomings and areas for improvement.
+And yes, I know what you're thinking. Although I really like [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), I'm also able to recognize their shortcomings and areas for improvement.
 
 ![Go date formatting is awful too](images/date_formatting_golang.webp "Go's date formatting, like Javascript's, is awful")
 

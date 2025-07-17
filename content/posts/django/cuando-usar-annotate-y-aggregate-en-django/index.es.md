@@ -7,7 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- bases de datos
+- databases
 coverImage: images/Django_aggregate_y_annotate.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2020-11-17'
@@ -26,7 +26,7 @@ La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté 
 
 Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en mi entrada sobre la [guia definitiva de Django.](/es/django/la-guia-definitiva-de-django/)
 
-Annotate y aggregate son imprescindibles para [escalar aplicaciones de Django para servir a una multitud de usuarios](/es/arquitectura de software/como-escalar-django-para-manejar-millones-de-vistas/)
+Annotate y aggregate son imprescindibles para [escalar aplicaciones de Django para servir a una multitud de usuarios](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/)
 
 ## Django annotate y aggregate principales diferencias resumidas
 
@@ -94,7 +94,7 @@ Conocer la consulta que realizará Django nos ayuda a entender que está sucedie
 
 Usamos _annotate_ **cuando queremos hacer una anotación en cada objeto que nos devuelva de un queryset**, como si quisiéramos agregar una propiedad extra a cada objeto de tu queryset, pero directo desde la base de datos.
 
-Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres](/es/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/).
+Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}).
 
 ![Django Annotate diagrama de funcionamiento donde se realiza un Join y luego una función como SUM](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png)
 

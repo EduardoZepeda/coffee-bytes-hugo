@@ -266,7 +266,7 @@ fmt.Println(nuevaInstancia)
 // &{ 0}
 ```
 
-A partir del tipo que obtuvimos con *TypeOf* reflect creará un nuevo objeto. Sin embargo, en este caso, al tratarse de un struct al cual no le hemos especificado los valores de sus campos, se inicializará con sus [zero values](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/).
+A partir del tipo que obtuvimos con *TypeOf* reflect creará un nuevo objeto. Sin embargo, en este caso, al tratarse de un struct al cual no le hemos especificado los valores de sus campos, se inicializará con sus [zero values]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}).
 
 
 Y ya se acabó la pequeña introducción a reflect, ahora ya sabes lo suficiente para confundirte y llorar mientras trabajas con cualquier cosa que necesite reflexión. ¿Genial no?

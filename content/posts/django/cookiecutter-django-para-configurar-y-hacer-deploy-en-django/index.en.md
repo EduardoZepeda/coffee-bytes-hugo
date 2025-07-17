@@ -28,7 +28,7 @@ I wrote the previous entries as an introduction for this week's topic. In this p
 
 This tool uses docker to simplify the process of developing and deploying a Django application. It was also created by one of the writers of the great book Two scoops of Django, of which I have a [review of Twoo scoops of django](/en/django/the-best-django-book-two-scoops-of-django-review/)
 
-Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/docker/the-most-useful-and-basic-docker-commands//) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose](/en/docker/get-to-know-the-basic-docker-compose-commands/).
+Don't know what Docker is? Visit my post where I talk about [containers and Docker](/en/docker/the-most-useful-and-basic-docker-commands//) in case you don't know how to use it. If you already know how to use Docker, and want to take a look at [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="en" >}}).
 
 If you doubt about whether you should use Django visit my post where I explain some [advantages and disadvantages of this web development framework](/en/django/why-should-you-use-django-framework/)
 
@@ -268,7 +268,7 @@ Cookiecutter-django also allows us to choose a continuous integration (CI) tool 
 keep_local_envs_in_vcs [y]:
 ```
 
-It asks us if we want to manage [the local environment variables](/en/linux and devops/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/) within the version control system.
+It asks us if we want to manage [the local environment variables](/en/linux/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/) within the version control system.
 
 ### Debug, for django-cookiecutter development
 

@@ -8,7 +8,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux y devops
+- linux
 - go
 coverImage: images/docker-container-desde-cero.jpg
 date: '2022-06-18'
@@ -108,7 +108,7 @@ Simplificando lo anterior necesitamos:
 * Chroot: para dotar a nuestro container de un sistema de archivos diferente al del sistema operativo principal
 * Cgroups: para limitar los recursos de nuestro sistema a los que nuestro container puede acceder
 
-Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/). 
+Ahora vamos a crear la base del container de la misma manera que Docker, usando [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}). 
 
 ```go
 package main

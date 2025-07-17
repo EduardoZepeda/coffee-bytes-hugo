@@ -18,7 +18,7 @@ title: 'Pipenv: The virtual environment manager you DON''T know'
 
 Since I started using Python I use virtualenv and pip to manage virtual environments. But while reading [Django for Professionals](/en/django/django-for-professionals-review/) I found out that there was a better tool than pip and virtualenv, called Pipenv (they didn't get too complicated with the name). Pipenv has features that make it much more robust and easier to use than virtualenv. In this step-by-step Pipenv tutorial, I will explain the installation, usage, file handling and basic commands of this tool.
 
-First, if you have already heard about virtual environments but don't know what they are for I have a post where I talk about [virtual environments in Python](/en/python/why-should-you-use-a-virtual-environment-in-python/). On the other hand, if the name _virtualenv_ sounds a bit esoteric to you you might want to read about [virtualenv, the Python virtual environment manager](/en/python/python-virtualenv-linux-basic-tutorial/)
+First, if you have already heard about virtual environments but don't know what they are for I have a post where I talk about [virtual environments in Python]({{< ref path="/posts/python/por-que-usar-un-entorno-virtual-en-python/index.md" lang="en" >}}). On the other hand, if the name _virtualenv_ sounds a bit esoteric to you you might want to read about [virtualenv, the Python virtual environment manager](/en/python/python-virtualenv-linux-basic-tutorial/)
 
 ## Pipenv vs virtualenv
 
@@ -61,7 +61,7 @@ What is in these files? I will explain it below. First let's go to the Pipfile f
 
 ## What's Pipfile for in Pipenv?
 
-Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands](/en/linux and devops/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//).
+Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//).
 
 ```bash
 cat Pipfile

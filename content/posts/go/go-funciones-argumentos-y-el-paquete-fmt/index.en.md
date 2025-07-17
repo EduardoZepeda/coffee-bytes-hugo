@@ -14,7 +14,7 @@ keywords:
 title: 'Go: functions, arguments and the fmt package'
 ---
 
-This entry will discuss the basic syntax of Go functions. If you know absolutely nothing about go visit my entry [go: introduction to programming language, variables and data types](/en/go/go-programming-language-introduction-to-variables-and-data-types/) to start from the beginning of this tutorial series.
+This entry will discuss the basic syntax of Go functions. If you know absolutely nothing about go visit my entry [go: introduction to programming language, variables and data types]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) to start from the beginning of this tutorial series.
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
@@ -25,19 +25,19 @@ Now, let's move on to the functions.
 In go functions are declared by prefixing the word _func_ to the function name. As follows:
 
 ```go
-func borrarRoot() { }
+func deleteRoot() { }
 ```
 
 Remember that being a compiled language, go requires you to specify the data type in the arguments.
 
 ```go
-func borrarRoot(argumento int, otroArgumento int) { }
+func deleteRoot(argument int, secondArgument int) { }
 ```
 
 If the two arguments are of the same type, we can save a word by omitting the first type, in this case _int_.
 
 ```go
-func borrarRoot(argumento, otroArgumento int) {}
+func deleteRoot(argument, secondArgument int) {}
 ```
 
 ### Return in go
@@ -49,7 +49,7 @@ A function **does not require you to return anything necessarily**, and you do n
 On the other hand, **if your function does have a return, you need to specify the type of data to return,** placing it after the arguments.
 
 ```go
-func RetornaUno(argumento, otroArgumento int) int{
+func ReturnOne(argument, secondArgument int) int{
     return 1
 }
 ```
@@ -57,7 +57,7 @@ func RetornaUno(argumento, otroArgumento int) int{
 Likewise, we can return two values, as if it were a tuple.
 
 ```go
-func retornaUnoYDos(argumento, otroArgumento int) (int, int) {
+func ReturnOneAndTwo(argument, secondArgument int) (int, int) {
     return 1, 2
 }
 ```
@@ -65,7 +65,7 @@ func retornaUnoYDos(argumento, otroArgumento int) (int, int) {
 And, just like in Python, it is possible to assign those two values to two different variables, separating them by a comma.
 
 ```go
-a, b = retornaUnoYDos()
+a, b = ReturnOneAndTwo()
 ```
 
 ### Return a function in go
@@ -73,7 +73,7 @@ a, b = retornaUnoYDos()
 In go, functions "are first class citizens" so, in go, **functions can return functions.** **functions are first class citizens so, in go, **functions can return functions.
 
 ```go
-func retornaFuncion(argumento, otroArgumento int) func() {
+func returnFunction(argument, secondArgument int) func() {
     return func() {
         return 1
 }
@@ -83,7 +83,7 @@ And, as the function returns a function we can call the latter within any other 
 
 ```go
 // El equivalente a a llamar a la función retornada
-retornaFuncion()()
+returnFunction()()
 ```
 
 ### Return no name
@@ -192,9 +192,9 @@ If you don't know what the ampersand "&" means, you can think of it as the addre
 If you still have no idea what I'm talking about, you're going to have to do some research on pointers. There is too much information available on the internet to create a new entry.
 
 ```go
-var mensaje string
-fmt.Scan(&mensaje)
-fmt.Println(mensaje)
+var message string
+fmt.Scan(&message)
+fmt.Println(message)
 ```
 
 The above code does only two things: it saves the text we type in the console in the message variable and then prints it on the screen.
@@ -209,13 +209,13 @@ See how we first create the three variables, and then, as the first argument to 
 
 ```go
 var (
-    	nombre string
-    	apellido string
-    	telefono int
+    	name string
+    	lastname string
+    	phoneNumber int
     )
-        // nombre apellido telefono
-    fmt.Scanf("%s %s %d", &nombre, &apellido, &telefono)
-    fmt.Printf("Nombre: %s, Apellido: %s, telefono: %d", nombre, apellido, telefono)
+        // name lastname phoneNumber
+    fmt.Scanf("%s %s %d", &name, &lastname, &phoneNumber)
+    fmt.Printf("name: %s, lastname: %s, phoneNumber: %d", name, lastname, phoneNumber)
 ```
 
 Notice how we indicate the separation of each argument by a space.
@@ -228,17 +228,17 @@ Scanf and Scan, in addition to saving text in variables, also return the number 
 
 ```go
 var (
-    	nombre string
-    	apellido string
-    	telefono int
-    	argumentos int
+    	name string
+    	lastname string
+    	phoneNumber int
+    	arguments int
     	err error
     )
-    argumentos, err = fmt.Scanf("%s %s %d", &nombre, &apellido, &telefono)
+    arguments, err = fmt.Scanf("%s %s %d", &name, &lastname, &phoneNumber)
     if err != nil {
     	fmt.Printf("Error: %s", err)
     } else {
-    	fmt.Printf("Todo bien, recibimos %d argumentos: %s, %s, %d", argumentos, nombre, apellido, telefono)
+    	fmt.Printf("Looks ok, we received %d arguments: %s, %s, %d", arguments, name, lastname, phoneNumber)
     }
 ```
 

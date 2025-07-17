@@ -10,7 +10,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux y devops
+- linux
 coverImage: images/DockerCompose.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@felixmittermeier/
 date: '2020-10-14'
@@ -39,7 +39,7 @@ Si quieres refrescar tu memoria visita mi [tutorial de comandos básicos de Dock
 
 Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples [contenedores de Docker](/es/docker/que-es-docker-y-para-que-sirve/). En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
 
-Docker-compose está programando usando el [lenguaje de programación go o golang](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/); el mismo con lenguaje con el que [funcionan internamente los containers de go](/es/docker/container-de-docker-con-namespaces-y-cgroups/).
+Docker-compose está programando usando el [lenguaje de programación go o golang]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}); el mismo con lenguaje con el que [funcionan internamente los containers de go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}).
 
 ## Estructura de un archivo docker-compose.yml
 

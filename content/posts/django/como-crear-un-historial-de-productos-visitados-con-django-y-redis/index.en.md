@@ -37,7 +37,7 @@ There are many ways to address that problem, you can associate a user (and their
 
 ## Install redis on GNU/Linux
 
-Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/en/linux and devops/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
+Before you can start using django and redis you must install the latter on your GNU/Linux operating system. If you have no idea about the basic commands in a linux environment I suggest you to visit my post that talks about the [most common GNU Linux commands](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
 
 ```bash
 sudo apt install redis-server
@@ -255,7 +255,7 @@ def limit_product_history_length(user_id, product_history_length):
 
 The function **_ltrim_ of redis is in charge of cutting the initial values of the list associated to a key**, we indicate the initial index and its final index as arguments.
 
-The difference with ltrim is that its execution time is O(n), since it depends on the number of elements to be removed, while for rpop it is O(1). If you have no idea what I'm talking about visit my post where I talk a bit about the [Big O notation](/en/linux and devops/the-big-o-notation/) or stay with the idea that if we are only going to remove one element rpop is better. However you may want a different behavior and you may be better off using _ltrim_.
+The difference with ltrim is that its execution time is O(n), since it depends on the number of elements to be removed, while for rpop it is O(1). If you have no idea what I'm talking about visit my post where I talk a bit about the [Big O notation](/en/linux/the-big-o-notation/) or stay with the idea that if we are only going to remove one element rpop is better. However you may want a different behavior and you may be better off using _ltrim_.
 
 Redis has runtime information for each function in its documentation and can be very useful if the performance of your django application is important.
 
@@ -318,4 +318,4 @@ def create_product_history_by_user(user_id, product_id):
     return product_history_length
 ```
 
-Redis has a lot to offer, and linking it with django will allow you to do a lot. I leave you the [redis documentation](https://redis.io/) in case you want to go deeper into it and its [bindings in python.](https://redis-py.readthedocs.io/en/stable/)
+Redis has a lot to offer, and linking it with django will allow you to do a lot. I leave you the [redis documentation](https://redis.io/) in case you want to go deeper into it and its [bindings in python.](https://github.com/redis/redis-py)

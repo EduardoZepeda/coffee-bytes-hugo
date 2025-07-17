@@ -19,7 +19,7 @@ In the previous post we made an [automatic wallpaper changer in Python](/en/pyth
 
 In this entry we are going to use Cron to program the periodic execution of this script and that it is in charge of changing the wallpaper every certain time, automatically, every hour, two hours, every day, every minute or the frequency that we want. 
 
-If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/en/linux and devops/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/).
+If you don't know how Cron daemon works and how to schedule tasks using this tool, please check my post about [Cron and Crontab](/en/linux/program-periodic-tasks-easily-in-linux-with-cron-and-crontab/).
 
 Also if you're interested in diving into this programming language [here's my list of favorite resources to learn Python]({{< ref path="/posts/python/best-source-to-learn-python/index.md" lang="en" >}})
 
@@ -93,6 +93,6 @@ For this example we will change the wallpaper every 6 hours. But you can set the
 0 */6 * * * $PWD/.change_wallpaper_random.py
 ```
 
-You should also make sure that your file has the proper execution permissions, I have a post explaining the topic of [chmod and permissions in GNU/Linux](/en/linux and devops/understand-permissions-in-gnu-linux-and-the-chmod-command/) that you can check out.
+You should also make sure that your file has the proper execution permissions, I have a post explaining the topic of [chmod and permissions in GNU/Linux](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/) that you can check out.
 
 Save the file and it should start running automatically every 6 hours, or whatever frequency you set, changing the wallpaper to a random one in the folder you specified in the Python script whether you're using a Dark theme or a Light theme in newer versions of Gnome.

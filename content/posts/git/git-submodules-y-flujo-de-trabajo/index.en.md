@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - git
-- linux and devops
+- linux
 coverImage: images/git-submodules.jpg
 coverImageCredits: Image by 牛肉面 https://www.pixiv.net/en/users/14326617
 date: '2022-05-18'
@@ -88,7 +88,7 @@ ls -la
 # ...
 ```
 
-If you check the contents of this file with the [cat command](/en/linux and devops/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//), you will see that it is a path pointing to the _.git/modules_ folder in our main repository. This is how git can keep track of submodules directly in the main repository.
+If you check the contents of this file with the [cat command](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//), you will see that it is a path pointing to the _.git/modules_ folder in our main repository. This is how git can keep track of submodules directly in the main repository.
 
 ```bash
 cat .git

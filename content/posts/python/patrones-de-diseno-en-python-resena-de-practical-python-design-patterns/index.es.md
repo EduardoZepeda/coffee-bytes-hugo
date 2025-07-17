@@ -15,7 +15,7 @@ description: Los patrones de diseño son soluciones comunes a problemas comunes,
 keywords:
 - python
 - patrones de diseño
-- arquitectura de software
+- software architecture
 title: Patrones de Diseño o Software Design Patterns
 ---
 
@@ -40,11 +40,11 @@ Ahora imagina que quieres que se ejecute solo una instancia de una clase ejecut�
 
 En el software los patrones de diseño son iguales, son el acomodo y las relaciones específicas de objetos, métodos y atributos que nos permiten solucionar un problema. ¿Cómo que problemas? Prácticamente cualquier problema que se presente con demasiada frecuencia para que se llegue a una solución estandarizada.
 
-Algunos problemas muy comunes son: [el procesamiento de tareas usando un número fijo de workers](/es/Arquitectura de software/explicacion-del-patron-de-diseno-worker-pool/), asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
+Algunos problemas muy comunes son: [el procesamiento de tareas usando un número fijo de workers](/es/software-architecture/explicacion-del-patron-de-diseno-worker-pool/), asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
 
 ¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django](/es/django/por-que-deberias-usar-django-framework/), es un patrón de diseño.** O el patrón [debounce y Throttle](/es/javascript/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/) que se usan principalmente en Javascript.
 
-Otro ejemplo es el famosísimo ["composición sobre herencia"]({{< ref path="/posts/arquitectura-de-software/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="es" >}})
+Otro ejemplo es el famosísimo ["composición sobre herencia"]({{< ref path="/posts/software-architecture/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="es" >}})
 
 Los patrones de diseño facilitan que el desacoplamiento del código, lo que vuelve más sencillo agregar o remover funciones y también nos dan la seguridad de que son soluciones que ya han sido probadas una y otra vez a lo largo de los años.
 

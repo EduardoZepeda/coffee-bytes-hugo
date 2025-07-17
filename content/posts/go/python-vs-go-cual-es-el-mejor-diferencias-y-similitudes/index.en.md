@@ -326,7 +326,7 @@ While Python has a quite wide support, as it is found in generally installed in 
 
 Go can be used for almost anything, but it has a strong presence in devops tools, backend servers and blockchain. Docker, Traeffik, Docker compose, Kubernetes, Terraform and InfluxDB are all written in Go.
 
-The [docker containers are written using go](/en/docker/how-does-a-docker-container-work-internally/).
+The [docker containers are written using go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
 ![Logos of technologies created with go](images/traeffik-y-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb, and terraform are all written in Go.")
 

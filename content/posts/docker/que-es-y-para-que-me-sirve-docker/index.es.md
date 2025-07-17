@@ -24,7 +24,7 @@ Si llevas usando computadoras desde hace tiempo, probablemente te encuentres má
 
 ## ¿Qué es Docker?
 
-Docker es una herramienta que permite empaquetar una aplicación y sus dependencias en un contenedor muy ligero. Es como si tomaras una aplicación completa con absolutamente todo lo que necesita para funcionar para poder transportarla sin problema a cualquier otro servidor con Docker instalado, ya sea para seguir desarrollándola o para hacer deploy. ¿Y? ¿es todo? ¿transportar código? De seguro me dirás que eso ya lo hacen las máquinas virtuales, [los entornos virtuales](/es/python/por-que-deberias-usar-un-entorno-virtual-en-python/), los archivos zip y prácticamente cualquier herramienta. Bueno sí, pero voy a intentar explicar de manera sencilla que problemática hay.
+Docker es una herramienta que permite empaquetar una aplicación y sus dependencias en un contenedor muy ligero. Es como si tomaras una aplicación completa con absolutamente todo lo que necesita para funcionar para poder transportarla sin problema a cualquier otro servidor con Docker instalado, ya sea para seguir desarrollándola o para hacer deploy. ¿Y? ¿es todo? ¿transportar código? De seguro me dirás que eso ya lo hacen las máquinas virtuales, [los entornos virtuales]({{< ref path="/posts/python/por-que-usar-un-entorno-virtual-en-python/index.md" lang="es" >}}), los archivos zip y prácticamente cualquier herramienta. Bueno sí, pero voy a intentar explicar de manera sencilla que problemática hay.
 
 {{<ad>}}
 
@@ -66,7 +66,7 @@ Para evitar caer en las viles manos de los puristas de las ciencias de la comput
 
 Lo que debes recordar acerca de los contenedores es que **son muy ligeros, se encuentran aislados y virtualizan el funcionamiento de un sistema operativo.**
 
-Si quieres conocer como funciona, a nivel código, un contenedor, te adelanto que [un container es un proceso que echa mano de los namespaces, cgroups de linux y el comando chroot](/es/docker/container-de-docker-con-namespaces-y-cgroups/) para aislar un grupo de procesos en linux, limitar los recursos del sistema operativo que pueden usar y tener su propio sistema de archivos, respectivamente.
+Si quieres conocer como funciona, a nivel código, un contenedor, te adelanto que [un container es un proceso que echa mano de los namespaces, cgroups de linux y el comando chroot]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}) para aislar un grupo de procesos en linux, limitar los recursos del sistema operativo que pueden usar y tener su propio sistema de archivos, respectivamente.
 
 ### Definición de Máquina virtual
 

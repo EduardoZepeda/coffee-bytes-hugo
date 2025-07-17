@@ -7,7 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux and devops
+- linux
 coverImage: images/DockerCursoPractico.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@huy-phan-316220/
 date: '2020-10-07'
@@ -32,7 +32,7 @@ Before we start, it is necessary to clarify that in Docker we work with containe
 
 You can think of images and containers **as classes and their instances in OOP**, respectively.
 
-If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch using Go](/en/docker/how-does-a-docker-container-work-internally/).
+If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch using Go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
 {{<ad>}}
 
@@ -211,7 +211,7 @@ docker run -it <container>
 
 Try running an _ls_ or _pwd_. You will notice that you are inside a GNU/Linux operating system. You can create files, modify them, create folders, etc.
 
-If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/en/linux and devops/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//) to refresh your memory.
+If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//) to refresh your memory.
 
 ```bash
 ls
@@ -343,7 +343,7 @@ Volumes are the tool that will allow us to store information outside the contain
 
 You can think of them as isolated parts in your system, which you can assemble into the container system.
 
-Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/en/linux and devops/understand-permissions-in-gnu-linux-and-the-chmod-command/) if you have doubts.
+Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/) if you have doubts.
 
 Let's try to make it clearer with an example:
 
@@ -486,4 +486,4 @@ Stop all containers
 docker stop $(docker ps -a -q) 
 ```
 
-This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/en/linux and devops/how-to-convert-jpg-to-webp-on-gnu-linux/).
+This tutorial covered only the basics of Docker. Next I will talk about [docker compose, the Docker container management tool](/en/linux/how-to-convert-jpg-to-webp-on-gnu-linux/).

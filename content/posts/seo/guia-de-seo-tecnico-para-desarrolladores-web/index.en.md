@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - seo
-- opinions
+- opinion
 coverImage: images/technical-seo-checklist.jpg
 date: '2025-04-14T00:02:21-06:00'
 description: 'My Technical SEO Basics Checklist For Web Developers, the minimum you
@@ -16,11 +16,11 @@ keywords:
 - guia
 - seo
 - desarrollo web
-- opiniones
+- opinion
 title: A Technical SEO Basics Checklist Made For Web Developers
 ---
 
-Previously I told you how [I made many mistakes in SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}) when I migrated my website from Wordpress to Hugo, after that I started watching a lot of videos about SEO, especially Romuald's videos (He is one of the biggest SEO influencers in Spanish speaking countries), I've also read [The art of SEO](https://amzn.to/42uNZrv#?) and I tried to summarize everything I learned from him and the book in a short post, just for you, before [AI bubble]({{< ref path="/posts/inteligencia-artificial/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) explodes, taking SEO with it.
+Previously I told you how [I made many mistakes in SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}) when I migrated my website from Wordpress to Hugo, after that I started watching a lot of videos about SEO, especially Romuald's videos (He is one of the biggest SEO influencers in Spanish speaking countries), I've also read [The art of SEO](https://amzn.to/42uNZrv#?) and I tried to summarize everything I learned from him and the book in a short post, just for you, before [AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) explodes, taking SEO with it.
 
 ![Romuald Fons Video thumbnail](https://res.cloudinary.com/dwrscezd2/image/upload/v1744676557/coffee-bytes/romu-seo_d3i3l9.jpg "My totally reliable source: Romuald Fons")
 
@@ -151,7 +151,7 @@ For example something similar to this:
 
 Yes, and a lot, you can use the urls to give your website the structure you think is correct so that it is coherent with the architecture you plan, this makes it easier for search engines to “understand” your website.
 
-I've talked about this on my post [REST API: Best practices and design]({{< ref path="/posts/arquitectura-de-software/buenas-practicas-y-diseño-de-una-api-rest/index.md" lang="en" >}})
+I've talked about this on my post [REST API: Best practices and design]({{< ref path="/posts/software-architecture/buenas-practicas-y-diseño-de-una-api-rest/index.md" lang="en" >}})
 
 In the following URLs, notice how there is no way to know if Nawapol is a movie, or a director or a documentary:
 

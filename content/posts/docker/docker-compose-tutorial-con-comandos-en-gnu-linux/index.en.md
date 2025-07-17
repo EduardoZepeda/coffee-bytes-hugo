@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux and devops
+- linux
 coverImage: images/DockerCompose.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@felixmittermeier/
 date: '2020-10-14'
@@ -30,7 +30,7 @@ Docker compose allows us to create applications with multiple containers, these 
 
 Docker compose is a tool that allows you to manage applications consisting of multiple [Docker containers](/en/docker/what-is-docker-and-what-is-it-for/). Instead of having multiple Dockerfiles and be running and linking one by one with Docker, we define a docker-compose.yml file with the configuration we want and run it, this will create all the necessary services of our application. It also works in development, production, staging or testing environments, as well as with continuous integration services.
 
-Docker-compose is programming using the [go or golang programming language](/en/go/go-programming-language-introduction-to-variables-and-data-types/); the same language that [go containers use to run internally](/en/docker/how-does-a-docker-container-work-internally/).
+Docker-compose is programming using the [go or golang programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}); the same language that [go containers use to run internally]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
 Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django](/en/django/cookiecutter-django-for-configuring-and-deploying-in-django/) or any other modern API that don't want to deal with the hassle of handling different environments.
 
@@ -195,7 +195,7 @@ In the above example docker-compose will run the web service **only if the db an
 
 ### environment
 
-The environment configuration allows us to set a list of [environment variables](/en/linux and devops/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) that will be available in our service.
+The environment configuration allows us to set a list of [environment variables](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) that will be available in our service.
 
 ```docker
 version: '3.8'

@@ -23,7 +23,7 @@ url: sitemap-dinamico-con-django
 
 Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu sitio. De ahí el nombre; Site (sitio) map (mapa). Los motores de búsqueda, como google, bing, yahoo y otros, usan el sitemap de un sitio como punto de partida para analizar su contenido e incluirlo en sus resultados de búsqueda.
 
-Un sitemap bien estructurado es [crucial en SEO y la presencia de errores puede disminuir radicalmente las vistas de tu sitio web](/es/seo/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/), como me sucedió a mi.
+Un sitemap bien estructurado es [crucial en SEO y la presencia de errores puede disminuir radicalmente las vistas de tu sitio web]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}), como me sucedió a mi.
 
 ## Estructura de un sitemap
 

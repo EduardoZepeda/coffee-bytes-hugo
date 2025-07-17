@@ -7,7 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- bases de datos
+- databases
 coverImage: images/Managers_para_django.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@suju/
 date: '2021-05-28'
@@ -24,7 +24,7 @@ Un Manager (o manejador) es la interfaz a través de la cual se proveen las oper
 
 Antes de empezar, si no sabes lo básico de Django puedes empezar con [la guia definitiva de Django](/es/django/la-guia-definitiva-de-django/)
 
-Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](/es/arquitectura de software/como-escalar-django-para-manejar-millones-de-vistas/) te sirva más.
+Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/) te sirva más.
 
 ## El object manager de Django
 

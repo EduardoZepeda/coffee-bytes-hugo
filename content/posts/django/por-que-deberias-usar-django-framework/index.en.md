@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- opinions
+- opinion
 coverImage: images/Django-usar.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-03-24'
@@ -52,7 +52,7 @@ If you're one of those developers who love **getting shit done without having to
 
 ### Its ORM is simple and wonderful
 
-Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/) functions and migration handling.
+Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) functions and migration handling.
 
 To create a table in the database just create a class that inherits from _models.Model_ and Django will do all the heavy lifting.
 
@@ -121,7 +121,7 @@ You can use cookie authentication, session authentication or there are packages 
 
 #### Django's permission system
 
-Django has a robust [permissions and groups system](/en/django/how-do-permissions-and-permissions-groups-work-in-django/) that binds your users to models in the database that you can start using with just a few lines of code.
+Django has a robust [permissions and groups system]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="en" >}}) that binds your users to models in the database that you can start using with just a few lines of code.
 
 ### Multiple packages
 
@@ -129,7 +129,7 @@ Django has a lot of packages to solve most common problems, and they are communi
 
 Just to name a few:
 
-* [Django-haystack](/en/django/searches-with-solr-with-django-haystack/)(For searches
+* [Django-haystack]({{< ref path="/posts/django/solr-en-django-con-haystack/index.md" lang="en" >}})(For searches
 complex)
 * Django-watson (Searches)
 * DRF (REST)
@@ -194,7 +194,7 @@ The very stability of Django has made it look somewhat slow in a world of rapidl
 
 ### It is slow and handles requests one at a time.
 
-Python is an interpreted language that was made to be beautiful and simple, not necessarily performant. In my comparison of [python vs go](/en/go/python-vs-go-go-which-is-the-best-programming-language/) I compare the performance of both, just to give you an idea.
+Python is an interpreted language that was made to be beautiful and simple, not necessarily performant. In my comparison of [python vs go]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}})I compare the performance of both, just to give you an idea.
 
 In addition to the above, Django does not shine for its speed at the time of execution. In the race to be a fast framework, it is below more modern technologies such as Flask or FastAPI. 
 
@@ -218,7 +218,7 @@ If you use Framework and are looking for a similar framework, I understand that 
 
 ### Frameworks like django but in Go
 
-If you are using this wonderful and super simple [programming language called Go](/en/go/go-programming-language-introduction-to-variables-and-data-types/), I know that the [Beego](https://github.com/beego/beego#?) framework is quite similar to Django in terms of its battery-inclusive philosophy.
+If you are using this wonderful and super simple [programming language called Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), I know that the [Beego](https://github.com/beego/beego#?) framework is quite similar to Django in terms of its battery-inclusive philosophy.
 
 ## TLDR advantages and disadvantages of Django
 

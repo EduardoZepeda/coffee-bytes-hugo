@@ -10,7 +10,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - python
-- Inteligencia Artificial
+- artificial intelligence
 coverImage: images/OCR.jpg
 coverImageCredits: Créditos https://www.pexels.com/@cottonbro/
 date: '2021-09-28'
@@ -20,7 +20,7 @@ description: Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) s
 keyword: pytesseract
 keywords:
 - python
-- inteligencia artificial
+- artificial intelligence
 - pytesseract
 title: Pytesseract, OCR Reconocimiento óptico de carácteres en Python
 url: ocr-con-tesseract-python-y-pytesseract
@@ -165,7 +165,7 @@ Aquí va otro caso, imagina un programa que escanee image boards o redes sociale
 
 O quizá una página que sube imágenes de sus productos con sus precios escritos en cada una de ellas. Con el OCR es posible obtener todos sus precios, y subirlos a tu base de datos, descargando y procesando sus imágenes.
 
-La [resolución de captchas](/es/opiniones/mi-analisis-de-captchas-anti-bots-ventajas-y-desventajas/) también es uno de los usos más interesantes del OCR.
+La [resolución de captchas](/es/opinion/mi-analisis-de-captchas-anti-bots-ventajas-y-desventajas/) también es uno de los usos más interesantes del OCR.
 
 Facebook debe usar algún tipo de tecnología similar para censurar las imágenes que incluyen texto ofensivo, de acuerdo a sus políticas, que se suben a su red social.
 

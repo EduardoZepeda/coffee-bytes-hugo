@@ -6,14 +6,14 @@ authors:
 - Eduardo Zepeda
 categories:
 - javascript
-- opiniones
+- opinion
 coverImage: images/javascript-dates-and-html-input.jpg
 date: '2024-03-20'
 description: El manejo de fechas en javascript y su combinación con el input estándar
   HTML datetime-local, es dificil, incoherente y complicado.
 keywords:
 - javascript
-- opiniones
+- opinion
 - react
 - html
 - go
@@ -55,7 +55,7 @@ Quizás pueda parecerte insignificante añadir una librería más, pero no es el
 
 El hecho de que estas librerías sean populares solo pone de manifiesto las carencias de Javascript como lenguaje. 
 
-Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de programación Go](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), también soy capaz de reconocer sus carencias y áreas de mejora.
+Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), también soy capaz de reconocer sus carencias y áreas de mejora.
 
 ![El formateo de fechas en Go también es deficiente](images/date_formatting_golang.webp "El formateo de fechas en Go también es deficiente")
 

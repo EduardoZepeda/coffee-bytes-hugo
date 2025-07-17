@@ -6,7 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - python
-- opinions
+- opinion
 coverImage: images/best-source-to-learn-python.jpg
 date: '2025-04-25'
 description: Here's my curated list of favorite books and some extra resources you
@@ -15,7 +15,7 @@ keyword: sources to learn python
 keywords:
 - python
 - tutorial
-- opinions
+- opinion
 title: My Curated Best Resources To Learn Python Programming Language
 ---
 

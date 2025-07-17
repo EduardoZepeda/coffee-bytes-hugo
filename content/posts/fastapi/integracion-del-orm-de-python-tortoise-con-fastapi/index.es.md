@@ -7,7 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - fastapi
-- bases de datos
+- databases
 coverImage: images/IntegrandoFastApiYTortoiseORM.jpg
 coverImagecredits: Créditos https://www.pexels.com/@nguy-n-lam-196145/
 date: '2021-09-21'
@@ -296,4 +296,4 @@ Filtramos por el id que obtenemos en la url y, si encontramos el objeto, lo borr
 
 ![Eliminación de un objeto usando fastAPI y swagger](images/BorrarUnObjetoTortoise.png)
 
-Y con eso podemos realizar las operaciones básicas de CRUD en fastAPI usando tortoise como ORM. En esta entrada no he tratado las llaves foráneas, ni los campos de llave foránea, ni los many to many, ni otro tipo de relaciones entre modelos. Probablemente haga una entrada en un futuro sobre eso, mientras tanto puedes leerte [la documentación oficial de tortoise.](https://tortoise-orm.readthedocs.io)
+Y con eso podemos realizar las operaciones básicas de CRUD en fastAPI usando tortoise como ORM. En esta entrada no he tratado las llaves foráneas, ni los campos de llave foránea, ni los many to many, ni otro tipo de relaciones entre modelos. Probablemente haga una entrada en un futuro sobre eso, mientras tanto puedes leerte [la documentación oficial de tortoise.](https://tortoise.github.io/)

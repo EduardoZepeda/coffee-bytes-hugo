@@ -48,7 +48,7 @@ CHANNEL_LAYERS = {
 
 ### Channel layers in production
 
-The above configuration is not for production. For production we need to install redis and the _[channels-redis](https://pypi.org/project/channels-redis/#?)_ package. I told you a bit about redis when I explained how to create a [history of products visited with django and redis](/en/django/how-to-create-a-history-of-visited-products-with-django-and-redis/).
+The above configuration is not for production. For production we need to install redis and the _[channels-redis](https://pypi.org/project/channels-redis/#?)_ package. I told you a bit about redis when I explained how to create a [history of products visited with django and redis]({{< ref path="/posts/django/como-crear-un-historial-de-productos-visitados-con-django-y-redis/index.md" lang="en" >}}).
 
 ```python
 sudo apt install redis

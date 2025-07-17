@@ -44,7 +44,7 @@ Unfortunately it was impossible to get any other data from the pictures or from 
 
 Certainly this was an architectural mistake, it's true that is plain simple to hide the images in the frontend, using CSS, not only that, you save disk space and avoid processing time in the backend, however, a better option would have been to use a set of generic images for all accounts. 
 
-Another plausible alternative would have been to generate a thumbnail (and other [changes, like changing the format, example: webp](/en/linux and devops/how-to-convert-jpg-to-webp-on-gnu-linux/)) automatically every time a user updates their main profile image; it consumes a bit more space but keeps the real images safe and personalizes the experience for each user. 
+Another plausible alternative would have been to generate a thumbnail (and other [changes, like changing the format, example: webp](/en/linux/how-to-convert-jpg-to-webp-on-gnu-linux/)) automatically every time a user updates their main profile image; it consumes a bit more space but keeps the real images safe and personalizes the experience for each user. 
 
 ``` mermaid
 flowchart TD

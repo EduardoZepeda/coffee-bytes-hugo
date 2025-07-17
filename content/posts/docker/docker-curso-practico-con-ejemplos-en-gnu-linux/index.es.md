@@ -10,7 +10,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux y devops
+- linux
 coverImage: images/DockerCursoPractico.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@huy-phan-316220/
 date: '2020-10-07'
@@ -30,7 +30,7 @@ Antes de empezar hay que aclarar que en Docker trabajamos con contenedores que s
 
 Puedes pensar en las imágenes y contenedores **como clases y sus instancias, respectivamente.**
 
-Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go](/es/docker/container-de-docker-con-namespaces-y-cgroups/).
+Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}).
 
 {{<ad>}}
 
@@ -230,7 +230,7 @@ CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT    MEM %     NE
 
 ## ¿Cómo extraer un archivo de un contenedor de Docker?
 
-Para extraer un archivo de un contenedor usamos el comando *docker cp*, que básicamente es un análogo del [comando cp de Linux](/en/linux and devops/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp/), con la siguiente sintaxis
+Para extraer un archivo de un contenedor usamos el comando *docker cp*, que básicamente es un análogo del [comando cp de Linux](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp/), con la siguiente sintaxis
 
 ``` bash
 docker cp <container_name>:<path_to_file> <path_to_extract_on_your_computer>
@@ -486,4 +486,4 @@ docker stop $(docker ps -a -q)
 ```
 
 
-Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker](/es/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/)
+Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}})

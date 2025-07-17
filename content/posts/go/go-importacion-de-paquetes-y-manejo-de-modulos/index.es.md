@@ -26,7 +26,7 @@ Diferencia entre modulos y paquetes en go
 
 ## Definir el nombre de un paquete en Go
 
-Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
+Antes de empezar, ¿recuerdas que te comenté en la [introducción al lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), que el nombre de cada paquete se establece al principio de cada archivo, colocándolo después de la palabra reservada _package_?
 
 Para este ejemplo el nombre del paquete será _videogame_.
 

@@ -293,4 +293,4 @@ We filter by the id we get in the url and, if we find the object, we delete it, 
 
 ![Deletion of an object using fastAPI and swagger](images/BorrarUnObjetoTortoise.png)
 
-And with that we can perform basic CRUD operations in fastAPI using tortoise as ORM. In this entry I haven't discussed foreign keys, foreign key fields, many to many, or other kinds of relationships between models. I will probably make a future post about that, in the meantime you can read [the official tortoise documentation](https://tortoise-orm.readthedocs.io)
+And with that we can perform basic CRUD operations in fastAPI using tortoise as ORM. In this entry I haven't discussed foreign keys, foreign key fields, many to many, or other kinds of relationships between models. I will probably make a future post about that, in the meantime you can read [the official tortoise documentation](https://tortoise.github.io/)

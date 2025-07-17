@@ -41,7 +41,7 @@ Some common problems are: [processing tasks using a fixed number of workers](/en
 
 Does this last one ring a bell? Yes, the MVC pattern used by many [frameworks, such as django](/en/django/why-should-you-use-django-framework/), is a design pattern, or the [debounce-and-throttle](/en/javascript/limit-the-execution-of-functions-in-js-with-debounce-and-throttle/) pattern used mainly in JavaScript.
 
-Another example is the well-known ["composition over inheritance"]({{< ref path="/posts/arquitectura-de-software/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}})
+Another example is the well-known ["composition over inheritance"]({{< ref path="/posts/software-architecture/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}})
 
 Design patterns make it easier to decouple the code, which makes it simpler to add or remove functions and also gives us the assurance that they are solutions that have already been tested over and over again over the years.
 

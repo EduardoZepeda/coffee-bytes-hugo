@@ -101,4 +101,4 @@ Did you know that Docker is written in Go? Have you ever wondered how does a doc
 
 I explain the worker pool design pattern in go and how to take advantage of Go's concurrency and this design pattern to limit the amount of resources that your application uses.
 
-[{{<title "/posts/arquitectura-de-software/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index">}}]({{< ref path="/posts/arquitectura-de-software/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="en" >}})
+[{{<title "/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index">}}]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="en" >}})

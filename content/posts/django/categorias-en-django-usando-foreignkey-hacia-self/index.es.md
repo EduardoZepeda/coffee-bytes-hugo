@@ -6,7 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- bases de datos
+- databases
 coverImage: images/DjangoCategoriasYSubcategorias.jpg
 coverImageCredits: Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895
 date: '2022-03-30'

@@ -31,7 +31,7 @@ Para usar la caché en django, basta con seguir tres sencillos pasos:
 3. Agregar el middleware necesario para que django devuelva la caché antes de procesar la vista.
 4. Usar la caché de bajo nivel para cachear vistas o datos específicos (opcional)
 
-Implementar un sistema de caché te permite [mejorar enormemente el rendimiento de una aplicación hecha en Django](/es/arquitectura de software/como-escalar-django-para-manejar-millones-de-vistas/).
+Implementar un sistema de caché te permite [mejorar enormemente el rendimiento de una aplicación hecha en Django](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/).
 
 ## ¿Qué tanto mejora la caché el rendimiento?
 
@@ -41,7 +41,7 @@ Como puedes observar la diferencia es de casi 10 veces el tiempo.
 
 ![Comparación del tiempo de respuesta con caché y sin caché para una aplicación de django.](images/ComparacionCache1000filasDjango.jpg)
 
-Si tu aplicación está en el punto en el que [es importante obsesionarte con el rendimiento de esta](/es/opiniones/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), la caché es uno de los primeros pasos a tomar.
+Si tu aplicación está en el punto en el que [es importante obsesionarte con el rendimiento de esta](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), la caché es uno de los primeros pasos a tomar.
 
 {{<ad>}}
 
@@ -70,7 +70,7 @@ Es bastante obvio, pero siento que debo mencionarlo: recuerda que **memcached al
 
 Voy a instalar las siguientes dependencias para este tutorial:
 
-- djangorestframework: para la creación de [APIs de tipo REST](/es/arquitectura de software/caracteristicas-basicas-de-una-api-rest/).
+- djangorestframework: para la creación de [APIs de tipo REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/).
 - django-debug-toolbar: para comparar el rendimiento antes y después de la caché.
 - django-seed: para crear datos, de manera automática, en la base de datos.
 - pymemcache: para que python pueda interactuar con memcached.

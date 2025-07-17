@@ -31,7 +31,7 @@ Escribí las entradas anteriores como una introducción para el tema de esta sem
 
 Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual tengo una [reseña de Twoo scoops of django](/es/django/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
-¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose](/es/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/).
+¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}).
 
 Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.](/es/django/por-que-deberias-usar-django-framework/)
 
@@ -525,6 +525,6 @@ Si no tienes errores ya podrás acceder a tu sitio web a través de tu dominio.
 
 El siguiente paso es agregar nuestro servicio a algún controlador de procesos, para que se inmune a reinicios, puedes usar runit, sysinit, supervisord o el odiado systemd, cada sistema es diferente y preferencias hay muchas, por lo que no ahondaré en ello aquí.
 
-Teóricamente puedes realizar este procedimiento en cualquier PAAS, tal como [Digital Ocean](/es/arquitectura de software/digital-ocean-analisis-y-mi-experiencia-como-usuario/), Linode, etc. Yo he hecho el procedimiento usando un Droplet de Docker en Digital Ocean y ha salido bien. El autor tiene instrucciones para otras plataformas que puedes consultar en [la documentación oficial de cookiecutter-django](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
+Teóricamente puedes realizar este procedimiento en cualquier PAAS, tal como [Digital Ocean](/es/software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/), Linode, etc. Yo he hecho el procedimiento usando un Droplet de Docker en Digital Ocean y ha salido bien. El autor tiene instrucciones para otras plataformas que puedes consultar en [la documentación oficial de cookiecutter-django](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
 Visita mi siguiente entrada, donde hablo [de uno de los frameworks más nuevos de Python para crear APIs]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="es" >}}).

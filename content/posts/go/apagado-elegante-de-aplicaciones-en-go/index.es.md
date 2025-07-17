@@ -7,7 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - go
-- linux y devops
+- linux
 coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
 date: 2022-10-06
 description: Manejo de las señales o signlas SIGINT y SIGTERM en Linux usando channels

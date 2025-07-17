@@ -6,7 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux and devops
+- linux
 coverImage: images/how-to-create-docker-file-from-scratch.jpg
 date: '2020-10-09'
 description: Write a dockerfile from scratch, learn the most basic keywords in a Dockerfile
@@ -192,7 +192,7 @@ Now that we have the image we just need to run it. For this example we will bind
 docker run -p 8000:8000 -d --name test_container djangocontainer:0.1
 ```
 
-Now comes the best part! The moment where we find out if our code works or we made a complete mess. Let's make a [HTTP request using curl](/en/linux and devops/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/)
+Now comes the best part! The moment where we find out if our code works or we made a complete mess. Let's make a [HTTP request using curl](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/)
 
 ```bash
 curl localhost:8000
@@ -205,6 +205,6 @@ curl localhost:8000
 
 If we open our browser and enter our localhost on port 8000 we will see the Django rocket indicating that everything worked perfectly. Gunicorn is serving our Django application on port 8000, which we can access through our port of the same number.
 
-The next step here is to link many Dockerfiles to create a more complex application, for that we could use [Docker-compose (best for simple projects)](/en/docker/get-to-know-the-basic-docker-compose-commands/) or Kubernetes (For more complex projects, and probably an overkill for your business idea)
+The next step here is to link many Dockerfiles to create a more complex application, for that we could use [Docker-compose (best for simple projects)]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="en" >}}) or Kubernetes (For more complex projects, and probably an overkill for your business idea)
 
 ![Django installation success page, shows welcome message and links to documentation](images/djangoRocketNoCursor.gif)

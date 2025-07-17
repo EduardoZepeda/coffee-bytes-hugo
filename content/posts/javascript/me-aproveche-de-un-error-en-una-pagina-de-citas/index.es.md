@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - javascript
-- arquitectura de software
+- software architecture
 coverImage: images/i_took_advantage_of_an_error_in_the_code_of_a_dating_app.jpg
 date: '2025-01-03T20:36:36-06:00'
 description: ''
@@ -36,7 +36,7 @@ Sonaba demasiado obvio, de igual forma, abrí la consola de desarrollador de mi 
 
 Las imágenes reales eran servidas por el CDN de la aplicación y posteriormente aplicaban un filtro para ocultarlas, por lo que, para saber quien te había dado like, bastaba con remover el filtro. 
 
-Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API](/es/arquitectura de software/caracteristicas-basicas-de-una-api-rest/), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
+Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
 
 {{<ad>}}
 

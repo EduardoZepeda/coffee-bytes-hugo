@@ -25,7 +25,7 @@ Django is a framework that abstracts most of the code you need to perform text s
 
 If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django](/en/django/why-should-you-use-django-framework/)
 
-If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/) post.
+If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) post.
 
 Let's start with the most basic searches.
 
@@ -132,7 +132,7 @@ There, now we have the _unaccent_ extension installed and, if you uncommented th
 
 ### Installing extensions from the Postgres terminal
 
-Another way to install the extensions is to execute the required command directly from the database. For this example we install _TrigramExtension_, the extension required to use trigram searches. I will cover [trigrams with django and postgres](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/), so don't worry about that, just focus on the process of installing the extensions.
+Another way to install the extensions is to execute the required command directly from the database. For this example we install _TrigramExtension_, the extension required to use trigram searches. I will cover [trigrams with django and postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}), so don't worry about that, just focus on the process of installing the extensions.
 
 To enter the database terminal I will use the dbshell command provided by Django.
 
@@ -293,7 +293,7 @@ Videogame.objects.filter(search_vector='revenge')
 
 If you are interested to deepen more about how Postgres handles internally these functions, I found an excellent article on [text search in postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) where they explain in SQL code the search vectors.
 
-Enter my next post where I will talk about [advanced searches with Postgres and Django](/en/django/trigrams-and-advanced-searches-with-django-and-postgres/).
+Enter my next post where I will talk about [advanced searches with Postgres and Django]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
 References:
 [Django Documentation](https://docs.djangoproject.com/en/5.1/ref/contrib/postgres/search/)

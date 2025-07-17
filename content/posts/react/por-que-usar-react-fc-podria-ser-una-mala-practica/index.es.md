@@ -7,7 +7,7 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opiniones
+- opinion
 - react
 coverImage: images/react-fc-mala-practica.jpg
 date: '2022-02-23'
@@ -128,7 +128,7 @@ Namespace.Componente = (props) => { /*...*/ }
 
 El núcleo de las críticas se basta en que **React.FC añade el children de manera implícita, yendo contra la naturaleza explícita de typescript**.
 
-Como usar [el lenguaje de programación Go](/en/go/go-programming-language-introduction-to-variables-and-data-types/) para su compilador.
+Como usar [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) para su compilador.
 
 ![Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.")
 

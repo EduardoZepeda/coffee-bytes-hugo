@@ -16,7 +16,7 @@ keywords:
 title: 'Go: funciones, argumentos y el paquete fmt'
 ---
 
-Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos](/es/go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/) para empezar desde el principio de esta serie de tutoriales.
+Esta entrada tratará sobre la sintaxis básica de las funciones de Go. Si no sabes absolutamente nada de go visita mi entrada [go: introducción al lenguaje de programación, variables y tipos de datos]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}) para empezar desde el principio de esta serie de tutoriales.
 
 {{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
@@ -27,19 +27,19 @@ Ahora sí, pasemos a las funciones.
 En go las funciones se declaran anteponiendo la palabra _func_ al nombre de la función. De la siguiente manera:
 
 ```go
-func borrarRoot() { }
+func deleteRoot() { }
 ```
 
 Recuerda que al ser un lenguaje compilado, go requiere que especifiques el tipo de dato en los argumentos.
 
 ```go
-func borrarRoot(argumento int, otroArgumento int) { }
+func deleteRoot(argument int, secondArgument int) { }
 ```
 
 Si los dos argumentos son del mismo tipo, podemos ahorrarnos una palabra omitiendo el primer tipo, en este caso _int_.
 
 ```go
-func borrarRoot(argumento, otroArgumento int) {}
+func deleteRoot(argument, secondArgument int) {}
 ```
 
 ### Return en go
@@ -51,7 +51,7 @@ Una función **no requiere que retornes nada forzosamente**, y no necesitas espe
 Por otro lado, **si tu función sí cuenta con un return, requieres especificar el tipo de dato a retornar,** colocándolo después de los argumentos.
 
 ```go
-func RetornaUno(argumento, otroArgumento int) int{
+func ReturnOne(argument, secondArgument int) int{
     return 1
 }
 ```
@@ -59,7 +59,7 @@ func RetornaUno(argumento, otroArgumento int) int{
 Así mismo, podemos retornar dos valores, como si de una tupla se tratara.
 
 ```go
-func retornaUnoYDos(argumento, otroArgumento int) (int, int) {
+func ReturnOneAndTwo(argument, secondArgument int) (int, int) {
     return 1, 2
 }
 ```
@@ -67,7 +67,7 @@ func retornaUnoYDos(argumento, otroArgumento int) (int, int) {
 Y, justo como en Python, es posible asignar esos dos valores a dos variables diferentes, separándolas por una coma.
 
 ```go
-a, b = retornaUnoYDos()
+a, b = ReturnOneAndTwo()
 ```
 
 ### Retornar una función en go
@@ -75,7 +75,7 @@ a, b = retornaUnoYDos()
 En go las funciones "son ciudadanos de primera clase" por lo que, en go, **las funciones pueden retornar funciones.**
 
 ```go
-func retornaFuncion(argumento, otroArgumento int) func() {
+func returnFunction(argument, secondArgument int) func() {
     return func() {
         return 1
 }
@@ -85,7 +85,7 @@ Y, como la función retorna una función podemos llamar a esta última dentro de
 
 ```go
 // El equivalente a a llamar a la función retornada
-retornaFuncion()()
+returnFunction()()
 ```
 
 ### Return sin nombre
@@ -194,9 +194,9 @@ Si no sabes que significa el ampersand "&" puedes pensar en él como la direcci�
 Si aún así no tienes tienes idea de que hablo, vas a tener que darle una investigada a los pointers o apuntadores. Hay muchísima información en internet disponible como para crear una nueva entrada.
 
 ```go
-var mensaje string
-fmt.Scan(&mensaje)
-fmt.Println(mensaje)
+var message string
+fmt.Scan(&message)
+fmt.Println(message)
 ```
 
 El código anterior hace solo dos cosas: guardar el texto que escribimos en la consola en la variable mensaje y, posteriormente, imprimirlo en pantalla.

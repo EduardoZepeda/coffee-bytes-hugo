@@ -4,7 +4,7 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinions
+- opinion
 - django
 coverImage: images/how-to-improve-django.jpg
 date: 2024-06-23
@@ -15,7 +15,7 @@ keywords:
 - django
 - python
 - reddit
-- opinions
+- opinion
 title: How to improve Django Framework?
 ---
 

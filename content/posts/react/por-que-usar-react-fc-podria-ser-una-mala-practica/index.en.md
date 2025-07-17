@@ -4,7 +4,7 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinions
+- opinion
 - react
 coverImage: images/react-fc-mala-practica.jpg
 date: '2022-02-23'
@@ -124,7 +124,7 @@ Namespace.Component = (props) => { /*...*/ }
 
 The core of the criticism is that **React.FC adds the children implicitly, going against the explicit nature of typescript**.
 
-Just like using [the Go programming language](/en/go/go-programming-language-introduction-to-variables-and-data-types/) for its compiler.
+Just like using [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) for its compiler.
 
 ![Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious")
 

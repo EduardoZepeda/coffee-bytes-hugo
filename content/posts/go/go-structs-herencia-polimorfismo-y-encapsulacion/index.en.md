@@ -16,7 +16,7 @@ keywords:
 title: 'Go: Structs, inheritance, polymorphism and encapsulation'
 ---
 
-As I already mentioned to you in the [introduction to Golang or Go programming language](/en/go/go-programming-language-introduction-to-variables-and-data-types/), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
+As I already mentioned to you in the [introduction to Golang or Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
@@ -48,7 +48,7 @@ var myVideogame Videogame
 myVideogame.Title = "Nier"
 ```
 
-If we do not specify a value, the respective zero value will be assigned to the [go variable type](/en/go/go-programming-language-introduction-to-variables-and-data-types/).
+If we do not specify a value, the respective zero value will be assigned to the [go variable type]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}).
 
 ```go
 fmt.Println(myVideogame)
@@ -200,7 +200,7 @@ The code above will pass all the fields present in the first struct to the secon
 
 ### Go doesn't have inheritance but composition
 
-Go follows the [*composition over inheritance*]({{< ref path="/posts/arquitectura-de-software/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}}) motto.
+Go follows the [*composition over inheritance*]({{< ref path="/posts/software-architecture/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}}) motto.
 
 So when you add the new struct, you are not doing inheritance, you are adding a new struct to the original struct. So to access the fields of this one, first you need to access the struct you added.
 

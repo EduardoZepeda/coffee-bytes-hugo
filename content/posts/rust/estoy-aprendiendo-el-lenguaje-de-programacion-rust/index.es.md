@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - rust
-- opiniones
+- opinion
 coverImage: images/learning-rust-programming-language.jpg
 date: '2024-10-16T19:15:53-06:00'
 description: Rust se considera un lenguaje muy complicado de aprender debido a conceptos
@@ -13,7 +13,7 @@ description: Rust se considera un lenguaje muy complicado de aprender debido a c
 keyword: rust es difícil
 keywords:
 - rust
-- opiniones
+- opinion
 title: ¿Qué hace al lenguaje Rust tan difícil de aprender?
 ---
 

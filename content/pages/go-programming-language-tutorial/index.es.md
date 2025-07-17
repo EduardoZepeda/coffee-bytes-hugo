@@ -101,6 +101,6 @@ La base de la librería reflection de go y cómo crear código flexible que trat
 
 Explico el patrón de diseño worker pool en go y cómo aprovechar la concurrencia de Go y este patrón de diseño para limitar la cantidad de recursos que utiliza tu aplicación.
 
-[{{<title "/posts/arquitectura-de-software/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index">}}]({{< ref path="/posts/arquitectura-de-software/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="es" >}})
+[{{<title "/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index">}}]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="es" >}})
 
 

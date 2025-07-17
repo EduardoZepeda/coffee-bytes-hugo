@@ -321,4 +321,4 @@ def create_product_history_by_user(user_id, product_id):
     return product_history_length
 ```
 
-Redis tiene mucho para ofrecer, y vincularlo con django te permiterá hacer mucho. Te dejo la [documentación de redis](https://redis.io/) por si quieres profundizar en ella y sus [bindings en python.](https://redis-py.readthedocs.io/en/stable/)
+Redis tiene mucho para ofrecer, y vincularlo con django te permiterá hacer mucho. Te dejo la [documentación de redis](https://redis.io/) por si quieres profundizar en ella y sus [bindings en python.](https://github.com/redis/redis-py)

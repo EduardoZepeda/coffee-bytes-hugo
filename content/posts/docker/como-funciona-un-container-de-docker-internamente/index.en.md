@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - docker
-- linux and devops
+- linux
 - go
 coverImage: images/docker-container-desde-cero.jpg
 date: '2022-06-18'
@@ -48,7 +48,7 @@ I am going to explain them briefly but you can go deeper on your own if you want
 
 In simple words, a process is an instance of a running program. What is important here is that each process in linux has a PID, which is a number used to identify the process.
 
-As you know, you can view the processes using the [ps, top, htop commands](/en/linux and devops/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/), etc.
+As you know, you can view the processes using the [ps, top, htop commands](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/), etc.
 
 A container is a process, or a group of processes, isolated from the rest of the operating system, by means of a namespace.
 
@@ -106,7 +106,7 @@ Simplifying the above we need:
 * Chroot: to provide our container with a file system different from that of the main operating system.
 * Cgroups: to limit the resources of our system to which our container can access
 
-Now let's create the container base in the same way as Docker, using [the Go programming language](/en/go/go-programming-language-introduction-to-variables-and-data-types/).
+Now let's create the container base in the same way as Docker, using [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}).
 
 ```go
 package main
@@ -284,11 +284,11 @@ func child() {
 
 Now, if we run the code we will see that the PID is 1, the first process, we have already isolated the processes! However, as we have not changed the file system, we will see the same processes of our main operating system.
 
-Remember that the [_ps_ command](/en/linux and devops/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) gets the processes from the _/proc_ directory of the file system you are using. In other words, we need another file system.
+Remember that the [_ps_ command](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) gets the processes from the _/proc_ directory of the file system you are using. In other words, we need another file system.
 
 ## Set up a new file system for the container
 
-To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/en/linux and devops/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
+To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/en/linux/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
 
 _Chroot_ changes the default root location to a directory of your choice.
 
@@ -351,7 +351,7 @@ func setcgroup() {
 }
 ```
 
-We create a directory for our cgroup with the [linux permissions 0755](/en/linux and devops/understand-permissions-in-gnu-linux-and-the-chmod-command/)
+We create a directory for our cgroup with the [linux permissions 0755](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/)
 
 We will generate two files, inside our cgroup, to set the guidelines we want to implement
 

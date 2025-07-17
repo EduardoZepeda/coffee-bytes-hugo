@@ -157,7 +157,7 @@ OCR is quite useful for social networks, where you can scan the text that appear
 
 Here's another case, imagine a program that scans image boards or social networks, extracts a couple of images from the posted videos and links them to a tik tok account using the watermark that appears on each video.
 
-[Captcha resolution](/en/opinions/my-analysis-of-anti-bot-captchas-and-their-advantages-and-disadvantages/) is also one of the most interesting uses of OCR.
+[Captcha resolution](/en/opinion/my-analysis-of-anti-bot-captchas-and-their-advantages-and-disadvantages/) is also one of the most interesting uses of OCR.
 
 Or maybe a page that uploads images of your products with your prices written on each of them. With OCR it is possible to get all their prices, and upload them to your database, downloading and processing their images.
 

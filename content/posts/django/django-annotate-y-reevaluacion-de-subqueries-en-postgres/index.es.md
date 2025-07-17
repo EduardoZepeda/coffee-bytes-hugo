@@ -5,7 +5,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-- bases de datos
+- databases
 coverImage: images/fix-slow-queries-in-Django-when-using-annotate-and-subqueries.jpg
 date: '2024-07-12T23:51:01-06:00'
 description: Evita la repeteción de subqueries y el subsecuente rendimiento pobre
