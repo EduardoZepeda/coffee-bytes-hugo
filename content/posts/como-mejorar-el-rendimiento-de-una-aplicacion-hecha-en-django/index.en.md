@@ -181,7 +181,7 @@ Note that **memcached cache (memcached, redis) is an ephemeral storage method**,
 
 Sometimes the bottleneck is the responsibility of third parties. When you send an email or request information from a third party, you have no way of knowing how long your request will take, a slow connection or an oversaturated server can keep you waiting for a response. There is no point in keeping the user waiting tens of seconds for an email to be sent, send them a reply back and transfer the email to a queue to be processed later. [Celery](https://docs.celeryproject.org/en/stable/#?) is the most popular way to do this.
 
-No idea where to start, I have a couple of posts where I explain [how to run asynchronous tasks with celery and django](/en/celery-and-django-to-run-asynchronous-tasks/#?).
+No idea where to start, I have a couple of posts where I explain [how to run asynchronous tasks with celery and django](/en/how-to-use-django-framework-asynchronously-using-celery/#?).
 
 ```python
 # myapp/views.py

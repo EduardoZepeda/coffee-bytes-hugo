@@ -35,7 +35,7 @@ There are several ways of dealing with this, one of them is to sign our own cert
 
 ## Running https on localhost with Caddy
 
-[Caddy](https://github.com/caddyserver/caddy#?) is a server written in [Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), known to be easy peasy to configure (Unlike [configuring Nginx](/en/nginx-keepalive-gzip-http2-best-performance-on-your-web-site/)), and it also includes *https* by default.
+[Caddy](https://github.com/caddyserver/caddy#?) is a server written in [Go programming language](/en/go-programming-language-introduction-to-variables-and-data-types/), known to be easy peasy to configure (Unlike [configuring Nginx](/en/nginx-keepalive-gzip-http2-better-performance-on-your-website/)), and it also includes *https* by default.
 
 
 It is so simple to set up that it only requires a simple file called Caddyfile, with no extension. You can think of the latter as the equivalent of a [Dockerfile in Docker](/en/how-to-write-a-docker-file-from-scratch/).

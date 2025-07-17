@@ -53,7 +53,7 @@ export default MyComponent
 
 ## Usando React.FC
 
-La segunda manera es usando un el objeto FC (Functional Component) que nos provee React, el cual deja implícito el uso de children y además evita que devolvamos undefined. Considera que usar _React.FC_ es [considerado por algunos desarrolladores como una mala práctica](/es/por-que-usar-react.fc-podria-ser-una-mala-practica/).
+La segunda manera es usando un el objeto FC (Functional Component) que nos provee React, el cual deja implícito el uso de children y además evita que devolvamos undefined. Considera que usar _React.FC_ es [considerado por algunos desarrolladores como una mala práctica](/es/por-que-usar-reactfc-podria-ser-una-mala-practica/).
 
 ```javascript
 import React from 'react'

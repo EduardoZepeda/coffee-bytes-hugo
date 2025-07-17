@@ -20,7 +20,7 @@ In the go programming language, a map or hash table is the equivalent of a dicti
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
-Together with the [array and the go slice](/en/go-slices-y-arrays-characteristicas-and-basic-uses/), golang maps are structures that serve as a collection of values.
+Together with the [array and the go slice](/en/go-slices-and-arrays-basic-characteristics-and-most-common-uses/), golang maps are structures that serve as a collection of values.
 
 ## Inner workings of golang maps
 

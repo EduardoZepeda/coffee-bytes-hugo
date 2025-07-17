@@ -189,7 +189,7 @@ Now that we have the image we just need to run it. For this example we will bind
 docker run -p 8000:8000 -d --name test_container djangocontainer:0.1
 ```
 
-Now comes the best part! The moment where we find out if our code works or we made a complete mess. Let's make a [HTTP request using curl](/en/basic-commands-of-linux-passwd-du-useradd-usermod-fdisk-apt/)
+Now comes the best part! The moment where we find out if our code works or we made a complete mess. Let's make a [HTTP request using curl](/en/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/)
 
 ```bash
 curl localhost:8000

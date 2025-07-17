@@ -58,7 +58,7 @@ My examples above don't talk about any specific technology, but I'm sure several
 I will dare to name you some examples that crossed my mind while writing this post:
 - [Graphql](/en/how-to-create-a-graphql-api-in-django-rapidly-using-graphene/): Adopted by many, many people even though they probably only needed a [REST API](/en/basic-characteristics-of-an-api-rest-api/).
 - [JWT](http://cryto.net/%7Ejoepie91/blog/2016/06/13/stop-using-jwt-for-sessions/#?): Used as an “enhancement” to sessions and authentication, even though [several computer security experts recommended not using them](https://redis.io/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/) that way.
-- CSR, SSR and SSG: Developers quickly realized that it was always better to generate the HTML directly from the server or use static files, as had always been done, for many reasons including [SEO optimizing](/en/my-mistakes-regarding-the-tech-seo-optimization-of-my-website/).
+- CSR, SSR and SSG: Developers quickly realized that it was always better to generate the HTML directly from the server or use static files, as had always been done, for many reasons including [SEO optimizing](/en/my-technical-seo-mistakes-when-i-migrated-my-site-from-wordpress/).
 - AI: Not sure about this one, [is AI just a bubble?](/en/the-rise-and-fall-of-the-ai-bubble/), like crypto was, or we really are in front of a human revolution?
 - WASM: It's not that WASM is not useful, quite the contrary, the thing here is that some folks thought that every site was going to be coded in Rust or some low level language, which of course didn't happen.
 

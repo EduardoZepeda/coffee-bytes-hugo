@@ -213,7 +213,7 @@ An option to allow bootstrap recompilation using the task preprocessor specified
 use_celery [n]:
 ```
 
-Celery is a task queue manager, it is ideal [for asynchronous processes such as time-consuming tasks](/en/celery-and-django-to-run-asynchronous-tasks/); sending e-mails, database queries, time-consuming mathematical calculations, etc.
+Celery is a task queue manager, it is ideal [for asynchronous processes such as time-consuming tasks](/en/how-to-use-django-framework-asynchronously-using-celery/); sending e-mails, database queries, time-consuming mathematical calculations, etc.
 
 ### Test mail server
 

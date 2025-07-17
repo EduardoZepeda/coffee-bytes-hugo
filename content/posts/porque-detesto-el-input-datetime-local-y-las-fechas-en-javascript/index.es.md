@@ -24,7 +24,7 @@ Trabajar con Javascript es frustrante y, a veces, combinarlo con HTML resulta de
 
 ## Javascript maneja las fechas de manera extraña
 
-Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan. Lenguajes como [Python tiene mejores abstracciones que las que maneja Javascript.](/es/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion/)
+Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan. Lenguajes como [Python tiene mejores abstracciones que las que maneja Javascript.](/es/javascript-vs-python-cual-es-el-mejor-lenguaje-de-programacion/)
 
 ![El manejo de fechas en Javascript no es intuitivo](images/date-javascript.webp "El manejo de fechas en Javascript no es intuitivo")
 

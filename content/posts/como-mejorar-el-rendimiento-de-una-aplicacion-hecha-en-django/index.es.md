@@ -38,7 +38,7 @@ Es bastante común escribir código que ocasiones múltiples consultas a la base
 
 Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar#?) y redúcelas, o vuélvelas más eficientes:
 
-- **select_related** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/es/diferencias-entre-select_related-y-prefetch_related-en-django/)
+- **select_related** para [evitar múltiples búsquedas en relaciones tipo llave foránea o uno a uno](/es/diferencias-entre-select-related-y-prefetch-related-en-django/)
 - **prefetch_related** para prevenir búsquedas excesivas en relaciones muchos a muchos o muchos a uno
 - **django_annotate** para agregar información a cada objecto de una consulta. Tengo una entrada donde explico [la diferencia entre annotate y aggregate](/es/django-annotate-y-aggregate-explicados/)
 - **django_aggregate** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).

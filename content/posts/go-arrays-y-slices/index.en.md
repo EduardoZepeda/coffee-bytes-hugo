@@ -14,7 +14,7 @@ authors:
 - Eduardo Zepeda
 ---
 
-In go or golang slices, arrays and [maps](/en/go-maps-o-dictionaries/) are structures for handling data collections. In this entry I am going to talk about the first two: slices and arrays.
+In go or golang slices, arrays and [maps](/en/golang-maps-or-dictionaries/) are structures for handling data collections. In this entry I am going to talk about the first two: slices and arrays.
 
 In this entry I am going to use data types, zero values, and other very basic aspects of go. If you don't know what I'm talking about, visit my entry [Golang: introduction to the language, variables and data types](/en/go-programming-language-introduction-to-variables-and-data-types/).
 
