@@ -23,7 +23,7 @@ Simplifying to the extreme, Solr receives the content of our database (or csv fi
 
 Subsequently, when Solr receives a query, it will query the generated index, sort the results according to their relevance and return them.
 
-![Basic operation of Solr and Django haystack](images/django-haystack-core-schema.webp)
+{{< figure src="images/django-haystack-core-schema.webp" class="md-local-image" alt="Basic operation of Solr and Django haystack" >}}
 
 ### Inverted index
 
@@ -82,7 +82,7 @@ We will use start to execute it and, if no error occurs, we will have an adminis
 ./solr start
 ```
 
-![solr control panel](images/solr-panel-principal.png "Solr control panel screenshot")
+{{< figure src="images/solr-panel-principal.png" class="md-local-image" alt="solr control panel" caption="Solr control panel screenshot" >}}
 
 ### Cores in Solr
 
@@ -100,7 +100,7 @@ To create a new core we will go to the _Add Core_ section and fill in the follow
 * config: solrconfig.xml (We don't have it yet)
 * schema: schema.xml (We don't have it yet)
 
-![Form for adding core in Solr](images/solr-add-core.png "Form for adding core in Solr")
+{{< figure src="images/solr-add-core.png" class="md-local-image" alt="Form for adding core in Solr" caption="Form for adding core in Solr" >}}
 
 To configure Solr we will create the following structure inside the solr installation folder _<solr-x.y.z>/server/solr/<solr_instance_name_dir>/_
 
@@ -130,7 +130,7 @@ cp -r <solr-x.y.z>/server/solr/configsets/_default/conf <solr-x.y.z>/server/solr
 
 If we go to the administration panel we should be able to create the core successfully.
 
-![Solr kernel creation](images/solr-creacion-de-un-nucleo.png)
+{{< figure src="images/solr-creacion-de-un-nucleo.png" class="md-local-image" alt="Solr kernel creation" >}}
 
 ## Haystack in Django
 
@@ -317,7 +317,7 @@ This will avoid an error due to the lack of fields for currency management.
 
 Before we continue, we need to reload our kernel in the Solr admin panel so that it recognizes the changes we made to the configuration.
 
-![Reload core in solr](images/solr-reload-button.png)
+{{< figure src="images/solr-reload-button.png" class="md-local-image" alt="Reload core in solr" >}}
 
 Now it is time to generate an index with the _rebuild_index_ command provided by _django-haystack_.
 
@@ -333,7 +333,7 @@ If everything went well we will have all our queryset indexed and we will be abl
 
 The query will return all results in JSON format if we do not specify anything.
 
-![Reload core in solr](images/solr-query-index.png)
+{{< figure src="images/solr-query-index.png" class="md-local-image" alt="Reload core in solr" >}}
 
 Notice how the text field is filled with the content of our django template.
 

@@ -202,7 +202,7 @@ fmt.Println(message)
 
 El código anterior hace solo dos cosas: guardar el texto que escribimos en la consola en la variable mensaje y, posteriormente, imprimirlo en pantalla.
 
-![Scan en golang o go](images/scanfEnGolang.gif)
+{{< figure src="images/scanfEnGolang.gif" class="md-local-image" alt="Scan en golang o go" >}}
 
 ### Scanf
 
@@ -223,7 +223,7 @@ var (
 
 Aprecia como le indicamos la separación de cada argumento por medio de un espacio.
 
-![Scanf en golang o go](images/ScanfMultiplesArgumentosGolang.gif)
+{{< figure src="images/ScanfMultiplesArgumentosGolang.gif" class="md-local-image" alt="Scanf en golang o go" >}}
 
 ### Manejando errores en Scanf y Scan
 
@@ -247,7 +247,7 @@ var (
 
 Mira lo que pasa si intentamos pasarle un argumento de un tipo incorrecto.
 
-![Error de los argumentos de scanf en go](images/ErrorScanfArgumentos.gif)
+{{< figure src="images/ErrorScanfArgumentos.gif" class="md-local-image" alt="Error de los argumentos de scanf en go" >}}
 
 La primera vez que se ejecuta la función todo sale bien y ocurre con normalidad, pero la segunda vez nos devuelve un error porque estamos intentando pasarle a Scanf un argumento de tipo string, y está esperando uno de tipo int.
 

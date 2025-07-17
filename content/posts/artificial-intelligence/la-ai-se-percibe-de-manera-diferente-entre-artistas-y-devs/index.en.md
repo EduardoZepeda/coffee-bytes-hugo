@@ -21,7 +21,7 @@ title: AI-generated Art and AI-generated code are treated differently
 
 Today, while *doom scrolling* on Zuckerberg's social network, the algorithm recommended me an image of **Sakura Card Captors** in the style of the Spanish painter **Remedios Varo**.
 
-![Image of Sakura Card Captors using Remedios Varo style created with AI](https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp "Sakura Card Captors")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Image of Sakura Card Captors using Remedios Varo style created with AI" caption="Sakura Card Captors" >}}
 
 When reviewing the comments -I don't even know what's in it for me- I noticed that the ones with more *likes* expressed a strong disdain for artificial intelligence. The accusations were the usual ones: that it was trained using artists' works without permission, that it plagiarizes styles, and at the same time, that it is despicable simply for not being human.
 

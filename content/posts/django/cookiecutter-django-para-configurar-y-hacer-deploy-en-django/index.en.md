@@ -434,7 +434,7 @@ docker-compose -f local.yml
 
 If everything went well we will have a server running on our port 8000.
 
-![default cookiecutter-django application on local server](images/DjangoCookiecutterLocal.png)
+{{< figure src="images/DjangoCookiecutterLocal.png" class="md-local-image" alt="default cookiecutter-django application on local server" >}}
 
 Remember to run the migrations and create a super user.
 
@@ -449,7 +449,7 @@ Once you have done this you may want to start modifying your project folder.
 
 To activate the django-debug-toolbar let's first enter our application by entering [localhost](http://127.0.0.1:8000#?), now in our terminal we will see an IP address
 
-![Internal Ip in console](images/IpInternaDockerDjango.png)
+{{< figure src="images/IpInternaDockerDjango.png" class="md-local-image" alt="Internal Ip in console" >}}
 
 This address will be placed in the INTERNAL_IPS variable in our configuration file _local.py_.
 
@@ -521,6 +521,6 @@ If you have no errors you will be able to access your website through your domai
 
 The next step is to add our service to some process controller, so that it is immune to reboots, you can use runit, sysinit, supervisord or the hated systemd, each system is different and there are many preferences, so I will not delve into it here.
 
-Theoretically you can perform this procedure in any PAAS, such as [Digital Ocean](/en/software architecture/digital-ocean-analysis-and-my-experience-as-a-user/), Linode, etc. I have done the procedure using a Docker Droplet on Digital Ocean and it went fine. The author has instructions for other platforms that you can check at [the official cookiecutter-django documentation](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
+Theoretically you can perform this procedure in any PAAS, such as [Digital Ocean](/en/software-architecture/digital-ocean-analysis-and-my-experience-as-a-user/), Linode, etc. I have done the procedure using a Docker Droplet on Digital Ocean and it went fine. The author has instructions for other platforms that you can check at [the official cookiecutter-django documentation](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
 Visit my next post, where I talk [about one of the newest Python frameworks for creating APIs]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}).

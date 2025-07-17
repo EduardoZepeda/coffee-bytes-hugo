@@ -24,11 +24,11 @@ Este es mi análisis de algunas de las opciones más populares de captchas que e
 
 Estoy seguro de que ya conoces este, pues es el captcha más común, y probablemente el más popular que existe. Destacan aquí el de Google y el de Cloudflare.
 
-![Recaptcha elon musk](images/recaptcha-open-ai-sam-altman.jpg)
+{{< figure src="images/recaptcha-open-ai-sam-altman.jpg" class="md-local-image" alt="Recaptcha elon musk" >}}
 
 El funcionamiento interno de este tipo de captchas es muy complejo y se basa en reconocer patrones en el tráfico de un usuario y probablemente analizarlos contra el gran cantidad de información que han recopilado a lo largo de los años para luego decidir si existe una probabilidad significativa de que un usuario sea un bot.
 
-![Recaptcha style captcha solved](images/recaptcha-style-captcha.gif)
+{{< figure src="images/recaptcha-style-captcha.gif" class="md-local-image" alt="Recaptcha style captcha solved" >}}
 
 Para un hipotético usuario generalmente basta con darle un click al checkbox y listo, pero si no convencimos al algoritmo del captcha, este nos pedirá  ~~que entrenemos a sus modelos de AI completamente gratis~~ un par de pruebas más en las que tendremos que identificar imágenes.
 
@@ -52,13 +52,13 @@ Existen opciones de captchas más primitivas, pero no por eso menos efectivas ta
 
 Para resolverla basta con leerla y colocar el resultado correcto.
 
-![Simple Question captcha example](images/simple-question-captcha.png)
+{{< figure src="images/simple-question-captcha.png" class="md-local-image" alt="Simple Question captcha example" >}}
 
 Este tipo de captchas me parecen super prácticos para lidiar con la mayoría de los bots que deambulan ciegamente en internet, y además son mínimamente invasivos para el usuario. 
 
 Su desventaja, me parece, es su debilidad contra un ataque personalizado, pues bastará con que un humano entre al sitio web, lea la pregunta y adapte el código a su conveniencia.
 
-Además considero que, con el [auge de la inteligencia artificial](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/) se volverán obsoletos, pues es suficiente pedirle a la AI que lea el label del input y que genere una respuesta adecuada.
+Además considero que, con el [auge de la inteligencia artificial](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/) se volverán obsoletos, pues es suficiente pedirle a la AI que lea el label del input y que genere una respuesta adecuada.
 
 Mi veredicto:
 - Securidad: 6
@@ -68,7 +68,7 @@ Mi veredicto:
 
 Otra alternativa popular a las preguntas sencillas es utilizar una imagen con números y letras y pedirle al usuario que los identifique y coloque en el campo adecuado, estas letras vienen distorsionadas de alguna forma para volverlas irreconocibles a los bots.
 
-![letters and number captcha](images/letters-and-numbers-captcha.png)
+{{< figure src="images/letters-and-numbers-captcha.png" class="md-local-image" alt="letters and number captcha" >}}
 
 Este tipo de captcha suelen ser bastante invasivos para los usuarios y pecan de arruinar la experiencia web. Por si fuera poco, no los considero particularmente útiles para lidiar con los bots, incluso hay tutoriales sobre [como resolver estos captchas de manera casi automática](https://medium.com/lemontech-engineering/breaking-captchas-from-scracth-almost-753895fade8a#?).
 
@@ -104,7 +104,7 @@ Mi veredicto:
 
 He visto este tipo de captchas en Tik Tok principalmente, pero generalmente no los encuentras tan fácilmente.
 
-![Slider captcha](images/slider-captcha-example.gif)
+{{< figure src="images/slider-captcha-example.gif" class="md-local-image" alt="Slider captcha" >}}
 
 Yo considero los captchas de arrastre como unos de las opciones más balanceadas que existen, son rápidos de resolver y bastante seguros, aunque dudo que sean totalmente seguros contra todos los bots, principalmente contra aquellos que tratan de simular los movimientos de mouse de los usuarios.
 
@@ -118,7 +118,7 @@ Mi veredicto:
 
 Este es probablemente el captcha más seguro, y también el más invasivo que he visto. Se encuentra en el image board angloparlante más popular a la fecha y no lo he visto en ningún otro sitio.
 
-![Gif del captcha impossible de 4chan](images/4chan-captcha.gif)
+{{< figure src="images/4chan-captcha.gif" class="md-local-image" alt="Gif del captcha impossible de 4chan" >}}
 
 Quiero que notes lo sofisticado que es este captcha. Es una simple caja donde muestra unos garabatos a blanco y negro, completamente ilegibles y en el fondo una imagen que, al deslizar el slider, se superpone con la imagen del fondo, revelando el captcha ante tus ojos. 
 

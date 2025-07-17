@@ -38,7 +38,7 @@ While the second goroutine, almost at the same time as the first one, said: "I r
 
 Both goroutines are setting the total credits at 140, because they read, almost at the same time, that there were 120.
 
-![Example of a race condition in go](images/race-conditions-go.png "Example of a race condition in go.")
+{{< figure src="images/race-conditions-go.png" class="md-local-image" alt="Example of a race condition in go" caption="Example of a race condition in go." >}}
 
 As you may already know, DarkLord69 will not be joyful, but if you give him some extra tokens as compensation there should be no problem. But what if instead of tokens it had been money, or perhaps some other more precious commodity?
 
@@ -136,7 +136,7 @@ lock.Lock()
 lock.Unlock()
 ```
 
-![The Lock method of Mutex blocks code access, while the Unlock method releases it](images/mutex-lock-en-go.png "How Mutex works in go").
+{{< figure src="images/mutex-lock-en-go.png" class="md-local-image" alt="The Lock method of Mutex blocks code access, while the Unlock method releases it" caption="How Mutex works in go" >}}.
 
 If we protect the reading and writing of the tokens variable, our code should work perfectly. Even if we compile with the _--race_ flag and run it, Go will no longer return a warning.
 

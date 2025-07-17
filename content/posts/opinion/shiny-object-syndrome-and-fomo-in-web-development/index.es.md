@@ -24,7 +24,7 @@ Con todos los rápidos cambios que ocurren en el desarrollo web: frameworks, len
 
 El Shiny Object Syndrome (síndrome del objeto brillante, SOS de ahora en adelante) es la tendencia de ser distraido por una idea o tendencia nueva. En el marco del desarrollo web esta idea o tendencia puede ser cualquier cosa: un nuevo framework, un nuevo lenguaje, un editor nuevo, etc. Déjame te lo explico con un ejemplo.
 
-![Shiny object syndrome en Javascript](images/shiny-object-syndrome.webp "Uy, un nuevo framework de Javascript, tengo que probarlo")
+{{< figure src="images/shiny-object-syndrome.webp" class="md-local-image" alt="Shiny object syndrome en Javascript" caption="Uy, un nuevo framework de Javascript, tengo que probarlo" >}}
 
 Imagina que quieres crear una nueva aplicación, pero escuchaste que salió un [nuevo framework de Javascript con un rendimiento excepcional](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) que promete facilitarte las cosas, por lo que decides aprender este nuevo ~~blazingly fast~~ framework para implementar tu nueva idea, posteriormente descubres que salió otro framework aún mejor, por lo que, a pesar de que ya llevabas la mitad del proyecto, decides refactorizar tu aplicación usando este nuevo framework y retardas nuevamente el desarrollo de tu app. 
 
@@ -38,7 +38,7 @@ Pudiste haber implementando tu nueva idea usando el framework que ya conocías, 
 
 El FOMO es una ensimismamiento generalizado de que otros podrían experimentar vivencias agradables de las cuales estariamos ausentes. En el marco del desarrollo web esta vivencia agradable también podría ser la popularización de un nuevo lenguaje de programación, o un nuevo tipo de API que parece facilitar las cosas, o un nuevo framework de Javascript (sale uno nuevo cada semana).
 
-![Rust is the most loved language](images/rewrite-everything-in-rust-meme.webp "Todos están aprendiendo Rust, yo también debería aprenderlo")
+{{< figure src="images/rewrite-everything-in-rust-meme.webp" class="md-local-image" alt="Rust is the most loved language" caption="Todos están aprendiendo Rust, yo también debería aprenderlo" >}}
 
 Por ejemplo, imagínate que un nerd crea un nuevo lenguaje de programación, que promete ser más rápido, más seguro y es adoptado rápidamente por la comunidad. Los sentimientos de ansiedad empiezan a invadirte, "¿y si todos empiezan a usar ese nuevo lenguaje?", "¿y si estoy perdiendo el tiempo usando los lenguajes que ya domino y todos se dieron que cuenta que el nuevo lenguaje es el futuro?"
 
@@ -65,7 +65,7 @@ Yo me atreveré a nombrarte algunos ejemplos que pasaron por mi mente al escribi
 - [Graphql](/es/django/como-crear-una-api-graphql-en-django-rapidamente-usando-graphene/): Adoptado por muchísimas personas incluso aunque probablemente solo necesitaran una [API REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/).
 - [JWT](/es/software-architecture/no-uses-jwt-para-gestionar-sesiones-traduccion/): Usado como una "mejora" a las sesiones y autenticación, incluso aunque [varios expertos en seguridad informáticas recomendaban no usarlas](https://redis.io/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/) de esa manera.
 - CSR, SSR y SSG: Los desarrolladores rápidamente se dieron cuenta de que siempre fue mejor generar el HTML directamente desde el servidor o usar archivos estáticos, como se había hecho siempre, por [razones tales como el SEO.]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}})
-- AI: ¿[Será la AI una burbuja](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/) en la que es mejor entrar o pasará igual que con la revolución cripto?
+- AI: ¿[Será la AI una burbuja](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/) en la que es mejor entrar o pasará igual que con la revolución cripto?
 - WASM: No es que WASM no sea útil, todo lo contrario, lo que ocurre es que algunos pensaban que todos los sitios iban a estar codificados en Rust o en algún lenguaje de bajo nivel, lo que por supuesto no ha ocurrido.
 
 ### Consecuencias del SOS y el FOMO en el desarrollo web

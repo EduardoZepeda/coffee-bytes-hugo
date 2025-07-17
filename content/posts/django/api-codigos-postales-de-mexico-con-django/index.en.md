@@ -21,7 +21,7 @@ title: Mexico Postal codes API with Django
 
 Do you need to get the data associated with a postal code in Mexico for your Django application? I wrote a small library called **django-postalcodes-mexico** that downloads postal codes from SEPOMEX (México's Postal Codes official site) and creates an API endpoint that allows you to query a postal code in Mexico and receive the colonias that belong to that postal code, as well as their state and municipality.
 
-If you are going to develop a REST API, I have a post with multiple [REST API design recommendations](/en/software architecture/basic-characteristics-of-an-api-rest-api/) that may help you.
+If you are going to develop a REST API, I have a post with multiple [REST API design recommendations](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) that may help you.
 
 For this example I use Python 3.8, Django 3.2.5 and Pipenv version 2020.5.28.
 
@@ -87,14 +87,14 @@ curl localhost:8000/api/09000/
 {"codigoPostal": "09000", "municipio": "Iztapalapa", "estado": "Ciudad de M\u00e9xico", "colonias": ["La Asunci\u00f3n", "San Ignacio", "San Jos\u00e9", "San Lucas", "San Pablo", "San Pedro", "Santa B\u00e1rbara"]}
 ```
 
-![Django API query result for postal code "09000"](images/Api-codigos-postales-mx.png "Django API query result for postal code 09000")
+{{< figure src="images/Api-codigos-postales-mx.png" class="md-local-image" alt="Django API query result for postal code \"09000\"" caption="Django API query result for postal code 09000" >}}
 
 A non-existent postal code will return a 404 status.
 
-![Nonexistent postal code returning an error message](images/Captura-de-pantalla-de-2021-11-17-12-15-24.png "Nonexistent postal code returning an error message")
+{{< figure src="images/Captura-de-pantalla-de-2021-11-17-12-15-24.png" class="md-local-image" alt="Nonexistent postal code returning an error message" caption="Nonexistent postal code returning an error message" >}}
 
 While an invalid postal code will return a 400 error and an error message
 
-![Invalid postal code returning an error](images/Codigo-postal-invalido.png "Invalid postal code returning an error")
+{{< figure src="images/Codigo-postal-invalido.png" class="md-local-image" alt="Invalid postal code returning an error" caption="Invalid postal code returning an error" >}}
 
 Read the short [official documentation in my github repository](https://github.com/EduardoZepeda/django-postalcodes-mexico) for more information.

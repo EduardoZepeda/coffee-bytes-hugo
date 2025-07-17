@@ -76,7 +76,7 @@ There are different types of namespaces that control the resources to which a pr
 
 For example, if we use a namespace of type UTS, the changes we make to the hostname from our namespace will not affect the hostname of the main operating system.
 
-![Example of namespaces in linux](https://res.cloudinary.com/dwrscezd2/image/upload/v1749084007/coffee-bytes/namespaces-uts-in-linux_cyftsd.png "Each namespace has its own hostname and domainname")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1749084007/coffee-bytes/namespaces-uts-in-linux_cyftsd.png" class="md-local-image" alt="Example of namespaces in linux" caption="Each namespace has its own hostname and domainname" >}}
 
 ### cgroup
 
@@ -88,13 +88,13 @@ Linux takes this configuration reading a series of files inside the path _/sys/f
 
 For example, using cgroups we can tell linux: "limit the number of CPUs this process can use to only one, and that it can only use 20% of the CPU capacity, and also assign it a maximum of 1GB of RAM".
 
-![Example of cgroups in linux](https://res.cloudinary.com/dwrscezd2/image/upload/v1749083882/coffee-bytes/cgroups-in-linux_noyjnw.png "cgroups allow you to limit system resources")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1749083882/coffee-bytes/cgroups-in-linux_noyjnw.png" class="md-local-image" alt="Example of cgroups in linux" caption="cgroups allow you to limit system resources" >}}
 
 ## Chroot
 
 Chroot, a name that comes from change root, tells Linux to change the directory it is using as root to another one, which means that it will now have a different set of binaries, configurations, and processes.
 
-![](https://res.cloudinary.com/dwrscezd2/image/upload/v1751225523/coffee-bytes/ed-zepeda_vlu99f.webp "Chroot changes the current root directory to another one")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751225523/coffee-bytes/ed-zepeda_vlu99f.webp" class="md-local-image" alt="" caption="Chroot changes the current root directory to another one" >}}
 
 {{<ad>}}
 

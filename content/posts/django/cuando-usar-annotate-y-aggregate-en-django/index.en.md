@@ -25,7 +25,7 @@ The computer screen illuminated my face full of despair, I rubbed my head in des
 
 This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/en/django/the-definitive-guide-to-django/).
 
-Annotate and aggregate are primordial for [scaling Django applications to serve a myriad of users](/en/software architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
+Annotate and aggregate are primordial for [scaling Django applications to serve a myriad of users](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
 
 ## Django annotate and aggregate main differences summarized
 
@@ -101,7 +101,7 @@ We use _annotate_ **when we want to annotate each object returned from a queryse
 
 Annotate is very useful for performing [advanced text searches using Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
-![Django's Annotate diagram using a JOIN and an aggregate function like SUM](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png" class="md-local-image" alt="Django's Annotate diagram using a JOIN and an aggregate function like SUM" >}}
 
 Imagine that we want to display in a Django template each seller, followed by the sum of the total of all his orders.
 

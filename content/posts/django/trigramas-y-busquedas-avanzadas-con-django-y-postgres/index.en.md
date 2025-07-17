@@ -21,7 +21,7 @@ title: Trigrams and advanced searches with Django and Postgres
 
 What if a user's finger slips on the keyboard and types "parfume" instead of "perfume". We probably don't want our user to leave the site because he didn't find any "parfume" on our website. Our website should return the results that most closely match what they are looking for. See how an experienced ecommerce handles it:
 
-![Search for the word "parfume" on amazon](images/busquedaLaptopAmazon.gif)
+{{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Search for the word \"parfume\" on amazon" >}}
 
 Don't you remember the basic searches in Django? I have a post about [basic searches and full text search using Django and Postgres](/en/django/full-text-search-and-searches-with-django-and-postgres/), if you haven't read it take a look there first.
 
@@ -33,7 +33,7 @@ The reason why parfume resembles perfume is because both contain similar trigram
 
 Trigram? Yes, trigram, of three and gram. **A trigram is three consecutive characters, it's as simple as that.
 
-![Automata trigrams schematic](https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams_tqmzs7.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams_tqmzs7.jpg" class="md-local-image" alt="Automata trigrams schematic" >}}
 
 Trigrams are three consecutive characters
 
@@ -71,7 +71,7 @@ SELECT show_trgm('autommattaa');
 
 Can you notice how they both share some trigrams (a, au, aut, mat, tom, uto)?
 
-![Shared trigrams between two text strings](https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg" class="md-local-image" alt="Shared trigrams between two text strings" >}}
 
 Also note that the quotation marks around certain trigrams are to specify trigrams with spaces.
 
@@ -108,7 +108,7 @@ results[0].similarity
 
 If a user searches for a laptop and your application first shows them laptop cases, laptop backpacks, other related items and then laptops, you are providing an inadequate user experience.
 
-![Search for the word "laptop" on amazon](images/busquedaLaptopAmazon.gif)
+{{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Search for the word \"laptop\" on amazon" >}}
 
 Search Rank allows you to sort user searches by relevance, so that your user finds exactly what they are looking for first and then everything else.
 
@@ -133,7 +133,7 @@ Imagine you have a database of books and a Book model with a “title” field a
 
 On the other hand, the user may be searching for some words they remember reading on the back cover, or they may be searching for anything that contains their query. We can also search the “description” field but with a lower weighting, showing them matches with the title first and then those that match the description.
 
-![Explanation of relevance according to the field](https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg" class="md-local-image" alt="Explanation of relevance according to the field" >}}
 
 With Posgres the above is possible.
 

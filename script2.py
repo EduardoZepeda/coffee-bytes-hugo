@@ -44,9 +44,9 @@ urls_404 = [
     "la-guia-definitiva-de-django",
     "pipenv-el-administrador-de-entornos-virtuales-que-no-conoces",
     "python-virtualenv-tutorial-basico-en-linux",
-    "pages/go-programming-language-tutorial",
+    "go-programming-language-tutorial",
     "programar-un-blog-o-usar-wordpress",
-    "de-software/pages/go-programming-language-tutorial",
+    "go-programming-language-tutorial",
     "go-introduccion-a-las-goroutines-y-concurrencia",
     "go-uso-de-channels-o-canales-para-comunicar-goroutinas",
     "examen-de-certificacion-azure-az-900-mi-experiencia",
@@ -84,6 +84,29 @@ urls_404 = [
 post_category_relation = {}
 
 
+def convert_markdown_images_to_figure(text):
+    """
+    Convert Markdown image links to Hugo figure shortcodes.
+    """
+
+    def replacer(match):
+        alt = match.group(1).strip()
+        src = match.group(2).strip()
+        caption = match.group(3)
+
+        # Escape quotes inside alt/caption
+        alt = alt.replace('"', '\\"')
+        if caption:
+            caption = caption.strip().strip('"').replace('"', '\\"')
+            return f'{{{{< figure src="{src}" class="md-local-image" alt="{alt}" caption="{caption}" >}}}}'
+        else:
+            return f'{{{{< figure src="{src}" class="md-local-image" alt="{alt}" >}}}}'
+
+    # Match ![alt](src) or ![alt](src "caption")
+    pattern = re.compile(r'!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)')
+    return pattern.sub(replacer, text)
+
+
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize("NFKD", input_str)
     return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
@@ -101,30 +124,30 @@ def slugify(text):
 
 def create_slug_for_md_files():
     for md_file in Path("content/posts/").rglob("*.md"):
-        if not md_file.name.endswith("_index.md") and not md_file.name.endswith(
-            "en.md"
-        ):
+        if not md_file.name.endswith("_index.md"):
             try:
                 with open(md_file, "r", encoding="utf-8") as f:
                     content = f.read()
                     post = frontmatter.loads(content)
-                    first_category = post.metadata["categories"][0]
-                    title = post.metadata.get("title", "")
-                    url = post.metadata.get("url", "")
-                    slug = post.metadata.get("slug", "")
-                    modified_url = ""
-                    if slug:
-                        del post.metadata["slug"]
-                    if url:
-                        modified_url = post.metadata["url"].replace("/", "")
-                        del post.metadata["url"]
-                    else:
-                        modified_url = slugify(title)
-                    if title and first_category:
-                        post.metadata["slug"] = (
-                            f"/{slugify(first_category)}/{slugify(modified_url)}/"
-                        )
-                        print(f"/{slugify(first_category)}/{slugify(modified_url)}/")
+                    # first_category = post.metadata["categories"][0]
+                    # title = post.metadata.get("title", "")
+                    # url = post.metadata.get("url", "")
+                    # slug = post.metadata.get("slug", "")
+                    # modified_url = ""
+                    # if slug:
+                    #     del post.metadata["slug"]
+                    # if url:
+                    #     modified_url = post.metadata["url"].replace("/", "")
+                    #     del post.metadata["url"]
+                    # else:
+                    #     modified_url = slugify(title)
+                    # if title and first_category:
+                    #     post.metadata["slug"] = (
+                    #         f"/{slugify(first_category)}/{slugify(modified_url)}/"
+                    #     )
+                    #     print(f"/{slugify(first_category)}/{slugify(modified_url)}/")
+                    updated_content = convert_markdown_images_to_figure(post.content)
+                    post.content = updated_content
                 with open(md_file, "w", encoding="utf-8") as f:
                     f.write(frontmatter.dumps(post))
             except FileNotFoundError:

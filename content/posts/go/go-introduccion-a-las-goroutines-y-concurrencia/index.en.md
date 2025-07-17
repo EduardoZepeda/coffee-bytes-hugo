@@ -46,7 +46,7 @@ If they still seem confusing and you don't understand the difference, give those
 
 A [coroutine](https://en.wikipedia.org/wiki/Coroutine#?), in go, is **a function or method that runs concurrently with other functions or methods**. In go, corroutines are referred to as **goroutines** or goroutines. Even the main function, _main_, is executed inside one.
 
-Goroutines are used in design patterns, such as the [worker-pool-design-pattern](/en/software architecture/worker-pool-design-pattern-explanation/)
+Goroutines are used in design patterns, such as the [worker-pool-design-pattern](/en/software-architecture/worker-pool-design-pattern-explanation/)
 
 To generate a goroutine we add the keyword _go_ before a function. This will schedule the function for asynchronous execution.
 
@@ -61,7 +61,7 @@ go write("hey again")
 
 In the above case, due to its asynchronous nature, the goroutine does not stop code execution. This implies that the body of the _main_ function continues its execution and **our goroutine never executes.
 
-![Goroutine operation in go](images/golang-goroutine-3.jpg)
+{{< figure src="images/golang-goroutine-3.jpg" class="md-local-image" alt="Goroutine operation in go" >}}
 
 But then, how do we get our goroutine to run? The naive approach would be to use a sleep to pause the execution of the code. This, as you know, is nonsense, we can't be putting sleeps everywhere, the flow of the program would be unnecessarily slowed down!
 
@@ -122,7 +122,7 @@ func write(text string, wg *sync.WaitGroup) {
 
 Tip: use _defer_ over the _Done_ method to ensure that it is the last thing to be executed.
 
-![Operation of a waiting group in go](images/golang-goroutine-wait-2.jpg)
+{{< figure src="images/golang-goroutine-wait-2.jpg" class="md-local-image" alt="Operation of a waiting group in go" >}}
 
 Once the wg.wait counter becomes zero, program execution continues.
 

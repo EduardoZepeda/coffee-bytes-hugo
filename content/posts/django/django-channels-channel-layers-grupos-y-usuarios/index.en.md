@@ -79,7 +79,7 @@ After adding the above configuration, it is time to modify our _consumer_ to sen
 
 Our consumer will continue to maintain its three main functions: connect, disconnect and receive, but with added functionality.
 
-![Schematic of groups and channel layers in django channels](images/AddToChannels-1.png)
+{{< figure src="images/AddToChannels-1.png" class="md-local-image" alt="Schematic of groups and channel layers in django channels" >}}
 
 The process by which a channel or consumer joins a group.
 
@@ -119,7 +119,7 @@ The changes we made were as follows:
 * Now, every time we receive a message in a _consumer_, it will call the method **_group_send_** of the channel layer to which it belongs, which will be in charge of **sending the data, in dictionary form, automatically to all the active members of the group "chat "**.
 * The type key will tell the _consumer_ which method to use. The syntax is **replace the dot with an underscore**. That is to say that the type _chat.message_ will execute the _chat_message_ method of each _consumer_ that receives it.
 
-![Processing of a message from a websocket to a group of channel layers](images/GruposEnDjangoChannels.png)
+{{< figure src="images/GruposEnDjangoChannels.png" class="md-local-image" alt="Processing of a message from a websocket to a group of channel layers" >}}
 
 Channel layer sending information to the group "chat" with its method group_send
 
@@ -231,11 +231,11 @@ class ChatConsumer(WebsocketConsumer):
 
 If you have a logged in user you will see something like this when logging in:
 
-![Django channels usuario loggeado](images/LoggedDjangoChannels.png)
+{{< figure src="images/LoggedDjangoChannels.png" class="md-local-image" alt="Django channels usuario loggeado" >}}
 
 And if you are not logged in you will see an empty string, which corresponds to an anonymous user.
 
-![Anonymous user in Django channels](images/AnonymousDjangoChannels.png)
+{{< figure src="images/AnonymousDjangoChannels.png" class="md-local-image" alt="Anonymous user in Django channels" >}}
 
 ## Login and logout in django channels
 

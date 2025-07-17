@@ -29,7 +29,7 @@ Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx te
 
 Nginx manejará el throttling como si se tratara de una cubeta con agujeros: el agua que entra en la cubeta sale por la parte de abajo. Si aumentamos el flujo y la cubeta se llena más rápido de lo que sale por los agujeros la cubeta se desbordará.
 
-![Cubeta con agujeros.](images/cubeta_-1.jpg)
+{{< figure src="images/cubeta_-1.jpg" class="md-local-image" alt="Cubeta con agujeros." >}}
 
 El agua que entra primero por la cubeta sale primero (FIFO). Si el flujo es suficiente, la cubeta se desborda.
 

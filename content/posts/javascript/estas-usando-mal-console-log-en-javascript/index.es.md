@@ -28,7 +28,7 @@ _console.info()_ cumple la función de presentar información
 console.info("Texto con propósito informativo")
 ```
 
-![Impresion con console.info en consola](images/info.jpg)
+{{< figure src="images/info.jpg" class="md-local-image" alt="Impresion con console.info en consola" >}}
 
 {{<ad>}}
 
@@ -40,7 +40,7 @@ _console.warn()_ muestra un mensaje de advertencia, con fondo amarillo
 console.warn("Muestra un mensaje de advertencia")
 ```
 
-![Impresion con console.warn en consola](images/warn.jpg)
+{{< figure src="images/warn.jpg" class="md-local-image" alt="Impresion con console.warn en consola" >}}
 
 ## Muestra un mensaje de error
 
@@ -50,7 +50,7 @@ _console.error()_ nos muestra un mensaje de error
 console.error("Muestra un mensaje de error")
 ```
 
-![Error en consola impreso con console.error](images/error.jpg)
+{{< figure src="images/error.jpg" class="md-local-image" alt="Error en consola impreso con console.error" >}}
 
 ## Evalua si una expresión es true, o muestra un error
 
@@ -62,9 +62,9 @@ Assertion failed: Este mensaje se muestra porque el primer argumento es false
 console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es true")
 ```
 
-![Impresión en consola con console.assert ara false](images/assertFalse.jpg)
+{{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Impresión en consola con console.assert ara false" >}}
 
-![Impresión en consola con console.assert para true](images/assertTrue.jpg)
+{{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Impresión en consola con console.assert para true" >}}
 
 ## Cuenta eventos
 
@@ -111,7 +111,7 @@ ram: "HyperX FURY DDR4 8GB"
 <prototype>: Object { … }
 ```
 
-![Impresión en consola con console.dir](images/dir.jpg)
+{{< figure src="images/dir.jpg" class="md-local-image" alt="Impresión en consola con console.dir" >}}
 
 ## Agrupa mensajes
 
@@ -128,7 +128,7 @@ Mensajes agrupados
 | Info
 ```
 
-![Impresión de un grupo con console.group en consola](images/group.jpg)
+{{< figure src="images/group.jpg" class="md-local-image" alt="Impresión de un grupo con console.group en consola" >}}
 
 ## Mide el tiempo
 
@@ -150,6 +150,6 @@ const books = [{book: "Story of Your Life", author: "Ted Chiang"}, {book: "The l
 console.table(books)
 ```
 
-![Impresion de table con console.table en consola](images/table-1.jpg)
+{{< figure src="images/table-1.jpg" class="md-local-image" alt="Impresion de table con console.table en consola" >}}
 
 Con este ejemplo doy por terminada la entrada. Espero que la próxima vez que uses _console.log()_ tomes en cuenta las diferentes opciones que tienes para hacer más sencillo el desarrollo de tu código. En esta entrada solo puse los métodos más útiles, si quieres ahondar más en el tema puedes consultar la [documentación oficial.](https://developer.mozilla.org/es/docs/Web/API/Console)

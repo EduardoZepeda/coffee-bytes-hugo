@@ -23,7 +23,7 @@ Go, también conocido como Golang, es un lenguaje de programación compilado des
 
 Go es [usado en proyectos tan colosales como el compilador de Typescript](https://github.com/microsoft/typescript-go/discussions/411#?)
 
-![Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." >}}
 
 {{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
@@ -57,12 +57,12 @@ Si de verdad te interesa el tema, encontré este video que resume bastante bien 
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
 
-![Manejo de errores con Go con if](images/ManejoErroresGo.png "Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso")
+{{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Manejo de errores con Go con if" caption="Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso" >}}
 
 * **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](/es/go/go-structs-herencia-polimorfismo-y-encapsulacion/).
 * **Go no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores deben devolverse como valor de retorno en una función y se manejan comprobando que esta no sea nula (nil), por medio de bloques if. Lo anterior puede volverse bastante verboso y repetitivo.
 
-![Manejo de errores recurrente y repetitivo en Go](images/if-err-not-equal-nil.jpg "If err!= nil en todos lados, el manejo de errores en Go debería ser mejor")
+{{< figure src="images/if-err-not-equal-nil.jpg" class="md-local-image" alt="Manejo de errores recurrente y repetitivo en Go" caption="If err!= nil en todos lados, el manejo de errores en Go debería ser mejor" >}}
 
 * **No existen argumentos por defecto en go**, lo que aumenta la cantidad de código a escribir para lidiar con valores predeterminados.
 * **No cuenta con manejo manual de memoria**, go usa un garbage collector, lo cual simplifica el manejo de memoria enormemente, pero limita la administración más granular de memoria, esta fue una de las razones por las cuales [discord migró de Go a Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
@@ -72,7 +72,7 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
 
-![Error de compilación en go por variables sin usar](images/ErrorCompilacionGo.png "La compilación no se permite si hay variables sin usar.")
+{{< figure src="images/ErrorCompilacionGo.png" class="md-local-image" alt="Error de compilación en go por variables sin usar" caption="La compilación no se permite si hay variables sin usar." >}}
 
 Sin embargo no te obliga a revisar punteros hacia nil, volviéndo estos los errores más difíciles de debuggear, por lo cual yo lo considero una parte débil del lenguaje.
 
@@ -80,7 +80,7 @@ Sin embargo no te obliga a revisar punteros hacia nil, volviéndo estos los erro
 
 La mascota oficial es una ardilla de tierra y es muy común entre la comunidad usarla para ilustrar el contenido relacionado con go. Este Sartre en versión roedor azul es tan popular entre los desarrolladores que existen herramientas, como [Gopherizme](https://gopherize.me#?), para crear avatares personalizados. El impacto de la mascota es tal, que muchos desarrolladores la usan a manera de logo, aunque el [logo oficial de go](https://blog.golang.org/go-brand) ya ha sido definido.
 
-![Mascota y logo de go](images/GoMascotAndLogo.png "A la izquierda la mascota de Go. A la derecha el logo oficial")
+{{< figure src="images/GoMascotAndLogo.png" class="md-local-image" alt="Mascota y logo de go" caption="A la izquierda la mascota de Go. A la derecha el logo oficial" >}}
 
 
 ## Instalación de Go

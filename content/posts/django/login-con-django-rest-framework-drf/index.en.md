@@ -22,7 +22,7 @@ title: Login using Django Rest Framework DRF
 
 Almost all complex Django applications need views for Login, Logout, reboot and password change, as well as user registration. However, both Django and Django REST Framework (DRF) are completely agnostic about their implementation, and delegate the responsibility for these functions to the users of their frameworks. Fortunately there are libraries that make this task quite simple.
 
-If you are about to develop an API, I have a post with [recommendations on REST API design](/en/software architecture/basic-characteristics-of-an-api-rest-api/) that can be useful for you.
+If you are about to develop an API, I have a post with [recommendations on REST API design](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) that can be useful for you.
 
 ## User authentication and login with DRF
 
@@ -94,7 +94,7 @@ api/authentication/ password/change/ [name='rest_password_change']
 
 If you read the list above, you will notice that endpoints were added to reset passwords, login, logout, user details and change password. And if we access those urls in the browser we will already see the DRF interface.
 
-![Pantalla de Loggeo en Django REST framework](images/DjangoRestFrameworkEndpointLogin.png)
+{{< figure src="images/DjangoRestFrameworkEndpointLogin.png" class="md-local-image" alt="Pantalla de Loggeo en Django REST framework" >}}
 
 The login endpoint returns a key to be used as a token.
 
@@ -156,13 +156,13 @@ INSTALLED_APPS = [
 
 Now we will have an extra endpoint that allows user registration.
 
-![Django REST Framework registration screen](images/DjangoRestFrameworkEndpointRegistro.png)
+{{< figure src="images/DjangoRestFrameworkEndpointRegistro.png" class="md-local-image" alt="Django REST Framework registration screen" >}}
 
 User registration screen in the DRF interface
 
 If we register through the browser, filling out the form, we will receive a token in response:
 
-![DRF session token obtained after a user's login](images/DjangoRestFrameworkEndpointToken.png)
+{{< figure src="images/DjangoRestFrameworkEndpointToken.png" class="md-local-image" alt="DRF session token obtained after a user's login" >}}
 
 Session token obtained after logging in a user
 
@@ -211,7 +211,7 @@ JWT_AUTH_REFRESH_COOKIE = 'jwt-refresh-token'
 
 After obtaining the refresh and authentication tokens, by logging into our endpoint, we can use them to authenticate with the header "Authorization: Bearer <Access token>".
 
-![After logging in a user we get the refresh and authentication or access JWT](images/DjangoRestFrameworkJWT.png)
+{{< figure src="images/DjangoRestFrameworkJWT.png" class="md-local-image" alt="After logging in a user we get the refresh and authentication or access JWT" >}}
 
 After logging in a user we obtain the refresh and authentication or access JWT.
 

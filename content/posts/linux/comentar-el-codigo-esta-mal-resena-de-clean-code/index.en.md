@@ -28,7 +28,7 @@ There are two types of programmers, those who hate Clean Code and those who love
 
 Most of the programming books available on the market focus on teaching you the syntax of a programming language and some popular conventions. However, most of them do not go too much into how to organize the code, how to name variables or which parts of the code should have comments and which should not, how to determine the right amount of arguments a function should receive, or when to split a file in two, etc. This book aims to answer all these questions.
 
-![Clean code meme](images/clean-code-meme.webp)
+{{< figure src="images/clean-code-meme.webp" class="md-local-image" alt="Clean code meme" >}}
 
 ### What is the importance of using clean code?
 
@@ -36,7 +36,7 @@ Throughout the pages of Clean Code, *uncle bob* takes us into the subject with s
 
 Good *uncle Bob*, states that programmers spend more time reading code than writing it. This should put in a new light the way we write our code, because we have the certainty that someone else will read it (even ourselves in the future), when writing the code we should always ask ourselves: is the objective pursued by my functions clear? is it understood why I chose a certain code flow instead of another? is the meaning of each variable clear?
 
-![Writing clean code so you don't have to interact with people](images/cleaner-code-to-avoid-interacting-with-people.webp)
+{{< figure src="images/cleaner-code-to-avoid-interacting-with-people.webp" class="md-local-image" alt="Writing clean code so you don't have to interact with people" >}}
 
 
 ### How to name variables, classes and functions according to Clean Code?
@@ -171,7 +171,7 @@ I felt the book unnecessarily long, the examples are well detailed, but I don't 
 
 If you haven't had any approach with good code writing practices I recommend you to give this book a read, because you can acquire some useful tips that you might not have considered, even if you don't agree with all its content, the point is that you don't stop there and complement it with more material.
 
-![Clean and unquestionable dogmas should be avoided at all cost](images/clean-and-maintanable-code-unquestionable-dogmas.webp)
+{{< figure src="images/clean-and-maintanable-code-unquestionable-dogmas.webp" class="md-local-image" alt="Clean and unquestionable dogmas should be avoided at all cost" >}}
 
 **This book is not a manual that should be taken as an unbreakable regulation**, but the opinion of one person, but times change, rules improve and experience sets new guidelines. Take all the advice that will improve your code and question everything that you think can be improved. All religions have their detractors and Clean Code is no exception.
 

@@ -80,7 +80,7 @@ Tras agregar la configuración anterior, toca modificar nuestro _consumer_ para 
 
 Nuestro consumer seguirá manteniendo sus tres funciones principales: connect, disconnect y receive, pero con funcionalidad añadida.
 
-![Esquema de groups y  channel layers en django channels](images/AddToChannels-1.png)
+{{< figure src="images/AddToChannels-1.png" class="md-local-image" alt="Esquema de groups y  channel layers en django channels" >}}
 
 Proceso mediante el cual un channel o consumer se une a un group.
 
@@ -121,7 +121,7 @@ Los cambios que hicimos fueron los siguientes:
 - Ahora, cada que ves que recibamos un mensaje en un _consumer_, este llamará al método **_group\_send_** del channel layer al que pertenece, el cual se encargará de **enviar los datos, en forma de diccionario, de manera automática a todos los integrantes activos del grupo "chat"**.
 - La llave type, le dirá al _consumer_ que método utilizar. La sintaxis es **reemplazar el punto por un guión bajo**. Es decir que el type _chat.message_ ejecutará el método _chat\_message_ de cada _consumer_ que lo reciba.
 
-![Proceso de un mensaje desde un websocket hasta un grupo de channel layers.](images/GruposEnDjangoChannels.png)
+{{< figure src="images/GruposEnDjangoChannels.png" class="md-local-image" alt="Proceso de un mensaje desde un websocket hasta un grupo de channel layers." >}}
 
 Channel layer mandando información al grupo "chat" con su método group\_send
 
@@ -233,11 +233,11 @@ class ChatConsumer(WebsocketConsumer):
 
 Si tienes un usuario loggeado verás algo como esto al iniciar una conexión:
 
-![Django channels usuario loggeado](images/LoggedDjangoChannels.png)
+{{< figure src="images/LoggedDjangoChannels.png" class="md-local-image" alt="Django channels usuario loggeado" >}}
 
 Y si no te encuentras loggeado verás un string vacío, que corresponde a un usuario anónimo.
 
-![Usuario anónimo en Django channels](images/AnonymousDjangoChannels.png)
+{{< figure src="images/AnonymousDjangoChannels.png" class="md-local-image" alt="Usuario anónimo en Django channels" >}}
 
 ## Login y logout en django channels
 

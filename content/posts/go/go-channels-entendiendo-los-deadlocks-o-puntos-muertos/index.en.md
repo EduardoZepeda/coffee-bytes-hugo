@@ -44,7 +44,7 @@ What if an operation is waiting to receive information from a channel, but that 
 
 It happens when there is a channel that receives information, but not one that sends it.
 
-![Deadlock due to lack of input channel](images/deadlock-sender-go.jpg "There is no operation that sends data through a channel.")
+{{< figure src="images/deadlock-sender-go.jpg" class="md-local-image" alt="Deadlock due to lack of input channel" caption="There is no operation that sends data through a channel." >}}
 
 ```go
 package main
@@ -67,7 +67,7 @@ What if an operation sends information to a channel but there is no longer any o
 
 It happens when there is a channel that sends information, but not one that receives it.
 
-![Deadlock due to lack of output channel](images/deadlock-receiver-go.jpg "In a deaclock due to lack of output channel there is no operation that receives text through a channel.")
+{{< figure src="images/deadlock-receiver-go.jpg" class="md-local-image" alt="Deadlock due to lack of output channel" caption="In a deaclock due to lack of output channel there is no operation that receives text through a channel." >}}
 
 ```go
 package main
@@ -136,7 +136,7 @@ If a channel does not have buffer, the value remains "retained" until it is rece
 
 On the other hand, if the channel is buffered, then execution is blocked until the value has been copied to the buffer, so we will not get an error, even if no goroutine receives it.
 
-![Schematic of deadlock prevention in go](images/deadlocks-prevencion-go-1.jpg "In a buffered channel it does not matter if the value is not read because it has already been copied to the buffer.")
+{{< figure src="images/deadlocks-prevencion-go-1.jpg" class="md-local-image" alt="Schematic of deadlock prevention in go" caption="In a buffered channel it does not matter if the value is not read because it has already been copied to the buffer." >}}
 
 ```go
 package main

@@ -26,7 +26,7 @@ If you are looking to optimize the performance of an application using Nginx I h
 
 Nginx will handle throttling as if it were a bucket with holes in it: the water that goes into the bucket comes out the bottom. If we increase the flow and the bucket fills faster than it flows out of the holes the bucket will overflow.
 
-![A bucket dripping illustration](images/cubeta_-1.jpg)
+{{< figure src="images/cubeta_-1.jpg" class="md-local-image" alt="A bucket dripping illustration" >}}
 
 The water that enters first through the bucket exits first (FIFO). If the flow is sufficient, the bucket overflows.
 

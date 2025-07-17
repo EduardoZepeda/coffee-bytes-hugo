@@ -76,13 +76,13 @@ def pdfVideogame(request):
     p.drawString(0, 0, "Hola mundo")
 ```
 
-![Texto generado con reportlab](images/texto-fondo-pdf.png "Texto creado con reportlab")
+{{< figure src="images/texto-fondo-pdf.png" class="md-local-image" alt="Texto generado con reportlab" caption="Texto creado con reportlab" >}}
 
 Esto dibujará nuestro string... en el fondo de la pantalla. 
 
 ¿Por qué en el fondo? Puedes pensar que canvas trabaja con un plano cartesiano, le acabamos de decir a reportlab que dibuje el string en las coordenadas 0,0 del plano.
 
-![Pdf pensado como un plano cartesiano](images/coordenadas-pdf.png "Reportlab se comporta como un plano cartesiano")
+{{< figure src="images/coordenadas-pdf.png" class="md-local-image" alt="Pdf pensado como un plano cartesiano" caption="Reportlab se comporta como un plano cartesiano" >}}
 
 ### Posicionando el texto en un PDF de Django
 
@@ -94,7 +94,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-![Texto posicionado en un pdf](images/texto-posicionado-pdf.png "Texto posicionado de acuerdo a los ejes X y Y en reportlab")
+{{< figure src="images/texto-posicionado-pdf.png" class="md-local-image" alt="Texto posicionado en un pdf" caption="Texto posicionado de acuerdo a los ejes X y Y en reportlab" >}}
 
 ### Cambiar color de letra en el PDF
 
@@ -109,7 +109,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-![Texto a color en pdf](images/text-color-pdf.png "Texto en color azul claro")
+{{< figure src="images/text-color-pdf.png" class="md-local-image" alt="Texto a color en pdf" caption="Texto en color azul claro" >}}
 
 Ya tenemos un texto simple, vamos a guardar el contenido que generamos y a retornarlo como respuesta. 
 
@@ -166,7 +166,7 @@ Simplemente usamos el ORM de django para crear cualquier consulta que querramos 
 
 Observa como disminuyo la posición de la coordenada Y, para que cada iteración escriba el texto en una nueva linea, de otra forma cada linea se sobrepondría con la siguiente.
 
-![Pdf generado con información de la base de datos en Django](images/pdf-dinamico-reportlab-django.png "Pdf generado de manera dinámica usando Django")
+{{< figure src="images/pdf-dinamico-reportlab-django.png" class="md-local-image" alt="Pdf generado con información de la base de datos en Django" caption="Pdf generado de manera dinámica usando Django" >}}
 
 ## Mejorar el rendimiento al generar un PDF en Django
 

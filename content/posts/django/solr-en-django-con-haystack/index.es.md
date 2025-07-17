@@ -28,13 +28,13 @@ Simplificando al extremo, Solr recibe el contenido de nuestra base de datos (o a
 
 Posteriormente, cuando Solr recibe una consulta, consultará el índice generado, ordenará los resultados de acuerdo a su relevancia y los retornará.
 
-![Funcionamiento básico de Solr y Django haystack](images/como-funciona-solr-y-django.jpg)
+{{< figure src="images/como-funciona-solr-y-django.jpg" class="md-local-image" alt="Funcionamiento básico de Solr y Django haystack" >}}
 
 ### Índice invertido
 
 Solr funciona con un índice invertido. Es bastante similar al índice que aparece hasta atrás en los libros técnicos, en el cada tema del libro apunta a una página; en el indexado de nuestra información se generan tokens y estos se relacionan con los documentos que los contienen.
 
-![Indice invertido de solr](images/solr-indice-invertido.jpg)
+{{< figure src="images/solr-indice-invertido.jpg" class="md-local-image" alt="Indice invertido de solr" >}}
 
 {{<ad>}}
 
@@ -83,7 +83,7 @@ Usaremos start para ejecutarlo y, si no ocurre ningún error, tendremos un panel
 ./solr start
 ```
 
-![Panel control de solr](images/solr-panel-principal.png)
+{{< figure src="images/solr-panel-principal.png" class="md-local-image" alt="Panel control de solr" >}}
 
 ### Núcleos o cores en Solr
 
@@ -101,7 +101,7 @@ Para crear un nuevo núcleo iremos a la sección *Add Core* y llenaremos la sigu
 * config: solrconfig.xml (Aún no lo tenemos)
 * schema: schema.xml (Aún no lo tenemos)
 
-![Formulario para agregar núcleo en Solr](images/solr-add-core.png)
+{{< figure src="images/solr-add-core.png" class="md-local-image" alt="Formulario para agregar núcleo en Solr" >}}
 
 Para configurar Solr crearemos la siguiente estructura dentro de la carpeta de instalación de solr *<solr-x.y.z>/server/solr/<nombre_de_la_instancia_dir>/*
 
@@ -131,7 +131,7 @@ cp -r <solr-x.y.z>/server/solr/configsets/_default/conf <solr-x.y.z>/server/solr
 
 Si nos dirigimos al panel de administración deberíamos ser capaces de crear el núcleo de manera exitosa.
 
-![Creación de un núcleo exitosa en Solr](images/solr-creacion-de-un-nucleo.png)
+{{< figure src="images/solr-creacion-de-un-nucleo.png" class="md-local-image" alt="Creación de un núcleo exitosa en Solr" >}}
 
 ## Haystack en Django
 
@@ -317,7 +317,7 @@ Esto evitará un error por la falta de campos para manejo de divisas.
 
 Antes de continuar, necesitamos recargar nuestro núcleo en el panel de administrador de Solr para que reconozca los cambios que efectuamos en la configuración.
 
-![Recargar núcleo en solr](images/solr-reload-button.png)
+{{< figure src="images/solr-reload-button.png" class="md-local-image" alt="Recargar núcleo en solr" >}}
 
 Ahora ha llegado el momento de generar un índice con el comando *rebuild_index* que nos provee *django-haystack*
 
@@ -333,7 +333,7 @@ Si todo salió bien tendremos todo nuestro queryset indexado y podremos llevar a
 
 La query devolverá todos los resultados en formato JSON si no especificamos nada.
 
-![Recargar núcleo en solr](images/solr-query-index.png)
+{{< figure src="images/solr-query-index.png" class="md-local-image" alt="Recargar núcleo en solr" >}}
 
 Nota como el campo text se llena con el contenido de nuestra plantilla de django.
 

@@ -25,7 +25,7 @@ Esta entrada es para ti, que quieres independizarte de las empresas y estas busc
 
 En el mundo de los programadores hay una obsesión por la velocidad y el rendimiento; queremos exprimir cada milisegundo posible al lenguaje y reducir el consumo de memoria al mínimo posible y escribir las queries en su versión más elegante que lleve al límite de la velocidad a nuestra base de datos y los sometemos al más riguroso análisis de [rendimiento big O](/es/linux y devops/la-notacion-big-o/).
 
-![Rust vs go Benchmark, rust es superior](images/rust-and-go-performance-for-common-data-structures-arrays.webp)
+{{< figure src="images/rust-and-go-performance-for-common-data-structures-arrays.webp" class="md-local-image" alt="Rust vs go Benchmark, rust es superior" >}}
 
 En esa búsqueda constante pasamos de lenguajes de alto nivel a lenguajes de más bajo nivel, deambulamos por los rincones más oscuros de la documentación rumbo a los runtimes más esotéricos escritos en lenguajes arcanos cuyos nombres parecen sacados de un diccionario de otro idioma. ¿Se te vino a la mente alguno en particular? A mi sí. 
 
@@ -35,7 +35,7 @@ A lo largo de esta odisea virtual, nos olvidamos por completo de lo que probable
 
 Si tú, o tu empresa, no son un jugador de ligas mayores en internet, probablemente estás dándole más importancia de la necesaria al hecho de que tu aplicación sirva 1 petición por segundo en lugar de 100. 
 
-![Peticiones por segundo, benchmark de techempower](images/techempower-benchmark.png "Algunos frameworks soportan 600k peticiones por segundo")
+{{< figure src="images/techempower-benchmark.png" class="md-local-image" alt="Peticiones por segundo, benchmark de techempower" caption="Algunos frameworks soportan 600k peticiones por segundo" >}}
 
 Sí, es cierto que estamos hablando de un factor de 100, pero considera lo siguiente:
 
@@ -51,13 +51,13 @@ No digo que esté mal cuidar los aspectos técnicos, pero en este momento hay co
 
 Optimizar para tener un buen SEO también es más importante que el consumo de memoria o la eficiencia de tu aplicación, creeme, [aprendí la importancia del SEO a partir de mis propios errores.]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}})
 
-![Meme sobre wordpress vs una aplicación node](images/wordpress-meme.jpg)
+{{< figure src="images/wordpress-meme.jpg" class="md-local-image" alt="Meme sobre wordpress vs una aplicación node" >}}
 
 ## Velocidad de desarrollo vs rendimiento
 
 Para la mayoría de las startups o solopreneurs, el proceso de exploración del mercado será más importante que reducir el consumo de recursos. ¿De que te sirve reducir tu consumo de RAM y procesador a la mitad si tus iteraciones van a pasar de una semana a dos semanas y media?
 
-![Meme sobre la diferencia de tiempo de compilacion entre Go y Rust](images/rustaceans-vs-gophers.png)
+{{< figure src="images/rustaceans-vs-gophers.png" class="md-local-image" alt="Meme sobre la diferencia de tiempo de compilacion entre Go y Rust" >}}
 
 ### Generalmente suficientemente rápido es rápido
 
@@ -71,19 +71,19 @@ Asi mismo, manten presente, que esto también aplica al elegir las herramientas 
 
 Otra cosa, cuando optimices en favor de la velocidad de desarrollo, no te olvides de considerar la deuda técnica, encuentra el punto de inflexión y pivotea hacia la escalabilidad.
 
-![Design stamina graph, donde se muestra el momento de pivoteo para tener una arquitectura escalable](images/design-stamina-graph.jpg "Créditos de la imagen a Martin Fowler")
+{{< figure src="images/design-stamina-graph.jpg" class="md-local-image" alt="Design stamina graph, donde se muestra el momento de pivoteo para tener una arquitectura escalable" caption="Créditos de la imagen a Martin Fowler" >}}
 
 ## Situaciones donde sí importa el rendimiento y la seguridad
 
 ¿Significa que deberías olvidarte de todos los demás lenguajes y tratar de implementar todas tus ideas en ~~javascript~~ una herramienta escrita en un lenguaje mediocre solo por la velocidad de desarrollo?, no, creo que hay situaciones donde es crucial elegir lo más rápido, seguro y eficiente, como por ejemplo: para navegadores, motores de videojuegos o sistemas operativos (aunque este post es sobre aplicaciones web), aunque, nuevamente, no vas a diseñar un sistema operativo tú solo... a menos de que quieras que tu OS sea el tercer templo de Jerusalen y quieras comunicarte con dios.
 
-![Meme de temple os, un sistema que supuestamente sería el tercer templo de Jerusalen y permitiría comunicarse con dios](images/temple-os.webp)
+{{< figure src="images/temple-os.webp" class="md-local-image" alt="Meme de temple os, un sistema que supuestamente sería el tercer templo de Jerusalen y permitiría comunicarse con dios" >}}
 
 Usar un lenguaje de bajo nivel suele ser la decisión correcta para situaciones donde el rendimiento es crítico, no quieres servicios donde la vida o la salud de las personas estén en juego escritos en lenguajes de alto nivel, que suelen ser más flexibles en el tipado y más propensos a errores en tiempo de ejecución. 
 
 También querrás rendimiento y seguridad en entornos donde trates con cosas aún más importantes que la vida de las personas, como aplicaciones relacionadas con el mercado financiero y donde se manejen cantidades importantes de dinero (es sarcasmo, por si acaso, los únicos que piensan así son la gente de Wall street).
 
-![Meme de gamestop y un millonario enojado por las acciones de reddit](images/gamestop-meme.jpg)
+{{< figure src="images/gamestop-meme.jpg" class="md-local-image" alt="Meme de gamestop y un millonario enojado por las acciones de reddit" >}}
 
 ## Herramientas To Get Shit Done
 

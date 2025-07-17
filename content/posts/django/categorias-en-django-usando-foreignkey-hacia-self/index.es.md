@@ -62,7 +62,7 @@ class SubCategory(models.Model):
 
 Esta aproximación al problema de las jerarquias en Django luce bien a primera vista. La estructura que resultará será similar a esta:
 
-![Esquema de modelo Subcategoría con ForeignKey hacía Categoría en Django](images/CategoriaDjango-1.jpg)
+{{< figure src="images/CategoriaDjango-1.jpg" class="md-local-image" alt="Esquema de modelo Subcategoría con ForeignKey hacía Categoría en Django" >}}
 
 ### El problema de usar un modelo por categoría
 
@@ -72,7 +72,7 @@ Imagínate una categoría de películas de terror, con una subcategoría de fant
 
 Pues, añadimos una clase _SubSubCategoría_ ¿no? Pero... y si esas SubSubCategorías tienen a su vez subcategorías. ¿Ves a donde intento llegar?
 
-![Esquema del problema de las subcategorías infinitas](images/ProblemaCategoriasDjango.jpg)
+{{< figure src="images/ProblemaCategoriasDjango.jpg" class="md-local-image" alt="Esquema del problema de las subcategorías infinitas" >}}
 
 Cada vez que necesites crear una subcategoría nueva tendrás que crear un nuevo modelo en el archivo _models.py_ de tu aplicación. Y no solo eso, sino una nueva tabla que probablemente solo cuente con unos cuantos registros. ¿Existe una aproximación mejor al problema? El [versátil ORM del Django Framework](/es/django/por-que-deberias-usar-django-framework/) nos ofrece una solución bastante limpia.
 
@@ -98,7 +98,7 @@ class Category(models.Model):
 
 De esta manera tendremos una estructura similar a un grafo, donde cada nodo apunta hacía a otro.
 
-![Esquema del funcionamiento de ForeignKey hacía self(el mismo modelo) en Django.](images/ForeignKeyASelfEsquemaDjango.jpg)
+{{< figure src="images/ForeignKeyASelfEsquemaDjango.jpg" class="md-local-image" alt="Esquema del funcionamiento de ForeignKey hacía self(el mismo modelo) en Django." >}}
 
 Este nuevo acomodo nos permite crear tantas subcategorías como querramos, sin la necesidad de crear nuevos modelos. Para ello, simplemente asignamos la propiedad _parent_ a la instancia de clase _Category_ a la que querramos que pertenezca.
 

@@ -35,19 +35,19 @@ Antes de empezar con los comandos quiero mencionar un par de pequeños tips o fu
 
 Si hay un conflicto basta con presionar dos veces la tecla TAB y nos mostrará las opciones disponibles. Una función perfecta para los perezosos que no nos gusta teclear innecesariamente.
 
-![Función de autocompletado del comando tabular en una terminal de GNU/Linux](images/tabular.gif)
+{{< figure src="images/tabular.gif" class="md-local-image" alt="Función de autocompletado del comando tabular en una terminal de GNU/Linux" >}}
 
 ### Presiona arriba para acceder a comandos anteriormente ejecutados
 
 Mientras nos encontremos en la terminal, si presionamos la tecla arriba de nuestro pad GNU/Linux nos mostrará el último comando que ejecutamos. Una función ideal para esos momentos cuando repetimos el mismo comando una y otra vez, esperando que, mágicamente, cambie el resultado.
 
-![Función de acceso a comandos anteriores de una terminal de GNU/Linux usando la tecla de arriba](images/up.gif)
+{{< figure src="images/up.gif" class="md-local-image" alt="Función de acceso a comandos anteriores de una terminal de GNU/Linux usando la tecla de arriba" >}}
 
 ### Usa CTRL + C para cancelar interrumpir procesos de la terminal.
 
 Si cometimos alguna tontería como ejecutar un bucle infinito, o simplemente queremos detener algo que ejecutamos, usaremos CTRL + C, sí, como si fueras a hacer un copy paste, pero con la terminal abierta. Esto cancelará la ejecución del comando.
 
-![Cancelando la ejecución de código con CTRL + C](images/ctrl_c.gif)
+{{< figure src="images/ctrl_c.gif" class="md-local-image" alt="Cancelando la ejecución de código con CTRL + C" >}}
 
 Una vez explicado esto empecemos con los comandos.
 

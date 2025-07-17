@@ -438,7 +438,7 @@ docker-compose -f local.yml
 
 Si todo salió bien tendremos un servidor corriendo en nuestro puerto 8000
 
-![Aplicación por defecto de cookiecutter-django en servidor local](images/DjangoCookiecutterLocal.png)
+{{< figure src="images/DjangoCookiecutterLocal.png" class="md-local-image" alt="Aplicación por defecto de cookiecutter-django en servidor local" >}}
 
 Recuerda correr las migraciones y crear un super usuario.
 
@@ -453,7 +453,7 @@ Una vez hecho esto quizás querrás empezar a modificar la carpeta de tu proyect
 
 Para activar la django-debug-toolbar vamos a entrar primero a nuestra aplicación entrando a [localhost](http://127.0.0.1:8000#?), ahora en nuestra terminal veremos una dirección IP
 
-![Ip interna en consola](images/IpInternaDockerDjango.png)
+{{< figure src="images/IpInternaDockerDjango.png" class="md-local-image" alt="Ip interna en consola" >}}
 
 Esta dirección la colocaremos en la variable INTERNAL\_IPS de nuestro archivo de configuración _local.py_
 

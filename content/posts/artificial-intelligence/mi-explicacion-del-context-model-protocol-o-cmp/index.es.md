@@ -28,9 +28,9 @@ Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entie
 
 Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC](/es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), REST u otras), básicamente cualquier fuente que pueda retornar información.
 
-![Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde](https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde" >}}
 
-Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto, e interaccionar con el exterior, a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/) o una afirmación completamente fiel a la realidad?
+Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto, e interaccionar con el exterior, a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/) o una afirmación completamente fiel a la realidad?
 
 MCP existe para servir como un puente entre un LLM y la información relacionada al contexto, esto de una forma estandarizada y agnóstica. Aquí la palabra clave es "estandarización".
 
@@ -42,7 +42,7 @@ El MCP se ajusta a una arquitectura de cliente-servidor.
 
 Un cliente que implemente el Model Context Protocol puede conectarse a un LLM y a una serie de servicios o servers MCP que le proveeran de la información de contexto que necesita.
 
-![Un potencial cliente MCP](https://res.cloudinary.com/dwrscezd2/image/upload/v1743559566/coffee-bytes/screenshot-claude-ai-ui_xdtpmk.png "Un potencial cliente MCP")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743559566/coffee-bytes/screenshot-claude-ai-ui_xdtpmk.png" class="md-local-image" alt="Un potencial cliente MCP" caption="Un potencial cliente MCP" >}}
 
 El cliente representa la interfaz de usuario a la que nosotros le pasaremos nuestros prompts, esta interfaz puede ser Claude Desktop o alguna otra opción.
 
@@ -85,7 +85,7 @@ Para saber que recursos puede leer o modificar un servicio o server, estos imple
 
 Por ejemplo en el [repositorio de Github del MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/github) vemos la lista de acciones que se pueden llevar a cabo, así como los inputs requeridos para ello.
 
-!["Captura de pantalla de las acciones disponibles de un server MCP de Github"](https://res.cloudinary.com/dwrscezd2/image/upload/v1743551599/coffee-bytes/github-mcp-screenshot-list_ad1rel.png "Captura de pantalla de las acciones disponibles de un server MCP de Github")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743551599/coffee-bytes/github-mcp-screenshot-list_ad1rel.png" class="md-local-image" alt="\"Captura de pantalla de las acciones disponibles de un server MCP de Github\"" caption="Captura de pantalla de las acciones disponibles de un server MCP de Github" >}}
 
 Internamente no hay nada mágico, los servicios interactuan con los servidores o fuentes de información por medio de sus respectivas APIs. Observa el código que lleva a cabo la acción listCommits que aparece en la imagen de arriba.
 
@@ -124,7 +124,7 @@ export async function listCommits(
 
 Esta es la parte mágica, el LLM puede "leer" las acciones disponibles del MCP y, basado en el prompt, decidir que acción debe ser ejecutada, entonces el MCP realizará la acción y devolverá la respuesta al LLM, después la respuesta será leída por el LLM, que generará una respuesta final para el usuario.
 
-![MCP Flow Diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1751225840/coffee-bytes/MCP-flow-diagram_jjziao_sfst5j.webp)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751225840/coffee-bytes/MCP-flow-diagram_jjziao_sfst5j.webp" class="md-local-image" alt="MCP Flow Diagram" >}}
 
 Hasta ahora he estado hablando de recursos y acciones, pero en el MCP estas dos acciones que se encargan de darle contexto a un LLM tienen nombres, por supuesto no iban a perder la oportunidad de darle branding a su protocolo.
 

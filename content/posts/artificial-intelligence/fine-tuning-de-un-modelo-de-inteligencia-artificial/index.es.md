@@ -20,7 +20,7 @@ title: Fine-Tuning De Un LLM Guía Práctica Con Recursos
 
 Intenté hacer fine-tuning de un modelo de DeepSeek pero fracasé, luego intenté hacerlo con Llama y tampoco pude conseguirlo, al final logré hacerlo con un modelo de Mistral, específicamente el de 7B de parámetros. 
 
-Te comparto algunos recursos que encontré útiles durate el proceso. A pesar de estar jugando a entrenar LLMs, aún sigo creyendo que [estamos en una burbuja de AI.](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/)
+Te comparto algunos recursos que encontré útiles durate el proceso. A pesar de estar jugando a entrenar LLMs, aún sigo creyendo que [estamos en una burbuja de AI.](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/)
 
 ## ¿Dónde aprender los fundamentos de AI y redes neuronales?
 
@@ -46,7 +46,7 @@ El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y conti
 
 Porque, ¿para qué realizar prompt engineering cuando se puede hacer fine-tuning de un modelo y obtener los mismos resultados?
 
-![Drake hotline bling meme up: prompt engineering down: fine-tuning](https://i.imgflip.com/9kjbo2.jpg "Sólo estoy bromeando, siempre prueba primero con prompt engineering")
+{{< figure src="https://i.imgflip.com/9kjbo2.jpg" class="md-local-image" alt="Drake hotline bling meme up: prompt engineering down: fine-tuning" caption="Sólo estoy bromeando, siempre prueba primero con prompt engineering" >}}
 
 La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastante positivo, pero no logran solucionar problemas particulares enfocados en tareas específicas, sobre todo en areas muy específicas de conocimiento. 
 
@@ -88,7 +88,7 @@ Yo usé datasets de [HuggingFace](https://huggingface.co/datasets/#?), sin embar
 
 Asegúrate de que tu dataset esté en un formato adecuado, yo tuve que preprocesar, uno usando Python, en el que cada linea era un archivo por separado, lo que volvía la importación increíblemente lenta.
 
-![HuggingFace dataset screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o49qurb343h802weo8cv.png)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o49qurb343h802weo8cv.png" class="md-local-image" alt="HuggingFace dataset screenshot" >}}
 
 Ok, ya tenemos los datos, ¿qué LLM usamos?
 
@@ -105,7 +105,7 @@ Yo probé los sisguientes modelos porque eran muy ligeros y no requerían tanto 
 
 Obtuve mejores resultados con los de Mistral, probablemente porque los de DeepSeek fueron entrenados con material de origen chino. 
 
-![Is this Searle's Chinese room meme](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg" class="md-local-image" alt="Is this Searle's Chinese room meme" >}}
 
 De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos (igualito [a la habitación de Searle](/es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/)), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
 
@@ -115,7 +115,7 @@ Ya elegimos modelo y tenemos los datos, ¿dónde entrenamos nuestro LLM? Mientra
 
 Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Google, a través de [Google Colab](https://colab.research.google.com/#?) tiene GPUs disponibles de manera gratuita por una cantidad limitada de horas al día, [Kaggle](https://www.kaggle.com/#?) también **te ofrece 30 horas de uso de GPU a la semana** para que lleves a cabo tus experimentos. ~~Y crees tus imágenes furras usando los modelos prohibidos.~~
 
-![Kaggle free GPUs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png" class="md-local-image" alt="Kaggle free GPUs" >}}
 
 En mi búsqueda también encontré una empresa llamada [salad](https://salad.com/#?), que sirve como intermediario entre usuarios y gamers que quieren alquilar sus GPUs, los precios son increíblemente competitivos. [VastAI](https://vast.ai/#?) también es otra opción. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) también tiene precios bastante competitivos y provee una amplia variedad de GPUs de donde elegir.
 

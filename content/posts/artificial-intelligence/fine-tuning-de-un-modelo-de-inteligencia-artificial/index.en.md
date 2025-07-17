@@ -21,7 +21,7 @@ I tried to fine-tune a DeepSeek model but I failed, then I tried to do it with L
 
 I felt completely lost, lots of tutorials but none seemed to work, hence I decided to share with my readers my notes and some resources that I found useful during the process. 
 
-Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/inteligencia-artificial/the-rise-and-fall-of-the-ai-bubble/).
+Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/).
 
 ## Where to learn the basics of AI and Neural networks?
 
@@ -39,13 +39,13 @@ But if you already know everything about neural networks, then, let's start with
 
 ## What is fine-tuning?
 
-Fine-tuning is the procedure of selecting an already trained model and continuing its training on a particular data set from the field. Like for example a LLM that has been trained specifically in scientific articles about diabetes, which you can do through [the Model Context Protocol](/en/artificial intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/).
+Fine-tuning is the procedure of selecting an already trained model and continuing its training on a particular data set from the field. Like for example a LLM that has been trained specifically in scientific articles about diabetes, which you can do through [the Model Context Protocol](/en/artificial-intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/).
 
 Because, why use prompt engineering when you can fine-tune a model and get the same results?
 
-![Drake hotline bling meme up: prompt engineering down: fine-tuning](https://i.imgflip.com/9kjbo2.jpg "I'm just kidding, always try prompt engineering first")
+{{< figure src="https://i.imgflip.com/9kjbo2.jpg" class="md-local-image" alt="Drake hotline bling meme up: prompt engineering down: fine-tuning" caption="I'm just kidding, always try prompt engineering first" >}}
 
-Most current LLM models exhibit quite positive overall performance, but fail to solve particular problems focused on specific tasks. The fine-tuning procedure provides significant benefits, such as decreased computational costs and the opportunity to use advanced models without the need to build one from scratch. [It may not replace programmers](/en/artificial intelligence/devin-ai-the-supposed-replacement-for-programmers/) but fine-tuning can turn a model into the ultimate prediction tool in an area of knowledge. 
+Most current LLM models exhibit quite positive overall performance, but fail to solve particular problems focused on specific tasks. The fine-tuning procedure provides significant benefits, such as decreased computational costs and the opportunity to use advanced models without the need to build one from scratch. [It may not replace programmers](/en/artificial-intelligence/devin-ai-the-supposed-replacement-for-programmers/) but fine-tuning can turn a model into the ultimate prediction tool in an area of knowledge. 
 
 
 ### Steps needed to fine-tune an LLM
@@ -84,7 +84,7 @@ Now we should have the data, what LLM should we use?
 
 Make sure your dataset is in a proper format. Eg, I had to convert one using Python to JSONL, because each line was a separate file, which made the import incredibly slow.
 
-![HuggingFace dataset screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o49qurb343h802weo8cv.png)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o49qurb343h802weo8cv.png" class="md-local-image" alt="HuggingFace dataset screenshot" >}}
 
 Now we should have the data, what LLM should we use now?
 
@@ -101,9 +101,9 @@ I tested the following models, not because they were the best, but because they 
 
 I got better results with the Mistral LLMs, probably because the DeepSeek ones were trained using Chinese sources. 
 
-![Is this Searle's Chinese room meme](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg" class="md-local-image" alt="Is this Searle's Chinese room meme" >}}
 
-I was actually able to train and deploy it but the model returned Chinese characters, ([just like Searle's room](/en/artificial intelligence/chat-gpt-searles-chinese-room-and-consciousness/)), from time to time as part of the response, although it was incredibly fast.
+I was actually able to train and deploy it but the model returned Chinese characters, ([just like Searle's room](/en/artificial-intelligence/chat-gpt-searles-chinese-room-and-consciousness/)), from time to time as part of the response, although it was incredibly fast.
 
 Now that we have the data and the model, where can we train our LLM? The cheaper the better.
 
@@ -111,7 +111,7 @@ Now that we have the data and the model, where can we train our LLM? The cheaper
 
 It would be best to have your own GPUs, but in case you can't, Google, through [Google Colab](https://colab.research.google.com/#?) has GPUs available for free for a limited amount of hours per day, [Kaggle](https://www.kaggle.com/#?) also **offers you 30 hours of GPU usage per week** to run your experiments. ~~And create your furry images using the forbidden models.~~
 
-![Kaggle free GPUs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png" class="md-local-image" alt="Kaggle free GPUs" >}}
 
 In my fine-tuning adventure I also found a company called [salad](https://salad.com/#?), which serves as an intermediary between users and gamers who want to rent their GPUs, the prices are incredibly competitive. [VastAI](https://vast.ai/#?) is also another option. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) also has very competitive prices and provices a wide variety of GPUs.
 

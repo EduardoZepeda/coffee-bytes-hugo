@@ -47,19 +47,19 @@ keepassxc
 
 Al abrir el programa nos mostrará la leyenda de "Bienvenido". Una vez en este punto crearemos una nueva base de datos, para hacerlo hacemos click en el menú Base de datos.
 
-![Pantalla de incio de keepassxc](images/keepassxc-pantalla-inicio.png)
+{{< figure src="images/keepassxc-pantalla-inicio.png" class="md-local-image" alt="Pantalla de incio de keepassxc" >}}
 
 Decide un nombre y una descripción para la base de datos.
 
-![Crear base de datos en keepassxc](images/keepassxc-crear-base-de-datos.png)
+{{< figure src="images/keepassxc-crear-base-de-datos.png" class="md-local-image" alt="Crear base de datos en keepassxc" >}}
 
 A continuación nos pedirá el tiempo de descifrado. Si no sabes para que sirve esto déjalo como esta.
 
-![Tiempo de descifrado en keepassxc](images/keepassxc-tiempo-descifrado.png)
+{{< figure src="images/keepassxc-tiempo-descifrado.png" class="md-local-image" alt="Tiempo de descifrado en keepassxc" >}}
 
 Ahora el programa nos pedirá ingresar una contraseña maestra y confirmarla. **Esta es la única contraseña que necesitarás recordar** y también es la que necesitarás para acceder al resto de las contraseñas. Por esta razón debes **asegurarte de que la contraseña sea lo suficientemente fuerte y también que seas capaz de recordarla**, de otra forma el resto de tus contraseñas serán inaccesibles para ti.
 
-![Creación de una contraseña en keepassxc](images/keepassxc-contrasena.png)
+{{< figure src="images/keepassxc-contrasena.png" class="md-local-image" alt="Creación de una contraseña en keepassxc" >}}
 
 Una vez que hayamos hecho eso se nos creará una carpeta del lado izquierdo. Podemos crear otras carpetas para organizar nuestras contraseñas.
 
@@ -67,20 +67,20 @@ Una vez que hayamos hecho eso se nos creará una carpeta del lado izquierdo. Pod
 
 Para crear una contraseña nueva hacemos click en el icono que contiene el símbolo de suma.
 
-![Crear un registro en keepassxc](images/keepassxc-carpeta.png)
+{{< figure src="images/keepassxc-carpeta.png" class="md-local-image" alt="Crear un registro en keepassxc" >}}
 
 Esto nos arrojará un formulario donde podemos especificar el título, el nombre de usuario, la contraseña, la url del sitio web, una fecha de caducidad opcional y una nota, también opcional.
 
 Presiona el dado para que keepassxc genere una nueva contraseña.
 
-![Crear contraseña en keepassxc](images/formulario-de-contrasena-keepassxc.png)
+{{< figure src="images/formulario-de-contrasena-keepassxc.png" class="md-local-image" alt="Crear contraseña en keepassxc" >}}
 
 Podemos elegir si crear una contraseña nosotros mismos o pedirle al programa que la genere automáticamennte. Y podemos elegir dos modalidades:
 
 * Contraseña: Basada en caracteres aleatorios
 * Frase de contraseña: Basada en palabras aleatorias
 
-![Tipos creación de contraseña en keepassxc](images/modos-creacion-contrasena-keepassxc.png)
+{{< figure src="images/modos-creacion-contrasena-keepassxc.png" class="md-local-image" alt="Tipos creación de contraseña en keepassxc" >}}
 
 En ambos casos podremos elegir la longitud de la contraseña, si queremos que use mayúsculas, minúsculas o caracteres especiales, así como asegurarnos de que la contraseña incluya caracteres de todos los grupos. 
 
@@ -88,11 +88,11 @@ En ambos casos podremos elegir la longitud de la contraseña, si queremos que us
 
 También podemos pedirle a keepassxc que descargue el favicon del sitio web, solo para que se vea bonito en la lista de contraseñas.
 
-![Descargar ícono en keepassxc](images/keepassxc-descargar-icono.png)
+{{< figure src="images/keepassxc-descargar-icono.png" class="md-local-image" alt="Descargar ícono en keepassxc" >}}
 
 Una vez puestas las opciones le daremos click a Aceptar. Si presionamos el icono con la imagen del ojo nos mostrará la contraseña creada.
 
-![contraseña creada y guardada](images/contrasena-guardada-keepassxc.png)
+{{< figure src="images/contrasena-guardada-keepassxc.png" class="md-local-image" alt="contraseña creada y guardada" >}}
 
 El programa guardará los registros y los mostrará en su panel derecho. Si le damos click derecho en la entrada que acabamos de crear podemos copiar el nombre de usuario o la contraseña al portapapeles para usarlo a nuestro gusto. **Por razones de seguridad el programa se encarga de que la contraseña que pasemos al portapapeles solamente esté disponible por un corto periodo de tiempo.**
 

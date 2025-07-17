@@ -29,11 +29,11 @@ Gran parte del software comercial era demasiado pesado, en proporción al tamañ
 
 Antaño, las conexiones a internet eran increíblemente lentas e inestables, dejando de lado el ruido extraño que precedia a cada conexión, los viejos piratas de la internet saben de que hablo.
 
-![Pantalla de descarga de windows con un tiempo de espera en años](./images/slow-internet-connection.jpg "Pantalla de descarga de windows con un tiempo de espera en años")
+{{< figure src="./images/slow-internet-connection.jpg" class="md-local-image" alt="Pantalla de descarga de windows con un tiempo de espera en años" caption="Pantalla de descarga de windows con un tiempo de espera en años" >}}
 
 Por lo anterior, numerosas compañias optaron por distribuir su software por medio de CDs u otros medios externos.
 
-![Diskettes de instalación de Adobe Photoshop antiguos](./images/photoshop-code-box-and-disk.jpg "Diskettes de instalación de Adobe Photoshop antiguos")
+{{< figure src="./images/photoshop-code-box-and-disk.jpg" class="md-local-image" alt="Diskettes de instalación de Adobe Photoshop antiguos" caption="Diskettes de instalación de Adobe Photoshop antiguos" >}}
 
 
 ### Realizar pagos por internet no era algo común
@@ -56,21 +56,21 @@ Posteriormente, notaron que era más lucrativo rentar el software, probablemente
 
 Ofrecer SAAS les  permitió a las empresas poner a disposición un producto o servicio al mercado con un modelo de negocio rentista y asegurarse de que si los clientes deseaban seguir usando un producto (o servicio) deberían pagar mes con mes u olvidarse de usarlo.
 
-![](./images/adobe-meme-saas.jpg)
+{{< figure src="./images/adobe-meme-saas.jpg" class="md-local-image" alt="" >}}
 
 Esto afectaba principalmente a aquellas personas que actualizaban su software raramente. Pues si querían usarlo el siguiente mes, ahora debían de pagar.
 
-![](./images/not-stonks.jpg)
+{{< figure src="./images/not-stonks.jpg" class="md-local-image" alt="" >}}
 
 Sin embargo, al mismo tiempo, permitió a las empresas liberar nuevas versiones de su software de manera más frecuente e iterar con mayor velocidad sobre la información que les proporcionaban los usuarios para mejorar su producto, lo que les permitiría mejorar su producto y hacerlo más atractivo a los clientes.
 
 Dicho lo anterior, quizás pienses que migrar a un modelo de SAAS volvía millonarias a las empresas, pero no sucedió así, al menos no para Adobe.
 
-![Adobe volvió obligatorio el pago mensual en 2017](./images/adobe-stocks.png "Adobe volvió obligatorio el pago mensual en 2017")
+{{< figure src="./images/adobe-stocks.png" class="md-local-image" alt="Adobe volvió obligatorio el pago mensual en 2017" caption="Adobe volvió obligatorio el pago mensual en 2017" >}}
 
 Aunque cabe resaltar que si las ganancias brutas no aumentaron radicalmente, su negocio de SAAS le permitió operar con un margen bruto del 93%. ¡Imagínate, 93%, el sueño más humedo de Jeff Bezos!
 
-![Fuente: https://tomtunguz.com/adobe-saas-growth](./images/adobe-revenue-pricing-2014.webp "Fuente: https://tomtunguz.com/adobe-saas-growth")
+{{< figure src="./images/adobe-revenue-pricing-2014.webp" class="md-local-image" alt="Fuente: https://tomtunguz.com/adobe-saas-growth" caption="Fuente: https://tomtunguz.com/adobe-saas-growth" >}}
 
 ¿Fue un movimiento inteligente? Pues al menos lo parece, ya que lo han mantenido todos estos años, muchísimas empresas siguieron la tendencia junto con Adobe y adoptaron modelos de SAAS.
 
@@ -86,7 +86,7 @@ Once es una compañia que planea ir en contra de la tendencia actual del SAAS. O
 
 En su manifiesto, Once, con la elocuencia del mejor político, promete **un único pago por su software y acceso al código**, ondeando la bandera de una prometedora era post-SAAS.
 
-![El manifiesto de la compañia Once que promete un pago único en sus productos](./images/once-manifesto.png "El manifiesto de la compañia Once que promete un pago único en sus productos")
+{{< figure src="./images/once-manifesto.png" class="md-local-image" alt="El manifiesto de la compañia Once que promete un pago único en sus productos" caption="El manifiesto de la compañia Once que promete un pago único en sus productos" >}}
 
 Sorprendemente, su promesa no se basa en palabras vacias; han desarrollado una aplicación similar a Slack, llamada **campfire**, que promete reducir los costos de operación hasta en un 99.9% y que fue bastante bien recibida en X.
 

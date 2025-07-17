@@ -25,7 +25,7 @@ Ngrok es una aplicación que te permite conectar tu localhost con internet.
 
 Lo que hace Ngrok (Recuerda que ngrock y negrok están mal escritos) es servir como un túnel que redirige cualquier petición web, a través de sus propias urls, a tu localhost. Esto puede usarse para probar un webhook o recibir notificaciones, una tarea bastante común en pasarelas de pago, compartir tu localhost con colaboradores sin necesidad de un dominio propio, etc.
 
-![Esquema del funcionamiento de ngrok](images/EsquemaNgrok.png)
+{{< figure src="images/EsquemaNgrok.png" class="md-local-image" alt="Esquema del funcionamiento de ngrok" >}}
 
 {{<ad>}}
 
@@ -43,7 +43,7 @@ Para ejecutar ngrok en GNU/Linux basta con correr el ejecutable, seguido de la o
 
 Si todo funcionó correctamente verás algo parecido a est en tu terminal
 
-![Información de Ngrok en la terminal](images/NgrokTerminal.png)
+{{< figure src="images/NgrokTerminal.png" class="md-local-image" alt="Información de Ngrok en la terminal" >}}
 
 ¿Qué significa la pantalla de arriba? Significa que todas las peticiones que se hagan a http://ngrok.io; es decir, al subdominio fc2ca35fd170 del dominio de ngrok, se redirigirán a tu localhost, específicamente al puerto 8080. Y es todo, así de simple y fácil de usar.
 
@@ -72,11 +72,11 @@ Si ahora ejecutamos ngrok, especificamos el puerto 8000 y accedemos a la direcci
 ngrok http 8000
 ```
 
-![Información de la información de Ngrok para el ejemplo de Django](images/NgrokEjemploDjango.png)
+{{< figure src="images/NgrokEjemploDjango.png" class="md-local-image" alt="Información de la información de Ngrok para el ejemplo de Django" >}}
 
 Observa el dominio en el que se ejecuta nuestra aplicación de Django.
 
-![Aplicación de Django corriendo en el dominio de Ngrok](images/NgrokTunnel-1.png)
+{{< figure src="images/NgrokTunnel-1.png" class="md-local-image" alt="Aplicación de Django corriendo en el dominio de Ngrok" >}}
 
 ¡Logramos poner nuestra aplicación al acceso de cualquier persona que tenga la url que ngrok nos provee!
 

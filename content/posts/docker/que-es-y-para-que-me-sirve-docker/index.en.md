@@ -72,7 +72,7 @@ If you want to know how a container works, at the code level, I will tell you th
 
 The important thing to remember about virtual machines is that, compared to containers, **they take up a lot of memory space and, because they must load a full operating system, they can take much longer to boot** and, unlike containers, **virtualize the operation of the hardware part.**
 
-![Differences between a virtual machine and docker](images/Diferencias-entre-maquina-virtual-y-docker.png)
+{{< figure src="images/Diferencias-entre-maquina-virtual-y-docker.png" class="md-local-image" alt="Differences between a virtual machine and docker" >}}
 
 In the first image we can see that, in the case of containers, the applications interact directly with Docker, and this, in turn, with the operating system.
 

@@ -40,7 +40,7 @@ tesseract -v
 tesseract 5.3.0
 ```
 
-![Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento.](images/OCRTesseractVersion5vsVersion3-2.png "Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5")
+{{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento." caption="Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5" >}}
 
 
 ### ¿Cómo instalar lenguajes en tesseract?
@@ -70,7 +70,7 @@ Verás que ahora el español ya se encuentra instalado y podemos usarlo para det
 
 Ahora pongámoslo a prueba para reconocer texto en imágenes, directo de la terminal. Yo voy a usar la siguiente imagen:
 
-![Imagen con texto a procesar](images/imagen_con_texto.jpg "Archivo: imagen_con_texto.jpg")
+{{< figure src="images/imagen_con_texto.jpg" class="md-local-image" alt="Imagen con texto a procesar" caption="Archivo: imagen_con_texto.jpg" >}}
 
 
 ```bash
@@ -153,7 +153,7 @@ data = pytesseract.image_to_data(img)
 print(data)
 ```
 
-![Retorno del método image_to_data en tesseract](images/dataTesseract.png)
+{{< figure src="images/dataTesseract.png" class="md-local-image" alt="Retorno del método image_to_data en tesseract" >}}
 
 Si quieres profundizar más visita la [documentación completa de tesseract](https://github.com/tesseract-ocr/tesseract).
 
@@ -169,8 +169,8 @@ La [resolución de captchas](/es/opinion/mi-analisis-de-captchas-anti-bots-venta
 
 Facebook debe usar algún tipo de tecnología similar para censurar las imágenes que incluyen texto ofensivo, de acuerdo a sus políticas, que se suben a su red social.
 
-![Facebook usa OCR para leer el texto de sus imágenes](images/facebook-screenshot-ocr.jpg "Facebook es capaz de leer el texto que aparece en una imagen")
+{{< figure src="images/facebook-screenshot-ocr.jpg" class="md-local-image" alt="Facebook usa OCR para leer el texto de sus imágenes" caption="Facebook es capaz de leer el texto que aparece en una imagen" >}}
 
 Otra de las aplicaciones más comunes la transformación de un libro en pdf en imágenes a texto, ideal para transformar digitalizaciones de libros antiguos a epub o archivos de texto.
 
-Como puedes ver es bastante útil, yo pienso que es una de las aplicaciones de la AI que no desaparecerá [cuando la burbuja de AI truene](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/).
+Como puedes ver es bastante útil, yo pienso que es una de las aplicaciones de la AI que no desaparecerá [cuando la burbuja de AI truene](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/).

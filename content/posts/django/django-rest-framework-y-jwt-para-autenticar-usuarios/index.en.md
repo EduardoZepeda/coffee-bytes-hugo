@@ -49,13 +49,13 @@ A JWT (JSON Web Token) is divided by points into three parts:
 2. The information contained in the token.
 3. The cryptographic signature.
 
-![Parts of a JWT: header, content and signature](images/JWTDjango.png "Structure of a JWT: Algorithm, content and signature")
+{{< figure src="images/JWTDjango.png" class="md-local-image" alt="Parts of a JWT: header, content and signature" caption="Structure of a JWT: Algorithm, content and signature" >}}
 
 Note how we can use the central part to store arbitrary content that we want, such as a user's session data or other information that we consider pertinent.
 
 ## Installation of JWT in Django
 
-First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST](/en/software architecture/basic-characteristics-of-an-api-rest-api/) in Django and the second one to manage the JWTs.
+First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) in Django and the second one to manage the JWTs.
 
 To install them we can use [the virtual environment manager called Pipenv](/en/python/pipenv-the-virtual-environment-manager-you-dont-know/), Poetry or whatever you want. You can also use pip.
 
@@ -150,7 +150,7 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 "access":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzMzYwMDM2LCJqdGkiOiIzYzY2MDI3YzhiMjE0NmM4OGQ5NTY0MGUxYzc1ODAxYSIsInVzZXJfaWQiOjJ9.juG7sbemKUOTEnzNv4XiXCfChrG3q9wBw4Sj0g1L9EM"}
 ```
 
-![Django REST Framework screen, username and password requested](images/JWTApiEndPoint.png "Django REST Framework screen, username and password requested")
+{{< figure src="images/JWTApiEndPoint.png" class="md-local-image" alt="Django REST Framework screen, username and password requested" caption="Django REST Framework screen, username and password requested" >}}
 
 ### Access token in JWT
 
@@ -164,7 +164,7 @@ The access token **has an expiration date, once this date arrives it will no lon
 
 If you decode the token, you will be able to obtain its contents. I have already done it here for you.
 
-![Parts of a JWT: header, content and signature](images/JWTDjangoContenido.png)
+{{< figure src="images/JWTDjangoContenido.png" class="md-local-image" alt="Parts of a JWT: header, content and signature" >}}
 
 Notice how in the content part (data) you can see that the _user_id_ is equal to 2, which is the id or primary key of the user who obtained the token. The first user in my case is the superuser.
 

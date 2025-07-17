@@ -25,7 +25,7 @@ _console.info()_ performs the function of displaying information
 console.info("Texto con propósito informativo")
 ```
 
-![Print with console.info in console](images/info.jpg)
+{{< figure src="images/info.jpg" class="md-local-image" alt="Print with console.info in console" >}}
 
 {{<ad>}}
 
@@ -37,7 +37,7 @@ _console.warn()_ displays a warning message, with yellow background
 console.warn("Muestra un mensaje de advertencia")
 ```
 
-![Print with console.warn in console](images/warn.jpg)
+{{< figure src="images/warn.jpg" class="md-local-image" alt="Print with console.warn in console" >}}
 
 ## Displays an error message
 
@@ -47,7 +47,7 @@ _console.error()_ shows us an error message
 console.error("Muestra un mensaje de error")
 ```
 
-![Error in console printed with console.error](images/error.jpg)
+{{< figure src="images/error.jpg" class="md-local-image" alt="Error in console printed with console.error" >}}
 
 ## Evaluates whether an expression is true, or displays an error
 
@@ -59,9 +59,9 @@ Assertion failed: Este mensaje se muestra porque el primer argumento es false
 console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es true")
 ```
 
-![Console printout with console.assert ara false](images/assertFalse.jpg)
+{{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Console printout with console.assert ara false" >}}
 
-![Console printout with console.assert for true](images/assertTrue.jpg)
+{{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Console printout with console.assert for true" >}}
 
 ## Event account
 
@@ -108,7 +108,7 @@ ram: "HyperX FURY DDR4 8GB"
 <prototype>: Object { … }
 ```
 
-![Console printout with console.dir](images/dir.jpg)
+{{< figure src="images/dir.jpg" class="md-local-image" alt="Console printout with console.dir" >}}
 
 ## Group messages
 
@@ -125,7 +125,7 @@ Mensajes agrupados
 | Info
 ```
 
-![Printout of a group with console.group in console](images/group.jpg)
+{{< figure src="images/group.jpg" class="md-local-image" alt="Printout of a group with console.group in console" >}}
 
 ## Measure time
 
@@ -147,6 +147,6 @@ const books = [{book: "Story of Your Life", author: "Ted Chiang"}, {book: "The l
 console.table(books)
 ```
 
-![Printing table with console.table in console](images/table-1.jpg)
+{{< figure src="images/table-1.jpg" class="md-local-image" alt="Printing table with console.table in console" >}}
 
 With this example I end this entry. I hope that the next time you use _console.log()_ you take into account the different options you have to make easier the development of your code. In this entry I only put the most useful methods, if you want to go deeper into the subject you can consult the [official documentation](https://developer.mozilla.org/es/docs/Web/API/Console)

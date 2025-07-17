@@ -26,7 +26,7 @@ El facebook chat plugin te permite agregar un botón página que se conecta con 
 
 La carga del plugin de facebook desencadena una larga lista de peticiones web que descargan cerca de muchos MB de información y que consumen tiempo valioso que puede impactar la carga de tu página, observa.
 
-![Descargas desencadenadas por el plugin de chat de facebook.](images/CargaArchivosDelFacebookChatPlugin.gif)
+{{< figure src="images/CargaArchivosDelFacebookChatPlugin.gif" class="md-local-image" alt="Descargas desencadenadas por el plugin de chat de facebook." >}}
 
 95 solicitudes y cerca de 3 mb descargados, 4 segundos.
 
@@ -123,7 +123,7 @@ FB.Event.subscribe('xfbml.render', function(){
 
 Con los pasos anteriores estamos retrasando la carga del contenido hasta que el usuario interaccione con el. De esta manera la carga del plugin se retrasa hasta que el usuario quiera usarlo, evitando el impacto en la carga inicial.
 
-![Carga retrasada del plugin de facebook](images/CargaRetardadaDelFacebookChatPlugin.gif)
+{{< figure src="images/CargaRetardadaDelFacebookChatPlugin.gif" class="md-local-image" alt="Carga retrasada del plugin de facebook" >}}
 
 El script del plugin no se activa hasta que interaccionemos con el icono
 

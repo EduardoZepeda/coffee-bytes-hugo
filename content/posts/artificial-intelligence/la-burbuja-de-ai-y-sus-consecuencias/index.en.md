@@ -4,8 +4,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - artificial intelligence
+- opinion
 coverImage: images/ai-rise-and-fall-bubble.jpg
 date: 2024-04-18
 description: We seem to be experiencing an artificial intelligence bubble or ai bubble
@@ -26,7 +26,7 @@ Since ChatGPT rapidly surpassed the record of user growth, artificial intelligen
 
 But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term.
 
-![Meme mocking the capabilities of AI](images/meme-ai-is-this.jpg)
+{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme mocking the capabilities of AI" >}}
 
 ## Is the AI bubble finally bursting out?
 
@@ -46,15 +46,15 @@ It is enough for a company to use AI to grant it with an unknown magic that make
 
 Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of hiring people and investors expect to make the investment of a lifetime.
 
-![My AI reality vs expectations diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png "It's not that AI isn't valuable, it is, but its capabilities are below what companies are promising.")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png" class="md-local-image" alt="My AI reality vs expectations diagram" caption="It's not that AI isn't valuable, it is, but its capabilities are below what companies are promising." >}}
 
 ## AI fever and capital investment
 
 As I said, investors don't want to be left out of this party and are so eager to hit the jackpot and become the new Zuckerberg of artificial intelligence that they open their wallets without thinking every time they hear the word "AI" in the same sentence as "disruptive."
 
-![Wallstreet has no idea about AI](images/wallstreet-is-dumb.jpg)
+{{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI" >}}
 
-But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers](/en/artificial intelligence/devin-ai-the-supposed-replacement-for-programmers/), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
+But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers](/en/artificial-intelligence/devin-ai-the-supposed-replacement-for-programmers/), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
 
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
 
@@ -62,13 +62,13 @@ The market is trying to make a quick and easy buck from the suddenly growing int
 
 In addition to this, most people involved in the financial side of AI don't understand that not much has really changed in the coding world, most solutions just use ChatGPT on the backend, along with a visually appealing interface to present themselves as the next unicorn and look for easy money from investors.
 
-There are even protocols to interact with LLM, like the [Model Context Protocol](/en/artificial intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/).
+There are even protocols to interact with LLM, like the [Model Context Protocol](/en/artificial-intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/).
 
-![Startups are just a wrapper for chatgpt](images/ai-company-chatgpt.jpg)
+{{< figure src="images/ai-company-chatgpt.jpg" class="md-local-image" alt="Startups are just a wrapper for chatgpt" >}}
 
 It's not that using chatGPT for your company is wrong, but if an app is just a GPT wrapper, the risk of becoming a commodity is high, are we going to have thousands of different apps that solve the same problem and are just chatGPT wrappers?
 
-And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks or maybe to improve human's health via [drug design](/en/Artificial intelligence/artificial-intelligence-drug-design-for-developers/). I want more investment in AI, but one that "adds value," not just seeks to profit as quick as possible.
+And not that the above is wrong, but I would prefer that all the possibilities that AI has to offer be explored, that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks or maybe to improve human's health via [drug design](/en/artificial-intelligence/artificial-intelligence-drug-design-for-developers/). I want more investment in AI, but one that "adds value," not just seeks to profit as quick as possible.
 
 ## Companies are running out of Data to train LLM
 
@@ -90,6 +90,6 @@ Don't get me wrong, there is an AI bubble, and the bubble will burst and only th
 
 It is up to them to decide the pace at which this transition will take place despite what the market is trying to shove down your throat.
 
-![dragon ball meme about the AI bubble bursting](images/ai-bubble-explosion-meme.jpg)
+{{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="dragon ball meme about the AI bubble bursting" >}}
 
 My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, crashing the market in the process, and that, when the AI bubble bursts, a lot of people are going to lose money in the process.

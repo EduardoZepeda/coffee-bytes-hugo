@@ -90,14 +90,14 @@ curl localhost:8000/api/09000/
 {"codigoPostal": "09000", "municipio": "Iztapalapa", "estado": "Ciudad de M\u00e9xico", "colonias": ["La Asunci\u00f3n", "San Ignacio", "San Jos\u00e9", "San Lucas", "San Pablo", "San Pedro", "Santa B\u00e1rbara"]}
 ```
 
-![Resultado de consulta del código postal "09000" a la API de Django](images/Api-codigos-postales-mx.png)
+{{< figure src="images/Api-codigos-postales-mx.png" class="md-local-image" alt="Resultado de consulta del código postal \"09000\" a la API de Django" >}}
 
 Un código postal inexistente nos devolverá un estado 404
 
-![Código postal inexistente que devuelve un mensaje de error](images/Captura-de-pantalla-de-2021-11-17-12-15-24.png)
+{{< figure src="images/Captura-de-pantalla-de-2021-11-17-12-15-24.png" class="md-local-image" alt="Código postal inexistente que devuelve un mensaje de error" >}}
 
 Mientras que un código postal inválido nos devolverá un error 400 y un mensaje de error
 
-![Código postal inválido que devuelve un error](images/Codigo-postal-invalido.png)
+{{< figure src="images/Codigo-postal-invalido.png" class="md-local-image" alt="Código postal inválido que devuelve un error" >}}
 
 Lee la corta [documentación oficial en mi repositorio de github](https://github.com/EduardoZepeda/django-postalcodes-mexico) para mayor información.

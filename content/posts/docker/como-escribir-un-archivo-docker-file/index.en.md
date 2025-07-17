@@ -207,4 +207,4 @@ If we open our browser and enter our localhost on port 8000 we will see the Djan
 
 The next step here is to link many Dockerfiles to create a more complex application, for that we could use [Docker-compose (best for simple projects)]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="en" >}}) or Kubernetes (For more complex projects, and probably an overkill for your business idea)
 
-![Django installation success page, shows welcome message and links to documentation](images/djangoRocketNoCursor.gif)
+{{< figure src="images/djangoRocketNoCursor.gif" class="md-local-image" alt="Django installation success page, shows welcome message and links to documentation" >}}

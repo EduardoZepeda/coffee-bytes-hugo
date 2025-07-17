@@ -103,7 +103,7 @@ La única desventaja del ORM de django es su velocidad, pues se queda corto fren
 
 Django cuenta con el [django admin panel](/es/django/django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
-![Panel de administración de Django](images/Django-panel-admin.png)
+{{< figure src="images/Django-panel-admin.png" class="md-local-image" alt="Panel de administración de Django" >}}
 
 ### Ofrece seguridad ante los ataques más comunes
 
@@ -170,7 +170,7 @@ Yo considero esta **la ventaja principal de Django**. A pesar de [no ser el fram
 
 Con Django tendrías un prototipo funcionando más rápido que con cualquier otro framework "menos opinado" o que requiera que programes todo desde cero.
 
-![Porque usar Django](images/meme-django.jpeg)
+{{< figure src="images/meme-django.jpeg" class="md-local-image" alt="Porque usar Django" >}}
 
 ### Django es una solución probada y madura
 
@@ -182,7 +182,7 @@ Considera que Django fue la opción que alguna vez eligieron sitios tan grandes 
 
 Python es genial cuando se trata de Machine Learning, librerías geniales como Pytorch, ScikitLearn, Numpy y Keras son bastante usadas a nivel mundial. Dado que Django está escrito en Python, podras integrar estas librerías de manera nativa a tus proyectos de Django, sin necesidad de crear un servicio nuevo, manteniendo la complejidad de tu código al mínimo.
 
-![Machine learning con Python](images/iceberg-meme.jpg)
+{{< figure src="images/iceberg-meme.jpg" class="md-local-image" alt="Machine learning con Python" >}}
 
 ## Las desventajas de Django
 

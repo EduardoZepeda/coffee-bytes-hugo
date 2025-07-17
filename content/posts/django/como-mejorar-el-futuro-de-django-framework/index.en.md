@@ -4,8 +4,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - django
+- opinion
 coverImage: images/how-to-improve-django.jpg
 date: 2024-06-23
 description: A collection of suggestions and recommendations on how to take Django
@@ -21,13 +21,13 @@ title: How to improve Django Framework?
 
 On June 21, 2024 I started a thread on reddit with the following question: "What would you improve about Django framework?". The response from the community was immediate and the conversation quickly filled up with suggestions on how to improve Django framework, ranging from modest to quite radical. I summarize the results below.
 
-![HTMX Meme](https://htmx.org/img/memes/20yearold.png "HTMX meme")
+{{< figure src="https://htmx.org/img/memes/20yearold.png" class="md-local-image" alt="HTMX Meme" caption="HTMX meme" >}}
 
 ## Would type hints improve Django Framework?
 
 This was the comment that received the most support from the community. Although Python already has optional Type Hints since version 3.5, it seems that implementing them for the purpose of modernizing Django Framework does not seem to be a priority.
 
-![Comment with more support on how to improve Django](images/comment-with-more-support-on-how-to-improve-django.png "Comment with more support on how to improve Django")
+{{< figure src="images/comment-with-more-support-on-how-to-improve-django.png" class="md-local-image" alt="Comment with more support on how to improve Django" caption="Comment with more support on how to improve Django" >}}
 
 The popularity of type hints is such that some users who consider them a significant improvement to the framework have developed [an external library, called django-stubs](https://github.com/typeddjango/django-stubs#?), which aims to revamp the Django Framework with type hints.
 
@@ -43,7 +43,7 @@ However, according to reddit users, there is not much interest from the code mai
 
 The second comment that received the most support states that customizing Django's User model is quite complicated, especially if done mid-project, more specifically changing Django's default login type from user to email.
 
-![Second comment with most support on how to improve Django](images/custom-user-model-to-improve-django.png "Second comment with most support on how to improve Django")
+{{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Second comment with most support on how to improve Django" caption="Second comment with most support on how to improve Django" >}}
 
 Although there are multiple ways to [customize the User model in Django](/en/django/how-to-customize-the-user-model-in-django/), such as using a proxy model, or inheriting from *AbstractUser*, some users find that solution a little bit "hackish".
 
@@ -51,9 +51,9 @@ Although there are multiple ways to [customize the User model in Django](/en/dja
 
 ## REST support in Django without third-party libraries.
 
-Despite the fact that Django has one of the best libraries to create an application that meets the [basic features of a REST API](/en/software architecture/basic-characteristics-of-an-api-rest-api/); yes, I'm talking about DRF (Django Rest Framework). The reddit users consider that Django should provide support for REST APIs "out of the box", as a native part of the framework.
+Despite the fact that Django has one of the best libraries to create an application that meets the [basic features of a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/); yes, I'm talking about DRF (Django Rest Framework). The reddit users consider that Django should provide support for REST APIs "out of the box", as a native part of the framework.
 
-The above seems to me an interesting proposal but I also understand that, despite the maturity of REST, giving it preference over the rest of APIs, such as [the modern Google gRPC](/en/software architecture/fast-and-performant-apis-using-grpc-and-protobuffers/), SOAP, or some API that has not yet emerged, can be considered as a rather risky step by the Django committee. Yes, even if there are complete REST-based libraries, such as [FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}).
+The above seems to me an interesting proposal but I also understand that, despite the maturity of REST, giving it preference over the rest of APIs, such as [the modern Google gRPC](/en/software-architecture/fast-and-performant-apis-using-grpc-and-protobuffers/), SOAP, or some API that has not yet emerged, can be considered as a rather risky step by the Django committee. Yes, even if there are complete REST-based libraries, such as [FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}).
 
 ## Read environment variables in Django without third-party libraries
 
@@ -79,7 +79,7 @@ I guess some users consider that Django should not lag behind and should provide
 
 It seems to me that Django already does an excellent job with its template system and that it combines perfectly with [libraries like HTMX](/en/django/django-and-htmx-modern-web-apps-without-writing-js/), to take advantage of all the power of hypertext without the need to incorporate Javascript to the project.
 
-![Javascript delusion according to HTMX](https://htmx.org/img/memes/original.png "Javascript delusion according to HTMX")
+{{< figure src="https://htmx.org/img/memes/original.png" class="md-local-image" alt="Javascript delusion according to HTMX" caption="Javascript delusion according to HTMX" >}}
 
 Without more to add I leave the link to the discussion if you want to see the rest of [suggestions on how to improve Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/#?)
 

@@ -99,7 +99,7 @@ Its only disadvantage is its speed, as it falls short of alternatives such as sq
 
 Django has the [django admin panel](/en/django/the-django-admin-panel-and-its-customization/), an administration panel that is installed by default. This admin implements a CRUD to the database in a simple way. And, in addition, it has a solid permissions system to restrict access to the data as you want.
 
-![Django admin panel](images/Django-panel-admin.png)
+{{< figure src="images/Django-panel-admin.png" class="md-local-image" alt="Django admin panel" >}}
 
 ### Offers security against the most common attacks
 
@@ -140,7 +140,7 @@ complex)
 * Django-storage (AWS storage)
 * Django-braces (Common functions)
 
-Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/en/software architecture/basic-characteristics-of-an-api-rest-api/), handling permissions and [throttling](/en/software architecture/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
+Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), handling permissions and [throttling](/en/software-architecture/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
 
 Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/en/django/django-channels-consumers-environments-and-events/).
 
@@ -166,7 +166,7 @@ I consider this the main reason to use Django. **Django gets you from an idea to
 
 With Django you would have a working prototype faster than with any other "less opinionated" framework or one that requires you to program everything from scratch.
 
-![Why to use Django](images/meme-django.jpeg)
+{{< figure src="images/meme-django.jpeg" class="md-local-image" alt="Why to use Django" >}}
 
 ### It is a proven solution
 
@@ -178,7 +178,7 @@ Consider that Django was once the choice of sites as big as Instagram or Pintere
 
 Python is great when it comes to Machine Learning, cool libraries like Pytorch, ScikitLearn, Numpy and Keras are widely used worldwide. Since Django is written in Python, you will be able to integrate these libraries natively into your Django projects, without the need to create a new service.
 
-![Machine learning with Python](images/iceberg-meme.jpg)
+{{< figure src="images/iceberg-meme.jpg" class="md-local-image" alt="Machine learning with Python" >}}
 
 ## The disadvantages of Django
 

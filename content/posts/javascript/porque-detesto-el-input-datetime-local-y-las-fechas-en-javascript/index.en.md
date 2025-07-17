@@ -27,7 +27,7 @@ Javascript uses months starting from index 0 and days from index 1, two objects 
 
 Languages like [Python have better abstractions than Javascript](/en/javascript/python-vs-javascript-which-is-the-best-programming-language/)
 
-![Javascript's date management is not intuitive](images/date-javascript.webp "Javascript's date management is not intuitive")
+{{< figure src="images/date-javascript.webp" class="md-local-image" alt="Javascript's date management is not intuitive" caption="Javascript's date management is not intuitive" >}}
 
 {{<ad>}}
 
@@ -35,13 +35,13 @@ Languages like [Python have better abstractions than Javascript](/en/javascript/
 
 In the case of scheduling an event with a date and time, it is tempting to use the native datetime-local input already provided by HTML. However, this field by default requires a date in "*YYYYY-MM-DDThh:mm*" format, while javascript returns the dates in a Date object, which you must transform to ISO 6801 "*YYYYY-MM-DDThh:mm.iiiZ*", where the "i" is microseconds (or to another format with a function of its own).
 
-![Two object with the same date in Javascript aren't equal](images/two-dates-javascript.png "Javascript's abstraction when it comes to dates can be confusing")
+{{< figure src="images/two-dates-javascript.png" class="md-local-image" alt="Two object with the same date in Javascript aren't equal" caption="Javascript's abstraction when it comes to dates can be confusing" >}}
 
 To perform this transformation, the most obvious way is to remove the letter "Z", but if you try to assign that date to the datetime-input input, it will allow the user to select the milliseconds, which really has little application for most users. The correct thing to do would be to slice from the beginning, making a slice from position 0 to the sensitivity we need. 
 
 Well, after this the datetime-local input will work and show the date, the problem now is that after validating your HTML field and probably before saving those dates in some storage media (postgres, redis, etc.), you will want to make modifications, so you will have to convert them back to a Date object in javascript in case you want to manage them, which again implies another conversion.
 
-![A meme that with irony, makes fun of Javasript's date management](images/formatting-dates-in-javascript.jpg "Oh, mom! Not javascript again!")
+{{< figure src="images/formatting-dates-in-javascript.jpg" class="md-local-image" alt="A meme that with irony, makes fun of Javasript's date management" caption="Oh, mom! Not javascript again!" >}}
 
 But what if we use a library to handle those changes? 
 
@@ -57,7 +57,7 @@ The fact that these libraries are popular only highlights the shortcomings of Ja
 
 And yes, I know what you're thinking. Although I really like [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), I'm also able to recognize their shortcomings and areas for improvement.
 
-![Go date formatting is awful too](images/date_formatting_golang.webp "Go's date formatting, like Javascript's, is awful")
+{{< figure src="images/date_formatting_golang.webp" class="md-local-image" alt="Go date formatting is awful too" caption="Go's date formatting, like Javascript's, is awful" >}}
 
 ## Temporal will solve all this mess
 

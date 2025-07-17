@@ -4,8 +4,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - artificial intelligence
+- opinion
 coverImage: images/bolt-vs-lovable-v0-vercel.jpg
 date: '2025-06-03T16:01:02-06:00'
 description: A comparison between Bolt, Lovable, and V0 Vercel for creating landing
@@ -93,7 +93,7 @@ It's not necessarily a bad thing, but it does take away from the website's perso
 
 This is bad news if you want a website that stands out from the crowd, as the only solution is customization, either by a professional or by spending hours on the model to get something different.
 
-![All AI landing page looks the same](https://res.cloudinary.com/dwrscezd2/image/upload/v1752184598/coffee-bytes/ai-layout-landing_nsyj1p.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1752184598/coffee-bytes/ai-layout-landing_nsyj1p.png" class="md-local-image" alt="All AI landing page looks the same" >}}
 
 ### LLM generators usually forget about SEO
 

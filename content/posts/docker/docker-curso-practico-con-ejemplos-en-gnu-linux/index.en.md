@@ -85,7 +85,7 @@ richarvey/nginx-php-fpm Container running Nginx + PHP-FPM capable of…   787   
 On the other hand, if you prefer to do it in a more visual way you can visit [Docker hub](https://hub.docker.com/). There you can get any kind of
 image you can imagine, even upload your own. Take a look around and see all the options that are available for download. We won't be downloading any others for now.
 
-![Screenshot from Dockerhub, the official repository for Docker images](images/Docker-hub.png)
+{{< figure src="images/Docker-hub.png" class="md-local-image" alt="Screenshot from Dockerhub, the official repository for Docker images" >}}
 
 ## See images
 
@@ -319,7 +319,7 @@ docker restart <container_name_or_id>
 
 So far we have created containers with which we cannot interact from the outside. If we try to open localhost we will see that our Nginx container does not return anything.
 
-![Firefox connection error page](images/ErrorFirefox.png "Firefox error when trying to access Nginx container")
+{{< figure src="images/ErrorFirefox.png" class="md-local-image" alt="Firefox connection error page" caption="Firefox error when trying to access Nginx container" >}}
 
 This is because each container has its own network and its own ports. If we want to redirect the ports of the container to the ports of our computer we use the option _-p_, **placing first the port number of our computer** separated with a colon of the one that corresponds to the container.
 
@@ -331,7 +331,7 @@ The above command created an instance of the Nginx web server, so we will redire
 
 When you finish executing this command you can open your browser and check that you are running an Nginx server.
 
-![Welcome message from a server](images/nginx-corriendo-sobre-docker.png)
+{{< figure src="images/nginx-corriendo-sobre-docker.png" class="md-local-image" alt="Welcome message from a server" >}}
 
 ## Data persistence with volumes in Docker
 

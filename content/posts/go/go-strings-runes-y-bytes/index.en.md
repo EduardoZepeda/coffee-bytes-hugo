@@ -28,7 +28,7 @@ So how does the computer know which number corresponds to which letter? Well, a 
 
 This topic is quite extensive and there is already enough information on the internet, so just keep in mind that behind each character there is a number that represents it and that this character depends on the table we use to represent it.
 
-![ASCII Table](images/ASCII-Table-wide.jpg)
+{{< figure src="images/ASCII-Table-wide.jpg" class="md-local-image" alt="ASCII Table" >}}
 
 ASCII table with modified colors taken from [wikimedia](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg).
 
@@ -64,7 +64,7 @@ fmt.Println(string(ch))
 // 'A'
 ```
 
-![Diagram of a byte in go](images/ByteEnGo.jpg "Representation of the letter 'A' in decimal notation. The square represents a byte or 8 bits.")
+{{< figure src="images/ByteEnGo.jpg" class="md-local-image" alt="Diagram of a byte in go" caption="Representation of the letter 'A' in decimal notation. The square represents a byte or 8 bits." >}}
 
 ### Array of bytes
 
@@ -118,7 +118,7 @@ fmt.Printf("type:%T, value:%v\n", runa, runa)
 
 Notice how the type remains the same, but its value is now 20154, because being an int32 we have access to 2³¹-1 (remember that a bit is used for the positive or negative sign).
 
-![Outline of a rune in memory](images/RuneEnGo-2.jpg)
+{{< figure src="images/RuneEnGo-2.jpg" class="md-local-image" alt="Outline of a rune in memory" >}}
 
 Representation of the character '人' in decimal notation. The square represents a 32 bits.
 
@@ -156,7 +156,7 @@ fmt.Println(len(s))
 // 23
 ```
 
-![Difference in size of characters in a string in go](images/runesEnGo.png "Difference in size of characters in a string in go")
+{{< figure src="images/runesEnGo.png" class="md-local-image" alt="Difference in size of characters in a string in go" caption="Difference in size of characters in a string in go" >}}
 
 When iterating over our string, we will be iterating byte by byte, so we will print 23 bytes, each byte expressed in octadecimal notation.
 

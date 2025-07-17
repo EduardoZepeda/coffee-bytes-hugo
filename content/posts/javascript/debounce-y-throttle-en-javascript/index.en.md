@@ -20,7 +20,7 @@ keywords:
 title: Limit the execution of functions in JS with Debounce and Throttle
 ---
 
-Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. Patterns are not exclusive to Javascript; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/en/software architecture/throttling-on-nginx/).
+Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. Patterns are not exclusive to Javascript; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/en/software-architecture/throttling-on-nginx/).
 
 Both patterns generate a function that receives a callback and a timeout or delay.
 
@@ -41,7 +41,7 @@ The debounce pattern postpones the execution of a function until a certain waiti
 
 Further attempts to execute the function will cancel the pending execution and restart the timeout.
 
-![Simplified debounce pattern schematic](images/Bounce-design-pattern-programming.png)
+{{< figure src="images/Bounce-design-pattern-programming.png" class="md-local-image" alt="Simplified debounce pattern schematic" >}}
 
 ### Debounce pattern explanation
 
@@ -69,7 +69,7 @@ But now pay attention to the clearTimeout. Every time we call the debounce funct
 
 The throttling pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.
 
-![Simplified diagram of the throttling pattern](images/throttling-eng.jpg)
+{{< figure src="images/throttling-eng.jpg" class="md-local-image" alt="Simplified diagram of the throttling pattern" >}}
 
 ### Explanation of throttling pattern
 

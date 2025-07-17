@@ -44,19 +44,19 @@ keepassxc
 
 When we open the program it will show us the "Welcome" legend. Once in this point we will create a new database, to do it we click on the Database menu.
 
-![keepassxc startup screen](images/keepassxc-pantalla-inicio.png)
+{{< figure src="images/keepassxc-pantalla-inicio.png" class="md-local-image" alt="keepassxc startup screen" >}}
 
 Decide on a name and description for the database.
 
-![Create database in keepassxc](images/keepassxc-crear-base-de-datos.png)
+{{< figure src="images/keepassxc-crear-base-de-datos.png" class="md-local-image" alt="Create database in keepassxc" >}}
 
 Then it will ask for the decryption time. If you do not know what this is for, leave it as it is.
 
-![decryption time in keepassxc](images/keepassxc-tiempo-descifrado.png)
+{{< figure src="images/keepassxc-tiempo-descifrado.png" class="md-local-image" alt="decryption time in keepassxc" >}}
 
 Now the program will ask us to enter a master password and confirm it. **This is the only password you will need to remember** and it is also the one you will need to access the rest of the passwords. For this reason you should **make sure that the password is strong enough and also that you are able to remember it**, otherwise the rest of your passwords will be inaccessible to you.
 
-![Create a password in keepassxc](images/keepassxc-contrasena.png)
+{{< figure src="images/keepassxc-contrasena.png" class="md-local-image" alt="Create a password in keepassxc" >}}
 
 Once we have done that, a folder will be created on the left side. We can create other folders to organize our passwords.
 
@@ -64,20 +64,20 @@ Once we have done that, a folder will be created on the left side. We can create
 
 To create a new password click on the icon with the plus sign.
 
-![Create a record in keepassxc](images/keepassxc-carpeta.png)
+{{< figure src="images/keepassxc-carpeta.png" class="md-local-image" alt="Create a record in keepassxc" >}}
 
 This will bring up a form where we can specify the title, username, password, website url, an optional expiration date and a note, also optional.
 
 Click on the dice to have keepassxc generate a new password.
 
-![Create password in keepassxc](images/formulario-de-contrasena-keepassxc.png)
+{{< figure src="images/formulario-de-contrasena-keepassxc.png" class="md-local-image" alt="Create password in keepassxc" >}}
 
 We can choose whether to create a password ourselves or ask the program to generate it automatically. And we can choose two modes:
 
 * Password: Based on random characters
 * Passphrase: Based on random words
 
-![Types of password creation in keepassxc](images/modos-creacion-contrasena-keepassxc.png)
+{{< figure src="images/modos-creacion-contrasena-keepassxc.png" class="md-local-image" alt="Types of password creation in keepassxc" >}}
 
 In both cases we can choose the length of the password, whether we want to use uppercase, lowercase or special characters, as well as make sure that the password includes characters from all groups.
 
@@ -85,11 +85,11 @@ In both cases we can choose the length of the password, whether we want to use u
 
 We can also ask keepassxc to download the website's favicon, just to make it look nice in the password list.
 
-![Download icon in keepassxc](images/keepassxc-descargar-icono.png)
+{{< figure src="images/keepassxc-descargar-icono.png" class="md-local-image" alt="Download icon in keepassxc" >}}
 
 Once the options have been set, click on Accept. If we press the icon with the image of the eye it will show us the password created.
 
-![password created and saved](images/contrasena-guardada-keepassxc.png)
+{{< figure src="images/contrasena-guardada-keepassxc.png" class="md-local-image" alt="password created and saved" >}}
 
 The program will save the records and display them in its right pane. If we right click on the entry we have just created we can copy the username or password to the clipboard to use it as we wish. **For security reasons the program makes sure that the password we pass to the clipboard is only available for a short period of time **.
 

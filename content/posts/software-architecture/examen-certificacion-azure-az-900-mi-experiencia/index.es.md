@@ -40,7 +40,7 @@ Para conseguir lo anterior necestas conocer la arquitectura básica de Azure, su
 
 El examen se llevó a cabo a través de la plataforma [Evaluaasi](https://www.evaluaasi.com/#?), a través de la cual descargas un programa que se conecta a un escritorio remoto para la realización al examen. Este programa monitoreará tu computadora y dispositivos conectados, probablemente para evitar que un usuario haga trampa de alguna manera; he escuchado que algunos procesos de evaluación son tan estrictos que solicitan ver la habitación en la que realizarás el examen antes de comenzar.
 
-![Evaluaasi plataforma](images/evaluaasi-plataforma.jpg "Pantalla de inicio de la plataforma de evaluassi")
+{{< figure src="images/evaluaasi-plataforma.jpg" class="md-local-image" alt="Evaluaasi plataforma" caption="Pantalla de inicio de la plataforma de evaluassi" >}}
 
 Llegada la hora del examen, y una vez conectado al escritorio remoto, un evaluador colocará su usuario y contraseña para darte acceso al examen. 
 
@@ -50,7 +50,7 @@ Según me dijeron en uno de sus correos, la aplicación del examen puede pospone
 
 La duración del examen es de aproximadamente 60 minutos y cuenta con 45 preguntas, hay preguntas de opción múltiple, verdadero o falso, de relacionar columnas e incluso algunas en las que tienes que elegir una opción del marketplace de Microsoft directamente, justo como si te encontraras en el navegador.
 
-![Captura de pantalla del portal de Azure](images/portal-azure.png "Portal de azure")
+{{< figure src="images/portal-azure.png" class="md-local-image" alt="Captura de pantalla del portal de Azure" caption="Portal de azure" >}}
 
 Puedes saltar preguntas y marcarlas para regresar a ellas más adelante, lo cual te recomiendo bastante porque el tiempo está justo, a mi me sobraron 10 minutos, pero hubo algunas preguntas que no pude contestar en la primera vuelta.
 
@@ -74,7 +74,7 @@ Para estudiar utilicé los siguientes recursos, te dejo una descripción breve d
 
 La plataforma de [microsoft Learn](https://docs.microsoft.com/en-us/learn/) es el recurso por defecto,  pues nadie mejor que microsoft para para empezar a leer las características básicas de la nube de Azure. Sin embargo, al ser una solución basada únicamente en texto puede llegar a ser algo tediosa. Además, la gran cantidad de información puede hacer que se sientan perdidas aquellas personas que tienen su primer acercamiento con las nuevas tecnologías.
 
-![Plataforma de microsoft Learn](images/plataforma-microsoft-learn.jpg "Plataforma de microsoft learning")
+{{< figure src="images/plataforma-microsoft-learn.jpg" class="md-local-image" alt="Plataforma de microsoft Learn" caption="Plataforma de microsoft learning" >}}
 
 La plataforma de e-learning también está disponible en español, solo selecciona el idioma. 
 
@@ -84,7 +84,7 @@ Lee más adelante para detalles del contenido de esta plataforma.
 
 Aprenderbigdata tiene una [guia de examen en 5 archivos PDF](https://aprenderbigdata.com/az-900-azure-fundamentals/) bastante completa con preguntas en español, que puedes usar a manera de cuestionario de repaso, se encuentra casi al final de la página.
 
-![Aprender big data](images/aprender-big-data.jpg)
+{{< figure src="images/aprender-big-data.jpg" class="md-local-image" alt="Aprender big data" >}}
 
 ### Sitio web de Adam Marczac
 
@@ -123,7 +123,7 @@ El proceso consiste en terminar los siguientes 4 cursos:
 
 En general los dos primeros son bastantes sencillos, sobre todo si ya tienes experiencia usando los [comandos básicos de la linea de comandos](/es/linux y devops/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/), los últimos dos sí requieren algo de experiencia o mucha práctica de tu parte para aprobarlos.
 
-![Curso de Platzi de administración de servidores Linux](images/administracion-servidores-linux.jpg "Curso de administración de servidores Linux")
+{{< figure src="images/administracion-servidores-linux.jpg" class="md-local-image" alt="Curso de Platzi de administración de servidores Linux" caption="Curso de administración de servidores Linux" >}}
 
 ### Prácticas de Microsoft Learn 
 

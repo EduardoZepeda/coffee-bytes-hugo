@@ -32,9 +32,9 @@ Wordpress is a very popular system on the Internet and already has thousands of 
 
 ## My experience so far with wordpress
 
-To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/en/software architecture/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev#?).
+To tell the truth this is the first time I create something with wordpress. Installing it in [Digital Ocean](/en/software-architecture/digital-ocean-analysis-and-my-experience-as-a-user/) was quite easy and in less than 5 minutes I had a perfectly functional blog online, ready to start publishing in it and with an arsenal of tools to facilitate my work. My only two problems (if you can call them that) were two; the first one, the high spam content; the second one, apache2 does not serve content using http2 by default, so I needed to go to the terminal to modify the Apache2 configuration. Other than that, I have not had any problems with Wordpress, no data loss, no bugs in the code; my website runs relatively well, with very good metrics in [lighthouse](https://web.dev#?).
 
-![Web core vitals de coffee bytes](images/web_core_vitals_de_mi_blog.png)
+{{< figure src="images/web_core_vitals_de_mi_blog.png" class="md-local-image" alt="Web core vitals de coffee bytes" >}}
 
 ## Developers' hatred of wordpress
 
@@ -42,7 +42,7 @@ I've heard that hating Wordpress among developers is all the rage and I understa
 
 On the other hand, I totally agree with the developers when they say that using Wordpress for ecommerce, photo galleries or any other application is a lousy idea, I totally share their feeling. As I wrote before, I think that in those situations where you need a much more customized solution you have to move on from Wordpress completely. However, it is the developer's job to explain to the client the added value that a customized website, programmed from scratch, can bring to their brand.
 
-![Rapper wordpress meme](images/wordpress-meme.jpg)
+{{< figure src="images/wordpress-meme.jpg" class="md-local-image" alt="Rapper wordpress meme" >}}
 
 ## TLDR;
 

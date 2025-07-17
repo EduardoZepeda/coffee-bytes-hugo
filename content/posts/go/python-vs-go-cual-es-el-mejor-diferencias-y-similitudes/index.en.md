@@ -31,7 +31,7 @@ This comparison is going to be a bit sloppy, since we are going to compare Pytho
 
 **Python is an interpreted and imperative language while Go is a compiled, concurrent and imperative language.**
 
-![Go is a compiled language whereas Python is an interprepted one](images/codigo-compilado-vs-interpretado-go-vs-python.png)
+{{< figure src="images/codigo-compilado-vs-interpretado-go-vs-python.png" class="md-local-image" alt="Go is a compiled language whereas Python is an interprepted one" >}}
 
 I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript comparison](/en/javascript/python-vs-javascript-which-is-the-best-programming-language/), so if you want to refresh your memory a bit go there.
 
@@ -49,7 +49,7 @@ The comparison here is going to become somewhat unfair, but I'll make it anyway:
 
 How fast is go compared to python? I made a small test using [multitime](https://tratt.net/laurie/src/multitime/#?) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
 
-![python vs go speed comparison using fibonacci by recursion](images/fibo-go-vs-python-velocidad.png  "The lower the better. Go, being a compiled language is way faster than Python.")
+{{< figure src="images/fibo-go-vs-python-velocidad.png" class="md-local-image" alt="python vs go speed comparison using fibonacci by recursion" caption="The lower the better. Go, being a compiled language is way faster than Python." >}}
 
 ## My opinion on the hatred of go
 
@@ -318,7 +318,7 @@ Go, as of the date of writing this article, requires installation on the system,
 
 While Python has a quite wide support, as it is found in generally installed in all GNU/Linux distributions and you only need to open a terminal and type the word Python to start using it. Open a terminal and type the word Python to start using it.
 
-![Python running on a terminal](images/PythonConsola.gif)
+{{< figure src="images/PythonConsola.gif" class="md-local-image" alt="Python running on a terminal" >}}
 
 ## Common usages of Python and Go
 
@@ -328,7 +328,7 @@ Go can be used for almost anything, but it has a strong presence in devops tools
 
 The [docker containers are written using go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
-![Logos of technologies created with go](images/traeffik-y-kubernetes-1024x505-1.jpg "Traefik, docker, kubernetes, influxdb, and terraform are all written in Go.")
+{{< figure src="images/traeffik-y-kubernetes-1024x505-1.jpg" class="md-local-image" alt="Logos of technologies created with go" caption="Traefik, docker, kubernetes, influxdb, and terraform are all written in Go." >}}
 
 They have also created such great tools as [Pocketbase](https://pocketbase.io/#?), an excellent example of Backend as a service and open source alternative to firebase.
 
@@ -340,13 +340,13 @@ Python is a multi-purpose language, allowing you to create basically everything 
 
 To date Python is much more popular than Go. You can see that Go gained popularity between the period between 2011 and 2015, but stabilized to fall below Python.
 
-![Google trends comparing Go vs Python. Python is more popular](images/python-vs-go-google-trends.png "Python is more popular than Go")
+{{< figure src="images/python-vs-go-google-trends.png" class="md-local-image" alt="Google trends comparing Go vs Python. Python is more popular" caption="Python is more popular than Go" >}}
 
 ### Popularity among developers
 
 Go is a very popular language among developers, even more than Javascript, but less loved than Python and Typescript.
 
-![In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it.](images/python-vs-go-popularity.png "In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it.").
+{{< figure src="images/python-vs-go-popularity.png" class="md-local-image" alt="In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it." caption="In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it." >}}.
 
 ## Python vs Go salaries
 
@@ -360,7 +360,7 @@ Go is no slouch, it has understood quite well the benefits of a standard library
 
 You can see the available libraries and functions in the section
 
-![standard library section of its official web site](https://pkg.go.dev/std)
+{{< figure src="https://pkg.go.dev/std" class="md-local-image" alt="standard library section of its official web site" >}}
 
 ## Packages
 
@@ -370,7 +370,7 @@ Go does not have an official package repository like Python does. The packages a
 
 The [import of modules and packages into Go](/en/go/go-package-import-and-module-management/) may seem a bit strange to you. strange, there are no relative imports, like in Python or Javascript.
 
-![Awesome Go page](images/AwesomeGo.png "Screenshot of Awesome Go")
+{{< figure src="images/AwesomeGo.png" class="md-local-image" alt="Awesome Go page" caption="Screenshot of Awesome Go" >}}
 
 Awesome Go features links to a large number of sorted Go packages by theme
 
@@ -385,7 +385,7 @@ Python has 336,000 in pypi, many of them are available to be using pip or any ot
 
 Python has a gigantic community, compared to go, and they have packages for almost everything you can imagine.
 
-![screenshot of the Python Pypi package index](images/Pypi.png "The Python Pypi package index")
+{{< figure src="images/Pypi.png" class="md-local-image" alt="screenshot of the Python Pypi package index" caption="The Python Pypi package index" >}}
 
 
 ## Web frameworks
@@ -394,7 +394,7 @@ Python has a gigantic community, compared to go, and they have packages for almo
 
 The frameworks available for Go focus on speed. Since the language language is new, they are relatively young technologies but extremely fast and efficient, being efficient, being able to serve many, many requests per second. If speed is a is a requirement for your project, consider them seriously.
 
-![Most popular Go frameworks: Hugo, Beego, Echo, Buffalo, Go revel](images/Frameworks-web-Go.jpg "Go frameworks logos")
+{{< figure src="images/Frameworks-web-Go.jpg" class="md-local-image" alt="Most popular Go frameworks: Hugo, Beego, Echo, Buffalo, Go revel" caption="Go frameworks logos" >}}
 
 ### How fast are Go web frameworks compared to Python web frameworks?
 
@@ -412,7 +412,7 @@ While in Python we already have some well proven solutions, solutions, character
 
 Among the frameworks [Django, one of the favorite frameworks of Python](/en/django/why-should-you-use-django-framework/)
 
-![Python's most popular frameworks are: Django, Fastapi, flask](images/python-frameworks.jpg "Most popular Python frameworks")
+{{< figure src="images/python-frameworks.jpg" class="md-local-image" alt="Python's most popular frameworks are: Django, Fastapi, flask" caption="Most popular Python frameworks" >}}
 
 Even though most Python frameworks are old, it doesn't mean that new frameworks are not appearing lately.
 [Fastapi]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}), which I already did a tutorial on, is also a fast-growing new framework that is gaining popularity day by day.

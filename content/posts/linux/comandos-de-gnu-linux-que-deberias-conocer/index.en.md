@@ -32,19 +32,19 @@ Before starting with the commands I want to mention a couple of small tips or fu
 
 If there is a conflict, just press the TAB key twice and it will show the available options. A perfect function for lazy people who don't like to type unnecessarily.
 
-![autocomplete function of the tabular command in a GNU/Linux terminal](images/tabular.gif)
+{{< figure src="images/tabular.gif" class="md-local-image" alt="autocomplete function of the tabular command in a GNU/Linux terminal" >}}
 
 ### Press up to access previously executed commands.
 
 While we are in the terminal, if we press the up key of our GNU/Linux pad it will show us the last command we executed. An ideal function for those moments when we repeat the same command over and over again, hoping that, magically, the result will change.
 
-![Function of accessing previous commands of a GNU/Linux terminal using the up key](images/up.gif)
+{{< figure src="images/up.gif" class="md-local-image" alt="Function of accessing previous commands of a GNU/Linux terminal using the up key" >}}
 
 ### Use CTRL + C to cancel interrupting terminal processes.
 
 If we did something stupid like executing an infinite loop, or we simply want to stop something we are executing, we will use CTRL + C, yes, as if you were going to do a copy paste, but with the terminal open. This will cancel the execution of the command.
 
-![Canceling code execution with CTRL + C](images/ctrl_c.gif)
+{{< figure src="images/ctrl_c.gif" class="md-local-image" alt="Canceling code execution with CTRL + C" >}}
 
 Having explained this, let's start with the commands.
 

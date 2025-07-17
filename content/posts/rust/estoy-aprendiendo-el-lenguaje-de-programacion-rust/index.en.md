@@ -26,7 +26,7 @@ Rust requires you to master a number of concepts that don't exist in other progr
 
 The reason behind Rust's complexity lies on an exotic scenario. [Rust was created by Graydon Hoare after an incident with an out of order elevator](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/), the reason? poor memory management in its code, probably from C or C++.
 
-![Rust was created by Graydon Hoare after a problem with an elevator](https://i.imgflip.com/972mo7.jpg "Rust was created by Royden Lepp after a problem with an elevator")
+{{< figure src="https://i.imgflip.com/972mo7.jpg" class="md-local-image" alt="Rust was created by Graydon Hoare after a problem with an elevator" caption="Rust was created by Royden Lepp after a problem with an elevator" >}}
 
 ### Borrowing in Rust is difficult
 
@@ -40,7 +40,7 @@ Tip: When I was reading about this I found this video helpful to learn borrowing
 
 I haven't read about this concept elsewhere, Lifetimes are used to manually tell the compiler the duration (lifetime) of a variable, in cases where the compiler cannot infer it automatically. Once you grasp the concept, lifetimes are simple in practice but they can reduce the readability of the code, especially if you have never seen them before. 
  
-![How it feels when you first read about lifetimes](https://i.imgflip.com/972opz.jpg "How it feels when you first read about lifetimes")
+{{< figure src="https://i.imgflip.com/972opz.jpg" class="md-local-image" alt="How it feels when you first read about lifetimes" caption="How it feels when you first read about lifetimes" >}}
 
 You don't need to understand exactly what the extra annotations do, the important thing here is that you appreciate how their use can make code quite unreadable and complicated to understand at a glance.
 
@@ -61,7 +61,7 @@ The good news is that, to my relief, it doesn't seem to be a feature that you ha
 Rust has a number of smart pointers to handle memory references in case you need to allocate memory in the heap or access a variable from multiple places (I have previously written, [about Mutex but in Go]({{< ref path="/posts/go/go-condiciones-de-carrera-en-goroutines-y-mutex/index.md" lang="en" >}})). 
 
 
-![When you learn Rust for the first time it feels like this](https://i.imgflip.com/972oco.jpg)
+{{< figure src="https://i.imgflip.com/972oco.jpg" class="md-local-image" alt="When you learn Rust for the first time it feels like this" >}}
 
 Sounds simple but, again, things get complicated when it comes time to write the code and be able to differentiate the use of each and what problem they solve. 
 
@@ -210,7 +210,7 @@ Rustlings contains a [series of exercises to learn and practice Rust](https://gi
 
 When you finish all Rustling's exercises you receive this amazing prize.
 
-![Rustling's reward after finishing all exercises](https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png "Rustling's reward after finishing all exercises")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="Rustling's reward after finishing all exercises" caption="Rustling's reward after finishing all exercises" >}}
 
 ## Rust is not so hard to learn
 

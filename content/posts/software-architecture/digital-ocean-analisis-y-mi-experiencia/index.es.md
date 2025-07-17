@@ -63,7 +63,7 @@ Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alqu
 
 Una vez que creas un Droplet este se encuentra disponible en menos de un minuto.
 
-![Imágenes disponibles para los droplets de Digital Ocean](images/Droplets-de-digital-ocean.png)
+{{< figure src="images/Droplets-de-digital-ocean.png" class="md-local-image" alt="Imágenes disponibles para los droplets de Digital Ocean" >}}
 
 ### Imágenes personalizadas en DO
 
@@ -77,7 +77,7 @@ Digital Ocean también cuenta con Droplets especializados, ya sea en CPU, memori
 
 La versión más básica, y barata, es un CPU compartido, a cambio de ofrecerte los mejores precios.
 
-![Tipos de planes para Digital Ocean](images/Droplets-purpose.png)
+{{< figure src="images/Droplets-purpose.png" class="md-local-image" alt="Tipos de planes para Digital Ocean" >}}
 
 ### Droplets de todos los precios
 
@@ -87,7 +87,7 @@ Solo para que te des una idea, el Droplet más barato tiene un costo de ~~$5 usd
 
 Observa como todos los planes manejan el almacenamiento con un SSD.
 
-![Precios de los diferentes planes ofrecidos por Digital Ocean](images/Precios-digital-ocean.gif)
+{{< figure src="images/Precios-digital-ocean.gif" class="md-local-image" alt="Precios de los diferentes planes ofrecidos por Digital Ocean" >}}
 
 ### El proveedor de cloud con servidores alrededor del mundo
 
@@ -95,7 +95,7 @@ Digital Ocean te posee servidores en diferentes ubicaciones alrededor del mundo.
 
 Yo he probado los servidores de Estados Unidos, por la cercanía con México, y no he tenido problema alguno.
 
-![Ubicaciones de los servidores en Digital Ocean](images/diferentes-ubicaciones-droplets-digital-ocean.png)
+{{< figure src="images/diferentes-ubicaciones-droplets-digital-ocean.png" class="md-local-image" alt="Ubicaciones de los servidores en Digital Ocean" >}}
 
 ## Otros servicios que ofrece de Digital Ocean
 
@@ -103,7 +103,7 @@ Yo he probado los servidores de Estados Unidos, por la cercanía con México, y 
 
 Tiene poco tiempo ofreciendo la integración y despliegue de tus aplicaciones usando tus repositorios de Github o Gitlab. Tú pones el código y ellos compilan y corren tu proyecto.
 
-![Servicio de Apps](images/Digital-Ocean-Apps.png)
+{{< figure src="images/Digital-Ocean-Apps.png" class="md-local-image" alt="Servicio de Apps" >}}
 
 Digital Ocean también ofrece servicios de CDN, llamados spaces, compatibles con S3 desde $5 usd al mes.
 
@@ -133,7 +133,7 @@ Por ejemplo, no cuenta con soluciones en inteligencia artifical para análisis d
 
 Yo he usado Digital Ocean para hostear proyectos personales y también para manejar mis dominios. No he tenido problemas de servidores caídos hasta el momento, o al menos no que me haya dado cuenta o algún usuario me lo haya hecho notar. De hecho, ahora mismo estás leyendo esto ~~desde un Droplet que usa un headless Wordpress y para el frontend frontity (Un framework de React) servido con Nginx~~ Hugo y hosteado en Digital Ocean. Este blog utiliza ~~el servicio más económico, el de $5 usd~~ el servicio de App, que cuesta alrededor de $3 usd, y la verdad es que para la cantidad de tráfico que tengo no se siente lento y cuenta con indicadores decentes en Lighthouse, sin caché de ningún tipo ni ninguna sofisticación.
 
-![Indicadores de Lighthose para coffeebytes.dev](images/Coffeebytes-lighthose-indicadores.png)
+{{< figure src="images/Coffeebytes-lighthose-indicadores.png" class="md-local-image" alt="Indicadores de Lighthose para coffeebytes.dev" >}}
 
 ~~Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/es/linux y devops/mi-experiencia-usando-easywp-y-namecheap/)~~. 
 

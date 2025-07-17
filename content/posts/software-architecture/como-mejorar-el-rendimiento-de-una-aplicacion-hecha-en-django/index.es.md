@@ -48,7 +48,7 @@ Identifica que consultas se están haciendo en tu aplicación usando [django-deb
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
 - **annotate y subqueries** Ten cuidado con la forma en que Django utiliza [anotar y subconsultas y escribir CTEs o SQL en crudo]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="en" >}}) si es necesario.
 
-![Django debug tool bar mostrando las queries SQL de una petición en Django](images/django-debug-tool-bar-numero-queries.png "Django debug tool bar mostrando las queries SQL de una petición en Django ")
+{{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar mostrando las queries SQL de una petición en Django" caption="Django debug tool bar mostrando las queries SQL de una petición en Django" >}}
 
 Ejemplo de uso con *select_related*.
 

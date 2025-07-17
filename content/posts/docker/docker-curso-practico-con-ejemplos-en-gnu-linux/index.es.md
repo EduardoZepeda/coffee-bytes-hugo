@@ -81,7 +81,7 @@ richarvey/nginx-php-fpm            Container running Nginx + PHP-FPM capable of�
 Por otro lado, si prefieres hacerlo de una manera más visual puedes visitar [Docker hub](https://hub.docker.com/). Ahí se puede conseguir cualquier tipo de
 imagen que te imagines, incluso subir las tuyas. Date una vuelta y mira todas las opciones que están disponibles para descargar. Por ahora no descargaremos ninguna otra.
 
-![Captura de pantalla de Dockerhub, el repositorio oficial de imágenes de Docker.](images/Docker-hub.png)
+{{< figure src="images/Docker-hub.png" class="md-local-image" alt="Captura de pantalla de Dockerhub, el repositorio oficial de imágenes de Docker." >}}
 
 ## Ver las imágenes
 
@@ -315,7 +315,7 @@ docker restart <nombre_o_id_del_contenedor>
 
 Hasta ahora hemos creado contenedores con los cuales no podemos interaccionar desde el exterior. Si intentamos abrir localhost del veremos que nuestro contenedor de Nginx no nos devuelve nada.
 
-![Página de error de conexión en Firefox](images/ErrorFirefox.png "Error de Firefox al intentar acceder al contenedor de Nginx")
+{{< figure src="images/ErrorFirefox.png" class="md-local-image" alt="Página de error de conexión en Firefox" caption="Error de Firefox al intentar acceder al contenedor de Nginx" >}}
 
 
 Esto sucede porque cada contenedor tiene su propia red y sus propios puertos. Si queremos redirigir los puertos del contenedor hacia los puertos de nuestra computadora usamos la opción _\-p_, **colocando primero el numero de puerto nuestra computadora** separado con dos puntos del que corresponde al contenedor.
@@ -328,7 +328,7 @@ El comando anterior creó una instancia del servidor web Nginx, por lo que redir
 
 Al terminar de ejecutar este comando puedes abrir tu navegador y comprobar que, ahora sí, está corriendo un servidor en Nginx.
 
-![Mensaje de bienvenida de un servidor](images/nginx-corriendo-sobre-docker.png)
+{{< figure src="images/nginx-corriendo-sobre-docker.png" class="md-local-image" alt="Mensaje de bienvenida de un servidor" >}}
 
 ## Persistencia de datos con volúmenes en Docker
 

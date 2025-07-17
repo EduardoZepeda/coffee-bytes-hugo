@@ -20,7 +20,7 @@ title: My experience using EasyWP and namecheap
 
 A few weeks ago my SO decided to start a blog about coffee shops on Wordpress. After a short talk about the advantages and disadvantages of the most popular registration platforms and resisting my insistent recommendations to use [DigitalOcean](https://m.do.co/c/a22240ebb8e7#?) or [AWS](https://aws.amazon.com/#?), she went to register her domain at namecheap. A few minutes after starting the namecheap registration process, a banner caught her attention: [EasyWP](https://www.easywp.com/#?). In the following lines I will tell you my experience using namecheap with EasyWP
 
-![easywp advertising image](images/EasyWP.png)
+{{< figure src="images/EasyWP.png" class="md-local-image" alt="easywp advertising image" >}}
 
 EasyWP promised a smooth and easy WordPress deployment:
 
@@ -28,7 +28,7 @@ EasyWP promised a smooth and easy WordPress deployment:
 
 Sounds pretty convincing, doesn't it? No more SSH terminals, GNU/Linux package installation or databases. A simple click on the namecheap web page and everything would be ready.
 
-![The namecheap service menu](images/whyEasyWP.jpg)
+{{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="The namecheap service menu" >}}
 
 Service menu in easyWP
 
@@ -50,7 +50,7 @@ The following problem occurred when my SO decided to customize the appearance of
 
 To make the situation even worse, a few days after the claim, on April 23rd, the servers using wordpress and easywp were having problems. The site could not be accessed. The problem was fixed in less than 24 hours, but left numerous errors in the installation again, this time in the installation css files.
 
-![Problem loading css files in easywp](images/errorEasywpNamecheap.png)
+{{< figure src="images/errorEasywpNamecheap.png" class="md-local-image" alt="Problem loading css files in easywp" >}}
 
 Easywp css file loading error
 
@@ -60,4 +60,4 @@ To finish this post, I'll say that I do not recommend EasyWP at all, it has too 
 
 On the other hand, namecheap as a domain name provider is pretty decent. It is easy to use, has a user-friendly interface and quite attentive and friendly customer service.
 
-I do not know the experience that other people have had with EasyWP. The experience I have had with EasyWP has been disappointing. I recommend a thousand times a traditional installation, either writing the necessary code in the command line, using a droplet from [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) or [AWS](https://aws.amazon.com/#?), or even registering the website directly in Wordpress. By the way, if you're interested in reading about [my experience using digital ocean](/en/software architecture/digital-ocean-analysis-and-my-experience-as-a-user/) click it now.
+I do not know the experience that other people have had with EasyWP. The experience I have had with EasyWP has been disappointing. I recommend a thousand times a traditional installation, either writing the necessary code in the command line, using a droplet from [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) or [AWS](https://aws.amazon.com/#?), or even registering the website directly in Wordpress. By the way, if you're interested in reading about [my experience using digital ocean](/en/software-architecture/digital-ocean-analysis-and-my-experience-as-a-user/) click it now.

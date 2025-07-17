@@ -26,7 +26,7 @@ Channels are "conduits" that accept a single type of data. Through these channel
 
 The goroutines can send data to the channels and also read data from them, thus communicating with each other.
 
-![Schematic diagram of how a channel works in go](images/channels-en-go.jpg "Basic diagram of how channels work in Go")
+{{< figure src="images/channels-en-go.jpg" class="md-local-image" alt="Schematic diagram of how a channel works in go" caption="Basic diagram of how channels work in Go" >}}
 
 A channel in go is declared with _make_ and the word _chan_, which refers to the word channel.
 
@@ -34,7 +34,7 @@ A channel in go is declared with _make_ and the word _chan_, which refers to the
 c := make(chan string)
 ```
 
-Channels are used to communicate goroutines, as in the [worker-pool design pattern](/en/software architecture/worker-pool-design-pattern-explanation/)
+Channels are used to communicate goroutines, as in the [worker-pool design pattern](/en/software-architecture/worker-pool-design-pattern-explanation/)
 
 ### Channels or buffered channels
 

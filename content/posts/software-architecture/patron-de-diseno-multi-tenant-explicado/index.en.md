@@ -18,7 +18,7 @@ keywords:
 title: 'Multi Tenant Architecture in Software: What Is It and Its Databases Patterns'
 ---
 
-The **multi tenant architecture** is a software architecture (Don't confuse it with a [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) or [deployment pattern](/en/software architecture/common-and-useful-deployment-patterns/)) approach where **a single instance of an application serves multiple tenants**. You've probably come in contact with this architecture when using dropbox, Slack or any project management SAAS.
+The **multi tenant architecture** is a software architecture (Don't confuse it with a [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) or [deployment pattern](/en/software-architecture/common-and-useful-deployment-patterns/)) approach where **a single instance of an application serves multiple tenants**. You've probably come in contact with this architecture when using dropbox, Slack or any project management SAAS.
 
 In multi-tenant architecture, each tenant can be a company, a group or an individual user, and although they share the same infrastructure and code base, their respective data is **isolated and customized**.
 
@@ -26,7 +26,7 @@ In multi-tenant architecture, each tenant can be a company, a group or an indivi
 
 Imagine a large house with several rooms, the living with roomies millenial's fantasy caused by expensive housing, well I'll put my traumas aside and continue. All tenants live under the same roof (the same application), but each has their own locked room (their data). Although they share the hallway and common facilities (infrastructure), their rooms are private and off-limits to others, of course, under normal conditions and those rooms may look different according to each tenant, as each one has customized it to their liking.
 
-![Oh god no more AI API calls](https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls" >}}
 
 Now, imagine that instead of a house, we are talking about a cloud service, such as Slack or Jira. You and other companies use the same system, but you see your data and customizations, not those of others.
 

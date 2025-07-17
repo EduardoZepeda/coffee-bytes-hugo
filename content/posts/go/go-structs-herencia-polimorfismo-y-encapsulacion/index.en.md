@@ -78,7 +78,7 @@ What if we want a struct with many fields of the same type? Well, obviously **th
 
 To mark a struct, function or variable as private or public, as well as their respective fields for the struct, **it is sufficient to declare the first letter of the field with upper or lower case**, for public and private, respectively.
 
-![Go's privacy rules diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png" class="md-local-image" alt="Go's privacy rules diagram" >}}
 
 Personally, I think this sucks, it is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*, yes, I know it sucks, but let's bear with it for now.
 
@@ -113,7 +113,7 @@ Feel free to think of them as methods in a class.
 
 To access struct instances in functions we need to place a pair of parenthesis between the keyword _func_ and the function name. These parentheses contain the name we will use to access the struct instance, followed by the destructuring character and finally the struct name.
 
-![Composition in go diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png" class="md-local-image" alt="Composition in go diagram" >}}
 
 ```go
 func (myStructVariable *Videogame) PrintYear(){
@@ -218,7 +218,7 @@ You can think of an interface as a kind of “blueprint” that tells an object 
 
 For example: Think of an abstraction that represents each breathing animal, if an animal breathes, we take for granted that it must must implement the “breathe” interface, but each animal will implement it in an unique way, some will breathe using noses, others gills, some will do it very slow, others very fast, but all must implement a method to breathe.
 
-![Interface concept explanation diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png "As long as the animal can breath it satisfy the interface")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png" class="md-local-image" alt="Interface concept explanation diagram" caption="As long as the animal can breath it satisfy the interface" >}}
 
 Based on the above, in Go interfaces are a method to differentiate the behavior of different objects. An interface will be in charge of calling the method that we specify corresponding to its struct type.
 

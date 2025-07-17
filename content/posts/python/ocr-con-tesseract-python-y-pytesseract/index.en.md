@@ -20,7 +20,7 @@ keywords:
 title: OCR with tesseract, python and pytesseract
 ---
 
-Python is super versatile, it has a giant community with libraries that allow you to create neural networks from scracth, [fine-tune a LLM](/en/artificial intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/) or use Optical Character Recognition (OCR). For the latter you just need to install tesseract and python bindings, known as pytesseract and you'll be ready to convert an image to a string in a breeze.
+Python is super versatile, it has a giant community with libraries that allow you to create neural networks from scracth, [fine-tune a LLM](/en/artificial-intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/) or use Optical Character Recognition (OCR). For the latter you just need to install tesseract and python bindings, known as pytesseract and you'll be ready to convert an image to a string in a breeze.
 
 ## Installation of tesseract-ocr
 
@@ -36,7 +36,7 @@ tesseract 5.0.0-alpha-20201224-3-ge1a3
 
 Differences in OCR engine efficiency between tesseract 3 and tesseract 5 alpha. 
 
-![Version 5 shows better performance](images/OCRTesseractVersion5vsVersion3-2.png "Comparison between OCR performance of tesseract 3 and tesseract 5")
+{{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Version 5 shows better performance" caption="Comparison between OCR performance of tesseract 3 and tesseract 5" >}}
 
 ### Installing languages in tesseract
 
@@ -65,7 +65,7 @@ You will see that Spanish is now installed and we can use it to detect the text 
 
 Now let's put it to the test to recognize text in images, straight from the terminal. I am going to use the following image:
 
-![Image with text to be processed](images/imagen_con_texto.jpg "File: image_with_text.jpg")
+{{< figure src="images/imagen_con_texto.jpg" class="md-local-image" alt="Image with text to be processed" caption="File: image_with_text.jpg" >}}
 
 ```bash
 tesseract image_with_text.jpg -
@@ -147,7 +147,7 @@ data = pytesseract.image_to_data(img)
 print(data)
 ```
 
-![Return from image_to_data method in tesseract](images/dataTesseract.png)
+{{< figure src="images/dataTesseract.png" class="md-local-image" alt="Return from image_to_data method in tesseract" >}}
 
 If you want to learn more visit the [complete tesseract documentation](https://github.com/tesseract-ocr/tesseract).
 
@@ -163,8 +163,8 @@ Or maybe a page that uploads images of your products with your prices written on
 
 Facebook must use some kind of similar technology to censor images that include offensive text, according to its policies, that are uploaded to its social network.
 
-![Facebook uses OCR to read the text on its images](images/facebook-screenshot-ocr.jpg "Facebook is capable of reading the text on its images")
+{{< figure src="images/facebook-screenshot-ocr.jpg" class="md-local-image" alt="Facebook uses OCR to read the text on its images" caption="Facebook is capable of reading the text on its images" >}}
 
 Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
 
-As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/inteligencia-artificial/the-rise-and-fall-of-the-ai-bubble/).
+As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/).

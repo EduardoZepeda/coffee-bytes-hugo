@@ -7,8 +7,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - react
+- opinion
 coverImage: images/react-fc-mala-practica.jpg
 date: '2022-02-23'
 description: Usar React.FC podría ser una mala práctica por ir en contra de la naturaleza
@@ -20,7 +20,7 @@ keywords:
 - typescript
 - javascript
 - opinion
-slug: /opinion/por-que-usar-reactfc-podria-ser-una-mala-practica/
+slug: /react/por-que-usar-reactfc-podria-ser-una-mala-practica/
 title: ¿Por qué usar React.FC podria ser una mala practica?
 ---
 
@@ -131,7 +131,7 @@ El núcleo de las críticas se basta en que **React.FC añade el children de man
 
 Como usar [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) para su compilador.
 
-![Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.](https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp "Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust.")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." >}}
 
 Sin embargo, la discusión de la que te hablo es solo eso, una discusión, no está escrita en piedra, puede que tú consideres que es mejor sacrificar un poco de legibilidad en favor de la comodidad o, por el contrario, puede que creas que es importante ser explícito cuando se trabaja con typescript.
 

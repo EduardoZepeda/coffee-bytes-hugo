@@ -22,7 +22,7 @@ title: A Technical SEO Basics Checklist Made For Web Developers
 
 Previously I told you how [I made many mistakes in SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}) when I migrated my website from Wordpress to Hugo, after that I started watching a lot of videos about SEO, especially Romuald's videos (He is one of the biggest SEO influencers in Spanish speaking countries), I've also read [The art of SEO](https://amzn.to/42uNZrv#?) and I tried to summarize everything I learned from him and the book in a short post, just for you, before [AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) explodes, taking SEO with it.
 
-![Romuald Fons Video thumbnail](https://res.cloudinary.com/dwrscezd2/image/upload/v1744676557/coffee-bytes/romu-seo_d3i3l9.jpg "My totally reliable source: Romuald Fons")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744676557/coffee-bytes/romu-seo_d3i3l9.jpg" class="md-local-image" alt="Romuald Fons Video thumbnail" caption="My totally reliable source: Romuald Fons" >}}
 
 I decided to focus on technical SEO because it's the one that I understand, it's less subjective and I'm more familiar with it.
 
@@ -38,7 +38,7 @@ Nobody knows exactly how the search engine algorithm works, so getting to the nu
 
 Even if you manage to vaguely understand how the algorithm works enough to manipulate it, you will have to face the fact that **the algorithm is a shape-shifting entity** and what worked perfectly yesterday may not work today.
 
-![google's algorithm update meme](https://res.cloudinary.com/dwrscezd2/image/upload/v1744675606/coffee-bytes/google-algorithm-update-meme_yd9cb0.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744675606/coffee-bytes/google-algorithm-update-meme_yd9cb0.jpg" class="md-local-image" alt="google's algorithm update meme" >}}
 
 Despite the changes in the SEO world, the current SEO approach is still heavily tied to keywords; short phrases that you include in your website to tell search engines what your website content is about, so it can show it to the right users. 
 
@@ -54,13 +54,13 @@ This topic is very broad, but I hope to summarize in a way that you have a gener
 
 This is probably the most important element of technical SEO basics. A sitemap will tell search engines what pages your application has.
 
-![Sitemap diagram showing available urls](https://res.cloudinary.com/dwrscezd2/image/upload/v1744677728/coffee-bytes/robots-sitemap-relationship_fnzjlr.png "Sitemap diagram showing available urls")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744677728/coffee-bytes/robots-sitemap-relationship_fnzjlr.png" class="md-local-image" alt="Sitemap diagram showing available urls" caption="Sitemap diagram showing available urls" >}}
 
 In many cases, a sitemap can be generated dynamically, some frameworks even have tools that allow you to do it in a few lines, such as [Django (using its sitemap class)]({{< ref path="/posts/django/sitemap-dinamico-con-django/index.md" lang="en" >}}).
 
 Once created, you must tell the search engines where the url of your sitemap is located directly from your administration panel. If you don't explicitly indicate it, they will search in the most common urls or, luckily in the *robots.txt* file.
 
-![Screenshot of Google's search console sitemap section](https://res.cloudinary.com/dwrscezd2/image/upload/v1744673455/coffee-bytes/screenshot-sitemap-google_zx6kdr.png "Screenshot of Google's search console sitemap section")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673455/coffee-bytes/screenshot-sitemap-google_zx6kdr.png" class="md-local-image" alt="Screenshot of Google's search console sitemap section" caption="Screenshot of Google's search console sitemap section" >}}
 
 ### Robots.txt
 
@@ -83,7 +83,7 @@ Sitemap: https://example.org/sitemap.xml
 
 There is some confusion about this, and it's pretty obvious but I'll mention it anyway: **crawlers can completely ignore the instructions in your robots.txt file**, so you should not see it as a protection mechanism for your website, if a crawler wants to, it will ignore the instructions contained there.
 
-![Robots.txt meme](https://res.cloudinary.com/dwrscezd2/image/upload/v1744680644/coffee-bytes/robots-txt-meme_qzyqxq.jpg "Robots.txt won't protect you from crawlers")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744680644/coffee-bytes/robots-txt-meme_qzyqxq.jpg" class="md-local-image" alt="Robots.txt meme" caption="Robots.txt won't protect you from crawlers" >}}
 
 If any influencer tells you otherwise, they're lying through his teeth. Furthermore, I dare them to stop a crawler just by using a *robots.txt* file.
 
@@ -105,7 +105,7 @@ As a curious fact, there is an initiative to popularize the idea of adding the c
 
 Often present as a *ld+json* type *script* tag (although there are other valid formats), which can be found anywhere in your HTML document, it tells search engines what elements your web site has and how they relate to each other.
 
-![Schema Markup diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1744678359/coffee-bytes/schema-markup-diagram_1_laalzs.png "A Schema will provide information about the contents of a webpage")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744678359/coffee-bytes/schema-markup-diagram_1_laalzs.png" class="md-local-image" alt="Schema Markup diagram" caption="A Schema will provide information about the contents of a webpage" >}}
 
 The different types of Schema are very complex and it is a whole topic to discuss, since they vary greatly according to the type of website. 
 
@@ -123,7 +123,7 @@ The metatags that go in the *head* tag of your HTML are metadata about the conte
 
 Within the metatags are especially important the Open Graph, as they are the standard for social networks to obtain information from your web pages, these meta tags are the ones that make one of your links look like this when you share it on social networks.
 
-![Social networks use metatags to display relevant information on a page.](https://res.cloudinary.com/dwrscezd2/image/upload/v1744673982/coffee-bytes/og-meta-tags-visualized_vt8xkh.png "Social networks use metatags to display relevant information on a page.")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673982/coffee-bytes/og-meta-tags-visualized_vt8xkh.png" class="md-local-image" alt="Social networks use metatags to display relevant information on a page." caption="Social networks use metatags to display relevant information on a page." >}}
 
 There are some [meta tag generators](https://www.seoptimer.com/meta-tag-generator#?) that you can use to generate all the boilerplate, or simple ask chatGPT.
 
@@ -133,7 +133,7 @@ A website must provide a good user experience and be responsive, it matters, yes
 
 Content plays a much more important role than the speed of your website, it is common to see websites that are poorly optimized but with a good ranking in search engines, but don't blindly trust me, double-check it, check google's first page results using the following tool.
 
-![Lighthouse score for my portfolio page](https://res.cloudinary.com/dwrscezd2/image/upload/v1744674198/coffee-bytes/Lighthouse-score-for-zeedu_xb0ekq.png "Lighthouse score for my portfolio page")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744674198/coffee-bytes/Lighthouse-score-for-zeedu_xb0ekq.png" class="md-local-image" alt="Lighthouse score for my portfolio page" caption="Lighthouse score for my portfolio page" >}}
 
 Tools like [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) are very useful to measure the performance of a website and also tell you how to improve it.
 
@@ -145,7 +145,7 @@ Make sure the website has a structure that allows search engines to "understand"
 
 For example something similar to this:
 
-![Semantic structure of a website](https://res.cloudinary.com/dwrscezd2/image/upload/v1744674678/coffee-bytes/diagram-website-structure_kfhxde.png "Semantic structure of a website")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744674678/coffee-bytes/diagram-website-structure_kfhxde.png" class="md-local-image" alt="Semantic structure of a website" caption="Semantic structure of a website" >}}
 
 #### Does the URL structure matter in SEO?
 

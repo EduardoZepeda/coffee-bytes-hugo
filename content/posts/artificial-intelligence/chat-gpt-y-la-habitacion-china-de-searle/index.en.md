@@ -19,7 +19,7 @@ keywords:
 title: Chat Gpt, Searle's Chinese Room and consciousness
 ---
 
-Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems](/en/artificial intelligence/i-test-chatgpt-with-codewars-coding-challenges/) others are excited about its potential to change the world of work. Today I leave aside the economic consequences of AI and the question about whether [we're in an AI bubble or not](/en/inteligencia-artificial/the-rise-and-fall-of-the-ai-bubble/), to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand language, is Chat GPT conscious?
+Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems](/en/artificial-intelligence/i-test-chatgpt-with-codewars-coding-challenges/) others are excited about its potential to change the world of work. Today I leave aside the economic consequences of AI and the question about whether [we're in an AI bubble or not](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/), to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand language, is Chat GPT conscious?
 
 > What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. Adriy Burkov
 
@@ -27,7 +27,7 @@ Chat GPT is on everyone's lips, some are afraid of it, because of its [ability t
 
 John Searle, was a scientist who wondered whether a computer can really understand language. And for this he designed a riveting thought experiment:
 
-![Image of Searle's Chinese Room generated with Dall-E](images/la-habitacion-china-de-searle.jpg "Image of Searle's Chinese Room generated with Dall-E")
+{{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Image of Searle's Chinese Room generated with Dall-E" caption="Image of Searle's Chinese Room generated with Dall-E" >}}
 
 A human, inside a room completely isolated from the outside world, with a set of instructions to process Chinese kanjis and return a response. 
 
@@ -84,7 +84,7 @@ As long as we do not understand what consciousness is exactly, we cannot know th
 
 Likewise, there are positions that defend that intelligence does not necessarily depend on consciousness, but that it can exist in systems that do not have subjective experience. For example, it is sufficient to cite Alpha Go and other computer programs that are capable of responding to complex stimuli, without existing beyond the game for which they were programmed, or [sleepwalkers, who can show signs of intelligence even when they are not conscious](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
-Reinforcing the latter argument, Sir Roger Penrose claim in his book, "[Emperor's new mind](https://amzn.to/3XmesG6#?)", that consciousness is not computable, and therefore we will never get to the point of creating an Artificial Consciousness nor AGI using algorithms, nor it will emerge naturally from computational complexity, regardless of the complexity of our [LLM(Large Language Models) fine-tuning methods.](/en/artificial intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/)
+Reinforcing the latter argument, Sir Roger Penrose claim in his book, "[Emperor's new mind](https://amzn.to/3XmesG6#?)", that consciousness is not computable, and therefore we will never get to the point of creating an Artificial Consciousness nor AGI using algorithms, nor it will emerge naturally from computational complexity, regardless of the complexity of our [LLM(Large Language Models) fine-tuning methods.](/en/artificial-intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/)
 
 But even if human beings have unconscious processes capable of existing without the manifestation of consciousness... there must be something more than simple mechanical action, after all animals are much more complex than machines aren't they?
 
@@ -96,7 +96,7 @@ In the book "[Godel, Escher, Bach: An Eternal Golden Braid](https://amzn.to/4boO
 
 As Hofstader rightly speculates, a human would have “stepped out” of the loop to stop for a few moments and investigate what was happening.
 
-![Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid](images/avisa-sphex.jpg "Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid")
+{{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid" caption="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid" >}}
 
 This experiment made me question whether some living beings are nothing more than biological automatons and also where is the turning point at which a living being ceases to be an automaton and becomes conscious, are there gradients of consciousness? And, if so, what does consciousness look like beyond what we humans experience? If consciousness exists as a macroscopic manifestation, is it deterministic, or does it belong to the quantum world of indeterminacy? I don't know and I don't think the truth has yet to pick a winner.
 

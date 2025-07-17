@@ -55,7 +55,7 @@ locust
 
 Tras ejecutarlo tendremos un servidor corriendo en _http://localhost:8089/_. Si entramos veremos una pantalla como esta:
 
-![Pantalla inicial locust](images/PantallaInicialLocust.png)
+{{< figure src="images/PantallaInicialLocust.png" class="md-local-image" alt="Pantalla inicial locust" >}}
 
 Aquí colocamos, en orden, el número de usuarios totales, la velocidad a la que locust creará usuarios por segundo, y el host a testear. Llenamos los datos, yo usaré 200 usuarios, 2 usuarios creados por segundos y http://localhost:1323, que dirige a un servidor web local.
 
@@ -63,13 +63,13 @@ Presionamos el botón "start swarming" y locust se encargará del resto, increme
 
 Observa el monitoreo en tiempo real. Para detenerlo presiona el botón stop de la esquina superior derecha.
 
-![Locust soporta monitoreo en tiempo real](images/MonitoreoTiempoRealLocust.gif)
+{{< figure src="images/MonitoreoTiempoRealLocust.gif" class="md-local-image" alt="Locust soporta monitoreo en tiempo real" >}}
 
 ## Métricas en locust
 
 La pestaña de estadísticas nos nuestra información la siguiente información.
 
-![Estadísticas en Locust](images/EstadisticasLocust.png)
+{{< figure src="images/EstadisticasLocust.png" class="md-local-image" alt="Estadísticas en Locust" >}}
 
 - Tipo de petición
 - Nombre de la ruta
@@ -88,15 +88,15 @@ Cuando detengamos el test, tendremos gráficos descargables en la pestaña chart
 
 El primero con el número de peticiones por segundo en el eje de las Y.
 
-![Peticiones totales por segundo](images/PeticionesPorSegundo.png)
+{{< figure src="images/PeticionesPorSegundo.png" class="md-local-image" alt="Peticiones totales por segundo" >}}
 
 El segundo con el tiempo de respuesta en el eje de las Y.
 
-![Tiempo de respuesta](images/TiempoDeRespuesta.png)
+{{< figure src="images/TiempoDeRespuesta.png" class="md-local-image" alt="Tiempo de respuesta" >}}
 
 Por último, el tercero, con el número de usuarios en el eje de las Y.
 
-![Número de usuarios](images/NumeroDeUsuarios.png)
+{{< figure src="images/NumeroDeUsuarios.png" class="md-local-image" alt="Número de usuarios" >}}
 
 ## Añadir más peticiones por usuario
 
@@ -234,7 +234,7 @@ class HelloWorldUser(HttpUser):
 
 En el ejemplo anterior al intentar acceder a una ruta que no existe, la primera condicional se ejecutará y creará un fallo con el texto "Respuesta equivocada", el cual podremos ver en la sección de fallos de la interfaz.
 
-![Error personalizado](images/ErrorPersonalizadoLocust.png)
+{{< figure src="images/ErrorPersonalizadoLocust.png" class="md-local-image" alt="Error personalizado" >}}
 
 Además de probar el texto en la respuesta es posible probar las otras propiedades del objeto response, tales como el código de respuesta o el tiempo que demora en devolver una respuesta.
 

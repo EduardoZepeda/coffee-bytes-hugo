@@ -31,7 +31,7 @@ Annotate y aggregate son imprescindibles para [escalar aplicaciones de Django pa
 
 ## Django annotate y aggregate principales diferencias resumidas
 
-![Imagen comparativa de las diferencias entre Django annotate y Django aggregate.](images/DjangoAggregateAnnotate-1.png)
+{{< figure src="images/DjangoAggregateAnnotate-1.png" class="md-local-image" alt="Imagen comparativa de las diferencias entre Django annotate y Django aggregate." >}}
 
 Para este ejemplo vamos a crear un par de modelos ficticios que usaremos para los ejemplos:
 
@@ -97,7 +97,7 @@ Usamos _annotate_ **cuando queremos hacer una anotación en cada objeto que nos 
 
 Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}).
 
-![Django Annotate diagrama de funcionamiento donde se realiza un Join y luego una función como SUM](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png" class="md-local-image" alt="Django Annotate diagrama de funcionamiento donde se realiza un Join y luego una función como SUM" >}}
 
 Imagínate que queremos mostrar en una plantilla de Django cada vendedor, seguido de la suma del total de todos sus pedidos.
 

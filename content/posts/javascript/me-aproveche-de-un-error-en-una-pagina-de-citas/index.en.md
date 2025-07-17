@@ -22,7 +22,7 @@ While using a Tinder-style dating app, one of those in which, after a mutual lik
 
 After having a couple of matches I noticed that the obfuscated pictures belonged to real accounts, that is, they were not a set of generic images or placeholders.
 
-!["Example of the blur effect applied to photography"](https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg "Example of the blur effect applied to photography")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Example of the blur effect applied to photography\"" caption="Example of the blur effect applied to photography" >}}
 
 It sounded too obvious, so I opened my browser's developer console and went directly to the CSS code to double-check my suspicions. They couldn't possibly be making such a simple mistake—I thought—they're protecting the identity of the photographs with a simple CSS *filter: blur*.
 
@@ -36,7 +36,7 @@ It sounded too obvious, so I opened my browser's developer console and went dire
 
 The actual images were served by the app's CDN and then a filter was applied to hide them, so to find out who had liked you, you just had to remove the filter. 
 
-Unfortunately it was impossible to get any other data from the pictures or from the URL structure, [API calls](/en/software architecture/basic-characteristics-of-an-api-rest-api/), or any other information given; neither the name, nor the profile nor any other piece of information was accessible other than the profile picture.
+Unfortunately it was impossible to get any other data from the pictures or from the URL structure, [API calls](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), or any other information given; neither the name, nor the profile nor any other piece of information was accessible other than the profile picture.
 
 {{<ad>}}
 

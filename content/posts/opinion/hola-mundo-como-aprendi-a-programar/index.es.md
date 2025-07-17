@@ -38,7 +38,7 @@ Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, d
 
 Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
 
-![Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.](images/blog-manzana-amarga.jpg "Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls.")
+{{< figure src="images/blog-manzana-amarga.jpg" class="md-local-image" alt="Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls." caption="Registro de mi blog archive.org, el diseño se arruinó porque Photobucket cambió su esquema de urls." >}}
 
 Unos años más tarde, gracias a la recomendación de uno de mis mejores amigos, conseguí trabajo en un cyber café. Aprendí como reparar los errores más comunes, conectar impresoras, pasar archivos entre computadoras en red, modificar el registro, descargar archivos por torrent, manejo de paquetería de Office, Photoshop, Keyloggers, conectar computadoras en red, etc. **Sin embargo, durante todo ese tiempo, no escribí ningún programa por mi mismo.**
 
@@ -56,7 +56,7 @@ Una tarde investigaba sobre una banda japonesa llamada [Supercell](https://www.s
 
 Mientras más leía sobre Miku Hatsune más quería saber, estaba estupefacto; la compañía que había programado a Vocaloid estaba, literalmente, dándoles una voz a todos aquellos artistas que, por una u otra razón, no contaban con una voz que le diera vida a sus letras. En ese momento entendí el verdadero potencial que tenía el código y me dije: "yo también quiero usar las computadoras y el código para crear".
 
-![Figura de plástico de Miku Hatsune](images/FiguraDeMikuHatsune.jpg "Figura de plástico de Miku Hatsune. Créditos de la imagen a 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/ ")
+{{< figure src="images/FiguraDeMikuHatsune.jpg" class="md-local-image" alt="Figura de plástico de Miku Hatsune" caption="Figura de plástico de Miku Hatsune. Créditos de la imagen a 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/" >}}
 
 
 En aquel momento pasó por mi mente el volver a la universidad, pero deseché la idea igual de rápido. Yo ya había estado ahí, la universidad era ineficiente, el nivel de la mayoría de los profesores era, a lo mucho, mediocre, sus planes académicos estaban completamente desactualizados y las clases presenciales eran lentas e ineficientes. Decidí que no cometería el mismo error dos veces, esta vez intentaría aprender por mi cuenta.
@@ -79,7 +79,7 @@ Tras meses evadiendo toda aquella información relacionada con Python **por la s
 
 Python me fascinó con su sencilla sintaxis, la simplicidad de las funciones y lo elegante de su diseño.
 
-![El grupo de comediantes conocido como Monty Python](images/ElGrupoDeComediantesMontyPython.jpg "Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación.")
+{{< figure src="images/ElGrupoDeComediantesMontyPython.jpg" class="md-local-image" alt="El grupo de comediantes conocido como Monty Python" caption="Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación." >}}
 
 Un mes más tarde leí el libro [Beginning Python from novice to Professional](/es/python/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. 
 
@@ -103,7 +103,7 @@ Por último, dado que a muchas empresas les encanta tener un papel que respalde 
 
 Aún con el riesgo de que pecar de soberbia, diré que el bootcamp fue pan comido gracias a todo lo que había practicado y leído anteriormente, realmente no aprendí muchas cosas nuevas. Sin embargo fue gracias a Bedu conocí personas bastante interesantes y talentosas entre mis compañeros y profesores. Además gracias a Bedu probé Platzi, la plataforma de aprendizaje en linea que usan de prework para sus clases presenciales. La verdad solamente la comunidad hizo que valiera cada centavo que pagué.
 
-![Colobora Coworking en Chapultepec, Guadalajara.](images/ColaboraCoworking.jpg "Imagen tomada del sitio web de Colabora.")
+{{< figure src="images/ColaboraCoworking.jpg" class="md-local-image" alt="Colobora Coworking en Chapultepec, Guadalajara." caption="Imagen tomada del sitio web de Colabora." >}}
 
 Tomé el bootcamp de Bedu en Colabora Coworking. 
 

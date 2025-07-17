@@ -27,7 +27,7 @@ En la arquitectura multi-tenant, cada tenant puede ser una empresa, un grupo o u
 
 Imagínate una casa grande con varias habitaciones, el paraiso millenial de vivir con roomies porque la vivienda es cara, dejo mis traumas de lado y continuo. Todos los inquilinos viven bajo el mismo techo (la misma aplicación), pero cada uno tiene su propia habitación con llave (sus datos). Aunque compartan el pasillo y las instalaciones comunes (infraestructura), sus habitaciones son privadas y están fuera del acceso de los demás, claro, en condiciones normales y esas habitaciones pueden lucir diferente de acuerdo a cada inquilino, pues cada uno la ha personalizado a su gusto.
 
-![Oh god no more AI API calls](https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls" >}}
 
 Ahora, imagina que en lugar de una casa, hablamos de un servicio en la nube, como Slack o Jira. Tú y otras empresas usan el mismo sistema, pero tú ves tus datos y personalizaciones, no los de los demás.
 

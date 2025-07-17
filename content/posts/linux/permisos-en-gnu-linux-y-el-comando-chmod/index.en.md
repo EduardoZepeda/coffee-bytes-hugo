@@ -37,7 +37,7 @@ There are 3 sets of 3 letters, each set contains spaces for the letters '_r_' '_
 
 The presence of a hyphen indicates the absence of permissions. The first set represents the permissions of the file owner, the second set represents the permissions of the group to which the file belongs, and the third set represents the permissions of others. Before the first set is a space for the file type; '_D_' for directory, or a hyphen for a file.
 
-![Meaning of permissions on a GNU/Linux system](images/PermisosGNULinux-1.png "Meaning of permissions on a GNU/Linux system")
+{{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Meaning of permissions on a GNU/Linux system" caption="Meaning of permissions on a GNU/Linux system" >}}
 
 None of the sets have permissions to execute the _helloWorld.out_ file so, when trying to do so, it will show us the sentence '_permission denied_' in the terminal.
 
@@ -89,7 +89,7 @@ The '_r_' permission will have a value of 4, the '_w_' permission will have a va
 | Write   | 2     |
 | Execute | 1     |
 
-![Meaning of numbers in GNU/Linux permissions](images/PermisosNumerosGNULinux.png "Meaning of numbers in GNU/Linux permissions")
+{{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Meaning of numbers in GNU/Linux permissions" caption="Meaning of numbers in GNU/Linux permissions" >}}
 
 Considering the above, a value of 7 (4+2+1) means that it has full permissions, a value of 5 (4+1) means that it has read (r) and execute (x) permissions, a value of 3 (2+1) means write (w) and execute (x) permissions for a file.
 

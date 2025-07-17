@@ -40,7 +40,7 @@ class SubCategory(models.Model):
 
 This approach to the hierarchy problem in Django looks good at first glance. The resulting structure will look something like this:
 
-![Subcategory model schema with ForeignKey made Category in Django](https://res.cloudinary.com/dwrscezd2/image/upload/v1745886724/coffee-bytes/category-subcategory_mtkzpy.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745886724/coffee-bytes/category-subcategory_mtkzpy.png" class="md-local-image" alt="Subcategory model schema with ForeignKey made Category in Django" >}}
 
 ### The problem of using a model by category
 
@@ -50,7 +50,7 @@ Imagine a horror movie category, with a ghost subcategory that, in turn, has a h
 
 Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCategories have in turn subcategories. See what I'm trying to get at?
 
-![Infinite subcategories problem scheme](https://res.cloudinary.com/dwrscezd2/image/upload/v1745886985/coffee-bytes/category-subcategory-problem_bx9ymd.webp)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745886985/coffee-bytes/category-subcategory-problem_bx9ymd.webp" class="md-local-image" alt="Infinite subcategories problem scheme" >}}
 
 Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django Framework's ORM](/en/django/why-should-you-use-django-framework/) offers a pretty clean solution.
 
@@ -77,7 +77,7 @@ class Category(models.Model):
 
 In this way we will have a structure similar to a graph, where each node points to another.
 
-![Schematic diagram of how ForeignKey made self(the same model) works in Django](https://res.cloudinary.com/dwrscezd2/image/upload/v1745887246/coffee-bytes/foreign-key-to-self-django_uvvogs.webp)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745887246/coffee-bytes/foreign-key-to-self-django_uvvogs.webp" class="md-local-image" alt="Schematic diagram of how ForeignKey made self(the same model) works in Django" >}}
 
 This new arrangement allows us to create as many subcategories as we want, without the need to create new models. To do so, we simply assign the _parent_ property to the _Category_ class instance we want it to belong to.
 

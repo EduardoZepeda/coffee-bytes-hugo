@@ -38,7 +38,7 @@ Este libro para aprender Python favorito, parte de cero y empieza a enseñarte l
 
 En mi humilde opinión este libro es de las mejores fuentes para aprender Python.
 
-![Dive into Python book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg "Dive into Python Book cover")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg" class="md-local-image" alt="Dive into Python book cover" caption="Dive into Python Book cover" >}}
 
 {{< affbutton link="https://amzn.to/42HBn0l" description="Dive into Python en Amazon" >}}
 
@@ -48,7 +48,7 @@ Este libro es una introducción al lenguaje desde cero, básicamente empieza con
 
 Totalmente recomendado si quieres tener una visión general de las capacidades de Python.
 
-![Beggining Python from Novice to Pro Book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1750742217/coffee-bytes/Beginning_Python_from_novice_to_pro_tlfayl.jpg "Beggining Python from Novice to Pro Book cover")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742217/coffee-bytes/Beginning_Python_from_novice_to_pro_tlfayl.jpg" class="md-local-image" alt="Beggining Python from Novice to Pro Book cover" caption="Beggining Python from Novice to Pro Book cover" >}}
 
 {{< affbutton link="https://amzn.to/44tPuZZ" description="Beginning Python from Novice to Pro en Amazon" >}}
 
@@ -60,7 +60,7 @@ Aprenderás y codificaras el cifrado César, Vigenere, cuadernos de un solo uso 
 
 Lo recomiendo si buscas algo corto y ameno para dominar las partes más básicas del lenguaje.
 
-![Cracking with Python book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1750742522/coffee-bytes/cracking_codes_with_python_mnovzk.jpg "Cracking with Python book cover")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742522/coffee-bytes/cracking_codes_with_python_mnovzk.jpg" class="md-local-image" alt="Cracking with Python book cover" caption="Cracking with Python book cover" >}}
 
 {{< affbutton link="https://amzn.to/4ixeQcE" description="Cracking Codes with Python en Amazon" >}}
 
@@ -72,7 +72,7 @@ Lo recomiendo, pero solamente si ya tienes nociones del lenguaje, en cuyo caso e
 
 La ventaja de este libro es que es de bolsillo y puedes leerlo en cualquier momento de ocio o cuando te transportes de un lado a otro.
 
-![Python pocket reference book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1745616632/coffee-bytes/python-pocket-reference_vmfikn.jpg "Python pocket reference book cover")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745616632/coffee-bytes/python-pocket-reference_vmfikn.jpg" class="md-local-image" alt="Python pocket reference book cover" caption="Python pocket reference book cover" >}}
 
 {{< affbutton link="https://amzn.to/4jNfdRh" description="Python Pocket Reference en Amazon" >}}
 
@@ -90,7 +90,7 @@ Si ya tienes nociones del lenguaje, este libro llevará tus habilidades más all
 
 Y demasiadas cosas como para cubrirlas en un pequeño post. Pero si tienes oportunidad y un poco más de experiencia en el lenguaje, te recomiendo adquirirlo muchísimo.
 
-![Python tricks book cover](https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" class="md-local-image" alt="Python tricks book cover" >}}
 
 {{< affbutton link="https://amzn.to/3SbKyBe" description="Python Tricks en Amazon" >}}
 
@@ -102,14 +102,14 @@ La verdad es que soy un poco más fan de aprender mediante libros que con videos
 
 Platzi tiene [cursos de Python](https://platzi.com/r/eduardo-zepeda#?), sí, cursos en plural, un curso básico de Python, cursos de Python especializados en ciencias de datos, curso de Python para estadística, entre otros. Los cursos son exclusivamente en Español y constamente los actualizan. Son una opción si te gusta el formato video.
 
-![Python Platzi courses](https://res.cloudinary.com/dwrscezd2/image/upload/v1745616831/coffee-bytes/Python-platzi-course_bp7gnn.webp "Python Platzi courses")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745616831/coffee-bytes/Python-platzi-course_bp7gnn.webp" class="md-local-image" alt="Python Platzi courses" caption="Python Platzi courses" >}}
 
 
 ### Curso completo de Python de Midudev
 
 Nuestro youtuber preferido de tecnología en español: ~~Last dragon~~ Midudev también tiene un curso completo de 8 horas de Python.
 
-![Meme de homero simpson comiendo queso toda la noche. ¿Homero estuviste viendo el curso de Midudev toda la noche? Print(creo que estoy ciego)](https://res.cloudinary.com/dwrscezd2/image/upload/v1745632733/coffee-bytes/meme-homero-midudev_ss4k90.jpg "Ay Marge creo que estoy ciego")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745632733/coffee-bytes/meme-homero-midudev_ss4k90.jpg" class="md-local-image" alt="Meme de homero simpson comiendo queso toda la noche. ¿Homero estuviste viendo el curso de Midudev toda la noche? Print(creo que estoy ciego)" caption="Ay Marge creo que estoy ciego" >}}
 
 No puedo recomendartelo directamente porque aprendí Python mucho antes de que Midudev fuera famoso e hiciera su curso y no me apetece pasar 8 horas repasando conceptos de Python. Sin embargo, su último curso, donde hablaba del [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}) fue genial, por lo que supongo que este no se aleja bastante de sus estándares de calidad.
 

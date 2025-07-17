@@ -27,7 +27,7 @@ La estrategia de la shadow table (en español "tabla sombra") es como tener un d
 
 Este es el flujo básico:
 
-![Diagrama de la shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751079950/coffee-bytes/shadow-table-explanation_gbdhc0.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751079950/coffee-bytes/shadow-table-explanation_gbdhc0.png" class="md-local-image" alt="Diagrama de la shadow table" >}}
 
 ## ¿Qué problema resuelve la estrategia de la shadow table?
 
@@ -58,7 +58,7 @@ Stonks. Enhorabuena si eres tú el propietario.
 
 En primer lugar, crea tu nueva tabla con la estructura deseada:
 
-![Crear la shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Crear la shadow table" >}}
 
 ```sql
 -- Create the shadow table with the new structure
@@ -77,7 +77,7 @@ CREATE INDEX idx_users_created_at ON users_new(created_at);
 
 ### Paso 2: Configurar la sincronización de datos
 
-![Sincronizar ambas tablas](https://res.cloudinary.com/dwrscezd2/image/upload/v1751080652/coffee-bytes/shadow-table-sync_v7mgtq.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751080652/coffee-bytes/shadow-table-sync_v7mgtq.png" class="md-local-image" alt="Sincronizar ambas tablas" >}}
 
 Aquí es donde las cosas se ponen interesantes. Debes mantener la shadow table sincronizada con la original mientras tu aplicación sigue funcionando como si nada hubiera pasado. 
 
@@ -136,7 +136,7 @@ def update_user(user_id, changes):
 
 ### Paso 3: Copiar los datos existentes por lotes
 
-![Copiar datos por lotes](https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Copiar datos por lotes" >}}
 
 Ahora viene la migración masiva de datos. **Nunca intentes copiar todo de una vez**, eso es una receta para una catástrofe digital. Recuerda la razón de ser del [patrón worker pool]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="es" >}}).
 
@@ -168,7 +168,7 @@ END WHILE;
 
 ### Paso 4: Verificar la coherencia de los datos
 
-![Comparar que los datos sean los mismos en la shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751081576/coffee-bytes/shadow-table-copy-compare_2_lzbmok.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081576/coffee-bytes/shadow-table-copy-compare_2_lzbmok.png" class="md-local-image" alt="Comparar que los datos sean los mismos en la shadow table" >}}
 
 Antes de realizar el cambio, es mejor que te asegures de que todo se ha copiado correctamente:
 
@@ -192,7 +192,7 @@ SELECT * FROM users_new WHERE id IN (1, 1000, 50000) ORDER BY id;
 
 Aquí es donde tu ritmo cardíaco se dispara. El intercambio real de tablas debe ser rapidísimo, como una nueva y brillante biblioteca Rust ~~innecesaria~~:
 
-![Cambio de la tabla antigua a la shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png" class="md-local-image" alt="Cambio de la tabla antigua a la shadow table" >}}
 
 ```sql
 -- This should take milliseconds, not minutes
@@ -220,7 +220,7 @@ Para tablas con millones de QPS o [millones de usuarios simultáneos]({{< ref pa
 
 - **Utilizar un búfer de escritura**: Pon en queue cualquier write en Redis/Kafka si la base de datos no puede gestionar las escrituras duales.
 
-![Búfer de escritura para shadow table](https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png" class="md-local-image" alt="Búfer de escritura para shadow table" >}}
 
 - **El infierno del mapeo de columnas** Utiliza vistas para abstraer los cambios de nombre:  
 

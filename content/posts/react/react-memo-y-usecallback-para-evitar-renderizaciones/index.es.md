@@ -94,7 +94,7 @@ Remueve únicamente la función memo del ChildComponent y escribe en el input. C
 export default ChildComponent;
 ```
 
-![Eliminar memo del componente hijo causa renderizaciones](images/eliminandoMemo.gif)
+{{< figure src="images/eliminandoMemo.gif" class="md-local-image" alt="Eliminar memo del componente hijo causa renderizaciones" >}}
 
 En cambio, si remueves el hook useCallback, sin remover memo, ChildComponent se re-rendizará igualmente con cada tecla presionada. Esto debido a que con cada pulsación, MyComponent se re-renderiza y la función callback se crea nuevamente, al ser una nueva función, memo vuelve a renderizar el componente.
 
@@ -107,7 +107,7 @@ const callback = () => {
 
 Pon atención a la terminal para que aprecies las renderizaciones.
 
-![Eliminar useCallback del componente hijo causa renderizaciones](images/eliminandoUseCallback.gif)
+{{< figure src="images/eliminandoUseCallback.gif" class="md-local-image" alt="Eliminar useCallback del componente hijo causa renderizaciones" >}}
 
 Por otro lado, si remueves tanto memo como useCallback, sucederá lo mismo.
 

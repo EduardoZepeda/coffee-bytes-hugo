@@ -5,8 +5,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - SEO
+- opinion
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
 description: I tell you what I did wrong, what I did right and what I learned from
@@ -19,7 +19,7 @@ keywords:
 title: My technical SEO mistakes when I migrated my site from Wordpress
 ---
 
-A few years ago, I migrated my website a couple of times, first from Wordpress to Frontity (A wordpress framework in React) and then from Frontity to a [Digital Ocean Hugo App](/en/software architecture/digital-ocean-analysis-and-my-experience-as-a-user/). I don't regret my decision at all, but I made a few technical SEO mistakes that you can probably avoid if you take into account what I'm about to tell you.
+A few years ago, I migrated my website a couple of times, first from Wordpress to Frontity (A wordpress framework in React) and then from Frontity to a [Digital Ocean Hugo App](/en/software-architecture/digital-ocean-analysis-and-my-experience-as-a-user/). I don't regret my decision at all, but I made a few technical SEO mistakes that you can probably avoid if you take into account what I'm about to tell you.
 
 After that incident I wrote [{{<title "/posts/guia-de-seo-tecnico-para-desarrolladores-web/index">}}]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}})
 
@@ -31,7 +31,7 @@ And I'm not talking about subtle differences, I'm talking about abysmal differen
 
 At the risk of sounding redundant, I will repeat it again: the traffic of a web site is much more important than the efficiency, the language or framework used to code it, yes, even if you wrote it in C++ or directly in assembler.
 
-![Aves exoticas is a perfect example of a web site with good seo but awful UI](images/aves-exoticas-org-bad-ui-good-seo.jpg "Aves exoticas is the perfect example of a website visually not so attractive, but with an impeccable SEO that positions it in the first position on google.")
+{{< figure src="images/aves-exoticas-org-bad-ui-good-seo.jpg" class="md-local-image" alt="Aves exoticas is a perfect example of a web site with good seo but awful UI" caption="Aves exoticas is the perfect example of a website visually not so attractive, but with an impeccable SEO that positions it in the first position on google." >}}
 
 ### Web developers often ignore the potential of SEO.
 
@@ -39,7 +39,7 @@ Most developers have an engineering background, where efficiency, best practices
 
 Hence, when a web developer launches their personal projects, they often completely ignore SEO and focus on [optimizing their webapp performance to the maximum](/en/opinion/dont-obsess-about-your-web-application-performance/), usually resulting in an extremely fast, efficient, and even visually appealing website, but with no traffic.
 
-![Web development in assembly meme](images/web-development-assembly.webp "It is said that only true programmers program in low-level languages.")
+{{< figure src="images/web-development-assembly.webp" class="md-local-image" alt="Web development in assembly meme" caption="It is said that only true programmers program in low-level languages." >}}
 
 {{<ad>}}
 
@@ -87,13 +87,13 @@ The important thing to remember here is that search engines do not have a way to
 
 ### How could I have prevented my traffic decline?
 
-Using a plain, old and boring redirect. It should have been enough to tell Google that if it accessed */202020/12/12/entry_1* it should redirect to */posts/entry_1*, how? by [returning an HTTP 302 or 308 response](/en/software architecture/basic-characteristics-of-an-api-rest-api/), Found or Permanent redirect, respectively.
+Using a plain, old and boring redirect. It should have been enough to tell Google that if it accessed */202020/12/12/entry_1* it should redirect to */posts/entry_1*, how? by [returning an HTTP 302 or 308 response](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), Found or Permanent redirect, respectively.
 
 ### The absence of structured data or Schema markup 
 
 When I used Wordpress the Yoast plugin took care of the structured data markup, but in Hugo this has to be done manually, so my website lasted a long time without this structured data, the result? A penalty from Google in the form of a decrease in the daily impressions, and therefore a traffic decline to my website.
 
-![Screenshot of structured data markup on a web site](images/schema-ld+json.png "The structured data markup for a web site looks like this")
+{{< figure src="images/schema-ld+json.png" class="md-local-image" alt="Screenshot of structured data markup on a web site" caption="The structured data markup for a web site looks like this" >}}
 
 {{<box type="info" message="Structured data markup is usually in the form of an application/ld+json script on a website, it cannot be seen visually but it is read by search engines and helps them to understand the type and relationships that exist between each of the entities on your website.">}}
 

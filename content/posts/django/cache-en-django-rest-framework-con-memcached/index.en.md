@@ -28,7 +28,7 @@ To use the cache in django, just follow three simple steps:
 3. Add the middleware necessary for django to return the cache before processing the view.
 4. Use the low-level cache to cache specific views or data (optional).
 
-Implementing a caching system allows you to [greatly improve the performance of an application made in Django](/en/software architecture/how-to-scale-a-django-app-to-serve-one-million-users/).
+Implementing a caching system allows you to [greatly improve the performance of an application made in Django](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/).
 
 ## How much does caching improve performance?
 
@@ -36,7 +36,7 @@ The effect the cache will have depends on many factors. However, just to give yo
 
 As you can see the difference is almost 10 times the time.
 
-![Comparison of response time with cache and without cache for a django application](images/ComparacionCache1000filasDjango.jpg)
+{{< figure src="images/ComparacionCache1000filasDjango.jpg" class="md-local-image" alt="Comparison of response time with cache and without cache for a django application" >}}
 
 If you're in a situation where [your application's performance is critical](/en/opinion/dont-obsess-about-your-web-application-performance/), cache is definitely one of the first steps that you have to make in order to improve your site's speed.
 
@@ -67,7 +67,7 @@ It's pretty obvious, but I feel I should mention it: remember that **memcached s
 
 I will install the following dependencies for this tutorial:
 
-* djangorestframework: for creating [REST APIs](/en/software architecture/basic-characteristics-of-an-api-rest-api/).
+* djangorestframework: for creating [REST APIs](/en/software-architecture/basic-characteristics-of-an-api-rest-api/).
 * django-debug-toolbar: to compare performance before and after caching.
 * django-seed: to automatically create data in the database.
 * pymemcache: to allow python to interact with memcached.
@@ -157,7 +157,7 @@ Cache-Control: max-age=600
 
 If instead of using the terminal we enter the browser, we will see how the _django_debug_toolbar_ already shows us that the cache is being used.
 
-![Django_debug_toolbar with cache and without cache, comparison](images/CacheDebugToolBar.png)
+{{< figure src="images/CacheDebugToolBar.png" class="md-local-image" alt="Django_debug_toolbar with cache and without cache, comparison" >}}
 
 Look how in the cache column, we already have two calls.
 

@@ -20,7 +20,7 @@ title: Fast and performant APIs using gRPC and Protobuffers
 
 Protobuffers allow you to create a gRPC API that has the characteristic of being incredibly faster, because it uses binary instead of other less optimized formats (such as JSON), in this post you will learn what this type of API is and why it is so fast.
 
-In my post about [the basic features about a REST API](/en/software architecture/basic-characteristics-of-an-api-rest-api/) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
+In my post about [the basic features about a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
 
 ## What is RPC?
 
@@ -39,7 +39,7 @@ request and response type in the appropriate format.
 5. The response from the server is encoded using the stub and sent to the client.
 6. The client receives the response and decodes it in the appropriate format.
 
-![Schematic diagram of gRPC operation](https://res.cloudinary.com/dwrscezd2/image/upload/v1743999893/coffee-bytes/rpc-diagram_lre4ut.jpg "Schematic diagram of gRPC operation")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743999893/coffee-bytes/rpc-diagram_lre4ut.jpg" class="md-local-image" alt="Schematic diagram of gRPC operation" caption="Schematic diagram of gRPC operation" >}}
 
 Did you notice I mentioned data encryption? Well, one aspect of RPC to note is that it requires both client and server to use the same programming language, which makes it a disadvantage in environments where multiple programming languages can be mixed.
 
@@ -69,7 +69,7 @@ graph TD;
 
 Protocol Buffers (protobuffers from now on) are a completely language and platform agnostic format, which gRPC uses to serialize and deserialize structured data only that, instead of using JSON, XML or another format, it is done directly in binary. This, as you know, makes it much more efficient than using a more human-friendly format like JSON.
 
-![The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional.](images/protobuffers-grpc.jpg "The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional.")
+{{< figure src="images/protobuffers-grpc.jpg" class="md-local-image" alt="The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional." caption="The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional." >}}
 
 ### How to convert information with protobuffers?
 

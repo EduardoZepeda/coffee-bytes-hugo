@@ -28,7 +28,7 @@ Rust requiere que domines una serie de conceptos que no existen en otros lenguaj
 
 La razón de la complejidad de Rust radica en un escenario exótico. [Rust fue creado por Graydon Hoare tras un incidente con un ascensor averiado.](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/) ¿La causa? Un pobre manejo de memoria, probablemente causado por código C o C++.
 
-![Rust fue creado por Graydon Hoare tras un problema con un elevador](https://i.imgflip.com/972mo7.jpg "Rust fue creado por Royden Lepp tras un problema con un elevador")
+{{< figure src="https://i.imgflip.com/972mo7.jpg" class="md-local-image" alt="Rust fue creado por Graydon Hoare tras un problema con un elevador" caption="Rust fue creado por Royden Lepp tras un problema con un elevador" >}}
 
 ### El Borrowing en Rust es difícil
 
@@ -42,7 +42,7 @@ Yo encontré este video sobre borrowing particularmente útil:
 
 Este concepto sirve para indicarle manualmente al compilador la duración (el tiempo de vida) de una variable, en casos donde este no pueda inferirla automáticamente. Una vez que los entiendes, los lifetimes simple en práctica pero pueden reducir la legibilidad del código, sobre todo si nunca los has visto.
 
-![Como se siente cuando lees sobre lifetimes la primera vez en Rust](https://i.imgflip.com/972opz.jpg "Como se siente cuando lees sobre lifetimes la primera vez en Rust")
+{{< figure src="https://i.imgflip.com/972opz.jpg" class="md-local-image" alt="Como se siente cuando lees sobre lifetimes la primera vez en Rust" caption="Como se siente cuando lees sobre lifetimes la primera vez en Rust" >}}
 
 No es necesario que entiendas exactamente que hace, lo importante aquí es que aprecies como su uso puede volver el código bastante ilegible y complicado de entender a simple vista.
 
@@ -62,7 +62,7 @@ La buena noticia es que, para mi alivio, no parecer ser una característica que 
 
 Rust cuenta con una serie de punteros inteligentes para manejar las referencias a la memoria en el caso de que necesites acceder a una variable desde muchos otros lados (Anteriormente he escrito, [sobre Mutex pero en Go]({{< ref path="/posts/go/go-condiciones-de-carrera-en-goroutines-y-mutex/index.md" lang="es" >}})). 
 
-![Cuando aprendes Rust por primera vez se siente así](https://i.imgflip.com/972oco.jpg)
+{{< figure src="https://i.imgflip.com/972oco.jpg" class="md-local-image" alt="Cuando aprendes Rust por primera vez se siente así" >}}
 
 Suena simple pero, nuevamente, las cosas se complican cuando llega el momento de expresarlo en código y poder diferenciar el uso de cada uno y que problema resuelven. 
 
@@ -212,7 +212,7 @@ Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https
 
 {{<ad>}}
 
-![La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art](https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png "La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" caption="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" >}}
 
 ## Rust no es tan difícil de aprender
 

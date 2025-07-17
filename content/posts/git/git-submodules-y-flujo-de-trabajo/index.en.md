@@ -21,7 +21,7 @@ title: Understand How Git Submodules Works and its Workflow
 
 A git submodule is a record within a git repository that points to a commit in an external repository. They are handled exactly as you would with a repository, they even have a _.git_ file that points to the location where a changelog is kept.
 
-![Simplified outline of git submodules](https://res.cloudinary.com/dwrscezd2/image/upload/v1745887883/coffee-bytes/gitSubmodulesSchema_nkmmd3.jpg "Simplified outline of git submodules")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745887883/coffee-bytes/gitSubmodulesSchema_nkmmd3.jpg" class="md-local-image" alt="Simplified outline of git submodules" caption="Simplified outline of git submodules" >}}
 
 git submodules are useful when we want to incorporate third-party code into a project and at the same time we want to keep strict control of the updates of that code through git. For example:
 
@@ -75,7 +75,7 @@ Each of these submodules specifies its path, relative to the repository root, th
 
 This file is important because it is a reference to the submodules that our project needs to work.
 
-![git submodules operation schematic](https://res.cloudinary.com/dwrscezd2/image/upload/v1745887713/coffee-bytes/gitSubmodules_piogyh.jpg "Schematic of git submodules operation")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745887713/coffee-bytes/gitSubmodules_piogyh.jpg" class="md-local-image" alt="git submodules operation schematic" caption="Schematic of git submodules operation" >}}
 
 ### The contents of a submodule's .git file
 
@@ -114,7 +114,7 @@ Within the submodule you can perform checkouts, create branches, even commits an
 
 Git treats each submodule as if it were a separate repository, so **each version of your main repository corresponds to a version of the submodule**.
 
-![Git submodules-correspondence](https://res.cloudinary.com/dwrscezd2/image/upload/v1745888025/coffee-bytes/submodule-relation-commit_mxkmhf.jpg)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745888025/coffee-bytes/submodule-relation-commit_mxkmhf.jpg" class="md-local-image" alt="Git submodules-correspondence" >}}
 
 {{<ad>}}
 

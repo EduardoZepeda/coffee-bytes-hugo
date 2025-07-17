@@ -27,11 +27,11 @@ Much of the commercial software was too heavy, in proportion to the size of the 
 
 In the old days, internet connections were incredibly slow and unstable, leaving aside the strange noise that preceded every connection, old internet pirates know what I'm talking about.
 
-![Windows downloading that states years of waiting time](images/slow-internet-connection.jpg "Windows downloading that states years of waiting time")
+{{< figure src="images/slow-internet-connection.jpg" class="md-local-image" alt="Windows downloading that states years of waiting time" caption="Windows downloading that states years of waiting time" >}}
 
 As a result, many companies chose to distribute their software via CDs or other external media.
 
-![Old Adobe Photoshop installation Floppy disks](images/photoshop-code-box-and-disk.jpg "Old Adobe Photoshop installation Floppy disks")
+{{< figure src="images/photoshop-code-box-and-disk.jpg" class="md-local-image" alt="Old Adobe Photoshop installation Floppy disks" caption="Old Adobe Photoshop installation Floppy disks" >}}
 
 ### Making payments over the internet was not something common.
 
@@ -53,21 +53,21 @@ Subsequently, they found that it was more lucrative to rent the software, probab
 
 Offering SAAS allowed companies to make a product or service available to the market with a rentier business model and ensure that if customers wanted to continue using a product (or service) they would have to pay month to month or forget about using it.
 
-![Meme about Adobe and its obsession for profit](images/adobe-meme-saas.jpg "Meme about Adobe and its obsession for profit")
+{{< figure src="images/adobe-meme-saas.jpg" class="md-local-image" alt="Meme about Adobe and its obsession for profit" caption="Meme about Adobe and its obsession for profit" >}}
 
 This affected mainly those people who rarely updated their software. If they wanted to use it the following month, they now had to pay.
 
-![Meme about the modification of the world stocks into stonks](images/not-stonks.jpg "Stonks")
+{{< figure src="images/not-stonks.jpg" class="md-local-image" alt="Meme about the modification of the world stocks into stonks" caption="Stonks" >}}
 
 At the same time, however, it allowed companies to release new versions of their software more frequently and to iterate more quickly on user feedback to improve their product, allowing them to improve their product and make it more attractive to customers.
 
 That said, you might think that migrating to a SAAS model would make companies millionaires, but it didn't, at least not for Adobe.
 
-![Adobe made obligatory monthly payments in 2017](images/adobe-stocks.png "Adobe made obligatory monthly payments in 2017")
+{{< figure src="images/adobe-stocks.png" class="md-local-image" alt="Adobe made obligatory monthly payments in 2017" caption="Adobe made obligatory monthly payments in 2017" >}}
 
 Although it is worth noting that if gross profits did not increase dramatically, his SAAS business allowed him to operate with a gross margin of 93%. Imagine, 93%, Jeff Bezos' wettest dream!
 
-![Source: https://tomtunguz.com/adobe-saas-growth](images/adobe-revenue-pricing-2014.webp "Source: https://tomtunguz.com/adobe-saas-growth")
+{{< figure src="images/adobe-revenue-pricing-2014.webp" class="md-local-image" alt="Source: https://tomtunguz.com/adobe-saas-growth" caption="Source: https://tomtunguz.com/adobe-saas-growth" >}}
 
 Was it a smart move? Well at least it seems so, since they have kept it up all these years, many, many companies followed the trend along with Adobe and adopted SAAS models.
 
@@ -83,7 +83,7 @@ Eleven is a company that plans to go against the current SAAS trend. Eleven clai
 
 In his manifesto, Eleven, with the eloquence of the best politician, promises **one-time payment for his software and access to the code**, waving the flag of a promising post-SAAS era.
 
-![Once Manifesto](images/once-manifesto.png "Once Manifesto")
+{{< figure src="images/once-manifesto.png" class="md-local-image" alt="Once Manifesto" caption="Once Manifesto" >}}
 
 Surprisingly, their promise is not based on empty words; they have developed an application similar to Slack, called **campfire**, which promises to reduce operating costs by up to 99.9% and was quite well received at X.
 

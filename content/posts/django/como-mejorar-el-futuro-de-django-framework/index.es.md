@@ -4,8 +4,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - django
+- opinion
 coverImage: images/how-to-improve-django.jpg
 date: 2024-06-23
 description: Una recopilación de sugerencias y recomendaciones sobre como llevar Django
@@ -23,13 +23,13 @@ title: ¿Cómo mejorar Django Framework?
 
 El 21 de Junio del 2024 inicié un hilo en reddit con la siguiente pregunta: "What would you improve about Django framework?" (¿Qué mejorarías de Django Framework?). La respuesta de la comunidad fue inmediata y la conversación se lleno rápidamente de sugerencias parar mejorar Django framework que van desde las modestas hasta algunas bastante radicales. Te resumo los resultados a continuación.
 
-![HTMX Meme](https://htmx.org/img/memes/20yearold.png "HTMX meme")
+{{< figure src="https://htmx.org/img/memes/20yearold.png" class="md-local-image" alt="HTMX Meme" caption="HTMX meme" >}}
 
 ## ¿Mejorar Django Framework con type hints?
 
 Este fue el comentario que recibió más apoyo de la comunidad. A pesar de que Python ya cuenta con Type Hints opcionales desde su versión 3.5, parece que su implementación con el propósito de modernizar Django Framework no parece ser una prioridad. 
 
-![Comentario con más apoyo sobre como mejorar Django Framework](images/comment-with-more-support-on-how-to-improve-django.png "Comentario con más apoyo sobre como mejorar Django Framework")
+{{< figure src="images/comment-with-more-support-on-how-to-improve-django.png" class="md-local-image" alt="Comentario con más apoyo sobre como mejorar Django Framework" caption="Comentario con más apoyo sobre como mejorar Django Framework" >}}
 
 La popularidad de los type hints es tal, que algunos usuarios que los consideran una mejora significativa al framework han desarrollado [una librería externa, llamada django-stubs](https://github.com/typeddjango/django-stubs#?), que se propone renovar a Django Framework con type hints.
 
@@ -45,7 +45,7 @@ Sin embargo, según los usuarios de reddit, no hay mucho interés por parte de l
 
 El segundo comentario que recibió más apoyo afirma que personalizar el modelo User de Django es bastante complicado, sobre todo si se hace a mediados de un proyecto, específicamente cambiar el tipo de login por defecto de Django, de usuario a correo electrónico.
 
-![Segundo comentario con más apoyo sobre como mejorar django framework](images/custom-user-model-to-improve-django.png "Segundo comentario con más apoyo sobre como mejorar django framework")
+{{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Segundo comentario con más apoyo sobre como mejorar django framework" caption="Segundo comentario con más apoyo sobre como mejorar django framework" >}}
 
 A pesar de que hay múltiples maneras de [personalizar el modelo User en Django](/es/django/como-personalizar-el-modelo-user-en-django/), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
 
@@ -81,7 +81,7 @@ Supongo que algunos usuarios consideran que Django no debería quedarse atrás y
 
 A mi me parece que Django ya hace un excelente trabajo con su sistema de plantillas y que combina perfectamente con [librerías como HTMX](/es/django/django-y-htmx-web-apps-modernas-sin-escribir-js/), para poder aprovechar todo el poder del hipertexto sin la necesidad de incorporar Javascript al proyecto.
 
-![Delirio de Javascript de acuerdo a HTMX](https://htmx.org/img/memes/original.png "Delirio de Javascript de acuerdo a HTMX")
+{{< figure src="https://htmx.org/img/memes/original.png" class="md-local-image" alt="Delirio de Javascript de acuerdo a HTMX" caption="Delirio de Javascript de acuerdo a HTMX" >}}
 
 Sin más que agregar te dejo el enlace a la discusión por si quieres ver el resto de [sugerencias sobre como mejorar Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/#?)
 

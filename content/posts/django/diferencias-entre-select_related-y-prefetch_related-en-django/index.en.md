@@ -22,7 +22,7 @@ keywords:
 title: Differences between select_related and prefetch_related in Django
 ---
 
-The *select_related* and *prefetch_related* methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/en/software architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
+The *select_related* and *prefetch_related* methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
 
 Just consider that there are more [important things to optimize other than your app's performance](/en/opinion/dont-obsess-about-your-web-application-performance/), but if you insist, dive into annotate and aggregate, and be careful with the nested subqueries of annotate because [they can make your django queries go really slow](/en/django/fix-slow-queries-in-django-when-using-annotate-and-subqueries/)
 
@@ -42,7 +42,7 @@ The *select_related* method is **used to follow a relationship of type ForeignKe
 
 When using *select_related* we will have a longer query, however, the advantage is that it will no longer be necessary to access the database again to obtain the objects of the related model.
 
-![Simplified diagram of how Django select_related works](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o3xcx7ifog76559fy4lo.png)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o3xcx7ifog76559fy4lo.png" class="md-local-image" alt="Simplified diagram of how Django select_related works" >}}
 
 Simplified diagram of how select_related works
 
@@ -126,7 +126,7 @@ SELECT my_app_derivative.id,
 
 If the *select_related* method retrieves a single object from a single relationship field, **the *prefetch_related* method is used when we have a multiple relationship with another model**, i.e. a relationship of type _ManyToMany_ or a reverse _ForeignKey_.
 
-![Simplified diagram of how Django prefetch_related works](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jgyuop69qpmie1b0cgzj.png#?)
+{{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jgyuop69qpmie1b0cgzj.png#?" class="md-local-image" alt="Simplified diagram of how Django prefetch_related works" >}}
 
 Simplified diagram of how prefetch_related works
 

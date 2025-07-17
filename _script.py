@@ -102,7 +102,6 @@ def update_links(content, post_dir_name, category_slug, lang):
             if new_category:
                 new_path = f"{new_category}/{old_path}"
             else:
-                rela.append(old_path)
                 new_path = f"{category_slug}/{old_path}"
         return f"{prefix_char}{lang_prefix}/{new_path}/"
 

@@ -21,7 +21,7 @@ slug: /artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conci
 title: Chat Gpt, La Habitacion China De Searle y la conciencia
 ---
 
-Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/es/artificial-intelligence/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral y sus numerosas aplicaciones; tales como el [desarrollo de nuevos fármacos](/es/artificial-intelligence/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [estamos en una burbuja de IA o no](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/), para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende realmente Chat GPT el lenguaje? O dicho de otra forma: ¿es consciente Chat GPT?
+Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/es/artificial-intelligence/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral y sus numerosas aplicaciones; tales como el [desarrollo de nuevos fármacos](/es/artificial-intelligence/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [estamos en una burbuja de IA o no](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/), para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende realmente Chat GPT el lenguaje? O dicho de otra forma: ¿es consciente Chat GPT?
 
 >What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
@@ -29,7 +29,7 @@ Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen
 
 John Searle, fue un científico que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
 
-![Imagen de la habitación china de Searle generada con Dall-E](images/la-habitacion-china-de-searle.jpg "Imagen de la habitación china de Searle generada con Dall-E")
+{{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Imagen de la habitación china de Searle generada con Dall-E" caption="Imagen de la habitación china de Searle generada con Dall-E" >}}
 
 Un humano, dentro de una habitación completamente aislada del mundo exterior, con una serie de instrucciones para procesar símbolos en chino y devolver una respuesta. Hay que resaltar que la persona en el interior de la habitación desconoce el idioma chino y se limita a seguir la serie de instrucciones que le fueron otorgadas, es decir, **no comprende el texto que entra, ni el que sale**.
 
@@ -97,7 +97,7 @@ En el libro "Un eterno y grácil bucle" de Douglas R. Hofstader. El autor cita u
 
 Como bien especula Hofstader, un humano se hubiera "salido" del bucle para detenerse por unos momentos e investigar lo que estaba ocurriendo.
 
-![Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle](images/avisa-sphex.jpg "Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle")
+{{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle" caption="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle" >}}
 
 Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente, ¿existen gradientes de conciencia? Y, si es así, ¿como se ve siente conciencia más allá de la que experimentamos los humanos? Si la conciencia existe como una manifestación macroscópica, ¿es determinista? ¿o pertenece al mundo cuántico de la indeterminación? No lo sé y creo que la verdad aún no elige un ganador.
 

@@ -25,7 +25,7 @@ Estás navegando en un ecommerce, un producto llama tu atención y haces click p
 
 Agregar una sección de productos visitados aumenta las ventas en un ecommerce y mantiene al usuario más tiempo en la página. Es normal añadir este historial a un usuario que ya está en la base de datos. Los encargados de la página web tienen un historial de los productos que vemos, los que compramos, cuanto tiempo pasamos viéndolos y muchos otros datos pero... ¿y los usuarios anónimos que no tienen una cuenta?
 
-![Historial de productos visitados de amazon, incluye Cracking the code interview, Design Patterns, Clean Code y the Pragmatic Programmer.](images/Historial-de-Amazon.png)
+{{< figure src="images/Historial-de-Amazon.png" class="md-local-image" alt="Historial de productos visitados de amazon, incluye Cracking the code interview, Design Patterns, Clean Code y the Pragmatic Programmer." >}}
 
 Historial de cierta página de ecommerce que ya no necesita más publicidad.
 

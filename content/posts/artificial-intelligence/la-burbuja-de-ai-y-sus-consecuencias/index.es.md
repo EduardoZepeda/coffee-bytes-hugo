@@ -4,8 +4,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - artificial intelligence
+- opinion
 coverImage: images/ai-rise-and-fall-bubble.jpg
 date: 2024-04-18
 description: Parece que estamos experimentando una burbuja de inteligencia artificial
@@ -24,7 +24,7 @@ Desde que ChatGPT superó el record de crecimiento de usuarios, la inteligencia 
 
 Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo.
 
-![Meme que se burla de las capacidades de la AI](images/meme-ai-is-this.jpg)
+{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme que se burla de las capacidades de la AI" >}}
 
 ## ¿Está estallando finalmente la burbuja de la IA?
 
@@ -44,13 +44,13 @@ Basta con que una empresa use AI para dotarla de una magia desconocida que la vu
 
 Los consumidores, generalmente negocios, esperan que la AI reduzca (o elimine) los costos de contratar personal y los inversores esperan la inversión de sus vidas.
 
-![My AI reality vs expectations diagram](https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png "No es que la AI no sea valiosa, lo es, solo que, actualmente, su valor está inflado")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png" class="md-local-image" alt="My AI reality vs expectations diagram" caption="No es que la AI no sea valiosa, lo es, solo que, actualmente, su valor está inflado" >}}
 
 ## La fiebre por la AI y la inversión de capital
 
 Como ya dije, los inversores no quieren quedarse fuera de esta fiesta y están tan deseosos de sacarse la lotería y convertirse en el nuevo Zuckerberg de la inteligencia artificial, que abren sus carteras sin pensarlo cada vez que escuchan la palabra "AI" en el mismo enunciado que "disruptivo".
 
-![Wallstreet no tiene idea de AI](images/wallstreet-is-dumb.jpg)
+{{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet no tiene idea de AI" >}}
 
 Pero, en mi opinión, todo esto no es más que un montón de empresas y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/). 
 
@@ -62,7 +62,7 @@ Edición: Builder.AI, una prometedora IA que ofrecía sitios web creados con IA,
 
 Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero de la AI no comprenden que realmente no ha cambiado mucho en el mundo del código, la mayoría de las soluciones solo usan a ChatGPT por detrás, junto a una interfaz linda para presentarse como el siguiente unicornio y buscar el dinero fácil de los inversores. 
 
-![Las startups solo son un wrapper de chatgpt](images/ai-company-chatgpt.jpg)
+{{< figure src="images/ai-company-chatgpt.jpg" class="md-local-image" alt="Las startups solo son un wrapper de chatgpt" >}}
 
 No es que usar chatGPT para tu empresa esté mal, pero si una app es sólo un envoltorio de GPT, el riesgo de convertirse en una commodity es alto, ¿vamos a tener miles de apps diferentes que resuelven el mismo problema y son sólo envoltorios de chatGPT? Inclusive se han creado protocolos para interacción con los LLM; como el [Model Context Protocol](/es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/).
 
@@ -86,6 +86,6 @@ En mi opinión, las Inteligencias Artificiales son el autocompletado definitivo,
 
 La burbuja va a tronar y van a quedarse solo aquellas empresas con el potencial de cambiar el juego para siempre. Herramientas como Sora, Midjourney, ChatGPT, Eleven Labs o Watson. Les corresponde a ellas decidir el ritmo al que se llevará a cabo esta transición.
 
-![Meme de dragon ball sobre la explosión de la burbuja de AI](images/ai-bubble-explosion-meme.jpg)
+{{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="Meme de dragon ball sobre la explosión de la burbuja de AI" >}}
 
 Mi predicción respecto a la burbuja, es que el resto de empresas que no posean sus propias redes neuronales exclusivas o alguna propiedad intelectual que las proteja, van a canibalizarse y a volverse commodities, destruyendo el mercado de AI en el proceso, y que, cuando truene la burbuja, muchas personas van a perder dinero en el proceso.

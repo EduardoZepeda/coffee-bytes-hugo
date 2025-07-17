@@ -34,7 +34,7 @@ graph TD;
 
 If you look at the Django source code, you will see that the **User model you normally use has virtually no functionality of its own**, but inherits all of its functionality from _AbstractUser_.
 
-![Screenshot of Django User model code](images/UserDjango.png "Screenshot of Django version 4.0 code")
+{{< figure src="images/UserDjango.png" class="md-local-image" alt="Screenshot of Django User model code" caption="Screenshot of Django version 4.0 code" >}}
 
 Now that we know the above, **we can use the AbstractUser and AbstractBaseUser classes to create our custom User models**.
 
@@ -106,7 +106,7 @@ Now the admin panel will behave exactly as it would with the default Django user
 
 Notice how the _AbstractUser_ class inherits from _AbstractBaseUse_r and has multiple fields available to profile a user. Also, it cannot be instantiated directly, as it is an abstract class.
 
-![Django AbstractUser class source code](images/AbstractUserDjango-1.png "Screenshot of Django version 4.0 AbstractUser code")
+{{< figure src="images/AbstractUserDjango-1.png" class="md-local-image" alt="Django AbstractUser class source code" caption="Screenshot of Django version 4.0 AbstractUser code" >}}
 
 Let's move on to the second method.
 
@@ -161,7 +161,7 @@ The following image is a direct screenshot of the Django code in version 4.0
 
 As you can see, it only has the 3 fields mentioned, it inherits directly from _models.Model_ and its Meta class tells Python that it is an abstract model; you cannot create instances directly from it.
 
-![Django AbstractBaseUser class source code](images/AbstractBaseUserDjango-1.png "Screenshot of Django AbstractBaseUser version 4.0")
+{{< figure src="images/AbstractBaseUserDjango-1.png" class="md-local-image" alt="Django AbstractBaseUser class source code" caption="Screenshot of Django AbstractBaseUser version 4.0" >}}
 
 Now let's look at the third way to extend Django's _User_ model.
 

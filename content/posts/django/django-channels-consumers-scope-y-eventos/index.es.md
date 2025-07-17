@@ -24,7 +24,7 @@ title: 'Django channels: consumers, scope y eventos'
 
 Django channels coloca una capa intermedia que se encarga de procesar las peticiones http a las vistas de django y las conexiones websocket a un consumer http o un consumer websocket.
 
-![Esquema simplificado del funcionamiento de Django channels](images/djangoWsgiChannels.png)
+{{< figure src="images/djangoWsgiChannels.png" class="md-local-image" alt="Esquema simplificado del funcionamiento de Django channels" >}}
 
 ## ¿Qué es un channel y un websocket?
 
@@ -122,7 +122,7 @@ En esta app radicarán los encargados de manejar las conexiones websocket que cr
 
 Los eventos son las acciones que realizarán nuestros usuarios, como conectarse, desconectarse o mandar información al websocket y el consumer responderá a estos. Además de estos eventos podemos crear eventos personalizados (no te preocupes por eso ahora) y asignarlos a funciones.
 
-![Esquema simplificado de un websocket y un consumer](images/websocketYConsumer-1.png)
+{{< figure src="images/websocketYConsumer-1.png" class="md-local-image" alt="Esquema simplificado de un websocket y un consumer" >}}
 
 El web socket manda información con el método send, el consumer la recibe con su método receive, y posteriormente manda una respuesta con send, que el websocket procesará con onmessage
 
@@ -251,7 +251,7 @@ Todas las conexiones a la url _ws://localhost:8000/ws/chat/_ crearán una instan
 
 Posteriormente, modifiquemos el archivo _asgi.py_ dentro de nuestro proyecto de manera que cada petición que se haga a un websocket sea redirigida a nuestro consumer.
 
-![Esquema del ProtocolTyperouter de Django channels](images/ProtocolTyperouter-2.png)
+{{< figure src="images/ProtocolTyperouter-2.png" class="md-local-image" alt="Esquema del ProtocolTyperouter de Django channels" >}}
 
 ```python
 # mychannels/asgi.py
@@ -316,7 +316,7 @@ chatSocket.send(JSON.stringify({
 
 Si todo salió bien deberíamos obtener una respuesta con el mensaje que mandamos.
 
-![Respuesta de un websocket en la consola de javascript ](images/djangoChannelsWebSockets-1.png)
+{{< figure src="images/djangoChannelsWebSockets-1.png" class="md-local-image" alt="Respuesta de un websocket en la consola de javascript" >}}
 
 Manejando websockets en la consola de Javascript
 

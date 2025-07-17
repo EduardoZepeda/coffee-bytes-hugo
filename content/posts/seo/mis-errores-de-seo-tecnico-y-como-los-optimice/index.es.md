@@ -4,8 +4,8 @@ aliases:
 authors:
 - Eduardo Zepeda
 categories:
-- opinion
 - SEO
+- opinion
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
 description: Te cuento que hice mal, que hice bien y lo que aprendí al optimizar el
@@ -14,7 +14,7 @@ keywords:
 - opinion
 - seo
 - desarrollo web
-slug: /opinion/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/
+slug: /seo/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/
 title: Mis errores de optimización en el SEO técnico de mi sitio web
 ---
 
@@ -30,7 +30,7 @@ Y no estoy hablando de diferencias sútiles, estoy hablando de diferencias abism
 
 A riesgo de sonar redundante, lo repetiré nuevamente: el tráfico de un sitio web es mucho más importante que la eficiencia, el aspecto o el lenguaje o framework con el que esté hecho, sí, aunque lo escribas en C++ o directo en ensamblador.
 
-![Aves exoticas is a perfect example of a web site with good seo but awful UI](images/aves-exoticas-org-bad-ui-good-seo.jpg "Aves exoticas es el ejemplo perfecto de un sitio web visualmente no tan atractivo, pero con un SEO impecable que lo posiciona en la primera posición en google.")
+{{< figure src="images/aves-exoticas-org-bad-ui-good-seo.jpg" class="md-local-image" alt="Aves exoticas is a perfect example of a web site with good seo but awful UI" caption="Aves exoticas es el ejemplo perfecto de un sitio web visualmente no tan atractivo, pero con un SEO impecable que lo posiciona en la primera posición en google." >}}
 
 ### ¿El SEO sirve? Los desarrolladores web suelen ignorarlo
 
@@ -38,7 +38,7 @@ La mayoría de los desarrolladores poseen un background ingenieril, donde se val
 
 De ahí que cuando un desarrollador web lanza sus proyectos personales, suele ignorar por completo el SEO y se centra, [erróneamente, en optimizar su sitio web al máximo](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), generalmente consiguiendo un sitio web extremadamente rápido, eficiente, e incluso visualmente atractivo, pero sin tráfico.
 
-![Web development in assembly meme](images/web-development-assembly.webp "Dicen por ahí que solo los verdaderos programadores programan en lenguajes de bajo nivel")
+{{< figure src="images/web-development-assembly.webp" class="md-local-image" alt="Web development in assembly meme" caption="Dicen por ahí que solo los verdaderos programadores programan en lenguajes de bajo nivel" >}}
 
 {{<ad>}}
 
@@ -90,7 +90,7 @@ Por medio de una redirección, en este caso bastaba con indicarle a Google que s
 
 Cuando usaba Wordpress el plugin Yoast se encargaba del marcado de datos estructurados, pero en Hugo esto tiene que realizarse de forma manual, por lo que mi sitio web duró un tiempo sin estos datos estructurados, ¿el resultado? Una penalización de google en forma de una disminución de las impresiones, y por ende el tráfico de mi sitio web.
 
-![Captura de pantalla del marcado de datos estructurados en un sitio web](images/schema-ld+json.png "El marcado de datos estructurados para un sitio web luce así")
+{{< figure src="images/schema-ld+json.png" class="md-local-image" alt="Captura de pantalla del marcado de datos estructurados en un sitio web" caption="El marcado de datos estructurados para un sitio web luce así" >}}
 
 {{<box type="info" message="El marcado de datos estructurados se presenta generalmente en forma de un script de tipo application/ld+json en un sitio web, no se puede apreciar de forma visual pero es leído por los motores de búsqueda y les sirve para entender el tipo y las relaciones que existen entre cada una de las entidades de tu sitio web.">}}
 

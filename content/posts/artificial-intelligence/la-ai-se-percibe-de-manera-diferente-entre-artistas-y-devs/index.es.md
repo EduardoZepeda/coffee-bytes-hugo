@@ -23,7 +23,7 @@ title: El arte generado con AI y el código generado con AI son tratados de mane
 
 El día de hoy, mientras hacía *doom scrolling* en la red social de Zuckerberg, el algoritmo me recomendó una imagen de **Sakura Card Captors** al estilo de la pintora española **Remedios Varo**.
 
-![Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI](https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp "Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI" caption="Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI" >}}
 
 Al revisar los comentarios —ya ni sé qué gano con hacerlo— noté que los que tenían más *likes* expresaban un fuerte desprecio por la inteligencia artificial. Las acusaciones eran las de siempre: que fue entrenada usando obras de artistas sin permiso, que plagia estilos, y al mismo tiempo, que es despreciable simplemente por no ser humana.
 

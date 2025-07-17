@@ -22,7 +22,7 @@ title: 'REST API: Best practices and design'
 
 How do I design a REST API? How many levels should I nest my related resources? Relative or full URLs? This post is a compilation of some recommendations about some good REST API design practices that I have found in books and articles on the internet. I leave the sources at the end of the article in case you are interested in going deeper or see where this information comes from.
 
-Before we get started, there are a number of [basic features of a REST API](/en/software architecture/basic-characteristics-of-an-api-rest-api/), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
+Before we get started, there are a number of [basic features of a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
 
 Remember that a REST API can return other formats, not just JSON, but I'm going to focus on this one for the examples because it's quite popular.
 
@@ -105,7 +105,7 @@ Who to listen to? As you can see there are differences between companies and I d
 
 ## Relative or full URLs in HATEOAS?
 
-Remember that HATEOAS is a [feature of REST APIs](/en/software architecture/basic-characteristics-of-an-api-rest-api/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
+Remember that HATEOAS is a [feature of REST APIs](/en/software-architecture/basic-characteristics-of-an-api-rest-api/)? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
 
 ```bash
 {"rel":"self",
@@ -175,7 +175,7 @@ GET /posts/1?embed=comments
 
 ## Pagination in APIs
 
-As I've already mentioned in previous posts when I talked about Django, for [application performance](/en/software architecture/how-to-scale-a-django-app-to-serve-one-million-users/) reasons, you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
+As I've already mentioned in previous posts when I talked about Django, for [application performance](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/) reasons, you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
 
 To facilitate the use of your API, consider adding pagination-related information in your response:
 
@@ -213,7 +213,7 @@ Generally you will want to version your API. However, if your API is extremely s
 
 ### Where to version the API?
 
-For an API to adhere to the [REST architecture requirements](/en/software architecture/basic-characteristics-of-an-api-rest-api/) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
+For an API to adhere to the [REST architecture requirements](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
 
 Here are some options for versioning your APIs used by large companies, regardless of whether they are REST compliant or not.
 
@@ -345,7 +345,7 @@ In the [book Two Scoops of Django](/en/django/the-best-django-book-two-scoops-of
 
 You should limit your API. Users should not have unrestricted access and unlimited requests to your API. There are users that can abuse your API, keep your server busy, preventing the rest of the users from using it and increasing your costs.
 
-One way around this is to set a [throttling policy](/en/software architecture/throttling-on-nginx/) on your server for any user.
+One way around this is to set a [throttling policy](/en/software-architecture/throttling-on-nginx/) on your server for any user.
 
 You can also make it the center of your business and offer payment plans according to the number of requests per minute to your API.
 
@@ -384,8 +384,3 @@ I hope you found the post useful, or at least that it introduced you to material
 * [Sturgeon, P. (2015). _Build Api’s_. Philip J. Sturgeon.](https://www.amazon.com.mx/Build-APIs-You-Wont-Hate/dp/0692232699/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2W0ZTSCO349YL&amp;keywords=build+apis&amp;qid=1648756000&amp;sprefix=build+apis%2Caps%2C187&amp;sr=8-1#?)
 * [Massé, M. (2012). REST API design rulebook. Sebastopol, CA: O'Reilly.](https://www.amazon.com.mx/Rest-API-Design-Rulebook-Consistent/dp/1449310508#?)
 * [Two scoops of django](https://www.feldroy.com/books/two-scoops-of-django-3-x)
-
-
-
-
-

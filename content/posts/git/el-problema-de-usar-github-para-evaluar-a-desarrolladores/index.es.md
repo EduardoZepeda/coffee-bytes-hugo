@@ -33,23 +33,18 @@ Es una práctica común usar Github para evaluar las capacidades de un desarroll
 
 "La ausencia de evidencia no es evidencia de ausencia" o, puesto en otras palabras, que la persona no tenga código de excelente calidad en Github, no significa que no pueda escribirlo. 
 
-![Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien](images/github-as-past-review-tool.webp "Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien")
-
-{{< figure src="images/github-as-past-review-tool.webp"  
-  alt="A photograph of Zion National Park"
-  caption="Zion National Park"
-  class="md-image" >}}
+{{< figure src="images/github-as-past-review-tool.webp" class="md-local-image" alt="Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien" caption="Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien" >}}
 
 
 ¿Pero porqué alguien no querría mostrar la ~~horrible calidad de su código hecho en javascript~~ calidad de su código? Una de las razones es que probablemente esté demasiado ocupada escribiendo código que sí paga, en lugar de contribuir al open source.
 
-![Tweet incendiario que desencadena acaloradas discusiones](images/tweet-push-code-that-makes-money.webp "Tweet incendiario que desencadena acaloradas discusiones")
+{{< figure src="images/tweet-push-code-that-makes-money.webp" class="md-local-image" alt="Tweet incendiario que desencadena acaloradas discusiones" caption="Tweet incendiario que desencadena acaloradas discusiones" >}}
 
 No todos tienen un día extra cada semana para dedicarlo al open source, algunos tienen responsabilidades extras más allá del trabajo, como criar una familia, cuidar de padres enfermos o proyectos personales.
 
 Irónicamente mi github luce así:
 
-![Contribuciones de Eduardo Zepeda en Github](images/eduardo-zepeda-github.webp "Mis contribuciones en Github")
+{{< figure src="images/eduardo-zepeda-github.webp" class="md-local-image" alt="Contribuciones de Eduardo Zepeda en Github" caption="Mis contribuciones en Github" >}}
 
 ### No todos las programadores adoran el open source
 
@@ -66,13 +61,13 @@ Microsoft nunca ha sido conocida por su ética a la hora de hacer negocios, desd
 
 Considerando lo anterior, e independientemente de la veracidad de las afirmaciones, **no me extrañaría que algunos desarrolladores opten por mantener su código fuera de las manos de Microsoft y sus servicios,** Github incluído, por supuesto.
 
-![Meme de github](images/github-meme-invencibles.webp "Github meme de los invencibles")
+{{< figure src="images/github-meme-invencibles.webp" class="md-local-image" alt="Meme de github" caption="Github meme de los invencibles" >}}
 
 ## No todos los proyectos está en Github, existen Bitbucket, Gitlab, Gitea y otros
 
 Github es el servicio de facto para el manejo de repositorios en linea, pero existen otras opciones tales como Bitbucket, Gitlab, Gitea, launchpad, que aunque carecen del tamaño y la cantidad de servicios ofrecidos por Github, compensan con una mejor reputación.
 
-![Meme que surgió tras la compra de Github por parte de Microsoft](images/meme-github-gitlab.webp "Meme que surgió tras la compra de Github por parte de Microsoft")
+{{< figure src="images/meme-github-gitlab.webp" class="md-local-image" alt="Meme que surgió tras la compra de Github por parte de Microsoft" caption="Meme que surgió tras la compra de Github por parte de Microsoft" >}}
 
 Algunos desarrolladores prefieren usar estas alternativas como una respuesta al monopolio de Github o quizás por razones tan banales como preferir una UI sobre otra.
 

@@ -31,7 +31,7 @@ var array [4]int
 
 In the above example, we have an _array_ with space for 4 integers. The values that we do not assign will be assigned as zero values.
 
-![Structure of an array in go](images/arrayGolang-1.png)
+{{< figure src="images/arrayGolang-1.png" class="md-local-image" alt="Structure of an array in go" >}}
 
 ### Assign values to an array
 
@@ -66,7 +66,7 @@ slice[0] = 1
 
 Internally a _slice_ is a _struct_ with a pointer to the real array. In addition to the pointer, it has a property called _cap_ and _len_, which refer to the capacity and length of the array, respectively.
 
-![Structure of a slice in go](images/sliceGolang.png "A slice pointer points to the data it contains")
+{{< figure src="images/sliceGolang.png" class="md-local-image" alt="Structure of a slice in go" caption="A slice pointer points to the data it contains" >}}
 
 To create a non-empty slice we have two ways to do it:
 

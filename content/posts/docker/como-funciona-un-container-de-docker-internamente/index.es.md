@@ -78,7 +78,7 @@ Existen diferentes tipos de namespaces que controlan los recursos a los que tien
 
 Por ejemplo, si usamos un namespace de tipo UTS, los cambios que le hagamos al hostname desde nuestro namespace no afectarán al hostname del sistema operativo principal.
 
-![Ejemplo de namespaces en linux](images/namespaces-uts-en-linux.jpg "Cada namespace tiene su propio hostname y domainname")
+{{< figure src="images/namespaces-uts-en-linux.jpg" class="md-local-image" alt="Ejemplo de namespaces en linux" caption="Cada namespace tiene su propio hostname y domainname" >}}
 
 ### cgroup
 
@@ -90,7 +90,7 @@ Linux toma esta configuración leyendo una serie de archivos dentro de la ruta *
 
 Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs que puede usar este proceso a uno solo, y que solo pueda usar el 20% de la capacidad de CPU, además asígnale un máximo de 1GB de RAM".
 
-![Ejemplo de cgroups en linux](images/cgroups-en-linux.jpg "Los cgroups permiten limitar recursos del sistema")
+{{< figure src="images/cgroups-en-linux.jpg" class="md-local-image" alt="Ejemplo de cgroups en linux" caption="Los cgroups permiten limitar recursos del sistema" >}}
 
 {{<ad>}}
 
@@ -98,7 +98,7 @@ Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs 
 
 Chroot, nombre que viene de change root, le indica a Linux que debe cambiar el directorio que está usando como root a otro, esto implica que ahora tendrá otra serie de binarios, configuraciones y procesos diferentes. 
 
-![](https://res.cloudinary.com/dwrscezd2/image/upload/v1751225523/coffee-bytes/ed-zepeda_vlu99f.webp "Chroot cambia el root a otro que especifiquemos")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751225523/coffee-bytes/ed-zepeda_vlu99f.webp" class="md-local-image" alt="" caption="Chroot cambia el root a otro que especifiquemos" >}}
 
 ## Crear un container desde cero con Go
 

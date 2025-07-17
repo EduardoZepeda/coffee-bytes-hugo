@@ -40,7 +40,7 @@ Identify what queries are being made in your application using [django-debug-too
 * **F-Expressions** to perform operations at the database level instead of in Python code.
 * **Annotate and subqueries** Be careful of the way Django uses [annotate and subqueries and write CTEs or raw SQL]({{< ref path="/posts/django/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="en" >}}) if you need to.
 
-![Django debug tool bar showing the SQL queries of a Django request](images/django-debug-tool-bar-numero-queries.png "Django debug tool bar showing the SQL queries of a Django request ")
+{{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar showing the SQL queries of a Django request" caption="Django debug tool bar showing the SQL queries of a Django request" >}}
 
 Example of use with _select_related_.
 
@@ -209,7 +209,7 @@ Serving static images and files can hinder the important part of your applicatio
 
 In addition to benefiting from the geographic locations of CDNs; a server in the same country (or continent) as your user will result in a faster response.
 
-There are many CDN options available, among the most popular options are AWS, [Azure](/en/software architecture/azure-az-900-certification-exam-my-experience/), Digital Ocean, Cloud Flare, among others.
+There are many CDN options available, among the most popular options are AWS, [Azure](/en/software-architecture/azure-az-900-certification-exam-my-experience/), Digital Ocean, Cloud Flare, among others.
 
 ## Denormalization
 

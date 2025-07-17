@@ -23,7 +23,7 @@ I ran into Ngrok trying to redirect a Mercado Pago payment notification to my lo
 
 What Ngrok does is to serve as a tunnel that redirects any web request, through its own urls, to your localhost. This can be used to test a webhook or receive notifications, a very common task in payment gateways, share your localhost with collaborators without needing your own domain, etc.
 
-![ngrok operation schematic](images/EsquemaNgrok.png)
+{{< figure src="images/EsquemaNgrok.png" class="md-local-image" alt="ngrok operation schematic" >}}
 
 {{<ad>}}
 
@@ -41,7 +41,7 @@ To run ngrok on GNU/Linux just run the executable, followed by the http option a
 
 If everything worked correctly, you will see something similar to the following.
 
-![Ngrok information in the terminal](images/NgrokTerminal.png)
+{{< figure src="images/NgrokTerminal.png" class="md-local-image" alt="Ngrok information in the terminal" >}}
 
 What does the above display mean? It means that all requests made to http://ngrok.io; that is, to the fc2ca35fd170 subdomain of the ngrok domain, will be redirected to your localhost, specifically to port 8080. And that's it, it's that simple and easy to use.
 
@@ -70,11 +70,11 @@ If we now run ngrok, specify port 8000 and access the address it indicates, we w
 ngrok http 8000
 ```
 
-![Ngrok information for the Django example](images/NgrokEjemploDjango.png)
+{{< figure src="images/NgrokEjemploDjango.png" class="md-local-image" alt="Ngrok information for the Django example" >}}
 
 Observe the domain in which our Django application is running.
 
-![Django application running in Ngrok domain](images/NgrokTunnel-1.png)
+{{< figure src="images/NgrokTunnel-1.png" class="md-local-image" alt="Django application running in Ngrok domain" >}}
 
 ## Ngrok doesn't work in Wordpress or React
 

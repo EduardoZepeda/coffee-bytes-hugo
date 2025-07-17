@@ -20,7 +20,7 @@ title: How to use Django Framework asynchronously using Celery
 
 Celery, in combination with Django serve to solve a problem: the lack of asynchrony in our application. Sending an email, processing some file or responding to a third party service will keep our execution waiting for the task to finish and, as a consequence, our user waiting.
 
-Using celery is one of the things you can do to [improve the performance of a Django application](/en/software architecture/how-to-scale-a-django-app-to-serve-one-million-users/). And you can also create periodic tasks with celery and django.
+Using celery is one of the things you can do to [improve the performance of a Django application](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/). And you can also create periodic tasks with celery and django.
 
 Look at this example view:
 
@@ -36,7 +36,7 @@ def slowResponseView(request):
 
 Notice how after accessing the url, **the answer does not appear until after 3 seconds**. During that time our application is busy. That _time.sleep()_ that causes the delay could represent an email sending, the waiting time to an external API, a very computationally expensive calculation or any other task that requires a long time to be performed.
 
-![Time-consuming task delays server response](images/slowResponseView-1.gif)
+{{< figure src="images/slowResponseView-1.gif" class="md-local-image" alt="Time-consuming task delays server response" >}}
 
 The response to the url takes 3 seconds
 
@@ -62,7 +62,7 @@ We will also need RabbitMQ, which will serve as an intermediary between django a
 sudo apt install rabbitmq-server
 ```
 
-![Basic schematic of RabbitMQ and Celery operation](images/RabbitMQEsquema.jpg)
+{{< figure src="images/RabbitMQEsquema.jpg" class="md-local-image" alt="Basic schematic of RabbitMQ and Celery operation" >}}
 
 Basic outline of RabbitMQ operation and cellery
 
@@ -113,7 +113,7 @@ celery -A celeryApp worker -l info
 
 The _-A_ option, of App, tells celery the name of the application, i.e., the name we just assigned to it in the _celery.py_ file.
 
-![Celery running in console](images/CeleryEjecutandoseEnConsola.png)
+{{< figure src="images/CeleryEjecutandoseEnConsola.png" class="md-local-image" alt="Celery running in console" >}}
 
 Celery running on the terminator. See how the transport option in [config] points to port 5672, characteristic of rabbitmq.
 
@@ -190,7 +190,7 @@ If we now access the view we just created, we will see that it **returns the JSO
 
 Celery takes care of our task, so that it does not interrupt the flow of our Django application.
 
-![Celery preventing time-consuming task from delaying server response](images/DjangoEjecutandoTareaAsincrona.gif)
+{{< figure src="images/DjangoEjecutandoTareaAsincrona.gif" class="md-local-image" alt="Celery preventing time-consuming task from delaying server response" >}}
 
 Celery handling the task that is executed with each web request in an asynchronous manner.
 
@@ -216,13 +216,13 @@ After executing the Flower command it will be available on port 5555.
 
 Flower will show us the active tasks, processed, with failure and information of each one of them.
 
-![Flower application, main panel](images/FlowerParaCelery.png)
+{{< figure src="images/FlowerParaCelery.png" class="md-local-image" alt="Flower application, main panel" >}}
 
 Flower main panel available on port 5555
 
 We will also be able to see specific information for each task, such as its identifier, arguments, time and execution time.
 
-![Flower specific task panel](images/FlowerParaCeleryTareas.png)
+{{< figure src="images/FlowerParaCeleryTareas.png" class="md-local-image" alt="Flower specific task panel" >}}
 
 Flower shows us the details of each task
 

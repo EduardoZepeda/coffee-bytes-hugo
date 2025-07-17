@@ -20,13 +20,13 @@ title: How to avoid spam when putting an email on a website?
 
 Sometimes we want to put an email on a website but without exposing it to be read by some random bot that includes us in an advertising list, reminding us of our problems to start a physical relationship with the two mature women who live less than two kilometers away. And since we don't want that, there are several things we can do to solve this and here I present some solutions, the last one is the one I usually use and also my favorite.
 
-![Classic scam email from a Prince from Nigeria](images/prince-from-nigeria-scam.jpg)
+{{< figure src="images/prince-from-nigeria-scam.jpg" class="md-local-image" alt="Classic scam email from a Prince from Nigeria" >}}
 
 ## Convert your email to an image and avoid spam
 
 This way to protect your email address requires no detailed explanation, just turn your email into an image and place it, your address will be safe from any text scraping bot, but it will be vulnerable to any bot with [OCR (Optical Character Recognition) capabilities, bots with pytesseract for example](/en/python/ocr-with-tesseract-python-and-pytesseract/), which I predict will be few if any.
 
-![email address in an image](images/email-image.jpg)
+{{< figure src="images/email-image.jpg" class="md-local-image" alt="email address in an image" >}}
 
 The disadvantage of this approach is that the person who wants to send you an email will have to type it in manually, as they can't copy-paste, and you know that every extra step adds friction to the conversion process.
 
@@ -56,7 +56,7 @@ Another option is to completely forget about placing your email and use a form i
 
 Of course some bots will try to fill out the form to send you advertisements but you can always use [a strong captcha to protect yourself from spam](/en/opinion/my-analysis-of-anti-bot-captchas-and-their-advantages-and-disadvantages/)
 
-![Anime captcha image from Freiren](images/captcha-frieren-fern.webp)
+{{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Anime captcha image from Freiren" >}}
 
 ### Use custom email spam filters
 

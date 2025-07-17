@@ -97,7 +97,7 @@ The basic differences between useCallback, useMemo and memo are summarized in th
 * useMemo, memoizes values, it is a hook.
 * memo, memoizes components, it is a HOC.
 
-![Differences between useCallback, useMemo and memo](images/Diferencias-React-useCallback-useMemo-memo.jpg)
+{{< figure src="images/Diferencias-React-useCallback-useMemo-memo.jpg" class="md-local-image" alt="Differences between useCallback, useMemo and memo" >}}
 
 Together, [memo, useMemo and useCallback are used to avoid unnecessary renderings in React](/en/react/react-memo-usememo-and-usecallback-to-avoid-react-renderings/).
 

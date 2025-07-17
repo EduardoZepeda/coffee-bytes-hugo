@@ -44,7 +44,7 @@ El proceso más detallado es el siguiente:
 5. La respuesta del servidor se codifica usando el stub y se envía al cliente.
 6. El cliente recibe la respuesta y la decodifica en el formato adecuado.
 
-![Esquema del funcionamiento de gRPC](images/rpc-esquema.jpg "Esquema del funcionamiento de gRPC")
+{{< figure src="images/rpc-esquema.jpg" class="md-local-image" alt="Esquema del funcionamiento de gRPC" caption="Esquema del funcionamiento de gRPC" >}}
 
 ¿Notaste que mencioné codificación de datos? Pues bien, un aspecto de RPC a destacar es que requiere que tanto cliente como servidor usen el mismo lenguaje de programación, lo cual lo vuelve una desventaja en entornos donde se pueden mezclar múltiples lenguajes de programación. 
 
@@ -74,7 +74,7 @@ graph TD;
 
 Los Protocol Buffers (protobuffers en adelante) son un formato completamente agnóstico de lenguaje y plataforma, que gRPC usa para serializar y deserializar información estructurada solo que, en lugar de usar JSON, XML u otro formato, se realiza directamente en binario. Lo anterior, como ya sabes, lo vuelve mucho más eficiente que usar un formato más amigable con los humanos como JSON.
 
-![La compilación de el archivo .proto es unidireccional, mientras que la serialiazación deserialización es bidireccional](images/protobuffers-grpc.jpg "La compilación de el archivo .proto es unidireccional, mientras que la serialiazación deserialización es bidireccional")
+{{< figure src="images/protobuffers-grpc.jpg" class="md-local-image" alt="La compilación de el archivo .proto es unidireccional, mientras que la serialiazación deserialización es bidireccional" caption="La compilación de el archivo .proto es unidireccional, mientras que la serialiazación deserialización es bidireccional" >}}
 
 ### ¿Cómo convertir información con los protobuffers?
 

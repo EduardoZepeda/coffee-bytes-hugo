@@ -26,7 +26,7 @@ The django admin panel is so well designed, and it works out of the box, is defi
 
 If you started your project with the startproject command, the django administration panel will be activated by default. If you go to _/admin/_ the login screen will appear.
 
-![Administration panel login screen](images/django-admin-panel.png "django admin panel screen")
+{{< figure src="images/django-admin-panel.png" class="md-local-image" alt="Administration panel login screen" caption="django admin panel screen" >}}
 
 If not, or if you start from a previous installation, you must first make sure that it is installed in your configuration file, as well as its dependencies:
 
@@ -92,7 +92,7 @@ With this we will have a modifiable model in the admin.
 
 If we enter the url /_admin/_ and log in, we will be able to see the interface working.
 
-![django administration panel](images/PanelDeAdministracionDeDjango.png)
+{{< figure src="images/PanelDeAdministracionDeDjango.png" class="md-local-image" alt="django administration panel" >}}
 
 Note the absence of the search bar
 
@@ -118,7 +118,7 @@ class VideogameAdmin(admin.ModelAdmin):
 admin.site.register(Videogame, VideogameAdmin)
 ```
 
-![django admin admin panel with the created field and search bar added](images/AgregandoCamposAlAdmin.png)
+{{< figure src="images/AgregandoCamposAlAdmin.png" class="md-local-image" alt="django admin admin panel with the created field and search bar added" >}}
 
 See the created field and the search bar
 
@@ -140,7 +140,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 As you can see, the order in which the fields appear has been modified. In order Description, Name, Genre and Rating, just as we specified.
 
-![Order of the modified model creation formulary according to the fields field](images/ModificandoElOrdenPredeterminadoDelAdmin.png)
+{{< figure src="images/ModificandoElOrdenPredeterminadoDelAdmin.png" class="md-local-image" alt="Order of the modified model creation formulary according to the fields field" >}}
 
 Notice how the order has changed from that specified in the fields property.
 
@@ -163,7 +163,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 Here we have told you to order them by name, in descending order, using the "-" symbol.
 
-![Models sorted alphabetically in descending order](images/OrdenPorNombreDescendenteAdminDjango.png)
+{{< figure src="images/OrdenPorNombreDescendenteAdminDjango.png" class="md-local-image" alt="Models sorted alphabetically in descending order" >}}
 
 Note the arrangement of the models in descending order
 
@@ -181,7 +181,7 @@ admin.site.site_title = 'title in the browser tab'
 
 Now you can see that in the main page of the admin you can see the changes we have made.
 
-![Changing the title, description and title of the django admin panel](images/ModificandoLaCabeceraTituloYDescripcion.png)
+{{< figure src="images/ModificandoLaCabeceraTituloYDescripcion.png" class="md-local-image" alt="Changing the title, description and title of the django admin panel" >}}
 
 The three sites have changed
 
@@ -200,7 +200,7 @@ class VideogameAdmin(admin.ModelAdmin):
 admin.site.register(Videogame, VideogameAdmin)
 ```
 
-![Sorting by date field](images/AgregandoDate_hierarchy.png)
+{{< figure src="images/AgregandoDate_hierarchy.png" class="md-local-image" alt="Sorting by date field" >}}
 
 The legend April2021 and April 30 appear after placing date_hierarchy
 
@@ -220,13 +220,13 @@ class VideogameAdmin(admin.ModelAdmin):
         return "Popular" if obj.rating > 4.5 else "No es popular"
 ```
 
-![Django Admin. dynamic custom fields](images/CamposPersonalizadosDjangoAdmin.png)
+{{< figure src="images/CamposPersonalizadosDjangoAdmin.png" class="md-local-image" alt="Django Admin. dynamic custom fields" >}}
 
 ## Create actions for the Django admin
 
 All models have the delete action available, which allows you to select several rows from the database and delete them.
 
-![Delete action in django admin.](images/AccionEliminarDjangoAdmin.png)
+{{< figure src="images/AccionEliminarDjangoAdmin.png" class="md-local-image" alt="Delete action in django admin." >}}
 
 In addition to the delete action we can create our own actions that modify our admin elements in the way we wish
 
@@ -253,11 +253,11 @@ class VideogameAdmin(admin.ModelAdmin):
 
 Once the method is created, we add it to the admin through its _add_action()_ method, passing it the method we created and the name we want to appear on the screen to refer to that action, as the first and second arguments, respectively.
 
-![Action created in the django admin model](images/AccionesDjangoAdmin.png)
+{{< figure src="images/AccionesDjangoAdmin.png" class="md-local-image" alt="Action created in the django admin model" >}}
 
 If we select some elements and execute the action, it will rate them with 5 stars and the message we defined will appear.
 
-![Success message after executing action in djago admin](images/mensajeExitoDjangoAdmin.png)
+{{< figure src="images/mensajeExitoDjangoAdmin.png" class="md-local-image" alt="Success message after executing action in djago admin" >}}
 
 ## Installing external templates for django admin
 
@@ -312,9 +312,9 @@ admin.site.register(Videogame, VideogameAdmin)
 
 If we now access the admin, we will be able to see a new, much more stylish terminal. And also a more eye-catching administration panel.
 
-![admin main screen with django material](images/MaterialDjangoAdmin.png "Django administration panel with django-material")
+{{< figure src="images/MaterialDjangoAdmin.png" class="md-local-image" alt="admin main screen with django material" caption="Django administration panel with django-material" >}}
 
-![Log-in screen with django-material](images/pantalla-de-loggeo-django-material.png "django admin login panel with django-material")
+{{< figure src="images/pantalla-de-loggeo-django-material.png" class="md-local-image" alt="Log-in screen with django-material" caption="django admin login panel with django-material" >}}
 
 I used this package especially because it installs easily and gives a completely different look to the admin. But there are [many other options available](https://dev.to/sm0ke/django-admin-dashboards-open-source-and-free-1o80#?) that you can choose from, some paid and some free.
 

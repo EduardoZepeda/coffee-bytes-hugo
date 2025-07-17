@@ -79,7 +79,7 @@ fmt.Println(myVideogame)
 
 Para marcar un struct, función o variable como privada o pública, igual que sus respectivos campos para el struct, **basta con declarar la primera letra del campo con mayúsculas o minúsculas**, para público y privado, respectivamente.
 
-![Diagrama de reglas de privacidad de Golang](https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png" class="md-local-image" alt="Diagrama de reglas de privacidad de Golang" >}}
 
 Personalmente, creo que este es uno de los aspectos más complicados de este lenguaje, ¿por qué? porque cuando necesites buscar un campo privado, probablemente necesites usar regex, en lugar de simplemente buscar por la palabra *private*.
 
@@ -106,7 +106,7 @@ Puedes pensar en estos como los métodos de una clase.
 
 Para acceder a instancias de structs en las funciones necesitamos colocar un par de parentesis entre la keyword _func_ y el nombre de la función. Estos paréntesis contienen el nombre que usaremos para acceder a la instancia del struct, seguido del caracter de desestructuración y, por último, el nombre del struct.
 
-![Composición en Go, diagrama](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png)
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png" class="md-local-image" alt="Composición en Go, diagrama" >}}
 
 ```go
 func (myStructVariable *Videogame) PrintYear(){
@@ -206,7 +206,7 @@ Puedes pensar en una interfaz como una especie de "plano" o "blueprint" que le d
 
 Por ejemplo: Piensa en una abstracción que representa a cada animal que respira, si un animal respira, damos por hecho que debe implementar la interfaz de "respirar", pero cada animal la implementará a su gusto, algunos respirarán usando narices, otros branquias, algunos lo harán muy lento, otros muy rápido, pero todos deben implementar un método para respirar.
 
-![Explicación del concepto de interfaz en programación](https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png "Mientras el ente pueda respirar, satisface la interfaz.")
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png" class="md-local-image" alt="Explicación del concepto de interfaz en programación" caption="Mientras el ente pueda respirar, satisface la interfaz." >}}
 
 ### ¿Para que sirve una interfaz en Go?
 

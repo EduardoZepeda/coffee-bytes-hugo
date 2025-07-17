@@ -33,7 +33,7 @@ ls -l
 
 Hay 3 conjuntos de 3 letras, cada conjunto contiene espacios para las letras '_r_' '_w_' y '_x_', en ese orden. La presencia de un guión indica la ausencia de permisos. El primer conjunto representa los permisos del propietario del archivo, el segundo conjunto representa los permisos del grupo al que pertenece el archivo y el tercer conjunto representa los permisos de otros. Antes del primer conjunto hay un espacio para el tipo de archivo; '_D_' para directorio, o un guión para un archivo.
 
-![Significado de los permisos en un sistema GNU/Linux](images/PermisosGNULinux-1.png)
+{{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Significado de los permisos en un sistema GNU/Linux" >}}
 
 Ninguno de los conjuntos tiene permisos para ejecutar el archivo _helloWorld.out_ por lo que, al intentarlo, nos mostrará la frase '_permiso denegado_' en la terminal.
 
@@ -84,7 +84,7 @@ El permiso '_r_' tendrá un valor de 4, el permiso '_w_' un valor de 2 y el perm
 | Escribir | 2     |
 | Ejecutar | 1     |
 
-![Significado de los números en los permisos GNU/Linux](images/PermisosNumerosGNULinux.png)
+{{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Significado de los números en los permisos GNU/Linux" >}}
 
 Tomando en cuenta lo anterior, un valor de 7 (4+2+1) significa que cuenta con todos los permisos, un valor de 5 (4 +1) significa que cuenta con el permiso de lectura (r) y de ejecución (x), un valor de 3 (2+1) significan permisos de escritura (w) y ejecución de un archivo (x).
 

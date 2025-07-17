@@ -188,6 +188,6 @@ As you have already noticed, sometimes the configuration can get too complicated
 
 To avoid annoyances there is a useful tool called [crontab.guru](https://crontab.guru#?). This tool will take care of translating your configuration into simple, easy to understand English. If you have doubts about whether the configuration you just typed is really the right one, you can type it into the web page and it will show you the result in English.
 
-![Screenshot of crontab guru](images/crontab_guru.gif)
+{{< figure src="images/crontab_guru.gif" class="md-local-image" alt="Screenshot of crontab guru" >}}
 
 If you want to apply cron and crontab, I have a post where I use them to [change wallpaper automatically using Python.](/en/python/how-to-program-an-automatic-wallpaper-changer-in-python/)
