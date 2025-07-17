@@ -38,7 +38,7 @@ Esta comparación va a ser un poco chapucera, puesto que vamos a comparar; Pytho
 {{< figure src="images/codigo-compilado-vs-interpretado-go-vs-python.png" class="md-local-image" alt="Go es un lenguaje compilado, mientras que Python es uno interpretado" >}}
 
 
-Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi [comparación de python vs javascript](/es/javascript/javascript-vs-python-cual-es-el-mejor-lenguaje-de-programacion/), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
+Ya había explicado un poco las diferencias entre un lenguaje interpretado y uno compilado en mi [comparación de python vs javascript]({{< ref path="/posts/javascript/python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="es" >}}), por lo que si deseas refrescar un poco tu memoria dirígete ahí.
 
 Ambos lenguajes se caracterizan porque la producción de código en ellos es rápida.
 

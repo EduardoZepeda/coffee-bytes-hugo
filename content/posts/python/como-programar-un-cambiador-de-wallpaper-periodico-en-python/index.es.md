@@ -20,7 +20,7 @@ title: ¿Cómo programar un cambiador de wallpaper automático en Python?
 
 En la entrada anterio hicimos un [cambiador de wallpaper automático en Python]({{< ref path="/posts/python/como-programar-un-cambiador-de-wallpaper-periodico-en-python/index.md" lang="es" >}}). En esta entrada vamos a usar Cron para programar la ejecución periódica de este script y que se encargue de cambiar el wallpaper cada cierto tiempo, automáticamente, ya sea cada hora, dos horas, cada día, cada minuto o la frecuencia que nosotros querramos. 
 
-Si no sabes como funciona el daemon Cron y como programar las tareas usando esta herramienta, por favor revisa mi entrada sobre [Cron y Crontab.](/es/linux y devops/programa-tareas-periodicas-facil-en-linux-con-cron-y-crontab/)
+Si no sabes como funciona el daemon Cron y como programar las tareas usando esta herramienta, por favor revisa mi entrada sobre [Cron y Crontab.](/es/linux/programa-tareas-periodicas-facil-en-linux-con-cron-y-crontab/)
 
 Y si estás interesado en ahondar en Python te comparto [mis recursos y libros favoritos para aprender Python]({{< ref path="/posts/python/best-source-to-learn-python/index.md" lang="es" >}})
 
@@ -90,6 +90,6 @@ Para este ejemplo cambiaremos de wallpaper cada 6 horas. Pero tu puedes colocar 
  0 */6 * * * $PWD/.change_wallpaper_random.py
 ```
 
-También debes de asegurarte de que tu archivo tenga los permisos de ejecución adecuados, tengo una entrada explicando el tema de [chmod y los permisos en GNU/Linux](/es/linux y devops/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) que puedes revisar.
+También debes de asegurarte de que tu archivo tenga los permisos de ejecución adecuados, tengo una entrada explicando el tema de [chmod y los permisos en GNU/Linux]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="es" >}}) que puedes revisar.
 
 Guardamos el archivo y este debería empezar a ejecutarse automáticamente una vez pasadas 6 horas, o la frecuencia que tú le hayas colocado, cambiando el wallpaper por uno aleatorio en la carpeta que especificaste en el script de Python.

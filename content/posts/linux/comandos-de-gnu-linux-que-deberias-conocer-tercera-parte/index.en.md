@@ -19,7 +19,7 @@ title: 'Linux Basic Commands: lsof top ps kill systemctl chown chroot'
 
 This is the continuation of the following parts:
 
-* [GNU Linux Basic Commands, part one](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//)
+* [GNU Linux Basic Commands, part one]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
 * [GNU Linux basic commands, part two](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
 
 ## printenv
@@ -434,7 +434,7 @@ chroot /my_new_root_directory
 
 ## chown
 
-Changes the owner of a file to the one we specify. Remember that **in Linux everything is a file**, so chown can also be used on directories. Another factor to take into account when changing a file owner and/or group, is to make sure that we have the necessary permissions. If you have a problem with [permissions in GNU Linux](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/) **enter as super user**.
+Changes the owner of a file to the one we specify. Remember that **in Linux everything is a file**, so chown can also be used on directories. Another factor to take into account when changing a file owner and/or group, is to make sure that we have the necessary permissions. If you have a problem with [permissions in GNU Linux]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="en" >}}) **enter as super user**.
 
 ```bash
 ls -la

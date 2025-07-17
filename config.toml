@@ -191,10 +191,13 @@ section = ["HTML", "RSS", "JSON"]
 lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [permalinks]
+categories = "/:slug"
 pages = "/pages/:contentbasename/"
 posts = "/:sections[1:]/:title"
+sections = "/:sections[1:]/:slug"
 
 [languages.es.permalinks]
+categories = "/:slug"
 posts = "/:slug"
 
 [related]

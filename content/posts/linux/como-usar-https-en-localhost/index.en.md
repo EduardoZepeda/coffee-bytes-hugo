@@ -68,7 +68,7 @@ Finally just run *caddy run*, or *caddy start* if you want a process running in 
 
 If you get a permission denied error while trying to run caddy, it is because Linux prevents non-root processes from listening on major ports such as 443 or 80.
 
-To allow caddy to listen on those ports and allow [linux to assign the required permissions](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/), run the following command.
+To allow caddy to listen on those ports and allow [linux to assign the required permissions]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="en" >}}), run the following command.
 
 
 ``` bash

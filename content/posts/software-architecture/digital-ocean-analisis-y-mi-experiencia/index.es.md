@@ -59,7 +59,7 @@ Ahora sí, pasemos a Digital Ocean.
 
 ## Droplets en Digital Ocean
 
-Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.](/es/linux y devops/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/)
+Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}})
 
 Una vez que creas un Droplet este se encuentra disponible en menos de un minuto.
 
@@ -135,7 +135,7 @@ Yo he usado Digital Ocean para hostear proyectos personales y también para mane
 
 {{< figure src="images/Coffeebytes-lighthose-indicadores.png" class="md-local-image" alt="Indicadores de Lighthose para coffeebytes.dev" >}}
 
-~~Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/es/linux y devops/mi-experiencia-usando-easywp-y-namecheap/)~~. 
+~~Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/es/linux/mi-experiencia-usando-easywp-y-namecheap/)~~. 
 
 Como migre mi blog a Hugo ya no tengo que preocuparme de configurar nginx, ni apache ni nada.
 

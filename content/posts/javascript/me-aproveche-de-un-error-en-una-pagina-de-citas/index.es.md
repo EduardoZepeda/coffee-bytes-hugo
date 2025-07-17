@@ -45,7 +45,7 @@ Desafortunadamente era imposible obtener otro dato a partir de las fotografías 
 
 Ciertamente este era un error de arquitectura, es cierto que es muy sencillo realizar el tratamiento de las imágenes en el frontend, con CSS, pero una mejor opción hubiera sido usar un set de imágenes genéricas para todas las cuentas. 
 
-Otra alternativa hubiera sido generar un thumbnail (o c[ambiar el formato, ejemplo: webp](/es/linux y devops/como-convertir-jpg-a-webp-en-gnu-linux/)) automáticamente cada vez que un usuario actualice su imagen principal de perfil; consume un poco más de espacio pero mantiene las imágenes reales seguras y personaliza la experiencia de cada usuario.
+Otra alternativa hubiera sido generar un thumbnail (o c[ambiar el formato, ejemplo: webp](/es/linux/como-convertir-jpg-a-webp-en-gnu-linux/)) automáticamente cada vez que un usuario actualice su imagen principal de perfil; consume un poco más de espacio pero mantiene las imágenes reales seguras y personaliza la experiencia de cada usuario.
 
 ``` mermaid
 flowchart TD

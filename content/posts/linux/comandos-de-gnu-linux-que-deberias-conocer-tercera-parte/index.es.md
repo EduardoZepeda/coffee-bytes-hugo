@@ -21,8 +21,8 @@ title: 'Comandos Básicos de Linux: printenv export lsof top ps kill curl system
 
 Esta es la continuación de las siguientes partes: 
 
-* [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.](/es/linux y devops/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/) 
-* [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/linux y devops/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//).
+* [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}) 
+* [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//).
 
 ## printenv
 
@@ -441,7 +441,7 @@ chroot /mi_nuevo_directorio_root
 
 ## chown
 
-Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los [permisos en GNU Linux](/es/linux y devops/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) **ingresa como super usuario**.
+Cambia el propietario de un archivo al que le especifiquemos. Hay que recordar que **en Linux todo es un archivo**, por lo que chown también puede usarse sobre directorios. Otro factor a tomar en cuenta para cambiar un archivo de propietario y/o grupo, es asegurarnos de que tenemos los permisos necesarios. Si tienes algún problema con los [permisos en GNU Linux]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="es" >}}) **ingresa como super usuario**.
 
 ```bash
 ls -la

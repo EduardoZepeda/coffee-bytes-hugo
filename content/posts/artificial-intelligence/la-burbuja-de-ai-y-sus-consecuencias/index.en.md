@@ -54,7 +54,7 @@ As I said, investors don't want to be left out of this party and are so eager to
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI" >}}
 
-But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers](/en/artificial-intelligence/devin-ai-the-supposed-replacement-for-programmers/), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
+But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
 
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
 

@@ -25,7 +25,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](/es/linux y devops/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) y acá para [la tercera parte de esta serie.](/es/linux y devops/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/)
+Entra aquí para la [segunda parte de esta serie de comandos](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) y acá para [la tercera parte de esta serie.](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/)
 
 ## Pequeños tips de la terminal de Linux
 
@@ -93,7 +93,7 @@ man man | grep "texto a buscar"
 
 ## history
 
-History nos muestra los comandos que hemos utilizado, de manera numerada, con los más recientes hasta abajo y los más antiguos hasta arriba. Hay una manera más sencilla de buscar comandos sobre [la que puedes leer aquí.](/es/linux y devops/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/)
+History nos muestra los comandos que hemos utilizado, de manera numerada, con los más recientes hasta abajo y los más antiguos hasta arriba. Hay una manera más sencilla de buscar comandos sobre [la que puedes leer aquí.](/es/linux/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/)
 
 ```bash
 history
@@ -159,7 +159,7 @@ cd ..
 
 Este comando sirve para concatenar el contenido de un archivo y mostrarlo en pantalla.
 
-Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](/es/linux y devops/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
+Existe una herramienta que ofrece más funciones que cat, checa mi entrada donde hablo sobre [bat](/es/linux/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/)
 
 ```bash
 cat archivo
@@ -311,4 +311,4 @@ Este comando muestra múltiple información respecto a las redes del sistema, un
 netstat -tulpn
 ```
 
-Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/linux y devops/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) para la segunda parte.
+Como de seguro ya sabes, han faltado muchos comandos importantes, no los he colocado aquí para no volver la lectura tan tediosa, levántate, estírate un poco, ve por algo de beber y [pasa a mi segunda parte de los comandos básicos de GNU Linux](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) para la segunda parte.

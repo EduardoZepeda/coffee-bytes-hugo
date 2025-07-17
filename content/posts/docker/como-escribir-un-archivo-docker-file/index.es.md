@@ -191,7 +191,7 @@ Ahora que ya contamos con la imagen basta con ejecutarla. Para este ejemplo vinc
 docker run -p 8000:8000 -d --name test_container djangocontainer:0.1
 ```
 
-¡Ahora viene la mejor parte! El momento donde averiguamos si nuestro código funciona o hicimos un desastre completo. Vamos a hacer una [petición HTTP usando curl](/es/linux y devops/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt/)
+¡Ahora viene la mejor parte! El momento donde averiguamos si nuestro código funciona o hicimos un desastre completo. Vamos a hacer una [petición HTTP usando curl](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt/)
 
 ```bash
 curl localhost:8000

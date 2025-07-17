@@ -39,7 +39,7 @@ Existen múltiples soluciones para usar https en localhost, una de ellas es firm
 
 ## Servidor con https en localhost usando Caddy
 
-[Caddy](https://github.com/caddyserver/caddy#?) es un servidor escrito en el [lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), conocido por ser muy sencillo de configurar (pan comido en comparación con [una configuración de Nginx](/es/linux y devops/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)), y que además incluye *https* por defecto.
+[Caddy](https://github.com/caddyserver/caddy#?) es un servidor escrito en el [lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), conocido por ser muy sencillo de configurar (pan comido en comparación con [una configuración de Nginx](/es/linux/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)), y que además incluye *https* por defecto.
 
 
 Es tan sencillo de configurar que solo requiere un simple archivo llamado Caddyfile, sin extensión. Puedes pensar en el archivo anterior como el equivalente de un [Dockerfile en Docker.](/es/docker/como-escribir-un-archivo-de-dockerfile-desde-cero/)
@@ -68,7 +68,7 @@ Finalmente solo basta correr *caddy run*, o *caddy start*, si quieres una ejecuc
 
 Si al intentar correr caddy obtienes un error de permiso denegado, se debe a que Linux impide que procesos no-root escuchen los puertos principales como el 443 o el 80.
 
-Para permitir que [linux asigne el permiso](/es/linux y devops/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/) de escuchar en esos puertos a caddy, corre el siguiente comando.
+Para permitir que [linux asigne el permiso]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="es" >}}) de escuchar en esos puertos a caddy, corre el siguiente comando.
 
 
 ``` bash
@@ -84,4 +84,4 @@ caddy stop
 caddy start
 ```
 
-Tras esto deberías poder acceder a your-sub-domain.localhost o a your-sub-domain.localhost:443 a través de *https* en tu navegador, [el comando curl](/es/linux y devops/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) o la herramienta que prefieras usar.
+Tras esto deberías poder acceder a your-sub-domain.localhost o a your-sub-domain.localhost:443 a través de *https* en tu navegador, [el comando curl](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) o la herramienta que prefieras usar.

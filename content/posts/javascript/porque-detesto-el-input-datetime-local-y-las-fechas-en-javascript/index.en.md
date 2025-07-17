@@ -25,7 +25,7 @@ Working with Javascript is frustrating and, sometimes, combining it with HTML ca
 
 Javascript uses months starting from index 0 and days from index 1, two objects with the same date are unequal when compared with === (yes, I know that what is being compared are the objects and not the dates), but it is just the fact that it is not intuitive, the language user is not interested in the objects in memory itself, but what they represent. 
 
-Languages like [Python have better abstractions than Javascript](/en/javascript/python-vs-javascript-which-is-the-best-programming-language/)
+Languages like [Python have better abstractions than Javascript]({{< ref path="/posts/javascript/python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}})
 
 {{< figure src="images/date-javascript.webp" class="md-local-image" alt="Javascript's date management is not intuitive" caption="Javascript's date management is not intuitive" >}}
 

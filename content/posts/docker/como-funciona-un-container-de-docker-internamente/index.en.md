@@ -351,7 +351,7 @@ func setcgroup() {
 }
 ```
 
-We create a directory for our cgroup with the [linux permissions 0755](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/)
+We create a directory for our cgroup with the [linux permissions 0755]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="en" >}})
 
 We will generate two files, inside our cgroup, to set the guidelines we want to implement
 

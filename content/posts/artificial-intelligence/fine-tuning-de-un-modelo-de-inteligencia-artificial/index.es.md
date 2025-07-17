@@ -52,7 +52,7 @@ La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastant
 
 El procedimiento de fine-tuning brinda beneficios significativos, tales como la disminución de los costos de cálculo y la oportunidad de utilizar modelos avanzados sin la necesidad de edificar uno desde el inicio.
 
-[Puede que la AI no sustituya a los programadores](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.
+[Puede que la AI no sustituya a los programadores]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.
 
 ### Pasos para realizar fine-tuning de un LLM
 

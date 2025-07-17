@@ -17,7 +17,7 @@ slug: /linux/contrasenas-seguras-tutorial-de-keepassxc/
 title: Contraseñas seguras, tutorial de keepassxc
 ---
 
-En la entrada anterior hablé acerca de algunas [buenas practicas usando contraseñas](/es/linux y devops/como-crear-una-contrasena-segura/). Uno de las recomendaciones era usar una contraseña diferente para cada sitio web. Sin embargo recordar muchas contraseñas es complicado y guardar las contraseñas en texto plano es algo impensable si valoramos un poco nuestra seguridad informática. Hay bastante gestores de contraseñas disponibles, esta entrada es un tutorial de keepassxc, un gestor de contraseñas **gratuito, open source y súper seguro.**
+En la entrada anterior hablé acerca de algunas [buenas practicas usando contraseñas](/es/linux/como-crear-una-contrasena-segura/). Uno de las recomendaciones era usar una contraseña diferente para cada sitio web. Sin embargo recordar muchas contraseñas es complicado y guardar las contraseñas en texto plano es algo impensable si valoramos un poco nuestra seguridad informática. Hay bastante gestores de contraseñas disponibles, esta entrada es un tutorial de keepassxc, un gestor de contraseñas **gratuito, open source y súper seguro.**
 
 ## ¿Por qué no usar el gestor de contraseñas de firefox o chrome?
 

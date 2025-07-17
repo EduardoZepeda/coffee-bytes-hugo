@@ -171,6 +171,6 @@ Solo para refrescar tu memoria:
 | Tolerancia a Fallos | Resiliente (las solicitudes pueden ir a cualquier servidor)                                                             | Vulnerable a fallos del servidor                          |
 | Ejemplos            | [APIs REST (diseñadas correctamente), HTTP/HTTPS](/es/software-architecture/buenas-practicas-y-diseno-de-una-api-rest/) | Aplicaciones monolíticas tradicionales, WebSockets        |
 
-Por ahora es una discusión si permanecerá así, se implementarán versiones stateless o si habrá cambios al respecto. Después de todo este protocolo es nuevo y quien sabe que vaya a pasar en el futuro en el mundo de la AI, para ejemplos tenemos casos [como el de Devin AI](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/) y Rabbit R1.
+Por ahora es una discusión si permanecerá así, se implementarán versiones stateless o si habrá cambios al respecto. Después de todo este protocolo es nuevo y quien sabe que vaya a pasar en el futuro en el mundo de la AI, para ejemplos tenemos casos [como el de Devin AI]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) y Rabbit R1.
 
 Si quieres saber más dale una leída a la [documentación oficial del Model Context Protocol](https://github.com/modelcontextprotocol) y [la introducción al MCP](https://www.anthropic.com/news/model-context-protocol)

@@ -35,7 +35,7 @@ Menor peso en nuestras imágenes significa mejor rendimiento. Un sitio web que c
 
 El primer paso para transformar nuestras imágenes a formato webp es descargar las librerías apropiadas. El paquete que necesitamos para transformar nuestras imágenes se llama webp y se encuentra en los repositorios de las distribuciones populares de GNU/Linux. Instalémoslo.
 
-Si el siguiente comando no te suena o quieres repasar los comandos básicos de GNU/Linux por favor visita mis entradas donde hablo de los [comandos más usuales de GNU Linux](/es/linux y devops/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/).
+Si el siguiente comando no te suena o quieres repasar los comandos básicos de GNU/Linux por favor visita mis entradas donde hablo de los [comandos más usuales de GNU Linux]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}).
  
 ```bash
 sudo apt install webp

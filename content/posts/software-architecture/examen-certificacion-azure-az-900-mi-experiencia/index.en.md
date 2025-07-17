@@ -118,7 +118,7 @@ The process consists of completing the following 4 courses:
 * Linux Server Administration Course
 * Introduction to the Cloud with Azure Course
 
-In general the first two are fairly easy, especially if you already have experience working with the [usual linux commands from the terminal](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//), the last two do require some experience or a lot of practice on your part to pass them.
+In general the first two are fairly easy, especially if you already have experience working with the [usual linux commands from the terminal]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}), the last two do require some experience or a lot of practice on your part to pass them.
 
 {{< figure src="images/administracion-servidores-linux.jpg" class="md-local-image" alt="Platzi's Linux Server Administration Course" caption="Linux Server Administration Course" >}}
 

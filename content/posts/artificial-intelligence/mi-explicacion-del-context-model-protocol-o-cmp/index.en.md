@@ -173,6 +173,6 @@ Just as a reminder:
 | Examples        | [REST APIs (when properly designed), HTTP/HTTPS](/en/software-architecture/rest-api-best-practices-and-design/) | Traditional monoliths, WebSocket apps          |
 
 
-At the moment it is a matter of debate whether it will stay that way, there is no certainty whether stateless versions will be implemented or if there will be changes to it. After all, this protocol is new and who knows what the future holds for the AI world, giants can rise and fall in months, [as Devin AI](/en/artificial-intelligence/devin-ai-the-supposed-replacement-for-programmers/) and Rabbit R1 did.
+At the moment it is a matter of debate whether it will stay that way, there is no certainty whether stateless versions will be implemented or if there will be changes to it. After all, this protocol is new and who knows what the future holds for the AI world, giants can rise and fall in months, [as Devin AI]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}) and Rabbit R1 did.
 
 If you want to know more read the [official Model Context Protocol documentation](https://github.com/modelcontextprotocol) and the introduction to the [MCP](https://www.anthropic.com/news/model-context-protocol)

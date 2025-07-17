@@ -23,7 +23,7 @@ title: No Te Obsesiones Con El Rendimiento De Tu Aplicacion Web
 
 Esta entrada es para ti, que quieres independizarte de las empresas y estas buscando crear tus propios proyectos en el mundo del internet ¿Has pensado si de verdad importan tanto esos milisegundos de rendimiento extra que obtenemos al cambiar un proyecto a un lenguaje más verboso o si la búsqueda del framework más veloz realmente vale la pena? 
 
-En el mundo de los programadores hay una obsesión por la velocidad y el rendimiento; queremos exprimir cada milisegundo posible al lenguaje y reducir el consumo de memoria al mínimo posible y escribir las queries en su versión más elegante que lleve al límite de la velocidad a nuestra base de datos y los sometemos al más riguroso análisis de [rendimiento big O](/es/linux y devops/la-notacion-big-o/).
+En el mundo de los programadores hay una obsesión por la velocidad y el rendimiento; queremos exprimir cada milisegundo posible al lenguaje y reducir el consumo de memoria al mínimo posible y escribir las queries en su versión más elegante que lleve al límite de la velocidad a nuestra base de datos y los sometemos al más riguroso análisis de [rendimiento big O](/es/linux/la-notacion-big-o/).
 
 {{< figure src="images/rust-and-go-performance-for-common-data-structures-arrays.webp" class="md-local-image" alt="Rust vs go Benchmark, rust es superior" >}}
 

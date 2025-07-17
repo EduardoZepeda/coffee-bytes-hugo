@@ -211,7 +211,7 @@ docker run -it <container>
 
 Try running an _ls_ or _pwd_. You will notice that you are inside a GNU/Linux operating system. You can create files, modify them, create folders, etc.
 
-If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//) to refresh your memory.
+If you don't know anything about GNU/Linux commands you can check my post about the [basic GNU Linux commands: cd, ls, rm, etc.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}) to refresh your memory.
 
 ```bash
 ls
@@ -234,7 +234,7 @@ CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT    MEM %     NE
 
 ## How to extract a file from a docker container?
 
-To extract a file from a container we use the *docker cp* command, which is basically an analogue of the [Linux cp-command](/es/linux y devops/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/), with the following syntax.
+To extract a file from a container we use the *docker cp* command, which is basically an analogue of the [Linux cp-command]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}), with the following syntax.
 
 ``` bash
 docker cp <container_name>:<path_to_file> <path_to_extract_on_your_computer>
@@ -343,7 +343,7 @@ Volumes are the tool that will allow us to store information outside the contain
 
 You can think of them as isolated parts in your system, which you can assemble into the container system.
 
-Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/) if you have doubts.
+Docker stores these containers in the location "_/var/lib/docker/volumes/volume_name/_data_". **These folders are only accessible to docker and the root user**, so we do not have the permissions to modify their content directly, using our normal user. Review the [permissions in GNU/Linux]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="en" >}}) if you have doubts.
 
 Let's try to make it clearer with an example:
 

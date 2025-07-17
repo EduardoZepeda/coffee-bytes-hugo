@@ -123,7 +123,7 @@ Hasta ahora solo hemos creado los archivos de migraciones, pero no le hemos hech
 
 Antes de realizar cualquier cambio en la base de datos necesitaremos indicarle la dirección de acceso, a esta última, en el siguiente formato [motor]://[usuario]:[contraseña]@[dominio]/[base de datos]
 
-Y, obviamente, lo más cómodo y seguro será guardar esta dirección en [una variable de entorno](/es/linux y devops/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/).
+Y, obviamente, lo más cómodo y seguro será guardar esta dirección en [una variable de entorno](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/).
 
 ```bash
 BASE_DE_DATOS=[motor]://[usuario]:[contraseña]@[dominio]/[base de datos]

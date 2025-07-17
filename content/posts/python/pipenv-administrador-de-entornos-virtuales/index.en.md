@@ -61,7 +61,7 @@ What is in these files? I will explain it below. First let's go to the Pipfile f
 
 ## What's Pipfile for in Pipenv?
 
-Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands](/en/linux/linux-basic-commands-grep-ls-cd-cat-cp-rm-scp//).
+Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}).
 
 ```bash
 cat Pipfile

@@ -85,7 +85,7 @@ La mascota oficial es una ardilla de tierra y es muy común entre la comunidad u
 
 ## Instalación de Go
 
-Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/es/linux y devops/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) como cualquier otro paquete.
+Go se encuentra en la mayoría de los repositorios de las distribuciones de GNU/Linux. En debian y ubuntu se instala usando el [comando apt install](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) como cualquier otro paquete.
 
 ```bash
 sudo apt install golang

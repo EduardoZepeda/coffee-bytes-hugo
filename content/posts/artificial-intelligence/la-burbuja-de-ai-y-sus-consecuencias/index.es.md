@@ -52,7 +52,7 @@ Como ya dije, los inversores no quieren quedarse fuera de esta fiesta y están t
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet no tiene idea de AI" >}}
 
-Pero, en mi opinión, todo esto no es más que un montón de empresas y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/). 
+Pero, en mi opinión, todo esto no es más que un montón de empresas y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}). 
 
 El mercado intenta conseguir dinero fácil y rápido por el creciente y repentino interés de los legos del mundo de la tecnología por algo tan abstracto, y con aires tan esotéricos, como lo es la AI.
 

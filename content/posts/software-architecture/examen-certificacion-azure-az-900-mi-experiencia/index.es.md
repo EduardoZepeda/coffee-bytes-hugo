@@ -121,7 +121,7 @@ El proceso consiste en terminar los siguientes 4 cursos:
 * Curso de Administración de Servidores Linux
 * Curso de Introducción a la Nube con Azure
 
-En general los dos primeros son bastantes sencillos, sobre todo si ya tienes experiencia usando los [comandos básicos de la linea de comandos](/es/linux y devops/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/), los últimos dos sí requieren algo de experiencia o mucha práctica de tu parte para aprobarlos.
+En general los dos primeros son bastantes sencillos, sobre todo si ya tienes experiencia usando los [comandos básicos de la linea de comandos]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}), los últimos dos sí requieren algo de experiencia o mucha práctica de tu parte para aprobarlos.
 
 {{< figure src="images/administracion-servidores-linux.jpg" class="md-local-image" alt="Curso de Platzi de administración de servidores Linux" caption="Curso de administración de servidores Linux" >}}
 

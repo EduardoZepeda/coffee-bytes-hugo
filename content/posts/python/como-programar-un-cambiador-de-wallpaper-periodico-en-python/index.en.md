@@ -93,6 +93,6 @@ For this example we will change the wallpaper every 6 hours. But you can set the
 0 */6 * * * $PWD/.change_wallpaper_random.py
 ```
 
-You should also make sure that your file has the proper execution permissions, I have a post explaining the topic of [chmod and permissions in GNU/Linux](/en/linux/understand-permissions-in-gnu-linux-and-the-chmod-command/) that you can check out.
+You should also make sure that your file has the proper execution permissions, I have a post explaining the topic of [chmod and permissions in GNU/Linux]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="en" >}}) that you can check out.
 
 Save the file and it should start running automatically every 6 hours, or whatever frequency you set, changing the wallpaper to a random one in the folder you specified in the Python script whether you're using a Dark theme or a Light theme in newer versions of Gnome.

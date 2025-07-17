@@ -107,7 +107,7 @@ gzip min_length 256;
 gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss application/vnd.ms-fontobject application/x-font-ttf font/opentype image/svg+xml image/x-icon image/jpg image/png;
 ```
 
-Recuerda que puedes consultar todos los tipos MIME disponibles de manera amigable haciendo un [bat](/es/linux y devops/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/) o un cat al siguiente archivo:
+Recuerda que puedes consultar todos los tipos MIME disponibles de manera amigable haciendo un [bat](/es/linux/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/) o un cat al siguiente archivo:
 
 ```bash
 sudo bat /etc/nginx/mime.types
