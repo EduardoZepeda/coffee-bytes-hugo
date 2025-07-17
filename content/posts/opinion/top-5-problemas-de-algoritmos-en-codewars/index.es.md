@@ -17,6 +17,7 @@ keywords:
 - rendimiento
 - algoritmos
 - codewars
+slug: /opinion/top-5-problemas-de-algoritmos-favoritos-en-codewars/
 title: Top 5 Problemas de Algoritmos Favoritos en Codewars
 ---
 

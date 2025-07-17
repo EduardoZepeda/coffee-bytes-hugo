@@ -20,6 +20,7 @@ keywords:
 - opinion
 - REST
 - api
+slug: /software-architecture/buenas-practicas-y-diseno-de-una-api-rest/
 title: Buenas prácticas y diseño de una API REST
 ---
 

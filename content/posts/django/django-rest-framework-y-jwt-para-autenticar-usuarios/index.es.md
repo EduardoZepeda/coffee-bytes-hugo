@@ -20,6 +20,7 @@ keywords:
 - drf
 - authentication
 - tokens
+slug: /django/django-rest-framework-y-jwt-para-autenticar-usuarios/
 title: Django Rest Framework y JWT para autenticar usuarios
 ---
 

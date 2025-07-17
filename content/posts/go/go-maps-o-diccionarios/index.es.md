@@ -13,6 +13,7 @@ description: Te explico como funcionan un map en go o golang y aprende a declara
   crearlos explícitamente con make y recorrerlos con range.
 keywords:
 - go
+slug: /go/go-maps-o-diccionarios/
 title: 'Go: maps o diccionarios'
 ---
 

@@ -23,6 +23,7 @@ keywords:
 - iaas
 - paas
 - vps
+slug: /software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/
 title: Digital Ocean, análisis y mi experiencia como usuario
 ---
 

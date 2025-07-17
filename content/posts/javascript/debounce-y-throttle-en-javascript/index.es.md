@@ -18,6 +18,7 @@ keywords:
 - patrones de diseño
 - throttling
 - debounce
+slug: /javascript/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/
 title: Limita la ejecución de funciones en JS con Debounce y Throttle
 ---
 

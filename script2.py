@@ -112,15 +112,21 @@ def create_slug_for_md_files():
                     title = post.metadata.get("title", "")
                     url = post.metadata.get("url", "")
                     slug = post.metadata.get("slug", "")
+                    modified_url = ""
+                    if slug:
+                        del post.metadata["slug"]
                     if url:
+                        modified_url = post.metadata["url"].replace("/", "")
                         del post.metadata["url"]
+                    else:
+                        modified_url = slugify(title)
                     if title and first_category:
                         post.metadata["slug"] = (
-                            f"/{slugify(first_category)}/{slugify(title)}"
+                            f"/{slugify(first_category)}/{slugify(modified_url)}/"
                         )
-                    print(f"/{slugify(first_category)}/{slugify(title)}")
-                # with open(md_file, "w", encoding="utf-8") as f:
-                #     f.write(frontmatter.dumps(post))
+                        print(f"/{slugify(first_category)}/{slugify(modified_url)}/")
+                with open(md_file, "w", encoding="utf-8") as f:
+                    f.write(frontmatter.dumps(post))
             except FileNotFoundError:
                 continue
 

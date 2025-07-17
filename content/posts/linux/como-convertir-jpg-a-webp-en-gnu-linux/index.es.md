@@ -15,6 +15,7 @@ description: Hace un par de semanas quería convertir las imágenes mi ecommerce
 keywords:
 - linux
 - frontend
+slug: /linux/como-convertir-jpg-a-webp-en-gnu-linux/
 title: ¿Cómo convertir jpg a webp en GNU Linux?
 ---
 

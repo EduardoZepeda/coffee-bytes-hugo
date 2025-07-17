@@ -25,8 +25,8 @@ keywords:
 - tutorial
 - yml
 - devops
+slug: /docker/docker-compose-tutorial-con-comandos-en-gnu-linux/
 title: Conoce los comandos básicos de Docker Compose
-url: docker-compose-tutorial-con-comandos-en-gnu-linux
 ---
 
 Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. 

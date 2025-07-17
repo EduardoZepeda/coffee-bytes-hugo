@@ -21,6 +21,7 @@ keywords:
 - Mercurial
 - Desarrolladores
 - Recursos humanos
+slug: /git/no-uses-github-para-evaluar-a-los-desarrolladores/
 title: No Uses Github Para Evaluar A Los Desarrolladores
 ---
 
@@ -33,6 +34,12 @@ Es una práctica común usar Github para evaluar las capacidades de un desarroll
 "La ausencia de evidencia no es evidencia de ausencia" o, puesto en otras palabras, que la persona no tenga código de excelente calidad en Github, no significa que no pueda escribirlo. 
 
 ![Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien](images/github-as-past-review-tool.webp "Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien")
+
+{{< figure src="images/github-as-past-review-tool.webp"  
+  alt="A photograph of Zion National Park"
+  caption="Zion National Park"
+  class="md-image" >}}
+
 
 ¿Pero porqué alguien no querría mostrar la ~~horrible calidad de su código hecho en javascript~~ calidad de su código? Una de las razones es que probablemente esté demasiado ocupada escribiendo código que sí paga, en lugar de contribuir al open source.
 

@@ -17,6 +17,7 @@ keywords:
 - python
 - códigos postales
 - API
+slug: /django/api-codigos-postales-de-mexico-con-django/
 title: API códigos postales de Mexico con Django
 ---
 

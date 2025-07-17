@@ -12,6 +12,7 @@ description: Aprende y entiende perfectamente la desestructuración de listas en
   En esta entrada explico el tema con ejemplos.
 keywords:
 - javascript
+slug: /javascript/desestructuracion-de-listas-en-javascript/
 title: Desestructuración de listas en Javascript
 ---
 

@@ -19,6 +19,7 @@ keywords:
 - postgres
 - orm
 - rendimiento
+slug: /django/full-text-search-y-busquedas-con-django-y-postgres/
 title: Full text search y búsquedas con Django y Postgres
 ---
 

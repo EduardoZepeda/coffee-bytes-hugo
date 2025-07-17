@@ -17,6 +17,7 @@ keywords:
 - libros
 - opinion
 - reseña
+slug: /django/la-guia-definitiva-de-django/
 title: La guia definitiva de Django
 ---
 

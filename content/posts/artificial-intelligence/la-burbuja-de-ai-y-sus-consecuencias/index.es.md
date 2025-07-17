@@ -16,6 +16,7 @@ keywords:
 - opinion
 - redes neuronales
 - machine learning
+slug: /opinion/el-auge-y-la-caida-de-la-burbuja-de-ai/
 title: El auge y la caida de la burbuja de AI
 ---
 
@@ -51,7 +52,7 @@ Como ya dije, los inversores no quieren quedarse fuera de esta fiesta y están t
 
 ![Wallstreet no tiene idea de AI](images/wallstreet-is-dumb.jpg)
 
-Pero, en mi opinión, todo esto no es más que un montón de empresas y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores](/es/Inteligencia Artificial/devin-ai-el-supuesto-reemplazo-de-los-programadores/). 
+Pero, en mi opinión, todo esto no es más que un montón de empresas y emprendedores actuando en consecuencia a lo anterior, tal como sospecho de los [creadores de Devin, el supuesto reemplazo de los programadores](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/). 
 
 El mercado intenta conseguir dinero fácil y rápido por el creciente y repentino interés de los legos del mundo de la tecnología por algo tan abstracto, y con aires tan esotéricos, como lo es la AI.
 
@@ -63,9 +64,9 @@ Aunado a esto, la mayoría de las personas involucradas en el aspecto financiero
 
 ![Las startups solo son un wrapper de chatgpt](images/ai-company-chatgpt.jpg)
 
-No es que usar chatGPT para tu empresa esté mal, pero si una app es sólo un envoltorio de GPT, el riesgo de convertirse en una commodity es alto, ¿vamos a tener miles de apps diferentes que resuelven el mismo problema y son sólo envoltorios de chatGPT? Inclusive se han creado protocolos para interacción con los LLM; como el [Model Context Protocol](/es/inteligencia artificial/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/).
+No es que usar chatGPT para tu empresa esté mal, pero si una app es sólo un envoltorio de GPT, el riesgo de convertirse en una commodity es alto, ¿vamos a tener miles de apps diferentes que resuelven el mismo problema y son sólo envoltorios de chatGPT? Inclusive se han creado protocolos para interacción con los LLM; como el [Model Context Protocol](/es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/).
 
-Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5, quizás el [diseño de mejores drogas por medio de la inteligencia artificial](/es/inteligencia artificial/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Quiero más inversión en AI, pero que "agregue valor", no solo que busque obtener rendimientos rápido.
+Y no es que lo anterior esté mal, pero yo preferiría que se exploraran todas las posibilidades que la AI tiene para ofrecer, que entrenáramos redes neuronales para automatizar cada aspecto tedioso de la sociedad y liberar al ser humano del paradigma de efectuar tareas repetitivas de 9-5, quizás el [diseño de mejores drogas por medio de la inteligencia artificial](/es/artificial-intelligence/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Quiero más inversión en AI, pero que "agregue valor", no solo que busque obtener rendimientos rápido.
 
 ## Las empresas se quedan sin datos para entrenar a los LLM
 

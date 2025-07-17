@@ -20,6 +20,7 @@ keywords:
 - celery
 - python
 - django
+slug: /django/como-usar-django-framework-de-manera-asincrona-usando-celery/
 title: Cómo usar Django Framework de manera asíncrona usando Celery
 ---
 

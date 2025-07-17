@@ -18,6 +18,7 @@ keywords:
 - javascript
 - software architecture
 - opinion
+slug: /software-architecture/no-uses-jwt-para-gestionar-sesiones-traduccion/
 title: No uses JWT para gestionar sesiones (Traducción)
 ---
 

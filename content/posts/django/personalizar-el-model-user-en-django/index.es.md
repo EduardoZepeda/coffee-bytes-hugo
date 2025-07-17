@@ -16,6 +16,7 @@ description: Aprende a personalizar el modelo de usuario de Django para que se a
 keywords:
 - django
 - python
+slug: /django/como-personalizar-el-modelo-user-en-django/
 title: ¿Cómo personalizar el modelo User en Django?
 ---
 

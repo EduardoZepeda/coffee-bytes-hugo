@@ -17,6 +17,7 @@ keywords:
 - django
 - python
 - orm
+slug: /django/managers-o-manejadores-personalizados-en-django/
 title: Managers o manejadores personalizados en Django
 ---
 

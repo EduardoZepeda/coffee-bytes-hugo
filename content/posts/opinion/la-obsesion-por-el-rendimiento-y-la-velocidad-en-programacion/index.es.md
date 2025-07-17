@@ -17,6 +17,7 @@ keywords:
 - algoritmos
 - django
 - go
+slug: /opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/
 title: No Te Obsesiones Con El Rendimiento De Tu Aplicacion Web
 ---
 

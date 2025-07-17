@@ -16,6 +16,7 @@ keywords:
 - python
 - patrones de diseño
 - software architecture
+slug: /python/patrones-de-diseno-o-software-design-patterns/
 title: Patrones de Diseño o Software Design Patterns
 ---
 

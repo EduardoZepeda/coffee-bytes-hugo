@@ -18,6 +18,7 @@ keywords:
 - orm
 - tortoise
 - python
+slug: /fastapi/integracion-del-orm-de-python-tortoise-con-fastapi/
 title: Integración del ORM de Python tortoise con FastAPI
 ---
 

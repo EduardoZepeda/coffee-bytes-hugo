@@ -20,8 +20,8 @@ keywords:
 - video
 - protocol
 - http
+slug: /linux/stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-hls-para-tus-aplicaciones/
 title: 'Stremea tus videos y audios: HLS para tus aplicaciones'
-url: stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-hls-para-tus-aplicaciones
 ---
 
 Casi todos las aplicaciones web modernas realizan algún tipo de streaming, desde las plataformas de video, hasta aquellas de streaming en vivo. En esta entrada te explico como funciona el streaming con HLS de una manera tan simplificada que sacará tu purista interior. 

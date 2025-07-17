@@ -21,8 +21,8 @@ keywords:
 - react
 - javascript
 - framework
+slug: /django/django-y-htmx-web-apps-modernas-sin-escribir-js/
 title: Tutorial de Django y HTMX, web apps modernas sin escribir JS
-url: django-y-htmx-web-apps-modernas-sin-escribir-js
 ---
 
 El otro día estaba probando una librería llamada htmx, que promete volver mucho más sencilla la creación de una web, sí, otra librería, pero con la diferencia de que esta no necesita que escribas Javascript (JS) y que, además, combina bastante bien con Django. Htmx basa todo su funcionamiento en escribir atributos en tus etiquetas HTML, que se encargan de abstraer todo el JS que corre tras bambalinas. El resultado es código formado únicamente por etiquetas HTML y sus atributos, sin código JS (bueno, quizá solo un poco). No, no tienes que abandonar todo el JS, tranquilo, también puedes combinar htmx con tus librerías favoritas y código vanilla JS.

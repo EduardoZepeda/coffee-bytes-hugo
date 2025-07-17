@@ -16,6 +16,7 @@ keywords:
 - django
 - python
 - websockets
+slug: /django/django-channels-consumers-scope-y-eventos/
 title: 'Django channels: consumers, scope y eventos'
 ---
 

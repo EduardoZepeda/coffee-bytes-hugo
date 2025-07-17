@@ -13,6 +13,7 @@ description: ¿Quieres saber entender como llevar a cabo la desestructuración d
   como.
 keywords:
 - javascript
+slug: /javascript/desestructuracion-con-valores-por-defecto-en-javascript/
 title: Desestructuración con valores por defecto en Javascript
 ---
 

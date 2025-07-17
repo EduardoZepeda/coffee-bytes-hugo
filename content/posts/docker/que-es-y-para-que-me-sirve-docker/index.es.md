@@ -17,6 +17,7 @@ keywords:
 - docker
 - docker compose
 - opinion
+slug: /docker/que-es-docker-y-para-que-sirve/
 title: ¿Qué es Docker y para que sirve?
 ---
 

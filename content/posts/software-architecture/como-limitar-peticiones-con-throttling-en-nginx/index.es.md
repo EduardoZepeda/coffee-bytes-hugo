@@ -17,6 +17,7 @@ keywords:
 - nginx
 - rendimiento
 - linux
+slug: /software-architecture/throttling-en-nginx/
 title: Throttling en Nginx
 ---
 

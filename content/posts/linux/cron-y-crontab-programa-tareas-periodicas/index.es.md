@@ -18,6 +18,7 @@ description: Aprender a usar crontab para programar tareas repetitivas como resp
 keywords:
 - linux
 - crontab
+slug: /linux/programa-tareas-periodicas-facil-en-linux-con-cron-y-crontab/
 title: Programa tareas periódicas fácil en Linux con Cron y Crontab
 ---
 

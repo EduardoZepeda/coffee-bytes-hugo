@@ -19,6 +19,7 @@ keywords:
 - python
 - rendimiento
 - orm
+slug: /django/django-annotate-y-aggregate-explicados/
 title: Django Annotate y aggregate explicados
 ---
 

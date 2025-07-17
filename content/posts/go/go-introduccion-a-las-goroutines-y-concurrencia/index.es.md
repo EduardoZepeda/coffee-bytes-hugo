@@ -16,6 +16,7 @@ keywords:
 - concurrencia
 - paralelismo
 - workers
+slug: /go/go-introduccion-a-las-goroutines-y-concurrencia/
 title: 'Go: introducción a las goroutines y concurrencia'
 ---
 

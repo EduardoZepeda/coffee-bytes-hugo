@@ -21,6 +21,7 @@ keywords:
 - reseñas
 - opinion
 - buenas practicas
+slug: /linux/el-libro-clean-code-uncle-bob-y-los-paradigmas-del-codigo-limpio/
 title: El libro Clean Code Uncle Bob y Los Paradigmas Del Código Limpio
 ---
 

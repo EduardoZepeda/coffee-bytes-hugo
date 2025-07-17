@@ -15,6 +15,7 @@ description: Aprende a user virtualenv en GNU/Linux, la herramienta más conocid
 keywords:
 - python
 - linux
+slug: /python/python-virtualenv-tutorial-basico-en-linux/
 title: Python virtualenv tutorial básico en linux
 ---
 

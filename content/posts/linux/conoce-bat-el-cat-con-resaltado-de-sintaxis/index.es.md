@@ -14,6 +14,7 @@ description: Hace unos días descubrí bat, es la version de cat en linux con re
   de sintaxis que vuelve más cómoda la lectura de archivos en consola.
 keywords:
 - linux
+slug: /linux/conoce-bat-en-linux-el-cat-con-resaltado-de-sintaxis/
 title: Conoce bat en linux, el cat con resaltado de sintaxis
 ---
 

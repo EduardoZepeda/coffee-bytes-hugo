@@ -14,6 +14,7 @@ description: En esta entrada hablo de los cambios y novedades de Django 3.1. Dja
 keywords:
 - django
 - python
+slug: /django/django-31-cambios-y-novedades-resumen-completo/
 title: 'Django 3.1 cambios y novedades: resumen completo'
 ---
 

@@ -17,10 +17,11 @@ keywords:
 - automatas
 - ciencias de la computación
 - conciencia
+slug: /artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/
 title: Chat Gpt, La Habitacion China De Searle y la conciencia
 ---
 
-Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/es/inteligencia artificial/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral y sus numerosas aplicaciones; tales como el [desarrollo de nuevos fármacos](/es/inteligencia artificial/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [estamos en una burbuja de IA o no](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/), para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende realmente Chat GPT el lenguaje? O dicho de otra forma: ¿es consciente Chat GPT?
+Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen miedo, por su [capacidad para resolver problemas de código](/es/artificial-intelligence/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/) a otros les entusiasma el potencial que tiene para cambiar el mundo laboral y sus numerosas aplicaciones; tales como el [desarrollo de nuevos fármacos](/es/artificial-intelligence/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [estamos en una burbuja de IA o no](/es/inteligencia-artificial/el-auge-y-la-caida-de-la-burbuja-de-ai/), para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende realmente Chat GPT el lenguaje? O dicho de otra forma: ¿es consciente Chat GPT?
 
 >What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
@@ -84,7 +85,7 @@ Mientras no entendamos que es la consciencia exactamente, no podremos saber que 
 
 Así mismo, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de "analizar" y  "responder" a situaciones muy complejas y con muchos matices, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
-Sir Roger Penrose refuerza el punto anterior en su libro "[Emperor's new mind](https://amzn.to/3XmesG6#?)", en el que afirma que la conciencia no es computable, por lo que nunca llegaremos a crear una Conciencia Artificial mediante algoritmos ni ésta surgirá de forma natural de la complejidad computacional, por más [fine-tuning de un LLM (Large Language Model)]((/es/inteligencia artificial/fine-tuning-de-un-llm-guia-practica-con-recursos/)) u otro paradigma de modelo que entrenemos.
+Sir Roger Penrose refuerza el punto anterior en su libro "[Emperor's new mind](https://amzn.to/3XmesG6#?)", en el que afirma que la conciencia no es computable, por lo que nunca llegaremos a crear una Conciencia Artificial mediante algoritmos ni ésta surgirá de forma natural de la complejidad computacional, por más [fine-tuning de un LLM (Large Language Model)]((/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/)) u otro paradigma de modelo que entrenemos.
 
 Pero aunque los seres humanos tengan procesos inconscientes capaces de existir sin la manifestación de la conciencia... debe de existir algo más que una simple acción mecánica, después de todo los animales son mucho más complejos que las máquinas ¿no? 
 

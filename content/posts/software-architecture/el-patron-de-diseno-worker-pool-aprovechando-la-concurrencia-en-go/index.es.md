@@ -24,6 +24,7 @@ keywords:
 - Paralelismo
 - Workers
 - algoritmos
+slug: /software-architecture/explicacion-del-patron-de-diseno-worker-pool/
 title: Explicación del Patron De Diseño Worker Pool
 ---
 

@@ -16,6 +16,7 @@ keywords:
 - bigo
 - rendimiento
 - algoritmos
+slug: /linux/la-notacion-big-o/
 title: La notación Big O
 ---
 

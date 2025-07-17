@@ -11,6 +11,7 @@ coverImage: images/Beginning_Python_from_novice_to_pro.jpg
 date: '2019-07-02'
 description: 'Esta entrada es una breve reseña de Beginning Python: From Novice To
   Professional, un libro con el cual aprender python desde cero.'
+slug: /python/aprender-python-desde-cero-resena-de-beginning-python/
 title: Aprender python desde cero Reseña de Beginning Python
 ---
 

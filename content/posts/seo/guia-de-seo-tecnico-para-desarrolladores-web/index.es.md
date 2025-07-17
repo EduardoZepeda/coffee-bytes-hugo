@@ -14,6 +14,7 @@ keyword: SEO Técnico básico
 keywords:
 - seo
 - opinion
+slug: /seo/una-guia-de-seo-tecnico-basico-hecha-para-desarrolladores-web/
 title: Una Guia De SEO Técnico Básico Hecha Para Desarrolladores Web
 ---
 

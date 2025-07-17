@@ -17,6 +17,7 @@ keywords:
 - python
 - reddit
 - opinion
+slug: /opinion/como-mejorar-django-framework/
 title: ¿Cómo mejorar Django Framework?
 ---
 

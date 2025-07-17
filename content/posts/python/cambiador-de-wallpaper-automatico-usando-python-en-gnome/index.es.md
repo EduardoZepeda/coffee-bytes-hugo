@@ -15,6 +15,7 @@ keywords:
 - python
 - gnome
 - linux
+slug: /python/como-crear-un-cambiador-de-wallpaper-automatico-usando-python-en-gnome/
 title: ¿Cómo crear un cambiador de wallpaper automático usando Python en Gnome?
 ---
 

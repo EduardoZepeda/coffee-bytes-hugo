@@ -24,6 +24,7 @@ keywords:
 - django
 - python
 - opinion
+slug: /software-architecture/como-escalar-django-para-manejar-millones-de-vistas/
 title: ¿Cómo Escalar Django Para Manejar Millones De Vistas?
 ---
 

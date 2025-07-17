@@ -20,8 +20,8 @@ keywords:
 - pdf
 - database
 - orm
+slug: /django/generar-pdfs-con-django-y-reportlab/
 title: Tutorial Generación de PDFs con Django y Reportlab
-url: generar-pdfs-con-django-y-reportlab
 ---
 
 Con django y reportlab podemos generar PDFs de manera dinámica, usando información de nuestra base de datos, input del usuario o cualquier otra lógica de negocio que deseemos. 

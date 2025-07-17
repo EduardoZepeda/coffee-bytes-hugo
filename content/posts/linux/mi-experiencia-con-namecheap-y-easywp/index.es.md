@@ -16,6 +16,7 @@ keywords:
 - easywp
 - namecheap
 - opinion
+slug: /linux/mi-experiencia-usando-easywp-y-namecheap/
 title: Mi experiencia usando EasyWP y namecheap
 ---
 

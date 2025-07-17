@@ -15,6 +15,7 @@ keywords:
 - javascript
 - css
 - web
+slug: /javascript/me-aproveche-de-un-error-en-el-codigo-de-una-app-de-citas/
 title: Me Aproveché De Un Error En El Código De Una App De Citas
 ---
 

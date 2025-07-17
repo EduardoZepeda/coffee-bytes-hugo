@@ -18,6 +18,7 @@ keywords:
 - django
 - python
 - opinion
+slug: /django/por-que-deberias-usar-django-framework/
 title: ¿Por qué deberías usar Django Framework?
 ---
 

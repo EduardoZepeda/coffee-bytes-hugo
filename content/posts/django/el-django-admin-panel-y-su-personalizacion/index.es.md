@@ -18,8 +18,8 @@ description: Tutorial para personalizar el comportamiento y la apariencia estét
 keywords:
 - django
 - python
+slug: /django/django-admin-panel-y-su-personalizacion/
 title: Tutorial ¿Cómo Modificar y Personalizar el Django Admin Panel?
-url: django-admin-panel-y-su-personalizacion
 ---
 
 Una de las mejores características de django es que cuenta con el django admin panel, un panel de administración listo para usarse, con funciones básicas como crear, leer, editar y eliminar modelos, usuarios, grupos y permisos. Todo listo con solo montar tu aplicación. Pero a veces nuestras necesidades son otras ¿y si queremos modificar la apariencia o las funciones de la interfaz? Afortunadamente Django incluye muchísimas funciones para personalizar el comportamiento del admin, te explicaré algunas a continuación.

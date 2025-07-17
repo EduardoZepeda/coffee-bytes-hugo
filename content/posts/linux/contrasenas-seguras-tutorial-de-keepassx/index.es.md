@@ -13,6 +13,7 @@ description: Tutorial de keepassxc. Logra contraseñas seguras e impenetrables p
   fuerza bruta, incluso aunque no sepas nada de criptografía.
 keywords:
 - linux
+slug: /linux/contrasenas-seguras-tutorial-de-keepassxc/
 title: Contraseñas seguras, tutorial de keepassxc
 ---
 

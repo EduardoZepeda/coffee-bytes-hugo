@@ -14,6 +14,7 @@ keyword: rust es difícil
 keywords:
 - rust
 - opinion
+slug: /rust/que-hace-al-lenguaje-rust-tan-dificil-de-aprender/
 title: ¿Qué hace al lenguaje Rust tan difícil de aprender?
 ---
 

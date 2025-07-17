@@ -18,6 +18,7 @@ keywords:
 - libros
 - opinion
 - reseña
+slug: /javascript/el-mejor-libro-para-aprender-javascript-moderno/
 title: El mejor libro para aprender Javascript moderno
 ---
 

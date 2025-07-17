@@ -21,6 +21,7 @@ keywords:
 - orm
 - select_related
 - prefetch_related
+slug: /django/diferencias-entre-select-related-y-prefetch-related-en-django/
 title: Diferencias entre select_related y prefetch_related en Django
 ---
 

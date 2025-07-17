@@ -14,6 +14,7 @@ description: Sintaxis y usos básicos de los arrays y slices en el lenguaje de p
   go. También te explico como usar la función make en slices.
 keywords:
 - go
+slug: /go/go-slices-y-arrays/
 title: 'Go:  slices y arrays'
 ---
 

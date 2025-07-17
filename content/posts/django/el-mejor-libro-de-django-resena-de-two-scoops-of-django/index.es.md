@@ -16,6 +16,7 @@ keywords:
 - libros
 - opinion
 - reseña
+slug: /django/el-mejor-libro-de-django-resena-de-two-scoops-of-django/
 title: El mejor libro de Django, reseña de Two Scoops of Django
 ---
 

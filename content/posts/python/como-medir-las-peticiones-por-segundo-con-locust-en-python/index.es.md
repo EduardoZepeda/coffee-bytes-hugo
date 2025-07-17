@@ -15,6 +15,7 @@ description: Aprende a realizar y personalizar auditorias de tráfico de usuario
 keywords:
 - python
 - rendimiento
+slug: /python/como-medir-las-peticiones-por-segundo-con-locust-en-python/
 title: ¿Cómo medir las peticiones por segundo con locust en python?
 ---
 

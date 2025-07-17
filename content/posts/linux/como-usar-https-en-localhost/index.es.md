@@ -19,6 +19,7 @@ keywords:
 - linux
 - golang
 - go
+slug: /linux/la-manera-mas-facil-de-usar-https-en-localhost/
 title: La Manera Más Fácil De Usar Https en Localhost
 ---
 

@@ -13,6 +13,7 @@ description: Aprende lo básico de importar paquetes y manejo modulos en el leng
   de programación go. Domina el método de go init y el archivo go.mod
 keywords:
 - go
+slug: /go/go-importacion-de-paquetes-y-manejo-de-modulos/
 title: 'Go: importación de paquetes y manejo de modulos'
 ---
 

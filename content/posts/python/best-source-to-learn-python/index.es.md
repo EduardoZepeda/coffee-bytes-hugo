@@ -15,6 +15,7 @@ keywords:
 - python
 - tutorial
 - opinion
+slug: /python/mis-libros-favoritos-para-aprender-a-programar-en-python/
 title: Mis libros favoritos para aprender a programar en Python
 ---
 

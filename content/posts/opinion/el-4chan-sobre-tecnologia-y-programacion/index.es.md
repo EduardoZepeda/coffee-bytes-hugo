@@ -15,6 +15,7 @@ description: En esta entrada expongo mi opinión sobre uno de los image boards d
 keywords:
 - opinion
 - internet
+slug: /opinion/el-4chan-sobre-tecnologia-y-programacion/
 title: El 4chan sobre tecnologia y programacion
 ---
 

@@ -15,6 +15,7 @@ description: 'Uso y opciones comunes de los comandos de terminal de linux: grep,
 keywords:
 - linux
 - commands
+slug: /linux/comandos-basicos-de-linux-grep-ls-cd-history-cat-cp-rm-scp/
 title: 'Comandos Básicos de Linux: grep ls cd history cat cp rm scp'
 ---
 

@@ -15,6 +15,7 @@ keywords:
 - internet
 - algoritmos
 - bigo
+slug: /linux/un-problema-de-algoritmos-al-dia/
 title: Un problema de algoritmos al dia
 ---
 

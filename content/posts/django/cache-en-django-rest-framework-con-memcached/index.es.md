@@ -20,8 +20,8 @@ keywords:
 - REST
 - rendimiento
 - API
+slug: /django/cache-en-django-rest-framework-con-memcached/
 title: Tutorial Caché con Django REST Framework y Memcached
-url: cache-en-django-rest-framework-con-memcached
 ---
 
 Para usar la caché en django, basta con seguir tres sencillos pasos:

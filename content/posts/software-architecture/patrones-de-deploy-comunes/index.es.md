@@ -18,6 +18,7 @@ keywords:
 - devops
 - patrones de diseño
 - software architecture
+slug: /software-architecture/patrones-de-deployment-o-despliegue-utiles/
 title: Patrones De Deployment o Despliegue Útiles
 ---
 

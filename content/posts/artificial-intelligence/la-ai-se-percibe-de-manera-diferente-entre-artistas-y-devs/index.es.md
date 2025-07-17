@@ -16,6 +16,7 @@ keywords:
 - jpg
 - ai
 - devs
+slug: /opinion/el-arte-generado-con-ai-y-el-codigo-generado-con-ai-son-tratados-de-manera-diferente/
 title: El arte generado con AI y el código generado con AI son tratados de manera
   diferente
 ---

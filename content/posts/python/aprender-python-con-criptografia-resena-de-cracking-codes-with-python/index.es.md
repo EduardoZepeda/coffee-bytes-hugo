@@ -16,6 +16,7 @@ keywords:
 - python
 - reseñas
 - criptografia
+slug: /python/aprender-python-con-criptografia-resena-de-cracking-codes-with-python/
 title: Aprender Python con criptografia reseña de Cracking Codes with Python
 ---
 

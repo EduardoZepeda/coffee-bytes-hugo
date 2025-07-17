@@ -15,8 +15,8 @@ keywords:
 - migrations
 - deployment
 - orm
-title: 'Migraciones con zero downtime: la estrategia shadow table'
 slug: /databases/migraciones-con-zero-downtime-la-estrategia-shadow-table/
+title: 'Migraciones con zero downtime: la estrategia shadow table'
 ---
 
 Imagínate esto: son las 2 de la madrugada, estás implementando un «simple» cambio en el tipo de columna en producción y, de repente, toda tu aplicación se cae porque el bloqueo de la tabla está tardando una eternidad. Tu teléfono empieza a vibrar con notificaciones furiosas de Slack y tú intentas explicar frenéticamente a tu equipo por qué la «migración de 5 minutos» lleva 30 minutos en marcha.

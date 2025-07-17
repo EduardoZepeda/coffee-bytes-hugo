@@ -9,8 +9,8 @@ categories:
 - opinion
 coverImage: images/saas-y-one-time-sale-ots-como-modelos-de-negocios.jpg
 date: '2024-02-22'
+slug: /opinion/saas-y-ots-como-modelos-de-negocios-en-software-y-mi-opinion-sobre-once/
 title: SAAS y OTS como modelos de negocios y mi opinión sobre Once
-url: saas-y-ots-como-modelos-de-negocios-en-software-y-mi-opinion-sobre-once
 ---
 
 No es un secreto que estos últimos días el software, en general, tiende hacia un modelo de negocio SAAS. Sin embargo si estuviste ahí cuando fueron escritas las sagradas escrituras del internet, sabrás que esta tendencia es más bien reciente.

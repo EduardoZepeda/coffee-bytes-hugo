@@ -16,6 +16,7 @@ keywords:
 - libros
 - opinion
 - reseña
+slug: /django/resena-de-django-for-professionals/
 title: Reseña de Django for Professionals
 ---
 

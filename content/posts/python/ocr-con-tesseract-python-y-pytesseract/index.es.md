@@ -22,11 +22,11 @@ keywords:
 - python
 - artificial intelligence
 - pytesseract
+slug: /python/ocr-con-tesseract-python-y-pytesseract/
 title: Pytesseract, OCR Reconocimiento óptico de carácteres en Python
-url: ocr-con-tesseract-python-y-pytesseract
 ---
 
-Python es increíblemente versátil, cuenta con una numerosa comunidad que pone a tu disposición librerías que te permiten crear redes neuronales desde cero, [realizar fine-tuning de un LLM](/es/inteligencia artificial/fine-tuning-de-un-llm-guia-practica-con-recursos/) o usar el Reconocimiento Óptico de Caracteres (OCR). Para este último sólo necesitas instalar tesseract y los bindings de python, llamados pytesseract y estarás listo para convertir una imagen en una cadena de texto.
+Python es increíblemente versátil, cuenta con una numerosa comunidad que pone a tu disposición librerías que te permiten crear redes neuronales desde cero, [realizar fine-tuning de un LLM](/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/) o usar el Reconocimiento Óptico de Caracteres (OCR). Para este último sólo necesitas instalar tesseract y los bindings de python, llamados pytesseract y estarás listo para convertir una imagen en una cadena de texto.
 
 ## Instalación de tesseract-ocr
 

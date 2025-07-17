@@ -13,6 +13,7 @@ description: Entiende de una vez como funciona el comando chmod, el comando enca
   de asignar los permisos rwx en Linux a carpetas y archivos, así como lo que significan
 keywords:
 - linux
+slug: /linux/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/
 title: Entiende los permisos en GNU Linux y el comando chmod
 ---
 

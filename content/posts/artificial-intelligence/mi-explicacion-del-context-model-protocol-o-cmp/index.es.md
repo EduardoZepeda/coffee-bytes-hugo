@@ -18,6 +18,7 @@ keywords:
 - llm
 - fine tuning
 - ai
+slug: /artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/
 title: Comprende el Model Context Protocol (MCP) de una vez por todas
 ---
 
@@ -25,7 +26,7 @@ Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entie
 
 ## ¿Por qué se creó el Model Context Protocol?
 
-Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/inteligencia artificial/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC](/es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), REST u otras), básicamente cualquier fuente que pueda retornar información.
+Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC](/es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), REST u otras), básicamente cualquier fuente que pueda retornar información.
 
 ![Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde](https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png)
 
@@ -170,6 +171,6 @@ Solo para refrescar tu memoria:
 | Tolerancia a Fallos | Resiliente (las solicitudes pueden ir a cualquier servidor)                                                             | Vulnerable a fallos del servidor                          |
 | Ejemplos            | [APIs REST (diseñadas correctamente), HTTP/HTTPS](/es/software-architecture/buenas-practicas-y-diseno-de-una-api-rest/) | Aplicaciones monolíticas tradicionales, WebSockets        |
 
-Por ahora es una discusión si permanecerá así, se implementarán versiones stateless o si habrá cambios al respecto. Después de todo este protocolo es nuevo y quien sabe que vaya a pasar en el futuro en el mundo de la AI, para ejemplos tenemos casos [como el de Devin AI](/es/Inteligencia Artificial/devin-ai-el-supuesto-reemplazo-de-los-programadores/) y Rabbit R1.
+Por ahora es una discusión si permanecerá así, se implementarán versiones stateless o si habrá cambios al respecto. Después de todo este protocolo es nuevo y quien sabe que vaya a pasar en el futuro en el mundo de la AI, para ejemplos tenemos casos [como el de Devin AI](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/) y Rabbit R1.
 
 Si quieres saber más dale una leída a la [documentación oficial del Model Context Protocol](https://github.com/modelcontextprotocol) y [la introducción al MCP](https://www.anthropic.com/news/model-context-protocol)

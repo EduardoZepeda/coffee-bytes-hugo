@@ -14,6 +14,7 @@ description: Tutorial para crear un comando personalizado en django desde cero, 
 keywords:
 - django
 - python
+slug: /django/como-crear-un-comando-en-django/
 title: ¿Cómo crear un comando en django?
 ---
 

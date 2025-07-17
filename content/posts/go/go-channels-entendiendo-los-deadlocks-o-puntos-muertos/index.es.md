@@ -13,6 +13,7 @@ description: 'En esta entrada trato los deadlocks en go, las causas del error fa
   error: all goroutines are asleep - deadlock! y como prevenirlo.'
 keywords:
 - go
+slug: /go/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/
 title: 'Go: channels, entendiendo los deadlocks o puntos muertos'
 ---
 

@@ -13,6 +13,7 @@ description: En este post te explico un poco sobre las diferencias etre los stri
   runes y bytes en el lenguaje de programación go y su uso básico.
 keywords:
 - go
+slug: /go/go-strings-runes-y-bytes/
 title: 'Go: strings, runes y bytes'
 ---
 

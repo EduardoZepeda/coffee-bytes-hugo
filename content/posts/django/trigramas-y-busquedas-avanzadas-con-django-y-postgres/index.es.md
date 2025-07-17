@@ -18,6 +18,7 @@ keywords:
 - django
 - python
 - postgres
+slug: /django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/
 title: Trigramas y búsquedas avanzadas con Django y Postgres
 ---
 

@@ -14,6 +14,7 @@ keywords:
 - opinion
 - seo
 - desarrollo web
+slug: /opinion/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/
 title: Mis errores de optimización en el SEO técnico de mi sitio web
 ---
 

@@ -16,6 +16,7 @@ keywords:
 - python
 - opinion
 - reseña
+slug: /python/aprende-python-desde-cero-con-este-libro-gratuito/
 title: Aprende Python desde cero con este libro gratuito
 ---
 

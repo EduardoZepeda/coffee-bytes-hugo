@@ -14,6 +14,7 @@ description: ¿Cómo programar un cambiador de wallpaper automático en GNU/Linu
 keywords:
 - linux
 - python
+slug: /python/como-programar-un-cambiador-de-wallpaper-automatico-en-python/
 title: ¿Cómo programar un cambiador de wallpaper automático en Python?
 ---
 

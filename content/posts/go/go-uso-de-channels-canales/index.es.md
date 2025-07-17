@@ -14,6 +14,7 @@ keywords:
 - go
 - concurrencia
 - channels
+slug: /go/go-uso-de-channels-o-canales-para-comunicar-goroutinas/
 title: 'Go: uso de channels o canales para comunicar goroutinas'
 ---
 

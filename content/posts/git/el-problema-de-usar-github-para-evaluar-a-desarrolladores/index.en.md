@@ -34,6 +34,7 @@ It is common practice to use Github to assess a developer's capabilities, but to
 
 ![This is just a representation of how a github's contribution chart can be a reflect of someone's life](images/github-as-past-review-tool.webp "This is just a representation of how a github's contribution chart can be a reflect of someone's life")
 
+
 But why would someone not want to show the ~~horrible quality of their code done in javascript~~ good quality of their code? One reason is that they're probably too busy writing code that does pay, rather than contributing to open source. 
 
 

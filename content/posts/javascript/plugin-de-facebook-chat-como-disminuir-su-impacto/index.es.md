@@ -16,6 +16,7 @@ keywords:
 - rendimiento
 - javascript
 - html
+slug: /javascript/plugin-de-facebook-chat-como-disminuir-su-impacto/
 title: Plugin de facebook chat ¿cómo disminuir su impacto?
 ---
 

@@ -14,6 +14,7 @@ keywords:
 - nginx
 - rendimiento
 - linux
+slug: /linux/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/
 title: 'Nginx keepalive, gzip, http2: mejor rendimiento en tu sitio web'
 ---
 

@@ -22,8 +22,8 @@ keywords:
 - api
 - python
 - django
+slug: /docker/python-fastapi-el-mejor-framework-de-python/
 title: Tutorial de FastAPI, ¿el mejor framework de Python?
-url: python-fastapi-el-mejor-framework-de-python
 ---
 
 Estos últimos días he estado probando una librería para Python que se está volviendo muy popular, FastAPI, un framework para crear APIs, tales como las [REST APIs](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/) o las APIs RPC, de manera sencilla, con muy poco código y con un rendimiento extraordinario, para soportar sitios web de alta concurrencia.

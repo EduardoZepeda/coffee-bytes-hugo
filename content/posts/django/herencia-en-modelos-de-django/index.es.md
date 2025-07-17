@@ -18,6 +18,7 @@ keywords:
 - python
 - oop
 - orm
+slug: /django/comprende-los-tipos-de-herencia-en-modelos-de-django/
 title: Comprende los tipos de herencia en modelos de Django
 ---
 

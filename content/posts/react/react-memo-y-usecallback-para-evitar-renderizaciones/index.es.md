@@ -16,6 +16,7 @@ keywords:
 - javascript
 - react
 - rendimiento
+slug: /react/react-memo-usememo-y-usecallback-para-evitar-renderizaciones-en-react/
 title: React memo, useMemo y useCallback para evitar renderizaciones en React
 ---
 

@@ -17,6 +17,7 @@ keywords:
 - software architecture
 - API
 - buenas practicas
+slug: /software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
 title: APIs de alto rendimiento usando gRPC y Protobuffers
 ---
 

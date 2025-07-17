@@ -12,6 +12,7 @@ description: En esta entrada hablo sobre las condiciones de carrera o race condi
   que ocurren cuando usamos goroutines y como prevenirlas usando mutex.
 keywords:
 - go
+slug: /go/go-condiciones-de-carrera-en-goroutines-y-mutex/
 title: 'Go: condiciones de carrera en goroutines y mutex'
 ---
 

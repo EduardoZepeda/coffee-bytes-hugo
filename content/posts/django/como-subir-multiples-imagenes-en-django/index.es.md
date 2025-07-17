@@ -16,6 +16,7 @@ description: Tutorial para subir o realizar upload de múltiples imágenes o arc
 keywords:
 - python
 - django
+slug: /django/como-subir-multiples-imagenes-en-django/
 title: ¿Cómo subir múltiples imágenes en Django?
 ---
 

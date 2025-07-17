@@ -21,8 +21,8 @@ keywords:
 - software architecture
 - API
 - buenas practicas
+slug: /software-architecture/caracteristicas-basicas-de-una-api-rest/
 title: Características básicas de una API REST y recomendaciones
-url: caracteristicas-basicas-de-una-api-rest
 ---
 
 Esta publicación es una guia muy corta de consejos prácticos sobre diseño de APIs REST, no profundizo demasiado en la teoría. Encima, puedo sobre simplificar muchos conceptos en aras de mantener el texto lo más corto y sencillo posible.
@@ -39,7 +39,7 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto de paradigmas, pero no existe certeza sobre lo que sucederá mañana, quizás reescribamos todas las API en Rust. 
 
-A la fecha aún existen protocolos que trabajan con peticiones POST, [como el Model Context Protocol](/es/inteligencia artificial/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/), usado para estandarizar la comunicación entre cliente y LLM.
+A la fecha aún existen protocolos que trabajan con peticiones POST, [como el Model Context Protocol](/es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/), usado para estandarizar la comunicación entre cliente y LLM.
 
 ![Linea del tiempo de APIs](images/timeline-de-APIs.png "REST data del año 2000")
 

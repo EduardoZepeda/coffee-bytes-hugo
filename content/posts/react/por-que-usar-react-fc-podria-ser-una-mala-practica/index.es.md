@@ -20,6 +20,7 @@ keywords:
 - typescript
 - javascript
 - opinion
+slug: /opinion/por-que-usar-reactfc-podria-ser-una-mala-practica/
 title: ¿Por qué usar React.FC podria ser una mala practica?
 ---
 

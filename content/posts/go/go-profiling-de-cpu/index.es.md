@@ -14,6 +14,7 @@ description: Entrada sobre profiling del código en go, análisis del impacto li
 keywords:
 - go
 - rendimiento
+slug: /go/go-profiling-o-perfilado-basico-del-uso-del-cpu/
 title: 'Go: profiling o perfilado básico del uso del CPU'
 ---
 

@@ -14,6 +14,7 @@ description: Aprende de una vez como aprovechar el objeto console de javascript 
 keywords:
 - javascript
 - opinion
+slug: /javascript/estas-usando-mal-consolelog-en-javascript/
 title: Estás usando mal console.log en javascript
 ---
 

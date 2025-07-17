@@ -14,6 +14,7 @@ description: 'Uso y opciones comunes de los comandos de terminal de linux: print
   systemctl, top, ps, chown, kill, wget, curl, chroot, export y otros.'
 keywords:
 - linux
+slug: /linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/
 title: 'Comandos Básicos de Linux: printenv export lsof top ps kill curl systemctl
   chown chroot'
 ---

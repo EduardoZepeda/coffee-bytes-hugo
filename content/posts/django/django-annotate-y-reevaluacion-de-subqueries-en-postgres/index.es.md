@@ -19,6 +19,7 @@ keywords:
 - Algoritmos
 - SQL
 - Databases
+slug: /django/arregla-querys-lentas-en-django-al-usar-annotate-y-subqueries/
 title: Arregla querys lentas en Django al usar annotate y subqueries
 ---
 

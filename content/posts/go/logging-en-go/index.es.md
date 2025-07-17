@@ -13,6 +13,7 @@ keywords:
 - go
 - testing
 - logging
+slug: /go/logging-con-la-libreria-estandar-en-go/
 title: Logging con la librería estándar en Go
 ---
 

@@ -17,6 +17,7 @@ keywords:
 - django
 - python
 - orm
+slug: /django/que-hace-la-aplicacion-contenttype-en-django/
 title: ¿Qué hace la aplicación ContentType en Django?
 ---
 

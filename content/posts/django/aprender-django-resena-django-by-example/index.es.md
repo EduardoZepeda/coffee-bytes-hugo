@@ -17,6 +17,7 @@ keywords:
 - python
 - django
 - reseñas
+slug: /django/aprender-django-con-django-by-example-mi-resena/
 title: Aprender Django con Django by Example, mi reseña
 ---
 

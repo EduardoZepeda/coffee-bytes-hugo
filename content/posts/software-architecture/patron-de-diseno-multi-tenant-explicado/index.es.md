@@ -15,6 +15,7 @@ keyword: multi-tenant
 keywords:
 - software architecture
 - patrones de diseño
+slug: /software-architecture/arquitectura-multi-tenant-en-software-que-es-y-sus-patrones-de-bases-de-datos/
 title: 'Arquitectura Multi Tenant En Software: Qué Es y Sus Patrones De Bases De Datos'
 ---
 

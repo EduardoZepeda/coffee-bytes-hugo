@@ -15,8 +15,8 @@ description: 'Conoce las bases del lenguaje de programación go o golang: compil
 keyword: lenguaje go
 keywords:
 - go
+slug: /go/go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos/
 title: Go lenguaje de programación introducción a variables y tipos de datos
-url: go-lenguaje-de-programacion-introduccion-a-variables-y-tipos-de-datos
 ---
 
 Go, también conocido como Golang, es un lenguaje de programación compilado desarrollado por Google con el propósito de ser simple, sencillo de aprender, suficientemente rápido y centrado fuertemente en la concurrencia.

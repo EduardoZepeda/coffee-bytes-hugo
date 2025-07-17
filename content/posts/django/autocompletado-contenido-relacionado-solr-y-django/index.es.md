@@ -17,8 +17,8 @@ keys:
 - solr
 - autocomplete
 - index
+slug: /django/autocompletado-sugerencias-y-contenido-relacionado-solr-y-django/
 title: Autocompletado, Sugerencias y Relacionados con Solr Y Django
-url: autocompletado-sugerencias-y-contenido-relacionado-solr-y-django
 ---
 
 Solr, en unión con Lucene, conforman un motor de búsqueda muy potente que permite realizar búsquedas con funciones avanzadas. en esta entrada te traigo un resumen con  algunas de las funciones más interesantes de Solr y Django Haystack.

@@ -14,6 +14,7 @@ description: Te explico un poquito sobre el Shiny Object Syndrome (SOS) y el Fea
 keyword: fomo en el desarrollo web
 keywords:
 - opinion
+slug: /opinion/cuidado-con-el-shiny-object-syndrome-y-el-fomo-en-el-desarrollo-web/
 title: Cuidado Con El Shiny Object Syndrome Y El FOMO En El Desarrollo Web
 ---
 

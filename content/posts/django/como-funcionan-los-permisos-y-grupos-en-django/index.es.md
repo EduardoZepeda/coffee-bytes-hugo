@@ -14,6 +14,7 @@ description: Aprende a crear permisos, grupos, asignarlos a los usuarios, y crea
   permisos personalizados en Django. Incluso si jamás lo has hecho.
 keywords:
 - linux
+slug: /django/como-funcionan-los-permisos-y-grupos-en-django/
 title: ¿Cómo funcionan los permisos y grupos en Django?
 ---
 

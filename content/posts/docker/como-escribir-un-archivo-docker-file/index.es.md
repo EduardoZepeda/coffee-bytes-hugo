@@ -18,6 +18,7 @@ keywords:
 - python
 - django
 - nginx
+slug: /docker/como-escribir-un-archivo-de-dockerfile-desde-cero/
 title: Como escribir un archivo de Dockerfile desde cero
 ---
 

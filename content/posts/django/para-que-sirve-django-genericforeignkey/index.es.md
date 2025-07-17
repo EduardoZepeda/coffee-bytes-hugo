@@ -17,6 +17,7 @@ keywords:
 - python
 - django
 - orm
+slug: /django/para-que-sirve-django-genericforeignkey/
 title: ¿Para qué sirve Django genericForeignkey?
 ---
 

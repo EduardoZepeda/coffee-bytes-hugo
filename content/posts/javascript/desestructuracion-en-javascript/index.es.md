@@ -15,6 +15,7 @@ description: En esta entrada voy a tratar de explicar de una manera sencilla la 
   del código.
 keywords:
 - javascript
+slug: /javascript/desestructuracion-de-variables-en-javascript/
 title: Desestructuración de variables en javascript
 ---
 

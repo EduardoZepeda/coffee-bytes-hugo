@@ -14,6 +14,7 @@ description: 'Entrada sobre testing básico en go: creación de tests, manejo de
 keywords:
 - go
 - testing
+slug: /go/go-testing-basico-y-coverage/
 title: 'Go: testing básico y coverage'
 ---
 

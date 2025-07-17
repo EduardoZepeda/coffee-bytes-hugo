@@ -17,6 +17,7 @@ description: Te enseño a instalar Pipenv, crear un Pipfile, establecer variable
 keywords:
 - python
 - pipenv
+slug: /python/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/
 title: 'Pipenv: El administrador de entornos virtuales que NO conoces'
 ---
 

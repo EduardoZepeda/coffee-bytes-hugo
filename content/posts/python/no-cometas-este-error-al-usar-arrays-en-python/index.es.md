@@ -16,6 +16,7 @@ description: ¿Por qué cuando cambio un elemento de un array en una matriz Pyth
 keywords:
 - python
 - rendimiento
+slug: /python/no-cometas-este-error-al-usar-arrays-en-python/
 title: No cometas este error al usar arrays en Python
 ---
 

@@ -13,6 +13,7 @@ description: Declara structs en go y emula la herencia, polimorfismo y encapsula
 keywords:
 - go
 - oop
+slug: /go/go-structs-herencia-polimorfismo-y-encapsulacion/
 title: 'Go: Structs, herencia, polimorfismo y encapsulación'
 ---
 

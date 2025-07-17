@@ -14,6 +14,7 @@ description: Una breve guía práctica sobre el proceso de puesta a punto de un 
 keyword: fine-tuning
 keywords:
 - artificial intelligence
+slug: /artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/
 title: Fine-Tuning De Un LLM Guía Práctica Con Recursos
 ---
 
@@ -41,7 +42,7 @@ Pero si ya tienes nociones de redes neuronales, entonces empecemos por el fine-t
 
 ## ¿Qué es el fine-tuning?
 
-El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y continuar su formación en un conjunto de datos particulares del campo. Como por ejemplo un LLM que ha sido entrenado usando todos los artículos científicos sobre diabetes, lo cual podrías hacer a través del [Model Context Protocol](/es/inteligencia artificial/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/)
+El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y continuar su formación en un conjunto de datos particulares del campo. Como por ejemplo un LLM que ha sido entrenado usando todos los artículos científicos sobre diabetes, lo cual podrías hacer a través del [Model Context Protocol](/es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/)
 
 Porque, ¿para qué realizar prompt engineering cuando se puede hacer fine-tuning de un modelo y obtener los mismos resultados?
 
@@ -51,7 +52,7 @@ La mayor parte de los modelos LLM actuales exhiben un rendimiento global bastant
 
 El procedimiento de fine-tuning brinda beneficios significativos, tales como la disminución de los costos de cálculo y la oportunidad de utilizar modelos avanzados sin la necesidad de edificar uno desde el inicio.
 
-[Puede que la AI no sustituya a los programadores](/es/Inteligencia Artificial/devin-ai-el-supuesto-reemplazo-de-los-programadores/), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.
+[Puede que la AI no sustituya a los programadores](/es/artificial-intelligence/devin-ai-el-supuesto-reemplazo-de-los-programadores/), pero el fine-tuning puede convertir un LLM en la herramienta de predicción definitiva en un área de conocimiento.
 
 ### Pasos para realizar fine-tuning de un LLM
 
@@ -106,7 +107,7 @@ Obtuve mejores resultados con los de Mistral, probablemente porque los de DeepSe
 
 ![Is this Searle's Chinese room meme](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg)
 
-De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos (igualito [a la habitación de Searle](/es/inteligencia artificial/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/)), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
+De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos (igualito [a la habitación de Searle](/es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/)), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
 
 Ya elegimos modelo y tenemos los datos, ¿dónde entrenamos nuestro LLM? Mientras más barato mejor.
 

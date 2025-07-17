@@ -18,6 +18,7 @@ keywords:
 - artificial intelligence
 - opinion
 - review
+slug: /opinion/bolt-vs-lovable-vs-v0-vercel-comparando-resultados-y-mi-opinion/
 title: Bolt vs Lovable vs V0 Vercel Comparando Resultados y Mi Opinion
 ---
 

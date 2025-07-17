@@ -16,6 +16,7 @@ keywords:
 - django
 - python
 - rendimiento
+slug: /django/tareas-periodicas-con-celery-y-django/
 title: Tareas periódicas con Celery y Django
 ---
 

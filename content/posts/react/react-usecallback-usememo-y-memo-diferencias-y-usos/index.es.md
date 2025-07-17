@@ -17,6 +17,7 @@ keywords:
 - javascript
 - react
 - rendimiento
+slug: /react/react-usecallback-usememo-y-memo-diferencias-y-usos/
 title: React useCallback, useMemo y memo, diferencias y usos
 ---
 

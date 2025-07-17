@@ -18,6 +18,7 @@ keywords:
 - postgres
 - databases
 - migrations
+slug: /go/tutorial-de-migraciones-en-go-con-migrate/
 title: Tutorial de migraciones en Go con migrate
 ---
 

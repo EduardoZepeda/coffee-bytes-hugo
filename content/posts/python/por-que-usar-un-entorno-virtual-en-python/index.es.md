@@ -14,6 +14,7 @@ description: ¿No sabes que es un entorno virtual en Python? Aquí te explico qu
 keywords:
 - python
 - opinion
+slug: /python/por-que-deberias-usar-un-entorno-virtual-en-python/
 title: ¿Por qué deberías usar un entorno virtual en python?
 ---
 

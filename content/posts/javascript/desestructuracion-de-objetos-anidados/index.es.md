@@ -13,6 +13,7 @@ description: ¿Desestructuración de objetos anidados en javascript? En esta ent
   trato el tema de la desestructuración de objetos anidados con ejemplos.
 keywords:
 - javascript
+slug: /javascript/desestructuracion-de-objetos-anidados-en-javascript/
 title: Desestructuración de objetos anidados en Javascript
 ---
 

@@ -13,6 +13,7 @@ description: Ngrok vuelve público tu localhost, ya sea para hacer testeo de res
   a tus endpoints o mostrarle avances a tus clientes.
 keywords:
 - linux
+slug: /linux/ngrok-tu-localhost-accesible-desde-internet/
 title: Ngrok, tu localhost accesible desde internet
 ---
 

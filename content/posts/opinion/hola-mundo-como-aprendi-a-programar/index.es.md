@@ -20,6 +20,7 @@ keywords:
 - php
 - css
 - html
+slug: /opinion/hello-world-como-aprendi-a-programar/
 title: Hello World, ¿cómo aprendi a programar?
 ---
 

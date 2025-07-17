@@ -21,6 +21,7 @@ keywords:
 - javascript
 - children
 - types
+slug: /react/que-tipos-o-types-usar-para-componentes-react-con-children/
 title: Qué Tipos o Types Usar Para Componentes React Con Children
 ---
 

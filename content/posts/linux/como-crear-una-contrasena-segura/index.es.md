@@ -15,6 +15,7 @@ description: Aprende a crear una contraseña segura que proteja tus cuentas pers
 keywords:
 - linux
 - opinion
+slug: /linux/como-crear-una-contrasena-segura/
 title: ¿Cómo crear una contraseña segura?
 ---
 

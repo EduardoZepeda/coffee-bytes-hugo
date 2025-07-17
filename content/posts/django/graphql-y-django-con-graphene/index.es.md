@@ -22,6 +22,7 @@ keywords:
 - graphene
 - graphql
 - api
+slug: /django/como-crear-una-api-graphql-en-django-rapidamente-usando-graphene/
 title: Cómo crear una API Graphql en Django rápidamente usando Graphene
 ---
 

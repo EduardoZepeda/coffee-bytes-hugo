@@ -17,6 +17,7 @@ keywords:
 - hugo
 - react
 - frontity
+slug: /opinion/programar-un-blog-o-usar-wordpress/
 title: ¿Programar un blog o usar wordpress?
 ---
 

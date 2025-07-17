@@ -18,6 +18,7 @@ description: Los tests son un desperdicio, ¿verdad? Entra aquí y conoce unitte
 keywords:
 - testing
 - python
+slug: /python/unittest-python-valen-la-pena-los-tests-en-python/
 title: Unittest python ¿valen la pena los tests en python?
 ---
 

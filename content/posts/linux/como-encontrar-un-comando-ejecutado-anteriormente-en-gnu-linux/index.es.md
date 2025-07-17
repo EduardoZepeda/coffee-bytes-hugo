@@ -12,8 +12,8 @@ description: Alguna vez te ha pasado que quieres encontrar un comando ejecutado 
   en GNU/Linux. Hay varias maneras de hacerlo, aquí te explico dos de ellas.
 keywords:
 - linux
+slug: /linux/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/
 title: ¿Cómo encontrar un comando ejecutado en GNU Linux?
-url: como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/
 ---
 
 A veces ejecutamos comandos que resuelven una tarea muy específica en nuestro sistema. Puede ser que hayamos hecho una búsqueda de un archivo usando expresiones regulares o quizás accedimos a un servidor por medio de ssh y ya no recordamos la dirección IP. Volver a crear la expresión regular desde cero puede consumir mucho tiempo y quizás volver a encontrar la IP también puede consumir más tiempo que si simplemente pudiéramos recuperar el comando. Podemos encontrar un comando ejecutado anteriormente en GNU/Linux de manera sencilla, aquí te expongo como.

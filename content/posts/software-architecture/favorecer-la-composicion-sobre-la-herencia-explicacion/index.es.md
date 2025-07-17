@@ -14,6 +14,7 @@ date: '2023-10-11'
 keywords:
 - python
 - django
+slug: /software-architecture/composicion-sobre-herencia-en-poo-explicada-con-legos/
 title: Composicion Sobre Herencia en POO explicada con Legos
 ---
 

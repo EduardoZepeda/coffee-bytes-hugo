@@ -12,6 +12,7 @@ coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
 date: 2022-10-06
 description: Manejo de las señales o signlas SIGINT y SIGTERM en Linux usando channels
   en Go para conseguir el apagado elegante de aplicaciones web en Go
+slug: /go/go-manejo-de-signals-para-cerrar-aplicaciones/
 title: 'Go: Manejo de Signals para Cerrar Aplicaciones'
 ---
 

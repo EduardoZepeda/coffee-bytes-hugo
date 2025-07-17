@@ -20,6 +20,7 @@ keywords:
 - azure
 - opinion
 - certificacion
+slug: /software-architecture/examen-de-certificacion-azure-az-900-mi-experiencia/
 title: Examen de Certificacion Azure AZ-900 Mi Experiencia
 ---
 

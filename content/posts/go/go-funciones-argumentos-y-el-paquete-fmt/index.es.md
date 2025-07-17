@@ -13,6 +13,7 @@ description: Aprende la sintaxis básica, retornos, tipos de retorno, argumentos
   y el uso del paquete fmt del lenguaje de programación go.
 keywords:
 - go
+slug: /go/go-funciones-argumentos-y-el-paquete-fmt/
 title: 'Go: funciones, argumentos y el paquete fmt'
 ---
 

@@ -16,6 +16,7 @@ keywords:
 - python
 - websockets
 - concurrency
+slug: /django/django-channels-channel-layers-grupos-y-usuarios/
 title: 'Django channels: channel layers, grupos y usuarios'
 ---
 

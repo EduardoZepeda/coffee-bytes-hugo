@@ -15,6 +15,7 @@ description: Te muestro algunas de mis librerías favoritas relacionadas de Reac
 keywords:
 - javascript
 - react
+slug: /react/5-librerias-geniales-de-react-que-debes-conocer/
 title: 5 librerías geniales de React que debes conocer
 ---
 

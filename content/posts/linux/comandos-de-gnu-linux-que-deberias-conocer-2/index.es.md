@@ -15,6 +15,7 @@ description: Aprende sobre los comandos básicos de GNU/Linux que ofrece la term
   para esta entrada explico uname, who, du, df, entre muchos otros.
 keywords:
 - linux
+slug: /linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt/
 title: 'Comandos Básicos de Linux: passwd du useradd usermod fdisk apt'
 ---
 

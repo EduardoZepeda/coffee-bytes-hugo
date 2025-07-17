@@ -17,6 +17,7 @@ keywords:
 - tox
 - python
 - testing
+slug: /python/testeo-con-tox-en-python-tutorial-desde-cero/
 title: Testeo con tox en Python, tutorial desde cero
 ---
 

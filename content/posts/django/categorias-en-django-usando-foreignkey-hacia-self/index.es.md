@@ -16,6 +16,7 @@ keywords:
 - django
 - python
 - orm
+slug: /django/categorias-en-django-usando-foreignkey-hacia-self/
 title: Categorias en Django usando ForeignKey hacia self
 ---
 

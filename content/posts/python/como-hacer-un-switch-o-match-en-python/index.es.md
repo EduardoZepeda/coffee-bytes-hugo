@@ -17,6 +17,7 @@ description: Aprende a escribir un statement switch en Python, también llamado 
   su sintaxis básica y su guard, para controlar el flujo de tu aplicacion.
 keywords:
 - python
+slug: /python/como-escribir-un-switch-en-python/
 title: ¿Cómo escribir un switch en Python?
 ---
 
