@@ -2,7 +2,7 @@
 date: '2025-06-03T16:01:02-06:00'
 title: 'Bolt vs Lovable vs V0 Vercel Comparando Resultados y Mi Opinion'
 categories:
-- opinion
+- opiniones
 - inteligencia artificial
 coverImage: "images/bolt-vs-lovable-v0-vercel.jpg"
 description: 'Una comparación entre Bolt vs Lovable vs V0 Vercel para la creación de landing pages, ventajas, desventajas, carencias y mi opinión del ganador'
