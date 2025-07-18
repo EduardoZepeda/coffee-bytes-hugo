@@ -1,6 +1,5 @@
 ---
 aliases:
-- /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers/blog/chat-gpt-searles-chinese-room-and-consciousness/
 - /en/chat-gpt-searles-chinese-room-and-consciousness/
 authors:
 - Eduardo Zepeda

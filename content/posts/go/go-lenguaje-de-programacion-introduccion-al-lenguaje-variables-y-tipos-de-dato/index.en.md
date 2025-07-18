@@ -15,7 +15,7 @@ keywords:
 - variables
 - language
 title: Go, coding language, introduction to variables and data types
-url: go-programming-language-introduction-to-variables-and-data-types
+url: sections[last]/go-programming-language-introduction-to-variables-and-data-types
 ---
 
 Golang, also known as go, is a compiled programming language developed by Google. It is a language quite appreciated according to the latest Stackoverflow surveys (2023), as you can see in my python vs go post, where I also compare the good, the bad and the ugly of this language.

@@ -13,7 +13,6 @@ description: Learn how to create permissions, groups, assign them to users, and 
 keywords:
 - linux
 title: How do permissions and its groups work in Django?
-url: how-do-permissions-and-permissions-groups-work-in-django
 ---
 
 When I first learned that Django had a permissions system, many years ago, it seemed rather esoteric, not very useful and easy to replicate, how wrong I was back then. Then I realized that the built-in permissions system was a marvel and saved a lot of code, and was quite robust and tested by some of the largest companies in the world.

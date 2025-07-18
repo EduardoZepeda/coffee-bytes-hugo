@@ -8,7 +8,7 @@ categories:
 coverImage: images/saas-y-one-time-sale-ots-como-modelos-de-negocios.jpg
 date: '2024-02-22'
 title: SAAS and OTS as business models and my opinion on Once
-url: saas-and-ots-as-software-business-models-and-my-opinion-on-once
+url: sections[last]/saas-and-ots-as-software-business-models-and-my-opinion-on-once
 ---
 
 It is no secret that these days software, in general, is trending towards a SAAS business model. However if you were there when the holy scriptures of the internet were written, you will know that this trend is rather recent.

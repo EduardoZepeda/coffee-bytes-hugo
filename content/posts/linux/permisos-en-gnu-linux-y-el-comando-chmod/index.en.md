@@ -14,7 +14,7 @@ description: Understand once and for all how the chmod command works in Linux, u
 keywords:
 - linux
 title: 'Mastering Chmod Command: Linux Permissions Simplified'
-url: understand-permissions-in-gnu-linux-and-the-chmod-command/
+url: sections[last]/understand-permissions-in-gnu-linux-and-the-chmod-command/
 ---
 
 The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly.

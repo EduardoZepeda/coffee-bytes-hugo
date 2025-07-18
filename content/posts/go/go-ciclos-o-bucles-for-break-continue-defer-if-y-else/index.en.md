@@ -12,7 +12,7 @@ description: Syntax and basic uses of if and else structures, loops, their types
 keywords:
 - go
 title: 'Go: loops for, break, continue, defer, if and else'
-url: go-cycles-or-loops-for-break-continue-defer-if-and-else
+url: sections[last]/go-cycles-or-loops-for-break-continue-defer-if-and-else
 ---
 
 This entry will deal with loops in the go programming language.
