@@ -21,7 +21,6 @@ keywords:
 - chroot
 - pid
 title: How Does a Docker Container Work Internally?
-url: how-does-a-docker-container-work-internally
 ---
 
 Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands](/en/docker/the-most-useful-and-basic-docker-commands/) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
