@@ -23,7 +23,6 @@ This post is for you, who want to become independent from companies and are look
 
 In the world of programmers there is an obsession with speed and performance; we want to squeeze every possible millisecond out of the language and reduce memory consumption to the minimum possible and write queries in their most elegant version that pushes our database to its speed limit and and subject them to the most rigorous [Big O performance analysis](/en/linux/the-big-o-notation/).
 
-
 {{< figure src="images/rust-and-go-performance-for-common-data-structures-arrays.webp" class="md-local-image" alt="Rust vs go Benchmark" >}}
 
 In this constant search we go from high level languages to lower level languages, we wander through the darkest corners of the documentation towards the most esoteric runtimes written in arcane languages whose names seem to be taken out of a dictionary of another language. Did any particular one come to your mind?. 
@@ -40,6 +39,8 @@ Yes, it is true that we are talking about a factor of 100, but consider the foll
 One request per second means 60 in a minute, 3600 in an hour and 86400 a day. 
 
 Are you really worried about your application having a traffic of 86400 requests in a day? If you already have such traffic, paying an extra developer to tune the gears of your software should not be a problem, and if it is, **you probably don't have a performance problem, but a monetization problem**.
+
+Not every project requires you to [learn the difficult Rust Syntax]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="en" >}}).
 
 {{<ad>}}
 

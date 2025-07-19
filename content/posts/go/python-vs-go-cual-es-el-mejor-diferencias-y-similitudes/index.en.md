@@ -37,9 +37,7 @@ I had already explained a bit about the differences between an interpreted and a
 
 Both languages are characterized by fast code production.
 
-The **compilation of go is extremely fast** and, although it might be slightly slower to run than if you were using C++ or Rust, product development and MVPs should take less time than with those languages.
-
-{{<ad>}}
+The **compilation of go is extremely fast** and, although it might be slightly slower to run than if you were using C++ or the [hard to learn Rust language]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="en" >}}), product development and MVPs should take less time than with those languages.
 
 ## Which one is faster Python vs Go?
 
@@ -236,6 +234,8 @@ if __name__ == "__main__":
 ```
 
 This script will take three seconds to run.
+
+{{<ad>}}
 
 ## Error handling comparison Python and Go
 

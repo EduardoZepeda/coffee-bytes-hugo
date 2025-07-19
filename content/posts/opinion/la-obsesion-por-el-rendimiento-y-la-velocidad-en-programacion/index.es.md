@@ -41,6 +41,8 @@ Sí, es cierto que estamos hablando de un factor de 100, pero considera lo sigui
 
 Una petición por segundo significa 60 en un minuto, 3600 en una hora y 86400 al día. ¿De verdad te preocupa que tu aplicación tenga un tráfico de 86400 peticiones en un día? Si ya tienes tal tráfico, pagarle a un desarrollador extra para que se encargue de ajustar los engranes de tu software no debería ser un problema, y si lo es, **probablemente no tienes un problema de rendimiento, sino de monetización.**
 
+No todos los proyectos requieren [que aprendas la complicada sintaxis de Rust.]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="es" >}})
+
 {{<ad>}}
 
 ## ¿Importa el consumo de memoria en una nueva aplicación web?

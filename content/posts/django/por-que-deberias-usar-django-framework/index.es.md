@@ -226,7 +226,7 @@ Si estas usando este maravilloso y super simple [lenguaje de programación llama
 
 ### Frameworks como django pero en Rust
 
-Si bien es más parecido a RoR, [Loco, escrito en Rust,](https://loco.rs/#?) ofrece una experiencia bastante similar a un framework de alto nivel como Django.
+Si bien es más parecido a RoR, [Loco, escrito en Rust,](https://loco.rs/#?) ofrece una experiencia bastante similar a un framework de alto nivel como Django, aunque [escribir código Rust es más difícil]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="es" >}}) que escribir en Python.
 
 ## Mi opinión sobre las ventajas y desventajas de Django
 

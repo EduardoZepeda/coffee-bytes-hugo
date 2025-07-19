@@ -220,6 +220,10 @@ If you use Framework and are looking for a similar framework, I understand that 
 
 If you are using this wonderful and super simple [programming language called Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), I know that the [Beego](https://github.com/beego/beego#?) framework is quite similar to Django in terms of its battery-inclusive philosophy.
 
+### Frameworks like Django but in Rust
+
+Although it is more similar to RoR, [Loco, written in Rust,](https://loco.rs/#?) offers an experience quite similar to a high-level framework like Django, although [writing Rust code is more difficult]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="en" >}}) than writing Python.
+
 ## TLDR advantages and disadvantages of Django
 
 From my point of view the advantages outweigh the disadvantages, so I consider it a very attractive option to develop a complex website when you have little time or need to find developers fast.
