@@ -32,7 +32,7 @@ Nuestro amigo era como Jorge, curioso, así que embelleció el código y encontr
 
 - Lineas que parecen buscar y leer el contenido de carteras de Solana.
 - Scripts que escanean directorios de navegadores.  
-- [Llamadas a una API](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/) directo a una dirección IP, sin dominio, algunos sin respuesta y otros que descargan scripts ofuscados en Python (supongo que le da un seguimiento al proceso de hackeo instalando un backdoor o algún RAT).
+- [Llamadas a una API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}) directo a una dirección IP, sin dominio, algunos sin respuesta y otros que descargan scripts ofuscados en Python (supongo que le da un seguimiento al proceso de hackeo instalando un backdoor o algún RAT).
 
 
 Si quieres ~~infectarte~~ leer el código visita [el repositorio de github](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js#?), no me hago responsable de nada.

@@ -22,7 +22,7 @@ title: Login using Django Rest Framework DRF
 
 Almost all complex Django applications need views for Login, Logout, reboot and password change, as well as user registration. However, both Django and Django REST Framework (DRF) are completely agnostic about their implementation, and delegate the responsibility for these functions to the users of their frameworks. Fortunately there are libraries that make this task quite simple.
 
-If you are about to develop an API, I have a post with [recommendations on REST API design](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) that can be useful for you.
+If you are about to develop an API, I have a post with [recommendations on REST API design]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) that can be useful for you.
 
 ## User authentication and login with DRF
 

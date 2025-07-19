@@ -30,7 +30,7 @@ En esta entrada te explico como Graphene te permite acelerar el proceso de creac
 
 ## ¿Por qué usar graphql?
 
-Graphql permite integrar peticiones de múltiples fuentes en una sola llamada a la API. A diferencia de una [API de tipo REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/) consiste de un único endpoint al que podemos hacerle determinadas queries o consultas (definidas por nosotros mismos en un schema, sí, como esquema) y obtener una respuesta.
+Graphql permite integrar peticiones de múltiples fuentes en una sola llamada a la API. A diferencia de una [API de tipo REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}) consiste de un único endpoint al que podemos hacerle determinadas queries o consultas (definidas por nosotros mismos en un schema, sí, como esquema) y obtener una respuesta.
 
 {{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Diferencias entre REST y Graphql" >}}
 

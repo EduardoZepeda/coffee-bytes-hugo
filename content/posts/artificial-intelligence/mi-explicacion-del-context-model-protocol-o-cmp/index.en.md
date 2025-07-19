@@ -141,7 +141,7 @@ The MCP context types are divided into:
 
 ### What is the Resources context type?
 
-You can think of Resources as [a *GET* request to a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), **intended to get information, without modifying anything**. 
+You can think of Resources as [a *GET* request to a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), **intended to get information, without modifying anything**. 
 
 ### What is the type of context Tools?
 

@@ -16,7 +16,8 @@ keywords:
 title: 'Go: Structs, inheritance, polymorphism and encapsulation'
 ---
 
-As I already mentioned to you in the [introduction to Golang or Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), this language does not have a reserved word for dealing with classes, but uses structs to emulate features such as inheritance, polymorphism, encapsulation and other properties of classes that you have probably used in other programming languages.
+As I already mentioned to you in the [introduction to Golang or Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), this language does not have a reserved word for dealing with classes, it still mimicks some behavior, we're going to see how to handle golang inheritance, golang polymorphism and of course encapsulation.
+
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 

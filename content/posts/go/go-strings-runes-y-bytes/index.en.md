@@ -11,10 +11,10 @@ description: In this post I explain a bit about the differences between strings,
   and bytes in the go programming language and their basic usage.
 keywords:
 - go
-title: 'Go: string runes and bytes explained'
+title: 'Golang runes strings and bytes explained'
 ---
 
-In this entry I will explain the basics of how strings, runes and bytes work in go, and even a little bit of utf-8.
+In this entry I will briefly explain the basics of how golang runes, strings and bytes work in go, and even a little bit of utf-8 just to spice things up.
 
 To explain the topic I will assume you know the basics of slices and data types in go, if you don't know about these topics visit my [array, slices in golang](/en/go/go-slices-and-arrays-basic-characteristics-and-most-common-uses/) entry.
 

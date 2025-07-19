@@ -87,7 +87,7 @@ The important thing to remember here is that search engines do not have a way to
 
 ### How could I have prevented my traffic decline?
 
-Using a plain, old and boring redirect. It should have been enough to tell Google that if it accessed */202020/12/12/entry_1* it should redirect to */posts/entry_1*, how? by [returning an HTTP 302 or 308 response](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), Found or Permanent redirect, respectively.
+Using a plain, old and boring redirect. It should have been enough to tell Google that if it accessed */202020/12/12/entry_1* it should redirect to */posts/entry_1*, how? by [returning an HTTP 302 or 308 response]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), Found or Permanent redirect, respectively.
 
 ### The absence of structured data or Schema markup 
 

@@ -37,7 +37,7 @@ Sonaba demasiado obvio, de igual forma, abrí la consola de desarrollador de mi 
 
 Las imágenes reales eran servidas por el CDN de la aplicación y posteriormente aplicaban un filtro para ocultarlas, por lo que, para saber quien te había dado like, bastaba con remover el filtro. 
 
-Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
+Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
 
 {{<ad>}}
 

@@ -31,7 +31,7 @@ Our friend was like George, curious, so he reformated the code and found:
 
 - Lines that appear to search and read the contents of Solana wallets.
 - Scripts that scan browser directories.  
-- [API calls to an IP address](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), with no domain, some with no response at all and some that download obfuscated Python scripts (I guess it follows up the hacking process by installing a backdoor or some RAT).
+- [API calls to an IP address]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), with no domain, some with no response at all and some that download obfuscated Python scripts (I guess it follows up the hacking process by installing a backdoor or some RAT).
 
 
 If you want to ~~infect yourself~~ read the code, visit [the github repository](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js#?), I take no responsibility for anything though.

@@ -20,7 +20,7 @@ title: REST API basic characteristics and recommendations
 url: :sections[last]/basic-characteristics-of-an-api-rest-api
 ---
 
-This publication is a minimal guide of practical tips on REST API design, I don't go too deep into the theory. On top of that, I may oversimplify many concepts in order to keep the text as short and simple as possible.
+This publication is a minimal guide of practical tips on REST API design, what is a characteristic of the REST API? I don't go too deep into the theory. On top of that, I may oversimplify many concepts in order to keep the text as short and simple as possible.
 
 In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
 

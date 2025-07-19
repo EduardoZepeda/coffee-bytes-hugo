@@ -23,7 +23,7 @@ title: APIs de alto rendimiento usando gRPC y Protobuffers
 
 Los protobuffers te permiten crear una API gRPC que tiene la característica de ser increíblemente más rápida, por usar binario en lugar de otros formatos menos optimizados (Como JSON), en esta entrada aprenderás en que consiste este tipo de API y porque es tan rápido.
 
-En mi entrada sobre [las características básicas sobre una API REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
+En mi entrada sobre [las características básicas sobre una API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}) te mencioné que, además de REST, existían otros tipos de APIS, una de ellas es gRPC, la cual se deriva de RPC, por lo que empecemos la entrada hablando sobre esta última. 
 
 ## ¿Qué es RPC?
 

@@ -140,7 +140,7 @@ Los tipos de contexto del MCP se dividen en:
 
 ### ¿Cuál es el tipo de contexto Resources?
 
-Puedes pensar en los Resources como [una petición *GET* de una API REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/), **destinada a obtener información, sin modificar nada**. 
+Puedes pensar en los Resources como [una petición *GET* de una API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), **destinada a obtener información, sin modificar nada**. 
 
 ### ¿Cuál es el tipo de contexto Tools?
 

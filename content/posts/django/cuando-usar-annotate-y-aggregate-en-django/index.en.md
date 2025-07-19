@@ -21,7 +21,7 @@ keywords:
 title: Django Annotate and aggregate explained
 ---
 
-The computer screen illuminated my face full of despair, I rubbed my head in despair, while I googled: "Django annotate"; one of the ORM functions that I could not understand. Did it happen to you too, I bet it did. I had already read the documentation but it didn't seem clear enough and, to top it off, I often confused it with its evil twin: aggregate. After visiting several stackoverflow questions and multiple English blogs I was able to understand them both. These notes are the result of that search, it is the explanation about annotate and aggregate in Django that I would have liked to read years ago.
+The computer screen illuminated my face full of despair, I rubbed my head in despair, while I googled: "Django annotate"; one of the ORM functions that I could not understand. Did it happen to you too, I bet it did. I had already read the documentation but it didn't seem clear enough and, to top it off, I often confused it with its evil twin: aggregate. After visiting several stackoverflow questions and multiple English blogs I was able to understand them both. These notes are the result of that search, it is the explanation about django annotate and aggregate in Django that I would have liked to read years ago.
 
 This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/en/django/the-definitive-guide-to-django/).
 

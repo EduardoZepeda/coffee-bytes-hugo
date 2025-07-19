@@ -36,7 +36,7 @@ It sounded too obvious, so I opened my browser's developer console and went dire
 
 The actual images were served by the app's CDN and then a filter was applied to hide them, so to find out who had liked you, you just had to remove the filter. 
 
-Unfortunately it was impossible to get any other data from the pictures or from the URL structure, [API calls](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), or any other information given; neither the name, nor the profile nor any other piece of information was accessible other than the profile picture.
+Unfortunately it was impossible to get any other data from the pictures or from the URL structure, [API calls]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), or any other information given; neither the name, nor the profile nor any other piece of information was accessible other than the profile picture.
 
 {{<ad>}}
 

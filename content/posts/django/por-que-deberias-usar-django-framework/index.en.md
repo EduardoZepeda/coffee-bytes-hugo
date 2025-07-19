@@ -140,7 +140,7 @@ complex)
 * Django-storage (AWS storage)
 * Django-braces (Common functions)
 
-Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), handling permissions and [throttling](/en/software-architecture/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
+Among all of them I would like to highlight **DRF (Django Rest Framework) which makes [creating a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), handling permissions and [throttling](/en/software-architecture/throttling-on-nginx/), a simple task**, compared to creating everything from scratch.
 
 Another package to highlight that allows you to work with websockets, to create an [application that communicates with the server in real time, through events, is django-channels](/en/django/django-channels-consumers-environments-and-events/).
 

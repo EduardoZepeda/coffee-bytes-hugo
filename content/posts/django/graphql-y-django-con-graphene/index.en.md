@@ -27,7 +27,7 @@ Normally graphql is used in conjunction with Nodejs and express, or other javasc
 
 ## Why use graphql?
 
-Graphql allows you to integrate requests from multiple sources into a single API call. Unlike in a [REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/), it consists of a single endpoint to which we can make certain queries (defined by ourselves in a schema, yes, as a schema) and get a response.
+Graphql allows you to integrate requests from multiple sources into a single API call. Unlike in a [REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), it consists of a single endpoint to which we can make certain queries (defined by ourselves in a schema, yes, as a schema) and get a response.
 
 {{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Differences between REST and Graphql" >}}
 

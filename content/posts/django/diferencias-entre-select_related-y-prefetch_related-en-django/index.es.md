@@ -25,7 +25,7 @@ slug: /django/diferencias-entre-select-related-y-prefetch-related-en-django/
 title: Diferencias entre select_related y prefetch_related en Django
 ---
 
-Los métodos *select_related* y *prefetch_related* **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/)
+Los métodos de Django, *select_related* y *prefetch_related*, **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/)
 
 Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obsesionarte con su rendimiento](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), pero sí insistes considera echarle un vistazo a aggregate y annotate, demás de tener cuidado con usar este último pues [las subqueries pueden volver tus queries increíblemente lentas.](/es/django/arregla-querys-lentas-en-django-al-usar-annotate-y-subqueries/)
 
@@ -38,9 +38,8 @@ Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obs
 | Número de queries    | 1                        | 2                |
 | Unión de los objetos | Directo con SQL          | Usando Python    |
 
-{{<ad>}}
 
-## select\_related
+## django select\_related
 
 El método *select_related* se **usa para seguir una relación de tipo ForeignKey o OneToOneField hacia los respectivos objetos a los que apunta y obtenerlos.**
 
@@ -98,20 +97,7 @@ SELECT my_app_derivado.id,
        my_app_derivado.principal_id
   FROM my_app_derivado
 
-SELECT my_app_principal.id,
-       my_app_principal.name
-  FROM my_app_principal
- WHERE my_app_principal.id = '1'
-
-SELECT my_app_principal.id,
-       my_app_principal.name
-  FROM my_app_principal
- WHERE my_app_principal.id = '1'
-
-SELECT my_app_principal.id,
-       my_app_principal.name
-  FROM my_app_principal
- WHERE my_app_principal.id = '1'
+...
 ```
 
 De esta manera se reducen las múltiples consultas SQL a una sola consulta más larga.
@@ -182,27 +168,7 @@ SELECT my_app_principal.id,
  INNER JOIN my_app_multiplesprincipales_principales
     ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
  WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '1'
-
-SELECT my_app_principal.id,
-       my_app_principal.name
-  FROM my_app_principal
- INNER JOIN my_app_multiplesprincipales_principales
-    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
- WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '2'
-
-SELECT my_app_principal.id,
-       my_app_principal.name
-  FROM my_app_principal
- INNER JOIN my_app_multiplesprincipales_principales
-    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
- WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '3'
-
-SELECT my_app_principal.id,
-       my_app_principal.name
-  FROM my_app_principal
- INNER JOIN my_app_multiplesprincipales_principales
-    ON (my_app_principal.id = my_app_multiplesprincipales_principales.principal_id)
- WHERE my_app_multiplesprincipales_principales.multiplesprincipales_id = '4'
+...
 ```
 
 Las múltiples consultas anteriores quedan reducidas a solo 2 consultas SQL.

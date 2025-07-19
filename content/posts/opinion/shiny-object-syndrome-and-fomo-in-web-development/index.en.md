@@ -60,7 +60,7 @@ My examples above don't talk about any specific technology, but I'm sure several
 ### Example of SOS and FOMO in web development
 
 I will dare to name you some examples that crossed my mind while writing this post:
-- [Graphql](/en/django/how-to-create-a-graphql-api-in-django-rapidly-using-graphene/): Adopted by many, many people even though they probably only needed a [REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/).
+- [Graphql](/en/django/how-to-create-a-graphql-api-in-django-rapidly-using-graphene/): Adopted by many, many people even though they probably only needed a [REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}).
 - [JWT](http://cryto.net/%7Ejoepie91/blog/2016/06/13/stop-using-jwt-for-sessions/#?): Used as an “enhancement” to sessions and authentication, even though [several computer security experts recommended not using them](https://redis.io/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/) that way.
 - CSR, SSR and SSG: Developers quickly realized that it was always better to generate the HTML directly from the server or use static files, as had always been done, for many reasons including [SEO optimizing]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}).
 - AI: Not sure about this one, [is AI just a bubble?](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/), like crypto was, or we really are in front of a human revolution?

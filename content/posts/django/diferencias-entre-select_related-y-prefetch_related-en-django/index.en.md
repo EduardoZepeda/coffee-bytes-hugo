@@ -19,14 +19,14 @@ keywords:
 - orm
 - select_related
 - prefetch_related
-title: Differences between select_related and prefetch_related in Django
+title: Differences between Django select_related and prefetch_related
 ---
 
-The *select_related* and *prefetch_related* methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
+Django's *select_related* and *prefetch_related* methods **are used to reduce the number of queries made to the database**. This translates into response time for each view. In addition, using these methods is one of the [actions to implement to improve the performance of a Django application](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
 
 Just consider that there are more [important things to optimize other than your app's performance](/en/opinion/dont-obsess-about-your-web-application-performance/), but if you insist, dive into annotate and aggregate, and be careful with the nested subqueries of annotate because [they can make your django queries go really slow](/en/django/fix-slow-queries-in-django-when-using-annotate-and-subqueries/)
 
-## Differences between select_related and prefetch_related summarized
+## Differences between django select_related and prefetch_related summarized
 
 |                   | select_related            | prefetch_related |
 | ----------------- | ------------------------- | ---------------- |
@@ -36,7 +36,7 @@ Just consider that there are more [important things to optimize other than your 
 
 {{<ad>}}
 
-## select_related
+## django select_related
 
 The *select_related* method is **used to follow a relationship of type ForeignKey or OneToOneField to the respective objects it points to and obtain them.**.
 
@@ -75,7 +75,7 @@ For example, if we have three Derived objects related to a single main object:
 * A main query that retrieves all objects Derivative
 * Three queries, exactly the same, one for each time we access the main object from the Derived object.
 
-### Use in a query
+### Use select_related in a query
 
 To use *select_related* we call it from our query, passing it the name of the field that corresponds to our relationship with the other model.
 
@@ -122,7 +122,7 @@ SELECT my_app_derivative.id,
     ON (my_app_derivative.main_id = my_app_main.id)
 ```
 
-## prefetch_related
+## django prefetch_related
 
 If the *select_related* method retrieves a single object from a single relationship field, **the *prefetch_related* method is used when we have a multiple relationship with another model**, i.e. a relationship of type _ManyToMany_ or a reverse _ForeignKey_.
 
@@ -155,7 +155,7 @@ If we access the field that represents the multiple relation of our object, with
 {% endfor %}
 ```
 
-### Use in a query
+### Use prefetch_related a query
 
 To use the *prefetch_related* method call it at the end of our query, choosing the field that represents the many-to-many relationship in our object.
 
@@ -175,26 +175,7 @@ SELECT my_app_main.id,
     ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
  WHERE my_app_manytomanyrel_main.manytomanyrel_id = '1'
 
-SELECT my_app_main.id,
-       my_app_main.name
-  FROM my_app_main
- INNER JOIN my_app_manytomanyrel_main
-    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
- WHERE my_app_manytomanyrel_main.manytomanyrel_id = '2'
-
-SELECT my_app_main.id,
-       my_app_main.name
-  FROM my_app_main
- INNER JOIN my_app_manytomanyrel_main
-    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
- WHERE my_app_manytomanyrel_main.manytomanyrel_id = '3'
-
-SELECT my_app_main.id,
-       my_app_main.name
-  FROM my_app_main
- INNER JOIN my_app_manytomanyrel_main
-    ON (my_app_main.id = my_app_manytomanyrel_main.main_id)
- WHERE my_app_manytomanyrel_main.manytomanyrel_id = '4'
+...
 ```
 
 The multiple queries above are reduced to only 2 SQL queries.

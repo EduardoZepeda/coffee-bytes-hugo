@@ -55,7 +55,7 @@ Note how we can use the central part to store arbitrary content that we want, su
 
 ## Installation of JWT in Django
 
-First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST](/en/software-architecture/basic-characteristics-of-an-api-rest-api/) in Django and the second one to manage the JWTs.
+First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) in Django and the second one to manage the JWTs.
 
 To install them we can use [the virtual environment manager called Pipenv](/en/python/pipenv-the-virtual-environment-manager-you-dont-know/), Poetry or whatever you want. You can also use pip.
 

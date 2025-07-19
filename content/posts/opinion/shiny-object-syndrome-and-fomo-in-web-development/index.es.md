@@ -62,7 +62,7 @@ Mis ejemplos anteriores no hablan de ninguna tecnología en específico, pero es
 ### Ejemplo del SOS y el FOMO en el desarrollo web
 
 Yo me atreveré a nombrarte algunos ejemplos que pasaron por mi mente al escribir esta entrada:
-- [Graphql](/es/django/como-crear-una-api-graphql-en-django-rapidamente-usando-graphene/): Adoptado por muchísimas personas incluso aunque probablemente solo necesitaran una [API REST](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/).
+- [Graphql](/es/django/como-crear-una-api-graphql-en-django-rapidamente-usando-graphene/): Adoptado por muchísimas personas incluso aunque probablemente solo necesitaran una [API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}).
 - [JWT](/es/software-architecture/no-uses-jwt-para-gestionar-sesiones-traduccion/): Usado como una "mejora" a las sesiones y autenticación, incluso aunque [varios expertos en seguridad informáticas recomendaban no usarlas](https://redis.io/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/) de esa manera.
 - CSR, SSR y SSG: Los desarrolladores rápidamente se dieron cuenta de que siempre fue mejor generar el HTML directamente desde el servidor o usar archivos estáticos, como se había hecho siempre, por [razones tales como el SEO.]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}})
 - AI: ¿[Será la AI una burbuja](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/) en la que es mejor entrar o pasará igual que con la revolución cripto?

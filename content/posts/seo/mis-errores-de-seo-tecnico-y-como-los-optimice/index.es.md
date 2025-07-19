@@ -84,7 +84,7 @@ Lo importante a recordar aquí es que los motores de búsqueda no tienen una man
 
 ### ¿Cómo pude haber evitado esa caida de tráfico?
 
-Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? [retornando una respuesta HTTP 302 o 308](/es/software-architecture/caracteristicas-basicas-de-una-api-rest/), Found or Permanent redirect, respectivamente.
+Por medio de una redirección, en este caso bastaba con indicarle a Google que si accedia a */2020/12/12/entry_1* debía redirigirse a */posts/entry_1*, ¿y cómo? [retornando una respuesta HTTP 302 o 308]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), Found or Permanent redirect, respectivamente.
 
 ### La ausencia del marcado de datos estructurados o Schema 
 

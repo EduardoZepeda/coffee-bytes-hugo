@@ -51,7 +51,7 @@ Although there are multiple ways to [customize the User model in Django](/en/dja
 
 ## REST support in Django without third-party libraries.
 
-Despite the fact that Django has one of the best libraries to create an application that meets the [basic features of a REST API](/en/software-architecture/basic-characteristics-of-an-api-rest-api/); yes, I'm talking about DRF (Django Rest Framework). The reddit users consider that Django should provide support for REST APIs "out of the box", as a native part of the framework.
+Despite the fact that Django has one of the best libraries to create an application that meets the [basic features of a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}); yes, I'm talking about DRF (Django Rest Framework). The reddit users consider that Django should provide support for REST APIs "out of the box", as a native part of the framework.
 
 The above seems to me an interesting proposal but I also understand that, despite the maturity of REST, giving it preference over the rest of APIs, such as [the modern Google gRPC](/en/software-architecture/fast-and-performant-apis-using-grpc-and-protobuffers/), SOAP, or some API that has not yet emerged, can be considered as a rather risky step by the Django committee. Yes, even if there are complete REST-based libraries, such as [FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}).
 
