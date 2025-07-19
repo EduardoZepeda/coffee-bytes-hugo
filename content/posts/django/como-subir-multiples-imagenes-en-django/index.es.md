@@ -154,7 +154,7 @@ Si hacemos una petición POST a esta vista obtendremos la lista de imágenes que
 
 Con la vista ya creada, basta agregar la url a nuestro archivo _urls.py_ en la carpeta de nuestro proyecto.
 
-## Agregando la url
+## Agregando la url para subir múltiples imágenes en Django
 
 Para facilitar el proceso vamos a importar la vista directamente y la asignaremos a la url _upload/_
 

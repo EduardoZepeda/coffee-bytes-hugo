@@ -3,6 +3,7 @@ aliases:
 - /para-que-sirve-django-genericforeignkey
 - /para-que-sirve-django-genericforeignkey/feed/
 - /es/para-que-sirve-django-genericforeignkey/
+- /es/django/para-que-sirve-django-genericforeignkey/
 authors:
 - Eduardo Zepeda
 categories:
@@ -18,10 +19,10 @@ keywords:
 - django
 - orm
 slug: /django/para-que-sirve-django-genericforeignkey/
-title: ¿Para qué sirve Django genericForeignkey?
+title: ¿Para qué sirve Django Generic Foreignkey?
 ---
 
-Quieres usar Django para relacionar un modelo con otro usando una llave foránea, pero el modelo que quieres relacionar es uno diferente para cada entrada de la base de datos. Django ofrece una solución a tu problema, una llave foránea genérica llamada genericForeignKey y el modelo ContentType, del que ya hable anteriormente.
+Quieres usar Django para relacionar un modelo con otro usando una llave foránea, pero el modelo que quieres relacionar es uno diferente para cada entrada de la base de datos. Django Generic Foreign Key ofrece una solución a tu problema, una llave foránea genérica llamada genericForeignKey y el modelo ContentType, del que ya hable anteriormente.
 
 El tipo de campo genericForeignkey es capaz de enlazar a diferentes tipos de modelos, lo que nos permite relacionar cualquier otro modelo con el nuestro. ¿Recuerdas que en la entrada anterior hablé de ContentType? Pues ahora sí le daremos una aplicación práctica. Si quieres repasar un poco lo anterior, visita mi entrada donde hablo de [ContentType en Django](/es/django/que-hace-la-aplicacion-contenttype-en-django/)
 
@@ -42,6 +43,8 @@ class ActivityStream(models.Model)
     object_id = models.PositiveIntegerField()
     item = GenericForeignKey('content_type', 'object_id')
 ```
+
+### Explicación del campo genericForeignKey en Django
 
 A continuación te explico cada campo de nuestro modelo:
 

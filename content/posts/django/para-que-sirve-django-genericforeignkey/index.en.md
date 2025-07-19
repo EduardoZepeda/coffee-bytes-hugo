@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/what-is-django-genericforeignkey-for/
+- /en/django/what-is-django-genericforeignkey-for/
 authors:
 - Eduardo Zepeda
 categories:
@@ -15,14 +16,14 @@ keywords:
 - python
 - django
 - orm
-title: What is Django genericForeignkey for?
+title: What is Django Generic Foreignkey for?
 ---
 
-You want to use Django to relate one model to another using a foreign key, but the model you want to relate is a different one for each database entry. Django offers a solution to your problem, a generic foreign key called genericForeignKey and the ContentType model, which I talked about earlier.
+You want to use Django to relate one model to another using a foreign key, but the model you want to relate is a different one for each database entry. Django offers a solution to your problem, a Django generic foreign key called genericForeignKey and the ContentType model, which I talked about earlier.
 
 The genericForeignkey field type is able to link to different types of models, allowing us to relate any other model to ours. Remember in the previous post I talked about ContentType? Well, now we will give it a practical application. If you want to review the previous post, visit my post where I talk about [ContentType in Django](/en/django/what-does-the-contenttype-application-do-in-django/)
 
-## The genericForeignKey field
+## The Django genericForeignKey field
 
 Imagine an activity feed that keeps track of what each user does: uploading a video, deleting a song, liking a post, and so on. The target of each user's action will be a different model each time, so we can use genericForeignKey to create our feed.
 
@@ -39,6 +40,8 @@ class ActivityStream(models.Model)
     object_id = models.PositiveIntegerField()
     item = GenericForeignKey('content_type', 'object_id')
 ```
+
+### Django genericForeignKey field explanation
 
 Below I explain each field of our model:
 
