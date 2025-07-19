@@ -20,7 +20,7 @@ slug: /django/como-subir-multiples-imagenes-en-django/
 title: ¿Cómo subir múltiples imágenes en Django?
 ---
 
-Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y si no queremos subir una sino múltiples imágenes?
+Seguramente ya sabes como subir una imagen usando un modelo de Django pero, ¿y si no queremos subir una sino múltiples imágenes en Django?
 
 ## Instalación de Django
 

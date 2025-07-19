@@ -70,7 +70,7 @@ Now we are going to use that font to "draw" a string at position 0 and 0.
 ```python
 def pdfVideogame(request):
     # ...
-    p.drawString(0, 0, "Hola mundo") # Hello world in spanish
+    p.drawString(0, 0, "Hola mundo") # Hello world in Spanish
 ```
 
 {{< figure src="images/texto-fondo-pdf.png" class="md-local-image" alt="Text generated with reportlab" caption="Text created with reportlab" >}}

@@ -24,7 +24,7 @@ keywords:
 title: Worker Pool Design Pattern Explanation
 ---
 
-This entry is about a design pattern of which, at the time, I found little to none information in Spanish. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.
+This entry is about a the Worker Pool design pattern. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.
 
 The simplistic option is to create a series of workers and use them concurrently, something like this pseudocode:
 
@@ -33,13 +33,13 @@ for job in jobs:
     async process_concurrent_job()
 ```
 
-This may look pretty good, at first, but it has multiple disadvantages; first, you will be creating workers without control, which can increase your program's memory usage incredibly fast; second, you are constantly creating and destroying workers, which can be costly for your program.
+This may look pretty good so far, at first, but it has multiple disadvantages; first, you will be creating workers without control, which can increase your program's memory usage incredibly fast; second, you are constantly creating and destroying workers, which can be costly for your program.
 
 {{< figure src="images/workers-vs-memoria.jpg" class="md-local-image" alt="If there is no worker limit, workers will continue to be created to match the tasks" caption="If there is no worker limit, workers will continue to be created to match the tasks" >}}
 
 It would be best to keep memory usage constant and avoid creating and destroying workers frequently. For this, the worker pool pattern works perfect.
 
-Worker pool is a [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) that comes to make up for these shortcomings.
+Worker pool is a classical [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) that comes to make up for these shortcomings.
 
 There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang#?)
 

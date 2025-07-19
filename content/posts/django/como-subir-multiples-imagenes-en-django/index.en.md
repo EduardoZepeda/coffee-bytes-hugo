@@ -16,7 +16,7 @@ keywords:
 title: How to upload multiple images in Django
 ---
 
-You probably already know how to upload an image using a Django model, but what if we don't want to upload one but multiple images?
+You probably already know how to upload an image using a Django model, but what if we don't want to upload one but multiple images in Django Framework?
 
 ## Django installation
 
