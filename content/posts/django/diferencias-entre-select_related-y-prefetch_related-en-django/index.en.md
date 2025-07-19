@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/differences-between-select-related-and-prefetch-related-in-django/
+- /en/django/differences-between-select_related-and-prefetch_related-in-django/
 authors:
 - Eduardo Zepeda
 categories:

@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/go-string-runes-and-bytes-explained/
+- /en/go/go-string-runes-and-bytes-explained/
 authors:
 - Eduardo Zepeda
 categories:
