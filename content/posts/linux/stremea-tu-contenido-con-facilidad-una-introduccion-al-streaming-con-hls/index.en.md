@@ -19,7 +19,7 @@ keywords:
 - protocol
 - http
 title: 'Stream your videos and audios: HLS for your applications'
-url: sections[last]/stream-your-videos-and-audios-a-simple-introduction-to-streaming-with-hls-for-your-applications
+url: :sections[last]/stream-your-videos-and-audios-a-simple-introduction-to-streaming-with-hls-for-your-applications
 ---
 
 Almost all modern web applications perform some form of streaming, from video platforms to live streaming. In this post I explain how streaming works with HLS in such a simplified way that it will bring out your inner purist.

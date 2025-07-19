@@ -21,7 +21,7 @@ keywords:
 - yml
 - devops
 title: Get to know the basic Docker Compose commands
-url: sections[last]/get-to-know-the-basic-docker-compose-commands
+url: :sections[last]/get-to-know-the-basic-docker-compose-commands
 ---
 
 Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage](/en/docker/the-most-useful-and-basic-docker-commands//) post.

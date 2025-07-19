@@ -16,7 +16,7 @@ keywords:
 - react
 - performance
 title: React useCallback, useMemo and memo, differences
-url: sections[last]/react-memo-usememo-and-usecallback-to-avoid-react-renderings/
+url: :sections[last]/react-memo-usememo-and-usecallback-to-avoid-react-renderings/
 ---
 
 The useCallback, useMemo and memo functions are used to optimize React applications using memoization, avoiding useless renderings, each with their differences, similarities and use cases. These three functions should not be used indiscriminately, but only in those situations where their impact is less than the benefits they offer.

@@ -17,7 +17,7 @@ keywords:
 - javascript
 - opinion
 title: Javascript vs Python which language is better in 2025?
-url: sections[last]/python-vs-javascript-which-is-the-best-programming-language
+url: :sections[last]/python-vs-javascript-which-is-the-best-programming-language
 ---
 
 If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you.

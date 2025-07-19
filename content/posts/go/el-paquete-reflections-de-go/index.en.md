@@ -13,7 +13,7 @@ keywords:
 - go
 - reflect
 title: 'Go with Reflect: Boost Your Code''s Flexibility'
-url: sections[last]/go-with-reflect-discover-how-reflect-can-boost-your-programs-flexibility
+url: :sections[last]/go-with-reflect-discover-how-reflect-can-boost-your-programs-flexibility
 ---
 
 The "reflect" package is a useful library in the Go programming language that provides functions for working with reflection.
