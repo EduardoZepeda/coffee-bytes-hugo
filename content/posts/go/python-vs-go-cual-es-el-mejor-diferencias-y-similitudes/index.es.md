@@ -27,7 +27,31 @@ Estos últimos meses he estado aprendiendo go. ¿Cómo empezó todo? Pues empez�
 
 Por cierto, aquí están [mis recursos y libros favoritos para aprender Python]({{< ref path="/posts/python/best-source-to-learn-python/index.md" lang="es" >}})
 
-{{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+## TLDR Python vs lenguaje Go
+
+Esta tabla resume el artículo completo, si quieres ahondar en alguna sección en especifico solo sigue haciendo scroll.
+
+| Categoría                | Go (Golang)                                                           | Python                                                      |
+| ------------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Tipo**                 | Compilado, tipado fuerte                                              | Interpretado, tipado dinámico                               |
+| **Rendimiento**          | Extremadamente rápido (ej. prueba de Fibonacci)                       | Más lento por ser interpretado                              |
+| **Sintaxis**             | Estilo C, usa llaves, no permite variables sin usar                   | Limpia, basada en indentación, flexible                     |
+| **Concurrencia**         | Goroutines (sencillas y potentes)                                     | Async/await (monohilo, limitado por GIL)                    |
+| **Manejo de errores**    | Chequeo manual (`if err != nil`), sin try-catch                       | Bloques try-except tradicionales                            |
+| **POO**                  | Sin clases; usa estructuras que emulan POO                            | Soporte completo de POO (clases, herencia)                  |
+| **Popularidad**          | En crecimiento, amado por devs (mejores salarios)                     | Más popular en general, dominante en IA/ciencia de datos    |
+| **Casos de uso**         | DevOps (Docker, Kubernetes), backends rápidos                         | Machine learning, scripting, desarrollo web (Django, Flask) |
+| **Frameworks**           | Rápidos (Echo, Gin), supera a Python en benchmarks                    | Maduros (Django, FastAPI), ampliamente adoptados            |
+| **Paquetes**             | ~350k (GitHub), sin repositorio central                               | ~336k (PyPI), ecosistema enorme                             |
+| **Curva de aprendizaje** | Algo más empinada (diseño opinado)                                    | Más fácil para principiantes                                |
+| **Comunidad**            | Pequeña pero apasionada                                               | Enorme, recursos extensos                                   |
+| **Ventajas**             | Compilación rápida, ideal para concurrencia, convenciones estrictas   | Legible, versátil, librerías abundantes                     |
+| **Desventajas**          | Manejo de errores controversial, sin genéricos (inicialmente), rígido | Lento, GIL limita hilos, división Python 2/3                |
+
+Conclusiones clave:  
+- **Elige Go** para velocidad y rendimiento, concurrencia o DevOps.  
+- **Elige Python** para IA, ciencia de datos o desarrollo rápido.  
+- Ambos tienen librerías estándar sólidas pero difieren en filosofía y compensaciones.  
 
 ## Introducción y diferencias sutiles entre Python y Go
 
@@ -44,11 +68,11 @@ Ambos lenguajes se caracterizan porque la producción de código en ellos es rá
 
 La **compilación de go es extremadamente rápida** y, aunque su ejecución podría ser ligeramente más lenta que si usaras C++ o el [difícil de aprender Rust]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="es" >}}), el desarrollo de productos y MVPs debería tomar menos tiempo que con esos lenguajes.
 
-## ¿Cuál es más rápido? Python vs Go
+## ¿Cuál es más rápido? Python vs Golang
 
 La comparación aquí va a tornarse algo injusta, pero la haré de todas formas: **Go es descomunalmente más rápido que Python**. La diferencia anterior se explica porque Go es compilado, mientras que Python interpretado.
 
-### Python vs Go en fibonacci por recursión
+### Rendimiento Python vs Go en fibonacci por recursión
 
 ¿Qué tan rápido es go comparado con python? He hecho una pequeña prueba usando [multitime](https://tratt.net/laurie/src/multitime/#?) para medir el tiempo que le toma calcular el n número de fibonacci a cada lenguaje, 10 repeticiones por cada prueba, los resultados están en segundos (menor es mejor) nota la diferencia tan radical en el rendimiento de ambos lenguajes.
 
@@ -414,7 +438,7 @@ Pruebas de rendimiento para frameworks de Python (morado) y Go (verde)
 
 Mientras que en Python ya contamos con algunas **soluciones bastante probadas, con bastante experiencia, caracterizadas por ser m**uy estables y con una respuesta para casi todas las necesidades de un desarrollador web y que, además, soportan sitios muy populares y con tráfico gigantesco, como pinterest o instagram.
 
-Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.](/es/django/por-que-deberias-usar-django-framework/)
+Entre los frameworks destaca [Django, uno de los frameworks favoritos de Python.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
 {{< figure src="images/python-frameworks.jpg" class="md-local-image" alt="Frameworks web más populares de Python: Django, Fastapi, flask bottle" >}}
 
