@@ -24,7 +24,7 @@ Some time ago, while searching for information about Django on the internet I ca
 * Django for APIs
 * Django for professionals
 
-If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of Django](/en/django/why-should-you-use-django-framework/)
+If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 
 ## A bit of modern Django for professionals
 

@@ -25,7 +25,7 @@ title: ¿Qué hace la aplicación ContentType en Django?
 
 ¡Perdón por tardar tanto en escribir! He estado ocupado mudando el frontend de mi blog a Frontity, un framework de React para Wordpress, y también mudándome a un nuevo departamento. Quizás hable un poco al respecto de Frontity en alguna entrada futura. Por ahora continuemos con el tema.
 
-Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo [sobre porque deberías usar Django](/es/django/por-que-deberias-usar-django-framework/). Si ya has usado Django anteriormente, sigamos adelante.
+Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi entrada donde hablo [sobre porque deberías usar Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}}). Si ya has usado Django anteriormente, sigamos adelante.
 
 ## ContentType y los modelos
 

@@ -39,7 +39,7 @@ In software, design patterns are the same, they are the arrangement and specific
 
 Some common problems are: [processing tasks using a fixed number of workers](/en/software-architecture/worker-pool-design-pattern-explanation/), making sure that there is only one instance of a class running, adapting a complicated and impossible to modify API to a simpler and easier to understand one, or separating the part that handles the database, the part that decides the logic and the part that displays the HTML content of a web page.
 
-Does this last one ring a bell? Yes, the MVC pattern used by many [frameworks, such as django](/en/django/why-should-you-use-django-framework/), is a design pattern, or the [debounce-and-throttle](/en/javascript/limit-the-execution-of-functions-in-js-with-debounce-and-throttle/) pattern used mainly in JavaScript.
+Does this last one ring a bell? Yes, the MVC pattern used by many [frameworks, such as django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), is a design pattern, or the [debounce-and-throttle](/en/javascript/limit-the-execution-of-functions-in-js-with-debounce-and-throttle/) pattern used mainly in JavaScript.
 
 Another example is the well-known ["composition over inheritance"]({{< ref path="/posts/software-architecture/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}})
 

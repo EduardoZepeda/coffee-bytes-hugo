@@ -23,7 +23,7 @@ title: Aprender Django con Django by Example, mi reseña
 
 Este libro planea enseñarte Django mediante la creación desde cero de cuatro proyectos. Django by Example parte creando un blog, luego una red social, una tienda en linea y al final una plataforma de aprendizaje. Cada proyecto es desarrollado prácticamente desde cero y utiliza algunas librerías para complementar las funciones.
 
-Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas del framework Django de desarrollo web.](/es/django/por-que-deberias-usar-django-framework/)
+Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada donde te explico algunas [ventajas y desventajas del framework Django de desarrollo web.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
 ## Proyecto del Blog
 

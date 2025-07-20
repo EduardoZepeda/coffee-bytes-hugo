@@ -102,7 +102,7 @@ package main
 
 ### Imports
 
-A section where all the [go packages](/en/go/go-package-import-and-module-management/) that will be used are imported. For this we use the word _import_.
+A section where all the [go packages]({{< ref path="/posts/go/go-importacion-de-paquetes-y-manejo-de-modulos/index.md" lang="en" >}}) that will be used are imported. For this we use the word _import_.
 
 import "fmt" import "fmt" import "fmt" import "fmt" import
 

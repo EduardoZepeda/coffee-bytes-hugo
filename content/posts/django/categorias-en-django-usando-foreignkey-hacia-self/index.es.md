@@ -74,7 +74,7 @@ Pues, añadimos una clase _SubSubCategoría_ ¿no? Pero... y si esas SubSubCateg
 
 {{< figure src="images/ProblemaCategoriasDjango.jpg" class="md-local-image" alt="Esquema del problema de las subcategorías infinitas" >}}
 
-Cada vez que necesites crear una subcategoría nueva tendrás que crear un nuevo modelo en el archivo _models.py_ de tu aplicación. Y no solo eso, sino una nueva tabla que probablemente solo cuente con unos cuantos registros. ¿Existe una aproximación mejor al problema? El [versátil ORM del Django Framework](/es/django/por-que-deberias-usar-django-framework/) nos ofrece una solución bastante limpia.
+Cada vez que necesites crear una subcategoría nueva tendrás que crear un nuevo modelo en el archivo _models.py_ de tu aplicación. Y no solo eso, sino una nueva tabla que probablemente solo cuente con unos cuantos registros. ¿Existe una aproximación mejor al problema? El [versátil ORM del Django Framework]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}}) nos ofrece una solución bastante limpia.
 
 ## ForeignKey al mismo modelo en Django
 

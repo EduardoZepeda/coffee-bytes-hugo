@@ -98,7 +98,7 @@ Here is a list of some of my favorite solutions to save you all the boilerplate 
 - Ruby on Rails: Mature framework, with a long history and easy to use.
 - Coolify: [Coolify is an alternative to Vercel/Netifly/Heroku](https://coolify.io/#?), but open source and with a permissive license.
 - AdonisJs: Javascript with ORM and authentication included.
-- Django: [It's easy to develop a MVP without having to reinvent the wheel](/en/django/why-should-you-use-django-framework/), also there is lot of info out there on [how to scale it to serve up to one million users.](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
+- Django: [It's easy to develop a MVP without having to reinvent the wheel]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), also there is lot of info out there on [how to scale it to serve up to one million users.](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
 - Pocketbase: [Portable backend made in Go, a single binary, authentication and CRUD](https://pocketbase.io/#?)
 - Supabase: Another portable backend, but in JavaScript
 - Appwrite: [Authentication, Databases, Functions, Storage, and Messaging](https://appwrite.io/#?)

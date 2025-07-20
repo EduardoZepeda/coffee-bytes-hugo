@@ -303,7 +303,7 @@ Even despite the abundance of options, new JavaScript frameworks are released mo
 
 ### Web Frameworks for Python
 
-Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages](/en/django/why-should-you-use-django-framework/), or Flask and some more modern ones like the fast-growing in popularity, [FastAPI web development framework]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}), about which I wrote a post before.
+Because Python is not installed in browsers, **current web development using Python is mainly focused on the Backend part**, where we have quite mature solutions like [Django, with its advantages and disadvantages]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), or Flask and some more modern ones like the fast-growing in popularity, [FastAPI web development framework]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}), about which I wrote a post before.
 
 - Django
 - Fastapi

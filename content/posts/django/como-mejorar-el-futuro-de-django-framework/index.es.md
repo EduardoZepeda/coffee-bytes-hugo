@@ -73,7 +73,7 @@ Contrario a Django, Frameworks como Nextjs cargan las variables de entorno de ma
 
 ## Integración nativa de Django con el frontend
 
-No es ningún secreto que el frontend ha recibido un impulso gigantesco en los últimos años, librerías como React, Vue, Svelte y otras han tomado un protagonismo remarcable en los últimos años, cambiando por completo el paradigma del desarrollo en el lado del cliente. Django se ha mostrado agnóstico respecto a la separación entre Backend y Frontend, probablemente porque [Django es un framework monolítico](/es/django/por-que-deberias-usar-django-framework/) (y lo digo de forma no peyorativa).
+No es ningún secreto que el frontend ha recibido un impulso gigantesco en los últimos años, librerías como React, Vue, Svelte y otras han tomado un protagonismo remarcable en los últimos años, cambiando por completo el paradigma del desarrollo en el lado del cliente. Django se ha mostrado agnóstico respecto a la separación entre Backend y Frontend, probablemente porque [Django es un framework monolítico]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}}) (y lo digo de forma no peyorativa).
 
 Supongo que algunos usuarios consideran que Django no debería quedarse atrás y debería proveer opciones de integración con algunas librerías frontend para favorecer la reactividad de las aplicaciones, tal como Nextjs hace desde algún tiempo, pues te permite seleccionar la librería frontend con la cual trabajar e inclusive se encarga de la minificación y el tree-shaking del código a través de Webpack o su compilador experimental escrito en Rust.
 

@@ -20,7 +20,7 @@ title: Learning Django through the book Django by example, my review
 
 This book plans to teach you Django by creating four projects from scratch. Django by Example starts by creating a blog, then a social network, an online store and finally a learning platform. Each project is developed practically from scratch and uses some libraries to complement the functions.
 
-If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of the Django web development framework](/en/django/why-should-you-use-django-framework/)
+If you don't know the advantages and disadvantages that Django offers, visit my post where I explain some [advantages and disadvantages of the Django web development framework]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 
 ## Blog Project
 

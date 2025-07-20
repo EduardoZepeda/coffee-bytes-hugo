@@ -33,7 +33,7 @@ Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y 
 
 ¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}).
 
-Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.](/es/django/por-que-deberias-usar-django-framework/)
+Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
 ## ¿Para que sirve Cookiecutter Django?
 

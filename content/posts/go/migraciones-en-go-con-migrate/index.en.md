@@ -18,7 +18,7 @@ keywords:
 title: Go Migration Tutorial with migrate
 ---
 
-In frameworks like [Django, migrations are created automatically](/en/django/why-should-you-use-django-framework/), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
+In frameworks like [Django, migrations are created automatically]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), from the models. However, in languages like go, as long as we are not using an ORM, migrations will be done manually.
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
@@ -192,4 +192,4 @@ Each of these endpoints requires a specific syntax. For example, the Amazon S3 e
 migrate -source="s3://<bucket>/<path>" -database=$DATABASE up
 ```
 
-With this you already know the basics about migrations and you probably also value a lot more tools and [ORMs that take care of this automatically, such as Django](/en/django/why-should-you-use-django-framework/), Ruby on Rails, South, etc.
+With this you already know the basics about migrations and you probably also value a lot more tools and [ORMs that take care of this automatically, such as Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), Ruby on Rails, South, etc.

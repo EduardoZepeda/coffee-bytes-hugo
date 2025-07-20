@@ -23,7 +23,7 @@ Sometimes when we type we make a mistake in a letter, we can repeat it, omit it 
 
 Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack](/en/django/full-text-search-and-searches-with-django-and-postgres/).
 
-If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django](/en/django/why-should-you-use-django-framework/)
+If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 
 If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) post.
 

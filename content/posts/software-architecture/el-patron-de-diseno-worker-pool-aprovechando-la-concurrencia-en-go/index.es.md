@@ -53,7 +53,7 @@ Hay desarrolladores que han usado este patrón para [manejar un millón de petic
 
 ## ¿Cómo funciona el patrón de diseño worker pool?
 
-Partimos de una cola de tareas por ejecutar, estas pueden estar fijas o crearse dinámicamente. Luego, en lugar de crear y destruir múltiples workers ([goroutines en el caso de go](/es/go/go-introduccion-a-las-goroutines-y-concurrencia/)) constantemente, creamos un **número fijo de workers** y las ponemos en un ciclo, en el que estarán escuchando constantemente información de la queue o cola de tareas (por medio de un [canal o channel en el caso de lenguajes como Go](/es/go/go-uso-de-channels-o-canales-para-comunicar-goroutinas/)). De esta manera mantendremos nuestro manejo de memoria mucho más estable y predecible, además de que limitamos el impacto que ejercerían la creación y destrucción constantes de workers.
+Partimos de una cola de tareas por ejecutar, estas pueden estar fijas o crearse dinámicamente. Luego, en lugar de crear y destruir múltiples workers ([goroutines en el caso de go](/es/go/go-introduccion-a-las-goroutines-y-concurrencia/)) constantemente, creamos un **número fijo de workers** y las ponemos en un ciclo, en el que estarán escuchando constantemente información de la queue o cola de tareas (por medio de un [canal o channel en el caso de lenguajes como Go]({{< ref path="/posts/go/go-uso-de-channels-canales/index.md" lang="es" >}})). De esta manera mantendremos nuestro manejo de memoria mucho más estable y predecible, además de que limitamos el impacto que ejercerían la creación y destrucción constantes de workers.
 
 Por último, de manera opcional, podemos guardar los resultados de estas tareas en una cola desde la cual podrán ser leídos más adelante.
 

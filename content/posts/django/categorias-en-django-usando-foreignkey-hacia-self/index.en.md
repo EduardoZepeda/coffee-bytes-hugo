@@ -52,7 +52,7 @@ Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCate
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745886985/coffee-bytes/category-subcategory-problem_bx9ymd.webp" class="md-local-image" alt="Infinite subcategories problem scheme" >}}
 
-Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django Framework's ORM](/en/django/why-should-you-use-django-framework/) offers a pretty clean solution.
+Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django Framework's ORM]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}) offers a pretty clean solution.
 
 {{<ad>}}
 
