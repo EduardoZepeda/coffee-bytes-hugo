@@ -26,7 +26,7 @@ El día de hoy, mientras hacía *doom scrolling* en la red social de Zuckerberg,
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI" caption="Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI" >}}
 
-Al revisar los comentarios —ya ni sé qué gano con hacerlo— noté que los que tenían más *likes* expresaban un fuerte desprecio por la inteligencia artificial. Un comportamiento perfectamente normal si estás [justo a la mitad de una burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
+Al revisar los comentarios —ya ni sé qué gano con hacerlo— noté que los que tenían más *likes* expresaban un fuerte desprecio por la inteligencia artificial. Un comportamiento perfectamente normal si estás [justo a la mitad de una burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}})
 
 ## Los artistas odian la AI, a los devs se les obliga a aceptarla
 
