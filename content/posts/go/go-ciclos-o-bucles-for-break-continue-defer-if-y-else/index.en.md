@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/go-loops-for-break-continue-defer-if-and-else/
+- /en/go-cycles-or-loops-for-break-continue-defer-if-and-else/
 authors:
 - Eduardo Zepeda
 categories:

@@ -4,6 +4,7 @@ aliases:
 - /tutorial-de-django-y-htmx-web-apps-modernas-sin-escribir-js
 - /django-y-htmx-web-apps-modernas-sin-escribir-js/djangohtmx/
 - /es/tutorial-de-django-y-htmx-web-apps-modernas-sin-escribir-js/
+- /es/django-y-htmx-web-apps-modernas-sin-escribir-js/
 authors:
 - Eduardo Zepeda
 categories:

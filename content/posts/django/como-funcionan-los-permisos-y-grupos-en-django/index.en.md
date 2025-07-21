@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/how-do-permissions-and-its-groups-work-in-django/
+- /en/how-do-permissions-and-permissions-groups-work-in-django/
 authors:
 - Eduardo Zepeda
 categories:
