@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/why-using-reactfc-could-be-a-bad-practice/
+- /en/why-using-react.fc-could-be-a-bad-practice/
 authors:
 - Eduardo Zepeda
 categories:

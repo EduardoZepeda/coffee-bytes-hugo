@@ -3,6 +3,7 @@ aliases:
 - /git-submodules-y-flujo-de-trabajo
 - /entiende-como-funciona-git-submodules-y-su-flujo-de-trabajo
 - /es/git-submodules-funcionamiento-y-flujo-de-trabajo/
+- /es/entiende-como-funciona-git-submodules-y-su-flujo-de-trabajo/
 authors:
 - Eduardo Zepeda
 categories:
