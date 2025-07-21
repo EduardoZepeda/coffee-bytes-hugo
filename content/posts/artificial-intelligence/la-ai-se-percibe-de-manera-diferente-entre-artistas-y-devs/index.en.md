@@ -71,7 +71,7 @@ AI can abstract patterns from its training dataset. Once it identifies those pat
 
 An artist gathers stimuli from other artists, personal experiences, books, music… and "mixes" them to create something new. The result is something original that **retains certain references or characteristics of the works that inspired it, no matter how subtle**.  
 
-All of this happens consciously, whereas [AI does it unconsciously—or at least that’s what Searle would suggest]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}}).  
+All of this happens consciously, whereas [AI does it unconsciously—or at least that’s what Searle would suggest]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}).  
 
 ### AI-Generated Code  
 
@@ -109,9 +109,9 @@ Now, there’s another aspect I want to touch on regarding the differences betwe
 
 The final product of AI-generated art is the same product the user perceives. In contrast, the code AI creates doesn’t interact with the end user.  
 
-There’s no public backlash or protests over AI-generated code because people don’t see it. Code, in itself, doesn’t evoke passion or anger—unlike [when Devin AI promised to replace programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}). Maybe it’s because the visual stimulus of art is far more intense than a wall of text expressing relationships between abstract entities.  
+There’s no public backlash or protests over AI-generated code because people don’t see it. Code, in itself, doesn’t evoke passion or anger—unlike [when Devin AI promised to replace programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}). Maybe it’s because the visual stimulus of art is far more intense than a wall of text expressing relationships between abstract entities.  
 
-For proof, just look at the response to tools like [Bolt, Lovable, or V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}), which were trained using developers' code—also without their permission.  
+For proof, just look at the response to tools like [Bolt, Lovable, or V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}), which were trained using developers' code—also without their permission.  
 
 ### AI-Generated Websites  
 
