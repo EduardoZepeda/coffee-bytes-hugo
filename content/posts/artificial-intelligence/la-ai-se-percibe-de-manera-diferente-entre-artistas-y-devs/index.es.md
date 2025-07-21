@@ -16,6 +16,7 @@ keywords:
 - jpg
 - ai
 - devs
+- art
 slug: /opinion/el-arte-generado-con-ai-y-el-codigo-generado-con-ai-son-tratados-de-manera-diferente/
 title: El arte generado con AI y el código generado con AI son tratados de manera
   diferente
@@ -25,54 +26,107 @@ El día de hoy, mientras hacía *doom scrolling* en la red social de Zuckerberg,
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI" caption="Imagen de Sakura Card Captors al estilo de Remedios Varo creada con AI" >}}
 
-Al revisar los comentarios —ya ni sé qué gano con hacerlo— noté que los que tenían más *likes* expresaban un fuerte desprecio por la inteligencia artificial. Las acusaciones eran las de siempre: que fue entrenada usando obras de artistas sin permiso, que plagia estilos, y al mismo tiempo, que es despreciable simplemente por no ser humana.
-
-Pero si alguien habla de como *vibe codeo* una pequeña aplicación, la respuesta de los usuarios no es tan controversial, o se ataca al autor de la aplicación en lugar de a la AI.
+Al revisar los comentarios —ya ni sé qué gano con hacerlo— noté que los que tenían más *likes* expresaban un fuerte desprecio por la inteligencia artificial. Un comportamiento perfectamente normal si estás [justo a la mitad de una burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
 
 ## Los artistas odian la AI, a los devs se les obliga a aceptarla
 
-Siempre me ha llamado la atención cómo la reacción hacia la inteligencia artificial varía según el grupo profesional. Los **artistas** lo tienen muy claro: están completamente en contra. En cambio, a los **desarrolladores de software** y personas que trabajan en oficinas se les pide que adopten la inteligencia artificial como una herramienta más.
+Hay un consenso muy fuerte por parte del gremio de artistas hacia la AI. 
 
-A quienes no lo hacen se les tacha de *fatalistas* o incluso de *luditas*, y se les exhorta a aceptar y abrazar, estoicamente, el inevitable futuro que ofrecen estas tecnologías.
+Movimientos como el #NOAI han dejado muy en claro el rechazo hacia esta tecnología. El desprecio parece venir de la manera en la que fue entrenada, usando material de artistas sin su permiso, acusada de plagiar algo tan personal como un estilo y también que algunos sienten que están siendo reemplazados por esta tecnología, lo cual les afecta económicamente.
 
-## ¿Tienen razón los artistas respecto a la AI?
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753062961/coffee-bytes/no-ai-movement_g772l5.jpg" class="md-local-image" alt="NO AI movement" caption="NO AI movement" >}}
 
-La verdad es que este tema es bastante complicado.
+Por otro lado, en el mundo del software ha habido una tendencia muy fuerte (desconozco si orgánica u orquestada) para adoptarla como una herramienta más disponible a utilizar para incrementar la calidad y cantidad de código producido. Incluso cuando existe rechazo este se centra más en el aspecto técnico y las posibles falencias, en lugar de en las cuestiones éticas de su proceso de entrenamiento.
 
-Desde que inició la [hipotética burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}), Los artistas acusan a la inteligencia artificial de plagiar, como si no fuera más que una base de datos de imágenes modificadas las cuales se alteran superficialmente cada vez que se les solicita una imagen. Pero la realidad es que **la AI no funciona así**.
+Este contraste me parece fascinante. 
 
-### La AI no plagia a los artistas, pero sí está entrenada sin permiso de estos
+## Mis ideas sobre porque el código creado con AI y el arte creado con AI se tratan diferente
 
-La AI es capaz de **abstraer patrones** a partir de su conjunto de datos de entrenamiento, imágenes en este caso. Una vez que abstrae esos patrones o arquetipos, utiliza la **aleatoriedad** para generar resultados que encajen en esos patrones.
+No es que uno esté bien o mal, simplemente me llama bastante la atención.
 
-Esto se parece bastante a cómo trabaja un artista humano: recopila estímulos de otros artistas, experiencias personales, libros, música… y todo eso lo mezcla para crear algo nuevo. Algo que, aunque original, **conserva ciertas referencias o características de las obras que lo inspiraron**.
+Tal vez se deba a que el arte es una forma directa de comunicación visual y emocional. Y el hecho de que sea generado por una máquina, puede percibirse como una *forma inferior* de expresión, o una amenaza a algo que se considera enteramente humano.
 
-[Todo esto sin llegar a ser consciente, como sugeriría Searle]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}})
+En cambio, el código, por su naturaleza funcional y abstracta, carece de esa carga emocional y que un programa informático lo genere pasa completamente inadvertido.
+
+Los seres humanos evolucionamos usando la vista como herramienta de supervivencia, por lo que todo aquello que pueda ser percibido de manera visual tendrá un estímulo más significativo. El código como abstracción de la lógica es muy reciente y no formó parte de las presiones evolutivas de nuestra especie ni de la realidad material, además dada su naturaleza, es mucho menos visual. Cabe recordar que el código no es el producto final, sino una abstracción.
+
+### El código es pragmático, el arte no tanto
+
+El código se creó para abstraer, en un lenguaje más similar al humano, una serie de instrucciones en un ordenador, con un propósito establecido bien definido y determinista.
+
+Pero el arte cuenta una historia diferente. 
+
+Oscar Wilde diría que: 
+
+>"All art is quite useless" 
+
+Su frase no habla de que el arte sea inútil, sino que existe por belleza y expresión, no por supervivencia o instrucción moral.
+
+Si lo anterior tiene algo de verdad, el arte es mucho más flexible que el código y los sistemas lógico-matemáticos.
+
+Considero que, es justo esta flexibilidad la que permite que la AI, de mano con la aleatoridad, funcione de manera tan diferente para el arte y el código.
+
+## El papel de la aleatoridad en los modelos generativos y LLM
+
+La AI es capaz de abstraer patrones a partir de su conjunto de datos de entrenamiento. Una vez que abstrae esos patrones o arquetipos, utiliza la aleatoriedad para generar resultados que "encajen" en esos patrones. 
+
+### Generación de arte usando AI
+
+Un artista recopila estímulos de otros artistas, experiencias personales, libros, música… y todo eso lo "mezcla" para crear algo nuevo. El resultado es algo que, aunque original, **conserva ciertas referencias o características de las obras que lo inspiraron, por más sutiles que sean**. 
+
+Todo lo anterior de manera consciente, mientras que [la AI lo hace inconscientemente, o al menos eso sugeriría Searle]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}})
+
+### Generación de código usando AI
+
+En el caso de la generación de código mediante AI, el proceso es prácticamente el mismo. La AI detecta patrones en numerosas muestras de código y luego genera código nuevo, diferente, pero basado en los patrones que los LLM han "aprendido".
+
+En cambos casos, es la aleatoridad la que permite dar con algo nuevo, que no es una copia fiel de los originales a partir de los cuales fue entrenado (siempre y cuando no incurra en overfitting).
+
+## La aleatoridad impacta en las diferencias entre arte y código creado con AI
+
+Como mencioné anteriormente, el arte es mucho más subjetivo y variable que la codificación. Hay millones de maneras (o más) de presentar un concepto o imagen, lo que encaja perfecto con la manera en la que funcionan los LLM o modelos generativos.
+
+En cambio al momento de hacer código probablemente la cantidad de maneras de hacer lo mismo sean mucho más limitadas; la manera de escribir un bucle que cuente de 0 a 100 en un mismo lenguaje de programación, tiene quizas una decena de soluciones. 
+
+Este número contrasta fuertemente con las maneras potenciales de pintar un concepto, las cuales pueden ser prácticamente ilimitadas.
+
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753063920/coffee-bytes/artificial-intelligence-art-randomness_pozdsb.webp" class="md-local-image" alt="An emotional photograph is in the style of a Fujifilm disposable camera (like 'Utsurundesu') showing a medium shot of a Japanese woman in her 20s, crying at a wedding ceremony. She is standing among other guests, wearing a soft pastel-colored dress. Her makeup is slightly smudged by tears. The scene is imbued with a deeply nostalgic and melancholic atmosphere. Soft, dim lighting casts a gentle glow on the girl's dark hair. The focus is on her expressive face, and in the reflection of her eyes, a bride and groom can be seen standing together. The background shows a beautiful wedding venue with warm lighting. The image features pronounced film grain, slightly muted tones, and a cinematic blur, amplifying the emotional intensity of the moment from a wider perspective. The composition evokes a sense of longing and fleeting memories, characteristic of heartfelt disposable camera photography.The background is softly blurred" caption="" >}}
+
+En el caso del código es ligeramente diferente. Obviamente conforme crezca el tamaño del código el número de posibles soluciones se incrementará también, pero aquí hay un aspecto crucial: a diferencia de lo que sucede con el arte, no todas serán igualmente válidas. 
+
+## Las diferencias en el arte y el código creados con AI
+
+Ahondaré en esto, la naturaleza subjetiva del arte permite que todas las representaciones de un mismo concepto sean válidas, una manzana al estilo de Picaso es exactamente igual de válida que una pintada por Velazquez, o una manzana pintada por Carrington.
+
+Mientras que no sucede lo mismo con un programa informático, una variación de cualquier programa complejo (un web crawler, una base de datos, etc.) se comportará de manera diferente en distintos escenarios, y habrá una versión superior o inferior de acuerdo a las necesidades del código. 
+
+Estas diferencias pueden medirse de manera cuantitativa: tiempo de ejecución, uso de memoria, escalabilidad, etc. Lo que nos dejará con algunas propuestas mejores que otras.
+
+Tomando como base lo anterior, la AI "acertará" menos veces y requerirá más iteraciones al crear código. Sin embargo, al crear arte, probablemente el usuario considere como válido el resultado obtenido tras unas cuantas iteraciones.
+
+Esto hace que, desde mi punto de vista, la naturaleza no determinista de la AI funcione mejor en la creación de arte que en la creación de código.
+
+Ahora, aquí hay otro aspecto que quiero tocar respecto a las diferencias en el código creado con AI y el arte creado con AI.
 
 ## El contraste en la percepción entre código desarrollado con AI e imágenes generadas con AI
 
-En el caso de la generación de **código** mediante AI, el proceso es prácticamente el mismo. La AI detecta patrones y luego genera código nuevo, diferente, pero basado en los arquetipos que los LLM han "aprendido".
+El producto final de una AI que crea arte es el mismo producto final que percibe el usuario, en cambio el código que crea una AI no tiene contacto con el usuario final.
 
-Sin embargo, aquí es donde aparece un **contraste interesante**: mientras que la generación de imágenes es visual y provoca un descontento al verse reflejada en pantalla, el código generado por AI pasa completamente inadvertido. **No se ve.**
+No existe un rechazo público, ni un grupo que proteste al ver el código generado con AI porque no tienen contacto con él. El código, por si mismo, no despierta pasiones, ni enojo, como [cuando Devin AI prometió reemplazar a los programadores]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) tal vez porque el estímulo visual del arte es mucho más intenso que un muro de texto que expresa las relaciones que existen entre entes abstractos.
 
-No existe un rechazo público, ni un grupo que proteste por el código generado. El código no despierta pasiones, ni enojo por el código robado, como [cuando Devin AI prometió reemplazar a los programadores]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) tal vez porque el estímulo visual es mucho más intenso que la sensación de saber que una app funciona con código de AI.
+Para pruebas solo basta ver la respuesta que han tenido herramientas como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}), las cuales fueron entrenadas usando el código de desarrolladores, también sin su permiso.
 
-El hecho de que herramientas como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) fueron entrenadas usando el código de desarrolladores es ignorado por completo.
+### Las páginas web creadas por AI 
 
-Incluso cuando observamos la cristalización del código, en forma de pixeles en una página web, *estamos reaccionando ante la imagen del producto final*, no el código en si mismo.
+¿Pero y las páginas web?, yo diría que incluso si observamos la cristalización del código en forma de pixeles en una página web, la reacción es completamente diferente a la que experimentariamos con el arte, a pesar de ambos ser percibidos visualmente. 
 
-Además es virtualmente imposible distinguir una página web hecha por una AI que por un desarrollador incompetente. ~~Como el que desarrolló este sitio web~~
+Una página web (y quizás el código) hecha con AI es totalmente indistinguible de una creada por un humano. Además una página web no suele ser percibida como el resultado de la expresión humana (sobre todo en el internet contemporáneo). 
 
-### ¿Por qué el código y las imágenes hechas por AI despiertan respuestas tan diferentes?
+Pero en el caso del arte es mucho más fácil darse cuenta; manos con más dedos de los que se deben, inconsistencias lógicas, inclusive ese estilo genérico, que viene por defecto, bastante característico. O el ya popular estilo Ghibli que se volvió un commodity.
 
-Este contraste me parece fascinante. No es que uno esté bien o mal, simplemente me llama la atención cómo **la creación artística generada por AI** puede ser rechazada por ser visible y emocionalmente significativa, mientras que **el código generado por AI** es ignorado o aceptado sin resistencia alguno y se le considera una avance esperable del desarrollo tecnológico.
 
-Tal vez se deba a que **el arte** es una forma directa de comunicación visual y emocional. Y al ser generado por una máquina, puede percibirse como una *forma inferior* de expresión. En cambio, **el código**, por su naturaleza funcional y abstracta, carece de esa carga emocional y pasa completamente inadvertido.
 
-Los seres humanos evolucionamos usando la vista como herramienta de supervivencia, el código como abstracción de procesos es muy reciente y no formó parte de las presiones evolutivas de nuestra especie ni de la realidad material más allá de millones de unos y ceros en una placa de silicio.
 
-## Me pregunto que pasará con la AI en otras áreas
 
-¿Qué sucederá en otras áreas. Por ejemplo: ¿los diagnósticos médicos hechos por AI serán rechazados por los pacientes, solo por no venir de un humano? ¿El trato humano es tan importante a la hora del diagnóstica de una enfermedad o se limita al cuidado del paciente? ¿la gente será más objetiva y solo se fijará en el porcentaje de acierto y efectividad?
 
-La respuesta, probablemente, dependerá de qué tan visible sea la *mano de la máquina*... y de cuánto nos importe aquello que no podemos ver.
+
