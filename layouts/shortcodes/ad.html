@@ -152,7 +152,7 @@
 {{ range first 2 .Page.Params.categories }}
   {{ $ad := index $langAds (lower .) }}
   {{ if $ad }}
-  <aside class="affiliate-link-container-article">
+  <aside class="affiliate-link-container-article affiliate-link-container">
     <div class="affiliate-heading">
       <h2>{{$ad.title}}</h2>
       <span class="affiliate-badge">{{ i18n "ad" }}</span>
@@ -174,8 +174,8 @@
     {{ end }}
   {{ end }}
 
-  <template class="books" id="books">
-    <aside class="affiliate-link-container affiliate-link-container-side">
+  <template id="books-template">
+    <aside class="affiliate-link-container affiliate-link-container-side affiliate-link-container">
       <div class="affiliate-heading">
         <h3>{{i18n "bookRecommendations"}}</h3>
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
@@ -192,126 +192,126 @@
               </div>
             {{ end }}
               <div>
-                {{/*  Show shorter link according to media queries  */}}
                 <a rel="nofollow sponsored" category="{{.}}" class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" aria-label="Amazon link" href="{{$ad.link}}">{{ T "amazonLink"}}</a>
               </div>
             </div>
         {{ end }}
       {{ end }}
     </aside>
-</template>
+  </template>
 
-<template class="sassTemplates" id="sassTemplates">
-  <aside class="affiliate-link-container affiliate-link-container-side">
-    <div class="affiliate-heading">
-      <h3>{{i18n "leftPanelTitle"}}</h3>
-    </div>
-      {{ $url := "/en/my-curated-best-sources-to-learn-python-programming-language/" }}
-      {{ if eq $lang "es" }}
-            {{ $url = "/es/mis-libros-favoritos-para-aprender-a-programar-en-python/" }}
-      {{ end }}
-    <div class="affiliate-body">
-      <div class="affiliate-desc">{{i18n "leftPanelDesc"}}</div>
-      <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
-          <img fetchpriority="high" height="200px" width="472px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" alt="Python book thumbnail" class="video-thumbnail"/>
+  <template id="sass-template">
+    <aside class="affiliate-link-container affiliate-link-container-side">
+      <div class="affiliate-heading">
+        <h3>{{i18n "leftPanelTitle"}}</h3>
       </div>
+        {{ $url := "/en/my-curated-best-sources-to-learn-python-programming-language/" }}
+        {{ if eq $lang "es" }}
+              {{ $url = "/es/mis-libros-favoritos-para-aprender-a-programar-en-python/" }}
+        {{ end }}
+      <div class="affiliate-body">
+        <div class="affiliate-desc">{{i18n "leftPanelDesc"}}</div>
+        <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
+            <img fetchpriority="high" height="200px" width="472px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" alt="Python book thumbnail" class="video-thumbnail"/>
+        </div>
 
-      <div class="panel-button"><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" href="{{$url}}">{{ i18n "leftPanelButton"}}</a></div>
-    </div>
-  </aside>
-</template>
+        <div class="panel-button"><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" href="{{$url}}">{{ i18n "leftPanelButton"}}</a></div>
+      </div>
+    </aside>
+  </template>
 
-{{ end }}
+  <div id="right-panel-placeholder" class="affiliate-placeholder" style="min-height: 400px;"></div>
+  <div id="left-panel-placeholder" class="affiliate-placeholder" style="min-height: 400px;"></div>
+
+<style>
+  .affiliate-placeholder {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+</style>
 
 <script defer type="module">
-
-  function loadYoutubeVideo() {
-    const placeholders = document.querySelectorAll('.video-placeholder');
+  // Track if ads have been rendered to prevent duplication
+  let adsRendered = false;
+  
+  function renderPanel(templateId, panelId) {
+    const template = document.getElementById(templateId);
+    const panel = document.getElementById(panelId);
+    const placeholder = document.getElementById(`${panelId}-placeholder`);
     
-    placeholders.forEach(placeholder => {
-      placeholder.addEventListener('click', function() {
-        const videoId = this.getAttribute('data-video-id');
-        const imageUrl = this.getAttribute('data-image-url');
-        
-        // Create YouTube iframe
-        const iframe = document.createElement('iframe');
-        iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
-        iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allowfullscreen', '');
-        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        
-        // Replace the placeholder content with the iframe
-        this.innerHTML = '';
-        this.appendChild(iframe);
-        
-        // Track the conversion if needed (for analytics)
-        console.log('Video loaded:', videoId, 'Replaced image:', imageUrl);
-      });
-    });
-  }
-
-
-  function renderRightPanelAds(){
-    let booksTemplates = document.querySelectorAll(".books");
-    let rightPanel = document.getElementById("right-panel");
-    booksTemplates.forEach((bookTemplate) => {
-        let clon = bookTemplate.content.cloneNode(true);
-        rightPanel.appendChild(clon)
-    })
+    if (!template || !panel || !placeholder) return;
+    
+    // Clear existing content except the placeholder
+    panel.innerHTML = '';
+    panel.appendChild(placeholder);
+    
+    // Clone and append template content
+    const clone = template.content.cloneNode(true);
+    panel.appendChild(clone);
+    
+    // Remove placeholder after content is rendered
+    placeholder.remove();
   }
 
   function renderAds() {
-      renderRightPanelAds()
-      renderLeftPanelAds()
-      //loadYoutubeVideo()
+    if (adsRendered) return;
+    
+    renderPanel('books-template', 'right-panel');
+    renderPanel('sass-template', 'left-panel');
+    
+    adsRendered = true;
   }
 
   async function updateLinkToMx() {
-    const response = await fetch("/data/ads.json")
-    const adsData = await response.json()
-    const affiliateLinks = document.querySelectorAll(".affiliate-link")
-    affiliateLinks?.forEach((link) => {
-        // Every link as its category as id
-        // Only link is replaced for now
-        let category = link?.getAttribute("category")
-        if(!category) {return}
-        link.setAttribute("href", adsData["es-MX"][category]["link"])
-    })
+    try {
+      const response = await fetch("/data/ads.json");
+      const adsData = await response.json();
+      const affiliateLinks = document.querySelectorAll(".affiliate-link[category]");
+      
+      affiliateLinks.forEach((link) => {
+        const category = link.getAttribute("category");
+        if (category && adsData["es-MX"] && adsData["es-MX"][category]) {
+          link.setAttribute("href", adsData["es-MX"][category]["link"]);
+        }
+      });
+    } catch (error) {
+      console.error("Error updating MX links:", error);
+    }
   }
 
-  function renderLeftPanelAds() {
-    let sassTemplates = document.querySelectorAll(".sassTemplates");
-    let leftPanel = document.getElementById("left-panel");
-    sassTemplates.forEach((sassTemplate) => {
-      let clon = sassTemplate.content.cloneNode(true);
-      leftPanel.appendChild(clon)
-    })
+  function shouldUpdateToMx() {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone === "America/Mexico_City" && 
+           document.documentElement.lang === "es";
   }
 
-  function reloadAds() {
-    document.getElementById("right-panel")?.replaceChildren();
-    document.getElementById("left-panel")?.replaceChildren();
+  function handleContentLoad() {
+    // Reset rendered state on each load
+    adsRendered = false;
     renderAds();
+    
+    if (shouldUpdateToMx()) {
+      updateLinkToMx();
+    }
   }
 
-  ["DOMContentLoaded", "htmx:afterSettle", "htmx:historyRestore"].forEach((event) => document.body.addEventListener(event, function(event) {
-    reloadAds()
-    // <!--This will trigger only if language is spanish and the timezone is Mexico
-    // for now this constraint should be enough-->
-    // Update links to amazon mx if user is in Mexico city timezone and its language is spanish
-    if (Intl.DateTimeFormat().resolvedOptions().timeZone === "America/Mexico_City" && document.querySelector("html").getAttribute("lang") === "es") {
-      try {
-          updateLinkToMx()
-      } catch (e) {
-          console.error("Error trying to update mx affiliate links: ", e)
-      }
-  }
-}))
-  reloadAds()
+  // HTMX event listeners
+  document.body.addEventListener('htmx:afterSettle', handleContentLoad);
+  document.body.addEventListener('htmx:historyRestore', handleContentLoad);
 
+  // Initial load
+  if (document.readyState !== 'loading') {
+    handleContentLoad();
+  } else {
+    document.addEventListener('DOMContentLoaded', handleContentLoad);
+  }
 </script>
 
-
-
+{{ end }}

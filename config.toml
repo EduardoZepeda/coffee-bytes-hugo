@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-audience = "Web developers"
+audience = "Software engineers"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 copyright = "© All rights reserved."
