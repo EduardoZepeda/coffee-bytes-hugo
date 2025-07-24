@@ -31,7 +31,7 @@ Anthropic members noticed this and proposed to standardise this process by creat
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Example of MCP usage, user asks for the content of its own files, LLM reads them and replies" >}}
 
-This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [another AI bubble](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/) or a completely groundbreaking paradigm?
+This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [another AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) or a completely groundbreaking paradigm?
 
 MCP exists to act as a bridge between an LLM and contextual information, in a standardised and agnostic way. The key word here is *standardisation*.
 

@@ -521,6 +521,6 @@ If you have no errors you will be able to access your website through your domai
 
 The next step is to add our service to some process controller, so that it is immune to reboots, you can use runit, sysinit, supervisord or the hated systemd, each system is different and there are many preferences, so I will not delve into it here.
 
-Theoretically you can perform this procedure in any PAAS, such as [Digital Ocean](/en/software-architecture/digital-ocean-analysis-and-my-experience-as-a-user/), Linode, etc. I have done the procedure using a Docker Droplet on Digital Ocean and it went fine. The author has instructions for other platforms that you can check at [the official cookiecutter-django documentation](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
+Theoretically you can perform this procedure in any PAAS, such as [Digital Ocean]({{< ref path="/posts/software-architecture/digital-ocean-analisis-y-mi-experiencia/index.md" lang="en" >}}), Linode, etc. I have done the procedure using a Docker Droplet on Digital Ocean and it went fine. The author has instructions for other platforms that you can check at [the official cookiecutter-django documentation](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
 Visit my next post, where I talk [about one of the newest Python frameworks for creating APIs]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}).

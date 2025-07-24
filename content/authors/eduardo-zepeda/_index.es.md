@@ -24,7 +24,7 @@ Tengo una [certificación Microsoft AZ-900 Fundamentals](https://www.credly.com/
 
 Obsesivo y fiel usuario de Linux desde el año 2010.
 
-Soy 2° Kyu en [Codewars](/es/pongo-a-prueba-a-chatgpt-con-desafios-de-codigo-de-codewars/), aún buscando llegar al 1° Kyu.
+Soy 2° Kyu en [Codewars]({{< ref path="/posts/artificial-intelligence/pruebo-chatgpt-3-con-desafios-de-codigo-de-codewars/index.md" lang="es" >}}), aún buscando llegar al 1° Kyu.
 
 [{{< image src="https://www.codewars.com/users/EduardoZepeda/badges/small#?" alt="Codewars badge" width="300px" loading="lazy" >}}](https://www.codewars.com/users/EduardoZepeda#?)
 

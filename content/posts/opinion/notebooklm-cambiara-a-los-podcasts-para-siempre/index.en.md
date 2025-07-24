@@ -42,7 +42,7 @@ Google has done an excellent job with this tool. Please appreciate the tone, the
 
 ## Will Google Notebooklm and the other models replace podcasts?
 
-This is the inevitable question (and its variants) whenever there is a significant progress in the field of artificial intelligence models: [Is Devin AI going to replace developers?]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}) or is it just one more symptom of the [AI bubble we are witnessing?](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/).
+This is the inevitable question (and its variants) whenever there is a significant progress in the field of artificial intelligence models: [Is Devin AI going to replace developers?]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}) or is it just one more symptom of the [AI bubble we are witnessing?]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 
 I don't think it's that simple, the interesting thing about this is trying to fit it into this colossal puzzle of AI models rising up in front of us right now.
 

@@ -525,6 +525,6 @@ Si no tienes errores ya podrás acceder a tu sitio web a través de tu dominio.
 
 El siguiente paso es agregar nuestro servicio a algún controlador de procesos, para que se inmune a reinicios, puedes usar runit, sysinit, supervisord o el odiado systemd, cada sistema es diferente y preferencias hay muchas, por lo que no ahondaré en ello aquí.
 
-Teóricamente puedes realizar este procedimiento en cualquier PAAS, tal como [Digital Ocean](/es/software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/), Linode, etc. Yo he hecho el procedimiento usando un Droplet de Docker en Digital Ocean y ha salido bien. El autor tiene instrucciones para otras plataformas que puedes consultar en [la documentación oficial de cookiecutter-django](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
+Teóricamente puedes realizar este procedimiento en cualquier PAAS, tal como [Digital Ocean]({{< ref path="/posts/software-architecture/digital-ocean-analisis-y-mi-experiencia/index.md" lang="es" >}}), Linode, etc. Yo he hecho el procedimiento usando un Droplet de Docker en Digital Ocean y ha salido bien. El autor tiene instrucciones para otras plataformas que puedes consultar en [la documentación oficial de cookiecutter-django](https://cookiecutter-django.readthedocs.io/en/latest/index.html).
 
 Visita mi siguiente entrada, donde hablo [de uno de los frameworks más nuevos de Python para crear APIs]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="es" >}}).

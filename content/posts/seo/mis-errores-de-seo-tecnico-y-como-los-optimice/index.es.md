@@ -18,7 +18,7 @@ slug: /seo/mis-errores-de-optimizacion-en-el-seo-tecnico-de-mi-sitio-web/
 title: Mis errores de optimización en el SEO técnico de mi sitio web
 ---
 
-Hace unos años, migré mi sitio web un par de veces, primero de Wordpress a Frontity (Un framework de wordpress en React) y luego de Frontity a una [app de Hugo en Digital Ocean](/es/software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/). No me arrepiento para nada de mi decisión, pero cometí unos cuantos errores respecto al SEO que probablemente puedas evitar si tomas en cuenta lo que estoy a punto de contarte.
+Hace unos años, migré mi sitio web un par de veces, primero de Wordpress a Frontity (Un framework de wordpress en React) y luego de Frontity a una [app de Hugo en Digital Ocean]({{< ref path="/posts/software-architecture/digital-ocean-analisis-y-mi-experiencia/index.md" lang="es" >}}). No me arrepiento para nada de mi decisión, pero cometí unos cuantos errores respecto al SEO que probablemente puedas evitar si tomas en cuenta lo que estoy a punto de contarte.
 
 Tras el error incluso escribí una [{{<title "/posts/guia-de-seo-tecnico-para-desarrolladores-web/index">}}]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="es" >}})
 

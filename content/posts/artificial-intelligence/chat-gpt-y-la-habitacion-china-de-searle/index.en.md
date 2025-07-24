@@ -18,7 +18,7 @@ keywords:
 title: Chat Gpt, Searle's Chinese Room and consciousness
 ---
 
-Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems](/en/artificial-intelligence/i-test-chatgpt-with-codewars-coding-challenges/) others are excited about its potential to change the world of work. Today I leave aside the economic consequences of AI and the question about whether [we're in an AI bubble or not](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/), to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand language, is Chat GPT conscious?
+Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems]({{< ref path="/posts/artificial-intelligence/pruebo-chatgpt-3-con-desafios-de-codigo-de-codewars/index.md" lang="en" >}}) others are excited about its potential to change the world of work. Today I leave aside the economic consequences of AI and the question about whether [we're in an AI bubble or not]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}), to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand language, is Chat GPT conscious?
 
 > What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. Adriy Burkov
 

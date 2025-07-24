@@ -21,7 +21,7 @@ I tried to fine-tune a DeepSeek model but I failed, then I tried to do it with L
 
 I felt completely lost, lots of tutorials but none seemed to work, hence I decided to share with my readers my notes and some resources that I found useful during the process. 
 
-Still, don't get confused by this, I still believe that [we are in an AI bubble](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/).
+Still, don't get confused by this, I still believe that [we are in an AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 
 ## Where to learn the basics of AI and Neural networks?
 

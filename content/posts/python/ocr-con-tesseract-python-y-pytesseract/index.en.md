@@ -167,4 +167,4 @@ Facebook must use some kind of similar technology to censor images that include 
 
 Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
 
-As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/).
+As you can see it is quite useful, I think it is one of the IA applications that will not go away [when the AI bubble crashes]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).

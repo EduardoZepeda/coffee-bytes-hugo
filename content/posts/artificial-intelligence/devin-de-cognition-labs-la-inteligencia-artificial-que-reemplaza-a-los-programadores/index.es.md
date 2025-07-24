@@ -120,7 +120,7 @@ Déjame describirte una situación:
 
 {{< figure src="images/its-all-about-shareholders.jpg" class="md-local-image" alt="Meme de omniman hablando con su hijo" caption="Piensa programador piensa" >}}
 
-Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin AI, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil". Ya sabes, la clásica [burbuja de AI](/es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/).
+Considera que, en el mundo del dinero, las apariencias juegan un rol primordial. Ahora mismo son pocas las personas que han tenido acceso a Devin AI, las cuales hablan maravillas de la herramienta. Suena demasiado bien ¿no? Todo esto podría ser una campaña de marketing muy bien pensada para inflar las expectativas, atraer inversores y conseguir financiamiento "fácil". Ya sabes, la clásica [burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 
 Pero, ¿No acaba Peter Thiel de invertir dinero? Sí, pero eso no significa nada, no estás pensando como inversionista, sino como ingeniero. 
 

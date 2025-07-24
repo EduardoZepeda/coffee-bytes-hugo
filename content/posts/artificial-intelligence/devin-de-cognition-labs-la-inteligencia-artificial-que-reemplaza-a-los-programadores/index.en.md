@@ -32,7 +32,7 @@ Like what features? [According to its creators, Devin AI can](https://www.cognit
 - Automatically find bugs
 - Train your own AI models
 - Contribute to mature repositories
-- Solve real projects on Upwork (much more than [solve interview code problems](/en/artificial-intelligence/i-test-chatgpt-with-codewars-coding-challenges/))
+- Solve real projects on Upwork (much more than [solve interview code problems]({{< ref path="/posts/artificial-intelligence/pruebo-chatgpt-3-con-desafios-de-codigo-de-codewars/index.md" lang="en" >}}))
 
 {{< figure src="images/so-its-time-to-panic-simpsons.webp" class="md-local-image" alt="Simpsons meme asking if it's time to Panic" >}}
 
@@ -104,7 +104,7 @@ Let me describe a situation:
 3. The creators receive seed capital from many, many investors.
 4. It ends up becoming just another tool and everything stays the same.
 
-Does it sound like anything like that? Maybe they are just a group of people looking to become millionaires and we're in the middle of an [AI bubble](/en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/).
+Does it sound like anything like that? Maybe they are just a group of people looking to become millionaires and we're in the middle of an [AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 
 {{< figure src="images/its-all-about-shareholders.jpg" class="md-local-image" alt="Meme of omniman talking to his son about shareholders\"" >}}
 
