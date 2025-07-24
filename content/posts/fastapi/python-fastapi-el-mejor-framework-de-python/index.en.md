@@ -647,7 +647,7 @@ Yes, as you probably already knew, FastAPI has automatic documentation using [sw
 
 Deployment is also a simple task to perform.
 
-To deploy without using [Docker](/en/docker/what-is-docker-and-what-is-it-for/) just run uvicorn, just like we did at the beginning of this tutorial.
+To deploy without using [Docker]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="en" >}}) just run uvicorn, just like we did at the beginning of this tutorial.
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 80
@@ -655,7 +655,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Deployment with Docker
 
-Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile](/en/docker/the-most-useful-and-basic-docker-commands//) file.
+Deploying with Docker is super simple, the FastAPI creator already provides us with a custom Docker image that we can use as the basis for our Dockerfile. First let's create a [Dockerfile]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="en" >}}) file.
 
 ```bash
 touch Dockerfile

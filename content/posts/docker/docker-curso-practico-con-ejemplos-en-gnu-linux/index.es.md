@@ -14,15 +14,16 @@ categories:
 coverImage: images/DockerCursoPractico.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@huy-phan-316220/
 date: '2020-10-07'
-description: Aprende a usar los comandos básicos de Docker, a diferenciar imágenes
-  y contenedores, volúmenes, crear Dockerfiles y usar docker build.
+description: Aprende a usar los comandos de Docker más comunes, aprende a diferenciar imágenes
+  y contenedores, gestionar volúmenes, crear Dockerfiles y usar docker build.
+keyword: comandos de docker
 keywords:
 - docker
-slug: /docker/tutorial-de-comandos-basicos-de-docker/
+slug: /docker/tutorial-basicos-de-comandos-de-docker/
 title: Comandos de Docker más útiles para manejar contenedores
 ---
 
-Si te leíste la entrada anterior donde explico [para que sirve Docker](/es/docker/que-es-docker-y-para-que-sirve/) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos más comunes de Docker, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
+Si te leíste la entrada anterior donde explico [para que sirve Docker]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="es" >}}) ya debes tener una idea bastante simple de Docker, pero no he publicado nada acerca de los comandos. Aquí te explico los comandos de Docker más comunes, el uso de volúmenes y la creación de un Dockerfile de ejemplo.
 
 ## Las imágenes y los contenedores son diferentes
 
@@ -311,7 +312,7 @@ Si en lugar de eso queremos reiniciar un contenedor que se encuentra corriendo p
 docker restart <nombre_o_id_del_contenedor>
 ```
 
-## Exponer un puerto en un contenedor de Docker al exterior
+## Comandos de Docker para exponer un puerto en un contenedor de Docker al exterior
 
 Hasta ahora hemos creado contenedores con los cuales no podemos interaccionar desde el exterior. Si intentamos abrir localhost del veremos que nuestro contenedor de Nginx no nos devuelve nada.
 
@@ -469,9 +470,9 @@ docker run --name mongoDB -d -v /Users/usuario/Dev/database:/data/db:ro mongo
 
 Listo, con esto basta para tener una idea básica de los volúmenes. 
 
-Pero teclear los comandos uno a uno es engorroso, y no puedes (ni debes) guardar esos comandos en un sistema de control de versiones, por qué no escribir algo más portable y cómodo, bueno, para eso puedes [aprender a escribir un Dockerfiles.](/es/docker/como-escribir-un-archivo-de-dockerfile-desde-cero/)
+Pero teclear los comandos uno a uno es engorroso, y no puedes (ni debes) guardar esos comandos en un sistema de control de versiones, por qué no escribir algo más portable y cómodo, bueno, para eso puedes [aprender a escribir un Dockerfiles.]({{< ref path="/posts/docker/como-escribir-un-archivo-docker-file/index.md" lang="es" >}})
 
-## Comandos útiles de docker
+## Comandos de docker útiles
 
 Encontrar el archivo *docker-compose.yml* que ejecuta un contenedor
 
@@ -484,6 +485,5 @@ Detener todos los contenedores
 ``` bash
 docker stop $(docker ps -a -q) 
 ```
-
 
 Este tutorial cubrió solo lo básico sobre Docker. A continuación hablaré sobre [docker compose, la herramienta de gestión de contenedores de Docker]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}})

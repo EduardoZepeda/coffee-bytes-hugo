@@ -22,7 +22,7 @@ slug: /docker/como-escribir-un-archivo-de-dockerfile-desde-cero/
 title: Como escribir un archivo de Dockerfile desde cero
 ---
 
-En la [entrada anterior te explique los comandos más comunes de Docker, run, exec, pull, etc](/es/docker/tutorial-de-comandos-basicos-de-docker/). Hasta este momento todo se ha hecho de manera manual, a través de la terminal, pero que tal si queremos una manera de guardar nuestro proceso de transformaciones a una imagen para poder compartirlo fácilmente o para llevar un registro en git. Los Dockerfile permiten justamente eso y facilitan personalizar una imagen como una serie de pasos a seguir para llevar nuestro sistema al punto al que querramos.
+En la [entrada anterior te explique los comandos más comunes de Docker, run, exec, pull, etc]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}). Hasta este momento todo se ha hecho de manera manual, a través de la terminal, pero que tal si queremos una manera de guardar nuestro proceso de transformaciones a una imagen para poder compartirlo fácilmente o para llevar un registro en git. Los Dockerfile permiten justamente eso y facilitan personalizar una imagen como una serie de pasos a seguir para llevar nuestro sistema al punto al que querramos.
 
 ## ¿Qué es un Docker file?
 

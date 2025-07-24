@@ -17,7 +17,7 @@ keywords:
 title: 'Linux Basic Commands: passwd du useradd usermod fdisk lscpu apt which'
 ---
 
-This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}). I also have a [third part of GNU/Linux commands available](/en/linux/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/). 
+This is the second part of the list of basic GNU/Linux terminal commands. If you want to see the commands from the previous post please [enter the first part here]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}). I also have a [third part of GNU/Linux commands available]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="en" >}}). 
 
 For this entry I'm assuming you're using a Debian-based distribution, since I'm using apt instead of rpm.
 

@@ -433,7 +433,7 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 
 ## chroot
 
-Hay situaciones en las que necesitamos cambiar la dirección de la carpeta root por defecto para algunos usos más avanzados, como la creación de overlays o de contenedores, tales como los de [docker](/es/docker/que-es-docker-y-para-que-sirve/).
+Hay situaciones en las que necesitamos cambiar la dirección de la carpeta root por defecto para algunos usos más avanzados, como la creación de overlays o de contenedores, tales como los de [docker]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="es" >}}).
 
 ```bash
 chroot /mi_nuevo_directorio_root

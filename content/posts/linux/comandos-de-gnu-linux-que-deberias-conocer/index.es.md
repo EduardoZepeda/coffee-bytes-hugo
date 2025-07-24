@@ -25,7 +25,7 @@ Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.
 
-Entra aquí para la [segunda parte de esta serie de comandos](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) y acá para [la tercera parte de esta serie.](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/)
+Entra aquí para la [segunda parte de esta serie de comandos](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//) y acá para [la tercera parte de esta serie.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}})
 
 ## Pequeños tips de la terminal de Linux
 

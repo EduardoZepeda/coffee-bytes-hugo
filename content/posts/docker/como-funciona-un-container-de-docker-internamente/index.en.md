@@ -23,7 +23,7 @@ keywords:
 title: How Does a Docker Container Work Internally?
 ---
 
-Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands](/en/docker/the-most-useful-and-basic-docker-commands/) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
+Containers, especially Docker containers, are used everywhere, we tend to see them as small isolated operating systems that are inside our system. Using the [Docker commands]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="en" >}}) we can modify them, create them, delete them and even get inside them and run commands, but have you ever wondered how they work internally?
 
 We know that a container is a linux process with several characteristics:
 
@@ -285,7 +285,7 @@ Remember that the [_ps_ command](/en/linux/linux-basic-commands-passwd-du-userad
 
 ## Set up a new file system for the container
 
-To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_](/en/linux/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
+To use a unique file system for the container, other than the file system of our operating system, we will use the linux command [_chroot_]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="en" >}}).
 
 _Chroot_ changes the default root location to a directory of your choice.
 

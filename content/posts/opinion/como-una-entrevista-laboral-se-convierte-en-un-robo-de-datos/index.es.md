@@ -61,7 +61,7 @@ La opción más cómoda, pero también la más cara, mantén tus dispositivos se
 
 ### **Usa una máquina virtual**
 
-Monta una máquina virtual, ya sea Virtual Box o Gnome Boxes, en Linux, o un [contenedor de Docker completamente aislado](/es/docker/tutorial-de-comandos-basicos-de-docker/), si no te molesta no contar con una interfaz gráfica. 
+Monta una máquina virtual, ya sea Virtual Box o Gnome Boxes, en Linux, o un [contenedor de Docker completamente aislado]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}), si no te molesta no contar con una interfaz gráfica. 
 
 Otra opción disponible, y mi favorita: una live USB con la distribución de tu elección (Debian, Fedora, o lo que quieras).
 

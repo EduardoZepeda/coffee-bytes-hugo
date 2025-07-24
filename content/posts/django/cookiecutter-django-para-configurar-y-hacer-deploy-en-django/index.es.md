@@ -31,7 +31,7 @@ Escribí las entradas anteriores como una introducción para el tema de esta sem
 
 Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual tengo una [reseña de Twoo scoops of django](/es/django/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
-¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}).
+¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}).
 
 Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
@@ -272,7 +272,7 @@ Cookiecutter-django también nos permite elegir una herramienta de integración 
 keep_local_envs_in_vcs [y]: 
 ```
 
-Nos pregunta si queremos manejar [las variables de entorno local](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) dentro del sistema de control de versiones.
+Nos pregunta si queremos manejar [las variables de entorno local]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}}) dentro del sistema de control de versiones.
 
 ### Debug, para desarrollo de django-cookiecutter
 
@@ -403,7 +403,7 @@ Requirements incluye los archivos con las dependencias de nuestro proyecto. Así
 
 ### Variables de entorno
 
-También existe una carpeta secreta con el nombre de _.envs_, la cual contiene [las variables de entorno](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) que se usarán en los archivos de configuración, tanto de producción como de desarrollo.
+También existe una carpeta secreta con el nombre de _.envs_, la cual contiene [las variables de entorno]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}}) que se usarán en los archivos de configuración, tanto de producción como de desarrollo.
 
 ```bash
 .

@@ -22,7 +22,7 @@ For these examples I use [Debian 9](https://www.debian.org/index.es.html), so if
 
 Another thing, what most people know as Linux, plain Linux, is actually GNU/Linux, however for SEO and simplicity reasons many people use GNU/Linux or Linux interchangeably, which I intend to do as well. But keep this in mind when you read this or other entries.
 
-Click here for [the second part of this series of commands](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) and here for [the third part of this series](/en/linux/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/).
+Click here for [the second part of this series of commands](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/) and here for [the third part of this series]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="en" >}}).
 
 ## Little tips from the Linux Terminal
 

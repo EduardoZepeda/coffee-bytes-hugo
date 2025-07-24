@@ -146,7 +146,7 @@ graph TD;
 ```
 
 * Client-side streaming. The client sends multiple requests to the server
-The client sends multiple requests to the server and the server responds with a single response.
+The client sends multiple requests to the server and the server responds with a single response. Used in [MCP Model Context Protocol]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="en" >}})
 
 ``` mermaid
 graph TD;

@@ -19,7 +19,7 @@ slug: /linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt/
 title: 'Comandos Básicos de Linux: passwd du useradd usermod fdisk apt'
 ---
 
-Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor entra en la primera parte donde hablo de[grep, ls, cd, history, cat, cp, rm, scp.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}). También tengo una parte donde hablo de [los comandos passwd, du, useradd, usermod, fdisk, lscpu, apt, which.](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/).
+Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor entra en la primera parte donde hablo de[grep, ls, cd, history, cat, cp, rm, scp.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}). También tengo una parte donde hablo de [los comandos passwd, du, useradd, usermod, fdisk, lscpu, apt, which.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}}).
 
 Para esta entrada asumo que estás usando una distribución basada en Debian, ya que estoy usando apt en lugar de rpm.
 
@@ -495,4 +495,4 @@ sudo neofetch
 
 ## Más comandos básicos para la terminal de linux
 
-Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/)
+Otra entrada y muchos más comandos revisados, faltan algunos comandos para cubrir solo una pequeña parte, toma tu tiempo, no hay prisa, levántate de la silla y ve a tomar agua o café. La tercera parte es la última e incluyo más comandos, algunos de ellos un poquito más complicados. [En la tercera parte te hablaré de comandos como wget, systemctl, curl, printenv, mkfs, kill, top y otros]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}})

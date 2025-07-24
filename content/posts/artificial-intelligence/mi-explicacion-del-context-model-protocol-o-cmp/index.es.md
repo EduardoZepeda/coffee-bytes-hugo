@@ -22,7 +22,7 @@ slug: /artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-ve
 title: Comprende el Model Context Protocol (MCP) de una vez por todas
 ---
 
-Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entiendo, vi muchos videos al respecto, pero no pude entenderlo, así que tomé mis notas al respecto y las convertí en una publicación para que puedas entenderlo sin esfuerzo. También escribí un post donde explico [como crear un MCP server y MCP tools desde cero]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="es" >}})..
+Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entiendo, vi muchos videos al respecto, pero no pude entenderlo, así que tomé mis notas al respecto y las convertí en una publicación para que puedas entenderlo sin esfuerzo. También escribí un post donde explico [como crear un MCP server y MCP tools desde cero]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="es" >}}).
 
 ## ¿Por qué se creó el Model Context Protocol?
 

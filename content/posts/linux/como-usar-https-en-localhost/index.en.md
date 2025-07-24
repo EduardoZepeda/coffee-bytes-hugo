@@ -42,7 +42,7 @@ There are several ways of dealing with this, one of them is to sign our own cert
 [Caddy](https://github.com/caddyserver/caddy#?) is a server written in [Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), known to be easy peasy to configure (Unlike [configuring Nginx](/en/linux/nginx-keepalive-gzip-http2-better-performance-on-your-website/)), and it also includes *https* by default.
 
 
-It is so simple to set up that it only requires a simple file called Caddyfile, with no extension. You can think of the latter as the equivalent of a [Dockerfile in Docker](/en/docker/how-to-write-a-docker-file-from-scratch/).
+It is so simple to set up that it only requires a simple file called Caddyfile, with no extension. You can think of the latter as the equivalent of a [Dockerfile in Docker]({{< ref path="/posts/docker/como-escribir-un-archivo-docker-file/index.md" lang="en" >}}).
 
 Install it following the instructions according to your OS and create the *Caddyfile*.
 
@@ -84,4 +84,4 @@ caddy stop
 caddy start
 ```
 
-Afterwards you should be able to access your-sub-domain.localhost or your-sub-domain.localhost:443 via *https* in your browser, [the curl command](/en/linux/linux-basic-commands-lsof-top-ps-kill-systemctl-chown-chroot/) or whatever tool you prefer to use.
+Afterwards you should be able to access your-sub-domain.localhost or your-sub-domain.localhost:443 via *https* in your browser, [the curl command]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="en" >}}) or whatever tool you prefer to use.

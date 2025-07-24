@@ -11,10 +11,10 @@ categories:
 coverImage: images/DockerCursoPractico.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@huy-phan-316220/
 date: '2020-10-07'
-description: 'A compilation and listing most useful and basic docker commands: how
+description: 'A compilation and listing most useful docker commands: how
   to create, destroy, manage containers and volumes and how to use Dockerfiles and
   understand its build process.'
-keyword: basic docker commands
+keyword: docker commands
 keywords:
 - docker
 - containers
@@ -24,7 +24,7 @@ keywords:
 title: The Most Useful and Basic Docker commands
 ---
 
-If you read the previous post where I explain [what Docker is for](/en/docker/what-is-docker-and-what-is-it-for/) you should already have a pretty simple idea of Docker, but I haven't posted anything about the most basic docker commands. Here I explain them in detail, and also how to use volumes along with Dockerfiles to automate your container's creation process.
+If you read the previous post where I explain [what Docker is for]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="en" >}}) you should already have a pretty simple idea of Docker, but I haven't posted anything about the most basic docker commands. Here I explain them in detail, and also how to use volumes along with Dockerfiles to automate your container's creation process.
 
 ## Images and containers are different
 
@@ -470,7 +470,7 @@ If we want the volume to be read-only, just add "_:ro_" to the end of our syntax
 docker run --name mongoDB -d -v /Users/user/Dev/database:/data/db:ro mongo
 ```
 
-There, this is enough to have a basic idea of the volumes. But typing the commands one by one is cumbersome, and you can't (and shouldn't) save those commands in a version control system, why not something more portable and convenient, well, [for that you can learn how to write a Dockerfile from scratch.](/en/docker/how-to-write-a-docker-file-from-scratch/)
+There, this is enough to have a basic idea of the volumes. But typing the commands one by one is cumbersome, and you can't (and shouldn't) save those commands in a version control system, why not something more portable and convenient, well, [for that you can learn how to write a Dockerfile from scratch.]({{< ref path="/posts/docker/como-escribir-un-archivo-docker-file/index.md" lang="en" >}})
 
 ## Useful docker commands
 

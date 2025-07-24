@@ -35,7 +35,7 @@ Los submodules de git son útiles cuando queremos incorporar código de terceros
 
 * Un repositorio compartido para un tema o estilos (Como en el SSG, Hugo).
 * Una librería de terceros.
-* Un repositorio que quieres usar para crear un [Dockerfile en Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/).
+* Un repositorio que quieres usar para crear un [Dockerfile en Docker]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}).
 
 Por otro lado, **usar git submodules complica bastante el manejo de repositorios si no se tiene cuidado o si se trabaja con muchos submódulos**, tienes que prestar atención al contexto en el que te encuentras y recordar todo el tiempo el repositorio en el que te encuentras.
 

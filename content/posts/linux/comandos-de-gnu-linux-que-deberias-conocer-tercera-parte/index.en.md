@@ -426,7 +426,7 @@ Modificación: 2021-09-11 15:03:41.476553169 -0500
 
 ## chroot
 
-There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker](/en/docker/what-is-docker-and-what-is-it-for/). It's because of chroot that [docker containers are able to have their own file system]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
+There are situations where we need to change the default root folder address for some more advanced uses, such as creating overlays or containers, such as those in [docker]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="en" >}}). It's because of chroot that [docker containers are able to have their own file system]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
 ```bash
 chroot /my_new_root_directory

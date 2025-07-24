@@ -32,19 +32,19 @@ title: Conoce los comandos básicos de Docker Compose
 
 Docker compose nos permite crear aplicaciones con múltiples contenedores, estos contenedores interaccionarán y podrán verse entre sí. Para configurar cada uno de estos servicios usaremos un archivo en formato YAML (también le dicen YML). En este tutorial de docker compose te muestro algunos de los comandos más usados y lo que hace cada uno. 
 
-Si quieres refrescar tu memoria visita mi [tutorial de comandos básicos de Docker.](/es/docker/tutorial-de-comandos-basicos-de-docker/)
+Si quieres refrescar tu memoria visita mi [tutorial de comandos básicos de Docker.]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}})
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si quieres hostear una aplicación usando Docker o Kubernetes de manera económica checa Digital Ocean, puedes tener un VPS desde $4 usd el mes.">}}
 
 ## ¿Qué es docker compose?
 
-Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples [contenedores de Docker](/es/docker/que-es-docker-y-para-que-sirve/). En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
+Docker compose es una herramienta que te permite manejar aplicaciones que consisten en multiples [contenedores de Docker]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="es" >}}). En lugar de tener múltiples Dockerfiles y estar ejecutando y vinculando uno por uno con Docker, definimos un archivo docker-compose.yml con la configuración que deseemos y lo ejecutamos, esto creará todos los servicios necesarios de nuestra aplicación. Además funciona en ambientes de desarrollo, producción, staging o testing, así como con servicios de integración continua.
 
 Docker-compose está programando usando el [lenguaje de programación go o golang]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}); el mismo con lenguaje con el que [funcionan internamente los containers de go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}).
 
 ## Estructura de un archivo docker-compose.yml
 
-Así como existían los [Dockerfile en Docker](/es/docker/como-escribir-un-archivo-de-dockerfile-desde-cero/), donde configurabas el estado de un contenedor de manera declarativa, en Docker compose existe un equivalente: los archivos yml.
+Así como existían los [Dockerfile en Docker]({{< ref path="/posts/docker/como-escribir-un-archivo-docker-file/index.md" lang="es" >}}), donde configurabas el estado de un contenedor de manera declarativa, en Docker compose existe un equivalente: los archivos yml.
 
 Antes de empezar con los comandos vamos a explicar la estructura de un archivo de configuración de docker-compose y algunas directrices comunes.
 
@@ -203,7 +203,7 @@ En el ejemplo anterior docker-compose ejecutará el servicio web solo si ya est�
 
 ### environment
 
-La configuración environment nos permite establecer una lista de [variables de entorno](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/) que estarán disponibles en nuestro servicio.
+La configuración environment nos permite establecer una lista de [variables de entorno]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}}) que estarán disponibles en nuestro servicio.
 
 ```docker
 version: '3.8'

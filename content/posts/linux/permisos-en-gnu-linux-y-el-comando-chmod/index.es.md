@@ -17,7 +17,7 @@ slug: /linux/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/
 title: Entiende los permisos en GNU Linux y el comando chmod
 ---
 
-La entrada anterior fue la tercera parte sobre la serie de los comandos más comunes de GNU/Linux. Para finalizar la entrada escribí acerca del [comando chmod, que gestiona los permisos](/es/linux/comandos-basicos-de-linux-printenv-export-lsof-top-ps-kill-curl-systemctl-chown-chroot/). Este comando chmod es uno de los comandos un poco más complejos de GNU/Linux, no por su variedad de opciones, sino por los conocimientos previos que se requieren para poder usarlo correctamente.
+La entrada anterior fue la tercera parte sobre la serie de los comandos más comunes de GNU/Linux. Para finalizar la entrada escribí acerca del [comando chmod, que gestiona los permisos]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}}). Este comando chmod es uno de los comandos un poco más complejos de GNU/Linux, no por su variedad de opciones, sino por los conocimientos previos que se requieren para poder usarlo correctamente.
 
 En esta entrada voy a ampliar un poco el tema de los permisos y mostraré las dos diferentes maneras del comando chmod para asignar permisos a un archivo. Para esta entrada vamos a usar varios comandos básicos de GNU/Linux, si no estás muy familiarizado con los comandos básicos [entra aquí donde explico algunos comandos básicos.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}})
 

@@ -60,7 +60,7 @@ Recruiter sends you a script? Examine it carefully before you run it. Yes, I kno
 
 ### **Use a virtual machine**.
 
-Mount a virtual machine, either Virtual Box or Gnome Boxes, on Linux, or a [completely isolated Docker container](/en/docker/the-most-useful-and-basic-docker-commands/), if you don't mind not having a graphical interface. 
+Mount a virtual machine, either Virtual Box or Gnome Boxes, on Linux, or a [completely isolated Docker container]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="en" >}}), if you don't mind not having a graphical interface. 
 
 Another option available, and my personal favorite: a live USB with the distribution of your choice (Debian, Fedora, or whatever you want), 
 

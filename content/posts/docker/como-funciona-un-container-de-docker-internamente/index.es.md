@@ -27,7 +27,7 @@ slug: /docker/container-de-docker-con-namespaces-y-cgroups/
 title: ¿Cómo Funciona un Container de Docker Internamente?
 ---
 
-Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos básicos de Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
+Los containers, especialmente los de Docker, son usados en todos lados, solemos verlos como pequeños sistemas operativos aislados que se encuentran dentro de nuestro sistema. Usando los [comandos básicos de Docker]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}) podemos modificarlos, crearlos, borrrarlos e incluso introducirnos en ellos y correr comandos, pero ¿te has preguntando cómo funcionan internamente?
 
 Sabemos que un container es un proceso de linux con varias características:
 * Es un proceso, o grupo de procesos, de linux ejecutado por un usuario.

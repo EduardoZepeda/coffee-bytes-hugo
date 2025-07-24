@@ -154,6 +154,8 @@ graph TD;
 * **Streaming del lado del cliente**. El cliente envía múltiples peticiones al
   servidor y este responde con una única respuesta.
 
+  Usado en el [MCP Model Context Protocol]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="es" >}})
+
 ``` mermaid
 graph TD;
     Cliente-->Servidor;

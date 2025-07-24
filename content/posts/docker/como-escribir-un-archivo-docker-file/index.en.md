@@ -22,7 +22,7 @@ keywords:
 title: How to write a docker file from scratch
 ---
 
-In the previous post [I explained the most common Docker commands, run, exec, pull, etc](/en/docker/the-most-useful-and-basic-docker-commands/). Up to this point everything has been done manually, through the terminal, but what if we want a way to save our process transformations to an image for easy sharing or to keep track in git. Dockerfiles allow just that and make it easy to customize an image as a series of steps to take to get our system to the point we want it to be.
+In the previous post [I explained the most common Docker commands, run, exec, pull, etc]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="en" >}}). Up to this point everything has been done manually, through the terminal, but what if we want a way to save our process transformations to an image for easy sharing or to keep track in git. Dockerfiles allow just that and make it easy to customize an image as a series of steps to take to get our system to the point we want it to be.
 
 ## What is a Docker file?
 

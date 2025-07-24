@@ -655,7 +655,7 @@ Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática 
 
 El despliegue también es una tarea sencilla de realizar.
 
-Para hacer deployment sin usar [Docker](/es/docker/que-es-docker-y-para-que-sirve/) basta con correr uvicorn, justo como hicimos al principio de este tutorial.
+Para hacer deployment sin usar [Docker]({{< ref path="/posts/docker/que-es-y-para-que-me-sirve-docker/index.md" lang="es" >}}) basta con correr uvicorn, justo como hicimos al principio de este tutorial.
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 80
