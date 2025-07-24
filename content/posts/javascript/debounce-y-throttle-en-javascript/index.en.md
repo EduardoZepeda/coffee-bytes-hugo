@@ -20,13 +20,13 @@ keywords:
 title: Limit the execution of functions in JS with Debounce and Throttle
 ---
 
-Let's do a Debounce vs Throttle. Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. Patterns are not exclusive to Javascript; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/en/software-architecture/throttling-on-nginx/).
+Let's do a Debounce vs Throttle. Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. This patterns are not exclusive to Javascript and can be used in any language or can be used as high level abstractions; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/en/software-architecture/throttling-on-nginx/).
 
 Both patterns generate a function that receives a callback and a timeout or delay.
 
 ## Debounce vs Throttle differences
 
-If you're in a rush, these are the main differences and applications for both patterns. However, if you want to understand them deeply keep reading.
+If you're in a rush  ~~or just lazy~~, these are the main differences and applications for both patterns. However, if you want a deeper understanding of both keep reading.
 
 | **Aspect**              | **Debounce**                                                                              | **Throttle**                                                                                    |
 | ----------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |

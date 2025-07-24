@@ -29,7 +29,7 @@ When I checked the comments—I don’t even know what I gain from doing that—
 
 There’s a strong consensus among artists regarding AI.  
 
-Movements like #NOAI have made their rejection of this technology very clear. The contempt seems to stem from how it was trained—using artists' work without their permission, accused of plagiarizing something as personal as a style—and the fear of being replaced by this technology, which affects them economically.  
+Movements like #NOAI or [Made with human intelligence](https://www.forbes.com/sites/lesliekatz/2024/07/17/human-intelligence-art-movement-takes-defiant-stand-against-ai/#?) have made [their rejection of this technology very clear](https://notbyai.fyi/es/#?). The contempt seems to stem from how it was trained—using artists' work without their permission, accused of plagiarizing something as personal as a style—and the fear of being replaced by this technology, which affects them economically.  
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753062961/coffee-bytes/no-ai-movement_g772l5.jpg" class="md-local-image" alt="NO AI movement" caption="NO AI movement" >}}  
 
