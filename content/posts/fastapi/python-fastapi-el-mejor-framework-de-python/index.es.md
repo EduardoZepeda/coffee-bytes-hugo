@@ -5,6 +5,7 @@ aliases:
 - /python-fastapi-como-django-pero-mas-rapido-tutorial/
 - /python-fastapi-el-mejor-framework-de-python//1000
 - /es/tutorial-de-fastapi-el-mejor-framework-de-python/
+- /es/python-fastapi-el-mejor-framework-de-python/
 authors:
 - Eduardo Zepeda
 categories:

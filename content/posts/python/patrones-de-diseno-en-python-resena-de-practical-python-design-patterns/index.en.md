@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/design-patterns-in-software/
+- /en/python-design-patterns-review-of-practical-python-design-patterns/
 authors:
 - Eduardo Zepeda
 categories:

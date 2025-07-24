@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/go-coding-language-introduction-to-variables-and-data-types/
+- /en/go-programming-language-introduction-to-variables-and-data-types/
 authors:
 - Eduardo Zepeda
 categories:

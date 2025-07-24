@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/saas-and-ots-as-business-models-and-my-opinion-on-once/
+- /en/saas-and-ots-as-software-business-models-and-my-opinion-on-once/
 authors:
 - Eduardo Zepeda
 categories:

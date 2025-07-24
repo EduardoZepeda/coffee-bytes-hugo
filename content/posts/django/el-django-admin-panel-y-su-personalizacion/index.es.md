@@ -6,6 +6,7 @@ aliases:
 - /el-django-admin-panel-y-su-personalizacion/
 - /el-django-admin-panel-y-su-personalizacion//1000
 - /es/tutorial-como-modificar-y-personalizar-el-django-admin-panel/
+- /es/django-admin-panel-y-su-personalizacion/
 authors:
 - Eduardo Zepeda
 categories:

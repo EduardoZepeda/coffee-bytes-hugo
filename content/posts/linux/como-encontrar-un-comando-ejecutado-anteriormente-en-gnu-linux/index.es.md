@@ -2,6 +2,7 @@
 aliases:
 - /como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux
 - /es/como-encontrar-un-comando-ejecutado-en-gnu-linux/
+- /es/como-encontrar-un-comando-ejecutado-anteriormente-en-gnu-linux/
 authors:
 - Eduardo Zepeda
 categories:

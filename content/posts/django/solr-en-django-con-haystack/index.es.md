@@ -4,6 +4,7 @@ aliases:
 - /como-implementar-solr-para-busquedas-o-queries-en-django
 - /busquedas-con-solr-con-django-haystack
 - /es/como-implementar-solr-para-busquedas-o-queries-en-django/
+- /es/busquedas-con-solr-con-django-haystack/
 authors:
 - Eduardo Zepeda
 categories:
