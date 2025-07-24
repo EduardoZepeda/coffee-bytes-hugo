@@ -9,9 +9,9 @@ categories:
 coverImage: images/DockerCompose.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@felixmittermeier/
 date: '2020-10-14'
-description: In this Docker compose tutorial I explain the most common commands, as
+description: In this Docker compose tutorial I explain the most widely used docker compose commands, as
   well as the structure and creation of a docker-compose.yml file.
-keyword: docker compose
+keyword: docker compose commands
 keywords:
 - docker
 - docker compose
@@ -24,7 +24,7 @@ title: Get to know the basic Docker Compose commands
 url: :sections[last]/get-to-know-the-basic-docker-compose-commands
 ---
 
-Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="en" >}}) post.
+Docker compose allows us to create applications with multiple containers, these containers will interact and will be able to see each other. To configure each of these services we will use a file in YAML format (also called YML). In this docker compose tutorial I show you some of the most used docker compose commands and what each one does. If you want to review the basic Docker commands visit my [basic Docker commands and usage]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="en" >}}) post.
 
 ## What is docker compose?
 
@@ -357,7 +357,7 @@ If we want to specify a specific docker-compose file we use the _-f_ option, fol
 docker-compose -f production.yml build
 ```
 
-### Running docker-compose and its services
+### Running docker-compose and its services with docker compose up command
 
 Once the image with our services has been created we can start and create the services with the up command. With docker-compose up will start or restart all the services in the docker-compose.yml file or the one we specify with _-f_.
 
@@ -369,7 +369,7 @@ docker-compose up
 #Creating django   ... done
 ```
 
-We will probably want to run our stack of services in the background, for that just add the _-d_ option at the end.
+We will probably want to run our stack of services in the background, for that just add the _-d_ (dettached) option at the end.
 
 ```bash
 docker-compose up -d
@@ -432,7 +432,7 @@ To execute docker-compose stop a only to a service just put the name of the serv
 docker-compose stop <service>
 ```
 
-### Starting docker-compose services without creating them
+### Docker compose commands to star docker-compose services without creating them
 
 We can start one or all services with docker-compose start. This command is useful only to restart containers previously created but stopped at some point, and it does not create any new containers.
 
@@ -457,7 +457,7 @@ To execute a command inside one of our services we use the run command, the --rm
 docker-compose run --rm django python manage.py migrate
 ```
 
-### See the processes
+### See the docker services or processes
 
 To list the running containers
 
@@ -495,7 +495,7 @@ To see the processes of a single service just type its name at the end of the co
 docker-compose top <service>
 ```
 
-### View logs
+### View docker compose logs
 
 If something went wrong we can view the logs using docker-compose logs. If we want to see the logs of a specific stack just set our yml file with the _-f._ option.
 
@@ -516,7 +516,7 @@ As with the other commands, if we want to read the logs of a service, it is enou
 docker-compose -f production.yml logs <service>
 ```
 
-## Scaling containers
+## Scaling docker compose containers
 
 Previously, the docker-compose scale command was used to scale services. In the new versions of docker-compose scaling containers is done with the command docker-compose up. After the command we add the --scale option followed by the service we want to scale and the number of copies using the format service=number.
 

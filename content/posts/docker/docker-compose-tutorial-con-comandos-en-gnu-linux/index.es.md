@@ -90,7 +90,7 @@ DATABASES = {
 }
 ```
 
-## Opciones de configuración en docker compose
+## Opciones de configuración en el archivo docker-compose.yml
 
 La personalización de un archivo docker-compose.yml depende de sus opciones de configuración, estas le dirán a cada uno de los servicios como comportarse.
 
@@ -505,7 +505,7 @@ Para ver los procesos de un único servicio basta con escribir su nombre al fina
 docker-compose top servicio
 ```
 
-### Ver los logs
+### Ver los logs de docker-compose
 
 Si algo salió mal podemos ver los logs usando docker-compose logs. Si queremos ver los logs de un stack en específico basta con establecer nuestro archivo yml con la opción _\-f._
 
@@ -526,7 +526,7 @@ De igual manera que con los demás comandos, si queremos leer los logs de un ser
 docker-compose -f production.yml logs servicio
 ```
 
-## Escalar contenedores
+## Escalar contenedores de docker compose
 
 Antes se usaba el comando docker-compose scale para escalar los servicios. En las nuevas versiones de docker-compose escalar contenedores se realiza con el comando docker-compose up. Tras el comando agregamos la opción --scale seguida del servicio que queremos escalar y el número de copias usando el formato servicio=numero.
 
