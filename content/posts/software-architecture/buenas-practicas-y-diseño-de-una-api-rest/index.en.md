@@ -175,7 +175,7 @@ GET /posts/1?embed=comments
 
 ## Pagination in APIs
 
-As I've already mentioned in previous posts when I talked about Django, for [application performance](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/) reasons, you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
+As I've already mentioned in previous posts when I talked [how to scale a django app](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/), you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
 
 To facilitate the use of your API, consider adding pagination-related information in your response:
 
