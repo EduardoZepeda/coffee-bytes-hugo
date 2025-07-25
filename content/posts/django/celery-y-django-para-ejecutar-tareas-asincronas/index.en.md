@@ -20,7 +20,7 @@ title: How to use Django Framework asynchronously using Celery
 
 Celery, in combination with Django serve to solve a problem: the lack of asynchrony in our application. Sending an email, processing some file or responding to a third party service will keep our execution waiting for the task to finish and, as a consequence, our user waiting.
 
-Using celery is one of the things you can do to [improve the performance of a Django application](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/). And you can also create periodic tasks with celery and django.
+Using celery is one of the things you can do to [improve the performance of a Django application]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}}). And you can also create periodic tasks with celery and django.
 
 Look at this example view:
 

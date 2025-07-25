@@ -25,7 +25,7 @@ slug: /django/diferencias-entre-select-related-y-prefetch-related-en-django/
 title: Diferencias entre select_related y prefetch_related en Django
 ---
 
-Los métodos de Django, *select_related* y *prefetch_related*, **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/)
+Los métodos de Django, *select_related* y *prefetch_related*, **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}}))
 
 Solo ten en mente que hay mejores cosas que optimizar en [tu aplicación que obsesionarte con su rendimiento](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), pero sí insistes considera echarle un vistazo a aggregate y annotate, demás de tener cuidado con usar este último pues [las subqueries pueden volver tus queries increíblemente lentas.](/es/django/arregla-querys-lentas-en-django-al-usar-annotate-y-subqueries/)
 

@@ -31,7 +31,7 @@ Para usar la caché en django, basta con seguir tres sencillos pasos:
 3. Agregar el middleware necesario para que django devuelva la caché antes de procesar la vista.
 4. Usar la caché de bajo nivel para cachear vistas o datos específicos (opcional)
 
-Implementar un sistema de caché te permite [mejorar enormemente el rendimiento de una aplicación hecha en Django](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/).
+Implementar un sistema de caché te permite [mejorar enormemente el rendimiento de una aplicación hecha en Django](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}})).
 
 ## ¿Qué tanto mejora la caché el rendimiento?
 

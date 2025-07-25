@@ -179,7 +179,7 @@ GET /posts/1?embed=comments
 
 ## Paginación en las API
 
-Como ya te he mencionado en entradas anteriores cuando hablé de [como escalar una aplicación de Django](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
+Como ya te he mencionado en entradas anteriores cuando hablé de [como escalar una aplicación de Django](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}})), no siempre querrás devolverle toda la base de datos a tus usuarios en cada petición. Para base de datos grandes es mejor fraccionar la respuesta en páginas, con un número limitado de elementos por cada página.
 
 Para facilitar el uso de tu API, considera añadir la información relacionada a la paginación en tu respuesta:
 

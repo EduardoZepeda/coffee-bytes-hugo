@@ -27,7 +27,7 @@ La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté 
 
 Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en mi entrada sobre la [guia definitiva de Django.](/es/django/la-guia-definitiva-de-django/)
 
-Annotate y aggregate son imprescindibles para [escalar aplicaciones de Django para servir a una multitud de usuarios](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/)
+Annotate y aggregate son imprescindibles para [escalar aplicaciones de Django para servir a una multitud de usuarios](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}}))
 
 ## Django annotate y aggregate principales diferencias resumidas
 

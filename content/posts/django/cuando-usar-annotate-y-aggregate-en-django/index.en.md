@@ -25,7 +25,7 @@ The computer screen illuminated my face full of despair, I rubbed my head in des
 
 This tutorial assumes you know the basics about the Django ORM, in case you don't, I have a link to a free book in my post about the [definitive Django guide](/en/django/the-definitive-guide-to-django/).
 
-Annotate and aggregate are primordial for [scaling Django applications to serve a myriad of users](/en/software-architecture/how-to-scale-a-django-app-to-serve-one-million-users/)
+Annotate and aggregate are primordial for [scaling Django applications to serve a myriad of users]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}})
 
 ## Django annotate and aggregate main differences summarized
 

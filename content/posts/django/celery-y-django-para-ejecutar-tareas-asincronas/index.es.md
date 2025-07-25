@@ -26,7 +26,7 @@ title: Cómo usar Django Framework de manera asíncrona usando Celery
 
 Celery, en combinación con Django sirven para resolver un problema: la falta de asincronía en nuestra aplicación. El envío de un correo electrónico, el procesamiento de algún archivo o la respuesta al servicio de un tercero mantendrán nuestra ejecución en espera de que la tarea se finalice y, como consecuencia, a nuestro usuario esperando.
 
-Usar celery es una de las cosas que puedes hacer para [mejorar el rendimiento de una aplicación en Django](/es/software-architecture/como-escalar-django-para-manejar-millones-de-vistas/). Y también puedes crear tareas periódicas con celery y django.
+Usar celery es una de las cosas que puedes hacer para [mejorar el rendimiento de una aplicación en Django](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}})). Y también puedes crear tareas periódicas con celery y django.
 
 Mira este ejemplo de vista:
 
