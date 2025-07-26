@@ -97,7 +97,7 @@ La "mejor" opción depende de las necesidades:
 - Para uso intensivo de IA: Bolt
 - Empresas: Bolt o Lovable
 
-## Landing Page en v0-vercel
+## Bolt vs Lovable vs Vercel V0 probando hacer una landing page
 
 El resultado de [Vercel V0](https://v0.dev/#?) es bastante decente, pero no extraordinario. 
 
