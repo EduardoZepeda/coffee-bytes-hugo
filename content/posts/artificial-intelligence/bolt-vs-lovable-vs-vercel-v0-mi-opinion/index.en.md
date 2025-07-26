@@ -23,7 +23,7 @@ title: Bolt vs Lovable vs V0 Vercel For Landing Pages Comparison
 
 All the tech influencers are spreading FOMO and talking about tools like Bolt, Vercel's V0, and Lovable. But I get it, [we're still in an AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}). 
 
-Despite their non-realistic valuation, I'm astonished about what these tools can do without needing REST APIs, nor [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}) integrations from the user. 
+Despite their non-realistic valuation, I'm astonished about what these tools can do without needing [REST APIs]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), nor [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}) integrations from the user. 
 
 So, given the latter, I decided to try all three to create something simple, a fairly straightforward project: a landing page. 
 
@@ -49,7 +49,7 @@ But putting that aside, I think the result is solid.
 
 ## Trying to create a Landing Page in Bolt
 
-[Bolt's](https://bolt.new/#?) proposal was my favorite of the three. Using the neon light effect on the letters seems like a good choice to me, as it perfectly reflects the cyberpunk aesthetic of novels like Neuromancer or video games like Cyberpunk 2077. 
+**[Bolt's](https://bolt.new/#?) proposal was my favorite one**. Using the neon light effect on the letters seems like a good choice to me, as it perfectly reflects the cyberpunk aesthetic of novels like Neuromancer or video games like Cyberpunk 2077. 
 
 Bolt's AI added images that match the color palette, and I also think the frame around the image is a nice touch. The icing on the cake is the glitch effect on the hero, which is often used in cyberpunk-style audiovisual material. 
 

@@ -24,7 +24,7 @@ title: Bolt vs Lovable vs V0 Vercel Comparando Resultados y Mi Opinion
 
 Todos los influencers de tecnología están esparciendo el FOMO y hablando de herramientas como Bolt, V0 de Vercel, y Lovable. Pero lo entiendo, [aún estamos en una burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}). 
 
-Sin embargo, a pesar de su valoración poco realista, estoy asombrado de lo que estas herramientas pueden hacer sin necesidad de API REST ni integraciones del [Protocolo de contexto del modelo]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}) por parte del usuario. 
+Sin embargo, a pesar de su valoración poco realista, estoy asombrado de lo que estas herramientas pueden hacer sin necesidad de [API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}) ni integraciones del [Protocolo de contexto del modelo]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}) por parte del usuario. 
 
 Para el prompt utilicé algo bastante sencillo. Decidí no ser tan específico, porque es el tipo de prompt que utilizaría una persona que no está tan familiarizada con el contexto en los Large Language Models. Y por eso lo mantuve corto, ambiguo y no tan específico.
 
@@ -32,7 +32,7 @@ Para el prompt utilicé algo bastante sencillo. Decidí no ser tan específico, 
 
 ## Landing Page en v0-vercel
 
-El resultado de [Vercel V0](https://v0.dev/#?) es bastante decente. 
+El resultado de [Vercel V0](https://v0.dev/#?) es bastante decente, pero no extraordinario. 
 
 La paleta de colores es muy Cyberpunk. Me encantó el fondo cuadriculado, la landing page me pareció un poco simple, pero cumple perfectamente con lo prometido.
 
@@ -40,7 +40,7 @@ La paleta de colores es muy Cyberpunk. Me encantó el fondo cuadriculado, la lan
 
 ### Tuve problemas al usar v0-vercel
 
-Desafortunadamente, enfrenté problemas con la ejecución en local, específicamente un par de dependencias que no eran compatibles entre sí, nada muy complicado de resolver. 
+Desafortunadamente, **enfrenté problemas con la ejecución en local**, específicamente un par de dependencias que no eran compatibles entre sí, nada muy complicado de resolver. 
 
 Lo comento porque me pareció bastante extraño dado que en su plataforma todo parecía ir perfecto, pero al momento de querer replicar el proyecto en mi computadora, no funcionó "out of the box".
 
@@ -48,7 +48,7 @@ Pero dejando de lado eso, yo creo que está bien logrado y el resultado es sóli
 
 ## Landing Page en Bolt
 
-La propuesta de [Bolt](https://bolt.new/#?) fue mi favorita de las tres. Usar el efecto de luces de neón en las letras me parece un acierto, ya que refleja perfectamente la estética cyberpunk de novelas como neuromante o videojuegos como Cyberpunk 2077. 
+**La propuesta de [Bolt](https://bolt.new/#?) fue mi favorita de las tres**. Usar el efecto de luces de neón en las letras me parece un acierto, ya que refleja perfectamente la estética cyberpunk de novelas como neuromante o videojuegos como Cyberpunk 2077. 
 
 La AI de Bolt añadió imágenes que van con la paleta de colores, el marco en la imagen me parece también un toque bastante acertado, y la cereza del pastel es el efecto tipo glitch en el hero, usado frecuentemente en material audiovisual de estilo Cyberpunk. 
 
