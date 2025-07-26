@@ -234,7 +234,7 @@ CONTAINER ID   NAME                  CPU %     MEM USAGE / LIMIT    MEM %     NE
 
 ## How to extract a file from a docker container?
 
-To extract a file from a container we use the *docker cp* command, which is basically an analogue of the [Linux cp-command]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}), with the following syntax.
+To extract a file from a container we use the *docker cp* command, which is basically an analogue of the [Linux cp-command]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}), with the following syntax.
 
 ``` bash
 docker cp <container_name>:<path_to_file> <path_to_extract_on_your_computer>

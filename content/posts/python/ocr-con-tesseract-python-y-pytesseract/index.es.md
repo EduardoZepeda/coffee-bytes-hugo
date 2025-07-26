@@ -173,4 +173,4 @@ Facebook debe usar algún tipo de tecnología similar para censurar las imágene
 
 Otra de las aplicaciones más comunes la transformación de un libro en pdf en imágenes a texto, ideal para transformar digitalizaciones de libros antiguos a epub o archivos de texto.
 
-Como puedes ver es bastante útil, yo pienso que es una de las aplicaciones de la AI que no desaparecerá [cuando la burbuja de AI truene]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
+Como puedes ver es bastante útil, yo pienso que es una de las aplicaciones de la AI que no desaparecerá [cuando la burbuja de AI truene]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}).

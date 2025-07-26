@@ -96,6 +96,6 @@ Lo anterior es una mala noticia si quieres un sitio web que destaque entre la mu
 
 ### Los generadores de código usando LLM olvidan el SEO
 
-Otra cosa extra que pude notar es la ausencia total de incluso el más básico [SEO técnico en la landing page]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), así que no cuentes con llevar tu sitio web a las primeras posiciones de Google sin invertirle algo de tiempo. Pero hey, los sitios web solo requirieron un prompt.
+Otra cosa extra que pude notar es la ausencia total de incluso el más básico [SEO técnico en la landing page]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="es" >}}), así que no cuentes con llevar tu sitio web a las primeras posiciones de Google sin invertirle algo de tiempo. Pero hey, los sitios web solo requirieron un prompt.
 
 Sorprendentemente, [a diferencia del arte generado por IA, estas herramientas de código generado por IA]({{< ref path="/posts/artificial-intelligence/la-ai-se-percibe-de-manera-diferente-entre-artistas-y-devs/index.md" lang="es" >}}) pasaron inadvertidas para las personas que no son expertas en tecnología.

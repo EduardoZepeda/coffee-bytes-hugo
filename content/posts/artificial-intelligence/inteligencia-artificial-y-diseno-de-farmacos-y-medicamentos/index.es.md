@@ -118,7 +118,7 @@ La inteligencia artificial es capaz de reconocer patrones que los seres humanos 
 
 {{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetina, un antidepresivo que actua bloqueando un receptor" caption="Fluoxetina, un antidepresivo que actua bloqueando un receptor" >}}
 
-Creo que este será uno de los usos más prometedores que se le darán una vez que [la burbuja de AI estalle]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
+Creo que este será uno de los usos más prometedores que se le darán una vez que [la burbuja de AI estalle]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}})
 
 ## ¿Qué parámetros debo de usar para entrenar un modelo de inteligencia artificial para descubrir nuevos fármacos?
 

@@ -58,7 +58,7 @@ Este tipo de captchas me parecen super prácticos para lidiar con la mayoría de
 
 Su desventaja, me parece, es su debilidad contra un ataque personalizado, pues bastará con que un humano entre al sitio web, lea la pregunta y adapte el código a su conveniencia.
 
-Además considero que, con el [auge de la inteligencia artificial]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) se volverán obsoletos, pues es suficiente pedirle a la AI que lea el label del input y que genere una respuesta adecuada.
+Además considero que, con el [auge de la inteligencia artificial]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) se volverán obsoletos, pues es suficiente pedirle a la AI que lea el label del input y que genere una respuesta adecuada.
 
 Mi veredicto:
 - Securidad: 6

@@ -71,7 +71,7 @@ Los fundamentos de las condiciones de carrera cuando se trabaja con código conc
 
 La base de las capacidades de prueba y cobertura de go.
 
-[{{<title "/posts/go/go-testing-basico-y-coverage/index">}}]({{< ref path="/posts/go/go-testing-basico-y-coverage/index.md" lang="en" >}})
+[{{<title "/posts/go/go-testing-basico-y-coverage/index">}}]({{< ref path="/posts/go/go-testing-basico-y-coverage/index.md" lang="es" >}})
 
 Cómo perfilar y examinar el rendimiento del código usando go.
 

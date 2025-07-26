@@ -44,7 +44,7 @@ Google ha hecho un trabajo excelente, por favor aprecia el tono, el audio limpio
 
 ## ¿Notebooklm y los demás modelos reemplazarán a los podcasts?
 
-La pregunta inevitable (y sus variantes) siempre que hay un avance significativo en el campo de las inteligencias artificiales: [¿Devin AI va a reemplazar a los desarrolladores?]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) o ¿es solo un sintoma más de la [burbuja de AI que estamos presenciando?]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
+La pregunta inevitable (y sus variantes) siempre que hay un avance significativo en el campo de las inteligencias artificiales: [¿Devin AI va a reemplazar a los desarrolladores?]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) o ¿es solo un sintoma más de la [burbuja de AI que estamos presenciando?]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}})
 
 No creo que sea tan simple, lo interesante de este asunto es tratar de encajarlo en este colosal rompecabezas de modelos de AI que se alza frente a nosotros ahora mismo.
 
