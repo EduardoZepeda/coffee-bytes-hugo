@@ -46,7 +46,7 @@ Identifica que consultas se están haciendo en tu aplicación usando [django-deb
 - **django_aggregate** para procesar toda la información de una sola consulta en un solo dato (sumatoria, promedios).
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
-- **annotate y subqueries** Ten cuidado con la forma en que Django utiliza [anotar y subconsultas y escribir CTEs o SQL en crudo]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="es" >}}) si es necesario.
+- **annotate y subqueries** Ten cuidado con la forma en que Django utiliza [anotar y subconsultas y escribir CTEs o SQL en crudo]({{< ref path="/posts/django/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="es" >}}) si es necesario.
 
 {{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar mostrando las queries SQL de una petición en Django" caption="Django debug tool bar mostrando las queries SQL de una petición en Django" >}}
 
