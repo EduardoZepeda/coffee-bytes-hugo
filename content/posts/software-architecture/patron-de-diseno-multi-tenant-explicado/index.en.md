@@ -22,13 +22,15 @@ The **multi tenant architecture** is a software architecture (Don't confuse it w
 
 In multi-tenant architecture, each tenant can be a company, a group or an individual user, and although they share the same infrastructure and code base, their respective data is **isolated and customized**.
 
-## Simple example of a multi-tenant application: A Shared House
+## Simple example of a multi-tenant application: A modern coworking
 
-Imagine a large house with several rooms, the living with roomies millenial's fantasy caused by expensive housing, well I'll put my traumas aside and continue. All tenants live under the same roof (the same application), but each has their own locked room (their data). Although they share the hallway and common facilities (infrastructure), their rooms are private and off-limits to others, of course, under normal conditions and those rooms may look different according to each tenant, as each one has customized it to their liking.
+Multi-tenant architecture is like a modern office building where different companies (tenants) (like wework but less corrupt) share the same physical infrastructure - elevators, security systems, utilities, and building management - but each company has completely isolated office spaces with their own data, configurations, and customizations that other companies cannot access. 
+
+Just as the building owner maintains one set of systems while serving multiple businesses, a multi-tenant application serves multiple organizations using a single instance of the software and database infrastructure, **with strict data isolation between tenants**. 
+
+This differs from a simple multi-user application, which is more like a single company's office where all employees share the same workspace, company data, and settings - everyone sees the same information and operates under the same organizational rules, whereas in multi-tenant systems, each tenant operates as if they have their own completely separate application with their own user base, data, and often customized features.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls" >}}
-
-Now, imagine that instead of a house, we are talking about a cloud service, such as Slack or Jira. You and other companies use the same system, but you see your data and customizations, not those of others.
 
 Taking it to a more real scenery, imagine you want to implement a service for managing small supermarket stores. Each separate store would represent a tenant, and each tenant is going to operate differently from the rest, have its own configuration, its own customers, suppliers and any other custom settings, plus the information of each supermarket store will be private.
 

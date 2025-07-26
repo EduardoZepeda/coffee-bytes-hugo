@@ -23,13 +23,15 @@ El **patrón multi tenant** es un enfoque de arquitectura (No confundir con [pat
 
 En la arquitectura multi-tenant, cada tenant puede ser una empresa, un grupo o un usuario individual, y aunque comparten la misma infraestructura y código base, sus datos están **aislados y personalizados**.
 
-## Ejemplo Sencillo de aplicación multi-tenant: Una Casa Compartida
+## Ejemplo Sencillo de aplicación multi-tenant: Un coworking moderno
 
-Imagínate una casa grande con varias habitaciones, el paraiso millenial de vivir con roomies porque la vivienda es cara, dejo mis traumas de lado y continuo. Todos los inquilinos viven bajo el mismo techo (la misma aplicación), pero cada uno tiene su propia habitación con llave (sus datos). Aunque compartan el pasillo y las instalaciones comunes (infraestructura), sus habitaciones son privadas y están fuera del acceso de los demás, claro, en condiciones normales y esas habitaciones pueden lucir diferente de acuerdo a cada inquilino, pues cada uno la ha personalizado a su gusto.
+La arquitectura multiusuario es similar a un edificio de oficinas moderno donde diferentes empresas (inquilinos) (como WeWork, pero con menos corrupción) comparten la misma infraestructura física (ascensores, sistemas de seguridad, servicios públicos y administración del edificio). Sin embargo, cada empresa cuenta con espacios de oficina completamente aislados con sus propios datos, configuraciones y personalizaciones, a los que otras empresas no pueden acceder.
+
+Al igual que el propietario del edificio mantiene un conjunto de sistemas mientras presta servicio a varias empresas, una aplicación multiusuario presta servicio a varias organizaciones utilizando una única instancia de software e infraestructura de base de datos, **con un estricto aislamiento de datos entre los inquilinos**.
+
+Esto difiere de una aplicación multiusuario simple (básicamente cualquier app simple), que se asemeja más a la oficina de una sola empresa donde todos los empleados comparten el mismo espacio de trabajo, datos y configuración (un godinato promedio si estás en México): todos ven la misma información y operan bajo las mismas reglas organizativas y ~~se ponen la misma camiseta~~. En cambio, en los sistemas multiusuario, cada inquilino opera como si tuviera su propia aplicación, con su propia base de usuarios, datos y, a menudo, funciones personalizadas.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls" >}}
-
-Ahora, imagina que en lugar de una casa, hablamos de un servicio en la nube, como Slack o Jira. Tú y otras empresas usan el mismo sistema, pero tú ves tus datos y personalizaciones, no los de los demás.
 
 Llevando el ejemplo en algo más práctico, imaginate que quieres implementar un servicio de administración de tiendas de supermercado pequeñas. Cada tienda separada representaría un tenant, y cada tenant va a operarse de manera diferente al resto, tendrá su propia configuración, sus propios clientes, proveedores y cualquier otra configuración personalizada, además la información de cada tienda de supermercado será privada.
 
