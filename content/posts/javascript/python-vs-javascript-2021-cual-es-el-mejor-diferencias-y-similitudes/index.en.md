@@ -2,6 +2,7 @@
 aliases:
 - /en/python-vs-javascript-which-is-the-best-programming-language
 - /en/javascript-vs-python-which-language-is-better-in-2025/
+- /en/javascript/python-vs-javascript-which-is-the-best-programming-language/
 authors:
 - Eduardo Zepeda
 categories:
@@ -10,19 +11,52 @@ categories:
 coverImage: images/PythonVSJavascript.jpg
 date: '2020-12-10'
 description: Learn the differences between Javascript and Python, two of the most
-  popular modern programming languages. I analyze their syntax, speed, available packages,
-  average salaries, philosophy, frameworks available and more.
+  popular modern programming languages. I analyze their syntax, speed, packages, etc.
+keyword: javascript vs python
 keywords:
 - python
 - javascript
 - opinion
-title: Javascript vs Python which language is better in 2025?
-url: :sections[last]/python-vs-javascript-which-is-the-best-programming-language
+title: Javascript vs Python which one is better for you?
+url: :sections[last]/javascript-vs-python-which-is-the-best-for-you
 ---
 
 If you've used only Python or only Javascript, you're probably a little curious to know what the other one looks like. I've used both and I can tell you a bit about the differences and some things in common that both languages have, so you can find the best one for you.
 
 I also have a [Python vs Go comparison]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}})that you can check out, also I share you [my favorite list of resources for learning Python]({{< ref path="/posts/python/best-source-to-learn-python/index.md" lang="en" >}})
+
+## Differences between Javascript and Python TLDR
+
+
+| Category                | Python                                                      | JavaScript                                                                       |
+| ----------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| **Primary Uses**        | Machine Learning, AI, scripting, web backend, data analysis | Web development (frontend/backend), interactive browser applications             |
+| **Popularity**          | More popular (StackOverflow 2023)                           | Less popular than Python, but TypeScript (its superset) is slightly more popular |
+| **Salaries**            | Slightly higher-paid (StackOverflow 2023)                   | Competitive salaries, but somewhat lower than Python                             |
+| **Maturity**            | Older (created in the 80s)                                  | Created in the 90s, rushed design (language inconsistencies)                     |
+| **Performance**         | Slower (interpreted)                                        | Faster (JIT compilation in modern engines like Node)                             |
+| **Typing**              | Strongly typed (no implicit type changes)                   | Weakly typed (allows implicit changes, e.g., `1 + "1" = "11"`)                   |
+| **Optional Typing**     | Supports optional typing (since Python 3.5)                 | TypeScript adds strong typing                                                    |
+| **Syntax**              | Indentation-based, fewer special characters                 | C/C++-like (curly braces, semicolons)                                            |
+| **Standard Library**    | Extensive ("batteries included")                            | Minimal libraries, but huge package ecosystem (npm)                              |
+| **Asynchronicity**      | Async/await (since Python 3.5), runs on a single thread     | Native async/await, multi-threaded execution                                     |
+| **Web Frameworks**      | Backend-focused (Django, Flask, FastAPI)                    | Full-stack (React, Angular, Vue for frontend; Express, NestJS for backend)       |
+| **Packages**            | ~348k on PyPI (fewer but more relevant)                     | +1 million on npm (more variety but redundant packages)                          |
+| **Browser Support**     | Not natively supported                                      | Native execution in browsers                                                     |
+| **Runtime Environment** | Pre-installed on Linux                                      | Node.js for non-browser execution                                                |
+
+### Which to Choose?
+- **Choose JavaScript if**:  
+  ✔ You are into web development, backend or frontend, it doesn't matter.  
+  ✔ You prefer faster execution speed but not as fast as a compiled language..  
+  ✔ You need a massive library ecosystem (npm).  
+
+- **Choose Python if**:  
+  ✔ You’re into Machine Learning, AI, or data analysis.  
+  ✔ You prefer readable syntax and maintainable code.  
+  ✔ You want a well designed (sorry Javascript) mature language with a huge standard library.  
+
+If you want to go deeper, just keep reading
 
 ## Python vs Javascript, introduction and differences
 
@@ -40,7 +74,7 @@ In this scheme I am referring to Javascript at the time of its creation, as an i
 
 {{<ad>}}
 
-## Which language is more mature, Javascript vs Python?
+## Which language is more mature, Python vs javascript?
 
 Python appeared in the late 1980s, while Javascript appeared in the early 1990s, so **Python is older** than Javascript. 
 
@@ -122,23 +156,24 @@ def titleToNumber(columnTitle: str) -> int:
 
 What about Typescript for Python? Well, it is already included, Python incorporates optional typing, starting with version 3.5, typing can be used by some linters to show you errors in the code, however the interpreter does not force its use. Check the [official documentation](https://docs.python.org/3/library/typing.html) to learn how to use them.
 
-## Differences in syntax between Javascript and Python
+## Is javascript easier than python
 
 ### Javascript syntax
 
 The syntax of **Javascript is quite similar to that of C++ and other classical programming languages. Separation between parts of the code is done by braces and semicolons**. Javascript uses _this_ as a reference to the object itself and they are not required when declaring methods on objects.
 
+I'd say that learning Javascript is harder than learning Python as your first programming language.
+
 ```javascript
-// true con minúsculas
-if(true){"resultado"}
-console.log("El punto y coma al final es opcional");
-class MiClase {
-  constructor(propiedad) {
-    this.propiedad = propiedad;
+if(true){"result"}
+console.log("colon at the end");
+class MyClass {
+  constructor(property) {
+    this.property = property;
   }
 }
 
-function(argumento, argumento_por_defecto="predeterminado"){
+function(argumento, default_argument="default"){
     let myFirstArgument = arguments[0]
     return myFirstArgument
 }
@@ -155,20 +190,19 @@ try {
 On the other hand, **Python favors readability, the use of special characters is reduced to a minimum and separation for parts of the code is done by indentation and line breaks**. Python uses _self_ to refer to the object itself and requires that it be passed as the first argument to each method of the object.
 
 ```python
-# True con mayusculas
 if True: 
-    return "resultado"
+    return "result"
 
-print("También puedes incluir punto y coma al final, pero la convención es no hacerlo")
+print("You can choose to omit colon")
 
-class MiClase:
-    def __init__(self, propiedad):
-        self.propiedad = propiedad
+class MyClass:
+    def __init__(self, property):
+        self.property = property
 
-def funcion(argumento_por_defecto = "predeterminado", *args, **kwargs):
-    mi_lista_de_argumentos = args
-    mi_diccionario_de_argumentos = kwargs
-    return mi_list_de_argumentos
+def funcion(default_argument = "default", *args, **kwargs):
+    my_arguments_list = args
+    my_keyword_argument = kwargs
+    return my_arguments_list
 
 try:
   do_something()
@@ -210,7 +244,7 @@ Javascript is used, mainly in the browser and is an essential language if you're
 
 Python is a multipurpose language, it allows you to create native UI applications, program networks or web servers, artificial intelligence, web application development, pretty much anything.
 
-## Which language is more popular Python or Javascript
+## Which language is more popular Python vs Javascript
 
 Javascript started out much more popular than Python, probably due to the rise of web browsers. However, somewhere around 2017, Python gained relevance compared to JavaScript and the trend continues until the end of 2024.
 
@@ -234,11 +268,11 @@ Python is characterized for being a language with batteries included, that is to
 
 On the other hand, Javascript includes only what is necessary, although it has a gigantic community of users creating packages and making them available to anyone who wants to take them.
 
-## Which language is faster Python or Javascript?
+## Javascript vs Python Speed
 
 As interpreted languages they are much slower than compiled languages, so they will be quite bad if you compare them with C, C++, Java, Rust, etc. 
 	
-### Is python faster than javascript?
+### Is Python faster than javascript?
 
 However, the difference between them is evident: it can be stated that **Javascript executed in Node is much faster than Python** with its original interpreter.
 
@@ -279,9 +313,9 @@ if __name__ == '__main__':
     run_async(main())
 ```
 
-## Web Frameworks for web development
+## Javascript vs Python for web development
 
-Javascript and Python have plenty of frameworks to choose from when it comes to web development.
+Javascript and Python have plenty of web frameworks to choose from when it comes to web development.
 
 ### Web Frameworks for Javascript
 

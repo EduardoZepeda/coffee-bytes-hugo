@@ -49,7 +49,7 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 
 ### Why does go suck? Disadvantages of using Go
 
-To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers. Yes, I know the community can be toxic sometimes, but I agree with most of them. Let's be realistic, Go is not perfect, but in my opinion this is not about perfection but getting things done.
+To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers. Yes, I know the community can be toxic sometimes, but I agree with most of them. Let's be realistic, Go is not perfect, but my take is that this is not about perfection but getting things done.
 
 {{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Error handling with Go with if" caption="This pattern is quite recurrent in applications and can become tedious." >}}
 

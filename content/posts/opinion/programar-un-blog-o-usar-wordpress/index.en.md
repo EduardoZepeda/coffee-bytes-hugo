@@ -8,7 +8,7 @@ categories:
 coverImage: images/porque_decidi_usar_wordpress.jpg
 date: '2019-06-26'
 description: Many times we face the doubt of programming a blog from scratch or using
-  a more popular solution like wordpress. In this post I explain my opinion.
+  a more popular solution like wordpress. In this post I explain thoughts about it.
 keywords:
 - wordpress
 - opinion

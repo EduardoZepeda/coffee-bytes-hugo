@@ -41,7 +41,7 @@ type Videogame struct {
 
 Remember that the [Go struct privacy rules](/en/go/go-structs-inheritance-polymorphism-and-encapsulation/) say that in order for us to access a _struct_ or its properties, from another package to where it was declared, we must use uppercase.
 
-I know, it is one of the things that I abhor about Go's language, not enough for me to abandon it, but pretty cumbersone in my opinion, what if you need to debug one? welcome to regexland.
+I know, it is one of the things that I abhor about Go's language, not enough for me to abandon it, but pretty cumbersone IMO, what if you need to debug one? welcome to regexland.
 
 Once created, we will end up with a structure similar to this one
 

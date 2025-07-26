@@ -442,7 +442,7 @@ Even though most Python frameworks are old, it doesn't mean that new frameworks 
 
 ## Which one to choose Python vs go?
 
-In my opinion, if you need stability and time-tested solutions for your frameworks or you plan to enter the world of artificial intelligence, deep learning or data learning or data science, if you want a language that has a steep learning curve and a lot of and a large number of packages available that will save code for you and/or your save you and/or your team code, I'd go for Python.
+From my standpoint, if you need stability and time-tested solutions for your frameworks or you plan to enter the world of artificial intelligence, deep learning or data learning or data science, if you want a language that has a steep learning curve and a lot of and a large number of packages available that will save code for you and/or your save you and/or your team code, I'd go for Python.
 
 On the other hand, if you are serious about devops and/or speed and concurrency are important features for the projects you plan to create, and you want to dedicate yourself to dedicate yourself to creating devop tools. If you don't mind the steeper learning curve steeper learning curve that Go has (it's not that steep either) compared to Python, then Go will probably seem like a better choice.
 

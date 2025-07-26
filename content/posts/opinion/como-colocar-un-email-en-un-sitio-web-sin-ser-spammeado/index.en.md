@@ -36,7 +36,7 @@ The disadvantage of this approach is that the person who wants to send you an em
 
 Instead of using the classic format like *my@email.com*, change it to something less obvious to bots, like *my [at] email [dot] com*, this way your address won't be detected as an email by less sophisticated bots and if someone wants to send you an email just replace the *at* and *dot* with their corresponding symbols.
 
-A pretty balanced option in my opinion, although if it becomes popular I'm sure my blue pill factory ambassadors will find a way to get the valuable information they need.
+A pretty balanced option, although if it becomes popular I'm sure my blue pill factory ambassadors will find a way to get the valuable information they need.
 
 ## Ask the user to generate the email with extra information
 

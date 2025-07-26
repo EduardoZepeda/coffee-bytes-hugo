@@ -50,7 +50,7 @@ This book is completely free for you to read in its entirety, to read it [go to 
 
 ## My opinion
 
-In my opinion Cracking Codes with Python is good material if any of the following assumptions are met:
+From my standpoint Cracking Codes with Python is good material if any of the following assumptions are met:
 
 * You want to learn the basics of Python
 * You want to know the history of cryptography

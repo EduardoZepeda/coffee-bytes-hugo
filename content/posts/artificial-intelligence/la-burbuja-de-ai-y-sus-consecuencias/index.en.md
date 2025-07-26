@@ -54,7 +54,7 @@ As I said, investors don't want to be left out of this party and are so eager to
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI" >}}
 
-But, in my opinion, this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
+But, I'm under the impression that this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
 
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
 
@@ -84,7 +84,7 @@ Having said the above, it seems that I believe that all this about AI is nothing
 
 > Machines don’t learn. What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. - Andriy Burkov
 
-In my opinion, AI is the ultimate autocompletition tool, be it text, images, video 3D structure (I foresee a huge potential in this field), nothing else. So far AGI is a milestone that remains distant in the future and we don't know if it is achievable.
+My take is that AI is the ultimate autocompletition tool, be it text, images, video 3D structure (I foresee a huge potential in this field), nothing else. So far AGI is a milestone that remains distant in the future and we don't know if it is achievable.
 
 Don't get me wrong, there is an AI bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
