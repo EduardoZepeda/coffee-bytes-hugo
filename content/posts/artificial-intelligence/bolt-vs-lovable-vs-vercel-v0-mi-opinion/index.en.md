@@ -29,45 +29,43 @@ Despite their non-realistic valuation, I'm astonished about what these tools can
 
 Let's compare the pricing plans and features of each one, from V0, Lovable, and Bolt, focusing on aspects that may be relevant to those interested in creating ~~vulnerable~~ sites using AI.
 
+| Feature/Category            | V0                            | Lovable                     | Bolt                     | Winner                     |
+| --------------------------- | ----------------------------- | --------------------------- | ------------------------ | -------------------------- |
+| **--Free Plan--**           |                               |                             |                          |                            |
+| **Price**                   | $0                            | $0                          | $0                       | All                        |
+| **Included Credits**        | $5 monthly credits            | 5 daily (30/month)          | 1M tokens/month          | **Bolt** (highest volume)  |
+| **Public Projects**         | Yes                           | Yes                         | Yes                      | All                        |
+| **Private Projects**        | No                            | No                          | Yes                      | **Bolt**                   |
+| **Daily Limit**             | N/A                           | 5 credits                   | 150K tokens              | **V0** (no daily limit)    |
+| **Collaboration**           | Sync with GitHub              | Up to 20 collaborators      | N/A                      | **Lovable**                |
+| **AI Model Access**         | v0-1.5-md                     | N/A                         | N/A                      | **V0**                     |
+| **--Pro Plan--**            |                               |                             |                          |                            |
+| **Price**                   | $20/month                     | $25/month                   | $20/month                | **V0/Bolt** (cheaper)      |
+| **Included Credits**        | $20 monthly credits           | 100 monthly credits         | 10M tokens/month         | **Bolt** (highest volume)  |
+| **Private Projects**        | Yes                           | Yes                         | Yes                      | All                        |
+| **File Upload Limit**       | 5x higher than Free           | N/A                         | 100MB (vs 10MB Free)     | **Bolt**                   |
+| **Daily Limit**             | N/A                           | 5 daily (150/month)         | No limit                 | **Bolt/V0**                |
+| **Credit Rollover**         | Purchase additional           | Yes                         | Yes (2 months)           | **Bolt** (automatic)       |
+| **AI Model Access**         | v0-1.5-lg + API               | N/A                         | N/A                      | **V0**                     |
+| **Special Features**        | Import from Figma             | Remove Lovable badge        | Token efficiency focus   | **V0** (Figma integration) |
+| **--Team Plan--**           |                               |                             |                          |                            |
+| **Price**                   | $30/user/month                | N/A                         | $30/user/month           | **V0/Bolt**                |
+| **Included Credits**        | $30/user/month                | N/A                         | 10M tokens/user/month    | Comparable                 |
+| **Centralized Billing**     | Yes                           | N/A                         | Yes                      | All                        |
+| **Collaboration**           | Shared chats                  | N/A                         | Team workspace           | **Bolt** (structured)      |
+| **Admin Controls**          | N/A                           | N/A                         | Team-level access        | **Bolt**                   |
+| **--Enterprise Plan--**     |                               |                             |                          |                            |
+| **Pricing**                 | Custom                        | Custom                      | Custom                   | All                        |
+| **SSO**                     | SAML SSO                      | SSO                         | SSO + advanced security  | **Bolt**                   |
+| **Support**                 | Dedicated                     | Dedicated + onboarding      | 24/7 priority            | **Lovable/Bolt**           |
+| **Compliance**              | Training opt-out              | Opt-out of data training    | Data governance policies | **Bolt**                   |
+| **Customization**           | N/A                           | Custom integrations         | Custom workflows         | **Lovable/Bolt**           |
+| **--Key Differentiators--** |                               |                             |                          |                            |
+| **AI Focus**                | Component generation          | General AI features         | AI token optimization    | **V0** (dev-focused)       |
+| **Development Features**    | Vercel deployment             | Custom domains              | Project syncing          | **V0** (deployment)        |
+| **UI/Design**               | Figma import                  | Design templates            | N/A                      | **V0**                     |
+| **Best For**                | Developers needing components | Teams needing collaboration | High-volume AI usage     |                            |
 
-## AI-Powered Website Creation Tools: Pricing Comparison
-
-| Feature/Category         | V0                            | Lovable                     | Bolt                     | Winner                     |
-| ------------------------ | ----------------------------- | --------------------------- | ------------------------ | -------------------------- |
-| **--Free Plan--**        |                               |                             |                          |                            |
-| **Price**                | $0                            | $0                          | $0                       | All                        |
-| **Included Credits**     | $5 monthly credits            | 5 daily (30/month)          | 1M tokens/month          | **Bolt** (highest volume)  |
-| **Public Projects**      | Yes                           | Yes                         | Yes                      | All                        |
-| **Private Projects**     | No                            | No                          | Yes                      | **Bolt**                   |
-| **Daily Limit**          | N/A                           | 5 credits                   | 150K tokens              | **V0** (no daily limit)    |
-| **Collaboration**        | Sync with GitHub              | Up to 20 collaborators      | N/A                      | **Lovable**                |
-| **AI Model Access**      | v0-1.5-md                     | N/A                         | N/A                      | **V0**                     |
-| **--Pro Plan--**         |                               |                             |                          |                            |
-| **Price**                | $20/month                     | $25/month                   | $20/month                | **V0/Bolt** (cheaper)      |
-| **Included Credits**     | $20 monthly credits           | 100 monthly credits         | 10M tokens/month         | **Bolt** (highest volume)  |
-| **Private Projects**     | Yes                           | Yes                         | Yes                      | All                        |
-| **File Upload Limit**    | 5x higher than Free           | N/A                         | 100MB (vs 10MB Free)     | **Bolt**                   |
-| **Daily Limit**          | N/A                           | 5 daily (150/month)         | No limit                 | **Bolt/V0**                |
-| **Credit Rollover**      | Purchase additional           | Yes                         | Yes (2 months)           | **Bolt** (automatic)       |
-| **AI Model Access**      | v0-1.5-lg + API               | N/A                         | N/A                      | **V0**                     |
-| **Special Features**     | Import from Figma             | Remove Lovable badge        | Token efficiency focus   | **V0** (Figma integration) |
-| **--Team Plan--**        |                               |                             |                          |                            |
-| **Price**                | $30/user/month                | N/A                         | $30/user/month           | **V0/Bolt**                |
-| **Included Credits**     | $30/user/month                | N/A                         | 10M tokens/user/month    | Comparable                 |
-| **Centralized Billing**  | Yes                           | N/A                         | Yes                      | All                        |
-| **Collaboration**        | Shared chats                  | N/A                         | Team workspace           | **Bolt** (structured)      |
-| **Admin Controls**       | N/A                           | N/A                         | Team-level access        | **Bolt**                   |
-| **--Enterprise Plan--**  |                               |                             |                          |                            |
-| **Pricing**              | Custom                        | Custom                      | Custom                   | All                        |
-| **SSO**                  | SAML SSO                      | SSO                         | SSO + advanced security  | **Bolt**                   |
-| **Support**              | Dedicated                     | Dedicated + onboarding      | 24/7 priority            | **Lovable/Bolt**           |
-| **Compliance**           | Training opt-out              | Opt-out of data training    | Data governance policies | **Bolt**                   |
-| **Customization**        | N/A                           | Custom integrations         | Custom workflows         | **Lovable/Bolt**           |
-| **Key Differentiators**  |                               |                             |                          |                            |
-| **AI Focus**             | Component generation          | General AI features         | AI token optimization    | **V0** (dev-focused)       |
-| **Development Features** | Vercel deployment             | Custom domains              | Project syncing          | **V0** (deployment)        |
-| **UI/Design**            | Figma import                  | Design templates            | N/A                      | **V0**                     |
-| **Best For**             | Developers needing components | Teams needing collaboration | High-volume AI usage     |                            |
 
 ### Bolt vs Lovable vs V0 pricing by category
 

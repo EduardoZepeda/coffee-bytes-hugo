@@ -30,6 +30,73 @@ Para el prompt utilicé algo bastante sencillo. Decidí no ser tan específico, 
 
 > Create a fancy and highly interactive landing page with cyberpunk vibes and neon colors
 
+## Bolt vs Lovable vs V0 pricing
+
+Comparemos los planes de precios y las características de cada uno, desde V0, Lovable y Bolt, dándole enfasis a aspectos que pueden ser relevantes para aquellos interesados en crear sitios ~~vulnerables~~ utilizando IA.
+
+| Características                | V0                             | Lovable                        | Bolt                         | Ganador                     |
+| ------------------------------ | ------------------------------ | ------------------------------ | ---------------------------- | --------------------------- |
+| **--Plan Gratis--**            |                                |                                |                              |                             |
+| **Precio**                     | $0                             | $0                             | $0                           | Todos                       |
+| **Créditos incluidos**         | $5 en créditos mensuales       | 5 diarios (30/mes)             | 1M tokens/mes                | **Bolt** (mayor volumen)    |
+| **Proyectos públicos**         | Sí                             | Sí                             | Sí                           | Todos                       |
+| **Proyectos privados**         | No                             | No                             | Sí                           | **Bolt**                    |
+| **Límite diario**              | N/A                            | 5 créditos                     | 150K tokens                  | **V0** (sin límite diario)  |
+| **Colaboración**               | Sincronización con GitHub      | Hasta 20 colaboradores         | N/A                          | **Lovable**                 |
+| **Acceso a modelos IA**        | v0-1.5-md                      | N/A                            | N/A                          | **V0**                      |
+| **--Plan Pro--**               |                                |                                |                              |                             |
+| **Precio**                     | $20/mes                        | $25/mes                        | $20/mes                      | **V0/Bolt** (más económico) |
+| **Créditos incluidos**         | $20 créditos mensuales         | 100 créditos mensuales         | 10M tokens/mes               | **Bolt** (mayor volumen)    |
+| **Proyectos privados**         | Sí                             | Sí                             | Sí                           | Todos                       |
+| **Límite de archivos**         | 5x mayor que el plan Free      | N/A                            | 100MB (vs 10MB Free)         | **Bolt**                    |
+| **Límite diario**              | N/A                            | 5 diarios (150/mes)            | Sin límite                   | **Bolt/V0**                 |
+| **Acumulación créditos**       | Compra adicional               | Sí                             | Sí (2 meses)                 | **Bolt** (automático)       |
+| **Acceso a modelos IA**        | v0-1.5-lg + API                | N/A                            | N/A                          | **V0**                      |
+| **Características especiales** | Importar desde Figma           | Eliminar marca Lovable         | Enfoque en eficiencia tokens | **V0** (integración Figma)  |
+| **--Plan para Equipos--**      |                                |                                |                              |                             |
+| **Precio**                     | $30/usuario/mes                | N/A                            | $30/usuario/mes              | **V0/Bolt**                 |
+| **Créditos incluidos**         | $30/usuario/mes                | N/A                            | 10M tokens/usuario/mes       | Comparables                 |
+| **Facturación centralizada**   | Sí                             | N/A                            | Sí                           | Todos                       |
+| **Colaboración**               | Chats compartidos              | N/A                            | Espacio de trabajo en equipo | **Bolt** (estructurado)     |
+| **Controles administrativos**  | N/A                            | N/A                            | Acceso a nivel de equipo     | **Bolt**                    |
+| **--Plan Empresarial--**       |                                |                                |                              |                             |
+| **Precio**                     | Personalizado                  | Personalizado                  | Personalizado                | Todos                       |
+| **SSO**                        | SAML SSO                       | SSO                            | SSO + seguridad avanzada     | **Bolt**                    |
+| **Soporte**                    | Dedicado                       | Dedicado + onboarding          | 24/7 prioritario             | **Lovable/Bolt**            |
+| **Cumplimiento**               | Opt-out de entrenamiento       | Opt-out de entrenamiento datos | Políticas de gobierno datos  | **Bolt**                    |
+| **Personalización**            | N/A                            | Integraciones personalizadas   | Flujos personalizados        | **Lovable/Bolt**            |
+| **--Diferencias clave--**      |                                |                                |                              |                             |
+| **Enfoque IA**                 | Generación de componentes      | Funciones generales de IA      | Optimización de tokens IA    | **V0** (enfoque dev)        |
+| **Características dev**        | Despliegue en Vercel           | Dominios personalizados        | Sincronización de proyectos  | **V0** (despliegue)         |
+| **UI/Diseño**                  | Importación desde Figma        | Plantillas de diseño           | N/A                          | **V0**                      |
+| **Ideal para**                 | Desarrolladores de componentes | Equipos colaborativos          | Uso intensivo de IA          |                             |
+
+### Bolt vs Lovable vs V0 pricing por categoria
+
+**Ganadores generales por categoría:**
+- **Mejor plan gratis:** Bolt (límites más generosos)
+- **Mejor plan Pro:** Bolt (sin límites diarios, acumulación)
+- **Mejores funciones para equipos:** Bolt (espacio estructurado)
+- **Mejor Enterprise:** Bolt (seguridad integral)
+- **Mejor para desarrolladores:** V0 (generación componentes)
+- **Mejor para diseñadores:** V0 (integración Figma)
+
+Ciertos aspectos que vale la pena resaltar:
+- Bolt destaca en asignación de recursos IA y gestión de equipos
+- V0 es más fuerte en flujos de desarrollo e integración de diseño
+- Lovable ofrece buenas funciones de colaboración en gama media
+- Todas las plataformas ofrecen caminos claros de actualización
+- Los sistemas de tokens/créditos varían significativamente
+
+### Bolt vs Lovable vs V0 resultados
+
+La "mejor" opción depende de las necesidades:
+
+- Para Desarrolladores individuales: V0
+- Para Equipos orientados al diseño: Lovable
+- Para uso intensivo de IA: Bolt
+- Empresas: Bolt o Lovable
+
 ## Landing Page en v0-vercel
 
 El resultado de [Vercel V0](https://v0.dev/#?) es bastante decente, pero no extraordinario. 
