@@ -163,12 +163,12 @@ followRequestDelay = -1
 followTitle = "¿Y si te digo que..."
 mailchimphiddenfield = "b_5db658017fc3fb83c8ab5ff63_c4ad1325c9"
 mailchimpurl = "https://dev.us17.list-manage.com/subscribe/post?u=5db658017fc3fb83c8ab5ff63&amp;id=c4ad1325c9"
-modalcountdown = 250
+modalcountdown = 120
 prePostAffiliateDescription = "Utiliza este crédito para lanzar tus proyectos ahora en Digital Ocean, válido por 60 días"
 prePostAffiliateLink = ""
 prePostAffiliateText = "Quiero registrarme y obtener $200 USD"
 prePostAffiliateTitle = "No te pierdas este crédito gratuito de 200 USD (Válido durante 60 días) en DO, lanza tu proyecto ahora"
-subscribebannertext = "Guía gratuita de tips y trucos de Python"
+subscribebannertext = "Escribí una mini-guía para que mejores tus skills en Python"
 subscribedescription = """✅ Más de 400 devs suscritos
                           ✅ Para acceder solo suscríbete al newsletter, es <strong>completamente gratis.</strong> <br>
                           ✅ Sólo un par de veces por mes, o quizás menos (no prometo nada), te enviaré tutoriales, opiniones e ideas que encuentro interesantes a tu correo electrónico.
