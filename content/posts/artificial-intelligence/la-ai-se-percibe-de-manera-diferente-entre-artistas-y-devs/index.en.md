@@ -33,7 +33,7 @@ Movements like #NOAI or [Made with human intelligence](https://www.forbes.com/si
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753062961/coffee-bytes/no-ai-movement_g772l5.jpg" class="md-local-image" alt="NO AI movement" caption="NO AI movement" >}}  
 
-On the other hand, in the software world, there’s been a strong trend (whether organic or orchestrated, I don’t know) to adopt AI as just another tool to increase the quality and quantity of code produced. Even when there’s resistance, it’s more focused on technical aspects and potential flaws rather than the ethical concerns of its training process.  
+On the other hand, there’s been a strong trend (whether organic or orchestrated, I don’t know) in the software world, to adopt AI as just another tool to increase the quality and quantity of code produced. Even when there’s resistance, it’s more focused on technical aspects and potential flaws rather than the ethical concerns of its training process.  
 
 This contrast fascinates me.  
 
@@ -97,7 +97,7 @@ Let me expand on this. The subjective nature of art means all representations of
 
 This isn’t the case with software. A variation of any complex program (a web crawler, a database, etc.) will behave differently in different scenarios, and there will be a superior or inferior version based on the code’s requirements.  
 
-These differences can be measured quantitatively: execution time, memory usage, scalability, etc., leaving us with some solutions better than others.  
+These differences can be measured quantitatively: execution time, memory usage, scalability, [requests per second]({{< ref path="/posts/python/como-medir-las-peticiones-por-segundo-con-locust-en-python/index.md" lang="en" >}}) etc., leaving us with some solutions better than others.  
 
 Given this, AI will "get it right" less often and require more iterations when generating code. However, when creating art, the user will likely consider the result valid after just a few iterations.  
 
@@ -119,6 +119,8 @@ But what about websites? I’d argue that even if we observe the crystallization
 
 An AI-generated website (and perhaps the code itself) is completely indistinguishable from one made by a human. Plus, a website isn’t usually perceived as the result of human expression (especially in today’s internet).  
 
-But with art, it’s much easier to tell—hands with too many fingers, logical inconsistencies, even that default, generic style that’s become so characteristic. Or the now-popular Ghibli style that’s turned into a commodity.  
+But with art, it’s much easier to tell—hands with too many fingers, logical inconsistencies, even that default, generic style that’s become so characteristic. Or the now-popular Ghibli style that’s turned into a commodity.
+
+AI-generated art stands out whereas AI-generated code is invisible.
 
 

@@ -100,7 +100,7 @@ Ahondaré en esto, la naturaleza subjetiva del arte permite que todas las repres
 
 Mientras que no sucede lo mismo con un programa informático, una variación de cualquier programa complejo (un web crawler, una base de datos, etc.) se comportará de manera diferente en distintos escenarios, y habrá una versión superior o inferior de acuerdo a las necesidades del código. 
 
-Estas diferencias pueden medirse de manera cuantitativa: tiempo de ejecución, uso de memoria, escalabilidad, etc. Lo que nos dejará con algunas propuestas mejores que otras.
+Estas diferencias pueden medirse de manera cuantitativa: tiempo de ejecución, uso de memoria, escalabilidad, [requests per second]({{< ref path="/posts/python/como-medir-las-peticiones-por-segundo-con-locust-en-python/index.md" lang="es" >}}), etc. Lo que nos dejará con algunas propuestas mejores que otras.
 
 Tomando como base lo anterior, la AI "acertará" menos veces y requerirá más iteraciones al crear código. Sin embargo, al crear arte, probablemente el usuario considere como válido el resultado obtenido tras unas cuantas iteraciones.
 
@@ -124,6 +124,7 @@ Una página web (y quizás el código) hecha con AI es totalmente indistinguible
 
 Pero en el caso del arte es mucho más fácil darse cuenta; manos con más dedos de los que se deben, inconsistencias lógicas, inclusive ese estilo genérico, que viene por defecto, bastante característico. O el ya popular estilo Ghibli que se volvió un commodity.
 
+El arte generado con AI destaca, mientras que el código generado con AI es invisible.
 
 
 
