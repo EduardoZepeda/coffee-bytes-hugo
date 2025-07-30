@@ -183,7 +183,7 @@ Now you can see that in the main page of the admin you can see the changes we ha
 
 {{< figure src="images/ModificandoLaCabeceraTituloYDescripcion.png" class="md-local-image" alt="Changing the title, description and title of the django admin panel" >}}
 
-The three sites have changed
+The three labels have changed
 
 ## Sorting objects according to a date field
 
@@ -217,7 +217,7 @@ class VideogameAdmin(admin.ModelAdmin):
     # ...
 
     def popular(self, obj):
-        return "Popular" if obj.rating > 4.5 else "No es popular"
+        return "Popular" if obj.rating > 4.5 else "It's not popular"
 ```
 
 {{< figure src="images/CamposPersonalizadosDjangoAdmin.png" class="md-local-image" alt="Django Admin. dynamic custom fields" >}}
