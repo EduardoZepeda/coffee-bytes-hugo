@@ -6,6 +6,7 @@ aliases:
 - /ocr-con-tesseract-python-y-pytesseract/feed/
 - /ocr-con-tesseract-python-y-pytesseract/ocr/
 - /es/pytesseract-ocr-reconocimiento-optico-de-caracteres-en-python/
+- /es/ocr-con-tesseract-python-y-pytesseract/
 authors:
 - Eduardo Zepeda
 categories:

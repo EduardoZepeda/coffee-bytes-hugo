@@ -1,6 +1,8 @@
 ---
 aliases:
 - /en/python-vs-go-which-is-the-best-programming-language-in-2025/
+- /en/python-vs-go-go-which-is-the-best-programming-language/
+- /en/python-vs-go-go-which-is-the-best-programming-language
 authors:
 - Eduardo Zepeda
 categories:

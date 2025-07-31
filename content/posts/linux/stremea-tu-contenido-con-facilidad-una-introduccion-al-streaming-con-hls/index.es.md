@@ -3,6 +3,7 @@ aliases:
 - /stremea-tu-contenido-con-facilidad-una-introduccion-al-streaming-con-hls
 - /stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-hls-para-tus-aplicaciones
 - /es/stremea-tus-videos-y-audios-hls-para-tus-aplicaciones/
+- /es/stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-hls-para-tus-aplicaciones/
 authors:
 - Eduardo Zepeda
 categories:

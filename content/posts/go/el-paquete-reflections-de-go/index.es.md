@@ -4,6 +4,7 @@ aliases:
 - /go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa
 - /en/go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa/
 - /es/go-con-reflect-mayor-flexibilidad-en-tu-codigo/
+- /es/go-con-reflect-descubre-como-la-reflexion-puede-impulsar-la-flexibilidad-de-tu-programa/
 authors:
 - Eduardo Zepeda
 categories:

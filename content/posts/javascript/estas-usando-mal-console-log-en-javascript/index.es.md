@@ -3,6 +3,7 @@ aliases:
 - /estas-usando-mal-console-log-en-javascript
 - /estas-usando-mal-console.log-en-javascript/
 - /es/estas-usando-mal-consolelog-en-javascript/
+- /es/estas-usando-mal-console.log-en-javascript/
 authors:
 - Eduardo Zepeda
 categories:

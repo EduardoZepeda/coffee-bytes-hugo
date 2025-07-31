@@ -3,6 +3,7 @@ aliases:
 - /django-3-1-cambios-y-novedades
 - /django-3-1-cambios-y-novedades-resumen-completo
 - /es/django-31-cambios-y-novedades-resumen-completo/
+- /es/django-3.1-cambios-y-novedades-resumen-completo/
 authors:
 - Eduardo Zepeda
 categories:

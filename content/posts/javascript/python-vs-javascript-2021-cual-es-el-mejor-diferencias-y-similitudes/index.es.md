@@ -7,6 +7,7 @@ aliases:
 - /es/python-vs-javascript-cual-es-el-mejor-lenguaje-de-programacion
 - /es/javascript-vs-python-cual-es-el-mejor-en-2025/
 - /es/javascript/javascript-vs-python-cual-es-el-mejor-lenguaje-de-programacion/
+- /es/javascript-vs-python-cual-es-el-mejor-lenguaje-de-programacion/
 authors:
 - Eduardo Zepeda
 categories:

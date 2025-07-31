@@ -2,6 +2,7 @@
 aliases:
 - /go-ciclos-o-bucles-for-break-continue-defer-if-y-else
 - /es/go-ciclos-for-break-continue-defer-if-y-else/
+- /es/go-ciclos-o-bucles-for-break-continue-defer-if-y-else/
 authors:
 - Eduardo Zepeda
 categories:

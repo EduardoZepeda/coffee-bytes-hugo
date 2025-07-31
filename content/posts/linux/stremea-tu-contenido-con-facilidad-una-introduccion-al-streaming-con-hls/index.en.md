@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/stream-your-videos-and-audios-hls-for-your-applications/
+- /en/stream-your-videos-and-audios-a-simple-introduction-to-streaming-with-hls-for-your-applications/
 authors:
 - Eduardo Zepeda
 categories:

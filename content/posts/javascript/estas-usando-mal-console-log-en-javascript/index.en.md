@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/you-are-misusing-consolelog-in-javascript/
+- /en/you-are-misusing-console.log-in-javascript/
 authors:
 - Eduardo Zepeda
 categories:
@@ -12,7 +13,7 @@ description: Learn at once how to take advantage of the javascript console objec
 keywords:
 - javascript
 - opinion
-title: You are misusing console.log in javascript
+title: You don't know how to use Javascript console
 ---
 
 I bet you have ever used _console.log()_ to debug errors when programming in javascript. But you may not know that _console_ has other useful methods besides _log()_. In this post I am going to place some of the most useful methods that I have found on the web. In this entry I am going to put some of the most useful methods I have found on the web.

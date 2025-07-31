@@ -3,6 +3,7 @@ aliases:
 - /saas-y-one-time-sale-ots-como-modelos-de-negocios
 - /saas-y-ots-como-modelos-de-negocios-en-software-y-mi-opinion-sobre-once
 - /es/saas-y-ots-como-modelos-de-negocios-y-mi-opinion-sobre-once/
+- /es/saas-y-ots-como-modelos-de-negocios-en-software-y-mi-opinion-sobre-once/
 authors:
 - Eduardo Zepeda
 categories:

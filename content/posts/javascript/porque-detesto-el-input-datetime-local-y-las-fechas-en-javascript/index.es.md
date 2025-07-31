@@ -2,6 +2,7 @@
 aliases:
 - /porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript
 - /es/porque-detesto-datetime-local-y-las-fechas-en-javascript/
+- /es/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript
 authors:
 - Eduardo Zepeda
 categories:

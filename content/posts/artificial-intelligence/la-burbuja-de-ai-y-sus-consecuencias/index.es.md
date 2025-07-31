@@ -1,6 +1,7 @@
 ---
 aliases:
 - /es/el-auge-y-la-caida-de-la-burbuja-de-ai/
+- /es/artificial-intelligence/el-auge-y-la-caida-de-la-burbuja-de-ai/
 authors:
 - Eduardo Zepeda
 categories:

@@ -2,6 +2,7 @@
 aliases:
 - /understand-permissions-in-gnu-linux-and-the-chmod-command/
 - /en/mastering-chmod-command-linux-permissions-simplified/
+- /en/understand-permissions-in-gnu-linux-and-the-chmod-command/
 authors:
 - Eduardo Zepeda
 categories:
