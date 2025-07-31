@@ -134,7 +134,7 @@ function isPalindrome(num) {
 }
 ```
 
-Sin embargo, hay un pequeño error, a pesar de producir los resultados de manera correcta, el código no pasa las pruebas por que el [rendimiento de Big O](/es/linux/la-notacion-big-o/) de la inteligencia artificial es insuficiente para la prueba.
+Sin embargo, hay un pequeño error, a pesar de producir los resultados de manera correcta, el código no pasa las pruebas por que el [rendimiento de Big O]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="es" >}}) de la inteligencia artificial es insuficiente para la prueba.
 
 Intenté obtener la respuesta correcta múltiples veces, incluso especificando la complejidad de Big O con diferentes inputs, pero fue imposible obtener el resultado correcto.
 

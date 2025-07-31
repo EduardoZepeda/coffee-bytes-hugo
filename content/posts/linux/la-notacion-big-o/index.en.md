@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/the-big-o-notation/
+- /en/linux/the-big-o-notation/
 authors:
 - Eduardo Zepeda
 categories:
@@ -15,7 +16,7 @@ keywords:
 - bigo
 - performance
 - algorithms
-title: The Big O notation
+title: The Big O notation for algorithm analysis
 ---
 
 I love astrophysics and try to keep up with new discoveries as they happen; whether they are trivial things, like the discovery of a new planet; or significant, like the hypothetical Dyson spheres they swear they find every month. But this time the discovery was simply outstanding.
@@ -46,9 +47,9 @@ In this case, time is constant. You know what they decided? That's right, the sc
 
 With internet speed close to the current limits, using the internet to transmit data is better the smaller the amount of information. Whereas physically transporting hard disks is better for huge amounts of data. This is because **airplane transport time is constant**, while **Internet data transmission time is linear**; it increases with the amount of data.
 
-## What does this have to do with the code?
+## What does Big O have to do with the code?
 
-The same thing happens with code, every process we perform on the data to transform it consumes time and there are different ways of processing data, there are algorithms whose execution time is constant, for others it increases linearly with the amount of data they process, while others exponentially. 
+What does the latter have to do with code? Well, the same thing happens with code, every process we perform on the data to transform it consumes time and there are different ways of processing data, there are algorithms whose execution time is constant, for others it increases linearly with the amount of data they process, while others exponentially. 
 
 On the other hand, some offer better performance with little data, while others shine when processing a lot of information.
 
@@ -140,6 +141,18 @@ About algorithms there is a lot to talk about, this is merely a brushstroke, if 
 If you are looking for something more visual to introduce you to the world of algorithms watch this excellent BBC documentary:
 
 {{< youtube Q9HjeFD62Uk >}}
+
+## Alternative Big O notations
+
+When measuring algorithm efficiency, we use **asymptotic notations** to describe the growth rate of an algorithm's time or space complexity. As you can guess, the most commonly used are **Big-O (for worst-case analysis)** and **Theta (for precise average-case analysis)**.
+
+| Notation             | Analogy (Inequality)               | Meaning                     | Example              |
+| -------------------- | ---------------------------------- | --------------------------- | -------------------- |
+| **Big-O (O)**        | \(f(n) < eq c ⋅ g(n)\)             | Worst-case upper bound      | \(2n = O(n)\)        |
+| **Omega (Ω)**        | \(f(n) > eq c ⋅ g(n)\)             | Best-case lower bound       | \(n^2 = Ω(n)\)       |
+| **Theta (Θ)**        | \(c1 g(n) < eq f(n) < eq c2 g(n)\) | Tight bound (average case)  | \(3n + 5 = Θ(n)\)    |
+| **Little-o (o)**     | \(f(n) < c ⋅ g(n)\)                | Strictly looser upper bound | \(n = o(n log n)\)   |
+| **Little-omega (ω)** | \(f(n) > c ⋅ g(n)\)                | Strictly looser lower bound | \(n^2 = ω(n log n)\) |
 
 ## Where to practice algorithms?
 

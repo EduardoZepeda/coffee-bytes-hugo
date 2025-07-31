@@ -2,6 +2,7 @@
 aliases:
 - /la-notacion-big-o
 - /es/la-notacion-big-o/
+- /linux/la-notacion-big-o/
 authors:
 - Eduardo Zepeda
 categories:
@@ -16,8 +17,8 @@ keywords:
 - bigo
 - rendimiento
 - algoritmos
-slug: /linux/la-notacion-big-o/
-title: La notación Big O
+slug: /linux/la-notacion-big-para-analisis-algoritmico/
+title: La notación Big O para análisis algorítmico
 ---
 
 Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que suceden; ya sean cosas triviales, como el descubrimiento de un nuevo planeta; o significativas, como las hipotéticas esferas de Dyson que juran encontrar cada mes. Pero el descubrimiento de esta ocasión fue fantástico. 
@@ -142,6 +143,19 @@ Sobre algoritmos hay muchísimo de que hablar, esto es meramente una pincelada, 
 Si buscas algo más visual para introducirte en el mundo de los algoritmos mira este excelente documental de la BBC:
 
 {{< youtube Q9HjeFD62Uk >}}
+
+ ## Notaciones alternativas de Big O
+
+Al medir la eficiencia de un algoritmo, utilizamos **notaciones asintóticas** para describir la tasa de crecimiento de la complejidad temporal o espacial de un algoritmo. Como puedes imaginar, las más utilizadas son **Big-O (para el análisis del peor caso)** y **Theta (para el análisis preciso del caso promedio)**.
+
+| Notación             | Analogía (Desigualdad)             | Significado                  | Ejemplo              |
+| -------------------- | ---------------------------------- | ---------------------------- | -------------------- |
+| **Big-O (O)**        | \(f(n) < eq c ⋅ g(n)\)             | Peor caso (límite superior)  | \(2n = O(n)\)        |
+| **Omega (Ω)**        | \(f(n) > eq c ⋅ g(n)\)             | Mejor caso (límite inferior) | \(n^2 = Ω(n)\)       |
+| **Theta (Θ)**        | \(c1 g(n) < eq f(n) < eq c2 g(n)\) | Comportamiento exacto        | \(3n + 5 = Θ(n)\)    |
+| **Little-o (o)**     | \(f(n) < c ⋅ g(n)\)                | Más lento estricto           | \(n = o(n log n)\)   |
+| **Little-omega (ω)** | \(f(n) > c ⋅ g(n)\)                | Más rápido estricto          | \(n^2 = ω(n log n)\) |
+
 
 ## ¿Dónde practicar algoritmos?
 

@@ -257,7 +257,7 @@ def limit_product_history_length(user_id, product_history_length):
 
 La función **_ltrim_ de redis se encarga de cortar los valores iniciales de lista asociada a una llave**, le indicamos el índice inicial y su índice final como argumentos.
 
-La diferencia que tiene con ltrim es que su tiempo de ejecución es O(n), puesto que depende de la cantidad de elementos a remover, mientras que para rpop es de O(1). Si no tienes idea de que te estoy hablando visita mi entrada donde hablo un poco sobre la [notación Big O](/es/linux/la-notacion-big-o/) o quédate con la idea de que si solo vamos a eliminar un elemento rpop es mejor. Sin embargo puede que quieras un comportamiento diferente y te sirva más usar _ltrim_.
+La diferencia que tiene con ltrim es que su tiempo de ejecución es O(n), puesto que depende de la cantidad de elementos a remover, mientras que para rpop es de O(1). Si no tienes idea de que te estoy hablando visita mi entrada donde hablo un poco sobre la [notación Big O]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="es" >}}) o quédate con la idea de que si solo vamos a eliminar un elemento rpop es mejor. Sin embargo puede que quieras un comportamiento diferente y te sirva más usar _ltrim_.
 
 Redis tiene información del tiempo de ejecución de cada función en su documentación y puede ser muy útil si el rendimiento de tu aplicación de django es importante.
 

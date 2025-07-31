@@ -21,7 +21,7 @@ title: Don't Obsess About Your Web Application Performance
 
 This post is for you, who want to become independent from companies and are looking to create your own projects in the internet world. Have you ever thought if those extra milliseconds of performance that we get by switching a project to a more verbose language really matter that much or if the search for the fastest framework is really worth it?
 
-In the world of programmers there is an obsession with speed and performance; we want to squeeze every possible millisecond out of the language and reduce memory consumption to the minimum possible and write queries in their most elegant version that pushes our database to its speed limit and and subject them to the most rigorous [Big O performance analysis](/en/linux/the-big-o-notation/).
+In the world of programmers there is an obsession with speed and performance; we want to squeeze every possible millisecond out of the language and reduce memory consumption to the minimum possible and write queries in their most elegant version that pushes our database to its speed limit and and subject them to the most rigorous [Big O performance analysis]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="en" >}}).
 
 {{< figure src="images/rust-and-go-performance-for-common-data-structures-arrays.webp" class="md-local-image" alt="Rust vs go Benchmark" >}}
 
