@@ -285,3 +285,6 @@ maxAge = "24h"
 
 [security.http]
 mediaTypes = ['application/vnd\.api\+json', 'image/avif', 'image/jpeg', 'image/png', 'image/jpg']
+
+[pagination]
+pagerSize = 9
