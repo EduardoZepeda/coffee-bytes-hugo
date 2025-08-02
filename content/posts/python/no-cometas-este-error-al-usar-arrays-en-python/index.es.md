@@ -27,7 +27,7 @@ arr = [0]*5
 #[0, 0, 0, 0, 0]
 ```
 
-Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que puede servirte muchísimo: ["Inmersion en Python", totalmente gratuito y en español.](/es/python/aprende-python-desde-cero-con-este-libro-gratuito/)
+Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que puede servirte muchísimo: ["Inmersion en Python", totalmente gratuito y en español.]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="es" >}})
 
 ## La manera incorrecta de crear matrices en Python
 

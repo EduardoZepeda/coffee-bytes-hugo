@@ -33,7 +33,7 @@ The popularity of type hints is such that some users who consider them a signifi
 
 ### Type hints have already been evaluated and rejected.
 
-However, according to reddit users, there is not much interest from the code maintainers to incorporate these changes as part of the code. There have even been [proposals to incorporate type hints into the official Django repository](https://github.com/django/deps/pull/65#?), but these changes have been dismissed, probably because they consider the typing to be a contradiction to the nature of Python as a dynamic language. 
+However, according to reddit users, there is not much interest from the code maintainers to incorporate these changes as part of the code. There have even been proposals to incorporate [type hints into the official Django repository](https://github.com/django/deps/pull/65#?), but these changes have been dismissed, probably because they consider the typing to be a contradiction to the nature of Python as a dynamic language. 
 
 {{<box type="info" message="In case you don't know what type hints are, type hints allow you to declare the type of a variable, argument, or the return value of a function to make it easier to identify bugs or unwanted behavior. Think of Python type hints as Python's Typescript, or as optional static typing in your favourite compiled language, such as C, C++, or Rust." >}}
 

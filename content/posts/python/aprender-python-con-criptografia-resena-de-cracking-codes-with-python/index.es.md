@@ -64,4 +64,4 @@ Por otro lado, independientemente de lo anterior, te **recomiendo leer el [capí
 **Recomendado para leerlo:** 6/10  
 **Idiomas:** Inglés
 
-Entra en mi entrada sobre [inmersión en Python](/es/python/aprende-python-desde-cero-con-este-libro-gratuito/) para leer sobre otro libro genial para aprender Python desde cero.
+Entra en mi entrada sobre [inmersión en Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="es" >}}) para leer sobre otro libro genial para aprender Python desde cero.

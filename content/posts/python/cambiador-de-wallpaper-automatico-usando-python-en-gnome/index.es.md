@@ -23,7 +23,7 @@ En esta entrada vamos a crear un cambiador de wallpaper automático, aleatorio y
 
 **Actualizado:** Para Gnome 49 y Python 3.12
 
-Si no estas familiarizado con la sintaxis de Python, lee sobre uno de los mejores libros para adentrarte en Python en mi entrada sobre [el libro Inmersion en Python](/es/python/aprende-python-desde-cero-con-este-libro-gratuito/).
+Si no estas familiarizado con la sintaxis de Python, lee sobre uno de los mejores libros para adentrarte en Python en mi entrada sobre [el libro Inmersion en Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="es" >}}).
 
 Para empezar primero cambiemos de directorio a _home_/
 

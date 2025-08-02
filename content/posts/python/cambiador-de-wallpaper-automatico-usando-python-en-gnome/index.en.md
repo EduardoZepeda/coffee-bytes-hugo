@@ -21,7 +21,7 @@ In this post we are going to create an automatic, random and minimalistic wallpa
 
 **Updated** Updated for Gnome 43 and Python 3.12
 
-If you are not familiar with Python syntax, read about one of the best books for getting into Python in my post about [the book Python Immersion](/en/python/learn-python-from-scratch-with-this-free-book/).
+If you are not familiar with Python syntax, read about one of the best books for getting into Python in my post about [the book Python Immersion]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}}).
 
 To begin with let's first change the directory to _home_/
 

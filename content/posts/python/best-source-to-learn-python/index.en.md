@@ -21,7 +21,7 @@ title: My Curated Best Resources To Learn Python Programming Language
 
 ## The Best books to learn Python
 
-I used these resources to learn Python, so I am familiar with them and can heartily recommend them to you. If this little guide can help you to not get lost in the sea of options out there I'll be thrilled to share my experience learning Python with you.
+I used these curated resources to learn Python, most of them are books, since I read them, I can heartily recommend them to you. If this little guide can help you to not get lost in the sea of options out there I'll be thrilled to share my experience learning Python with you.
 
 {{< styles >}}
 
@@ -38,7 +38,7 @@ This book is my favorite of all, it starts from scratch and begins to teach you 
 - XML handling
 - HTTP requests
 
-In my humble opinion this book is my favorite source for learning Python.
+In my humble opinion this book is my favorite source for learning Python, I also [wrote a review of dive into Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}}) in the past.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg" class="md-local-image" alt="Dive into Python book cover" caption="Dive into Python Book cover" >}}
 

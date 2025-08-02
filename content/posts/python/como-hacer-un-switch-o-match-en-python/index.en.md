@@ -17,7 +17,7 @@ title: How to make a switch in Python?
 
 Python 3.10 was announced and it comes with something that many developers were missing from other languages: the switch statement. Yes, that piece of code that evaluates an expression and compares it with multiple cases to decide what to execute. Python did not have it implemented and many developers resorted to certain tricks to imitate it.
 
-I remind you that if you don't know anything about Python I have a post where I talk about the [book "Inmersion en Python"](/en/python/learn-python-from-scratch-with-this-free-book/); one of the best free books to learn Python from scratch.
+I remind you that if you don't know anything about Python I have a post where I talk about the [book "Inmersion en Python"]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}}); one of the best free books to learn Python from scratch.
 
 ## Switch in Python 3.10
 

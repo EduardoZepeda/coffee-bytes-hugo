@@ -47,4 +47,4 @@ Yo lo considero una excelente libro para aprender Python desde cero. Es muy dif�
 
 **Conocimientos previos recomendados:** HTML**Recomendado para leerlo:** 8/10
 
-Si prefieres un libro en español y que además **sea gratuito** visita mi entrada donde [reseño Inmersión en Python](/es/python/aprende-python-desde-cero-con-este-libro-gratuito/).
+Si prefieres un libro en español y que además **sea gratuito** visita mi entrada donde [reseño Inmersión en Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="es" >}}).

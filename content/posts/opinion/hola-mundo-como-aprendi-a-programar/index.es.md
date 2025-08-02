@@ -81,7 +81,7 @@ Python me fascinó con su sencilla sintaxis, la simplicidad de las funciones y l
 
 {{< figure src="images/ElGrupoDeComediantesMontyPython.jpg" class="md-local-image" alt="El grupo de comediantes conocido como Monty Python" caption="Fotografía del grupo de comediantes conocido como Monthy Python, del cual toma su nombre el lenguaje de programación." >}}
 
-Un mes más tarde leí el libro [Beginning Python from novice to Professional](/es/python/aprender-python-desde-cero-resena-de-beginning-python/) y experimenté la belleza de la simplicidad y la versatilidad de Python. 
+Un mes más tarde leí el libro [Beginning Python from novice to Professional]({{< ref path="/posts/python/aprender-python-desde-cero-resena-beginning-python/index.md" lang="es" >}}) y experimenté la belleza de la simplicidad y la versatilidad de Python. 
 
 Con Python podía hacer de todo: crear aplicaciones de escritorio, páginas web, scripts sencillos para automatizar tareas, todo eso con una sintaxis lo suficientemente simple y predecible para un profano de la programación como yo. Unas semanas bastaron para que Python se convirtiera en mi lenguaje favorito de programación (lo sigue siendo hoy en día), y pasara de mi primer "Hello World" a cosas más complicadas.
 

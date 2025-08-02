@@ -23,7 +23,7 @@ arr = [0]*5
 #[0, 0, 0, 0, 0]
 ```
 
-If you have no idea what I'm talking about, I have an excellent resource that can help you a lot: ["Inmersion en Python", totally free and in Spanish](/en/python/learn-python-from-scratch-with-this-free-book/)
+If you have no idea what I'm talking about, I have an excellent resource that can help you a lot: ["Inmersion en Python", totally free and in Spanish]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}})
 
 ## The wrong way to create arrays in Python
 

@@ -8,8 +8,8 @@ categories:
 - opinion
 coverImage: images/best-source-to-learn-python.jpg
 date: '2025-04-25'
-description: Te Presento mi lista de libros favoritos y algunos recursos extra que
-  puedes usar para aprender el lenguaje de programación Python, incluso sin experiencia
+description: Esta es mi lista de libros favoritos y recursos extra que
+  usé y recomiendo para aprender el lenguaje de programación Python, incluso si no experiencia
 keyword: libro para aprender python
 keywords:
 - python
@@ -21,7 +21,9 @@ title: Mis libros favoritos para aprender a programar en Python
 
 ## Mi lista de libros favoritos para aprender a programar en Python
 
-Yo utilicé estos libros para aprender Python, por lo que estoy familiarizado con ellos y puedo recomendártelos sincerament. Si esta pequeña guia puede servirte para no perderte en el mar de opciones que hay allá afuera, pues yo encantando de compartir mi experiencia aprendiendo Python contigo.
+Este post es mi lista de libros favoritos para aprender Python, por lo que estoy familiarizado con ellos y puedo recomendártelos sinceramente. Si esta pequeña guia puede servirte para no perderte en el mar de opciones que hay allá afuera, estaré encantando de compartir mi experiencia aprendiendo Python contigo para hacer tu proceso más llevadero.
+
+{{< styles >}}
 
 ### Dive into Python 3
 
@@ -36,7 +38,11 @@ Este libro para aprender Python favorito, parte de cero y empieza a enseñarte l
 - Manejo de XML
 - Solicitudes HTTP
 
-En mi humilde opinión este libro es de las mejores fuentes para aprender Python.
+Este libro se centra en el lenguaje y aspectos básicos de la lógica de programación, por lo que no verás GUIs, ni otros aspectos más específicos.
+
+En mi humilde opinión **este libro es el mejor para aprender** Python. Pero sigue leyendo para ver otras opciones.
+
+Existe una versión en español disponible de [inmersion en Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="es" >}}) para los hispanohablantes, de la cual te hable en un post anterior
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg" class="md-local-image" alt="Dive into Python book cover" caption="Dive into Python Book cover" >}}
 
@@ -54,7 +60,9 @@ Totalmente recomendado si quieres tener una visión general de las capacidades d
 
 ### Cracking codes with Python
 
-Un libro un poco inusual, te explica los aspectos más básicos de Python a la vez que te enseña la historia de la criptografía. Este libro también parte de la suposición de que no sabes absolutamente nada de Python. La temática del libro es enseñarte un método de cifrado cada capítulo. 
+Un libro un poco inusual, te explica los aspectos más básicos de Python a la vez que te lleva a dar un recorrido por la historia de la criptografía. 
+
+Cracking codes with Python parte de la suposición de que no sabes absolutamente nada de Python. La temática del libro es enseñarte un método de cifrado cada capítulo. 
 
 Aprenderás y codificaras el cifrado César, Vigenere, cuadernos de un solo uso y, para cerrar el libro, las bases del cifrado RSA. 
 
@@ -68,7 +76,7 @@ Lo recomiendo si buscas algo corto y ameno para dominar las partes más básicas
 
 Este pequeñito libro de cerca de 260 páginas es todo el lenguaje de programación Python resumido, eso sí, es cero didáctico y es más como una guia (cheatsheet) o resumen de todas las características y sutilezas del lenguaje. 
 
-Lo recomiendo, pero solamente si ya tienes nociones del lenguaje, en cuyo caso es una excelente manera de reforzar conceptos y aprender una que otra cosa nueva. 
+Recomiendo Python Pocket Reference, pero únicamente si ya tienes nociones del lenguaje, en cuyo caso es una excelente manera de reforzar conceptos y aprender una que otra cosa nueva. 
 
 La ventaja de este libro es que es de bolsillo y puedes leerlo en cualquier momento de ocio o cuando te transportes de un lado a otro.
 
@@ -78,7 +86,7 @@ La ventaja de este libro es que es de bolsillo y puedes leerlo en cualquier mome
 
 ### Python tricks
 
-Si ya tienes nociones del lenguaje, este libro llevará tus habilidades más allá. Python tricks es un recopilatorio con algunas características poco conocidas, o que han pasado inadvertidas de este lenguaje de programación. ¿Cómo que cosas? Bueno, cosas como:
+Si ya tienes nociones básicas de Python, o lo dominas, este libro llevará tus habilidades más allá. Python tricks es un recopilatorio con algunas características poco conocidas, o que han pasado inadvertidas de este lenguaje de programación. ¿Cómo que cosas? Bueno, cosas como:
 
 - El uso de zip
 - Manejo de iteradores

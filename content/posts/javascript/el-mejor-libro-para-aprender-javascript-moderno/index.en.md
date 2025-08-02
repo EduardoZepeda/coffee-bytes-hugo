@@ -43,4 +43,4 @@ If you want a copy go directly to the [author's official website](https://eloque
 **Recommended to read:** 9/10
 **Languages:** English, Spanish, Russian, Portuguese, Bulgarian, Bulgarian
 
-Click here to learn [one of the best books to learn Python](/en/python/learn-python-from-scratch-with-this-free-book/).
+Click here to learn [one of the best books to learn Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}}).

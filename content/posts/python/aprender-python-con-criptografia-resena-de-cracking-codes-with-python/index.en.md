@@ -62,4 +62,4 @@ On the other hand, regardless of the above, I **recommend you to read the [RSA e
 **Recommended to read:** 6/10
 **Languages:** English
 
-Go to my post about [Python immersion](/en/python/learn-python-from-scratch-with-this-free-book/) to read about another great book for learning Python from scratch.
+Go to my post about [Python immersion]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}}) to read about another great book for learning Python from scratch.
