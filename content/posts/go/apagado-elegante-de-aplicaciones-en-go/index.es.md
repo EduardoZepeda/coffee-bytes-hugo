@@ -18,7 +18,7 @@ title: 'Go: Manejo de Signals para Cerrar Aplicaciones'
 
 Hoy voy a hablar de un tema que suele pasarse por alto en la mayoría de los tutoriales: el manejo del cierre de aplicaciones. ¿A qué me refiero? A esas veces en las que tienes que cerrar una aplicación, pero pueden existir tareas pendientes en ejecución, conexiones abiertas o simplemente quieres dejar un registro, en forma de un log, de que la aplicación fue cerrada.
 
-{{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+{{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## Señales o Signals en Linux
 

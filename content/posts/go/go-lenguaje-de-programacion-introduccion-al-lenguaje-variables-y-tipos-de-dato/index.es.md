@@ -25,7 +25,7 @@ Go es [usado en proyectos tan colosales como el compilador de Typescript](https:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." >}}
 
-{{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+{{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## ¿Qué es Go? Un poco sobre el lenguaje de programación
 

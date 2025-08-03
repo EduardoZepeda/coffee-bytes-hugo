@@ -19,7 +19,7 @@ title: 'Go: importación de paquetes y manejo de modulos'
 
 En go **puedes considerar un paquete como todos los archivos que contenga un directorio y un modulo como una colección de paquetes**. Para usar el código de un paquete necesitamos importarlo, sin embargo, en Go no existen las importaciones de módulos relativas. Antes de Go 1.8, para importar paquetes (no había modulos) era necesario usar la ruta absoluta, considerando como base la ruta a la que apuntaba la variable de entorno $_GOPATH_ o. A partir de Go 1.11, la manera más sencilla de trabajar con paquetes es usar go mod. Te explicaré esta última.
 
-{{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+{{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 {{< figure src="images/modulo-y-paquetes-en-go.png" class="md-local-image" alt="Diferencias entre modulos y paquetes en go" >}}
 

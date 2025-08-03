@@ -24,7 +24,7 @@ title: Tutorial de migraciones en Go con migrate
 
 En frameworks como [Django, las migraciones se crean automáticamente](/es/django/por-que-deberias-usar-django-framework/#su-orm-es-sencillo-y-maravilloso), a partir de los modelos. Sin embargo en lenguajes como go, siempre y cuando no estemos usando un ORM, las migraciones se realizarán de manera manual.
 
-{{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+{{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## ¿Qué es una migración de una base de datos?
 

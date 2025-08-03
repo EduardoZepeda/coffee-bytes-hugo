@@ -19,7 +19,7 @@ title: 'Go: Structs, herencia, polimorfismo y encapsulación'
 
 Como ya te mencioné en la [introducción al lenguaje de programación Golang o Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), este lenguaje no tiene una palabra reservada para tratar con clases, sino que usa structs para emular características como herencia, polimorfismo, encapsulación y otras propiedades de las clases que probablemente hayas usado en otros lenguajes de programación.
 
-{{<box link="/es/go/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
+{{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## ¿Qué es un struct en Go?
 
