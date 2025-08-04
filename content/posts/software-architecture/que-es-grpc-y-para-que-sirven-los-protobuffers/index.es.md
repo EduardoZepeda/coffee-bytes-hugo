@@ -4,6 +4,7 @@ aliases:
 - /libera-el-potencial-de-tu-api-con-grpc-y-protobuffers
 - /es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/
 - /es/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
+- /software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
 authors:
 - Eduardo Zepeda
 categories:
@@ -17,8 +18,8 @@ keywords:
 - software architecture
 - API
 - buenas practicas
-slug: /software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
-title: APIs de alto rendimiento usando gRPC y Protobuffers
+slug: /software-architecture/apis-de-alto-rendimiento-go-lang-grpc-y-protobuffers/
+title: APIs de alto rendimiento Go Lang gRPC y Protobuffers
 ---
 
 Los protobuffers te permiten crear una API gRPC que tiene la característica de ser increíblemente más rápida, por usar binario en lugar de otros formatos menos optimizados (Como JSON), en esta entrada aprenderás en que consiste este tipo de API y porque es tan rápido.
@@ -52,7 +53,7 @@ Ahora sí, vamos con gRPC.
 
 {{<ad>}}
 
-## ¿Qué es gRPC?
+## ¿Qué es Go Lang gRPC?
 
 Google tomó en cuenta las carencias de RPC y decidió mejorarlo creando gRPC. 
 
@@ -60,7 +61,7 @@ gRPC emula a RPC con la ventaja de que **no necesita usar el mismo lenguaje de p
 
 ¿Y qué pasó con la codificación de datos? Pues Google desarrolló los Protocol Buffers (o protobuffers) para usarlos como el formato predeterminado d gRPC en el intercambio de información entre máquinas y conseguir un rendimiento superior a otros formatos como JSON o XML.
 
-## ¿Qué son los protobuffers?
+## ¿Qué son los Go Lang protobuffers?
 
 Seguramente has trabajado con APIs y has notado que, al comunicarte con una API, existe un intercambio de información; tú le mandas información a la API y esta te retorna una respuesta. Este intercambio de información puede llevarse a cabo en diferentes formatos, texto plano, XML (si eres de la vieja escuela) o JSON (el más popular a la fecha de hoy).
 
@@ -101,9 +102,29 @@ Tras definir nuestros modelos y servicios, estos archivos se compilan, y nos gen
 
 Actualmente el formato [protobuffers se encuentra disponible para C#, C++, Go, Objective-C, Java, Python y Ruby.](https://developers.google.com/protocol-buffers) Revisa la documentación para tu lenguaje en particular.
 
-## REST vs gRPC
+## REST vs Go Lang gRPC
 
-Pero, ¿qué tan eficiente es gRPC en comparación con REST? Mira esta comparación hecha por [Matthew Leung](https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da/).
+A continuación te resumo en esta tabla las diferencias que existen entre REST y gRPC
+
+| Aspecto                            | REST (JSON/HTTP)                | gRPC (Protobuf)                         |
+| ---------------------------------- | ------------------------------- | --------------------------------------- |
+| **Velocidad**                      | Más lento (texto)               | Más rápido (codificación binaria)       |
+| **Tamaño de datos**                | Grande (JSON)                   | Pequeño (Protobuf binario)              |
+| **Compilación**                    | Sin esquema (dinámico)          | Requiere compilación de Protobuf        |
+| **Versión HTTP**                   | HTTP/1.1 (mayormente)           | HTTP/2 (streams multiplexados)          |
+| **Streaming**                      | Limitado (SSE, WebSockets)      | Nativo (cliente/servidor/bidireccional) |
+| **Compatibilidad con navegadores** | Completa                        | Limitada (requiere gRPC-Web)            |
+| **Generación de código**           | Opcional (Swagger/OpenAPI)      | Integrada (`protoc`)                    |
+| **Casos de uso**                   | APIs públicas, aplicaciones web | Microservicios, sistemas internos       |
+| **Manejo de errores**              | Códigos de estado HTTP          | Códigos de error detallados             |
+| **Integración en Go**              | Structs manuales (`json:""`)    | Structs generados automáticamente       |
+| **Caché**                          | Fácil (caché HTTP)              | Difícil (formato binario)               |
+| **Legibilidad humana**             | Sí (JSON)                       | No (binario)                            |
+| **Latencia**                       | Alta (múltiples solicitudes)    | Baja (multiplexación)                   |
+
+### ¿Qué tan rápido es gRPC comparado con una API REST JSON?
+
+Pero, ¿qué tan eficiente es gRPC en comparación con REST? Mira esta comparación hecha por [Matthew Leung](https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da/#?).
 
 
 |                         | gRPC   | REST   |
@@ -127,7 +148,7 @@ El formato binario de los protobuffers se traduce en una menor cantidad de infor
 
 Por otro lado, el uso de HTTP/2, le permite a gRPC enviar múltiples streams de información sobre una sola conexión TCP (multiplexación) de manera bidireccional y asíncrona. 
 
-## Tipos de gRPC y streaming
+## Tipos de Go Lang gRPC y streaming
 
 El protocolo HTTP/2 es muy versátil y le permite a gRPC soportar cuatro tipos de comunicaciones entre cliente y servidor:
 
@@ -191,7 +212,7 @@ gRPC provee capacidades de balanceo de carga de manera nativa.
 
 ## Recursos de referencia
 
-- [How RPC Works](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works)
-- [What is RPC? gRPC Introduction](https://www.youtube.com/watch?v=gnchfOojMk4)
-- [Minimalist guide to RPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422)
-- [Devopedia](https://devopedia.org/grpc)
+- [How RPC Works](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works#?)
+- [What is RPC? gRPC Introduction](https://www.youtube.com/watch?v=gnchfOojMk4#?)
+- [Minimalist guide to RPC](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422#?)
+- [Devopedia](https://devopedia.org/grpc#?)

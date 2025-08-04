@@ -2,23 +2,24 @@
 aliases:
 - /en/unleash-your-apis-potential-with-grpc-and-protobuffers/
 - /en/fast-and-performant-apis-using-grpc-and-protobuffers/
+- /en/software-architecture/fast-and-performant-apis-using-grpc-and-protobuffers/
 authors:
 - Eduardo Zepeda
 categories:
 - software architecture
 coverImage: images/que-es-grpc-y-protobuffers.jpg
 date: '2023-01-19'
-description: What is a gRPC API and what are .proto files and protobuffers? What are
+description: What is a Go Lang gRPC API and what are .proto files and protobuffers? What are
   the advantages of protobuffers over JSON and why are they so fast and efficient?
 keywords:
 - REST
 - software architecture
 - API
 - best practices
-title: Fast and performant APIs using gRPC and Protobuffers
+title: Fast and performant APIs using Go Lang gRPC and Protobuffers
 ---
 
-Protobuffers allow you to create a gRPC API that has the characteristic of being incredibly faster, because it uses binary instead of other less optimized formats (such as JSON), in this post you will learn what this type of API is and why it is so fast.
+Protobuffers allow you to create a Go Lang gRPC API that has the characteristic of being incredibly faster, because it uses binary instead of other less optimized formats (such as JSON), in this post you will learn what this type of API is and why it is so fast.
 
 In my post about [the basic features about a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
 
@@ -47,7 +48,7 @@ Now, let's go to gRPC.
 
 {{<ad>}}
 
-## What is gRPC?
+## What is Go Lang gRPC?
 
 Google took into account the shortcomings of RPC and decided to improve it by creating gRPC.
 
@@ -55,7 +56,7 @@ gRPC emulates RPC with the advantage that it **does not need to use the same pro
 
 And what happened to data encryption? Well, Google developed Protocol Buffers (or protobuffers) to use them as the default format for gRPC in the exchange of information between machines and achieve better performance than other formats such as JSON or XML.
 
-## What are protobuffers?
+## What are Golang protobuffers?
 
 You have probably worked with APIs and have noticed that, when communicating with an API, there is an exchange of information; you send information to the API and it returns a response. This exchange of information can take place in different formats, plain text, XML (if you are old school) or JSON (the most popular today).
 
@@ -71,7 +72,7 @@ Protocol Buffers (protobuffers from now on) are a completely language and platfo
 
 {{< figure src="images/protobuffers-grpc.jpg" class="md-local-image" alt="The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional." caption="The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional." >}}
 
-### How to convert information with protobuffers?
+### How to convert information with Golang protobuffers?
 
 Simplifying, to create the necessary code to serialize and deserialize in the protobuffers format we start from a file with extension _.proto_, this will be in charge of modeling the information that we will use to communicate, as well as the services that will be available for our API. Basically it is to tell you how our information is structured and what changes we are going to make on this information along with what they will receive as input and return as response.
 
@@ -98,7 +99,29 @@ Currently the [protobuffers format is available for C#, C++, Go, Objective-C, Ja
 
 ## REST vs gRPC
 
-But how efficient is gRPC compared to REST? Check out this comparison by [Matthew Leung](https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da/).
+### Differences between REST and gRPC
+
+I put the main differences between REST and gRPC are summarized in this table
+
+| Aspect              | REST (JSON/HTTP)           | gRPC (Protobuf)                 |
+| ------------------- | -------------------------- | ------------------------------- |
+| **Speed**           | Slower (text-based)        | Faster (binary encoding)        |
+| **Payload Size**    | Larger (JSON)              | Smaller (binary Protobuf)       |
+| **Compilation**     | No schema (dynamic)        | Requires Protobuf compilation   |
+| **HTTP Version**    | HTTP/1.1 (mostly)          | HTTP/2 (multiplexed streams)    |
+| **Streaming**       | Limited (SSE, WebSockets)  | Native (client/server/bidi)     |
+| **Browser Support** | Full                       | Limited (requires gRPC-Web)     |
+| **Code Gen**        | Optional (Swagger/OpenAPI) | Built-in (protoc)               |
+| **Use Cases**       | Public APIs, Web Apps      | Microservices, Internal Systems |
+| **Error Handling**  | HTTP Status Codes          | Rich error codes + status       |
+| **Go Integration**  | Manual structs (`json:""`) | Auto-generated Go structs       |
+| **Caching**         | Easy (HTTP caching)        | Difficult (binary format)       |
+| **Human Readable**  | Yes (JSON)                 | No (binary)                     |
+| **Latency**         | Higher (multiple requests) | Lower (multiplexing)            |
+
+### How fast is gRPC compared to JSON REST?
+
+But how efficient is gRPC compared to REST? Check out this comparison by [Matthew Leung](https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da/#?).
 
 |                         | gRPC   | REST   |
 | ----------------------- | ------ | ------ |
@@ -171,7 +194,7 @@ graph TD;
 
 As you can see this is super useful for services that require constant exchanges of large amounts of information, such as microservices.
 
-## Other gRPC capabilities
+## Other Go lang gRPC capabilities
 
 ### Interceptors
 
@@ -183,7 +206,7 @@ gRPC provides load balancing capabilities natively.
 
 ## Reference resources
 
-* [How RPC works?](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works)
-* [What's RPC an introduction guide](https://www.youtube.com/watch?v=gnchfOojMk4)
-* [RPC minimalist guide](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422)
-* [Devopedia](https://devopedia.org/grpc)
+* [How RPC works?](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works#?)
+* [What's RPC an introduction guide](https://www.youtube.com/watch?v=gnchfOojMk4#?)
+* [RPC minimalist guide](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422#?)
+* [Devopedia](https://devopedia.org/grpc#?)

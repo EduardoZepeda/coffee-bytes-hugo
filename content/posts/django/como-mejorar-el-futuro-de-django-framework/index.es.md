@@ -47,7 +47,7 @@ El segundo comentario que recibió más apoyo afirma que personalizar el modelo 
 
 {{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Segundo comentario con más apoyo sobre como mejorar django framework" caption="Segundo comentario con más apoyo sobre como mejorar django framework" >}}
 
-A pesar de que hay múltiples maneras de [personalizar el modelo User en Django](/es/django/como-personalizar-el-modelo-user-en-django/), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
+A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]({{< ref path="/posts/django/como-mejorar-el-futuro-de-django-framework/index.md" lang="es" >}}), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
 
 {{<box type="info" message="Por si no lo sabes, Django usa por defecto el *username* de su modelo de *User*, en combinación con el password, para loggear un usuario. Pero la tendencia actual en el desarrollo web es utilizar directamente el correo electrónico. " >}}
 
@@ -55,7 +55,7 @@ A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]
 
 A pesar de que Django cuenta con una de las mejores librerías para crear una aplicación que cumpla las [características de una API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}); DRF (Django Rest Framework). Los usuarios de reddit consideran que Django debería brindar soporte para las API REST "out of the box", como parte nativa del framework.
 
-La anterior me parece una propuesta interesante pero también entiendo que, a pesar de la madurez de REST, darle preferencia sobre el resto de APIs, como por ejemplo el [moderno gRPC de Google](/es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), SOAP, o alguna API que aún no ha emergido, puede ser considerado como un paso bastante arriesgado por el comité de Django. Sí, inclusive aunque existan librerías completas basadas en REST, como [FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="es" >}})
+La anterior me parece una propuesta interesante pero también entiendo que, a pesar de la madurez de REST, darle preferencia sobre el resto de APIs, como por ejemplo el [moderno gRPC de Google]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}}), SOAP, o alguna API que aún no ha emergido, puede ser considerado como un paso bastante arriesgado por el comité de Django. Sí, inclusive aunque existan librerías completas basadas en REST, como [FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="es" >}})
 
 ## Leer las variables entorno en Django sin librerías de terceros
 

@@ -4,9 +4,9 @@ date: "2019-04-30"
 noindex: true
 ---
 
-El enlace para descargar el libro fue envíado a tu correo electrónico, revísalo y descárgalo.
+El enlace para descargar mi Guía de Python Gratuita fue envíado a tu correo electrónico, revísalo y descárgalo.
 
-¡Gracias por suscribirte! Te enviaré por correo electrónico actualizaciones sobre entradas nuevas. Odio el spam, así que no esperes demasiados correos en tu bandeja :) 
+Mis nuevas entradas te llegarán por correo electrónico, no publico tan seguido, así que no esperes muchos correos al mes.
 
 ¡Mantengamos contacto en Twitter!
 

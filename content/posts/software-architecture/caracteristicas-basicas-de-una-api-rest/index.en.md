@@ -46,7 +46,7 @@ A REST API is an API that complies with the REST design standard (Thank you capt
 
 ### What are the characteristics of a REST API?
 
-Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC](/en/software-architecture/fast-and-performant-apis-using-grpc-and-protobuffers/), even large companies as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APIs as such.
+Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), even large companies as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APIs as such.
 
 If you already know the brief technical part, skip this section.
 

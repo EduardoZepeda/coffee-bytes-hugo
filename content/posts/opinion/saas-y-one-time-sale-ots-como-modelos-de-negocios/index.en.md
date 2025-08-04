@@ -88,7 +88,7 @@ In his manifesto, Eleven, with the eloquence of the best politician, promises **
 
 Surprisingly, their promise is not based on empty words; they have developed an application similar to Slack, called **campfire**, which promises to reduce operating costs by up to 99.9% and was quite well received at X.
 
-{{< twitter user="dhh" id="1753131755346047307" >}}
+{{< x user="dhh" id="1753131755346047307" >}}
 
 ## Some OTS and SAAS considerations.
 

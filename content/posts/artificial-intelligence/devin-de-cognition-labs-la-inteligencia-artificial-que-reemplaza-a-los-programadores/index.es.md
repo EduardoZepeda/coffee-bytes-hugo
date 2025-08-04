@@ -41,7 +41,7 @@ Aunque aún estamos lejos de tener una [AI consciente de si misma](/es/artificia
 
 Detrás de Devin AI se encuentra Cognition labs, una empresa relativamente nueva que se habia mantenido tras bambalinas hasta ayer. Su [cuenta de Twitter](https://twitter.com/cognition_labs#?) tiene menos de dos días al momento de escribir este artículo (aunque ya acumula más de 86 k de seguidores).
 
-{{< twitter user="cognition_labs" id="1767548763134964000" >}}
+{{< x user="cognition_labs" id="1767548763134964000" >}}
 
 ### ¿Quienes componen Cognition labs?
 

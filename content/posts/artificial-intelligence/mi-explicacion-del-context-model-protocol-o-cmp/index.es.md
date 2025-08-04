@@ -26,7 +26,7 @@ Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entie
 
 ## ¿Por qué se creó el Model Context Protocol?
 
-Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC](/es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/), REST u otras), básicamente cualquier fuente que pueda retornar información.
+Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}}), REST u otras), básicamente cualquier fuente que pueda retornar información.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde" >}}
 
@@ -154,7 +154,7 @@ Si te sientes más familiarizado con [APIs del tipo GraphQL](/es/django/como-cre
 
 El MCP tiene dos paradigmas de comunicación, uno de ellos es por medio del STDIO, o Standard Input Output, ~~sacado directamente de tus pesadillas programando en C #include <stdio.h>~~ ideal para comunicaciones locales, por ejemplo con una base de datos local, como Postgres o SQL.
 
-El otro tipo es SSE o Server Sent Events, el cual realiza streaming de peticiones *POST* (similar [al streaming de peticiones en gRPC del que te hablé](/es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/)), ideal obviamente para comunicaciones que no ocurren en el mismo entorno.
+El otro tipo es SSE o Server Sent Events, el cual realiza streaming de peticiones *POST* (similar [al streaming de peticiones en gRPC del que te hablé]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}})), ideal obviamente para comunicaciones que no ocurren en el mismo entorno.
 
 ## El protocolo MCP es Stateful
 

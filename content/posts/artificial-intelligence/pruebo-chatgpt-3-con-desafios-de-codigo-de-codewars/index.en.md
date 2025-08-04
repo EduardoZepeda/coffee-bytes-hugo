@@ -35,7 +35,7 @@ To start with I was testing ChatGPT with a series of simple and popular requests
 * Prime numbers
 * Palindromes
 * Validate email, strings, numbers
-* Very specific tasks of some frameworks. For example: [Replace User model in Django.](/en/django/how-to-customize-the-user-model-in-django/)
+* Very specific tasks of some frameworks. For example: [Replace User model in Django.]({{< ref path="/posts/django/como-mejorar-el-futuro-de-django-framework/index.md" lang="en" >}})
 
 {{< figure src="images/ChatGPT-Django-users.png" class="md-local-image" alt="Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField." caption="Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField." >}}
 

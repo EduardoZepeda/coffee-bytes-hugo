@@ -91,7 +91,7 @@ En su manifiesto, Once, con la elocuencia del mejor político, promete **un úni
 
 Sorprendemente, su promesa no se basa en palabras vacias; han desarrollado una aplicación similar a Slack, llamada **campfire**, que promete reducir los costos de operación hasta en un 99.9% y que fue bastante bien recibida en X.
 
-{{< twitter user="dhh" id="1753131755346047307" >}}
+{{< x user="dhh" id="1753131755346047307" >}}
 
 ## Algunas consideraciones del OTS y SAAS
 

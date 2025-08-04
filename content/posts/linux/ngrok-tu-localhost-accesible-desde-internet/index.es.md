@@ -88,3 +88,10 @@ Si la conexión se queda colgada con Wordpress cuando intentas usar Ngrok, añad
 ``` bash
 ngrok http <puerto> --host-header=rewrite
 ```
+
+## Ngrok alternativas
+
+- [Zrok](https://zrok.io/#?)
+- [TunnelMole](https://tunnelmole.com/docs/#installation#?)
+- [Rathole](https://github.com/rathole-org/rathole#?)
+- [List of alternatives](https://github.com/anderspitman/awesome-tunneling#?)

@@ -27,7 +27,7 @@ If you're struggling to understand the Model Context Protocol, I feel you, I wat
 
 One of the most convenient uses of LLMs is to use them to analyse or process our own data, for which there are several options, such as [LLM fine-tuning](/en/artificial-intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/) or RAG, or manually passing our data as context as part of the prompt.
 
-Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context and the ability to interact with systems to LLMs. Where does that context come from? Well, pretty much anywhere, Github, a database, your file system, an API ([gPRC type](/en/software-architecture/fast-and-performant-apis-using-grpc-and-protobuffers/), REST or others), basically any source that can return information.
+Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context and the ability to interact with systems to LLMs. Where does that context come from? Well, pretty much anywhere, Github, a database, your file system, an API ([gPRC type]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), REST or others), basically any source that can return information.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Example of MCP usage, user asks for the content of its own files, LLM reads them and replies" >}}
 
@@ -155,7 +155,7 @@ If you are more familiar with [GraphQL-like APIs](/en/django/how-to-create-a-gra
 
 The MCP has two communication paradigms, one is via STDIO or Standard Input Output, ~~right out of your C programming nightmares #include <stdio.h>~~ ideal for local communication, for example with a local database such as Postgres or SQLite.
 
-The other type is SSE or Server Sent Events, which does *POST* request streaming (similar [to the gRPC streaming requests I've already told you about](/en/software-architecture/fast-and-performant-apis-using-grpc-and-protobuffers/)), ideal of course for communications that are not in the same environment.
+The other type is SSE or Server Sent Events, which does *POST* request streaming (similar [to the gRPC streaming requests I've already told you about]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}})), ideal of course for communications that are not in the same environment.
 
 ## The MCP protocol is stateful 
 
