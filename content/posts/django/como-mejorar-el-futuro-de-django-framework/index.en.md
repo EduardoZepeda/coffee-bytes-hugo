@@ -45,7 +45,7 @@ The second comment that received the most support states that customizing Django
 
 {{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Second comment with most support on how to improve Django" caption="Second comment with most support on how to improve Django" >}}
 
-Although there are multiple ways to [customize the User model in Django]({{< ref path="/posts/django/como-mejorar-el-futuro-de-django-framework/index.md" lang="en" >}}), such as using a proxy model, or inheriting from *AbstractUser*, some users find that solution a little bit "hackish".
+Although there are multiple ways to [customize the User model in Django]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="en" >}}), such as using a proxy model, or inheriting from *AbstractUser*, some users find that solution a little bit "hackish".
 
 {{<box type="info" message="In case you don't know, Django uses by default the *username* from its *User* model, in combination with the password, to log in a user. But the current trend in web development is to use email directly." >}}
 

@@ -47,7 +47,7 @@ El segundo comentario que recibió más apoyo afirma que personalizar el modelo 
 
 {{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Segundo comentario con más apoyo sobre como mejorar django framework" caption="Segundo comentario con más apoyo sobre como mejorar django framework" >}}
 
-A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]({{< ref path="/posts/django/como-mejorar-el-futuro-de-django-framework/index.md" lang="es" >}}), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
+A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="es" >}}), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
 
 {{<box type="info" message="Por si no lo sabes, Django usa por defecto el *username* de su modelo de *User*, en combinación con el password, para loggear un usuario. Pero la tendencia actual en el desarrollo web es utilizar directamente el correo electrónico. " >}}
 
