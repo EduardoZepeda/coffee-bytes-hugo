@@ -49,7 +49,7 @@ To end the book, the authors will share with you the libraries they use in each 
 As I mentioned, the book focuses on Django best practices. To give you a little taste of what you will find in the book, here are some examples based on the recommendations you can find inside the book.
 
 ```python
-# NO HAGAS ESTO 
+# DON'T DO THIS
 from models.gamer import Gamer
 
 gamers_to_email = []
@@ -82,8 +82,9 @@ The above examples represent pieces of **fully functional** code, but which, due
 
 Many authors of Django books abandon their works and, over the years, they become outdated (as happened to The Definitive Guide to Django). The authors of this book do not fall into this category, they constantly update the content of their work and make updated versions available from time to time. Right now ~~they are working on~~ the [alpha version for Django 3.0](https://www.feldroy.com/products/two-scoops-of-django-3-x#?) of this same book is already available and will be around for a long time.
 
-**** Recommended prerequisite knowledge:**** HTML, CSS, Python, Django, REST, Database
+**Recommended prerequisite knowledge:** HTML, CSS, Python, Django, REST, Database
 **Recommended to read:** 10/10
 **Languages:** English, Spanish (Will be available for the latest version)
 
-If you want to read about more books to learn Django go to my [review of Django for Professionals](/en/django/django-for-professionals-review/).
+If you want to read about more books to learn Django go to my [review of Django for Professionals]({{< ref path="/posts/django/resena-de-django-for-professionals/index.md" lang="en" >}}).
+

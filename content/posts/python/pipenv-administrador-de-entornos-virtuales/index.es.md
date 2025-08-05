@@ -21,7 +21,7 @@ slug: /python/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/
 title: 'Pipenv: El administrador de entornos virtuales que NO conoces'
 ---
 
-Desde que empecé a usar Python uso virtualenv y pip para manejar los entornos virtuales. Pero al leer [Django for Professionals](/es/django/resena-de-django-for-professionals/) me enteré de que existía una herramienta mejor que pip y virtualenv, llamada Pipenv (no se complicaron mucho con el nombre). Pipenv tiene características que la hacen mucho más robusta y sencilla de utilizar que virtualenv. En este tutorial de Pipenv paso a paso, te voy a explicar la instalación, uso, manejo de archivos y comandos básicos de esta herramienta.
+Desde que empecé a usar Python uso virtualenv y pip para manejar los entornos virtuales. Pero al leer [Django for Professionals]({{< ref path="/posts/django/resena-de-django-for-professionals/index.md" lang="es" >}}) me enteré de que existía una herramienta mejor que pip y virtualenv, llamada Pipenv (no se complicaron mucho con el nombre). Pipenv tiene características que la hacen mucho más robusta y sencilla de utilizar que virtualenv. En este tutorial de Pipenv paso a paso, te voy a explicar la instalación, uso, manejo de archivos y comandos básicos de esta herramienta.
 
 Primero, si ya has oído hablar de los entornos virtuales pero no sabes para que sirven tengo una entrada donde hablo sobre [entornos virtuales en Python]({{< ref path="/posts/python/por-que-usar-un-entorno-virtual-en-python/index.md" lang="es" >}}). Por otro lado, si el nombre de _virtualenv_ te suena medio esotérico quizás quieras leer sobre [virtualenv, el gestor de entornos virtuales de Python](/es/python/python-virtualenv-tutorial-basico-en-linux/)
 

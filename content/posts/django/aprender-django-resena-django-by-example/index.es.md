@@ -62,4 +62,4 @@ Dejando de lado las carencias del contenido en cuanto a javascript, Django by ex
 Lee otras de mis reseñas sobre libros de Django aquí:
 
 - [Mi reseña de Two scoops of Django](/es/django/el-mejor-libro-de-django-resena-de-two-scoops-of-django/), enfocado en buenas prácticas, por si ya has hecho proyectos con Django.
-- [Mi review de Django for professionals](/es/django/resena-de-django-for-professionals/), parte desde cero pero incluye Docker como parte del desarrollo.
+- [Mi review de Django for professionals]({{< ref path="/posts/django/resena-de-django-for-professionals/index.md" lang="es" >}}), parte desde cero pero incluye Docker como parte del desarrollo.

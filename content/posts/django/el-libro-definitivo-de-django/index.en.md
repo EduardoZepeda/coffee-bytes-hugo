@@ -37,7 +37,7 @@ If the authors of this book decided to keep its content up to date it could easi
 
 If you still want to read the book I recommend you to choose carefully the chapters and consider that the code may be quite outdated, I leave you the link to its [Spanish version](http://bibing.us.es/proyectos/abreproy/12051/fichero/libros%252Flibro-django.pdf#?) (If the link no longer sends you somewhere valid send me a tweet or an email). You can download it without any concern, it is totally legal, because the book is under the terms of the GNU Free Documentation License. **I recommend you to take a look at the chapters of Cache, Middleware, Internationalization and Security**, you will find useful tips that are still valid today.
 
-If you want to learn Django with the new changes in the framework go to my post where I talk about the [Django for Professionals book](/en/django/django-for-professionals-review/)
+If you want to learn Django with the new changes in the framework go to my post where I talk about the [Django for Professionals book]({{< ref path="/posts/django/resena-de-django-for-professionals/index.md" lang="en" >}})
 
 ****Recommended background:**** Python, HTML and CSS
 **Recommended to read:** 6/10

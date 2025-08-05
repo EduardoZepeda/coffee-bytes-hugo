@@ -59,4 +59,4 @@ Leaving aside the shortcomings of the javascript content, Django by example comp
 Read my other Django book reviews here:
 
 * [My review of Two scoops of Django](/en/django/the-best-django-book-two-scoops-of-django-review/), focused on best practices, if you have already done projects with Django.
-* [My review of Django for professionals](/en/django/django-for-professionals-review/), starts from scratch but includes Docker as part of the development.
+* [My review of Django for professionals]({{< ref path="/posts/django/resena-de-django-for-professionals/index.md" lang="en" >}}), starts from scratch but includes Docker as part of the development.

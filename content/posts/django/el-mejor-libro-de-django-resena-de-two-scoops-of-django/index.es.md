@@ -84,8 +84,8 @@ Los ejemplos anteriores representan pedazos de código **totalmente funcionales*
 
 Muchos autores de libros de Django abandonan sus obras y, con el pasar de los años estas se desactualizan (como le paso a The Definitive Guide to Django). Los autores de este libro no entran en esta categoría, actualizan constantemente el contenido de su obra y ponen a disposición versiones actualizadas cada cierto tiempo. Ahora mismo ~~están trabajando~~ ya está disponible la [versión alpha para Django 3.0](https://www.feldroy.com/products/two-scoops-of-django-3-x#?) de este mismo libro la cual durará mucho tiempo vigente.
 
-****Conocimientos previos recomendados:**** HTML, CSS, Python, Django, REST, Base de datos  
+**Conocimientos previos recomendados:** HTML, CSS, Python, Django, REST, Base de datos  
 **Recomendado para leerlo:** 10/10  
 **Idiomas:** Inglés, español (Estará disponible para la última versión)
 
-Si quieres leer sobre más libros para aprender Django entra en mi [reseña de Django for Professionals](/es/django/resena-de-django-for-professionals/).
+Si quieres leer sobre más libros para aprender Django entra en mi [reseña de Django for Professionals]({{< ref path="/posts/django/resena-de-django-for-professionals/index.md" lang="es" >}}).
