@@ -21,7 +21,7 @@ title: Fast and performant APIs using Go Lang gRPC and Protobuffers
 
 Protobuffers allow you to create a Go Lang gRPC API that has the characteristic of being incredibly faster, because it uses binary instead of other less optimized formats (such as JSON), in this post you will learn what this type of API is and why it is so fast.
 
-In my post about [the basic features about a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
+In my post about [the basic characteristics of a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
 
 ## What is RPC?
 
