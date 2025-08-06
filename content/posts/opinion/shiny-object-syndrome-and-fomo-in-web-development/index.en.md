@@ -63,7 +63,7 @@ I will dare to name you some examples that crossed my mind while writing this po
 - [Graphql](/en/django/how-to-create-a-graphql-api-in-django-rapidly-using-graphene/): Adopted by many, many people even though they probably only needed a [REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}).
 - [JWT](http://cryto.net/%7Ejoepie91/blog/2016/06/13/stop-using-jwt-for-sessions/#?): Used as an “enhancement” to sessions and authentication, even though [several computer security experts recommended not using them](https://redis.io/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/) that way.
 - CSR, SSR and SSG: Developers quickly realized that it was always better to generate the HTML directly from the server or use static files, as had always been done, for many reasons including [SEO optimizing]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}).
-- AI: Not sure about this one, [is AI just a bubble?]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}), like crypto was, or we really are in front of a human revolution?
+- AI: Not sure about this one, is this just more [AI overhype]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}), like crypto was, or we really are in front of a human revolution?
 - WASM: It's not that WASM is not useful, quite the contrary, the thing here is that some folks thought that every site was going to be coded in Rust or some low level language, which of course didn't happen.
 
 ### Consequences of SOS and FOMO in web development

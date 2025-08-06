@@ -51,7 +51,7 @@ I find this kind of captchas super practical to deal with most of the bots that 
 
 Their disadvantage, it seems to me, is their weakness against a personalized attack, since it will be enough for a human to enter the website, read the question and adapt the code to his convenience.
 
-I also consider that, with the [rise of artificial intelligence]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) they will become obsolete, since it is enough to ask the AI to read the label of the input and generate an appropriate response.
+I also consider that, with the [rise of AI, despite the overhype]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) they will become obsolete, since it is enough to ask the AI to read the label of the input and generate an appropriate response.
 
 My veredict:
 - Security: 6

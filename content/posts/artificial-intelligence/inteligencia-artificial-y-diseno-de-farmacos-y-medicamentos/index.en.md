@@ -114,7 +114,7 @@ Artificial intelligence is able to recognize patterns that humans cannot, it can
 
 {{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetine, an antidepressant that acts by blocking a receptor." caption="Fluoxetine, an antidepressant that acts by blocking a receptor." >}}
 
-Of course AI for drug development will reach its full potential once the [AI bubble crashes]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
+Of course AI for drug development will reach its full potential once the [AI overhype stops]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 
 ## What parameters should I use to train an artificial intelligence model to discover new drugs?
 

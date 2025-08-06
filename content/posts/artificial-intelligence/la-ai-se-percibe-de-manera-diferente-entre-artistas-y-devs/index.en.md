@@ -23,7 +23,7 @@ Today, while *doom scrolling* on Zuckerberg's social network, the algorithm reco
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Sakura Card Captors image in the style of Remedios Varo created with AI" caption="Sakura Card Captors image in the style of Remedios Varo created with AI" >}}
 
-When I checked the comments—I don’t even know what I gain from doing that—I noticed that the most *liked* ones expressed strong disdain for artificial intelligence. A normal behavior if you're in the [middle of an AI Bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
+When I checked the comments—I don’t even know what I gain from doing that—I noticed that the most *liked* ones expressed strong disdain for artificial intelligence. A normal behavior if you're in the [middle of AI overhype]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
 
 ## Artists Hate AI, Devs Are Forced to Accept It  
 

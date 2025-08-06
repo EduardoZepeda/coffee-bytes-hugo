@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/the-rise-and-fall-of-the-ai-bubble/
+- /en/artificial-intelligence/the-rise-and-fall-of-the-ai-bubble/
 authors:
 - Eduardo Zepeda
 categories:
@@ -8,23 +9,22 @@ categories:
 - opinion
 coverImage: images/ai-rise-and-fall-bubble.jpg
 date: 2024-04-18
-description: We seem to be experiencing an artificial intelligence bubble or ai bubble
-  caused by financial speculation, chatGPT, very clever programmers and very greedy
-  investors
+description: We seem to be experiencing an artificial intelligence overhype and possible an AI bubble
+  caused by financial speculation, chatGPT and investors
 keyword: ai bubble
 keywords:
 - artificial intelligence
 - opinion
 - neural networks
 - machine learning
-title: The Rise and Fall of the AI Bubble
+title: AI is Overhyped When Will the Bubble Burst?
 ---
 
-Since ChatGPT rapidly surpassed the record of user growth, artificial intelligence is almost omnipresent in the modern metropolis collectivity. Its arrival has brought a wide gradient of expectations ranging from simple problem solving to the complete automation of our societies. 
+Since ChatGPT rapidly surpassed the record of user growth, artificial intelligence is almost omnipresent in the modern metropolis collectivity. Its arrival has brought a wide gradient of expectations ranging from simple problem solving to the complete automation of our societies. But I think it's overhyped.
 
 {{< styles >}}
 
-But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term.
+But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term. AI is awesome, but it's overhyped.
 
 {{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme mocking the capabilities of AI" >}}
 
@@ -40,7 +40,13 @@ Other companies abandonned the idea of replace developers and focused on becomin
 
 {{<ad>}}
 
-## Investors' greed and consumers' ignorance are guilty of The AI bubble
+## Humanity's last exam shows that AI is overhyped
+
+Let's consider Humanity's last exam scores, as you can see, we're around ~30% which is frankly a lot. I don't think we have been close to having something like this. Just thinking about the possibilities makes me tremble. However, investors and click-bait media are trying to convince you that we're around 100%, which is a criminal fallacy. AI's accomplishment are just incredible, but still AI is overhyped.
+
+![Humanity's last exam score](https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg)
+
+## Investors' greed and consumers' ignorance are guilty of The AI overhype
 
 It is enough for a company to use AI to grant it with an unknown magic that makes it irresistible to the general public, and also to investors. And this because a simple reason: as a society we do not understand how AI works internally, we do not understand the statistics behind it and we endow it with the mysticism of magic.
 
@@ -78,7 +84,7 @@ I stumbled upon this video the other day, and I agree with this fine gentleman: 
 
 The greed that feeds the use of AI is going to flood the internet with a myriad of AI articles, that are going to be used to feed, and afterwards be regurgitated by the AI, over and over again ~~as in the human centipede movie~~.
 
-## The tragic end of the AI Bubble and the New Normal
+## The tragic end of the AI Overhype and the New Normal
 
 Having said the above, it seems that I believe that all this about AI is nothing more than smoke and mirrors, but that's far from the truth, I believe that AI is going to stay and it has potential for a social revolution but, at least in the short term, it will be exclusive to a very small group of companies, among which I highlight openAI, Google, Microsoft and the usual players.
 
@@ -86,10 +92,10 @@ Having said the above, it seems that I believe that all this about AI is nothing
 
 My take is that AI is the ultimate autocompletition tool, be it text, images, video 3D structure (I foresee a huge potential in this field), nothing else. So far AGI is a milestone that remains distant in the future and we don't know if it is achievable.
 
-Don't get me wrong, there is an AI bubble, and the bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
+Don't get me wrong, there is an AI overhype, but it will stop when companies realize AI's true capabilities. The bubble will burst and only those companies with the potential to change the game forever will remain. Tools like Sora, Midjourney, ChatGPT, Eleven Labs or Watson. 
 
 It is up to them to decide the pace at which this transition will take place despite what the market is trying to shove down your throat.
 
 {{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="dragon ball meme about the AI bubble bursting" >}}
 
-My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, crashing the market in the process, and that, when the AI bubble bursts, a lot of people are going to lose money in the process.
+My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, crashing the market in the process, and that, when the AI bubble bursts and AI overhype ends, a lot of people are going to lose money in the process.

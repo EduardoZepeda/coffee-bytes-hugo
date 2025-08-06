@@ -22,7 +22,7 @@ keywords:
 title: My Bolt vs Lovable vs V0 Vercel Comparison
 ---
 
-All the tech influencers are spreading FOMO and talking about tools like Bolt, Vercel's V0, and Lovable. But I get it, [we're still in an AI bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}). 
+All the tech influencers are spreading FOMO and talking about tools like Bolt, Vercel's V0, and Lovable. But I get it, [AI is overhyped right and we could be in a bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}). 
 
 Despite their non-realistic valuation, I'm astonished about what these tools can do without needing [REST APIs]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), nor [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}) integrations from the user. 
 

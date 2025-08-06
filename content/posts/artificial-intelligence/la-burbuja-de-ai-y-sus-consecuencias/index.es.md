@@ -39,6 +39,12 @@ Otras compañias abandonaron la idea de reemplazar desarrolladores y se enfocaro
 
 {{<ad>}}
 
+## Humanity's last exam shows that we're far from AGI
+
+Consideremos las puntuaciones del último examen de la Humanidad, como pueden ver estamos alrededor del ~30%, **lo cual es francamente mucho, no creo que hayamos estado de un avance tan significativo como este**, solo pensar en las posibilidades me hace temblar, pero los inversores y los medios de comunicación clickbait están tratando de convencerlos de que estamos alrededor del 100%, lo cual es una falacia de tamaño descomunal.
+
+![Humanity's last exam score](https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg)
+
 ## La burbuja de AI es culpa de la ignorancia de inversores y consumidores
 
 Basta con que una empresa use AI para dotarla de una magia desconocida que la vuelve irresistible hacia el público en general, y también para los inversionistas. Y esto por una sencilla razón: como sociedad no entendemos como funciona la AI a nivel interno, no entendemos las estadísticas detrás y le dotamos del misticismo de la magia.
