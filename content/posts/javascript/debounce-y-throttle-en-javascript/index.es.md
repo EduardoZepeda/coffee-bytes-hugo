@@ -11,16 +11,15 @@ categories:
 coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'
-description: Explicación de los patrones debounce y throttle, usados para limitar
-  la ejecución desmedida, especialmente como respuesta a eventos de un usuario, de
-  las funciones en Javascript y otros lenguajes de programación.
+description: Explicación interactiva y visual de los patrones debounce y throttle, usados para limitar
+  la ejecución desmedida, especialmente como respuesta a eventos 
 keywords:
 - javascript
 - patrones de diseño
 - throttling
 - debounce
-slug: /javascript/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/
-title: Limita la ejecución de funciones en JS con Debounce y Throttle
+slug: /javascript/explicacion-interactiva-de-debounce-y-throttle/
+title: Explicación Interactiva de Debounce y Throttle
 ---
 
 Hagamos una explicación interactiva de debounce vs throttle, donde puedas ver las diferencias entre estos [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) de una manera más visual. 

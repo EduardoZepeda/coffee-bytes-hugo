@@ -43,7 +43,7 @@ En el software los patrones de diseño son iguales, son el acomodo y las relacio
 
 Algunos problemas muy comunes son: [el procesamiento de tareas usando un número fijo de workers](/es/software-architecture/explicacion-del-patron-de-diseno-worker-pool/), asegurarse de que solo haya una instancia de una clase ejecutándose, adaptar una API complicada e imposible de modificar a una más sencilla y fácil de entender o separar la parte que maneja la base de datos, la que decide la lógica y la que muestra el contenido HTML de una página web. 
 
-¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}}), es un patrón de diseño.** O el patrón [debounce y Throttle](/es/javascript/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/) que se usan principalmente en Javascript.
+¿Te suena este último a algo? **Sí, el patrón MVC que usan muchos [frameworks, como django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}}), es un patrón de diseño.** O el patrón [debounce y Throttle]({{< ref path="/posts/javascript/debounce-y-throttle-en-javascript/index.md" lang="es" >}}) usados frecuentemente en Javascript.
 
 Otro ejemplo es el famosísimo ["composición sobre herencia"]({{< ref path="/posts/software-architecture/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="es" >}})
 
