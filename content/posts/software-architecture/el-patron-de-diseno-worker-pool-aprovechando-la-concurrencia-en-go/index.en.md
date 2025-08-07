@@ -39,7 +39,11 @@ This may look pretty good so far, at first, but it has multiple disadvantages; f
 
 It would be best to keep memory usage constant and avoid creating and destroying workers frequently. For this, the worker pool pattern works perfect.
 
+## Interactive Worker pool explanation
+
 Worker pool is a classical [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) that comes to make up for these shortcomings.
+
+{{<workerPool>}}
 
 There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang#?)
 
