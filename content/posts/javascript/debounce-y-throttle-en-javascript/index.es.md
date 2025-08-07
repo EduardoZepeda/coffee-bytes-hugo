@@ -3,6 +3,7 @@ aliases:
 - /debounce-y-throttle-en-javascript
 - /es/debounce-y-throttle-en-javascript/
 - /es/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/
+- /es/javascript/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle/
 authors:
 - Eduardo Zepeda
 categories:
@@ -22,9 +23,19 @@ slug: /javascript/limita-la-ejecucion-de-funciones-en-js-con-debounce-y-throttle
 title: Limita la ejecución de funciones en JS con Debounce y Throttle
 ---
 
-Hagamos un debounce vs throttle. Debounce y throttle son [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) usados para limitar la ejecución de funciones, generalmente son utilizados para restringir la cantidad de veces que un evento se dispara: eventos click, scroll, resize u otros. Los patrones no son exclusivos de Javascript; en una entrada anterior te explique como usar throttle para [limitar la cantidad de requests que recibe el servidor nginx.](/es/software-architecture/throttling-en-nginx/)
+Hagamos una explicación interactiva de debounce vs throttle, donde puedas ver las diferencias entre estos [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) de una manera más visual. 
+
+Debounce y Throttle son usados para limitar la ejecución de funciones, generalmente son utilizados para restringir la cantidad de veces que un evento se dispara: eventos click, scroll, resize u otros. Los patrones no son exclusivos de Javascript; en una entrada anterior te explique como usar throttle para [limitar la cantidad de requests que recibe el servidor nginx.](/es/software-architecture/throttling-en-nginx/)
 
 Ambos patrones generan una función que recibe un callback y un tiempo de espera o delay.
+
+## Debounce vs Throttle explicación interactiva
+
+Vamos a usar un ejemplo interactivo para ver las diferencias entre Debounce vs Throttle, piensa en una granja virtual, en la que por cada vez que presionemos una tecla se añade un animal al corral, ahora, tenemos dos corrales, uno que funciona con debounce y otro con Throttle. 
+
+Si escribes en la caja de texto verás como se comporta cada corral.
+
+{{<debounceVsThrottle>}}
 
 ## Debounce vs Throttle diferencias principales
 
