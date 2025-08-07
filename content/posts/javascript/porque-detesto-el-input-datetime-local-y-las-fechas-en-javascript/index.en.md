@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/why-i-abhor-datetime-local-and-dates-in-javascript/
+- /en/why-i-abhor-htmls-datetime-local-input-and-dates-management-in-javascript/
 authors:
 - Eduardo Zepeda
 categories:
