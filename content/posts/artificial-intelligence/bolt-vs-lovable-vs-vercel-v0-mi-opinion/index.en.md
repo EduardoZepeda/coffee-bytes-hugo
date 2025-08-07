@@ -83,14 +83,14 @@ My take:
 1. **Bolt** excels in AI resource allocation and team management
 2. **V0** shines for developer workflows and design integration
 3. **Lovable** offers good mid-tier collaboration features
-4. It's easier to upgrade from free to paid plans on all platforms
+4. It's easier to upgrade from free to paid plans on all platforms, so don't worry about it
 5. Token/credit systems vary significantly (Bolt's being most transparent)
 
 ### Bolt vs Lovable vs V0 which should you choose?
 
-The "best" choice depends on your needs:
+As you may know there are no "perfect" in the tech world, everything is a trade off so...
 - If you're a solo developer: V0
-- For Design-focused teams: Lovable
+- For Design-focused teams: Lovable seems good
 - You need Heavy AI usage: Bolt
 - Enterprise: Either Bolt or Lovable
 
