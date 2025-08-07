@@ -272,8 +272,17 @@ script-src = [
   "https://unpkg.com/htmx-ext-head-support@2.0.2",
   "https://unpkg.com/lunr/lunr.js",
   "https://us-assets.i.posthog.com",
+  "https://unpkg.com/react@18/umd/react.development.js",
+  "https://unpkg.com/react-dom@18/umd/react-dom.development.js",
+  "https://unpkg.com/@babel/standalone/babel.min.js",
+  "https://d3js.org/d3.v7.min.js",
 ]
-style-src = ["'self'", "'unsafe-inline'", "https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css"]
+style-src = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css",
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css",
+]
 [caches]
 [caches.images]
 dir = ':resourceDir/_gen'
