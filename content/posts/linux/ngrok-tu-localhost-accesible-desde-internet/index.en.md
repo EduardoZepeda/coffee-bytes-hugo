@@ -15,6 +15,7 @@ description: Ngrok makes your localhost public, either for testing your endpoint
 keywords:
 - linux
 title: Ngrok, your localhost accessible from the internet
+noindex: true
 ---
 
 I ran into Ngrok trying to redirect a Mercado Pago payment notification to my localhost, for testing purposes. It worked more or less like this: Mercado Pago gave you a url address to redirect the buyer to make the payment. Once the payment was finished, Mercado Pago would make an HTTP request to any url address that you indicated and would send by POST the results of the payment attempt. The problem is that Mercado Pago does not send notifications to localhost.

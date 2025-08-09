@@ -15,6 +15,7 @@ keywords:
 - linux
 slug: /linux/ngrok-tu-localhost-accesible-desde-internet/
 title: Ngrok, tu localhost accesible desde internet
+noindex: true
 ---
 
 Me topé con Ngrok (frecuentemente mal escrito como ngrock o negrok) intentando redirigir la notificación de un pago de Mercado Pago a mi localhost, para hacer pruebas. Funcionaba más o menos así: Mercado pago te otorgaba una dirección url a donde redigir al comprador para efectuara el pago. Una vez terminado el pago, Mercado Pago hacía una petición HTTP a cualquier dirección url que tú le indicaras y mandaba por POST los resultados del intento de pago. El problema es que mercado libre no manda notificaciones a localhost.
