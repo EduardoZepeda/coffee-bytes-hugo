@@ -231,6 +231,18 @@ External links, consider it as a vote in favor towards other websites to indicat
 <a href="https://user-website.com" rel="ugc">Just check my website</a>
 ```
 
+#### How to get backlinks for SEO purposes
+
+This is the hard part. Some people will tell you something like "Just do content worth sharing", but most people don't want to deal with the waiting phase; they decide to speed up the process and get more backlinks.
+
+Also, not all backlinks are created equally; links that come from reputable sites have more weight than those that have less authority, creating an unhealthy dynamic.
+
+Big websites know that a single backlink can boost your site's ranking, so they don't usually give them for free, and there are some writers at those companies who request monetary compensation to place a backlink in an article. 
+
+Sites where these services are being offered are an *open secret*, despite going against Google's policies.
+
+Other less questionable alternatives include guest posting, posting on forums, blogs, scanning websites, and offering your links instead of links that have shown a 404 HTTP status, creating banners or tools that people want to share. 
+
 ### The Flesch Kincaid test 
 
 is a test based on the level of education required by a hypothetical reader to understand the content of your website, ~~unlike what your inflated ego thinks~~, the higher the score the easier it will be to understand, which is better because it will be available to more readers.
@@ -246,3 +258,17 @@ I have left some aspects that I do not consider so important, but that maybe I w
 It is quite rare to find modern websites that do not use HTTPS, especially when it is the hosting platforms that are responsible for configuring the servers automatically. In any case, make sure that your website uses HTTPS instead of just HTTP, as search engines favor secure connections.
 
 And that's all for now, I will be adding more information to the article if I consider it pertinent as the days go by.
+
+### How to stay relevant in SEO in the AI era?
+
+The above leaves me wondering whether what's valid today will be valid tomorrow. Perhaps websites that present more subjective aspects, opinions, and experiences will be more valuable SEO-wise in the future than information collections.
+
+I've also noticed that most websites that create landing pages and simple stuff, [like lovable, vercel 0, Bolt]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}), etc. leave aside most of the SEO related aspects.
+
+I also think transactional websites may forget about the first steps of the sales funnel (since AI can take care of that) and focus on the transaction.
+
+I'm under the impression that text content will lose value because it will become a commodity created by AI (bad for me), but interactive or video websites may benefit from internet traffic.
+
+Keep in mind that these are just some ideas; no one knows what will really happen. 
+
+I just hope that whatever happens is good for the future of the web.

@@ -220,6 +220,18 @@ Enlaces externos, consideralo como un voto a favor hacia otros sitios web para i
 <a href="https://user-website.com" rel="ugc">Just check my website</a>
 ```
 
+#### ¿Cómo conseguir backlinks para SEO?
+
+Esta es la parte difícil. Algunos te dirán algo como "Simplemente crea contenido que valga la pena compartir", pero la mayoría no quiere esperar; deciden acelerar el proceso y conseguir más backlinks.
+
+Además, no todos los backlinks se crean de la misma manera; los enlaces que provienen de sitios web con buena reputación tienen más peso que los que tienen menos autoridad, lo que crea una dinámica perjudicial.
+
+Los grandes sitios web saben que un solo backlink puede mejorar el posicionamiento de su sitio, por lo que no suelen ofrecerlos gratis, y algunos escritores en estas empresas piden una compensación económica por colocar un backlink en un artículo.
+
+Los sitios donde se ofrecen estos servicios son un *secreto a voces*, a pesar de ir en contra de las políticas de Google.
+
+Otras alternativas menos cuestionables incluyen la publicación como invitado, publicar en foros y blogs, escanear sitios web y ofrecer tus enlaces en lugar de enlaces que muestran un estado HTTP 404, así como crear banners o herramientas que la gente quiera compartir.
+
 ### El test de Flesch Kincaid 
 
 Es un test basado que sirve para estimar el nivel de educación requerido por un hipotético lector, para comprender el contenido de tu sitio web, ~~a diferencia de lo que tu inflado ego piensa~~, entre más alto el puntaje sera más sencillo de entender, lo cual es mejor pues estará al alcance de más lectores.
@@ -235,3 +247,26 @@ He dejado algunos aspectos que no considero tan importante, pero que quizás agr
 Es bastante extraño encontrar sitios web modernos que no utilicen HTTPS, sobre todo cuando son las plataformas de hosting las que se encargan de configurar los servidores de manera automática. De cualquier forma asegúrate de que tu sitio web utilice HTTPS en lugar de solo HTTP, pues los motores de búsqueda favorecen las conexiones seguras.
 
 Y por ahora es todo, iré agregando más información al artículo si lo considero pertinente con el pasar de los días.
+
+
+## Technical SEO en la era de la AI
+
+Hay otro aspecto también muy importante, y esto es más una opinión que un hecho comprobado. Los AI summaries de Google han tenido un efecto bastante negativo en los sitios web independientes. 
+
+Los usuarios ya no necesitan ingresar a un sitio web para obtener una respuesta, por lo que, en mi opinión, todos aquellos sitios cuyo único valor sea proporcionar respuestas simples se verán muy afectados.
+
+Puedes crear miles de páginas con SEO, inclusive estas pueden traerte un incremento de tráfico temporal, pero eventualmente Google leerá tu contenido y creará un resumen para aquellas keywords que el usuario está buscando. 
+
+### ¿Qué creo que pasará con el SEO en un mundo post AI?
+
+Lo anterior me deja pensando sobre si lo que es válido hoy será válido mañana. Quizás sitios web donde se expongan aspectos más subjetivos, opiniones y experiencias sean más valiosos  a nivel SEO en el futuro que los recopilatorios de información.
+
+Además he notado que la mayoría de los sitios web que crean landing pages y cosas sencillas, [como lovable, vercel 0, Bolt]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}), etc. dejan de lado la mayoría de los aspectos relacionados con el SEO
+
+También creo que los sitios web transaccionales pueden olvidarse de los primeros pasos del embudo de ventas (pues la AI puede encargarse de eso) y centrarse en la transacción. 
+
+Así mismo considero que el contenido de texto perderá valor pues se volverá un commodity creado por la AI (que mal por mi), pero sitios web interactivos o de video pueden verse favorecidos por el tráfico de internet. 
+
+Ten en cuenta que son solo algunas ideas, nadie sabe lo que realmente sucederá.
+
+Solo espero que lo que suceda sea bueno para el futuro de la web.
