@@ -20,7 +20,7 @@ keywords:
 title: OCR with tesseract, python and pytesseract
 ---
 
-Python is super versatile, it has a giant community with libraries that allow you to create neural networks from scracth, [fine-tune a LLM](/en/artificial-intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/) or use Optical Character Recognition (OCR). For the latter you just need to install tesseract and python bindings, known as pytesseract and you'll be ready to convert an image to a string in a breeze.
+Python is super versatile, it has a giant community with libraries that allow you to create neural networks from scracth, [fine-tune a LLM]({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="en" >}}) or use Optical Character Recognition (OCR). For the latter you just need to install tesseract and python bindings, known as pytesseract and you'll be ready to convert an image to a string in a breeze.
 
 ## Installation of tesseract-ocr
 

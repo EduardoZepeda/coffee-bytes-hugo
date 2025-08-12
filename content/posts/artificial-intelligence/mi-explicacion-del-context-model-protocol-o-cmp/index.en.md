@@ -25,7 +25,7 @@ If you're struggling to understand the Model Context Protocol, I feel you, I wat
 
 ## Why was the Model Context Protocol created?
 
-One of the most convenient uses of LLMs is to use them to analyse or process our own data, for which there are several options, such as [LLM fine-tuning](/en/artificial-intelligence/fine-tuning-a-llm-small-practical-guide-with-resources/) or RAG, or manually passing our data as context as part of the prompt.
+One of the most convenient uses of LLMs is to use them to analyse or process our own data, for which there are several options, such as [LLM fine-tuning]({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="en" >}}) or RAG, or manually passing our data as context as part of the prompt.
 
 Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context and the ability to interact with systems to LLMs. Where does that context come from? Well, pretty much anywhere, Github, a database, your file system, an API ([gPRC type]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), REST or others), basically any source that can return information.
 

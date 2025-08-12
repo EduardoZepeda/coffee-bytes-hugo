@@ -26,7 +26,7 @@ Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entie
 
 ## ¿Por qué se creó el Model Context Protocol?
 
-Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM](/es/artificial-intelligence/fine-tuning-de-un-llm-guia-practica-con-recursos/) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}}), REST u otras), básicamente cualquier fuente que pueda retornar información.
+Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios datos, para eso hay varias opciones, tales como realizar [fine-tuning de un LLM]({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="es" >}}) o RAG o pasárselos como contexto en la petición. ¿De dónde viene ese contexto? Pues prácticamente de cualquier lado, Github, una base de datos, tu sistema de archivos, una API ([tipo gPRC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}}), REST u otras), básicamente cualquier fuente que pueda retornar información.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde" >}}
 

@@ -52,7 +52,7 @@ Si todo funcionó correctamente verás algo parecido a est en tu terminal
 
 Para este ejemplo redigirí una aplicación de Django en el puesto 8000, en lugar del puerto 8080.
 
-Si no tienes idea de como usar Django tengo algunas recomendaciones de libros: [Django la guia definitiva](/es/django/la-guia-definitiva-de-django/) y [Django by example](/es/django/aprender-django-con-django-by-example-mi-resena/).
+Si no tienes idea de como usar Django tengo algunas recomendaciones de libros: [Django la guia definitiva]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="es" >}}) y [Django by example]({{< ref path="/posts/django/aprender-django-resena-django-by-example/index.md" lang="es" >}}).
 
 Recuerda agregar el dominio, con su subdominio a la variable ALLOWED\_HOSTS del archivo de configuración.
 

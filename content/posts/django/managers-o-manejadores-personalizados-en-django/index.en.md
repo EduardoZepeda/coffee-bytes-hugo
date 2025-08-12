@@ -20,7 +20,7 @@ title: Managers or custom handlers in Django
 
 A Manager (or handler) is the interface through which query operations or queries from the database are provided to Django models. Yes, I mean that _objects_ that goes after the name of your model; _YourModel.objects.all()_ and _Tumodel.objects.filter()_. All Django models have at least one manager. Whenever you use the object manager (I will refer to it as manager from here on) in a database query using the Django ORM you are making use of its default _object manager_. These managers in Django can be customized to modify the objects returned by a query and we can customize them to our liking.
 
-Before you start, if you don't know the basics of Django you can start with [the definitive guide to Django](/en/django/the-definitive-guide-to-django/)
+Before you start, if you don't know the basics of Django you can start with [the definitive guide to Django]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="en" >}})
 
 On the other hand, if you are looking to optimize your Django app, probably my post where I talk about how to [improve performance of slow Django apps]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}}) will serve you better.
 

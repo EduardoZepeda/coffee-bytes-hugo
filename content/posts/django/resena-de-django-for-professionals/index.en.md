@@ -38,7 +38,7 @@ One feature of the book that I would like to highlight is the writing of tests o
 
 Regarding the content, it seems to me that it lacks a little more depth in the deploy and take into account other options, apart from Heroku. It also does not mention Django Rest Framework or Graphene, although this could be because they are covered in his other book: Django for APIS. I feel that, for a Django book for professionals, it does not go deep enough into the framework.
 
-If you are looking for a book that delves into Django in depth at the code level, this is not your book, try [The definitive guide to Django](/en/django/the-definitive-guide-to-django/) (even though it is outdated). Instead, if you are looking for a more focused approach to rapid application development and deployment, this is probably the book you need to read.
+If you are looking for a book that delves into Django in depth at the code level, this is not your book, try [The definitive guide to Django]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="en" >}}) (even though it is outdated). Instead, if you are looking for a more focused approach to rapid application development and deployment, this is probably the book you need to read.
 
 In short, I liked a lot of things about this book. First of all, seeing examples in Docker (even at a basic level) with Django is quite useful, as many of the books leave it aside. Secondly, the incorporation of tests at the end of each chapter I also consider it a success on the part of the writer.
 

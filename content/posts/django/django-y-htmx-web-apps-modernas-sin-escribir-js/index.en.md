@@ -51,7 +51,7 @@ Schematic diagram of HTMX operation
 
 For this tutorial I have created a github repository, so if you want to save all the boilerplate, you can simply clone the whole project and follow the code as I write it.
 
-Remember that if you are not convinced why you should use Django check my post where I explain the [advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}). If you have no idea how to use Django better start with the [Django-guide](/en/django/the-definitive-guide-to-django/)
+Remember that if you are not convinced why you should use Django check my post where I explain the [advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}). If you have no idea how to use Django better start with the [Django-guide]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="en" >}})
 
 ```bash
 # Ejecuta esto para no escribir el código

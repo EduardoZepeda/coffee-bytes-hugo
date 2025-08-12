@@ -87,7 +87,7 @@ class Product(models.Model):
     # ...
 ```
 
-Si has llegado hasta aquí, pero no tienes idea de como funciona Django tengo unas entradas donde reseño un par de libros que pueden servirte: [El libro definitivo de Django (Gratuito)](/es/django/la-guia-definitiva-de-django/) o [Django by example](/es/django/aprender-django-con-django-by-example-mi-resena/)
+Si has llegado hasta aquí, pero no tienes idea de como funciona Django tengo unas entradas donde reseño un par de libros que pueden servirte: [El libro definitivo de Django (Gratuito)]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="es" >}}) o [Django by example]({{< ref path="/posts/django/aprender-django-resena-django-by-example/index.md" lang="es" >}})
 
 ## Eligiendo el valor que usaremos como llave en django y redis
 

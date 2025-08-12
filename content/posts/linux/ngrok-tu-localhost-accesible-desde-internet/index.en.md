@@ -50,7 +50,7 @@ What does the above display mean? It means that all requests made to http://ngro
 
 For this example I redirected a Django application on port 8000, instead of port 8080.
 
-If you have no idea how to use Django I have some book recommendations: [Django la guia definitiva](/en/django/the-definitive-guide-to-django/) and [Django by example](/en/django/learning-django-through-the-book-django-by-example-my-review/).
+If you have no idea how to use Django I have some book recommendations: [Django la guia definitiva]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="en" >}}) and [Django by example]({{< ref path="/posts/django/aprender-django-resena-django-by-example/index.md" lang="en" >}}).
 
 Remember to add the domain, with its subdomain to the ALLOWED_HOSTS variable in the configuration file.
 

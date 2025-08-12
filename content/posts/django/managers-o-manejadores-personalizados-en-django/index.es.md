@@ -23,7 +23,7 @@ title: Managers o manejadores personalizados en Django
 
 Un Manager (o manejador) es la interfaz a través de la cual se proveen las operaciones de consulta o queries de la base de datos a los modelos de Django. Sí, me refiero a ese _objects_ que va después del nombre de tu modelo; _TuModelo.objects.all()_ y _Tumodelo.objects.filter()_. Todos los modelos de Django tienen al menos un manager. Cada vez que usas el manejador de objetos (me referiré a él como manager de aquí en adelante) en una consulta a la base de datos usando el ORM de Django estás haciendo uso de su _object manager_ predeterminado. Estos managers en Django pueden personalizarse para modificar los objetos que devuelve una consulta y podemos personalizarlos a nuestro gusto.
 
-Antes de empezar, si no sabes lo básico de Django puedes empezar con [la guia definitiva de Django](/es/django/la-guia-definitiva-de-django/)
+Antes de empezar, si no sabes lo básico de Django puedes empezar con [la guia definitiva de Django]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="es" >}})
 
 Por otro lado, si estás buscando optimizar tu aplicación de Django, probablemente mi entrada donde hablo sobre como [mejorar el rendimiento de apps lentas de Django](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}})) te sirva más.
 
