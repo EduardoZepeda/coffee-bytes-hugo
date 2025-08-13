@@ -292,7 +292,6 @@
                             name: `Task ${taskIdRef.current}`,
                             createdAt: Date.now()
                         };
-                        
                         setTaskQueue(prev => [...prev, newTask]);
                         setStats(prev => ({ 
                             ...prev, 
@@ -308,62 +307,71 @@
             // Process tasks
             useEffect(() => {
                 const processNextTask = () => {
-                    setWorkers(currentWorkers => {
-                        const newWorkers = [...currentWorkers];
-                        let newQueue = [...taskQueue];
-                        
-                        const idleWorkers = newWorkers.filter(w => w.status === 'idle');
+                    setTaskQueue(currentQueue => {
+                        const newQueue = [...currentQueue];
+                        const idleWorkers = workers.filter(w => w.status === 'idle');
                         const tasksToProcess = Math.min(idleWorkers.length, newQueue.length);
                         
-                        for (let i = 0; i < tasksToProcess; i++) {
-                            const worker = idleWorkers[i];
-                            const task = newQueue.shift();
-                            
-                            worker.status = 'busy';
-                            worker.currentTask = task;
-                            
-                            setTimeout(() => {
-                                setWorkers(workers => {
-                                    const updatedWorkers = workers.map(w => {
-                                        if (w.id === worker.id) {
-                                            const success = Math.random() > 0.1;
-                                            return {
-                                                ...w,
-                                                status: success ? 'idle' : 'error',
-                                                currentTask: null,
-                                                completedTasks: success ? w.completedTasks + 1 : w.completedTasks
-                                            };
+                        if (tasksToProcess === 0) return newQueue;
+                        
+                        // Take tasks from the queue
+                        const tasksToAssign = newQueue.splice(0, tasksToProcess);
+                        
+                        // Update workers with their new tasks
+                        setWorkers(currentWorkers => {
+                            return currentWorkers.map(worker => {
+                                const workerIndex = idleWorkers.findIndex(w => w.id === worker.id);
+                                if (workerIndex >= 0 && workerIndex < tasksToAssign.length) {
+                                    const task = tasksToAssign[workerIndex];
+                                    
+                                    // Process the task after a delay
+                                    setTimeout(() => {
+                                        const success = Math.random() > 0.1;
+                                        
+                                        setWorkers(workers => 
+                                            workers.map(w => 
+                                                w.id === worker.id
+                                                    ? {
+                                                        ...w,
+                                                        status: success ? 'idle' : 'error',
+                                                        currentTask: null,
+                                                        completedTasks: success ? w.completedTasks + 1 : w.completedTasks
+                                                    }
+                                                    : w
+                                            )
+                                        );
+                                        
+                                        setStats(prevStats => ({
+                                            ...prevStats,
+                                            completedTasks: prevStats.completedTasks + 1,
+                                            queueSize: Math.max(0, prevStats.queueSize - 1)
+                                        }));
+                                        
+                                        // Reset error state after delay if needed
+                                        if (!success) {
+                                            setTimeout(() => {
+                                                setWorkers(workers => 
+                                                    workers.map(w => 
+                                                        w.id === worker.id && w.status === 'error' 
+                                                            ? { ...w, status: 'idle' } 
+                                                            : w
+                                                    )
+                                                );
+                                            }, 1000);
                                         }
-                                        return w;
-                                    });
-                                    return updatedWorkers;
-                                });
-                                
-                                setStats(prevStats => ({
-                                    ...prevStats,
-                                    completedTasks: prevStats.completedTasks + 1,
-                                    queueSize: Math.max(0, prevStats.queueSize - 1)
-                                }));
-                                
-                                setTimeout(() => {
-                                    setWorkers(workers => 
-                                        workers.map(w => 
-                                            w.id === worker.id && w.status === 'error' 
-                                                ? { ...w, status: 'idle' } 
-                                                : w
-                                        )
-                                    );
-                                }, 1000);
-                            }, processTime + Math.random() * 1000);
-                        }
+                                    }, processTime);
+                                    
+                                    return {
+                                        ...worker,
+                                        status: 'busy',
+                                        currentTask: task
+                                    };
+                                }
+                                return worker;
+                            });
+                        });
                         
-                        setTaskQueue(newQueue);
-                        setStats(prev => ({
-                            ...prev,
-                            queueSize: newQueue.length
-                        }));
-                        
-                        return newWorkers;
+                        return newQueue;
                     });
                 };
                 
@@ -399,7 +407,6 @@
                     queueSize: prev.queueSize + 1
                 }));
             };
-            
             return e('div', { className: 'worker-pool-container' },
                 e('div', { className: 'container' },
                     // Left Panel
