@@ -69,6 +69,8 @@ El máximo representante de la inteligencia en la tierra es el ser humano (o al 
 
 Algunos argumentan que la conciencia y la inteligencia están relacionados y que incluso tendriamos [un gradiente de conciencia mientras avanzamos en la complejidad e inteligencia de los organismos](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). Dotando del calificativo "consciente" a animales superiores como delfines, orangutanes, cuervos y otros organismos que muestran rasgos de inteligencia.
 
+Penrose afirma que no sólo la conciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8).
+
 Mientras que otros van más alla al decir que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás podriamos considerar el ejemplo de [Blake Lemoine, que aseguraba que el modelo de inteligencia artificial de Google había cobrado conciencia](https://www.bbc.com/mundo/noticias-61787944), o la teoría de la información integrada, de Giulio Tononi, que propone que la conciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de conciencia (llamado Φ) puede calcularse para cualquier sistema.
 
 #### El problema de determinar si algo es consciente o no

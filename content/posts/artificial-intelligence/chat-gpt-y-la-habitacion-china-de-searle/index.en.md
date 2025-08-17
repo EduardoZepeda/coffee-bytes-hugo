@@ -64,7 +64,11 @@ The highest representative of intelligence on earth is the human being (or at le
 
 ### Signs of Intelligence with consciousness
 
-Some argue that consciousness and intelligence are related and that we would even have [a gradient of consciousness as we advance in the complexity and intelligence of organisms](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). They give the label "conscious" to higher animals such as dolphins, orangutans, crows and other organisms that show traits of intelligence.
+Some argue that consciousness and intelligence are related and that we would even have [a gradient of consciousness as we advance in the complexity and intelligence of organisms](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). 
+
+Penrose states that not only consciousness and intelligence are related but that [intelligence is an exclusive trait of conscious beings.](https://www.youtube.com/watch?v=e9484gNpFF8).
+
+They give the label "conscious" to higher animals such as dolphins, orangutans, crows and other organisms that show traits of intelligence.
 
 While others go further by saying that a system becomes more conscious the more intelligent it becomes, perhaps we could consider the example of [Blake Lemoine, who claimed that Google's artificial intelligence model had become conscious](https://www.bbc.com/mundo/noticias-61787944), or Giulio Tononi's integrated information theory, which proposes that consciousness is generated when a system is able to incorporate information and unify it, and that this level of consciousness (called Φ) can be calculated for any system.
 
