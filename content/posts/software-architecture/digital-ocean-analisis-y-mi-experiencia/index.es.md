@@ -13,8 +13,7 @@ categories:
 coverImage: images/Mi-experiencia-digital-ocean.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/
 date: '2021-01-14'
-description: En esta entrada de platico mi experiencia usando la plataforma Digital
-  Ocean, así como las opciones que tiene para ofrecerte como developer
+description: Esta es mi reseña de Digital Ocean, te contaré lo que ofrece y mi experiencia usándolo para alojar todos mis proyectos personales hasta ahora
 keywords:
 - digital ocean
 - opinion
