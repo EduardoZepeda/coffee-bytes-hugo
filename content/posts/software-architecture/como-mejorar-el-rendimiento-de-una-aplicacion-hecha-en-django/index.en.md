@@ -209,7 +209,7 @@ Serving static images and files can hinder the important part of your applicatio
 
 In addition to benefiting from the geographic locations of CDNs; a server in the same country (or continent) as your user will result in a faster response.
 
-There are many CDN options available, among the most popular options are AWS, [Azure](/en/software-architecture/azure-az-900-certification-exam-my-experience/), Digital Ocean, Cloud Flare, among others.
+There are many CDN options available, among the most popular options are AWS, if I can recall correctly from my [Azure AZ-900 certification]({{< ref path="/posts/software-architecture/examen-certificacion-azure-az-900-mi-experiencia/index.md" lang="en" >}}) also Azure, Digital Ocean, Cloud Flare, among others.
 
 ## Denormalization
 

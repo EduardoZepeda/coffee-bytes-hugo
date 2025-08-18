@@ -4,6 +4,7 @@ aliases:
 - /digital-ocean-analisis-y-mi-experiencia-como-usuario
 - /mi-experiencia-con-digital-ocean-como-hosting/
 - /es/digital-ocean-analisis-y-mi-experiencia-como-usuario/
+- /software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/
 authors:
 - Eduardo Zepeda
 categories:
@@ -23,128 +24,130 @@ keywords:
 - iaas
 - paas
 - vps
-slug: /software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/
-title: Digital Ocean, análisis y mi experiencia como usuario
+slug: /software-architecture/digital-ocean-review-analisis-y-mi-experiencia-como-usuario/
+title: Digital Ocean Review, análisis y mi experiencia como usuario
 ---
 
-¿Estás eligiendo un servicio de hosting pero no sabes cual elegir? De seguro ya tuviste contacto con la publicidad de Digital Ocean pero quieres escuchar una opinión real de lo que tienen para ofrecer. Llevo usando Digital Ocean como hosting de mis proyectos personales por varios años y te platico como ha sido mi experiencia y lo que puedes encontrar si decides contratar sus servicios.
-
-## Diferencias entre IAAS y PAAS
-
-Estoy casi seguro de que has considerado usar Vercel, Netifly, Heroku u otro servicio de hosting moderno para tu aplicación (probablemente hecha en Javascript). Pero, ¿es lo mismo? Bien pues aquí hay que hacer una pequeña aclaración, solo en caso de que no lo sepas; existen diferentes tipos de empresas para servicios en línea; IAAS, Infrastructure as a service; y PAAS, platform as a service.
-
-### IAAS
-
-Traducido al español como "infraestructura como servicio". Puesto en palabras más simples: te rentan la infraestructura, el espacio de almacenamiento y el acceso a este por red. Es decir, un servidor con un sistema operativo en el que tú te tienes que responsabilizar de los detalles de la configuración.
-
-Lo anterior te da un control total sobre el servidor, tú decides absolutamente todo. Esto puede ser algo bueno o malo. Si sabes exactamente lo que estás haciendo, puedes personalizarlo acorde a tus necesidades para obtener el máximo rendimiento y eficiencia. Por otro lado, eso significa que debes decidir cada detalle por ti mismo, con toda la carga que eso implica, pues todo vendrá con sus valores por defecto y estos pueden no ser los adecuados para tu aplicación.
-
-Si quieres personalizar algo, habrá que meterse a la terminal por ssh, usar cpanel o cualquier otro medio que te permita modificar los valores del sistema.
-
-Las compañias que destacan aquí son AWS EC2, Digital Ocean y Linode, por decir algunos.
-
-### PAAS
-
-También existen los PAAS que, traducido, significa "Plataforma como servicio". Es decir, ellos se encargaran de toda la configuración del servidor, para que tú solo te centres en desarrollar tu aplicación. Aquí te olvidas de lidiar con una configuración de servidores como Nginx, Apache; tu proveedor de hosting se encarga de todo, ellos deciden todos los detalles para servir tu aplicación.
-
-Imagínate el nivel de especialización que tiene Vercel, siendo los creadores de NextJS, para servir cada una de sus aplicaciones hechas con esta tecnología.
-
-Generalmente, en un PAAS, la configuración de aspectos del servidor como variables de entorno y similares se hace a través de la interfaz de una página web, de manera más amigable para el usuario.
-
-En esta categoría resaltan Heroku, Netifly, Vercel y otros.
-
-Ahora sí, pasemos a Digital Ocean.
-
-{{<ad>}}
+He estado usando Digital Ocean para mis proyectos personales durante varios años, así que déjame contarte cómo me ha ido hasta ahora y qué tipo de servicios puedes encontrar ahí.
 
 ## Droplets en Digital Ocean
 
-Digital Ocean trabaja con Droplets, que son los servidores virtuales que te alquilan. Cuando creas un Droplet puedes elegir diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet por medio de su página web o a través del [comando ssh.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}})
+Los **Droplets** son mi recurso favorito en Digital Ocean. Son servidores virtuales que se rentan por hora. Al crear un Droplet puedes elegir entre diferentes sistemas operativos y versiones. Puedes acceder a la terminal de cualquier Droplet desde su página web o mediante el [comando ssh]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}).
 
-Una vez que creas un Droplet este se encuentra disponible en menos de un minuto.
+En cuanto das clic al botón, en menos de un minuto ya tienes un Droplet disponible y funcionando.
 
-{{< figure src="images/Droplets-de-digital-ocean.png" class="md-local-image" alt="Imágenes disponibles para los droplets de Digital Ocean" >}}
+{{< figure src="images/Droplets-de-digital-ocean.png" class="md-local-image" alt="Images available for Digital Ocean droplets" >}}
 
-### Imágenes personalizadas en DO
+### Imágenes personalizadas en Droplets
 
-Si no quieres partir desde un sistema operativo "en blanco" puedes optar por algunas imágenes más específicas que incluyen software previamente instalado, para los requerimientos más populares en cuanto a software: desarrollo web, data science, blog, frameworks, media, storage, elearning, ecommerce, etc.
+Si no quieres empezar desde cero con una instalación "limpia" del sistema operativo, puedes optar por **imágenes que ya traen software preinstalado para los requerimientos más comunes**: desarrollo web, data science, blogging, frameworks, multimedia, almacenamiento, elearning, ecommerce, etc.
 
-Estas imágenes ya vienen configuradas con todo lo que necesitas para correr tu aplicación, ya sea de Django, Nodejs, Magento, Wordpress, Ghost, MongoDB y otras.
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547051/Marketplace-digital-ocean_q3h4lb.png" class="md-local-image" alt="Images available for Digital Ocean droplets" >}}
 
-### Droplets o VPS baratos en Digital Ocean
+Por ejemplo, puedes elegir una plantilla de Express JS y ya trae Node instalado y un servidor Express corriendo.
 
-Digital Ocean también cuenta con Droplets especializados, ya sea en CPU, memoria o almacenamiento y una versión para propósito general.
+Estas imágenes personalizadas te ahorran tiempo configurando el sistema operativo, y a veces basta con un simple CTRL + C y CTRL + V para que tu app quede lista. Yo he usado Django, Wordpress y MERN stack, y los puedo recomendar.
 
-La versión más básica, y barata, es un CPU compartido, a cambio de ofrecerte los mejores precios.
+### Droplets según tus necesidades
 
-{{< figure src="images/Droplets-purpose.png" class="md-local-image" alt="Tipos de planes para Digital Ocean" >}}
+Digital Ocean también ofrece Droplets especializados, ya sea en CPU, memoria o almacenamiento, además de una versión de propósito general. Pero seguro no viniste aquí por eso, ¿cierto? Probablemente tienes un presupuesto ajustado, no te preocupes, nos pasa a todos.
 
-### Droplets de todos los precios
+Digital Ocean ofrece algunos de los VPS más básicos y económicos del mercado (excepto Hostinger y Akamai, pero hablaré de eso más adelante).
 
-Y ahora de seguro te preguntarás cuanto me cuesta. Pues bien, la respuesta es obvia: depende.
+{{< figure src="images/Droplets-purpose.png" class="md-local-image" alt="Types of plans for Digital Ocean" >}}
 
-Solo para que te des una idea, el Droplet más barato tiene un costo de ~~$5 usd por mes~~ $4 usd por mes. Es prácticamente nada y para un sitio web pequeño suele ser más que suficiente. A manera de comparación, Vercel aloja tu aplicación gratis con ciertas limitaciones, su siguiente plan, al momento de escribir este artículo, cuesta $20 usd por mes.
+### El VPS barato pero confiable de Digital Ocean
 
-Observa como todos los planes manejan el almacenamiento con un SSD.
+Ok, pero ¿y el precio? Pues la respuesta es la de siempre: depende.
 
-{{< figure src="images/Precios-digital-ocean.gif" class="md-local-image" alt="Precios de los diferentes planes ofrecidos por Digital Ocean" >}}
+Para que te hagas una idea, el Droplet más barato cuesta ~~$5 USD al mes~~ $4 USD al mes. Es prácticamente nada, y para un sitio pequeño suele ser más que suficiente. A modo de comparación, Vercel hospeda tu aplicación gratis con ciertas limitaciones, pero su siguiente plan —al momento de escribir este artículo— cuesta $20 USD al mes.
 
-### El proveedor de cloud con servidores alrededor del mundo
+Supongamos que con ese Droplet puedes atender 1 RPS, eso significa 60 peticiones en un minuto, 3600 en una hora y 86,400 en un día. Si con ese tráfico no logras monetizar, el problema no es técnico, sino de marketing. Recuerda, [no te obsesiones con el rendimiento de tu aplicación web]({{< ref path="/posts/opinion/la-obsesion-por-el-rendimiento-y-la-velocidad-en-programacion/index.md" lang="es" >}}).
 
-Digital Ocean te posee servidores en diferentes ubicaciones alrededor del mundo. Para que siempre tengas una opción cercana a tus clientes.
+#### ¿Los VPS usan HDD o SSD?
 
-Yo he probado los servidores de Estados Unidos, por la cercanía con México, y no he tenido problema alguno.
+Ojo: todos los planes manejan almacenamiento con SSD, así que no te preocupes por la velocidad de lectura y escritura.
 
-{{< figure src="images/diferentes-ubicaciones-droplets-digital-ocean.png" class="md-local-image" alt="Ubicaciones de los servidores en Digital Ocean" >}}
+{{< figure src="images/Precios-digital-ocean.gif" class="md-local-image" alt="Prices of the different plans offered by Digital Ocean" >}}
 
-## Otros servicios que ofrece de Digital Ocean
+### Proveedor de nube con servidores en todo el mundo
 
-¿Te acuerdas que te dije que había empresas IAAS y PAAS? Pues la verdad es un poquito más complicado, muchas empresas IAAS han crecido muchísimo y han comenzado a brindar servicios del tipo PAAS. Y, como podrás esperar, Digital Ocean no se ha quedado atrás.
+Digital Ocean tiene servidores en diferentes partes del mundo, por lo que siempre tendrás una opción cercana a tus clientes.
 
-Tiene poco tiempo ofreciendo la integración y despliegue de tus aplicaciones usando tus repositorios de Github o Gitlab. Tú pones el código y ellos compilan y corren tu proyecto.
+Yo SOLO he usado los de Estados Unidos y Canadá, por la cercanía con México, y hasta ahora no he tenido ningún problema. También sé que tienen en Europa y Asia, así que puedes probarlos sin problema. Recuerda que un TTFB largo es un [error técnico de SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}), no cometas el error de una respuesta larga.
 
-{{< figure src="images/Digital-Ocean-Apps.png" class="md-local-image" alt="Servicio de Apps" >}}
+{{< figure src="images/diferentes-ubicaciones-droplets-digital-ocean.png" class="md-local-image" alt="Digital Ocean Server Locations" >}}
 
-Digital Ocean también ofrece servicios de CDN, llamados spaces, compatibles con S3 desde $5 usd al mes.
+## Digital Ocean vs Hostinger
 
-### Kubernetes
+Descubrí que los VPS de Hostinger son mucho más baratos que los de Digital Ocean, prácticamente ofrecen el doble de recursos por el mismo precio. Sin embargo, he leído varias quejas de devs en Facebook. No he probado Hostinger personalmente, pero basta ver este [hilo en Reddit sobre Digital Ocean vs Hostinger](https://www.reddit.com/r/webhosting/comments/1h0x6fh/is_there_a_catch_here_why_choose_digitalocean/#?) para notar que parece ser conocimiento común que no es del todo confiable. Nada contra Hostinger, pero los comentarios me desanimaron.
 
-Digital Ocean provee clusters de Kubernetes con almacenamiento y balanceadores de carga con unos cuantos clicks.
+La verdad no quiero lidiar con problemas por una diferencia de precio tan pequeña. Si tienes alguna experiencia con Hostinger que se pueda comprobar, con gusto actualizo este post incluyendo tu opinión.
+
+## Rentar LLM en Digital Ocean
+
+Me acabo de dar cuenta de que ahora ofrecen LLM bajo demanda, y no solo ChatGPT, sino varios más, cada uno con su precio. Los puedes conectar a tus Droplets, Apps o servicios y usarlos; ellos se encargan del resto. Los precios cambian, así que no te fíes de la imagen, tómala solo como referencia.
+
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547643/Digital-Ocean-AI-models-available_t15vfg.jpg" class="md-local-image" alt="Digital Ocean Server Locations" >}}
+
+Mira: puedes conseguir 1M tokens por solo $1 USD en el modelo Deep Seek.
+
+Esto está simplemente brutal: no necesitas instalar Ollama, ni rentar una GPU, ni pagar un plan mensual en OpenAI, solo pagas lo que usas. Perfecto.
+
+## Otros servicios disponibles en Digital Ocean
+
+¿Recuerdas las empresas IAAS y PAAS? Bueno, muchas de las IAAS, incluida Digital Ocean, han crecido tanto que ahora ofrecen también servicios tipo PAAS.
+
+Desde hace poco ofrecen integración y despliegue de tus aplicaciones usando tus repositorios de Github o Gitlab. Subes tu código y ellos lo compilan y ejecutan, con CI/CD incluidos.
+
+{{< figure src="images/Digital-Ocean-Apps.png" class="md-local-image" alt="Apps Service" >}}
+
+Digital Ocean también ofrece servicio de CDN, llamados *Spaces*, compatibles con Amazon S3, desde $5 USD al mes.
+
+### Kubernetes clusters en DO
+
+Digital Ocean te permite crear Kubernetes clusters con almacenamiento y balanceadores de carga en unos pocos clics.
 
 ### Apps
 
-Las apps son similares a una solución serverless, conectas tu cuenta de github, gitlab o bitbucket con digital Ocean y puedes subir aplicaciones de Node o archivos estáticos para que ellos lo sirvan, incluso puedes especificarles que sean ellos quienes ejecuten la compilación o cualquier comando que quieras. Esta es, hasta el momento, **la solución más barata que ofrece Digital Ocean** y es excelente para manejar aplicaciones de Frontend.
+Las Apps son parecidas a una solución *serverless*: conectas tu cuenta de Github, Gitlab o Bitbucket con Digital Ocean y puedes subir aplicaciones Node o archivos estáticos para que ellos los sirvan. Incluso puedes especificarles que ejecuten compilaciones o cualquier comando que necesites. Hasta ahora, **es la solución más barata que ofrece Digital Ocean**, y es excelente para manejar aplicaciones Frontend.
+
+Los sitios estáticos no tienen costo extra y funcionan bastante bien, este blog corre sobre uno de ellos.
 
 ### Volúmenes
 
-Son espacio extra que le agregas a los droplets para aumentar su capacidad, como si les conectaras un disco duro extra.
+Es espacio adicional que agregas a tus Droplets para aumentar su capacidad, como si conectaras un disco duro extra.
 
-### Databases
+### Bases de datos
 
-Bases de datos autoadministradas con backups automáticos y cifrado opcional. Manejan Postgres, MongoDB, MySQL y Redis.
+Bases de datos autogestionadas con respaldos automáticos y cifrado opcional. Manejan Postgres, MongoDB, MySQL y Redis.
 
 ## Digital Ocean vs AWS vs Azure
 
-Digital Ocean es un servicio enfocado más en proyectos pequeños y medianos, no tiene tantas soluciones como AWS o Azure. 
+Digital Ocean está más enfocado en proyectos pequeños y medianos, no tiene tantas soluciones como AWS o Azure.
 
-Por ejemplo, no cuenta con soluciones en inteligencia artifical para análisis de seguridad informática, análisis de datos a gran escala u otras opciones de SaaS. Pero, a cambio de esas carencias que dejan a opción de los desarrolladores, ofrece precios mucho más competitivos que los grandes jugadores.
+Según el contenido que estudié para la [Certificación Azure AZ-900]({{< ref path="/posts/software-architecture/examen-certificacion-azure-az-900-mi-experiencia/index.md" lang="es" >}}), la plataforma de Microsoft tiene un sinfín de servicios, lo que se te ocurra.
 
-## Mi experiencia usando Digital Ocean
+Por ejemplo, Digital Ocean no tiene soluciones de inteligencia artificial para análisis de seguridad IT, análisis de big data u otras opciones de SaaS. Pero, a cambio de esas carencias, que dejan más trabajo a los devs, ofrece precios mucho más competitivos que los gigantes del sector.
 
-Yo he usado Digital Ocean para hostear proyectos personales y también para manejar mis dominios. No he tenido problemas de servidores caídos hasta el momento, o al menos no que me haya dado cuenta o algún usuario me lo haya hecho notar. De hecho, ahora mismo estás leyendo esto ~~desde un Droplet que usa un headless Wordpress y para el frontend frontity (Un framework de React) servido con Nginx~~ Hugo y hosteado en Digital Ocean. Este blog utiliza ~~el servicio más económico, el de $5 usd~~ el servicio de App, que cuesta alrededor de $3 usd, y la verdad es que para la cantidad de tráfico que tengo no se siente lento y cuenta con indicadores decentes en Lighthouse, sin caché de ningún tipo ni ninguna sofisticación.
+## Mi experiencia usando Digital Ocean hasta ahora
+
+He usado Digital Ocean para hospedar proyectos personales y también para administrar mis dominios. Hasta el momento no he tenido problemas de caídas en los servidores, o al menos no que yo haya notado ni que algún usuario me haya reportado.
+
+De hecho, ahora mismo estás leyendo esto ~~desde un Droplet con Wordpress sin interfaz y frontend frontity (un framework de React) servido con Nginx~~ con Hugo y alojado en Digital Ocean. Este blog usa ~~el servicio más barato, el de $5 USD~~ el servicio de Apps, que es completamente gratis para sitios estáticos. Y la verdad, para el tráfico que tengo no se siente lento, mantiene métricas decentes en Lighthouse, sin ningún tipo de caché ni optimización avanzada.
 
 {{< figure src="images/Coffeebytes-lighthose-indicadores.png" class="md-local-image" alt="Indicadores de Lighthose para coffeebytes.dev" >}}
 
-~~Cabe aclarar que sí he modificado algunas cosas de la configuración predeterminada para tener un mejor rendimiento. Por ejemplo, habilitar HTTP2, en lugar del HTTP a secas que viene por defecto, así como instalar el certificado HTTP usando cerbot en la terminal, pues la instalación predeterminada no lo incluía. Tareas extras que otros servicios de hosting hubieran solucionado por mi, como por ejemplo [easywp](/es/linux/mi-experiencia-usando-easywp-y-namecheap/)~~. 
+~~Cabe aclarar que sí modifiqué algunas configuraciones por defecto para mejorar el rendimiento. Por ejemplo, habilité HTTP2 en lugar de HTTP, además de instalar el certificado SSL con cerbot en la terminal, ya que la instalación por defecto no lo incluía. Cosas extras que otros servicios de hosting me habrían resuelto, como [easywp](/en/linux/my-experience-using-easywp-and-namecheap/).~~
 
-Como migre mi blog a Hugo ya no tengo que preocuparme de configurar nginx, ni apache ni nada.
+## Resumiendo mi experiencia con DO
 
-## Resumen de mi experiencia usando DO
+Mi experiencia hasta ahora ha sido bastante buena, no tengo quejas en cuanto al rendimiento que prometen, por supuesto me reservo el derecho de cambiar de opinión.
 
-Mi experiencia ha sido bastante buena, sin ninguna queja en cuanto a las prestaciones que prometen.
+{{< box link="[https://m.do.co/c/a22240ebb8e7](https://m.do.co/c/a22240ebb8e7)" type="info" message="Si decides probarlo, te regalo $200 USD para que experimentes por ti mismo lo que Digital Ocean tiene para ofrecer, solo haz clic en este banner.">}}
 
-Digital Ocean ofrece uno de los mejores costos para empezar un proyecto; $3 usd para el paquete más básico (Apps) es un **precio increíblemente bajo** para páginas estáticas o basadas en Frontend únicamente.
+Si no quieres meterte con Apache, Nginx o configuraciones de servidores, quizá un Droplet de Digital Ocean no sea la mejor opción para ti.
 
-## ¿Cómo obtener un crédito de $200 USD gratis en Digital Ocean?
+Por otro lado, Digital Ocean ofrece uno de los mejores precios para arrancar un proyecto: $3 USD (o gratis para sitios estáticos) por el paquete más básico (Apps) es un **precio increíblemente bajo** para páginas estáticas o solo con Frontend.
 
-{{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="Si te decides a probarlo te regalo $200 USD para que pruebes y veas por ti mismo lo que Digital Ocean tiene para ofrecer, solo dale click en este banner.">}}
+

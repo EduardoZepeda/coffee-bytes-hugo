@@ -216,7 +216,7 @@ Servir imágenes y archivos estáticos puede dificultar la parte importante de t
 
 Además de beneficiarse de las localizaciones geográficas de los CDN; un servidor en el mismo país (o continente) que tu usuario dará como reusltado una respuesta más rápida.
 
-Existen muchas opciones de CDN disponibles, entre las opciones más populares están AWS, [Azure](/es/software-architecture/examen-de-certificacion-azure-az-900-mi-experiencia/), Digital Ocean, Cloud Flare, entre otras.
+Existen muchas opciones de CDN disponibles, entre las opciones más populares están AWS, y [Azure, de acuerdo a mi certificación AZ-900]({{< ref path="/posts/software-architecture/examen-certificacion-azure-az-900-mi-experiencia/index.md" lang="es" >}}), Digital Ocean, Cloud Flare, entre otras.
 
 ## Denormalización
 
