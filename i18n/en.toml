@@ -2,10 +2,10 @@
 other = "Check price on Amazon"
 
 [bookRecommendations]
-other = "My book recommendations"
+other = "Get better at this topic"
 
 [bookDescriptions]
-other = "Yes, I've read them"
+other = "My recommended books are"
 
 [leftPanelTitle]
 other = "My Curated Best Resources To Learn and Make The Most of Python"
@@ -15,3 +15,6 @@ other = "This is what I read to go beyond Python basics"
 
 [leftPanelButton]
 other = "Read Post"
+
+[do]
+other = "Free $200 USD in Hosting Credits Here"

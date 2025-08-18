@@ -2,7 +2,7 @@
 other = "Ver en Amazon"
 
 [bookRecommendations]
-other = "Mis recomendaciones"
+other = "Mis recomendaciones sobre este tema"
 
 [bookDescriptions]
 other = "Sí, los leí completos"
@@ -15,3 +15,6 @@ other = "Conoce los recursos que usé para aprender y llevar al máximo mis habi
 
 [leftPanelButton]
 other = "Leer Post"
+
+[do]
+other = "Gratis $200 USD en crédito para hosting"

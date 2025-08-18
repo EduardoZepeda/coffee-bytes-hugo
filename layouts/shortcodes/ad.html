@@ -186,7 +186,7 @@
   <template id="books-template">
     <aside class="affiliate-link-container affiliate-link-container-side affiliate-link-container">
       <div class="affiliate-heading">
-        <h3>{{i18n "bookRecommendations"}}</h3>
+        <h5>{{i18n "bookRecommendations"}}</h5>
         <span class="affiliate-badge">{{ i18n "ad" }}</span>
       </div>
       <div class="affiliate-desc">{{i18n "bookDescriptions"}}</div>
@@ -212,7 +212,7 @@
   <template id="sass-template">
     <aside class="affiliate-link-container affiliate-link-container-side">
       <div class="affiliate-heading">
-        <h3>{{i18n "leftPanelTitle"}}</h3>
+        <h5>{{i18n "leftPanelTitle"}}</h5>
       </div>
         {{ $url := "/en/my-curated-best-sources-to-learn-python-programming-language/" }}
         {{ if eq $lang "es" }}
@@ -223,8 +223,9 @@
         <div class="video-placeholder" data-video-id="0QkuLx6UiXk" data-image-url="https://res.cloudinary.com/dwrscezd2/image/upload/v1744741603/coffee-bytes/saas-pegasus_uwpzuy.webp">
             <img fetchpriority="high" height="200px" width="472px" src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" alt="Python book thumbnail" class="video-thumbnail"/>
         </div>
-
         <div class="panel-button"><a class="affiliate-link affiliate-link-button affiliate-link-button-lg affiliate-shadow" href="{{$url}}">{{ i18n "leftPanelButton"}}</a></div>
+          <h5>{{i18n "do"}}</h5>
+          <a rel="sponsored nofollow" href="https://www.digitalocean.com/?refcode=a22240ebb8e7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
       </div>
     </aside>
   </template>
