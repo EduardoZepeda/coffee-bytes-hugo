@@ -15,7 +15,7 @@ keywords:
 title: I Test ChatGPT With Codewars Coding Challenges
 ---
 
-ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence](/en/artificial-intelligence/chat-gpt-searles-chinese-room-and-consciousness/) against three codewars challenges.
+ChatGPT is breaking with everything previously known in artificial intelligence, some developers are worried that it may replace them in their jobs, just as Github Copilot threatened at the time. In this post I test [ChatGPT's supposed intelligence]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}) against three codewars challenges.
 
 ## How does Codewars work?
 

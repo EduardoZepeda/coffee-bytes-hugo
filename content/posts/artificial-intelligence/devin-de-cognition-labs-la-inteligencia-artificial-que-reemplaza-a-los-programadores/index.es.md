@@ -25,7 +25,7 @@ title: Devin AI ¿El Supuesto Reemplazo de los Programadores?
 
 Hoy se popularizó la noticia, de que un "Ingeniero de Software AI" con el nombre de Devin AI, hecho por [Cognition Labs](https://www.cognition-labs.com/#?), estará disponible en el mercado. Y, por supuesto, provocó una fuerte reacción entre la comunidad de profesionales del software. Reacciones que van desde el cinismo hasta el miedo, pasando por la desilusión, abundan en los comentarios de los videos relacionados.
 
-Aunque aún estamos lejos de tener una [AI consciente de si misma](/es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/), lo que sí tenemos son [LLM fine-tuneables]({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="es" >}}) con características prometedoras que amenazan con poner patas arriba a la industria de la tecnología.
+Aunque aún estamos lejos de tener una [AI consciente de si misma]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}}), lo que sí tenemos son [LLM fine-tuneables]({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="es" >}}) con características prometedoras que amenazan con poner patas arriba a la industria de la tecnología.
 
 ¿Cómo cuales características? [Segun sus creadores, Devin AI puede](https://www.cognition-labs.com/blog#?):
 - Usar tecnologías que no le son familiares

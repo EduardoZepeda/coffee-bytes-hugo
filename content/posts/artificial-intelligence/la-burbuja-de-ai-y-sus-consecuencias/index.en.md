@@ -24,9 +24,19 @@ Since ChatGPT rapidly surpassed the record of user growth, artificial intelligen
 
 {{< styles >}}
 
-But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term. AI is awesome, but it's overhyped.
+But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term. AI is awesome, but it's overhyped. 
 
-{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme mocking the capabilities of AI" >}}
+And I'm not alone in this, even a big company like Apple stepped out of the AI race, details in its paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf#?)
+
+Maybe intelligence is not possible without consciousness, like Penrose and John [Searle's chinese room experiment]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}) states.
+
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755670736/Sam-altman-sees-an-ai-bubble_rx7hdu.png" class="md-local-image" alt="Meme Sam Altman sees an AI bubble" >}}
+
+Even [Sam Altman sees an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), according to the media:
+
+> “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
+
+And I totally agree with him.
 
 ## Is the AI bubble finally bursting out?
 
@@ -34,9 +44,11 @@ Edit: Builder.AI a promising AI that offered websites created with AI was nothin
 
 This is just another proof that screams that lot of AI businesses are playing hit and run with investor's money. They try to rise the expectations to get money from the angel investors and whoever they can and then just fall epically when they fail to deliver. But at that moment, who cares, money has been made and businesses involve risks so...
 
+{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme mocking the capabilities of AI" >}}
+
 Devin AI fell into oblivion. At the same time, we are seeing the law of diminishing returns with each new LLM that appears (video and image generative models have not yet reached that point).
 
-Other companies abandonned the idea of replace developers and focused on becoming tools in code creation, like [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}) 
+Other companies have already abandonned the idea of replace developers and focused on becoming tools in code creation, like [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}) 
 
 {{<ad>}}
 
@@ -45,6 +57,8 @@ Other companies abandonned the idea of replace developers and focused on becomin
 Let's consider Humanity's last exam scores, as you can see, we're around ~30% which is frankly a lot. I don't think we have been close to having something like this. Just thinking about the possibilities makes me tremble. However, investors and click-bait media are trying to convince you that we're around 100%, which is a criminal fallacy. AI's accomplishment are just incredible, but still AI is overhyped.
 
 ![Humanity's last exam score](https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg)
+
+Don't misunderstand me, these values are *amazing* but they're far from what's being promised by media and investors.
 
 ## Investors' greed and consumers' ignorance are guilty of The AI overhype
 

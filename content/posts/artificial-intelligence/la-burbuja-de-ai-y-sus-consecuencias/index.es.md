@@ -23,9 +23,17 @@ title: El auge y la caida de la burbuja de AI
 
 Desde que ChatGPT superó el record de crecimiento de usuarios, la inteligencia artificial es cuasi omnipresente en la colectividad moderna de las metropolis. Su llegada ha traído consigo un gradiente de expectativas que van desde la resolución de problemas sencillos, hasta la automatización completa de nuestras sociedades. 
 
-Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo.
+Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo. 
 
-{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme que se burla de las capacidades de la AI" >}}
+Y no estoy solo en esto, incluso compañias tan grande como Apple, abandonaron la carrera de la AI, ¿sus razones? Probablemente puedes encontrarlas detalladas en su paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf#?). 
+
+Quizás la inteligencia no es posible sin la consciencia, como Penrose y [el experimento de la habitación china de Searle]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}}) afirman.
+
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755670736/Sam-altman-sees-an-ai-bubble_rx7hdu.png" class="md-local-image" alt="Meme Sam Altman sees an AI bubble" >}}
+
+Incluso [Sam Altman dice que ve una burbuja de AI](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), de acuerdo a los medios:
+
+> “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
 
 ## ¿Está estallando finalmente la burbuja de la IA?
 
@@ -33,9 +41,11 @@ Builder.AI, una prometedora IA que ofrecía sitios web creados con IA, no era m�
 
 Esta es solo otra prueba más de que muchas empresas de IA están jugando al gato y al ratón con el dinero de los inversores. Intentan crear expectativas para obtener dinero de los inversores ángeles y de quien sea, y luego caen estrepitosamente cuando no cumplen con lo prometido. Pero en ese momento, a quién le importa, ya se ha ganado el dinero y los negocios implican riesgos, así que...
 
+{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme que se burla de las capacidades de la AI" >}}
+
 Devin AI cayó en el olvido. Al mismo tiempo, estamos apreciando la ley de rendimentos decrecientes en cada nuevo LLM que aparece (los modelos generativos de imagen y video aún no llegan a ese punto).
 
-Otras compañias abandonaron la idea de reemplazar desarrolladores y se enfocaron en volverse herramientas de creación de código, como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) 
+Por otro lado, algunas compañias ya abandonaron la idea de reemplazar desarrolladores y se enfocaron en volverse herramientas de creación de código, como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) 
 
 {{<ad>}}
 
@@ -43,7 +53,9 @@ Otras compañias abandonaron la idea de reemplazar desarrolladores y se enfocaro
 
 Consideremos las puntuaciones del último examen de la Humanidad, como pueden ver estamos alrededor del ~30%, **lo cual es francamente mucho, no creo que hayamos estado de un avance tan significativo como este**, solo pensar en las posibilidades me hace temblar, pero los inversores y los medios de comunicación clickbait están tratando de convencerlos de que estamos alrededor del 100%, lo cual es una falacia de tamaño descomunal.
 
-![Humanity's last exam score](https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg)
+![Humanity's last exam score](https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg).
+
+No te confundas, estos valores son increíbles, pero no son la panacea que venden los medios y los inversores.
 
 ## La burbuja de AI es culpa de la ignorancia de inversores y consumidores
 

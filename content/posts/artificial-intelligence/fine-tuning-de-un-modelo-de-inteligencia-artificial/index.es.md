@@ -107,7 +107,7 @@ Obtuve mejores resultados con los de Mistral, probablemente porque los de DeepSe
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg" class="md-local-image" alt="Is this Searle's Chinese room meme" >}}
 
-De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos (igualito [a la habitación de Searle](/es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/)), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
+De hecho pude entrenarlo y montarlo pero el modelo me retornaba caracteres chinos (igualito [a la habitación de Searle]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}})), de vez en cuando como parte de la respuesta, aunque eso sí, era increíblemente rápido.
 
 Ya elegimos modelo y tenemos los datos, ¿dónde entrenamos nuestro LLM? Mientras más barato mejor.
 

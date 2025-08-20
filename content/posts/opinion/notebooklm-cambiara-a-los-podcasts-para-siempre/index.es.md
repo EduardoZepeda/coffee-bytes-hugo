@@ -38,7 +38,7 @@ Este podcast lo he generado usando mi entrada sobre [el problema de usar github 
 
 Puedes crear el tuyo en [Google Nootebooklm](https://notebooklm.google/#?)
 
-Google ha hecho un trabajo excelente, por favor aprecia el tono, el audio limpio, incluso le ha añadido muletillas y una que otra pausa dudando para otorgarle un ligero toque de naturalidad y realismo. Nada mal para una [caja negra hecha de código que aún no es consciente](/es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/) ¿no crees?
+Google ha hecho un trabajo excelente, por favor aprecia el tono, el audio limpio, incluso le ha añadido muletillas y una que otra pausa dudando para otorgarle un ligero toque de naturalidad y realismo. Nada mal para una [caja negra hecha de código que aún no es consciente]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}}) ¿no crees?
 
 {{<ad>}}
 

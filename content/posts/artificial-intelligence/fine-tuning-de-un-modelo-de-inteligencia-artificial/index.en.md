@@ -103,7 +103,7 @@ I got better results with the Mistral LLMs, probably because the DeepSeek ones w
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xuywp28gqcln00ydopo2.jpg" class="md-local-image" alt="Is this Searle's Chinese room meme" >}}
 
-I was actually able to train and deploy it but the model returned Chinese characters, ([just like Searle's room](/en/artificial-intelligence/chat-gpt-searles-chinese-room-and-consciousness/)), from time to time as part of the response, although it was incredibly fast.
+I was actually able to train and deploy it but the model returned Chinese characters, ([just like Searle's room]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}})), from time to time as part of the response, although it was incredibly fast.
 
 Now that we have the data and the model, where can we train our LLM? The cheaper the better.
 

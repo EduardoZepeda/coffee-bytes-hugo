@@ -36,7 +36,7 @@ I generated this podcast using my post about [the problem of using github to eva
 
 You can create yours at [Google Nootebooklm's site](https://notebooklm.google/#?)
 
-Google has done an excellent job with this tool. Please appreciate the tone, the clean audio. There are even a few crutches and occasional hesitant pauses to give it a slight touch of naturalness and realism. Not bad for a [black box made of code that is not yet conscious](/en/artificial-intelligence/chat-gpt-searles-chinese-room-and-consciousness/) don't you think?
+Google has done an excellent job with this tool. Please appreciate the tone, the clean audio. There are even a few crutches and occasional hesitant pauses to give it a slight touch of naturalness and realism. Not bad for a [black box made of code that is not yet conscious]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}) don't you think?
 
 {{<ad>}}
 
