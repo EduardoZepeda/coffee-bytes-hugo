@@ -3,6 +3,7 @@ aliases:
 - /autocompletado-contenido-relacionado-solr-y-django
 - /autocompletado-sugerencias-y-contenido-relacionado-solr-y-django
 - /es/autocompletado-sugerencias-y-relacionados-con-solr-y-django/
+- /es/autocompletado-sugerencias-y-contenido-relacionado-solr-y-django/
 authors:
 - Eduardo Zepeda
 categories:

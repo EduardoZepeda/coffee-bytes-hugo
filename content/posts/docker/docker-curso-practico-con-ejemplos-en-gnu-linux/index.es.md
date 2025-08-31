@@ -6,6 +6,7 @@ aliases:
 - /docker-tutorial-con-ejemplos-en-gnu-linux/
 - /tutorial-de-comandos-basicos-de-docker//1000
 - /es/comandos-de-docker-mas-utiles-para-manejar-contenedores/
+- /es/tutorial-de-comandos-basicos-de-docker/
 authors:
 - Eduardo Zepeda
 categories:

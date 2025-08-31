@@ -5,6 +5,7 @@ aliases:
 - /es/libera-el-potencial-de-tu-api-con-grpc-y-protobuffers/
 - /es/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
 - /software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
+- /es/software-architecture/apis-de-alto-rendimiento-usando-grpc-y-protobuffers/
 authors:
 - Eduardo Zepeda
 categories:

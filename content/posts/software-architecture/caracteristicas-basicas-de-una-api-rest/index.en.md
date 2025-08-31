@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/rest-api-basic-characteristics-and-recommendations/
+- /en/basic-characteristics-of-an-api-rest-api/
 authors:
 - Eduardo Zepeda
 categories:

@@ -5,6 +5,7 @@ aliases:
 - /mi-experiencia-con-digital-ocean-como-hosting/
 - /es/digital-ocean-analisis-y-mi-experiencia-como-usuario/
 - /software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/
+- /es/software-architecture/digital-ocean-analisis-y-mi-experiencia-como-usuario/
 authors:
 - Eduardo Zepeda
 categories:

@@ -6,6 +6,7 @@ aliases:
 - /python-vs-go-cual-es-el-mejor-lenguaje-de-programacion
 - /python-vs-go-2021-cual-es-el-mejor-diferencias-y-similitudes/
 - /es/python-vs-go-en-2025-que-lenguaje-aprender/
+- /es/python-vs-go-cual-es-el-mejor-lenguaje-de-programacion/
 authors:
 - Eduardo Zepeda
 categories:

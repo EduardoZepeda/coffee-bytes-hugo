@@ -3,6 +3,7 @@ aliases:
 - /permisos-en-gnu-linux-y-el-comando-chmod
 - /entiende-los-permisos-en-gnu-linux-y-el-comando-chmod
 - /es/entiende-los-permisos-en-gnu-linux-y-el-comando-chmod/
+- /es/entiende-los-permisos-en-gnu-linux-y-el-comand
 authors:
 - Eduardo Zepeda
 categories:

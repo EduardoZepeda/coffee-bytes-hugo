@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/learn-python-from-scratch-with-this-free-book/
+- /en/python/learn-python-from-scratch-with-this-free-book/
 authors:
 - Eduardo Zepeda
 categories:

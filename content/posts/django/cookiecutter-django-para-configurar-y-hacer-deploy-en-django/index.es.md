@@ -4,6 +4,7 @@ aliases:
 - /configuracion-de-un-proyecto-de-django-usando-cookiecutter-django
 - /tutorial-de-cookiecutter-django-y-deploy-con-docker-compose-en-linux/
 - /es/configuracion-y-deploy-de-django-usando-cookiecutter-django/
+- /es/cookiecutter-django-para-configurar-y-hacer-deploy-en-django/
 authors:
 - Eduardo Zepeda
 categories:
