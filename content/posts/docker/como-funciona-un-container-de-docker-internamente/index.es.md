@@ -4,6 +4,7 @@ aliases:
 - /container-de-docker-con-namespaces-y-cgroups
 - /contenedor-de-docker-con-espacios-de-nombres-y-grupos/
 - /es/como-funciona-un-container-de-docker-internamente/
+- /es/container-de-docker-con-namespaces-y-cgroups/
 authors:
 - Eduardo Zepeda
 categories:

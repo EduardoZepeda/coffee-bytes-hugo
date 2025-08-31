@@ -4,6 +4,7 @@ aliases:
 - /tutorial-para-implementar-cache-en-django-rest-framework-con-memcached
 - /cache-en-django-rest-framework-con-memcached/feed/
 - /es/tutorial-cache-con-django-rest-framework-y-memcached/
+- /es/cache-en-django-rest-framework-con-memcached/
 authors:
 - Eduardo Zepeda
 categories:
