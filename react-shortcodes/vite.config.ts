@@ -10,7 +10,9 @@ export default defineConfig({
       input: {
         bloomFilter: 'src/bloomFilter.tsx',
         swissTables: 'src/swissTables.tsx'
-      },
+      }
     },
+    outDir: '../public',
+    assetsDir: ''
   },
 });

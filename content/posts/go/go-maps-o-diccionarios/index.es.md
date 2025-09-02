@@ -33,6 +33,8 @@ Go 1.24 reemplazó su implementación de maps, ahora utiliza Swiss-tables, que a
 - Mayor uso de memoria debido a buckets desbordados que requieren espacio extra.
 - Sobrecarga debida al rehashing al redimensionar los maps.
 
+{{<swissTables>}}
+
 ### Implementación anterior de Go: Buckets
 
 En Go un map funciona bastante similar a como lo haría en cualquier otro lenguaje. En Go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.
