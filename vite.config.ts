@@ -12,7 +12,7 @@ export default defineConfig({
         swissTables: 'src/swissTables.tsx'
       }
     },
-    outDir: 'public',
+    outDir: '../public',
     assetsDir: ''
   },
 });
