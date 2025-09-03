@@ -71,7 +71,7 @@ function BloomFilterSimulator() {
 		<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
 			<div className="max-w-4xl mx-auto">
 				<div className="text-center mb-8">
-					<h1 className="text-3xl font-bold text-gray-800 mb-4">Bloom Filter Simulator</h1>
+					<h2 className="text-3xl font-bold text-gray-800 mb-4">Bloom Filter Simulator</h2>
 					<p className="text-gray-600">
 						A probabilistic data structure that never returns false negatives, but may return false positives
 					</p>
@@ -168,18 +168,15 @@ function BloomFilterSimulator() {
 	);
 };
 
-function renderSwissTable() {
+function renderBloomFilter() {
 	if (document.getElementById("app-bloom-filter")) {
-		document.body.addEventListener('htmx:afterSettle', renderSwissTable);
-		document.body.addEventListener('htmx:historyRestore', renderSwissTable);
+		document.body.addEventListener('htmx:afterSettle', renderBloomFilter);
+		document.body.addEventListener('htmx:historyRestore', renderBloomFilter);
 		render(<><style dangerouslySetInnerHTML={{ __html: css }} /><BloomFilterSimulator /></>, document.getElementById('app-bloom-filter'));
 	}
 	return;
 }
 
-renderSwissTable()
-
-
-export default BloomFilterSimulator;
+export default renderBloomFilter;
 
 

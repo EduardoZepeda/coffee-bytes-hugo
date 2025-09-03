@@ -120,7 +120,7 @@ const SwissTableSimulator = () => {
     return (
         <div className="p-6 max-w-6xl mx-auto bg-white">
             <div className="mb-8">
-                <h1 className="text-3xl font-bold text-gray-800 mb-4">Swiss Table Visual Simulator</h1>
+                <h3 className="text-3xl font-bold text-gray-800 mb-4">Swiss Table Visual Simulator</h3>
                 <p className="text-gray-600 mb-4">
                     A visual representation of Swiss Tables hash implementation with 2 groups of 8 slots each.
                 </p>
@@ -162,9 +162,9 @@ const SwissTableSimulator = () => {
             <div className="space-y-8">
                 {groups.map((group) => (
                     <div key={group.id} className="border-2 border-gray-300 rounded-lg p-6">
-                        <h2 className="text-xl font-semibold mb-4 text-gray-800">
+                        <h3 className="text-xl font-semibold mb-4 text-gray-800">
                             Group {group.id}
-                        </h2>
+                        </h3>
 
                         {/* Control Word */}
                         <div className="mb-6">
@@ -250,6 +250,4 @@ function renderSwissTable() {
     return;
 }
 
-renderSwissTable()
-
-export default SwissTableSimulator;
+export default renderSwissTable;
