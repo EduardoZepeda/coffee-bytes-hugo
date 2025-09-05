@@ -2,6 +2,7 @@
 aliases:
 - /en/i-explain-the-model-context-protocol-or-mcp-used-to-interact-with-llms/
 - /en/understand-the-model-context-protocol-or-mcp-once-and-for-all/
+- /en/artificial-intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/
 authors:
 - Eduardo Zepeda
 categories:
@@ -18,7 +19,7 @@ keywords:
 - llm
 - fine tuning
 - ai
-title: Understand the Model Context Protocol or MCP once and for all
+title: I'll Help You Understand the Model Context Protocol or MCP
 ---
 
 If you're struggling to understand the Model Context Protocol, I feel you, I watched a lot of videos on it, but I just couldn't understand it, so I took my notes about it and turned it into a post so you can understand it effortless, also I wrote a post where I talk about [how to create a MCP server and MCP tools from scratch]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="en" >}}).

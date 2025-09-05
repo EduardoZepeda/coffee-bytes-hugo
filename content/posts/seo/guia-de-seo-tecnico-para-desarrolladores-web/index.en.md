@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/a-technical-seo-basics-checklist-made-for-web-developers/
+- /en/seo/a-technical-seo-basics-checklist-made-for-web-developers/
 authors:
 - Eduardo Zepeda
 categories:
@@ -17,7 +18,7 @@ keywords:
 - seo
 - desarrollo web
 - opinion
-title: A Technical SEO Basics Checklist Made For Web Developers
+title: My Technical SEO Basics Checklist Only For Web Developers
 ---
 
 Previously I told you how [I made many mistakes in SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}}) when I migrated my website from Wordpress to Hugo, after that I started watching a lot of videos about SEO, especially Romuald's videos (He is one of the biggest SEO influencers in Spanish speaking countries), I've also read [The art of SEO](https://amzn.to/42uNZrv#?) and I tried to summarize everything I learned from him and the book in a short post, just for you, before [AI overhype]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) explodes, taking SEO with it.
