@@ -245,7 +245,7 @@ function renderSwissTable() {
     if (document.getElementById("app-swiss-table")) {
         document.body.addEventListener('htmx:afterSettle', renderSwissTable);
         document.body.addEventListener('htmx:historyRestore', renderSwissTable);
-        render(<><style dangerouslySetInnerHTML={{ __html: css }} /><SwissTableSimulator /></>, document.getElementById('app-swiss-table'));
+        render(<><style dangerouslySetInnerHTML={{ __html: css }} /><SwissTableSimulator /></>, document.getElementById('app-swiss-table').attachShadow({ mode: 'open' }));
     }
     return;
 }

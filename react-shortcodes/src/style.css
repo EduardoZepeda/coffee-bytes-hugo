@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+.border-gray-300 {
+    border-color: oklch(87.2% 0.01 258.338);
+}
+
+.border-gray-400 {
+    border-color: oklch(70.7% 0.022 261.325);
+}
+
+.border-green-500 {
+    border-color: oklch(72.3% 0.219 149.579);
+}
+
+.border-red-400 {
+    border-color: oklch(70.4% 0.191 22.216);
+}
+
+.border-2 {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
