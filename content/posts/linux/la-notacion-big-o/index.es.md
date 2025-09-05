@@ -53,7 +53,7 @@ Con una velocidad de internet cercana a los límites actuales, usar internet par
 
 Con el código sucede lo mismo, cada proceso que nosotros efectuemos sobre los datos para transformarlos consume tiempo y hay diferentes maneras de procesar los datos, hay algoritmos cuyo tiempo de ejecución es constante, para otros aumenta de manera lineal con la cantidad de datos que procesan, mientras que otros exponencialmente. 
 
-Por otro lado, algunos ofrecen un mejor rendimiento con pocos datos, mientras que otros brillan a la hora de procesar mucha información.
+Por otro lado, algunos ofrecen un mejor rendimiento con pocos datos, mientras que otros brillan a la hora de procesar mucha información. Por ejemplo los [Bloom Filters]({{< ref path="/posts/databases/bloom-filter/index.md" lang="es" >}}) con un rendimiento excepcional cuando se trata de corroborar si un elemento pertenece a un set.
 
 A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da si nuestro código se ejecuta en 0.0001 segundos o en 0.001 segundos?, para fines prácticos es lo mismo ¿no? [Obsesionarse con el rendimiento](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) del algoritmo correcto puede parecernos trivial para valores tan pequeños y si a eso le agregamos la vertiginosa velocidad de procesamiento del equipo moderno caeremos en el error de no darle la importancia correcta a los algoritmos. 
 

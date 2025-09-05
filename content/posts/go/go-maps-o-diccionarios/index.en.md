@@ -34,6 +34,8 @@ Go 1.24 replaced its map implementation, it now uses Swiss-tables, which are cur
 
 {{<swissTables>}}
 
+If go's maps don't match your performance requirements maybe you can consider using a [Bloom Filter]({{< ref path="/posts/databases/bloom-filter/index.md" lang="en" >}})
+
 ### Go's former implementation: Buckets
 
 In Go a map works quite similar to any other language. In go there are buckets, a type of section consisting of 8 key-value pairs. The hash function receives the key and redirects us to the appropriate bucket, that is, the space of 9 key-value pairs where our key is located and, once there, it looks for the correct key.

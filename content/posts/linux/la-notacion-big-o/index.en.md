@@ -51,7 +51,7 @@ With internet speed close to the current limits, using the internet to transmit 
 
 What does the latter have to do with code? Well, the same thing happens with code, every process we perform on the data to transform it consumes time and there are different ways of processing data, there are algorithms whose execution time is constant, for others it increases linearly with the amount of data they process, while others exponentially. 
 
-On the other hand, some offer better performance with little data, while others shine when processing a lot of information.
+On the other hand, some offer better performance with little data, while others shine when processing a lot of information. For example [Bloom Filters]({{< ref path="/posts/databases/bloom-filter/index.md" lang="en" >}}) with outstanding performance when checking membership of an element in a set.
 
 Sometimes when we have no idea about algorithms we ask ourselves, what does it matter if our code runs in 0.0001 seconds or 0.001 seconds, for practical purposes it is the same thing, isn't it? [Obsessing about the performance can seem trivial for such small values](/en/opinion/dont-obsess-about-your-web-application-performance/) and if we add to that the vertiginous processing speed of modern equipment we fall into the error of not giving the right importance to algorithms.
 

@@ -35,6 +35,8 @@ Go 1.24 reemplazó su implementación de maps, ahora utiliza Swiss-tables, que a
 
 {{<swissTables>}}
 
+Si los hashmaps de go no te dan el rendimiento que necesitas, quizás puedas considerar usar un [Bloom Filter]({{< ref path="/posts/databases/bloom-filter/index.md" lang="es" >}})
+
 ### Implementación anterior de Go: Buckets
 
 En Go un map funciona bastante similar a como lo haría en cualquier otro lenguaje. En Go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.
