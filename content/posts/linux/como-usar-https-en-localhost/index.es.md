@@ -1,6 +1,7 @@
 ---
 aliases:
 - /es/la-manera-mas-facil-de-usar-https-en-localhost/
+- /es/linux/la-manera-mas-facil-de-usar-https-en-localhost/
 authors:
 - Eduardo Zepeda
 categories:
@@ -19,8 +20,8 @@ keywords:
 - linux
 - golang
 - go
-slug: /linux/la-manera-mas-facil-de-usar-https-en-localhost/
-title: La Manera Más Fácil De Usar Https en Localhost
+slug: /linux/la-manera-mas-facil-de-usar-https-en-localhost-mi-opinion/
+title: La Manera Más Fácil De Usar Https en Localhost (mi opinión)
 ---
 
 ¿Cómo usar Localhost con https en lugar de http sin necesidad de lidiar con el comando netstat, ni emitir certificados SSL de manera manual? 

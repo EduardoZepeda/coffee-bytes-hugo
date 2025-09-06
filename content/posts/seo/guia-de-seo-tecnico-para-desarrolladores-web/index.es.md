@@ -1,6 +1,7 @@
 ---
 aliases:
 - /es/una-guia-de-seo-tecnico-basico-hecha-para-desarrolladores-web/
+- /es/seo/una-guia-de-seo-tecnico-basico-hecha-para-desarrolladores-web/
 authors:
 - Eduardo Zepeda
 categories:
@@ -14,8 +15,8 @@ keyword: SEO Técnico básico
 keywords:
 - seo
 - opinion
-slug: /seo/una-guia-de-seo-tecnico-basico-hecha-para-desarrolladores-web/
-title: Una Guia De SEO Técnico Básico Hecha Para Desarrolladores Web
+slug: /seo/mi-guia-de-seo-tecnico-basico-solo-para-desarrolladores-web/
+title: Mi Guia De SEO Técnico Básico Solo Para Desarrolladores Web
 ---
 
 Anteriormente te platiqué como [cometí muchos errores en SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}) al migrar mi sitio web de Wordpress a Hugo, pues después de eso me puse a ver muchos videos sobre SEO, sobre todo de Romuald Fons, también me leí [The art of SEO](https://amzn.to/4ilv4pc#?) y he tratado de resumir todo lo que aprendí en una pequeña entrada. He decidido centrarme en el SEO técnico porque es el que entiendo, es menos subjetivo y, además, estoy más familiariazado. Por eso escribí esta entrada antes de que [burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) estalle, llevándose al SEO con ella.

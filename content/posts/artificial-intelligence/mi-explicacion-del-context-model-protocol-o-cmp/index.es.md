@@ -2,6 +2,7 @@
 aliases:
 - /es/mi-explicacion-del-model-context-protocol-mcp-para-interactuar-con-llms/
 - /es/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/
+- /es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/
 authors:
 - Eduardo Zepeda
 categories:
@@ -18,8 +19,8 @@ keywords:
 - llm
 - fine tuning
 - ai
-slug: /artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/
-title: Comprende el Model Context Protocol (MCP) de una vez por todas
+slug: /artificial-intelligence/te-explico-el-model-context-protocol-mcp-y-para-que-sirve/
+title: Te Explico El Model Context Protocol (MCP) Y Para Que Sirve
 ---
 
 Si tienes dificultades para comprender el Protocolo de Contexto Modelo, te entiendo, vi muchos videos al respecto, pero no pude entenderlo, así que tomé mis notas al respecto y las convertí en una publicación para que puedas entenderlo sin esfuerzo. También escribí un post donde explico [como crear un MCP server y MCP tools desde cero]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="es" >}}).
