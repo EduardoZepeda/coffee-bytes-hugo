@@ -1,6 +1,8 @@
 ---
+aliases:
+- /es/i-built-a-bloom-filter-data-structure-simulator/
 date: '2025-09-05T09:47:15-06:00'
-title: 'I Built a Bloom Filter Data Structure Simulator'
+title: 'Construí Un Simulador Visual De Un Bloom Filter'
 categories:
 - databases
 - software architecture
@@ -14,6 +16,7 @@ keywords:
 - 'performance'
 authors:
 - 'Eduardo Zepeda'
+slug: /databases/construi-un-simulador-visual-de-un-bloom-filter/
 ---
 
 Supongamos que quieres comprobar si un dato pertenece a un conjunto más grande. Digamos que eres Google y quieres revisar si cierta url ha sido marcada como spam. El enfoque más tonto sería iterar sobre cada url marcada como spam para ver si la encuentras. Tal vez pienses: “Guardo los sitios spam en un hashmap”, pero entonces, ¿un hashmap con los millones de sitios que existen en internet? Debe existir una forma que use menos espacio.
