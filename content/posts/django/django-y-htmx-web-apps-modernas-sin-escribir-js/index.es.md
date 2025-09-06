@@ -533,7 +533,18 @@ Ahora puedes acceder directo a las url y conservar la funcionalidad de htmx.
 
 ### Renderizando condicional con HTMX en las vistas de Django
 
-Lo anterior puede ser bastante complicado si tus plantillas son complejas, pero hay otras opciones. Por ejemplo puedes generar tu nombre de plantilla dinámicamente si has recibido una petición originada con HTMX, ¿te acuerdas que te dije de los headers o cabeceras especiales?
+Editar: El código a continuación ya no será necesario porque Django 6.0 tendrá plantillas parciales que le permitirán recuperar plantillas parciales directamente, usando la etiqueta *partialdef*.
+
+``` html
+{% partialdef user-info %}
+    <div id="user-info-">
+        <h3></h3>
+        <p></p>
+    </div>
+{% endpartialdef %}
+```
+
+~~Lo anterior puede ser bastante complicado si tus plantillas son complejas, pero hay otras opciones. Por ejemplo puedes generar tu nombre de plantilla dinámicamente si has recibido una petición originada con HTMX, ¿te acuerdas que te dije de los headers o cabeceras especiales?~~
 
 ``` python
 class YourGenericView(ListView):

@@ -452,9 +452,11 @@ The url was sent via the HX-Current-URL header, the object element to be exchang
 
 {{< figure src="images/EncabezadosHtmx.png" class="md-local-image" alt="List of extra headers are added in each request" >}}
 
+
 ## Rendering head, body and html conditionally with HTMX
 
 Do you remember that we had the problem that if we accessed the urls directly, without going through home, htmx would not load? Well, now that we know that we have these headers, we can use them so that the template system includes the head, html and body tags only when we access the path directly.
+
 
 ```html
 {% if not request.META.HTTP_HX_REQUEST %}
@@ -523,6 +525,17 @@ Now you can access url's directly and keep the htmx functionality.
 
 ### Conditional Rendering in django viewss with HTMX
 
+Edit: The code below won't be necessary anymore because Django 6.0 will have partial templates which allow you to retrieve partial templates directly via the use of *partialdef* tag.
+
+``` html
+{% partialdef user-info %}
+    <div id="user-info-">
+        <h3></h3>
+        <p></p>
+    </div>
+{% endpartialdef %}
+```
+
 The above can be quite complicated if your templates are complex, but there are other options. For example you can generate your template name dynamically if you have received a request originated with HTMX, remember I told you about special headers?
 
 ``` python
@@ -535,3 +548,4 @@ class YourGenericView(ListView):
 
 
 I have shown you only the basics of htmx combined with django, remember to visit the [official documentation](https://htmx.org/docs/) to see the other things it has to offer, like CSS transitions, websockets and SSE,
+
