@@ -5,7 +5,8 @@ import css from './style.css?inline';
 import { useState, useEffect } from 'preact/compat';
 
 function BloomFilterSimulator() {
-	const [word1, setWord1] = useState('');
+	const [words, setWords] = useState<string[]>([]);
+	const [currentWord, setCurrentWord] = useState('');
 	const [word2, setWord2] = useState('');
 	const [bits1, setBits1] = useState(Array(6).fill(0));
 	const [bits2, setBits2] = useState(Array(6).fill(0));
@@ -32,32 +33,73 @@ function BloomFilterSimulator() {
 
 		return bits;
 	};
+	
+	// Calculate the OR of all word hashes
+	const combinedBits = (words: string[]) => words.reduce((acc, word) => {
+		const wordBits = hashFunction(word);
+		return acc.map((bit, i) => bit | wordBits[i]);
+	}, Array(6).fill(0));
 
+	// Update bits1 when words change
 	useEffect(() => {
-		setBits1(hashFunction(word1));
-	}, [word1]);
+		if (words.length === 0) {
+			setBits1(Array(6).fill(0));
+			return;
+		}
+
+		setBits1(combinedBits(words));
+	}, [words]);
 
 	useEffect(() => {
 		setBits2(hashFunction(word2));
 	}, [word2]);
 
 	useEffect(() => {
-		if (!word1 || !word2) {
+		if (words.length === 0 || !word2) {
 			setMessage('');
 			return;
 		}
 
 		// Check if bits1 pattern exists in bits2 (subset check)
-		const isSubset = bits1.every((bit, index) => bit === 0 || bits2[index] === 1);
 
-		if (word1 === word2) {
-			setMessage('✅ Words are identical - definitely a match!');
-		} else if (isSubset) {
-			setMessage('⚠️ Possible match detected (could be false positive)');
+		if (compareBits(bits1, bits2)) {
+			setMessage(`✅ Word might be in the set ${words.includes(word2) ? '' : '(possible collision)'}`);
 		} else {
 			setMessage('❌ Definitely not a match (no false negatives)');
 		}
-	}, [bits1, bits2, word1, word2]);
+	}, [bits1, bits2, words, word2, currentWord]);
+
+	const handleAddWord = () => {
+		if (currentWord.trim() && !words.includes(currentWord.trim())) {
+			setWords([...words, currentWord.trim()]);
+			setCurrentWord('');
+		}
+	};
+
+	const handleSetCurrentWord = (word: string) => {
+		setCurrentWord(word);
+		setBits1(combinedBits([...words, word]));
+	};
+
+	const compareBits = (bits1: number[], bits2: number[]) => {
+		for (let i = 0; i < bits1.length; i++) {
+			if (bits2[i] === 1 && bits1[i] === 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	const handleKeyDown = (e: KeyboardEvent) => {
+		if (e.key === 'Enter') {
+			handleAddWord();
+		}
+	};
+
+	const handleReset = () => {
+		setWords([]);
+		setCurrentWord('');
+	};
 
 	const BitCell = ({ value }: { value: number, index: number }) => (
 		<div className="w-12 h-12 border-2 border-gray-400 flex items-center justify-center bg-white text-lg font-bold">
@@ -82,25 +124,40 @@ function BloomFilterSimulator() {
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
 						<div className="space-y-4">
 							<label className="block text-sm font-medium text-gray-700">
-								Word 1:
+								Add Word to Bloom Filter:
 							</label>
 							<input
 								type="text"
-								value={word1}
-								onChange={(e) => setWord1(e.target.value)}
+								value={currentWord}
+								onChange={(e:React.ChangeEvent<HTMLInputElement>) => handleSetCurrentWord(e.target.value)}
+								onKeyDown={handleKeyDown}
 								className="w-full text-gray-700 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-								placeholder="Enter first word"
+								placeholder="Enter words (separated by Enter)"
 							/>
+							<button
+								type="button"
+								onClick={handleAddWord}
+								className="w-full text-gray-700 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-blue-500 text-white"
+							>
+								Add Word
+							</button>
+							<button
+								type="button"
+								onClick={handleReset}
+								className="w-full text-gray-700 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-red-500 text-white"
+							>
+								Reset
+							</button>
 						</div>
 
 						<div className="space-y-4">
 							<label className="block text-sm font-medium text-gray-700">
-								Word 2:
+								Word to check:
 							</label>
 							<input
 								type="text"
 								value={word2}
-								onChange={(e) => setWord2(e.target.value)}
+								onChange={(e:React.ChangeEvent<HTMLInputElement>) => setWord2(e.target.value)}
 								className="w-full text-gray-700 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 								placeholder="Enter second word"
 							/>
@@ -112,7 +169,7 @@ function BloomFilterSimulator() {
 						<div className="inline-flex items-center space-x-4">
 							<div className="h-0.5 w-16 bg-gray-400"></div>
 							<span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
-								Hash Function
+								Hash Function(s)
 							</span>
 							<div className="h-0.5 w-16 bg-gray-400"></div>
 						</div>
@@ -123,7 +180,8 @@ function BloomFilterSimulator() {
 						{/* First tape */}
 						<div className="space-y-2">
 							<div className="text-sm font-medium text-gray-700">
-								Word 1 → Binary representation:
+								Bloom filter → Binary representation:
+								<p>{`Words in filter: ${words.join(', ')}`}</p>
 							</div>
 							<div className="flex space-x-1 justify-center">
 								{bits1.map((bit, index) => (
@@ -135,7 +193,7 @@ function BloomFilterSimulator() {
 						{/* Second tape */}
 						<div className="space-y-2">
 							<div className="text-sm font-medium text-gray-700">
-								Word 2 → Binary representation:
+								Word → Binary representation:
 							</div>
 							<div className="flex space-x-1 justify-center">
 								{bits2.map((bit, index) => (
@@ -178,5 +236,3 @@ function renderBloomFilter() {
 }
 
 export default renderBloomFilter;
-
-
