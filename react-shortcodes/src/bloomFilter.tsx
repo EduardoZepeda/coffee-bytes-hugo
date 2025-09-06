@@ -182,6 +182,7 @@ function BloomFilterSimulator() {
 							<div className="text-sm font-medium text-gray-700">
 								Bloom filter → Binary representation:
 								<p>{`Words in filter: ${words.join(', ')}`}</p>
+								<p className="text-red-500">{words.length>=3? 'The chances of getting a collision increase with more words in the filter':''}</p>
 							</div>
 							<div className="flex space-x-1 justify-center">
 								{bits1.map((bit, index) => (
