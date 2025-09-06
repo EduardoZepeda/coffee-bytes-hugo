@@ -33,8 +33,6 @@ Esta estructura puede producir *falsos positivos*. Pero la buena noticia es que 
 
 Por esta razón, los Bloom filters son útiles cuando valoras más la velocidad y el espacio que una precisión absoluta.
 
-Mira cómo funciona. Para simplificar el simulador, usaremos una única palabra como el conjunto completo:
-
 {{<bloomFilter>}}
 
 ### ¿Dónde se pueden usar los bloom filters?

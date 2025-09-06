@@ -30,8 +30,6 @@ This data structure can produce *false positives*. But the good news are that th
 
 Because of this, Bloom filters shine when you care more about speed and space than absolute accuracy.
 
-Check how they work, for simplicity we're only using one word as the full set.
-
 {{<bloomFilter>}}
 
 ### Where can I use bloom filters? 
