@@ -664,7 +664,7 @@ uvicorn main:app --host 0.0.0.0 --port 80
 
 ## Deployment de FastAPI con Docker
 
-Hacer un deployment con Docker es super sencillo, el creador de FastAPI nos recomienda utilizar el siguiente código en un [archivo Dockerfile de Docker](/es/docker/tutorial-de-comandos-basicos-de-docker/#usando-un-dockerfile-para-crear-una-imagen) si vamos a utilizar una arquitectura compleja, por ejemplo Kubernetes.
+Hacer un deployment con Docker es super sencillo, el creador de FastAPI nos recomienda utilizar el siguiente código en un [archivo Dockerfile de Docker]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}) si vamos a utilizar una arquitectura compleja, por ejemplo Kubernetes.
 
 ```bash
 touch Dockerfile

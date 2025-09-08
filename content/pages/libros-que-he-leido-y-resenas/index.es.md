@@ -11,114 +11,114 @@ Esta es la lista de libros que he leído para aprender sobre desarrollo web y pr
 
 - The Rust Programming Language por Steve Klabnik
 
-![The rust programming language book](images/the-rust-programming-language-book.jpg "The rust programming language book")
+{{< figure src="images/the-rust-programming-language-book.jpg" alt="The rust programming language book" caption="The rust programming language book" >}}
 
 ## Mi lista de libros
 
 Los libros no están en ningún orden en particular:
 
-![Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman](images/sicp-js.jpg "Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman")
+{{< figure src="images/sicp-js.jpg" alt="Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman" caption="Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman" >}}
 
-![Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower](images/kubernetes-up-and-running.jpg "Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower")
+{{< figure src="images/kubernetes-up-and-running.jpg" alt="Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower" caption="Kubernetes: Up and Running: Dive Into the Future of Infrastructure de Brendan Burns, Joe Beda & Kelsey Hightower" >}}
 
-![Refactoring por Martin Fowler](images/refactoring.jpg "Refactoring por Martin Fowler")
+{{< figure src="images/refactoring.jpg" alt="Refactoring por Martin Fowler" caption="Refactoring por Martin Fowler" >}}
 
 
-![Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho](images/computer-science-distilled.jpg "Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho")
+{{< figure src="images/computer-science-distilled.jpg" alt="Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho" caption="Computer Science Distilled: Learn the Art of Solving Computational Problems de Wladston Ferreira Filho" >}}
 
 
-![System design interview de Alex Xu](images/system-design-interview.jpg "System design interview de Alex Xu")
+{{< figure src="images/system-design-interview.jpg" alt="System design interview de Alex Xu" caption="System design interview de Alex Xu" >}}
 
 
-![Let's Go Further de Alex Edwards](images/lets-go-further.jpg "Let's Go Further de Alex Edwards")
+{{< figure src="images/lets-go-further.jpg" alt="Let's Go Further de Alex Edwards" caption="Let's Go Further de Alex Edwards" >}}
 
 
-![Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf](images/professor-frisby.jpg "Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf")
+{{< figure src="images/professor-frisby.jpg" alt="Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf" caption="Professor Frisby's mostly adequate guide to functional programming de Brian Lonsdorf" >}}
 
 
-![Build APIs You Won't Hate de Phil Sturgeon](images/build-apis-you-wont-hate.jpg "Build APIs You Won't Hate de Phil Sturgeon")
+{{< figure src="images/build-apis-you-wont-hate.jpg" alt="Build APIs You Won't Hate de Phil Sturgeon" caption="Build APIs You Won't Hate de Phil Sturgeon" >}}
 
 
-![REST API Design Rulebook por Mark Masse](images/rest-api-design.jpg "REST API Design Rulebook por Mark Masse")
+{{< figure src="images/rest-api-design.jpg" alt="REST API Design Rulebook por Mark Masse" caption="REST API Design Rulebook por Mark Masse" >}}
 
 
-![A Philosophy of Software Design de John Ousterhout](images/a-philosophy-of-software-design.jpg "A Philosophy of Software Design de John Ousterhout")
+{{< figure src="images/a-philosophy-of-software-design.jpg" alt="A Philosophy of Software Design de John Ousterhout" caption="A Philosophy of Software Design de John Ousterhout" >}}
 
 
-![Software Architecture Patterns de Mark Richards](images/software-architecture-patterns.jpg "Software Architecture Patterns de Mark Richards")
+{{< figure src="images/software-architecture-patterns.jpg" alt="Software Architecture Patterns de Mark Richards" caption="Software Architecture Patterns de Mark Richards" >}}
 
 
-![How Linux Works, 3rd Edition What Every Superuser Should Know por Brian Ward](images/how-linux-works.jpg "How Linux Works, 3rd Edition What Every Superuser Should Know por Brian Ward")
+{{< figure src="images/how-linux-works.jpg" alt="How Linux Works, 3rd Edition What Every Superuser Should Know por Brian Ward" caption="How Linux Works, 3rd Edition What Every Superuser Should Know por Brian Ward" >}}
 
 
-![Dive into Python de Mark Pilgrim (traducción de José Miguel González Aguilera)](images/dive-into-python.jpg "Dive into Python de Mark Pilgrim (traducción de José Miguel González Aguilera)")
+{{< figure src="images/dive-into-python.jpg" alt="Dive into Python de Mark Pilgrim (traducción de José Miguel González Aguilera)" caption="Dive into Python de Mark Pilgrim (traducción de José Miguel González Aguilera)" >}}
 
 
-![Beginning Python: From Novice to Professional de Magnues Lie Hetland](images/beginning-python.jpg "Beginning Python: From Novice to Professional de Magnues Lie Hetland")
+{{< figure src="images/beginning-python.jpg" alt="Beginning Python: From Novice to Professional de Magnues Lie Hetland" caption="Beginning Python: From Novice to Professional de Magnues Lie Hetland" >}}
 
 
-![Cracking Codes with Python: An Introduction to Building and Breaking Ciphers de Al Sweigart](images/cracking-codes-with-python.jpg "Cracking Codes with Python: An Introduction to Building and Breaking Ciphers de Al Sweigart")
+{{< figure src="images/cracking-codes-with-python.jpg" alt="Cracking Codes with Python: An Introduction to Building and Breaking Ciphers de Al Sweigart" caption="Cracking Codes with Python: An Introduction to Building and Breaking Ciphers de Al Sweigart" >}}
 
 
-![Practical Python Design Patterns de Wessel Badenhorst](images/practical-python-design-patterns.jpg "Practical Python Design Patterns de Wessel Badenhorst")
+{{< figure src="images/practical-python-design-patterns.jpg" alt="Practical Python Design Patterns de Wessel Badenhorst" caption="Practical Python Design Patterns de Wessel Badenhorst" >}}
 
 
-![Python tricks the book de Dan Bader](images/python-tricks-the-book.jpg "Python tricks the book de Dan Bader")
+{{< figure src="images/python-tricks-the-book.jpg" alt="Python tricks the book de Dan Bader" caption="Python tricks the book de Dan Bader" >}}
 
 
-![Web Development with Django Cookbook de Aidas Bendoraitis](images/web-development-with-django-cookbook.jpg "Web Development with Django Cookbook de Aidas Bendoraitis")
+{{< figure src="images/web-development-with-django-cookbook.jpg" alt="Web Development with Django Cookbook de Aidas Bendoraitis" caption="Web Development with Django Cookbook de Aidas Bendoraitis" >}}
 
 
-![Two scoops of Django de Daniel Roy Greenfeld y Audrey Roy Greenfeld](images/two-scoops-of-django.jpg "Two scoops of Django de Daniel Roy Greenfeld y Audrey Roy Greenfeld")
+{{< figure src="images/two-scoops-of-django.jpg" alt="Two scoops of Django de Daniel Roy Greenfeld y Audrey Roy Greenfeld" caption="Two scoops of Django de Daniel Roy Greenfeld y Audrey Roy Greenfeld" >}}
 
 
-![Eloquent JavaScript: A Modern Introduction to Programming de Marijin Haverbeke](images/eloquent-javascript.jpg "Eloquent JavaScript: A Modern Introduction to Programming de Marijin Haverbeke")
+{{< figure src="images/eloquent-javascript.jpg" alt="Eloquent JavaScript: A Modern Introduction to Programming de Marijin Haverbeke" caption="Eloquent JavaScript: A Modern Introduction to Programming de Marijin Haverbeke" >}}
 
 
-![Definitive Guide to Django: Web Development Done Right de Adrian Holovaty y Jacob Kaplan Moss (Traducción de Saul Garcia M.)](images/the-definitive-guide-to-django.jpg "Definitive Guide to Django: Web Development Done Right de Adrian Holovaty y Jacob Kaplan Moss (Traducción de Saul Garcia M.)")
+{{< figure src="images/the-definitive-guide-to-django.jpg" alt="Definitive Guide to Django: Web Development Done Right de Adrian Holovaty y Jacob Kaplan Moss (Traducción de Saul Garcia M.)" caption="Definitive Guide to Django: Web Development Done Right de Adrian Holovaty y Jacob Kaplan Moss (Traducción de Saul Garcia M.)" >}}
 
 
-![Django by Example de Antonio Melé](images/django-by-example.jpg "Django by Example de Antonio Melé")
+{{< figure src="images/django-by-example.jpg" alt="Django by Example de Antonio Melé" caption="Django by Example de Antonio Melé" >}}
 
 
-![Building APIS With Django and Django Rest Framework de Agiliq](images/building-apis-with-django-and-drf.jpg "Building APIS With Django and Django Rest Framework de Agiliq")
+{{< figure src="images/building-apis-with-django-and-drf.jpg" alt="Building APIS With Django and Django Rest Framework de Agiliq" caption="Building APIS With Django and Django Rest Framework de Agiliq" >}}
 
 
-![Clean Code de Robert C. Marin](images/clean-code.jpg "Clean Code de Robert C. Marin")
+{{< figure src="images/clean-code.jpg" alt="Clean Code de Robert C. Marin" caption="Clean Code de Robert C. Marin" >}}
 
 
-![Django for Professionals de William S. Vincent](images/django-for-professionals.jpg "Django for Professionals de William S. Vincent")
+{{< figure src="images/django-for-professionals.jpg" alt="Django for Professionals de William S. Vincent" caption="Django for Professionals de William S. Vincent" >}}
 
 
-![The algorithm design manual de Steven S. SKiena](images/the-algorithm-design-manual.jpg "The algorithm design manual de Steven S. SKiena")
+{{< figure src="images/the-algorithm-design-manual.jpg" alt="The algorithm design manual de Steven S. SKiena" caption="The algorithm design manual de Steven S. SKiena" >}}
 
 
-![JavaScript the good parts de Douglas CrockFord](images/javascript-the-good-parts.jpg "JavaScript the good parts de Douglas CrockFord")
+{{< figure src="images/javascript-the-good-parts.jpg" alt="JavaScript the good parts de Douglas CrockFord" caption="JavaScript the good parts de Douglas CrockFord" >}}
 
 
-![Python Pocket Reference de Mark Lutz](images/python-pocket-reference.jpg "Python Pocket Reference de Mark Lutz")
+{{< figure src="images/python-pocket-reference.jpg" alt="Python Pocket Reference de Mark Lutz" caption="Python Pocket Reference de Mark Lutz" >}}
 
 
-![C++ Pocker Reference de Kyle Loudon](images/cpp-pocket-reference.jpg "C++ Pocker Reference de Kyle Loudon")
+{{< figure src="images/cpp-pocket-reference.jpg" alt="C++ Pocker Reference de Kyle Loudon" caption="C++ Pocker Reference de Kyle Loudon" >}}
 
 
-![Learning Python de Mark Lutz](images/learning-python.jpg "Learning Python de Mark Lutz")
+{{< figure src="images/learning-python.jpg" alt="Learning Python de Mark Lutz" caption="Learning Python de Mark Lutz" >}}
 
 
-![Python Web Development with Django de Jeff Forcier, Paul Bissex y Wesley Chun](images/python-web-development.jpg "Python Web Development with Django de Jeff Forcier, Paul Bissex y Wesley Chun")
+{{< figure src="images/python-web-development.jpg" alt="Python Web Development with Django de Jeff Forcier, Paul Bissex y Wesley Chun" caption="Python Web Development with Django de Jeff Forcier, Paul Bissex y Wesley Chun" >}}
 
 
-![C Programming Absolute Beginner's Guide de Stephani Danelle Perry](images/c-programming.jpg "C Programming Absolute Beginner's Guide de Stephani Danelle Perry")
+{{< figure src="images/c-programming.jpg" alt="C Programming Absolute Beginner's Guide de Stephani Danelle Perry" caption="C Programming Absolute Beginner's Guide de Stephani Danelle Perry" >}}
 
 
-![C Programming Language de Brian W. Kernighan y Dennis M. Ritchie](images/the-c-programming-language.jpg "C Programming Language de Brian W. Kernighan y Dennis M. Ritchie")
+{{< figure src="images/the-c-programming-language.jpg" alt="C Programming Language de Brian W. Kernighan y Dennis M. Ritchie" caption="C Programming Language de Brian W. Kernighan y Dennis M. Ritchie" >}}
 
 
-![Code: the hidden language of computer hardware and software de Charles Petzold](images/code.jpg "Code: the hidden language of computer hardware and software de Charles Petzold")
+{{< figure src="images/code.jpg" alt="Code: the hidden language of computer hardware and software de Charles Petzold" caption="Code: the hidden language of computer hardware and software de Charles Petzold" >}}
 
 
-![Aprenda C++ Básico de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano](images/aprenda-cpp-basico.jpg "Aprenda C++ Básico de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano")
+{{< figure src="images/aprenda-cpp-basico.jpg" alt="Aprenda C++ Básico de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano" caption="Aprenda C++ Básico de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano" >}}
 
 
-![Aprenda C++ Avanzado de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano](images/aprenda-cpp-avanzado.jpg "Aprenda C++ Avanzado de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano")
+{{< figure src="images/aprenda-cpp-avanzado.jpg" alt="Aprenda C++ Avanzado de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano" caption="Aprenda C++ Avanzado de Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola y Iñigo Lazacano" >}}
 
