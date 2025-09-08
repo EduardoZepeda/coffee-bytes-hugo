@@ -11,7 +11,7 @@ categories:
 - django
 - linux
 coverImage: images/solr-django-busquedas.jpg
-coverImageCredits: Créditos a https://www.instagram.com/we_make_mangas/
+coverImageCredits: Créditos a we_make_mangas
 date: '2022-05-26'
 description: Solr, junto con Haystack, permite búsquedas exactas en milisegundos al
   crear un índice invertido del contenido de los modelos de Django

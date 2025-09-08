@@ -8,7 +8,7 @@ categories:
 - django
 - linux
 coverImage: images/solr-django-busquedas.jpg
-coverImageCredits: Credits to https://www.instagram.com/we_make_mangas/
+coverImageCredits: Credits to we_make_mangas
 date: '2022-05-26'
 title: How to implement Solr for searches or queries in Django?
 url: :sections[last]/searches-with-solr-with-django-haystack
