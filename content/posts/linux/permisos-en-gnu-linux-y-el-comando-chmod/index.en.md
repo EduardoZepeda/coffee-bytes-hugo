@@ -9,20 +9,18 @@ categories:
 - linux
 coverImage: images/permisos_gnu_linux.jpg
 date: '2019-05-29'
-description: Understand once and for all how the chmod command works in Linux, users,
-  groups, what's the meaning of the rwx permissions, learn to assign permissions,
-  remove them and modify them.
+description: I explain how chmod command works, users, groups, what's the meaning of the rwx linux notation, also how to assign permissions and revoke them.
 keywords:
 - linux
-title: 'Mastering Chmod Command: Linux Permissions Simplified'
+title: 'Mastering Chmod command and RWX Permissions on Linux Systems'
 url: :sections[last]/understand-permissions-in-gnu-linux-and-the-chmod-command/
 ---
 
-The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly.
+The previous entry was the third part of the series on the most common GNU/Linux commands. To end the entry I wrote about the [chmod command, which manages permissions](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/). This chmod command is one of the most complex commands in GNU/Linux, not because of its variety of options, but because of the previous knowledge required to be able to use it correctly, and its weird syntax (RWX) or even worse (777, 755, and so on)
 
-In this post I will expand a bit on the topic of permissions and show the two different ways of the chmod command to assign permissions to a file. For this entry we are going to use several basic GNU/Linux commands, if you are not very familiar with the basic commands check my tutorial on [the basic Linux commands]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
+In this post I will expand a bit on the topic of permissions and show the two different ways of the chmod command to assign permissions to a file. For this entry we are going to use several basic GNU/Linux commands, if you are not familiar with the basic terminal commands check my tutorial on [the basic Linux commands]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
 
-## Types of permissions in GNU/Linux
+## Types of permissions in GNU/Linux (RWX)
 
 In GNU/Linux there are 3 types of permissions for files; permission to read, specified by the letter '_r_'; to write, represented by the letter '_w_'; and to execute, assigned to the letter '_x_'. 
 
