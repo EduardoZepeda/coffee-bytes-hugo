@@ -33,7 +33,7 @@ This may include:
 *   **Usage Data:** Information about how you use the Site, such as the pages you visit, the time spent on those pages, and navigation paths. This is collected via Google Analytics and PostHog.
 *   **Technical Data:** Your Internet Protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform, and other technology on the devices you use to access this website.
 
-This information is aggregated and anonymized. It cannot be used to identify you personally. For more details, please see our [Cookie Policy](link-to-your-cookie-policy).
+This information is aggregated and anonymized. It cannot be used to identify you personally. For more details, please see our [Cookie Policy](/en/pages/politica-de-cookies/).
 
 ### B. Information You Voluntarily Provide to Us (Personal Data)
 
