@@ -1,5 +1,5 @@
 ---
-title: "Cookie Policy"
+title: "Politica de privacidad"
 date: "2021-03-13"
 noindex: true
 slug: /politica-de-cookies/
