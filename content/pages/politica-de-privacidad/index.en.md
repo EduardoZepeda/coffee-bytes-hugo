@@ -1,67 +1,90 @@
 ---
-title: "Política de privacidad"
+title: "Privacy Policy"
 date: "2021-03-13"
 noindex: true
+slug: /pages/politica-de-privacidad/
 ---
 
-#### AVISO DE PRIVACIDAD
+**Last Updated:** 08/Sept/2025
 
-**Carlos Eduardo Magallón Zepeda**, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
+## 1. Introduction
 
-## ¿Para qué fines utilizaremos sus datos personales?
+Welcome to Coffee Bytes ("we," "us," "our"). We are committed to protecting your privacy and being transparent about the information we collect. This Privacy Policy explains how we handle and protect your personal information when you visit our website, https://coffeebytes.dev (the "Site"), a blog about technology and programming.
 
-Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias para el servicio que solicita:
+We do not require any form of registration for you to read our content. We only collect personal data in one specific circumstance: if you voluntarily subscribe to our newsletter.
 
-- Enviarte entradas de este blog por correo electrónico
-- Avisarte de entradas nuevas por correo electrónico
-- Personalizar los correos electrónicos
+By using our Site, you agree to the practices described in this Privacy Policy.
 
-De manera adicional, utilizaremos su información personal para las siguientes finalidades que **no son necesarias** para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:
+## 2. Information We Do Not Collect
 
-- **_Tratamiento estadístico de los datos para mejorar este blog_**
+To provide clarity and reassurance, we want to explicitly state what we do **not** do:
 
-En caso de que no desee que sus datos personales sean tratados para estos fines adicionales, desde este momento usted nos puede cancelar su suscripción a nuestros correos electrónicos en el enlace que aparece al final de cada correo electrónico. Para detener el seguimiento por parte de google analytics mediante la eliminación de las cookies del navegador.
+*   We do not require user accounts or registration to read our blog.
+*   We do not allow users to comment on posts, and therefore we do not collect any user data for that purpose.
+*   We do not sell, rent, or trade your personal information with any third parties for their commercial purposes.
 
-La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios y productos que solicita o contrata con nosotros.
+## 3. Information We Collect and How We Use It
 
-## ¿Qué datos personales utilizaremos para estos fines?
+### A. Information Collected Automatically (Non-Personal Data)
 
-Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos los siguientes datos personales: Nombre, correo electrónico
+Like most websites, we automatically collect certain non-personally identifiable information when you visit our Site. This data is collected through cookies and similar technologies and is used for analytical purposes to understand how our content is performing and to improve the user experience.
 
-Además de los datos personales mencionados anteriormente, para las finalidades informadas en el presente aviso de privacidad utilizaremos los siguientes datos personales considerados como sensibles, que requieren de especial protección: ninguno
+This may include:
+*   **Usage Data:** Information about how you use the Site, such as the pages you visit, the time spent on those pages, and navigation paths. This is collected via Google Analytics and PostHog.
+*   **Technical Data:** Your Internet Protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform, and other technology on the devices you use to access this website.
 
-**¿Con quién compartimos su información personal y para qué fines?**  
-Le informamos que sus datos personales son compartidos dentro y fuera del país con las siguientes personas, empresas, organizaciones y autoridades distintas a nosotros, para los siguientes fines:
+This information is aggregated and anonymized. It cannot be used to identify you personally. For more details, please see our [Cookie Policy](link-to-your-cookie-policy).
 
-<table><tbody><tr><td><strong>Destinatario de los datos personales</strong></td><td><strong>País</strong><br><strong><em>(opcional)</em></strong></td><td><strong>Finalidad</strong></td></tr><tr><td><strong><em>Google</em></strong></td><td></td><td><strong><em>Tratamiento estadístico de la información</em></strong>*</td></tr><tr><td><strong><em>Mailchimp</em></strong></td><td></td><td><strong><em>Envío de correo electrónico usando su plataforma</em></strong>*</td></tr></tbody></table>
+### B. Information You Voluntarily Provide to Us (Personal Data)
 
-Le informamos que para las transferencias indicadas con un asterisco (\*) requerimos obtener su consentimiento. Si usted no manifiesta su negativa para dichas transferencias, entenderemos que nos lo ha otorgado
+**Newsletter Subscription**
+The only personal data we collect is the information you provide explicitly and voluntarily when you sign up for our email newsletter, which we manage using **Mailchimp** (a service provided by The Rocket Science Group LLC).
 
-**¿Cómo puede acceder, rectificar o cancelar sus datos personales, u oponerse a su uso?**  
-Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada conforme a los principios, deberes y obligaciones previstas en la normativa (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.
+*   **What we collect:** Your email address.
+*   **Why we collect it:** To send you our newsletter, which contains updates on new blog posts, technology news, and programming tips.
+*   **Legal Basis:** We process this data based on your explicit consent, which you provide at the time of subscription.
 
-Para el ejercicio de cualquiera de los derechos ARCO, usted deberá presentar la solicitud respectiva mandando un correo electrónico a eduardomzepeda [at] outlook [dot] com
+## 4. How We Share Your Information
 
-Para conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, usted podrá ponerse en contacto con nuestro Departamento de Privacidad, que dará trámite a las solicitudes para el ejercicio de estos derechos, y atenderá cualquier duda que pudiera tener respecto al tratamiento de su información. Los datos de contacto del Departamento de Privacidad son los siguientes:  
-Carlos Eduardo Magallón Zepeda, eduardomzepeda [at] outlook [dot] com
+We value your privacy. We will only share your personal information in the following limited circumstances:
 
-**¿Cómo puede revocar su consentimiento para el uso de sus datos personales?**  
-Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando sus datos personales. Asimismo, usted deberá considerar que para ciertos fines, la revocación de su consentimiento implicará que no le podamos seguir prestando el servicio que nos solicitó, o la conclusión de su relación con nosotros.
+*   **Service Providers:** We share your email address with **Mailchimp**, our email marketing provider, solely for the purpose of delivering the newsletters you requested. Mailchimp is a third-party data processor and its use of your information is governed by its own Privacy Policy. We encourage you to review Mailchimp's [Privacy Policy](https://mailchimp.com/legal/privacy/).
+*   **Legal Obligations:** We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
 
-Para revocar su consentimiento deberá cancelar su suscripción a nuestros correos electrónicos en el enlace que aparece al final de cada correo electrónico. Para detener el seguimiento por parte de google analytics mediante la eliminación de las cookies del navegador.
+## 5. Data Retention
 
-Para conocer el procedimiento y requisitos para la revocación del consentimiento, usted podrá comunicarse por correo electrónico en la siguiente dirección:
+*   **Automatically Collected Data:** Non-personal, aggregated analytics data is retained for a period determined by our analytics providers (Google Analytics and PostHog), which is typically between 26 and 50 months.
+*   **Newsletter Data:** We will retain your email address for as long as you remain subscribed to our newsletter. You can unsubscribe at any time using the link at the bottom of every email we send. Upon unsubscribing, your email address will be removed from our active mailing list, though Mailchimp may retain it in a suppression list to ensure we do not accidentally re-add you in the future.
 
-eduardomzepeda [at] outlook [dot] com
+## 6. Your Data Protection Rights
 
-**¿Cómo puede limitar el uso o divulgación de su información personal?**  
-Los únicos datos personales que compartimos en este sitio web es tu nombre y tu correo electrónico. Puedes eliminar estos datos cancelando tu suscripción en cualquiera de los correos electrónicos que te enviamos
+Depending on your location, you have rights under data protection laws. These may include the right to:
 
-**¿Cómo puede conocer los cambios a este aviso de privacidad?**  
-El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales; de nuestras propias necesidades por los productos o servicios que ofrecemos; de nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio, o por otras causas.
+*   **Access:** Request copies of your personal data.
+*   **Rectification:** Request that we correct any information you believe is inaccurate.
+*   **Erasure (The "Right to be Forgotten"):** Request that we erase your personal data.
+*   **Restrict Processing:** Request that we restrict the processing of your personal data.
+*   **Object to Processing:** Object to our processing of your personal data.
+*   **Data Portability:** Request that we transfer the data that we have collected to another organization, or directly to you.
+*   **Withdraw Consent:** Where we rely on consent to process your personal data, you have the right to withdraw that consent at any time.
 
-Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de nuestros correos electrónicos
+To exercise any of these rights, please contact us at [Your Email Address]. We will respond to your request within the timeframe required by applicable law.
 
-El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o actualizaciones al presente aviso de privacidad es el siguiente: **_envío de un correo electrónico avisándote de cambios en la política de privacidad_**
+## 7. International Data Transfers
 
-Última actualización **23/Jul/2021**
+Our newsletter provider, Mailchimp, is based in the United States. Your information (email address) may be transferred to and processed in the United States. Mailchimp complies with the EU-U.S. Data Privacy Framework (DPF) and other legal mechanisms to ensure an adequate level of protection for international data transfers.
+
+## 8. Children's Privacy
+
+Our Site is not intended for use by individuals under the age of 16 ("Children"). We do not knowingly collect personally identifiable information from Children. If you are a parent or guardian and you are aware that your Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from Children without verification of parental consent, we take steps to remove that information from our servers.
+
+## 9. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. We will also inform registered subscribers of any material changes via email. You are advised to review this Privacy Policy periodically for any changes.
+
+## 10. Contact Us
+
+If you have any questions about this Privacy Policy, your personal data, or your rights, please do not hesitate to contact us at:
+
+hello [at] zeedu [dot] com
+

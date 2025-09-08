@@ -1,77 +1,101 @@
 ---
 aliases:
 - /pages/politica-de-cookies
-title: "Política de cookies"
+title: "Cookie Policy"
 date: "2021-07-23"
 noindex: true
+slug: /pages/politica-de-cookies/
 ---
 
-Carlos Eduardo Magallón Zepeda informa acerca del uso de las cookies en su página web: https://coffeebytes.dev
+**Last Updated:** 08/Sept/2025
 
-## ¿Qué son las cookies?
+## 1. Introduction
 
-Las cookies son archivos que se pueden descargar en su equipo a través de las páginas web. Son herramientas que tienen un papel esencial para la prestación de numerosos servicios de la sociedad de la información. Entre otros, permiten a una página web almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información obtenida, se pueden utilizar para reconocer al usuario y mejorar el servicio ofrecido.
+This Cookie Policy explains how Coffee Bytes ("we," "us," or "our") uses cookies and similar technologies on our website, https://coffeebytes.dev (the "Site"). This policy is designed to inform you, the user, about the types of cookies we use, the purposes for using them, and your choices regarding their use.
 
-## Tipos de cookies
+By continuing to use our Site, you consent to the use of cookies and similar technologies as described in this policy, in accordance with your browser's current settings.
 
-Según quien sea la entidad que gestione el dominio desde donde se envían las cookies y trate los datos que se obtengan se pueden distinguir dos tipos:
+## 2. What Are Cookies?
 
-- Cookies propias: aquéllas que se envían al equipo terminal del usuario desde un equipo o dominio gestionado por el propio editor y desde el que se presta el servicio solicitado por el usuario.
-- Cookies de terceros: aquéllas que se envían al equipo terminal del usuario desde un equipo o dominio que no es gestionado por el editor, sino por otra entidad que trata los datos obtenidos través de las cookies.
+Cookies are small text files that are placed on your device (computer, tablet, or mobile) when you visit a website. They are widely used to make websites work more efficiently and to provide information to the site owners.
 
-En el caso de que las cookies sean instaladas desde un equipo o dominio gestionado por el propio editor pero la información que se recoja mediante éstas sea gestionada por un tercero, no pueden ser consideradas como cookies propias.
+Cookies can be:
+*   **"First-party"** set by the website you are visiting.
+*   **"Third-party"** set by a domain other than the one you are visiting.
 
-Existe también una segunda clasificación según el plazo de tiempo que permanecen almacenadas en el navegador del cliente, pudiendo tratarse de:
+They can also be classified by their lifespan:
+*   **Session cookies:** Temporary cookies that expire when you close your browser.
+*   **Persistent cookies:** Remain on your device for a set period or until you delete them.
 
-- Cookies de sesión: diseñadas para recabar y almacenar datos mientras el usuario accede a una página web. Se suelen emplear para almacenar información que solo interesa conservar para la prestación del servicio solicitado por el usuario en una sola ocasión (p.e. una lista de productos adquiridos).
-- Cookies persistentes: los datos siguen almacenados en el terminal y pueden ser accedidos y tratados durante un periodo definido por el responsable de la cookie, y que puede ir de unos minutos a varios años.
+## 3. How We Use Cookies
 
-Por último, existe otra clasificación con cinco tipos de cookies según la finalidad para la que se traten los datos obtenidos:
+We use cookies for the following purposes:
 
-- Cookies técnicas: aquellas que permiten al usuario la navegación a través de una página web,plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan como, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de seguridad durante la navegación, almacenar contenidos para la difusión de vídeos o sonido o compartir contenidos a través de redes sociales.
-- Cookies de personalización: permiten al usuario acceder al servicio con algunas características de carácter general predefinidas en función de una serie de criterios en el terminal del usuario como por ejemplo serian el idioma, el tipo de navegador a través del cual accede al servicio, la configuración regional desde donde accede al servicio, etc.
-- Cookies de análisis: permiten al responsable de las mismas, el seguimiento y análisis del comportamiento de los usuarios de los sitios web a los que están vinculadas. La información recogida mediante este tipo de cookies se utiliza en la medición de la actividad de los sitios web, aplicación o plataforma y para la elaboración de perfiles de navegación de los usuarios de dichos sitios, aplicaciones y plataformas, con el fin de introducir mejoras en función del análisis de los datos de uso que hacen los usuarios del servicio.
-- Cookies publicitarias: permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios.
-- Cookies de publicidad comportamental: almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico para mostrar publicidad en función del mismo.
-- Cookies de redes sociales externas: se utilizan para que los visitantes puedan interactuar con el contenido de diferentes plataformas sociales (facebook, youtube, twitter, linkedIn, etc..) y que se generen únicamente para los usuarios de dichas redes sociales. Las condiciones de utilización de estas cookies y la información recopilada se regula por la política de privacidad de la plataforma social correspondiente.
+| Category                  | Purpose                                                                                                                                                                                                                                                                                                                   | Managed by                    |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------- |
+| **Strictly Necessary**    | These cookies are essential for the website to function and cannot be switched off. They are usually only set in response to actions you take, such as setting your privacy preferences, logging in, or filling in forms. You can set your browser to block these cookies, but some parts of the site will not then work. | First-party                   |
+| **Analytics/Performance** | These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our Site. They help us know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous.                | Third-party (Google, PostHog) |
 
-## Desactivación y eliminación de cookies
+## 4. Specific Cookies We Use
 
-Tienes la opción de permitir, bloquear o eliminar las cookies instaladas en tu equipo mediante la configuración de las opciones del navegador instalado en su equipo. Al desactivar cookies, algunos de los servicios disponibles podrían dejar de estar operativos. La forma de deshabilitar las cookies es diferente para cada navegador, pero normalmente puede hacerse desde el menú Herramientas u Opciones. También puede consultarse el menú de Ayuda del navegador dónde puedes encontrar instrucciones. El usuario podrá en cualquier momento elegir qué cookies quiere que funcionen en este sitio web.
+The table below provides more detailed information about the individual cookies we use.
 
-Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador:
+### A. Strictly Necessary Cookies
 
-- Microsoft Internet Explorer o Microsoft Edge: http://windows.microsoft.com/es-es/windows-vista/Block-or-allow-cookies
-- Mozilla Firefox: http://support.mozilla.org/es/kb/impedir-que-los-sitios-web-guarden-sus-preferencia
-- Chrome: https://support.google.com/accounts/answer/61416?hl=es
-- Safari: http://safari.helpmax.net/es/privacidad-y-seguridad/como-gestionar-las-cookies/
-- Opera: http://help.opera.com/Linux/10.60/es-ES/cookies.html
+These cookies do not require consent as they are essential for core functionality.
 
-Además, también puede gestionar el almacén de cookies en su navegador a través de herramientas como las siguientes
+| Name            | Purpose                              | Duration |
+| :-------------- | :----------------------------------- | :------- |
+| `cb_subscribed` | Checks if subscribe banner was shown | Session  |
 
-Ghostery: www.ghostery.com/
+### B. Analytics Cookies (Subject to Your Consent)
 
-## Cookies utilizadas en https://coffeebytes.dev
+We use these tools to understand how users interact with our content, which helps us create better articles and improve site structure.
 
-A continuación se identifican las cookies que están siendo utilizadas en este portal así como su tipología, propósito, caducidad y proveedor:
+**Google Analytics**
+Google Analytics is a web analytics service provided by Google, Inc. Google uses the data collected to track and examine the use of our Site, to prepare reports on its activities, and to share them with other Google services.
 
-<table><tbody><tr><td>Nombre</td><td>Proveedor</td><td>Propósito</td><td>Caducidad</td><td>Tipo</td></tr><tr><td>_ga</td><td>google</td><td>Registra una identificación numérica que se utiliza para generar datos estadísticos. Se usa para distinguir usuarios.</td><td>2 años</td><td>HTTP cookie</td></tr><tr><td>_gid</td><td>google</td><td>Generan un ID de usuario anónimo, que es el que se utiliza para hacer recuento de cuantas veces visita el sitio un usuario. También registra cuando fue la primera y la última vez que visitó la web. Asimismo, calcula cuando se ha terminado una sesión, origen del usuario, y keywords.</td><td>1 día</td><td>HTTP cookie</td></tr><tr><td>_gat_tracker_#</td><td>google</td><td>Incluye información de la campaña relativa al usuario. Si has vinculado tus cuentas de Google Analytics y AdWords, las etiquetas de conversión de sitios web leerán esta cookie, a menos que la inhabilites.</td><td>1 año</td><td>HTTP<br>cookie</td></tr><tr><td>mailChimpNewsletterShown</td><td>propia</td><td>Identifica a aquellos usuarios que se les ha mostrado el pop up para la suscripción al boletín de correo electrónico.</td><td>30 días</td><td>HTTP<br>cookie</td></tr><tr><td>CookieConsent</td><td>propia</td><td>Identifica a aquellos usuarios que han dado su consentimiento para el uso de cookies.</td><td>1 año</td><td>HTTP<br>cookie</td></tr></tbody></table>
+| Name       | Purpose                           | Duration |
+| :--------- | :-------------------------------- | :------- |
+| `_ga`      | Used to distinguish unique users. | 2 years  |
+| `_ga_[ID]` | Used to persist session state.    | 2 years  |
+| `_gid`     | Used to distinguish users.        | 24 hours |
 
-## Información obtenida con base en nuestro interés legítimo
+**PostHog**
+PostHog is an open-source product analytics platform that helps us understand user behavior to improve our Site.
 
-Basado en nuestros intereses legítimos, obtenemos la siguiente información con el propósito de correr nuestro sitio web. Tu información no será usada para cualquier otro propósito o compartida con terceros. Además se elimina si lo solicitas
+| Name                      | Purpose                                                                     | Duration |
+| :------------------------ | :-------------------------------------------------------------------------- | :------- |
+| `ph_[ID]_session`         | Used to track a user's session for analytical purposes.                     | Session  |
+| `ph_[ID]_optout`          | Stores user opt-out preference.                                             | 10 years |
+| `[other_posthog_cookies]` | Various cookies used for feature flags, user identification, and analytics. | Varies   |
 
-### Estadísticas
+*The specific cookie names for PostHog may vary. For the most accurate and current list, please refer to [PostHog's documentation](https://posthog.com/docs).*
 
-Este sitio usa un Google Analytics, un servicio que transmite información del tráfico a los servidores de Google en los Estados Unidos y nos permite notar tendencias y mejorar la experiencia del usuario en nuestro sitio web. Este servicio procesa información personal tal como: un identificador de usuario único establecido por Google Analytics, la fecha y hora, el título de la página que está siendo vista, la url de la página siendo vista, la url de la página que fue vista antes que esa, la resolución de pantalla, el huso horario, los archivos que fueron descargados, los enlaces en los que se hizo click y que llevaron a un dominio externo, el tipo de dispositivo y el país, región o ciudad.
+## 5. Your Choices and Consent
 
-Puedes optar por detener este rastreo en cualquier momento activando la opción de "no seguir" en tu navegador.
+**Consent Management**
+When you first visit our Site, a cookie banner will appear seeking your consent for the use of Analytics cookies. You can accept, reject, or customize your preferences.
 
-## Aceptación de la Política de cookies
+**Browser Controls**
+You can set or amend your web browser controls to accept or refuse cookies. If you choose to reject cookies, you may still use our website, though your access to some functionality and areas may be restricted. How you can do this depends on the browser you use. For more information, please visit the help pages of your browser:
 
-https://coffeebytes.dev asume que usted acepta el uso de cookies. No obstante, muestra información sobre su Política de cookies en la parte inferior o superior de cualquier página del portal con cada inicio de sesión con el objeto de que usted sea consciente.
+*   [Google Chrome](https://support.google.com/chrome/answer/95647)
+*   [Mozilla Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
+*   [Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac)
+*   [Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09)
 
-Ante esta información es posible llevar a cabo las siguientes acciones:
+**Third-Party Opt-Outs**
+You can opt-out of being tracked by these specific services directly:
+*   **Google Analytics:** You can opt-out of Google Analytics by installing Google's opt-out browser add-on, available [here](https://tools.google.com/dlpage/gaoptout).
+*   **PostHog:** You can opt-out of PostHog tracking by clicking [here](https://us.posthog.com/opt-out) or by enabling the Do Not Track setting in your browser.
 
-- Aceptar cookies. No se volverá a visualizar este aviso al acceder a cualquier página del portal durante la presente sesión. Se oculta el aviso en la presente página.
-- Modificar su configuración. Podrá obtener más información sobre qué son las cookies, conocer la Política de cookies de https://coffeebytes.dev y modificar la configuración de su navegador.
+## 6. Changes to This Policy
+
+We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will post any changes on this page and update the "Last Updated" date at the top of this policy. We encourage you to review this policy periodically to stay informed about our use of cookies.
+
+## 7. Contact Us
+
+If you have any questions about our use of cookies or this Cookie Policy, please contact us at:
+
+hello [at] zeedu [dot] com

@@ -1,10 +1,10 @@
 ---
-title: "Política de privacidad"
+title: "Cookie Policy"
 date: "2021-03-13"
 noindex: true
+slug: /politica-de-cookies/
 ---
 
-#### AVISO DE PRIVACIDAD
 
 **Carlos Eduardo Magallón Zepeda**, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
 
