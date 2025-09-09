@@ -26,7 +26,7 @@ title: My Digital Ocean review, analysis and my experience as a user
 
 I've been using Digital Ocean for my personal projects for several years, so Let me tell how it has been so far and what can of services you can find there.
 
-## Droplets in Digital Ocean
+## Droplets or VPS on Digital Ocean
 
 Droplets are my favorite resource in Digital Ocean. Droplets are virtual servers that are rented to you by hour. When you create a Droplet you can choose different operating systems and versions. You can access the terminal of any Droplet through its web page or through the [ssh command]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}).
 
@@ -40,7 +40,11 @@ If you don't want to start from a brand new operating system installation you ca
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547051/Marketplace-digital-ocean_q3h4lb.png" class="md-local-image" alt="Images available for Digital Ocean droplets" >}}
 
-For example, you can choose an Express JS template and it will have Node installed and an Express server running. 
+For example, you can choose an Express JS template and it will have Node installed and an Express server running 
+
+#### Installing n8n on Digital Ocean
+
+Or more recently, you can install n8n with just one click and pointing your DNS records to a custom subdomain using n8n's template.
 
 Customized images will save you some time configuring the operative system and sometimes it is just a matter of CTRL + C and CTRL + V to get your app running. I've used Django, Wordpress and MERN stack, can recommend them.
 
@@ -80,9 +84,9 @@ I found that Hostinger VPS are way cheaper then Digital Ocean, they practically 
 
 I really don't want to deal with problems for such small difference in price. If you have any experience using Hostinger that can be double-checked, I'd be happy to update this post and include your opinion.
 
-## Renting LLM in Digital Ocean
+## Renting LLMs on Digital Ocean
 
-I just realized that they're now offering LLM on demand, and not only ChatGPT, but a lot more, everyone with its own price you can connect them to your Droplets, Apps or services and use them, they will take care of the rest. The prices can change, so don't rely on this image, use it only as a reference.
+The other day I was checking my invoices and realized that they're now offering LLM on demand, and not only ChatGPT, but a lot more, each one of them with its own price you can connect them to your Droplets, Apps or services and use them, they will take care of the rest. The prices can change, so don't rely on this image, use it only as a reference.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547643/Digital-Ocean-AI-models-available_t15vfg.jpg" class="md-local-image" alt="Digital Ocean Server Locations" >}}
 
@@ -92,11 +96,13 @@ This is just awesome, no need to install Ollama, forget about renting a GPU or p
 
 ## Other services available on Digital Ocean
 
-Remember there are IAAS and PAAS companies? Well, many IAAS companies, Digital Ocean included, have grown a lot and have started to provide PAAS type services. And, as you might expect.
+Do you remember that IAAS and PAAS companies exist? Well, many IAAS companies, Digital Ocean included, have grown a lot and have started to provide PAAS type services. And, as you might expect.
 
-It has little time offering the integration and deployment of your applications using your Github or Gitlab repositories. You put in the code and they compile and run your project.
+It has little time offering the integration and deployment of your applications using your Github or Gitlab repositories. You put the code on the table and they take care of compiling and running your project.
 
 {{< figure src="images/Digital-Ocean-Apps.png" class="md-local-image" alt="Apps Service" >}}
+
+### S3 equivalent in Digital Ocean
 
 Digital Ocean also offers CDN services, called spaces, compatible with Amazon's S3 starting from $5 usd per month.
 
@@ -104,11 +110,13 @@ Digital Ocean also offers CDN services, called spaces, compatible with Amazon's 
 
 Digital Ocean provides Kubernetes clusters with storage and load balancers with a few clicks.
 
-### Apps
+### What are Apps for?
 
-The apps are similar to a serverless solution, you connect your github, gitlab or bitbucket account with digital Ocean and you can upload Node apps or static files for them to serve, you can even specify them to run the compilation or any command you want. This is, so far, **the cheapest solution offered by Digital Ocean** and it is excellent for handling Frontend applications.
+Apps are probably the most underrated service that DO offers, I have two of them running for free.
 
-Static sites get no extra cost and they run pretty well, this blog is running on one.
+The apps are similar to a serverless solution, you connect your github, gitlab or bitbucket account with digital Ocean and you can upload Node apps or static files for them to serve, you can even specify them to run the compilation or any command you want. This is, so far, **the cheapest solution offered by Digital Ocean** and it is excellent for handling Frontend applications, they take care of CI/CD and it's super cheap.
+
+Static sites get no extra cost and they run pretty well. In fact, this blog is running on one.
 
 ### Volumes
 
@@ -118,17 +126,19 @@ They are extra space that you add to the droplets to increase their capacity, as
 
 Self-managed databases with automatic backups and optional encryption. Handles Postgres, MongoDB, MySQL and Redis.
 
-## Digital Ocean vs AWS vs Azure
+## Digital Ocean vs AWS vs Azure which one is better?
+
+Ah, the eternal question, but there is no correct answer, only trade-offs.
 
 Digital Ocean is a service focused more on small and medium projects, it does not have as many solutions as AWS or Azure. 
 
-According to the content I studied for the [Azure AZ-900 Certification]({{< ref path="/posts/software-architecture/examen-certificacion-azure-az-900-mi-experiencia/index.md" lang="en" >}}), Microsoft's platform has a myriad of services, you name it.
+On the other hand, cccording to the content I studied for the [Azure AZ-900 Certification]({{< ref path="/posts/software-architecture/examen-certificacion-azure-az-900-mi-experiencia/index.md" lang="en" >}}), Microsoft's platform has a myriad of services, you name it.
 
-For example, it does not have solutions in artificial intelligence for IT security analysis, big data analysis or other SaaS options. But, in exchange for these shortcomings that leave it up to developers, it offers much more competitive prices than the big players.
+What other services? well, it does not have solutions in artificial intelligence for IT security analysis, big data analysis or other SaaS options. But, in exchange for these shortcomings that leave it up to developers, it offers much more competitive prices than the big players.
 
 ## My experience using Digital Ocean so far
 
-I have used Digital Ocean to host personal projects and also to manage my domains. I haven't had any problems with down servers so far, or at least not that I've noticed or any user has brought it to my attention. In fact, right now you are reading this ~~from a Droplet using a headless Wordpress and frontend frontity (A React framework) served with Nginx~~ Hugo and hosted at Digital Ocean. This blog uses ~~the cheapest service, the $5 usd~~ the App service, which is completely free for static sites, and the truth is that for the amount of traffic I have it doesn't feel slow and has decent Lighthouse metrics, no caching of any kind or any sophistication.
+I have used Digital Ocean to host personal projects and also to manage my domains. I haven't had any problems with down servers so far, or at least not that I've noticed or any user has brought it to my attention. In fact, right now you are reading this ~~from a Droplet using a headless Wordpress and frontend frontity (A React framework) served with Nginx~~ Hugo and hosted at Digital Ocean. This blog uses ~~the cheapest service, the $5 usd~~ the App service, which is completely free for static sites, and the truth is that for the ~~mediocre~~ amount of traffic I have it doesn't feel slow at all and has decent Lighthouse metrics, no caching of any kind or any sophistication.
 
 {{< figure src="images/Coffeebytes-lighthose-indicadores.png" class="md-local-image" alt="Indicadores de Lighthose para coffeebytes.dev" >}}
 
@@ -140,6 +150,6 @@ My experience has been quite good, I have no no complaints in terms of the perfo
 
 If you don't want to mess with Apache, Nginx or any other server configurations, maybe a Droplet from Digital Ocean is not your best option.
 
-On the other hand, Digital Ocean offers one of the best costs to start a project; $3 usd for the most basic package (Apps) is an **incredibly low price** for static or Frontend based pages only.
+From my perspective, Digital Ocean offers one of the best costs to start a project; $3 usd for the most basic package (Apps) is an **incredibly low price** for static or Frontend based pages only.
 
 {{< box link="https://m.do.co/c/a22240ebb8e7" type="info" message="If you decide to try it, I'll give you $200 USD to try and see for yourself what Digital Ocean has to offer, just click on this banner.">}}
