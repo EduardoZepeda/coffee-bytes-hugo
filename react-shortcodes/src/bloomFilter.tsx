@@ -33,7 +33,7 @@ function BloomFilterSimulator() {
 
 		return bits;
 	};
-	
+
 	// Calculate the OR of all word hashes
 	const combinedBits = (words: string[]) => words.reduce((acc, word) => {
 		const wordBits = hashFunction(word);
@@ -110,18 +110,18 @@ function BloomFilterSimulator() {
 	);
 
 	return (
-		<div className="min-h-screen bg-indigo-100 p-8">
+		<div className="min-h-screen bg-indigo-100 sm:p-8">
 			<div className="max-w-4xl mx-auto">
-				<div className="text-center mb-8">
+				<div className="text-center mb-8 p-4">
 					<h2 className="text-3xl font-bold text-gray-800 mb-4">Bloom Filter Simulator</h2>
 					<p className="text-gray-600">
 						A probabilistic data structure that never returns false negatives, but may return false positives
 					</p>
 				</div>
 
-				<div className="bg-white rounded-lg shadow-lg p-8">
+				<div className="bg-white rounded-lg shadow-lg sm:p-8">
 					{/* Input Section */}
-					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 p-4">
 						<div className="space-y-4">
 							<label className="block text-sm font-medium text-gray-700">
 								Add Word to Bloom Filter:
@@ -129,7 +129,7 @@ function BloomFilterSimulator() {
 							<input
 								type="text"
 								value={currentWord}
-								onChange={(e:React.ChangeEvent<HTMLInputElement>) => handleSetCurrentWord(e.target.value)}
+								onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleSetCurrentWord(e.target.value)}
 								onKeyDown={handleKeyDown}
 								className="w-full text-gray-700 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 								placeholder="Enter words (separated by Enter)"
@@ -157,7 +157,7 @@ function BloomFilterSimulator() {
 							<input
 								type="text"
 								value={word2}
-								onChange={(e:React.ChangeEvent<HTMLInputElement>) => setWord2(e.target.value)}
+								onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWord2(e.target.value)}
 								className="w-full text-gray-700 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
 								placeholder="Enter second word"
 							/>
@@ -182,7 +182,7 @@ function BloomFilterSimulator() {
 							<div className="text-sm font-medium text-gray-700">
 								Bloom filter → Binary representation:
 								<p>{`Words in filter: ${words.join(', ')}`}</p>
-								<p className="text-red-500">{words.length>=3? 'The chances of getting a collision increase with more words in the filter':''}</p>
+								<p className="text-red-500">{words.length >= 3 ? 'The chances of getting a collision increase with more words in the filter' : ''}</p>
 							</div>
 							<div className="flex space-x-1 justify-center">
 								{bits1.map((bit, index) => (
