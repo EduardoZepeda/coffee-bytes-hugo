@@ -1,0 +1,31 @@
+{{ if and (not (.Site.Params.latte.HideAds)) (and .Site.Params.GoogleAdSenseClient hugo.IsProduction) }}
+
+
+<div class="google-ads-container-{{.Site.Params.adSlots.slot2}}">
+  <ins class="adsbygoogle"
+      style="display:block; text-align:center;"
+      data-ad-layout="in-article"
+      data-ad-format="fluid"
+      data-ad-client="{{.Site.Params.GoogleAdSenseClient}}"
+      data-ad-slot="{{.Site.Params.adSlots.slot2}}"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+{{ else }}
+<style>
+  .google-ads-container-{{.Site.Params.adSlots.slot2}}{
+    background-color: yellow;
+    width: 100%;
+    min-height: 90px;
+    
+    @media (max-width: 720px) {
+      min-height: 280px;
+    }
+  }
+</style>
+
+<div class="google-ads-container-{{.Site.Params.adSlots.slot2}}"></div>
+
+{{ end }}
