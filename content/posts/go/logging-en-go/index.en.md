@@ -32,7 +32,7 @@ log.Println("Message")
 // 2022/06/28 13:38:25 Message
 ```
 
-The Println method of log behaves exactly like the [fmt library](/en/go/go-functions-arguments-and-the-fmt-package/) method, so you can pass it multiple parameters and it will print them one by one.
+The Println method of log behaves exactly like the [fmt library]({{< ref path="/posts/go/go-funciones-argumentos-y-el-paquete-fmt/index.md" lang="en" >}}) method, so you can pass it multiple parameters and it will print them one by one.
 
 {{<ad1>}}
 

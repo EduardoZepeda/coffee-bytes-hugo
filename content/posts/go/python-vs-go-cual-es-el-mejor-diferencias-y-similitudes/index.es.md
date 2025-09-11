@@ -174,7 +174,7 @@ func main() {
 }
 ```
 
-Otra cosa importante, algunos desarrolladores dicen que go es orientado a objetos, mientras que otros afirman rotundamente que no. Lo cierto es que go no cuenta con soporte directo para clases, sino que usa **[structs que emulan el polimorfismo y la encapsulación](/es/go/go-structs-herencia-polimorfismo-y-encapsulacion/)** y otras características de la OOP.
+Otra cosa importante, algunos desarrolladores dicen que go es orientado a objetos, mientras que otros afirman rotundamente que no. Lo cierto es que go no cuenta con soporte directo para clases, sino que usa **[structs que emulan el polimorfismo y la encapsulación]({{< ref path="/posts/go/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="es" >}})** y otras características de la OOP.
 
 ```go
 //go

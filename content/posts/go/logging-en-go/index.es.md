@@ -34,7 +34,7 @@ log.Println("Mensaje")
 // 2022/06/28 13:38:25 Mensaje
 ```
 
-El método Println de log se comporta exactamente igual que el de la [librería fmt](/es/go/go-funciones-argumentos-y-el-paquete-fmt/), por lo que puedes pasarle múltiples parámetros y los imprimirá uno a uno.
+El método Println de log se comporta exactamente igual que el de la [librería fmt]({{< ref path="/posts/go/go-funciones-argumentos-y-el-paquete-fmt/index.md" lang="en" >}}), por lo que puedes pasarle múltiples parámetros y los imprimirá uno a uno.
 
 {{<ad1>}}
 

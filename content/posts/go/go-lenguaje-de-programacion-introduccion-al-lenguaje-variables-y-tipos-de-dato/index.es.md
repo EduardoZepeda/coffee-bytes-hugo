@@ -63,7 +63,7 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 
 {{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Manejo de errores con Go con if" caption="Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso" >}}
 
-* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values](/es/go/go-structs-herencia-polimorfismo-y-encapsulacion/).
+* **Go carece de soporte para clases** de manera directa. Pero no todo está perdido, porque sí cuenta con ciertas características que lo dotan de funcionalidades de la POO, tales como polimorfismo y clases, por medio de [interfaces, structs y embedded values]({{< ref path="/posts/go/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="es" >}}).
 * **Go no cuenta con manejo de excepciones con bloques try y catch o equivalentes.** Sino que los errores deben devolverse como valor de retorno en una función y se manejan comprobando que esta no sea nula (nil), por medio de bloques if. Lo anterior puede volverse bastante verboso y repetitivo.
 
 {{< figure src="images/if-err-not-equal-nil.jpg" class="md-local-image" alt="Manejo de errores recurrente y repetitivo en Go" caption="If err!= nil en todos lados, el manejo de errores en Go debería ser mejor" >}}
@@ -128,7 +128,7 @@ import (
 
 ### Contenido
 
-El contenido del archivo, es decir declaraciones de variables, types, [funciones](/es/go/go-funciones-argumentos-y-el-paquete-fmt/), constantes, etc.
+El contenido del archivo, es decir declaraciones de variables, types, [funciones]({{< ref path="/posts/go/go-funciones-argumentos-y-el-paquete-fmt/index.md" lang="en" >}}), constantes, etc.
 
 ```go
 func main() {

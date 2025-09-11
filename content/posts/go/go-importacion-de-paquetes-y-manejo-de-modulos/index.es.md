@@ -45,7 +45,7 @@ type Videogame struct {
 }
 ```
 
-Recuerda que las [reglas de privacidad de los structs en Go](/es/go/go-structs-herencia-polimorfismo-y-encapsulacion/) dicen que para que podamos acceder a un _struct_ o sus propiedades, desde otro paquete a donde fue declarado, debemos usar mayúsculas.
+Recuerda que las [reglas de privacidad de los structs en Go]({{< ref path="/posts/go/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="es" >}}) dicen que para que podamos acceder a un _struct_ o sus propiedades, desde otro paquete a donde fue declarado, debemos usar mayúsculas.
 
 Lo sé, es una de las cosas que aborrezco del lenguaje de Go, no tanto como para abandonarlo, pero bastante engorroso en mi opinión, sobre todo al debuggear, vengan los REGEX.
 

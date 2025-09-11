@@ -140,7 +140,7 @@ Si declaramos una función para personalizar el output en consola llamada _Strin
 
 Piensa en esto como cuando reemplazas el método __str__ en Python.
 
-Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso el método Sprintf del [paquete fmt de go](/es/go/go-funciones-argumentos-y-el-paquete-fmt/) para devolver un string.
+Nota la ausencia del operador de desestructuración en el parentesis en el primer set de paréntesis y como uso el método Sprintf del [paquete fmt de go]({{< ref path="/posts/go/go-funciones-argumentos-y-el-paquete-fmt/index.md" lang="en" >}}) para devolver un string.
 
 ```go
 func (myStructVariable Videogame) String() string { 

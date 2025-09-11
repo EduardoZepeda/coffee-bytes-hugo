@@ -57,7 +57,7 @@ To make this analysis as objective as possible, here are some controversial aspe
 {{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Error handling with Go with if" caption="This pattern is quite recurrent in applications and can become tedious." >}}
 
 
-* **Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values](/en/go/go-structs-inheritance-polymorphism-and-encapsulation/).
+* **Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values]({{< ref path="/posts/go/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="en" >}}).
 * **Go does not have exception handling with try and catch blocks or equivalent**, but errors must be returned as a return value in a function and are handled by checking that it is not null (nil), by means of if blocks. This can become quite verbose and repetitive.
 
 {{< figure src="images/if-err-not-equal-nil.jpg" class="md-local-image" alt="Recurrent error handling pattern in go" caption="If err!= nil again and again and again, error handling in Go could be better" >}}
@@ -125,7 +125,7 @@ import (
 
 ### Content
 
-The contents of the file, i.e. declarations of variables, types, [functions](/en/go/go-functions-arguments-and-the-fmt-package/), constants, etc.
+The contents of the file, i.e. declarations of variables, types, [functions]({{< ref path="/posts/go/go-funciones-argumentos-y-el-paquete-fmt/index.md" lang="en" >}}), constants, etc.
 
 ```go
 func main() {

@@ -89,8 +89,6 @@ print(Seller.objects.all().query)
 SELECT app_seller.id, app_seller.name FROM app_seller
 ```
 
-{{<ad2>}}
-
 Conocer la consulta que realizará Django nos ayuda a entender que está sucediendo tras el ORM. Esto será de utilidad para profundizar en _annotate_.
 
 ## Django Annotate
@@ -102,8 +100,6 @@ Usamos _annotate_ **cuando queremos hacer una anotación en cada objeto que nos 
 Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}).
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png" class="md-local-image" alt="Django Annotate diagrama de funcionamiento donde se realiza un Join y luego una función como SUM" >}}
-
-{{<ad3>}}
 
 Imagínate que queremos mostrar en una plantilla de Django cada vendedor, seguido de la suma del total de todos sus pedidos.
 
@@ -134,6 +130,8 @@ Para mostrarlo en código HTML, usando el sistema de plantillas, llamaríamos al
 ```
 
 Sin usar _annotate_ en Django necesitaríamos un query para la lista de vendedores y uno extra por cada vendedor, cuando son 3 vendedores, como aquí, no hay problema, pero ¿y si fueran 100 o 200 o más? Cada petición va ser muy costosa en tiempo y recursos.
+
+{{<ad2>}}
 
 Si examinas las queries verás una query diferente para cada vendedor.
 
@@ -202,6 +200,8 @@ SELECT app_seller.id, app_seller.name, COUNT(app_order.id) AS orders_count, CAST
 ```
 
 Observa como usamos el doble guión bajo para acceder a la propiedad "total" del objeto Order desde Sellers, como harías en cualquier queryset de Django.
+
+{{<ad3>}}
 
 Ahora cada elemento contiene tanto el conteo de sus pedidos, como el total de estos, todo en **una sola consulta a la base de datos.**
 

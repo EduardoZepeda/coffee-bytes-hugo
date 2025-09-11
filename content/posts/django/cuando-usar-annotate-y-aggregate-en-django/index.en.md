@@ -36,7 +36,6 @@ Annotate and aggregate are primordial for [scaling Django applications to serve 
 | Returns a queryset                                                          | Returns a dictionary                                              |
 | You can concatenate it                                                      | You can't concatenate it                                          |
 
-{{<ad1>}}
 
 ## Preparation to explain django annotate and aggregate differences
 
@@ -56,7 +55,7 @@ class Order(models.Model):
     total = models.DecimalField(max_digits=18, decimal_places=9)
 ```
 
-{{<ad2>}}
+{{<ad0>}}
 
 After applying the migrations, the above code will create two models: Seller and Order. A seller can have many orders. An order corresponds to a single seller and has a total, expressed in decimal numbers.
 
@@ -80,13 +79,13 @@ Next I will create a few data as an example. You can do it in the Django admin o
 | 4   | 400   | 2         |
 | 6   | 600   | 3         |
 
-{{<ad3>}}
-
 Before we talk about annotate and aggregate, let's make sure we know how to get the SQL query that Django will make.
 
 ## How to convert a queryset to SQL in Django?
 
 You probably already know the django ORM and have used it to do database lookups. But there is something that many people ignore: **it is possible to get the query, before Django processes and executes it, by printing the query property of our querysets.**
+
+{{<ad1>}}
 
 That query must have an associated query, in SQL language, which we can access by printing the query property.
 
@@ -102,6 +101,8 @@ Knowing the query that Django will perform helps us understand what is going on 
 ### Why use Django annotate?
 
 We use _annotate_ **when we want to annotate each object returned from a queryset**, as if we want to add an extra property to each object in your queryset, but directly from the database.
+
+{{<ad2>}}
 
 Annotate is very useful for performing [advanced text searches using Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
@@ -136,6 +137,8 @@ To display it in HTML code, using the template system, we would call the method 
 ```
 
 Without using _annotate_ in Django we would need a query for the list of sellers and an extra one for each seller, when there are 3 sellers, as here, no problem, but what if there were 100 or 200 or more? Each request is going to be very expensive in time and resources.
+
+{{<ad3>}}
 
 If you examine the queries you will see a different query for each vendor.
 

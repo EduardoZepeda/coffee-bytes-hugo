@@ -173,7 +173,7 @@ func main() {
 }
 ```
 
-Another important thing, some developers say that go is oriented to object oriented, while others flatly state that it is not. The truth is that go does not direct support for classes, but instead uses **[structs that emulate polymorphism and polymorphism and encapsulation](/en/go/go-structs-inheritance-polymorphism-and-encapsulation/)** and other OOP features. 
+Another important thing, some developers say that go is oriented to object oriented, while others flatly state that it is not. The truth is that go does not direct support for classes, but instead uses **[structs that emulate polymorphism and polymorphism and encapsulation]({{< ref path="/posts/go/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="en" >}})** and other OOP features. 
 
 ```go
 //go

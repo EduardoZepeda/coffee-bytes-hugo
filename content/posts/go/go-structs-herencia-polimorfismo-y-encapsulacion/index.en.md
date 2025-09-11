@@ -75,8 +75,6 @@ fmt.Println(myVideogame)
 // Print {Title 2017}
 ```
 
-{{<ad2>}}
-
 What if we want a struct with many fields of the same type? Well, obviously **this feature will not work if we have multiple fields of the same type in our struct**.
 
 ## Privacy and encapsulation of structs
@@ -95,7 +93,7 @@ type MyData struct {
 
 ```
 
-{{<ad3>}}
+
 
 Having said that, **accessing a private entity from another module, unrelated to where it is declared**, will be impossible. Whereas public entities are accessible from any module, even if the struct is not declared there.
 
@@ -113,6 +111,8 @@ type Videogame struct {
 ## Composition and structs in go
 
 We can group functionalities that involve our structs by declaring functions that access them. 
+
+{{<ad2>}}
 
 Feel free to think of them as methods in a class.
 
@@ -146,9 +146,11 @@ videogame.IncreaseYear()
 
 If we declare a function to customize the console output called _String_, we will replace what the struct returns when we print it.
 
+{{<ad3>}}
+
 Think of it like overriding the __str__ method if you come from Python.
 
-Note the absence of the destructuring operator in the parenthesis in the first set of parentheses and how I use the Sprintf method of the [go fmt-package](/en/go/go-functions-arguments-and-the-fmt-package/) to return a string.
+Note the absence of the destructuring operator in the parenthesis in the first set of parentheses and how I use the Sprintf method of the [go fmt-package]({{< ref path="/posts/go/go-funciones-argumentos-y-el-paquete-fmt/index.md" lang="en" >}}) to return a string.
 
 ```go
 func (myStructVariable Videogame) String() string { 
