@@ -237,67 +237,6 @@ autoHeadingIDType = 'github-ascii'
 author = "authors"
 category = "categories"
 tag = "tags"
-[params.csp]
-child-src = ["'self'"]
-font-src = ["*"]
-form-action = ["'self'", "https://dev.us17.list-manage.com"]
-frame-src = [
-  "'self'",
-  "*.twitter.com",
-  "*.x.com",
-  "*.youtube.com",
-  " *.googletagmanager.com",
-  "*.doubleclick.net",
-  "*.google.com",
-  "https://ep2.adtrafficquality.google",
-  "https://ep2.adtrafficquality.google/*",
-  "https://ep2.adtrafficquality.google/sodar/sodar2/232/runner.html",
-]
-img-src = [
-  "*",
-]
-
-frame-ancestors = ["'self'"]
-object-src = ["'self'"]
-script-src = [
-  "'self'",
-  "'unsafe-inline'",
-  "*.cloudflare.com",
-  "*.doubleclick.net",
-  "https://platform.twitter.com",
-  "https://cdn.syndication.twimg.com",
-  "*.amazon.com",
-  "*.amazon-adsystem.com",
-  "https://www.google-analytics.com",
-  "*.google",
-  "https://www.google.com",
-  "https://pagead2.googlesyndication.com",
-  "https://adservice.google.com",
-  "https://ep2.adtrafficquality.google",
-  "https://www.googletagservices.com",
-  "https://googleads.g.doubleclick.net",
-  "jsfiddle.net",
-  "*.instagram.com",
-  "*.twitter.com",
-  "*.x.com",
-  "*.googletagmanager.com",
-  "https://unpkg.com/@iconify-json/logos@1/icons.json",
-  "data: pagead2.googlesyndication.com storage.googleapis.com googleads.g.doubleclick.net ajax.googleapis.com",
-  "https://unpkg.com/htmx.org@2.0.4",
-  "https://unpkg.com/htmx-ext-head-support@2.0.2",
-  "https://unpkg.com/lunr/lunr.js",
-  "https://us-assets.i.posthog.com",
-  "https://unpkg.com/react@18/umd/react.development.js",
-  "https://unpkg.com/react-dom@18/umd/react-dom.development.js",
-  "https://unpkg.com/@babel/standalone/babel.min.js",
-  "https://d3js.org/d3.v7.min.js",
-  "https://res.cloudinary.com/dwrscezd2/raw/upload/",
-]
-style-src = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css",
-]
 [caches]
 [caches.images]
 dir = ':resourceDir/_gen'
