@@ -71,10 +71,16 @@ weight = 6
 [languages.en.params]
 GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
+GoogleAdSenseClient = "ca-pub-testing"
 audience = "Software engineers"
 author = "Eduardo Zepeda"
 description = "My Full-stack Web development blog on Linux with my opinions, tutorials, ideas and rants."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
+[languages.en.params.adSlots]
+slot0 = "8672022193"
+slot1 = "1124666671"
+slot2 = "5272667386"
+slot3 = "8811585000"
 [languages.en.params.latte]
 HideAds = false
 disablesearch = false
@@ -150,10 +156,16 @@ weight = 6
 [languages.es.params]
 GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
+GoogleAdSenseClient = "ca-pub-testing"
 audience = "Software engineers"
 author = "Eduardo Zepeda"
 description = "Mi Blog de Desarrollo Web Full-stack en Linux con mis opiniones, tutoriales, ideas and críticas."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
+[languages.es.params.adSlots]
+slot0 = "8672022193"
+slot1 = "1124666671"
+slot2 = "5272667386"
+slot3 = "8811585000"
 [languages.es.params.latte]
 HideAds = false
 disablesearch = false
