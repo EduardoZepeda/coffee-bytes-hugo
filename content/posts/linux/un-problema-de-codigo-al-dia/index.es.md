@@ -25,7 +25,7 @@ El otro día, uno de los youtubers que sigo recomendó una página para recibir 
 
 Para recibir un problema de algoritmos basta tu correo electrónico. Los problemas no ponen a prueba tu conocimiento de, sintaxis, ni el número de funciones o librerías de algún lenguaje en específico, sino tu habilidad de resolución de problemas. Los encargados de la página (aunque yo creo que es solo uno) afirman, **aunque no hay manera de corroborarlo**, que los problemas presentados se obtienen de entrevistas laborales en Google, Twitter, Uber, Airbnb, Stripe, entre otros.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Mi experiencia con los desafíos
 
@@ -40,6 +40,8 @@ Pero, hay una mala noticia; las soluciones no te llegan por correo electrónico,
 > Given a list of numbers and a number k, return whether any two numbers from the list add up to k.  
 > For example, given \[10, 15, 3, 7\] and k of 17, return true since 10 + 7 is 17. 
 > Bonus: Can you do this in one pass?
+
+{{<ad2>}}
 
 Aquí dejo el segundo:
 

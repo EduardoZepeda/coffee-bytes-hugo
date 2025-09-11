@@ -32,6 +32,8 @@ type Videogame struct {
 }
 ```
 
+{{<ad0>}}
+
 ### Creating instances of a struct in go
 
 Once the structure of our struct is defined, we can create instances of it.
@@ -56,7 +58,7 @@ fmt.Println(myVideogame)
 // {Nier 0}
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Anonymous fields in Go structs
 
@@ -72,6 +74,8 @@ myVideogame := Videogame{string: "Title", int: 2017}
 fmt.Println(myVideogame)
 // Print {Title 2017}
 ```
+
+{{<ad2>}}
 
 What if we want a struct with many fields of the same type? Well, obviously **this feature will not work if we have multiple fields of the same type in our struct**.
 
@@ -90,6 +94,8 @@ type MyData struct {
 }
 
 ```
+
+{{<ad3>}}
 
 Having said that, **accessing a private entity from another module, unrelated to where it is declared**, will be impossible. Whereas public entities are accessible from any module, even if the struct is not declared there.
 

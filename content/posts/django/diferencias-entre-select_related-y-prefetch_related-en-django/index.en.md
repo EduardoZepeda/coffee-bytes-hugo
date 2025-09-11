@@ -36,7 +36,7 @@ Just consider that there are more [important things to optimize other than your 
 | Number of queries | 1                         | 2                |
 | Union of objects  | Directly by SQL           | Using Python     |
 
-{{<ad>}}
+{{<ad1>}}
 
 ## django select_related
 
@@ -49,6 +49,8 @@ When using *select_related* we will have a longer query, however, the advantage 
 Simplified diagram of how select_related works
 
 Consider this example:
+
+{{<ad2>}}
 
 ```python
 from django.db import models
@@ -73,6 +75,8 @@ If we try to access the object pointed to by the Foreign Key relationship, a new
 ```
 
 For example, if we have three Derived objects related to a single main object:
+
+{{<ad3>}}
 
 * A main query that retrieves all objects Derivative
 * Three queries, exactly the same, one for each time we access the main object from the Derived object.

@@ -74,6 +74,8 @@ Esta configuración ejecutaría el archivo _script.py_ cada minuto, de cada hora
 
 Por otro lado, la configuración anterior ejecutaría _script.py_ cada día a las 6:00 a.m.
 
+{{<ad0>}}
+
 ```bash
 # m h  dom mon dow   command
 0 6 * * 1 script.py
@@ -97,7 +99,7 @@ Y por último esta configuración ejecutaría el comando el día 30 de diciembre
 
 ¿Confundido? Es normal, yo creo que toma un poco de tiempo. De cualquier manera al final de esta entrada te comparto una herramienta genial para facilitarte el crear y entender estas configuraciones.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Algunos ejemplos más complejos
 
@@ -109,6 +111,8 @@ Quizás queremos algo más complejo que los ejemplos anteriores, ¿qué tal si t
 ```
 
 Y si queremos que un script que se ejecute cada hora, pero solo durante la madrugada de los sábados y domingos, desde las 12:00 a.m. hasta las 6:00 a.m. **Crontab permite especificar rangos de valores usando guiones**
+
+{{<ad2>}}
 
 ```bash
 # m h  dom mon dow   command
@@ -127,6 +131,8 @@ Y si queremos que un script que se ejecute cada hora, pero solo durante la madru
 El entorno de ejecución de crontab es un entorno mínimo, donde la mayoría de los programas, configuraciones y otras personalizaciones que tenemos configuradas estarán ausentes, por lo que es importante que no des por hecho que ciertos comandos estarán ahí. 
 
 Por ejemplo el simple hecho de cambiar la terminal de */bin/sh* a */bin/bash* ya nos priva de usar herramientas como *source*. Probablemente si estás usando entornos virtuales en Python u otro tipo de personalización tendrás que especificarlo directamente.
+
+{{<ad3>}}
 
 ## Crontab y las variables de entorno
 

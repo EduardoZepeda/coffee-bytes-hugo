@@ -67,6 +67,8 @@ const user = {
 }
 ```
 
+{{<ad0>}}
+
 El primer nivel es _data_, por lo que colocaremos dos puntos ":" ahí y seguiremos descendiendo hasta el nivel deseado . Dejemos pendiente el resto asignándole un "_{...}"_. **Si estás siguiendo este ejemplo no le des ENTER hasta el final.**
 
 ```javascript
@@ -89,7 +91,7 @@ state
 
 Ahora sí ya puedes darle ENTER, cuando accedas a la constante _state_, verás que hace referencia a la propiedad _state_, anidada del objeto.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo desestructurar múltiples propiedades?
 
@@ -106,5 +108,7 @@ email
 state
 "Lima"
 ```
+
+{{<ad2>}}
 
 En la siguiente entrada hablaré sobre como [asignar valores por defecto al desestructurar objetos](/es/javascript/desestructuracion-con-valores-por-defecto-en-javascript/).

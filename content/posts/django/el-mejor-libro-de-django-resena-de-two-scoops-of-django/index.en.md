@@ -28,7 +28,7 @@ Two Scoops of Django does not attempt to teach you the general workings of Djang
 
 However, this is not a book for those who are looking for a first contact with Django. The book assumes that this is not your first time using Django or Python and that you understand the whole process that happens from the time you start writing Django code until you get it to a server. The authors will show you the best practices that they have acquired over the years, and show you the anti-patterns that, they believe, you should avoid.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Contents of Two Scoops of Django
 
@@ -47,6 +47,8 @@ To end the book, the authors will share with you the libraries they use in each 
 ## The central focus of the book is best practices.
 
 As I mentioned, the book focuses on Django best practices. To give you a little taste of what you will find in the book, here are some examples based on the recommendations you can find inside the book.
+
+{{<ad2>}}
 
 ```python
 # DON'T DO THIS
@@ -75,6 +77,8 @@ def videogame_display(request, videogame_id):
     date = timezone.now()
     return render(request, 'videogame_display.html', locals())
 ```
+
+{{<ad3>}}
 
 The above examples represent pieces of **fully functional** code, but which, due to their structure, may cause bugs, poor performance, more serious problems in the future or simply represent friction in the code development process.
 

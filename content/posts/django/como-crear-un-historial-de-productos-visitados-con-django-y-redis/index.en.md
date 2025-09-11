@@ -19,6 +19,8 @@ url: :sections[last]/how-to-create-a-history-of-visited-products-with-django-and
 
 You are browsing an ecommerce site, a product catches your attention and you click to see it, but you are not convinced. You decide to see other options, click on a new product and, when you scroll to the bottom of the page, the page shows you the first product you saw under the caption "Recently viewed". You can do the same with django and redis.
 
+{{<ad0>}}
+
 ## django and redis
 
 Adding a section of visited products increases sales in an ecommerce and keeps the user longer on the page. It is normal to add this history to a user who is already in the database. The website managers have a history of the products we view, the ones we buy, how much time we spend viewing them and many other data but... what about the anonymous users who do not have a history? What about anonymous users who do not have an account?
@@ -33,7 +35,7 @@ Redis is a efficacious database engine, it works with volatile data, because it 
 
 There are many ways to address that problem, you can associate a user (and their history) with a cookie, ip or even an affiliate link, etc. The type of data you want to link depends on your business intentions. For this example we will use a session key from the session system that is already included in django by default.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Install redis on GNU/Linux
 
@@ -45,6 +47,8 @@ redis-server
 ```
 
 ## Install redis for Python
+
+{{<ad2>}}
 
 Next we are going to install the package that links redis with Python.
 
@@ -73,6 +77,8 @@ MIDDLEWARES = [
 # ...
 SESSION_SAVE_EVERY_REQUEST = True
 ```
+
+{{<ad3>}}
 
 For this example I use a model called _Product,_ but you can substitute it for the equivalent in your application.
 

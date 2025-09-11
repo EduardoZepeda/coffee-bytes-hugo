@@ -26,6 +26,8 @@ Acabo de probar Google Notebooklm, y esta sensación de novedad y emoción se ap
 
 ## Notebooklm te deja crear un podcast a partir de tus notas
 
+{{<ad0>}}
+
 Seguramente ya has escuchado hablar de esta herramienta, y si no, pues te explico a continuación. 
 
 Google Notebooklm es una herramienta de AI que se vuelve un experto en tus notas y te ayuda, pero esto no es lo que me ha dejado boquiabierto, sino su herramienta que transforma tus notas en una conversación entre dos personas, ~~por ahora solo disponible en idioma inglés~~ disponible ya en varios lenguajes, y te muestro ahora mismo el resultado.
@@ -40,7 +42,7 @@ Puedes crear el tuyo en [Google Nootebooklm](https://notebooklm.google/#?)
 
 Google ha hecho un trabajo excelente, por favor aprecia el tono, el audio limpio, incluso le ha añadido muletillas y una que otra pausa dudando para otorgarle un ligero toque de naturalidad y realismo. Nada mal para una [caja negra hecha de código que aún no es consciente]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}}) ¿no crees?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Notebooklm y los demás modelos reemplazarán a los podcasts?
 
@@ -49,6 +51,8 @@ La pregunta inevitable (y sus variantes) siempre que hay un avance significativo
 No creo que sea tan simple, lo interesante de este asunto es tratar de encajarlo en este colosal rompecabezas de modelos de AI que se alza frente a nosotros ahora mismo.
 
 Imagínate, eleven labs puede convertir texto a diferentes voces, Notebooklm es capaz de transformar notas en un podcasts, Lumalabs o Pika pueden transformar imágenes en video. ¿Ya lo visualizas? Un podcast completo, con voces y rostros personalizables, en video, difícilmente distinguible de un podcast "real".
+
+{{<ad2>}}
 
 ## Nos espera un futuro de podcast AI comoditizados
 
@@ -61,6 +65,8 @@ Poder entrenar un modelo con material de podcasts pasados o con escritos, para e
 O puedes llevarlo más allá y crear escenarios bastante interesantes como este donde los [locutores del podcast AI descubren su propia naturaleza no humana](https://www.reddit.com/r/artificial/comments/1frk1gi/notebooklm_podcast_hosts_discover_theyre_ai_not/#?).
 
 ### Posible reacción no tan positiva del mercado a los podcasts de AI 
+
+{{<ad3>}}
 
 Ahora, esto también puede cambiar el mercado de los podcasts para siempre, la gente adora conectar con otros seres humanos, y no todos se sentirán cómodos sabiendo que pasarán 2 horas escuchando un podcast que probablemente regurgitó una AI, quizá algunos dediquen un par de minutos más a buscar una versión humana.
 

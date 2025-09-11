@@ -23,6 +23,8 @@ Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
+{{<ad0>}}
+
 ## Un poquito sobre convenciones
 
 Como seguramente ya sabes, las computadoras solo almacenan números. Las letras que ves en pantalla son una representación de esos números.
@@ -37,7 +39,7 @@ Tabla ASCII con colores modificados tomada de [wikimedia](https://commons.wikime
 
 Sabiendo lo anterior, vayamos al tipo de dato byte.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Bytes en go
 
@@ -51,6 +53,8 @@ var ch3 byte = 0X41       // hexadecimal
 ```
 
 Así como podemos guardar un número, también podemos guardar la representación numérica de un carácter, envolviéndolo en comillas sencillas.
+
+{{<ad2>}}
 
 Es como decirle a go: "Guarda el valor número al que corresponde este caracter". Al imprimirlo nos devolverá el número, en notación decimal.
 
@@ -71,6 +75,8 @@ fmt.Println(string(ch))
 
 
 ### Array de bytes
+
+{{<ad3>}}
 
 Así como tenemos el tipo de dato byte, también podemos crear un array de bytes y de múltiples maneras. Observa como el array queda guardado con el número que corresponde a cada carácter.
 

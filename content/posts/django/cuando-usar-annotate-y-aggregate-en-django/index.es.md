@@ -49,6 +49,8 @@ class Order(models.Model):
     total = models.DecimalField(max_digits=18, decimal_places=9)
 ```
 
+{{<ad0>}}
+
 Tras aplicar las migraciones, el código anterior creará dos modelos: vendedor (Seller) y pedido (Order). Un vendedor puede tener muchos pedidos. Un pedido corresponde a un único vendedor y tiene un total, expresado en números decimales.
 
 A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes hacerlo en el admin de Django o directo en la base de datos.
@@ -74,7 +76,7 @@ A continuación voy a crear unos cuantos datos a manera de ejemplo. Tú puedes h
 
 Antes de hablar sobre annotate y aggregate hay que asegurarnos de saber como obtener la consulta SQL que hará Django.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo convertir un queryset a SQL en Django?
 
@@ -87,6 +89,8 @@ print(Seller.objects.all().query)
 SELECT app_seller.id, app_seller.name FROM app_seller
 ```
 
+{{<ad2>}}
+
 Conocer la consulta que realizará Django nos ayuda a entender que está sucediendo tras el ORM. Esto será de utilidad para profundizar en _annotate_.
 
 ## Django Annotate
@@ -98,6 +102,8 @@ Usamos _annotate_ **cuando queremos hacer una anotación en cada objeto que nos 
 Annotate es muy útil para realizar [búsquedas avanzadas de texto usando Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}).
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png" class="md-local-image" alt="Django Annotate diagrama de funcionamiento donde se realiza un Join y luego una función como SUM" >}}
+
+{{<ad3>}}
 
 Imagínate que queremos mostrar en una plantilla de Django cada vendedor, seguido de la suma del total de todos sus pedidos.
 

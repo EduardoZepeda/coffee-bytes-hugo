@@ -31,6 +31,8 @@ Para construir nuestros diminutos automóviles de LEGO, existen dos maneras:
 
 1. Herencia: Puedes empezar con un diseño de automóvil básico, y luego hacerle cambios para crear diferentes tipos de automóviles. Pero, a veces, esto puede ser un completo desastre, puesto que puedes terminar con algunos automóviles extraños que no funcionarán correctamente.
 
+{{<ad0>}}
+
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg" class="md-local-image" alt="Imagen de un automóvil hecho de LEGO" caption="Empiezas con un coche y vas cambiando piezas. Todos los derechos de esta imagen pertenecen a LEGO" >}}
 
 2. Composición: En lugar de empezar con un automóvil básico y cambiarlo, puedes utilizar piezas LEGO más pequeñas para construir las diferentes partes de un automóvil, como ruedas, puertas y ventanas. Luego, junta esas piezas para crear distintos tipos de automóviles. De esta forma, tienes más control y flexibilidad para crear exactamente el tipo de coche que quieres sin hacer un desastre.
@@ -45,7 +47,7 @@ Por lo tanto, **la composición sobre la herencia significa que a menudo es mejo
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png" class="md-local-image" alt="Composition vs inheritance diagram" caption="Composition vs inheritance diagram" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ### Composición sobre herencia, ejemplo
 

@@ -33,6 +33,8 @@ To build our tiny LEGO cars, there are two ways:
 
 1. Inheritance: you can start with a basic car design, and then make changes to it to create different types of cars. But sometimes this turn into a complete disaster, since you can end up with some strange cars that won't work properly.
 
+{{<ad0>}}
+
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg" class="md-local-image" alt="Image of a LEGO Car in one piece" caption="You start with a car and start changing parts. All rights for this image belong to LEGO" >}}
 
 2. Composition: Instead of starting with a basic car and changing it, you can use smaller LEGO pieces to build the different parts of a car, such as wheels, doors, and windows. Then put those pieces together to create different types of cars. This way, you have more control and flexibility to create exactly the type of car you want without making a mess.
@@ -47,7 +49,7 @@ So, in a nutshell, **composition over inheritance means that it's often better t
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png" class="md-local-image" alt="Composition vs inheritance diagram" caption="Composition vs inheritance diagram" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ### Composition over inheritance, code example
 

@@ -17,6 +17,8 @@ slug: /go/logging-con-la-libreria-estandar-en-go/
 title: Logging con la librería estándar en Go
 ---
 
+{{<ad0>}}
+
 Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](/es/go/go-testing-basico-y-coverage/) más sencillo.
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
@@ -34,7 +36,7 @@ log.Println("Mensaje")
 
 El método Println de log se comporta exactamente igual que el de la [librería fmt](/es/go/go-funciones-argumentos-y-el-paquete-fmt/), por lo que puedes pasarle múltiples parámetros y los imprimirá uno a uno.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Flags en el loggeo
 
@@ -47,6 +49,8 @@ log.Println("Mensaje")
 ```
 
 Existen más flags disponibles, además de los dos anteriores.
+
+{{<ad2>}}
 
 
 ### Flags disponibles
@@ -79,6 +83,8 @@ const (
 Además de mostrar información, es posible usar métodos, como Panic y Fatal, para manejar los errores de nuestro código.
 
 ### Logging Panic
+
+{{<ad3>}}
 
 El método log cuenta con un método Panic que se encarga de imprimir un mensaje y llamar a la función panic.
 

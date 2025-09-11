@@ -24,6 +24,8 @@ I just tried Google Notebooklm, and this feeling of novelty and excitement took 
 
 ## Google Notebooklm lets you create a podcast from your notes
 
+{{<ad0>}}
+
 You've probably already heard of this tool, and if you haven't, I'll explain below. 
 
 Google Notebooklm is an AI tool that becomes an expert in your notes and helps you. But the latter is not what has left me speechless. It is its tool that transforms your notes into a conversation between two people. ~~Right now is only available in English language~~ More languages are available now. But let me show you the results right now.
@@ -38,7 +40,7 @@ You can create yours at [Google Nootebooklm's site](https://notebooklm.google/#?
 
 Google has done an excellent job with this tool. Please appreciate the tone, the clean audio. There are even a few crutches and occasional hesitant pauses to give it a slight touch of naturalness and realism. Not bad for a [black box made of code that is not yet conscious]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}) don't you think?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Will Google Notebooklm and the other models replace podcasts?
 
@@ -47,6 +49,8 @@ This is the inevitable question (and its variants) whenever there is a significa
 I don't think it's that simple, the interesting thing about this is trying to fit it into this colossal puzzle of AI models rising up in front of us right now.
 
 Just bear with me for a second. Eleven labs can convert text to different voices. While Notebooklm is able to transform notes into a podcast. Lumalabs or Pika can transform images into video. 
+
+{{<ad2>}}
 
 Can you visualize it yet? A complete podcast, with customizable voices and faces, in video, hardly distinguishable from a "real" podcast.
 
@@ -59,6 +63,8 @@ In a world where you can create monetizable podcasts in a matter of minutes, thi
 Being able to train a model with material from past podcasts or writings to faithfully emulate the style will save content creators hours of work - imagine, you generate the entire podcast with AI and then just edit it to replace those parts that seem bland and voila!, you have a podcast that feels human in seconds. 
 
 Or, if that doesn't suits you, you can take it further and create quite interesting scenarios like this one where the [AI podcast speakers discover their own non-human nature](https://www.reddit.com/r/artificial/comments/1frk1gi/notebooklm_podcast_hosts_discover_theyre_ai_not/#?).
+
+{{<ad3>}}
 
 ### Possible not so positive market reaction to AI podcasts. 
 

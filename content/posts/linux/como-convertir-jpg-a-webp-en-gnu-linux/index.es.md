@@ -29,7 +29,7 @@ El formato JPG ha estado algo de tiempo pero han surgido nuevos formatos que pro
 
 Menor peso en nuestras imágenes significa mejor rendimiento. Un sitio web que cargue más rápido tendrá mejores indicadores en [Lighthouse](https://web.dev/) y un menor consumo de datos para el usuario.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Descargando webp
 
@@ -49,6 +49,8 @@ El tamaño mi imagen es de 476 Kb.
 $ du -h pexels-artem-beliaikin-1120963.jpg
 476K pexels-artem-beliaikin-1120963.jpg
 ```
+
+{{<ad2>}}
 
 ## Convertir de jpg a webp
 
@@ -76,6 +78,8 @@ bytes used:  header:            276  (0.1%)
 Listo, ahora debemos tener un archivo con extensión _webp_ en nuestra misma carpeta.
 
 ## Convertir webp a jpg
+
+{{<ad3>}}
 
 Si queremos hacer lo contrario, es decir, convertir de webp al clásico necesitaremos hacerlo en dos pasos:
 

@@ -95,6 +95,8 @@ export default App;
 
 ### Subcomponent pattern in React gets more complicated using React.FC
 
+{{<ad0>}}
+
 The [component pattern as namespace](https://medium.com/@kunukn_95852/react-components-with-namespace-f3d169feaf91) is fairly simple to create without using *React.FC*, but with *React.FC* it can get quite complicated.
 
 Don't know what it is? Think of a pattern that allows you to group components within a certain parent, which functions as a namespace for our child components; similar to how the C++ namespace _std_ would work.
@@ -119,7 +121,7 @@ const Namespace: React.FC<NamespaceProps> & { Component: React.FC<ComponentProps
 Namespace.Component = (props) => { /*...*/ }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What can we use instead of React.FC?
 
@@ -128,6 +130,8 @@ The core of the criticism is that **React.FC adds the children implicitly, going
 Just like using [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) for its compiler.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious" caption="Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious" >}}
+
+{{<ad2>}}
 
 However, the discussion I am talking about is just that, a discussion, it is not written in stone, you may consider that it is better to sacrifice a bit of readability in favor of convenience or, on the contrary, you may believe that it is important to be explicit when working with typescript.
 
@@ -148,6 +152,8 @@ export default Component
 ```
 
 Typescript should not warn you about any errors with this approach to the problem.
+
+{{<ad3>}}
 
 ## Other resources on React FC usage
 

@@ -18,6 +18,8 @@ title: How do permissions and its groups work in Django?
 
 When I first learned that Django had a permissions system, many years ago, it seemed rather esoteric, not very useful and easy to replicate, how wrong I was back then. Then I realized that the built-in permissions system was a marvel and saved a lot of code, and was quite robust and tested by some of the largest companies in the world.
 
+{{<ad0>}}
+
 If you have not yet decided to use Django and are investigating its features check out my post on the [advantages and disadvantages of the Django web development framework]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}).
 
 On the other hand, if you already have some practice with Django, you may want to deepen what you know with this free book, called [la guía definitiva de Django]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="en" >}}).
@@ -42,7 +44,7 @@ app.view_model
 # vapor.view_videogame
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Add or remove permissions to a user
 
@@ -53,6 +55,8 @@ To add permissions one by one we pass them to the _add()_ method.
 ```python
 user.permissions.add(permission1, permission2, ...)
 ```
+
+{{<ad2>}}
 
 To remove permissions we pass the permission we want to remove to the _remove()_ method.
 
@@ -71,6 +75,8 @@ To remove all permissions for a user we use the _clear()_ method.
 ```python
 user.permissions.clear()
 ```
+
+{{<ad3>}}
 
 ## Checking permissions for a user
 

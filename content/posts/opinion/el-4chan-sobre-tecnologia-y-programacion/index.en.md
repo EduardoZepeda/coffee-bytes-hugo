@@ -27,6 +27,8 @@ In this place there are several interesting boards, I will only list a few, as t
 
 ### /λ/
 
+{{<ad0>}}
+
 This board is fully specialized in programming, there are threads for Python, Javascript, as well as Lua, Rust, Scala and other less popular languages. Tutorials and material to learn about the subject are frequently shared. Occasionally there are people asking for advice on some quite particular topics.
 
 ### /sec/
@@ -41,7 +43,7 @@ Here we discuss technology in general, from different OS (BSD, GNU/Linux, Window
 
 This board is quite peculiar, as it does not allow the use of text, only images, all communication is carried out using steganographic techniques, that is, text hidden in images. Navigating through this board will make you feel as if you were in a Dan Brown novel.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Little Lain-chan
 

@@ -26,7 +26,7 @@ If you don't know the advantages and disadvantages that Django offers, visit my 
 
 The first project proposed by Django by Example is the classic example of a simple blog, with authors and posts. The author designs a blog and they teach you the basics of Django, models, views, urls and templates, you know, the basics. As an aspect to highlight is pagination of the models and how to integrate it into the template system using Jquery. In a few words we are in front of the basic Django tutorial of the documentation but with books instead of surveys.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Social network
 
@@ -40,6 +40,8 @@ The third project consists of an online store that implements a payment system u
 
 For the last project, an e-learning platform will be created using a CMS. This chapter touches on slightly more advanced Django topics such as the use of abstract models, proxies and multi-table inheritance and custom fields for models. The author will explain in the later chapters generic views and packages such as [django-braces](https://django-braces.readthedocs.io/en/latest/index.html), which further reduce the amount of code to write. It's great that the author also implements a cache system using [memcached](https://memcached.org/). And to finalize the project, [Django Rest Framework](https://www.django-rest-framework.org/) will be used to make the contents of the website available to the public.
 
+{{<ad2>}}
+
 After this last project Django by example ends. But, as a bonus it offers an extra chapter, where you will see the use of middleware and the deployment of the application using nginx and uwsgi.
 
 ## My opinion
@@ -51,6 +53,8 @@ Here comes the bad part: the book uses Jquery for all its examples that require 
 Leaving aside the shortcomings of the javascript content, Django by example completely covers everything Django has to offer, from the most basic to the most complex.
 
 **Edit:** I am seeing that there is a new version of the book and it includes [Django Channels](https://channels.readthedocs.io/en/latest/) for handling websockets, however it still implements Jquery for its examples.
+
+{{<ad3>}}
 
 **Recommended prerequisite knowledge:** HTML, Python and basic Javascript
 **Recommended to read:** 7/10

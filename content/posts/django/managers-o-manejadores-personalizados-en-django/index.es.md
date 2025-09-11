@@ -35,7 +35,7 @@ Si has usado el ORM de Django, seguramente ya habrás usado el manager por defec
 Videogame.objects.all()
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Modificando el manager por defecto
 
@@ -52,6 +52,8 @@ from django.db import models
 ```
 
 ¿Y esto para que? Pues que ahora podemos llamar al _object manager_ de una manera diferente, lo cual puede mejorar la legibilidad de nuestro código, pero no es la razón más importante.
+
+{{<ad2>}}
 
 ```python
 Videogame.stem.all()# En lugar de Videogame.objects.all()
@@ -76,6 +78,8 @@ from django.db import models
     …
       objects = VideogameManager() #Renombra al manager por defecto aquí se usa objects para ser consistente
 ```
+
+{{<ad3>}}
 
 Ahora nuestro manager predeterminado, _objects_, cuenta con un método llamado _contar\_titulos_ que podemos usar como si formara parte del ORM original de Django.
 

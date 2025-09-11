@@ -36,6 +36,8 @@ Even [Sam Altman sees an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-a
 
 > “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
 
+{{<ad0>}}
+
 And I totally agree with him.
 
 ## Is the AI bubble finally bursting out?
@@ -50,7 +52,7 @@ Devin AI fell into oblivion. At the same time, we are seeing the law of diminish
 
 Other companies have already abandonned the idea of replace developers and focused on becoming tools in code creation, like [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}) 
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Humanity's last exam shows that AI is overhyped
 
@@ -59,6 +61,8 @@ Let's consider Humanity's last exam scores, as you can see, we're around ~30% wh
 ![Humanity's last exam score](https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg)
 
 Don't misunderstand me, these values are *amazing* but they're far from what's being promised by media and investors.
+
+{{<ad2>}}
 
 ## Investors' greed and consumers' ignorance are guilty of The AI overhype
 
@@ -71,6 +75,8 @@ Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of h
 ## AI fever and capital investment
 
 As I said, investors don't want to be left out of this party and are so eager to hit the jackpot and become the new Zuckerberg of artificial intelligence that they open their wallets without thinking every time they hear the word "AI" in the same sentence as "disruptive."
+
+{{<ad3>}}
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI" >}}
 

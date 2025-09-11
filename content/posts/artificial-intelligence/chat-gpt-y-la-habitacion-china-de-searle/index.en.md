@@ -38,6 +38,8 @@ graph TD;
     Room-->西遊記;
 ```
 
+{{<ad0>}}
+
 Can you notice the similarities with a computer? They are quite obvious; there is an input, an output and a black box or computer program, the details of which would escape those outside this simplified little system.
 
 ``` mermaid
@@ -56,7 +58,7 @@ To Searle, ChatGPT (or any other Large Language Model LLM, Like Mistral, DeepSee
 
 But then what makes the difference between a real intelligence and a mechanical process? is there such a difference?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Are consciousness and artificial intelligence related?
 
@@ -65,6 +67,8 @@ The highest representative of intelligence on earth is the human being (or at le
 ### Signs of Intelligence with consciousness
 
 Some argue that consciousness and intelligence are related and that we would even have [a gradient of consciousness as we advance in the complexity and intelligence of organisms](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). 
+
+{{<ad2>}}
 
 Penrose states that not only consciousness and intelligence are related but that [intelligence is an exclusive trait of conscious beings.](https://www.youtube.com/watch?v=e9484gNpFF8).
 
@@ -77,6 +81,8 @@ While others go further by saying that a system becomes more conscious the more 
 We also face the problem that consciousness can only be experienced by the conscious entity, there is no experiment that allows us to say for certain whether an entity is conscious or not. Without falling into an absolutist solipsism, **we consider that the rest of human beings are conscious only because we know that we are conscious**, not because we have irrefutable proof of it.
 
 As Ludwig Wittgenstein stated in his book Philosophical Investigations:
+
+{{<ad3>}}
 
 > Imagine that at birth you are given a box with a beetle in it. It is a very valuable and extremely personal object, so much so that no one can see inside the box except oneself. Thus, there is no objective way to confirm that all boxes contain the same thing. In the best of cases they could contain a real beetle, but nothing guarantees one hundred percent that instead of the beetle there are not other insects, such as an ant or a spider, or that there is nothing at all, but whatever it is, it will always be considered under the term “beetle”.
 

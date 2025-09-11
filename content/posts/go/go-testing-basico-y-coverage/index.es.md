@@ -43,6 +43,8 @@ Considera que, si vas a [asignarle un nombre a tu paquete](/es/go/go-importacion
 
 Para crear los tests, dentro del archivo _testing/main\_test.go_, necesitamos una función que reciba de argumento nuestro paquete de testing con el carácter de desestructuración.
 
+{{<ad0>}}
+
 Compararemos el resultado usando un if, o lo que querramos y, **si el test falla, llamaremos al método _Errorf_** del modulo de _testing_.
 
 ```go
@@ -68,7 +70,7 @@ func Division(a int, b int) int {
 }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Ejecutar los tests
 
@@ -81,6 +83,8 @@ go test
 PASS
 ok      main/testing    0.001s
 ```
+
+{{<ad2>}}
 
 Por otro lado, si los tests fallan se imprimirá la palabra FAIL en pantalla:
 
@@ -99,6 +103,8 @@ En el ejemplo anterior usamos una función para probar un caso, sin embargo, si 
 Para evitar llenarse de funciones, los desarrolladores usan un array compuesto de structs, donde cada struct representa un caso a probar. Puedes pensar en el array de structs como una tabla, donde cada fila es un caso y cada columna un tipo de dato a probar.
 
 En este caso, cada struct de nuestro array consiste en tres enteros; los primeros dos representan los argumentos, mientras que el último es el resultado.
+
+{{<ad3>}}
 
 ```go
 	tables := []struct {

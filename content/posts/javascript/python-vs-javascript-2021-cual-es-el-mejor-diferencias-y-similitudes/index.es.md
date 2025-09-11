@@ -64,6 +64,8 @@ Por cierto, aquí están [mis recursos y libros favoritos para aprender Python](
 
 Si quieres ahondar en lo que menciono arriba, sigue leyendo.
 
+{{<ad0>}}
+
 ## Javascript vs Python, usos de ambos lenguajes
 
 ### Usos de Javascript en el navegador
@@ -78,7 +80,7 @@ Python es un lenguaje multipropósito, te permite crear aplicaciones nativas con
 
 Aunque su fuerte en este momento es machine learning, creación de scripting y podriamos decir que un poco de desarrollo web, estando muy por debajo de Javascript en este campo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Popularidad entre ambos lenguajes
 
@@ -87,6 +89,8 @@ Javascript empezó siendo mucho más popular que Python, probablemente debido al
 {{< figure src="images/Python-vs-Javascript-desde-2004.png" class="md-local-image" alt="Gráfico de google trends comparando Javascript vs Python" caption="Python gana relevancia frente Javascript en Google trends" >}}
 
 ### Python se mantiene más popular que Javascript
+
+{{<ad2>}}
 
 Stackoverflow muestra en sus encuestas que, entre los desarrolladores, Python es mucho más popular que Javascript. Sin embargo, Typescript (el super set de Javascript con tipado fuerte que mencioné anteriormente) es ligeramente más popular que Python.
 
@@ -99,6 +103,8 @@ Según la última encuesta de Stackoverflow (2023), los profesionales que usan P
 {{< figure src="images/salarios-python-vs-javascript.png" class="md-local-image" alt="Salarios de los desarrolladores de acuerdo al lenguaje de programación usado." caption="Python supera a Javascript en salarios en 2023" >}}
 
 ## Antigüedad, Python es más maduro
+
+{{<ad3>}}
 
 Python apareció a finales de los 80, mientras que Javascript apareció a principios de los 90, por lo que **Python es más maduro** que Javascript. 
 

@@ -36,6 +36,8 @@ def slowResponseView(request):
 
 Notice how after accessing the url, **the answer does not appear until after 3 seconds**. During that time our application is busy. That _time.sleep()_ that causes the delay could represent an email sending, the waiting time to an external API, a very computationally expensive calculation or any other task that requires a long time to be performed.
 
+{{<ad0>}}
+
 {{< figure src="images/slowResponseView-1.gif" class="md-local-image" alt="Time-consuming task delays server response" >}}
 
 The response to the url takes 3 seconds
@@ -52,7 +54,7 @@ Let's install celery for this example, version 5.1.2
 pip install "celery==5.1.2"
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Installing RabbitMQ
 
@@ -63,6 +65,8 @@ sudo apt install rabbitmq-server
 ```
 
 {{< figure src="images/RabbitMQEsquema.jpg" class="md-local-image" alt="Basic schematic of RabbitMQ and Celery operation" >}}
+
+{{<ad2>}}
 
 Basic outline of RabbitMQ operation and cellery
 
@@ -81,6 +85,8 @@ When finished, RabbitMQ will be running in the background and celery will automa
 ## Celery configuration
 
 We are going to create a file called _celery.py_ at the same level as our configuration file.
+
+{{<ad3>}}
 
 And we will place the following code:
 

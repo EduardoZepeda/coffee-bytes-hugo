@@ -32,7 +32,7 @@ HAYSTACK_DEFAULT_OPERATOR = 'AND'
 HAYSTACK_DEFAULT_OPERATOR = 'OR'
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Search by specific field with Solr
 
@@ -48,6 +48,8 @@ This will allow us to search in the title field for our search term.
 ## Importance of the fields in Solr search
 
 Remember that Solr sorts results by relevance? Sometimes we want to increase the relevance in certain cases, for example: maybe you want the last term searched by your user to influence the search. For this we add the boost method and the relative importance value we want to give it.
+
+{{<ad2>}}
 
 ### Increment per search term
 
@@ -69,6 +71,8 @@ class VideogameIndex(indexes.SearchIndex, indexes.Indexable):
     # ... otros dcampos
     name = indexes.CharField(model_attr='name', boost=1.5)
 ```
+
+{{<ad3>}}
 
 This increment is only valid when filtering by the field to which the _boost_ is applied.
 

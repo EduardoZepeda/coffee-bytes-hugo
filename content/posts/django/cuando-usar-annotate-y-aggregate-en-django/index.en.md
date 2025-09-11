@@ -36,7 +36,7 @@ Annotate and aggregate are primordial for [scaling Django applications to serve 
 | Returns a queryset                                                          | Returns a dictionary                                              |
 | You can concatenate it                                                      | You can't concatenate it                                          |
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Preparation to explain django annotate and aggregate differences
 
@@ -55,6 +55,8 @@ class Order(models.Model):
     seller = models.ForeignKey(Seller, related_name="orders", on_delete=models.PROTECT)
     total = models.DecimalField(max_digits=18, decimal_places=9)
 ```
+
+{{<ad2>}}
 
 After applying the migrations, the above code will create two models: Seller and Order. A seller can have many orders. An order corresponds to a single seller and has a total, expressed in decimal numbers.
 
@@ -77,6 +79,8 @@ Next I will create a few data as an example. You can do it in the Django admin o
 | 3   | 300   | 2         |
 | 4   | 400   | 2         |
 | 6   | 600   | 3         |
+
+{{<ad3>}}
 
 Before we talk about annotate and aggregate, let's make sure we know how to get the SQL query that Django will make.
 

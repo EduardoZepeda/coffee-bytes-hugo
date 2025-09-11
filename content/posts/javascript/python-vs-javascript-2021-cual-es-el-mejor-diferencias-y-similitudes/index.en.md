@@ -58,6 +58,8 @@ I also have a [Python vs Go comparison]({{< ref path="/posts/go/python-vs-go-cua
 
 If you want to go deeper, just keep reading
 
+{{<ad0>}}
+
 ## Python vs Javascript, introduction and differences
 
 To begin with, **Python is an interpreted language**. If you are not familiar with the term, it means that it has an interpreter that translates the instructions, one by one, to machine language, so that they are executed on the fly. So you don't have to compile all your code every time you want to run it, as you would with C++, Java, Rust, etc.
@@ -72,7 +74,7 @@ Look at this super-simplified schematic comparing compiled and interpreted langu
 
 In this scheme I am referring to Javascript at the time of its creation, as an interpreted language, not to the **JIT compilation** I was telling you about.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Which language is more mature, Python vs javascript?
 
@@ -81,6 +83,8 @@ Python appeared in the late 1980s, while Javascript appeared in the early 1990s,
 ### Javascript is a poorly designed language
 
 If you review the history of Javascript you will see that it was developed in record time, in a hurry, which is noticeable in the basics of the language, where we find logical inconsistencies and one thing or another unintuitive. Unfortunately this has no solution, Javascript can not be repaired because any change in the basis of the language would break the web completely.
+
+{{<ad2>}}
 
 This may not necessarily affect the developers or the end user, but it is noticeable at times and serves as a source of inspiration for multiple memes.
 
@@ -93,6 +97,8 @@ Here are a couple of examples for your consideration
 ### Javascript typing
 
 First let's see what happens if we try to change a type in Javascript.
+
+{{<ad3>}}
 
 ```javascript
 //javascript

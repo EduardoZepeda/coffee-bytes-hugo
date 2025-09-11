@@ -65,6 +65,8 @@ And not only that, a drug may partially fit a receptor, which may cause an effec
 
 Administering a drug is not as simple as an "A" produces "B". A drug does not usually have only one effect, but multiple ones. There are even drugs that have as a side effect the possibility of sudden death, yes, just as you are reading it, you take it and there is a possibility (tiny, yes) that you will drop dead. 
 
+{{<ad0>}}
+
 An optimal drug will cause the desired effect with a minimum of side effects, both in the short and long term.
 
 ``` javascript
@@ -92,7 +94,7 @@ Well, the answer to that is "it depends". It depends on each drug, some may last
 
 {{< figure src="images/farmacocinetics.jpg" class="md-local-image" alt="" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What does it depend on whether a drug works and its side effects?
 
@@ -101,6 +103,8 @@ As I mentioned earlier, whether or not a drug activates a cell's receptor depend
 Generally **a drug maintains a base structure, without which it has no effect, and small variations in that base structure are what determine the intensity of the therapeutic effect and the side effects**. The difficult part is trying to deduce which combination will be the best.
 
 {{< figure src="images/analogos_penicilinas.jpg" class="md-local-image" alt="All penicillins have the yellow structure in common. These two differ in the part highlighted in red." caption="All penicillins have the yellow structure in common. These two differ in the part highlighted in red." >}}
+
+{{<ad2>}}
 
 Look at the molecules above, a single change results in different behavior in the body, can you imagine how many variants we can have for a single drug? Each with different properties, structure and thus different intensities of therapeutic effect and with a unique combination of side effects.
 
@@ -113,6 +117,8 @@ It is very difficult to predict this manually, but this is exactly where artific
 Artificial intelligence is able to recognize patterns that humans cannot, it can analyze information related to a large number of molecules and their variants; their side effects, their three-dimensional structure, bioavailability, polarity, presence of functional groups and any other information already existing about each of these molecules, and use them to train a model that predicts whether a molecule has the potential to become a good drug candidate for further analysis and testing in animals and humans.
 
 {{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetine, an antidepressant that acts by blocking a receptor." caption="Fluoxetine, an antidepressant that acts by blocking a receptor." >}}
+
+{{<ad3>}}
 
 Of course AI for drug development will reach its full potential once the [AI overhype stops]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 

@@ -22,6 +22,8 @@ title: 'Go: introducción a las goroutines y concurrencia'
 
 Como te mencioné en la introducción al lenguaje de programación go: [go es un lenguaje especializado en la concurrencia]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}). Es un lenguaje que fue diseñado para manejar múltiples tareas de manera asíncrona. Esta entrada trata sobre los channels o canales de go.
 
+{{<ad0>}}
+
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## Concurrencia no es paralelismo
@@ -45,7 +47,7 @@ Cito una frase del primer recurso que, a mi parecer, resume bastante bien la dif
 
 Si aún así te parecen confusos y no entiendes la diferencia, dale una leída a esos posts y deberías estar listo para seguir adelante.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Corrutinas en go
 
@@ -54,6 +56,8 @@ Una [corrutina](https://es.wikipedia.org/wiki/Corrutina#?), en go, es **una func
 Las [goroutines](/es/go/go-introduccion-a-las-goroutines-y-concurrencia/) son usadas en patrones de diseño, como el [patrón de diseño worker pool](/es/software-architecture/explicacion-del-patron-de-diseno-worker-pool/)
 
 Para generar una goroutine agregamos el keyword _go_ antes de una función. Lo anterior programará la función para su ejecución asíncrona.
+
+{{<ad2>}}
 
 ```go
 func write(texto string) {
@@ -76,6 +80,8 @@ time.Sleep(1 * time.Second)
 ```
 
 Una mejor aproximación sería crear un **WaitGroup** o grupo de espera.
+
+{{<ad3>}}
 
 ## WaitGroups en go
 

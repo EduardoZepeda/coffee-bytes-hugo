@@ -20,6 +20,8 @@ title: ¿Cómo funcionan los permisos y grupos en Django?
 
 La primera vez que me enteré de que Django tenía un sistema de permisos, hace ya muchos años, me pareció algo bastante esotérico, sin mucha utilidad y fácil de replicar, que equivocado estaba en aquel entonces. Después me di cuenta de que el sistema de permisos integrado era una maravilla y ahorraba muchísimo código, además de ser bastante sólido y puesto a prueba por algunas de las empresas más grandes del mundo.
 
+{{<ad0>}}
+
 Si aún no te decides a usar Django y estás investigando sus características revisa mi entrada sobre las [ventajas y desventajas del framework de desarrollo web Django.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
 Por otro lado, si ya tienes un poco de práctica con Django quizá te convenga profundizar lo que sabes con este libro gratuito, y en español, llamado [la guía definitiva de Django]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="es" >}})
@@ -44,7 +46,7 @@ app.view_modelo # Para ver modelos
 # vapor.view_videojuego
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Agregar o remover permisos a un usuario
 
@@ -55,6 +57,8 @@ Para agregar permisos uno por uno los pasamos al método _add()_.
 ```python
 user.permissions.add(permiso1, permiso2, ...)
 ```
+
+{{<ad2>}}
 
 Para remover permisos le pasamos el permiso que queremos remover al método _remove()_.
 
@@ -73,6 +77,8 @@ Para eliminar todos los permisos de un usuario usamos el método _clear()_.
 ```python
 user.permissions.clear()
 ```
+
+{{<ad3>}}
 
 ## Comprobando los permisos para un usuario
 

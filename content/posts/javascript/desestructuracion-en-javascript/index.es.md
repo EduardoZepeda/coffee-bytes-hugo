@@ -33,6 +33,8 @@ Supongamos que tenemos almacenado un objeto que representa los datos de una cuen
 const userData = {isLoggedIn: True, profile: "Admin", email: "email@example.org"}
 ```
 
+{{<ad0>}}
+
 El objeto anterior tiene las propiedades isLoggedIn, profile y email. Si nosotros quisieramos acceder a los valores, ya sea para mostrar algún contenido condicionalmente tendríamos que hacer lo siguiente:
 
 ```javascript
@@ -55,7 +57,7 @@ const email = userData.email
 
 Ahora ya podemos acceder a las constantes individualmente sin hacer referencia al objeto. Pero, ¿no estamos repitiendo userData en cada asignación?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Desestructuración de un objeto en javascript
 
@@ -67,6 +69,8 @@ const {isLoggedIn, profile, email} = userData
 ```
 
 Ahora en lugar de obtener los valores directamente del objeto podemos obtenerlos de las constantes y el código se vuelve más sencillo de leer.
+
+{{<ad2>}}
 
 ```javascript
 

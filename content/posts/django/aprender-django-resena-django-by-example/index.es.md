@@ -29,7 +29,7 @@ Si no conoces las ventajas y desventajas que ofrece Django, visita mi entrada do
 
 El primer proyecto que propone Django by Example es el clásico ejemplo de un blog sencillo, con autores y entradas. El autor diseña un blog y te enseñan el funcionamiento básico de Django, modelos, vistas, urls y plantillas, ya sabes, lo básico. Como aspecto a resaltar se ve paginación de los modelos y como integrarla en el sistemas de plantillas usando Jquery. En pocas palabras estamos ante el tutorial básico de Django de la documentación pero con libros en lugar de encuestas.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Red social
 
@@ -42,6 +42,8 @@ El tercer proyecto consiste en una tienda en linea que implementa un sistema de 
 ## Plataforma de aprendizaje en linea
 
 Para el último proyecto se creará una plataforma de aprendizaje en linea usando un CMS. Este capítulo toca temas un poco más avanzados de Django tales como uso de modelos abstractos, proxies y herencia multi tabla y campos personalizados para los modelos. El autor explicará en los últimos capítulos las vistas genéricas y paquetes como [django-braces](https://django-braces.readthedocs.io/en/latest/index.html), que se encargan de reducir aún más la cantidad de código a escribir. Es genial que el autor también implemente un sistema de cache usando [memcached](https://memcached.org/). Y para finalizar el proyecto se usará [Django Rest Framework](https://www.django-rest-framework.org/) para poner los contenidos del sitio web a disposición del público.
+
+{{<ad2>}}
 
 Tras este último proyecto Django by example termina. Pero, a modo de bonus ofrece un capítulo extra, donde se verá el uso de middleware y el despliegue de la aplicación usando nginx y uwsgi.
 
@@ -58,6 +60,8 @@ Dejando de lado las carencias del contenido en cuanto a javascript, Django by ex
 **Conocimientos previos recomendados:** HTML, Python y Javascript básico  
 **Recomendado para leerlo:** 7/10  
 **Idiomas:** Inglés
+
+{{<ad3>}}
 
 Lee otras de mis reseñas sobre libros de Django aquí:
 

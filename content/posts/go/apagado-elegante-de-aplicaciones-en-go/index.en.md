@@ -21,6 +21,8 @@ As you probably already know, the Linux kernel is in charge of "lending" resourc
 
 Because linux is the kernel of the system, it is able to call back those resources at any time and close the application.
 
+{{<ad0>}}
+
 Linux can "nicely" ask applications for the resources it lent them or "take them away" by force. To do this, Linux sends a series of signals to the application, some of which can be captured and handled by the application itself, with code in Go.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743294302/coffee-bytes/linux-kill-9-shutdown-meme_rb0mqw.jpg" class="md-local-image" alt="\"Linux will kindly shutdown an app via SIGKILL signal\"" caption="Linux will kindly shutdown an app via SIGKILL signal" >}}
@@ -42,7 +44,7 @@ kill -<value> <pid>
 // kill -2 1234
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Signal handling in Go
 
@@ -57,6 +59,8 @@ func gracefulShutdown() {
 ```
 
 ### Managing signals with channels
+
+{{<ad2>}}
 
 Now we have a channel that receives our signal, but... what do we do with it?
 
@@ -85,6 +89,8 @@ func gracefulShutdown() {
     // ... 
 }
 ```
+
+{{<ad3>}}
 
 Finally, for this function to run correctly, we need it to run inside its [own goroutine](/en/go/go-introduction-to-goroutines-and-concurrency/). To do this, simply prefix the function call with the keyword go.
 

@@ -26,7 +26,7 @@ Imagine you want to test a feature of your web application, but you are afraid t
 
 What can you do in these cases? The best thing to do would be to test it on a representative sample of your audience and, depending on how it responds, discard it or roll it out to the rest of the users.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Common deployment patterns
 
@@ -49,6 +49,8 @@ For this post I am going to focus on the last patterns, since they are the ones 
 
 This pattern consists of showing new features to a small group of users. After analyzing and correcting the performance of the new features and, if appropriate, the deploy is extended to all users.
 
+{{<ad2>}}
+
 ``` mermaid
 graph LR;
     LoadBalancer-->Ver-1;
@@ -68,6 +70,8 @@ graph LR;
 ### Blue/Green deployment
 
 In the blue/green deployment we have two similar environments simultaneously. These environments will be known as blue and green. At any time only one of the two environments will be active, while load balancing from one environment to the other. If we find any errors we simply adjust the load balancing to the opposite side.
+
+{{<ad3>}}
 
 ``` mermaid
 graph LR;

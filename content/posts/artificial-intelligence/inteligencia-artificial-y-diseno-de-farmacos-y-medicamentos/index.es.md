@@ -69,6 +69,8 @@ Y no solo eso, un fármaco puede encajar parcialmente en un receptor, lo cual pu
 
 Administrar un fármaco no es tan simple como un "A" produce "B". Un fármaco no suele tener un solo efecto, sino múltiples. Existen incluso fármacos que tienen como efecto secundario la posibilidad de muerte súbita, sí, así como lo estás leyendo, lo tomas y existe una posibilidad (ínfima, eso sí) de que caigas muerto. 
 
+{{<ad0>}}
+
 Un fármaco óptimo va a provocar el efecto deseado con un mínimo de efectos secundarios, tanto a corto como a largo plazo.
 
 ``` javascript
@@ -96,7 +98,7 @@ Bien, la respuesta a eso es "depende". Depende de cada fármaco, algunos pueden 
 
 {{< figure src="images/farmacocinetics.jpg" class="md-local-image" alt="Gráfico que muestra como se comportan la mayoría de los fármacos administrados por vía oral" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿De qué depende que un fármaco funcione y sus efectos secundarios?
 
@@ -105,6 +107,8 @@ Como te mencioné anteriormente, el que un fármaco active o no el receptor de u
 Generalmente **un fármaco mantiene una estructura base, sin la cual no posee efecto, y pequeñas variaciones en esa estructura base son las que determinan la intensidad del efecto terapéutico y los secundarios**. La parte difícil es intentar deducir cual combinación será la mejor.
 
 {{< figure src="images/analogos_penicilinas.jpg" class="md-local-image" alt="Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo" caption="Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo" >}}
+
+{{<ad2>}}
 
 Observa las moléculas de arriba, un solo cambio desemboca un comportamiento diferente en el cuerpo, ¿te imaginas la cantidad de variantes que podemos tener para un solo fármaco? Cada una con diferentes propiedades, estructura y, por ende, con diferentes intensidades respecto a su efecto terapéutico y con una combinación única de efectos secundarios.
 
@@ -117,6 +121,8 @@ Es muy dificil predecirlo de manera manual, pero es justo aquí donde la intelig
 La inteligencia artificial es capaz de reconocer patrones que los seres humanos no podemos, puede analizar la información relacionada con una gran cantidad de moléculas y sus variantes; sus efectos secundarios, su estructura tridimensional, biodisponibilidad, polaridad, presencia de grupos funcionales y cualquier otra información ya existente sobre cada una de estas moleculas, y usarlos para entrenar un modelo que prediga si una molécula tiene el potencial de convertirse en un buen candidato a fármaco para sus posteriores análisis y pruebas en animales y humanos.
 
 {{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetina, un antidepresivo que actua bloqueando un receptor" caption="Fluoxetina, un antidepresivo que actua bloqueando un receptor" >}}
+
+{{<ad3>}}
 
 Creo que este será uno de los usos más prometedores que se le darán una vez que [la burbuja de AI estalle]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}})
 

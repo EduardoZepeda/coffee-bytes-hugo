@@ -83,6 +83,8 @@ Por ejemplo, si tenemos tres objetos Derivados relacionados a un único objeto p
 
 Para usar *select_related* lo llamamos a partir de nuestra consulta, pasándole el nombre del campo que corresponde a nuestra relación con el otro modelo.
 
+{{<ad0>}}
+
 ```python
 Derivado.objects.select_related("principal")
 ```
@@ -113,7 +115,7 @@ SELECT my_app_derivado.id,
     ON (my_app_derivado.principal_id = my_app_principal.id)
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## prefetch_related
 
@@ -122,6 +124,8 @@ Si el método *select_related* recupera un único objeto a partir de un campo de
 {{< figure src="images/prefetch_related.png" class="md-local-image" alt="Esquema del funcionamiento de prefetch_related en django" >}}
 
 Esquema simplificado del funcionamiento de prefetch_related
+
+{{<ad2>}}
 
 Considera este ejemplo, nota el campo _ManyToManyField_ hacia el modelo _Principal_.
 
@@ -148,6 +152,8 @@ Si accedemos al campo que representa a la relación múltiple de nuestro objeto,
     {% endfor %}
 {% endfor %}
 ```
+
+{{<ad3>}}
 
 ### Uso en una consulta
 

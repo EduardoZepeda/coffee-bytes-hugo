@@ -127,6 +127,8 @@ To distinguish between a zero value, go provides a second return value, which in
 value, exist := dictionary["NonExistent"]
 ```
 
+{{<ad0>}}
+
 ### Optional capacity in golang maps
 
 To set a maximum key capacity in a _map_, we pass the length of the map as the second argument.
@@ -145,7 +147,7 @@ If we want to get rid of a key from our _map_, we use the _delete,_ function, wh
 delete(dictionary, "hello")
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Traverse golang maps with range
 
@@ -158,5 +160,7 @@ for key, value := range dictionary {
         fmt.Println(key,value)
     }
 ```
+
+{{<ad2>}}
 
 This is the minimum you should know about golang maps or dictionaries.

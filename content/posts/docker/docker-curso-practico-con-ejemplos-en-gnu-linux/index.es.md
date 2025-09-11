@@ -34,7 +34,7 @@ Puedes pensar en las imágenes y contenedores **como clases y sus instancias, re
 
 Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Correr un contenedor
 
@@ -54,6 +54,8 @@ Tras ejecutar el comando anterior, Docker descargará la imagen de hello-world y
 
 Si solo quieres traer una imagen para que esté disponible, sin ejecutarla puedes usar el comando docker pull, seguido del nombre de la imagen. 
 
+{{<ad2>}}
+
 Este comando traera una imagen de los repositorios y la descargará en tu sistema.
 
 ```bash
@@ -71,6 +73,8 @@ La imagen de hello-world es probablemente la más aburrida que hay y de seguro q
 Para buscar una imagen podemos usar el comando docker search. Lo que hace este comando es conectarse a docker hub y buscar la imagen que le indiquemos.
 
 En Dockerhub existen imágenes de mysql, de nginx, de alpine linux, de python, de django, wordpress, ghost y casi cualquier otra tecnología, y sus combinaciones, que puedas nombrar.
+
+{{<ad3>}}
 
 ```bash
 docker search nginx

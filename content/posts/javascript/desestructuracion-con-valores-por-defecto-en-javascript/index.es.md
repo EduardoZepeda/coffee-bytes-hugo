@@ -19,6 +19,8 @@ title: Desestructuración con valores por defecto en Javascript
 
 En la entrada anterior traté brevemente el tema de la [desestructuración con objetos anidados en javascript](/es/javascript/desestructuracion-de-objetos-anidados-en-javascript/) . En esta publicación voy a hablar un poco sobre como podemos especificar valores por defecto al momento de desestructurar un objeto en javascript.
 
+{{<ad0>}}
+
 Para hacerlo crearemos un objeto bastante sencillo:
 
 ```javascript
@@ -48,7 +50,7 @@ if(accountType==='basic'){
 
 Bien pues para evitar que suceda eso podemos asignar un valor por defecto cuando la desestructuración no encuentre la propiedad que queremos desestructurar. Si estás siguiendo este ejemplo recuerda limpiar la terminal de javascript y volver a declarar el objeto principal o tendrás un error.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Asignar un valor por defecto al desestructurar un objeto
 
@@ -62,6 +64,8 @@ const user = {
 ```
 
 Bien, si nosotros intentemos desestructurar el objeto y asignar un valor por defecto si no se encuentra la propiedad adecuada lo haremos de la siguiente manera:
+
+{{<ad2>}}
 
 ```javascript
 const { userIsLoggedIn, email, accountType="basic" } = user

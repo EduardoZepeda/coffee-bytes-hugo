@@ -26,6 +26,8 @@ If you have no idea what cryptography is, you can take this rather simple defini
 
 ## Learn python with cryptography
 
+{{<ad0>}}
+
 Codes with secret information? Like secret messages? Yes, messages that if someone were to read, they wouldn't know what they mean. Look at these examples, do you already know what message each one hides?
 
 ```python
@@ -46,7 +48,7 @@ Cracking Codes with Python assumes you know absolutely nothing about Python, it 
 
 This book is completely free for you to read in its entirety, to read it [go to the author's official website](http://inventwithpython.com/cracking/)
 
-{{<ad>}}
+{{<ad1>}}
 
 ## My opinion
 
@@ -57,6 +59,8 @@ From my standpoint Cracking Codes with Python is good material if any of the fol
 * You are a history and technology enthusiast
 
 On the other hand, regardless of the above, I **recommend you to read the [RSA encryption chapter](http://inventwithpython.com/cracking/chapter23.html)** as I believe that the operation of public and private keys is something that everyone involved in web development should know.
+
+{{<ad2>}}
 
 **Recommended Prior Knowledge:** Basic Mathematics
 **Recommended to read:** 6/10

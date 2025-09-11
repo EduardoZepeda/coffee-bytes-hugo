@@ -46,7 +46,7 @@ Django es un framework full-stack que puede ser utilizado únicamente para backe
 
 Si quieres ahondar en alguna en particular sigue leyendo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Las ventajas de Django
 
@@ -59,6 +59,8 @@ Si eres uno de esos desarrolladores que se consideran **perfeccionistas con dead
 El ORM de Django abstrae la necesidad de escribir consultas SQL para crear tablas y consultar datos. Es bastante intuitivo de usar y tiene incluidas casi todos las consultas más comunes en su código. Desde filtrados, particionados, uniones e incluso hasta funciones para [búsquedas avanzadas de Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}}) y manejo de migraciones automático.
 
 Para crear una tabla en la base de datos basta con crear una clase que herede de _models.Model_ y Django se encargará de todo el trabajo pesado.
+
+{{<ad2>}}
 
 ```python
 class Review(models.Model):
@@ -98,6 +100,8 @@ DATABASES = {
 ```
 
 La única desventaja del ORM de django es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/es/fastapi/integracion-del-orm-de-python-tortoise-con-fastapi/).
+
+{{<ad3>}}
 
 ### Panel de administrador incluido
 

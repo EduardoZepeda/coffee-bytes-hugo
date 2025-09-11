@@ -33,6 +33,8 @@ Para este ejemplo el nombre del paquete será _videogame_.
 
 Una vez definido, crearé un modelo o struct en _videogame.go_.
 
+{{<ad0>}}
+
 ```go
 //videogame/videogame.go
 package videogame
@@ -53,7 +55,7 @@ Una vez creado terminaremos con una structura similar a esta
 
 Localización del archivo principal y nuestro modulo en go
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Importar paquetes con go.mod
 
@@ -62,6 +64,8 @@ Localización del archivo principal y nuestro modulo en go
 Un archivo de go.mod **define un modulo y nos permite establecer el directorio que usaremos como base para importar los paquetes.**
 
 {{< figure src="images/goModFile.png" class="md-local-image" alt="Archivo go.mod en la raiz del proyecto" >}}
+
+{{<ad2>}}
 
 Archivo go.mod que contiene el nombre del modulo
 
@@ -76,6 +80,8 @@ module mimodulo
 
 go 1.15
 ```
+
+{{<ad3>}}
 
 ### Crear un archivo go.mod
 

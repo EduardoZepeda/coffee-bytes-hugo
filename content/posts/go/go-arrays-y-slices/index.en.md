@@ -29,6 +29,8 @@ Arrays are **immutable data collections**, to create an _array_ we need to defin
 var array [4]int
 ```
 
+{{<ad0>}}
+
 In the above example, we have an _array_ with space for 4 integers. The values that we do not assign will be assigned as zero values.
 
 {{< figure src="images/arrayGolang-1.png" class="md-local-image" alt="Structure of an array in go" >}}
@@ -48,7 +50,7 @@ We can also create an array directly inside a function by placing each element o
 array := [4]int{0, 0, 0, 0}
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Slices in go
 
@@ -62,6 +64,8 @@ slice[0] = 1
 // panic: runtime error: index out of range [0] with length 0
 ```
 
+{{<ad2>}}
+
 ### How does a slice in Go works?
 
 Internally a _slice_ is a _struct_ with a pointer to the real array. In addition to the pointer, it has a property called _cap_ and _len_, which refer to the capacity and length of the array, respectively.
@@ -74,6 +78,8 @@ To create a non-empty slice we have two ways to do it:
 * Declare it directly by passing the content after the slice data type.
 
 ### Create a slice with make
+
+{{<ad3>}}
 
 The _make_ function allocates memory and initializes an object of type _slice_, _map_ or _chan_ and returns it. If we use make, it is necessary to pass the length of the slice as a second argument.
 

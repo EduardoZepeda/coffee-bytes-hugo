@@ -29,6 +29,8 @@ En mi entrada sobre [las características básicas sobre una API REST]({{< ref p
 
 ## ¿Qué es RPC?
 
+{{<ad0>}}
+
 Las siglas de RPC vienen de Remote Procedure Call (Llamada de procedimiento remoto en español), que, en palabras simples, se refiere a invocar a la ejecución de código en una máquina, desde otra máquina, generalmente un servidor, de manera que, para el programador, pareciera que la ejecución se realizó de manera local.
 
 ### ¿Cómo funciona RPC?
@@ -52,7 +54,7 @@ El proceso más detallado es el siguiente:
 
 Ahora sí, vamos con gRPC.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Qué es Go Lang gRPC?
 
@@ -61,6 +63,8 @@ Google tomó en cuenta las carencias de RPC y decidió mejorarlo creando gRPC.
 gRPC emula a RPC con la ventaja de que **no necesita usar el mismo lenguaje de programación** para llevar a cabo la comunicación entre máquinas. 
 
 ¿Y qué pasó con la codificación de datos? Pues Google desarrolló los Protocol Buffers (o protobuffers) para usarlos como el formato predeterminado d gRPC en el intercambio de información entre máquinas y conseguir un rendimiento superior a otros formatos como JSON o XML.
+
+{{<ad2>}}
 
 ## ¿Qué son los Go Lang protobuffers?
 
@@ -77,6 +81,8 @@ graph TD;
 Los Protocol Buffers (protobuffers en adelante) son un formato completamente agnóstico de lenguaje y plataforma, que gRPC usa para serializar y deserializar información estructurada solo que, en lugar de usar JSON, XML u otro formato, se realiza directamente en binario. Lo anterior, como ya sabes, lo vuelve mucho más eficiente que usar un formato más amigable con los humanos como JSON.
 
 {{< figure src="images/protobuffers-grpc.jpg" class="md-local-image" alt="La compilación de el archivo .proto es unidireccional, mientras que la serialiazación deserialización es bidireccional" caption="La compilación de el archivo .proto es unidireccional, mientras que la serialiazación deserialización es bidireccional" >}}
+
+{{<ad3>}}
 
 ### ¿Cómo convertir información con los protobuffers?
 

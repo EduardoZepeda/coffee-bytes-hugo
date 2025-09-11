@@ -241,6 +241,8 @@ wg.Wait()
 
 ### Asincronismo en Python
 
+{{<ad0>}}
+
 En Python las corutinas no aparecieron hasta su versión 3.5. Las funciones asíncronas se ejecutan en un hilo sencillo y únicamente cambian a otra corrutina cuando una operación asíncrona es encontrada.
 
 Se usa la misma sintaxis de async y await. Para esto usamos la librería
@@ -265,7 +267,7 @@ if __name__ == "__main__":
 
 Este script tardará tres segundos en ejecutarse.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Manejo de errores
 
@@ -274,6 +276,8 @@ El manejo de errores es algo que es bastante constante en los lenguajes, pero en
 ### El horrible manejo de errores en go
 
 Go tiene una manera bastante peculiar de manejar los errores. **No cuenta con bloques _try_ y _except_ (o su equivalente en otros lenguajes)**. Sino que la ejecución de una función puede retornar un error como un segundo valor de retorno, el cual podemos obtener y verificar para saber si ha ocurrido un error.
+
+{{<ad2>}}
 
 ```go
 message, err := requestToApiEndpoint(")
@@ -296,6 +300,8 @@ except:
 ## ¿Qué lenguaje es peor Python vs Go?
 
 ### Desventajas y mal diseño de go
+
+{{<ad3>}}
 
 Go es muy "opinionated". Tiene posturas muy rígidas sobre ciertas cosas, como el uso de todas las variables, pero deja otras tantas al buen manejo por parte del usuario, como los errores causados por punteros o pointers nulos. Se podría decir que es inconsistente en ese aspecto.
 

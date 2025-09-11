@@ -34,7 +34,7 @@ Este libro está actualizado a Django 3.0, la versión más moderna de Django al
 
 Una característica del libro que me gustaría destacar es la escritura de tests de los avances realizados a lo largo de cada capítulo, esto es algo que he visto **en pocos libros** y que yo creo que debería de **volverse la norma** en todos los libros de programación. Si desconoces del propósito de los tests o consideras que son innecesarios, dame una oportunidad de intentar convencerte de lo contrario en mi entrada sobre [unnitest de Python y el testing.](/es/python/unittest-python-valen-la-pena-los-tests-en-python/)
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Mi opinión sobre Django for Professionals
 

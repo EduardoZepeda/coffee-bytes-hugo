@@ -52,6 +52,8 @@ El patrón de rebote o debounce pospone la ejecución de una función hasta que 
 
 Nuevos intentos de ejecutar la función cancelarán la ejecución pendiente y reiniciarán el tiempo de espera.
 
+{{<ad0>}}
+
 {{< figure src="images/DebounceORebote.png" class="md-local-image" alt="Esquema simplificado del patrón debounce" >}}
 
 ### Explicación del patrón debounce
@@ -74,7 +76,7 @@ Esta función usa un closure para acceder a la variable timeout. ¿Qué es timeo
 
 Pero ahora presta atención al clearTimeout. Cada vez que llamemos a la función debounce se eliminará cualquier función programada, por lo que la única manera de que se ejecute nuestro callback es esperar el tiempo que le pasamos como argumento.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Patrón Throttling
 
@@ -83,6 +85,8 @@ El patrón throttling (o aceleración) establece un tiempo de espera durante el 
 {{< figure src="images/throttling.jpg" class="md-local-image" alt="Esquema simplificado del patrón throttling" >}}
 
 ### Explicación del patrón throttling
+
+{{<ad2>}}
 
 El código para el patrón throttling en javascript se ve así.
 
@@ -107,6 +111,8 @@ La función throttling retorna una función que tendrá dos vertientes que depen
 
 - timeout está definido: esto significa que ya hay programada una función para su ejecución, en este caso la función no hace nada, es decir, bloquea la ejecución de nuevas funciones por medio de un return vacio.
 - timeout no está definido: si timeout no está definido, creamos un _setTimeout_ y la asignamos a la variable _timeout_. Esta función, una vez transcurrido su tiempo de ejecución, se eliminará a si misma de la variable _timeout_. Posteriormente, y para finalizar, ejecutamos la función callback.
+
+{{<ad3>}}
 
 ## Otros recursos sobre debounce y throttling
 

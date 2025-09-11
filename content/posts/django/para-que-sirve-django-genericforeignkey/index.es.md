@@ -26,6 +26,8 @@ Quieres usar Django para relacionar un modelo con otro usando una llave foránea
 
 El tipo de campo genericForeignkey es capaz de enlazar a diferentes tipos de modelos, lo que nos permite relacionar cualquier otro modelo con el nuestro. ¿Recuerdas que en la entrada anterior hablé de ContentType? Pues ahora sí le daremos una aplicación práctica. Si quieres repasar un poco lo anterior, visita mi entrada donde hablo de [ContentType en Django](/es/django/que-hace-la-aplicacion-contenttype-en-django/)
 
+{{<ad0>}}
+
 ## El campo genericForeignKey
 
 Imagina un historial de actividades que lleve registro de lo que hace cada usuario: subir un video, borrar una canción, darle like a una publicación, etc. El objetivo de la acción de cada usuario será un modelo distinto cada vez, por lo que podemos usar genericForeignKey para crear nuestro historial.
@@ -54,7 +56,7 @@ A continuación te explico cada campo de nuestro modelo:
 - **object\_id**: la llave primaria o identificador del objeto al que haremos referencia.
 - **item**: es una abstracción que te permite acceder directamente al objeto que hacemos referencia con _content\_type_ y object\_id; **este campo no existe en la base de datos.**
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Creación de un objeto
 
@@ -69,6 +71,8 @@ modelo = tuModelo.objects.get(id=1) # Reemplazalo por lo que quieras
 activity = ActivityStream(user=user, action="accion", item=modelo)
 activity.save()
 ```
+
+{{<ad2>}}
 
 Listo, si ahora revisamos el modelo que acabamos de crear, notarás que los campos _content\_type_ y _object\_id_ se han llenado automáticamente.
 

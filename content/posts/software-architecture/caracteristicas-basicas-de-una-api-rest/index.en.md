@@ -25,6 +25,8 @@ This publication is a minimal guide of practical tips on REST API design, what i
 
 In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
 
+{{<ad0>}}
+
 ## What is an API?
 
 The term API stands for application programming interface, and consists of a set of rules that tell us how applications and/or devices can communicate with each other.
@@ -39,7 +41,7 @@ To this date, there are still protocols that work with POST requests, such as [t
 
 {{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="APIs timeline" caption="REST paradigm was created around year 2000" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What is a REST API?
 
@@ -48,6 +50,8 @@ A REST API is an API that complies with the REST design standard (Thank you capt
 ### What are the characteristics of a REST API?
 
 Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), even large companies as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APIs as such.
+
+{{<ad2>}}
 
 If you already know the brief technical part, skip this section.
 
@@ -69,6 +73,8 @@ In English:
 
 * [Representational state transfer (inglés)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 * [Nobody understands REST](https://steveklabnik.com/writing/nobody-understands-rest-or-http)
+
+{{<ad3>}}
 
 In Spanish, if you're one of Duo's friends:
 

@@ -93,6 +93,8 @@ Internally there is no magic at all, the services interact with the servers or i
 
 Notice how there is an initial validation using the familiar *Zod* library, but at the end of the snippet there is a function call that makes a request to a Github URL.
 
+{{<ad0>}}
+
 ``` javascript {linenos=inline hl_lines=[20]}
 import { z } from "zod";
 import { githubRequest, buildUrl } from "../common/utils.js";
@@ -130,7 +132,7 @@ This is the magic part, the LLM can "read" the available actions from the MCP an
 
 So far I have been talking about resources and actions, but in the MCP these two actions which are in charge of giving context to an LLM have names. Of course they were not going to miss the opportunity to give some branding to their protocol.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Context types: Resources and Tools in the Model Context Protocol
 
@@ -144,6 +146,8 @@ The MCP context types are divided into:
 
 You can think of Resources as [a *GET* request to a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), **intended to get information, without modifying anything**. 
 
+{{<ad2>}}
+
 ### What is the type of context Tools?
 
 On the other hand, a tool would be the equivalent of a *POST*, *UPDATE*, *DELETE* or *PATCH* request.
@@ -155,6 +159,8 @@ If you are more familiar with [GraphQL-like APIs](/en/django/how-to-create-a-gra
 ## How does the MCP communicate with servers?
 
 The MCP has two communication paradigms, one is via STDIO or Standard Input Output, ~~right out of your C programming nightmares #include <stdio.h>~~ ideal for local communication, for example with a local database such as Postgres or SQLite.
+
+{{<ad3>}}
 
 The other type is SSE or Server Sent Events, which does *POST* request streaming (similar [to the gRPC streaming requests I've already told you about]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}})), ideal of course for communications that are not in the same environment.
 

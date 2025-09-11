@@ -104,6 +104,8 @@ As you can see, a Dockerfile is nothing more than a series of sequential instruc
 - EXPOSE: Exposes a port.
 - CMD: Execute a command when starting the container.
 
+{{<ad0>}}
+
 Now let's review the image we created above.
 
 - **FROM python:3.6: All Dockerfiles need an image to start from**, in this case that image is python:3.6.
@@ -129,7 +131,7 @@ CMD allows you to run **one command once the container boots**, however any chan
 CMD [“gunicorn”, “--bind”, “:8000”, “--workers”, “2”, “project.wsgi”]
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Order is important in a Dockerfile
 
@@ -138,6 +140,8 @@ Compiling a Dockerfile is a sequential process, each step creates an intermediat
 Docker uses the stored cache to avoid having to repeat unnecessary steps when a change occurs in a Dockerfile, i.e. if you make a change in one of the steps, Docker will try to use its cached data to avoid repeating all the previous steps. 
 
 Therefore, consider the order in which you perform your instructions to avoid costly image compilations in time and resources.
+
+{{<ad2>}}
 
 Tip: Place package installations or processes that are unlikely to change first, and place those steps that change frequently, such as your application code, at the end.
 
@@ -179,6 +183,8 @@ docker build --tag djangocontainer:0.1 .
 ```
 
 You can see that our image has been created by running the command *docker images*.
+
+{{<ad3>}}
 
 ```bash
 docker images

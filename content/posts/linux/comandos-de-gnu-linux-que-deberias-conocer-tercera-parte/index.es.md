@@ -24,6 +24,8 @@ Esta es la continuación de las siguientes partes:
 * [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}) 
 * [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//).
 
+{{<ad0>}}
+
 ## printenv
 
 Printenv se encarga de imprimir las variables de entorno de nuestro sistema.
@@ -49,7 +51,7 @@ printenv LANG
 es_MX.UTF-8
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## export
 
@@ -62,6 +64,8 @@ mi_valor
 ```
 
 ## lsof
+
+{{<ad2>}}
 
 Este comando nos devuelve una lista de archivos y los procesos que los están usando. 
 
@@ -79,6 +83,8 @@ sudo lsof -u <username>
 ```
 
 O por proceso:
+
+{{<ad3>}}
 
 ```bash
 sudo lsof -c <nombre del proceso>

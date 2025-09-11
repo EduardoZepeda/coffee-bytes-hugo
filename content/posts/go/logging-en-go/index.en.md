@@ -15,6 +15,8 @@ keywords:
 title: Logging with the standard library in Go
 ---
 
+{{<ad0>}}
+
 As you probably already know, you should not use prints for debugging. The standard go logging library is much more versatile, it adds dates, filenames and other information, plus you can redirect the logs to standard output, to a file or wherever you want. This can make your debugging process more enjoyable and [your go testing](/en/go/go-basic-testing-and-coverage/) easier.
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
@@ -32,7 +34,7 @@ log.Println("Message")
 
 The Println method of log behaves exactly like the [fmt library](/en/go/go-functions-arguments-and-the-fmt-package/) method, so you can pass it multiple parameters and it will print them one by one.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Flags in logging
 
@@ -45,6 +47,8 @@ log.Println("Message")
 ```
 
 There are more flags available in addition to the above two.
+
+{{<ad2>}}
 
 ### Flags available
 
@@ -76,6 +80,8 @@ const (
 In addition to displaying information, it is possible to use methods, such as Panic and Fatal, to handle errors in our code.
 
 ### Logging Panic
+
+{{<ad3>}}
 
 The log method has a Panic method that prints a message and calls the panic function.
 

@@ -33,6 +33,8 @@ Quizás la inteligencia no es posible sin la consciencia, como Penrose y [el exp
 
 Incluso [Sam Altman dice que ve una burbuja de AI](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), de acuerdo a los medios:
 
+{{<ad0>}}
+
 > “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
 
 ## ¿Está estallando finalmente la burbuja de la IA?
@@ -47,7 +49,7 @@ Devin AI cayó en el olvido. Al mismo tiempo, estamos apreciando la ley de rendi
 
 Por otro lado, algunas compañias ya abandonaron la idea de reemplazar desarrolladores y se enfocaron en volverse herramientas de creación de código, como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}) 
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Humanity's last exam shows that we're far from AGI
 
@@ -56,6 +58,8 @@ Consideremos las puntuaciones del último examen de la Humanidad, como pueden ve
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg" alt="Humanity's last exam score" caption="" >}}.
 
 No te confundas, estos valores son increíbles, pero no son la panacea que venden los medios y los inversores.
+
+{{<ad2>}}
 
 ## La burbuja de AI es culpa de la ignorancia de inversores y consumidores
 
@@ -68,6 +72,8 @@ Los consumidores, generalmente negocios, esperan que la AI reduzca (o elimine) l
 ## La fiebre por la AI y la inversión de capital
 
 Como ya dije, los inversores no quieren quedarse fuera de esta fiesta y están tan deseosos de sacarse la lotería y convertirse en el nuevo Zuckerberg de la inteligencia artificial, que abren sus carteras sin pensarlo cada vez que escuchan la palabra "AI" en el mismo enunciado que "disruptivo".
+
+{{<ad3>}}
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet no tiene idea de AI" >}}
 

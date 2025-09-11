@@ -29,7 +29,7 @@ Ant design es hermosa, sí, no hay mucho que se pueda profundizar usando texto. 
 
 {{< figure src="images/Ant-design.gif" class="md-local-image" alt="Captura de pantalla de ant design" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## formik
 
@@ -43,6 +43,8 @@ Nota el esquema de validación en la parte izquierda consistente de un objeto ll
 
 Cada vez que se hace una petición a una API hay código que se repite; hacer la petición, mostrar un elemento que indique que se está cargando contenido, recibir el error o el estado exitoso y guardarlo en el estado. ¿Te suena?
 
+{{<ad2>}}
+
 React query se encarga de reducir todo el código repetitivo que se encarga de todo el proceso de manejo de peticiones web proveyéndonos de un hook especial del que podemos [desestructurar variables](/es/javascript/desestructuracion-con-valores-por-defecto-en-javascript/) que nos facilitarán el manejo de la respuesta.
 
 {{< figure src="images/reactQuery.png" class="md-local-image" alt="Librería React query" >}}
@@ -54,6 +56,8 @@ A veces es bastante molesto encargarse de la parte de la parte gráfica de una p
 Antes de usarla recuerda revisar la licencia de los íconos que decidas usar, porque no todas las licencias son igual de permisivas.
 
 {{< figure src="images/React-icons-kit.gif" class="md-local-image" alt="Captura de pantalla de la página de React icons kit" >}}
+
+{{<ad3>}}
 
 ## El React minimalista: Preact
 

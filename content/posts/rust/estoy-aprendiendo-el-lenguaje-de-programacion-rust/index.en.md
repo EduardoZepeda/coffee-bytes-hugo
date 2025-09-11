@@ -146,6 +146,8 @@ let x = Some(5).expect("Value not found");
 
 #### ? operator
 
+{{<ad0>}}
+
 The *?* operator propagates errors in a *Result* type, returning the error if it exists or unwrapping the *Ok* value.
 
 ```rust
@@ -183,7 +185,7 @@ impl<T: Display> HogwartsReportCard<T> {
 }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Where to learn Rust?
 
@@ -192,6 +194,8 @@ Lastly, here are some resources you can use to learn Rust, but please consider t
 ### The Rust Book in multiple languages
 
 Rust has its own bible, called ["The Rust book", available in multiple languages](https://doc.rust-lang.org/book/appendix-06-translation.html), [Spanish included](https://github.com/RustLangES/rust-book-es). The book is surprisingly well explained and very Foolproof, although it is a bit long, but it is understandable given the large amount of concepts to be exposed.
+
+{{<ad2>}}
 
 ### Educative
 
@@ -204,6 +208,8 @@ I also found that the videos of [Code to the Moon](https://www.youtube.com/@code
 The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty#?) also has some tutorials that will help you understand the concepts better.
 
 ### Rustlings
+
+{{<ad3>}}
 
 Rustlings contains a [series of exercises to learn and practice Rust](https://github.com/rust-lang/rustlings#?) while reading the Rust book.
 

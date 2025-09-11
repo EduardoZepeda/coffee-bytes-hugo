@@ -25,6 +25,8 @@ Go es [usado en proyectos tan colosales como el compilador de Typescript](https:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." >}}
 
+{{<ad0>}}
+
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
 ## ¿Qué es Go? Un poco sobre el lenguaje de programación
@@ -44,7 +46,7 @@ Si de verdad te interesa el tema, encontré este video que resume bastante bien 
 
 {{< youtube xSwJGMl--lA >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Aspectos geniales o ventajas del lenguaje Go
 
@@ -56,6 +58,8 @@ Si de verdad te interesa el tema, encontré este video que resume bastante bien 
 ## Mal diseño y desventajas del lenguaje Go
 
 Para hacer este análisis lo más objetivo posible, a continuación, te explico algunos aspectos controversiales de go que no son vistos con buenos ojos por algunos desarrolladores.
+
+{{<ad2>}}
 
 {{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Manejo de errores con Go con if" caption="Este patrón es bastante recurrente en las aplicaciones y llega a ser tedioso" >}}
 
@@ -71,6 +75,8 @@ Para hacer este análisis lo más objetivo posible, a continuación, te explico 
 ## Buenas prácticas de código en el lenguaje Go
 
 Go está fuertemente orientado a las buenas prácticas de código. ¿Cómo lo hace? El compilador fuerza buenas prácticas en el código, impidiendo que el código compile si hay variables o importaciones que no se usan, o si no se respetan las reglas de la privacidad de nuestras propiedades y funciones, entre otras.
+
+{{<ad3>}}
 
 {{< figure src="images/ErrorCompilacionGo.png" class="md-local-image" alt="Error de compilación en go por variables sin usar" caption="La compilación no se permite si hay variables sin usar." >}}
 

@@ -36,7 +36,7 @@ Por ejemplo en la creación de apps en las plataformas de desarrollador de X (an
 
 Existen múltiples soluciones para usar https en localhost, una de ellas es firmar nuestros propios certificados de manera manual, pero vamos a hacer esto de la manera rápida y fácil.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Servidor con https en localhost usando Caddy
 
@@ -54,6 +54,8 @@ your-sub-domain.localhost {
 
 ```
 
+{{<ad2>}}
+
 El subdominio es solo para poder aislarla del resto de aplicaciones que sirven en localhost. 
 
 La configuración anterior creará un reverse proxy o proxy inverso que redigirá el tráfico en *your-sub-domain.localhost* hacia el puerto 5000 de localhost. Recuerda reemplazar el puerto por el que prefieras.
@@ -68,6 +70,8 @@ Finalmente solo basta correr *caddy run*, o *caddy start*, si quieres una ejecuc
 ### Solución al error: Caddy "listen tcp :<port_number>: bind: permission denied"
 
 Si al intentar correr caddy obtienes un error de permiso denegado, se debe a que Linux impide que procesos no-root escuchen los puertos principales como el 443 o el 80.
+
+{{<ad3>}}
 
 Para permitir que [linux asigne el permiso]({{< ref path="/posts/linux/permisos-en-gnu-linux-y-el-comando-chmod/index.md" lang="es" >}}) de escuchar en esos puertos a caddy, corre el siguiente comando.
 

@@ -20,6 +20,8 @@ title: How to customize the User model in Django?
 
 In this post I explain three methods to extend or customize Django's _User_ model, without having to rewrite it from scratch, and keeping all [Django's user management features]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 
+{{<ad0>}}
+
 But, before we start, let's see where Django's User model comes from.
 
 ## Where does the Django User model come from?
@@ -38,7 +40,7 @@ If you look at the Django source code, you will see that the **User model you no
 
 Now that we know the above, **we can use the AbstractUser and AbstractBaseUser classes to create our custom User models**.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Extend Django user model inheriting from Django's AbstractUser subclass
 
@@ -55,6 +57,8 @@ class CustomUser(AbstractUser):
         default=0, 
         blank=True)
 ```
+
+{{<ad2>}}
 
 After creating a new class that inherits from _AbstractUser_, we need to tell Django that we want to use this new model instead of the default user model.
 
@@ -80,6 +84,8 @@ class RegisterFormForCustomUser(UserCreationForm):
         model = User
         fields = ['username', 'email']
 ```
+
+{{<ad3>}}
 
 And that's it, we can use it exactly as if we were using the _User_ model included in Django.
 

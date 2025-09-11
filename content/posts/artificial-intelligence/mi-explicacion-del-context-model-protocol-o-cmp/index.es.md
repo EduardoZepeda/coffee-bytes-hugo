@@ -92,6 +92,8 @@ Internamente no hay nada mágico, los servicios interactuan con los servidores o
 
 Aprecia como hay una validación inicial usando la conocida librería *Zod*, pero al final existe una llamada a una función para realizar una petición a una URL de Github.
 
+{{<ad0>}}
+
 ``` javascript {linenos=inline hl_lines=[20]}
 import { z } from "zod";
 import { githubRequest, buildUrl } from "../common/utils.js";
@@ -129,7 +131,7 @@ Esta es la parte mágica, el LLM puede "leer" las acciones disponibles del MCP y
 
 Hasta ahora he estado hablando de recursos y acciones, pero en el MCP estas dos acciones que se encargan de darle contexto a un LLM tienen nombres, por supuesto no iban a perder la oportunidad de darle branding a su protocolo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Tipos de contexto: Resources y Tools
 
@@ -143,6 +145,8 @@ Los tipos de contexto del MCP se dividen en:
 
 Puedes pensar en los Resources como [una petición *GET* de una API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), **destinada a obtener información, sin modificar nada**. 
 
+{{<ad2>}}
+
 ### ¿Cuál es el tipo de contexto Tools?
 
 Por otro lado, una tool sería el equivalente de una petición *POST*, *UPDATE*, *DELETE* o *PATCH*. 
@@ -154,6 +158,8 @@ Si te sientes más familiarizado con [APIs del tipo GraphQL](/es/django/como-cre
 ## ¿Cómo se comunica el MCP con los servers?
 
 El MCP tiene dos paradigmas de comunicación, uno de ellos es por medio del STDIO, o Standard Input Output, ~~sacado directamente de tus pesadillas programando en C #include <stdio.h>~~ ideal para comunicaciones locales, por ejemplo con una base de datos local, como Postgres o SQL.
+
+{{<ad3>}}
 
 El otro tipo es SSE o Server Sent Events, el cual realiza streaming de peticiones *POST* (similar [al streaming de peticiones en gRPC del que te hablé]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}})), ideal obviamente para comunicaciones que no ocurren en el mismo entorno.
 

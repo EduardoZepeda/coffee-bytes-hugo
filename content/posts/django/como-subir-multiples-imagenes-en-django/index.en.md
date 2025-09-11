@@ -26,6 +26,8 @@ First we install Django using pipenv. We will also install Pillow since we will 
 pip install django Pillow
 ```
 
+{{<ad0>}}
+
 Next we will create a new project and enter the newly created folder.
 
 If you don't know GNU/Linux commands I have a series of entries [with the most used GNU Linux commands]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
@@ -51,7 +53,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Creation of a model
 
@@ -63,6 +65,8 @@ from django.db import models
 class gallery(models.Model):
     image = models.ImageField()
 ```
+
+{{<ad2>}}
 
 Let's run the migrations so that the changes in our application are reflected in the database.
 
@@ -81,6 +85,8 @@ touch index.html
 ```
 
 Let's add the _templates_ location to the TEMPLATES configuration of our configuration file; _settings.py_.
+
+{{<ad3>}}
 
 ```python
 # settings.py

@@ -29,6 +29,8 @@ Esta publicación es una guia muy corta de consejos prácticos sobre diseño de 
 
 En la siguiente entrada hablaré de algunas cuestiones más subjetivas como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API REST?
 
+{{<ad0>}}
+
 ## ¿Qué es una API?
 
 El término API proviene de las siglas en inglés de *interfaz de programación de aplicaciones*, y consiste en una seríe de reglas que nos dicen como pueden comunicarse entre sí las aplicaciones y/o los dispositivos.
@@ -43,7 +45,7 @@ A la fecha aún existen protocolos que trabajan con peticiones POST, [como el Mo
 
 {{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="Linea del tiempo de APIs" caption="REST data del año 2000" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Qué es una API REST?
 
@@ -52,6 +54,8 @@ Una API REST es una API que cumple las normas de diseño de REST (Oye, más desp
 ### ¿Cuáles son las características de las API REST?
 
 No todas las APIs son REST, numerosos desarrolladores, de todos los niveles, usan, erróneamente, el término API REST para referirse a cualquier servidor que retorne JSON o incluso a APIs orientadas a realizar acciones en el servidor, como [RPC o gRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="es" >}}), incluso compañias tan grandes como Twitter y Facebook no cumplen todas las características de una API REST, a pesar de anunciar sus APIS como si lo hicieran.
+
+{{<ad2>}}
 
 Si ya conoces la breve parte técnica, sáltate esta sección.
 
@@ -73,6 +77,8 @@ En inglés:
 
 - [Representational state transfer (inglés)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
 - [Nobody understands REST](https://steveklabnik.com/writing/nobody-understands-rest-or-http)
+
+{{<ad3>}}
 
 En español:
 

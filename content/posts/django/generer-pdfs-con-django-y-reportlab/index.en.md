@@ -30,7 +30,7 @@ pip install reportlab
 # pip install reportlab
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Define PDF response type in Django
 
@@ -49,6 +49,8 @@ def pdfVideogame(request):
 
 ## Create a text PDF in Django
 
+{{<ad2>}}
+
 To begin with we are going to create a canvas to write on it.
 
 This library works as if we were painters, we can only have one brush active, each different brush stroke (font, font size or color) requires us to change brush (set another text size, font or color).
@@ -65,6 +67,8 @@ def pdfVideogame(request):
 ```
 
 Now we are going to use that font to "draw" a string at position 0 and 0.
+
+{{<ad3>}}
 
 ```python
 def pdfVideogame(request):

@@ -88,6 +88,8 @@ My take:
 
 ### Bolt vs Lovable vs V0 which should you choose?
 
+{{<ad0>}}
+
 As you may know there are no "perfect" in the tech world, everything is a trade off so...
 - If you're a solo developer: V0
 - For Design-focused teams: Lovable seems good
@@ -106,6 +108,8 @@ For the prompt, I used something quite simple. I decided not to be too specific,
 
 The result from [Vercel's V0](https://v0.dev/#?) is pretty decent. 
 
+{{<ad1>}}
+
 The color palette is Cyberpunkish. I adored the background they used in the back, the landing page seemed a little simple to me, but it perfectly delivers on its promise.
 
 {{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752634111/coffee-bytes/v0_0_5mb_gkrgvn.mp4">}}
@@ -113,6 +117,8 @@ The color palette is Cyberpunkish. I adored the background they used in the back
 ### I had troubles using V0-vercel
 
 However, I encountered problems with local execution, specifically a couple of dependencies that were not compatible with each other, nothing too complicated to solve. 
+
+{{<ad2>}}
 
 I mention this because I found it quite strange given that everything seemed to be working perfectly on their platform, but when I wanted to replicate the project on my computer, it didn't work “out of the box.”
 
@@ -125,6 +131,8 @@ But putting that aside, I think the result is solid.
 Bolt's AI added images that match the color palette, and I also think the frame around the image is a nice touch. The icing on the cake is the glitch effect on the hero, which is often used in cyberpunk-style audiovisual material. 
 
 {{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752633837/coffee-bytes/bolt_d6pbio_05mb_bsyje5.mp4">}}
+
+{{<ad3>}}
 
 Simply perfect, I had no problems with the installation. What I did notice is that the code uses quite a lot of resources even when there is no interaction. I haven't reviewed the code in detail, but I plan to do so and update this post.
 

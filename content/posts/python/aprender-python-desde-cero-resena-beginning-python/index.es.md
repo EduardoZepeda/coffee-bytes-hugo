@@ -15,6 +15,8 @@ slug: /python/aprender-python-desde-cero-resena-de-beginning-python/
 title: Aprender python desde cero Reseña de Beginning Python
 ---
 
+{{<ad0>}}
+
 Beginning Python: From Novice To Professional fue uno de los primeros libros de Python que leí. Elegí este libro porque con él se podía aprender Python desde cero. El libro parte desde la instalación del lenguaje, pasando por los diferentes tipos de estructuras de datos que incluye Python e incluso dos capítulos de abstracción. 
 
 Al llegar al final de la introducción, los siguientes capítulos de este libro tocan un tema diferente sobre Python cada uno, algunos de los temas que se tratan son los siguientes:
@@ -35,7 +37,7 @@ A propósito, si quieres aprender más de este lenguaje de programación aquí e
 
 El aspecto que más disfruté de este libro fue la gran variedad de temas que toca, pasa rápidamente del tutorial del lenguaje de programación básico a temas más complejos tales como la generación de ejecutables, compensar los cuellos de botella que tiene Python utilizando C ++ , la parte de las [pruebas en Python](/es/python/unittest-python-valen-la-pena-los-tests-en-python/) (que es ignorada en la mayoría de los tutoriales de programación), incluso aprendes la existencia de librerías bastante populares como swig, tornado, beautiful soup, entre otras.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Lo malo de Beginning Python
 
@@ -44,6 +46,8 @@ Mi mayor queja respecto a este libro tiene como culpable el abandono del autor. 
 ## Mi opinión
 
 Yo lo considero una excelente libro para aprender Python desde cero. Es muy difícil encontrar un tutorial que abarque una gama tan amplia de temas y tan distintos entre sí. Sin embargo si hago un enfasis en que la versión que debe adquirirse es la tercera edición, pues es la que tiene el contenido actualizado a Python 3, las ediciones anterior del libro están totalmente obsoletas y no son nada recomendables, mucho menos en visperas de la depreciación de Python 2.
+
+{{<ad2>}}
 
 **Conocimientos previos recomendados:** HTML**Recomendado para leerlo:** 8/10
 

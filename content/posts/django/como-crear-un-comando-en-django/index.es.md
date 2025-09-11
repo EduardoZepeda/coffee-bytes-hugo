@@ -70,7 +70,7 @@ class Command(BaseCommand):
 
 Para mostrar texto en la terminal usaremos _self.stdout.write_ para imprimir texto en la salida estándar. Podemos seleccionar entre varios estilos de acuerdo a lo que queramos mostrar.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Añadir argumentos al comando
 

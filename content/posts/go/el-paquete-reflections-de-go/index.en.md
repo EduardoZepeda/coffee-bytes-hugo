@@ -29,7 +29,7 @@ We can divide Go's reflection into two important types of data:
 **Type**: The Go data type, from which all the information of the data type, its class, name, size, etc. is broken down.
 **Value**: The Go data value, with methods to modify the data of an object.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Data type: Type and TypeOf
 
@@ -53,6 +53,8 @@ graph TD;
 
 In this diagram I place what I consider the most important methods of _Type_, but both _reflect.Type_ and _reflect.Value_ have many more.
 
+{{<ad2>}}
+
 See an example with _TypeOf_:
 
 ``` go
@@ -73,6 +75,8 @@ Notice how the data type is a structure corresponding to main, named _coffee_.
 ### Name, the name of the data type
 
 Name contains the name of the respective data type
+
+{{<ad3>}}
 
 ``` go
 // TypeOf returns a *reflect.Type* type

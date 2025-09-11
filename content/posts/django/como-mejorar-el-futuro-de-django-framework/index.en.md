@@ -23,6 +23,8 @@ On June 21, 2024 I started a thread on reddit with the following question: "What
 
 {{< figure src="https://htmx.org/img/memes/20yearold.png" class="md-local-image" alt="HTMX Meme" caption="HTMX meme" >}}
 
+{{<ad0>}}
+
 ## Would type hints improve Django Framework?
 
 This was the comment that received the most support from the community. Although Python already has optional Type Hints since version 3.5, it seems that implementing them for the purpose of modernizing Django Framework does not seem to be a priority.
@@ -37,7 +39,7 @@ However, according to reddit users, there is not much interest from the code mai
 
 {{<box type="info" message="In case you don't know what type hints are, type hints allow you to declare the type of a variable, argument, or the return value of a function to make it easier to identify bugs or unwanted behavior. Think of Python type hints as Python's Typescript, or as optional static typing in your favourite compiled language, such as C, C++, or Rust." >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Use a custom User model instead of the normal User model.
 
@@ -46,6 +48,8 @@ The second comment that received the most support states that customizing Django
 {{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Second comment with most support on how to improve Django" caption="Second comment with most support on how to improve Django" >}}
 
 Although there are multiple ways to [customize the User model in Django]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="en" >}}), such as using a proxy model, or inheriting from *AbstractUser*, some users find that solution a little bit "hackish".
+
+{{<ad2>}}
 
 {{<box type="info" message="In case you don't know, Django uses by default the *username* from its *User* model, in combination with the password, to log in a user. But the current trend in web development is to use email directly." >}}
 
@@ -58,6 +62,8 @@ The above seems to me an interesting proposal but I also understand that, despit
 ## Read environment variables in Django without third-party libraries
 
 Django can read environment variables directly using Python's *os* library, but other libraries, such as [django-environ](https://django-environ.readthedocs.io/en/latest/#?), have been developed to provide a more robust solution, where it reads directly from an *.env* file and where the absence of an environment variable will crash the application, ensuring that a Django application cannot start if even one environment variable is missing, which is what I imagine the developers of this popular forum want.
+
+{{<ad3>}}
 
 ``` python
 import os

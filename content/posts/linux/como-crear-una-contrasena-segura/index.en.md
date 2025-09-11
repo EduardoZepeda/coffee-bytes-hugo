@@ -23,7 +23,7 @@ For the above reason I have decided to share a bit of what I have read about it 
 
 They say that a chain is only as strong as its weakest link. Passwords are in many cases the weakest link. A computer system may be free of vulnerabilities and have the latest security patches, but it's no good if all that is protected by a weak password. And no, I'm not talking about abandoning passwords like "admin123" or "firulais" in favor of their modified versions: "4dm1n123" or "f1rul415". I'm talking about the fact that passwords should be more of a wall for attackers than a second entrance to your systems.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What does a secure password look like?
 
@@ -41,6 +41,8 @@ What characteristics must a password have to be secure? A secure password must h
 
 ## Keep your passwords separate from personal information
 
+{{<ad2>}}
+
 It's tempting enough to create an easy-to-remember password using your partner's name, your birthday or the name of your loved ones, your address, your cell phone number or your pet's name, but it's very insecure; anyone can have access to that information. A quick look at your social networks or a chat with one of your acquaintances is enough to get all that information.
 
 "But, what happens is that my password is a mixture of those things", no, still, it's not enough. There are programs like [JohnTheRipper](https://github.com/magnumripper/JohnTheRipper) capable of generating all possible combinations from your personal data, so it is not secure in any way. Your password should not have parts that can be obtained from a conversation with you or your acquaintances. Again, **your password should not be based on any personal information related to you.
@@ -56,6 +58,8 @@ CalleFalsa123 # Never use your street name
 There are a lot of dictionaries on the net with the most popular passwords, such as [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz), some even list all those passwords that have been obtained from website hacks.
 
 Make sure that your password is not in any of these dictionaries. A potential attacker will always use passwords from the most common dictionaries to try to compromise a system, if your password is in one of these dictionaries it is almost certain that your account will be an easy target.
+
+{{<ad3>}}
 
 ```bash
 # Never use common passwords

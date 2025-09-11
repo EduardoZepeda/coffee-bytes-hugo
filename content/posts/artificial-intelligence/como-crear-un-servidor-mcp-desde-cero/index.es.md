@@ -67,6 +67,8 @@ npm install @modelcontextprotocol/sdk@1.16.0 zod@3.25.76
 
 ## Crear un servidor MCP
 
+{{<ad0>}}
+
 Maneja la comunicacion entre cliente y servidor
 
 ``` javascript
@@ -104,6 +106,8 @@ server.tool("Strawberry Count", "Count the number of r's present in an strawberr
 
 Por favor nota que estamos contando las r's manualmente, no hay ningún truco, procesamos el string que recibimos y devolvemos la cantidad de r's.
 
+{{<ad1>}}
+
 Además, quiero destacar lo asombrosa que es la magia oscura que usa el LLM para obtener nuestro parámetro. Nuestro LLM detecta el parámetro que queremos recibir como parámetro de entrada directamente del usuario. ¿Cómo? utilizando como contexto la información de descripción que le pasamos al método *describe*.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753317103/are-you-a-wizard_hlrgoi.webp" class="md-local-image" alt="MCP meme" >}}
@@ -111,6 +115,8 @@ Además, quiero destacar lo asombrosa que es la magia oscura que usa el LLM para
 Obviamente tú mcp tool no hará algo tan inútil como contar r's, puedes obtener datos de una API, procesarlos, obtener información del sistema de archivos, o inclusive de otro LLM, lo que sea.
 
 ## ¿De donde obtiene el contexto el LLM?
+
+{{<ad2>}}
 
 Para este ejemplo usaremos el STDIO (Standard Input Output), que es básicamente la entrada de texto del usuario. 
 
@@ -127,6 +133,8 @@ Ahora vamos a conectar esta conexión con el servidor MCP, para que pueda tomar 
 ``` javascript
 await server.connect(transport)
 ```
+
+{{<ad3>}}
 
 ### Conexión del MCP con otras aplicaciones
 

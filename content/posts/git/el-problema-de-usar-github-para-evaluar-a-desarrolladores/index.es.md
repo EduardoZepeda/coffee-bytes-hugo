@@ -36,6 +36,8 @@ Es una práctica común usar Github para evaluar las capacidades de un desarroll
 {{< figure src="images/github-as-past-review-tool.webp" class="md-local-image" alt="Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien" caption="Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien" >}}
 
 
+{{<ad0>}}
+
 ¿Pero porqué alguien no querría mostrar la ~~horrible calidad de su código hecho en javascript~~ calidad de su código? Una de las razones es que probablemente esté demasiado ocupada escribiendo código que sí paga, en lugar de contribuir al open source.
 
 {{< figure src="images/tweet-push-code-that-makes-money.webp" class="md-local-image" alt="Tweet incendiario que desencadena acaloradas discusiones" caption="Tweet incendiario que desencadena acaloradas discusiones" >}}
@@ -50,7 +52,7 @@ Irónicamente mi github luce así:
 
 Sí, como ya sabes no todos son ~~fans del Slavoj Žižek del software libre: Richard Stallman~~ tan altruistas para contribuir código a la humanidad sin esperar nada a cambio, ¿podríamos culparlos?, ¿no están siendo hipócritas la mayoría de las empresas? ¿Acaso las empresas que usan Github para evaluar a sus candidatos tienen su base de código como open source?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Microsoft, Github y los escándalos relacionados con el robo de código
 
@@ -60,6 +62,8 @@ Microsoft nunca ha sido conocida por su ética a la hora de hacer negocios, desd
 - Cuando su [AI, Github copilot, copió descaradamente el código](https://aibusiness.com/responsible-ai/github-s-ai-powered-coding-tool-allegedly-copied-code#?) de unos investigadores
 
 Considerando lo anterior, e independientemente de la veracidad de las afirmaciones, **no me extrañaría que algunos desarrolladores opten por mantener su código fuera de las manos de Microsoft y sus servicios,** Github incluído, por supuesto.
+
+{{<ad2>}}
 
 {{< figure src="images/github-meme-invencibles.webp" class="md-local-image" alt="Meme de github" caption="Github meme de los invencibles" >}}
 

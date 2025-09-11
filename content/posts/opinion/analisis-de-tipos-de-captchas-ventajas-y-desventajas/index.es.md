@@ -28,6 +28,8 @@ Estoy seguro de que ya conoces este, pues es el captcha más común, y probablem
 
 El funcionamiento interno de este tipo de captchas es muy complejo y se basa en reconocer patrones en el tráfico de un usuario y probablemente analizarlos contra el gran cantidad de información que han recopilado a lo largo de los años para luego decidir si existe una probabilidad significativa de que un usuario sea un bot.
 
+{{<ad0>}}
+
 {{< figure src="images/recaptcha-style-captcha.gif" class="md-local-image" alt="Recaptcha style captcha solved" >}}
 
 Para un hipotético usuario generalmente basta con darle un click al checkbox y listo, pero si no convencimos al algoritmo del captcha, este nos pedirá  ~~que entrenemos a sus modelos de AI completamente gratis~~ un par de pruebas más en las que tendremos que identificar imágenes.
@@ -44,7 +46,7 @@ Mi veredicto:
 - Securidad: 9
 - Amistoso con el usuario: 8 sin el reconocimiento de imagenes y 5 con el reconocimiento de imágenes
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Preguntas básicas como captchas
 
@@ -53,6 +55,8 @@ Existen opciones de captchas más primitivas, pero no por eso menos efectivas ta
 Para resolverla basta con leerla y colocar el resultado correcto.
 
 {{< figure src="images/simple-question-captcha.png" class="md-local-image" alt="Simple Question captcha example" >}}
+
+{{<ad2>}}
 
 Este tipo de captchas me parecen super prácticos para lidiar con la mayoría de los bots que deambulan ciegamente en internet, y además son mínimamente invasivos para el usuario. 
 
@@ -67,6 +71,8 @@ Mi veredicto:
 ## Captchas de identificación de caracteres
 
 Otra alternativa popular a las preguntas sencillas es utilizar una imagen con números y letras y pedirle al usuario que los identifique y coloque en el campo adecuado, estas letras vienen distorsionadas de alguna forma para volverlas irreconocibles a los bots.
+
+{{<ad3>}}
 
 {{< figure src="images/letters-and-numbers-captcha.png" class="md-local-image" alt="letters and number captcha" >}}
 

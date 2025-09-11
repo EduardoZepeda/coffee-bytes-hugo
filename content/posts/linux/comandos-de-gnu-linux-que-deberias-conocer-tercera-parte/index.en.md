@@ -22,6 +22,8 @@ This is the continuation of the following parts:
 * [GNU Linux Basic Commands, part one]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
 * [GNU Linux basic commands, part two](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
 
+{{<ad0>}}
+
 ## printenv
 
 Printenv is in charge of printing the environment variables of our system.
@@ -47,7 +49,7 @@ printenv LANG
 en_US.UTF-8
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## export
 
@@ -60,6 +62,8 @@ my_value
 ```
 
 ## lsof
+
+{{<ad2>}}
 
 This command returns a list of files and the processes that are using them.
 
@@ -77,6 +81,8 @@ sudo lsof -u <username>
 ```
 
 Or by process:
+
+{{<ad3>}}
 
 ```bash
 sudo lsof -c <process_name>

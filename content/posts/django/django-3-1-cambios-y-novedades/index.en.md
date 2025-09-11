@@ -48,6 +48,8 @@ Django now incorporates three decorators for your middleware factories. Also, if
 * async_only_middleware()
 * y sync_and_async_middleware()
 
+{{<ad0>}}
+
 ```python
 import asyncio
 from django.utils.decorators import sync_and_async_middleware
@@ -80,7 +82,7 @@ async def test_my_thing(self):
     self.assertEqual(response.status_code, 200)
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## JSON compatible fields
 

@@ -25,6 +25,8 @@ As surprising as it may sound, many servers do not enable HTTP/2 by default, so 
 
 First we go to the file where we have enabled our website in nginx:
 
+{{<ad0>}}
+
 ```bash
 sudo vim /etc/nginx/sites-enabled/mi-sitio
 ```
@@ -56,7 +58,7 @@ server: nginx
 # ...
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Enable gzip compression in nginx
 
@@ -67,6 +69,8 @@ To enable it we are going to modify the nginx configuration file. Remember that 
 ```bash
 vim /etc/nginx/nginx.conf
 ```
+
+{{<ad2>}}
 
 If we go to the Gzip section we will see several commented values.
 
@@ -89,6 +93,8 @@ gzip_disable "msie6";
 Among the values discussed are the minimum length to compress, the compression level, whether we want to apply compression for proxy requests, the MIME types that will receive compression and other options.
 
 Let's break them all down. We will also add a few MIME types to the _gzip_types_ option.
+
+{{<ad3>}}
 
 ```bash
 # /etc/nginx/nginx.conf

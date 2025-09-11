@@ -41,6 +41,8 @@ Consider that, if you are going to [assign a name to your package]({{< ref path=
 
 To create the tests, inside the _testing/main_test.go_ file, we need a function that receives as argument our testing package with the destructuring character.
 
+{{<ad0>}}
+
 We will compare the result using an if, or whatever we want and, **if the test fails, we will call the _Errorf_** method of the _testing_ module.
 
 ```go
@@ -66,7 +68,7 @@ func Division(a int, b int) int {
 }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Execute tests
 
@@ -79,6 +81,8 @@ go test
 PASS
 ok main/testing 0.001s
 ```
+
+{{<ad2>}}
 
 On the other hand, if the tests fail, the word FAIL will be printed on the screen:
 
@@ -97,6 +101,8 @@ In the above example we used one function to test one case, however, if we neede
 To avoid filling up with functions, developers use an array composed of structs, where each struct represents a case to be tested. You can think of the array of structs as a table, where each row is a case and each column is a data type to be tested.
 
 In this case, each struct in our array consists of three integers; the first two represent the arguments, while the last one is the result.
+
+{{<ad3>}}
 
 ```go
 tables := []struct {

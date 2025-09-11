@@ -21,6 +21,8 @@ This is my analysis of some of the most popular captcha options out there and my
 
 ## Google recaptcha and similar
 
+{{<ad0>}}
+
 I'm sure you already know this one, as it's the most common, and probably the most popular captcha out there. Google's and Cloudflare's stand out here.
 
 {{< figure src="images/recaptcha-open-ai-sam-altman.jpg" class="md-local-image" alt="Recaptcha elon musk" >}}
@@ -37,7 +39,7 @@ My veredict:
 - Security: 9
 - User friendly: 8 wiithout image recognition and 5 with it
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Basic questions captchas
 
@@ -46,6 +48,8 @@ There are more primitive captcha options, but no less effective such as a simple
 To solve it, just read it and enter the correct result.
 
 {{< figure src="images/simple-question-captcha.png" class="md-local-image" alt="Simple Question captcha example" >}}
+
+{{<ad2>}}
 
 I find this kind of captchas super practical to deal with most of the bots that blindly roam the internet, and they are also minimally invasive for the user. 
 
@@ -60,6 +64,8 @@ My veredict:
 ## Character recognition captchas
 
 Another popular alternative to simple questions is to use an image with numbers and letters and ask the user to identify them and place them in the appropriate field, these letters are distorted in some way to make them unrecognizable to bots.
+
+{{<ad3>}}
 
 {{< figure src="images/letters-and-numbers-captcha.png" class="md-local-image" alt="letters and number captcha" >}}
 

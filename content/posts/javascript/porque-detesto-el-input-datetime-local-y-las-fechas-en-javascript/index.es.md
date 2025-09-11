@@ -30,7 +30,7 @@ Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos 
 
 {{< figure src="images/date-javascript.webp" class="md-local-image" alt="El manejo de fechas en Javascript no es intuitivo" caption="El manejo de fechas en Javascript no es intuitivo" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## La desconexión entre HTML y JS
 
@@ -44,6 +44,8 @@ Bien, tras esto el input datetime-local funcionará y mostrará la fecha, el pro
 
 {{< figure src="images/formatting-dates-in-javascript.jpg" class="md-local-image" alt="Meme que ironiza el manejo de fechas en Javascript" caption="Oh, mom! Not javascript again!" >}}
 
+{{<ad2>}}
+
 Pero, ¿y si usamos una librería para manejar esos cambios? 
 
 ## Las librerias de js para el manejo de tiempo no solucionan nada
@@ -55,6 +57,8 @@ Esas librerías existen, porque Javascript hizo un pésimo papel al diseñar su 
 Quizás pueda parecerte insignificante añadir una librería más, pero no es el peso el problema, sino el hecho de que una librería para algo tan común como el manejo de fechas sea tan necesario, además de que añade peso innecesario a tu bundle y una dependencia extra que gestionar.
 
 El hecho de que estas librerías sean populares solo pone de manifiesto las carencias de Javascript como lenguaje. 
+
+{{<ad3>}}
 
 Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), también soy capaz de reconocer sus carencias y áreas de mejora.
 

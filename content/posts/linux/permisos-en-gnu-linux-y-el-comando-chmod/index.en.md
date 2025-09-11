@@ -36,6 +36,8 @@ There are 3 sets of 3 letters, each set contains spaces for the letters '_r_' '_
 
 The presence of a hyphen indicates the absence of permissions. The first set represents the permissions of the file owner, the second set represents the permissions of the group to which the file belongs, and the third set represents the permissions of others. Before the first set is a space for the file type; '_D_' for directory, or a hyphen for a file.
 
+{{<ad0>}}
+
 {{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Meaning of permissions on a GNU/Linux system" caption="Meaning of permissions on a GNU/Linux system" >}}
 
 None of the sets have permissions to execute the _helloWorld.out_ file so, when trying to do so, it will show us the sentence '_permission denied_' in the terminal.
@@ -74,7 +76,7 @@ total 16
  Hello world
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What do the numbers in the chmod command mean?
 
@@ -87,6 +89,8 @@ The '_r_' permission will have a value of 4, the '_w_' permission will have a va
 | Read    | 4     |
 | Write   | 2     |
 | Execute | 1     |
+
+{{<ad2>}}
 
 {{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Meaning of numbers in GNU/Linux permissions" caption="Meaning of numbers in GNU/Linux permissions" >}}
 
@@ -110,6 +114,8 @@ _rwxr_xr_x
 ___x__x__x
  Same as 111
 ```
+
+{{<ad3>}}
 
 ## Another method to assign permissions with chmod
 

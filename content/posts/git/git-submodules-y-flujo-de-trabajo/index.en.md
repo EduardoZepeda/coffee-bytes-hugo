@@ -97,6 +97,8 @@ gitdir: ../.git/modules/<submodule>
 
 And what's at that location? In that location are the files with which git manages a repository internally, they keep the same structure as the ones inside the _.git_ folder of your main repository.
 
+{{<ad0>}}
+
 ### Git treats submodules as individual repositories.
 
 A submodule is handled in exactly the same way as a normal repository.
@@ -116,7 +118,7 @@ Git treats each submodule as if it were a separate repository, so **each version
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745888025/coffee-bytes/submodule-relation-commit_mxkmhf.jpg" class="md-local-image" alt="Git submodules-correspondence" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Workflow of git submodules
 
@@ -125,6 +127,8 @@ Every time you make a change **within your submodule you must push the changes a
 What happens if you don't? Well this is where the nightmare of all the people who hate submodules begins, you will be working on the latest version of the submodule, while your colleagues will be working on the old version.
 
 ### Steps to save changes in a git submodule
+
+{{<ad2>}}
 
 How to solve it? With these three steps
 
@@ -148,6 +152,8 @@ git push
 ```
 
 The important thing to remember here is that we must always update changes to both the submodule and the main repository.
+
+{{<ad3>}}
 
 ### Initializing a repository with a git submodule in git
 

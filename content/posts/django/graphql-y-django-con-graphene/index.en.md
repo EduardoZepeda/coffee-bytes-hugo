@@ -31,6 +31,8 @@ Graphql allows you to integrate requests from multiple sources into a single API
 
 {{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Differences between REST and Graphql" >}}
 
+{{<ad0>}}
+
 The schema tells graphql what kind of objects we will return and what fields of these objects, graphql will use a resolver to get that information from a database or any other reference.
 
 {{< figure src="images/EsquemaGraphqlSimplificado.png" class="md-local-image" alt="graphql schematic in Javascript" >}}
@@ -45,7 +47,7 @@ I'm more a fan of keeping things as simple as possible and complicating them unt
 
 Each team or person should consider whether it is worth implementing graphql according to the short, medium and long term needs of the app to be built. Maybe REST is enough, or maybe not.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Installation of graphene-django
 
@@ -58,6 +60,8 @@ pip install graphene-django==2.15.0 django
 django-admin startproject criticaAnimes .
 django-admin startapp anime
 ```
+
+{{<ad2>}}
 
 I will now create a single model in the app and add three instances using the admin. I have a post about the django admin in case you don't know how to configure it.
 
@@ -78,6 +82,8 @@ python manage.py migrate
 ```
 
 Now let's install graphene in our Django application.
+
+{{<ad3>}}
 
 Graphene-django requires staticfiles to be installed in your application, so make sure you have it installed.
 

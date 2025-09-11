@@ -26,6 +26,8 @@ Como seguramente ya sabes, el kernel de Linux es el que se encarga de "prestarle
 
 Debido a que linux es el núcleo del sistema, es capaz de pedir de vuelta esos recursos en cualquier momento y cerrar la aplicación. 
 
+{{<ad0>}}
+
 Linux puede pedirle "amablemente" a las aplicaciones los recursos que les prestó o "arrebatárselos" por la fuerza. Para lo anterior, Linux envía una serie de señales (signals) a la aplicación, algunas de las cuales pueden ser capturadas y manejadas por la misma aplicación, con código en Go.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743294302/coffee-bytes/linux-kill-9-shutdown-meme_rb0mqw.jpg" class="md-local-image" alt="\"Linux terminará una aplicación de manera amable usando la señal SIGKILL\"" caption="Linux terminará una aplicación de manera amable usando la señal SIGKILL" >}}
@@ -48,7 +50,7 @@ kill -<valor> <pid>
 // kill -2 1234
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Manejo de señales o signals en Go
 
@@ -63,6 +65,8 @@ func gracefulShutdown() {
 ```
 
 ### Manejando los signals con canales o channels
+
+{{<ad2>}}
 
 Ahora tenemos un canal que recibe nuestra señal, pero... ¿qué hacemos con ella?
 
@@ -91,6 +95,8 @@ func gracefulShutdown() {
 	// ... resto del código
 }
 ```
+
+{{<ad3>}}
 
 Por último, para que esta función se ejecute correctamente, necesitamos que se ejecute dentro de su [propia goroutine](/es/go/go-introduccion-a-las-goroutines-y-concurrencia/). Para lo cual basta con anteponer la palabra clave go a la llamada de la función.
 

@@ -30,6 +30,8 @@ One fine day, while surfing the internet, I discovered the personal blogs on [bl
 
 ## Internet and blogs
 
+{{<ad0>}}
+
 After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/#?)" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. 
 
 Eventually I wanted to customize it and found that to do so I had to modify the HTML and CSS code. In order to modify my tiny little corner on the internet the way I wanted, I learned the basics of HTML and CSS; to change the font color, the background, modify the layout to have more columns, to insert background images, to add small scripts and chatboxes, etc.
@@ -44,7 +46,7 @@ I didn't like university (in general, not only the career I chose), I found it s
 
 I finished my degree and **graduated in the top three GPAs of my class**. However, after a quick glance to the available workplaces in my hometown, I decided never to practice.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Supercell and Miku Hatsune
 
@@ -53,6 +55,8 @@ One afternoon I was researching about a Japanese band called [Supercell](https:/
 The more I read about Miku Hatsune the more I wanted to know, I was stunned; the company that had programmed Vocaloid was literally giving a voice to all those artists who, for one reason or another, did not have a voice to bring their lyrics to life. At that moment I understood the true potential that the code had and I said to myself: "I also want to use computers and code to create".
 
 {{< figure src="images/FiguraDeMikuHatsune.jpg" class="md-local-image" alt="Miku Hatsune plastic figure" caption="Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/" >}}
+
+{{<ad2>}}
 
 At that time, it crossed my mind to go back to college, but I dismissed the idea immediately. I had already been there, the university was inefficient, the level of most of the professors was mediocre at best, their academic plans were completely outdated and the face-to-face classes were slow and inefficient. I decided that I would not make the same mistake twice, this time I would try to learn on my own.
 
@@ -65,6 +69,8 @@ In Linux I learned how to install programs and the basic commands. Later I learn
 ## My experience with PHP
 
 PHP was my first experience with a programming language, and also the shortest one. After reading a thick book called Beginning PHP and MySQL, written by W. Jason Gilmore at the municipal library, and learning quite a few basic concepts I was quite overwhelmed with the large amount of unnecessary functions, its syntax seemed chimerical and whimsical, and I was quite disappointed when I learned that the language was incapable of producing desktop applications in a simple way.
+
+{{<ad3>}}
 
 PHP had introduced me to the world of programming relatively easily, but I still felt that the language was not for me... but then I met Python.
 

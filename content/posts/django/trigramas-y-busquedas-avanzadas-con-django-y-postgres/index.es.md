@@ -26,6 +26,8 @@ title: Trigramas y búsquedas avanzadas con Django y Postgres
 
 {{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Búsqueda de la palabra \"parfume\" en amazon." >}}
 
+{{<ad0>}}
+
 ¿No recuerdas las búsquedas básicas en Django? Tengo una entrada sobre [búsquedas básicas y full text search usando Django y Postgres](/es/django/full-text-search-y-busquedas-con-django-y-postgres/), si no la has leído date una vuelta primero por allá.
 
 ## Trigramas en Django y Postgres
@@ -40,7 +42,7 @@ La razón de que parfume se parezca a perfume es porque ambos contienen trigrama
 
 Trigramas son tres caracteres consecutivos
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Trigramas y palabras similares
 
@@ -55,6 +57,8 @@ Videogame.objects.filter(name__trigram_similar="autommattaa") # debería decir a
 ```
 
 Mira los trigramas para la palabra "automata" directo desde la terminal de postgres
+
+{{<ad2>}}
 
 ```sql
 SELECT show_trgm('automata');
@@ -77,6 +81,8 @@ SELECT show_trgm('autommattaa');
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg" class="md-local-image" alt="Trigramas compartidos entre dos cadenas de texto." >}}
 
 Observa también que las comillas alrededor de ciertos trigramas son para especificar trigramas con espacios
+
+{{<ad3>}}
 
 **La cantidad de trigramas que comparten un par de cadenas de texto puede expresarse por medio de un índice**. A mayor cantidad de trigramas compartidos mayor será este índice.
 

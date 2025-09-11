@@ -74,6 +74,8 @@ python manage.py migrate
 
 Sí todo salió bien, agregamos las rutas necesarias, yo las he agregado a _api/authentication/_, pero tú puedes usar otra ruta.
 
+{{<ad0>}}
+
 ```python
 # urls.py
 INSTALLED_APPS = [
@@ -102,7 +104,7 @@ El endpoint de login nos devuelve una key que usaremos como token
 
 Pero no hemos terminado. Hasta este momento podemos manejar usuarios pero no crearlos. Para eso usaremos la siguiente librería.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Registro de usuarios con DRF
 
@@ -111,6 +113,8 @@ Usaremos otra librería, esta vez llamada django-allauth.
 ### Instalación de django-allauth
 
 Al igual que la librería anterior, vamos a instalarla.
+
+{{<ad2>}}
 
 ```bash
 pip install django-allauth~=0.42.0
@@ -138,6 +142,8 @@ SITE_ID = 1
 ```
 
 Ahora, como nuestra aplicación tiene modelos, es buena idea correr nuevamente las migraciones.
+
+{{<ad3>}}
 
 ```bash
 python manage.py migrate

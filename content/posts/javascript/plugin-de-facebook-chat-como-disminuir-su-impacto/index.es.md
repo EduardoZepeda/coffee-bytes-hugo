@@ -32,7 +32,7 @@ La carga del plugin de facebook desencadena una larga lista de peticiones web qu
 
 Los plugin de terceros pueden impactar fuertemente en las métricas y el rendimiento de tus páginas web, tanto en el frontend como el backend.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Retrasar la carga del plugin
 
@@ -51,6 +51,8 @@ Yo voy a retrasar la carga hasta que el usuario interactué con el chat.
 
 Para empezar vamos a colocar un icono falso en lugar del original. Este icono es el mismo que descarga facebook. Dado que es una simple imagen, no carga nada de código JS ni va acompañado de ninguna petición a los servidores de facebook.
 
+{{<ad2>}}
+
 Identificaremos este ícono de facebook falso por su id: fb-chat-logo
 
 ```html
@@ -68,6 +70,8 @@ const fakeFbChatLogo = document.getElementById('fb-chat-logo');
 ```
 
 Y le pasaremos una función llamada _loadFacebookChat_ que crearemos a continuación.
+
+{{<ad3>}}
 
 ```javascript
 function loadFacebookChat() {

@@ -239,6 +239,8 @@ wg.Wait()
 
 ### Asynchronism in Python
 
+{{<ad0>}}
+
 In Python, coroutines did not appear until version 3.5. Asynchronous functions run in a single thread and only switch to another coroutine when an asynchronous operation is encountered.
 
 The same syntax as async and await is used. For this we use the library, gather all the tasks to be executed with _gather_ and execute them with _run_.
@@ -260,7 +262,7 @@ if __name__ == "__main__":
 
 This script will take three seconds to run.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Error handling comparison Python and Go
 
@@ -269,6 +271,8 @@ Error handling is something that is a fairly constant feature of languages, but 
 ### Error handling in go
 
 Go has a rather peculiar way of handling errors. **It does not have _try_ and _except_ blocks (or their equivalent in other languages)**. Instead, the execution of a function can return an error as a second return value, which we can get and check to see if an error has occurred and manually handle it.
+
+{{<ad2>}}
 
 ```go
 message, err := requestToApiEndpoint("")
@@ -291,6 +295,8 @@ except:
 ## Which language is worst, Python vs Go?
 
 ### Not so cool things about go
+
+{{<ad3>}}
 
 Go is very opinionated. It has very rigid positions on certain things, such as the use of all variables, but leaves use of all variables, but leaves many others to good user handling, such as errors caused by pointers or null pointers. I would accuse Go of being inconsistent in that respect.
 

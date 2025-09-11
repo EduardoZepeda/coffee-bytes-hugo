@@ -41,6 +41,8 @@ match subject:
         <action_wildcard
 ```
 
+{{<ad0>}}
+
 El case seguido del guión bajo funcionará como el caso por defecto en caso del que patrón no coincida con ningún otro. Es decir, el equivalente de _default_ en lenguajes como Javascript.
 
 Veamos un ejemplo:
@@ -76,7 +78,7 @@ match subject:
 
 Y hay que notar que el _subject_ puede ser una cadena de texto, un objeto, una tupla o una instancia de una clase.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Switch en Python antes de su versión 3.10
 
@@ -93,6 +95,8 @@ if valor == "caso_3":
 ```
 
 O recurriendo a técnicas un poquito más sofisticadas:
+
+{{<ad2>}}
 
 ```python
 def evalua_caso(caso, *args):
@@ -111,6 +115,8 @@ Los valores de cada llave en el diccionario pueden reemplazarse por funciones pa
 Además del nuevo match, Python 3.10 trae otros cambios y adiciones al lenguajes, los cuales son bastantes pero te resumo los que yo considero los más importantes:
 
 ### Paréntesis en manejadores de contexto
+
+{{<ad3>}}
 
 Ya puedes usar paréntesis a lo largo de múltiples lineas en los manejadores de contexto (las sentencias que empiezan con with ... as)
 

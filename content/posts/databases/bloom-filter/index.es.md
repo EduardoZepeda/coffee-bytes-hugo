@@ -62,6 +62,8 @@ Cuando agregas un elemento, el filtro lo pasa por cada función hash. Cada funci
 
 Como no almacenas los datos reales, sino solo el patrón que permance tras las hash functions, no puedes saber qué combinación de dato y función hash específica lo produjo. Por eso no es posible “eliminar” un elemento.
 
+{{<ad0>}}
+
 ### No puedes recuperar miembros del conjunto
 
 Una vez construido el Bloom filter, no puedes saber qué elementos lo generaron. Solo puedes comprobar si algo podría pertenecer o definitivamente no pertenece al conjunto.
@@ -76,6 +78,8 @@ Siempre puedes añadir más funciones hash para reducir colisiones, pero eso aum
 
 Cuando revisas un elemento, el bloom filter hace lo mismo. Si todas las posiciones están en 1, el elemento *podría* estar en el conjunto (por eso es probabilístico). Si alguna posición está en 0, el elemento *definitivamente* no está en el conjunto.
 
+{{<ad1>}}
+
 ## Flujo básico de un Bloom filter
 
 Aquí tienes un esquema sencillo que puedes usar sin pena para inspirarte en las artes oscuras de los Bloom filters:
@@ -83,6 +87,8 @@ Aquí tienes un esquema sencillo que puedes usar sin pena para inspirarte en las
 1. Decide el tamaño del arreglo de bits e inicializa todo en 0.
 
 2. Elige algunas funciones hash independientes.
+
+{{<ad2>}}
 
 3. Para añadir un elemento:
 
@@ -98,6 +104,8 @@ Aquí tienes un esquema sencillo que puedes usar sin pena para inspirarte en las
 ### Pseudocódigo de un Bloom filter
 
 Con pseudocódigo (sí, debería haber usado Javascript), se vería así:
+
+{{<ad3>}}
 
 ```python
 initialize bit_array of size m with all 0s

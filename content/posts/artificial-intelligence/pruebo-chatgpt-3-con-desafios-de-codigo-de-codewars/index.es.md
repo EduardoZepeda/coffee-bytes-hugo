@@ -28,7 +28,7 @@ Cada kata posee un nivel de dificultad, definido por su número de kyu (como en 
 
 Los desafios son muy variados, van desde pruebas clásicas; como la obtención de números primos, hasta algunas más complejos; como escribir código sin superar dos caracteres por linea.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Test con peticiones comunes a ChatGPT
 
@@ -47,6 +47,8 @@ Francamente, estoy sorprendido con las capacidades de generar código correcto q
 
 Para esta entrada voy a ponerlo a prueba a esta inteligencia artificial con acertijos de algoritmos que requieren un poco más que googlear información en internet.
 
+{{<ad2>}}
+
 ## Selección de las pruebas de Codewars
 
 Para estas pruebas traté de elegir un punto medio entre aquellas pruebas con requisitos muy directos y con soluciones abundantes en la red (como los números de fibonacci o los primos) y aquellas otras que requieren muchísima información adicional, premisas muy complejas o que requieren contexto extra. Además me enfoqué en aquellas soluciones que no son tan populares en la red.
@@ -58,6 +60,8 @@ El desafio de la [prueba Rotate matrix counter - clockwise N - times!](https://w
 El input que usé en ChatGPT para generar el código es el siguiente: Create a function that rotates a matrix counter-clockwise "n" number of times.
 
 {{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rotate a Matrix counter-clockwise with ChatGPT" caption="Rotate a Matrix counter-clockwise with ChatGPT" >}}
+
+{{<ad3>}}
 
 El código Python generado por nuestra Inteligencia Artificial es el siguiente:
 

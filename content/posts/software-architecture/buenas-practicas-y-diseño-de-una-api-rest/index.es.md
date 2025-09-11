@@ -62,6 +62,8 @@ Twitter tiene su propia manera de hacer las cosas, la respuesta de un recurso in
 
 Para recursos múltiples, Twitter decidió incluirlos dentro de un array.
 
+{{<ad0>}}
+
 ```json
 [
   {
@@ -105,7 +107,7 @@ Mientras que una respuesta para recursos múltiples es así:
 
 ¿A quien hacerle caso? Como puedes ver diferencias entre compañias y no se si me atrevería a decirte que una u otra es correcta, pero considero que si te mantienes constante en cada uno de tus endpoints y lo documentas bien, no deberías tener problemas.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿URLs relativas o completas en HATEOAS?
 
@@ -117,6 +119,8 @@ Mientras que una respuesta para recursos múltiples es así:
 ```
 
 ## Objetos anidados en la respuesta
+
+{{<ad2>}}
 
 Generalmente una API no retorna recursos individuales, sino recursos que están relacionados con otros recursos a nivel base de datos por relaciones uno a uno, muchos a muchos o uno a muchos. La pregunta aquí es: ¿los incluimos en la respuesta aunque esto aumente su tamaño? ¿ponemos solo los identificadores y los descargamos después? Depende.
 
@@ -137,6 +141,8 @@ Esta aproximación al problema necesitará que si el usuario requiere acceder a 
 Esto puede traerte el problema de las n+1 queries si no lo manejas bien; considera el ejemplo anterior, cada solicitud a un post implica una nueva petición a la base de datos para obtener cada comentario.
 
 Por supuesto que eso puede arreglarse optimizando tus búsquedas de manera que, en lugar de obtenerlos individualmente, los obtengas en una sola query.
+
+{{<ad3>}}
 
 ```json
 GET /comments/2,3

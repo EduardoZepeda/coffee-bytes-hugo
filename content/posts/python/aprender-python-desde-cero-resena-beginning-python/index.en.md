@@ -12,6 +12,8 @@ description: 'This post is a brief review of Beginning Python: From Novice To Pr
 title: Learn python from scratch Beginning Python Review
 ---
 
+{{<ad0>}}
+
 Beginning Python: From Novice To Professional was one of the first Python books I read. I chose this book because with it you could learn Python from scratch. The book starts from the installation of the language, going through the different types of data structures that Python includes and even two chapters on abstraction. 
 
 When you get to the end of the introduction, the following chapters of this book touch on a different topic about Python each, some of the topics covered are as follows:
@@ -32,7 +34,7 @@ Also, if you want to learn more about this programming language [here's my list 
 
 The aspect I enjoyed most about this book was the wide variety of topics it touches on, it moves quickly from the basic programming language tutorial to more complex topics such as generating executables, compensating for the bottlenecks that Python has using C++, the part of [tests in Python](/en/python/unittest-python-are-python-tests-worthwhile/) (which is ignored in most programming tutorials), you even learn the existence of quite popular libraries such as swig, tornado, beautiful soup, among others.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What's wrong with Beginning Python
 
@@ -41,6 +43,8 @@ My biggest complaint about this book has the author's neglect as the culprit. Th
 ## My opinion
 
 I consider it an excellent book to learn Python from scratch. It's challenging to find a tutorial that covers such a wide range of topics and so different from each other. However, I do emphasize that the version that should be purchased is the third edition, as it is the one that has the content updated to Python 3, the previous editions of the book are totally obsolete and are not recommended, much less in view of the depreciation of Python 2.
+
+{{<ad2>}}
 
 **Recommended prior knowledge:** HTML**Recommended to read:** 8/10
 

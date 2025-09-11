@@ -25,6 +25,8 @@ If you are going to develop a REST API, I have a post with multiple [REST API de
 
 For this example I use Python 3.8, Django 3.2.5 and Pipenv version 2020.5.28.
 
+{{<ad0>}}
+
 ## Installation
 
 To install it we are going to use [Pipenv](/en/python/pipenv-the-virtual-environment-manager-you-dont-know/), but you can use Poetry, [pip](/en/python/python-virtualenv-linux-basic-tutorial/) or any other virtual environment manager.
@@ -49,7 +51,7 @@ We execute the migrations. This will create the tables needed to manage the post
 python manage.py migrate
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Obtaining Mexico's postal codes from SEPOMEX
 
@@ -65,6 +67,8 @@ The postal code database has been successfully populated
 ```
 
 That's all, now we just need to import include and add our urls. I put the path _api/_ but you can use the one you want.
+
+{{<ad2>}}
 
 ```bash
 from django.contrib import admin
@@ -86,6 +90,8 @@ If we now make a request _api/09000/_ or any other 5-digit postal code we will r
 curl localhost:8000/api/09000/
 {"codigoPostal": "09000", "municipio": "Iztapalapa", "estado": "Ciudad de M\u00e9xico", "colonias": ["La Asunci\u00f3n", "San Ignacio", "San Jos\u00e9", "San Lucas", "San Pablo", "San Pedro", "Santa B\u00e1rbara"]}
 ```
+
+{{<ad3>}}
 
 {{< figure src="images/Api-codigos-postales-mx.png" class="md-local-image" alt="Django API query result for postal code \"09000\"" caption="Django API query result for postal code 09000" >}}
 

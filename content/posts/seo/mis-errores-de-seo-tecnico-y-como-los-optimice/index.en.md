@@ -27,6 +27,8 @@ After that incident I wrote [{{<title "/posts/guia-de-seo-tecnico-para-desarroll
 
 SEO is the factor that determines whether a website appears first in the search results of a search engine (almost always Google) or whether it is buried in the last positions, receiving little or no traffic and condemning the business it represents to bankruptcy, or if it is a personal project, to oblivion.
 
+{{<ad0>}}
+
 And I'm not talking about subtle differences, I'm talking about abysmal differences.
 
 At the risk of sounding redundant, I will repeat it again: the traffic of a web site is much more important than the efficiency, the language or framework used to code it, yes, even if you wrote it in C++ or directly in assembler.
@@ -41,7 +43,7 @@ Hence, when a web developer launches their personal projects, they often complet
 
 {{< figure src="images/web-development-assembly.webp" class="md-local-image" alt="Web development in assembly meme" caption="It is said that only true programmers program in low-level languages." >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## My mistakes migrating a website without considering Technical SEO
 
@@ -50,6 +52,8 @@ When I migrated my web development blog, the first thing that I blatantly ignore
 ### The presence of a sitemap is crucial in Tech SEO
 
 A [sitemap is an xml file that functions as a map to navigate your site](/en/django/dynamic-sitemap-with-django/). 
+
+{{<ad2>}}
 
 The sitemap that my previous website had was located at a specific URI, which I changed when I migrated the website, so Google was unable to find it, and then what happened? Well... Google indexed the pages randomly, as you probably already know, and I suffered the consequences.
 
@@ -62,6 +66,8 @@ How could I have prevented this? By **logging in my Google search console accoun
 ### How I realized that URL structure is important in Tech SEO
 
 But that wasn't all, after the migration from Wordpress to Hugo, Google detected a lot of 404 errors when accessing the old URLs and, as a punishment for being so careless, my traffic decreased by about 70%, yes 70%, painful I know.
+
+{{<ad3>}}
 
 Why did this happen? Imagine that search engines see your website with a URL structure like the following.
 

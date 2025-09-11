@@ -36,7 +36,7 @@ Tortoise es compatible con las siguientes bases de datos.
 
 Pero para este ejemplo voy a usar SQLite, por que no necesita configuración de ningún tipo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Instalación del ORM de Python tortoise
 
@@ -53,6 +53,8 @@ pip install python-multipart fastapi uvicorn pydantic
 ```
 
 ## Crear modelos con tortoise
+
+{{<ad2>}}
 
 Vamos a crear un directorio llamado app y un archivo de modelos llamado _models.py_
 
@@ -75,6 +77,8 @@ class Job(Model):
 Si te fijas la sintaxis es bastante similar a los campos de Django, incluso algunos parámetros son iguales.
 
 Para empezar a trabajar con el ORM de tortoise necesitamos:
+
+{{<ad3>}}
 
 1. Conectarnos a la base de datos
 2. Crear la(s) tabla(s) necesaria(s)

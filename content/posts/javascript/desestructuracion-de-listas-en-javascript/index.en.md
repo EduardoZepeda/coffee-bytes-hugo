@@ -37,6 +37,8 @@ In the above code fragment, if any of the conditions exceeds a certain size, we 
 
 If we were the ones who obtained the information we could be more descriptive with the code for those who read it in the future. For this reason we decided to assign a variable to each index in our list.
 
+{{<ad0>}}
+
 ```javascript
 const lengthMouse = scientificData[0]
 const lengthFly = scientificData[1]
@@ -63,4 +65,4 @@ Now the code is much more descriptive and your colleagues, not as enlightened as
 
 But hey, nice and all, but what if my objects have other nested objects and I want to get a value from them. Well we can also [destructure nested objects](/en/javascript/destructuring-nested-objects-in-javascript/), in the I will briefly explain how to do it.
 
-{{<ad>}}
+{{<ad1>}}

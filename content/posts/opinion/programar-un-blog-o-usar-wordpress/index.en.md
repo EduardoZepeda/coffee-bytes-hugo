@@ -24,7 +24,7 @@ The other day a person asked me why I use Wordpress for my blog if I could devel
 
 Certainly when using Wordpress you lose a lot of customization power, both at code and design level. I can only access what is already available, modifying the wordpress core would be a task that would not pay the right dividends. In the same way, by using Wordpress I am giving up new features in the programming world, such as SPA (out of the box, of course), SSR and other wonders that are probably not available for Wordpress. I also miss the pleasure of writing modifications using languages like javascript or Python, instead of PHP.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What I earn by using wordpress
 
@@ -38,6 +38,8 @@ To tell the truth this is the first time I create something with wordpress. Inst
 
 ## Developers' hatred of wordpress
 
+{{<ad2>}}
+
 I've heard that hating Wordpress among developers is all the rage and I understand their sentiment but only to a certain extent. I think Wordpress is an excellent system for blogging because it is super friendly to the end user. I have been in charge of a company and I know that the end customer does not want to understand technical terms, he is not interested in what is node, nextjs, vercel or what is an XSS attack, what the customer wants is to be able to modify a site at will without having to call a web developer every week. Is it the right thing to do? Well I think it depends on the project, for personal blogs or smaller projects yes, for something much more sophisticated you would have to educate the client and explain the pros and cons of using a CMS like wordpress in the short, medium and long term.
 
 On the other hand, I totally agree with the developers when they say that using Wordpress for ecommerce, photo galleries or any other application is a lousy idea, I totally share their feeling. As I wrote before, I think that in those situations where you need a much more customized solution you have to move on from Wordpress completely. However, it is the developer's job to explain to the client the added value that a customized website, programmed from scratch, can bring to their brand.
@@ -49,6 +51,8 @@ On the other hand, I totally agree with the developers when they say that using 
 In short, I would use wordpress only for personal blogs. However I would avoid using wordpress for photo galleries, ecommerce or any other type of website that requires a bit more customization.
 
 ## Update, why I don't use wordpress anymore for this blog?
+
+{{<ad3>}}
 
 Update 18-Feb-2021: I decided to combine the best of both worlds; a frontend written using the new Javascript technologies and a robust wordpress backend. To do this I used [Frontity, a React framework for wordpress](https://frontity.org/#?). The navigation is much smoother and I can customize the UI it to my liking. And, since the backend of my blog is still wordpress, I can still use Yoast SEO and the wordpress post editor, from which I am writing this post.
 

@@ -22,6 +22,8 @@ title: ¿Cómo crear un historial de productos con django y redis?
 
 Estás navegando en un ecommerce, un producto llama tu atención y haces click para verlo, no te convence. Decides ver otras opciones, haces click en un nuevo producto y, cuando haces scroll al fondo de la página, la página te muestra el primer producto que viste bajo la leyenda "Vistos recientemente". Tú puedes hacer lo mismo con django y redis.
 
+{{<ad0>}}
+
 ## django y redis
 
 Agregar una sección de productos visitados aumenta las ventas en un ecommerce y mantiene al usuario más tiempo en la página. Es normal añadir este historial a un usuario que ya está en la base de datos. Los encargados de la página web tienen un historial de los productos que vemos, los que compramos, cuanto tiempo pasamos viéndolos y muchos otros datos pero... ¿y los usuarios anónimos que no tienen una cuenta?
@@ -36,7 +38,7 @@ Redis es un motor de base de datos muy eficiente, trabaja con datos volátiles, 
 
 Hay muchas maneras de abordar ese problema, puedes asociar un usuario (y su historial) con una cookie, ip o hasta un enlace de afiliado, etc. El tipo de dato que desees vincular depende de las intenciones del negocio. Para este ejemplo usaremos una session key del sistema de sesiones que ya viene incluido en django de manera predeterminada.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Instalar redis en GNU/Linux
 
@@ -48,6 +50,8 @@ redis-server
 ```
 
 ## Instalar redis para Python
+
+{{<ad2>}}
 
 A continuación vamos a instalar el paquete que vincula redis con Python.
 
@@ -76,6 +80,8 @@ MIDDLEWARES = [
 # ...
 SESSION_SAVE_EVERY_REQUEST = True
 ```
+
+{{<ad3>}}
 
 Para este ejemplo uso un modelo llamado _Product,_ pero tu puedes sustituirlo por el equivalente en tu aplicación.
 

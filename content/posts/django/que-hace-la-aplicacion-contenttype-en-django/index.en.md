@@ -28,7 +28,7 @@ Before we start, if you have no idea what Django is for, visit my post where I t
 
 ContentTypes is a special **Django model that registers each of the models that exist** within our application, both those that we create and those that are installed by default.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What is ContentType used for?
 
@@ -49,6 +49,8 @@ Imagine a simple social network, where we have different types of content; a tem
 
 To exemplify how ContentType works, let's create a django project, with a model:
 
+{{<ad2>}}
+
 Once in our virtual environment, let's install Django
 
 ```bash
@@ -68,6 +70,8 @@ Now we will create an app for our application.
 django-admin startapp videogame
 cd videogame
 ```
+
+{{<ad3>}}
 
 Once we have our application, we will have to create a template, and, as I already mentioned, Django will automatically register that template in its _ContentType_ application.
 

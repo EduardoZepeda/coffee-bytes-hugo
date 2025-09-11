@@ -51,6 +51,8 @@ El problema aquí surge cuando mezclamos subqueries con annotate, y luego proced
 
 Django no tiene la capacidad de reconocer que ya está repitiendo las subqueries una y otra vez, por lo anterior, el SQL que genera repite las mismas subqueries una y otra vez, lo que resulta en una consulta con un rendimiento pobre; caemos en el famoso problema de las *n+1 queries*. 
 
+{{<ad0>}}
+
 ### El SQL generado por Django usando annotate y subqueries es ineficiente
 
 Peor, ¿dónde está el problema exactamente? El ORM de django traduce la queryset anterior en la siguiente consulta SQL:
@@ -76,7 +78,7 @@ print(qs.query)
 
 ¿Cómo se soluciona esto? Pues una de las maneras de arreglar esta consulta SQL es utilizar las Common Table Expressions (CTEs), sin embargo, a la fecha en la que escribo esto, **Django no tiene soporte para las Common Table Expressions (CTEs)**, por lo que tendremos que utilizar una raw query en lugar de los métodos que ya provee el ORM de Django.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Usar Common Table Expressions (CTEs) para mejorar el rendimiento de annotate y subqueries 
 
@@ -87,6 +89,8 @@ qs = YourModel.objects.raw("YOUR_SQL_RAW_QUERY_GOES_HERE")
 ```
 
 La consulta SQL con las Common Table Expressions (CTEs) que usaremos tendría la siguiente forma:
+
+{{<ad2>}}
 
 ``` sql
 WITH my_cte AS (

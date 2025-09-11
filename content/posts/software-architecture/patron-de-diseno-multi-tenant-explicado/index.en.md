@@ -26,6 +26,8 @@ In multi-tenant architecture, each tenant can be a company, a group or an indivi
 
 Multi-tenant architecture is like a modern office building where different companies (tenants) (like wework but less corrupt) share the same physical infrastructure - elevators, security systems, utilities, and building management - but each company has completely isolated office spaces with their own data, configurations, and customizations that other companies cannot access. 
 
+{{<ad0>}}
+
 Just as the building owner maintains one set of systems while serving multiple businesses, a multi-tenant application serves multiple organizations using a single instance of the software and database infrastructure, **with strict data isolation between tenants**. 
 
 This differs from a simple multi-user application, which is more like a single company's office where all employees share the same workspace, company data, and settings - everyone sees the same information and operates under the same organizational rules, whereas in multi-tenant systems, each tenant operates as if they have their own completely separate application with their own user base, data, and often customized features.
@@ -47,7 +49,7 @@ When I first read about this architecture I could not find the differences betwe
 | **Main Purpose**    | Managing multiple users within a single shared system.                             | Managing multiple separate clients, each with several users and unique needs.                             |
 | **Shared Data**     | Data is typically stored in a single space, shared by all users.                   | Each tenant's data is segregated, even if using the same database.                                        |
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How to manage databases in a multi-tenant application?
 
@@ -56,6 +58,8 @@ A multi-tenant application will have to record and store information from each t
 Well, there are different paradigms in this regard, each with its advantages and disadvantages.
 
 ### One database and one schema for all tenants.
+
+{{<ad2>}}
 
 A single database and a single schema, with different tables for each tenant. The simplest and easiest architecture to implement, but comes with poor isolation and customization. You can identify each tenant by an unique id.
 
@@ -73,6 +77,8 @@ SELECT * FROM <table> WHERE <tenant_id_column> = '<id>';
 ```
 
 ### A database for each tenant
+
+{{<ad3>}}
 
 A database for each tenant. The most expensive when it comes to resources but provides the best isolation and full customization level. You can identify a tenant by its schema.
 

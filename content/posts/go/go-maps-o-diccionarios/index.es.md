@@ -45,6 +45,8 @@ En Go un map funciona bastante similar a como lo haría en cualquier otro lengua
 
 Funcionamiento interno de un map en go. La información está tomada de la [documentación oficial de un map.](https://go.dev/src/runtime/map.go)
 
+{{<ad0>}}
+
 ## Crear un map en go
 
 Para declarar un map, usamos la palabra map y encerramos en corchetes el tipo de dato de la llave, seguido del tipo de dato del valor.
@@ -66,7 +68,7 @@ Igual que con el slice, tenemos dos maneras de crear un map o diccionario.
 - Pasándole los valores después del tipo de dato del valor
 - Usando la función make.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Crear un map en go con valores
 
@@ -84,6 +86,8 @@ var cuenta = map[string]int{
 cuenta["Paloma"] = 500
 cuenta["Colombe"] = 900
 ```
+
+{{<ad2>}}
 
 También podemos dejar que go infiera que es un map, pero solo dentro de una función, usando el operador walrus ":=".
 
@@ -111,6 +115,8 @@ diccionario["world"] = 1
 fmt.Println(diccionario)
 // map[hello:2 world:1]
 ```
+
+{{<ad3>}}
 
 ¡Ahora mira esto! Tenemos un map o diccionario con solo dos llaves, mira que pasa si accedemos a una tercera.
 

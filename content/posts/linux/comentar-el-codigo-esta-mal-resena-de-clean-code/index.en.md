@@ -137,6 +137,8 @@ is_product_available = check_if_product_available()
 
 In the chapter that discusses functions, *uncle bob* emphasizes the need to keep the arguments a function receives to a minimum, furthermore he believes that any function that receives more than three arguments **should not be used**.
 
+{{<ad0>}}
+
 From our clean code foreman's point of view, arguments force you to require more information from a function than its name, as you must now understand how variables interact within the function's logic, plus they are difficult to include in tests since you have to try different combinations of these to make sure you cover every instance of the function. 
 
 Sounds logical doesn't it? Well yes, but if you check books, videos, repositories and even in the official documentation of certain very mature technologies and used in world-class websites, one can see numerous functions with two, three and even four arguments. 
@@ -157,7 +159,7 @@ router.get('/users/me', auth, async (req, res) => {
 
 To me, however, it doesn't seem so serious or so difficult to read this little piece of code but perhaps it would be reason enough to be excommunicated from the church of Clean Code.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What didn't I like about Clean Code?
 
@@ -166,6 +168,8 @@ In what I consider an anachronism, the author uses Java to develop his examples.
 The code used for the examples seems rather stilted to me, it uses whole code snippets instead of a minimal example, the author of Refactoring does much better in this regard.
 
 I felt the book unnecessarily long, the examples are well detailed, but I don't think so many pages are needed to expose some simple topics, such as variable naming.
+
+{{<ad2>}}
 
 ## What alternatives do exist to Clean Code?
 
@@ -182,5 +186,7 @@ If you haven't had any approach with good code writing practices I recommend you
 - The Art of Readable Code
 - Refactoring to Patterns by Joshua Kerievsky
 - Refactoring by Kent Beck and Martin Fowler
+
+{{<ad3>}}
 
 By the way, the other day I found on Twitter a [summary of Clean Code concepts with examples in Javascript](https://github.com/ryanmcdermott/clean-code-javascript) so you can take a look at the content of the book before deciding whether to buy it or not.

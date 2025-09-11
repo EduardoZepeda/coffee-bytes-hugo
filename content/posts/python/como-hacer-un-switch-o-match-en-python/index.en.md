@@ -35,6 +35,8 @@ match subject:
         <action_wildcard
 ```
 
+{{<ad0>}}
+
 The case followed by the underscore will function as the default case in case the pattern does not match any other. That is, the equivalent of _default_ in languages like Javascript.
 
 Let's look at an example:
@@ -70,7 +72,7 @@ match subject:
 
 And note that the _subject_ can be a string, an object, a tuple or an instance of a class.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Switch in Python before version 3.10
 
@@ -88,6 +90,8 @@ if valor == "caso_3":
 
 Or by resorting to slightly more sophisticated techniques:
 
+{{<ad2>}}
+
 ```python
 def evalua_caso(caso, *args):
     switch = {"caso 1": "procesando caso 1", "caso 2": "procesando caso 2", "caso 3": "procesando caso 3"}
@@ -104,6 +108,8 @@ The values of each key in the dictionary can be replaced by functions to have ev
 Besides the new match, Python 3.10 brings other changes and additions to the language, which are quite a few but I will summarize the ones I consider the most important:
 
 ### Parentheses in context handlers
+
+{{<ad3>}}
 
 You can now use parentheses along multiple lines in context handlers (statements starting with ... as).
 

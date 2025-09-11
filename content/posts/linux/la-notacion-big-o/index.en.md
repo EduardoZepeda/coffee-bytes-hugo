@@ -37,6 +37,8 @@ What would have happened if instead of 5 petabytes it had been 5 GB of data? The
 
 In this case, time is constant. You know what they decided? That's right, the scientists opted to ship the hard disks by plane.
 
+{{<ad0>}}
+
 | Information       | Internet (50 MB/s)            | Plane    |
 | ----------------- | ----------------------------- | -------- |
 | 1 GB              | 20 seconds                    | 19 hours |
@@ -57,7 +59,7 @@ Sometimes when we have no idea about algorithms we ask ourselves, what does it m
 
 But now let's ask ourselves, what will happen when the number of users increases to 1000, to 10 000, to 10 000 000, that's when milliseconds can turn into hours or days, and then we get a glimpse of the real importance of choosing an algorithm with adequate performance.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How to evaluate or read Big O performance?
 
@@ -66,6 +68,8 @@ To evaluate this performance, a notation called Big O is used. It tells us how t
 The longer the length of the input data, the longer it will take to go through and process it, but by how much does this time increase? A constant time is not the same as a time that increases in direct proportion or exponential proportion.
 
 Certainly an algorithm that increases in exponential proportion will not be a nice thing to deal with when we have to go through huge amounts of data. To know how our algorithm behaves we need to analyze it and there are certain rules to consider in the big O notation.
+
+{{<ad2>}}
 
 ### Steps add up
 
@@ -82,6 +86,8 @@ This function will pass through the array only once. Since it has only **one ste
 ### Constants are discarded
 
 Now look at this code, it has two steps that process the same array of values.
+
+{{<ad3>}}
 
 ```python
 def printArrayDoubled(Array):

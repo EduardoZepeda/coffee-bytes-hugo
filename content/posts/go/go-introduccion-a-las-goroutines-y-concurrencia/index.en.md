@@ -19,6 +19,8 @@ title: 'Go: introduction to goroutines and concurrency'
 
 As I mentioned in the introduction to the go programming language: [go is a specialized concurrency language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}). It is a language that was designed to handle multiple tasks asynchronously. This entry is about go channels.
 
+{{<ad0>}}
+
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
 ## Concurrency is not parallelism
@@ -40,7 +42,7 @@ I quote a sentence from the first resource that, IMHO, sums up the difference qu
 
 If they still seem confusing and you don't understand the difference, give those posts a read and you should be ready to move on.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Coroutines in go
 
@@ -49,6 +51,8 @@ A [coroutine](https://en.wikipedia.org/wiki/Coroutine#?), in go, is **a function
 Goroutines are used in design patterns, such as the [worker-pool-design-pattern](/en/software-architecture/worker-pool-design-pattern-explanation/)
 
 To generate a goroutine we add the keyword _go_ before a function. This will schedule the function for asynchronous execution.
+
+{{<ad2>}}
 
 ```go
 func write(texto string) {
@@ -71,6 +75,8 @@ time.Sleep(1 * time.Second)
 ```
 
 A better approach would be to create a **WaitGroup**.
+
+{{<ad3>}}
 
 ## WaitGroups in go
 

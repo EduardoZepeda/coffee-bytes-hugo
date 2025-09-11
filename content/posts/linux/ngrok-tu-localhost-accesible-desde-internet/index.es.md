@@ -28,7 +28,7 @@ Lo que hace Ngrok (Recuerda que ngrock y negrok están mal escritos) es servir c
 
 {{< figure src="images/EsquemaNgrok.png" class="md-local-image" alt="Esquema del funcionamiento de ngrok" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Instalación de Ngrok
 
@@ -44,6 +44,8 @@ Para ejecutar ngrok en GNU/Linux basta con correr el ejecutable, seguido de la o
 
 Si todo funcionó correctamente verás algo parecido a est en tu terminal
 
+{{<ad2>}}
+
 {{< figure src="images/NgrokTerminal.png" class="md-local-image" alt="Información de Ngrok en la terminal" >}}
 
 ¿Qué significa la pantalla de arriba? Significa que todas las peticiones que se hagan a http://ngrok.io; es decir, al subdominio fc2ca35fd170 del dominio de ngrok, se redirigirán a tu localhost, específicamente al puerto 8080. Y es todo, así de simple y fácil de usar.
@@ -55,6 +57,8 @@ Para este ejemplo redigirí una aplicación de Django en el puesto 8000, en luga
 Si no tienes idea de como usar Django tengo algunas recomendaciones de libros: [Django la guia definitiva]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="es" >}}) y [Django by example]({{< ref path="/posts/django/aprender-django-resena-django-by-example/index.md" lang="es" >}}).
 
 Recuerda agregar el dominio, con su subdominio a la variable ALLOWED\_HOSTS del archivo de configuración.
+
+{{<ad3>}}
 
 ```python
 # app/settings.py

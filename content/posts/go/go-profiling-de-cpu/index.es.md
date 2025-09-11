@@ -18,6 +18,8 @@ slug: /go/go-profiling-o-perfilado-basico-del-uso-del-cpu/
 title: 'Go: profiling o perfilado básico del uso del CPU'
 ---
 
+{{<ad0>}}
+
 Además del [testing de pruebas unitarias y la medición del coverage en go](/es/go/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
@@ -32,7 +34,7 @@ El proceso de profiling va a ralentizar la ejecución del código, pues se inter
 
 Al finalizar el profiler la herramienta _pprof_ de go organiza los datos para que puedan representarse de una manera más amigable para el usuario.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Profiling o perfilado de CPU en go
 
@@ -48,6 +50,8 @@ func Fibonacci(n int) int {
 ```
 
 Para el testing en go, justo como te expliqué en la entrada anterior, usaremos un array de structs para manejar los diferentes casos.
+
+{{<ad2>}}
 
 ```go
 func TestFibonacci(t *testing.T) {
@@ -82,6 +86,8 @@ go test -cpuprofile=cpu.out
 PASS
 ok      _/home/eduardo/Programacion/goTesting/testing   0.813s
 ```
+
+{{<ad3>}}
 
 Pero podrá ser usado por otras herramientas para visualizarlo de manera más humana.
 

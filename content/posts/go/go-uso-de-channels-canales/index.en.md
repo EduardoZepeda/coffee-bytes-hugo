@@ -114,6 +114,8 @@ func main() {
 
 ### Input and output channels
 
+{{<ad0>}}
+
 There are channels that receive information and channels that output information, **by default a channel is bidirectional, but we can declare input and output channels**.
 
 To identify them, observe the flow of the arrow around the word chan; one enters (or goes to) chan and the other leaves chan.
@@ -132,7 +134,7 @@ func say(text string, c <-chan string) {}
 
 It is important to define the type of channel because, with bidirectional channels, we run the risk of causing a [deadlock in our go program](/en/go/go-channels-understanding-the-goroutines-deadlocks/).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Channel capacity
 
@@ -147,6 +149,8 @@ c <- "dato2"
 fmt.Println(len(c), cap(c))
 // 2 3
 ```
+
+{{<ad2>}}
 
 In the above example, the channel has two slots occupied, but has a total capacity of 3, even though not all of its slots are occupied.
 
@@ -166,6 +170,8 @@ c <- "dato3"
 ## Iterate on a channel
 
 Range is ideal for iterating over channel data. However, it is important to note that, **there is no certainty about what data we will receive** since the channel content can come from multiple goroutines.
+
+{{<ad3>}}
 
 ```go
 c := make(chan string, 3)

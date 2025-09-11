@@ -30,7 +30,7 @@ pip install locust==2.2.3
 
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Configuración de locust
 
@@ -49,6 +49,8 @@ Creamos una clase que importe de _Httpuser_ y le asignamos un método con el dec
 
 Ahora ejecutamos el comando locust desde la terminal.
 
+{{<ad2>}}
+
 ```bash
 locust
 ```
@@ -62,6 +64,8 @@ Aquí colocamos, en orden, el número de usuarios totales, la velocidad a la que
 Presionamos el botón "start swarming" y locust se encargará del resto, incrementando el número de usuarios paulatinamente.
 
 Observa el monitoreo en tiempo real. Para detenerlo presiona el botón stop de la esquina superior derecha.
+
+{{<ad3>}}
 
 {{< figure src="images/MonitoreoTiempoRealLocust.gif" class="md-local-image" alt="Locust soporta monitoreo en tiempo real" >}}
 

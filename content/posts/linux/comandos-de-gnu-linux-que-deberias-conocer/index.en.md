@@ -34,6 +34,8 @@ If there is a conflict, just press the TAB key twice and it will show the availa
 
 {{< figure src="images/tabular.gif" class="md-local-image" alt="autocomplete function of the tabular command in a GNU/Linux terminal" >}}
 
+{{<ad0>}}
+
 ### Press up to access previously executed commands.
 
 While we are in the terminal, if we press the up key of our GNU/Linux pad it will show us the last command we executed. An ideal function for those moments when we repeat the same command over and over again, hoping that, magically, the result will change.
@@ -48,7 +50,7 @@ If we did something stupid like executing an infinite loop, or we simply want to
 
 Having explained this, let's start with the commands.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## man
 
@@ -57,6 +59,8 @@ The man command (MANual) is what I consider **the most important of all the comm
 Remember that most of the commands listed in this publication have a manual, so you can see all the options they offer using this command.
 
 For now try using it on itself. Yes, we will inception the man command:
+
+{{<ad2>}}
 
 ```bash
 man man
@@ -78,6 +82,8 @@ man (1)              - an interface for electronic reference manuals
 ## grep
 
 The grep command (_Global Regular Expression Print_) searches for matching regular expressions in the files. If you don't know what regular expressions are you can use it with ordinary text in quotes, even then it is quite useful. This command becomes especially useful when we want to find text in a large number of files, especially using it in combination with the result of other commands.
+
+{{<ad3>}}
 
 ```bash
 grep "texto to search" <file>

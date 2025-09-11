@@ -101,6 +101,8 @@ func split(sum int) (x, y int) {
 
 This syntax may seem a bit tricky, but it is really very simple. Remember I told you that the type of data that a function returns goes after the arguments? (x, y int)_ Well here, in addition to the type, we specify which variables will be returned and of what type, **in case we don't put anything after return**.
 
+{{<ad0>}}
+
 Basically we are telling go: "hey, if I don't put anything after the return, return the variables "x" and "y", which are of type _int_.
 
 ### Variadic functions
@@ -122,7 +124,7 @@ multiples(1, 2, 3, 4, 5)
 
 There, that concludes my summary of the functions. Now let's move on to one of go's essential packages, the fmt package.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## fmt package
 
@@ -131,6 +133,8 @@ This package is the one you will normally use to print statements on the screen 
 First of all, **fmt stands for format package and it is the package that will be in charge of formatting any type of input or output data**. By data input and output, I mean what your older colleagues would call [stdin and stdout in GNU/Linux](https://es.wikipedia.org/wiki/Entrada_est%C3%A1ndar).
 
 By the way, fmt has support for special characters, so you can print subtitles in the original language of your favorite anime.
+
+{{<ad2>}}
 
 ### Println
 
@@ -147,6 +151,8 @@ fmt.Println(1, "彼氏彼女の事情", nil)
 ### Printf
 
 Printf is like Println but with position operators that tell go the type of data we are passing to it. Yes, just like the C++ function
+
+{{<ad3>}}
 
 ```go
 texto := "World!"

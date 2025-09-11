@@ -43,6 +43,8 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 
 ### Cool aspects and advantages of Go
 
+{{<ad0>}}
+
 * **The language is quite simple** It is a language with just a few keywords and functionalities. You can learn it in a breeze.
 * **Go compiler is super fast** Since it has few keywords and the language is quite simple, go compiles *blazinlgy fast* (I detest the over use of that expression) compared to other programming languages.
 * **Concurrency handling is easy** Go was designed as a concurrent language, creating [concurrency with goroutines](/en/go/go-use-of-channels-to-communicate-goroutines/) is quite easy.
@@ -64,7 +66,7 @@ To make this analysis as objective as possible, here are some controversial aspe
 * **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
 * **~~Go does not have generics~~** Go already has generics support since version 1.18.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Go and its best practices
 
@@ -73,6 +75,8 @@ Go is strongly oriented to good code practices. How does it do it? The compiler 
 {{< figure src="images/ErrorCompilacionGo.png" class="md-local-image" alt="Compilation error in go due to unused variables" caption="Compilation is not allowed if there are unused variables." >}}
 
 However it doesn't force you to check for nil values, which me and other developers think it is a weak part of the language.
+
+{{<ad2>}}
 
 ## The most popular mascot in programming
 
@@ -87,6 +91,8 @@ Go can be found in most GNU/Linux distribution repositories. In debian and ubunt
 ```bash
 sudo apt install golang
 ```
+
+{{<ad3>}}
 
 The installation instructions for Freebsd, windows and macOSx will be different.
 

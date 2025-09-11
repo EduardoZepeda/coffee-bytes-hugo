@@ -27,7 +27,7 @@ This error occurs when:
 
 In any of these cases the goroutines are "waiting" either to send or receive information, so we can say that we are "stuck" and that is when we receive the fatal error: all goroutines are asleep - deadlock!
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Blocking operations
 
@@ -41,6 +41,8 @@ Knowing the two previous situations we will have two main cases:
 ### Blocking or deadlock due to lack of sender
 
 What if an operation is waiting to receive information from a channel, but that channel is never going to send anything?
+
+{{<ad2>}}
 
 It happens when there is a channel that receives information, but not one that sends it.
 
@@ -60,6 +62,8 @@ func main() {
 }
 // fatal error: all goroutines are asleep - deadlock!
 ```
+
+{{<ad3>}}
 
 ### Blocking or deadlock for lack of recipient
 

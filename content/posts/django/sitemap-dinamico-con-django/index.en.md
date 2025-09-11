@@ -22,6 +22,8 @@ A sitemap is [crucial in SEO and a sitemap with errors can plummet your site vie
 
 ## Structure of a sitemap
 
+{{<ad0>}}
+
 A sitemap is an xml file, which has an element called urlset, which is a collection of url elements. Each url element has a location, in this case its url address, a frequency of change, a priority and other optional elements, such as images. 
 
 A sitemap is a [crucial part of technical SEO]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), and every site should have one.
@@ -56,7 +58,7 @@ When a sitemap is very large it is possible to divide it into smaller sitemaps, 
 
 But that's not all, you can divide it by category, by language or whatever fits the best for you.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Framework of sitemaps in Django
 
@@ -65,6 +67,8 @@ Django already has an internal framework for sitemap generation, _django.contrib
 _django.contrib.sites_ is a framework included in django that allows you to manage different websites with the same django application.
 
 To use the sitemaps framework, we need to add the two packages to the INSTALLED_APPS variable and also add the site identifier.
+
+{{<ad2>}}
 
 ```python
 # settings.py
@@ -83,6 +87,8 @@ Since Django keeps track of the sites that are managed by the application in the
 Now redirect to your application, at the same level as your _models.py_ file and create a file called _sitemaps.py_.
 
 Inside this file we are going to inherit a class from the _Sitemap_ class provided by Django.
+
+{{<ad3>}}
 
 ```python
 # app/sitemaps.py

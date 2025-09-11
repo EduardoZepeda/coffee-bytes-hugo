@@ -39,7 +39,7 @@ Los submodules de git son útiles cuando queremos incorporar código de terceros
 
 Por otro lado, **usar git submodules complica bastante el manejo de repositorios si no se tiene cuidado o si se trabaja con muchos submódulos**, tienes que prestar atención al contexto en el que te encuentras y recordar todo el tiempo el repositorio en el que te encuentras.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Agregar un git submodule a un repositorio de git
 
@@ -54,6 +54,8 @@ git submodule add <url> <destino>
 El comando anterior copiará el código de la url `<url>` en el directorio `<destino>` especificado.
 
 ### Estructura de un git submodule
+
+{{<ad2>}}
 
 Tras añadir un submódulo a un repositorio se creará un nuevo archivo (no un directorio) llamado *.git* dentro de la carpeta del submódulo de nuestro repositorio. 
 
@@ -75,6 +77,8 @@ Dependiendo del repositorio que elijas como un submódulo, también podrás ver 
 Además de copiar el código del repositorio remoto en la carpeta destino, git creará un archivo *.gitmodules* en la raiz de nuestro repositorio principal. Este archivo guarda las referencias a el o los submódulos de nuestro repositorio. 
 
 Cada uno de estos submódulos especifica su ruta, relativa a la raiz del repositorio, la url y la rama (opcional)
+
+{{<ad3>}}
 
 ```bash
 [submodule <destino>]

@@ -55,6 +55,8 @@ A Bloom filter uses:
 
 When you add an item, the filter runs it through each hash function. Each function gives you an index in the array. You set the bits at those positions to 1. 
 
+{{<ad0>}}
+
 ### There are no deletions in classic bloom filters
 
 Since you are not storing real data but the "pattern" produced by the hash functions, you have no way to tell which combination of data and hash function produced it, hence you cannot "delete" the item.
@@ -69,6 +71,7 @@ However when you start adding more and more elements the chances of getting a co
 
 You can always add more hash functions to diminish the collitions but then the complexity and memory required increase.
 
+{{<ad1>}}
 
 ### Checking if an item exists
 
@@ -78,6 +81,8 @@ When you check an item, the filter does the same. If all the positions are set t
 ## Basic Bloom filter Flow
 
 Here’s a simple outline that you can blatanly use to inspire you in the dark arts of bloom filters:
+
+{{<ad2>}}
 
 1. Decide the size of the bit array and initialize all elements to 0.
 2. Pick a few independent hash functions.
@@ -111,6 +116,8 @@ function check(item):
             return "not present"
     return "might be present"
 ```
+
+{{<ad3>}}
 
 ### Bloom filter flow chart
 

@@ -20,6 +20,8 @@ title: I took advantage of an error in the code of a dating app
 
 While using a Tinder-style dating app, one of those in which, after a mutual like, the application puts the people involved in contact, I noticed that, to promote their premium plan, they used obfuscated blurred pictures to introduce you to the people who had pressed the Like button on your profile.
 
+{{<ad0>}}
+
 After having a couple of matches I noticed that the obfuscated pictures belonged to real accounts, that is, they were not a set of generic images or placeholders.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Example of the blur effect applied to photography\"" caption="Example of the blur effect applied to photography" >}}
@@ -38,7 +40,7 @@ The actual images were served by the app's CDN and then a filter was applied to 
 
 Unfortunately it was impossible to get any other data from the pictures or from the URL structure, [API calls]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), or any other information given; neither the name, nor the profile nor any other piece of information was accessible other than the profile picture.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How to obfuscate images in dating apps?
 
@@ -51,6 +53,8 @@ flowchart TD
     id1[Profile picture change] --> id2[Generate blurred thumbnail ]
     id1 --> id3[Generate normal thumbnail ]
 ```
+
+{{<ad2>}}
 
 ## Exploiting the bug with a browser extension
 

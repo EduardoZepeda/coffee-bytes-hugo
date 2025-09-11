@@ -30,7 +30,7 @@ Imagínate que quieres probar una característica de tu aplicación web, pero te
 
 ¿Qué se puede hacer en estos casos? Lo mejor sería probarlo en una muestra representativa de tu público y, dependiendo de como responda, desecharla o implementarla al resto de los usuarios.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Patrones de despligue comunes
 
@@ -53,6 +53,8 @@ Para este post voy a centrarme en los últimos patrones, puesto que son de los q
 
 Este patrón consiste en mostrar las nuevas características a un pequeño grupo de usuarios. Tras analizar y corregir el desempeño de las nuevas características y, si es conveniente, el deploy se extiende a la totalidad de usuarios.
 
+{{<ad2>}}
+
 ``` mermaid
 graph LR;
     LoadBalancer-->Ver-1;
@@ -72,6 +74,8 @@ graph LR;
 ### Blue/green deployments
 
 En el deployment blue/green tenemos dos entornos similares de manera simultanea. Estos entornos se conocerán con el nombre de blue y green. En cualquier momento solo de los dos entornos se encontrará activo, mientras que balanceamos la carga de un entorno a otro. Si encontramos algun error simplemente ajustamos el balance de carga al lado contrario.
+
+{{<ad3>}}
 
 ``` mermaid
 graph LR;

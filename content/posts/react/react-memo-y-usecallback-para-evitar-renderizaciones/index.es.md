@@ -89,6 +89,8 @@ Ahora prueba lo siguiente en este sandbox:
 
 Remueve únicamente la función memo del ChildComponent y escribe en el input. ChildComponent se re-renderizará con cada nueva tecla presionada. Un mensaje nuevo en terminal aparecerá por cada renderización.
 
+{{<ad0>}}
+
 ```javascript
 // ChildComponent.js
 export default ChildComponent;
@@ -111,7 +113,7 @@ Pon atención a la terminal para que aprecies las renderizaciones.
 
 Por otro lado, si remueves tanto memo como useCallback, sucederá lo mismo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Evitando renderizaciones con useMemo
 
@@ -125,6 +127,8 @@ A===B
 ```
 
 Mira el siguiente ejemplo, cada vez se re-renderice el componente por efecto de otro componente, o de un cambio en el estado se creará un nuevo objeto *statsDelMonstruo*. Cada  que eso ocurra React preguntará en el interior de useEffect: "¿Es la variable statsDelMonstruo la misma que la vez pasada?" Y la respuesta será "no", porque React crea un nuevo objeto cada vez, incluso aunque este objeto tenga exactamente los mismos valores que su versión anterior, son objetos diferentes.
+
+{{<ad2>}}
 
 ```javascript
 import ChildComponent from './ChildComponent'
@@ -149,6 +153,8 @@ const MyComponent = ({ prop }) => {
 
 export default MyComponent
 ```
+
+{{<ad3>}}
 
 Para solucionarlo podemos usar useMemo. Nuestra función memoizadora mantendrá el mismo objeto, siempre y cuando los valores dentro de los corchetes no cambien. Ahora, cuando React pregunte: "¿Es la variable *statsDelMonstruo* la misma que la vez pasada?" la respuesta será "sí", es la misma variable, porque mientras las variables en corchetes no cambien, useMemo devolverá el mismo objeto en memoria.
 

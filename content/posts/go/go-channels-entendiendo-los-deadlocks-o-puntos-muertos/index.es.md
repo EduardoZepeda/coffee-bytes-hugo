@@ -30,7 +30,7 @@ Este error sucede cuando:
 
 En cualquiera de estos casos las goroutines se quedan "esperando" ya sea mandar o recibir información, por lo que se puede decir que estamos "atascados" y es entonces cuando recibimos el error fatal error: all goroutines are asleep - deadlock!
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Operaciones bloqueantes
 
@@ -43,6 +43,8 @@ En go, las operaciones que mandan o reciben valores de canales son bloqueantes d
 Conociendo las dos situaciones anteriores tendremos dos casos principales:
 
 ### Bloqueo o deadlock por falta de remitente
+
+{{<ad2>}}
 
 ¿Qué pasa si una operación está esperando recibir información de un canal, pero ese canal no va a mandar nada jamás?
 
@@ -65,6 +67,8 @@ func main() {
 }
 // fatal error: all goroutines are asleep - deadlock!
 ```
+
+{{<ad3>}}
 
 ### Bloqueo o deadlock por falta de destinatario
 

@@ -23,6 +23,8 @@ A veces ejecutamos comandos que resuelven una tarea muy específica en nuestro s
 
 Una manera de hacerlo sería efectuar una búsqueda de la parte del comando que recordamos en el historial del comando. Esto puede hacerse de la siguiente manera:
 
+{{<ad0>}}
+
 ```bash
 history | grep "comando que buscamos"
 ```
@@ -42,4 +44,4 @@ Primero abriremos una terminal, acto seguido presionaremos **_CTRL + R_**, esto 
 
 Conforme presionemos las teclas irán apareciendo los comandos que coincidan con esa búsqueda. Si el comando que buscamos está en el archivo ~.history se mostrará al instante.
 
-{{<ad>}}
+{{<ad1>}}

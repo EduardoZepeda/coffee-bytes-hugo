@@ -37,6 +37,8 @@ Si hay un conflicto basta con presionar dos veces la tecla TAB y nos mostrará l
 
 {{< figure src="images/tabular.gif" class="md-local-image" alt="Función de autocompletado del comando tabular en una terminal de GNU/Linux" >}}
 
+{{<ad0>}}
+
 ### Presiona arriba para acceder a comandos anteriormente ejecutados
 
 Mientras nos encontremos en la terminal, si presionamos la tecla arriba de nuestro pad GNU/Linux nos mostrará el último comando que ejecutamos. Una función ideal para esos momentos cuando repetimos el mismo comando una y otra vez, esperando que, mágicamente, cambie el resultado.
@@ -51,7 +53,7 @@ Si cometimos alguna tontería como ejecutar un bucle infinito, o simplemente que
 
 Una vez explicado esto empecemos con los comandos.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## man
 
@@ -60,6 +62,8 @@ El comando man (MANual) es el que yo considero **el más importante de todos los
 Recuerda que la mayoría de los comandos que enuncio en esta publicación poseen un manual, por lo que puedes ver la totalidad de las opciones que ofrecen utilizando este comando.
 
 Por ahora prueba usándolo sobre si mismo. Sí, haremos un inception del comando man:
+
+{{<ad2>}}
 
 ```bash
 man man
@@ -81,6 +85,8 @@ man (1)              - una interfaz de los manuales de referencia electrónicos
 ## grep
 
 El comando grep (_Global Regular Expression Print_) busca expresiones regulares coincidentes en los archivos. Si no sabes que son las expresiones regulares puedes usarlo con texto común y corriente entre comillas, incluso así es bastante útil. Este comando se vuelve especialmente útil cuando queremos encontrar texto en una gran cantidad de archivos, sobre todo usándolo en combinación con el resultado de otros comandos.
+
+{{<ad3>}}
 
 ```bash
 grep "texto a buscar" archivo

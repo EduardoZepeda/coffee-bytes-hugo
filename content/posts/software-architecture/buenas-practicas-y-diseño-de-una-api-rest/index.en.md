@@ -58,6 +58,8 @@ Twitter has its own way of doing things, the response from an individual resourc
 
 For multiple resources, Twitter decided to include them within an array.
 
+{{<ad0>}}
+
 ```json
 [
   {
@@ -101,7 +103,7 @@ While an answer for multiple resources is like this:
 
 Who to listen to? As you can see there are differences between companies and I don't know if I would dare to tell you that one or the other is correct, but I consider that if you keep constant in each of your endpoints and document it well, you shouldn't have any problems.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Relative or full URLs in HATEOAS?
 
@@ -113,6 +115,8 @@ Remember that HATEOAS is a [feature of REST APIs]({{< ref path="/posts/software-
 ```
 
 ## Objects nested in the response
+
+{{<ad2>}}
 
 Generally an API does not return individual resources, but resources that are related to other resources at the database level by one-to-one, many-to-many or one-to-many relationships. The question here is: do we include them in the response even if this increases its size? do we put only the identifiers and download them afterwards? It depends.
 
@@ -133,6 +137,8 @@ This approach to the problem will require that if the user requires access to th
 This can bring you the problem of n+1 queries if you don't handle it well; consider the example above, each request to a post implies a new request to the database to get each comment.
 
 Of course that can be fixed by optimizing your searches so that, instead of getting them individually, you get them in a single query.
+
+{{<ad3>}}
 
 ```json
 GET /comments/2,3

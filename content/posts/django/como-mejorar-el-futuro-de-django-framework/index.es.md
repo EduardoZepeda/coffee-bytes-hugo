@@ -25,6 +25,8 @@ El 21 de Junio del 2024 inicié un hilo en reddit con la siguiente pregunta: "Wh
 
 {{< figure src="https://htmx.org/img/memes/20yearold.png" class="md-local-image" alt="HTMX Meme" caption="HTMX meme" >}}
 
+{{<ad0>}}
+
 ## ¿Mejorar Django Framework con type hints?
 
 Este fue el comentario que recibió más apoyo de la comunidad. A pesar de que Python ya cuenta con Type Hints opcionales desde su versión 3.5, parece que su implementación con el propósito de modernizar Django Framework no parece ser una prioridad. 
@@ -39,7 +41,7 @@ Sin embargo, según los usuarios de reddit, no hay mucho interés por parte de l
 
 {{<box type="info" message="En caso de que no lo sepas, los type hints te permiten declarar el tipo de una variable, argumento o el valor de retorno de una función para que sea más sencillo identificar los bugs o comportamientos no deseados. Piensa en los type hints de Python como el Typescript de Python, o como un tipado estático opcional de algún lenguaje compilado, como C, C++ o Rust." >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Usar un User model personalizado en lugar del User model normal
 
@@ -48,6 +50,8 @@ El segundo comentario que recibió más apoyo afirma que personalizar el modelo 
 {{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Segundo comentario con más apoyo sobre como mejorar django framework" caption="Segundo comentario con más apoyo sobre como mejorar django framework" >}}
 
 A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="es" >}}), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
+
+{{<ad2>}}
 
 {{<box type="info" message="Por si no lo sabes, Django usa por defecto el *username* de su modelo de *User*, en combinación con el password, para loggear un usuario. Pero la tendencia actual en el desarrollo web es utilizar directamente el correo electrónico. " >}}
 
@@ -60,6 +64,8 @@ La anterior me parece una propuesta interesante pero también entiendo que, a pe
 ## Leer las variables entorno en Django sin librerías de terceros
 
 Django puede leer las variables de entorno utilizando directamente la librería *os* de Python, pero otras librerías, como [django-environ](https://django-environ.readthedocs.io/en/latest/#?), han sido desarrolladas para proveer una solución más robusta, en donde sea lea directamente desde un archivo *.env* y en donde la ausencia de una variable de entorno haga fallar la aplicación, garantizando que una aplicación de Django no pueda iniciar si falta tan solo una variable de entorno, que es lo que me imagino que los desarrolladores de este popular foro desean.
+
+{{<ad3>}}
 
 ``` python
 import os

@@ -29,6 +29,8 @@ En el mundo de los programadores hay una obsesión por la velocidad y el rendimi
 
 En esa búsqueda constante pasamos de lenguajes de alto nivel a lenguajes de más bajo nivel, deambulamos por los rincones más oscuros de la documentación rumbo a los runtimes más esotéricos escritos en lenguajes arcanos cuyos nombres parecen sacados de un diccionario de otro idioma. ¿Se te vino a la mente alguno en particular? A mi sí. 
 
+{{<ad0>}}
+
 A lo largo de esta odisea virtual, nos olvidamos por completo de lo que probablemente sea el único factor que importa: el aburrido mercado.
 
 ## ¿Qué tanto importan las requests per second al iniciar?
@@ -43,7 +45,7 @@ Una petición por segundo significa 60 en un minuto, 3600 en una hora y 86400 al
 
 No todos los proyectos requieren [que aprendas la complicada sintaxis de Rust.]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="es" >}})
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Importa el consumo de memoria en una nueva aplicación web?
 
@@ -52,6 +54,8 @@ Acaso importa que tu aplicación se ejecute con un consumo mínimo de memoria us
 No digo que esté mal cuidar los aspectos técnicos, pero en este momento hay cosas más importantes, como el adquirir información que se traducirá en rentabilidad posteriormente, o destinar más recursos el marketing y la publicidad de tu startup o proyecto que en perder tiempo limando las asperezas de tu código.
 
 Optimizar para tener un buen SEO también es más importante que el consumo de memoria o la eficiencia de tu aplicación, creeme, [aprendí la importancia del SEO a partir de mis propios errores.]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}})
+
+{{<ad2>}}
 
 {{< figure src="images/wordpress-meme.jpg" class="md-local-image" alt="Meme sobre wordpress vs una aplicación node" >}}
 
@@ -64,6 +68,8 @@ Para la mayoría de las startups o solopreneurs, el proceso de exploración del 
 ### Generalmente suficientemente rápido es rápido
 
 No elijas un lenguaje eficiente, sino uno que te permita ser flexible a los cambios y adaptarte rápido mientras obtienes información. En este caso, la velocidad de desarrollar nuevas características o modificar las existentes es mucho más importante que el rendimiento de estas. 
+
+{{<ad3>}}
 
 Recuerda que **en tecnología todo es un trade-off**, en este caso rendimiento por productividad.
 

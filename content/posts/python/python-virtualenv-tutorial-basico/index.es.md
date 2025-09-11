@@ -31,6 +31,8 @@ mkdir entornoVirtual; cd entornoVirtual
 
 Una vez que estemos adentro de este nuevo directorio verificaremos nuestra instalación de Python:
 
+{{<ad0>}}
+
 ```bash
 Python3
 ```
@@ -62,7 +64,7 @@ Installing collected packages: virtualenv
 Successfully installed virtualenv-16.7.2
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Crear un entorno virtual en python
 
@@ -80,6 +82,8 @@ done.
 ```
 
 Una vez que termine de ejecutarse el comando se habrá creado una carpeta en nuestro directorio actual. Esta carpeta contiene todos los archivos necesarios para poder usar el entorno virtual. Los paquetes que instalemos mientras estemos utilizando el entorno virtual se irán al interior de esa carpeta. He abreviado el contenido por razones de simplicidad, pero puedes revisar el interior de la carpeta tu mismo para conocerla completamente.
+
+{{<ad2>}}
 
 ```bash
 
@@ -118,6 +122,8 @@ source virtual/bin/activate
 ```
 
 Si el comando anterior se ejecutó sin problemas podremos ver como el intérprete de nuestra terminal cambió:
+
+{{<ad3>}}
 
 Pero no solo cambio el aspecto de la terminal. Además podremos ver que ahora estamos ejecutando nuestro comando python3 desde otra ubicación:
 

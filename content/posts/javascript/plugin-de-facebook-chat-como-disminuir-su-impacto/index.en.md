@@ -29,7 +29,7 @@ Loading the facebook plugin triggers a long list of web requests that download a
 
 Third-party plugins can strongly impact the metrics and performance of your web pages, both frontend and backend.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Delay plugin loading
 
@@ -48,6 +48,8 @@ I will delay loading until the user interacts with the chat.
 
 To begin with, we will place a fake icon in place of the original one. This icon is the same one that facebook downloads. Since it is a simple image, it does not load any JS code nor is it accompanied by any request to the facebook servers.
 
+{{<ad2>}}
+
 We will identify this fake facebook icon by its id: fb-chat-logo
 
 ```html
@@ -65,6 +67,8 @@ const fakeFbChatLogo = document.getElementById('fb-chat-logo');
 ```
 
 And we will pass it a function called _loadFacebookChat_ that we will create next.
+
+{{<ad3>}}
 
 ```javascript
 function loadFacebookChat() {

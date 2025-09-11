@@ -37,6 +37,8 @@ Imagine that you want to multiply the numbers 17 and 19. You would take paper an
 
 As long as they keep asking you for the multiplication of 17 and 19 you will be able to return an answer without recalculating it. You have just memorized the result of multiplying 17 and 19 and you can return it without having to recalculate it.
 
+{{<ad0>}}
+
 Now I will explain how Javascript handles objects.
 
 ### How does Javascript handle objects?
@@ -66,7 +68,7 @@ A===B
 
 Even if two objects are the same and have the same properties and values, since they are located at different memory addresses, they are considered two different objects by JavaScript.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Object creation in React
 

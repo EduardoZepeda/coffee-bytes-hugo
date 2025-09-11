@@ -34,7 +34,7 @@ To prevent any confusion, I will define a few terms first:
 
 To be clear: this article does not argue that you should never use JWT - only that it is not as suitable as a session mechanism and that it is dangerous to use it that way. Valid use cases exist, in other areas. At the end of this article, I will briefly discuss those other use cases.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## A note in advance
 
@@ -47,6 +47,8 @@ In this particular article, I will be comparing sessions to JWT tokens, and occa
 ## Attributed benefits of JWTs
 
 When people recommend JWTs, they usually attribute one or more of the following benefits to them:
+
+{{<ad2>}}
 
 * Simple to scale (horizontally)
 * Simple to use
@@ -69,6 +71,8 @@ Some examples of stateful session scaling:
 1. Once you run multiple backend processes on a server: A Redis daemon (on that server) for session storage.
 2. When you run multiple servers: A dedicated server running Redis only for session storage.
 3. Once you run on multiple servers, on multiple clusters: persistent sessions.
+
+{{<ad3>}}
 
 These are scenarios that are covered by existing software. It is unlikely that your application will go beyond the second step.
 

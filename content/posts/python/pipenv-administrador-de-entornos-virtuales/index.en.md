@@ -28,7 +28,7 @@ _Pip_ and _virtualenv_ are used together to maintain the dependencies of a virtu
 
 Pipenv is in charge of joining _pip_ and _virtualenv_ in **one tool**, besides making sure that the file where the dependencies that are generated are listed produces **exactly the same package configuration**, pipenv also allows to load environment variable files directly from _.env_ files that are in the working folder where we are.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Installation and use of pipenv
 
@@ -46,6 +46,8 @@ sudo pip install pipenv
 
 Once installed we can start installing packages using the _install_ option, for this example let's try with a specific version of Django.
 
+{{<ad2>}}
+
 ```bash
 pip install django===3.0.1
 ```
@@ -62,6 +64,8 @@ What is in these files? I will explain it below. First let's go to the Pipfile f
 ## What's Pipfile for in Pipenv?
 
 Let's start by looking at the contents of the _Pipfile_ file. If you have any difficulty using the command line I suggest you check the entries where I talk about the [basic GNU/Linux commands]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}).
+
+{{<ad3>}}
 
 ```bash
 cat Pipfile

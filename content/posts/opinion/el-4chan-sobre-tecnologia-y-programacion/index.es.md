@@ -31,6 +31,8 @@ En este lugar hay varios boards interesantes, solo enunciaré unos cuantos, pues
 
 ### /λ/
 
+{{<ad0>}}
+
 Este board está totalmente especializado en programación, hay hilos de Python, Javascript, así como también de Lua, Rust, Scala y otros lenguajes menos populares. Frecuentemente se comparten tutoriales y material para aprender sobre el tema. Ocasionalmente hay personas pidiendo consejos sobre algunos tópicos bastante particulares.
 
 ### /sec/
@@ -45,7 +47,7 @@ Aquí se discute sobre tecnología en general, desde diferentes SO (BSD, GNU/Lin
 
 Este board es bastante peculiar, pues no se permite el uso de texto, solo imágenes, toda comunicación se lleva a cabo utilizando técnicas esteganográficas, así es, texto escondido en imágenes. Navegar por este board te hará sentir como si estuvieras en una novela de Dan Brown.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## La pequeña Lain-chan
 

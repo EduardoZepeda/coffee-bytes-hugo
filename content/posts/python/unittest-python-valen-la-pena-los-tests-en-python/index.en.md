@@ -25,7 +25,7 @@ The code we write increases in size every day, sometimes it also decreases in pu
 
 Sometimes testing the code manually takes a long time and, in many cases, even requires the input of a user or the response of an external web page to a previous web request made by us, this complicates the testing. With tests we can emulate the result of the responses, the input of the users, the result of the functions or methods and, all this, in fractions of a second, without the need to carry out a manual testing process that would take much more time.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Testing is an insurance against failure
 
@@ -38,6 +38,8 @@ There are many testing tools and they are different for each language. Here I wi
 ### Unittest
 
 Unittest is the most common testing tool, powerful and flexible. The following is an example of its use:
+
+{{<ad2>}}
 
 ```python
 # testing.py
@@ -63,6 +65,8 @@ class TestWebPaymentRequest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+{{<ad3>}}
 
 The retrieveStatusCode method connects to the internet and makes a request to the example.org web site and returns the response code (if everything went well it will be 200). To test if it works we instantiate a class that inherits from unittest.TestCase, the class will test every method that begins with the word 'test'.
 

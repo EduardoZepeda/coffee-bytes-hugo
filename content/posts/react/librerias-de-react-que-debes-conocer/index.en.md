@@ -26,7 +26,7 @@ Ant design is beautiful, yes, there is not much to go into using text. It has lo
 
 {{< figure src="images/Ant-design.gif" class="md-local-image" alt="Screenshot of ant design" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## formik
 
@@ -40,6 +40,8 @@ Note the validation scheme on the left side consists of an object called _Valida
 
 Every time a request is made to an API there is code that repeats; make the request, display an element indicating that content is being loaded, receive the error or success status and save it to the status. Sound familiar?
 
+{{<ad2>}}
+
 React query takes care of reducing all the repetitive code that handles the whole process of handling web requests by providing us with a special hook from which we can unstructure variables that will facilitate the handling of the response.
 
 {{< figure src="images/reactQuery.png" class="md-local-image" alt="React query library" >}}
@@ -51,6 +53,8 @@ Sometimes it is quite annoying to take care of the graphic part of a web page. T
 Before using it remember to check the license of the icons you decide to use, because not all licenses are equally permissive.
 
 {{< figure src="images/React-icons-kit.gif" class="md-local-image" alt="Screenshot of the React icons kit page" >}}
+
+{{<ad3>}}
 
 ## The minimalist React: Preact
 

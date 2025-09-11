@@ -23,6 +23,8 @@ What if a user's finger slips on the keyboard and types "parfume" instead of "pe
 
 {{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Search for the word \"parfume\" on amazon" >}}
 
+{{<ad0>}}
+
 Don't you remember the basic searches in Django? I have a post about [basic searches and full text search using Django and Postgres](/en/django/full-text-search-and-searches-with-django-and-postgres/), if you haven't read it take a look there first.
 
 ## Trigrams in Django and Postgres
@@ -37,7 +39,7 @@ Trigram? Yes, trigram, of three and gram. **A trigram is three consecutive chara
 
 Trigrams are three consecutive characters
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Trigrams and similar words
 
@@ -52,6 +54,8 @@ Videogame.objects.filter(name__trigram_similar="autommattaa") # it should say au
 ```
 
 View the trigrams for the word "automata" directly from the postgres terminal
+
+{{<ad2>}}
 
 ```sql
 SELECT show_trgm('automata');
@@ -74,6 +78,8 @@ Can you notice how they both share some trigrams (a, au, aut, mat, tom, uto)?
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg" class="md-local-image" alt="Shared trigrams between two text strings" >}}
 
 Also note that the quotation marks around certain trigrams are to specify trigrams with spaces.
+
+{{<ad3>}}
 
 **The number of trigrams shared by a pair of text strings can be expressed by means of an index**. The more trigrams shared, the higher this index will be.
 

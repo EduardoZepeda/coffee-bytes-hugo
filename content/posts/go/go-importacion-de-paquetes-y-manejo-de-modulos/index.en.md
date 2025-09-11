@@ -69,6 +69,8 @@ module mymodule
 go 1.15
 ```
 
+{{<ad0>}}
+
 ### How to create a go.mod file?
 
 The _go mod init_ command, followed by the name it will take as the base path for our package, will create a file named _go.mod_ in the directory where we run it.
@@ -90,7 +92,7 @@ import (
 )
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Remote modules in Go
 
@@ -99,6 +101,8 @@ import (
 Go has a module handler equivalent to pip and npm, python and javascript, respectively, called get.
 
 ### go get
+
+{{<ad2>}}
 
 To get remote modules we run the _go get_ command in console followed by the path to our package; it supports any repository, not just github. Since go version 1.18, go get does not compile the code it downloads, but just adds, updates or removes dependencies in the _go.mod_ file.
 
@@ -118,6 +122,8 @@ require (
     github.com/labstack/gommon v0.3.1 // indirect
 )
 ```
+
+{{<ad3>}}
 
 You will notice that their packages will be available for us to import with their respective path.
 

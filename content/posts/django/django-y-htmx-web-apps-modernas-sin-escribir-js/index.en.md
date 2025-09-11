@@ -101,6 +101,8 @@ class Videogame(models.Model):
 
 Now let's run the migrations and create a super user.
 
+{{<ad0>}}
+
 ```bash
 python manage.py makemigrations
 python manage.py migrate
@@ -133,7 +135,7 @@ touch base.html
 touch home.html
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Installing htmx
 
@@ -166,6 +168,8 @@ We will keep a very simple structure for the base template, with only the header
 </html>
 ```
 
+{{<ad2>}}
+
 ## htmx basic attributes
 
 Let's open the _home.html_ file. We extend from the _base.html_ template and replace the body tag with a simple layout and our first button with Htmx.
@@ -190,6 +194,8 @@ Let's open the _home.html_ file. We extend from the _base.html_ template and rep
 ```
 
 The button will have four attributes, each button will specify a number of behaviors: hx-get, hx-trigger, hx-target, hx-push-url
+
+{{<ad3>}}
 
 ### hx-get
 

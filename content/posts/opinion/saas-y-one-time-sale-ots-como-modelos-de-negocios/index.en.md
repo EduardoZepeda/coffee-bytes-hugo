@@ -24,6 +24,8 @@ But was this situation a corporate decision? Well, yes and no, let me expand on 
 
 ### The lack of payment methods and the slow internet of yesteryear
 
+{{<ad0>}}
+
 Much of the commercial software was too heavy, in proportion to the size of the storage devices, to download without problems. 
 
 In the old days, internet connections were incredibly slow and unstable, leaving aside the strange noise that preceded every connection, old internet pirates know what I'm talking about.
@@ -38,7 +40,7 @@ As a result, many companies chose to distribute their software via CDs or other 
 
 Making payments over the internet was unusual, paypal didn't exist and there were no other companies offering the service, plus people were wary of the world of online transactions. I don't blame them, HTTPS didn't exist, let alone strong cryptographic standards to protect your personal data.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## The advent of SAAS, the recurring payment model and SAAS hell
 
@@ -47,6 +49,8 @@ The landscape changed and the internet evolved, or maybe it's better to say it b
 Companies like Adobe grew and realized that they could save a lot of money by eliminating the logistics of distributing physical products and focusing solely on offering their content over the web.
 
 Subsequently, they found that it was more lucrative to rent the software, probably because:
+
+{{<ad2>}}
 
 - They dampened the variability of sales. They no longer had to worry about sudden changes in sales.
 - They guaranteed a steady cash flow that allowed them to better plan their costs given the stability.
@@ -61,6 +65,8 @@ This affected mainly those people who rarely updated their software. If they wan
 {{< figure src="images/not-stonks.jpg" class="md-local-image" alt="Meme about the modification of the world stocks into stonks" caption="Stonks" >}}
 
 At the same time, however, it allowed companies to release new versions of their software more frequently and to iterate more quickly on user feedback to improve their product, allowing them to improve their product and make it more attractive to customers.
+
+{{<ad3>}}
 
 That said, you might think that migrating to a SAAS model would make companies millionaires, but it didn't, at least not for Adobe.
 

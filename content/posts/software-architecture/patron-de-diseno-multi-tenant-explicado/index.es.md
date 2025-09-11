@@ -27,6 +27,8 @@ En la arquitectura multi-tenant, cada tenant puede ser una empresa, un grupo o u
 
 La arquitectura multiusuario es similar a un edificio de oficinas moderno donde diferentes empresas (inquilinos) (como WeWork, pero con menos corrupción) comparten la misma infraestructura física (ascensores, sistemas de seguridad, servicios públicos y administración del edificio). Sin embargo, cada empresa cuenta con espacios de oficina completamente aislados con sus propios datos, configuraciones y personalizaciones, a los que otras empresas no pueden acceder.
 
+{{<ad0>}}
+
 Al igual que el propietario del edificio mantiene un conjunto de sistemas mientras presta servicio a varias empresas, una aplicación multiusuario presta servicio a varias organizaciones utilizando una única instancia de software e infraestructura de base de datos, **con un estricto aislamiento de datos entre los inquilinos**.
 
 Esto difiere de una aplicación multiusuario simple (básicamente cualquier app simple), que se asemeja más a la oficina de una sola empresa donde todos los empleados comparten el mismo espacio de trabajo, datos y configuración (un godinato promedio si estás en México): todos ven la misma información y operan bajo las mismas reglas organizativas y ~~se ponen la misma camiseta~~. En cambio, en los sistemas multiusuario, cada inquilino opera como si tuviera su propia aplicación, con su propia base de usuarios, datos y, a menudo, funciones personalizadas.
@@ -48,7 +50,7 @@ Cuando leí la primera vez sobre este patrón de arquitectura no pude encontrar 
 | **Propósito Principal**  | Gestionar múltiples usuarios dentro de un solo sistema compartido.                                    | Gestionar múltiples clientes separados, cada uno con varios usuarios y necesidades únicas.                  |
 | **Datos Compartidos**    | Los datos suelen estar en un mismo espacio, compartidos por todos los usuarios.                       | Los datos de cada tenant están segregados, aunque usen la misma base de datos.                              |
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo estructurar las bases de datos en una aplicación multi-tenant?
 
@@ -57,6 +59,8 @@ Una aplicación multi-tenant tendrá que registrar y guardar información de cad
 Pues existen diferentes paradigmas al respecto, cada una con sus ventajas y desventajas.
 
 ### Una base de datos y un mismo esquema para todos los tenants.
+
+{{<ad2>}}
 
 Una única base de datos y un solo esquema, con tablas diferentes para cada tenant. La más sencilla y simple de implementar, pero con pésimo aislamiento y personalización. Puedes identificar a cada tenant por su id único.
 
@@ -74,6 +78,8 @@ SELECT * FROM <table> WHERE <tenant_id_column> = '<id>';
 ```
 
 ### Una base de datos para cada tenant
+
+{{<ad3>}}
 
 Aquí hay una base de datos por cada tenant. La más costosa en recursos pero proporciona aislamiento y nivel de personalización total. Puedes identificar a cada tenant por su schema.
 

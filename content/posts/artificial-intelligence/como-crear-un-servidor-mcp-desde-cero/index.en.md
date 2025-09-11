@@ -65,6 +65,8 @@ npm install @modelcontextprotocol/sdk@1.16.0 zod@3.25.76
 
 ## Create a MCP Server
 
+{{<ad0>}}
+
 Afterward let's create a MCP server just initiliazing a new McPServer object
 
 ```javascript
@@ -102,6 +104,8 @@ server.tool("Strawberry Count", "Count the number of r's present in an strawberr
 
 One thing to notice here, we’re counting the r’s manually—no tricks whatsoever. We process the string we receive and return the number of r’s.
 
+{{<ad1>}}
+
 Also, I want to highlight how awesome is the dark magic that the LLM uses to get our custom param. Our LLM detects the param that we want to receive from the user's input using as context the description information that we passed to the describe method. 
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753317103/are-you-a-wizard_hlrgoi.webp" class="md-local-image" alt="MCP meme" >}}
@@ -109,6 +113,8 @@ Also, I want to highlight how awesome is the dark magic that the LLM uses to get
 Obviously, your *mcp tool* won't do something as useless as counting r’s—you could fetch data from an API, process it, get info from the file system, or even from another LLM—whatever you want.
 
 ## Where Does the LLM Get Its Context From?
+
+{{<ad2>}}
 
 For this example, we’ll use STDIO (Standard Input Output). But in the MCP introduction I talked you a little bit about its alternatives: SSE and HTTP Stream.
 
@@ -125,6 +131,8 @@ Now we’ll connect this transport to the MCP server so it can read directly fro
 ```javascript
 await server.connect(transport)
 ```
+
+{{<ad3>}}
 
 ### Connecting the MCP to Other Applications, like Claude Desktop
 

@@ -47,6 +47,8 @@ const profile = userData.profile
 const email = userData.email
 ```
 
+{{<ad0>}}
+
 Now we can access the constants individually without referring to the object. But, aren't we repeating userData in each assignment?
 
 ## Destructuring of an object in javascript
@@ -70,4 +72,4 @@ if(isLoggedIn && profile==='Admin'){
 
 In addition to destructuring objects, JavaScript also allows you to destructure lists. Enter my entry on [destructuring lists in Javascri](/en/javascript/destructuring-lists-in-javascript/) to learn how to destructure lists in Javascript.
 
-{{<ad>}}
+{{<ad1>}}

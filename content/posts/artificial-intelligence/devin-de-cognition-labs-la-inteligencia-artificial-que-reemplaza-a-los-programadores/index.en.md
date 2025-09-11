@@ -38,6 +38,8 @@ Like what features? [According to its creators, Devin AI can](https://www.cognit
 
 ## Who is behind Devin AI?
 
+{{<ad0>}}
+
 Behind Devin AI is Cognition labs, a relatively new company that had been kept behind the scenes until yesterday. Their [Twitter account](https://twitter.com/cognition_labs#?) is less than two days old at the time of writing (although it already accumulates over 86k followers).
 
 ### Who are the members of Cognition labs?
@@ -52,7 +54,7 @@ So far Cognitive Labs claims to have raised about **21 MDD in a round led by Fou
 
 {{< figure src="images/peter-thiel-relationships.jpeg" class="md-local-image" alt="Peter Thiel's relationship diagram" caption="Source: https://knowyourmeme.com/photos/2402121-peter-thiel" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What's going to happen to the programmers - are they at risk?
 
@@ -62,6 +64,8 @@ Well, it is difficult to know for sure, given the lack of information. However, 
 - Devin AI will not rise to the occasion and will fall into oblivion.
 
 ### Devin AI will replace the programmers and take their jobs.
+
+{{<ad2>}}
 
 Who do you think would win in a battle to produce more books, 1000 ancient Egyptian scribes or a photocopier hooked up to a computer? 
 
@@ -74,6 +78,8 @@ Let's continue with this thought experiment, let's assume, for a moment, that De
 {{< figure src="images/prompt-engineer.png" class="md-local-image" alt="Winnie the Pohh meme" >}}
 
 This means that **the profession of prompt engineer will become a reality**, and with the consequence that those people with superior abstraction, writing and lexical abilities will become practically gods of this new utopia (or dystopia, depending on how you see it).
+
+{{<ad3>}}
 
 In addition, all those professions in charge of perfecting AI models will become professions with a very high demand, since any company that wants to compete and stay afloat will need one.
 

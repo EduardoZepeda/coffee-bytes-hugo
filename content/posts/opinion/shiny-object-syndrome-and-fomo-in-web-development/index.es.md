@@ -18,6 +18,8 @@ slug: /opinion/cuidado-con-el-shiny-object-syndrome-y-el-fomo-en-el-desarrollo-w
 title: Cuidado Con El Shiny Object Syndrome Y El FOMO En El Desarrollo Web
 ---
 
+{{<ad0>}}
+
 Con todos los rápidos cambios que ocurren en el desarrollo web: frameworks, lenguajes, herramientas, librerías, etc. Es inevitable sufrir un poco de Shiny Object Syndrome y algo de FOMO. Pero es conveniente identificar estos impulsos y su naturaleza para evitar sufrir las consecuencias de ignorarlos.
 
 ## Shiny Object Syndrome en el desarrollo web
@@ -32,7 +34,7 @@ Pudiste haber implementando tu nueva idea usando el framework que ya conocías, 
 
 ¿Te ha pasado o solo a mi?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## FOMO o Fear of Missing Out en el desarrollo web
 
@@ -41,6 +43,8 @@ El FOMO es una ensimismamiento generalizado de que otros podrían experimentar v
 {{< figure src="images/rewrite-everything-in-rust-meme.webp" class="md-local-image" alt="Rust is the most loved language" caption="Todos están aprendiendo Rust, yo también debería aprenderlo" >}}
 
 Por ejemplo, imagínate que un nerd crea un nuevo lenguaje de programación, que promete ser más rápido, más seguro y es adoptado rápidamente por la comunidad. Los sentimientos de ansiedad empiezan a invadirte, "¿y si todos empiezan a usar ese nuevo lenguaje?", "¿y si estoy perdiendo el tiempo usando los lenguajes que ya domino y todos se dieron que cuenta que el nuevo lenguaje es el futuro?"
+
+{{<ad2>}}
 
 ¿Se te viene a la mente algún lenguaje o tecnología en especial?
 
@@ -58,6 +62,8 @@ Aunque ambos fenómenos se parezcan, hay varias diferencias, principalmente en e
 ## ¿Por qué es importante considerar el FOMO y el SOS en el desarrollo web?
 
 Mis ejemplos anteriores no hablan de ninguna tecnología en específico, pero estoy seguro de que se te vinieron a la mente varios lenguajes, frameworks y tecnologías mientras leías los párrafos anteriores.
+
+{{<ad3>}}
 
 ### Ejemplo del SOS y el FOMO en el desarrollo web
 

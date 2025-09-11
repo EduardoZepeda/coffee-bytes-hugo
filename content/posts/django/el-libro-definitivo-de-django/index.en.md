@@ -17,6 +17,8 @@ keywords:
 title: The definitive guide to Django
 ---
 
+{{<ad0>}}
+
 Django is **my favorite web development framework**, it is mature, its documentation and community are excellent. When I wrote about the [advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}) I explained you how to go from an idea to a working prototype in a very short time and without writing almost any code. I learned much of what I know about this framework years ago, reading and practicing the contents of a book called **Definitive Guide to Django: Web Development Done Right** by the authors [Adrian Holovaty](http://www.holovaty.com/#?) , [Jacob Kaplan-Moss](https://jacobian.org/#?) (co-creators of Django) and impeccably translated into Spanish by Saul Garcia under the title La guía definitiva de Django: Desarrolla aplicaciones web de forma rápida y sencilla.
 
 This book is excellent because it covers absolutely everything you need to develop a Django application, frontend, backend, and deployment. The book is a **complete Django user manual**. Its content covers everything about how Django works, from the simplest to the most complicated. It covers the explanation of the MVC design pattern, history of Django development as a Framework, views (normal and generic), templates, models, use of Middleware, security, cache optimization, internationalization and the adaptation of the framework when you already have a pre-existing database. The book is a gem for those who love Python and Django, I include myself among them.
@@ -31,7 +33,7 @@ Currently, the React missionaries, in a rather unexpected twist, decided to focu
 
 If the authors of this book decided to keep its content up to date it could easily be the best Django book available.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## My opinion about the definitive guide to Django
 

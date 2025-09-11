@@ -113,6 +113,8 @@ Lo comento porque me pareció bastante extraño dado que en su plataforma todo p
 
 Pero dejando de lado eso, yo creo que está bien logrado y el resultado es sólido. 
 
+{{<ad0>}}
+
 ## Landing Page en Bolt
 
 **La propuesta de [Bolt](https://bolt.new/#?) fue mi favorita de las tres**. Usar el efecto de luces de neón en las letras me parece un acierto, ya que refleja perfectamente la estética cyberpunk de novelas como neuromante o videojuegos como Cyberpunk 2077. 
@@ -127,6 +129,8 @@ Sencillamente perfecto, no tuve problema alguno con la instalación. Lo que sí 
 
 [Lovable](https://lovable.dev/#?) también cumple al entregar una landing page funcional. Sin embargo, siento que esta vez fue un poquito demasiado para mí. 
 
+{{<ad1>}}
+
 El fondo de Matrix, si bien supongo que está relacionado con la temática cyberpunk, por la naturaleza de la película, no siento que sea un elemento que deba integrarse en una landing page (A menos de que se trate de la película "Matrix").
 
 Además, considero que la AI exageró un poquito con todos los efectos. En la página todo es interactivo, todo vibra y todo se mueve, tanto que se siente sobresaturado.
@@ -134,6 +138,8 @@ Además, considero que la AI exageró un poquito con todos los efectos. En la p�
 {{<video src="https://res.cloudinary.com/dwrscezd2/video/upload/v1752633780/coffee-bytes/lovable_no_sound_aokgmp_0_5mb_k12z7k.mp4">}}
 
 Si bien estoy consciente que estos resultados pueden refinarse tras múltiples iteraciones, al ver esto no puedo evitar pensar en un programador novato que busca plasmar absolutamente todos los efectos que acaba de aprender en una sola página web.
+
+{{<ad2>}}
 
 Además el footer solo cuenta con el logo y la leyenda de copyright, sin enlaces ni secciones.
 
@@ -146,6 +152,8 @@ Quizás un poco de [fine tuning]({{< ref path="/posts/artificial-intelligence/fi
 ## Bolt vs Lovable vs v0 Vercel
 
 Si consideramos únicamente el resultado obtenido, **sostengo que Bolt sería el ganador**. 
+
+{{<ad3>}}
 
 En cuanto a la experiencia al usar la herramienta, yo considero que es bastante similar en los tres casos. Los tres utilizan interfaces que parecen estarse convirtiendo en un estándar, y la verdad es que ni siquiera puedo recordar si existe alguna diferencia significativa entre las tres opciones.
 

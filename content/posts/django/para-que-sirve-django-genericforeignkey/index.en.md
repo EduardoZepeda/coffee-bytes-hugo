@@ -23,6 +23,8 @@ You want to use Django to relate one model to another using a foreign key, but t
 
 The genericForeignkey field type is able to link to different types of models, allowing us to relate any other model to ours. Remember in the previous post I talked about ContentType? Well, now we will give it a practical application. If you want to review the previous post, visit my post where I talk about [ContentType in Django](/en/django/what-does-the-contenttype-application-do-in-django/)
 
+{{<ad0>}}
+
 ## The Django genericForeignKey field
 
 Imagine an activity feed that keeps track of what each user does: uploading a video, deleting a song, liking a post, and so on. The target of each user's action will be a different model each time, so we can use genericForeignKey to create our feed.
@@ -51,7 +53,7 @@ Below I explain each field of our model:
 * object_id**: the primary key or identifier of the object to which we will refer to.
 ** **item**: is an abstraction that allows you to directly access the object we make reference to with _content_type_ and object_id; **this field does not exist in the database**.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Creation of an object
 
@@ -66,6 +68,8 @@ modelo = tuModelo.objects.get(id=1) # Reemplazalo por lo que quieras
 activity = ActivityStream(user=user, action="accion", item=modelo)
 activity.save()
 ```
+
+{{<ad2>}}
 
 Ready, if we now review the template we just created, you will notice that the _content_type_ and _object_id_ fields have been filled automatically.
 

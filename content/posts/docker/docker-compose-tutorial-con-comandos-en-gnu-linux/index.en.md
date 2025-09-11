@@ -34,7 +34,7 @@ Docker-compose is programming using the [go or golang programming language]({{< 
 
 Docker compose allows you to automate processes, and is used in such popular projects as [cookiecutter-django](/en/django/cookiecutter-django-for-configuring-and-deploying-in-django/) or any other modern API that don't want to deal with the hassle of handling different environments.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Structure of a docker-compose.yml file
 
@@ -49,6 +49,8 @@ touch docker-compose.yml
 ```
 
 These yml files are incredibly simple to understand.
+
+{{<ad2>}}
 
 ```docker
 version: '3.8'
@@ -72,6 +74,8 @@ The services section is nested after the version. There can be as many services 
 The name we use for each service in our yml file will serve as a reference for its use in other services.
 
 For example, if a service is called "_db_", this is the name we should use in other applications to refer to a host or location.
+
+{{<ad3>}}
 
 ```python
 # settings.py en Django

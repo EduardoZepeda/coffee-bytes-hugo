@@ -33,7 +33,7 @@ El lenguaje del libro es bastante sencillo, los ejercicios están muy bien expli
 
 Los ejemplos de código están muy cuidados e incluso algunos nombres de funciones y variables están traducidos, para hacer más legible el código a aquellas personas que no dominan el idioma inglés. Los errores de traducción son mínimos, prácticamente insignificantes y palidecen ante el grandioso trabajo de traducción hecho por el Sr. José Miguel González.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Qué temas se ven en Dive into Python (Inmersion en Python)?
 
@@ -54,6 +54,8 @@ Los temas anteriores son tratados mientras se busca la solución a un problema. 
 
 Al tratar los temas como pequeños proyectos el autor plantea interrogantes a las que se puede enfrentar un programador; como la disyuntiva entre priorizar la velocidad del código o la memoria usada por el programa. Para finalizar cada capítulo el autor recomienda material adicional para profundizar en los conceptos tratados a lo largo del capítulo.
 
+{{<ad2>}}
+
 ## ¿Qué hace a Dive into Python tan bueno?
 
 Bueno en mi opinión lo que hace superior a Dive into Python es que el libro es conciso, intenta explicar las bases y los aspectos más útiles del lenguaje de una manera corta. 
@@ -67,5 +69,7 @@ _Inmersión en Python 3_ es de los mejores materiales que se puede encontrar en 
 ****Conocimientos previos recomendados:**** HTML y XML  
 **Recomendado para leerlo:** 8/10  
 **Idiomas:** Español, Inglés
+
+{{<ad3>}}
 
 Si quieres leer sobre otro excelente para aprender sobre Python visita mi entrada que habla de [Beginning Python From Novice to Professional]({{< ref path="/posts/python/aprender-python-desde-cero-resena-beginning-python/index.md" lang="es" >}})

@@ -34,7 +34,7 @@ You can think of images and containers **as classes and their instances in OOP**
 
 If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch using Go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Basic Docker commands for containers
 
@@ -54,6 +54,8 @@ After executing the above command, Docker will download the hello-world image an
 
 ## Download an image
 
+{{<ad2>}}
+
 If you just want to pull an image to make it available, without running it, you can use the command docker pull, followed by the image name.
 
 This command will fetch an image from the repositories and download it to your system.
@@ -71,6 +73,8 @@ Digest: sha256:4cf9c47f86df71d48364001ede3a4fcd85ae80ce02ebad74156906caff5378bc
 The hello-world image is probably the most boring image out there and you'll definitely want to look for an image that does more than just print text on the screen.
 
 To search for an image we can use the docker search command. What this command does is to connect to docker hub and search for the image that we indicate.
+
+{{<ad3>}}
 
 On Dockerhub there are mysql images, nginx images, alpine linux images, python images, django images, wordpress images, ghost images and just about any other technology, and combinations thereof, you can name.
 

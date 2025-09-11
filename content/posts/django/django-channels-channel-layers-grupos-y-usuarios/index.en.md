@@ -37,6 +37,8 @@ To handle this information in common we need a channel layer (an optional featur
 
 To use a channel layer in development we need to add an extra configuration to our configuration file and modify our consumer object. This configuration below tells Django to handle the channel layer in memory and is perfect for testing in development.
 
+{{<ad0>}}
+
 ```python
 # mychannels/settings.py
 CHANNEL_LAYERS = {
@@ -71,7 +73,7 @@ CHANNEL_LAYERS = {
 }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Broadcasting with a channel or consumer
 
@@ -80,6 +82,8 @@ After adding the above configuration, it is time to modify our _consumer_ to sen
 Our consumer will continue to maintain its three main functions: connect, disconnect and receive, but with added functionality.
 
 {{< figure src="images/AddToChannels-1.png" class="md-local-image" alt="Schematic of groups and channel layers in django channels" >}}
+
+{{<ad2>}}
 
 The process by which a channel or consumer joins a group.
 
@@ -110,6 +114,8 @@ class ChatConsumer(WebsocketConsumer):
     def chat_message(self, event):
         self.send(text_data=event["text"])
 ```
+
+{{<ad3>}}
 
 The changes we made were as follows:
 

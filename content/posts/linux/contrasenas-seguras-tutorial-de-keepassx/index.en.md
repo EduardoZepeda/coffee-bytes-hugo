@@ -22,7 +22,7 @@ I am one of those who believe that **the less sensitive information a third part
 
 Who hasn't heard of massive leaks of user data at even the largest companies? For this reason I prefer to keep my passwords inside my computer and using a program whose source code is visible to anyone who wants to examine it.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## keepassxc
 
@@ -38,6 +38,8 @@ sudo apt install keepassxc
 
 If the installation was successful we will be able to run it from its icon or from the terminal.
 
+{{<ad2>}}
+
 ```bash
 keepassxc
 ```
@@ -51,6 +53,8 @@ Decide on a name and description for the database.
 {{< figure src="images/keepassxc-crear-base-de-datos.png" class="md-local-image" alt="Create database in keepassxc" >}}
 
 Then it will ask for the decryption time. If you do not know what this is for, leave it as it is.
+
+{{<ad3>}}
 
 {{< figure src="images/keepassxc-tiempo-descifrado.png" class="md-local-image" alt="decryption time in keepassxc" >}}
 

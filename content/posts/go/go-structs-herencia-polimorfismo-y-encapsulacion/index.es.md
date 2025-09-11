@@ -32,6 +32,8 @@ type Videogame struct {
 }
 ```
 
+{{<ad0>}}
+
 ### Crear instancias de un struct en go
 
 Una vez definida la estructura de nuestro struct se pueden crear instancias del mismo.
@@ -56,7 +58,7 @@ fmt.Println(myVideogame)
 // {Nier 0}
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Campos anónimos en structs
 
@@ -73,6 +75,8 @@ fmt.Println(myVideogame)
 // imprime {Titulo 2017}
 ```
 
+{{<ad2>}}
+
 ¿Y que pasa si queremos un struct con muchos campos de un mismo tipo? Esta característica **no funcionará si tenemos múltiples campos del mismo tipo en nuestro struct**.
 
 ## Privacidad y encapsulación en los structs
@@ -84,6 +88,8 @@ Para marcar un struct, función o variable como privada o pública, igual que su
 Personalmente, creo que este es uno de los aspectos más complicados de este lenguaje, ¿por qué? porque cuando necesites buscar un campo privado, probablemente necesites usar regex, en lugar de simplemente buscar por la palabra *private*.
 
 Acceder a una entidad privada desde otro módulo, ajeno a donde se declara**,** será imposible. Mientras que las entidades públicas son accesibles desde cualquier modulo, incluso si el struct no se declaró ahí
+
+{{<ad3>}}
 
 - mayúsculas, público, accesible dentro y fuera del paquete donde se declara.
 - minúsculas, privado, solo accesible dentro del paquete donde se declara.

@@ -31,6 +31,8 @@ Let's start with the most basic searches.
 
 ## contains and icontains with Django and Postgres
 
+{{<ad0>}}
+
 Django has a number of basic functions that allow you to search for an exact match of a text string.
 
 ```python
@@ -60,7 +62,7 @@ Videogame.objects.filter(name__unaccent__icontains="tekkén") # Ahora no importa
 
 If you got an error when you ran the above search, it is because you have not installed the _unnacent_ extension. Let's install it.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How to install Postgres extensions in Django?
 
@@ -71,6 +73,8 @@ Have psycopg2 and its dependencies installed in [your virtual environment](/en/p
 ```python
 pip install psycopg2 # también sirve con pip install psycopg2
 ```
+
+{{<ad2>}}
 
 Likewise, make sure your project has the _django.contrib.postgres_ application installed and check that you are using _postgres_ in the _DATABASES_ variable of your configuration file:
 
@@ -98,6 +102,8 @@ DATABASES = {
 ```
 
 ### Installing postgres extensions in Django from a migration
+
+{{<ad3>}}
 
 To install a new extension **create an empty migration** which we will modify next. Now we open the file and install the extensions under the operations section.
 

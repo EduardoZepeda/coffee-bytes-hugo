@@ -70,6 +70,8 @@ This configuration would execute the _script.py_ file every minute, every hour, 
 
 On the other hand, the above configuration would run _script.py_ every day at 6:00 am.
 
+{{<ad0>}}
+
 ```bash
 # m h dom mon dow command
 0 6 * * 1 script.py
@@ -93,7 +95,7 @@ And finally, this configuration would execute the command on December 30 at 6:00
 
 Confused? It's normal, I think it takes a little time. Anyway at the end of this post I share with you a great tool to make it easier for you to create and understand these configurations.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Some more complex examples
 
@@ -105,6 +107,8 @@ Maybe we want something more complex than the previous examples, what if we have
 ```
 
 And if we want a script to run every hour, but only during the early morning hours of Saturdays and Sundays, from 12:00 a.m. to 6:00 a.m. **Crontab allows you to specify ranges of values using hyphens** **Crontab allows you to specify ranges of values using hyphens**.
+
+{{<ad2>}}
 
 ```bash
 # m h dom mon dow command
@@ -130,6 +134,8 @@ DESKTOP_SESSION=default
 QT_QPA_PLATFORMTHEME=qgnomeplatform
 ...
 ```
+
+{{<ad3>}}
 
 On the other hand if you get the environment variables that are active when you use Crontab you will notice that they are much less. **The processes that Cron runs from Crontab do not have access to all the environment variables**.
 

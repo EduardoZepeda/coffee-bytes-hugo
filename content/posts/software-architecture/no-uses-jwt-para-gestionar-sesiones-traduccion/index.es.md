@@ -36,7 +36,7 @@ Para prevenir cualquier confusión, definiré unos cuantos términos primero:
 
 Para ser claro: este artículo no argumenta que nunca deberías usar JWT - solo que no es tan adecuado como un mecanismo de sesiones y que es peligroso usarlo de esa manera. Casos de uso válidos existen, en otras áreas. Al final de este artículo, hablaré brevemente de aquellos otros casos de uso.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Una nota por adelantado
 
@@ -49,6 +49,8 @@ En este artículo en particular, estaré comparando las sesiones a los JWT token
 ## Ventajas atribuidas de las JWT
 
 Cuando las personas recomiendan las JWT, usualmente les atribuyen uno o más de los siguientes beneficios:
+
+{{<ad2>}}
 
 - Sencillas de escalar (horizontalmente)
 - Sencillas de usar
@@ -71,6 +73,8 @@ Algunos ejemplos de escalamiento de sesiones stateful:
 1. Una vez que corres múltiples procesos en backend en un servidor: Un daemon de Redis (en ese servidor) para el almacenamiento de sesiones.
 2. Cuando corres múltiples servidores: Un servidor dedicado corriendo Redis solo para el almacenamiento de sesiones
 3. Una vez que corres en múltiples servidores, en múltiples clusters: sesiones persistentes.
+
+{{<ad3>}}
 
 Estos son escenarios que están cubiertos por software existente. Es poco probable que tu aplicación vaya más allá del segundo paso.
 

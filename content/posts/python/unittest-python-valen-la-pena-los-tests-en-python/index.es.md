@@ -30,7 +30,7 @@ El código que escribimos aumenta de tamaño cada día, a veces también disminu
 
 A veces probar el código manualmente toma mucho tiempo y, en muchos casos, incluso requiere del input de un usuario o de la respuesta de una página web externa a una petición web previa hecha por nosotros, esto complica el testeo. Con los tests podemos emular el resultado de las respuestas, el input de los usuarios, el resultado de las funciones o métodos y, todo esto, en fracciones de segundo, sin necesidad de llevar a cabo un proceso manual de testeo que tomaría mucho más tiempo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## El testeo es un seguro contra los fallos
 
@@ -43,6 +43,8 @@ Hay muchas herramientas de testeo y son diferentes para cada lenguaje. Aquí enu
 ### Unittest
 
 Unittest es la herramienta más común de testeo, poderosa y flexible. El siguiente es un ejemplo de su uso:
+
+{{<ad2>}}
 
 ```python
 # testing.py
@@ -70,6 +72,8 @@ class TestWebPaymentRequest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+{{<ad3>}}
 
 El método retrieveStatusCode se conecta a internet y hace una solicitud al sitio web de example.org y devuelve el código de la respuesta (sí todo salió bien será de 200). Para probar si funciona instanciamos una clase que herede de unittest.TestCase, la clase probará cada método que empiece con la palabra 'test'.
 

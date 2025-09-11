@@ -23,7 +23,7 @@ The other day, one of the youtubers I follow recommended a page to receive algor
 
 To receive an algorithm problem, just send us an e-mail. The problems do not test your knowledge of syntax, nor the number of functions or libraries of any specific language, but your problem solving skills. The people in charge of the page (although I think it is only one) claim, **although there is no way to corroborate it**, that the problems presented are obtained from job interviews at Google, Twitter, Uber, Airbnb, Stripe, among others.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## My experience with challenges
 
@@ -38,6 +38,8 @@ Curious what the problems are like? Here are a couple of examples of the style o
 > Given a list of numbers and a k number, return if any two numbers from the list sum up to k
 > For example: given [10, 15, 3, 7] y k = 17, return true since 10 + 7 = 17
 > Bonus: Can you do this on one run?
+
+{{<ad2>}}
 
 Here is the second one:
 

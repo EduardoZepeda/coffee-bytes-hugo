@@ -24,7 +24,7 @@ history | grep "comando que buscamos"
 
 The history command will show the list of commands used, the pipe character "|" will redirect the result to the grep command, which will search for the string you specify.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Command CTRL + R
 

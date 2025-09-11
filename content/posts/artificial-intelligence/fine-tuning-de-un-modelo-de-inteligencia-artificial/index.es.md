@@ -119,6 +119,8 @@ Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Goo
 
 En mi búsqueda también encontré una empresa llamada [salad](https://salad.com/#?), que sirve como intermediario entre usuarios y gamers que quieren alquilar sus GPUs, los precios son increíblemente competitivos. [VastAI](https://vast.ai/#?) también es otra opción. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) también tiene precios bastante competitivos y provee una amplia variedad de GPUs de donde elegir.
 
+{{<ad0>}}
+
 Ahora tenemos todo lo que necesitamos, revisemos el proceso brevemente.
 
 ## Tutoriales sobre fine-tuning de LLM
@@ -133,7 +135,7 @@ Este es una buena introducción pero no comparte la notebook, aunque pude encont
 
 {{< youtube "Q9zv369Ggfk" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 Ahora que entendemos el proceso de manera general, ¿en dónde conseguimos una plantilla para hacer fine-tuning? No queremos escribir todo desde cero, ¿verdad?
 
@@ -142,6 +144,8 @@ Ahora que entendemos el proceso de manera general, ¿en dónde conseguimos una p
 Esta fue [la notebook que me permitió hacer fine-tuning al modelo Mistral](https://github.com/brevdev/notebooks/blob/main/mistral-finetune-own-data.ipynb#?), con un par de modificaciones, claro. 
 
 La mayoría de las notebooks solo necesitan que cambies el modelo y adaptes el dataset a la entrada del modelo, por lo que puedes usarlos como punto de partida para tu caso particular.
+
+{{<ad2>}}
 
 Otras que encontré particularmente bien explicadas pero no me funcionaron o produjeron resultados no deseados son estas:
 - [Fine-tuning DeepSeek R1](https://www.kaggle.com/code/kingabzpro/fine-tuning-deepseek-r1-reasoning-model#?)

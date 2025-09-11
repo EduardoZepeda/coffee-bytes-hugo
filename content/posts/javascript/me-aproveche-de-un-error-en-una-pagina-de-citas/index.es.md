@@ -21,6 +21,8 @@ title: Me Aproveché De Un Error En El Código De Una App De Citas
 
 Mientras usaba una app de citas estilo Tinder, de esas en las que, tras un like mutuo, la aplicación pone en contacto a los involucrados, pude notar que, para promocionar su plan premium, usaban fotografías difuminadas para presentarte a las personas que habían presionado el botón de Like en tu perfil.
 
+{{<ad0>}}
+
 Tras tener un par de matches pude notar que las fotografías difuminadas pertenecian a cuentas reales, es decir, no eran un set de imágenes genéricas o placeholders.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Ejemplo del efecto blur aplicado a la fotografía\"" caption="Ejemplo del efecto blur aplicado a la fotografía" >}}
@@ -39,7 +41,7 @@ Las imágenes reales eran servidas por el CDN de la aplicación y posteriormente
 
 Desafortunadamente era imposible obtener otro dato a partir de las fotografías o de la estructura la URL, [llamadas a la API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), o cualquier otro dado; ni el nombre, ni el perfil ni alguna otra información era accesible más que la imagen de perfil.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo ofuscar imágenes en apps de citas?
 
@@ -52,6 +54,8 @@ flowchart TD
     id1[Profile picture change] --> id2[Generate blurred thumbnail ]
     id1 --> id3[Generate normal thumbnail ]
 ```
+
+{{<ad2>}}
 
 ## Explotando el error con una extensión de navegador
 

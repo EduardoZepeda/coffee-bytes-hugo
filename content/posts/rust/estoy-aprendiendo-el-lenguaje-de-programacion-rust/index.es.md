@@ -196,6 +196,8 @@ Rust cuenta con su propia biblia, llamada ["The Rust book", disponible en múlti
 
 Si leer un libro grueso no es tu estilo y prefieres una educación de primera, educative tiene [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr#?) por menos del precio de una comida bien servida.
 
+{{<ad0>}}
+
 ### Platzi
 
 Platzi es de los pocos [cursos en español de Rust](https://platzi.com/r/eduardo-zepeda#?), sin embargo te seré sincero, no tengo idea de que tan buenos sean porque esos no los he tomado.
@@ -210,7 +212,7 @@ El canal [Let's get Rusty (en inglés)](https://www.youtube.com/@letsgetrusty) t
 
 Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https://github.com/rust-lang/rustlings) a la par que se lee la biblia de Rusto.
 
-{{<ad>}}
+{{<ad1>}}
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" caption="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" >}}
 
@@ -219,6 +221,8 @@ Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https
 Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
 
 ### Rust es elegante pero hay otros lenguajes más simples
+
+{{<ad2>}}
 
 Ciertamente Rust es uno de los lenguajes más elegantes que hay, sin embargo a veces se prefiere la productividad y la comodidad a la belleza y la elegancia, incluso grandes [empresas como Typescript prefirieron usar Go en lugar de Rust para su compilador](https://github.com/microsoft/typescript-go/discussions/411#?). Tienes que hacerte la misma pregunta independientemente del resultado, Rust puede ser el lenguaje que necesitas o tal vez no, cualquiera de las dos respuestas está perfectamente bien.
 

@@ -26,7 +26,7 @@ The JPG format has been around for some time but new formats have emerged that p
 
 Less weight in our images means better performance. A website that loads faster will have better [Lighthouse](https://web.dev/) metrics and lower data consumption for the user.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Downloading webp
 
@@ -41,6 +41,8 @@ sudo apt install webp
 For this entry I will use a free image, in 1920 x 1280 resolution, that I downloaded from [pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/#?), you can use any image you want, even the picture of your dog.
 
 The size of my image is 476 Kb.
+
+{{<ad2>}}
 
 ```bash
 $ du -h pexels-artem-beliaikin-1120963.jpg
@@ -71,6 +73,8 @@ bytes used:  header:            276  (0.1%)
 ```
 
 Ready, now we must have a file with extension _webp_ in our same folder.
+
+{{<ad3>}}
 
 ## Convert webp to jpg
 

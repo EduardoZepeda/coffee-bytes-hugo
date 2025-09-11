@@ -27,6 +27,8 @@ In the world of programmers there is an obsession with speed and performance; we
 
 In this constant search we go from high level languages to lower level languages, we wander through the darkest corners of the documentation towards the most esoteric runtimes written in arcane languages whose names seem to be taken out of a dictionary of another language. Did any particular one come to your mind?. 
 
+{{<ad0>}}
+
 Throughout this virtual odyssey, we completely forgot about what is probably the only factor that matters: the boring market.
 
 ## How much do requests per second matter at a startup?
@@ -42,7 +44,7 @@ Are you really worried about your application having a traffic of 86400 requests
 
 Not every project requires you to [learn the difficult Rust Syntax]({{< ref path="/posts/rust/estoy-aprendiendo-el-lenguaje-de-programacion-rust/index.md" lang="en" >}}).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Does memory consumption matter in a new web application?
 
@@ -51,6 +53,8 @@ Does it matter whether your application runs with minimal memory consumption usi
 I'm not saying that it's wrong to take care of the technical aspects, but right now there are more important things, such as acquiring information that will translate into profitability later, or allocating more resources to marketing and advertising your startup or project than wasting time ironing out the kinks in your code. 
 
 Optimizing for good SEO is also more important than the memory consumption or the efficiency of your application, believe me, [I learned the importance of SEO from my own mistakes]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="en" >}})
+
+{{<ad2>}}
 
 I'll say it again just in case you didn't get it: marketing and sales are more important than the quality of your software when you start a project.
 
@@ -63,6 +67,8 @@ For most startups or solopreneurs, the market exploration process will be more i
 {{< figure src="images/rustaceans-vs-gophers.png" class="md-local-image" alt="Time compilation differences between rust and go meme" >}}
 
 ### Usually fast enough is enough
+
+{{<ad3>}}
 
 Do not choose an efficient language, but one that allows you to be flexible to changes and adapt quickly while obtaining information. In this case, the speed of developing new features or modifying existing ones is much more important than their performance.
 

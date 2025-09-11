@@ -39,6 +39,8 @@ Haciendo un cálculo sencillo, con una velocidad de descarga de 50 MB/s tomaría
 
 En este caso el tiempo es constante. ¿Ya sabes que decidieron? Así es, los científicos optaron por enviar los discos duros en avión.
 
+{{<ad0>}}
+
 | Cantidad de información | Internet (a 50 MB/s)           | Avión    |
 | ----------------------- | ------------------------------ | -------- |
 | 1 GB                    | 20 segundos                    | 19 horas |
@@ -59,7 +61,7 @@ A veces cuando no tenemos ni idea de algoritmos nos preguntamos, ¿qué más da 
 
 Pero ahora preguntémonos, ¿qué pasará cuando el número de usuarios se incremente a 1000, a 10 000, a 10 000 000?, es entonces cuando las milésimas de segundos se pueden volverse horas o días y, entonces, vislumbramos la verdadera importancia de elegir un algoritmo con un rendimiento adecuado.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo calcular o leer el rendimiento Big O?
 
@@ -68,6 +70,8 @@ Para evaluar este rendimiento se utiliza una notación llamada Big O. Esta nos d
 A mayor longitud de los datos de entrada mayor será el tiempo en recorrerlos y procesarlos, pero ¿en que proporción aumenta este tiempo? No es lo mismo un tiempo constante que un tiempo que aumente en proporción directa o proporción exponencial. 
 
 Ciertamente un algoritmo que aumente en proporción exponencial no será algo lindo con lo que lidiar cuando tengamos que recorrer cantidades descomunales de datos. Para saber como se comporta nuestro algoritmo necesitamos analizarlo y hay ciertas reglas que hay que considerar en la notación big O.
+
+{{<ad2>}}
 
 ### Los pasos se suman
 
@@ -84,6 +88,8 @@ Esta función pasará por el array una sola vez. Como solo tiene **un paso**, es
 ### Las constantes se descartan
 
 Ahora mira este código, tiene dos pasos que procesan el mismo array de valores.
+
+{{<ad3>}}
 
 ```python
 def printArrayDoubled(Array):

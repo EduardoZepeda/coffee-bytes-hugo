@@ -34,7 +34,7 @@ Para fines prácticos, te prepara para que sirvas como un intermediario que le r
 
 Para conseguir lo anterior necestas conocer la arquitectura básica de Azure, sus diferentes servicios: computo, almacenamiento, inteligencia artificial, etc., sus características especiales, diferencias, y sus respectivos casos de uso.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Mi proceso de examen
 
@@ -48,6 +48,8 @@ Según me dijeron en uno de sus correos, la aplicación del examen puede pospone
 
 ## Formato del examen AZ-900
 
+{{<ad2>}}
+
 La duración del examen es de aproximadamente 60 minutos y cuenta con 45 preguntas, hay preguntas de opción múltiple, verdadero o falso, de relacionar columnas e incluso algunas en las que tienes que elegir una opción del marketplace de Microsoft directamente, justo como si te encontraras en el navegador.
 
 {{< figure src="images/portal-azure.png" class="md-local-image" alt="Captura de pantalla del portal de Azure" caption="Portal de azure" >}}
@@ -59,6 +61,8 @@ El examen se divide en diferentes secciones, cada una con un valor diferente, ge
 Al finalizar el examen, el sistema calcula tu puntuación de manera automática, y te informa si aprobaste. Requieres un mínimo de 700 puntos de un máximo 1000 puntos para aprobar.
 
 ### Contenido del examen de certificación AZ-900
+
+{{<ad3>}}
 
 El examen está fuertemente orientado a las aplicaciones prácticas de los servicios de la nube. Este cuenta con preguntas enfocadas a casos prácticos, donde una empresa ficticia necesita decidir que servicio de la nube puede satisfacer mejor sus necesidades, por lo que no basta con saber definiciones, sino tener muy claros los conceptos y entenderlos, para poder aplicarlos en un entorno un poco más parecido al real.
 

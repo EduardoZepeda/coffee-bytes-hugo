@@ -31,7 +31,7 @@ For practical purposes, it prepares you to serve as an intermediary who recommen
 
 To achieve the above you need to know the basic architecture of Azure, its different services: compute, storage, artificial intelligence, etc., their special features, differences, and their respective use cases.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## My examination process
 
@@ -45,6 +45,8 @@ According to what I was told in one of their emails, the application of the exam
 
 ## AZ-900 Examination format
 
+{{<ad2>}}
+
 The duration of the exam is approximately 60 minutes and has 45 questions, there are multiple choice questions, true or false, matching columns and even some where you have to choose an option from the Microsoft marketplace directly, just as if you were in the browser.
 
 {{< figure src="images/portal-azure.png" class="md-local-image" alt="Azure Portal screenshot" caption="Azure Portal" >}}
@@ -56,6 +58,8 @@ The test is divided into different sections, each with a different value, genera
 At the end of the exam, the system automatically calculates your score and informs you if you approved. You need a minimum of 700 points out of a maximum of 1000 points to pass.
 
 ### Contents of the AZ-900 exam
+
+{{<ad3>}}
 
 The exam is strongly oriented towards practical applications of cloud services. With questions focused on practical cases, where a fictitious company needs to decide which cloud service can best meet their needs, so it is not enough to know definitions, but to have a clear understanding of concepts, to be able to apply them in an environment a little more similar to the real one.
 

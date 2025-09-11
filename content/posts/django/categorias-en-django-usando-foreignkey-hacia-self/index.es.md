@@ -40,7 +40,7 @@ class Member(models.Model):
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Una subcategoría o nivel por modelo
 
@@ -62,6 +62,8 @@ class SubCategory(models.Model):
 
 Esta aproximación al problema de las jerarquias en Django luce bien a primera vista. La estructura que resultará será similar a esta:
 
+{{<ad2>}}
+
 {{< figure src="images/CategoriaDjango-1.jpg" class="md-local-image" alt="Esquema de modelo Subcategoría con ForeignKey hacía Categoría en Django" >}}
 
 ### El problema de usar un modelo por categoría
@@ -73,6 +75,8 @@ Imagínate una categoría de películas de terror, con una subcategoría de fant
 Pues, añadimos una clase _SubSubCategoría_ ¿no? Pero... y si esas SubSubCategorías tienen a su vez subcategorías. ¿Ves a donde intento llegar?
 
 {{< figure src="images/ProblemaCategoriasDjango.jpg" class="md-local-image" alt="Esquema del problema de las subcategorías infinitas" >}}
+
+{{<ad3>}}
 
 Cada vez que necesites crear una subcategoría nueva tendrás que crear un nuevo modelo en el archivo _models.py_ de tu aplicación. Y no solo eso, sino una nueva tabla que probablemente solo cuente con unos cuantos registros. ¿Existe una aproximación mejor al problema? El [versátil ORM del Django Framework]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}}) nos ofrece una solución bastante limpia.
 

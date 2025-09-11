@@ -30,7 +30,7 @@ Languages like [Python have better abstractions than Javascript]({{< ref path="/
 
 {{< figure src="images/date-javascript.webp" class="md-local-image" alt="Javascript's date management is not intuitive" caption="Javascript's date management is not intuitive" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## The disconnection between HTML and JS
 
@@ -44,6 +44,8 @@ Well, after this the datetime-local input will work and show the date, the probl
 
 {{< figure src="images/formatting-dates-in-javascript.jpg" class="md-local-image" alt="A meme that with irony, makes fun of Javasript's date management" caption="Oh, mom! Not javascript again!" >}}
 
+{{<ad2>}}
+
 But what if we use a library to handle those changes? 
 
 ## The js libraries for time handling don't solve anything.
@@ -55,6 +57,8 @@ Those libraries exist, because Javascript did a lousy job in designing its stand
 It may seem insignificant to you to add one more library, but it's not the weight that's the problem, it's the fact that a library for something as common as date handling is so necessary, plus it adds unnecessary weight to your bundle and an extra dependency to manage.
 
 The fact that these libraries are popular only highlights the shortcomings of JavaScript as a language. 
+
+{{<ad3>}}
 
 And yes, I know what you're thinking. Although I really like [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}), I'm also able to recognize their shortcomings and areas for improvement.
 

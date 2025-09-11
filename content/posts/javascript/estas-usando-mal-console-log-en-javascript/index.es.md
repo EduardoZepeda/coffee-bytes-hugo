@@ -31,7 +31,7 @@ console.info("Texto con propósito informativo")
 
 {{< figure src="images/info.jpg" class="md-local-image" alt="Impresion con console.info en consola" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Muestra mensajes de advertencia
 
@@ -46,6 +46,8 @@ console.warn("Muestra un mensaje de advertencia")
 ## Muestra un mensaje de error
 
 _console.error()_ nos muestra un mensaje de error
+
+{{<ad2>}}
 
 ```javascript
 console.error("Muestra un mensaje de error")
@@ -64,6 +66,8 @@ console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es
 ```
 
 {{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Impresión en consola con console.assert ara false" >}}
+
+{{<ad3>}}
 
 {{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Impresión en consola con console.assert para true" >}}
 

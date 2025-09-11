@@ -35,6 +35,8 @@ Una migración consiste en dos archivos con instrucciones SQL:
 - archivo up: Para realizar cambios en la base de datos
 - archivo down: Para revertir cambios en la base de datos
 
+{{<ad0>}}
+
 Para este caso se llaman up y down, pero podrías ponerle cualquier otros nombres; como forward y backward, o adelante y atrás.
 
 Por ejemplo:
@@ -49,7 +51,7 @@ Siguiendo esta lógica podemos realizar cambios en la base de datos y luego reve
 
 Estos dos archivos pueden ser generados automáticamente (como en el caso de Django, a partir de los modelos) o podemos escribirlos nosotros directamente en SQL, como en el caso de go.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Instalación de migrate
 
@@ -61,6 +63,8 @@ Migrate se descarga directo desde su [sección releases en github](https://githu
 curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
 mv migrate.linux-amd64 $GOPATH/bin/migrate
 ```
+
+{{<ad2>}}
 
 Para versiones más nuevas de Go, utiliza *go install*
 
@@ -78,6 +82,8 @@ migrate -version
 ## Creación de archivos de migración con migrate en Go
 
 Para crear el par de archivos de migración, de los que te hable anteriormente, corremos el siguiente comando:
+
+{{<ad3>}}
 
 ```bash
 migrate create -seq -ext=.sql -dir=./migrations <nombre_de_la_migración>

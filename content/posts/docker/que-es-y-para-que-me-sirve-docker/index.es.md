@@ -27,7 +27,7 @@ Si llevas usando computadoras desde hace tiempo, probablemente te encuentres má
 
 Docker es una herramienta que permite empaquetar una aplicación y sus dependencias en un contenedor muy ligero. Es como si tomaras una aplicación completa con absolutamente todo lo que necesita para funcionar para poder transportarla sin problema a cualquier otro servidor con Docker instalado, ya sea para seguir desarrollándola o para hacer deploy. ¿Y? ¿es todo? ¿transportar código? De seguro me dirás que eso ya lo hacen las máquinas virtuales, [los entornos virtuales]({{< ref path="/posts/python/por-que-usar-un-entorno-virtual-en-python/index.md" lang="es" >}}), los archivos zip y prácticamente cualquier herramienta. Bueno sí, pero voy a intentar explicar de manera sencilla que problemática hay.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Para qué sirve Docker?
 
@@ -45,6 +45,8 @@ Manolo, Sofia y Ricardo saben esto, por esta razón nuestro equipo acuerda usar 
 - Sofia instala ubuntu desde una copia en CD que tenía guardada en un cajón de su escritorio.
 - Ricardo, por su parte, mantiene su sistema operativo tal cual estaba en un principio.
 
+{{<ad2>}}
+
 Aunque ambos estén usando la misma distribución, no es exactamente el mismo sistema operativo. ¿Notas lo que puede salir mal aquí? Exactamente, hay diferentes versiones de un mismo sistema operativo, así como el kernel sobre el cual se ejecutan, y probablemente cada versión del Kernel tenga diferentes paquetes, con sus respectivas versiones, en sus repositorios, además de la configuración personalizada que pueda tener cada usuario o proveedor de hosting en sus sistemas.
 
 Ahora considera este segundo caso, en el que necesitas combinar dos softwares, por ejemplo un framework y una base de datos, pero las versiones que necesitas combinar no funcionan con la misma versión del Kernel de Linux. Simplemente no podrías usarlos en el mismo ordenador, pero con los containers puedes tener cada aplicación en su propio SO.
@@ -56,6 +58,8 @@ Ahora considera este segundo caso, en el que necesitas combinar dos softwares, p
 **Docker nos permite correr nuestras aplicaciones en contenedores**, cada una con su propia función, sistema operativo y recursos. De seguro ahora estás pensando: ¿un contenedor es cómo una máquina virtual? ¿no? ¿por qué no usar máquinas virtuales entonces? Pues sí, los contenedores son una forma de virtualización y funcionan de manera similar a una máquina virtual, pero técnicamente no son iguales.
 
 Para evitar caer en las viles manos de los puristas de las ciencias de la computación citaré las diferencias entre máquina virtual y contenedor tal cual están en la [página oficial de Docker](https://www.docker.com/resources/what-container), y me encomendaré al buen conocimiento de sus redactores:
+
+{{<ad3>}}
 
 ## Diferencias entre contenedores y máquinas virtuales
 

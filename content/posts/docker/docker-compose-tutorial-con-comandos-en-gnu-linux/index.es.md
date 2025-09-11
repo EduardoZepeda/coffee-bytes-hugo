@@ -310,6 +310,8 @@ services:
       - "dbdata:/var/lib/postgresql/data"
 ```
 
+{{<ad0>}}
+
 Opcionalmente podemos especificar si el uso de volúmenes será de solo lectura o de lectura y escritura, con "ro" y "rw", respectivamente.
 
 ```docker
@@ -341,7 +343,7 @@ La opción restart puede tomar varios valores
 - on-failure: lo reinicia si el contenedor devuelve un estado de error
 - unless-stopped: lo reinicia en todos los casos excepto cuando se detiene
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Comandos básicos de docker compose
 
@@ -350,6 +352,8 @@ Ahora que ya vimos como está conformado un archivo de docker-compose y algunas 
 ### Compilar un archivo de servicios
 
 Para realizar un build a un archivo docker-compose basta con ejecutar build. Este comando buscará un archivo llamado docker-compose.yml en la carpeta actual.
+
+{{<ad2>}}
 
 ```bash
 docker-compose build
@@ -378,6 +382,8 @@ docker-compose up
 #Creating docs     ... done
 #Creating django   ... done
 ```
+
+{{<ad3>}}
 
 Probablemente querramos ejecutar nuestro stack de servicios en segundo plano, para eso basta con agregar la opción _\-d_ al final.
 

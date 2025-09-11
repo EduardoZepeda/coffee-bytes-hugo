@@ -28,7 +28,7 @@ The profiling process will slow down the execution of the code, as it is interru
 
 At the end of the profiler the go _pprof_ tool organizes the data so that it can be represented in a more user-friendly way.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## CPU profiling in go
 
@@ -68,6 +68,8 @@ func TestFibonacci(t *testing.T) {
 }
 ```
 
+{{<ad2>}}
+
 ### Obtaining profiling information
 
 As we did to view the [coverage in go testing](/en/go/go-basic-testing-and-coverage/), we use a flag to create a file with the profiling information in binary, this file cannot be viewed directly.
@@ -82,6 +84,8 @@ ok _/home/eduardo/Programacion/goTesting/testing 0.813s
 But it can be used by other tools to visualize it in a more human way.
 
 ### Display profiling results
+
+{{<ad3>}}
 
 To see the cpu usage summary we use _tool pprof_ passing as argument the file containing the profiling data.
 

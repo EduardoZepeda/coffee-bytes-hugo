@@ -26,7 +26,7 @@ When we want to move from one place to another for short distances we use a land
 
 When a person wants to create a vehicle that performs the function of transporting an object over land they will generally think of these elements and work on those elements to modify them to create something different or more sophisticated. This union of objects is a **design pattern**.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Design Patterns in Software
 
@@ -43,6 +43,8 @@ Some common problems are: [processing tasks using a fixed number of workers](/en
 Does this last one ring a bell? Yes, the MVC pattern used by many [frameworks, such as django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), is a design pattern, or the [debounce-and-throttle]({{< ref path="/posts/javascript/debounce-y-throttle-en-javascript/index.md" lang="en" >}}) pattern used mainly in JavaScript.
 
 Another example is the well-known ["composition over inheritance"]({{< ref path="/posts/software-architecture/favorecer-la-composicion-sobre-la-herencia-explicacion/index.md" lang="en" >}})
+
+{{<ad2>}}
 
 Design patterns make it easier to decouple the code, which makes it simpler to add or remove functions and also gives us the assurance that they are solutions that have already been tested over and over again over the years.
 
@@ -73,6 +75,8 @@ There are numerous patterns in existence as problems to be solved, and patterns 
 Just as these patterns emerged in response to existing problems, new patterns are created in response to new problems, so **there is no list of static patterns that are absolute and solve all problems**.
 
 ## Examples of patterns: singleton, observer, template, decorator
+
+{{<ad3>}}
 
 I'm going to walk you through four examples of design patterns in Python below. Why Python? Because it's pretty simple to understand, even if you've never written Python code, and if you're coming from a low-level language, it'll probably be a piece of cake for you.
 

@@ -47,6 +47,8 @@ Mira las siguientes comparaciones que usan información de [Techempower](https:/
 
 ### Rendimiento para peticiones con una query
 
+{{<ad0>}}
+
 El número indica la cantidad de respuestas por segundo para un single query, por supuesto que mientras más alto mejor.
 
 {{< figure src="images/SingleQueryFastApi.png" class="md-local-image" alt="Gráfico de comparación de número de respuestas por segundo para petición que devuelve una fila de la base de datos. FastAPI en segundo lugar." caption="Número de respuestas por segundo para peticiones que devuelven una fila de la base de datos. Información tomada de https://www.techempower.com/benchmarks" >}}
@@ -61,7 +63,7 @@ Según la información que nos proporciona Techempower, **FastAPI es tremendamen
 
 Pero ¿qué tal su compatibilidad con las nuevas versiones de Python?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Tipado y asincrónismo en Python
 
@@ -70,6 +72,8 @@ FastAPI es totalmente compatible con el tipado y el asincrónismo de las última
 Con la intención de mantener este tutorial lo más sencillo posible voy a usarlas **únicamente donde sea necesario**, si no es estrictamente necesario incluirlas voy a omitirlas. Menciono lo anterior para que tomes en cuenta que cada fragmento de código donde se use FastAPI puede incorporar asincronismo y tipado, según consideres necesario.
 
 Ahora que ya viste porque vale la pena usarlo, ¿por qué no probarlo?
+
+{{<ad2>}}
 
 ## Instalación de FastAPI
 
@@ -84,6 +88,8 @@ pip install fastapi uvicorn
 ```
 
 A continuación vamos a crear un archivo llamado _main.py_, aquí estará todo el código que usaremos para crear nuestra API.
+
+{{<ad3>}}
 
 ```bash
 touch main.py

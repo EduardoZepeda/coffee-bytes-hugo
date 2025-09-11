@@ -35,6 +35,8 @@ It is common practice to use Github to assess a developer's capabilities, but to
 {{< figure src="images/github-as-past-review-tool.webp" class="md-local-image" alt="This is just a representation of how a github's contribution chart can be a reflect of someone's life" caption="This is just a representation of how a github's contribution chart can be a reflect of someone's life" >}}
 
 
+{{<ad0>}}
+
 But why would someone not want to show the ~~horrible quality of their code done in javascript~~ good quality of their code? One reason is that they're probably too busy writing code that does pay, rather than contributing to open source. 
 
 
@@ -50,7 +52,7 @@ Ironically my github looks like this:
 
 Yes, as you may know, not all developers are ~~fans of free software's Slavoj Žižek: Richard Stallman~~ so altruistic to contribute code to humanity without expecting anything in return, can we blame them?, aren't most companies being hypocritical? Do companies that use Github to evaluate their candidates put their code base as open source on Github?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## The fear of getting your code or ideas stolen
 
@@ -60,6 +62,8 @@ Microsoft has never been known for its ethics when it comes to doing business, s
 - When its [AI, Github copilot, blatantly copied the code](https://aibusiness.com/responsible-ai/github-s-ai-powered-coding-tool-allegedly-copied-code#?) of some researchers.
 
 Considering the above, and regardless of the veracity of the claims, **I wouldn't be surprised if some developers choose to keep their code out of the hands of Microsoft and its services,** Github included, of course.
+
+{{<ad2>}}
 
 {{< figure src="images/github-meme-invencibles.webp" class="md-local-image" alt="github meme" caption="Github meme" >}}
 

@@ -30,7 +30,7 @@ This way to protect your email address requires no detailed explanation, just tu
 
 The disadvantage of this approach is that the person who wants to send you an email will have to type it in manually, as they can't copy-paste, and you know that every extra step adds friction to the conversion process.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Use a different email notation
 
@@ -44,6 +44,8 @@ Another way is not to put the email directly, but a hint as to how it can be ded
 
 > *"My email is the name that appears in the url and is a google email address"*. 
 
+{{<ad2>}}
+
 With that we will understand that the address is *lain@gmail.com*.
 
 Just try not to complicate things too much here, don't overestimate the deductive capabilities of the average web surfer.
@@ -55,6 +57,8 @@ Another option is to completely forget about placing your email and use a form i
 ### Protect your form from spam with a captcha
 
 Of course some bots will try to fill out the form to send you advertisements but you can always use [a strong captcha to protect yourself from spam](/en/opinion/my-analysis-of-anti-bot-captchas-and-their-advantages-and-disadvantages/)
+
+{{<ad3>}}
 
 {{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Anime captcha image from Freiren" >}}
 

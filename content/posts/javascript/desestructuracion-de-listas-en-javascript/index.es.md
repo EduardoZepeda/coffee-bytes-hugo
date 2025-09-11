@@ -26,6 +26,8 @@ const scientificData = [15.222, 1.723, 1.313, 4.555, 2.333, 1.990]
 
 El contenido de la lista son solo números, no nos dicen absolutamente nada. Estos valores podrían ser coeficientes, mediciones de temperatura, longitudes de alguna pieza o algún gradiente de concentraciones de una solución; no tenemos manera de saberlo. Podríamos vernos tentados a procesar la información accediendo a los índices de cada valor de la lista, pero esto le restaría legibilidad al código.
 
+{{<ad0>}}
+
 ```javascript
 
 if(scientificData[0] > limitValueMouse){
@@ -48,7 +50,7 @@ const lengthFly = scientificData[1]
 
 Sin embargo, si nuestra lista aumenta de tamaño estaremos repitiendo la misma estructura una y otra vez. Podemos ahorrarnos algo de código de la siguiente manera:
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Desestructuración por índice
 
@@ -58,6 +60,8 @@ const [mouseLength, flyLength] = scientificData
 ```
 
 Usando este método asignamos el primer y el segundo valor de la lista a la variable _mouseLength_ y _flyLength_ , respectivamente.
+
+{{<ad2>}}
 
 ```javascript
 

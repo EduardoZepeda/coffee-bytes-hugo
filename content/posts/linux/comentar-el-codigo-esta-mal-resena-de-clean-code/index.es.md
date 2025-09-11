@@ -138,6 +138,8 @@ is_product_available = check_if_product_available()
 
 En el capítulo que habla de las funciones, *uncle bob* enfatiza la necesidad de mantener los argumentos que una función recibe al mínimo, además considera que cualquier función que reciba más de tres argumentos **no debería ser usada**.
 
+{{<ad0>}}
+
 Desde el punto de vista de nuestro capataz del código limpio, los argumentos te forzan a requerir más información de una función que su nombre, pues ahora debes entender como interaccionan las variables dentro de la lógica de la función, además son difíciles de incluir en las pruebas puesto que hay que probar diferentes combinaciones de estos para asegurarnos de cubrir cada caso de la función. 
 
 Suena lógico ¿no? Bueno sí, pero si revisas libros, vídeos, repositorios e incluso en la documentación oficial de ciertas tecnologías muy maduras y que se usan en sitios web de talla mundial, uno puede ver numerosas funciones con dos, tres y hasta cuatro argumentos. 
@@ -157,7 +159,7 @@ router.get('/users/me', auth, async (req, res) => {
 
 A mi, sin embargo, no me parece tan grave ni tan difícil de leer este pequeño fragmento de código pero quizás sería razón suficiente para ser excomulgado de la iglesia del Clean Code.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Qué no me gustó de Clean Code?
 
@@ -166,6 +168,8 @@ Este libro es lo que yo considero un anacronismo, el autor usa Java para desarro
 El código que se usa para los ejemplos me parece bastante rebuscado, utiliza fragmentos de código completos en lugar de un ejemplo mínimo, el autor de Refactoring lo hace mucho mejor en este aspecto.
 
 Sentí el libro innecesariamente largo, los ejemplos están bien detallados, pero no creo que se necesiten tantas páginas para exponer algunos temas tan simples, como el nombrado de variables.
+
+{{<ad2>}}
 
 ## ¿Qué alternativas hay a Clean Code?
 
@@ -182,5 +186,7 @@ Pero, mientras lo lees, considera que **este libro no es un manual que deba ser 
 - The Art of Readable Code
 - Refactoring to Patterns de Joshua Kerievsky
 - Refactoring
+
+{{<ad3>}}
 
 Por cierto, el otro día me compartieron en Twitter un [resumen de los conceptos de Clean Code con ejemplos en Javascript.](https://github.com/ryanmcdermott/clean-code-javascript) con el que puedes echarle un vistazo al contenido del libro antes de decidir entre comprarlo o no comprarlo.

@@ -41,6 +41,8 @@ tesseract -v
 tesseract 5.3.0
 ```
 
+{{<ad0>}}
+
 {{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento." caption="Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5" >}}
 
 
@@ -65,7 +67,7 @@ spa
 
 Verás que ahora el español ya se encuentra instalado y podemos usarlo para detectar el texto de nuestras imágenes agregando la opción _\-l spa_ al final de nuestro comando
 
-{{<ad>}}
+{{<ad1>}}
 
 ## OCR con tesseract
 
@@ -81,6 +83,8 @@ Estimating resolution as 139
 Do you have the time to listen to me whine
 ...
 ```
+
+{{<ad2>}}
 
 El "-" al final del comando le indica a tesseract que mande los resultados del análisis a la salida estándar, para que podamos verlos en terminal.
 
@@ -98,6 +102,8 @@ tesseract imagen_con_texto.jpg - --oem 1
 Considera que **no todos los archivos de idiomas funcionan con el tesseract original** (0 y 3). Aunque generalmente el de redes neuronales es el que da el mejor resultado. Puedes encontrar los modelos compatibles con el tesseract original y redes neuronales en el [repositorio de tesseract](https://github.com/tesseract-ocr/tessdata#?).
 
 Puedes instalarlos de manera manual descargándolos y moviéndolos a la carpeta adecuada, en mi caso es _/usr/local/share/tessdata/_, pero puede ser diferente en tu sistema.
+
+{{<ad3>}}
 
 ```bash
 wget https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata

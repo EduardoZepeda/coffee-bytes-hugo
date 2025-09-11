@@ -101,6 +101,8 @@ export default App;
 
 ### El patrón de subcomponentes en React se complica
 
+{{<ad0>}}
+
 El [patrón componente como namespace](https://medium.com/@kunukn_95852/react-components-with-namespace-f3d169feaf91) es bastante sencillo de crear sin usar React.FC, pero con React.FC puede complicarse bastante.
 
 ¿No sabes que es? Piensa en un patrón que te permite agrupar componentes dentro de un cierto padre, que funciona como un namespace para nuestros componentes hijos; similar a como funcionaría el namespace _std_ de C++.
@@ -125,7 +127,7 @@ const  Namespace: React.FC<PropsDelNamespace> & { Componente: React.FC<PropsDelC
 Namespace.Componente = (props) => { /*...*/ }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Qué deberíamos usar en lugar de React.FC?
 
@@ -134,6 +136,8 @@ El núcleo de las críticas se basta en que **React.FC añade el children de man
 Como usar [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}) para su compilador.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." >}}
+
+{{<ad2>}}
 
 Sin embargo, la discusión de la que te hablo es solo eso, una discusión, no está escrita en piedra, puede que tú consideres que es mejor sacrificar un poco de legibilidad en favor de la comodidad o, por el contrario, puede que creas que es importante ser explícito cuando se trabaja con typescript.
 
@@ -155,6 +159,8 @@ export default Componente
 ```
 
 Typescript no debería de advertirte sobre ningún error con esta aproximación al problema.
+
+{{<ad3>}}
 
 ## Otros recursos sobre el tema
 

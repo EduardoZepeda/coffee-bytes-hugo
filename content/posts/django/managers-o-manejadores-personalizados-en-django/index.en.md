@@ -32,7 +32,7 @@ If you have used the Django ORM, you have probably already used the default mana
 Videogame.objects.all()
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Modifying the default manager
 
@@ -49,6 +49,8 @@ from django.db import models
 ```
 
 What is this for? Well, we can now call the _object manager_ in a different way, which may improve the readability of our code, but it is not the most important reason.
+
+{{<ad2>}}
 
 ```python
 Videogame.stem.all()# En lugar de Videogame.objects.all()
@@ -73,6 +75,8 @@ from django.db import models
     …
       objects = VideogameManager() #Renombra al manager por defecto aquí se usa objects para ser consistente
 ```
+
+{{<ad3>}}
 
 Now our default manager, _objects_, has a method called _count_titles_ that we can use as if it were part of the original Django ORM.
 

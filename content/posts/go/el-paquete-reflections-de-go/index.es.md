@@ -33,7 +33,7 @@ Podemos dividir la reflexión de Go en dos tipos de datos importantes:
 * **Type**: El tipo de dato de Go, a partir del cual se desglosan todos la información del tipo de dato, su clase, su nombre, tamaño, etc.
 * **Value**: El valor del dato de Go, con métodos para modificar los datos de un objeto.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Tipo de dato: Type y TypeOf
 
@@ -57,6 +57,8 @@ graph TD;
 
 En este diagrama coloco los que considero los métodos más importantes de *Type*, pero tanto el tipo *reflect.Type* y *reflect.Value* tiene muchos más.
 
+{{<ad2>}}
+
 Mira un ejemplo con *TypeOf*:
 
 ``` go
@@ -78,6 +80,8 @@ Observa como el tipo de dato es una estructura que corresponde a main, de nombre
 ### Name, el nombre del tipo de dato
 
 Name contiene el nombre del respectivo tipo de dato
+
+{{<ad3>}}
 
 ``` go
 // TypeOf nos devolverá un tipo *reflect.Type*

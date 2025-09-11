@@ -27,7 +27,7 @@ That same afternoon you decide to start working on the first project, Pro 2.2. L
 
 You decide it's okay, that's fine, so you decide to work like this. When you finish your Pro-newest Project you are so excited that you decide to show your colleague. He receives your files but swears to you that the code doesn't run, what went wrong? After a brief chat your friend explains that he has had Django 1.6 installed on his PC for years and hasn't updated it since then. Your project with the latest version of Django won't work on your friend's computer due to version incompatibilities. Wouldn't it be simpler if your friend could use the same version of Django as the project you want to show him? Without having to uninstall the version he already has.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What if we use virtual machines?
 
@@ -40,6 +40,8 @@ Virtual machines consume too much hard disk space and the boot time for each vir
 A virtual environment, simplifying the explanation as much as possible (forgive me purists), is a space isolated from the rest of our operating system, where we will have a series of dependencies installed locally. It is as if you specify a place from where Python will take its libraries, instead of the default one used by your operating system. These dependencies are independent of the ones we have previously installed in our operating system. And, best of all, we can have as many of these isolated spaces as we want.
 
 Imagine a folder where we have Django 2.2 installed and another one for the newer version of Django. Since they are isolated environments, it doesn't matter if our operating system doesn't even have django installed. We will be able to switch between one virtual environment and another, without excessive loading times, and the behavior will be the same as if we had them installed on our operating system.
+
+{{<ad2>}}
 
 Needless to say, virtual environments solve quite a few problems. And it is a highly recommended, if not almost mandatory, practice when working with Python code.
 

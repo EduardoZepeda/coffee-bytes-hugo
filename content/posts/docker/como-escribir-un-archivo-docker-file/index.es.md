@@ -124,6 +124,8 @@ RUN pip install -r requirements.txt
 
 CMD te permite ejecutar **un comando una vez que el contenedor arranca**, sin embargo cualquier cambio en CMD requiere que recompiles la imagen. Lo anterior lo vuelve ideal para arrancar servidores web, o servicios.
 
+{{<ad0>}}
+
 ```dockerfile
 CMD ["gunicorn", "--bind", ":8000", "--workers", "2", "project.wsgi"]
 ```
@@ -167,7 +169,7 @@ Successfully built 6e3ffe358338
 Successfully tagged djangocontainer:0.1
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Compilar un Dockerfile usando docker build
 
@@ -178,6 +180,8 @@ docker build --tag djangocontainer:0.1 .
 ```
 
 Puedes ver que nuestra imagen ha sido creada ejecutando el comando *docker images*
+
+{{<ad2>}}
 
 ```bash
 docker images
@@ -203,6 +207,8 @@ curl localhost:8000
 ```
 
 Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 veremos el cohete de Django indicando que todo funcionó perfectamente. Gunicorn está sirviendo nuestra aplicación de Django en el puerto 8000, al que podemos acceder a través de nuestro puerto del mismo número.
+
+{{<ad3>}}
 
 El siguiente paso que podrías tomar es vincular muchas imágenes de Docker para tener una aplicación de tamaño pequeña o mediana con múltiples componentes, para eso [Docker-compose es la herramienta perfecta]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}). Mientras que para aplicaciones mucho más complejas existe Kubernetes, aunque probablemente sea un overkill para la mayoría de ideas de negocio.
 

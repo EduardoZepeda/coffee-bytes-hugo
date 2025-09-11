@@ -109,6 +109,8 @@ class Videogame(models.Model):
 
 Ahora corramos las migraciones y creemos un súper usuario.
 
+{{<ad0>}}
+
 ```bash
 python manage.py makemigrations
 python manage.py migrate
@@ -141,7 +143,7 @@ touch base.html
 touch home.html
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Instalando htmx
 
@@ -174,6 +176,8 @@ Mantendremos una estructura muy simple para la plantilla base, con solo las etiq
 </html>
 ```
 
+{{<ad2>}}
+
 ## Atributos más útiles de HTMX para Django
 
 Abramos el archivo _home.html_. Extendemos de la plantilla _base.html_ y reemplazamos la etiqueta body con una presentación simple y nuestro primer botón con Htmx.
@@ -198,6 +202,8 @@ Abramos el archivo _home.html_. Extendemos de la plantilla _base.html_ y reempla
 ```
 
 El botón va a tener cuatro atributos, cada botón le va a especificar una serie de comportamientos: hx-get, hx-trigger, hx-target, hx-push-url
+
+{{<ad3>}}
 
 ### hx-get
 

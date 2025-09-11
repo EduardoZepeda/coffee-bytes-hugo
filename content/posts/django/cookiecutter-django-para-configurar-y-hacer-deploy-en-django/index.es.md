@@ -32,6 +32,8 @@ Escribí las entradas anteriores como una introducción para el tema de esta sem
 
 Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual tengo una [reseña de Twoo scoops of django](/es/django/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
+{{<ad0>}}
+
 ¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}).
 
 Si dudas sobre si deberías usar Django visita mi entrada donde te explico algunas [ventajas y desventajas de este framework de desarrollo web.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
@@ -55,7 +57,7 @@ Hay cookiecutters para muchas tecnologías y muchas personas terminan programand
 
 El cookiecutter de Django nos da una plantilla personalizable lista para empezar, con las librerías más populares evitándonos la molestia de tener que configurar un proyecto desde cero.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Instalar cookiecutter
 
@@ -66,6 +68,8 @@ sudo apt install cookiecutter
 ```
 
 O también se puede instalar usando pip
+
+{{<ad2>}}
 
 ```bash
 pip install cookiecutter
@@ -82,6 +86,8 @@ cookiecutter https://github.com/pydanny/cookiecutter-django
 A continuación, un script nos hará una serie de preguntas para configurar el proyecto de manera casi automática. Cada pregunta tiene un valor por defecto que se encuentra dentro de corchetes, si no especificamos ninguno usará ese valor.
 
 En los fragmentos de código coloco las respuestas que elegí para este ejemplo o un espacio vacío para el valor por defecto.
+
+{{<ad3>}}
 
 ### Datos del proyecto
 

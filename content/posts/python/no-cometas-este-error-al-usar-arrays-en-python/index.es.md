@@ -31,6 +31,8 @@ Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que pue
 
 ## La manera incorrecta de crear matrices en Python
 
+{{<ad0>}}
+
 Conociendo la manera de crear arrays usando el operador de multiplicación, podríamos pensar en crear una matriz bidimensional de la siguiente manera:
 
 ```python
@@ -52,7 +54,7 @@ matrix[0][1] = 3
 
 Esto sucede porque cuando Python crea el array, **no está creando 4 diferentes arrays**, sino que crea uno solo y copia 4 veces la referencia a este espacio de memoria, por lo que, cualquier cambio que hagamos está modificando el único array que existe y, **como las 4 referencias apuntan a ese array, vemos el cambio reflejado en todos** los arrays.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo prevenir este error?
 
@@ -65,5 +67,7 @@ new_matrix[0][1] = 3
 ```
 
 En el código anterior, se crea un array nuevo por cada elemento en nuestro list comprehension, asegurándonos de que existan 4 arrays individuales y de que cada cambio ocurra solo una vez en nuestra matriz bidimensional.
+
+{{<ad2>}}
 
 Ahora ya sabes que, si en una matriz bidimensional se están cambiando todos los elementos cuando modificas uno solo, debes cambiar la manera en la que generaste tu matriz.

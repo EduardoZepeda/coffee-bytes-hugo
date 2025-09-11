@@ -21,6 +21,8 @@ slug: /software-architecture/throttling-en-nginx/
 title: Throttling en Nginx
 ---
 
+{{<ad0>}}
+
 El throttling en Ngnix nos permite limitar el número de peticiones a un cierto usuario. Lo anterior es útil para prevenir peticiones excesivas por parte de un usuario que mantengan el sistema ocupado. Por otro lado, también es una manera de disuadir intentos de averiguar una contraseña por fuerza bruta o incluso ataques DDOS.
 
 Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/es/linux/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
@@ -35,7 +37,7 @@ El agua que entra primero por la cubeta sale primero (FIFO). Si el flujo es sufi
 
 En el ejemplo anterior, las peticiones o requests, representan el agua; cualquier incremento excesivo de peticiones se desbordará y se perderán. Las peticiones que ya se encontraban en la cubeta abandonarán la cubeta primero, es decir, serán procesadas como van llegando (una cola FIFO).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## limit\_req\_zone establece los valores del throttling
 
@@ -46,6 +48,8 @@ limit_req_zone $binary_remote_addr zone=mylimit:10m rate=10r/s;
 ```
 
 limit\_req\_zone establecerá los parámetros que tendrá el throttling:
+
+{{<ad2>}}
 
 - $binary\_remote\_addr guarda la dirección IP en binario. Podemos reemplazarlo por $remote\_addr a un costo de mayor espacio de memoria por IP
 - zone establece el nombre del espacio donde se guardarán nuestras ip y su capacidad, en 1MB caben aproximadamente 16 000 IPs.
@@ -70,6 +74,8 @@ server {
 ```
 
 Y listo, ahora Nginx tendrá un límite de 10 requests por segundo para la dirección /login/.
+
+{{<ad3>}}
 
 Eso está bastante bien, pero si nosotros hicieramos un request y en menos de 100 ms hicieramos un segundo request notariamos que Nginx nos devuelve un error 503, pero, ¿por qué? ¿No estamos dentro de límite de los 10 requests por segundo? Aún no ha transcurrido el segundo y apenas van 2 requests. Pues sí, pero Nginx mide sus rates en milisegundos, por lo que nuestro rate real no es de 10 r/s.
 

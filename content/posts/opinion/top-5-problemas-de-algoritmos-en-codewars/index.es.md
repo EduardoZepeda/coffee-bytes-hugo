@@ -23,6 +23,8 @@ title: Top 5 Problemas de Algoritmos Favoritos en Codewars
 
 ## ¿Qué es codewars?
 
+{{<ad0>}}
+
 Codewars es una red social de programadores que se reunen para retar a otros a resolver retos de código. Codewars es uno de **los mejores sitios web para practicar algoritmos y resolución de Katas**. ¿Katas? Sí, como en Karate.
 
 ### ¿Qué son las katas?
@@ -37,7 +39,7 @@ Sin más dilación, qquí te dejo mi top 5 de *katas*. Estas *katas* **No son ne
 
 Por cierto, **no, no voy a poner las respuestas**, esas te tocan a ti.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Multi Line Task++: Hello World
 
@@ -46,6 +48,8 @@ Necesitas escribir una función que retorne el string "Hello, world!" en Javascr
 Requisito: Cada linea debe tener a lo mucho 2 caracteres, y el número total de lineas debe ser menor a 40.
 
 Pista: Es posible completarla en solo 28 lineas de código.
+
+{{<ad2>}}
 
 Kata original: [Multi Line Task++: Hello World](https://www.codewars.com/kata/59a421985eb5d4bb41000031#?)
 
@@ -65,6 +69,8 @@ Lo dificil es la parte de los dos caracteres por linea máximo. Inténtalo.
 Existe una versión más complicada donde el límite es un caracter por linea, en caso de que esta te parezca demasiado fácil.
 
 ## Make a spiral
+
+{{<ad3>}}
 
 Tu tarea es crear una espiral de NxN con el tamaño dado.
 

@@ -165,6 +165,8 @@ Lo mejor sería dotarles de una estructura consistente y más explícita:
 /directors/nawapol-thamrongrattanarit/
 ```
 
+{{<ad0>}}
+
 ### Probablemente no estés usando correctamente las etiquetas HTML
 
 #### Headings y SEO
@@ -195,7 +197,7 @@ Hay mucho más alla de las divs, los anchors, las etiquetas img y las de video. 
 - *output*: El resultado de un cálculo o de una acción del usuario.
 - *abbr*: Abreviatura o acrónimo, opcionalmente con un título para que se expanda.
 
-{{<ad>}}
+{{<ad1>}}
 
 ### Presencia de enlaces internos
 
@@ -208,6 +210,8 @@ Le ayudan a los motores de búsqueda a entender como se relacionan tus páginas 
 ```
 
 ### Presencia de enlaces externos 
+
+{{<ad2>}}
 
 Enlaces externos, consideralo como un voto a favor hacia otros sitios web para indicarle a los motores de búsqueda que el contenido que enlazas es importante, investiga a fondo sobre los atributos *nofollow*, *follow*, *ugc* y *sponsored* en las etiquetas anchor y úsalos adecuadamente de acuerdo a tus intenciones.
 
@@ -226,6 +230,8 @@ Enlaces externos, consideralo como un voto a favor hacia otros sitios web para i
 Esta es la parte difícil. Algunos te dirán algo como "Simplemente crea contenido que valga la pena compartir", pero la mayoría no quiere esperar; deciden acelerar el proceso y conseguir más backlinks.
 
 Además, no todos los backlinks se crean de la misma manera; los enlaces que provienen de sitios web con buena reputación tienen más peso que los que tienen menos autoridad, lo que crea una dinámica perjudicial.
+
+{{<ad3>}}
 
 Los grandes sitios web saben que un solo backlink puede mejorar el posicionamiento de su sitio, por lo que no suelen ofrecerlos gratis, y algunos escritores en estas empresas piden una compensación económica por colocar un backlink en un artículo.
 

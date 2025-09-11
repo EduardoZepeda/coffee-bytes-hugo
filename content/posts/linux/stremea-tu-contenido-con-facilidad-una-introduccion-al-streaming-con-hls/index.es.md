@@ -29,6 +29,8 @@ Casi todos las aplicaciones web modernas realizan algún tipo de streaming, desd
 
 Te dejo un ejemplo mínimo de streaming en Go aquí en [mi repositorio en github](https://github.com/EduardoZepeda/go-hls-streaming-example#?), por si quieres ver el código.
 
+{{<ad0>}}
+
 ## Introducción al streaming
 
 Los videos y los audios contienen muchísima información codificada, por lo que su manejo y descarga impacta fuertemente el uso y ancho de banda de cualquier servidor.
@@ -43,7 +45,7 @@ Como seguramente ya sabrás, enviar el video completo a todos los usuarios serí
 
 ¿La solución? Streaming; un modelo de uso bajo demanda, donde cada usuario reciba solo lo que va consumiendo del material audio visual, un poco a la vez y si el usuario cierra el video no le enviamos el resto.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Protocolos de streaming
 
@@ -58,6 +60,8 @@ Antes de empezar debes saber que existen bastantes protocolos de streaming, cada
 
 Yo te voy a explicar HLS, ¿por qué? Porque HLS usa el protocolo HTTP, por lo que no requiere servidores especializados, además es compatible con cualquier dispositivo que se conecte a internet. Por último, le sumamos que últimamente es un protocolo bastante popular para el streaming de video.
 
+{{<ad2>}}
+
 ## El protocolo HLS
 
 El protocolo HLS es un protocolo basado en HTTP, desarrollado por Apple (sí, la misma de la manzanita), por lo que cualquier dispositivo que se pueda conectar a internet será compatible con este protocolo. HLS usa TCP por debajo para enviar la información, evitando la potencial pérdida de paquetes de su contraparte, UDP. Y, como cereza del pastel, HLS reaccionar a cambios en la velocidad de internet y priorizar el envío de versiones más ligeras de nuestros achivos (con calidad menor, por supuesto). El reproductor en conjunción con la librería de HLS se encargan de esto de manera automática y tú no tienes que preocuparte de los detalles.
@@ -70,6 +74,8 @@ Para implementar el protocolo en el lado del servidor necesitamos dos pasos:
 
 * Codificación
 * Particionado
+
+{{<ad3>}}
 
 ### Codificación
 

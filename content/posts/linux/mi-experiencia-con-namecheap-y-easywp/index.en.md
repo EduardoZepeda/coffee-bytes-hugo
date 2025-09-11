@@ -28,6 +28,8 @@ EasyWP promised a smooth and easy WordPress deployment:
 
 Sounds pretty convincing, doesn't it? No more SSH terminals, GNU/Linux package installation or databases. A simple click on the namecheap web page and everything would be ready.
 
+{{<ad0>}}
+
 {{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="The namecheap service menu" >}}
 
 Service menu in easyWP
@@ -42,7 +44,7 @@ The EasyWP installation is not a normal installation, it is a preconfigured inst
 
 After a couple of hours of research I realized that implementing an SSL certificate from Let's encrypt was impossible, and that this problem was a recurring situation on the namecheap forums. In order not to waste more time than necessary on such a trivial task my SO decided to throw money at the problem and buy an SSL certificate directly from namecheap. What a disappointment.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## EasyWP has problems with some plugins
 
@@ -51,6 +53,8 @@ The following problem occurred when my SO decided to customize the appearance of
 To make the situation even worse, a few days after the claim, on April 23rd, the servers using wordpress and easywp were having problems. The site could not be accessed. The problem was fixed in less than 24 hours, but left numerous errors in the installation again, this time in the installation css files.
 
 {{< figure src="images/errorEasywpNamecheap.png" class="md-local-image" alt="Problem loading css files in easywp" >}}
+
+{{<ad2>}}
 
 Easywp css file loading error
 

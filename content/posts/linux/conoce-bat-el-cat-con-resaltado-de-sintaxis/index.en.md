@@ -32,7 +32,7 @@ wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat-musl_0.15.4_am
 dpkg -i bat-musl_0.15.4_amd64.deb
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What is bat for?
 
@@ -50,6 +50,8 @@ ReactDOM.render(<App/>, document.getElementById('root'))
 ```
 
 If we now use _bat_ we will see the language syntax highlighted and the line numbers in the standard output:
+
+{{<ad2>}}
 
 ```javascript
 bat index.js
@@ -82,6 +84,8 @@ body{␊
 ## Bat has many topics available
 
 Bat has themes for all tastes, hippies, sober, formal, psychedelic, etc. Use _--list-themes_ to see them.
+
+{{<ad3>}}
 
 ```javascript
 bat --list-themes

@@ -18,6 +18,8 @@ keywords:
 title: Throttling on Nginx
 ---
 
+{{<ad0>}}
+
 Ngnix throttling allows us to limit the number of requests to a certain user. This is useful to prevent excessive requests from a user from keeping the system busy. On the other hand, it is also a way to deter brute force password attempts or even DDOS attacks.
 
 If you are looking to optimize the performance of an application using Nginx I have a post where I give you some [recommendations to improve nginx performance](/en/linux/nginx-keepalive-gzip-http2-better-performance-on-your-website/)
@@ -32,7 +34,7 @@ The water that enters first through the bucket exits first (FIFO). If the flow i
 
 In the above example, the requests represent the water; any excessive increase in requests will overflow and be lost. Requests that were already in the bucket will leave the bucket first, i.e., they will be processed as they arrive (a FIFO queue).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## limit_req_zone sets throttling values
 
@@ -43,6 +45,8 @@ limit_req_zone $binary_remote_addr zone=mylimit:10m rate=10r/s;
 ```
 
 limit_req_zone will set the parameters that the throttling will have:
+
+{{<ad2>}}
 
 * $binary_remote_addr stores the IP address in binary. We can replace it by $remote_addr at a cost of more memory space per IP.
 * zone sets the name of the space where our IPs will be stored and its capacity, in 1MB we can fit approximately 16 000 IPs.
@@ -65,6 +69,8 @@ server {
     }
 }
 ```
+
+{{<ad3>}}
 
 And that's it, now Nginx will have a limit of 10 requests per second for the /login/ address.
 

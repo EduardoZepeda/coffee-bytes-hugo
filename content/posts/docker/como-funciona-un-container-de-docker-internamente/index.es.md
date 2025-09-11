@@ -79,6 +79,8 @@ Existen diferentes tipos de namespaces que controlan los recursos a los que tien
 
 Por ejemplo, si usamos un namespace de tipo UTS, los cambios que le hagamos al hostname desde nuestro namespace no afectarán al hostname del sistema operativo principal.
 
+{{<ad0>}}
+
 {{< figure src="images/namespaces-uts-en-linux.jpg" class="md-local-image" alt="Ejemplo de namespaces en linux" caption="Cada namespace tiene su propio hostname y domainname" >}}
 
 ### cgroup
@@ -93,7 +95,7 @@ Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs 
 
 {{< figure src="images/cgroups-en-linux.jpg" class="md-local-image" alt="Ejemplo de cgroups en linux" caption="Los cgroups permiten limitar recursos del sistema" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Chroot
 
@@ -102,6 +104,8 @@ Chroot, nombre que viene de change root, le indica a Linux que debe cambiar el d
 ## Crear un container desde cero con Go
 
 Simplificando lo anterior necesitamos: 
+
+{{<ad2>}}
 
 * Namespaces: para aislar los procesos de nuestro container del sistema operativo principal
 * Chroot: para dotar a nuestro container de un sistema de archivos diferente al del sistema operativo principal
@@ -138,6 +142,8 @@ func run() {
 	cmd.Run()
 }
 ```
+
+{{<ad3>}}
 
 Te explico el código a continuación.
 

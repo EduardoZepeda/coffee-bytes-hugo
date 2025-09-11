@@ -24,6 +24,8 @@ title: What Types to use for React components with children
 
 If you're struggling about what types to use for React components that have children in Typescript, so you can inherit them correctly and avoid errors, then this is the post you need to read, I explain you three different approaches you can save and use as a part of your typescript skills.
 
+{{<ad0>}}
+
 Typescript requires that we specify the types for the different variables and function arguments in React. When they are native types it is not intrincate, but for React components it can be different. Here are 3 ways to specify types for React components that contain children as part of their props.
 
 ## Types With ReactNode
@@ -48,7 +50,7 @@ const MyComponent = ({ children }: Props) => {
 export default MyComponent
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Using React.FC
 

@@ -36,7 +36,7 @@ HAYSTACK_DEFAULT_OPERATOR = 'AND'
 HAYSTACK_DEFAULT_OPERATOR = 'OR'
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Búsqueda por campo específico con Solr
 
@@ -52,6 +52,8 @@ Esto nos permitirá buscar en el campo title nuestro término de búsqueda.
 ## Importancia en los campos en la búsqueda en Solr
 
 ¿Recuerdas que Solr ordena los resultados por relevancia? A veces queremos aumentar la relevancia en ciertos casos, por ejemplo: quizás quieres que el último término buscado por tu usuario influya en la búsqueda. Para esto agregamos el método boost y el valor relativo de importancia que queremos darle.
+
+{{<ad2>}}
 
 ### Incremento por término de búsqueda
 
@@ -73,6 +75,8 @@ class VideogameIndex(indexes.SearchIndex, indexes.Indexable):
     # ... otros dcampos
     name = indexes.CharField(model_attr='name', boost=1.5)
 ```
+
+{{<ad3>}}
 
 Este incremento solo es válido cuando se filtra por el campo al que le estamos aplicando el *boost*.
 

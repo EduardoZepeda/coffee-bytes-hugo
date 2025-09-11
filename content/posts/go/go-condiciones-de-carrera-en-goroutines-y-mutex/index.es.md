@@ -76,6 +76,8 @@ func main() {
 
 La parte importante radica en que, dentro de una goroutine, leemos el contenido variable tokens, posteriormente la incrementamos en 20 y luego ese resultado lo asignamos a tokens otra vez. Pero no hay problema alguno, si ejecutamos el código obtendremos el resultado correcto: 320 (120 tokens + Un incrementos de 20 tokens para cada una de las 10 goroutines).
 
+{{<ad0>}}
+
 Todo perfecto ¿o no? No, el código es tan pequeño y el proceso ocurre tan rápido que no se nota el problema.
 
 Si añadimos un pequeño momento de espera en las goroutines (que puede ser causado por un acceso a la base de datos o cualquier otro proceso), enfrentaremos el problema cara a cara.
@@ -110,7 +112,7 @@ func main() {
 
 Tras la ejecución del código, en lugar del resultado correcto, yo obtengo 140 con 1 milisegundo y 200 con un microsegundo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Detectar condiciones de carrera con --race
 
@@ -126,6 +128,8 @@ Read at 0x0000005fe430 by goroutine 8:
 ```
 
 ## Prevenir condiciones de carrera con Mutex
+
+{{<ad2>}}
 
 Existe un objeto llamado Mutex (**mut**ual **ex**clusion) que garantizará que nuestro código no acceda a una variable hasta que nosotros le indiquemos, evitando que se den las condiciones de carrera o race conditions.
 
@@ -173,6 +177,8 @@ func main() {
 	fmt.Println(tokens)
 }
 ```
+
+{{<ad3>}}
 
 ## Mutex de lectura y escritura
 

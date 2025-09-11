@@ -23,6 +23,8 @@ title: Caching in Django REST Framework using memcached
 
 To use the cache in django, just follow three simple steps:
 
+{{<ad0>}}
+
 1. Install a caching system, be it redis, memcached, etc.
 2. Set the CACHES variable to the _settings.py_ file of the project.
 3. Add the middleware necessary for django to return the cache before processing the view.
@@ -40,7 +42,7 @@ As you can see the difference is almost 10 times the time.
 
 If you're in a situation where [your application's performance is critical](/en/opinion/dont-obsess-about-your-web-application-performance/), cache is definitely one of the first steps that you have to make in order to improve your site's speed.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Installing memcached, a cache backend in django
 
@@ -51,6 +53,8 @@ Memcached is the fastest and most efficient method according to django developer
 ```bash
 sudo apt install memcached
 ```
+
+{{<ad2>}}
 
 Verify that the system is running with the systemctl command, update-rc, systemE or whatever your system process manager is.
 
@@ -71,6 +75,8 @@ I will install the following dependencies for this tutorial:
 * django-debug-toolbar: to compare performance before and after caching.
 * django-seed: to automatically create data in the database.
 * pymemcache: to allow python to interact with memcached.
+
+{{<ad3>}}
 
 Some older tutorials **use python-memcached to interact with memcached, however the use of this library is** [**discouraged** by django since version 3.2](https://docs.djangoproject.com/en/3.2/topics/cache/#memcached)
 

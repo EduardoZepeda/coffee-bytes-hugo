@@ -28,6 +28,8 @@ It's also a good time to remember that if your application is just starting out,
 
 As you know, database access is usually the bottleneck of most applications. **The most important action to take is to reduce the number of queries and the impact of each one of them**. You can reduce the impact of your queries by 90%, and I am not exaggerating.
 
+{{<ad0>}}
+
 It is quite common to write code that occasions multiple queries to the database, as well as quite expensive searches.
 
 Identify what queries are being made in your application using [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar#?) and reduce them, or make them more efficient:
@@ -54,7 +56,7 @@ def list_reviews(request):
     # ...
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Configure gunicorn correctly
 
@@ -63,6 +65,8 @@ Gunicorn is the most widely used Python WSGI HTTP server for Django applications
 ### How many workers should gunicorn use?
 
 Make sure you are using the correct gunicorn workers, according to the number of cores in your processor. 
+
+{{<ad2>}}
 
 They recommend setting the workers to (2 x number of cores) + 1. According to the documentation
 **with 4-12 workers you can serve from hundreds to thousands of requests per second**, so that should be enough for a medium to large scale website.
@@ -76,6 +80,8 @@ Even if you remembered to mark your fields as read_only, DRF serializers are not
 I leave you this article that explains [how some developers managed to reduce the time cost of serialization by 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 
 ## Use pagination in your views
+
+{{<ad3>}}
 
 It probably sounds pretty obvious, yet I feel I should mention it: you don't need to return an entire database table if your user only finds the first few records useful.
 

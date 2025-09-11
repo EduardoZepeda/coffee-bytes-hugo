@@ -16,6 +16,8 @@ title: Destructuring with default values in Javascript
 
 In the previous post I briefly discussed the topic of [destructuring with nested objects in javascript](/en/javascript/destructuring-nested-objects-in-javascript/) . In this post I am going to talk a bit about how we can specify default values when destructuring an object in javascript.
 
+{{<ad0>}}
+
 To do this we will create a fairly simple object:
 
 ```javascript
@@ -45,7 +47,7 @@ if(accountType==='basic'){
 
 Well, to avoid this we can assign a default value when the destructuring does not find the property that we want to destructure. If you are following this example remember to clean the javascript terminal and re-declare the main object or you will get an error.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Assigning a default value when destructuring an object in Javascript
 
@@ -59,6 +61,8 @@ const user = {
 ```
 
 Well, if we try to destructure the object and assign a default value if the appropriate property is not found we will do it in the following way:
+
+{{<ad2>}}
 
 ```javascript
 const { userIsLoggedIn, email, accountType="basic" } = user

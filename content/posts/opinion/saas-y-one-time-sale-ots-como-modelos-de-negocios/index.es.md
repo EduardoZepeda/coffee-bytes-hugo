@@ -26,6 +26,8 @@ Pero, ¿era esta situación una decisión de las empresas? Bueno, sí y no, perm
 
 ### La falta de métodos de pago y lentitud del internet de antaño
 
+{{<ad0>}}
+
 Gran parte del software comercial era demasiado pesado, en proporción al tamaño de los dispositivos de almacenamiento, como para que pudiera descargarse sin problemas. 
 
 Antaño, las conexiones a internet eran increíblemente lentas e inestables, dejando de lado el ruido extraño que precedia a cada conexión, los viejos piratas de la internet saben de que hablo.
@@ -41,7 +43,7 @@ Por lo anterior, numerosas compañias optaron por distribuir su software por med
 
 Realizar pagos por internet era algo poco usual, paypal no existía y no había otras compañias que ofrecieran el servicio, además las personas veían con desconfianza el mundo de las transacciones en linea. No los culpo, el HTTPS no existía y ni hablar de estándares criptográficos fuertes que protegieran tus datos personales.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## La llegada del SAAS, el modelo de pagos recurrentes y el SAAS hell
 
@@ -50,6 +52,8 @@ El panorama cambió e internet evolucionó, o quizás sea mejor decir que se cor
 Compañias como Adobe crecieron y se dieron cuenta de que podían ahorrar muchísimo dinero eliminando la logística de distribuir productos físicos y centrarse únicamente en la oferta de su contenido a través la red.
 
 Posteriormente, notaron que era más lucrativo rentar el software, probablemente debido a que:
+
+{{<ad2>}}
 
 - Amortiguaban la variabilidad de las ventas. Ya no tenían que preocuparse por cambios bruscos en las ventas.
 - Garantizaban un flujo de caja constante que les permitía planear mejor sus costos dada la estabilidad.
@@ -64,6 +68,8 @@ Esto afectaba principalmente a aquellas personas que actualizaban su software ra
 {{< figure src="./images/not-stonks.jpg" class="md-local-image" alt="" >}}
 
 Sin embargo, al mismo tiempo, permitió a las empresas liberar nuevas versiones de su software de manera más frecuente e iterar con mayor velocidad sobre la información que les proporcionaban los usuarios para mejorar su producto, lo que les permitiría mejorar su producto y hacerlo más atractivo a los clientes.
+
+{{<ad3>}}
 
 Dicho lo anterior, quizás pienses que migrar a un modelo de SAAS volvía millonarias a las empresas, pero no sucedió así, al menos no para Adobe.
 

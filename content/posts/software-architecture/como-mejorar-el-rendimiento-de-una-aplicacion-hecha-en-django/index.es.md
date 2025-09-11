@@ -36,6 +36,8 @@ También es buen momento para recordar que si tu aplicación va empezando, proba
 
 Como ya sabes, el acceso a la base de datos suele ser el cuello de botella de la mayoría de las aplicaciones. **La acción más importante a realizar es reducir el número de queries y el impacto de cada una de estas**. Puedes reducir el impacto de tus queries en un 90%, y no exagero.
 
+{{<ad0>}}
+
 Es bastante común escribir código que ocasiones múltiples consultas a la base de datos, así como búsquedas bastante costosas.
 
 Identifica que consultas se están haciendo en tu aplicación usando [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar#?) y redúcelas, o vuélvelas más eficientes:
@@ -62,7 +64,7 @@ def list_reviews(request):
     # ...
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Configura gunicorn correctamente
 
@@ -71,6 +73,8 @@ Gunicorn es el servidor Python WSGI HTTP más usado para aplicaciones de Django.
 ### Usa los workers adecuados en gunicorn
 
 Asegúrante de estar usando los workers de gunicorn correctos, de acuerdo a la cantidade núcleos de tu procesador. 
+
+{{<ad2>}}
 
 Ellos recomiendan establecer los workers en (2 x número de nucleos) + 1. Según la documentación, **con 4-12 workers puedes servir desde cientos hasta miles de peticiones por segundo**, por lo que debería bastar para un sitio web de escala mediana o hasta grande.
 
@@ -83,6 +87,8 @@ Incluso si recordaste marcar tus campos como *read_only*, los serializers de DRF
 Te dejo este artículo que explica [como unos desarrolladores lograron reducir el coste en tiempo, de la serialización en un 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 
 ## Usa paginación en tus vistas
+
+{{<ad3>}}
 
 Probablemente suene bastante obvio, aún así siento que debo mencionarlo: no necesitas devolver toda una tabla de una base de datos si a tu usuario solo le resultan útiles los primeros registros.
 

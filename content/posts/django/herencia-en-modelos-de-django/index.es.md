@@ -54,7 +54,7 @@ Hay tres tipos de herencia disponible y cada uno se comporta de manera diferente
 
 Para este ejemplo estaré usando la versión de Django 3.1 y Python 3.7
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Herencia Abstracta
 

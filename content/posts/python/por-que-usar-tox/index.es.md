@@ -33,7 +33,7 @@ Te decides a hacer el testeo de tu aplicación con las nuevas versiones, pero te
 
 Tox te permite probar tu código en diferentes entornos, con Python 2.7, Python 3.5, Python 3.6, Python 3.7, con las versiones que tu prefieras. De esa manera podrás probar con que versiones de Python funciona tu código automáticamente y escribirlo en la documentación de tu aplicación.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Como instalar y usar tox
 
@@ -48,6 +48,8 @@ pip install tox
 Para poder ejecutar tox necesitaremos un archivo tox.ini, un archivo setup.py y un archivo de python que empiece con 'test\_' .
 
 ## Crear un archivo tox.ini con tox-quickstart
+
+{{<ad2>}}
 
 Una manera de crear el archivo necesario para usar tox es por medio del comando tox-quickstart. Al ejecutarlo Tox nos hará varias preguntas y generará automáticamente el archivo tox.ini que necesitamos para las pruebas.
 
@@ -77,6 +79,8 @@ What command should be used to test your project? Examples:            - pytest
             - trial package.module
 > Type the command to run your tests [pytest]: 
 ```
+
+{{<ad3>}}
 
 Cuando nos pregunte la lista de dependencias que tenemos para nuestro proyecto, separadas por una coma, escribiremos únicamente 'mock', sin las comillas.
 

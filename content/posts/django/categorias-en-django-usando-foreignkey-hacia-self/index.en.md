@@ -40,6 +40,8 @@ class SubCategory(models.Model):
 
 This approach to the hierarchy problem in Django looks good at first glance. The resulting structure will look something like this:
 
+{{<ad0>}}
+
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745886724/coffee-bytes/category-subcategory_mtkzpy.png" class="md-local-image" alt="Subcategory model schema with ForeignKey made Category in Django" >}}
 
 ### The problem of using a model by category
@@ -54,7 +56,7 @@ Well, we add a _SubSubCategory_ class, don't we? But... what if those SubSubCate
 
 Every time you need to create a new subcategory you will have to create a new model in the _models.py_ file of your application. And not only that, but a new table that probably only has a few records. Is there a better approach to the problem? The [versatile Django Framework's ORM]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}) offers a pretty clean solution.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ForeignKey to the same model in Django
 
@@ -75,6 +77,8 @@ class Category(models.Model):
     )
 ```
 
+{{<ad2>}}
+
 In this way we will have a structure similar to a graph, where each node points to another.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745887246/coffee-bytes/foreign-key-to-self-django_uvvogs.webp" class="md-local-image" alt="Schematic diagram of how ForeignKey made self(the same model) works in Django" >}}
@@ -93,6 +97,8 @@ subcategory.parent = parent
 # save it in the database
 subcategory.save()
 ```
+
+{{<ad3>}}
 
 I explain what happens. First we create a main category, and a subcategory. Later, we assign the property _parent,_ of this last one, to the main category. And ready, we save.
 

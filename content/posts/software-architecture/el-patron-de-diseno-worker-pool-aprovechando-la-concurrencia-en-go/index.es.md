@@ -39,6 +39,8 @@ for job in jobs:
     async process_concurrent_job()
 ```
 
+{{<ad0>}}
+
 Esto puede pintar bastante bien, al principio, pero tiene múltiples desventajas; La primera, se estarán creando workers sin control, lo que puede incrementar el uso de memoria de tu programa increíblemente rápido; la segunda, estás creando y destruyendo workers constantemente, lo cual puede ser costoso para tu programa.
 
 {{< figure src="./images/workers-vs-memoria.jpg" class="md-local-image" alt="Si no hay un límite de workers, los workers seguirán creandose para igualar a las tareas" caption="Si no hay un límite de workers, los workers seguirán creandose para igualar a las tareas" >}}
@@ -53,7 +55,7 @@ Worker pool es un [patrón de diseño]({{< ref path="/posts/python/patrones-de-d
 
 Hay desarrolladores que han usado este patrón para [manejar un millón de peticiones por minuto en go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang#?)
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo funciona el patrón de diseño worker pool?
 
@@ -72,6 +74,8 @@ flowchart TD
     JobQueue-->|job|Worker_n
     end
 ```
+
+{{<ad2>}}
 
 ### Job queue
 
@@ -102,6 +106,8 @@ flowchart TD
     JobQueue-->|job|Worker_n
     end
 ```
+
+{{<ad3>}}
 
 ### El worker
 

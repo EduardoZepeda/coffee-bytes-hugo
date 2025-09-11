@@ -24,7 +24,7 @@ If you have been using computers for a long time, you are probably more familiar
 
 Docker is a tool that allows you to package an application and its dependencies in a lightweight container. It's as if you take a complete application with absolutely everything it needs to run so that you can seamlessly transport it to any other server with Docker installed, either for further development or for deploying. So, that's it? transporting code? I'm sure you'll tell me that's already done by virtual machines, [virtual environments]({{< ref path="/posts/python/por-que-usar-un-entorno-virtual-en-python/index.md" lang="en" >}}), zip files and pretty much any tool. Well yes, but I'm going to try to explain in a simple way what the issues are.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## What is Docker for?
 
@@ -42,6 +42,8 @@ Manolo, Sofia and Ricardo know this, for this reason our team agrees to use the 
 * Sofia installs Ubuntu from a CD copy she had in her desk drawer.
 * Ricardo, on the other hand, keeps his operating system as it was in the beginning.
 
+{{<ad2>}}
+
 Even if you are both using the same distribution, it's not exactly the same operating system. Notice what can go wrong here? Exactly, there are different versions of the same operating system, as well as the kernel on which they run, and probably each version of the Kernel has different packages, with their respective versions, in their repositories, in addition to the custom configuration that each user or hosting provider may have on their systems.
 
 **This does not necessarily mean that if we set up a project on a server without using Docker everything will go wrong, but it introduces a variability that could be avoided if everyone used **exactly the same version of the operating system**.
@@ -53,6 +55,8 @@ Even if you are both using the same distribution, it's not exactly the same oper
 To avoid falling into the vile hands of computer science purists I will quote the differences between virtual machine and container as they are in the [official Docker website](https://www.docker.com/resources/what-container), and I will entrust myself to the good knowledge of its editors:
 
 ## Differences between containers and virtual machines
+
+{{<ad3>}}
 
 ### Container
 

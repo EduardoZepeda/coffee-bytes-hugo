@@ -26,6 +26,8 @@ Tras el error incluso escribí una [{{<title "/posts/guia-de-seo-tecnico-para-de
 
 El SEO es el factor que determina si un sitio web aparece primero en los resultados de búsqueda de un motor de búsqueda (casi siempre Google) o si es sepultado en las últimas posiciones, recibiendo poco o nulo tráfico y condenando al negocio que representa a la quiebra, o si es un proyecto personal, al olvido.
 
+{{<ad0>}}
+
 Y no estoy hablando de diferencias sútiles, estoy hablando de diferencias abismales.
 
 A riesgo de sonar redundante, lo repetiré nuevamente: el tráfico de un sitio web es mucho más importante que la eficiencia, el aspecto o el lenguaje o framework con el que esté hecho, sí, aunque lo escribas en C++ o directo en ensamblador.
@@ -40,7 +42,7 @@ De ahí que cuando un desarrollador web lanza sus proyectos personales, suele ig
 
 {{< figure src="images/web-development-assembly.webp" class="md-local-image" alt="Web development in assembly meme" caption="Dicen por ahí que solo los verdaderos programadores programan en lenguajes de bajo nivel" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Mis errores al migrar un sitio web sin considerar el SEO
 
@@ -49,6 +51,8 @@ Cuando migré el blog lo primero que ignoré fueron las múltiples consecuencias
 ### La presencia de un sitemap es crucial en el SEO
 
 [Un sitemap es un archivo xml que funciona como un mapa de tu sitio web](/es/django/sitemap-dinamico-con-django/). 
+
+{{<ad2>}}
 
 El sitemap que tenía mi sitio web anterior se encontraba en una dirección específica, cuando migré el sitio web esa dirección cambió, por lo que Google fue incapaz de encontrar el nuevo sitemap, ¿qué sucedió? Google indexó las páginas como pudo y quiso y, como seguramente ya sabrás, no fue la mejor manera y sufrí las consecuencias. 
 
@@ -61,6 +65,8 @@ Me di cuenta lo mal que estaba cuando una noche mi celular vibró al ritmo de la
 ### Como me di cuenta de que la estructura de las URLs es importante en el SEO
 
 Pero mi pesadilla no terminó ahí, tras la migración de Wordpress a Hugo Google detectó una gran cantidad de errores 404 al acceder a las viejas URLs y, como resultado de la consecuente penalización, mi tráfico disminuyo cerca de un 70%.
+
+{{<ad3>}}
 
 ¿Por qué sucedió esto? Imagínate que los motores de búsqueda ven tu sitio web con una estructura URL como la siguiente.
 

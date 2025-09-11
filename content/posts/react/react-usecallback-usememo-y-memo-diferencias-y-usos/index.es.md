@@ -39,6 +39,8 @@ Imagína que quieres multiplicar los números 17 y 19. Tomarías papel y pluma o
 
 Mientras te sigan preguntando por la multiplicación de 17 y 19 tu podrás devolver una respuesta sin calcularla nuevamente. Acabas de memoizar el resultado de multiplicar 17 y 19 y puedes devolverlo sin tener que calcularlo nuevamente.
 
+{{<ad0>}}
+
 Ahora te explico como maneja Javascript los objetos.
 
 ### ¿Cómo maneja Javascript los objetos ? 
@@ -68,7 +70,7 @@ A===B
 
 Aunque dos objetos sean iguales y tengan las mismas propiedades y valores, dado que se encuentran en diferentes direcciones de memoria, se consideran dos objetos diferentes por parte de Javascript.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Creación de objetos en React
 

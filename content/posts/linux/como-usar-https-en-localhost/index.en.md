@@ -34,6 +34,8 @@ This is the case for apps on X (formerly Twitter) or Facebook developer platform
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png" class="md-local-image" alt="Facebook developer portal callback needs https" caption="Facebook developer portal callback needs https" >}}
 
+{{<ad0>}}
+
 There are several ways of dealing with this, one of them is to sign our own certificates manually, which can be cumbersome in my opinion, but let's skip that and do it the quick and easy way.
 
 ## Running https on localhost with Caddy
@@ -51,7 +53,7 @@ your-sub-domain.localhost {
 
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 
 The sub-domain part is just to be able to isolate your app from the rest of the applications serving on localhost. 
@@ -64,6 +66,8 @@ graph TD;
 ```
 
 Finally just run *caddy run*, or *caddy start* if you want a process running in terminal or detached run, respectively, in the directory where the *Caddyfile* is located and caddy will create a *reverse proxy* to your localhost on the port you specified and we'll be running https on localhost as intended.
+
+{{<ad2>}}
 
 ### Solution 1 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
 
@@ -79,6 +83,8 @@ sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
 ### Solution 2 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
 
 Another posibility is that caddy was already running, if you install it could run as a service, to which you have to stop it and execute it again.
+
+{{<ad3>}}
 
 ``` bash
 caddy stop

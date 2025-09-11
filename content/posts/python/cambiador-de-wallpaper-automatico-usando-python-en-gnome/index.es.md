@@ -76,6 +76,8 @@ list_of_images = [image for image in os.listdir() if image.endswith(tuple(allowe
 
 _os.listdir()_ nos devolverá una lista con todos los archivos en nuestra carpeta actual, es decir todos aquellos wallpapers contenidos en la carpeta a la que nos cambiamos con _os.chdir()_.
 
+{{<ad0>}}
+
 Con _tuple(allowed\_image\_formats)_ simplemente estamos transformando nuestra lista de formatos aceptados en una tupla.
 
 El método _image.endswith()_ recibe un argumento, que puede ser una cadena de texto o una tupla de cadenas de texto, y nos devolverá _True_ or _False_ dependiendo de si el objeto _image_ termina la cadena de texto con alguno de los elementos de la tupla.
@@ -92,7 +94,7 @@ El método _os.path.join()_ se encarga de unir rutas en nuestro sistema operativ
 
 _os.getcwd()_ nos devuelve el directorio actual.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Seleccionar una imagen al azar con random.choice()
 
@@ -110,6 +112,8 @@ random.choice(test_list)
 "img_1.jpg"
 ```
 
+{{<ad2>}}
+
 Y por último
 
 ```python
@@ -123,6 +127,8 @@ Ejecutaremos [un comando que le dirá a _gnome_](https://people.gnome.org/~pmkov
 Ojo aquí, cada entorno de escritorio va a tener una manera de fijar un wallpaper, si quisiéramos usar otro entorno de escritorio bastará con leer la documentación y reemplazar el comando dentro del método _os.system()_
 
 Una vez que terminamos, podemos ejecutar nuestro script de la siguiente manera. Asegúrate de estar en _home_.
+
+{{<ad3>}}
 
 ```python
 python .change_wallpaper_randomly.py

@@ -34,7 +34,7 @@ uname -a
  Linux kino 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64 GNU/Linux
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## who
 
@@ -54,6 +54,8 @@ whoami
  usuario
 ```
 
+{{<ad2>}}
+
 ## id
 
 The id command shows us information about our user, his user identifier (uid), his group identifier (gid) and the groups to which he belongs.
@@ -72,6 +74,8 @@ passwd
 Cambiando la contraseña de usuario.
 (actual) contraseña de UNIX:
 ```
+
+{{<ad3>}}
 
 ## du
 

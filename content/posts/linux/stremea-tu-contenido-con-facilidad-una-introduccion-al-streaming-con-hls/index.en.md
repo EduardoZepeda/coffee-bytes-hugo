@@ -27,6 +27,8 @@ Almost all modern web applications perform some form of streaming, from video pl
 
 I leave you a minimal example of streaming in Go here in [my github repository](https://github.com/EduardoZepeda/go-hls-streaming-example#?), in case you want to see the code.
 
+{{<ad0>}}
+
 ## Introduction to streaming
 
 Videos and audios contain a lot of encoded information, so their handling and downloading strongly impacts the bandwidth and usage of any server.
@@ -41,7 +43,7 @@ As you probably already know, sending the full video to all users would be point
 
 The solution? Streaming; an on-demand model, where each user receives only what they consume of the audio visual material, a little at a time, and if the user closes the video we do not send them the rest.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Streaming protocols
 
@@ -56,6 +58,8 @@ Before you start, you should know that there are quite a few streaming protocols
 
 I will explain HLS, why? Because HLS uses the HTTP protocol, so it does not require specialized servers, and it is compatible with any device that connects to the Internet. Finally, we add that lately it is a popular protocol for video streaming.
 
+{{<ad2>}}
+
 ## The HLS protocol
 
 The HLS protocol is a protocol based on HTTP, developed by Apple (yes, the same Apple), so any device that can connect to the Internet will be compatible with this protocol. HLS uses TCP underneath to send the information, avoiding the potential packet loss of its counterpart, UDP. And, as icing on the cake, HLS reacts to changes in internet speed and prioritizes the sending of lighter versions of our files (with lower quality, of course). The player in conjunction with the HLS library takes care of this automatically and you don't have to worry about the details.
@@ -68,6 +72,8 @@ To implement the protocol on the server side we need two steps:
 
 * Coding
 * Partitioning
+
+{{<ad3>}}
 
 ### Coding
 

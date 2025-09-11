@@ -27,7 +27,7 @@ Por la razón anterior he decidido compartir un poco sobre lo que he leído al r
 
 Dicen que una cadena es tan fuerte como su eslabón más débil. Las contraseñas son en muchos casos el eslabón más débil. Un sistema informático puede carecer de vulnerabilidades y tener los últimos parches de seguridad, pero de nada sirve si todo eso está resguardado por una débil contraseña. Y no, no estoy hablando de abandonar contraseñas del tipo "admin123" o "firulais" en favor de sus versiones modificadas: "4dm1n123" o "f1rul415". Hablo de que las contraseñas deben de ser más un muro para los atacantes que una segunda entrada a tus sistemas.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo es una contraseña segura?
 
@@ -45,6 +45,8 @@ Dicen que una cadena es tan fuerte como su eslabón más débil. Las contraseña
 
 ## Mantén tus contraseñas ajenas a tu información personal
 
+{{<ad2>}}
+
 Es bastante tentador crear una contraseña fácil de recordar utilizando el nombre de tu pareja, tu cumpleaños o el de tus seres queridos, tu dirección, tu número de celular o el nombre de tu mascota, pero es muy inseguro; cualquier persona puede tener acceso a esa información. Basta con un vistazo rápido a tus redes sociales o una plática con alguno de tus conocidos para conseguir toda esa información.
 
 "Pero, lo que sucede es que mi contraseña es una mezcla de esas cosas", no, aún así, no es suficiente. Hay programas como [JohnTheRipper](https://github.com/magnumripper/JohnTheRipper) capaces de generar todas la combinaciones posibles a partir de tus datos personales, por lo que no es seguro de ninguna manera. Tu contraseña no debe tener partes que puedan conseguirse a partir de una plática contigo o tus conocidos. Va de nuevo, **tu contraseña no debe estar basada en ninguna información personal relacionada con tu persona.**
@@ -60,6 +62,8 @@ CalleFalsa123 # Mal, no nombres de donde vives, o de series que te gustan
 Hay un montón de diccionarios en la red con las contraseñas más populares, como [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz), algunos incluso enlistan todas aquellas contraseñas que han sido obtenidas a partir de hackeos a sitios web. 
 
 Asegúrate de que tu contraseña no se encuentre en ninguno de esos diccionarios. Un potencial atacante siempre usará las contraseñas de los diccionarios más comunes para intentar comprometer un sistema, si tu contraseña está en uno de esos diccionarios es casi seguro que tu cuenta será un blanco fácil.
+
+{{<ad3>}}
 
 ```bash
 # Estas contraseñas están en el top de contraseñas más comunes

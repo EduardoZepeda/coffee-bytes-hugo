@@ -42,6 +42,8 @@ See the following comparisons using information from [Techempower](https://www.t
 
 ### Performance for requests with a query
 
+{{<ad0>}}
+
 The number indicates the number of responses per second for a single query, of course the higher the better.
 
 {{< figure src="images/SingleQueryFastApi.png" class="md-local-image" alt="Comparison chart of number of responses per second for request returning a row from the database. FastAPI in second place." caption="Number of responses per second for requests returning a row from the database. Information taken from https://www.techempower.com/benchmarks" >}}
@@ -56,7 +58,7 @@ According to information provided by Techempower, **FastAPI is tremendously fast
 
 But how about its compatibility with newer versions of Python?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Typing and asynchronism in Python
 
@@ -65,6 +67,8 @@ FastAPI is fully compatible with the typing and asynchronism of the latest versi
 In order to keep this tutorial as simple as possible I will use them **only where necessary**, if it is not strictly necessary to include them I will omit them. I mention the above so that you take into account that each code fragment where FastAPI is used can incorporate asynchronism and typing, as you consider necessary.
 
 Now that you've seen why it's worth using, why not give it a try?
+
+{{<ad2>}}
 
 ## FastAPI Basic Tutorial
 
@@ -81,6 +85,8 @@ Next we are going to create a file called _main.py_, here will be all the code t
 ```bash
 touch main.py
 ```
+
+{{<ad3>}}
 
 And now we are going to place the minimum code to have a server.
 

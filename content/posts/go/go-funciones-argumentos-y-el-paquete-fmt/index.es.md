@@ -104,6 +104,8 @@ func split(sum int) (x, y int) {
 
 Esta sintaxis puede parecer un poco truculenta, pero realmente es muy sencilla. ¿Recuerdas que te dije que el tipo de dato que retorna una función va después de los argumentos? _(x, y int)_ Pues aquí, además del tipo, especificamos que variables retornará y de que tipo, **en caso de que no coloquemos nada después de return**.
 
+{{<ad0>}}
+
 Básicamente le estamos diciendo a go: "oye, si no pongo nada después del return, retorna las variables "x" y "y", que son de tipo _int_.
 
 ### Funciones variádicas
@@ -125,7 +127,7 @@ multiples(1, 2, 3, 4, 5)
 
 Listo, con esto termina mi resumen de las funciones. Ahora pasemos a uno de los paquetes esenciales de go, el paquete fmt.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Paquete fmt
 
@@ -134,6 +136,8 @@ Este paquete es el que usarás normalmente para imprimir sentencias en pantalla 
 Antes que nada te digo que **fmt viene de format package y es el paquete que se encargará de darle formato a cualquier tipo de entrada o salida de dato**. Con entrada y salida de dato, me refiero a lo que tus compañeros más oldies denominarían [stdin y stdout en GNU/Linux](https://es.wikipedia.org/wiki/Entrada_est%C3%A1ndar).
 
 Por cierto, fmt cuenta con soporte para caracteres especiales, por lo que puedes imprimir los subtítulos en el idioma original de tus animes favoritos.
+
+{{<ad2>}}
 
 ### Println
 
@@ -150,6 +154,8 @@ fmt.Println(1, "彼氏彼女の事情", nil)
 ### Printf
 
 Printf es como Println pero con operadores de posición que le dicen a go el tipo de dato que le estamos pasando. Sí, igualita a la función de C++
+
+{{<ad3>}}
 
 ```go
 texto := "World!"

@@ -174,6 +174,8 @@ It would be best to provide them with a consistent and more explicit structure:
 /directors/nawapol-thamrongrattanarit/
 ```
 
+{{<ad0>}}
+
 ### You're probably not using the correct HTML tags
 
 #### Headings and SEO
@@ -205,7 +207,7 @@ There is much more to it than divs, anchors, img tags and video tags. HTML provi
 - *output*: Represents the result of a calculation or user action.
 - *abbr*: Abbreviation or acronym, optionally with a title for expansion.
 
-{{<ad>}}
+{{<ad1>}}
 
 ### Presence of internal links
 
@@ -218,6 +220,8 @@ They help search engines understand how your pages are related to each other. Ma
 ```
 
 ### Presence of external links 
+
+{{<ad2>}}
 
 External links, consider it as a vote in favor towards other websites to indicate to search engines that the content you link to is important, research thoroughly about the attributes *nofollow*, *follow*, *ugc* and *sponsored* in the anchor tags and use them appropriately according to your intentions.
 
@@ -237,6 +241,8 @@ External links, consider it as a vote in favor towards other websites to indicat
 This is the hard part. Some people will tell you something like "Just do content worth sharing", but most people don't want to deal with the waiting phase; they decide to speed up the process and get more backlinks.
 
 Also, not all backlinks are created equally; links that come from reputable sites have more weight than those that have less authority, creating an unhealthy dynamic.
+
+{{<ad3>}}
 
 Big websites know that a single backlink can boost your site's ranking, so they don't usually give them for free, and there are some writers at those companies who request monetary compensation to place a backlink in an article. 
 

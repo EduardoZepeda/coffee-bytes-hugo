@@ -44,6 +44,8 @@ Si colocamos un script de Python que contenga el bloque de código anterior en C
 
 ## Agregar variables de entorno a Crontab
 
+{{<ad0>}}
+
 Recuerda que cuando programamos una tarea en Crontab, no tenemos acceso a todas las variables de entorno. Para que el cambiador de wallpaper funcione necesitaremos pasarle la variable de entorno llamada DBUS\_SESSION\_BUS\_ADDRESS al script que coloquemos en Crontab. Para encontrar el valor de la variable de entorno podemos hacerlo desde terminal, usando el comando printenv.
 
 ```bash
@@ -74,7 +76,7 @@ random_wallpaper = os.path.join(os.getcwd(), random.choice(list_of_images))
 os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".format(random_wallpaper))
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Programar el cambio de wallpaper con Cron y Crontab
 
@@ -85,6 +87,8 @@ crontab -e
 ```
 
 Para este ejemplo cambiaremos de wallpaper cada 6 horas. Pero tu puedes colocar la frecuencia en el valor que tu quieras.
+
+{{<ad2>}}
 
 ```bash
  0 */6 * * * $PWD/.change_wallpaper_random.py

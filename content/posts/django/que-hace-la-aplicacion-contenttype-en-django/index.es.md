@@ -31,7 +31,7 @@ Antes de empezar, si no tienes ninguna idea de para que sirve Django visita mi e
 
 ContentTypes es un **modelo especial de Django que registra cada uno de los modelos que existen** dentro de nuestra aplicación, tanto los que nosotros creamos, como los que vienen instalados por defecto.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Para que sirve ContentType?
 
@@ -52,6 +52,8 @@ Imagínate una sencilla red social, donde tenemos diferentes tipos de contenido;
 
 Para ejemplificar como funciona ContentType vamos a crear un projecto de django, con un modelo:
 
+{{<ad2>}}
+
 Una vez en nuestro entorno virtual, instalemos Django
 
 ```bash
@@ -71,6 +73,8 @@ Ahora crearemos una app para nuestra aplicación.
 django-admin startapp videogame
 cd videogame
 ```
+
+{{<ad3>}}
 
 Ya que tenemos nuestra aplicación, habrá que crear un modelo, y, como ya te mencioné, Django automáticamente registrará ese modelo en su aplicación _ContentType_.
 

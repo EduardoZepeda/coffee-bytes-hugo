@@ -29,6 +29,8 @@ Para este ejemplo uso Python 3.8, Django 3.2.5 y Pipenv version 2020.5.28
 
 ## Instalación
 
+{{<ad0>}}
+
 Para instalarla vamos a usar [Pipenv](/es/python/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), pero puedes usar Poetry, [pip](/es/python/python-virtualenv-tutorial-basico-en-linux/) o cualquier otro gestor de entornos virtuales.
 
 ```bash
@@ -52,7 +54,7 @@ Ejecutamos las migraciones. Esto creará las tablas que se necesitan para maneja
 python manage.py migrate
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Obteniendo los códigos postales de México de SEPOMEX
 
@@ -68,6 +70,8 @@ The postal code database has been successfully populated
 ```
 
 Es todo, ahora basta con importar include y agregar nuestras urls. Yo le coloqué la ruta _api/_ pero puedes usar la que tu quieras.
+
+{{<ad2>}}
 
 ```bash
 from django.contrib import admin
@@ -89,6 +93,8 @@ Si ahora realizamos una petición _api/09000/_ o cualquier otro código postal d
 curl localhost:8000/api/09000/
 {"codigoPostal": "09000", "municipio": "Iztapalapa", "estado": "Ciudad de M\u00e9xico", "colonias": ["La Asunci\u00f3n", "San Ignacio", "San Jos\u00e9", "San Lucas", "San Pablo", "San Pedro", "Santa B\u00e1rbara"]}
 ```
+
+{{<ad3>}}
 
 {{< figure src="images/Api-codigos-postales-mx.png" class="md-local-image" alt="Resultado de consulta del código postal \"09000\" a la API de Django" >}}
 

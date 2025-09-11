@@ -27,6 +27,8 @@ Aprendí gran parte de lo que sé respecto a este framework hace años, leyendo 
 
 Este recurso es excelente porque cubre absolutamente todo lo que se necesita para desarrollar una aplicación de Django, frontend, backend, y el deployment. 
 
+{{<ad0>}}
+
 El libro es un **manual completo de uso de Django**. Su contenido abarca todo el funcionamiento de Django, desde lo más simple hasta lo más complicado. Cubre la explicación del patrón de diseño MVC, historia del desarrollo de Django como Framework, vistas (normales y genéricas), plantillas, modelos, uso de Middleware, seguridad, optimización con cache, internacionalización y la adaptación del framework cuando ya tienes base de datos preexistentes. El libro es toda una joya para los que amamos Python y Django, me incluyo entre estos.
 
 ## La guia definitiva para aprender Django es un buen libro pero desactualizado
@@ -42,7 +44,7 @@ Y, nuevamente, frameworks como Django, Ruby on Rails o la librería estándar de
 
 No obstante el libro aún se encuentra desactualizado. Si los autores de este libro se decidieran a mantener actualizado su contenido podría fácilmente ser el mejor libro de Django disponible.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Mi opinión sobre la guia definitiva de Django
 

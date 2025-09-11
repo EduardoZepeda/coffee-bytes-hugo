@@ -27,6 +27,8 @@ mkdir entornoVirtual; cd entornoVirtual
 
 Once we are inside this new directory we will verify our Python installation:
 
+{{<ad0>}}
+
 ```bash
 Python3
 ```
@@ -58,7 +60,7 @@ Installing collected packages: virtualenv
 Successfully installed virtualenv-16.7.2
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Create a virtual environment in python
 
@@ -76,6 +78,8 @@ done.
 ```
 
 Once the command has finished executing, a folder will be created in our current directory. This folder contains all the files necessary to be able to use the virtual environment. The packages that we install while we are using the virtual environment will go inside that folder. I have abbreviated the contents for the sake of simplicity, but you can check the inside of the folder yourself to get to know it completely.
+
+{{<ad2>}}
 
 ```bash
 └── virtual
@@ -115,6 +119,8 @@ source virtual/bin/activate
 If the previous command was executed without problems, we will be able to see how the interpreter of our terminal changed:
 
 But it is not only the appearance of the terminal that has changed. We can also see that we are now running our python3 command from another location:
+
+{{<ad3>}}
 
 ```bash
 which python3

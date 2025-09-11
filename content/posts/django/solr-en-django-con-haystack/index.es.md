@@ -23,6 +23,8 @@ Anteriormente te expliqué como implementar [full text search en Django](/es/dja
 
 ## ¿Cómo funciona Solr?
 
+{{<ad0>}}
+
 Internamente Solr usa Lucene, que es el motor de búsqueda que se encarga de generar un índice para realizar las consultas y todas las opciones relacionadas con las búsquedas, Solr agrega unas funciones extras y nos da una interfaz amigable para trabajar. De aquí en adelante me referiré a la unión de Lucene y Solr solo como Solr.
 
 Simplificando al extremo, Solr recibe el contenido de nuestra base de datos (o archivo csv, pdf, json, xml, etc.) y, usando una plantilla o esquema (managed schema), genera un índice invertido con la información. 
@@ -37,7 +39,7 @@ Solr funciona con un índice invertido. Es bastante similar al índice que apare
 
 {{< figure src="images/solr-indice-invertido.jpg" class="md-local-image" alt="Indice invertido de solr" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Ventajas y desventajas de Solr
 
@@ -52,6 +54,8 @@ Solr cuenta con muchas [funciones avanzadas, tales como autocompletado, sugerenc
 * Panel de administración con herramientas de monitoreo.
 * Herramientas de análisis avanzadas.
 * Soporte para múltiples núcleos o instancias.
+
+{{<ad2>}}
 
 ### Desventajas de Solr
 
@@ -73,6 +77,8 @@ wget https://archive.apache.org/dist/lucene/solr/8.9.0/solr-8.9.0.zip
 unzip solr-8.9.0.zip
 cd solr-8.9.0/bin
 ```
+
+{{<ad3>}}
 
 Una vez descomprimido y dentro de la carpeta principal de solr encontraremos una carpeta *bin/*, con los binarios de solr.  
 

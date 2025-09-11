@@ -27,6 +27,8 @@ Bien, pues en el lenguaje de programación go no existen más que los bucles for
 
 Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}).
 
+{{<ad0>}}
+
 Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="es" >}}).
 
 ## If y else
@@ -56,7 +58,7 @@ if edad < 18 {
 }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Tipos de bucles for en go
 
@@ -65,6 +67,8 @@ En go **existen varios tipos de bucles for**: con contador, con condicional, ran
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747441808/coffee-bytes/golang-for-loops-schema-diagram_1_hlfy0i.png" class="md-local-image" alt="Diagrama de tipos de bucles for en Go o Golang" caption="Diagrama de tipos de bucles for en Go o Golang" >}}
 
 ### Bucles con contador en Go
+
+{{<ad2>}}
 
 Este es el clásico bucle que ya conoces de Javascript, C++, etc. En el que se declara una variable, se especifica una condición y se realizan cambios a la variables.
 
@@ -81,6 +85,8 @@ for i:= 0; i < 10; i++ {
 En este tipo de bucle se evalúa una condición, si el resultado es _true_, se ejecuta el bloque, si no, se brinca ese bloque de código. 
 
 {{<box type="info" message="Este tipo de bucle for sería el equivalente del bucle while en otros lenguajes de programación.">}}
+
+{{<ad3>}}
 
 ```go
 counter := 0

@@ -117,6 +117,8 @@ func main() {
 }
 ```
 
+{{<ad0>}}
+
 ### Canales de entrada y salida
 
 Hay canales que reciben información y canales que sacan información, **de manera predeterminada un canal es bidireccional, pero podemos declarar canales de entrada y de salida.**
@@ -136,7 +138,7 @@ func say(text string, c <-chan string) {}
 ```
 
 Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go](/es/go/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). 
-{{<ad>}}
+{{<ad1>}}
 
 ## Capacidad de un canal
 
@@ -153,6 +155,8 @@ fmt.Println(len(c), cap(c))
 ```
 
 En el ejemplo anterior, el canal tiene ocupados dos espacios, pero tiene una capacidad total de 3, incluso aunque no todos sus espacios estén ocupados.
+
+{{<ad2>}}
 
 ## Cerrar un canal o channel en go
 
@@ -180,5 +184,7 @@ for message := range c {
 	fmt.Println(message)
 }
 ```
+
+{{<ad3>}}
 
 Con eso conoces la información básica de los canales y como puedes utilizarlos para comunicar gorutinas.

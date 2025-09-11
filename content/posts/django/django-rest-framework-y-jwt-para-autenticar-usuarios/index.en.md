@@ -39,7 +39,7 @@ JWT is a standard for the creation of JSON-based access tokens for the exchange 
 
 As I mentioned to you, the JWT can store all session information, instead of storing it on the server. This allows you to save a lot of space on the server, especially if your site handles a huge amount of users.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Structure of a JWT Token
 
@@ -54,6 +54,8 @@ A JWT (JSON Web Token) is divided by points into three parts:
 Note how we can use the central part to store arbitrary content that we want, such as a user's session data or other information that we consider pertinent.
 
 ## Installation of JWT in Django
+
+{{<ad2>}}
 
 First we are going to install the necessary libraries: djangorestframework and djangorestframework_simplejwt, the first one to create and manage our [API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) in Django and the second one to manage the JWTs.
 
@@ -74,6 +76,8 @@ INSTALLED_APPS = [
 ```
 
 We add the authentication class to our configuration file.
+
+{{<ad3>}}
 
 ```python
 # settings.py

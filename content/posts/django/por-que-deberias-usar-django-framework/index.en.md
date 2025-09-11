@@ -42,7 +42,7 @@ Django is a full-stack framework that can be used solely for backend. What makes
   - 
 If you want to delve into one in particular read on.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## The advantages of Django
 
@@ -55,6 +55,8 @@ If you're one of those developers who love **getting shit done without having to
 Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) functions and migration handling.
 
 To create a table in the database just create a class that inherits from _models.Model_ and Django will do all the heavy lifting.
+
+{{<ad2>}}
 
 ```python
 class Review(models.Model):
@@ -94,6 +96,8 @@ DATABASES = {
 ```
 
 Its only disadvantage is its speed, as it falls short of alternatives such as sqlAlchemy, or [tortoise-orm](/en/fastapi/python-tortoise-orm-integration-with-fastapi/).
+
+{{<ad3>}}
 
 ### Administrator panel included
 

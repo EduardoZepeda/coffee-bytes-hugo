@@ -34,6 +34,8 @@ ls -l
 
 Hay 3 conjuntos de 3 letras, cada conjunto contiene espacios para las letras '_r_' '_w_' y '_x_', en ese orden. La presencia de un guión indica la ausencia de permisos. El primer conjunto representa los permisos del propietario del archivo, el segundo conjunto representa los permisos del grupo al que pertenece el archivo y el tercer conjunto representa los permisos de otros. Antes del primer conjunto hay un espacio para el tipo de archivo; '_D_' para directorio, o un guión para un archivo.
 
+{{<ad0>}}
+
 {{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Significado de los permisos en un sistema GNU/Linux" >}}
 
 Ninguno de los conjuntos tiene permisos para ejecutar el archivo _helloWorld.out_ por lo que, al intentarlo, nos mostrará la frase '_permiso denegado_' en la terminal.
@@ -71,7 +73,7 @@ total 16
  Hello world
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Qué significan los números en el comando chmod?
 
@@ -84,6 +86,8 @@ El permiso '_r_' tendrá un valor de 4, el permiso '_w_' un valor de 2 y el perm
 | Leer     | 4     |
 | Escribir | 2     |
 | Ejecutar | 1     |
+
+{{<ad2>}}
 
 {{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Significado de los números en los permisos GNU/Linux" >}}
 
@@ -107,6 +111,8 @@ _rwxr_xr_x
 ___x__x__x
  Esto seria equivalente al dígito 111
 ```
+
+{{<ad3>}}
 
 ## Otro método para asignar permisos con chmod
 

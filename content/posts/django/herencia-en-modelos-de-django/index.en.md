@@ -51,7 +51,7 @@ There are three types of inheritance available and each behaves differently at t
 
 For this example I will be using Django version 3.1 and Python 3.7.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Abstract Inheritance
 

@@ -31,6 +31,8 @@ A migration consists of two files with SQL statements:
 * file up: To make changes in the database.
 * down file: To revert changes in the database.
 
+{{<ad0>}}
+
 For this case they are called up and down, but you could give them any other names; such as forward and backward, or next and previous.
 
 For example:
@@ -45,7 +47,7 @@ Following this logic we can make changes to the database and then revert them.
 
 These two files can be generated automatically (as in the case of Django, from the models) or we can write them directly in SQL, as in the case of go.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Migrate installation
 
@@ -57,6 +59,8 @@ Migrate can be downloaded directly from their [github releases section](https://
 curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
 mv migrate.linux-amd64 $GOPATH/bin/migrate
 ```
+
+{{<ad2>}}
 
 In new versions of Go feel free to just use:
 
@@ -74,6 +78,8 @@ migrate -version
 ## Migration files creation with migrate in Go
 
 To create the pair of migration files, which I told you about earlier, we run the following command:
+
+{{<ad3>}}
 
 ``` bash
 migrate create -seq -ext=.sql -dir=./migrations <migration_name>

@@ -26,7 +26,7 @@ What Ngrok does is to serve as a tunnel that redirects any web request, through 
 
 {{< figure src="images/EsquemaNgrok.png" class="md-local-image" alt="ngrok operation schematic" >}}
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Ngrok installation
 
@@ -42,6 +42,8 @@ To run ngrok on GNU/Linux just run the executable, followed by the http option a
 
 If everything worked correctly, you will see something similar to the following.
 
+{{<ad2>}}
+
 {{< figure src="images/NgrokTerminal.png" class="md-local-image" alt="Ngrok information in the terminal" >}}
 
 What does the above display mean? It means that all requests made to http://ngrok.io; that is, to the fc2ca35fd170 subdomain of the ngrok domain, will be redirected to your localhost, specifically to port 8080. And that's it, it's that simple and easy to use.
@@ -53,6 +55,8 @@ For this example I redirected a Django application on port 8000, instead of port
 If you have no idea how to use Django I have some book recommendations: [Django la guia definitiva]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="en" >}}) and [Django by example]({{< ref path="/posts/django/aprender-django-resena-django-by-example/index.md" lang="en" >}}).
 
 Remember to add the domain, with its subdomain to the ALLOWED_HOSTS variable in the configuration file.
+
+{{<ad3>}}
 
 ```python
 # app/settings.py

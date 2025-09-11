@@ -21,6 +21,8 @@ To explain the topic I will assume you know the basics of slices and data types 
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
+{{<ad0>}}
+
 ## A little bit about conventions
 
 As you probably already know, computers only store numbers. The letters you see on the screen are a representation of those numbers.
@@ -35,7 +37,7 @@ ASCII table with modified colors taken from [wikimedia](https://commons.wikimedi
 
 Knowing the above, let's go to the byte data type.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Bytes in go
 
@@ -49,6 +51,8 @@ var ch3 byte = 0X41       // hexadecimal
 ```
 
 Just as we can store a number, we can also store the numeric representation of a character by wrapping it in single quotes.
+
+{{<ad2>}}
 
 It is like saying to go: "Save the number value to which this character corresponds". When printed, it will return the number, in decimal notation.
 
@@ -68,6 +72,8 @@ fmt.Println(string(ch))
 {{< figure src="images/ByteEnGo.jpg" class="md-local-image" alt="Diagram of a byte in go" caption="Representation of the letter 'A' in decimal notation. The square represents a byte or 8 bits." >}}
 
 ### Array of bytes
+
+{{<ad3>}}
 
 Just as we have the byte data type, we can also create an array of bytes and in multiple ways. Notice how the array is stored with the number that corresponds to each character.
 

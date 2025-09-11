@@ -41,6 +41,8 @@ graph TD;
 
 ¿Puedes notar las similitudes con una computadora? Son bastante obvias; hay un input o entrada, un output o salida y una caja negra o programa informático, cuyos detalles del funcionamiento escaparían para los que se encuentran afuera de este pequeño sistema simplificado.
 
+{{<ad0>}}
+
 ``` mermaid
 graph TD;
     Input-->programa;
@@ -59,7 +61,7 @@ De acuerdo con Searle, ChatGPT(o cualquier otro Large Language Model LLM, como M
 
 ¿Pero entonces que marca la diferencia entre una inteligencia real y un proceso mecánico? ¿existe dicha diferencia?
 
-{{<ad>}}
+{{<ad1>}}
 
 ## ¿Están la conciencia y la inteligencia artificial relacionadas?
 
@@ -68,6 +70,8 @@ El máximo representante de la inteligencia en la tierra es el ser humano (o al 
 ### Inteligencia con conciencia
 
 Algunos argumentan que la conciencia y la inteligencia están relacionados y que incluso tendriamos [un gradiente de conciencia mientras avanzamos en la complejidad e inteligencia de los organismos](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). Dotando del calificativo "consciente" a animales superiores como delfines, orangutanes, cuervos y otros organismos que muestran rasgos de inteligencia.
+
+{{<ad2>}}
 
 Penrose afirma que no sólo la conciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8).
 
@@ -80,6 +84,8 @@ También tenemos el problema de que la consciencia solo puede ser experimentada 
 Tal cual afiramaba Ludwig Wittgenstein en su libro Investigaciones Filosóficas:
 
 >  Imagina que al nacer te dan una caja con un escarabajo dentro. Se trata de un objeto muy valioso y extremadamente personal, tanto, que nadie puede ver el interior de la caja salvo uno mismo. De este modo, no existe una forma objetiva de confirmar que todas las cajas contengan lo mismo. En el mejor de los casos podrían contener un escarabajo de verdad, pero nada garantiza al cien por cien que en lugar del escarabajo no haya otros insectos, como una hormiga o una araña, o que incluso no haya nada, eso sí, sea lo que sea, siempre se considerará bajo el término de «escarabajo».
+
+{{<ad3>}}
 
 Mientras no entendamos que es la consciencia exactamente, no podremos saber que tenemos que "medir" para saber si otro ente es consciente, siempre y cuando tenga sentido hablar de "medir" cuando hablamos de consciencia. 
 

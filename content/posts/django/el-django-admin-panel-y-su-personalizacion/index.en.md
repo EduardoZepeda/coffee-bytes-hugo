@@ -37,6 +37,8 @@ If not, or if you start from a previous installation, you must first make sure t
 
 After all, if you can't authenticate or log in, you won't be able to enter the administration panel, will you?
 
+{{<ad0>}}
+
 ```python
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -74,7 +76,7 @@ class Videogame(models.Model):
         return self.name
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Adding a template to the django admin panel
 
@@ -88,6 +90,8 @@ from .models import Videogame
 admin.site.register(Videogame)
 ```
 
+{{<ad2>}}
+
 With this we will have a modifiable model in the admin.
 
 If we enter the url /_admin/_ and log in, we will be able to see the interface working.
@@ -99,6 +103,8 @@ Note the absence of the search bar
 If we click on the gray button in the upper right corner we can add a model.
 
 ## Modifying the fields that appear in django admin
+
+{{<ad3>}}
 
 In the _admin.py_ file inside our Django application we are going to inherit from the admin.ModelAdmin class.
 

@@ -52,6 +52,8 @@ Django incorpora ahora tres decoradores para tus f√°bricas de middlewares. Adem√
 - async\_only\_middleware()
 - and sync\_and\_async\_middleware()
 
+{{<ad0>}}
+
 ```python
 import asyncio
 from django.utils.decorators import sync_and_async_middleware
@@ -84,7 +86,7 @@ async def test_my_thing(self):
     self.assertEqual(response.status_code, 200)
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Campos compatibles con JSON
 

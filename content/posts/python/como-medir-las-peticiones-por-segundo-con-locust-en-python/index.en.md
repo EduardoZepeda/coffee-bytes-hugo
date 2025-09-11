@@ -27,7 +27,7 @@ pip install locust==2.2.3
 
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Locust configuration
 
@@ -46,6 +46,8 @@ We create a class that imports from _Httpuser_ and assign it a method with the *
 
 Now we execute the locust command from the terminal.
 
+{{<ad2>}}
+
 ```bash
 locust
 ```
@@ -62,6 +64,8 @@ Here we place, in order:
 We fill in the data, I will use 200 users, 2 users created per second and http://localhost:1323, which directs to a local web server.
 
 Press the "start swarming" button and locust will take care of the rest, gradually increasing the number of users.
+
+{{<ad3>}}
 
 Watch real-time monitoring. To stop it press the stop button in the upper right corner.
 

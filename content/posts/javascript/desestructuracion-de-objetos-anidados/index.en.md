@@ -63,6 +63,8 @@ const user = {
 }
 ```
 
+{{<ad0>}}
+
 The first level is _data_, so we will place a colon ":" there and continue descending to the desired level. Let's leave the rest pending by assigning a "_{...}"_. **If you are following this example, do not press ENTER until the end.
 
 ```javascript
@@ -85,7 +87,7 @@ state
 
 Now you can hit ENTER, when you access the _state_ constant, you will see that it refers to the _state_ property, nested in the object.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How to destructure more than one property?
 
@@ -102,5 +104,7 @@ email
 state
 "Lima"
 ```
+
+{{<ad2>}}
 
 In the next post I will talk about how to [assign default values when destructuring objects](/en/javascript/destructuring-with-default-values-in-javascript/).

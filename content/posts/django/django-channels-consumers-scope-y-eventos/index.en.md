@@ -19,6 +19,8 @@ title: 'Django channels: consumers, environments and events'
 
 Why Django channels? Because Django does not allow us to create applications with real-time communication natively. Django channels gives Django the ability to handle protocols that require a persistent connection, such as WebSockets, MQTT, chatbots, while keeping intact its integration with the session system, authentication and the rest of the framework.
 
+{{<ad0>}}
+
 Django channels places an intermediate layer that is in charge of processing http requests to django views and websocket connections to an http consumer or a websocket consumer.
 
 {{< figure src="images/djangoWsgiChannels.png" class="md-local-image" alt="Simplified diagram of how Django channels work" >}}
@@ -33,7 +35,7 @@ A websocket is a persistent connection that exists between a user's browser and 
 
 A channel is a model that allows several processes to communicate with each other by transmitting messages. django-channels owes its name to this concept and the concept is quite similar to what you would find in programming languages such as [Go](/en/go/go-use-of-channels-to-communicate-goroutines/).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Django channels requires ASGI
 
@@ -42,6 +44,8 @@ Django channels requires us to switch from a WSGI server to an ASGI server, to h
 If you don't know what ASGI means, just know that it is an interface for Python to interact with web servers asynchronously.
 
 Each time a new user initiates a request an ASGI "application" will be created and handled, this connection, unlike a normal HTTP request, is persistent.
+
+{{<ad2>}}
 
 ## Installation of django channels
 
@@ -66,6 +70,8 @@ INSTALLED_APPS = (
     'channels',
 )
 ```
+
+{{<ad3>}}
 
 In our project folder an _asgi.py_ file is created when we run _django-admin startproject_. This file is **the "gateway" through which a server interacts with our Python code**. We need to modify it to tell django how to handle each protocol.
 

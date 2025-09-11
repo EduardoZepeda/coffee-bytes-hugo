@@ -22,6 +22,8 @@ title: ¿Cómo personalizar el modelo User en Django?
 
 En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios de Django.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
+{{<ad0>}}
+
 Pero, antes de empezar, veamos de donde viene el modelo User de Django.
 
 ## ¿De donde viene el modelo User de Django?
@@ -37,7 +39,7 @@ Si miras el código fuente de Django, verás que el **modelo _User_ que usas nor
 
 Ya que sabemos lo anterior, **podemos usar las clases AbstractUser y AbstractBaseUser para crear nuestros modelos de Usuario personalizados.**
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Modifica el Django User modal heredando de la subclase AbstractUser
 
@@ -54,6 +56,8 @@ class UsuarioPersonalizado(AbstractUser):
         default=0, 
         blank=True)
 ```
+
+{{<ad2>}}
 
 Tras crear una clase nueva que herede de _AbstractUser_, necesitamos decirle a Django que queremos usar este nuevo modelo en lugar del modelo de usuario por defecto.
 
@@ -79,6 +83,8 @@ class FormularioRegistroUsuarioPersonalizado(UserCreationForm):
         model = User
         fields = ['username', 'email']
 ```
+
+{{<ad3>}}
 
 Y es todo, podemos usarlo exactamente igual que si usaramos el modelo _User_ que incluye Django.
 

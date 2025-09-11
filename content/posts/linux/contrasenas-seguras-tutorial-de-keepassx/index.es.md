@@ -25,7 +25,7 @@ Yo soy de los que creen que **mientras menos información sensible tenga un terc
 
 ¿Quién no ha oído de filtraciones masivas de datos de usuarios incluso en las empresas más grandes? Por esta razón yo prefiero mantener mis contraseñas dentro de mi computadora y usando un programa cuyo código fuente esté a la vista de cualquiera que quiera examinarlo.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## keepassxc
 
@@ -41,6 +41,8 @@ sudo apt install keepassxc
 
 Si la instalación se llevó a cabo exitosamente podremos ejecutarlo desde su icono o desde la terminal.
 
+{{<ad2>}}
+
 ```bash
 keepassxc
 ```
@@ -54,6 +56,8 @@ Decide un nombre y una descripción para la base de datos.
 {{< figure src="images/keepassxc-crear-base-de-datos.png" class="md-local-image" alt="Crear base de datos en keepassxc" >}}
 
 A continuación nos pedirá el tiempo de descifrado. Si no sabes para que sirve esto déjalo como esta.
+
+{{<ad3>}}
 
 {{< figure src="images/keepassxc-tiempo-descifrado.png" class="md-local-image" alt="Tiempo de descifrado en keepassxc" >}}
 

@@ -26,6 +26,8 @@ Well, as there are more than enough loops for. Yes, there is no _while_ or do _w
 
 If you don't know anything about Go and want to start with the basics visit my entry [Golang: introduction, variables and data types]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}).
 
+{{<ad0>}}
+
 If you currently use Python and want to see how it is different from Go, visit my [python vs go]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}})post.
 
 ## If and else
@@ -55,7 +57,7 @@ if edad < 18 {
 }
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## For loops types in Go
 
@@ -64,6 +66,8 @@ In go **there are several types of for** loops: counter, conditional, range and 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751224927/coffee-bytes/golang-for-loops-schema-diagram_cl20ok.webp" class="md-local-image" alt="Simplified Golang for loops diagram" caption="Simplified Golang for loops diagram" >}}
 
 ### Loops with counter in Go
+
+{{<ad2>}}
 
 This is the classic loop that you already know from Javascript, C++, etc. In which you declare a variable, specify a condition, and make changes to the variable.
 
@@ -80,6 +84,8 @@ for i:= 0; i < 10; i++ {
 In this type of loop a condition is evaluated, if the result is _true_, the block is executed, if not, that block of code is skipped. 
 
 {{<box type="info" message="This type of for loop would be the equivalent of the while loop in another programming languages">}}
+
+{{<ad3>}}
 
 
 ```go

@@ -31,7 +31,7 @@ Esta manera de proteger tu dirección de email no requiere una explicación deta
 
 La desventaja de esta aproximación es que la persona que desee mandarte un email tendrá que teclearlo manualmente, pues no puede hacer copy-paste, y ya sabes que cada paso extra añade fricción al proceso de conversión.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Utiliza una notación diferente para el email
 
@@ -45,6 +45,8 @@ Otra manera es no colocar directamente el email, pero sí una pista de como pued
 
 > *"Mi email es el nombre que aparece en la url y es una dirección de correo electrónico de google"*. 
 
+{{<ad2>}}
+
 Con eso entenderá que la dirección es *lain@gmail.com*.
 
 Solo trata de no complicar las cosass bastante aquí, no sobrestimes las capacidades deductivas del internauta promedio.
@@ -56,6 +58,8 @@ Otra opción es olvidarte completamente de colocar tu correo y usar un formulari
 ### Protege tu formulario del spam con un captcha
 
 Algunos bots intentarán llenar el formulario para enviarte publicidad pero siempre puedes utilizar [un captcha para protegerte del spam.](/es/opinion/mi-analisis-de-captchas-anti-bots-ventajas-y-desventajas/)
+
+{{<ad3>}}
 
 {{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Captcha image" >}}
 

@@ -47,6 +47,8 @@ Remember that **when we schedule a task in Crontab, we do not have access to all
 
 For the wallpaper changer to work we will need to pass the environment variable called DBUS_SESSION_BUS_ADDRESS to the script we place in Crontab. To find the value of the environment variable we can do it from terminal, using the printenv command.
 
+{{<ad0>}}
+
 ```bash
 printenv | grep DBUS
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
@@ -77,7 +79,7 @@ os.system("gsettings set org.gnome.desktop.background picture-uri 'file://{}'".f
 os.system("gsettings set org.gnome.desktop.background picture-uri-dark 'file://{}'".format(random_wallpaper))
 ```
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Schedule wallpaper change with Cron and Crontab
 
@@ -88,6 +90,8 @@ crontab -e
 ```
 
 For this example we will change the wallpaper every 6 hours. But you can set the frequency to any value you want.
+
+{{<ad2>}}
 
 ```bash
 0 */6 * * * $PWD/.change_wallpaper_random.py

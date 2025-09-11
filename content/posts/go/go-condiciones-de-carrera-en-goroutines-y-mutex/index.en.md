@@ -74,6 +74,8 @@ func main() {
 
 The important part is that, within a goroutine, we read the variable content tokens, then increment it by 20 and then assign that result to tokens again. But no problem, if we run the code we will get the correct result: 320 (120 tokens + One increment of 20 tokens for each of the 10 goroutines).
 
+{{<ad0>}}
+
 Everything is perfect, isn't it? No, the code is so small and the process happens so fast that you don't notice the problem.
 
 If we add a small waiting time in the goroutines (which can be caused by a database access or any other process), we will face the problem head on.
@@ -108,7 +110,7 @@ func main() {
 
 After executing the code, instead of the correct result, I get 140 with 1 millisecond and 200 with one microsecond.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Detect race conditions with --race
 
@@ -124,6 +126,8 @@ Read at 0x0000005fe430 by goroutine 8:
 ```
 
 ## Preventing race conditions with Mutex
+
+{{<ad2>}}
 
 There is an object called Mutex (**mut**ual **ex**clusion) that will ensure that our code does not access a variable until we tell it to, preventing race conditions from occurring.
 

@@ -34,6 +34,8 @@ As with asynchronous tasks, we also need rabbitmq or another broker.
 sudo apt install rabbitmq-server
 ```
 
+{{<ad0>}}
+
 Next, at the same level as our configuration file, we will create a file called _celery.py_, where we will create a celery app and pass the django configuration to it.
 
 ```python
@@ -59,7 +61,7 @@ __all__ = ('celery_app',)
 
 Sounds pretty obvious, but still I remind you; your django application must be running for celery to work.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Periodic sending of tasks with crontab
 

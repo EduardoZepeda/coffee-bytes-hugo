@@ -36,6 +36,8 @@ tesseract 5.0.0-alpha-20201224-3-ge1a3
 
 Differences in OCR engine efficiency between tesseract 3 and tesseract 5 alpha. 
 
+{{<ad0>}}
+
 {{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Version 5 shows better performance" caption="Comparison between OCR performance of tesseract 3 and tesseract 5" >}}
 
 ### Installing languages in tesseract
@@ -59,7 +61,7 @@ spa
 
 You will see that Spanish is now installed and we can use it to detect the text in our images by adding the _-l spa_ option to the end of our command
 
-{{<ad>}}
+{{<ad1>}}
 
 ## OCR with tesseract
 
@@ -74,6 +76,8 @@ Estimating resolution as 139
 Do you have the time to listen to me whine
 ...
 ```
+
+{{<ad2>}}
 
 The "-" at the end of the command tells tesseract to send the results of the analysis to the standard output, so that we can view them in the terminal.
 
@@ -91,6 +95,8 @@ tesseract image_with_text.jpg - --oem 1
 Consider that **not all language files work with the original tesseract** (0 and 3). Although generally the neural networks one is the one that gives the best result. You can find the models compatible with the original tesseract and neural networks in the [tesseract repository](https://github.com/tesseract-ocr/tessdata#?).
 
 You can install them manually by downloading them and moving them to the appropriate folder, in my case it is _/usr/local/share/tessdata/_, but it may be different on your system.
+
+{{<ad3>}}
 
 ```bash
 wget https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata

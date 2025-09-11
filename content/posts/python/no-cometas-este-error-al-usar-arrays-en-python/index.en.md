@@ -27,6 +27,8 @@ If you have no idea what I'm talking about, I have an excellent resource that ca
 
 ## The wrong way to create arrays in Python
 
+{{<ad0>}}
+
 Knowing how to create arrays using the multiplication operator, we could think of creating a two-dimensional array as follows:
 
 ```python
@@ -48,7 +50,7 @@ What happened? We modified a single element and all of them have been modified. 
 
 This happens because when Python creates the array, **it is not creating 4 different arrays**, but it creates only one and copies 4 times the reference to this memory space, so, any change we make is modifying the only array that exists and, **as the 4 references point to that array, we see the change reflected in all** the arrays.
 
-{{<ad>}}
+{{<ad1>}}
 
 ## How to prevent this error?
 
@@ -61,5 +63,7 @@ new_matrix[0][1] = 3
 ```
 
 In the above code, a new array is created for each element in our list comprehension, ensuring that there are 4 individual arrays and that each change occurs only once in our two-dimensional array.
+
+{{<ad2>}}
 
 Now you know that, if in a two-dimensional matrix you are changing all the elements when you modify a single one, you must change the way you generated your matrix.

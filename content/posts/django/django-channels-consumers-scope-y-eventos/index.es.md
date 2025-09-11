@@ -22,6 +22,8 @@ title: 'Django channels: consumers, scope y eventos'
 
 ¿Por qué deberías usar Django channels? Porque con Django es imposible crear aplicaciones con comunicación en tiempo real de manera nativa. Django channels le otorga a Django la capacidad manejar protocolos que requieren una conexión persistente, como WebSockets, MQTT, chatbots, mientras mantiene intacta su integración con el sistema de sesiones, autenticación y el resto del framework, volviendo a Django una excelente alternativa para aplicaciones que requieren interactividad y comunicación en tiempo real.
 
+{{<ad0>}}
+
 Django channels coloca una capa intermedia que se encarga de procesar las peticiones http a las vistas de django y las conexiones websocket a un consumer http o un consumer websocket.
 
 {{< figure src="images/djangoWsgiChannels.png" class="md-local-image" alt="Esquema simplificado del funcionamiento de Django channels" >}}
@@ -36,7 +38,7 @@ Un websocket es una conexión persistente que existe entre el navegador de un us
 
 Un canal o channel es un modelo que permite que varios procesos se comuniquen entre sí por medio de la transmisión de mensajes. django-channels debe su nombre a este concepto y el concepto es bastante similar al que te encontrarías en lenguajes de programación como [Go]({{< ref path="/posts/go/go-uso-de-channels-canales/index.md" lang="es" >}}).
 
-{{<ad>}}
+{{<ad1>}}
 
 ## Django channels requiere ASGI
 
@@ -45,6 +47,8 @@ Django channels requiere que pasemos de un servidor WSGI a un ASGI, para manejar
 Si no sabes que significa ASGI, quédate con la idea de que es una interfaz para que Python interactúe con servidores web de manera asíncrona.
 
 Cada vez que un usuario nuevo inicie una petición se creará una "aplicación" de ASGI que manejaremos , esta conexión, a diferencia de una petición HTTP normal, esta es persistente.
+
+{{<ad2>}}
 
 ## Instalación de django channels
 
@@ -69,6 +73,8 @@ INSTALLED_APPS = (
     'channels',
 )
 ```
+
+{{<ad3>}}
 
 En nuestra carpeta de proyecto se crea un archivo _asgi.py_ cuando corremos _django-admin startproject_. Este archivo es **la "puerta" por la que interactúa un servidor con nuestro código Python**. Es necesario que lo modifiquemos para indicarle a django como debe manejar cada protocolo.
 
