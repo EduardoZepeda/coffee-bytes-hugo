@@ -249,6 +249,8 @@ frame-src = [
   " *.googletagmanager.com",
   "*.doubleclick.net",
   "*.google.com",
+  "https://ep2.adtrafficquality.google",
+  "https://ep2.adtrafficquality.google/*",
   "https://ep2.adtrafficquality.google/sodar/sodar2/232/runner.html",
 ]
 img-src = [
@@ -273,7 +275,7 @@ script-src = [
   "https://adservice.google.com",
   "https://ep2.adtrafficquality.google",
   "https://www.googletagservices.com",
-  "https://googleads.g.doubleclick.net/",
+  "https://googleads.g.doubleclick.net",
   "jsfiddle.net",
   "*.instagram.com",
   "*.twitter.com",
