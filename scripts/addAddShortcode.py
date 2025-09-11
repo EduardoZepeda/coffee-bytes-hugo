@@ -15,22 +15,22 @@ def get_md_files():
 
 
 def add_ad_shortocode_before_heading(file_location: str):
-    """Add an {{<ad>}} shortcode before the first subtitle of each entry"""
+    """Add an {{<ad1>}} shortcode before the first subtitle of each entry"""
     with open(file_location, "r") as f:
         content = f.read()
-        if "{{<ad>}}" not in content:
+        if "{{<ad1>}}" not in content:
             print(file_location)
-    if "{{<ad>}}" not in content:
+    if "{{<ad1>}}" not in content:
         n = 2
         pattern = r"(?<=\n)(## [^\n]*)(?=\n)"
         matches = re.split(pattern, content)
-        # Reconstruct the markdown, adding "{{<ad>}}" before the nth heading
+        # Reconstruct the markdown, adding "{{<ad1>}}" before the nth heading
         reconstructed_content = matches[0]  # Add the content before the first heading
         count = 0
         for i in range(1, len(matches), 2):  # Process headings and their content
             count += 1
             if count == n:
-                reconstructed_content += "{{<ad>}}\n\n"  # Add the ad before the heading
+                reconstructed_content += "{{<ad1>}}\n\n"  # Add the ad before the heading
             reconstructed_content += matches[i]  # Add the heading
             reconstructed_content += matches[i + 1]  # Add the content under the heading
 
