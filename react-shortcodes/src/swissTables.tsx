@@ -33,39 +33,54 @@ const SwissTableSimulator = () => {
 
     const insert = useCallback(() => {
         if (!inputKey || !inputValue) return;
-
+    
         const fullHash = hashString(inputKey);
         const hashBinary = fullHash.toString(2).padStart(64, '0');
-
-        // Split hash: first 57 bits for group selection, last 7 for control
         const h1 = parseInt(hashBinary.slice(0, 57), 2);
         const h2 = parseInt(hashBinary.slice(57), 2);
-
-        // Select group (modulo number of groups)
         const groupIndex = h1 % 2;
-
+    
         setGroups(prevGroups => {
             const newGroups = [...prevGroups];
             const targetGroup = { ...newGroups[groupIndex] };
-
-            // Find first empty slot in the group
+    
+            // First, check if key already exists
+            const existingKeyIndex = targetGroup.slots.findIndex(
+                (slot, idx) => 
+                    targetGroup.controlWord[idx].state === 'occupied' && 
+                    slot.key === inputKey
+            );
+    
+            if (existingKeyIndex !== -1) {
+                // Key exists, update its value
+                targetGroup.slots = [...targetGroup.slots];
+                targetGroup.slots[existingKeyIndex] = {
+                    ...targetGroup.slots[existingKeyIndex],
+                    value: inputValue
+                };
+                newGroups[groupIndex] = targetGroup;
+                return newGroups;
+            }
+    
+            // If key doesn't exist, find first empty or deleted slot
             let slotIndex = -1;
             for (let i = 0; i < 8; i++) {
-                if (targetGroup.controlWord[i].state === 'empty' || targetGroup.controlWord[i].state === 'deleted') {
+                if (targetGroup.controlWord[i].state === 'empty' || 
+                    targetGroup.controlWord[i].state === 'deleted') {
                     slotIndex = i;
                     break;
                 }
             }
-
+    
             if (slotIndex === -1) {
                 alert('Group is full!');
                 return prevGroups;
             }
-
-            // Update control word and slot
+    
+            // Insert new key-value pair
             targetGroup.controlWord = [...targetGroup.controlWord];
             targetGroup.controlWord[slotIndex] = { state: 'occupied', h2 };
-
+    
             targetGroup.slots = [...targetGroup.slots];
             targetGroup.slots[slotIndex] = {
                 key: inputKey,
@@ -74,11 +89,11 @@ const SwissTableSimulator = () => {
                 h1: h1.toString(),
                 h2: h2.toString()
             };
-
+    
             newGroups[groupIndex] = targetGroup;
             return newGroups;
         });
-
+    
         setInputKey('');
         setInputValue('');
     }, [inputKey, inputValue]);
