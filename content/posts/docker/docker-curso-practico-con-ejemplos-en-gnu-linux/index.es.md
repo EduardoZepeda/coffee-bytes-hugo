@@ -34,7 +34,7 @@ Puedes pensar en las imágenes y contenedores **como clases y sus instancias, re
 
 Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}).
 
-{{<ad1>}}
+{{<ad0>}}
 
 ## Correr un contenedor
 
@@ -54,7 +54,7 @@ Tras ejecutar el comando anterior, Docker descargará la imagen de hello-world y
 
 Si solo quieres traer una imagen para que esté disponible, sin ejecutarla puedes usar el comando docker pull, seguido del nombre de la imagen. 
 
-{{<ad2>}}
+{{<ad1>}}
 
 Este comando traera una imagen de los repositorios y la descargará en tu sistema.
 
@@ -74,7 +74,7 @@ Para buscar una imagen podemos usar el comando docker search. Lo que hace este c
 
 En Dockerhub existen imágenes de mysql, de nginx, de alpine linux, de python, de django, wordpress, ghost y casi cualquier otra tecnología, y sus combinaciones, que puedas nombrar.
 
-{{<ad3>}}
+{{<ad2>}}
 
 ```bash
 docker search nginx
@@ -104,6 +104,8 @@ hello-world       latest         bf756fb1ae65        8 months ago        13.3kB
 Para inspeccionar una imagen basta con usar docker inspect, seguido del nombre o id de la imagen. Docker imprimirá información relacionada con la imagen en formato JSON.
 
 Con docker inspect podremos ver sus variables de entorno, sus comandos de arranque, volúmenes asociados, arquitectura y muchas otras características más.
+
+{{<ad3>}}
 
 ```bash
 docker inspect hello-world

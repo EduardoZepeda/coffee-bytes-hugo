@@ -34,7 +34,7 @@ You can think of images and containers **as classes and their instances in OOP**
 
 If you are interested in knowing how a container works at the code level, I have a post where I explain [how to create a container from scratch using Go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
-{{<ad1>}}
+{{<ad0>}}
 
 ## Basic Docker commands for containers
 
@@ -54,7 +54,7 @@ After executing the above command, Docker will download the hello-world image an
 
 ## Download an image
 
-{{<ad2>}}
+{{<ad1>}}
 
 If you just want to pull an image to make it available, without running it, you can use the command docker pull, followed by the image name.
 
@@ -74,8 +74,6 @@ The hello-world image is probably the most boring image out there and you'll def
 
 To search for an image we can use the docker search command. What this command does is to connect to docker hub and search for the image that we indicate.
 
-{{<ad3>}}
-
 On Dockerhub there are mysql images, nginx images, alpine linux images, python images, django images, wordpress images, ghost images and just about any other technology, and combinations thereof, you can name.
 
 ```bash
@@ -89,6 +87,8 @@ richarvey/nginx-php-fpm Container running Nginx + PHP-FPM capable of…   787   
 On the other hand, if you prefer to do it in a more visual way you can visit [Docker hub](https://hub.docker.com/). There you can get any kind of
 image you can imagine, even upload your own. Take a look around and see all the options that are available for download. We won't be downloading any others for now.
 
+{{<ad2>}}
+
 {{< figure src="images/Docker-hub.png" class="md-local-image" alt="Screenshot from Dockerhub, the official repository for Docker images" >}}
 
 ## See images
@@ -100,6 +100,8 @@ docker images
 REPOSITORY TAG IMAGE ID CREATED SIZE
 hello-world latest bf756fb1ae65 8 months ago 13.3kB
 ```
+
+{{<ad3>}}
 
 ## Inspect a docker image
 
