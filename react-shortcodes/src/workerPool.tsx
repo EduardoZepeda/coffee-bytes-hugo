@@ -221,10 +221,10 @@ const WorkerPoolVisualization = () => {
         }
       `}</style>
 
-            <div className="bg-pink-500 min-h-screen rounded-xl overflow-hidden">
-                <div className="flex h-screen gap-0.5">
+            <div className="bg-pink-500 rounded-xl overflow-hidden">
+                <div className="flex gap-0.5 flex-wrap">
                     {/* Left Panel */}
-                    <div className="flex-1 p-5 overflow-y-auto bg-white bg-opacity-95 backdrop-blur-sm">
+                    <div className="w-full p-5 overflow-y-auto bg-white bg-opacity-95 backdrop-blur-sm">
                         <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-5 mb-5">
                             <h2 className="text-2xl font-bold text-gray-800 mb-5">Worker Pool Controls</h2>
 
@@ -327,7 +327,7 @@ const WorkerPoolVisualization = () => {
                     </div>
 
                     {/* Right Panel */}
-                    <div className="flex-1 p-5 overflow-y-auto bg-black bg-opacity-85 text-white">
+                    <div className="w-full p-5 overflow-y-auto bg-black bg-opacity-85 text-white">
                         <h2 className="text-2xl font-bold mb-5">Worker Pool Pattern</h2>
 
                         <div className="grid grid-cols-2 gap-4 mb-8 text-gray-800">
