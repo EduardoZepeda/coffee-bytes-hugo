@@ -98,99 +98,134 @@ class Trie {
 }
 
 const getNodesAndEdges = (trie: TrieNode) => {
-  const initialNodes = []
-  const initialEdges = []
-  let x: number = 0;
-  let y: number = 0;
-  const recursiveGetNodesAndEdges = (node: TrieNode, parent: string, x: number, y: number) => {
-    y += 100
-    initialNodes.push({ id: node.id, position: { x, y }, data: { label: `${node.id}${node.isEndOfWord ? "*" : ""}` } })
-    initialEdges.push({ id: node.id + '-' + parent, source: parent, target: node.id })
-    let counter = 0;
-    x -= 200
-    for (const [char, childNode] of node.children.entries()) {
-      if (node.children.size >= 1) {
-        x += 200
-      }
-      recursiveGetNodesAndEdges(childNode, node.id, x, y, x)
-      counter++;
+  const initialNodes: any[] = [];
+  const initialEdges: any[] = [];
+  let nodeId = 0;
+
+  // Store the mapping from trie node to React Flow node ID and its character
+  const nodeMap = new Map<TrieNode, { id: string; char: string }>();
+  
+  // Start with the root node
+  const queue: { 
+    node: TrieNode; 
+    parentId: string | null; 
+    position: { x: number; y: number };
+    char: string;
+  }[] = [
+    { node: trie, parentId: null, position: { x: 0, y: 0 }, char: '' }
+  ];
+
+  while (queue.length > 0) {
+    const { node, parentId, position, char } = queue.shift()!;
+    
+    // Generate or get the node ID
+    let nodeInfo = nodeMap.get(node);
+    if (!nodeInfo) {
+      const nodeIdStr = `node-${nodeId++}`;
+      nodeInfo = { id: nodeIdStr, char };
+      nodeMap.set(node, nodeInfo);
+      
+      // Add the node
+      initialNodes.push({
+        id: nodeInfo.id,
+        position,
+        data: { 
+          label: parentId === null ? 'ROOT' : char || '?',
+          isEndOfWord: node.isEndOfWord 
+        },
+        type: 'trieNode',
+        style: {
+          width: 50,
+          height: 50,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '50%',
+          border: '2px solid #3b82f6',
+          backgroundColor: node.isEndOfWord ? '#fef2f2' : '#eff6ff',
+          color: node.isEndOfWord ? '#ef4444' : '#1e40af',
+          fontWeight: 'bold',
+        },
+      });
     }
+
+    // Add edge from parent if not root
+    if (parentId !== null) {
+      initialEdges.push({
+        id: `${parentId}-${nodeInfo.id}`,
+        source: parentId,
+        target: nodeInfo.id,
+        type: 'smoothstep',
+        style: { stroke: '#94a3b8' },
+        animated: false
+      });
+    }
+
+    // Add children to queue
+    const children = Array.from(node.children.entries());
+    const childCount = children.length;
+    const startX = position.x - ((childCount - 1) * 100) / 2; // Center children
+    
+    children.forEach(([childChar, childNode], index) => {
+      const childX = startX + (index * 100);
+      const childY = position.y + 100; // Vertical spacing
+      
+      // Always add to queue to ensure all nodes are processed
+      // The nodeMap check inside will prevent duplicate nodes
+      queue.push({
+        node: childNode,
+        parentId: nodeInfo!.id,
+        position: { x: childX, y: childY },
+        char: childChar
+      });
+    });
   }
-  recursiveGetNodesAndEdges(trie, 'root', 0, 0)
-  return { initialNodes, initialEdges }
-}
+  
+  return { initialNodes, initialEdges };
+};
 
 const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchResult: boolean | null }> = ({
   trie,
   highlightPath,
   searchResult
 }) => {
-  const { initialNodes, initialEdges } = getNodesAndEdges(trie.root)
+  const [nodes, setNodes] = useState<any[]>([]);
+  const [edges, setEdges] = useState<any[]>([]);
+  const reactFlowWrapper = useRef<HTMLDivElement>(null);
 
-  const [nodes, setNodes] = useState(initialNodes);
-  const [edges, setEdges] = useState(initialEdges);
+  const onNodesChange = useCallback(
+    (changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
+    []
+  );
+  
+  const onEdgesChange = useCallback(
+    (changes) => setEdges((eds) => applyEdgeChanges(changes, eds)),
+    []
+  );
 
-  const onNodesChange = (changes) => setNodes((nodesSnapshot) => applyNodeChanges(changes, nodesSnapshot))
-  const onEdgesChange = (changes) => setEdges((edgesSnapshot) => applyEdgeChanges(changes, edgesSnapshot))
-  const onConnect = (params) => setEdges((edgesSnapshot) => addEdge(params, edgesSnapshot))
-
-
-  useEffect(() => { console.log("derpise") }, [trie.root.children])
-
-
-  const renderNode = (node: TrieNode, char: string = '', level: number = 0, path: string = ''): JSX.Element => {
-    const currentPath = path + char;
-    const isHighlighted = highlightPath && currentPath.length <= highlightPath.length &&
-      highlightPath.startsWith(currentPath);
-    const isSearchPath = highlightPath && currentPath === highlightPath;
-
-    return (
-      <div key={node.id} className="flex flex-col items-center">
-        {/* Node */}
-        <div className={`
-          relative w-10 h-10 rounded-full border-2 flex items-center justify-center text-sm font-bold
-          ${node.isEndOfWord
-            ? 'bg-red-100 border-red-500 text-red-700'
-            : 'bg-blue-100 border-blue-500 text-blue-700'
-          }
-          ${isHighlighted ? 'ring-4 ring-yellow-300' : ''}
-          ${isSearchPath && searchResult === false ? 'bg-red-200 border-red-600' : ''}
-          ${isSearchPath && searchResult === true ? 'bg-green-200 border-green-600' : ''}
-        `}>
-          {char || '*'}
-          {node.isEndOfWord && (
-            <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full"></div>
-          )}
-        </div>
-
-        {/* Children */}
-        {node.children.size > 0 && (
-          <div className="flex space-x-4 mt-4">
-            {Array.from(node.children.entries()).map(([childChar, childNode]) => (
-              <div key={childChar} className="flex flex-col items-center">
-                {/* Connection line */}
-                <div className={`w-px h-4 ${isHighlighted ? 'bg-yellow-400' : 'bg-gray-300'}`}></div>
-                {renderNode(childNode, childChar, level + 1, currentPath)}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  };
+  // Update nodes and edges when the trie changes
+  useEffect(() => {
+    const { initialNodes, initialEdges } = getNodesAndEdges(trie.root);
+    setNodes(initialNodes);
+    setEdges(initialEdges);
+  }, [trie.root, highlightPath]);
 
   return (
-    <div className="overflow-auto p-8 bg-gray-50 rounded-lg border-2 border-gray-200">
-      <div className="flex justify-center min-w-max h-[800px]">
-        <ReactFlow
-          nodes={nodes}
-          edges={edges}
-          onNodesChange={onNodesChange}
-          onEdgesChange={onEdgesChange}
-          onConnect={onConnect}
-          fitView
-        />
-      </div>
+    <div className="w-full h-[600px] bg-gray-50 rounded-lg border border-gray-200" ref={reactFlowWrapper}>
+      <ReactFlow
+        nodes={nodes}
+        edges={edges}
+        onNodesChange={onNodesChange}
+        onEdgesChange={onEdgesChange}
+        fitView
+        nodesDraggable={true}
+        nodesConnectable={false}
+        defaultEdgeOptions={{
+          type: 'smoothstep',
+          style: { stroke: '#94a3b8', strokeWidth: 2 },
+          animated: false,
+        }}
+      />
     </div>
   );
 };
@@ -439,4 +474,3 @@ function renderTrie() {
 }
 
 export default renderTrie;
-
