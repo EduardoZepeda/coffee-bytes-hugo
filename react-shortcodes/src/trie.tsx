@@ -115,6 +115,75 @@ const getNodesAndEdges = (trie: TrieNode) => {
     { node: trie, parentId: null, position: { x: 0, y: 0 }, char: '' }
   ];
 
+  // Helper function to check if two nodes overlap
+  const nodesOverlap = (
+    node1: { position: { x: number; y: number } }, 
+    node2: { position: { x: number; y: number } },
+    nodeRadius: number = 40
+  ): boolean => {
+    const dx = node1.position.x - node2.position.x;
+    const dy = node1.position.y - node2.position.y;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+    return distance < (nodeRadius * 2);
+  };
+
+  // Function to resolve overlapping nodes
+  const resolveNodeOverlaps = (nodes: Array<{
+    node: TrieNode;
+    parentId: string | null;
+    position: { x: number; y: number };
+    char: string;
+  }>): void => {
+    const NODE_RADIUS = 30; // Approximate radius of a node
+    const MIN_SPACING = NODE_RADIUS * 2.5; // Minimum distance between nodes
+    
+    // Sort nodes by y and then by x coordinate
+    const sortedNodes = [...nodes].sort((a, b) => {
+      if (a.position.y !== b.position.y) {
+        return a.position.y - b.position.y;
+      }
+      return a.position.x - b.position.x;
+    });
+
+    // Check for overlaps and adjust positions
+    for (let i = 0; i < sortedNodes.length; i++) {
+      const currentNode = sortedNodes[i];
+      
+      // Only check nodes that come after the current node
+      for (let j = i + 1; j < sortedNodes.length; j++) {
+        const otherNode = sortedNodes[j];
+        
+        // If nodes are on different levels and far enough apart vertically, skip
+        if (Math.abs(currentNode.position.y - otherNode.position.y) > NODE_RADIUS * 2) {
+          break;
+        }
+        
+        // Check for overlap
+        if (nodesOverlap(currentNode, otherNode, NODE_RADIUS)) {
+          // Calculate how much to move the second node
+          const overlap = (NODE_RADIUS * 2) - 
+            Math.abs(currentNode.position.x - otherNode.position.x) + 10;
+          
+          // Move the second node to the right
+          otherNode.position.x += overlap;
+          
+          // Also move any sibling nodes to the right to maintain order
+          for (let k = j + 1; k < sortedNodes.length; k++) {
+            const nextNode = sortedNodes[k];
+            if (nextNode.position.y === otherNode.position.y) {
+              nextNode.position.x = Math.max(
+                nextNode.position.x, 
+                otherNode.position.x + MIN_SPACING
+              );
+            } else {
+              break;
+            }
+          }
+        }
+      }
+    }
+  };
+
   while (queue.length > 0) {
     const { node, parentId, position, char } = queue.shift()!;
     
@@ -180,6 +249,9 @@ const getNodesAndEdges = (trie: TrieNode) => {
       });
     });
   }
+  
+  // After processing all nodes, resolve any overlaps
+  resolveNodeOverlaps(queue);
   
   return { initialNodes, initialEdges };
 };
@@ -307,7 +379,7 @@ function TrieSimulator() {
     setSearchWord('');
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent, action: () => void) => {
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>, action: () => void) => {
     if (e.key === 'Enter') {
       action();
     }
