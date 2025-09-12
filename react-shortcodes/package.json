@@ -7,6 +7,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@xyflow/react": "^12.8.4",
 		"lucide-react": "^0.544.0",
 		"preact": "^10.26.9"
 	},

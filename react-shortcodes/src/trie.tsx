@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback, useRef } from 'preact/compat';
 import { Search, Plus, Trash2, RotateCcw } from 'lucide-react';
 import css from './style.css?inline';
 import { render } from 'preact';
-
-
+import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge } from '@xyflow/react';
+import cssFlow from '@xyflow/react/dist/style.css?inline';
 
 interface TrieNode {
   children: Map<string, TrieNode>;
@@ -25,31 +25,31 @@ class Trie {
 
   insert(word: string): void {
     let current = this.root;
-    
+
     for (const char of word.toUpperCase()) {
       if (!current.children.has(char)) {
         current.children.set(char, {
           children: new Map(),
           isEndOfWord: false,
-          id: `node-${++this.nodeCounter}`
+          id: `${char}`
         });
       }
       current = current.children.get(char)!;
     }
-    
+
     current.isEndOfWord = true;
   }
 
   search(word: string): boolean {
     let current = this.root;
-    
+
     for (const char of word.toUpperCase()) {
       if (!current.children.has(char)) {
         return false;
       }
       current = current.children.get(char)!;
     }
-    
+
     return current.isEndOfWord;
   }
 
@@ -63,7 +63,7 @@ class Trie {
 
       const char = word[depth];
       const childNode = node.children.get(char);
-      
+
       if (!childNode) return false;
 
       const shouldDelete = deleteHelper(childNode, word, depth + 1);
@@ -81,40 +81,76 @@ class Trie {
 
   getAllWords(): string[] {
     const words: string[] = [];
-    
+
     const dfs = (node: TrieNode, currentWord: string) => {
       if (node.isEndOfWord) {
         words.push(currentWord);
       }
-      
+
       for (const [char, childNode] of node.children.entries()) {
         dfs(childNode, currentWord + char);
       }
     };
-    
+
     dfs(this.root, '');
     return words;
   }
 }
 
-const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchResult: boolean | null }> = ({ 
-  trie, 
+const getNodesAndEdges = (trie: TrieNode) => {
+  const initialNodes = []
+  const initialEdges = []
+  let x: number = 0;
+  let y: number = 0;
+  const recursiveGetNodesAndEdges = (node: TrieNode, parent: string, x: number, y: number) => {
+    y += 100
+    initialNodes.push({ id: node.id, position: { x, y }, data: { label: `${node.id}${node.isEndOfWord ? "*" : ""}` } })
+    initialEdges.push({ id: node.id + '-' + parent, source: parent, target: node.id })
+    let counter = 0;
+    x -= 200
+    for (const [char, childNode] of node.children.entries()) {
+      if (node.children.size >= 1) {
+        x += 200
+      }
+      recursiveGetNodesAndEdges(childNode, node.id, x, y, x)
+      counter++;
+    }
+  }
+  recursiveGetNodesAndEdges(trie, 'root', 0, 0)
+  return { initialNodes, initialEdges }
+}
+
+const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchResult: boolean | null }> = ({
+  trie,
   highlightPath,
-  searchResult 
+  searchResult
 }) => {
+  const { initialNodes, initialEdges } = getNodesAndEdges(trie.root)
+
+  const [nodes, setNodes] = useState(initialNodes);
+  const [edges, setEdges] = useState(initialEdges);
+
+  const onNodesChange = (changes) => setNodes((nodesSnapshot) => applyNodeChanges(changes, nodesSnapshot))
+  const onEdgesChange = (changes) => setEdges((edgesSnapshot) => applyEdgeChanges(changes, edgesSnapshot))
+  const onConnect = (params) => setEdges((edgesSnapshot) => addEdge(params, edgesSnapshot))
+
+
+  useEffect(() => { console.log("derpise") }, [trie.root.children])
+
+
   const renderNode = (node: TrieNode, char: string = '', level: number = 0, path: string = ''): JSX.Element => {
     const currentPath = path + char;
-    const isHighlighted = highlightPath && currentPath.length <= highlightPath.length && 
-                         highlightPath.startsWith(currentPath);
+    const isHighlighted = highlightPath && currentPath.length <= highlightPath.length &&
+      highlightPath.startsWith(currentPath);
     const isSearchPath = highlightPath && currentPath === highlightPath;
-    
+
     return (
       <div key={node.id} className="flex flex-col items-center">
         {/* Node */}
         <div className={`
           relative w-10 h-10 rounded-full border-2 flex items-center justify-center text-sm font-bold
-          ${node.isEndOfWord 
-            ? 'bg-red-100 border-red-500 text-red-700' 
+          ${node.isEndOfWord
+            ? 'bg-red-100 border-red-500 text-red-700'
             : 'bg-blue-100 border-blue-500 text-blue-700'
           }
           ${isHighlighted ? 'ring-4 ring-yellow-300' : ''}
@@ -126,7 +162,7 @@ const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchRes
             <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full"></div>
           )}
         </div>
-        
+
         {/* Children */}
         {node.children.size > 0 && (
           <div className="flex space-x-4 mt-4">
@@ -145,8 +181,15 @@ const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchRes
 
   return (
     <div className="overflow-auto p-8 bg-gray-50 rounded-lg border-2 border-gray-200">
-      <div className="flex justify-center min-w-max">
-        {renderNode(trie.root)}
+      <div className="flex justify-center min-w-max h-[800px]">
+        <ReactFlow
+          nodes={nodes}
+          edges={edges}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          onConnect={onConnect}
+          fitView
+        />
       </div>
     </div>
   );
@@ -160,7 +203,7 @@ function TrieSimulator() {
   const [message, setMessage] = useState('');
   const [highlightPath, setHighlightPath] = useState('');
   const [searchResult, setSearchResult] = useState<boolean | null>(null);
-  
+
   const updateWords = useCallback(() => {
     setWords(trie.getAllWords());
   }, [trie]);
@@ -170,7 +213,7 @@ function TrieSimulator() {
       setMessage('Please enter a word to insert');
       return;
     }
-    
+
     const word = inputWord.trim().toUpperCase();
     if (trie.search(word)) {
       setMessage(`"${word}" already exists in the trie`);
@@ -189,7 +232,7 @@ function TrieSimulator() {
       setMessage('Please enter a word to search');
       return;
     }
-    
+
     const word = searchWord.trim().toUpperCase();
     const found = trie.search(word);
     setSearchResult(found);
@@ -202,7 +245,7 @@ function TrieSimulator() {
       setMessage('Please enter a word to delete');
       return;
     }
-    
+
     const word = searchWord.trim().toUpperCase();
     if (!trie.search(word)) {
       setMessage(`"${word}" does not exist in the trie`);
@@ -210,7 +253,7 @@ function TrieSimulator() {
       setHighlightPath(word);
       return;
     }
-    
+
     trie.delete(word);
     setMessage(`"${word}" deleted successfully`);
     setHighlightPath('');
@@ -321,13 +364,12 @@ function TrieSimulator() {
 
       {/* Message */}
       {message && (
-        <div className={`p-4 rounded-md ${
-          message.includes('successfully') || message.includes('found') 
-            ? 'bg-green-100 text-green-800 border border-green-200' 
-            : message.includes('not found') || message.includes('does not exist')
+        <div className={`p-4 rounded-md ${message.includes('successfully') || message.includes('found')
+          ? 'bg-green-100 text-green-800 border border-green-200'
+          : message.includes('not found') || message.includes('does not exist')
             ? 'bg-red-100 text-red-800 border border-red-200'
             : 'bg-blue-100 text-blue-800 border border-blue-200'
-        }`}>
+          }`}>
           {message}
         </div>
       )}
@@ -388,12 +430,12 @@ function TrieSimulator() {
 
 
 function renderTrie() {
-    if (document.getElementById("app-trie-simulator")) {
-        document.body.addEventListener('htmx:afterSettle', renderTrie);
-        document.body.addEventListener('htmx:historyRestore', renderTrie);
-        render(<><style dangerouslySetInnerHTML={{ __html: css }} /><TrieSimulator /></>, document.getElementById('app-trie-simulator').attachShadow({ mode: 'open' }));
-    }
-    return;
+  if (document.getElementById("app-trie-simulator")) {
+    document.body.addEventListener('htmx:afterSettle', renderTrie);
+    document.body.addEventListener('htmx:historyRestore', renderTrie);
+    render(<><style dangerouslySetInnerHTML={{ __html: css + cssFlow }} /><TrieSimulator /></>, document.getElementById('app-trie-simulator').attachShadow({ mode: 'open' }));
+  }
+  return;
 }
 
 export default renderTrie;
