@@ -141,7 +141,7 @@ const getNodesAndEdges = (trie: TrieNode) => {
           alignItems: 'center',
           justifyContent: 'center',
           borderRadius: '50%',
-          border: '2px solid #3b82f6',
+          border: node.isEndOfWord ? '1px solid #ef4444' : '1px solid #3b82f6',
           backgroundColor: node.isEndOfWord ? '#fef2f2' : '#eff6ff',
           color: node.isEndOfWord ? '#ef4444' : '#1e40af',
           fontWeight: 'bold',
@@ -164,10 +164,10 @@ const getNodesAndEdges = (trie: TrieNode) => {
     // Add children to queue
     const children = Array.from(node.children.entries());
     const childCount = children.length;
-    const startX = position.x - ((childCount - 1) * 100) / 2; // Center children
+    const startX = position.x - ((childCount - 1) * 250) / 3; // Center children
     
     children.forEach(([childChar, childNode], index) => {
-      const childX = startX + (index * 100);
+      const childX = startX + (index * 250);
       const childY = position.y + 100; // Vertical spacing
       
       // Always add to queue to ensure all nodes are processed
@@ -414,22 +414,22 @@ function TrieSimulator() {
         <h3 className="font-semibold mb-3">Legend:</h3>
         <div className="flex flex-wrap gap-4 text-sm">
           <div className="flex items-center">
-            <div className="w-6 h-6 rounded-full bg-blue-100 border-2 border-blue-500 mr-2 flex items-center justify-center text-xs">*</div>
+            <div className="w-12 h-12 rounded-full bg-blue-100 border-2 border-blue-500 mr-2 flex items-center justify-center text-xs">Root</div>
             <span>Root node</span>
           </div>
           <div className="flex items-center">
-            <div className="w-6 h-6 rounded-full bg-blue-100 border-2 border-blue-500 mr-2 flex items-center justify-center text-xs">A</div>
+            <div className="w-12 h-12 rounded-full bg-blue-100 border-2 border-blue-500 mr-2 flex items-center justify-center text-xs">A</div>
             <span>Character node</span>
           </div>
           <div className="flex items-center">
-            <div className="w-6 h-6 rounded-full bg-red-100 border-2 border-red-500 mr-2 flex items-center justify-center text-xs relative">
+            <div className="w-12 h-12 rounded-full bg-red-100 border-2 border-red-500 mr-2 flex items-center justify-center text-xs relative">
               A
               <div className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full"></div>
             </div>
             <span>End of word</span>
           </div>
           <div className="flex items-center">
-            <div className="w-6 h-6 rounded-full bg-blue-100 border-2 border-blue-500 ring-2 ring-yellow-300 mr-2 flex items-center justify-center text-xs">A</div>
+            <div className="w-12 h-12 rounded-full bg-blue-100 border-2 border-blue-500 ring-2 ring-yellow-300 mr-2 flex items-center justify-center text-xs">A</div>
             <span>Highlighted path</span>
           </div>
         </div>
