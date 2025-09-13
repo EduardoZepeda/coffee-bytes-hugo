@@ -104,20 +104,20 @@ const getNodesAndEdges = (trie: TrieNode) => {
 
   // Store the mapping from trie node to React Flow node ID and its character
   const nodeMap = new Map<TrieNode, { id: string; char: string }>();
-  
+
   // Start with the root node
-  const queue: { 
-    node: TrieNode; 
-    parentId: string | null; 
+  const queue: {
+    node: TrieNode;
+    parentId: string | null;
     position: { x: number; y: number };
     char: string;
   }[] = [
-    { node: trie, parentId: null, position: { x: 0, y: 0 }, char: '' }
-  ];
+      { node: trie, parentId: null, position: { x: 0, y: 0 }, char: '' }
+    ];
 
   // Helper function to check if two nodes overlap
   const nodesOverlap = (
-    node1: { position: { x: number; y: number } }, 
+    node1: { position: { x: number; y: number } },
     node2: { position: { x: number; y: number } },
     nodeRadius: number = 40
   ): boolean => {
@@ -136,7 +136,7 @@ const getNodesAndEdges = (trie: TrieNode) => {
   }>): void => {
     const NODE_RADIUS = 30; // Approximate radius of a node
     const MIN_SPACING = NODE_RADIUS * 2.5; // Minimum distance between nodes
-    
+
     // Sort nodes by y and then by x coordinate
     const sortedNodes = [...nodes].sort((a, b) => {
       if (a.position.y !== b.position.y) {
@@ -148,31 +148,31 @@ const getNodesAndEdges = (trie: TrieNode) => {
     // Check for overlaps and adjust positions
     for (let i = 0; i < sortedNodes.length; i++) {
       const currentNode = sortedNodes[i];
-      
+
       // Only check nodes that come after the current node
       for (let j = i + 1; j < sortedNodes.length; j++) {
         const otherNode = sortedNodes[j];
-        
+
         // If nodes are on different levels and far enough apart vertically, skip
         if (Math.abs(currentNode.position.y - otherNode.position.y) > NODE_RADIUS * 2) {
           break;
         }
-        
+
         // Check for overlap
         if (nodesOverlap(currentNode, otherNode, NODE_RADIUS)) {
           // Calculate how much to move the second node
-          const overlap = (NODE_RADIUS * 2) - 
+          const overlap = (NODE_RADIUS * 2) -
             Math.abs(currentNode.position.x - otherNode.position.x) + 10;
-          
+
           // Move the second node to the right
           otherNode.position.x += overlap;
-          
+
           // Also move any sibling nodes to the right to maintain order
           for (let k = j + 1; k < sortedNodes.length; k++) {
             const nextNode = sortedNodes[k];
             if (nextNode.position.y === otherNode.position.y) {
               nextNode.position.x = Math.max(
-                nextNode.position.x, 
+                nextNode.position.x,
                 otherNode.position.x + MIN_SPACING
               );
             } else {
@@ -186,21 +186,21 @@ const getNodesAndEdges = (trie: TrieNode) => {
 
   while (queue.length > 0) {
     const { node, parentId, position, char } = queue.shift()!;
-    
+
     // Generate or get the node ID
     let nodeInfo = nodeMap.get(node);
     if (!nodeInfo) {
       const nodeIdStr = `node-${nodeId++}`;
       nodeInfo = { id: nodeIdStr, char };
       nodeMap.set(node, nodeInfo);
-      
+
       // Add the node
       initialNodes.push({
         id: nodeInfo.id,
         position,
-        data: { 
+        data: {
           label: parentId === null ? 'ROOT' : char || '?',
-          isEndOfWord: node.isEndOfWord 
+          isEndOfWord: node.isEndOfWord
         },
         type: 'trieNode',
         style: {
@@ -234,11 +234,11 @@ const getNodesAndEdges = (trie: TrieNode) => {
     const children = Array.from(node.children.entries());
     const childCount = children.length;
     const startX = position.x - ((childCount - 1) * 250) / 3; // Center children
-    
+
     children.forEach(([childChar, childNode], index) => {
       const childX = startX + (index * 250);
       const childY = position.y + 100; // Vertical spacing
-      
+
       // Always add to queue to ensure all nodes are processed
       // The nodeMap check inside will prevent duplicate nodes
       queue.push({
@@ -249,10 +249,10 @@ const getNodesAndEdges = (trie: TrieNode) => {
       });
     });
   }
-  
+
   // After processing all nodes, resolve any overlaps
   resolveNodeOverlaps(queue);
-  
+
   return { initialNodes, initialEdges };
 };
 
@@ -269,7 +269,7 @@ const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchRes
     (changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
     []
   );
-  
+
   const onEdgesChange = useCallback(
     (changes) => setEdges((eds) => applyEdgeChanges(changes, eds)),
     []
@@ -395,7 +395,7 @@ function TrieSimulator() {
 
   return (
     <div className="max-w-6xl mx-auto p-6 space-y-6 bg-white text-gray-800">
-      <div className="text-center">
+      <div className="text-left">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">Trie (Prefix Tree) Simulator</h1>
         <p className="text-gray-600">
           Visualize how a trie data structure works. Insert, search, and delete words to see the tree structure change.
@@ -410,7 +410,7 @@ function TrieSimulator() {
             <Plus className="mr-2" size={20} />
             Insert Word
           </h2>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 flex-wrap gap-4">
             <input
               type="text"
               value={inputWord}
@@ -434,7 +434,7 @@ function TrieSimulator() {
             <Search className="mr-2" size={20} />
             Search & Delete
           </h2>
-          <div className="flex space-x-2 mb-2">
+          <div className="flex space-x-2 flex-wrap gap-4 mb-2">
             <input
               type="text"
               value={searchWord}
@@ -450,7 +450,7 @@ function TrieSimulator() {
               Search
             </button>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 flex-wrap gap-4">
             <button
               onClick={handleDelete}
               className="flex-1 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 flex items-center justify-center"
