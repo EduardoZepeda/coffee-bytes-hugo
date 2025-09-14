@@ -25,6 +25,7 @@ const SwissTableSimulator = () => {
         currentIndex: -1,
         currentH2: null as number | null,
         targetH2: null as number | null,
+        targetGroup: -1,
         matchedIndices: [] as number[],
         found: false,
         result: null as { groupIndex: number, slotIndex: number, value: string } | null,
@@ -135,10 +136,11 @@ const SwissTableSimulator = () => {
             currentIndex: -1,
             currentH2: null,
             targetH2: null,
+            targetGroup: -1,
             matchedIndices: [],
             found: false,
             result: null,
-            isComparing: true,
+            isComparing: false,
             comparisons: []
         });
 
@@ -146,83 +148,73 @@ const SwissTableSimulator = () => {
             // Calculate hash and h2 for the search key
             const fullHash = hashString(searchKey);
             const h2 = parseInt(fullHash.toString(2).padStart(64, '0').slice(57), 2);
+            const h1 = parseInt(fullHash.toString(2).padStart(64, '0').slice(0, 57), 2);
+            const groupIndex = h1 % groups.length; // Determine target group
             
-            // Show the target H2 we're looking for
+            // Show the target H2 and group we're looking in
             setSearchState(prev => ({
                 ...prev,
                 targetH2: h2,
+                targetGroup: groupIndex,
                 isComparing: true
             }));
             
-            // Small delay to show the target H2
+            // Small delay to show the target H2 and group
             await new Promise(resolve => setTimeout(resolve, 1000));
             
-            // Search through all groups
-            for (let groupIndex = 0; groupIndex < groups.length; groupIndex++) {
-                const group = groups[groupIndex];
-                const matchingIndices = [];
-                
-                // First pass: compare h2 values in control word (all at once)
-                const comparisons = group.controlWord.map((control, i) => ({
-                    index: i,
-                    h2: control.state === 'occupied' ? control.h2 : null,
-                    isMatch: control.state === 'occupied' && control.h2 === h2
-                }));
-                
-                // Show all comparisons simultaneously
-                setSearchState(prev => ({
-                    ...prev,
-                    currentIndex: -1, // Indicates we're showing all comparisons
-                    comparisons: comparisons,
-                    isComparing: true
-                }));
-                
-                // Wait to show the comparison
-                await new Promise(resolve => setTimeout(resolve, 1500));
-                
-                // Find all matching indices
-                const newMatchingIndices = comparisons
-                    .filter(c => c.isMatch)
-                    .map(c => c.index);
-                
-                // Update with matches
-                setSearchState(prev => ({
-                    ...prev,
-                    matchedIndices: newMatchingIndices,
-                    isComparing: false
-                }));
-                
-                // Wait before checking keys
-                await new Promise(resolve => setTimeout(resolve, 1000));
-                
-                // Check actual keys for matches
-                for (const slotIndex of newMatchingIndices) {
-                    if (group.slots[slotIndex].key === searchKey) {
-                        setSearchState(prev => ({
-                            ...prev,
-                            isSearching: false,
-                            found: true,
-                            result: {
-                                groupIndex,
-                                slotIndex,
-                                value: group.slots[slotIndex].value
-                            }
-                        }));
-                        return;
-                    }
+            const group = groups[groupIndex];
+            const matchingIndices = [];
+            
+            // Compare h2 values in control word (all at once)
+            const comparisons = group.controlWord.map((control, i) => ({
+                index: i,
+                h2: control.state === 'occupied' ? control.h2 : null,
+                isMatch: control.state === 'occupied' && control.h2 === h2
+            }));
+            
+            // Show all comparisons in the target group
+            setSearchState(prev => ({
+                ...prev,
+                comparisons: comparisons,
+                isComparing: true
+            }));
+            
+            // Wait to show the comparison
+            await new Promise(resolve => setTimeout(resolve, 1500));
+            
+            // Find all matching indices
+            const newMatchingIndices = comparisons
+                .filter(c => c.isMatch)
+                .map(c => c.index);
+            
+            // Update with matches
+            setSearchState(prev => ({
+                ...prev,
+                matchedIndices: newMatchingIndices,
+                isComparing: false
+            }));
+            
+            // Wait before checking keys
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            
+            // Check actual keys for matches in the target group
+            for (const slotIndex of newMatchingIndices) {
+                if (group.slots[slotIndex].key === searchKey) {
+                    setSearchState(prev => ({
+                        ...prev,
+                        isSearching: false,
+                        found: true,
+                        result: {
+                            groupIndex,
+                            slotIndex,
+                            value: group.slots[slotIndex].value
+                        }
+                    }));
+                    return;
                 }
-                
-                // If we get here, no match in this group
-                setSearchState(prev => ({
-                    ...prev,
-                    matchedIndices: []
-                }));
-                
-                // Small delay between groups
-                await new Promise(resolve => setTimeout(resolve, 500));
             }
             
-            // Key not found
+            // Key not found in the target group
             setSearchState(prev => ({
                 ...prev,
                 isSearching: false,
@@ -243,7 +235,12 @@ const SwissTableSimulator = () => {
         }
     }, [searchKey, groups]);
 
-    const getStateColor = (state: string, index: number) => {
+    const getStateColor = (state: string, index: number, groupIndex: number) => {
+        // Only highlight if this is the target group
+        if (searchState.targetGroup !== -1 && searchState.targetGroup !== groupIndex) {
+            return state === 'occupied' ? 'bg-green-100 border-green-300' : 'bg-gray-200 border-gray-300';
+        }
+
         const isMatched = searchState.matchedIndices.includes(index);
         const isFound = searchState.found && searchState.result?.slotIndex === index;
         const isComparing = searchState.isComparing && searchState.comparisons?.[index] !== undefined;
@@ -337,95 +334,111 @@ const SwissTableSimulator = () => {
                             Found! Value: <strong>{searchState.result.value}</strong>
                         </div>
                     )}
-                    {searchState.isSearching && !searchState.found && searchState.matchedIndices.length > 0 && (
+                    {!searchState.isSearching && !searchState.found && searchState.matchedIndices.length > 0 && (
                         <div className="mt-3 p-3 bg-blue-50 text-blue-800 rounded border border-blue-200">
                             Found {searchState.matchedIndices.length} potential matches by hash...
                         </div>
                     )}
-                    {!searchState.found && searchState.result === null && searchState.matchedIndices.length === 0 && searchState.isSearching && (
+                    {!searchState.found && searchState.result === null && searchState.matchedIndices.length === 0 && !searchState.isSearching && (
                         <div className="mt-3 p-3 bg-red-50 text-red-800 rounded border border-red-200">
                             No matches found
                         </div>
                     )}
+                    {!searchState.found && searchState.result === null && searchState.matchedIndices.length === 0 && searchState.isSearching && (
+                        <div className="mt-3 p-3 bg-blue-50 text-blue-800 rounded border border-blue-200">
+                            Searching key
+                        </div>
+                    )}
                 </div>
 
-                {groups.map((group, groupIndex) => (
-                    <div key={group.id} className="border-2 border-gray-300 rounded-lg p-6">
-                        <h3 className="text-xl font-semibold mb-4 text-gray-800">
-                            Group {group.id}
-                        </h3>
+                {groups.map((group, groupIndex) => {
+                    const isTargetGroup = searchState.targetGroup === groupIndex || searchState.targetGroup === -1;
+                    return (
+                        <div 
+                            key={group.id} 
+                            className={`border-2 rounded-lg p-6 transition-all duration-300 ${
+                                isTargetGroup ? 'border-blue-400 bg-blue-50' : 'border-gray-300 opacity-70'
+                            }`}
+                        >
+                            <h3 className="text-xl font-semibold mb-4 text-gray-800">
+                                Group {group.id}
+                                {isTargetGroup && searchState.isSearching && (
+                                    <span className="ml-2 text-sm text-blue-600">(Searching here)</span>
+                                )}
+                            </h3>
 
-                        {/* Control Word */}
-                        <div className="mb-6">
-                            <h3 className="text-lg font-medium mb-3 text-gray-700">Control Word (64 bits)</h3>
-                            <div className="grid grid-cols-8 gap-2">
-                                {group.controlWord.map((control, idx) => {
-                                    const isComparing = searchState.isComparing && searchState.comparisons?.[idx] !== undefined;
-                                    const comparison = isComparing ? searchState.comparisons[idx] : null;
-                                    const isMatch = comparison?.isMatch;
-                                    const showComparison = isComparing && searchState.targetH2 !== null;
-                                    
-                                    return (
-                                        <div key={idx} className="text-center">
-                                            <div className="text-xs text-gray-500 mb-1">Byte {idx}</div>
-                                            <div 
-                                                className={`p-3 rounded border-2 transition-all duration-300 ${getStateColor(control.state, idx)}`}
-                                            >
-                                                <div className="font-bold text-sm">{getStateText(control.state)}</div>
-                                                <div className="text-xs mt-1">
-                                                    {control.state === 'occupied' ? `H2:${control.h2}` : '---'}
-                                                </div>
-                                                {showComparison && (
-                                                    <div className="mt-1 text-[10px] font-mono bg-gray-100 p-1 rounded">
-                                                        {searchState.targetH2} == {comparison?.h2 ?? 'null'}
-                                                        {isMatch !== undefined && (
-                                                            <div className={`font-bold ${isMatch ? 'text-green-600' : 'text-red-600'}`}>
-                                                                {isMatch ? '✓ Match' : '✗ No match'}
-                                                            </div>
-                                                        )}
-                                                    </div>
-                                                )}
-                                            </div>
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        </div>
-
-                        {/* Slots */}
-                        <div>
-                            <h3 className="text-lg font-medium mb-3 text-gray-700">Data Slots</h3>
-                            <div className="grid grid-cols-4 gap-4">
-                                {group.slots.map((slot, idx) => (
-                                    <div key={idx} className={`p-4 rounded-lg border-2 transition-colors ${slot.key ? 'bg-green-50 border-green-200' : 'bg-gray-50 border-gray-200'
-                                        }`}>
-                                        <div className="text-sm font-medium text-gray-600 mb-2">Slot {idx}</div>
-                                        {slot.key ? (
-                                            <div className="space-y-2">
-                                                <div className="font-semibold text-green-800">
-                                                    {slot.key}: {slot.value}
-                                                </div>
-                                                <div className="text-xs text-gray-600 space-y-1">
-                                                    <div>Hash: ...{slot.hash.slice(-8)}</div>
-                                                    <div>H1: ...{slot.h1.slice(-4)}</div>
-                                                    <div>H2: {slot.h2}</div>
-                                                </div>
-                                                <button
-                                                    onClick={() => deleteKey(groupIndex, idx)}
-                                                    className="text-xs px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                            {/* Control Word */}
+                            <div className="mb-6">
+                                <h3 className="text-lg font-medium mb-3 text-gray-700">Control Word (64 bits)</h3>
+                                <div className="grid grid-cols-8 gap-2">
+                                    {group.controlWord.map((control, idx) => {
+                                        const isComparing = searchState.isComparing && searchState.comparisons?.[idx] !== undefined;
+                                        const comparison = isComparing ? searchState.comparisons[idx] : null;
+                                        const isMatch = comparison?.isMatch;
+                                        const showComparison = isComparing && searchState.targetH2 !== null;
+                                        
+                                        return (
+                                            <div key={idx} className="text-center">
+                                                <div className="text-xs text-gray-500 mb-1">Byte {idx}</div>
+                                                <div 
+                                                    className={`p-3 rounded border-2 transition-all duration-300 ${getStateColor(control.state, idx, groupIndex)}`}
                                                 >
-                                                    Delete
-                                                </button>
+                                                    <div className="font-bold text-sm">{getStateText(control.state)}</div>
+                                                    <div className="text-xs mt-1">
+                                                        {control.state === 'occupied' ? `H2:${control.h2}` : '---'}
+                                                    </div>
+                                                    {showComparison && isTargetGroup && searchState.isSearching && (
+                                                        <div className="mt-1 text-[10px] font-mono bg-gray-100 p-1 rounded">
+                                                            {searchState.targetH2} == {comparison?.h2 ?? 'null'}
+                                                            {isMatch !== undefined && (
+                                                                <div className={`font-bold ${isMatch ? 'text-green-600' : 'text-red-600'}`}>
+                                                                    {isMatch ? '✓ Match' : '✗ No match'}
+                                                                </div>
+                                                            )}
+                                                        </div>
+                                                    )}
+                                                </div>
                                             </div>
-                                        ) : (
-                                            <div className="text-gray-400 text-sm">Empty</div>
-                                        )}
-                                    </div>
-                                ))}
+                                        );
+                                    })}
+                                </div>
+                            </div>
+
+                            {/* Slots */}
+                            <div>
+                                <h3 className="text-lg font-medium mb-3 text-gray-700">Data Slots</h3>
+                                <div className="grid grid-cols-4 gap-4">
+                                    {group.slots.map((slot, idx) => (
+                                        <div key={idx} className={`p-4 rounded-lg border-2 transition-colors ${slot.key ? 'bg-green-50 border-green-200' : 'bg-gray-50 border-gray-200'
+                                            }`}>
+                                            <div className="text-sm font-medium text-gray-600 mb-2">Slot {idx}</div>
+                                            {slot.key ? (
+                                                <div className="space-y-2">
+                                                    <div className="font-semibold text-green-800">
+                                                        {slot.key}: {slot.value}
+                                                    </div>
+                                                    <div className="text-xs text-gray-600 space-y-1">
+                                                        <div>Hash: ...{slot.hash.slice(-8)}</div>
+                                                        <div>H1: ...{slot.h1.slice(-4)}</div>
+                                                        <div>H2: {slot.h2}</div>
+                                                    </div>
+                                                    <button
+                                                        onClick={() => deleteKey(groupIndex, idx)}
+                                                        className="text-xs px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                                                    >
+                                                        Delete
+                                                    </button>
+                                                </div>
+                                            ) : (
+                                                <div className="text-gray-400 text-sm">Empty</div>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
 
             <div className="mt-8 p-4 bg-gray-50 rounded-lg">
