@@ -46,24 +46,24 @@ const SwissTableSimulator = () => {
 
     const insert = useCallback(() => {
         if (!inputKey || !inputValue) return;
-    
+
         const fullHash = hashString(inputKey);
         const hashBinary = fullHash.toString(2).padStart(64, '0');
         const h1 = parseInt(hashBinary.slice(0, 57), 2);
         const h2 = parseInt(hashBinary.slice(57), 2);
         const groupIndex = h1 % 2;
-    
+
         setGroups(prevGroups => {
             const newGroups = [...prevGroups];
             const targetGroup = { ...newGroups[groupIndex] };
-    
+
             // First, check if key already exists
             const existingKeyIndex = targetGroup.slots.findIndex(
-                (slot, idx) => 
-                    targetGroup.controlWord[idx].state === 'occupied' && 
+                (slot, idx) =>
+                    targetGroup.controlWord[idx].state === 'occupied' &&
                     slot.key === inputKey
             );
-    
+
             if (existingKeyIndex !== -1) {
                 // Key exists, update its value
                 targetGroup.slots = [...targetGroup.slots];
@@ -74,26 +74,26 @@ const SwissTableSimulator = () => {
                 newGroups[groupIndex] = targetGroup;
                 return newGroups;
             }
-    
+
             // If key doesn't exist, find first empty or deleted slot
             let slotIndex = -1;
             for (let i = 0; i < 8; i++) {
-                if (targetGroup.controlWord[i].state === 'empty' || 
+                if (targetGroup.controlWord[i].state === 'empty' ||
                     targetGroup.controlWord[i].state === 'deleted') {
                     slotIndex = i;
                     break;
                 }
             }
-    
+
             if (slotIndex === -1) {
                 alert('Group is full!');
                 return prevGroups;
             }
-    
+
             // Insert new key-value pair
             targetGroup.controlWord = [...targetGroup.controlWord];
             targetGroup.controlWord[slotIndex] = { state: 'occupied', h2 };
-    
+
             targetGroup.slots = [...targetGroup.slots];
             targetGroup.slots[slotIndex] = {
                 key: inputKey,
@@ -102,11 +102,11 @@ const SwissTableSimulator = () => {
                 h1: h1.toString(),
                 h2: h2.toString()
             };
-    
+
             newGroups[groupIndex] = targetGroup;
             return newGroups;
         });
-    
+
         setInputKey('');
         setInputValue('');
     }, [inputKey, inputValue]);
@@ -129,7 +129,7 @@ const SwissTableSimulator = () => {
 
     const searchKeyInTable = useCallback(async () => {
         if (!searchKey) return;
-        
+
         // Reset search state
         setSearchState({
             isSearching: true,
@@ -150,7 +150,7 @@ const SwissTableSimulator = () => {
             const h2 = parseInt(fullHash.toString(2).padStart(64, '0').slice(57), 2);
             const h1 = parseInt(fullHash.toString(2).padStart(64, '0').slice(0, 57), 2);
             const groupIndex = h1 % groups.length; // Determine target group
-            
+
             // Show the target H2 and group we're looking in
             setSearchState(prev => ({
                 ...prev,
@@ -158,45 +158,45 @@ const SwissTableSimulator = () => {
                 targetGroup: groupIndex,
                 isComparing: true
             }));
-            
+
             // Small delay to show the target H2 and group
             await new Promise(resolve => setTimeout(resolve, 1000));
-            
+
             const group = groups[groupIndex];
             const matchingIndices = [];
-            
+
             // Compare h2 values in control word (all at once)
             const comparisons = group.controlWord.map((control, i) => ({
                 index: i,
                 h2: control.state === 'occupied' ? control.h2 : null,
                 isMatch: control.state === 'occupied' && control.h2 === h2
             }));
-            
+
             // Show all comparisons in the target group
             setSearchState(prev => ({
                 ...prev,
                 comparisons: comparisons,
                 isComparing: true
             }));
-            
+
             // Wait to show the comparison
             await new Promise(resolve => setTimeout(resolve, 1500));
-            
+
             // Find all matching indices
             const newMatchingIndices = comparisons
                 .filter(c => c.isMatch)
                 .map(c => c.index);
-            
+
             // Update with matches
             setSearchState(prev => ({
                 ...prev,
                 matchedIndices: newMatchingIndices,
                 isComparing: false
             }));
-            
+
             // Wait before checking keys
             await new Promise(resolve => setTimeout(resolve, 1000));
-            
+
             // Check actual keys for matches in the target group
             for (const slotIndex of newMatchingIndices) {
                 if (group.slots[slotIndex].key === searchKey) {
@@ -213,7 +213,7 @@ const SwissTableSimulator = () => {
                     return;
                 }
             }
-            
+
             // Key not found in the target group
             setSearchState(prev => ({
                 ...prev,
@@ -222,7 +222,7 @@ const SwissTableSimulator = () => {
                 result: null,
                 isComparing: false
             }));
-            
+
         } catch (error) {
             console.error('Search error:', error);
             setSearchState(prev => ({
@@ -245,11 +245,11 @@ const SwissTableSimulator = () => {
         const isFound = searchState.found && searchState.result?.slotIndex === index;
         const isComparing = searchState.isComparing && searchState.comparisons?.[index] !== undefined;
         const comparison = isComparing ? searchState.comparisons[index] : null;
-        
+
         if (isFound) return 'bg-green-300 border-green-500';
         if (isMatched) return 'bg-blue-200 border-blue-400';
         if (isComparing) return comparison?.isMatch ? 'bg-blue-100 border-blue-300' : 'bg-yellow-100 border-yellow-300';
-        
+
         switch (state) {
             case 'empty': return 'bg-gray-200 border-gray-300';
             case 'occupied': return 'bg-green-100 border-green-300';
@@ -278,14 +278,16 @@ const SwissTableSimulator = () => {
                 <div className="bg-blue-50 p-4 rounded-lg mb-6">
                     <h3 className="font-semibold text-blue-800 mb-2">How it works:</h3>
                     <ul className="text-sm text-blue-700 space-y-1">
-                        <li>• Hash is split: first 57 bits (H1) select the group, last 7 bits (H2) stored in control word</li>
+                        <li>• Hash is split: first 57 bits (H1) select the group (modulus), last 7 bits (H2) stored in control word</li>
                         <li>• Each group has 8 slots and a 64-bit control word (8 bytes)</li>
                         <li>• Control byte format: 1 bit for state (Empty/Occupied/Deleted) + 7 bits for H2</li>
                         <li>• Linear probing within the group for collision resolution</li>
+                        <li>• Comparison takes places performing parallel operations on independent values within a larger value (SIMD hardware)</li>
                     </ul>
                 </div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Insert value</h3>
+                <div className="flex flex-wrap gap-4 mb-6">
 
-                <div className="flex gap-4 mb-6">
                     <input
                         type="text"
                         placeholder="Key"
@@ -311,15 +313,15 @@ const SwissTableSimulator = () => {
 
             <div className="space-y-8">
                 {/* Search Section */}
-                <div className="bg-yellow-50 p-4 rounded-lg mb-6 border border-yellow-200">
+                <div className="bg-yellow-50 p-4 rounded-lg mb-6">
                     <h3 className="text-lg font-semibold mb-2 text-yellow-800">Search Key</h3>
-                    <div className="flex gap-4">
+                    <div className="flex flex-wrap gap-4">
                         <input
                             type="text"
                             placeholder="Enter key to search"
                             value={searchKey}
                             onChange={(e) => setSearchKey(e.target.value)}
-                            className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                            className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 bg-white"
                         />
                         <button
                             onClick={searchKeyInTable}
@@ -354,11 +356,10 @@ const SwissTableSimulator = () => {
                 {groups.map((group, groupIndex) => {
                     const isTargetGroup = searchState.targetGroup === groupIndex || searchState.targetGroup === -1;
                     return (
-                        <div 
-                            key={group.id} 
-                            className={`border-2 rounded-lg p-6 transition-all duration-300 ${
-                                isTargetGroup ? 'border-blue-400 bg-blue-50' : 'border-gray-300 opacity-70'
-                            }`}
+                        <div
+                            key={group.id}
+                            className={`border-2 rounded-lg p-6 transition-all duration-300 ${isTargetGroup ? 'border-blue-400 bg-blue-50' : 'border-gray-300 opacity-70'
+                                }`}
                         >
                             <h3 className="text-xl font-semibold mb-4 text-gray-800">
                                 Group {group.id}
@@ -370,17 +371,17 @@ const SwissTableSimulator = () => {
                             {/* Control Word */}
                             <div className="mb-6">
                                 <h3 className="text-lg font-medium mb-3 text-gray-700">Control Word (64 bits)</h3>
-                                <div className="grid grid-cols-8 gap-2">
+                                <div className="grid grid-cols-4 sm:grid-cols-8 gap-2">
                                     {group.controlWord.map((control, idx) => {
                                         const isComparing = searchState.isComparing && searchState.comparisons?.[idx] !== undefined;
                                         const comparison = isComparing ? searchState.comparisons[idx] : null;
                                         const isMatch = comparison?.isMatch;
                                         const showComparison = isComparing && searchState.targetH2 !== null;
-                                        
+
                                         return (
                                             <div key={idx} className="text-center">
                                                 <div className="text-xs text-gray-500 mb-1">Byte {idx}</div>
-                                                <div 
+                                                <div
                                                     className={`p-3 rounded border-2 transition-all duration-300 ${getStateColor(control.state, idx, groupIndex)}`}
                                                 >
                                                     <div className="font-bold text-sm">{getStateText(control.state)}</div>

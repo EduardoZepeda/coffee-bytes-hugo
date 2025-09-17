@@ -101,8 +101,8 @@ function BloomFilterSimulator() {
 		setCurrentWord('');
 	};
 
-	const BitCell = ({ value }: { value: number, index: number }) => (
-		<div className="w-12 h-12 border-2 border-gray-400 flex items-center justify-center bg-white text-lg font-bold">
+	const BitCell = ({ value, highlight }: { value: number, index: number, highlight: boolean }) => (
+		<div className={`w-12 h-12 border-2 border-gray-400 flex items-center justify-center text-lg font-bold ${highlight ? "bg-indigo-100" : "bg-white"}`}>
 			<span className={value === 1 ? 'text-blue-600' : 'text-gray-400'}>
 				{value}
 			</span>
@@ -186,7 +186,7 @@ function BloomFilterSimulator() {
 							</div>
 							<div className="flex space-x-1 justify-center">
 								{bits1.map((bit, index) => (
-									<BitCell key={`word1-${index}`} value={bit} index={index} />
+									<BitCell key={`word1-${index}`} value={bit} index={index} highlight={bit === 1 && bits2[index] === bit} />
 								))}
 							</div>
 						</div>
@@ -198,7 +198,7 @@ function BloomFilterSimulator() {
 							</div>
 							<div className="flex space-x-1 justify-center">
 								{bits2.map((bit, index) => (
-									<BitCell key={`word2-${index}`} value={bit} index={index} />
+									<BitCell key={`word2-${index}`} value={bit} index={index} highlight={bit === 1 && bits1[index] === bit} />
 								))}
 							</div>
 						</div>
