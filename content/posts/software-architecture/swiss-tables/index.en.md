@@ -1,12 +1,12 @@
 ---
 date: '2025-09-16T12:25:59-06:00'
 draft: true
-title: 'Swiss Tables internals and a visual simulator'
+title: 'Swiss Tables the superior performance hashmap'
 categories:
 - software architecture
 - databases
 coverImage: "images/swiss-tables-programming.jpg"
-description: ''
+description: 'I explain you deeply how Swiss tables work internally, why are they so fast compared to buckets, SIMD, hashes, metadata and even a visual interactive simulator'
 keyword: 'swiss tables'
 keywords:
 - ''
@@ -27,7 +27,9 @@ hashmap["key"] = value
 
 Every worth-learning language has its own implementation, you know, the way it works under the hood, and most devs just don't give a damn about it, which is fine, I support high level abstractions.
 
-The thing here is that, recently, Go decided to change its default hashmap implementation from Buckets to Swiss tables looking for better performance, ~~trying to mimick Rust's performance~~. Which already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
+The thing here is that, recently,[ Go decided to change its default hashmap implementation from Buckets to Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="en" >}}) looking for better performance, ~~trying to mimick Rust's performance~~. Which already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
+
+By the way it was Google who created Swiss tables (well one of its engineers), and also [protobuffers and GRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), they're always improving the performance of what already exists.
 
 ## So, What's the Big Idea behind Swiss Tables? It's All About Metadata.
 
@@ -35,6 +37,7 @@ Traditional open-addressing hash maps store your key-value pairs in a big array.
 
 | Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 | Slot 6 | slot 7 | slot 8 | slot 9 | slot n |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| →      | →      | →      | →      | ↓      |        |        |        |        |        |
 | 1      | 1      | 1      | 1      | Free   |        |        |        |        |        |
 
 So... what's wrong with this? Well, nothing really, just that in certain scenarios it can become messy. To find an element, or to confirm it's *not* there, you might have to traverse half the array. That's slow.
@@ -53,7 +56,7 @@ This byte isn't just a tombstone or an empty flag; it's a packed suite of useful
 | Full                | 0           | 0x3A  |       |       |       |       |       |       |
 | Deleted             | 1           | 1     | 1     | 1     | 1     | 1     | 1     | 0     |
 
-This is a game changer. Why? Because to check if a slot might contain our key, we don't need to touch the main data array at all. We can first check the metadata. This is a huge win for performance.
+This is a game changer. Why? Because to check if a slot might contain our key, you don't need to touch the main data array at all. You can first check the metadata. This is a huge win for performance.
 
 ## A Step-by-Step Walk Through the Swiss table data structure
 
@@ -65,9 +68,9 @@ When you look up a key the overall goes this way:
 1.  The key is hashed.
 2.  The group or bucket is decided using h1.
 3.  The target slot or block is located using h2.
-4.  If the slot contains our key already we just update it
-5.  If no slot contains our key, we look for an empty slot.
-6.  If all slots are taken we jump to the next group
+4.  If the slot contains our key already you just update it
+5.  If no slot contains our key, you look for an empty slot.
+6.  If all slots are taken you jump to the next group
 
 #### Hash the key
 
@@ -120,7 +123,7 @@ It does this for all 16 slots AT ONCE. And this is where the magic happens, I'll
 
 **A matching 7-bit fingerprint doesn't mean the keys are equal**; it just means they might be equal. It's a pre-filter. It's designed to be fast, not perfect. The full 57-bit hash (h1) (and eventually the actual key comparison) is the final arbiter.
 
-If there are any matches (say, slots 2 and 9 had the same 7-bit (h2) fingerprint and are occupied, a collision occurred), the map finally goes to the main data array. But it's not guessing anymore. It goes directly to slots 2 and 9 and performs a full key comparison: stored_key == "apple"? This is the only expensive operation, and we've minimized it to just one or two checks, lukcily we won't have more than two collisions.
+If there are any matches (say, slots 2 and 9 had the same 7-bit (h2) fingerprint and are occupied, a collision occurred), the map finally goes to the main data array. But it's not guessing anymore. It goes directly to slots 2 and 9 and performs a full key comparison: stored_key == "apple"? This is the only expensive operation, and you've minimized it to just one or two checks, lukcily you won't have more than two collisions.
 
 #### Retrieve the key's value
 
@@ -130,9 +133,11 @@ Finally, if a full key matches, it returns the value. If not, or if the SIMD ste
 
 Here's where the real genius kicks in. Modern CPUs don't need to check things one byte at a time. They are surprisingly good doing operations in parallel. Swiss Tables are designed to exploit this by grouping slots into blocks (typically of 16).
 
-In just one ~~blazingly fast~~ operation, the CPU creates a bitmask. A *1* means “the hash snippet matches,” a *0* means it doesn't. Only *then*, for the slots that might be a match, does the code actually dereference the pointer to the main data array to do a full key comparison.
+In just one ~~blazingly fast~~ operation, the CPU creates a bitmask. A *1* means “the hash snippet matches,” a *0* means it doesn't. Only *then*, for the slots that might be a match, does the code actually dereference the pointer to the main data array to do a full key comparison. 
 
-This is the killer feature of Swiss Tables. It minimizes expensive memory accesses and leverages the CPU's parallel processing capabilities. It makes lookups, especially for missing keys, super fast. You're not traversing a chain or a long probe sequence.
+This is the killer feature of Swiss Tables. It minimizes expensive memory accesses and leverages the CPU's parallel processing capabilities. 
+
+It makes lookups, especially for missing keys, super fast. You're not traversing a chain or a long probe sequence. Which, as you may know, impacts [Big O performance]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="en" >}})
 
 ## Why Should You Care? The Swiss tables Advantages
 
@@ -140,11 +145,13 @@ This architecture isn't just a neat bloring and hypothetical academic exercise. 
 
 **1. Blazing Fast Lookups:** The combination of the metadata filter and SIMD makes *find()* and *contains()* operations significantly faster than in most traditional maps. It's not a small margin; we're talking multiples in many benchmarks.
 
-**2. Super Efficient Memory Use:** Swiss Tables are typically implemented as "flat" structures. This means they store keys and values directly in the array, not as separate allocated nodes. This greatly improves cache locality—the data you need is probably already in the CPU's fast cache(You should know the drill: L1, L2, L3 caches)—and it avoids the memory overhead of pointers used in chained implementations.
+**2. Super Efficient Memory Use:** Swiss Tables are typically implemented as "flat" structures. This means they store keys and values directly in the array, not as separate allocated nodes. This greatly improves cache locality—the data you need is probably already in the CPU's fast cache(You should know the drill: L1, L2, L3 caches)—and it avoids the memory overhead of pointers used in chained implementations. This makes them superior to other hashmaps implementations in terms of memory usage.
 
 **3. Smarter Resizing:** The metadata array makes the internal control logic much smarter. The map can make better decisions about when to rehash and how to distribute elements, keeping performance more consistent as the load factor increases.
 
 ## Ok but, what about Swiss tables disadvantages
 
-However, it's not all sunshine and rainbows, of course, everyhing in tech is trade-off. The separate metadata array does consume extra memory (about 1/16th to 1/8th of the main array), which is usually a great trade-off because memory is one of the cheapest resources. And the implementation is complex—thankfully, but that doesn't involve you, because you're going to use it the same way you have always used it.
+However, it's not all sunshine and rainbows, of course, everyhing in tech is trade-off. The separate metadata array does consume extra memory (about 1/16th to 1/8th of the main array), which is usually a great trade-off because memory is one of the cheapest resources. 
+
+Also the implementation is complex—thankfully, but that doesn't involve you, because you're going to use it the same way you have always used it.
 
