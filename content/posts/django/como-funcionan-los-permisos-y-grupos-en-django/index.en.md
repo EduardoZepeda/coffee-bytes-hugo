@@ -6,7 +6,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - django
-coverImage: images/permissions-en-django.jpg
+coverImage: images/Permisos-en-django.jpg
 coverImageCredits: https://www.pexels.com/es-es/@orlovamaria/
 date: '2021-04-17'
 description: Learn how to create permissions, groups, assign them to users, and create
