@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'preact/compat';
+import { useState, useEffect, useRef, useCallback } from 'preact/compat';
 import css from './style.css?inline';
 import { render } from 'preact';
 
@@ -18,6 +18,7 @@ const WorkerPoolVisualization = () => {
 
     const intervalRef = useRef<number>(0);
     const taskIdRef = useRef(0);
+    const isProcessingRef = useRef(false);
 
     // Initialize workers
     useEffect(() => {
@@ -42,8 +43,7 @@ const WorkerPoolVisualization = () => {
                 setTaskQueue(prev => [...prev, newTask]);
                 setStats(prev => ({
                     ...prev,
-                    totalTasks: prev.totalTasks + 1,
-                    queueSize: prev.queueSize + 1
+                    totalTasks: prev.totalTasks + 1
                 }));
             }, taskInterval);
         }
@@ -51,81 +51,89 @@ const WorkerPoolVisualization = () => {
         return () => clearInterval(intervalRef.current);
     }, [isRunning, taskInterval]);
 
-    // Process tasks
+    // Process tasks (batched and guarded to avoid re-entrancy)
     useEffect(() => {
-        const processNextTask = () => {
-            setTaskQueue(currentQueue => {
-                const newQueue = [...currentQueue];
-                const idleWorkers = workers.filter(w => w.status === 'idle');
-                const tasksToProcess = Math.min(idleWorkers.length, newQueue.length);
+        if (isProcessingRef.current) return;
+        if (taskQueue.length === 0) return;
 
-                if (tasksToProcess === 0) return newQueue;
+        isProcessingRef.current = true;
 
-                // Take tasks from the queue
-                const tasksToAssign = newQueue.splice(0, tasksToProcess);
+        // We take a snapshot of the current queue length to compute assignments
+        setWorkers(currentWorkers => {
+            const idleWorkers = currentWorkers.filter(w => w.status === 'idle');
+            const tasksToProcess = Math.min(idleWorkers.length, taskQueue.length);
 
-                // Update workers with their new tasks
-                setWorkers(currentWorkers => {
-                    return currentWorkers.map(worker => {
-                        const workerIndex = idleWorkers.findIndex(w => w.id === worker.id);
-                        if (workerIndex >= 0 && workerIndex < tasksToAssign.length) {
-                            const task = tasksToAssign[workerIndex];
+            if (tasksToProcess === 0) {
+                isProcessingRef.current = false;
+                return currentWorkers;
+            }
 
-                            // Process the task after a delay
-                            setTimeout(() => {
-                                const success = Math.random() > 0.1;
+            const tasksToAssign = taskQueue.slice(0, tasksToProcess);
 
-                                setWorkers(workers =>
-                                    workers.map(w =>
-                                        w.id === worker.id
-                                            ? {
-                                                ...w,
-                                                status: success ? 'idle' : 'error',
-                                                currentTask: null,
-                                                completedTasks: success ? w.completedTasks + 1 : w.completedTasks
-                                            }
-                                            : w
-                                    )
-                                );
+            // Schedule completion for each assignment once
+            idleWorkers.slice(0, tasksToProcess).forEach((idleWorker, idx) => {
+                const task = tasksToAssign[idx];
+                setTimeout(() => {
+                    const success = Math.random() > 0.1;
 
-                                setStats(prevStats => ({
-                                    ...prevStats,
-                                    completedTasks: prevStats.completedTasks + 1,
-                                    queueSize: Math.max(0, prevStats.queueSize - 1)
-                                }));
-
-                                // Reset error state after delay if needed
-                                if (!success) {
-                                    setTimeout(() => {
-                                        setWorkers(workers =>
-                                            workers.map(w =>
-                                                w.id === worker.id && w.status === 'error'
-                                                    ? { ...w, status: 'idle' }
-                                                    : w
-                                            )
-                                        );
-                                    }, 1000);
+                    setWorkers(workers =>
+                        workers.map(w =>
+                            w.id === idleWorker.id
+                                ? {
+                                    ...w,
+                                    status: success ? 'idle' : 'error',
+                                    currentTask: null,
+                                    completedTasks: success ? w.completedTasks + 1 : w.completedTasks
                                 }
-                            }, processTime);
+                                : w
+                        )
+                    );
 
-                            return {
-                                ...worker,
-                                status: 'busy',
-                                currentTask: task
-                            };
-                        }
-                        return worker;
-                    });
-                });
+                    setStats(prevStats => ({
+                        ...prevStats,
+                        completedTasks: prevStats.completedTasks + 1
+                    }));
 
-                return newQueue;
+                    if (!success) {
+                        setTimeout(() => {
+                            setWorkers(workers =>
+                                workers.map(w =>
+                                    w.id === idleWorker.id && w.status === 'error'
+                                        ? { ...w, status: 'idle' }
+                                        : w
+                                )
+                            );
+                        }, 1000);
+                    }
+                }, processTime);
             });
-        };
 
-        if (taskQueue.length > 0) {
-            processNextTask();
-        }
+            // Update queue once per batch
+            setTaskQueue(prev => prev.slice(tasksToProcess));
+
+            // Return workers with assigned tasks (single render)
+            const updated = currentWorkers.map(worker => {
+                const idx = idleWorkers.findIndex(w => w.id === worker.id);
+                if (idx >= 0 && idx < tasksToProcess) {
+                    const task = tasksToAssign[idx];
+                    return {
+                        ...worker,
+                        status: 'busy',
+                        currentTask: task
+                    };
+                }
+                return worker;
+            });
+
+            isProcessingRef.current = false;
+            return updated;
+        });
     }, [taskQueue, processTime, workers]);
+
+    // Keep stats.queueSize in sync with the actual queue length
+    useEffect(() => {
+        setStats(prev => ({ ...prev, queueSize: taskQueue.length }));
+    }, [taskQueue.length]);
 
     const toggleSimulation = () => setIsRunning(!isRunning);
 
@@ -150,8 +158,7 @@ const WorkerPoolVisualization = () => {
         setTaskQueue(prev => [...prev, newTask]);
         setStats(prev => ({
             ...prev,
-            totalTasks: prev.totalTasks + 1,
-            queueSize: prev.queueSize + 1
+            totalTasks: prev.totalTasks + 1
         }));
     };
 
@@ -405,4 +412,3 @@ export default function renderWorkerPool() {
     }
     return;
 }
-
