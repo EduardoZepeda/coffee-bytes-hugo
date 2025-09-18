@@ -7,6 +7,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - software architecture
+- go
 coverImage: images/que-es-grpc-y-protobuffers.jpg
 date: '2023-01-19'
 description: What is a Go Lang gRPC API and what are .proto files and protobuffers? What are

@@ -10,6 +10,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - software architecture
+- go
 coverImage: images/que-es-grpc-y-protobuffers.jpg
 date: '2023-01-19'
 description: ¿Que es una API gRPC y que son los archivos .proto y los protobuffers?
