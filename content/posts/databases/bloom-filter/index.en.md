@@ -5,7 +5,7 @@ categories:
 - databases
 - software architecture
 coverImage: "images/bloom-filter-visual-simulator.jpg"
-description: 'I explain what a bloom filter is and where you can use it. Also, use this data structure simulator in real time to see for yourself how it works and experience collisions'
+description: 'Use the bloom filter visual simulator and learn how it greatly accelerates the process of checking membership in a set and how false positives are produced'
 keyword: 'bloom filter'
 keywords:
 - 'database'
@@ -53,7 +53,15 @@ A Bloom filter uses:
 * A bit array (all values start at 0).
 * A set of hash functions.
 
+|     |     |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+
 When you add an item, the filter runs it through each hash function. Each function gives you an index in the array. You set the bits at those positions to 1. 
+
+|     |     |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 1   | 0   | 0   | 0   | 1   | 1   | 0   | 0   |
 
 {{<ad0>}}
 
@@ -77,6 +85,10 @@ You can always add more hash functions to diminish the collitions but then the c
 
 When you check an item, the filter does the same. If all the positions are set to 1, the item *might* be in the set (this is why it's a probabilistic data structure). If any position is 0, the item is *definitely* not in the set.
 
+|              |     |     |     |     |     |     |     |     |     |     |
+| ------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bloom Filter | 0   | 0   | 1   | 0   | 1   | 1   | 1   | 1   | 0   | 0   |
+| Word         | 0   | 0   | 1*  | 0   | 0   | 0   | 1*  | 1*  | 0   | 0   |
 
 ## Basic Bloom filter Flow
 

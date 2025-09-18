@@ -39,11 +39,30 @@ A **Trie** (pronounced like "try") is a special kind of tree that stores strings
 
 For example, storing "cat" and "car" would share the first two steps ("c" → "a"), and then branch at the "t" and "r." It's like keeping words organized not by the entire string, but by their common beginnings or prefixes. Like morphemes serving as the base for variations.
 
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->T;
+    A-->R;
+```
+
 Think of it like a family tree but instead of faces you use letters.
 
 ### How does it differ from a binary tree?
 
 At first glance, you might think, "Wait, isn't a trie tree a binary tree?" Not quite. A binary tree is built around two child nodes (left and right), usually to order numbers or balance structures. 
+
+``` mermaid
+graph TD;
+    Root-->D;
+    D-->E;
+    E-->A;
+    A-->L;
+    D-->O;
+    D-->I;
+    I-->G;
+```
 
 A Trie, on the other hand, doesn't care about numbers or ordering in the same way. You can have three, four or any number of nodes (well only from A to Z).
 
@@ -70,12 +89,40 @@ The unifying idea is that you're not searching one whole word at a time—you're
 Ok how to build one? Well this algorithm is probably in one thousands blogs already, but here it goes one more time:
 
 1. Start with a root node (an empty shell).
+``` mermaid
+graph TD;
+    Root;
+```
 2. For each word, walk through its characters one by one.
 3. If a character doesn't exist at the current node, create a child node for it.
+``` mermaid
+graph TD;
+    Root-->C;
+```
 4. Move down to that child, and repeat until the whole word is stored.
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->R;
+```
 5. Mark the final node as "end of word." (You can use an asterisk or whatever you want.)
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->R*;
+```
 
 That's it. For "car," you'd go root → "c" → "a" → "r." For "cat," you'd reuse "c" → "a" and just add a "t.". Just like in the simulator above.
+
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->R*;
+    A-->T*;
+```
 
 In code, it often boils down to a dictionary of dictionaries (or maps inside maps) with a flag to show when a word ends.
 

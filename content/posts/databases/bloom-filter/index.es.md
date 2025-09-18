@@ -25,7 +25,7 @@ Incluso si indexas esas urls, seguirás teniendo un rendimiento en [Big O]({{< r
 
 Esta es una estructura de datos interesante porque es probabilística. No te va a dar una certeza del 100%, pero el trade-off que ofrece es bastante atractivo.
 
-## Ok, pero ¿qué es un Bloom filter?
+## Ok, pero ¿qué carajos es un Bloom filter?
 
 Un Bloom filter es una estructura de datos que te ayuda a comprobar si un elemento **podría** estar en un conjunto. Da respuestas rápidas con muy poca memoria. El costo de esto es que a veces puede decir que un elemento está presente cuando en realidad no lo está.
 
@@ -56,7 +56,15 @@ Un Bloom filter utiliza:
 * Un arreglo de bits (todos empiezan en 0).
 * Un conjunto de funciones hash.
 
+|     |     |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+
 Cuando agregas un elemento, el filtro lo pasa por cada función hash. Cada función devuelve un índice en el arreglo. En esas posiciones, los bits se ponen en 1.
+
+|     |     |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 1   | 0   | 0   | 0   | 1   | 1   | 0   | 0   |
 
 ### No se pueden eliminar datos de este filtro
 
@@ -77,6 +85,12 @@ Siempre puedes añadir más funciones hash para reducir colisiones, pero eso aum
 ### Comprobando si un elemento existe
 
 Cuando revisas un elemento, el bloom filter hace lo mismo. Si todas las posiciones están en 1, el elemento *podría* estar en el conjunto (por eso es probabilístico). Si alguna posición está en 0, el elemento *definitivamente* no está en el conjunto.
+
+   
+|              |     |     |     |     |     |     |     |     |     |     |
+| ------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bloom Filter | 0   | 0   | 1   | 0   | 1   | 1   | 1   | 1   | 0   | 0   |
+| Word         | 0   | 0   | 1*  | 0   | 0   | 0   | 1*  | 1*  | 0   | 0   |
 
 {{<ad1>}}
 

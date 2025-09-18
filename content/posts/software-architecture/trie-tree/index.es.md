@@ -16,6 +16,7 @@ keywords:
 - 'binary tree'
 authors:
 - 'Eduardo Zepeda'
+slug: /software-architecture/cree-un-simulador-visual-de-un-trie-tree/
 ---
 
 El otro día estaba leyendo la segunda parte de [System Design Interview](https://amzn.to/4nsgK0V#?), ¿o era la primera? y recuerdo que el autor usaba un trie tree para diseñar un buscador con autocompletado estilo Google. Nunca había escuchado de esa estructura de datos, así que decidí crear un simulador visual para que lo entiendas más rápido y mejor.
@@ -38,6 +39,14 @@ Un **Trie** (se pronuncia en inglés igual a "try") es un tipo especial de árbo
 
 Por ejemplo, almacenar "cat" y "car" compartiría los dos primeros pasos ("c" → "a"), y luego se separan en la "t" y la "r". Es como organizar palabras no por la cadena completa, sino por sus prefijos en común. Como los morfemas, que sirven de base para variaciones de palabras.
 
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->T;
+    A-->R;
+```
+
 Piénsalo como un árbol genealógico, pero en vez de caras usas letras.
 
 ### ¿Cómo se diferencia de un árbol binario?
@@ -45,6 +54,17 @@ Piénsalo como un árbol genealógico, pero en vez de caras usas letras.
 A primera vista podrías pensar: "¿Un trie tree no es básicamente un árbol binario?" Pues no, lamento desilusionarte. Un árbol binario se organiza alrededor de dos nodos hijos (izquierdo y derecho), normalmente para ordenar números o balancear estructuras.
 
 Un Trie, en cambio, no se preocupa por números ni por ordenarlos. Puede tener tres, cuatro o tantos hijos como caracteres existan (bueno, solo de la A a la Z).
+
+``` mermaid
+graph TD;
+    Root-->D;
+    D-->E;
+    E-->A;
+    A-->L;
+    D-->O;
+    D-->I;
+    I-->G;
+```
 
 Aquí algunas diferencias sutiles:
 
@@ -69,12 +89,40 @@ La idea central es que no buscas toda la palabra de un solo jalón—buscas por 
 Ok, ¿cómo construir uno? Bueno, este algoritmo seguro está en mil blogs ya, pero aquí va una vez más:
 
 1. Empieza con un nodo raíz (una celda vacia).
+``` mermaid
+graph TD;
+    Root;
+```
 2. Para cada palabra, recorre sus caracteres uno por uno.
 3. Si un carácter no existe en el nodo actual, crea un nodo hijo para él.
+``` mermaid
+graph TD;
+    Root-->C;
+```
 4. Baja a ese hijo y repite hasta guardar la palabra completa.
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->R;
+```
 5. Marca el nodo final como "fin de palabra" (puedes usar un asterisco o lo que quieras).
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->R*;
+```
 
 Eso es todo. Para "car," harías raíz → "c" → "a" → "r." Para "cat," reutilizas "c" → "a" y solo agregas una "t." Justo como en el simulador de arriba.
+
+``` mermaid
+graph TD;
+    Root-->C;
+    C-->A;
+    A-->R*;
+    A-->T*;
+```
 
 En código, normalmente se reduce a un diccionario de diccionarios (o mapas dentro de mapas) con una bandera que indica cuándo termina una palabra.
 
