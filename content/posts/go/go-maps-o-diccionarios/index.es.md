@@ -19,7 +19,7 @@ title: 'Go: maps o diccionarios'
 
 En el lenguaje de programación go, un map o hash table es el equivalente de un diccionario; poseen una llave o key que se relaciona con un valor o value. La llave y el valor pueden ser de diferentes tipos de datos, pero todas las llaves deben ser de un solo tipo y todos los valores deben ser del mismo tipo.
 
-Junto con el [array y el slice de go](/es/go/go-slices-y-arrays/), un map es una estructura que nos sirve como una colección de valores.
+Junto con el [array y el slice de go]({{< ref path="/posts/go/go-arrays-y-slices/index.md" lang="es" >}}), un map es una estructura que nos sirve como una colección de valores.
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
@@ -27,13 +27,11 @@ Junto con el [array y el slice de go](/es/go/go-slices-y-arrays/), un map es una
 
 ### Implementación actual de Go: Swiss-tables
 
-Go 1.24 reemplazó su implementación de maps, ahora utiliza Swiss-tables, que actualmente son usadas en Rust. Swiss-tables proporciona un incremento en la velocidad en comparación con su implementación anterior, y también mejora:
+Go 1.24 reemplazó su implementación de maps, ahora utiliza [Swiss-tables]({{< ref path="/posts/software-architecture/swiss-tables/index.md" lang="en" >}}), que actualmente son usadas en Rust. Swiss-tables proporciona un incremento en la velocidad en comparación con su implementación anterior, y también mejora:
 
 - Búsquedas lentas debido a buckets desbordados cuando se añadían entradas extra.
 - Mayor uso de memoria debido a buckets desbordados que requieren espacio extra.
 - Sobrecarga debida al rehashing al redimensionar los maps.
-
-{{<swissTables>}}
 
 Si los hashmaps de go no te dan el rendimiento que necesitas, quizás puedas considerar usar un [Bloom Filter]({{< ref path="/posts/databases/bloom-filter/index.md" lang="es" >}})
 

@@ -1,6 +1,5 @@
 ---
-date: '2025-09-16T12:25:59-06:00'
-draft: true
+date: '2025-09-21'
 title: 'Swiss Tables the superior performance hashmap'
 categories:
 - software architecture
@@ -25,6 +24,8 @@ hashmap.set("key", value)
 hashmap["key"] = value
 ```
 
+{{<ad1>}}
+
 Every worth-learning language has its own implementation, you know, the way it works under the hood, and most devs just don't give a damn about it, which is fine, I support high level abstractions.
 
 The thing here is that, recently,[ Go decided to change its default hashmap implementation from Buckets to Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="en" >}}) looking for better performance, ~~trying to mimick Rust's performance~~. Which already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
@@ -48,6 +49,8 @@ So... what's wrong with this? Well, nothing really, just that in certain scenari
 
 Swiss Tables attack this cumbersome problem with a brilliant idea: a separate metadata array. For every slot in the main data array, there's a corresponding byte in the metadata array. 
 
+{{<ad1>}}
+
 This byte isn't just a tombstone or an empty flag; it's a packed suite of useful information. The most crucial part is the **7 bits from the hash of the key** stored in that slot.
 
 | Meaning Control bit | Control bit | Bit 1 | Bit 2 | Bit 3 | Bit 4 | Bit 5 | Bit 6 | Bit 7 |
@@ -57,6 +60,8 @@ This byte isn't just a tombstone or an empty flag; it's a packed suite of useful
 | Deleted             | 1           | 1     | 1     | 1     | 1     | 1     | 1     | 0     |
 
 This is a game changer. Why? Because to check if a slot might contain our key, you don't need to touch the main data array at all. You can first check the metadata. This is a huge win for performance.
+
+{{<swissTables>}}
 
 ## A Step-by-Step Walk Through the Swiss table data structure
 
@@ -94,6 +99,8 @@ The first 57 bits (0x5A3F9C42B1D08E...): This part of the hash determines which 
 
 The last 7 low bits (0x3A): This is the "probe index." It tells the map which of the 8 or 16-slots (or "blocks") to start looking in. 
 
+{{<ad2>}}
+
 ### Retrieving the value of a key
 
 When you look up a key the overall goes this way:
@@ -118,6 +125,8 @@ Is the slot occupied? (A special bit in the metadata byte indicates this).
 Does the 7-bit (h2) fingerprint in the metadata match our fingerprint (0x3A)?
 
 It does this for all 16 slots AT ONCE. And this is where the magic happens, I'll elaborate in a moment. The result is a bitmask of potential candidates.
+
+{{<ad3>}}
 
 #### Handle collisions if they exist
 

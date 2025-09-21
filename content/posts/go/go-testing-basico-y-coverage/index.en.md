@@ -119,7 +119,7 @@ tables := []struct {
 
 I'm sure you've noticed that we're not covering division by zero, but leave it at that for now.
 
-Now that we have our array of structs, we will iterate over each of its elements using [go's range function](/en/go/go-slices-and-arrays-basic-characteristics-and-most-common-uses/). This way we will cover each case.
+Now that we have our array of structs, we will iterate over each of its elements using [go's range function]({{< ref path="/posts/go/go-arrays-y-slices/index.md" lang="en" >}}). This way we will cover each case.
 
 ```go
 for _, table := range tables {

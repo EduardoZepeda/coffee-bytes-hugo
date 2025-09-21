@@ -1,6 +1,5 @@
 ---
-date: '2025-09-16T12:25:59-06:00'
-draft: true
+date: '2025-09-21'
 title: 'Swiss Tables el hashmap con rendimiento superior'
 categories:
 - software architecture
@@ -26,6 +25,8 @@ hashmap.set("key", value)
 hashmap["key"] = value
 ```
 
+{{<ad0>}}
+
 Cada lenguaje que vale la pena aprender tiene su propia implementación, ya sabes, la forma en que funciona "bajo el cofre". Y la mayoría de los devs ni se preocupa por eso, lo cual está bien, yo apoyo las abstracciones de alto nivel.
 
 El punto es que, recientemente, [Go decidió cambiar su implementación por defecto de hashmap de Buckets a Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="es" >}}) buscando un mejor rendimiento ~~tratando de imitar el performance de Rust~~. Y esto ya [ha rendido frutos para algunas empresas ahorrándoles cientos de gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
@@ -49,6 +50,8 @@ Los hash maps tradicionales con **open-addressing** guardan tus pares llave-valo
 
 Las Swiss Tables atacan este problema engorroso con una idea brillante: un arreglo separado de **metadata**. Por cada espacio en el arreglo principal de datos, hay un byte correspondiente en el arreglo de metadata.
 
+{{<ad1>}}
+
 Este byte no es solo una "tombstone" o un flag de vacío; es un conjunto comprimido de información útil. La parte más crucial son los **7 bits del hash de la llave** almacenados en ese slot.
 
 | Meaning Control bit | Control bit | Bit 1 | Bit 2 | Bit 3 | Bit 4 | Bit 5 | Bit 6 | Bit 7 |
@@ -58,6 +61,8 @@ Este byte no es solo una "tombstone" o un flag de vacío; es un conjunto comprim
 | Borrado             | 1           | 1     | 1     | 1     | 1     | 1     | 1     | 0     |
 
 Esto cambia las reglas del juego. ¿Por qué? Porque para verificar si un slot podría contener tu llave, no necesitas tocar para nada el arreglo principal de datos. Primero puedes revisar la metadata. Esto es una ganancia enorme para el rendimiento.
+
+{{<swissTables>}}
 
 ## Un Recorrido Paso a Paso por la Estructura de Datos de las Swiss Tables
 
@@ -97,6 +102,8 @@ Los primeros 57 bits (0x5A3F9C42B1D08E...): Esta parte del hash determina a qué
 
 Los últimos 7 bits bajos (0x3A): Este es el "probe index". Le dice al mapa en cuál de los 8 o 16 slots (o "bloques") empezar a buscar.
 
+{{<ad2>}}
+
 ### Recuperar el valor de una llave
 
 Cuando buscas una llave, el proceso general va así:
@@ -122,6 +129,8 @@ Este es el paso SIMD que nos encanta. La CPU carga los 16 bytes de metadata de e
 ¿El fingerprint de 7 bits (h2) en la metadata coincide con nuestro fingerprint (0x3A)?
 
 Hace esto para los 16 slots A LA VEZ. Y aquí es donde sucede la magia, te lo explico enseguida. El resultado es un **bitmask** de posibles candidatos.
+
+{{<ad3>}}
 
 #### Manejar colisiones si existen
 

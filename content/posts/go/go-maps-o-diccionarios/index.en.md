@@ -20,19 +20,17 @@ In the go programming language, a map or hash table is the equivalent of a dicti
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
-Together with the [array and the go slice](/en/go/go-slices-and-arrays-basic-characteristics-and-most-common-uses/), golang maps are structures that serve as a collection of values.
+Together with the [array and the go slice]({{< ref path="/posts/go/go-arrays-y-slices/index.md" lang="en" >}}), golang maps are structures that serve as a collection of values.
 
 ## Inner workings of golang maps
 
 ### Go's current implementation: Swiss-tables
 
-Go 1.24 replaced its map implementation, it now uses Swiss-tables, which are currently used in Rust. Swiss-tables provide a boost in speed compared to its former implementation, and it also improves:
+Go 1.24 replaced its map implementation, it now uses [Swiss-tables]({{< ref path="/posts/software-architecture/swiss-tables/index.md" lang="en" >}}), which are currently used in Rust. Swiss-tables provide a boost in speed compared to its former implementation, and it also improves:
 
 - Slow lookups due to overflown buckets when extra entries were added.
 - Larger Memory Usage due to overflown buckets that require extra space.
 - Overhead due to rehashing when resizing the maps.
-
-{{<swissTables>}}
 
 If go's maps don't match your performance requirements maybe you can consider using a [Bloom Filter]({{< ref path="/posts/databases/bloom-filter/index.md" lang="en" >}})
 

@@ -1,5 +1,5 @@
 ---
-date: '2025-09-12T20:47:27-06:00'
+date: '2025-09-21'
 draft: true
 title: 'I Built A Trie Tree Data Structure Simulator'
 categories:

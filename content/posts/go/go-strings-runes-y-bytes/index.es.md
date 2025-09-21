@@ -19,7 +19,7 @@ title: 'Go: strings, runes y bytes'
 
 En esta entrada voy a explicar lo básico del funcionamiento de strings, runes y bytes en go, y hasta un poquito de utf-8.
 
-Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang](/es/go/go-slices-y-arrays/).
+Para explicar el tema voy a dar por hecho que sabes lo básico de slices y tipos de datos en go, si no sabes sobre estos temas visita mi entrada de [array, slices en golang]({{< ref path="/posts/go/go-arrays-y-slices/index.md" lang="es" >}}).
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
