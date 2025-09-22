@@ -3,8 +3,28 @@ import { render } from 'preact';
 
 import css from './style.css?inline';
 
+
+type swissGroups = {
+    id: number,
+    controlWord: Array<state>,
+    slots: Array<metadata>,
+}
+
+type state = {
+    state: string,
+    h2: number,
+}
+
+type metadata = {
+    key: string,
+    value: string,
+    hash: string,
+    h1: string,
+    h2: string,
+}
+
 const SwissTableSimulator = () => {
-    const [groups, setGroups] = useState([
+    const [groups, setGroups] = useState<Array<swissGroups>>([
         {
             id: 0,
             controlWord: new Array(8).fill({ state: 'empty', h2: 0 }),
@@ -266,7 +286,6 @@ const SwissTableSimulator = () => {
             default: return 'E';
         }
     };
-
     return (
         <div className="p-6 max-w-6xl mx-auto bg-white text-gray-800">
             <div className="mb-8">
@@ -308,6 +327,10 @@ const SwissTableSimulator = () => {
                     >
                         Insert
                     </button>
+                </div>
+                <div>
+                    <h3 className="text-xl font-semibold mb-4 text-gray-800">Added keys (summary)</h3>
+                    <p>{groups.map(({ slots }) => { return slots.map(({ key }) => key + " ").filter(element => element != "") })}</p>
                 </div>
             </div>
 
