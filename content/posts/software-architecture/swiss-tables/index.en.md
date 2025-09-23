@@ -15,7 +15,7 @@ authors:
 
 ## The Hash Map Got a Swiss Army Knife Upgrade
 
-You've probably used hashmaps in the past, but the thing here is, you use it and you forget about the internals you limit your knowledge of hashmaps to getting and setting keys, you iterate over them probably, but that's all. 
+You've probably used hashmaps in the past, you normally use them but ignore everything about the internals, you limit your knowledge of hashmaps to getting and setting keys, you iterate over them probably, but that's all. 
 
 ``` javascript
 hashmap.get("key")
@@ -24,13 +24,13 @@ hashmap.set("key", value)
 hashmap["key"] = value
 ```
 
-{{<ad1>}}
+{{<ad0>}}
 
-Every worth-learning language has its own implementation, you know, the way it works under the hood, and most devs just don't give a damn about it, which is fine, I support high level abstractions.
+Every worth-learning language has its own hashmap implementation, you know, the way it works under the hood, and most devs just don't give a damn about it, which is fine, I support high level abstractions.
 
-The thing here is that, recently,[ Go decided to change its default hashmap implementation from Buckets to Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="en" >}}) looking for better performance, ~~trying to mimick Rust's performance~~. Which already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
+The thing here is that, recently, [Go changed its default hashmap implementation from Buckets to Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="en" >}}) looking for better performance, ~~trying to mimick Rust's performance~~. This change already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
 
-By the way it was Google who created Swiss tables (well one of its engineers), and also [protobuffers and GRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), they're always improving the performance of what already exists.
+By the way, it was Google who created Swiss tables (well one of its engineers), and also [protobuffers and GRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), they're always improving the performance of what already exists.
 
 ## So, What's the Big Idea behind Swiss Tables? It's All About Metadata.
 
@@ -49,8 +49,6 @@ So... what's wrong with this? Well, nothing really, just that in certain scenari
 
 Swiss Tables attack this cumbersome problem with a brilliant idea: a separate metadata array. For every slot in the main data array, there's a corresponding byte in the metadata array. 
 
-{{<ad1>}}
-
 This byte isn't just a tombstone or an empty flag; it's a packed suite of useful information. The most crucial part is the **7 bits from the hash of the key** stored in that slot.
 
 | Meaning Control bit | Control bit | Bit 1 | Bit 2 | Bit 3 | Bit 4 | Bit 5 | Bit 6 | Bit 7 |
@@ -66,6 +64,8 @@ This is a game changer. Why? Because to check if a slot might contain our key, y
 ## A Step-by-Step Walk Through the Swiss table data structure
 
 Alright, so we've talked about the metadata esoteric magic. But how does it actually works, step-by-step, when you insert *my_app["value"]* = value and when you ask for *my_map["apple"]*?
+
+{{<ad1>}}
 
 ### Inserting a key and its value in a Swiss table
 
@@ -114,7 +114,7 @@ Now let me explain you the steps.
 
 #### Finding the block using the 7-bit hash
 
-The map takes the 7-bit (h2) probe index (0x3A) and uses it to locate the specific 16-slot block where "apple" should be. This calculation is incredibly fast.
+The map takes the 7-bit (h2) probe index (0x3A) and uses it to locate the specific 8-slot or 16-slot block where "apple" should be. This calculation is incredibly fast.
 
 #### Use SIMD to compare the slots
 
@@ -144,7 +144,7 @@ Here's where the real genius kicks in. Modern CPUs don't need to check things on
 
 In just one ~~blazingly fast~~ operation, the CPU creates a bitmask. A *1* means “the hash snippet matches,” a *0* means it doesn't. Only *then*, for the slots that might be a match, does the code actually dereference the pointer to the main data array to do a full key comparison. 
 
-This is the killer feature of Swiss Tables. It minimizes expensive memory accesses and leverages the CPU's parallel processing capabilities. 
+This is the killer feature of Swiss Tables. They minimize expensive memory accesses and leverages the CPU's parallel processing capabilities. 
 
 It makes lookups, especially for missing keys, super fast. You're not traversing a chain or a long probe sequence. Which, as you may know, impacts [Big O performance]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="en" >}})
 
@@ -162,5 +162,5 @@ This architecture isn't just a neat bloring and hypothetical academic exercise. 
 
 However, it's not all sunshine and rainbows, of course, everyhing in tech is trade-off. The separate metadata array does consume extra memory (about 1/16th to 1/8th of the main array), which is usually a great trade-off because memory is one of the cheapest resources. 
 
-Also the implementation is complex—thankfully, but that doesn't involve you, because you're going to use it the same way you have always used it.
+Also the implementation is complex—thankfully, it can be daunting for those working on it. But my bet is that you're not so it doesn't involve you, you're going to use it the same way you have always used it, just with better performance.
 
