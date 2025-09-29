@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/get-to-know-the-basic-docker-compose-commands/
+- /en/sections[last]/get-to-know-the-basic-docker-compose-commands/
 authors:
 - Eduardo Zepeda
 categories:
