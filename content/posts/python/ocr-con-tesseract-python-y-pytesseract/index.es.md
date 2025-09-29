@@ -7,6 +7,7 @@ aliases:
 - /ocr-con-tesseract-python-y-pytesseract/ocr/
 - /es/pytesseract-ocr-reconocimiento-optico-de-caracteres-en-python/
 - /es/ocr-con-tesseract-python-y-pytesseract/
+- /es/python/ocr-con-tesseract-python-y-pytesseract/
 authors:
 - Eduardo Zepeda
 categories:
@@ -15,23 +16,22 @@ categories:
 coverImage: images/OCR.jpg
 coverImageCredits: Créditos https://www.pexels.com/@cottonbro/
 date: '2021-09-28'
-description: Aprende a llevar acabo reconocimiento óptico de caracteres (OCR) sobre
-  imágenes usando python, tesseract-ocr y pytesseract, para convertir imágenes en
+description: Aprende a realizar reconocimiento óptico de caracteres (OCR) en este tutorial usando Pytesseract. Python y Tesseract para extraer texto de imágenes.
   strings.
-keyword: pytesseract
+keyword: tutorial de pytesseract
 keywords:
 - python
 - artificial intelligence
 - pytesseract
-slug: /python/ocr-con-tesseract-python-y-pytesseract/
-title: Pytesseract, OCR Reconocimiento óptico de carácteres en Python
+slug: /python/mini-tutorial-de-pytesseract-ocr-en-python/
+title: Mini tutorial de Pytesseract, OCR en Python
 ---
 
 Python es increíblemente versátil, cuenta con una numerosa comunidad que pone a tu disposición librerías que te permiten crear redes neuronales desde cero, [realizar fine-tuning de un LLM]({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="es" >}}) o usar el Reconocimiento Óptico de Caracteres (OCR). Para este último sólo necesitas instalar tesseract y los bindings de python, llamados pytesseract y estarás listo para convertir una imagen en una cadena de texto.
 
-## Instalación de tesseract-ocr
+## Tutorial de pytesseract
 
-Para llevar a cabo el OCR con Python necesitaremos tesseract, que es la librería que se encarga de todo el trabajo pesado y el procesamiento de imágenes.  
+Para llevar a cabo el OCR con Python necesitaremos tesseract, que es la librería que se encarga de todo el trabajo pesado y el procesamiento de imágenes necesario para extraer texto de imágenes.
   
 Asegúrate de instalar el tesseract-ocr más nuevo, hay una diferencia abismal entre la versión 3 y las versiones posteriores a la 4, pues se implementaron redes neuronales para mejorar el reconocimiento de caracteres. Yo estoy usando la versión 5 alpha.
 
@@ -48,7 +48,7 @@ tesseract 5.3.0
 
 ### ¿Cómo instalar lenguajes en tesseract?
 
-Podemos ver con que lenguajes viene instalado con _\--list-langs_
+Podemos ver con que lenguajes viene instalado en tesseract con _\--list-langs_
 
 ```bash
 tesseract --list-langs
@@ -69,7 +69,7 @@ Verás que ahora el español ya se encuentra instalado y podemos usarlo para det
 
 {{<ad1>}}
 
-## OCR con tesseract
+## Reconocimiento óptico de caracteres con tesseract
 
 Ahora pongámoslo a prueba para reconocer texto en imágenes, directo de la terminal. Yo voy a usar la siguiente imagen:
 
@@ -110,7 +110,7 @@ wget https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata
 sudo mv eng.traineddata /usr/local/share/tessdata/
 ```
 
-## OCR con pytesseract
+## Reconocimiento óptico de caracteres con pytesseract
 
 ### Instalación de pytesseract
 
@@ -164,7 +164,7 @@ print(data)
 
 Si quieres profundizar más visita la [documentación completa de tesseract](https://github.com/tesseract-ocr/tesseract).
 
-## ¿Qué se puede hacer con el OCR?
+## ¿Qué se puede hacer con el Reconocimiento óptico de caracteres?
 
 El OCR es bastante útil para las redes sociales, donde puedes escanear el texto que aparece en las imágenes para leer su contenido y luego procesarlo o darle tratamiento estadístico.
 
@@ -172,9 +172,11 @@ Aquí va otro caso, imagina un programa que escanee image boards o redes sociale
 
 O quizá una página que sube imágenes de sus productos con sus precios escritos en cada una de ellas. Con el OCR es posible obtener todos sus precios, y subirlos a tu base de datos, descargando y procesando sus imágenes.
 
-La [resolución de captchas](/es/opinion/mi-analisis-de-captchas-anti-bots-ventajas-y-desventajas/) también es uno de los usos más interesantes del OCR.
+La [resolución de captchas anti-bot]({{< ref path="/posts/opinion/analisis-de-tipos-de-captchas-ventajas-y-desventajas/index.md" lang="es" >}}) también es uno de los usos más interesantes del OCR, con esto puedes brincar captchas y utilizar bots para scrappear sitios web.
 
 Facebook debe usar algún tipo de tecnología similar para censurar las imágenes que incluyen texto ofensivo, de acuerdo a sus políticas, que se suben a su red social.
+
+Puedes crear un [servidor MCP]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="es" >}}) que procese documentos, los lea y te devuelva el contenido.
 
 {{< figure src="images/facebook-screenshot-ocr.jpg" class="md-local-image" alt="Facebook usa OCR para leer el texto de sus imágenes" caption="Facebook es capaz de leer el texto que aparece en una imagen" >}}
 
