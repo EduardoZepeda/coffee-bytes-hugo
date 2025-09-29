@@ -42,7 +42,7 @@ Pero si ya tienes nociones de redes neuronales, entonces empecemos por el fine-t
 
 ## ¿Qué es el fine-tuning?
 
-El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y continuar su formación en un conjunto de datos particulares del campo. Como por ejemplo un LLM que ha sido entrenado usando todos los artículos científicos sobre diabetes, lo cual podrías hacer a través del [Model Context Protocol](/es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/)
+El fine-tuning es el procedimiento de seleccionar un modelo ya entrenado y continuar su formación en un conjunto de datos particulares del campo. Como por ejemplo un LLM que ha sido entrenado usando todos los artículos científicos sobre diabetes, lo cual podrías hacer a través del [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}})
 
 Porque, ¿para qué realizar prompt engineering cuando se puede hacer fine-tuning de un modelo y obtener los mismos resultados?
 

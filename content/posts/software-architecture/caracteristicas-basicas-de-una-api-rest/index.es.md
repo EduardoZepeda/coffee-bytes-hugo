@@ -41,7 +41,7 @@ Existen muchos tipos de APIs y todo el tiempo están apareciendo nuevos paradigm
 
 REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse sobre el resto de paradigmas, pero no existe certeza sobre lo que sucederá mañana, quizás reescribamos todas las API en Rust. 
 
-A la fecha aún existen protocolos que trabajan con peticiones POST, [como el Model Context Protocol](/es/artificial-intelligence/comprende-el-model-context-protocol-mcp-de-una-vez-por-todas/), usado para estandarizar la comunicación entre cliente y LLM.
+A la fecha aún existen protocolos que trabajan con peticiones POST, [como el Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}), usado para estandarizar la comunicación entre cliente y LLM.
 
 {{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="Linea del tiempo de APIs" caption="REST data del año 2000" >}}
 

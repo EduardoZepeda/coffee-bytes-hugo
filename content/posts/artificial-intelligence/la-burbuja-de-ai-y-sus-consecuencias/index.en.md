@@ -88,7 +88,7 @@ The market is trying to make a quick and easy buck from the suddenly growing int
 
 In addition to this, most people involved in the financial side of AI don't understand that not much has really changed in the coding world, most solutions just use ChatGPT on the backend, along with a visually appealing interface to present themselves as the next unicorn and look for easy money from investors.
 
-There are even protocols to interact with LLM, like the [Model Context Protocol](/en/artificial-intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/).
+There are even protocols to interact with LLM, like the [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}).
 
 {{< figure src="images/ai-company-chatgpt.jpg" class="md-local-image" alt="Startups are just a wrapper for chatgpt" >}}
 

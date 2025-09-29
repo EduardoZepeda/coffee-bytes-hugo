@@ -39,7 +39,7 @@ But if you already know everything about neural networks, then, let's start with
 
 ## What is fine-tuning?
 
-Fine-tuning is the procedure of selecting an already trained model and continuing its training on a particular data set from the field. Like for example a LLM that has been trained specifically in scientific articles about diabetes, which you can do through [the Model Context Protocol](/en/artificial-intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/).
+Fine-tuning is the procedure of selecting an already trained model and continuing its training on a particular data set from the field. Like for example a LLM that has been trained specifically in scientific articles about diabetes, which you can do through [the Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}).
 
 Because, why use prompt engineering when you can fine-tune a model and get the same results?
 

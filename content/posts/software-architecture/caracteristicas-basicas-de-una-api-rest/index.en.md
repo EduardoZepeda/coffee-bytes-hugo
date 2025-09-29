@@ -37,7 +37,7 @@ There are many types of APIs and new paradigms are appearing all the time, one o
 
 REST is special because it has managed to survive the passage of time and position itself above the rest (pun not intended), but no one knows what will happen tomorrow, maybe we will rewrite all APIs in Rust.
 
-To this date, there are still protocols that work with POST requests, such as [the Model Context Protocol](/en/artificial-intelligence/understand-the-model-context-protocol-or-mcp-once-and-for-all/), used the standarise the communication between a client and a LLM.
+To this date, there are still protocols that work with POST requests, such as [the Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}), used the standarise the communication between a client and a LLM.
 
 {{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="APIs timeline" caption="REST paradigm was created around year 2000" >}}
 
