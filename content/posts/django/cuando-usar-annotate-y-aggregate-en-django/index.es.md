@@ -11,9 +11,7 @@ categories:
 coverImage: images/Django_aggregate_y_annotate.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2020-11-17'
-description: Tutorial sobre las diferencias, características y el uso de annotate
-  y aggregate en Django, sus usos y como pueden usarse para mejorar la efiencia de
-  las queries en el ORM de Django.
+description: Aprenda cuándo usar Django Annotate y Aggregate, junto con sus diferencias clave y cómo se traducen a código SQL en este tutorial.
 keywords:
 - django
 - python
@@ -28,6 +26,19 @@ La pantalla del ordenador iluminó mi rostro lleno de desesperación, me froté 
 Este tutorial da por hecho que conoces lo básico sobre el ORM de Django, en caso de que no, tengo un enlace a un libro gratuito en mi entrada sobre la [guia definitiva de Django.]({{< ref path="/posts/django/el-libro-definitivo-de-django/index.md" lang="es" >}})
 
 Annotate y aggregate son imprescindibles para [escalar aplicaciones de Django para servir a una multitud de usuarios](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}}))
+
+
+## Resumen de las principales diferencias entre las anotaciones y agregaciones en Django
+
+Si tienes prisa, aquí tienes un resumen de las diferencias entre las anotaciones y agregaciones en Django.
+
+
+| Annotate                                                                           | Aggregate                                                      |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Agregamos información extra a cada objecto de la consulta como una propiedad extra | Resumimos toda la información de la consulta en un único valor |
+| Retorna un queryset                                                                | Retorna un diccionario                                         |
+| Puedes concatenarlo                                                                | No puedes concatenarlo                                         |
+
 
 ## Django annotate y aggregate principales diferencias resumidas
 

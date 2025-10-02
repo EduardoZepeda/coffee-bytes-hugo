@@ -10,8 +10,7 @@ categories:
 coverImage: images/Django_aggregate_y_annotate.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2020-11-17'
-description: Learn the differences, features and usage of annotate and aggregate in
-  Django in this tutorial, reading SQL with examples and code.
+description: Learn when to use django annotate and aggregate, along with its key differences and how they're translated to SQL code  under the hood in this tutorial.
 keyword: django annotate
 keywords:
 - django
@@ -29,6 +28,8 @@ Annotate and aggregate are primordial for [scaling Django applications to serve 
 
 ## Django annotate and aggregate main differences summarized
 
+If you're in a rush, here are the differences between django annotate and aggregate summarized
+
 
 | Annotate                                                                    | Aggregate                                                         |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
@@ -41,7 +42,7 @@ Annotate and aggregate are primordial for [scaling Django applications to serve 
 
 For this example we are going to create a couple of fictitious models that we will use for the examples:
 
-Django 3.0 and Python 3.8.6 were used for this example.
+Django 3.0 and Python 3.8.6 were used for this example. However the functions have been the same since they came out so if you're using Django 10 they should be practically the same.
 
 ```python
 # app/models.py

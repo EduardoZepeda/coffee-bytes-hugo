@@ -73,25 +73,27 @@ Algunos argumentan que la conciencia y la inteligencia están relacionados y que
 
 {{<ad2>}}
 
-Penrose afirma que no sólo la conciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8).
+Penrose afirma que no sólo la conciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8). Por lo que, no importa que tan complejo e inteligente se vuelva un sistema, no será consciente y por ende inteligente tampoco, algo parecido a lo que Searle afirmaba.
 
-Mientras que otros van más alla al decir que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás podriamos considerar el ejemplo de [Blake Lemoine, que aseguraba que el modelo de inteligencia artificial de Google había cobrado conciencia](https://www.bbc.com/mundo/noticias-61787944), o la teoría de la información integrada, de Giulio Tononi, que propone que la conciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de conciencia (llamado Φ) puede calcularse para cualquier sistema.
+Otros relacionan inteligencia con consciencia y afirman que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás como ejemplo podriamos nombrar a [Blake Lemoine, quien aseguraba que el modelo de inteligencia artificial de Google había cobrado conciencia](https://www.bbc.com/mundo/noticias-61787944), o la teoría de la información integrada, de Giulio Tononi, que propone que la conciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de conciencia (llamado Φ) puede calcularse para cualquier sistema, teniendo un gradiente de consciencia que va desde los seres más simples hasta los más complejos.
 
 #### El problema de determinar si algo es consciente o no
 
-También tenemos el problema de que la consciencia solo puede ser experimentada por el ente consciente, no existe un experimento que nos permita decir a ciencia cierta si una entidad es consciente o no. Sin caer en un solipsismo absolutista, **nosotros consideramos que el resto de seres humanos son conscientes solo porque nosotros sabemos que lo somos**, no porque tengamos pruebas irrefutables de ello.
+Para empeorar la situación, tenemos el problema de que la consciencia solo puede ser experimentada por el ente consciente, no existe un experimento que nos permita decir a ciencia cierta si una entidad es consciente o no. Sin caer en un solipsismo absolutista, **nosotros consideramos que el resto de seres humanos son conscientes solo porque nosotros sabemos que lo somos**, no porque tengamos pruebas irrefutables de ello.
 
-Tal cual afiramaba Ludwig Wittgenstein en su libro Investigaciones Filosóficas:
+Repito, no estoy hablando de solipsismo, me refiero a que, aunque creas que hay más consciencias a parte de la tuya, solo puedes estar seguro de la existencia de la tuya.
+
+O puesto en palabras por Ludwig Wittgenstein en su libro, Investigaciones Filosóficas:
 
 >  Imagina que al nacer te dan una caja con un escarabajo dentro. Se trata de un objeto muy valioso y extremadamente personal, tanto, que nadie puede ver el interior de la caja salvo uno mismo. De este modo, no existe una forma objetiva de confirmar que todas las cajas contengan lo mismo. En el mejor de los casos podrían contener un escarabajo de verdad, pero nada garantiza al cien por cien que en lugar del escarabajo no haya otros insectos, como una hormiga o una araña, o que incluso no haya nada, eso sí, sea lo que sea, siempre se considerará bajo el término de «escarabajo».
 
 {{<ad3>}}
 
-Mientras no entendamos que es la consciencia exactamente, no podremos saber que tenemos que "medir" para saber si otro ente es consciente, siempre y cuando tenga sentido hablar de "medir" cuando hablamos de consciencia. 
+Mientras no entendamos que es la consciencia exactamente, no podremos saber que tenemos que "medir" para saber si otro ente es consciente, o si acaso tiene sentido el término "medir" cuando hablamos de consciencia. 
 
 ### Inteligencia sin conciencia
 
-Así mismo, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de "analizar" y  "responder" a situaciones muy complejas y con muchos matices, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
+Por el contrario, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de "analizar" y  "responder" a situaciones muy complejas y con muchos matices, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
 Sir Roger Penrose refuerza el punto anterior en su libro "[Emperor's new mind](https://amzn.to/3XmesG6#?)", en el que afirma que la conciencia no es computable, por lo que nunca llegaremos a crear una Conciencia Artificial mediante algoritmos ni ésta surgirá de forma natural de la complejidad computacional, por más [fine-tuning de un LLM (Large Language Model)](({{< ref path="/posts/artificial-intelligence/fine-tuning-de-un-modelo-de-inteligencia-artificial/index.md" lang="es" >}})) u otro paradigma de modelo que entrenemos.
 
