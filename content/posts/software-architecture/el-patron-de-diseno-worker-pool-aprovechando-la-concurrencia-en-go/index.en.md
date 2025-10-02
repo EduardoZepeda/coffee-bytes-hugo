@@ -11,7 +11,7 @@ categories:
 coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
 description: I explain how the worker pool design pattern works, the ideal job queue
-  to handle with programming languages that support concurrency.
+  to handle high loads using programming languages that support concurrency.
 keyword: worker pool
 keywords:
 - Go
