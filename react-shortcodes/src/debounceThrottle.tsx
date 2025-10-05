@@ -129,7 +129,7 @@ const DebounceThrottleDemo = () => {
         }
       `}</style>
 
-            <div className="max-w-6xl mx-auto p-5 bg-green-100 rounded-2xl text-white font-sans">
+            <div className="max-w-6xl mx-auto sm:p-6 bg-green-100 rounded-2xl text-white font-sans">
                 <h1 className="text-center text-4xl mb-3 font-bold drop-shadow-lg text-gray-800">
                     🚜 Farmyard Demo: Debounce vs Throttle
                 </h1>

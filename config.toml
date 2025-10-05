@@ -69,9 +69,9 @@ pre = "message"
 url = "https://zeedu.dev"
 weight = 6
 [languages.en.params]
+GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
-GoogleAdSenseClient = "ca-pub-4250730649804995"
 audience = "Software engineers"
 author = "Eduardo Zepeda"
 description = "My Full-stack Web development blog on Linux with my opinions, tutorials, ideas and rants."
@@ -154,9 +154,9 @@ pre = "github-alt"
 url = "https://github.com/EduardoZepeda"
 weight = 6
 [languages.es.params]
+GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
-GoogleAdSenseClient = "ca-pub-4250730649804995"
 audience = "Software engineers"
 author = "Eduardo Zepeda"
 description = "Mi Blog de Desarrollo Web Full-stack en Linux con mis opiniones, tutoriales, ideas and críticas."

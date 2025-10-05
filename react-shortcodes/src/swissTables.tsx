@@ -287,7 +287,7 @@ const SwissTableSimulator = () => {
         }
     };
     return (
-        <div className="p-6 max-w-6xl mx-auto bg-white text-gray-800">
+        <div className="sm:p-6 max-w-6xl mx-auto bg-white text-gray-800">
             <div className="mb-8">
                 <h3 className="text-3xl font-bold text-gray-800 mb-4">Swiss Table Visual Simulator</h3>
                 <p className="text-gray-600 mb-4">

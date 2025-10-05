@@ -14,18 +14,27 @@
 </div>
 
 {{ else }}
+
+<div class="google-ads-container-{{.Site.Params.adSlots.slot1}}"></div>
+
+{{ end }}
+
 <style>
   .google-ads-container-{{.Site.Params.adSlots.slot1}}{
     background-color: yellow;
     width: 100%;
     min-height: 90px;
-    
-    @media (max-width: 720px) {
+  }
+  @media (max-width: 720px) {
+    .google-ads-container-{{.Site.Params.adSlots.slot1}} {
       min-height: 280px;
+      width: 480px;
+    }
+  }
+    @media (max-width: 480px) {
+    .google-ads-container-{{.Site.Params.adSlots.slot1}} {
+      min-height: 280px;
+      width: 320px;
     }
   }
 </style>
-
-<div class="google-ads-container-{{.Site.Params.adSlots.slot1}}"></div>
-
-{{ end }}

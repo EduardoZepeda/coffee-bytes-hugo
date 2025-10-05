@@ -231,7 +231,7 @@ const WorkerPoolVisualization = () => {
             <div className="bg-gray-600 rounded-xl overflow-hidden">
                 <div className="flex gap-0.5 flex-wrap">
                     {/* Left Panel */}
-                    <div className="w-full p-5 overflow-y-auto bg-opacity-95 backdrop-blur-sm">
+                    <div className="w-full sm:p-5 overflow-y-auto bg-opacity-95 backdrop-blur-sm">
                         <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-5 mb-5">
                             <h2 className="text-2xl font-bold text-gray-800 mb-5">Worker Pool Controls</h2>
 

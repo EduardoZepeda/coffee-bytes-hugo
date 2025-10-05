@@ -112,7 +112,7 @@ function BloomFilterSimulator() {
 	return (
 		<div className="min-h-screen bg-indigo-100 sm:p-8">
 			<div className="max-w-4xl mx-auto">
-				<div className="text-center mb-8 p-4">
+				<div className="text-center mb-8 sm:p-4">
 					<h2 className="text-3xl font-bold text-gray-800 mb-4">Bloom Filter Simulator</h2>
 					<p className="text-gray-600">
 						A probabilistic data structure that never returns false negatives, but may return false positives
@@ -121,7 +121,7 @@ function BloomFilterSimulator() {
 
 				<div className="bg-white rounded-lg shadow-lg sm:p-8">
 					{/* Input Section */}
-					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 p-4">
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 sm:p-4">
 						<div className="space-y-4">
 							<label className="block text-sm font-medium text-gray-700">
 								Add Word to Bloom Filter:
@@ -206,13 +206,13 @@ function BloomFilterSimulator() {
 
 					{/* Result Message */}
 					{message && (
-						<div className="mt-8 p-4 bg-gray-50 rounded-lg text-center">
+						<div className="mt-8 sm:p-4 bg-gray-50 rounded-lg text-center">
 							<p className="text-lg font-medium text-gray-700">{message}</p>
 						</div>
 					)}
 
 					{/* Explanation */}
-					<div className="mt-8 p-4 bg-blue-50 rounded-lg">
+					<div className="mt-8 sm:p-4 bg-blue-50 rounded-lg">
 						<h3 className="font-semibold text-blue-800 mb-2">How it works:</h3>
 						<ul className="text-sm text-blue-700 space-y-1">
 							<li>• Each word is hashed to set specific bits to 1</li>

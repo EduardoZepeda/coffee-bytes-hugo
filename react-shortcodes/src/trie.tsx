@@ -394,7 +394,7 @@ function TrieSimulator() {
   }, [trie, updateWords]);
 
   return (
-    <div className="max-w-6xl mx-auto p-6 space-y-6 bg-white text-gray-800">
+    <div className="max-w-6xl mx-auto sm:p-6 space-y-6 bg-white text-gray-800">
       <div className="text-left">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">Trie (Prefix Tree) Simulator</h1>
         <p className="text-gray-600">
