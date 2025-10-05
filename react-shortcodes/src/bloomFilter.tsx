@@ -102,7 +102,7 @@ function BloomFilterSimulator() {
 	};
 
 	const BitCell = ({ value, highlight }: { value: number, index: number, highlight: boolean }) => (
-		<div className={`w-12 h-12 border-2 border-gray-400 flex items-center justify-center text-lg font-bold ${highlight ? "bg-indigo-100" : "bg-white"}`}>
+		<div className={`w-6 h-6 sm:w-12 sm:h-12 border-2 border-gray-400 flex items-center justify-center text-sm sm:text-lg font-bold ${highlight ? "bg-indigo-100" : "bg-white"}`}>
 			<span className={value === 1 ? 'text-blue-600' : 'text-gray-400'}>
 				{value}
 			</span>
