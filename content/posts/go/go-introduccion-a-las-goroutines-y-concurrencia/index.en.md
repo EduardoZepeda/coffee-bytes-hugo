@@ -181,7 +181,7 @@ func main() {
 	if err := group.Wait(); err != nil {
 		fmt.Printf("Group finished but with error: %v\n", err)
 	} else {
-		fmt.Println("All tasks completed successfully with no error")
+		fmt.Println("All tasks completed successfully with no errors")
 	}
 }
 ```
@@ -207,9 +207,8 @@ We can also use context as its second parameter to return the context cancellati
 	})
 ```
 
-If you change the first error to nil, you will see that the delayed goroutine will execute normally and the context message won't be shown.
+If you change the first error to *nil*, you will see that the delayed goroutine will execute normally and the context message won't be shown.
 
-### Using errgroup
 
 ## More resources about goroutines
 

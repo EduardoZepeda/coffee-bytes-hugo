@@ -186,7 +186,7 @@ func main() {
 	if err := group.Wait(); err != nil {
 		fmt.Printf("Group finished but with error: %v\n", err)
 	} else {
-		fmt.Println("All tasks completed successfully with no error")
+		fmt.Println("All tasks completed successfully with no errors")
 	}
 }
 ```
@@ -212,7 +212,7 @@ También podemos usar el contexto como su segundo parámetro para devolver el er
 	})
 ```
 
-Si cambia el primer error a nulo, verá que la goroutine retrasada se ejecutará normalmente y no se mostrará el mensaje de contexto.
+Si cambias el primer error a *nil*, verás que la goroutine retrasada se ejecutará normalmente y no se mostrará el mensaje de contexto.
 
 ## Más recursos sobre goroutines
 
