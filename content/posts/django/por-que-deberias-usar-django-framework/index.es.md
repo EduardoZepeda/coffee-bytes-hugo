@@ -164,7 +164,7 @@ Solo por nombrar algunos:
 - Django-storage (AWS storage)
 - Django-braces (Funciones comunes)
 
-Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), el manejo de permisos y [throttling](/es/software-architecture/throttling-en-nginx/), una tarea simple**, comparada con crear todo desde cero. 
+Entre todos ellos me gustaría resaltar **DRF (Django Rest Framework) que vuelve la [creación de una API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}), el manejo de permisos y [throttling]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="es" >}}), una tarea simple**, comparada con crear todo desde cero. 
 
 Otro paquete a destacar que te permite trabajar con websockets, para crear una [aplicación que se comunique con el servidor en tiempo real, a través de eventos, es django-channels.](/es/django/django-channels-consumers-scope-y-eventos/)
 

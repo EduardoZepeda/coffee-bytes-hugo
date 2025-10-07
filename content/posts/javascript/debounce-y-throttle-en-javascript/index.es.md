@@ -24,7 +24,7 @@ title: Explicación Interactiva de Debounce y Throttle
 
 Hagamos una explicación interactiva de debounce vs throttle, donde puedas ver las diferencias entre estos [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) de una manera más visual. 
 
-Debounce y Throttle son usados para limitar la ejecución de funciones, generalmente son utilizados para restringir la cantidad de veces que un evento se dispara: eventos click, scroll, resize u otros. Los patrones no son exclusivos de Javascript; en una entrada anterior te explique como usar throttle para [limitar la cantidad de requests que recibe el servidor nginx.](/es/software-architecture/throttling-en-nginx/)
+Debounce y Throttle son usados para limitar la ejecución de funciones, generalmente son utilizados para restringir la cantidad de veces que un evento se dispara: eventos click, scroll, resize u otros. Los patrones no son exclusivos de Javascript; en una entrada anterior te explique como usar throttle para [limitar la cantidad de requests que recibe el servidor nginx.]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="es" >}})
 
 Ambos patrones generan una función que recibe un callback y un tiempo de espera o delay.
 
@@ -46,7 +46,7 @@ Si tienes prisa, estas son las principales diferencias y aplicaciones de ambos p
 | **Tiempo de ejecución**    | Se retrasa hasta que el evento deja de dispararse durante un periodo determinado.                                              | Se ejecuta inmediatamente o a intervalos fijos, independientemente de la frecuencia con la que se produzca el evento. |
 | **Ejemplo de Caso de Uso** | Inputs donde se introducen datos: actualización de sugerencias sólo después de que el usuario deje de escribir por un momento. | Eventos de scroll: limitar la velocidad a la que se calcula la posición del scroll.                                   |
 
-## Patrón Debounce
+## Qué es el Patrón Debounce?
 
 El patrón de rebote o debounce pospone la ejecución de una función hasta que transcurra un determinado tiempo de espera.
 
@@ -78,7 +78,7 @@ Pero ahora presta atención al clearTimeout. Cada vez que llamemos a la función
 
 {{<ad1>}}
 
-## Patrón Throttling
+## ¿Cómo funciona el patrón throttling?
 
 El patrón throttling (o aceleración) establece un tiempo de espera durante el cual no se pueden llamar nuevamente más funciones. A diferencia del patrón bounce, el tiempo de espera no se reinicia si intentamos llamar nuevamente a la función.
 
@@ -116,5 +116,5 @@ La función throttling retorna una función que tendrá dos vertientes que depen
 
 ## Otros recursos sobre debounce y throttling
 
-- [Debounce y throttling en Typescript](https://charliesbot.dev/blog/debounce-and-throttle)
-- [Debounce y throttling aplicados al DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783)
+- [Debounce y throttling en Typescript](https://charliesbot.dev/blog/debounce-and-throttle#?)
+- [Debounce y throttling aplicados al DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783#?)

@@ -357,7 +357,7 @@ En el [libro Two Scoops of Django](/es/django/el-mejor-libro-de-django-resena-de
 
 Deberías limitar tu API. Los usuarios no deberían tener acceso sin restricciones y peticiones ilimitadas a tu API. Hay usuarios que pueden abusar de tu API, mantener tu servidor ocupado, impidiéndo que el resto de los usuarios puedan usarla e incrementando tus costos.
 
-Una manera de solucionarlo es establecer una [política de throttling](/es/software-architecture/throttling-en-nginx/) en tu servidor para cualquier usuario.
+Una manera de solucionarlo es establecer una [política de throttling]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="es" >}}) en tu servidor para cualquier usuario.
 
 También puedes volverlo el centro de tu negocio y ofrecer planes de pago de acuerdo al número de peticiones por minuto a tu API.
 

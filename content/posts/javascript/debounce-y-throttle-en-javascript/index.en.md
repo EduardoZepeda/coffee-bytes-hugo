@@ -21,11 +21,11 @@ keywords:
 title: Debounce and Throttle Interactive Explanation
 ---
 
-I thought let's do a Debounce vs Throttle. Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. This patterns are not exclusive to Javascript and can be used in any language or can be used as high level abstractions; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server](/en/software-architecture/throttling-on-nginx/).
+I thought let's do a Debounce vs Throttle. Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. This patterns are not exclusive to Javascript and can be used in any language or can be used as high level abstractions; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="en" >}}).
 
 Both patterns generate a function that receives a callback and a timeout or delay.
 
-## Debounce vs Throttle interactive explanation
+## Debounce vs Throttle interactive and visual explanation
 
 Let's use an interactive example to see the differences between Debounce and Throttle. Think of a virtual farm, where each time you press a key, an animal is added to the pen. We have two pens, one that works with Debounce and the other with Throttle.
 
@@ -33,7 +33,7 @@ If you type in the text box, you'll see how each pen behaves.
 
 {{<debounceVsThrottle>}}
 
-## Debounce vs Throttle differences
+## Debounce vs Throttle main differences
 
 If you're in a rush  ~~or just lazy~~, these are the main differences and applications for both patterns. However, if you want a deeper understanding of both keep reading.
 
@@ -44,7 +44,7 @@ If you're in a rush  ~~or just lazy~~, these are the main differences and applic
 | **Use Case Example**    | Search input field: updating suggestions only after the user stops typing for a moment.   | Scroll events: limiting the rate at which a scroll position is calculated.                      |
 
 
-## Debounce Pattern 
+## What's the debounce pattern?
 
 The debounce pattern postpones the execution of a function until a certain waiting time has elapsed.
 
@@ -76,7 +76,7 @@ But now pay attention to the clearTimeout. Every time we call the debounce funct
 
 {{<ad1>}}
 
-## Throttling pattern
+## How does the throttling pattern work?
 
 The throttling pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.
 
@@ -114,5 +114,5 @@ The throttling function returns a function that will have two sides depending on
 
 ## Other resources on debounce and throttling
 
-* [Debounce and throttling in Typescript](https://charliesbot.dev/blog/debounce-and-throttle)
-* [Debounce y throttling applied to the DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783)
+* [Debounce and throttling in Typescript](https://charliesbot.dev/blog/debounce-and-throttle#?)
+* [Debounce y throttling applied to the DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783#?)
