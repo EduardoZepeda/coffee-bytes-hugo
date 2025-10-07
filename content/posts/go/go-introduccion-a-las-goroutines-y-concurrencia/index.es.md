@@ -31,9 +31,9 @@ Como te mencioné en la introducción al lenguaje de programación go: [go es un
 Antes de empezar, recuerda que paralelismo y concurrencia son diferentes. Este post es muy pequeño para tratar un tema tan amplio, sin embargo hay dos recursos que quiero destacar:
 
 - [Programación concurrente de Felipe Restrepo
-  Calle](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html)
+  Calle](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html#?)
 - [Concurrencia vs paralelismo de Hector Patricio en The dojo
-  blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html)
+  blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html#?)
 
 Cito una frase del primer recurso que, a mi parecer, resume bastante bien la diferencia:
 
@@ -161,9 +161,63 @@ go func(text string) {
 }("Texto")
 ```
 
+## Cómo gestionar errores en goroutines con errgroup
+
+Dentro de las goroutines, las cosas pueden salir mal. ¿Cómo podemos manejar estas situaciones? En lugar de llamar a nuestra goroutines con *go*, crearemos un errgroup. Este errgroup tendrá una función llamada go, cuyo propósito es llamar a cualquier función que pasemos como goroutines. La función debe devolver un error.
+
+Funciona exactamente igual que un sync group en Go: esperará a todas las goroutines y, si encuentra un error, podremos gestionarlo.
+
+``` go
+package main
+
+import (
+	"context"
+	"errors"
+	"fmt"
+
+	"golang.org/x/sync/errgroup"
+)
+
+func main() {
+	group, _ := errgroup.WithContext(context.Background())
+	group.Go(func() error {
+		return errors.New("new error inside goroutine")
+	})
+	if err := group.Wait(); err != nil {
+		fmt.Printf("Group finished but with error: %v\n", err)
+	} else {
+		fmt.Println("All tasks completed successfully with no error")
+	}
+}
+```
+
+### Usando contexto en errgroup
+
+También podemos usar el contexto como su segundo parámetro para devolver el error de cancelación de contexto.
+
+``` go
+  group, ctx := errgroup.WithContext(context.Background())
+	group.Go(func() error {
+		return fmt.Errorf("an error occurred")
+	})
+	group.Go(func() error {
+		select {
+		case <-time.After(200 * time.Millisecond):
+			fmt.Println("If there is an error this won't be executed. If there is no error expect this message to be on the screen")
+			return nil
+		case <-ctx.Done():
+			fmt.Println("Context cancelled because errgroup found and error. We couldn't wait 200 ms")
+			return ctx.Err() 
+		}
+	})
+```
+
+Si cambia el primer error a nulo, verá que la goroutine retrasada se ejecutará normalmente y no se mostrará el mensaje de contexto.
+
 ## Más recursos sobre goroutines
 
 Para finalizar te dejo algunos otros recursos sobre gorutinas que puedes consultar.
 
-- [Goroutines](https://golangbot.com/goroutines/)
-- [Goroutines por google devs](https://www.youtube.com/watch?v=f6kdp27TYZs)
+* [Docs](https://go.dev/tour/concurrency/1)
+- [Goroutines](https://golangbot.com/goroutines/#?)
+- [Goroutines por google devs](https://www.youtube.com/watch?v=f6kdp27TYZs#?)
