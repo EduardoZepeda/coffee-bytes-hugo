@@ -85,7 +85,7 @@ CREATE INDEX reviews_review_user_id_875caff2 ON reviews_review (user_id);
 COMMIT;
 ```
 
-Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que migrar de motor de base de datos es bastante sencillo y tras unos pocos cambios puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go](/es/go/tutorial-de-migraciones-en-go-con-migrate/).
+Además de lo anterior, su ORM soporta múltiples bases de datos, por lo que migrar de motor de base de datos es bastante sencillo y tras unos pocos cambios puedes migrar perfectamente de Postgres a MySQL o viceversa, únicamente cambiando un par de lineas en la configuración. Ahorrándote el tener que escribir SQL a mano, como lo harías en las [migraciones de otro lenguaje, como go]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="es" >}}).
 
 ```python
 # settings.py
@@ -99,13 +99,13 @@ DATABASES = {
 }
 ```
 
-La única desventaja del ORM de django es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm](/es/fastapi/integracion-del-orm-de-python-tortoise-con-fastapi/).
+La única desventaja del ORM de django es su velocidad, pues se queda corto frente a otras alternativas como sqlAlchemy, o [tortoise-orm (el cual puedes integrar fácilmente fon FastAPI)]({{< ref path="/posts/fastapi/integracion-del-orm-de-python-tortoise-con-fastapi/index.md" lang="es" >}}).
 
 {{<ad3>}}
 
 ### Panel de administrador incluido
 
-Django cuenta con el [django admin panel](/es/django/django-admin-panel-y-su-personalizacion/), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
+Django cuenta con el [django admin panel, el cual es personalizable]({{< ref path="/posts/django/el-django-admin-panel-y-su-personalizacion/index.md" lang="en" >}}), un panel de administración que viene instalado por defecto. Este administrador implementa un CRUD a la base de datos de una manera sencilla. Y, además, cuenta con un sólido sistema de permisos para restringir el acceso a los datos como tu quieras.
 
 {{< figure src="images/Django-panel-admin.png" class="md-local-image" alt="Panel de administración de Django" >}}
 

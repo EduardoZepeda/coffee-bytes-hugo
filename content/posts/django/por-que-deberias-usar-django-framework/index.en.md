@@ -42,7 +42,6 @@ Django is a full-stack framework that can be used solely for backend. What makes
   - 
 If you want to delve into one in particular read on.
 
-{{<ad1>}}
 
 ## The advantages of Django
 
@@ -50,13 +49,14 @@ Django is a *batteries included* framework, that covers practically all the need
 
 If you're one of those developers who love **getting shit done without having to reinvent the wheel** over and over again, you're going to love Django. 
 
+{{<ad0>}}
+
 ### Its ORM is simple and wonderful
 
 Django's ORM abstracts away the need to write SQL queries to create tables and query data. It is quite intuitive to use and has almost all the most common queries included in its code. From filtering, partitioning, joins and even [advanced Postgres lookups]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) functions and migration handling.
 
 To create a table in the database just create a class that inherits from _models.Model_ and Django will do all the heavy lifting.
 
-{{<ad2>}}
 
 ```python
 class Review(models.Model):
@@ -81,7 +81,7 @@ CREATE INDEX reviews_review_user_id_875caff2 ON reviews_review (user_id);
 COMMIT;
 ```
 
-In addition to the above, its ORM supports multiple databases, so switching database engines is quite simple and after a few changes you can migrate seamlessly from Postgres to MySQL or vice versa, just by changing a couple of lines in the configuration. Saving you from having to write SQL by hand, as you would do in [migrations from another language, such as go](/en/go/go-migration-tutorial-with-migrate/).
+In addition to the above, its ORM supports multiple databases, so switching database engines is quite simple and after a few changes you can migrate seamlessly from Postgres to MySQL or vice versa, just by changing a couple of lines in the configuration. Saving you from having to write SQL by hand, as you would do in [migrations from another language, such as go]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="en" >}}).
 
 ```python
 # settings.py
@@ -95,19 +95,21 @@ DATABASES = {
 }
 ```
 
-Its only disadvantage is its speed, as it falls short of alternatives such as sqlAlchemy, or [tortoise-orm](/en/fastapi/python-tortoise-orm-integration-with-fastapi/).
+Its only disadvantage is its speed, as it falls short of alternatives such as sqlAlchemy, or [tortoise-orm, which you can easily integrate with FastAPI]({{< ref path="/posts/fastapi/integracion-del-orm-de-python-tortoise-con-fastapi/index.md" lang="en" >}}).
 
-{{<ad3>}}
+{{<ad1>}}
 
 ### Administrator panel included
 
-Django has the [django admin panel](/en/django/the-django-admin-panel-and-its-customization/), an administration panel that is installed by default. This admin implements a CRUD to the database in a simple way. And, in addition, it has a solid permissions system to restrict access to the data as you want.
+Django has its own admin panel, called [django admin panel, and is customizable]({{< ref path="/posts/django/el-django-admin-panel-y-su-personalizacion/index.md" lang="en" >}}), an administration panel that is installed by default. This admin implements a CRUD to the database in a simple way. And, in addition, it has a solid permissions system to restrict access to the data as you want.
 
 {{< figure src="images/Django-panel-admin.png" class="md-local-image" alt="Django admin panel" >}}
 
 ### Offers security against the most common attacks
 
 Django includes certain utilities, which are responsible for mitigating most attacks such as XSS, XSRF, SQL injections, Clickjacking and others. Most of them are already available and you just need to add the corresponding middleware or template tag.
+
+{{<ad2>}}
 
 ```python
 <form method="post">{% csrf_token %}
@@ -120,6 +122,8 @@ Most applications require a user management system, you know, register them, act
 #### Authentication tested, including with JWT.
 
 This framework has a proven authentication system based on sessions that are identified by a cookie. The authentication system has already been tested numerous times by some of the most trafficked websites out there, such as Instagram or the NASA website. Pinterest started with Django but moved to node.
+
+{{<ad3>}}
 
 You can use cookie authentication, session authentication or there are packages that allow you to use it with JWT. By the way, I have a post where I explain how to [authenticate a user using JSON Web token JWT in Django Rest Framework](/en/django/django-rest-framework-and-jwt-to-authenticate-users/). I also wrote another one explaining why [some consider this is not a good idea](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/#?).
 
