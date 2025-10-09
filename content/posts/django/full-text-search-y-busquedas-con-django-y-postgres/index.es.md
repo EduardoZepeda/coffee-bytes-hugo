@@ -72,10 +72,10 @@ Si cuando ejecutaste la búsqueda anterior te saltó un error es porque te falta
 
 ### Prerrequisitos
 
-Tener instalado psycopg2 y sus dependencias en [tu entorno virtual.](/es/python/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/)
+Tener instalado psycopg2 y sus dependencias en [tu entorno virtual, usando pipenv](/es/python/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), uv o cualquier otro gestor.
 
 ```python
-pip install psycopg2 # también sirve con pip install psycopg2
+pip install psycopg2 # O con uv o pipenv
 ```
 
 {{<ad2>}}
@@ -301,7 +301,7 @@ Videogame.objects.update(search_vector=SearchVector('name'))
 Videogame.objects.filter(search_vector='revenge')
 ```
 
-Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) donde explican en código SQL los vectores de búsqueda.
+Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql usando SQL](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) donde explican en código SQL los vectores de búsqueda.
 
 Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}})
 

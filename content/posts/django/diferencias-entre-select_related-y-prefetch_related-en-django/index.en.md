@@ -46,11 +46,9 @@ When using *select_related* we will have a longer query, however, the advantage 
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o3xcx7ifog76559fy4lo.png" class="md-local-image" alt="Simplified diagram of how Django select_related works" >}}
 
-Simplified diagram of how select_related works
+{{<ad2>}}
 
 Consider this example:
-
-{{<ad2>}}
 
 ```python
 from django.db import models

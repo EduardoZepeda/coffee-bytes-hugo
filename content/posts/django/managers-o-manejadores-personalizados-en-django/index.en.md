@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/managers-or-custom-handlers-in-django/
+- /en/django/managers-or-custom-handlers-in-django/
 authors:
 - Eduardo Zepeda
 categories:
@@ -15,7 +16,7 @@ keywords:
 - django
 - python
 - orm
-title: Managers or custom handlers in Django
+title: How to create a custom manager django?
 ---
 
 A Manager (or handler) is the interface through which query operations or queries from the database are provided to Django models. Yes, I mean that _objects_ that goes after the name of your model; _YourModel.objects.all()_ and _Tumodel.objects.filter()_. All Django models have at least one manager. Whenever you use the object manager (I will refer to it as manager from here on) in a database query using the Django ORM you are making use of its default _object manager_. These managers in Django can be customized to modify the objects returned by a query and we can customize them to our liking.
@@ -45,7 +46,7 @@ from django.db import models
 
   class Videogame(models.Model):
   ...#
-      stem = models.Manager() #Esto te permitira llamar Videogame.stem.all() en lugar de Videogame.objects.all()
+      stem = models.Manager() #Allows you to call Videogame.stem.all() instead of Videogame.objects.all()
 ```
 
 What is this for? Well, we can now call the _object manager_ in a different way, which may improve the readability of our code, but it is not the most important reason.
@@ -53,7 +54,7 @@ What is this for? Well, we can now call the _object manager_ in a different way,
 {{<ad2>}}
 
 ```python
-Videogame.stem.all()# En lugar de Videogame.objects.all()
+Videogame.stem.all()
 ```
 
 ## Adding methods to a Django manager
@@ -68,12 +69,12 @@ Since we have this new manager with the _count_titles_ method, we replace the _o
 from django.db import models
 
   class VideogameManager(models.Manager):
-      def contar_titulos(self, keyword):
-          return self.filter(titulo__icontains=keyword).count()
-   #self se refiere al manager en sí mismo
+      def count_title(self, keyword):
+          return self.filter(title__icontains=keyword).count()
+   #self refers to manager itself
   class Videogame(models.Model):
     …
-      objects = VideogameManager() #Renombra al manager por defecto aquí se usa objects para ser consistente
+      objects = VideogameManager() # rename default manager, objects will return something else instead of all
 ```
 
 {{<ad3>}}
@@ -81,7 +82,7 @@ from django.db import models
 Now our default manager, _objects_, has a method called _count_titles_ that we can use as if it were part of the original Django ORM.
 
 ```python
-Videogame.objects.contar_titulos('fantasy')
+Videogame.objects.count_title('fantasy')
 ```
 
 ## Modifying the initial Manager QuerySets
@@ -91,11 +92,11 @@ A Manager's base QuerySet returns all objects in the system. But what if we are 
 If we write individual custom queries for each queryset in that section it would look something like this:
 
 ```python
-Videogames.objects.filter(company="squarenix").filter(titulo__icontains="Fantasy")
+Videogames.objects.filter(company="squarenix").filter(title__icontains="Fantasy")
 # ...
-Videogames.objects.filter(company="squarenix").filter(descripcion__icontains="Aventura")
+Videogames.objects.filter(company="squarenix").filter(description__icontains="Aventura")
 # ...
-Videogames.objects.filter(company="squarenix").filter(genero="RPG")
+Videogames.objects.filter(company="squarenix").filter(genre="RPG")
 ```
 
 As you know, the above repeats too much code, violating the DRY maxim.
@@ -105,16 +106,16 @@ We can replace the base QuerySet by overwriting the _Manager.get_query_set()_ me
 ```python
 from django.db import models
 
-  # Primero, definimos una subclase para el Manager.
+  # define a subclass for manager
   class SquarenixManager(models.Manager):
       def get_query_set(self):
           return super(SquarenixManager, self).get_query_set().filter(company='squarenix')
 
-  # Despues lo anclamos al modelo Videogame explícitamente.
+  # we set it to videogame model explicitly
   class Videogame(models.Model):
       # ...
-      objects = models.Manager() # El manager predeterminado.
-      squarenix_videogames = SquarenixManager() # Nuestro manager
+      objects = models.Manager() # Set default manager
+      squarenix_videogames = SquarenixManager() # Our custom manager
 ```
 
 Note how we now have two managers. A Model can define several managers, **the first manager that appears is the default manager** (in the example above it is _objects_), which will be used by Django internally for other special features.
@@ -122,11 +123,11 @@ Note how we now have two managers. A Model can define several managers, **the fi
 When running the manager it will return only the books that have Squarenix as company and, in addition, you can use all QuerySet methods on it.
 
 ```python
-Videogame.objects.all() # Devuelve todos los videojuegos
-Videogame.squarenix_videogames.all() # Devuelve solo los videojuegos de squarenix
-Videogame.squarenix_videogames.filter(titulo__icontains='Kingdom Hearts') #Devuelve los videojuegos de squarenix cuyo título contenga Kingdom Hearts
+Videogame.objects.all() # Return all videogames, no filtering
+Videogame.squarenix_videogames.all() # Only return squarenix videogames
+Videogame.squarenix_videogames.filter(title__icontains='Kingdom Hearts') #Return only squareenix videogames whose name contains Kingdom Hearts
 ```
 
 And that's all. Now that you know that you can create as many managers as you want that will give you as many filtered searches as you need.
 
-If you want to know more about managers, please check [the official Django documentation](https://docs.djangoproject.com/en/3.2/topics/db/managers/#?)
+If you want to know more about managers, please check [the official Django documentation](https://docs.djangoproject.com/en/3.2/topics/db/managers/)

@@ -68,10 +68,10 @@ If you got an error when you ran the above search, it is because you have not in
 
 ### Prerequisites
 
-Have psycopg2 and its dependencies installed in [your virtual environment](/en/python/pipenv-the-virtual-environment-manager-you-dont-know/)
+Have psycopg2 and its dependencies installed in [your virtual environment (Pipenv)](/en/python/pipenv-the-virtual-environment-manager-you-dont-know/), uv or whatever you like.
 
 ```python
-pip install psycopg2 # también sirve con pip install psycopg2
+pip install psycopg2 # You can also use uv
 ```
 
 {{<ad2>}}
@@ -92,9 +92,9 @@ INSTALLED_APPS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'base_de_datos',
-        'USER': 'usuario',
-        'PASSWORD': 'contrasena',
+        'NAME': 'db',
+        'USER': 'user',
+        'PASSWORD': '*******',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -185,8 +185,6 @@ Isn't it great? We passed a two-word phrase to our search, the words are not adj
 Look at the SQL query in the last code block and note the _to_tsvector_ and _plainto_tsquery_ functions.
 
 {{< figure src="images/FullTextSearchEsquema.png" class="md-local-image" alt="Full text search schema in Postgres" >}}
-
-Diagram of full text search in Postgres
 
 The _search_ function executes the _to_tsvector_ function, which takes the field of our model (in this case _name_) and removes the conjunctions, articles and leaves only the lexemes (the part of a word that does not change from a word with the gender and number of a word e.g.: gat would be the lexeme of cat, cat, cats, cats, etc.) and its position in the phrase passed as argument.
 
@@ -297,7 +295,7 @@ Videogame.objects.update(search_vector=SearchVector('name'))
 Videogame.objects.filter(search_vector='revenge')
 ```
 
-If you are interested to deepen more about how Postgres handles internally these functions, I found an excellent article on [text search in postgresql](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) where they explain in SQL code the search vectors.
+If you are interested to deepen more about how Postgres handles internally these functions, I found an excellent article on [text search in postgresql SQL](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) where they explain in SQL code way search vectors work.
 
 Enter my next post where I will talk about [advanced searches with Postgres and Django]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
