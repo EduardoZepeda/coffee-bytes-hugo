@@ -51,7 +51,7 @@ If we remove the '_r_' and '_w_' permissions from a file, using the chmod comman
 
 ```bash
 chmod 000 source_code.cpp
- # Removemos todos los permisos del archivo source_code.cpp
+ # Remove all permissions from source_code.cpp
 ls -l
 total 16
 ---------- 1 user user 106 may 14 00:40 source_code.cpp
