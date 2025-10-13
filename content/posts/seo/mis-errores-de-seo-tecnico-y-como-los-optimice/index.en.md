@@ -21,7 +21,7 @@ title: My technical SEO mistakes when I migrated my site from Wordpress
 
 A few years ago, I migrated my website a couple of times, first from Wordpress to Frontity (A wordpress framework in React) and then from Frontity to a [Digital Ocean Hugo App]({{< ref path="/posts/software-architecture/digital-ocean-analisis-y-mi-experiencia/index.md" lang="en" >}}). I don't regret my decision at all, but I made a few technical SEO mistakes that you can probably avoid if you take into account what I'm about to tell you.
 
-After that incident I wrote [{{<title "/posts/guia-de-seo-tecnico-para-desarrolladores-web/index">}}]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}})
+After that incident I wrote [{{<title "/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index">}}]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}})
 
 ## Why should I care about SEO if I'm a web developer?
 
