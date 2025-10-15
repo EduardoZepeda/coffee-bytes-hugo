@@ -1,6 +1,5 @@
 ---
 date: '2025-09-21'
-draft: true
 title: 'Cree Un Simulador Visual De Un Trie Tree'
 categories:
 - software architecture
@@ -29,6 +28,8 @@ Además de su uso más común: sugerencias de text, también puedes encontrar tr
 
 Cuando trabajas con strings en programación—ya sea autocompletado, sugerencias de búsqueda (como ya mencioné) o incluso diccionarios—tarde o temprano te toparás con algo llamado **Trie Tree**. El nombre puede sonar rimbombante, pero la idea es bastante sencilla una vez que la entiendes.
 
+{{<ad0>}}
+
 Vamos a ver en qué se diferencia de un árbol binario, para qué sirve y en qué situaciones simplemente apesta.
 
 {{<trieTree>}}
@@ -48,6 +49,8 @@ graph TD;
 ```
 
 Piénsalo como un árbol genealógico, pero en vez de caras usas letras.
+
+{{<ad1>}}
 
 ### ¿Cómo se diferencia de un árbol binario?
 
@@ -72,6 +75,8 @@ Aquí algunas diferencias sutiles:
 * **Trie tree**: Piensa en agrupar libros por títulos compartidos. Cada rama es una letra más hasta terminar la palabra.
 
 Por eso los tries brillan con strings y se ven forzados si los quieres tratar como lo que no son, árboles binarios (como tus relaciones amorosas), así que no lo hagas.
+
+{{<ad2>}}
 
 ## ¿Para qué se usan los trie trees?
 
@@ -113,6 +118,8 @@ graph TD;
     C-->A;
     A-->R*;
 ```
+
+{{<ad3>}}
 
 Eso es todo. Para "car," harías raíz → "c" → "a" → "r." Para "cat," reutilizas "c" → "a" y solo agregas una "t." Justo como en el simulador de arriba.
 

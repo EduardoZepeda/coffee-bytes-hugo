@@ -1,12 +1,11 @@
 ---
 date: '2025-09-21'
-draft: true
 title: 'I Built A Trie Tree Data Structure Simulator'
 categories:
 - software architecture
 - databases
 coverImage: "images/trie-trees-data-structure.jpg"
-description: 'I built a visual simulator of a trie tree, you can add, delete words and see how the changes in this data structure are reflected in real time'
+description: 'I built a visual simulator of a Trie Tree Data Structure, you can add, delete words and see how the changes in this data structure are reflected in real time'
 keyword: 'trie tree'
 keywords:
 - 'trie tree'
@@ -28,6 +27,8 @@ Aside from suggestions you can also find trie trees in DNA sequence matching in 
 ## Trie Trees: The Data Structure That Thinks in Prefixes
 
 When you're working with strings in programming—think autocomplete, search suggestions (like I mentioned), or even dictionaries—you'll eventually bump into something called a **Trie Tree**. The name might sound fancy, but the idea is straightforward once you picture it.
+
+{{<ad0>}}
 
 Let's see how they stand apart from binary trees, what they're good for, and in what kind of situations they just suck.
 
@@ -73,6 +74,8 @@ Here are some subtle differences:
 
 That's why tries shine with strings and look awkward if you try to force them to behave like binary trees (like your romantic relationships), so don't do it.
 
+{{<ad1>}}
+
 ## What are trie trees used for?
 
 Tries pop up in more places than you'd expect. Some examples:
@@ -83,6 +86,8 @@ Tries pop up in more places than you'd expect. Some examples:
 * **Word games**: Ever played Scrabble helpers online? 
 
 The unifying idea is that you're not searching one whole word at a time—you're searching through chunks, prefixes, and paths which makes things a lot way faster and easier.
+
+{{<ad2>}}
 
 ## Building one (the minimalist way)
 
@@ -123,6 +128,8 @@ graph TD;
     A-->R*;
     A-->T*;
 ```
+
+{{<ad3>}}
 
 In code, it often boils down to a dictionary of dictionaries (or maps inside maps) with a flag to show when a word ends.
 
