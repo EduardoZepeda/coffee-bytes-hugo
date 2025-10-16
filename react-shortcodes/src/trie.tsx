@@ -2,8 +2,9 @@ import React, { useState, useEffect, useCallback, useRef } from 'preact/compat';
 import { Search, Plus, Trash2, RotateCcw } from 'lucide-react';
 import css from './style.css?inline';
 import { render } from 'preact';
-import { ReactFlow, applyNodeChanges, applyEdgeChanges, addEdge } from '@xyflow/react';
+import { ReactFlow, applyNodeChanges, applyEdgeChanges } from '@xyflow/react';
 import cssFlow from '@xyflow/react/dist/style.css?inline';
+import { Node, Edge } from '@xyflow/react';
 
 interface TrieNode {
   children: Map<string, TrieNode>;
@@ -41,6 +42,19 @@ class Trie {
   }
 
   search(word: string): boolean {
+    let current = this.root;
+
+    for (const char of word.toUpperCase()) {
+      if (!current.children.has(char)) {
+        return false;
+      }
+      current = current.children.get(char)!;
+    }
+
+    return current.isEndOfWord;
+  }
+
+  highlightSearchPath(word: string): boolean {
     let current = this.root;
 
     for (const char of word.toUpperCase()) {
@@ -97,10 +111,20 @@ class Trie {
   }
 }
 
-const getNodesAndEdges = (trie: TrieNode) => {
-  const initialNodes: any[] = [];
-  const initialEdges: any[] = [];
+const getNodesAndEdges = (trie: TrieNode, highlightPath: string = '') => {
+  const initialNodes: Node[] = [];
+  const initialEdges: Edge[] = [];
   let nodeId = 0;
+  const highlightPathNodes = new Set<TrieNode>();
+  if (highlightPath) {
+    let currentNode: TrieNode | undefined = trie;
+    highlightPathNodes.add(currentNode);
+    for (const char of highlightPath.toUpperCase()) {
+      currentNode = currentNode.children.get(char);
+      if (!currentNode) break;
+      highlightPathNodes.add(currentNode);
+    }
+  }
 
   // Store the mapping from trie node to React Flow node ID and its character
   const nodeMap = new Map<TrieNode, { id: string; char: string }>();
@@ -187,6 +211,7 @@ const getNodesAndEdges = (trie: TrieNode) => {
   while (queue.length > 0) {
     const { node, parentId, position, char } = queue.shift()!;
 
+    const isHighlight = highlightPathNodes.has(node); // Add this line
     // Generate or get the node ID
     let nodeInfo = nodeMap.get(node);
     if (!nodeInfo) {
@@ -211,7 +236,7 @@ const getNodesAndEdges = (trie: TrieNode) => {
           justifyContent: 'center',
           borderRadius: '50%',
           border: node.isEndOfWord ? '1px solid #ef4444' : '1px solid #3b82f6',
-          backgroundColor: node.isEndOfWord ? '#fef2f2' : '#eff6ff',
+          backgroundColor: isHighlight ? '#FACC15' : (node.isEndOfWord ? '#fef2f2' : '#eff6ff'),
           color: node.isEndOfWord ? '#ef4444' : '#1e40af',
           fontWeight: 'bold',
         },
@@ -220,13 +245,16 @@ const getNodesAndEdges = (trie: TrieNode) => {
 
     // Add edge from parent if not root
     if (parentId !== null) {
+      const parentNode = [...nodeMap.entries()].find(([_, val]) => val.id === parentId)?.[0];
+      const isEdgeHighlight = parentNode && highlightPathNodes.has(parentNode) && isHighlight;
+
       initialEdges.push({
         id: `${parentId}-${nodeInfo.id}`,
         source: parentId,
         target: nodeInfo.id,
         type: 'smoothstep',
-        style: { stroke: '#94a3b8' },
-        animated: false
+        style: { stroke: isEdgeHighlight ? '#f59e0b' : '#94a3b8', strokeWidth: isEdgeHighlight ? 3 : 2 },
+        animated: isEdgeHighlight
       });
     }
 
@@ -256,15 +284,16 @@ const getNodesAndEdges = (trie: TrieNode) => {
   return { initialNodes, initialEdges };
 };
 
+
+
 const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchResult: boolean | null }> = ({
   trie,
   highlightPath,
   searchResult
 }) => {
-  const [nodes, setNodes] = useState<any[]>([]);
-  const [edges, setEdges] = useState<any[]>([]);
+  const [nodes, setNodes] = useState<Node[]>([]);
+  const [edges, setEdges] = useState<Edge[]>([]);
   const reactFlowWrapper = useRef<HTMLDivElement>(null);
-
   const onNodesChange = useCallback(
     (changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
     []
@@ -274,10 +303,10 @@ const TrieVisualization: React.FC<{ trie: Trie; highlightPath: string; searchRes
     (changes) => setEdges((eds) => applyEdgeChanges(changes, eds)),
     []
   );
-
+  
   // Update nodes and edges when the trie changes
   useEffect(() => {
-    const { initialNodes, initialEdges } = getNodesAndEdges(trie.root);
+    const { initialNodes, initialEdges } = getNodesAndEdges(trie.root, highlightPath);
     setNodes(initialNodes);
     setEdges(initialEdges);
   }, [trie.root, highlightPath]);
@@ -471,11 +500,9 @@ function TrieSimulator() {
 
       {/* Message */}
       {message && (
-        <div className={`p-4 rounded-md ${message.includes('successfully') || message.includes('found')
-          ? 'bg-green-100 text-green-800 border border-green-200'
-          : message.includes('not found') || message.includes('does not exist')
-            ? 'bg-red-100 text-red-800 border border-red-200'
-            : 'bg-blue-100 text-blue-800 border border-blue-200'
+        <div className={`p-4 rounded-md ${message.includes('not found') || message.includes('does not exist')
+            ? 'bg-red-500 text-white border border-red-200' : message.includes('successfully') || message.includes('found')
+          ? 'bg-green-100 text-green-800 border border-green-200': 'bg-blue-500 text-white border border-blue-200'
           }`}>
           {message}
         </div>
@@ -501,7 +528,7 @@ function TrieSimulator() {
             <span>End of word</span>
           </div>
           <div className="flex items-center">
-            <div className="w-12 h-12 rounded-full bg-blue-100 border-2 border-blue-500 ring-2 ring-yellow-300 mr-2 flex items-center justify-center text-xs">A</div>
+            <div className="w-12 h-12 rounded-full bg-yellow-500 border-2 border-blue-500 mr-2 flex items-center justify-center text-xs">A</div>
             <span>Highlighted path</span>
           </div>
         </div>
