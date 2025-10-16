@@ -152,7 +152,7 @@ Aquí es donde realmente lucen:
 
 Son devoradores de memoria, pero rapidísimos cuando estás constantemente verificando o sugiriendo palabras.
 
-## Big O y los Trie Trees
+## Rendimiento Big O y los Trie Trees
 
 ¿Y qué pasa con el rendimiento y la [notación Big O]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="es" >}})? Esta estructura de datos tiene un rendimiento de O(L), donde L es la longitud de la palabra. El peor caso es una palabra muy larga, o frases enteras, pero nada más.
 
@@ -165,7 +165,7 @@ Existen técnicas para optimizar memoria si quieres sacarle más jugo a esta est
 * Puedes almacenar contadores de prefijos en cada nodo para saber fácilmente cuántas palabras empiezan con cierto prefijo.
 * También puedes guardar metadata extra en los nodos (como frecuencias para escritura predictiva).
 
-## El final de mi entrada sobre trie trees
+## El final de mi post sobre trie trees
 
 Probablemente no uses esta estructura de datos todos los días, a menos que trabajes en buscadores, autocompletado u otras tareas similares, pero sí aparecen seguido en sistemas grandes y complejos. Aun así, creo que muestran cómo se puede afinar el rendimiento de formas bien inesperadas.
 

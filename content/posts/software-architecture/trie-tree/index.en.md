@@ -152,7 +152,7 @@ Now, where they really shine:
 
 Memory eaters but lightning-fast when you're constantly checking or suggesting words.
 
-## Big O and Trie Trees
+## Big O performance and Trie Trees
 
 What about performance and [Big O notation]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="en" >}})? This data structure has a O(L) where L is the word's length. The worst case scenario is a long word, or long sentences.
 
@@ -165,7 +165,7 @@ There are some memory optimization techniques if you want to squeeze more juice 
 - You can store counts of prefixes in each node to easily get how many words starts with a certain prefix.
 - You can also store extra metadata at nodes (like frequency counts for predictive typing).
 
-## The end of trie trees
+## You probably won't need trie trees
 
 You probably won't use this data structure every day, unless you're into search engines, autocomplete or other related tasks, but they can be frequent in big and complex systems. But still I think that this data structure shows how you can tune performance in the most unexpected ways.
 
