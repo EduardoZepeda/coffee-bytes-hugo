@@ -28,8 +28,6 @@ Aside from suggestions you can also find trie trees in DNA sequence matching in 
 
 When you're working with strings in programming—think autocomplete, search suggestions (like I mentioned), or even dictionaries—you'll eventually bump into something called a **Trie Tree**. The name might sound fancy, but the idea is straightforward once you picture it.
 
-{{<ad0>}}
-
 Let's see how they stand apart from binary trees, what they're good for, and in what kind of situations they just suck.
 
 {{<trieTree>}}
@@ -53,6 +51,8 @@ Think of it like a family tree but instead of faces you use letters.
 ### How does it differ from a binary tree?
 
 At first glance, you might think, "Wait, isn't a trie tree a binary tree?" Not quite. A binary tree is built around two child nodes (left and right), usually to order numbers or balance structures. 
+
+{{<ad0>}}
 
 ``` mermaid
 graph TD;

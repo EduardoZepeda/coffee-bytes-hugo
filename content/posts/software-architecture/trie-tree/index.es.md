@@ -28,7 +28,6 @@ Además de su uso más común: sugerencias de text, también puedes encontrar tr
 
 Cuando trabajas con strings en programación—ya sea autocompletado, sugerencias de búsqueda (como ya mencioné) o incluso diccionarios—tarde o temprano te toparás con algo llamado **Trie Tree**. El nombre puede sonar rimbombante, pero la idea es bastante sencilla una vez que la entiendes.
 
-{{<ad0>}}
 
 Vamos a ver en qué se diferencia de un árbol binario, para qué sirve y en qué situaciones simplemente apesta.
 
@@ -39,6 +38,9 @@ Vamos a ver en qué se diferencia de un árbol binario, para qué sirve y en qu�
 Un **Trie** (se pronuncia en inglés igual a "try") es un tipo especial de árbol que guarda strings por sus prefijos. En lugar de almacenar palabras completas en cada nodo, cada nivel del árbol representa solo un carácter. Si sigues un camino desde la raíz hasta un nodo, básicamente estás trazando un prefijo.
 
 Por ejemplo, almacenar "cat" y "car" compartiría los dos primeros pasos ("c" → "a"), y luego se separan en la "t" y la "r". Es como organizar palabras no por la cadena completa, sino por sus prefijos en común. Como los morfemas, que sirven de base para variaciones de palabras.
+
+{{<ad0>}}
+
 
 ``` mermaid
 graph TD;

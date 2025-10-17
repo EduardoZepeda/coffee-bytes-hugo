@@ -21,3 +21,14 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false; /* eslint-disable import/first */
 ```
+
+
+## Golang serverless actions
+
+Doesn't detect environmental variables. They should be placed outside 
+
+``` go
+func init(){
+    .
+}
+```
