@@ -9,13 +9,15 @@ categories:
 - opinion
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
-description: I tell you what I did wrong, what I did right and what I learned from
-  optimizing the technical SEO aspects of my website so that you don't make the same
+description: I tell you everything about my technical SEO mistakes, what I did wrong, what I did right and what I learned from optimizing all the technical SEO aspects of my blog
   mistakes.
 keywords:
 - opinion
 - seo
 - web development
+- sitemap
+- wordpress
+- hugo
 title: My technical SEO mistakes when I migrated my site from Wordpress
 ---
 
@@ -102,6 +104,21 @@ When I used Wordpress the Yoast plugin took care of the structured data markup, 
 {{< figure src="images/schema-ld+json.png" class="md-local-image" alt="Screenshot of structured data markup on a web site" caption="The structured data markup for a web site looks like this" >}}
 
 {{<box type="info" message="Structured data markup is usually in the form of an application/ld+json script on a website, it cannot be seen visually but it is read by search engines and helps them to understand the type and relationships that exist between each of the entities on your website.">}}
+
+## Don't forget to update Google Search Console
+
+If you are also changing your domain when changing your website, Google Search Console has a tool that allows you to tell Google that you are changing the domain. This way, Google “knows” that you are migrating your content and can match the new URLs to the old ones so that they do not lose their positions in its ranking system.
+
+## Remember to take the semantic structure into account
+
+If you are migrating from WordPress, this platform has a certain URL structure, for example:
+
+``` bash
+/category-1/title-54
+/category-2/title-12
+```
+
+Make sure that every URL on your new site has the same structure. It will take some extra work, but it will ensure that search engines understand the hierarchies between the elements of your website in the same way.
 
 That was the tragic story of how my traffic went down abruptly, because I was a layman in SEO. 
 

@@ -31,26 +31,26 @@ If you have no idea what cryptography is, you can take this rather simple defini
 Codes with secret information? Like secret messages? Yes, messages that if someone were to read, they wouldn't know what they mean. Look at these examples, do you already know what message each one hides?
 
 ```python
-# Cifrado César
+# César Cipher
 Ujsiyru bq gqbqriq kfcqku ud bfj sfcudkqiyfj jy gltyjku tujsyviqi ub kuñkf
 ```
 
 The one above is very simple to decipher. This one is even more complicated but a piece of cake for any modern computer. Each text was created using a different encryption method.
 
 ```python
-# Cifrado Vigenère
+#  Vigenère Cipher
 Mbza btx cj i yomncm oom gfzr ihggtvitnvl gnth kpr vkymqbal iem. Culn kpr qxs zv gnx wfuzkgnj.
 ```
 
 In the book I am going to tell you about today, the author explains different encryption methods that have been used throughout history, such as the Caesar cipher, Vigenère, transposition, affine transformation, one-time use ciphers or the famous and currently used RSA cipher. The author will show you how to use Python to create encrypted messages and, once created, will teach you how to decrypt them by brute force, lexical analysis and other more sophisticated methods.
 
-Cracking Codes with Python assumes you know absolutely nothing about Python, it will use cryptography to teach you the basics about strings, lists, dictionaries, functions, sets, as well as their respective methods. This makes the introduction to the language much more enjoyable, as it is not a review of the documentation, but a completely practical application. However, because the book focuses only on the cryptographic part, you will not see any GUI, web scraping, API creation, external Python libraries (except [pyperclip](https://pypi.org/project/pyperclip/)), or any other modern applications of the language.
+Cracking Codes with Python assumes you know absolutely nothing about Python, it will use cryptography to teach you the basics about strings, lists, dictionaries, functions, sets, as well as their respective methods. This makes the introduction to the language much more enjoyable, as it is not a review of the documentation, but a completely practical application. However, because the book focuses only on the cryptographic part, you will not see any GUI, web scraping, API creation, external Python libraries (except [pyperclip](https://pypi.org/project/pyperclip/#?)), or any other modern applications of the language.
 
-This book is completely free for you to read in its entirety, to read it [go to the author's official website](http://inventwithpython.com/cracking/)
+This book is completely free for you to read in its entirety, to read it [go to the author's official website](http://inventwithpython.com/cracking/) or you can buy it on Amazon here: [Cracking codes with Python](https://amzn.to/4n8EZk9#?)
 
 {{<ad1>}}
 
-## My opinion
+## My opinion about Cracking Codes with Python
 
 From my standpoint Cracking Codes with Python is good material if any of the following assumptions are met:
 

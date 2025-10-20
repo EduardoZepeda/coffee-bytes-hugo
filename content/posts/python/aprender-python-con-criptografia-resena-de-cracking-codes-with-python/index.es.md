@@ -46,13 +46,13 @@ Mbza btx cj i yomncm oom gfzr ihggtvitnvl gnth kpr vkymqbal iem. Culn kpr qxs zv
 
 En el libro del que vengo a platicarte hoy el autor te explica diferentes métodos de cifrado que han sido usados a lo largo de la historia, tales como el cifrado César, Vigenère, transposición, transformación afín, cuadernos de un solo uso o el famoso y actualmente usado cifrado RSA. El autor te mostrará como usar Python para crear mensajes cifrados y, una vez creados, te enseñará a descifrarlos por fuerza bruta, análisis léxico y otros métodos más sofisticados.
 
-Cracking Codes with Python parte del supuesto de que no sabes absolutamente nada de Python, usará la criptografía para enseñarte lo básico sobre cadenas de texto, listas, diccionarios, funciones, conjuntos, así como sus respectivos métodos. Esto hace que la introducción al lenguaje sea mucho más amena, pues no es un repaso a la documentación, sino una aplicación completamente práctica. Sin embargo, debido a que el libro se centra únicamente en la parte criptográfica, no verás nada interfaces gráficas, web scraping, ni creación de API, ni librerías externas de Python (salvo [pyperclip](https://pypi.org/project/pyperclip/)), ni ninguna otra de las aplicaciones modernas del lenguaje.
+Cracking Codes with Python parte del supuesto de que no sabes absolutamente nada de Python, usará la criptografía para enseñarte lo básico sobre cadenas de texto, listas, diccionarios, funciones, conjuntos, así como sus respectivos métodos. Esto hace que la introducción al lenguaje sea mucho más amena, pues no es un repaso a la documentación, sino una aplicación completamente práctica. Sin embargo, debido a que el libro se centra únicamente en la parte criptográfica, no verás nada interfaces gráficas, web scraping, ni creación de API, ni librerías externas de Python (salvo [pyperclip](https://pypi.org/project/pyperclip/#?)), ni ninguna otra de las aplicaciones modernas del lenguaje.
 
-Este libro se encuentra completamente gratis para que lo leas completo, para leerlo [entra en la página web oficial del autor.](http://inventwithpython.com/cracking/)
+Este libro se encuentra completamente gratis para que lo leas completo, para leerlo [entra en la página web oficial del autor.](http://inventwithpython.com/cracking/) o puedes comprarlo en Amazon en el siguiente enlace: [Cracking codes with Python](https://amzn.to/4n8EZk9#?)
 
 {{<ad1>}}
 
-## Mi opinión
+## Mi opinión de Cracking Codes with Python
 
 En mi opinión Cracking Codes with Python es un material bueno si se cumple alguno de los siguientes supuestos:
 
