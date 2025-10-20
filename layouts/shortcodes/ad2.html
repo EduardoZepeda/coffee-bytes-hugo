@@ -21,7 +21,7 @@
 
 <style>
   .google-ads-container-{{.Site.Params.adSlots.slot1}}{
-    background-color: yellow;
+    background-color: {{ if hugo.IsProduction }}transparent{{ else }}yellow{{ end }};
     width: 100%;
     height: 90px;
   }
