@@ -20,19 +20,19 @@
 {{ end }}
 
 <style>
-  .google-ads-container-{{.Site.Params.adSlots.slot1}}{
+  .google-ads-container-{{.Site.Params.adSlots.slot2}}{
     background-color: {{ if hugo.IsProduction }}transparent{{ else }}yellow{{ end }};
     width: 100%;
     height: 90px;
   }
   @media (max-width: 720px) {
-    .google-ads-container-{{.Site.Params.adSlots.slot1}} {
+    .google-ads-container-{{.Site.Params.adSlots.slot2}} {
       height: 280px;
       width: 480px;
     }
   }
     @media (max-width: 480px) {
-    .google-ads-container-{{.Site.Params.adSlots.slot1}} {
+    .google-ads-container-{{.Site.Params.adSlots.slot2}} {
       height: 280px;
       width: 300px;
     }
