@@ -12,9 +12,8 @@ url: "/en/pages/books-i-read-and-reviews"
 
 I'm currently reading:
 
-- The Rust Programming Language by Steve Klabnik
+![System design Interview Part II](https://res.cloudinary.com/dwrscezd2/image/upload/v1762554573/coffee-bytes/system-design-interview-ii-book-cover-350_ygf5mc.jpg "System design Interview Part II")
 
-![The rust programming language book](images/the-rust-programming-language-book.jpg "The rust programming language book")
 
 ## Books I read
 
@@ -23,6 +22,8 @@ The list below contains almost all the books I've read about programming and web
 I've reviewed some of them, I hope to review most of them in the near future, before they become obsolete.
 
 By the way, the books are not in any particular order.
+
+![The rust programming language book](images/the-rust-programming-language-book.jpg "The rust programming language book")
 
 ![Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman](images/sicp-js.jpg "Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman")
 

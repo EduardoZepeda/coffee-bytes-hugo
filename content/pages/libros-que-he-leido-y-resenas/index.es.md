@@ -9,13 +9,13 @@ Esta es la lista de libros que he leído para aprender sobre desarrollo web y pr
 
 ## Actualmente estoy leyendo:
 
-- The Rust Programming Language por Steve Klabnik
-
-{{< figure src="images/the-rust-programming-language-book.jpg" alt="The rust programming language book" caption="The rust programming language book" >}}
+![System design Interview Part II](https://res.cloudinary.com/dwrscezd2/image/upload/v1762554573/coffee-bytes/system-design-interview-ii-book-cover-350_ygf5mc.jpg "System design Interview Part II")
 
 ## Mi lista de libros
 
 Los libros no están en ningún orden en particular:
+
+{{< figure src="images/the-rust-programming-language-book.jpg" alt="The rust programming language book" caption="The rust programming language book" >}}
 
 {{< figure src="images/sicp-js.jpg" alt="Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman" caption="Structure and interpretation of computer programs: Gerald Sussman, Hal Abelson, Julie Sussman" >}}
 
