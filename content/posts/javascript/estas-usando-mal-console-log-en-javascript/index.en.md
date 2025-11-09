@@ -2,6 +2,7 @@
 aliases:
 - /en/you-are-misusing-consolelog-in-javascript/
 - /en/you-are-misusing-console.log-in-javascript/
+- /en/javascript/you-are-misusing-console.log-in-javascript/
 authors:
 - Eduardo Zepeda
 categories:
