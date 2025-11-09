@@ -4,6 +4,7 @@ aliases:
 - /tutorial-generacion-de-pdfs-con-django-y-reportlab
 - /generar-pdfs-con-django-y-reportlab
 - /es/tutorial-generacion-de-pdfs-con-django-y-reportlab/
+- /es/generar-pdfs-con-django-y-reportlab/
 authors:
 - Eduardo Zepeda
 categories:

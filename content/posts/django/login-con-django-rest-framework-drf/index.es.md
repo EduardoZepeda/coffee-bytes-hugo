@@ -3,6 +3,7 @@ aliases:
 - /login-con-django-rest-framework-drf
 - /tutorial-login-y-registro-con-django-rest-framework-drf-y-jwt
 - /es/tutorial-login-y-registro-con-django-rest-framework-drf-y-jwt/
+- /es/login-con-django-rest-framework-drf/
 authors:
 - Eduardo Zepeda
 categories:

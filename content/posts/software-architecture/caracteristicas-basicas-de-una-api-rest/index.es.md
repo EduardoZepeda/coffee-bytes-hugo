@@ -4,6 +4,7 @@ aliases:
 - /caracteristicas-basicas-de-una-api-rest-y-recomendaciones
 - /caracteristicas-basicas-de-una-
 - /es/caracteristicas-basicas-de-una-api-rest-y-recomendaciones/
+- /es/caracteristicas-basicas-de-una-api-rest/
 authors:
 - Eduardo Zepeda
 categories:

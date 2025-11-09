@@ -3,6 +3,7 @@ aliases:
 - /diferencias-entre-select_related-y-prefetch_related-en-django
 - /diferencias-entre-select_related-y-prefetch_related-en-django//1000
 - /es/diferencias-entre-select-related-y-prefetch-related-en-django/
+- /es/diferencias-entre-select_related-y-prefetch_related-en-django/
 authors:
 - Eduardo Zepeda
 categories:
