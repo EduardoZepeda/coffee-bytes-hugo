@@ -21,7 +21,7 @@ title: Estás usando mal console.log en javascript
 
 Te apuesto a que alguna vez has usado _console.log()_ para depurar los errores al programar en javascript. Pero quizás no sepas que _console_ tiene otros métodos muy útiles a parte de _log()_. En esta entrada voy a colocar algunos de los métodos más útiles que he encontrado en la web. En esta entrada voy a colocar algunos de los métodos más útiles que he encontrado en la web.
 
-## Muestra información
+## Muestra información con console.info
 
 _console.info()_ cumple la función de presentar información
 
@@ -33,7 +33,7 @@ console.info("Texto con propósito informativo")
 
 {{<ad1>}}
 
-## Muestra mensajes de advertencia
+## Muestra mensajes de advertencia con console.warn
 
 _console.warn()_ muestra un mensaje de advertencia, con fondo amarillo
 
@@ -43,7 +43,7 @@ console.warn("Muestra un mensaje de advertencia")
 
 {{< figure src="images/warn.jpg" class="md-local-image" alt="Impresion con console.warn en consola" >}}
 
-## Muestra un mensaje de error
+## Muestra un mensaje de error con console.error
 
 _console.error()_ nos muestra un mensaje de error
 
@@ -55,7 +55,7 @@ console.error("Muestra un mensaje de error")
 
 {{< figure src="images/error.jpg" class="md-local-image" alt="Error en consola impreso con console.error" >}}
 
-## Evalua si una expresión es true, o muestra un error
+## Evalua si una expresión es true, o muestra un error con console.assert
 
 _console.assert()_ recibe dos argumentos: el primero es una expresión, el segundo un mensaje a mostrar si la expresión es false.
 
@@ -71,7 +71,7 @@ console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es
 
 {{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Impresión en consola con console.assert para true" >}}
 
-## Cuenta eventos
+## Cuenta eventos con console.count
 
 _console.count()_ recibe una etiqueta que nosotros definimos, cada vez que se ejecute nos mostrará cuantas veces se ha ejecutado esta función con la etiqueta dada.
 
@@ -97,7 +97,7 @@ Ya se tiene un conteo para 3 y 7
 9: 1
 ```
 
-## Imprime un objeto como JSON
+## Imprime un objeto como JSON con console.dir
 
 Para este ejemplo creamos un objeto
 
@@ -135,7 +135,7 @@ Mensajes agrupados
 
 {{< figure src="images/group.jpg" class="md-local-image" alt="Impresión de un grupo con console.group en consola" >}}
 
-## Mide el tiempo
+## Mide el tiempo con console.time
 
 _console.time()_ empezará un temporizador que se detendrá cuando usemos console.timeEnd(). Lo que nos sirve para medir todo lo que se ejecuta en medio de estas dos funciones.
 

@@ -19,48 +19,48 @@ title: You don't know how to use Javascript console
 
 I bet you have ever used _console.log()_ to debug errors when programming in javascript. But you may not know that _console_ has other useful methods besides _log()_. In this post I am going to place some of the most useful methods that I have found on the web. In this entry I am going to put some of the most useful methods I have found on the web.
 
-## Displays information
+## Console.info Displays information
 
 _console.info()_ performs the function of displaying information
 
 ```javascript
-console.info("Texto con propósito informativo")
+console.info("Info message")
 ```
 
 {{< figure src="images/info.jpg" class="md-local-image" alt="Print with console.info in console" >}}
 
 {{<ad1>}}
 
-## Displays warning messages
+## console.warn Displays warning messages
 
 _console.warn()_ displays a warning message, with yellow background
 
 ```javascript
-console.warn("Muestra un mensaje de advertencia")
+console.warn("Shows a warning message")
 ```
 
 {{< figure src="images/warn.jpg" class="md-local-image" alt="Print with console.warn in console" >}}
 
-## Displays an error message
+## console.error Displays an error message
 
 _console.error()_ shows us an error message
 
 {{<ad2>}}
 
 ```javascript
-console.error("Muestra un mensaje de error")
+console.error("Shows an error message")
 ```
 
 {{< figure src="images/error.jpg" class="md-local-image" alt="Error in console printed with console.error" >}}
 
-## Evaluates whether an expression is true, or displays an error
+## Console.assert Evaluates whether an expression is true, or displays an error
 
 _console.assert()_ takes two arguments: the first is an expression, the second a message to display if the expression is false.
 
 ```javascript
-console.assert(false, "Este mensaje se muestra porque el primer argumento es false")
-Assertion failed: Este mensaje se muestra porque el primer argumento es false
-console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es true")
+console.assert(false, "This message is being shown because first argument is False")
+Assertion failed: This message is being shown because first argument is False
+console.assert(true, "This message will not be shown because the first argument is true")
 ```
 
 {{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Console printout with console.assert ara false" >}}
@@ -69,20 +69,20 @@ console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es
 
 {{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Console printout with console.assert for true" >}}
 
-## Event account
+## Console.count, event account
 
 _console.count()_ receives a label that we define, each time it is executed it will show us how many times this function has been executed with the given label.
 
 ```javascript
 console.count(3)
 console.count(7)
-console.log("Ya se tiene un conteo para 3 y 7")
+console.log("You already have a counter for 3 and 7")
 for(let i=0; i<10; i++){
     console.count(i)
 }
 3: 1 
 7: 1 
-Ya se tiene un conteo para 3 y 7
+You already have a counter for 3 and 7
 0: 1 
 1: 1 
 2: 1 
@@ -116,12 +116,12 @@ ram: "HyperX FURY DDR4 8GB"
 
 {{< figure src="images/dir.jpg" class="md-local-image" alt="Console printout with console.dir" >}}
 
-## Group messages
+## Console.group Group messages
 
 _console.group()_ marks the beginning of the messages we want to group and receives as argument the title of the grouping, while console.groupEnd() marks the end of this grouping.
 
 ```javascript
-console.group("Mensajes agrupados")
+console.group("grouped messages")
 console.log("Log")
 console.info("Info")
 console.groupEnd()
@@ -133,7 +133,7 @@ Mensajes agrupados
 
 {{< figure src="images/group.jpg" class="md-local-image" alt="Printout of a group with console.group in console" >}}
 
-## Measure time
+## Measure time with console.time
 
 _console.time()_ will start a timer that will stop when we use console.timeEnd(). Which is useful for us to measure everything that is executed in between these two functions.
 
@@ -141,7 +141,7 @@ _console.time()_ will start a timer that will stop when we use console.timeEnd()
 console.time()
 functionToMeasure()
 console.timeEnd()
-default: 8605ms - temporizador finalizado
+default: 8605ms - timer finished
 ```
 
 ## Print a list of objects as a table
