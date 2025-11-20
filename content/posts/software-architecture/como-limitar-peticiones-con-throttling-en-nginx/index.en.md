@@ -24,6 +24,8 @@ Ngnix throttling allows us to limit the number of requests to a certain user. Th
 
 If you are looking to optimize the performance of an application using Nginx I have a post where I give you some [recommendations to improve nginx performance](/en/linux/nginx-keepalive-gzip-http2-better-performance-on-your-website/)
 
+By the way, I coded an [interactive Throttling vs debounce simulator]({{< ref path="/posts/javascript/debounce-y-throttle-en-javascript/index.md" lang="en" >}}) that you can play with here.
+
 ## The bucket algorithm
 
 Nginx will handle throttling as if it were a bucket with holes in it: the water that goes into the bucket comes out the bottom. If we increase the flow and the bucket fills faster than it flows out of the holes the bucket will overflow.

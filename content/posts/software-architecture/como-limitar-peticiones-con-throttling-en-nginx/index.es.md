@@ -27,6 +27,8 @@ El throttling en Ngnix nos permite limitar el número de peticiones a un cierto 
 
 Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/es/linux/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
 
+Cree un [simulador interactivo de throttling y debounce]({{< ref path="/posts/javascript/debounce-y-throttle-en-javascript/index.md" lang="en" >}}) con el que puedes jugar aquí.
+
 ## El algoritmo de la cubeta
 
 Nginx manejará el throttling como si se tratara de una cubeta con agujeros: el agua que entra en la cubeta sale por la parte de abajo. Si aumentamos el flujo y la cubeta se llena más rápido de lo que sale por los agujeros la cubeta se desbordará.

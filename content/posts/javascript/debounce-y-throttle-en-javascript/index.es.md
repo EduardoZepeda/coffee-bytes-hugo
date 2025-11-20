@@ -8,6 +8,7 @@ authors:
 - Eduardo Zepeda
 categories:
 - javascript
+- algorithms
 coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'

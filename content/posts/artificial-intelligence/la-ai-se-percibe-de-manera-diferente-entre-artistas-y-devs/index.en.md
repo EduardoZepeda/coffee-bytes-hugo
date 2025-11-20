@@ -57,7 +57,7 @@ Oscar Wilde would say:
 
 > "All art is quite useless."  
 
-His statement doesn’t mean art is useless but that it exists for beauty and expression, not survival or moral instruction.  
+His statement doesn’t mean art is useless in a literal sense, but that it exists for beauty and expression, not survival or moral instruction.  
 
 If there’s any truth to that, art is far more flexible than code and logical-mathematical systems.  
 
@@ -85,7 +85,7 @@ As I mentioned earlier, art is far more subjective and variable than coding. The
 
 When it comes to writing code, however, the number of ways to achieve the same thing is much more limited. Writing a loop that counts from 0 to 100 in the same programming language might have a dozen solutions.  
 
-This number starkly contrasts with the potential ways to paint a concept, which could be practically limitless.  
+This number starkly contrasts with the potential ways to paint a concept, which could be practically limitless.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753063920/coffee-bytes/artificial-intelligence-art-randomness_pozdsb.webp" class="md-local-image" alt="An emotional photograph in the style of a Fujifilm disposable camera (like 'Utsurundesu') showing a medium shot of a Japanese woman in her 20s, crying at a wedding ceremony. She stands among guests, wearing a soft pastel-colored dress. Her makeup is slightly smudged by tears. The scene is imbued with deep nostalgia and melancholy. Soft, dim lighting casts a gentle glow on her dark hair. The focus is on her expressive face, and in the reflection of her eyes, a bride and groom can be seen standing together. The background shows a beautiful wedding venue with warm lighting. The image features pronounced film grain, slightly muted tones, and cinematic blur, amplifying the emotional intensity of the moment from a wider perspective. The composition evokes longing and fleeting memories, characteristic of heartfelt disposable camera photography. The background is softly blurred." caption="" >}}  
 
