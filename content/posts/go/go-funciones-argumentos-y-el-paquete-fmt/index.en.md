@@ -155,10 +155,10 @@ Printf is like Println but with position operators that tell go the type of data
 {{<ad3>}}
 
 ```go
-texto := "World!"
-numero := 42
+text := "World!"
+number := 42
 // %s es de string y %d de digit
-fmt.Printf("Hello %s %d", texto, numero)
+fmt.Printf("Hello %s %d", text, number)
 ```
 
 ### Types of operators
@@ -184,7 +184,7 @@ You can see the rest of the operators in the [official go documentation](https:/
 Sprintf has the same syntax as printf, but **with the difference that it does not print to the screen, but generates a string**.
 
 ```go
-var message string = fmt.Sprintf("Hello %s %d", texto, numero)
+var message string = fmt.Sprintf("Hello %s %d", text, number)
 ```
 
 But what if we want to get input from a user? Well, just like in C, we have the scan function.

@@ -165,7 +165,7 @@ curl localhost:8000/items/42
 Since we did not specify an optional GET parameter it returns a _null_ instead. See what happens if we try to send an invalid value, i.e. not an integer.
 
 ```bash
-curl localhost:8000/items/texto -i
+curl localhost:8000/items/text -i
 HTTP/1.1 422 Unprocessable Entity
 date: Sun, 11 Oct 2020 00:13:38 GMT
 server: uvicorn
@@ -209,7 +209,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.post("/items/", status_code=201)
 def post_item():
@@ -256,7 +256,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.get("/cookie/")
 def read_cookie(my_cookie = Cookie(None)):
@@ -280,7 +280,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.get("/setcookie/")
 def set_cookie(response: Response):
@@ -315,7 +315,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.get("/headers/")
 def return_header(user_agent = Header(None)):
@@ -347,7 +347,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.get("/setheader/")
 def set_header(response: Response):
@@ -404,7 +404,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.middleware("http")
 async def my_middleware(request, call_next):
@@ -475,7 +475,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.post("/subscribe/")
 async def subscribe(email=Form(...)):
@@ -503,7 +503,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.post("/files/")
 async def create_file(file: bytes = File(...)):
@@ -519,21 +519,21 @@ For this example we will create a simple text file.
 The following command will create a txt extension file in our current folder. If you are not comfortable using the GNU/Linux terminal visit my series of posts where I explain the [basic GNU/Linux commands]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
 
 ```bash
-printf "texto" > archivo.txt
+printf "text" > file.txt
 ```
 
 Notice how a request to _/files/_ returns the size of our file.
 
 ```bash
-curl -F "file=@archivo.txt" localhost:8000/files/
+curl -F "file=@file.txt" localhost:8000/files/
 {"file_size":5}
 ```
 
 While a request to _/uploadfile/_ returns us the name of our file
 
 ```bash
-curl -F "file=@archivo.txt" localhost:8000/uploadfile/
-{"filename":"archivo.txt"}
+curl -F "file=@file.txt" localhost:8000/uploadfile/
+{"filename":"file.txt"}
 ```
 
 You have probably already noticed that **in no case is the file being saved, but only made available to fastAPI**, so that we can do with it whatever we want within our function.
@@ -550,7 +550,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.get("/error/")
 def generate_error():
@@ -581,7 +581,7 @@ from typing import Optional
 
 app = FastAPI()
 
-# {...código anterior}
+# {...rest of the code}
 
 @app.get("/error/")
 def generate_error():

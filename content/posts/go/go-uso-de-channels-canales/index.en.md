@@ -11,6 +11,7 @@ keywords:
 - go
 - concurrence
 - channels
+- deadlock
 title: 'Go: use of channels to communicate goroutines'
 ---
 
@@ -66,7 +67,7 @@ func say(text string, c chan string) {}
 The data type of a channel can also be one defined using a _struct_.
 
 ```go
-func say(text string, c chan MiStruct) {}
+func say(text string, c chan MyStruct) {}
 ```
 
 ### Putting data into a channel
@@ -101,13 +102,13 @@ package main
 
 import "fmt"
 
-func escribirEnCanal(texto string, c chan string) {
-    c <- texto
+func writeInChannel(text string, c chan string) {
+    c <- text
 }
 
 func main() {
     c := make(chan string)
-    go escribirEnCanal("Dato de un canal", c)
+    go writeInChannel("Channel Data", c)
     fmt.Println(<-c)
 }
 ```
@@ -132,7 +133,7 @@ While this is an output channel.
 func say(text string, c <-chan string) {}
 ```
 
-It is important to define the type of channel because, with bidirectional channels, we run the risk of causing a [deadlock in our go program](/en/go/go-channels-understanding-the-goroutines-deadlocks/).
+It is important to define the type of channel because, with bidirectional channels, we run the risk of causing a [deadlock in our go program]({{< ref path="/posts/go/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/index.md" lang="en" >}}).
 
 {{<ad1>}}
 
@@ -144,8 +145,8 @@ The len function tells us how much data there is in a channel, while cap returns
 
 ```go
 c := make(chan string, 3)
-c <- "dato1"
-c <- "dato2"
+c <- "data1"
+c <- "data2"
 fmt.Println(len(c), cap(c))
 // 2 3
 ```
@@ -160,10 +161,10 @@ If we want to disable a channel, even if it has available capacity to store more
 
 ```go
 c :=make(chan string, 3) 
-c <- "dato1" 
-c <- "dato2" 
+c <- "data1" 
+c <- "data2" 
 close(c)
-c <- "dato3"
+c <- "data3"
 //panic: send on closed channel
 ```
 
@@ -175,8 +176,8 @@ Range is ideal for iterating over channel data. However, it is important to note
 
 ```go
 c := make(chan string, 3)
-c <- "dato1"
-c <- "dato2"
+c <- "data1"
+c <- "data2"
 close(c)
 for message := range c {
     fmt.Println(message)

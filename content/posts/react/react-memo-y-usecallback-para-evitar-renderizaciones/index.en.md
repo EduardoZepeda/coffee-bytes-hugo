@@ -29,7 +29,7 @@ import ChildComponent from './ChildComponent'
 const MyComponent = () => {
   // callback va a ser diferente cada vez que este componente se renderice
   const callback = () => {
-    return 'Texto del componente hijo'
+    return 'Children component text'
   };
   return <ChildComponent callback={callback} />;
 }
@@ -45,8 +45,8 @@ The first step will be to memoize the child component, ChildComponent, so that i
 import { memo } from "react";
 
 const ChildComponent = ({ callback }) => {
-  const textoDelComponenteHijo = callback();
-  return <div>{textoDelComponenteHijo}</div>;
+  const ChildrenComponentText = callback();
+  return <div>{ChildrenComponentText}</div>;
 };
 
 export default memo(ChildComponent)
@@ -100,7 +100,7 @@ On the other hand, if you remove the useCallback hook, without removing memo, Ch
 ```javascript
 // MyComponent.js
 const callback = () => {
-    return "Texto del componente hijo";
+    return "Children component text";
   };
 ```
 
@@ -117,13 +117,13 @@ On the other hand, if you remove both memo and useCallback, the same thing will 
 useMemo can also be used to avoid renderings. How? In the previous post I mentioned that every time a component is rendered new objects are created, and these objects are not the same, even if they have the same properties, with the same values.
 
 ```javascript
-const A = {uno: 1, dos:2}
-const B = {uno: 1, dos:2}
+const A = {one: 1, two:2}
+const B = {one: 1, two:2}
 A===B
 // false
 ```
 
-Look at the following example, every time the component is re-rendered due to another component, or a change in the state, a new _statsDelMonstruo_ object will be created. Every time that happens React will ask inside useEffect: "Is the variable statsDelMonstruo the same as last time?" And the answer will be "no", because React creates a new object every time, even if this object has exactly the same values as its previous version, they are different objects.
+Look at the following example, every time the component is re-rendered due to another component, or a change in the state, a new _monsterStats_ object will be created. Every time that happens React will ask inside useEffect: "Is the variable monsterStats the same as last time?" And the answer will be "no", because React creates a new object every time, even if this object has exactly the same values as its previous version, they are different objects.
 
 {{<ad2>}}
 
@@ -136,15 +136,15 @@ const MyComponent = ({ prop }) => {
   const [mp, setMp] = useValue(100)
   // otro valores de estado
 
-  const statsDelMonstruo = { hp, mp }
+  const monsterStats = { hp, mp }
 
   useEffect(()=>{
-    console.log(statsDelMonstruo)
-  }, [statsDelMonstruo])
+    console.log(monsterStats)
+  }, [monsterStats])
 
   return (
     // Otros componentes
-    <RenderizaMonstruo stats={statsDelMonstruo}/>
+    <RenderizaMonstruo stats={monsterStats}/>
     );
 }
 
@@ -153,7 +153,7 @@ export default MyComponent
 
 {{<ad3>}}
 
-To solve this problem we can useMemo. Our memoizer function will keep the same object, as long as the values inside the square brackets do not change. Now, when React asks: "Is the variable _statsDelMonstruo_ the same as last time?" the answer will be "yes", it is the same variable, because as long as the variables in square brackets do not change, useMemo will return the same object in memory.
+To solve this problem we can useMemo. Our memoizer function will keep the same object, as long as the values inside the square brackets do not change. Now, when React asks: "Is the variable _monsterStats_ the same as last time?" the answer will be "yes", it is the same variable, because as long as the variables in square brackets do not change, useMemo will return the same object in memory.
 
 ```javascript
 import ChildComponent from './ChildComponent'
@@ -162,19 +162,19 @@ import {useCallback} from 'react'
 const MyComponent = ({ prop }) => {
   const [hp, setHp] = useValue(100)
   const [mp, setMp] = useValue(100)
-  // otro valores de estado
+  // other states
 
-  const statsDelMonstruo = useMemo(()=> {
+  const monsterStats = useMemo(()=> {
     return { hp, mp }
   }, [hp, mp])
 
   useEffect(()=>{
-    console.log(statsDelMonstruo)
-  }, [statsDelMonstruo])
+    console.log(monsterStats)
+  }, [monsterStats])
 
   return (
-    // Otros componentes
-    <RenderizaMonstruo stats={statsDelMonstruo}/>
+    // Other components
+    <RenderizaMonstruo stats={monsterStats}/>
     );
 }
 

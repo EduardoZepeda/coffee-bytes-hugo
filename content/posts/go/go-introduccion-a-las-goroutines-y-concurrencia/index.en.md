@@ -55,8 +55,8 @@ To generate a goroutine we add the keyword _go_ before a function. This will sch
 {{<ad2>}}
 
 ```go
-func write(texto string) {
-fmt.Println(texto)
+func write(text string) {
+fmt.Println(text)
 }
 fmt.Println("hey")
 go write("hey again")

@@ -14,6 +14,7 @@ keywords:
 - go
 - concurrencia
 - channels
+- deadlock
 slug: /go/go-uso-de-channels-o-canales-para-comunicar-goroutinas/
 title: 'Go: uso de channels o canales para comunicar goroutinas'
 ---
@@ -137,7 +138,9 @@ Mientras que este es un canal de salida.
 func say(text string, c <-chan string) {}
 ```
 
-Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go](/es/go/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/). 
+
+Es importante definir el tipo de canal pues, con los canales bidireccionales corremos el riesgo de ocasionar un [bloqueo o deadlock en nuestro programa de go]({{< ref path="/posts/go/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/index.md" lang="es" >}}).
+ 
 {{<ad1>}}
 
 ## Capacidad de un canal

@@ -86,7 +86,7 @@ The grep command (_Global Regular Expression Print_) searches for matching regul
 {{<ad3>}}
 
 ```bash
-grep "texto to search" <file>
+grep "text to search" <file>
  Search for a string in the given file
 grep -r "text to search" .
  search for a string recursively in the files of the working directory and subdirectories

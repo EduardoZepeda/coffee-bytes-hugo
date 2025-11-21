@@ -101,10 +101,10 @@ First let's see what happens if we try to change a type in Javascript.
 
 ```javascript
 //javascript
-let numeroEnTexto = "1"
-numeroEnTexto = 1 // no pasa nada
-const numero = 1 
-numero = "2"
+let stringNumber = "1"
+stringNumber = 1 // no pasa nada
+const number = 1 
+number = "2"
 Uncaught TypeError: Assignment to constant variable.
 ```
 
@@ -135,10 +135,10 @@ Python does not necessarily require you to specify the type of variable. See wha
 
 ```python
 # Python
-numero = "1"
-numero = 1
-numero = [1]
-numero = {1:1} # no error
+number = "1"
+number = 1
+number = [1]
+number = {1:1} # no error
 ```
 
 And what happens if we now try to add two variables of different types as we did in Javascript?
