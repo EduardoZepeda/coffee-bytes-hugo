@@ -48,7 +48,7 @@ React query takes care of reducing all the repetitive code that handles the whol
 
 ## React-icons-kit
 
-Sometimes it is quite annoying to take care of the graphic part of a web page. There are icons on all sides but there are looking for them, sometimes an icon package does not have all the icons we need and we have to combine different. An excellent option to these problems is [React-icons-kit](https://react-icons-kit.now.sh/#?).
+Sometimes it is quite annoying to take care of the graphic part of a web page. There are icons on all sides but there are looking for them, sometimes an icon package does not have all the icons we need and we have to combine different. An excellent option to these problems is [React-icons-kit](https://react-icons-kit.now.sh/).
 
 Before using it remember to check the license of the icons you decide to use, because not all licenses are equally permissive.
 
@@ -74,6 +74,6 @@ React admin is the equivalent of django admin but in React, an interface to perf
 
 React virtualized takes care of a problem that looks quite simple at first. Render lists and tabulable information. Just that? Well, yes, but rendering lists with a few elements wouldn't be a problem, would it? React Virtualized's forte is not rendering small lists, but large lists, larger than 1k elements with most of the problems presented already solved and tested.
 
-Visit [the React Virtualized page](https://bvaughn.github.io/react-virtualized/#/components/List#?) to read the complete documentation.
+Visit [the React Virtualized page](https://bvaughn.github.io/react-virtualized/#/components/List) to read the complete documentation.
 
 {{< figure src="images/ReactVirtualized.gif" class="md-local-image" alt="React Virtualized working to render tables" >}}

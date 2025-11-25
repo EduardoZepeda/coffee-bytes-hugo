@@ -128,7 +128,7 @@ Within the metatags are especially important the Open Graph, as they are the sta
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673982/coffee-bytes/og-meta-tags-visualized_vt8xkh.png" class="md-local-image" alt="Social networks use metatags to display relevant information on a page." caption="Social networks use metatags to display relevant information on a page." >}}
 
-There are some [meta tag generators](https://www.seoptimer.com/meta-tag-generator#?) that you can use to generate all the boilerplate, or simple ask chatGPT.
+There are some [meta tag generators](https://www.seoptimer.com/meta-tag-generator) that you can use to generate all the boilerplate, or simple ask chatGPT.
 
 ### Good performance is generally overrated in technical SEO basics
 

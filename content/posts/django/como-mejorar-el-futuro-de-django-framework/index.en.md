@@ -61,7 +61,7 @@ The above seems to me an interesting proposal but I also understand that, despit
 
 ## Read environment variables in Django without third-party libraries
 
-Django can read environment variables directly using Python's *os* library, but other libraries, such as [django-environ](https://django-environ.readthedocs.io/en/latest/#?), have been developed to provide a more robust solution, where it reads directly from an *.env* file and where the absence of an environment variable will crash the application, ensuring that a Django application cannot start if even one environment variable is missing, which is what I imagine the developers of this popular forum want.
+Django can read environment variables directly using Python's *os* library, but other libraries, such as [django-environ](https://django-environ.readthedocs.io/en/latest/), have been developed to provide a more robust solution, where it reads directly from an *.env* file and where the absence of an environment variable will crash the application, ensuring that a Django application cannot start if even one environment variable is missing, which is what I imagine the developers of this popular forum want.
 
 {{<ad3>}}
 
@@ -87,7 +87,7 @@ It seems to me that Django already does an excellent job with its template syste
 
 {{< figure src="https://htmx.org/img/memes/original.png" class="md-local-image" alt="Javascript delusion according to HTMX" caption="Javascript delusion according to HTMX" >}}
 
-Without more to add I leave the link to the discussion if you want to see the rest of [suggestions on how to improve Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/#?)
+Without more to add I leave the link to the discussion if you want to see the rest of [suggestions on how to improve Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/)
 
 
 ## Other suggestions on how to improve Django framework

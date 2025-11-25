@@ -75,7 +75,7 @@ They recommend setting the workers to (2 x number of cores) + 1. According to th
 
 If you use DRF and use its generic classes to create serializers, you may not exactly be getting the best performance. The generic classes for serializers perform data validation, which can be quite time consuming if you are only going to read data.
 
-Even if you remembered to mark your fields as read_only, DRF serializers are not the fastest, you might want to check out [Serpy](https://serpy.readthedocs.io/en/latest/#?), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/#?). The topic is quite broad, but stay with the idea that there is a major area of improvement in Django serializers.
+Even if you remembered to mark your fields as read_only, DRF serializers are not the fastest, you might want to check out [Serpy](https://serpy.readthedocs.io/en/latest/), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/). The topic is quite broad, but stay with the idea that there is a major area of improvement in Django serializers.
 
 I leave you this article that explains [how some developers managed to reduce the time cost of serialization by 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 
@@ -87,7 +87,7 @@ It probably sounds pretty obvious, yet I feel I should mention it: you don't nee
 
 Use the _paginator_ object provided by Django, or limit the results of a search to a few.
 
-DRF also has an option to [paginate your results](https://www.django-rest-framework.org/api-guide/pagination/#?), check it out.
+DRF also has an option to [paginate your results](https://www.django-rest-framework.org/api-guide/pagination/), check it out.
 
 ```python
 # review/views.py
@@ -203,7 +203,7 @@ def send_order_confirmation(order_pk):
 
 When your tables exceed millions of records, each search will go through the entire database, taking a very long time in the process. How could we solve this? By splitting the tables in parts so that each search is done on one of the parts, for example, one table for data from one year ago (or the period you prefer), another for data from two years ago and so on up to the first data.
 
-The instructions for implementing partitioning depend on the database you are using. If you are using postgres this feature is only available for Postgres versions higher than 10. You can use [django-postgres-extra](https://django-postgres-extra.readthedocs.io/en/master/table_partitioning.html#?) to implement those extra features not found in the django ORM.
+The instructions for implementing partitioning depend on the database you are using. If you are using postgres this feature is only available for Postgres versions higher than 10. You can use [django-postgres-extra](https://django-postgres-extra.readthedocs.io/en/master/table_partitioning.html) to implement those extra features not found in the django ORM.
 
 The implementation is too extensive and would require a full entry. There is an excellent article that explains how to implement [Postgresql partitioning in Django.](https://pganalyze.com/blog/postgresql-partitioning-django/#?)
 
@@ -244,13 +244,13 @@ It's not all about the database, sometimes the problem is in the Python code its
 
 In addition to the normal Python interpreter, the one offered by default on the official Python website, there are other interpreters that are sure to give you better performance.
 
-[Pypy](https://www.pypy.org/#?) is one of them, it is responsible for optimizing Python code by analyzing the type of objects that are created with each execution. This option is ideal for applications where Django is in charge of returning a result that was mainly processed using Python code.
+[Pypy](https://www.pypy.org/) is one of them, it is responsible for optimizing Python code by analyzing the type of objects that are created with each execution. This option is ideal for applications where Django is in charge of returning a result that was mainly processed using Python code.
 
 But not everything is wonderful; third-party interpreters, including pypy, are usually not 100% compatible with all Python code, but they are compatible with most of it, so, just like the previous option. **Using a third-party interpreter should also be one of the last options** you consider to solve your Django performance problem.
 
 ## Write bottlenecks in a low-level language with Swig
 
-If you've tried all of the above and still have a bottlenecked application, you're probably squeezing too much out of Python and need the speed of another language. But don't worry, you don't have to redo your entire application in C or C++. [Swig](http://www.swig.org/#?) allows you to create modules in C, C++, Java, Go or other lower level languages and import them directly from Python.
+If you've tried all of the above and still have a bottlenecked application, you're probably squeezing too much out of Python and need the speed of another language. But don't worry, you don't have to redo your entire application in C or C++. [Swig](http://www.swig.org/) allows you to create modules in C, C++, Java, Go or other lower level languages and import them directly from Python.
 
 Do you want to know how much difference there is between Python and a compiled language like go? in my post [Python vs Go I compare the speed of both languages]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}})
 
@@ -258,7 +258,7 @@ If you have a bottleneck caused by some costly mathematical computation, which h
 
 ## ORMs and alternative frameworks
 
-Depending on the progress of your application, you may want to migrate to another framework faster than Django. Django's ORM is not exactly the fastest out there, and, at the time of writing, it is not asynchronous. You might want to consider giving [sqlalchemy](https://www.sqlalchemy.org/#?), [ponyorm](https://ponyorm.org/#?) a try.
+Depending on the progress of your application, you may want to migrate to another framework faster than Django. Django's ORM is not exactly the fastest out there, and, at the time of writing, it is not asynchronous. You might want to consider giving [sqlalchemy](https://www.sqlalchemy.org/), [ponyorm](https://ponyorm.org/#?) a try.
 
 Or, if your application is not very complex at the database level, you may want to write your own sql queries and combine them with some other framework.
 
@@ -279,7 +279,7 @@ The instagram blog has a post called [Web Service efficiency at Instagram with P
 Here are the links to the blogs below:
 
 * [Pinterest engineering blog](https://medium.com/pinterest-engineering#?)
-* [Instagram's engineering blog](https://engineering.fb.com/tag/instagram/#?)
+* [Instagram's engineering blog](https://engineering.fb.com/tag/instagram/)
 
 References:
 - Definitive Guide to Django: Web Development Done Right by Adrian Holovaty and Jacob Kaplan Moss 

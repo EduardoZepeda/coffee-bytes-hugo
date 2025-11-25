@@ -118,4 +118,4 @@ La función throttling retorna una función que tendrá dos vertientes que depen
 ## Otros recursos sobre debounce y throttling
 
 - [Debounce y throttling en Typescript](https://charliesbot.dev/blog/debounce-and-throttle#?)
-- [Debounce y throttling aplicados al DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783#?)
+- [Debounce y throttling aplicados al DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783)

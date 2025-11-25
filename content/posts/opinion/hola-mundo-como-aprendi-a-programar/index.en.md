@@ -20,19 +20,19 @@ keywords:
 title: Hello World, how did I learn to code?
 ---
 
-The first time I used a computer was when I was 9 years old, in the computer room of the school where I studied. The teachers were teaching us how to operate the [Logo Writer turtle](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/#?) using simple commands, in MS-DOS. We made the turtle paint hexagons, octagons and even trapped it in an infinite loop.
+The first time I used a computer was when I was 9 years old, in the computer room of the school where I studied. The teachers were teaching us how to operate the [Logo Writer turtle](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/) using simple commands, in MS-DOS. We made the turtle paint hexagons, octagons and even trapped it in an infinite loop.
 
 I didn't have a computer at home, so my interaction with computers was limited to those two hours a week at school.
 
 When I was 12 years old my dad brought a computer at home, an IBM that he got to facilitate his work as a teacher. That little thing with 256 MB of RAM and 10 GB of hard drive was my test subject. I installed small programs on it, clicked on everything I could, downloaded the openings and endings of Neon Genesis Evangelion in midi (mp3 was not popular back then) and used it to play lots and lots of video games on the emulators that were available on the net.
 
-One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com/#?), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
+One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com/), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
 
 ## Internet and blogs
 
 {{<ad0>}}
 
-After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/#?)" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. 
+After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/)" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. 
 
 Eventually I wanted to customize it and found that to do so I had to modify the HTML and CSS code. In order to modify my tiny little corner on the internet the way I wanted, I learned the basics of HTML and CSS; to change the font color, the background, modify the layout to have more columns, to insert background images, to add small scripts and chatboxes, etc.
 

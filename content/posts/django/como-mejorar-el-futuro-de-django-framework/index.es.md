@@ -63,7 +63,7 @@ La anterior me parece una propuesta interesante pero también entiendo que, a pe
 
 ## Leer las variables entorno en Django sin librerías de terceros
 
-Django puede leer las variables de entorno utilizando directamente la librería *os* de Python, pero otras librerías, como [django-environ](https://django-environ.readthedocs.io/en/latest/#?), han sido desarrolladas para proveer una solución más robusta, en donde sea lea directamente desde un archivo *.env* y en donde la ausencia de una variable de entorno haga fallar la aplicación, garantizando que una aplicación de Django no pueda iniciar si falta tan solo una variable de entorno, que es lo que me imagino que los desarrolladores de este popular foro desean.
+Django puede leer las variables de entorno utilizando directamente la librería *os* de Python, pero otras librerías, como [django-environ](https://django-environ.readthedocs.io/en/latest/), han sido desarrolladas para proveer una solución más robusta, en donde sea lea directamente desde un archivo *.env* y en donde la ausencia de una variable de entorno haga fallar la aplicación, garantizando que una aplicación de Django no pueda iniciar si falta tan solo una variable de entorno, que es lo que me imagino que los desarrolladores de este popular foro desean.
 
 {{<ad3>}}
 
@@ -89,7 +89,7 @@ A mi me parece que Django ya hace un excelente trabajo con su sistema de plantil
 
 {{< figure src="https://htmx.org/img/memes/original.png" class="md-local-image" alt="Delirio de Javascript de acuerdo a HTMX" caption="Delirio de Javascript de acuerdo a HTMX" >}}
 
-Sin más que agregar te dejo el enlace a la discusión por si quieres ver el resto de [sugerencias sobre como mejorar Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/#?)
+Sin más que agregar te dejo el enlace a la discusión por si quieres ver el resto de [sugerencias sobre como mejorar Django Framework.](https://www.reddit.com/r/django/comments/1dlj5n6/what_would_you_improve_about_django_framework/)
 
 ## Otras sugerencias sobre cómo mejorar Django framework
 

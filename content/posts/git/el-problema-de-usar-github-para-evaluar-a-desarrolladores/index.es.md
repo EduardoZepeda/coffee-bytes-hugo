@@ -56,9 +56,9 @@ Sí, como ya sabes no todos son ~~fans del Slavoj Žižek del software libre: Ri
 
 ## Microsoft, Github y los escándalos relacionados con el robo de código
 
-Microsoft nunca ha sido conocida por su ética a la hora de hacer negocios, desde sus inicios se ha visto implicada en [alborotos relacionados con el robo de código](https://www.wired.com/2012/08/ms-dos-examined-for-thef/#?). Además ha mantenido esa fama viva a base de escándalos como:
+Microsoft nunca ha sido conocida por su ética a la hora de hacer negocios, desde sus inicios se ha visto implicada en [alborotos relacionados con el robo de código](https://www.wired.com/2012/08/ms-dos-examined-for-thef/). Además ha mantenido esa fama viva a base de escándalos como:
 
-- Cuando [Microsoft copió el código de una startup de micro-blogging](https://www.ft.com/content/ab21f416-e9d1-11de-ae43-00144feab49a#?) y lanzó su propio servicio.
+- Cuando [Microsoft copió el código de una startup de micro-blogging](https://www.ft.com/content/ab21f416-e9d1-11de-ae43-00144feab49a) y lanzó su propio servicio.
 - Cuando su [AI, Github copilot, copió descaradamente el código](https://aibusiness.com/responsible-ai/github-s-ai-powered-coding-tool-allegedly-copied-code#?) de unos investigadores
 
 Considerando lo anterior, e independientemente de la veracidad de las afirmaciones, **no me extrañaría que algunos desarrolladores opten por mantener su código fuera de las manos de Microsoft y sus servicios,** Github incluído, por supuesto.

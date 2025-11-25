@@ -63,9 +63,9 @@ If you're in a rush and you want to tackle the javascript vs python question, I 
 
 To begin with, **Python is an interpreted language**. If you are not familiar with the term, it means that it has an interpreter that translates the instructions, one by one, to machine language, so that they are executed on the fly. So you don't have to compile all your code every time you want to run it, as you would with C++, Java, Rust, etc.
 
-Javascript was born as an interpreted language, however modern engines have managed to turn it into a **JIT (Just in Time) compiled language**. Virtually all browsers do [JIT compiled](https://www.youtube.com/watch?v=d7KHAVaX_Rs#?) JavaScript, except, as always, IE8. Although I don't like some aspects of the language, like the [management of dates]({{< ref path="/posts/javascript/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/index.md" lang="en" >}}), I don't think it's the worst or the least useful language out there.
+Javascript was born as an interpreted language, however modern engines have managed to turn it into a **JIT (Just in Time) compiled language**. Virtually all browsers do [JIT compiled](https://www.youtube.com/watch?v=d7KHAVaX_Rs) JavaScript, except, as always, IE8. Although I don't like some aspects of the language, like the [management of dates]({{< ref path="/posts/javascript/porque-detesto-el-input-datetime-local-y-las-fechas-en-javascript/index.md" lang="en" >}}), I don't think it's the worst or the least useful language out there.
 
-If you want to learn how the Javascript engine works at a deeper level, I leave you a link to [a series of videos](https://www.youtube.com/watch?v=No-Pfboplxo&amp;list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&amp;index=1#?) on youtube where the topic is discussed in more detail.
+If you want to learn how the Javascript engine works at a deeper level, I leave you a link to [a series of videos](https://www.youtube.com/watch?v=No-Pfboplxo&amp;list=PLfeFnTZNTVDNnF4a8eVooiubYAPUSP01C&amp;index=1) on youtube where the topic is discussed in more detail.
 
 Look at this super-simplified schematic comparing compiled and interpreted languages.
 
@@ -120,7 +120,7 @@ console.log(1 + "1")
 
 No problem! The Javascript interpreter adds them together without any problem, even if one is a string and the other an integer. 
 
-If you are one of those who prefer to use strong typing with javascript, either because you bring a background of C++, Java or another strongly typed language or simply prefer the advantages of strong typing, take a look at what [Typescript](https://www.typescriptlang.org/#?) and its compiler have to offer. Which I really encourage you to do. I consider Typescript far superior to Javascript and less error prone.
+If you are one of those who prefer to use strong typing with javascript, either because you bring a background of C++, Java or another strongly typed language or simply prefer the advantages of strong typing, take a look at what [Typescript](https://www.typescriptlang.org/) and its compiler have to offer. Which I really encourage you to do. I consider Typescript far superior to Javascript and less error prone.
 
 ```javascript
 // Typescript code

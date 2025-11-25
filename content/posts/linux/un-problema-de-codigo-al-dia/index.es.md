@@ -54,4 +54,4 @@ Aquí dejo el segundo:
 
 Te dejo aquí el enlace para suscribirte. Por favor considera que los problemas están en inglés.
 
-[Daily coding problem](https://www.dailycodingproblem.com/#?)
+[Daily coding problem](https://www.dailycodingproblem.com/)

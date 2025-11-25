@@ -195,7 +195,7 @@ console.log(1 + "1")
 "11"
 ```
 
-¡No pasa nada! El intérprete de Javascript los suma sin problema alguno, incluso aunque uno es de tipo string y el otro un entero. Si eres de los que prefieren usar tipado fuerte con javascript, ya sea porque traes un background de C++, Java u otro lenguaje furtemente tipado o simplemente prefieres las ventajas de un tipado fuerte, dale una mirada a lo que [Typescript](https://www.typescriptlang.org/#?) y su compilador tienen para ofrecer.
+¡No pasa nada! El intérprete de Javascript los suma sin problema alguno, incluso aunque uno es de tipo string y el otro un entero. Si eres de los que prefieren usar tipado fuerte con javascript, ya sea porque traes un background de C++, Java u otro lenguaje furtemente tipado o simplemente prefieres las ventajas de un tipado fuerte, dale una mirada a lo que [Typescript](https://www.typescriptlang.org/) y su compilador tienen para ofrecer.
 
 ```javascript
 // Este es código Typescript

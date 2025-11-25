@@ -109,7 +109,7 @@ Now that we have the data and the model, where can we train our LLM? The cheaper
 
 ## Where to fine-tune an LLM for free?
 
-It would be best to have your own GPUs, but in case you can't, Google, through [Google Colab](https://colab.research.google.com/#?) has GPUs available for free for a limited amount of hours per day, [Kaggle](https://www.kaggle.com/#?) also **offers you 30 hours of GPU usage per week** to run your experiments. ~~And create your furry images using the forbidden models.~~
+It would be best to have your own GPUs, but in case you can't, Google, through [Google Colab](https://colab.research.google.com/) has GPUs available for free for a limited amount of hours per day, [Kaggle](https://www.kaggle.com/#?) also **offers you 30 hours of GPU usage per week** to run your experiments. ~~And create your furry images using the forbidden models.~~
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png" class="md-local-image" alt="Kaggle free GPUs" >}}
 
@@ -145,7 +145,7 @@ Most of the notebooks just need you to change the model and adapt the dataset to
 
 Others that I found particularly well documented but did not work for me or produced unwanted results are these:
 - [Fine-tuning DeepSeek R1](https://www.kaggle.com/code/kingabzpro/fine-tuning-deepseek-r1-reasoning-model#?)
-- [Alpaca + Flame fine-tuning](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp#?)
+- [Alpaca + Flame fine-tuning](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp)
 
 ## Where to deploy an LLM model?
 
@@ -153,4 +153,4 @@ After creating your model you may want to make it available to others.
 
 Generally there are tools like Gradio that abstract the process of generating a chat server like OpenAI, you can set them up on your own or use the ones available from HuggingFace, although obviously for a monthly cost, the free plans only have CPU and RAM, so it is usually not enough to run your LLM, especially the big ones.
 
-Since my project was for educational purposes and I don't want to pay for a premium plan, I decided to put the code necessary to run my model in a [GoogleColab notebook with the necessary code to run it.](https://colab.research.google.com/drive/1Fe348rmXbDyvjoDPGEKrBtPurpfwnFgG#?)
+Since my project was for educational purposes and I don't want to pay for a premium plan, I decided to put the code necessary to run my model in a [GoogleColab notebook with the necessary code to run it.](https://colab.research.google.com/drive/1Fe348rmXbDyvjoDPGEKrBtPurpfwnFgG)

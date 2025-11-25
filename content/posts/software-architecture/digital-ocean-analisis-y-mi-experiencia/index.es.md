@@ -80,7 +80,7 @@ Yo SOLO he usado los de Estados Unidos y Canadá, por la cercanía con México, 
 
 ## Digital Ocean vs Hostinger
 
-Descubrí que los VPS de Hostinger son mucho más baratos que los de Digital Ocean, prácticamente ofrecen el doble de recursos por el mismo precio. Sin embargo, he leído varias quejas de devs en Facebook. No he probado Hostinger personalmente, pero basta ver este [hilo en Reddit sobre Digital Ocean vs Hostinger](https://www.reddit.com/r/webhosting/comments/1h0x6fh/is_there_a_catch_here_why_choose_digitalocean/#?) para notar que parece ser conocimiento común que no es del todo confiable. Nada contra Hostinger, pero los comentarios me desanimaron.
+Descubrí que los VPS de Hostinger son mucho más baratos que los de Digital Ocean, prácticamente ofrecen el doble de recursos por el mismo precio. Sin embargo, he leído varias quejas de devs en Facebook. No he probado Hostinger personalmente, pero basta ver este [hilo en Reddit sobre Digital Ocean vs Hostinger](https://www.reddit.com/r/webhosting/comments/1h0x6fh/is_there_a_catch_here_why_choose_digitalocean/) para notar que parece ser conocimiento común que no es del todo confiable. Nada contra Hostinger, pero los comentarios me desanimaron.
 
 La verdad no quiero lidiar con problemas por una diferencia de precio tan pequeña. Si tienes alguna experiencia con Hostinger que se pueda comprobar, con gusto actualizo este post incluyendo tu opinión.
 

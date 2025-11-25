@@ -26,7 +26,7 @@ Since ChatGPT rapidly surpassed the record of user growth, artificial intelligen
 
 But I believe that, while AI has amazing capabilities, it is far from revolutionizing the world and achieving the full automation expected by the general public in the short term. AI is awesome, but it's overhyped. 
 
-And I'm not alone in this, even a big company like Apple stepped out of the AI race, details in its paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf#?)
+And I'm not alone in this, even a big company like Apple stepped out of the AI race, details in its paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)
 
 Maybe intelligence is not possible without consciousness, like Penrose and John [Searle's chinese room experiment]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}) states.
 
@@ -80,7 +80,7 @@ As I said, investors don't want to be left out of this party and are so eager to
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI" >}}
 
-But, I'm under the impression that this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}), and the creators of [Rabbit R1](https://www.rabbit.tech/#?) are probably doing.
+But, I'm under the impression that this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}), and the creators of [Rabbit R1](https://www.rabbit.tech/) are probably doing.
 
 The market is trying to make a quick and easy buck from the suddenly growing interest of tech laymen in something as abstract, and with such esoteric characteristics, as AI.
 

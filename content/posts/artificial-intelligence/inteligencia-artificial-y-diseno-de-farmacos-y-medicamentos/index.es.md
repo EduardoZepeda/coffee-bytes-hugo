@@ -140,17 +140,17 @@ La mayoría de la gente piensa que la química consiste en mezclar cosas y ver c
 
 Hay muchísimas bases de datos disponibles con información recopilada sobre muchísimas moléculas que puedes usar para alimentar tus modelos.
 
-- [ChEMBL](https://www.ebi.ac.uk/chembl/#?)
-- [ChemDB](http://cdb.ics.uci.edu/#?)
-- [COCONUT](https://coconut.naturalproducts.net/#?)
-- [DGIdb](http://www.dgidb.org/#?)
-- [DrugBank](http://www.drugbank.ca/#?)
-- [DTC](http://drugtargetcommons.fimm.fi/#?)
-- [INPUT](http://cbcb.cdutcm.edu.cn/INPUT/#?)
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/#?)
-- [SIDER](http://sideeffects.embl.de/#?)
-- [STIITCH](http://stitch.embl.de/#?)
+- [ChEMBL](https://www.ebi.ac.uk/chembl/)
+- [ChemDB](http://cdb.ics.uci.edu/)
+- [COCONUT](https://coconut.naturalproducts.net/)
+- [DGIdb](http://www.dgidb.org/)
+- [DrugBank](http://www.drugbank.ca/)
+- [DTC](http://drugtargetcommons.fimm.fi/)
+- [INPUT](http://cbcb.cdutcm.edu.cn/INPUT/)
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+- [SIDER](http://sideeffects.embl.de/)
+- [STIITCH](http://stitch.embl.de/)
 
 Me atrevo a decir que aunque el proceso no será perfecto y estará lleno de tropezones, dado que el cuerpo humano es un sistema sumamente complejo, será mucho mejor que buscar a ciegas entre un sin fin de opciones. 
 
-Si estás interesado en el tema, un buen lugar para empezar es este artículo titulado [Artificial intelligence for drug discovery: Resources, methods, and applications](https://www.sciencedirect.com/science/article/pii/S2162253123000392#?)
+Si estás interesado en el tema, un buen lugar para empezar es este artículo titulado [Artificial intelligence for drug discovery: Resources, methods, and applications](https://www.sciencedirect.com/science/article/pii/S2162253123000392)

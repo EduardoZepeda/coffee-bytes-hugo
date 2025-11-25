@@ -121,7 +121,7 @@ Dentro de los metatags son especialmente importantes los Open Graph, pues son el
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673982/coffee-bytes/og-meta-tags-visualized_vt8xkh.png" class="md-local-image" alt="Las redes sociales usan las metatags para mostrar la información relevante de una página" caption="Las redes sociales usan las metatags para mostrar la información relevante de una página" >}}
 
-Existen algunos [generadores de meta tags](https://www.seoptimer.com/meta-tag-generator#?) que puedes usar para generar una plantilla a llenar, o simplemente pídele a chatGPT una.
+Existen algunos [generadores de meta tags](https://www.seoptimer.com/meta-tag-generator) que puedes usar para generar una plantilla a llenar, o simplemente pídele a chatGPT una.
 
 ### Un sitio web con buen performance para SEO
 

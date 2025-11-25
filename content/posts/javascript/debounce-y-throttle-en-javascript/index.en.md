@@ -116,4 +116,4 @@ The throttling function returns a function that will have two sides depending on
 ## Other resources on debounce and throttling
 
 * [Debounce and throttling in Typescript](https://charliesbot.dev/blog/debounce-and-throttle#?)
-* [Debounce y throttling applied to the DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783#?)
+* [Debounce y throttling applied to the DOM](https://webdesign.tutsplus.com/es/tutorials/javascript-debounce-and-throttle--cms-36783)

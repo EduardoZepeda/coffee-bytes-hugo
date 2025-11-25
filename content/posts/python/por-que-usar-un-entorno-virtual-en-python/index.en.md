@@ -31,7 +31,7 @@ You decide it's okay, that's fine, so you decide to work like this. When you fin
 
 ## What if we use virtual machines?
 
-We could solve the above problem by installing a virtual machine, such as [virtualbox](https://www.virtualbox.org/#?). Inside each virtual machine we would be able to install the dependencies of our custom project. And we would have as many as projects. And it would work, wouldn't it? Well yes, but with a big disadvantage: you have to load a complete operating system to have some dependencies. It is too much load to our system to be practical.
+We could solve the above problem by installing a virtual machine, such as [virtualbox](https://www.virtualbox.org/). Inside each virtual machine we would be able to install the dependencies of our custom project. And we would have as many as projects. And it would work, wouldn't it? Well yes, but with a big disadvantage: you have to load a complete operating system to have some dependencies. It is too much load to our system to be practical.
 
 Virtual machines consume too much hard disk space and the boot time for each virtual machine is daunting. The interaction between our system and a virtual machine can become complicated. After all, we don't need to load an entire operating system, but only Python code.
 

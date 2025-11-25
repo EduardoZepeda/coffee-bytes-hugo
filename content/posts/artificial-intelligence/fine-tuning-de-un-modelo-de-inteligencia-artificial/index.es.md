@@ -113,7 +113,7 @@ Ya elegimos modelo y tenemos los datos, ¿dónde entrenamos nuestro LLM? Mientra
 
 ## ¿Dónde hacer fine-tuning de un LLM de manera gratuita?
 
-Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Google, a través de [Google Colab](https://colab.research.google.com/#?) tiene GPUs disponibles de manera gratuita por una cantidad limitada de horas al día, [Kaggle](https://www.kaggle.com/#?) también **te ofrece 30 horas de uso de GPU a la semana** para que lleves a cabo tus experimentos. ~~Y crees tus imágenes furras usando los modelos prohibidos.~~
+Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Google, a través de [Google Colab](https://colab.research.google.com/) tiene GPUs disponibles de manera gratuita por una cantidad limitada de horas al día, [Kaggle](https://www.kaggle.com/#?) también **te ofrece 30 horas de uso de GPU a la semana** para que lleves a cabo tus experimentos. ~~Y crees tus imágenes furras usando los modelos prohibidos.~~
 
 {{< figure src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4o5rmh1dv8il7pdml2gr.png" class="md-local-image" alt="Kaggle free GPUs" >}}
 
@@ -149,7 +149,7 @@ La mayoría de las notebooks solo necesitan que cambies el modelo y adaptes el d
 
 Otras que encontré particularmente bien explicadas pero no me funcionaron o produjeron resultados no deseados son estas:
 - [Fine-tuning DeepSeek R1](https://www.kaggle.com/code/kingabzpro/fine-tuning-deepseek-r1-reasoning-model#?)
-- [Alpaca + Llama fine-tuning](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp#?)
+- [Alpaca + Llama fine-tuning](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp)
 
 ## ¿Dónde hacer deploy de un modelo de LLM?
 
@@ -157,4 +157,4 @@ Después de entrear tu modelo quizás querrás ponerlo a disposición de los dem
 
 Generalmente existen herramientas como Gradio que abstraen el proceso de generar un servidor de chat como el de OpenAI, puedes montarlos por tu cuenta o usar de los que dispone HuggingFace, aunque obviamente por un costo mensual, los planes gratuitos solo tienen CPU y RAM, por lo que no suele ser suficiente para ejecutar tus LLM, sobre todo los grandes. 
 
-Como mi proyecto fue con fines educativos y no quiero pagar por un plan premium, yo decidí dejar el código necesario para ejecutar mi modelo en una libreta de [GoogleColab con el código necesario para ejecutarlo.](https://colab.research.google.com/drive/1Fe348rmXbDyvjoDPGEKrBtPurpfwnFgG#?)
+Como mi proyecto fue con fines educativos y no quiero pagar por un plan premium, yo decidí dejar el código necesario para ejecutar mi modelo en una libreta de [GoogleColab con el código necesario para ejecutarlo.](https://colab.research.google.com/drive/1Fe348rmXbDyvjoDPGEKrBtPurpfwnFgG)

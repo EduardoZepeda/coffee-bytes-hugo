@@ -278,10 +278,10 @@ Existen bastantes paquetes que permiten modificaciones bastante sofisticadas del
 
 Algunos ejemplos de lo anterior incluyen los siguientes paquetes:
 
-- [Jazzmin](https://django-jazzmin.readthedocs.io/#?)
+- [Jazzmin](https://django-jazzmin.readthedocs.io/)
 - [Wagtail](https://wagtail.org/#?)
 - [Mezzanine](https://github.com/stephenmcd/mezzanine#?)
-- [Django CMS](https://www.django-cms.org/en/#?)
+- [Django CMS](https://www.django-cms.org/en/)
 
 Cada uno es un tema en si mismo, por lo que no puedo resumirlos en una sola entrada.
 

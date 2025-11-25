@@ -199,13 +199,13 @@ Rust has its own bible, called ["The Rust book", available in multiple languages
 
 ### Educative
 
-If reading a thick book is not your style and you prefer premium education, educative has some [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr#?) for less than the price a well served meal.
+If reading a thick book is not your style and you prefer premium education, educative has some [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr) for less than the price a well served meal.
 
 ### Youtube channels to learn Rust
 
-I also found that the videos of [Code to the Moon](https://www.youtube.com/@codetothemoon#?), are quite easy to understand and the author of the channel explains very well the concepts of Rust.
+I also found that the videos of [Code to the Moon](https://www.youtube.com/@codetothemoon), are quite easy to understand and the author of the channel explains very well the concepts of Rust.
 
-The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty#?) also has some tutorials that will help you understand the concepts better.
+The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty) also has some tutorials that will help you understand the concepts better.
 
 ### Rustlings
 

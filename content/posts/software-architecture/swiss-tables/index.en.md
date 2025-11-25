@@ -28,7 +28,7 @@ hashmap["key"] = value
 
 Every worth-learning language has its own hashmap implementation, you know, the way it works under the hood, and most devs just don't give a damn about it, which is fine, I support high level abstractions.
 
-The thing here is that, recently, [Go changed its default hashmap implementation from Buckets to Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="en" >}}) looking for better performance, ~~trying to mimick Rust's performance~~. This change already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/#?).
+The thing here is that, recently, [Go changed its default hashmap implementation from Buckets to Swiss tables]({{< ref path="/posts/go/go-maps-o-diccionarios/index.md" lang="en" >}}) looking for better performance, ~~trying to mimick Rust's performance~~. This change already [paid off for some companies saving them hundreds of gigabytes](https://www.datadoghq.com/blog/engineering/go-swiss-tables/).
 
 By the way, it was Google who created Swiss tables (well one of its engineers), and also [protobuffers and GRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), they're always improving the performance of what already exists.
 

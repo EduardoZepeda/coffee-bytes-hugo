@@ -41,7 +41,7 @@ Si el siguiente comando no te suena o quieres repasar los comandos básicos de G
 sudo apt install webp
 ```
 
-Para esta entrada utilizaré una imagen gratuita, en resolución 1920 x 1280, que descargué desde [pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/#?), tu puedes usar la que quieras, hasta la foto de tu perro.
+Para esta entrada utilizaré una imagen gratuita, en resolución 1920 x 1280, que descargué desde [pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/), tu puedes usar la que quieras, hasta la foto de tu perro.
 
 El tamaño mi imagen es de 476 Kb.
 

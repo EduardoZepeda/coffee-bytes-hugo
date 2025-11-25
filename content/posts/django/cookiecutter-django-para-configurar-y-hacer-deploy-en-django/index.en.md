@@ -122,7 +122,7 @@ windows [n]:
 use_pycharm [n]:
 ```
 
-Timezone for our project, is the value that will take the TIMEZONE variable in our Django configuration file. It also asks us if the project should be configured to be used with windows and [Pycharm](https://www.jetbrains.com/es-es/pycharm/#?).
+Timezone for our project, is the value that will take the TIMEZONE variable in our Django configuration file. It also asks us if the project should be configured to be used with windows and [Pycharm](https://www.jetbrains.com/es-es/pycharm/).
 
 ### Database
 
@@ -453,7 +453,7 @@ Once you have done this you may want to start modifying your project folder.
 
 ### Enabling django-debug-toolbar in cookiecutter django
 
-To activate the django-debug-toolbar let's first enter our application by entering [localhost](http://127.0.0.1:8000#?), now in our terminal we will see an IP address
+To activate the django-debug-toolbar let's first enter our application by entering [localhost](http://127.0.0.1:8000), now in our terminal we will see an IP address
 
 {{< figure src="images/IpInternaDockerDjango.png" class="md-local-image" alt="Internal Ip in console" >}}
 

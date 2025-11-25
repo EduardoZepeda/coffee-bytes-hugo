@@ -21,7 +21,7 @@ title: The Big O notation for algorithm analysis
 
 I love astrophysics and try to keep up with new discoveries as they happen; whether they are trivial things, like the discovery of a new planet; or significant, like the hypothetical Dyson spheres they swear they find every month. But this time the discovery was simply outstanding.
 
-Last April 2019, the [first photograph of a black hole](https://www.bbc.com/news/science-environment-47873592#?) was published.
+Last April 2019, the [first photograph of a black hole](https://www.bbc.com/news/science-environment-47873592) was published.
 
 {{< figure src="images/BigO_notacion.jpg" class="md-local-image" alt="First picture of a black hole" caption="First picture of a black hole" >}}
 
@@ -166,4 +166,4 @@ Here are some options to practice algorithms.
 
 * [codewars](/en/opinion/top-5-favorite-algorithm-problems-at-codewars/)
 * [One algorithm a day](/en/linux/an-algorithm-problem-a-day/)
-* [HackerRank](https://www.hackerrank.com/#?)
+* [HackerRank](https://www.hackerrank.com/)

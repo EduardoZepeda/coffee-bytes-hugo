@@ -27,8 +27,8 @@ As I mentioned in the introduction to the go programming language: [go is a spec
 
 Before we begin, remember that parallelism and concurrency are different. This post is too small to deal with such a broad topic, however there are two resources I want to highlight:
 
-* [Concurrent Programming by Felipe Restrepo Street](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html#?)
-* [Concurrency vs parallelism by Hector Patricio in The dojo blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html#?)
+* [Concurrent Programming by Felipe Restrepo Street](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html)
+* [Concurrency vs parallelism by Hector Patricio in The dojo blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html)
 
 I quote a sentence from the first resource that, IMHO, sums up the difference quite well:
 
@@ -216,4 +216,4 @@ Finally, here are some other resources on goroutines that you can consult.
 
 * [Docs](https://go.dev/tour/concurrency/1)
 * [Goroutines](https://golangbot.com/goroutines/#?)
-* [Goroutines by google devs](https://www.youtube.com/watch?v=f6kdp27TYZs#?)
+* [Goroutines by google devs](https://www.youtube.com/watch?v=f6kdp27TYZs)

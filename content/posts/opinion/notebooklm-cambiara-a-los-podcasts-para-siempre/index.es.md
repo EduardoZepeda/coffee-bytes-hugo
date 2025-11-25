@@ -62,7 +62,7 @@ En un mundo en el que puedes crear podcasts monetizables en cuestión de minutos
 
 Poder entrenar un modelo con material de podcasts pasados o con escritos, para emular fielmente el estilo podrá ahorrarle horas de trabajo a los creadores de contenido, imagínate, generas el podcast completo con AI y luego solo lo editas para reemplazar aquellas partes que te parezcan sosas y ¡voilá! tienes un podcast que se siente humano en segundos. 
 
-O puedes llevarlo más allá y crear escenarios bastante interesantes como este donde los [locutores del podcast AI descubren su propia naturaleza no humana](https://www.reddit.com/r/artificial/comments/1frk1gi/notebooklm_podcast_hosts_discover_theyre_ai_not/#?).
+O puedes llevarlo más allá y crear escenarios bastante interesantes como este donde los [locutores del podcast AI descubren su propia naturaleza no humana](https://www.reddit.com/r/artificial/comments/1frk1gi/notebooklm_podcast_hosts_discover_theyre_ai_not/).
 
 ### Posible reacción no tan positiva del mercado a los podcasts de AI 
 

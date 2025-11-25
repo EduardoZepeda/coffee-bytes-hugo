@@ -38,7 +38,7 @@ If the following command does not ring a bell or you want to brush up on the bas
 sudo apt install webp
 ```
 
-For this entry I will use a free image, in 1920 x 1280 resolution, that I downloaded from [pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/#?), you can use any image you want, even the picture of your dog.
+For this entry I will use a free image, in 1920 x 1280 resolution, that I downloaded from [pexels](https://www.pexels.com/photo/tan-coconuts-placed-atop-brown-wooden-table-1120963/), you can use any image you want, even the picture of your dog.
 
 The size of my image is 476 Kb.
 

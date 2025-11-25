@@ -32,7 +32,7 @@ Al revisar los comentarios —ya ni sé qué gano con hacerlo— noté que los q
 
 Hay un consenso muy fuerte por parte del gremio de artistas hacia la AI. 
 
-Movimientos como el #NOAI o [Made with human intelligence](https://www.forbes.com/sites/lesliekatz/2024/07/17/human-intelligence-art-movement-takes-defiant-stand-against-ai/#?) han dejado muy en claro el [rechazo hacia esta tecnología](https://notbyai.fyi/es/#?). El desprecio parece venir de la manera en la que fue entrenada, usando material de artistas sin su permiso, acusada de plagiar algo tan personal como un estilo y también que algunos sienten que están siendo reemplazados por esta tecnología, lo cual les afecta económicamente.
+Movimientos como el #NOAI o [Made with human intelligence](https://www.forbes.com/sites/lesliekatz/2024/07/17/human-intelligence-art-movement-takes-defiant-stand-against-ai/) han dejado muy en claro el [rechazo hacia esta tecnología](https://notbyai.fyi/es/#?). El desprecio parece venir de la manera en la que fue entrenada, usando material de artistas sin su permiso, acusada de plagiar algo tan personal como un estilo y también que algunos sienten que están siendo reemplazados por esta tecnología, lo cual les afecta económicamente.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753062961/coffee-bytes/no-ai-movement_g772l5.jpg" class="md-local-image" alt="NO AI movement" caption="NO AI movement" >}}
 

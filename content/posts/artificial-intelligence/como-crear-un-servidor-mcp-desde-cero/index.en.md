@@ -27,7 +27,7 @@ Creating a MCP server allows us to connect an LLM or AI to real-time data, perso
 
 I previously wrote a post where I explain [how the Model Context Protocol (MCP) works internally]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}); you can check it out if you're not satisfied with just a recipe and want to learn more.
 
-In this post, I’ll detail how to create a MCP server. We’re going to make one that solves [one of the most embarrassing LLM errors: not being able to count the number of r's](https://community.openai.com/t/incorrect-count-of-r-characters-in-the-word-strawberry/829618#?) in variations of the word strawberry. For example: *strawberrrry* or *strawberrrrrrry*.
+In this post, I’ll detail how to create a MCP server. We’re going to make one that solves [one of the most embarrassing LLM errors: not being able to count the number of r's](https://community.openai.com/t/incorrect-count-of-r-characters-in-the-word-strawberry/829618) in variations of the word strawberry. For example: *strawberrrry* or *strawberrrrrrry*.
 
 If you’re not a bot, you already know that counting letters is a pretty trivial task for a human.
 

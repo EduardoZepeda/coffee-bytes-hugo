@@ -56,9 +56,9 @@ Yes, as you may know, not all developers are ~~fans of free software's Slavoj Ž
 
 ## The fear of getting your code or ideas stolen
 
-Microsoft has never been known for its ethics when it comes to doing business, since its early days it has been involved in [code theft related rampages](https://www.wired.com/2012/08/ms-dos-examined-for-thef/#?). It has also kept that reputation alive with scandals such as:
+Microsoft has never been known for its ethics when it comes to doing business, since its early days it has been involved in [code theft related rampages](https://www.wired.com/2012/08/ms-dos-examined-for-thef/). It has also kept that reputation alive with scandals such as:
 
-- When [Microsoft copied code from a micro-blogging startup](https://www.ft.com/content/ab21f416-e9d1-11de-ae43-00144feab49a#?) and launched its own service.
+- When [Microsoft copied code from a micro-blogging startup](https://www.ft.com/content/ab21f416-e9d1-11de-ae43-00144feab49a) and launched its own service.
 - When its [AI, Github copilot, blatantly copied the code](https://aibusiness.com/responsible-ai/github-s-ai-powered-coding-tool-allegedly-copied-code#?) of some researchers.
 
 Considering the above, and regardless of the veracity of the claims, **I wouldn't be surprised if some developers choose to keep their code out of the hands of Microsoft and its services,** Github included, of course.

@@ -25,7 +25,7 @@ Desde que ChatGPT superó el record de crecimiento de usuarios, la inteligencia 
 
 Pero yo creo que, si bien la AI tiene capacidades asombrosas, está lejos de revolucionar el mundo y conseguir la automatización total esperada por el público en general en el corto plazo. 
 
-Y no estoy solo en esto, incluso compañias tan grande como Apple, abandonaron la carrera de la AI, ¿sus razones? Probablemente puedes encontrarlas detalladas en su paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf#?). 
+Y no estoy solo en esto, incluso compañias tan grande como Apple, abandonaron la carrera de la AI, ¿sus razones? Probablemente puedes encontrarlas detalladas en su paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf). 
 
 Quizás la inteligencia no es posible sin la consciencia, como Penrose y [el experimento de la habitación china de Searle]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="es" >}}) afirman.
 

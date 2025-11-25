@@ -271,10 +271,10 @@ There are quite a few packages that allow quite sophisticated modifications of d
 
 Examples of the above include the following packages:
 
-* [Jazzmin](https://django-jazzmin.readthedocs.io/#?)
+* [Jazzmin](https://django-jazzmin.readthedocs.io/)
 * [Wagtail](https://wagtail.org/#?)
 * [Mezzanine](https://github.com/stephenmcd/mezzanine#?)
-* [Django CMS](https://www.django-cms.org/en/#?)
+* [Django CMS](https://www.django-cms.org/en/)
 
 Each one is a topic in itself, so I cannot summarize them in a single entry.
 

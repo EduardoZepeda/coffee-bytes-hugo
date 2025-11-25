@@ -173,4 +173,4 @@ Lo más probable es que ya existan librerías mantenidas por la comunidad, por l
 
 - [bits and blooms (go)](https://github.com/bits-and-blooms/bloom#?)
 - [rbloom(python)](https://github.com/KenanHanke/rbloom#?)
-- [Bloom filters(javascript)](https://www.npmjs.com/package/bloom-filters#?)
+- [Bloom filters(javascript)](https://www.npmjs.com/package/bloom-filters)

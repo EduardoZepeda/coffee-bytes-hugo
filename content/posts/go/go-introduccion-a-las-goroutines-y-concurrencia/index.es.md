@@ -31,9 +31,9 @@ Como te mencioné en la introducción al lenguaje de programación go: [go es un
 Antes de empezar, recuerda que paralelismo y concurrencia son diferentes. Este post es muy pequeño para tratar un tema tan amplio, sin embargo hay dos recursos que quiero destacar:
 
 - [Programación concurrente de Felipe Restrepo
-  Calle](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html#?)
+  Calle](http://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html)
 - [Concurrencia vs paralelismo de Hector Patricio en The dojo
-  blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html#?)
+  blog](https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html)
 
 Cito una frase del primer recurso que, a mi parecer, resume bastante bien la diferencia:
 
@@ -220,4 +220,4 @@ Para finalizar te dejo algunos otros recursos sobre gorutinas que puedes consult
 
 * [Docs](https://go.dev/tour/concurrency/1)
 - [Goroutines](https://golangbot.com/goroutines/#?)
-- [Goroutines por google devs](https://www.youtube.com/watch?v=f6kdp27TYZs#?)
+- [Goroutines por google devs](https://www.youtube.com/watch?v=f6kdp27TYZs)

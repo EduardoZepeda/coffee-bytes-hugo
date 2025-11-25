@@ -136,17 +136,17 @@ Most people think that chemistry is all about mixing things and seeing how the c
 
 There are many, many databases available with information collected on many, many molecules that you can use to feed your models.
 
-- [ChEMBL](https://www.ebi.ac.uk/chembl/#?)
-- [ChemDB](http://cdb.ics.uci.edu/#?)
-- [COCONUT](https://coconut.naturalproducts.net/#?)
-- [DGIdb](http://www.dgidb.org/#?)
-- [DrugBank](http://www.drugbank.ca/#?)
-- [DTC](http://drugtargetcommons.fimm.fi/#?)
-- [INPUT](http://cbcb.cdutcm.edu.cn/INPUT/#?)
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/#?)
-- [SIDER](http://sideeffects.embl.de/#?)
-- [STIITCH](http://stitch.embl.de/#?)
+- [ChEMBL](https://www.ebi.ac.uk/chembl/)
+- [ChemDB](http://cdb.ics.uci.edu/)
+- [COCONUT](https://coconut.naturalproducts.net/)
+- [DGIdb](http://www.dgidb.org/)
+- [DrugBank](http://www.drugbank.ca/)
+- [DTC](http://drugtargetcommons.fimm.fi/)
+- [INPUT](http://cbcb.cdutcm.edu.cn/INPUT/)
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+- [SIDER](http://sideeffects.embl.de/)
+- [STIITCH](http://stitch.embl.de/)
 
 I dare say that although the process will not be perfect and will be full of stumbles, given that the human body is a highly complex system, it will be much better than blindly searching through endless options. 
 
-If you are interested in the topic, a good place to start is this article titled [Artificial intelligence for drug discovery: Resources, methods, and applications](https://www.sciencedirect.com/science/article/pii/S2162253123000392#?)
+If you are interested in the topic, a good place to start is this article titled [Artificial intelligence for drug discovery: Resources, methods, and applications](https://www.sciencedirect.com/science/article/pii/S2162253123000392)

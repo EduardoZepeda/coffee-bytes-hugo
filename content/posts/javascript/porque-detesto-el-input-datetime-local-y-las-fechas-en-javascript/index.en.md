@@ -86,7 +86,7 @@ console.log(plainDate2.day); // 22
 While temporal is ready, or if your needs are somewhat complex. you can use the following alternatives.
 
 - [Date-fns](https://date-fns.org/#?)
-- [Luxon](https://moment.github.io/luxon/#/#?)
-- [Tempo](https://tempo.formkit.com/#?)
+- [Luxon](https://moment.github.io/luxon/#/)
+- [Tempo](https://tempo.formkit.com/)
 - [Momentjs](https://momentjs.com/#?)
-- [Dayjs](https://day.js.org/#?)
+- [Dayjs](https://day.js.org/)

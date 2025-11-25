@@ -43,7 +43,7 @@ Por otro lado, FastAPI le deja el camino libre al desarrollador, por lo que, al 
 
 A diferencia de Django, sí considero a Flask como un competidor más directo de FastAPI. Ambos frameworks guardan cierta similitud en cuanto a sintaxis y se caracterizan por ser bastante ligeros y ofrecer la mínima funcionalidad. FastAPI ofrece validación, mientras que Flask no, FastAPI ofrece documentación automática, mientras que Flask no. Además FastAPI ofrece un mejor rendimiento según las pruebas disponibles.
 
-Mira las siguientes comparaciones que usan información de [Techempower](https://www.techempower.com/benchmarks#?). He resaltado en azul los frameworks de Python.
+Mira las siguientes comparaciones que usan información de [Techempower](https://www.techempower.com/benchmarks). He resaltado en azul los frameworks de Python.
 
 ### Rendimiento para peticiones con una query
 
@@ -126,7 +126,7 @@ Analicemos brevemente lo que acabamos de ejecutar:
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ```
 
-Como puedes ver, si todo salió bien, tendremos un servidor corriendo [localhost:8000](http://127.0.0.1:8000#?)
+Como puedes ver, si todo salió bien, tendremos un servidor corriendo [localhost:8000](http://127.0.0.1:8000)
 
 ```bash
 curl localhost:8000
@@ -654,7 +654,7 @@ test_api.py .  [100%]
 
 Hasta este momento **te he ocultado una de las características más geniales de FastAPI**, no me odies por favor. Así es, ya sabes exactamente a que me refiero: ¡Documentación automática!
 
-Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática usando [swagger](https://swagger.io/#?) y [redoc](https://github.com/Redocly/redoc#?), no tienes que agregar código, ni establecer una variable para esto, sencillamente abre tu navegador y dirígete a tu [localhost:8000/docs/](http://127.0.0.1:8000/docs/#?) y [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/#?), respectivamente, y verás la documentación interactiva generada automáticamente.
+Sí, como seguramente ya sabías, FastAPI cuenta con documentación automática usando [swagger](https://swagger.io/#?) y [redoc](https://github.com/Redocly/redoc#?), no tienes que agregar código, ni establecer una variable para esto, sencillamente abre tu navegador y dirígete a tu [localhost:8000/docs/](http://127.0.0.1:8000/docs/) y [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/), respectivamente, y verás la documentación interactiva generada automáticamente.
 
 {{< figure src="images/Documentacion_swagger.png" class="md-local-image" alt="Captura de pantalla de la documentación de swagger" >}}
 

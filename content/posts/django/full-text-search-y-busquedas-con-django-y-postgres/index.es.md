@@ -301,7 +301,7 @@ Videogame.objects.update(search_vector=SearchVector('name'))
 Videogame.objects.filter(search_vector='revenge')
 ```
 
-Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql usando SQL](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/#?) donde explican en código SQL los vectores de búsqueda.
+Si te interesa profundizar más respecto a como maneja Postgres internamente estas funciones, encontré un excelente artículo sobre [búsqueda de texto en postgresql usando SQL](https://blog.kaleidos.net/como-usar-busqueda-de-texto-en-postgresql/) donde explican en código SQL los vectores de búsqueda.
 
 Entra mi siguiente entrada donde hablaré de [búsquedas avanzadas con Postgres y Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="es" >}})
 

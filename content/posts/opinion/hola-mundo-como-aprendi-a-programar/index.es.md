@@ -24,19 +24,19 @@ slug: /opinion/hello-world-como-aprendi-a-programar/
 title: Hello World, ¿cómo aprendi a programar?
 ---
 
-La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/#?) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.
+La primera vez que usé una computadora fue a los 9 años, en el salón de computación del colegio donde estudiaba. Los profesores nos enseñaban a manejar a la tortuga de [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/) usando comandos simples, en MS-DOS. Hicimos que la tortuga pintara hexágonos, octágonos e incluso la atrapamos en un bucle infinito.
 
 Yo no tenía computadora en casa, así que mi interacción con las computadoras se limitaba a aquellas dos horas semanales en el colegio.
 
 Cuando tenía 12 años mi papá trajo una computadora a casa, una IBM que le dieron para facilitar sus labores como profesor. Esa pequeña con 256 MB de RAM y 10 GB de disco duro era mi sujeto de prueba. Le instalé pequeños programas, le di click a todo lo que pude, descargué los openings y endings de Neon Genesis Evangelion en midi (el mp3 no era nada popular en aquel entonces) y la usé para jugar muchísimos videojuegos en los emuladores que estaban disponibles en la red.
 
-Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com/#?), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
+Un buen día, mientras navegaba por internet, descubrí los blogs personales en [blogspot](https://www.blogger.com/), me enamoré. Leía uno tras otro, todos tenían cosas tan interesantes que contar. Había brillantes, coloridos y llenos de detalles, otros eran minimalistas y elegantes, otros bastante oscuros y sombríos; **cada blog era un reflejo de la personalidad de su autor**. En aquel entonces yo no tenía idea de como tener el mío.
 
 ## Internet y los blogs
 
 {{<ad0>}}
 
-Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/#?)", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. 
+Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/)", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. 
 
 Eventualmente quise personalizarlo y me topé con que tenía que modificar el código HTML y CSS. Para poder modificar mi espacio en internet a mi antojo, aprendí lo básico de HTML y CSS; cambiar colores a las letras, al fondo, modificar el acomodo de los elementos para tener más columnas, insertar imágenes de fondo, añadir pequeños scripts y chatboxs, etc.
 

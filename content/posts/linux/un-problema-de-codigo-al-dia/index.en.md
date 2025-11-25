@@ -53,4 +53,4 @@ What do you think? Easy or difficult? Leave your opinion or solution to the prob
 
 Here is the link to subscribe. Please note that the problems are in English.
 
-[Daily coding problem](https://www.dailycodingproblem.com/#?)
+[Daily coding problem](https://www.dailycodingproblem.com/)
