@@ -21,12 +21,6 @@ title: Full text search and searches with Django and Postgres
 
 Sometimes when we type we make a mistake in a letter, we can repeat it, omit it or change it for another one. That mistake can lead to a series of different results in a web search, or even no results at all. Maybe for a blog it does not represent a threat, but for an ecommerce it can mean the loss of a sale, and for those stores with a huge traffic, a successful text search, either using full text search or something more complex, in Django or another framework, can represent the difference between losses or huge profits.
 
-Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack](/en/django/full-text-search-and-searches-with-django-and-postgres/).
-
-If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
-
-If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) post.
-
 Let's start with the most basic searches.
 
 ## contains and icontains with Django and Postgres
@@ -299,5 +293,11 @@ If you are interested to deepen more about how Postgres handles internally these
 
 Enter my next post where I will talk about [advanced searches with Postgres and Django]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
-References:
+Django is a framework that abstracts most of the code you need to perform text searches in Postgres, so if you are thinking about a project that requires a search engine, using Django combined with Postgres is a combination to take into account another popular option to perform searches in Django is [Solr and Django-haystack]({{< ref path="/posts/django/solr-en-django-con-haystack/index.md" lang="en" >}}).
+
+If you are still hesitating about using Django, check my post where I explain [the advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
+
+If you already know how basic searches work and want to move on to more complex searches with trigrams visit my [trigrams and advanced searches with Django.]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}) post.
+
+## Full text search sources
 [Django Documentation](https://docs.djangoproject.com/en/5.1/ref/contrib/postgres/search/)
