@@ -210,9 +210,9 @@ Professor.Person.Name
 
 Puedes pensar en una interfaz como una especie de "plano" o "blueprint" que le dice a un objeto que funciones debe implementar para funcionar, cada objeto puede implementar esas funciones como quiera, pero debe implementarlas forzosamente. 
 
-Por ejemplo: Piensa en una abstracción que representa a cada animal que respira, si un animal respira, damos por hecho que debe implementar la interfaz de "respirar", pero cada animal la implementará a su gusto, algunos respirarán usando narices, otros branquias, algunos lo harán muy lento, otros muy rápido, pero todos deben implementar un método para respirar.
+Por ejemplo: Piensa en una abstracción que representa en piezas de rompecabezas, necesitamos una pieza de rompecabezas que tenga dos apendices, que guarden un ángulo de 45° entre ellos, no nos interesa el resto de lados de la pieza de rompecabezas, solo que contenga esas dos características, mientras tenga estas dos características cumplirá la interfaz, la forma del resto de la pieza nos es indiferente.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png" class="md-local-image" alt="Explicación del concepto de interfaz en programación" caption="Mientras el ente pueda respirar, satisface la interfaz." >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1764437886/interface-requirements_wtubxg.jpg" class="md-local-image" alt="Explicación del concepto de interfaz en programación" caption="Mientras el ente pueda respirar, satisface la interfaz." >}}
 
 ### ¿Para que sirve una interfaz en Go?
 

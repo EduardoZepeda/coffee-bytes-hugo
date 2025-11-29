@@ -225,9 +225,9 @@ Before dwelling with polymorphism itself, we must explain what an interface is, 
 
 You can think of an interface as a kind of “blueprint” that tells an object what functions it must implement to work, each object can implement those functions as it wants, but it MUST implement them, in other words: *"it must satisfy the interface".*
 
-For example: Think of an abstraction that represents each breathing animal, if an animal breathes, we take for granted that it must must implement the “breathe” interface, but each animal will implement it in an unique way, some will breathe using noses, others gills, some will do it very slow, others very fast, but all must implement a method to breathe.
+For example: Think of an abstraction that represents puzzle pieces. We need a puzzle piece that has two appendages, which maintain a 45° angle between them. We are not interested in the rest of the sides of the puzzle piece, only that it contains these two characteristics. As long as it has these two characteristics, it will fulfill the interface. The shape of the rest of the piece is irrelevant to us.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691203/coffee-bytes/interface-diagram-explanation_1_kcqiqs.png" class="md-local-image" alt="Interface concept explanation diagram" caption="As long as the animal can breath it satisfy the interface" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1764437886/interface-requirements_wtubxg.jpg" class="md-local-image" alt="Interface concept explanation diagram" caption="As long as the animal can breath it satisfy the interface" >}}
 
 Based on the above, in Go interfaces are a method to differentiate the behavior of different objects. An interface will be in charge of calling the method that we specify corresponding to its struct type.
 
