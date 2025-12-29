@@ -75,7 +75,7 @@ GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
-description = "My Full-stack Web development blog on Linux with my opinions, tutorials, ideas and rants."
+description = "My Full-stack Web development and linux blog with my opinions, tutorials, ideas and rants."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 posTitle = "Web Development Blog"
 [languages.en.params.adSlots]
