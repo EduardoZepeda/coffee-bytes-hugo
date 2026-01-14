@@ -77,7 +77,7 @@ If you use DRF and use its generic classes to create serializers, you may not ex
 
 Even if you remembered to mark your fields as read_only, DRF serializers are not the fastest, you might want to check out [Serpy](https://serpy.readthedocs.io/en/latest/), [Marshmallow](https://marshmallow.readthedocs.io/en/stable/). The topic is quite broad, but stay with the idea that there is a major area of improvement in Django serializers.
 
-I leave you this article that explains [how some developers managed to reduce the time cost of serialization by 99%.](https://hakibenita.com/django-rest-framework-slow#?)
+Take a look at this article that explains [how some developers managed to reduce the time cost of serialization by 99%.](https://hakibenita.com/django-rest-framework-slow#?)
 
 ## Use pagination in your views
 
@@ -263,6 +263,8 @@ Depending on the progress of your application, you may want to migrate to anothe
 Or, if your application is not very complex at the database level, you may want to write your own sql queries and combine them with some other framework.
 
 The current trend is to sefor kidsntend and backend, so Django is being used in conjunction with Django Rest Framework to create APIs, so if your plans include the creation of an API, you may want to consider FastAPI, if you don't know it, take a look at my post where I explain [the basics of FastAPI]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}).
+
+Update: Check this framework that uses Rust to process views instead of Django, it's still an experimental framework but it's worth keeping an eye on it. It's blazingly fast (you know the drill) and its name is [Django-bolt](https://github.com/FarhanAliRaza/django-bolt).
 
 ## Bonus: applications with more than 63 000 models
 
