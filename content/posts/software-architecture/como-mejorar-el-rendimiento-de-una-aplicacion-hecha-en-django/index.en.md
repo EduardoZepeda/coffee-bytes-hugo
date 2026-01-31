@@ -258,7 +258,7 @@ If you have a bottleneck caused by some costly mathematical computation, which h
 
 ## ORMs and alternative frameworks
 
-Depending on the progress of your application, you may want to migrate to another framework faster than Django. Django's ORM is not exactly the fastest out there, and, at the time of writing, it is not asynchronous. You might want to consider giving [sqlalchemy](https://www.sqlalchemy.org/), [ponyorm](https://ponyorm.org/#?) a try.
+Depending on the progress of your application, you may want to migrate to another framework faster than Django. Django's ORM is not exactly the fastest out there, and, at the time of writing, it is not asynchronous. You might want to consider giving [sqlalchemy](https://www.sqlalchemy.org/), [ponyorm](https://ponyorm.org/) a try.
 
 Or, if your application is not very complex at the database level, you may want to write your own sql queries and combine them with some other framework.
 
@@ -276,11 +276,11 @@ There is a talk they gave at djangocon2019 where the speaker explains how they m
 
 Pinterest and Instagram are two gigantic sites that started out by choosing Django as their backend. You can find information about optimization and very specific problems in their technical blogs.
 
-The instagram blog has a post called [Web Service efficiency at Instagram with Python](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366#?), where they explain some problems encountered when handling 500 million users and how to fix them.
+The instagram blog has a post called [Web Service efficiency at Instagram with Python](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366/), where they explain some problems encountered when handling 500 million users and how to fix them.
 
 Here are the links to the blogs below:
 
-* [Pinterest engineering blog](https://medium.com/pinterest-engineering#?)
+* [Pinterest engineering blog](https://medium.com/pinterest-engineering/)
 * [Instagram's engineering blog](https://engineering.fb.com/tag/instagram/)
 
 References:

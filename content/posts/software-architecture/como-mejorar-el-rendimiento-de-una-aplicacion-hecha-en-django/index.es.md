@@ -267,7 +267,7 @@ Si tienes un cuello de botella causado por algún cálculo matemático muy costo
 
 ## ORMs y frameworks alternativos
 
-Dependiendo del avance de tu aplicación quizás te convenga migrar a otro framework más veloz que Django. El ORM de Django no es exactamente el más veloz que existe, y, al momento de escribir esta entrada, no es asíncrono. Quizás te convenga evaluar el darle una oportunidad a [sqlalchemy](https://www.sqlalchemy.org/), [ponyorm](https://ponyorm.org/#?).
+Dependiendo del avance de tu aplicación quizás te convenga migrar a otro framework más veloz que Django. El ORM de Django no es exactamente el más veloz que existe, y, al momento de escribir esta entrada, no es asíncrono. Quizás te convenga evaluar el darle una oportunidad a [sqlalchemy](https://www.sqlalchemy.org/), [ponyorm](https://ponyorm.org/).
 
 O, si tu aplicación no es muy compleja a nivel de base de datos, quizás quieras escribir tus propias consultas sql y combinarlas con algún otro framework.
 
@@ -285,11 +285,11 @@ Hay una plática que dieron en la djangocon2019 donde el ponente explica como lo
 
 Pinterest e Instagram son dos páginas gigantescas que partieron eligiendo Django como su backend. Puedes encontrar información sobre optimización y problemas muy concretos en sus blogs técnicos.
 
-El blog de instagram tiene una entrada llamada [Web Service efficiency at Instagram with Python](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366#?), donde explican algunos problemas que se encuentran al manejar 500 millones de usuarios y como solucionarlos.
+El blog de instagram tiene una entrada llamada [Web Service efficiency at Instagram with Python](https://instagram-engineering.com/web-service-efficiency-at-instagram-with-python-4976d078e366), donde explican algunos problemas que se encuentran al manejar 500 millones de usuarios y como solucionarlos.
 
 Te dejo los enlaces a los blogs a continuación:
 
-- [Pinterest engineering](https://medium.com/pinterest-engineering#?)
+- [Pinterest engineering](https://medium.com/pinterest-engineering/)
 - [Instagram engineering](https://engineering.fb.com/tag/instagram/)
 
 References:
