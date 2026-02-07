@@ -30,6 +30,8 @@ title: Trigramas y búsquedas avanzadas con Django y Postgres
 
 ¿No recuerdas las búsquedas básicas en Django? Tengo una entrada sobre [búsquedas básicas y full text search usando Django y Postgres](/es/django/full-text-search-y-busquedas-con-django-y-postgres/), si no la has leído date una vuelta primero por allá.
 
+{{< instagram CYCWN7yt9A8 >}}
+
 ## Trigramas en Django y Postgres
 
 Pero, ¿cómo sabe nuestra aplicación que cuando un usuario escribe "parfume" probablemente se refiera a "perfume"?

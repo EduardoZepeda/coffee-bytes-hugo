@@ -21,6 +21,8 @@ title: 'Comandos Básicos de Linux: grep ls cd history cat cp rm scp'
 
 Existen muchos comandos de linux basicos, desde aquellos que te dicen cual es tu usuario, hasta otros que te permiten correr y programar servicios periódicamente. A continuación voy a enunciar los comandos que yo suelo utilizar frecuentemente, así como alguna combinación o característica peculiar de alguno de estos que sea digna de mencionar. Intentaré hacerlo de la manera más simple posible y sin tratar de complicar demasiado el uso de los comandos.
 
+{{< instagram CTzbOMPtddK >}}
+
 Para estos ejemplos uso [Debian 9](https://www.debian.org/index.es.html), por lo que si algún comando no te aparece toma en cuenta que puede deberse a diferencias con tu distribución de GNU/Linux.
 
 Otra cosa, lo que la mayoría de las personas conocen como Linux, a secas, es en realidad GNU/Linux, sin embargo por motivos de SEO y simplicidad muchas personas usan GNU/Linux o Linux indistintamente, lo cual pretendo hacer yo también. Pero ten en mente esto cuando leas esta u otras entradas.

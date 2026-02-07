@@ -28,6 +28,9 @@ title: ¿Por qué usar React.FC podria ser una mala practica?
 
 Cuando usamos Typescript con React y queremos [pasarle un _children_ como prop a alguno de nuestros componentes](/es/react/que-tipos-o-types-usar-para-componentes-react-con-children/), necesitamos indicar el type. Generalmente se suele usar el type _React.FC_, el cual es el nombre abreviado de _React.FunctionComponent_. Con esto el mensaje de Typescript que nos advierte de un children con tipo any desaparecerá.
 
+
+{{< instagram CaprxYEs8Uh >}}
+
 ```jsx
 const Componente: React.FC = ({ children }) => {
     return (<div>{children}</div>)
@@ -165,6 +168,8 @@ Typescript no debería de advertirte sobre ningún error con esta aproximación 
 ## Otros recursos sobre el tema
 
 Aquí abajo te dejo los enlaces a la discusión original y algunos posts al respecto de este tema.
+
+{{< instagram CYUQII4tCXz >}}
 
 - [Remove React.FC from Typescript template](https://github.com/facebook/create-react-app/pull/8177)
 - [Why you probably shouldn’t use React.FC to type your React components](https://medium.com/raccoons-group/why-you-probably-shouldnt-use-react-fc-to-type-your-react-components-37ca1243dd13)

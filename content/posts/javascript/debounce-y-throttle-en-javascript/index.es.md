@@ -33,6 +33,8 @@ Ambos patrones generan una función que recibe un callback y un tiempo de espera
 
 Vamos a usar un ejemplo interactivo para ver las diferencias entre Debounce vs Throttle, piensa en una granja virtual, en la que por cada vez que presionemos una tecla se añade un animal al corral, ahora, tenemos dos corrales, uno que funciona con debounce y otro con Throttle. 
 
+{{< instagram CcBio3FJPqP >}}
+
 Si escribes en la caja de texto verás como se comporta cada corral.
 
 {{<debounceVsThrottle>}}

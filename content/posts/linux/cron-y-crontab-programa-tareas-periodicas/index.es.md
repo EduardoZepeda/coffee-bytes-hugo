@@ -26,6 +26,8 @@ Muchas veces queremos ejecutar un script o un comando cada cierto tiempo, por ej
 
 Una manera bastante ingenua sería crear un script y utilizar el método _time.sleep()_ de Python, o su equivalente en otro lenguaje, para retrasar su ejecución por el tiempo deseado. Sin embargo no necesitamos reinventar la rueda; alguien ya se encargó de esta tarea en GNU/Linux.
 
+{{< instagram CXPOrE5PGfd >}}
+
 ## El daemon cron y comandos básicos
 
 Cron es un daemon, disponible en muchas distribuciones de GNU/Linux, que lee un archivo localizado en la ruta _/var/spool/cron/crontabs/tu\_usuario_ y ejecuta las tareas que estén especificadas ahí, siempre y cuando su horario especificado de ejecución sea el adecuado.

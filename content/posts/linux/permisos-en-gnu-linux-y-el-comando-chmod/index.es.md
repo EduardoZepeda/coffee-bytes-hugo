@@ -22,6 +22,8 @@ La entrada anterior fue la tercera parte sobre la serie de los comandos más com
 
 En esta entrada voy a ampliar un poco el tema de los permisos y mostraré las dos diferentes maneras del comando chmod para asignar permisos a un archivo. Para esta entrada vamos a usar varios comandos básicos de GNU/Linux, si no estás muy familiarizado con los comandos básicos [entra aquí donde explico algunos comandos básicos.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}})
 
+{{< instagram CUqVvNpLIOZ >}}
+
 ## Tipos de permisos en GNU/Linux
 
 En GNU/Linux hay 3 tipos de permisos para los archivos; permiso para leer, especificado por la letra '_r_'; para escribir, representado por la letra '_w_'; y para ejecutar, asignado a la letra '_x_'. **En Linux todo es un archivo**, por lo que lo anterior aplica igualmente a los directorios. Los permisos para los archivos se muestran mediante el comando '_ls'._

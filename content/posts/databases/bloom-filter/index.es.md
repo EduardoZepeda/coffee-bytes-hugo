@@ -21,6 +21,8 @@ slug: /databases/construi-un-simulador-visual-de-un-bloom-filter/
 
 Supongamos que quieres comprobar si un dato pertenece a un conjunto más grande. Digamos que eres Google y quieres revisar si cierta url ha sido marcada como spam. El enfoque más tonto sería iterar sobre cada url marcada como spam para ver si la encuentras. Tal vez pienses: “Guardo los sitios spam en un hashmap”, pero entonces, ¿un hashmap con los millones de sitios que existen en internet? Debe existir una forma que use menos espacio.
 
+{{< instagram DN3v9WD2CQC >}}
+
 Incluso si indexas esas urls, seguirás teniendo un rendimiento en [Big O]({{< ref path="/posts/linux/la-notacion-big-o/index.md" lang="es" >}}) no tan bueno, quizá O(log n) u O.
 
 Esta es una estructura de datos interesante porque es probabilística. No te va a dar una certeza del 100%, pero el trade-off que ofrece es bastante atractivo.

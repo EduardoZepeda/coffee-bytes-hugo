@@ -21,6 +21,8 @@ title: 'Comandos Básicos de Linux: passwd du useradd usermod fdisk apt'
 
 Esta es la segunda parte de la lista de comandos para la terminal de GNU/Linux basicos. Si quieres ver los comandos de la entrada anterior por favor entra en la primera parte donde hablo de[grep, ls, cd, history, cat, cp, rm, scp.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}). También tengo una parte donde hablo de [los comandos passwd, du, useradd, usermod, fdisk, lscpu, apt, which.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer-tercera-parte/index.md" lang="es" >}}).
 
+{{< instagram CUGHygGLwcS >}}
+
 Para esta entrada asumo que estás usando una distribución basada en Debian, ya que estoy usando apt en lugar de rpm.
 
 Vamos a empezar con el comando uname, para situarnos un poco en el contexto del sistema operativo con el que estamos trabajando.

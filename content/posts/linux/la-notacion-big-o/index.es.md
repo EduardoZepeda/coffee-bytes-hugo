@@ -23,6 +23,8 @@ title: La notación Big O para análisis algorítmico
 
 Amo la astrofísica y trato de estar al tanto de los nuevos descubrimientos que suceden; ya sean cosas triviales, como el descubrimiento de un nuevo planeta; o significativas, como las hipotéticas esferas de Dyson que juran encontrar cada mes. Pero el descubrimiento de esta ocasión fue fantástico. 
 
+{{< instagram CU0Wp83Lo09 >}}
+
 El pasado abril del 2019 se publicó la [primera fotografía de un agujero negro](https://www.bbc.com/mundo/noticias-47880446). 
 
 {{< figure src="images/BigO_notacion.jpg" class="md-local-image" alt="Primera imagen de un agujero negro" caption="Primera imagen de un agujero negro" >}}

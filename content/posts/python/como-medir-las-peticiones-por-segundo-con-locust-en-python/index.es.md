@@ -49,6 +49,8 @@ Creamos una clase que importe de _Httpuser_ y le asignamos un método con el dec
 
 Ahora ejecutamos el comando locust desde la terminal.
 
+{{< instagram CVLzvfYLd7o >}}
+
 {{<ad2>}}
 
 ```bash
