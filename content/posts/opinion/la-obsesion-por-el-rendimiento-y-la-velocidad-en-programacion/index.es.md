@@ -75,6 +75,9 @@ Recuerda que **en tecnología todo es un trade-off**, en este caso rendimiento p
 
 Asi mismo, manten presente, que esto también aplica al elegir las herramientas que conoces; **quizás seas más rápido programando en un lenguaje de bajo nivel que ya domines, que en uno de alto nivel que no domines**.
 
+A veces usar una [herramienta como n8n]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="es" >}})
+ puede ser mejor que programar todo desde cero.
+
 ### Manten presente la deuda técnica
 
 Otra cosa, cuando optimices en favor de la velocidad de desarrollo, no te olvides de considerar la deuda técnica, encuentra el punto de inflexión y pivotea hacia la escalabilidad.
@@ -112,6 +115,7 @@ Te dejo una lista de algunas de mis soluciones favoritas para ahorrarte todo el 
 - Hugo: Generador de sitios estáticos, suficientemente rápido (aunque no tanto como su version en Rust, Zola)
 - Herramientas no-code
 - Daisy UI: Librería de componentes basada en Tailwindcss
+- N8n: Herramienta de automatización
 
 ## Cuando sea momento de cuidar el rendimiento, hazlo
 

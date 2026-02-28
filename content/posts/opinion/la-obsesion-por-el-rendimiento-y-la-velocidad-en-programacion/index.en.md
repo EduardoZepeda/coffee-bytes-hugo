@@ -76,6 +76,9 @@ Remember that **in technology everything is a trade-off**, in this case performa
 
 Also, keep in mind that this also applies when choosing the tools you know; **you may be faster programming in a low level language that you already master, than in a high level language that you don't master.**
 
+Sometimes using an [automation tool like n8n]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="en" >}})
+ can be better than programming everything from scratch.
+
 ### Keep the technical debt in mind
 
 Another thing, when optimizing for development speed, don't forget to consider technical debt, find the tipping point and pivot towards scalability.
@@ -112,6 +115,7 @@ Here is a list of some of my favorite solutions to save you all the boilerplate 
 - Hugo: Static site generator, fast enough (though not as fast as its Rust version, Zola)
 - No-code tools
 - Daisy UI: CSS library based on Tailwind.
+- N8n, automation tool
 
 
 ## Care for performance only when it matters

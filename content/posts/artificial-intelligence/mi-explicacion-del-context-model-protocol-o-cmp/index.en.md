@@ -34,6 +34,9 @@ Anthropic members noticed this and proposed to standardise this process by creat
 
 This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [just AI overhype and bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) or a completely groundbreaking paradigm?
 
+Edit: MCP became the standard, and now it's used in [most automation tools that use LLMs, like n8n.]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="en" >}})
+
+
 MCP exists to act as a bridge between an LLM and contextual information, in a standardised and agnostic way. The key word here is *standardisation*.
 
 ## How does the Model Context Protocol or MCP work?

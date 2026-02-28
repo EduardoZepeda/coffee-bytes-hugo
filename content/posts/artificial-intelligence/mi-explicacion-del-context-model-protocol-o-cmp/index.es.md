@@ -33,6 +33,8 @@ Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios d
 
 Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto, e interaccionar con el exterior, a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) o una afirmación completamente fiel a la realidad?
 
+Actualización: El MCP se convirtió en un estándar y ahora se utilizan de manera cotidiana en [herramientas de automatización que usan LLMs, tal como n8n.]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="es" >}})
+
 MCP existe para servir como un puente entre un LLM y la información relacionada al contexto, esto de una forma estandarizada y agnóstica. Aquí la palabra clave es "estandarización".
 
 ## ¿Cómo funciona el Model Context Protocol o MCP?

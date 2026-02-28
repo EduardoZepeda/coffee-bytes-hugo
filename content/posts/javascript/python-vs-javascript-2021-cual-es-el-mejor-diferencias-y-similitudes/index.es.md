@@ -160,6 +160,8 @@ Además puedes usar node para ejecutarlo en tu computadora.
 
 {{< figure src="images/ConsolaDeNodeJs.gif" class="md-local-image" alt="terminal de Nodejs en GNU/Linux ejecutando javascript" >}}
 
+Es el lenguaje por defecto en [herramientas de automatización como n8n]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="es" >}})
+
 ### Soporte para Python
 
 Python no se encuentra en los navegadores, sin embargo está instalado en la mayoría de los sistemas GNU/Linux de manera predeterminada, si usas una distribución de GNU/Linux y abres la terminal de tu sistema operativo y ejecutas el comando Python lo más probable es que ya se encuent` instalado.
