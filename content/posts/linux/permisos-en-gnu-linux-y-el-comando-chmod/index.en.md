@@ -38,7 +38,7 @@ The presence of a hyphen indicates the absence of permissions. The first set rep
 
 {{<ad0>}}
 
-{{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Meaning of permissions on a GNU/Linux system" caption="Meaning of permissions on a GNU/Linux system" >}}
+{{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Meaning of permissions on a GNU/Linux system" caption="Meaning of permissions on a GNU/Linux system"  width="1200" height="600" >}}
 
 None of the sets have permissions to execute the _helloWorld.out_ file so, when trying to do so, it will show us the sentence '_permission denied_' in the terminal.
 
@@ -92,7 +92,7 @@ The '_r_' permission will have a value of 4, the '_w_' permission will have a va
 
 {{<ad2>}}
 
-{{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Meaning of numbers in GNU/Linux permissions" caption="Meaning of numbers in GNU/Linux permissions" >}}
+{{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Meaning of numbers in GNU/Linux permissions" caption="Meaning of numbers in GNU/Linux permissions"  width="1200" height="600" >}}
 
 Considering the above, a value of 7 (4+2+1) means that it has full permissions, a value of 5 (4+1) means that it has read (r) and execute (x) permissions, a value of 3 (2+1) means write (w) and execute (x) permissions for a file.
 

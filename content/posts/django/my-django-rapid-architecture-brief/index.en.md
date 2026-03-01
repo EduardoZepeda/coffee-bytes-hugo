@@ -35,7 +35,7 @@ Instead of using Django’s default paradigm, structure by layers:
 - interfaces (HTTP views/management commands)
 - Business logic (readers/actions) is separate.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1765860078/coffee-bytes/django-rapid-architecture_dpxnza.png" class="md-local-image" alt="Django rapid architecture overview" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1765860078/coffee-bytes/django-rapid-architecture_dpxnza.png" class="md-local-image" alt="Django rapid architecture overview"  width="747" height="747" >}}
 
 This “horizontal encapsulation” aligns with Django’s natural layering, avoids early architectural lock-in, and better models complex domains.
 

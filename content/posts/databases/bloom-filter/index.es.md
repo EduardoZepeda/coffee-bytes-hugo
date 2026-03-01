@@ -47,7 +47,7 @@ Los Bloom filters aparecen en sistemas donde las búsquedas rápidas importan (n
 * **Seguridad**: Para filtrar rápidamente urls o direcciones de correo conocidas como maliciosas, como en el ejemplo inicial.
 * **Sistemas de recomendación de contenido**: Para evitar recomendar contenido ya consumido.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757107240/coffee-bytes/bloom-filter-usage_fvyq87.png" alt="Bloom filter usage by reddit user" caption="" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757107240/coffee-bytes/bloom-filter-usage_fvyq87.png" alt="Bloom filter usage by reddit user" caption=""  width="965" height="334" >}}
 
 Los Bloom filters ayudan a reducir tiempo y recursos a gran escala, siempre que aceptes algunos falsos positivos.
 

@@ -93,14 +93,14 @@ curl localhost:8000/api/09000/
 
 {{<ad3>}}
 
-{{< figure src="images/Api-codigos-postales-mx.png" class="md-local-image" alt="Django API query result for postal code \"09000\"" caption="Django API query result for postal code 09000" >}}
+{{< figure src="images/Api-codigos-postales-mx.png" class="md-local-image" alt="Django API query result for postal code \"09000\"" caption="Django API query result for postal code 09000"  width="563" height="374" >}}
 
 A non-existent postal code will return a 404 status.
 
-{{< figure src="images/Captura-de-pantalla-de-2021-11-17-12-15-24.png" class="md-local-image" alt="Nonexistent postal code returning an error message" caption="Nonexistent postal code returning an error message" >}}
+{{< figure src="images/Captura-de-pantalla-de-2021-11-17-12-15-24.png" class="md-local-image" alt="Nonexistent postal code returning an error message" caption="Nonexistent postal code returning an error message"  width="803" height="168" >}}
 
 While an invalid postal code will return a 400 error and an error message
 
-{{< figure src="images/Codigo-postal-invalido.png" class="md-local-image" alt="Invalid postal code returning an error" caption="Invalid postal code returning an error" >}}
+{{< figure src="images/Codigo-postal-invalido.png" class="md-local-image" alt="Invalid postal code returning an error" caption="Invalid postal code returning an error"  width="960" height="355" >}}
 
 Read the short [official documentation in my github repository](https://github.com/EduardoZepeda/django-postalcodes-mexico) for more information.

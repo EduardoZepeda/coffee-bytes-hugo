@@ -69,7 +69,7 @@ If you want to learn how the Javascript engine works at a deeper level, I leave 
 
 Look at this super-simplified schematic comparing compiled and interpreted languages.
 
-{{< figure src="images/codigo-compilado-vs-interpretado.png" class="md-local-image" alt="Super simplified diagram of the differences between compiled and interpreted code" caption="Differences between an interpreted and a compiled language" >}}.
+{{< figure src="images/codigo-compilado-vs-interpretado.png" class="md-local-image" alt="Super simplified diagram of the differences between compiled and interpreted code" caption="Differences between an interpreted and a compiled language"  width="800" height="400" >}}.
 
 In this scheme I am referring to Javascript at the time of its creation, as an interpreted language, not to the **JIT compilation** I was telling you about.
 
@@ -231,11 +231,11 @@ Javascript is found in all browsers natively, just open the terminal of your fav
 
 Below you can see the javascript terminal of the Firefox web browser
 
-{{< figure src="images/ConsolaJavascript.gif" class="md-local-image" alt="web browser terminal running javascript" >}}
+{{< figure src="images/ConsolaJavascript.gif" class="md-local-image" alt="web browser terminal running javascript"  width="574" height="362" >}}
 
 You can also use node to run it on your computer.
 
-{{< figure src="images/ConsolaDeNodeJs.gif" class="md-local-image" alt="Nodejs terminal on GNU/Linux running javascript" >}}
+{{< figure src="images/ConsolaDeNodeJs.gif" class="md-local-image" alt="Nodejs terminal on GNU/Linux running javascript"  width="716" height="362" >}}
 
 Also it is the default language in [automation tools like n8n.]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="en" >}})
 
@@ -244,7 +244,7 @@ Also it is the default language in [automation tools like n8n.]({{< ref path="/p
 
 Python is not found in browsers, however it is installed in most GNU/Linux systems by default, if you use a GNU/Linux distribution and open the terminal of your operating system and run the Python command it is most likely already installed.
 
-{{< figure src="images/PythonConsola.gif" class="md-local-image" alt="Python terminal on GNU/Linux" >}}
+{{< figure src="images/PythonConsola.gif" class="md-local-image" alt="Python terminal on GNU/Linux"  width="716" height="362" >}}
 
 ## Uses of Python and Javascript
 
@@ -262,13 +262,13 @@ Python is a multipurpose language, it allows you to create native UI application
 
 Javascript started out much more popular than Python, probably due to the rise of web browsers. However, somewhere around 2017, Python gained relevance compared to JavaScript and the trend continues until the end of this year.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1759433771/coffee-bytes/popularity-programming-languages-stackoverflow_bxdsbx.png" class="md-local-image" alt="Google trends graph comparing Python vs Javascript" caption="Python gains relevance vs Javascript in Google trends" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1759433771/coffee-bytes/popularity-programming-languages-stackoverflow_bxdsbx.png" class="md-local-image" alt="Google trends graph comparing Python vs Javascript" caption="Python gains relevance vs Javascript in Google trends"  width="1238" height="771" >}}
 
 ### Popularity among developers in 2025
 
 Stackoverflow shows in its surveys that, among developers, Python is much more popular than Javascript. However, Typescript (the strongly typed JavaScript super set I mentioned earlier) is slightly more popular than Python.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1759433864/coffee-bytes/most-loved-languages-stackoverflow_qmba2o.png" class="md-local-image" alt="StackOverflow survey results for languages most liked by developers. Python ranks above Javascript" caption="Python surpasses Javascript in popularity in 2025" >}}.
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1759433864/coffee-bytes/most-loved-languages-stackoverflow_qmba2o.png" class="md-local-image" alt="StackOverflow survey results for languages most liked by developers. Python ranks above Javascript" caption="Python surpasses Javascript in popularity in 2025"  width="1256" height="835" >}}.
 
 ## Python and Javascript salaries in 2025
 
@@ -276,7 +276,7 @@ During 2025, Stackoverflow didn't report the salaries by programming language, s
 
 According to Stackoverflow's latest survey, professionals using Python are slightly better paid than those using JavaScript. However, the difference is not that significant. Typescript also ranks above Javascript.
 
-{{< figure src="images/salarios-python-vs-javascript.png" class="md-local-image" alt="Developer salaries according to programming language used" caption="Python overtakes Javascript in salaries in 2024" >}}
+{{< figure src="images/salarios-python-vs-javascript.png" class="md-local-image" alt="Developer salaries according to programming language used" caption="Python overtakes Javascript in salaries in 2024"  width="974" height="967" >}}
 
 ## Standard library and packages in Python and Javascript
 
@@ -294,7 +294,7 @@ However, the difference between them is evident: it can be stated that **Javascr
 
 The graph below compares the average execution time of ten iterations of the N-Rheinas problem (the lower the better), I used the [respective javascript and python codes of Sean P. Gallivan](https://dev.to/seanpgallivan/solution-n-queens-5hdb#javascript-code#?) (all credits to the author) and the [multitime program](https://tratt.net/laurie/src/multitime/) for the calculation of the average time.
 
-{{< figure src="images/problema-de-las-n-reinas.jpg" class="md-local-image" alt="Graph of the execution time of the N-Reigns problem between Javascript and Python. Javascript has better performance" caption="Performance of the n-queens problem. Execution time on Y-axis and number of queens on X-axis.(Less is better, javascript is better)." >}}
+{{< figure src="images/problema-de-las-n-reinas.jpg" class="md-local-image" alt="Graph of the execution time of the N-Reigns problem between Javascript and Python. Javascript has better performance" caption="Performance of the n-queens problem. Execution time on Y-axis and number of queens on X-axis.(Less is better, javascript is better)."  width="1124" height="726" >}}
 
 Node.js v15.10.0 and Python 3.8.6 were used. The code was executed directly from the terminal, without any other program running. If you want to know the specs of the computer you can write me to my social networks and I'll be glad to let you know.
 
@@ -347,7 +347,7 @@ There are many **Javascript frameworks for web development for both backend and 
 - angular
 - adonisjs
 
-{{< figure src="images/javascript-frameworks.jpg" class="md-local-image" alt="Web development frameworks for Javascript" >}}
+{{< figure src="images/javascript-frameworks.jpg" class="md-local-image" alt="Web development frameworks for Javascript"  width="800" height="368" >}}
 
 Even despite the abundance of options, new JavaScript frameworks are released more frequently than for Python ~~almost one per week~~.
 
@@ -360,7 +360,7 @@ Because Python is not installed in browsers, **current web development using Pyt
 - Flask
 - Pyramid
 
-{{< figure src="images/python-frameworks.jpg" class="md-local-image" alt="Python web development frameworks" caption="Most popular Python frameworks" >}}
+{{< figure src="images/python-frameworks.jpg" class="md-local-image" alt="Python web development frameworks" caption="Most popular Python frameworks"  width="800" height="368" >}}
 
 You can write HTML and CSS code using Python for the frontend, but you will never have the same versatility as running javascript code directly in the user's browser.
 
@@ -374,15 +374,15 @@ Both the Python and Javascript communities have libraries available that solve m
 
 Javascript uses npm for package management and there are quite a few to choose from. In June 2019 npm [surpassed 1 million packages released](https://snyk.io/blog/npm-passes-the-1-millionth-package-milestone-what-can-we-learn/#?). Lots and lots of variety to choose from! Although you also run into things like this:
 
-{{< figure src="images/IsOddPackageNpm-1.png" class="md-local-image" alt="NPM is-odd package" caption="The package to find out if a number is odd has almost half a million downloads" >}}
+{{< figure src="images/IsOddPackageNpm-1.png" class="md-local-image" alt="NPM is-odd package" caption="The package to find out if a number is odd has almost half a million downloads"  width="1294" height="733" >}}
 
-{{< figure src="images/meme-is-odd-js.jpg" class="md-local-image" alt="Meme of the rapper using the is-odd package instead of the module operator" caption="Meme of the rapper making fun of the number of downloads" >}}
+{{< figure src="images/meme-is-odd-js.jpg" class="md-local-image" alt="Meme of the rapper using the is-odd package instead of the module operator" caption="Meme of the rapper making fun of the number of downloads"  width="960" height="891" >}}
 
 ### Python packages
 
 Pypi is the main platform in charge of Python package management. At the time this article was updated [Pypi has 348,000 packages published](https://pypi.org/#?), only a fifth of the amount that Javascript has! And since there are fewer packages we can expect more relevant packages, can't we? Let's see...
 
-{{< figure src="images/IsOddPythonPackage.png" class="md-local-image" alt="pip is-odd package" caption="Python also has a package that checks if a number is odd." >}}
+{{< figure src="images/IsOddPythonPackage.png" class="md-local-image" alt="pip is-odd package" caption="Python also has a package that checks if a number is odd."  width="1221" height="908" >}}
 
 ## Which language is better, Python or Javascript?
 

@@ -26,7 +26,7 @@ The shadow table strategy is like having a stunt double for your database table.
 
 Here's the basic flow:
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751079950/coffee-bytes/shadow-table-explanation_gbdhc0.png" class="md-local-image" alt="Shadow table diagram" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751079950/coffee-bytes/shadow-table-explanation_gbdhc0.png" class="md-local-image" alt="Shadow table diagram"  width="996" height="612" >}}
 
 ## What Problem Is This Solving Shadow Table Strategy?
 
@@ -57,7 +57,7 @@ Stonks. Congratulations if you're the one running the show.
 
 First, create your new table with the desired structure:
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Create the Shadow Table" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Create the Shadow Table"  width="1065" height="1639" >}}
 
 ```sql
 -- Create the shadow table with the new structure
@@ -76,7 +76,7 @@ CREATE INDEX idx_users_created_at ON users_new(created_at);
 
 ### Step 2: Set Up Data Synchronization
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751080652/coffee-bytes/shadow-table-sync_v7mgtq.png" class="md-local-image" alt="Sync both tables" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751080652/coffee-bytes/shadow-table-sync_v7mgtq.png" class="md-local-image" alt="Sync both tables"  width="996" height="971" >}}
 
 This is where things get interesting. You need to keep the shadow table in sync with the original while your application continues to operate like if nothing were happening. 
 
@@ -136,7 +136,7 @@ def update_user(user_id, changes):
 
 ### Step 3: Copy Existing Data in Batches
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Copy data in batches" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Copy data in batches"  width="1065" height="1639" >}}
 
 Now comes the bulk data migration. **Never try to copy everything at once**, that's a recipe for a digital hecatombe. Remember the [worker pool pattern's]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="en" >}}) reason of existance.
 
@@ -168,7 +168,7 @@ END WHILE;
 
 ### Step 4: Verify Data Consistency
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081576/coffee-bytes/shadow-table-copy-compare_2_lzbmok.png" class="md-local-image" alt="Compare data is the same in shadow table" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081576/coffee-bytes/shadow-table-copy-compare_2_lzbmok.png" class="md-local-image" alt="Compare data is the same in shadow table"  width="1065" height="591" >}}
 
 Before you make the switch, you better be damn sure everything copied correctly:
 
@@ -192,7 +192,7 @@ SELECT * FROM users_new WHERE id IN (1, 1000, 50000) ORDER BY id;
 
 Here's where your heart rate spikes. The actual table swap should be lightning fast, like an ~~unnecessary~~ Rust new shiny library:
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png" class="md-local-image" alt="Switch from old table to shadow table" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png" class="md-local-image" alt="Switch from old table to shadow table"  width="1065" height="1100" >}}
 
 ```sql
 -- This should take milliseconds, not minutes
@@ -228,7 +228,7 @@ For tables with millions of QPS, or [million of concurrent users]({{< ref path="
 
 - **Use a write buffer**: Queue shadow writes in Redis/Kafka if database just can’t handle dual writes.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png" class="md-local-image" alt="Write buffer for shadow table" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png" class="md-local-image" alt="Write buffer for shadow table"  width="1741" height="584" >}}
 
 - **Column mapping hell?** Use views to abstract renames:  
 

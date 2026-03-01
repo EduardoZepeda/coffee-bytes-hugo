@@ -96,7 +96,7 @@ api/authentication/ password/change/ [name='rest_password_change']
 
 If you read the list above, you will notice that endpoints were added to reset passwords, login, logout, user details and change password. And if we access those urls in the browser we will already see the DRF interface.
 
-{{< figure src="images/DjangoRestFrameworkEndpointLogin.png" class="md-local-image" alt="Pantalla de Loggeo en Django REST framework" >}}
+{{< figure src="images/DjangoRestFrameworkEndpointLogin.png" class="md-local-image" alt="Pantalla de Loggeo en Django REST framework"  width="1337" height="926" >}}
 
 The login endpoint returns a key to be used as a token.
 
@@ -162,13 +162,13 @@ INSTALLED_APPS = [
 
 Now we will have an extra endpoint that allows user registration.
 
-{{< figure src="images/DjangoRestFrameworkEndpointRegistro.png" class="md-local-image" alt="Django REST Framework registration screen" >}}
+{{< figure src="images/DjangoRestFrameworkEndpointRegistro.png" class="md-local-image" alt="Django REST Framework registration screen"  width="1341" height="838" >}}
 
 User registration screen in the DRF interface
 
 If we register through the browser, filling out the form, we will receive a token in response:
 
-{{< figure src="images/DjangoRestFrameworkEndpointToken.png" class="md-local-image" alt="DRF session token obtained after a user's login" >}}
+{{< figure src="images/DjangoRestFrameworkEndpointToken.png" class="md-local-image" alt="DRF session token obtained after a user's login"  width="1235" height="499" >}}
 
 Session token obtained after logging in a user
 
@@ -217,7 +217,7 @@ JWT_AUTH_REFRESH_COOKIE = 'jwt-refresh-token'
 
 After obtaining the refresh and authentication tokens, by logging into our endpoint, we can use them to authenticate with the header "Authorization: Bearer <Access token>".
 
-{{< figure src="images/DjangoRestFrameworkJWT.png" class="md-local-image" alt="After logging in a user we get the refresh and authentication or access JWT" >}}
+{{< figure src="images/DjangoRestFrameworkJWT.png" class="md-local-image" alt="After logging in a user we get the refresh and authentication or access JWT"  width="1203" height="988" >}}
 
 After logging in a user we obtain the refresh and authentication or access JWT.
 

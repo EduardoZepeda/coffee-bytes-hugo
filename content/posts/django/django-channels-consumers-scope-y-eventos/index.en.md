@@ -23,7 +23,7 @@ Why Django channels? Because Django does not allow us to create applications wit
 
 Django channels places an intermediate layer that is in charge of processing http requests to django views and websocket connections to an http consumer or a websocket consumer.
 
-{{< figure src="images/djangoWsgiChannels.png" class="md-local-image" alt="Simplified diagram of how Django channels work" >}}
+{{< figure src="images/djangoWsgiChannels.png" class="md-local-image" alt="Simplified diagram of how Django channels work"  width="700" height="770" >}}
 
 ## What is a channel and a websocket?
 
@@ -125,7 +125,7 @@ What is a consumer? A _consumer_ is **an abstraction of a channel in the form of
 
 Events are the actions that our users will perform, such as connecting, disconnecting or sending information to the websocket and the consumer will respond to them. In addition to these events we can create custom events (don't worry about that now) and assign them to functions.
 
-{{< figure src="images/websocketYConsumer-1.png" class="md-local-image" alt="Simplified diagram of a websocket and a consumer" >}}
+{{< figure src="images/websocketYConsumer-1.png" class="md-local-image" alt="Simplified diagram of a websocket and a consumer"  width="1200" height="1200" >}}
 
 The web socket sends information with the send method, the consumer receives it with its receive method, and then sends a response with send, which the websocket will process with onmessage.
 
@@ -254,7 +254,7 @@ All connections to the url _ws://localhost:8000/ws/chat/_ will create an instanc
 
 Next, let's modify the _asgi.py_ file inside our project so that every request made to a websocket is redirected to our consumer.
 
-{{< figure src="images/ProtocolTyperouter-2.png" class="md-local-image" alt="ProtocolTyperouter schematic of Django channels" >}}
+{{< figure src="images/ProtocolTyperouter-2.png" class="md-local-image" alt="ProtocolTyperouter schematic of Django channels"  width="1200" height="1000" >}}
 
 ```python
 # mychannels/asgi.py
@@ -318,7 +318,7 @@ chatSocket.send(JSON.stringify({
 
 If everything went well we should get a response with the message we sent.
 
-{{< figure src="images/djangoChannelsWebSockets-1.png" class="md-local-image" alt="Response from a websocket in the javascript console" >}}
+{{< figure src="images/djangoChannelsWebSockets-1.png" class="md-local-image" alt="Response from a websocket in the javascript console"  width="674" height="463" >}}
 
 Handling websockets in the Javascript Console
 

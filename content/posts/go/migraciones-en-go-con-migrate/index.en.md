@@ -37,7 +37,7 @@ For this case they are called up and down, but you could give them any other nam
 
 For example:
 
-{{< figure src="images/migrations-in-go.jpg" class="md-local-image" alt="Manually generated migration files" caption="Manually generated migration files" >}}
+{{< figure src="images/migrations-in-go.jpg" class="md-local-image" alt="Manually generated migration files" caption="Manually generated migration files"  width="1200" height="700" >}}
 
 ### Migrations are complementary
 
@@ -163,7 +163,7 @@ Migrate will detect the active migration and run _the corresponding up or down m
 
 And how does the tool know which migration it is in? After each change we make to the database, the migrate tool will store the state of our database in a table called _schema_migrations_ that looks like this:
 
-{{< figure src="images/schema_migrations.png" class="md-local-image" alt="schema_migrations table in postgres\"" caption="Migrations table where the current state is 1, selected in blue" >}}
+{{< figure src="images/schema_migrations.png" class="md-local-image" alt="schema_migrations table in postgres\"" caption="Migrations table where the current state is 1, selected in blue"  width="219" height="71" >}}
 
 ### Column version
 

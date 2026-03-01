@@ -23,7 +23,7 @@ I love astrophysics and try to keep up with new discoveries as they happen; whet
 
 Last April 2019, the [first photograph of a black hole](https://www.bbc.com/news/science-environment-47873592) was published.
 
-{{< figure src="images/BigO_notacion.jpg" class="md-local-image" alt="First picture of a black hole" caption="First picture of a black hole" >}}
+{{< figure src="images/BigO_notacion.jpg" class="md-local-image" alt="First picture of a black hole" caption="First picture of a black hole"  width="1200" height="628" >}}
 
 The above photograph required 5 petabytes of data, which is 5000 terabytes of data (roughly equivalent to 5000 hard disks of one terabyte capacity). Here the scientists were faced with a major dilemma, what method to use to send so much information?
 

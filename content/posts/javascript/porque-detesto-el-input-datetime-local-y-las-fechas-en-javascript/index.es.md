@@ -28,7 +28,7 @@ Trabajar con Javascript es frustrante y, a veces, combinarlo con HTML resulta de
 
 Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos objetos con la misma fecha son desiguales al compararlos con === (sí, ya sé que lo que se compara son los objetos y no las fechas), pero es justo el hecho de que no es intuitivo, al usuario del lenguaje no le interesan los objetos en memoria en si, sino lo que representan. Lenguajes como [Python tiene mejores abstracciones que las que maneja Javascript.]({{< ref path="/posts/javascript/python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="es" >}})
 
-{{< figure src="images/date-javascript.webp" class="md-local-image" alt="El manejo de fechas en Javascript no es intuitivo" caption="El manejo de fechas en Javascript no es intuitivo" >}}
+{{< figure src="images/date-javascript.webp" class="md-local-image" alt="El manejo de fechas en Javascript no es intuitivo" caption="El manejo de fechas en Javascript no es intuitivo"  width="908" height="522" >}}
 
 {{<ad1>}}
 
@@ -36,13 +36,13 @@ Javascript usa los meses partiendo del índice 0 y los días del índice 1, dos 
 
 En el caso de agendar un evento con fecha y hora, es tentador utilizar el input datetime-local nativo que ya provee HTML. Sin embargo, este campo por defecto requiere una fecha en formato "YYYY-MM-DDThh:mm", mientras que javascript regresa las fechas en un objeto Date, que debes transformar a ISO 6801 "YYYY-MM-DDThh:mm.iiiZ", donde la "i" son microsegundos (o a otro formato con una función propia).
 
-{{< figure src="images/two-dates-javascript.png" class="md-local-image" alt="Dos objetos con la misma fecha en Javascript no son iguales" caption="Las abstracciones de las fechas en Javascript pueden confundir a sus usuarios" >}}
+{{< figure src="images/two-dates-javascript.png" class="md-local-image" alt="Dos objetos con la misma fecha en Javascript no son iguales" caption="Las abstracciones de las fechas en Javascript pueden confundir a sus usuarios"  width="479" height="195" >}}
 
 Para realizar esta transformación, la manera más obvia es eliminar la letra "Z", pero si intentas asignar esa fecha al input de tipo datetime-input, este le permitirá seleccionar los milisegundos al usuario, lo cual realmente tiene pocas aplicaciones para la mayoría de los usuarios. Lo correcto sería cortar desde el principio, haciendo un slice desde la posición 0 hasta la sensibilidad que necesitemos. 
 
 Bien, tras esto el input datetime-local funcionará y mostrará la fecha, el problema ahora es que después de validar tu campo HTML y probablemente antes de guardar esas fechas en algún medio de almacenamiento (postgres, redis, etc.), querrás realizar modificaciones, por lo que tendrás que volver a convertirlas a un objeto Date en javascript en caso de que quieras gestionarlas, lo que implica nuevamente otra conversión.
 
-{{< figure src="images/formatting-dates-in-javascript.jpg" class="md-local-image" alt="Meme que ironiza el manejo de fechas en Javascript" caption="Oh, mom! Not javascript again!" >}}
+{{< figure src="images/formatting-dates-in-javascript.jpg" class="md-local-image" alt="Meme que ironiza el manejo de fechas en Javascript" caption="Oh, mom! Not javascript again!"  width="740" height="357" >}}
 
 {{<ad2>}}
 
@@ -62,7 +62,7 @@ El hecho de que estas librerías sean populares solo pone de manifiesto las care
 
 Y sí, ya sé lo que estás pensando. Aunque me gusta mucho [el lenguaje de programación Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}), también soy capaz de reconocer sus carencias y áreas de mejora.
 
-{{< figure src="images/date_formatting_golang.webp" class="md-local-image" alt="El formateo de fechas en Go también es deficiente" caption="El formateo de fechas en Go también es deficiente" >}}
+{{< figure src="images/date_formatting_golang.webp" class="md-local-image" alt="El formateo de fechas en Go también es deficiente" caption="El formateo de fechas en Go también es deficiente"  width="766" height="856" >}}
 
 ## Temporal resolverá todo este lío
 

@@ -49,7 +49,7 @@ A JWT (JSON Web Token) is divided by points into three parts:
 2. The information contained in the token.
 3. The cryptographic signature.
 
-{{< figure src="images/JWTDjango.png" class="md-local-image" alt="Parts of a JWT: header, content and signature" caption="Structure of a JWT: Algorithm, content and signature" >}}
+{{< figure src="images/JWTDjango.png" class="md-local-image" alt="Parts of a JWT: header, content and signature" caption="Structure of a JWT: Algorithm, content and signature"  width="1200" height="630" >}}
 
 Note how we can use the central part to store arbitrary content that we want, such as a user's session data or other information that we consider pertinent.
 
@@ -154,7 +154,7 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 "access":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzMzYwMDM2LCJqdGkiOiIzYzY2MDI3YzhiMjE0NmM4OGQ5NTY0MGUxYzc1ODAxYSIsInVzZXJfaWQiOjJ9.juG7sbemKUOTEnzNv4XiXCfChrG3q9wBw4Sj0g1L9EM"}
 ```
 
-{{< figure src="images/JWTApiEndPoint.png" class="md-local-image" alt="Django REST Framework screen, username and password requested" caption="Django REST Framework screen, username and password requested" >}}
+{{< figure src="images/JWTApiEndPoint.png" class="md-local-image" alt="Django REST Framework screen, username and password requested" caption="Django REST Framework screen, username and password requested"  width="1223" height="848" >}}
 
 ### Access token in JWT
 
@@ -168,7 +168,7 @@ The access token **has an expiration date, once this date arrives it will no lon
 
 If you decode the token, you will be able to obtain its contents. I have already done it here for you.
 
-{{< figure src="images/JWTDjangoContenido.png" class="md-local-image" alt="Parts of a JWT: header, content and signature" >}}
+{{< figure src="images/JWTDjangoContenido.png" class="md-local-image" alt="Parts of a JWT: header, content and signature"  width="1200" height="630" >}}
 
 Notice how in the content part (data) you can see that the _user_id_ is equal to 2, which is the id or primary key of the user who obtained the token. The first user in my case is the superuser.
 

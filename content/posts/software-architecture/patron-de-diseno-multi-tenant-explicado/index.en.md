@@ -32,7 +32,7 @@ Just as the building owner maintains one set of systems while serving multiple b
 
 This differs from a simple multi-user application, which is more like a single company's office where all employees share the same workspace, company data, and settings - everyone sees the same information and operates under the same organizational rules, whereas in multi-tenant systems, each tenant operates as if they have their own completely separate application with their own user base, data, and often customized features.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls"  width="460" height="466" >}}
 
 Taking it to a more real scenery, imagine you want to implement a service for managing small supermarket stores. Each separate store would represent a tenant, and each tenant is going to operate differently from the rest, have its own configuration, its own customers, suppliers and any other custom settings, plus the information of each supermarket store will be private.
 

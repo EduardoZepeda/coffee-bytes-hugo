@@ -38,7 +38,7 @@ Hay 3 conjuntos de 3 letras, cada conjunto contiene espacios para las letras '_r
 
 {{<ad0>}}
 
-{{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Significado de los permisos en un sistema GNU/Linux" >}}
+{{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Significado de los permisos en un sistema GNU/Linux"  width="1200" height="600" >}}
 
 Ninguno de los conjuntos tiene permisos para ejecutar el archivo _helloWorld.out_ por lo que, al intentarlo, nos mostrará la frase '_permiso denegado_' en la terminal.
 
@@ -91,7 +91,7 @@ El permiso '_r_' tendrá un valor de 4, el permiso '_w_' un valor de 2 y el perm
 
 {{<ad2>}}
 
-{{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Significado de los números en los permisos GNU/Linux" >}}
+{{< figure src="images/PermisosNumerosGNULinux.png" class="md-local-image" alt="Significado de los números en los permisos GNU/Linux"  width="1200" height="600" >}}
 
 Tomando en cuenta lo anterior, un valor de 7 (4+2+1) significa que cuenta con todos los permisos, un valor de 5 (4 +1) significa que cuenta con el permiso de lectura (r) y de ejecución (x), un valor de 3 (2+1) significan permisos de escritura (w) y ejecución de un archivo (x).
 

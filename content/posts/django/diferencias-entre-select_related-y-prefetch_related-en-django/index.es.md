@@ -46,7 +46,7 @@ El método *select_related* se **usa para seguir una relación de tipo ForeignKe
 
 Al usar *select_related* tendremos una consulta más larga, sin embargo, la ventaja consiste en que ya no será necesario acceder nuevamente a la base de datos para obtener los objetos del modelo relacionado.
 
-{{< figure src="images/select_related.png" class="md-local-image" alt="Esquema del funcionamiento de select_related" >}}
+{{< figure src="images/select_related.png" class="md-local-image" alt="Esquema del funcionamiento de select_related"  width="1500" height="1000" >}}
 
 Esquema simplificado del funcionamiento de select\_related
 
@@ -122,7 +122,7 @@ SELECT my_app_derivado.id,
 
 Si el método *select_related* recupera un único objeto a partir de un campo de relación única, **el método *prefetch_related* se usa cuando tenemos una relación múltiple con otro modelo**, es decir, una relación de tipo *ManyToMany* o un *ForeignKey* inverso.
 
-{{< figure src="images/prefetch_related.png" class="md-local-image" alt="Esquema del funcionamiento de prefetch_related en django" >}}
+{{< figure src="images/prefetch_related.png" class="md-local-image" alt="Esquema del funcionamiento de prefetch_related en django"  width="1500" height="1000" >}}
 
 Esquema simplificado del funcionamiento de prefetch_related
 

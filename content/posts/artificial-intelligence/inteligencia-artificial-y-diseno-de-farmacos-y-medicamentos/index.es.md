@@ -63,7 +63,7 @@ function administerDrug(drug){
 
 Y no solo eso, un fármaco puede encajar parcialmente en un receptor, lo cual puede provocar un efecto con menor intensidad que si lo hiciera perfectamente, y además, el no encajar perfectamente podría hacerlo activar otros receptores que desencadenarían efectos secundarios indeseados. 
 
-{{< figure src="images/paracetamol_key_lock.png" class="md-local-image" alt="Mira como la molécula encaja perfectamente en este receptor" caption="Mira como la molécula encaja perfectamente en este receptor" >}}
+{{< figure src="images/paracetamol_key_lock.png" class="md-local-image" alt="Mira como la molécula encaja perfectamente en este receptor" caption="Mira como la molécula encaja perfectamente en este receptor"  width="960" height="927" >}}
 
 ### Los fármacos tienen efectos secundarios indeseables
 
@@ -96,7 +96,7 @@ Bien, la respuesta a eso es "depende". Depende de cada fármaco, algunos pueden 
 - Metabolismo: Generalmente el hígado empieza a descomponer el fármaco y con ello termina su efecto.
 - Excreción: Mayormente se excreta por los riñones, con la orina.
 
-{{< figure src="images/farmacocinetics.jpg" class="md-local-image" alt="Gráfico que muestra como se comportan la mayoría de los fármacos administrados por vía oral" >}}
+{{< figure src="images/farmacocinetics.jpg" class="md-local-image" alt="Gráfico que muestra como se comportan la mayoría de los fármacos administrados por vía oral"  width="828" height="504" >}}
 
 {{<ad1>}}
 
@@ -106,7 +106,7 @@ Como te mencioné anteriormente, el que un fármaco active o no el receptor de u
 
 Generalmente **un fármaco mantiene una estructura base, sin la cual no posee efecto, y pequeñas variaciones en esa estructura base son las que determinan la intensidad del efecto terapéutico y los secundarios**. La parte difícil es intentar deducir cual combinación será la mejor.
 
-{{< figure src="images/analogos_penicilinas.jpg" class="md-local-image" alt="Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo" caption="Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo" >}}
+{{< figure src="images/analogos_penicilinas.jpg" class="md-local-image" alt="Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo" caption="Todas las penicilinas tienen en común la estructura en amarillo. Estas dos difieren en la parte resaltada en rojo"  width="845" height="802" >}}
 
 {{<ad2>}}
 
@@ -120,7 +120,7 @@ Es muy dificil predecirlo de manera manual, pero es justo aquí donde la intelig
 
 La inteligencia artificial es capaz de reconocer patrones que los seres humanos no podemos, puede analizar la información relacionada con una gran cantidad de moléculas y sus variantes; sus efectos secundarios, su estructura tridimensional, biodisponibilidad, polaridad, presencia de grupos funcionales y cualquier otra información ya existente sobre cada una de estas moleculas, y usarlos para entrenar un modelo que prediga si una molécula tiene el potencial de convertirse en un buen candidato a fármaco para sus posteriores análisis y pruebas en animales y humanos.
 
-{{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetina, un antidepresivo que actua bloqueando un receptor" caption="Fluoxetina, un antidepresivo que actua bloqueando un receptor" >}}
+{{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetina, un antidepresivo que actua bloqueando un receptor" caption="Fluoxetina, un antidepresivo que actua bloqueando un receptor"  width="960" height="927" >}}
 
 {{<ad3>}}
 

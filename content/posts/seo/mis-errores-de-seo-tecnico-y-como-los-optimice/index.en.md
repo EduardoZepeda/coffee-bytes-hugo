@@ -35,7 +35,7 @@ And I'm not talking about subtle differences, I'm talking about abysmal differen
 
 At the risk of sounding redundant, I will repeat it again: the traffic of a web site is much more important than the efficiency, the language or framework used to code it, yes, even if you wrote it in C++ or directly in assembler.
 
-{{< figure src="images/aves-exoticas-org-bad-ui-good-seo.jpg" class="md-local-image" alt="Aves exoticas is a perfect example of a web site with good seo but awful UI" caption="Aves exoticas is the perfect example of a website visually not so attractive, but with an impeccable SEO that positions it in the first position on google." >}}
+{{< figure src="images/aves-exoticas-org-bad-ui-good-seo.jpg" class="md-local-image" alt="Aves exoticas is a perfect example of a web site with good seo but awful UI" caption="Aves exoticas is the perfect example of a website visually not so attractive, but with an impeccable SEO that positions it in the first position on google."  width="500" height="322" >}}
 
 ### Web developers often ignore the potential of SEO.
 
@@ -43,7 +43,7 @@ Most developers have an engineering background, where efficiency, best practices
 
 Hence, when a web developer launches their personal projects, they often completely ignore SEO and focus on [optimizing their webapp performance to the maximum](/en/opinion/dont-obsess-about-your-web-application-performance/), usually resulting in an extremely fast, efficient, and even visually appealing website, but with no traffic.
 
-{{< figure src="images/web-development-assembly.webp" class="md-local-image" alt="Web development in assembly meme" caption="It is said that only true programmers program in low-level languages." >}}
+{{< figure src="images/web-development-assembly.webp" class="md-local-image" alt="Web development in assembly meme" caption="It is said that only true programmers program in low-level languages."  width="500" height="654" >}}
 
 {{<ad1>}}
 
@@ -101,7 +101,7 @@ Using a plain, old and boring redirect. It should have been enough to tell Googl
 
 When I used Wordpress the Yoast plugin took care of the structured data markup, but in Hugo this has to be done manually, so my website lasted a long time without this structured data, the result? A penalty from Google in the form of a decrease in the daily impressions, and therefore a traffic decline to my website.
 
-{{< figure src="images/schema-ld+json.png" class="md-local-image" alt="Screenshot of structured data markup on a web site" caption="The structured data markup for a web site looks like this" >}}
+{{< figure src="images/schema-ld+json.png" class="md-local-image" alt="Screenshot of structured data markup on a web site" caption="The structured data markup for a web site looks like this"  width="677" height="196" >}}
 
 {{<box type="info" message="Structured data markup is usually in the form of an application/ld+json script on a website, it cannot be seen visually but it is read by search engines and helps them to understand the type and relationships that exist between each of the entities on your website.">}}
 

@@ -110,7 +110,7 @@ Por favor nota que estamos contando las r's manualmente, no hay ningún truco, p
 
 Además, quiero destacar lo asombrosa que es la magia oscura que usa el LLM para obtener nuestro parámetro. Nuestro LLM detecta el parámetro que queremos recibir como parámetro de entrada directamente del usuario. ¿Cómo? utilizando como contexto la información de descripción que le pasamos al método *describe*.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753317103/are-you-a-wizard_hlrgoi.webp" class="md-local-image" alt="MCP meme" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753317103/are-you-a-wizard_hlrgoi.webp" class="md-local-image" alt="MCP meme"  width="500" height="770" >}}
 
 Obviamente tú mcp tool no hará algo tan inútil como contar r's, puedes obtener datos de una API, procesarlos, obtener información del sistema de archivos, o inclusive de otro LLM, lo que sea.
 
@@ -180,7 +180,7 @@ Si quisieras utilizar typescript en lugar de javascript podrías hacer algo como
 
 ¿Cómo nos aseguramos de que nuestro servidor MCP funcione bien? Inspector de Claude permite testear y depurar los servidores MCP, podemos ver las tools que hemos creado, y emular su funcionamiento, sin embargo estas no utilizan el LLM, es un servidor plano que funciona como si nosotros fueramos el LLM.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-gui.jpg_oyzri4.webp" class="md-local-image" alt="MCP Inspector GUI" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-gui.jpg_oyzri4.webp" class="md-local-image" alt="MCP Inspector GUI"  width="1904" height="962" >}}
 
 Para ejecutarlo podemos usar *npx* y le pasamos el comando que
 
@@ -201,16 +201,16 @@ npx -y @modelcontextprotocol/inspector npm /home/dir/mcp-server/index.js
 
 A continuación llenamos el *transport type* y los comandos, en caso de que hayas tenido el mismo problema que yo.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-panel.jpg_k2td1x.webp" class="md-local-image" alt="MCP Inspector panel" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-panel.jpg_k2td1x.webp" class="md-local-image" alt="MCP Inspector panel"  width="286" height="468" >}}
 
 Si le damos click en donde dice "list tools" detectará la tool que acabamos de crear.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-tools-panel.jpg_fhvq4v.webp" class="md-local-image" alt="MCP Inspector tools panel" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-tools-panel.jpg_fhvq4v.webp" class="md-local-image" alt="MCP Inspector tools panel"  width="1584" height="355" >}}
 
 Al darle click a la tool se actviará y podremos pasarle nuestro parámetro: una variante de *strawberry* con el número de r's que nosotros querramos. 
 
 Solo recuerda que este parámetro sería el que recibiríamos directamente de nuestro LLM, es él quien se encargaría de devolverlo de acuerdo a que tan bien lea el input del usuario, así que no intentes complicar las cosas con un input complejo, solo variantes de *strawberry*.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-strawberry-count-result.jpg_pnon99.webp" class="md-local-image" alt="MCP Inspector input" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-strawberry-count-result.jpg_pnon99.webp" class="md-local-image" alt="MCP Inspector input"  width="768" height="381" >}}
 
 Como puedes ver, el código funciona, el MCP server devuelve nuestro mensaje, en un entorno real este sería recibido por el LLM y le informaría al usuario el número correcto de r's que tiene su variante de *strawberry*, sin hacer el ridículo como normalmente haría.

@@ -27,7 +27,7 @@ _console.info()_ performs the function of displaying information
 console.info("Info message")
 ```
 
-{{< figure src="images/info.jpg" class="md-local-image" alt="Print with console.info in console" >}}
+{{< figure src="images/info.jpg" class="md-local-image" alt="Print with console.info in console"  width="372" height="39" >}}
 
 {{<ad1>}}
 
@@ -39,7 +39,7 @@ _console.warn()_ displays a warning message, with yellow background
 console.warn("Shows a warning message")
 ```
 
-{{< figure src="images/warn.jpg" class="md-local-image" alt="Print with console.warn in console" >}}
+{{< figure src="images/warn.jpg" class="md-local-image" alt="Print with console.warn in console"  width="382" height="40" >}}
 
 ## console.error Displays an error message
 
@@ -51,7 +51,7 @@ _console.error()_ shows us an error message
 console.error("Shows an error message")
 ```
 
-{{< figure src="images/error.jpg" class="md-local-image" alt="Error in console printed with console.error" >}}
+{{< figure src="images/error.jpg" class="md-local-image" alt="Error in console printed with console.error"  width="365" height="44" >}}
 
 ## Console.assert Evaluates whether an expression is true, or displays an error
 
@@ -63,11 +63,11 @@ Assertion failed: This message is being shown because first argument is False
 console.assert(true, "This message will not be shown because the first argument is true")
 ```
 
-{{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Console printout with console.assert ara false" >}}
+{{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Console printout with console.assert ara false"  width="619" height="42" >}}
 
 {{<ad3>}}
 
-{{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Console printout with console.assert for true" >}}
+{{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Console printout with console.assert for true"  width="614" height="42" >}}
 
 ## Console.count, event account
 
@@ -114,7 +114,7 @@ ram: "HyperX FURY DDR4 8GB"
 <prototype>: Object { … }
 ```
 
-{{< figure src="images/dir.jpg" class="md-local-image" alt="Console printout with console.dir" >}}
+{{< figure src="images/dir.jpg" class="md-local-image" alt="Console printout with console.dir"  width="677" height="124" >}}
 
 ## Console.group Group messages
 
@@ -131,7 +131,7 @@ Mensajes agrupados
 | Info
 ```
 
-{{< figure src="images/group.jpg" class="md-local-image" alt="Printout of a group with console.group in console" >}}
+{{< figure src="images/group.jpg" class="md-local-image" alt="Printout of a group with console.group in console"  width="181" height="91" >}}
 
 ## Measure time with console.time
 
@@ -153,6 +153,6 @@ const books = [{book: "Story of Your Life", author: "Ted Chiang"}, {book: "The l
 console.table(books)
 ```
 
-{{< figure src="images/table-1.jpg" class="md-local-image" alt="Printing table with console.table in console" >}}
+{{< figure src="images/table-1.jpg" class="md-local-image" alt="Printing table with console.table in console"  width="426" height="229" >}}
 
 With this example I end this entry. I hope that the next time you use _console.log()_ you take into account the different options you have to make easier the development of your code. In this entry I only put the most useful methods, if you want to go deeper into the subject you can consult the [official documentation](https://developer.mozilla.org/es/docs/Web/API/Console)

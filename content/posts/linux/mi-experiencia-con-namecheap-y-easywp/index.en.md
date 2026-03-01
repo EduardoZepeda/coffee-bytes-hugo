@@ -20,7 +20,7 @@ title: My experience using EasyWP and namecheap
 
 A few weeks ago my SO decided to start a blog about coffee shops on Wordpress. After a short talk about the advantages and disadvantages of the most popular registration platforms and resisting my insistent recommendations to use [DigitalOcean](https://m.do.co/c/a22240ebb8e7#?) or [AWS](https://aws.amazon.com/#?), she went to register her domain at namecheap. A few minutes after starting the namecheap registration process, a banner caught her attention: [EasyWP](https://www.easywp.com/#?). In the following lines I will tell you my experience using namecheap with EasyWP
 
-{{< figure src="images/EasyWP.png" class="md-local-image" alt="easywp advertising image" >}}
+{{< figure src="images/EasyWP.png" class="md-local-image" alt="easywp advertising image"  width="1903" height="434" >}}
 
 EasyWP promised a smooth and easy WordPress deployment:
 
@@ -30,7 +30,7 @@ Sounds pretty convincing, doesn't it? No more SSH terminals, GNU/Linux package i
 
 {{<ad0>}}
 
-{{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="The namecheap service menu" >}}
+{{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="The namecheap service menu"  width="1880" height="913" >}}
 
 Service menu in easyWP
 
@@ -52,7 +52,7 @@ The following problem occurred when my SO decided to customize the appearance of
 
 To make the situation even worse, a few days after the claim, on April 23rd, the servers using wordpress and easywp were having problems. The site could not be accessed. The problem was fixed in less than 24 hours, but left numerous errors in the installation again, this time in the installation css files.
 
-{{< figure src="images/errorEasywpNamecheap.png" class="md-local-image" alt="Problem loading css files in easywp" >}}
+{{< figure src="images/errorEasywpNamecheap.png" class="md-local-image" alt="Problem loading css files in easywp"  width="1366" height="768" >}}
 
 {{<ad2>}}
 

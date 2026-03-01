@@ -29,13 +29,13 @@ Normally graphql is used in conjunction with Nodejs and express, or other javasc
 
 Graphql allows you to integrate requests from multiple sources into a single API call. Unlike in a [REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), it consists of a single endpoint to which we can make certain queries (defined by ourselves in a schema, yes, as a schema) and get a response.
 
-{{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Differences between REST and Graphql" >}}
+{{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Differences between REST and Graphql"  width="800" height="800" >}}
 
 {{<ad0>}}
 
 The schema tells graphql what kind of objects we will return and what fields of these objects, graphql will use a resolver to get that information from a database or any other reference.
 
-{{< figure src="images/EsquemaGraphqlSimplificado.png" class="md-local-image" alt="graphql schematic in Javascript" >}}
+{{< figure src="images/EsquemaGraphqlSimplificado.png" class="md-local-image" alt="graphql schematic in Javascript"  width="1460" height="400" >}}
 
 Simplified graphql schematic in Javascript
 
@@ -108,11 +108,11 @@ urlpatterns = [
 
 The _graphiql_ parameter tells django whether or not to serve the graphiql interface.
 
-{{< figure src="images/graphiqlTrueOrFalse.png" class="md-local-image" alt="Difference in the interface when setting graphql to True or False" >}}
+{{< figure src="images/graphiqlTrueOrFalse.png" class="md-local-image" alt="Difference in the interface when setting graphql to True or False"  width="1063" height="430" >}}
 
 If we now try to access the url we just created, django will return an error warning us that **we need a graphql _schema_**.
 
-{{< figure src="images/aSchemaIsRequired.png" class="md-local-image" alt="Error due to not defining a schema in graphene" >}}
+{{< figure src="images/aSchemaIsRequired.png" class="md-local-image" alt="Error due to not defining a schema in graphene"  width="1182" height="753" >}}
 
 Error due to missing schema in graphene
 
@@ -127,7 +127,7 @@ GRAPHENE = {
 
 Our schema will be an object called _schema_ that will be located inside a file called _schema_.py in our project folder.
 
-{{< figure src="images/ubicacionDeSchema.png" class="md-local-image" alt="schema object location" >}}
+{{< figure src="images/ubicacionDeSchema.png" class="md-local-image" alt="schema object location"  width="289" height="302" >}}
 
 I have put it here, but you can put it wherever you consider best and adjust the route to your location.
 
@@ -206,7 +206,7 @@ schema = graphene.Schema(query=Query, auto_camelcase=False)
 
 With the camel case activated, the query called _allAnimes_ will return the result of the _Anime.objects.all()_ queryset.
 
-{{< figure src="images/QuerysetGraphene.png" class="md-local-image" alt="Result of query allAnimes in graphql" >}}
+{{< figure src="images/QuerysetGraphene.png" class="md-local-image" alt="Result of query allAnimes in graphql"  width="820" height="483" >}}
 
 ## Returning queries with parameters
 
@@ -235,7 +235,7 @@ class Query(graphene.ObjectType):
 schema = graphene.Schema(query=Query)
 ```
 
-{{< figure src="images/busquedaGraphqlParametros-1.png" class="md-local-image" alt="Result of the query animeByTitle in graphql" >}}
+{{< figure src="images/busquedaGraphqlParametros-1.png" class="md-local-image" alt="Result of the query animeByTitle in graphql"  width="907" height="431" >}}
 
 ## Pagination in graphql using relays
 
@@ -277,7 +277,7 @@ If you are confused, think of cursors as identifiers. In the query we are tellin
 
 In addition to the objects we can obtain pagination information, such as the start cursor, the end cursor and whether there are pages before or after our query.
 
-{{< figure src="images/GrapheneQueryRelay-1.png" class="md-local-image" alt="Pagination in graphql using django graphene showing first two results" caption="First two results" >}}
+{{< figure src="images/GrapheneQueryRelay-1.png" class="md-local-image" alt="Pagination in graphql using django graphene showing first two results" caption="First two results"  width="933" height="823" >}}
 
 ## Graphene mutations
 
@@ -334,6 +334,6 @@ schema = graphene.Schema(query=Query, mutation=Mutation)
 
 That's it, the _createAnime_ mutation receives the three parameters we indicate and returns an anime object and the word ok as a response.
 
-{{< figure src="images/mutationDeGraphqlEnGraphene.png" class="md-local-image" alt="Equivalence between the graphene code and the Graphql query" >}}
+{{< figure src="images/mutationDeGraphqlEnGraphene.png" class="md-local-image" alt="Equivalence between the graphene code and the Graphql query"  width="939" height="574" >}}
 
 The [graphene documentation](https://docs.graphene-python.org/en/latest/) is quite extensive and there are many more topics, I have only given you the basics and probably what you will use the most, but take a look and read everything graphene has to offer.

@@ -107,7 +107,7 @@ We use _annotate_ **when we want to annotate each object returned from a queryse
 
 Annotate is very useful for performing [advanced text searches using Postgres]({{< ref path="/posts/django/trigramas-y-busquedas-avanzadas-con-django-y-postgres/index.md" lang="en" >}}).
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png" class="md-local-image" alt="Django's Annotate diagram using a JOIN and an aggregate function like SUM" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688599/coffee-bytes/Annotate-explanation-django_1_gefr30.png" class="md-local-image" alt="Django's Annotate diagram using a JOIN and an aggregate function like SUM"  width="2205" height="1001" >}}
 
 Imagine that we want to display in a Django template each seller, followed by the sum of the total of all his orders.
 

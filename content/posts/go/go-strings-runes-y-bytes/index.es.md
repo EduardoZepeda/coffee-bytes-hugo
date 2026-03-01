@@ -33,7 +33,7 @@ Entonces, ¿cómo sabe la computadora que número corresponde a cada letra? Pues
 
 Este tema es bastante extenso y ya hay suficiente información en internet, por lo que solo quédate con que detrás de cada carácter hay un número que la representa y que ese carácter depende de la tabla que usemos para representarlo.
 
-{{< figure src="images/ASCII-Table-wide.jpg" class="md-local-image" alt="Tabla ASCII" >}}
+{{< figure src="images/ASCII-Table-wide.jpg" class="md-local-image" alt="Tabla ASCII"  width="875" height="582" >}}
 
 Tabla ASCII con colores modificados tomada de [wikimedia](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg).
 
@@ -71,7 +71,7 @@ fmt.Println(string(ch))
 // 'A'
 ```
 
-{{< figure src="images/ByteEnGo.jpg" class="md-local-image" alt="Esquema de un byte en go" caption="Representación de la letra 'A' en notación decimal. El cuadrado representa un byte u 8 bits." >}}
+{{< figure src="images/ByteEnGo.jpg" class="md-local-image" alt="Esquema de un byte en go" caption="Representación de la letra 'A' en notación decimal. El cuadrado representa un byte u 8 bits."  width="875" height="320" >}}
 
 
 ### Array de bytes
@@ -128,7 +128,7 @@ fmt.Printf("type:%T, value:%v\n", runa, runa)
 
 Aprecia como el tipo sigue siendo el mismo, pero su valor ahora es 20154, pues al ser un int32 tenemos acceso hasta 2³¹-1 (recuerda que un bit se usa para el signo positivo o negativo).
 
-{{< figure src="images/RuneEnGo-2.jpg" class="md-local-image" alt="Esquema de una runa en memoria" >}}
+{{< figure src="images/RuneEnGo-2.jpg" class="md-local-image" alt="Esquema de una runa en memoria"  width="875" height="320" >}}
 
 Representación del caracter '人' en notación decimal. El cuadrado representa un 32 bits.
 
@@ -166,7 +166,7 @@ fmt.Println(len(s))
 // 23
 ```
 
-{{< figure src="images/runesEnGo.png" class="md-local-image" alt="Diferencia de tamaño en los caracteres de un string en go" >}}
+{{< figure src="images/runesEnGo.png" class="md-local-image" alt="Diferencia de tamaño en los caracteres de un string en go"  width="1000" height="400" >}}
 
 Al momento de iterar sobre nuestro string, estaremos iterando byte por byte, por lo que imprimiremos 23 bytes, cada byte expresado en notación octadecimal.
 

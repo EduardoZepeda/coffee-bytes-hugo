@@ -216,7 +216,7 @@ Rustlings contains a [series of exercises to learn and practice Rust](https://gi
 
 When you finish all Rustling's exercises you receive this amazing prize.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="Rustling's reward after finishing all exercises" caption="Rustling's reward after finishing all exercises" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="Rustling's reward after finishing all exercises" caption="Rustling's reward after finishing all exercises"  width="626" height="618" >}}
 
 ## Rust is not so hard to learn
 

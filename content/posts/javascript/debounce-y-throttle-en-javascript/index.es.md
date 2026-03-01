@@ -57,7 +57,7 @@ Nuevos intentos de ejecutar la función cancelarán la ejecución pendiente y re
 
 {{<ad0>}}
 
-{{< figure src="images/DebounceORebote.png" class="md-local-image" alt="Esquema simplificado del patrón debounce" >}}
+{{< figure src="images/DebounceORebote.png" class="md-local-image" alt="Esquema simplificado del patrón debounce"  width="1200" height="1200" >}}
 
 ### Explicación del patrón debounce
 
@@ -85,7 +85,7 @@ Pero ahora presta atención al clearTimeout. Cada vez que llamemos a la función
 
 El patrón throttling (o aceleración) establece un tiempo de espera durante el cual no se pueden llamar nuevamente más funciones. A diferencia del patrón bounce, el tiempo de espera no se reinicia si intentamos llamar nuevamente a la función.
 
-{{< figure src="images/throttling.jpg" class="md-local-image" alt="Esquema simplificado del patrón throttling" >}}
+{{< figure src="images/throttling.jpg" class="md-local-image" alt="Esquema simplificado del patrón throttling"  width="1200" height="1200" >}}
 
 ### Explicación del patrón throttling
 

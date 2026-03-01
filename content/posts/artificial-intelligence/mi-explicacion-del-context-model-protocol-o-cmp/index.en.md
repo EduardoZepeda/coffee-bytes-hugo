@@ -30,7 +30,7 @@ One of the most convenient uses of LLMs is to use them to analyse or process our
 
 Anthropic members noticed this and proposed to standardise this process by creating a protocol for providing context and the ability to interact with systems to LLMs. Where does that context come from? Well, pretty much anywhere, Github, a database, your file system, an API ([gPRC type]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), REST or others), basically any source that can return information.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Example of MCP usage, user asks for the content of its own files, LLM reads them and replies" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Example of MCP usage, user asks for the content of its own files, LLM reads them and replies"  width="1780" height="621" >}}
 
 This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [just AI overhype and bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) or a completely groundbreaking paradigm?
 
@@ -47,7 +47,7 @@ The MCP conforms to a client-server architecture.
 
 A client that implements the Model Context Protocol can connect to an LLM and a set of MCP services or servers that provide it with the appropriate context it needs.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743559566/coffee-bytes/screenshot-claude-ai-ui_xdtpmk.png" class="md-local-image" alt="A potential MCP Client" caption="A potential MCP Client" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743559566/coffee-bytes/screenshot-claude-ai-ui_xdtpmk.png" class="md-local-image" alt="A potential MCP Client" caption="A potential MCP Client"  width="912" height="512" >}}
 
 A MCP client represents the user interface to which we would normally pass our prompts; this interface may be Claude Desktop or some other equivalent.
 
@@ -90,7 +90,7 @@ To know what resources a service or server can access or modify, they implement 
 
 For example, in the [CCM Github repository](https://github.com/modelcontextprotocol/servers/tree/main/src/github) we see the list of actions that can be performed, as well as the required inputs for each of them.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743551599/coffee-bytes/github-mcp-screenshot-list_ad1rel.png" class="md-local-image" alt="Screenshot of the available actions of a Github MCP server\"" caption="Screenshot of the available actions of a Github MCP server" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743551599/coffee-bytes/github-mcp-screenshot-list_ad1rel.png" class="md-local-image" alt="Screenshot of the available actions of a Github MCP server\"" caption="Screenshot of the available actions of a Github MCP server"  width="764" height="733" >}}
 
 Internally there is no magic at all, the services interact with the servers or information sources through their respective APIs. Take a look at the code that executes the *listCommits* action shown in the image above.
 
@@ -131,7 +131,7 @@ export async function listCommits(
 
 This is the magic part, the LLM can "read" the available actions from the MCP and, based on the prompt, decide which action should be executed, then the MCP will perform the action an return the answer to the LLM, afterwards the answer will be read by the LLM, which will generate a final response for the user.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751225840/coffee-bytes/MCP-flow-diagram_jjziao_sfst5j.webp" class="md-local-image" alt="MCP Flow Diagram" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751225840/coffee-bytes/MCP-flow-diagram_jjziao_sfst5j.webp" class="md-local-image" alt="MCP Flow Diagram"  width="1200" height="573" >}}
 
 So far I have been talking about resources and actions, but in the MCP these two actions which are in charge of giving context to an LLM have names. Of course they were not going to miss the opportunity to give some branding to their protocol.
 

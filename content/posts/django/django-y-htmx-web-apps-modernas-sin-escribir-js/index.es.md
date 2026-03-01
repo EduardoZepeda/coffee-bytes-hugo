@@ -32,7 +32,7 @@ El otro día estaba probando una librería llamada htmx, que promete volver much
 
 ¿Y cuantos kB le va añadir a mi proyecto? Casi nada, HTMX es bastante ligero, pesa alrededor de 10 kB gzipped o 30 kB minimizado y no tiene dependencias.
 
-{{< figure src="images/TamanoDeHTMX.png" class="md-local-image" alt="Tamaño de la librería HTMX. 105 kB normal, 32 kB minimizado y 10.8 comprimido en gzip." >}}
+{{< figure src="images/TamanoDeHTMX.png" class="md-local-image" alt="Tamaño de la librería HTMX. 105 kB normal, 32 kB minimizado y 10.8 comprimido en gzip."  width="1031" height="386" >}}
 
 Htmx te permite manejar peticiones AJAX, transiciones de CSS, websockets y eventos mandados desde el servidor sobre cualquier tag de HTML que acepte atributos . Todas estas funcionalidades pueden ser desencadenadas por una serie triggers tales como que un elemento cargue, que aparezca en el viewport, un click, que el mouse entre (o salga), o incluso eventos que se activan cada cierto tiempo sin interacción del usuario. Además de peticiones GET y POST, HTMX permite hacer peticiones PUT, DELETE, PATCH, todo modificando atributos de etiquetas HTML únicamente.
 
@@ -53,7 +53,7 @@ Pero supongo que quieres ver como luce el código ¿no? Mira este ejemplo tomado
 > 
 > https://htmx.org/docs/#introduction
 
-{{< figure src="images/HtmxEsquema.jpg" class="md-local-image" alt="Esquema del funcionamiento de htmx" >}}
+{{< figure src="images/HtmxEsquema.jpg" class="md-local-image" alt="Esquema del funcionamiento de htmx"  width="1200" height="1300" >}}
 
 Esquema del funcionamiento de HTMX
 
@@ -345,7 +345,7 @@ Observa como, en ambos casos, el HTML generado por Django en la url a la que apu
 
 Si nuestro código funciona, tras hacer click en el botón de home se realizarán los siguientes pasos:
 
-{{< figure src="images/HtmxResponse-1.gif" class="md-local-image" alt="Htmx renderizando una aplicación web." >}}
+{{< figure src="images/HtmxResponse-1.gif" class="md-local-image" alt="Htmx renderizando una aplicación web."  width="1339" height="393" >}}
 
 1. Htmx realizará una petición GET a la url videogame/list/
 2. Django consultará la base de datos, obtendrá la información y la pasará al sistema de renderizado de plantillas
@@ -412,7 +412,7 @@ Esto es importante porque **si accedemos a una url diferente a la de _home_, que
 
 Solucionaremos este problema más adelante.
 
-{{< figure src="images/LaEtiquetaHeadNoSeCarga.gif" class="md-local-image" alt="La etiqueta head no se carga directamente si accedemos a la ruta" >}}
+{{< figure src="images/LaEtiquetaHeadNoSeCarga.gif" class="md-local-image" alt="La etiqueta head no se carga directamente si accedemos a la ruta"  width="1260" height="630" >}}
 
 ```html
 {% endfor %}
@@ -429,11 +429,11 @@ Solucionaremos este problema más adelante.
 
 Mira como queda funcionando
 
-{{< figure src="images/HtmxFormSubmit-1.gif" class="md-local-image" alt="Envío de un formulario usando htmx y django" >}}
+{{< figure src="images/HtmxFormSubmit-1.gif" class="md-local-image" alt="Envío de un formulario usando htmx y django"  width="1260" height="630" >}}
 
 Mira la imagen de abajo, htmx envió de manera automática el contenido de todos los campos que englobaba la etiqueta form como parte de la petición POST hecha a /videogame/create/
 
-{{< figure src="images/PeticionHTTPPost.png" class="md-local-image" alt="Parámetros POST que manda de manera automática htmx" >}}
+{{< figure src="images/PeticionHTTPPost.png" class="md-local-image" alt="Parámetros POST que manda de manera automática htmx"  width="1426" height="275" >}}
 
 ### Excluyendo parámetros con htmx
 
@@ -468,7 +468,7 @@ Cada que se realiza una petición con Htmx, se envían encabezados extras al ser
 
 Se envió la url por medio del encabezado HX-Current-URL, el elemento objeto que se intercambiará por medio HX-Target, y un parámetro llamado HX-Request, que es siempre igual "true", que le indica al servidor que hicimos la petición con htmx. HX-Trigger, se envía si especificamos una id en la etiqueta que desencadena la petición. ¿Y para que me sirven estos encabezados? Pues puedes recuperarlos con django y usarlos como mejor te convenga en tus vistas.
 
-{{< figure src="images/EncabezadosHtmx.png" class="md-local-image" alt="Lista de encabezados extra son agregados en cada petición" >}}
+{{< figure src="images/EncabezadosHtmx.png" class="md-local-image" alt="Lista de encabezados extra son agregados en cada petición"  width="1422" height="553" >}}
 
 ## Renderizando head, body y html de manera condicional con HTMX
 
@@ -537,7 +537,7 @@ Y ahora en todas nuestras plantillas que solo retornan HTML, podemos hacer que e
 
 Ahora puedes acceder directo a las url y conservar la funcionalidad de htmx.
 
-{{< figure src="images/HtmxConHeadDespuesDePeticion.gif" class="md-local-image" alt="Accediendo a las rutas directamente" >}}
+{{< figure src="images/HtmxConHeadDespuesDePeticion.gif" class="md-local-image" alt="Accediendo a las rutas directamente"  width="1260" height="630" >}}
 
 ### Renderizando condicional con HTMX en las vistas de Django
 

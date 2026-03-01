@@ -24,7 +24,7 @@ title: Trigramas y búsquedas avanzadas con Django y Postgres
 
 ¿Qué pasa si el dedo de un usuario resbala por el teclado y escribe "parfume" en lugar de "perfume". Probablemente no querramos que nuestro usuario abandone el sitio porque no encontró ningún "parfume" en nuestro sitio web. Nuestro sitio web debería de devolverle los resultados que más se parezcan a lo que está buscando. Mira como lo maneja un ecommerce con experiencia:
 
-{{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Búsqueda de la palabra \"parfume\" en amazon." >}}
+{{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Búsqueda de la palabra \"parfume\" en amazon."  width="772" height="436" >}}
 
 {{<ad0>}}
 
@@ -40,7 +40,7 @@ La razón de que parfume se parezca a perfume es porque ambos contienen trigrama
 
 ¿Trigrama? Sí, trigrama, de tres y grama. **Un trigrama son tres caracteres consecutivos**, así de sencillo.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams_tqmzs7.jpg" class="md-local-image" alt="Esquema de los trigramas de automata" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams_tqmzs7.jpg" class="md-local-image" alt="Esquema de los trigramas de automata"  width="600" height="425" >}}
 
 Trigramas son tres caracteres consecutivos
 
@@ -80,7 +80,7 @@ SELECT show_trgm('autommattaa');
 
 ¿Puedes notar como ambos comparten algunos trigramas? (a, au, aut, mat, tom, uto)
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg" class="md-local-image" alt="Trigramas compartidos entre dos cadenas de texto." >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750289287/coffee-bytes/trigrams-intersection_cnapb1.jpg" class="md-local-image" alt="Trigramas compartidos entre dos cadenas de texto."  width="1200" height="564" >}}
 
 Observa también que las comillas alrededor de ciertos trigramas son para especificar trigramas con espacios
 
@@ -119,7 +119,7 @@ results[0].similarity
 
 Si un usuario busca una laptop y tu aplicación le muestra primero fundas para laptop, mochilas para laptop, demás artículos relacionados y hasta el final las laptops, estás brindándole una experiencia inadecuada como usuario.
 
-{{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Búsqueda de la palabra \"laptop\" en amazon" >}}
+{{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Búsqueda de la palabra \"laptop\" en amazon"  width="772" height="436" >}}
 
 Search Rank te permite ordenar las búsquedas de los usuarios por relevancia, para que tu usuario encuentre exactamente lo que está buscando primero y luego todo lo demás.
 
@@ -144,7 +144,7 @@ Imagínate que tienes una base de datos de libros y un modelo Libro con un campo
 
 Por otro lado, puede que el usuario esté buscando algunas palabras que recuerde haber leído en la contraportada, o que esté buscando cualquier cosa que tenga su query, podemos también buscar en el campo "descripción" pero con una menor valoración, mostrándole primero las coincidencias con el título y después las que coincidan con la descripción.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg" class="md-local-image" alt="Explicación de la relevancia de acuerdo al campo" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg" class="md-local-image" alt="Explicación de la relevancia de acuerdo al campo"  width="1167" height="483" >}}
 
 Con Posgres es posible lo anterior.
 

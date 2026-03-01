@@ -56,7 +56,7 @@ This comparison is going to be a bit sloppy, since we are going to compare Pytho
 
 **Python is an interpreted and imperative language while Go is a compiled, concurrent and imperative language.**
 
-{{< figure src="images/codigo-compilado-vs-interpretado-go-vs-python.png" class="md-local-image" alt="Go is a compiled language whereas Python is an interprepted one" >}}
+{{< figure src="images/codigo-compilado-vs-interpretado-go-vs-python.png" class="md-local-image" alt="Go is a compiled language whereas Python is an interprepted one"  width="800" height="400" >}}
 
 I had already explained a bit about the differences between an interpreted and a compiled language in my [python vs javascript comparison]({{< ref path="/posts/javascript/python-vs-javascript-2021-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="en" >}}), so if you want to refresh your memory a bit go there.
 
@@ -72,7 +72,7 @@ The comparison here is going to become somewhat unfair, but I'll make it anyway:
 
 How fast is go compared to python? I made a small test using [multitime](https://tratt.net/laurie/src/multitime/#?) to measure how long it takes to calculate the n fibonacci number for each language, 10 repetitions for each test, results are in seconds (smaller is better), note the radical difference in performance of both languages.
 
-{{< figure src="images/fibo-go-vs-python-velocidad.png" class="md-local-image" alt="python vs go speed comparison using fibonacci by recursion" caption="The lower the better. Go, being a compiled language is way faster than Python." >}}
+{{< figure src="images/fibo-go-vs-python-velocidad.png" class="md-local-image" alt="python vs go speed comparison using fibonacci by recursion" caption="The lower the better. Go, being a compiled language is way faster than Python."  width="899" height="556" >}}
 
 ## My opinion on the hatred of go
 
@@ -349,7 +349,7 @@ Go, as of the date of writing this article, requires installation on the system,
 
 While Python has a quite wide support, as it is found in generally installed in all GNU/Linux distributions and you only need to open a terminal and type the word Python to start using it. Open a terminal and type the word Python to start using it.
 
-{{< figure src="images/PythonConsola.gif" class="md-local-image" alt="Python running on a terminal" >}}
+{{< figure src="images/PythonConsola.gif" class="md-local-image" alt="Python running on a terminal"  width="717" height="432" >}}
 
 ## Common usages of Python and Go
 
@@ -359,7 +359,7 @@ Go can be used for almost anything, but it has a strong presence in devops tools
 
 The [docker containers are written using go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="en" >}}).
 
-{{< figure src="images/traeffik-y-kubernetes-1024x505-1.jpg" class="md-local-image" alt="Logos of technologies created with go" caption="Traefik, docker, kubernetes, influxdb, and terraform are all written in Go." >}}
+{{< figure src="images/traeffik-y-kubernetes-1024x505-1.jpg" class="md-local-image" alt="Logos of technologies created with go" caption="Traefik, docker, kubernetes, influxdb, and terraform are all written in Go."  width="1024" height="505" >}}
 
 They have also created such great tools as [Pocketbase](https://pocketbase.io/#?), an excellent example of Backend as a service and open source alternative to firebase.
 
@@ -371,13 +371,13 @@ Python is a multi-purpose language, allowing you to create basically everything 
 
 To date Python is much more popular than Go. You can see that Go gained popularity between the period between 2011 and 2015, but stabilized to fall below Python.
 
-{{< figure src="images/python-vs-go-google-trends.png" class="md-local-image" alt="Google trends comparing Go vs Python. Python is more popular" caption="Python is more popular than Go" >}}
+{{< figure src="images/python-vs-go-google-trends.png" class="md-local-image" alt="Google trends comparing Go vs Python. Python is more popular" caption="Python is more popular than Go"  width="1214" height="623" >}}
 
 ### Popularity among developers
 
 Go is a very popular language among developers, even more than Javascript, but less loved than Python and Typescript.
 
-{{< figure src="images/python-vs-go-popularity.png" class="md-local-image" alt="In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it." caption="In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it." >}}.
+{{< figure src="images/python-vs-go-popularity.png" class="md-local-image" alt="In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it." caption="In 2023 Stackoverflow replaced the survey with one that specifies the difference between those who want to use it and those who have already used it and want to continue using it."  width="1303" height="908" >}}.
 
 ## Python vs Go salaries
 
@@ -401,7 +401,7 @@ Go does not have an official package repository like Python does. The packages a
 
 The [import of modules and packages into Go]({{< ref path="/posts/go/go-importacion-de-paquetes-y-manejo-de-modulos/index.md" lang="en" >}}) may seem a bit strange to you. strange, there are no relative imports, like in Python or Javascript.
 
-{{< figure src="images/AwesomeGo.png" class="md-local-image" alt="Awesome Go page" caption="Screenshot of Awesome Go" >}}
+{{< figure src="images/AwesomeGo.png" class="md-local-image" alt="Awesome Go page" caption="Screenshot of Awesome Go"  width="351" height="944" >}}
 
 Awesome Go features links to a large number of sorted Go packages by theme
 
@@ -416,7 +416,7 @@ Python has 336,000 in pypi, many of them are available to be using pip or any ot
 
 Python has a gigantic community, compared to go, and they have packages for almost everything you can imagine.
 
-{{< figure src="images/Pypi.png" class="md-local-image" alt="screenshot of the Python Pypi package index" caption="The Python Pypi package index" >}}
+{{< figure src="images/Pypi.png" class="md-local-image" alt="screenshot of the Python Pypi package index" caption="The Python Pypi package index"  width="1195" height="429" >}}
 
 
 ## Web frameworks
@@ -425,7 +425,7 @@ Python has a gigantic community, compared to go, and they have packages for almo
 
 The frameworks available for Go focus on speed. Since the language language is new, they are relatively young technologies but extremely fast and efficient, being efficient, being able to serve many, many requests per second. If speed is a is a requirement for your project, consider them seriously.
 
-{{< figure src="images/Frameworks-web-Go.jpg" class="md-local-image" alt="Most popular Go frameworks: Hugo, Beego, Echo, Buffalo, Go revel" caption="Go frameworks logos" >}}
+{{< figure src="images/Frameworks-web-Go.jpg" class="md-local-image" alt="Most popular Go frameworks: Hugo, Beego, Echo, Buffalo, Go revel" caption="Go frameworks logos"  width="1200" height="630" >}}
 
 ### How fast are Go web frameworks compared to Python web frameworks?
 
@@ -443,7 +443,7 @@ While in Python we already have some well proven solutions, solutions, character
 
 Among the frameworks [Django, one of the favorite frameworks of Python]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 
-{{< figure src="images/python-frameworks.jpg" class="md-local-image" alt="Python's most popular frameworks are: Django, Fastapi, flask" caption="Most popular Python frameworks" >}}
+{{< figure src="images/python-frameworks.jpg" class="md-local-image" alt="Python's most popular frameworks are: Django, Fastapi, flask" caption="Most popular Python frameworks"  width="800" height="368" >}}
 
 Even though most Python frameworks are old, it doesn't mean that new frameworks are not appearing lately.
 [Fastapi]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}}), which I already did a tutorial on, is also a fast-growing new framework that is gaining popularity day by day.

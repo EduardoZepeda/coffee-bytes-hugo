@@ -24,7 +24,7 @@ Golang, also known as go, is a compiled programming language developed by Google
 
 Go is [used even in colossal projects, like the typescript compiler.](https://github.com/microsoft/typescript-go/discussions/411#?)
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust." caption="Typescript decidió utilizar Go para su compilador en lugar de Rust, lo que enfureció a algunos desarrolladores de Rust."  width="1435" height="1200" >}}
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
@@ -54,13 +54,13 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 
 To make this analysis as objective as possible, here are some controversial aspects of go that are not viewed favorably by some developers. Yes, I know the community can be toxic sometimes, but I agree with most of them. Let's be realistic, Go is not perfect, but my take is that this is not about perfection but getting things done.
 
-{{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Error handling with Go with if" caption="This pattern is quite recurrent in applications and can become tedious." >}}
+{{< figure src="images/ManejoErroresGo.png" class="md-local-image" alt="Error handling with Go with if" caption="This pattern is quite recurrent in applications and can become tedious."  width="493" height="80" >}}
 
 
 * **Go lacks support for classes** directly. But all is not lost, because it does have certain features that provide it with OOP functionalities, such as polymorphism and classes, by means of [interfaces, structs and embedded values]({{< ref path="/posts/go/go-structs-herencia-polimorfismo-y-encapsulacion/index.md" lang="en" >}}).
 * **Go does not have exception handling with try and catch blocks or equivalent**, but errors must be returned as a return value in a function and are handled by checking that it is not null (nil), by means of if blocks. This can become quite verbose and repetitive.
 
-{{< figure src="images/if-err-not-equal-nil.jpg" class="md-local-image" alt="Recurrent error handling pattern in go" caption="If err!= nil again and again and again, error handling in Go could be better" >}}
+{{< figure src="images/if-err-not-equal-nil.jpg" class="md-local-image" alt="Recurrent error handling pattern in go" caption="If err!= nil again and again and again, error handling in Go could be better"  width="770" height="478" >}}
 
 * **There are no default arguments in go**, which increases the amount of code to write to deal with defaults.
 * **No manual memory management**, go uses a garbage collector, which simplifies memory management enormously, but limits more granular memory management, this was one of the reasons why [discord migrated from Go to Rust.](https://discord.com/blog/why-discord-is-switching-from-go-to-rust)
@@ -72,7 +72,7 @@ To make this analysis as objective as possible, here are some controversial aspe
 
 Go is strongly oriented to good code practices. How does it do it? The compiler forces good practices in the code, preventing the code from compiling if there are variables or imports that are not used, or if the privacy rules of our properties and functions are not respected, among others.
 
-{{< figure src="images/ErrorCompilacionGo.png" class="md-local-image" alt="Compilation error in go due to unused variables" caption="Compilation is not allowed if there are unused variables." >}}
+{{< figure src="images/ErrorCompilacionGo.png" class="md-local-image" alt="Compilation error in go due to unused variables" caption="Compilation is not allowed if there are unused variables."  width="531" height="222" >}}
 
 However it doesn't force you to check for nil values, which me and other developers think it is a weak part of the language.
 
@@ -82,7 +82,7 @@ However it doesn't force you to check for nil values, which me and other develop
 
 The official mascot is a ground squirrel and it is popular among the community to use it to illustrate go-related content. This Blue Sartre rodent version is so popular among developers that there are tools, such as [Gopherizme](https://gopherize.me#?), to create custom avatars. The impact of the mascot is such that many developers use it as a logo, although the [official go logo](https://blog.golang.org/go-brand) has already been defined.
 
-{{< figure src="images/GoMascotAndLogo.png" class="md-local-image" alt="Go mascot and logo" caption="On the left the Go mascot. On the right the official logo" >}}
+{{< figure src="images/GoMascotAndLogo.png" class="md-local-image" alt="Go mascot and logo" caption="On the left the Go mascot. On the right the official logo"  width="800" height="400" >}}
 
 ## Go Installation
 

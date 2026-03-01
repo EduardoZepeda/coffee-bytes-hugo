@@ -37,7 +37,7 @@ To achieve the above you need to know the basic architecture of Azure, its diffe
 
 The exam was conducted through the [Evaluaasi platform](https://www.evaluaasi.com/#?), through which you download a program that connects to a remote desktop to take the exam. This program will monitor your computer and connected devices, probably to prevent a user from cheating in some way; I have heard that some evaluation processes are so strict that they ask to see the room in which you will take the exam before starting. That wasn't my case though.
 
-{{< figure src="images/evaluaasi-plataforma.jpg" class="md-local-image" alt="Evaluaasi platform" caption="Evaluaasi platform home screen" >}}
+{{< figure src="images/evaluaasi-plataforma.jpg" class="md-local-image" alt="Evaluaasi platform" caption="Evaluaasi platform home screen"  width="1672" height="576" >}}
 
 When it is time for the exam, and once connected to the remote desktop, an evaluator will enter his or her username and password to give you access to the exam.
 
@@ -49,7 +49,7 @@ According to what I was told in one of their emails, the application of the exam
 
 The duration of the exam is approximately 60 minutes and has 45 questions, there are multiple choice questions, true or false, matching columns and even some where you have to choose an option from the Microsoft marketplace directly, just as if you were in the browser.
 
-{{< figure src="images/portal-azure.png" class="md-local-image" alt="Azure Portal screenshot" caption="Azure Portal" >}}
+{{< figure src="images/portal-azure.png" class="md-local-image" alt="Azure Portal screenshot" caption="Azure Portal"  width="1051" height="209" >}}
 
 You can skip questions and mark them to come back to them later, which I highly recommend because time is tight, I had 10 minutes left over, but there were some questions I couldn't answer in the first round.
 
@@ -75,7 +75,7 @@ To study I used the following resources, here is a brief description of each one
 
 The [microsoft Learn platform](https://docs.microsoft.com/en-us/learn/) is the default resource, as there is no one better than microsoft to start reading the basic features of the Azure cloud. However, being a text-only solution it can become somewhat tedious. In addition, the large amount of information can make people who have their first approach to new technologies feel lost.
 
-{{< figure src="images/plataforma-microsoft-learn.jpg" class="md-local-image" alt="microsoft learn platform" caption="microsoft learning platform" >}}
+{{< figure src="images/plataforma-microsoft-learn.jpg" class="md-local-image" alt="microsoft learn platform" caption="microsoft learning platform"  width="951" height="914" >}}
 
 The e-learning platform is also available in Spanish, just select the language.
 
@@ -85,7 +85,7 @@ See below for details on the content of this platform.
 
 Aprenderbigdata has a [exam guide in 5 PDF files](https://aprenderbigdata.com/az-900-azure-fundamentals/) quite complete with questions in Spanish, which you can use as a review quiz, it is almost at the bottom of the page.
 
-{{< figure src="images/aprender-big-data.jpg" class="md-local-image" alt="Learn big data" >}}
+{{< figure src="images/aprender-big-data.jpg" class="md-local-image" alt="Learn big data"  width="1194" height="666" >}}
 
 ### Adam Marczac's website
 
@@ -124,7 +124,7 @@ The process consists of completing the following 4 courses:
 
 In general the first two are fairly easy, especially if you already have experience working with the [usual linux commands from the terminal]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}}), the last two do require some experience or a lot of practice on your part to pass them.
 
-{{< figure src="images/administracion-servidores-linux.jpg" class="md-local-image" alt="Platzi's Linux Server Administration Course" caption="Linux Server Administration Course" >}}
+{{< figure src="images/administracion-servidores-linux.jpg" class="md-local-image" alt="Platzi's Linux Server Administration Course" caption="Linux Server Administration Course"  width="1283" height="801" >}}
 
 ### Microsoft Learn Practices
 

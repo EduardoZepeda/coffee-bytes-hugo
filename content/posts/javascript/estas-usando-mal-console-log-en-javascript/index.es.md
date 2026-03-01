@@ -29,7 +29,7 @@ _console.info()_ cumple la función de presentar información
 console.info("Texto con propósito informativo")
 ```
 
-{{< figure src="images/info.jpg" class="md-local-image" alt="Impresion con console.info en consola" >}}
+{{< figure src="images/info.jpg" class="md-local-image" alt="Impresion con console.info en consola"  width="372" height="39" >}}
 
 {{<ad1>}}
 
@@ -41,7 +41,7 @@ _console.warn()_ muestra un mensaje de advertencia, con fondo amarillo
 console.warn("Muestra un mensaje de advertencia")
 ```
 
-{{< figure src="images/warn.jpg" class="md-local-image" alt="Impresion con console.warn en consola" >}}
+{{< figure src="images/warn.jpg" class="md-local-image" alt="Impresion con console.warn en consola"  width="382" height="40" >}}
 
 ## Muestra un mensaje de error con console.error
 
@@ -53,7 +53,7 @@ _console.error()_ nos muestra un mensaje de error
 console.error("Muestra un mensaje de error")
 ```
 
-{{< figure src="images/error.jpg" class="md-local-image" alt="Error en consola impreso con console.error" >}}
+{{< figure src="images/error.jpg" class="md-local-image" alt="Error en consola impreso con console.error"  width="365" height="44" >}}
 
 ## Evalua si una expresión es true, o muestra un error con console.assert
 
@@ -65,11 +65,11 @@ Assertion failed: Este mensaje se muestra porque el primer argumento es false
 console.assert(true, "Este mensaje NO se mostrará porque el primer argumento es true")
 ```
 
-{{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Impresión en consola con console.assert ara false" >}}
+{{< figure src="images/assertFalse.jpg" class="md-local-image" alt="Impresión en consola con console.assert ara false"  width="619" height="42" >}}
 
 {{<ad3>}}
 
-{{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Impresión en consola con console.assert para true" >}}
+{{< figure src="images/assertTrue.jpg" class="md-local-image" alt="Impresión en consola con console.assert para true"  width="614" height="42" >}}
 
 ## Cuenta eventos con console.count
 
@@ -116,7 +116,7 @@ ram: "HyperX FURY DDR4 8GB"
 <prototype>: Object { … }
 ```
 
-{{< figure src="images/dir.jpg" class="md-local-image" alt="Impresión en consola con console.dir" >}}
+{{< figure src="images/dir.jpg" class="md-local-image" alt="Impresión en consola con console.dir"  width="677" height="124" >}}
 
 ## Agrupa mensajes
 
@@ -133,7 +133,7 @@ Mensajes agrupados
 | Info
 ```
 
-{{< figure src="images/group.jpg" class="md-local-image" alt="Impresión de un grupo con console.group en consola" >}}
+{{< figure src="images/group.jpg" class="md-local-image" alt="Impresión de un grupo con console.group en consola"  width="181" height="91" >}}
 
 ## Mide el tiempo con console.time
 
@@ -155,6 +155,6 @@ const books = [{book: "Story of Your Life", author: "Ted Chiang"}, {book: "The l
 console.table(books)
 ```
 
-{{< figure src="images/table-1.jpg" class="md-local-image" alt="Impresion de table con console.table en consola" >}}
+{{< figure src="images/table-1.jpg" class="md-local-image" alt="Impresion de table con console.table en consola"  width="426" height="229" >}}
 
 Con este ejemplo doy por terminada la entrada. Espero que la próxima vez que uses _console.log()_ tomes en cuenta las diferentes opciones que tienes para hacer más sencillo el desarrollo de tu código. En esta entrada solo puse los métodos más útiles, si quieres ahondar más en el tema puedes consultar la [documentación oficial.](https://developer.mozilla.org/es/docs/Web/API/Console)

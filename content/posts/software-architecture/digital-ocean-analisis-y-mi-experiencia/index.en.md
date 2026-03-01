@@ -32,13 +32,13 @@ Droplets are my favorite resource in Digital Ocean. Droplets are virtual servers
 
 Once you click the button a Droplet is available in less than a minute.
 
-{{< figure src="images/Droplets-de-digital-ocean.png" class="md-local-image" alt="Images available for Digital Ocean droplets" >}}
+{{< figure src="images/Droplets-de-digital-ocean.png" class="md-local-image" alt="Images available for Digital Ocean droplets"  width="1272" height="508" >}}
 
 ### Customized images in Droplets
 
 If you don't want to start from a brand new operating system installation you can opt for some more specific **images that include pre-installed software for the most popular software requirements**: web development, data science, blogging, frameworks, media, storage, elearning, ecommerce, etc.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547051/Marketplace-digital-ocean_q3h4lb.png" class="md-local-image" alt="Images available for Digital Ocean droplets" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547051/Marketplace-digital-ocean_q3h4lb.png" class="md-local-image" alt="Images available for Digital Ocean droplets"  width="1301" height="543" >}}
 
 For example, you can choose an Express JS template and it will have Node installed and an Express server running 
 
@@ -54,7 +54,7 @@ Digital Ocean also has specialized Droplets, either in CPU, memory or storage an
 
 Digital Ocean offers some of the most basic, and cheapest VPS out there (except for Hostinger and Akamai, but I'll talk about it later). 
 
-{{< figure src="images/Droplets-purpose.png" class="md-local-image" alt="Types of plans for Digital Ocean" >}}
+{{< figure src="images/Droplets-purpose.png" class="md-local-image" alt="Types of plans for Digital Ocean"  width="1273" height="163" >}}
 
 ### The cheap but reliable VPS of Digital Ocean
 
@@ -68,7 +68,7 @@ Let's suppose you can serve 1 RPS with that, that means 60 requests in a minute 
 
 Notice how all plans handle storage with an SSD, so don't worry about r/w speed.
 
-{{< figure src="images/Precios-digital-ocean.gif" class="md-local-image" alt="Prices of the different plans offered by Digital Ocean" >}}
+{{< figure src="images/Precios-digital-ocean.gif" class="md-local-image" alt="Prices of the different plans offered by Digital Ocean"  width="1350" height="502" >}}
 
 ### Cloud provider with servers around the world
 
@@ -76,7 +76,7 @@ Digital Ocean has servers in different locations around the world. So you always
 
 I have ONLY used the servers in the United States and Canada, due to the proximity to Mexico, and I have not had any problem so far. Also I'm aware that they have servers in Europe and Asia, so feel free to try them.
 
-{{< figure src="images/diferentes-ubicaciones-droplets-digital-ocean.png" class="md-local-image" alt="Digital Ocean Server Locations" >}}
+{{< figure src="images/diferentes-ubicaciones-droplets-digital-ocean.png" class="md-local-image" alt="Digital Ocean Server Locations"  width="1260" height="383" >}}
 
 ## Digital Ocean vs Hostinger
 
@@ -88,7 +88,7 @@ I really don't want to deal with problems for such small difference in price. If
 
 The other day I was checking my invoices and realized that they're now offering LLM on demand, and not only ChatGPT, but a lot more, each one of them with its own price you can connect them to your Droplets, Apps or services and use them, they will take care of the rest. The prices can change, so don't rely on this image, use it only as a reference.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547643/Digital-Ocean-AI-models-available_t15vfg.jpg" class="md-local-image" alt="Digital Ocean Server Locations" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755547643/Digital-Ocean-AI-models-available_t15vfg.jpg" class="md-local-image" alt="Digital Ocean Server Locations"  width="593" height="684" >}}
 
 Check, you can get 1M tokens for just $1 USD for Deep Seek model.
 
@@ -100,7 +100,7 @@ Do you remember that IAAS and PAAS companies exist? Well, many IAAS companies, D
 
 It has little time offering the integration and deployment of your applications using your Github or Gitlab repositories. You put the code on the table and they take care of compiling and running your project.
 
-{{< figure src="images/Digital-Ocean-Apps.png" class="md-local-image" alt="Apps Service" >}}
+{{< figure src="images/Digital-Ocean-Apps.png" class="md-local-image" alt="Apps Service"  width="1252" height="767" >}}
 
 ### S3 equivalent in Digital Ocean
 
@@ -140,7 +140,7 @@ What other services? well, it does not have solutions in artificial intelligence
 
 I have used Digital Ocean to host personal projects and also to manage my domains. I haven't had any problems with down servers so far, or at least not that I've noticed or any user has brought it to my attention. In fact, right now you are reading this ~~from a Droplet using a headless Wordpress and frontend frontity (A React framework) served with Nginx~~ Hugo and hosted at Digital Ocean. This blog uses ~~the cheapest service, the $5 usd~~ the App service, which is completely free for static sites, and the truth is that for the ~~mediocre~~ amount of traffic I have it doesn't feel slow at all and has decent Lighthouse metrics, no caching of any kind or any sophistication.
 
-{{< figure src="images/Coffeebytes-lighthose-indicadores.png" class="md-local-image" alt="Indicadores de Lighthose para coffeebytes.dev" >}}
+{{< figure src="images/Coffeebytes-lighthose-indicadores.png" class="md-local-image" alt="Indicadores de Lighthose para coffeebytes.dev"  width="1228" height="825" >}}
 
 ~~It should be clarified that I did modify some things from the default settings to have a better performance. For example, enabling HTTP2, instead of the default HTTP, as well as installing the HTTP certificate using cerbot in the terminal, as the default installation did not include it. Extra tasks that other hosting services would have solved for me, such as [easywp](/en/linux/my-experience-using-easywp-and-namecheap/).~~
 

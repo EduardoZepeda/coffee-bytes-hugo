@@ -29,7 +29,7 @@ Los git submodules o submódulos son un registro dentro de un repositorio de git
 
 ## ¿Para qué sirven los git submodules?
 
-{{< figure src="images/git-submodulo-esquema-basico.jpg" class="md-local-image" alt="Esquema simplificado de git submodules" caption="Esquema simplificado de git submodules" >}}
+{{< figure src="images/git-submodulo-esquema-basico.jpg" class="md-local-image" alt="Esquema simplificado de git submodules" caption="Esquema simplificado de git submodules"  width="1200" height="900" >}}
 
 Los submodules de git son útiles cuando queremos incorporar código de terceros a un proyecto y al mismo tiempo queremos llevar un control estricto de las actualizaciones de ese código por medio de git. Por ejemplo:
 
@@ -89,7 +89,7 @@ Cada uno de estos submódulos especifica su ruta, relativa a la raiz del reposit
 
 Este archivo es importante pues es una referencia a los submódulos que necesita nuestro proyecto para funcionar.
 
-{{< figure src="images/funcionamiento-git-submodules.jpg" class="md-local-image" alt="Esquema funcionamiento de git submodules" caption="Esquema del funcionamiento de git submodules" >}}
+{{< figure src="images/funcionamiento-git-submodules.jpg" class="md-local-image" alt="Esquema funcionamiento de git submodules" caption="Esquema del funcionamiento de git submodules"  width="1200" height="900" >}}
 
 ### El contenido del archivo .git en un submodule
 
@@ -127,7 +127,7 @@ Dentro del submódulo puedes realizar checkouts, crear ramas, inclusive realizar
 
 Git trata a cada submódulo como si fuera un repositorio separado, por lo que **cada versión de tu repositorio principal se corresponde con una versión del submódulo**.
 
-{{< figure src="images/git-submodules-correspondencia.jpg" class="md-local-image" alt="Git submodules correspondencia" >}}
+{{< figure src="images/git-submodules-correspondencia.jpg" class="md-local-image" alt="Git submodules correspondencia"  width="1200" height="630" >}}
 
 ## Flujo de trabajo con git submodules
 

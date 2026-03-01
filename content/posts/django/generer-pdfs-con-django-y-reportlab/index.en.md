@@ -76,13 +76,13 @@ def pdfVideogame(request):
     p.drawString(0, 0, "Hola mundo") # Hello world in Spanish
 ```
 
-{{< figure src="images/texto-fondo-pdf.png" class="md-local-image" alt="Text generated with reportlab" caption="Text created with reportlab" >}}
+{{< figure src="images/texto-fondo-pdf.png" class="md-local-image" alt="Text generated with reportlab" caption="Text created with reportlab"  width="1261" height="968" >}}
 
 This will draw our string... at the bottom of the screen.
 
 Why in the background? You may think that canvas works with a Cartesian plane, we just told reportlab to draw the string in the 0,0 coordinates of the plane.
 
-{{< figure src="images/coordenadas-pdf.png" class="md-local-image" alt="Pdf thought as a Cartesian plane" caption="Reportlab behaves as a Cartesian plane" >}}
+{{< figure src="images/coordenadas-pdf.png" class="md-local-image" alt="Pdf thought as a Cartesian plane" caption="Reportlab behaves as a Cartesian plane"  width="618" height="568" >}}
 
 ### Positioning the text in a Django's PDF
 
@@ -94,7 +94,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-{{< figure src="images/texto-posicionado-pdf.png" class="md-local-image" alt="Text positioned in a pdf" caption="Text positioned according to the X and Y axes in reportlab" >}}
+{{< figure src="images/texto-posicionado-pdf.png" class="md-local-image" alt="Text positioned in a pdf" caption="Text positioned according to the X and Y axes in reportlab"  width="1468" height="951" >}}
 
 ### Change font color in a Django's PDF
 
@@ -109,7 +109,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-{{< figure src="images/text-color-pdf.png" class="md-local-image" alt="Text in color in pdf" caption="Text in light blue" >}}
+{{< figure src="images/text-color-pdf.png" class="md-local-image" alt="Text in color in pdf" caption="Text in light blue"  width="1352" height="409" >}}
 
 We already have a simple text, let's save the content we generated and return it as a response.
 
@@ -166,7 +166,7 @@ We simply use the django ORM to create any query we want and call the drawString
 
 Notice how I decrease the position of the Y coordinate, so that each iteration writes the text in a new line, otherwise each line would overlap with the next.
 
-{{< figure src="images/pdf-dinamico-reportlab-django.png" class="md-local-image" alt="Pdf generated with information from the database in Django" caption="Pdf generated dynamically using Django" >}}
+{{< figure src="images/pdf-dinamico-reportlab-django.png" class="md-local-image" alt="Pdf generated with information from the database in Django" caption="Pdf generated dynamically using Django"  width="1454" height="845" >}}
 
 ## Improve performance when generating PDF in Django
 

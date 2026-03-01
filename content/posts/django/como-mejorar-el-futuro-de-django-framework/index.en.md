@@ -29,7 +29,7 @@ On June 21, 2024 I started a thread on reddit with the following question: "What
 
 This was the comment that received the most support from the community. Although Python already has optional Type Hints since version 3.5, it seems that implementing them for the purpose of modernizing Django Framework does not seem to be a priority.
 
-{{< figure src="images/comment-with-more-support-on-how-to-improve-django.png" class="md-local-image" alt="Comment with more support on how to improve Django" caption="Comment with more support on how to improve Django" >}}
+{{< figure src="images/comment-with-more-support-on-how-to-improve-django.png" class="md-local-image" alt="Comment with more support on how to improve Django" caption="Comment with more support on how to improve Django"  width="592" height="140" >}}
 
 The popularity of type hints is such that some users who consider them a significant improvement to the framework have developed [an external library, called django-stubs](https://github.com/typeddjango/django-stubs#?), which aims to revamp the Django Framework with type hints.
 
@@ -45,7 +45,7 @@ However, according to reddit users, there is not much interest from the code mai
 
 The second comment that received the most support states that customizing Django's User model is quite complicated, especially if done mid-project, more specifically changing Django's default login type from user to email.
 
-{{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Second comment with most support on how to improve Django" caption="Second comment with most support on how to improve Django" >}}
+{{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Second comment with most support on how to improve Django" caption="Second comment with most support on how to improve Django"  width="793" height="136" >}}
 
 Although there are multiple ways to [customize the User model in Django]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="en" >}}), such as using a proxy model, or inheriting from *AbstractUser*, some users find that solution a little bit "hackish".
 

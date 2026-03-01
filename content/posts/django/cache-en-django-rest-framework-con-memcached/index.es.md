@@ -42,7 +42,7 @@ El efecto que tendrá la caché depende de muchos factores. Sin embargo, solo pa
 
 Como puedes observar la diferencia es de casi 10 veces el tiempo.
 
-{{< figure src="images/ComparacionCache1000filasDjango.jpg" class="md-local-image" alt="Comparación del tiempo de respuesta con caché y sin caché para una aplicación de django." >}}
+{{< figure src="images/ComparacionCache1000filasDjango.jpg" class="md-local-image" alt="Comparación del tiempo de respuesta con caché y sin caché para una aplicación de django."  width="922" height="654" >}}
 
 Si tu aplicación está en el punto en el que [es importante obsesionarte con el rendimiento de esta](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/), la caché es uno de los primeros pasos a tomar.
 
@@ -166,7 +166,7 @@ Cache-Control: max-age=600
 
 Si en lugar de usar la terminal entramos al navegador, veremos como la _django\_debug\_toolbar_ ya nos muestra que la caché está siendo usada.
 
-{{< figure src="images/CacheDebugToolBar.png" class="md-local-image" alt="Django_debug_toolbar con caché y sin caché, comparación." >}}
+{{< figure src="images/CacheDebugToolBar.png" class="md-local-image" alt="Django_debug_toolbar con caché y sin caché, comparación."  width="424" height="1022" >}}
 
 Mira como en la columna caché, ya nos aparecen dos llamadas.
 

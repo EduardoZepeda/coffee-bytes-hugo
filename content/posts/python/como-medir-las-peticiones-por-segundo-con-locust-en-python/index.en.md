@@ -54,7 +54,7 @@ locust
 
 After executing it we will have a server running at _http://localhost:8089/_. If we enter we will see a screen like this:
 
-{{< figure src="images/PantallaInicialLocust.png" class="md-local-image" alt="Initial screen for locust" >}}
+{{< figure src="images/PantallaInicialLocust.png" class="md-local-image" alt="Initial screen for locust"  width="534" height="641" >}}
 
 Here we place, in order: 
 1. The number of total users, 
@@ -69,13 +69,13 @@ Press the "start swarming" button and locust will take care of the rest, gradual
 
 Watch real-time monitoring. To stop it press the stop button in the upper right corner.
 
-{{< figure src="images/MonitoreoTiempoRealLocust.gif" class="md-local-image" alt="Locust supports real-time monitoring" >}}
+{{< figure src="images/MonitoreoTiempoRealLocust.gif" class="md-local-image" alt="Locust supports real-time monitoring"  width="1915" height="598" >}}
 
 ## Metrics in locust
 
 The statistics tab gives us the following information.
 
-{{< figure src="images/EstadisticasLocust.png" class="md-local-image" alt="Locust Statistics" >}}
+{{< figure src="images/EstadisticasLocust.png" class="md-local-image" alt="Locust Statistics"  width="1805" height="228" >}}
 
 * Type of request
 * Name of the route
@@ -94,15 +94,15 @@ When we stop the test, we will have downloadable charts in the charts tab.
 
 The first with the number of requests per second on the Y-axis.
 
-{{< figure src="images/PeticionesPorSegundo.png" class="md-local-image" alt="Total requests per second" >}}
+{{< figure src="images/PeticionesPorSegundo.png" class="md-local-image" alt="Total requests per second"  width="1778" height="348" >}}
 
 The second with the response time on the y-axis.
 
-{{< figure src="images/TiempoDeRespuesta.png" class="md-local-image" alt="Response Time" >}}
+{{< figure src="images/TiempoDeRespuesta.png" class="md-local-image" alt="Response Time"  width="1778" height="348" >}}
 
 Finally, the third one, with the number of users on the Y-axis.
 
-{{< figure src="images/NumeroDeUsuarios.png" class="md-local-image" alt="Number of users" >}}
+{{< figure src="images/NumeroDeUsuarios.png" class="md-local-image" alt="Number of users"  width="1778" height="348" >}}
 
 ## Add more requests per user
 
@@ -240,7 +240,7 @@ class HelloWorldUser(HttpUser):
 
 In the previous example, when trying to access a path that does not exist, the first conditional will be executed and will create a failure with the text "Wrong answer", which we will be able to see in the failure section of the interface.
 
-{{< figure src="images/ErrorPersonalizadoLocust.png" class="md-local-image" alt="Custom Error in Locust" >}}
+{{< figure src="images/ErrorPersonalizadoLocust.png" class="md-local-image" alt="Custom Error in Locust"  width="1839" height="223" >}}
 
 In addition to testing the text in the response it is possible to test the other properties of the response object, such as the response code or the time it takes to return a response.
 

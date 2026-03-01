@@ -17,7 +17,7 @@ title: 'Go: package import and module management'
 
 In go **you can consider a package as all the files contained in a directory and a module as a collection of packages**. To use the code of a package we need to import it, however, in Go there are no relative module imports. Before Go 1.8, to import packages (there were no modules) it was necessary to use the absolute path, considering as base the path pointed to by the environment variable $_GOPATH_ or. Since Go 1.11, the easiest way to work with packages is to use go mod. I will explain the latter.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743574346/coffee-bytes/package-vs-modules-go_u2yrue.png" class="md-local-image" alt="Differences between modules and packages in go" caption="In Go, a module is a collection of packages" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743574346/coffee-bytes/package-vs-modules-go_u2yrue.png" class="md-local-image" alt="Differences between modules and packages in go" caption="In Go, a module is a collection of packages"  width="318" height="148" >}}
 
 Difference between modules and packages in go, in Go a module is just a collection of packages.
 
@@ -45,7 +45,7 @@ I know, it is one of the things that I abhor about Go's language, not enough for
 
 Once created, we will end up with a structure similar to this one
 
-{{< figure src="images/goModule.png" class="md-local-image" alt="Project file structure, a folder called videogame, with a file of the same name inside" caption="Project file structure, a folder called videogame, with a file of the same name inside" >}}
+{{< figure src="images/goModule.png" class="md-local-image" alt="Project file structure, a folder called videogame, with a file of the same name inside" caption="Project file structure, a folder called videogame, with a file of the same name inside"  width="310" height="112" >}}
 
 Localization of the main file and our module in go
 
@@ -55,7 +55,7 @@ Localization of the main file and our module in go
 
 A go.mod file **defines a module and allows us to set the directory that we will use as a base to import the packages**.
 
-{{< figure src="images/goModFile.png" class="md-local-image" alt="go.mod file at the root of the project" caption="go.mod file at the root of the project" >}}
+{{< figure src="images/goModFile.png" class="md-local-image" alt="go.mod file at the root of the project" caption="go.mod file at the root of the project"  width="320" height="214" >}}
 
 In the above example the _go.mod_ file will allow us to treat the _videogame_ path as a package and import code from the _mymodule/videogame_ path.
 
@@ -81,7 +81,7 @@ go mod init mymodule
 
 For example, if we name it _mymodule_, all the folders **that are at the same level as the _go.mod_ file and that declare a package at the beginning of their file**, will be considered packages.
 
-{{< figure src="images/multiplesModulos.png" class="md-local-image" alt="Multiple directories to import as packages with go.mod" >}}
+{{< figure src="images/multiplesModulos.png" class="md-local-image" alt="Multiple directories to import as packages with go.mod"  width="312" height="195" >}}
 
 And we can import them directly from our _main.go_ file.
 

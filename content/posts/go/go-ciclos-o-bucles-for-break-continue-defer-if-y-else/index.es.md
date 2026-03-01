@@ -64,7 +64,7 @@ if edad < 18 {
 
 En go **existen varios tipos de bucles for**: con contador, con condicional, range y el infinito.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747441808/coffee-bytes/golang-for-loops-schema-diagram_1_hlfy0i.png" class="md-local-image" alt="Diagrama de tipos de bucles for en Go o Golang" caption="Diagrama de tipos de bucles for en Go o Golang" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747441808/coffee-bytes/golang-for-loops-schema-diagram_1_hlfy0i.png" class="md-local-image" alt="Diagrama de tipos de bucles for en Go o Golang" caption="Diagrama de tipos de bucles for en Go o Golang"  width="1564" height="886" >}}
 
 ### Bucles con contador en Go
 

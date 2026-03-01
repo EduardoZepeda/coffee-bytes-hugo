@@ -44,7 +44,7 @@ REST es especial porque ha sabido sobrevivir al paso del tiempo y posicionarse s
 
 A la fecha aún existen protocolos que trabajan con peticiones POST, [como el Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}), usado para estandarizar la comunicación entre cliente y LLM.
 
-{{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="Linea del tiempo de APIs" caption="REST data del año 2000" >}}
+{{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="Linea del tiempo de APIs" caption="REST data del año 2000"  width="1330" height="565" >}}
 
 {{<ad1>}}
 
@@ -114,7 +114,7 @@ Probablemente haya algunos estados que no usarás nunca, pero sí deberías memo
 
 Hay muchos más [estados HTTP que probablemente quieras conocer](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Asegúrante de revisarlos.
 
-{{< figure src="images/GoogleStatus418.png" class="md-local-image" alt="Respuesta de código 418 en google." caption="Código 418: Soy una tetera" >}}
+{{< figure src="images/GoogleStatus418.png" class="md-local-image" alt="Respuesta de código 418 en google." caption="Código 418: Soy una tetera"  width="948" height="502" >}}
 
 ### Devuelve mensajes claros en los errores
 
@@ -244,7 +244,7 @@ Las siglas HATEOAS corresponden a **Hypermedia As The Engine Of Applicaton State
 
 ¿Qué es eso? Cuando entras en una página web, esta cuenta con enlaces internos hacia otras páginas del sitio web, generalmente relacionadas entre sí, ya sea video, audio, imágenes, de manera que la navegación sea más fluida.
 
-{{< figure src="images/HTTPHypermedia.jpg" class="md-local-image" alt="Captura de pantalla de Viajando por ahí con enlaces internos." caption="Ejemplo de enlaces internos en una página web" >}}
+{{< figure src="images/HTTPHypermedia.jpg" class="md-local-image" alt="Captura de pantalla de Viajando por ahí con enlaces internos." caption="Ejemplo de enlaces internos en una página web"  width="971" height="777" >}}
 
 Pues HATEOAS nos dice que nuestros clientes deberían de recibir una respuesta de la API desde donde puedan acceder a otros recursos relacionados por medio de hipervínculos.
 
@@ -280,7 +280,7 @@ Considera implementarlas en tu proyecto.
 
 Inclusive ya hay [frameworks como FastAPI que incluyen la documentación de manera predeterminada en los proyectos.]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="es" >}})
 
-{{< figure src="images/Documentacion_swagger.png" class="md-local-image" alt="Captura de imagen de Open API, documentación automática para API REST" caption="Interfaz generada por Open API" >}}
+{{< figure src="images/Documentacion_swagger.png" class="md-local-image" alt="Captura de imagen de Open API, documentación automática para API REST" caption="Interfaz generada por Open API"  width="1487" height="239" >}}
 
 ## ¿Cómo testear una API REST?
 
@@ -288,7 +288,7 @@ Cada endpoint de tu API debería estar sometido a pruebas, asegúrate de que dev
 
 Por otro lado, si quieres algo más visual, más amigable, y con mayor facilidad de uso considera el uso herramientas especializadas, tales como Postman, Insomnia o Hoppscotch.
 
-{{< figure src="images/InsomniaGUI.png" class="md-local-image" alt="GUI, de insomnia, una aplicación para el testeo de una API REST" caption="Interfaz de Insomnia, herramienta para testear APIs" >}}
+{{< figure src="images/InsomniaGUI.png" class="md-local-image" alt="GUI, de insomnia, una aplicación para el testeo de una API REST" caption="Interfaz de Insomnia, herramienta para testear APIs"  width="1271" height="739" >}}
 
 Para no extender tanto la entrada, la siguiente entrada tratará de algunas cuestiones más subjetivas del [diseño y buenas prácticas de una API REST](/es/software-architecture/buenas-practicas-y-diseno-de-una-api-rest/) tales como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API?
 

@@ -72,7 +72,7 @@ go write("hey again")
 
 En el caso anterior, debido a su naturaleza asíncrona, la goroutine no detiene la ejecución del código. Lo anterior implica que el cuerpo de la función _main_ continua su ejecución y **nuestra goroutine nunca llega a ejecutarse.**
 
-{{< figure src="images/golang-goroutine-3.jpg" class="md-local-image" alt="Funcionamiento de las goroutines en go" >}}
+{{< figure src="images/golang-goroutine-3.jpg" class="md-local-image" alt="Funcionamiento de las goroutines en go"  width="1200" height="800" >}}
 
 ¿Pero entonces? ¿cómo le hacemos para que nuestra goroutine se ejecute? La aproximación ingenua sería usar un sleep para pausar la ejecución del código. Esto, como ya sabes, es un sinsentido. ¡No podemos estar poniéndo sleeps en todos lados, el flujo del programa se ralentizaría innecesariamente!
 
@@ -136,7 +136,7 @@ func write(texto string, wg *sync.WaitGroup) {
 
 Tip: usa _defer_ sobre el método _Done_ para garantizar que sea lo último que se ejecute.
 
-{{< figure src="images/golang-goroutine-wait-2.jpg" class="md-local-image" alt="Funcionamiento de un grupo de espera en go" >}}
+{{< figure src="images/golang-goroutine-wait-2.jpg" class="md-local-image" alt="Funcionamiento de un grupo de espera en go"  width="1200" height="800" >}}
 
 Una vez que el contador de wg.Wait se vuelve cero, se continua la ejecución del programa.
 

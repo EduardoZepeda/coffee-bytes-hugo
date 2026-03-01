@@ -174,7 +174,7 @@ urlpatterns = [
 
 If we now access the _upload/_ address we will see our upload button and we will be able to upload multiple images.
 
-{{< figure src="images/subida-multiple-de-imagenes.gif" class="md-local-image" alt="multiple-image-upload in django" >}}
+{{< figure src="images/subida-multiple-de-imagenes.gif" class="md-local-image" alt="multiple-image-upload in django"  width="735" height="420" >}}
 
 If the upload was successful we will get as a response a JSON with the addresses of the images we just uploaded.
 

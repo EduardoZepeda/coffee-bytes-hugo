@@ -25,7 +25,7 @@ Mientras usaba una app de citas estilo Tinder, de esas en las que, tras un like 
 
 Tras tener un par de matches pude notar que las fotografías difuminadas pertenecian a cuentas reales, es decir, no eran un set de imágenes genéricas o placeholders.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Ejemplo del efecto blur aplicado a la fotografía\"" caption="Ejemplo del efecto blur aplicado a la fotografía" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Ejemplo del efecto blur aplicado a la fotografía\"" caption="Ejemplo del efecto blur aplicado a la fotografía"  width="400" height="200" >}}
 
 Sonaba demasiado obvio, de igual forma, abrí la consola de desarrollador de mi navegador y me dirigí al código CSS para comprobar mis sospechas. ¡No puede ser que cometieran un error tan simple!—pensé—Están protegiendo la identidad de las fotografías con un simple *filter: blur*  de CSS.
 

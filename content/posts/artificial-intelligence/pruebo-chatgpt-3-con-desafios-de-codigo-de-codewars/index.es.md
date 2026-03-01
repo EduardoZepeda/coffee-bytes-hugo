@@ -41,7 +41,7 @@ Para empezar estuve probando ChatGPT con una serie de peticiones sencillas y pop
 -   Labores muy concretas de algunos frameworks. Por ejemplo: [Sustituir el modelo
     de User en Django.](/como-personalizar-el-modelo-user-en-django/)
 
-{{< figure src="images/ChatGPT-Django-users.png" class="md-local-image" alt="Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField." caption="Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField." >}}
+{{< figure src="images/ChatGPT-Django-users.png" class="md-local-image" alt="Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField." caption="Observa como sabe como reemplazar el usuario en Django, pero da por hecho que la mejor opción para un campo location es un CharField."  width="834" height="854" >}}
 
 Francamente, estoy sorprendido con las capacidades de generar código correcto que tiene ChatGPT para tareas sencillas y con información abundante en la red; no esperaba tal capacidad.
 
@@ -59,7 +59,7 @@ El desafio de la [prueba Rotate matrix counter - clockwise N - times!](https://w
 
 El input que usé en ChatGPT para generar el código es el siguiente: Create a function that rotates a matrix counter-clockwise "n" number of times.
 
-{{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rotate a Matrix counter-clockwise with ChatGPT" caption="Rotate a Matrix counter-clockwise with ChatGPT" >}}
+{{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rotate a Matrix counter-clockwise with ChatGPT" caption="Rotate a Matrix counter-clockwise with ChatGPT"  width="1920" height="968" >}}
 
 {{<ad3>}}
 
@@ -88,7 +88,7 @@ def rotate_matrix(matrix, n):
 
 Tras ejecutar el código podremos apreciar que todos los tests fallan, la matriz gira, pero más veces de las necesarias
 
-{{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rota una Matrix en sentido contrario a las manecillas del reloj con ChatGPT" caption="Rota una Matrix en sentido contrario a las manecillas del reloj con ChatGPT" >}}
+{{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rota una Matrix en sentido contrario a las manecillas del reloj con ChatGPT" caption="Rota una Matrix en sentido contrario a las manecillas del reloj con ChatGPT"  width="1920" height="968" >}}
 
 Quiero resaltar que ChatGPT produce código sintácticamente correcto, respetando identación, con nombres de variables intuitivos e incluso con una lógica que parece correcta, solo a simple vista, pero que tras la examinación más detallada, falla en "razonar" su lógica. Sí, ya sé que las inteligencias artificiales no razonan.
 
@@ -102,13 +102,13 @@ Es decir, encontrar el palíndromo número "n" y con la condición adecuada de h
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101
 ```
 
-{{< figure src="images/palindrome-ChatGPT.png" class="md-local-image" alt="Encuentra un número palíndromo con ChatGPT" caption="Encuentra un número palíndromo con ChatGPT" >}}
+{{< figure src="images/palindrome-ChatGPT.png" class="md-local-image" alt="Encuentra un número palíndromo con ChatGPT" caption="Encuentra un número palíndromo con ChatGPT"  width="1920" height="968" >}}
 
 ### Análisis de la respuesta
 
 Tras ejecutar el código me sorprendí al darme cuenta de que, tras un pequeño ajuste, ¡el resultado es correcto!
 
-{{< figure src="images/palindrome-codewars.png" class="md-local-image" alt="Resultado de la prueba palindrome de Codewars con ChatGPT" caption="Resultado de la prueba palindrome de Codewars con ChatGPT" >}}
+{{< figure src="images/palindrome-codewars.png" class="md-local-image" alt="Resultado de la prueba palindrome de Codewars con ChatGPT" caption="Resultado de la prueba palindrome de Codewars con ChatGPT"  width="1920" height="968" >}}
 
 Además de producir código sintácticamente correcto, el código generado funciona perfectamente, incluso contiene comentarios.
 
@@ -146,7 +146,7 @@ Intenté obtener la respuesta correcta múltiples veces, incluso especificando l
 
 El desafio de [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068#?) es: Create a function that will return a regular expression string that is capable of evaluating binary strings (which consist of only 1s and 0s) and determining whether the given string represents a number divisible by n.
 
-{{< figure src="images/binary-division-ChatGPT.png" class="md-local-image" alt="Prueba división de números binarios con ChatGpt" caption="Prueba división de números binarios con ChatGpt" >}}
+{{< figure src="images/binary-division-ChatGPT.png" class="md-local-image" alt="Prueba división de números binarios con ChatGpt" caption="Prueba división de números binarios con ChatGpt"  width="1920" height="968" >}}
 
 Tras solicitarle una respuesta nos devuelve una expresión bastante simple e incluso nos da una explicación paso a paso del razonamiento lógico, en apariencia correcto pero, en la práctica, incorrecto.
 
@@ -161,7 +161,7 @@ La expresión regular que nos devuelve como respuesta es la siguiente:
 
 Cuando la ponemos a prueba en las pruebas de codewars, falla, obviamente
 
-{{< figure src="images/binary-division-codewars.png" class="md-local-image" alt="Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta" caption="Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta" >}}
+{{< figure src="images/binary-division-codewars.png" class="md-local-image" alt="Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta" caption="Se añade un par extra de llaves para cumplir con la sintaxis de los F strings de Python. Los falsos positivos se deben al caracter binario de las respuesta"  width="1920" height="968" >}}
 
 ## Resultados y mi opinión
 

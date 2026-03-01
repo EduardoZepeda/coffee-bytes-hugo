@@ -21,7 +21,7 @@ title: AI-generated Art and AI-generated code are treated differently
 
 Today, while *doom scrolling* on Zuckerberg's social network, the algorithm recommended me an image of **Sakura Card Captors** in the style of the Spanish painter **Remedios Varo**.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Sakura Card Captors image in the style of Remedios Varo created with AI" caption="Sakura Card Captors image in the style of Remedios Varo created with AI" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748206520/coffee-bytes/sakura-card-captors-remedios-varo_mwazan.webp" class="md-local-image" alt="Sakura Card Captors image in the style of Remedios Varo created with AI" caption="Sakura Card Captors image in the style of Remedios Varo created with AI"  width="700" height="1050" >}}
 
 When I checked the comments—I don’t even know what I gain from doing that—I noticed that the most *liked* ones expressed strong disdain for artificial intelligence. A normal behavior if you're in the [middle of AI overhype]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
 
@@ -31,7 +31,7 @@ There’s a strong consensus among artists regarding AI.
 
 Movements like #NOAI or [Made with human intelligence](https://www.forbes.com/sites/lesliekatz/2024/07/17/human-intelligence-art-movement-takes-defiant-stand-against-ai/) have made [their rejection of this technology very clear](https://notbyai.fyi/es/#?). The contempt seems to stem from how it was trained—using artists' work without their permission, accused of plagiarizing something as personal as a style—and the fear of being replaced by this technology, which affects them economically.  
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753062961/coffee-bytes/no-ai-movement_g772l5.jpg" class="md-local-image" alt="NO AI movement" caption="NO AI movement" >}}  
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753062961/coffee-bytes/no-ai-movement_g772l5.jpg" class="md-local-image" alt="NO AI movement" caption="NO AI movement"  width="600" height="600" >}}  
 
 On the other hand, there’s been a strong trend (whether organic or orchestrated, I don’t know) in the software world, to adopt AI as just another tool to increase the quality and quantity of code produced. Even when there’s resistance, it’s more focused on technical aspects and potential flaws rather than the ethical concerns of its training process.  
 
@@ -87,7 +87,7 @@ When it comes to writing code, however, the number of ways to achieve the same t
 
 This number starkly contrasts with the potential ways to paint a concept, which could be practically limitless.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753063920/coffee-bytes/artificial-intelligence-art-randomness_pozdsb.webp" class="md-local-image" alt="An emotional photograph in the style of a Fujifilm disposable camera (like 'Utsurundesu') showing a medium shot of a Japanese woman in her 20s, crying at a wedding ceremony. She stands among guests, wearing a soft pastel-colored dress. Her makeup is slightly smudged by tears. The scene is imbued with deep nostalgia and melancholy. Soft, dim lighting casts a gentle glow on her dark hair. The focus is on her expressive face, and in the reflection of her eyes, a bride and groom can be seen standing together. The background shows a beautiful wedding venue with warm lighting. The image features pronounced film grain, slightly muted tones, and cinematic blur, amplifying the emotional intensity of the moment from a wider perspective. The composition evokes longing and fleeting memories, characteristic of heartfelt disposable camera photography. The background is softly blurred." caption="" >}}  
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753063920/coffee-bytes/artificial-intelligence-art-randomness_pozdsb.webp" class="md-local-image" alt="An emotional photograph in the style of a Fujifilm disposable camera (like 'Utsurundesu') showing a medium shot of a Japanese woman in her 20s, crying at a wedding ceremony. She stands among guests, wearing a soft pastel-colored dress. Her makeup is slightly smudged by tears. The scene is imbued with deep nostalgia and melancholy. Soft, dim lighting casts a gentle glow on her dark hair. The focus is on her expressive face, and in the reflection of her eyes, a bride and groom can be seen standing together. The background shows a beautiful wedding venue with warm lighting. The image features pronounced film grain, slightly muted tones, and cinematic blur, amplifying the emotional intensity of the moment from a wider perspective. The composition evokes longing and fleeting memories, characteristic of heartfelt disposable camera photography. The background is softly blurred." caption=""  width="600" height="797" >}}  
 
 With code, it’s slightly different. Obviously, as the codebase grows, the number of possible solutions increases too. But here’s a crucial difference: unlike art, not all solutions are equally valid.  
 

@@ -27,7 +27,7 @@ Channels are "conduits" that accept a single type of data. Through these channel
 
 The goroutines can send data to the channels and also read data from them, thus communicating with each other.
 
-{{< figure src="images/channels-en-go.jpg" class="md-local-image" alt="Schematic diagram of how a channel works in go" caption="Basic diagram of how channels work in Go" >}}
+{{< figure src="images/channels-en-go.jpg" class="md-local-image" alt="Schematic diagram of how a channel works in go" caption="Basic diagram of how channels work in Go"  width="1200" height="800" >}}
 
 A channel in go is declared with _make_ and the word _chan_, which refers to the word channel.
 

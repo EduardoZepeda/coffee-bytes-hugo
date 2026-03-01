@@ -25,7 +25,7 @@ You are browsing an ecommerce site, a product catches your attention and you cli
 
 Adding a section of visited products increases sales in an ecommerce and keeps the user longer on the page. It is normal to add this history to a user who is already in the database. The website managers have a history of the products we view, the ones we buy, how much time we spend viewing them and many other data but... what about the anonymous users who do not have a history? What about anonymous users who do not have an account?
 
-{{< figure src="images/Historial-de-Amazon.png" class="md-local-image" alt="Historial de productos visitados de amazon, incluye Cracking the code interview, Design Patterns, Clean Code y the Pragmatic Programmer." >}}
+{{< figure src="images/Historial-de-Amazon.png" class="md-local-image" alt="Historial de productos visitados de amazon, incluye Cracking the code interview, Design Patterns, Clean Code y the Pragmatic Programmer."  width="1525" height="397" >}}
 
 History of a certain ecommerce site that no longer needs advertising.
 

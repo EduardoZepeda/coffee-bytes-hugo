@@ -37,7 +37,7 @@ for job in jobs:
 
 This may look pretty good so far, at first, but it has multiple disadvantages; first, you will be creating workers without control, which can increase your program's memory usage incredibly fast; second, you are constantly creating and destroying workers, which can be costly for your program.
 
-{{< figure src="images/workers-vs-memoria.jpg" class="md-local-image" alt="If there is no worker limit, workers will continue to be created to match the tasks" caption="If there is no worker limit, workers will continue to be created to match the tasks" >}}
+{{< figure src="images/workers-vs-memoria.jpg" class="md-local-image" alt="If there is no worker limit, workers will continue to be created to match the tasks" caption="If there is no worker limit, workers will continue to be created to match the tasks"  width="605" height="340" >}}
 
 It would be best to keep memory usage constant and avoid creating and destroying workers frequently. For this, the worker pool pattern works perfect.
 

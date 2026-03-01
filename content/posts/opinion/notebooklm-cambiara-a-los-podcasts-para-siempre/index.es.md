@@ -32,7 +32,7 @@ Seguramente ya has escuchado hablar de esta herramienta, y si no, pues te explic
 
 Google Notebooklm es una herramienta de AI que se vuelve un experto en tus notas y te ayuda, pero esto no es lo que me ha dejado boquiabierto, sino su herramienta que transforma tus notas en una conversación entre dos personas, ~~por ahora solo disponible en idioma inglés~~ disponible ya en varios lenguajes, y te muestro ahora mismo el resultado.
 
-{{< figure src="images/podcast-meme-5-minutes.jpg" class="md-local-image" alt="Las personas suelen preferir el contenido audiovisual sobre el texto" caption="Las personas suelen preferir el contenido audiovisual sobre el texto" >}}
+{{< figure src="images/podcast-meme-5-minutes.jpg" class="md-local-image" alt="Las personas suelen preferir el contenido audiovisual sobre el texto" caption="Las personas suelen preferir el contenido audiovisual sobre el texto"  width="500" height="500" >}}
 
 Este podcast lo he generado usando mi entrada sobre [el problema de usar github para evaluar a los desarrolladores]({{< ref path="/posts/git/el-problema-de-usar-github-para-evaluar-a-desarrolladores/index.md" lang="es" >}})
 
@@ -70,7 +70,7 @@ O puedes llevarlo más allá y crear escenarios bastante interesantes como este 
 
 Ahora, esto también puede cambiar el mercado de los podcasts para siempre, la gente adora conectar con otros seres humanos, y no todos se sentirán cómodos sabiendo que pasarán 2 horas escuchando un podcast que probablemente regurgitó una AI, quizá algunos dediquen un par de minutos más a buscar una versión humana.
 
-{{< figure src="images/AI-impact-on-society.webp" class="md-local-image" alt="No todas las personas piensan en la inteligencia artificial de manera positiva" caption="No todas las personas piensan en la inteligencia artificial de manera positiva" >}}
+{{< figure src="images/AI-impact-on-society.webp" class="md-local-image" alt="No todas las personas piensan en la inteligencia artificial de manera positiva" caption="No todas las personas piensan en la inteligencia artificial de manera positiva"  width="630" height="625" >}}
 
 Así que no, no van a desaparecer los podcasters, especialmente los grandes, pero subirá el listón, ahora un podcast mediocre, monótono, promedio que sea indistinguible de uno generado por IA será tratado como tal.
 
@@ -82,7 +82,7 @@ No es ningún secreto que los videos se convirtieron en la opción más popular 
 
 Desconozco si es una jugarreta de mi imaginación pero siento que las personas cada vez leen menos. El formato de audiovisual, si bien es más superficial, permite conectar emocionalmente de una mejor manera con los consumidores, probablemente debido a nuestra naturaleza social y colectiva que se seleccionó naturalmente mucho antes de la aparición de la escritura.
 
-{{< figure src="images/what-it-feels-to-listen-to-a-podcast.jpeg" class="md-local-image" alt="¿Qué se siente escuchar un podcast?" caption="¿Qué se siente escuchar un podcast?" >}}
+{{< figure src="images/what-it-feels-to-listen-to-a-podcast.jpeg" class="md-local-image" alt="¿Qué se siente escuchar un podcast?" caption="¿Qué se siente escuchar un podcast?"  width="700" height="942" >}}
 
 Ahora que un podcast es tan fácil de generar a partir de texto escrito, ¿quién va a preferir sumergirse en un mar de letras en lugar de ceder al tentador llamado de una voz humana? 
 
@@ -90,4 +90,4 @@ Ahora que un podcast es tan fácil de generar a partir de texto escrito, ¿quié
 
 Tendré que hacer más videos.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1727849039/kgr8at3ytm29xohusw5x.avif" class="md-local-image" alt="En Wall-e también dominaba el contenido audiovisual en lugar del texto" caption="En Wall-e también dominaba el contenido audiovisual en lugar del texto" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1727849039/kgr8at3ytm29xohusw5x.avif" class="md-local-image" alt="En Wall-e también dominaba el contenido audiovisual en lugar del texto" caption="En Wall-e también dominaba el contenido audiovisual en lugar del texto"  width="1560" height="1040" >}}

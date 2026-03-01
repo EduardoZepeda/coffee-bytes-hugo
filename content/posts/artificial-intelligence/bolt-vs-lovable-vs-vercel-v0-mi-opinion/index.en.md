@@ -172,7 +172,7 @@ It's not necessarily a bad thing, but it does take away from the website's perso
 
 This is bad news if you want a website that stands out from the crowd, as the only solution is customization, either by a professional or by spending hours on the model to get something different.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1752184598/coffee-bytes/ai-layout-landing_nsyj1p.png" class="md-local-image" alt="All AI landing page looks the same" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1752184598/coffee-bytes/ai-layout-landing_nsyj1p.png" class="md-local-image" alt="All AI landing page looks the same"  width="1377" height="937" >}}
 
 ### LLM generators usually forget about SEO
 

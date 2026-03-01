@@ -129,7 +129,7 @@ The core of the criticism is that **React.FC adds the children implicitly, going
 
 Just like using [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) for its compiler.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious" caption="Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1741885083/rust-meme-typescript_xa6ajl.webp" class="md-local-image" alt="Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious" caption="Typescript decided to use Go for its compiler instead of Rust, making some Rust developers furious"  width="1435" height="1200" >}}
 
 {{<ad2>}}
 

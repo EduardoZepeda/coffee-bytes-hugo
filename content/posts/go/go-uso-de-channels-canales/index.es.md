@@ -31,7 +31,7 @@ Los channels o canales son "conductos", que aceptan un único tipo de dato. A tr
 
 Las goroutines pueden enviar datos a los canales y también leer datos de ellos, logrando comunicarse entre si.
 
-{{< figure src="images/channels-en-go.jpg" class="md-local-image" alt="Esquema del funcionamiento de un channel en go" caption="Esquema básico del funcionamiento de los channels o canales en Go" >}}
+{{< figure src="images/channels-en-go.jpg" class="md-local-image" alt="Esquema del funcionamiento de un channel en go" caption="Esquema básico del funcionamiento de los channels o canales en Go"  width="1200" height="800" >}}
 
 
 Un channel o canal en go se declara con *make* y la palabra *chan*, que hace referencia a la palabra channel.

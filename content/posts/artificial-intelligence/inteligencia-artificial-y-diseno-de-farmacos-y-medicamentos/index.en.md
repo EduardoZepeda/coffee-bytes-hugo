@@ -59,7 +59,7 @@ function administerDrug(drug){
 
 And not only that, a drug may partially fit a receptor, which may cause an effect with less intensity than if it did fit perfectly, and furthermore, not fitting perfectly could make it activate other receptors that would trigger unwanted side effects. 
 
-{{< figure src="images/paracetamol_key_lock.png" class="md-local-image" alt="Look how the molecule fits perfectly into this receptor." caption="Look how the molecule fits perfectly into this receptor." >}}
+{{< figure src="images/paracetamol_key_lock.png" class="md-local-image" alt="Look how the molecule fits perfectly into this receptor." caption="Look how the molecule fits perfectly into this receptor."  width="960" height="927" >}}
 
 ### Drugs have undesirable side effects.
 
@@ -92,7 +92,7 @@ Well, the answer to that is "it depends". It depends on each drug, some may last
 - Metabolism: Generally, the liver begins to break down the drug and thus its effect ends.
 - Excretion: Mostly excreted through the kidneys, in the urine.
 
-{{< figure src="images/farmacocinetics.jpg" class="md-local-image" alt="" >}}
+{{< figure src="images/farmacocinetics.jpg" class="md-local-image" alt=""  width="828" height="504" >}}
 
 {{<ad1>}}
 
@@ -102,7 +102,7 @@ As I mentioned earlier, whether or not a drug activates a cell's receptor depend
 
 Generally **a drug maintains a base structure, without which it has no effect, and small variations in that base structure are what determine the intensity of the therapeutic effect and the side effects**. The difficult part is trying to deduce which combination will be the best.
 
-{{< figure src="images/analogos_penicilinas.jpg" class="md-local-image" alt="All penicillins have the yellow structure in common. These two differ in the part highlighted in red." caption="All penicillins have the yellow structure in common. These two differ in the part highlighted in red." >}}
+{{< figure src="images/analogos_penicilinas.jpg" class="md-local-image" alt="All penicillins have the yellow structure in common. These two differ in the part highlighted in red." caption="All penicillins have the yellow structure in common. These two differ in the part highlighted in red."  width="845" height="802" >}}
 
 {{<ad2>}}
 
@@ -116,7 +116,7 @@ It is very difficult to predict this manually, but this is exactly where artific
 
 Artificial intelligence is able to recognize patterns that humans cannot, it can analyze information related to a large number of molecules and their variants; their side effects, their three-dimensional structure, bioavailability, polarity, presence of functional groups and any other information already existing about each of these molecules, and use them to train a model that predicts whether a molecule has the potential to become a good drug candidate for further analysis and testing in animals and humans.
 
-{{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetine, an antidepressant that acts by blocking a receptor." caption="Fluoxetine, an antidepressant that acts by blocking a receptor." >}}
+{{< figure src="images/fluoxetin.png" class="md-local-image" alt="Fluoxetine, an antidepressant that acts by blocking a receptor." caption="Fluoxetine, an antidepressant that acts by blocking a receptor."  width="960" height="927" >}}
 
 {{<ad3>}}
 

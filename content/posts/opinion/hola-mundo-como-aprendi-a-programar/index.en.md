@@ -36,7 +36,7 @@ After reading a couple of tutorials and learning how easy it was to create a blo
 
 Eventually I wanted to customize it and found that to do so I had to modify the HTML and CSS code. In order to modify my tiny little corner on the internet the way I wanted, I learned the basics of HTML and CSS; to change the font color, the background, modify the layout to have more columns, to insert background images, to add small scripts and chatboxes, etc.
 
-{{< figure src="images/blog-manzana-amarga.jpg" class="md-local-image" alt="Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme." caption="Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme." >}}
+{{< figure src="images/blog-manzana-amarga.jpg" class="md-local-image" alt="Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme." caption="Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme."  width="1200" height="605" >}}
 
 A few years later, thanks to of one of my best friends, I got a job in a cyber café. I learned how to fix the most common bugs, to connect printers to a server, to pass files between computers in the same network, to modify the windows registry keys, to download torrent files, to anage Office packages, Photoshop, Keyloggers, to format computers, etc. **However, during all that time, I never coded anything**.
 
@@ -54,7 +54,7 @@ One afternoon I was researching about a Japanese band called [Supercell](https:/
 
 The more I read about Miku Hatsune the more I wanted to know, I was stunned; the company that had programmed Vocaloid was literally giving a voice to all those artists who, for one reason or another, did not have a voice to bring their lyrics to life. At that moment I understood the true potential that the code had and I said to myself: "I also want to use computers and code to create".
 
-{{< figure src="images/FiguraDeMikuHatsune.jpg" class="md-local-image" alt="Miku Hatsune plastic figure" caption="Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/" >}}
+{{< figure src="images/FiguraDeMikuHatsune.jpg" class="md-local-image" alt="Miku Hatsune plastic figure" caption="Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/"  width="1280" height="853" >}}
 
 {{<ad2>}}
 
@@ -80,7 +80,7 @@ After months of avoiding all information related to Python **for the silly reaso
 
 Python fascinated me with its simple syntax, the simplicity of the functions and the elegance of its design.
 
-{{< figure src="images/ElGrupoDeComediantesMontyPython.jpg" class="md-local-image" alt="The comedy group known as Monty Python" caption="Photograph of the comedy group known as Monthy Python, after which the programming language is named." >}}
+{{< figure src="images/ElGrupoDeComediantesMontyPython.jpg" class="md-local-image" alt="The comedy group known as Monty Python" caption="Photograph of the comedy group known as Monthy Python, after which the programming language is named."  width="1280" height="960" >}}
 
 A month later I read the book [Beginning Python from novice to Professional](/en/python/learn-python-from-scratch-beginning-python-review/) and experienced the beauty of Python's simplicity and versatility.
 
@@ -104,7 +104,7 @@ Finally, since many companies love to have a piece of paper to back up what you 
 
 At the risk of being a bit arrogant, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some fascinating and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
 
-{{< figure src="images/ColaboraCoworking.jpg" class="md-local-image" alt="Colobora Coworking in Chapultepec, Guadalajara" caption="Image taken from Colabora's website" >}}
+{{< figure src="images/ColaboraCoworking.jpg" class="md-local-image" alt="Colobora Coworking in Chapultepec, Guadalajara" caption="Image taken from Colabora's website"  width="2560" height="1707" >}}
 
 I went through the Bedu bootcamp at Colabora Coworking.
 

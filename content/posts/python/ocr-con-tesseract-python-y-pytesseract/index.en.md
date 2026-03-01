@@ -38,7 +38,7 @@ Differences in OCR engine efficiency between tesseract 3 and tesseract 5 alpha.
 
 {{<ad0>}}
 
-{{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Version 5 shows better performance" caption="Comparison between OCR performance of tesseract 3 and tesseract 5" >}}
+{{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Version 5 shows better performance" caption="Comparison between OCR performance of tesseract 3 and tesseract 5"  width="1200" height="630" >}}
 
 ### Installing languages in tesseract
 
@@ -67,7 +67,7 @@ You will see that Spanish is now installed and we can use it to detect the text 
 
 Now let's put it to the test to recognize text in images, straight from the terminal. I am going to use the following image:
 
-{{< figure src="images/imagen_con_texto.jpg" class="md-local-image" alt="Image with text to be processed" caption="File: image_with_text.jpg" >}}
+{{< figure src="images/imagen_con_texto.jpg" class="md-local-image" alt="Image with text to be processed" caption="File: image_with_text.jpg"  width="386" height="430" >}}
 
 ```bash
 tesseract image_with_text.jpg -
@@ -153,7 +153,7 @@ data = pytesseract.image_to_data(img)
 print(data)
 ```
 
-{{< figure src="images/dataTesseract.png" class="md-local-image" alt="Return from image_to_data method in tesseract" >}}
+{{< figure src="images/dataTesseract.png" class="md-local-image" alt="Return from image_to_data method in tesseract"  width="930" height="280" >}}
 
 If you want to learn more visit the [complete tesseract documentation](https://github.com/tesseract-ocr/tesseract).
 
@@ -171,7 +171,7 @@ Facebook must use some kind of similar technology to censor images that include 
 
 You can create an [MCP server]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="en" >}}) that reads documents.
 
-{{< figure src="images/facebook-screenshot-ocr.jpg" class="md-local-image" alt="Facebook uses OCR to read the text on its images" caption="Facebook is capable of reading the text on its images" >}}
+{{< figure src="images/facebook-screenshot-ocr.jpg" class="md-local-image" alt="Facebook uses OCR to read the text on its images" caption="Facebook is capable of reading the text on its images"  width="727" height="542" >}}
 
 Another of the most common applications is the transformation of a pdf book into images to text, ideal for transforming old book scans to epub or text files.
 

@@ -81,7 +81,7 @@ Por ejemplo, si usamos un namespace de tipo UTS, los cambios que le hagamos al h
 
 {{<ad0>}}
 
-{{< figure src="images/namespaces-uts-en-linux.jpg" class="md-local-image" alt="Ejemplo de namespaces en linux" caption="Cada namespace tiene su propio hostname y domainname" >}}
+{{< figure src="images/namespaces-uts-en-linux.jpg" class="md-local-image" alt="Ejemplo de namespaces en linux" caption="Cada namespace tiene su propio hostname y domainname"  width="1200" height="630" >}}
 
 ### cgroup
 
@@ -93,7 +93,7 @@ Linux toma esta configuración leyendo una serie de archivos dentro de la ruta *
 
 Por ejemplo, usando cgroups podemos decirle a linux: "limita el número de CPUs que puede usar este proceso a uno solo, y que solo pueda usar el 20% de la capacidad de CPU, además asígnale un máximo de 1GB de RAM".
 
-{{< figure src="images/cgroups-en-linux.jpg" class="md-local-image" alt="Ejemplo de cgroups en linux" caption="Los cgroups permiten limitar recursos del sistema" >}}
+{{< figure src="images/cgroups-en-linux.jpg" class="md-local-image" alt="Ejemplo de cgroups en linux" caption="Los cgroups permiten limitar recursos del sistema"  width="1200" height="630" >}}
 
 {{<ad1>}}
 

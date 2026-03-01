@@ -21,7 +21,7 @@ En go **puedes considerar un paquete como todos los archivos que contenga un dir
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 
-{{< figure src="images/modulo-y-paquetes-en-go.png" class="md-local-image" alt="Diferencias entre modulos y paquetes en go" >}}
+{{< figure src="images/modulo-y-paquetes-en-go.png" class="md-local-image" alt="Diferencias entre modulos y paquetes en go"  width="318" height="148" >}}
 
 Diferencia entre modulos y paquetes en go
 
@@ -51,7 +51,7 @@ Lo sé, es una de las cosas que aborrezco del lenguaje de Go, no tanto como para
 
 Una vez creado terminaremos con una structura similar a esta
 
-{{< figure src="images/goModule.png" class="md-local-image" alt="Estructura de archivos del proyecto, una carpeta llamada videogame, con un archivo del mismo nombre en el interior." >}}
+{{< figure src="images/goModule.png" class="md-local-image" alt="Estructura de archivos del proyecto, una carpeta llamada videogame, con un archivo del mismo nombre en el interior."  width="310" height="112" >}}
 
 Localización del archivo principal y nuestro modulo en go
 
@@ -63,7 +63,7 @@ Localización del archivo principal y nuestro modulo en go
 
 Un archivo de go.mod **define un modulo y nos permite establecer el directorio que usaremos como base para importar los paquetes.**
 
-{{< figure src="images/goModFile.png" class="md-local-image" alt="Archivo go.mod en la raiz del proyecto" >}}
+{{< figure src="images/goModFile.png" class="md-local-image" alt="Archivo go.mod en la raiz del proyecto"  width="320" height="214" >}}
 
 {{<ad2>}}
 
@@ -93,7 +93,7 @@ go mod init mimodulo
 
 Por ejemplo, si le pasamos como nombre _mimodulo_, todas las carpetas **que estén al mismo nivel que el archivo _go.mod_ y que declaren un package al inicio de su archivo**, se considerarán paquetes.
 
-{{< figure src="images/multiplesModulos.png" class="md-local-image" alt="Múltiples directorios para importar como paquetes con go.mod" >}}
+{{< figure src="images/multiplesModulos.png" class="md-local-image" alt="Múltiples directorios para importar como paquetes con go.mod"  width="312" height="195" >}}
 
 Y podremos importarlos directo desde nuestro archivo _main.go_
 

@@ -32,7 +32,7 @@ It is common practice to use Github to assess a developer's capabilities, but to
 
 "Absence of evidence is not evidence of absence" or, put in other words, just because a person doesn't have excellent quality code on Github, doesn't mean they can't write it. 
 
-{{< figure src="images/github-as-past-review-tool.webp" class="md-local-image" alt="This is just a representation of how a github's contribution chart can be a reflect of someone's life" caption="This is just a representation of how a github's contribution chart can be a reflect of someone's life" >}}
+{{< figure src="images/github-as-past-review-tool.webp" class="md-local-image" alt="This is just a representation of how a github's contribution chart can be a reflect of someone's life" caption="This is just a representation of how a github's contribution chart can be a reflect of someone's life"  width="1300" height="350" >}}
 
 
 {{<ad0>}}
@@ -40,13 +40,13 @@ It is common practice to use Github to assess a developer's capabilities, but to
 But why would someone not want to show the ~~horrible quality of their code done in javascript~~ good quality of their code? One reason is that they're probably too busy writing code that does pay, rather than contributing to open source. 
 
 
-{{< figure src="images/tweet-push-code-that-makes-money.webp" class="md-local-image" alt="incendiary tweet that triggers heated discussions" caption="incendiary tweet that triggers heated discussions" >}}
+{{< figure src="images/tweet-push-code-that-makes-money.webp" class="md-local-image" alt="incendiary tweet that triggers heated discussions" caption="incendiary tweet that triggers heated discussions"  width="550" height="258" >}}
 
 Not everyone has an extra day each week to dedicate to open source, some have extra responsibilities beyond work, such as raising a family, caring for sick parents or personal projects.
 
 Ironically my github looks like this:
 
-{{< figure src="images/eduardo-zepeda-github.webp" class="md-local-image" alt="Eduardo Zepeda Github Chart" caption="My Github looks like this" >}}
+{{< figure src="images/eduardo-zepeda-github.webp" class="md-local-image" alt="Eduardo Zepeda Github Chart" caption="My Github looks like this"  width="747" height="161" >}}
 
 ### Not all programmers love open source
 
@@ -65,13 +65,13 @@ Considering the above, and regardless of the veracity of the claims, **I wouldn'
 
 {{<ad2>}}
 
-{{< figure src="images/github-meme-invencibles.webp" class="md-local-image" alt="github meme" caption="Github meme" >}}
+{{< figure src="images/github-meme-invencibles.webp" class="md-local-image" alt="github meme" caption="Github meme"  width="852" height="508" >}}
 
 ## Not all projects are on Github, Bitbucket, Gitlab, Gitea and others exist too
 
 Github is the de facto service for managing online repositories, but there are other options such as Bitbucket, Gitlab, Gitea, launchpad, which although lacking the size and number of services offered by Github, compensate with a better reputation.
 
-{{< figure src="images/meme-github-gitlab.webp" class="md-local-image" alt="Meme that originated after Microsoft's purchase of Github" caption="Meme that originated after Microsoft's purchase of Github" >}}
+{{< figure src="images/meme-github-gitlab.webp" class="md-local-image" alt="Meme that originated after Microsoft's purchase of Github" caption="Meme that originated after Microsoft's purchase of Github"  width="680" height="453" >}}
 
 Some developers prefer to use these alternatives as a response to Github's monopoly or perhaps for reasons as banal as preferring one UI over another.
 

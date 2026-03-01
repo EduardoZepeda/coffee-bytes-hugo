@@ -83,7 +83,7 @@ fmt.Println(myVideogame)
 
 Para marcar un struct, función o variable como privada o pública, igual que sus respectivos campos para el struct, **basta con declarar la primera letra del campo con mayúsculas o minúsculas**, para público y privado, respectivamente.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png" class="md-local-image" alt="Diagrama de reglas de privacidad de Golang" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png" class="md-local-image" alt="Diagrama de reglas de privacidad de Golang"  width="1948" height="447" >}}
 
 Personalmente, creo que este es uno de los aspectos más complicados de este lenguaje, ¿por qué? porque cuando necesites buscar un campo privado, probablemente necesites usar regex, en lugar de simplemente buscar por la palabra *private*.
 
@@ -112,7 +112,7 @@ Puedes pensar en estos como los métodos de una clase.
 
 Para acceder a instancias de structs en las funciones necesitamos colocar un par de parentesis entre la keyword _func_ y el nombre de la función. Estos paréntesis contienen el nombre que usaremos para acceder a la instancia del struct, seguido del caracter de desestructuración y, por último, el nombre del struct.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png" class="md-local-image" alt="Composición en Go, diagrama" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png" class="md-local-image" alt="Composición en Go, diagrama"  width="1830" height="560" >}}
 
 ```go
 func (myStructVariable *Videogame) PrintYear(){
@@ -212,7 +212,7 @@ Puedes pensar en una interfaz como una especie de "plano" o "blueprint" que le d
 
 Por ejemplo: Piensa en una abstracción que representa en piezas de rompecabezas, necesitamos una pieza de rompecabezas que tenga dos apendices, que guarden un ángulo de 45° entre ellos, no nos interesa el resto de lados de la pieza de rompecabezas, solo que contenga esas dos características, mientras tenga estas dos características cumplirá la interfaz, la forma del resto de la pieza nos es indiferente.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1764437886/interface-requirements_wtubxg.jpg" class="md-local-image" alt="Explicación del concepto de interfaz en programación" caption="Mientras el ente pueda respirar, satisface la interfaz." >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1764437886/interface-requirements_wtubxg.jpg" class="md-local-image" alt="Explicación del concepto de interfaz en programación" caption="Mientras el ente pueda respirar, satisface la interfaz."  width="960" height="960" >}}
 
 ### ¿Para que sirve una interfaz en Go?
 

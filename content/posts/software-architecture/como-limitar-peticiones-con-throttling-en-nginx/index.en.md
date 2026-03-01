@@ -30,7 +30,7 @@ By the way, I coded an [interactive Throttling vs debounce simulator]({{< ref pa
 
 Nginx will handle throttling as if it were a bucket with holes in it: the water that goes into the bucket comes out the bottom. If we increase the flow and the bucket fills faster than it flows out of the holes the bucket will overflow.
 
-{{< figure src="images/cubeta_-1.jpg" class="md-local-image" alt="A bucket dripping illustration" >}}
+{{< figure src="images/cubeta_-1.jpg" class="md-local-image" alt="A bucket dripping illustration"  width="245" height="400" >}}
 
 The water that enters first through the bucket exits first (FIFO). If the flow is sufficient, the bucket overflows.
 

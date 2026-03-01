@@ -38,7 +38,7 @@ Notice how after accessing the url, **the answer does not appear until after 3 s
 
 {{<ad0>}}
 
-{{< figure src="images/slowResponseView-1.gif" class="md-local-image" alt="Time-consuming task delays server response" >}}
+{{< figure src="images/slowResponseView-1.gif" class="md-local-image" alt="Time-consuming task delays server response"  width="1000" height="327" >}}
 
 The response to the url takes 3 seconds
 
@@ -64,7 +64,7 @@ We will also need RabbitMQ, which will serve as an intermediary between django a
 sudo apt install rabbitmq-server
 ```
 
-{{< figure src="images/RabbitMQEsquema.jpg" class="md-local-image" alt="Basic schematic of RabbitMQ and Celery operation" >}}
+{{< figure src="images/RabbitMQEsquema.jpg" class="md-local-image" alt="Basic schematic of RabbitMQ and Celery operation"  width="1200" height="630" >}}
 
 {{<ad2>}}
 
@@ -119,7 +119,7 @@ celery -A celeryApp worker -l info
 
 The _-A_ option, of App, tells celery the name of the application, i.e., the name we just assigned to it in the _celery.py_ file.
 
-{{< figure src="images/CeleryEjecutandoseEnConsola.png" class="md-local-image" alt="Celery running in console" >}}
+{{< figure src="images/CeleryEjecutandoseEnConsola.png" class="md-local-image" alt="Celery running in console"  width="1014" height="646" >}}
 
 Celery running on the terminator. See how the transport option in [config] points to port 5672, characteristic of rabbitmq.
 
@@ -196,7 +196,7 @@ If we now access the view we just created, we will see that it **returns the JSO
 
 Celery takes care of our task, so that it does not interrupt the flow of our Django application.
 
-{{< figure src="images/DjangoEjecutandoTareaAsincrona.gif" class="md-local-image" alt="Celery preventing time-consuming task from delaying server response" >}}
+{{< figure src="images/DjangoEjecutandoTareaAsincrona.gif" class="md-local-image" alt="Celery preventing time-consuming task from delaying server response"  width="1748" height="996" >}}
 
 Celery handling the task that is executed with each web request in an asynchronous manner.
 
@@ -222,13 +222,13 @@ After executing the Flower command it will be available on port 5555.
 
 Flower will show us the active tasks, processed, with failure and information of each one of them.
 
-{{< figure src="images/FlowerParaCelery.png" class="md-local-image" alt="Flower application, main panel" >}}
+{{< figure src="images/FlowerParaCelery.png" class="md-local-image" alt="Flower application, main panel"  width="1919" height="495" >}}
 
 Flower main panel available on port 5555
 
 We will also be able to see specific information for each task, such as its identifier, arguments, time and execution time.
 
-{{< figure src="images/FlowerParaCeleryTareas.png" class="md-local-image" alt="Flower specific task panel" >}}
+{{< figure src="images/FlowerParaCeleryTareas.png" class="md-local-image" alt="Flower specific task panel"  width="1920" height="433" >}}
 
 Flower shows us the details of each task
 

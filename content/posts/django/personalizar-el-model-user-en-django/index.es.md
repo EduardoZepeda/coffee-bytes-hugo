@@ -30,11 +30,11 @@ Pero, antes de empezar, veamos de donde viene el modelo User de Django.
 
 El modelo _User_ de Django hereda de _AbstractUser_ que, a su vez, hereda de la clase _AbstractBaseUser_.
 
-{{< figure src="images/DeDondeVieneAbstractUser.png" class="md-local-image" alt="Esquema de las clases padre del modelo User de Django. AbstractBaseUser, AbstractUser y User" >}}
+{{< figure src="images/DeDondeVieneAbstractUser.png" class="md-local-image" alt="Esquema de las clases padre del modelo User de Django. AbstractBaseUser, AbstractUser y User"  width="1000" height="1000" >}}
 
 Si miras el código fuente de Django, verás que el **modelo _User_ que usas normalmente no tiene prácticamente ninguna funcionalidad propia**, sino que hereda toda su funcionalidad de _AbstractUser_.
 
-{{< figure src="images/UserDjango.png" class="md-local-image" alt="Captura de pantalla del código del modelo User de Django" caption="Captura de pantalla del código de Django version 4.0" >}}
+{{< figure src="images/UserDjango.png" class="md-local-image" alt="Captura de pantalla del código del modelo User de Django" caption="Captura de pantalla del código de Django version 4.0"  width="985" height="201" >}}
 
 
 Ya que sabemos lo anterior, **podemos usar las clases AbstractUser y AbstractBaseUser para crear nuestros modelos de Usuario personalizados.**
@@ -111,7 +111,7 @@ Ahora el panel de administración se comportará exactamente igual que lo haría
 
 Observa como la clase _AbstractUser_ hereda de _AbstractBaseUse_r y tiene múltiples campos disponibles para perfilar un usuario. Además, no puede instanciarse directamente, por ser una clase abstracta.
 
-{{< figure src="images/AbstractUserDjango-1.png" class="md-local-image" alt="Código fuente de la clase AbstractUser  de Django" caption="Captura de pantalla del código de AbstractUser de Django version 4.0" >}}
+{{< figure src="images/AbstractUserDjango-1.png" class="md-local-image" alt="Código fuente de la clase AbstractUser  de Django" caption="Captura de pantalla del código de AbstractUser de Django version 4.0"  width="1079" height="911" >}}
 
 
 Pasemos al segundo método.
@@ -167,7 +167,7 @@ La siguiente imagen es una captura de pantalla directo del código de Django en 
 
 Como puedes ver, solo cuenta con los 3 campos mencionados, hereda directamente de _models.Model_ y su clase Meta le indica a Python que es un modelo abstracto; no puedes crear instancias directamente de este.
 
-{{< figure src="images/AbstractBaseUserDjango-1.png" class="md-local-image" alt="Código fuente de la clase AbstractBaseUser de Django" caption="Captura de pantalla del código de AbstractBaseUser de Django version 4.0" >}}
+{{< figure src="images/AbstractBaseUserDjango-1.png" class="md-local-image" alt="Código fuente de la clase AbstractBaseUser de Django" caption="Captura de pantalla del código de AbstractBaseUser de Django version 4.0"  width="1200" height="287" >}}
 
 Ahora veamos la tercera manera de extender el model _User_ de Django.
 

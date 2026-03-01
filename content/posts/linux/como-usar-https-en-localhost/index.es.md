@@ -32,7 +32,7 @@ Es bastante común realizar integraciones donde probamos Oauth o algún tipo de 
 
 Por ejemplo en la creación de apps en las plataformas de desarrollador de X (antes Twitter) o Facebook. ~~Te odiamos zucaritas.~~
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png" class="md-local-image" alt="Facebook developer portal callback needs https" caption="Facebook developer portal callback needs https" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png" class="md-local-image" alt="Facebook developer portal callback needs https" caption="Facebook developer portal callback needs https"  width="722" height="557" >}}
 
 Existen múltiples soluciones para usar https en localhost, una de ellas es firmar nuestros propios certificados de manera manual, pero vamos a hacer esto de la manera rápida y fácil.
 

@@ -20,7 +20,7 @@ slug: /software-architecture/cree-un-simulador-visual-de-un-trie-tree/
 
 El otro día estaba leyendo la segunda parte de [System Design Interview](https://amzn.to/4nsgK0V#?), ¿o era la primera? y recuerdo que el autor usaba un trie tree para diseñar un buscador con autocompletado estilo Google. Nunca había escuchado de esa estructura de datos, así que decidí crear un simulador visual para que lo entiendas más rápido y mejor.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757735868/coffee-bytes/google-suggestion-trie-tree_n7a45w.png" class="md-local-image" alt="Google search suggestion using a trie tree" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757735868/coffee-bytes/google-suggestion-trie-tree_n7a45w.png" class="md-local-image" alt="Google search suggestion using a trie tree"  width="911" height="427" >}}
 
 Además de su uso más común: sugerencias de text, también puedes encontrar trie trees en coincidencia de secuencias de ADN en bioinformática, en ruteo de comandos en CLIs, compiladores y detección de patrones en seguridad, por mencionar solo algunos casos.
 

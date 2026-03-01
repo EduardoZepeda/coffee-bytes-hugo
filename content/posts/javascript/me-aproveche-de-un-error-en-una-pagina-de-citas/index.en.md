@@ -24,7 +24,7 @@ While using a Tinder-style dating app, one of those in which, after a mutual lik
 
 After having a couple of matches I noticed that the obfuscated pictures belonged to real accounts, that is, they were not a set of generic images or placeholders.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Example of the blur effect applied to photography\"" caption="Example of the blur effect applied to photography" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1735963400/thumbnail-blurry-app-date-400_fm35p2.jpg" class="md-local-image" alt="\"Example of the blur effect applied to photography\"" caption="Example of the blur effect applied to photography"  width="400" height="200" >}}
 
 It sounded too obvious, so I opened my browser's developer console and went directly to the CSS code to double-check my suspicions. They couldn't possibly be making such a simple mistake—I thought—they're protecting the identity of the photographs with a simple CSS *filter: blur*.
 

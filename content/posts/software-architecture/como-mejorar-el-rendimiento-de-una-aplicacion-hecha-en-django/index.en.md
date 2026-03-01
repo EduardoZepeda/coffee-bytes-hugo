@@ -42,7 +42,7 @@ Identify what queries are being made in your application using [django-debug-too
 * **F-Expressions** to perform operations at the database level instead of in Python code.
 * **Annotate and subqueries** Be careful of the way Django uses [annotate and subqueries and write CTEs or raw SQL]({{< ref path="/posts/django/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="en" >}}) if you need to.
 
-{{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar showing the SQL queries of a Django request" caption="Django debug tool bar showing the SQL queries of a Django request" >}}
+{{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar showing the SQL queries of a Django request" caption="Django debug tool bar showing the SQL queries of a Django request"  width="988" height="458" >}}
 
 Example of use with _select_related_.
 

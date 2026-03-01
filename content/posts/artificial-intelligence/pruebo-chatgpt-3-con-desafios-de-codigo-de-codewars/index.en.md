@@ -37,7 +37,7 @@ To start with I was testing ChatGPT with a series of simple and popular requests
 * Validate email, strings, numbers
 * Very specific tasks of some frameworks. For example: [Replace User model in Django.]({{< ref path="/posts/django/como-mejorar-el-futuro-de-django-framework/index.md" lang="en" >}})
 
-{{< figure src="images/ChatGPT-Django-users.png" class="md-local-image" alt="Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField." caption="Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField." >}}
+{{< figure src="images/ChatGPT-Django-users.png" class="md-local-image" alt="Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField." caption="Notice how it knows how to replace the user in Django, but it assumes that the best choice for a location field is a CharField."  width="834" height="854" >}}
 
 Frankly, I am surprised with the capabilities of generating correct code that ChatGPT has for simple tasks and with abundant information on the net; I did not expect such capability.
 
@@ -55,7 +55,7 @@ The challenge of the [Rotate Matrix Anti-Clockwise N - Times!](https://www.codew
 
 The input I used in ChatGPT to generate the code is as follows: Create a function that rotates an array counterclockwise "n" number of times.
 
-{{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rotate matrix with ChatGPT" caption="Rotate matrix with ChatGPT" >}}
+{{< figure src="images/rotate-matrix-ChatGPT.png" class="md-local-image" alt="Rotate matrix with ChatGPT" caption="Rotate matrix with ChatGPT"  width="1920" height="968" >}}
 
 {{<ad3>}}
 
@@ -84,7 +84,7 @@ def rotate_matrix(matrix, n):
 
 After executing the code we can see that all the tests fail, the matrix rotates, but more times than necessary.
 
-{{< figure src="images/rotate-matrix-codewars.png" class="md-local-image" alt="Rotate a Matrix with ChatGPT" caption="Rotate a Matrix with ChatGPT" >}}
+{{< figure src="images/rotate-matrix-codewars.png" class="md-local-image" alt="Rotate a Matrix with ChatGPT" caption="Rotate a Matrix with ChatGPT"  width="1920" height="968" >}}
 
 I want to emphasize that ChatGPT produces syntactically correct code, respecting identation, with intuitive variable names and even with a logic that seems correct, only at first glance, but upon closer examination, fails to "reason" its logic. Yes, I know that artificial intelligences do not reason.
 
@@ -98,13 +98,13 @@ That is, find the palindrome number "n" and with the appropriate condition of do
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101
 ```
 
-{{< figure src="images/palindrome-ChatGPT.png" class="md-local-image" alt="Find a Palindrome number with ChatGPT" caption="Find a Palindrome number with ChatGPT" >}}
+{{< figure src="images/palindrome-ChatGPT.png" class="md-local-image" alt="Find a Palindrome number with ChatGPT" caption="Find a Palindrome number with ChatGPT"  width="1920" height="968" >}}
 
 ### Response analysis
 
 After running the code I was surprised to realize that, after a little tweaking, the result is correct!
 
-{{< figure src="images/palindrome-codewars.png" class="md-local-image" alt="Chat GPT code to find a palindrome number" caption="Chat GPT code to find a palindrome number" >}}
+{{< figure src="images/palindrome-codewars.png" class="md-local-image" alt="Chat GPT code to find a palindrome number" caption="Chat GPT code to find a palindrome number"  width="1920" height="968" >}}
 
 In addition to producing syntactically correct code, the generated code works perfectly, even containing comments.
 
@@ -142,7 +142,7 @@ I tried to get the correct answer multiple times, even specifying the complexity
 
 The challenge of [Regular Expression for Binary Numbers Divisible by n](https://www.codewars.com/kata/5993c1d917bc97d05d000068#?) is: Create a function that returns a regular expression string capable of evaluating binary strings (consisting only of 1s and 0s) and determine whether the given string represents a number divisible by n.
 
-{{< figure src="images/binary-division-ChatGPT.png" class="md-local-image" alt="Binary number division code using ChatGPT" caption="Binary number division code using ChatGPT" >}}
+{{< figure src="images/binary-division-ChatGPT.png" class="md-local-image" alt="Binary number division code using ChatGPT" caption="Binary number division code using ChatGPT"  width="1920" height="968" >}}
 
 After asking for an answer, it returns a rather simple expression and even gives us a step-by-step explanation of the logical reasoning, apparently correct but, in practice, incorrect.
 
@@ -157,7 +157,7 @@ The regular expression returned as a response is the following:
 
 When we test it in the codewars tests, it fails, obviously.
 
-{{< figure src="images/binary-division-codewars.png" class="md-local-image" alt="An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response." caption="An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response." >}}
+{{< figure src="images/binary-division-codewars.png" class="md-local-image" alt="An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response." caption="An extra pair of braces is added to comply with Python F string syntax. False positives are due to the binary character in the response."  width="1920" height="968" >}}
 
 ## Results and my opinion
 

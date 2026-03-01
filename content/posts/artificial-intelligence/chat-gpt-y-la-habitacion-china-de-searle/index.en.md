@@ -26,7 +26,7 @@ Chat GPT is on everyone's lips, some are afraid of it, because of its [ability t
 
 John Searle, was a scientist who wondered whether a computer can really understand language. And for this he designed a riveting thought experiment:
 
-{{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Image of Searle's Chinese Room generated with Dall-E" caption="Image of Searle's Chinese Room generated with Dall-E" >}}
+{{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Image of Searle's Chinese Room generated with Dall-E" caption="Image of Searle's Chinese Room generated with Dall-E"  width="1024" height="1024" >}}
 
 A human, inside a room completely isolated from the outside world, with a set of instructions to process Chinese kanjis and return a response. 
 
@@ -105,7 +105,7 @@ In the book "[Godel, Escher, Bach: An Eternal Golden Braid](https://amzn.to/4boO
 
 As Hofstader rightly speculates, a human would have “stepped out” of the loop to stop for a few moments and investigate what was happening.
 
-{{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid" caption="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid" >}}
+{{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid" caption="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid"  width="640" height="480" >}}
 
 This experiment made me question whether some living beings are nothing more than biological automatons and also where is the turning point at which a living being ceases to be an automaton and becomes conscious, are there gradients of consciousness? And, if so, what does consciousness look like beyond what we humans experience? If consciousness exists as a macroscopic manifestation, is it deterministic, or does it belong to the quantum world of indeterminacy? I don't know and I don't think the truth has yet to pick a winner.
 

@@ -127,7 +127,7 @@ Para que nuestra programación periódica funcione, celery necesita estar ejecut
 celery -A celeryApp beat -l info
 ```
 
-{{< figure src="images/CeleryBeatRabbitMQEsquema.png" class="md-local-image" alt="Esquema simplificado del funcionamiento de celery beat" >}}
+{{< figure src="images/CeleryBeatRabbitMQEsquema.png" class="md-local-image" alt="Esquema simplificado del funcionamiento de celery beat"  width="1200" height="630" >}}
 
 Esquema de Celery Beat
 
@@ -141,7 +141,7 @@ Ahora celery se encargará de que se envié un email cada 10 segundos (spam puro
 
 Una vez que estén corriendo los servicios de celery veremos como se empieza a ejecutar nuestra función cada 10 segundos.
 
-{{< figure src="images/EjecucionDeTareasPeriodicasCeleryBeat.png" class="md-local-image" alt="Tareas periódicas ejecutándose en consola" >}}
+{{< figure src="images/EjecucionDeTareasPeriodicasCeleryBeat.png" class="md-local-image" alt="Tareas periódicas ejecutándose en consola"  width="1904" height="929" >}}
 
 Tareas de Celery con 10 segundos de diferencia entre sí
 

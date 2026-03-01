@@ -20,13 +20,13 @@ title: How to avoid spam when putting an email on a website?
 
 Sometimes we want to put an email on a website but without exposing it to be read by some random bot that includes us in an advertising list, reminding us of our problems to start a physical relationship with the two mature women who live less than two kilometers away. And since we don't want that, there are several things we can do to solve this and here I present some solutions, the last one is the one I usually use and also my favorite.
 
-{{< figure src="images/prince-from-nigeria-scam.jpg" class="md-local-image" alt="Classic scam email from a Prince from Nigeria" >}}
+{{< figure src="images/prince-from-nigeria-scam.jpg" class="md-local-image" alt="Classic scam email from a Prince from Nigeria"  width="750" height="750" >}}
 
 ## Convert your email to an image and avoid spam
 
 This way to protect your email address requires no detailed explanation, just turn your email into an image and place it, your address will be safe from any text scraping bot, but it will be vulnerable to any bot with [OCR (Optical Character Recognition) capabilities, bots with pytesseract for example](/en/python/ocr-with-tesseract-python-and-pytesseract/), which I predict will be few if any.
 
-{{< figure src="images/email-image.jpg" class="md-local-image" alt="email address in an image" >}}
+{{< figure src="images/email-image.jpg" class="md-local-image" alt="email address in an image"  width="200" height="55" >}}
 
 The disadvantage of this approach is that the person who wants to send you an email will have to type it in manually, as they can't copy-paste, and you know that every extra step adds friction to the conversion process.
 
@@ -60,7 +60,7 @@ Of course some bots will try to fill out the form to send you advertisements but
 
 {{<ad3>}}
 
-{{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Anime captcha image from Freiren" >}}
+{{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Anime captcha image from Freiren"  width="500" height="736" >}}
 
 ### Use custom email spam filters
 

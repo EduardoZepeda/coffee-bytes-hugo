@@ -38,7 +38,7 @@ The effect the cache will have depends on many factors. However, just to give yo
 
 As you can see the difference is almost 10 times the time.
 
-{{< figure src="images/ComparacionCache1000filasDjango.jpg" class="md-local-image" alt="Comparison of response time with cache and without cache for a django application" >}}
+{{< figure src="images/ComparacionCache1000filasDjango.jpg" class="md-local-image" alt="Comparison of response time with cache and without cache for a django application"  width="922" height="654" >}}
 
 If you're in a situation where [your application's performance is critical](/en/opinion/dont-obsess-about-your-web-application-performance/), cache is definitely one of the first steps that you have to make in order to improve your site's speed.
 
@@ -163,7 +163,7 @@ Cache-Control: max-age=600
 
 If instead of using the terminal we enter the browser, we will see how the _django_debug_toolbar_ already shows us that the cache is being used.
 
-{{< figure src="images/CacheDebugToolBar.png" class="md-local-image" alt="Django_debug_toolbar with cache and without cache, comparison" >}}
+{{< figure src="images/CacheDebugToolBar.png" class="md-local-image" alt="Django_debug_toolbar with cache and without cache, comparison"  width="424" height="1022" >}}
 
 Look how in the cache column, we already have two calls.
 

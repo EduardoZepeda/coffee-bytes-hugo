@@ -30,7 +30,7 @@ Debido a que linux es el núcleo del sistema, es capaz de pedir de vuelta esos r
 
 Linux puede pedirle "amablemente" a las aplicaciones los recursos que les prestó o "arrebatárselos" por la fuerza. Para lo anterior, Linux envía una serie de señales (signals) a la aplicación, algunas de las cuales pueden ser capturadas y manejadas por la misma aplicación, con código en Go.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743294302/coffee-bytes/linux-kill-9-shutdown-meme_rb0mqw.jpg" class="md-local-image" alt="\"Linux terminará una aplicación de manera amable usando la señal SIGKILL\"" caption="Linux terminará una aplicación de manera amable usando la señal SIGKILL" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743294302/coffee-bytes/linux-kill-9-shutdown-meme_rb0mqw.jpg" class="md-local-image" alt="\"Linux terminará una aplicación de manera amable usando la señal SIGKILL\"" caption="Linux terminará una aplicación de manera amable usando la señal SIGKILL"  width="619" height="551" >}}
 
 ### Señales de Linux principales
 

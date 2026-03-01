@@ -32,17 +32,17 @@ Everything in n8n revolves around **nodes**. These are blocks with a single, spe
 
 There's a huge library of "out of the box" nodes for almost all popular services, very mainstream: WordPress, Google Calendar, Telegram, and of course, most social networks. Nodes do specific things like: send an email, run every "x" minutes, monitor an RSS feed every "x" seconds. 
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772238513/coffee-bytes/nodes-menu-n8n_meeonp.png" alt="Node menu in n8n" class="md-local-image" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772238513/coffee-bytes/nodes-menu-n8n_meeonp.png" alt="Node menu in n8n" class="md-local-image"  width="383" height="529" >}}
 
 There are also more low-level technical nodes for creating conditionals (`if` statements), loops, direct HTTP requests, or even running your own code in **JavaScript and Python**. Yep, you read that right, no Rust, Go, or other esoteric languages, just pure scripting languages to annoy the old-school devs.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772238511/coffee-bytes/http-request-n8n_zrlgyh.png" alt="HTTP Request node in n8n" class="md-local-image" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772238511/coffee-bytes/http-request-n8n_zrlgyh.png" alt="HTTP Request node in n8n" class="md-local-image"  width="415" height="579" >}}
 
 These nodes are joined so that the output of one (or more) becomes the input of the other(s), and the structure resulting from several connected nodes can simply be called a flow, which is stored in JSON format.
 
 You can watch a list flow as soon as you open the app.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772239025/coffee-bytes/flows-n8n_cb9psf.png" alt="List of flows in n8n" class="md-local-image" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772239025/coffee-bytes/flows-n8n_cb9psf.png" alt="List of flows in n8n" class="md-local-image"  width="1196" height="345" >}}
 
 ### n8n's Support for AI
 
@@ -62,11 +62,11 @@ And not only that: it securely manages your **credentials** (encrypted, no expos
 
 N8n allows you to save your flows as **templates** to reuse them or share them with colleagues or upload them to git.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772238511/coffee-bytes/import-template-menu-n8n_ryscyv.png" alt="Menu to import and export flows in n8n" class="md-local-image" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772238511/coffee-bytes/import-template-menu-n8n_ryscyv.png" alt="Menu to import and export flows in n8n" class="md-local-image"  width="158" height="295" >}}
 
 It also has a dashboard to **monitor** all running flows, seeing which ones are working correctly and where errors occur so you can fix them instantly.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772239025/coffee-bytes/executions-logs-n8n_m4o0ex.png" alt="Summary of flows in n8n" class="md-local-image" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1772239025/coffee-bytes/executions-logs-n8n_m4o0ex.png" alt="Summary of flows in n8n" class="md-local-image"  width="1196" height="441" >}}
 
 ## Can I use n8n without knowing how to code?
 

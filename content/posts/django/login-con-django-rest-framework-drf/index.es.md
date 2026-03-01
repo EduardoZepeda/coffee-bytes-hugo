@@ -99,7 +99,7 @@ api/authentication/ password/change/ [name='rest_password_change']
 
 Si lees la lista anterior, te darás cuenta de que se agregaron endpoints para reiniciar contraseñas, login, logout, detalles de usuario y cambiar password. Y si accedemos a esas urls en el navegador ya veremos la interfaz de DRF.
 
-{{< figure src="images/DjangoRestFrameworkEndpointLogin.png" class="md-local-image" alt="Pantalla de Loggeo en Django REST framework" >}}
+{{< figure src="images/DjangoRestFrameworkEndpointLogin.png" class="md-local-image" alt="Pantalla de Loggeo en Django REST framework"  width="1337" height="926" >}}
 
 El endpoint de login nos devuelve una key que usaremos como token
 
@@ -165,13 +165,13 @@ INSTALLED_APPS = [
 
 Ahora tendremos un endpoint extra que permite el registro de usuarios.
 
-{{< figure src="images/DjangoRestFrameworkEndpointRegistro.png" class="md-local-image" alt="Pantalla de registro en Django REST Framework" >}}
+{{< figure src="images/DjangoRestFrameworkEndpointRegistro.png" class="md-local-image" alt="Pantalla de registro en Django REST Framework"  width="1341" height="838" >}}
 
 Pantalla de registro de un usuario en la interfaz de DRF
 
 Si nos registramos mediante el navegador, llenando el formulario, recibiremos un token como respuesta:
 
-{{< figure src="images/DjangoRestFrameworkEndpointToken.png" class="md-local-image" alt="Token de sesión de DRF Obtenidas tras el logueo de un usuario." >}}
+{{< figure src="images/DjangoRestFrameworkEndpointToken.png" class="md-local-image" alt="Token de sesión de DRF Obtenidas tras el logueo de un usuario."  width="1235" height="499" >}}
 
 Token de sesión obtenida tras el logueo de un usuario
 
@@ -220,7 +220,7 @@ JWT_AUTH_REFRESH_COOKIE = 'jwt-refresh-token'
 
 Tras obtener las tokens de refresco y autenticación, haciendo login en nuestro endpoint, podemos usarlas para autenticarnos con el header "Authorization: Bearer <Access token>".
 
-{{< figure src="images/DjangoRestFrameworkJWT.png" class="md-local-image" alt="Tras el logueo de un usuario obtenemos el  JWT de refresco y de autenticación o acceso." >}}
+{{< figure src="images/DjangoRestFrameworkJWT.png" class="md-local-image" alt="Tras el logueo de un usuario obtenemos el  JWT de refresco y de autenticación o acceso."  width="1203" height="988" >}}
 
 Tras el logueo de un usuario obtenemos el JWT de refresco y de autenticación o acceso.
 

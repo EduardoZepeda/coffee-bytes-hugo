@@ -103,7 +103,7 @@ Its only disadvantage is its speed, as it falls short of alternatives such as sq
 
 Django has its own admin panel, called [django admin panel, and is customizable]({{< ref path="/posts/django/el-django-admin-panel-y-su-personalizacion/index.md" lang="en" >}}), an administration panel that is installed by default. This admin implements a CRUD to the database in a simple way. And, in addition, it has a solid permissions system to restrict access to the data as you want.
 
-{{< figure src="images/Django-panel-admin.png" class="md-local-image" alt="Django admin panel" >}}
+{{< figure src="images/Django-panel-admin.png" class="md-local-image" alt="Django admin panel"  width="1028" height="651" >}}
 
 ### Offers security against the most common attacks
 
@@ -174,7 +174,7 @@ I consider this the main reason to use Django. **Django gets you from an idea to
 
 With Django you would have a working prototype faster than with any other "less opinionated" framework or one that requires you to program everything from scratch.
 
-{{< figure src="images/meme-django.jpeg" class="md-local-image" alt="Why to use Django" >}}
+{{< figure src="images/meme-django.jpeg" class="md-local-image" alt="Why to use Django"  width="1080" height="932" >}}
 
 ### It is a proven solution
 
@@ -186,7 +186,7 @@ Consider that Django was once the choice of sites as big as Instagram or Pintere
 
 Python is great when it comes to Machine Learning, cool libraries like Pytorch, ScikitLearn, Numpy and Keras are widely used worldwide. Since Django is written in Python, you will be able to integrate these libraries natively into your Django projects, without the need to create a new service.
 
-{{< figure src="images/iceberg-meme.jpg" class="md-local-image" alt="Machine learning with Python" >}}
+{{< figure src="images/iceberg-meme.jpg" class="md-local-image" alt="Machine learning with Python"  width="1000" height="1000" >}}
 
 ## The disadvantages of Django
 

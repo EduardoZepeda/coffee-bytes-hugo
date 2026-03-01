@@ -26,7 +26,7 @@ Con todos los rápidos cambios que ocurren en el desarrollo web: frameworks, len
 
 El Shiny Object Syndrome (síndrome del objeto brillante, SOS de ahora en adelante) es la tendencia de ser distraido por una idea o tendencia nueva. En el marco del desarrollo web esta idea o tendencia puede ser cualquier cosa: un nuevo framework, un nuevo lenguaje, un editor nuevo, etc. Déjame te lo explico con un ejemplo.
 
-{{< figure src="images/shiny-object-syndrome.webp" class="md-local-image" alt="Shiny object syndrome en Javascript" caption="Uy, un nuevo framework de Javascript, tengo que probarlo" >}}
+{{< figure src="images/shiny-object-syndrome.webp" class="md-local-image" alt="Shiny object syndrome en Javascript" caption="Uy, un nuevo framework de Javascript, tengo que probarlo"  width="750" height="500" >}}
 
 Imagina que quieres crear una nueva aplicación, pero escuchaste que salió un [nuevo framework de Javascript con un rendimiento excepcional](/es/opinion/no-te-obsesiones-con-el-rendimiento-de-tu-aplicacion-web/) que promete facilitarte las cosas, por lo que decides aprender este nuevo ~~blazingly fast~~ framework para implementar tu nueva idea, posteriormente descubres que salió otro framework aún mejor, por lo que, a pesar de que ya llevabas la mitad del proyecto, decides refactorizar tu aplicación usando este nuevo framework y retardas nuevamente el desarrollo de tu app. 
 
@@ -40,7 +40,7 @@ Pudiste haber implementando tu nueva idea usando el framework que ya conocías, 
 
 El FOMO es una ensimismamiento generalizado de que otros podrían experimentar vivencias agradables de las cuales estariamos ausentes. En el marco del desarrollo web esta vivencia agradable también podría ser la popularización de un nuevo lenguaje de programación, o un nuevo tipo de API que parece facilitar las cosas, o un nuevo framework de Javascript (sale uno nuevo cada semana).
 
-{{< figure src="images/rewrite-everything-in-rust-meme.webp" class="md-local-image" alt="Rust is the most loved language" caption="Todos están aprendiendo Rust, yo también debería aprenderlo" >}}
+{{< figure src="images/rewrite-everything-in-rust-meme.webp" class="md-local-image" alt="Rust is the most loved language" caption="Todos están aprendiendo Rust, yo también debería aprenderlo"  width="500" height="700" >}}
 
 Por ejemplo, imagínate que un nerd crea un nuevo lenguaje de programación, que promete ser más rápido, más seguro y es adoptado rápidamente por la comunidad. Los sentimientos de ansiedad empiezan a invadirte, "¿y si todos empiezan a usar ese nuevo lenguaje?", "¿y si estoy perdiendo el tiempo usando los lenguajes que ya domino y todos se dieron que cuenta que el nuevo lenguaje es el futuro?"
 

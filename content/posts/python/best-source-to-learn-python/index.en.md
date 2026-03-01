@@ -40,7 +40,7 @@ This book is my favorite of all, it starts from scratch and begins to teach you 
 
 In my humble opinion this book is my favorite source for learning Python, I also [wrote a review of dive into Python]({{< ref path="/posts/python/ya-conoces-este-libro-gratuito-de-python-3-en-espanol/index.md" lang="en" >}}) in the past.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg" class="md-local-image" alt="Dive into Python book cover" caption="Dive into Python Book cover" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742360/coffee-bytes/dive-into-python-e-reader-cover_ohoah5.jpg" class="md-local-image" alt="Dive into Python book cover" caption="Dive into Python Book cover"  width="1200" height="630" >}}
 
 {{< affbutton link="https://amzn.to/42HBn0l" description="Dive into Python on Amazon" >}}
 
@@ -50,7 +50,7 @@ Beggining Python from novice to Professional is an introduction to the language 
 
 Highly recommended if you want to get an overview of Python capabilities.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742217/coffee-bytes/Beginning_Python_from_novice_to_pro_tlfayl.jpg" class="md-local-image" alt="Beggining Python from Novice to Pro Book cover" caption="Beggining Python from Novice to Pro Book cover" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742217/coffee-bytes/Beginning_Python_from_novice_to_pro_tlfayl.jpg" class="md-local-image" alt="Beggining Python from Novice to Pro Book cover" caption="Beggining Python from Novice to Pro Book cover"  width="1200" height="630" >}}
 
 {{< affbutton link="https://amzn.to/44tPuZZ" description="Beginning Python from Novice to Pro on Amazon" >}}
 
@@ -62,7 +62,7 @@ You will learn how to encrypt and decrypt using Caesar cipher, Vigenere, single-
 
 If you are looking for something short, sweet and enjoyable to master the most basic parts of the language this is your book.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742522/coffee-bytes/cracking_codes_with_python_mnovzk.jpg" class="md-local-image" alt="Cracking with Python book cover" caption="Cracking with Python book cover" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750742522/coffee-bytes/cracking_codes_with_python_mnovzk.jpg" class="md-local-image" alt="Cracking with Python book cover" caption="Cracking with Python book cover"  width="1200" height="630" >}}
 
 {{< affbutton link="https://amzn.to/4ixeQcE" description="Cracking Codes with Python on Amazon" >}}
 
@@ -74,7 +74,7 @@ I can recommend it, but only if you already have notions of the language, in whi
 
 The strength of this book is its portability, given its pocket-size you can read it at any leisure time or when you are on the go.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745616632/coffee-bytes/python-pocket-reference_vmfikn.jpg" class="md-local-image" alt="Python Pocket Reference Book cover" caption="Python pocket reference book cover" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745616632/coffee-bytes/python-pocket-reference_vmfikn.jpg" class="md-local-image" alt="Python Pocket Reference Book cover" caption="Python pocket reference book cover"  width="1600" height="702" >}}
 
 {{< affbutton link="https://amzn.to/4jNfdRh" description="Python Pocket Reference on Amazon" >}}
 
@@ -91,6 +91,6 @@ If you already have some notions of the language, this book will take your skill
 
 And too many things to cover in a short post. But if you have a chance and a little more experience in the language, I highly recommend you to acquire it.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" class="md-local-image" alt="Python tricks book cover" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745688775/coffee-bytes/python-tricks_zjtir8.webp" class="md-local-image" alt="Python tricks book cover"  width="1200" height="527" >}}
 
 {{< affbutton link="https://amzn.to/45QvNfz" description="Python Tricks on Amazon" >}}

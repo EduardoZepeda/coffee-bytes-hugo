@@ -31,7 +31,7 @@ El panel de administración de django es una de [las razones por las que deberí
 
 Si iniciaste tu proyecto con el comando startproject el panel de administración de django estará activado por defecto. Si entras a _/admin/_ aparecerá la pantalla de logueo.
 
-{{< figure src="images/django-admin-panel.png" class="md-local-image" alt="Pantalla de loggeo del panel de administración" caption="Pantalla del panel admin de django" >}}
+{{< figure src="images/django-admin-panel.png" class="md-local-image" alt="Pantalla de loggeo del panel de administración" caption="Pantalla del panel admin de django"  width="800" height="500" >}}
 
 En caso de que no, o de que partas de una instalación previa, primero tienes que asegurarte de que esté instalado en tu archivo de configuraciones, así como sus dependencias:
 
@@ -101,7 +101,7 @@ Con esto ya tendremos un modelo modificable en el admin.
 
 Si entramos a la dirección url /_admin/_ nos logueamos, podremos ver la interfaz funcionando.
 
-{{< figure src="images/PanelDeAdministracionDeDjango.png" class="md-local-image" alt="Panel de administración de django" >}}
+{{< figure src="images/PanelDeAdministracionDeDjango.png" class="md-local-image" alt="Panel de administración de django"  width="1029" height="541" >}}
 
 Nota la ausencia de barra de búsqueda
 
@@ -129,7 +129,7 @@ class VideogameAdmin(admin.ModelAdmin):
 admin.site.register(Videogame, VideogameAdmin)
 ```
 
-{{< figure src="images/AgregandoCamposAlAdmin.png" class="md-local-image" alt="Panel de administración de django admin con el campo created y barra de búsqueda agregados" >}}
+{{< figure src="images/AgregandoCamposAlAdmin.png" class="md-local-image" alt="Panel de administración de django admin con el campo created y barra de búsqueda agregados"  width="1024" height="649" >}}
 
 Mira el campo created y la barra de búsqueda
 
@@ -151,7 +151,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 Como puedes apreciar, el orden en que aparecen los campos se ha modificado. En orden Description, Name, Genre y Rating, justo como lo especificamos.
 
-{{< figure src="images/ModificandoElOrdenPredeterminadoDelAdmin.png" class="md-local-image" alt="Orden del formularió de creación de modelos modificados de acuerdo al campo fields" >}}
+{{< figure src="images/ModificandoElOrdenPredeterminadoDelAdmin.png" class="md-local-image" alt="Orden del formularió de creación de modelos modificados de acuerdo al campo fields"  width="1029" height="707" >}}
 
 Observa como el orden ha cambio al especificado en la propiedad fields
 
@@ -174,7 +174,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 Aquí le hemos dicho que los ordene por su nombre, de manera descendente, usando el símbolo "-".
 
-{{< figure src="images/OrdenPorNombreDescendenteAdminDjango.png" class="md-local-image" alt="Modelos ordenados alfabéticamente de manera descendente" >}}
+{{< figure src="images/OrdenPorNombreDescendenteAdminDjango.png" class="md-local-image" alt="Modelos ordenados alfabéticamente de manera descendente"  width="678" height="425" >}}
 
 Nota el acomodo de los modelos en orden descendente
 
@@ -192,7 +192,7 @@ admin.site.site_title = 'Titulo en la pestaña del navegador'
 
 Ahora puedes apreciar que en la página principal del admin ya aparecen los cambios que hemos hecho.
 
-{{< figure src="images/ModificandoLaCabeceraTituloYDescripcion.png" class="md-local-image" alt="Cambio del título, descripción y title del panel de administración de django admin" >}}
+{{< figure src="images/ModificandoLaCabeceraTituloYDescripcion.png" class="md-local-image" alt="Cambio del título, descripción y title del panel de administración de django admin"  width="301" height="441" >}}
 
 Los tres sitios señalados han cambiado
 
@@ -211,7 +211,7 @@ class VideogameAdmin(admin.ModelAdmin):
 admin.site.register(Videogame, VideogameAdmin)
 ```
 
-{{< figure src="images/AgregandoDate_hierarchy.png" class="md-local-image" alt="Ordenamiento por un campo de fecha" >}}
+{{< figure src="images/AgregandoDate_hierarchy.png" class="md-local-image" alt="Ordenamiento por un campo de fecha"  width="555" height="193" >}}
 
 La leyenda April2021 y April 30 aparecen tras colocar date\_hierarchy
 
@@ -231,13 +231,13 @@ class VideogameAdmin(admin.ModelAdmin):
         return "Popular" if obj.rating > 4.5 else "No es popular"
 ```
 
-{{< figure src="images/CamposPersonalizadosDjangoAdmin.png" class="md-local-image" alt="Campos dinámicos personalizados del Django Admin." >}}
+{{< figure src="images/CamposPersonalizadosDjangoAdmin.png" class="md-local-image" alt="Campos dinámicos personalizados del Django Admin."  width="653" height="224" >}}
 
 ## Crear acciones para el admin de Django
 
 Todos los modelos tienen la acción de eliminar disponible, la cual permite seleccionar varias filas de la base de datos y borrarlas.
 
-{{< figure src="images/AccionEliminarDjangoAdmin.png" class="md-local-image" alt="Acción de eliminar en el django admin." >}}
+{{< figure src="images/AccionEliminarDjangoAdmin.png" class="md-local-image" alt="Acción de eliminar en el django admin."  width="654" height="198" >}}
 
 Además de la acción eliminar podemos crear nuestras propias acciones que modifiquen a nuestros elementos del admin en la manera en la que deseemos
 
@@ -266,11 +266,11 @@ class VideogameAdmin(admin.ModelAdmin):
 
 Una vez creado el método, lo agregamos al admin por medio de su método _add\_action()_, pasándole el método que creamos y el nombre que queremos que aparezca en pantalla para referirse a esa acción, como primer y segundo argumento, respectivamente.
 
-{{< figure src="images/AccionesDjangoAdmin.png" class="md-local-image" alt="Acción creada en el django admin model." >}}
+{{< figure src="images/AccionesDjangoAdmin.png" class="md-local-image" alt="Acción creada en el django admin model."  width="700" height="301" >}}
 
 Si seleccionamos algunos elementos y ejecutamos la acción, los calificará con 5 estrellas y nos aparecerá el mensaje que definimos.
 
-{{< figure src="images/mensajeExitoDjangoAdmin.png" class="md-local-image" alt="Mensaje de éxito tras ejecutar acción en el djago admin" >}}
+{{< figure src="images/mensajeExitoDjangoAdmin.png" class="md-local-image" alt="Mensaje de éxito tras ejecutar acción en el djago admin"  width="456" height="175" >}}
 
 ## Instalando plantillas externas para django admin
 
@@ -325,7 +325,7 @@ admin.site.register(Videogame, VideogameAdmin)
 
 Si ahora accedemos al admin, podremos ver una nueva terminal mucho más estilizada. Y también un panel de administración más llamativo.
 
-{{< figure src="images/MaterialDjangoAdmin.png" class="md-local-image" alt="Pantalla principal del  admin con django material" >}}
+{{< figure src="images/MaterialDjangoAdmin.png" class="md-local-image" alt="Pantalla principal del  admin con django material"  width="1920" height="980" >}}
 
 Panel de administración de Django con django-material
 

@@ -46,7 +46,7 @@ Un JWT (JSON Web Token) está dividido por puntos en tres partes:
 2. La información que contiene el token.
 3. La firma criptográfica.
 
-{{< figure src="images/JWTDjango.png" class="md-local-image" alt="Partes de un JWT: encabezado, contenido y firma." caption="Estructura de un JWT: algoritmo, contenido y firma" >}}
+{{< figure src="images/JWTDjango.png" class="md-local-image" alt="Partes de un JWT: encabezado, contenido y firma." caption="Estructura de un JWT: algoritmo, contenido y firma"  width="1200" height="630" >}}
 
 Aprecia como podemos usar la parte central para guardar contenido arbitrario, que nosotros querramos, tal como los datos de la sesión de un usuario u otra información que consideremos pertinente.
 
@@ -154,7 +154,7 @@ curl -d "username=kyoko&password=contrasenasegura" -X POST http://localhost:8000
 "access":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjIzMzYwMDM2LCJqdGkiOiIzYzY2MDI3YzhiMjE0NmM4OGQ5NTY0MGUxYzc1ODAxYSIsInVzZXJfaWQiOjJ9.juG7sbemKUOTEnzNv4XiXCfChrG3q9wBw4Sj0g1L9EM"}
 ```
 
-{{< figure src="images/JWTApiEndPoint.png" class="md-local-image" alt="Pantalla de Django Rest Framework que pide username y Password" >}}
+{{< figure src="images/JWTApiEndPoint.png" class="md-local-image" alt="Pantalla de Django Rest Framework que pide username y Password"  width="1223" height="848" >}}
 
 ### Token de acceso en JWT
 
@@ -168,7 +168,7 @@ El token de acceso **tiene una fecha de caducidad, una vez que esta fecha llegue
 
 Si decodificas el token, podrás obtener su contenido. Ya lo he hecho aquí por ti. 
 
-{{< figure src="images/JWTDjangoContenido.png" class="md-local-image" alt="Partes de un JWT: encabezado, contenido y firma." >}}
+{{< figure src="images/JWTDjangoContenido.png" class="md-local-image" alt="Partes de un JWT: encabezado, contenido y firma."  width="1200" height="630" >}}
 
 Observa como en la parte de contenido (data) se aprecia que el _user\_id_ es igual a 2, el cual es el id o primary key del usuario que obtuvo el token. El primer usuario en mi caso es el superusuario.
 

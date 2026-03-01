@@ -36,7 +36,7 @@ En lugar de usar el paradigma por defecto de Django, estructura por capas:
 - las interfaces (vistas HTTP/Management commands)
 - y la lógica de negocio (readers/actions).
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1765860078/coffee-bytes/django-rapid-architecture_dpxnza.png" class="md-local-image" alt="Django rapid architecture overview" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1765860078/coffee-bytes/django-rapid-architecture_dpxnza.png" class="md-local-image" alt="Django rapid architecture overview"  width="747" height="747" >}}
 
 Este "encapsulado horizontal" se alinea con la estratificación natural de Django, evita decisiones arquitectónicas tempranas que te aten y modela mejor dominios complejos.
 

@@ -93,7 +93,7 @@ Remove only the memo function from the ChildComponent and write to the input. Ch
 export default ChildComponent;
 ```
 
-{{< figure src="images/eliminandoMemo.gif" class="md-local-image" alt="Removing memo from child component causes renderings" >}}
+{{< figure src="images/eliminandoMemo.gif" class="md-local-image" alt="Removing memo from child component causes renderings"  width="1461" height="877" >}}
 
 On the other hand, if you remove the useCallback hook, without removing memo, ChildComponent will still be re-rendered with each key press. This is because with each keystroke, MyComponent is re-rendered and the callback function is re-created, being a new function, memo re-renders the component.
 
@@ -106,7 +106,7 @@ const callback = () => {
 
 Pay attention to the terminal to appreciate the renderings.
 
-{{< figure src="images/eliminandoUseCallback.gif" class="md-local-image" alt="Remove useCallback from child component causing renderings" >}}
+{{< figure src="images/eliminandoUseCallback.gif" class="md-local-image" alt="Remove useCallback from child component causing renderings"  width="1461" height="877" >}}
 
 On the other hand, if you remove both memo and useCallback, the same thing will happen.
 

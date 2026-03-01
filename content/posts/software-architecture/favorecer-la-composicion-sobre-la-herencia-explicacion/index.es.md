@@ -20,7 +20,7 @@ title: Composicion Sobre Herencia en POO explicada con Legos
 
 El paradigma de Composition over inheritance, o composición sobre herencia es un tema recurrente en la programación orientada a objectos. Generalmente, se explica de una manera muy compleja, pero hoy voy a tratar de simplificarlo al punto en que los puristas me detesten. 
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png" class="md-local-image" alt="Composition vs inheritance diagrama" caption="Composition vs inheritance diagrama" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png" class="md-local-image" alt="Composition vs inheritance diagrama" caption="Composition vs inheritance diagrama"  width="1170" height="805" >}}
 
 Empezamos, imagina que tienes una gigantesca caja de ladrillos LEGO, sí, esos pequeños bloques de plástico que causan un dolor inimaginable cuando los pisas. Pero, en este caso, no los usaremos para causar dolor sino para construir diferentes tipos de automóviles.
 
@@ -33,11 +33,11 @@ Para construir nuestros diminutos automóviles de LEGO, existen dos maneras:
 
 {{<ad0>}}
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg" class="md-local-image" alt="Imagen de un automóvil hecho de LEGO" caption="Empiezas con un coche y vas cambiando piezas. Todos los derechos de esta imagen pertenecen a LEGO" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg" class="md-local-image" alt="Imagen de un automóvil hecho de LEGO" caption="Empiezas con un coche y vas cambiando piezas. Todos los derechos de esta imagen pertenecen a LEGO"  width="562" height="562" >}}
 
 2. Composición: En lugar de empezar con un automóvil básico y cambiarlo, puedes utilizar piezas LEGO más pequeñas para construir las diferentes partes de un automóvil, como ruedas, puertas y ventanas. Luego, junta esas piezas para crear distintos tipos de automóviles. De esta forma, tienes más control y flexibilidad para crear exactamente el tipo de coche que quieres sin hacer un desastre.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg" class="md-local-image" alt="Imagen de piezas de LEGO para ensamblar un automóvil" caption="Empieza con las piezas y empieza a montar tu coche. Todos los derechos de esta imagen pertenecen a LEGO" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_composition_zfpbfr.jpg" class="md-local-image" alt="Imagen de piezas de LEGO para ensamblar un automóvil" caption="Empieza con las piezas y empieza a montar tu coche. Todos los derechos de esta imagen pertenecen a LEGO"  width="562" height="562" >}}
 
 ## Composición vs herencia resumidos
 
@@ -45,7 +45,7 @@ Por lo tanto, **la composición sobre la herencia significa que a menudo es mejo
 
 ### Composition vs inheritance diagram
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png" class="md-local-image" alt="Composition vs inheritance diagram" caption="Composition vs inheritance diagram" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1747115834/coffee-bytes/composition-vs-inheritance_dbdzvv.png" class="md-local-image" alt="Composition vs inheritance diagram" caption="Composition vs inheritance diagram"  width="1170" height="805" >}}
 
 {{<ad1>}}
 

@@ -154,7 +154,7 @@ When performing a search it would not make sense to search for articles and prep
 
 Another aspect that would be great for our searches would be to return words that match the same lexeme or base. That is, if our user searches for "cat", we would probably also want to return data that match derivatives of that word: cat, cat, cats, cats, cats, cats, gatuno or any other word that starts with "gat".
 
-{{< figure src="images/tsvector-en-postgres.png" class="md-local-image" alt="Creating a tsvector in postgres" >}}
+{{< figure src="images/tsvector-en-postgres.png" class="md-local-image" alt="Creating a tsvector in postgres"  width="1200" height="630" >}}
 
 All of the above is quite common in Postgres and is already covered by Django's search functionality. Django incorporates full text searching.
 
@@ -178,7 +178,7 @@ Isn't it great? We passed a two-word phrase to our search, the words are not adj
 
 Look at the SQL query in the last code block and note the _to_tsvector_ and _plainto_tsquery_ functions.
 
-{{< figure src="images/FullTextSearchEsquema.png" class="md-local-image" alt="Full text search schema in Postgres" >}}
+{{< figure src="images/FullTextSearchEsquema.png" class="md-local-image" alt="Full text search schema in Postgres"  width="1200" height="630" >}}
 
 The _search_ function executes the _to_tsvector_ function, which takes the field of our model (in this case _name_) and removes the conjunctions, articles and leaves only the lexemes (the part of a word that does not change from a word with the gender and number of a word e.g.: gat would be the lexeme of cat, cat, cats, cats, etc.) and its position in the phrase passed as argument.
 
@@ -195,7 +195,7 @@ Also, notice how we specify the language. Postgres must receive the correct lang
 
 On the other hand, the _plainto_tsquery_ function transforms its argument to a _tsquery_, which is the Boolean representation of the words of a phrase.
 
-{{< figure src="images/tsquery-postgres.png" class="md-local-image" alt="Transformation of a text string into a tsquery in Postgres" >}}
+{{< figure src="images/tsquery-postgres.png" class="md-local-image" alt="Transformation of a text string into a tsquery in Postgres"  width="1200" height="630" >}}
 
 ```sql
 SELECT plainto_tsquery('english', 'dutchman revenge');

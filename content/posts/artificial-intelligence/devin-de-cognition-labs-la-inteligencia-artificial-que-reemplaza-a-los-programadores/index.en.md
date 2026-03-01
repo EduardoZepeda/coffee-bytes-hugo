@@ -34,7 +34,7 @@ Like what features? [According to its creators, Devin AI can](https://www.cognit
 - Contribute to mature repositories
 - Solve real projects on Upwork (much more than [solve interview code problems]({{< ref path="/posts/artificial-intelligence/pruebo-chatgpt-3-con-desafios-de-codigo-de-codewars/index.md" lang="en" >}}))
 
-{{< figure src="images/so-its-time-to-panic-simpsons.webp" class="md-local-image" alt="Simpsons meme asking if it's time to Panic" >}}
+{{< figure src="images/so-its-time-to-panic-simpsons.webp" class="md-local-image" alt="Simpsons meme asking if it's time to Panic"  width="700" height="556" >}}
 
 ## Who is behind Devin AI?
 
@@ -46,13 +46,13 @@ Behind Devin AI is Cognition labs, a relatively new company that had been kept b
 
 There are about 10 members, between them totaling more than **10 gold medals at the International Computer Olympiad** and whose members seem to have been involved in AI-related projects at companies like Google, DeepMind and Scale AI. So one can speak of a group with some level of experience.
 
-{{< figure src="images/meme-creador-de-devin-linuxero.jpg" class="md-local-image" alt="Fictitious and caricatured representation of Devin AI's creators" caption="Fictitious and caricatured representation of Devin AI's creators" >}}
+{{< figure src="images/meme-creador-de-devin-linuxero.jpg" class="md-local-image" alt="Fictitious and caricatured representation of Devin AI's creators" caption="Fictitious and caricatured representation of Devin AI's creators"  width="700" height="394" >}}
 
 ### Who is funding the project?
 
 So far Cognitive Labs claims to have raised about **21 MDD in a round led by Founders Fund**, most notably investor Peter Thiel, former head of Paypal.
 
-{{< figure src="images/peter-thiel-relationships.jpeg" class="md-local-image" alt="Peter Thiel's relationship diagram" caption="Source: https://knowyourmeme.com/photos/2402121-peter-thiel" >}}
+{{< figure src="images/peter-thiel-relationships.jpeg" class="md-local-image" alt="Peter Thiel's relationship diagram" caption="Source: https://knowyourmeme.com/photos/2402121-peter-thiel"  width="700" height="562" >}}
 
 {{<ad1>}}
 
@@ -71,11 +71,11 @@ Who do you think would win in a battle to produce more books, 1000 ancient Egypt
 
 I am of the opinion that the second option, simply the capabilities of the printer to produce pages faster, with fewer errors and in a fraction of the time, are beyond the capabilities of the scribes. While it is true that a person is required to set up and use the printer, that does not imply that scribes stand a chance. Similarly, while programmers will still be required and more jobs will be "created" as is usually claimed, the real question is: **how many jobs will be lost for every new job that is created?**.
 
-{{< figure src="images/Devin-AI-vs-you.jpg" class="md-local-image" alt="Image of a boot crushing a human face" >}}
+{{< figure src="images/Devin-AI-vs-you.jpg" class="md-local-image" alt="Image of a boot crushing a human face"  width="700" height="394" >}}
 
 Let's continue with this thought experiment, let's assume, for a moment, that Devin AI does exactly what he says. Since Devin AI is a tool, it still requires input from a human being to function, so the "output", i.e. its performance, will depend on how good its "input", i.e. the person giving it the instructions, is.
 
-{{< figure src="images/prompt-engineer.png" class="md-local-image" alt="Winnie the Pohh meme" >}}
+{{< figure src="images/prompt-engineer.png" class="md-local-image" alt="Winnie the Pohh meme"  width="700" height="509" >}}
 
 This means that **the profession of prompt engineer will become a reality**, and with the consequence that those people with superior abstraction, writing and lexical abilities will become practically gods of this new utopia (or dystopia, depending on how you see it).
 
@@ -112,13 +112,13 @@ Let me describe a situation:
 
 Does it sound like anything like that? Maybe they are just a group of people looking to become millionaires and we're in the middle of an [AI overhype and possible in a bubble about to burst]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
 
-{{< figure src="images/its-all-about-shareholders.jpg" class="md-local-image" alt="Meme of omniman talking to his son about shareholders\"" >}}
+{{< figure src="images/its-all-about-shareholders.jpg" class="md-local-image" alt="Meme of omniman talking to his son about shareholders\""  width="700" height="653" >}}
 
 Consider that, in the world of money, appearances play a major role. Right now, only a few people who have had access to Devin AI are raving about the tool. Sounds too good, doesn't it? This could all be a marketing campaign to inflate expectations, attract investors and make "easy" money.
 
 But didn't Peter Thiel just invest money? Yes, but that doesn't mean anything. If you are an investor, you don't care if the project exists for a month, two months, a decade or two, the only important thing is that it is profitable enough for you according to your own investment criteria. In other words: What does it matter if the project dies if I can turn 21 MDD into 40 MDD in less than a year?
 
-{{< figure src="images/meme-rapper-devin-access.jpg" class="md-local-image" alt="Meme of the rapper rejecting the first option applied to Cognition labs" >}}
+{{< figure src="images/meme-rapper-devin-access.jpg" class="md-local-image" alt="Meme of the rapper rejecting the first option applied to Cognition labs"  width="700" height="604" >}}
 
 It strikes me that the way to request access to Devin AI is through a google form instead of using an App developed with the same model, which would be the perfect cover letter for this technology. After all, it's not like it's outside the capabilities of their model, it's not an application with 1000 microservices, load balancing, streaming and a recommendation engine, it's a plain simple and common registration form.
 

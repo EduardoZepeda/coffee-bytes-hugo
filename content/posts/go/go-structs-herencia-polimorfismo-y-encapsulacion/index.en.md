@@ -81,7 +81,7 @@ What if we want a struct with many fields of the same type? Well, obviously **th
 
 To mark a struct, function or variable as private or public, as well as their respective fields for the struct, **it is sufficient to declare the first letter of the field with upper or lower case**, for public and private, respectively.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png" class="md-local-image" alt="Go's privacy rules diagram" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744692459/coffee-bytes/golang-encapsulation_brfvjo.png" class="md-local-image" alt="Go's privacy rules diagram"  width="1948" height="447" >}}
 
 Personally, I think this sucks, it is one of the most convuluted aspects of this language, why? because when you need to look for a private field, you would probably need to use regex, instead of just searching by the word *private*, yes, I know it sucks, but let's bear with it for now.
 
@@ -120,7 +120,7 @@ Feel free to think of them as methods in a class.
 
 To access struct instances in functions we need to place a pair of parenthesis between the keyword _func_ and the function name. These parentheses contain the name we will use to access the struct instance, followed by the destructuring character and finally the struct name.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png" class="md-local-image" alt="Composition in go diagram" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744691812/coffee-bytes/struct-inheritance-golang_geyh9o.png" class="md-local-image" alt="Composition in go diagram"  width="1830" height="560" >}}
 
 ```go
 func (myStructVariable *Videogame) PrintYear(){
@@ -227,7 +227,7 @@ You can think of an interface as a kind of “blueprint” that tells an object 
 
 For example: Think of an abstraction that represents puzzle pieces. We need a puzzle piece that has two appendages, which maintain a 45° angle between them. We are not interested in the rest of the sides of the puzzle piece, only that it contains these two characteristics. As long as it has these two characteristics, it will fulfill the interface. The shape of the rest of the piece is irrelevant to us.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1764437886/interface-requirements_wtubxg.jpg" class="md-local-image" alt="Interface concept explanation diagram" caption="As long as the animal can breath it satisfy the interface" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1764437886/interface-requirements_wtubxg.jpg" class="md-local-image" alt="Interface concept explanation diagram" caption="As long as the animal can breath it satisfy the interface"  width="960" height="960" >}}
 
 Based on the above, in Go interfaces are a method to differentiate the behavior of different objects. An interface will be in charge of calling the method that we specify corresponding to its struct type.
 

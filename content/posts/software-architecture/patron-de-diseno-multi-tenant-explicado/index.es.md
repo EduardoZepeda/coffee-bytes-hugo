@@ -33,7 +33,7 @@ Al igual que el propietario del edificio mantiene un conjunto de sistemas mientr
 
 Esto difiere de una aplicación multiusuario simple (básicamente cualquier app simple), que se asemeja más a la oficina de una sola empresa donde todos los empleados comparten el mismo espacio de trabajo, datos y configuración (un godinato promedio si estás en México): todos ven la misma información y operan bajo las mismas reglas organizativas y ~~se ponen la misma camiseta~~. En cambio, en los sistemas multiusuario, cada inquilino opera como si tuviera su propia aplicación, con su propia base de usuarios, datos y, a menudo, funciones personalizadas.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1738123971/meme-millenial-cloud-provider_vzisiz.jpg" class="md-local-image" alt="Oh god no more AI API calls"  width="460" height="466" >}}
 
 Llevando el ejemplo en algo más práctico, imaginate que quieres implementar un servicio de administración de tiendas de supermercado pequeñas. Cada tienda separada representaría un tenant, y cada tenant va a operarse de manera diferente al resto, tendrá su propia configuración, sus propios clientes, proveedores y cualquier otra configuración personalizada, además la información de cada tienda de supermercado será privada.
 

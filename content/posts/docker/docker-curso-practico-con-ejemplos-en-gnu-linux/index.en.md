@@ -89,7 +89,7 @@ image you can imagine, even upload your own. Take a look around and see all the 
 
 {{<ad2>}}
 
-{{< figure src="images/Docker-hub.png" class="md-local-image" alt="Screenshot from Dockerhub, the official repository for Docker images" >}}
+{{< figure src="images/Docker-hub.png" class="md-local-image" alt="Screenshot from Dockerhub, the official repository for Docker images"  width="1350" height="618" >}}
 
 ## See images
 
@@ -325,7 +325,7 @@ docker restart <container_name_or_id>
 
 So far we have created containers with which we cannot interact from the outside. If we try to open localhost we will see that our Nginx container does not return anything.
 
-{{< figure src="images/ErrorFirefox.png" class="md-local-image" alt="Firefox connection error page" caption="Firefox error when trying to access Nginx container" >}}
+{{< figure src="images/ErrorFirefox.png" class="md-local-image" alt="Firefox connection error page" caption="Firefox error when trying to access Nginx container"  width="856" height="470" >}}
 
 This is because each container has its own network and its own ports. If we want to redirect the ports of the container to the ports of our computer we use the option _-p_, **placing first the port number of our computer** separated with a colon of the one that corresponds to the container.
 
@@ -337,7 +337,7 @@ The above command created an instance of the Nginx web server, so we will redire
 
 When you finish executing this command you can open your browser and check that you are running an Nginx server.
 
-{{< figure src="images/nginx-corriendo-sobre-docker.png" class="md-local-image" alt="Welcome message from a server" >}}
+{{< figure src="images/nginx-corriendo-sobre-docker.png" class="md-local-image" alt="Welcome message from a server"  width="620" height="274" >}}
 
 ## Data persistence with volumes in Docker
 

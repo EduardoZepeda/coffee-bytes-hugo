@@ -64,7 +64,7 @@ Esta aproximación al problema de las jerarquias en Django luce bien a primera v
 
 {{<ad2>}}
 
-{{< figure src="images/CategoriaDjango-1.jpg" class="md-local-image" alt="Esquema de modelo Subcategoría con ForeignKey hacía Categoría en Django" >}}
+{{< figure src="images/CategoriaDjango-1.jpg" class="md-local-image" alt="Esquema de modelo Subcategoría con ForeignKey hacía Categoría en Django"  width="1000" height="400" >}}
 
 ### El problema de usar un modelo por categoría
 
@@ -74,7 +74,7 @@ Imagínate una categoría de películas de terror, con una subcategoría de fant
 
 Pues, añadimos una clase _SubSubCategoría_ ¿no? Pero... y si esas SubSubCategorías tienen a su vez subcategorías. ¿Ves a donde intento llegar?
 
-{{< figure src="images/ProblemaCategoriasDjango.jpg" class="md-local-image" alt="Esquema del problema de las subcategorías infinitas" >}}
+{{< figure src="images/ProblemaCategoriasDjango.jpg" class="md-local-image" alt="Esquema del problema de las subcategorías infinitas"  width="1000" height="850" >}}
 
 {{<ad3>}}
 
@@ -102,7 +102,7 @@ class Category(models.Model):
 
 De esta manera tendremos una estructura similar a un grafo, donde cada nodo apunta hacía a otro.
 
-{{< figure src="images/ForeignKeyASelfEsquemaDjango.jpg" class="md-local-image" alt="Esquema del funcionamiento de ForeignKey hacía self(el mismo modelo) en Django." >}}
+{{< figure src="images/ForeignKeyASelfEsquemaDjango.jpg" class="md-local-image" alt="Esquema del funcionamiento de ForeignKey hacía self(el mismo modelo) en Django."  width="1000" height="850" >}}
 
 Este nuevo acomodo nos permite crear tantas subcategorías como querramos, sin la necesidad de crear nuevos modelos. Para ello, simplemente asignamos la propiedad _parent_ a la instancia de clase _Category_ a la que querramos que pertenezca.
 

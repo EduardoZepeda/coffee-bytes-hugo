@@ -24,7 +24,7 @@ If you want to learn React but don't know Javascript read my post, where I talk 
 
 Ant design is beautiful, yes, there is not much to go into using text. It has lots of components that are visually pleasing and very elegant: buttons, sliders, progress bars, layouts, you know, the basics. Be sure to visit the [Ant design website](https://ant.design/#?) to see for yourself all that this library has to offer.
 
-{{< figure src="images/Ant-design.gif" class="md-local-image" alt="Screenshot of ant design" >}}
+{{< figure src="images/Ant-design.gif" class="md-local-image" alt="Screenshot of ant design"  width="715" height="604" >}}
 
 {{<ad1>}}
 
@@ -34,7 +34,7 @@ Formik is a great library. This library makes working with forms simple and scal
 
 Note the validation scheme on the left side consists of an object called _ValidationSchema_ which has the name of the fields and functions that are concatenated to perform the validation. There are functions like _min()_, _max()_, _oneOf()_ and many others for **almost any type of validation you require.** I leave you [the link to the sandbox](https://codesandbox.io/s/zkrk5yldz?file=/index.js#?) [](https://codesandbox.io/s/zkrk5yldz?file=/index.js#?) from where I took this example.
 
-{{< figure src="images/Formik-1.gif" class="md-local-image" alt="Screenshot of Formik code" >}}
+{{< figure src="images/Formik-1.gif" class="md-local-image" alt="Screenshot of Formik code"  width="1527" height="648" >}}
 
 ## React query
 
@@ -44,7 +44,7 @@ Every time a request is made to an API there is code that repeats; make the requ
 
 React query takes care of reducing all the repetitive code that handles the whole process of handling web requests by providing us with a special hook from which we can unstructure variables that will facilitate the handling of the response.
 
-{{< figure src="images/reactQuery.png" class="md-local-image" alt="React query library" >}}
+{{< figure src="images/reactQuery.png" class="md-local-image" alt="React query library"  width="1417" height="869" >}}
 
 ## React-icons-kit
 
@@ -52,7 +52,7 @@ Sometimes it is quite annoying to take care of the graphic part of a web page. T
 
 Before using it remember to check the license of the icons you decide to use, because not all licenses are equally permissive.
 
-{{< figure src="images/React-icons-kit.gif" class="md-local-image" alt="Screenshot of the React icons kit page" >}}
+{{< figure src="images/React-icons-kit.gif" class="md-local-image" alt="Screenshot of the React icons kit page"  width="735" height="420" >}}
 
 {{<ad3>}}
 
@@ -62,13 +62,13 @@ Preact is React, yes, same functions, well, not really all, but the most common 
 
 You can read more about the differences between React and Preact at [their official web site](https://preactjs.com/guide/v10/differences-to-react/#?)
 
-{{< figure src="images/Preact.jpg" class="md-local-image" alt="Screenshot of Preact page" >}}
+{{< figure src="images/Preact.jpg" class="md-local-image" alt="Screenshot of Preact page"  width="1016" height="863" >}}
 
 ## React admin
 
 React admin is the equivalent of django admin but in React, an interface to perform CRUD operations to your database models. It requires a basic configuration, but once you set it up you're all set. Visit the [React admin demo](https://marmelab.com/react-admin-demo/#/#?) to get to know it.
 
-{{< figure src="images/ReactAdminInterfaz.png" class="md-local-image" alt="React admin interface" >}}
+{{< figure src="images/ReactAdminInterfaz.png" class="md-local-image" alt="React admin interface"  width="1911" height="937" >}}
 
 ## Bonus: React Virtualized
 
@@ -76,4 +76,4 @@ React virtualized takes care of a problem that looks quite simple at first. Rend
 
 Visit [the React Virtualized page](https://bvaughn.github.io/react-virtualized/#/components/List) to read the complete documentation.
 
-{{< figure src="images/ReactVirtualized.gif" class="md-local-image" alt="React Virtualized working to render tables" >}}
+{{< figure src="images/ReactVirtualized.gif" class="md-local-image" alt="React Virtualized working to render tables"  width="640" height="480" >}}

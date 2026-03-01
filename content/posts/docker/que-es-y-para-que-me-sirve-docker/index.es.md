@@ -81,7 +81,7 @@ Si quieres conocer como funciona, a nivel código, un contenedor, te adelanto qu
 
 Lo importante a recordar de las máquinas virtuales es que, en comparación con los contenedores, **ocupan mucho espacio y, como deben cargar un sistema operativo completo, pueden demorar mucho más tiempo en arrancar** y, a diferencia de los contenedores, **virtualizan el funcionamiento de la parte del hardware.**
 
-{{< figure src="images/Diferencias-entre-maquina-virtual-y-docker.png" class="md-local-image" alt="Diferencias entre una máquina virtual y docker" caption="Diferencias entre máquinas virtuales y contenedores" >}}
+{{< figure src="images/Diferencias-entre-maquina-virtual-y-docker.png" class="md-local-image" alt="Diferencias entre una máquina virtual y docker" caption="Diferencias entre máquinas virtuales y contenedores"  width="748" height="500" >}}
 
 En la primera imagen podemos apreciar que, en el caso de los contenedores, las aplicaciones interaccionan directamente con Docker, y este, a su vez, con el sistema operativo.
 

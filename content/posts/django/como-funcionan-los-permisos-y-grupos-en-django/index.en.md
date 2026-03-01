@@ -179,7 +179,7 @@ As you know, using groups is a very convenient way to assign a set of permission
 
 ### Create permission groups
 
-{{< figure src="images/django-group-permissions.gif" class="md-local-image" alt="Different permission groups in django in the admin panel" >}}
+{{< figure src="images/django-group-permissions.gif" class="md-local-image" alt="Different permission groups in django in the admin panel"  width="632" height="699" >}}
 
 We can also create them directly from the Python terminal
 

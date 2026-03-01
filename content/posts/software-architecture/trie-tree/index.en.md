@@ -19,7 +19,7 @@ authors:
 
 The other day I was reading the second part of [System Design Interview](https://amzn.to/4nsgK0V#?), or was it the first? and I recall that the author was using a trie tree to design a autosuggestion search, like the one on Google. I never heard of that data structure before so I decided to build a visual simulator so you can understand it faster and better.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757735868/coffee-bytes/google-suggestion-trie-tree_n7a45w.png" class="md-local-image" alt="Google search suggestion using a trie tree" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757735868/coffee-bytes/google-suggestion-trie-tree_n7a45w.png" class="md-local-image" alt="Google search suggestion using a trie tree"  width="911" height="427" >}}
 
 
 Aside from suggestions you can also find trie trees in DNA sequence matching in bioinformatics, command routing in CLIs, compiles, and pattern matching in security just to name a few. 

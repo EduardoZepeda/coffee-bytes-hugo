@@ -21,7 +21,7 @@ title: Mi Guia De SEO Técnico Básico Solo Para Desarrolladores Web
 
 Anteriormente te platiqué como [cometí muchos errores en SEO]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}) al migrar mi sitio web de Wordpress a Hugo, pues después de eso me puse a ver muchos videos sobre SEO, sobre todo de Romuald Fons, también me leí [The art of SEO](https://amzn.to/4ilv4pc#?) y he tratado de resumir todo lo que aprendí en una pequeña entrada. He decidido centrarme en el SEO técnico porque es el que entiendo, es menos subjetivo y, además, estoy más familiariazado. Por eso escribí esta entrada antes de que [burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) estalle, llevándose al SEO con ella.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744676557/coffee-bytes/romu-seo_d3i3l9.jpg" class="md-local-image" alt="Romuald Fons Video thumbnail" caption="Mi fuente totalmente confiable, Romuald Fons" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744676557/coffee-bytes/romu-seo_d3i3l9.jpg" class="md-local-image" alt="Romuald Fons Video thumbnail" caption="Mi fuente totalmente confiable, Romuald Fons"  width="480" height="360" >}}
 
 He examinado muchos sitios web y he notado que muchos desarrolladores web profesionales omiten completamente el SEO de sus desarrollos, es completamente cierto que es un tema bastante extenso que quizás se aleja de lo que ellos están acostumbrados, en mi opinión, hacer un SEO promedio es mejor que omitirlo completamente.
 
@@ -35,7 +35,7 @@ Nadie sabe exactamente como funciona el algoritmo de los motores de búsqueda, p
 
 Inclusive si logras entender vagamente como funciona el algoritmo lo suficiente para manipularlo, tendrás que enfrentarte a que el algoritmo es un ente cambiante y puede que lo que servía perfectamente ayer, ya no sirva hoy.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744675606/coffee-bytes/google-algorithm-update-meme_yd9cb0.jpg" class="md-local-image" alt="Meme de los cambios en el algoritmo de google" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744675606/coffee-bytes/google-algorithm-update-meme_yd9cb0.jpg" class="md-local-image" alt="Meme de los cambios en el algoritmo de google"  width="1280" height="720" >}}
 
 A pesar de los cambios en el mundo SEO, el enfoque del SEO actual sigue fuertemente ligado a las keywords, pequeñas frases cortas que incluyes en tu sitio web para indicarle a los motores de búsqueda de que trata el contenido de tu sitio web y te muestre a los usuarios correctos. 
 
@@ -51,13 +51,13 @@ Este tema es muy amplio, pero espero resumirlo de manera que tengas una idea gen
 
 Probablemente este es el aspecto técnico de SEO más importante. Un sitemap le dirá a los motores de búsqueda las páginas que tiene tu aplicación.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744677728/coffee-bytes/robots-sitemap-relationship_fnzjlr.png" class="md-local-image" alt="Diagrama de un sitemap mostrando las urls disponibles" caption="Diagrama de un sitemap mostrando las urls disponibles" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744677728/coffee-bytes/robots-sitemap-relationship_fnzjlr.png" class="md-local-image" alt="Diagrama de un sitemap mostrando las urls disponibles" caption="Diagrama de un sitemap mostrando las urls disponibles"  width="736" height="316" >}}
 
 En muchos casos, un sitemap puede generarse de manera dinámica, algunos frameworks incluso cuentan con herramientas que te permiten hacerlo en pocas lineas, como Django.
 
 Una vez creado, debes indicarle a los motores de búsqueda en donde se localiza la url de tu sitemap directo desde su panel de administración. Si no lo indicas explícitamente buscaran en las urls más comunes, o en el archivo *robots.txt*.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673455/coffee-bytes/screenshot-sitemap-google_zx6kdr.png" class="md-local-image" alt="Screenshot of Google's search console sitemap section" caption="Screenshot of Google's search console sitemap section" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673455/coffee-bytes/screenshot-sitemap-google_zx6kdr.png" class="md-local-image" alt="Screenshot of Google's search console sitemap section" caption="Screenshot of Google's search console sitemap section"  width="1026" height="465" >}}
 
 ### Robots.txt
 
@@ -80,7 +80,7 @@ Sitemap: https://example.org/sitemap.xml
 
 Hay una confusión al respecto, y es bastante obvio pero lo mencionaré de todas formas: **los crawlers pueden ignorar por completo las indicaciones de tu archivo robots.txt**, por lo que no debes verlo como un mecanismo de protección para tu sitio web, si un crawler quiere, ignorará las instrucciones contenidas ahí.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744680644/coffee-bytes/robots-txt-meme_qzyqxq.jpg" class="md-local-image" alt="Robots.txt meme" caption="Robots.txt no te protegerá de los crawlers" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744680644/coffee-bytes/robots-txt-meme_qzyqxq.jpg" class="md-local-image" alt="Robots.txt meme" caption="Robots.txt no te protegerá de los crawlers"  width="750" height="737" >}}
 
 Si algún influencer en redes te dice lo contrario te está mintiendo descaradamente. Es más, lo reto a que detenga a un crawler solo usando un archivo *robots.txt*.
 
@@ -101,7 +101,7 @@ Como dato curioso, existe una iniciativa para popularizar la idea de agregar la 
 
 Frecuentemente presente como una etiqueta *script* de tipo *ld+json* (aunque hay otros formatos válidos), que puede encontrarse en cualquier punto de tu documento HTML, le índica a los motores de búsqueda los elementos que tiene tu sitio web y como se relacionan entre ellos.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744678359/coffee-bytes/schema-markup-diagram_1_laalzs.png" class="md-local-image" alt="Diagrama de Schema Markup" caption="Un schema mostrará información sobre el contenido y los elementos de una página web" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744678359/coffee-bytes/schema-markup-diagram_1_laalzs.png" class="md-local-image" alt="Diagrama de Schema Markup" caption="Un schema mostrará información sobre el contenido y los elementos de una página web"  width="1133" height="374" >}}
 
 Los diferentes tipos de Schema son complejísimos y es todo un tema a tratar, puesto que varían mucho de acuerdo al tipo de sitio web. 
 
@@ -119,7 +119,7 @@ Las metatags que van en la etiqueta *head* de tu HTML son metadatos sobre el con
 
 Dentro de los metatags son especialmente importantes los Open Graph, pues son el estándar para que las redes sociales puedan obtener información de tus páginas web, estos meta tags son los que logran que uno de tus enlaces se vea así cuando lo compartes en redes sociales.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673982/coffee-bytes/og-meta-tags-visualized_vt8xkh.png" class="md-local-image" alt="Las redes sociales usan las metatags para mostrar la información relevante de una página" caption="Las redes sociales usan las metatags para mostrar la información relevante de una página" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744673982/coffee-bytes/og-meta-tags-visualized_vt8xkh.png" class="md-local-image" alt="Las redes sociales usan las metatags para mostrar la información relevante de una página" caption="Las redes sociales usan las metatags para mostrar la información relevante de una página"  width="527" height="354" >}}
 
 Existen algunos [generadores de meta tags](https://www.seoptimer.com/meta-tag-generator) que puedes usar para generar una plantilla a llenar, o simplemente pídele a chatGPT una.
 
@@ -129,7 +129,7 @@ El sitio web debe brindar una buena experiencia al usuario y ser responsivo, imp
 
 Pero no me creas ciegamente, utiliza la siguiente herramienta para corroborar lo que digo usando los primeros resultados en Google.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744674198/coffee-bytes/Lighthouse-score-for-zeedu_xb0ekq.png" class="md-local-image" alt="Score de Lighthouse para mi página de portafolio" caption="Score de Lighthouse para mi página de portafolio" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744674198/coffee-bytes/Lighthouse-score-for-zeedu_xb0ekq.png" class="md-local-image" alt="Score de Lighthouse para mi página de portafolio" caption="Score de Lighthouse para mi página de portafolio"  width="989" height="766" >}}
 
 Herramientas como [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) son bastante útiles para medir el performance de un sitio web y también te indican como mejorarlo.
 
@@ -139,7 +139,7 @@ Asegúrate que el sitio web cuente con una estructura que permite a los motores 
 
 Por ejemplo algo similar a esto:
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744674678/coffee-bytes/diagram-website-structure_kfhxde.png" class="md-local-image" alt="Estructura semántica de un website" caption="Estructura semántica de un website" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1744674678/coffee-bytes/diagram-website-structure_kfhxde.png" class="md-local-image" alt="Estructura semántica de un website" caption="Estructura semántica de un website"  width="866" height="398" >}}
 
 #### ¿Importa la estructura de las URL en SEO?
 

@@ -31,7 +31,7 @@ So how does the computer know which number corresponds to which letter? Well, a 
 
 This topic is quite extensive and there is already enough information on the internet, so just keep in mind that behind each character there is a number that represents it and that this character depends on the table we use to represent it.
 
-{{< figure src="images/ASCII-Table-wide.jpg" class="md-local-image" alt="ASCII Table" >}}
+{{< figure src="images/ASCII-Table-wide.jpg" class="md-local-image" alt="ASCII Table"  width="875" height="582" >}}
 
 ASCII table with modified colors taken from [wikimedia](https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg).
 
@@ -69,7 +69,7 @@ fmt.Println(string(ch))
 // 'A'
 ```
 
-{{< figure src="images/ByteEnGo.jpg" class="md-local-image" alt="Diagram of a byte in go" caption="Representation of the letter 'A' in decimal notation. The square represents a byte or 8 bits." >}}
+{{< figure src="images/ByteEnGo.jpg" class="md-local-image" alt="Diagram of a byte in go" caption="Representation of the letter 'A' in decimal notation. The square represents a byte or 8 bits."  width="875" height="320" >}}
 
 ### Array of bytes
 
@@ -125,7 +125,7 @@ fmt.Printf("type:%T, value:%v\n", runa, runa)
 
 Notice how the type remains the same, but its value is now 20154, because being an int32 we have access to 2³¹-1 (remember that a bit is used for the positive or negative sign).
 
-{{< figure src="images/RuneEnGo-2.jpg" class="md-local-image" alt="Outline of a rune in memory" >}}
+{{< figure src="images/RuneEnGo-2.jpg" class="md-local-image" alt="Outline of a rune in memory"  width="875" height="320" >}}
 
 Representation of the character '人' in decimal notation. The square represents a 32 bits.
 
@@ -163,7 +163,7 @@ fmt.Println(len(s))
 // 23
 ```
 
-{{< figure src="images/runesEnGo.png" class="md-local-image" alt="Difference in size of characters in a string in go" caption="Difference in size of characters in a string in go" >}}
+{{< figure src="images/runesEnGo.png" class="md-local-image" alt="Difference in size of characters in a string in go" caption="Difference in size of characters in a string in go"  width="1000" height="400" >}}
 
 When iterating over our string, we will be iterating byte by byte, so we will print 23 bytes, each byte expressed in octadecimal notation.
 

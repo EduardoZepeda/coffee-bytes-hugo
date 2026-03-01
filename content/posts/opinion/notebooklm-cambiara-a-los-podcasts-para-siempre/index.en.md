@@ -30,7 +30,7 @@ You've probably already heard of this tool, and if you haven't, I'll explain bel
 
 Google Notebooklm is an AI tool that becomes an expert in your notes and helps you. But the latter is not what has left me speechless. It is its tool that transforms your notes into a conversation between two people. ~~Right now is only available in English language~~ More languages are available now. But let me show you the results right now.
 
-{{< figure src="images/podcast-meme-5-minutes.jpg" class="md-local-image" alt="People often prefer audio-visual content over text" caption="People often prefer audio-visual content over text" >}}
+{{< figure src="images/podcast-meme-5-minutes.jpg" class="md-local-image" alt="People often prefer audio-visual content over text" caption="People often prefer audio-visual content over text"  width="500" height="500" >}}
 
 I generated this podcast using my post about [the problem of using github to evaluate developers]({{< ref path="/posts/git/el-problema-de-usar-github-para-evaluar-a-desarrolladores/index.md" lang="en" >}}).
 
@@ -70,7 +70,7 @@ Or, if that doesn't suits you, you can take it further and create quite interest
 
 On the other hand, this may also change the podcast market forever, people love to connect with other humans, and not everyone will be comfortable knowing that they will spend 2 hours listening to a podcast that probably regurgitated an AI, maybe some folks will dedicate a couple of extra minutes to look for a human version instead.
 
-{{< figure src="images/AI-impact-on-society.webp" class="md-local-image" alt="Not all people consider that the rise of AI is a good thing" caption="Not all people consider that the rise of AI is a good thing" >}}
+{{< figure src="images/AI-impact-on-society.webp" class="md-local-image" alt="Not all people consider that the rise of AI is a good thing" caption="Not all people consider that the rise of AI is a good thing"  width="630" height="625" >}}
 
 So no, it's not going to disappear podcasters, especially the big ones, but it will raise the bar, now a monotone, mediocre and average podcast that's indistinguishable from an AI generated one will be treated as such.
 
@@ -82,7 +82,7 @@ It's no secret that videos have become the most popular option for consuming con
 
 I don't know if it's a trick of my imagination but I feel that people are reading less and less. The audiovisual format, although more superficial, allows us to connect emotionally in a better way with consumers, probably due to our social and collective nature that was naturally selected long before the appearance of writing.
 
-{{< figure src="images/what-it-feels-to-listen-to-a-podcast.jpeg" class="md-local-image" alt="What does it feel like to listen to a podcast" caption="What does it feel like to listen to a podcast?" >}}
+{{< figure src="images/what-it-feels-to-listen-to-a-podcast.jpeg" class="md-local-image" alt="What does it feel like to listen to a podcast" caption="What does it feel like to listen to a podcast?"  width="700" height="942" >}}
 
 Now that a podcast is so easy to generate from written text, who would rather dive into a sea of lyrics than yield to the tempting call of a human voice? 
 
@@ -90,4 +90,4 @@ Doesn't blogging now feel like the sketch or script of what an audiovisual conte
 
 I guess I'll have to record more videos.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1727849039/kgr8at3ytm29xohusw5x.avif" class="md-local-image" alt="In Wall-e audiovisual content dominates over text" caption="In Wall-e audiovisual content dominates over text" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1727849039/kgr8at3ytm29xohusw5x.avif" class="md-local-image" alt="In Wall-e audiovisual content dominates over text" caption="In Wall-e audiovisual content dominates over text"  width="1560" height="1040" >}}

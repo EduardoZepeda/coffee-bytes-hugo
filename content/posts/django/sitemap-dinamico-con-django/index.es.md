@@ -182,7 +182,7 @@ urlpatterns = [
 
 Si accedemos al sitemap, notarás que la url base de las urls es *example.org*, para definir otro necesitamos modificar la base desde el administrador. El formulario se encuentra en */admin/sites/site/*
 
-{{< figure src="images/Django-sitio-sitemap.png" class="md-local-image" alt="Agregar un dominio al sitemap de Django" caption="Modifica el dominio por defecto del sitemap en /admin/sites/site/" >}}
+{{< figure src="images/Django-sitio-sitemap.png" class="md-local-image" alt="Agregar un dominio al sitemap de Django" caption="Modifica el dominio por defecto del sitemap en /admin/sites/site/"  width="1291" height="528" >}}
 
 ## Caché del sitemap
 

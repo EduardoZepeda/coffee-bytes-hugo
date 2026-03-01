@@ -39,7 +39,7 @@ Si los hashmaps de go no te dan el rendimiento que necesitas, quizás puedas con
 
 En Go un map funciona bastante similar a como lo haría en cualquier otro lenguaje. En Go hay buckets, un tipo de sección que consisten en 8 pares de llave-valor. La función hash (hash function) recibe la llave y nos redirige al bucket adecuado, es decir, el espacio de 9 pares de llave-valor donde se encuentra la nuestra y, una vez ahí, se busca la llave correcta.
 
-{{< figure src="images/mapsGolang-1.png" class="md-local-image" alt="Funcionamiento interno de un map en el lenguaje de programación go." >}}
+{{< figure src="images/mapsGolang-1.png" class="md-local-image" alt="Funcionamiento interno de un map en el lenguaje de programación go."  width="800" height="800" >}}
 
 Funcionamiento interno de un map en go. La información está tomada de la [documentación oficial de un map.](https://go.dev/src/runtime/map.go)
 

@@ -22,7 +22,7 @@ title: Mi experiencia usando EasyWP y namecheap
 
 Hace unas semanas mi SO decidió empezar un blog sobre cafeterías en Wordpress. Tras una corta plática sobre las ventajas y desventajas de las plataformas de registro más populares y resistirse a mi insistentes recomendaciones de usar [DigitalOcean](https://m.do.co/c/a22240ebb8e7#?) o [AWS](https://aws.amazon.com/#?), se dirigió a registrar su dominio en namecheap. Pasados unos minutos de iniciado el proceso de registro en namecheap un banner capturó su atención: [EasyWP](https://www.easywp.com/#?). En las siguientes lineas te cuento mi experiencia usando namecheap con EasyWP
 
-{{< figure src="images/EasyWP.png" class="md-local-image" alt="Imagen publicitaria de easywp" >}}
+{{< figure src="images/EasyWP.png" class="md-local-image" alt="Imagen publicitaria de easywp"  width="1903" height="434" >}}
 
 EasyWP prometía un despliegue de WordPress sencillo y sin problemas:
 
@@ -32,7 +32,7 @@ EasyWP prometía un despliegue de WordPress sencillo y sin problemas:
 
 {{<ad0>}}
 
-{{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="El menu del servicio en namecheap" >}}
+{{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="El menu del servicio en namecheap"  width="1880" height="913" >}}
 
 Menú de servicio en easyWP
 
@@ -54,7 +54,7 @@ El siguiente problema ocurrió cuando mi SO decidió personalizar la apariencia 
 
 Para empeorar aún más la situación, unos días después del reclamo, el día 23 de abril, los servidores que usaban wordpress y easywp estaban teniendo problemas. No se podía acceder al sitio. El problema se solucionó en menos de 24 horas, pero dejó numerosos errores en la instalación nuevamente, esta vez en el los archivos css de la instalación.
 
-{{< figure src="images/errorEasywpNamecheap.png" class="md-local-image" alt="Problema de carga de archivos css en easywp" >}}
+{{< figure src="images/errorEasywpNamecheap.png" class="md-local-image" alt="Problema de carga de archivos css en easywp"  width="1366" height="768" >}}
 
 {{<ad2>}}
 

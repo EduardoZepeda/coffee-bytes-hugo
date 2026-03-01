@@ -23,7 +23,7 @@ The facebook chat plugin allows you to add a page button that connects to the ch
 
 Loading the facebook plugin triggers a long list of web requests that download about many MB of information and consumes valuable time that can impact your page load, watch.
 
-{{< figure src="images/CargaArchivosDelFacebookChatPlugin.gif" class="md-local-image" alt="Downloads triggered by the facebook chat plugin" >}}
+{{< figure src="images/CargaArchivosDelFacebookChatPlugin.gif" class="md-local-image" alt="Downloads triggered by the facebook chat plugin"  width="851" height="933" >}}
 
 95 requests and about 3 mb downloaded, 4 seconds.
 
@@ -124,7 +124,7 @@ FB.Event.subscribe('xfbml.render', function(){
 
 With the previous steps we are delaying the loading of the content until the user interacts with it. In this way the loading of the plugin is delayed until the user wants to use it, avoiding the impact on the initial load.
 
-{{< figure src="images/CargaRetardadaDelFacebookChatPlugin.gif" class="md-local-image" alt="Delayed loading of facebook plugin" >}}
+{{< figure src="images/CargaRetardadaDelFacebookChatPlugin.gif" class="md-local-image" alt="Delayed loading of facebook plugin"  width="407" height="365" >}}
 
 The plug-in script is not activated until we interact with the icon
 

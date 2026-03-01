@@ -212,4 +212,4 @@ Si abrimos nuestro navegador y entramos a nuestro localhost en el puerto 8000 ve
 
 El siguiente paso que podrías tomar es vincular muchas imágenes de Docker para tener una aplicación de tamaño pequeña o mediana con múltiples componentes, para eso [Docker-compose es la herramienta perfecta]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}). Mientras que para aplicaciones mucho más complejas existe Kubernetes, aunque probablemente sea un overkill para la mayoría de ideas de negocio.
 
-{{< figure src="images/djangoRocketNoCursor.gif" class="md-local-image" alt="Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación." >}}
+{{< figure src="images/djangoRocketNoCursor.gif" class="md-local-image" alt="Página de instalación exitosa de Django, muestra un mensaje bienvenida y enlaces a la documentación."  width="735" height="602" >}}

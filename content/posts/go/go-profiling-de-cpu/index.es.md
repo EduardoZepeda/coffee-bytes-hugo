@@ -141,7 +141,7 @@ Tras ejecutar el comando se generará una lista donde podemos ver cada función 
 
 De seguro ya observaste que la mayor parte del tiempo la consume la parte recursiva de Fibonacci.
 
-{{< figure src="images/GoListProfile.png" class="md-local-image" alt="Resultados del comando list de profiling en go que muestra el impacto de cada linea de código." >}}
+{{< figure src="images/GoListProfile.png" class="md-local-image" alt="Resultados del comando list de profiling en go que muestra el impacto de cada linea de código."  width="1204" height="241" >}}
 
 ### Exportación de resultados
 
@@ -149,7 +149,7 @@ Además de resultados en consola, también podemos visualizar los resultados, de
 
 Cada caja representa una función individual y las lineas indican el orden en el que unas funciones llaman a las otras.
 
-{{< figure src="images/GoWebProfile.png" class="md-local-image" alt="Resultado del comando web de profiling en go. La función fibonacci se muestra en grande y en rojo." >}}
+{{< figure src="images/GoWebProfile.png" class="md-local-image" alt="Resultado del comando web de profiling en go. La función fibonacci se muestra en grande y en rojo."  width="1002" height="806" >}}
 
 Como parámetro opcional podemos pasarle el nombre de una función y go filtrará los resultados.
 
@@ -157,7 +157,7 @@ Como parámetro opcional podemos pasarle el nombre de una función y go filtrar�
 (pprof) web <funcion>
 ```
 
-{{< figure src="images/GoWebProfileFunction.png" class="md-local-image" alt="El comando web permite aislar los resultados por función" >}}
+{{< figure src="images/GoWebProfileFunction.png" class="md-local-image" alt="El comando web permite aislar los resultados por función"  width="915" height="519" >}}
 
 El esquema generado por el comando _web_ puede exportarse a un pdf con el comando _pdf_.
 

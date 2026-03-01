@@ -25,7 +25,7 @@ With all the rapid changes happening in web development: frameworks, languages, 
 
 Shiny Object Syndrome (SOS from now on) is the tendency to be distracted by a new idea or trend. In web development this idea or trend could be anything: a new framework, a new language, a new editor, etc. Let me explain it with an example.
 
-{{< figure src="images/shiny-object-syndrome.webp" class="md-local-image" alt="Shiny object syndrome in Javascript" caption="Oops, a new Javascript framework, I have to try it out" >}}
+{{< figure src="images/shiny-object-syndrome.webp" class="md-local-image" alt="Shiny object syndrome in Javascript" caption="Oops, a new Javascript framework, I have to try it out"  width="750" height="500" >}}
 
 Imagine that you want to create a new application, but you heard that a [brand new Javascript framework with an outstanding performance](/en/opinion/dont-obsess-about-your-web-application-performance/) came out that promises to make things easier, so you decide to learn this new ~~blazingly fast~~ framework to implement your new idea, later you discover that another even better framework came out, so, even though you were already half way through the project, you decide to refactor your application using this new framework and you delay again the development of your app. 
 
@@ -39,7 +39,7 @@ Has this happened to you or just to me?
 
 FOMO is a generalized self-absorption that others might experience pleasant experiences from which we would be absent. In web development this pleasant experience could also be the popularization of a new programming language, or a new type of API that seems to make things easier, or a new Javascript framework (a new one comes out every week).
 
-{{< figure src="images/rewrite-everything-in-rust-meme.webp" class="md-local-image" alt="Rust is the most loved language" caption="Everyone is learning Rust, I should learn it too." >}}
+{{< figure src="images/rewrite-everything-in-rust-meme.webp" class="md-local-image" alt="Rust is the most loved language" caption="Everyone is learning Rust, I should learn it too."  width="500" height="700" >}}
 
 For example, imagine a nerd creates a new programming language, which promises to be faster, more secure and is quickly adopted by the community. Feelings of anxiety start to invade you, “what if everyone starts using that new language?”, “what if I'm wasting my time using the languages I've already mastered and everyone realized that the new language is the future?”
 

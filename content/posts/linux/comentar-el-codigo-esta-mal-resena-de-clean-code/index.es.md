@@ -31,7 +31,7 @@ Hay dos tipos de programadores, los que odian Clean Code y los que lo aman. Este
 
 La mayoría de los libros sobre programación que hay disponibles en el mercado se centran en enseñarte la sintaxis de un lenguaje de programación y algunas convenciones populares. Sin embargo la mayoría no profundizan demasiado en como organizar el código, cual es la longitud adecuada de una función, como nombrar las variables, que partes del código deberían tener comentarios y cuales no, en determinar la cantidad correcta de argumentos que debe recibir una función, o el momento en el que se debe dividir un archivo en dos, etc. Clean Code pretende responder a todos esos cuestionamientos o por lo menos ser una guia al respecto.
 
-{{< figure src="images/clean-code-meme.webp" class="md-local-image" alt="Clean code meme" >}}
+{{< figure src="images/clean-code-meme.webp" class="md-local-image" alt="Clean code meme"  width="1600" height="900" >}}
 
 ### ¿Cuál es la importancia de usar código limpio o clean code?
 
@@ -39,7 +39,7 @@ A través de las páginas de Clean Code, *uncle bob* nos adentra en la temática
 
 El buen *uncle Bob*, afirma que los programadores pasan más tiempo leyendo código que escribiendo. Esto debería darle una visión completamente nueva a la manera en la que escribimos nuestro código, pues tenemos la certeza de que alguien más lo leerá (incluso nosotros mismos en el futuro), al escribir el código debemos preguntarnos a nosotros mismos: ¿el objetivo que persiguen mis funciones es claro? ¿se entiende porque elegí cierto flujo de código en lugar de otro? ¿es claro el significado de cada variable?
 
-{{< figure src="images/cleaner-code-to-avoid-interacting-with-people.webp" class="md-local-image" alt="Writing clean code so you don't have to interact with people" >}}
+{{< figure src="images/cleaner-code-to-avoid-interacting-with-people.webp" class="md-local-image" alt="Writing clean code so you don't have to interact with people"  width="500" height="714" >}}
 
 ### ¿Cómo nombrar variables, clases y funciones según Clean Code?
 
@@ -175,7 +175,7 @@ Sentí el libro innecesariamente largo, los ejemplos están bien detallados, per
 
 Si no has tenido ninguna aproximación con buenas prácticas de escritura de código te recomiendo darle una leída a este libro, pues puedes adquirir algunos consejos útiles que quizás no habrías considerado, incluso aunque no estés de acuerdo con todo su contenido, el punto es que no te detengas ahí y lo complementes con más material.
 
-{{< figure src="images/clean-and-maintanable-code-unquestionable-dogmas.webp" class="md-local-image" alt="Clean and unquestionable dogmas should be avoided at all cost" >}}
+{{< figure src="images/clean-and-maintanable-code-unquestionable-dogmas.webp" class="md-local-image" alt="Clean and unquestionable dogmas should be avoided at all cost"  width="600" height="810" >}}
 
 Pero, mientras lo lees, considera que **este libro no es un manual que deba ser tomado como un reglamento inquebrantable**, sino la opinión de una persona, pero los tiempos cambian, las reglas se mejoran y la experiencia marca nuevas pautas de lo que es código mantenible. Toma todos los consejos que mejoren tu código y cuestiona todo lo que te parezca mejorable. Todas las religiones tienen sus detractores y Clean Code no es la excepción.
 

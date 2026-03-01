@@ -80,13 +80,13 @@ def pdfVideogame(request):
     p.drawString(0, 0, "Hola mundo")
 ```
 
-{{< figure src="images/texto-fondo-pdf.png" class="md-local-image" alt="Texto generado con reportlab" caption="Texto creado con reportlab" >}}
+{{< figure src="images/texto-fondo-pdf.png" class="md-local-image" alt="Texto generado con reportlab" caption="Texto creado con reportlab"  width="1261" height="968" >}}
 
 Esto dibujará nuestro string... en el fondo de la pantalla. 
 
 ¿Por qué en el fondo? Puedes pensar que canvas trabaja con un plano cartesiano, le acabamos de decir a reportlab que dibuje el string en las coordenadas 0,0 del plano.
 
-{{< figure src="images/coordenadas-pdf.png" class="md-local-image" alt="Pdf pensado como un plano cartesiano" caption="Reportlab se comporta como un plano cartesiano" >}}
+{{< figure src="images/coordenadas-pdf.png" class="md-local-image" alt="Pdf pensado como un plano cartesiano" caption="Reportlab se comporta como un plano cartesiano"  width="618" height="568" >}}
 
 ### Posicionando el texto en un PDF de Django
 
@@ -98,7 +98,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-{{< figure src="images/texto-posicionado-pdf.png" class="md-local-image" alt="Texto posicionado en un pdf" caption="Texto posicionado de acuerdo a los ejes X y Y en reportlab" >}}
+{{< figure src="images/texto-posicionado-pdf.png" class="md-local-image" alt="Texto posicionado en un pdf" caption="Texto posicionado de acuerdo a los ejes X y Y en reportlab"  width="1468" height="951" >}}
 
 ### Cambiar color de letra en el PDF
 
@@ -113,7 +113,7 @@ def pdfVideogame(request):
     p.drawString(60, 750, "Hola mundo")
 ```
 
-{{< figure src="images/text-color-pdf.png" class="md-local-image" alt="Texto a color en pdf" caption="Texto en color azul claro" >}}
+{{< figure src="images/text-color-pdf.png" class="md-local-image" alt="Texto a color en pdf" caption="Texto en color azul claro"  width="1352" height="409" >}}
 
 Ya tenemos un texto simple, vamos a guardar el contenido que generamos y a retornarlo como respuesta. 
 
@@ -170,7 +170,7 @@ Simplemente usamos el ORM de django para crear cualquier consulta que querramos 
 
 Observa como disminuyo la posición de la coordenada Y, para que cada iteración escriba el texto en una nueva linea, de otra forma cada linea se sobrepondría con la siguiente.
 
-{{< figure src="images/pdf-dinamico-reportlab-django.png" class="md-local-image" alt="Pdf generado con información de la base de datos en Django" caption="Pdf generado de manera dinámica usando Django" >}}
+{{< figure src="images/pdf-dinamico-reportlab-django.png" class="md-local-image" alt="Pdf generado con información de la base de datos en Django" caption="Pdf generado de manera dinámica usando Django"  width="1454" height="845" >}}
 
 ## Mejorar el rendimiento al generar un PDF en Django
 

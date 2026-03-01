@@ -25,11 +25,11 @@ This is my analysis of some of the most popular captcha options out there and my
 
 I'm sure you already know this one, as it's the most common, and probably the most popular captcha out there. Google's and Cloudflare's stand out here.
 
-{{< figure src="images/recaptcha-open-ai-sam-altman.jpg" class="md-local-image" alt="Recaptcha elon musk" >}}
+{{< figure src="images/recaptcha-open-ai-sam-altman.jpg" class="md-local-image" alt="Recaptcha elon musk"  width="402" height="603" >}}
 
 The inner workings of this type of captcha are very complex and are based on recognizing patterns in a user's traffic and probably analyzing them against the large amount of information they have collected over the years to then decide if there is a significant probability that a user is a bot.
 
-{{< figure src="images/recaptcha-style-captcha.gif" class="md-local-image" alt="Recaptcha style captcha solved" >}}
+{{< figure src="images/recaptcha-style-captcha.gif" class="md-local-image" alt="Recaptcha style captcha solved"  width="576" height="170" >}}
 
 For a hypothetical user it is usually enough to click the checkbox and that's it, but if we don't convince the captcha algorithm, it will ask us to ~~train its AI models for free~~ a couple of more tests in which we will have to identify images.
 
@@ -47,7 +47,7 @@ There are more primitive captcha options, but no less effective such as a simple
 
 To solve it, just read it and enter the correct result.
 
-{{< figure src="images/simple-question-captcha.png" class="md-local-image" alt="Simple Question captcha example" >}}
+{{< figure src="images/simple-question-captcha.png" class="md-local-image" alt="Simple Question captcha example"  width="459" height="265" >}}
 
 {{<ad2>}}
 
@@ -67,7 +67,7 @@ Another popular alternative to simple questions is to use an image with numbers 
 
 {{<ad3>}}
 
-{{< figure src="images/letters-and-numbers-captcha.png" class="md-local-image" alt="letters and number captcha" >}}
+{{< figure src="images/letters-and-numbers-captcha.png" class="md-local-image" alt="letters and number captcha"  width="193" height="61" >}}
 
 This type of captcha tends to be quite invasive for users and can ruin the web experience. On top of that, I don't consider them particularly useful for dealing with bots, there are even tutorials on [how to solve these captchas almost automatically](https://medium.com/lemontech-engineering/breaking-captchas-from-scracth-almost-753895fade8a#?).
 
@@ -103,7 +103,7 @@ My veredict:
 
 I've seen these types of captchas on Tik Tok mainly, but you usually don't find them so easily on the web.
 
-{{< figure src="images/slider-captcha-example.gif" class="md-local-image" alt="Slider captcha" >}}
+{{< figure src="images/slider-captcha-example.gif" class="md-local-image" alt="Slider captcha"  width="616" height="300" >}}
 
 I consider slider captchas to be one of the most balanced options out there, they are quick to solve and quite secure, although I doubt they are totally secure against all bots, mainly those that try to simulate users' mouse movements.
 
@@ -117,7 +117,7 @@ My veredict:
 
 This is probably the most secure, and also the most invasive captcha I've seen. It is found on the most popular English-speaking image board to date and I have not seen it anywhere else.
 
-{{< figure src="images/4chan-captcha.gif" class="md-local-image" alt="4chan impossible captcha gif" >}}
+{{< figure src="images/4chan-captcha.gif" class="md-local-image" alt="4chan impossible captcha gif"  width="494" height="186" >}}
 
 I want you to notice how sophisticated this captcha is. It is a simple box where it shows some scribbles in black and white, completely illegible and in the background an image that, when sliding the slider, overlaps with the background image, revealing the captcha before your eyes. 
 

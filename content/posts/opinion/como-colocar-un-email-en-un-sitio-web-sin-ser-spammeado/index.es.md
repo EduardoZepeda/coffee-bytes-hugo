@@ -21,13 +21,13 @@ title: ¿Cómo evitar el spam al colocar un email en un sitio web?
 
 A veces queremos colocar un email en un sitio web pero sin arriesgarnos a que algún bot la lea y nos incluya en una lista de publicidad, recordándonos nuestros problemas para iniciar una relación carnal con las dos mujeres maduras que viven a menos de dos kilómetros de distancia. Y como no queremos eso, hay varias cosas que podemos hacer para solucionar esto y aquí te presento algunas, la última es la que yo suelo utilizar y también mi favorita.
 
-{{< figure src="images/prince-from-nigeria-scam.jpg" class="md-local-image" alt="Clásica estafa del príncipe nigeriano" >}}
+{{< figure src="images/prince-from-nigeria-scam.jpg" class="md-local-image" alt="Clásica estafa del príncipe nigeriano"  width="750" height="750" >}}
 
 ## Convertir tu email en una imagen
 
 Esta manera de proteger tu dirección de email no requiere una explicación detallada, simplemente transforma tu email en una imagen y colócala, tu dirección estará segura ante cualquier bot que scrapee texto, pero será vulnerable a cualquier bot con [capacidades de OCR (Reconocimiento óptico de carácteres), bots con pytesseract por ejemplo](/es/python/ocr-con-tesseract-python-y-pytesseract/), los cuales pronostico que serán pocos, sino es que ninguno.
 
-{{< figure src="images/email-image.jpg" class="md-local-image" alt="Direccion de email en una imagen" >}}
+{{< figure src="images/email-image.jpg" class="md-local-image" alt="Direccion de email en una imagen"  width="200" height="55" >}}
 
 La desventaja de esta aproximación es que la persona que desee mandarte un email tendrá que teclearlo manualmente, pues no puede hacer copy-paste, y ya sabes que cada paso extra añade fricción al proceso de conversión.
 
@@ -61,7 +61,7 @@ Algunos bots intentarán llenar el formulario para enviarte publicidad pero siem
 
 {{<ad3>}}
 
-{{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Captcha image" >}}
+{{< figure src="images/captcha-frieren-fern.webp" class="md-local-image" alt="Captcha image"  width="500" height="736" >}}
 
 ### Usa los filtros de  personalizados de email
 

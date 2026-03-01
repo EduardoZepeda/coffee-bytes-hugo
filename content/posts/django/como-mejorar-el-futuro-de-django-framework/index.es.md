@@ -31,7 +31,7 @@ El 21 de Junio del 2024 inicié un hilo en reddit con la siguiente pregunta: "Wh
 
 Este fue el comentario que recibió más apoyo de la comunidad. A pesar de que Python ya cuenta con Type Hints opcionales desde su versión 3.5, parece que su implementación con el propósito de modernizar Django Framework no parece ser una prioridad. 
 
-{{< figure src="images/comment-with-more-support-on-how-to-improve-django.png" class="md-local-image" alt="Comentario con más apoyo sobre como mejorar Django Framework" caption="Comentario con más apoyo sobre como mejorar Django Framework" >}}
+{{< figure src="images/comment-with-more-support-on-how-to-improve-django.png" class="md-local-image" alt="Comentario con más apoyo sobre como mejorar Django Framework" caption="Comentario con más apoyo sobre como mejorar Django Framework"  width="592" height="140" >}}
 
 La popularidad de los type hints es tal, que algunos usuarios que los consideran una mejora significativa al framework han desarrollado [una librería externa, llamada django-stubs](https://github.com/typeddjango/django-stubs#?), que se propone renovar a Django Framework con type hints.
 
@@ -47,7 +47,7 @@ Sin embargo, según los usuarios de reddit, no hay mucho interés por parte de l
 
 El segundo comentario que recibió más apoyo afirma que personalizar el modelo User de Django es bastante complicado, sobre todo si se hace a mediados de un proyecto, específicamente cambiar el tipo de login por defecto de Django, de usuario a correo electrónico.
 
-{{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Segundo comentario con más apoyo sobre como mejorar django framework" caption="Segundo comentario con más apoyo sobre como mejorar django framework" >}}
+{{< figure src="images/custom-user-model-to-improve-django.png" class="md-local-image" alt="Segundo comentario con más apoyo sobre como mejorar django framework" caption="Segundo comentario con más apoyo sobre como mejorar django framework"  width="793" height="136" >}}
 
 A pesar de que hay múltiples maneras de [personalizar el modelo User en Django]({{< ref path="/posts/django/managers-o-manejadores-personalizados-en-django/index.md" lang="es" >}}), tales como usar un modelo proxy, o heredar de *AbstractUser*, algunos usuarios consideran que esa solución se siente "hackish" (podríamos traducirlo como *forzada* o *chapucera*).
 

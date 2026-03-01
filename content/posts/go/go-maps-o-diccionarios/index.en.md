@@ -38,7 +38,7 @@ If go's maps don't match your performance requirements maybe you can consider us
 
 In Go a map works quite similar to any other language. In go there are buckets, a type of section consisting of 8 key-value pairs. The hash function receives the key and redirects us to the appropriate bucket, that is, the space of 9 key-value pairs where our key is located and, once there, it looks for the correct key.
 
-{{< figure src="images/mapsGolang-1.png" class="md-local-image" alt="Inner workings of golang maps in the programming language go." >}}
+{{< figure src="images/mapsGolang-1.png" class="md-local-image" alt="Inner workings of golang maps in the programming language go."  width="800" height="800" >}}
 
 Internal operation of golang maps. The information is taken from the [official documentation of a map](https://go.dev/src/runtime/map.go).
 

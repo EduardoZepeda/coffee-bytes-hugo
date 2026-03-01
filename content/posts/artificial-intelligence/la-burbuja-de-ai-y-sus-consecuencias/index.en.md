@@ -30,7 +30,7 @@ And I'm not alone in this, even a big company like Apple stepped out of the AI r
 
 Maybe intelligence is not possible without consciousness, like Penrose and John [Searle's chinese room experiment]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}) states.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755670736/Sam-altman-sees-an-ai-bubble_rx7hdu.png" class="md-local-image" alt="Meme Sam Altman sees an AI bubble" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755670736/Sam-altman-sees-an-ai-bubble_rx7hdu.png" class="md-local-image" alt="Meme Sam Altman sees an AI bubble"  width="745" height="454" >}}
 
 Even [Sam Altman sees an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), according to the media:
 
@@ -46,7 +46,7 @@ Edit: Builder.AI a promising AI that offered websites created with AI was nothin
 
 This is just another proof that screams that lot of AI businesses are playing hit and run with investor's money. They try to rise the expectations to get money from the angel investors and whoever they can and then just fall epically when they fail to deliver. But at that moment, who cares, money has been made and businesses involve risks so...
 
-{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme mocking the capabilities of AI" >}}
+{{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme mocking the capabilities of AI"  width="630" height="1061" >}}
 
 Devin AI fell into oblivion. At the same time, we are seeing the law of diminishing returns with each new LLM that appears (video and image generative models have not yet reached that point).
 
@@ -70,7 +70,7 @@ It is enough for a company to use AI to grant it with an unknown magic that make
 
 Consumers, usually businesses, expect AI to reduce (or eliminate) the costs of hiring people and investors expect to make the investment of a lifetime.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png" class="md-local-image" alt="My AI reality vs expectations diagram" caption="It's not that AI isn't valuable, it is, but its capabilities are below what companies are promising." >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png" class="md-local-image" alt="My AI reality vs expectations diagram" caption="It's not that AI isn't valuable, it is, but its capabilities are below what companies are promising."  width="3082" height="2695" >}}
 
 ## AI fever and capital investment
 
@@ -78,7 +78,7 @@ As I said, investors don't want to be left out of this party and are so eager to
 
 {{<ad3>}}
 
-{{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI" >}}
+{{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet has no idea about AI"  width="630" height="391" >}}
 
 But, I'm under the impression that this is all just a bunch of companies and entrepreneurs acting on the above, just as [creators of  Devin, the supposed replacement for programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}), and the creators of [Rabbit R1](https://www.rabbit.tech/) are probably doing.
 
@@ -90,7 +90,7 @@ In addition to this, most people involved in the financial side of AI don't unde
 
 There are even protocols to interact with LLM, like the [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}).
 
-{{< figure src="images/ai-company-chatgpt.jpg" class="md-local-image" alt="Startups are just a wrapper for chatgpt" >}}
+{{< figure src="images/ai-company-chatgpt.jpg" class="md-local-image" alt="Startups are just a wrapper for chatgpt"  width="630" height="486" >}}
 
 It's not that using chatGPT for your company is wrong, but if an app is just a GPT wrapper, the risk of becoming a commodity is high, are we going to have thousands of different apps that solve the same problem and are just chatGPT wrappers?
 
@@ -116,6 +116,6 @@ Don't get me wrong, there is an AI overhype, but it will stop when companies rea
 
 It is up to them to decide the pace at which this transition will take place despite what the market is trying to shove down your throat.
 
-{{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="dragon ball meme about the AI bubble bursting" >}}
+{{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="dragon ball meme about the AI bubble bursting"  width="630" height="473" >}}
 
 My prediction regarding the AI bubble, is that all other companies that don't have their own unique neural networks or some intellectual property to protect them, are going to cannibalize and commoditize themselves, crashing the market in the process, and that, when the AI bubble bursts and AI overhype ends, a lot of people are going to lose money in the process.

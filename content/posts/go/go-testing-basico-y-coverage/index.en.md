@@ -180,13 +180,13 @@ When the command is executed, a browser tab will open and show the tested result
 go tool cover -html=coverage.out
 ```
 
-{{< figure src="images/Captura-de-pantalla-de-2022-02-09-12-35-57.png" class="md-local-image" alt="Coverage en go" >}}
+{{< figure src="images/Captura-de-pantalla-de-2022-02-09-12-35-57.png" class="md-local-image" alt="Coverage en go"  width="822" height="238" >}}
 
 Full html coverage in go
 
 If we decide to modify our function to handle the division by zero cases, and run the coverage tests again, we will get a different scheme than before. Now a section of code not covered by the tests appears in red and our coverage dropped to 50%.
 
-{{< figure src="images/coverage-en-go.png" class="md-local-image" alt="Screenshot of coverage en go" >}}
+{{< figure src="images/coverage-en-go.png" class="md-local-image" alt="Screenshot of coverage en go"  width="1260" height="417" >}}
 
 Incomplete html coverage in go
 

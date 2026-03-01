@@ -46,13 +46,13 @@ See the following comparisons using information from [Techempower](https://www.t
 
 The number indicates the number of responses per second for a single query, of course the higher the better.
 
-{{< figure src="images/SingleQueryFastApi.png" class="md-local-image" alt="Comparison chart of number of responses per second for request returning a row from the database. FastAPI in second place." caption="Number of responses per second for requests returning a row from the database. Information taken from https://www.techempower.com/benchmarks" >}}
+{{< figure src="images/SingleQueryFastApi.png" class="md-local-image" alt="Comparison chart of number of responses per second for request returning a row from the database. FastAPI in second place." caption="Number of responses per second for requests returning a row from the database. Information taken from https://www.techempower.com/benchmarks"  width="1275" height="766" >}}
 
 ### Performance for requests with 20 queries
 
 But what about requests with higher loads? This image shows the number of responses for a request with 20 queries, again, the higher the better.
 
-{{< figure src="images/MultipleQueryFastApi.png" class="md-local-image" alt="Comparison of number of responses per second for request returning twenty rows from database. FastAPI in second place." caption="Number of responses per second for requests returning twenty rows from the database. Information taken from https://www.techempower.com/benchmarks" >}}
+{{< figure src="images/MultipleQueryFastApi.png" class="md-local-image" alt="Comparison of number of responses per second for request returning twenty rows from database. FastAPI in second place." caption="Number of responses per second for requests returning twenty rows from the database. Information taken from https://www.techempower.com/benchmarks"  width="1275" height="766" >}}
 
 According to information provided by Techempower, **FastAPI is tremendously faster than Django, Flask and Pyramid**.
 
@@ -376,7 +376,7 @@ Yes, although FastAPI is quite simple it also incorporates the functionality of 
 
 Don't you know what middleware is? Simplistically, a middleware is a piece of code that you place before the request, to "intercept" it and do (or not) something with it. A middleware works in a similar way to those relay races where the request and the response would be the stakes that are passed from one middleware to the other, each middleware can modify the request or the response or leave it intact to pass it to the next middleware.
 
-{{< figure src="images/Middleware.png" class="md-local-image" alt="Basic schematic of a middleware" >}}
+{{< figure src="images/Middleware.png" class="md-local-image" alt="Basic schematic of a middleware"  width="600" height="200" >}}
 
 Super simplified scheme of a middleware in the web context
 
@@ -647,7 +647,7 @@ Up to this point **I have hidden one of the coolest features of FastAPI** from y
 
 Yes, as you probably already knew, FastAPI has automatic documentation using [swagger](https://swagger.io/#?) and [redoc](https://github.com/Redocly/redoc#?), you don't have to add code, nor set a variable for this, just open your browser and go to your [localhost:8000/docs/](http://127.0.0.1:8000/docs/) and [localhost:8000/redoc/](http://127.0.0.1:8000/redoc/), respectively, and you will see the automatically generated interactive documentation.
 
-{{< figure src="images/Documentacion_swagger.png" class="md-local-image" alt="Screenshot of swagger documentation" >}}
+{{< figure src="images/Documentacion_swagger.png" class="md-local-image" alt="Screenshot of swagger documentation"  width="1487" height="239" >}}
 
 ### Deployment without Docker
 

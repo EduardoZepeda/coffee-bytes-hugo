@@ -214,7 +214,7 @@ Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https
 
 {{<ad1>}}
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" caption="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" caption="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art"  width="626" height="618" >}}
 
 ## Rust no es tan difícil de aprender
 

@@ -53,7 +53,7 @@ Further attempts to execute the function will cancel the pending execution and r
 
 {{<ad0>}}
 
-{{< figure src="images/Bounce-design-pattern-programming.png" class="md-local-image" alt="Simplified debounce pattern schematic" >}}
+{{< figure src="images/Bounce-design-pattern-programming.png" class="md-local-image" alt="Simplified debounce pattern schematic"  width="1200" height="1200" >}}
 
 ### Debounce pattern explanation
 
@@ -81,7 +81,7 @@ But now pay attention to the clearTimeout. Every time we call the debounce funct
 
 The throttling pattern sets a waiting time during which no more functions can be called again. Unlike the bounce pattern, the timeout is not reset if we try to call the function again.
 
-{{< figure src="images/throttling-eng.jpg" class="md-local-image" alt="Simplified diagram of the throttling pattern" >}}
+{{< figure src="images/throttling-eng.jpg" class="md-local-image" alt="Simplified diagram of the throttling pattern"  width="1200" height="1200" >}}
 
 ### Explanation of throttling pattern
 

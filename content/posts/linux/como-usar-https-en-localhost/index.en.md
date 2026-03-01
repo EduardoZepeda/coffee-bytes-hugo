@@ -32,7 +32,7 @@ It is quite common to perform Oauth testing while performing integrations or som
 
 This is the case for apps on X (formerly Twitter) or Facebook developer platforms. ~~Zuckerberg!~~
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png" class="md-local-image" alt="Facebook developer portal callback needs https" caption="Facebook developer portal callback needs https" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png" class="md-local-image" alt="Facebook developer portal callback needs https" caption="Facebook developer portal callback needs https"  width="722" height="557" >}}
 
 {{<ad0>}}
 

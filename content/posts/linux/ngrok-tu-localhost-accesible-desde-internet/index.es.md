@@ -26,7 +26,7 @@ Ngrok es una aplicación que te permite conectar tu localhost con internet.
 
 Lo que hace Ngrok (Recuerda que ngrock y negrok están mal escritos) es servir como un túnel que redirige cualquier petición web, a través de sus propias urls, a tu localhost. Esto puede usarse para probar un webhook o recibir notificaciones, una tarea bastante común en pasarelas de pago, compartir tu localhost con colaboradores sin necesidad de un dominio propio, etc.
 
-{{< figure src="images/EsquemaNgrok.png" class="md-local-image" alt="Esquema del funcionamiento de ngrok" >}}
+{{< figure src="images/EsquemaNgrok.png" class="md-local-image" alt="Esquema del funcionamiento de ngrok"  width="1000" height="600" >}}
 
 {{<ad1>}}
 
@@ -46,7 +46,7 @@ Si todo funcionó correctamente verás algo parecido a est en tu terminal
 
 {{<ad2>}}
 
-{{< figure src="images/NgrokTerminal.png" class="md-local-image" alt="Información de Ngrok en la terminal" >}}
+{{< figure src="images/NgrokTerminal.png" class="md-local-image" alt="Información de Ngrok en la terminal"  width="905" height="281" >}}
 
 ¿Qué significa la pantalla de arriba? Significa que todas las peticiones que se hagan a http://ngrok.io; es decir, al subdominio fc2ca35fd170 del dominio de ngrok, se redirigirán a tu localhost, específicamente al puerto 8080. Y es todo, así de simple y fácil de usar.
 
@@ -77,11 +77,11 @@ Si ahora ejecutamos ngrok, especificamos el puerto 8000 y accedemos a la direcci
 ngrok http 8000
 ```
 
-{{< figure src="images/NgrokEjemploDjango.png" class="md-local-image" alt="Información de la información de Ngrok para el ejemplo de Django" >}}
+{{< figure src="images/NgrokEjemploDjango.png" class="md-local-image" alt="Información de la información de Ngrok para el ejemplo de Django"  width="892" height="235" >}}
 
 Observa el dominio en el que se ejecuta nuestra aplicación de Django.
 
-{{< figure src="images/NgrokTunnel-1.png" class="md-local-image" alt="Aplicación de Django corriendo en el dominio de Ngrok" >}}
+{{< figure src="images/NgrokTunnel-1.png" class="md-local-image" alt="Aplicación de Django corriendo en el dominio de Ngrok"  width="1218" height="694" >}}
 
 ¡Logramos poner nuestra aplicación al acceso de cualquier persona que tenga la url que ngrok nos provee!
 

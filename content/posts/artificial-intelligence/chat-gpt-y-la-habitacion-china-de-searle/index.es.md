@@ -33,7 +33,7 @@ Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [
 
 John Searle, fue un científico que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
 
-{{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Imagen de la habitación china de Searle generada con Dall-E" caption="Imagen de la habitación china de Searle generada con Dall-E" >}}
+{{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Imagen de la habitación china de Searle generada con Dall-E" caption="Imagen de la habitación china de Searle generada con Dall-E"  width="1024" height="1024" >}}
 
 Un humano, dentro de una habitación completamente aislada del mundo exterior, con una serie de instrucciones para procesar símbolos en chino y devolver una respuesta. Hay que resaltar que la persona en el interior de la habitación desconoce el idioma chino y se limita a seguir la serie de instrucciones que le fueron otorgadas, es decir, **no comprende el texto que entra, ni el que sale**.
 
@@ -111,7 +111,7 @@ En el libro "Un eterno y grácil bucle" de Douglas R. Hofstader. El autor cita u
 
 Como bien especula Hofstader, un humano se hubiera "salido" del bucle para detenerse por unos momentos e investigar lo que estaba ocurriendo.
 
-{{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle" caption="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle" >}}
+{{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle" caption="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle"  width="640" height="480" >}}
 
 Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente, ¿existen gradientes de conciencia? Y, si es así, ¿como se ve siente conciencia más allá de la que experimentamos los humanos? Si la conciencia existe como una manifestación macroscópica, ¿es determinista? ¿o pertenece al mundo cuántico de la indeterminación? No lo sé y creo que la verdad aún no elige un ganador.
 
