@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/go-with-reflect-boost-your-codes-flexibility/
+- /en/go-with-reflect-discover-how-reflect-can-boost-your-programs-flexibility/
 authors:
 - Eduardo Zepeda
 categories:

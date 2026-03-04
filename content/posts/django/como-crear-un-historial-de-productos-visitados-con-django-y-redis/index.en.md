@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/how-to-create-a-history-of-products-with-django-and-redis/
+- /en/how-to-create-a-history-of-visited-products-with-django-and-redis/
 authors:
 - Eduardo Zepeda
 categories:
