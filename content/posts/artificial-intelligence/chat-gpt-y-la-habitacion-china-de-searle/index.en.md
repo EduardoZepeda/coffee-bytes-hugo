@@ -109,6 +109,14 @@ As Hofstader rightly speculates, a human would have “stepped out” of the loo
 
 This experiment made me question whether some living beings are nothing more than biological automatons and also where is the turning point at which a living being ceases to be an automaton and becomes conscious, are there gradients of consciousness? And, if so, what does consciousness look like beyond what we humans experience? If consciousness exists as a macroscopic manifestation, is it deterministic, or does it belong to the quantum world of indeterminacy? I don't know and I don't think the truth has yet to pick a winner.
 
+## My opinion on consciousness
+
+After spending time reading about the subject and researching what different authors have to say—Dawkins, Penrose, Planck, among others—I have come to believe that consciousness cannot be emulated by mathematical methods without a deep understanding of it. 
+
+Of course this includes OpenAI, Anthropic, or any other company. The hard problem remains as relevant as ever, but more relevant than ever.
+
+My second reason is more speculative. Right now, I am considering the idea that consciousness may be a fundamental entity of existence, on the same level as or perhaps higher than physical laws. In that case, no matter how sophisticated the algorithm is and how much training data we have, we will never be able to create a conscious AGI. We will have to settle for a model that is incredibly good at everything, but mechanical. But again, this is more speculative and a much weaker conviction.
+
 ## What to read or watch to learn more about artificial intelligence and consciousness?
 
 Consciousness is a complex subject that cannot be addressed in a few lines, not for nothing is it known as the "hard problem", but if these brushstrokes left you wanting more, I leave you with my list of favorite resources to delve into this complex subject.

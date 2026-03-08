@@ -84,7 +84,7 @@ Next, we'll define the tools, or *mcp tools*, that allow us to receive a paramet
 
 ```javascript
 // server.tool("<Name>", "<Description>", {
-server.tool("Strawberry Count", "Count the number of r's present in an strawberry variant", {
+server.tool("Strawberry Count", "Count the number of r's present in a strawberry variant", {
     param: z.string().describe("The strawberry variant, it can have a variable number of r's")
 },
     // callback with the param
@@ -146,7 +146,7 @@ Notice how we declare that the MCP server should run with the `npx` command foll
 {
     "mcpservers": {
         "name": {
-            "commando": "npx",
+            "command": "npx",
                 "args": [
                     "-y",
                     "node",
@@ -163,7 +163,7 @@ If you wanted to use TypeScript instead of JavaScript, you could do something li
 {
     "mcpservers": {
         "name": {
-            "commando": "npx",
+            "command": "npx",
                 "args": [
                     "-y",
                     "tsx",

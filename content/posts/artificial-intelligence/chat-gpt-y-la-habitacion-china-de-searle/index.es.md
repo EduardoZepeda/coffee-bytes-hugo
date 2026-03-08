@@ -29,7 +29,7 @@ Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [
 
 >What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
-## La habitación china de John Searle
+## La habitación china de John Searle o porque las máquinas dan la ilusión de pensar
 
 John Searle, fue un científico que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
 
@@ -53,11 +53,11 @@ graph TD;
     programa-->output;
 ```
 
-De acuerdo a Searle, para las personas que están afuera de la habitación, pareciera que lo que sea que esté dentro entiende perfectamente el idioma chino. 
+De acuerdo a Searle, para las personas que están afuera de la habitación, pareciera que lo que sea que está dentro entiende perfectamente el idioma chino. 
 
-### ¿ChatGPT tiene consciencia?
+### ¿Es ChatGPT consciente o solo es una ilusión?
 
-Sin embargo, nosotros sabemos que la persona en el interior solo está siguiendo un set de instrucciones, tan complejísimo como nosotros querramos, pero que **no implica una comprensión del lenguaje**, sino un proceso mecánico. Según Searle, esta situación es análoga al funcionamiento de una computadora.
+Sin embargo, nosotros sabemos que la persona en el interior solo está siguiendo un set de instrucciones, tan complejísimo como nosotros querramos, pero que **no implica una comprensión del lenguaje**, sino un proceso totalmente mecánico. Según Searle, esta situación es análoga al funcionamiento de una computadora.
 
 Extrapolando lo anterior a ChatGPT; aunque un modelo de lenguaje puede producir respuestas que parecen coherentes y relevantes, no hay evidencia de que comprenda realmente el lenguaje o tenga conciencia de su significado. 
 
@@ -71,13 +71,13 @@ De acuerdo con Searle, ChatGPT(o cualquier otro Large Language Model LLM, como M
 
 El máximo representante de la inteligencia en la tierra es el ser humano (o al menos nuestro ego inflado nos dice eso), y también sucede que el ser humano es un ente vivo con conciencia. Esto nos dirige a la inevitable pregunta: ¿es necesaria un ser vivo con conciencia para tener inteligencia? ¿o quizás es al revés?
 
-### Inteligencia con conciencia
+### La postura de que la inteligencia requiere conciencia
 
 Algunos argumentan que la conciencia y la inteligencia están relacionados y que incluso tendriamos [un gradiente de conciencia mientras avanzamos en la complejidad e inteligencia de los organismos](http://writing.rochester.edu/celebrating/2017/NAShonorable.pdf). Dotando del calificativo "consciente" a animales superiores como delfines, orangutanes, cuervos y otros organismos que muestran rasgos de inteligencia.
 
 {{<ad2>}}
 
-Penrose afirma que no sólo la conciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8). Por lo que, no importa que tan complejo e inteligente se vuelva un sistema, no será consciente y por ende inteligente tampoco, algo parecido a lo que Searle afirmaba.
+Otro punto de vista es el de Penrose, él afirma que no sólo la conciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8). Por lo que, no importa que tan complejo e inteligente se vuelva un sistema, no será consciente y por ende inteligente tampoco, algo parecido a lo que Searle afirmaba.
 
 Otros relacionan inteligencia con consciencia y afirman que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás como ejemplo podriamos nombrar a [Blake Lemoine, quien aseguraba que el modelo de inteligencia artificial de Google había cobrado conciencia](https://www.bbc.com/mundo/noticias-61787944), o la teoría de la información integrada, de Giulio Tononi, que propone que la conciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de conciencia (llamado Φ) puede calcularse para cualquier sistema, teniendo un gradiente de consciencia que va desde los seres más simples hasta los más complejos.
 
@@ -85,7 +85,7 @@ Otros relacionan inteligencia con consciencia y afirman que un sistema se vuelve
 
 Para empeorar la situación, tenemos el problema de que la consciencia solo puede ser experimentada por el ente consciente, no existe un experimento que nos permita decir a ciencia cierta si una entidad es consciente o no. Sin caer en un solipsismo absolutista, **nosotros consideramos que el resto de seres humanos son conscientes solo porque nosotros sabemos que lo somos**, no porque tengamos pruebas irrefutables de ello.
 
-Repito, no estoy hablando de solipsismo, me refiero a que, aunque creas que hay más consciencias a parte de la tuya, solo puedes estar seguro de la existencia de la tuya.
+Repito, no estoy hablando de solipsismo, me refiero a que, aunque creas que hay más consciencias a parte de la tuya, solo puedes estar seguro de la existencia de la tuya. No existe ninguna manera, al menos hasta hoy, de que puedas probar la conciencia de otro ente que no seas tú mismo. *Cogito, ergo sum*.
 
 O puesto en palabras por Ludwig Wittgenstein en su libro, Investigaciones Filosóficas:
 
@@ -95,7 +95,7 @@ O puesto en palabras por Ludwig Wittgenstein en su libro, Investigaciones Filos�
 
 Mientras no entendamos que es la consciencia exactamente, no podremos saber que tenemos que "medir" para saber si otro ente es consciente, o si acaso tiene sentido el término "medir" cuando hablamos de consciencia. 
 
-### Inteligencia sin conciencia
+### La postura que afirma que existe inteligencia sin conciencia
 
 Por el contrario, existen posiciones que defienden que la inteligencia no depende necesariamente de la conciencia, sino que puede existir en sistemas que no tienen experiencia subjetiva. Para ejemplo basta citar a Alpha Go y otros programas informáticos que son capaces de "analizar" y  "responder" a situaciones muy complejas y con muchos matices, sin existir más allá del juego para el que fueron programados, o a los [sonámbulos, que pueden mostrar signos de inteligencia aún no estando conscientes](https://publications.aap.org/pediatrics/article-abstract/111/1/e17/28494/Sleepwalking-and-Sleep-Terrors-in-Prepubertal?redirectedFrom=fulltext).
 
@@ -103,7 +103,7 @@ Sir Roger Penrose refuerza el punto anterior en su libro "[Emperor's new mind](h
 
 Pero aunque los seres humanos tengan procesos inconscientes capaces de existir sin la manifestación de la conciencia... debe de existir algo más que una simple acción mecánica, después de todo los animales son mucho más complejos que las máquinas ¿no? 
 
-## Autómatas biológicos
+## Autómatas biológicos, inteligencia y conciencia
 
 A veces creemos que solo las máquinas tienen un comportamiento mecánico y que cualquier ser vivo sería capaz de responder de manera muy diferente a la que haría una máquina, con más versatilidad y adaptándose a los cambios, pero, ¿es siempre así? 
 
@@ -114,6 +114,14 @@ Como bien especula Hofstader, un humano se hubiera "salido" del bucle para deten
 {{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle" caption="Avispa Sphex del experimento mencionado en el libro Un eterno y grácil bucle"  width="640" height="480" >}}
 
 Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente, ¿existen gradientes de conciencia? Y, si es así, ¿como se ve siente conciencia más allá de la que experimentamos los humanos? Si la conciencia existe como una manifestación macroscópica, ¿es determinista? ¿o pertenece al mundo cuántico de la indeterminación? No lo sé y creo que la verdad aún no elige un ganador.
+
+## Mi opinión al respecto de la conciencia
+
+Tras tiempo leyendo sobre el tema e investigando lo que diferentes autores tienen que decir: Dawkins, Penrose, Planck, entre otros. Me he decantado por la idea de que la conciencia no puede ser emulada por métodos matemáticos sin un entendimiento profundo de esta. 
+
+Esto incluye a OpenAI, Anthropic o cualquier otra compañia. El problema duro sigue igual de vigente, pero más relevante que nunca.
+
+Mi segunda razón es más especulativa. Ahora mismo barajo la idea de que la conciencia pueda ser un ente fundamental de la existencia, al mismo nivel o quizás más alto que las leyes físicas. En cuyo caso no importa que tan sofisticado sea el algoritmo y con cuantos datos de entrenamiento dispongamos, jamás podremos crear una AGI conciente, tendremos que contentarnos con un modelo increíblemente bueno en todo, pero mecánico. Pero repito, esto es más especulativo y una convicción mucho más débil.
 
 ## ¿Qué leer o ver para saber más de inteligencia artificial y conciencia?
 
