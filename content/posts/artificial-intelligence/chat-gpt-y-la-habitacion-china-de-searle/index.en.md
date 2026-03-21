@@ -117,6 +117,12 @@ Of course this includes OpenAI, Anthropic, or any other company. The hard proble
 
 My second reason is more speculative. Right now, I am considering the idea that consciousness may be a fundamental entity of existence, on the same level as or perhaps higher than physical laws. In that case, no matter how sophisticated the algorithm is and how much training data we have, we will never be able to create a conscious AGI. We will have to settle for a model that is incredibly good at everything, but mechanical. But again, this is more speculative and a much weaker conviction.
 
+## My thoughts on whether we'll have an AGI anytime soon
+
+I think the likelihood of developing an AGI is slim. I believe that an AGI requires some level of consciousness, and for that reason, until we understand what consciousness entails, we won't be able to "program" it—if such a thing even makes sense. 
+
+Obviously, there will be attempts, but they will be more like trying to integrate a series of specialized AIs into a single robot. It’s similar to having a bunch of servers running multiple instances of the [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}) servers, which I consider nothing more than a sophisticated example of Searle's Chinese Room.
+
 ## What to read or watch to learn more about artificial intelligence and consciousness?
 
 Consciousness is a complex subject that cannot be addressed in a few lines, not for nothing is it known as the "hard problem", but if these brushstrokes left you wanting more, I leave you with my list of favorite resources to delve into this complex subject.

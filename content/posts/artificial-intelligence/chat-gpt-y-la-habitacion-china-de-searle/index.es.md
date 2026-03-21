@@ -3,6 +3,7 @@ aliases:
 - /chat-gpt-y-la-habitacion-china-de-searle
 - /chat-gpt-la-habitacion-china-de-searle-y-la-consciencia
 - /es/chat-gpt-la-habitacion-china-de-searle-y-la-consciencia/
+- /es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/
 authors:
 - Eduardo Zepeda
 categories:
@@ -120,13 +121,19 @@ Como bien especula Hofstader, un humano se hubiera "salido" del bucle para deten
 
 Este experimento me hizo cuestionarme sobre si algunos seres vivos no son otra cosa que autómatas biológicos y también sobre donde está el punto de inflexión en el que un ser vivo deja de ser un autómata y se vuelve consciente, ¿existen gradientes de consciencia? Y, si es así, ¿como se ve siente consciencia más allá de la que experimentamos los humanos? Si la consciencia existe como una manifestación macroscópica, ¿es determinista? ¿o pertenece al mundo cuántico de la indeterminación? No lo sé y creo que la verdad aún no elige un ganador.
 
-## Mi opinión al respecto de la consciencia
+## Mi opinión al respecto de la si los LLMs se volverán conscientes
 
-Tras tiempo leyendo sobre el tema e investigando lo que diferentes autores tienen que decir: Dawkins, Penrose, Planck, entre otros. Me he decantado por la idea de que la consciencia no puede ser emulada por métodos matemáticos sin un entendimiento profundo de esta. 
+Tras tiempo leyendo sobre el tema e investigando lo que diferentes autores tienen que decir: Dawkins, Penrose, Planck, entre otros. Me he decantado por la idea de que la consciencia no puede ser emulada por métodos matemáticos sin un entendimiento profundo y meticuloso de su naturaleza, lo cual, por el momento, está fuera de nuestro alcance. 
 
-Esto incluye a OpenAI, Anthropic o cualquier otra compañia. El problema duro sigue igual de vigente, pero más relevante que nunca.
+Sí, esto incluye a OpenAI, Anthropic o cualquier otra compañia. No importa El problema duro sigue igual de vigente, pero más relevante que nunca.
 
-Mi segunda razón es más especulativa. Ahora mismo barajo la idea de que la consciencia pueda ser un ente fundamental de la existencia, al mismo nivel o quizás más alto que las leyes físicas. En cuyo caso no importa que tan sofisticado sea el algoritmo y con cuantos datos de entrenamiento dispongamos, jamás podremos crear una AGI conciente, tendremos que contentarnos con un modelo increíblemente bueno en todo, pero mecánico. Pero repito, esto es más especulativo y una convicción mucho más débil.
+Mi segunda razón es más especulativa. Ahora mismo barajo la idea de que la consciencia pueda ser un ente fundamental de la existencia, al mismo nivel o quizás más alto que las leyes físicas. En cuyo caso no importa que tan sofisticado sea el algoritmo y con cuantos datos de entrenamiento dispongamos, jamás podremos crear una AGI consciente, tendremos que contentarnos con un modelo increíblemente bueno en todo, pero mecánico. Pero repito, esto es más especulativo y una convicción mucho más débil.
+
+## Mi opinión sobre si tendremos una AGI próximamente
+
+También creo que la posibilidad de una AGI es remota. Creo que soy partidario de que una AGI requiere algún nivel de consciencia, y por esa razón, hasta que no entendamos lo que implica una consciencia no podremos "programarla" si es que algo así tiene sentido. 
+
+Obviamente habrá intentos, pero serán más parecidos a tratar de integrar una una serie de AIs especializadas en un mismo robot. Algo parecido a tener un montón de servidores con múltiples servidores del [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}), lo cual no es otra cosa sino un ejemplo más sofisticado de la habitación china de Searle.
 
 ## ¿Qué leer o ver para saber más de inteligencia artificial y consciencia?
 
