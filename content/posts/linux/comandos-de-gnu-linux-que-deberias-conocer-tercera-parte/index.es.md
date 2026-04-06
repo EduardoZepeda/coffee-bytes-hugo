@@ -24,6 +24,8 @@ Esta es la continuación de las siguientes partes:
 * [Comandos esenciales de Linux: grep, ls, cd, history, cat, cp, rm, scp y otros.]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="es" >}}) 
 * [Comandos esenciales de Linux: passwd, du, useradd, usermod, fdisk, lscpu, apt, which y otros.](/es/linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt//).
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< instagram CUX56csLUXL >}}

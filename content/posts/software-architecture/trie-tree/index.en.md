@@ -52,6 +52,8 @@ Think of it like a family tree but instead of faces you use letters.
 
 At first glance, you might think, "Wait, isn't a trie tree a binary tree?" Not quite. A binary tree is built around two child nodes (left and right), usually to order numbers or balance structures. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ``` mermaid

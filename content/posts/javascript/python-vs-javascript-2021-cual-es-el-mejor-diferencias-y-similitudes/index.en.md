@@ -57,6 +57,8 @@ If you're in a rush and you want to tackle the javascript vs python question, I 
   ✔ You prefer readable syntax and maintainable code.  
   ✔ You want a well designed (sorry Javascript) mature language with a colossal standard library.  
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Python vs Javascript, introduction and main differences

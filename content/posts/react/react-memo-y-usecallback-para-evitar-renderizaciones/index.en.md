@@ -86,6 +86,8 @@ Now try the following in this sandbox:
 
 Remove only the memo function from the ChildComponent and write to the input. ChildComponent will re-render with each new key press. A new terminal message will appear for each rendering.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```javascript

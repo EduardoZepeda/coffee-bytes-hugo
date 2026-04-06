@@ -36,6 +36,8 @@ There are 3 sets of 3 letters, each set contains spaces for the letters '_r_' '_
 
 The presence of a hyphen indicates the absence of permissions. The first set represents the permissions of the file owner, the second set represents the permissions of the group to which the file belongs, and the third set represents the permissions of others. Before the first set is a space for the file type; '_D_' for directory, or a hyphen for a file.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Meaning of permissions on a GNU/Linux system" caption="Meaning of permissions on a GNU/Linux system"  width="1200" height="600" >}}

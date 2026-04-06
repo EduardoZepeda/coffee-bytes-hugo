@@ -32,6 +32,8 @@ Escribí las entradas anteriores como una introducción para el tema de esta sem
 
 Esta herramienta usa docker para hacer más sencillo el proceso de desarrollo y deploy de una aplicación de Django. Además fue creada por uno de los escritores del genial libro Two scoops of Django, del cual tengo una [reseña de Twoo scoops of django](/es/django/el-mejor-libro-de-django-resena-de-two-scoops-of-django/)
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ¿No sabes que es Docker? Visita mi entrada donde hablo de [los contenedores y Docker]({{< ref path="/posts/docker/docker-curso-practico-con-ejemplos-en-gnu-linux/index.md" lang="es" >}}) en caso de que no sepas usarlo. Si ya sabes usar Docker, y quieres darle una revisa a [docker compose]({{< ref path="/posts/docker/docker-compose-tutorial-con-comandos-en-gnu-linux/index.md" lang="es" >}}).

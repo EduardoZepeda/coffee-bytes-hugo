@@ -21,6 +21,8 @@ title: Me Aproveché De Un Error En El Código De Una App De Citas
 
 Mientras usaba una app de citas estilo Tinder, de esas en las que, tras un like mutuo, la aplicación pone en contacto a los involucrados, pude notar que, para promocionar su plan premium, usaban fotografías difuminadas para presentarte a las personas que habían presionado el botón de Like en tu perfil.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Tras tener un par de matches pude notar que las fotografías difuminadas pertenecian a cuentas reales, es decir, no eran un set de imágenes genéricas o placeholders.

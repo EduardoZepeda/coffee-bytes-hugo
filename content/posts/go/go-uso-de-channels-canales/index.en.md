@@ -115,6 +115,8 @@ func main() {
 
 ### Input and output channels
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 There are channels that receive information and channels that output information, **by default a channel is bidirectional, but we can declare input and output channels**.

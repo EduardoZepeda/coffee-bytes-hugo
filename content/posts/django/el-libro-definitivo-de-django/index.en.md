@@ -17,6 +17,8 @@ keywords:
 title: The definitive guide to Django
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Django is **my favorite web development framework**, it is mature, its documentation and community are excellent. When I wrote about the [advantages and disadvantages of Django]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}) I explained you how to go from an idea to a working prototype in a very short time and without writing almost any code. I learned much of what I know about this framework years ago, reading and practicing the contents of a book called **Definitive Guide to Django: Web Development Done Right** by the authors [Adrian Holovaty](http://www.holovaty.com/) , [Jacob Kaplan-Moss](https://jacobian.org/#?) (co-creators of Django) and impeccably translated into Spanish by Saul Garcia under the title La guía definitiva de Django: Desarrolla aplicaciones web de forma rápida y sencilla.

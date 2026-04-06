@@ -31,6 +31,8 @@ Para construir nuestros diminutos automóviles de LEGO, existen dos maneras:
 
 1. Herencia: Puedes empezar con un diseño de automóvil básico, y luego hacerle cambios para crear diferentes tipos de automóviles. Pero, a veces, esto puede ser un completo desastre, puesto que puedes terminar con algunos automóviles extraños que no funcionarán correctamente.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg" class="md-local-image" alt="Imagen de un automóvil hecho de LEGO" caption="Empiezas con un coche y vas cambiando piezas. Todos los derechos de esta imagen pertenecen a LEGO"  width="562" height="562" >}}

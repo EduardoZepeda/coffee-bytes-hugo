@@ -51,6 +51,8 @@ The debounce pattern postpones the execution of a function until a certain waiti
 
 Further attempts to execute the function will cancel the pending execution and restart the timeout.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/Bounce-design-pattern-programming.png" class="md-local-image" alt="Simplified debounce pattern schematic"  width="1200" height="1200" >}}

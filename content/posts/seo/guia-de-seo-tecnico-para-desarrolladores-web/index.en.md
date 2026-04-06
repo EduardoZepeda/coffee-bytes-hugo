@@ -174,6 +174,8 @@ It would be best to provide them with a consistent and more explicit structure:
 /directors/nawapol-thamrongrattanarit/
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### You're probably not using the correct HTML tags

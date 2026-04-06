@@ -72,6 +72,8 @@ Cuando agregas un elemento, el filtro lo pasa por cada función hash. Cada funci
 
 Como no almacenas los datos reales, sino solo el patrón que permance tras las hash functions, no puedes saber qué combinación de dato y función hash específica lo produjo. Por eso no es posible “eliminar” un elemento.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### No puedes recuperar miembros del conjunto

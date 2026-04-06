@@ -111,6 +111,8 @@ class Videogame(models.Model):
 
 Ahora corramos las migraciones y creemos un súper usuario.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

@@ -25,6 +25,8 @@ As surprising as it may sound, many servers do not enable HTTP/2 by default, so 
 
 First we go to the file where we have enabled our website in nginx:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

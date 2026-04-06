@@ -17,6 +17,8 @@ slug: /go/logging-con-la-libreria-estandar-en-go/
 title: Logging con la librería estándar en Go
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Como seguramente ya sabes, no deberías usar los prints para debuggear. La librería estándar de loggeo  de go es mucho más versátil, añade fechas, nombres de archivo y otra información, además puedes redirigir los logs a la salida estándar, a un archivo o a donde tú quieras. Lo anterior puede volver más ameno tu proceso de debuggeo y [tu testing en go](/es/go/go-testing-basico-y-coverage/) más sencillo.

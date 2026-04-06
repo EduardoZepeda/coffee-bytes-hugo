@@ -23,6 +23,8 @@ A veces ejecutamos comandos que resuelven una tarea muy específica en nuestro s
 
 Una manera de hacerlo sería efectuar una búsqueda de la parte del comando que recordamos en el historial del comando. Esto puede hacerse de la siguiente manera:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

@@ -26,6 +26,8 @@ Pero, ¿era esta situación una decisión de las empresas? Bueno, sí y no, perm
 
 ### La falta de métodos de pago y lentitud del internet de antaño
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Gran parte del software comercial era demasiado pesado, en proporción al tamaño de los dispositivos de almacenamiento, como para que pudiera descargarse sin problemas. 

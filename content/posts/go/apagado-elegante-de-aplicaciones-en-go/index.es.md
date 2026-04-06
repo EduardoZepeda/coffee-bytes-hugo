@@ -26,6 +26,8 @@ Como seguramente ya sabes, el kernel de Linux es el que se encarga de "prestarle
 
 Debido a que linux es el núcleo del sistema, es capaz de pedir de vuelta esos recursos en cualquier momento y cerrar la aplicación. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Linux puede pedirle "amablemente" a las aplicaciones los recursos que les prestó o "arrebatárselos" por la fuerza. Para lo anterior, Linux envía una serie de señales (signals) a la aplicación, algunas de las cuales pueden ser capturadas y manejadas por la misma aplicación, con código en Go.

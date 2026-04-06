@@ -56,6 +56,8 @@ class Order(models.Model):
     total = models.DecimalField(max_digits=18, decimal_places=9)
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 After applying the migrations, the above code will create two models: Seller and Order. A seller can have many orders. An order corresponds to a single seller and has a total, expressed in decimal numbers.

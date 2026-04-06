@@ -38,6 +38,8 @@ graph TD;
     Room-->西遊記;
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Can you notice the similarities with a computer? They are quite obvious; there is an input, an output and a black box or computer program, the details of which would escape those outside this simplified little system.

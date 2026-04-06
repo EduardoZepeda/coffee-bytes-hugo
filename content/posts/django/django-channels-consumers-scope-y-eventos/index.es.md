@@ -22,6 +22,8 @@ title: 'Django channels: consumers, scope y eventos'
 
 ¿Por qué deberías usar Django channels? Porque con Django es imposible crear aplicaciones con comunicación en tiempo real de manera nativa. Django channels le otorga a Django la capacidad manejar protocolos que requieren una conexión persistente, como WebSockets, MQTT, chatbots, mientras mantiene intacta su integración con el sistema de sesiones, autenticación y el resto del framework, volviendo a Django una excelente alternativa para aplicaciones que requieren interactividad y comunicación en tiempo real.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Django channels coloca una capa intermedia que se encarga de procesar las peticiones http a las vistas de django y las conexiones websocket a un consumer http o un consumer websocket.

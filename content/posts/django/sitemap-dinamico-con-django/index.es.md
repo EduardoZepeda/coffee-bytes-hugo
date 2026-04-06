@@ -25,6 +25,8 @@ Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu s
 
 Un sitemap bien estructurado es [crucial en SEO y la presencia de errores puede disminuir radicalmente las vistas de tu sitio web]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}}), como me sucedió a mi.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Estructura de un sitemap

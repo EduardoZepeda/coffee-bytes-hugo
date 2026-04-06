@@ -22,6 +22,8 @@ This is the continuation of the following parts:
 * [GNU Linux Basic Commands, part one]({{< ref path="/posts/linux/comandos-de-gnu-linux-que-deberias-conocer/index.md" lang="en" >}})
 * [GNU Linux basic commands, part two](/en/linux/linux-basic-commands-passwd-du-useradd-usermod-fdisk-lscpu-apt-which/).
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## printenv

@@ -47,6 +47,8 @@ const profile = userData.profile
 const email = userData.email
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Now we can access the constants individually without referring to the object. But, aren't we repeating userData in each assignment?

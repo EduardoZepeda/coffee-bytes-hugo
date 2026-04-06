@@ -89,6 +89,8 @@ Ahora prueba lo siguiente en este sandbox:
 
 Remueve únicamente la función memo del ChildComponent y escribe en el input. ChildComponent se re-renderizará con cada nueva tecla presionada. Un mensaje nuevo en terminal aparecerá por cada renderización.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```javascript

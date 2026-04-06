@@ -24,6 +24,8 @@ hashmap.set("key", value)
 hashmap["key"] = value
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Every worth-learning language has its own hashmap implementation, you know, the way it works under the hood, and most devs just don't give a damn about it, which is fine, I support high level abstractions.

@@ -47,6 +47,8 @@ Remember that **when we schedule a task in Crontab, we do not have access to all
 
 For the wallpaper changer to work we will need to pass the environment variable called DBUS_SESSION_BUS_ADDRESS to the script we place in Crontab. To find the value of the environment variable we can do it from terminal, using the printenv command.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

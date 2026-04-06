@@ -60,6 +60,8 @@ class Order(models.Model):
     total = models.DecimalField(max_digits=18, decimal_places=9)
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Tras aplicar las migraciones, el código anterior creará dos modelos: vendedor (Seller) y pedido (Order). Un vendedor puede tener muchos pedidos. Un pedido corresponde a un único vendedor y tiene un total, expresado en números decimales.

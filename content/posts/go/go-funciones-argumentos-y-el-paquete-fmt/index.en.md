@@ -101,6 +101,8 @@ func split(sum int) (x, y int) {
 
 This syntax may seem a bit tricky, but it is really very simple. Remember I told you that the type of data that a function returns goes after the arguments? (x, y int)_ Well here, in addition to the type, we specify which variables will be returned and of what type, **in case we don't put anything after return**.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Basically we are telling go: "hey, if I don't put anything after the return, return the variables "x" and "y", which are of type _int_.

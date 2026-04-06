@@ -37,6 +37,8 @@ To handle this information in common we need a channel layer (an optional featur
 
 To use a channel layer in development we need to add an extra configuration to our configuration file and modify our consumer object. This configuration below tells Django to handle the channel layer in memory and is perfect for testing in development.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

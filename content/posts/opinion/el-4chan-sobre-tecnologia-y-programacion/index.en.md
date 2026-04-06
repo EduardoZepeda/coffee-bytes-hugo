@@ -27,6 +27,8 @@ In this place there are several interesting boards, I will only list a few, as t
 
 ### /λ/
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 This board is fully specialized in programming, there are threads for Python, Javascript, as well as Lua, Rust, Scala and other less popular languages. Tutorials and material to learn about the subject are frequently shared. Occasionally there are people asking for advice on some quite particular topics.

@@ -64,6 +64,8 @@ Por cierto, aquí están [mis recursos y libros favoritos para aprender Python](
 
 Si quieres ahondar en lo que menciono arriba, sigue leyendo.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Javascript vs Python, usos de ambos lenguajes

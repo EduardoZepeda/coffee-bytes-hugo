@@ -39,6 +39,8 @@ for job in jobs:
     async process_concurrent_job()
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Esto puede pintar bastante bien, al principio, pero tiene múltiples desventajas; La primera, se estarán creando workers sin control, lo que puede incrementar el uso de memoria de tu programa increíblemente rápido; la segunda, estás creando y destruyendo workers constantemente, lo cual puede ser costoso para tu programa.

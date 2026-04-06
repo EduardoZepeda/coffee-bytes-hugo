@@ -31,6 +31,8 @@ Si no tienes idea de lo que estoy hablando te tengo un excelente recurso que pue
 
 ## La manera incorrecta de crear matrices en Python
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Conociendo la manera de crear arrays usando el operador de multiplicación, podríamos pensar en crear una matriz bidimensional de la siguiente manera:

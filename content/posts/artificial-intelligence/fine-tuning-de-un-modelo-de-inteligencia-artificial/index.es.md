@@ -119,6 +119,8 @@ Lo mejor sería usar tus propias GPUs, pero en caso de que te sea imposible, Goo
 
 En mi búsqueda también encontré una empresa llamada [salad](https://salad.com/#?), que sirve como intermediario entre usuarios y gamers que quieren alquilar sus GPUs, los precios son increíblemente competitivos. [VastAI](https://vast.ai/#?) también es otra opción. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) también tiene precios bastante competitivos y provee una amplia variedad de GPUs de donde elegir.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Ahora tenemos todo lo que necesitamos, revisemos el proceso brevemente.

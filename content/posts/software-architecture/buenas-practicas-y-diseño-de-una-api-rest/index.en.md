@@ -58,6 +58,8 @@ Twitter has its own way of doing things, the response from an individual resourc
 
 For multiple resources, Twitter decided to include them within an array.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```json

@@ -31,6 +31,8 @@ Graphql allows you to integrate requests from multiple sources into a single API
 
 {{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Differences between REST and Graphql"  width="800" height="800" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 The schema tells graphql what kind of objects we will return and what fields of these objects, graphql will use a resolver to get that information from a database or any other reference.

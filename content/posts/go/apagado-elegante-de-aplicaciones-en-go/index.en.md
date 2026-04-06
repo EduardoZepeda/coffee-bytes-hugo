@@ -21,6 +21,8 @@ As you probably already know, the Linux kernel is in charge of "lending" resourc
 
 Because linux is the kernel of the system, it is able to call back those resources at any time and close the application.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Linux can "nicely" ask applications for the resources it lent them or "take them away" by force. To do this, Linux sends a series of signals to the application, some of which can be captured and handled by the application itself, with code in Go.

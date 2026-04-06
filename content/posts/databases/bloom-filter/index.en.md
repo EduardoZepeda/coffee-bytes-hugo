@@ -63,6 +63,8 @@ When you add an item, the filter runs it through each hash function. Each functi
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0   | 0   | 1   | 0   | 0   | 0   | 1   | 1   | 0   | 0   |
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### There are no deletions in classic bloom filters

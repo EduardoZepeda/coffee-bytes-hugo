@@ -1,0 +1,182 @@
+{{/*
+  adsPanels shortcode
+  
+  Displays 1-2 sticky affiliate book panels in the right-panel sidebar.
+  Matches the current page's category with ads_data.yaml entries.
+  
+  Usage: {{< adsPanels >}}
+*/}}
+
+{{ $lang := .Site.Language.Lang }}
+{{ $categories := .Page.Params.categories }}
+{{ $adsData := index .Site.Data.ads_data $lang }}
+
+{{ if and $adsData $categories }}
+  {{ $matchedCategories := slice }}
+  {{ range $categories }}
+    {{ $cat := . | lower }}
+    {{ $entry := index $adsData $cat }}
+    {{ if and $entry $entry.title }}
+      {{ $matchedCategories = $matchedCategories | append $entry }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (len $matchedCategories) 0 }}
+    <script>
+      console.log('adsPanels: matchedAds =', {{ jsonify $matchedCategories }});
+      console.log('adsPanels: window.innerWidth =', window.innerWidth);
+      
+      (function() {
+        document.addEventListener('DOMContentLoaded', function() {
+          var rightPanel = document.getElementById('right-panel');
+          if (!rightPanel) {
+            console.warn('adsPanels: right-panel not found');
+            return;
+          }
+
+          var matchedAds = JSON.parse({{ jsonify $matchedCategories }});
+          
+          if (!matchedAds || !Array.isArray(matchedAds) || matchedAds.length === 0) {
+            console.warn('adsPanels: no valid ads');
+            return;
+          }
+          
+          console.log('adsPanels: creating container and rendering', matchedAds.length, 'ads');
+          
+          var container = document.createElement('div');
+          container.id = 'ads-panels-container';
+          container.className = 'ads-panels-sticky';
+          rightPanel.appendChild(container);
+          
+          matchedAds.forEach(function(ad) {
+            if (!ad || !ad.title) return;
+            
+            var panel = document.createElement('div');
+            panel.className = 'ad-panel';
+            panel.innerHTML = 
+              '<div class="ad-panel-content">' +
+                '<img src="' + ad.imageSrc + '" alt="' + (ad.imageAlt || ad.title) + '" class="ad-book-image" loading="lazy" />' +
+                '<h4 class="ad-title"><strong>' + ad.title + '</strong></h4>' +
+                (ad.description ? '<p class="ad-description">' + ad.description + '</p>' : '') +
+                (ad.link ? '<a href="' + ad.link + '" target="_blank" rel="sponsored nofollow" class="ad-link-button">' + (ad.linkText || 'Learn More') + '</a>' : '') +
+              '</div>';
+            
+            container.appendChild(panel);
+          });
+          
+          console.log('adsPanels: rendered successfully');
+          console.log('adsPanels: container innerHTML:', container.innerHTML.substring(0, 200));
+        });
+      })();
+    </script>
+  {{ end }}
+{{ end }}
+
+<style>
+  .ads-panels-sticky {
+    position: sticky;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 10;
+  }
+
+  .ad-panel {
+    background: transparent;
+    border-radius: 8px;
+    padding: 16px 24px;
+  }
+
+  .ad-panel:hover {
+    transform: none;
+  }
+
+  .ad-panel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .ad-book-image {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+
+  .ad-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+    color: var(--secondary-text);
+    line-height: 1.3;
+  }
+
+  .ad-description {
+    font-size: 0.75rem;
+    color: var(--secondary-text);
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .ad-link-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #ffa41c;
+    color: #111;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: background 0.2s ease, opacity 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .ad-link-button:hover {
+    background: #f08804;
+    opacity: 1;
+  }
+
+  @media (max-width: 768px) {
+    .ads-panels-sticky,
+    .ad-panel,
+    #ads-panels-container {
+      display: none;
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .ads-panels-sticky {
+      position: static;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .ad-panel {
+      max-width: 200px;
+      flex: 0 0 auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .ads-panels-sticky {
+      flex-direction: column;
+    }
+
+    .ad-panel {
+      max-width: 100%;
+    }
+  }
+</style>

@@ -38,6 +38,8 @@ Like what features? [According to its creators, Devin AI can](https://www.cognit
 
 ## Who is behind Devin AI?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Behind Devin AI is Cognition labs, a relatively new company that had been kept behind the scenes until yesterday. Their [Twitter account](https://twitter.com/cognition_labs#?) is less than two days old at the time of writing (although it already accumulates over 86k followers).

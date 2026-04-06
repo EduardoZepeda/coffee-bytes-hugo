@@ -44,6 +44,8 @@ Si colocamos un script de Python que contenga el bloque de código anterior en C
 
 ## Agregar variables de entorno a Crontab
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Recuerda que cuando programamos una tarea en Crontab, no tenemos acceso a todas las variables de entorno. Para que el cambiador de wallpaper funcione necesitaremos pasarle la variable de entorno llamada DBUS\_SESSION\_BUS\_ADDRESS al script que coloquemos en Crontab. Para encontrar el valor de la variable de entorno podemos hacerlo desde terminal, usando el comando printenv.

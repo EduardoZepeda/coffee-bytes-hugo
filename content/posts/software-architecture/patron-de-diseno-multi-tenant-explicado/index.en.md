@@ -26,6 +26,8 @@ In multi-tenant architecture, each tenant can be a company, a group or an indivi
 
 Multi-tenant architecture is like a modern office building where different companies (tenants) (like wework but less corrupt) share the same physical infrastructure - elevators, security systems, utilities, and building management - but each company has completely isolated office spaces with their own data, configurations, and customizations that other companies cannot access. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Just as the building owner maintains one set of systems while serving multiple businesses, a multi-tenant application serves multiple organizations using a single instance of the software and database infrastructure, **with strict data isolation between tenants**. 

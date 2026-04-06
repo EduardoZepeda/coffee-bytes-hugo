@@ -19,6 +19,8 @@ title: 'Django channels: consumers, environments and events'
 
 Why Django channels? Because Django does not allow us to create applications with real-time communication natively. Django channels gives Django the ability to handle protocols that require a persistent connection, such as WebSockets, MQTT, chatbots, while keeping intact its integration with the session system, authentication and the rest of the framework.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Django channels places an intermediate layer that is in charge of processing http requests to django views and websocket connections to an http consumer or a websocket consumer.

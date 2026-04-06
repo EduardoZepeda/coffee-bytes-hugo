@@ -25,6 +25,8 @@ Let's start with the most basic searches.
 
 ## contains and icontains with Django and Postgres
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Django has a number of basic functions that allow you to search for an exact match of a text string.

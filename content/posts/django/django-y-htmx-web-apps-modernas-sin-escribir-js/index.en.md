@@ -101,6 +101,8 @@ class Videogame(models.Model):
 
 Now let's run the migrations and create a super user.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

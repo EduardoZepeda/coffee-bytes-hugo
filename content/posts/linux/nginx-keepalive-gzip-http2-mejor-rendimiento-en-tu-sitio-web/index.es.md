@@ -26,6 +26,8 @@ Por más sorprendente que suene, muchos servidores no habilitan HTTP/2 por defec
 
 Primero vamos al archivo donde tenemos habilitado nuestro sitio web en nginx:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

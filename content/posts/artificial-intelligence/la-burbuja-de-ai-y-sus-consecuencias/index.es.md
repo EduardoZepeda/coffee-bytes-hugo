@@ -33,6 +33,8 @@ Quizás la inteligencia no es posible sin la consciencia, como Penrose y [el exp
 
 Incluso [Sam Altman dice que ve una burbuja de AI](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), de acuerdo a los medios:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 > “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 

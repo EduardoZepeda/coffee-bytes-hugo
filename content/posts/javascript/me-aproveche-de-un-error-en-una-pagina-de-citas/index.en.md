@@ -20,6 +20,8 @@ title: I took advantage of an error in the code of a dating app
 
 While using a Tinder-style dating app, one of those in which, after a mutual like, the application puts the people involved in contact, I noticed that, to promote their premium plan, they used obfuscated blurred pictures to introduce you to the people who had pressed the Like button on your profile.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 After having a couple of matches I noticed that the obfuscated pictures belonged to real accounts, that is, they were not a set of generic images or placeholders.

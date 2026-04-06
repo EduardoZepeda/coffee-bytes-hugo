@@ -42,6 +42,8 @@ See the following comparisons using information from [Techempower](https://www.t
 
 ### Performance for requests with a query
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 The number indicates the number of responses per second for a single query, of course the higher the better.

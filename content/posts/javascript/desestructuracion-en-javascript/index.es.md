@@ -33,6 +33,8 @@ Supongamos que tenemos almacenado un objeto que representa los datos de una cuen
 const userData = {isLoggedIn: True, profile: "Admin", email: "email@example.org"}
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 El objeto anterior tiene las propiedades isLoggedIn, profile y email. Si nosotros quisieramos acceder a los valores, ya sea para mostrar algún contenido condicionalmente tendríamos que hacer lo siguiente:

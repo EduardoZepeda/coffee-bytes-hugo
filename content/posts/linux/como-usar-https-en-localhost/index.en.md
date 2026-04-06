@@ -34,6 +34,8 @@ This is the case for apps on X (formerly Twitter) or Facebook developer platform
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1739482326/facebook-developer-app-https-callback_hmhesu.png" class="md-local-image" alt="Facebook developer portal callback needs https" caption="Facebook developer portal callback needs https"  width="722" height="557" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 There are several ways of dealing with this, one of them is to sign our own certificates manually, which can be cumbersome in my opinion, but let's skip that and do it the quick and easy way.

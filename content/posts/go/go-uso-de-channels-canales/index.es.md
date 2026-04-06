@@ -118,6 +118,8 @@ func main() {
 }
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Canales de entrada y salida

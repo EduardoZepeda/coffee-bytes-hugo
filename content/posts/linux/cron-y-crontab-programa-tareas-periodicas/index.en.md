@@ -70,6 +70,8 @@ This configuration would execute the _script.py_ file every minute, every hour, 
 
 On the other hand, the above configuration would run _script.py_ every day at 6:00 am.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

@@ -196,6 +196,8 @@ Rust cuenta con su propia biblia, llamada ["The Rust book", disponible en múlti
 
 Si leer un libro grueso no es tu estilo y prefieres una educación de primera, educative tiene [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr) por menos del precio de una comida bien servida.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Platzi

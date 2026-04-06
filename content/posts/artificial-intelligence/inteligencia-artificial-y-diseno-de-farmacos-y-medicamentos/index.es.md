@@ -69,6 +69,8 @@ Y no solo eso, un fármaco puede encajar parcialmente en un receptor, lo cual pu
 
 Administrar un fármaco no es tan simple como un "A" produce "B". Un fármaco no suele tener un solo efecto, sino múltiples. Existen incluso fármacos que tienen como efecto secundario la posibilidad de muerte súbita, sí, así como lo estás leyendo, lo tomas y existe una posibilidad (ínfima, eso sí) de que caigas muerto. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Un fármaco óptimo va a provocar el efecto deseado con un mínimo de efectos secundarios, tanto a corto como a largo plazo.

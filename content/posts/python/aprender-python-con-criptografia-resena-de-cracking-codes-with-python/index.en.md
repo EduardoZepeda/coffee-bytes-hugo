@@ -26,6 +26,8 @@ If you have no idea what cryptography is, you can take this rather simple defini
 
 ## Learn python with cryptography
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Codes with secret information? Like secret messages? Yes, messages that if someone were to read, they wouldn't know what they mean. Look at these examples, do you already know what message each one hides?

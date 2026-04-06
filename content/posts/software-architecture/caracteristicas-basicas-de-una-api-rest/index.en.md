@@ -25,6 +25,8 @@ This publication is a minimal guide of practical tips on REST API design, what i
 
 In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## What is an API?

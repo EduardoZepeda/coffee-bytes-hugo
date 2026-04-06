@@ -15,6 +15,8 @@ keywords:
 title: Logging with the standard library in Go
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 As you probably already know, you should not use prints for debugging. The standard go logging library is much more versatile, it adds dates, filenames and other information, plus you can redirect the logs to standard output, to a file or wherever you want. This can make your debugging process more enjoyable and [your go testing](/en/go/go-basic-testing-and-coverage/) easier.

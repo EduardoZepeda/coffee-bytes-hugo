@@ -18,6 +18,8 @@ Previously I explained you how to implement [full text search in Django](/en/dja
 
 ## How does Solr work?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Internally Solr uses Lucene, which is the search engine that is in charge of generating an index to make the queries and all the options related to the searches, Solr adds some extra functions and gives us a friendly interface to work with. From now on I will refer to the union of Lucene and Solr only as Solr.

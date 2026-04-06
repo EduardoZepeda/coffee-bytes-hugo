@@ -62,6 +62,8 @@ Twitter tiene su propia manera de hacer las cosas, la respuesta de un recurso in
 
 Para recursos múltiples, Twitter decidió incluirlos dentro de un array.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```json

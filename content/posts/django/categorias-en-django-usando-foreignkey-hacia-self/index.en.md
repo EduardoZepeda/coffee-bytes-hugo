@@ -40,6 +40,8 @@ class SubCategory(models.Model):
 
 This approach to the hierarchy problem in Django looks good at first glance. The resulting structure will look something like this:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745886724/coffee-bytes/category-subcategory_mtkzpy.png" class="md-local-image" alt="Subcategory model schema with ForeignKey made Category in Django"  width="979" height="379" >}}

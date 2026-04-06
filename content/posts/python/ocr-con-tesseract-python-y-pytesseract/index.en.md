@@ -36,6 +36,8 @@ tesseract 5.0.0-alpha-20201224-3-ge1a3
 
 Differences in OCR engine efficiency between tesseract 3 and tesseract 5 alpha. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Version 5 shows better performance" caption="Comparison between OCR performance of tesseract 3 and tesseract 5"  width="1200" height="630" >}}

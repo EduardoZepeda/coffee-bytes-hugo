@@ -30,6 +30,8 @@ Los arrays son **colecciones de datos inmutables**, para crear un _array_ necesi
 var array [4]int
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 En el ejemplo anterior, tenemos un _array_ con espacio para 4 enteros. Los valores que no asignemos se asignarán como zero values.

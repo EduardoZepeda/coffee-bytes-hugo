@@ -76,6 +76,8 @@ list_of_images = [image for image in os.listdir() if image.endswith(tuple(allowe
 
 _os.listdir()_ nos devolverá una lista con todos los archivos en nuestra carpeta actual, es decir todos aquellos wallpapers contenidos en la carpeta a la que nos cambiamos con _os.chdir()_.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Con _tuple(allowed\_image\_formats)_ simplemente estamos transformando nuestra lista de formatos aceptados en una tupla.

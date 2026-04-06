@@ -65,6 +65,8 @@ And not only that, a drug may partially fit a receptor, which may cause an effec
 
 Administering a drug is not as simple as an "A" produces "B". A drug does not usually have only one effect, but multiple ones. There are even drugs that have as a side effect the possibility of sudden death, yes, just as you are reading it, you take it and there is a possibility (tiny, yes) that you will drop dead. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 An optimal drug will cause the desired effect with a minimum of side effects, both in the short and long term.

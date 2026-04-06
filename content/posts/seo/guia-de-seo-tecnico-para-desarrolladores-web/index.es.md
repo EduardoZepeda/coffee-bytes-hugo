@@ -165,6 +165,8 @@ Lo mejor sería dotarles de una estructura consistente y más explícita:
 /directors/nawapol-thamrongrattanarit/
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Probablemente no estés usando correctamente las etiquetas HTML

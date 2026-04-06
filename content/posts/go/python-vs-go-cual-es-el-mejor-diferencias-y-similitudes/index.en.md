@@ -239,6 +239,8 @@ wg.Wait()
 
 ### Asynchronism in Python
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 In Python, coroutines did not appear until version 3.5. Asynchronous functions run in a single thread and only switch to another coroutine when an asynchronous operation is encountered.

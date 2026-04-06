@@ -113,6 +113,8 @@ Lo comento porque me pareció bastante extraño dado que en su plataforma todo p
 
 Pero dejando de lado eso, yo creo que está bien logrado y el resultado es sólido. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Landing Page en Bolt

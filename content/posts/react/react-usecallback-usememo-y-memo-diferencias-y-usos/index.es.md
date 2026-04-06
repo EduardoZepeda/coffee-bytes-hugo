@@ -39,6 +39,8 @@ Imagína que quieres multiplicar los números 17 y 19. Tomarías papel y pluma o
 
 Mientras te sigan preguntando por la multiplicación de 17 y 19 tu podrás devolver una respuesta sin calcularla nuevamente. Acabas de memoizar el resultado de multiplicar 17 y 19 y puedes devolverlo sin tener que calcularlo nuevamente.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Ahora te explico como maneja Javascript los objetos.

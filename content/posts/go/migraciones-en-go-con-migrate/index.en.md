@@ -31,6 +31,8 @@ A migration consists of two files with SQL statements:
 * file up: To make changes in the database.
 * down file: To revert changes in the database.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 For this case they are called up and down, but you could give them any other names; such as forward and backward, or next and previous.

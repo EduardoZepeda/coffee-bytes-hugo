@@ -31,6 +31,8 @@ En este lugar hay varios boards interesantes, solo enunciaré unos cuantos, pues
 
 ### /λ/
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Este board está totalmente especializado en programación, hay hilos de Python, Javascript, así como también de Lua, Rust, Scala y otros lenguajes menos populares. Frecuentemente se comparten tutoriales y material para aprender sobre el tema. Ocasionalmente hay personas pidiendo consejos sobre algunos tópicos bastante particulares.

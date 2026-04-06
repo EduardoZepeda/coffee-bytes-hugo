@@ -37,6 +37,8 @@ What would have happened if instead of 5 petabytes it had been 5 GB of data? The
 
 In this case, time is constant. You know what they decided? That's right, the scientists opted to ship the hard disks by plane.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 | Information       | Internet (50 MB/s)            | Plane    |

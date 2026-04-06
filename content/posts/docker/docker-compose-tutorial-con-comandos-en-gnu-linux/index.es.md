@@ -310,6 +310,8 @@ services:
       - "dbdata:/var/lib/postgresql/data"
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Opcionalmente podemos especificar si el uso de volúmenes será de solo lectura o de lectura y escritura, con "ro" y "rw", respectivamente.

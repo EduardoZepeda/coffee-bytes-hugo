@@ -104,6 +104,8 @@ export default App;
 
 ### El patrón de subcomponentes en React se complica
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 El [patrón componente como namespace](https://medium.com/@kunukn_95852/react-components-with-namespace-f3d169feaf91) es bastante sencillo de crear sin usar React.FC, pero con React.FC puede complicarse bastante.

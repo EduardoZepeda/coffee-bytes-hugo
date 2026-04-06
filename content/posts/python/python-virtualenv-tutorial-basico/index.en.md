@@ -27,6 +27,8 @@ mkdir entornoVirtual; cd entornoVirtual
 
 Once we are inside this new directory we will verify our Python installation:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

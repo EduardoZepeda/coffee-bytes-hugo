@@ -20,6 +20,8 @@ title: Top 5 Favorite Algorithm Problems at Codewars
 
 ## What is codewars?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Codewars is a social network of programmers who get together to challenge each other to solve code challenges. Codewars is one of **the best websites for practicing algorithms and solving Katas**. Katas? Yes, as in Karate.

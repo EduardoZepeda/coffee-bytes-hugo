@@ -31,6 +31,8 @@ mkdir entornoVirtual; cd entornoVirtual
 
 Una vez que estemos adentro de este nuevo directorio verificaremos nuestra instalación de Python:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```bash

@@ -72,6 +72,8 @@ python manage.py migrate
 
 If everything went well, we add the necessary paths, I have added them to _api/authentication/_, but you can use another path.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

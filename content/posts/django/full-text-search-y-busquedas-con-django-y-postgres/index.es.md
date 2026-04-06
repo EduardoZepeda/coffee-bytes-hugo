@@ -29,6 +29,8 @@ Empecemos por las búsquedas más básicas.
 
 ## contains e icontains con Django y Postgres
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Django tiene una serie de funciones básicas que te permiten buscar la coincidencia exacta de una cadena de texto.

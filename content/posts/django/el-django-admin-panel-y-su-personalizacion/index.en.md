@@ -37,6 +37,8 @@ If not, or if you start from a previous installation, you must first make sure t
 
 After all, if you can't authenticate or log in, you won't be able to enter the administration panel, will you?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

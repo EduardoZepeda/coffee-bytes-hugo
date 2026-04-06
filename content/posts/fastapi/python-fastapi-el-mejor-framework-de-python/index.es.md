@@ -47,6 +47,8 @@ Mira las siguientes comparaciones que usan información de [Techempower](https:/
 
 ### Rendimiento para peticiones con una query
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 El número indica la cantidad de respuestas por segundo para un single query, por supuesto que mientras más alto mejor.

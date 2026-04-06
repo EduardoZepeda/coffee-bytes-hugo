@@ -244,6 +244,8 @@ wg.Wait()
 
 ### Asincronismo en Python
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 En Python las corutinas no aparecieron hasta su versión 3.5. Las funciones asíncronas se ejecutan en un hilo sencillo y únicamente cambian a otra corrutina cuando una operación asíncrona es encontrada.

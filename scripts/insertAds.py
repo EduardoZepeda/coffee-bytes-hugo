@@ -50,14 +50,20 @@ def process_file(file_path):
                 paragraphs_before.append(para_start)
                 current_pos = para_start
             
-            # Insert {{<ad0>}} before the 8th paragraph if found and not in code block
+            # Insert {{<adsPanels>}}
+
+{{<ad0>}} before the 8th paragraph if found and not in code block
             if len(paragraphs_before) >= 8:
                 insert_pos = paragraphs_before[7]  # Position before the 8th paragraph back
                 if not is_in_code_block(new_content, insert_pos):
-                    new_content = new_content[:insert_pos] + '\n\n{{<ad0>}}' + new_content[insert_pos:]
+                    new_content = new_content[:insert_pos] + '\n\n{{<adsPanels>}}
+
+{{<ad0>}}' + new_content[insert_pos:]
                     modified = True
                     # Adjust all subsequent positions since we inserted content
-                    pos += len('\n\n{{<ad0>}}')
+                    pos += len('\n\n{{<adsPanels>}}
+
+{{<ad0>}}')
 
             # restart current position to {{<add>}}
             current_pos = start_pos

@@ -19,6 +19,8 @@ title: 'Go: introduction to goroutines and concurrency'
 
 As I mentioned in the introduction to the go programming language: [go is a specialized concurrency language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}). It is a language that was designed to handle multiple tasks asynchronously. This entry is about go channels.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}

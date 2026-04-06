@@ -18,6 +18,8 @@ slug: /opinion/cuidado-con-el-shiny-object-syndrome-y-el-fomo-en-el-desarrollo-w
 title: Cuidado Con El Shiny Object Syndrome Y El FOMO En El Desarrollo Web
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Con todos los rápidos cambios que ocurren en el desarrollo web: frameworks, lenguajes, herramientas, librerías, etc. Es inevitable sufrir un poco de Shiny Object Syndrome y algo de FOMO. Pero es conveniente identificar estos impulsos y su naturaleza para evitar sufrir las consecuencias de ignorarlos.

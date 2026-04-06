@@ -95,6 +95,8 @@ export default App;
 
 ### Subcomponent pattern in React gets more complicated using React.FC
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 The [component pattern as namespace](https://medium.com/@kunukn_95852/react-components-with-namespace-f3d169feaf91) is fairly simple to create without using *React.FC*, but with *React.FC* it can get quite complicated.

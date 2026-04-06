@@ -26,6 +26,8 @@ Acabo de probar Google Notebooklm, y esta sensación de novedad y emoción se ap
 
 ## Notebooklm te deja crear un podcast a partir de tus notas
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Seguramente ya has escuchado hablar de esta herramienta, y si no, pues te explico a continuación. 

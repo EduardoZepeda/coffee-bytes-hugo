@@ -24,6 +24,8 @@ I just tried Google Notebooklm, and this feeling of novelty and excitement took 
 
 ## Google Notebooklm lets you create a podcast from your notes
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 You've probably already heard of this tool, and if you haven't, I'll explain below. 

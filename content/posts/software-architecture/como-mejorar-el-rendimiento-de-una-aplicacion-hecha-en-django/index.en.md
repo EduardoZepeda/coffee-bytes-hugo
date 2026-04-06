@@ -28,6 +28,8 @@ It's also a good time to remember that if your application is just starting out,
 
 As you know, database access is usually the bottleneck of most applications. **The most important action to take is to reduce the number of queries and the impact of each one of them**. You can reduce the impact of your queries by 90%, and I am not exaggerating.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 It is quite common to write code that occasions multiple queries to the database, as well as quite expensive searches.

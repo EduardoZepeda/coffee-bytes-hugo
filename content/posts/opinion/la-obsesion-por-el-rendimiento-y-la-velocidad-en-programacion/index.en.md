@@ -27,6 +27,8 @@ In the world of programmers there is an obsession with speed and performance; we
 
 In this constant search we go from high level languages to lower level languages, we wander through the darkest corners of the documentation towards the most esoteric runtimes written in arcane languages whose names seem to be taken out of a dictionary of another language. Did any particular one come to your mind?. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Throughout this virtual odyssey, we completely forgot about what is probably the only factor that matters: the boring market.

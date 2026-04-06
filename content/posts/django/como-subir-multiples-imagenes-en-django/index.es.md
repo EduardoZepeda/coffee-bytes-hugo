@@ -30,6 +30,8 @@ Primero instalamos Django usando pipenv. Además instalaremos Pillow dado que tr
 pip install django Pillow
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 A continuación vamos a crear un nuevo proyecto y entraremos en la carpeta recién creada.

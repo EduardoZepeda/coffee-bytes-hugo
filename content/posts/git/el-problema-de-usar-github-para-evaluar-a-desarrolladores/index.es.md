@@ -36,6 +36,8 @@ Es una práctica común usar Github para evaluar las capacidades de un desarroll
 {{< figure src="images/github-as-past-review-tool.webp" class="md-local-image" alt="Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien" caption="Esto es sólo una representación de cómo un gráfico de contribución de github puede ser un reflejo de la vida de alguien"  width="1300" height="350" >}}
 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ¿Pero porqué alguien no querría mostrar la ~~horrible calidad de su código hecho en javascript~~ calidad de su código? Una de las razones es que probablemente esté demasiado ocupada escribiendo código que sí paga, en lugar de contribuir al open source.

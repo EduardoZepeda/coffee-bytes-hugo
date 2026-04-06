@@ -21,6 +21,8 @@ To explain the topic I will assume you know the basics of slices and data types 
 
 {{<box link="/en/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="Hey! did you know that I wrote a completely Free Go programming language tutorial?, click here to read it it">}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## A little bit about conventions

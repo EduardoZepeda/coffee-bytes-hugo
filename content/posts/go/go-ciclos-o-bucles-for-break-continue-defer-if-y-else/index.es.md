@@ -27,6 +27,8 @@ Bien, pues en el lenguaje de programación go no existen más que los bucles for
 
 Si no sabes nada sobre Go y quieres empezar por lo básico visita mi entrada [Golang: introducción, variables y tipos de datos]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="es" >}}).
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Si actualmente usas Python y quieres ver como es diferente de Go, visita mi entrada de [python vs go]({{< ref path="/posts/go/python-vs-go-cual-es-el-mejor-diferencias-y-similitudes/index.md" lang="es" >}}).

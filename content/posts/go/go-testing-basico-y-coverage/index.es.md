@@ -43,6 +43,8 @@ Considera que, si vas a [asignarle un nombre a tu paquete](/es/go/go-importacion
 
 Para crear los tests, dentro del archivo _testing/main\_test.go_, necesitamos una función que reciba de argumento nuestro paquete de testing con el carácter de desestructuración.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Compararemos el resultado usando un if, o lo que querramos y, **si el test falla, llamaremos al método _Errorf_** del modulo de _testing_.

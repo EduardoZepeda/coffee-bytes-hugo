@@ -23,6 +23,8 @@ Anteriormente te expliqué como implementar [full text search en Django](/es/dja
 
 ## ¿Cómo funciona Solr?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Internamente Solr usa Lucene, que es el motor de búsqueda que se encarga de generar un índice para realizar las consultas y todas las opciones relacionadas con las búsquedas, Solr agrega unas funciones extras y nos da una interfaz amigable para trabajar. De aquí en adelante me referiré a la unión de Lucene y Solr solo como Solr.

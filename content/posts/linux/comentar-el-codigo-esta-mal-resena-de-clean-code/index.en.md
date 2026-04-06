@@ -137,6 +137,8 @@ is_product_available = check_if_product_available()
 
 In the chapter that discusses functions, *uncle bob* emphasizes the need to keep the arguments a function receives to a minimum, furthermore he believes that any function that receives more than three arguments **should not be used**.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 From our clean code foreman's point of view, arguments force you to require more information from a function than its name, as you must now understand how variables interact within the function's logic, plus they are difficult to include in tests since you have to try different combinations of these to make sure you cover every instance of the function. 

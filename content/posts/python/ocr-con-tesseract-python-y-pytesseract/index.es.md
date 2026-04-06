@@ -43,6 +43,8 @@ tesseract -v
 tesseract 5.3.0
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/OCRTesseractVersion5vsVersion3-2.png" class="md-local-image" alt="Diferencias de la eficacia del motor de OCR de tesseract 3 y tesseract 5 alpha. La version 5 presenta un mejor rendimiento." caption="Comparación entre el resultado del OCR entre tesseract 3 y tesseract 5"  width="1200" height="630" >}}

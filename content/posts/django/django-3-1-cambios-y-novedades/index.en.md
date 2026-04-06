@@ -48,6 +48,8 @@ Django now incorporates three decorators for your middleware factories. Also, if
 * async_only_middleware()
 * y sync_and_async_middleware()
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

@@ -17,6 +17,8 @@ keywords:
 title: Be careful of Shiny Object Syndrome and FOMO in web development
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 With all the rapid changes happening in web development: frameworks, languages, tools, libraries, etc. It is inevitable to suffer a bit of Shiny Object Syndrome and some FOMO. But it is convenient to identify these impulses and their nature to avoid suffering the consequences of ignoring them.

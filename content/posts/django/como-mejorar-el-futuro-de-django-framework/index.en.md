@@ -23,6 +23,8 @@ On June 21, 2024 I started a thread on reddit with the following question: "What
 
 {{< figure src="https://htmx.org/img/memes/20yearold.png" class="md-local-image" alt="HTMX Meme" caption="HTMX meme" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Would type hints improve Django Framework?

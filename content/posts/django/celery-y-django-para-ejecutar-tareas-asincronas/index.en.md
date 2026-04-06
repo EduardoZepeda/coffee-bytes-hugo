@@ -36,6 +36,8 @@ def slowResponseView(request):
 
 Notice how after accessing the url, **the answer does not appear until after 3 seconds**. During that time our application is busy. That _time.sleep()_ that causes the delay could represent an email sending, the waiting time to an external API, a very computationally expensive calculation or any other task that requires a long time to be performed.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/slowResponseView-1.gif" class="md-local-image" alt="Time-consuming task delays server response"  width="1000" height="327" >}}

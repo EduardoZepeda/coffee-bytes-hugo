@@ -34,6 +34,8 @@ As with asynchronous tasks, we also need rabbitmq or another broker.
 sudo apt install rabbitmq-server
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Next, at the same level as our configuration file, we will create a file called _celery.py_, where we will create a celery app and pass the django configuration to it.

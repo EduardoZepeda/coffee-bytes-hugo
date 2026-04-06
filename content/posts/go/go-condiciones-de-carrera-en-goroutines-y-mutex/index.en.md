@@ -74,6 +74,8 @@ func main() {
 
 The important part is that, within a goroutine, we read the variable content tokens, then increment it by 20 and then assign that result to tokens again. But no problem, if we run the code we will get the correct result: 320 (120 tokens + One increment of 20 tokens for each of the 10 goroutines).
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Everything is perfect, isn't it? No, the code is so small and the process happens so fast that you don't notice the problem.

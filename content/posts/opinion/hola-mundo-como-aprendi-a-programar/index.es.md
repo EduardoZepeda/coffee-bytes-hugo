@@ -34,6 +34,8 @@ Un buen día, mientras navegaba por internet, descubrí los blogs personales en 
 
 ## Internet y los blogs
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Tras leer un par de tutoriales y enterarme de lo fácil que era crear un blog, decidí crear el mío, lo nombré "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/)", por una canción de un anime llamado Shaman King. Solía llenarlo con mis pensamientos y una que otra fotografía. 

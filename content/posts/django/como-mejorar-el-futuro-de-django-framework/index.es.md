@@ -25,6 +25,8 @@ El 21 de Junio del 2024 inicié un hilo en reddit con la siguiente pregunta: "Wh
 
 {{< figure src="https://htmx.org/img/memes/20yearold.png" class="md-local-image" alt="HTMX Meme" caption="HTMX meme" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## ¿Mejorar Django Framework con type hints?

@@ -20,6 +20,8 @@ title: How to customize the User model in Django?
 
 In this post I explain three methods to extend or customize Django's _User_ model, without having to rewrite it from scratch, and keeping all [Django's user management features]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 But, before we start, let's see where Django's User model comes from.

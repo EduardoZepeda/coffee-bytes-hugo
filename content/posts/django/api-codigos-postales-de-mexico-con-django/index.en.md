@@ -25,6 +25,8 @@ If you are going to develop a REST API, I have a post with multiple [REST API de
 
 For this example I use Python 3.8, Django 3.2.5 and Pipenv version 2020.5.28.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Installation

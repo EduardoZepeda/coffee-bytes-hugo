@@ -22,6 +22,8 @@ title: ¿Cómo personalizar el modelo User en Django?
 
 En esta entrada te explico tres métodos para extender o personalizar el modelo _User_ de Django, sin tener que reescribirlo desde cero, y manteniendo todas [las funcionalidades para el manejo de de usuarios de Django.]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="es" >}})
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Pero, antes de empezar, veamos de donde viene el modelo User de Django.

@@ -35,6 +35,8 @@ Una migración consiste en dos archivos con instrucciones SQL:
 - archivo up: Para realizar cambios en la base de datos
 - archivo down: Para revertir cambios en la base de datos
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Para este caso se llaman up y down, pero podrías ponerle cualquier otros nombres; como forward y backward, o adelante y atrás.

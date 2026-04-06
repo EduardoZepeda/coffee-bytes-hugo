@@ -22,6 +22,8 @@ A sitemap is [crucial in SEO and a sitemap with errors can plummet your site vie
 
 ## Structure of a sitemap
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 A sitemap is an xml file, which has an element called urlset, which is a collection of url elements. Each url element has a location, in this case its url address, a frequency of change, a priority and other optional elements, such as images. 

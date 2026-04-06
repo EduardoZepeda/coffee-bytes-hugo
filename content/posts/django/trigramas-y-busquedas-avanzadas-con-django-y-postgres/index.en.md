@@ -23,6 +23,8 @@ What if a user's finger slips on the keyboard and types "parfume" instead of "pe
 
 {{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Search for the word \"parfume\" on amazon"  width="772" height="436" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Don't you remember the basic searches in Django? I have a post about [basic searches and full text search using Django and Postgres](/en/django/full-text-search-and-searches-with-django-and-postgres/), if you haven't read it take a look there first.

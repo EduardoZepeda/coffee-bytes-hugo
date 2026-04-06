@@ -55,6 +55,8 @@ El patrón de rebote o debounce pospone la ejecución de una función hasta que 
 
 Nuevos intentos de ejecutar la función cancelarán la ejecución pendiente y reiniciarán el tiempo de espera.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/DebounceORebote.png" class="md-local-image" alt="Esquema simplificado del patrón debounce"  width="1200" height="1200" >}}

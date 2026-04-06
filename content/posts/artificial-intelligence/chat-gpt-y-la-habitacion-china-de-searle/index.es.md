@@ -46,6 +46,8 @@ graph TD;
 
 ¿Puedes notar las similitudes con una computadora? Son bastante obvias; hay un input o entrada, un output o salida y una caja negra o programa informático, cuyos detalles del funcionamiento escaparían para los que se encuentran afuera de este pequeño sistema simplificado.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ``` mermaid

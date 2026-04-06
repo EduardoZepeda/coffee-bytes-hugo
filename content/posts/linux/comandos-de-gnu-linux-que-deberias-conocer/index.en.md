@@ -34,6 +34,8 @@ If there is a conflict, just press the TAB key twice and it will show the availa
 
 {{< figure src="images/tabular.gif" class="md-local-image" alt="autocomplete function of the tabular command in a GNU/Linux terminal"  width="802" height="97" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Press up to access previously executed commands.

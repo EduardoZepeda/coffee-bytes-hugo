@@ -33,6 +33,8 @@ Para este ejemplo el nombre del paquete será _videogame_.
 
 Una vez definido, crearé un modelo o struct en _videogame.go_.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```go

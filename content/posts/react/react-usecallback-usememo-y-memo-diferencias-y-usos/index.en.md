@@ -37,6 +37,8 @@ Imagine that you want to multiply the numbers 17 and 19. You would take paper an
 
 As long as they keep asking you for the multiplication of 17 and 19 you will be able to return an answer without recalculating it. You have just memorized the result of multiplying 17 and 19 and you can return it without having to recalculate it.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Now I will explain how Javascript handles objects.

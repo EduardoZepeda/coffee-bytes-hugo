@@ -67,6 +67,8 @@ const user = {
 }
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 El primer nivel es _data_, por lo que colocaremos dos puntos ":" ahí y seguiremos descendiendo hasta el nivel deseado . Dejemos pendiente el resto asignándole un "_{...}"_. **Si estás siguiendo este ejemplo no le des ENTER hasta el final.**

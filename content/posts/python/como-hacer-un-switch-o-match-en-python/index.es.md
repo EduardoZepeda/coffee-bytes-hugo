@@ -41,6 +41,8 @@ match subject:
         <action_wildcard
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 El case seguido del guión bajo funcionará como el caso por defecto en caso del que patrón no coincida con ningún otro. Es decir, el equivalente de _default_ en lenguajes como Javascript.

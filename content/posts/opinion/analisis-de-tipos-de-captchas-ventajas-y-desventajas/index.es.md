@@ -28,6 +28,8 @@ Estoy seguro de que ya conoces este, pues es el captcha más común, y probablem
 
 El funcionamiento interno de este tipo de captchas es muy complejo y se basa en reconocer patrones en el tráfico de un usuario y probablemente analizarlos contra el gran cantidad de información que han recopilado a lo largo de los años para luego decidir si existe una probabilidad significativa de que un usuario sea un bot.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/recaptcha-style-captcha.gif" class="md-local-image" alt="Recaptcha style captcha solved"  width="576" height="170" >}}

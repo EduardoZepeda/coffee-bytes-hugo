@@ -29,6 +29,8 @@ Para este ejemplo uso Python 3.8, Django 3.2.5 y Pipenv version 2020.5.28
 
 ## Instalación
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Para instalarla vamos a usar [Pipenv](/es/python/pipenv-el-administrador-de-entornos-virtuales-que-no-conoces/), pero puedes usar Poetry, [pip](/es/python/python-virtualenv-tutorial-basico-en-linux/) o cualquier otro gestor de entornos virtuales.

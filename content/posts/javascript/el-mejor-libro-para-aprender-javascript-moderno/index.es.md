@@ -22,6 +22,8 @@ slug: /javascript/el-mejor-libro-para-aprender-javascript-moderno/
 title: El mejor libro para aprender Javascript moderno
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Hay muchos buenos libros para aprender Javascript sin embargo el libro Eloquent Javascript de verdad me hizo entender Javascript moderno. Si piensas dedicar algunas horas a adquirir conocimiento de este lenguaje, **no pierdas tu tiempo buscando más**, difícilmente encontrarás un libro que cubra tal variedad de conceptos de una manera tan entendible y completa como este.

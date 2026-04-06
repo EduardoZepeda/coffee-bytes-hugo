@@ -79,6 +79,8 @@ For example, if we use a namespace of type UTS, the changes we make to the hostn
 
 ### cgroup
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 In linux cgroups limit what we can use.

@@ -27,6 +27,8 @@ title: Qué Tipos o Types Usar Para Componentes React Con Children
 
 Si estás dudando sobre qué tipos utilizar para los componentes de React que tienen hijos en Typescript, para que puedas heredarlos correctamente y evitar errores, entonces este es el post que necesitas leer, te explico tres enfoques diferentes que puedes guardar y utilizar como parte de tus habilidades en Typescript.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Typescript requiere que especifiquemos los types para las diferentes variables y argumentos de funciones en React. Cuando son tipos nativos no es muy complicado, pero para componentes de React puede llegar a ser diferente. Aquí dejo 3 maneras de especificar los types para componentes de React que contienen children como parte de sus props.

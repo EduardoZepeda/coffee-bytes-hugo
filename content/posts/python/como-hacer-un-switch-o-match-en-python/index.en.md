@@ -35,6 +35,8 @@ match subject:
         <action_wildcard
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 The case followed by the underscore will function as the default case in case the pattern does not match any other. That is, the equivalent of _default_ in languages like Javascript.

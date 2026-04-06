@@ -30,6 +30,8 @@ En mi entrada sobre [las características básicas sobre una API REST]({{< ref p
 
 ## ¿Qué es RPC?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Las siglas de RPC vienen de Remote Procedure Call (Llamada de procedimiento remoto en español), que, en palabras simples, se refiere a invocar a la ejecución de código en una máquina, desde otra máquina, generalmente un servidor, de manera que, para el programador, pareciera que la ejecución se realizó de manera local.

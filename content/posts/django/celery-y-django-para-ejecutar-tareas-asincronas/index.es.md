@@ -42,6 +42,8 @@ def slowResponseView(request):
 
 Observa como tras acceder a la url, **la respuesta no aparece hasta transcurridos los 3 segundos**. Durante ese tiempo nuestra aplicación está ocupada. Ese _time.sleep()_ que causa el retraso podría representar un envío de correo electrónico, el tiempo de espera a una API externa, un cálculo muy costoso a nivel computacional o cualquier otra tarea que requiera mucho tiempo en llevarse a cabo.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/slowResponseView-1.gif" class="md-local-image" alt="Tarea costosa en tiempo retrasa la respuesta del servidor"  width="1000" height="327" >}}

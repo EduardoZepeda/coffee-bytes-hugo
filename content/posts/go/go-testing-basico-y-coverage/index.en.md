@@ -41,6 +41,8 @@ Consider that, if you are going to [assign a name to your package]({{< ref path=
 
 To create the tests, inside the _testing/main_test.go_ file, we need a function that receives as argument our testing package with the destructuring character.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 We will compare the result using an if, or whatever we want and, **if the test fails, we will call the _Errorf_** method of the _testing_ module.

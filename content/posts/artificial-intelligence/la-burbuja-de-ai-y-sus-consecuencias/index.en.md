@@ -36,6 +36,8 @@ Even [Sam Altman sees an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-a
 
 > “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 And I totally agree with him.

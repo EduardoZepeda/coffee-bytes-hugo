@@ -34,6 +34,8 @@ Puedes pensar en las imágenes y contenedores **como clases y sus instancias, re
 
 Si te interesa conocer como funciona, a nivel código, un contenedor, tengo una entrada donde explico [como crear un contenedor desde cero con go]({{< ref path="/posts/docker/como-funciona-un-container-de-docker-internamente/index.md" lang="es" >}}).
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Correr un contenedor

@@ -24,6 +24,8 @@ But was this situation a corporate decision? Well, yes and no, let me expand on 
 
 ### The lack of payment methods and the slow internet of yesteryear
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Much of the commercial software was too heavy, in proportion to the size of the storage devices, to download without problems. 

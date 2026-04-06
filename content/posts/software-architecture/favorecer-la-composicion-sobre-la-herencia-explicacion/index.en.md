@@ -33,6 +33,8 @@ To build our tiny LEGO cars, there are two ways:
 
 1. Inheritance: you can start with a basic car design, and then make changes to it to create different types of cars. But sometimes this turn into a complete disaster, since you can end up with some strange cars that won't work properly.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1730783879/lego_inheritance_y0c6j1.jpg" class="md-local-image" alt="Image of a LEGO Car in one piece" caption="You start with a car and start changing parts. All rights for this image belong to LEGO"  width="562" height="562" >}}

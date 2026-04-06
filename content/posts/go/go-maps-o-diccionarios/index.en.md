@@ -125,6 +125,8 @@ To distinguish between a zero value, go provides a second return value, which in
 value, exist := dictionary["NonExistent"]
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Optional capacity in golang maps

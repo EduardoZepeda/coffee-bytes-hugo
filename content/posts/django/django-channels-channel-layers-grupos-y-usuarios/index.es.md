@@ -38,6 +38,8 @@ Para manejar esta información en común necesitamos un channel layer (una carac
 
 Para usar un channel layer en desarrollo necesitamos añadir una configuración extra a nuestro archivo de configuración y modificar nuestro objeto consumer. Está configuración de abajo le dice a Django que maneje el channel layer en memoria y es perfecto para hacer pruebas en desarrollo.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

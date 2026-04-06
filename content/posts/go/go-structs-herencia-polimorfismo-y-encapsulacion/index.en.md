@@ -32,6 +32,8 @@ type Videogame struct {
 }
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Creating instances of a struct in go

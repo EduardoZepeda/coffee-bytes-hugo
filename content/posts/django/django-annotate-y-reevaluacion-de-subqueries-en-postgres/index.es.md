@@ -51,6 +51,8 @@ El problema aquí surge cuando mezclamos subqueries con annotate, y luego proced
 
 Django no tiene la capacidad de reconocer que ya está repitiendo las subqueries una y otra vez, por lo anterior, el SQL que genera repite las mismas subqueries una y otra vez, lo que resulta en una consulta con un rendimiento pobre; caemos en el famoso problema de las *n+1 queries*. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### El SQL generado por Django usando annotate y subqueries es ineficiente

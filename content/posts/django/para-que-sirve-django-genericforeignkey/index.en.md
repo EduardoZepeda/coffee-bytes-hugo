@@ -23,6 +23,8 @@ You want to use Django to relate one model to another using a foreign key, but t
 
 The genericForeignkey field type is able to link to different types of models, allowing us to relate any other model to ours. Remember in the previous post I talked about ContentType? Well, now we will give it a practical application. If you want to review the previous post, visit my post where I talk about [ContentType in Django](/en/django/what-does-the-contenttype-application-do-in-django/)
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## The Django genericForeignKey field

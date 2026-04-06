@@ -27,6 +27,8 @@ title: Tutorial Caché con Django REST Framework y Memcached
 
 Para usar la caché en django, basta con seguir tres sencillos pasos:
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 1. Instalar un sistema de almacenamiento de caché, ya sea redis, memcached, etc

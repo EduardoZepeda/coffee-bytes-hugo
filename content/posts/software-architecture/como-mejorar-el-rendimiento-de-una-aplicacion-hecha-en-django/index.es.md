@@ -36,6 +36,8 @@ También es buen momento para recordar que si tu aplicación va empezando, proba
 
 Como ya sabes, el acceso a la base de datos suele ser el cuello de botella de la mayoría de las aplicaciones. **La acción más importante a realizar es reducir el número de queries y el impacto de cada una de estas**. Puedes reducir el impacto de tus queries en un 90%, y no exagero.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Es bastante común escribir código que ocasiones múltiples consultas a la base de datos, así como búsquedas bastante costosas.

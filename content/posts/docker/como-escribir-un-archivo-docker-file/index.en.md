@@ -104,6 +104,8 @@ As you can see, a Dockerfile is nothing more than a series of sequential instruc
 - EXPOSE: Exposes a port.
 - CMD: Execute a command when starting the container.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Now let's review the image we created above.

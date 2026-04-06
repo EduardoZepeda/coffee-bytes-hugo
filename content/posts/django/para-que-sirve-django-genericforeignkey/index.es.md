@@ -26,6 +26,8 @@ Quieres usar Django para relacionar un modelo con otro usando una llave foránea
 
 El tipo de campo genericForeignkey es capaz de enlazar a diferentes tipos de modelos, lo que nos permite relacionar cualquier otro modelo con el nuestro. ¿Recuerdas que en la entrada anterior hablé de ContentType? Pues ahora sí le daremos una aplicación práctica. Si quieres repasar un poco lo anterior, visita mi entrada donde hablo de [ContentType en Django](/es/django/que-hace-la-aplicacion-contenttype-en-django/)
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## El campo genericForeignKey

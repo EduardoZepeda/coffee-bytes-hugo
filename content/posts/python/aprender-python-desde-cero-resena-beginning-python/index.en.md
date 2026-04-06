@@ -12,6 +12,8 @@ description: 'This post is a brief review of Beginning Python: From Novice To Pr
 title: Learn python from scratch Beginning Python Review
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Beginning Python: From Novice To Professional was one of the first Python books I read. I chose this book because with it you could learn Python from scratch. The book starts from the installation of the language, going through the different types of data structures that Python includes and even two chapters on abstraction. 

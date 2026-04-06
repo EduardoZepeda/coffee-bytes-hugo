@@ -29,6 +29,8 @@ After that incident I wrote [{{<title "/posts/seo/guia-de-seo-tecnico-para-desar
 
 SEO is the factor that determines whether a website appears first in the search results of a search engine (almost always Google) or whether it is buried in the last positions, receiving little or no traffic and condemning the business it represents to bankruptcy, or if it is a personal project, to oblivion.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 And I'm not talking about subtle differences, I'm talking about abysmal differences.

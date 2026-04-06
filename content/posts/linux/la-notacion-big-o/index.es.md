@@ -41,6 +41,8 @@ Haciendo un cálculo sencillo, con una velocidad de descarga de 50 MB/s tomaría
 
 En este caso el tiempo es constante. ¿Ya sabes que decidieron? Así es, los científicos optaron por enviar los discos duros en avión.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 | Cantidad de información | Internet (a 50 MB/s)           | Avión    |

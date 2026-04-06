@@ -63,6 +63,8 @@ const user = {
 }
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 The first level is _data_, so we will place a colon ":" there and continue descending to the desired level. Let's leave the rest pending by assigning a "_{...}"_. **If you are following this example, do not press ENTER until the end.

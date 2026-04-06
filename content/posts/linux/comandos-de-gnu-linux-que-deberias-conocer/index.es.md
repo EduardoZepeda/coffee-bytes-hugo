@@ -39,6 +39,8 @@ Si hay un conflicto basta con presionar dos veces la tecla TAB y nos mostrará l
 
 {{< figure src="images/tabular.gif" class="md-local-image" alt="Función de autocompletado del comando tabular en una terminal de GNU/Linux"  width="802" height="97" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Presiona arriba para acceder a comandos anteriormente ejecutados

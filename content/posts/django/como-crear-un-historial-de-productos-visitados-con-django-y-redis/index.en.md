@@ -20,6 +20,8 @@ url: :sections[last]/how-to-create-a-history-of-visited-products-with-django-and
 
 You are browsing an ecommerce site, a product catches your attention and you click to see it, but you are not convinced. You decide to see other options, click on a new product and, when you scroll to the bottom of the page, the page shows you the first product you saw under the caption "Recently viewed". You can do the same with django and redis.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## django and redis

@@ -124,6 +124,8 @@ RUN pip install -r requirements.txt
 
 CMD te permite ejecutar **un comando una vez que el contenedor arranca**, sin embargo cualquier cambio en CMD requiere que recompiles la imagen. Lo anterior lo vuelve ideal para arrancar servidores web, o servicios.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```dockerfile

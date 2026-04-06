@@ -21,6 +21,8 @@ This is my analysis of some of the most popular captcha options out there and my
 
 ## Google recaptcha and similar
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 I'm sure you already know this one, as it's the most common, and probably the most popular captcha out there. Google's and Cloudflare's stand out here.

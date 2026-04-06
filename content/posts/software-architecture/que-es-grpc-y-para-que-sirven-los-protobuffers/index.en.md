@@ -26,6 +26,8 @@ In my post about [the basic characteristics of a REST API]({{< ref path="/posts/
 
 ## What is RPC?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 RPC stands for Remote Procedure Call, which, in simple words, refers to invoking code execution on one machine from another machine, usually a server, in such a way that, to the programmer, it appears that the execution was performed locally.

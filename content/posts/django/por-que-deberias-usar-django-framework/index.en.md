@@ -49,6 +49,8 @@ Django is a *batteries included* framework, that covers practically all the need
 
 If you're one of those developers who love **getting shit done without having to reinvent the wheel** over and over again, you're going to love Django. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Its ORM is simple and wonderful

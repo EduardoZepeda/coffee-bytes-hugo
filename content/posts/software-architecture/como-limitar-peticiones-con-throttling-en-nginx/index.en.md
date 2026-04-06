@@ -18,6 +18,8 @@ keywords:
 title: Throttling on Nginx
 ---
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Ngnix throttling allows us to limit the number of requests to a certain user. This is useful to prevent excessive requests from a user from keeping the system busy. On the other hand, it is also a way to deter brute force password attempts or even DDOS attacks.

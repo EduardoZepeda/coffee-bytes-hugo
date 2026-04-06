@@ -43,6 +43,8 @@ En Go un map funciona bastante similar a como lo haría en cualquier otro lengua
 
 Funcionamiento interno de un map en go. La información está tomada de la [documentación oficial de un map.](https://go.dev/src/runtime/map.go)
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Crear un map en go

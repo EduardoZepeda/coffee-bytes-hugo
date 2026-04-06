@@ -104,6 +104,8 @@ func split(sum int) (x, y int) {
 
 Esta sintaxis puede parecer un poco truculenta, pero realmente es muy sencilla. ¿Recuerdas que te dije que el tipo de dato que retorna una función va después de los argumentos? _(x, y int)_ Pues aquí, además del tipo, especificamos que variables retornará y de que tipo, **en caso de que no coloquemos nada después de return**.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Básicamente le estamos diciendo a go: "oye, si no pongo nada después del return, retorna las variables "x" y "y", que son de tipo _int_.

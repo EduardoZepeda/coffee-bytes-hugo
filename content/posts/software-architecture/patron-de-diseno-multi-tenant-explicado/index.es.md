@@ -27,6 +27,8 @@ En la arquitectura multi-tenant, cada tenant puede ser una empresa, un grupo o u
 
 La arquitectura multiusuario es similar a un edificio de oficinas moderno donde diferentes empresas (inquilinos) (como WeWork, pero con menos corrupción) comparten la misma infraestructura física (ascensores, sistemas de seguridad, servicios públicos y administración del edificio). Sin embargo, cada empresa cuenta con espacios de oficina completamente aislados con sus propios datos, configuraciones y personalizaciones, a los que otras empresas no pueden acceder.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Al igual que el propietario del edificio mantiene un conjunto de sistemas mientras presta servicio a varias empresas, una aplicación multiusuario presta servicio a varias organizaciones utilizando una única instancia de software e infraestructura de base de datos, **con un estricto aislamiento de datos entre los inquilinos**.

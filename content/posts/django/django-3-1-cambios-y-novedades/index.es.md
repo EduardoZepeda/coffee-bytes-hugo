@@ -52,6 +52,8 @@ Django incorpora ahora tres decoradores para tus f√°bricas de middlewares. Adem√
 - async\_only\_middleware()
 - and sync\_and\_async\_middleware()
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

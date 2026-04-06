@@ -36,6 +36,8 @@ ls -l
 
 Hay 3 conjuntos de 3 letras, cada conjunto contiene espacios para las letras '_r_' '_w_' y '_x_', en ese orden. La presencia de un guión indica la ausencia de permisos. El primer conjunto representa los permisos del propietario del archivo, el segundo conjunto representa los permisos del grupo al que pertenece el archivo y el tercer conjunto representa los permisos de otros. Antes del primer conjunto hay un espacio para el tipo de archivo; '_D_' para directorio, o un guión para un archivo.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/PermisosGNULinux-1.png" class="md-local-image" alt="Significado de los permisos en un sistema GNU/Linux"  width="1200" height="600" >}}

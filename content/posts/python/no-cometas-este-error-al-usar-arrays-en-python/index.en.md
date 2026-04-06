@@ -27,6 +27,8 @@ If you have no idea what I'm talking about, I have an excellent resource that ca
 
 ## The wrong way to create arrays in Python
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Knowing how to create arrays using the multiplication operator, we could think of creating a two-dimensional array as follows:

@@ -30,6 +30,8 @@ Esta publicación es una guia muy corta de consejos prácticos sobre diseño de 
 
 En la siguiente entrada hablaré de algunas cuestiones más subjetivas como: ¿cómo devolver el JSON correctamente? ¿Cuánto anidar una API? ¿Qué maneras existen para versionar una API REST?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## ¿Qué es una API?

@@ -97,6 +97,8 @@ gitdir: ../.git/modules/<submodule>
 
 And what's at that location? In that location are the files with which git manages a repository internally, they keep the same structure as the ones inside the _.git_ folder of your main repository.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### Git treats submodules as individual repositories.

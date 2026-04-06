@@ -26,6 +26,8 @@ title: Trigramas y búsquedas avanzadas con Django y Postgres
 
 {{< figure src="images/busquedaLaptopAmazon.gif" class="md-local-image" alt="Búsqueda de la palabra \"parfume\" en amazon."  width="772" height="436" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ¿No recuerdas las búsquedas básicas en Django? Tengo una entrada sobre [búsquedas básicas y full text search usando Django y Postgres](/es/django/full-text-search-y-busquedas-con-django-y-postgres/), si no la has leído date una vuelta primero por allá.

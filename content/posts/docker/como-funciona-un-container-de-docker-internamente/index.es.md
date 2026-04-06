@@ -79,6 +79,8 @@ Existen diferentes tipos de namespaces que controlan los recursos a los que tien
 
 Por ejemplo, si usamos un namespace de tipo UTS, los cambios que le hagamos al hostname desde nuestro namespace no afectarán al hostname del sistema operativo principal.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/namespaces-uts-en-linux.jpg" class="md-local-image" alt="Ejemplo de namespaces en linux" caption="Cada namespace tiene su propio hostname y domainname"  width="1200" height="630" >}}

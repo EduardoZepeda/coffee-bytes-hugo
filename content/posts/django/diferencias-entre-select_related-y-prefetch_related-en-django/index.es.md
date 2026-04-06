@@ -84,6 +84,8 @@ Por ejemplo, si tenemos tres objetos Derivados relacionados a un único objeto p
 
 Para usar *select_related* lo llamamos a partir de nuestra consulta, pasándole el nombre del campo que corresponde a nuestra relación con el otro modelo.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

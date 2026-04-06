@@ -69,6 +69,8 @@ module mymodule
 go 1.15
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ### How to create a go.mod file?

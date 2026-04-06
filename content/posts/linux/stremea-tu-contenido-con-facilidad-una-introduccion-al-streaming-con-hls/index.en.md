@@ -27,6 +27,8 @@ Almost all modern web applications perform some form of streaming, from video pl
 
 I leave you a minimal example of streaming in Go here in [my github repository](https://github.com/EduardoZepeda/go-hls-streaming-example#?), in case you want to see the code.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Introduction to streaming

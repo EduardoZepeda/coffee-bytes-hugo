@@ -43,6 +43,8 @@ This is a compiled, imperative, **strongly concurrency-centric**, statically typ
 
 ### Cool aspects and advantages of Go
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 * **The language is quite simple** It is a language with just a few keywords and functionalities. You can learn it in a breeze.

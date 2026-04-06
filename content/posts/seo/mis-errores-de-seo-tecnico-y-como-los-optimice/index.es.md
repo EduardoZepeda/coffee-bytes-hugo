@@ -29,6 +29,8 @@ Tras el error incluso escribí una [{{<title "/posts/seo/guia-de-seo-tecnico-par
 
 El SEO es el factor que determina si un sitio web aparece primero en los resultados de búsqueda de un motor de búsqueda (casi siempre Google pero puede ser Duck Duck Go, Bing, Yandex, entre otros) o si es sepultado en las últimas posiciones, recibiendo poco o nulo tráfico y condenando al negocio que representa a la quiebra, o si es un proyecto personal, al olvido total junto con tus sueños de grandeza.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Y no estoy hablando de diferencias sútiles, estoy hablando de diferencias abismales.

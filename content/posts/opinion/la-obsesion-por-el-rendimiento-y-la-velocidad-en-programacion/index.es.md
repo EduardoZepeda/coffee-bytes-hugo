@@ -29,6 +29,8 @@ En el mundo de los programadores hay una obsesión por la velocidad y el rendimi
 
 En esa búsqueda constante pasamos de lenguajes de alto nivel a lenguajes de más bajo nivel, deambulamos por los rincones más oscuros de la documentación rumbo a los runtimes más esotéricos escritos en lenguajes arcanos cuyos nombres parecen sacados de un diccionario de otro idioma. ¿Se te vino a la mente alguno en particular? A mi sí. 
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 A lo largo de esta odisea virtual, nos olvidamos por completo de lo que probablemente sea el único factor que importa: el aburrido mercado.

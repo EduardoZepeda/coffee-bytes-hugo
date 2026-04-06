@@ -115,6 +115,8 @@ It would be best to have your own GPUs, but in case you can't, Google, through [
 
 In my fine-tuning adventure I also found a company called [salad](https://salad.com/#?), which serves as an intermediary between users and gamers who want to rent their GPUs, the prices are incredibly competitive. [VastAI](https://vast.ai/#?) is also another option. [Digital Ocean](https://m.do.co/c/a22240ebb8e7#?) also has very competitive prices and provices a wide variety of GPUs.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 We have everything we need now, let's review the overall process.

@@ -21,6 +21,8 @@ title: You Could Lose All Your Crypto In a Job Interview
 
 The other day I was browsing Elon Musk's political propaganda machine, also known as X, and came across this gem of human shamelessness, an interviewer who nearly hacked one of his applicants.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ## Running malware in job interviews.

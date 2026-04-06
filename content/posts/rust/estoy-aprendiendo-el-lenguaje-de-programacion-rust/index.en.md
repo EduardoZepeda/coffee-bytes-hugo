@@ -146,6 +146,8 @@ let x = Some(5).expect("Value not found");
 
 #### ? operator
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 The *?* operator propagates errors in a *Result* type, returning the error if it exists or unwrapping the *Ok* value.

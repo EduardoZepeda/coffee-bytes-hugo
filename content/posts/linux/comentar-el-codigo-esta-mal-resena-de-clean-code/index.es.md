@@ -138,6 +138,8 @@ is_product_available = check_if_product_available()
 
 En el capítulo que habla de las funciones, *uncle bob* enfatiza la necesidad de mantener los argumentos que una función recibe al mínimo, además considera que cualquier función que reciba más de tres argumentos **no debería ser usada**.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Desde el punto de vista de nuestro capataz del código limpio, los argumentos te forzan a requerir más información de una función que su nombre, pues ahora debes entender como interaccionan las variables dentro de la lógica de la función, además son difíciles de incluir en las pruebas puesto que hay que probar diferentes combinaciones de estos para asegurarnos de cubrir cada caso de la función. 

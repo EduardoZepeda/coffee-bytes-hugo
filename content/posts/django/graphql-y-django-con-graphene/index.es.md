@@ -34,6 +34,8 @@ Graphql permite integrar peticiones de múltiples fuentes en una sola llamada a 
 
 {{< figure src="images/RestVsGraphQL.png" class="md-local-image" alt="Diferencias entre REST y Graphql"  width="800" height="800" >}}
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 El schema le dice a graphql que tipo de objetos retornaremos y que campos de estos objetos, graphql utilizará un resolver para obtener esa información de una base de datos o cualquier otra referencia.

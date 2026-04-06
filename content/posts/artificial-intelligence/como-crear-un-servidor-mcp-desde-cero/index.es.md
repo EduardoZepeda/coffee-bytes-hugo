@@ -67,6 +67,8 @@ npm install @modelcontextprotocol/sdk@1.16.0 zod@3.25.76
 
 ## Crear un servidor MCP
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Maneja la comunicacion entre cliente y servidor

@@ -28,6 +28,8 @@ EasyWP promised a smooth and easy WordPress deployment:
 
 Sounds pretty convincing, doesn't it? No more SSH terminals, GNU/Linux package installation or databases. A simple click on the namecheap web page and everything would be ready.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 {{< figure src="images/whyEasyWP.jpg" class="md-local-image" alt="The namecheap service menu"  width="1880" height="913" >}}

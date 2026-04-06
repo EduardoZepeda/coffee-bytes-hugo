@@ -42,6 +42,8 @@ En caso de que no, o de que partas de una instalación previa, primero tienes qu
 
 Después de todo, si no puedes autenticarte ni iniciar sesión pues no podrás entrar al panel de administración ¿no?
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ```python

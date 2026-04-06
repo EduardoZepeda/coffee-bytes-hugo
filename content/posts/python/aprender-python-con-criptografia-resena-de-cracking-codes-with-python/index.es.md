@@ -28,6 +28,8 @@ Si no tienes ni idea de que es la criptografía puedes tomar esta definición ba
 
 ## Aprender python con criptografía
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 ¿Códigos con información secreta? ¿Cómo mensajes secretos? Sí, mensajes que si alguien leyera no podría saber que significan. Mira estos ejemplos, ¿ya sabes cual es el mensaje que oculta cada uno?

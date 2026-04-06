@@ -39,6 +39,8 @@ Un **Trie** (se pronuncia en inglés igual a "try") es un tipo especial de árbo
 
 Por ejemplo, almacenar "cat" y "car" compartiría los dos primeros pasos ("c" → "a"), y luego se separan en la "t" y la "r". Es como organizar palabras no por la cadena completa, sino por sus prefijos en común. Como los morfemas, que sirven de base para variaciones de palabras.
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 

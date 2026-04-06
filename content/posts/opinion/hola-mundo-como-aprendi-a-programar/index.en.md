@@ -30,6 +30,8 @@ One fine day, while surfing the internet, I discovered the personal blogs on [bl
 
 ## Internet and blogs
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/)" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. 

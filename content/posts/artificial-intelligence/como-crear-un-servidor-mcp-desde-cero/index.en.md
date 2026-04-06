@@ -65,6 +65,8 @@ npm install @modelcontextprotocol/sdk@1.16.0 zod@3.25.76
 
 ## Create a MCP Server
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 Afterward let's create a MCP server just initiliazing a new McPServer object

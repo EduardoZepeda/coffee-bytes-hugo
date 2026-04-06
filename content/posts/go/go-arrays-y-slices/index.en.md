@@ -29,6 +29,8 @@ Arrays are **immutable data collections**, to create an _array_ we need to defin
 var array [4]int
 ```
 
+{{<adsPanels>}}
+
 {{<ad0>}}
 
 In the above example, we have an _array_ with space for 4 integers. The values that we do not assign will be assigned as zero values.
