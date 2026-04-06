@@ -23,25 +23,22 @@
 
   {{ if gt (len $matchedCategories) 0 }}
     <script>
-      console.log('adsPanels: matchedAds =', {{ jsonify $matchedCategories }});
-      console.log('adsPanels: window.innerWidth =', window.innerWidth);
-      
       (function() {
-        document.addEventListener('DOMContentLoaded', function() {
+        var matchedAdsData = {{ jsonify $matchedCategories }};
+        
+        function renderAds() {
           var rightPanel = document.getElementById('right-panel');
-          if (!rightPanel) {
-            console.warn('adsPanels: right-panel not found');
-            return;
+          if (!rightPanel) return;
+
+          // Remove existing ads if any
+          var existingContainer = document.getElementById('ads-panels-container');
+          if (existingContainer) {
+            existingContainer.remove();
           }
 
-          var matchedAds = JSON.parse({{ jsonify $matchedCategories }});
+          var matchedAds = JSON.parse(matchedAdsData);
           
-          if (!matchedAds || !Array.isArray(matchedAds) || matchedAds.length === 0) {
-            console.warn('adsPanels: no valid ads');
-            return;
-          }
-          
-          console.log('adsPanels: creating container and rendering', matchedAds.length, 'ads');
+          if (!matchedAds || !Array.isArray(matchedAds) || matchedAds.length === 0) return;
           
           var container = document.createElement('div');
           container.id = 'ads-panels-container';
@@ -55,7 +52,7 @@
             panel.className = 'ad-panel';
             panel.innerHTML = 
               '<div class="ad-panel-content">' +
-                '<img src="' + ad.imageSrc + '" alt="' + (ad.imageAlt || ad.title) + '" class="ad-book-image" loading="lazy" />' +
+                '<img height="150px" width="100px" src="' + ad.imageSrc + '" alt="' + (ad.imageAlt || ad.title) + '" class="ad-book-image" loading="lazy" />' +
                 '<h4 class="ad-title"><strong>' + ad.title + '</strong></h4>' +
                 (ad.description ? '<p class="ad-description">' + ad.description + '</p>' : '') +
                 (ad.link ? '<a href="' + ad.link + '" target="_blank" rel="sponsored nofollow" class="ad-link-button">' + (ad.linkText || 'Learn More') + '</a>' : '') +
@@ -63,10 +60,14 @@
             
             container.appendChild(panel);
           });
-          
-          console.log('adsPanels: rendered successfully');
-          console.log('adsPanels: container innerHTML:', container.innerHTML.substring(0, 200));
-        });
+        }
+
+        // Initial load
+        document.addEventListener('DOMContentLoaded', renderAds);
+        
+        // HTMX history events (hx-boost)
+        document.addEventListener('htmx:historyRestore', renderAds);
+        document.addEventListener('htmx:afterSettle', renderAds);
       })();
     </script>
   {{ end }}
@@ -85,7 +86,7 @@
   .ad-panel {
     background: transparent;
     border-radius: 8px;
-    padding: 16px 24px;
+    padding: 16px 36px;
   }
 
   .ad-panel:hover {
