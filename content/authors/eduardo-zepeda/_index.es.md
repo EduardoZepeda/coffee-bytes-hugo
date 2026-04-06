@@ -5,7 +5,7 @@ aliases:
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1751669772/coffee-bytes/ed-zepeda-250_khvdod.jpg'
-summary: 'Desarrollador web y predicador de GNU/Linux. Madurez sobre novedad, mejor hecho que perfecto. Antes creía en la bondad de las criptodivisas fuera de la especulación monetaria. Abierto al Rustaceanismo.'
+summary: 'Llámame simplemente Ed. Desarrollador web y pregonador de Linux (GNU/Linux). Me gustan los Frameworks aburridos y predecibles; de esos que te ahorran escribir cientos de boilerplate. Creo que Django es la mejor herramienta para desarrollar MVPs. Solía creer en las ventajas de las criptomonedas más allá de la especulación monetaria.'
 twitter: "@hello_wired"
 github: "EduardoZepeda"
 instagram: "zeedu.dev"
