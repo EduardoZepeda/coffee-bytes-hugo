@@ -43,6 +43,37 @@ Identify what queries are being made in your application using [django-debug-too
 * **Object Q** to join queries by OR or AND directly from the database.
 * **F-Expressions** to perform operations at the database level instead of in Python code.
 * **Annotate and subqueries** Be careful of the way Django uses [annotate and subqueries and write CTEs or raw SQL]({{< ref path="/posts/django/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="en" >}}) if you need to.
+* **Iterate with iterator()** instead of using Model.objects.all() when dealing with millions of rows, that way you don't load everything in RAM. 
+* **Use values() or values_list()** to avoid useless fields
+* **Use .only() or .defer()** to exclude large text or binary fields unless you really need them.
+* **Use bulk_create() and .bulk_update()** when you need to save/update multiple object in order to minimize database hits.
+
+### Make full table modification in batches
+
+If you want to modify all columns in a table, don't use the *.update()* method, instead execute the process in batches, the memory footprint will be lower and more stable.
+
+``` python
+from django.db import connection
+BATCH_SIZE = 10000  # Adjust based on your need
+with connection.cursor() as c:
+    while True:
+        c.execute(f"""
+            UPDATE <table>
+            SET <column> = NULL
+            WHERE <column> = 0
+            AND id IN (
+                SELECT id FROM <table>
+                WHERE <column> = 0
+                LIMIT {BATCH_SIZE}
+                FOR UPDATE SKIP LOCKED
+            )
+        """
+        )
+        if c.rowcount == 0:
+            brea
+        connection.commit()  # Commit each batch
+        print(f"Updated {c.rowcount} rows in this batch")
+```
 
 {{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar showing the SQL queries of a Django request" caption="Django debug tool bar showing the SQL queries of a Django request"  width="988" height="458" >}}
 
@@ -106,6 +137,8 @@ class ReviewList(ListView):
 
 Understand your more complex queries and try to create indexes for them. The index will make your searches in Django faster, but it will also slow down, slightly, the creations and updates of new information, besides taking up a little more space in your database. Try to strike a healthy balance between speed and storage space used.
 
+As a rule of thumb: Ensure every column used in filter(), exclude(), or order_by() methods is indexed.
+
 ```python
 from django.db import models
 
@@ -115,6 +148,16 @@ class Review(models.Model):
         db_index=True,
     )
 ```
+
+## Django admin improvements:
+
+Django performs a *SELECT COUNT(\*)* in the admin, which you have probably noticed when loading huge tables. You can override this behavior, just set *show_full_result_count = False*  in your ModelAdmin to change this.
+
+```python
+show_full_result_count = False
+```
+
+Use *raw_id_fields* instead of *ForeignKeys* to prevent the admin from loading a gigantic dropdown menu.
 
 ## Use indexes for your searches
 
@@ -126,6 +169,10 @@ There are many options available:
 * Solr
 * Whoosh
 * Xapian
+
+## Use materialized views 
+
+Use materialized views for complex aggregations that don't necessarily require real-time accuracy (probably a lot of cases for most folks). 
 
 ## Remove unused middleware
 

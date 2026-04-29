@@ -51,6 +51,37 @@ Identifica que consultas se están haciendo en tu aplicación usando [django-deb
 - **Objeto Q** para unir consultas por medio de OR o AND directamente desde la base de datos
 - **Expresiones F** para realizar operaciones a nivel base de datos en lugar de en código Python
 - **annotate y subqueries** Ten cuidado con la forma en que Django utiliza [anotar y subconsultas y escribir CTEs o SQL en crudo]({{< ref path="/posts/django/django-annotate-y-reevaluacion-de-subqueries-en-postgres/index.md" lang="es" >}}) si es necesario.
+- **Itera con iterator()** en lugar de usar Model.objects.all() cuando trabajes con millones de filas, de esta manera no cargarás todo en memoria RAM.
+- **Usa values() o values_list()** para evitar campos innecesarios
+- **Usa .only() o .defer()** para excluir campos grandes de texto o binarios a menos que realmente los necesites.
+- **Usa bulk_create() y bulk_update()** cuando necesites guardar/actualizar múltiples objetos para minimizar las consultas a la base de datos.
+
+### Modifica tablas completas en lotes
+
+Si quieres modificar todas las columnas de una tabla, no uses el método *.update()*, en su lugar ejecuta el proceso en lotes, la huella de memoria será menor y más estable.
+
+```python
+from django.db import connection
+BATCH_SIZE = 10000  # Ajusta según tus necesidades
+with connection.cursor() as c:
+    while True:
+        c.execute(f"""
+            UPDATE <tabla>
+            SET <columna> = NULL
+            WHERE <columna> = 0
+            AND id IN (
+                SELECT id FROM <tabla>
+                WHERE <columna> = 0
+                LIMIT {BATCH_SIZE}
+                FOR UPDATE SKIP LOCKED
+            )
+        """
+        )
+        if c.rowcount == 0:
+            break
+        connection.commit()  # Confirma cada lote
+        print(f"Actualizados {c.rowcount} registros en este lote")
+```
 
 {{< figure src="images/django-debug-tool-bar-numero-queries.png" class="md-local-image" alt="Django debug tool bar mostrando las queries SQL de una petición en Django" caption="Django debug tool bar mostrando las queries SQL de una petición en Django"  width="988" height="458" >}}
 
@@ -113,6 +144,8 @@ class ReviewList(ListView):
 
 Entiende tus queries más complejas e intenta crear índices para ellas. El índice hará tus búsquedas en Django más rápidas, pero también ralentizará, ligeramente, las creaciones y actualizaciones de nueva información, además de ocupar un poco más de espacio en tu base de datos. Intenta llegar a un balance sano entre velocidad y espacio de almacenamiento usado.
 
+Como regla general: Asegúrate de que cada columna usada en los métodos filter(), exclude() o order_by() esté indexada.
+
 ```python
 from django.db import models
 
@@ -122,6 +155,16 @@ class Review(models.Model):
         db_index=True,
     )
 ```
+
+## Mejoras en Django admin:
+
+Django realiza un *SELECT COUNT(\*)* en el admin, lo cual probablemente has notado al cargar tablas enormes. Puedes sobrescribir este comportamiento, solo establece *show_full_result_count = False* en tu ModelAdmin para cambiar esto.
+
+```python
+show_full_result_count = False
+```
+
+Usa *raw_id_fields* en lugar de *ForeignKeys* para evitar que el admin cargue un menú desplegable gigante.
 
 ## Usa índices para tus búsquedas
 
@@ -133,6 +176,10 @@ Hay muchas opciones disponibles:
 * Solr
 * Whoosh
 * Xapian
+
+## Usa vistas materializadas
+
+Usa vistas materializadas para agregaciones complejas que no necesariamente requieren precisión en tiempo real (probablemente muchos casos para la mayoría).
 
 ## Remueve middleware que no uses
 
