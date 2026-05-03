@@ -6,7 +6,7 @@ categories:
 - artificial intelligence
 - opinion
 coverImage: images/el-culto-a-la-ai-en-redes.jpg
-description: ''
+description: 'Un análisis sin rigor del culto excesivo a la IA en las redes sociales, desde el hype publicitario de las empresas hasta los inquisidores digitales.'
 keyword: ''
 keywords:
 - AI
