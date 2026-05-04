@@ -1,6 +1,5 @@
 ---
-date: '2026-05-01T22:40:16-06:00'
-draft: true
+date: '2026-05-03T22:16:16-06:00'
 title: 'The New God: The Delirious AI Cult on Social Media'
 categories:
 - artificial intelligence

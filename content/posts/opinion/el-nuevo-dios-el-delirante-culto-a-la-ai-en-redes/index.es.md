@@ -1,6 +1,5 @@
 ---
-date: '2026-05-01T22:40:16-06:00'
-draft: true
+date: '2026-05-03T22:16:16-06:00'
 title: 'El Nuevo Dios: El Delirante Culto a La AI en Redes'
 categories:
 - artificial intelligence
