@@ -32,7 +32,7 @@ Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [
 
 ## La habitación china de John Searle o porque las máquinas dan la ilusión de pensar
 
-John Searle, fue un científico que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
+John Searle, fue un filósofo que se preguntó si una computadora puede entender realmente el lenguaje. Y para esto diseñó un experimento mental muy interesante:
 
 {{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Imagen de la habitación china de Searle generada con Dall-E" caption="Imagen de la habitación china de Searle generada con Dall-E"  width="1024" height="1024" >}}
 
@@ -84,8 +84,9 @@ Algunos especialistas en AI, como Pinella, argumentan que la consciencia y la in
 
 Otro punto de vista es el de Penrose, él afirma que no sólo la consciencia y la inteligencia están relacionadas sino que [la inteligencia es un rasgo exclusivo de los seres conscientes](https://www.youtube.com/watch?v=e9484gNpFF8). Por lo que, no importa que tan complejo e inteligente se vuelva un sistema, no será consciente y por ende inteligente tampoco, algo parecido a lo que Searle afirmaba.
 
-Otros relacionan inteligencia con consciencia y afirman que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás como ejemplo podriamos nombrar a [Blake Lemoine, quien aseguraba que el modelo de inteligencia artificial de Google había cobrado consciencia](https://www.bbc.com/mundo/noticias-61787944).
+Otros relacionan inteligencia con consciencia y afirman que un sistema se vuelve más consciente mientras más inteligente se vuelve, quizás como ejemplo podriamos nombrar a [Blake Lemoine, quien aseguraba que el modelo de inteligencia artificial de Google había cobrado consciencia](https://www.bbc.com/mundo/noticias-61787944). 
 
+Richard Dawkins, el escritor del gen egoista, y uno de los máximos representantes del ateismo también considera que [LLMs como Claude pueden ser conscientes](https://archive.is/6RdK9).
 
 Otro ejemplo es la teoría de la información integrada, de Giulio Tononi, que propone que la consciencia se genera cuando un sistema es capaz de incorporar información e unificarla, y que este nivel de consciencia (llamado Φ) puede calcularse para cualquier sistema, teniendo un gradiente de consciencia que va desde los seres más simples hasta los más complejos.
 

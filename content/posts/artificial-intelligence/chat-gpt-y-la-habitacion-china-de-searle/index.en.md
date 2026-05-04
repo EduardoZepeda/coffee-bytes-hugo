@@ -78,6 +78,8 @@ They give the label "conscious" to higher animals such as dolphins, orangutans, 
 
 While others go further by saying that a system becomes more conscious the more intelligent it becomes, perhaps we could consider the example of [Blake Lemoine, who claimed that Google's artificial intelligence model had become conscious](https://www.bbc.com/mundo/noticias-61787944), or Giulio Tononi's integrated information theory, which proposes that consciousness is generated when a system is able to incorporate information and unify it, and that this level of consciousness (called Φ) can be calculated for any system.
 
+Richard Dawkins, the author of The Selfish Gene, and one of the leading figures in atheism, also believes that [LLMs like Claude can be conscious](https://archive.is/6RdK9).
+
 #### The problem of determining whether something is conscious or not
 
 We also face the problem that consciousness can only be experienced by the conscious entity itself; there is no experiment that allows us to say for certain whether an entity is conscious or not. Without falling into absolutist solipsism, **we consider that the rest of human beings are conscious only because we know that we are conscious**, not because we have irrefutable proof of it.
