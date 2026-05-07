@@ -72,6 +72,8 @@ weight = 6
 [languages.en.params]
 GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
+MailerLiteAccount = "2325960"
+MailerLiteDataForm = "3wjRyd"
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
@@ -158,6 +160,8 @@ weight = 6
 [languages.es.params]
 GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
+MailerLiteAccount = "2325960"
+MailerLiteDataForm = "3wjRyd"
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Web developers"
 author = "Eduardo Zepeda"
