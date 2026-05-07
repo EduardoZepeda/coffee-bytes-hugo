@@ -14,4 +14,3 @@ También puedes descargarlo desde [este enlace](https://mcusercontent.com/5db658
 
 [@hello\_wired](https://twitter.com/hello_wired?ref_src=twsrc%5Etfw#?)
 
-{{< setCookieSubscribeForm >}}
