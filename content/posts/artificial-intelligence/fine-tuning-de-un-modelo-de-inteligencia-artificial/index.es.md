@@ -20,7 +20,7 @@ title: Fine-Tuning De Un LLM Guía Práctica Con Recursos
 
 Intenté hacer fine-tuning de un modelo de DeepSeek pero fracasé, luego intenté hacerlo con Llama y tampoco pude conseguirlo, al final logré hacerlo con un modelo de Mistral, específicamente el de 7B de parámetros. 
 
-Te comparto algunos recursos que encontré útiles durate el proceso. A pesar de estar jugando a entrenar LLMs, aún sigo creyendo que [estamos en una burbuja de AI.]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}})
+Te comparto algunos recursos que encontré útiles durate el proceso. A pesar de estar jugando a entrenar LLMs, aún sigo creyendo que [estamos en una burbuja de AI.]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) El [delirante culto a la IA en redes sociales]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="es" >}}) es otro ejemplo de la sobrevaloración de la IA.
 
 ## ¿Dónde aprender los fundamentos de AI y redes neuronales?
 

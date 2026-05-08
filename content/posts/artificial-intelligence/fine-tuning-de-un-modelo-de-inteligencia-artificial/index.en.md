@@ -21,7 +21,7 @@ I tried to fine-tune a DeepSeek model but I failed, then I tried to do it with L
 
 I felt completely lost, lots of tutorials but none seemed to work, hence I decided to share with my readers my notes and some resources that I found useful during the process. 
 
-Still, don't get confused by this, I still believe that [AI is overhyped, but that will change soon]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
+Still, don't get confused by this, I still believe that [AI is overhyped, but that will change soon]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}). The [delirious AI cult on social media]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="en" >}}) is yet another example of AI being overhyped.
 
 ## Where to learn the basics of AI and Neural networks?
 

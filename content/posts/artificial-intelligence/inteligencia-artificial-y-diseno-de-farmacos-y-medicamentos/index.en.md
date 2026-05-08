@@ -122,7 +122,7 @@ Artificial intelligence is able to recognize patterns that humans cannot, it can
 
 {{<ad3>}}
 
-Of course AI for drug development will reach its full potential once the [AI overhype stops]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}).
+Of course AI for drug development will reach its full potential once the [AI overhype stops]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}). Meanwhile, [some see AI as a delirious cult]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="en" >}}) that promises too much.
 
 ## What parameters should I use to train an artificial intelligence model to discover new drugs?
 

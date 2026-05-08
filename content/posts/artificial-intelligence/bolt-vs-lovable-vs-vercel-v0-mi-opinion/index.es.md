@@ -22,7 +22,7 @@ slug: /opinion/bolt-vs-lovable-vs-v0-vercel-comparando-resultados-y-mi-opinion/
 title: Bolt vs Lovable vs V0 Vercel Comparando Resultados y Mi Opinion
 ---
 
-Todos los influencers de tecnología están esparciendo el FOMO y hablando de herramientas como Bolt, V0 de Vercel, y Lovable. Pero lo entiendo, [aún estamos en una burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}). 
+Todos los influencers de tecnología están esparciendo el FOMO y hablando de herramientas como Bolt, V0 de Vercel, y Lovable. Pero lo entiendo, [aún estamos en una burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}). El [delirante culto a la IA en redes sociales]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="es" >}}) está fuerte con estos influencers. 
 
 Sin embargo, a pesar de su valoración poco realista, estoy asombrado de lo que estas herramientas pueden hacer sin necesidad de [API REST]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="es" >}}) ni integraciones del [Protocolo de contexto del modelo]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="es" >}}) por parte del usuario. 
 

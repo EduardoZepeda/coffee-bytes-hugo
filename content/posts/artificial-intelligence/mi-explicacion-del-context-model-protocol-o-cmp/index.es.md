@@ -31,7 +31,7 @@ Uno de los usos más útiles de los LLM es consultarles sobre nuestros propios d
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Ejemplo de uso de MCP, el usuario pide el contenido de sus propios ficheros, LLM los lee y responde"  width="1780" height="621" >}}
 
-Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto, e interaccionar con el exterior, a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) o una afirmación completamente fiel a la realidad?
+Los integrantes de Anthropic proponen estandarizar este proceso y crear un protocolo para dotar de contexto, e interaccionar con el exterior, a los LLM. Este protocolo, de nombre Model Context Protocol, se vende como la siguiente revolución de AI, ¿será [esta otra burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) o una afirmación completamente fiel a la realidad? El [delirante culto a la IA en redes sociales]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="es" >}}) te haría creer lo segundo.
 
 Actualización: El MCP se convirtió en un estándar y ahora se utilizan de manera cotidiana en [herramientas de automatización que usan LLMs, tal como n8n.]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="es" >}})
 

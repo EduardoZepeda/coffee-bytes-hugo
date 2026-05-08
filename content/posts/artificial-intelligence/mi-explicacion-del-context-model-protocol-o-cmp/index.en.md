@@ -32,7 +32,7 @@ Anthropic members noticed this and proposed to standardise this process by creat
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1745694716/coffee-bytes/modex-context-protocol-basic-summary_jy2nct.png" class="md-local-image" alt="Example of MCP usage, user asks for the content of its own files, LLM reads them and replies"  width="1780" height="621" >}}
 
-This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [just AI overhype and bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) or a completely groundbreaking paradigm?
+This protocol, called the Model Context Protocol, is being sold as the next AI revolution, will it be [just AI overhype and bubble]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) or a completely groundbreaking paradigm? The [delirious AI cult on social media]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="en" >}}) would have you believe it's the latter.
 
 Edit: MCP became the standard, and now it's used in [most automation tools that use LLMs, like n8n.]({{< ref path="/posts/opinion/n8n-mi-experiencia-usando-n8n-y-mi-opinion/index.md" lang="en" >}})
 

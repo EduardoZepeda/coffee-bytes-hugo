@@ -126,7 +126,7 @@ La inteligencia artificial es capaz de reconocer patrones que los seres humanos 
 
 {{<ad3>}}
 
-Creo que este será uno de los usos más prometedores que se le darán una vez que [la burbuja de AI estalle]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}})
+Creo que este será uno de los usos más prometedores que se le darán una vez que [la burbuja de AI estalle]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}). Mientras tanto, [algunos ven a la IA como un culto delirante]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="es" >}}) que promete demasiado.
 
 ## ¿Qué parámetros debo de usar para entrenar un modelo de inteligencia artificial para descubrir nuevos fármacos?
 
