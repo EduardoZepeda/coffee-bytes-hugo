@@ -108,6 +108,10 @@ I can understand that underneath there's a server and infrastructure running, to
 
 Consider that most small companies are probably running about 5-10 flows, a VPS with 4GB of RAM and 2 CPUs to run 10 scripts... doesn't convince me 100%, especially for minimalist startups with limited resources.
 
+See how much resources n8n uses compared to a simple Next.js application.
+
+![Memory usage comparison between n8n and next.js](https://res.cloudinary.com/dwrscezd2/image/upload/v1779208913/coffee-bytes/n8n-memory-consumption-vs-nextjs_rcff0d.png)
+
 ### Manual updating
 
 Another aspect that I don't find appealing is that n8n requires manual updating. You have to go into the terminal, update the package, and restart the services. Yes, it's true, you can schedule this update, but you run the risk that if n8n breaks something, your application will fail from one day to the next and you won't even know why.

@@ -20,6 +20,24 @@ title: Mi Análisis De Captchas Anti Bots Ventajas Y Desventajas
 
 Este es mi análisis de algunas de las opciones más populares de captchas que existen y mi opinión como usuario sobre sus ventajas y desvantajas y su nivel de seguridad. Este análisis incluye google recaptcha, captchas de deslizamiento, preguntas sencillas, reconocimiento de caracteres y el captcha más resistente a bots que conozco.
 
+## Pros y contras de usar Captchas
+
+Si estás leyendo esto es porque probablemente tu sitio web se llena de bots, o te preocupa que suceda, y temes el efecto que pueda tener el poner captchas en tu sitio web. 
+
+### Pros de usar Captchas
+
+Los pros son que puedes limitar, el avance de los bots en tus sistemas, dejarán de llenar tus formularios e intentar automatizar acciones en tu sitios web, esto dejará de inflar tus métricas y tendrás una imagen más clara del comportamiento real de tus usuarios en tu sitio web.
+
+Podrás reducir el web scrapping en tu sitio web, lo cual puede preocupar a sitios web grandes como Amazon, Mercado Libre, Ali Express, etc.
+
+### Contras de usar Captchas
+
+No todo es maravilloso, claro, los captchas suelen reducir la conversión de los usuarios pues introducen fricción, cada click extra o tiempo de espera extra reduce la cantidad de usuarios que siguen tu funnel de conversión. 
+
+Además hay riesgos altos de falsos positivos, yo mismo lo he experimentado, navegar internet usando Linux enciende las alarmas de todos los sistemas anti-bots y es bastante molesto, aunque generalmente los sistemas anti-bots modernos son muy inteligentes. 
+
+Cambia la experiencia del sitio web, para sitios web que intentan ofrecer una "experiencia" al navegar, puede arruinar la inmersión, imagínate que antes de comprar un anillo de super lujo en linea, después de pasar por animaciones sofisticadas y un diseño super limpio tengas que identificar conos de transito en imágenes borrosas, ciertamente no es algo que tus clientes premium van a disfrutar.
+
 ## Google recaptcha y similares
 
 Estoy seguro de que ya conoces este, pues es el captcha más común, y probablemente el más popular que existe. Destacan aquí el de Google y el de Cloudflare.

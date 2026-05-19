@@ -19,6 +19,24 @@ title: My Analysis Of Anti Bot Captchas and their  Advantages And Disadvantages
 
 This is my analysis of some of the most popular captcha options out there and my opinion as a user on their advantages and disadvantages, this analysis includes google recaptcha, sliding captchas, simple questions, letter and number recognition and the most bot resistant captcha I know of.
 
+## Pros and Cons of Using Captchas
+
+If you're reading this, it's probably because your website is overrun with bots, or you're worried about it happening, and you're concerned about the potential impact of adding captchas to your site.
+
+### Pros of Using Captchas
+
+The advantages are that you can limit the bots' progress on your systems. They'll stop filling out your forms and trying to automate actions on your website. This will prevent inflated metrics and give you a clearer picture of your users' actual behavior on your site.
+
+You'll also be able to reduce web scraping on your website, which can be a concern for large websites like Amazon, Mercado Libre, AliExpress, etc.
+
+### Cons of Using Captchas
+
+Of course, it's not all good news. Captchas tend to reduce user conversion rates because they introduce friction. Every extra click or extra waiting time reduces the number of users who continue through your conversion funnel.
+
+Furthermore, there's a high risk of false positives; I've experienced it myself. Browsing the internet using Linux triggers all anti-bot systems, which is quite annoying, although modern anti-bot systems are generally very intelligent.
+
+It changes the website experience. For websites that try to offer a "browsing experience," it can ruin the immersion. Imagine that before buying a super-luxury ring online, after navigating sophisticated animations and a super-clean design, you have to identify traffic cones in blurry images—certainly not something your premium customers are going to enjoy.
+
 ## Google recaptcha and similar
 
 {{<adsPanels>}}

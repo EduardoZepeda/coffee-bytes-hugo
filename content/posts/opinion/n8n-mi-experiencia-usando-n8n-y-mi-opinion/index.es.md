@@ -48,7 +48,7 @@ Seguro te suena familiar ¿no? son [servidores MCP]({{< ref path="/posts/artific
 
 ### Soporte de base de datos en n8n
 
-También incluye conectores a bases de datos como Redis y herramientas que funcionan como pequeños servidores para interactuar con servicios externos.
+También incluye conectores a bases de datos como Redis, Supabase, PrismJS y herramientas que funcionan como pequeños servidores para interactuar con servicios externos.
 
 ### n8n gestiona tus credenciales
 
@@ -103,6 +103,10 @@ Pero no todo es perfecto. El principal "pero" que le encuentro es el excesivo **
 Puedo entender que por debajo hay un servidor y una infraestructura corriendo, montón de SDKs instalados, pero para lo que básicamente es un gestor de flujos, me parece una barbaridad. Estoy seguro de que los mismos scripts en Python o JavaScript que ejecutan esas automatizaciones funcionarían con menos de la mitad de estos requisitos.
 
 Considera que probablemente la mayoría de empresas pequeñas estén ejecutando unos 5-10 flujos, un VPS de 4GB de RAM y 2 CPUs para ejecutar 10 scripts... no me convence al cien, sobre todo para startup minimalistas con recursos muy limitados.
+
+Mira la cantidad de recursos que usa n8n comparado con una aplicación sencilla de Nextjs.
+
+![Comparación de memoria usando n8n y nextjs](https://res.cloudinary.com/dwrscezd2/image/upload/v1779208913/coffee-bytes/n8n-memory-consumption-vs-nextjs_rcff0d.png)
 
 ### Actualización manual
 
