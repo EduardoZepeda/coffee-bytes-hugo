@@ -114,7 +114,7 @@ El producto final de una AI que crea arte es el mismo producto final que percibe
 
 No existe un rechazo público, ni un grupo que proteste al ver el código generado con AI porque no tienen contacto con él. El código, por si mismo, no despierta pasiones, ni enojo, como [cuando Devin AI prometió reemplazar a los programadores]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) tal vez porque el estímulo visual del arte es mucho más intenso que un muro de texto que expresa las relaciones que existen entre entes abstractos.
 
-Para pruebas solo basta ver la respuesta que han tenido herramientas como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}), las cuales fueron entrenadas usando el código de desarrolladores, también sin su permiso.
+Para pruebas solo basta ver la respuesta que han tenido herramientas como [Bolt, Lovable o V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="es" >}}), las cuales fueron entrenadas usando el código de desarrolladores, también sin su permiso. Ahora compáralo con los generadores de video de IA, hay tantos de ellos en este momento que hay [Guías para elegir entre generadores de IA](https://subjoin.one/en/blog/our-straightforward-guide-to-choosing-an-ai-video-generator), a pesar de ser detestados por la comunidad.
 
 ### Las páginas web creadas por AI 
 

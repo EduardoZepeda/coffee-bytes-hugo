@@ -111,7 +111,7 @@ The final product of AI-generated art is the same product the user perceives. In
 
 There’s no public backlash or protests over AI-generated code because people don’t see it. Code, in itself, doesn’t evoke passion or anger—unlike [when Devin AI promised to replace programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}). Maybe it’s because the visual stimulus of art is far more intense than a wall of text expressing relationships between abstract entities.  
 
-For proof, just look at the response to tools like [Bolt, Lovable, or V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}), which were trained using developers' code—also without their permission.  
+For proof, just look at the response to tools like [Bolt, Lovable, or V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}), which were trained using developers' code—also without their permission and compare it to AI Video Generators, there are so many of them right now that there are [Guides to choose between AI Generators](https://subjoin.one/en/blog/our-straightforward-guide-to-choosing-an-ai-video-generator), despite being hated by the community.
 
 ### AI-Generated Websites  
 
