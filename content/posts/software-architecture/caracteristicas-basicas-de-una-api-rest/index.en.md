@@ -10,8 +10,8 @@ categories:
 coverImage: images/CaracteristicasBasicasDeUnaAPIREST.jpg
 coverImageCredits: 'Image credits to ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-04-07'
-description: What characteristics should a REST API meet? Diagonal at the end of the
-  url or not? what is HATEOAS? do I use uppercase or lowercase in the url?
+description: What characteristics should a REST API meet? Trailing slash at the end of the
+  URL or not? What is HATEOAS? Do I use uppercase or lowercase in the URL?
 keywords:
 - REST
 - software architecture
@@ -21,9 +21,9 @@ title: REST API basic characteristics and recommendations
 url: :sections[last]/basic-characteristics-of-an-api-rest-api
 ---
 
-This publication is a minimal guide of practical tips on REST API design, what is a characteristic of the REST API? I don't go too deep into the theory. On top of that, I may oversimplify many concepts in order to keep the text as short and simple as possible.
+This is a concise guide of practical tips on REST API design, focused on the characteristics of a REST API. I won't go too deep into the theory. Additionally, I may oversimplify some concepts to keep the text as short and simple as possible.
 
-In the next post I will talk about some more subjective questions such as: how to return JSON correctly, how to nest an API, what are the ways to version a REST API, and what are some of the ways to version a REST API.
+In the next post I'll cover some more subjective topics such as: how to return JSON correctly, how to nest an API, and the different ways to version a REST API.
 
 {{<adsPanels>}}
 
@@ -31,15 +31,15 @@ In the next post I will talk about some more subjective questions such as: how t
 
 ## What is an API?
 
-The term API stands for application programming interface, and consists of a set of rules that tell us how applications and/or devices can communicate with each other.
+The term API stands for application programming interface, and consists of a set of rules that define how applications and/or devices communicate with each other.
 
 ### There are different types of APIs
 
-There are many types of APIs and new paradigms are appearing all the time, one of them is REST but not the only one. 
+There are many types of APIs and new paradigms are appearing all the time. REST is one of them, but it's not the only one. 
 
-REST is special because it has managed to survive the passage of time and position itself above the rest (pun not intended), but no one knows what will happen tomorrow, maybe we will rewrite all APIs in Rust.
+REST is special because it has managed to stand the test of time and position itself above the rest (pun not intended), but no one knows what will happen tomorrow; maybe we will rewrite all APIs in Rust.
 
-To this date, there are still protocols that work with POST requests, such as [the Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}), used the standarise the communication between a client and a LLM.
+To this date, there are still protocols that work with POST requests, such as [the Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}), used to standardize the communication between a client and an LLM.
 
 {{< figure src="images/timeline-de-APIs.png" class="md-local-image" alt="APIs timeline" caption="REST paradigm was created around year 2000"  width="1330" height="565" >}}
 
@@ -47,29 +47,29 @@ To this date, there are still protocols that work with POST requests, such as [t
 
 ## What is a REST API?
 
-A REST API is an API that complies with the REST design standard (Thank you captain obvious!), but what is REST? REST is a style of architecture, which has to comply with a series of characteristics that I will talk about in the next paragraphs.
+A REST API is an API that follows the REST design standard (Thank you, captain obvious!), but what is REST? REST is an architectural style that must comply with a set of characteristics that I'll cover in the following sections.
 
 ### What are the characteristics of a REST API?
 
-Not all APIs are REST, numerous developers, at all levels, interchangeably use the term REST API to refer to any server that returns JSON or even action-oriented APIs, such as [RPC or gRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}), even large companies as Twitter and Facebook do not meet all the characteristics of a REST API, despite advertising their APIs as such.
+Not all APIs are REST APIs. Many developers, at all levels, use the term interchangeably to refer to any server that returns JSON, or even action-oriented APIs such as [RPC or gRPC]({{< ref path="/posts/software-architecture/que-es-grpc-y-para-que-sirven-los-protobuffers/index.md" lang="en" >}}). Even large companies like Twitter and Facebook don't meet all the characteristics of a REST API, despite advertising their APIs as such.
 
 {{<ad2>}}
 
 If you already know the brief technical part, skip this section.
 
-If we want to design a REST API we have to comply with a series of characteristics that define this design style. I summarize them briefly below:
+If we want to design a REST API we have to follow a set of characteristics that define this design style. I've summarized them briefly below:
 
-- **System with client-server architecture.** A system consisting of two parts, one that requests information and the other that provides it.
-- **Stateless:** The result of a request must not depend on previous requests. That is, the client must provide everything necessary for its processing by the server, and the server must not store any session information.
-- **Cacheable**: It must be possible to tag a response as cacheable to reuse it in subsequent similar responses.
-- **Uniform interface for all clients.** URIs must ([Not be confused with URL](https://danielmiessler.com/study/difference-between-uri-url/)) refer to resources and each resource must have a unique URI. A resource can be a post, a user, a product, etc. For its part, the server sends representations of the resources (XML, JSON. TXT, etc), never the original resource. The client must be able to modify the original resource from the representation of the resource it receives from the server.
-    - **Access and modification of resources through a URI**: Remember that one thing is the resource itself and another is its representation. The client can specify the type of resource (XML, JSON, TXT, etc.) that it wishes to receive from the server.
-    - **Self-describing messages**: Each message must have enough information to understand how to process it.
-    - **Use of Hypermedia resources (HATEOAS):** the use of hyperlinks in the response that point to the related resources, so that the client can navigate the API from the responses it gets from the server.
-- **Layered system:** In REST APIs, requests and responses go through different layers. The client and the server must be agnostic regarding the intermediary layers that exist between their communication.
+- **System with client-server architecture.** A system consisting of two parts: one that requests information and the other that provides it.
+- **Stateless:** The result of a request must not depend on previous requests. That is, the client must provide everything necessary for the server to process the request, and the server must not store any session information.
+- **Cacheable**: It must be possible to mark a response as cacheable so it can be reused for subsequent, similar requests.
+- **Uniform interface for all clients.** URIs (not to be confused with [URLs](https://danielmiessler.com/study/difference-between-uri-url/)) must refer to resources, and each resource must have a unique URI. A resource can be a post, a user, a product, etc. The server, for its part, sends representations of the resources (XML, JSON, TXT, etc.), never the original resource. The client must be able to modify the original resource from the representation it receives from the server.
+    - **Access and modification of resources through a URI**: Remember that the resource itself and its representation are different things. The client can specify the type of representation (XML, JSON, TXT, etc.) that it wishes to receive from the server.
+    - **Self-describing messages**: Each message must contain enough information for the client to understand how to process it.
+    - **Use of Hypermedia resources (HATEOAS):** the use of hyperlinks in the response that point to related resources, so that the client can navigate the API from the responses it receives from the server.
+- **Layered system:** In REST APIs, requests and responses go through different layers. The client and the server must be agnostic about the intermediary layers that exist between them.
 - **Code on Demand (optional):** the server could send code, in the form of scripts or components, to extend the functionality of the client.
 
-If you want to delve deeper into each of these points, here are some resources that may be quite useful:
+If you want to delve deeper into each of these points, here are some resources that may be useful:
 
 In English:
 
@@ -88,34 +88,34 @@ In Spanish, if you're one of Duo's friends:
 
 Having summarized the basic features, let's move on to practical tips.
 
-## What are the correct statuses for a REST API?
+## What are the correct status codes for a REST API?
 
 Do not return a 200 code in all your API responses.
 
 As you know, each HTTP response has a numeric value that defines it, these values can be grouped in ranges from 100 to 600.
 
-Our API must return the correct statuses that tell the client what is happening.
+Our API must return the correct status codes that tell the client what is happening.
 
-There are probably some states that you will never use, but you should memorize at least the most frequently used ones:
+There are probably some status codes that you'll never use, but you should be familiar with at least the most common ones:
 
 * **200 OK**, status ok, the request was successful.
 * **201 Created**, a resource was created
-* **204 No Content**, Request completed successfully, but there is no content in the request.
+* **204 No Content**, Request completed successfully, but there is no content to return.
 * **301 Redirect**, Permanent redirect
 * **302 Found**, temporary redirect
 * **400 Bad Request**, server received a malformed request
-* **401 Unauthorized**, you are not authenticated (no user)
-* **403 Forbidden**, you do not have the proper permissions (the user does not have the permissions)
+* **401 Unauthorized**, you are not authenticated (not logged in)
+* **403 Forbidden**, you do not have the proper permissions (the user lacks the necessary permissions)
 * **404 Not Found**, the requested resource was not found
 * **500 Internal Server**, Error from the server
 
-There are many more [HTTP statuses you probably want to know about](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Be sure to check them out.
+There are many more [HTTP status codes worth knowing about](https://developer.mozilla.org/es/docs/Web/HTTP/Status). Be sure to check them out.
 
 {{< figure src="images/GoogleStatus418.png" class="md-local-image" alt="Code 418 response in google." caption="Code 418: I'm a teapot"  width="948" height="502" >}}
 
 ### Returns clear messages on errors
 
-When you return an error, make sure you notify your API user, in a clear and explicit way, about the errors and how to fix them.
+When returning an error, make sure you clearly and explicitly inform your API user about what went wrong and how to fix it.
 
 ```json
 { 
@@ -130,7 +130,7 @@ When you return an error, make sure you notify your API user, in a clear and exp
 
 ## Use the appropriate HTTP methods for a REST API
 
-Do not limit yourself to receive only POST and GET requests in your API, there is a method for each action of a CRUD.
+Don't limit yourself to receiving only POST and GET requests in your API; there's an HTTP method for each CRUD action.
 
 The HTTP methods we receive as part of the HTTP request will indicate the instructions to be performed by the server.
 
@@ -139,14 +139,14 @@ The HTTP methods we receive as part of the HTTP request will indicate the instru
 * PUT: Create a new resource or update it if it already exists.
 * PATCH: Edit a part of a resource
 * DELETE: Delete a resource
-* HEAD: Like GET but without getting the resource.
-* OPTIONS: Ask the server for supported methods before making a request to them
+* HEAD: Like GET but without retrieving the resource body.
+* OPTIONS: Ask the server which methods it supports before making requests to it
 
 For details on each method consider reviewing the [official documentation on HTTP request methods](https://developer.mozilla.org/es/docs/Web/HTTP/Methods).
 
 ### Use plural nouns, not verbs for URIs.
 
-A REST API is a representation of resources, so we always refer to objects, plural.
+A REST API represents resources, so we should always refer to resources using plural nouns.
 
 Actions are specified in HTTP methods, so leave them out of your URIs.
 
@@ -157,7 +157,7 @@ videogame/create # This is not REST, but RPC ❌
 videogame/delete # This is not REST, but RPC ❌
 ```
 
-For the sake of clarity we will use the plural form of nouns to refer to resources.
+For the sake of clarity, use the plural form of nouns to refer to resources.
 
 ```bash
 # Incorrect, singular ❌
@@ -166,9 +166,9 @@ videogame
 videogames
 ```
 
-## Avoid underscores and always use lower case.
+## Avoid underscores and always use lowercase.
 
-In Mark Masse's [Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces](https://amzn.to/4gUr3Ht#?), he states as a "rule" the use of lower case in URIs and encourages the avoidance of underscores, because some devices highlight clickable resources with underscores, which can make links difficult to see.
+In Mark Masse's [REST API Design Rulebook: Designing Consistent Restful Web Service Interfaces](https://amzn.to/4gUr3Ht#?), he establishes as a "rule" the use of lowercase in URIs and discourages the use of underscores, because some devices underline clickable links, which can make underscores in URIs difficult to see.
 
 ```bash
 VIDEOGAMES❌
@@ -176,40 +176,40 @@ popular_videogames❌
 videogames✅
 ```
 
-## Diagonal at the end or not?
+## Trailing slash or not?
 
-There are some mixed opinions on this.
+There are differing opinions on this.
 
-In the Rest API Design Rulebook: Designing Consistent Restful Web Service Interfaces, the use of a diagonal at the end of URls is strongly discouraged.
+In the REST API Design Rulebook: Designing Consistent Restful Web Service Interfaces, the use of a trailing slash at the end of URLs is strongly discouraged.
 
-Where does the diagonal at the end come from? Historically the non-diagonal version has been used to refer to files.
+Where does the trailing slash come from? Historically, the version without a trailing slash has been used to refer to files.
 
 ```bash
 videogames
 ```
 
-While a diagonal at the end refers to directories.
+While a trailing slash refers to directories.
 
 ```bash
 videogames/
 ```
 
-On the other hand, [google is more permissive in its article slash or not to slash](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash). And it is totally indifferent towards the use or absence of the end diagonal, however it emphasizes the importance of remaining uniform in its use, since **URLs with an end diagonal and without end diagonal are considered different URLs by search engines.**
+On the other hand, [Google is more permissive in its article on trailing slashes](https://developers.google.com/search/blog/2010/04/to-slash-or-not-to-slash). It is totally indifferent to the use or absence of a trailing slash; however, it emphasizes the importance of being consistent, since **URLs with a trailing slash and without one are considered different URLs by search engines.**
 
-Pick one and stick to it. Consider using a redirect (301) from one type of url to another, but always be consistent.
+Pick one and stick to it. Consider using a redirect (301) from one type of URL to another, but always be consistent.
 
-### Diagonal at the end in the root
+### Trailing slash at the root
 
-In the root address it does not matter if a diagonal is placed at the end.
+At the root URL, it doesn't matter if a trailing slash is used or not.
 
-The **root URLs are treated as one by search engines, whether they are diagonal or not**, so make sure they return the same content.
+**Root URLs are treated as the same by search engines, whether they have a trailing slash or not**, so make sure they return the same content.
 
 ```bash
 https://yourdomain.com/
 https://yourdomain.com
 ```
 
-## Extensions in the url should be absent
+## Avoid file extensions in URLs
 
 Do not use the URI to specify the type of resource requested by its extension. Remember that one thing is the resource itself and another is its representation.
 
@@ -219,9 +219,9 @@ Do not use the URI to specify the type of resource requested by its extension. R
 /resource.xml❌
 ```
 
-So how do I request a file type in a REST API?
+So how do you request a specific format in a REST API?
 
-### The customer requests the type of representation by means of headers.
+### The client requests the type of representation via headers.
 
 The representation of the resource to be returned will depend on the _Accept_ header of the client, so we can return different types of representations of the same resource, in the same URI.
 
@@ -237,17 +237,17 @@ Accept: application/xml
 
 ## HATEOAS and its relationship with REST APIs
 
-HATEOAS stands for **Hypermedia As The Engine Of Applicaton State**.
+HATEOAS stands for **Hypermedia As The Engine Of Application State**.
 
-What is it? When you enter a web page, it has internal links to other pages of the website, usually related to each other, either video, audio, images, so that navigation is more fluid.
+What is it? When you visit a web page, it contains internal links to other pages of the website, usually related content such as videos, audio, and images, making navigation more fluid.
 
 {{< figure src="images/HTTPHypermedia.jpg" class="md-local-image" alt="Screenshot of Travelling around with internal links" caption="Example of internal links in a web page"  width="971" height="777" >}}
 
 HATEOAS tells us that our clients should receive an API response from which they can access other related resources via hyperlinks.
 
-This does not necessarily mean a URL's; it can be a file, an ftp or others. But yes, probably for practical purposes you will be using URL's most of the time.
+This does not necessarily mean a URL; it can be a file, an FTP address, or others. But, yes, for practical purposes you'll probably be using URLs most of the time.
 
-In other words, **our API must be navigable directly from a response, it should also show us available actions**.
+In other words, **our API responses must be navigable, and they should also show the available actions**.
 
 ```bash
 {
@@ -267,7 +267,7 @@ In other words, **our API must be navigable directly from a response, it should 
 
 ## How to document your REST API
 
-Every API should be documented. Documentation should be clear and easy to understand. Fortunately, there are already solutions that save a lot of work, allowing you to document the most basic aspects of your API automatically.
+Every API should be documented. Documentation should be clear and easy to understand. Fortunately, there are tools that simplify this process, allowing you to document the most basic aspects of your API automatically.
 
 * OpenAPI (Formerly Swagger)
 * ReDoc
@@ -275,19 +275,19 @@ Every API should be documented. Documentation should be clear and easy to unders
 
 Consider implementing them in your project.
 
-There are even [frameworks such as FastAPI that include the documentation by default in the projects]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}})
+There are even [frameworks like FastAPI that include documentation by default]({{< ref path="/posts/fastapi/python-fastapi-el-mejor-framework-de-python/index.md" lang="en" >}})
 
 {{< figure src="images/Documentacion_swagger.png" class="md-local-image" alt="Open API image capture, automatic documentation for REST API" caption="Interface generated by Open API"  width="1487" height="239" >}}
 
 ## How to test a REST API?
 
-Each endpoint of your API should be tested, make sure they return the correct status codes for each combination of HTTP method and user type (authenticated, anonymous, no permissions, etc.). For testing you can always rely on classic solutions such as HTTPie or Curl.
+Each endpoint of your API should be tested. Make sure they return the correct status codes for each combination of HTTP method and user type (authenticated, anonymous, no permissions, etc.). For testing you can always rely on classic solutions such as HTTPie or Curl.
 
-On the other hand, if you want something more visual, more user-friendly, and easier to use, consider using specialized tools, such as Postman, Insomnia or Hoppscotch.
+For a more visual and user-friendly approach, consider using specialized tools such as Postman, Insomnia, or Hoppscotch.
 
 {{< figure src="images/InsomniaGUI.png" class="md-local-image" alt="Insomnia GUI, a REST API testing application" caption="Insomnia GUI, API testing tool"  width="1271" height="739" >}}
 
-In order not to extend the post so much, the next post will deal with some more subjective [REST API design and best practices](/en/software-architecture/rest-api-best-practices-and-design/) questions such as: how to return JSON correctly? How much to nest an API? What are the ways to version an API?
+To keep this post from getting too long, the next post will cover some more subjective [REST API design and best practices](/en/software-architecture/rest-api-best-practices-and-design/) topics such as: how to return JSON correctly, how much to nest an API, and what are the ways to version an API.
 
 ## Reference sources
 
