@@ -74,7 +74,7 @@ Yo me atreveré a nombrarte algunos ejemplos que pasaron por mi mente al escribi
 - [JWT](/es/software-architecture/no-uses-jwt-para-gestionar-sesiones-traduccion/): Usado como una "mejora" a las sesiones y autenticación, incluso aunque [varios expertos en seguridad informáticas recomendaban no usarlas](https://redis.io/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/) de esa manera.
 - CSR, SSR y SSG: Los desarrolladores rápidamente se dieron cuenta de que siempre fue mejor generar el HTML directamente desde el servidor o usar archivos estáticos, como se había hecho siempre, por [razones tales como el SEO.]({{< ref path="/posts/seo/mis-errores-de-seo-tecnico-y-como-los-optimice/index.md" lang="es" >}})
 - AI: ¿[Será la AI una burbuja]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) en la que es mejor entrar o pasará igual que con la revolución cripto?
-- WASM: No es que WASM no sea útil, todo lo contrario, lo que ocurre es que algunos pensaban que todos los sitios iban a estar codificados en Rust o en algún lenguaje de bajo nivel, lo que por supuesto no ha ocurrido.
+- WASM: No es que WASM no sea útil, todo lo contrario, lo que ocurre es que algunos pensaban que todos los sitios iban a estar codificados en Rust o en algún lenguaje de bajo nivel, lo que por supuesto no ha ocurrido. Aunque hay algunas aplicaciones interesantes de WASM, como una [app editor de videos](https://subjoin.one/es/video-tools) en el navegador, que usan FFMPEG por debajo.
 
 ### Consecuencias del SOS y el FOMO en el desarrollo web
 
