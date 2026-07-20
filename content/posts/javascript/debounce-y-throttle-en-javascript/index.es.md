@@ -21,7 +21,7 @@ keywords:
 - throttling
 - debounce
 slug: /javascript/explicacion-interactiva-de-debounce-y-throttle/
-title: Explicación Interactiva de Debounce y Throttle
+title: Debounce vs Throttle Demo Interactiva y Explicacion
 ---
 
 Hagamos una explicación interactiva de debounce vs throttle, donde puedas ver las diferencias entre estos [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) de una manera más visual. 

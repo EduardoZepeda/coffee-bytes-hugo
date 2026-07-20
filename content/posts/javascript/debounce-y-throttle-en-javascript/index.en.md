@@ -3,6 +3,7 @@ aliases:
 - /en/debounce-and-throttle-in-javascript/
 - /en/limit-the-execution-of-functions-in-js-with-debounce-and-throttle/
 - /en/javascript/limit-the-execution-of-functions-in-js-with-debounce-and-throttle/
+- /en/javascript/debounce-and-throttle-interactive-explanation/
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,7 +12,7 @@ categories:
 coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Image credits to i7 from Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'
-seo_title: "Debounce vs Throttle in JavaScript Explained"
+seo_title: "Debounce vs Throttle in JavaScript Interactive Explanation"
 description: Interactive visual explanation of debounce and throttle patterns in JavaScript.
   Learn to limit function execution with practical examples.
 keyword: debounce vs throttle
@@ -20,7 +21,7 @@ keywords:
 - design patterns
 - throttling
 - debounce
-title: Debounce and Throttle Interactive Explanation
+title: Debounce vs Throttle Interactive Visual Guide And Live Demo
 ---
 
 I thought let's do a Debounce vs Throttle. Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. This patterns are not exclusive to Javascript and can be used in any language or can be used as high level abstractions; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="en" >}}).

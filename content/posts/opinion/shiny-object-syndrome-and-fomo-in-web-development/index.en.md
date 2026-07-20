@@ -17,7 +17,6 @@ keywords:
 title: Be careful of Shiny Object Syndrome and FOMO in web development
 ---
 
-{{<adsPanels>}}
 
 {{<ad0>}}
 
