@@ -15,7 +15,8 @@ keys:
 - solr
 - autocomplete
 - index
-seo_title: "Autocomplete and Search with Solr and Django Haystack"
+title: "Autocomplete and Search with Solr and Django Haystack"
+seo_title: "Learn To Configure Autocomplete and Search with Solr and Django Haystack"
 description: Build autocomplete, search suggestions and related content features in your
   Django app using Solr and Haystack with advanced search capabilities.
 ---
