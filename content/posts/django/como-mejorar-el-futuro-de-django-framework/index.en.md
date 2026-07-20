@@ -8,7 +8,7 @@ categories:
 - opinion
 coverImage: images/how-to-improve-django.jpg
 date: 2024-06-23
-seo_title: "How to Improve Django: Community Suggestions"
+seo_title: "How to Improve Django: Reddit Community Suggestions"
 description: Top suggestions from the Django subreddit community to improve the framework,
   from modest enhancements to bold architectural changes.
 keyword: improve django
@@ -17,7 +17,8 @@ keywords:
 - python
 - reddit
 - opinion
-title: How to improve Django Framework?
+title: How to improve Django Framework According To Reddit?
+slug: /en/django/how-to-improve-django-framework/
 ---
 
 On June 21, 2024 I started a thread on reddit with the following question: "What would you improve about Django framework?". The response from the community was immediate and the conversation quickly filled up with suggestions on how to improve Django framework, ranging from modest to quite radical. I summarize the results below.
