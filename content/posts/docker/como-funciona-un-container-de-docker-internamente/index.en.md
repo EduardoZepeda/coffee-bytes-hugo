@@ -9,7 +9,7 @@ categories:
 - go
 coverImage: images/docker-container-desde-cero.jpg
 date: '2022-06-18'
-seo_title: "How Docker Containers Work Internally"
+seo_title: "Build Your Own Docker Container And Learn How They Work"
 description: Technical explanation of how Docker uses namespaces, cgroups and chroot to
   create isolated containers on Linux.
 keywords:

@@ -25,7 +25,7 @@ keywords:
 - Workers
 - algoritmos
 slug: /software-architecture/explicacion-del-patron-de-diseno-worker-pool/
-title: Explicación del Patron De Diseño Worker Pool
+title: "Worker Pool: Demo interactiva y Patrón de diseño explicado"
 ---
 
 Esta entrada va sobre un patrón de diseño, llamado Worker Pool (Piscina de workers o trabajadores suena espantoso, lo usaré en inglés) del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.

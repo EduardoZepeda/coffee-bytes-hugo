@@ -13,7 +13,7 @@ categories:
 - go
 coverImage: images/docker-container-desde-cero.jpg
 date: '2022-06-18'
-seo_title: "Cómo Funciona un Contenedor Docker por Dentro"
+seo_title: "Aprende Como Funciona un Contenedor Docker internamente"
 description: Explicación técnica de cómo Docker usa namespaces, cgroups y chroot para
   crear contenedores aislados en Linux.
 keywords:

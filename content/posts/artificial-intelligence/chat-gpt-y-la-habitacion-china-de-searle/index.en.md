@@ -8,7 +8,7 @@ categories:
 - opinion
 coverImage: images/chat-gpt-y-la-habitacion-china.jpg
 date: '2023-04-19'
-seo_title: "ChatGPT and Searle's Chinese Room: Is AI Conscious?"
+seo_title: "Why AI Will Never Be Conscious: ChatGPT and Searle's Chinese Room"
 description: Analysis of ChatGPT through John Searle's Chinese Room argument. Can AI
   be conscious? Introduction to philosophy of artificial intelligence.
 keywords:

@@ -2,6 +2,7 @@
 aliases:
 - /best-practices-and-design-of-a-rest-api
 - /en/rest-api-best-practices-and-design/
+- /en/software-architecture/rest-api-best-practices-and-design/
 authors:
 - Eduardo Zepeda
 categories:
@@ -9,7 +10,7 @@ categories:
 - opinion
 coverImage: images/buenDisenoAPIREST.jpg
 date: '2022-04-28'
-seo_title: "REST API Design: Best Practices and Patterns"
+seo_title: "Stop Writing Flaky APIs: REST Best Practices for Robust Design"
 description: Complete guide to REST API design, endpoints, versioning, throttling,
   resource nesting and best practices for scalable APIs.
 keywords:
@@ -17,7 +18,7 @@ keywords:
 - opinion
 - REST
 - api
-title: 'REST API: Best practices and design'
+title: 'REST API Best Practices: A Guide Based On Many Books'
 ---
 
 How do I design a REST API? How many levels should I nest my related resources? Relative or full URLs? This post is a compilation of some recommendations about some good REST API design practices that I have found in books and articles on the internet. I leave the sources at the end of the article in case you are interested in going deeper or see where this information comes from.

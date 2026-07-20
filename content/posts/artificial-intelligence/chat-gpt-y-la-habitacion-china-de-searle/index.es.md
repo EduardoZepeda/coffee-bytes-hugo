@@ -11,7 +11,7 @@ categories:
 - opinion
 coverImage: images/chat-gpt-y-la-habitacion-china.jpg
 date: '2023-04-19'
-seo_title: "ChatGPT y la Habitación China de Searle: ¿IA Consciente?"
+seo_title: "Porqué la AI Nunca Será Consciente: ChatGPT y la Habitación China de Searle"
 description: Análisis de ChatGPT y la habitación china de John Searle. ¿Puede una IA
   ser consciente? Introducción a la filosofía de la inteligencia artificial.
 keywords:

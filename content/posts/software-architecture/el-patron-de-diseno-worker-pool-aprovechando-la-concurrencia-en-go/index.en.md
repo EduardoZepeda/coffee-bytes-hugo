@@ -3,6 +3,7 @@ aliases:
 - /en/go-introduction-to-goroutines-and-concurrency/explanation-of-worker-pool-design-pattern/
 - /go-use-of-channels-to-communicate-goroutines/explanation-of-worker-pool-design-pattern/
 - /en/worker-pool-design-pattern-explanation/
+- /en/software-architecture/worker-pool-design-pattern-explanation/
 authors:
 - Eduardo Zepeda
 categories:
@@ -11,8 +12,8 @@ categories:
 coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
 seo_title: "Worker Pool Pattern in Go: Concurrency Guide"
-description: Learn the worker pool design pattern in Go, job queues, concurrency and
-  handling heavy workloads efficiently.
+description: Learn the worker pool design job queues, concurrency and
+  handling heavy workloads efficiently using the interactive playground
 keyword: worker pool
 keywords:
 - Go
@@ -22,7 +23,7 @@ keywords:
 - Parallelism
 - Workers
 - algorithms
-title: Worker Pool Design Pattern Explanation
+title: "Worker Pool Design Pattern: Interactive Playground"
 ---
 
 This entry is about a the Worker Pool design pattern. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.

@@ -11,7 +11,7 @@ categories:
 - opinion
 coverImage: images/buenDisenoAPIREST.jpg
 date: '2022-04-28'
-seo_title: "API REST: Buenas Prácticas y Diseño"
+seo_title: "Deja de escribir API inestables: Mejores prácticas REST"
 description: Guía completa de diseño de APIs REST, endpoints, versionado, throttling,
   anidamiento de recursos y mejores prácticas para APIs escalables.
 keywords:
@@ -20,7 +20,7 @@ keywords:
 - REST
 - api
 slug: /software-architecture/buenas-practicas-y-diseno-de-una-api-rest/
-title: Buenas prácticas y diseño de una API REST
+title: "Buenas Prácticas De Diseño API REST: Basada En Los Mejores Libros"  
 ---
 
 ¿Cómo diseño una API REST? ¿Cuántos niveles debo anidar mis recursos relacionados? ¿URLs relativas o completas? Este post es una recopilación de ciertas recomendaciones sobre algunas buenas praćticas de diseño de APIs REST que he encontrado en libros y artículos de internet. Dejo las fuentes al final del artículo por si te interesa profundizar o ver de donde viene esta información. 
