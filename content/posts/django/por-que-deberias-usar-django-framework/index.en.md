@@ -9,7 +9,7 @@ categories:
 coverImage: images/Django-usar.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-03-24'
-seo_title: "Django Pros and Cons: Is It Worth Learning?"
+seo_title: "Django Framework Pros and Cons: Is It Worth Learning It Today?"
 description: Explore the advantages and disadvantages of Django to decide if it's the
   right Python framework for your next web project. Performance, community and more.
 keywords:

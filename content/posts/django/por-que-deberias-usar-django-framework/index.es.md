@@ -11,7 +11,7 @@ categories:
 coverImage: images/Django-usar.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-03-24'
-seo_title: "Ventajas y desventajas de Django: ¿Vale la pena usarlo?"
+seo_title: "Ventajas y desventajas de Django Framework: ¿Vale la pena usarlo Hoy?"
 description: Descubre las ventajas y desventajas de Django para decidir si es el framework
   ideal para tu proyecto web. Comparamos rendimiento, comunidad y facilidad de uso.
 keywords:
