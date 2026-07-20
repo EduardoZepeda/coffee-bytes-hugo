@@ -5,7 +5,7 @@ categories:
 - artificial intelligence
 - opinion
 coverImage: images/el-culto-a-la-ai-en-redes.jpg
-seo_title: "The AI Cult on Social Media: Critical Analysis"
+seo_title: "The AI Cult on Social Media: My Analysis"
 description: Analysis of excessive AI worship on social media, from corporate hype to
   digital inquisitors defending AI at all costs.
 keyword: ''
