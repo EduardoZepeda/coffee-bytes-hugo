@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/how-to-improve-django-framework/
+- /en/opinion/how-to-improve-django-framework/
 authors:
 - Eduardo Zepeda
 categories:
@@ -18,7 +19,6 @@ keywords:
 - reddit
 - opinion
 title: How to improve Django Framework According To Reddit?
-slug: /en/django/how-to-improve-django-framework/
 ---
 
 On June 21, 2024 I started a thread on reddit with the following question: "What would you improve about Django framework?". The response from the community was immediate and the conversation quickly filled up with suggestions on how to improve Django framework, ranging from modest to quite radical. I summarize the results below.
