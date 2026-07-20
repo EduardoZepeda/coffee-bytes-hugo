@@ -10,14 +10,14 @@ categories:
 - linux
 coverImage: images/como_escribir_una_buena_contraseña.jpg
 date: '2020-07-02'
-seo_title: "Cómo Crear Contraseñas Seguras: Guía Práctica"
+seo_title: "Cómo Crear Contraseña Sólida A Prueba De Hackers"
 description: Aprende a crear contraseñas seguras que protejan tus cuentas de hackers.
   Consejos prácticos para mejorar tu seguridad informática.
 keywords:
 - linux
 - opinion
 slug: /linux/como-crear-una-contrasena-segura/
-title: ¿Cómo crear una contraseña segura?
+title: ¿Cómo crear una contraseña segura a prueba de hackers?
 ---
 
 Uno de mis amigos trabajaba como auditor de seguridad informática en una empresa cuyo nombre no mencionaré por razones obvias. Eventualmente nuestra conversión llegó al tema de su día a día en el trabajo, le pregunté acerca de sus funciones en la empresa y me respondió que su trabajo consistía principalmente en regañar y educar a los empleados sobre lo débiles que eran sus contraseñas. Lo crítico de esto es que muchas de esos empleados eran los encargados de crear los sistemas informáticos de los clientes para los que trabajaban. Sí, profesionales en TI que son descuidados con sus contraseñas, uno pensaría que es imposible, pero es mucho más común de lo que se cree. Muy pocas personas saben crear una contraseña segura.
@@ -60,7 +60,7 @@ CalleFalsa123 # Mal, no nombres de donde vives, o de series que te gustan
 
 ## Evita las contraseñas que aparecen en diccionarios
 
-Hay un montón de diccionarios en la red con las contraseñas más populares, como [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz), algunos incluso enlistan todas aquellas contraseñas que han sido obtenidas a partir de hackeos a sitios web. 
+Hay un montón de diccionarios en la red con las contraseñas más populares, como [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz#?), algunos incluso enlistan todas aquellas contraseñas que han sido obtenidas a partir de hackeos a sitios web. 
 
 Asegúrate de que tu contraseña no se encuentre en ninguno de esos diccionarios. Un potencial atacante siempre usará las contraseñas de los diccionarios más comunes para intentar comprometer un sistema, si tu contraseña está en uno de esos diccionarios es casi seguro que tu cuenta será un blanco fácil.
 
@@ -122,9 +122,17 @@ Debes de recordar que **absolutamente todas las contraseñas pueden ser obtenida
 
 **Nota importante:** El sitio web que publicaré es para propósitos informativos. **Nunca teclees una contraseña que usas (o usarás) en un sitio web que no conoces** (incluido este), no sabes si pueden almacenarla para usarla después. Yo ya me aseguré de que el sitio web no manda peticiones web al usarse. Pero, incluso así, es una mala práctica teclear tus contraseñas en otros sitios web, no lo hagas.
 
-Bien, una vez advertido puedes visitarlo entrando en [este enlace](https://howsecureismypassword.net/#?). De cualquier forma aquí tienes algunos ejemplos de contraseñas y el tiempo aproximado que tomaría romperlas por fuerza bruta.
+Bien, una vez advertido puedes visitarlo entrando en [howsecureismypassword](https://howsecureismypassword.net/#?). De cualquier forma aquí tienes algunos ejemplos de contraseñas y el tiempo aproximado que tomaría romperlas por fuerza bruta.
 
-<table><tbody><tr><td><strong>Contraseña</strong></td><td><strong>Tiempo</strong></td></tr><tr><td>firulais</td><td>5 segundos</td></tr><tr><td>admin123</td><td>1 minuto</td></tr><tr><td>F1rul415</td><td>1 minuto</td></tr><tr><td>unP3rritoTrist3:(</td><td>3 cuadrillones de años</td></tr><tr><td>jXkeLCfcPfTqtCFEtMFy</td><td>16 cuadrillones de años</td></tr><tr><td>v&lt;eVZ&amp;C=&gt;-h-3H9`%y5*</td><td>6 sextillones de años</td></tr><tr><td>Aristoteles-Tira-Rocas-A-Platon</td><td>300 undecillones de años</td></tr></tbody></table>
+| Contraseña                      | Tiempo                |
+| ------------------------------- | --------------------- |
+| firulais                        | 5 segundo             |
+| admin123                        | 1 minuto              |
+| F1rul415                        | 1 minuto              |
+| unP3rritoTrist3:(               | 3 quadrilliones años  |
+| jXkeLCfcPfTqtCFEtMFy            | 16 quadrilliones años |
+| v&lt;eVZ&amp;C=&gt;-h-3H9`%y5*  | 6 Sextilliones años   |
+| Aristoteles-Tira-Rocas-A-Platon | 300 undecilliones años|
 
 Datos obtenidos de https://howsecureismypassword.net
 
@@ -135,6 +143,7 @@ Se puede apreciar que incluso aunque incluir números en una contraseña no la v
 Incluso si cuentas con una contraseña muy fuerte esta será completamente inútil si un atacante la averigua usando otros métodos diferentes a la fuerza bruta. Aquí unos cuantos consejos sobre seguridad informática relacionados con contraseñas.
 
 - Evita ingresar tu contraseña en computadoras públicas, nunca sabes si hay algún keylogger físico o virtual instalado
+- Jamás teclees tu contraseña frente a alguien que sostiene un celular
 - Mantente alejado de sitios web que no están cifrados, prefiere siempre aquellos sitios web que usan HTTPS en lugar de HTTP
 - No ingreses contraseñas en redes públicas, tales como cafeterías o redes abiertas, nunca sabes si la red está siendo presa de un ataque MITM
 - Cuidado con las personas que te miran mientras tecleas, a veces para un atacante es más eficaz echar un vistazo directo a tus contraseñas mientras las tecleas que descubrir una vulnerabilidad en tu sistema.

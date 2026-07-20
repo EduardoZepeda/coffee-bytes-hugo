@@ -13,7 +13,8 @@ description: Learn to create secure passwords that protect your accounts from ha
 keywords:
 - linux
 - opinion
-title: How to create a secure password?
+title: How to create an unguessable solid secure password?
+slug: /en/linux/how-to-create-a-secure-password/
 ---
 
 One of my friends worked as an IT security auditor for a company whose name I will not mention for obvious reasons. Eventually our conversion got to the topic of his day to day work life, I asked him about his duties at the company and he replied that his job consisted mainly of nagging and educating employees about how weak their passwords were. The critical part of this is that many of those employees were in charge of setting up the computer systems for the clients they worked for. Yes, IT professionals being careless with their passwords, you'd think it would be impossible, but it's far more common than you'd think. Few people know how to create a secure password.
@@ -49,14 +50,14 @@ It's tempting enough to create an easy-to-remember password using your partner's
 "But, what happens is that my password is a mixture of those things", no, still, it's not enough. There are programs like [JohnTheRipper](https://github.com/magnumripper/JohnTheRipper) capable of generating all possible combinations from your personal data, so it is not secure in any way. Your password should not have parts that can be obtained from a conversation with you or your acquaintances. Again, **your password should not be based on any personal information related to you.
 
 ```bash
-CalleFalsa123 # Never use your street name
+FalseStreet123 # Never use your street name
 5555551111 # Using your phone number is a nono
 19-oct-1990 # Please never use your birthday date as a part of a password
 ```
 
 ## Avoid passwords that appear in dictionaries
 
-There are a lot of dictionaries on the net with the most popular passwords, such as [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz), some even list all those passwords that have been obtained from website hacks.
+There are a lot of dictionaries on the net with the most popular passwords, such as [rockyou](https://github.com/praetorian-code/Hob0Rules/blob/master/wordlists/rockyou.txt.gz#?), some even list all those passwords that have been obtained from website hacks.
 
 Make sure that your password is not in any of these dictionaries. A potential attacker will always use passwords from the most common dictionaries to try to compromise a system, if your password is in one of these dictionaries it is almost certain that your account will be an easy target.
 
@@ -103,6 +104,8 @@ abc2020
 
 **Make sure your password includes uppercase, lowercase, special characters and numbers, mixed**. This way we greatly increase the number of attempts an attacker has to make to obtain a password, since now he will have to include special characters, numbers, uppercase and lowercase letters in each attempt.
 
+Protip: If you are a Spanish speaker make sure to obliterate your hacker's attempts by including the "ñ" character in your password.
+
 ```bash
 # 
 aliensaristoteleselectron # Lowercase
@@ -117,7 +120,7 @@ You must remember that **absolutely all passwords can be obtained by brute force
 
 **Important note:** The website I will post is for informational purposes. **Never type a password you use (or will use) on a website you don't know** (including this one), you don't know if they can store it for later use. I already made sure that the website doesn't send web requests when used. But, even so, it's bad practice to type your passwords on other websites, don't do it.
 
-Well, once warned you can visit it by going to [this link](https://howsecureismypassword.net/#?). Anyway here are some examples of passwords and the approximate time it would take to break them by brute force.
+Well, once warned you can visit it by going to [howsecureismypassword](https://howsecureismypassword.net/#?). Anyway here are some examples of passwords and the approximate time it would take to break them by brute force.
 
 | Contraseña                      | Tiempo                |
 | ------------------------------- | --------------------- |
@@ -139,6 +142,7 @@ It can be seen that even though including numbers in a password does not automat
 Even if you have a very strong password it will be completely useless if an attacker figures it out using methods other than brute force. Here are a few tips on computer security related to passwords.
 
 * Avoid entering your password on public computers, you never know if there is a physical or virtual keylogger installed.
+* Never type your password in front of a cellphone or someone holding one
 * Stay away from websites that are not encrypted, always prefer websites that use HTTPS instead of HTTP.
 * Don't enter passwords on public networks, such as coffee shops or open networks, you never know if the network is falling prey to a MITM attack.
 * Beware of people looking at you as you type, sometimes it is more effective for an attacker to take a direct look at your passwords as you type them than to discover a vulnerability in your system.
@@ -147,4 +151,4 @@ Even if you have a very strong password it will be completely useless if an atta
 
 ## There are easier ways to manage passwords
 
-But isn't all of the above a lot of hassle? Yes, in fact it is quite complicated to maintain a secure system using strong passwords, that's why there are programs and websites that take care of managing your passwords so you don't have to worry about many of the things I just mentioned. Enter the following post to know keepassx, the tool I currently use to manage my passwords and learn how to use it.
+But isn't all of the above a lot of hassle? Yes, in fact it is quite complicated to maintain a secure system using strong passwords, that's why there are programs and websites that take care of managing your passwords so you don't have to worry about many of the things I just mentioned. Enter the next post to know keepassx, the tool I currently use to manage my passwords and learn how to use it.
