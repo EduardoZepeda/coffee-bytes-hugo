@@ -8,8 +8,9 @@ categories:
 coverImage: images/ReduceElImpactoFb-ChatPlugin.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@jorge-jesus-137537/
 date: '2021-10-05'
-description: Prevent the facebook chat online plugin from slowing down the loading
-  of your page, and affecting the web vitals indicators, delaying its loading.
+seo_title: "Facebook Chat Plugin: Reduce Page Load Impact"
+description: Stop the Facebook Chat plugin from slowing your page. Learn lazy loading
+  techniques to improve Core Web Vitals scores.
 keywords:
 - performance
 - javascript

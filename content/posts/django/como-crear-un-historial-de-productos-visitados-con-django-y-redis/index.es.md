@@ -11,8 +11,9 @@ categories:
 coverImage: images/django_y_redis_con_mejor_diseno.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@axel-vandenhirtz-332204/
 date: '2020-11-28'
-description: Tutorial para la creación de un un historial de productos visitados sencillo
-  y minimalista usando django, sus queries y el motor de base de datos redis
+seo_title: "Historial de Productos Visitados con Django y Redis"
+description: Crea un sistema de productos vistos recientemente en Django usando Redis,
+  con queries eficientes y diseño minimalista para ecommerces.
 keywords:
 - django
 - redis

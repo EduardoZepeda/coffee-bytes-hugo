@@ -7,8 +7,9 @@ categories:
 - javascript
 coverImage: images/desestructuracion_de_listas.jpg
 date: '2019-11-03'
-description: Learn and understand perfectly the destructuring of lists in javascript.
-  In this post I explain the topic with examples.
+seo_title: "Array Destructuring in JavaScript Made Easy"
+description: Master JavaScript array destructuring with practical examples. Learn to
+  extract values from lists cleanly and improve code readability.
 keywords:
 - javascript
 title: Destructuring lists in JavaScript

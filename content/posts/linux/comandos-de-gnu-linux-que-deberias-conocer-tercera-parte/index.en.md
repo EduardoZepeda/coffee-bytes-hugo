@@ -9,8 +9,9 @@ categories:
 - linux
 coverImage: images/comandos_GNU_Linux_3.jpg
 date: '2019-05-21'
-description: 'Usage and common options of the linux terminal commands: printenv, systemctl,
-  top, ps, chown, kill, wget, curl, chroot, export and others'
+seo_title: "Linux Commands Part 3: systemctl, top, kill Guide"
+description: Third part of Linux commands, printenv, systemctl, top, ps, kill, curl,
+  chown and other advanced terminal commands explained.
 keywords:
 - linux
 - commands

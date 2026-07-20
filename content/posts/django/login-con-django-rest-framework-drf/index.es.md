@@ -11,8 +11,9 @@ categories:
 coverImage: images/AutenticacionConDRF.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@sean-manning-214956/
 date: '2021-08-17'
-description: Tutorial para implementar login y registro usuarios en django con las
-  librerías dj-rest-auth y django-allauth usando JWT y también tokens normales
+seo_title: "Login y Registro en Django Rest Framework con JWT"
+description: Tutorial para implementar login y registro de usuarios en Django con DRF,
+  dj-rest-auth y django-allauth usando JWT y tokens.
 keywords:
 - REST
 - django

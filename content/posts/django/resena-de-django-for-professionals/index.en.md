@@ -7,8 +7,9 @@ categories:
 - django
 coverImage: images/Django_for_professionals.jpg
 date: '2020-04-15'
-description: Django for professionals is one of the modern books about the Django
-  web development framework. This post is my take on the book.
+seo_title: "Django for Professionals Book Review"
+description: My review of Django for Professionals, one of the best modern books for
+  learning web development with the Django framework.
 keywords:
 - django
 - python

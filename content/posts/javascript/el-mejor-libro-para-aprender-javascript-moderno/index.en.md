@@ -8,9 +8,9 @@ categories:
 - opinion
 coverImage: images/eloquent_javascript.jpg
 date: '2019-10-01'
-description: If you plan to spend a few hours learning javascript, don't waste your
-  time looking for more, you will hardly find a book that covers such a variety of
-  concepts in such an understandable and complete way as this one.
+seo_title: "Best Book to Learn Modern JavaScript"
+description: Review of Eloquent JavaScript, the best book for learning modern JavaScript
+  comprehensively. Perfect for beginners and self-taught developers.
 keywords:
 - javascript
 - books

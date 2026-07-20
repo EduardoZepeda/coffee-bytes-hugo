@@ -9,8 +9,9 @@ categories:
 coverImage: images/Django-usar.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-03-24'
-description: Is Django worth using in a world where everything is JavaScript? Enter
-  to learn about the advantages and disadvantages of this Python framework.
+seo_title: "Django Pros and Cons: Is It Worth Learning?"
+description: Explore the advantages and disadvantages of Django to decide if it's the
+  right Python framework for your next web project. Performance, community and more.
 keywords:
 - drf
 - django

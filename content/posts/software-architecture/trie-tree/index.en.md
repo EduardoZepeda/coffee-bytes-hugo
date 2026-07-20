@@ -5,7 +5,9 @@ categories:
 - software architecture
 - databases
 coverImage: "images/trie-trees-data-structure.jpg"
-description: 'I built a visual simulator of a Trie Tree Data Structure, you can add, delete words and see how the changes in this data structure are reflected in real time'
+seo_title: "Trie Tree: Interactive Data Structure Simulator"
+description: Interactive Trie Tree simulator, add, delete words and see changes reflected
+  in real time on this data structure visualization.
 keyword: 'trie tree'
 keywords:
 - 'trie tree'

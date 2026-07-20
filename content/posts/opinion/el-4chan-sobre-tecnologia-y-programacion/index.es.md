@@ -10,8 +10,9 @@ categories:
 - opinion
 coverImage: images/el_4chan_sobre_programacion.jpg
 date: '2019-09-16'
-description: En esta entrada expongo mi opinión sobre uno de los image boards de programación
-  y tecnología más populares que hay, lainchan.
+seo_title: "Lainchan: El 4chan de Tecnología y Programación"
+description: Opinión sobre Lainchan, el image board de programación y tecnología. Análisis
+  de su comunidad, calidad de contenido y utilidad.
 keywords:
 - opinion
 - internet

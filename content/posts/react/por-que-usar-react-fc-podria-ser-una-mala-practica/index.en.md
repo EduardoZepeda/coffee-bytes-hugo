@@ -9,9 +9,9 @@ categories:
 - opinion
 coverImage: images/react-fc-mala-practica.jpg
 date: '2022-02-23'
-description: Using React.FC could be a bad practice and go against the explicit nature
-  of Typescript due to its ambiguous way of dealing with children, of course is not
-  the only way, there are better ways to deal with React components that have children.
+seo_title: "Why You Shouldn't Use React.FC"
+description: React.FC can be a bad practice, TypeScript issues, ambiguous children
+  handling and better alternatives for typing components.
 keywords:
 - react
 - typescript

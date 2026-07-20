@@ -10,8 +10,9 @@ categories:
 - software architecture
 coverImage: images/context-model-protocol-explanation.jpg
 date: '2025-03-31T18:00:32-06:00'
-description: If you have difficulties understanding the Model Context Protocol (MCP),
-  I will explain why it was created, what it is used for and also how it works internally
+seo_title: "Model Context Protocol (MCP) Explained Simply"
+description: Clear explanation of the Model Context Protocol (MCP) what it's for, how
+  it works internally and why it was created for LLM interaction.
 keyword: model context protocol
 keywords:
 - artificial intelligence

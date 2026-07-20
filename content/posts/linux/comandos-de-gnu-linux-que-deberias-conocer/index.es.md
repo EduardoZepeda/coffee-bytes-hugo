@@ -10,8 +10,9 @@ categories:
 - linux
 coverImage: images/comandos_GNU_Linux_1.jpg
 date: '2019-05-08'
-description: 'Uso y opciones comunes de los comandos de terminal de linux: grep, ls,
-  cd, clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man y algunos consejos.'
+seo_title: "Comandos Básicos de Linux: Guía Completa con Ejemplos"
+description: Guía completa de comandos esenciales de Linux, grep, ls, cd, cat, cp, rm,
+  scp, ssh y más. Aprende la terminal de forma práctica.
 keywords:
 - linux
 - commands

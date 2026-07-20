@@ -9,8 +9,9 @@ categories:
 - opinion
 coverImage: images/technical-seo-checklist.jpg
 date: '2025-04-14T00:02:16-06:00'
-description: 'Mi checklist de SEO técnico para desarrolladores web, lo mínimo que
-  hay que hacer cuando se trata del SEO técnico de un sitio web: mapa del sitio, robots'
+seo_title: "SEO Técnico para Desarrolladores: Checklist Básica"
+description: Checklist de SEO técnico esencial para devs, sitemap, robots.txt, schema
+  markup y más. Lo mínimo que necesitas saber.
 keyword: SEO Técnico básico
 keywords:
 - seo

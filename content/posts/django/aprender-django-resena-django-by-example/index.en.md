@@ -7,8 +7,9 @@ categories:
 - django
 coverImage: images/Django_by_example.jpg
 date: '2020-09-01'
-description: Here is my review of the book Django by Example, a book to learn Django
-  from scratch through simple projects. Come in and read it.
+seo_title: "Django by Example Book Review: Learn Django Fast"
+description: Full review of Django by Example, a hands-on book that teaches Django through
+  building real projects like blogs, stores and social networks.
 keywords:
 - books
 - opinion

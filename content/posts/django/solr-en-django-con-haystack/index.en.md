@@ -10,6 +10,9 @@ categories:
 coverImage: images/solr-django-busquedas.jpg
 coverImageCredits: Credits to we_make_mangas
 date: '2022-05-26'
+seo_title: "Set Up Solr for Search in Django with Haystack"
+description: Configure Solr with Django Haystack for fast, full-text search and inverted
+  indexing of your Django model content.
 title: How to implement Solr for searches or queries in Django?
 url: :sections[last]/searches-with-solr-with-django-haystack
 ---

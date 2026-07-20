@@ -8,8 +8,9 @@ categories:
 - opinion
 coverImage: images/chat-gpt-y-la-habitacion-china.jpg
 date: '2023-04-19'
-description: A brief introduction to the topic of consciousness, artifcial intelligence,
-  chatGPT and the Chinese room by John Searle.
+seo_title: "ChatGPT and Searle's Chinese Room: Is AI Conscious?"
+description: Analysis of ChatGPT through John Searle's Chinese Room argument. Can AI
+  be conscious? Introduction to philosophy of artificial intelligence.
 keywords:
 - artificial intelligence
 - automata

@@ -9,8 +9,9 @@ categories:
 coverImage: images/djangochannels.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2021-11-16'
-description: Implement channel layers in your django channels app to share information
-  between channels or channels/consumers and groups.
+seo_title: "Django Channels: Channel Layers, Groups and Users"
+description: Set up channel layers in Django Channels to share data between consumers
+  and groups for real-time web applications.
 keywords:
 - django
 - python

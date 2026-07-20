@@ -8,9 +8,9 @@ categories:
 - javascript
 coverImage: images/desestructuracion_con_valores_por_defecto.jpg
 date: '2019-12-01'
-description: ¿Quieres saber entender como llevar a cabo la desestructuración de un
-  objeto con valores por defecto en javascript desde cero? En esta entrada explico
-  como.
+seo_title: "Desestructuración con Valores Por Defecto en JS"
+description: Aprende a usar valores por defecto en la desestructuración de objetos en
+  JavaScript con ejemplos claros y prácticos.
 keywords:
 - javascript
 slug: /javascript/desestructuracion-con-valores-por-defecto-en-javascript/

@@ -12,8 +12,9 @@ categories:
 coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'
-description: Explicación interactiva y visual de los patrones debounce y throttle, usados para limitar
-  la ejecución desmedida, especialmente como respuesta a eventos 
+seo_title: "Debounce y Throttle en JavaScript: Explicación Visual"
+description: Explicación interactiva de debounce y throttle en JavaScript con ejemplos
+  visuales. Aprende a limitar la ejecución de funciones en eventos.
 keywords:
 - javascript
 - patrones de diseño

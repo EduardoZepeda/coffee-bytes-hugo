@@ -10,8 +10,9 @@ categories:
 coverImage: images/useCallbackyMemo.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@khoa-vo-2347168/
 date: '2021-08-10'
-description: Usa el hook de React useCallback y su HOC memo para mejorar el rendimiento
-  de tu aplicación evitando renderizaciones en tus componentes
+seo_title: "React memo y useCallback: Evitar Renderizaciones"
+description: Aprende a usar React memo y useCallback para optimizar renderizaciones
+  y mejorar el rendimiento de tu aplicación.
 keywords:
 - javascript
 - react

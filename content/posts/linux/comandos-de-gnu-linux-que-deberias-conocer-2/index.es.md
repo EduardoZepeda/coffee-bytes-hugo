@@ -11,8 +11,9 @@ categories:
 - linux
 coverImage: images/comandos_GNU_Linux_2.jpg
 date: '2019-05-13'
-description: Aprende sobre los comandos básicos de GNU/Linux que ofrece la terminal,
-  para esta entrada explico uname, who, du, df, entre muchos otros.
+seo_title: "Comandos Linux Parte 2: passwd, du, apt y más"
+description: Segunda parte de comandos esenciales de Linux, passwd, useradd, du, df, apt
+  y otros comandos fundamentales para la terminal.
 keywords:
 - linux
 slug: /linux/comandos-basicos-de-linux-passwd-du-useradd-usermod-fdisk-apt/

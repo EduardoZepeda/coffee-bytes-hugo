@@ -11,8 +11,9 @@ categories:
 coverImage: images/ContentTypeDjango2.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@iamikeee/
 date: '2021-02-16'
-description: Aprende para que sirve ContentType en Django y como acceder a la información
-  que guarda este modelo en nuestra aplicación de Django.
+seo_title: "ContentType en Django: Para Qué Sirve"
+description: Descubre qué hace ContentType en Django y cómo acceder a la información
+  que almacena sobre los modelos de tu proyecto.
 keywords:
 - django
 - python

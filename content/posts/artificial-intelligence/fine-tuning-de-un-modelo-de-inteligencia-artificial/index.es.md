@@ -8,9 +8,9 @@ categories:
 - opinion
 coverImage: images/Fine-Tuning-LLM-Short-Guide.jpg
 date: '2025-02-17'
-description: Una breve guía práctica sobre el proceso de puesta a punto de un LLM
-  y recursos útiles para hacerlo según mi experiencia entrenando Mistral 7B disponible
-  en HuggingFace
+seo_title: "Fine-Tuning de LLMs: Guía Práctica con Mistral"
+description: Guía práctica de fine-tuning para LLMs. Aprende a entrenar Mistral 7B con
+  recursos accesibles y consejos de mi experiencia personal.
 keyword: fine-tuning
 keywords:
 - artificial intelligence

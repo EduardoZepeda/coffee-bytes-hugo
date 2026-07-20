@@ -7,8 +7,9 @@ categories:
 - opinion
 coverImage: images/tech-interview-hacking-obfuscated-code.jpg
 date: '2024-12-14T22:24:18-06:00'
-description: Esta es la historia de un tipo que estuvo a punto de perder todo su criptomonedas
-  y probablemente ser hackeado en una entrevista de trabajo para un puesto remoto
+seo_title: "Entrevista Laboral y Robo de Criptomonedas: Cuidado"
+description: Historia real de un developer casi hackeado en una entrevista de trabajo
+  remota. Cómo proteger tus criptomonedas y datos personales.
 keyword: ''
 keywords:
 - crypto

@@ -8,9 +8,9 @@ categories:
 coverImage: images/deploy-patterns-to-test-new-functionalities.jpg
 coverImageCredits: Image by Tsutomu Nihei --niji 5
 date: '2023-08-18'
-description: 'Master the art of deployment with this deep dive into these handy patterns
-  like canary, blue-green, dark launch, and A/B testing! Learn how to roll out updates
-  smoothly, minimize risks, and deliver smooooth user experiences. '
+seo_title: "Deployment Patterns: Canary, Blue-Green and A/B Testing"
+description: Complete guide to deployment patterns, canary, blue-green, dark launch
+  and A/B testing. Minimize risks and improve user experience.
 keywords:
 - devops
 - design patterns

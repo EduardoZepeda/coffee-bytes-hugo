@@ -7,8 +7,9 @@ categories:
 - javascript
 coverImage: images/desestructuracion_con_valores_por_defecto.jpg
 date: '2019-12-01'
-description: Do you want to know how to understand how to perform destructuring an
-  object with default values in javascript from scratch? In this post I explain how.
+seo_title: "JavaScript Destructuring with Default Values"
+description: Learn to use default values in JavaScript object destructuring with clear
+  examples and step-by-step explanations.
 keywords:
 - javascript
 title: Destructuring with default values in Javascript

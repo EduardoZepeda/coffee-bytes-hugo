@@ -12,9 +12,9 @@ categories:
 - Go
 coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
-description: Te explico como funciona el patrón de diseño worker pool, el job queue
-  o cola de tareas ideal para manejar con lenguajes de programación que soporten la
-  concurrencia
+seo_title: "Worker Pool en Go: Patrón de Concurrencia"
+description: Aprende el patrón worker pool en Go, cola de tareas, concurrencia y cómo
+  manejar cargas de trabajo pesadas eficientemente.
 keyword: worker pool
 keywords:
 - Go

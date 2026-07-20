@@ -7,8 +7,9 @@ categories:
 - opinion
 coverImage: images/Figura-de-miku-hatsune-de-vinsky2002.jpg
 date: '2019-03-31'
-description: This is a personal entry where I explain how I learned to program for
-  the first time, first in PHP and my first contacts with Python.
+seo_title: "How I Learned to Code: My PHP and Python Journey"
+description: Personal story about learning to code, starting with PHP, first steps with
+  Python and the journey to becoming a developer.
 keywords:
 - opinion
 - internet

@@ -9,8 +9,9 @@ categories:
 coverImage: images/ContentTypeDjango2.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@iamikeee/
 date: '2021-02-16'
-description: Learn what ContentType is for in Django and how to access the information
-  this model stores in our Django app.
+seo_title: "What Does ContentType Do in Django?"
+description: Learn what ContentType is in Django and how to access the metadata it stores
+  about your project's models.
 keywords:
 - django
 - python

@@ -7,8 +7,9 @@ categories:
 - python
 coverImage: images/tutorial_basico_virtualenv.jpg
 date: '2019-07-15'
-description: Learn how to user virtualenv on GNU/Linux, the best known python tool
-  for managing virtual environments visit this tutorial.
+seo_title: "Virtualenv Tutorial: Python Virtual Environments on Linux"
+description: Step-by-step virtualenv tutorial on Linux, install, create and manage Python
+  virtual environments for your projects.
 keywords:
 - python
 - linux

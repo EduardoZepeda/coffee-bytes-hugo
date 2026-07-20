@@ -7,8 +7,9 @@ categories:
 - go
 coverImage: images/go-mutex-race-conditions.jpg
 date: '2022-02-02'
-description: In this post I talk about race conditions that occur when using goroutines
-  and how to prevent them by using mutex.
+seo_title: "Go Race Conditions: How to Use Mutex"
+description: Learn to detect and prevent race conditions in Go using mutex. Practical
+  guide to safe concurrency.
 keywords:
 - go
 title: 'Go: race conditions on goroutines and mutexes'

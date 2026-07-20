@@ -8,8 +8,9 @@ categories:
 - algorithms
 coverImage: images/top-5-katas-codewars.jpg
 date: '2022-04-30'
-description: Learn how to use celery in django to schedule periodic or maintenance
-  tasks to run every certain time or on a given date.
+seo_title: "Top 5 Favorite Algorithm Challenges on CodeWars"
+description: My 5 favorite katas on CodeWars, multi line task, spiral, escape the maze
+  and more. Fun challenges to practice coding.
 keywords:
 - internet
 - performance

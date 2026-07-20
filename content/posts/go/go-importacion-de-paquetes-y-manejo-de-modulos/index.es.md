@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/Golang-paquetes-y-modulos.jpg
 date: '2022-01-12'
-description: Aprende lo básico de importar paquetes y manejo modulos en el lenguaje
-  de programación go. Domina el método de go init y el archivo go.mod
+seo_title: "Go Paquetes y Módulos: Importación y Gestión"
+description: Aprende a importar paquetes y gestionar módulos en Go. Domina go mod, go
+  init y el archivo go.mod con ejemplos.
 keywords:
 - go
 slug: /go/go-importacion-de-paquetes-y-manejo-de-modulos/

@@ -7,8 +7,9 @@ categories:
 - opinion
 coverImage: images/tech-interview-hacking-obfuscated-code.jpg
 date: '2024-12-14T22:24:22-06:00'
-description: This is the story about a guy who was about to lose all his crypto and
-  probably get hacked in a job interview for a remote position
+seo_title: "Job Interview Turned Crypto Heist: A Warning"
+description: True story of a developer nearly hacked during a remote job interview.
+  How to protect your crypto and personal data.
 keyword: ''
 keywords:
 - crypto

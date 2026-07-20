@@ -5,7 +5,9 @@ categories:
 - software architecture
 - databases
 coverImage: "images/swiss-tables-programming.jpg"
-description: 'Te explico las Swiss Tables, porqué son tan rápidas, metadata SIMD, hashes y hasta puedes probar un simulador interactivo en tiempo real para aprender mejor'
+seo_title: "Swiss Tables: El HashMap Más Rápido Explicado"
+description: Swiss Tables explicadas, por qué son tan rápidas, uso de SIMD, metadata
+  y simulador interactivo para entender esta estructura.
 keyword: 'swiss tables'
 keywords:
 - ''

@@ -11,7 +11,9 @@ categories:
 coverImage: images/Mi-experiencia-digital-ocean.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/
 date: '2021-01-14'
-description: This is my Digital Ocean review, I'll let you know about my experience of it using it to host all of my personal projects so far.
+seo_title: "DigitalOcean Review: My Honest Experience"
+description: Honest DigitalOcean review, features, pricing, pros and cons after hosting
+  all my personal projects on their platform.
 keywords:
 - digital ocean
 - opinion

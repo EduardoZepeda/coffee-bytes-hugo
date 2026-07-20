@@ -9,8 +9,9 @@ categories:
 - opinion
 coverImage: images/Fine-Tuning-LLM-Short-Guide.jpg
 date: '2025-02-17'
-description: A short practical guide on the process of fine-tuning a LLM and useful
-  resources to do so according to my experience training Mistral 7B available on HuggingFace
+seo_title: "Fine-Tuning LLMs: Practical Guide with Mistral 7B"
+description: Practical guide to fine-tuning LLMs. Learn to train Mistral 7B with
+  accessible resources and tips from hands-on experience.
 keyword: fine-tuning
 keywords:
 - artificial intelligence

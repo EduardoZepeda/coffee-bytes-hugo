@@ -9,8 +9,9 @@ categories:
 - linux
 coverImage: images/chico_con_mascara_de_gas.jpg
 date: '2020-07-15'
-description: Tutorial de keepassxc. Logra contraseñas seguras e impenetrables por
-  fuerza bruta, incluso aunque no sepas nada de criptografía.
+seo_title: "KeePassXC: Gestor de Contraseñas Seguras"
+description: Tutorial de KeePassXC para crear y gestionar contraseñas seguras e impenetrables.
+  Gratuito, open source y súper seguro.
 keywords:
 - linux
 slug: /linux/contrasenas-seguras-tutorial-de-keepassxc/

@@ -8,8 +8,9 @@ categories:
 coverImage: images/TareasPeriodicasCeleryYDjango.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2021-08-31'
-description: Learn how to use celery in django to schedule periodic or maintenance
-  tasks to run every so often or on a given date.
+seo_title: "Periodic Tasks in Django with Celery"
+description: Set up Celery in Django to schedule periodic tasks maintenance jobs, email
+  campaigns and automated scheduled operations.
 keywords:
 - celery
 - django

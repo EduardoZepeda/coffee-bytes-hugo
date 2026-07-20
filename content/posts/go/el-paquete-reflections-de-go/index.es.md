@@ -11,8 +11,9 @@ categories:
 - Go
 coverImage: images/reflect-typeof-value-of-en-go.jpg
 date: '2023-03-13'
-description: Te explico el paquete reflect de go y sus funciones básicas de reflexión
-  para obtener los tipos de datos en tiempo de ejecución
+seo_title: "Go Reflect: Paquete de Reflexión Explicado"
+description: Aprende a usar el paquete reflect en Go para obtener tipos de datos en
+  tiempo de ejecución y mayor flexibilidad.
 keywords:
 - go
 - reflect

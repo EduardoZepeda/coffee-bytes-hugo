@@ -8,8 +8,9 @@ categories:
 coverImage: images/MideCargaUsuariosLocust.jpg
 coverImageCredits: Credits to https://www.pexels.com/@minan1398/
 date: '2021-10-12'
-description: Learn how to perform and customize user traffic audits and requests per
-  second (rps) reality using locust in Python.
+seo_title: "Measure Requests per Second with Locust in Python"
+description: Locust tutorial for load testing and measuring requests per second (RPS)
+  in real-time with graphs and custom reports.
 keywords:
 - python
 - performance

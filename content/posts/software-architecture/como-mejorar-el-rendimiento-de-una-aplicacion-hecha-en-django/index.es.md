@@ -16,8 +16,9 @@ categories:
 coverImage: images/Mejora-el-rendimiento-de-tuapp-django.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@tranmautritam/
 date: '2020-12-30'
-description: 'Tutorial para maximizar el rendimiento y la velocidad de una aplicación
-  hecha en Django: optimización de queries, caché, serializers, índices, denormalización,
+seo_title: "Mejorar Rendimiento en Django: Tips y Optimización"
+description: Tutorial completo para optimizar Django, queries, caché, índices, serializadores
+  y estrategias para escalar a millones de vistas.
   ORMS e intérpretes y frameworks alternativos'
 keywords:
 - rendimiento

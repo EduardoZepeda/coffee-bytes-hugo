@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/go-maps-o-diccionarios.jpg
 date: '2021-12-21'
-description: Te explico como funcionan un map en go o golang y aprende a declararlos,
-  crearlos explícitamente con make y recorrerlos con range.
+seo_title: "Go Maps: Diccionarios en Golang Explicados"
+description: Aprende a usar maps en Go, declaración, creación con make, recorrido con
+  range y operaciones básicas con ejemplos prácticos.
 keywords:
 - go
 slug: /go/go-maps-o-diccionarios/

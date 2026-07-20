@@ -9,9 +9,9 @@ categories:
 - opinion
 coverImage: images/technical-seo-checklist.jpg
 date: '2025-04-14T00:02:21-06:00'
-description: 'My Technical SEO Basics Checklist For Web Developers, the minimum you
-  need to do when it comes to the Technical SEO of a website: sitemap, robots, schema
-  markup'
+seo_title: "Technical SEO Checklist for Web Developers"
+description: Essential technical SEO checklist for developers, sitemap, robots.txt, schema
+  markup and more. The minimum you need to know.
 keyword: Technical SEO basics
 keywords:
 - guia

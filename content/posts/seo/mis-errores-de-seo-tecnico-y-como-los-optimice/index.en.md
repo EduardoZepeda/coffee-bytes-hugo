@@ -9,8 +9,9 @@ categories:
 - opinion
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
-description: I tell you everything about my technical SEO mistakes, what I did wrong, what I did right and what I learned from optimizing all the technical SEO aspects of my blog
-  mistakes.
+seo_title: "Technical SEO Mistakes When Migrating from WordPress"
+description: My technical SEO mistakes migrating from WordPress to Hugo, what I did wrong,
+  what I did right and lessons learned.
 keywords:
 - opinion
 - seo

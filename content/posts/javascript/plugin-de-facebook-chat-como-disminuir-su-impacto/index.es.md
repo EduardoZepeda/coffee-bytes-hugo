@@ -10,8 +10,9 @@ categories:
 coverImage: images/ReduceElImpactoFb-ChatPlugin.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@jorge-jesus-137537/
 date: '2021-10-05'
-description: Evita que el plugin de facebook chat online vuelve lenta la carga de
-  tu página, y afecte los indicadores de web vitals, retrasando su carga.
+seo_title: "Plugin de Facebook Chat: Cómo Reducir su Impacto"
+description: Evita que el plugin de Facebook Chat ralentice tu página web. Aprende a
+  cargarlo de forma lazy y mejorar los Core Web Vitals.
 keywords:
 - rendimiento
 - javascript

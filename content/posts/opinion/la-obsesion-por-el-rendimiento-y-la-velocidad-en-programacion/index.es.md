@@ -8,9 +8,9 @@ categories:
 - opinion
 coverImage: images/performance-isnt-that-important-for-new-web-projects.jpg
 date: 2024-04-03
-description: Probablemente tu proyecto web no requiera esos milisegundos de rendimiento
-  extra ni tampoco que utilices el framework más rápido que existe y quizás debas
-  centrarte más en el aspecto comercial
+seo_title: "No Te Obsesiones con el Rendimiento en Programación"
+description: Tu proyecto web probablemente no necesita esos milisegundos extra. Enfócate
+  en el negocio, no en el framework más rápido.
 keywords:
 - opinion
 - rendimiento

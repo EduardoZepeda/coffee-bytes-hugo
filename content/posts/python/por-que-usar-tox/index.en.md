@@ -8,8 +8,9 @@ categories:
 - testing
 coverImage: images/porque_deberias_usar_tox.jpg
 date: '2019-06-18'
-description: Learn that it is tox, as it is installed, as tox.ini files are used and
-  how to configure it to create safer tests in Python.
+seo_title: "Testing with Tox in Python: Complete Tutorial"
+description: Learn tox for testing across multiple Python versions, setup tox.ini,
+  configure environments and build reliable test suites.
 keywords:
 - tox
 - python

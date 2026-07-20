@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/goroutines-y-concurrencia-en-go.jpg
 date: '2022-01-19'
-description: Post sobre las bases de las goroutines, channels o canales, waitgroups
-  y bloqueos en el lenguaje de programación golang o go.
+seo_title: "Goroutines en Go: Introducción a la Concurrencia"
+description: Aprende los fundamentos de goroutines, channels, waitgroups y bloqueos
+  en Go. Guía completa de concurrencia para principiantes.
 keywords:
 - go
 - concurrencia

@@ -10,8 +10,9 @@ categories:
 - go
 coverImage: images/que-es-grpc-y-protobuffers.jpg
 date: '2023-01-19'
-description: What is a Go Lang gRPC API and what are .proto files and protobuffers? What are
-  the advantages of protobuffers over JSON and why are they so fast and efficient?
+seo_title: "What is gRPC and Protobuffers? Beginner's Guide"
+description: Explanation of gRPC and protobuffers, advantages over JSON, why they're fast
+  and how to create your first API with this protocol.
 keywords:
 - REST
 - software architecture

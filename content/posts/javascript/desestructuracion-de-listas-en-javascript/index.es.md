@@ -8,8 +8,9 @@ categories:
 - javascript
 coverImage: images/desestructuracion_de_listas.jpg
 date: '2019-11-03'
-description: Aprende y entiende perfectamente la desestructuración de listas en javascript.
-  En esta entrada explico el tema con ejemplos.
+seo_title: "Desestructuración de Listas en JavaScript"
+description: Aprende a desestructurar arrays y listas en JavaScript con ejemplos prácticos,
+  mejorando la legibilidad de tu código.
 keywords:
 - javascript
 slug: /javascript/desestructuracion-de-listas-en-javascript/

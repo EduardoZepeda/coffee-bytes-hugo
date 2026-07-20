@@ -11,8 +11,9 @@ categories:
 - testing
 coverImage: images/porque_deberias_usar_tox.jpg
 date: '2019-06-18'
-description: Aprende que es tox, como se instala, como se usan los archivos tox.ini
-  y como configurarlo para crear tests más seguros en Python.
+seo_title: "Tox en Python: Testing en Múltiples Versiones"
+description: Aprende a usar tox para ejecutar tests en diferentes versiones de Python,
+  configurar tox.ini y crear suites de prueba robustas.
 keywords:
 - tox
 - python

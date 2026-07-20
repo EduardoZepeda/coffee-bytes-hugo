@@ -8,7 +8,9 @@ categories:
 - software architecture
 coverImage: images/i_took_advantage_of_an_error_in_the_code_of_a_dating_app.jpg
 date: '2025-01-03T20:36:36-06:00'
-description: ''
+seo_title: "I Exploited a Bug in a Dating App's Code"
+description: True story of how I found and exploited a front-end security flaw in a
+  Tinder-style dating application's code.
 keyword: ''
 keywords:
 - cyber security

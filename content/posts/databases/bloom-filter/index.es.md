@@ -7,7 +7,9 @@ categories:
 - databases
 - software architecture
 coverImage: "images/bloom-filter-visual-simulator.jpg"
-description: 'Te explico que es un bloom filter sus aplicaciones, además usa el simulador de esta estructura de datos en tiempo real y mira como funciona internamente'
+seo_title: "Bloom Filter: Qué es y Cómo Funciona con Ejemplos"
+description: Aprende qué es un Bloom Filter, sus aplicaciones en bases de datos y usa
+  el simulador visual para entender cómo funciona internamente.
 keyword: 'bloom filter'
 keywords:
 - 'database'

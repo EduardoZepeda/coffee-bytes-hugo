@@ -13,8 +13,9 @@ categories:
 - testing
 coverImage: images/porque_deberias_incorporar_test_a_tu_codigo.jpg
 date: '2019-06-11'
-description: Los tests son un desperdicio, ¿verdad? Entra aquí y conoce unittest,
-  coverage, mock y otras herramientas populares de python para testing.
+seo_title: "Tests en Python: Unittest, Coverage y Mock"
+description: ¿Los tests son un desperdicio? Descubre unittest, coverage, mock y pytest
+  en Python, y por qué los tests ahorran tiempo y bugs.
 keywords:
 - testing
 - python

@@ -8,8 +8,9 @@ categories:
 coverImage: images/NoCometasEsteError.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@nishizuka-25426/
 date: '2021-04-07'
-description: Why is it that when I change one element of an array in a Python array
-  all the others are changed? I explain why it happens and how to prevent it.
+seo_title: "Common Python Array Mistake and How to Fix It"
+description: Why changing one element in a Python matrix changes all others? Learn the
+  cause and the simple fix for this common Python array bug.
 keywords:
 - python
 - performance

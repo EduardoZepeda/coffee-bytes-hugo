@@ -10,8 +10,9 @@ categories:
 - linux
 coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
 date: 2022-10-06
-description: Manejo de las señales o signlas SIGINT y SIGTERM en Linux usando channels
-  en Go para conseguir el apagado elegante de aplicaciones web en Go
+seo_title: "Graceful Shutdown en Go: Manejo de Signals"
+description: Aprende a manejar SIGINT y SIGTERM en Go para apagado elegante de aplicaciones.
+  Tutorial con channels y manejo de señales.
 slug: /go/go-manejo-de-signals-para-cerrar-aplicaciones/
 title: 'Go: Manejo de Signals para Cerrar Aplicaciones'
 ---

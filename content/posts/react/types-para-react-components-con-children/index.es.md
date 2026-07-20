@@ -13,8 +13,9 @@ categories:
 coverImage: images/TypesChildrenTypescript.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@tranmautritam/
 date: '2021-10-19'
-description: Te enseño tres maneras diferentes para establecer los types en Typescript
-  para componentes que reciben children como parámetro en El framework de React.
+seo_title: "Types para Componentes React con Children en TS"
+description: Tres formas de tipar componentes React con children en TypeScript, PropTypes,
+  FC y componentes genéricos con ejemplos.
 keywords:
 - react
 - typescript

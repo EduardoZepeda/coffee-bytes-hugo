@@ -11,8 +11,9 @@ categories:
 coverImage: images/throttling_ngnix.jpg
 coverImagecredits: Créditos a https://www.pexels.com/@amateur-photo-1700447
 date: '2021-03-13'
-description: Aprende a usar Throttling en Nginx para limitar el número de peticiones
-  en tu aplicación, mitigando ataques DDOS o de fuerza bruta.
+seo_title: "Throttling en Nginx: Limitar Peticiones con Éxito"
+description: Aprende a configurar throttling en Nginx para proteger tu aplicación de
+  ataques DDoS y fuerza bruta limitando peticiones.
 keywords:
 - nginx
 - rendimiento

@@ -9,9 +9,9 @@ categories:
 - opinion
 coverImage: images/buenDisenoAPIREST.jpg
 date: '2022-04-28'
-description: Ultimate guide to REST API design and best practices! Learn how to build
-  scalable, secure, and efficient APIs that developers love. From endpoint structure,
-  version it, update it, throttling policies and nest resources in URIs.
+seo_title: "REST API Design: Best Practices and Patterns"
+description: Complete guide to REST API design, endpoints, versioning, throttling,
+  resource nesting and best practices for scalable APIs.
 keywords:
 - software architecture
 - opinion

@@ -7,8 +7,9 @@ categories:
 - databases
 coverImage: images/shadow-table-strategy.jpg
 date: '2025-06-27T16:14:41-06:00'
+seo_title: "Shadow Tables: Zero-Downtime Database Migrations"
 description: Master the shadow table strategy for zero-downtime database migrations.
-  Learn how to modify tables, handle constraints, and avoid common pitfalls in production.
+  Step-by-step guide with practical examples and common pitfalls.
 keyword: Shadow Table Strategy
 keywords:
 - databases

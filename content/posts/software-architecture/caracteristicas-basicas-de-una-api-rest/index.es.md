@@ -13,9 +13,9 @@ categories:
 coverImage: images/CaracteristicasBasicasDeUnaAPIREST.jpg
 coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-04-07'
-description: Cuáles son las características de una API REST? ¿Qué debo hacer para
-  crear una API que sea REST? ¿Diagonal al final de la url o no? ¿qué es HATEOAS?
-  ¿uso mayúsculas o minúsculas en la url?
+seo_title: "Características de una API REST: Guía Básica"
+description: Qué es una API REST, sus características fundamentales, HATEOAS, URL naming
+  conventions y mejores prácticas para diseñar APIs.
 keyword: API REST
 keywords:
 - REST

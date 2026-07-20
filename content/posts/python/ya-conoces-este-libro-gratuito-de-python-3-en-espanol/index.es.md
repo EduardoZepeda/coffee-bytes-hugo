@@ -10,8 +10,9 @@ categories:
 - python
 coverImage: images/DSC_3818.jpg
 date: '2019-07-31'
-description: Entra aquí para leer mi reseña sobre un excelente libro gratuito para
-  aprender Python, que además está completamente traducido al español.
+seo_title: "Libro Gratuito de Python en Español: Inmersión en Python"
+description: Reseña de Inmersión en Python, el mejor libro gratuito para aprender
+  Python desde cero, completamente traducido al español.
 keywords:
 - libros
 - python

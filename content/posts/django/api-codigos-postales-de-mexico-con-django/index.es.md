@@ -9,8 +9,9 @@ categories:
 coverImage: images/CodigosPostalesMexicoDjango.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2021-07-22'
-description: Crea una API de códigos postales de México que retorna las colonias,
-  estado y municipio, con datos de SEPOMEX usando esta librería de Django.
+seo_title: "API de Códigos Postales de México con Django"
+description: Crea una API que consulte códigos postales de México y retorne colonias,
+  estado y municipio usando datos de SEPOMEX con Django.
 keywords:
 - django
 - api

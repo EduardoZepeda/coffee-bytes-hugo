@@ -8,8 +8,9 @@ categories:
 coverImage: images/como-usar-django-para-subir-multiples-imagenes.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2021-03-30'
-description: Learn how to handle uploading multiple images in Django and returning
-  them in JSON format, ideal for consuming an API.
+seo_title: "Upload Multiple Images in Django REST API"
+description: Learn to handle multiple image uploads in Django and return them as JSON
+  through a REST API endpoint, step by step.
 keywords:
 - python
 - django

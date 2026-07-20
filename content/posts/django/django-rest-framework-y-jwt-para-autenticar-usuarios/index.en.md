@@ -13,8 +13,9 @@ categories:
 coverImage: images/JWT.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@iamikeee/
 date: '2021-06-14'
-description: Learn how to implement basic authentication in Django using JWT and Django
-  Rest Framework via access and refresh tokens.
+seo_title: "JWT Authentication in Django Rest Framework"
+description: Implement secure JWT authentication in Django REST Framework with access
+  and refresh tokens, step by step tutorial.
 keywords:
 - django
 - jwt

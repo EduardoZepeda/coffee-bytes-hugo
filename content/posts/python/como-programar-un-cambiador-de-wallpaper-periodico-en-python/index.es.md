@@ -9,8 +9,9 @@ categories:
 - python
 coverImage: images/como_programar_un_cambiador_wallpaper_python.jpg
 date: '2020-03-01'
-description: ¿Cómo programar un cambiador de wallpaper automático en GNU/Linux usando
-  Python? En esta entrada usaremos Cron para cambiar el wallpaper cada cierto tiempo.
+seo_title: "Programar Cambiador de Wallpaper con Cron y Python"
+description: Usa Cron en Linux para programar la ejecución periódica de un script en Python
+  que cambie el wallpaper automáticamente cada cierto tiempo.
 keywords:
 - linux
 - python

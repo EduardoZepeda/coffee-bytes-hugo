@@ -7,8 +7,9 @@ categories:
 - linux
 coverImage: images/como_escribir_una_buena_contraseña.jpg
 date: '2020-07-02'
-description: Learn how to create a secure password that protects your personal accounts,
-  and those of your clients, from cybercriminals.
+seo_title: "How to Create Strong, Secure Passwords"
+description: Learn to create secure passwords that protect your accounts from hackers.
+  Practical tips for better cybersecurity habits.
 keywords:
 - linux
 - opinion

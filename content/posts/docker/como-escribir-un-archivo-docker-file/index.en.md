@@ -9,9 +9,9 @@ categories:
 - linux
 coverImage: images/how-to-create-docker-file-from-scratch.jpg
 date: '2020-10-09'
-description: Write a dockerfile from scratch, learn the most basic keywords in a Dockerfile
-  and learn the importance of the order of those instructions for cache and having
-  a faster docker compilation process.
+seo_title: "How to Write a Dockerfile from Scratch"
+description: Learn to create a Dockerfile from scratch, basic instructions, cache
+  optimization and best practices for faster builds.
 keyword: basic docker commands
 keywords:
 - docker

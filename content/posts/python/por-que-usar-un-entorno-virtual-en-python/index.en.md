@@ -7,8 +7,9 @@ categories:
 - python
 coverImage: images/porque_deberias_usar_un_entorno_virtual.jpg
 date: '2019-07-10'
-description: Don't know what a virtual environment in Python is? Here I explain what
-  it is, what it's for and its differences with virtual machines.
+seo_title: "Python Virtual Environments: Beginner's Guide"
+description: What is a Python virtual environment and why do you need one? Clear explanation
+  with examples and how it differs from virtual machines.
 keywords:
 - python
 - opinion

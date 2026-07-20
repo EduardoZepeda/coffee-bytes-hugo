@@ -12,8 +12,9 @@ categories:
 coverImage: images/DjangoGenericForeignKey.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@weekendplayer/
 date: '2021-02-22'
-description: Aprende a usar ContentType y el tipo de campo genericForeignKey en Django
-  para relacionar un objeto con diferentes tipos de modelo.
+seo_title: "Django Generic ForeignKey y ContentType"
+description: Aprende a usar GenericForeignKey y ContentType en Django para relacionar
+  un modelo con diferentes tipos de objeto de forma flexible.
 keywords:
 - python
 - django

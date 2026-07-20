@@ -5,7 +5,9 @@ categories:
 - n8n
 - opinion
 coverImage: "images/n8n-mi-impresion-y-opinion.jpg"
-description: 'A minimalist summary of n8n, its elements, what it is used for, how it is used, what you need to know to use it, and my opinion on the good and bad aspects of this tool.'
+seo_title: "n8n Review: My Honest Opinion After 6 Months"
+description: Honest n8n review after 6 months of use, automations, pros, cons and whether
+  it's really worth it for workflow automation.
 keyword: 'n8n'
 keywords:
 - 'n8n'

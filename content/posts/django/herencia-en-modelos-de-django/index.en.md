@@ -9,8 +9,9 @@ categories:
 coverImage: images/HerenciaModelosDjango.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@elifskies-53441403/
 date: '2020-09-21'
-description: 'I explain three types of inheritance in Django models: abstract, multi-table
-  and proxy, as well as their characteristics and syntax.'
+seo_title: "Django Model Inheritance: Abstract, Multi-table, Proxy"
+description: Understand the three Django model inheritance types, abstract, multi-table
+  and proxy, with syntax examples and use cases.
 keywords:
 - django
 - python

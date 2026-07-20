@@ -10,8 +10,9 @@ categories:
 coverImage: images/MideCargaUsuariosLocust.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@minan1398/
 date: '2021-10-12'
-description: Aprende a realizar y personalizar auditorias de tráfico de usuarios y
-  peticiones por segundo (rps) realidad usando locust en Python.
+seo_title: "Medir Peticiones por Segundo con Locust en Python"
+description: Tutorial de Locust para realizar pruebas de carga y medir peticiones por
+  segundo (RPS) en tiempo real con gráficos y报告es personalizados.
 keywords:
 - python
 - rendimiento

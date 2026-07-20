@@ -10,8 +10,9 @@ categories:
 coverImage: images/composition-over-inheritance.jpg
 coverImageCredits: https://www.reddit.com/user/LegalCan4801/
 date: '2023-10-11'
-description: Composition over inheritance in OOP is the paradigm that says that it's
-  better to compose your code using smaller parts rather than changing something big.
+seo_title: "Composition vs Inheritance in OOP Explained"
+description: Why favor composition over inheritance in object-oriented programming,
+  explained with a practical Lego analogy.
 keyword: composition over inheritance
 keywords:
 - python

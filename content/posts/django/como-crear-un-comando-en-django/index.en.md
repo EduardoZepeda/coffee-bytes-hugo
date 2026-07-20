@@ -9,8 +9,9 @@ categories:
 coverImage: images/Como-crear-comando-django.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@pixabay/
 date: '2021-01-21'
-description: How to create a command for Django web development framework from scratch,
-  using positional and optional arguments from scratch
+seo_title: "Create Custom Django Management Commands"
+description: Learn how to create custom Django management commands with positional and
+  optional arguments, ready to run from the terminal.
 keywords:
 - django
 - python

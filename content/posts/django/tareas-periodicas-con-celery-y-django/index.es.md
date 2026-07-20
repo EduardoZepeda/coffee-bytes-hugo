@@ -9,8 +9,9 @@ categories:
 coverImage: images/TareasPeriodicasCeleryYDjango.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2021-08-31'
-description: Aprende a usar celery en django para programar tareas periódicas o de
-  mantenimiento que se ejecuten cada cierto tiempo o en una fecha dada.
+seo_title: "Tareas Periódicas con Celery y Django"
+description: Configura Celery en Django para ejecutar tareas periódicas, mantenimiento,
+  envío de emails y tareas programadas de forma automática.
 keywords:
 - celery
 - django

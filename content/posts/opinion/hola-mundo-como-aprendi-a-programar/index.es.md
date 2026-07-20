@@ -10,8 +10,9 @@ categories:
 - opinion
 coverImage: images/Figura-de-miku-hatsune-de-vinsky2002.jpg
 date: '2019-03-31'
-description: Esta es una entrada personal donde explico como aprendí a programar por
-  primera vez, primero en PHP y mis primeros contactos con Python.
+seo_title: "Cómo Aprendí a Programar: Mi Historia con PHP y Python"
+description: Entrada personal sobre cómo aprendí a programar, mis inicios en PHP, primeros
+  pasos con Python y el camino hasta hoy.
 keywords:
 - opinion
 - internet

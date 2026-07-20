@@ -8,8 +8,9 @@ categories:
 - artificial intelligence
 coverImage: images/developers-difference-ai-and-artistas.jpg
 date: '2025-05-25T14:29:58-06:00'
-description: Las imágenes creadas con AI se tratan diferente al código creado con
-  AI, los artistas detestan la AI, pero a los desarrolladores se les pide que la acepten
+seo_title: "AI en Arte vs Código: ¿Por Qué la Diferencia?"
+description: Análisis de por qué la AI generativa se percibe diferente entre artistas
+  y programadores. El doble estándar en la industria tech.
 keyword: ''
 keywords:
 - artificial intelligence

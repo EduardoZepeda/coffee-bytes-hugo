@@ -7,8 +7,9 @@ categories:
 - opinion
 coverImage: images/analysis-of-some-type-of-captchas.jpg
 date: '2024-05-18T23:03:15-06:00'
-description: Analysis of the most popular anti-bot captchas that exist, advantages,
-  disadvantages, security level and how invasive they are for the user.
+seo_title: "CAPTCHA Analysis: Security vs User Experience"
+description: Complete analysis of anti-bot captchas, Google reCAPTCHA, sliders and more.
+  Pros, cons and security levels compared.
 keywords:
 - captchas
 - ai

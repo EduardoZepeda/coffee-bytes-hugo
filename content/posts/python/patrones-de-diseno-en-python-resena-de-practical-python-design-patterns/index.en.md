@@ -9,8 +9,9 @@ categories:
 - algorithms
 coverImage: images/practical_python_design_patterns.jpg
 date: '2020-05-31'
-description: Design patterns are common solutions to common problems, represented
-  by entities and the relationships between them in programming.
+seo_title: "Python Design Patterns: Practical Guide and Review"
+description: Clear explanation of Python design patterns, singleton, observer, MVC and
+  more, with practical examples and book review.
 keywords:
 - python
 - design patterns

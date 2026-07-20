@@ -9,8 +9,9 @@ categories:
 coverImage: images/TareasAsincronasDjangoYCelery.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2021-08-24'
-description: Celery allows asynchronous task execution in django. Configure celery
-  in django to handle time-consuming mails or computations.
+seo_title: "Asynchronous Tasks in Django with Celery"
+description: Set up Celery in Django to run async tasks like sending emails, processing
+  files and heavy computations without blocking your app.
 keywords:
 - celery
 - python

@@ -10,8 +10,9 @@ categories:
 coverImage: images/DjangoCategoriasYSubcategorias.jpg
 coverImageCredits: Créditos de la imagen para 極道畫師 https://www.pixiv.net/en/users/7140895
 date: '2022-03-30'
-description: Entrada sobre el uso del ForeignKey o llave foránea hacia 'self' en Django
-  para crear estructuras jerárquicas o categorías sin límites.
+seo_title: "Categorías Jerárquicas en Django con ForeignKey a Self"
+description: Aprende a crear categorías y subcategorías jerárquicas en Django usando
+  ForeignKey hacia self, con estructuras flexibles y escalables.
 keywords:
 - django
 - python

@@ -11,8 +11,9 @@ categories:
 coverImage: images/Managers_para_django.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@suju/
 date: '2021-05-28'
-description: Te explico que es un manager, para que sirve y como puedes crear y personalizarlos
-  para sacarle el mayor provecho al usar el ORM de Django.
+seo_title: "Managers Personalizados en Django ORM"
+description: Aprende a crear y personalizar managers en Django para modificar las consultas
+  del ORM y optimizar la lógica de acceso a datos.
 keywords:
 - django
 - python

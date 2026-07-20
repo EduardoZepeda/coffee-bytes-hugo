@@ -11,6 +11,9 @@ categories:
 coverImage: images/composition-over-inheritance.jpg
 coverImageCredits: https://www.reddit.com/user/LegalCan4801/
 date: '2023-10-11'
+seo_title: "Composición vs Herencia en POO: Explicación con Legos"
+description: Aprende por qué favorecer la composición sobre la herencia en programación
+  orientada a objetos, explicado con un ejemplo de Legos.
 keywords:
 - python
 - django

@@ -12,8 +12,9 @@ categories:
 coverImage: images/Full-text-search-django.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@iamikeee/
 date: '2021-05-06'
-description: Conoce los métodos de búsqueda básicos que Django y Postgres tienen para
-  ofrecer, así como full text search y otras funcionalidades avanzadas.
+seo_title: "Full Text Search en Django con PostgreSQL"
+description: Domina las búsquedas en Django y PostgreSQL, desde queries básicas hasta
+  full text search y funcionalidades avanzadas de búsqueda.
 keywords:
 - django
 - postgres

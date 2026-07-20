@@ -10,8 +10,9 @@ categories:
 - django
 coverImage: images/tres.jpg
 date: '2020-08-04'
-description: En esta entrada hablo de los cambios y novedades de Django 3.1. Django
-  3.1 incluye soporte asíncrono para middleware, vistas y un campo JSON
+seo_title: "Novedades de Django 3.1: Resumen Completo"
+description: Resumen de todas las novedades y cambios de Django 3.1, incluyendo soporte
+  asíncrono para middleware, vistas y el nuevo campo JSON.
 keywords:
 - django
 - python

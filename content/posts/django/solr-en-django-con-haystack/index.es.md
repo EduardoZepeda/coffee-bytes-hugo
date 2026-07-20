@@ -13,8 +13,9 @@ categories:
 coverImage: images/solr-django-busquedas.jpg
 coverImageCredits: Créditos a we_make_mangas
 date: '2022-05-26'
-description: Solr, junto con Haystack, permite búsquedas exactas en milisegundos al
-  crear un índice invertido del contenido de los modelos de Django
+seo_title: "Implementar Solr para Búsquedas en Django"
+description: Configura Solr con Django Haystack para búsquedas rápidas e indexación
+  invertida del contenido de tus modelos de Django.
 slug: /django/busquedas-con-solr-con-django-haystack/
 title: ¿Cómo implementar Solr para búsquedas o queries en Django?
 ---

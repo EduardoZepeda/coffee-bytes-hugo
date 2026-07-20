@@ -10,8 +10,9 @@ categories:
 - go
 coverImage: images/golanga.jpg
 date: '2021-11-23'
-description: 'Conoce las bases del lenguaje de programación go o golang: compilación,
-  estructura de un archivo, variables y tipos de datos.'
+seo_title: "Introducción a Go: Variables y Tipos de Datos"
+description: Aprende los fundamentos de Go, compilación, estructura de archivos, variables
+  y tipos de datos. Tutorial completo para principiantes.
 keyword: lenguaje go
 keywords:
 - go

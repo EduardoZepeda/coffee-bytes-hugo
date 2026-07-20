@@ -9,9 +9,9 @@ categories:
 - artificial intelligence
 coverImage: images/drug-design-using-artificial-intelligence.jpg
 date: '2023-12-29'
-description: ¿Como funciona un fármaco en el cuerpo y como puede la inteligencia artificial
-  y las redes neuronales a encontrar mejores fármacos para las enfermedades de los
-  seres humanos?
+seo_title: "IA en Diseño de Fármacos: Redes Neuronales y Medicina"
+description: Cómo la inteligencia artificial y las redes neuronales ayudan a descubrir
+  nuevos medicamentos. Explicación para desarrolladores y curiosos.
 keywords:
 - artificial intelligence
 - bioquímica

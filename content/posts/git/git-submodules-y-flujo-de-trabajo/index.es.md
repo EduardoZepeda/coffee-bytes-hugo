@@ -12,9 +12,9 @@ categories:
 coverImage: images/git-submodules.jpg
 coverImageCredits: Imagen de 牛肉面 https://www.pixiv.net/en/users/14326617
 date: 2022-05-18 18:14:41
-description: Un git submodule o también llamados submódulos son como un repositorio
-  anidado de git dentro de otro repositorio, nos permiten llevar un control de los
-  cambios en una dependencia.
+seo_title: "Git Submodules: Guía Completa con Ejemplos"
+description: Aprende qué son los Git Submodules, cómo usarlos, actualizarlos y trabajar
+  con ellos sin errores. Guía práctica para principiantes.
 keyword: git submodule
 keywords:
 - git

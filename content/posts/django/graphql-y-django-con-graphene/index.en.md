@@ -9,9 +9,9 @@ categories:
 coverImage: images/GraphqlGrapheneDjango.jpg
 coverImageCredits: Credits to https://www.pexels.com/@frank-cone-140140/
 date: '2021-10-26'
-description: I explain how to implement in minutes a GraphQL API and how to perform
-  queries and mutations in a Django project, using the Graphene library from your
-  Django models.
+seo_title: "Build a GraphQL API in Django with Graphene"
+description: Create a GraphQL API in Django in minutes using Graphene. Perform queries
+  and mutations directly from your Django models.
 keywords:
 - django
 - python

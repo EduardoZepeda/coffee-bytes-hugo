@@ -9,8 +9,9 @@ categories:
 coverImage: images/python-fast-api-mejor-framework.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@tim-douglas/
 date: '2020-10-27'
-description: Enter here to learn the basics of Python fastAPI, the new Python web
-  framework that achieves super fast and efficient APIs.
+seo_title: "FastAPI Tutorial: Build Fast Python APIs"
+description: Learn FastAPI fundamentals, the fastest Python web framework. Complete
+  tutorial with Docker and best practices for building APIs.
 keywords:
 - fastapi
 - docker

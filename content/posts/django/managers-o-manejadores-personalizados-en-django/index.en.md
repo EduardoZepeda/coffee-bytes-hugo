@@ -10,7 +10,9 @@ categories:
 coverImage: images/Managers_para_django.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@suju/
 date: '2021-05-28'
-description: I explain what a manager is in a Django context, and how you can create a custom manager to modify the way queries are made in Django according to your app's needs 
+seo_title: "Custom Managers in Django ORM"
+description: Learn to create custom managers in Django to modify query behavior and
+  optimize data access logic for your application.
 keywords:
 - django
 - python

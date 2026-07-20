@@ -7,8 +7,9 @@ categories:
 - python
 coverImage: images/cambiador_de_wallpaper_automatico_gnome.jpg
 date: '2020-02-15'
-description: Program a lightweight, minimalistic and fairly simple wallpaper changer
-  for Gnome on GNU/Linux using Python from scratch.
+seo_title: "Automatic Wallpaper Changer with Python in Gnome"
+description: Build a lightweight, minimalistic wallpaper changer for Gnome on Linux using
+  Python. Simple to set up and runs in the background.
 keywords:
 - python
 - gnome

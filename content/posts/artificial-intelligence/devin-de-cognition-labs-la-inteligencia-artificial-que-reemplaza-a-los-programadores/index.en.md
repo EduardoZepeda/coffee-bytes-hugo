@@ -10,9 +10,9 @@ categories:
 - opinion
 coverImage: images/devin-cognitive-artificial-intelligence-and-programmers.jpg
 date: '2024-03-13'
-description: Devin, the artificial intelligence model that promises to be better than
-  a Software engineer and forever change the world of Software, created by Cognition
-  Labs
+seo_title: "Devin AI: Will It Replace Software Developers?"
+description: Analysis of Devin from Cognition Labs, the AI that claims to replace developers.
+  Is it really better than human software engineers?
 keyword: devin ai
 keywords:
 - artificial intelligence

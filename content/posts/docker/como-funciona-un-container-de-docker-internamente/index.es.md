@@ -13,8 +13,9 @@ categories:
 - go
 coverImage: images/docker-container-desde-cero.jpg
 date: '2022-06-18'
-description: 'Los containers de Docker funcionan usando: Procesos, namespaces, Cgroups
-  y Chroot'
+seo_title: "Cómo Funciona un Contenedor Docker por Dentro"
+description: Explicación técnica de cómo Docker usa namespaces, cgroups y chroot para
+  crear contenedores aislados en Linux.
 keywords:
 - docker
 - linux

@@ -10,8 +10,9 @@ categories:
 - seo
 coverImage: images/sitemap-en-django.jpg
 date: '2022-07-20'
-description: Tutorial sobre la creación de un Sitemap dinámico con Django, su estructura,
-  definición, caché y uso de modelos para crear cambos loc, changefreq y priority
+seo_title: "Crear Sitemap Dinámico en Django"
+description: Tutorial para crear un sitemap XML dinámico en Django con caché, modelos
+  personalizados y configuración de loc, changefreq y priority.
 keywords:
 - django
 - sitemap

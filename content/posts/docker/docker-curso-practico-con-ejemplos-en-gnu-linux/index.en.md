@@ -11,9 +11,9 @@ categories:
 coverImage: images/DockerCursoPractico.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@huy-phan-316220/
 date: '2020-10-07'
-description: 'A compilation and listing most useful docker commands: how
-  to create, destroy, manage containers and volumes and how to use Dockerfiles and
-  understand its build process.'
+seo_title: "Docker Commands: Practical Tutorial with Examples"
+description: Practical Docker commands guide, create, destroy and manage containers,
+  volumes, images and Dockerfiles with real examples.
 keyword: docker commands
 keywords:
 - docker

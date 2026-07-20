@@ -11,8 +11,9 @@ categories:
 coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Image credits to i7 from Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'
-description: Interactive And Visual Explanation of the debounce and throttle design patterns, used to limit the
- execution of functions, javascript example.
+seo_title: "Debounce vs Throttle in JavaScript Explained"
+description: Interactive visual explanation of debounce and throttle patterns in JavaScript.
+  Learn to limit function execution with practical examples.
 keyword: debounce vs throttle
 keywords:
 - javascript

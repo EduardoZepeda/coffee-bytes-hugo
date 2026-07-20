@@ -10,8 +10,9 @@ categories:
 - algoritmos
 coverImage: images/top-5-katas-codewars.jpg
 date: 2022-04-30 22:29:06
-description: 'Mis 5 desafios favoritos, o katas, en codewars: multi line task hello
-  world,, espiral, escape the maze, The soul of wit: reverse an array.'
+seo_title: "Top 5 Desafíos de Algoritmos en CodeWars"
+description: Mis 5 katas favoritas en CodeWars, multi line task, espiral, escape the
+  maze y más. Retos divertidos para practicar programación.
 keywords:
 - internet
 - rendimiento

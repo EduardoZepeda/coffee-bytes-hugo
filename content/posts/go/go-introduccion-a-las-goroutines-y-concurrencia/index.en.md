@@ -7,8 +7,9 @@ categories:
 - go
 coverImage: images/goroutines-y-concurrencia-en-go.jpg
 date: '2022-01-19'
-description: Post about the basics of goroutines, channels or channels, waitgroups
-  and locks in the golang or go programming language.
+seo_title: "Go Goroutines: Introduction to Concurrency"
+description: Learn goroutines, channels, waitgroups and locks fundamentals in Go.
+  Complete concurrency guide for beginners.
 keywords:
 - go
 - concurrency

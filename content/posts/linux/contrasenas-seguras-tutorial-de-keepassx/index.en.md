@@ -7,8 +7,9 @@ categories:
 - linux
 coverImage: images/chico_con_mascara_de_gas.jpg
 date: '2020-07-15'
-description: keepassxc tutorial. Achieve secure and impenetrable passwords by brute
-  force, even if you don't know anything about cryptography.
+seo_title: "KeePassXC Tutorial: Secure Password Manager"
+description: KeePassXC tutorial for creating and managing secure, brute-force-proof
+  passwords. Free, open source and extremely secure.
 keywords:
 - linux
 title: Secure passwords, keepassxc tutorial

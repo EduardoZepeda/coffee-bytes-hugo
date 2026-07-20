@@ -7,8 +7,9 @@ categories:
 - django
 coverImage: images/DSC_3822.jpg
 date: '2020-04-01'
-description: My review of the free Spanish-language definitive guide to Django from
-  the book. The definitive guide to Django, by the co-creators of Django
+seo_title: "The Definitive Guide to Django: Book Review"
+description: Review of the Definitive Guide to Django by the framework's co-creators.
+  A free, essential resource for learning Django from the source.
 keywords:
 - django
 - python

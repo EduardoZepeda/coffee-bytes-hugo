@@ -13,8 +13,9 @@ categories:
 coverImage: images/PythonYatiene.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2021-03-06'
-description: Aprende a escribir un statement switch en Python, también llamado match,
-  su sintaxis básica y su guard, para controlar el flujo de tu aplicacion.
+seo_title: "Switch en Python: Sintaxis del Match Statement"
+description: Aprende a usar el switch o match statement en Python con su sintaxis,
+  guards y ejemplos prácticos para controlar el flujo de tu código.
 keywords:
 - python
 slug: /python/como-escribir-un-switch-en-python/

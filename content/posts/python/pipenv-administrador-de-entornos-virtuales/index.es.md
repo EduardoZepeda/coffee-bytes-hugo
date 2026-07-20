@@ -12,8 +12,9 @@ categories:
 coverImage: images/Tutorial-de-pipenv.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@rodnae-prod/
 date: '2020-08-15'
-description: Te enseño a instalar Pipenv, crear un Pipfile, establecer variables de
-  entorno y lo que necesitas saber de este gestor de entornos virtuales.
+seo_title: "Pipenv: Tutorial de Entornos Virtuales en Python"
+description: Tutorial completo de Pipenv, instalación, uso, Pipfile, variables de entorno
+  y todo lo que necesitas para gestionar entornos virtuales.
 keywords:
 - python
 - pipenv

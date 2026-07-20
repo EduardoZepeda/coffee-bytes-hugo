@@ -11,10 +11,9 @@ categories:
 - opinion
 coverImage: images/buenDisenoAPIREST.jpg
 date: '2022-04-28'
-description: La guía definitiva para el diseño de API REST y las mejores prácticas.
-  Aprenda a crear API escalables, seguras y eficientes que encanten a los desarrolladores.
-  Desde la estructura del endpoint, versionarlo, actualizarlo, políticas de estrangulamiento
-  y anidar recursos en URIs.
+seo_title: "API REST: Buenas Prácticas y Diseño"
+description: Guía completa de diseño de APIs REST, endpoints, versionado, throttling,
+  anidamiento de recursos y mejores prácticas para APIs escalables.
 keywords:
 - software architecture
 - opinion

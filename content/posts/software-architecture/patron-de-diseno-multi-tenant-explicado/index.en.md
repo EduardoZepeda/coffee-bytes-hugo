@@ -8,9 +8,9 @@ categories:
 - databases
 coverImage: images/multi-tenant-pattern-and-its-database-paradigms.jpg
 date: '2025-01-28T17:44:50-06:00'
-description: The multi-tenant pattern is a software architecture approach where a
-  single instance of an application serves multiple tenants and there are multiple
-  ways of design a database for this pattern
+seo_title: "Multi-Tenant Architecture Patterns Explained"
+description: Explanation of multi-tenant pattern, implementation types, database patterns
+  and best practices for SaaS applications.
 keyword: multi-tenant
 keywords:
 - software architecture

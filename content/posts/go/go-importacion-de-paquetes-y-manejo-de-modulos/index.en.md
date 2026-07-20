@@ -7,8 +7,9 @@ categories:
 - go
 coverImage: images/Golang-paquetes-y-modulos.jpg
 date: '2022-01-12'
-description: Learn the basics of importing packages and handling modules in the go
-  programming language. Master the go init method and the go.mod file.
+seo_title: "Go Packages and Modules: Import and Management"
+description: Learn to import packages and manage modules in Go. Master go mod, go init
+  and the go.mod file with examples.
 keyword: go modules
 keywords:
 - go

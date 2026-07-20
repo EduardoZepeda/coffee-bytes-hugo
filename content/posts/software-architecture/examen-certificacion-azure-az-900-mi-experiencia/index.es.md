@@ -11,9 +11,9 @@ categories:
 coverImage: images/mi-experiencia-con-azure.jpg
 coverImageCredits: 'Créditos de la imagen: Dmitriy Zub https://unsplash.com/es/@dimitryzub'
 date: '2022-09-02'
-description: Mi experiencia personal, recomendaciones y todas las referencias que
-  estudié para aprobar el examen de certificación Microsoft Azure AZ-900 Fundamentals,
-  costo de la certificación AZ 900.
+seo_title: "Certificación Azure AZ-900: Mi Experiencia y Consejos"
+description: Mi experiencia aprobando el AZ-900, recursos de estudio, recomendaciones,
+  costo y consejos para aprobar el examen de Azure Fundamentals.
 keyword: az-900
 keywords:
 - devops

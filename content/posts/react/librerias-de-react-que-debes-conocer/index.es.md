@@ -10,8 +10,9 @@ categories:
 coverImage: images/LibreriasDeReact.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@timmossholder/
 date: '2021-03-02'
-description: Te muestro algunas de mis librerías favoritas relacionadas de React,
-  y algunos videos para que las veas en acción funcionando.
+seo_title: "5 Librerías de React que Debes Conocer"
+description: Las mejores librerías de React para desarrollo web, formularios, animaciones,
+  state management y más con videos de ejemplo.
 keywords:
 - javascript
 - react

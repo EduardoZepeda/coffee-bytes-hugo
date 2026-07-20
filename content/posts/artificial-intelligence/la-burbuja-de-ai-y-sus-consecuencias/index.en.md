@@ -9,8 +9,9 @@ categories:
 - opinion
 coverImage: images/ai-rise-and-fall-bubble.jpg
 date: 2024-04-18
-description: We seem to be experiencing an artificial intelligence overhype and possible an AI bubble
-  caused by financial speculation, chatGPT and investors
+seo_title: "The AI Bubble: When Will It Burst?"
+description: Analysis of the artificial intelligence bubble, its financial causes and
+  consequences for the software industry and developers.
 keyword: ai bubble
 keywords:
 - artificial intelligence

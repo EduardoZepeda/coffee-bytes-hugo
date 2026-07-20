@@ -11,8 +11,9 @@ categories:
 coverImage: images/ReactuseCallbackuseMemoMemo.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@timegrocery/
 date: '2021-08-02'
-description: Conoce las diferencias entre los hooks useCallback y useMemo, y el HOC
-  memo en React y como mejorar el rendimiento de tu app con ellos.
+seo_title: "useCallback vs useMemo vs memo en React"
+description: Diferencias entre useCallback, useMemo y memo en React, cuándo usar cada
+  uno para mejorar el rendimiento de tu aplicación.
 keywords:
 - javascript
 - react

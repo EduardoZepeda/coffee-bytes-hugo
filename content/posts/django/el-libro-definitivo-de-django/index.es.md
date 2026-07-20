@@ -9,8 +9,9 @@ categories:
 - django
 coverImage: images/DSC_3822.jpg
 date: '2020-04-01'
-description: Mi reseña de la guia definitiva de Django en español gratuita del libro.
-  The definitive guide to Django, por los co-creadores de Django
+seo_title: "La Guía Definitiva de Django: Reseña del Libro"
+description: Reseña de la guía definitiva de Django, escrita por los co-creadores del
+  framework. Un recurso gratuito esencial para aprender Django.
 keywords:
 - django
 - python

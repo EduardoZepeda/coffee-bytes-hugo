@@ -7,9 +7,9 @@ categories:
 - javascript
 coverImage: images/Desestructuracion_objetos_javascript.jpg
 date: '2019-10-16'
-description: In this post I am going to try to explain in a simple way the destructuring
-  of objects in javascript. Destructuring is a process that, despite what is believed,
-  is actually quite simple and can improve code readability quite a bit.
+seo_title: "JavaScript Destructuring: A Simple Guide"
+description: Simple explanation of JavaScript object destructuring. Learn this technique
+  that significantly improves code readability.
 keywords:
 - javascript
 title: Destructuring variables in javascript

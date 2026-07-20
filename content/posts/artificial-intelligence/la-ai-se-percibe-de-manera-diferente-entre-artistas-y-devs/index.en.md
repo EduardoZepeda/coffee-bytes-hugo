@@ -8,8 +8,9 @@ categories:
 - artificial intelligence
 coverImage: images/developers-difference-ai-and-artistas.jpg
 date: '2025-05-25T14:29:58-06:00'
-description: Images created with AI are treated differently than code created with
-  AI, artists detest AI, but developers are asked to accept it blindly.
+seo_title: "AI in Art vs Code: Why the Double Standard?"
+description: Analysis of why generative AI is perceived differently by artists and
+  developers. The double standard in the tech industry.
 keyword: ''
 keywords:
 - artificial intelligence

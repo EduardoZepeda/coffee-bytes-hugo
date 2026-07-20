@@ -11,8 +11,9 @@ categories:
 coverImage: images/NoUsesJWT.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@gabby-k/
 date: '2021-06-22'
-description: Traducción del artículo Stop using JWT for sessions. Expone las razones
-  por las cuales es mala idea usar JWT para el manejo de sesiones.
+seo_title: "No Uses JWT para Sesiones: Traducción del Artículo"
+description: Traducción del artículo "Stop using JWT for sessions", razones por las que
+  JWT es mala idea para manejo de sesiones en aplicaciones web.
 keywords:
 - jwt
 - javascript

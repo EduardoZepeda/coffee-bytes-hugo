@@ -8,8 +8,9 @@ categories:
 coverImage: images/bat-el-cat-con-resaltado-de-sintaxis.jpg
 coverImageCredits: Credits to https://www.pexels.com/@rodnae-prod
 date: '2020-08-25'
-description: A few days ago I discovered bat, it's the linux version of cat with syntax
-  highlighting that makes reading files in console more comfortable.
+seo_title: "bat: Linux cat with Syntax Highlighting"
+description: Discover bat, the modern alternative to Linux cat with syntax highlighting,
+  pagination and built-in Git support.
 keywords:
 - linux
 title: Get to know bat in linux, the syntax highlighting cat

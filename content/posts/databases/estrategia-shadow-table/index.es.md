@@ -7,8 +7,9 @@ categories:
 - databases
 coverImage: images/shadow-table-strategy.jpg
 date: '2025-06-27T16:14:37-06:00'
+seo_title: "Shadow Tables: Migraciones sin Down en BD"
 description: Domina la estrategia de shadow tables para migraciones de bases de datos
-  sin tiempo de inactividad. Aprende a modificar tablas y gestionar restricciones
+  sin tiempo de inactividad. Paso a paso con ejemplos prácticos.
 keyword: shadow table
 keywords:
 - databases

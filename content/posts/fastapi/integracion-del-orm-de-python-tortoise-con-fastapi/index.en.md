@@ -9,8 +9,9 @@ categories:
 coverImage: images/IntegrandoFastApiYTortoiseORM.jpg
 coverImagecredits: credits https://www.pexels.com/@nguy-n-lam-196145/
 date: '2021-09-21'
-description: Tortoise is a Python ORM that you can integrate with fastAPI to create
-  models and handle SQL queries with various databases.
+seo_title: "Tortoise ORM with FastAPI: Step-by-Step Guide"
+description: Complete tutorial to integrate Tortoise ORM with FastAPI. Create models,
+  run SQL queries and connect to multiple databases.
 keywords:
 - fastapi
 - orm

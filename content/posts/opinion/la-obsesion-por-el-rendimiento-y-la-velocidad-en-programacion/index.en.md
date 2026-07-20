@@ -7,9 +7,9 @@ categories:
 - opinion
 coverImage: images/performance-isnt-that-important-for-new-web-projects.jpg
 date: 2024-04-03
-description: Focus on what's important. Your web project probably doesn't require
-  those extra milliseconds of performance or even the fastest framework out there
-  and you may need to focus more on the business side.
+seo_title: "Stop Obsessing Over Web Performance"
+description: Your web project probably doesn't need those extra milliseconds. Focus on
+  business, not on the fastest framework.
 keywords:
 - opinion
 - performance

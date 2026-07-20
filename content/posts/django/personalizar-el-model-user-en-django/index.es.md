@@ -10,9 +10,9 @@ categories:
 coverImage: images/pin-961667.jpg
 coverImageCredits: 'Créditos de la imagen a pin: https://www.pixiv.net/en/users/961667'
 date: '2022-03-16'
-description: Aprende a personalizar el modelo de usuario de Django para que se ajuste
-  a los requisitos de tu aplicación y a tu lógica de negocio, ya sea añadiendo campos
-  adicionales o modificando su comportamiento interno.
+seo_title: "Personalizar el Modelo User en Django"
+description: Tres métodos para extender el modelo User de Django, añade campos extra,
+  modifica comportamiento y adapta el usuario a tu negocio.
 keywords:
 - django
 - python

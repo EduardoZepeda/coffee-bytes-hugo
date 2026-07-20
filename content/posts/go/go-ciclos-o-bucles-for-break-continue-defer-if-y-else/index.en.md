@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/go-funciones-defer-break-continue-if-else.jpg
 date: '2021-12-07'
-description: Syntax and basic uses of if and else structures, loops, their types,
-  break, continue and defer in the go programming language.
+seo_title: "Go Loops and Conditionals: for, if, else, defer"
+description: Syntax and uses of for loops, break, continue, defer and if/else in Go.
+  Complete guide with practical examples.
 keywords:
 - go
 title: 'Go: loops for, break, continue, defer, if and else'

@@ -8,8 +8,9 @@ categories:
 - opinion
 coverImage: images/learning-rust-programming-language.jpg
 date: '2024-10-16T19:15:53-06:00'
-description: Rust se considera un lenguaje muy complicado de aprender debido a conceptos
-  ausentes en otros lenguajes de programación, te explico brevemente cuales.
+seo_title: "¿Por Qué Rust es Difícil de Aprender? Explicación"
+description: Rust es complicado de aprender por conceptos únicos como ownership y
+  borrow checker. Te explico qué lo hace diferente y cómo dominarlo.
 keyword: rust es difícil
 keywords:
 - rust

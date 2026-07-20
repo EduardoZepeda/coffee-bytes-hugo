@@ -10,8 +10,9 @@ categories:
 - javascript
 coverImage: images/estas_usando_console_mal.jpg
 date: '2020-01-15'
-description: Aprende de una vez como aprovechar el objeto console de javascript y
-  sus métodos más útiles para hacer más sencillo tu desarrollo.
+seo_title: "Más Allá de Console.log: Métodos de Console en JS"
+description: Descubre los métodos útiles del objeto console en JavaScript más allá de
+  console.log, table, group, time, trace y más.
 keywords:
 - javascript
 - opinion

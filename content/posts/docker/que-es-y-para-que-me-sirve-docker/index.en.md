@@ -9,8 +9,9 @@ categories:
 coverImage: images/Fotografia-contenedores-Kaique-Rocha.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@introspectivedsgn
 date: '2020-09-29'
-description: Do you think using Docker doesn't make sense? Do you think Docker and
-  virtual machines are the same? Come in and I'll explain the differences.
+seo_title: "What is Docker and What is it For?"
+description: Clear explanation of what Docker is, how it works and why it's not the same
+  as virtual machines. Beginner-friendly guide.
 keywords:
 - docker
 - docker compose

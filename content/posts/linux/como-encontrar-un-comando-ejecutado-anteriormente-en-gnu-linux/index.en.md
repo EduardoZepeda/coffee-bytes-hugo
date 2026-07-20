@@ -7,8 +7,9 @@ categories:
 - linux
 coverImage: images/como_recuperar_comando_gnu_linux.jpg
 date: '2019-09-01'
-description: Has it ever happened to you that you want to find a previously executed
-  command in GNU/Linux. There are several ways to do it, here I explain two of them.
+seo_title: "Find Previous Commands in Linux with History"
+description: Learn to retrieve previously executed commands in Linux using history,
+  grep and Ctrl+R for fast command search.
 keywords:
 - linux
 title: How to find a previously executed command in GNU Linux?

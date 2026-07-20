@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/go-deadlock-y-goroutines.jpg
 date: '2022-01-26'
-description: 'En esta entrada trato los deadlocks en go, las causas del error fatal
-  error: all goroutines are asleep - deadlock! y como prevenirlo.'
+seo_title: "Go Deadlocks: Cómo Resolver 'all goroutines asleep'"
+description: Explicación del error deadlock en Go, causas, soluciones y cómo evitar que
+  todas las goroutines se duerman.
 keywords:
 - go
 slug: /go/go-channels-entendiendo-los-deadlocks-o-puntos-muertos/

@@ -8,8 +8,9 @@ categories:
 - linux
 coverImage: images/comandos_GNU_Linux_1.jpg
 date: '2019-05-08'
-description: 'Usage and common options of the linux terminal commands: grep, ls, cd,
-  clear, history, cat, tail, head, cp, rm, scp, ssh, fail, man and some tips'
+seo_title: "Essential Linux Commands: A Practical Guide"
+description: Complete guide to essential Linux terminal commands, grep, ls, cd, cat, cp,
+  rm, scp, ssh and more with practical examples.
 keywords:
 - linux
 - commands

@@ -10,7 +10,9 @@ categories:
 - python
 coverImage: images/Python-vs-go.jpg
 date: '2021-11-02'
-description: In this post I talk about the differences, features and similarities between go programming language vs python, two languages that are simple, easy to use and known by their versatility.
+seo_title: "Python vs Go: Which is Better for Web Development?"
+description: Complete comparison of Python vs Go, differences, pros and cons, and which
+  to choose for web development based on your project needs.
 keyword: python vs go
 keywords:
 - python

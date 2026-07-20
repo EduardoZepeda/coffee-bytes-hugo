@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/go-mutex-race-conditions.jpg
 date: '2022-02-02'
-description: En esta entrada hablo sobre las condiciones de carrera o race conditions
-  que ocurren cuando usamos goroutines y como prevenirlas usando mutex.
+seo_title: "Race Conditions en Go: Cómo Usar Mutex"
+description: Aprende a detectar y prevenir condiciones de carrera en Go usando mutex.
+  Guía práctica de concurrencia segura.
 keywords:
 - go
 slug: /go/go-condiciones-de-carrera-en-goroutines-y-mutex/

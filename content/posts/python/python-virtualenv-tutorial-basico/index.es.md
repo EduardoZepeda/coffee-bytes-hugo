@@ -10,8 +10,9 @@ categories:
 - python
 coverImage: images/tutorial_basico_virtualenv.jpg
 date: '2019-07-15'
-description: Aprende a user virtualenv en GNU/Linux, la herramienta más conocida de
-  python para el manejo de entornos virtuales visita este tutorial.
+seo_title: "Tutorial Virtualenv en Linux: Entornos Virtuales"
+description: Tutorial paso a paso de virtualenv en Linux, instala, crea y gestiona
+  entornos virtuales de Python para tus proyectos.
 keywords:
 - python
 - linux

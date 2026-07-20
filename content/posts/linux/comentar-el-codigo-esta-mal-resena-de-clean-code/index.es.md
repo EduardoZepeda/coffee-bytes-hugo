@@ -12,9 +12,9 @@ categories:
 - opinion
 coverImage: images/clean_code.jpg
 date: '2020-05-16'
-description: Un análisis de Clean Code, el libro de Robert C. Martin que nos explica
-  como escribir código de manera limpia y otras alternativas e ideas de lo que se
-  considera código limpio en el mundo del desarrollo de software
+seo_title: "Clean Code: Reseña del Libro de Robert C. Martin"
+description: Análisis de Clean Code, el libro que enseña a escribir código limpio, con
+  alternativas y opiniones sobre las mejores prácticas en desarrollo.
 keyword: clean code
 keywords:
 - libros

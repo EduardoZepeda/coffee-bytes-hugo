@@ -15,8 +15,9 @@ categories:
 - python
 coverImage: images/PythonVSJavascript.jpg
 date: '2020-12-10'
-description: Conoce las diferencias entre Javascript y Python, en esta comparación
-  exhaustiva analizo su sintaxis, velocidad, paquetes, frameworks disponibles, filosofía.
+seo_title: "Python vs JavaScript: Diferencias y Cuál Elegir"
+description: Comparación completa de Python vs JavaScript, sintaxis, rendimiento, frameworks,
+  comunidad y filosofía. Descubre cuál es mejor para ti.
 keyword: javascript vs python
 keywords:
 - python

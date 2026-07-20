@@ -10,8 +10,9 @@ categories:
 coverImage: images/tutorial-cookiecutter-django-docker-compose.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@alex-andrews-271121/
 date: '2020-10-20'
-description: Don't know how to use or what a cookiecutter is for in Django? Come in
-  and learn for free how to use this tool that will make your life easier.
+seo_title: "Cookiecutter Django: Setup and Deploy with Docker"
+description: Complete cookiecutter-django tutorial, scaffold your project with Docker, Celery,
+  DRF and deploy to production the easy way.
 keywords:
 - docker
 - django

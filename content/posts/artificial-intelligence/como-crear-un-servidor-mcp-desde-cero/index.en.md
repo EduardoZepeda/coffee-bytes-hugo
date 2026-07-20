@@ -6,7 +6,9 @@ categories:
 - javascript
 coverImage: images/mcp-server-and-mcp-tools.jpg
 date: '2025-07-23T18:00:32-06:00'
-description: Learn how to build a MCP server with a custom MCP tool that counts letters, connect it to LLMs, and debug it using the official MCP inspector GUI tool.
+seo_title: "Build an MCP Server from Scratch: Complete Tutorial"
+description: Step-by-step guide to building an MCP server with custom tools, connecting
+  to LLMs and debugging with the official MCP inspector.
 keyword: mcp server
 keywords:
 - artificial intelligence

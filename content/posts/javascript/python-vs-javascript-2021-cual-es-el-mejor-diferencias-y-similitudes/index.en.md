@@ -10,7 +10,9 @@ categories:
 - python
 coverImage: images/PythonVSJavascript.jpg
 date: '2020-12-10'
-description: In this Post I tackle the question Javascript vs Python and explain my opinion on every aspect of both languages, so you can have an overall view of these programming tools
+seo_title: "Python vs JavaScript: Which Language Is Better?"
+description: Comprehensive Python vs JavaScript comparison, syntax, performance, frameworks,
+  community and philosophy. Find which language suits you best.
 keyword: javascript vs python
 keywords:
 - python

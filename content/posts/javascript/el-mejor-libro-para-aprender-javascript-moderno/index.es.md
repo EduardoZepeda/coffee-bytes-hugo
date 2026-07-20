@@ -10,9 +10,9 @@ categories:
 - opinion
 coverImage: images/eloquent_javascript.jpg
 date: '2019-10-01'
-description: Si piensas dedicar algunas horas a aprender javascript, no pierdas tu
-  tiempo buscando más, difícilmente encontrarás un libro que cubra tal variedad de
-  conceptos de una manera tan entendible y completo como este.
+seo_title: "Mejor Libro para Aprender JavaScript Moderno"
+description: Reseña de Eloquent JavaScript, el mejor libro para aprender JavaScript moderno
+  de forma completa y entendible. Ideal para principiantes.
 keywords:
 - javascript
 - libros

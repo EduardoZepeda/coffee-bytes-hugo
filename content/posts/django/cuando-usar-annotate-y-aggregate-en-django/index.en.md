@@ -10,7 +10,9 @@ categories:
 coverImage: images/Django_aggregate_y_annotate.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2020-11-17'
-description: Learn when to use django annotate and aggregate, along with its key differences and how they're translated to SQL code  under the hood in this tutorial.
+seo_title: "Django Annotate vs Aggregate: When to Use Each"
+description: Clear explanation of Django Annotate and Aggregate, their key differences and
+  how they translate to SQL. Learn when to use each one.
 keyword: django annotate
 keywords:
 - django

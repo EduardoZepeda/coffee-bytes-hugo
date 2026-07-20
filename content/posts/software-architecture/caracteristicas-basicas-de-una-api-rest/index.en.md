@@ -10,8 +10,9 @@ categories:
 coverImage: images/CaracteristicasBasicasDeUnaAPIREST.jpg
 coverImageCredits: 'Image credits to ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-04-07'
-description: What characteristics should a REST API meet? Trailing slash at the end of the
-  URL or not? What is HATEOAS? Do I use uppercase or lowercase in the URL?
+seo_title: "REST API Characteristics: A Beginner's Guide"
+description: What makes an API RESTful, HATEOAS, URL conventions, HTTP methods and best
+  practices for designing proper REST APIs.
 keywords:
 - REST
 - software architecture

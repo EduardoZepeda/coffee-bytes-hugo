@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/reflect-typeof-value-of-en-go.jpg
 date: '2023-03-13'
-description: I explain the reflect package of go and its basic reflection functions
-  to obtain data types at runtime
+seo_title: "Go Reflect Package: Reflection Explained"
+description: Learn to use Go's reflect package for runtime type introspection and
+  enhanced code flexibility.
 keywords:
 - go
 - reflect

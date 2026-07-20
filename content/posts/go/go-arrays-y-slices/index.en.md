@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/ArrayslicesYArrays.jpg
 date: '2021-12-14'
-description: Syntax and most common uses of arrays and slices in the go programming
-  language. I also explain how to use the make function in slices.
+seo_title: "Go Arrays and Slices: Complete Guide"
+description: Learn arrays and slices in Go, syntax, common uses and make function.
+  Complete beginner-friendly guide.
 keywords:
 - go
 title: 'Go: slices and arrays, basic characteristics and most common uses'

@@ -15,7 +15,9 @@ keys:
 - solr
 - autocomplete
 - index
-title: 'Autocomplete, Suggestions and Related Content: Solr and Django'
+seo_title: "Autocomplete and Search with Solr and Django Haystack"
+description: Build autocomplete, search suggestions and related content features in your
+  Django app using Solr and Haystack with advanced search capabilities.
 ---
 
 Solr, together with Lucene, is an outstanding search engine that allows you to perform searches with advanced features. In this post I bring you a summary of some of the most interesting features of Solr and Django Haystack.

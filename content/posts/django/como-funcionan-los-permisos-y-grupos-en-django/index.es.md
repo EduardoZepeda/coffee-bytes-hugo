@@ -10,8 +10,9 @@ categories:
 coverImage: images/Permisos-en-django.jpg
 coverImageCredits: https://www.pexels.com/es-es/@orlovamaria/
 date: '2021-04-17'
-description: Aprende a crear permisos, grupos, asignarlos a los usuarios, y crear
-  permisos personalizados en Django. Incluso si jamás lo has hecho.
+seo_title: "Permisos y Grupos en Django: Guía Completa"
+description: Aprende a crear y gestionar permisos, grupos y usuarios en Django, incluyendo
+  permisos personalizados para controlar el acceso a tu aplicación.
 keywords:
 - linux
 slug: /django/como-funcionan-los-permisos-y-grupos-en-django/

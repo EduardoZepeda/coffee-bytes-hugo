@@ -8,6 +8,9 @@ categories:
 - go
 coverImage: images/logging-en-go.jpg
 date: '2022-07-06'
+seo_title: "Logging in Go: Standard Library Guide"
+description: Learn to implement logging in Go using the standard library. Configuration,
+  log levels and best practices for your application.
 keywords:
 - go
 - testing

@@ -13,8 +13,9 @@ categories:
 - go
 coverImage: images/que-es-grpc-y-protobuffers.jpg
 date: '2023-01-19'
-description: ¿Que es una API gRPC y que son los archivos .proto y los protobuffers?
-  ¿ventajas de los protobuffers sobre JSON y porque son tan rápidas y eficientes?
+seo_title: "Qué es gRPC y Protobuffers: Guía para Principiantes"
+description: Explicación de gRPC y protobuffers, ventajas sobre JSON, por qué son tan
+  rápidos y cómo crear tu primera API con este protocolo.
 keywords:
 - REST
 - software architecture

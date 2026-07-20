@@ -11,8 +11,9 @@ categories:
 coverImage: images/Fotografia-contenedores-Kaique-Rocha.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@introspectivedsgn
 date: '2020-09-29'
-description: ¿Te parece que usar Docker no tiene sentido? ¿Crees que Docker y las
-  máquinas virtuales son lo mismo? Entra y te explico las diferencias.
+seo_title: "Qué es Docker y Para Qué Sirve: Explicación"
+description: Explicación clara de qué es Docker, cómo funciona y por qué no es lo mismo
+  que una máquina virtual. Guía para principiantes.
 keywords:
 - docker
 - docker compose

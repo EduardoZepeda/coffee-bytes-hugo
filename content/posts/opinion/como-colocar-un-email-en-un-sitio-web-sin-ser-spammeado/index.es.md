@@ -8,9 +8,9 @@ categories:
 - seo
 coverImage: images/how-to-avoid-spam-when-putting-an-email-on-a-website.jpg
 date: '2024-05-29T14:46:07-06:00'
-description: Hay formas de evitar el spam cuando se introduce una dirección de correo
-  electrónico en un sitio web, como convertirla en una imagen, codificarla y utilizar
-  una notación diferente para ocultarla
+seo_title: "Cómo Poner tu Email en un Web sin Recibir Spam"
+description: Técnicas para evitar spam al mostrar tu email en una página web, imágenes,
+  ofuscación y métodos efectivos de protección.
 keywords:
 - seo
 - opinion

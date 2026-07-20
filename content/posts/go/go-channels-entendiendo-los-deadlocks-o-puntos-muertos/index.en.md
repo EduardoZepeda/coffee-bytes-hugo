@@ -7,8 +7,9 @@ categories:
 - go
 coverImage: images/go-deadlock-y-goroutines.jpg
 date: '2022-01-26'
-description: 'In this post I deal with deadlocks in go, the causes of the fatal error
-  error: all goroutines are asleep - deadlock! and how to prevent it.'
+seo_title: "Go Deadlocks: Fix 'all goroutines asleep' Error"
+description: Explanation of the deadlock error in Go, causes, solutions and how to prevent
+  all goroutines from sleeping.
 keywords:
 - go
 title: 'Go: channels, understanding the goroutines deadlocks'

@@ -9,9 +9,9 @@ categories:
 - opinion
 coverImage: images/the-problem-of-using-github-to-evaluate-candidates.jpg
 date: '2024-08-06T10:13:00-06:00'
-description: Usar github para evaluar candidatos es señal de no entender el mundo
-  del software y todos sus matices, hay muchas razones válidas para explicar por qué
-  un desarrollador podría negarse a usar github
+seo_title: "¿Por Qué No Usar GitHub para Evaluar Desarrolladores?"
+description: Usar GitHub para evaluar candidatos revela falta de comprensión del mundo
+  del software. Razones válidas por las que un dev podría no usar GitHub.
 keyword: ''
 keywords:
 - Github

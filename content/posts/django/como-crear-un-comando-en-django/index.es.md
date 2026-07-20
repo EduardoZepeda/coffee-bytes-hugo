@@ -9,8 +9,9 @@ categories:
 coverImage: images/Como-crear-comando-django.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@pixabay/
 date: '2021-01-21'
-description: Tutorial para crear un comando personalizado en django desde cero, como
-  añadir argumentos, posicionales, opcionales y como ejecutarlo en la terminal
+seo_title: "Crear Comandos Personalizados en Django"
+description: Tutorial completo para crear comandos personalizados en Django con argumentos
+  posicionales, opcionales y ejecución desde la terminal.
 keywords:
 - django
 - python

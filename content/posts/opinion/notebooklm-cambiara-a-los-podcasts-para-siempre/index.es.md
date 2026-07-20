@@ -8,9 +8,9 @@ categories:
 - artificial intelligence
 coverImage: images/Google-Notebooklm-Will-Transform-Podcasts-For-Good.jpg
 date: '2024-10-02T12:32:42-06:00'
-description: Google Notebooklm tiene una herramienta de AI que te permite convertir
-  tus notas en un podcast bastante realista, en cuestión de segundos y con el potencial
-  de usarse en conjunción con otras herramientas de AI
+seo_title: "Google NotebookLM: Podcasts Generados con AI"
+description: NotebookLM de Google crea podcasts realistas a partir de tus notas en segundos.
+  Potencial combinatorio con otras herramientas de AI.
 keyword: Google Notebooklm
 keywords:
 - opinion

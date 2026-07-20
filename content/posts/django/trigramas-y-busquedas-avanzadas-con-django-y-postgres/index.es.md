@@ -11,8 +11,9 @@ categories:
 coverImage: images/Busquedas-avanzadas-con-trigramas.jpg
 coverImageCredits: 'Créditos: https://www.pexels.com/es-es/@pepecaspers/'
 date: '2021-05-17'
-description: Te muestro lo básico sobre las búsquedas de texto avanzadas usando trigramas
-  e indices de similitud y otros, usando Django y Postgres.
+seo_title: "Trigramas y Búsquedas Avanzadas en Django"
+description: Aprende búsquedas de texto avanzadas en Django y PostgreSQL con trigramas,
+  índices de similitud y funcionalidades de search rank.
 keywords:
 - orm
 - django

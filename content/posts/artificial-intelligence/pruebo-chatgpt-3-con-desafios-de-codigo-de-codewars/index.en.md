@@ -8,6 +8,9 @@ categories:
 coverImage: images/gpt3-vs-codewars.jpg
 coverImageCredits: Imagen por Midjourney CC License https://midjourney.com
 date: '2022-12-12'
+seo_title: "ChatGPT vs CodeWars: Testing Its Coding Skills"
+description: I tested ChatGPT with CodeWars coding challenges to see if it can really
+  program. Surprising and disappointing results inside.
 keywords:
 - artificial intelligence
 - automata

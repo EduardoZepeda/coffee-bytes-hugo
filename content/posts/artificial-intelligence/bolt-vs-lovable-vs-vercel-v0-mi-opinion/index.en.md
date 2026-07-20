@@ -9,8 +9,9 @@ categories:
 - opinion
 coverImage: images/bolt-vs-lovable-v0-vercel.jpg
 date: '2025-06-03T16:01:02-06:00'
-description: A comparison between Bolt, Lovable, and V0 Vercel pricing, benefits,
-   advantages, disadvantages, shortcomings, and the best website creation capabilities
+seo_title: "Bolt vs Lovable vs V0: AI Website Builder Comparison"
+description: Complete comparison of Bolt vs Lovable vs V0 Vercel for building websites
+  with AI. Pricing, features, pros and cons of each tool.
 keyword: bolt vs lovable vs v0
 keywords:
 - bolt

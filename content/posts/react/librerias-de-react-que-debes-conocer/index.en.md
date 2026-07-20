@@ -8,8 +8,9 @@ categories:
 coverImage: images/LibreriasDeReact.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@timmossholder/
 date: '2021-03-02'
-description: I show you some of my favorite React related libraries, and some videos
-  so you can see them in action working.
+seo_title: "5 React Libraries You Should Know About"
+description: Best React libraries for web development, forms, animations, state management
+  and more with example videos.
 keywords:
 - javascript
 - react

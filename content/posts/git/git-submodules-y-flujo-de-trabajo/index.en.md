@@ -9,8 +9,9 @@ categories:
 coverImage: images/git-submodules.jpg
 coverImageCredits: Image by 牛肉面 https://www.pixiv.net/en/users/14326617
 date: '2022-05-18'
-description: Understand how git submodules work and how to use, update and work with
-  them without errors, even if you have never done it before.
+seo_title: "Git Submodules: Complete Guide with Examples"
+description: Learn what Git Submodules are, how to use, update and work with them
+  without errors. Beginner-friendly practical guide.
 keyword: git submodule
 keywords:
 - git

@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/go-profiling.jpg
 date: '2022-02-16'
-description: Entry on go code profiling, line-by-line impact analysis and export of
-  results to web and pdf format.
+seo_title: "Go CPU Profiling: Find Performance Bottlenecks"
+description: Learn to profile Go code to find performance bottlenecks. Line-by-line
+  analysis and result export to web and PDF format.
 keywords:
 - go
 - performance

@@ -9,8 +9,9 @@ categories:
 - django
 coverImage: images/Django_by_example.jpg
 date: '2020-09-01'
-description: Aqui mi reseña del libro Django by Example, un libro para aprender Django
-  desde cero por medio de proyectos sencillos. Entra y leela.
+seo_title: "Reseña Django by Example: Aprende Django desde cero"
+description: Reseña completa del libro Django by Example, ideal para aprender Django
+  creando proyectos prácticos como blogs, tiendas y redes sociales.
 keywords:
 - libros
 - opinion

@@ -7,8 +7,9 @@ categories:
 - opinion
 coverImage: images/porque_decidi_usar_wordpress.jpg
 date: '2019-06-26'
-description: Many times we face the doubt of programming a blog from scratch or using
-  a more popular solution like wordpress. In this post I explain thoughts about it.
+seo_title: "Build a Blog vs WordPress: Which Should You Choose?"
+description: Comparing building your blog from scratch vs using WordPress, pros, cons
+  and why I chose my solution.
 keywords:
 - wordpress
 - opinion

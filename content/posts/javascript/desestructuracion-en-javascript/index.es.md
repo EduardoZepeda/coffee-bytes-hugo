@@ -9,10 +9,9 @@ categories:
 - javascript
 coverImage: images/Desestructuracion_objetos_javascript.jpg
 date: '2019-10-16'
-description: En esta entrada voy a tratar de explicar de una manera sencilla la desestructuración
-  de objetos en javascript. La destructuración es un proceso que, a pesar de lo que
-  se cree, es bastante simple en realidad y puede mejorar bastante la legibilidad
-  del código.
+seo_title: "Desestructuración de Objetos en JavaScript"
+description: Explicación sencilla de la desestructuración de objetos en JavaScript.
+  Aprende esta técnica que mejora la legibilidad de tu código.
 keywords:
 - javascript
 slug: /javascript/desestructuracion-de-variables-en-javascript/

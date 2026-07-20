@@ -10,8 +10,9 @@ categories:
 coverImage: images/DockerCompose.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@felixmittermeier/
 date: '2020-10-14'
-description: In this Docker compose tutorial I explain the most widely used docker compose commands, as
-  well as the structure and creation of a docker-compose.yml file.
+seo_title: "Docker Compose Tutorial with Examples"
+description: Complete Docker Compose tutorial, essential commands, docker-compose.yml
+  structure and practical examples.
 keyword: docker compose commands
 keywords:
 - docker

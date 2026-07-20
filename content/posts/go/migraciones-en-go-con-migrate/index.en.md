@@ -8,8 +8,9 @@ categories:
 - databases
 coverImage: images/migrations-go.jpg
 date: '2022-11-25'
-description: In this tutorial I explain what are the migrations up, down of a database,
-  as well as how to create and manage them using go's migrate library.
+seo_title: "Go Database Migrations with migrate Tutorial"
+description: Learn to create and manage database migrations in Go using the migrate
+  library. Practical tutorial with up and down operations.
 keywords:
 - go
 - postgres

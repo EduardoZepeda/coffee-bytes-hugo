@@ -7,6 +7,9 @@ categories:
 - go
 coverImage: images/go-channels-o-canales.jpg
 date: '2022-01-22'
+seo_title: "Go Channels: Communicate Goroutines Efficiently"
+description: Learn to use channels in Go to communicate goroutines. Practical examples
+  of concurrency and synchronization in Go.
 keywords:
 - go
 - concurrence

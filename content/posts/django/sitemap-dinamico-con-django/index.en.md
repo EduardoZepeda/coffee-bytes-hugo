@@ -13,6 +13,9 @@ keywords:
 - sitemap
 - python
 - seo
+seo_title: "Dynamic Sitemap in Django: Complete Tutorial"
+description: Build a dynamic XML sitemap in Django with caching, custom models and
+  proper configuration for loc, changefreq and priority.
 title: Dynamic sitemap with django
 ---
 

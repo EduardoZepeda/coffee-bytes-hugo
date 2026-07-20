@@ -7,8 +7,9 @@ categories:
 - go
 coverImage: images/GoFunciones.jpg
 date: '2021-11-30'
-description: Learn the basic syntax, returns, return types, multiple arguments and
-  use of the fmt package of the go programming language.
+seo_title: "Go Functions: Syntax, Returns and fmt Package"
+description: Learn to create functions in Go, syntax, return types, multiple arguments
+  and fmt package usage.
 keywords:
 - go
 title: 'Go: functions, arguments and the fmt package'

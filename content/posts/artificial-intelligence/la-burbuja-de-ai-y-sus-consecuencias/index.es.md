@@ -9,9 +9,9 @@ categories:
 - opinion
 coverImage: images/ai-rise-and-fall-bubble.jpg
 date: 2024-04-18
-description: Parece que estamos experimentando una burbuja de inteligencia artificial
-  causada por la especulación financiera, chatGPT, programadores muy astutos e inversores
-  muy avariciosos.
+seo_title: "La Burbuja de IA: ¿Cuándo Explotará?"
+description: Análisis de la burbuja de inteligencia artificial, sus causas financieras
+  y las consecuencias para la industria del software y los desarrolladores.
 keywords:
 - artificial intelligence
 - opinion

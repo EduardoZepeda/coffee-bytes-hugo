@@ -10,8 +10,9 @@ categories:
 - go
 coverImage: images/ArrayslicesYArrays.jpg
 date: '2021-12-14'
-description: Sintaxis y usos básicos de los arrays y slices en el lenguaje de programación
-  go. También te explico como usar la función make en slices.
+seo_title: "Go Arrays y Slices: Guía Completa con Ejemplos"
+description: Aprende arrays y slices en Go, sintaxis, usos básicos y cómo usar make.
+  Guía completa para principiantes.
 keywords:
 - go
 slug: /go/go-slices-y-arrays/

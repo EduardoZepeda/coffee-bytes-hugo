@@ -5,7 +5,9 @@ categories:
 - software architecture
 - databases
 coverImage: "images/swiss-tables-programming.jpg"
-description: 'I explain you deeply how Swiss tables work internally, why are they so fast compared to buckets, SIMD, hashes, metadata and even a visual interactive simulator'
+seo_title: "Swiss Tables: The Fastest Hashmap Explained"
+description: Deep dive into Swiss Tables, why they're fast, SIMD usage, metadata handling
+  and interactive visual simulator.
 keyword: 'swiss tables'
 keywords:
 - ''

@@ -9,8 +9,9 @@ categories:
 coverImage: images/django_y_redis_con_mejor_diseno.jpg
 coverImageCredits: Credits https://www.pexels.com/es-es/@axel-vandenhirtz-332204/
 date: '2020-11-28'
-description: Learn how to create step by step a history of visited products using
-  the django framework and the redis database engine.
+seo_title: "Recently Viewed Products with Django and Redis"
+description: Build a recently viewed products feature in Django using Redis for fast
+  storage and retrieval, perfect for ecommerce applications.
 keywords:
 - django
 - redis

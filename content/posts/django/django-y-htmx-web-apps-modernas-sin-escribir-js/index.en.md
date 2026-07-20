@@ -10,8 +10,9 @@ categories:
 coverImage: images/Djangohtmx.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@quionie-gaban-11920925/
 date: '2021-07-14'
-description: Learn how to combine Django and htmx to create websites, keep the same
-  functionalities with much less client-side JS code.
+seo_title: "Django and HTMX: Modern Web Apps without JS"
+description: Build interactive web apps with Django and HTMX, no React or Vue needed.
+  Same features with far less client-side JavaScript code.
 keywords:
 - django
 - htmx

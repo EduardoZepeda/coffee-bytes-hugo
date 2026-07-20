@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/go-profiling.jpg
 date: '2022-02-16'
-description: Entrada sobre profiling del código en go, análisis del impacto linea
-  por linea y exportación de resultados a formato web y pdf.
+seo_title: "Go Profiling: Analizar Rendimiento de CPU"
+description: Aprende a hacer profiling en Go para encontrar cuellos de botella. Análisis
+  línea por línea y exportación de resultados.
 keywords:
 - go
 - rendimiento

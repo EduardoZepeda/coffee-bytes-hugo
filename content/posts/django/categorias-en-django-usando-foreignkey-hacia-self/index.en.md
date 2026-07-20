@@ -9,8 +9,9 @@ categories:
 coverImage: images/DjangoCategoriasYSubcategorias.jpg
 coverImageCredits: Image credits for 極道畫師 https://www.pixiv.net/en/users/7140895
 date: '2022-03-30'
-description: Entry about using ForeignKey or foreign key to 'self' in Django to create
-  hierarchical structures or unbounded categories.
+seo_title: "Hierarchical Categories in Django with ForeignKey"
+description: Learn to build hierarchical category structures in Django using ForeignKey
+  to self, enabling unlimited nesting for your data models.
 keywords:
 - django
 - python

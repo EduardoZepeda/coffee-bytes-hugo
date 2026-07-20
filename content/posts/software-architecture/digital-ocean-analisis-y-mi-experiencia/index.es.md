@@ -14,7 +14,9 @@ categories:
 coverImage: images/Mi-experiencia-digital-ocean.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@elaine-bernadine-castro-1263177/
 date: '2021-01-14'
-description: Esta es mi reseña de Digital Ocean, te contaré lo que ofrece y mi experiencia usándolo para alojar todos mis proyectos personales hasta ahora
+seo_title: "DigitalOcean Reseña: Mi Experiencia como Usuario"
+description: Reseña honesta de DigitalOcean, funcionalidades, precios, ventajas y desventajas
+  después de alojar todos mis proyectos personales.
 keywords:
 - digital ocean
 - opinion

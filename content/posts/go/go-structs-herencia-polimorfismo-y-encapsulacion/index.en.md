@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/Go-structs.jpg
 date: '2022-01-04'
-description: Declares structs in go and emulates the inheritance, polymorphism and
-  encapsulation that are present in object-oriented programming.
+seo_title: "Go Structs: Inheritance, Polymorphism and Encapsulation"
+description: Learn to use structs in Go to emulate OOP, inheritance, polymorphism and
+  encapsulation with practical examples.
 keywords:
 - go
 - oop

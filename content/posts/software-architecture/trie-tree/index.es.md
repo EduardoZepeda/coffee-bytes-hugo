@@ -5,7 +5,9 @@ categories:
 - software architecture
 - databases
 coverImage: "images/trie-trees-data-structure.jpg"
-description: 'Programé un simulador visual de un trie tree, puedes añadir, eliminar palabras y ver como los cambios en esta estructura de datos en tiempo real'
+seo_title: "Trie Tree: Simulador Visual de Estructura de Datos"
+description: Simulador interactivo de Trie Tree, añade, elimina palabras y observa los
+  cambios en esta estructura de datos en tiempo real.
 keyword: 'trie tree'
 keywords:
 - 'trie tree'

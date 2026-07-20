@@ -11,7 +11,9 @@ categories:
 coverImage: images/Django_aggregate_y_annotate.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2020-11-17'
-description: Aprenda cuándo usar Django Annotate y Aggregate, junto con sus diferencias clave y cómo se traducen a código SQL en este tutorial.
+seo_title: "Django Annotate vs Aggregate: Cuándo Usar Cada Uno"
+description: Explicación clara de Django Annotate y Aggregate, sus diferencias clave y
+  cómo se traducen a SQL. Aprende cuándo usar cada uno.
 keywords:
 - django
 - python

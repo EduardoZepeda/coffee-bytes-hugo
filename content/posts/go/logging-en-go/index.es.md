@@ -9,6 +9,9 @@ categories:
 - go
 coverImage: images/logging-en-go.jpg
 date: '2022-07-06'
+seo_title: "Logging en Go: Guía con la Librería Estándar"
+description: Aprende a implementar logging en Go usando la librería estándar. Configuración,
+  niveles de log y mejores prácticas para tu aplicación.
 keywords:
 - go
 - testing

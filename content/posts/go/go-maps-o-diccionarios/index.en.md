@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/go-maps-o-diccionarios.jpg
 date: '2021-12-21'
-description: I explain how a map works in go or golang and learn how to declare them,
-  create them explicitly with make and traverse them with range.
+seo_title: "Go Maps: Dictionaries in Golang Explained"
+description: Learn to use maps in Go, declaration, creation with make, traversal with
+  range and basic operations with practical examples.
 keyword: golang maps
 keywords:
 - go

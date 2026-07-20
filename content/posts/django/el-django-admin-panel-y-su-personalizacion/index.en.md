@@ -9,8 +9,9 @@ categories:
 coverImage: images/PersonalizandoElDjangoAdmin.jpg
 coverImageCredits: Credits to https://www.pexels.com/@nic-livefeedpro/
 date: '2021-09-14'
-description: Learn how to customize the behavior of the django admin panel in an application,
-  sort fields, omit fields or change its appearance.
+seo_title: "Customize the Django Admin Panel"
+description: Step-by-step guide to customize Django admin, sort fields, hide fields,
+  change appearance and improve the admin interface.
 keywords:
 - django
 - python

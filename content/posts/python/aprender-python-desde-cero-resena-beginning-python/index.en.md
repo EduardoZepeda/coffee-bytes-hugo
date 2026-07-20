@@ -7,8 +7,9 @@ categories:
 - python
 coverImage: images/Beginning_Python_from_novice_to_pro.jpg
 date: '2019-07-02'
-description: 'This post is a brief review of Beginning Python: From Novice To Professional,
-  a book with which to learn Python from scratch.'
+seo_title: "Beginning Python Review: Learn Python from Scratch"
+description: Review of Beginning Python, From Novice to Professional, a comprehensive
+  book for learning Python from absolute zero with practical projects.
 title: Learn python from scratch Beginning Python Review
 ---
 

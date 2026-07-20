@@ -9,9 +9,9 @@ categories:
 - go
 coverImage: images/how-to-use-https-in-localhost.jpg
 date: '2025-02-26'
-description: Run a local server using https instead of http in your localhost machine
-  using a reverse proxy and caddy in a few steps, useful for Oauth integrations or
-  third party apps that require a secure connection
+seo_title: "Use HTTPS on Localhost with Caddy and Nginx"
+description: Set up HTTPS on localhost easily using Caddy as a reverse proxy. Perfect
+  for OAuth integrations and apps needing secure connections.
 keyword: https on localhost
 keywords:
 - https

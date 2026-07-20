@@ -9,8 +9,9 @@ categories:
 coverImage: images/throttling_ngnix.jpg
 coverImagecredits: Credits to https://www.pexels.com/@amateur-photo-1700447
 date: '2021-03-13'
-description: Learn how to use Throttling in Nginx to limit the number of requests
-  in your application, mitigating DDOS or brute force attacks.
+seo_title: "Nginx Throttling: Rate Limiting Configuration"
+description: Learn to configure throttling in Nginx to protect your application from
+  DDoS and brute force attacks by limiting requests.
 keywords:
 - nginx
 - performance

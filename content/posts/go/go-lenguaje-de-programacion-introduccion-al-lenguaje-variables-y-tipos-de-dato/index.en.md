@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/golanga.jpg
 date: '2021-11-23'
-description: 'Learn the basics of the go or golang programming language: compilation,
-  file structure, variables and data types.'
+seo_title: "Introduction to Go: Variables and Data Types"
+description: Learn Go fundamentals, compilation, file structure, variables and data
+  types. Complete beginner-friendly tutorial.
 keywords:
 - go
 - compilation

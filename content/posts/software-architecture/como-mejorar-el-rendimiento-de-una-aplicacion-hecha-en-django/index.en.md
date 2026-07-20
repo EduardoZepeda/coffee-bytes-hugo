@@ -10,8 +10,9 @@ categories:
 coverImage: images/Mejora-el-rendimiento-de-tuapp-django.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@tranmautritam/
 date: '2020-12-30'
-description: Maximize the performance of your app made in Django with this compilation
-  of tips ranging from your queries, to caching, to alternative frameworks.
+seo_title: "Optimize Django Performance: Tips and Scaling Guide"
+description: Complete Django optimization tutorial, queries, caching, indexes, serializers
+  and strategies to scale to millions of views.
 keywords:
 - performance
 - django

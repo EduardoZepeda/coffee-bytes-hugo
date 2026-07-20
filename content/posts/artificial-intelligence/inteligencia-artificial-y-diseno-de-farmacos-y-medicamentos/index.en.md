@@ -7,8 +7,9 @@ categories:
 - artificial intelligence
 coverImage: images/drug-design-using-artificial-intelligence.jpg
 date: '2023-12-29'
-description: How does a drug work in the body and how can artificial intelligence
-  and neural networks help find better drugs for human diseases.
+seo_title: "AI in Drug Discovery: Neural Networks and Medicine"
+description: How artificial intelligence and neural networks help discover new medications.
+  Explained for developers and curious minds.
 keywords:
 - artificial intelligence
 - bioquímica

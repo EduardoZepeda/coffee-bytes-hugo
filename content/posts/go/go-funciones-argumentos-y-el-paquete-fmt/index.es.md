@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/GoFunciones.jpg
 date: '2021-11-30'
-description: Aprende la sintaxis básica, retornos, tipos de retorno, argumentos múltiples
-  y el uso del paquete fmt del lenguaje de programación go.
+seo_title: "Go Funciones: Sintaxis, Retornos y el Paquete fmt"
+description: Aprende a crear funciones en Go, sintaxis, tipos de retorno, argumentos
+  múltiples y uso del paquete fmt.
 keywords:
 - go
 slug: /go/go-funciones-argumentos-y-el-paquete-fmt/

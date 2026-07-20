@@ -8,8 +8,9 @@ categories:
 - testing
 coverImage: images/go-testing-coverage.jpg
 date: '2022-02-09'
-description: 'Entry on basic testing in go: creating tests, handling multiple cases,
-  coverage and exporting results to html.'
+seo_title: "Go Testing Basics: Coverage and Best Practices"
+description: Guide to basic testing in Go, creating tests, handling multiple cases,
+  measuring coverage and exporting results to HTML.
 keywords:
 - go
 - testing

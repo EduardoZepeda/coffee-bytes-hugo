@@ -11,8 +11,9 @@ categories:
 coverImage: images/NoCometasEsteError.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@nishizuka-25426/
 date: '2021-04-07'
-description: ¿Por qué cuando cambio un elemento de un array en una matriz Python se
-  cambian todos las demás? Te explico porqué sucede y como prevenirlo.
+seo_title: "Error Común con Arrays en Python y Cómo Evitarlo"
+description: ¿Por qué cambiar un elemento de una matriz en Python cambia todos los demás?
+  Explicación y solución a este error frecuente con arrays.
 keywords:
 - python
 - rendimiento

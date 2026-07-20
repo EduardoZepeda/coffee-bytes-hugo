@@ -8,8 +8,9 @@ categories:
 - go
 coverImage: images/Go-structs.jpg
 date: '2022-01-04'
-description: Declara structs en go y emula la herencia, polimorfismo y encapsulación
-  que están presentes en la programación orientados a objetos.
+seo_title: "Go Structs: Herencia, Polimorfismo y Encapsulación"
+description: Aprende a usar structs en Go para emular POO, herencia, polimorfismo y
+  encapsulación con ejemplos prácticos.
 keywords:
 - go
 - oop

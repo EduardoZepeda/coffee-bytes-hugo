@@ -13,9 +13,9 @@ categories:
 coverImage: images/Djangohtmx.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@quionie-gaban-11920925/
 date: '2021-07-14'
-description: Tutorial de Django y HTMX para crear aplicaciones web, sin necesidad
-  de Frameworks como react mantener las mismas funcionalidades y con mucho menos código
-  Javascript
+seo_title: "Django y HTMX: Web Apps Modernas sin JavaScript"
+description: Crea aplicaciones web interactivas con Django y HTMX, sin necesidad de React
+  o Vue. Mucho menos código JavaScript con las mismas funcionalidades.
 keywords:
 - django
 - htmx

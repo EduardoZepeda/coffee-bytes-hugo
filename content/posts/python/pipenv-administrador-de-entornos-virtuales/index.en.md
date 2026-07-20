@@ -8,8 +8,9 @@ categories:
 coverImage: images/Tutorial-de-pipenv.jpg
 coverImageCredits: credits https://www.pexels.com/es-es/@rodnae-prod/
 date: '2020-08-15'
-description: I teach you how to install Pipenv, create a Pipfile, set environment
-  variables and what you need to know about this virtual environment manager.
+seo_title: "Pipenv Tutorial: Virtual Environments Made Easy"
+description: Complete Pipenv tutorial, installation, usage, Pipfile, environment variables
+  and everything you need for Python virtual environments.
 keywords:
 - python
 - pipenv

@@ -8,9 +8,9 @@ categories:
 - linux
 coverImage: images/how-to-create-docker-file-from-scratch.jpg
 date: '2020-10-09'
-description: Escribir un dockerfile desde cero, aprender las palabras clave más básicas
-  en un Dockerfile y aprender la importancia de cuidar el orden de esas instrucciones
-  para mejorar la caché y tener un proceso de compilación en docker más veloz.
+seo_title: "Cómo Escribir un Dockerfile desde Cero"
+description: Aprende a crear un Dockerfile desde cero, instrucciones básicas, optimización
+  de caché y buenas prácticas para compilación rápida.
 keyword: basic docker commands
 keywords:
 - docker

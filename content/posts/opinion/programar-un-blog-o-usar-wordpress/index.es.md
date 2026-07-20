@@ -11,6 +11,9 @@ categories:
 - opinion
 coverImage: images/porque_decidi_usar_wordpress.jpg
 date: '2019-06-26'
+seo_title: "Programar un Blog vs Usar WordPress: ¿Cuál Elegir?"
+description: Comparativa entre programar tu blog desde cero vs usar WordPress, ventajas,
+  desventajas y por qué elegí mi solución.
 keywords:
 - wordpress
 - opinion

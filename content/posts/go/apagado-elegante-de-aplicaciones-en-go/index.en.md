@@ -8,6 +8,9 @@ categories:
 - linux
 coverImage: images/go-manejo-signals-para-cerrar-aplicaciones.jpg
 date: '2022-10-06'
+seo_title: "Graceful Shutdown in Go: Handling Linux Signals"
+description: Learn to handle SIGINT and SIGTERM in Go for graceful application shutdown.
+  Tutorial with channels and signal handling.
 title: 'Go: Handling Signals for Closing Applications'
 ---
 

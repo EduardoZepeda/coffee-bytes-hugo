@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/how-to-use-https-in-localhost.jpg
 date: '2025-02-26'
-description: Ejecuta un servidor local que use https en lugar de http en su máquina
-  localhost, incluso sin saber sobre netstat, utilizando un proxy inverso y caddy
+seo_title: "Usar HTTPS en Localhost con Caddy y Nginx"
+description: Configura HTTPS en localhost fácilmente usando Caddy como proxy inverso.
+  Ideal para OAuth y apps que requieren conexión segura.
 keyword: https en localhost
 keywords:
 - https

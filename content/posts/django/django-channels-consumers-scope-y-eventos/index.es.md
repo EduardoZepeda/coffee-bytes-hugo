@@ -10,8 +10,9 @@ categories:
 coverImage: images/Django-channels-tutorial.jpg
 coverImageCredits: créditos a https://www.pexels.com/@yaroslav-shuraev
 date: '2021-11-09'
-description: 'Aprende los fundamentos de django channels: consumers, scope y eventos,
-  para manejar las peticiones websockets (ws) y devolver respuestas.'
+seo_title: "Django Channels: Consumers, Scope y Eventos"
+description: Aprende los fundamentos de Django Channels, consumers, scope y eventos para
+  crear aplicaciones con WebSockets en Django.
 keywords:
 - django
 - python

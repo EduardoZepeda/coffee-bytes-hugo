@@ -8,8 +8,9 @@ categories:
 - javascript
 coverImage: images/desestructuracion_de_objetos_anidadis.jpg
 date: '2019-11-16'
-description: Destructuring nested objects in javascript? In this post I discuss the
-  topic of destructuring nested objects with examples.
+seo_title: "Nested Object Destructuring in JavaScript"
+description: Master nested object destructuring in JavaScript with examples. Extract
+  values from deeply nested objects with clean syntax.
 keywords:
 - javascript
 title: Destructuring nested objects in Javascript

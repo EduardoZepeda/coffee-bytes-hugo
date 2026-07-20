@@ -10,9 +10,9 @@ categories:
 coverImage: images/como-usar-django-para-subir-multiples-imagenes.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@cottonbro/
 date: '2021-03-30'
-description: Tutorial para subir o realizar upload de múltiples imágenes o archivos
-  en Django, así como de retornarlas en formato JSON a través del endpoint de una
-  API.
+seo_title: "Subir Múltiples Imágenes en Django"
+description: Tutorial para hacer upload de múltiples imágenes en Django y retornarlas
+  en JSON a través de un endpoint de API REST.
 keywords:
 - python
 - django

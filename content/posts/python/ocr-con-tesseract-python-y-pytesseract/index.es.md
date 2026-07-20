@@ -16,8 +16,9 @@ categories:
 coverImage: images/OCR.jpg
 coverImageCredits: Créditos https://www.pexels.com/@cottonbro/
 date: '2021-09-28'
-description: Aprende a realizar reconocimiento óptico de caracteres (OCR) en este tutorial usando Pytesseract. Python y Tesseract para extraer texto de imágenes.
-  strings.
+seo_title: "OCR con Tesseract y Pytesseract en Python"
+description: Tutorial de OCR en Python, extrae texto de imágenes usando Tesseract y
+  Pytesseract para reconocimiento óptico de caracteres.
 keyword: tutorial de pytesseract
 keywords:
 - python

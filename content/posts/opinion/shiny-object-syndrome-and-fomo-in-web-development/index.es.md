@@ -8,9 +8,9 @@ categories:
 - javascript
 coverImage: images/shiny-object-syndrome-and-fomo-in-web-dev.jpg
 date: 2024-09-08
-description: Te explico un poquito sobre el Shiny Object Syndrome (SOS) y el Fear
-  of Missing Out (FOMO) en el desarrollo web, de que tratan, sus diferencias y sus
-  consecuencias
+seo_title: "Shiny Object Syndrome y FOMO en Desarrollo Web"
+description: Análisis del Shiny Object Syndrome y FOMO en programación, diferencias,
+  ejemplos y cómo afectan la productividad de los desarrolladores.
 keyword: fomo en el desarrollo web
 keywords:
 - opinion

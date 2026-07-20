@@ -8,8 +8,9 @@ categories:
 - linux
 coverImage: images/Convierte-a-webp.jpg
 date: '2020-09-10'
-description: A couple of weeks ago I wanted to convert my ecommerce images from jpg
-  to webp. Normally to modify images in GNU/Linux I use GIMP...
+seo_title: "Convert JPG to WebP on Linux: Quick Guide"
+description: Learn to convert JPG images to WebP format on Linux using command-line
+  tools. Fast, efficient and easy to implement.
 keywords:
 - linux
 - frontend

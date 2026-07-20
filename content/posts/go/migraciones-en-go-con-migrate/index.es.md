@@ -11,8 +11,9 @@ categories:
 - databases
 coverImage: images/migrations-go.jpg
 date: '2022-11-25'
-description: En este tutorial te explico que son las migraciones up, down de una base
-  de datos, así como a crearlas y manejarlas usando la librería migrate de go.
+seo_title: "Migraciones en Go con migrate: Tutorial Completo"
+description: Aprende a crear y gestionar migraciones de bases de datos en Go usando
+  la librería migrate. Tutorial práctico con up y down.
 keywords:
 - go
 - postgres

@@ -10,8 +10,9 @@ categories:
 - opinion
 coverImage: images/javascript-dates-and-html-input.jpg
 date: '2024-03-20'
-description: El manejo de fechas en javascript y su combinación con el input estándar
-  HTML datetime-local, es dificil, incoherente y complicado.
+seo_title: "Problemas con Fechas y datetime-local en JavaScript"
+description: Por qué el manejo de fechas en JavaScript y el input datetime-local de HTML
+  son problemáticos, con soluciones y alternativas prácticas.
 keywords:
 - javascript
 - opinion

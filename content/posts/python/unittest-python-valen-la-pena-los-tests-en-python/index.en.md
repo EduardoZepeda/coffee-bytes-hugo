@@ -9,8 +9,9 @@ categories:
 - testing
 coverImage: images/porque_deberias_incorporar_test_a_tu_codigo.jpg
 date: '2019-06-11'
-description: Tests are a waste, right? Go here and learn about unittest, coverage,
-  mock and other popular python tools for testing.
+seo_title: "Python Testing: Unittest, Coverage and Mock Guide"
+description: Are Python tests a waste? Learn unittest, coverage, mock and pytest, and
+  why testing saves time and prevents bugs in your code.
 keywords:
 - testing
 - python

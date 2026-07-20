@@ -7,8 +7,9 @@ categories:
 - python
 coverImage: images/como_programar_un_cambiador_wallpaper_python.jpg
 date: '2020-03-01'
-description: How to schedule an automatic wallpaper changer in GNU/Linux using Python?
-  In this entry we will use Cron to change the wallpaper every so often.
+seo_title: "Schedule Wallpaper Changes with Cron and Python"
+description: Use Cron on Linux to schedule periodic Python script execution for automatic
+  wallpaper changes at any interval you choose.
 keywords:
 - linux
 - python

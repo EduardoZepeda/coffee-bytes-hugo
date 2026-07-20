@@ -8,7 +8,9 @@ categories:
 - python
 coverImage: images/DSC_3818.jpg
 date: '2019-07-31'
-description: Dive into Python is, IMO, the Best book to learn python for beginners, it covers practically everything to get you started and it can be downloaded for free.
+seo_title: "Dive into Python: Free Book to Learn Python"
+description: Dive into Python is the best free book for learning Python from scratch.
+  Comprehensive coverage of everything beginners need to get started.
 keywords:
 - books
 - python

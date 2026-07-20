@@ -8,9 +8,9 @@ categories:
 coverImage: images/pin-961667.jpg
 coverImageCredits: 'Image credits to pin: https://www.pixiv.net/en/users/961667'
 date: '2022-03-16'
-description: Learn to customize Django User model, so it fits with your application
-  requirements and business logic, whether it be adding extra fields or modifying
-  its internal behavior
+seo_title: "Customize Django User Model"
+description: Three methods to extend Django's User model, add extra fields, modify behavior
+  and adapt the user model to your business requirements.
 keyword: user model
 keywords:
 - django

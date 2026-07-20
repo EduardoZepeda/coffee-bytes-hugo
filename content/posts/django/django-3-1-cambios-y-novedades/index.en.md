@@ -7,8 +7,9 @@ categories:
 - django
 coverImage: images/tres.jpg
 date: '2020-08-04'
-description: In this post I talk about the changes and new features in Django 3.1.
-  Django 3.1 includes asynchronous support for middleware, views and a JSON field.
+seo_title: "Django 3.1 New Features: Complete Overview"
+description: Complete overview of Django 3.1 new features including async support for
+  middleware, views and the new JSONField for PostgreSQL.
 keywords:
 - django
 - python

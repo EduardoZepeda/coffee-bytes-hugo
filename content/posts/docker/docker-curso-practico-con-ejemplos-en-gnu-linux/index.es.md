@@ -15,8 +15,9 @@ categories:
 coverImage: images/DockerCursoPractico.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@huy-phan-316220/
 date: '2020-10-07'
-description: Aprende a usar los comandos de Docker más comunes, aprende a diferenciar imágenes
-  y contenedores, gestionar volúmenes, crear Dockerfiles y usar docker build.
+seo_title: "Comandos de Docker: Curso Práctico con Ejemplos"
+description: Guía práctica de comandos Docker, crear contenedores, gestionar volúmenes,
+  imágenes y Dockerfiles con ejemplos reales.
 keyword: comandos de docker
 keywords:
 - docker

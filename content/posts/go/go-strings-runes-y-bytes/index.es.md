@@ -9,8 +9,9 @@ categories:
 - go
 coverImage: images/go-strings-runes-and-bytes.jpg
 date: '2021-12-28'
-description: En este post te explico un poco sobre las diferencias etre los strings,
-  runes y bytes en el lenguaje de programación go y su uso básico.
+seo_title: "Go Strings, Runes y Bytes: Diferencias y Uso"
+description: Explicación de strings, runes y bytes en Go, diferencias, cuándo usar cada
+  uno y manejo de caracteres UTF-8.
 keywords:
 - go
 slug: /go/go-strings-runes-y-bytes/

@@ -8,9 +8,9 @@ categories:
 - databases
 coverImage: images/multi-tenant-pattern-and-its-database-paradigms.jpg
 date: '2025-01-28T17:44:50-06:00'
-description: El patrón multiarrendatario es un enfoque de arquitectura de software
-  en el que una única instancia de una aplicación sirve a múltiples arrendatarios
-  y existen múltiples formas de diseñar una base de datos para este patrón
+seo_title: "Arquitectura Multi-Tenant: Patrones de Diseño"
+description: Explicación del patrón multi-tenant, tipos de implementación, patrones de
+  base de datos y mejores prácticas para SaaS.
 keyword: multi-tenant
 keywords:
 - software architecture

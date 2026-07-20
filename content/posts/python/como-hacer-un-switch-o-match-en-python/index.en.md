@@ -8,8 +8,9 @@ categories:
 coverImage: images/PythonYatiene.jpg
 coverImageCredits: Credits to https://www.pexels.com/@cottonbro/
 date: '2021-03-06'
-description: Learn how to use the Python switch statement, also known as match, its
-  basic syntax and guard, to control the flow of your application.
+seo_title: "Python Switch Statement: Match Case Syntax Guide"
+description: Learn to use Python's match-case statement with syntax basics, guards
+  and practical examples for controlling application flow.
 keywords:
 - python
 title: How to make a switch in Python?

@@ -8,6 +8,9 @@ categories:
 - opinion
 coverImage: images/saas-y-one-time-sale-ots-como-modelos-de-negocios.jpg
 date: '2024-02-22'
+seo_title: "SaaS vs One-Time Sale: Software Business Models"
+description: Analysis of SaaS vs One-Time Sale business models, pros, cons and my
+  opinion on Once as an alternative.
 title: SAAS and OTS as business models and my opinion on Once
 url: :sections[last]/saas-and-ots-as-software-business-models-and-my-opinion-on-once
 ---

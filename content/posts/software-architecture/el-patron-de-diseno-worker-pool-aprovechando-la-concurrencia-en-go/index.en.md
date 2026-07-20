@@ -10,8 +10,9 @@ categories:
 - go
 coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
-description: I explain how the worker pool design pattern works, the ideal job queue
-  to handle high loads using programming languages that support concurrency.
+seo_title: "Worker Pool Pattern in Go: Concurrency Guide"
+description: Learn the worker pool design pattern in Go, job queues, concurrency and
+  handling heavy workloads efficiently.
 keyword: worker pool
 keywords:
 - Go

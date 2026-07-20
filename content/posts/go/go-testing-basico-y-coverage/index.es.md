@@ -9,8 +9,9 @@ categories:
 - testing
 coverImage: images/go-testing-coverage.jpg
 date: '2022-02-09'
-description: 'Entrada sobre testing básico en go: creación de tests, manejo de múltiples
-  casos, coverage y exportación de resultados a html.'
+seo_title: "Go Testing: Guía Básica con Coverage"
+description: Tutorial de testing en Go, crear tests, manejar múltiples casos, medir
+  coverage y exportar resultados a HTML.
 keywords:
 - go
 - testing

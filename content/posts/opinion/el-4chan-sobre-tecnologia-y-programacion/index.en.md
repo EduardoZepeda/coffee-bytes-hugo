@@ -7,8 +7,9 @@ categories:
 - opinion
 coverImage: images/el_4chan_sobre_programacion.jpg
 date: '2019-09-16'
-description: In this post I give my opinion about one of the most popular programming
-  and technology image boards out there, lainchan.
+seo_title: "Lainchan: The 4chan for Tech and Programming"
+description: Opinion about Lainchan, the programming and technology image board. Analysis
+  of its community, content quality and usefulness.
 keywords:
 - opinion
 - internet

@@ -5,7 +5,9 @@ categories:
 - Django
 - Software architecture
 coverImage: "images/django-rapid-architecture.jpg"
-description: 'Discover how to apply Django Rapid Architecture to structure Django projects in a maintainable and hassle-free way. Summary of Django Rapid Architecture'
+seo_title: "Django Rapid Architecture: Project Structure Guide"
+description: Summary of Django Rapid Architecture, a practical guide to structure Django
+  projects maintainably, based on 15+ years of production experience.
 keyword: 'django rapid architecture'
 keywords:
 - 'django'

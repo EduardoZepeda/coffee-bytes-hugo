@@ -10,8 +10,9 @@ categories:
 - algoritmos
 coverImage: images/practical_python_design_patterns.jpg
 date: '2020-05-31'
-description: Los patrones de diseño son soluciones comunes a problemas comunes, representados
-  por entidades y las relaciones entre ellas en programación.
+seo_title: "Patrones de Diseño en Python: Guía Práctica"
+description: Explicación clara de patrones de diseño en Python, singleton, observer,
+  MVC y más, con ejemplos prácticos y reseña del libro.
 keywords:
 - python
 - patrones de diseño

@@ -9,8 +9,9 @@ categories:
 - javascript
 coverImage: images/estas_usando_console_mal.jpg
 date: '2020-01-15'
-description: Learn at once how to take advantage of the javascript console object
-  and its most useful methods to make your development easier.
+seo_title: "JavaScript Console Methods Beyond console.log"
+description: Discover useful JavaScript console methods beyond console.log, table, group,
+  time, trace and more to level up your debugging.
 keywords:
 - javascript
 - opinion

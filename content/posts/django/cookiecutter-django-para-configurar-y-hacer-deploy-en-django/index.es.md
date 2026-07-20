@@ -13,8 +13,9 @@ categories:
 coverImage: images/tutorial-cookiecutter-django-docker-compose.jpg
 coverImageCredits: Créditos https://www.pexels.com/es-es/@alex-andrews-271121/
 date: '2020-10-20'
-description: Tutorial para configurar cookiecutter en Django. Aprende para que sirve,
-  como instalarlo y que significa cada una de las preguntas para crear un proyecto
+seo_title: "Cookiecutter Django: Configuración y Deploy con Docker"
+description: Tutorial completo de cookiecutter-django, configura tu proyecto con Docker,
+  Celery, DRF y despliega en producción de forma rápida.
 keywords:
 - docker
 - django

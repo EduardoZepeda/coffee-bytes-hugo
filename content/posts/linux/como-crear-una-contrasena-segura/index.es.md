@@ -10,8 +10,9 @@ categories:
 - linux
 coverImage: images/como_escribir_una_buena_contraseña.jpg
 date: '2020-07-02'
-description: Aprende a crear una contraseña segura que proteja tus cuentas personales,
-  y las de tus clientes, de los criminales informáticos.
+seo_title: "Cómo Crear Contraseñas Seguras: Guía Práctica"
+description: Aprende a crear contraseñas seguras que protejan tus cuentas de hackers.
+  Consejos prácticos para mejorar tu seguridad informática.
 keywords:
 - linux
 - opinion

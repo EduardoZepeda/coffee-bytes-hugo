@@ -10,9 +10,9 @@ categories:
 - opinion
 coverImage: images/clean_code.jpg
 date: '2020-05-16'
-description: An analysis of Clean Code, the book by Robert C. Martin that explains
-  how to write clean code and what I consider other alternatives and ideas of what
-  is considered clean code in the world of software development.
+seo_title: "Clean Code Book Review: Is It Still Relevant?"
+description: Analysis of Robert C. Martin's Clean Code book with alternatives and opinions
+  on what constitutes clean code in modern software development.
 keyword: clean code
 keywords:
 - books

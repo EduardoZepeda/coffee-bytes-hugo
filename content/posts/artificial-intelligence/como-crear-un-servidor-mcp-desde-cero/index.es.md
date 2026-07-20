@@ -6,7 +6,9 @@ categories:
 - javascript
 coverImage: images/mcp-server-and-mcp-tools.jpg
 date: '2025-07-23T18:00:32-06:00'
-description: Aprende a crear un servidor MCP y MCP tools con un ejemplo que cuenta las r's en strawberry, a conectarlo a un LLM y a utilizar el inspector oficial de MCP.
+seo_title: "Crear un Servidor MCP desde Cero: Tutorial Completo"
+description: Tutorial paso a paso para crear un servidor MCP con herramientas personalizadas,
+  conectarlo a LLMs y usar el inspector oficial de MCP.
 keyword: mcp server
 keywords:
 - artificial intelligence
