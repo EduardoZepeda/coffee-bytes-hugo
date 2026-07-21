@@ -2,6 +2,7 @@
 aliases:
 - /the-django-admin-panel-and-its-customization/
 - /en/the-django-admin-panel-and-its-customization/
+- /en/django/the-django-admin-panel-and-its-customization/
 authors:
 - Eduardo Zepeda
 categories:
@@ -16,7 +17,7 @@ keywords:
 - django
 - python
 - admin
-title: The django admin panel and its customization
+title: The django admin panel and how to customize it with instructions
 ---
 
 One of the best features of django is that it has the django admin panel, a ready-to-use administration panel, with basic functions such as create, read, edit and delete models, users, groups and permissions. All ready to use just by setting up your application. But sometimes our needs are different, what if we want to modify the appearance or functions of the interface? Fortunately Django includes many functions to customize the behavior of the admin, I will explain some of them below.

@@ -10,7 +10,7 @@ categories:
 - seo
 coverImage: images/sitemap-en-django.jpg
 date: '2022-07-20'
-seo_title: "Crear Sitemap Dinámico en Django"
+seo_title: "Crea Un Sitemap Dinámico en Django En Minutos"
 description: Tutorial para crear un sitemap XML dinámico en Django con caché, modelos
   personalizados y configuración de loc, changefreq y priority.
 keywords:
@@ -19,7 +19,7 @@ keywords:
 - python
 - seo
 slug: /django/sitemap-dinamico-con-django/
-title: ¿Cómo Crear un Sitemap Dinámico con Django?
+title: ¿Cómo Crear un Sitemap De Manera Dinámica en Django Fraemwork?
 ---
 
 Un sitemap es un archivo de tipo xml que funciona como un mapa para navegar tu sitio. De ahí el nombre; Site (sitio) map (mapa). Los motores de búsqueda, como google, bing, yahoo y otros, usan el sitemap de un sitio como punto de partida para analizar su contenido e incluirlo en sus resultados de búsqueda.

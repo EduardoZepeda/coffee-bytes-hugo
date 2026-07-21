@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/dynamic-sitemap-with-django/
+- /en/django/dynamic-sitemap-with-django/
 authors:
 - Eduardo Zepeda
 categories:
@@ -16,7 +17,7 @@ keywords:
 seo_title: "Dynamic Sitemap in Django: Complete Tutorial"
 description: Build a dynamic XML sitemap in Django with caching, custom models and
   proper configuration for loc, changefreq and priority.
-title: Dynamic sitemap with django
+title: How To Configure a Dynamic Sitemap Creation On Django Framework
 ---
 
 A sitemap is an xml file that functions as a map to navigate your site. Hence the name; Site-map. Search engines, such as google, bing, yahoo and others, use the sitemap of a site as a starting point to analyze its content and include it in their search results. 

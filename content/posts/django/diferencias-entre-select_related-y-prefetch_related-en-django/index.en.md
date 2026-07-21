@@ -11,7 +11,7 @@ categories:
 coverImage: images/django-select-related-prefetch-related.jpg
 coverImageCredits: 'Image credits to ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-03-09'
-seo_title: "select_related vs prefetch_related in Django"
+seo_title: "select_related vs prefetch_related, all main differences in Django"
 description: Speed up Django database queries by understanding select_related vs prefetch_related,
   their differences, use cases and SQL output.
 keyword: differences between select_related and prefetch_related

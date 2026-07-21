@@ -6,7 +6,7 @@ categories:
 - javascript
 coverImage: images/mcp-server-and-mcp-tools.jpg
 date: '2025-07-23T18:00:32-06:00'
-seo_title: "Build an MCP Server from Scratch: Complete Tutorial"
+seo_title: "Build an MCP Server: Everything You Need To Know"
 description: Step-by-step guide to building an MCP server with custom tools, connecting
   to LLMs and debugging with the official MCP inspector.
 keyword: mcp server

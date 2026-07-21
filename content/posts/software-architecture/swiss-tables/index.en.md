@@ -1,16 +1,21 @@
 ---
+aliases:
+- /en/software-architecture/swiss-tables-the-superior-performance-hashmap/
 date: '2025-09-21'
-title: 'Swiss Tables the superior performance hashmap'
+title: 'Swiss Tables the superior performance hashmap and interactive demo'
 categories:
 - software architecture
 - databases
 coverImage: "images/swiss-tables-programming.jpg"
-seo_title: "Swiss Tables: The Fastest Hashmap Explained"
+seo_title: "Swiss Tables Visual Demo: The Fastest Hashmap Explained "
 description: Deep dive into Swiss Tables, why they're fast, SIMD usage, metadata handling
   and interactive visual simulator.
 keyword: 'swiss tables'
 keywords:
-- ''
+- 'big 0'
+- 'performance'
+- 'efficiency'
+- 'backend'
 authors:
 - 'Eduardo Zepeda'
 ---

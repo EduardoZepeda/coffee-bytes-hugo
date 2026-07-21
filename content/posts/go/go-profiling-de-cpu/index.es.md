@@ -19,11 +19,11 @@ slug: /go/go-profiling-o-perfilado-basico-del-uso-del-cpu/
 title: 'Go: profiling o perfilado básico del uso del CPU'
 ---
 
+Además del [testing de pruebas unitarias y la medición del coverage en go](/es/go/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
+
 {{<adsPanels>}}
 
 {{<ad0>}}
-
-Además del [testing de pruebas unitarias y la medición del coverage en go](/es/go/go-testing-basico-y-coverage/), este lenguaje de programación es capaz de realizar un profiling (o perfilar) la eficiencia del código, analizándolo de manera muy detallada. Esto es bastante útil para encontrar cuellos de botella o partes del código muy costosas, que se llaman numerosas veces o cuyo rendimiento pueden mejorarse.
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 

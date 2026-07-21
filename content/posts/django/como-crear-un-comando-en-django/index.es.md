@@ -9,14 +9,14 @@ categories:
 coverImage: images/Como-crear-comando-django.jpg
 coverImageCredits: Créditos a https://www.pexels.com/es-es/@pixabay/
 date: '2021-01-21'
-seo_title: "Crear Comandos Personalizados en Django"
+seo_title: "Crea Comandos Personalizados en Django Framework En Minutos"
 description: Tutorial completo para crear comandos personalizados en Django con argumentos
   posicionales, opcionales y ejecución desde la terminal.
 keywords:
 - django
 - python
 slug: /django/como-crear-un-comando-en-django/
-title: ¿Cómo crear un comando en django?
+title: ¿Cómo crear un comando en django framework?
 ---
 
 Has usado Django antes ¿no? Entonces, ya usaste algún comando de Django, pudo haber sido makemigrations, migrate, startproject, startapp algún otro. Pero, ¿alguna vez has creado alguno? Quizás no. Sigue leyendo para aprender como.

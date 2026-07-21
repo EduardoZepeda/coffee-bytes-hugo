@@ -2,6 +2,7 @@
 aliases:
 - /how-to-create-a-command-in-django/
 - /en/how-to-create-a-command-in-django/
+- /en/django/how-to-create-a-command-in-django/
 authors:
 - Eduardo Zepeda
 categories:
@@ -9,13 +10,13 @@ categories:
 coverImage: images/Como-crear-comando-django.jpg
 coverImageCredits: Credits to https://www.pexels.com/es-es/@pixabay/
 date: '2021-01-21'
-seo_title: "Create Custom Django Management Commands"
+seo_title: "Create Custom Django Management Commands In Minutes"
 description: Learn how to create custom Django management commands with positional and
   optional arguments, ready to run from the terminal.
 keywords:
 - django
 - python
-title: How to create a command in django?
+title: How to create a management command in django framework?
 ---
 
 You have used Django before, haven't you? So, you already used some Django command, it could have been makemigrations, migrate, startproject, startapp or some other. But have you ever created any? Maybe you haven't. Read on to learn how.

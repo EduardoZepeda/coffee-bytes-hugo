@@ -1,6 +1,6 @@
 ---
 date: '2025-09-21'
-title: 'Swiss Tables el hashmap con rendimiento superior'
+title: 'Swiss Tables el hashmap con rendimiento superior con demo interactiva'
 categories:
 - software architecture
 - databases

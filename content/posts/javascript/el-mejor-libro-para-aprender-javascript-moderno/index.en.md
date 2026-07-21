@@ -19,11 +19,11 @@ keywords:
 title: The best book for learning modern JavaScript
 ---
 
+There are many good books to learn Javascript however the book Eloquent Javascript really made me understand modern Javascript. If you plan to dedicate some hours to acquire knowledge of this language, **don't waste your time looking for more**, you will hardly find a book that covers such a variety of concepts in such an understandable and complete way as this one.
+
 {{<adsPanels>}}
 
 {{<ad0>}}
-
-There are many good books to learn Javascript however the book Eloquent Javascript really made me understand modern Javascript. If you plan to dedicate some hours to acquire knowledge of this language, **don't waste your time looking for more**, you will hardly find a book that covers such a variety of concepts in such an understandable and complete way as this one.
 
 ## 5 reasons to read the book
 

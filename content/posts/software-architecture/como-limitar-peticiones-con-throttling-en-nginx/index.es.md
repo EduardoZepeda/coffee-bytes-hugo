@@ -11,7 +11,7 @@ categories:
 coverImage: images/throttling_ngnix.jpg
 coverImagecredits: Créditos a https://www.pexels.com/@amateur-photo-1700447
 date: '2021-03-13'
-seo_title: "Throttling en Nginx: Limitar Peticiones con Éxito"
+seo_title: "Throttling en Nginx: Aprende a Limitar Peticiones con Éxito"
 description: Aprende a configurar throttling en Nginx para proteger tu aplicación de
   ataques DDoS y fuerza bruta limitando peticiones.
 keywords:
@@ -19,14 +19,14 @@ keywords:
 - rendimiento
 - linux
 slug: /software-architecture/throttling-en-nginx/
-title: Throttling en Nginx
+title: "Throttling en Nginx el algoritmo de la cubeta y parámetros"
 ---
+
+El throttling en Ngnix nos permite limitar el número de peticiones a un cierto usuario. Lo anterior es útil para prevenir peticiones excesivas por parte de un usuario que mantengan el sistema ocupado. Por otro lado, también es una manera de disuadir intentos de averiguar una contraseña por fuerza bruta o incluso ataques DDOS.
 
 {{<adsPanels>}}
 
 {{<ad0>}}
-
-El throttling en Ngnix nos permite limitar el número de peticiones a un cierto usuario. Lo anterior es útil para prevenir peticiones excesivas por parte de un usuario que mantengan el sistema ocupado. Por otro lado, también es una manera de disuadir intentos de averiguar una contraseña por fuerza bruta o incluso ataques DDOS.
 
 Si lo que buscas es optimizar el rendimiento de una aplicación que usa Nginx tengo una entrada donde te doy algunas [recomendaciones para mejorar el rendimiento de nginx.](/es/linux/nginx-keepalive-gzip-http2-mejor-rendimiento-en-tu-sitio-web/)
 
@@ -88,7 +88,7 @@ Eso está bastante bien, pero si nosotros hicieramos un request y en menos de 10
 
 En nuestro ejemplo colocamos que el límite máximo serán 10 requests por segundo, pero Nginx mide usando milisegundos (ms), por lo que, realmente, nuestro rate es 1r/100ms, es decir, un request cada 100 ms.
 
-### Burst
+### Parámetro Burst y su uso
 
 Pero ¿y si dos requests se efecutan, de manera normal, en menos de 100 ms? Así es, se perdería el segundo y esto puede no ser lo que queremos, a veces las aplicaciones hacen requests con pocos milisegundos de diferencia. La opción Burst se encarga de atenuar un poco nuestra estricta política de Throttling:
 
@@ -104,7 +104,7 @@ location /login/ {
 
 Pero, ahora estamos en otro aprieto, imagínate una cola al límite de su capacidad, con 20 peticiones. El penúltimo valor tendrá que esperar 1.8 segundos antes de ser despachado, mientras que el último tardará 2.0 segundos. ¡Es muchísimo!
 
-### Nodelay
+### Parámetro Nodelay y su uso
 
 Con el parámetro nodelay, Nginx marca como "ocupados" los espacios de la cola que definimos en burst, pero no se espera 100 ms para despachar cada uno, sino que los despacha tan rápido como puede y luego va liberando los espacios de la cola a un ritmo de 100 ms. Por lo que ahora los últimos elementos de la cola no esperarán a que transcurran segundos antes de ser procesados, sino que serán procesados inmediatamente, preservando aún el límite de requests.
 

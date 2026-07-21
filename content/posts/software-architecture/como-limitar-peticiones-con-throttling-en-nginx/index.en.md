@@ -1,6 +1,7 @@
 ---
 aliases:
 - /en/throttling-on-nginx/
+- /en/software-architecture/throttling-on-nginx/
 authors:
 - Eduardo Zepeda
 categories:
@@ -9,21 +10,21 @@ categories:
 coverImage: images/throttling_ngnix.jpg
 coverImagecredits: Credits to https://www.pexels.com/@amateur-photo-1700447
 date: '2021-03-13'
-seo_title: "Nginx Throttling: Rate Limiting Configuration"
+seo_title: "Nginx Throttling: Successful Rate Limiting Configuration"
 description: Learn to configure throttling in Nginx to protect your application from
   DDoS and brute force attacks by limiting requests.
 keywords:
 - nginx
 - performance
 - linux
-title: Throttling on Nginx
+title: "Throttling on Nginx: Basics, Bucket Algorithm and Parameters"
 ---
+
+Ngnix throttling allows us to limit the number of requests to a certain user. This is useful to prevent excessive requests from a user from keeping the system busy. On the other hand, it is also a way to deter brute force password attempts or even DDOS attacks.
 
 {{<adsPanels>}}
 
 {{<ad0>}}
-
-Ngnix throttling allows us to limit the number of requests to a certain user. This is useful to prevent excessive requests from a user from keeping the system busy. On the other hand, it is also a way to deter brute force password attempts or even DDOS attacks.
 
 If you are looking to optimize the performance of an application using Nginx I have a post where I give you some [recommendations to improve nginx performance](/en/linux/nginx-keepalive-gzip-http2-better-performance-on-your-website/)
 
@@ -85,7 +86,7 @@ That's all well and good, but if we make a request and in less than 100 ms we ma
 
 In our example we set the maximum limit to be 10 requests per second, but Nginx measures using milliseconds (ms), so our actual rate is 1r/100ms, i.e. one request every 100 ms.
 
-### Burst
+### Burst Parameter on Nginx
 
 But what if two requests are placed effectively in less than 100 ms? That's right, the second would be lost and this may not be what we want, sometimes applications make requests within a few milliseconds of each other. The Burst option takes care of mitigating our strict Throttling policy a bit:
 

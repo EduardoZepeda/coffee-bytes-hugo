@@ -12,7 +12,7 @@ categories:
 coverImage: images/django-select-related-prefetch-related.jpg
 coverImageCredits: 'Créditos de la imagen a ときわた: https://www.pixiv.net/en/users/5300811'
 date: '2022-03-09'
-seo_title: "select_related vs prefetch_related en Django"
+seo_title: "select_related vs prefetch_related principales diferencias en Django"
 description: Acelera tus queries en Django, comprensión de select_related y prefetch_related,
   sus diferencias, casos de uso y traducción a SQL.
 keyword: select_related y prefetch_related
@@ -24,7 +24,7 @@ keywords:
 - select_related
 - prefetch_related
 slug: /django/diferencias-entre-select-related-y-prefetch-related-en-django/
-title: Diferencias entre select_related y prefetch_related en Django
+title: Diferencias entre select_related y prefetch_related en Django Framework
 ---
 
 Los métodos de Django, *select_related* y *prefetch_related*, **se usan para reducir el número de queries que se realizan a la base de datos**. Lo anterior se traduce en tiempo de respuesta para cada vista. Además, usar estos métodos es una de las [acciones a implementar para mejorar el rendimiento de una aplicación de Django.](({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}}))

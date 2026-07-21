@@ -14,7 +14,7 @@ categories:
 coverImage: images/PersonalizandoElDjangoAdmin.jpg
 coverImageCredits: Créditos a https://www.pexels.com/@nic-livefeedpro/
 date: '2021-09-14'
-seo_title: "Personalizar el Django Admin Panel"
+seo_title: "Tutorial: Aprende A Personalizar el Django Admin Panel"
 description: Tutorial para modificar y personalizar el admin panel de Django, ordenar
   campos, omitir campos, cambiar la apariencia y mejorar la UI.
 keywords:

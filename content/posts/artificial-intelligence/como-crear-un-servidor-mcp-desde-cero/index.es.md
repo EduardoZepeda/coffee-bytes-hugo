@@ -6,7 +6,7 @@ categories:
 - javascript
 coverImage: images/mcp-server-and-mcp-tools.jpg
 date: '2025-07-23T18:00:32-06:00'
-seo_title: "Crear un Servidor MCP desde Cero: Tutorial Completo"
+seo_title: "Crear un Servidor MCP: Todo Lo Que Necesitas Saber"
 description: Tutorial paso a paso para crear un servidor MCP con herramientas personalizadas,
   conectarlo a LLMs y usar el inspector oficial de MCP.
 keyword: mcp server
