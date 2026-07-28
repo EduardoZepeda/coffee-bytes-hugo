@@ -193,6 +193,8 @@ Para finalizar este post, te comparto algunos recursos que puedes usar para apre
 
 Rust cuenta con su propia biblia, llamada ["The Rust book", disponible en múltiples idiomas](https://doc.rust-lang.org/book/appendix-06-translation.html), [español incluido](https://github.com/RustLangES/rust-book-es). El libro está muy bien explicado y es muy fácil de seguir, eso sí, es un poco largo, aunque es entendible dada la gran cantidad de conceptos a exponer.
 
+He compilado una versión del libro de Rust en Epub, por si quieres ahorrarte la tarea de descargar todo y compilar, puedes descargarlo en mi página [el libro de Rust en Español Epub]({{< ref path="/pages/el-libro-de-rust-epub-español/index.md" lang="es" >}})
+
 ### Educative
 
 Si leer un libro grueso no es tu estilo y prefieres una educación de primera, educative tiene [the ultimate guide to rust programming](https://www.educative.io/courses/ultimate-guide-to-rust-programming?aff=xkQr) por menos del precio de una comida bien servida.
