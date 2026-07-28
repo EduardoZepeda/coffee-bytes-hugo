@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-audience = "Web developers"
+audience = "Developers"
 author = "Eduardo Zepeda"
 baseURL = "https://coffeebytes.dev/"
 copyright = "© All rights reserved."
@@ -8,7 +8,7 @@ enableRobotsTXT = true
 googleAnalytics = ""
 ignoreLogs = ['warning-goldmark-raw-html']
 phAnalytics = ""
-postitle = "Web development blog"
+postitle = "Development blog"
 removePathAccents = true
 theme = "hugo-theme-latte"
 title = "Coffee bytes"
@@ -73,11 +73,11 @@ weight = 6
 GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
-audience = "Web developers"
+audience = "Developers"
 author = "Eduardo Zepeda"
-description = "My Full-stack Web development and linux blog with my opinions, tutorials, ideas and rants."
+description = "My Full-stack Development and linux blog with my opinions, tutorials, ideas and rants."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
-posTitle = "Web Development Blog"
+posTitle = "Development Blog"
 [languages.en.params.adSlots]
 slot0 = "8672022193"
 slot1 = "1124666671"
@@ -96,7 +96,7 @@ prePostAffiliateText = "Register on Digital Ocean and get FREE $200 USD"
 prePostAffiliateTitle = "A gift for my readers: Free USD credits (Valid for 60 days) on DO"
 subscribedescription = """
                           ✅ To access just subscribe to the newsletter, it's completely  <strong>completely free.</strong> <br>
-                          ✅ Over 400 registered developers. Tutoriales and my ideas on web dev every week, sometimes months, directly in your email, cero spam.
+                          ✅ Over 400 registered developers. Tutoriales and my ideas on Dev every week, sometimes months, directly in your email, cero spam.
                           """
 subscribetitle = "My Python tricks guide for Free"
 toc = true
@@ -162,11 +162,11 @@ MailerLiteAccount = "2325960"
 MailerLiteDataForm = "3wjRyd"
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 TelegramGroupLink = "+2X-P9bP8grU5MWVh"
-audience = "Web developers"
+audience = "Developers"
 author = "Eduardo Zepeda"
-description = "Mi Blog de Desarrollo Web Full-stack en Linux con mis opiniones, tutoriales, ideas and críticas."
+description = "Mi Blog de Desarrollo Full-stack en Linux con mis opiniones, tutoriales, ideas and críticas."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
-posTitle = "Web Development Blog"
+posTitle = "Development Blog"
 [languages.es.params.adSlots]
 slot0 = "8672022193"
 slot1 = "1124666671"
