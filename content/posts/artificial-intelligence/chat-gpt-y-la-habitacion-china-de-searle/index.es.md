@@ -3,6 +3,7 @@ aliases:
 - /chat-gpt-y-la-habitacion-china-de-searle
 - /chat-gpt-la-habitacion-china-de-searle-y-la-consciencia
 - /es/chat-gpt-la-habitacion-china-de-searle-y-la-consciencia/
+- /es/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/
 - /es/artificial-intelligence/chat-gpt-la-habitacion-china-de-searle-y-la-conciencia/
 authors:
 - Eduardo Zepeda
