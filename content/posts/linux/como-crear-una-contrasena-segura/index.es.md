@@ -16,7 +16,7 @@ description: Aprende a crear contraseñas seguras que protejan tus cuentas de ha
 keywords:
 - linux
 - opinion
-slug: /linux/como-crear-una-contrasena-segura/
+slug: /linux/como-crear-una-contrasena-indescifrable/
 title: ¿Cómo crear una contraseña segura a prueba de hackers?
 ---
 
