@@ -97,6 +97,8 @@ There is a delirium in society, AI will undoubtedly bring advances, and hopefull
 
 Despite having such astonishing cases like the [GitLab CEO who cured his cancer](https://www.youtube.com/watch?v=OAlHiQLsYQM) or the [creation of an RNA vaccine to save a dog from cancer by Paul S. Conyngham](https://x.com/paul_conyngham/status/2036940410363535823), AGI is still far away.
 
+### Prompt engineering skills are not the problem, but LLM's core functionality
+
 "You just didn't use the correct prompt", "you used the wrong model", "AI did it better from the beginning". I've used AI enough to know it's not that simple. You need to iterate a lot, you need to be super specific and detailed. AI is useful, but it's not magical. The non-determinism that characterizes the models doesn't always work in your favor, sometimes the same prompt style works and other times it doesn't.
 
 It is precisely its non-deterministic nature that allows it, at the same time, a high capacity for adaptation, but makes it unpredictable and discards it for tasks that require repeatability and millimeter precision. Using it is not wrong in any way, depending on it and glorifying it is.
@@ -105,7 +107,7 @@ It is precisely its non-deterministic nature that allows it, at the same time, a
 
 Everything I wrote is just to express my displeasure at the idea of treating AI as a deity. Doing so brings [megalomaniacal delusions](https://edition.cnn.com/2025/09/05/tech/ai-sparked-delusion-chatgpt) and other [very serious problems](https://www.bbc.com/news/articles/ce3xgwyywe4o), that seem taken from a novel co-written by William Gibson and Clive Barker.
 
-We must not glorify matrix algorithms, no matter how sophisticated they are. AI is nothing more than a mathematical model that predicts the most convenient token, convenient, yes, but just that.
+We must not glorify matrix algorithms, no matter how sophisticated they are. AI is nothing more than a mathematical model that predicts the most probable token, convenient, yes, but just that.
 
 Have you tried playing chess against ChatGPT? Or have you seen [how AI fails miserably at Winograd schemas](https://www.scielo.cl/scielo.php?pid=S0718-09342025000300451&script=sci_arttext&tlng=en) as soon as you move away from the most popular ones? Have you read the code it generates or its low-level proposals? It's right there where its inability to reason becomes evident.
 

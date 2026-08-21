@@ -58,7 +58,7 @@ Inclusive, algunas compañias ya abandonaron la idea de reemplazar desarrollador
 
 Consideremos las puntuaciones del último examen de la Humanidad, como pueden ver estamos alrededor del ~30%, **lo cual es francamente mucho, no creo que hayamos estado de un avance tan significativo como este**, solo pensar en las posibilidades me hace temblar, pero los inversores y los medios de comunicación clickbait están tratando de convencerlos de que estamos alrededor del 100%, lo cual es una falacia de tamaño descomunal.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg" alt="Humanity's last exam score" caption=""  width="570" height="540" >}}.
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1787342681/coffee-bytes/humanity-last-exam_jytwfz.jpg" alt="Humanity's last exam score" caption=""  width="360" height="341" >}}.
 
 No te confundas, estos valores son increíbles, **pero no son la panacea que venden los medios y los inversores.**
 

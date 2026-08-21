@@ -26,8 +26,8 @@ Hoy la AI me creo una función de 120 lineas, totalmente funcional y sin errores
 
 Pareciera que estamos en la época de la santa inquisición, es imposible poner en evidencia la imperfección de la AI sin que un ejercito de inquisidores digitales te increpe por hereje. 
 
-Comentarios tan simples como: "prefiero dibujar a mano", "la AI no lo hizo bien así que lo hice yo", "el arte de AI no puede ser protegido por las leyes de propiedad intelectual" desencadenan un torrente de insultos en los que te tildan de ludita, anti-progreso y/o negacionista de los avances tecnológicos, 
-,
+Comentarios tan simples como: "prefiero dibujar a mano", "la AI no lo hizo bien así que lo hice yo", "el arte de AI no puede ser protegido por las leyes de propiedad intelectual" desencadenan un torrente de insultos en los que te tildan de ludita, anti-progreso y/o negacionista de los avances tecnológicos.
+
 La última vez que lo presencié, fue en una publicación de Instagram. Una diseñadora gráfica defendía su capacidad de creación de logos en un reel. Comparaba sus logos con los de la AI. En minutos la sección de comentarios se llenó de adolescentes (Sí, soy un chismoso y vi sus fotos de perfil). Sus comentarios buscaban invertir su conclusión, afirmando que, al contrario de lo que la autora decía, era ella quien había sido "papeada" por la AI, y no al revés.
 
 Yo estoy de acuerdo con la creadora del reel. Indudablemente el trabajo de la diseñadora era superior. El [arte se ha considerado una cuestión subjetiva, incluso en tiempos de AI]({{< ref path="/posts/artificial-intelligence/la-ai-se-percibe-de-manera-diferente-entre-artistas-y-devs/index.md" lang="es" >}}), pero en este caso no se trataba de arte puro, sino de diseño, lo cual implica la necesidad de comunicación y la autora del reel lo hacía mucho mejor que la AI. 
@@ -96,9 +96,11 @@ Hay un delirio en la sociedad, la AI va a traer avances indudablemente, y ojalá
 
 A pesar de tener casos tan asombrosos como el del [CEO de Gitlab que se curó del cancer](https://www.youtube.com/watch?v=OAlHiQLsYQM) o la [creación de una vacuna RNA para salvar a un perro de cancer por Paul S. Conyngham](https://x.com/paul_conyngham/status/2036940410363535823), la AGI aún está lejos. 
 
+### Las habilidades de Prompt engineering no son el problema
+
 "Es que no usaste el prompt correcto", "usaste el modelo incorrecto", "la AI lo hizo mejor desde el principio". He usado AI lo suficiente para saber que no es tan sencillo. Toca iterar mucho, toca ser super específico y detallado. La AI es útil, pero no es mágica. El no determinismo que caracteriza a los modelos no siempre juega a favor, a veces un mismo estilo de prompt funciona y otras veces no. 
 
-Justamente es su naturaleza no determinista la que le permite, al mismo tiempo, una alta capacidad de adaptación, pero la vuelve impredecible y la descarta para tareas que exigen repetibilidad y precisión milimétrica. Usarla no está de ninguna manera mal, depender de ella y glorificarla sí.
+Justamente es su naturaleza no determinista la que le permite, al mismo tiempo, una alta capacidad de adaptación, pero la vuelve impredecible y la descarta para tareas que exigen repetibilidad y precisión milimétrica. Usarla no está de ninguna manera mal, depender de ella en gran medida y glorificarla cual deidad sí.
 
 ## Los límites actuales de la AI
 

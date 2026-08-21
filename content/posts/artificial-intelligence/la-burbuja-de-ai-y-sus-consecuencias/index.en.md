@@ -58,7 +58,7 @@ In fact, some companies have already abandoned the idea of replacing developers 
 
 Let's consider the scores from Humanity's last exam. As you can see, we're at around ~30%, **which is frankly a lot—I don't believe we've seen such a significant breakthrough in a long time**. Just thinking about the possibilities makes me tremble. But investors and clickbait media are trying to convince you that we're at around 100%, which is a fallacy of enormous magnitude.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1754517008/coffee-bytes/humanity-last-exam-x1080_qhksix.jpg" alt="Humanity's last exam score" caption=""  width="570" height="540" >}}.
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1787342681/coffee-bytes/humanity-last-exam_jytwfz.jpg" alt="Humanity's last exam score" caption="" width="360" height="341" >}}.
 
 Don't get me wrong, these scores are impressive, **but they're not the magic bullet that media and investors promote.**
 
