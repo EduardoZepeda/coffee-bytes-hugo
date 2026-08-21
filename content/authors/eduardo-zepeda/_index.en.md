@@ -2,13 +2,13 @@
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1751669772/coffee-bytes/ed-zepeda-250_khvdod.jpg'
-summary: "Just call me Ed. Web developer and Linux (GNU/Linux) preacher. I like boring and predictable frameworks, the more opinionated and less boilerplate the better. I think Django is the best framework for MVPs. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
+summary: "Just call me Ed. developer and Linux (GNU/Linux) preacher. I like boring and predictable frameworks, the more opinionated and less boilerplate the better. I think Django is the best framework for MVPs. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
 threads: "zeedu.dev"
 github: "EduardoZepeda"
 instagram: "zeedu.dev"
 linkedin: "eduardomzepeda"
 website: "https://zeedu.dev"
-jobTitle: "Web developer"
+jobTitle: "Developer"
 ---
 
 ## A little bit more about me

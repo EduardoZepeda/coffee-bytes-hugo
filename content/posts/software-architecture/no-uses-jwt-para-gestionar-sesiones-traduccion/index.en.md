@@ -126,7 +126,7 @@ Nonsense. Every mobile browser in use supports cookies, and therefore sessions. 
 
 Unlikely. Users don't just block cookies, they typically block all means of persistence. Which includes Local Storage, and any other storage mechanism that would allow persistence of a session (with or without using JWT). Whether you use JWT simply doesn't matter here, it's a completely unrelated problem - and trying to get authentication to work without cookies is a lost cause.
 
-In addition to the above, users who block all cookies typically understand that this will break authentication functionality for them, and individually unblock cookies for sites they care about. It's simply not a problem that you, as a web developer, need to solve; a better solution is to explain to your users why your site requires cookies to function.
+In addition to the above, users who block all cookies typically understand that this will break authentication functionality for them, and individually unblock cookies for sites they care about. It's simply not a problem that you, as a developer, need to solve; a better solution is to explain to your users why your site requires cookies to function.
 
 ## Disadvantages
 

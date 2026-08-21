@@ -11,7 +11,7 @@ github: "EduardoZepeda"
 instagram: "zeedu.dev"
 linkedin: "eduardomzepeda"
 website: "https://zeedu.dev"
-jobTitle: "Web developer"
+jobTitle: "Developer"
 ---
 
 ## Más información sobre Eduardo Zepeda

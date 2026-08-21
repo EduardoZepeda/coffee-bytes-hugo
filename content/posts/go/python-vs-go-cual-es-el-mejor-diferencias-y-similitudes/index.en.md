@@ -443,7 +443,7 @@ Performance tests for Python (purple) and Go frameworks (green)
 
 ### Web frameworks in Python
 
-While in Python we already have some well proven solutions, solutions, characterized by being very stable and with an answer for almost all the needs of a web and with an answer for almost all the needs of a web developer and that, in addition, support very popular sites with huge traffic, like pinterest or instagram. instagram.
+While in Python we already have some well proven solutions, solutions, characterized by being very stable and with an answer for almost all the needs of a web and with an answer for almost all the needs of a developer and that, in addition, support very popular sites with huge traffic, like pinterest or instagram. instagram.
 
 Among the frameworks [Django, one of the favorite frameworks of Python]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}})
 

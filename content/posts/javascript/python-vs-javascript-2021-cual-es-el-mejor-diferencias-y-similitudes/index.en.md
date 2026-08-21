@@ -396,4 +396,4 @@ If you need to start developing websites now, without complications, I would go 
 
 If you want to get into machine learning and data analysis, or you want a more comprehensive solution on websites and more flexibility, I would go for Python.
 
-Either way you don't have to reduce everything to a dichotomy, if you have time to dedicate to both you can do it, many web developers master multiple languages and use them interchangeably according to their needs.
+Either way you don't have to reduce everything to a dichotomy, if you have time to dedicate to both you can do it, many developers master multiple languages and use them interchangeably according to their needs.
