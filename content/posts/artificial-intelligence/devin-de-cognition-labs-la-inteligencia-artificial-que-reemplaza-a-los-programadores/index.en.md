@@ -3,6 +3,7 @@ aliases:
 - /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers
 - /en/devin-ai-will-this-ai-replace-programmers/
 - /en/devin-from-cognition-labs-the-artificial-intelligence-that-wants-to-replace-programmers/blog/chat-gpt-searles-chinese-room-and-consciousness/
+- /en/devin-ai-the-supposed-replacement-for-programmers/
 authors:
 - Eduardo Zepeda
 categories:

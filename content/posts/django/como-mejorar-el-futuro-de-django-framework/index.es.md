@@ -17,7 +17,7 @@ keywords:
 - python
 - reddit
 - opinion
-slug: /es/opinion/como-mejorar-django-framework/
+slug: /opinion/como-mejorar-django-framework/
 title: ¿Cómo Mejorar Django Framework De Acuerdo a Reddit?
 ---
 

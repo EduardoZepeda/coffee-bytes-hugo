@@ -2,6 +2,7 @@
 aliases:
 - /en/how-to-improve-django-framework/
 - /en/opinion/how-to-improve-django-framework/
+- /en/django/how-to-improve-django-framework/
 authors:
 - Eduardo Zepeda
 categories:

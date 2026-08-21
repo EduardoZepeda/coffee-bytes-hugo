@@ -2,6 +2,8 @@
 aliases:
 - /django-annotate-y-aggregate-explicados//1000
 - /en/django-annotate-and-aggregate-explained/
+- /en/django-annotate-and-aggregate-expl
+- /en/django-annotate-and-aggregate
 authors:
 - Eduardo Zepeda
 categories:
