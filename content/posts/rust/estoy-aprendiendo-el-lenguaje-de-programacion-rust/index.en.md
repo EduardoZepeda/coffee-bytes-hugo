@@ -216,10 +216,16 @@ The channel [Let's get Rusty](https://www.youtube.com/@letsgetrusty) also has so
 
 Rustlings contains a [series of exercises to learn and practice Rust](https://github.com/rust-lang/rustlings#?) while reading the Rust book.
 
-
 When you finish all Rustling's exercises you receive this amazing prize.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="Rustling's reward after finishing all exercises" caption="Rustling's reward after finishing all exercises"  width="626" height="618" >}}
+
+## Best way to learn Rust in my opinion
+
+Right now after reading a couple of books on Rust and practicing a little bit here are my insights on the best way to learn Rust Programming Language
+- If you're new to programming, read [The Rust Book](https://doc.rust-lang.org/book/)
+- If you already know one low-level programming language, read the book [Easy Rust](https://dhghomon.github.io/easy_rust/) or [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+- If you come from a language like Javascript or Python see the latter point and complement your knowledge with the Youtube channels that I mentioned in the last section.
 
 ## Rust is not so hard to learn
 

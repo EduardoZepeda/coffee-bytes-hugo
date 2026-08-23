@@ -221,6 +221,13 @@ Rustlings contiene una [serie de ejercicios para aprender y praticar Rust](https
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1729807555/Rustling-success_vgyva3.png" class="md-local-image" alt="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art" caption="La recompensa que te ofrece Rustling al terminar todos los ejercicios, cangrejo en pixel art"  width="626" height="618" >}}
 
+## La mejor manera de aprender Rust en mi opinión
+
+Tras haber leído un par de libros sobre Rust y haber practicado un poco, estas son mis conclusiones sobre la mejor manera de aprender el lenguaje de programación Rust:
+- Si eres principiante en programación, lee [The Rust Book](https://doc.rust-lang.org/book/).
+- Si ya conoces algún lenguaje de programación de bajo nivel, lee el libro [Easy Rust](https://dhghomon.github.io/easy_rust/) o [Comprehensive Rust](https://google.github.io/comprehensive-rust/).
+- Si vienes de un lenguaje como JavaScript o Python, consulta el punto anterior y complementa tus conocimientos con los canales de YouTube que mencioné en la última sección.
+
 ## Rust no es tan difícil de aprender
 
 Rust no es exageradamente difícil, hay lenguajes más complicados o que requieren un completo cambio de paradigma para programar en ellos, como Haskell, por ejemplo. 
