@@ -12,9 +12,7 @@ categories:
 coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
 seo_title: "Worker Pool Pattern in Go: Concurrency Guide"
-description: Learn the worker pool design job queues, concurrency and
-  handling heavy workloads efficiently using the interactive playground
-keyword: worker pool
+description: Gain a much better understanding of the worker pool pattern by using this interactive, real-time simulator; play around with the parameters and see how a queue is dispatched visually
 keywords:
 - Go
 - Design patterns
@@ -25,6 +23,8 @@ keywords:
 - algorithms
 title: "Worker Pool Design Pattern: Interactive Playground"
 ---
+
+I've expanded this post and created an interactive, real-time visual simulator so you can better understand how the worker pool design pattern behaves. You'll be able to adjust parameters such as the number of workers, failure rate, etc., to see how a queue is processed in real time and fully understand the purpose of this pattern.
 
 This entry is about a the Worker Pool design pattern. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.
 

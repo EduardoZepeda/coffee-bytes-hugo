@@ -6,8 +6,7 @@ categories:
 - databases
 coverImage: "images/trie-trees-data-structure.jpg"
 seo_title: "Trie Tree: Interactive Data Structure Simulator"
-description: Interactive Trie Tree simulator, add, delete words and see changes reflected
-  in real time on this data structure visualization.
+description: Use this Interactive Trie Tree simulator to get a better understanding of this data structure, add, delete words and see changes reflected in real time.
 keyword: 'trie tree'
 keywords:
 - 'trie tree'
@@ -19,7 +18,7 @@ authors:
 - 'Eduardo Zepeda'
 ---
 
-The other day I was reading the second part of [System Design Interview](https://amzn.to/4nsgK0V#?), or was it the first? and I recall that the author was using a trie tree to design a autosuggestion search, like the one on Google. I never heard of that data structure before so I decided to build a visual simulator so you can understand it faster and better.
+The other day I was reading the second part of [System Design Interview](https://amzn.to/4nsgK0V#?), or was it the first? and I recall that the author was using a trie tree to design a autosuggestion search, like the one on Google. I never heard of that data structure in such a detailed way, so I had a hard time trying to understand the overall internals, after I did I decided to create a Visual Trie Tree simulator that other people could use to understand it better, because reading about it may not be the same as visualizing it and playing with it in real time, and this post is the result of this.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757735868/coffee-bytes/google-suggestion-trie-tree_n7a45w.png" class="md-local-image" alt="Google search suggestion using a trie tree"  width="911" height="427" >}}
 

@@ -6,8 +6,7 @@ categories:
 - databases
 coverImage: "images/trie-trees-data-structure.jpg"
 seo_title: "Trie Tree: Simulador Visual de Estructura de Datos"
-description: Simulador interactivo de Trie Tree, añade, elimina palabras y observa los
-  cambios en esta estructura de datos en tiempo real.
+description: Usa este Simulador interactivo de Trie Tree para entender mejor esta estructura de datos; añade, elimina palabras y observa los cambios en tiempo real.
 keyword: 'trie tree'
 keywords:
 - 'trie tree'
@@ -20,7 +19,7 @@ authors:
 slug: /software-architecture/cree-un-simulador-visual-de-un-trie-tree/
 ---
 
-El otro día estaba leyendo la segunda parte de [System Design Interview](https://amzn.to/4nsgK0V#?), ¿o era la primera? y recuerdo que el autor usaba un trie tree para diseñar un buscador con autocompletado estilo Google. Nunca había escuchado de esa estructura de datos, así que decidí crear un simulador visual para que lo entiendas más rápido y mejor.
+El otro día estaba leyendo la segunda parte de [System Design Interview](https://amzn.to/4nsgK0V#?), ¿o era la primera? y recuerdo que el autor usaba un trie tree para diseñar un buscador con autocompletado estilo Google. Nunca había oído hablar de esa estructura de datos con tanto detalle, así que me costó bastante entender su funcionamiento interno en su conjunto; una vez que lo conseguí, decidí crear un simulador visual del árbol Trie que otras personas pudieran utilizar para comprenderlo mejor, ya que leer sobre ello puede no ser lo mismo que visualizarlo y experimentar con él en tiempo real, y esta entrada es el resultado de ello.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1757735868/coffee-bytes/google-suggestion-trie-tree_n7a45w.png" class="md-local-image" alt="Google search suggestion using a trie tree"  width="911" height="427" >}}
 

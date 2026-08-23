@@ -13,8 +13,7 @@ coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Créditos de la imagen a i7 de Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'
 seo_title: "Debounce y Throttle en JavaScript: Explicación Visual"
-description: Explicación interactiva de debounce y throttle en JavaScript con ejemplos
-  visuales. Aprende a limitar la ejecución de funciones en eventos.
+description: Usa este simulador interactivo y en tiempo real de los patrones Debounce and Throttle para profundizar en estos patrones, verlos y comparar su funcionamiento en tiempo real.
 keywords:
 - javascript
 - patrones de diseño
@@ -24,7 +23,7 @@ slug: /javascript/explicacion-interactiva-de-debounce-y-throttle/
 title: Debounce vs Throttle Demo Interactiva y Explicacion
 ---
 
-Hagamos una explicación interactiva de debounce vs throttle, donde puedas ver las diferencias entre estos [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) de una manera más visual. 
+Al principio me costó entender estas estructuras de datos, a pesar de que había leído y escrito sobre ellas, así que pensé: «¿Por qué no crear un simulador visual que compare los [patrones de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) «debounce» con el «throttle» y que sirva para ver las diferencias entre estas estructuras de datos? De esta forma, yo (y otras personas) podremos entenderlas mejor, en lugar de limitarnos a leer sobre ellas». Este simulador visual es perfecto para interactuar con las estructuras y comparar su comportamiento en tiempo real.
 
 Debounce y Throttle son usados para limitar la ejecución de funciones, generalmente son utilizados para restringir la cantidad de veces que un evento se dispara: eventos click, scroll, resize u otros. Los patrones no son exclusivos de Javascript; en una entrada anterior te explique como usar throttle para [limitar la cantidad de requests que recibe el servidor nginx.]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="es" >}})
 

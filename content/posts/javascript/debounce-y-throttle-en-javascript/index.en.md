@@ -13,8 +13,7 @@ coverImage: images/BounceYThrottleJavascript.jpg
 coverImageCredits: 'Image credits to i7 from Pixiv: https://www.pixiv.net/en/users/54726558'
 date: '2022-03-23'
 seo_title: "Debounce vs Throttle in JavaScript Interactive Explanation"
-description: Interactive visual explanation of debounce and throttle patterns in JavaScript.
-  Learn to limit function execution with practical examples.
+description: Use this interactive, real-time simulator of the Debounce and Throttle patterns to explore these patterns in depth, view them, and compare how they work in real time.
 keyword: debounce vs throttle
 keywords:
 - javascript
@@ -24,7 +23,9 @@ keywords:
 title: Debounce vs Throttle Interactive Visual Guide And Live Demo
 ---
 
-I thought let's do a Debounce vs Throttle. Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. This patterns are not exclusive to Javascript and can be used in any language or can be used as high level abstractions; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="en" >}}).
+At fist I got confused about these data structures, even though I've read and wrote about them, so I thought: let's extend this post and do a Debounce vs Throttle visual simulator that can be used to see the differences between these data structures, that way I (and other people) can understand them better instead of just reading about them. This visual simulator is perfect to interact with the structures and compare their behavior in real time.
+
+Debounce and throttle are [design patterns]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) used to limit the execution of functions, generally they are used to restrict the amount of times an event is fired: click, scroll, resize or other events. This patterns are not exclusive to Javascript and can be used in any language or can be used as high level abstractions; in a previous post I explained how to use throttle to [limit the number of requests received by the nginx server]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="en" >}}).
 
 Both patterns generate a function that receives a callback and a timeout or delay. 
 

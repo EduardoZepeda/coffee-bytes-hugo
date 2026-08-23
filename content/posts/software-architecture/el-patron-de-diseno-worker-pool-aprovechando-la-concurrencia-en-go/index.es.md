@@ -13,8 +13,7 @@ categories:
 coverImage: images/worker-pool-patron.jpg
 date: '2023-06-28'
 seo_title: "Worker Pool en Go: Patrón de Concurrencia"
-description: Aprende el patrón worker pool en Go, cola de tareas, concurrencia y cómo
-  manejar cargas de trabajo pesadas eficientemente.
+description: Entiende mucho mejor el patrón worker pool usando este simulador interactivo en tiempo real; juega con los parámetros y ve como despachan una cola de manera visual
 keyword: worker pool
 keywords:
 - Go
@@ -28,7 +27,9 @@ slug: /software-architecture/explicacion-del-patron-de-diseno-worker-pool/
 title: "Worker Pool: Demo interactiva y Patrón de diseño explicado"
 ---
 
-Esta entrada va sobre un patrón de diseño, llamado Worker Pool (Piscina de workers o trabajadores suena espantoso, lo usaré en inglés) del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.
+Extendí esta entrada y cree un simulador visual interactivo en tiempo real para que puedas entender mucho mejor como se comporta el patrón de diseño worker pool, podrás variar los parámetros como número de workers, tasa de fallo, etc. para que veas como despachan una cola en tiempo real y entiendas perfectamente el proppósito de este patrón.
+
+Como te decía, esta entrada va sobre un patrón de diseño, llamado Worker Pool (Piscina de workers o trabajadores suena espantoso, lo usaré en inglés) del que, en su momento, encontré muy poca información en español. Imagínate que tienes una serie de tareas concurrentes que quieres realizar, ya sea realizar crawling de muchos sitios web, o quizás procesar información de cada uno de los pixeles de una imagen o cualquier otra cosa que se te ocurra.
 
 {{<box link="/es/pages/go-programming-language-tutorial/" image="https://res.cloudinary.com/dwrscezd2/image/upload/v1717959563/Go_gopher_favicon_uzxa20.svg" type="info" message="¡Hola! ¿Ya sabes que tengo un tutorial completo del lenguaje de programación Go completamente gratis?, puedes encontrarlo directamente en la barra del menú superior o haciendo clic en este panel">}}
 

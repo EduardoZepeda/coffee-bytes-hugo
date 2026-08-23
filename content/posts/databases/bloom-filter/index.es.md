@@ -8,8 +8,7 @@ categories:
 - software architecture
 coverImage: "images/bloom-filter-visual-simulator.jpg"
 seo_title: "Bloom Filter: Qué es y Cómo Funciona con Ejemplos"
-description: Aprende qué es un Bloom Filter, sus aplicaciones en bases de datos y usa
-  el simulador visual para entender cómo funciona internamente.
+description: Usa este simulador de Bloom Filter para entender mejor esta estructura de datos; comprende porque es tan rápido y produce falsos positivos pero no negativos
 keyword: 'bloom filter'
 keywords:
 - 'database'
@@ -21,7 +20,10 @@ authors:
 slug: /databases/construi-un-simulador-visual-de-un-bloom-filter/
 ---
 
+Cree un simulador visual de un bloom filter que seguramente te ayudará a comprender mejor esta estructura de datos en comparación con solo leer sobre ella; entenderás porqué es tán rápido al buscar elementos, y como puede producir falsos positivos, pero jamás un falso negativo, por lo que es ideal para revisar la pertenencia a un grupo, sin perder velocidad, cuando las cantidades se vuelven astronómicas.
+
 Supongamos que quieres comprobar si un dato pertenece a un conjunto más grande. Digamos que eres Google y quieres revisar si cierta url ha sido marcada como spam. El enfoque más tonto sería iterar sobre cada url marcada como spam para ver si la encuentras. Tal vez pienses: “Guardo los sitios spam en un hashmap”, pero entonces, ¿un hashmap con los millones de sitios que existen en internet? Debe existir una forma que use menos espacio.
+
 
 {{< instagram DN3v9WD2CQC >}}
 

@@ -6,8 +6,8 @@ categories:
 - software architecture
 coverImage: "images/bloom-filter-visual-simulator.jpg"
 seo_title: "Bloom Filter Explained with Visual Simulator"
-description: Learn what a Bloom Filter is, how it accelerates set membership checks,
-  and use the visual simulator to understand false positives.
+description: Use this Bloom Filter simulator to understand this data structure better; see how it accelerates set membership checks,
+  and understand why it produces false positives.
 keyword: 'bloom filter'
 keywords:
 - 'database'
@@ -17,6 +17,8 @@ keywords:
 authors:
 - 'Eduardo Zepeda'
 ---
+
+I created a visual simulator of a bloom filter—it will surely help you better understand this data structure than simply reading about it. You’ll understand why it’s so fast at searching for elements and how it can produce false positives, but never a false negative, making it ideal for checking membership in a group without sacrificing speed when the numbers become astronomical.
 
 Suppose you want to check whether a piece of data belongs to a larger set. Let's say you're Google and you want to check if certain url has been marked as spam, the dumb approach would be to iterate over every url marked as spam to see if you can find it. Sure, maybe you think, "I'll save the spammy sites in a hashmap", but then, a hashmap of the gazillion sites that exists in the internet? There must be a way that uses less space.
 
