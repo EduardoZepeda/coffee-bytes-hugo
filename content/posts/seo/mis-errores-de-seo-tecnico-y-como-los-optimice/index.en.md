@@ -9,7 +9,7 @@ categories:
 - opinion
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
-seo_title: "Technical SEO Mistakes When Migrating from WordPress"
+seo_title: "My Technical SEO Mistakes When Migrating from WordPress"
 description: My technical SEO mistakes migrating from WordPress to Hugo, what I did wrong,
   what I did right and lessons learned.
 keywords:

@@ -7,7 +7,7 @@ categories:
 - opinion
 coverImage: images/analysis-of-some-type-of-captchas.jpg
 date: '2024-05-18T23:03:15-06:00'
-seo_title: "CAPTCHA Analysis: Security vs User Experience"
+seo_title: "My Analysis of most popular anti-bot captchas"
 description: Complete analysis of anti-bot captchas, Google reCAPTCHA, sliders and more.
   Pros, cons and security levels compared.
 keywords:

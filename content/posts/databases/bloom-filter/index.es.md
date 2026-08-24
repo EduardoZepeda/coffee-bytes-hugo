@@ -7,7 +7,7 @@ categories:
 - databases
 - software architecture
 coverImage: "images/bloom-filter-visual-simulator.jpg"
-seo_title: "Bloom Filter: Qué es y Cómo Funciona con Ejemplos"
+seo_title: "Cree Un Simulador De Un Bloom Filter Para Ti"
 description: Usa este simulador de Bloom Filter para entender mejor esta estructura de datos; comprende porque es tan rápido y produce falsos positivos pero no negativos
 keyword: 'bloom filter'
 keywords:

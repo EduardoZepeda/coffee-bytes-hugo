@@ -7,7 +7,7 @@ categories:
 - opinion
 coverImage: images/analysis-of-some-type-of-captchas.jpg
 date: '2024-05-18T23:03:15-06:00'
-seo_title: "Captchas: Análisis de Tipos, Seguridad y Usabilidad"
+seo_title: "Mi análisis de los diferentes tipos de Captchas que existen"
 description: Análisis completo de captchas anti-bots, Google reCAPTCHA, sliders y más.
   Ventajas, desventajas y nivel de seguridad.
 keywords:

@@ -20,6 +20,7 @@ keywords:
 - protocol
 - http
 title: 'Stream your videos and audios: HLS for your applications'
+seo_title: 'I explain you how to stream videos and audios using HLS'
 url: :sections[last]/stream-your-videos-and-audios-a-simple-introduction-to-streaming-with-hls-for-your-applications
 ---
 

@@ -4,7 +4,7 @@ title: 'Mi experiencia usando n8n y mi opinión'
 categories:
 - n8n
 coverImage: "images/n8n-mi-impresion-y-opinion.jpg"
-seo_title: "n8n Reseña: Mi Experiencia Después de Medio Año"
+seo_title: "n8n Reseña: Mi Experiencia Después de Medio Año Usándolo"
 description: Opinión honesta sobre n8n después de usarlo半年, automatizaciones, ventajas,
   desventajas y si realmente vale la pena para automatizar procesos.
 keyword: 'n8n'

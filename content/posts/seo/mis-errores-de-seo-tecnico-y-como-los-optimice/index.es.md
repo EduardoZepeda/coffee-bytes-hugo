@@ -9,7 +9,7 @@ categories:
 - opinion
 coverImage: images/automation-and-intellectual-property-developers.jpg
 date: 2024-04-27 19:49:56
-seo_title: "Errores de SEO Técnico al Migrar de WordPress"
+seo_title: "Mis Errores de SEO Técnico al Migrar desde WordPress"
 description: Mis errores de SEO técnico al migrar de WordPress a Hugo, qué hice mal,
   qué hice bien y qué aprendí del proceso.
 keywords:

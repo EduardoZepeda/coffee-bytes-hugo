@@ -22,6 +22,7 @@ keywords:
 - protocol
 - http
 slug: /linux/stremea-tus-videos-y-audios-una-introduccion-sencilla-al-streaming-con-hls-para-tus-aplicaciones/
+seo_title: 'Te explico como hacer streaming de videos y audios usando HLS'
 title: 'Stremea tus videos y audios: HLS para tus aplicaciones'
 ---
 

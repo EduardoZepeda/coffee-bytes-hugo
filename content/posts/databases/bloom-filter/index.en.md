@@ -5,7 +5,7 @@ categories:
 - databases
 - software architecture
 coverImage: "images/bloom-filter-visual-simulator.jpg"
-seo_title: "Bloom Filter Explained with Visual Simulator"
+seo_title: "I Made a Bloom Filter Visual Simulator For You"
 description: Use this Bloom Filter simulator to understand this data structure better; see how it accelerates set membership checks,
   and understand why it produces false positives.
 keyword: 'bloom filter'

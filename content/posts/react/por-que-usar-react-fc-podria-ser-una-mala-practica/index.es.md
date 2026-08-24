@@ -13,7 +13,7 @@ categories:
 - opinion
 coverImage: images/react-fc-mala-practica.jpg
 date: '2022-02-23'
-seo_title: "¿Por Qué No Usar React.FC? Mala Práctica"
+seo_title: "¿Por Qué No Deberías Usar React.FC? Es Una Mala Práctica"
 description: Usar React.FC puede ser mala práctica, problemas con TypeScript, manejo
   ambiguo de children y mejores alternativas para tipar componentes.
 keywords:
