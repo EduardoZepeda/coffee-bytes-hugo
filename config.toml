@@ -75,7 +75,7 @@ GoogleTagManager = ""
 PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 audience = "Developers"
 author = "Eduardo Zepeda"
-description = "My Full-stack Development and linux blog with my opinions, tutorials, ideas and rants."
+description = "A human written development and linux blog, expect opinions, tutorials, ideas and rants."
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 posTitle = "Development Blog"
 [languages.en.params.adSlots]
@@ -164,7 +164,7 @@ PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
 TelegramGroupLink = "+2X-P9bP8grU5MWVh"
 audience = "Developers"
 author = "Eduardo Zepeda"
-description = "Mi Blog de Desarrollo Full-stack en Linux con mis opiniones, tutoriales, ideas and críticas."
+description = "Blog de desarrollo y Linux escrito con las opiniones, tutoriales, ideas y críticas de un humano"
 excludeKindFromSitemap = ["section", "term", "taxonomy"]
 posTitle = "Development Blog"
 [languages.es.params.adSlots]
