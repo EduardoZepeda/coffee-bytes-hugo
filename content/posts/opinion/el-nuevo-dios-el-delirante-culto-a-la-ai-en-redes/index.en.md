@@ -29,7 +29,7 @@ Simple comments like: "I prefer to draw by hand", "AI didn't do it right so I di
 
 The last time I witnessed it, was on an Instagram post. A graphic designer was defending her ability to create logos in a reel. She was comparing her logos with those of AI. Within minutes the comment section filled with teenagers (Yes, I saw their profile pictures). Their comments sought to invert her conclusion, affirming that, contrary to what the author said, it was she who had been "fooled" by AI, and not the other way around.
 
-[Art has been considered a subjective matter, even in AI times]({{< ref path="/posts/artificial-intelligence/la-ai-se-percibe-de-manera-diferente-entre-artistas-y-devs/index.md" lang="es" >}}), but in this case it's not about pure art, but about design, which implies the need for communication. I agree with the creator of the reel. Undoubtedly her work was superior.
+[Art has been considered a subjective matter, even in AI times]({{< ref path="/posts/artificial-intelligence/la-ai-se-percibe-de-manera-diferente-entre-artistas-y-devs/index.md" lang="es" >}}), even Ted Chiang already stated why [AI isn't going to make art](https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art). but in this case it's not about pure art, but about design, which implies the need for communication. I agree with the creator of the reel. Undoubtedly her work was superior.
 
 Would you go so far as to offend someone for defending AI?
 

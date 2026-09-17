@@ -5,9 +5,9 @@ noindex: true
 url: /en/pages/lets-work-together/
 ---
 
-Let me help you transform your web app ideas and projects into reality right now! 
+Let me help you transform your ideas and projects into reality right now! 
 
 Whether you're an individual or a recruiter looking for professionals who can help you grow your business, let's chat and see if we are a good match.
 
-Send me a [message directly through my page.](https://zeedu.dev)
+Check my portfolio and my email in my [personal web page](https://zeedu.dev)
 
