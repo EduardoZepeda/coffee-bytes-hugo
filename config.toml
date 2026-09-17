@@ -21,7 +21,7 @@ languageName = 'English'
 title = 'Coffee bytes'
 weight = 1
 [[languages.en.menu.main]]
-name = "Hire me"
+name = "Work with me"
 url = "/en/pages/lets-work-together/"
 weight = 2
 [[languages.en.menu.main]]
