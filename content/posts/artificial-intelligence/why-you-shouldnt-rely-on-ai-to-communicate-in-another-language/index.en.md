@@ -1,12 +1,11 @@
 ---
-date: '2026-10-15T23:08:40-06:00'
-draft: true
+date: '2026-10-21T20:08:40-06:00'
 title: Why You Shouldn't Rely On AI To Communicate In Another Language
 categories:
 - artificial intelligence
 - opinion
 coverImage: "images/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language.jpg"
-description: 'Should you use AI to communicate in another language? I argue against it - relying on AI limits the benefits of connecting with people from other cultures.'
+description: 'Should you use AI to communicate in another language? I argue against it. Relying on AI limits the benefits of connecting with people from other cultures.'
 keyword: ''
 keywords:
 - 'artificial intelligence'
@@ -31,7 +30,7 @@ They have a point. For books, it's convenient. Automatic translation takes minut
 
 ## Books and conversations aren't the same
 
-A book is inert. It won't respond or interact with you. A bad translation might make for a different experience than one done by a professional. Not all books are equal either - some, like Douglas Hofstadter's [Gödel, Escher, Bach](https://link.amazon/B0g88NToz#?), have fascinating translation histories I won't spoil here.
+A book is inert. It won't respond or interact with you. A bad translation might make for a different experience than one done by a professional. Not all books are equal either - some, like Douglas Hofstadter's [Gödel, Escher, Bach](https://link.amazon/B0g88NToz#?), had [fascinating translation problems](https://www.academia.edu/7072013/The_Translation_of_Godel_Escher_Bach_an_Eternal_Golden_Braid_into_Chinese) I won't spoil here.
 
 But most don't need that level of scrutiny or precision. Those are the exceptions.
 

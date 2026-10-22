@@ -1,6 +1,5 @@
 ---
-date: '2026-10-15T23:08:40-06:00'
-draft: true
+date: '2026-10-21T20:08:40-06:00'
 title: Porque no deberías depender de la IA para comunicarte en otro idioma
 categories:
 - artificial intelligence
@@ -32,7 +31,7 @@ Y creo que tienen razón: en cuanto a libros, es bastante cómodo. La traducció
 
 ## El libro y la conversación no son lo mismo
 
-Un libro es materia inerte, no va a responderte ni interaccionar contigo de ninguna manera. Podría traducirse mal y tu experiencia será distinta a la que tendrías con un traductor profesional. Yo sé que no todos los libros son iguales: hay algunos, como un [Eterno y Gracil Bucle](https://link.amazon/B0g88NToz#?) de Douglas R. Hofstader, con una historia de traducción bastante interesante que le dejo al lector investgar. 
+Un libro es materia inerte, no va a responderte ni interaccionar contigo de ninguna manera. Podría traducirse mal y tu experiencia será distinta a la que tendrías con un traductor profesional. Yo sé que no todos los libros son iguales: hay algunos, como un [Eterno y Gracil Bucle](https://link.amazon/B0g88NToz#?) de Douglas R. Hofstader, con una [historia de traducción bastante interesante](https://www.academia.edu/7072013/The_Translation_of_Godel_Escher_Bach_an_Eternal_Golden_Braid_into_Chinese) que le dejo al lector investgar. 
 
 Pero me atrevo a decir que, la mayoría, no necesitará trabajos tan exhaustivos de traducción ni tan precisos, aquellos que sí serán una excepción a la regla.
 
