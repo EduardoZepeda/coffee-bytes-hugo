@@ -111,7 +111,7 @@ Ahora, aquí hay otro aspecto que quiero tocar respecto a las diferencias en el 
 
 ## El contraste en la percepción entre código desarrollado con AI e imágenes generadas con AI
 
-El producto final de una AI que crea arte es el mismo producto final que percibe el usuario, en cambio el código que crea una AI no tiene contacto con el usuario final.
+El producto final de una AI que crea arte es el mismo producto final que percibe el usuario, como cuando [ usas AI para traducir una conversación]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="es" >}}), en cambio el código que crea una AI no tiene contacto con el usuario final.
 
 No existe un rechazo público, ni un grupo que proteste al ver el código generado con AI porque no tienen contacto con él. El código, por si mismo, no despierta pasiones, ni enojo, como [cuando Devin AI prometió reemplazar a los programadores]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="es" >}}) tal vez porque el estímulo visual del arte es mucho más intenso que un muro de texto que expresa las relaciones que existen entre entes abstractos.
 
@@ -126,9 +126,3 @@ Una página web (y quizás el código) hecha con AI es totalmente indistinguible
 Pero en el caso del arte es mucho más fácil darse cuenta; manos con más dedos de los que se deben, inconsistencias lógicas, inclusive ese estilo genérico, que viene por defecto, bastante característico. O el ya popular estilo Ghibli que se volvió un commodity.
 
 El arte generado con AI destaca, mientras que el código generado con AI es invisible.
-
-
-
-
-
-

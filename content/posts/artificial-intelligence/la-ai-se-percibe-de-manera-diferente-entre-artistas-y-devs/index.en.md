@@ -26,7 +26,7 @@ Today, while *doom scrolling* on Zuckerberg's social network, the algorithm reco
 
 When I checked the comments—I don’t even know what I gain from doing that—I noticed that the most *liked* ones expressed strong disdain for artificial intelligence. A normal behavior if you're in the [middle of AI overhype]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}})
 
-## Artists Hate AI, Devs Are Forced to Accept It  
+## Artists Hate AI, Devs Are Forced to Accept It
 
 There’s a strong consensus among artists regarding AI.  
 
@@ -108,7 +108,7 @@ Now, there’s another aspect I want to touch on regarding the differences betwe
 
 ## The Contrast in Perception Between AI-Generated Code and AI-Generated Images  
 
-The final product of AI-generated art is the same product the user perceives. In contrast, the code AI creates doesn’t interact with the end user.  
+The final product of AI-generated art is the same product the user perceives, as when you use [AI to translate a conversation IRL]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="en" >}}). In contrast, the code AI creates doesn’t interact with the end user.
 
 There’s no public backlash or protests over AI-generated code because people don’t see it. Code, in itself, doesn’t evoke passion or anger—unlike [when Devin AI promised to replace programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}). Maybe it’s because the visual stimulus of art is far more intense than a wall of text expressing relationships between abstract entities.  
 
@@ -123,5 +123,3 @@ An AI-generated website (and perhaps the code itself) is completely indistinguis
 But with art, it’s much easier to tell—hands with too many fingers, logical inconsistencies, even that default, generic style that’s become so characteristic. Or the now-popular Ghibli style that’s turned into a commodity.
 
 AI-generated art stands out whereas AI-generated code is invisible.
-
-

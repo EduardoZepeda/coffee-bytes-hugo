@@ -34,7 +34,7 @@ Y no estoy solo en esto, incluso compañias tan grande como Apple, abandonaron l
 
 Incluso [Sam Altman admite que ve una burbuja de AI](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), de acuerdo a los medios:
 
-> “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
+> "Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes," 
 
 {{<adsPanels>}}
 
@@ -116,8 +116,8 @@ Dicho lo anterior pareciera que creo que todo esto de la AI no es más que humo 
 
 En mi opinión, las Inteligencias Artificiales son el autocompletado definitivo, ya sea de texto, imágenes o video, nada más. La AGI es un hito que se mantiene distante en el futuro.
 
-> Machines don’t learn. What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. -Andriy Burkov
+> Machines don’t learn. What a typical "learning machine" does, is finding a mathematical formula, which, when applied to a collection of inputs (called "training data"), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. -Andriy Burkov
 
-La burbuja financiera va a tronar, el hype va a morir y vamos a alcanzar un *plateau* en donde las personas van a entender el potencial real de la AI, así mismo sus limitaciones, y se convertirá en una herramienta más a disposición. Sí, el internet va a cambiar en ese momento para siempre. Y finalmente los AI bros pasarán al siguiente trend y dejarán de esparcir FOMO en redes.
+La burbuja financiera va a tronar, el hype va a morir y vamos a alcanzar un *plateau* en donde las personas van a entender el potencial real de la AI, así mismo sus limitaciones, y se convertirá en una herramienta más a disposición. Como en traducción, a pesar de que usarla para [traducir tus conversaciones es una idea pésima]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="es" >}}). Sí, el internet va a cambiar en ese momento para siempre. Y finalmente los AI bros pasarán al siguiente trend y dejarán de esparcir FOMO en redes.
 
 {{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="Meme de dragon ball sobre la explosión de la burbuja de AI"  width="630" height="473" >}}

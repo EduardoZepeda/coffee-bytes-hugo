@@ -93,6 +93,6 @@ Dejando de lado la parte más social, aprender otro idioma cambia también la fi
 
 ## Vienen tiempos complicados para el escenario políglota
 
-Y yo creo que vienen tiempos complicados, porque muchos de los incentivos para aprender otro idioma, sobre todos los económicos, van a verse disminuidos. Es posible que en el futuro, debido al efecto del [delirante culto a la AI de redes sociales]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="en" >}}), la cantidad de personas bilingües que tengamos disminuya, incluso aunque [la burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}) reviente.
+Y yo creo que vienen tiempos complicados, porque muchos de los incentivos para aprender otro idioma, sobre todos los económicos, van a verse disminuidos. Es posible que en el futuro, debido al efecto del [delirante culto a la AI de redes sociales]({{< ref path="/posts/opinion/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/index.md" lang="es" >}}), la cantidad de personas bilingües que tengamos disminuya, incluso aunque [la burbuja de AI]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}) reviente.
 
 Me entristece, porque vamos a perder una riqueza cultural, y porque quizá entorpzcamos un poco la comunicación entre diferentes culturas por culpa de la inteligencia artificial.

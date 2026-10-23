@@ -114,10 +114,10 @@ The greed driving AI usage is going to flood the internet with a myriad of AI ar
 
 That said, it might seem like I believe all this about AI is smoke and mirrors—but that's not the case. **I believe AI is here to stay and its potential for social revolution, at least in the short term, will be limited to a very small group of companies**, among which I include OpenAI, Google, Microsoft, and the usual players.
 
-In my opinion, Artificial Intelligences are the ultimate autocomplete—be it text, images, or video, nothing more. AGI is a milestone that remains distant in the future.
+In my opinion, Artificial Intelligences are the ultimate autocomplete—be it text, images, or video, nothing more. AI is useful in translation, despite being an [awful idea to use it to translate conversations IRL]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="en" >}}). AGI is a milestone that remains distant in the future. 
 
 > Machines don't learn. What a typical "learning machine" does is finding a mathematical formula, which, when applied to a collection of inputs (called "training data"), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. -Andriy Burkov
 
-The financial bubble will burst, the hype will die, and we'll reach a plateau where people will understand the real potential of AI, as well as its limitations, and it will become just another tool at our disposal. Yes, the internet will change forever at that moment. And finally AI bros will move on to the next trend and stop spreading FOMO on social media.
+The financial bubble will burst, the hype will die, and we'll reach a plateau where people will understand the real potential of AI, as well as its limitations, and it will become just another tool at our disposal. Yes, the internet will change forever at that moment. And finally AI bros will move on to the next trend and stop spreading FOMO on social media. 
 
 {{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="Meme de dragon ball sobre la explosión de la burbuja de AI"  width="630" height="473" >}}

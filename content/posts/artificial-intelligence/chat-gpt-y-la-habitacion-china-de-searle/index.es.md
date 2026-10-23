@@ -38,7 +38,7 @@ John Searle, fue un filósofo que se preguntó si una computadora puede entender
 
 {{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Imagen de la habitación china de Searle generada con Dall-E" caption="Imagen de la habitación china de Searle generada con Dall-E"  width="1024" height="1024" >}}
 
-Un humano, dentro de una habitación completamente aislada del mundo exterior, con una serie de instrucciones para procesar símbolos en chino y devolver una respuesta. Hay que resaltar que la persona en el interior de la habitación desconoce el idioma chino y se limita a seguir la serie de instrucciones que le fueron otorgadas, es decir, **no comprende el texto que entra, ni el que sale**.
+Un humano, dentro de una habitación completamente aislada del mundo exterior, con una serie de instrucciones para procesar símbolos en chino y devolver una respuesta. Similar a lo [pésima idea de usar un traductor de AI]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="es" >}}). Hay que resaltar que la persona en el interior de la habitación desconoce el idioma chino y se limita a seguir la serie de instrucciones que le fueron otorgadas, es decir, **no comprende el texto que entra, ni el que sale**.
 
 ``` mermaid
 graph TD;

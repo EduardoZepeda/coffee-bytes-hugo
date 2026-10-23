@@ -29,7 +29,7 @@ John Searle, a philosopher, wondered whether a computer can truly understand lan
 
 {{< figure src="images/la-habitacion-china-de-searle.jpg" class="md-local-image" alt="Image of Searle's Chinese Room generated with Dall-E" caption="Image of Searle's Chinese Room generated with Dall-E"  width="1024" height="1024" >}}
 
-A person sits inside a room completely isolated from the outside world, with a set of instructions for processing Chinese kanji characters and returning a response in Chinese. 
+A person sits inside a room completely isolated from the outside world, with a set of instructions for processing Chinese kanji characters and returning a response in Chinese. It's similar to the [awful idea of using an AI translator in your conversations]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="es" >}})
 
 It should be noted that the person inside the room does not know the Chinese and simply follows the set of instructions given to him, i.e., he **does not understand the text coming in, nor the text going out**.
 
