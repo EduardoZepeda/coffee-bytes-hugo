@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /es/te-explico-en-que-consiste-la-django-rapid-architecture/
 date: '2025-12-15T22:16:00-06:00'
 title: 'Te explico en que consiste la Django Rapid Architecture'
 categories:
@@ -19,6 +21,7 @@ keywords:
 - 'orm'
 authors:
 - 'Eduardo Zepeda'
+slug: /django/te-explico-en-que-consiste-la-django-rapid-architecture/
 ---
 
 El otro día estaba navegando por Reddit y encontré una propuesta de arquitectura para proyectos Django llamada "[Django Rapid Architecture](https://www.reddit.com/r/django/comments/1pko7q6/django_rapid_architecture_a_guide_to_structuring/)". Es un documento corto con algunas pautas o principios. Como me gusta Django, y creo que [Django es una de las mejores herramientas disponibles y que deberías usarlo]({{< ref path="/posts/django/por-que-deberias-usar-django-framework/index.md" lang="en" >}}), lo leí y te hice un resumen.
@@ -140,4 +143,3 @@ Los [Django Management commands]({{< ref path="/posts/django/como-crear-un-coman
 ## ¿Dónde puedo aprender más sobre Django Rapid Architecture?
 
 Recuerda que este texto es solo un resumen con las ideas principales; si quieres profundizar en esta propuesta de arquitectura llamada [Django Rapid Architecture](https://www.django-rapid-architecture.org/), lee el documento original. Te prometo que es corto, solo de unas pocas páginas, con algunos ejemplos más y la justificación de algunas decisiones.
-

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /es/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/
 date: '2026-05-03T22:16:16-06:00'
 title: 'El Nuevo Dios: El Delirante Culto a La AI en Redes'
 categories:
@@ -16,6 +18,7 @@ keywords:
 - 
 authors:
 - 'Eduardo Zepeda'
+slug: /artificial-intelligence/el-nuevo-dios-el-delirante-culto-a-la-ai-en-redes/
 ---
 
 Hoy la AI me creo una función de 120 lineas, totalmente funcional y sin errores, pero no pudo refactorizarme dos miseras páginas de funciones en Python, usarla me ha costado más tiempo que si lo hubiera hecho yo mismo desde el principio; me borró funciones, y modificó el contenido de un par, al final me rendí, y lo hice yo mismo. Este evento me recordó que quería escribir este post.

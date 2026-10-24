@@ -1,8 +1,11 @@
 ---
+aliases:
+  - /es/mi-experiencia-usando-n8n-y-mi-opinion/
 date: '2026-02-27T15:50:49-06:00'
 title: 'Mi experiencia usando n8n y mi opinión'
 categories:
 - n8n
+- opinion
 coverImage: "images/n8n-mi-impresion-y-opinion.jpg"
 seo_title: "n8n Reseña: Mi Experiencia Después de Medio Año Usándolo"
 description: Opinión honesta sobre n8n después de usarlo半年, automatizaciones, ventajas,
@@ -12,6 +15,7 @@ keywords:
 - 'n8n'
 authors:
 - 'Eduardo Zepeda'
+slug: /opinion/mi-experiencia-usando-n8n-y-mi-opinion/
 ---
 
 Llevo ya un tiempo utilizando **n8n** para automatizar procesos en páginas de Facebook, sitios webs, whatsApp y, combinándolo con otras herramientas. Después de este tiempo de uso, creo que ya puedo compartir una visión un poco más clara de lo que ofrece esta herramienta y si realmente vale la pena.
