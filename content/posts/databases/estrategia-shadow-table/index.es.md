@@ -8,8 +8,7 @@ categories:
 coverImage: images/shadow-table-strategy.jpg
 date: '2025-06-27T16:14:37-06:00'
 seo_title: "Shadow Tables: Migraciones sin Down en BD"
-description: Domina la estrategia de shadow tables para migraciones de bases de datos
-  sin tiempo de inactividad. Paso a paso con ejemplos prácticos.
+description: Cómo cambiar la estructura de una tabla grande sin bloquearla, usando una tabla sombra, triggers o escrituras duales, copias por lotes y un renombrado rápido.
 keyword: shadow table
 keywords:
 - databases
@@ -20,49 +19,47 @@ slug: /databases/migraciones-con-zero-downtime-la-estrategia-shadow-table/
 title: 'Migraciones con zero downtime: la estrategia shadow table'
 ---
 
-Imagínate esto: son las 2 de la madrugada, estás implementando un «simple» cambio en el tipo de columna en producción y, de repente, toda tu aplicación se cae porque el bloqueo de la tabla está tardando una eternidad. Tu teléfono empieza a vibrar con notificaciones furiosas de Slack y tú intentas explicar frenéticamente a tu equipo por qué la «migración de 5 minutos» lleva 30 minutos en marcha.
+Son las 2 de la madrugada, estás implementando un "simple" cambio en el tipo de columna en producción y, de repente, toda tu aplicación se cae porque el bloqueo de la tabla está tardando una eternidad. Tu teléfono empieza a vibrar con notificaciones furiosas de Slack y tú intentas explicar a tu equipo por qué la "migración de 5 minutos" lleva 30 minutos en marcha.
 
 ## ¿Qué es la estrategia de la shadow table?
 
-La estrategia de la shadow table (en español "tabla sombra") es como tener un doble para una tabla en tu base de datos. En lugar de modificar directamente la tabla original (y arriesgarte a que tu aplicación colapse), creas una ~~clon sombra~~ nueva tabla con la estructura deseada, copias gradualmente los datos y luego realizas un cambio rapidísimo.
+La estrategia de la shadow table (tabla sombra) consiste en tener un doble de tu tabla. En lugar de modificar la tabla original directamente, creas una nueva tabla con la estructura deseada, copias los datos poco a poco y, cuando todo está sincronizado, haces un cambio rápido entre ambas.
 
 Este es el flujo básico:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751079950/coffee-bytes/shadow-table-explanation_gbdhc0.png" class="md-local-image" alt="Diagrama de la shadow table"  width="996" height="612" >}}
 
-## ¿Qué problema resuelve la estrategia de la shadow table?
+## ¿Qué problema resuelve?
 
-Las operaciones tradicionales *ALTER TABLE* pueden ser una auténtica pesadilla en producción si se trata de sitios web con miles de millones de registros. Cuando ejecutas algo como *ALTER TABLE users MODIFY COLUMN id BIGINT*, la mayoría de los motores de bases de datos:
+Las operaciones tradicionales *ALTER TABLE* pueden ser un problema en producción si hay miles de millones de registros. Cuando ejecutas algo como *ALTER TABLE users MODIFY COLUMN id BIGINT*, la mayoría de los motores de bases de datos:
 
-1. **Bloquearán toda la tabla** mientras dure la operación.
-2. **Bloquearán todas las lecturas y escrituras** mientras reestructuran la tabla.
-3. **Tardarán una eternidad** en tablas grandes (estamos hablando de horas para miles de millones de filas).
-4. **Correrán el riesgo de que se agote el tiempo de espera**, lo que dejará tu base de datos en un estado inconsistente.
+1. Bloquean toda la tabla mientras dura la operación.
+2. Bloquean todas las lecturas y escrituras mientras la reestructuran.
+3. Tardan horas en tablas grandes.
+4. Corren el riesgo de agotar el tiempo de espera y dejar la base de datos en un estado inconsistente.
 
-La estrategia de la shadow table resuelve estos problemas dividiendo la [migración de la base de datos]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="es" >}}) en fragmentos más pequeños y manejables que no requieren bloqueos prolongados. Tu aplicación permanece en línea, los usuarios están contentos y no recibes notificaciones a las 3 de la madrugada.
+La estrategia de la shadow table divide la [migración de la base de datos]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="es" >}}) en fragmentos más pequeños que no requieren bloqueos prolongados. Así la aplicación sigue en línea y evitas las notificaciones a las 3 de la madrugada.
 
 ### ¿Qué pasa con las tablas más pequeñas?
 
-Si tu tabla no tiene millones de filas y no es crítico que la base de datos siga funcionando, siempre puedes enviar un correo electrónico notificando a tus usuarios que tu aplicación estará en mantenimiento durante un breve periodo de tiempo. 
+Si tu tabla no tiene millones de filas y no es crítico que la base de datos siga funcionando, puedes enviar un correo notificando a tus usuarios que la aplicación estará en mantenimiento un breve periodo. 
 
-Nadie te odiará si tu sitio web de imágenes peludas está caído durante un par de horas, pon una página de «toca el césped» y realiza la migración, [no te obsesiones innecesariamente con el rendimiento de tu aplicación]({{< ref path="/posts/opinion/la-obsesion-por-el-rendimiento-y-la-velocidad-en-programacion/index.md" lang="es" >}})
+Si es un sitio poco crítico, poner una página de "toca el césped" y hacer la migración directamente es perfectamente válido. [No hace falta obsesionarse con el rendimiento en todos los casos]({{< ref path="/posts/opinion/la-obsesion-por-el-rendimiento-y-la-velocidad-en-programacion/index.md" lang="es" >}}).
 
-Sin embargo, si ese no es el caso y el negocio está perdiendo dinero por cada segundo que la base de datos está bloqueada...
+En cambio, si cada segundo de bloqueo le cuesta dinero al negocio, merece la pena usar esta estrategia.
 
-## Pasos para realizar una modificación de tabla utilizando la estrategia de shadow table
+## Pasos para modificar una tabla con la estrategia de shadow table
 
-Veamos un ejemplo real en el que necesitamos cambiar un ID de usuario de INT a BIGINT porque nos estamos acercando al límite de 2100 millones. 
-
-Stonks. Enhorabuena si eres tú el propietario.
+Vamos con un ejemplo práctico: cambiar el ID de usuario de INT a BIGINT porque nos acercamos al límite de 2.100 millones.
 
 ### Paso 1: Crear la shadow table
 
-En primer lugar, crea tu nueva tabla con la estructura deseada:
+Crea la nueva tabla con la estructura deseada:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Crear la shadow table"  width="1065" height="1639" >}}
 
 ```sql
--- Create the shadow table with the new structure
+-- Crear la shadow table con la nueva estructura
 CREATE TABLE users_new (
     id BIGINT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
@@ -71,7 +68,7 @@ CREATE TABLE users_new (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
--- Copy indexes from the original table
+-- Copiar los índices de la tabla original
 CREATE INDEX idx_users_email ON users_new(email);
 CREATE INDEX idx_users_created_at ON users_new(created_at);
 ```
@@ -80,14 +77,12 @@ CREATE INDEX idx_users_created_at ON users_new(created_at);
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751080652/coffee-bytes/shadow-table-sync_v7mgtq.png" class="md-local-image" alt="Sincronizar ambas tablas"  width="996" height="971" >}}
 
-Aquí es donde las cosas se ponen interesantes. Debes mantener la shadow table sincronizada con la original mientras tu aplicación sigue funcionando como si nada hubiera pasado. 
+Tienes que mantener la shadow table sincronizada con la original mientras la aplicación sigue funcionando. Esto implica duplicar las escrituras entre ambas tablas. Hay dos formas de hacerlo:
 
-Sí, estás duplicando las escrituras y ejecutando dos tablas en lugar de una. Para ello hay dos enfoques:
-
-#### Utilizar triggers de base de datos
+#### Con triggers de base de datos
 
 ```sql
--- Create triggers to keep shadow table in sync
+-- Crear triggers para mantener la sincronización
 DELIMITER $$
 
 CREATE TRIGGER users_insert_sync
@@ -119,16 +114,16 @@ END$$
 DELIMITER ;
 ```
 
-#### Sincronizar datos a nivel de aplicación
+#### A nivel de aplicación
 
-Si lo prefieres, puedes sincronizar los datos a través de la lógica de tu aplicación.
+Si lo prefieres, puedes hacer la sincronización desde tu código:
 
-``` python
+```python
 def update_user(user_id, changes):
-    # Original write to main table or database
+    # Escritura en la tabla original
     original_db.execute("UPDATE users SET ...")
     
-    # Shadow write (with transformation)
+    # Escritura en la tabla sombra
     shadow_db.execute(
         "UPDATE users_new SET name=? ...",
         data['email']
@@ -139,17 +134,14 @@ def update_user(user_id, changes):
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Copiar datos por lotes"  width="1065" height="1639" >}}
 
-Ahora viene la migración masiva de datos. **Nunca intentes copiar todo de una vez**, eso es una receta para una catástrofe digital. Recuerda la razón de ser del [patrón worker pool]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="es" >}}).
-
-Asegúrate de tener suficientes recursos y considera hacerlo durante períodos de poco tráfico:
+El siguiente paso es copiar los datos. Nunca lo hagas todo de golpe. Lo ideal es hacerlo por lotes, aprovechando la lógica del [patrón worker pool]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="es" >}}). Hazlo, si puedes, en horas de poco tráfico:
 
 ```sql
--- Copy data in manageable batches to avoid long locks
+-- Copiar datos por lotes para evitar bloqueos largos
 SET @batch_size = 10000;
 SET @min_id = 0;
 SET @max_id = (SELECT MAX(id) FROM users);
 
--- Loop through batches (you'd typically script this)
 WHILE @min_id < @max_id DO
     INSERT INTO users_new (id, name, email, created_at, updated_at)
     SELECT id, name, email, created_at, updated_at
@@ -162,49 +154,48 @@ WHILE @min_id < @max_id DO
     
     SET @min_id = @min_id + @batch_size;
     
-    -- Give the database a breather
+    -- Pausa para dar respiro a la base de datos
     SELECT SLEEP(0.1);
 END WHILE;
 ```
 
 ### Paso 4: Verificar la coherencia de los datos
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081576/coffee-bytes/shadow-table-copy-compare_2_lzbmok.png" class="md-local-image" alt="Comparar que los datos sean los mismos en la shadow table"  width="1065" height="591" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081576/coffee-bytes/shadow-table-copy-compare_2_lzbmok.png" class="md-local-image" alt="Comparar los datos entre ambas tablas"  width="1065" height="591" >}}
 
-Antes de realizar el cambio, es mejor que te asegures de que todo se ha copiado correctamente:
+Antes de hacer el cambio, comprueba que todo coincide:
 
 ```sql
--- Check row counts match
+-- Comprobar el número de filas
 SELECT 
     (SELECT COUNT(*) FROM users) as original_count,
     (SELECT COUNT(*) FROM users_new) as shadow_count;
 
--- Check data integrity with checksums
+-- Comprobar con checksums
 SELECT 
     (SELECT SUM(CRC32(CONCAT(id, name, email))) FROM users) as original_checksum,
     (SELECT SUM(CRC32(CONCAT(id, name, email))) FROM users_new) as shadow_checksum;
 
--- Spot check some random records
+-- Comprobar algunos registros aleatorios
 SELECT * FROM users WHERE id IN (1, 1000, 50000) ORDER BY id;
 SELECT * FROM users_new WHERE id IN (1, 1000, 50000) ORDER BY id;
 ```
 
-### Paso 5: El gran cambio
+### Paso 5: El cambio
 
-Aquí es donde tu ritmo cardíaco se dispara. El intercambio real de tablas debe ser rapidísimo, como una nueva y brillante biblioteca Rust ~~innecesaria~~:
+El intercambio entre tablas debe ser cuestión de milisegundos:
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png" class="md-local-image" alt="Cambio de la tabla antigua a la shadow table"  width="1065" height="1100" >}}
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png" class="md-local-image" alt="Cambiar de la tabla antigua a la shadow table"  width="1065" height="1100" >}}
 
 ```sql
--- This should take milliseconds, not minutes
 START TRANSACTION;
 
--- Drop the triggers first (no more syncing needed)
+-- Eliminar los triggers de sincronización
 DROP TRIGGER users_insert_sync;
 DROP TRIGGER users_update_sync;
 DROP TRIGGER users_delete_sync;
 
--- Rename tables atomically
+-- Renombrar las tablas de forma atómica
 RENAME TABLE users TO users_old, users_new TO users;
 
 COMMIT;
@@ -212,106 +203,91 @@ COMMIT;
 
 ### Paso 6: Limpieza y verificación
 
-Limpieza y ~~darse cuenta de que todo salió mal~~ celebrar.
+```sql
+-- Verificar que todo funciona correctamente
+SELECT COUNT(*) FROM users;
+SELECT * FROM users LIMIT 5;
+```
 
+Cuando lleves un tiempo con todo funcionando sin incidencias, puedes eliminar la tabla antigua:
+
+```sql
+DROP TABLE users_old;
+```
 
 ## Manejo de tablas con millones de QPS
 
-Para tablas con millones de QPS o [millones de usuarios simultáneos]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}}), puedes optar por utilizar una queue (cola) en lugar de escribir directamente.
+Si tienes millones de QPS o [millones de usuarios simultáneos]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="es" >}}), las escrituras duales directas pueden sobrecargar la base de datos. En ese caso, puedes usar un búfer de escritura con Redis o Kafka para encolar las escrituras hacia la shadow table y dejar que se vayan sincronizando poco a poco.
 
-- **Utilizar un búfer de escritura**: Pon en queue cualquier write en Redis/Kafka si la base de datos no puede gestionar las escrituras duales.
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png" class="md-local-image" alt="Búfer de escritura para la shadow table"  width="1741" height="584" >}}
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png" class="md-local-image" alt="Búfer de escritura para shadow table"  width="1741" height="584" >}}
-
-- **El infierno del mapeo de columnas** Utiliza vistas para abstraer los cambios de nombre:  
+Si tienes muchos cambios de nombres de columnas, también puedes usar una vista para abstraerlos:
 
 ```sql
-  CREATE VIEW users_combined AS
-  SELECT id, COALESCE(new_id, id) AS unified_id FROM users_new
-  UNION ALL SELECT id, name FROM users WHERE NOT EXISTS (...);
+CREATE VIEW users_combined AS
+SELECT id, COALESCE(new_id, id) AS unified_id, name
+FROM users_new
+UNION ALL
+SELECT id, id AS unified_id, name
+FROM users
+WHERE NOT EXISTS (SELECT 1 FROM users_new WHERE users_new.id = users.id);
 ```
 
 ## Errores comunes al implementar shadow tables
 
-Permíteme ahorrarte algunos dolores de cabeza compartiendo algunos errores comunes que he visto, leído y cometido:
+- **Olvidar las claves foráneas**: Si otras tablas hacen referencia a la tuya, tendrás que desactivar las comprobaciones temporalmente o actualizar esas referencias con cuidado. La integridad de los datos depende de ello.
+- **No probar los triggers lo suficiente**: Pueden fallar en silencio o comportarse de forma extraña bajo carga. Pruébalos con datos y concurrencia reales en un entorno de pruebas.
+- **Subestimar el retraso de sincronización**: Con mucho tráfico, los triggers pueden ir por detrás. Supervisa la diferencia entre tablas y prepárate para frenar las escrituras si crece.
+- **Supervisión insuficiente**: Necesitas visibilidad sobre el progreso de la copia, el retraso de sincronización y los errores mientras dura la migración, no cuando ya ha fallado.
+- **Mala planificación del rollback**: Siempre ten un plan B. Si algo falla en el cambio, tienes que poder volver atrás rápido.
 
-**Olvidar gestionar las restricciones de claves externas**: si otras tablas hacen referencia a tu tabla, deberás desactivar temporalmente las comprobaciones de claves externas o gestionar las referencias con cuidado. No lo ignores, la integridad de tus datos depende de ello.
+## Manejo en sistemas distribuidos
 
-**No probar los triggers (o disparadores) a fondo**: los triggers pueden fallar silenciosamente o comportarse de forma extraña bajo carga. Pruébalos con volúmenes de datos realistas y operaciones simultáneas antes de pasar a producción.
+Cuando renombres las tablas, todas las instancias de tu aplicación tienen que conocer el cambio al mismo tiempo. Para eso suele ser necesario detener el tráfico, hacer el cambio y reiniciar los servicios, o coordinarlo con un despliegue controlado.
 
-**Subestimar el retraso de sincronización**: durante los periodos de escritura intensa, tus triggers pueden fallarte. Supervisa el estado de sincronización y prepárate para limitar las escrituras si es necesario.
-
-**Supervisión inadecuada**: Debes estar atento durante el proceso de migración, el retraso de sincronización y cualquier error, no después de que las cosas salgan mal. Implementa la supervisión antes de empezar, no cuando todo se esté desmoronando.
-
-**Mala planificación de la rollback**: Ten siempre un plan B. Si algo sale mal durante el cambio, debes poder revertirlo rápidamente.
-
-## Manejo de shadow tables en sistemas distribuidos
-
-Ten en cuenta el descubrimiento de servicios, el agrupamiento de conexiones y la invalidación de caché. Cuando renombres tus tablas, recuerda que todas las instancias de servicio deben conocer el cambio simultáneamente. 
-
-Esto a menudo significa implementar una estrategia de implementación coordinada en la que se detiene temporalmente el tráfico, se realiza el cambio y, posteriormente, se reinician los servicios.
-
-Considera la posibilidad de utilizar indicadores de características, como el que te comenté en mi [publicación sobre patrones de implementación]({{< ref path="/posts/software-architecture/patrones-de-deploy-comunes/index.md" lang="es" >}}), para controlar desde qué tabla lee tu aplicación. Esto te permite un control preciso de la migración y permite implementaciones graduales.
+También puedes usar feature flags, como los que explico en mi [artículo sobre patrones de despliegue]({{< ref path="/posts/software-architecture/patrones-de-deploy-comunes/index.md" lang="es" >}}), para decidir desde qué tabla lee cada instancia y hacer el cambio de forma gradual.
 
 ## Bases de datos con réplicas de lectura
 
-Asegúrate de que tu shadow table se haya replicado completamente antes de realizar el cambio. Supervisa cuidadosamente el retraso en la replicación, ya que el cambio debe realizarse de manera consistente en todas las réplicas.
+Asegúrate de que la shadow table esté completamente replicada antes de hacer el cambio. Supervisa el lag de replicación para que el renombrado sea consistente en todas las réplicas.
 
-## Supervisión del rendimiento durante la transición
+## Supervisión durante la transición
 
-Al ejecutar la migración, básicamente estás ejecutando dos tablas en paralelo, con su correspondiente uso de E/S, comprueba el uso del disco y supervísalo.
+Durante la migración estás ejecutando dos tablas en paralelo, así que el uso de I/O subirá. Vigila el disco.
 
-Los triggers añaden una sobrecarga a cada operación INSERT, UPDATE y DELETE. Configura alertas para tiempos de ejecución de triggers inusualmente largos.
+Los triggers añaden sobrecarga a cada INSERT, UPDATE y DELETE. Configura alertas si el tiempo de ejecución se dispara.
 
-Compara el número de filas entre las tablas originales y las shadow tables durante el proceso. Si la diferencia entre ambas aumenta, es que algo raro está pasando.
+Compara el número de filas entre ambas tablas durante todo el proceso. Si la diferencia va aumentando, hay un problema de sincronización.
 
-## Manejo de constraints (o restricciones) únicas y claves externas
+## Restricciones únicas y claves foráneas
 
-En el caso de las constraints únicas, debes asegurarte de que la shadow table mantenga exactamente las mismas garantías de unicidad que la tabla original.
+La shadow table debe mantener las mismas restricciones únicas que la original. Al copiar por lotes, usa `INSERT ... ON DUPLICATE KEY UPDATE` (o su equivalente) para evitar duplicados si hay escrituras concurrentes.
 
-Al copiar datos por lotes, utiliza INSERT ... ON DUPLICATE KEY UPDATE o una lógica upsert equivalente para gestionar posibles duplicados, especialmente si tu aplicación sigue escribiendo datos durante la migración.
+Para las claves foráneas, puedes desactivarlas temporalmente con `SET FOREIGN_KEY_CHECKS=0` en MySQL, o usar comprobaciones diferidas en PostgreSQL. Ambas opciones implican un riesgo para la integridad, así que úsalas con cuidado. Otra opción es crear las claves foráneas en la shadow table y actualizar las tablas que la referencian al final.
 
-Para las constraints de foreign key, puedes desactivar las comprobaciones durante la migración, pero corres el riesgo de comprometer la integridad de los datos, por lo que siempre hay que sopesar las ventajas y los inconvenientes. Utiliza comprobaciones diferidas (si usas PostgreSQL) o desactiva las comprobaciones de foreign key (MySQL SET FOREIGN_KEY_CHECKS=0).
+## Triggers y procedimientos almacenados
 
-Como alternativa, puedes crear las constraints de foreign key en la shadow table y actualizar las tablas de referencia una vez finalizada la migración principal.
+Lista todos los triggers de la tabla original. Tendrás que recrearlos en la shadow table y prestar atención al orden de ejecución: los triggers de sincronización deben ir al final, después de los triggers de lógica de negocio.
 
-## Manejo de triggers (disparadores) y procedimientos almacenados
+Los procedimientos almacenados que apunten a la tabla también habrá que actualizarlos tras la migración. Los sinónimos o vistas ayudan a reducir cuántos hay que cambiar.
 
-Los triggers y procedimientos almacenados existentes pueden ser un dolor de cabeza... 
+Prueba todas estas interacciones en un entorno de staging antes de hacerlo en producción.
 
-En primer lugar, enumera todos los triggers existentes en tu tabla. Deberás recrear estos triggers en la shadow table, pero recuerda que el orden de ejecución es fundamental. 
+## Verificación antes del cambio
 
-Por lo general, **los triggers de sincronización deben ejecutarse en último lugar**, después de que se hayan ejecutado todos los triggers de lógica empresarial.
+Compara valores agregados (sumas, promedios, recuentos) entre ambas tablas. Usa checksums para confirmar que los datos coinciden fila a fila. Calcula el tamaño de muestra necesario para alcanzar el nivel de confianza que busques.
 
-Los procedimientos almacenados que apuntan a tu tabla deben renombrarse después de la migración. Utiliza sinónimos o vistas para minimizar el número de procedimientos que requieren actualizaciones.
+Automatiza estas comprobaciones y ejecútalas varias veces durante la migración. Herramientas como `pg_checksums` o consultas con `COUNT(*)` y `hash_agg()` te sirven para esto.
 
-Prueba a fondo las interacciones de los desencadenantes en un entorno de prueba para evitar sorpresas indeseadas. 
+## Plan de rollback
 
-## Verificación de la coherencia de los datos antes del cambio
+Si algo falla durante el cambio, lo más rápido es revertir el renombrado. Mantén la tabla original como `users_old` (o el nombre que prefieras) durante un tiempo tras el cambio para poder renombrarla de vuelta en cuestión de milisegundos.
 
-No te saltes nunca este paso, pase lo que pase.
+En casos más complejos, puede que necesites sincronizar los datos desde la shadow table de vuelta a la original. Si mantienes triggers inversos durante la ventana de cambio, tendrás esa opción, aunque añade complejidad.
 
-Compara valores agregados como sumas, promedios y recuentos. Utiliza **checksums o hash de tus datos para verificar que los datos coincidan exactamente entre las tablas**. Las estadísticas son tus aliadas, obtén el número correcto de registros para muestrear y alcanzar un nivel de confianza del 95 %.
-
-Crea scripts de comprobación de coherencia automatizados que puedas ejecutar repetidamente durante la migración y que te permitan saber si todo va bien.
-
-Las herramientas de suma de comprobación (como *pg_checksums* o consultas personalizadas *COUNT(*)* + *hash_agg()*) son tus aliadas.
-
-## El plan de rollback (cuando todo se va al carajo)
-
-¿Conoces la ley de Murphy? Entonces ya sabes lo que hay que hacer.
-
-La rollback más sencilla es revertir la operación de renombramiento. Mantén tu tabla original como *<table_name>_old*, o como quieras, durante el periodo de transición, para poder renombrarla rápidamente si Murphy aparece. Esto debería ser muy rápido.
-
-Para reversiones más complejas, es posible que tengas que sincronizar los datos de la shadow table con la original. Considera la posibilidad de mantener los desencadenantes inversos durante el periodo de transición, lo que añade complejidad, pero te dará más opciones disponibles.
-
-Cuando la producción está en pleno apogeo, no querrás estar averiguando los comandos de rollback sobre la marcha. Documenta siempre claramente tus procedimientos de rollback y practica en entornos de prueba. 
-
-Considera la posibilidad de implementar mecanismos de rollback a nivel de aplicación utilizando indicadores de funciones o cambios de configuración. Hablé un poco sobre ellos en mi publicación sobre patrones de implementación. A veces es más rápido volver a dirigir tu aplicación a la tabla antigua que realizar cambios a nivel de la base de datos.
+Documenta los comandos de rollback y practícalos en staging. También puedes tener un rollback a nivel de aplicación con feature flags, que en muchos casos es más rápido que tocar la base de datos.
 
 ## Herramientas que te pueden ayudar
-
-Hay algunas herramientas que pueden ayudarte a facilitar el proceso de migración de una tabla:
 
 | Herramienta | Ideal para      | Característica destacada          |
 | ----------- | --------------- | --------------------------------- |
@@ -320,10 +296,8 @@ Hay algunas herramientas que pueden ayudarte a facilitar el proceso de migració
 | Liquibase   | Cross-DB        | Seguimiento de cambios            |
 | Debezium    | Transmisión CDC | Integración con Kafka             |
 
-## Conclusión 
+## Conclusión
 
-La estrategia de las shadow tables dista mucho de ser perfecta y pueden ocurrir muchas cosas.
+La estrategia de shadow table no es perfecta y hay muchas cosas que pueden salir mal. Cada base de datos y aplicación es distinta: lo que funciona para una tabla con muchas lecturas puede no funcionar para una con muchas escrituras. 
 
-Recuerda que cada base de datos y cada aplicación son diferentes. Lo que funciona para tablas con un uso intensivo de lectura puede no funcionar para tablas con un uso intensivo de escritura. Prueba siempre en un entorno que imite lo más fielmente posible el entorno de producción.
-
-No temas abortar la migración en el último momento si las cosas no salen según lo previsto, lo importante es que todo siga funcionando, no hacer de héroe.
+Prueba todo en un entorno lo más parecido posible a producción. Si a última hora ves que algo no va bien, abortar la migración es la decisión correcta.
