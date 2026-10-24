@@ -151,7 +151,7 @@ Finally, if a full key matches, it returns the value. If not, or if the SIMD ste
 
 Here's where the real genius kicks in. Modern CPUs don't need to check things one byte at a time. They are surprisingly good doing operations in parallel. Swiss Tables are designed to exploit this by grouping slots into blocks (typically of 16).
 
-In just one ~~blazingly fast~~ operation, the CPU creates a bitmask. A *1* means “the hash snippet matches,” a *0* means it doesn't. Only *then*, for the slots that might be a match, does the code actually dereference the pointer to the main data array to do a full key comparison. 
+In just one ~~blazingly fast~~ operation, the CPU creates a bitmask. A *1* means "the hash snippet matches," a *0* means it doesn't. Only *then*, for the slots that might be a match, does the code actually dereference the pointer to the main data array to do a full key comparison. 
 
 This is the killer feature of Swiss Tables. They minimize expensive memory accesses and leverages the CPU's parallel processing capabilities. 
 
@@ -172,4 +172,3 @@ This architecture isn't just a neat bloring and hypothetical academic exercise. 
 However, it's not all sunshine and rainbows, of course, everyhing in tech is trade-off. The separate metadata array does consume extra memory (about 1/16th to 1/8th of the main array), which is usually a great trade-off because memory is one of the cheapest resources. 
 
 Also the implementation is complex—thankfully, it can be daunting for those working on it. But my bet is that you're not so it doesn't involve you, you're going to use it the same way you have always used it, just with better performance.
-

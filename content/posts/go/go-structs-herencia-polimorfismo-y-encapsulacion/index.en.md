@@ -226,7 +226,7 @@ Before dwelling with polymorphism itself, we must explain what an interface is, 
 
 ### What's an interface in simple words?
 
-You can think of an interface as a kind of “blueprint” that tells an object what functions it must implement to work, each object can implement those functions as it wants, but it MUST implement them, in other words: *"it must satisfy the interface".*
+You can think of an interface as a kind of "blueprint" that tells an object what functions it must implement to work, each object can implement those functions as it wants, but it MUST implement them, in other words: *"it must satisfy the interface".*
 
 For example: Think of an abstraction that represents puzzle pieces. We need a puzzle piece that has two appendages, which maintain a 45° angle between them. We are not interested in the rest of the sides of the puzzle piece, only that it contains these two characteristics. As long as it has these two characteristics, it will fulfill the interface. The shape of the rest of the piece is irrelevant to us.
 

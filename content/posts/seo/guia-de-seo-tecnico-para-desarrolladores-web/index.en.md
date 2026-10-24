@@ -152,7 +152,7 @@ For example something similar to this:
 
 #### Does the URL structure matter in SEO?
 
-Yes, and a lot, you can use the urls to give your website the structure you think is correct so that it is coherent with the architecture you plan, this makes it easier for search engines to “understand” your website.
+Yes, and a lot, you can use the urls to give your website the structure you think is correct so that it is coherent with the architecture you plan, this makes it easier for search engines to "understand" your website.
 
 I've talked about this on my post [REST API: Best practices and design]({{< ref path="/posts/software-architecture/buenas-practicas-y-diseño-de-una-api-rest/index.md" lang="en" >}})
 
@@ -229,7 +229,7 @@ External links, consider it as a vote in favor towards other websites to indicat
 
 * *follow*, the default value, tells search engines that the site they link to should be positively valued.
 * *nofollow*, search engines should not follow this link, ideal for advertising links, affiliate links or websites you want to link to but do not want them to be related to your content.
-* *ugc*, acronym for “User generated content”, ideal for social networks.
+* *ugc*, acronym for "User generated content", ideal for social networks.
 * *sponsored*, sponsored link, usually advertising or affiliate links.
 
 

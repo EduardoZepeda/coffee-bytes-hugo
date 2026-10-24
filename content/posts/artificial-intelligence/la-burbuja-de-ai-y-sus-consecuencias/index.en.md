@@ -34,7 +34,7 @@ And I'm not alone in this. Even companies as big as Apple dropped out of the AI 
 
 Even [Sam Altman admits to seeing an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), according to the media:
 
-> “Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,” 
+> "Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes," 
 
 {{<adsPanels>}}
 

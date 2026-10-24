@@ -66,7 +66,7 @@ Of course some bots will try to fill out the form to send you advertisements but
 
 If you don't want to use captchas you can leave the responsibility of recognizing spam to your email provider's filters, or use a customized filter created by you and combine it with some instruction like: 
 
-> *"To know that you are not a bot, please include the word *jelly bean* in your email. ”* *.
+> *"To know that you are not a bot, please include the word *jelly bean* in your email. "* *.
 
 Now just set up your filter and automatically delete all emails that do not meet this condition.
 

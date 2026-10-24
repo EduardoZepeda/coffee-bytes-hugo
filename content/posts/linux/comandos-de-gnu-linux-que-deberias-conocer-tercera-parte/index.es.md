@@ -217,11 +217,11 @@ Resolviendo www.google.com (www.google.com)... 216.58.193.36, 2607:f8b0:4012:805
 Conectando con www.google.com (www.google.com)[216.58.193.36]:443... conectado.
 Petición HTTP enviada, esperando respuesta... 200 OK
 Longitud: no especificado [text/html]
-Grabando a: “index.html”
+Grabando a: "index.html"
 
 index.html                                          [ <=>                                                                                                  ]  ------11.11K  --.-KB/s    in 0.003s  
 
-2019-05-20 22:38:35 (3.73 MB/s) - “index.html” guardado [11380]
+2019-05-20 22:38:35 (3.73 MB/s) - "index.html" guardado [11380]
 ```
 
 ## ping

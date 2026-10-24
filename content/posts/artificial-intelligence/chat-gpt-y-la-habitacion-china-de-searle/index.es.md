@@ -30,7 +30,7 @@ Chat GPT y la inteligencia artificial están en boca de todos, algunos le tienen
 
 Hoy dejo de lado las consecuencias económicas de la IA y la pregunta sobre si [estamos en una burbuja de IA o no]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="es" >}}), para centrarme en el aspecto filosófico de Chat GPT y reflexionar un poco sobre la pregunta: ¿entiende realmente Chat GPT el lenguaje? O dicho de otra forma: ¿es consciente Chat GPT?
 
->What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
+>What a typical "learning machine" does, is finding a mathematical formula, which, when applied to a collection of inputs (called "training data"), produces the desired outputs -The Hundred-Page Machine Learning Book, Adriy Burkov
 
 ## La habitación china de John Searle o porque las máquinas dan la ilusión de pensar
 

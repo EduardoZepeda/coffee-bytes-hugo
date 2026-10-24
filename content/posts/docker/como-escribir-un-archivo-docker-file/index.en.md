@@ -45,7 +45,7 @@ touch Dockerfile
 Now we create a requirements file for pip that includes Django and gunicorn. In case you don't know, Django is a web development framework and gunicorn is a server often used in conjunction with Django.
 
 ```bash
-printf “Django==3.0.1 ‘gunicorn==19.7.1’ > requirements.txt
+printf "Django==3.0.1 ‘gunicorn==19.7.1’ > requirements.txt
 ```
 
 Next, let's create a project with django to use as a base for our project. **Make sure you have pip installed on your system or you won't be able to use django-admin**. In case you can't download version 3.0.1 you can use any other version and it should also work.
@@ -88,7 +88,7 @@ RUN pip install -r /app/requirements.txt
 EXPOSE 8000
 ENV PORT 8000
 
-CMD [“gunicorn”, “myDockerDjangoApp.wsgi”]
+CMD ["gunicorn", "myDockerDjangoApp.wsgi"]
 ```
 
 ### Understand a Dockerfile structure
@@ -117,7 +117,7 @@ Now let's review the image we created above.
 - **RUN pip install -r /app/requirements.txt:** RUN allows to execute commands, which are executed when the image is compiled and saved as a new layer in the image. We will use RUN to install all the dependencies we specified in the requirments.txt file (Django and Gunicorn in this case).
 - **EXPOSE 8000:** Expose port 8000 to the outside.
 - **ENV PORT 8000**: Creates an environment variable called PORT with the value of 8000. This will be used to access the port.
-- **CMD \[“gunicorn”, “myDockerDjangoApp.wsgi”\]:** CMD executes a command when starting a container from an image, the commands and arguments are separated as if they were a Python list. In this case, as I mentioned above, gunicorn just needs to know where the wsgi file that django automatically generated is.
+- **CMD \["gunicorn", "myDockerDjangoApp.wsgi"\]:** CMD executes a command when starting a container from an image, the commands and arguments are separated as if they were a Python list. In this case, as I mentioned above, gunicorn just needs to know where the wsgi file that django automatically generated is.
 
 ### Difference between RUN and CMD in Docker
 
@@ -130,7 +130,7 @@ RUN pip install -r requirements.txt
 CMD allows you to run **one command once the container boots**, however any changes in CMD require you to recompile the image. This makes it ideal for booting web servers, or services.
 
 ```dockerfile
-CMD [“gunicorn”, “--bind”, “:8000”, “--workers”, “2”, “project.wsgi”]
+CMD ["gunicorn", "--bind", ":8000", "--workers", "2", "project.wsgi"]
 ```
 
 {{<ad1>}}
@@ -178,7 +178,7 @@ Successfully tagged djangocontainer:0.1
 
 ## Compile a Dockerfile using docker build
 
-To compile a Dockerfile and create a custom image created from the contents of our file, just run the _docker build_ command and set the location of the Dockerfile. _Docker build_ allows us to specify a tagname and a version, separated by a colon “:”, using the _tag_ tag. Note that the colon at the end is not a blob on your screen or a bug, but refers to the folder we are in.
+To compile a Dockerfile and create a custom image created from the contents of our file, just run the _docker build_ command and set the location of the Dockerfile. _Docker build_ allows us to specify a tagname and a version, separated by a colon ":", using the _tag_ tag. Note that the colon at the end is not a blob on your screen or a bug, but refers to the folder we are in.
 
 ```bash
 docker build --tag djangocontainer:0.1 .
@@ -207,7 +207,7 @@ curl localhost:8000
 <!doctype html>
 <html>
     <head>
-        <meta charset=“utf-8”>
+        <meta charset="utf-8">
 ...
 ```
 

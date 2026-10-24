@@ -110,7 +110,7 @@ When I used Wordpress the Yoast plugin took care of the structured data markup, 
 
 ## Don't forget to update Google Search Console
 
-If you are also changing your domain when changing your website, Google Search Console has a tool that allows you to tell Google that you are changing the domain. This way, Google “knows” that you are migrating your content and can match the new URLs to the old ones so that they do not lose their positions in its ranking system.
+If you are also changing your domain when changing your website, Google Search Console has a tool that allows you to tell Google that you are changing the domain. This way, Google "knows" that you are migrating your content and can match the new URLs to the old ones so that they do not lose their positions in its ranking system.
 
 ## Remember to take the semantic structure into account
 

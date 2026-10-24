@@ -134,7 +134,7 @@ Esto lo tomé de un post de reddit, no es ningún tipo de consejo legal y tómal
 > 
 > - Build automations for clients using their own n8n installation.
 > 
-> - Charge for workflow creation, setup, and maintenance, but NOT for hosting or “selling n8n as a service.”
+> - Charge for workflow creation, setup, and maintenance, but NOT for hosting or "selling n8n as a service."
 > 
 > 🚫 What you CANNOT do
 > 
@@ -142,7 +142,7 @@ Esto lo tomé de un post de reddit, no es ningún tipo de consejo legal y tómal
 > 
 > - Do white labeling (remove n8n branding and replace it with your own).
 > 
-> - Charge customers to use “your” hosted instance of n8n.
+> - Charge customers to use "your" hosted instance of n8n.
 
 
 Antes de creer a ciegas, asegúrate de  consultar [la licencia oficial de n8n](https://docs.n8n.io/sustainable-use-license/) aquí.

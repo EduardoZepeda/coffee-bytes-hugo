@@ -138,9 +138,9 @@ Search Rank, with the help of the to_tsvector and plainto_tsquery function, will
 
 In a search, not all fields should matter equally
 
-Imagine you have a database of books and a Book model with a “title” field and a “description” field. If a user searches for a book, it would be reasonable to assume that they are searching for the title. Based on the above, the correct thing to do would be to return books that contain their query in the title.
+Imagine you have a database of books and a Book model with a "title" field and a "description" field. If a user searches for a book, it would be reasonable to assume that they are searching for the title. Based on the above, the correct thing to do would be to return books that contain their query in the title.
 
-On the other hand, the user may be searching for some words they remember reading on the back cover, or they may be searching for anything that contains their query. We can also search the “description” field but with a lower weighting, showing them matches with the title first and then those that match the description.
+On the other hand, the user may be searching for some words they remember reading on the back cover, or they may be searching for anything that contains their query. We can also search the "description" field but with a lower weighting, showing them matches with the title first and then those that match the description.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1750290636/coffee-bytes/search-weights-postgres-django_mix86s.jpg" class="md-local-image" alt="Explanation of relevance according to the field"  width="1167" height="483" >}}
 

@@ -318,7 +318,7 @@ De otra manera tendremos el error *[WARNING] No supported WebSocket library dete
 
 ### Asegúrate de usar el protocolo de websocket correcto
 
-El error puede manifestarse de varias formas, una de ellas es esta *deploys failing due to “unhealthy allocations”*
+El error puede manifestarse de varias formas, una de ellas es esta *deploys failing due to "unhealthy allocations"*
 
 Si intentas comunicarte con un protocolo inseguro a uno inseguro obtendrás un error.
 

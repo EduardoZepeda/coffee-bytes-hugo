@@ -71,7 +71,7 @@ Finally just run *caddy run*, or *caddy start* if you want a process running in 
 
 {{<ad2>}}
 
-### Solution 1 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
+### Solution 1 to error: Caddy "listen tcp :<port_number>: bind: permission denied".
 
 If you get a permission denied error while trying to run caddy, it is because Linux prevents non-root processes from listening on major ports such as 443 or 80.
 
@@ -82,7 +82,7 @@ To allow caddy to listen on those ports and allow [linux to assign the required 
 sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
 ```
 
-### Solution 2 to error: Caddy “listen tcp :<port_number>: bind: permission denied”.
+### Solution 2 to error: Caddy "listen tcp :<port_number>: bind: permission denied".
 
 Another posibility is that caddy was already running, if you install it could run as a service, to which you have to stop it and execute it again.
 

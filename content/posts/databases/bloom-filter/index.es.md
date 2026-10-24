@@ -22,7 +22,7 @@ slug: /databases/construi-un-simulador-visual-de-un-bloom-filter/
 
 Cree un simulador visual de un bloom filter que seguramente te ayudará a comprender mejor esta estructura de datos en comparación con solo leer sobre ella; entenderás porqué es tán rápido al buscar elementos, y como puede producir falsos positivos, pero jamás un falso negativo, por lo que es ideal para revisar la pertenencia a un grupo, sin perder velocidad, cuando las cantidades se vuelven astronómicas.
 
-Supongamos que quieres comprobar si un dato pertenece a un conjunto más grande. Digamos que eres Google y quieres revisar si cierta url ha sido marcada como spam. El enfoque más tonto sería iterar sobre cada url marcada como spam para ver si la encuentras. Tal vez pienses: “Guardo los sitios spam en un hashmap”, pero entonces, ¿un hashmap con los millones de sitios que existen en internet? Debe existir una forma que use menos espacio.
+Supongamos que quieres comprobar si un dato pertenece a un conjunto más grande. Digamos que eres Google y quieres revisar si cierta url ha sido marcada como spam. El enfoque más tonto sería iterar sobre cada url marcada como spam para ver si la encuentras. Tal vez pienses: "Guardo los sitios spam en un hashmap", pero entonces, ¿un hashmap con los millones de sitios que existen en internet? Debe existir una forma que use menos espacio.
 
 
 {{< instagram DN3v9WD2CQC >}}
@@ -74,7 +74,7 @@ Cuando agregas un elemento, el filtro lo pasa por cada función hash. Cada funci
 
 ### No se pueden eliminar datos de este filtro
 
-Como no almacenas los datos reales, sino solo el patrón que permance tras las hash functions, no puedes saber qué combinación de dato y función hash específica lo produjo. Por eso no es posible “eliminar” un elemento.
+Como no almacenas los datos reales, sino solo el patrón que permance tras las hash functions, no puedes saber qué combinación de dato y función hash específica lo produjo. Por eso no es posible "eliminar" un elemento.
 
 {{<adsPanels>}}
 

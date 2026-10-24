@@ -123,7 +123,7 @@ However, I encountered problems with local execution, specifically a couple of d
 
 {{<ad2>}}
 
-I mention this because I found it quite strange given that everything seemed to be working perfectly on their platform, but when I wanted to replicate the project on my computer, it didn't work “out of the box.”
+I mention this because I found it quite strange given that everything seemed to be working perfectly on their platform, but when I wanted to replicate the project on my computer, it didn't work "out of the box."
 
 But putting that aside, I think the result is solid. 
 

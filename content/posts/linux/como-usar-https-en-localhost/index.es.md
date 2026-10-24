@@ -81,7 +81,7 @@ Para permitir que [linux asigne el permiso]({{< ref path="/posts/linux/permisos-
 sudo setcap CAP_NET_BIND_SERVICE=+eip $(which caddy)
 ```
 
-### Solución 2 al error: Caddy “listen tcp :<port_number>: bind: permission denied”.
+### Solución 2 al error: Caddy "listen tcp :<port_number>: bind: permission denied".
 
 Otra posibilidad es que caddy ya se esté ejecutando, sobre todo si al instalarlo empezó a correr como un servicio, ante lo cual basta con detenerlo y volverlo a ejecutar.
 

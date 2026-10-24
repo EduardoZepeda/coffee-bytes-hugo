@@ -26,9 +26,9 @@ Django Rapid Architecture is a collection of curated patterns and idioms. It aim
 
 ## What’s wrong with Django’s default architecture?
 
-Well, according to the author, Django’s “apps” are designed for reusable components, not project-specific business logic. Forcing all code into apps creates inflexibility: [Migrations]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="en" >}}) make early boundary decisions irrevocable, which inhibits the flexible refactoring necessary for dynamic projects.
+Well, according to the author, Django’s "apps" are designed for reusable components, not project-specific business logic. Forcing all code into apps creates inflexibility: [Migrations]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="en" >}}) make early boundary decisions irrevocable, which inhibits the flexible refactoring necessary for dynamic projects.
 
-Additionally, apps prefer “vertical encapsulation,” which groups views and models according to features. For real-world systems with interconnected business domains and interfaces, this is not ideal.
+Additionally, apps prefer "vertical encapsulation," which groups views and models according to features. For real-world systems with interconnected business domains and interfaces, this is not ideal.
 
 ### How to structure projects according to Django Rapid Architecture?
 
@@ -39,7 +39,7 @@ Instead of using Django’s default paradigm, structure by layers:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1765860078/coffee-bytes/django-rapid-architecture_dpxnza.png" class="md-local-image" alt="Django rapid architecture overview"  width="747" height="747" >}}
 
-This “horizontal encapsulation” aligns with Django’s natural layering, avoids early architectural lock-in, and better models complex domains.
+This "horizontal encapsulation" aligns with Django’s natural layering, avoids early architectural lock-in, and better models complex domains.
 
 #### Remember that Django is a monolith.
 ### How does Django Rapid Architecture file structure looks?
@@ -143,5 +143,3 @@ project/interfaces/http/api/admin/widgets/views.py
 
 Where can I learn more about Django Rapid Architecture?
 Remember that this text is only an overview of the main ideas. If you want to dive into this architecture proposal called [Django Rapid Architecture](https://www.django-rapid-architecture.org/), read the original source. I promise it’s short, only a few pages long, with a few more examples and the justification of some decisions.
-
-

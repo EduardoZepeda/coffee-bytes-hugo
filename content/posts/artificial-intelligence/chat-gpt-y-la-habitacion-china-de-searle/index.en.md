@@ -21,7 +21,7 @@ title: Chat Gpt, Searle's Chinese Room and consciousness
 
 Chat GPT is on everyone's lips, some are afraid of it, because of its [ability to solve code problems]({{< ref path="/posts/artificial-intelligence/pruebo-chatgpt-3-con-desafios-de-codigo-de-codewars/index.md" lang="en" >}}) others are excited about its potential to change the world of work. Today I leave aside the economic consequences of AI and the question about whether [we're in an overhyped AI bubble or not]({{< ref path="/posts/artificial-intelligence/la-burbuja-de-ai-y-sus-consecuencias/index.md" lang="en" >}}), to focus on the philosophical aspect of Chat GPT and reflect a bit on the question: does Chat GPT really understand language, and is Chat GPT conscious?
 
-> What a typical “learning machine” does, is finding a mathematical formula, which, when applied to a collection of inputs (called “training data”), produces the desired outputs. Adriy Burkov
+> What a typical "learning machine" does, is finding a mathematical formula, which, when applied to a collection of inputs (called "training data"), produces the desired outputs. Adriy Burkov
 
 ## John Searle's The Chinese Room
 
@@ -89,9 +89,9 @@ As Ludwig Wittgenstein stated in his book Philosophical Investigations:
 
 {{<ad3>}}
 
-> Imagine that at birth you are given a box with a beetle in it. It is a very valuable and extremely personal object, so much so that no one can see inside the box except oneself. Thus, there is no objective way to confirm that all boxes contain the same thing. In the best of cases they could contain a real beetle, but nothing guarantees one hundred percent that instead of the beetle there are not other insects, such as an ant or a spider, or that there is nothing at all, but whatever it is, it will always be considered under the term “beetle”.
+> Imagine that at birth you are given a box with a beetle in it. It is a very valuable and extremely personal object, so much so that no one can see inside the box except oneself. Thus, there is no objective way to confirm that all boxes contain the same thing. In the best of cases they could contain a real beetle, but nothing guarantees one hundred percent that instead of the beetle there are not other insects, such as an ant or a spider, or that there is nothing at all, but whatever it is, it will always be considered under the term "beetle".
 
-As long as we do not understand what consciousness is exactly, we cannot know that we have to “measure” to know if another entity is conscious, as long as it makes sense to talk about “measuring” when we talk about consciousness.
+As long as we do not understand what consciousness is exactly, we cannot know that we have to "measure" to know if another entity is conscious, as long as it makes sense to talk about "measuring" when we talk about consciousness.
 
 
 ### Signs of Intelligence without consciousness
@@ -108,7 +108,7 @@ Sometimes we believe that only machines have a mechanical behavior and that any 
 
 In Douglas R. Hofstadter's book "[Gödel, Escher, Bach: An Eternal Golden Braid](https://amzn.to/4boOnfd#?)", the author cites an experiment in which a sphex wasp is tricked into bringing a cricket into a burrow up to 40 times. Just like a computer program, this wasp gets stuck in an infinite loop from which it cannot escape—how different is this from a computer program that, given the same input, generates the same output?
 
-As Hofstader rightly speculates, a human would have “stepped out” of the loop to stop for a few moments and investigate what was happening.
+As Hofstader rightly speculates, a human would have "stepped out" of the loop to stop for a few moments and investigate what was happening.
 
 {{< figure src="images/avisa-sphex.jpg" class="md-local-image" alt="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid" caption="Sphex wasp from the experiment mentioned in the book Godel, Escher, Bach: An Eternal Golden Braid"  width="640" height="480" >}}
 

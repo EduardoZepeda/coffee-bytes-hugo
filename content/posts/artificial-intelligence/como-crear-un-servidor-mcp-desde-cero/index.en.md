@@ -205,7 +205,7 @@ Next, fill in the *transport type* and commands in case you had the same issue I
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-panel.jpg_k2td1x.webp" class="md-local-image" alt="MCP inspector configuration panel"  width="286" height="468" >}}
 
-If we click on “list tools,” it’ll detect the tool we just created.
+If we click on "list tools," it’ll detect the tool we just created.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1753313069/coffee-bytes/mcp-inspector-tools-panel.jpg_fhvq4v.webp" class="md-local-image" alt="MCP inspector tools panel"  width="1584" height="355" >}}
 
