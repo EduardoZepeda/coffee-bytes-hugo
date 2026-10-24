@@ -8,8 +8,8 @@ categories:
 coverImage: images/shadow-table-strategy.jpg
 date: '2025-06-27T16:14:41-06:00'
 seo_title: "Shadow Tables: Zero-Downtime Database Migrations"
-description: Master the shadow table strategy for zero-downtime database migrations.
-  Step-by-step guide with practical examples and common pitfalls.
+description: How to change a large table's structure without locking it, using a
+  shadow table, triggers or dual writes, batched copies, and a quick rename.
 keyword: Shadow Table Strategy
 keywords:
 - databases
@@ -19,7 +19,7 @@ keywords:
 title: 'Zero Downtime Migrations: Shadow Table Strategy Explained'
 ---
 
-Picture this: It's 2 AM, you're deploying a "simple" column type change to production, and suddenly your entire application is down because the table lock is taking forever. Your phone starts buzzing with angry Slack notifications, and you're frantically trying to explain to your team why the "5-minute migration" has been running for 30 minutes.
+It's 2 AM, you're deploying a "simple" column type change to production, and the whole application is down because the table lock is taking forever. Your phone starts buzzing with angry Slack notifications, and you're trying to explain to your team why the "5-minute migration" has been running for 30 minutes.
 
 ## What's the Shadow Table Strategy?
 
@@ -29,20 +29,20 @@ Here's the basic flow:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751079950/coffee-bytes/shadow-table-explanation_gbdhc0.png" class="md-local-image" alt="Shadow table diagram"  width="996" height="612" >}}
 
-## What Problem Is This Solving Shadow Table Strategy?
+## What Problem Does This Solve?
 
 Traditional *ALTER TABLE* operations can be absolute nightmares in production if you're dealing with websites that have billions of records. When you run something like *ALTER TABLE users MODIFY COLUMN id BIGINT*, most database engines will:
 
-1. **Lock the entire table** for the duration of the operation
-2. **Block all reads and writes** while restructuring the table
-3. **Take forever** on large tables (we're talking hours for billions of rows)
-4. **Risk timeouts** that leave your database in an inconsistent state
+1. Lock the entire table for the duration of the operation
+2. Block all reads and writes while restructuring the table
+3. Take hours on tables with billions of rows
+4. Risk timeouts that leave your database in an inconsistent state
 
-The shadow table strategy solves these problems by breaking the [database migration]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="en" >}}) into smaller, more manageable chunks that don't require long-running locks. Your application stays online, users stay happy, and you don't get notifications at 3 AM.
+The shadow table strategy breaks the [database migration]({{< ref path="/posts/go/migraciones-en-go-con-migrate/index.md" lang="en" >}}) into smaller chunks that don't require long-running locks. Your application stays online and you don't get notifications at 3 AM.
 
 ### What about smaller tables
 
-If your table doesn't have millions of rows and it's not critical that the database keeps running, you can always just send an email notifying your users that your app will be under maintenance for a short period. 
+If your table doesn't have millions of rows and it's not critical that the database keeps running, you can always just send an email notifying your users that your app will be under maintenance for a short period.
 
 I mean nobody is going to hate you if your furry images site is down for a couple of hours, put a "touch some grass" page and perform the migration, [don't obsess unnecessarily about your app's performance.]({{< ref path="/posts/opinion/la-obsesion-por-el-rendimiento-y-la-velocidad-en-programacion/index.md" lang="en" >}})
 
@@ -50,7 +50,7 @@ However, if that's not the case and the business is losing money for every secon
 
 ## Steps to Perform a Table Modification Using Shadow Table Strategy
 
-Let's walk through a real-world example where we need to change a user ID from INT to BIGINT because we're approaching the 2.1 billion limit. 
+Let's walk through a real-world example where we need to change a user ID from INT to BIGINT because we're approaching the 2.1 billion limit.
 
 Stonks. Congratulations if you're the one running the show.
 
@@ -79,9 +79,9 @@ CREATE INDEX idx_users_created_at ON users_new(created_at);
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751080652/coffee-bytes/shadow-table-sync_v7mgtq.png" class="md-local-image" alt="Sync both tables"  width="996" height="971" >}}
 
-This is where things get interesting. You need to keep the shadow table in sync with the original while your application continues to operate like if nothing were happening. 
+You need to keep the shadow table in sync with the original while your application keeps running as if nothing were happening.
 
-Yes, you're duplicating writes and running two tables instead of one. For this there are two approaches:
+Yes, you're duplicating writes and running two tables instead of one. There are two approaches:
 
 #### Use database triggers
 
@@ -139,7 +139,7 @@ def update_user(user_id, changes):
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751082296/coffee-bytes/shadow-table-copy-data_1_m2qwh7.png" class="md-local-image" alt="Copy data in batches"  width="1065" height="1639" >}}
 
-Now comes the bulk data migration. **Never try to copy everything at once**, that's a recipe for a digital hecatombe. Remember the [worker pool pattern's]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="en" >}}) reason of existance.
+Now comes the bulk data migration. Never try to copy everything at once, that's a recipe for a digital hecatombe. That's the reason the [worker pool pattern]({{< ref path="/posts/software-architecture/el-patron-de-diseno-worker-pool-aprovechando-la-concurrencia-en-go/index.md" lang="en" >}}) exists.
 
 Make sure you have enough resources and consider doing this during low-traffic periods:
 
@@ -191,7 +191,7 @@ SELECT * FROM users_new WHERE id IN (1, 1000, 50000) ORDER BY id;
 
 ### Step 5: The Great Switcheroo
 
-Here's where your heart rate spikes. The actual table swap should be lightning fast, like an ~~unnecessary~~ Rust new shiny library:
+Here's where your heart rate spikes. The actual table swap should take milliseconds, like an ~~unnecessary~~ new shiny Rust library:
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751081923/coffee-bytes/shadow-table-copy-switch_fck15s.png" class="md-local-image" alt="Switch from old table to shadow table"  width="1065" height="1100" >}}
 
@@ -223,16 +223,13 @@ SELECT * FROM users LIMIT 5;
 DROP TABLE users_old;
 ```
 
-## Handling Tables with millions of QPS
+## Handling Tables with Millions of QPS
 
-For tables with millions of QPS, or [million of concurrent users]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}}), you can opt for using a queue instead of directly writes.
-
-- **Use a write buffer**: Queue shadow writes in Redis/Kafka if database just can’t handle dual writes.
+For tables with millions of QPS, or [millions of concurrent users]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}}), you can put a queue between the application and the shadow writes. Queue shadow writes in Redis or Kafka if the database can't handle dual writes; the buffer absorbs the spikes and the shadow table catches up afterwards.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1751083242/coffee-bytes/shadow-table-queue_fln9xj.png" class="md-local-image" alt="Write buffer for shadow table"  width="1741" height="584" >}}
 
-- **Column mapping hell?** Use views to abstract renames:  
-
+If column renames are getting out of hand, use views to hide them:
 
 ```sql
   CREATE VIEW users_combined AS
@@ -244,95 +241,87 @@ For tables with millions of QPS, or [million of concurrent users]({{< ref path="
 
 Let me save you some pain by sharing some common mistakes I've seen and read about ~~and made~~:
 
-**Forgetting to Handle Foreign Key Constraints**: If other tables reference your table, you'll need to temporarily disable foreign key checks or handle the references carefully. Don't just ignore this, your data integrity depends on it.
-
-**Not Testing the Triggers Thoroughly**: Triggers can fail silently or behave in strange ways under load. Test them with realistic data volumes and concurrent operations before going to production.
-
-**Underestimating the Sync Lag**: During heavy write periods, your triggers can let you down. Monitor the sync status and be prepared to throttle writes if necessary.
-
-**Inadequate Monitoring**: You need to be aware during the migration progress, sync lag, and any errors, not after things go wrong. Implement monitoring before you start, not while everything is falling apart.
-
-**Poor Rollback Planning**: Always have plan B. If something goes sideways during the switchover, you need to be able to revert quickly.
+- Forgetting about foreign key constraints. If other tables reference yours, you'll need to disable the checks temporarily or handle the references carefully. Your data integrity depends on it.
+- Not testing the triggers thoroughly. Triggers can fail silently or behave strangely under load. Test them with realistic data volumes and concurrent operations before going to production.
+- Underestimating the sync lag. During heavy write periods your triggers can fall behind. Monitor the sync status and be ready to throttle writes.
+- Inadequate monitoring. You need to see migration progress, sync lag, and errors while it runs, not after things go wrong. Set up monitoring before you start.
+- Poor rollback planning. Always have a plan B. If something goes sideways during the switchover, you need to be able to revert quickly.
 
 ## Handling Shadow Tables in Distributed Systems
 
-Consider service discovery, connection pooling, and cache invalidation. When you rename your tables, remember that every service instance needs to know about the change simultaneously. 
+Consider service discovery, connection pooling, and cache invalidation. When you rename your tables, every service instance needs to know about the change at the same time.
 
-This often means implementing a coordinated deployment strategy where you temporarily stop traffic, perform the switch, and afterwards restart services.
+This often means a coordinated deployment where you stop traffic temporarily, perform the switch, and restart services afterwards.
 
-Consider using feature flags, like the one I told you about in my [post about deployment patterns]({{< ref path="/posts/software-architecture/patrones-de-deploy-comunes/index.md" lang="en" >}}), to control which table your application reads from. This gives you fine-grained control over the migration and allows for gradual rollouts.
+Consider using feature flags, like the ones I covered in my [post about deployment patterns]({{< ref path="/posts/software-architecture/patrones-de-deploy-comunes/index.md" lang="en" >}}), to control which table your application reads from. That way you can move traffic over gradually.
 
 ## Databases with read replicas
 
-Ensure your shadow table has been fully replicated before performing the switch. Monitor replication lag carefully, as the switch needs to happen consistently across all replicas.
+Ensure your shadow table has been fully replicated before performing the switch. Monitor replication lag carefully, since the switch needs to happen consistently across all replicas.
 
 ## Monitoring Performance During the Transition
 
-When executing the migration you're essentially running two tables in parallel, with its corresponding I/O usage, check disk usage and monitor it.
+During the migration you're running two tables in parallel, so I/O usage roughly doubles. Watch disk usage.
 
 Triggers add overhead to every single INSERT, UPDATE, and DELETE operation. Set up alerts for unusually long trigger execution times.
 
-Compare row counts between the original and shadow tables during the process, if the difference between both grows, there is something fishy going on.
+Compare row counts between the original and shadow tables as you go. If the gap between them grows, there is something fishy going on.
 
 ## Handling Unique Constraints and Foreign Keys
 
-For unique constraints, you need to ensure the shadow table maintains exactly the same uniqueness guarantees as the original table.
+For unique constraints, ensure the shadow table maintains exactly the same uniqueness guarantees as the original table.
 
-When copying data in batches, use INSERT ... ON DUPLICATE KEY UPDATE or equivalent upsert logic to handle potential duplicates, especially if your application continues to write data during the migration.
+When copying data in batches, use INSERT ... ON DUPLICATE KEY UPDATE or equivalent upsert logic to handle potential duplicates, especially if your application keeps writing data during the migration.
 
-For Foreign Key constraints, you can disable checks during the migration, however you're risking data integrity, it's always a trade off. Use deferred checks (If you're using PostgreSQL) or disable FK checks (MySQL SET FOREIGN_KEY_CHECKS=0)
+For foreign key constraints, you can disable the checks during the migration, but you're risking data integrity. It's always a trade off. Use deferred checks (if you're using PostgreSQL) or disable FK checks (MySQL `SET FOREIGN_KEY_CHECKS=0`).
 
-Alternatively, you can create the foreign key constraints on the shadow table and update referencing tables after the main migration finishes.
+Alternatively, you can create the foreign key constraints on the shadow table and update the referencing tables after the main migration finishes.
 
 ## Dealing with Triggers and Stored Procedures
 
-Existing triggers and stored procedures can be a pain in the... 
+Existing triggers and stored procedures can be a pain in the...
 
-Firstly, list all existing triggers on your table. You'll need to recreate these triggers on the shadow table, just remember that execution order is paramount. 
+First, list all existing triggers on your table. You'll need to recreate them on the shadow table, and execution order matters. **Your sync triggers should generally run last**, after all business logic triggers.
 
-**Your sync triggers should generally be executed last**, after all business logic triggers have run.
+Stored procedures that reference the table need updating after the migration. Use synonyms or views to minimize the number of procedures that require changes.
 
-Stored procedures that point to your table, should be renamed after the migration. Use synonyms or views to minimize the number of procedures requiring updates.
-
-Test trigger interactions thoroughly in a staging environment to prevent unwanted surprises. 
+Test trigger interactions thoroughly in a staging environment to avoid surprises.
 
 ## Verifying Data Consistency Before Cutover
 
-Never skip this step, no matter what.
+Compare aggregate values like sums, averages, and counts. Use checksums or hash your data to confirm that row data matches exactly between tables. Statistics is your friend; work out how many records you need to sample for a 95% confidence level.
 
-Compare aggregate values like sums, averages, and counts. **Use checksums or hash your data to double-check that row data matches exactly between tables**. Statistics is your friend, get the correct number of records to sample to get that 95% confidence level.
+Create automated consistency check scripts that you can run repeatedly during the migration.
 
-Create automated consistency check scripts that you can run repeatedly during the migration that let you know if everything is going well.
-
-Checksum tools (like pg_checksums or custom COUNT(*) + hash_agg() queries) are your friends.
+Checksum tools such as pg_checksums, or a custom COUNT(*) and hash_agg() query, do the same job.
 
 ## The Rollback Plan (When Everything Goes to Hell)
 
-Are you familiar with Murphy's Law? Well you know the drill then.
+Are you familiar with Murphy's Law? Well, you know the drill then.
 
-The simplest rollback is to reverse the renaming operation. **Keep your original table as *<table_name>_old*, or whatever you want, during the cutover period**, so you can quickly rename it back if Murphy shows up. This should be blazingly fast.
+The simplest rollback is to reverse the rename. Keep your original table as *<table_name>_old*, or whatever you want, during the cutover period, so you can rename it back quickly if Murphy shows up.
 
-For more complex rollbacks, you might need to reverse-sync data from the shadow table back to the original. Consider maintaining reverse triggers during the cutover period, it adds complexity but you'll have more options available
+For more complex rollbacks, you might need to reverse-sync data from the shadow table back to the original. Maintaining reverse triggers during the cutover gives you that option at the cost of more complexity.
 
-When production is on fire, you don't want to be figuring out rollback commands on the fly. **Always document your rollback procedures clearly**, practice in stagging environments. 
+When production is on fire, you don't want to be figuring out rollback commands on the fly. Document the rollback procedure and practice it in staging.
 
-Consider implementing application-level rollback mechanisms using feature flags or configuration changes. I talked a little bit about them in my post about deployment patterns. Sometimes it's faster to point your application back to the old table than to perform database-level changes.
+Consider application-level rollback using feature flags or configuration changes. I talked a little about them in my post about deployment patterns. Sometimes pointing your application back to the old table is faster than a database-level change.
 
-## Tools to help you
+## Tools to Help You
 
-There are some tables that can help you to ease the process of migrating a table:
+Some tools can make the process easier:
 
-| Tool      | Best For      | Killer Feature              |
+| Tool      | Best For      | Notable Feature             |
 | --------- | ------------- | --------------------------- |
 | gh-ost    | MySQL         | Triggerless replication     |
 | pg_repack | PostgreSQL    | Online table reorganization |
 | Liquibase | Cross-DB      | Change tracking             |
 | Debezium  | CDC streaming | Kafka integration           |
 
-## Wrapping Up 
+## Wrapping Up
 
-The shadow table strategy is far away from perfect and many things can occur.
+The shadow table strategy is far from perfect, and plenty can go wrong.
 
-Remember that every database and application is different. What works for a read-heavy tables might not work for a write-heavy tables. Always test in an environment that mimics production as closely as possible.
+Every database and application is different. What works for a read-heavy table might not work for a write-heavy one. Test in an environment that mimics production as closely as possible.
 
-Don't be afraid to abort the migration during the last minute if things aren't going according to plan, it's all about keeping things working not about playing the hero.
+Aborting the migration at the last minute is fine if things aren't going to plan. Keeping the service up matters more than playing the hero.
