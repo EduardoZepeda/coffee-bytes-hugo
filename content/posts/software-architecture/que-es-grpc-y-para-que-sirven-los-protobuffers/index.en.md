@@ -21,9 +21,9 @@ keywords:
 title: Fast and performant APIs using Go Lang gRPC and Protobuffers
 ---
 
-Protobuffers allow you to create a Go Lang gRPC API that has the characteristic of being incredibly faster, because it uses binary instead of other less optimized formats (such as JSON), in this post you will learn what this type of API is and why it is so fast.
+Protocol Buffers let you build faster Go gRPC APIs by serializing data in binary instead of formats like JSON. This post covers gRPC, Protocol Buffers (protobuf), and why they're faster than REST.
 
-In my post about [the basic characteristics of a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) I mentioned to you that, besides REST, there were other types of APIS, one of them is gRPC, which is derived from RPC, so let's start the post talking about the latter.
+In [basic characteristics of a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) I mentioned other API styles. gRPC is based on RPC, so let's start there.
 
 ## What is RPC?
 
@@ -31,56 +31,65 @@ In my post about [the basic characteristics of a REST API]({{< ref path="/posts/
 
 {{<ad0>}}
 
-RPC stands for Remote Procedure Call, which, in simple words, refers to invoking code execution on one machine from another machine, usually a server, in such a way that, to the programmer, it appears that the execution was performed locally.
+RPC (Remote Procedure Call) lets you call code on a remote machine as if it were local.
 
-### How does RPC work?
+### How RPC works
 
-The more detailed process is as follows:
-
-1. The client makes the call by sending a message to the network.
-2. The call includes a procedure to encode the methods, request types, and response type in the appropriate format.
-request and response type in the appropriate format.
-([marshalling](https://es.wikipedia.org/wiki/Marshalling)). **This procedure is called the stub**.
-3. The server receives the request and uses the stub to decode the data into the appropriate format of the RPC environment and to know what to execute and with what information.
-4. The task is executed on the server and a response is generated as a result.
-5. The response from the server is encoded using the stub and sent to the client.
-6. The client receives the response and decodes it in the appropriate format.
+1. The client calls a procedure and the stub [marshals](https://en.wikipedia.org/wiki/Marshalling_(computer_science)) the request into a format for transport.
+2. The request goes over the network to the server.
+3. The server's stub unmarshals it, executes the procedure, and marshals the response.
+4. The response returns to the client and is unmarshaled.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1743999893/coffee-bytes/rpc-diagram_lre4ut.jpg" class="md-local-image" alt="Schematic diagram of gRPC operation" caption="Schematic diagram of gRPC operation"  width="1080" height="669" >}}
 
-Did you notice I mentioned data encryption? Well, one aspect of RPC to note is that it requires both client and server to use the same programming language, which makes it a disadvantage in environments where multiple programming languages can be mixed.
-
-Now, let's go to gRPC.
+Traditional RPC requires both client and server to use the same language, which limits interoperability.
 
 {{<ad1>}}
 
-## What is Go Lang gRPC?
+## What is gRPC?
 
-Google took into account the shortcomings of RPC and decided to improve it by creating gRPC.
-
-gRPC emulates RPC with the advantage that it **does not need to use the same programming language** to perform machine-to-machine communication.
-
-And what happened to data encryption? Well, Google developed Protocol Buffers (or protobuffers) to use them as the default format for gRPC in the exchange of information between machines and achieve better performance than other formats such as JSON or XML.
+Google improved RPC with gRPC. It still follows the RPC model but works across different languages. To serialize data efficiently, Google created Protocol Buffers (protobuf) as gRPC's default serialization format.
 
 {{<ad2>}}
 
-## What are Golang protobuffers?
+## What are Protocol Buffers?
 
-You have probably worked with APIs and have noticed that, when communicating with an API, there is an exchange of information; you send information to the API and it returns a response. This exchange of information can take place in different formats, plain text, XML (if you are old school) or JSON (the most popular today).
+APIs exchange data between client and server. That data needs to be serialized (converted to a transmittable format) and deserialized (converted back). JSON and XML are common, but they're text-based and less efficient.
 
-For this exchange to occur, the information must be serialized when it is sent and then deserialized.
+Protocol Buffers are language- and platform-agnostic. gRPC uses them to serialize structured data to binary, making it smaller and faster to process than JSON or XML.
 
-``` mermaid
+```mermaid
 graph TD;
-    JSON-- serialización -->data;
-    data-- deserialización -->JSON;
+    JSON-- serialization -->data;
+    data-- deserialization -->JSON;
 ```
-
-Protocol Buffers (protobuffers from now on) are a completely language and platform agnostic format, which gRPC uses to serialize and deserialize structured data only that, instead of using JSON, XML or another format, it is done directly in binary. This, as you know, makes it much more efficient than using a more human-friendly format like JSON.
 
 {{< figure src="images/protobuffers-grpc.jpg" class="md-local-image" alt="The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional." caption="The compilation of the .proto file is unidirectional, while the serialization deserialization is bidirectional."  width="1400" height="800" >}}
 
 {{<ad3>}}
+
+### How protobuf works
+
+Define your messages and services in a `.proto` file:
+
+```proto
+message DataResponse {
+    int32 id = 1;
+    string info = 2;
+    string result = 3;
+}
+
+message DataRequest {
+    int32 id = 1;
+    string info = 2;
+}
+
+service Publisher {
+    rpc ProcessData (DataRequest) returns (DataResponse) {}
+}
+```
+
+Then compile it with `protoc` to generate code for serialization/deserialization in your target language (C#, C++, Go, Java, Python, Ruby, etc.). You don't write marshaling code yourself.
 
 ### How to convert information with Golang protobuffers?
 
@@ -109,68 +118,51 @@ Currently the [protobuffers format is available for C#, C++, Go, Objective-C, Ja
 
 ## REST vs gRPC
 
-### Differences between REST and gRPC
+| Aspect | REST (JSON/HTTP) | gRPC (Protobuf/HTTP/2) |
+| --- | --- | --- |
+| Speed | Slower (text-based) | Faster (binary) |
+| Payload size | Larger | Smaller |
+| Schema | Optional (OpenAPI) | Required (.proto) |
+| HTTP version | HTTP/1.1 mostly | HTTP/2 |
+| Streaming | Limited | Native (unary, client, server, bidirectional) |
+| Browser support | Full | Limited (needs gRPC-Web) |
+| Code generation | Optional | Built-in with protoc |
+| Error handling | HTTP status codes | gRPC status codes |
+| Caching | Easy | Harder |
+| Human readable | Yes | No |
 
-I put the main differences between REST and gRPC are summarized in this table
+### Performance
 
-| Aspect              | REST (JSON/HTTP)           | gRPC (Protobuf)                 |
-| ------------------- | -------------------------- | ------------------------------- |
-| **Speed**           | Slower (text-based)        | Faster (binary encoding)        |
-| **Payload Size**    | Larger (JSON)              | Smaller (binary Protobuf)       |
-| **Compilation**     | No schema (dynamic)        | Requires Protobuf compilation   |
-| **HTTP Version**    | HTTP/1.1 (mostly)          | HTTP/2 (multiplexed streams)    |
-| **Streaming**       | Limited (SSE, WebSockets)  | Native (client/server/bidi)     |
-| **Browser Support** | Full                       | Limited (requires gRPC-Web)     |
-| **Code Gen**        | Optional (Swagger/OpenAPI) | Built-in (protoc)               |
-| **Use Cases**       | Public APIs, Web Apps      | Microservices, Internal Systems |
-| **Error Handling**  | HTTP Status Codes          | Rich error codes + status       |
-| **Go Integration**  | Manual structs (`json:""`) | Auto-generated Go structs       |
-| **Caching**         | Easy (HTTP caching)        | Difficult (binary format)       |
-| **Human Readable**  | Yes (JSON)                 | No (binary)                     |
-| **Latency**         | Higher (multiple requests) | Lower (multiplexing)            |
+Based on [Matthew Leung's comparison](https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da):
 
-### How fast is gRPC compared to JSON REST?
+| Metric | gRPC | REST |
+| --- | --- | --- |
+| Requests/sec | 48.00 | 4.00 |
+| Request latency | 6.15 | 8.00 |
+| CPU ms/s | 832.00 | 404.00 |
+| CPU/request | 17.33 | 101.11 |
 
-But how efficient is gRPC compared to REST? Check out this comparison by [Matthew Leung](https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da/#?).
+gRPC is typically 5-10x faster than JSON-based REST.
 
-|                         | gRPC   | REST   |
-| ----------------------- | ------ | ------ |
-| Peticiones/Segundo      | 48.00  | 4.00   |
-| Latencia de la petición | 6.15   | 8.00   |
-| CPU ms/s                | 832.00 | 404.00 |
-| CPU/petición            | 17.33  | 101.11 |
+### Why is gRPC faster?
 
-As you can see _gRPC is much faster than REST plus JSON when processing requests_, performance tests vary from 5 to 10 times.
+- **Binary serialization**: Protobuf is smaller and faster to parse than JSON
+- **HTTP/2 multiplexing**: Multiple requests/responses over one TCP connection
+- **Header compression**: Less overhead per request
 
-### Why is gRPC so efficient?
+## gRPC streaming types
 
-There are several factors that make gRPCs extremely efficient for exchanging information:
+gRPC supports four communication patterns:
 
-* Uses protobuffers as a structure for data exchange.
-* The use of HTTP2 and multiplexing.
-* Compression of headers.
-
-The binary format of the protobuffers translates into a smaller amount of information to be transported and easier and more efficient handling by computers.
-
-On the other hand, the use of HTTP/2 allows gRPC to send multiple streams of information over a single TCP connection (multiplexing) in a bidirectional and asynchronous manner.
-
-## Types of gRPC and streaming
-
-The HTTP/2 protocol is versatile and allows gRPC to support four types of client-server communications:
-
-* **Unary**. The client and server communicate using a simple request and response, as in REST.
-response, as in REST.
-
-``` mermaid
+- **Unary**: Single request, single response (like REST)
+```mermaid
 graph TD;
     Client-->Server;
     Server-->Client;
 ```
 
-**Server-side streaming**. The server sends multiple responses to
-a request from the client.
-
-``` mermaid
+- **Server streaming**: Single request, multiple responses
+```mermaid
 graph TD;
     Client-->Server;
     Server-->Client;
@@ -178,10 +170,8 @@ graph TD;
     Server-->Client;
 ```
 
-* Client-side streaming. The client sends multiple requests to the server
-The client sends multiple requests to the server and the server responds with a single response. Used in [MCP Model Context Protocol]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="en" >}})
-
-``` mermaid
+- **Client streaming**: Multiple requests, single response (used in [MCP]({{< ref path="/posts/artificial-intelligence/como-crear-un-servidor-mcp-desde-cero/index.md" lang="en" >}}))
+```mermaid
 graph TD;
     Client-->Server;
     Client-->Server;
@@ -189,10 +179,8 @@ graph TD;
     Server-->Client;
 ```
 
-* Two-way streaming**. Both the client and the server send multiple requests and
-multiple requests and responses, respectively.
-
-``` mermaid
+- **Bidirectional streaming**: Multiple requests and responses
+```mermaid
 graph TD;
     Server-->Client;
     Server-->Client;
@@ -202,17 +190,19 @@ graph TD;
     Client-->Server;
 ```
 
-As you can see this is super useful for services that require constant exchanges of large amounts of information, such as microservices.
+These are useful for microservices and real-time communication.
 
-## Other Go lang gRPC capabilities
+## Other gRPC features
 
-### Interceptors
+- **Interceptors**: Middleware-like hooks to inspect or modify requests/responses
+- **Load balancing**: Built-in support for distributing traffic
 
-gRPC has a mechanism to intercept messages and modify them to your liking, you can think of it as a kind of middleware.
+## References
 
-### Load balancing
-
-gRPC provides load balancing capabilities natively.
+- [How RPC works](https://learn.microsoft.com/en-us/windows/win32/rpc/how-rpc-works)
+- [What's RPC - an introduction guide](https://www.youtube.com/watch?v=gnchfOojMk4)
+- [RPC minimalist guide](https://itnext.io/a-minimalist-guide-to-grpc-e4d556293422)
+- [Devopedia - gRPC](https://devopedia.org/grpc)
 
 ## Reference resources
 

@@ -24,13 +24,13 @@ keywords:
 title: "Worker Pool Design Pattern: Interactive Playground"
 ---
 
-I've expanded this post and created an interactive, real-time visual simulator so you can better understand how the worker pool design pattern behaves. You'll be able to adjust parameters such as the number of workers, failure rate, etc., to see how a queue is processed in real time and fully understand the purpose of this pattern.
+I expanded this post with an interactive, real-time visual simulator to help you understand the worker pool design pattern. You can adjust parameters like the number of workers and failure rate to see how a queue is processed.
 
-This entry is about a the Worker Pool design pattern. Imagine that you have a number of concurrent tasks that you want to perform, either crawling many websites, or perhaps processing information from each of the pixels of an image or anything else you can think of.
+A worker pool helps when you need to run many concurrent tasks - like crawling websites, processing image pixels, or handling jobs in bulk.
 
-The simplistic option is to create a series of workers and use them concurrently, something like this pseudocode:
+The simple approach is to spawn a worker per job:
 
-``` python
+```python
 for job in jobs:
     async process_concurrent_job()
 ```
@@ -39,27 +39,25 @@ for job in jobs:
 
 {{<ad0>}}
 
-This may look pretty good so far, at first, but it has multiple disadvantages; first, you will be creating workers without control, which can increase your program's memory usage incredibly fast; second, you are constantly creating and destroying workers, which can be costly for your program.
+This works for small cases, but has problems: it creates workers without limit (memory grows fast), and constantly creating/destroying workers is expensive.
 
 {{< figure src="images/workers-vs-memoria.jpg" class="md-local-image" alt="If there is no worker limit, workers will continue to be created to match the tasks" caption="If there is no worker limit, workers will continue to be created to match the tasks"  width="605" height="340" >}}
 
-It would be best to keep memory usage constant and avoid creating and destroying workers frequently. For this, the worker pool pattern works perfect.
+The worker pool pattern fixes this by keeping a fixed number of workers and reusing them.
 
-## Interactive Worker pool explanation
+## Interactive worker pool
 
-Worker pool is a classical [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}) that comes to make up for these shortcomings.
+The worker pool is a classic [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}). 
 
 {{<workerPool>}}
 
-There are developers who have used this pattern to [handle a million requests per minute on go.](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang#?)
+This pattern has been used to [handle a million requests per minute in Go](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang).
 
 {{<ad1>}}
 
-## How does the worker pool design pattern work?
+## How it works
 
-Let's take a tail of a task by running, these can be fixed or dynamically created. Then, instead of creating and destroying multiple workers ([goroutines in the case of go](/en/go/go-introduction-to-goroutines-and-concurrency/)) constantly, we create a **fixed number of workers** and put them in a cycle, in which they will be constantly listening for information from the queue (through a [channel in the case of languages like Go](/en/go/go-use-of-channels-to-communicate-goroutines/)). This way we will keep our memory management much more stable and predictable, in addition to limiting the impact of constant creation and destruction of workers.
-
-Finally, we can optionally save the results of these tasks in a queue from which they can be read later.
+Create a fixed number of workers ([goroutines in Go](/en/go/go-introduction-to-goroutines-and-concurrency/)) and have them pull jobs from a queue (using [channels in Go](/en/go/go-use-of-channels-to-communicate-goroutines/)). Workers stay alive and reuse themselves, keeping memory usage stable and avoiding constant creation/destruction. Optionally, collect results in a separate queue.
 
 ``` mermaid
 flowchart TD
@@ -77,9 +75,9 @@ flowchart TD
 
 ### Job queue
 
-The tasks or jobs that we want to be executed by the workers will go to a task queue or job queue. A normal queue, like any other. This can be fixed, or created on the fly by means of user interactions or other systems.
+Jobs go into a queue - can be fixed or created dynamically.
 
-``` mermaid
+```mermaid
 classDiagram
 class JobQueue{
     job 1
@@ -90,11 +88,11 @@ class JobQueue{
 }
 ```
 
-### The pool
+### Worker pool
 
-The pool initializes and hosts the number of workers we set up, generally you will want to use a configuration file, environment variables or other means. Each of these workers will take a task, run it, and when it becomes available again, it will again look for a task from the job queue to run and repeat the cycle.
+A fixed number of workers pull jobs from the queue. Each takes a job, runs it, and goes back for the next one.
 
-``` mermaid
+```mermaid
 flowchart TD
     subgraph Pool
     JobQueue-->|job|Worker_1
@@ -107,25 +105,25 @@ flowchart TD
 
 {{<ad3>}}
 
-### The worker
+### Worker
 
-The worker is in charge of executing the tasks and, as I mentioned, it will be listening for new tasks or jobs permanently or until a certain limit that we indicate, such as the job queue runs out, a given number of tasks are executed or any other condition that we declare.
+A worker loops: get a job if available, process it, repeat until the queue is empty or a stop condition is met.
 
-``` mermaid
+```mermaid
 flowchart TD
-    A[The worker is initiliazed] --> B{Are pending jobs in the queue?}
-    B -->|yes| C[Get a new job]
+    A[Worker initialized] --> B{Jobs in queue?}
+    B -->|yes| C[Get and process job]
     C --> B
-    B ---->|No| E[End the worker]
+    B ---->|no| E[Stop]
 ```
 
-The fixed number of workers will ensure that, during the entire program execution, there will be a maximum number of tasks running, which will limit the memory impact of our concurrent tasks.
+A fixed pool caps how many tasks run at the same time, keeping resource usage predictable.
 
-### The worker pool's results queue (optional) 
+### Results queue (optional)
 
-Optionally, we can send the result of each task executed by a worker to a second queue; the result queue, which we can process later.
+Workers can push results to a separate queue for later processing.
 
-``` mermaid
+```mermaid
 classDiagram
 class ResultsQueue{
     result 1
@@ -136,4 +134,4 @@ class ResultsQueue{
 }
 ```
 
-This design pattern is very useful when huge amounts of tasks have to be processed and when we do not want to overload the system. And, as you can guess it is quite popular and useful in programming languages that heavily use concurrency, such as [the Go programming language]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}).
+This pattern is common in languages with strong concurrency support like [Go]({{< ref path="/posts/go/go-lenguaje-de-programacion-introduccion-al-lenguaje-variables-y-tipos-de-dato/index.md" lang="en" >}}) and is useful for processing large batches of work without overwhelming the system.
