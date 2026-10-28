@@ -5,7 +5,6 @@ baseURL = "https://coffeebytes.dev/"
 copyright = "© All rights reserved."
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
-googleAnalytics = ""
 ignoreLogs = ['warning-goldmark-raw-html']
 phAnalytics = ""
 postitle = "Development blog"
@@ -72,7 +71,7 @@ weight = 6
 [languages.en.params]
 GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
-PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
+PostHogAnalytics = ""
 audience = "Developers"
 author = "Eduardo Zepeda"
 description = "A human written blog where I talk about tech, development and Linux. Expect opinions, tutorials, ideas and rants."
@@ -160,7 +159,7 @@ GoogleAdSenseClient = "ca-pub-4250730649804995"
 GoogleTagManager = ""
 MailerLiteAccount = "2325960"
 MailerLiteDataForm = "3wjRyd"
-PostHogAnalytics = "phc_bdNibmcFfhKQR6vm69bRtnnlzgkkO7cOSj44R09E98o"
+PostHogAnalytics = ""
 TelegramGroupLink = "+2X-P9bP8grU5MWVh"
 audience = "Developers"
 author = "Eduardo Zepeda"
@@ -256,3 +255,8 @@ mediaTypes = ['application/vnd\.api\+json', 'image/avif', 'image/jpeg', 'image/p
 
 [pagination]
 pagerSize = 9
+
+
+[services]
+  [services.googleAnalytics]
+    id = "G-P84BC2GXX4"
