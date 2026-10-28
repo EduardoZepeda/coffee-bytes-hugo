@@ -21,13 +21,11 @@ keywords:
 title: Hello World, how did I learn to code?
 ---
 
-The first time I used a computer was when I was 9 years old, in the computer room of the school where I studied. The teachers were teaching us how to operate the [Logo Writer turtle](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/) using simple commands, in MS-DOS. We made the turtle paint hexagons, octagons and even trapped it in an infinite loop.
+The first time I used a computer was at age 9 in my school's computer lab. We used [Logo Writer](https://www.xataka.com/historia-tecnologica/tortuga-que-nos-enseno-a-programar-historia-logo-primer-lenguaje-programacion-disenado-para-ninos/) to control a turtle in MS-DOS, making it draw shapes or get stuck in infinite loops.
 
-I didn't have a computer at home, so my interaction with computers was limited to those two hours a week at school.
+We didn't have a computer at home, so that was the only time I got to use one. When I was 12, my dad brought home an IBM he used for work - 256 MB of RAM and a 10 GB hard drive. I installed programs, clicked everything I could, downloaded Neon Genesis Evangelion openings and endings as MIDI files (MP3s weren't common back then), and played a lot of games on emulators.
 
-When I was 12 years old my dad brought a computer at home, an IBM that he got to facilitate his work as a teacher. That little thing with 256 MB of RAM and 10 GB of hard drive was my test subject. I installed small programs on it, clicked on everything I could, downloaded the openings and endings of Neon Genesis Evangelion in midi (mp3 was not popular back then) and used it to play lots and lots of video games on the emulators that were available on the net.
-
-One fine day, while surfing the internet, I discovered the personal blogs on [blogspot](https://www.blogger.com/), I became a fan of the blogger atmosphere, I visited one blog after another, they all had such interesting things to tell. Some were bright, colorful and full of details, others were minimalist and elegant, others quite dark and gloomy; **each blog was a reflection of its author's personality**. Back then I had no idea how to have my own.
+One day while browsing, I found personal blogs on [Blogspot](https://www.blogger.com/). I read through them one after another. Some were bright and detailed, others minimal and elegant, others dark and gloomy. Each one felt like a reflection of its author, and I wanted one of my own.
 
 ## Internet and blogs
 
@@ -35,80 +33,74 @@ One fine day, while surfing the internet, I discovered the personal blogs on [bl
 
 {{<ad0>}}
 
-After reading a couple of tutorials and learning how easy it was to create a blog, I decided to create my own, I named it "[manzana amarga](https://web.archive.org/web/20100212062706/http://manzana-amarga.blogspot.com/)" (bitter apple), after a song from an anime called Shaman King. I used to fill it with my thoughts and the occasional pictures of my daily life. 
+After reading a few tutorials, I made my own blog called "manzana amarga" (bitter apple), named after a song from *Shaman King*. I wrote about my thoughts and the occasional photo of my day-to-day life.
 
-Eventually I wanted to customize it and found that to do so I had to modify the HTML and CSS code. In order to modify my tiny little corner on the internet the way I wanted, I learned the basics of HTML and CSS; to change the font color, the background, modify the layout to have more columns, to insert background images, to add small scripts and chatboxes, etc.
+I wanted to customize it, so I learned the basics of HTML and CSS to change fonts, colors, layouts, backgrounds, add scripts, and chatboxes. 
 
 {{< figure src="images/blog-manzana-amarga.jpg" class="md-local-image" alt="Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme." caption="Registration of my blog archive.org, the layout was ruined because Photobucket changed its urls scheme."  width="1200" height="605" >}}
 
-A few years later, thanks to of one of my best friends, I got a job in a cyber café. I learned how to fix the most common bugs, to connect printers to a server, to pass files between computers in the same network, to modify the windows registry keys, to download torrent files, to anage Office packages, Photoshop, Keyloggers, to format computers, etc. **However, during all that time, I never coded anything**.
+A few years later, a good friend helped me get a job at a cyber café. I learned how to fix common issues, connect printers to a network, share files, edit the Windows registry, download torrents, manage Office and Photoshop, handle keyloggers, format computers, and more. I never wrote code there though.
 
-While working at the cyber café, I decided to study chemistry because I was good at mathematics and hard sciences. Along the way I created another blog called "Lluvia de fotones" (Rain of Photons) that I ran while I was taking my classes.
+While working at the cyber café, I decided to study chemistry since I was good at math and the hard sciences. I also made another blog called "Lluvia de fotones" (Rain of Photons) while taking classes.
 
-I didn't like university (in general, not only the career I chose), I found it slow-going, boring, protocolary and full of nonsense. Throughout my time at the university, knowing how to use a computer to search for information gave me many advantages over my less tech skilled classmates.
-
-I finished my degree and **graduated in the top three GPAs of my class**. However, after a quick glance to the available workplaces in my hometown, I decided never to practice.
+University wasn't for me. It felt slow, boring, and overly bureaucratic. Knowing how to search for information online gave me an edge over classmates who weren't as tech-savvy. I still graduated in the top three of my class, but after looking at job options in my hometown, I knew I wouldn't go into that field.
 
 {{<ad1>}}
 
 ## Supercell and Miku Hatsune
 
-One afternoon I was researching about a Japanese band called [Supercell](https://www.supercell.jp/#?) on the internet. Supercell was a rather peculiar band, their vocalist was a computer program called Vocaloid, a software that borrowed the voice of [Saki Fujita](https://en.wikipedia.org/wiki/Saki_Fujita/#?) to create a virtual singer, named Miku Hatsune. Vocaloid allowed its users to use Miku Hatsune as their personal vocalist, modulating tones, beats and syllables.
+One afternoon, I was researching the Japanese band [Supercell](https://www.supercell.jp/#?). They were unusual - their vocalist was a computer program called Vocaloid. It used [Saki Fujita](https://en.wikipedia.org/wiki/Saki_Fujita/#?)'s voice to create a virtual singer, Miku Hatsune. Users could use her voice to sing their own lyrics with custom melodies and rhythms.
 
-The more I read about Miku Hatsune the more I wanted to know, I was stunned; the company that had programmed Vocaloid was literally giving a voice to all those artists who, for one reason or another, did not have a voice to bring their lyrics to life. At that moment I understood the true potential that the code had and I said to myself: "I also want to use computers and code to create".
+The more I learned about it, the more fascinated I was. The people behind Vocaloid were giving a voice to artists who wouldn't otherwise have one. In that moment, I realized the potential of code. I wanted to do the same - use computers and code to create things.
 
 {{< figure src="images/FiguraDeMikuHatsune.jpg" class="md-local-image" alt="Miku Hatsune plastic figure" caption="Miku Hatsune plastic figure. Image credits to 南menghua https://pixabay.com/es/users/%E5%8D%97menghua-19298964/"  width="1280" height="853" >}}
 
 {{<ad2>}}
 
-At that time, it crossed my mind to go back to college, but I dismissed the idea immediately. I had already been there, the university was inefficient, the level of most of the professors was mediocre at best, their academic plans were completely outdated and the face-to-face classes were slow and inefficient. I decided that I would not make the same mistake twice, this time I would try to learn on my own.
+I thought about going back to university, but quickly dismissed it. The programs were outdated, many professors weren't great, and classes felt inefficient. This time, I'd learn on my own.
 
 ## Moving from Windows to GNU/Linux
 
-At some point right after leaving college I switched my personal operating system to GNU/Linux, at first I had a hard time adapting, I missed Photoshop and other Microsoft exclusive programs, but as I learned how it worked I started to enjoy it even more than Windows. I started with Linux Mint (I never liked Ubuntu), then I tried Kali for a year and ended up with Debian, which I still use as my main operating system.
+Around that time, I switched to GNU/Linux. It was tough at first - I missed Photoshop and some Windows-exclusive programs. But as I learned how it worked, I grew to prefer it. I started with Linux Mint, tried Kali for a year, and landed on Debian, which I've used ever since.
 
-In Linux I learned how to install programs and the basic commands. Later I learned how to set up a LAMP server and coded my first "hello world" in PHP.
+On Linux, I learned to install software and use basic commands. Then I set up a LAMP server and wrote my first "Hello World" in PHP.
 
 ## My experience with PHP
 
-PHP was my first experience with a programming language, and also the shortest one. After reading a thick book called Beginning PHP and MySQL, written by W. Jason Gilmore at the municipal library, and learning quite a few basic concepts I was quite overwhelmed with the large amount of unnecessary functions, its syntax seemed chimerical and whimsical, and I was quite disappointed when I learned that the language was incapable of producing desktop applications in a simple way.
+PHP was my first programming language. After reading *Beginning PHP and MySQL* by W. Jason Gilmore at the municipal library, I learned the basics. But I found it overwhelming with its many functions, its syntax felt inconsistent, and I was disappointed that it wasn't practical for building desktop apps.
+
+PHP got me into programming, but it didn't click. Then I met Python.
 
 {{<ad3>}}
 
-PHP had introduced me to the world of programming relatively easily, but I still felt that the language was not for me... but then I met Python.
+## A language named after comedians
 
-## Language with the name of a group of humorists
+For a while, I avoided Python for a silly reason - I didn't know Monty Python at the time and didn't care about the name. Eventually I put that aside and tried the [code.org](https://code.org/#?) Python course. I fell in love with it right away.
 
-After months of avoiding all information related to Python **for the silly reason that it owes its name to 'Monty Python'**, a group of British comedians with whom I was not familiar, I decided to leave my prejudices behind and give it a try. I signed up for the online Python course [code.org](https://code.org/#?) and instantly fell in love with the language.
+Python's syntax was clean, functions were simple, and the design just made sense. 
 
-Python fascinated me with its simple syntax, the simplicity of the functions and the elegance of its design.
+{{< figure src="images/ElGrupoDeComediantesMontyPython.jpg" class="md-local-image" alt="The comedy group known as Monty Python" caption="Photograph of the comedy group known as Monty Python, after which the programming language is named."  width="1280" height="960" >}}
 
-{{< figure src="images/ElGrupoDeComediantesMontyPython.jpg" class="md-local-image" alt="The comedy group known as Monty Python" caption="Photograph of the comedy group known as Monthy Python, after which the programming language is named."  width="1280" height="960" >}}
-
-A month later I read the book [Beginning Python from novice to Professional](/en/python/learn-python-from-scratch-beginning-python-review/) and experienced the beauty of Python's simplicity and versatility.
-
-With Python I could do everything: create desktop applications, web pages, simple scripts to automate tasks, all with a syntax simple and predictable enough for a programming layman like me. A few weeks were enough for Python to become my favorite programming language (it still is today, but now I have sidechicks), and I went from my first "Hello World" to more complicated things.
+A month later, I read [Beginning Python: From Novice to Professional](/en/python/learn-python-from-scratch-beginning-python-review/). With Python, I could build desktop apps, websites, and scripts to automate tasks - all with simple, predictable syntax. Within a few weeks, it became my go-to language, and I went from "Hello World" to much more complex projects.
 
 ## Using Python to make my life easier
 
-A year later I would use Python to automate my day-to-day digital tasks.
+A year later, I was using Python to automate parts of my day. I automated image generation with prices for my online store using ImageMagick. I used Selenium to post products to Facebook groups without relying on the official API (which had disabled group posting at the time).
 
-I completely automated the creation of images with prices for my online store using imagemagick. I programmed the periodic publication of products in facebook groups, using selenium, and without using the official facebook API (because they had disabled the option to publish in groups).
+I also used Django to build and customize an online store for a fan page I ran. By then I'd read plenty of books on Python, Django, and web development, and practiced through tutorials.
 
-Later I used Django to create and customize an online store for the photo products fanpage I managed. By then I had already read quite a few books about Python, Django and web development, as well as watched and practiced a lot of video tutorials on the same subject.
+I could schedule tasks to run while I did other things. The store made money with little upkeep. In my free time, I studied C, C++, algorithms, discrete math, cryptography, best practices, security, free software, GNU/Linux, differential equations, and anything else that seemed useful.
 
-Python was wonderful, I could schedule all the tasks for the day and leave them running while I went off to do other things. The system worked perfectly, made me money and required almost no time investment on my part. I dedicated the free time I had to train myself in more topics related to the programming world: C, C++, algorithms, discrete mathematics, cryptography, best practices, computer security, free software, GNU/Linux, differential equations and other topics that I considered relevant.
+That's pretty much how I learned to code - mostly self-taught through [books](/en/pages/libros-que-he-leido-y-resenas/), blogs, tutorials, and a lot of practice.
 
-This is, in a fairly short way, the story of how I started programming. Always self-taught, [reading books](/en/pages/libros-que-he-leido-y-resenas/) and blogs, watching tutorials and **practicing a lot**.
+## The Bedu bootcamp
 
-## Bootcamp in Bedu
+Since many companies want some form of certification, and I wasn't sure if what I'd learned matched current industry standards (imposter syndrome), I signed up for a six-month bootcamp at [Bedu](https://bedu.org/#?).
 
-Finally, since many companies love to have a piece of paper to back up what you already know, and I was a bit unsure if everything I had read applied to today's development world (the famous imposter syndrome), I decided to sign up for a 6-month Bootcamp at [Bedu](https://bedu.org/#?).
-
-At the risk of being a bit arrogant, I will say that the bootcamp was a piece of cake thanks to everything I had practiced and read before, I did not really learn many new things. However, it was thanks to Bedu that I met some fascinating and talented people among my classmates and teachers. Also thanks to Bedu I tried Platzi, the online learning platform that they use as a prework for their face-to-face classes. The community alone made it worth every penny I paid.
+It was easy for me thanks to what I'd already practiced. I didn't learn much new technically, but I met great people - classmates and instructors. Through Bedu, I also got access to Platzi, which turned out to be valuable on its own.
 
 {{< figure src="images/ColaboraCoworking.jpg" class="md-local-image" alt="Colobora Coworking in Chapultepec, Guadalajara" caption="Image taken from Colabora's website"  width="2560" height="1707" >}}
 
-I went through the Bedu bootcamp at Colabora Coworking.
+I did the bootcamp at Colabora Coworking in Chapultepec, Guadalajara.
 
-Maybe in a future post I will talk about my experience in Bedu and Platzi, since this post is already getting quite long. If you want to ask me more about my experience, leave me a comment or send me a DM to [twitter](https://twitter.com/hello_wired#?) and I will tell you more about my experience.
+Maybe I'll write more about Bedu and Platzi later - this post is already long enough. If you have questions about either, feel free to leave a comment or message me on [Twitter](https://twitter.com/hello_wired#?).
