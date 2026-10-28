@@ -21,20 +21,20 @@ keywords:
 title: AI is Overhyped When Will the Bubble Burst?
 ---
 
-Before you read this post, I want to make something very clear. **A bubble doesn't mean something is useless, fake, or will disappear, it means that its market valuation is way above its real value.** Eventually the market will correct itself and its value will drop.
+A bubble doesn't mean something is useless, fake, or will disappear - it means market valuation is above its real value. Eventually, the market corrects and value drops.
 
-What's being debated here isn't whether AI is useful or not—obviously it is, at least for a specific sector of the population (programmers)—what's being debated is whether it's inflated or not in the market.
+The debate isn't whether AI is useful. It clearly is, at least for some groups like programmers. The question is whether it's overvalued.
 
-But I believe that while AI has astonishing capabilities, it's far from revolutionizing the world and achieving the total automation expected by the general public in the short term. The AGI promised to replace all employees is still far away, if it's even possible. The closest thing we have is a [Searle's Chinese Room]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}).
+While AI has impressive capabilities, it's far from revolutionizing the world or achieving the total automation the public expects in the short term. AGI that could replace all employees is still far off, if it's even possible. The closest analogy is [Searle's Chinese Room]({{< ref path="/posts/artificial-intelligence/chat-gpt-y-la-habitacion-china-de-searle/index.md" lang="en" >}}).
 
-And I'm not alone in this. Even companies as big as Apple dropped out of the AI race. Their reasons? You can probably find them detailed in their paper [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf).
+I'm not alone in this view. Apple stepped back from parts of the AI race, with reasons outlined in [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf).
 
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1755670736/Sam-altman-sees-an-ai-bubble_rx7hdu.png" class="md-local-image" alt="Meme Sam Altman sees an AI bubble"  width="745" height="454" >}}
 
-Even [Sam Altman admits to seeing an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html), according to the media:
+[Sam Altman has also warned about an AI bubble](https://www.cnbc.com/2025/08/18/openai-sam-altman-warns-ai-market-is-in-a-bubble.html):
 
-> "Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes," 
+> "Are we in a phase where investors as a whole are overexcited about AI? My opinion is yes. Is AI the most important thing to happen in a very long time? My opinion is also yes,"
 
 {{<adsPanels>}}
 
@@ -42,82 +42,74 @@ Even [Sam Altman admits to seeing an AI bubble](https://www.cnbc.com/2025/08/18/
 
 ## Many AI companies can't live up to expectations
 
-Builder.AI, a promising AI that offered website creation through AI, was nothing more than a group of Indian developers working behind the scenes, and [just declared bankruptcy](https://finance.yahoo.com/news/builder-ais-shocking-450m-fall-170009323.html). See? There's no AGI.
+Builder.AI, which marketed AI-powered website creation, turned out to rely heavily on Indian developers working behind the scenes and [declared bankruptcy](https://finance.yahoo.com/news/builder-ais-shocking-450m-fall-170009323.html). That highlights the gap between marketing and reality.
 
-This is just more proof that many AI companies are playing cat and mouse with investor money. They try to create expectations to get money from angel investors and whoever else, and then crash spectacularly when they don't deliver on their promises. But by then, who cares? They've already profited and business involves risks, so...
+Many AI companies raise money by creating expectations, then struggle when they can't deliver. By the time that happens, they've often already raised significant funding.
 
 {{< figure src="images/meme-ai-is-this.jpg" class="md-local-image" alt="Meme que se burla de las capacidades de la AI"  width="630" height="1061" >}}
 
-Similarly, Devin AI faded into obscurity. At the same time, we're seeing the law of diminishing returns with each new LLM that comes out—generative models are reaching that point too.
+Devin AI also faded into obscurity. We're seeing diminishing returns with each new LLM release as generative models approach a plateau.
 
-In fact, some companies have already abandoned the idea of replacing developers and shifted their focus to becoming code creation tools, like [Bolt, Lovable or V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}), and others are emerging to position themselves as code assistants for developers: Opencode, Claude Code, Codex, etc.
+Many companies have shifted away from the "replace developers" narrative toward becoming code creation or assistant tools, like [Bolt, Lovable, or V0]({{< ref path="/posts/artificial-intelligence/bolt-vs-lovable-vs-vercel-v0-mi-opinion/index.md" lang="en" >}}), along with tools like OpenCode, Claude Code, and Codex.
 
 {{<ad1>}}
 
-## Humanity's last exam shows we're still very far from AGI
+## Humanity's Last Exam shows we're still far from AGI
 
-Let's consider the scores from Humanity's last exam. As you can see, we're at around ~30%, **which is frankly a lot—I don't believe we've seen such a significant breakthrough in a long time**. Just thinking about the possibilities makes me tremble. But investors and clickbait media are trying to convince you that we're at around 100%, which is a fallacy of enormous magnitude.
+Humanity's Last Exam scores sit around 30% - impressive, and a significant breakthrough. But that's far from 100%, despite what some clickbait headlines suggest.
 
-{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1787342681/coffee-bytes/humanity-last-exam_jytwfz.jpg" alt="Humanity's last exam score" caption="" width="360" height="341" >}}.
+{{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1787342681/coffee-bytes/humanity-last-exam_jytwfz.jpg" alt="Humanity's last exam score" caption="" width="360" height="341" >}}
 
-Don't get me wrong, these scores are impressive, **but they're not the magic bullet that media and investors promote.**
+These results are notable, but they don't mean we're close to AGI as often portrayed.
 
 {{<ad2>}}
 
-## The AI bubble is fueled by investor and consumer ignorance
+## The AI bubble is fueled by hype and misunderstanding
 
-All it takes is for a company to use AI to give it an air of mystery that makes it irresistible to the general public—and to investors. And for a simple reason: as a society, we don't understand how AI works internally, we don't understand the underlying statistics, and we attribute it with mystical properties.
+Many companies add "AI" to their pitch to attract attention from investors and customers. Most people don't understand how these models work statistically, so they often attribute them with near-magical abilities.
 
-Consumers, usually businesses, expect AI to reduce (or eliminate) hiring costs, and investors expect the investment of their lives.
+Businesses hope AI will cut hiring costs, while investors hope to find the next big AI winner.
 
 {{< figure src="https://res.cloudinary.com/dwrscezd2/image/upload/v1748837232/coffee-bytes/ai-expectations-vs-reality_zwg4xh.png" class="md-local-image" alt="My AI reality vs expectations diagram" caption="No es que la AI no sea valiosa, lo es, solo que, actualmente, su valor está inflado"  width="3082" height="2695" >}}
 
-## The financial frenzy for AI and capital investment
+## Financial frenzy
 
-Of course, investors don't want to be left out of this party and they're so eager to win the lottery and become the next Zuckerberg of artificial intelligence that they open their wallets without thinking every time they hear the word "AI" in the same sentence as "disruptive."
+Investors are rushing to fund anything labeled "AI" and "disruptive", hoping to catch the next big winner.
 
 {{<ad3>}}
 
 {{< figure src="images/wallstreet-is-dumb.jpg" class="md-local-image" alt="Wallstreet no tiene idea de AI"  width="630" height="391" >}}
 
-But in my opinion, all of this is nothing more than a bunch of companies and entrepreneurs acting accordingly to what came before, as I suspect [the creators of Devin, the supposed replacement of programmers]({{< ref path="/posts/artificial-intelligence/devin-de-cognition-labs-la-inteligencia-artificial-que-reemplaza-a-los-programadores/index.md" lang="en" >}}) did.
-
-The market tries to make a quick buck from the growing and sudden interest of laypeople in the tech world for something as abstract, and so esoteric, as AI.
+Much of this mirrors past tech cycles. The market is trying to profit from sudden interest in something abstract like AI.
 
 ### AI-driven layoffs
 
-You've probably witnessed the atmosphere of uncertainty in the tech industry. You're afraid of losing your job, afraid of being replaced. While it's true that the bar is higher and code factories are no longer valuable, layoffs aren't driven by AI but by other factors.
-
-Companies have taken advantage of the circumstances to [do AI-washing with layoffs and blame AI](https://www.forbes.com/sites/maryroeloffs/2026/05/07/ceos-say-layoffs-are-ais-fault-but-some-experts-think-companies-are-lying/) for their financial decisions.
+Layoffs have created fear of replacement, but the bar is rising for different reasons. Most layoffs aren't directly driven by AI - companies are [using AI as a cover to justify cost cuts](https://www.forbes.com/sites/maryroeloffs/2026/05/07/ceos-say-layoffs-are-ais-fault-but-some-experts-think-companies-are-lying/).
 
 ## Many AI solutions are just ChatGPT wrappers
 
-On top of that, most people involved in the financial side of AI don't realize that not much has really changed in the code world. Most solutions just use ChatGPT under the hood, with a pretty interface to present themselves as the next unicorn and seek easy money from investors.
+Many startups are just thin wrappers around ChatGPT or other LLMs with a nicer UI, hoping to become the next unicorn. If your product is just a wrapper, it's easy to replicate and hard to defend.
 
 {{< figure src="images/ai-company-chatgpt.jpg" class="md-local-image" alt="Las startups solo son un wrapper de chatgpt"  width="630" height="486" >}}
 
-Using ChatGPT for your business isn't bad in itself, but if an app is just a wrapper of GPT, the risk of becoming a commodity is high. Are we going to have thousands of different apps that solve the same problem and are just ChatGPT wrappers? You can't have a unicorn that anyone can replicate with a few lines of code.
+This isn't inherently bad, but it inflates valuations. Protocols like the [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}) make building these wrappers even easier.
 
-Even though protocols have been created for interaction with LLMs, like the [Model Context Protocol]({{< ref path="/posts/artificial-intelligence/mi-explicacion-del-context-model-protocol-o-cmp/index.md" lang="en" >}}), what's most common are AI Wrappers.
+I'd rather see more investment going toward applications that actually add value - like [using AI to design better drugs](/es/artificial-intelligence/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/) or automating tedious work to free up time, not just chasing quick returns.
 
-And it's not that the above is bad, but I'd rather explore all the possibilities that AI has to offer—that we train neural networks to automate every tedious aspect of society and free humans from the paradigm of performing repetitive 9-5 tasks. Maybe [designing better drugs through artificial intelligence](/es/artificial-intelligence/inteligencia-artificial-y-diseno-de-farmacos-y-medicamentos-para-desarrolladores/). I do want more investment in AI, but that "adds value"—not just seeking quick returns.
+## Running out of training data
 
-## Companies are running out of data to train LLMs
-
-There's also a physical limit to AI development: the amount of data and processing capacity. The second we can solve, but what about the first? AI is only as good as the data used to train it, and this data will become increasingly scarce. [Over 50% of online content is now AI-generated](https://futurism.com/artificial-intelligence/over-50-percent-internet-ai-slop). We're entering the law of diminishing returns. And I'm not the only one who thinks this.
+AI is limited by data and compute. Compute can scale, but high-quality training data is getting scarce. [Over 50% of online content is now AI-generated](https://futurism.com/artificial-intelligence/over-50-percent-internet-ai-slop), creating a feedback loop where models train on AI-generated content and returns diminish.
 
 {{<youtube "nkdZRBFtqSs">}}
 
-The greed driving AI usage is going to flood the internet with a myriad of AI articles that will be used to feed AI, and it will regurgitate them over and over ~~like in the human centipede movie~~.
+## The end of the AI bubble
 
-## The end of the AI bubble and the new normal
+AI isn't smoke and mirrors - it's here to stay. But its social impact in the short term will likely be concentrated among a few large players like OpenAI, Google, and Microsoft.
 
-That said, it might seem like I believe all this about AI is smoke and mirrors—but that's not the case. **I believe AI is here to stay and its potential for social revolution, at least in the short term, will be limited to a very small group of companies**, among which I include OpenAI, Google, Microsoft, and the usual players.
+At its core, current AI is advanced autocomplete for text, images, and video. It's useful for translation, though [relying on it for live conversations has drawbacks]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="en" >}}). AGI remains distant.
 
-In my opinion, Artificial Intelligences are the ultimate autocomplete—be it text, images, or video, nothing more. AI is useful in translation, despite being an [awful idea to use it to translate conversations IRL]({{< ref path="/posts/artificial-intelligence/why-you-shouldnt-rely-on-ai-to-communicate-in-another-language/index.md" lang="en" >}}). AGI is a milestone that remains distant in the future. 
+> Machines don't learn. What a typical "learning machine" does is finding a mathematical formula, which, when applied to a collection of inputs (called "training data"), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. - Andriy Burkov
 
-> Machines don't learn. What a typical "learning machine" does is finding a mathematical formula, which, when applied to a collection of inputs (called "training data"), produces the desired outputs. This mathematical formula also generates the correct outputs for most other inputs (distinct from the training data) on the condition that those inputs come from the same or a similar statistical distribution as the one the training data was drawn from. -Andriy Burkov
-
-The financial bubble will burst, the hype will die, and we'll reach a plateau where people will understand the real potential of AI, as well as its limitations, and it will become just another tool at our disposal. Yes, the internet will change forever at that moment. And finally AI bros will move on to the next trend and stop spreading FOMO on social media. 
+The financial bubble will burst and hype will fade. We'll reach a point where people understand AI's real capabilities and limits, and it becomes just another tool. The internet will change, and the AI FOMO will move to the next trend.
 
 {{< figure src="images/ai-bubble-explosion-meme.jpg" class="md-local-image" alt="Meme de dragon ball sobre la explosión de la burbuja de AI"  width="630" height="473" >}}

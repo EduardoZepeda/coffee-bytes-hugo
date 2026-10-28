@@ -21,21 +21,23 @@ keywords:
 title: 'REST API Best Practices: A Guide Based On Many Books'
 ---
 
-How do I design a REST API? How many levels should I nest my related resources? Relative or full URLs? This post is a compilation of some recommendations about some good REST API design practices that I have found in books and articles on the internet. I leave the sources at the end of the article in case you are interested in going deeper or see where this information comes from.
+How do I design a REST API? How many levels should I nest related resources? Relative or full URLs? 
 
-Before we get started, there are a number of [basic features of a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}), which I laid out in a previous post, check them out if you have questions. In this post I'm going to talk a bit about some more subjective aspects related to REST API design.
+This post compiles recommendations for REST API design from books and articles I've read. Sources are at the end if you want to go deeper.
 
-Remember that a REST API can return other formats, not just JSON, but I'm going to focus on this one for the examples because it's quite popular.
+Before starting, check out [basic features of a REST API]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) from a previous post if you need context. Here, I'll focus on more subjective aspects of REST API design.
 
-I'm going to start with a fairly common question: how do I structure my JSON response?
+A REST API can return other formats, not just JSON, but I'll use JSON for examples since it's common. 
+
+First question: how to structure JSON responses?
 
 ## Structure for JSON responses
 
-There are different ways to structure the response of a REST API. There is no valid or invalid one, it depends on the taste of each team and the needs of the application. **The important thing here is to maintain consistency and homogeneity in all your responses.**
+There are different ways to structure a REST API response. No single approach is correct - it depends on your team's preferences and your application's needs. The key is consistency across all responses.
 
-### According to json:api
+### JSON:API
 
-There is a [group of people who set out to standardize JSON responses](https://jsonapi.org/) into a single response style, either for returning single or multiple resources. You can take their style as a reference when designing their API to ensure uniformity of responses.
+[JSON:API](https://jsonapi.org/) standardizes JSON responses for single and multiple resources. You can use it as a reference for uniform responses.
 
 ```json
 {
@@ -48,7 +50,7 @@ There is a [group of people who set out to standardize JSON responses](https://j
 
 ### Twitter style API
 
-Twitter has its own way of doing things, the response from an individual resource looks like this:
+An individual resource response looks like this:
 
 ```json
 {
@@ -57,7 +59,7 @@ Twitter has its own way of doing things, the response from an individual resourc
 }
 ```
 
-For multiple resources, Twitter decided to include them within an array.
+For multiple resources, Twitter returns an array:
 
 {{<adsPanels>}}
 
@@ -78,7 +80,7 @@ For multiple resources, Twitter decided to include them within an array.
 
 ### Facebook style API
 
-On the other hand, on Facebook, the syntax for individual resources looks like this, just like Twitter:
+Individual resources look the same as Twitter:
 
 ```json
 {
@@ -87,7 +89,7 @@ On the other hand, on Facebook, the syntax for individual resources looks like t
 }
 ```
 
-While an answer for multiple resources is like this:
+Multiple resources go in a `data` array:
 
 ```json
 {
@@ -104,13 +106,13 @@ While an answer for multiple resources is like this:
 }
 ```
 
-Who to listen to? As you can see there are differences between companies and I don't know if I would dare to tell you that one or the other is correct, but I consider that if you keep constant in each of your endpoints and document it well, you shouldn't have any problems.
+There's no single "correct" approach among these options. As long as you stay consistent across endpoints and document your structure well, any of them works.
 
 {{<ad1>}}
 
 ## Relative or full URLs in HATEOAS?
 
-Remember that HATEOAS is a [feature of REST APIs]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}})? Well, from what I've researched, there's no clear consensus or official stance on whether it's better to include relative or full URLs. There is a lot of debate about it on stackoverflow, but microsoft uses full URLs in their responses, take it into account when designing your REST API.
+[HATEOAS]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) allows clients to navigate APIs through links. There's no official consensus on whether to use relative or full URLs - debates persist on Stack Overflow. Microsoft uses full URLs in its responses, so that's worth considering when designing your API.
 
 ```bash
 {"rel":"self",
@@ -121,11 +123,11 @@ Remember that HATEOAS is a [feature of REST APIs]({{< ref path="/posts/software-
 
 {{<ad2>}}
 
-Generally an API does not return individual resources, but resources that are related to other resources at the database level by one-to-one, many-to-many or one-to-many relationships. The question here is: do we include them in the response even if this increases its size? do we put only the identifiers and download them afterwards? It depends.
+APIs often return resources related by one-to-one, one-to-many, or many-to-many relationships. The question is whether to include related objects in the response (increasing size) or just their identifiers (requiring additional requests).
 
 ### Identifiers in the response
 
-This approach to the problem will require that if the user requires access to the information, it is downloaded at a later time. It is ideal for data that is rarely consulted or plentiful.
+Return only IDs for related resources and fetch them separately. This works well for large or rarely accessed data.
 
 ```json
 {
@@ -137,9 +139,7 @@ This approach to the problem will require that if the user requires access to th
 }
 ```
 
-This can bring you the problem of n+1 queries if you don't handle it well; consider the example above, each request to a post implies a new request to the database to get each comment.
-
-Of course that can be fixed by optimizing your searches so that, instead of getting them individually, you get them in a single query.
+This can lead to n+1 queries if not handled well - each post might trigger separate queries for comments. Optimize by fetching related data in a single query.
 
 {{<ad3>}}
 
@@ -149,7 +149,7 @@ GET /comments/2,3
 
 ### Resources in the response
 
-It is also possible to directly add the related objects in a single response, to avoid having to download them later. This will make each response take a little longer, as the server will process more information, but it can save subsequent requests to the API.
+Include related objects directly in the response to avoid extra requests. This makes responses larger and takes more processing time, but can reduce total requests.
 
 ```json
 {
@@ -176,7 +176,7 @@ It is also possible to directly add the related objects in a single response, to
   }
 ```
 
-If you want flexibility consider creating an endpoint where you can tell your API which resources you want to explicitly nest in the url, so that they are only integrated into the response if they are requested.
+For flexibility, add an option like `embed` to include related resources only when requested:
 
 ```bash
 GET /posts/1?embed=comments
@@ -184,18 +184,16 @@ GET /posts/1?embed=comments
 
 ## Pagination in APIs
 
-As I've already mentioned in previous posts when I talked [how to scale a django app]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}}), you don't always want to return the whole database to your users in each request. For large databases it is best to break the response into pages, with a limited number of items per page.
+As noted in [how to scale a Django app]({{< ref path="/posts/software-architecture/como-mejorar-el-rendimiento-de-una-aplicacion-hecha-en-django/index.md" lang="en" >}}), don't return entire datasets in one request. For large databases, paginate results with a fixed number of items per page.
 
-To facilitate the use of your API, consider adding pagination-related information in your response:
+Include pagination details in your response:
 
-* The total number of items
-* The number of elements per page
-* The total number of pages
-* The current page
-A url to the previous page (if any) * A url to the next page (if any)
-A url to the next page (if any) * A url to the next page (if any)
-
-As well as any other information you consider relevant.
+* Total number of items
+* Items per page
+* Total number of pages
+* Current page
+* URL to previous page (if any)
+* URL to next page (if any)
 
 ```json
 {
@@ -214,25 +212,21 @@ As well as any other information you consider relevant.
 
 ## API Versioning
 
-APIs are not static, they change with business needs, so they can change over time. It is important that the consumers of your API are aware of these changes, so versioning your API is an excellent idea.
+APIs change over time as business needs evolve. Versioning helps consumers adapt to those changes.
 
 ### Should I version my API?
 
-Generally you will want to version your API. However, if your API is extremely simple and its structure is extremely stable, or it works in such a way that changes are added as new endpoints, without modifying the old ones, you could leave it unversioned. If you have doubts about whether your API fits into the above, you should probably version it.
+Usually yes. If your API is simple, extremely stable, or changes only by adding new endpoints without modifying existing ones, you might skip versioning. When in doubt, version it.
 
 ### Where to version the API?
 
-For an API to adhere to the [REST architecture requirements]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) it must meet certain characteristics, but some companies choose to bypass these requirements for their APIs and still call them REST.
+While strict [REST architecture requirements]({{< ref path="/posts/software-architecture/caracteristicas-basicas-de-una-api-rest/index.md" lang="en" >}}) don't mandate a specific versioning approach, many companies use one of the following options regardless of strict REST compliance:
 
-Here are some options for versioning your APIs used by large companies, regardless of whether they are REST compliant or not.
+### URL level
 
-### At url level
+Most common. Simple to understand and implement, but updating can be difficult for clients storing URLs in databases, and separating across servers is harder. Technically, putting the version in the URL is not REST.
 
-Probably the most popular option of all.
-
-Incredibly simple to understand and implement but will cause you problems with clients who store URLs in a database, because with every change you will have to update them. Also, it's hard to separate them on different servers. Technically, **putting the version in the url is not REST**.
-
-Examples of companies: Twitter, dropbox, youtube, etsy.
+Examples: Twitter, Dropbox, YouTube, Etsy.
 
 ```bash
 http://dominio.com/api/v1/
@@ -240,25 +234,25 @@ http://dominio.com/api/v1/
 
 ### Domain level
 
-Quite simple to understand and implement but will bring problems to those customers who store urls in database. Again, technically, **placing the version in the domain is not REST**.
+Simple to understand and implement, but poses similar issues for clients storing URLs. Also not strictly REST.
 
-Examples of companies: Twitter, dropbox, youtube, etsy.
+Examples: some services use subdomains like `apiv1.example.com`.
 
 ```bash
 http://apiv1.dominio.com
 ```
 
-### By means of parameters in the url or in the body
+### URL or body parameters
 
-It keeps the same url, only the parameters change. It brings problems with clients that save the urls and their parameters in the database. Technically **using parameters for API versioning is not REST**.
+Keeps the same URL; only parameters change. This can cause issues for clients storing URLs and parameters. Technically not REST.
 
-Examples of companies: Google data, Paypal.
+Examples: Google Data, PayPal.
 
 ```bash
-http://apiv1.dominio.com/resource?version=1
+http://example.com/resource?version=1
 ```
 
-In the HTTP request body it would look like this:
+In the request body:
 
 ```bash
 POST /places HTTP/1.1
@@ -270,11 +264,11 @@ Content-Type: application/json
 }
 ```
 
-### Through HTTP headers
+### HTTP headers
 
-Retains the same urls but may confuse caching systems.
+Keeps URLs the same, but can confuse caching systems. Add a `Vary: ApiVersion` header so [caching systems](/en/django/caching-in-django-rest-framework-using-memcached/) don't store different versions under the same URL.
 
-Example companies: Azure.
+Example: Azure.
 
 ```bash
 GET /resources HTTP/1.1
@@ -283,98 +277,65 @@ ApiVersion: 1.0
 Vary: ApiVersion
 ```
 
-Consider that you need to add a vary header so that the [caching systems](/en/django/caching-in-django-rest-framework-using-memcached/) do not store different versions of the API in the same url.
+### Content negotiation
 
-### In the content negotiation
+Uses HTTP's content negotiation mechanism (like for formats) to specify versions. This complies with REST since resources and their representations are separate concepts. It can be confusing for developers unfamiliar with HTTP headers.
 
-Remember that mechanism defined in the HTTP protocol that allows you to obtain different versions of a resource? Well, in addition to applying to formats, it can be used to specify versions.
-
-Keep the same urls, it can confuse developers who do not understand headers.
-
-Examples of companies: Github, Adidas.
+Examples: GitHub, Adidas.
 
 ```bash
 application/vnd.github[.version].param[+json]
 ```
 
-In REST one thing are the resources and another their representation, the resources, in addition to the format, have another form of representation, which is the API version, so this way does comply with REST. Although its use can be a little more confusing for people unfamiliar with the HTTP protocol.
-
 ## How much nesting of API resources?
 
-When we have relationships between our resources, [it is a good idea for SEO to create a hierarchal structure]({{< ref path="/posts/seo/guia-de-seo-tecnico-para-desarrolladores-web/index.md" lang="en" >}}), however it could be tempting making it unnecessarily long.
+For SEO, a hierarchical structure can help, but deep nesting gets unwieldy quickly:
 
 ```bash
-# /resource/<id>/subresource/<id>/subsubresource/<id>/subsubsubresource ❌
-/clients/99/orders/88/products/77/variants ❌
+# Avoid deep nesting
+/clients/99/orders/88/products/77/variants
 ```
 
-The [DRF documentation suggests a flat structure](https://www.django-rest-framework.org/api-guide/relations/#example_2) when designing APIs.
+[DRF](https://www.django-rest-framework.org/api-guide/relations/#example_2), the [White House API standards](https://github.com/WhiteHouse/api-standards), and [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) all recommend keeping URIs simple.
 
-The white house API standards guide also advocates for succinct nesting.
-
-```bash
-resource/<id>/resource
-```
-
-[Microsoft also recommends keeping URIs as simple as possible.](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) But how do I refer to resources deeper in the URL? Well you can create an endpoint with one or two levels of nesting and access them directly.
+A good rule of thumb: limit nesting to one or two levels. For deeper relationships, access resources directly by ID:
 
 ```bash
-# /subresource/<id>
-```
-
-### And how to deal with related resources?
-
-Very long URLs, with multiple hierarchies above, can be shortened by accessing them directly using the direct reference to the resource.
-
-Instead of having an endpoint that requires the entire hierarchy in the URI. As in this example:
-
-```bash
-tienda/99/clients/99/orders/88/products/77
-```
-
-Reduce the length of the endpoint to a minimum, the identifier should be enough to access the resource.
-
-```bash
-# /subresource/<id>/subsubresource/<id>
+# Instead of going through the full hierarchy
 /orders/88/products/77
 ```
 
-Notice how even in the absence of the initial part of the URI above, we can still access the resource and it is perfectly readable.
+This keeps URLs shorter and easier to read, even without the parent hierarchy in the path.
 
 ## Notify about API updates
 
-Sometimes it is necessary to introduce structural changes in the APIs, to prevent all those who consume it from presenting problems, we need to notify them. But... how?
+When making breaking changes to your API, notify consumers in advance to avoid issues.
 
-In the [book Two Scoops of Django](/en/django/the-best-django-book-two-scoops-of-django-review/), the authors recommend the following steps for notifying an API version change.
+According to [Two Scoops of Django](/en/django/the-best-django-book-two-scoops-of-django-review/):
 
-* Notify users as far in advance as possible via email, blogs or any other means, almost to the point of boredom.
-* Replace the deprecated API response with an HTTP 410 error that returns a message containing links to: the new endpoint, the new API documentation and, if it exists, the text explaining why the changes were made.
+* Notify users as early and repeatedly as possible via email, blog posts, or other channels.
+* When deprecating an endpoint, return an HTTP 410 (Gone) error with a message that includes links to the new endpoint, updated documentation, and if available, an explanation of the changes.
 
 ## Limit your API through a throttling policy
 
-You should limit your API. Users should not have unrestricted access and unlimited requests to your API. There are users that can abuse your API, keep your server busy, preventing the rest of the users from using it and increasing your costs.
+Limit requests to prevent abuse, reduce server load, and control costs. Set a [throttling policy]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="en" >}}) on your server for all users.
 
-One way around this is to set a [throttling policy]({{< ref path="/posts/software-architecture/como-limitar-peticiones-con-throttling-en-nginx/index.md" lang="en" >}}) on your server for any user.
-
-You can also make it the center of your business and offer payment plans according to the number of requests per minute to your API.
+You can also offer payment plans based on the number of requests per minute as part of your API's business model.
 
 ## Special characters in the URI
 
-Use only valid characters in your URI.
+Use only valid characters in your URI. According to [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986#section-3):
 
-According to the specification [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986#section-3), the only valid characters, i.e., that do not need to be encoded, in a URI are the basic Latin alphabet letters, digits and some special characters (as long as they are used for their intended purpose).
+* Unreserved characters [0-9a-zA-Z - . _ ~]: no encoding needed
+* Reserved characters [: / ? # [ ] @ ! $ & ' ( ) * + , ; =]: encode only if not used for their intended purpose (e.g., a slash not separating paths)
+* Other characters: encode them
+* Unsafe characters [< > % { } | \ ^ `]: encode them
 
-* Secure characters [0-9a-zA-Z]: do not need to be encoded
-* Non-reserved characters [- . _ ~]: do not need to be encoded
-* Reserved characters [: / ? # [] @ ! $ & ' ( ) * + , ;] only need to be encoded if they are not used for their original purpose (e.g. a diagonal not used to separate paths)
-* Unsafe characters [< > % { } | \ ^ `]: need to be encoded.
-* All other characters need to be encoded.
-
-The above is changing and they are trying to add many more symbols from different languages, you can read more about it in the [w3 idn and iri article](https://www.w3.org/International/articles/idn-and-iri/).
+Standards are evolving to support more international characters. See [W3C's article on IDN and IRI](https://www.w3.org/International/articles/idn-and-iri/) for more details.
 
 ## Consider SEO in your URLs
 
-Search engines consider the URL to rank a web page, if search engine ranking is important to your website, don't just use identifiers, tell the search engine the topic in the URL. SEO and URLs are a topic too broad to summarize in a few lines, but this should give you an idea of how to search for more information.
+If search engine ranking matters, include descriptive text in your URLs rather than just IDs.
 
 ```bash
 /posts/post-title ✅
@@ -382,7 +343,9 @@ Search engines consider the URL to rank a web page, if search engine ranking is 
 /posts/99 ❌
 ```
 
-I hope you found the post useful, or at least that it introduced you to material you hadn't previously considered when designing an API.
+SEO and URLs is a broad topic, but this should point you in the right direction.
+
+I hope this post was useful or introduced you to ideas you hadn't considered when designing an API.
 
 ## Reference sources
 
