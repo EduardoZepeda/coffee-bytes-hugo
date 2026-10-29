@@ -52,7 +52,7 @@ Lo mejor sería mantener el uso de memoria constante y evitar crear y destruir w
 
 ## Explicación interactiva del patrón Worker pool
 
-{{<workerPool>}}
+{{< reactApp id="app-worker-pool" >}}
 
 Worker pool es un [patrón de diseño]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="es" >}}) que viene para suplir estas deficiencias. 
 

@@ -31,7 +31,7 @@ When you're working with strings in programming—think autocomplete, search sug
 
 Let's see how they stand apart from binary trees, what they're good for, and in what kind of situations they just suck.
 
-{{<trieTree>}}
+{{< reactApp id="app-trie-simulator" >}}
 
 ## So, what exactly is a Trie Tree?
 

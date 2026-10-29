@@ -34,7 +34,7 @@ This data structure can produce *false positives*. But the good news are that th
 
 Because of this, Bloom filters shine when you care more about speed and space than absolute accuracy.
 
-{{<bloomFilter>}}
+{{< reactApp id="app-bloom-filter" >}}
 
 ### Where can I use bloom filters? 
 

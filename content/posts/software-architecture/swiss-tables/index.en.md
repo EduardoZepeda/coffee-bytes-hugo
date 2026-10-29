@@ -64,7 +64,7 @@ Swiss tables solve this with a separate metadata array. For each slot in the mai
 
 This is a big improvement. To check if a slot might contain a key, you can look at the metadata first without touching the main data array. That saves memory accesses and improves performance.
 
-{{<swissTables>}}
+{{< reactApp id="app-swiss-table" >}}
 
 ## How Swiss tables work
 

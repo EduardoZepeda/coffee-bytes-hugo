@@ -66,7 +66,7 @@ Este byte no es solo una "tombstone" o un flag de vacío; es un conjunto comprim
 
 Esto cambia las reglas del juego. ¿Por qué? Porque para verificar si un slot podría contener tu llave, no necesitas tocar para nada el arreglo principal de datos. Primero puedes revisar la metadata. Esto es una ganancia enorme para el rendimiento.
 
-{{<swissTables>}}
+{{< reactApp id="app-swiss-table" >}}
 
 ## Un Recorrido Paso a Paso por la Estructura de Datos de las Swiss Tables
 

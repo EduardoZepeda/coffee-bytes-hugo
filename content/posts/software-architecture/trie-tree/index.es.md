@@ -32,7 +32,7 @@ Cuando trabajas con strings en programación—ya sea autocompletado, sugerencia
 
 Vamos a ver en qué se diferencia de un árbol binario, para qué sirve y en qué situaciones simplemente apesta.
 
-{{<trieTree>}}
+{{< reactApp id="app-trie-simulator" >}}
 
 ## Entonces, ¿qué es exactamente un Trie Tree?
 

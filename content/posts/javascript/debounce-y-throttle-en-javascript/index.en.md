@@ -35,7 +35,7 @@ Let's use an interactive example to see the differences between Debounce and Thr
 
 If you type in the text box, you'll see how each pen behaves.
 
-{{<debounceVsThrottle>}}
+{{< reactApp id="app-debounce-vs-throttle" >}}
 
 ## Debounce vs Throttle main differences
 

@@ -404,11 +404,26 @@ const WorkerPoolVisualization = () => {
     );
 };
 
-export default function renderWorkerPool() {
-    if (document.getElementById("app-worker-pool")) {
-        document.body.addEventListener('htmx:afterSettle', renderWorkerPool);
-        document.body.addEventListener('htmx:historyRestore', renderWorkerPool);
-        render(<><style dangerouslySetInnerHTML={{ __html: css }} /><WorkerPoolVisualization /></>, document.getElementById('app-worker-pool').attachShadow({ mode: 'open' }));
-    }
-    return;
+const CONTAINER_ID = "app-worker-pool";
+
+function renderWorkerPool() {
+    const container = document.getElementById(CONTAINER_ID);
+    if (!container) return;
+
+    const root = container.shadowRoot ?? container.attachShadow({ mode: "open" });
+
+    render(
+        <>
+            <style dangerouslySetInnerHTML={{ __html: css }} />
+            <WorkerPoolVisualization />
+        </>,
+        root
+    );
 }
+
+// Register once at module evaluation so it works on any page reached via hx-boost.
+["htmx:afterSettle", "htmx:historyRestore"].forEach((event) =>
+    document.addEventListener(event, renderWorkerPool)
+);
+
+export default renderWorkerPool;

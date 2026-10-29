@@ -1,0 +1,7 @@
+{{- /* Renders one of the interactive Preact/React apps. Usage: {{< reactApp id="app-bloom-filter" >}} */ -}}
+{{- $id := .Get "id" -}}
+{{- if not $id -}}
+  {{- errorf "reactApp shortcode requires an id parameter: %s" .Position -}}
+{{- end -}}
+<div id="{{ $id }}"></div>
+{{ partial "react-scripts.html" . }}

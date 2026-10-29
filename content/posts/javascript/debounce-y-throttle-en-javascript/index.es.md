@@ -37,7 +37,7 @@ Vamos a usar un ejemplo interactivo para ver las diferencias entre Debounce vs T
 
 Si escribes en la caja de texto verás como se comporta cada corral.
 
-{{<debounceVsThrottle>}}
+{{< reactApp id="app-debounce-vs-throttle" >}}
 
 ## Debounce vs Throttle diferencias principales
 

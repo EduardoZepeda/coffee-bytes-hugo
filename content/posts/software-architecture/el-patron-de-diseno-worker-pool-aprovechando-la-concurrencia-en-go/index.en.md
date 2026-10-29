@@ -49,7 +49,7 @@ The worker pool pattern fixes this by keeping a fixed number of workers and reus
 
 The worker pool is a classic [design pattern]({{< ref path="/posts/python/patrones-de-diseno-en-python-resena-de-practical-python-design-patterns/index.md" lang="en" >}}). 
 
-{{<workerPool>}}
+{{< reactApp id="app-worker-pool" >}}
 
 This pattern has been used to [handle a million requests per minute in Go](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang).
 

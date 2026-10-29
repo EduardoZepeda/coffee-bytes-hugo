@@ -296,14 +296,27 @@ const DebounceThrottleDemo = () => {
 };
 
 
+const CONTAINER_ID = "app-debounce-vs-throttle";
+
 function renderBounceVsThrottle() {
-    if (document.getElementById("app-debounce-vs-throttle")) {
-        document.body.addEventListener('htmx:afterSettle', renderBounceVsThrottle);
-        document.body.addEventListener('htmx:historyRestore', renderBounceVsThrottle);
-        render(<><style dangerouslySetInnerHTML={{ __html: css }} /><DebounceThrottleDemo /></>, document.getElementById('app-debounce-vs-throttle').attachShadow({ mode: 'open' }));
-    }
-    return;
+    const container = document.getElementById(CONTAINER_ID);
+    if (!container) return;
+
+    const root = container.shadowRoot ?? container.attachShadow({ mode: "open" });
+
+    render(
+        <>
+            <style dangerouslySetInnerHTML={{ __html: css }} />
+            <DebounceThrottleDemo />
+        </>,
+        root
+    );
 }
+
+// Register once at module evaluation so it works on any page reached via hx-boost.
+["htmx:afterSettle", "htmx:historyRestore"].forEach((event) =>
+    document.addEventListener(event, renderBounceVsThrottle)
+);
 
 export default renderBounceVsThrottle;
 

@@ -486,13 +486,26 @@ const SwissTableSimulator = () => {
     );
 };
 
+const CONTAINER_ID = "app-swiss-table";
+
 function renderSwissTable() {
-    if (document.getElementById("app-swiss-table")) {
-        document.body.addEventListener('htmx:afterSettle', renderSwissTable);
-        document.body.addEventListener('htmx:historyRestore', renderSwissTable);
-        render(<><style dangerouslySetInnerHTML={{ __html: css }} /><SwissTableSimulator /></>, document.getElementById('app-swiss-table').attachShadow({ mode: 'open' }));
-    }
-    return;
+    const container = document.getElementById(CONTAINER_ID);
+    if (!container) return;
+
+    const root = container.shadowRoot ?? container.attachShadow({ mode: "open" });
+
+    render(
+        <>
+            <style dangerouslySetInnerHTML={{ __html: css }} />
+            <SwissTableSimulator />
+        </>,
+        root
+    );
 }
+
+// Register once at module evaluation so it works on any page reached via hx-boost.
+["htmx:afterSettle", "htmx:historyRestore"].forEach((event) =>
+    document.addEventListener(event, renderSwissTable)
+);
 
 export default renderSwissTable;

@@ -227,13 +227,26 @@ function BloomFilterSimulator() {
 	);
 };
 
+const CONTAINER_ID = "app-bloom-filter";
+
 function renderBloomFilter() {
-	if (document.getElementById("app-bloom-filter")) {
-		document.body.addEventListener('htmx:afterSettle', renderBloomFilter);
-		document.body.addEventListener('htmx:historyRestore', renderBloomFilter);
-		render(<><style dangerouslySetInnerHTML={{ __html: css }} /><BloomFilterSimulator /></>, document.getElementById('app-bloom-filter').attachShadow({ mode: 'open' }));
-	}
-	return;
+	const container = document.getElementById(CONTAINER_ID);
+	if (!container) return;
+
+	const root = container.shadowRoot ?? container.attachShadow({ mode: "open" });
+
+	render(
+		<>
+			<style dangerouslySetInnerHTML={{ __html: css }} />
+			<BloomFilterSimulator />
+		</>,
+		root
+	);
 }
+
+// Register once at module evaluation so it works on any page reached via hx-boost.
+["htmx:afterSettle", "htmx:historyRestore"].forEach((event) =>
+	document.addEventListener(event, renderBloomFilter)
+);
 
 export default renderBloomFilter;

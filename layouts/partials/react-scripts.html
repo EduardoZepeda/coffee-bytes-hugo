@@ -1,0 +1,5 @@
+{{- /* Single source of truth for the interactive Preact/React shortcodes bundle. */ -}}
+{{- if not (.Page.Store.Get "reactScriptsLoaded") -}}
+  {{- .Page.Store.Set "reactScriptsLoaded" true -}}
+  <script type="module" src="https://res.cloudinary.com/dwrscezd2/raw/upload/v1793239390/coffee-bytes/index-ynsjsGeF_zpqckl.js"></script>
+{{- end -}}

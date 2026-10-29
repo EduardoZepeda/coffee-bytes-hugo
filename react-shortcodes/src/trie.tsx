@@ -563,13 +563,26 @@ function TrieSimulator() {
 }
 
 
+const CONTAINER_ID = "app-trie-simulator";
+
 function renderTrie() {
-  if (document.getElementById("app-trie-simulator")) {
-    document.body.addEventListener('htmx:afterSettle', renderTrie);
-    document.body.addEventListener('htmx:historyRestore', renderTrie);
-    render(<><style dangerouslySetInnerHTML={{ __html: css + cssFlow }} /><TrieSimulator /></>, document.getElementById('app-trie-simulator').attachShadow({ mode: 'open' }));
-  }
-  return;
+  const container = document.getElementById(CONTAINER_ID);
+  if (!container) return;
+
+  const root = container.shadowRoot ?? container.attachShadow({ mode: "open" });
+
+  render(
+    <>
+      <style dangerouslySetInnerHTML={{ __html: css + cssFlow }} />
+      <TrieSimulator />
+    </>,
+    root
+  );
 }
+
+// Register once at module evaluation so it works on any page reached via hx-boost.
+["htmx:afterSettle", "htmx:historyRestore"].forEach((event) =>
+  document.addEventListener(event, renderTrie)
+);
 
 export default renderTrie;
