@@ -56,7 +56,7 @@ What I mean is that using an intermediary will almost always come across as less
 
 The benefits go beyond that. Learning a language changes the way you perceive reality. Each language builds its worldview through different words, and there's no way to understand that difference except by learning and speaking it.
 
-Take grammatical gender. In Spanish and other Romance languages, every noun has a gender - masculine or feminine. This splits everything into one category or the other. It changes how you see things; gender takes on importance. You can notice this by using the feminine plural in Spanish-speaking countries (since masculine is the default) - I dare you to try it.
+Take grammatical gender. In Spanish and other Romance languages, every noun has a gender - masculine or feminine. This splits everything into one category or the other. It changes how you see things; gender takes on importance. You can notice this by using the feminine plural in Spanish-speaking countries (since masculine is the default) - I dare you to try it, make sure to look at their faces.
 
 You might like that every word has a gender. But other languages do it differently. Indonesian, for example, has no grammatical gender at all - everything is neutral. It also has no complex verb conjugations tied to gender or person; context is usually enough to be understood.
 
