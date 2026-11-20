@@ -42,7 +42,7 @@ Imagine pulling out your phone to talk to someone in another country. If you try
 
 It's a matter of perception. If I'm in my home country and a foreigner speaks my language, I'll unconsciously treat them better. It tells me they cared enough about my culture to spend hours learning it so they could communicate better - even if all they know is "please", "thank you", or "how are you?"
 
-## It's not about quality, it's about the middleman
+## It's all about the middleman
 
 AI tools can help with translation, whether it's speech-to-text or more sophisticated devices that can mimic your voice in another language. Tools like KokoroTTS, KittenTTS, or Eleven Labs might make a universal translator a reality soon.
 
