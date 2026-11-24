@@ -2,7 +2,7 @@
 title: "Eduardo Zepeda"
 name: "Eduardo Zepeda"
 photo: 'https://res.cloudinary.com/dwrscezd2/image/upload/v1751669772/coffee-bytes/ed-zepeda-250_khvdod.jpg'
-summary: "Just call me Ed. developer and Linux (GNU/Linux) preacher. I like boring and predictable frameworks, the more opinionated and less boilerplate the better. I think Django is the best framework for MVPs. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
+summary: "Just call me Ed. developer and Linux (GNU/Linux) preacher. I learned to code way before way before AI. I like boring and predictable tech, the more opinionated and less boilerplate the better. I think Django is the best framework for MVPs. I used to believe in the goodness of cryptocurrencies outside of monetary speculation."
 threads: "zeedu.dev"
 github: "EduardoZepeda"
 instagram: "zeedu.dev"
@@ -33,5 +33,3 @@ I feel passion towards art cinema, anime, and manga. A deep affection for video 
 I’m a proud coffee nerd who is keen to find promising places to drink good quality coffee.
 
 **I am a teetotaler and do not smoke**.
-
-
